@@ -11,11 +11,10 @@ class XmlMemberMapping;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlMemberMapping);
-// Type: System.Xml.Serialization::XmlMemberMapping
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlMemberMapping*
+// CS Name: System.Xml.Serialization.XmlMemberMapping
 class CORDL_TYPE XmlMemberMapping : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   XmlMemberMapping(XmlMemberMapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

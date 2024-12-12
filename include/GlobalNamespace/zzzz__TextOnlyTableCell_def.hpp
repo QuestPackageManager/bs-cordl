@@ -11,7 +11,7 @@ namespace HMUI {
 class ImageView;
 }
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+struct SelectableCell_TransitionType;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -22,11 +22,10 @@ class TextOnlyTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TextOnlyTableCell);
-// Type: ::TextOnlyTableCell
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TextOnlyTableCell*
+// CS Name: TextOnlyTableCell
 class CORDL_TYPE TextOnlyTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -44,16 +43,16 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x3b9a09c, size 0x4, virtual true, abstract: false, final false
-  inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method HighlightDidChange, addr 0x3bfc1ec, size 0x4, virtual true, abstract: false, final false
+  inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::TextOnlyTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3b99fd0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3bfc120, size 0xcc, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3b99fcc, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method SelectionDidChange, addr 0x3bfc11c, size 0x4, virtual true, abstract: false, final false
+  inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__bgImage() const;
 
@@ -79,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b9a0a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfc1f0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3b99f84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3bfc0d4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x3b99fa8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3bfc0f8, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -102,6 +101,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextOnlyTableCell(TextOnlyTableCell const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4767 };
+
   /// @brief Field _selectedHighlightColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedHighlightColor;
 
@@ -114,14 +116,9 @@ public:
   /// @brief Field _highlightImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____highlightImage;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4751 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextOnlyTableCell, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____selectedHighlightColor) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____text) == 0x78, "Offset mismatch!");
@@ -129,6 +126,8 @@ static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____text) == 0x78, 
 static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____bgImage) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____highlightImage) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextOnlyTableCell, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextOnlyTableCell);

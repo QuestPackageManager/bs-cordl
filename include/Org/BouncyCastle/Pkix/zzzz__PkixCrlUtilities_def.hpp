@@ -29,27 +29,26 @@ class PkixCrlUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCrlUtilities);
-// Type: Org.BouncyCastle.Pkix::PkixCrlUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixCrlUtilities*
+// CS Name: Org.BouncyCastle.Pkix.PkixCrlUtilities
 class CORDL_TYPE PkixCrlUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCrls, addr 0x254e384, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method FindCrls, addr 0x2581670, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* crlselect, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPkix);
 
-  /// @brief Method FindCrls, addr 0x254d674, size 0x798, virtual true, abstract: false, final false
+  /// @brief Method FindCrls, addr 0x2580960, size 0x798, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* crlselect, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPkix,
                                                                      ::System::DateTime currentDate);
 
-  /// @brief Method FindCrls, addr 0x254de0c, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method FindCrls, addr 0x25810f8, size 0x578, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* crlSelect, ::System::Collections::IList* crlStores);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCrlUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x254d664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2580950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

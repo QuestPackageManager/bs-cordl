@@ -24,11 +24,10 @@ class SelectLevelDestination;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SelectLevelDestination);
-// Type: ::SelectLevelDestination
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficulty, MenuDestination
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SelectLevelDestination*
+// CS Name: SelectLevelDestination
 class CORDL_TYPE SelectLevelDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
@@ -55,13 +54,13 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
+  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get_beatmapLevel() const;
+
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
+  constexpr ::GlobalNamespace::BeatmapLevelPack* const& __cordl_internal_get_beatmapLevelPack() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
 
   constexpr void __cordl_internal_set_beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
@@ -71,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  /// @brief Method .ctor, addr 0x2678368, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac920, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectLevelDestination(SelectLevelDestination const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12817 };
+
   /// @brief Field beatmapLevelPack, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ___beatmapLevelPack;
 
@@ -101,14 +103,9 @@ public:
   /// @brief Field beatmapCharacteristic, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ___beatmapCharacteristic;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12783 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLevelDestination, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapLevelPack) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapLevel) == 0x18, "Offset mismatch!");
@@ -116,6 +113,8 @@ static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapLeve
 static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapDifficulty) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapCharacteristic) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLevelDestination, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectLevelDestination);

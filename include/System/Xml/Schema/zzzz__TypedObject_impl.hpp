@@ -6,143 +6,143 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Xml::Schema::__TypedObject__DecimalStruct.get_IsDecimal
+//  Writing Method size for method: ::System::Xml::Schema::TypedObject_DecimalStruct.get_IsDecimal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::__TypedObject__DecimalStruct::*)()>(
-    &::System::Xml::Schema::__TypedObject__DecimalStruct::get_IsDecimal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(
+    &::System::Xml::Schema::TypedObject_DecimalStruct::get_IsDecimal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4337208;
+  constexpr static std::size_t addrs = 0x439851c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
                                                                                "get_IsDecimal", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__TypedObject__DecimalStruct.set_IsDecimal
+//  Writing Method size for method: ::System::Xml::Schema::TypedObject_DecimalStruct.set_IsDecimal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__TypedObject__DecimalStruct::*)(bool)>(
-    &::System::Xml::Schema::__TypedObject__DecimalStruct::set_IsDecimal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)(bool)>(
+    &::System::Xml::Schema::TypedObject_DecimalStruct::set_IsDecimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4337210;
+  constexpr static std::size_t addrs = 0x4398524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(), "set_IsDecimal",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(), "set_IsDecimal",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__TypedObject__DecimalStruct.get_Dvalue
+//  Writing Method size for method: ::System::Xml::Schema::TypedObject_DecimalStruct.get_Dvalue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> (::System::Xml::Schema::__TypedObject__DecimalStruct::*)()>(
-    &::System::Xml::Schema::__TypedObject__DecimalStruct::get_Dvalue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(
+    &::System::Xml::Schema::TypedObject_DecimalStruct::get_Dvalue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433721c;
+  constexpr static std::size_t addrs = 0x4398530;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
                                                                                "get_Dvalue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__TypedObject__DecimalStruct._ctor
+//  Writing Method size for method: ::System::Xml::Schema::TypedObject_DecimalStruct._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__TypedObject__DecimalStruct::*)()>(
-    &::System::Xml::Schema::__TypedObject__DecimalStruct::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(
+    &::System::Xml::Schema::TypedObject_DecimalStruct::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4336e28;
+  constexpr static std::size_t addrs = 0x439813c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__TypedObject__DecimalStruct._ctor
+//  Writing Method size for method: ::System::Xml::Schema::TypedObject_DecimalStruct._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__TypedObject__DecimalStruct::*)(int32_t)>(
-    &::System::Xml::Schema::__TypedObject__DecimalStruct::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)(int32_t)>(
+    &::System::Xml::Schema::TypedObject_DecimalStruct::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4336dc0;
+  constexpr static std::size_t addrs = 0x43980d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& System::Xml::Schema::__TypedObject__DecimalStruct::__cordl_internal_get_isDecimal() {
+constexpr bool& System::Xml::Schema::TypedObject_DecimalStruct::__cordl_internal_get_isDecimal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDecimal;
 }
-constexpr bool const& System::Xml::Schema::__TypedObject__DecimalStruct::__cordl_internal_get_isDecimal() const {
+constexpr bool const& System::Xml::Schema::TypedObject_DecimalStruct::__cordl_internal_get_isDecimal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDecimal;
 }
-constexpr void System::Xml::Schema::__TypedObject__DecimalStruct::__cordl_internal_set_isDecimal(bool value) {
+constexpr void System::Xml::Schema::TypedObject_DecimalStruct::__cordl_internal_set_isDecimal(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isDecimal = value;
 }
-constexpr ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*>& System::Xml::Schema::__TypedObject__DecimalStruct::__cordl_internal_get_dvalue() {
+constexpr ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*>& System::Xml::Schema::TypedObject_DecimalStruct::__cordl_internal_get_dvalue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dvalue;
 }
-constexpr ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> const& System::Xml::Schema::__TypedObject__DecimalStruct::__cordl_internal_get_dvalue() const {
+constexpr ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> const& System::Xml::Schema::TypedObject_DecimalStruct::__cordl_internal_get_dvalue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dvalue;
 }
-constexpr void System::Xml::Schema::__TypedObject__DecimalStruct::__cordl_internal_set_dvalue(::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> value) {
+constexpr void System::Xml::Schema::TypedObject_DecimalStruct::__cordl_internal_set_dvalue(::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dvalue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline bool System::Xml::Schema::__TypedObject__DecimalStruct::get_IsDecimal() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(),
+inline bool System::Xml::Schema::TypedObject_DecimalStruct::get_IsDecimal() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
                                                                              "get_IsDecimal", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Xml::Schema::__TypedObject__DecimalStruct::set_IsDecimal(bool value) {
+inline void System::Xml::Schema::TypedObject_DecimalStruct::set_IsDecimal(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(), "set_IsDecimal",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(), "set_IsDecimal",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> System::Xml::Schema::__TypedObject__DecimalStruct::get_Dvalue() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(),
+inline ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> System::Xml::Schema::TypedObject_DecimalStruct::get_Dvalue() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
                                                                              "get_Dvalue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Decimal, ::Array<::System::Decimal>*>, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::__TypedObject__DecimalStruct* System::Xml::Schema::__TypedObject__DecimalStruct::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__TypedObject__DecimalStruct*>());
-}
-inline void System::Xml::Schema::__TypedObject__DecimalStruct::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void System::Xml::Schema::TypedObject_DecimalStruct::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::__TypedObject__DecimalStruct* System::Xml::Schema::__TypedObject__DecimalStruct::New_ctor(int32_t dim) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__TypedObject__DecimalStruct*>(dim));
-}
-inline void System::Xml::Schema::__TypedObject__DecimalStruct::_ctor(int32_t dim) {
+inline void System::Xml::Schema::TypedObject_DecimalStruct::_ctor(int32_t dim) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__TypedObject__DecimalStruct*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dim);
 }
+inline ::System::Xml::Schema::TypedObject_DecimalStruct* System::Xml::Schema::TypedObject_DecimalStruct::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::TypedObject_DecimalStruct*>());
+}
+inline ::System::Xml::Schema::TypedObject_DecimalStruct* System::Xml::Schema::TypedObject_DecimalStruct::New_ctor(int32_t dim) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::TypedObject_DecimalStruct*>(dim));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__TypedObject__DecimalStruct::__TypedObject__DecimalStruct() {}
+constexpr ::System::Xml::Schema::TypedObject_DecimalStruct::TypedObject_DecimalStruct() {}
 //  Writing Method size for method: ::System::Xml::Schema::TypedObject.get_Dim
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Dim)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4336994;
+  constexpr static std::size_t addrs = 0x4397ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Dim",
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_IsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433699c;
+  constexpr static std::size_t addrs = 0x4397cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_IsList",
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_IsDecimal)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43369a4;
+  constexpr static std::size_t addrs = 0x4397cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_IsDecimal",
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> (::System::Xml::Schema::TypedObject::*)()>(
     &::System::Xml::Schema::TypedObject::get_Dvalue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43369c0;
+  constexpr static std::size_t addrs = 0x4397cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Dvalue",
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43369dc;
+  constexpr static std::size_t addrs = 0x4397cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Value",
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaDatatype* (::System::Xml::Schema::TypedObject::*)()>(
     &::System::Xml::Schema::TypedObject::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43369e4;
+  constexpr static std::size_t addrs = 0x4397cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Type",
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::TypedObject::*)(::System::Object*, ::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::TypedObject::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x43369ec;
+  constexpr static std::size_t addrs = 0x4397d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4336b48;
+  constexpr static std::size_t addrs = 0x4397e5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::SetDecimal)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x4336b50;
+  constexpr static std::size_t addrs = 0x4397e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "SetDecimal",
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(
     &::System::Xml::Schema::TypedObject::ListDValueEquals)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4336e84;
+  constexpr static std::size_t addrs = 0x4398198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(
     &::System::Xml::Schema::TypedObject::Equals)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x4336f98;
+  constexpr static std::size_t addrs = 0x43982ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -290,15 +290,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::__TypedObject__DecimalStruct*& System::Xml::Schema::TypedObject::__cordl_internal_get_dstruct() {
+constexpr ::System::Xml::Schema::TypedObject_DecimalStruct*& System::Xml::Schema::TypedObject::__cordl_internal_get_dstruct() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dstruct;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__TypedObject__DecimalStruct*> const& System::Xml::Schema::TypedObject::__cordl_internal_get_dstruct() const {
+constexpr ::System::Xml::Schema::TypedObject_DecimalStruct* const& System::Xml::Schema::TypedObject::__cordl_internal_get_dstruct() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dstruct;
 }
-constexpr void System::Xml::Schema::TypedObject::__cordl_internal_set_dstruct(::System::Xml::Schema::__TypedObject__DecimalStruct* value) {
+constexpr void System::Xml::Schema::TypedObject::__cordl_internal_set_dstruct(::System::Xml::Schema::TypedObject_DecimalStruct* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dstruct)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -306,7 +306,7 @@ constexpr ::System::Object*& System::Xml::Schema::TypedObject::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovalue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::TypedObject::__cordl_internal_get_ovalue() const {
+constexpr ::System::Object* const& System::Xml::Schema::TypedObject::__cordl_internal_get_ovalue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovalue;
 }
@@ -330,7 +330,7 @@ constexpr ::System::Xml::Schema::XmlSchemaDatatype*& System::Xml::Schema::TypedO
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xsdtype;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& System::Xml::Schema::TypedObject::__cordl_internal_get_xsdtype() const {
+constexpr ::System::Xml::Schema::XmlSchemaDatatype* const& System::Xml::Schema::TypedObject::__cordl_internal_get_xsdtype() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xsdtype;
 }
@@ -392,9 +392,6 @@ inline ::System::Xml::Schema::XmlSchemaDatatype* System::Xml::Schema::TypedObjec
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaDatatype*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::TypedObject* System::Xml::Schema::TypedObject::New_ctor(::System::Object* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::TypedObject*>(obj, svalue, xsdtype));
-}
 inline void System::Xml::Schema::TypedObject::_ctor(::System::Object* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -423,6 +420,9 @@ inline bool System::Xml::Schema::TypedObject::Equals(::System::Xml::Schema::Type
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::TypedObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline ::System::Xml::Schema::TypedObject* System::Xml::Schema::TypedObject::New_ctor(::System::Object* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::TypedObject*>(obj, svalue, xsdtype));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::TypedObject::TypedObject() {}

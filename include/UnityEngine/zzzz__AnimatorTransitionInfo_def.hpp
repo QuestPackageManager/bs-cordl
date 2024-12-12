@@ -13,11 +13,10 @@ struct AnimatorTransitionInfo;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimatorTransitionInfo);
-// Type: UnityEngine::AnimatorTransitionInfo
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::AnimatorTransitionInfo
+// CS Name: UnityEngine.AnimatorTransitionInfo
 struct CORDL_TYPE AnimatorTransitionInfo {
 public:
   // Declarations
@@ -31,6 +30,12 @@ public:
   // }, CppParam { name: "m_TransitionType", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AnimatorTransitionInfo(int32_t m_FullPath, int32_t m_UserName, int32_t m_Name, bool m_HasFixedDuration, float_t m_Duration, float_t m_NormalizedTime, bool m_AnyState,
                                    int32_t m_TransitionType) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16865 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field m_FullPath, offset: 0x0, size: 0x4, def value: None
   int32_t m_FullPath;
@@ -56,17 +61,9 @@ public:
   /// @brief Field m_TransitionType, offset: 0x1c, size: 0x4, def value: None
   int32_t m_TransitionType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16826 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorTransitionInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_FullPath) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_UserName) == 0x4, "Offset mismatch!");
@@ -82,6 +79,8 @@ static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_NormalizedTime) 
 static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_AnyState) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_TransitionType) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorTransitionInfo, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorTransitionInfo, "UnityEngine", "AnimatorTransitionInfo");

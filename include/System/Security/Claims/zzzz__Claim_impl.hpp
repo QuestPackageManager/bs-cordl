@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Security::Claims::ClaimsIdentity*)>(&::System::Security::Claims::Claim::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c5781c;
+  constexpr static std::size_t addrs = 0x3cb7990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Security::Claims::ClaimsIdentity*, ::StringW, ::StringW)>(&::System::Security::Claims::Claim::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3c5c390;
+  constexpr static std::size_t addrs = 0x3cbc504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Security::Claims::Claim::*)(::System::Security::Claims::Claim*, ::System::Security::Claims::ClaimsIdentity*)>(&::System::Security::Claims::Claim::_ctor)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x3c5c6f4;
+  constexpr static std::size_t addrs = 0x3cbc868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Claims::Claim::OnDeserializedMethod)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c5c9ec;
+  constexpr static std::size_t addrs = 0x3cbcb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (::System::Security::Claims::Claim::*)()>(
     &::System::Security::Claims::Claim::get_Properties)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3c5c5cc;
+  constexpr static std::size_t addrs = 0x3cbc740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Properties",
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Claims::Claim::*)()>(
     &::System::Security::Claims::Claim::get_Subject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c5ca44;
+  constexpr static std::size_t addrs = 0x3cbcbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Subject",
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(::System::Security::Claims::ClaimsIdentity*)>(
     &::System::Security::Claims::Claim::set_Subject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c5ca4c;
+  constexpr static std::size_t addrs = 0x3cbcbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Claims::Claim::*)()>(&::System::Security::Claims::Claim::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c5ca54;
+  constexpr static std::size_t addrs = 0x3cbcbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Type",
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Claims::Claim::*)()>(&::System::Security::Claims::Claim::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c5ca5c;
+  constexpr static std::size_t addrs = 0x3cbcbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Value",
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Claims::Claim* (::System::Security::Claims::Claim::*)(::System::Security::Claims::ClaimsIdentity*)>(&::System::Security::Claims::Claim::Clone)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c5ca64;
+  constexpr static std::size_t addrs = 0x3cbcbd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Claims::Claim::*)()>(&::System::Security::Claims::Claim::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3c5cacc;
+  constexpr static std::size_t addrs = 0x3cbcc40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_properties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& System::Security::Claims::Claim::__cordl_internal_get_m_properties() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& System::Security::Claims::Claim::__cordl_internal_get_m_properties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_properties;
 }
@@ -261,7 +261,7 @@ constexpr ::System::Object*& System::Security::Claims::Claim::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_propertyLock;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Security::Claims::Claim::__cordl_internal_get_m_propertyLock() const {
+constexpr ::System::Object* const& System::Security::Claims::Claim::__cordl_internal_get_m_propertyLock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_propertyLock;
 }
@@ -273,17 +273,13 @@ constexpr ::System::Security::Claims::ClaimsIdentity*& System::Security::Claims:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_subject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::ClaimsIdentity*> const& System::Security::Claims::Claim::__cordl_internal_get_m_subject() const {
+constexpr ::System::Security::Claims::ClaimsIdentity* const& System::Security::Claims::Claim::__cordl_internal_get_m_subject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_subject;
 }
 constexpr void System::Security::Claims::Claim::__cordl_internal_set_m_subject(::System::Security::Claims::ClaimsIdentity* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_subject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Claims::Claim* System::Security::Claims::Claim::New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
-                                                                                    ::System::Security::Claims::ClaimsIdentity* subject) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Claims::Claim*>(type, value, valueType, issuer, originalIssuer, subject));
 }
 inline void System::Security::Claims::Claim::_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
                                                    ::System::Security::Claims::ClaimsIdentity* subject) {
@@ -295,10 +291,6 @@ inline void System::Security::Claims::Claim::_ctor(::StringW type, ::StringW val
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Claims::ClaimsIdentity*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, value, valueType, issuer, originalIssuer, subject);
 }
-inline ::System::Security::Claims::Claim* System::Security::Claims::Claim::New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
-                                                                                    ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Claims::Claim*>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue));
-}
 inline void System::Security::Claims::Claim::_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
                                                    ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,9 +301,6 @@ inline void System::Security::Claims::Claim::_ctor(::StringW type, ::StringW val
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Claims::ClaimsIdentity*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue);
-}
-inline ::System::Security::Claims::Claim* System::Security::Claims::Claim::New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Claims::Claim*>(other, subject));
 }
 inline void System::Security::Claims::Claim::_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject) {
   static auto* ___internal_method =
@@ -361,6 +350,17 @@ inline ::StringW System::Security::Claims::Claim::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Security::Claims::Claim* System::Security::Claims::Claim::New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
+                                                                                    ::System::Security::Claims::ClaimsIdentity* subject) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Claims::Claim*>(type, value, valueType, issuer, originalIssuer, subject));
+}
+inline ::System::Security::Claims::Claim* System::Security::Claims::Claim::New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
+                                                                                    ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Claims::Claim*>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue));
+}
+inline ::System::Security::Claims::Claim* System::Security::Claims::Claim::New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Claims::Claim*>(other, subject));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Claims::Claim::Claim() {}

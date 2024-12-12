@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/StyleFont.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFont_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleFont.get_value
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (::UnityEngine::UIElements::StyleFont::*)()>(
     &::UnityEngine::UIElements::StyleFont::get_value)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a1e840;
+  constexpr static std::size_t addrs = 0x4a83150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "get_value",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleFont::*)()>(
     &::UnityEngine::UIElements::StyleFont::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1e858;
+  constexpr static std::size_t addrs = 0x4a83168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "get_keyword",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::Font*)>(&::UnityEngine::UIElements::StyleFont::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1e860;
+  constexpr static std::size_t addrs = 0x4a83170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::Font*, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFont::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1e86c;
+  constexpr static std::size_t addrs = 0x4a8317c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleFont, ::UnityEngine::UIElements::StyleFont)>(
     &::UnityEngine::UIElements::StyleFont::op_Equality)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a1e878;
+  constexpr static std::size_t addrs = 0x4a83188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFont (*)(::UnityEngine::Font*)>(
     &::UnityEngine::UIElements::StyleFont::op_Implicit___UnityEngine__UIElements__StyleFont)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1e904;
+  constexpr static std::size_t addrs = 0x4a83214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::UIElements::StyleFont)>(
     &::UnityEngine::UIElements::StyleFont::Equals)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a1e90c;
+  constexpr static std::size_t addrs = 0x4a8321c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFont::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleFont::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a1e920;
+  constexpr static std::size_t addrs = 0x4a83230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleFont::*)()>(&::UnityEngine::UIElements::StyleFont::GetHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a1e99c;
+  constexpr static std::size_t addrs = 0x4a832ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleFont::*)()>(&::UnityEngine::UIElements::StyleFont::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a1ea34;
+  constexpr static std::size_t addrs = 0x4a83344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,22 +153,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>"
-constexpr UnityEngine::UIElements::StyleFont::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>*() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>"
-constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>* UnityEngine::UIElements::StyleFont::i___UnityEngine__UIElements__IStyleValue_1___UnityW___UnityEngine__Font__() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>"
-constexpr UnityEngine::UIElements::StyleFont::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>* UnityEngine::UIElements::StyleFont::i___System__IEquatable_1___UnityEngine__UIElements__StyleFont_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityW<::UnityEngine::Font> UnityEngine::UIElements::StyleFont::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "get_value",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -226,7 +210,23 @@ inline ::StringW UnityEngine::UIElements::StyleFont::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Keyword", ty:
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>"
+constexpr UnityEngine::UIElements::StyleFont::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>*() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>"
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>* UnityEngine::UIElements::StyleFont::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__Font__() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>"
+constexpr UnityEngine::UIElements::StyleFont::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>* UnityEngine::UIElements::StyleFont::i___System__IEquatable_1___UnityEngine__UIElements__StyleFont_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty:
 // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::StyleFont::StyleFont(::UnityW<::UnityEngine::Font> m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept {
   this->m_Value = m_Value;

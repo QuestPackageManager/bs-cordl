@@ -23,11 +23,10 @@ class RsaBlindingFactorGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::RsaBlindingFactorGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::RsaBlindingFactorGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.RsaBlindingFactorGenerator
 class CORDL_TYPE RsaBlindingFactorGenerator : public ::System::Object {
 public:
   // Declarations
@@ -37,27 +36,27 @@ public:
   /// @brief Field random, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
-  /// @brief Method GenerateBlindingFactor, addr 0x235a888, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GenerateBlindingFactor, addr 0x238db74, size 0x174, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateBlindingFactor();
 
-  /// @brief Method Init, addr 0x235a6b8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x238d9a4, size 0x1d0, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator* New_ctor();
 
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* const& __cordl_internal_get_key() const;
+
   constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_key() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x235a9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238dce8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsaBlindingFactorGenerator(RsaBlindingFactorGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 922 };
+
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ___key;
 
   /// @brief Field random, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 922 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator, ___key) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator, ___random) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator);

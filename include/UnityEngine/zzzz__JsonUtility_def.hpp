@@ -18,33 +18,32 @@ class JsonUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::JsonUtility);
-// Type: UnityEngine::JsonUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::JsonUtility*
+// CS Name: UnityEngine.JsonUtility
 class CORDL_TYPE JsonUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x488639c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x48eaa2c, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Object* FromJson(::StringW json, ::System::Type* type);
 
   /// @brief Method FromJson, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromJson(::StringW json);
 
-  /// @brief Method FromJsonInternal, addr 0x48861d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromJsonInternal, addr 0x48ea860, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* FromJsonInternal(::StringW json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
-  /// @brief Method FromJsonOverwrite, addr 0x4886588, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method FromJsonOverwrite, addr 0x48eac18, size 0x1bc, virtual false, abstract: false, final false
   static inline void FromJsonOverwrite(::StringW json, ::System::Object* objectToOverwrite);
 
-  /// @brief Method ToJson, addr 0x4886224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x48ea8b4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj);
 
-  /// @brief Method ToJson, addr 0x488622c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x48ea8bc, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj, bool prettyPrint);
 
-  /// @brief Method ToJsonInternal, addr 0x488618c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ToJsonInternal, addr 0x48ea81c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW ToJsonInternal(::System::Object* obj, bool prettyPrint);
 
 protected:
@@ -62,7 +61,7 @@ public:
   JsonUtility(JsonUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

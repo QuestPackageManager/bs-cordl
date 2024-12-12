@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IPHostEntry)
 namespace System::Net {
@@ -16,11 +15,10 @@ class IPHostEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::IPHostEntry);
-// Type: System.Net::IPHostEntry
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::IPHostEntry*
+// CS Name: System.Net.IPHostEntry
 class CORDL_TYPE IPHostEntry : public ::System::Object {
 public:
   // Declarations
@@ -68,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
-  /// @brief Method .ctor, addr 0x443e188, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449f49c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressList, addr 0x443e178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressList, addr 0x449f48c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_AddressList();
 
-  /// @brief Method get_HostName, addr 0x443e160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x449f474, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_AddressList, addr 0x443e180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressList, addr 0x449f494, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
-  /// @brief Method set_Aliases, addr 0x443e170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Aliases, addr 0x449f484, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_HostName, addr 0x443e168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x449f47c, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
 protected:
@@ -100,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IPHostEntry(IPHostEntry const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9587 };
+
   /// @brief Field hostName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___hostName;
 
@@ -112,14 +113,9 @@ public:
   /// @brief Field isTrustedHost, offset: 0x28, size: 0x1, def value: None
   bool ___isTrustedHost;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9562 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::IPHostEntry, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::IPHostEntry, ___hostName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::IPHostEntry, ___aliases) == 0x18, "Offset mismatch!");
@@ -127,6 +123,8 @@ static_assert(offsetof(::System::Net::IPHostEntry, ___aliases) == 0x18, "Offset 
 static_assert(offsetof(::System::Net::IPHostEntry, ___addressList) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::IPHostEntry, ___isTrustedHost) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::IPHostEntry, 0x30>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::IPHostEntry);

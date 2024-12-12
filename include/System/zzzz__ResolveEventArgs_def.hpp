@@ -15,11 +15,10 @@ class ResolveEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ResolveEventArgs);
-// Type: System::ResolveEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System {
 // Is value type: false
-// CS Name: ::System::ResolveEventArgs*
+// CS Name: System.ResolveEventArgs
 class CORDL_TYPE ResolveEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -40,21 +39,21 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__RequestingAssembly_k__BackingField();
+  constexpr ::System::Reflection::Assembly* const& __cordl_internal_get__RequestingAssembly_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get__RequestingAssembly_k__BackingField() const;
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__RequestingAssembly_k__BackingField();
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__RequestingAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x3d9b104, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfb174, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3d9b170, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfb1e0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
 
-  /// @brief Method get_Name, addr 0x3d9b1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3dfb250, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResolveEventArgs(ResolveEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2464 };
+
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
   /// @brief Field <RequestingAssembly>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::Assembly* ____RequestingAssembly_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2464 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ResolveEventArgs, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::ResolveEventArgs, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ResolveEventArgs, ____RequestingAssembly_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ResolveEventArgs, 0x20>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ResolveEventArgs);

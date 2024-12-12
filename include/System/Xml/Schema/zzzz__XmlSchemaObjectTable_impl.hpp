@@ -1,5 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/Schema/XmlSchemaObjectTable.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectTable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectTable_def.hpp"
@@ -8,7 +12,6 @@
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectTable_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"
@@ -16,531 +19,526 @@
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType::__XmlSchemaObjectTable__EnumeratorType(int32_t value__) noexcept {
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType::XmlSchemaObjectTable_EnumeratorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType::__XmlSchemaObjectTable__EnumeratorType() {}
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType::Keys{ static_cast<int32_t>(0x0) };
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType::Values{ static_cast<int32_t>(0x1) };
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType::DictionaryEntry{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry._ctor
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType::XmlSchemaObjectTable_EnumeratorType() {}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType::Keys{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType::Values{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType::DictionaryEntry{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry::*)(
-    ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry::*)(
+    ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425d4c8;
+  constexpr static std::size_t addrs = 0x42be7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObject*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry::_ctor(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::XmlSchemaObject* value) {
+inline void System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry::_ctor(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::XmlSchemaObject* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, value);
 }
-// Ctor Parameters [CppParam { name: "qname", ty: "::System::Xml::XmlQualifiedName*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "xso", ty:
-// "::System::Xml::Schema::XmlSchemaObject*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry::__XmlSchemaObjectTable__XmlSchemaObjectEntry(::System::Xml::XmlQualifiedName* qname,
-                                                                                                                            ::System::Xml::Schema::XmlSchemaObject* xso) noexcept {
+// Ctor Parameters [CppParam { name: "qname", ty: "::System::Xml::XmlQualifiedName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "xso", ty: "::System::Xml::Schema::XmlSchemaObject*",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry::XmlSchemaObjectTable_XmlSchemaObjectEntry(::System::Xml::XmlQualifiedName* qname,
+                                                                                                                      ::System::Xml::Schema::XmlSchemaObject* xso) noexcept {
   this->qname = qname;
   this->xso = xso;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry::__XmlSchemaObjectTable__XmlSchemaObjectEntry() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection._ctor
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry::XmlSchemaObjectTable_XmlSchemaObjectEntry() {}
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)(
-    ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*, int32_t)>(&::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::*)(
+    ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*, int32_t)>(&::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x425da58;
+  constexpr static std::size_t addrs = 0x42bed6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection.get_Count
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection.get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425db6c;
+  constexpr static std::size_t addrs = 0x42bee80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "get_Count",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "get_Count",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection.get_SyncRoot
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection.get_SyncRoot
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_SyncRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::get_SyncRoot)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x425db74;
+  constexpr static std::size_t addrs = 0x42bee88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "get_SyncRoot",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "get_SyncRoot",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection.get_IsSynchronized
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection.get_IsSynchronized
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_IsSynchronized)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::get_IsSynchronized)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x425dc18;
+  constexpr static std::size_t addrs = 0x42bef2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "get_IsSynchronized",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "get_IsSynchronized",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection.CopyTo
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection.CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)(::System::Array*, int32_t)>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::*)(::System::Array*, int32_t)>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::CopyTo)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x425dcbc;
+  constexpr static std::size_t addrs = 0x42befd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection.GetEnumerator
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection.GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x425dde4;
+  constexpr static std::size_t addrs = 0x42bf0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "GetEnumerator",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "GetEnumerator",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*&
-System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::__cordl_internal_get_entries() {
+constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*&
+System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::__cordl_internal_get_entries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*> const&
-System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::__cordl_internal_get_entries() const {
+constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* const&
+System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::__cordl_internal_get_entries() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::__cordl_internal_set_entries(
-    ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* value) {
+constexpr void System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::__cordl_internal_set_entries(
+    ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::__cordl_internal_get_size() {
+constexpr int32_t& System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::__cordl_internal_get_size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr int32_t const& System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::__cordl_internal_get_size() const {
+constexpr int32_t const& System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::__cordl_internal_get_size() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::__cordl_internal_set_size(int32_t value) {
+constexpr void System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::__cordl_internal_set_size(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
-inline ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*
-System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* entries,
-                                                                        int32_t size) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>(entries, size));
-}
-inline void System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* entries,
-                                                                                 int32_t size) {
+inline void System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries,
+                                                                              int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entries, size);
 }
-inline int32_t System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_Count() {
+inline int32_t System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::get_Count() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "get_Count",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "get_Count",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_SyncRoot() {
+inline ::System::Object* System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::get_SyncRoot() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "get_SyncRoot",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "get_SyncRoot",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_IsSynchronized() {
+inline bool System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::get_IsSynchronized() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "get_IsSynchronized",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "get_IsSynchronized",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::CopyTo(::System::Array* array, int32_t arrayIndex) {
+inline void System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::CopyTo(::System::Array* array, int32_t arrayIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
 }
-inline ::System::Collections::IEnumerator* System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::GetEnumerator() {
+inline ::System::Collections::IEnumerator* System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection*>::get(), "GetEnumerator",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>::get(), "GetEnumerator",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
+inline ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*
+System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, int32_t size) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*>(entries, size));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::__XmlSchemaObjectTable__ValuesCollection() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator._ctor
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection::XmlSchemaObjectTable_ValuesCollection() {}
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::*)(
-    ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*, int32_t, ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType)>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::*)(
+    ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*, int32_t, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType)>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x425de60;
+  constexpr static std::size_t addrs = 0x42bf174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator.get_Current
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x425dea4;
+  constexpr static std::size_t addrs = 0x42bf1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), "get_Current",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(), "get_Current",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator.MoveNext
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x425e05c;
+  constexpr static std::size_t addrs = 0x42bf370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator.Reset
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x425e0fc;
+  constexpr static std::size_t addrs = 0x42bf410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), "Reset",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(), "Reset",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*&
-System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_entries() {
+constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*&
+System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_entries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*> const&
-System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_entries() const {
+constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* const&
+System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_entries() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_set_entries(
-    ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* value) {
+constexpr void
+System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_set_entries(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_enumType() {
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_enumType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumType;
 }
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType const& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_enumType() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType const& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_enumType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumType;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_set_enumType(::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType value) {
+constexpr void System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_set_enumType(::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enumType = value;
 }
-constexpr int32_t& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_currentIndex() {
+constexpr int32_t& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_currentIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentIndex;
 }
-constexpr int32_t const& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_currentIndex() const {
+constexpr int32_t const& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_currentIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentIndex;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_set_currentIndex(int32_t value) {
+constexpr void System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_set_currentIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentIndex = value;
 }
-constexpr int32_t& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_size() {
+constexpr int32_t& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr int32_t const& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_size() const {
+constexpr int32_t const& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_size() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_set_size(int32_t value) {
+constexpr void System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_set_size(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
-constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_currentKey() {
+constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_currentKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_currentKey() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_currentKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentKey;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_set_currentKey(::System::Xml::XmlQualifiedName* value) {
+constexpr void System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_set_currentKey(::System::Xml::XmlQualifiedName* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::XmlSchemaObject*& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_currentValue() {
+constexpr ::System::Xml::Schema::XmlSchemaObject*& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_currentValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObject*> const& System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_get_currentValue() const {
+constexpr ::System::Xml::Schema::XmlSchemaObject* const& System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_get_currentValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentValue;
 }
-constexpr void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__cordl_internal_set_currentValue(::System::Xml::Schema::XmlSchemaObject* value) {
+constexpr void System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::__cordl_internal_set_currentValue(::System::Xml::Schema::XmlSchemaObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*
-System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* entries, int32_t size,
-                                                                     ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType enumType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>(entries, size, enumType));
-}
-inline void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* entries,
-                                                                              int32_t size, ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType enumType) {
+inline void System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries,
+                                                                           int32_t size, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entries, size, enumType);
 }
-inline ::System::Object* System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), "get_Current",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Object* System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(),
+                                                                             "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator*>::get(), "Reset",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>::get(),
+                                                                             "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters []
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::__XmlSchemaObjectTable__XSOEnumerator() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::*)(
-    ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*, int32_t, ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType)>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x425db28;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator.get_Entry
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Entry)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x425e10c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), "get_Entry",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator.get_Key
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Key)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x425e258;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), "get_Key",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator.get_Value
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::*)()>(
-    &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Value)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x425e388;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), "get_Value",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-constexpr System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-constexpr ::System::Collections::IDictionaryEnumerator* System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+inline ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*
+System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, int32_t size,
+                                                                  ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator*>(entries, size, enumType));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
-inline ::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*
-System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* entries,
-                                                                               int32_t size, ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType enumType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>(entries, size, enumType));
-}
-inline void
-System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* entries,
-                                                                            int32_t size, ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType enumType) {
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator::XmlSchemaObjectTable_XSOEnumerator() {}
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::*)(
+    ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*, int32_t, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType)>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::_ctor)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x42bee3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator.get_Entry
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::get_Entry)> {
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x42bf420;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), "get_Entry",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator.get_Key
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::get_Key)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x42bf56c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), "get_Key",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator.get_Value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::*)()>(
+    &::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::get_Value)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x42bf69c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), "get_Value",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries,
+                                                                                     int32_t size, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entries, size, enumType);
 }
-inline ::System::Collections::DictionaryEntry System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Entry() {
+inline ::System::Collections::DictionaryEntry System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::get_Entry() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), "get_Entry",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), "get_Entry",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::DictionaryEntry, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Key() {
+inline ::System::Object* System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::get_Key() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), "get_Key",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), "get_Key",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Value() {
+inline ::System::Object* System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::get_Value() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator*>::get(), "get_Value",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>::get(), "get_Value",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*
+System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries,
+                                                                            int32_t size, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator*>(entries, size, enumType));
+}
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
+constexpr System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+constexpr ::System::Collections::IDictionaryEnumerator* System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::__XmlSchemaObjectTable__XSODictionaryEnumerator() {}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator::XmlSchemaObjectTable_XSODictionaryEnumerator() {}
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectTable._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(&::System::Xml::Schema::XmlSchemaObjectTable::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x425d320;
+  constexpr static std::size_t addrs = 0x42be634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(), ".ctor",
@@ -554,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::XmlSchemaObjectTable::Add)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x425d3e4;
+  constexpr static std::size_t addrs = 0x42be6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(
     ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::XmlSchemaObjectTable::Insert)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x425d4d0;
+  constexpr static std::size_t addrs = 0x42be7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -586,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(
     ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::XmlSchemaObjectTable::Replace)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x425d660;
+  constexpr static std::size_t addrs = 0x42be974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(&::System::Xml::Schema::XmlSchemaObjectTable::Clear)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x425d740;
+  constexpr static std::size_t addrs = 0x42bea54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(), "Clear",
@@ -615,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaObjectTable::Remove)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x425d7d4;
+  constexpr static std::size_t addrs = 0x42beae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -630,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::XmlSchemaObjectTable::FindIndexByValue)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x425d5c4;
+  constexpr static std::size_t addrs = 0x42be8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -645,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(
     &::System::Xml::Schema::XmlSchemaObjectTable::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x425d8a4;
+  constexpr static std::size_t addrs = 0x42bebb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(), "get_Count",
@@ -659,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaObjectTable::Contains)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x425d8f4;
+  constexpr static std::size_t addrs = 0x42bec08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -674,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::XmlSchemaObject* (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaObjectTable::get_Item)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x425d94c;
+  constexpr static std::size_t addrs = 0x42bec60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(
     &::System::Xml::Schema::XmlSchemaObjectTable::get_Values)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x425d9c4;
+  constexpr static std::size_t addrs = 0x42becd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(),
@@ -703,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(
     &::System::Xml::Schema::XmlSchemaObjectTable::GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x425da88;
+  constexpr static std::size_t addrs = 0x42bed9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(),
@@ -716,7 +714,7 @@ System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_get_table() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___table;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*>* const&
 System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_get_table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___table;
@@ -726,22 +724,19 @@ System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_set_table(::System::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*& System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_get_entries() {
+constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*& System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_get_entries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*> const&
+constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* const&
 System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_get_entries() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
 constexpr void
-System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_set_entries(::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>* value) {
+System::Xml::Schema::XmlSchemaObjectTable::__cordl_internal_set_entries(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchemaObjectTable::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaObjectTable*>());
 }
 inline void System::Xml::Schema::XmlSchemaObjectTable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(), ".ctor",
@@ -812,6 +807,9 @@ inline ::System::Collections::IDictionaryEnumerator* System::Xml::Schema::XmlSch
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(),
                                                                              "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchemaObjectTable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaObjectTable*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable::XmlSchemaObjectTable() {}

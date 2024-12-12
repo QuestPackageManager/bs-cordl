@@ -18,11 +18,10 @@ class ReadOnlyDictionaryHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::ObjectModel::ReadOnlyDictionaryHelpers);
-// Type: System.Collections.ObjectModel::ReadOnlyDictionaryHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::ObjectModel {
 // Is value type: false
-// CS Name: ::System.Collections.ObjectModel::ReadOnlyDictionaryHelpers*
+// CS Name: System.Collections.ObjectModel.ReadOnlyDictionaryHelpers
 class CORDL_TYPE ReadOnlyDictionaryHelpers : public ::System::Object {
 public:
   // Declarations

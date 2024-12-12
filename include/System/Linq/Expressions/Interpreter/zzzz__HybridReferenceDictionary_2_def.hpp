@@ -3,10 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HybridReferenceDictionary_2)
 namespace System::Collections::Generic {
@@ -18,14 +19,8 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class __HybridReferenceDictionary_2___GetEnumeratorWorker_d__7;
-}
-namespace System {
-class IDisposable;
+template <typename TKey, typename TValue> class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
 }
 namespace System {
 class Object;
@@ -35,19 +30,18 @@ namespace System::Linq::Expressions::Interpreter {
 template <typename TKey, typename TValue> class HybridReferenceDictionary_2;
 }
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class __HybridReferenceDictionary_2___GetEnumeratorWorker_d__7;
+template <typename TKey, typename TValue> class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2);
-MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7);
-// Type: ::<GetEnumeratorWorker>d__7
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2__GetEnumeratorWorker_d__7);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::HybridReferenceDictionary`2::<GetEnumeratorWorker>d__7<TKey,TValue>*
-class CORDL_TYPE __HybridReferenceDictionary_2___GetEnumeratorWorker_d__7 : public ::System::Object {
+// CS Name: System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2/<GetEnumeratorWorker>d__7<TKey,TValue>
+class CORDL_TYPE HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>
@@ -79,7 +73,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::System::Linq::Expressions::Interpreter::__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7<TKey, TValue>* New_ctor(int32_t __1__state);
+  static inline ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2__GetEnumeratorWorker_d__7<TKey, TValue>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
   /// true
@@ -102,9 +96,9 @@ public:
 
   constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>*& __cordl_internal_get___4__this();
+  constexpr ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
   constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
@@ -134,16 +128,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HybridReferenceDictionary_2___GetEnumeratorWorker_d__7();
+  constexpr HybridReferenceDictionary_2__GetEnumeratorWorker_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2__GetEnumeratorWorker_d__7", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HybridReferenceDictionary_2___GetEnumeratorWorker_d__7(__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7&&) = delete;
+  HybridReferenceDictionary_2__GetEnumeratorWorker_d__7(HybridReferenceDictionary_2__GetEnumeratorWorker_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2__GetEnumeratorWorker_d__7", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HybridReferenceDictionary_2___GetEnumeratorWorker_d__7(__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7 const&) = delete;
+  HybridReferenceDictionary_2__GetEnumeratorWorker_d__7(HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14124 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -157,24 +154,20 @@ public:
   /// @brief Field <i>5__2, offset: 0x30, size: 0x4, def value: None
   int32_t ____i_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14090 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq::Expressions::Interpreter
-// Type: System.Linq.Expressions.Interpreter::HybridReferenceDictionary`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::HybridReferenceDictionary`2<TKey,TValue>*
+// CS Name: System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<TKey,TValue>
 class CORDL_TYPE HybridReferenceDictionary_2 : public ::System::Object {
 public:
   // Declarations
-  using _GetEnumeratorWorker_d__7 = ::System::Linq::Expressions::Interpreter::__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7<TKey, TValue>;
+  using _GetEnumeratorWorker_d__7 = ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2__GetEnumeratorWorker_d__7<TKey, TValue>;
 
   __declspec(property(get = get_Item, put = set_Item)) TValue Item[];
 
@@ -202,11 +195,11 @@ public:
   inline void Remove(TKey key);
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetValue(TKey key, ByRef<TValue> value);
+  inline bool TryGetValue(TKey key, ::ByRef<TValue> value);
+
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>* const& __cordl_internal_get__dict() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dict();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__dict() const;
 
   constexpr ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> const&
   __cordl_internal_get__keysAndValues() const;
@@ -241,19 +234,19 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HybridReferenceDictionary_2(HybridReferenceDictionary_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14125 };
+
   /// @brief Field _keysAndValues, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> ____keysAndValues;
 
   /// @brief Field _dict, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dict;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14091 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq::Expressions::Interpreter
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2, "System.Linq.Expressions.Interpreter", "HybridReferenceDictionary`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Expressions::Interpreter::__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7, "System.Linq.Expressions.Interpreter",
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2__GetEnumeratorWorker_d__7, "System.Linq.Expressions.Interpreter",
                                      "HybridReferenceDictionary`2/<GetEnumeratorWorker>d__7");

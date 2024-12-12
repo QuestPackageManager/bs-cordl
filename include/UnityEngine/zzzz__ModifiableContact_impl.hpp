@@ -2,7 +2,6 @@
 // IWYU pragma private; include "UnityEngine/ModifiableContact.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ModifiableContact_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "contact", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "separation", ty: "float_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "targetVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxImpulse", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "restitution", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {

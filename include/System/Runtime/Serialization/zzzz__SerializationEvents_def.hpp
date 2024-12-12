@@ -29,11 +29,10 @@ class SerializationEvents;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationEvents);
-// Type: System.Runtime.Serialization::SerializationEvents
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::SerializationEvents*
+// CS Name: System.Runtime.Serialization.SerializationEvents
 class CORDL_TYPE SerializationEvents : public ::System::Object {
 public:
   // Declarations
@@ -55,49 +54,49 @@ public:
   __declspec(property(get = __cordl_internal_get__onSerializingMethods,
                       put = __cordl_internal_set__onSerializingMethods)) ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onSerializingMethods;
 
-  /// @brief Method AddOnDelegate, addr 0x3c92e74, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method AddOnDelegate, addr 0x3cf2fe8, size 0x23c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationEventHandler* AddOnDelegate(::System::Object* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler,
                                                                                            ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* methods);
 
-  /// @brief Method AddOnDeserialized, addr 0x3c930b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AddOnDeserialized, addr 0x3cf3224, size 0x14, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::System::Object* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler);
 
-  /// @brief Method AddOnSerialized, addr 0x3c92e60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AddOnSerialized, addr 0x3cf2fd4, size 0x14, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEventHandler* AddOnSerialized(::System::Object* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler);
 
-  /// @brief Method GetMethodsWithAttribute, addr 0x3c92ab4, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method GetMethodsWithAttribute, addr 0x3cf2c28, size 0x240, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* GetMethodsWithAttribute(::System::Type* attribute, ::System::Type* t);
 
-  /// @brief Method InvokeOnDelegate, addr 0x3c92d68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnDelegate, addr 0x3cf2edc, size 0x50, virtual false, abstract: false, final false
   static inline void InvokeOnDelegate(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context,
                                       ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* methods);
 
-  /// @brief Method InvokeOnDeserialized, addr 0x3c92e0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnDeserialized, addr 0x3cf2f80, size 0x54, virtual false, abstract: false, final false
   inline void InvokeOnDeserialized(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InvokeOnDeserializing, addr 0x3c92db8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnDeserializing, addr 0x3cf2f2c, size 0x54, virtual false, abstract: false, final false
   inline void InvokeOnDeserializing(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InvokeOnSerializing, addr 0x3c92d14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnSerializing, addr 0x3cf2e88, size 0x54, virtual false, abstract: false, final false
   inline void InvokeOnSerializing(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Serialization::SerializationEvents* New_ctor(::System::Type* t);
 
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* const& __cordl_internal_get__onDeserializedMethods() const;
+
   constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onDeserializedMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onDeserializedMethods() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* const& __cordl_internal_get__onDeserializingMethods() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onDeserializingMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onDeserializingMethods() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* const& __cordl_internal_get__onSerializedMethods() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onSerializedMethods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onSerializedMethods() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* const& __cordl_internal_get__onSerializingMethods() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& __cordl_internal_get__onSerializingMethods();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*> const& __cordl_internal_get__onSerializingMethods() const;
 
   constexpr void __cordl_internal_set__onDeserializedMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
 
@@ -107,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set__onSerializingMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x3c92980, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf2af4, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
-  /// @brief Method get_HasOnSerializingEvents, addr 0x3c92cf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_HasOnSerializingEvents, addr 0x3cf2e68, size 0x20, virtual false, abstract: false, final false
   inline bool get_HasOnSerializingEvents();
 
 protected:
@@ -127,6 +126,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerializationEvents(SerializationEvents const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3207 };
+
   /// @brief Field _onSerializingMethods, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* ____onSerializingMethods;
 
@@ -139,14 +141,9 @@ public:
   /// @brief Field _onDeserializedMethods, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* ____onDeserializedMethods;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3207 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationEvents, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::SerializationEvents, ____onSerializingMethods) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::SerializationEvents, ____onSerializedMethods) == 0x18, "Offset mismatch!");
@@ -154,6 +151,8 @@ static_assert(offsetof(::System::Runtime::Serialization::SerializationEvents, __
 static_assert(offsetof(::System::Runtime::Serialization::SerializationEvents, ____onDeserializingMethods) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::SerializationEvents, ____onDeserializedMethods) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationEvents, 0x30>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::SerializationEvents);

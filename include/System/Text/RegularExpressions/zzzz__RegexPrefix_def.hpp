@@ -12,11 +12,10 @@ struct RegexPrefix;
 }
 // Write type traits
 MARK_VAL_T(::System::Text::RegularExpressions::RegexPrefix);
-// Type: System.Text.RegularExpressions::RegexPrefix
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// CS Name: ::System.Text.RegularExpressions::RegexPrefix
+// CS Name: System.Text.RegularExpressions.RegexPrefix
 struct CORDL_TYPE RegexPrefix {
 public:
   // Declarations
@@ -25,20 +24,20 @@ public:
   __declspec(property(get = get_Prefix)) ::StringW Prefix;
 
   /// @brief Field <Empty>k__BackingField, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField)) ::System::Text::RegularExpressions::RegexPrefix _Empty_k__BackingField;
+  __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField)) ::System::Text::RegularExpressions::RegexPrefix _Empty_k__BackingField;
 
-  /// @brief Method .ctor, addr 0x43bb8c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441cbdc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, bool ci);
 
   static inline ::System::Text::RegularExpressions::RegexPrefix getStaticF__Empty_k__BackingField();
 
-  /// @brief Method get_CaseInsensitive, addr 0x43c59e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x4426cf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method get_Empty, addr 0x43c59ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x4426d00, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexPrefix get_Empty();
 
-  /// @brief Method get_Prefix, addr 0x43c5a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x4426d58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
   static inline void setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::RegexPrefix value);
@@ -51,26 +50,26 @@ public:
   // def_value: None }]
   constexpr RegexPrefix(bool _CaseInsensitive_k__BackingField, ::StringW _Prefix_k__BackingField) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9242 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field <CaseInsensitive>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _CaseInsensitive_k__BackingField;
 
   /// @brief Field <Prefix>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _Prefix_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9217 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexPrefix, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::RegularExpressions::RegexPrefix, _CaseInsensitive_k__BackingField) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexPrefix, _Prefix_k__BackingField) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexPrefix, 0x10>, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexPrefix, "System.Text.RegularExpressions", "RegexPrefix");

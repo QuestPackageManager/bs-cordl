@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43bc484;
+  constexpr static std::size_t addrs = 0x441d798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(char16_t, bool, bool, bool)>(
     &::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x43bc5a8;
+  constexpr static std::size_t addrs = 0x441d8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(::StringW, bool, bool)>(
     &::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x43bc6a0;
+  constexpr static std::size_t addrs = 0x441d9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)(::System::Text::RegularExpressions::RegexFC*, bool)>(
     &::System::Text::RegularExpressions::RegexFC::AddFC)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x43bc4fc;
+  constexpr static std::size_t addrs = 0x441d810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)()>(
     &::System::Text::RegularExpressions::RegexFC::get_CaseInsensitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43bc738;
+  constexpr static std::size_t addrs = 0x441da4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFC*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(
     &::System::Text::RegularExpressions::RegexFC::set_CaseInsensitive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43bc740;
+  constexpr static std::size_t addrs = 0x441da54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexFC::*)(::System::Globalization::CultureInfo*)>(
     &::System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43bb890;
+  constexpr static std::size_t addrs = 0x441cba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ constexpr ::System::Text::RegularExpressions::RegexCharClass*& System::Text::Reg
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCharClass*> const& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__cc() const {
+constexpr ::System::Text::RegularExpressions::RegexCharClass* const& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__cc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cc;
 }
@@ -146,17 +146,11 @@ constexpr void System::Text::RegularExpressions::RegexFC::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CaseInsensitive_k__BackingField = value;
 }
-inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(bool nullable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexFC*>(nullable));
-}
 inline void System::Text::RegularExpressions::RegexFC::_ctor(bool nullable) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFC*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nullable);
-}
-inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexFC*>(ch, _cordl_not, nullable, caseInsensitive));
 }
 inline void System::Text::RegularExpressions::RegexFC::_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,9 +158,6 @@ inline void System::Text::RegularExpressions::RegexFC::_ctor(char16_t ch, bool _
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ch, _cordl_not, nullable, caseInsensitive);
-}
-inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(::StringW charClass, bool nullable, bool caseInsensitive) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexFC*>(charClass, nullable, caseInsensitive));
 }
 inline void System::Text::RegularExpressions::RegexFC::_ctor(::StringW charClass, bool nullable, bool caseInsensitive) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,6 +189,15 @@ inline ::StringW System::Text::RegularExpressions::RegexFC::GetFirstChars(::Syst
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFC*>::get(), "GetFirstChars", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, culture);
+}
+inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(bool nullable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexFC*>(nullable));
+}
+inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexFC*>(ch, _cordl_not, nullable, caseInsensitive));
+}
+inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(::StringW charClass, bool nullable, bool caseInsensitive) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexFC*>(charClass, nullable, caseInsensitive));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexFC::RegexFC() {}

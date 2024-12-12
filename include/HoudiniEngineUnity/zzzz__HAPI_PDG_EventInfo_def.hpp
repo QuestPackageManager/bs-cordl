@@ -12,11 +12,10 @@ struct HAPI_PDG_EventInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_EventInfo);
-// Type: HoudiniEngineUnity::HAPI_PDG_EventInfo
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_PDG_EventInfo
+// CS Name: HoudiniEngineUnity.HAPI_PDG_EventInfo
 struct CORDL_TYPE HAPI_PDG_EventInfo {
 public:
   // Declarations
@@ -28,6 +27,12 @@ public:
   // "dependencyId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currentState", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastState", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "eventType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "msgSH", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_PDG_EventInfo(int32_t nodeId, int32_t workitemId, int32_t dependencyId, int32_t currentState, int32_t lastState, int32_t eventType, int32_t msgSH) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11734 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
 
   /// @brief Field nodeId, offset: 0x0, size: 0x4, def value: None
   int32_t nodeId;
@@ -50,17 +55,9 @@ public:
   /// @brief Field msgSH, offset: 0x18, size: 0x4, def value: None
   int32_t msgSH;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11701 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PDG_EventInfo, 0x1c>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_EventInfo, nodeId) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_EventInfo, workitemId) == 0x4, "Offset mismatch!");
@@ -74,6 +71,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_EventInfo, lastState) == 0
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_EventInfo, eventType) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_EventInfo, msgSH) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PDG_EventInfo, 0x1c>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PDG_EventInfo, "HoudiniEngineUnity", "HAPI_PDG_EventInfo");

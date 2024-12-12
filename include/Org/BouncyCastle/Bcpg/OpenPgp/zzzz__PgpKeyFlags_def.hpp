@@ -12,17 +12,16 @@ class PgpKeyFlags;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags);
-// Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyFlags
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyFlags*
+// CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpKeyFlags
 class CORDL_TYPE PgpKeyFlags : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f7dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252b0b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

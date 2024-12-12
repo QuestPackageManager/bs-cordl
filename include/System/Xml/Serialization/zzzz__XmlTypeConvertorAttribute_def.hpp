@@ -12,11 +12,10 @@ class XmlTypeConvertorAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeConvertorAttribute);
-// Type: System.Xml.Serialization::XmlTypeConvertorAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlTypeConvertorAttribute*
+// CS Name: System.Xml.Serialization.XmlTypeConvertorAttribute
 class CORDL_TYPE XmlTypeConvertorAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43061d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43674e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
-  /// @brief Method get_Method, addr 0x43061c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x43674d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method set_Method, addr 0x43061c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Method, addr 0x43674dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Method(::StringW value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlTypeConvertorAttribute(XmlTypeConvertorAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7397 };
+
   /// @brief Field <Method>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Method_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeConvertorAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlTypeConvertorAttribute, ____Method_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeConvertorAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlTypeConvertorAttribute);

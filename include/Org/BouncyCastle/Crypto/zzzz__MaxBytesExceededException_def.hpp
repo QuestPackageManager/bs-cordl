@@ -15,11 +15,10 @@ class MaxBytesExceededException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::MaxBytesExceededException);
-// Type: Org.BouncyCastle.Crypto::MaxBytesExceededException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.CryptoException
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::MaxBytesExceededException*
+// CS Name: Org.BouncyCastle.Crypto.MaxBytesExceededException
 class CORDL_TYPE MaxBytesExceededException : public ::Org::BouncyCastle::Crypto::CryptoException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x2414c40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447f2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2414c44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447f30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2414c48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447f34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

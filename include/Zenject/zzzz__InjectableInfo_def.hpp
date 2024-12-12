@@ -22,11 +22,10 @@ class InjectableInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::InjectableInfo);
-// Type: Zenject::InjectableInfo
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.InjectSources
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::InjectableInfo*
+// CS Name: Zenject.InjectableInfo
 class CORDL_TYPE InjectableInfo : public ::System::Object {
 public:
   // Declarations
@@ -51,21 +50,21 @@ public:
   static inline ::Zenject::InjectableInfo* New_ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue,
                                                     ::Zenject::InjectSources sourceType);
 
+  constexpr ::System::Object* const& __cordl_internal_get_DefaultValue() const;
+
   constexpr ::System::Object*& __cordl_internal_get_DefaultValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_DefaultValue() const;
+  constexpr ::System::Object* const& __cordl_internal_get_Identifier() const;
 
   constexpr ::System::Object*& __cordl_internal_get_Identifier();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Identifier() const;
 
   constexpr ::StringW const& __cordl_internal_get_MemberName() const;
 
   constexpr ::StringW& __cordl_internal_get_MemberName();
 
-  constexpr ::System::Type*& __cordl_internal_get_MemberType();
+  constexpr ::System::Type* const& __cordl_internal_get_MemberType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_MemberType() const;
+  constexpr ::System::Type*& __cordl_internal_get_MemberType();
 
   constexpr bool const& __cordl_internal_get_Optional() const;
 
@@ -87,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_SourceType(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x4a8b754, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0064, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue, ::Zenject::InjectSources sourceType);
 
 protected:
@@ -103,6 +102,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InjectableInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InjectableInfo(InjectableInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18411 };
 
   /// @brief Field Optional, offset: 0x10, size: 0x1, def value: None
   bool ___Optional;
@@ -122,14 +124,9 @@ public:
   /// @brief Field DefaultValue, offset: 0x38, size: 0x8, def value: None
   ::System::Object* ___DefaultValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18330 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::InjectableInfo, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::InjectableInfo, ___Optional) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::InjectableInfo, ___Identifier) == 0x18, "Offset mismatch!");
@@ -141,6 +138,8 @@ static_assert(offsetof(::Zenject::InjectableInfo, ___MemberName) == 0x28, "Offse
 static_assert(offsetof(::Zenject::InjectableInfo, ___MemberType) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::InjectableInfo, ___DefaultValue) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::InjectableInfo, 0x40>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::InjectableInfo);

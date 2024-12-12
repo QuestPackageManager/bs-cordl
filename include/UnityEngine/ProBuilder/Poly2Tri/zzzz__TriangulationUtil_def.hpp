@@ -18,32 +18,31 @@ class TriangulationUtil;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil);
-// Type: UnityEngine.ProBuilder.Poly2Tri::TriangulationUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationUtil*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.TriangulationUtil
 class CORDL_TYPE TriangulationUtil : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EPSILON, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EPSILON, put = setStaticF_EPSILON)) double_t EPSILON;
+  __declspec(property(get = getStaticF_EPSILON, put = setStaticF_EPSILON)) double_t EPSILON;
 
-  /// @brief Method InScanArea, addr 0x4699d5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InScanArea, addr 0x46fb070, size 0x78, virtual false, abstract: false, final false
   static inline bool InScanArea(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                 ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil* New_ctor();
 
-  /// @brief Method Orient2d, addr 0x4698484, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Orient2d, addr 0x46f9798, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                                                           ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc);
 
-  /// @brief Method SmartIncircle, addr 0x469a634, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SmartIncircle, addr 0x46fb948, size 0xc4, virtual false, abstract: false, final false
   static inline bool SmartIncircle(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
-  /// @brief Method .ctor, addr 0x469bba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fcebc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline double_t getStaticF_EPSILON();
@@ -65,7 +64,7 @@ public:
   TriangulationUtil(TriangulationUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

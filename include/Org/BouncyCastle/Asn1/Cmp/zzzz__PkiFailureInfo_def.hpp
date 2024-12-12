@@ -16,11 +16,10 @@ class PkiFailureInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo);
-// Type: Org.BouncyCastle.Asn1.Cmp::PkiFailureInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerBitString
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiFailureInfo*
+// CS Name: Org.BouncyCastle.Asn1.Cmp.PkiFailureInfo
 class CORDL_TYPE PkiFailureInfo : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
@@ -28,13 +27,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* New_ctor(int32_t info);
 
-  /// @brief Method ToString, addr 0x22c50cc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22f83b8, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x22c503c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f8328, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* info);
 
-  /// @brief Method .ctor, addr 0x22c4fd8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f82c4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t info);
 
 protected:

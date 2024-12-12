@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GetViewDataDictionary::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::GetViewDataDictionary::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49dcc5c;
+  constexpr static std::size_t addrs = 0x4a4156c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ISerializableJsonDictionary* (::UnityEngine::UIElements::GetViewDataDictionary::*)()>(
     &::UnityEngine::UIElements::GetViewDataDictionary::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49dcce4;
+  constexpr static std::size_t addrs = 0x4a415f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,9 +37,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::GetViewDataDictionary* UnityEngine::UIElements::GetViewDataDictionary::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::GetViewDataDictionary*>(object, method));
-}
 inline void UnityEngine::UIElements::GetViewDataDictionary::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GetViewDataDictionary*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -51,6 +48,9 @@ inline ::UnityEngine::UIElements::ISerializableJsonDictionary* UnityEngine::UIEl
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GetViewDataDictionary*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ISerializableJsonDictionary*, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::GetViewDataDictionary* UnityEngine::UIElements::GetViewDataDictionary::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::GetViewDataDictionary*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GetViewDataDictionary::GetViewDataDictionary() {}

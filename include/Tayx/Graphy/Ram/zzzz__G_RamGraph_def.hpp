@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_RamGraph)
@@ -29,11 +28,10 @@ class G_RamGraph;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamGraph);
-// Type: Tayx.Graphy.Ram::G_RamGraph
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Tayx.Graphy.Graph.G_Graph
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Ram::G_RamGraph*
+// CS Name: Tayx.Graphy.Ram.G_RamGraph
 class CORDL_TYPE G_RamGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
   // Declarations
@@ -85,21 +83,21 @@ public:
   /// @brief Field m_shaderGraphReserved, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphReserved, put = __cordl_internal_set_m_shaderGraphReserved)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphReserved;
 
-  /// @brief Method CreatePoints, addr 0x44702c0, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x44d15d4, size 0x2ec, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x446fefc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d1210, size 0x158, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamGraph* New_ctor();
 
-  /// @brief Method Update, addr 0x446fca4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d0fb8, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x4470054, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x44d1368, size 0x26c, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x446fcb0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d0fc4, size 0x24c, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -154,17 +152,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_resolution();
 
+  constexpr ::Tayx::Graphy::G_GraphShader* const& __cordl_internal_get_m_shaderGraphAllocated() const;
+
   constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraphAllocated();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraphAllocated() const;
+  constexpr ::Tayx::Graphy::G_GraphShader* const& __cordl_internal_get_m_shaderGraphMono() const;
 
   constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraphMono();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraphMono() const;
+  constexpr ::Tayx::Graphy::G_GraphShader* const& __cordl_internal_get_m_shaderGraphReserved() const;
 
   constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraphReserved();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraphReserved() const;
 
   constexpr void __cordl_internal_set_ShaderFull(::UnityW<::UnityEngine::Shader> value);
 
@@ -198,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphReserved(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x44705ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d18c0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,6 +212,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "G_RamGraph", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   G_RamGraph(G_RamGraph const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17219 };
 
   /// @brief Field m_imageAllocated, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageAllocated;
@@ -263,14 +264,9 @@ public:
   /// @brief Field m_highestMemory, offset: 0x98, size: 0x4, def value: None
   float_t ___m_highestMemory;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17086 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Ram::G_RamGraph, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::Ram::G_RamGraph, ___m_imageAllocated) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Ram::G_RamGraph, ___m_imageReserved) == 0x28, "Offset mismatch!");
@@ -302,6 +298,8 @@ static_assert(offsetof(::Tayx::Graphy::Ram::G_RamGraph, ___m_reservedArray) == 0
 static_assert(offsetof(::Tayx::Graphy::Ram::G_RamGraph, ___m_monoArray) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Ram::G_RamGraph, ___m_highestMemory) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Ram::G_RamGraph, 0xa0>, "Size mismatch!");
 
 } // namespace Tayx::Graphy::Ram
 NEED_NO_BOX(::Tayx::Graphy::Ram::G_RamGraph);

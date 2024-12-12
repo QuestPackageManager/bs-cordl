@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WWWForm)
 namespace System::Text {
@@ -16,37 +15,36 @@ class WWWForm;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::WWWForm);
-// Type: UnityEngine::WWWForm
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::WWWForm*
+// CS Name: UnityEngine.WWWForm
 class CORDL_TYPE WWWForm : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ampersand, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ampersand, put = setStaticF_ampersand)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ampersand;
+  __declspec(property(get = getStaticF_ampersand, put = setStaticF_ampersand)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ampersand;
 
   /// @brief Field contentTypeHeader, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_contentTypeHeader, put = setStaticF_contentTypeHeader)) ::ArrayW<uint8_t, ::Array<uint8_t>*> contentTypeHeader;
+  __declspec(property(get = getStaticF_contentTypeHeader, put = setStaticF_contentTypeHeader)) ::ArrayW<uint8_t, ::Array<uint8_t>*> contentTypeHeader;
 
   /// @brief Field crlf, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
+  __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
 
   /// @brief Field dDash, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dDash, put = setStaticF_dDash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> dDash;
+  __declspec(property(get = getStaticF_dDash, put = setStaticF_dDash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> dDash;
 
   /// @brief Field dispositionHeader, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dispositionHeader, put = setStaticF_dispositionHeader)) ::ArrayW<uint8_t, ::Array<uint8_t>*> dispositionHeader;
+  __declspec(property(get = getStaticF_dispositionHeader, put = setStaticF_dispositionHeader)) ::ArrayW<uint8_t, ::Array<uint8_t>*> dispositionHeader;
 
   /// @brief Field endQuote, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_endQuote, put = setStaticF_endQuote)) ::ArrayW<uint8_t, ::Array<uint8_t>*> endQuote;
+  __declspec(property(get = getStaticF_endQuote, put = setStaticF_endQuote)) ::ArrayW<uint8_t, ::Array<uint8_t>*> endQuote;
 
   /// @brief Field equal, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_equal, put = setStaticF_equal)) ::ArrayW<uint8_t, ::Array<uint8_t>*> equal;
+  __declspec(property(get = getStaticF_equal, put = setStaticF_equal)) ::ArrayW<uint8_t, ::Array<uint8_t>*> equal;
 
   /// @brief Field fileNameField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_fileNameField, put = setStaticF_fileNameField)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fileNameField;
+  __declspec(property(get = getStaticF_fileNameField, put = setStaticF_fileNameField)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fileNameField;
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ampersand();
 
@@ -64,7 +62,7 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_fileNameField();
 
-  /// @brief Method get_DefaultEncoding, addr 0x4a7d4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultEncoding, addr 0x4ae1de8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_DefaultEncoding();
 
   static inline void setStaticF_ampersand(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -98,7 +96,7 @@ public:
   WWWForm(WWWForm const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

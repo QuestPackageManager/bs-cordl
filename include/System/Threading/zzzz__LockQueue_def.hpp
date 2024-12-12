@@ -15,11 +15,10 @@ class LockQueue;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::LockQueue);
-// Type: System.Threading::LockQueue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::LockQueue*
+// CS Name: System.Threading.LockQueue
 class CORDL_TYPE LockQueue : public ::System::Object {
 public:
   // Declarations
@@ -33,28 +32,28 @@ public:
 
   static inline ::System::Threading::LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method Pulse, addr 0x3dfabd0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Pulse, addr 0x3e5ac7c, size 0xb8, virtual false, abstract: false, final false
   inline void Pulse();
 
-  /// @brief Method Wait, addr 0x3dfa96c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3e5aa18, size 0x1a4, virtual false, abstract: false, final false
   inline bool Wait(int32_t timeout);
 
   constexpr int32_t const& __cordl_internal_get_lockCount() const;
 
   constexpr int32_t& __cordl_internal_get_lockCount();
 
-  constexpr ::System::Threading::ReaderWriterLock*& __cordl_internal_get_rwlock();
+  constexpr ::System::Threading::ReaderWriterLock* const& __cordl_internal_get_rwlock() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& __cordl_internal_get_rwlock() const;
+  constexpr ::System::Threading::ReaderWriterLock*& __cordl_internal_get_rwlock();
 
   constexpr void __cordl_internal_set_lockCount(int32_t value);
 
   constexpr void __cordl_internal_set_rwlock(::System::Threading::ReaderWriterLock* value);
 
-  /// @brief Method .ctor, addr 0x3dfa944, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5a9f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method get_IsEmpty, addr 0x3dfab10, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x3e5abbc, size 0xc0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LockQueue(LockQueue const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2745 };
+
   /// @brief Field rwlock, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ReaderWriterLock* ___rwlock;
 
   /// @brief Field lockCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___lockCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2745 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::LockQueue, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::LockQueue, ___rwlock) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::LockQueue, ___lockCount) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::LockQueue, 0x20>, "Size mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::LockQueue);

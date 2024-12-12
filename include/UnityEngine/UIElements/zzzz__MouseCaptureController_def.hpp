@@ -14,21 +14,20 @@ class MouseCaptureController;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureController);
-// Type: UnityEngine.UIElements::MouseCaptureController
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::MouseCaptureController*
+// CS Name: UnityEngine.UIElements.MouseCaptureController
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureMouse, addr 0x49dac14, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x4a3f524, size 0xd8, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method HasMouseCapture, addr 0x49d93c0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x4a3dcd0, size 0xac, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method ReleaseMouse, addr 0x49dade8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMouse, addr 0x4a3f6f8, size 0xd8, virtual false, abstract: false, final false
   static inline void ReleaseMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
 protected:
@@ -46,7 +45,7 @@ public:
   MouseCaptureController(MouseCaptureController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5987 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

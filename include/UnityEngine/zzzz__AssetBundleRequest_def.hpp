@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AssetBundleRequest)
 namespace UnityEngine {
 class Object;
@@ -15,11 +14,10 @@ class AssetBundleRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AssetBundleRequest);
-// Type: UnityEngine::AssetBundleRequest
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceRequest
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AssetBundleRequest*
+// CS Name: UnityEngine.AssetBundleRequest
 class CORDL_TYPE AssetBundleRequest : public ::UnityEngine::ResourceRequest {
 public:
   // Declarations
@@ -27,18 +25,18 @@ public:
 
   __declspec(property(get = get_asset)) ::UnityW<::UnityEngine::Object> asset;
 
-  /// @brief Method GetResult, addr 0x47f5728, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x4856a3c, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
   static inline ::UnityEngine::AssetBundleRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47f57ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4856ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allAssets, addr 0x47f5770, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allAssets, addr 0x4856a84, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> get_allAssets();
 
-  /// @brief Method get_asset, addr 0x47f5764, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x4856a78, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
 protected:
@@ -56,7 +54,7 @@ public:
   AssetBundleRequest(AssetBundleRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

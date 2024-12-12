@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IXmlElement)
 namespace Newtonsoft::Json::Converters {
@@ -14,11 +15,10 @@ class IXmlElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlElement);
-// Type: Newtonsoft.Json.Converters::IXmlElement
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Converters.IXmlNode
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Converters::IXmlElement*
+// CS Name: Newtonsoft.Json.Converters.IXmlElement
 class CORDL_TYPE IXmlElement {
 public:
   // Declarations
@@ -27,28 +27,24 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
-  /// @brief Method SetAttributeNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetAttributeNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
-  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_IsEmpty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IXmlElement(IXmlElement&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlElement", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IXmlElement(IXmlElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

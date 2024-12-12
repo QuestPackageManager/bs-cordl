@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)()>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::get_flyingControllerEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3aafd70;
+  constexpr static std::size_t addrs = 0x3b0cd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)(bool)>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::set_flyingControllerEnabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3aafd8c;
+  constexpr static std::size_t addrs = 0x3b0cd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)(
     ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(&::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::InstallDependencies)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aafdac;
+  constexpr static std::size_t addrs = 0x3b0cd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)()>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aafe5c;
+  constexpr static std::size_t addrs = 0x3b0ce34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,14 +108,14 @@ inline void GlobalNamespace::FirstPersonFlyingControllerEnableHandler::InstallDe
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, commandLineParserResult);
 }
-inline ::GlobalNamespace::FirstPersonFlyingControllerEnableHandler* GlobalNamespace::FirstPersonFlyingControllerEnableHandler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FirstPersonFlyingControllerEnableHandler*>());
-}
 inline void GlobalNamespace::FirstPersonFlyingControllerEnableHandler::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingControllerEnableHandler*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FirstPersonFlyingControllerEnableHandler* GlobalNamespace::FirstPersonFlyingControllerEnableHandler::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FirstPersonFlyingControllerEnableHandler*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::FirstPersonFlyingControllerEnableHandler() {}

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::*)(
     ::UnityEngine::Networking::UnityWebRequest*)>(&::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4743864;
+  constexpr static std::size_t addrs = 0x47a4b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::Execute)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x47438c0;
+  constexpr static std::size_t addrs = 0x47a4bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::*)(
     ::UnityEngine::AsyncOperation*)>(&::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::_Execute_b__2_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x474395c;
+  constexpr static std::size_t addrs = 0x47a4c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,18 +54,13 @@ constexpr ::UnityEngine::Networking::UnityWebRequest*& UnityEngine::ResourceMana
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UWR;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const&
-UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::__cordl_internal_get_m_UWR() const {
+constexpr ::UnityEngine::Networking::UnityWebRequest* const& UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::__cordl_internal_get_m_UWR() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UWR;
 }
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::__cordl_internal_set_m_UWR(::UnityEngine::Networking::UnityWebRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UWR)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation*
-UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::New_ctor(::UnityEngine::Networking::UnityWebRequest* webRequest) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation*>(webRequest));
 }
 inline void UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::_ctor(::UnityEngine::Networking::UnityWebRequest* webRequest) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,6 +79,10 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOpe
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation*>::get(), "<Execute>b__2_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, request);
+}
+inline ::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation*
+UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::New_ctor(::UnityEngine::Networking::UnityWebRequest* webRequest) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation*>(webRequest));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation::UnityWebRequestOperation() {}

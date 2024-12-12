@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SendPacketsElement)
@@ -14,11 +13,10 @@ class SendPacketsElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::SendPacketsElement);
-// Type: System.Net.Sockets::SendPacketsElement
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
-// CS Name: ::System.Net.Sockets::SendPacketsElement*
+// CS Name: System.Net.Sockets.SendPacketsElement
 class CORDL_TYPE SendPacketsElement : public ::System::Object {
 public:
   // Declarations
@@ -81,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SendPacketsElement(SendPacketsElement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9862 };
+
   /// @brief Field m_FilePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_FilePath;
 
@@ -96,14 +97,9 @@ public:
   /// @brief Field m_endOfPacket, offset: 0x28, size: 0x1, def value: None
   bool ___m_endOfPacket;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9837 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SendPacketsElement, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::SendPacketsElement, ___m_FilePath) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::SendPacketsElement, ___m_Buffer) == 0x18, "Offset mismatch!");
@@ -113,6 +109,8 @@ static_assert(offsetof(::System::Net::Sockets::SendPacketsElement, ___m_Offset) 
 static_assert(offsetof(::System::Net::Sockets::SendPacketsElement, ___m_Count) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::SendPacketsElement, ___m_endOfPacket) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SendPacketsElement, 0x30>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::SendPacketsElement);

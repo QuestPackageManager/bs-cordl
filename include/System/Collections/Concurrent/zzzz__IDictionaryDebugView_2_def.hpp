@@ -11,13 +11,12 @@ template <typename K, typename V> class IDictionaryDebugView_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::IDictionaryDebugView_2);
-// Type: System.Collections.Concurrent::IDictionaryDebugView`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename K, typename V>
 // Is value type: false
-// CS Name: ::System.Collections.Concurrent::IDictionaryDebugView`2<K,V>*
+// CS Name: System.Collections.Concurrent.IDictionaryDebugView`2<K,V>
 class CORDL_TYPE IDictionaryDebugView_2 : public ::System::Object {
 public:
   // Declarations

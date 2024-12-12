@@ -14,18 +14,17 @@ class NullableScriptableObjectInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NullableScriptableObjectInstaller);
-// Type: ::NullableScriptableObjectInstaller
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScriptableObjectInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NullableScriptableObjectInstaller*
+// CS Name: NullableScriptableObjectInstaller
 class CORDL_TYPE NullableScriptableObjectInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
   /// @brief Field _installer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installer, put = __cordl_internal_set__installer)) ::UnityW<::Zenject::ScriptableObjectInstaller> _installer;
 
-  /// @brief Method InstallBindings, addr 0x4aab6d0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4b0ffe0, size 0x9c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::NullableScriptableObjectInstaller* New_ctor();
@@ -36,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__installer(::UnityW<::Zenject::ScriptableObjectInstaller> value);
 
-  /// @brief Method .ctor, addr 0x4aab76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b1007c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullableScriptableObjectInstaller(NullableScriptableObjectInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19259 };
+
   /// @brief Field _installer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Zenject::ScriptableObjectInstaller> ____installer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullableScriptableObjectInstaller, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NullableScriptableObjectInstaller, ____installer) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullableScriptableObjectInstaller, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NullableScriptableObjectInstaller);

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteGlyph::*)()>(&::TMPro::TMP_SpriteGlyph::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a0010;
+  constexpr static std::size_t addrs = 0x4801324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteGlyph*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::TMP_SpriteGlyph::*)(uint32_t, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, float_t, int32_t)>(&::TMPro::TMP_SpriteGlyph::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47a0380;
+  constexpr static std::size_t addrs = 0x4801694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteGlyph::*)(
     uint32_t, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, float_t, int32_t, ::UnityEngine::Sprite*)>(&::TMPro::TMP_SpriteGlyph::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x47a043c;
+  constexpr static std::size_t addrs = 0x4801750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,17 +66,10 @@ constexpr void TMPro::TMP_SpriteGlyph::__cordl_internal_set_sprite(::UnityW<::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::TMPro::TMP_SpriteGlyph* TMPro::TMP_SpriteGlyph::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SpriteGlyph*>());
-}
 inline void TMPro::TMP_SpriteGlyph::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteGlyph*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::TMPro::TMP_SpriteGlyph* TMPro::TMP_SpriteGlyph::New_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale,
-                                                                  int32_t atlasIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SpriteGlyph*>(index, metrics, glyphRect, scale, atlasIndex));
 }
 inline void TMPro::TMP_SpriteGlyph::_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,10 +80,6 @@ inline void TMPro::TMP_SpriteGlyph::_ctor(uint32_t index, ::UnityEngine::TextCor
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, metrics, glyphRect, scale, atlasIndex);
 }
-inline ::TMPro::TMP_SpriteGlyph* TMPro::TMP_SpriteGlyph::New_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale,
-                                                                  int32_t atlasIndex, ::UnityEngine::Sprite* sprite) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SpriteGlyph*>(index, metrics, glyphRect, scale, atlasIndex, sprite));
-}
 inline void TMPro::TMP_SpriteGlyph::_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex,
                                           ::UnityEngine::Sprite* sprite) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,6 +89,17 @@ inline void TMPro::TMP_SpriteGlyph::_ctor(uint32_t index, ::UnityEngine::TextCor
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::GlyphRect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, metrics, glyphRect, scale, atlasIndex, sprite);
+}
+inline ::TMPro::TMP_SpriteGlyph* TMPro::TMP_SpriteGlyph::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SpriteGlyph*>());
+}
+inline ::TMPro::TMP_SpriteGlyph* TMPro::TMP_SpriteGlyph::New_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale,
+                                                                  int32_t atlasIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SpriteGlyph*>(index, metrics, glyphRect, scale, atlasIndex));
+}
+inline ::TMPro::TMP_SpriteGlyph* TMPro::TMP_SpriteGlyph::New_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale,
+                                                                  int32_t atlasIndex, ::UnityEngine::Sprite* sprite) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SpriteGlyph*>(index, metrics, glyphRect, scale, atlasIndex, sprite));
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SpriteGlyph::TMP_SpriteGlyph() {}

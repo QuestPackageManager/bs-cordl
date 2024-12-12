@@ -1,29 +1,28 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/ContentSizeFitter.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
-#include "UnityEngine/UI/zzzz__ContentSizeFitter_impl.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutController_impl.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutSelfController_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode::__ContentSizeFitter__FitMode(int32_t value__) noexcept {
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode::ContentSizeFitter_FitMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode::__ContentSizeFitter__FitMode() {}
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode UnityEngine::UI::__ContentSizeFitter__FitMode::Unconstrained{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode UnityEngine::UI::__ContentSizeFitter__FitMode::MinSize{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode UnityEngine::UI::__ContentSizeFitter__FitMode::PreferredSize{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode::ContentSizeFitter_FitMode() {}
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode UnityEngine::UI::ContentSizeFitter_FitMode::Unconstrained{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode UnityEngine::UI::ContentSizeFitter_FitMode::MinSize{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode UnityEngine::UI::ContentSizeFitter_FitMode::PreferredSize{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::UnityEngine::UI::ContentSizeFitter.get_horizontalFit
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__ContentSizeFitter__FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ContentSizeFitter_FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_horizontalFit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a517c0;
+  constexpr static std::size_t addrs = 0x4ab60d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(),
@@ -34,25 +33,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::ContentSizeFitter.set_horizontalFit
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::__ContentSizeFitter__FitMode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::ContentSizeFitter_FitMode)>(
     &::UnityEngine::UI::ContentSizeFitter::set_horizontalFit)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a517c8;
+  constexpr static std::size_t addrs = 0x4ab60d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "set_horizontalFit", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__ContentSizeFitter__FitMode>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ContentSizeFitter_FitMode>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::ContentSizeFitter.get_verticalFit
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__ContentSizeFitter__FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ContentSizeFitter_FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_verticalFit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a518c0;
+  constexpr static std::size_t addrs = 0x4ab61d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "get_verticalFit",
@@ -63,15 +62,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::ContentSizeFitter.set_verticalFit
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::__ContentSizeFitter__FitMode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::ContentSizeFitter_FitMode)>(
     &::UnityEngine::UI::ContentSizeFitter::set_verticalFit)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a518c8;
+  constexpr static std::size_t addrs = 0x4ab61d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "set_verticalFit", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__ContentSizeFitter__FitMode>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ContentSizeFitter_FitMode>::get() })));
     return ___internal_method;
   }
 };
@@ -81,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_rectTransform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4a5193c;
+  constexpr static std::size_t addrs = 0x4ab624c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(),
@@ -94,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a519d0;
+  constexpr static std::size_t addrs = 0x4ab62e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), ".ctor",
@@ -107,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a519d8;
+  constexpr static std::size_t addrs = 0x4ab62e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::OnDisable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a519f4;
+  constexpr static std::size_t addrs = 0x4ab6304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a51a70;
+  constexpr static std::size_t addrs = 0x4ab6380;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(int32_t)>(
     &::UnityEngine::UI::ContentSizeFitter::HandleSelfFittingAlongAxis)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4a51a74;
+  constexpr static std::size_t addrs = 0x4ab6384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a51b70;
+  constexpr static std::size_t addrs = 0x4ab6480;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a51b94;
+  constexpr static std::size_t addrs = 0x4ab64a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetDirty)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a5183c;
+  constexpr static std::size_t addrs = 0x4ab614c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "SetDirty",
@@ -201,43 +200,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
-constexpr UnityEngine::UI::ContentSizeFitter::operator ::UnityEngine::UI::ILayoutSelfController*() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
-constexpr ::UnityEngine::UI::ILayoutSelfController* UnityEngine::UI::ContentSizeFitter::i___UnityEngine__UI__ILayoutSelfController() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
-constexpr UnityEngine::UI::ContentSizeFitter::operator ::UnityEngine::UI::ILayoutController*() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UI::ILayoutController"
-constexpr ::UnityEngine::UI::ILayoutController* UnityEngine::UI::ContentSizeFitter::i___UnityEngine__UI__ILayoutController() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
-}
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_HorizontalFit() {
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_HorizontalFit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalFit;
 }
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_HorizontalFit() const {
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode const& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_HorizontalFit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalFit;
 }
-constexpr void UnityEngine::UI::ContentSizeFitter::__cordl_internal_set_m_HorizontalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value) {
+constexpr void UnityEngine::UI::ContentSizeFitter::__cordl_internal_set_m_HorizontalFit(::UnityEngine::UI::ContentSizeFitter_FitMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HorizontalFit = value;
 }
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_VerticalFit() {
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_VerticalFit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalFit;
 }
-constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_VerticalFit() const {
+constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode const& UnityEngine::UI::ContentSizeFitter::__cordl_internal_get_m_VerticalFit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalFit;
 }
-constexpr void UnityEngine::UI::ContentSizeFitter::__cordl_internal_set_m_VerticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value) {
+constexpr void UnityEngine::UI::ContentSizeFitter::__cordl_internal_set_m_VerticalFit(::UnityEngine::UI::ContentSizeFitter_FitMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VerticalFit = value;
 }
@@ -265,35 +248,32 @@ constexpr void UnityEngine::UI::ContentSizeFitter::__cordl_internal_set_m_Tracke
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Tracker = value;
 }
-inline ::UnityEngine::UI::__ContentSizeFitter__FitMode UnityEngine::UI::ContentSizeFitter::get_horizontalFit() {
+inline ::UnityEngine::UI::ContentSizeFitter_FitMode UnityEngine::UI::ContentSizeFitter::get_horizontalFit() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "get_horizontalFit",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::__ContentSizeFitter__FitMode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::ContentSizeFitter_FitMode, false>(this, ___internal_method);
 }
-inline void UnityEngine::UI::ContentSizeFitter::set_horizontalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value) {
+inline void UnityEngine::UI::ContentSizeFitter::set_horizontalFit(::UnityEngine::UI::ContentSizeFitter_FitMode value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "set_horizontalFit", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__ContentSizeFitter__FitMode>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ContentSizeFitter_FitMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UI::__ContentSizeFitter__FitMode UnityEngine::UI::ContentSizeFitter::get_verticalFit() {
+inline ::UnityEngine::UI::ContentSizeFitter_FitMode UnityEngine::UI::ContentSizeFitter::get_verticalFit() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "get_verticalFit",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::__ContentSizeFitter__FitMode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::ContentSizeFitter_FitMode, false>(this, ___internal_method);
 }
-inline void UnityEngine::UI::ContentSizeFitter::set_verticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value) {
+inline void UnityEngine::UI::ContentSizeFitter::set_verticalFit(::UnityEngine::UI::ContentSizeFitter_FitMode value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "set_verticalFit", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__ContentSizeFitter__FitMode>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ContentSizeFitter_FitMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::RectTransform> UnityEngine::UI::ContentSizeFitter::get_rectTransform() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "get_rectTransform",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>, false>(this, ___internal_method);
-}
-inline ::UnityEngine::UI::ContentSizeFitter* UnityEngine::UI::ContentSizeFitter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ContentSizeFitter*>());
 }
 inline void UnityEngine::UI::ContentSizeFitter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), ".ctor",
@@ -335,6 +315,25 @@ inline void UnityEngine::UI::ContentSizeFitter::SetDirty() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "SetDirty",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UI::ContentSizeFitter* UnityEngine::UI::ContentSizeFitter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ContentSizeFitter*>());
+}
+/// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
+constexpr UnityEngine::UI::ContentSizeFitter::operator ::UnityEngine::UI::ILayoutSelfController*() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
+constexpr ::UnityEngine::UI::ILayoutSelfController* UnityEngine::UI::ContentSizeFitter::i___UnityEngine__UI__ILayoutSelfController() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
+constexpr UnityEngine::UI::ContentSizeFitter::operator ::UnityEngine::UI::ILayoutController*() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UI::ILayoutController"
+constexpr ::UnityEngine::UI::ILayoutController* UnityEngine::UI::ContentSizeFitter::i___UnityEngine__UI__ILayoutController() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ContentSizeFitter::ContentSizeFitter() {}

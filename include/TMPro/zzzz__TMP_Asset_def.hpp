@@ -15,11 +15,10 @@ class TMP_Asset;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_Asset);
-// Type: TMPro::TMP_Asset
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_Asset*
+// CS Name: TMPro.TMP_Asset
 class CORDL_TYPE TMP_Asset : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -63,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_materialHashCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47632b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c45c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instanceID, addr 0x476328c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x47c45a0, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
 protected:
@@ -83,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_Asset(TMP_Asset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14444 };
+
   /// @brief Field m_InstanceID, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_InstanceID;
 
@@ -95,14 +97,9 @@ public:
   /// @brief Field materialHashCode, offset: 0x28, size: 0x4, def value: None
   int32_t ___materialHashCode;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14410 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Asset, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_Asset, ___m_InstanceID) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_Asset, ___hashCode) == 0x1c, "Offset mismatch!");
@@ -110,6 +107,8 @@ static_assert(offsetof(::TMPro::TMP_Asset, ___hashCode) == 0x1c, "Offset mismatc
 static_assert(offsetof(::TMPro::TMP_Asset, ___material) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_Asset, ___materialHashCode) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Asset, 0x30>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_Asset);

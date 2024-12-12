@@ -13,11 +13,10 @@ struct FrameSample;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::RecPlay::FrameSample);
-// Type: BeatSaber.RecPlay::FrameSample
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::RecPlay {
 // Is value type: true
-// CS Name: ::BeatSaber.RecPlay::FrameSample
+// CS Name: BeatSaber.RecPlay.FrameSample
 struct CORDL_TYPE FrameSample {
 public:
   // Declarations
@@ -29,6 +28,12 @@ public:
   // ty: "float_t", modifiers: "", def_value: None }]
   constexpr FrameSample(int32_t previous, int32_t next, float_t alpha) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18891 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field previous, offset: 0x0, size: 0x4, def value: None
   int32_t previous;
 
@@ -38,22 +43,16 @@ public:
   /// @brief Field alpha, offset: 0x8, size: 0x4, def value: None
   float_t alpha;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19006 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::RecPlay::FrameSample, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::RecPlay::FrameSample, previous) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::RecPlay::FrameSample, next) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::RecPlay::FrameSample, alpha) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::RecPlay::FrameSample, 0xc>, "Size mismatch!");
 
 } // namespace BeatSaber::RecPlay
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::RecPlay::FrameSample, "BeatSaber.RecPlay", "FrameSample");

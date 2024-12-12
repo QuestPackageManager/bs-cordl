@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)(float_t, float_t)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::Activate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b73900;
+  constexpr static std::size_t addrs = 0x3bd53e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::Deactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b73d98;
+  constexpr static std::size_t addrs = 0x3bd5878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b73ee8;
+  constexpr static std::size_t addrs = 0x3bd59c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::SpawnAllPlaces)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x3b73908;
+  constexpr static std::size_t addrs = 0x3bd53e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::DespawnAllPlaces)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3b73d9c;
+  constexpr static std::size_t addrs = 0x3bd587c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b73eec;
+  constexpr static std::size_t addrs = 0x3bd59cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>::get(),
@@ -94,7 +94,7 @@ constexpr ::GlobalNamespace::ILobbyStateDataModel*& GlobalNamespace::Multiplayer
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_get__lobbyStateDataModel() const {
+constexpr ::GlobalNamespace::ILobbyStateDataModel* const& GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_get__lobbyStateDataModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
@@ -102,16 +102,15 @@ constexpr void GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyStateDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool*& GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_get__avatarPlacesPool() {
+constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool*& GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_get__avatarPlacesPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPlacesPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool*> const&
-GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_get__avatarPlacesPool() const {
+constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool* const& GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_get__avatarPlacesPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPlacesPool;
 }
-constexpr void GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_set__avatarPlacesPool(::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* value) {
+constexpr void GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_set__avatarPlacesPool(::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarPlacesPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -119,7 +118,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Mul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allPlaces;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>* const&
 GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::__cordl_internal_get__allPlaces() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allPlaces;
@@ -179,13 +178,13 @@ inline void GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::DespawnAllPlace
                                                                              "DespawnAllPlaces", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>());
-}
 inline void GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::MultiplayerLobbyAvatarPlaceManager() {}

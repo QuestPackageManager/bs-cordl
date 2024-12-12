@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::BootConfigData* (*)(::System::IntPtr)>(&::UnityEngine::BootConfigData::WrapBootConfigData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4800934;
+  constexpr static std::size_t addrs = 0x48624d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BootConfigData::*)(::System::IntPtr)>(&::UnityEngine::BootConfigData::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x480098c;
+  constexpr static std::size_t addrs = 0x486252c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,14 +50,14 @@ inline ::UnityEngine::BootConfigData* UnityEngine::BootConfigData::WrapBootConfi
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::BootConfigData*, false>(nullptr, ___internal_method, nativeHandle);
 }
-inline ::UnityEngine::BootConfigData* UnityEngine::BootConfigData::New_ctor(::System::IntPtr nativeHandle) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::BootConfigData*>(nativeHandle));
-}
 inline void UnityEngine::BootConfigData::_ctor(::System::IntPtr nativeHandle) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BootConfigData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nativeHandle);
+}
+inline ::UnityEngine::BootConfigData* UnityEngine::BootConfigData::New_ctor(::System::IntPtr nativeHandle) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::BootConfigData*>(nativeHandle));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BootConfigData::BootConfigData() {}

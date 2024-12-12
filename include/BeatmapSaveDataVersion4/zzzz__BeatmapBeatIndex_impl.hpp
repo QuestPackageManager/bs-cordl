@@ -1,15 +1,16 @@
 #pragma once
 // IWYU pragma private; include "BeatmapSaveDataVersion4/BeatmapBeatIndex.hpp"
+#include "BeatmapSaveDataCommon/zzzz__IBeat_impl.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatmapBeatIndex_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion4::BeatmapBeatIndex.get_beat
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion4::BeatmapBeatIndex::*)()>(&::BeatmapSaveDataVersion4::BeatmapBeatIndex::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2bd4;
+  constexpr static std::size_t addrs = 0x2704474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>::get(), "get_beat",
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::BeatmapBeatIndex::*)()>(&::BeatmapSaveDataVersion4::BeatmapBeatIndex::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2bdc;
+  constexpr static std::size_t addrs = 0x270447c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>::get(), ".ctor",
@@ -30,22 +31,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
-constexpr BeatmapSaveDataVersion4::BeatmapBeatIndex::operator ::BeatmapSaveDataCommon::IBeat*() noexcept {
-  return static_cast<::BeatmapSaveDataCommon::IBeat*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
-constexpr ::BeatmapSaveDataCommon::IBeat* BeatmapSaveDataVersion4::BeatmapBeatIndex::i___BeatmapSaveDataCommon__IBeat() noexcept {
-  return static_cast<::BeatmapSaveDataCommon::IBeat*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
-constexpr BeatmapSaveDataVersion4::BeatmapBeatIndex::operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept {
-  return static_cast<::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
-constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* BeatmapSaveDataVersion4::BeatmapBeatIndex::i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept {
-  return static_cast<::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*>(static_cast<void*>(this));
-}
 constexpr float_t& BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_get_b() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
@@ -87,13 +72,29 @@ inline float_t BeatmapSaveDataVersion4::BeatmapBeatIndex::get_beat() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion4::BeatmapBeatIndex* BeatmapSaveDataVersion4::BeatmapBeatIndex::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>());
-}
 inline void BeatmapSaveDataVersion4::BeatmapBeatIndex::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatmapSaveDataVersion4::BeatmapBeatIndex* BeatmapSaveDataVersion4::BeatmapBeatIndex::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>());
+}
+/// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
+constexpr BeatmapSaveDataVersion4::BeatmapBeatIndex::operator ::BeatmapSaveDataCommon::IBeat*() noexcept {
+  return static_cast<::BeatmapSaveDataCommon::IBeat*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
+constexpr ::BeatmapSaveDataCommon::IBeat* BeatmapSaveDataVersion4::BeatmapBeatIndex::i___BeatmapSaveDataCommon__IBeat() noexcept {
+  return static_cast<::BeatmapSaveDataCommon::IBeat*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
+constexpr BeatmapSaveDataVersion4::BeatmapBeatIndex::operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept {
+  return static_cast<::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
+constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* BeatmapSaveDataVersion4::BeatmapBeatIndex::i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept {
+  return static_cast<::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::BeatmapBeatIndex::BeatmapBeatIndex() {}

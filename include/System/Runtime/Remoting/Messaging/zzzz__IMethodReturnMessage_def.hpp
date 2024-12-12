@@ -3,14 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 CORDL_MODULE_EXPORT(IMethodReturnMessage)
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System {
 class Exception;
 }
@@ -23,11 +18,10 @@ class IMethodReturnMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodReturnMessage);
-// Type: System.Runtime.Remoting.Messaging::IMethodReturnMessage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMethodMessage
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::IMethodReturnMessage*
+// CS Name: System.Runtime.Remoting.Messaging.IMethodReturnMessage
 class CORDL_TYPE IMethodReturnMessage {
 public:
   // Declarations
@@ -43,13 +37,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Method get_Exception, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Exception, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_OutArgs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_OutArgs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_OutArgs();
 
-  /// @brief Method get_ReturnValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ReturnValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_ReturnValue();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
@@ -57,10 +51,6 @@ public:
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IMethodReturnMessage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IMethodReturnMessage(IMethodReturnMessage&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMethodReturnMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

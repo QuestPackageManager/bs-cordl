@@ -27,6 +27,7 @@ module;
 #include "BeatmapSaveDataVersion4/LightTranslationEvent.hpp"
 #include "BeatmapSaveDataVersion4/LightTranslationEventBox.hpp"
 #include "BeatmapSaveDataVersion4/LightshowSaveData.hpp"
+#include "BeatmapSaveDataVersion4/NoteJumpMovementSpeedEvent.hpp"
 #include "BeatmapSaveDataVersion4/Obstacle.hpp"
 #include "BeatmapSaveDataVersion4/SpawnRotation.hpp"
 #include "BeatmapSaveDataVersion4/Waypoint.hpp"

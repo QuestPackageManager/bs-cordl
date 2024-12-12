@@ -17,13 +17,12 @@ template <typename TParam1, typename TParam2, typename TDerived> class Installer
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::Installer_3);
-// Type: Zenject::Installer`3
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.InstallerBase
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TDerived>
 // Is value type: false
-// CS Name: ::Zenject::Installer`3<TParam1,TParam2,TDerived>*
+// CS Name: Zenject.Installer`3<TParam1,TParam2,TDerived>
 class CORDL_TYPE Installer_3 : public ::Zenject::InstallerBase {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   Installer_3(Installer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

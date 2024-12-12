@@ -19,11 +19,10 @@ class NewArrayBoundsInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction);
-// Type: System.Linq.Expressions.Interpreter::NewArrayBoundsInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::NewArrayBoundsInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.NewArrayBoundsInstruction
 class CORDL_TYPE NewArrayBoundsInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -41,12 +40,12 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction* New_ctor(::System::Type* elementType, int32_t rank);
 
-  /// @brief Method Run, addr 0x405ee94, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c01a8, size 0x104, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  constexpr ::System::Type*& __cordl_internal_get__elementType();
+  constexpr ::System::Type* const& __cordl_internal_get__elementType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__elementType() const;
+  constexpr ::System::Type*& __cordl_internal_get__elementType();
 
   constexpr int32_t const& __cordl_internal_get__rank() const;
 
@@ -56,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set__rank(int32_t value);
 
-  /// @brief Method .ctor, addr 0x405ee14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c0128, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t rank);
 
-  /// @brief Method get_ConsumedStack, addr 0x405ee44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c0158, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x405ee54, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c0168, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x405ee4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c0160, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -82,23 +81,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NewArrayBoundsInstruction(NewArrayBoundsInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13766 };
+
   /// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____elementType;
 
   /// @brief Field _rank, offset: 0x18, size: 0x4, def value: None
   int32_t ____rank;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13732 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction, ____elementType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction, ____rank) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction);

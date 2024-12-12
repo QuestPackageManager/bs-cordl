@@ -12,11 +12,10 @@ class NullableContextAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::NullableContextAttribute);
-// Type: System.Runtime.CompilerServices::NullableContextAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::NullableContextAttribute*
+// CS Name: System.Runtime.CompilerServices.NullableContextAttribute
 class CORDL_TYPE NullableContextAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_Flag(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x2276f80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41345d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullableContextAttribute(NullableContextAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11328 };
+
   /// @brief Field Flag, offset: 0x10, size: 0x1, def value: None
   uint8_t ___Flag;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::NullableContextAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::NullableContextAttribute, ___Flag) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::NullableContextAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::NullableContextAttribute);

@@ -18,19 +18,24 @@ class PrimalityTests;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Math::Prime::PrimalityTests);
-// Type: Mono.Math.Prime::PrimalityTests
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Math::Prime {
 // Is value type: false
-// CS Name: ::Mono.Math.Prime::PrimalityTests*
+// CS Name: Mono.Math.Prime.PrimalityTests
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x3bf1b38, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x3c6cb00, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x3bf1cc4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x3c6ce64, size 0x298, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
+
+  /// @brief Method SmallPrimeSppTest, addr 0x3c6cc8c, size 0x1d8, virtual false, abstract: false, final false
+  static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
+
+  /// @brief Method Test, addr 0x3c6bc3c, size 0x4c, virtual false, abstract: false, final false
+  static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
 protected:
   // Ctor Parameters []
@@ -47,7 +52,7 @@ public:
   PrimalityTests(PrimalityTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

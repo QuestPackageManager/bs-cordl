@@ -12,11 +12,10 @@ struct UriHostNameType;
 }
 // Write type traits
 MARK_VAL_T(::System::UriHostNameType);
-// Type: System::UriHostNameType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::UriHostNameType
+// CS Name: System.UriHostNameType
 struct CORDL_TYPE UriHostNameType {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr UriHostNameType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Basic value: static_cast<int32_t>(0x1)
+  /// @brief Field Basic value: I32(1)
   static ::System::UriHostNameType const Basic;
 
-  /// @brief Field Dns value: static_cast<int32_t>(0x2)
+  /// @brief Field Dns value: I32(2)
   static ::System::UriHostNameType const Dns;
 
-  /// @brief Field IPv4 value: static_cast<int32_t>(0x3)
+  /// @brief Field IPv4 value: I32(3)
   static ::System::UriHostNameType const IPv4;
 
-  /// @brief Field IPv6 value: static_cast<int32_t>(0x4)
+  /// @brief Field IPv6 value: I32(4)
   static ::System::UriHostNameType const IPv6;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  /// @brief Field Unknown value: I32(0)
   static ::System::UriHostNameType const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::UriHostNameType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::UriHostNameType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::UriHostNameType, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::UriHostNameType, "System", "UriHostNameType");

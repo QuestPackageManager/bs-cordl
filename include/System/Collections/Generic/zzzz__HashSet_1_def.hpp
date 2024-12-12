@@ -3,13 +3,29 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> struct HashSet_1_ElementCount;
+}
+namespace System::Collections::Generic {
+template <typename T> struct HashSet_1_Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> struct HashSet_1_Slot;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -20,41 +36,14 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class ISet_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__ElementCount;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Slot;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -67,35 +56,40 @@ namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__ElementCount;
+template <typename T> struct HashSet_1_ElementCount;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Enumerator;
+template <typename T> struct HashSet_1_Enumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Slot;
+template <typename T> struct HashSet_1_Slot;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::HashSet_1);
-MARK_GEN_VAL_T(::System::Collections::Generic::__HashSet_1__ElementCount);
-MARK_GEN_VAL_T(::System::Collections::Generic::__HashSet_1__Enumerator);
-MARK_GEN_VAL_T(::System::Collections::Generic::__HashSet_1__Slot);
-// Type: ::ElementCount
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::System::Collections::Generic::HashSet_1_ElementCount);
+MARK_GEN_VAL_T(::System::Collections::Generic::HashSet_1_Enumerator);
+MARK_GEN_VAL_T(::System::Collections::Generic::HashSet_1_Slot);
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::HashSet`1::ElementCount<T>
-struct CORDL_TYPE __HashSet_1__ElementCount {
+// CS Name: System.Collections.Generic.HashSet`1/ElementCount<T>
+struct CORDL_TYPE HashSet_1_ElementCount {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HashSet_1__ElementCount();
+  constexpr HashSet_1_ElementCount();
 
   // Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HashSet_1__ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept;
+  constexpr HashSet_1_ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14188 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field uniqueCount, offset: 0x0, size: 0x4, def value: None
   int32_t uniqueCount;
@@ -103,33 +97,32 @@ public:
   /// @brief Field unfoundCount, offset: 0x4, size: 0x4, def value: None
   int32_t unfoundCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14154 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: ::Slot
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::HashSet`1::Slot<T>
-struct CORDL_TYPE __HashSet_1__Slot {
+// CS Name: System.Collections.Generic.HashSet`1/Slot<T>
+struct CORDL_TYPE HashSet_1_Slot {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HashSet_1__Slot();
+  constexpr HashSet_1_Slot();
 
   // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value",
   // ty: "T", modifiers: "", def_value: None }]
-  constexpr __HashSet_1__Slot(int32_t hashCode, int32_t next, T value) noexcept;
+  constexpr HashSet_1_Slot(int32_t hashCode, int32_t next, T value) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14189 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field hashCode, offset: 0x0, size: 0x4, def value: None
   int32_t hashCode;
@@ -140,24 +133,17 @@ public:
   /// @brief Field value, offset: 0x8, size: 0x8, def value: None
   T value;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14155 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::HashSet`1::Enumerator<T>
-struct CORDL_TYPE __HashSet_1__Enumerator {
+// CS Name: System.Collections.Generic.HashSet`1/Enumerator<T>
+struct CORDL_TYPE HashSet_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -202,11 +188,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HashSet_1__Enumerator();
+  constexpr HashSet_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: None }]
-  constexpr __HashSet_1__Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version, T _current) noexcept;
+  constexpr HashSet_1_Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version, T _current) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14190 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field _set, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<T>* _set;
@@ -220,31 +212,25 @@ public:
   /// @brief Field _current, offset: 0x10, size: 0x8, def value: None
   T _current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: System.Collections.Generic::HashSet`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.ISet`1<T>,
+// System.Collections.IEnumerable, System.Object, System.Runtime.Serialization.IDeserializationCallback, System.Runtime.Serialization.ISerializable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::HashSet`1<T>*
+// CS Name: System.Collections.Generic.HashSet`1<T>
 class CORDL_TYPE HashSet_1 : public ::System::Object {
 public:
   // Declarations
-  using ElementCount = ::System::Collections::Generic::__HashSet_1__ElementCount<T>;
+  using ElementCount = ::System::Collections::Generic::HashSet_1_ElementCount<T>;
 
-  using Enumerator = ::System::Collections::Generic::__HashSet_1__Enumerator<T>;
+  using Enumerator = ::System::Collections::Generic::HashSet_1_Enumerator<T>;
 
-  using Slot = ::System::Collections::Generic::__HashSet_1__Slot<T>;
+  using Slot = ::System::Collections::Generic::HashSet_1_Slot<T>;
 
   __declspec(property(get = get_Comparer)) ::System::Collections::Generic::IEqualityComparer_1<T>* Comparer;
 
@@ -272,7 +258,7 @@ public:
 
   /// @brief Field _slots, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__slots,
-                      put = __cordl_internal_set__slots)) ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*>
+                      put = __cordl_internal_set__slots)) ::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*>
       _slots;
 
   /// @brief Field _version, offset 0x38, size 0x4
@@ -312,7 +298,7 @@ public:
   static inline bool AreEqualityComparersEqual(::System::Collections::Generic::HashSet_1<T>* set1, ::System::Collections::Generic::HashSet_1<T>* set2);
 
   /// @brief Method CheckUniqueAndUnfoundElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__HashSet_1__ElementCount<T> CheckUniqueAndUnfoundElements(::System::Collections::Generic::IEnumerable_1<T>* other, bool returnIfUnfound);
+  inline ::System::Collections::Generic::HashSet_1_ElementCount<T> CheckUniqueAndUnfoundElements(::System::Collections::Generic::IEnumerable_1<T>* other, bool returnIfUnfound);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -339,7 +325,7 @@ public:
   inline void ExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__HashSet_1__Enumerator<T> GetEnumerator();
+  inline ::System::Collections::Generic::HashSet_1_Enumerator<T> GetEnumerator();
 
   /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
@@ -416,9 +402,9 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__buckets();
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>*& __cordl_internal_get__comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* const& __cordl_internal_get__comparer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<T>*> const& __cordl_internal_get__comparer() const;
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>*& __cordl_internal_get__comparer();
 
   constexpr int32_t const& __cordl_internal_get__count() const;
 
@@ -432,13 +418,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__lastIndex();
 
+  constexpr ::System::Runtime::Serialization::SerializationInfo* const& __cordl_internal_get__siInfo() const;
+
   constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__siInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__siInfo() const;
+  constexpr ::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*> const& __cordl_internal_get__slots() const;
 
-  constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> const& __cordl_internal_get__slots() const;
-
-  constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*>& __cordl_internal_get__slots();
+  constexpr ::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*>& __cordl_internal_get__slots();
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
@@ -456,7 +442,7 @@ public:
 
   constexpr void __cordl_internal_set__siInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
-  constexpr void __cordl_internal_set__slots(::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> value);
+  constexpr void __cordl_internal_set__slots(::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*> value);
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
@@ -522,30 +508,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HashSet_1(HashSet_1 const&) = delete;
 
-  /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ____buckets;
-
-  /// @brief Field _slots, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> ____slots;
-
-  /// @brief Field _count, offset: 0x20, size: 0x4, def value: None
-  int32_t ____count;
-
-  /// @brief Field _lastIndex, offset: 0x24, size: 0x4, def value: None
-  int32_t ____lastIndex;
-
-  /// @brief Field _freeList, offset: 0x28, size: 0x4, def value: None
-  int32_t ____freeList;
-
-  /// @brief Field _comparer, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEqualityComparer_1<T>* ____comparer;
-
-  /// @brief Field _version, offset: 0x38, size: 0x4, def value: None
-  int32_t ____version;
-
-  /// @brief Field _siInfo, offset: 0x40, size: 0x8, def value: None
-  ::System::Runtime::Serialization::SerializationInfo* ____siInfo;
-
   /// @brief Field CapacityName offset 0xffffffff size 0x8
   static constexpr ::ConstString CapacityName{ u"Capacity" };
 
@@ -568,13 +530,37 @@ public:
   static constexpr ::ConstString VersionName{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14191 };
+
+  /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> ____buckets;
+
+  /// @brief Field _slots, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*> ____slots;
+
+  /// @brief Field _count, offset: 0x20, size: 0x4, def value: None
+  int32_t ____count;
+
+  /// @brief Field _lastIndex, offset: 0x24, size: 0x4, def value: None
+  int32_t ____lastIndex;
+
+  /// @brief Field _freeList, offset: 0x28, size: 0x4, def value: None
+  int32_t ____freeList;
+
+  /// @brief Field _comparer, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::IEqualityComparer_1<T>* ____comparer;
+
+  /// @brief Field _version, offset: 0x38, size: 0x4, def value: None
+  int32_t ____version;
+
+  /// @brief Field _siInfo, offset: 0x40, size: 0x8, def value: None
+  ::System::Runtime::Serialization::SerializationInfo* ____siInfo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::HashSet_1, "System.Collections.Generic", "HashSet`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__HashSet_1__ElementCount, "System.Collections.Generic", "HashSet`1/ElementCount");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__HashSet_1__Enumerator, "System.Collections.Generic", "HashSet`1/Enumerator");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__HashSet_1__Slot, "System.Collections.Generic", "HashSet`1/Slot");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::HashSet_1_ElementCount, "System.Collections.Generic", "HashSet`1/ElementCount");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::HashSet_1_Enumerator, "System.Collections.Generic", "HashSet`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::HashSet_1_Slot, "System.Collections.Generic", "HashSet`1/Slot");

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Observer_1)
 namespace System {
@@ -14,22 +15,18 @@ class Action;
 namespace System {
 class Exception;
 }
-namespace System {
-template <typename T> class IObserver_1;
-}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class Observer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::Observer_1);
-// Type: UnityEngine.InputSystem.Utilities::Observer`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IObserver`1<T>, System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::Observer`1<TValue>*
+// CS Name: UnityEngine.InputSystem.Utilities.Observer`1<TValue>
 class CORDL_TYPE Observer_1 : public ::System::Object {
 public:
   // Declarations
@@ -53,13 +50,13 @@ public:
   /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnNext(TValue evt);
 
+  constexpr ::System::Action* const& __cordl_internal_get_m_OnCompleted() const;
+
   constexpr ::System::Action*& __cordl_internal_get_m_OnCompleted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_OnCompleted() const;
+  constexpr ::System::Action_1<TValue>* const& __cordl_internal_get_m_OnNext() const;
 
   constexpr ::System::Action_1<TValue>*& __cordl_internal_get_m_OnNext();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __cordl_internal_get_m_OnNext() const;
 
   constexpr void __cordl_internal_set_m_OnCompleted(::System::Action* value);
 
@@ -85,14 +82,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Observer_1(Observer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7094 };
+
   /// @brief Field m_OnNext, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TValue>* ___m_OnNext;
 
   /// @brief Field m_OnCompleted, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___m_OnCompleted;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

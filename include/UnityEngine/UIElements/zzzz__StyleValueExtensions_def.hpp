@@ -39,11 +39,10 @@ class StyleValueExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueExtensions);
-// Type: UnityEngine.UIElements::StyleValueExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::StyleValueExtensions*
+// CS Name: UnityEngine.UIElements.StyleValueExtensions
 class CORDL_TYPE StyleValueExtensions : public ::System::Object {
 public:
   // Declarations
@@ -53,22 +52,22 @@ public:
   /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
-  /// @brief Method ToLength, addr 0x4a20108, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x4a84a18, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToLength, addr 0x4a205a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x4a84eb4, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
-  /// @brief Method ToRotate, addr 0x4a20208, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ToRotate, addr 0x4a84b18, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToScale, addr 0x4a20360, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToScale, addr 0x4a84c70, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToTranslate, addr 0x4a20464, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ToTranslate, addr 0x4a84d74, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToYogaValue, addr 0x4a1ffbc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ToYogaValue, addr 0x4a848cc, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue ToYogaValue(::UnityEngine::UIElements::Length length);
 
 protected:
@@ -86,7 +85,7 @@ public:
   StyleValueExtensions(StyleValueExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

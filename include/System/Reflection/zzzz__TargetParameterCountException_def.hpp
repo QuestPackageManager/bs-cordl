@@ -18,11 +18,10 @@ class TargetParameterCountException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::TargetParameterCountException);
-// Type: System.Reflection::TargetParameterCountException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ApplicationException
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::TargetParameterCountException*
+// CS Name: System.Reflection.TargetParameterCountException
 class CORDL_TYPE TargetParameterCountException : public ::System::ApplicationException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::Reflection::TargetParameterCountException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cc6f4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d270c0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc6fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d27140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cc6fa8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2711c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

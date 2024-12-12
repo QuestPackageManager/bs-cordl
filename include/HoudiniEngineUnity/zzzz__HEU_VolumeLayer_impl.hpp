@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_VolumeLayer.hpp"
 #include "HoudiniEngineUnity/zzzz__HFLayerType_impl.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeLayer_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_VolumeLayer.IsEquivalentTo
 template <>
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeLayer::*)(::HoudiniEngineUnity::HEU_VolumeLayer*)>(
     &::HoudiniEngineUnity::HEU_VolumeLayer::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x3a47368;
+  constexpr static std::size_t addrs = 0x3a9dfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeLayer::*)()>(&::HoudiniEngineUnity::HEU_VolumeLayer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a476d8;
+  constexpr static std::size_t addrs = 0x3a9e348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeLayer*>::get(), ".ctor",
@@ -35,15 +35,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
-constexpr HoudiniEngineUnity::HEU_VolumeLayer::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*
-HoudiniEngineUnity::HEU_VolumeLayer::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeLayer__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(static_cast<void*>(this));
-}
 constexpr ::StringW& HoudiniEngineUnity::HEU_VolumeLayer::__cordl_internal_get__layerName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layerName;
@@ -168,7 +159,7 @@ constexpr ::HoudiniEngineUnity::HEU_DetailPrototype*& HoudiniEngineUnity::HEU_Vo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailPrototype;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_DetailPrototype*> const& HoudiniEngineUnity::HEU_VolumeLayer::__cordl_internal_get__detailPrototype() const {
+constexpr ::HoudiniEngineUnity::HEU_DetailPrototype* const& HoudiniEngineUnity::HEU_VolumeLayer::__cordl_internal_get__detailPrototype() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailPrototype;
 }
@@ -182,13 +173,22 @@ inline bool HoudiniEngineUnity::HEU_VolumeLayer::IsEquivalentTo(::HoudiniEngineU
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_VolumeLayer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::HoudiniEngineUnity::HEU_VolumeLayer* HoudiniEngineUnity::HEU_VolumeLayer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_VolumeLayer*>());
-}
 inline void HoudiniEngineUnity::HEU_VolumeLayer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeLayer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_VolumeLayer* HoudiniEngineUnity::HEU_VolumeLayer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_VolumeLayer*>());
+}
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
+constexpr HoudiniEngineUnity::HEU_VolumeLayer::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*
+HoudiniEngineUnity::HEU_VolumeLayer::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeLayer__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_VolumeLayer::HEU_VolumeLayer() {}

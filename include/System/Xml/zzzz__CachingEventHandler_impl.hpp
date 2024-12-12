@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CachingEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::CachingEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42cc29c;
+  constexpr static std::size_t addrs = 0x432d5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CachingEventHandler::*)(::System::Xml::XsdCachingReader*)>(
     &::System::Xml::CachingEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42cc39c;
+  constexpr static std::size_t addrs = 0x432d6b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,9 +36,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Xml::CachingEventHandler* System::Xml::CachingEventHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::CachingEventHandler*>(object, method));
-}
 inline void System::Xml::CachingEventHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::CachingEventHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -50,6 +47,9 @@ inline void System::Xml::CachingEventHandler::Invoke(::System::Xml::XsdCachingRe
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::CachingEventHandler*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cachingReader);
+}
+inline ::System::Xml::CachingEventHandler* System::Xml::CachingEventHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::CachingEventHandler*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::CachingEventHandler::CachingEventHandler() {}

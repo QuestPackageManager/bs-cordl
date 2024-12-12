@@ -3,27 +3,30 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INoteDebrisDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteDebrisSpawner)
 namespace GlobalNamespace {
 struct ColorType;
 }
 namespace GlobalNamespace {
-class INoteDebrisDidFinishEvent;
+class DeterminismConfig;
+}
+namespace GlobalNamespace {
+struct NoteData_GameplayType;
+}
+namespace GlobalNamespace {
+class NoteDebris_Pool;
 }
 namespace GlobalNamespace {
 class NoteDebris;
 }
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
-}
-namespace GlobalNamespace {
-class __NoteDebris__Pool;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Random;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -37,24 +40,26 @@ class NoteDebrisSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisSpawner);
-// Type: ::NoteDebrisSpawner
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies INoteDebrisDidFinishEvent, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteDebrisSpawner*
+// CS Name: NoteDebrisSpawner
 class CORDL_TYPE NoteDebrisSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _burstSliderElementNotesDebrisPool, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__burstSliderElementNotesDebrisPool,
-                      put = __cordl_internal_set__burstSliderElementNotesDebrisPool)) ::GlobalNamespace::__NoteDebris__Pool* _burstSliderElementNotesDebrisPool;
+                      put = __cordl_internal_set__burstSliderElementNotesDebrisPool)) ::GlobalNamespace::NoteDebris_Pool* _burstSliderElementNotesDebrisPool;
 
   /// @brief Field _burstSliderHeadNotesDebrisPool, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__burstSliderHeadNotesDebrisPool,
-                      put = __cordl_internal_set__burstSliderHeadNotesDebrisPool)) ::GlobalNamespace::__NoteDebris__Pool* _burstSliderHeadNotesDebrisPool;
+                      put = __cordl_internal_set__burstSliderHeadNotesDebrisPool)) ::GlobalNamespace::NoteDebris_Pool* _burstSliderHeadNotesDebrisPool;
 
   /// @brief Field _cutDirMultiplier, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__cutDirMultiplier, put = __cordl_internal_set__cutDirMultiplier)) float_t _cutDirMultiplier;
+
+  /// @brief Field _determinismConfig, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__determinismConfig, put = __cordl_internal_set__determinismConfig)) ::GlobalNamespace::DeterminismConfig* _determinismConfig;
 
   /// @brief Field _fromCenterSpeed, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__fromCenterSpeed, put = __cordl_internal_set__fromCenterSpeed)) float_t _fromCenterSpeed;
@@ -63,17 +68,20 @@ public:
   __declspec(property(get = __cordl_internal_get__moveSpeedMultiplier, put = __cordl_internal_set__moveSpeedMultiplier)) float_t _moveSpeedMultiplier;
 
   /// @brief Field _normalNotesDebrisPool, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalNotesDebrisPool, put = __cordl_internal_set__normalNotesDebrisPool)) ::GlobalNamespace::__NoteDebris__Pool* _normalNotesDebrisPool;
+  __declspec(property(get = __cordl_internal_get__normalNotesDebrisPool, put = __cordl_internal_set__normalNotesDebrisPool)) ::GlobalNamespace::NoteDebris_Pool* _normalNotesDebrisPool;
 
-  /// @brief Field _poolForNoteDebris, offset 0x50, size 0x8
+  /// @brief Field _poolForNoteDebris, offset 0x60, size 0x8
   __declspec(property(
       get = __cordl_internal_get__poolForNoteDebris,
-      put = __cordl_internal_set__poolForNoteDebris)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::__NoteDebris__Pool*>* _poolForNoteDebris;
+      put = __cordl_internal_set__poolForNoteDebris)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::NoteDebris_Pool*>* _poolForNoteDebris;
 
-  /// @brief Field _poolForNoteGameplayType, offset 0x48, size 0x8
+  /// @brief Field _poolForNoteGameplayType, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__poolForNoteGameplayType,
-                      put = __cordl_internal_set__poolForNoteGameplayType)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__NoteData__GameplayType,
-                                                                                                                         ::GlobalNamespace::__NoteDebris__Pool*>* _poolForNoteGameplayType;
+                      put = __cordl_internal_set__poolForNoteGameplayType)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteDebris_Pool*>*
+      _poolForNoteGameplayType;
+
+  /// @brief Field _random, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
 
   /// @brief Field _rotation, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__rotation, put = __cordl_internal_set__rotation)) float_t _rotation;
@@ -81,36 +89,40 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteDebrisDidFinishEvent"
   constexpr operator ::GlobalNamespace::INoteDebrisDidFinishEvent*() noexcept;
 
-  /// @brief Method DespawnNoteDebris, addr 0x3b25fb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DespawnNoteDebris, addr 0x3b87320, size 0xa4, virtual false, abstract: false, final false
   inline void DespawnNoteDebris(::GlobalNamespace::NoteDebris* noteDebris);
 
-  /// @brief Method HandleNoteDebrisDidFinish, addr 0x3b25ef4, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteDebrisDidFinish, addr 0x3b87264, size 0xbc, virtual true, abstract: false, final true
   inline void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
 
   static inline ::GlobalNamespace::NoteDebrisSpawner* New_ctor();
 
-  /// @brief Method SpawnDebris, addr 0x3b25174, size 0x86c, virtual false, abstract: false, final false
-  inline void SpawnDebris(::GlobalNamespace::__NoteData__GameplayType noteGameplayType, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t saberSpeed,
+  /// @brief Method SpawnDebris, addr 0x3b86474, size 0x8dc, virtual false, abstract: false, final false
+  inline void SpawnDebris(::GlobalNamespace::NoteData_GameplayType noteGameplayType, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t saberSpeed,
                           ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
                           ::GlobalNamespace::ColorType colorType, float_t timeToNextColorNote, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method SpawnNoteDebris, addr 0x3b25de8, size 0x10c, virtual false, abstract: false, final false
-  inline void SpawnNoteDebris(::GlobalNamespace::__NoteData__GameplayType noteGameplayType, ByRef<::GlobalNamespace::NoteDebris*> debris0, ByRef<::GlobalNamespace::NoteDebris*> debris1);
+  /// @brief Method SpawnNoteDebris, addr 0x3b87158, size 0x10c, virtual false, abstract: false, final false
+  inline void SpawnNoteDebris(::GlobalNamespace::NoteData_GameplayType noteGameplayType, ::ByRef<::GlobalNamespace::NoteDebris*> debris0, ::ByRef<::GlobalNamespace::NoteDebris*> debris1);
 
-  /// @brief Method Start, addr 0x3b25d1c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8708c, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::__NoteDebris__Pool*& __cordl_internal_get__burstSliderElementNotesDebrisPool();
+  constexpr ::GlobalNamespace::NoteDebris_Pool* const& __cordl_internal_get__burstSliderElementNotesDebrisPool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteDebris__Pool*> const& __cordl_internal_get__burstSliderElementNotesDebrisPool() const;
+  constexpr ::GlobalNamespace::NoteDebris_Pool*& __cordl_internal_get__burstSliderElementNotesDebrisPool();
 
-  constexpr ::GlobalNamespace::__NoteDebris__Pool*& __cordl_internal_get__burstSliderHeadNotesDebrisPool();
+  constexpr ::GlobalNamespace::NoteDebris_Pool* const& __cordl_internal_get__burstSliderHeadNotesDebrisPool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteDebris__Pool*> const& __cordl_internal_get__burstSliderHeadNotesDebrisPool() const;
+  constexpr ::GlobalNamespace::NoteDebris_Pool*& __cordl_internal_get__burstSliderHeadNotesDebrisPool();
 
   constexpr float_t const& __cordl_internal_get__cutDirMultiplier() const;
 
   constexpr float_t& __cordl_internal_get__cutDirMultiplier();
+
+  constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
+
+  constexpr ::GlobalNamespace::DeterminismConfig*& __cordl_internal_get__determinismConfig();
 
   constexpr float_t const& __cordl_internal_get__fromCenterSpeed() const;
 
@@ -120,44 +132,49 @@ public:
 
   constexpr float_t& __cordl_internal_get__moveSpeedMultiplier();
 
-  constexpr ::GlobalNamespace::__NoteDebris__Pool*& __cordl_internal_get__normalNotesDebrisPool();
+  constexpr ::GlobalNamespace::NoteDebris_Pool* const& __cordl_internal_get__normalNotesDebrisPool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteDebris__Pool*> const& __cordl_internal_get__normalNotesDebrisPool() const;
+  constexpr ::GlobalNamespace::NoteDebris_Pool*& __cordl_internal_get__normalNotesDebrisPool();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::__NoteDebris__Pool*>*& __cordl_internal_get__poolForNoteDebris();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::NoteDebris_Pool*>* const& __cordl_internal_get__poolForNoteDebris() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::__NoteDebris__Pool*>*> const&
-  __cordl_internal_get__poolForNoteDebris() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::NoteDebris_Pool*>*& __cordl_internal_get__poolForNoteDebris();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__NoteData__GameplayType, ::GlobalNamespace::__NoteDebris__Pool*>*& __cordl_internal_get__poolForNoteGameplayType();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteDebris_Pool*>* const& __cordl_internal_get__poolForNoteGameplayType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__NoteData__GameplayType, ::GlobalNamespace::__NoteDebris__Pool*>*> const&
-  __cordl_internal_get__poolForNoteGameplayType() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteDebris_Pool*>*& __cordl_internal_get__poolForNoteGameplayType();
+
+  constexpr ::System::Random* const& __cordl_internal_get__random() const;
+
+  constexpr ::System::Random*& __cordl_internal_get__random();
 
   constexpr float_t const& __cordl_internal_get__rotation() const;
 
   constexpr float_t& __cordl_internal_get__rotation();
 
-  constexpr void __cordl_internal_set__burstSliderElementNotesDebrisPool(::GlobalNamespace::__NoteDebris__Pool* value);
+  constexpr void __cordl_internal_set__burstSliderElementNotesDebrisPool(::GlobalNamespace::NoteDebris_Pool* value);
 
-  constexpr void __cordl_internal_set__burstSliderHeadNotesDebrisPool(::GlobalNamespace::__NoteDebris__Pool* value);
+  constexpr void __cordl_internal_set__burstSliderHeadNotesDebrisPool(::GlobalNamespace::NoteDebris_Pool* value);
 
   constexpr void __cordl_internal_set__cutDirMultiplier(float_t value);
+
+  constexpr void __cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig* value);
 
   constexpr void __cordl_internal_set__fromCenterSpeed(float_t value);
 
   constexpr void __cordl_internal_set__moveSpeedMultiplier(float_t value);
 
-  constexpr void __cordl_internal_set__normalNotesDebrisPool(::GlobalNamespace::__NoteDebris__Pool* value);
+  constexpr void __cordl_internal_set__normalNotesDebrisPool(::GlobalNamespace::NoteDebris_Pool* value);
 
-  constexpr void __cordl_internal_set__poolForNoteDebris(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::__NoteDebris__Pool*>* value);
+  constexpr void __cordl_internal_set__poolForNoteDebris(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::NoteDebris_Pool*>* value);
 
-  constexpr void
-  __cordl_internal_set__poolForNoteGameplayType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__NoteData__GameplayType, ::GlobalNamespace::__NoteDebris__Pool*>* value);
+  constexpr void __cordl_internal_set__poolForNoteGameplayType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteDebris_Pool*>* value);
+
+  constexpr void __cordl_internal_set__random(::System::Random* value);
 
   constexpr void __cordl_internal_set__rotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b26054, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b873c4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteDebrisDidFinishEvent"
@@ -177,6 +194,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteDebrisSpawner(NoteDebrisSpawner const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4249 };
+
+  /// @brief Field kLifeTimeOffset offset 0xffffffff size 0x4
+  static constexpr float_t kLifeTimeOffset{ static_cast<float_t>(0.1f) };
+
+  /// @brief Field kMaxLifeTime offset 0xffffffff size 0x4
+  static constexpr float_t kMaxLifeTime{ static_cast<float_t>(2.0f) };
+
+  /// @brief Field kMinLifeTime offset 0xffffffff size 0x4
+  static constexpr float_t kMinLifeTime{ static_cast<float_t>(0.2f) };
+
   /// @brief Field _rotation, offset: 0x20, size: 0x4, def value: None
   float_t ____rotation;
 
@@ -190,37 +219,29 @@ public:
   float_t ____moveSpeedMultiplier;
 
   /// @brief Field _normalNotesDebrisPool, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::__NoteDebris__Pool* ____normalNotesDebrisPool;
+  ::GlobalNamespace::NoteDebris_Pool* ____normalNotesDebrisPool;
 
   /// @brief Field _burstSliderHeadNotesDebrisPool, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::__NoteDebris__Pool* ____burstSliderHeadNotesDebrisPool;
+  ::GlobalNamespace::NoteDebris_Pool* ____burstSliderHeadNotesDebrisPool;
 
   /// @brief Field _burstSliderElementNotesDebrisPool, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::__NoteDebris__Pool* ____burstSliderElementNotesDebrisPool;
+  ::GlobalNamespace::NoteDebris_Pool* ____burstSliderElementNotesDebrisPool;
 
-  /// @brief Field _poolForNoteGameplayType, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__NoteData__GameplayType, ::GlobalNamespace::__NoteDebris__Pool*>* ____poolForNoteGameplayType;
+  /// @brief Field _random, offset: 0x48, size: 0x8, def value: None
+  ::System::Random* ____random;
 
-  /// @brief Field _poolForNoteDebris, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::__NoteDebris__Pool*>* ____poolForNoteDebris;
+  /// @brief Field _determinismConfig, offset: 0x50, size: 0x8, def value: None
+  ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4238 };
+  /// @brief Field _poolForNoteGameplayType, offset: 0x58, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteDebris_Pool*>* ____poolForNoteGameplayType;
 
-  /// @brief Field kLifeTimeOffset offset 0xffffffff size 0x4
-  static constexpr float_t kLifeTimeOffset{ 0.05 };
-
-  /// @brief Field kMaxLifeTime offset 0xffffffff size 0x4
-  static constexpr float_t kMaxLifeTime{ 2.0 };
-
-  /// @brief Field kMinLifeTime offset 0xffffffff size 0x4
-  static constexpr float_t kMinLifeTime{ 0.2 };
+  /// @brief Field _poolForNoteDebris, offset: 0x60, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::NoteDebris_Pool*>* ____poolForNoteDebris;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteDebrisSpawner, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____rotation) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____cutDirMultiplier) == 0x24, "Offset mismatch!");
@@ -235,9 +256,15 @@ static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____burstSliderHead
 
 static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____burstSliderElementNotesDebrisPool) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____poolForNoteGameplayType) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____random) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____poolForNoteDebris) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____determinismConfig) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____poolForNoteGameplayType) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisSpawner, ____poolForNoteDebris) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteDebrisSpawner, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteDebrisSpawner);

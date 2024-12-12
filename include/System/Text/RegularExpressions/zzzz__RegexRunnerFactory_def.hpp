@@ -14,15 +14,14 @@ class RegexRunnerFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexRunnerFactory);
-// Type: System.Text.RegularExpressions::RegexRunnerFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// CS Name: ::System.Text.RegularExpressions::RegexRunnerFactory*
+// CS Name: System.Text.RegularExpressions.RegexRunnerFactory
 class CORDL_TYPE RegexRunnerFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateInstance, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexRunner* CreateInstance();
 
 protected:
@@ -40,7 +39,7 @@ public:
   RegexRunnerFactory(RegexRunnerFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9245 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

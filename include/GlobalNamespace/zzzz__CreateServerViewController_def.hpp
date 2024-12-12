@@ -26,11 +26,10 @@ class CreateServerViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CreateServerViewController);
-// Type: ::CreateServerViewController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CreateServerViewController*
+// CS Name: CreateServerViewController
 class CORDL_TYPE CreateServerViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -52,21 +51,21 @@ public:
 
   __declspec(property(get = get_multiplayerModeSettings)) ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
 
-  /// @brief Method ApplyAndGetData, addr 0x3b0b32c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyAndGetData, addr 0x3b6b388, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData ApplyAndGetData();
 
-  /// @brief Method DidActivate, addr 0x3b0b22c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6b288, size 0x100, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::CreateServerViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3b0b1e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b6b244, size 0x44, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x3b0b3f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x3b6b44c, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x3b0b448, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x3b6b4a4, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelCreateServerButton() const;
@@ -81,13 +80,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::CreateServerFormController>& __cordl_internal_get__createServerFormController();
 
+  constexpr ::GlobalNamespace::MultiplayerModeSettings* const& __cordl_internal_get__multiplayerModeSettings() const;
+
   constexpr ::GlobalNamespace::MultiplayerModeSettings*& __cordl_internal_get__multiplayerModeSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerModeSettings*> const& __cordl_internal_get__multiplayerModeSettings() const;
+  constexpr ::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* const& __cordl_internal_get_didFinishEvent() const;
 
   constexpr ::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*& __cordl_internal_get_didFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*> const& __cordl_internal_get_didFinishEvent() const;
 
   constexpr void __cordl_internal_set__cancelCreateServerButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -99,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method .ctor, addr 0x3b0b3e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6b444, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b0b080, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b6b0dc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method get_multiplayerModeSettings, addr 0x3b0b1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x3b6b23c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b0b130, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b6b18c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
 protected:
@@ -125,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CreateServerViewController(CreateServerViewController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5371 };
+
   /// @brief Field _createServerButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
@@ -140,14 +142,9 @@ public:
   /// @brief Field _multiplayerModeSettings, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerModeSettings* ____multiplayerModeSettings;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5347 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerViewController, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CreateServerViewController, ____createServerButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreateServerViewController, ____cancelCreateServerButton) == 0x80, "Offset mismatch!");
@@ -157,6 +154,8 @@ static_assert(offsetof(::GlobalNamespace::CreateServerViewController, ____create
 static_assert(offsetof(::GlobalNamespace::CreateServerViewController, ___didFinishEvent) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreateServerViewController, ____multiplayerModeSettings) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerViewController, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreateServerViewController);

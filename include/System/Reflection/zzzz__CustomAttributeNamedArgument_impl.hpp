@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::CustomAttributeNamedArgument::*)(
     ::System::Type*, ::StringW, bool, ::System::Reflection::CustomAttributeTypedArgument)>(&::System::Reflection::CustomAttributeNamedArgument::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cc76d8;
+  constexpr static std::size_t addrs = 0x3d2784c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::CustomAttributeNamedArgument::*)(::System::Reflection::MemberInfo*, ::System::Object*)>(
     &::System::Reflection::CustomAttributeNamedArgument::_ctor)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3cc7700;
+  constexpr static std::size_t addrs = 0x3d27874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::CustomAttributeNamedArgument::*)(
     ::System::Reflection::MemberInfo*, ::System::Reflection::CustomAttributeTypedArgument)>(&::System::Reflection::CustomAttributeNamedArgument::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3cc791c;
+  constexpr static std::size_t addrs = 0x3d27a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::CustomAttributeTypedArgument (::System::Reflection::CustomAttributeNamedArgument::*)()>(
     &::System::Reflection::CustomAttributeNamedArgument::get_TypedValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cc7a3c;
+  constexpr static std::size_t addrs = 0x3d27bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::CustomAttributeNamedArgument>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::CustomAttributeNamedArgument::*)()>(
     &::System::Reflection::CustomAttributeNamedArgument::get_IsField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc7a48;
+  constexpr static std::size_t addrs = 0x3d27bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::CustomAttributeNamedArgument>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::CustomAttributeNamedArgument::*)()>(
     &::System::Reflection::CustomAttributeNamedArgument::get_MemberName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc7a50;
+  constexpr static std::size_t addrs = 0x3d27bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::CustomAttributeNamedArgument>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (::System::Reflection::CustomAttributeNamedArgument::*)()>(
     &::System::Reflection::CustomAttributeNamedArgument::get_MemberInfo)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3cc7a58;
+  constexpr static std::size_t addrs = 0x3d27bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::CustomAttributeNamedArgument>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::CustomAttributeNamedArgument::*)(::System::Object*)>(
     &::System::Reflection::CustomAttributeNamedArgument::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cc7b30;
+  constexpr static std::size_t addrs = 0x3d27ca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::CustomAttributeNamedArgument::*)()>(
     &::System::Reflection::CustomAttributeNamedArgument::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3cc7ba8;
+  constexpr static std::size_t addrs = 0x3d27d1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::CustomAttributeNamedArgument, ::System::Reflection::CustomAttributeNamedArgument)>(
     &::System::Reflection::CustomAttributeNamedArgument::op_Equality)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3cc7c14;
+  constexpr static std::size_t addrs = 0x3d27d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::CustomAttributeNamedArgument, ::System::Reflection::CustomAttributeNamedArgument)>(
     &::System::Reflection::CustomAttributeNamedArgument::op_Inequality)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3cc7c94;
+  constexpr static std::size_t addrs = 0x3d27e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::CustomAttributeNamedArgument::*)()>(
     &::System::Reflection::CustomAttributeNamedArgument::ToString)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x3cc7d18;
+  constexpr static std::size_t addrs = 0x3d27e8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,9 +263,9 @@ inline ::StringW System::Reflection::CustomAttributeNamedArgument::ToString() {
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "::System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "_attributeType", ty: "::System::Type*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo*", modifiers: "",
-// def_value: Some("nullptr") }]
+// "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "_attributeType", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo*", modifiers: "", def_value:
+// Some("{}") }]
 constexpr ::System::Reflection::CustomAttributeNamedArgument::CustomAttributeNamedArgument(::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField,
                                                                                            bool _IsField_k__BackingField, ::StringW _MemberName_k__BackingField, ::System::Type* _attributeType,
                                                                                            ::System::Reflection::MemberInfo* _lazyMemberInfo) noexcept {

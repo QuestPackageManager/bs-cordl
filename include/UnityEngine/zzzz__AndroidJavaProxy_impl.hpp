@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaProxy::*)(::StringW)>(&::UnityEngine::AndroidJavaProxy::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47e2d38;
+  constexpr static std::size_t addrs = 0x484404c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaProxy::*)(::UnityEngine::AndroidJavaClass*)>(
     &::UnityEngine::AndroidJavaProxy::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e32a8;
+  constexpr static std::size_t addrs = 0x48445bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::Finalize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x47e32d4;
+  constexpr static std::size_t addrs = 0x48445e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (
     ::UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::UnityEngine::AndroidJavaProxy::Invoke)> {
   constexpr static std::size_t size = 0x904;
-  constexpr static std::size_t addrs = 0x47e336c;
+  constexpr static std::size_t addrs = 0x4844680;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (
     ::UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<::UnityEngine::AndroidJavaObject*, ::Array<::UnityEngine::AndroidJavaObject*>*>)>(&::UnityEngine::AndroidJavaProxy::Invoke)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x47e4824;
+  constexpr static std::size_t addrs = 0x4845b38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::UnityEngine::AndroidJavaProxy::*)(::StringW, ::System::IntPtr)>(
     &::UnityEngine::AndroidJavaProxy::Invoke)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x47e2e9c;
+  constexpr static std::size_t addrs = 0x48441b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AndroidJavaProxy::*)(::UnityEngine::AndroidJavaObject*)>(
     &::UnityEngine::AndroidJavaProxy::equals)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47e5780;
+  constexpr static std::size_t addrs = 0x4846a94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::hashCode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47e57d8;
+  constexpr static std::size_t addrs = 0x4846aec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::toString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x47e5894;
+  constexpr static std::size_t addrs = 0x4846ba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (::UnityEngine::AndroidJavaProxy::*)()>(
     &::UnityEngine::AndroidJavaProxy::GetProxyObject)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47e58f8;
+  constexpr static std::size_t addrs = 0x4846c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaProxy*>::get(), "GetProxyObject",
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::UnityEngine::AndroidJavaProxy::*)()>(&::UnityEngine::AndroidJavaProxy::GetRawProxy)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x47e4624;
+  constexpr static std::size_t addrs = 0x4845938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaProxy*>::get(), "GetRawProxy",
@@ -170,7 +170,7 @@ constexpr ::UnityEngine::AndroidJavaClass*& UnityEngine::AndroidJavaProxy::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___javaInterface;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AndroidJavaClass*> const& UnityEngine::AndroidJavaProxy::__cordl_internal_get_javaInterface() const {
+constexpr ::UnityEngine::AndroidJavaClass* const& UnityEngine::AndroidJavaProxy::__cordl_internal_get_javaInterface() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___javaInterface;
 }
@@ -205,17 +205,11 @@ inline void UnityEngine::AndroidJavaProxy::setStaticF_s_HashCodeMethodID(::Syste
 inline ::System::IntPtr UnityEngine::AndroidJavaProxy::getStaticF_s_HashCodeMethodID() {
   return ::cordl_internals::getStaticField<::System::IntPtr, "s_HashCodeMethodID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaProxy*>::get>();
 }
-inline ::UnityEngine::AndroidJavaProxy* UnityEngine::AndroidJavaProxy::New_ctor(::StringW javaInterface) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AndroidJavaProxy*>(javaInterface));
-}
 inline void UnityEngine::AndroidJavaProxy::_ctor(::StringW javaInterface) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaProxy*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, javaInterface);
-}
-inline ::UnityEngine::AndroidJavaProxy* UnityEngine::AndroidJavaProxy::New_ctor(::UnityEngine::AndroidJavaClass* javaInterface) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AndroidJavaProxy*>(javaInterface));
 }
 inline void UnityEngine::AndroidJavaProxy::_ctor(::UnityEngine::AndroidJavaClass* javaInterface) {
   static auto* ___internal_method =
@@ -268,6 +262,12 @@ inline ::System::IntPtr UnityEngine::AndroidJavaProxy::GetRawProxy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaProxy*>::get(), "GetRawProxy",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method);
+}
+inline ::UnityEngine::AndroidJavaProxy* UnityEngine::AndroidJavaProxy::New_ctor(::StringW javaInterface) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AndroidJavaProxy*>(javaInterface));
+}
+inline ::UnityEngine::AndroidJavaProxy* UnityEngine::AndroidJavaProxy::New_ctor(::UnityEngine::AndroidJavaClass* javaInterface) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AndroidJavaProxy*>(javaInterface));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaProxy::AndroidJavaProxy() {}

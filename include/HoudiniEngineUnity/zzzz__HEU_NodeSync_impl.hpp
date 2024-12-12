@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_NodeSync::*)()>(&::HoudiniEngineUnity::HEU_NodeSync::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a0a28c;
+  constexpr static std::size_t addrs = 0x3a60efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_NodeSync*>::get(), "OnEnable",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_NodeSync::*)()>(&::HoudiniEngineUnity::HEU_NodeSync::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a0a290;
+  constexpr static std::size_t addrs = 0x3a60f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_NodeSync*>::get(), "OnDestroy",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_NodeSync::*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_NodeSync::InitializeFromHoudini)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3a0a29c;
+  constexpr static std::size_t addrs = 0x3a60f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_NodeSync::*)(::HoudiniEngineUnity::HEU_SessionBase*)>(
     &::HoudiniEngineUnity::HEU_NodeSync::SetupLoadTask)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3a0a348;
+  constexpr static std::size_t addrs = 0x3a60fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_NodeSync::*)(::StringW)>(&::HoudiniEngineUnity::HEU_NodeSync::SaveNodeToFile)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3a0a3f4;
+  constexpr static std::size_t addrs = 0x3a61064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_NodeSync::CreateNodeSync)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x3a0a494;
+  constexpr static std::size_t addrs = 0x3a61104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_NodeSync::*)()>(&::HoudiniEngineUnity::HEU_NodeSync::Resync)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a0a798;
+  constexpr static std::size_t addrs = 0x3a61408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_NodeSync::*)()>(&::HoudiniEngineUnity::HEU_NodeSync::SyncUpdate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3a0a7d0;
+  constexpr static std::size_t addrs = 0x3a61440;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_NodeSync::*)()>(&::HoudiniEngineUnity::HEU_NodeSync::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a0a8dc;
+  constexpr static std::size_t addrs = 0x3a6154c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_NodeSync*>::get(), ".ctor",
@@ -190,13 +190,13 @@ inline void HoudiniEngineUnity::HEU_NodeSync::SyncUpdate() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_NodeSync*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::HEU_NodeSync* HoudiniEngineUnity::HEU_NodeSync::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_NodeSync*>());
-}
 inline void HoudiniEngineUnity::HEU_NodeSync::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_NodeSync*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_NodeSync* HoudiniEngineUnity::HEU_NodeSync::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_NodeSync*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_NodeSync::HEU_NodeSync() {}

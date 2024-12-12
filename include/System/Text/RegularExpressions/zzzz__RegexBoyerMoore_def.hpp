@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexBoyerMoore)
@@ -17,11 +16,10 @@ class RegexBoyerMoore;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexBoyerMoore);
-// Type: System.Text.RegularExpressions::RegexBoyerMoore
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// CS Name: ::System.Text.RegularExpressions::RegexBoyerMoore*
+// CS Name: System.Text.RegularExpressions.RegexBoyerMoore
 class CORDL_TYPE RegexBoyerMoore : public ::System::Object {
 public:
   // Declarations
@@ -54,15 +52,15 @@ public:
   /// @brief Field _culture, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture)) ::System::Globalization::CultureInfo* _culture;
 
-  /// @brief Method IsMatch, addr 0x43b3b10, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x4414e24, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
-  /// @brief Method MatchPattern, addr 0x43b39ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x4414d00, size 0x124, virtual false, abstract: false, final false
   inline bool MatchPattern(::StringW text, int32_t index);
 
   static inline ::System::Text::RegularExpressions::RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Scan, addr 0x43b3b7c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x4414e90, size 0x2e4, virtual false, abstract: false, final false
   inline int32_t Scan(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
   constexpr bool const& __cordl_internal_get_CaseInsensitive() const;
@@ -97,9 +95,9 @@ public:
 
   constexpr bool& __cordl_internal_get_RightToLeft();
 
-  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
+  constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__culture() const;
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
   constexpr void __cordl_internal_set_CaseInsensitive(bool value);
 
@@ -119,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method .ctor, addr 0x43b3558, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441486c, size 0x494, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
 protected:
@@ -135,6 +133,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RegexBoyerMoore", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RegexBoyerMoore(RegexBoyerMoore const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9229 };
 
   /// @brief Field Positive, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___Positive;
@@ -163,14 +164,9 @@ public:
   /// @brief Field _culture, offset: 0x40, size: 0x8, def value: None
   ::System::Globalization::CultureInfo* ____culture;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9204 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexBoyerMoore, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___Positive) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___NegativeASCII) == 0x18, "Offset mismatch!");
@@ -188,6 +184,8 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___R
 static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___CaseInsensitive) == 0x39, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ____culture) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexBoyerMoore, 0x48>, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexBoyerMoore);

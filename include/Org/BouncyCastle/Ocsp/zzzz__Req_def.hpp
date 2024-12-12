@@ -20,11 +20,10 @@ class Req;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::Req);
-// Type: Org.BouncyCastle.Ocsp::Req
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.X509.X509ExtensionBase
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Ocsp::Req*
+// CS Name: Org.BouncyCastle.Ocsp.Req
 class CORDL_TYPE Req : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
@@ -33,24 +32,24 @@ public:
   /// @brief Field req, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req)) ::Org::BouncyCastle::Asn1::Ocsp::Request* req;
 
-  /// @brief Method GetCertID, addr 0x24ef228, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetCertID, addr 0x2522514, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-  /// @brief Method GetX509Extensions, addr 0x24ef2ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x2522598, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request*& __cordl_internal_get_req();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request* const& __cordl_internal_get_req() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::Request*> const& __cordl_internal_get_req() const;
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request*& __cordl_internal_get_req();
 
   constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::Request* value);
 
-  /// @brief Method .ctor, addr 0x24ea370, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251d65c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-  /// @brief Method get_SingleRequestExtensions, addr 0x24ef290, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SingleRequestExtensions, addr 0x252257c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions();
 
 protected:
@@ -67,18 +66,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Req(Req const&) = delete;
 
-  /// @brief Field req, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Ocsp::Request* ___req;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1621 };
+
+  /// @brief Field req, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Ocsp::Request* ___req;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::Req, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Ocsp::Req, ___req) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::Req, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Ocsp::Req);

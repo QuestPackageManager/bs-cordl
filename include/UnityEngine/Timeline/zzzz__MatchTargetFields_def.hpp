@@ -12,11 +12,10 @@ struct MatchTargetFields;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::MatchTargetFields);
-// Type: UnityEngine.Timeline::MatchTargetFields
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
-// CS Name: ::UnityEngine.Timeline::MatchTargetFields
+// CS Name: UnityEngine.Timeline.MatchTargetFields
 struct CORDL_TYPE MatchTargetFields {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MatchTargetFields(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field PositionX value: static_cast<int32_t>(0x1)
+  /// @brief Field PositionX value: I32(1)
   static ::UnityEngine::Timeline::MatchTargetFields const PositionX;
 
-  /// @brief Field PositionY value: static_cast<int32_t>(0x2)
+  /// @brief Field PositionY value: I32(2)
   static ::UnityEngine::Timeline::MatchTargetFields const PositionY;
 
-  /// @brief Field PositionZ value: static_cast<int32_t>(0x4)
+  /// @brief Field PositionZ value: I32(4)
   static ::UnityEngine::Timeline::MatchTargetFields const PositionZ;
 
-  /// @brief Field RotationX value: static_cast<int32_t>(0x8)
+  /// @brief Field RotationX value: I32(8)
   static ::UnityEngine::Timeline::MatchTargetFields const RotationX;
 
-  /// @brief Field RotationY value: static_cast<int32_t>(0x10)
+  /// @brief Field RotationY value: I32(16)
   static ::UnityEngine::Timeline::MatchTargetFields const RotationY;
 
-  /// @brief Field RotationZ value: static_cast<int32_t>(0x20)
+  /// @brief Field RotationZ value: I32(32)
   static ::UnityEngine::Timeline::MatchTargetFields const RotationZ;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::MatchTargetFields, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::MatchTargetFields, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::MatchTargetFields, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::MatchTargetFields, "UnityEngine.Timeline", "MatchTargetFields");

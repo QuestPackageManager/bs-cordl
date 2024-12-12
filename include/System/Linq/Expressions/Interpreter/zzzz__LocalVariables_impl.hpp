@@ -10,112 +10,110 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__LocalVariable_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LocalVariables_def.hpp"
 #include "System/Linq/Expressions/zzzz__ParameterExpression_def.hpp"
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope._ctor
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::*)(
-    ::System::Linq::Expressions::Interpreter::LocalVariable*, int32_t, ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*)>(
-    &::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::*)(
+    ::System::Linq::Expressions::Interpreter::LocalVariable*, int32_t, ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*)>(
+    &::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x408883c;
+  constexpr static std::size_t addrs = 0x40e9b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::LocalVariable*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Start() {
+constexpr int32_t& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Start() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Start;
 }
-constexpr int32_t const& System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Start() const {
+constexpr int32_t const& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Start() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Start;
 }
-constexpr void System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_set_Start(int32_t value) {
+constexpr void System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_set_Start(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Start = value;
 }
-constexpr int32_t& System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Stop() {
+constexpr int32_t& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Stop() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Stop;
 }
-constexpr int32_t const& System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Stop() const {
+constexpr int32_t const& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Stop() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Stop;
 }
-constexpr void System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_set_Stop(int32_t value) {
+constexpr void System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_set_Stop(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Stop = value;
 }
-constexpr ::System::Linq::Expressions::Interpreter::LocalVariable*& System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Variable() {
+constexpr ::System::Linq::Expressions::Interpreter::LocalVariable*& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Variable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Variable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::LocalVariable*> const&
-System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Variable() const {
+constexpr ::System::Linq::Expressions::Interpreter::LocalVariable* const& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Variable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Variable;
 }
-constexpr void System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_set_Variable(::System::Linq::Expressions::Interpreter::LocalVariable* value) {
+constexpr void System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_set_Variable(::System::Linq::Expressions::Interpreter::LocalVariable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Variable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*& System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Parent() {
+constexpr ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Parent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*> const&
-System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_Parent() const {
+constexpr ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope* const& System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_Parent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parent;
 }
-constexpr void System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_set_Parent(::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* value) {
+constexpr void System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_set_Parent(::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Parent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>*&
-System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_ChildScopes() {
+constexpr ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>*&
+System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_ChildScopes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ChildScopes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>*> const&
-System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_get_ChildScopes() const {
+constexpr ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* const&
+System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_get_ChildScopes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ChildScopes;
 }
-constexpr void System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__cordl_internal_set_ChildScopes(
-    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* value) {
+constexpr void System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::__cordl_internal_set_ChildScopes(
+    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ChildScopes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*
-System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start,
-                                                                                  ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* parent) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>(variable, start, parent));
-}
-inline void System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start,
-                                                                                           ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* parent) {
+inline void System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start,
+                                                                                        ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope* parent) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::LocalVariable*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, variable, start, parent);
 }
+inline ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*
+System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start,
+                                                                               ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope* parent) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>(variable, start, parent));
+}
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope::__LocalVariables__VariableScope() {}
+constexpr ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::LocalVariables_VariableScope() {}
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::LocalVariables.DefineLocal
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LocalDefinition (
     ::System::Linq::Expressions::Interpreter::LocalVariables::*)(::System::Linq::Expressions::ParameterExpression*, int32_t)>(&::System::Linq::Expressions::Interpreter::LocalVariables::DefineLocal)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x40885e4;
+  constexpr static std::size_t addrs = 0x40e98f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariables::*)(
     ::System::Linq::Expressions::Interpreter::LocalDefinition, int32_t)>(&::System::Linq::Expressions::Interpreter::LocalVariables::UndefineLocal)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4083280;
+  constexpr static std::size_t addrs = 0x40e4594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariables::*)(
     ::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::InstructionList*)>(&::System::Linq::Expressions::Interpreter::LocalVariables::Box)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x4088880;
+  constexpr static std::size_t addrs = 0x40e9b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LocalVariables::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalVariables::get_LocalCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40889d4;
+  constexpr static std::size_t addrs = 0x40e9ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables*>::get(),
@@ -174,17 +172,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::LocalVariables.TryGetLocalOrClosure
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::System::Linq::Expressions::Interpreter::LocalVariables::*)(::System::Linq::Expressions::ParameterExpression*, ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*>)>(
-        &::System::Linq::Expressions::Interpreter::LocalVariables::TryGetLocalOrClosure)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::LocalVariables::*)(
+    ::System::Linq::Expressions::ParameterExpression*, ::ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*>)>(
+    &::System::Linq::Expressions::Interpreter::LocalVariables::TryGetLocalOrClosure)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x40889dc;
+  constexpr static std::size_t addrs = 0x40e9cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables*>::get(), "TryGetLocalOrClosure", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ParameterExpression*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*>>::get() })));
     return ___internal_method;
   }
 };
@@ -195,7 +193,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* (
         ::System::Linq::Expressions::Interpreter::LocalVariables::*)()>(&::System::Linq::Expressions::Interpreter::LocalVariables::get_ClosureVariables)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4088aa4;
+  constexpr static std::size_t addrs = 0x40e9db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables*>::get(),
@@ -209,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LocalVariable* (
     ::System::Linq::Expressions::Interpreter::LocalVariables::*)(::System::Linq::Expressions::ParameterExpression*)>(&::System::Linq::Expressions::Interpreter::LocalVariables::AddClosureVariable)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4088aac;
+  constexpr static std::size_t addrs = 0x40e9dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariables::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalVariables::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4088bbc;
+  constexpr static std::size_t addrs = 0x40e9ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables*>::get(),
@@ -233,20 +231,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*,
-                                                                                ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>*&
+                                                                                ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>*&
 System::Linq::Expressions::Interpreter::LocalVariables::__cordl_internal_get__variables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____variables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*,
-                                                                                                                    ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>*> const&
+constexpr ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*,
+                                                                                ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* const&
 System::Linq::Expressions::Interpreter::LocalVariables::__cordl_internal_get__variables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____variables;
 }
 constexpr void System::Linq::Expressions::Interpreter::LocalVariables::__cordl_internal_set__variables(
-    ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*,
-                                                                          ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* value) {
+    ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>*
+        value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -255,8 +253,7 @@ System::Linq::Expressions::Interpreter::LocalVariables::__cordl_internal_get__cl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closureVariables;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
 System::Linq::Expressions::Interpreter::LocalVariables::__cordl_internal_get__closureVariables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closureVariables;
@@ -319,11 +316,11 @@ inline int32_t System::Linq::Expressions::Interpreter::LocalVariables::get_Local
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline bool System::Linq::Expressions::Interpreter::LocalVariables::TryGetLocalOrClosure(::System::Linq::Expressions::ParameterExpression* var,
-                                                                                         ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*> local) {
+                                                                                         ::ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*> local) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables*>::get(), "TryGetLocalOrClosure", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ParameterExpression*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, var, local);
 }
 inline ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*
@@ -339,13 +336,13 @@ inline ::System::Linq::Expressions::Interpreter::LocalVariable* System::Linq::Ex
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ParameterExpression*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Interpreter::LocalVariable*, false>(this, ___internal_method, variable);
 }
-inline ::System::Linq::Expressions::Interpreter::LocalVariables* System::Linq::Expressions::Interpreter::LocalVariables::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LocalVariables*>());
-}
 inline void System::Linq::Expressions::Interpreter::LocalVariables::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariables*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::LocalVariables* System::Linq::Expressions::Interpreter::LocalVariables::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LocalVariables*>());
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::LocalVariables::LocalVariables() {}

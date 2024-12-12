@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultEventAttribute::*)(::StringW)>(
     &::System::ComponentModel::DefaultEventAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43eec50;
+  constexpr static std::size_t addrs = 0x444ff64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DefaultEventAttribute::*)()>(
     &::System::ComponentModel::DefaultEventAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eec78;
+  constexpr static std::size_t addrs = 0x444ff8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultEventAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DefaultEventAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DefaultEventAttribute::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43eec80;
+  constexpr static std::size_t addrs = 0x444ff94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DefaultEventAttribute::*)()>(
     &::System::ComponentModel::DefaultEventAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eed00;
+  constexpr static std::size_t addrs = 0x4450014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,9 +85,6 @@ inline ::System::ComponentModel::DefaultEventAttribute* System::ComponentModel::
   return ::cordl_internals::getStaticField<::System::ComponentModel::DefaultEventAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultEventAttribute*>::get>();
 }
-inline ::System::ComponentModel::DefaultEventAttribute* System::ComponentModel::DefaultEventAttribute::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultEventAttribute*>(name));
-}
 inline void System::ComponentModel::DefaultEventAttribute::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultEventAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -108,6 +105,9 @@ inline int32_t System::ComponentModel::DefaultEventAttribute::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultEventAttribute*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::DefaultEventAttribute* System::ComponentModel::DefaultEventAttribute::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultEventAttribute*>(name));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DefaultEventAttribute::DefaultEventAttribute() {}

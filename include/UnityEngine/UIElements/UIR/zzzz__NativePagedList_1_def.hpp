@@ -3,16 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativePagedList_1)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -26,13 +23,12 @@ template <typename T> class NativePagedList_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::NativePagedList_1);
-// Type: UnityEngine.UIElements.UIR::NativePagedList`1
-// SizeInfo { instance_size: 72, native_size: 65, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::NativePagedList`1<T>*
+// CS Name: UnityEngine.UIElements.UIR.NativePagedList`1<T>
 class CORDL_TYPE NativePagedList_1 : public ::System::Object {
 public:
   // Declarations
@@ -60,7 +56,7 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(ByRef<T> data);
+  inline void Add(::ByRef<T> data);
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
@@ -92,13 +88,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_CurrentPageCount();
 
+  constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* const& __cordl_internal_get_m_Enumerator() const;
+
   constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>*& __cordl_internal_get_m_Enumerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>*> const& __cordl_internal_get_m_Enumerator() const;
+  constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>* const& __cordl_internal_get_m_Pages() const;
 
   constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>*& __cordl_internal_get_m_Pages();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>*> const& __cordl_internal_get_m_Pages() const;
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
@@ -138,6 +134,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativePagedList_1(NativePagedList_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
+
   /// @brief Field k_PoolCapacity, offset: 0x10, size: 0x4, def value: None
   int32_t ___k_PoolCapacity;
 
@@ -155,9 +154,6 @@ public:
 
   /// @brief Field <disposed>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

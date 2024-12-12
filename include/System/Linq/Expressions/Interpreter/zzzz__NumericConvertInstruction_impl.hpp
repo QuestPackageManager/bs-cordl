@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)(
     ::System::TypeCode, ::System::TypeCode, bool)>(&::System::Linq::Expressions::Interpreter::NumericConvertInstruction::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x408f690;
+  constexpr static std::size_t addrs = 0x40f09a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,28 +31,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::NumericConvertInstruction::Run)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x408f6cc;
+  constexpr static std::size_t addrs = 0x40f09e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::NumericConvertInstruction*>::get(), "Run", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::InterpretedFrame*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::NumericConvertInstruction.Convert
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)(::System::Object*)>(
-    &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::Convert)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::NumericConvertInstruction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::NumericConvertInstruction*>::get(), 11));
     return ___internal_method;
   }
 };
@@ -62,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x408f7a0;
+  constexpr static std::size_t addrs = 0x40f0ab4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408f7e0;
+  constexpr static std::size_t addrs = 0x40f0af4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408f7e8;
+  constexpr static std::size_t addrs = 0x40f0afc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::ToString)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x408f7f0;
+  constexpr static std::size_t addrs = 0x40f0b04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,10 +140,6 @@ constexpr void System::Linq::Expressions::Interpreter::NumericConvertInstruction
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isLiftedToNull = value;
 }
-inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* System::Linq::Expressions::Interpreter::NumericConvertInstruction::New_ctor(::System::TypeCode from, ::System::TypeCode to,
-                                                                                                                                                        bool isLiftedToNull) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::NumericConvertInstruction*>(from, to, isLiftedToNull));
-}
 inline void System::Linq::Expressions::Interpreter::NumericConvertInstruction::_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::NumericConvertInstruction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -202,6 +182,10 @@ inline ::StringW System::Linq::Expressions::Interpreter::NumericConvertInstructi
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::NumericConvertInstruction*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* System::Linq::Expressions::Interpreter::NumericConvertInstruction::New_ctor(::System::TypeCode from, ::System::TypeCode to,
+                                                                                                                                                        bool isLiftedToNull) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::NumericConvertInstruction*>(from, to, isLiftedToNull));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::NumericConvertInstruction::NumericConvertInstruction() {}

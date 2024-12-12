@@ -19,11 +19,10 @@ class XmlNodeChangedEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlNodeChangedEventArgs);
-// Type: System.Xml::XmlNodeChangedEventArgs
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs, System.Xml.XmlNodeChangedAction
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlNodeChangedEventArgs*
+// CS Name: System.Xml.XmlNodeChangedEventArgs
 class CORDL_TYPE XmlNodeChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -54,21 +53,21 @@ public:
 
   constexpr ::System::Xml::XmlNodeChangedAction& __cordl_internal_get_action();
 
-  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_newParent();
+  constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_newParent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_newParent() const;
+  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_newParent();
 
   constexpr ::StringW const& __cordl_internal_get_newValue() const;
 
   constexpr ::StringW& __cordl_internal_get_newValue();
 
+  constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_node() const;
+
   constexpr ::System::Xml::XmlNode*& __cordl_internal_get_node();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_node() const;
+  constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_oldParent() const;
 
   constexpr ::System::Xml::XmlNode*& __cordl_internal_get_oldParent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_oldParent() const;
 
   constexpr ::StringW const& __cordl_internal_get_oldValue() const;
 
@@ -86,11 +85,11 @@ public:
 
   constexpr void __cordl_internal_set_oldValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42e2bd8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4343eec, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action, addr 0x42e2c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x4343f88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
 protected:
@@ -106,6 +105,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventArgs", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlNodeChangedEventArgs(XmlNodeChangedEventArgs const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7306 };
 
   /// @brief Field action, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::XmlNodeChangedAction ___action;
@@ -125,14 +127,9 @@ public:
   /// @brief Field newValue, offset: 0x38, size: 0x8, def value: None
   ::StringW ___newValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7281 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedEventArgs, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___action) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___node) == 0x18, "Offset mismatch!");
@@ -144,6 +141,8 @@ static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___newParent) == 
 static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___oldValue) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___newValue) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedEventArgs, 0x40>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlNodeChangedEventArgs);

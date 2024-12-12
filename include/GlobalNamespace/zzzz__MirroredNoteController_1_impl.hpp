@@ -1,5 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MirroredNoteController_1.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidPassJumpThreeQuartersEvent_impl.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredNoteController_1_def.hpp"
 #include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
@@ -10,25 +12,6 @@
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-/// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
-template <typename T> constexpr GlobalNamespace::MirroredNoteController_1<T>::operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept {
-  return static_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
-template <typename T>
-constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* GlobalNamespace::MirroredNoteController_1<T>::i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept {
-  return static_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
-template <typename T> constexpr GlobalNamespace::MirroredNoteController_1<T>::operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*() noexcept {
-  return static_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
-template <typename T>
-constexpr ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*
-GlobalNamespace::MirroredNoteController_1<T>::i___GlobalNamespace__INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {
-  return static_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__noteTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteTransform;
@@ -71,8 +54,7 @@ constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControlle
   return this->____didInitEvent;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*> const&
-GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__didInitEvent() const {
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* const& GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__didInitEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didInitEvent;
 }
@@ -88,7 +70,7 @@ GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__noteDidPassJ
   return this->____noteDidPassJumpThreeQuartersEvent;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*> const&
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* const&
 GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__noteDidPassJumpThreeQuartersEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteDidPassJumpThreeQuartersEvent;
@@ -106,7 +88,7 @@ GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__noteDidStart
   return this->____noteDidStartDissolvingEvent;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*> const&
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* const&
 GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__noteDidStartDissolvingEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteDidStartDissolvingEvent;
@@ -185,13 +167,32 @@ template <typename T> inline void GlobalNamespace::MirroredNoteController_1<T>::
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hide);
 }
-template <typename T> inline ::GlobalNamespace::MirroredNoteController_1<T>* GlobalNamespace::MirroredNoteController_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirroredNoteController_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::MirroredNoteController_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredNoteController_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::MirroredNoteController_1<T>* GlobalNamespace::MirroredNoteController_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirroredNoteController_1<T>*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
+template <typename T> constexpr GlobalNamespace::MirroredNoteController_1<T>::operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept {
+  return static_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
+template <typename T>
+constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* GlobalNamespace::MirroredNoteController_1<T>::i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept {
+  return static_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
+template <typename T> constexpr GlobalNamespace::MirroredNoteController_1<T>::operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*() noexcept {
+  return static_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
+template <typename T>
+constexpr ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*
+GlobalNamespace::MirroredNoteController_1<T>::i___GlobalNamespace__INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {
+  return static_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::MirroredNoteController_1<T>::MirroredNoteController_1() {}

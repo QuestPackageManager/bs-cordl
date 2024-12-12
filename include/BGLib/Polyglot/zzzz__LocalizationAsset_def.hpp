@@ -18,11 +18,10 @@ class LocalizationAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationAsset);
-// Type: BGLib.Polyglot::LocalizationAsset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.Polyglot.GoogleDriveDownloadFormat, System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
-// CS Name: ::BGLib.Polyglot::LocalizationAsset*
+// CS Name: BGLib.Polyglot.LocalizationAsset
 class CORDL_TYPE LocalizationAsset : public ::System::Object {
 public:
   // Declarations
@@ -50,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x227a0fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22acde8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method get_Format, addr 0x227a0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x22acde0, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_TextAsset, addr 0x227a0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x22acdd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizationAsset(LocalizationAsset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18045 };
+
   /// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___textAsset;
 
   /// @brief Field format, offset: 0x18, size: 0x4, def value: None
   ::BGLib::Polyglot::GoogleDriveDownloadFormat ___format;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17995 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationAsset, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::Polyglot::LocalizationAsset, ___textAsset) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BGLib::Polyglot::LocalizationAsset, ___format) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationAsset, 0x20>, "Size mismatch!");
 
 } // namespace BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizationAsset);

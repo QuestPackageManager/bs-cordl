@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(LaunchFriendRequestFlowResult)
 namespace System {
 struct IntPtr;
@@ -15,11 +14,10 @@ class LaunchFriendRequestFlowResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchFriendRequestFlowResult);
-// Type: Oculus.Platform.Models::LaunchFriendRequestFlowResult
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::LaunchFriendRequestFlowResult*
+// CS Name: Oculus.Platform.Models.LaunchFriendRequestFlowResult
 class CORDL_TYPE LaunchFriendRequestFlowResult : public ::System::Object {
 public:
   // Declarations
@@ -43,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_DidSendRequest(bool value);
 
-  /// @brief Method .ctor, addr 0x3f2ff84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90030, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -60,23 +58,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LaunchFriendRequestFlowResult(LaunchFriendRequestFlowResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15525 };
+
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;
 
   /// @brief Field DidSendRequest, offset: 0x11, size: 0x1, def value: None
   bool ___DidSendRequest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15490 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchFriendRequestFlowResult, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::LaunchFriendRequestFlowResult, ___DidCancel) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LaunchFriendRequestFlowResult, ___DidSendRequest) == 0x11, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchFriendRequestFlowResult, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LaunchFriendRequestFlowResult);

@@ -13,27 +13,22 @@ class IBindingRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IBindingRequest);
-// Type: UnityEngine.UIElements::IBindingRequest
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::IBindingRequest*
+// CS Name: UnityEngine.UIElements.IBindingRequest
 class CORDL_TYPE IBindingRequest {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Bind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Bind(::UnityEngine::UIElements::VisualElement* element);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IBindingRequest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IBindingRequest(IBindingRequest&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindingRequest", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBindingRequest(IBindingRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,11 +20,10 @@ class OVRControllerDrivenHandPosesSample;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRControllerDrivenHandPosesSample);
-// Type: ::OVRControllerDrivenHandPosesSample
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRControllerDrivenHandPosesSample*
+// CS Name: OVRControllerDrivenHandPosesSample
 class CORDL_TYPE OVRControllerDrivenHandPosesSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -46,39 +45,39 @@ public:
   /// @brief Field rightLinePointer, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer)) ::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
 
-  /// @brief Method Awake, addr 0x3f45d28, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fa5dd4, size 0xdc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x3f463c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3fa646c, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3f4607c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3fa6128, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3f46084, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fa6130, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3f46080, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3fa612c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x3f45ed4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x3fa5f80, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToControllerConforming();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x3f45fa8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x3fa6054, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNatural();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x3f45e04, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x3fa5eb0, size 0xd0, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNone();
 
-  /// @brief Method Update, addr 0x3f46088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fa6134, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLineRenderer, addr 0x3f4608c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRenderer, addr 0x3fa6138, size 0x50, virtual false, abstract: false, final false
   inline void UpdateLineRenderer();
 
-  /// @brief Method UpdateLineRendererForHand, addr 0x3f460dc, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRendererForHand, addr 0x3fa6188, size 0x2e4, virtual false, abstract: false, final false
   inline void UpdateLineRendererForHand(bool isLeft);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
@@ -117,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3f463c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fa6470, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,6 +132,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7848 };
 
   /// @brief Field buttonOff, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___buttonOff;
@@ -152,14 +154,9 @@ public:
   /// @brief Field cameraRig, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7823 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerDrivenHandPosesSample, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___buttonOff) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___buttonConforming) == 0x28, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, __
 static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___rightLinePointer) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___cameraRig) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerDrivenHandPosesSample, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRControllerDrivenHandPosesSample);

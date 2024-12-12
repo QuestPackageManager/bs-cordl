@@ -14,18 +14,17 @@ template <typename T> class HashSetPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::HashSetPool_1);
-// Type: Zenject::HashSetPool`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.StaticMemoryPool`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Zenject::HashSetPool`1<T>*
+// CS Name: Zenject.HashSetPool`1<T>
 class CORDL_TYPE HashSetPool_1 : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::HashSet_1<T>*> {
 public:
   // Declarations
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::Zenject::HashSetPool_1<T>* _instance;
+  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::Zenject::HashSetPool_1<T>* _instance;
 
   static inline ::Zenject::HashSetPool_1<T>* New_ctor();
 
@@ -60,7 +59,7 @@ public:
   HashSetPool_1(HashSetPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

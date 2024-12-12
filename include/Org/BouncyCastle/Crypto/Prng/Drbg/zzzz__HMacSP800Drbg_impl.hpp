@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/Drbg/HMacSP800Drbg.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__HMacSP800Drbg_def.hpp"
-#include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg._ctor
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::IMac*, int32_t, ::Org::BouncyCastle::Crypto::IEntropySource*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::_ctor)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x2392f34;
+  constexpr static std::size_t addrs = 0x23c6220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::hmac_DRBG_Update)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2393338;
+  constexpr static std::size_t addrs = 0x23c6624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::hmac_DRBG_Update_Func)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x2393378;
+  constexpr static std::size_t addrs = 0x23c6664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::get_BlockSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23937a4;
+  constexpr static std::size_t addrs = 0x23c6a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(&::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::Generate)> {
   constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x23937c4;
+  constexpr static std::size_t addrs = 0x23c6ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::Reseed)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2393ccc;
+  constexpr static std::size_t addrs = 0x23c6fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::GetEntropy)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2393224;
+  constexpr static std::size_t addrs = 0x23c6510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg*>::get(),
@@ -116,14 +116,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
-constexpr Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
-constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::i___Org__BouncyCastle__Crypto__Prng__Drbg__ISP80090Drbg() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::__cordl_internal_get_mK() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mK;
@@ -152,7 +144,7 @@ constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEntropySource;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::__cordl_internal_get_mEntropySource() const {
+constexpr ::Org::BouncyCastle::Crypto::IEntropySource* const& Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::__cordl_internal_get_mEntropySource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEntropySource;
 }
@@ -164,7 +156,7 @@ constexpr ::Org::BouncyCastle::Crypto::IMac*& Org::BouncyCastle::Crypto::Prng::D
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mHMac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::__cordl_internal_get_mHMac() const {
+constexpr ::Org::BouncyCastle::Crypto::IMac* const& Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::__cordl_internal_get_mHMac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mHMac;
 }
@@ -209,12 +201,6 @@ inline void Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::setStaticF_MAX
 }
 inline int32_t Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::getStaticF_MAX_BITS_REQUEST() {
   return ::cordl_internals::getStaticField<int32_t, "MAX_BITS_REQUEST", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg*>::get>();
-}
-inline ::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg* Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength,
-                                                                                                                              ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
-                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
-                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg*>(hMac, securityStrength, entropySource, personalizationString, nonce));
 }
 inline void Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce) {
@@ -264,6 +250,20 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Prng::Drb
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg*>::get(),
                                                                              "GetEntropy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg* Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength,
+                                                                                                                              ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
+                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
+                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg*>(hMac, securityStrength, entropySource, personalizationString, nonce));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
+constexpr Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
+constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::i___Org__BouncyCastle__Crypto__Prng__Drbg__ISP80090Drbg() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg::HMacSP800Drbg() {}

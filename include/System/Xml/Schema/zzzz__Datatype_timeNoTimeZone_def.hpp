@@ -11,17 +11,16 @@ class Datatype_timeNoTimeZone;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_timeNoTimeZone);
-// Type: System.Xml.Schema::Datatype_timeNoTimeZone
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_dateTimeBase
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_timeNoTimeZone*
+// CS Name: System.Xml.Schema.Datatype_timeNoTimeZone
 class CORDL_TYPE Datatype_timeNoTimeZone : public ::System::Xml::Schema::Datatype_dateTimeBase {
 public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_timeNoTimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x434313c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a4450, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   Datatype_timeNoTimeZone(Datatype_timeNoTimeZone const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

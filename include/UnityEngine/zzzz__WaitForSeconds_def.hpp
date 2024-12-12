@@ -12,11 +12,10 @@ class WaitForSeconds;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::WaitForSeconds);
-// Type: UnityEngine::WaitForSeconds
-// SizeInfo { instance_size: 24, native_size: 4, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.YieldInstruction
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::WaitForSeconds*
+// CS Name: UnityEngine.WaitForSeconds
 class CORDL_TYPE WaitForSeconds : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Seconds(float_t value);
 
-  /// @brief Method .ctor, addr 0x484f818, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b0d74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t seconds);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WaitForSeconds(WaitForSeconds const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10919 };
+
   /// @brief Field m_Seconds, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Seconds;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::WaitForSeconds, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::WaitForSeconds, ___m_Seconds) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::WaitForSeconds, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::WaitForSeconds);

@@ -30,13 +30,13 @@ namespace System::Resources {
 class IResourceGroveler;
 }
 namespace System::Resources {
+class ResourceManager_CultureNameResourceSetPair;
+}
+namespace System::Resources {
+class ResourceManager_ResourceManagerMediator;
+}
+namespace System::Resources {
 class ResourceSet;
-}
-namespace System::Resources {
-class __ResourceManager__CultureNameResourceSetPair;
-}
-namespace System::Resources {
-class __ResourceManager__ResourceManagerMediator;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -49,41 +49,40 @@ namespace System::Resources {
 class ResourceManager;
 }
 namespace System::Resources {
-class __ResourceManager__CultureNameResourceSetPair;
+class ResourceManager_CultureNameResourceSetPair;
 }
 namespace System::Resources {
-class __ResourceManager__ResourceManagerMediator;
+class ResourceManager_ResourceManagerMediator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Resources::ResourceManager);
-MARK_REF_PTR_T(::System::Resources::__ResourceManager__CultureNameResourceSetPair);
-MARK_REF_PTR_T(::System::Resources::__ResourceManager__ResourceManagerMediator);
-// Type: ::CultureNameResourceSetPair
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Resources::ResourceManager_CultureNameResourceSetPair);
+MARK_REF_PTR_T(::System::Resources::ResourceManager_ResourceManagerMediator);
+// Dependencies System.Object
 namespace System::Resources {
 // Is value type: false
-// CS Name: ::ResourceManager::CultureNameResourceSetPair*
-class CORDL_TYPE __ResourceManager__CultureNameResourceSetPair : public ::System::Object {
+// CS Name: System.Resources.ResourceManager/CultureNameResourceSetPair
+class CORDL_TYPE ResourceManager_CultureNameResourceSetPair : public ::System::Object {
 public:
   // Declarations
-  static inline ::System::Resources::__ResourceManager__CultureNameResourceSetPair* New_ctor();
+  static inline ::System::Resources::ResourceManager_CultureNameResourceSetPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cbbf98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1c10c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ResourceManager__CultureNameResourceSetPair();
+  constexpr ResourceManager_CultureNameResourceSetPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__CultureNameResourceSetPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CultureNameResourceSetPair", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ResourceManager__CultureNameResourceSetPair(__ResourceManager__CultureNameResourceSetPair&&) = delete;
+  ResourceManager_CultureNameResourceSetPair(ResourceManager_CultureNameResourceSetPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__CultureNameResourceSetPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CultureNameResourceSetPair", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ResourceManager__CultureNameResourceSetPair(__ResourceManager__CultureNameResourceSetPair const&) = delete;
+  ResourceManager_CultureNameResourceSetPair(ResourceManager_CultureNameResourceSetPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3435 };
@@ -91,91 +90,89 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceManager__CultureNameResourceSetPair, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceManager_CultureNameResourceSetPair, 0x10>, "Size mismatch!");
 
 } // namespace System::Resources
-// Type: ::ResourceManagerMediator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Resources {
 // Is value type: false
-// CS Name: ::ResourceManager::ResourceManagerMediator*
-class CORDL_TYPE __ResourceManager__ResourceManagerMediator : public ::System::Object {
+// CS Name: System.Resources.ResourceManager/ResourceManagerMediator
+class CORDL_TYPE ResourceManager_ResourceManagerMediator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _rm, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rm, put = __cordl_internal_set__rm)) ::System::Resources::ResourceManager* _rm;
 
-  static inline ::System::Resources::__ResourceManager__ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm);
+  static inline ::System::Resources::ResourceManager_ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm);
+
+  constexpr ::System::Resources::ResourceManager* const& __cordl_internal_get__rm() const;
 
   constexpr ::System::Resources::ResourceManager*& __cordl_internal_get__rm();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceManager*> const& __cordl_internal_get__rm() const;
-
   constexpr void __cordl_internal_set__rm(::System::Resources::ResourceManager* value);
 
-  /// @brief Method .ctor, addr 0x3cbbfa0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1c114, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceManager* rm);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ResourceManager__ResourceManagerMediator();
+  constexpr ResourceManager_ResourceManagerMediator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__ResourceManagerMediator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_ResourceManagerMediator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ResourceManager__ResourceManagerMediator(__ResourceManager__ResourceManagerMediator&&) = delete;
+  ResourceManager_ResourceManagerMediator(ResourceManager_ResourceManagerMediator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__ResourceManagerMediator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_ResourceManagerMediator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ResourceManager__ResourceManagerMediator(__ResourceManager__ResourceManagerMediator const&) = delete;
-
-  /// @brief Field _rm, offset: 0x10, size: 0x8, def value: None
-  ::System::Resources::ResourceManager* ____rm;
+  ResourceManager_ResourceManagerMediator(ResourceManager_ResourceManagerMediator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3436 };
 
+  /// @brief Field _rm, offset: 0x10, size: 0x8, def value: None
+  ::System::Resources::ResourceManager* ____rm;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceManager__ResourceManagerMediator, 0x18>, "Size mismatch!");
+static_assert(offsetof(::System::Resources::ResourceManager_ResourceManagerMediator, ____rm) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Resources::__ResourceManager__ResourceManagerMediator, ____rm) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceManager_ResourceManagerMediator, 0x18>, "Size mismatch!");
 
 } // namespace System::Resources
-// Type: System.Resources::ResourceManager
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Resources.UltimateResourceFallbackLocation
 namespace System::Resources {
 // Is value type: false
-// CS Name: ::System.Resources::ResourceManager*
+// CS Name: System.Resources.ResourceManager
 class CORDL_TYPE ResourceManager : public ::System::Object {
 public:
   // Declarations
-  using CultureNameResourceSetPair = ::System::Resources::__ResourceManager__CultureNameResourceSetPair;
+  using CultureNameResourceSetPair = ::System::Resources::ResourceManager_CultureNameResourceSetPair;
 
-  using ResourceManagerMediator = ::System::Resources::__ResourceManager__ResourceManagerMediator;
+  using ResourceManagerMediator = ::System::Resources::ResourceManager_ResourceManagerMediator;
 
   /// @brief Field DEBUG, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_DEBUG, put = setStaticF_DEBUG)) int32_t DEBUG;
+  __declspec(property(get = getStaticF_DEBUG, put = setStaticF_DEBUG)) int32_t DEBUG;
 
   /// @brief Field HeaderVersionNumber, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_HeaderVersionNumber, put = setStaticF_HeaderVersionNumber)) int32_t HeaderVersionNumber;
+  __declspec(property(get = getStaticF_HeaderVersionNumber, put = setStaticF_HeaderVersionNumber)) int32_t HeaderVersionNumber;
 
   /// @brief Field MagicNumber, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_MagicNumber, put = setStaticF_MagicNumber)) int32_t MagicNumber;
+  __declspec(property(get = getStaticF_MagicNumber, put = setStaticF_MagicNumber)) int32_t MagicNumber;
 
   /// @brief Field MainAssembly, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_MainAssembly, put = __cordl_internal_set_MainAssembly)) ::System::Reflection::Assembly* MainAssembly;
 
   /// @brief Field MscorlibName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MscorlibName, put = setStaticF_MscorlibName)) ::StringW MscorlibName;
+  __declspec(property(get = getStaticF_MscorlibName, put = setStaticF_MscorlibName)) ::StringW MscorlibName;
 
   /// @brief Field ResReaderTypeName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ResReaderTypeName, put = setStaticF_ResReaderTypeName)) ::StringW ResReaderTypeName;
+  __declspec(property(get = getStaticF_ResReaderTypeName, put = setStaticF_ResReaderTypeName)) ::StringW ResReaderTypeName;
 
   /// @brief Field ResSetTypeName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ResSetTypeName, put = setStaticF_ResSetTypeName)) ::StringW ResSetTypeName;
+  __declspec(property(get = getStaticF_ResSetTypeName, put = setStaticF_ResSetTypeName)) ::StringW ResSetTypeName;
 
   /// @brief Field ResourceSets, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_ResourceSets, put = __cordl_internal_set_ResourceSets)) ::System::Collections::Hashtable* ResourceSets;
@@ -194,10 +191,10 @@ public:
 
   /// @brief Field _lastUsedResourceCache, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__lastUsedResourceCache,
-                      put = __cordl_internal_set__lastUsedResourceCache)) ::System::Resources::__ResourceManager__CultureNameResourceSetPair* _lastUsedResourceCache;
+                      put = __cordl_internal_set__lastUsedResourceCache)) ::System::Resources::ResourceManager_CultureNameResourceSetPair* _lastUsedResourceCache;
 
   /// @brief Field _minResourceSet, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__minResourceSet, put = setStaticF__minResourceSet)) ::System::Type* _minResourceSet;
+  __declspec(property(get = getStaticF__minResourceSet, put = setStaticF__minResourceSet)) ::System::Type* _minResourceSet;
 
   /// @brief Field _neutralResourcesCulture, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__neutralResourcesCulture, put = __cordl_internal_set__neutralResourcesCulture)) ::System::Globalization::CultureInfo* _neutralResourcesCulture;
@@ -212,30 +209,30 @@ public:
   /// @brief Field resourceGroveler, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_resourceGroveler, put = __cordl_internal_set_resourceGroveler)) ::System::Resources::IResourceGroveler* resourceGroveler;
 
-  /// @brief Method CompareNames, addr 0x3cbc258, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method CompareNames, addr 0x3d1c3cc, size 0x25c, virtual false, abstract: false, final false
   static inline bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2);
 
-  /// @brief Method Init, addr 0x3cbbdb0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d1bf24, size 0x118, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Resources::ResourceManager* New_ctor();
 
-  /// @brief Method OnDeserialized, addr 0x3cbc024, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x3d1c198, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x3cbc014, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x3d1c188, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x3cbc1f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x3d1c364, size 0x68, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
+
+  constexpr ::System::Reflection::Assembly* const& __cordl_internal_get_MainAssembly() const;
 
   constexpr ::System::Reflection::Assembly*& __cordl_internal_get_MainAssembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_MainAssembly() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_ResourceSets() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_ResourceSets();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_ResourceSets() const;
 
   constexpr bool const& __cordl_internal_get_UseManifest() const;
 
@@ -245,33 +242,33 @@ public:
 
   constexpr bool& __cordl_internal_get_UseSatelliteAssem();
 
-  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__callingAssembly();
+  constexpr ::System::Reflection::Assembly* const& __cordl_internal_get__callingAssembly() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get__callingAssembly() const;
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__callingAssembly();
 
   constexpr ::System::Resources::UltimateResourceFallbackLocation const& __cordl_internal_get__fallbackLoc() const;
 
   constexpr ::System::Resources::UltimateResourceFallbackLocation& __cordl_internal_get__fallbackLoc();
 
-  constexpr ::System::Resources::__ResourceManager__CultureNameResourceSetPair*& __cordl_internal_get__lastUsedResourceCache();
+  constexpr ::System::Resources::ResourceManager_CultureNameResourceSetPair* const& __cordl_internal_get__lastUsedResourceCache() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::__ResourceManager__CultureNameResourceSetPair*> const& __cordl_internal_get__lastUsedResourceCache() const;
+  constexpr ::System::Resources::ResourceManager_CultureNameResourceSetPair*& __cordl_internal_get__lastUsedResourceCache();
+
+  constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__neutralResourcesCulture() const;
 
   constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__neutralResourcesCulture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__neutralResourcesCulture() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* const& __cordl_internal_get__resourceSets() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*& __cordl_internal_get__resourceSets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*> const& __cordl_internal_get__resourceSets() const;
+  constexpr ::System::Reflection::RuntimeAssembly* const& __cordl_internal_get_m_callingAssembly() const;
 
   constexpr ::System::Reflection::RuntimeAssembly*& __cordl_internal_get_m_callingAssembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeAssembly*> const& __cordl_internal_get_m_callingAssembly() const;
+  constexpr ::System::Resources::IResourceGroveler* const& __cordl_internal_get_resourceGroveler() const;
 
   constexpr ::System::Resources::IResourceGroveler*& __cordl_internal_get_resourceGroveler();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceGroveler*> const& __cordl_internal_get_resourceGroveler() const;
 
   constexpr void __cordl_internal_set_MainAssembly(::System::Reflection::Assembly* value);
 
@@ -285,7 +282,7 @@ public:
 
   constexpr void __cordl_internal_set__fallbackLoc(::System::Resources::UltimateResourceFallbackLocation value);
 
-  constexpr void __cordl_internal_set__lastUsedResourceCache(::System::Resources::__ResourceManager__CultureNameResourceSetPair* value);
+  constexpr void __cordl_internal_set__lastUsedResourceCache(::System::Resources::ResourceManager_CultureNameResourceSetPair* value);
 
   constexpr void __cordl_internal_set__neutralResourcesCulture(::System::Globalization::CultureInfo* value);
 
@@ -295,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set_resourceGroveler(::System::Resources::IResourceGroveler* value);
 
-  /// @brief Method .ctor, addr 0x3cbbecc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1c040, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEBUG();
@@ -340,6 +337,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceManager(ResourceManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3437 };
+
   /// @brief Field ResourceSets, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___ResourceSets;
 
@@ -353,7 +353,7 @@ public:
   ::System::Globalization::CultureInfo* ____neutralResourcesCulture;
 
   /// @brief Field _lastUsedResourceCache, offset: 0x30, size: 0x8, def value: None
-  ::System::Resources::__ResourceManager__CultureNameResourceSetPair* ____lastUsedResourceCache;
+  ::System::Resources::ResourceManager_CultureNameResourceSetPair* ____lastUsedResourceCache;
 
   /// @brief Field UseManifest, offset: 0x38, size: 0x1, def value: None
   bool ___UseManifest;
@@ -373,14 +373,9 @@ public:
   /// @brief Field resourceGroveler, offset: 0x50, size: 0x8, def value: None
   ::System::Resources::IResourceGroveler* ___resourceGroveler;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3437 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceManager, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Resources::ResourceManager, ___ResourceSets) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Resources::ResourceManager, ____resourceSets) == 0x18, "Offset mismatch!");
@@ -403,10 +398,12 @@ static_assert(offsetof(::System::Resources::ResourceManager, ___m_callingAssembl
 
 static_assert(offsetof(::System::Resources::ResourceManager, ___resourceGroveler) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceManager, 0x58>, "Size mismatch!");
+
 } // namespace System::Resources
 NEED_NO_BOX(::System::Resources::ResourceManager);
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceManager*, "System.Resources", "ResourceManager");
-NEED_NO_BOX(::System::Resources::__ResourceManager__CultureNameResourceSetPair);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::__ResourceManager__CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");
-NEED_NO_BOX(::System::Resources::__ResourceManager__ResourceManagerMediator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::__ResourceManager__ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");
+NEED_NO_BOX(::System::Resources::ResourceManager_CultureNameResourceSetPair);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceManager_CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");
+NEED_NO_BOX(::System::Resources::ResourceManager_ResourceManagerMediator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceManager_ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");

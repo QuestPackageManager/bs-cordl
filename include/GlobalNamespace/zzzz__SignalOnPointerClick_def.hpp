@@ -3,16 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SignalOnPointerClick)
 namespace GlobalNamespace {
 class Signal;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -23,11 +19,10 @@ class SignalOnPointerClick;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SignalOnPointerClick);
-// Type: ::SignalOnPointerClick
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerClickHandler, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SignalOnPointerClick*
+// CS Name: SignalOnPointerClick
 class CORDL_TYPE SignalOnPointerClick : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -42,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::SignalOnPointerClick* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x3970158, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x39c5640, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__inputFieldClickedSignal() const;
@@ -51,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__inputFieldClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x3970178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c5660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -74,18 +69,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalOnPointerClick(SignalOnPointerClick const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16441 };
+
   /// @brief Field _inputFieldClickedSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____inputFieldClickedSignal;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SignalOnPointerClick, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SignalOnPointerClick, ____inputFieldClickedSignal) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SignalOnPointerClick, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SignalOnPointerClick);

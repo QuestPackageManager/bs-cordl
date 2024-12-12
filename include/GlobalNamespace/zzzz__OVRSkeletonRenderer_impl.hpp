@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRSkeletonRenderer.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -15,237 +14,218 @@
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider.GetSkeletonRendererData
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData (
-    ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider::*)()>(&::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider::GetSkeletonRendererData)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*>::get(), 0));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider::GetSkeletonRendererData() {
+inline ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData GlobalNamespace::OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider::GetSkeletonRendererData() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData, false>(this, ___internal_method);
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider*>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData, false>(this, ___internal_method);
 }
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.get_RootScale
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.get_RootScale
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)()>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_RootScale)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_RootScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe5a6c;
+  constexpr static std::size_t addrs = 0x4045b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "get_RootScale",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "get_RootScale",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.set_RootScale
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.set_RootScale
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)(float_t)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_RootScale)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(float_t)>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_RootScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe5a74;
+  constexpr static std::size_t addrs = 0x4045b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_RootScale",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_RootScale",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.get_IsDataValid
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.get_IsDataValid
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)()>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_IsDataValid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe5a7c;
+  constexpr static std::size_t addrs = 0x4045b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "get_IsDataValid",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "get_IsDataValid",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.set_IsDataValid
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.set_IsDataValid
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)(bool)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_IsDataValid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fe5a84;
+  constexpr static std::size_t addrs = 0x4045b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_IsDataValid",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_IsDataValid",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.get_IsDataHighConfidence
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.get_IsDataHighConfidence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)()>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_IsDataHighConfidence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe5a90;
+  constexpr static std::size_t addrs = 0x4045b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(),
-                                                 "get_IsDataHighConfidence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "get_IsDataHighConfidence",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.set_IsDataHighConfidence
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.set_IsDataHighConfidence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)(bool)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_IsDataHighConfidence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fe5a98;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_IsDataHighConfidence",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.get_ShouldUseSystemGestureMaterial
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)()>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_ShouldUseSystemGestureMaterial)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe5aa4;
+  constexpr static std::size_t addrs = 0x4045b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_IsDataHighConfidence",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.get_ShouldUseSystemGestureMaterial
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_ShouldUseSystemGestureMaterial)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x4045b50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(),
                                                  "get_ShouldUseSystemGestureMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData.set_ShouldUseSystemGestureMaterial
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData.set_ShouldUseSystemGestureMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::*)(bool)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_ShouldUseSystemGestureMaterial)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
+    &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fe5aac;
+  constexpr static std::size_t addrs = 0x4045b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-inline float_t GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_RootScale() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "get_RootScale",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline float_t GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_RootScale() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(),
+                                                                             "get_RootScale", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_RootScale(float_t value) {
+inline void GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_RootScale(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_RootScale",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_RootScale",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_IsDataValid() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "get_IsDataValid",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataValid() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(),
+                                                                             "get_IsDataValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_IsDataValid(bool value) {
+inline void GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataValid(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_IsDataValid",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_IsDataValid",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_IsDataHighConfidence() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(),
-                                               "get_IsDataHighConfidence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataHighConfidence() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(),
+                                                                             "get_IsDataHighConfidence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_IsDataHighConfidence(bool value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_IsDataHighConfidence",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+inline void GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataHighConfidence(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_IsDataHighConfidence",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::get_ShouldUseSystemGestureMaterial() {
+inline bool GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_ShouldUseSystemGestureMaterial() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(),
                                                "get_ShouldUseSystemGestureMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::set_ShouldUseSystemGestureMaterial(bool value) {
+inline void GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_ShouldUseSystemGestureMaterial(bool value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 // Ctor Parameters [CppParam { name: "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::__OVRSkeletonRenderer__SkeletonRendererData(float_t _RootScale_k__BackingField, bool _IsDataValid_k__BackingField,
-                                                                                                                      bool _IsDataHighConfidence_k__BackingField,
-                                                                                                                      bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::OVRSkeletonRenderer_SkeletonRendererData(float_t _RootScale_k__BackingField, bool _IsDataValid_k__BackingField,
+                                                                                                                bool _IsDataHighConfidence_k__BackingField,
+                                                                                                                bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept {
   this->_RootScale_k__BackingField = _RootScale_k__BackingField;
   this->_IsDataValid_k__BackingField = _IsDataValid_k__BackingField;
   this->_IsDataHighConfidence_k__BackingField = _IsDataHighConfidence_k__BackingField;
   this->_ShouldUseSystemGestureMaterial_k__BackingField = _ShouldUseSystemGestureMaterial_k__BackingField;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData::__OVRSkeletonRenderer__SkeletonRendererData() {}
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::OVRSkeletonRenderer_SkeletonRendererData() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior::__OVRSkeletonRenderer__ConfidenceBehavior(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::OVRSkeletonRenderer_ConfidenceBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior::__OVRSkeletonRenderer__ConfidenceBehavior() {}
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior::ToggleRenderer{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::OVRSkeletonRenderer_ConfidenceBehavior() {}
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::ToggleRenderer{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior::__OVRSkeletonRenderer__SystemGestureBehavior(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior::OVRSkeletonRenderer_SystemGestureBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior::__OVRSkeletonRenderer__SystemGestureBehavior() {}
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior::SwapMaterial{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization._ctor
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior::OVRSkeletonRenderer_SystemGestureBehavior() {}
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior::SwapMaterial{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*, float_t, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::_ctor)> {
+    &::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3fe4e78;
+  constexpr static std::size_t addrs = 0x4044f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -253,137 +233,137 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization.Update
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization.Update
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::*)(
-    float_t, bool, bool, ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior, ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::Update)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::*)(
+    float_t, bool, bool, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior, ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior)>(
+    &::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::Update)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3fe53d4;
+  constexpr static std::size_t addrs = 0x4045480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_BoneGO() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_BoneGO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneGO;
 }
-constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_BoneGO() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_BoneGO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneGO;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_set_BoneGO(::UnityW<::UnityEngine::GameObject> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_set_BoneGO(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BoneGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_BoneBegin() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_BoneBegin() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneBegin;
 }
-constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_BoneBegin() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_BoneBegin() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneBegin;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_set_BoneBegin(::UnityW<::UnityEngine::Transform> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_set_BoneBegin(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BoneBegin)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_BoneEnd() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_BoneEnd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneEnd;
 }
-constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_BoneEnd() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_BoneEnd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneEnd;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_set_BoneEnd(::UnityW<::UnityEngine::Transform> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_set_BoneEnd(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BoneEnd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::LineRenderer>& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_Line() {
+constexpr ::UnityW<::UnityEngine::LineRenderer>& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_Line() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Line;
 }
-constexpr ::UnityW<::UnityEngine::LineRenderer> const& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_Line() const {
+constexpr ::UnityW<::UnityEngine::LineRenderer> const& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_Line() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Line;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_set_Line(::UnityW<::UnityEngine::LineRenderer> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_set_Line(::UnityW<::UnityEngine::LineRenderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Line)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_RenderMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_RenderMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RenderMaterial;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_RenderMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_RenderMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RenderMaterial;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RenderMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_SystemGestureMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_SystemGestureMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SystemGestureMaterial;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_get_SystemGestureMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_get_SystemGestureMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SystemGestureMaterial;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::__cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SystemGestureMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*
-GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale,
-                                                                    ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>(rootGO, renderMat, systemGestureMat, scale, begin, end));
-}
-inline void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
-                                                                             float_t scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end) {
+inline void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
+                                                                          float_t scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rootGO, renderMat, systemGestureMat, scale, begin, end);
 }
-inline void GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial,
-                                                                              ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior confidenceBehavior,
-                                                                              ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior systemGestureBehavior) {
+inline void GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial,
+                                                                           ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior confidenceBehavior,
+                                                                           ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior systemGestureBehavior) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scale, shouldRender, shouldUseSystemGestureMaterial, confidenceBehavior, systemGestureBehavior);
 }
+inline ::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization* GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat,
+                                                                                                                                  ::UnityEngine::Material* systemGestureMat, float_t scale,
+                                                                                                                                  ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>(rootGO, renderMat, systemGestureMat, scale, begin, end));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization::__OVRSkeletonRenderer__BoneVisualization() {}
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization._ctor
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::OVRSkeletonRenderer_BoneVisualization() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*, float_t, ::GlobalNamespace::OVRBoneCapsule*)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::_ctor)> {
+    &::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::_ctor)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3fe5050;
+  constexpr static std::size_t addrs = 0x40450fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -391,132 +371,132 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization.Update
+//  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization.Update
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::*)(
-    float_t, bool, bool, ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior, ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior)>(
-    &::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::Update)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::*)(
+    float_t, bool, bool, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior, ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior)>(
+    &::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::Update)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3fe55ac;
+  constexpr static std::size_t addrs = 0x4045658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_CapsuleGO() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_CapsuleGO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CapsuleGO;
 }
-constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_CapsuleGO() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_CapsuleGO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CapsuleGO;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_set_CapsuleGO(::UnityW<::UnityEngine::GameObject> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_set_CapsuleGO(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CapsuleGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OVRBoneCapsule*& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_BoneCapsule() {
+constexpr ::GlobalNamespace::OVRBoneCapsule*& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_BoneCapsule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneCapsule;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRBoneCapsule*> const& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_BoneCapsule() const {
+constexpr ::GlobalNamespace::OVRBoneCapsule* const& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_BoneCapsule() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BoneCapsule;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_set_BoneCapsule(::GlobalNamespace::OVRBoneCapsule* value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_set_BoneCapsule(::GlobalNamespace::OVRBoneCapsule* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BoneCapsule)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_capsuleScale() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_capsuleScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capsuleScale;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_capsuleScale() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_capsuleScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capsuleScale;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_set_capsuleScale(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_set_capsuleScale(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___capsuleScale = value;
 }
-constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_Renderer() {
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_Renderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Renderer;
 }
-constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_Renderer() const {
+constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_Renderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Renderer;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_set_Renderer(::UnityW<::UnityEngine::MeshRenderer> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_set_Renderer(::UnityW<::UnityEngine::MeshRenderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Renderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_RenderMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_RenderMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RenderMaterial;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_RenderMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_RenderMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RenderMaterial;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RenderMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_SystemGestureMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_SystemGestureMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SystemGestureMaterial;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_get_SystemGestureMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_get_SystemGestureMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SystemGestureMaterial;
 }
-constexpr void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::__cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SystemGestureMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization* GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::New_ctor(::UnityEngine::GameObject* rootGO,
-                                                                                                                                              ::UnityEngine::Material* renderMat,
-                                                                                                                                              ::UnityEngine::Material* systemGestureMat, float_t scale,
-                                                                                                                                              ::GlobalNamespace::OVRBoneCapsule* boneCapsule) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>(rootGO, renderMat, systemGestureMat, scale, boneCapsule));
-}
-inline void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
-                                                                                float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule) {
+inline void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
+                                                                             float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRBoneCapsule*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rootGO, renderMat, systemGestureMat, scale, boneCapsule);
 }
-inline void GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial,
-                                                                                 ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior confidenceBehavior,
-                                                                                 ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior systemGestureBehavior) {
+inline void GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial,
+                                                                              ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior confidenceBehavior,
+                                                                              ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior systemGestureBehavior) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scale, shouldRender, shouldUseSystemGestureMaterial, confidenceBehavior, systemGestureBehavior);
 }
+inline ::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization* GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::New_ctor(::UnityEngine::GameObject* rootGO,
+                                                                                                                                        ::UnityEngine::Material* renderMat,
+                                                                                                                                        ::UnityEngine::Material* systemGestureMat, float_t scale,
+                                                                                                                                        ::GlobalNamespace::OVRBoneCapsule* boneCapsule) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>(rootGO, renderMat, systemGestureMat, scale, boneCapsule));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization::__OVRSkeletonRenderer__CapsuleVisualization() {}
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::OVRSkeletonRenderer_CapsuleVisualization() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRSkeletonRenderer.get_IsInitialized
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe4544;
+  constexpr static std::size_t addrs = 0x40445f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -529,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_IsInitialized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fe454c;
+  constexpr static std::size_t addrs = 0x40445f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -543,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe4558;
+  constexpr static std::size_t addrs = 0x4044604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -556,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_IsDataValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fe4560;
+  constexpr static std::size_t addrs = 0x404460c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -571,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe456c;
+  constexpr static std::size_t addrs = 0x4044618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -585,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fe4574;
+  constexpr static std::size_t addrs = 0x4044620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -600,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe4580;
+  constexpr static std::size_t addrs = 0x404462c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -615,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fe4588;
+  constexpr static std::size_t addrs = 0x4044634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -629,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Awake)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3fe4594;
+  constexpr static std::size_t addrs = 0x4044640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Awake",
@@ -642,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Start)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3fe464c;
+  constexpr static std::size_t addrs = 0x40446f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Start",
@@ -655,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::ShouldInitialize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3fe46f8;
+  constexpr static std::size_t addrs = 0x40447a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -668,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Initialize)> {
   constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x3fe472c;
+  constexpr static std::size_t addrs = 0x40447d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Initialize",
@@ -681,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Update)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3fe5210;
+  constexpr static std::size_t addrs = 0x40452bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Update",
@@ -694,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::OnDestroy)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3fe58cc;
+  constexpr static std::size_t addrs = 0x4045978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "OnDestroy",
@@ -707,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3fe59f8;
+  constexpr static std::size_t addrs = 0x4045aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), ".ctor",
@@ -715,40 +695,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__dataProvider() {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider*& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__dataProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*> const&
-GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__dataProvider() const {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider* const& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__dataProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
-constexpr void GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__dataProvider(::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__dataProvider(::GlobalNamespace::OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__confidenceBehavior() {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__confidenceBehavior() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____confidenceBehavior;
 }
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior const& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__confidenceBehavior() const {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior const& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__confidenceBehavior() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____confidenceBehavior;
 }
-constexpr void GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__confidenceBehavior(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__confidenceBehavior(::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____confidenceBehavior = value;
 }
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__systemGestureBehavior() {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__systemGestureBehavior() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureBehavior;
 }
-constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior const& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__systemGestureBehavior() const {
+constexpr ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior const& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__systemGestureBehavior() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureBehavior;
 }
-constexpr void GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__systemGestureBehavior(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior value) {
+constexpr void GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__systemGestureBehavior(::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____systemGestureBehavior = value;
 }
@@ -836,32 +815,31 @@ constexpr void GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__syste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____systemGestureDefaultMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__boneVisualizations() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>*& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__boneVisualizations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boneVisualizations;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>* const&
 GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__boneVisualizations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boneVisualizations;
 }
 constexpr void
-GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__boneVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* value) {
+GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__boneVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boneVisualizations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*&
-GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__capsuleVisualizations() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>*& GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__capsuleVisualizations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsuleVisualizations;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>* const&
 GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_get__capsuleVisualizations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsuleVisualizations;
 }
 constexpr void
-GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__capsuleVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* value) {
+GlobalNamespace::OVRSkeletonRenderer::__cordl_internal_set__capsuleVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____capsuleVisualizations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1031,13 +1009,13 @@ inline void GlobalNamespace::OVRSkeletonRenderer::OnDestroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRSkeletonRenderer* GlobalNamespace::OVRSkeletonRenderer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRSkeletonRenderer*>());
-}
 inline void GlobalNamespace::OVRSkeletonRenderer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRSkeletonRenderer* GlobalNamespace::OVRSkeletonRenderer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRSkeletonRenderer*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSkeletonRenderer::OVRSkeletonRenderer() {}

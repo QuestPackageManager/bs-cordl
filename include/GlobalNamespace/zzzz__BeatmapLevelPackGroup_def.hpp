@@ -18,11 +18,10 @@ class BeatmapLevelPackGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackGroup);
-// Type: ::BeatmapLevelPackGroup
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapLevelPackGroup*
+// CS Name: BeatmapLevelPackGroup
 class CORDL_TYPE BeatmapLevelPackGroup : public ::System::Object {
 public:
   // Declarations
@@ -40,13 +39,12 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelPackGroup* New_ctor(::StringW groupName, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* collections);
 
-  /// @brief Method UpdateBeatmapLevelPacks, addr 0x269ee4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateBeatmapLevelPacks, addr 0x26d3b80, size 0x8, virtual false, abstract: false, final false
   inline void UpdateBeatmapLevelPacks(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get__beatmapLevelPacks_k__BackingField();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get__beatmapLevelPacks_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*> const&
-  __cordl_internal_get__beatmapLevelPacks_k__BackingField() const;
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get__beatmapLevelPacks_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__groupName_k__BackingField() const;
 
@@ -56,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__groupName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x269ee20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3b54, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW groupName, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* collections);
 
-  /// @brief Method get_beatmapLevelPacks, addr 0x269ee10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelPacks, addr 0x26d3b44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* get_beatmapLevelPacks();
 
-  /// @brief Method get_groupName, addr 0x269ee08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x26d3b3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method set_beatmapLevelPacks, addr 0x269ee18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelPacks, addr 0x26d3b4c, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelPacks(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
 protected:
@@ -82,23 +80,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelPackGroup(BeatmapLevelPackGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13025 };
+
   /// @brief Field <groupName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____groupName_k__BackingField;
 
   /// @brief Field <beatmapLevelPacks>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* ____beatmapLevelPacks_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12990 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPackGroup, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackGroup, ____groupName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackGroup, ____beatmapLevelPacks_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPackGroup, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPackGroup);

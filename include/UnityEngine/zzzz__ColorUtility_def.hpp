@@ -15,15 +15,14 @@ class ColorUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ColorUtility);
-// Type: UnityEngine::ColorUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ColorUtility*
+// CS Name: UnityEngine.ColorUtility
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToHtmlStringRGB, addr 0x483a1b0, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ToHtmlStringRGB, addr 0x489b5f8, size 0x3e8, virtual false, abstract: false, final false
   static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
 protected:
@@ -41,7 +40,7 @@ public:
   ColorUtility(ColorUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

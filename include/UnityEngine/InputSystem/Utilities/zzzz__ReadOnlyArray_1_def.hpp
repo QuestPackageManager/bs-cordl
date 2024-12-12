@@ -3,30 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyArray_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -35,26 +26,25 @@ namespace System {
 template <typename T> class Predicate_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct __ReadOnlyArray_1__Enumerator;
+template <typename TValue> struct ReadOnlyArray_1_Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct __ReadOnlyArray_1__Enumerator;
+template <typename TValue> struct ReadOnlyArray_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1);
-MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::__ReadOnlyArray_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// CS Name: ::ReadOnlyArray`1::Enumerator<TValue>
-struct CORDL_TYPE __ReadOnlyArray_1__Enumerator {
+// CS Name: UnityEngine.InputSystem.Utilities.ReadOnlyArray`1/Enumerator<TValue>
+struct CORDL_TYPE ReadOnlyArray_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) TValue Current;
@@ -99,11 +89,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReadOnlyArray_1__Enumerator();
+  constexpr ReadOnlyArray_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue,::Array<TValue>*>", modifiers: "", def_value: None }, CppParam { name: "m_IndexStart", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "m_IndexEnd", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ReadOnlyArray_1__Enumerator(::ArrayW<TValue, ::Array<TValue>*> m_Array, int32_t m_IndexStart, int32_t m_IndexEnd, int32_t m_Index) noexcept;
+  constexpr ReadOnlyArray_1_Enumerator(::ArrayW<TValue, ::Array<TValue>*> m_Array, int32_t m_IndexStart, int32_t m_IndexEnd, int32_t m_Index) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7105 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field m_Array, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<TValue, ::Array<TValue>*> m_Array;
@@ -117,27 +113,20 @@ public:
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   int32_t m_Index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7080 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: UnityEngine.InputSystem.Utilities::ReadOnlyArray`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyList`1<T>, System.Collections.IEnumerable
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Utilities::ReadOnlyArray`1<TValue>
+// CS Name: UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<TValue>
 struct CORDL_TYPE ReadOnlyArray_1 {
 public:
   // Declarations
-  using Enumerator = ::UnityEngine::InputSystem::Utilities::__ReadOnlyArray_1__Enumerator<TValue>;
+  using Enumerator = ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1_Enumerator<TValue>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -156,7 +145,7 @@ public:
   constexpr operator ::System::Collections::IEnumerable*();
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::__ReadOnlyArray_1__Enumerator<TValue> GetEnumerator();
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1_Enumerator<TValue> GetEnumerator();
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::Predicate_1<TValue>* predicate);
@@ -205,6 +194,12 @@ public:
   // None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ReadOnlyArray_1(::ArrayW<TValue, ::Array<TValue>*> m_Array, int32_t m_StartIndex, int32_t m_Length) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7106 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field m_Array, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<TValue, ::Array<TValue>*> m_Array;
 
@@ -214,15 +209,9 @@ public:
   /// @brief Field m_Length, offset: 0xc, size: 0x4, def value: None
   int32_t m_Length;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7081 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1, "UnityEngine.InputSystem.Utilities", "ReadOnlyArray`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::__ReadOnlyArray_1__Enumerator, "UnityEngine.InputSystem.Utilities", "ReadOnlyArray`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1_Enumerator, "UnityEngine.InputSystem.Utilities", "ReadOnlyArray`1/Enumerator");

@@ -12,11 +12,10 @@ struct FormatUsage;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Rendering::FormatUsage);
-// Type: UnityEngine.Experimental.Rendering::FormatUsage
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.Rendering::FormatUsage
+// CS Name: UnityEngine.Experimental.Rendering.FormatUsage
 struct CORDL_TYPE FormatUsage {
 public:
   // Declarations
@@ -57,63 +56,63 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FormatUsage(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Blend value: static_cast<int32_t>(0x5)
+  /// @brief Field Blend value: I32(5)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const Blend;
 
-  /// @brief Field GetPixels value: static_cast<int32_t>(0x6)
+  /// @brief Field GetPixels value: I32(6)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const GetPixels;
 
-  /// @brief Field Linear value: static_cast<int32_t>(0x1)
+  /// @brief Field Linear value: I32(1)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const Linear;
 
-  /// @brief Field LoadStore value: static_cast<int32_t>(0xa)
+  /// @brief Field LoadStore value: I32(10)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const LoadStore;
 
-  /// @brief Field MSAA2x value: static_cast<int32_t>(0xb)
+  /// @brief Field MSAA2x value: I32(11)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const MSAA2x;
 
-  /// @brief Field MSAA4x value: static_cast<int32_t>(0xc)
+  /// @brief Field MSAA4x value: I32(12)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const MSAA4x;
 
-  /// @brief Field MSAA8x value: static_cast<int32_t>(0xd)
+  /// @brief Field MSAA8x value: I32(13)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const MSAA8x;
 
-  /// @brief Field ReadPixels value: static_cast<int32_t>(0x9)
+  /// @brief Field ReadPixels value: I32(9)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const ReadPixels;
 
-  /// @brief Field Render value: static_cast<int32_t>(0x4)
+  /// @brief Field Render value: I32(4)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const Render;
 
-  /// @brief Field Sample value: static_cast<int32_t>(0x0)
+  /// @brief Field Sample value: I32(0)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const Sample;
 
-  /// @brief Field SetPixels value: static_cast<int32_t>(0x7)
+  /// @brief Field SetPixels value: I32(7)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const SetPixels;
 
-  /// @brief Field SetPixels32 value: static_cast<int32_t>(0x8)
+  /// @brief Field SetPixels32 value: I32(8)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const SetPixels32;
 
-  /// @brief Field Sparse value: static_cast<int32_t>(0x2)
+  /// @brief Field Sparse value: I32(2)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const Sparse;
 
-  /// @brief Field StencilSampling value: static_cast<int32_t>(0x10)
+  /// @brief Field StencilSampling value: I32(16)
   static ::UnityEngine::Experimental::Rendering::FormatUsage const StencilSampling;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11315 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::FormatUsage, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::Rendering::FormatUsage, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::FormatUsage, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::FormatUsage, "UnityEngine.Experimental.Rendering", "FormatUsage");

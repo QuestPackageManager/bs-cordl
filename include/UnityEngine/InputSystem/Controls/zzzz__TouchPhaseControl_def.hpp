@@ -15,23 +15,22 @@ class TouchPhaseControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchPhaseControl);
-// Type: UnityEngine.InputSystem.Controls::TouchPhaseControl
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 257, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputControl`1<TValue>, UnityEngine.InputSystem.TouchPhase
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Controls::TouchPhaseControl*
+// CS Name: UnityEngine.InputSystem.Controls.TouchPhaseControl
 class CORDL_TYPE TouchPhaseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::TouchPhase> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x45015b4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x45628c8, size 0x7c, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x4501630, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x4562944, size 0x68, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x450152c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4562840, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +48,7 @@ public:
   TouchPhaseControl(TouchPhaseControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7047 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

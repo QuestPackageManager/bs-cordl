@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticTree)
 // Forward declare root types
@@ -13,11 +12,10 @@ class StaticTree;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::StaticTree);
-// Type: Org.BouncyCastle.Utilities.Zlib::StaticTree
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Zlib::StaticTree*
+// CS Name: Org.BouncyCastle.Utilities.Zlib.StaticTree
 class CORDL_TYPE StaticTree : public ::System::Object {
 public:
   // Declarations
@@ -34,19 +32,19 @@ public:
   __declspec(property(get = __cordl_internal_get_max_length, put = __cordl_internal_set_max_length)) int32_t max_length;
 
   /// @brief Field static_bl_desc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_static_bl_desc, put = setStaticF_static_bl_desc)) ::Org::BouncyCastle::Utilities::Zlib::StaticTree* static_bl_desc;
+  __declspec(property(get = getStaticF_static_bl_desc, put = setStaticF_static_bl_desc)) ::Org::BouncyCastle::Utilities::Zlib::StaticTree* static_bl_desc;
 
   /// @brief Field static_d_desc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_static_d_desc, put = setStaticF_static_d_desc)) ::Org::BouncyCastle::Utilities::Zlib::StaticTree* static_d_desc;
+  __declspec(property(get = getStaticF_static_d_desc, put = setStaticF_static_d_desc)) ::Org::BouncyCastle::Utilities::Zlib::StaticTree* static_d_desc;
 
   /// @brief Field static_dtree, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_static_dtree, put = setStaticF_static_dtree)) ::ArrayW<int16_t, ::Array<int16_t>*> static_dtree;
+  __declspec(property(get = getStaticF_static_dtree, put = setStaticF_static_dtree)) ::ArrayW<int16_t, ::Array<int16_t>*> static_dtree;
 
   /// @brief Field static_l_desc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_static_l_desc, put = setStaticF_static_l_desc)) ::Org::BouncyCastle::Utilities::Zlib::StaticTree* static_l_desc;
+  __declspec(property(get = getStaticF_static_l_desc, put = setStaticF_static_l_desc)) ::Org::BouncyCastle::Utilities::Zlib::StaticTree* static_l_desc;
 
   /// @brief Field static_ltree, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_static_ltree, put = setStaticF_static_ltree)) ::ArrayW<int16_t, ::Array<int16_t>*> static_ltree;
+  __declspec(property(get = getStaticF_static_ltree, put = setStaticF_static_ltree)) ::ArrayW<int16_t, ::Array<int16_t>*> static_ltree;
 
   /// @brief Field static_tree, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_static_tree, put = __cordl_internal_set_static_tree)) ::ArrayW<int16_t, ::Array<int16_t>*> static_tree;
@@ -84,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_static_tree(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x25ad544, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e0830, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree, ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* getStaticF_static_bl_desc();
@@ -121,21 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StaticTree(StaticTree const&) = delete;
 
-  /// @brief Field static_tree, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<int16_t, ::Array<int16_t>*> ___static_tree;
-
-  /// @brief Field extra_bits, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___extra_bits;
-
-  /// @brief Field extra_base, offset: 0x20, size: 0x4, def value: None
-  int32_t ___extra_base;
-
-  /// @brief Field elems, offset: 0x24, size: 0x4, def value: None
-  int32_t ___elems;
-
-  /// @brief Field max_length, offset: 0x28, size: 0x4, def value: None
-  int32_t ___max_length;
-
   /// @brief Field BL_CODES offset 0xffffffff size 0x4
   static constexpr int32_t BL_CODES{ static_cast<int32_t>(0x13) };
 
@@ -160,11 +143,24 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1825 };
 
+  /// @brief Field static_tree, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<int16_t, ::Array<int16_t>*> ___static_tree;
+
+  /// @brief Field extra_bits, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> ___extra_bits;
+
+  /// @brief Field extra_base, offset: 0x20, size: 0x4, def value: None
+  int32_t ___extra_base;
+
+  /// @brief Field elems, offset: 0x24, size: 0x4, def value: None
+  int32_t ___elems;
+
+  /// @brief Field max_length, offset: 0x28, size: 0x4, def value: None
+  int32_t ___max_length;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::StaticTree, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::StaticTree, ___static_tree) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::StaticTree, ___extra_bits) == 0x18, "Offset mismatch!");
@@ -174,6 +170,8 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::StaticTree, ___extr
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::StaticTree, ___elems) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::StaticTree, ___max_length) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::StaticTree, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::StaticTree);

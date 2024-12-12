@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Data::FunctionId, ::StringW)>(
     &::System::Data::AggregateNode::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x410c290;
+  constexpr static std::size_t addrs = 0x416d5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Data::FunctionId, ::StringW, bool, ::StringW)>(&::System::Data::AggregateNode::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x410c29c;
+  constexpr static std::size_t addrs = 0x416d5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::AggregateNode::Bind)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x410c3ec;
+  constexpr static std::size_t addrs = 0x416d700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Data::DataRelation*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(
     &::System::Data::AggregateNode::Bind)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x410c750;
+  constexpr static std::size_t addrs = 0x416da64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x410c944;
+  constexpr static std::size_t addrs = 0x416dc58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::AggregateNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x410c958;
+  constexpr static std::size_t addrs = 0x416dc6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::AggregateNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x410cc6c;
+  constexpr static std::size_t addrs = 0x416df80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::IsConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410cd30;
+  constexpr static std::size_t addrs = 0x416e044;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410cd38;
+  constexpr static std::size_t addrs = 0x416e04c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410cd40;
+  constexpr static std::size_t addrs = 0x416e054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x410cd48;
+  constexpr static std::size_t addrs = 0x416e05c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AggregateNode::*)(::System::Data::DataColumn*)>(&::System::Data::AggregateNode::DependsOn)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x410cd58;
+  constexpr static std::size_t addrs = 0x416e06c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::Optimize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x410cdf0;
+  constexpr static std::size_t addrs = 0x416e104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -271,7 +271,7 @@ constexpr ::System::Data::DataTable*& System::Data::AggregateNode::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::AggregateNode::__cordl_internal_get__childTable() const {
+constexpr ::System::Data::DataTable* const& System::Data::AggregateNode::__cordl_internal_get__childTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childTable;
 }
@@ -283,7 +283,7 @@ constexpr ::System::Data::DataColumn*& System::Data::AggregateNode::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____column;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataColumn*> const& System::Data::AggregateNode::__cordl_internal_get__column() const {
+constexpr ::System::Data::DataColumn* const& System::Data::AggregateNode::__cordl_internal_get__column() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____column;
 }
@@ -295,16 +295,13 @@ constexpr ::System::Data::DataRelation*& System::Data::AggregateNode::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRelation*> const& System::Data::AggregateNode::__cordl_internal_get__relation() const {
+constexpr ::System::Data::DataRelation* const& System::Data::AggregateNode::__cordl_internal_get__relation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relation;
 }
 constexpr void System::Data::AggregateNode::__cordl_internal_set__relation(::System::Data::DataRelation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Data::AggregateNode* System::Data::AggregateNode::New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::AggregateNode*>(table, aggregateType, columnName));
 }
 inline void System::Data::AggregateNode::_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName) {
   static auto* ___internal_method =
@@ -313,10 +310,6 @@ inline void System::Data::AggregateNode::_ctor(::System::Data::DataTable* table,
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::FunctionId>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, table, aggregateType, columnName);
-}
-inline ::System::Data::AggregateNode* System::Data::AggregateNode::New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName, bool local,
-                                                                            ::StringW relationName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::AggregateNode*>(table, aggregateType, columnName, local, relationName));
 }
 inline void System::Data::AggregateNode::_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName, bool local, ::StringW relationName) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -383,6 +376,13 @@ inline ::System::Data::ExpressionNode* System::Data::AggregateNode::Optimize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::AggregateNode*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Data::ExpressionNode*, false>(this, ___internal_method);
+}
+inline ::System::Data::AggregateNode* System::Data::AggregateNode::New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::AggregateNode*>(table, aggregateType, columnName));
+}
+inline ::System::Data::AggregateNode* System::Data::AggregateNode::New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName, bool local,
+                                                                            ::StringW relationName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::AggregateNode*>(table, aggregateType, columnName, local, relationName));
 }
 // Ctor Parameters []
 constexpr ::System::Data::AggregateNode::AggregateNode() {}

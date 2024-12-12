@@ -12,11 +12,10 @@ struct RENDERING_PIPELINE;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::RENDERING_PIPELINE);
-// Type: LIV.SDK.Unity::RENDERING_PIPELINE
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::RENDERING_PIPELINE
+// CS Name: LIV.SDK.Unity.RENDERING_PIPELINE
 struct CORDL_TYPE RENDERING_PIPELINE {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr RENDERING_PIPELINE(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field DEFERRED value: static_cast<uint32_t>(0x5040302u)
+  /// @brief Field DEFERRED value: U32(84148994)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const DEFERRED;
 
-  /// @brief Field FORWARD value: static_cast<uint32_t>(0x4030201u)
+  /// @brief Field FORWARD value: U32(67305985)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const FORWARD;
 
-  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x5u)
+  /// @brief Field HIGH_DEFINITION value: U32(5)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
 
-  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x3020100u)
+  /// @brief Field UNDEFINED value: U32(50462976)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNDEFINED;
 
-  /// @brief Field UNIVERSAL value: static_cast<uint32_t>(0x504u)
+  /// @brief Field UNIVERSAL value: U32(1284)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
 
-  /// @brief Field VERTEX_LIT value: static_cast<uint32_t>(0x50403u)
+  /// @brief Field VERTEX_LIT value: U32(328707)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::RENDERING_PIPELINE, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::RENDERING_PIPELINE, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::RENDERING_PIPELINE, 0x4>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::RENDERING_PIPELINE, "LIV.SDK.Unity", "RENDERING_PIPELINE");

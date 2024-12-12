@@ -4,16 +4,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
+#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonValidatingReader)
-namespace GlobalNamespace {
-class __JsonValidatingReader__SchemaScope____c;
-}
 namespace Newtonsoft::Json::Linq {
 struct JTokenType;
 }
@@ -39,19 +36,19 @@ namespace Newtonsoft::Json::Schema {
 class ValidationEventHandler;
 }
 namespace Newtonsoft::Json {
-class IJsonLineInfo;
-}
-namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
 struct JsonToken;
 }
 namespace Newtonsoft::Json {
-class __JsonValidatingReader__SchemaScope;
+class JsonValidatingReader_SchemaScope;
 }
 namespace Newtonsoft::Json {
-class __JsonValidatingReader____c;
+class JsonValidatingReader___c;
+}
+namespace Newtonsoft::Json {
+class SchemaScope_JsonValidatingReader___c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -90,73 +87,71 @@ namespace System {
 class Type;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-class __JsonValidatingReader__SchemaScope____c;
-}
 namespace Newtonsoft::Json {
 class JsonValidatingReader;
 }
 namespace Newtonsoft::Json {
-class __JsonValidatingReader__SchemaScope;
+class JsonValidatingReader_SchemaScope;
 }
 namespace Newtonsoft::Json {
-class __JsonValidatingReader____c;
+class JsonValidatingReader___c;
+}
+namespace Newtonsoft::Json {
+class SchemaScope_JsonValidatingReader___c;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::__JsonValidatingReader__SchemaScope____c);
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonValidatingReader);
-MARK_REF_PTR_T(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope);
-MARK_REF_PTR_T(::Newtonsoft::Json::__JsonValidatingReader____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+MARK_REF_PTR_T(::Newtonsoft::Json::JsonValidatingReader_SchemaScope);
+MARK_REF_PTR_T(::Newtonsoft::Json::JsonValidatingReader___c);
+MARK_REF_PTR_T(::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c);
+// Dependencies System.Object
+namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::JsonValidatingReader::SchemaScope::<>c*
-class CORDL_TYPE __JsonValidatingReader__SchemaScope____c : public ::System::Object {
+// CS Name: Newtonsoft.Json.JsonValidatingReader/SchemaScope/<>c
+class CORDL_TYPE SchemaScope_JsonValidatingReader___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__JsonValidatingReader__SchemaScope____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c* __9;
 
   /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Func_2<::StringW, ::StringW>* __9__27_0;
+  __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Func_2<::StringW, ::StringW>* __9__27_0;
 
   /// @brief Field <>9__27_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_1, put = setStaticF___9__27_1)) ::System::Func_2<::StringW, bool>* __9__27_1;
+  __declspec(property(get = getStaticF___9__27_1, put = setStaticF___9__27_1)) ::System::Func_2<::StringW, bool>* __9__27_1;
 
   /// @brief Field <>9__27_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_2, put = setStaticF___9__27_2)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__27_2;
+  __declspec(property(get = getStaticF___9__27_2, put = setStaticF___9__27_2)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__27_2;
 
   /// @brief Field <>9__28_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__28_0,
-                             put = setStaticF___9__28_0)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>, bool>* __9__28_0;
+  __declspec(property(get = getStaticF___9__28_0,
+                      put = setStaticF___9__28_0)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>, bool>* __9__28_0;
 
   /// @brief Field <>9__28_1, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF___9__28_1,
-                          put = setStaticF___9__28_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>, ::StringW>* __9__28_1;
+  __declspec(property(get = getStaticF___9__28_1,
+                      put = setStaticF___9__28_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>, ::StringW>* __9__28_1;
 
-  static inline ::GlobalNamespace::__JsonValidatingReader__SchemaScope____c* New_ctor();
+  static inline ::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c* New_ctor();
 
-  /// @brief Method <GetRequiredProperties>b__28_0, addr 0x3e4f804, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GetRequiredProperties>b__28_0, addr 0x3eaf8b0, size 0x44, virtual false, abstract: false, final false
   inline bool _GetRequiredProperties_b__28_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*> p);
 
-  /// @brief Method <GetRequiredProperties>b__28_1, addr 0x3e4f848, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <GetRequiredProperties>b__28_1, addr 0x3eaf8f4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW _GetRequiredProperties_b__28_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*> p);
 
-  /// @brief Method <.ctor>b__27_0, addr 0x3e4f7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__27_0, addr 0x3eaf888, size 0x8, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__27_0(::StringW p);
 
-  /// @brief Method <.ctor>b__27_1, addr 0x3e4f7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__27_1, addr 0x3eaf890, size 0x8, virtual false, abstract: false, final false
   inline bool __ctor_b__27_1(::StringW p);
 
-  /// @brief Method <.ctor>b__27_2, addr 0x3e4f7ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__27_2, addr 0x3eaf898, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__27_2(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method .ctor, addr 0x3e4f7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eaf880, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__JsonValidatingReader__SchemaScope____c* getStaticF___9();
+  static inline ::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c* getStaticF___9();
 
   static inline ::System::Func_2<::StringW, ::StringW>* getStaticF___9__27_0();
 
@@ -168,7 +163,7 @@ public:
 
   static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>, ::StringW>* getStaticF___9__28_1();
 
-  static inline void setStaticF___9(::GlobalNamespace::__JsonValidatingReader__SchemaScope____c* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c* value);
 
   static inline void setStaticF___9__27_0(::System::Func_2<::StringW, ::StringW>* value);
 
@@ -183,35 +178,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonValidatingReader__SchemaScope____c();
+  constexpr SchemaScope_JsonValidatingReader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonValidatingReader__SchemaScope____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaScope_JsonValidatingReader___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __JsonValidatingReader__SchemaScope____c(__JsonValidatingReader__SchemaScope____c&&) = delete;
+  SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonValidatingReader__SchemaScope____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaScope_JsonValidatingReader___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __JsonValidatingReader__SchemaScope____c(__JsonValidatingReader__SchemaScope____c const&) = delete;
+  SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__JsonValidatingReader__SchemaScope____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::SchemaScope
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace Newtonsoft::Json
+// Dependencies Newtonsoft.Json.Linq.JTokenType, System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::JsonValidatingReader::SchemaScope*
-class CORDL_TYPE __JsonValidatingReader__SchemaScope : public ::System::Object {
+// CS Name: Newtonsoft.Json.JsonValidatingReader/SchemaScope
+class CORDL_TYPE JsonValidatingReader_SchemaScope : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__JsonValidatingReader__SchemaScope____c;
+  using __c = ::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c;
 
   __declspec(property(get = get_ArrayItemCount, put = set_ArrayItemCount)) int32_t ArrayItemCount;
 
@@ -256,19 +250,19 @@ public:
   /// @brief Field _tokenType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__tokenType, put = __cordl_internal_set__tokenType)) ::Newtonsoft::Json::Linq::JTokenType _tokenType;
 
-  /// @brief Method GetRequiredProperties, addr 0x3e4f550, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredProperties, addr 0x3eaf5fc, size 0x228, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetRequiredProperties(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  static inline ::Newtonsoft::Json::__JsonValidatingReader__SchemaScope* New_ctor(::Newtonsoft::Json::Linq::JTokenType tokenType,
-                                                                                  ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* schemas);
+  static inline ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* New_ctor(::Newtonsoft::Json::Linq::JTokenType tokenType,
+                                                                               ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* schemas);
 
   constexpr int32_t const& __cordl_internal_get__ArrayItemCount_k__BackingField() const;
 
   constexpr int32_t& __cordl_internal_get__ArrayItemCount_k__BackingField();
 
-  constexpr ::Newtonsoft::Json::Linq::JTokenWriter*& __cordl_internal_get__CurrentItemWriter_k__BackingField();
+  constexpr ::Newtonsoft::Json::Linq::JTokenWriter* const& __cordl_internal_get__CurrentItemWriter_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JTokenWriter*> const& __cordl_internal_get__CurrentItemWriter_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::Linq::JTokenWriter*& __cordl_internal_get__CurrentItemWriter_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__CurrentPropertyName_k__BackingField() const;
 
@@ -278,17 +272,17 @@ public:
 
   constexpr bool& __cordl_internal_get__IsUniqueArray_k__BackingField();
 
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* const& __cordl_internal_get__UniqueArrayItems_k__BackingField() const;
+
   constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*& __cordl_internal_get__UniqueArrayItems_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*> const& __cordl_internal_get__UniqueArrayItems_k__BackingField() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>* const& __cordl_internal_get__requiredProperties() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>*& __cordl_internal_get__requiredProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, bool>*> const& __cordl_internal_get__requiredProperties() const;
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* const& __cordl_internal_get__schemas() const;
 
   constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>*& __cordl_internal_get__schemas();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>*> const& __cordl_internal_get__schemas() const;
 
   constexpr ::Newtonsoft::Json::Linq::JTokenType const& __cordl_internal_get__tokenType() const;
 
@@ -310,55 +304,58 @@ public:
 
   constexpr void __cordl_internal_set__tokenType(::Newtonsoft::Json::Linq::JTokenType value);
 
-  /// @brief Method .ctor, addr 0x3e4c0c0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eac16c, size 0x344, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JTokenType tokenType, ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* schemas);
 
-  /// @brief Method get_ArrayItemCount, addr 0x3e4f508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArrayItemCount, addr 0x3eaf5b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ArrayItemCount();
 
-  /// @brief Method get_CurrentItemWriter, addr 0x3e4f528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentItemWriter, addr 0x3eaf5d4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenWriter* get_CurrentItemWriter();
 
-  /// @brief Method get_CurrentPropertyName, addr 0x3e4f4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentPropertyName, addr 0x3eaf5a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurrentPropertyName();
 
-  /// @brief Method get_IsUniqueArray, addr 0x3e4f518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUniqueArray, addr 0x3eaf5c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUniqueArray();
 
-  /// @brief Method get_RequiredProperties, addr 0x3e4f540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiredProperties, addr 0x3eaf5ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, bool>* get_RequiredProperties();
 
-  /// @brief Method get_Schemas, addr 0x3e4f538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schemas, addr 0x3eaf5e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_Schemas();
 
-  /// @brief Method get_TokenType, addr 0x3e4f548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3eaf5f4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenType get_TokenType();
 
-  /// @brief Method get_UniqueArrayItems, addr 0x3e4f520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UniqueArrayItems, addr 0x3eaf5cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_UniqueArrayItems();
 
-  /// @brief Method set_ArrayItemCount, addr 0x3e4f510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ArrayItemCount, addr 0x3eaf5bc, size 0x8, virtual false, abstract: false, final false
   inline void set_ArrayItemCount(int32_t value);
 
-  /// @brief Method set_CurrentItemWriter, addr 0x3e4f530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentItemWriter, addr 0x3eaf5dc, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentItemWriter(::Newtonsoft::Json::Linq::JTokenWriter* value);
 
-  /// @brief Method set_CurrentPropertyName, addr 0x3e4f500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentPropertyName, addr 0x3eaf5ac, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentPropertyName(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonValidatingReader__SchemaScope();
+  constexpr JsonValidatingReader_SchemaScope();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonValidatingReader__SchemaScope", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader_SchemaScope", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __JsonValidatingReader__SchemaScope(__JsonValidatingReader__SchemaScope&&) = delete;
+  JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScope&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonValidatingReader__SchemaScope", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader_SchemaScope", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __JsonValidatingReader__SchemaScope(__JsonValidatingReader__SchemaScope const&) = delete;
+  JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScope const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10148 };
 
   /// @brief Field _tokenType, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::JTokenType ____tokenType;
@@ -384,84 +381,80 @@ public:
   /// @brief Field <CurrentItemWriter>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JTokenWriter* ____CurrentItemWriter_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10123 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, 0x48>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____tokenType) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____tokenType) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____schemas) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____schemas) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____requiredProperties) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____requiredProperties) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____CurrentPropertyName_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____CurrentPropertyName_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____ArrayItemCount_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____ArrayItemCount_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____IsUniqueArray_k__BackingField) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____IsUniqueArray_k__BackingField) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____UniqueArrayItems_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____UniqueArrayItems_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ____CurrentItemWriter_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope, ____CurrentItemWriter_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonValidatingReader_SchemaScope, 0x48>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::JsonValidatingReader::<>c*
-class CORDL_TYPE __JsonValidatingReader____c : public ::System::Object {
+// CS Name: Newtonsoft.Json.JsonValidatingReader/<>c
+class CORDL_TYPE JsonValidatingReader___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::__JsonValidatingReader____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::JsonValidatingReader___c* __9;
 
   /// @brief Field <>9__50_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__50_0, put = setStaticF___9__50_0)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__50_0;
+  __declspec(property(get = getStaticF___9__50_0, put = setStaticF___9__50_0)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__50_0;
 
   /// @brief Field <>9__50_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__50_1, put = setStaticF___9__50_1)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__50_1;
+  __declspec(property(get = getStaticF___9__50_1, put = setStaticF___9__50_1)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__50_1;
 
   /// @brief Field <>9__50_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__50_2, put = setStaticF___9__50_2)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__50_2;
+  __declspec(property(get = getStaticF___9__50_2, put = setStaticF___9__50_2)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* __9__50_2;
 
   /// @brief Field <>9__51_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__51_0, put = setStaticF___9__51_0)) ::System::Func_2<bool, bool>* __9__51_0;
+  __declspec(property(get = getStaticF___9__51_0, put = setStaticF___9__51_0)) ::System::Func_2<bool, bool>* __9__51_0;
 
   /// @brief Field <>9__51_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__51_1, put = setStaticF___9__51_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, bool>, bool>* __9__51_1;
+  __declspec(property(get = getStaticF___9__51_1, put = setStaticF___9__51_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, bool>, bool>* __9__51_1;
 
   /// @brief Field <>9__51_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__51_2, put = setStaticF___9__51_2)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, bool>, ::StringW>* __9__51_2;
+  __declspec(property(get = getStaticF___9__51_2, put = setStaticF___9__51_2)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, bool>, ::StringW>* __9__51_2;
 
-  static inline ::Newtonsoft::Json::__JsonValidatingReader____c* New_ctor();
+  static inline ::Newtonsoft::Json::JsonValidatingReader___c* New_ctor();
 
-  /// @brief Method <ValidateEndObject>b__51_0, addr 0x3e4f940, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <ValidateEndObject>b__51_0, addr 0x3eaf9ec, size 0xc, virtual false, abstract: false, final false
   inline bool _ValidateEndObject_b__51_0(bool v);
 
-  /// @brief Method <ValidateEndObject>b__51_1, addr 0x3e4f94c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <ValidateEndObject>b__51_1, addr 0x3eaf9f8, size 0x40, virtual false, abstract: false, final false
   inline bool _ValidateEndObject_b__51_1(::System::Collections::Generic::KeyValuePair_2<::StringW, bool> kv);
 
-  /// @brief Method <ValidateEndObject>b__51_2, addr 0x3e4f98c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <ValidateEndObject>b__51_2, addr 0x3eafa38, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW _ValidateEndObject_b__51_2(::System::Collections::Generic::KeyValuePair_2<::StringW, bool> kv);
 
-  /// @brief Method <WriteToken>b__50_0, addr 0x3e4f8e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <WriteToken>b__50_0, addr 0x3eaf994, size 0x20, virtual false, abstract: false, final false
   inline bool _WriteToken_b__50_0(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method <WriteToken>b__50_1, addr 0x3e4f908, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <WriteToken>b__50_1, addr 0x3eaf9b4, size 0x18, virtual false, abstract: false, final false
   inline bool _WriteToken_b__50_1(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method <WriteToken>b__50_2, addr 0x3e4f920, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <WriteToken>b__50_2, addr 0x3eaf9cc, size 0x20, virtual false, abstract: false, final false
   inline bool _WriteToken_b__50_2(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method .ctor, addr 0x3e4f8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eaf98c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::__JsonValidatingReader____c* getStaticF___9();
+  static inline ::Newtonsoft::Json::JsonValidatingReader___c* getStaticF___9();
 
   static inline ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* getStaticF___9__50_0();
 
@@ -475,7 +468,7 @@ public:
 
   static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, bool>, ::StringW>* getStaticF___9__51_2();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::__JsonValidatingReader____c* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::JsonValidatingReader___c* value);
 
   static inline void setStaticF___9__50_0(::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaModel*, bool>* value);
 
@@ -492,37 +485,36 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonValidatingReader____c();
+  constexpr JsonValidatingReader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonValidatingReader____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __JsonValidatingReader____c(__JsonValidatingReader____c&&) = delete;
+  JsonValidatingReader___c(JsonValidatingReader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonValidatingReader____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __JsonValidatingReader____c(__JsonValidatingReader____c const&) = delete;
+  JsonValidatingReader___c(JsonValidatingReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10149 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonValidatingReader____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonValidatingReader___c, 0x10>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: Newtonsoft.Json::JsonValidatingReader
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.IJsonLineInfo, Newtonsoft.Json.JsonReader
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonValidatingReader*
+// CS Name: Newtonsoft.Json.JsonValidatingReader
 class CORDL_TYPE JsonValidatingReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
-  using SchemaScope = ::Newtonsoft::Json::__JsonValidatingReader__SchemaScope;
+  using SchemaScope = ::Newtonsoft::Json::JsonValidatingReader_SchemaScope;
 
-  using __c = ::Newtonsoft::Json::__JsonValidatingReader____c;
+  using __c = ::Newtonsoft::Json::JsonValidatingReader___c;
 
   __declspec(property(get = get_CurrentMemberSchemas)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* CurrentMemberSchemas;
 
@@ -531,8 +523,7 @@ public:
   __declspec(property(get = get_Depth)) int32_t Depth;
 
   /// @brief Field EmptySchemaList, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF_EmptySchemaList, put = setStaticF_EmptySchemaList)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* EmptySchemaList;
+  __declspec(property(get = getStaticF_EmptySchemaList, put = setStaticF_EmptySchemaList)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* EmptySchemaList;
 
   __declspec(property(get = Newtonsoft_Json_IJsonLineInfo_get_LineNumber)) int32_t Newtonsoft_Json_IJsonLineInfo_LineNumber;
 
@@ -556,7 +547,7 @@ public:
   __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
   /// @brief Field _currentScope, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentScope, put = __cordl_internal_set__currentScope)) ::Newtonsoft::Json::__JsonValidatingReader__SchemaScope* _currentScope;
+  __declspec(property(get = __cordl_internal_get__currentScope, put = __cordl_internal_set__currentScope)) ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* _currentScope;
 
   /// @brief Field _model, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__model, put = __cordl_internal_set__model)) ::Newtonsoft::Json::Schema::JsonSchemaModel* _model;
@@ -568,148 +559,148 @@ public:
   __declspec(property(get = __cordl_internal_get__schema, put = __cordl_internal_set__schema)) ::Newtonsoft::Json::Schema::JsonSchema* _schema;
 
   /// @brief Field _stack, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack)) ::System::Collections::Generic::Stack_1<::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*>* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack)) ::System::Collections::Generic::Stack_1<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>* _stack;
 
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method Close, addr 0x3e4a328, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3eaa3d4, size 0x3c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method FloatingPointRemainder, addr 0x3e4ed90, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FloatingPointRemainder, addr 0x3eaee3c, size 0x6c, virtual false, abstract: false, final false
   static inline double_t FloatingPointRemainder(double_t dividend, double_t divisor);
 
-  /// @brief Method GetCurrentNodeSchemaType, addr 0x3e4a498, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentNodeSchemaType, addr 0x3eaa544, size 0x118, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> GetCurrentNodeSchemaType();
 
-  /// @brief Method IsPropertyDefinied, addr 0x3e4edfc, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method IsPropertyDefinied, addr 0x3eaeea8, size 0x424, virtual false, abstract: false, final false
   inline bool IsPropertyDefinied(::Newtonsoft::Json::Schema::JsonSchemaModel* schema, ::StringW propertyName);
 
-  /// @brief Method IsZero, addr 0x3e4ed24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsZero, addr 0x3eaedd0, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsZero(double_t value);
 
   static inline ::Newtonsoft::Json::JsonValidatingReader* New_ctor(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3e4f248, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3eaf2f4, size 0xb4, virtual true, abstract: false, final true
   inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3e4f2fc, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3eaf3a8, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3e4f3b4, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3eaf460, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
-  /// @brief Method OnValidationEvent, addr 0x3e4a14c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnValidationEvent, addr 0x3eaa1f8, size 0x98, virtual false, abstract: false, final false
   inline void OnValidationEvent(::Newtonsoft::Json::Schema::JsonSchemaException* exception);
 
-  /// @brief Method Pop, addr 0x3e48b98, size 0xa4, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::__JsonValidatingReader__SchemaScope* Pop();
+  /// @brief Method Pop, addr 0x3ea8c44, size 0xa4, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* Pop();
 
-  /// @brief Method ProcessValue, addr 0x3e4c404, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method ProcessValue, addr 0x3eac4b0, size 0x45c, virtual false, abstract: false, final false
   inline void ProcessValue();
 
-  /// @brief Method Push, addr 0x3e48b38, size 0x60, virtual false, abstract: false, final false
-  inline void Push(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope* scope);
+  /// @brief Method Push, addr 0x3ea8be4, size 0x60, virtual false, abstract: false, final false
+  inline void Push(::Newtonsoft::Json::JsonValidatingReader_SchemaScope* scope);
 
-  /// @brief Method RaiseError, addr 0x3e49e04, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method RaiseError, addr 0x3ea9eb0, size 0x348, virtual false, abstract: false, final false
   inline void RaiseError(::StringW message, ::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method Read, addr 0x3e4c05c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3eac108, size 0x64, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsBoolean, addr 0x3e4bf2c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x3eabfd8, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBytes, addr 0x3e4be20, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x3eabecc, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsDateTime, addr 0x3e4bfb4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x3eac060, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x3e4c000, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x3eac0ac, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDecimal, addr 0x3e4be64, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x3eabf10, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDouble, addr 0x3e4bee0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x3eabf8c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsInt32, addr 0x3e4a5b0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x3eaa65c, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsString, addr 0x3e4bf70, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x3eac01c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method TestType, addr 0x3e4ebe4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method TestType, addr 0x3eaec90, size 0x140, virtual false, abstract: false, final false
   inline bool TestType(::Newtonsoft::Json::Schema::JsonSchemaModel* currentSchema, ::Newtonsoft::Json::Schema::JsonSchemaType currentType);
 
-  /// @brief Method ValidateArray, addr 0x3e4f220, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ValidateArray, addr 0x3eaf2cc, size 0x14, virtual false, abstract: false, final false
   inline bool ValidateArray(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateBoolean, addr 0x3e4e5a4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ValidateBoolean, addr 0x3eae650, size 0x40, virtual false, abstract: false, final false
   inline void ValidateBoolean(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateCurrentToken, addr 0x3e4a5f4, size 0x182c, virtual false, abstract: false, final false
+  /// @brief Method ValidateCurrentToken, addr 0x3eaa6a0, size 0x182c, virtual false, abstract: false, final false
   inline void ValidateCurrentToken();
 
-  /// @brief Method ValidateEndArray, addr 0x3e4e978, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndArray, addr 0x3eaea24, size 0x1ec, virtual false, abstract: false, final false
   inline void ValidateEndArray(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateEndObject, addr 0x3e4e624, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndObject, addr 0x3eae6d0, size 0x354, virtual false, abstract: false, final false
   inline void ValidateEndObject(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateFloat, addr 0x3e4db64, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method ValidateFloat, addr 0x3eadc10, size 0x4f8, virtual false, abstract: false, final false
   inline void ValidateFloat(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateInteger, addr 0x3e4d538, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method ValidateInteger, addr 0x3ead5e4, size 0x62c, virtual false, abstract: false, final false
   inline void ValidateInteger(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateNotDisallowed, addr 0x3e4a364, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ValidateNotDisallowed, addr 0x3eaa410, size 0x134, virtual false, abstract: false, final false
   inline void ValidateNotDisallowed(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateNull, addr 0x3e4e5e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ValidateNull, addr 0x3eae690, size 0x40, virtual false, abstract: false, final false
   inline void ValidateNull(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateObject, addr 0x3e4f234, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ValidateObject, addr 0x3eaf2e0, size 0x14, virtual false, abstract: false, final false
   inline bool ValidateObject(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidatePropertyName, addr 0x3e4d390, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ValidatePropertyName, addr 0x3ead43c, size 0x1a8, virtual false, abstract: false, final false
   inline void ValidatePropertyName(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateString, addr 0x3e4e05c, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method ValidateString, addr 0x3eae108, size 0x548, virtual false, abstract: false, final false
   inline void ValidateString(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method WriteToken, addr 0x3e4c860, size 0xb30, virtual false, abstract: false, final false
+  /// @brief Method WriteToken, addr 0x3eac90c, size 0xb30, virtual false, abstract: false, final false
   inline void WriteToken(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* schemas);
+
+  constexpr ::Newtonsoft::Json::Schema::ValidationEventHandler* const& __cordl_internal_get_ValidationEventHandler() const;
 
   constexpr ::Newtonsoft::Json::Schema::ValidationEventHandler*& __cordl_internal_get_ValidationEventHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::ValidationEventHandler*> const& __cordl_internal_get_ValidationEventHandler() const;
+  constexpr ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* const& __cordl_internal_get__currentScope() const;
 
-  constexpr ::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*& __cordl_internal_get__currentScope();
+  constexpr ::Newtonsoft::Json::JsonValidatingReader_SchemaScope*& __cordl_internal_get__currentScope();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*> const& __cordl_internal_get__currentScope() const;
+  constexpr ::Newtonsoft::Json::Schema::JsonSchemaModel* const& __cordl_internal_get__model() const;
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchemaModel*& __cordl_internal_get__model();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchemaModel*> const& __cordl_internal_get__model() const;
+  constexpr ::Newtonsoft::Json::JsonReader* const& __cordl_internal_get__reader() const;
 
   constexpr ::Newtonsoft::Json::JsonReader*& __cordl_internal_get__reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonReader*> const& __cordl_internal_get__reader() const;
+  constexpr ::Newtonsoft::Json::Schema::JsonSchema* const& __cordl_internal_get__schema() const;
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchema*& __cordl_internal_get__schema();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchema*> const& __cordl_internal_get__schema() const;
+  constexpr ::System::Collections::Generic::Stack_1<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>* const& __cordl_internal_get__stack() const;
 
-  constexpr ::System::Collections::Generic::Stack_1<::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*>*& __cordl_internal_get__stack();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*>*> const& __cordl_internal_get__stack() const;
+  constexpr ::System::Collections::Generic::Stack_1<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>*& __cordl_internal_get__stack();
 
   constexpr void __cordl_internal_set_ValidationEventHandler(::Newtonsoft::Json::Schema::ValidationEventHandler* value);
 
-  constexpr void __cordl_internal_set__currentScope(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope* value);
+  constexpr void __cordl_internal_set__currentScope(::Newtonsoft::Json::JsonValidatingReader_SchemaScope* value);
 
   constexpr void __cordl_internal_set__model(::Newtonsoft::Json::Schema::JsonSchemaModel* value);
 
@@ -717,58 +708,58 @@ public:
 
   constexpr void __cordl_internal_set__schema(::Newtonsoft::Json::Schema::JsonSchema* value);
 
-  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::Stack_1<::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*>* value);
+  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::Stack_1<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>* value);
 
-  /// @brief Method .ctor, addr 0x3e4a1e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eaa290, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method add_ValidationEventHandler, addr 0x3e48924, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_ValidationEventHandler, addr 0x3ea89d0, size 0x9c, virtual false, abstract: false, final false
   inline void add_ValidationEventHandler(::Newtonsoft::Json::Schema::ValidationEventHandler* value);
 
   static inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* getStaticF_EmptySchemaList();
 
-  /// @brief Method get_CurrentMemberSchemas, addr 0x3e48c58, size 0x11ac, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentMemberSchemas, addr 0x3ea8d04, size 0x11ac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_CurrentMemberSchemas();
 
-  /// @brief Method get_CurrentSchemas, addr 0x3e48c3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSchemas, addr 0x3ea8ce8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_CurrentSchemas();
 
-  /// @brief Method get_Depth, addr 0x3e48a80, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x3ea8b2c, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Path, addr 0x3e48aa4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3ea8b50, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x3e48ac8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x3ea8b74, size 0x24, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_Reader, addr 0x3e4a320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x3eaa3cc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReader* get_Reader();
 
-  /// @brief Method get_Schema, addr 0x3e4a298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x3eaa344, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_Schema();
 
-  /// @brief Method get_TokenType, addr 0x3e48af0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3ea8b9c, size 0x24, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x3e48a5c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ea8b08, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x3e48b14, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x3ea8bc0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  /// @brief Method remove_ValidationEventHandler, addr 0x3e489c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_ValidationEventHandler, addr 0x3ea8a6c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_ValidationEventHandler(::Newtonsoft::Json::Schema::ValidationEventHandler* value);
 
   static inline void setStaticF_EmptySchemaList(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* value);
 
-  /// @brief Method set_QuoteChar, addr 0x3e48aec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x3ea8b98, size 0x4, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method set_Schema, addr 0x3e4a2a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x3eaa34c, size 0x80, virtual false, abstract: false, final false
   inline void set_Schema(::Newtonsoft::Json::Schema::JsonSchema* value);
 
 protected:
@@ -785,11 +776,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonValidatingReader(JsonValidatingReader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10150 };
+
   /// @brief Field _reader, offset: 0x78, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonReader* ____reader;
 
   /// @brief Field _stack, offset: 0x80, size: 0x8, def value: None
-  ::System::Collections::Generic::Stack_1<::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*>* ____stack;
+  ::System::Collections::Generic::Stack_1<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>* ____stack;
 
   /// @brief Field _schema, offset: 0x88, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchema* ____schema;
@@ -798,19 +792,14 @@ public:
   ::Newtonsoft::Json::Schema::JsonSchemaModel* ____model;
 
   /// @brief Field _currentScope, offset: 0x98, size: 0x8, def value: None
-  ::Newtonsoft::Json::__JsonValidatingReader__SchemaScope* ____currentScope;
+  ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* ____currentScope;
 
   /// @brief Field ValidationEventHandler, offset: 0xa0, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::ValidationEventHandler* ___ValidationEventHandler;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10125 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonValidatingReader, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader, ____reader) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader, ____stack) == 0x80, "Offset mismatch!");
@@ -823,12 +812,14 @@ static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader, ____currentScop
 
 static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader, ___ValidationEventHandler) == 0xa0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonValidatingReader, 0xa8>, "Size mismatch!");
+
 } // namespace Newtonsoft::Json
-NEED_NO_BOX(::GlobalNamespace::__JsonValidatingReader__SchemaScope____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__JsonValidatingReader__SchemaScope____c*, "Newtonsoft.Json", "JsonValidatingReader/SchemaScope/<>c");
 NEED_NO_BOX(::Newtonsoft::Json::JsonValidatingReader);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonValidatingReader*, "Newtonsoft.Json", "JsonValidatingReader");
-NEED_NO_BOX(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonValidatingReader__SchemaScope*, "Newtonsoft.Json", "JsonValidatingReader/SchemaScope");
-NEED_NO_BOX(::Newtonsoft::Json::__JsonValidatingReader____c);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonValidatingReader____c*, "Newtonsoft.Json", "JsonValidatingReader/<>c");
+NEED_NO_BOX(::Newtonsoft::Json::JsonValidatingReader_SchemaScope);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonValidatingReader_SchemaScope*, "Newtonsoft.Json", "JsonValidatingReader/SchemaScope");
+NEED_NO_BOX(::Newtonsoft::Json::JsonValidatingReader___c);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonValidatingReader___c*, "Newtonsoft.Json", "JsonValidatingReader/<>c");
+NEED_NO_BOX(::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c*, "Newtonsoft.Json", "JsonValidatingReader/SchemaScope/<>c");

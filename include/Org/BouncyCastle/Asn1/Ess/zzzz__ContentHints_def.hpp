@@ -26,11 +26,10 @@ class ContentHints;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ess::ContentHints);
-// Type: Org.BouncyCastle.Asn1.Ess::ContentHints
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Ess {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Ess::ContentHints*
+// CS Name: Org.BouncyCastle.Asn1.Ess.ContentHints
 class CORDL_TYPE ContentHints : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -44,7 +43,7 @@ public:
   /// @brief Field contentType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
 
-  /// @brief Method GetInstance, addr 0x22f1864, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2324b50, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
@@ -53,34 +52,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22f1bd0, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2324ebc, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String* const& __cordl_internal_get_contentDescription() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_contentDescription();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __cordl_internal_get_contentDescription() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_contentType() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_contentType();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_contentType() const;
 
   constexpr void __cordl_internal_set_contentDescription(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
   constexpr void __cordl_internal_set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x22f1b6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324e58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
 
-  /// @brief Method .ctor, addr 0x22f1b94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324e80, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription);
 
-  /// @brief Method .ctor, addr 0x22f19e4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324cd0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ContentDescription, addr 0x22f1bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentDescription, addr 0x2324eb4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_ContentDescription();
 
-  /// @brief Method get_ContentType, addr 0x22f1bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x2324eac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
 protected:
@@ -97,23 +96,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContentHints(ContentHints const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 160 };
+
   /// @brief Field contentDescription, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerUtf8String* ___contentDescription;
 
   /// @brief Field contentType, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___contentType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 160 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::ContentHints, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::ContentHints, ___contentDescription) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::ContentHints, ___contentType) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::ContentHints, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ess
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ess::ContentHints);

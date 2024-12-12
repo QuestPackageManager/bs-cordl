@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GetMemberBinder)
 namespace System::Dynamic {
@@ -19,11 +18,10 @@ class GetMemberBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::GetMemberBinder);
-// Type: System.Dynamic::GetMemberBinder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Dynamic.DynamicMetaObjectBinder
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::System.Dynamic::GetMemberBinder*
+// CS Name: System.Dynamic.GetMemberBinder
 class CORDL_TYPE GetMemberBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
@@ -41,14 +39,14 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x409f848, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x4100b5c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackGetMember, addr 0x409e400, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackGetMember, addr 0x40ff714, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target);
 
-  /// @brief Method FallbackGetMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method FallbackGetMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::System::Dynamic::GetMemberBinder* New_ctor(::StringW name, bool ignoreCase);
@@ -65,19 +63,19 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x409f758, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4100a6c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool ignoreCase);
 
-  /// @brief Method get_IgnoreCase, addr 0x409f840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x4100b54, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_IsStandardBinder, addr 0x409f924, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsStandardBinder, addr 0x4100c38, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsStandardBinder();
 
-  /// @brief Method get_Name, addr 0x409f838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4100b4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReturnType, addr 0x409f7cc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_ReturnType, addr 0x4100ae0, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* get_ReturnType();
 
 protected:
@@ -94,23 +92,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetMemberBinder(GetMemberBinder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14169 };
+
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
   /// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IgnoreCase_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14135 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::GetMemberBinder, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Dynamic::GetMemberBinder, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Dynamic::GetMemberBinder, ____IgnoreCase_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::GetMemberBinder, 0x28>, "Size mismatch!");
 
 } // namespace System::Dynamic
 NEED_NO_BOX(::System::Dynamic::GetMemberBinder);

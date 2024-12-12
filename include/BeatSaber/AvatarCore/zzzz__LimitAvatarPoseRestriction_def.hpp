@@ -3,16 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LimitAvatarPoseRestriction)
 namespace BeatSaber::AvatarCore {
-class IAvatarPoseRestriction;
-}
-namespace BeatSaber::AvatarCore {
-class __LimitAvatarPoseRestriction__Parameters;
+class LimitAvatarPoseRestriction_Parameters;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -25,17 +22,16 @@ namespace BeatSaber::AvatarCore {
 class LimitAvatarPoseRestriction;
 }
 namespace BeatSaber::AvatarCore {
-class __LimitAvatarPoseRestriction__Parameters;
+class LimitAvatarPoseRestriction_Parameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction);
-MARK_REF_PTR_T(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters);
-// Type: ::Parameters
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters);
+// Dependencies System.Object, UnityEngine.Vector3
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::LimitAvatarPoseRestriction::Parameters*
-class CORDL_TYPE __LimitAvatarPoseRestriction__Parameters : public ::System::Object {
+// CS Name: BeatSaber.AvatarCore.LimitAvatarPoseRestriction/Parameters
+class CORDL_TYPE LimitAvatarPoseRestriction_Parameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field centerHeadOffset, offset 0x30, size 0xc
@@ -67,7 +63,7 @@ public:
   /// @brief Field minHeadYPos, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_minHeadYPos, put = __cordl_internal_set_minHeadYPos)) float_t minHeadYPos;
 
-  static inline ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* New_ctor();
+  static inline ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* New_ctor();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_centerHeadOffset() const;
 
@@ -123,22 +119,25 @@ public:
 
   constexpr void __cordl_internal_set_minHeadYPos(float_t value);
 
-  /// @brief Method .ctor, addr 0x22225ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224db60, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LimitAvatarPoseRestriction__Parameters();
+  constexpr LimitAvatarPoseRestriction_Parameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LimitAvatarPoseRestriction__Parameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction_Parameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LimitAvatarPoseRestriction__Parameters(__LimitAvatarPoseRestriction__Parameters&&) = delete;
+  LimitAvatarPoseRestriction_Parameters(LimitAvatarPoseRestriction_Parameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LimitAvatarPoseRestriction__Parameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction_Parameters", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LimitAvatarPoseRestriction__Parameters(__LimitAvatarPoseRestriction__Parameters const&) = delete;
+  LimitAvatarPoseRestriction_Parameters(LimitAvatarPoseRestriction_Parameters const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17576 };
 
   /// @brief Field maxHeadSquareDistanceFromCenter, offset: 0x10, size: 0x4, def value: None
   float_t ___maxHeadSquareDistanceFromCenter;
@@ -167,65 +166,61 @@ public:
   /// @brief Field centerHeadOffset, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___centerHeadOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17532 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, 0x40>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___maxHeadSquareDistanceFromCenter) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___maxHeadSquareDistanceFromCenter) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___minHeadYPos) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___minHeadYPos) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___maxHeadYPos) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___maxHeadYPos) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___minHandXZSquareDistanceFromHeadCenter) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___minHandXZSquareDistanceFromHeadCenter) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___maxHandXZSquareDistanceFromHeadCenter) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___maxHandXZSquareDistanceFromHeadCenter) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___minHandYDistanceFromHeadCenter) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___minHandYDistanceFromHeadCenter) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___maxHandYDistanceFromHeadCenter) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___maxHandYDistanceFromHeadCenter) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___forceHeadPosition) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___forceHeadPosition) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, ___centerHeadOffset) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters, ___centerHeadOffset) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters, 0x40>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
-// Type: BeatSaber.AvatarCore::LimitAvatarPoseRestriction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.AvatarCore.IAvatarPoseRestriction, System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::LimitAvatarPoseRestriction*
+// CS Name: BeatSaber.AvatarCore.LimitAvatarPoseRestriction
 class CORDL_TYPE LimitAvatarPoseRestriction : public ::System::Object {
 public:
   // Declarations
-  using Parameters = ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters;
+  using Parameters = ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters;
 
   /// @brief Field _parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters)) ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* _parameters;
+  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters)) ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* _parameters;
 
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept;
 
-  /// @brief Method LimitHandPositionRelativeToHead, addr 0x2222548, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LimitHandPositionRelativeToHead, addr 0x224dabc, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 LimitHandPositionRelativeToHead(::UnityEngine::Vector3 handPosition, ::UnityEngine::Vector3 headCenter);
 
   static inline ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method RestrictPose, addr 0x222235c, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0x224d8d0, size 0x1ec, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
-                           ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
+                           ::ByRef<::UnityEngine::Vector3> newHeadPosition, ::ByRef<::UnityEngine::Vector3> newLeftHandPosition, ::ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
-  constexpr ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*& __cordl_internal_get__parameters();
+  constexpr ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* const& __cordl_internal_get__parameters() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*> const& __cordl_internal_get__parameters() const;
+  constexpr ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters*& __cordl_internal_get__parameters();
 
-  constexpr void __cordl_internal_set__parameters(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* value);
+  constexpr void __cordl_internal_set__parameters(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* value);
 
-  /// @brief Method .ctor, addr 0x22225e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224db58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
@@ -245,21 +240,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LimitAvatarPoseRestriction(LimitAvatarPoseRestriction const&) = delete;
 
-  /// @brief Field _parameters, offset: 0x10, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* ____parameters;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17577 };
+
+  /// @brief Field _parameters, offset: 0x10, size: 0x8, def value: None
+  ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* ____parameters;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction, ____parameters) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction, 0x18>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction*, "BeatSaber.AvatarCore", "LimitAvatarPoseRestriction");
-NEED_NO_BOX(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*, "BeatSaber.AvatarCore", "LimitAvatarPoseRestriction/Parameters");
+NEED_NO_BOX(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters*, "BeatSaber.AvatarCore", "LimitAvatarPoseRestriction/Parameters");

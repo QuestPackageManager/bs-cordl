@@ -18,13 +18,12 @@ template <typename TObject> class AssetReferenceT_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceT_1);
-// Type: UnityEngine.AddressableAssets::AssetReferenceT`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AddressableAssets.AssetReference
 namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets::AssetReferenceT`1<TObject>*
+// CS Name: UnityEngine.AddressableAssets.AssetReferenceT`1<TObject>
 class CORDL_TYPE AssetReferenceT_1 : public ::UnityEngine::AddressableAssets::AssetReference {
 public:
   // Declarations
@@ -60,7 +59,7 @@ public:
   AssetReferenceT_1(AssetReferenceT_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

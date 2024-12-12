@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationStream)
-namespace System {
-struct IntPtr;
-}
 // Forward declare root types
 namespace UnityEngine::Animations {
 struct AnimationStream;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationStream);
-// Type: UnityEngine.Animations::AnimationStream
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr
 namespace UnityEngine::Animations {
 // Is value type: true
-// CS Name: ::UnityEngine.Animations::AnimationStream
+// CS Name: UnityEngine.Animations.AnimationStream
 struct CORDL_TYPE AnimationStream {
 public:
   // Declarations
@@ -34,6 +30,12 @@ public:
   // "animationHandleBinder", ty: "::System::IntPtr", modifiers: "", def_value: None }]
   constexpr AnimationStream(uint32_t m_AnimatorBindingsVersion, ::System::IntPtr constant, ::System::IntPtr input, ::System::IntPtr output, ::System::IntPtr workspace,
                             ::System::IntPtr inputStreamAccessor, ::System::IntPtr animationHandleBinder) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16898 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field m_AnimatorBindingsVersion, offset: 0x0, size: 0x4, def value: None
   uint32_t m_AnimatorBindingsVersion;
@@ -56,17 +58,9 @@ public:
   /// @brief Field animationHandleBinder, offset: 0x30, size: 0x8, def value: None
   ::System::IntPtr animationHandleBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16859 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationStream, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Animations::AnimationStream, m_AnimatorBindingsVersion) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Animations::AnimationStream, constant) == 0x8, "Offset mismatch!");
@@ -80,6 +74,8 @@ static_assert(offsetof(::UnityEngine::Animations::AnimationStream, workspace) ==
 static_assert(offsetof(::UnityEngine::Animations::AnimationStream, inputStreamAccessor) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Animations::AnimationStream, animationHandleBinder) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationStream, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationStream, "UnityEngine.Animations", "AnimationStream");

@@ -4,18 +4,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Volatile)
 namespace System::Threading {
-struct __Volatile__VolatileBoolean;
+struct Volatile_VolatileBoolean;
 }
 namespace System::Threading {
-struct __Volatile__VolatileInt32;
+struct Volatile_VolatileInt32;
 }
 namespace System::Threading {
-struct __Volatile__VolatileObject;
+struct Volatile_VolatileObject;
 }
 namespace System {
 class Object;
@@ -25,36 +24,32 @@ namespace System::Threading {
 class Volatile;
 }
 namespace System::Threading {
-struct __Volatile__VolatileBoolean;
+struct Volatile_VolatileBoolean;
 }
 namespace System::Threading {
-struct __Volatile__VolatileInt32;
+struct Volatile_VolatileInt32;
 }
 namespace System::Threading {
-struct __Volatile__VolatileObject;
+struct Volatile_VolatileObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Volatile);
-MARK_VAL_T(::System::Threading::__Volatile__VolatileBoolean);
-MARK_VAL_T(::System::Threading::__Volatile__VolatileInt32);
-MARK_VAL_T(::System::Threading::__Volatile__VolatileObject);
-// Type: ::VolatileBoolean
-// SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+MARK_VAL_T(::System::Threading::Volatile_VolatileBoolean);
+MARK_VAL_T(::System::Threading::Volatile_VolatileInt32);
+MARK_VAL_T(::System::Threading::Volatile_VolatileObject);
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::Volatile::VolatileBoolean
-struct CORDL_TYPE __Volatile__VolatileBoolean {
+// CS Name: System.Threading.Volatile/VolatileBoolean
+struct CORDL_TYPE Volatile_VolatileBoolean {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Volatile__VolatileBoolean();
+  constexpr Volatile_VolatileBoolean();
 
   // Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __Volatile__VolatileBoolean(bool Value) noexcept;
-
-  /// @brief Field Value, offset: 0x0, size: 0x1, def value: None
-  bool Value;
+  constexpr Volatile_VolatileBoolean(bool Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2755 };
@@ -62,31 +57,30 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field Value, offset: 0x0, size: 0x1, def value: None
+  bool Value;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::__Volatile__VolatileBoolean, 0x1>, "Size mismatch!");
+static_assert(offsetof(::System::Threading::Volatile_VolatileBoolean, Value) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__Volatile__VolatileBoolean, Value) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::Volatile_VolatileBoolean, 0x1>, "Size mismatch!");
 
 } // namespace System::Threading
-// Type: ::VolatileInt32
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::Volatile::VolatileInt32
-struct CORDL_TYPE __Volatile__VolatileInt32 {
+// CS Name: System.Threading.Volatile/VolatileInt32
+struct CORDL_TYPE Volatile_VolatileInt32 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Volatile__VolatileInt32();
+  constexpr Volatile_VolatileInt32();
 
   // Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Volatile__VolatileInt32(int32_t Value) noexcept;
-
-  /// @brief Field Value, offset: 0x0, size: 0x4, def value: None
-  int32_t Value;
+  constexpr Volatile_VolatileInt32(int32_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2756 };
@@ -94,31 +88,30 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field Value, offset: 0x0, size: 0x4, def value: None
+  int32_t Value;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::__Volatile__VolatileInt32, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Threading::Volatile_VolatileInt32, Value) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__Volatile__VolatileInt32, Value) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::Volatile_VolatileInt32, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading
-// Type: ::VolatileObject
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::Volatile::VolatileObject
-struct CORDL_TYPE __Volatile__VolatileObject {
+// CS Name: System.Threading.Volatile/VolatileObject
+struct CORDL_TYPE Volatile_VolatileObject {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Volatile__VolatileObject();
+  constexpr Volatile_VolatileObject();
 
   // Ctor Parameters [CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr __Volatile__VolatileObject(::System::Object* Value) noexcept;
-
-  /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
-  ::System::Object* Value;
+  constexpr Volatile_VolatileObject(::System::Object* Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2757 };
@@ -126,45 +119,47 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
+  ::System::Object* Value;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::__Volatile__VolatileObject, 0x8>, "Size mismatch!");
+static_assert(offsetof(::System::Threading::Volatile_VolatileObject, Value) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__Volatile__VolatileObject, Value) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::Volatile_VolatileObject, 0x8>, "Size mismatch!");
 
 } // namespace System::Threading
-// Type: System.Threading::Volatile
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::Volatile*
+// CS Name: System.Threading.Volatile
 class CORDL_TYPE Volatile : public ::System::Object {
 public:
   // Declarations
-  using VolatileBoolean = ::System::Threading::__Volatile__VolatileBoolean;
+  using VolatileBoolean = ::System::Threading::Volatile_VolatileBoolean;
 
-  using VolatileInt32 = ::System::Threading::__Volatile__VolatileInt32;
+  using VolatileInt32 = ::System::Threading::Volatile_VolatileInt32;
 
-  using VolatileObject = ::System::Threading::__Volatile__VolatileObject;
+  using VolatileObject = ::System::Threading::Volatile_VolatileObject;
 
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Read(ByRef<T> location);
+  template <typename T> static inline T Read(::ByRef<T> location);
 
-  /// @brief Method Read, addr 0x3dfd548, size 0x18, virtual false, abstract: false, final false
-  static inline bool Read(ByRef<bool> location);
+  /// @brief Method Read, addr 0x3e5d5f4, size 0x18, virtual false, abstract: false, final false
+  static inline bool Read(::ByRef<bool> location);
 
-  /// @brief Method Read, addr 0x3dfd584, size 0x18, virtual false, abstract: false, final false
-  static inline int32_t Read(ByRef<int32_t> location);
+  /// @brief Method Read, addr 0x3e5d630, size 0x18, virtual false, abstract: false, final false
+  static inline int32_t Read(::ByRef<int32_t> location);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Write(ByRef<T> location, T value);
+  template <typename T> static inline void Write(::ByRef<T> location, T value);
 
-  /// @brief Method Write, addr 0x3dfd560, size 0x24, virtual false, abstract: false, final false
-  static inline void Write(ByRef<bool> location, bool value);
+  /// @brief Method Write, addr 0x3e5d60c, size 0x24, virtual false, abstract: false, final false
+  static inline void Write(::ByRef<bool> location, bool value);
 
-  /// @brief Method Write, addr 0x3dfd59c, size 0x24, virtual false, abstract: false, final false
-  static inline void Write(ByRef<int32_t> location, int32_t value);
+  /// @brief Method Write, addr 0x3e5d648, size 0x24, virtual false, abstract: false, final false
+  static inline void Write(::ByRef<int32_t> location, int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -191,6 +186,6 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Volatile, 0x1
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::Volatile);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Volatile*, "System.Threading", "Volatile");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::__Volatile__VolatileBoolean, "System.Threading", "Volatile/VolatileBoolean");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::__Volatile__VolatileInt32, "System.Threading", "Volatile/VolatileInt32");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::__Volatile__VolatileObject, "System.Threading", "Volatile/VolatileObject");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Volatile_VolatileBoolean, "System.Threading", "Volatile/VolatileBoolean");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Volatile_VolatileInt32, "System.Threading", "Volatile/VolatileInt32");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Volatile_VolatileObject, "System.Threading", "Volatile/VolatileObject");

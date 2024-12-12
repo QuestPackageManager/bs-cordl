@@ -14,6 +14,7 @@ module;
 #include "BeatSaber/Settings/QualitySettings.hpp"
 #include "BeatSaber/Settings/QuestSettings.hpp"
 #include "BeatSaber/Settings/RoomSettings.hpp"
+#include "BeatSaber/Settings/SelectedProfile.hpp"
 #include "BeatSaber/Settings/SettingPresets.hpp"
 #include "BeatSaber/Settings/SettingStrings.hpp"
 #include "BeatSaber/Settings/SettingValidations.hpp"

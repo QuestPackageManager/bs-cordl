@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::ValidationResult::*)(
     bool, bool, int32_t, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>)>(&::Mono::Security::Interface::ValidationResult::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3be4868;
+  constexpr static std::size_t addrs = 0x3c4497c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Interface::ValidationResult::*)()>(
     &::Mono::Security::Interface::ValidationResult::get_Trusted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be48b0;
+  constexpr static std::size_t addrs = 0x3c449c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::ValidationResult*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Interface::ValidationResult::*)()>(
     &::Mono::Security::Interface::ValidationResult::get_UserDenied)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be48b8;
+  constexpr static std::size_t addrs = 0x3c449cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::ValidationResult*>::get(),
@@ -99,10 +99,6 @@ constexpr void Mono::Security::Interface::ValidationResult::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___policy_errors = value;
 }
-inline ::Mono::Security::Interface::ValidationResult* Mono::Security::Interface::ValidationResult::New_ctor(bool trusted, bool user_denied, int32_t error_code,
-                                                                                                            ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Interface::ValidationResult*>(trusted, user_denied, error_code, policy_errors));
-}
 inline void Mono::Security::Interface::ValidationResult::_ctor(bool trusted, bool user_denied, int32_t error_code,
                                                                ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,6 +117,10 @@ inline bool Mono::Security::Interface::ValidationResult::get_UserDenied() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::ValidationResult*>::get(),
                                                                              "get_UserDenied", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::Mono::Security::Interface::ValidationResult* Mono::Security::Interface::ValidationResult::New_ctor(bool trusted, bool user_denied, int32_t error_code,
+                                                                                                            ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Interface::ValidationResult*>(trusted, user_denied, error_code, policy_errors));
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::ValidationResult::ValidationResult() {}

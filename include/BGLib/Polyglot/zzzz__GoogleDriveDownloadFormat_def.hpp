@@ -12,11 +12,10 @@ struct GoogleDriveDownloadFormat;
 }
 // Write type traits
 MARK_VAL_T(::BGLib::Polyglot::GoogleDriveDownloadFormat);
-// Type: BGLib.Polyglot::GoogleDriveDownloadFormat
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BGLib::Polyglot {
 // Is value type: true
-// CS Name: ::BGLib.Polyglot::GoogleDriveDownloadFormat
+// CS Name: BGLib.Polyglot.GoogleDriveDownloadFormat
 struct CORDL_TYPE GoogleDriveDownloadFormat {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr GoogleDriveDownloadFormat(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field CSV value: static_cast<int32_t>(0x0)
+  /// @brief Field CSV value: I32(0)
   static ::BGLib::Polyglot::GoogleDriveDownloadFormat const CSV;
 
-  /// @brief Field TSV value: static_cast<int32_t>(0x1)
+  /// @brief Field TSV value: I32(1)
   static ::BGLib::Polyglot::GoogleDriveDownloadFormat const TSV;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::GoogleDriveDownloadFormat, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::Polyglot::GoogleDriveDownloadFormat, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::GoogleDriveDownloadFormat, 0x4>, "Size mismatch!");
 
 } // namespace BGLib::Polyglot
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::Polyglot::GoogleDriveDownloadFormat, "BGLib.Polyglot", "GoogleDriveDownloadFormat");

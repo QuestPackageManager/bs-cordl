@@ -12,11 +12,10 @@ struct GraphicsFormat;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Rendering::GraphicsFormat);
-// Type: UnityEngine.Experimental.Rendering::GraphicsFormat
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.Rendering::GraphicsFormat
+// CS Name: UnityEngine.Experimental.Rendering.GraphicsFormat
 struct CORDL_TYPE GraphicsFormat {
 public:
   // Declarations
@@ -191,465 +190,465 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr GraphicsFormat(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field A10R10G10B10_XRSRGBPack32 value: static_cast<int32_t>(0x55)
+  /// @brief Field A10R10G10B10_XRSRGBPack32 value: I32(85)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A10R10G10B10_XRSRGBPack32;
 
-  /// @brief Field A10R10G10B10_XRUNormPack32 value: static_cast<int32_t>(0x56)
+  /// @brief Field A10R10G10B10_XRUNormPack32 value: I32(86)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A10R10G10B10_XRUNormPack32;
 
-  /// @brief Field A1R5G5B5_UNormPack16 value: static_cast<int32_t>(0x48)
+  /// @brief Field A1R5G5B5_UNormPack16 value: I32(72)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A1R5G5B5_UNormPack16;
 
-  /// @brief Field A2B10G10R10_SIntPack32 value: static_cast<int32_t>(0x4d)
+  /// @brief Field A2B10G10R10_SIntPack32 value: I32(77)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_SIntPack32;
 
-  /// @brief Field A2B10G10R10_UIntPack32 value: static_cast<int32_t>(0x4c)
+  /// @brief Field A2B10G10R10_UIntPack32 value: I32(76)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_UIntPack32;
 
-  /// @brief Field A2B10G10R10_UNormPack32 value: static_cast<int32_t>(0x4b)
+  /// @brief Field A2B10G10R10_UNormPack32 value: I32(75)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2B10G10R10_UNormPack32;
 
-  /// @brief Field A2R10G10B10_SIntPack32 value: static_cast<int32_t>(0x50)
+  /// @brief Field A2R10G10B10_SIntPack32 value: I32(80)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_SIntPack32;
 
-  /// @brief Field A2R10G10B10_UIntPack32 value: static_cast<int32_t>(0x4f)
+  /// @brief Field A2R10G10B10_UIntPack32 value: I32(79)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_UIntPack32;
 
-  /// @brief Field A2R10G10B10_UNormPack32 value: static_cast<int32_t>(0x4e)
+  /// @brief Field A2R10G10B10_UNormPack32 value: I32(78)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_UNormPack32;
 
-  /// @brief Field A2R10G10B10_XRSRGBPack32 value: static_cast<int32_t>(0x51)
+  /// @brief Field A2R10G10B10_XRSRGBPack32 value: I32(81)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_XRSRGBPack32;
 
-  /// @brief Field A2R10G10B10_XRUNormPack32 value: static_cast<int32_t>(0x52)
+  /// @brief Field A2R10G10B10_XRUNormPack32 value: I32(82)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const A2R10G10B10_XRUNormPack32;
 
-  /// @brief Field B10G11R11_UFloatPack32 value: static_cast<int32_t>(0x4a)
+  /// @brief Field B10G11R11_UFloatPack32 value: I32(74)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B10G11R11_UFloatPack32;
 
-  /// @brief Field B4G4R4A4_UNormPack16 value: static_cast<int32_t>(0x43)
+  /// @brief Field B4G4R4A4_UNormPack16 value: I32(67)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B4G4R4A4_UNormPack16;
 
-  /// @brief Field B5G5R5A1_UNormPack16 value: static_cast<int32_t>(0x47)
+  /// @brief Field B5G5R5A1_UNormPack16 value: I32(71)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B5G5R5A1_UNormPack16;
 
-  /// @brief Field B5G6R5_UNormPack16 value: static_cast<int32_t>(0x45)
+  /// @brief Field B5G6R5_UNormPack16 value: I32(69)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B5G6R5_UNormPack16;
 
-  /// @brief Field B8G8R8A8_SInt value: static_cast<int32_t>(0x41)
+  /// @brief Field B8G8R8A8_SInt value: I32(65)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SInt;
 
-  /// @brief Field B8G8R8A8_SNorm value: static_cast<int32_t>(0x3d)
+  /// @brief Field B8G8R8A8_SNorm value: I32(61)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SNorm;
 
-  /// @brief Field B8G8R8A8_SRGB value: static_cast<int32_t>(0x39)
+  /// @brief Field B8G8R8A8_SRGB value: I32(57)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_SRGB;
 
-  /// @brief Field B8G8R8A8_UInt value: static_cast<int32_t>(0x3f)
+  /// @brief Field B8G8R8A8_UInt value: I32(63)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_UInt;
 
-  /// @brief Field B8G8R8A8_UNorm value: static_cast<int32_t>(0x3b)
+  /// @brief Field B8G8R8A8_UNorm value: I32(59)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8A8_UNorm;
 
-  /// @brief Field B8G8R8_SInt value: static_cast<int32_t>(0x40)
+  /// @brief Field B8G8R8_SInt value: I32(64)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SInt;
 
-  /// @brief Field B8G8R8_SNorm value: static_cast<int32_t>(0x3c)
+  /// @brief Field B8G8R8_SNorm value: I32(60)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SNorm;
 
-  /// @brief Field B8G8R8_SRGB value: static_cast<int32_t>(0x38)
+  /// @brief Field B8G8R8_SRGB value: I32(56)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_SRGB;
 
-  /// @brief Field B8G8R8_UInt value: static_cast<int32_t>(0x3e)
+  /// @brief Field B8G8R8_UInt value: I32(62)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_UInt;
 
-  /// @brief Field B8G8R8_UNorm value: static_cast<int32_t>(0x3a)
+  /// @brief Field B8G8R8_UNorm value: I32(58)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const B8G8R8_UNorm;
 
-  /// @brief Field D16_UNorm value: static_cast<int32_t>(0x5a)
+  /// @brief Field D16_UNorm value: I32(90)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D16_UNorm;
 
-  /// @brief Field D16_UNorm_S8_UInt value: static_cast<int32_t>(0x97)
+  /// @brief Field D16_UNorm_S8_UInt value: I32(151)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D16_UNorm_S8_UInt;
 
-  /// @brief Field D24_UNorm value: static_cast<int32_t>(0x5b)
+  /// @brief Field D24_UNorm value: I32(91)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D24_UNorm;
 
-  /// @brief Field D24_UNorm_S8_UInt value: static_cast<int32_t>(0x5c)
+  /// @brief Field D24_UNorm_S8_UInt value: I32(92)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D24_UNorm_S8_UInt;
 
-  /// @brief Field D32_SFloat value: static_cast<int32_t>(0x5d)
+  /// @brief Field D32_SFloat value: I32(93)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D32_SFloat;
 
-  /// @brief Field D32_SFloat_S8_UInt value: static_cast<int32_t>(0x5e)
+  /// @brief Field D32_SFloat_S8_UInt value: I32(94)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D32_SFloat_S8_UInt;
 
-  /// @brief Field DepthAuto value: static_cast<int32_t>(0x8e)
+  /// @brief Field DepthAuto value: I32(142)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const DepthAuto;
 
-  /// @brief Field E5B9G9R9_UFloatPack32 value: static_cast<int32_t>(0x49)
+  /// @brief Field E5B9G9R9_UFloatPack32 value: I32(73)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const E5B9G9R9_UFloatPack32;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const None;
 
-  /// @brief Field R10G10B10_XRSRGBPack32 value: static_cast<int32_t>(0x53)
+  /// @brief Field R10G10B10_XRSRGBPack32 value: I32(83)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R10G10B10_XRSRGBPack32;
 
-  /// @brief Field R10G10B10_XRUNormPack32 value: static_cast<int32_t>(0x54)
+  /// @brief Field R10G10B10_XRUNormPack32 value: I32(84)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R10G10B10_XRUNormPack32;
 
-  /// @brief Field R16G16B16A16_SFloat value: static_cast<int32_t>(0x30)
+  /// @brief Field R16G16B16A16_SFloat value: I32(48)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SFloat;
 
-  /// @brief Field R16G16B16A16_SInt value: static_cast<int32_t>(0x24)
+  /// @brief Field R16G16B16A16_SInt value: I32(36)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SInt;
 
-  /// @brief Field R16G16B16A16_SNorm value: static_cast<int32_t>(0x1c)
+  /// @brief Field R16G16B16A16_SNorm value: I32(28)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_SNorm;
 
-  /// @brief Field R16G16B16A16_UInt value: static_cast<int32_t>(0x20)
+  /// @brief Field R16G16B16A16_UInt value: I32(32)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_UInt;
 
-  /// @brief Field R16G16B16A16_UNorm value: static_cast<int32_t>(0x18)
+  /// @brief Field R16G16B16A16_UNorm value: I32(24)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16A16_UNorm;
 
-  /// @brief Field R16G16B16_SFloat value: static_cast<int32_t>(0x2f)
+  /// @brief Field R16G16B16_SFloat value: I32(47)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SFloat;
 
-  /// @brief Field R16G16B16_SInt value: static_cast<int32_t>(0x23)
+  /// @brief Field R16G16B16_SInt value: I32(35)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SInt;
 
-  /// @brief Field R16G16B16_SNorm value: static_cast<int32_t>(0x1b)
+  /// @brief Field R16G16B16_SNorm value: I32(27)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_SNorm;
 
-  /// @brief Field R16G16B16_UInt value: static_cast<int32_t>(0x1f)
+  /// @brief Field R16G16B16_UInt value: I32(31)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_UInt;
 
-  /// @brief Field R16G16B16_UNorm value: static_cast<int32_t>(0x17)
+  /// @brief Field R16G16B16_UNorm value: I32(23)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16B16_UNorm;
 
-  /// @brief Field R16G16_SFloat value: static_cast<int32_t>(0x2e)
+  /// @brief Field R16G16_SFloat value: I32(46)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SFloat;
 
-  /// @brief Field R16G16_SInt value: static_cast<int32_t>(0x22)
+  /// @brief Field R16G16_SInt value: I32(34)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SInt;
 
-  /// @brief Field R16G16_SNorm value: static_cast<int32_t>(0x1a)
+  /// @brief Field R16G16_SNorm value: I32(26)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_SNorm;
 
-  /// @brief Field R16G16_UInt value: static_cast<int32_t>(0x1e)
+  /// @brief Field R16G16_UInt value: I32(30)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_UInt;
 
-  /// @brief Field R16G16_UNorm value: static_cast<int32_t>(0x16)
+  /// @brief Field R16G16_UNorm value: I32(22)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16G16_UNorm;
 
-  /// @brief Field R16_SFloat value: static_cast<int32_t>(0x2d)
+  /// @brief Field R16_SFloat value: I32(45)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SFloat;
 
-  /// @brief Field R16_SInt value: static_cast<int32_t>(0x21)
+  /// @brief Field R16_SInt value: I32(33)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SInt;
 
-  /// @brief Field R16_SNorm value: static_cast<int32_t>(0x19)
+  /// @brief Field R16_SNorm value: I32(25)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_SNorm;
 
-  /// @brief Field R16_UInt value: static_cast<int32_t>(0x1d)
+  /// @brief Field R16_UInt value: I32(29)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_UInt;
 
-  /// @brief Field R16_UNorm value: static_cast<int32_t>(0x15)
+  /// @brief Field R16_UNorm value: I32(21)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R16_UNorm;
 
-  /// @brief Field R32G32B32A32_SFloat value: static_cast<int32_t>(0x34)
+  /// @brief Field R32G32B32A32_SFloat value: I32(52)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_SFloat;
 
-  /// @brief Field R32G32B32A32_SInt value: static_cast<int32_t>(0x2c)
+  /// @brief Field R32G32B32A32_SInt value: I32(44)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_SInt;
 
-  /// @brief Field R32G32B32A32_UInt value: static_cast<int32_t>(0x28)
+  /// @brief Field R32G32B32A32_UInt value: I32(40)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32A32_UInt;
 
-  /// @brief Field R32G32B32_SFloat value: static_cast<int32_t>(0x33)
+  /// @brief Field R32G32B32_SFloat value: I32(51)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_SFloat;
 
-  /// @brief Field R32G32B32_SInt value: static_cast<int32_t>(0x2b)
+  /// @brief Field R32G32B32_SInt value: I32(43)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_SInt;
 
-  /// @brief Field R32G32B32_UInt value: static_cast<int32_t>(0x27)
+  /// @brief Field R32G32B32_UInt value: I32(39)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32B32_UInt;
 
-  /// @brief Field R32G32_SFloat value: static_cast<int32_t>(0x32)
+  /// @brief Field R32G32_SFloat value: I32(50)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_SFloat;
 
-  /// @brief Field R32G32_SInt value: static_cast<int32_t>(0x2a)
+  /// @brief Field R32G32_SInt value: I32(42)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_SInt;
 
-  /// @brief Field R32G32_UInt value: static_cast<int32_t>(0x26)
+  /// @brief Field R32G32_UInt value: I32(38)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32G32_UInt;
 
-  /// @brief Field R32_SFloat value: static_cast<int32_t>(0x31)
+  /// @brief Field R32_SFloat value: I32(49)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32_SFloat;
 
-  /// @brief Field R32_SInt value: static_cast<int32_t>(0x29)
+  /// @brief Field R32_SInt value: I32(41)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32_SInt;
 
-  /// @brief Field R32_UInt value: static_cast<int32_t>(0x25)
+  /// @brief Field R32_UInt value: I32(37)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R32_UInt;
 
-  /// @brief Field R4G4B4A4_UNormPack16 value: static_cast<int32_t>(0x42)
+  /// @brief Field R4G4B4A4_UNormPack16 value: I32(66)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R4G4B4A4_UNormPack16;
 
-  /// @brief Field R5G5B5A1_UNormPack16 value: static_cast<int32_t>(0x46)
+  /// @brief Field R5G5B5A1_UNormPack16 value: I32(70)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R5G5B5A1_UNormPack16;
 
-  /// @brief Field R5G6B5_UNormPack16 value: static_cast<int32_t>(0x44)
+  /// @brief Field R5G6B5_UNormPack16 value: I32(68)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R5G6B5_UNormPack16;
 
-  /// @brief Field R8G8B8A8_SInt value: static_cast<int32_t>(0x14)
+  /// @brief Field R8G8B8A8_SInt value: I32(20)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SInt;
 
-  /// @brief Field R8G8B8A8_SNorm value: static_cast<int32_t>(0xc)
+  /// @brief Field R8G8B8A8_SNorm value: I32(12)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SNorm;
 
-  /// @brief Field R8G8B8A8_SRGB value: static_cast<int32_t>(0x4)
+  /// @brief Field R8G8B8A8_SRGB value: I32(4)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_SRGB;
 
-  /// @brief Field R8G8B8A8_UInt value: static_cast<int32_t>(0x10)
+  /// @brief Field R8G8B8A8_UInt value: I32(16)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_UInt;
 
-  /// @brief Field R8G8B8A8_UNorm value: static_cast<int32_t>(0x8)
+  /// @brief Field R8G8B8A8_UNorm value: I32(8)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8A8_UNorm;
 
-  /// @brief Field R8G8B8_SInt value: static_cast<int32_t>(0x13)
+  /// @brief Field R8G8B8_SInt value: I32(19)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SInt;
 
-  /// @brief Field R8G8B8_SNorm value: static_cast<int32_t>(0xb)
+  /// @brief Field R8G8B8_SNorm value: I32(11)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SNorm;
 
-  /// @brief Field R8G8B8_SRGB value: static_cast<int32_t>(0x3)
+  /// @brief Field R8G8B8_SRGB value: I32(3)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_SRGB;
 
-  /// @brief Field R8G8B8_UInt value: static_cast<int32_t>(0xf)
+  /// @brief Field R8G8B8_UInt value: I32(15)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_UInt;
 
-  /// @brief Field R8G8B8_UNorm value: static_cast<int32_t>(0x7)
+  /// @brief Field R8G8B8_UNorm value: I32(7)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8B8_UNorm;
 
-  /// @brief Field R8G8_SInt value: static_cast<int32_t>(0x12)
+  /// @brief Field R8G8_SInt value: I32(18)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SInt;
 
-  /// @brief Field R8G8_SNorm value: static_cast<int32_t>(0xa)
+  /// @brief Field R8G8_SNorm value: I32(10)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SNorm;
 
-  /// @brief Field R8G8_SRGB value: static_cast<int32_t>(0x2)
+  /// @brief Field R8G8_SRGB value: I32(2)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_SRGB;
 
-  /// @brief Field R8G8_UInt value: static_cast<int32_t>(0xe)
+  /// @brief Field R8G8_UInt value: I32(14)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_UInt;
 
-  /// @brief Field R8G8_UNorm value: static_cast<int32_t>(0x6)
+  /// @brief Field R8G8_UNorm value: I32(6)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8G8_UNorm;
 
-  /// @brief Field R8_SInt value: static_cast<int32_t>(0x11)
+  /// @brief Field R8_SInt value: I32(17)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SInt;
 
-  /// @brief Field R8_SNorm value: static_cast<int32_t>(0x9)
+  /// @brief Field R8_SNorm value: I32(9)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SNorm;
 
-  /// @brief Field R8_SRGB value: static_cast<int32_t>(0x1)
+  /// @brief Field R8_SRGB value: I32(1)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_SRGB;
 
-  /// @brief Field R8_UInt value: static_cast<int32_t>(0xd)
+  /// @brief Field R8_UInt value: I32(13)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_UInt;
 
-  /// @brief Field R8_UNorm value: static_cast<int32_t>(0x5)
+  /// @brief Field R8_UNorm value: I32(5)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R8_UNorm;
 
-  /// @brief Field RGBA_ASTC10X10_SRGB value: static_cast<int32_t>(0x89)
+  /// @brief Field RGBA_ASTC10X10_SRGB value: I32(137)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_SRGB;
 
-  /// @brief Field RGBA_ASTC10X10_UFloat value: static_cast<int32_t>(0x95)
+  /// @brief Field RGBA_ASTC10X10_UFloat value: I32(149)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_UFloat;
 
-  /// @brief Field RGBA_ASTC10X10_UNorm value: static_cast<int32_t>(0x8a)
+  /// @brief Field RGBA_ASTC10X10_UNorm value: I32(138)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC10X10_UNorm;
 
-  /// @brief Field RGBA_ASTC12X12_SRGB value: static_cast<int32_t>(0x8b)
+  /// @brief Field RGBA_ASTC12X12_SRGB value: I32(139)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_SRGB;
 
-  /// @brief Field RGBA_ASTC12X12_UFloat value: static_cast<int32_t>(0x96)
+  /// @brief Field RGBA_ASTC12X12_UFloat value: I32(150)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_UFloat;
 
-  /// @brief Field RGBA_ASTC12X12_UNorm value: static_cast<int32_t>(0x8c)
+  /// @brief Field RGBA_ASTC12X12_UNorm value: I32(140)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC12X12_UNorm;
 
-  /// @brief Field RGBA_ASTC4X4_SRGB value: static_cast<int32_t>(0x81)
+  /// @brief Field RGBA_ASTC4X4_SRGB value: I32(129)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_SRGB;
 
-  /// @brief Field RGBA_ASTC4X4_UFloat value: static_cast<int32_t>(0x91)
+  /// @brief Field RGBA_ASTC4X4_UFloat value: I32(145)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_UFloat;
 
-  /// @brief Field RGBA_ASTC4X4_UNorm value: static_cast<int32_t>(0x82)
+  /// @brief Field RGBA_ASTC4X4_UNorm value: I32(130)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC4X4_UNorm;
 
-  /// @brief Field RGBA_ASTC5X5_SRGB value: static_cast<int32_t>(0x83)
+  /// @brief Field RGBA_ASTC5X5_SRGB value: I32(131)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_SRGB;
 
-  /// @brief Field RGBA_ASTC5X5_UFloat value: static_cast<int32_t>(0x92)
+  /// @brief Field RGBA_ASTC5X5_UFloat value: I32(146)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_UFloat;
 
-  /// @brief Field RGBA_ASTC5X5_UNorm value: static_cast<int32_t>(0x84)
+  /// @brief Field RGBA_ASTC5X5_UNorm value: I32(132)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC5X5_UNorm;
 
-  /// @brief Field RGBA_ASTC6X6_SRGB value: static_cast<int32_t>(0x85)
+  /// @brief Field RGBA_ASTC6X6_SRGB value: I32(133)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_SRGB;
 
-  /// @brief Field RGBA_ASTC6X6_UFloat value: static_cast<int32_t>(0x93)
+  /// @brief Field RGBA_ASTC6X6_UFloat value: I32(147)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_UFloat;
 
-  /// @brief Field RGBA_ASTC6X6_UNorm value: static_cast<int32_t>(0x86)
+  /// @brief Field RGBA_ASTC6X6_UNorm value: I32(134)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC6X6_UNorm;
 
-  /// @brief Field RGBA_ASTC8X8_SRGB value: static_cast<int32_t>(0x87)
+  /// @brief Field RGBA_ASTC8X8_SRGB value: I32(135)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_SRGB;
 
-  /// @brief Field RGBA_ASTC8X8_UFloat value: static_cast<int32_t>(0x94)
+  /// @brief Field RGBA_ASTC8X8_UFloat value: I32(148)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_UFloat;
 
-  /// @brief Field RGBA_ASTC8X8_UNorm value: static_cast<int32_t>(0x88)
+  /// @brief Field RGBA_ASTC8X8_UNorm value: I32(136)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ASTC8X8_UNorm;
 
-  /// @brief Field RGBA_BC7_SRGB value: static_cast<int32_t>(0x6c)
+  /// @brief Field RGBA_BC7_SRGB value: I32(108)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_BC7_SRGB;
 
-  /// @brief Field RGBA_BC7_UNorm value: static_cast<int32_t>(0x6d)
+  /// @brief Field RGBA_BC7_UNorm value: I32(109)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_BC7_UNorm;
 
-  /// @brief Field RGBA_DXT1_SRGB value: static_cast<int32_t>(0x60)
+  /// @brief Field RGBA_DXT1_SRGB value: I32(96)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT1_SRGB;
 
-  /// @brief Field RGBA_DXT1_UNorm value: static_cast<int32_t>(0x61)
+  /// @brief Field RGBA_DXT1_UNorm value: I32(97)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT1_UNorm;
 
-  /// @brief Field RGBA_DXT3_SRGB value: static_cast<int32_t>(0x62)
+  /// @brief Field RGBA_DXT3_SRGB value: I32(98)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT3_SRGB;
 
-  /// @brief Field RGBA_DXT3_UNorm value: static_cast<int32_t>(0x63)
+  /// @brief Field RGBA_DXT3_UNorm value: I32(99)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT3_UNorm;
 
-  /// @brief Field RGBA_DXT5_SRGB value: static_cast<int32_t>(0x64)
+  /// @brief Field RGBA_DXT5_SRGB value: I32(100)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT5_SRGB;
 
-  /// @brief Field RGBA_DXT5_UNorm value: static_cast<int32_t>(0x65)
+  /// @brief Field RGBA_DXT5_UNorm value: I32(101)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_DXT5_UNorm;
 
-  /// @brief Field RGBA_ETC2_SRGB value: static_cast<int32_t>(0x7b)
+  /// @brief Field RGBA_ETC2_SRGB value: I32(123)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ETC2_SRGB;
 
-  /// @brief Field RGBA_ETC2_UNorm value: static_cast<int32_t>(0x7c)
+  /// @brief Field RGBA_ETC2_UNorm value: I32(124)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_ETC2_UNorm;
 
-  /// @brief Field RGBA_PVRTC_2Bpp_SRGB value: static_cast<int32_t>(0x72)
+  /// @brief Field RGBA_PVRTC_2Bpp_SRGB value: I32(114)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_2Bpp_SRGB;
 
-  /// @brief Field RGBA_PVRTC_2Bpp_UNorm value: static_cast<int32_t>(0x73)
+  /// @brief Field RGBA_PVRTC_2Bpp_UNorm value: I32(115)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_2Bpp_UNorm;
 
-  /// @brief Field RGBA_PVRTC_4Bpp_SRGB value: static_cast<int32_t>(0x74)
+  /// @brief Field RGBA_PVRTC_4Bpp_SRGB value: I32(116)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_4Bpp_SRGB;
 
-  /// @brief Field RGBA_PVRTC_4Bpp_UNorm value: static_cast<int32_t>(0x75)
+  /// @brief Field RGBA_PVRTC_4Bpp_UNorm value: I32(117)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGBA_PVRTC_4Bpp_UNorm;
 
-  /// @brief Field RGB_A1_ETC2_SRGB value: static_cast<int32_t>(0x79)
+  /// @brief Field RGB_A1_ETC2_SRGB value: I32(121)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_A1_ETC2_SRGB;
 
-  /// @brief Field RGB_A1_ETC2_UNorm value: static_cast<int32_t>(0x7a)
+  /// @brief Field RGB_A1_ETC2_UNorm value: I32(122)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_A1_ETC2_UNorm;
 
-  /// @brief Field RGB_BC6H_SFloat value: static_cast<int32_t>(0x6b)
+  /// @brief Field RGB_BC6H_SFloat value: I32(107)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_BC6H_SFloat;
 
-  /// @brief Field RGB_BC6H_UFloat value: static_cast<int32_t>(0x6a)
+  /// @brief Field RGB_BC6H_UFloat value: I32(106)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_BC6H_UFloat;
 
-  /// @brief Field RGB_DXT1_SRGB value: static_cast<int32_t>(0x60)
+  /// @brief Field RGB_DXT1_SRGB value: I32(96)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_DXT1_SRGB;
 
-  /// @brief Field RGB_DXT1_UNorm value: static_cast<int32_t>(0x61)
+  /// @brief Field RGB_DXT1_UNorm value: I32(97)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_DXT1_UNorm;
 
-  /// @brief Field RGB_ETC2_SRGB value: static_cast<int32_t>(0x77)
+  /// @brief Field RGB_ETC2_SRGB value: I32(119)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC2_SRGB;
 
-  /// @brief Field RGB_ETC2_UNorm value: static_cast<int32_t>(0x78)
+  /// @brief Field RGB_ETC2_UNorm value: I32(120)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC2_UNorm;
 
-  /// @brief Field RGB_ETC_UNorm value: static_cast<int32_t>(0x76)
+  /// @brief Field RGB_ETC_UNorm value: I32(118)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_ETC_UNorm;
 
-  /// @brief Field RGB_PVRTC_2Bpp_SRGB value: static_cast<int32_t>(0x6e)
+  /// @brief Field RGB_PVRTC_2Bpp_SRGB value: I32(110)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_2Bpp_SRGB;
 
-  /// @brief Field RGB_PVRTC_2Bpp_UNorm value: static_cast<int32_t>(0x6f)
+  /// @brief Field RGB_PVRTC_2Bpp_UNorm value: I32(111)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_2Bpp_UNorm;
 
-  /// @brief Field RGB_PVRTC_4Bpp_SRGB value: static_cast<int32_t>(0x70)
+  /// @brief Field RGB_PVRTC_4Bpp_SRGB value: I32(112)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_4Bpp_SRGB;
 
-  /// @brief Field RGB_PVRTC_4Bpp_UNorm value: static_cast<int32_t>(0x71)
+  /// @brief Field RGB_PVRTC_4Bpp_UNorm value: I32(113)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RGB_PVRTC_4Bpp_UNorm;
 
-  /// @brief Field RG_BC5_SNorm value: static_cast<int32_t>(0x69)
+  /// @brief Field RG_BC5_SNorm value: I32(105)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_BC5_SNorm;
 
-  /// @brief Field RG_BC5_UNorm value: static_cast<int32_t>(0x68)
+  /// @brief Field RG_BC5_UNorm value: I32(104)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_BC5_UNorm;
 
-  /// @brief Field RG_EAC_SNorm value: static_cast<int32_t>(0x80)
+  /// @brief Field RG_EAC_SNorm value: I32(128)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_EAC_SNorm;
 
-  /// @brief Field RG_EAC_UNorm value: static_cast<int32_t>(0x7f)
+  /// @brief Field RG_EAC_UNorm value: I32(127)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const RG_EAC_UNorm;
 
-  /// @brief Field R_BC4_SNorm value: static_cast<int32_t>(0x67)
+  /// @brief Field R_BC4_SNorm value: I32(103)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_BC4_SNorm;
 
-  /// @brief Field R_BC4_UNorm value: static_cast<int32_t>(0x66)
+  /// @brief Field R_BC4_UNorm value: I32(102)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_BC4_UNorm;
 
-  /// @brief Field R_EAC_SNorm value: static_cast<int32_t>(0x7e)
+  /// @brief Field R_EAC_SNorm value: I32(126)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_EAC_SNorm;
 
-  /// @brief Field R_EAC_UNorm value: static_cast<int32_t>(0x7d)
+  /// @brief Field R_EAC_UNorm value: I32(125)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const R_EAC_UNorm;
 
-  /// @brief Field S8_UInt value: static_cast<int32_t>(0x5f)
+  /// @brief Field S8_UInt value: I32(95)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const S8_UInt;
 
-  /// @brief Field ShadowAuto value: static_cast<int32_t>(0x8f)
+  /// @brief Field ShadowAuto value: I32(143)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const ShadowAuto;
 
-  /// @brief Field VideoAuto value: static_cast<int32_t>(0x90)
+  /// @brief Field VideoAuto value: I32(144)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const VideoAuto;
 
-  /// @brief Field YUV2 value: static_cast<int32_t>(0x8d)
+  /// @brief Field YUV2 value: I32(141)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const YUV2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11317 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::GraphicsFormat, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::Rendering::GraphicsFormat, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::GraphicsFormat, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::GraphicsFormat, "UnityEngine.Experimental.Rendering", "GraphicsFormat");

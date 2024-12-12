@@ -23,11 +23,10 @@ class XmlSchemaSimpleTypeRestriction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction);
-// Type: System.Xml.Schema::XmlSchemaSimpleTypeRestriction
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaSimpleTypeContent
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeRestriction*
+// CS Name: System.Xml.Schema.XmlSchemaSimpleTypeRestriction
 class CORDL_TYPE XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
   // Declarations
@@ -46,22 +45,22 @@ public:
   /// @brief Field facets, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_facets, put = __cordl_internal_set_facets)) ::System::Xml::Schema::XmlSchemaObjectCollection* facets;
 
-  /// @brief Method Clone, addr 0x4267188, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42c849c, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* New_ctor();
 
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& __cordl_internal_get_baseType() const;
+
   constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_baseType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_baseType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_baseTypeName() const;
 
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_baseTypeName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_baseTypeName() const;
+  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_facets() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_facets();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __cordl_internal_get_facets() const;
 
   constexpr void __cordl_internal_set_baseType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
@@ -69,22 +68,22 @@ public:
 
   constexpr void __cordl_internal_set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x4267238, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c854c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseType, addr 0x4267170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x42c8484, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseType();
 
-  /// @brief Method get_BaseTypeName, addr 0x42670d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeName, addr 0x42c83e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_BaseTypeName();
 
-  /// @brief Method get_Facets, addr 0x4267180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Facets, addr 0x42c8494, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Facets();
 
-  /// @brief Method set_BaseType, addr 0x4267178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x42c848c, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_BaseTypeName, addr 0x42670d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeName, addr 0x42c83ec, size 0x98, virtual false, abstract: false, final false
   inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaSimpleTypeRestriction(XmlSchemaSimpleTypeRestriction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7722 };
+
   /// @brief Field baseTypeName, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___baseTypeName;
 
@@ -110,19 +112,16 @@ public:
   /// @brief Field facets, offset: 0x60, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectCollection* ___facets;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7697 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction, ___baseTypeName) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction, ___baseType) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction, ___facets) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction, 0x68>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction);

@@ -16,21 +16,20 @@ class TextUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextUtilities);
-// Type: UnityEngine.TextCore.Text::TextUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextUtilities*
+// CS Name: UnityEngine.TextCore.Text.TextUtilities
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x48e9d80, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x494e410, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method ToUpperFast, addr 0x48ebdf0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperFast, addr 0x4950480, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToUpperFast(char16_t c);
 
-  /// @brief Method UintToString, addr 0x48ebe64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UintToString, addr 0x49504f4, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
 
 protected:
@@ -48,7 +47,7 @@ public:
   TextUtilities(TextUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,11 +20,10 @@ class AsyncOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AsyncOperation);
-// Type: UnityEngine::AsyncOperation
-// SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, UnityEngine.YieldInstruction
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AsyncOperation*
+// CS Name: UnityEngine.AsyncOperation
 class CORDL_TYPE AsyncOperation : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
@@ -42,13 +41,13 @@ public:
 
   __declspec(property(get = get_progress)) float_t progress;
 
-  /// @brief Method Finalize, addr 0x48449f4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48a5730, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalDestroy, addr 0x484487c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x48a55b8, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(::System::IntPtr ptr);
 
-  /// @brief Method InvokeCompletionEvent, addr 0x4844ab0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InvokeCompletionEvent, addr 0x48a57ec, size 0x30, virtual false, abstract: false, final false
   inline void InvokeCompletionEvent();
 
   static inline ::UnityEngine::AsyncOperation* New_ctor();
@@ -57,36 +56,36 @@ public:
 
   constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr ::System::Action_1<::UnityEngine::AsyncOperation*>*& __cordl_internal_get_m_completeCallback();
+  constexpr ::System::Action_1<::UnityEngine::AsyncOperation*>* const& __cordl_internal_get_m_completeCallback() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::AsyncOperation*>*> const& __cordl_internal_get_m_completeCallback() const;
+  constexpr ::System::Action_1<::UnityEngine::AsyncOperation*>*& __cordl_internal_get_m_completeCallback();
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method .ctor, addr 0x48440ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a4de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_completed, addr 0x4844ae0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method add_completed, addr 0x48a581c, size 0xfc, virtual false, abstract: false, final false
   inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method get_allowSceneActivation, addr 0x4844974, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowSceneActivation, addr 0x48a56b0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_allowSceneActivation();
 
-  /// @brief Method get_isDone, addr 0x48448b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x48a55f4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_progress, addr 0x48448f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x48a5630, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method remove_completed, addr 0x4844bdc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_completed, addr 0x48a5918, size 0xa8, virtual false, abstract: false, final false
   inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method set_allowSceneActivation, addr 0x48449b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowSceneActivation, addr 0x48a56ec, size 0x44, virtual false, abstract: false, final false
   inline void set_allowSceneActivation(bool value);
 
-  /// @brief Method set_priority, addr 0x4844930, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x48a566c, size 0x44, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
 protected:
@@ -103,23 +102,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncOperation(AsyncOperation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10853 };
+
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 
   /// @brief Field m_completeCallback, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::AsyncOperation*>* ___m_completeCallback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10820 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AsyncOperation, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AsyncOperation, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AsyncOperation, ___m_completeCallback) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AsyncOperation, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AsyncOperation);

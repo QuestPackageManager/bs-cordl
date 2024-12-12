@@ -18,11 +18,10 @@ class NoPostProcessMainEffectSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoPostProcessMainEffectSO);
-// Type: ::NoPostProcessMainEffectSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MainEffectSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoPostProcessMainEffectSO*
+// CS Name: NoPostProcessMainEffectSO
 class CORDL_TYPE NoPostProcessMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
   // Declarations
@@ -40,21 +39,21 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method DrawFadeQuad, addr 0x40208e0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DrawFadeQuad, addr 0x4081bf4, size 0xe8, virtual false, abstract: false, final false
   inline void DrawFadeQuad(float_t alpha);
 
   static inline ::GlobalNamespace::NoPostProcessMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4020864, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4081b78, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x40207e4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4081af8, size 0x80, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PostRender, addr 0x40208d4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x4081be8, size 0xc, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x4020870, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x4081b84, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -81,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set__fadeShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x40209c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4081cdc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x40207dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x4081af0, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoPostProcessMainEffectSO(NoPostProcessMainEffectSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17900 };
+
   /// @brief Field _fadeShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____fadeShader;
 
@@ -113,14 +115,9 @@ public:
   /// @brief Field _fadeMaterial, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____fadeMaterial;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17817 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoPostProcessMainEffectSO, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____fadeShader) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____baseColorBoost) == 0x20, "Offset mismatch!");
@@ -128,6 +125,8 @@ static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____baseCol
 static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____baseColorBoostThreshold) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____fadeMaterial) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoPostProcessMainEffectSO, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoPostProcessMainEffectSO);

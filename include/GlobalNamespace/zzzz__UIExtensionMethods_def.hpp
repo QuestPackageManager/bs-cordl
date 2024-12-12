@@ -14,15 +14,14 @@ class UIExtensionMethods;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UIExtensionMethods);
-// Type: ::UIExtensionMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UIExtensionMethods*
+// CS Name: UIExtensionMethods
 class CORDL_TYPE UIExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CopySizeAndPositionFrom, addr 0x396f8d8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CopySizeAndPositionFrom, addr 0x39c4dc0, size 0xcc, virtual false, abstract: false, final false
   static inline void CopySizeAndPositionFrom(::UnityEngine::RectTransform* target, ::UnityEngine::RectTransform* source);
 
 protected:
@@ -40,7 +39,7 @@ public:
   UIExtensionMethods(UIExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

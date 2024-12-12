@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Configuration/zzzz__IConfigurationSectionHandler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DiagnosticsConfigurationHandler)
-namespace System::Configuration {
-class IConfigurationSectionHandler;
-}
 namespace System::Xml {
 class XmlNode;
 }
@@ -20,23 +18,22 @@ class DiagnosticsConfigurationHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::DiagnosticsConfigurationHandler);
-// Type: System.Diagnostics::DiagnosticsConfigurationHandler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.IConfigurationSectionHandler, System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::DiagnosticsConfigurationHandler*
+// CS Name: System.Diagnostics.DiagnosticsConfigurationHandler
 class CORDL_TYPE DiagnosticsConfigurationHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Configuration::IConfigurationSectionHandler"
   constexpr operator ::System::Configuration::IConfigurationSectionHandler*() noexcept;
 
-  /// @brief Method Create, addr 0x43a4e90, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x44061a4, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section);
 
   static inline ::System::Diagnostics::DiagnosticsConfigurationHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a4e58, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440616c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"
@@ -57,7 +54,7 @@ public:
   DiagnosticsConfigurationHandler(DiagnosticsConfigurationHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LicensesDisplayViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LicensesDisplayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3bb50e0;
+  constexpr static std::size_t addrs = 0x3c18218;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LicensesDisplayViewController::*)()>(
     &::GlobalNamespace::LicensesDisplayViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb5124;
+  constexpr static std::size_t addrs = 0x3c1825c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LicensesDisplayViewController*>::get(),
@@ -63,13 +63,13 @@ inline void GlobalNamespace::LicensesDisplayViewController::DidActivate(bool fir
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LicensesDisplayViewController*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline ::GlobalNamespace::LicensesDisplayViewController* GlobalNamespace::LicensesDisplayViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LicensesDisplayViewController*>());
-}
 inline void GlobalNamespace::LicensesDisplayViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LicensesDisplayViewController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LicensesDisplayViewController* GlobalNamespace::LicensesDisplayViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LicensesDisplayViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LicensesDisplayViewController::LicensesDisplayViewController() {}

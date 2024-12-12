@@ -12,11 +12,10 @@ struct AccessControlType;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::AccessControlType);
-// Type: System.Security.AccessControl::AccessControlType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
-// CS Name: ::System.Security.AccessControl::AccessControlType
+// CS Name: System.Security.AccessControl.AccessControlType
 struct CORDL_TYPE AccessControlType {
 public:
   // Declarations
@@ -45,13 +44,10 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AccessControlType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Allow value: static_cast<int32_t>(0x0)
+  /// @brief Field Allow value: I32(0)
   static ::System::Security::AccessControl::AccessControlType const Allow;
 
-  /// @brief Field Deny value: static_cast<int32_t>(0x1)
+  /// @brief Field Deny value: I32(1)
   static ::System::Security::AccessControl::AccessControlType const Deny;
 
   /// @brief IL2CPP Metadata Type Index
@@ -60,12 +56,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AccessControlType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::AccessControl::AccessControlType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AccessControlType, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AccessControlType, "System.Security.AccessControl", "AccessControlType");

@@ -12,11 +12,10 @@ struct HttpCompletionOption;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Http::HttpCompletionOption);
-// Type: System.Net.Http::HttpCompletionOption
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Http {
 // Is value type: true
-// CS Name: ::System.Net.Http::HttpCompletionOption
+// CS Name: System.Net.Http.HttpCompletionOption
 struct CORDL_TYPE HttpCompletionOption {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HttpCompletionOption(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ResponseContentRead value: static_cast<int32_t>(0x0)
+  /// @brief Field ResponseContentRead value: I32(0)
   static ::System::Net::Http::HttpCompletionOption const ResponseContentRead;
 
-  /// @brief Field ResponseHeadersRead value: static_cast<int32_t>(0x1)
+  /// @brief Field ResponseHeadersRead value: I32(1)
   static ::System::Net::Http::HttpCompletionOption const ResponseHeadersRead;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16680 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpCompletionOption, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::HttpCompletionOption, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpCompletionOption, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Http
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpCompletionOption, "System.Net.Http", "HttpCompletionOption");

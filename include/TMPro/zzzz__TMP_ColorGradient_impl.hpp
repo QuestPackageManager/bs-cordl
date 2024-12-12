@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ColorGradient::*)()>(&::TMPro::TMP_ColorGradient::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4763a84;
+  constexpr static std::size_t addrs = 0x47c4d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ColorGradient*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ColorGradient::*)(::UnityEngine::Color)>(&::TMPro::TMP_ColorGradient::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4763b20;
+  constexpr static std::size_t addrs = 0x47c4e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::TMP_ColorGradient::*)(::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::TMP_ColorGradient::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4763b8c;
+  constexpr static std::size_t addrs = 0x47c4ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,25 +117,16 @@ inline void TMPro::TMP_ColorGradient::setStaticF_k_DefaultColor(::UnityEngine::C
 inline ::UnityEngine::Color TMPro::TMP_ColorGradient::getStaticF_k_DefaultColor() {
   return ::cordl_internals::getStaticField<::UnityEngine::Color, "k_DefaultColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ColorGradient*>::get>();
 }
-inline ::TMPro::TMP_ColorGradient* TMPro::TMP_ColorGradient::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ColorGradient*>());
-}
 inline void TMPro::TMP_ColorGradient::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ColorGradient*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::TMPro::TMP_ColorGradient* TMPro::TMP_ColorGradient::New_ctor(::UnityEngine::Color color) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ColorGradient*>(color));
 }
 inline void TMPro::TMP_ColorGradient::_ctor(::UnityEngine::Color color) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ColorGradient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
-}
-inline ::TMPro::TMP_ColorGradient* TMPro::TMP_ColorGradient::New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ColorGradient*>(color0, color1, color2, color3));
 }
 inline void TMPro::TMP_ColorGradient::_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3) {
   static auto* ___internal_method =
@@ -145,6 +136,15 @@ inline void TMPro::TMP_ColorGradient::_ctor(::UnityEngine::Color color0, ::Unity
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color0, color1, color2, color3);
+}
+inline ::TMPro::TMP_ColorGradient* TMPro::TMP_ColorGradient::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ColorGradient*>());
+}
+inline ::TMPro::TMP_ColorGradient* TMPro::TMP_ColorGradient::New_ctor(::UnityEngine::Color color) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ColorGradient*>(color));
+}
+inline ::TMPro::TMP_ColorGradient* TMPro::TMP_ColorGradient::New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ColorGradient*>(color0, color1, color2, color3));
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_ColorGradient::TMP_ColorGradient() {}

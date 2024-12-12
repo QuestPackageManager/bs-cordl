@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrInstruction)
+namespace GlobalNamespace {
+class OrInstruction_OrBoolean;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrByte;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrInt16;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrInt32;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrInt64;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrSByte;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrUInt16;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrUInt32;
+}
+namespace GlobalNamespace {
+class OrInstruction_OrUInt64;
+}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrBoolean;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrInt64;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrSByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrUInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrUInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrUInt64;
 }
 namespace System {
 class Type;
@@ -46,31 +46,30 @@ class OrInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::OrInstruction);
-// Type: System.Linq.Expressions.Interpreter::OrInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::OrInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.OrInstruction
 class CORDL_TYPE OrInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using OrBoolean = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrBoolean;
+  using OrBoolean = ::GlobalNamespace::OrInstruction_OrBoolean;
 
-  using OrByte = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrByte;
+  using OrByte = ::GlobalNamespace::OrInstruction_OrByte;
 
-  using OrInt16 = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrInt16;
+  using OrInt16 = ::GlobalNamespace::OrInstruction_OrInt16;
 
-  using OrInt32 = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrInt32;
+  using OrInt32 = ::GlobalNamespace::OrInstruction_OrInt32;
 
-  using OrInt64 = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrInt64;
+  using OrInt64 = ::GlobalNamespace::OrInstruction_OrInt64;
 
-  using OrSByte = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrSByte;
+  using OrSByte = ::GlobalNamespace::OrInstruction_OrSByte;
 
-  using OrUInt16 = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt16;
+  using OrUInt16 = ::GlobalNamespace::OrInstruction_OrUInt16;
 
-  using OrUInt32 = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt32;
+  using OrUInt32 = ::GlobalNamespace::OrInstruction_OrUInt32;
 
-  using OrUInt64 = ::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt64;
+  using OrUInt64 = ::GlobalNamespace::OrInstruction_OrUInt64;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
@@ -79,38 +78,38 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_Boolean, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Boolean, put = setStaticF_s_Boolean)) ::System::Linq::Expressions::Interpreter::Instruction* s_Boolean;
+  __declspec(property(get = getStaticF_s_Boolean, put = setStaticF_s_Boolean)) ::System::Linq::Expressions::Interpreter::Instruction* s_Boolean;
 
   /// @brief Field s_Byte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
+  __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
 
   /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
   /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
   /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
   /// @brief Field s_SByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
+  __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
 
   /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+  __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
 
   /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+  __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
 
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+  __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x40918ec, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40f2c00, size 0x3b8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::OrInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x40918e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f2bf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean();
@@ -131,13 +130,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x4091894, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f2ba8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40918a4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f2bb8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x409189c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f2bb0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -173,7 +172,7 @@ public:
   OrInstruction(OrInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

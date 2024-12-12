@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -40,233 +38,232 @@ class Native;
 }
 // Write type traits
 MARK_REF_PTR_T(::ENet::Native);
-// Type: ENet::Native
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ENet {
 // Is value type: false
-// CS Name: ::ENet::Native*
+// CS Name: ENet.Native
 class CORDL_TYPE Native : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OPENSSL_init_crypto, addr 0x3a50be4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OPENSSL_init_crypto, addr 0x3aa7854, size 0x84, virtual false, abstract: false, final false
   static inline int32_t OPENSSL_init_crypto(uint64_t opts, ::System::IntPtr settings);
 
-  /// @brief Method OPENSSL_init_ssl, addr 0x3a50c68, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OPENSSL_init_ssl, addr 0x3aa78d8, size 0x80, virtual false, abstract: false, final false
   static inline int32_t OPENSSL_init_ssl(uint64_t opts, ::System::IntPtr settings);
 
-  /// @brief Method enet_address_get_hostname, addr 0x3a4cf64, size 0xbc, virtual false, abstract: false, final false
-  static inline int32_t enet_address_get_hostname(ByRef<::ENet::ENetAddress> address, ::System::Text::StringBuilder* hostName, ::System::IntPtr nameLength);
+  /// @brief Method enet_address_get_hostname, addr 0x3aa3bd4, size 0xbc, virtual false, abstract: false, final false
+  static inline int32_t enet_address_get_hostname(::ByRef<::ENet::ENetAddress> address, ::System::Text::StringBuilder* hostName, ::System::IntPtr nameLength);
 
-  /// @brief Method enet_address_get_ip, addr 0x3a4cce4, size 0xbc, virtual false, abstract: false, final false
-  static inline int32_t enet_address_get_ip(ByRef<::ENet::ENetAddress> address, ::System::Text::StringBuilder* ip, ::System::IntPtr ipLength);
+  /// @brief Method enet_address_get_ip, addr 0x3aa3954, size 0xbc, virtual false, abstract: false, final false
+  static inline int32_t enet_address_get_ip(::ByRef<::ENet::ENetAddress> address, ::System::Text::StringBuilder* ip, ::System::IntPtr ipLength);
 
-  /// @brief Method enet_address_set_hostname, addr 0x3a4d084, size 0xa0, virtual false, abstract: false, final false
-  static inline int32_t enet_address_set_hostname(ByRef<::ENet::ENetAddress> address, ::StringW hostName);
+  /// @brief Method enet_address_set_hostname, addr 0x3aa3cf4, size 0xa0, virtual false, abstract: false, final false
+  static inline int32_t enet_address_set_hostname(::ByRef<::ENet::ENetAddress> address, ::StringW hostName);
 
-  /// @brief Method enet_address_set_ip, addr 0x3a4ce04, size 0xa0, virtual false, abstract: false, final false
-  static inline int32_t enet_address_set_ip(ByRef<::ENet::ENetAddress> address, ::StringW ip);
+  /// @brief Method enet_address_set_ip, addr 0x3aa3a74, size 0xa0, virtual false, abstract: false, final false
+  static inline int32_t enet_address_set_ip(::ByRef<::ENet::ENetAddress> address, ::StringW ip);
 
-  /// @brief Method enet_crc64, addr 0x3a51070, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_crc64, addr 0x3aa7ce0, size 0x84, virtual false, abstract: false, final false
   static inline uint64_t enet_crc64(::System::IntPtr buffers, int32_t bufferCount);
 
-  /// @brief Method enet_deinitialize, addr 0x3a51008, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method enet_deinitialize, addr 0x3aa7c78, size 0x64, virtual false, abstract: false, final false
   static inline void enet_deinitialize();
 
-  /// @brief Method enet_host_bandwidth_limit, addr 0x3a4f39c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method enet_host_bandwidth_limit, addr 0x3aa600c, size 0x94, virtual false, abstract: false, final false
   static inline void enet_host_bandwidth_limit(::System::IntPtr host, uint32_t incomingBandwidth, uint32_t outgoingBandwidth);
 
-  /// @brief Method enet_host_broadcast, addr 0x3a4eb64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method enet_host_broadcast, addr 0x3aa57d4, size 0x94, virtual false, abstract: false, final false
   static inline void enet_host_broadcast(::System::IntPtr host, uint8_t channelID, ::System::IntPtr packet);
 
-  /// @brief Method enet_host_broadcast_exclude, addr 0x3a4ec48, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_broadcast_exclude, addr 0x3aa58b8, size 0x9c, virtual false, abstract: false, final false
   static inline void enet_host_broadcast_exclude(::System::IntPtr host, uint8_t channelID, ::System::IntPtr packet, ::System::IntPtr excludedPeer);
 
-  /// @brief Method enet_host_broadcast_selective, addr 0x3a4ee40, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method enet_host_broadcast_selective, addr 0x3aa5ab0, size 0xb4, virtual false, abstract: false, final false
   static inline void enet_host_broadcast_selective(::System::IntPtr host, uint8_t channelID, ::System::IntPtr packet, ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> peers,
                                                    ::System::IntPtr peersLength);
 
-  /// @brief Method enet_host_channel_limit, addr 0x3a4f470, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_host_channel_limit, addr 0x3aa60e0, size 0x84, virtual false, abstract: false, final false
   static inline void enet_host_channel_limit(::System::IntPtr host, ::System::IntPtr channelLimit);
 
-  /// @brief Method enet_host_check_events, addr 0x3a4ef4c, size 0x84, virtual false, abstract: false, final false
-  static inline int32_t enet_host_check_events(::System::IntPtr host, ByRef<::ENet::ENetEvent> event);
+  /// @brief Method enet_host_check_events, addr 0x3aa5bbc, size 0x84, virtual false, abstract: false, final false
+  static inline int32_t enet_host_check_events(::System::IntPtr host, ::ByRef<::ENet::ENetEvent> event);
 
-  /// @brief Method enet_host_connect, addr 0x3a4f190, size 0x9c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr enet_host_connect(::System::IntPtr host, ByRef<::ENet::ENetAddress> address, ::System::IntPtr channelCount, uint32_t data);
+  /// @brief Method enet_host_connect, addr 0x3aa5e00, size 0x9c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr enet_host_connect(::System::IntPtr host, ::ByRef<::ENet::ENetAddress> address, ::System::IntPtr channelCount, uint32_t data);
 
-  /// @brief Method enet_host_create, addr 0x3a511a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method enet_host_create, addr 0x3aa7d64, size 0xb4, virtual false, abstract: false, final false
+  static inline ::System::IntPtr enet_host_create(::ByRef<::ENet::ENetAddress> address, ::System::IntPtr peerLimit, ::System::IntPtr channelLimit, uint32_t incomingBandwidth,
+                                                  uint32_t outgoingBandwidth, int32_t bufferSize);
+
+  /// @brief Method enet_host_create, addr 0x3aa7e18, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_host_create(::System::IntPtr address, ::System::IntPtr peerLimit, ::System::IntPtr channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth,
                                                   int32_t bufferSize);
 
-  /// @brief Method enet_host_create, addr 0x3a510f4, size 0xb4, virtual false, abstract: false, final false
-  static inline ::System::IntPtr enet_host_create(ByRef<::ENet::ENetAddress> address, ::System::IntPtr peerLimit, ::System::IntPtr channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth,
-                                                  int32_t bufferSize);
+  /// @brief Method enet_host_create_ssl, addr 0x3aa54b0, size 0x11c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr enet_host_create_ssl(::ByRef<::ENet::ENetAddress> address, ::System::IntPtr peerLimit, ::System::IntPtr channelLimit, uint32_t incomingBandwidth,
+                                                      uint32_t outgoingBandwidth, int32_t bufferSize, ::ByRef<::ENet::ENetSslConfiguration> sslConfiguration);
 
-  /// @brief Method enet_host_create_ssl, addr 0x3a4e95c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_create_ssl, addr 0x3aa55cc, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_host_create_ssl(::System::IntPtr address, ::System::IntPtr peerLimit, ::System::IntPtr channelLimit, uint32_t incomingBandwidth, uint32_t outgoingBandwidth,
-                                                      int32_t bufferSize, ByRef<::ENet::ENetSslConfiguration> sslConfiguration);
+                                                      int32_t bufferSize, ::ByRef<::ENet::ENetSslConfiguration> sslConfiguration);
 
-  /// @brief Method enet_host_create_ssl, addr 0x3a4e840, size 0x11c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr enet_host_create_ssl(ByRef<::ENet::ENetAddress> address, ::System::IntPtr peerLimit, ::System::IntPtr channelLimit, uint32_t incomingBandwidth,
-                                                      uint32_t outgoingBandwidth, int32_t bufferSize, ByRef<::ENet::ENetSslConfiguration> sslConfiguration);
-
-  /// @brief Method enet_host_destroy, addr 0x3a4e128, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_destroy, addr 0x3aa4d98, size 0x7c, virtual false, abstract: false, final false
   static inline void enet_host_destroy(::System::IntPtr host);
 
-  /// @brief Method enet_host_flush, addr 0x3a4f830, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_flush, addr 0x3aa64a0, size 0x7c, virtual false, abstract: false, final false
   static inline void enet_host_flush(::System::IntPtr host);
 
-  /// @brief Method enet_host_get_bytes_received, addr 0x3a4e524, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_get_bytes_received, addr 0x3aa5194, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_host_get_bytes_received(::System::IntPtr host);
 
-  /// @brief Method enet_host_get_bytes_sent, addr 0x3a4e490, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_get_bytes_sent, addr 0x3aa5100, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_host_get_bytes_sent(::System::IntPtr host);
 
-  /// @brief Method enet_host_get_packets_received, addr 0x3a4e3fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_get_packets_received, addr 0x3aa506c, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_host_get_packets_received(::System::IntPtr host);
 
-  /// @brief Method enet_host_get_packets_sent, addr 0x3a4e368, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_get_packets_sent, addr 0x3aa4fd8, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_host_get_packets_sent(::System::IntPtr host);
 
-  /// @brief Method enet_host_get_peers_count, addr 0x3a4e2d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_host_get_peers_count, addr 0x3aa4f44, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_host_get_peers_count(::System::IntPtr host);
 
-  /// @brief Method enet_host_prevent_connections, addr 0x3a4eaa0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_host_prevent_connections, addr 0x3aa5710, size 0x84, virtual false, abstract: false, final false
   static inline void enet_host_prevent_connections(::System::IntPtr host, uint8_t state);
 
-  /// @brief Method enet_host_service, addr 0x3a4f2d8, size 0x94, virtual false, abstract: false, final false
-  static inline int32_t enet_host_service(::System::IntPtr host, ByRef<::ENet::ENetEvent> event, uint32_t timeout);
+  /// @brief Method enet_host_service, addr 0x3aa5f48, size 0x94, virtual false, abstract: false, final false
+  static inline int32_t enet_host_service(::System::IntPtr host, ::ByRef<::ENet::ENetEvent> event, uint32_t timeout);
 
-  /// @brief Method enet_host_set_checksum_callback, addr 0x3a4f704, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_host_set_checksum_callback, addr 0x3aa6374, size 0x84, virtual false, abstract: false, final false
   static inline void enet_host_set_checksum_callback(::System::IntPtr host, ::System::IntPtr callback);
 
-  /// @brief Method enet_host_set_intercept_callback, addr 0x3a4f5c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_host_set_intercept_callback, addr 0x3aa6238, size 0x84, virtual false, abstract: false, final false
   static inline void enet_host_set_intercept_callback(::System::IntPtr host, ::System::IntPtr callback);
 
-  /// @brief Method enet_host_set_max_duplicate_peers, addr 0x3a4f51c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_host_set_max_duplicate_peers, addr 0x3aa618c, size 0x84, virtual false, abstract: false, final false
   static inline void enet_host_set_max_duplicate_peers(::System::IntPtr host, uint16_t number);
 
-  /// @brief Method enet_initialize, addr 0x3a50de0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method enet_initialize, addr 0x3aa7a50, size 0x68, virtual false, abstract: false, final false
   static inline int32_t enet_initialize();
 
-  /// @brief Method enet_initialize_with_callbacks, addr 0x3a50f40, size 0xc4, virtual false, abstract: false, final false
-  static inline int32_t enet_initialize_with_callbacks(uint32_t version, ByRef<::ENet::ENetCallbacks> inits);
+  /// @brief Method enet_initialize_with_callbacks, addr 0x3aa7bb0, size 0xc4, virtual false, abstract: false, final false
+  static inline int32_t enet_initialize_with_callbacks(uint32_t version, ::ByRef<::ENet::ENetCallbacks> inits);
 
-  /// @brief Method enet_linked_version, addr 0x3a50d78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method enet_linked_version, addr 0x3aa79e8, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t enet_linked_version();
 
-  /// @brief Method enet_packet_check_references, addr 0x3a4d6f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_check_references, addr 0x3aa4364, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t enet_packet_check_references(::System::IntPtr packet);
 
-  /// @brief Method enet_packet_create, addr 0x3a4da00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_create, addr 0x3aa4670, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_packet_create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IntPtr dataLength, ::ENet::PacketFlags flags);
 
-  /// @brief Method enet_packet_create, addr 0x3a4db7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_create, addr 0x3aa47ec, size 0x94, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_packet_create(::System::IntPtr data, ::System::IntPtr dataLength, ::ENet::PacketFlags flags);
 
-  /// @brief Method enet_packet_create_offset, addr 0x3a4dd24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_create_offset, addr 0x3aa4994, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_packet_create_offset(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IntPtr dataLength, ::System::IntPtr dataOffset, ::ENet::PacketFlags flags);
 
-  /// @brief Method enet_packet_create_offset, addr 0x3a4dee4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_create_offset, addr 0x3aa4b54, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_packet_create_offset(::System::IntPtr data, ::System::IntPtr dataLength, ::System::IntPtr dataOffset, ::ENet::PacketFlags flags);
 
-  /// @brief Method enet_packet_dispose, addr 0x3a4d374, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_dispose, addr 0x3aa3fe4, size 0x7c, virtual false, abstract: false, final false
   static inline void enet_packet_dispose(::System::IntPtr packet);
 
-  /// @brief Method enet_packet_get_data, addr 0x3a4d480, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_get_data, addr 0x3aa40f0, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_packet_get_data(::System::IntPtr packet);
 
-  /// @brief Method enet_packet_get_length, addr 0x3a4d654, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_get_length, addr 0x3aa42c4, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t enet_packet_get_length(::System::IntPtr packet);
 
-  /// @brief Method enet_packet_get_user_data, addr 0x3a4d514, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_get_user_data, addr 0x3aa4184, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_packet_get_user_data(::System::IntPtr packet);
 
-  /// @brief Method enet_packet_set_free_callback, addr 0x3a4d798, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_set_free_callback, addr 0x3aa4408, size 0x84, virtual false, abstract: false, final false
   static inline void enet_packet_set_free_callback(::System::IntPtr packet, ::System::IntPtr callback);
 
-  /// @brief Method enet_packet_set_user_data, addr 0x3a4d5b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_packet_set_user_data, addr 0x3aa4228, size 0x84, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_packet_set_user_data(::System::IntPtr packet, ::System::IntPtr userData);
 
-  /// @brief Method enet_peer_disconnect, addr 0x3a508e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_disconnect, addr 0x3aa7554, size 0x84, virtual false, abstract: false, final false
   static inline void enet_peer_disconnect(::System::IntPtr peer, uint32_t data);
 
-  /// @brief Method enet_peer_disconnect_later, addr 0x3a50a3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_disconnect_later, addr 0x3aa76ac, size 0x84, virtual false, abstract: false, final false
   static inline void enet_peer_disconnect_later(::System::IntPtr peer, uint32_t data);
 
-  /// @brief Method enet_peer_disconnect_now, addr 0x3a50990, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_disconnect_now, addr 0x3aa7600, size 0x84, virtual false, abstract: false, final false
   static inline void enet_peer_disconnect_now(::System::IntPtr peer, uint32_t data);
 
-  /// @brief Method enet_peer_get_bytes_received, addr 0x3a5024c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_bytes_received, addr 0x3aa6ebc, size 0x7c, virtual false, abstract: false, final false
   static inline uint64_t enet_peer_get_bytes_received(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_bytes_sent, addr 0x3a501b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_bytes_sent, addr 0x3aa6e28, size 0x7c, virtual false, abstract: false, final false
   static inline uint64_t enet_peer_get_bytes_sent(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_data, addr 0x3a502e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_data, addr 0x3aa6f50, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IntPtr enet_peer_get_data(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_id, addr 0x3a4f8c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_id, addr 0x3aa6534, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_peer_get_id(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_ip, addr 0x3a4fa88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_ip, addr 0x3aa66f8, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t enet_peer_get_ip(::System::IntPtr peer, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip, ::System::IntPtr ipLength);
 
-  /// @brief Method enet_peer_get_last_rtt, addr 0x3a4fe40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_last_rtt, addr 0x3aa6ab0, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_peer_get_last_rtt(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_lastreceivetime, addr 0x3a4ff68, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_lastreceivetime, addr 0x3aa6bd8, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_peer_get_lastreceivetime(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_lastsendtime, addr 0x3a4fed4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_lastsendtime, addr 0x3aa6b44, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_peer_get_lastsendtime(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_mtu, addr 0x3a4fc68, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_mtu, addr 0x3aa68d8, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_peer_get_mtu(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_packets_lost, addr 0x3a50090, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_packets_lost, addr 0x3aa6d00, size 0x7c, virtual false, abstract: false, final false
   static inline uint64_t enet_peer_get_packets_lost(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_packets_sent, addr 0x3a4fffc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_packets_sent, addr 0x3aa6c6c, size 0x7c, virtual false, abstract: false, final false
   static inline uint64_t enet_peer_get_packets_sent(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_packets_throttle, addr 0x3a50124, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_packets_throttle, addr 0x3aa6d94, size 0x7c, virtual false, abstract: false, final false
   static inline float_t enet_peer_get_packets_throttle(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_port, addr 0x3a4fbd4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_port, addr 0x3aa6844, size 0x7c, virtual false, abstract: false, final false
   static inline uint16_t enet_peer_get_port(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_rtt, addr 0x3a4fdac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_rtt, addr 0x3aa6a1c, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t enet_peer_get_rtt(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_get_state, addr 0x3a4fd18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_get_state, addr 0x3aa6988, size 0x7c, virtual false, abstract: false, final false
   static inline ::ENet::PeerState enet_peer_get_state(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_ping, addr 0x3a506b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_ping, addr 0x3aa7328, size 0x7c, virtual false, abstract: false, final false
   static inline void enet_peer_ping(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_ping_interval, addr 0x3a5075c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_ping_interval, addr 0x3aa73cc, size 0x84, virtual false, abstract: false, final false
   static inline void enet_peer_ping_interval(::System::IntPtr peer, uint32_t pingInterval);
 
-  /// @brief Method enet_peer_receive, addr 0x3a5061c, size 0x84, virtual false, abstract: false, final false
-  static inline ::System::IntPtr enet_peer_receive(::System::IntPtr peer, ByRef<uint8_t> channelID);
+  /// @brief Method enet_peer_receive, addr 0x3aa728c, size 0x84, virtual false, abstract: false, final false
+  static inline ::System::IntPtr enet_peer_receive(::System::IntPtr peer, ::ByRef<uint8_t> channelID);
 
-  /// @brief Method enet_peer_reset, addr 0x3a50ad8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_reset, addr 0x3aa7748, size 0x7c, virtual false, abstract: false, final false
   static inline void enet_peer_reset(::System::IntPtr peer);
 
-  /// @brief Method enet_peer_send, addr 0x3a50534, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_send, addr 0x3aa71a4, size 0x94, virtual false, abstract: false, final false
   static inline int32_t enet_peer_send(::System::IntPtr peer, uint8_t channelID, ::System::IntPtr packet);
 
-  /// @brief Method enet_peer_set_data, addr 0x3a50384, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_set_data, addr 0x3aa6ff4, size 0x84, virtual false, abstract: false, final false
   static inline void enet_peer_set_data(::System::IntPtr peer, ::System::IntPtr data);
 
-  /// @brief Method enet_peer_throttle_configure, addr 0x3a50450, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_throttle_configure, addr 0x3aa70c0, size 0xac, virtual false, abstract: false, final false
   static inline void enet_peer_throttle_configure(::System::IntPtr peer, uint32_t interval, uint32_t acceleration, uint32_t deceleration, uint32_t threshold);
 
-  /// @brief Method enet_peer_timeout, addr 0x3a50820, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method enet_peer_timeout, addr 0x3aa7490, size 0x9c, virtual false, abstract: false, final false
   static inline void enet_peer_timeout(::System::IntPtr peer, uint32_t timeoutLimit, uint32_t timeoutMinimum, uint32_t timeoutMaximum);
 
-  /// @brief Method enet_time_get, addr 0x3a50b58, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method enet_time_get, addr 0x3aa77c8, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t enet_time_get();
 
 protected:
@@ -284,7 +281,7 @@ public:
   Native(Native const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17749 };
 
   /// @brief Field cryptoNativeLibrary offset 0xffffffff size 0x8
   static constexpr ::ConstString cryptoNativeLibrary{ u"crypto" };

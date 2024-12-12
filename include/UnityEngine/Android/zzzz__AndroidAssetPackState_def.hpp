@@ -20,11 +20,10 @@ class AndroidAssetPackState;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackState);
-// Type: UnityEngine.Android::AndroidAssetPackState
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Android.AndroidAssetPackError, UnityEngine.Android.AndroidAssetPackStatus
 namespace UnityEngine::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.Android::AndroidAssetPackState*
+// CS Name: UnityEngine.Android.AndroidAssetPackState
 class CORDL_TYPE AndroidAssetPackState : public ::System::Object {
 public:
   // Declarations
@@ -57,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value);
 
-  /// @brief Method .ctor, addr 0x47e84f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484980c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
 
 protected:
@@ -74,6 +73,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidAssetPackState(AndroidAssetPackState const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16768 };
+
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 
@@ -83,19 +85,16 @@ public:
   /// @brief Field <error>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidAssetPackError ____error_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16730 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidAssetPackState, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackState, ____name_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackState, ____status_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackState, ____error_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidAssetPackState, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Android
 NEED_NO_BOX(::UnityEngine::Android::AndroidAssetPackState);

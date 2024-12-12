@@ -10,131 +10,129 @@
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId.add_didSetColorEvent
+//  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId.add_didSetColorEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::*)(
-    ::System::Action_2<int32_t, ::UnityEngine::Color>*)>(&::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::add_didSetColorEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(
+    ::System::Action_2<int32_t, ::UnityEngine::Color>*)>(&::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::add_didSetColorEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x398b2b8;
+  constexpr static std::size_t addrs = 0x39e1c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), "add_didSetColorEvent",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), "add_didSetColorEvent",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t, ::UnityEngine::Color>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId.remove_didSetColorEvent
+//  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId.remove_didSetColorEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::*)(
-    ::System::Action_2<int32_t, ::UnityEngine::Color>*)>(&::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::remove_didSetColorEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(
+    ::System::Action_2<int32_t, ::UnityEngine::Color>*)>(&::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::remove_didSetColorEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x398b368;
+  constexpr static std::size_t addrs = 0x39e1d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), "remove_didSetColorEvent",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), "remove_didSetColorEvent",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t, ::UnityEngine::Color>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId._ctor
+//  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::*)(int32_t, int32_t)>(
-    &::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(int32_t, int32_t)>(
+    &::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x398b490;
+  constexpr static std::size_t addrs = 0x39e1e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId.ColorWasSet
+//  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId.ColorWasSet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::*)(::UnityEngine::Color)>(
-    &::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::ColorWasSet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(::UnityEngine::Color)>(
+    &::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x398b4e8;
+  constexpr static std::size_t addrs = 0x39e1eb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), 9));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), 9));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::__cordl_internal_get__index() {
+constexpr int32_t& GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::__cordl_internal_get__index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
-constexpr int32_t const& GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::__cordl_internal_get__index() const {
+constexpr int32_t const& GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::__cordl_internal_get__index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
-constexpr void GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::__cordl_internal_set__index(int32_t value) {
+constexpr void GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::__cordl_internal_set__index(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
-constexpr ::System::Action_2<int32_t, ::UnityEngine::Color>*& GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::__cordl_internal_get_didSetColorEvent() {
+constexpr ::System::Action_2<int32_t, ::UnityEngine::Color>*& GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::__cordl_internal_get_didSetColorEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSetColorEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, ::UnityEngine::Color>*> const&
-GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::__cordl_internal_get_didSetColorEvent() const {
+constexpr ::System::Action_2<int32_t, ::UnityEngine::Color>* const& GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::__cordl_internal_get_didSetColorEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSetColorEvent;
 }
-constexpr void GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::__cordl_internal_set_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value) {
+constexpr void GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::__cordl_internal_set_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSetColorEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::add_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), "add_didSetColorEvent",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t, ::UnityEngine::Color>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::remove_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), "remove_didSetColorEvent",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t, ::UnityEngine::Color>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId* GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::New_ctor(int32_t index, int32_t lightId) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>(index, lightId));
-}
-inline void GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::_ctor(int32_t index, int32_t lightId) {
+inline void GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::add_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), "add_didSetColorEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t, ::UnityEngine::Color>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::remove_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), "remove_didSetColorEvent",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t, ::UnityEngine::Color>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::_ctor(int32_t index, int32_t lightId) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, lightId);
 }
-inline void GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::ColorWasSet(::UnityEngine::Color newColor) {
+inline void GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::ColorWasSet(::UnityEngine::Color newColor) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>::get(), 9)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newColor);
 }
+inline ::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId* GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::New_ctor(int32_t index, int32_t lightId) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>(index, lightId));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId::__ColorArrayLightWithIds__ColorArrayLightWithId() {}
+constexpr ::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::ColorArrayLightWithIds_ColorArrayLightWithId() {}
 //  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIds.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x398aeb4;
+  constexpr static std::size_t addrs = 0x39e1884;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x398b050;
+  constexpr static std::size_t addrs = 0x39e1a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds*>::get(), "OnDestroy",
@@ -162,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(
     &::GlobalNamespace::ColorArrayLightWithIds::ProcessNewColorData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x398b124;
+  constexpr static std::size_t addrs = 0x39e1af4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,10 +172,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIds.GetLightWithIds
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* (
     ::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::GetLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398b158;
+  constexpr static std::size_t addrs = 0x39e1b28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)(int32_t, ::UnityEngine::Color)>(
     &::GlobalNamespace::ColorArrayLightWithIds::HandleColorLightWithIdDidSetColor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x398b160;
+  constexpr static std::size_t addrs = 0x39e1b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(
     &::GlobalNamespace::ColorArrayLightWithIds::SetColorDataToMaterial)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x398b128;
+  constexpr static std::size_t addrs = 0x39e1af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds*>::get(),
@@ -222,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(
     &::GlobalNamespace::ColorArrayLightWithIds::SetColorArrayOffsetToMaterialPropertyBlocks)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x398b1ec;
+  constexpr static std::size_t addrs = 0x39e1bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -237,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(
     &::GlobalNamespace::ColorArrayLightWithIds::RegisterArrayForColorChanges)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x398aed0;
+  constexpr static std::size_t addrs = 0x39e18a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds*>::get(),
@@ -251,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(
     &::GlobalNamespace::ColorArrayLightWithIds::UnregisterArrayFromColorChanges)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x398b054;
+  constexpr static std::size_t addrs = 0x39e1a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -265,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x398b418;
+  constexpr static std::size_t addrs = 0x39e1de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds*>::get(), ".ctor",
@@ -273,18 +271,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*, ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*>&
+constexpr ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*, ::Array<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>*>&
 GlobalNamespace::ColorArrayLightWithIds::__cordl_internal_get__colorArrayLightWithIds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorArrayLightWithIds;
 }
-constexpr ::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*, ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*, ::Array<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>*> const&
 GlobalNamespace::ColorArrayLightWithIds::__cordl_internal_get__colorArrayLightWithIds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorArrayLightWithIds;
 }
 constexpr void GlobalNamespace::ColorArrayLightWithIds::__cordl_internal_set__colorArrayLightWithIds(
-    ::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*, ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*> value) {
+    ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*, ::Array<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorArrayLightWithIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -390,10 +388,10 @@ inline void GlobalNamespace::ColorArrayLightWithIds::ProcessNewColorData() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GlobalNamespace::ColorArrayLightWithIds::GetLightWithIds() {
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GlobalNamespace::ColorArrayLightWithIds::GetLightWithIds() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorArrayLightWithIds::HandleColorLightWithIdDidSetColor(int32_t index, ::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -423,13 +421,13 @@ inline void GlobalNamespace::ColorArrayLightWithIds::UnregisterArrayFromColorCha
                                                                              "UnregisterArrayFromColorChanges", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ColorArrayLightWithIds* GlobalNamespace::ColorArrayLightWithIds::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorArrayLightWithIds*>());
-}
 inline void GlobalNamespace::ColorArrayLightWithIds::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorArrayLightWithIds*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ColorArrayLightWithIds* GlobalNamespace::ColorArrayLightWithIds::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorArrayLightWithIds*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithIds() {}

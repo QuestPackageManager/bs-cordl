@@ -17,11 +17,10 @@ class Parametric3SliceSpriteWidthEndFloatFxEffectTarget;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget);
-// Type: ::Parametric3SliceSpriteWidthEndFloatFxEffectTarget
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FloatFxGroupEffectTarget, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Parametric3SliceSpriteWidthEndFloatFxEffectTarget*
+// CS Name: Parametric3SliceSpriteWidthEndFloatFxEffectTarget
 class CORDL_TYPE Parametric3SliceSpriteWidthEndFloatFxEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
@@ -38,10 +37,10 @@ public:
 
   static inline ::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b29010, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8a5a8, size 0xa0, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b290b0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b8a648, size 0xa0, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
@@ -62,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b29150, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8a6e8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,6 +78,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Parametric3SliceSpriteWidthEndFloatFxEffectTarget(Parametric3SliceSpriteWidthEndFloatFxEffectTarget const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4273 };
+
   /// @brief Field _parametric3SliceSpriteController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSpriteController;
 
@@ -88,19 +90,16 @@ public:
   /// @brief Field _valueMultiplier, offset: 0x30, size: 0x4, def value: None
   float_t ____valueMultiplier;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4262 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget, ____parametric3SliceSpriteController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget, ____valueBounds) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget, ____valueMultiplier) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget);

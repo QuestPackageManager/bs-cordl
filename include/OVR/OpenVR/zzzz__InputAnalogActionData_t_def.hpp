@@ -13,11 +13,10 @@ struct InputAnalogActionData_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::InputAnalogActionData_t);
-// Type: OVR.OpenVR::InputAnalogActionData_t
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::InputAnalogActionData_t
+// CS Name: OVR.OpenVR.InputAnalogActionData_t
 struct CORDL_TYPE InputAnalogActionData_t {
 public:
   // Declarations
@@ -30,6 +29,12 @@ public:
   // CppParam { name: "deltaX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaZ", ty: "float_t",
   // modifiers: "", def_value: None }, CppParam { name: "fUpdateTime", ty: "float_t", modifiers: "", def_value: None }]
   constexpr InputAnalogActionData_t(bool bActive, uint64_t activeOrigin, float_t x, float_t y, float_t z, float_t deltaX, float_t deltaY, float_t deltaZ, float_t fUpdateTime) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9033 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field bActive, offset: 0x0, size: 0x1, def value: None
   bool bActive;
@@ -58,17 +63,9 @@ public:
   /// @brief Field fUpdateTime, offset: 0x28, size: 0x4, def value: None
   float_t fUpdateTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9008 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputAnalogActionData_t, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::InputAnalogActionData_t, bActive) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::InputAnalogActionData_t, activeOrigin) == 0x8, "Offset mismatch!");
@@ -86,6 +83,8 @@ static_assert(offsetof(::OVR::OpenVR::InputAnalogActionData_t, deltaY) == 0x20, 
 static_assert(offsetof(::OVR::OpenVR::InputAnalogActionData_t, deltaZ) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::InputAnalogActionData_t, fUpdateTime) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputAnalogActionData_t, 0x30>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputAnalogActionData_t, "OVR.OpenVR", "InputAnalogActionData_t");

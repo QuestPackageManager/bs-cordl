@@ -7,80 +7,80 @@
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlUnsignedIntAttributeDescription_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::*)()>(
-    &::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::*)()>(
+    &::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3c410;
+  constexpr static std::size_t addrs = 0x4aa0d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c._GetValueFromBag_b__3_0
+//  Writing Method size for method: ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c._GetValueFromBag_b__3_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::*)(::StringW, uint32_t)>(
-    &::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::_GetValueFromBag_b__3_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::*)(::StringW, uint32_t)>(
+    &::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a3c418;
+  constexpr static std::size_t addrs = 0x4aa0d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get(), "<GetValueFromBag>b__3_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get(), "<GetValueFromBag>b__3_0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::setStaticF___9(::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>(value));
+inline void UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::setStaticF___9(::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get>(
+      std::forward<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>(value));
 }
-inline ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c* UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get>();
+inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c* UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get>();
 }
-inline void UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::setStaticF___9__3_0(::System::Func_3<::StringW, uint32_t, uint32_t>* value) {
+inline void UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::setStaticF___9__3_0(::System::Func_3<::StringW, uint32_t, uint32_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_3<::StringW, uint32_t, uint32_t>*, "<>9__3_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get>(
       std::forward<::System::Func_3<::StringW, uint32_t, uint32_t>*>(value));
 }
-inline ::System::Func_3<::StringW, uint32_t, uint32_t>* UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::getStaticF___9__3_0() {
+inline ::System::Func_3<::StringW, uint32_t, uint32_t>* UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::System::Func_3<::StringW, uint32_t, uint32_t>*, "<>9__3_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c* UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>());
-}
-inline void UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::_ctor() {
+inline void UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline uint32_t UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::_GetValueFromBag_b__3_0(::StringW s, uint32_t i) {
+inline uint32_t UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::_GetValueFromBag_b__3_0(::StringW s, uint32_t i) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c*>::get(), "<GetValueFromBag>b__3_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>::get(), "<GetValueFromBag>b__3_0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s, i);
 }
+inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c* UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c::__UxmlUnsignedIntAttributeDescription____c() {}
+constexpr ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c::UxmlUnsignedIntAttributeDescription___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::*)()>(
     &::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a3c194;
+  constexpr static std::size_t addrs = 0x4aa0aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::GetValueFromBag)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4a3c22c;
+  constexpr static std::size_t addrs = 0x4aa0b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW, uint32_t)>(
     &::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::ConvertValueToUInt)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a3c378;
+  constexpr static std::size_t addrs = 0x4aa0c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,9 +120,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription* UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*>());
-}
 inline void UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*>::get(), ".ctor",
@@ -140,6 +137,9 @@ inline uint32_t UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::Co
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*>::get(), "ConvertValueToUInt", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, v, defaultValue);
+}
+inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription* UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription::UxmlUnsignedIntAttributeDescription() {}

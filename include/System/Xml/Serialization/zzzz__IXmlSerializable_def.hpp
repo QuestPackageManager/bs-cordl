@@ -19,33 +19,28 @@ class IXmlSerializable;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::IXmlSerializable);
-// Type: System.Xml.Serialization::IXmlSerializable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::IXmlSerializable*
+// CS Name: System.Xml.Serialization.IXmlSerializable
 class CORDL_TYPE IXmlSerializable {
 public:
   // Declarations
-  /// @brief Method GetSchema, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetSchema, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* GetSchema();
 
-  /// @brief Method ReadXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ReadXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method WriteXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method WriteXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteXml(::System::Xml::XmlWriter* writer);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlSerializable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IXmlSerializable(IXmlSerializable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlSerializable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IXmlSerializable(IXmlSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

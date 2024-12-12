@@ -10,396 +10,394 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager__FallbackMaterial._ctor
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager_FallbackMaterial._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager__FallbackMaterial::*)()>(
-    &::TMPro::__TMP_MaterialManager__FallbackMaterial::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MaterialManager_FallbackMaterial::*)()>(&::TMPro::TMP_MaterialManager_FallbackMaterial::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4797e50;
+  constexpr static std::size_t addrs = 0x47f9164;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager__FallbackMaterial*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr int64_t& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_fallbackID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___fallbackID;
-}
-constexpr int64_t const& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_fallbackID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___fallbackID;
-}
-constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_set_fallbackID(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___fallbackID = value;
-}
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_sourceMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sourceMaterial;
-}
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_sourceMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sourceMaterial;
-}
-constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_set_sourceMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sourceMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_sourceMaterialCRC() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sourceMaterialCRC;
-}
-constexpr int32_t const& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_sourceMaterialCRC() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sourceMaterialCRC;
-}
-constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_set_sourceMaterialCRC(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___sourceMaterialCRC = value;
-}
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_fallbackMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___fallbackMaterial;
-}
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_fallbackMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___fallbackMaterial;
-}
-constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_set_fallbackMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fallbackMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___count;
-}
-constexpr int32_t const& TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___count;
-}
-constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__cordl_internal_set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___count = value;
-}
-inline ::TMPro::__TMP_MaterialManager__FallbackMaterial* TMPro::__TMP_MaterialManager__FallbackMaterial::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_MaterialManager__FallbackMaterial*>());
-}
-inline void TMPro::__TMP_MaterialManager__FallbackMaterial::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager__FallbackMaterial*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::TMPro::__TMP_MaterialManager__FallbackMaterial::__TMP_MaterialManager__FallbackMaterial() {}
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager__MaskingMaterial._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager__MaskingMaterial::*)()>(
-    &::TMPro::__TMP_MaterialManager__MaskingMaterial::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4796460;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager_FallbackMaterial*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_baseMaterial() {
+constexpr int64_t& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_fallbackID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___baseMaterial;
+  return this->___fallbackID;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_baseMaterial() const {
+constexpr int64_t const& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_fallbackID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___baseMaterial;
+  return this->___fallbackID;
 }
-constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_set_fallbackID(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___baseMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->___fallbackID = value;
 }
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_stencilMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_sourceMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilMaterial;
+  return this->___sourceMaterial;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_stencilMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_sourceMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilMaterial;
+  return this->___sourceMaterial;
 }
-constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_set_sourceMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sourceMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_count() {
+constexpr int32_t& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_sourceMaterialCRC() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sourceMaterialCRC;
+}
+constexpr int32_t const& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_sourceMaterialCRC() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sourceMaterialCRC;
+}
+constexpr void TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_set_sourceMaterialCRC(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___sourceMaterialCRC = value;
+}
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_fallbackMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___fallbackMaterial;
+}
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_fallbackMaterial() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___fallbackMaterial;
+}
+constexpr void TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_set_fallbackMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fallbackMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
-constexpr int32_t const& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_count() const {
+constexpr int32_t const& TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_get_count() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
-constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_set_count(int32_t value) {
+constexpr void TMPro::TMP_MaterialManager_FallbackMaterial::__cordl_internal_set_count(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
-constexpr int32_t& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_stencilID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilID;
-}
-constexpr int32_t const& TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_get_stencilID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilID;
-}
-constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__cordl_internal_set_stencilID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___stencilID = value;
-}
-inline ::TMPro::__TMP_MaterialManager__MaskingMaterial* TMPro::__TMP_MaterialManager__MaskingMaterial::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_MaterialManager__MaskingMaterial*>());
-}
-inline void TMPro::__TMP_MaterialManager__MaskingMaterial::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get(), ".ctor",
+inline void TMPro::TMP_MaterialManager_FallbackMaterial::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager_FallbackMaterial*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters []
-constexpr ::TMPro::__TMP_MaterialManager__MaskingMaterial::__TMP_MaterialManager__MaskingMaterial() {}
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::*)()>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4796ae8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass11_0*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0._AddMaskingMaterial_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::_AddMaskingMaterial_b__0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4798780;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass11_0*>::get(), "<AddMaskingMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager____c__DisplayClass11_0::__cordl_internal_get_stencilMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilMaterial;
-}
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager____c__DisplayClass11_0::__cordl_internal_get_stencilMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilMaterial;
-}
-constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass11_0::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0* TMPro::__TMP_MaterialManager____c__DisplayClass11_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_MaterialManager____c__DisplayClass11_0*>());
-}
-inline void TMPro::__TMP_MaterialManager____c__DisplayClass11_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass11_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool TMPro::__TMP_MaterialManager____c__DisplayClass11_0::_AddMaskingMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass11_0*>::get(), "<AddMaskingMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline ::TMPro::TMP_MaterialManager_FallbackMaterial* TMPro::TMP_MaterialManager_FallbackMaterial::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_MaterialManager_FallbackMaterial*>());
 }
 // Ctor Parameters []
-constexpr ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0::__TMP_MaterialManager____c__DisplayClass11_0() {}
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0._ctor
+constexpr ::TMPro::TMP_MaterialManager_FallbackMaterial::TMP_MaterialManager_FallbackMaterial() {}
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager_MaskingMaterial._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::*)()>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MaterialManager_MaskingMaterial::*)()>(&::TMPro::TMP_MaterialManager_MaskingMaterial::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4796c4c;
+  constexpr static std::size_t addrs = 0x47f7774;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass12_0*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0._RemoveStencilMaterial_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::_RemoveStencilMaterial_b__0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47987f0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass12_0*>::get(), "<RemoveStencilMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager____c__DisplayClass12_0::__cordl_internal_get_stencilMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilMaterial;
-}
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager____c__DisplayClass12_0::__cordl_internal_get_stencilMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___stencilMaterial;
-}
-constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass12_0::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0* TMPro::__TMP_MaterialManager____c__DisplayClass12_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_MaterialManager____c__DisplayClass12_0*>());
-}
-inline void TMPro::__TMP_MaterialManager____c__DisplayClass12_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass12_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool TMPro::__TMP_MaterialManager____c__DisplayClass12_0::_RemoveStencilMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass12_0*>::get(), "<RemoveStencilMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
-}
-// Ctor Parameters []
-constexpr ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0::__TMP_MaterialManager____c__DisplayClass12_0() {}
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::*)()>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47970e8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass13_0*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0._ReleaseBaseMaterial_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::_ReleaseBaseMaterial_b__0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4798860;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass13_0*>::get(), "<ReleaseBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager____c__DisplayClass13_0::__cordl_internal_get_baseMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_baseMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseMaterial;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager____c__DisplayClass13_0::__cordl_internal_get_baseMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_baseMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseMaterial;
 }
-constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass13_0::__cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___baseMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0* TMPro::__TMP_MaterialManager____c__DisplayClass13_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_MaterialManager____c__DisplayClass13_0*>());
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_stencilMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilMaterial;
 }
-inline void TMPro::__TMP_MaterialManager____c__DisplayClass13_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass13_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_stencilMaterial() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilMaterial;
+}
+constexpr void TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_count() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___count;
+}
+constexpr int32_t const& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_count() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___count;
+}
+constexpr void TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_set_count(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___count = value;
+}
+constexpr int32_t& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_stencilID() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilID;
+}
+constexpr int32_t const& TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_get_stencilID() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilID;
+}
+constexpr void TMPro::TMP_MaterialManager_MaskingMaterial::__cordl_internal_set_stencilID(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___stencilID = value;
+}
+inline void TMPro::TMP_MaterialManager_MaskingMaterial::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool TMPro::__TMP_MaterialManager____c__DisplayClass13_0::_ReleaseBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass13_0*>::get(), "<ReleaseBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline ::TMPro::TMP_MaterialManager_MaskingMaterial* TMPro::TMP_MaterialManager_MaskingMaterial::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_MaterialManager_MaskingMaterial*>());
 }
 // Ctor Parameters []
-constexpr ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0::__TMP_MaterialManager____c__DisplayClass13_0() {}
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0._ctor
+constexpr ::TMPro::TMP_MaterialManager_MaskingMaterial::TMP_MaterialManager_MaskingMaterial() {}
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass11_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::*)()>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass11_0::*)()>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47967b8;
+  constexpr static std::size_t addrs = 0x47f7dfc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass9_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass11_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0._GetBaseMaterial_b__0
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass11_0._AddMaskingMaterial_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::*)(::TMPro::__TMP_MaterialManager__MaskingMaterial*)>(
-    &::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::_GetBaseMaterial_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass11_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass11_0::_AddMaskingMaterial_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47988d0;
+  constexpr static std::size_t addrs = 0x47f9a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass9_0*>::get(), "<GetBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass11_0*>::get(), "<AddMaskingMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Material>& TMPro::__TMP_MaterialManager____c__DisplayClass9_0::__cordl_internal_get_stencilMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager___c__DisplayClass11_0::__cordl_internal_get_stencilMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
-constexpr ::UnityW<::UnityEngine::Material> const& TMPro::__TMP_MaterialManager____c__DisplayClass9_0::__cordl_internal_get_stencilMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager___c__DisplayClass11_0::__cordl_internal_get_stencilMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
-constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass9_0::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
+constexpr void TMPro::TMP_MaterialManager___c__DisplayClass11_0::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0* TMPro::__TMP_MaterialManager____c__DisplayClass9_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_MaterialManager____c__DisplayClass9_0*>());
-}
-inline void TMPro::__TMP_MaterialManager____c__DisplayClass9_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass9_0*>::get(),
+inline void TMPro::TMP_MaterialManager___c__DisplayClass11_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass11_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool TMPro::__TMP_MaterialManager____c__DisplayClass9_0::_GetBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item) {
+inline bool TMPro::TMP_MaterialManager___c__DisplayClass11_0::_AddMaskingMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_MaterialManager____c__DisplayClass9_0*>::get(), "<GetBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::__TMP_MaterialManager__MaskingMaterial*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass11_0*>::get(), "<AddMaskingMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
+inline ::TMPro::TMP_MaterialManager___c__DisplayClass11_0* TMPro::TMP_MaterialManager___c__DisplayClass11_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_MaterialManager___c__DisplayClass11_0*>());
+}
 // Ctor Parameters []
-constexpr ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0::__TMP_MaterialManager____c__DisplayClass9_0() {}
+constexpr ::TMPro::TMP_MaterialManager___c__DisplayClass11_0::TMP_MaterialManager___c__DisplayClass11_0() {}
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass12_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass12_0::*)()>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass12_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x47f7f60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass12_0*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass12_0._RemoveStencilMaterial_b__0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass12_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass12_0::_RemoveStencilMaterial_b__0)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x47f9b04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass12_0*>::get(), "<RemoveStencilMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager___c__DisplayClass12_0::__cordl_internal_get_stencilMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilMaterial;
+}
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager___c__DisplayClass12_0::__cordl_internal_get_stencilMaterial() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilMaterial;
+}
+constexpr void TMPro::TMP_MaterialManager___c__DisplayClass12_0::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void TMPro::TMP_MaterialManager___c__DisplayClass12_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass12_0*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool TMPro::TMP_MaterialManager___c__DisplayClass12_0::_RemoveStencilMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass12_0*>::get(), "<RemoveStencilMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+inline ::TMPro::TMP_MaterialManager___c__DisplayClass12_0* TMPro::TMP_MaterialManager___c__DisplayClass12_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_MaterialManager___c__DisplayClass12_0*>());
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMP_MaterialManager___c__DisplayClass12_0::TMP_MaterialManager___c__DisplayClass12_0() {}
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass13_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass13_0::*)()>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass13_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x47f83fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass13_0*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass13_0._ReleaseBaseMaterial_b__0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass13_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass13_0::_ReleaseBaseMaterial_b__0)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x47f9b74;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass13_0*>::get(), "<ReleaseBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager___c__DisplayClass13_0::__cordl_internal_get_baseMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___baseMaterial;
+}
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager___c__DisplayClass13_0::__cordl_internal_get_baseMaterial() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___baseMaterial;
+}
+constexpr void TMPro::TMP_MaterialManager___c__DisplayClass13_0::__cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___baseMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void TMPro::TMP_MaterialManager___c__DisplayClass13_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass13_0*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool TMPro::TMP_MaterialManager___c__DisplayClass13_0::_ReleaseBaseMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass13_0*>::get(), "<ReleaseBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+inline ::TMPro::TMP_MaterialManager___c__DisplayClass13_0* TMPro::TMP_MaterialManager___c__DisplayClass13_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_MaterialManager___c__DisplayClass13_0*>());
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMP_MaterialManager___c__DisplayClass13_0::TMP_MaterialManager___c__DisplayClass13_0() {}
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass9_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass9_0::*)()>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass9_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x47f7acc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass9_0*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_MaterialManager___c__DisplayClass9_0._GetBaseMaterial_b__0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass9_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
+    &::TMPro::TMP_MaterialManager___c__DisplayClass9_0::_GetBaseMaterial_b__0)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x47f9be4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass9_0*>::get(), "<GetBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::UnityEngine::Material>& TMPro::TMP_MaterialManager___c__DisplayClass9_0::__cordl_internal_get_stencilMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilMaterial;
+}
+constexpr ::UnityW<::UnityEngine::Material> const& TMPro::TMP_MaterialManager___c__DisplayClass9_0::__cordl_internal_get_stencilMaterial() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stencilMaterial;
+}
+constexpr void TMPro::TMP_MaterialManager___c__DisplayClass9_0::__cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void TMPro::TMP_MaterialManager___c__DisplayClass9_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass9_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool TMPro::TMP_MaterialManager___c__DisplayClass9_0::_GetBaseMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager___c__DisplayClass9_0*>::get(), "<GetBaseMaterial>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_MaterialManager_MaskingMaterial*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+inline ::TMPro::TMP_MaterialManager___c__DisplayClass9_0* TMPro::TMP_MaterialManager___c__DisplayClass9_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_MaterialManager___c__DisplayClass9_0*>());
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMP_MaterialManager___c__DisplayClass9_0::TMP_MaterialManager___c__DisplayClass9_0() {}
 //  Writing Method size for method: ::TMPro::TMP_MaterialManager.OnPreRender
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::OnPreRender)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4795368;
+  constexpr static std::size_t addrs = 0x47f667c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get(), "OnPreRender",
@@ -413,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::GetStencilMaterial)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x47955f4;
+  constexpr static std::size_t addrs = 0x47f6908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -428,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseStencilMaterial)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4796468;
+  constexpr static std::size_t addrs = 0x47f777c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -442,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::GetBaseMaterial)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4796658;
+  constexpr static std::size_t addrs = 0x47f796c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::SetStencil)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47967c0;
+  constexpr static std::size_t addrs = 0x47f7ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -473,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::AddMaskingMaterial)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x479687c;
+  constexpr static std::size_t addrs = 0x47f7b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::RemoveStencilMaterial)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4796af0;
+  constexpr static std::size_t addrs = 0x47f7e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -503,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseBaseMaterial)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x4796c54;
+  constexpr static std::size_t addrs = 0x47f7f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -517,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::ClearMaterials)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x47970f0;
+  constexpr static std::size_t addrs = 0x47f8404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get(), "ClearMaterials",
@@ -530,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_MaterialManager::GetStencilID)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x47972ac;
+  constexpr static std::size_t addrs = 0x47f85c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -545,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::UI::MaskableGraphic*, ::UnityEngine::Material*)>(
     &::TMPro::TMP_MaterialManager::GetMaterialForRendering)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x4797718;
+  constexpr static std::size_t addrs = 0x47f8a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -561,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*)>(
     &::TMPro::TMP_MaterialManager::FindRootSortOverrideCanvas)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4797578;
+  constexpr static std::size_t addrs = 0x47f888c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -576,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::TMPro::TMP_FontAsset*, ::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x4797914;
+  constexpr static std::size_t addrs = 0x47f8c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -593,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::TMPro::TMP_MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x4797e58;
+  constexpr static std::size_t addrs = 0x47f916c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -608,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::AddFallbackMaterialReference)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x479827c;
+  constexpr static std::size_t addrs = 0x47f9590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -622,7 +620,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::RemoveFallbackMaterialReference)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x47983c0;
+  constexpr static std::size_t addrs = 0x47f96d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::CleanupFallbackMaterials)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x47953e0;
+  constexpr static std::size_t addrs = 0x47f66f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get(), "CleanupFallbackMaterials",
@@ -649,7 +647,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseFallbackMaterial)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4798590;
+  constexpr static std::size_t addrs = 0x47f98a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -664,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::TMPro::TMP_MaterialManager::CopyMaterialPresetProperties)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x4797be4;
+  constexpr static std::size_t addrs = 0x47f8ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -674,22 +672,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void TMPro::TMP_MaterialManager::setStaticF_m_materialList(::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>*, "m_materialList",
+inline void TMPro::TMP_MaterialManager::setStaticF_m_materialList(::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_MaskingMaterial*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_MaskingMaterial*>*, "m_materialList",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_MaskingMaterial*>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* TMPro::TMP_MaterialManager::getStaticF_m_materialList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>*, "m_materialList",
+inline ::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_MaskingMaterial*>* TMPro::TMP_MaterialManager::getStaticF_m_materialList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_MaskingMaterial*>*, "m_materialList",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get>();
 }
-inline void TMPro::TMP_MaterialManager::setStaticF_m_fallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>*, "m_fallbackMaterials",
+inline void TMPro::TMP_MaterialManager::setStaticF_m_fallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_MaterialManager_FallbackMaterial*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_MaterialManager_FallbackMaterial*>*, "m_fallbackMaterials",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>*>(value));
+      std::forward<::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_MaterialManager_FallbackMaterial*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* TMPro::TMP_MaterialManager::getStaticF_m_fallbackMaterials() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>*, "m_fallbackMaterials",
+inline ::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_MaterialManager_FallbackMaterial*>* TMPro::TMP_MaterialManager::getStaticF_m_fallbackMaterials() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_MaterialManager_FallbackMaterial*>*, "m_fallbackMaterials",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get>();
 }
 inline void TMPro::TMP_MaterialManager::setStaticF_m_fallbackMaterialLookup(::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* value) {
@@ -701,13 +699,13 @@ inline ::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* TMPro::TM
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, int64_t>*, "m_fallbackMaterialLookup",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get>();
 }
-inline void TMPro::TMP_MaterialManager::setStaticF_m_fallbackCleanupList(::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>*, "m_fallbackCleanupList",
+inline void TMPro::TMP_MaterialManager::setStaticF_m_fallbackCleanupList(::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_FallbackMaterial*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_FallbackMaterial*>*, "m_fallbackCleanupList",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_FallbackMaterial*>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>* TMPro::TMP_MaterialManager::getStaticF_m_fallbackCleanupList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>*, "m_fallbackCleanupList",
+inline ::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_FallbackMaterial*>* TMPro::TMP_MaterialManager::getStaticF_m_fallbackCleanupList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_FallbackMaterial*>*, "m_fallbackCleanupList",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MaterialManager*>::get>();
 }
 inline void TMPro::TMP_MaterialManager::setStaticF_isFallbackListDirty(bool value) {

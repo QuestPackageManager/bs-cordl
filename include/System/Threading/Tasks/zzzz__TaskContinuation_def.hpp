@@ -14,23 +14,22 @@ class TaskContinuation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::TaskContinuation);
-// Type: System.Threading.Tasks::TaskContinuation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::TaskContinuation*
+// CS Name: System.Threading.Tasks.TaskContinuation
 class CORDL_TYPE TaskContinuation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x3e07fa0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x3e6804c, size 0x140, virtual false, abstract: false, final false
   static inline void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
 
   static inline ::System::Threading::Tasks::TaskContinuation* New_ctor();
 
-  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
-  /// @brief Method .ctor, addr 0x3e080e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6818c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

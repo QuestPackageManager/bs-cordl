@@ -35,11 +35,10 @@ class MemberExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::MemberExpression);
-// Type: System.Linq.Expressions::MemberExpression
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::MemberExpression*
+// CS Name: System.Linq.Expressions.MemberExpression
 class CORDL_TYPE MemberExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -53,39 +52,39 @@ public:
   __declspec(property(get = __cordl_internal_get__Expression_k__BackingField,
                       put = __cordl_internal_set__Expression_k__BackingField)) ::System::Linq::Expressions::Expression* _Expression_k__BackingField;
 
-  /// @brief Method Accept, addr 0x4057c00, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40b8f14, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetMember, addr 0x4057bd8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x40b8eec, size 0x28, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
-  /// @brief Method Make, addr 0x4057b44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x40b8e58, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::FieldExpression* Make(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* field);
 
-  /// @brief Method Make, addr 0x4057ab8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x40b8dcc, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::PropertyExpression* Make(::System::Linq::Expressions::Expression* expression, ::System::Reflection::PropertyInfo* property);
 
   static inline ::System::Linq::Expressions::MemberExpression* New_ctor(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Update, addr 0x4055c88, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40b6f9c, size 0x94, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::MemberExpression* Update(::System::Linq::Expressions::Expression* expression);
+
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Expression_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Expression_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Expression_k__BackingField() const;
-
   constexpr void __cordl_internal_set__Expression_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x4057a4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b8d60, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method get_Expression, addr 0x4057a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x40b8d58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_Member, addr 0x4053b64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x40b4e78, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method get_NodeType, addr 0x4057bd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40b8ee4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
 protected:
@@ -102,18 +101,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberExpression(MemberExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13699 };
+
   /// @brief Field <Expression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Expression_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13665 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::MemberExpression, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::MemberExpression, ____Expression_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::MemberExpression, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::MemberExpression);

@@ -42,16 +42,15 @@ class VisualTreeBindingsUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeBindingsUpdater);
-// Type: UnityEngine.UIElements::VisualTreeBindingsUpdater
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.PropertyName, UnityEngine.UIElements.BaseVisualTreeHierarchyTrackerUpdater
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::VisualTreeBindingsUpdater*
+// CS Name: UnityEngine.UIElements.VisualTreeBindingsUpdater
 class CORDL_TYPE VisualTreeBindingsUpdater : public ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater {
 public:
   // Declarations
   /// @brief Field <disableBindingsThrottling>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__disableBindingsThrottling_k__BackingField, put = setStaticF__disableBindingsThrottling_k__BackingField)) bool _disableBindingsThrottling_k__BackingField;
+  __declspec(property(get = getStaticF__disableBindingsThrottling_k__BackingField, put = setStaticF__disableBindingsThrottling_k__BackingField)) bool _disableBindingsThrottling_k__BackingField;
 
   /// @brief Field <temporaryObjectCache>k__BackingField, offset 0x60, size 0x8
   __declspec(property(
@@ -80,27 +79,26 @@ public:
   __declspec(property(get = get_profilerMarker)) ::Unity::Profiling::ProfilerMarker profilerMarker;
 
   /// @brief Field s_AdditionalBindingObjectVEPropertyName, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_AdditionalBindingObjectVEPropertyName,
-                             put = setStaticF_s_AdditionalBindingObjectVEPropertyName)) ::UnityEngine::PropertyName s_AdditionalBindingObjectVEPropertyName;
+  __declspec(property(get = getStaticF_s_AdditionalBindingObjectVEPropertyName,
+                      put = setStaticF_s_AdditionalBindingObjectVEPropertyName)) ::UnityEngine::PropertyName s_AdditionalBindingObjectVEPropertyName;
 
   /// @brief Field s_BindingRequestObjectVEPropertyName, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_BindingRequestObjectVEPropertyName,
-                             put = setStaticF_s_BindingRequestObjectVEPropertyName)) ::UnityEngine::PropertyName s_BindingRequestObjectVEPropertyName;
+  __declspec(property(get = getStaticF_s_BindingRequestObjectVEPropertyName, put = setStaticF_s_BindingRequestObjectVEPropertyName)) ::UnityEngine::PropertyName s_BindingRequestObjectVEPropertyName;
 
   /// @brief Field s_Description, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description)) ::StringW s_Description;
+  __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description)) ::StringW s_Description;
 
   /// @brief Field s_MarkerPoll, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerPoll, put = setStaticF_s_MarkerPoll)) ::Unity::Profiling::ProfilerMarker s_MarkerPoll;
+  __declspec(property(get = getStaticF_s_MarkerPoll, put = setStaticF_s_MarkerPoll)) ::Unity::Profiling::ProfilerMarker s_MarkerPoll;
 
   /// @brief Field s_MarkerUpdate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerUpdate, put = setStaticF_s_MarkerUpdate)) ::Unity::Profiling::ProfilerMarker s_MarkerUpdate;
+  __declspec(property(get = getStaticF_s_MarkerUpdate, put = setStaticF_s_MarkerUpdate)) ::Unity::Profiling::ProfilerMarker s_MarkerUpdate;
 
   /// @brief Field s_ProfilerBindingRequestsMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ProfilerBindingRequestsMarker, put = setStaticF_s_ProfilerBindingRequestsMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerBindingRequestsMarker;
+  __declspec(property(get = getStaticF_s_ProfilerBindingRequestsMarker, put = setStaticF_s_ProfilerBindingRequestsMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerBindingRequestsMarker;
 
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
+  __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
   __declspec(property(get = get_temporaryObjectCache)) ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* temporaryObjectCache;
 
@@ -108,72 +106,71 @@ public:
   __declspec(property(get = __cordl_internal_get_updatedBindings,
                       put = __cordl_internal_set_updatedBindings)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* updatedBindings;
 
-  /// @brief Method CurrentTime, addr 0x490ab2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CurrentTime, addr 0x496f2dc, size 0x50, virtual false, abstract: false, final false
   static inline int64_t CurrentTime();
 
-  /// @brief Method GetAdditionalBinding, addr 0x490a668, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalBinding, addr 0x496ee18, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IBinding* GetAdditionalBinding(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetBindingObjectFromElement, addr 0x490a530, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetBindingObjectFromElement, addr 0x496ece0, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IBinding* GetBindingObjectFromElement(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeBindingsUpdater* New_ctor();
 
-  /// @brief Method OnHierarchyChange, addr 0x490ab14, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnHierarchyChange, addr 0x496f2c4, size 0x18, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged, addr 0x490aa1c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x496f1cc, size 0xf8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method PerformTrackingOperations, addr 0x490ab7c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method PerformTrackingOperations, addr 0x496f32c, size 0x288, virtual false, abstract: false, final false
   inline void PerformTrackingOperations();
 
-  /// @brief Method StartTracking, addr 0x490a6f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartTracking, addr 0x496eea0, size 0x80, virtual false, abstract: false, final false
   inline void StartTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTrackingRecursive, addr 0x490a7f8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingRecursive, addr 0x496efa8, size 0x118, virtual false, abstract: false, final false
   inline void StartTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTracking, addr 0x490a770, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StopTracking, addr 0x496ef20, size 0x80, virtual false, abstract: false, final false
   inline void StopTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTrackingRecursive, addr 0x490a910, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingRecursive, addr 0x496f0c0, size 0x10c, virtual false, abstract: false, final false
   inline void StopTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x490ae04, size 0x5b8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x496f5b4, size 0x5b8, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateBindings, addr 0x490b3bc, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method UpdateBindings, addr 0x496fb6c, size 0x530, virtual false, abstract: false, final false
   inline void UpdateBindings();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* const& __cordl_internal_get__temporaryObjectCache_k__BackingField() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__temporaryObjectCache_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const&
-  __cordl_internal_get__temporaryObjectCache_k__BackingField() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_m_ElementsToAdd() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsToAdd();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsToAdd() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_m_ElementsToBind() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsToBind();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsToBind() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_m_ElementsToRemove() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsToRemove();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsToRemove() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_m_ElementsWithBindings() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ElementsWithBindings();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ElementsWithBindings() const;
 
   constexpr int64_t const& __cordl_internal_get_m_LastUpdateTime() const;
 
   constexpr int64_t& __cordl_internal_get_m_LastUpdateTime();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>*& __cordl_internal_get_updatedBindings();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* const& __cordl_internal_get_updatedBindings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>*> const& __cordl_internal_get_updatedBindings() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>*& __cordl_internal_get_updatedBindings();
 
   constexpr void __cordl_internal_set__temporaryObjectCache_k__BackingField(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* value);
 
@@ -189,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_updatedBindings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* value);
 
-  /// @brief Method .ctor, addr 0x490b8ec, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497009c, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__disableBindingsThrottling_k__BackingField();
@@ -208,13 +205,13 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_disableBindingsThrottling, addr 0x490a4d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_disableBindingsThrottling, addr 0x496ec88, size 0x58, virtual false, abstract: false, final false
   static inline bool get_disableBindingsThrottling();
 
-  /// @brief Method get_profilerMarker, addr 0x490a480, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x496ec30, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_temporaryObjectCache, addr 0x490a7f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_temporaryObjectCache, addr 0x496efa0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* get_temporaryObjectCache();
 
   static inline void setStaticF__disableBindingsThrottling_k__BackingField(bool value);
@@ -247,6 +244,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VisualTreeBindingsUpdater(VisualTreeBindingsUpdater const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5457 };
+
   /// @brief Field m_ElementsWithBindings, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ___m_ElementsWithBindings;
 
@@ -268,14 +268,9 @@ public:
   /// @brief Field updatedBindings, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* ___updatedBindings;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5433 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeBindingsUpdater, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___m_ElementsWithBindings) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___m_ElementsToAdd) == 0x40, "Offset mismatch!");
@@ -289,6 +284,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ____temporaryObjectCache_k__BackingField) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___updatedBindings) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeBindingsUpdater, 0x70>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeBindingsUpdater);

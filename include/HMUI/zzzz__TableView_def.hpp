@@ -3,11 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "HMUI/zzzz__ITableCellOwner_def.hpp"
 #include "HMUI/zzzz__TableViewSelectionType_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -17,10 +16,10 @@ namespace HMUI {
 class FloatRectOffset;
 }
 namespace HMUI {
-class ITableCellOwner;
+class ScrollView;
 }
 namespace HMUI {
-class ScrollView;
+struct SelectableCell_TransitionType;
 }
 namespace HMUI {
 class SelectableCell;
@@ -32,19 +31,16 @@ namespace HMUI {
 struct TableViewSelectionType;
 }
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+class TableView_CellsGroup;
 }
 namespace HMUI {
-class __TableView__CellsGroup;
+class TableView_IDataSource;
 }
 namespace HMUI {
-class __TableView__IDataSource;
+struct TableView_ScrollPositionType;
 }
 namespace HMUI {
-struct __TableView__ScrollPositionType;
-}
-namespace HMUI {
-struct __TableView__TableType;
+struct TableView_TableType;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -71,52 +67,51 @@ namespace System {
 template <typename T1, typename T2> class Tuple_2;
 }
 namespace UnityEngine {
-class RectTransform;
+struct RectTransform_Axis;
 }
 namespace UnityEngine {
-struct __RectTransform__Axis;
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
-struct __TableView__ScrollPositionType;
+struct TableView_ScrollPositionType;
 }
 namespace HMUI {
-struct __TableView__TableType;
+struct TableView_TableType;
 }
 namespace HMUI {
 class TableView;
 }
 namespace HMUI {
-class __TableView__CellsGroup;
+class TableView_CellsGroup;
 }
 namespace HMUI {
-class __TableView__IDataSource;
+class TableView_IDataSource;
 }
 // Write type traits
-MARK_VAL_T(::HMUI::__TableView__ScrollPositionType);
-MARK_VAL_T(::HMUI::__TableView__TableType);
+MARK_VAL_T(::HMUI::TableView_ScrollPositionType);
+MARK_VAL_T(::HMUI::TableView_TableType);
 MARK_REF_PTR_T(::HMUI::TableView);
-MARK_REF_PTR_T(::HMUI::__TableView__CellsGroup);
-MARK_REF_PTR_T(::HMUI::__TableView__IDataSource);
-// Type: ::TableType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::HMUI::TableView_CellsGroup);
+MARK_REF_PTR_T(::HMUI::TableView_IDataSource);
+// Dependencies
 namespace HMUI {
 // Is value type: true
-// CS Name: ::TableView::TableType
-struct CORDL_TYPE __TableView__TableType {
+// CS Name: HMUI.TableView/TableType
+struct CORDL_TYPE TableView_TableType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____TableView__TableType_Unwrapped
-  enum struct ____TableView__TableType_Unwrapped : int32_t {
+  /// @brief Nested struct __TableView_TableType_Unwrapped
+  enum struct __TableView_TableType_Unwrapped : int32_t {
     __E_Vertical = static_cast<int32_t>(0x0),
     __E_Horizontal = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____TableView__TableType_Unwrapped() const noexcept {
-    return static_cast<____TableView__TableType_Unwrapped>(this->value__);
+  constexpr operator __TableView_TableType_Unwrapped() const noexcept {
+    return static_cast<__TableView_TableType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -126,54 +121,53 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TableView__TableType();
+  constexpr TableView_TableType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TableView__TableType(int32_t value__) noexcept;
+  constexpr TableView_TableType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Horizontal value: I32(1)
+  static ::HMUI::TableView_TableType const Horizontal;
 
-  /// @brief Field Horizontal value: static_cast<int32_t>(0x1)
-  static ::HMUI::__TableView__TableType const Horizontal;
-
-  /// @brief Field Vertical value: static_cast<int32_t>(0x0)
-  static ::HMUI::__TableView__TableType const Vertical;
+  /// @brief Field Vertical value: I32(0)
+  static ::HMUI::TableView_TableType const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16111 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__TableView__TableType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HMUI::TableView_TableType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__TableView__TableType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::TableView_TableType, 0x4>, "Size mismatch!");
 
 } // namespace HMUI
-// Type: ::ScrollPositionType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HMUI {
 // Is value type: true
-// CS Name: ::TableView::ScrollPositionType
-struct CORDL_TYPE __TableView__ScrollPositionType {
+// CS Name: HMUI.TableView/ScrollPositionType
+struct CORDL_TYPE TableView_ScrollPositionType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____TableView__ScrollPositionType_Unwrapped
-  enum struct ____TableView__ScrollPositionType_Unwrapped : int32_t {
+  /// @brief Nested struct __TableView_ScrollPositionType_Unwrapped
+  enum struct __TableView_ScrollPositionType_Unwrapped : int32_t {
     __E_Beginning = static_cast<int32_t>(0x0),
     __E_Center = static_cast<int32_t>(0x1),
     __E_End = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____TableView__ScrollPositionType_Unwrapped() const noexcept {
-    return static_cast<____TableView__ScrollPositionType_Unwrapped>(this->value__);
+  constexpr operator __TableView_ScrollPositionType_Unwrapped() const noexcept {
+    return static_cast<__TableView_ScrollPositionType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -183,43 +177,42 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TableView__ScrollPositionType();
+  constexpr TableView_ScrollPositionType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TableView__ScrollPositionType(int32_t value__) noexcept;
+  constexpr TableView_ScrollPositionType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Beginning value: I32(0)
+  static ::HMUI::TableView_ScrollPositionType const Beginning;
 
-  /// @brief Field Beginning value: static_cast<int32_t>(0x0)
-  static ::HMUI::__TableView__ScrollPositionType const Beginning;
+  /// @brief Field Center value: I32(1)
+  static ::HMUI::TableView_ScrollPositionType const Center;
 
-  /// @brief Field Center value: static_cast<int32_t>(0x1)
-  static ::HMUI::__TableView__ScrollPositionType const Center;
-
-  /// @brief Field End value: static_cast<int32_t>(0x2)
-  static ::HMUI::__TableView__ScrollPositionType const End;
+  /// @brief Field End value: I32(2)
+  static ::HMUI::TableView_ScrollPositionType const End;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16112 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__TableView__ScrollPositionType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HMUI::TableView_ScrollPositionType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__TableView__ScrollPositionType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::TableView_ScrollPositionType, 0x4>, "Size mismatch!");
 
 } // namespace HMUI
-// Type: ::CellsGroup
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::TableView::CellsGroup*
-class CORDL_TYPE __TableView__CellsGroup : public ::System::Object {
+// CS Name: HMUI.TableView/CellsGroup
+class CORDL_TYPE TableView_CellsGroup : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cells, offset 0x18, size 0x8
@@ -232,11 +225,11 @@ public:
 
   __declspec(property(get = get_reuseIdentifier)) ::StringW reuseIdentifier;
 
-  static inline ::HMUI::__TableView__CellsGroup* New_ctor();
+  static inline ::HMUI::TableView_CellsGroup* New_ctor();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>* const& __cordl_internal_get__cells() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*& __cordl_internal_get__cells();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*> const& __cordl_internal_get__cells() const;
 
   constexpr ::StringW const& __cordl_internal_get__reuseIdentifier() const;
 
@@ -246,28 +239,31 @@ public:
 
   constexpr void __cordl_internal_set__reuseIdentifier(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39abc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a02874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cells, addr 0x39abbfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cells, addr 0x3a0286c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>* get_cells();
 
-  /// @brief Method get_reuseIdentifier, addr 0x39abbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reuseIdentifier, addr 0x3a02864, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_reuseIdentifier();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TableView__CellsGroup();
+  constexpr TableView_CellsGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TableView__CellsGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableView_CellsGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TableView__CellsGroup(__TableView__CellsGroup&&) = delete;
+  TableView_CellsGroup(TableView_CellsGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TableView__CellsGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableView_CellsGroup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TableView__CellsGroup(__TableView__CellsGroup const&) = delete;
+  TableView_CellsGroup(TableView_CellsGroup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16113 };
 
   /// @brief Field _reuseIdentifier, offset: 0x10, size: 0x8, def value: None
   ::StringW ____reuseIdentifier;
@@ -275,66 +271,57 @@ public:
   /// @brief Field _cells, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>* ____cells;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16078 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__TableView__CellsGroup, 0x20>, "Size mismatch!");
+static_assert(offsetof(::HMUI::TableView_CellsGroup, ____reuseIdentifier) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__TableView__CellsGroup, ____reuseIdentifier) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HMUI::TableView_CellsGroup, ____cells) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__TableView__CellsGroup, ____cells) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::TableView_CellsGroup, 0x20>, "Size mismatch!");
 
 } // namespace HMUI
-// Type: ::IDataSource
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace HMUI {
 // Is value type: false
-// CS Name: ::TableView::IDataSource*
-class CORDL_TYPE __TableView__IDataSource {
+// CS Name: HMUI.TableView/IDataSource
+class CORDL_TYPE TableView_IDataSource {
 public:
   // Declarations
-  /// @brief Method CellForIdx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CellForIdx, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CellSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method NumberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method NumberOfCells, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t NumberOfCells();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TableView__IDataSource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TableView__IDataSource(__TableView__IDataSource&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__TableView__IDataSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableView_IDataSource", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TableView__IDataSource(__TableView__IDataSource const&) = delete;
+  TableView_IDataSource(TableView_IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16114 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace HMUI
-// Type: HMUI::TableView
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 194, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ITableCellOwner, HMUI.TableView::TableType, HMUI.TableViewSelectionType, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::TableView*
+// CS Name: HMUI.TableView
 class CORDL_TYPE TableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using CellsGroup = ::HMUI::__TableView__CellsGroup;
+  using CellsGroup = ::HMUI::TableView_CellsGroup;
 
-  using IDataSource = ::HMUI::__TableView__IDataSource;
+  using IDataSource = ::HMUI::TableView_IDataSource;
 
-  using ScrollPositionType = ::HMUI::__TableView__ScrollPositionType;
+  using ScrollPositionType = ::HMUI::TableView_ScrollPositionType;
 
-  using TableType = ::HMUI::__TableView__TableType;
+  using TableType = ::HMUI::TableView_TableType;
 
   /// @brief Field _alignToCenter, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get__alignToCenter, put = __cordl_internal_set__alignToCenter)) bool _alignToCenter;
@@ -349,7 +336,7 @@ public:
   __declspec(property(get = __cordl_internal_get__contentTransform, put = __cordl_internal_set__contentTransform)) ::UnityW<::UnityEngine::RectTransform> _contentTransform;
 
   /// @brief Field _dataSource, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSource, put = __cordl_internal_set__dataSource)) ::HMUI::__TableView__IDataSource* _dataSource;
+  __declspec(property(get = __cordl_internal_get__dataSource, put = __cordl_internal_set__dataSource)) ::HMUI::TableView_IDataSource* _dataSource;
 
   /// @brief Field _isInitialized, offset 0xc0, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
@@ -361,8 +348,7 @@ public:
   __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) ::HMUI::FloatRectOffset* _padding;
 
   /// @brief Field _preallocatedCells, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__preallocatedCells,
-                      put = __cordl_internal_set__preallocatedCells)) ::ArrayW<::HMUI::__TableView__CellsGroup*, ::Array<::HMUI::__TableView__CellsGroup*>*>
+  __declspec(property(get = __cordl_internal_get__preallocatedCells, put = __cordl_internal_set__preallocatedCells)) ::ArrayW<::HMUI::TableView_CellsGroup*, ::Array<::HMUI::TableView_CellsGroup*>*>
       _preallocatedCells;
 
   /// @brief Field _prevMaxIdx, offset 0xbc, size 0x4
@@ -398,7 +384,7 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnCellsThatAreNotVisible, put = __cordl_internal_set__spawnCellsThatAreNotVisible)) bool _spawnCellsThatAreNotVisible;
 
   /// @brief Field _tableType, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__tableType, put = __cordl_internal_set__tableType)) ::HMUI::__TableView__TableType _tableType;
+  __declspec(property(get = __cordl_internal_get__tableType, put = __cordl_internal_set__tableType)) ::HMUI::TableView_TableType _tableType;
 
   /// @brief Field _viewportTransform, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__viewportTransform, put = __cordl_internal_set__viewportTransform)) ::UnityW<::UnityEngine::RectTransform> _viewportTransform;
@@ -414,27 +400,27 @@ public:
 
   __declspec(property(get = get_contentTransform)) ::UnityW<::UnityEngine::RectTransform> contentTransform;
 
-  __declspec(property(get = get_dataSource)) ::HMUI::__TableView__IDataSource* dataSource;
+  __declspec(property(get = get_dataSource)) ::HMUI::TableView_IDataSource* dataSource;
 
   /// @brief Field didChangeRectSizeEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_didChangeRectSizeEvent, put = __cordl_internal_set_didChangeRectSizeEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didChangeRectSizeEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeRectSizeEvent, put = __cordl_internal_set_didChangeRectSizeEvent)) ::System::Action_1<::HMUI::TableView*>* didChangeRectSizeEvent;
 
   /// @brief Field didDeleteCellsEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_didDeleteCellsEvent, put = __cordl_internal_set_didDeleteCellsEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didDeleteCellsEvent;
+  __declspec(property(get = __cordl_internal_get_didDeleteCellsEvent, put = __cordl_internal_set_didDeleteCellsEvent)) ::System::Action_1<::HMUI::TableView*>* didDeleteCellsEvent;
 
   /// @brief Field didDeselectCellWithIdxEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_didDeselectCellWithIdxEvent,
-                      put = __cordl_internal_set_didDeselectCellWithIdxEvent)) ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* didDeselectCellWithIdxEvent;
+                      put = __cordl_internal_set_didDeselectCellWithIdxEvent)) ::System::Action_2<::HMUI::TableView*, int32_t>* didDeselectCellWithIdxEvent;
 
   /// @brief Field didInsertCellsEvent, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_didInsertCellsEvent, put = __cordl_internal_set_didInsertCellsEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didInsertCellsEvent;
+  __declspec(property(get = __cordl_internal_get_didInsertCellsEvent, put = __cordl_internal_set_didInsertCellsEvent)) ::System::Action_1<::HMUI::TableView*>* didInsertCellsEvent;
 
   /// @brief Field didReloadDataEvent, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_didReloadDataEvent, put = __cordl_internal_set_didReloadDataEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didReloadDataEvent;
+  __declspec(property(get = __cordl_internal_get_didReloadDataEvent, put = __cordl_internal_set_didReloadDataEvent)) ::System::Action_1<::HMUI::TableView*>* didReloadDataEvent;
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
-                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* didSelectCellWithIdxEvent;
+                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_2<::HMUI::TableView*, int32_t>* didSelectCellWithIdxEvent;
 
   __declspec(property(get = get_numberOfCells)) int32_t numberOfCells;
 
@@ -448,7 +434,7 @@ public:
 
   __declspec(property(get = get_spacing)) float_t spacing;
 
-  __declspec(property(get = get_tableType)) ::HMUI::__TableView__TableType tableType;
+  __declspec(property(get = get_tableType)) ::HMUI::TableView_TableType tableType;
 
   __declspec(property(get = get_totalPadding)) float_t totalPadding;
 
@@ -459,105 +445,105 @@ public:
   /// @brief Convert operator to "::HMUI::ITableCellOwner"
   constexpr operator ::HMUI::ITableCellOwner*() noexcept;
 
-  /// @brief Method AddCellToReusableCells, addr 0x39aaf9c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AddCellToReusableCells, addr 0x3a01c0c, size 0x160, virtual false, abstract: false, final false
   inline void AddCellToReusableCells(::HMUI::TableCell* cell);
 
-  /// @brief Method Awake, addr 0x39a9fc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a00c30, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ChangeRectSize, addr 0x39abb44, size 0xb0, virtual false, abstract: false, final false
-  inline void ChangeRectSize(::UnityEngine::__RectTransform__Axis axis, float_t size);
+  /// @brief Method ChangeRectSize, addr 0x3a027b4, size 0xb0, virtual false, abstract: false, final false
+  inline void ChangeRectSize(::UnityEngine::RectTransform_Axis axis, float_t size);
 
-  /// @brief Method ClearHighlights, addr 0x39aa9a4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ClearHighlights, addr 0x3a01614, size 0x154, virtual false, abstract: false, final false
   inline void ClearHighlights();
 
-  /// @brief Method ClearSelection, addr 0x39ab94c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x3a025bc, size 0x1ac, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method DeleteCells, addr 0x39a8e64, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method DeleteCells, addr 0x39ffad4, size 0x318, virtual false, abstract: false, final false
   inline void DeleteCells(int32_t idx, int32_t count);
 
-  /// @brief Method DequeueReusableCellForIdentifier, addr 0x39a74d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DequeueReusableCellForIdentifier, addr 0x39fe148, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TableCell> DequeueReusableCellForIdentifier(::StringW identifier);
 
-  /// @brief Method DidSelectCellWithIdx, addr 0x39ab62c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DidSelectCellWithIdx, addr 0x3a0229c, size 0x28, virtual true, abstract: false, final false
   inline void DidSelectCellWithIdx(int32_t idx);
 
-  /// @brief Method GetCellAtIndex, addr 0x39aabb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCellAtIndex, addr 0x3a01820, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TableCell> GetCellAtIndex(int32_t index);
 
-  /// @brief Method GetCellPosition, addr 0x39aaf54, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetCellPosition, addr 0x3a01bc4, size 0x48, virtual true, abstract: false, final false
   inline float_t GetCellPosition(int32_t idx);
 
-  /// @brief Method GetCellSize, addr 0x39aaf4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCellSize, addr 0x3a01bbc, size 0x8, virtual true, abstract: false, final false
   inline float_t GetCellSize(int32_t idx);
 
-  /// @brief Method GetMaxVisibleIdx, addr 0x39aae24, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetMaxVisibleIdx, addr 0x3a01a94, size 0x128, virtual true, abstract: false, final false
   inline int32_t GetMaxVisibleIdx();
 
-  /// @brief Method GetMinVisibleIdx, addr 0x39aad38, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetMinVisibleIdx, addr 0x3a019a8, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetMinVisibleIdx();
 
-  /// @brief Method GetVisibleCellsIdRange, addr 0x39aac60, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetVisibleCellsIdRange, addr 0x3a018d0, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Tuple_2<int32_t, int32_t>* GetVisibleCellsIdRange();
 
-  /// @brief Method HandleCellSelectionDidChange, addr 0x39ab348, size 0x2e4, virtual false, abstract: false, final false
-  inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
+  /// @brief Method HandleCellSelectionDidChange, addr 0x3a01fb8, size 0x2e4, virtual false, abstract: false, final false
+  inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner);
 
-  /// @brief Method HandleScrollRectValueChanged, addr 0x39ab33c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleScrollRectValueChanged, addr 0x3a01fac, size 0xc, virtual false, abstract: false, final false
   inline void HandleScrollRectValueChanged(float_t f);
 
-  /// @brief Method Hide, addr 0x39aaaf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3a01768, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method InsertCells, addr 0x39a8a60, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method InsertCells, addr 0x39ff6d0, size 0x35c, virtual false, abstract: false, final false
   inline void InsertCells(int32_t idx, int32_t count);
 
-  /// @brief Method LayoutCellForIdx, addr 0x39ab0fc, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method LayoutCellForIdx, addr 0x3a01d6c, size 0x240, virtual false, abstract: false, final false
   inline void LayoutCellForIdx(::HMUI::TableCell* cell, int32_t idx, float_t offset);
 
-  /// @brief Method LazyInit, addr 0x39a9fd0, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x3a00c40, size 0x348, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::HMUI::TableView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39aa318, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a00f88, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x39aa3a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3a01014, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshCells, addr 0x39aa3f8, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method RefreshCells, addr 0x3a01068, size 0x5ac, virtual false, abstract: false, final false
   inline void RefreshCells(bool forcedVisualsRefresh, bool forcedContentRefresh);
 
-  /// @brief Method RefreshCellsContent, addr 0x39aaba4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RefreshCellsContent, addr 0x3a01814, size 0xc, virtual false, abstract: false, final false
   inline void RefreshCellsContent();
 
-  /// @brief Method RefreshContentSize, addr 0x39aab40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RefreshContentSize, addr 0x3a017b0, size 0x64, virtual false, abstract: false, final false
   inline void RefreshContentSize();
 
-  /// @brief Method ReloadData, addr 0x39a84f4, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x39ff164, size 0x2d8, virtual true, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method ReloadDataKeepingPosition, addr 0x39ab700, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReloadDataKeepingPosition, addr 0x3a02370, size 0x4c, virtual false, abstract: false, final false
   inline void ReloadDataKeepingPosition();
 
-  /// @brief Method ScrollToCellWithIdx, addr 0x39a91c0, size 0xe4, virtual false, abstract: false, final false
-  inline void ScrollToCellWithIdx(int32_t idx, ::HMUI::__TableView__ScrollPositionType scrollPositionType, bool animated);
+  /// @brief Method ScrollToCellWithIdx, addr 0x39ffe30, size 0xe4, virtual false, abstract: false, final false
+  inline void ScrollToCellWithIdx(int32_t idx, ::HMUI::TableView_ScrollPositionType scrollPositionType, bool animated);
 
-  /// @brief Method ScrollToPosition, addr 0x39abaf8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ScrollToPosition, addr 0x3a02768, size 0x4c, virtual false, abstract: false, final false
   inline void ScrollToPosition(float_t position, bool animated);
 
-  /// @brief Method SelectCellWithIdx, addr 0x39ab768, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x3a023d8, size 0x1e4, virtual false, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx, bool callbackTable);
 
-  /// @brief Method SetDataSource, addr 0x39ab74c, size 0x1c, virtual true, abstract: false, final false
-  inline void SetDataSource(::HMUI::__TableView__IDataSource* newDataSource, bool reloadData);
+  /// @brief Method SetDataSource, addr 0x3a023bc, size 0x1c, virtual true, abstract: false, final false
+  inline void SetDataSource(::HMUI::TableView_IDataSource* newDataSource, bool reloadData);
 
-  /// @brief Method Show, addr 0x39aab1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3a0178c, size 0x24, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method UpdateCachedData, addr 0x39ab654, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method UpdateCachedData, addr 0x3a022c4, size 0xac, virtual true, abstract: false, final false
   inline void UpdateCachedData();
 
   constexpr bool const& __cordl_internal_get__alignToCenter() const;
@@ -576,9 +562,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentTransform();
 
-  constexpr ::HMUI::__TableView__IDataSource*& __cordl_internal_get__dataSource();
+  constexpr ::HMUI::TableView_IDataSource* const& __cordl_internal_get__dataSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__TableView__IDataSource*> const& __cordl_internal_get__dataSource() const;
+  constexpr ::HMUI::TableView_IDataSource*& __cordl_internal_get__dataSource();
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
 
@@ -588,13 +574,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__numberOfCells();
 
+  constexpr ::HMUI::FloatRectOffset* const& __cordl_internal_get__padding() const;
+
   constexpr ::HMUI::FloatRectOffset*& __cordl_internal_get__padding();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::FloatRectOffset*> const& __cordl_internal_get__padding() const;
+  constexpr ::ArrayW<::HMUI::TableView_CellsGroup*, ::Array<::HMUI::TableView_CellsGroup*>*> const& __cordl_internal_get__preallocatedCells() const;
 
-  constexpr ::ArrayW<::HMUI::__TableView__CellsGroup*, ::Array<::HMUI::__TableView__CellsGroup*>*> const& __cordl_internal_get__preallocatedCells() const;
-
-  constexpr ::ArrayW<::HMUI::__TableView__CellsGroup*, ::Array<::HMUI::__TableView__CellsGroup*>*>& __cordl_internal_get__preallocatedCells();
+  constexpr ::ArrayW<::HMUI::TableView_CellsGroup*, ::Array<::HMUI::TableView_CellsGroup*>*>& __cordl_internal_get__preallocatedCells();
 
   constexpr int32_t const& __cordl_internal_get__prevMaxIdx() const;
 
@@ -608,10 +594,9 @@ public:
 
   constexpr bool& __cordl_internal_get__refreshCellsOnEnable();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*>*& __cordl_internal_get__reusableCells();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*>* const& __cordl_internal_get__reusableCells() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*>*> const&
-  __cordl_internal_get__reusableCells() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*>*& __cordl_internal_get__reusableCells();
 
   constexpr bool const& __cordl_internal_get__scrollToTopOnEnable() const;
 
@@ -621,9 +606,9 @@ public:
 
   constexpr ::UnityW<::HMUI::ScrollView>& __cordl_internal_get__scrollView();
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__selectedCellIdxs();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__selectedCellIdxs() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get__selectedCellIdxs() const;
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__selectedCellIdxs();
 
   constexpr ::HMUI::TableViewSelectionType const& __cordl_internal_get__selectionType() const;
 
@@ -637,41 +622,41 @@ public:
 
   constexpr bool& __cordl_internal_get__spawnCellsThatAreNotVisible();
 
-  constexpr ::HMUI::__TableView__TableType const& __cordl_internal_get__tableType() const;
+  constexpr ::HMUI::TableView_TableType const& __cordl_internal_get__tableType() const;
 
-  constexpr ::HMUI::__TableView__TableType& __cordl_internal_get__tableType();
+  constexpr ::HMUI::TableView_TableType& __cordl_internal_get__tableType();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewportTransform() const;
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewportTransform();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>* const& __cordl_internal_get__visibleCells() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*& __cordl_internal_get__visibleCells();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*> const& __cordl_internal_get__visibleCells() const;
+  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didChangeRectSizeEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didChangeRectSizeEvent();
+  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didChangeRectSizeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::TableView>>*> const& __cordl_internal_get_didChangeRectSizeEvent() const;
+  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didDeleteCellsEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didDeleteCellsEvent();
+  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didDeleteCellsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::TableView>>*> const& __cordl_internal_get_didDeleteCellsEvent() const;
+  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>* const& __cordl_internal_get_didDeselectCellWithIdxEvent() const;
 
-  constexpr ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>*& __cordl_internal_get_didDeselectCellWithIdxEvent();
+  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>*& __cordl_internal_get_didDeselectCellWithIdxEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>*> const& __cordl_internal_get_didDeselectCellWithIdxEvent() const;
+  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didInsertCellsEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didInsertCellsEvent();
+  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didInsertCellsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::TableView>>*> const& __cordl_internal_get_didInsertCellsEvent() const;
+  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didReloadDataEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didReloadDataEvent();
+  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didReloadDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::TableView>>*> const& __cordl_internal_get_didReloadDataEvent() const;
+  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>*> const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
+  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
   constexpr void __cordl_internal_set__alignToCenter(bool value);
 
@@ -681,7 +666,7 @@ public:
 
   constexpr void __cordl_internal_set__contentTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr void __cordl_internal_set__dataSource(::HMUI::__TableView__IDataSource* value);
+  constexpr void __cordl_internal_set__dataSource(::HMUI::TableView_IDataSource* value);
 
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
@@ -689,7 +674,7 @@ public:
 
   constexpr void __cordl_internal_set__padding(::HMUI::FloatRectOffset* value);
 
-  constexpr void __cordl_internal_set__preallocatedCells(::ArrayW<::HMUI::__TableView__CellsGroup*, ::Array<::HMUI::__TableView__CellsGroup*>*> value);
+  constexpr void __cordl_internal_set__preallocatedCells(::ArrayW<::HMUI::TableView_CellsGroup*, ::Array<::HMUI::TableView_CellsGroup*>*> value);
 
   constexpr void __cordl_internal_set__prevMaxIdx(int32_t value);
 
@@ -711,112 +696,112 @@ public:
 
   constexpr void __cordl_internal_set__spawnCellsThatAreNotVisible(bool value);
 
-  constexpr void __cordl_internal_set__tableType(::HMUI::__TableView__TableType value);
+  constexpr void __cordl_internal_set__tableType(::HMUI::TableView_TableType value);
 
   constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform> value);
 
   constexpr void __cordl_internal_set__visibleCells(::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>* value);
 
-  constexpr void __cordl_internal_set_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  constexpr void __cordl_internal_set_didChangeRectSizeEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  constexpr void __cordl_internal_set_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  constexpr void __cordl_internal_set_didDeleteCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  constexpr void __cordl_internal_set_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
+  constexpr void __cordl_internal_set_didDeselectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
 
-  constexpr void __cordl_internal_set_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  constexpr void __cordl_internal_set_didInsertCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  constexpr void __cordl_internal_set_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  constexpr void __cordl_internal_set_didReloadDataEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x39a92a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fff18, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeRectSizeEvent, addr 0x39a9d34, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method add_didChangeRectSizeEvent, addr 0x3a009a4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didChangeRectSizeEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method add_didDeleteCellsEvent, addr 0x39a9bd4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method add_didDeleteCellsEvent, addr 0x3a00844, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didDeleteCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method add_didDeselectCellWithIdxEvent, addr 0x39a97b4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
+  /// @brief Method add_didDeselectCellWithIdxEvent, addr 0x3a00424, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didDeselectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
 
-  /// @brief Method add_didInsertCellsEvent, addr 0x39a9a74, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method add_didInsertCellsEvent, addr 0x3a006e4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didInsertCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method add_didReloadDataEvent, addr 0x39a9914, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method add_didReloadDataEvent, addr 0x3a00584, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didReloadDataEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x39a9654, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3a002c4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
 
-  /// @brief Method get_canSelectSelectedCell, addr 0x39a964c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canSelectSelectedCell, addr 0x3a002bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_canSelectSelectedCell();
 
-  /// @brief Method get_cellSize, addr 0x39a9ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize, addr 0x3a00b2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cellSize();
 
-  /// @brief Method get_contentSize, addr 0x39a9f80, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_contentSize, addr 0x3a00bf0, size 0x40, virtual true, abstract: false, final false
   inline float_t get_contentSize();
 
-  /// @brief Method get_contentTransform, addr 0x39a9eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentTransform, addr 0x3a00b1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_contentTransform();
 
-  /// @brief Method get_dataSource, addr 0x39a9e94, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::__TableView__IDataSource* get_dataSource();
+  /// @brief Method get_dataSource, addr 0x3a00b04, size 0x8, virtual false, abstract: false, final false
+  inline ::HMUI::TableView_IDataSource* get_dataSource();
 
-  /// @brief Method get_numberOfCells, addr 0x39a9eb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfCells, addr 0x3a00b24, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfCells();
 
-  /// @brief Method get_paddingEnd, addr 0x39a9f50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_paddingEnd, addr 0x3a00bc0, size 0x30, virtual false, abstract: false, final false
   inline float_t get_paddingEnd();
 
-  /// @brief Method get_paddingStart, addr 0x39a9f20, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_paddingStart, addr 0x3a00b90, size 0x30, virtual false, abstract: false, final false
   inline float_t get_paddingStart();
 
-  /// @brief Method get_scrollView, addr 0x39a9ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollView, addr 0x3a00b44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ScrollView> get_scrollView();
 
-  /// @brief Method get_selectionType, addr 0x39a963c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectionType, addr 0x3a002ac, size 0x8, virtual true, abstract: false, final true
   inline ::HMUI::TableViewSelectionType get_selectionType();
 
-  /// @brief Method get_spacing, addr 0x39a9ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spacing, addr 0x3a00b34, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spacing();
 
-  /// @brief Method get_tableType, addr 0x39a9ecc, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::__TableView__TableType get_tableType();
+  /// @brief Method get_tableType, addr 0x3a00b3c, size 0x8, virtual false, abstract: false, final false
+  inline ::HMUI::TableView_TableType get_tableType();
 
-  /// @brief Method get_totalPadding, addr 0x39a9edc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_totalPadding, addr 0x3a00b4c, size 0x44, virtual false, abstract: false, final false
   inline float_t get_totalPadding();
 
-  /// @brief Method get_viewportTransform, addr 0x39a9ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewportTransform, addr 0x3a00b14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_viewportTransform();
 
-  /// @brief Method get_visibleCells, addr 0x39a9e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visibleCells, addr 0x3a00b0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::HMUI::TableCell>>* get_visibleCells();
 
   /// @brief Convert to "::HMUI::ITableCellOwner"
   constexpr ::HMUI::ITableCellOwner* i___HMUI__ITableCellOwner() noexcept;
 
-  /// @brief Method remove_didChangeRectSizeEvent, addr 0x39a9de4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method remove_didChangeRectSizeEvent, addr 0x3a00a54, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didChangeRectSizeEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method remove_didDeleteCellsEvent, addr 0x39a9c84, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method remove_didDeleteCellsEvent, addr 0x3a008f4, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didDeleteCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method remove_didDeselectCellWithIdxEvent, addr 0x39a9864, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
+  /// @brief Method remove_didDeselectCellWithIdxEvent, addr 0x3a004d4, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didDeselectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
 
-  /// @brief Method remove_didInsertCellsEvent, addr 0x39a9b24, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method remove_didInsertCellsEvent, addr 0x3a00794, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didInsertCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method remove_didReloadDataEvent, addr 0x39a99c4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
+  /// @brief Method remove_didReloadDataEvent, addr 0x3a00634, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didReloadDataEvent(::System::Action_1<::HMUI::TableView*>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x39a9704, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3a00374, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
 
-  /// @brief Method set_selectionType, addr 0x39a9644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectionType, addr 0x3a002b4, size 0x8, virtual false, abstract: false, final false
   inline void set_selectionType(::HMUI::TableViewSelectionType value);
 
 protected:
@@ -832,6 +817,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TableView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TableView(TableView const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16115 };
+
+  /// @brief Field kFixedCellSizeIndex offset 0xffffffff size 0x4
+  static constexpr int32_t kFixedCellSizeIndex{ static_cast<int32_t>(0xffffffff) };
 
   /// @brief Field _scrollView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____scrollView;
@@ -849,7 +840,7 @@ public:
   ::HMUI::FloatRectOffset* ____padding;
 
   /// @brief Field _tableType, offset: 0x38, size: 0x4, def value: None
-  ::HMUI::__TableView__TableType ____tableType;
+  ::HMUI::TableView_TableType ____tableType;
 
   /// @brief Field _selectionType, offset: 0x3c, size: 0x4, def value: None
   ::HMUI::TableViewSelectionType ____selectionType;
@@ -861,25 +852,25 @@ public:
   bool ____spawnCellsThatAreNotVisible;
 
   /// @brief Field _preallocatedCells, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::HMUI::__TableView__CellsGroup*, ::Array<::HMUI::__TableView__CellsGroup*>*> ____preallocatedCells;
+  ::ArrayW<::HMUI::TableView_CellsGroup*, ::Array<::HMUI::TableView_CellsGroup*>*> ____preallocatedCells;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x50, size: 0x8, def value: None
-  ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* ___didSelectCellWithIdxEvent;
+  ::System::Action_2<::HMUI::TableView*, int32_t>* ___didSelectCellWithIdxEvent;
 
   /// @brief Field didDeselectCellWithIdxEvent, offset: 0x58, size: 0x8, def value: None
-  ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* ___didDeselectCellWithIdxEvent;
+  ::System::Action_2<::HMUI::TableView*, int32_t>* ___didDeselectCellWithIdxEvent;
 
   /// @brief Field didReloadDataEvent, offset: 0x60, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didReloadDataEvent;
+  ::System::Action_1<::HMUI::TableView*>* ___didReloadDataEvent;
 
   /// @brief Field didInsertCellsEvent, offset: 0x68, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didInsertCellsEvent;
+  ::System::Action_1<::HMUI::TableView*>* ___didInsertCellsEvent;
 
   /// @brief Field didDeleteCellsEvent, offset: 0x70, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didDeleteCellsEvent;
+  ::System::Action_1<::HMUI::TableView*>* ___didDeleteCellsEvent;
 
   /// @brief Field didChangeRectSizeEvent, offset: 0x78, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didChangeRectSizeEvent;
+  ::System::Action_1<::HMUI::TableView*>* ___didChangeRectSizeEvent;
 
   /// @brief Field _contentTransform, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentTransform;
@@ -888,7 +879,7 @@ public:
   ::UnityW<::UnityEngine::RectTransform> ____viewportTransform;
 
   /// @brief Field _dataSource, offset: 0x90, size: 0x8, def value: None
-  ::HMUI::__TableView__IDataSource* ____dataSource;
+  ::HMUI::TableView_IDataSource* ____dataSource;
 
   /// @brief Field _numberOfCells, offset: 0x98, size: 0x4, def value: None
   int32_t ____numberOfCells;
@@ -917,17 +908,9 @@ public:
   /// @brief Field _refreshCellsOnEnable, offset: 0xc1, size: 0x1, def value: None
   bool ____refreshCellsOnEnable;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16080 };
-
-  /// @brief Field kFixedCellSizeIndex offset 0xffffffff size 0x4
-  static constexpr int32_t kFixedCellSizeIndex{ static_cast<int32_t>(0xffffffff) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::TableView, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::TableView, ____scrollView) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TableView, ____scrollToTopOnEnable) == 0x28, "Offset mismatch!");
@@ -984,12 +967,14 @@ static_assert(offsetof(::HMUI::TableView, ____isInitialized) == 0xc0, "Offset mi
 
 static_assert(offsetof(::HMUI::TableView, ____refreshCellsOnEnable) == 0xc1, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HMUI::TableView, 0xc8>, "Size mismatch!");
+
 } // namespace HMUI
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__TableView__ScrollPositionType, "HMUI", "TableView/ScrollPositionType");
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__TableView__TableType, "HMUI", "TableView/TableType");
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableView_ScrollPositionType, "HMUI", "TableView/ScrollPositionType");
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableView_TableType, "HMUI", "TableView/TableType");
 NEED_NO_BOX(::HMUI::TableView);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableView*, "HMUI", "TableView");
-NEED_NO_BOX(::HMUI::__TableView__CellsGroup);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__TableView__CellsGroup*, "HMUI", "TableView/CellsGroup");
-NEED_NO_BOX(::HMUI::__TableView__IDataSource);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__TableView__IDataSource*, "HMUI", "TableView/IDataSource");
+NEED_NO_BOX(::HMUI::TableView_CellsGroup);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableView_CellsGroup*, "HMUI", "TableView/CellsGroup");
+NEED_NO_BOX(::HMUI::TableView_IDataSource);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableView_IDataSource*, "HMUI", "TableView/IDataSource");

@@ -24,26 +24,25 @@ class KeyWrapperUtil;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil);
-// Type: Org.BouncyCastle.Crypto.Operators::KeyWrapperUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Operators::KeyWrapperUtil*
+// CS Name: Org.BouncyCastle.Crypto.Operators.KeyWrapperUtil
 class CORDL_TYPE KeyWrapperUtil : public ::System::Object {
 public:
   // Declarations
   /// @brief Field providerMap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_providerMap, put = setStaticF_providerMap)) ::System::Collections::IDictionary* providerMap;
+  __declspec(property(get = getStaticF_providerMap, put = setStaticF_providerMap)) ::System::Collections::IDictionary* providerMap;
 
   static inline ::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil* New_ctor();
 
-  /// @brief Method UnwrapperForName, addr 0x237c948, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method UnwrapperForName, addr 0x23afc34, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IKeyUnwrapper* UnwrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method WrapperForName, addr 0x237c140, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method WrapperForName, addr 0x23af42c, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IKeyWrapper* WrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x237cb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23afe64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_providerMap();

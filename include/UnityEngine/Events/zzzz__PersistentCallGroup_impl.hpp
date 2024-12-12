@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::PersistentCallGroup::*)()>(&::UnityEngine::Events::PersistentCallGroup::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x485b1f4;
+  constexpr static std::size_t addrs = 0x48bc56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::PersistentCallGroup*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Events::PersistentCallGroup::*)()>(&::UnityEngine::Events::PersistentCallGroup::get_Count)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x485b274;
+  constexpr static std::size_t addrs = 0x48bc5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::PersistentCallGroup*>::get(), "get_Count",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::PersistentCallGroup::*)(
     ::UnityEngine::Events::InvokableCallList*, ::UnityEngine::Events::UnityEventBase*)>(&::UnityEngine::Events::PersistentCallGroup::Initialize)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x485b2bc;
+  constexpr static std::size_t addrs = 0x48bc634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,17 +52,13 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::Persiste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Calls;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*> const&
-UnityEngine::Events::PersistentCallGroup::__cordl_internal_get_m_Calls() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* const& UnityEngine::Events::PersistentCallGroup::__cordl_internal_get_m_Calls() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Calls;
 }
 constexpr void UnityEngine::Events::PersistentCallGroup::__cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Calls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::Events::PersistentCallGroup* UnityEngine::Events::PersistentCallGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::PersistentCallGroup*>());
 }
 inline void UnityEngine::Events::PersistentCallGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::PersistentCallGroup*>::get(), ".ctor",
@@ -80,6 +76,9 @@ inline void UnityEngine::Events::PersistentCallGroup::Initialize(::UnityEngine::
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::InvokableCallList*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityEventBase*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, invokableList, unityEventBase);
+}
+inline ::UnityEngine::Events::PersistentCallGroup* UnityEngine::Events::PersistentCallGroup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::PersistentCallGroup*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::PersistentCallGroup::PersistentCallGroup() {}

@@ -12,22 +12,21 @@ class PlatformHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::PlatformHelper);
-// Type: System.Threading::PlatformHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::PlatformHelper*
+// CS Name: System.Threading.PlatformHelper
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IsSingleProcessor, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IsSingleProcessor, put = setStaticF_IsSingleProcessor)) bool IsSingleProcessor;
+  __declspec(property(get = getStaticF_IsSingleProcessor, put = setStaticF_IsSingleProcessor)) bool IsSingleProcessor;
 
   /// @brief Field s_lastProcessorCountRefreshTicks, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_lastProcessorCountRefreshTicks, put = setStaticF_s_lastProcessorCountRefreshTicks)) int32_t s_lastProcessorCountRefreshTicks;
+  __declspec(property(get = getStaticF_s_lastProcessorCountRefreshTicks, put = setStaticF_s_lastProcessorCountRefreshTicks)) int32_t s_lastProcessorCountRefreshTicks;
 
   /// @brief Field s_processorCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_processorCount, put = setStaticF_s_processorCount)) int32_t s_processorCount;
+  __declspec(property(get = getStaticF_s_processorCount, put = setStaticF_s_processorCount)) int32_t s_processorCount;
 
   static inline bool getStaticF_IsSingleProcessor();
 
@@ -35,7 +34,7 @@ public:
 
   static inline int32_t getStaticF_s_processorCount();
 
-  /// @brief Method get_ProcessorCount, addr 0x3dee360, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessorCount, addr 0x3e4e40c, size 0xec, virtual false, abstract: false, final false
   static inline int32_t get_ProcessorCount();
 
   static inline void setStaticF_IsSingleProcessor(bool value);

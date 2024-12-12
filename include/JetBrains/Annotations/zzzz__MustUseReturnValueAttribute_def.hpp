@@ -12,11 +12,10 @@ class MustUseReturnValueAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::MustUseReturnValueAttribute);
-// Type: JetBrains.Annotations::MustUseReturnValueAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::MustUseReturnValueAttribute*
+// CS Name: JetBrains.Annotations.MustUseReturnValueAttribute
 class CORDL_TYPE MustUseReturnValueAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -35,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__Justification_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a8c2b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0bc8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW justification);
 
-  /// @brief Method get_Justification, addr 0x4a8c2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Justification, addr 0x4af0bf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Justification();
 
-  /// @brief Method set_Justification, addr 0x4a8c2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Justification, addr 0x4af0bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_Justification(::StringW value);
 
 protected:
@@ -61,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MustUseReturnValueAttribute(MustUseReturnValueAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
+
   /// @brief Field <Justification>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Justification_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MustUseReturnValueAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::MustUseReturnValueAttribute, ____Justification_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MustUseReturnValueAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::MustUseReturnValueAttribute);

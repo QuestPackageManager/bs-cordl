@@ -14,11 +14,10 @@ class LightmapData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::LightmapData);
-// Type: UnityEngine::LightmapData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::LightmapData*
+// CS Name: UnityEngine.LightmapData
 class CORDL_TYPE LightmapData : public ::System::Object {
 public:
   // Declarations
@@ -51,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShadowMask(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x4812ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48749f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,6 +67,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightmapData(LightmapData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10720 };
+
   /// @brief Field m_Light, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_Light;
 
@@ -77,19 +79,16 @@ public:
   /// @brief Field m_ShadowMask, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_ShadowMask;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10687 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::LightmapData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::LightmapData, ___m_Light) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::LightmapData, ___m_Dir) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::LightmapData, ___m_ShadowMask) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::LightmapData, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::LightmapData);

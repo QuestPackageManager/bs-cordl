@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XRUtilities)
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -11,11 +12,10 @@ class XRUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRUtilities);
-// Type: UnityEngine.InputSystem.XR::XRUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.XR::XRUtilities*
+// CS Name: UnityEngine.InputSystem.XR.XRUtilities
 class CORDL_TYPE XRUtilities : public ::System::Object {
 public:
   // Declarations
@@ -43,7 +43,7 @@ public:
   static constexpr ::ConstString InterfaceV1{ u"XRInput" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

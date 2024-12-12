@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireEffect::*)()>(&::GlobalNamespace::FireEffect::Start)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x223d9f4;
+  constexpr static std::size_t addrs = 0x3ad6580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,8 +28,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireEffect::*)()>(&::GlobalNamespace::FireEffect::OnDestroy)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x223dc50;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x3ad67dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,27 +38,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::FireEffect.HandleColorChangeBeatmapEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
-    &::GlobalNamespace::FireEffect::HandleColorChangeBeatmapEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireEffect*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireEffect*>::get(), 6));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::FireEffect.SetRenderersEnabled
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireEffect::*)(bool)>(&::GlobalNamespace::FireEffect::SetRenderersEnabled)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x223deb4;
+  constexpr static std::size_t addrs = 0x3ad6a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireEffect::*)(float_t)>(&::GlobalNamespace::FireEffect::NotifyAlphaWasChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x223e0d4;
+  constexpr static std::size_t addrs = 0x3ad6cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireEffect::*)()>(&::GlobalNamespace::FireEffect::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x223e20c;
+  constexpr static std::size_t addrs = 0x3ad6e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireEffect*>::get(), ".ctor",
@@ -154,6 +139,18 @@ constexpr void GlobalNamespace::FireEffect::__cordl_internal_set__bloomPropertyB
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr bool& GlobalNamespace::FireEffect::__cordl_internal_get__useEmissionColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useEmissionColor;
+}
+constexpr bool const& GlobalNamespace::FireEffect::__cordl_internal_get__useEmissionColor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useEmissionColor;
+}
+constexpr void GlobalNamespace::FireEffect::__cordl_internal_set__useEmissionColor(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____useEmissionColor = value;
+}
 constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::FireEffect::__cordl_internal_get__privatePointLightPropertyBlockController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____privatePointLightPropertyBlockController;
@@ -165,6 +162,19 @@ constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& Gl
 constexpr void GlobalNamespace::FireEffect::__cordl_internal_set__privatePointLightPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____privatePointLightPropertyBlockController)),
+                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::FireEffect::__cordl_internal_get__emissionTextureColorPropertyBlockController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____emissionTextureColorPropertyBlockController;
+}
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& GlobalNamespace::FireEffect::__cordl_internal_get__emissionTextureColorPropertyBlockController() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____emissionTextureColorPropertyBlockController;
+}
+constexpr void GlobalNamespace::FireEffect::__cordl_internal_set__emissionTextureColorPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____emissionTextureColorPropertyBlockController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>& GlobalNamespace::FireEffect::__cordl_internal_get__bloomPrePassRenderer() {
@@ -231,7 +241,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::FireE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& GlobalNamespace::FireEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::FireEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -255,7 +265,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::FireE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColorBeatmapEventCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& GlobalNamespace::FireEffect::__cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::FireEffect::__cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColorBeatmapEventCallbackWrapper;
 }
@@ -291,13 +301,13 @@ inline void GlobalNamespace::FireEffect::NotifyAlphaWasChanged(float_t currentAl
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentAlpha);
 }
-inline ::GlobalNamespace::FireEffect* GlobalNamespace::FireEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FireEffect*>());
-}
 inline void GlobalNamespace::FireEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FireEffect* GlobalNamespace::FireEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FireEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FireEffect::FireEffect() {}

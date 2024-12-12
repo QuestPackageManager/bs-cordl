@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 CORDL_MODULE_EXPORT(TubeLightAsset)
 namespace GlobalNamespace {
 class TubeLightBehaviour;
@@ -17,9 +18,6 @@ struct Playable;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace UnityEngine {
 class GameObject;
 }
@@ -29,11 +27,10 @@ class TubeLightAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TubeLightAsset);
-// Type: ::TubeLightAsset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TubeLightAsset*
+// CS Name: TubeLightAsset
 class CORDL_TYPE TubeLightAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
@@ -45,21 +42,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3ad4f44, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3b34588, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::TubeLightAsset* New_ctor();
 
-  constexpr ::GlobalNamespace::TubeLightBehaviour*& __cordl_internal_get__template();
+  constexpr ::GlobalNamespace::TubeLightBehaviour* const& __cordl_internal_get__template() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeLightBehaviour*> const& __cordl_internal_get__template() const;
+  constexpr ::GlobalNamespace::TubeLightBehaviour*& __cordl_internal_get__template();
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::TubeLightBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x3ad4fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b34630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3ad4f3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3b34580, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -79,18 +76,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TubeLightAsset(TubeLightAsset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5207 };
+
   /// @brief Field _template, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::TubeLightBehaviour* ____template;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightAsset, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TubeLightAsset, ____template) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightAsset, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TubeLightAsset);

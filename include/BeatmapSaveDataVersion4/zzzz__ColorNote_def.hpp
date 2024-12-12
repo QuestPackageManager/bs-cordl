@@ -8,23 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorNote)
-namespace BeatmapSaveDataCommon {
-struct NoteColorType;
-}
-namespace BeatmapSaveDataCommon {
-struct NoteCutDirection;
-}
 // Forward declare root types
 namespace BeatmapSaveDataVersion4 {
 struct ColorNote;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataVersion4::ColorNote);
-// Type: BeatmapSaveDataVersion4::ColorNote
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.NoteColorType, BeatmapSaveDataCommon.NoteCutDirection
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataVersion4::ColorNote
+// CS Name: BeatmapSaveDataVersion4.ColorNote
 struct CORDL_TYPE ColorNote {
 public:
   // Declarations
@@ -36,6 +29,12 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "c", ty: "::BeatmapSaveDataCommon::NoteColorType", modifiers: "", def_value: None }, CppParam { name: "d", ty:
   // "::BeatmapSaveDataCommon::NoteCutDirection", modifiers: "", def_value: None }]
   constexpr ColorNote(int32_t x, int32_t y, int32_t a, ::BeatmapSaveDataCommon::NoteColorType c, ::BeatmapSaveDataCommon::NoteCutDirection d) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13384 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   int32_t x;
@@ -52,17 +51,9 @@ public:
   /// @brief Field d, offset: 0x10, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection d;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13353 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::ColorNote, 0x14>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion4::ColorNote, x) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::ColorNote, y) == 0x4, "Offset mismatch!");
@@ -72,6 +63,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::ColorNote, a) == 0x8, "Offset 
 static_assert(offsetof(::BeatmapSaveDataVersion4::ColorNote, c) == 0xc, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::ColorNote, d) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::ColorNote, 0x14>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::ColorNote, "BeatmapSaveDataVersion4", "ColorNote");

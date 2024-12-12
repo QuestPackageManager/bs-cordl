@@ -7,24 +7,23 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollInfo)
 namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
+class AlphabetScrollInfo_Data;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class AlphabetScrollInfo;
 }
 namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
+class AlphabetScrollInfo_Data;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AlphabetScrollInfo);
-MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollInfo__Data);
-// Type: ::Data
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::AlphabetScrollInfo_Data);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AlphabetScrollInfo::Data*
-class CORDL_TYPE __AlphabetScrollInfo__Data : public ::System::Object {
+// CS Name: AlphabetScrollInfo/Data
+class CORDL_TYPE AlphabetScrollInfo_Data : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cellIdx, offset 0x14, size 0x4
@@ -33,7 +32,7 @@ public:
   /// @brief Field character, offset 0x10, size 0x2
   __declspec(property(get = __cordl_internal_get_character, put = __cordl_internal_set_character)) char16_t character;
 
-  static inline ::GlobalNamespace::__AlphabetScrollInfo__Data* New_ctor(char16_t character, int32_t cellIdx);
+  static inline ::GlobalNamespace::AlphabetScrollInfo_Data* New_ctor(char16_t character, int32_t cellIdx);
 
   constexpr int32_t const& __cordl_internal_get_cellIdx() const;
 
@@ -47,22 +46,25 @@ public:
 
   constexpr void __cordl_internal_set_character(char16_t value);
 
-  /// @brief Method .ctor, addr 0x396bf9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c1484, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(char16_t character, int32_t cellIdx);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __AlphabetScrollInfo__Data();
+  constexpr AlphabetScrollInfo_Data();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__AlphabetScrollInfo__Data", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo_Data", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __AlphabetScrollInfo__Data(__AlphabetScrollInfo__Data&&) = delete;
+  AlphabetScrollInfo_Data(AlphabetScrollInfo_Data&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__AlphabetScrollInfo__Data", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo_Data", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __AlphabetScrollInfo__Data(__AlphabetScrollInfo__Data const&) = delete;
+  AlphabetScrollInfo_Data(AlphabetScrollInfo_Data const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16398 };
 
   /// @brief Field character, offset: 0x10, size: 0x2, def value: None
   char16_t ___character;
@@ -70,32 +72,28 @@ public:
   /// @brief Field cellIdx, offset: 0x14, size: 0x4, def value: None
   int32_t ___cellIdx;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16362 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AlphabetScrollInfo__Data, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::AlphabetScrollInfo_Data, ___character) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__AlphabetScrollInfo__Data, ___character) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AlphabetScrollInfo_Data, ___cellIdx) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__AlphabetScrollInfo__Data, ___cellIdx) == 0x14, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AlphabetScrollInfo_Data, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::AlphabetScrollInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AlphabetScrollInfo*
+// CS Name: AlphabetScrollInfo
 class CORDL_TYPE AlphabetScrollInfo : public ::System::Object {
 public:
   // Declarations
-  using Data = ::GlobalNamespace::__AlphabetScrollInfo__Data;
+  using Data = ::GlobalNamespace::AlphabetScrollInfo_Data;
 
   static inline ::GlobalNamespace::AlphabetScrollInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x396bf94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c147c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +111,7 @@ public:
   AlphabetScrollInfo(AlphabetScrollInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,5 +121,5 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AlphabetScrollI
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AlphabetScrollInfo);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlphabetScrollInfo*, "", "AlphabetScrollInfo");
-NEED_NO_BOX(::GlobalNamespace::__AlphabetScrollInfo__Data);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AlphabetScrollInfo__Data*, "", "AlphabetScrollInfo/Data");
+NEED_NO_BOX(::GlobalNamespace::AlphabetScrollInfo_Data);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlphabetScrollInfo_Data*, "", "AlphabetScrollInfo/Data");

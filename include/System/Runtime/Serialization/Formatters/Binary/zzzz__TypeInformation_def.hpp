@@ -12,11 +12,10 @@ class TypeInformation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::TypeInformation);
-// Type: System.Runtime.Serialization.Formatters.Binary::TypeInformation
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::TypeInformation*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.TypeInformation
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
   // Declarations
@@ -55,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
 
-  /// @brief Method .ctor, addr 0x3ca78e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d07a58, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
-  /// @brief Method get_AssemblyString, addr 0x3ca78d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyString, addr 0x3d07a48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyString();
 
-  /// @brief Method get_FullTypeName, addr 0x3ca78cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTypeName, addr 0x3d07a40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();
 
-  /// @brief Method get_HasTypeForwardedFrom, addr 0x3ca78dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasTypeForwardedFrom, addr 0x3d07a50, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasTypeForwardedFrom();
 
 protected:
@@ -81,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeInformation(TypeInformation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3285 };
+
   /// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___fullTypeName;
 
@@ -90,19 +92,16 @@ public:
   /// @brief Field hasTypeForwardedFrom, offset: 0x20, size: 0x1, def value: None
   bool ___hasTypeForwardedFrom;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3285 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::TypeInformation, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::TypeInformation, ___fullTypeName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::TypeInformation, ___assemblyString) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::TypeInformation, ___hasTypeForwardedFrom) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::TypeInformation, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::TypeInformation);

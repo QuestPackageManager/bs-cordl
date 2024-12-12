@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventCallbackList* (
     ::UnityEngine::UIElements::EventCallbackListPool::*)(::UnityEngine::UIElements::EventCallbackList*)>(&::UnityEngine::UIElements::EventCallbackListPool::Get)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x49c09bc;
+  constexpr static std::size_t addrs = 0x4a252cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventCallbackListPool::*)(::UnityEngine::UIElements::EventCallbackList*)>(
     &::UnityEngine::UIElements::EventCallbackListPool::Release)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49c0d18;
+  constexpr static std::size_t addrs = 0x4a25628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventCallbackListPool::*)()>(
     &::UnityEngine::UIElements::EventCallbackListPool::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49c0de8;
+  constexpr static std::size_t addrs = 0x4a256f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackListPool*>::get(),
@@ -52,8 +52,7 @@ constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::Eve
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*> const&
-UnityEngine::UIElements::EventCallbackListPool::__cordl_internal_get_m_Stack() const {
+constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* const& UnityEngine::UIElements::EventCallbackListPool::__cordl_internal_get_m_Stack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
@@ -73,13 +72,13 @@ inline void UnityEngine::UIElements::EventCallbackListPool::Release(::UnityEngin
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventCallbackList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element);
 }
-inline ::UnityEngine::UIElements::EventCallbackListPool* UnityEngine::UIElements::EventCallbackListPool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventCallbackListPool*>());
-}
 inline void UnityEngine::UIElements::EventCallbackListPool::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackListPool*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::EventCallbackListPool* UnityEngine::UIElements::EventCallbackListPool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventCallbackListPool*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventCallbackListPool::EventCallbackListPool() {}

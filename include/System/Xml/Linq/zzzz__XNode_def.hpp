@@ -21,44 +21,43 @@ class XNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::XNode);
-// Type: System.Xml.Linq::XNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Linq.XObject
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::XNode*
+// CS Name: System.Xml.Linq.XNode
 class CORDL_TYPE XNode : public ::System::Xml::Linq::XObject {
 public:
   // Declarations
   /// @brief Field next, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Xml::Linq::XNode* next;
 
-  /// @brief Method AppendText, addr 0x41eb3f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppendText, addr 0x424c704, size 0x4, virtual true, abstract: false, final false
   inline void AppendText(::System::Text::StringBuilder* sb);
 
-  /// @brief Method CloneNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CloneNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
-  /// @brief Method GetXmlString, addr 0x41eaf78, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method GetXmlString, addr 0x424c28c, size 0x478, virtual false, abstract: false, final false
   inline ::StringW GetXmlString(::System::Xml::Linq::SaveOptions o);
 
   static inline ::System::Xml::Linq::XNode* New_ctor();
 
-  /// @brief Method Remove, addr 0x41eae1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x424c130, size 0x60, virtual false, abstract: false, final false
   inline void Remove();
 
-  /// @brief Method ToString, addr 0x41eae7c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x424c190, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method WriteTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method WriteTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
+
+  constexpr ::System::Xml::Linq::XNode* const& __cordl_internal_get_next() const;
 
   constexpr ::System::Xml::Linq::XNode*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& __cordl_internal_get_next() const;
-
   constexpr void __cordl_internal_set_next(::System::Xml::Linq::XNode* value);
 
-  /// @brief Method .ctor, addr 0x41e3fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42452f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,18 +74,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XNode(XNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17970 };
+
   /// @brief Field next, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Linq::XNode* ___next;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XNode, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::XNode, ___next) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XNode, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XNode);

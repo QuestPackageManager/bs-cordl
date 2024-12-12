@@ -12,11 +12,10 @@ struct FeatureType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::FeatureType);
-// Type: UnityEngine.InputSystem.XR::FeatureType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.XR::FeatureType
+// CS Name: UnityEngine.InputSystem.XR.FeatureType
 struct CORDL_TYPE FeatureType {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FeatureType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Axis1D value: static_cast<int32_t>(0x3)
+  /// @brief Field Axis1D value: I32(3)
   static ::UnityEngine::InputSystem::XR::FeatureType const Axis1D;
 
-  /// @brief Field Axis2D value: static_cast<int32_t>(0x4)
+  /// @brief Field Axis2D value: I32(4)
   static ::UnityEngine::InputSystem::XR::FeatureType const Axis2D;
 
-  /// @brief Field Axis3D value: static_cast<int32_t>(0x5)
+  /// @brief Field Axis3D value: I32(5)
   static ::UnityEngine::InputSystem::XR::FeatureType const Axis3D;
 
-  /// @brief Field Binary value: static_cast<int32_t>(0x1)
+  /// @brief Field Binary value: I32(1)
   static ::UnityEngine::InputSystem::XR::FeatureType const Binary;
 
-  /// @brief Field Bone value: static_cast<int32_t>(0x8)
+  /// @brief Field Bone value: I32(8)
   static ::UnityEngine::InputSystem::XR::FeatureType const Bone;
 
-  /// @brief Field Custom value: static_cast<int32_t>(0x0)
+  /// @brief Field Custom value: I32(0)
   static ::UnityEngine::InputSystem::XR::FeatureType const Custom;
 
-  /// @brief Field DiscreteStates value: static_cast<int32_t>(0x2)
+  /// @brief Field DiscreteStates value: I32(2)
   static ::UnityEngine::InputSystem::XR::FeatureType const DiscreteStates;
 
-  /// @brief Field Eyes value: static_cast<int32_t>(0x9)
+  /// @brief Field Eyes value: I32(9)
   static ::UnityEngine::InputSystem::XR::FeatureType const Eyes;
 
-  /// @brief Field Hand value: static_cast<int32_t>(0x7)
+  /// @brief Field Hand value: I32(7)
   static ::UnityEngine::InputSystem::XR::FeatureType const Hand;
 
-  /// @brief Field Rotation value: static_cast<int32_t>(0x6)
+  /// @brief Field Rotation value: I32(6)
   static ::UnityEngine::InputSystem::XR::FeatureType const Rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::FeatureType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::XR::FeatureType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::FeatureType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::FeatureType, "UnityEngine.InputSystem.XR", "FeatureType");

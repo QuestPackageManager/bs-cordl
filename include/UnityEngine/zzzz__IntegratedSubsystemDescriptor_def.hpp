@@ -5,12 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(IntegratedSubsystemDescriptor)
-namespace UnityEngine {
-class ISubsystemDescriptor;
-}
 namespace UnityEngine {
 class ISubsystem;
 }
@@ -20,11 +17,10 @@ class IntegratedSubsystemDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystemDescriptor);
-// Type: UnityEngine::IntegratedSubsystemDescriptor
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object, UnityEngine.ISubsystemDescriptor
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::IntegratedSubsystemDescriptor*
+// CS Name: UnityEngine.IntegratedSubsystemDescriptor
 class CORDL_TYPE IntegratedSubsystemDescriptor : public ::System::Object {
 public:
   // Declarations
@@ -36,12 +32,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
 
-  /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateImpl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x48b414c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x49187dc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -50,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48b4158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49187e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x48b40d4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x4918764, size 0x3c, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
@@ -73,18 +69,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18723 };
+
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::IntegratedSubsystemDescriptor, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::IntegratedSubsystemDescriptor, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::IntegratedSubsystemDescriptor, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::IntegratedSubsystemDescriptor);

@@ -12,11 +12,10 @@ struct AccessControlSections;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::AccessControlSections);
-// Type: System.Security.AccessControl::AccessControlSections
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
-// CS Name: ::System.Security.AccessControl::AccessControlSections
+// CS Name: System.Security.AccessControl.AccessControlSections
 struct CORDL_TYPE AccessControlSections {
 public:
   // Declarations
@@ -49,25 +48,22 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AccessControlSections(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Access value: static_cast<int32_t>(0x2)
+  /// @brief Field Access value: I32(2)
   static ::System::Security::AccessControl::AccessControlSections const Access;
 
-  /// @brief Field All value: static_cast<int32_t>(0xf)
+  /// @brief Field All value: I32(15)
   static ::System::Security::AccessControl::AccessControlSections const All;
 
-  /// @brief Field Audit value: static_cast<int32_t>(0x1)
+  /// @brief Field Audit value: I32(1)
   static ::System::Security::AccessControl::AccessControlSections const Audit;
 
-  /// @brief Field Group value: static_cast<int32_t>(0x8)
+  /// @brief Field Group value: I32(8)
   static ::System::Security::AccessControl::AccessControlSections const Group;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Security::AccessControl::AccessControlSections const None;
 
-  /// @brief Field Owner value: static_cast<int32_t>(0x4)
+  /// @brief Field Owner value: I32(4)
   static ::System::Security::AccessControl::AccessControlSections const Owner;
 
   /// @brief IL2CPP Metadata Type Index
@@ -76,12 +72,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AccessControlSections, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::AccessControl::AccessControlSections, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AccessControlSections, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AccessControlSections, "System.Security.AccessControl", "AccessControlSections");

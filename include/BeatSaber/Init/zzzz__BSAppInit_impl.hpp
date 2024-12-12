@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult (::BeatSaber::Init::BSAppInit::*)()>(
     &::BeatSaber::Init::BSAppInit::get_commandLineArguments)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x223ebfc;
+  constexpr static std::size_t addrs = 0x226f3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), "get_commandLineArguments",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(
     &::BeatSaber::Init::BSAppInit::set_commandLineArguments)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x223ec10;
+  constexpr static std::size_t addrs = 0x226f3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::PreloadAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x223ec24;
+  constexpr static std::size_t addrs = 0x226f400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::InstallBindings)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x223eccc;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x226f4a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223edc0;
+  constexpr static std::size_t addrs = 0x226f82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), ".ctor",
@@ -113,6 +113,15 @@ inline void BeatSaber::Init::BSAppInit::setStaticF_kAutoPlayOption(::BGLib::Dotn
 }
 inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption BeatSaber::Init::BSAppInit::getStaticF_kAutoPlayOption() {
   return ::cordl_internals::getStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAutoPlayOption",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get>();
+}
+inline void BeatSaber::Init::BSAppInit::setStaticF_kAutoRecOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {
+  ::cordl_internals::setStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAutoRecOption",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get>(
+      std::forward<::BGLib::DotnetExtension::CommandLine::ArgumentOption>(value));
+}
+inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption BeatSaber::Init::BSAppInit::getStaticF_kAutoRecOption() {
+  return ::cordl_internals::getStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAutoRecOption",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get>();
 }
 inline void BeatSaber::Init::BSAppInit::setStaticF_kRecordingToolOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {
@@ -174,13 +183,13 @@ inline void BeatSaber::Init::BSAppInit::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BeatSaber::Init::BSAppInit* BeatSaber::Init::BSAppInit::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::Init::BSAppInit*>());
-}
 inline void BeatSaber::Init::BSAppInit::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::Init::BSAppInit* BeatSaber::Init::BSAppInit::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::Init::BSAppInit*>());
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Init::BSAppInit::BSAppInit() {}

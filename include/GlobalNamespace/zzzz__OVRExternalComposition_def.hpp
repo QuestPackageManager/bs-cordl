@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRComposition_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRExternalComposition)
@@ -13,13 +11,13 @@ namespace GlobalNamespace {
 class OVRMRAudioFilter;
 }
 namespace GlobalNamespace {
+struct OVRManager_CompositionMethod;
+}
+namespace GlobalNamespace {
+struct OVRManager_TrackingOrigin;
+}
+namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
-}
-namespace GlobalNamespace {
-struct __OVRManager__CompositionMethod;
-}
-namespace GlobalNamespace {
-struct __OVRManager__TrackingOrigin;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -45,11 +43,10 @@ class OVRExternalComposition;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRExternalComposition);
-// Type: ::OVRExternalComposition
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRComposition
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRExternalComposition*
+// CS Name: OVRExternalComposition
 class CORDL_TYPE OVRExternalComposition : public ::GlobalNamespace::OVRComposition {
 public:
   // Declarations
@@ -117,46 +114,46 @@ public:
   /// @brief Field skipFrame, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_skipFrame, put = __cordl_internal_set_skipFrame)) bool skipFrame;
 
-  /// @brief Method CacheAudioData, addr 0x3f39f6c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CacheAudioData, addr 0x3f9a018, size 0x138, virtual false, abstract: false, final false
   inline void CacheAudioData(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method CastMrcFrame, addr 0x3f38a30, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CastMrcFrame, addr 0x3f98adc, size 0x1e4, virtual false, abstract: false, final false
   inline int32_t CastMrcFrame(int32_t castTextureIndex);
 
-  /// @brief Method Cleanup, addr 0x3f39d88, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3f99e34, size 0x1e4, virtual true, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CleanupAudioFilter, addr 0x3f388ec, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CleanupAudioFilter, addr 0x3f98998, size 0x144, virtual false, abstract: false, final false
   inline void CleanupAudioFilter();
 
-  /// @brief Method CompositionMethod, addr 0x3f371a8, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::__OVRManager__CompositionMethod CompositionMethod();
+  /// @brief Method CompositionMethod, addr 0x3f97254, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::OVRManager_CompositionMethod CompositionMethod();
 
-  /// @brief Method DisplayRefreshRateChanged, addr 0x3f3a0a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DisplayRefreshRateChanged, addr 0x3f9a150, size 0x14, virtual false, abstract: false, final false
   inline void DisplayRefreshRateChanged(float_t fromRefreshRate, float_t toRefreshRate);
 
-  /// @brief Method GetAndResetAudioData, addr 0x3f38c14, size 0x1dc, virtual false, abstract: false, final false
-  inline void GetAndResetAudioData(ByRef<::ArrayW<float_t, ::Array<float_t>*>> audioData, ByRef<int32_t> audioFrames, ByRef<int32_t> channels);
+  /// @brief Method GetAndResetAudioData, addr 0x3f98cc0, size 0x1dc, virtual false, abstract: false, final false
+  inline void GetAndResetAudioData(::ByRef<::ArrayW<float_t, ::Array<float_t>*>> audioData, ::ByRef<int32_t> audioFrames, ::ByRef<int32_t> channels);
 
   static inline ::GlobalNamespace::OVRExternalComposition* New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,
                                                                     ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method RefreshAudioFilter, addr 0x3f3831c, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method RefreshAudioFilter, addr 0x3f983c8, size 0x5d0, virtual false, abstract: false, final false
   inline void RefreshAudioFilter(::UnityEngine::Camera* mainCamera);
 
-  /// @brief Method RefreshCameraObjects, addr 0x3f377a8, size 0xb74, virtual false, abstract: false, final false
+  /// @brief Method RefreshCameraObjects, addr 0x3f97854, size 0xb74, virtual false, abstract: false, final false
   inline void RefreshCameraObjects(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method SetCameraTargetTexture, addr 0x3f38df0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method SetCameraTargetTexture, addr 0x3f98e9c, size 0x1e0, virtual false, abstract: false, final false
   inline void SetCameraTargetTexture(int32_t drawTextureIndex);
 
-  /// @brief Method Update, addr 0x3f38fd0, size 0xca4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f9907c, size 0xca4, virtual true, abstract: false, final false
   inline void Update(::UnityEngine::GameObject* gameObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
-                     ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOrigin);
+                     ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
+
+  constexpr ::System::Object* const& __cordl_internal_get_audioDataLock() const;
 
   constexpr ::System::Object*& __cordl_internal_get_audioDataLock();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_audioDataLock() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRMRAudioFilter> const& __cordl_internal_get_audioFilter() const;
 
@@ -174,9 +171,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_backgroundCameraGameObject();
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_cachedAudioData();
+  constexpr ::System::Collections::Generic::List_1<float_t>* const& __cordl_internal_get_cachedAudioData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get_cachedAudioData() const;
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_cachedAudioData();
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_cachedAudioDataArray() const;
 
@@ -274,7 +271,7 @@ public:
 
   constexpr void __cordl_internal_set_skipFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x3f371b0, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9725c, size 0x5a8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
 protected:
@@ -290,6 +287,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRExternalComposition", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRExternalComposition(OVRExternalComposition const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7818 };
 
   /// @brief Field previousMainCameraObject, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___previousMainCameraObject;
@@ -351,14 +351,9 @@ public:
   /// @brief Field cachedChannels, offset: 0xc0, size: 0x4, def value: None
   int32_t ___cachedChannels;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7793 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRExternalComposition, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRExternalComposition, ___previousMainCameraObject) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRExternalComposition, ___foregroundCameraGameObject) == 0x48, "Offset mismatch!");
@@ -398,6 +393,8 @@ static_assert(offsetof(::GlobalNamespace::OVRExternalComposition, ___audioDataLo
 static_assert(offsetof(::GlobalNamespace::OVRExternalComposition, ___cachedAudioData) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRExternalComposition, ___cachedChannels) == 0xc0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRExternalComposition, 0xc8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRExternalComposition);

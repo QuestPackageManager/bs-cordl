@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CommandBuffer* (
     ::GlobalNamespace::CommandBufferBlurryScreenGrab::*)(::UnityEngine::Camera*)>(&::GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x401e274;
+  constexpr static std::size_t addrs = 0x407f588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
         &::GlobalNamespace::CommandBufferBlurryScreenGrab::CamerasDict)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x401e370;
+  constexpr static std::size_t addrs = 0x407f684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CameraEvent (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::CommandBufferCameraEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401e3c8;
+  constexpr static std::size_t addrs = 0x407f6dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x401e3d0;
+  constexpr static std::size_t addrs = 0x407f6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferBlurryScreenGrab*>::get(),
@@ -85,15 +85,15 @@ constexpr void GlobalNamespace::CommandBufferBlurryScreenGrab::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____kawaseBlurRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize& GlobalNamespace::CommandBufferBlurryScreenGrab::__cordl_internal_get__kernelSize() {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize& GlobalNamespace::CommandBufferBlurryScreenGrab::__cordl_internal_get__kernelSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kernelSize;
 }
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const& GlobalNamespace::CommandBufferBlurryScreenGrab::__cordl_internal_get__kernelSize() const {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize const& GlobalNamespace::CommandBufferBlurryScreenGrab::__cordl_internal_get__kernelSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kernelSize;
 }
-constexpr void GlobalNamespace::CommandBufferBlurryScreenGrab::__cordl_internal_set__kernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value) {
+constexpr void GlobalNamespace::CommandBufferBlurryScreenGrab::__cordl_internal_set__kernelSize(::GlobalNamespace::KawaseBlurRendererSO_KernelSize value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____kernelSize = value;
 }
@@ -146,13 +146,13 @@ inline ::UnityEngine::Rendering::CameraEvent GlobalNamespace::CommandBufferBlurr
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferBlurryScreenGrab*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CameraEvent, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::CommandBufferBlurryScreenGrab* GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CommandBufferBlurryScreenGrab*>());
-}
 inline void GlobalNamespace::CommandBufferBlurryScreenGrab::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferBlurryScreenGrab*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::CommandBufferBlurryScreenGrab* GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CommandBufferBlurryScreenGrab*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CommandBufferBlurryScreenGrab::CommandBufferBlurryScreenGrab() {}

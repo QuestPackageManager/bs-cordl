@@ -11,17 +11,16 @@ class JsonConstructorAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonConstructorAttribute);
-// Type: Newtonsoft.Json::JsonConstructorAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonConstructorAttribute*
+// CS Name: Newtonsoft.Json.JsonConstructorAttribute
 class CORDL_TYPE JsonConstructorAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConstructorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e16424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e764d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   JsonConstructorAttribute(JsonConstructorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10056 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

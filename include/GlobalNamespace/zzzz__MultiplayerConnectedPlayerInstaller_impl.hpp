@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x9c4;
-  constexpr static std::size_t addrs = 0x3b53db8;
+  constexpr static std::size_t size = 0xa48;
+  constexpr static std::size_t addrs = 0x3bb555c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b547b8;
+  constexpr static std::size_t addrs = 0x3bb5fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerInstaller*>::get(),
@@ -154,7 +154,7 @@ constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::MultiplayerConn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__connectedPlayer() const {
+constexpr ::GlobalNamespace::IConnectedPlayer* const& GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
@@ -178,8 +178,7 @@ constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::Multi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const&
-GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__sceneSetupData() const {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
@@ -191,7 +190,7 @@ constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& GlobalNam
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersSpecificSettingsAtGameStartModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const&
+constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* const&
 GlobalNamespace::MultiplayerConnectedPlayerInstaller::__cordl_internal_get__playersSpecificSettingsAtGameStartModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersSpecificSettingsAtGameStartModel;
@@ -207,13 +206,13 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerInstaller::InstallBinding
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerConnectedPlayerInstaller* GlobalNamespace::MultiplayerConnectedPlayerInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConnectedPlayerInstaller*>());
-}
 inline void GlobalNamespace::MultiplayerConnectedPlayerInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerInstaller*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerConnectedPlayerInstaller* GlobalNamespace::MultiplayerConnectedPlayerInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConnectedPlayerInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerInstaller::MultiplayerConnectedPlayerInstaller() {}

@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/IesParameters.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__IesParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::IesParameters._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::IesParameters::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x238a274;
+  constexpr static std::size_t addrs = 0x23bd560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238a2b0;
+  constexpr static std::size_t addrs = 0x23bd59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238a2b8;
+  constexpr static std::size_t addrs = 0x23bd5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238a2c0;
+  constexpr static std::size_t addrs = 0x23bd5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>::get(),
@@ -62,14 +62,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr Org::BouncyCastle::Crypto::Parameters::IesParameters::operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto::Parameters::IesParameters::i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Parameters::IesParameters::__cordl_internal_get_derivation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___derivation;
@@ -106,10 +98,6 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::IesParameters::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___macKeySize = value;
 }
-inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* Org::BouncyCastle::Crypto::Parameters::IesParameters::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation,
-                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>(derivation, encoding, macKeySize));
-}
 inline void Org::BouncyCastle::Crypto::Parameters::IesParameters::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -132,6 +120,18 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeyS
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>::get(),
                                                                              "get_MacKeySize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* Org::BouncyCastle::Crypto::Parameters::IesParameters::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation,
+                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::IesParameters*>(derivation, encoding, macKeySize));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr Org::BouncyCastle::Crypto::Parameters::IesParameters::operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto::Parameters::IesParameters::i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::IesParameters::IesParameters() {}

@@ -14,26 +14,25 @@ class FullComboMissionObjectiveChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FullComboMissionObjectiveChecker);
-// Type: ::FullComboMissionObjectiveChecker
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MissionObjectiveChecker
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FullComboMissionObjectiveChecker*
+// CS Name: FullComboMissionObjectiveChecker
 class CORDL_TYPE FullComboMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
   // Declarations
   /// @brief Field _comboController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController)) ::UnityW<::GlobalNamespace::ComboController> _comboController;
 
-  /// @brief Method HandleComboBreakingEventHappened, addr 0x3b4dd34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleComboBreakingEventHappened, addr 0x3baf63c, size 0x3c, virtual false, abstract: false, final false
   inline void HandleComboBreakingEventHappened();
 
-  /// @brief Method Init, addr 0x3b4db68, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3baf470, size 0xfc, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::FullComboMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b4dc64, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3baf56c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ComboController> const& __cordl_internal_get__comboController() const;
@@ -42,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
-  /// @brief Method .ctor, addr 0x3b4dd70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baf678, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FullComboMissionObjectiveChecker(FullComboMissionObjectiveChecker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4463 };
+
   /// @brief Field _comboController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ComboController> ____comboController;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FullComboMissionObjectiveChecker, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FullComboMissionObjectiveChecker, ____comboController) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FullComboMissionObjectiveChecker, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FullComboMissionObjectiveChecker);

@@ -11,17 +11,16 @@ class FrameRateFieldAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::FrameRateFieldAttribute);
-// Type: UnityEngine.Timeline::FrameRateFieldAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::FrameRateFieldAttribute*
+// CS Name: UnityEngine.Timeline.FrameRateFieldAttribute
 class CORDL_TYPE FrameRateFieldAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::FrameRateFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47c7ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482930c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   FrameRateFieldAttribute(FrameRateFieldAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

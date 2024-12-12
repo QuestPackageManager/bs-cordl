@@ -12,11 +12,10 @@ struct RenderTextureCreationFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::RenderTextureCreationFlags);
-// Type: UnityEngine::RenderTextureCreationFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::RenderTextureCreationFlags
+// CS Name: UnityEngine.RenderTextureCreationFlags
 struct CORDL_TYPE RenderTextureCreationFlags {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RenderTextureCreationFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AllowVerticalFlip value: static_cast<int32_t>(0x80)
+  /// @brief Field AllowVerticalFlip value: I32(128)
   static ::UnityEngine::RenderTextureCreationFlags const AllowVerticalFlip;
 
-  /// @brief Field AutoGenerateMips value: static_cast<int32_t>(0x2)
+  /// @brief Field AutoGenerateMips value: I32(2)
   static ::UnityEngine::RenderTextureCreationFlags const AutoGenerateMips;
 
-  /// @brief Field BindMS value: static_cast<int32_t>(0x800)
+  /// @brief Field BindMS value: I32(2048)
   static ::UnityEngine::RenderTextureCreationFlags const BindMS;
 
-  /// @brief Field CreatedFromScript value: static_cast<int32_t>(0x20)
+  /// @brief Field CreatedFromScript value: I32(32)
   static ::UnityEngine::RenderTextureCreationFlags const CreatedFromScript;
 
-  /// @brief Field DynamicallyScalable value: static_cast<int32_t>(0x400)
+  /// @brief Field DynamicallyScalable value: I32(1024)
   static ::UnityEngine::RenderTextureCreationFlags const DynamicallyScalable;
 
-  /// @brief Field EnableRandomWrite value: static_cast<int32_t>(0x10)
+  /// @brief Field EnableRandomWrite value: I32(16)
   static ::UnityEngine::RenderTextureCreationFlags const EnableRandomWrite;
 
-  /// @brief Field EyeTexture value: static_cast<int32_t>(0x8)
+  /// @brief Field EyeTexture value: I32(8)
   static ::UnityEngine::RenderTextureCreationFlags const EyeTexture;
 
-  /// @brief Field MipMap value: static_cast<int32_t>(0x1)
+  /// @brief Field MipMap value: I32(1)
   static ::UnityEngine::RenderTextureCreationFlags const MipMap;
 
-  /// @brief Field NoResolvedColorSurface value: static_cast<int32_t>(0x100)
+  /// @brief Field NoResolvedColorSurface value: I32(256)
   static ::UnityEngine::RenderTextureCreationFlags const NoResolvedColorSurface;
 
-  /// @brief Field SRGB value: static_cast<int32_t>(0x4)
+  /// @brief Field SRGB value: I32(4)
   static ::UnityEngine::RenderTextureCreationFlags const SRGB;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10765 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderTextureCreationFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::RenderTextureCreationFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderTextureCreationFlags, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderTextureCreationFlags, "UnityEngine", "RenderTextureCreationFlags");

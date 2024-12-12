@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __ModuloInstruction__ModuloUInt16;
+namespace GlobalNamespace {
+class ModuloInstruction_ModuloUInt16;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__ModuloInstruction__ModuloUInt16);
-// Type: ::ModuloUInt16
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::ModuloInstruction_ModuloUInt16);
+// Dependencies System.Linq.Expressions.Interpreter.ModuloInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ModuloInstruction::ModuloUInt16*
-class CORDL_TYPE __ModuloInstruction__ModuloUInt16 : public ::System::Linq::Expressions::Interpreter::ModuloInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.ModuloInstruction/ModuloUInt16
+class CORDL_TYPE ModuloInstruction_ModuloUInt16 : public ::System::Linq::Expressions::Interpreter::ModuloInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__ModuloInstruction__ModuloUInt16* New_ctor();
+  static inline ::GlobalNamespace::ModuloInstruction_ModuloUInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x4089550, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40ea864, size 0x14c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4089010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ea324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ModuloInstruction__ModuloUInt16();
+  constexpr ModuloInstruction_ModuloUInt16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ModuloInstruction__ModuloUInt16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloUInt16", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ModuloInstruction__ModuloUInt16(__ModuloInstruction__ModuloUInt16&&) = delete;
+  ModuloInstruction_ModuloUInt16(ModuloInstruction_ModuloUInt16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ModuloInstruction__ModuloUInt16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloUInt16", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ModuloInstruction__ModuloUInt16(__ModuloInstruction__ModuloUInt16 const&) = delete;
+  ModuloInstruction_ModuloUInt16(ModuloInstruction_ModuloUInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13985 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__ModuloInstruction__ModuloUInt16, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ModuloInstruction_ModuloUInt16, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__ModuloInstruction__ModuloUInt16);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__ModuloInstruction__ModuloUInt16*, "System.Linq.Expressions.Interpreter", "ModuloInstruction/ModuloUInt16");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::ModuloInstruction_ModuloUInt16);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ModuloInstruction_ModuloUInt16*, "System.Linq.Expressions.Interpreter", "ModuloInstruction/ModuloUInt16");

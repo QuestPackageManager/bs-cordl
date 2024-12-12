@@ -14,20 +14,19 @@ class PerformanceVisualizer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PerformanceVisualizer);
-// Type: ::PerformanceVisualizer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PerformanceVisualizer*
+// CS Name: PerformanceVisualizer
 class CORDL_TYPE PerformanceVisualizer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x3ac5578, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b23e0c, size 0xd4, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Camera* mainCamera, bool enableFPSModule, bool enableMemoryModule);
 
   static inline ::GlobalNamespace::PerformanceVisualizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ac564c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b23ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   PerformanceVisualizer(PerformanceVisualizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5125 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

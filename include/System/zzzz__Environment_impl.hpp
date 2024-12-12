@@ -12,73 +12,73 @@
 #include "System/zzzz__PlatformID_def.hpp"
 #include "System/zzzz__Version_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::__Environment__SpecialFolder::__Environment__SpecialFolder(int32_t value__) noexcept {
+constexpr ::System::Environment_SpecialFolder::Environment_SpecialFolder(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::__Environment__SpecialFolder::__Environment__SpecialFolder() {}
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::MyDocuments{ static_cast<int32_t>(0x5) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Desktop{ static_cast<int32_t>(0x0) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::MyComputer{ static_cast<int32_t>(0x11) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Programs{ static_cast<int32_t>(0x2) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Personal{ static_cast<int32_t>(0x5) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Favorites{ static_cast<int32_t>(0x6) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Startup{ static_cast<int32_t>(0x7) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Recent{ static_cast<int32_t>(0x8) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::SendTo{ static_cast<int32_t>(0x9) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::StartMenu{ static_cast<int32_t>(0xb) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::MyMusic{ static_cast<int32_t>(0xd) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::DesktopDirectory{ static_cast<int32_t>(0x10) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Templates{ static_cast<int32_t>(0x15) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::ApplicationData{ static_cast<int32_t>(0x1a) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::LocalApplicationData{ static_cast<int32_t>(0x1c) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::InternetCache{ static_cast<int32_t>(0x20) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Cookies{ static_cast<int32_t>(0x21) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::History{ static_cast<int32_t>(0x22) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonApplicationData{ static_cast<int32_t>(0x23) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::System{ static_cast<int32_t>(0x25) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::ProgramFiles{ static_cast<int32_t>(0x26) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::MyPictures{ static_cast<int32_t>(0x27) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonProgramFiles{ static_cast<int32_t>(0x2b) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::MyVideos{ static_cast<int32_t>(0xe) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::NetworkShortcuts{ static_cast<int32_t>(0x13) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Fonts{ static_cast<int32_t>(0x14) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonStartMenu{ static_cast<int32_t>(0x16) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonPrograms{ static_cast<int32_t>(0x17) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonStartup{ static_cast<int32_t>(0x18) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonDesktopDirectory{ static_cast<int32_t>(0x19) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::PrinterShortcuts{ static_cast<int32_t>(0x1b) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Windows{ static_cast<int32_t>(0x24) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::UserProfile{ static_cast<int32_t>(0x28) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::SystemX86{ static_cast<int32_t>(0x29) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::ProgramFilesX86{ static_cast<int32_t>(0x2a) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonProgramFilesX86{ static_cast<int32_t>(0x2c) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonTemplates{ static_cast<int32_t>(0x2d) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonDocuments{ static_cast<int32_t>(0x2e) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonAdminTools{ static_cast<int32_t>(0x2f) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::AdminTools{ static_cast<int32_t>(0x30) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonMusic{ static_cast<int32_t>(0x35) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonPictures{ static_cast<int32_t>(0x36) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonVideos{ static_cast<int32_t>(0x37) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::Resources{ static_cast<int32_t>(0x38) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::LocalizedResources{ static_cast<int32_t>(0x39) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CommonOemLinks{ static_cast<int32_t>(0x3a) };
-constexpr ::System::__Environment__SpecialFolder System::__Environment__SpecialFolder::CDBurning{ static_cast<int32_t>(0x3b) };
+constexpr ::System::Environment_SpecialFolder::Environment_SpecialFolder() {}
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::MyDocuments{ static_cast<int32_t>(0x5) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Desktop{ static_cast<int32_t>(0x0) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::MyComputer{ static_cast<int32_t>(0x11) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Programs{ static_cast<int32_t>(0x2) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Personal{ static_cast<int32_t>(0x5) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Favorites{ static_cast<int32_t>(0x6) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Startup{ static_cast<int32_t>(0x7) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Recent{ static_cast<int32_t>(0x8) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::SendTo{ static_cast<int32_t>(0x9) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::StartMenu{ static_cast<int32_t>(0xb) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::MyMusic{ static_cast<int32_t>(0xd) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::DesktopDirectory{ static_cast<int32_t>(0x10) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Templates{ static_cast<int32_t>(0x15) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::ApplicationData{ static_cast<int32_t>(0x1a) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::LocalApplicationData{ static_cast<int32_t>(0x1c) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::InternetCache{ static_cast<int32_t>(0x20) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Cookies{ static_cast<int32_t>(0x21) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::History{ static_cast<int32_t>(0x22) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonApplicationData{ static_cast<int32_t>(0x23) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::System{ static_cast<int32_t>(0x25) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::ProgramFiles{ static_cast<int32_t>(0x26) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::MyPictures{ static_cast<int32_t>(0x27) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonProgramFiles{ static_cast<int32_t>(0x2b) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::MyVideos{ static_cast<int32_t>(0xe) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::NetworkShortcuts{ static_cast<int32_t>(0x13) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Fonts{ static_cast<int32_t>(0x14) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonStartMenu{ static_cast<int32_t>(0x16) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonPrograms{ static_cast<int32_t>(0x17) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonStartup{ static_cast<int32_t>(0x18) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonDesktopDirectory{ static_cast<int32_t>(0x19) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::PrinterShortcuts{ static_cast<int32_t>(0x1b) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Windows{ static_cast<int32_t>(0x24) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::UserProfile{ static_cast<int32_t>(0x28) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::SystemX86{ static_cast<int32_t>(0x29) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::ProgramFilesX86{ static_cast<int32_t>(0x2a) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonProgramFilesX86{ static_cast<int32_t>(0x2c) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonTemplates{ static_cast<int32_t>(0x2d) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonDocuments{ static_cast<int32_t>(0x2e) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonAdminTools{ static_cast<int32_t>(0x2f) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::AdminTools{ static_cast<int32_t>(0x30) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonMusic{ static_cast<int32_t>(0x35) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonPictures{ static_cast<int32_t>(0x36) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonVideos{ static_cast<int32_t>(0x37) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::Resources{ static_cast<int32_t>(0x38) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::LocalizedResources{ static_cast<int32_t>(0x39) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonOemLinks{ static_cast<int32_t>(0x3a) };
+constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CDBurning{ static_cast<int32_t>(0x3b) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::__Environment__SpecialFolderOption::__Environment__SpecialFolderOption(int32_t value__) noexcept {
+constexpr ::System::Environment_SpecialFolderOption::Environment_SpecialFolderOption(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::__Environment__SpecialFolderOption::__Environment__SpecialFolderOption() {}
-constexpr ::System::__Environment__SpecialFolderOption System::__Environment__SpecialFolderOption::None{ static_cast<int32_t>(0x0) };
-constexpr ::System::__Environment__SpecialFolderOption System::__Environment__SpecialFolderOption::DoNotVerify{ static_cast<int32_t>(0x4000) };
-constexpr ::System::__Environment__SpecialFolderOption System::__Environment__SpecialFolderOption::Create{ static_cast<int32_t>(0x8000) };
+constexpr ::System::Environment_SpecialFolderOption::Environment_SpecialFolderOption() {}
+constexpr ::System::Environment_SpecialFolderOption System::Environment_SpecialFolderOption::None{ static_cast<int32_t>(0x0) };
+constexpr ::System::Environment_SpecialFolderOption System::Environment_SpecialFolderOption::DoNotVerify{ static_cast<int32_t>(0x4000) };
+constexpr ::System::Environment_SpecialFolderOption System::Environment_SpecialFolderOption::Create{ static_cast<int32_t>(0x8000) };
 //  Writing Method size for method: ::System::Environment.GetResourceString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Environment::GetResourceString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dcc740;
+  constexpr static std::size_t addrs = 0x3e2c7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Environment::GetResourceString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3dce4fc;
+  constexpr static std::size_t addrs = 0x3e2e5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Environment::GetResourceStringEncodingName)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3dcfe18;
+  constexpr static std::size_t addrs = 0x3e2fec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::get_CurrentDirectory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dcff94;
+  constexpr static std::size_t addrs = 0x3e30040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_CurrentDirectory",
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Environment::get_CurrentManagedThreadId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3dcff9c;
+  constexpr static std::size_t addrs = 0x3e30048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_CurrentManagedThreadId",
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Environment::get_HasShutdownStarted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dcffbc;
+  constexpr static std::size_t addrs = 0x3e30068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_HasShutdownStarted",
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::get_MachineName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dcffc0;
+  constexpr static std::size_t addrs = 0x3e3006c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_MachineName",
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::GetNewLine)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dcffc4;
+  constexpr static std::size_t addrs = 0x3e30070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetNewLine",
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::get_NewLine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3dcffc8;
+  constexpr static std::size_t addrs = 0x3e30074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_NewLine",
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::PlatformID (*)()>(&::System::Environment::get_Platform)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0030;
+  constexpr static std::size_t addrs = 0x3e300dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_Platform",
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::GetOSVersionString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0034;
+  constexpr static std::size_t addrs = 0x3e300e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetOSVersionString",
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::OperatingSystem* (*)()>(&::System::Environment::get_OSVersion)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3dd0038;
+  constexpr static std::size_t addrs = 0x3e300e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_OSVersion",
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)(::StringW)>(&::System::Environment::CreateVersionFromString)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3dd00ec;
+  constexpr static std::size_t addrs = 0x3e30198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::get_StackTrace)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3dd0308;
+  constexpr static std::size_t addrs = 0x3e303b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_StackTrace",
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Environment::get_TickCount)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0374;
+  constexpr static std::size_t addrs = 0x3e30420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_TickCount",
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::get_UserDomainName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0378;
+  constexpr static std::size_t addrs = 0x3e30424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_UserDomainName",
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::get_UserName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd037c;
+  constexpr static std::size_t addrs = 0x3e30428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_UserName",
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::System::Environment::Exit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0380;
+  constexpr static std::size_t addrs = 0x3e3042c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::System::Environment::GetCommandLineArgs)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0384;
+  constexpr static std::size_t addrs = 0x3e30430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetCommandLineArgs",
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::System::Environment::internalGetEnvironmentVariable_native)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0388;
+  constexpr static std::size_t addrs = 0x3e30434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Environment::internalGetEnvironmentVariable)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3dd038c;
+  constexpr static std::size_t addrs = 0x3e30438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Environment::GetEnvironmentVariable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0450;
+  constexpr static std::size_t addrs = 0x3e304fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (*)()>(&::System::Environment::GetEnvironmentVariables)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3dd0454;
+  constexpr static std::size_t addrs = 0x3e30500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetEnvironmentVariables",
@@ -385,14 +385,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Environment.GetFolderPath
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::__Environment__SpecialFolder)>(&::System::Environment::GetFolderPath)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Environment_SpecialFolder)>(&::System::Environment::GetFolderPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dd0524;
+  constexpr static std::size_t addrs = 0x3e305d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetFolderPath", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolder>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolder>::get() })));
     return ___internal_method;
   }
 };
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Environment::GetWindowsFolderPath)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0560;
+  constexpr static std::size_t addrs = 0x3e3060c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -413,16 +413,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Environment.GetFolderPath
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::__Environment__SpecialFolder, ::System::__Environment__SpecialFolderOption)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Environment_SpecialFolder, ::System::Environment_SpecialFolderOption)>(
     &::System::Environment::GetFolderPath)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3dd052c;
+  constexpr static std::size_t addrs = 0x3e305d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetFolderPath", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolder>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolderOption>::get() })));
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolder>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolderOption>::get() })));
     return ___internal_method;
   }
 };
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::System::Environment::ReadXdgUserDir)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x3dd0a3c;
+  constexpr static std::size_t addrs = 0x3e30ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,16 +444,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Environment.UnixGetFolderPath
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::__Environment__SpecialFolder, ::System::__Environment__SpecialFolderOption)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Environment_SpecialFolder, ::System::Environment_SpecialFolderOption)>(
     &::System::Environment::UnixGetFolderPath)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x3dd057c;
+  constexpr static std::size_t addrs = 0x3e30628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "UnixGetFolderPath", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolder>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolderOption>::get() })));
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolder>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolderOption>::get() })));
     return ___internal_method;
   }
 };
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::EnvironmentVariableTarget)>(&::System::Environment::GetEnvironmentVariable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3dd0eb4;
+  constexpr static std::size_t addrs = 0x3e30f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -477,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Environment::SetEnvironmentVariable)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3dd0ec4;
+  constexpr static std::size_t addrs = 0x3e30f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<char16_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t)>(
     &::System::Environment::InternalSetEnvironmentVariable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10a0;
+  constexpr static std::size_t addrs = 0x3e3114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Environment::InternalSetEnvironmentVariable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3dd1030;
+  constexpr static std::size_t addrs = 0x3e310dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::System::Environment::FailFast)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dd10a4;
+  constexpr static std::size_t addrs = 0x3e31150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*, ::StringW)>(&::System::Environment::FailFast)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10ac;
+  constexpr static std::size_t addrs = 0x3e31158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -552,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Environment::GetIs64BitOperatingSystem)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10b0;
+  constexpr static std::size_t addrs = 0x3e3115c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetIs64BitOperatingSystem",
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Environment::get_Is64BitOperatingSystem)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10b4;
+  constexpr static std::size_t addrs = 0x3e31160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_Is64BitOperatingSystem",
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Environment::get_Is64BitProcess)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dd10b8;
+  constexpr static std::size_t addrs = 0x3e31164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_Is64BitProcess",
@@ -591,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Environment::get_ProcessorCount)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10c8;
+  constexpr static std::size_t addrs = 0x3e31174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_ProcessorCount",
@@ -604,7 +604,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Environment::get_IsRunningOnWindows)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3dd0564;
+  constexpr static std::size_t addrs = 0x3e30610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_IsRunningOnWindows",
@@ -617,7 +617,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::System::Environment::GetLogicalDrivesInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10cc;
+  constexpr static std::size_t addrs = 0x3e31178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetLogicalDrivesInternal",
@@ -630,7 +630,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::System::Environment::GetEnvironmentVariableNames)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0520;
+  constexpr static std::size_t addrs = 0x3e305cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetEnvironmentVariableNames",
@@ -643,7 +643,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::GetMachineConfigPath)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10d0;
+  constexpr static std::size_t addrs = 0x3e3117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetMachineConfigPath",
@@ -656,7 +656,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Environment::internalGetHome)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd0eb0;
+  constexpr static std::size_t addrs = 0x3e30f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "internalGetHome",
@@ -669,7 +669,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Environment::GetPageSize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd10d4;
+  constexpr static std::size_t addrs = 0x3e31180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetPageSize",
@@ -682,7 +682,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Environment::get_IsUnix)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3dd10d8;
+  constexpr static std::size_t addrs = 0x3e31184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "get_IsUnix",
@@ -695,7 +695,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Exception*, bool)>(&::System::Environment::GetStackTrace)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3dd1110;
+  constexpr static std::size_t addrs = 0x3e311bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -841,10 +841,10 @@ inline ::System::Collections::IDictionary* System::Environment::GetEnvironmentVa
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(nullptr, ___internal_method);
 }
-inline ::StringW System::Environment::GetFolderPath(::System::__Environment__SpecialFolder folder) {
+inline ::StringW System::Environment::GetFolderPath(::System::Environment_SpecialFolder folder) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetFolderPath", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolder>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolder>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, folder);
 }
 inline ::StringW System::Environment::GetWindowsFolderPath(int32_t folder) {
@@ -853,11 +853,11 @@ inline ::StringW System::Environment::GetWindowsFolderPath(int32_t folder) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, folder);
 }
-inline ::StringW System::Environment::GetFolderPath(::System::__Environment__SpecialFolder folder, ::System::__Environment__SpecialFolderOption option) {
+inline ::StringW System::Environment::GetFolderPath(::System::Environment_SpecialFolder folder, ::System::Environment_SpecialFolderOption option) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "GetFolderPath", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolder>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolderOption>::get() })));
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolder>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolderOption>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, folder, option);
 }
 inline ::StringW System::Environment::ReadXdgUserDir(::StringW config_dir, ::StringW home_dir, ::StringW key, ::StringW fallback) {
@@ -867,11 +867,11 @@ inline ::StringW System::Environment::ReadXdgUserDir(::StringW config_dir, ::Str
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, config_dir, home_dir, key, fallback);
 }
-inline ::StringW System::Environment::UnixGetFolderPath(::System::__Environment__SpecialFolder folder, ::System::__Environment__SpecialFolderOption option) {
+inline ::StringW System::Environment::UnixGetFolderPath(::System::Environment_SpecialFolder folder, ::System::Environment_SpecialFolderOption option) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Environment*>::get(), "UnixGetFolderPath", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolder>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::__Environment__SpecialFolderOption>::get() })));
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolder>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Environment_SpecialFolderOption>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, folder, option);
 }
 inline ::StringW System::Environment::GetEnvironmentVariable(::StringW variable, ::System::EnvironmentVariableTarget target) {

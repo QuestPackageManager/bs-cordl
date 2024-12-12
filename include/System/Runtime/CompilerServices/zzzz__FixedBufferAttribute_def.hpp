@@ -15,11 +15,10 @@ class FixedBufferAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::FixedBufferAttribute);
-// Type: System.Runtime.CompilerServices::FixedBufferAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::FixedBufferAttribute*
+// CS Name: System.Runtime.CompilerServices.FixedBufferAttribute
 class CORDL_TYPE FixedBufferAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -35,9 +34,9 @@ public:
 
   static inline ::System::Runtime::CompilerServices::FixedBufferAttribute* New_ctor(::System::Type* elementType, int32_t length);
 
-  constexpr ::System::Type*& __cordl_internal_get__ElementType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__ElementType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ElementType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__ElementType_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__Length_k__BackingField() const;
 
@@ -47,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__Length_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3cb71e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d17358, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t length);
 
-  /// @brief Method get_ElementType, addr 0x3cb7214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementType, addr 0x3d17388, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ElementType();
 
-  /// @brief Method get_Length, addr 0x3cb721c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3d17390, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixedBufferAttribute(FixedBufferAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3369 };
+
   /// @brief Field <ElementType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____ElementType_k__BackingField;
 
   /// @brief Field <Length>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____Length_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3369 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::FixedBufferAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::FixedBufferAttribute, ____ElementType_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::CompilerServices::FixedBufferAttribute, ____Length_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::FixedBufferAttribute, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::FixedBufferAttribute);

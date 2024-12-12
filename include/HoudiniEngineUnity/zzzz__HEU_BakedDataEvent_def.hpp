@@ -14,17 +14,16 @@ class HEU_BakedDataEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BakedDataEvent);
-// Type: HoudiniEngineUnity::HEU_BakedDataEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Events.UnityEvent`1<T0>
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_BakedDataEvent*
+// CS Name: HoudiniEngineUnity.HEU_BakedDataEvent
 class CORDL_TYPE HEU_BakedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_BakedEventData*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_BakedDataEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39afccc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0693c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   HEU_BakedDataEvent(HEU_BakedDataEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

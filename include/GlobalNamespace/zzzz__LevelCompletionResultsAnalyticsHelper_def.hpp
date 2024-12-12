@@ -18,15 +18,14 @@ class LevelCompletionResultsAnalyticsHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelCompletionResultsAnalyticsHelper);
-// Type: ::LevelCompletionResultsAnalyticsHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelCompletionResultsAnalyticsHelper*
+// CS Name: LevelCompletionResultsAnalyticsHelper
 class CORDL_TYPE LevelCompletionResultsAnalyticsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FillEventData, addr 0x3a73eac, size 0x824, virtual false, abstract: false, final false
+  /// @brief Method FillEventData, addr 0x3acb21c, size 0x824, virtual false, abstract: false, final false
   static inline void FillEventData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
 protected:
@@ -44,7 +43,7 @@ public:
   LevelCompletionResultsAnalyticsHelper(LevelCompletionResultsAnalyticsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

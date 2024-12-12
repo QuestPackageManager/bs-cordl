@@ -11,17 +11,16 @@ class MenuDestination;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuDestination);
-// Type: ::MenuDestination
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MenuDestination*
+// CS Name: MenuDestination
 class CORDL_TYPE MenuDestination : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::MenuDestination* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2678310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac8c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   MenuDestination(MenuDestination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

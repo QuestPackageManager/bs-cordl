@@ -5,63 +5,63 @@
 #include "UnityEngine/UIElements/zzzz__IMGUIEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMGUIEvent_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__IMGUIEvent____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIEvent___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__IMGUIEvent____c::*)()>(&::UnityEngine::UIElements::__IMGUIEvent____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent___c::*)()>(&::UnityEngine::UIElements::IMGUIEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ced3c;
+  constexpr static std::size_t addrs = 0x4a3364c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIEvent____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__IMGUIEvent____c.__cctor_b__0_0
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIEvent___c.__cctor_b__0_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IMGUIEvent* (::UnityEngine::UIElements::__IMGUIEvent____c::*)()>(
-    &::UnityEngine::UIElements::__IMGUIEvent____c::__cctor_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IMGUIEvent* (::UnityEngine::UIElements::IMGUIEvent___c::*)()>(
+    &::UnityEngine::UIElements::IMGUIEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49ced44;
+  constexpr static std::size_t addrs = 0x4a33654;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIEvent____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get(),
                                                                                "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__IMGUIEvent____c::setStaticF___9(::UnityEngine::UIElements::__IMGUIEvent____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__IMGUIEvent____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIEvent____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__IMGUIEvent____c*>(value));
+inline void UnityEngine::UIElements::IMGUIEvent___c::setStaticF___9(::UnityEngine::UIElements::IMGUIEvent___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::IMGUIEvent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get>(
+      std::forward<::UnityEngine::UIElements::IMGUIEvent___c*>(value));
 }
-inline ::UnityEngine::UIElements::__IMGUIEvent____c* UnityEngine::UIElements::__IMGUIEvent____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__IMGUIEvent____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIEvent____c*>::get>();
+inline ::UnityEngine::UIElements::IMGUIEvent___c* UnityEngine::UIElements::IMGUIEvent___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::IMGUIEvent___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__IMGUIEvent____c* UnityEngine::UIElements::__IMGUIEvent____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__IMGUIEvent____c*>());
-}
-inline void UnityEngine::UIElements::__IMGUIEvent____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIEvent____c*>::get(), ".ctor",
+inline void UnityEngine::UIElements::IMGUIEvent___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::IMGUIEvent* UnityEngine::UIElements::__IMGUIEvent____c::__cctor_b__0_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IMGUIEvent____c*>::get(),
+inline ::UnityEngine::UIElements::IMGUIEvent* UnityEngine::UIElements::IMGUIEvent___c::__cctor_b__0_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get(),
                                                                              "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IMGUIEvent*, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::IMGUIEvent___c* UnityEngine::UIElements::IMGUIEvent___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IMGUIEvent___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__IMGUIEvent____c::__IMGUIEvent____c() {}
+constexpr ::UnityEngine::UIElements::IMGUIEvent___c::IMGUIEvent___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::IMGUIEvent.GetPooled
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IMGUIEvent* (*)(::UnityEngine::Event*)>(
     &::UnityEngine::UIElements::IMGUIEvent::GetPooled)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x49ceb84;
+  constexpr static std::size_t addrs = 0x4a33494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent::*)()>(&::UnityEngine::UIElements::IMGUIEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49cec08;
+  constexpr static std::size_t addrs = 0x4a33518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent::*)()>(&::UnityEngine::UIElements::IMGUIEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49cec5c;
+  constexpr static std::size_t addrs = 0x4a3356c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), "LocalInit",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent::*)()>(&::UnityEngine::UIElements::IMGUIEvent::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49cec68;
+  constexpr static std::size_t addrs = 0x4a33578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), ".ctor",
@@ -126,13 +126,13 @@ inline void UnityEngine::UIElements::IMGUIEvent::LocalInit() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::IMGUIEvent* UnityEngine::UIElements::IMGUIEvent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IMGUIEvent*>());
-}
 inline void UnityEngine::UIElements::IMGUIEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::IMGUIEvent* UnityEngine::UIElements::IMGUIEvent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IMGUIEvent*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::IMGUIEvent::IMGUIEvent() {}

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::get_rootElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4917cf0;
+  constexpr static std::size_t addrs = 0x497c4a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4917cf8;
+  constexpr static std::size_t addrs = 0x497c4a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Columns*, bool)>(&::UnityEngine::UIElements::ReusableMultiColumnListViewItem::Init)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x4915d80;
+  constexpr static std::size_t addrs = 0x497a530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4917cfc;
+  constexpr static std::size_t addrs = 0x497c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,13 +88,13 @@ inline void UnityEngine::UIElements::ReusableMultiColumnListViewItem::Init(::Uni
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, columns, usesAnimatedDrag);
 }
-inline ::UnityEngine::UIElements::ReusableMultiColumnListViewItem* UnityEngine::UIElements::ReusableMultiColumnListViewItem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ReusableMultiColumnListViewItem*>());
-}
 inline void UnityEngine::UIElements::ReusableMultiColumnListViewItem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableMultiColumnListViewItem*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ReusableMultiColumnListViewItem* UnityEngine::UIElements::ReusableMultiColumnListViewItem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ReusableMultiColumnListViewItem*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ReusableMultiColumnListViewItem::ReusableMultiColumnListViewItem() {}

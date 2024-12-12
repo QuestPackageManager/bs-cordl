@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SupportedPlatforms)
 // Forward declare root types
 namespace BGLib::MetaRemoteAssets::Platform {
@@ -11,11 +12,10 @@ class SupportedPlatforms;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::Platform::SupportedPlatforms);
-// Type: BGLib.MetaRemoteAssets.Platform::SupportedPlatforms
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::MetaRemoteAssets::Platform {
 // Is value type: false
-// CS Name: ::BGLib.MetaRemoteAssets.Platform::SupportedPlatforms*
+// CS Name: BGLib.MetaRemoteAssets.Platform.SupportedPlatforms
 class CORDL_TYPE SupportedPlatforms : public ::System::Object {
 public:
   // Declarations
@@ -43,7 +43,7 @@ public:
   static constexpr ::ConstString Windows{ u"WIN_64" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

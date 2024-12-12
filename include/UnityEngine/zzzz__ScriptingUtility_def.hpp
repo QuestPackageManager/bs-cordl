@@ -8,61 +8,59 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptingUtility)
 namespace UnityEngine {
-struct __ScriptingUtility__TestClass;
+struct ScriptingUtility_TestClass;
 }
 // Forward declare root types
 namespace UnityEngine {
 class ScriptingUtility;
 }
 namespace UnityEngine {
-struct __ScriptingUtility__TestClass;
+struct ScriptingUtility_TestClass;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ScriptingUtility);
-MARK_VAL_T(::UnityEngine::__ScriptingUtility__TestClass);
-// Type: ::TestClass
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::ScriptingUtility_TestClass);
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::ScriptingUtility::TestClass
-struct CORDL_TYPE __ScriptingUtility__TestClass {
+// CS Name: UnityEngine.ScriptingUtility/TestClass
+struct CORDL_TYPE ScriptingUtility_TestClass {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ScriptingUtility__TestClass();
+  constexpr ScriptingUtility_TestClass();
 
   // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ScriptingUtility__TestClass(int32_t value) noexcept;
-
-  /// @brief Field value, offset: 0x0, size: 0x4, def value: None
-  int32_t value;
+  constexpr ScriptingUtility_TestClass(int32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10900 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value, offset: 0x0, size: 0x4, def value: None
+  int32_t value;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::__ScriptingUtility__TestClass, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ScriptingUtility_TestClass, value) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::__ScriptingUtility__TestClass, value) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ScriptingUtility_TestClass, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
-// Type: UnityEngine::ScriptingUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ScriptingUtility*
+// CS Name: UnityEngine.ScriptingUtility
 class CORDL_TYPE ScriptingUtility : public ::System::Object {
 public:
   // Declarations
-  using TestClass = ::UnityEngine::__ScriptingUtility__TestClass;
+  using TestClass = ::UnityEngine::ScriptingUtility_TestClass;
 
-  /// @brief Method IsManagedCodeWorking, addr 0x484b62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x48ac2ec, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
 protected:
@@ -80,7 +78,7 @@ public:
   ScriptingUtility(ScriptingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,4 +88,4 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ScriptingUtility, 0
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ScriptingUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScriptingUtility*, "UnityEngine", "ScriptingUtility");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::__ScriptingUtility__TestClass, "UnityEngine", "ScriptingUtility/TestClass");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScriptingUtility_TestClass, "UnityEngine", "ScriptingUtility/TestClass");

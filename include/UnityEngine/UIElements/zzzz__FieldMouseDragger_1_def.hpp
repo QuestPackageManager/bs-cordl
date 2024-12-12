@@ -40,13 +40,12 @@ template <typename T> class FieldMouseDragger_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::FieldMouseDragger_1);
-// Type: UnityEngine.UIElements::FieldMouseDragger`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Rect, UnityEngine.UIElements.BaseFieldMouseDragger
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::FieldMouseDragger`1<T>*
+// CS Name: UnityEngine.UIElements.FieldMouseDragger`1<T>
 class CORDL_TYPE FieldMouseDragger_1 : public ::UnityEngine::UIElements::BaseFieldMouseDragger {
 public:
   // Declarations
@@ -106,17 +105,17 @@ public:
 
   constexpr T& __cordl_internal_get__startValue_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragElement();
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_DragElement() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_DragElement() const;
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragElement();
 
   constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DragHotZone() const;
 
   constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DragHotZone();
 
-  constexpr ::UnityEngine::UIElements::IValueField_1<T>*& __cordl_internal_get_m_DrivenField();
+  constexpr ::UnityEngine::UIElements::IValueField_1<T>* const& __cordl_internal_get_m_DrivenField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IValueField_1<T>*> const& __cordl_internal_get_m_DrivenField() const;
+  constexpr ::UnityEngine::UIElements::IValueField_1<T>*& __cordl_internal_get_m_DrivenField();
 
   constexpr void __cordl_internal_set__dragging_k__BackingField(bool value);
 
@@ -157,6 +156,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FieldMouseDragger_1(FieldMouseDragger_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5946 };
+
   /// @brief Field m_DrivenField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::IValueField_1<T>* ___m_DrivenField;
 
@@ -171,9 +173,6 @@ public:
 
   /// @brief Field <startValue>k__BackingField, offset: 0x38, size: 0x8, def value: None
   T ____startValue_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

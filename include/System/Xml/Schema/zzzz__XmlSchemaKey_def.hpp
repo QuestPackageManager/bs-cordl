@@ -11,17 +11,16 @@ class XmlSchemaKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaKey);
-// Type: System.Xml.Schema::XmlSchemaKey
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaIdentityConstraint
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaKey*
+// CS Name: System.Xml.Schema.XmlSchemaKey
 class CORDL_TYPE XmlSchemaKey : public ::System::Xml::Schema::XmlSchemaIdentityConstraint {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaKey* New_ctor();
 
-  /// @brief Method .ctor, addr 0x425c600, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bd914, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XmlSchemaKey(XmlSchemaKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

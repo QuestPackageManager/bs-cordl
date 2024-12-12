@@ -13,27 +13,22 @@ class IPlayable;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Playables::IPlayable);
-// Type: UnityEngine.Playables::IPlayable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Playables {
 // Is value type: false
-// CS Name: ::UnityEngine.Playables::IPlayable*
+// CS Name: UnityEngine.Playables.IPlayable
 class CORDL_TYPE IPlayable {
 public:
   // Declarations
-  /// @brief Method GetHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPlayable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPlayable(IPlayable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlayable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPlayable(IPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

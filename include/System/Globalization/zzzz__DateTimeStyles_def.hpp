@@ -12,11 +12,10 @@ struct DateTimeStyles;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::DateTimeStyles);
-// Type: System.Globalization::DateTimeStyles
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::System.Globalization::DateTimeStyles
+// CS Name: System.Globalization.DateTimeStyles
 struct CORDL_TYPE DateTimeStyles {
 public:
   // Declarations
@@ -53,37 +52,34 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DateTimeStyles(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AdjustToUniversal value: static_cast<int32_t>(0x10)
+  /// @brief Field AdjustToUniversal value: I32(16)
   static ::System::Globalization::DateTimeStyles const AdjustToUniversal;
 
-  /// @brief Field AllowInnerWhite value: static_cast<int32_t>(0x4)
+  /// @brief Field AllowInnerWhite value: I32(4)
   static ::System::Globalization::DateTimeStyles const AllowInnerWhite;
 
-  /// @brief Field AllowLeadingWhite value: static_cast<int32_t>(0x1)
+  /// @brief Field AllowLeadingWhite value: I32(1)
   static ::System::Globalization::DateTimeStyles const AllowLeadingWhite;
 
-  /// @brief Field AllowTrailingWhite value: static_cast<int32_t>(0x2)
+  /// @brief Field AllowTrailingWhite value: I32(2)
   static ::System::Globalization::DateTimeStyles const AllowTrailingWhite;
 
-  /// @brief Field AllowWhiteSpaces value: static_cast<int32_t>(0x7)
+  /// @brief Field AllowWhiteSpaces value: I32(7)
   static ::System::Globalization::DateTimeStyles const AllowWhiteSpaces;
 
-  /// @brief Field AssumeLocal value: static_cast<int32_t>(0x20)
+  /// @brief Field AssumeLocal value: I32(32)
   static ::System::Globalization::DateTimeStyles const AssumeLocal;
 
-  /// @brief Field AssumeUniversal value: static_cast<int32_t>(0x40)
+  /// @brief Field AssumeUniversal value: I32(64)
   static ::System::Globalization::DateTimeStyles const AssumeUniversal;
 
-  /// @brief Field NoCurrentDateDefault value: static_cast<int32_t>(0x8)
+  /// @brief Field NoCurrentDateDefault value: I32(8)
   static ::System::Globalization::DateTimeStyles const NoCurrentDateDefault;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Globalization::DateTimeStyles const None;
 
-  /// @brief Field RoundtripKind value: static_cast<int32_t>(0x80)
+  /// @brief Field RoundtripKind value: I32(128)
   static ::System::Globalization::DateTimeStyles const RoundtripKind;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,12 +88,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::DateTimeStyles, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::DateTimeStyles, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::DateTimeStyles, 0x4>, "Size mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DateTimeStyles, "System.Globalization", "DateTimeStyles");

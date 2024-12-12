@@ -2,13 +2,12 @@
 // IWYU pragma private; include "UnityEngine/TextCore/Text/Extents.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Extents_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::Extents.ToString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::Extents::*)()>(&::UnityEngine::TextCore::Text::Extents::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x48c6b0c;
+  constexpr static std::size_t addrs = 0x492b19c;
 
   inline static ::MethodInfo const* methodInfo() {
 

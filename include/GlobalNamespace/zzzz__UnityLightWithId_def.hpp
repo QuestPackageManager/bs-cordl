@@ -18,11 +18,10 @@ class UnityLightWithId;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UnityLightWithId);
-// Type: ::UnityLightWithId
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightWithIdMonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UnityLightWithId*
+// CS Name: UnityLightWithId
 class CORDL_TYPE UnityLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x398f078, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e5a48, size 0x4c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::UnityLightWithId* New_ctor();
@@ -60,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__minAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x398f0c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e5a94, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x398f05c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e5a2c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -80,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityLightWithId(UnityLightWithId const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16340 };
+
   /// @brief Field _light, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Light> ____light;
 
@@ -89,19 +91,16 @@ public:
   /// @brief Field _minAlpha, offset: 0x44, size: 0x4, def value: None
   float_t ____minAlpha;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16305 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityLightWithId, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____light) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____intensity) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____minAlpha) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityLightWithId, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::UnityLightWithId);

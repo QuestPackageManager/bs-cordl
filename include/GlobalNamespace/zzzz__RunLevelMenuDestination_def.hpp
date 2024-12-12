@@ -29,11 +29,10 @@ class RunLevelMenuDestination;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RunLevelMenuDestination);
-// Type: ::RunLevelMenuDestination
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficulty, MenuDestination
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RunLevelMenuDestination*
+// CS Name: RunLevelMenuDestination
 class CORDL_TYPE RunLevelMenuDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
@@ -86,13 +85,13 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
+  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get_beatmapLevel() const;
+
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
+  constexpr ::GlobalNamespace::BeatmapLevelPack* const& __cordl_internal_get_beatmapLevelPack() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
 
   constexpr ::StringW const& __cordl_internal_get_environmentName() const;
 
@@ -102,9 +101,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_environmentType();
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get_gameplayModifiers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
 
   constexpr bool const& __cordl_internal_get_overrideEnvironments() const;
 
@@ -150,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x2678400, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac9b8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime,
                     float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun);
@@ -168,6 +167,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RunLevelMenuDestination", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RunLevelMenuDestination(RunLevelMenuDestination const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12819 };
 
   /// @brief Field beatmapLevelPack, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ___beatmapLevelPack;
@@ -205,14 +207,9 @@ public:
   /// @brief Field quitAppAfterRun, offset: 0x58, size: 0x1, def value: None
   bool ___quitAppAfterRun;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12785 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RunLevelMenuDestination, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___beatmapLevelPack) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___beatmapLevel) == 0x18, "Offset mismatch!");
@@ -236,6 +233,8 @@ static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___environmen
 static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___environmentName) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___quitAppAfterRun) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RunLevelMenuDestination, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RunLevelMenuDestination);

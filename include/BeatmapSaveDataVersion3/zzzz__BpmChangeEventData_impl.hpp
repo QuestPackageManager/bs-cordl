@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::BpmChangeEventData::*)()>(
     &::BeatmapSaveDataVersion3::BpmChangeEventData::get_bpm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4a98;
+  constexpr static std::size_t addrs = 0x2706408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BpmChangeEventData*>::get(), "get_bpm",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::BpmChangeEventData::*)(float_t, float_t)>(
     &::BeatmapSaveDataVersion3::BpmChangeEventData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26d4aa0;
+  constexpr static std::size_t addrs = 0x2706410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,14 +48,14 @@ inline float_t BeatmapSaveDataVersion3::BpmChangeEventData::get_bpm() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::BpmChangeEventData* BeatmapSaveDataVersion3::BpmChangeEventData::New_ctor(float_t beat, float_t bpm) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::BpmChangeEventData*>(beat, bpm));
-}
 inline void BeatmapSaveDataVersion3::BpmChangeEventData::_ctor(float_t beat, float_t bpm) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BpmChangeEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, bpm);
+}
+inline ::BeatmapSaveDataVersion3::BpmChangeEventData* BeatmapSaveDataVersion3::BpmChangeEventData::New_ctor(float_t beat, float_t bpm) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::BpmChangeEventData*>(beat, bpm));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::BpmChangeEventData::BpmChangeEventData() {}

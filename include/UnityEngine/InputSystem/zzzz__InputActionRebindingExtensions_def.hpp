@@ -3,28 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionRebindingExtensions_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionRebindingExtensions)
-namespace GlobalNamespace {
-struct __InputActionRebindingExtensions__RebindingOperation__Flags;
-}
-namespace GlobalNamespace {
-class __InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -36,9 +32,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -68,9 +61,6 @@ namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
@@ -95,13 +85,40 @@ namespace UnityEngine::InputSystem {
 class InputActionAsset;
 }
 namespace UnityEngine::InputSystem {
+struct InputActionMap_BindingOverrideJson;
+}
+namespace UnityEngine::InputSystem {
 class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+class InputActionRebindingExtensions_DeferBindingResolutionWrapper;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionRebindingExtensions_ParameterEnumerable;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionRebindingExtensions_ParameterEnumerator;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionRebindingExtensions_ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionRebindingExtensions_Parameter;
+}
+namespace UnityEngine::InputSystem {
+class InputActionRebindingExtensions_RebindingOperation;
+}
+namespace UnityEngine::InputSystem {
+class InputActionRebindingExtensions___c__DisplayClass25_0;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding_DisplayStringOptions;
 }
 namespace UnityEngine::InputSystem {
 struct InputBinding;
@@ -119,89 +136,73 @@ namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideJson;
+struct RebindingOperation_InputActionRebindingExtensions_Flags;
 }
 namespace UnityEngine::InputSystem {
-class __InputActionRebindingExtensions__DeferBindingResolutionWrapper;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterEnumerable;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterEnumerator;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterOverride;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__Parameter;
-}
-namespace UnityEngine::InputSystem {
-class __InputActionRebindingExtensions__RebindingOperation;
-}
-namespace UnityEngine::InputSystem {
-class __InputActionRebindingExtensions____c__DisplayClass25_0;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBinding__DisplayStringOptions;
+class RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-struct __InputActionRebindingExtensions__RebindingOperation__Flags;
-}
-namespace GlobalNamespace {
-class __InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0;
+namespace UnityEngine::InputSystem {
+struct RebindingOperation_InputActionRebindingExtensions_Flags;
 }
 namespace UnityEngine::InputSystem {
 class InputActionRebindingExtensions;
 }
 namespace UnityEngine::InputSystem {
-class __InputActionRebindingExtensions__DeferBindingResolutionWrapper;
+class InputActionRebindingExtensions_DeferBindingResolutionWrapper;
 }
 namespace UnityEngine::InputSystem {
-class __InputActionRebindingExtensions__RebindingOperation;
+class InputActionRebindingExtensions_RebindingOperation;
 }
 namespace UnityEngine::InputSystem {
-class __InputActionRebindingExtensions____c__DisplayClass25_0;
+class InputActionRebindingExtensions___c__DisplayClass25_0;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__Parameter;
+class RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterEnumerable;
+struct InputActionRebindingExtensions_Parameter;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterEnumerator;
+struct InputActionRebindingExtensions_ParameterEnumerable;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterOverride;
+struct InputActionRebindingExtensions_ParameterEnumerator;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionRebindingExtensions_ParameterOverride;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags);
-MARK_REF_PTR_T(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0);
+MARK_VAL_T(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputActionRebindingExtensions);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0);
-MARK_VAL_T(::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter);
-MARK_VAL_T(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable);
-MARK_VAL_T(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator);
-MARK_VAL_T(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride);
-// Type: ::Parameter
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0);
+MARK_VAL_T(::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter);
+MARK_VAL_T(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable);
+MARK_VAL_T(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator);
+MARK_VAL_T(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride);
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputActionRebindingExtensions::Parameter
-struct CORDL_TYPE __InputActionRebindingExtensions__Parameter {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/Parameter
+struct CORDL_TYPE InputActionRebindingExtensions_Parameter {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__Parameter();
+  constexpr InputActionRebindingExtensions_Parameter();
 
   // Ctor Parameters [CppParam { name: "instance", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "field", ty: "::System::Reflection::FieldInfo*", modifiers: "",
   // def_value: None }, CppParam { name: "bindingIndex", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputActionRebindingExtensions__Parameter(::System::Object* instance, ::System::Reflection::FieldInfo* field, int32_t bindingIndex) noexcept;
+  constexpr InputActionRebindingExtensions_Parameter(::System::Object* instance, ::System::Reflection::FieldInfo* field, int32_t bindingIndex) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6554 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field instance, offset: 0x0, size: 0x8, def value: None
   ::System::Object* instance;
@@ -212,66 +213,65 @@ public:
   /// @brief Field bindingIndex, offset: 0x10, size: 0x4, def value: None
   int32_t bindingIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6529 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter, 0x18>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter, instance) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter, instance) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter, field) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter, field) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter, bindingIndex) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter, bindingIndex) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: ::ParameterOverride
-// SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputBinding, UnityEngine.InputSystem.Utilities.PrimitiveValue
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputActionRebindingExtensions::ParameterOverride
-struct CORDL_TYPE __InputActionRebindingExtensions__ParameterOverride {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride
+struct CORDL_TYPE InputActionRebindingExtensions_ParameterOverride {
 public:
   // Declarations
   __declspec(property(get = get_objectType)) ::System::Type* objectType;
 
-  /// @brief Method Find, addr 0x44e44a8, size 0x178, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>
-  Find(::UnityEngine::InputSystem::InputActionMap* actionMap, ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW parameterName, ::StringW objectRegistrationName);
+  /// @brief Method Find, addr 0x45457bc, size 0x178, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>
+  Find(::UnityEngine::InputSystem::InputActionMap* actionMap, ::ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW parameterName, ::StringW objectRegistrationName);
 
-  /// @brief Method Find, addr 0x44e9344, size 0x21c, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>
-  Find(::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*> overrides,
-       int32_t overrideCount, ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW parameterName, ::StringW objectRegistrationName);
+  /// @brief Method Find, addr 0x454a658, size 0x21c, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>
+  Find(::ArrayW<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, ::Array<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>*> overrides,
+       int32_t overrideCount, ::ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW parameterName, ::StringW objectRegistrationName);
 
-  /// @brief Method PickMoreSpecificOne, addr 0x44e9560, size 0x280, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>
-  PickMoreSpecificOne(::System::Nullable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride> first,
-                      ::System::Nullable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride> second);
+  /// @brief Method PickMoreSpecificOne, addr 0x454a874, size 0x280, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>
+  PickMoreSpecificOne(::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride> first,
+                      ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride> second);
 
-  /// @brief Method .ctor, addr 0x44e9310, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x454a624, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectRegistrationName, ::StringW parameterName, ::UnityEngine::InputSystem::InputBinding bindingMask, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method .ctor, addr 0x44e350c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4544820, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW parameterName, ::UnityEngine::InputSystem::InputBinding bindingMask, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method get_objectType, addr 0x44e8da4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_objectType, addr 0x454a0b8, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Type* get_objectType();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__ParameterOverride();
+  constexpr InputActionRebindingExtensions_ParameterOverride();
 
   // Ctor Parameters [CppParam { name: "objectRegistrationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "parameter", ty: "::StringW", modifiers: "", def_value: None },
   // CppParam { name: "bindingMask", ty: "::UnityEngine::InputSystem::InputBinding", modifiers: "", def_value: None }, CppParam { name: "value", ty:
   // "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }]
-  constexpr __InputActionRebindingExtensions__ParameterOverride(::StringW objectRegistrationName, ::StringW parameter, ::UnityEngine::InputSystem::InputBinding bindingMask,
-                                                                ::UnityEngine::InputSystem::Utilities::PrimitiveValue value) noexcept;
+  constexpr InputActionRebindingExtensions_ParameterOverride(::StringW objectRegistrationName, ::StringW parameter, ::UnityEngine::InputSystem::InputBinding bindingMask,
+                                                             ::UnityEngine::InputSystem::Utilities::PrimitiveValue value) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6557 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
 
   /// @brief Field objectRegistrationName, offset: 0x0, size: 0x8, def value: None
   ::StringW objectRegistrationName;
@@ -285,112 +285,105 @@ public:
   /// @brief Field value, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::PrimitiveValue value;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6532 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, 0x78>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, objectRegistrationName) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, objectRegistrationName) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, parameter) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, parameter) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, bindingMask) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, bindingMask) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, value) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, value) == 0x68, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, 0x78>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: ::ParameterEnumerable
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, UnityEngine.InputSystem.InputActionRebindingExtensions::Parameter,
+// UnityEngine.InputSystem.InputActionRebindingExtensions::ParameterOverride
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputActionRebindingExtensions::ParameterEnumerable
-struct CORDL_TYPE __InputActionRebindingExtensions__ParameterEnumerable {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterEnumerable
+struct CORDL_TYPE InputActionRebindingExtensions_ParameterEnumerable {
 public:
   // Declarations
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>*();
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>*();
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x44e37a0, size 0x60, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator GetEnumerator();
+  /// @brief Method GetEnumerator, addr 0x4544ab4, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputActionRebindingExtensions.Parameter>.GetEnumerator, addr 0x44e8c34, size 0xb8, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputActionRebindingExtensions.Parameter>.GetEnumerator, addr 0x4549f48, size 0xb8, virtual true, abstract: false,
   /// final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>*
+  inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputActionRebindingExtensions_Parameter__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x44e8cec, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x454a000, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x44e376c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::InputActionState* state, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride parameter, int32_t mapIndex);
+  /// @brief Method .ctor, addr 0x4544a80, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::InputSystem::InputActionState* state, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameter, int32_t mapIndex);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>*
-  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem____InputActionRebindingExtensions__Parameter_();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>*
+  i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputActionRebindingExtensions_Parameter_();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__ParameterEnumerable();
+  constexpr InputActionRebindingExtensions_ParameterEnumerable();
 
   // Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: None }, CppParam { name: "m_Parameter", ty:
-  // "::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride", modifiers: "", def_value: None }, CppParam { name: "m_MapIndex", ty: "int32_t", modifiers: "", def_value: None
-  // }]
-  constexpr __InputActionRebindingExtensions__ParameterEnumerable(::UnityEngine::InputSystem::InputActionState* m_State,
-                                                                  ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride m_Parameter, int32_t m_MapIndex) noexcept;
+  // "::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride", modifiers: "", def_value: None }, CppParam { name: "m_MapIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InputActionRebindingExtensions_ParameterEnumerable(::UnityEngine::InputSystem::InputActionState* m_State,
+                                                               ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride m_Parameter, int32_t m_MapIndex) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6555 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };
 
   /// @brief Field m_State, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputActionState* m_State;
 
   /// @brief Field m_Parameter, offset: 0x8, size: 0x78, def value: None
-  ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride m_Parameter;
+  ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride m_Parameter;
 
   /// @brief Field m_MapIndex, offset: 0x80, size: 0x4, def value: None
   int32_t m_MapIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6530 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable, 0x88>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable, m_State) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable, m_State) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable, m_Parameter) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable, m_Parameter) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable, m_MapIndex) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable, m_MapIndex) == 0x80, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable, 0x88>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: ::ParameterEnumerator
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, UnityEngine.InputSystem.InputActionRebindingExtensions::Parameter,
+// UnityEngine.InputSystem.InputBinding
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputActionRebindingExtensions::ParameterEnumerator
-struct CORDL_TYPE __InputActionRebindingExtensions__ParameterEnumerator {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterEnumerator
+struct CORDL_TYPE InputActionRebindingExtensions_ParameterEnumerator {
 public:
   // Declarations
-  __declspec(property(get = get_Current)) ::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter Current;
+  __declspec(property(get = get_Current)) ::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter Current;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>*();
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>*();
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
@@ -398,39 +391,39 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x44e930c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x454a620, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FindParameter, addr 0x44e9150, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindParameter, addr 0x454a464, size 0xe8, virtual false, abstract: false, final false
   inline bool FindParameter(::System::Object* instance);
 
-  /// @brief Method MoveNext, addr 0x44e3814, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4544b28, size 0xb4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method MoveToNextBinding, addr 0x44e8f24, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextBinding, addr 0x454a238, size 0x1bc, virtual false, abstract: false, final false
   inline bool MoveToNextBinding();
 
-  /// @brief Method MoveToNextInteraction, addr 0x44e90e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextInteraction, addr 0x454a3f4, size 0x70, virtual false, abstract: false, final false
   inline bool MoveToNextInteraction();
 
-  /// @brief Method MoveToNextProcessor, addr 0x44e9238, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextProcessor, addr 0x454a54c, size 0x70, virtual false, abstract: false, final false
   inline bool MoveToNextProcessor();
 
-  /// @brief Method Reset, addr 0x44e8e58, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x454a16c, size 0xcc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x44e92a8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x454a5bc, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x44e89ec, size 0x248, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::InputActionState* state, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride parameter, int32_t mapIndex);
+  /// @brief Method .ctor, addr 0x4549d00, size 0x248, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::InputSystem::InputActionState* state, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameter, int32_t mapIndex);
 
-  /// @brief Method get_Current, addr 0x44e3800, size 0x14, virtual true, abstract: false, final true
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter get_Current();
+  /// @brief Method get_Current, addr 0x4544b14, size 0x14, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter get_Current();
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter>*
-  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem____InputActionRebindingExtensions__Parameter_();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>*
+  i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputActionRebindingExtensions_Parameter_();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
@@ -440,7 +433,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__ParameterEnumerator();
+  constexpr InputActionRebindingExtensions_ParameterEnumerator();
 
   // Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: None }, CppParam { name: "m_MapIndex", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "m_BindingCurrentIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BindingEndIndex", ty: "int32_t", modifiers: "", def_value: None
@@ -451,11 +444,17 @@ public:
   // "m_MayBeProcessor", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_MayBeComposite", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "m_CurrentBindingIsComposite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_CurrentObject", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name:
   // "m_CurrentParameter", ty: "::System::Reflection::FieldInfo*", modifiers: "", def_value: None }]
-  constexpr __InputActionRebindingExtensions__ParameterEnumerator(::UnityEngine::InputSystem::InputActionState* m_State, int32_t m_MapIndex, int32_t m_BindingCurrentIndex, int32_t m_BindingEndIndex,
-                                                                  int32_t m_InteractionCurrentIndex, int32_t m_InteractionEndIndex, int32_t m_ProcessorCurrentIndex, int32_t m_ProcessorEndIndex,
-                                                                  ::UnityEngine::InputSystem::InputBinding m_BindingMask, ::System::Type* m_ObjectType, ::StringW m_ParameterName,
-                                                                  bool m_MayBeInteraction, bool m_MayBeProcessor, bool m_MayBeComposite, bool m_CurrentBindingIsComposite,
-                                                                  ::System::Object* m_CurrentObject, ::System::Reflection::FieldInfo* m_CurrentParameter) noexcept;
+  constexpr InputActionRebindingExtensions_ParameterEnumerator(::UnityEngine::InputSystem::InputActionState* m_State, int32_t m_MapIndex, int32_t m_BindingCurrentIndex, int32_t m_BindingEndIndex,
+                                                               int32_t m_InteractionCurrentIndex, int32_t m_InteractionEndIndex, int32_t m_ProcessorCurrentIndex, int32_t m_ProcessorEndIndex,
+                                                               ::UnityEngine::InputSystem::InputBinding m_BindingMask, ::System::Type* m_ObjectType, ::StringW m_ParameterName, bool m_MayBeInteraction,
+                                                               bool m_MayBeProcessor, bool m_MayBeComposite, bool m_CurrentBindingIsComposite, ::System::Object* m_CurrentObject,
+                                                               ::System::Reflection::FieldInfo* m_CurrentParameter) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6556 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
 
   /// @brief Field m_State, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputActionState* m_State;
@@ -508,64 +507,57 @@ public:
   /// @brief Field m_CurrentParameter, offset: 0xa0, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* m_CurrentParameter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6531 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, 0xa8>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_State) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_State) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_MapIndex) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_MapIndex) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_BindingCurrentIndex) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_BindingCurrentIndex) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_BindingEndIndex) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_BindingEndIndex) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_InteractionCurrentIndex) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_InteractionCurrentIndex) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_InteractionEndIndex) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_InteractionEndIndex) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_ProcessorCurrentIndex) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_ProcessorCurrentIndex) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_ProcessorEndIndex) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_ProcessorEndIndex) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_BindingMask) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_BindingMask) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_ObjectType) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_ObjectType) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_ParameterName) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_ParameterName) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_MayBeInteraction) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_MayBeInteraction) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_MayBeProcessor) == 0x91, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_MayBeProcessor) == 0x91, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_MayBeComposite) == 0x92, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_MayBeComposite) == 0x92, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_CurrentBindingIsComposite) == 0x93, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_CurrentBindingIsComposite) == 0x93, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_CurrentObject) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_CurrentObject) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, m_CurrentParameter) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, m_CurrentParameter) == 0xa0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, 0xa8>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: ::Flags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies
+namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputActionRebindingExtensions::RebindingOperation::Flags
-struct CORDL_TYPE __InputActionRebindingExtensions__RebindingOperation__Flags {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/RebindingOperation/Flags
+struct CORDL_TYPE RebindingOperation_InputActionRebindingExtensions_Flags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____InputActionRebindingExtensions__RebindingOperation__Flags_Unwrapped
-  enum struct ____InputActionRebindingExtensions__RebindingOperation__Flags_Unwrapped : int32_t {
+  /// @brief Nested struct __RebindingOperation_InputActionRebindingExtensions_Flags_Unwrapped
+  enum struct __RebindingOperation_InputActionRebindingExtensions_Flags_Unwrapped : int32_t {
     __E_Started = static_cast<int32_t>(0x1),
     __E_Completed = static_cast<int32_t>(0x2),
     __E_Canceled = static_cast<int32_t>(0x4),
@@ -578,8 +570,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____InputActionRebindingExtensions__RebindingOperation__Flags_Unwrapped() const noexcept {
-    return static_cast<____InputActionRebindingExtensions__RebindingOperation__Flags_Unwrapped>(this->value__);
+  constexpr operator __RebindingOperation_InputActionRebindingExtensions_Flags_Unwrapped() const noexcept {
+    return static_cast<__RebindingOperation_InputActionRebindingExtensions_Flags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -589,69 +581,68 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__RebindingOperation__Flags();
+  constexpr RebindingOperation_InputActionRebindingExtensions_Flags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputActionRebindingExtensions__RebindingOperation__Flags(int32_t value__) noexcept;
+  constexpr RebindingOperation_InputActionRebindingExtensions_Flags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field AddNewBinding value: I32(256)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const AddNewBinding;
 
-  /// @brief Field AddNewBinding value: static_cast<int32_t>(0x100)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const AddNewBinding;
+  /// @brief Field Canceled value: I32(4)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const Canceled;
 
-  /// @brief Field Canceled value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const Canceled;
+  /// @brief Field Completed value: I32(2)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const Completed;
 
-  /// @brief Field Completed value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const Completed;
+  /// @brief Field DontGeneralizePathOfSelectedControl value: I32(128)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const DontGeneralizePathOfSelectedControl;
 
-  /// @brief Field DontGeneralizePathOfSelectedControl value: static_cast<int32_t>(0x80)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const DontGeneralizePathOfSelectedControl;
+  /// @brief Field DontIgnoreNoisyControls value: I32(64)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const DontIgnoreNoisyControls;
 
-  /// @brief Field DontIgnoreNoisyControls value: static_cast<int32_t>(0x40)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const DontIgnoreNoisyControls;
+  /// @brief Field OnAfterUpdateHooked value: I32(16)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const OnAfterUpdateHooked;
 
-  /// @brief Field OnAfterUpdateHooked value: static_cast<int32_t>(0x10)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const OnAfterUpdateHooked;
+  /// @brief Field OnEventHooked value: I32(8)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const OnEventHooked;
 
-  /// @brief Field OnEventHooked value: static_cast<int32_t>(0x8)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const OnEventHooked;
+  /// @brief Field Started value: I32(1)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const Started;
 
-  /// @brief Field Started value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const Started;
-
-  /// @brief Field SuppressMatchingEvents value: static_cast<int32_t>(0x200)
-  static ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const SuppressMatchingEvents;
+  /// @brief Field SuppressMatchingEvents value: I32(512)
+  static ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const SuppressMatchingEvents;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6558 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags, 0x4>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass32_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+} // namespace UnityEngine::InputSystem
+// Dependencies System.Object
+namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::InputActionRebindingExtensions::RebindingOperation::<>c__DisplayClass32_0*
-class CORDL_TYPE __InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/RebindingOperation/<>c__DisplayClass32_0
+class CORDL_TYPE RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field group, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_group, put = __cordl_internal_set_group)) ::StringW group;
 
-  static inline ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0* New_ctor();
+  static inline ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method <WithTargetBinding>b__0, addr 0x44eb604, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <WithTargetBinding>b__0, addr 0x454c918, size 0x24, virtual false, abstract: false, final false
   inline bool _WithTargetBinding_b__0(::UnityEngine::InputSystem::InputControlScheme x);
 
   constexpr ::StringW const& __cordl_internal_get_group() const;
@@ -660,48 +651,48 @@ public:
 
   constexpr void __cordl_internal_set_group(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44e9c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x454af4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0();
+  constexpr RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0(__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0&&) = delete;
+  RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0(RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0(__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0 const&) = delete;
+  RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0(RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6559 };
 
   /// @brief Field group, offset: 0x10, size: 0x8, def value: None
   ::StringW ___group;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6534 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0, ___group) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0, ___group) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::RebindingOperation
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace UnityEngine::InputSystem
+// Dependencies System.IDisposable, System.Nullable`1<T>, System.Object, UnityEngine.InputSystem.InputActionRebindingExtensions::RebindingOperation::Flags, UnityEngine.InputSystem.InputBinding,
+// UnityEngine.InputSystem.InputControlList`1<TControl>, UnityEngine.InputSystem.Layouts.InputControlLayout::Cache, UnityEngine.InputSystem.Utilities.InternedString
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::InputActionRebindingExtensions::RebindingOperation*
-class CORDL_TYPE __InputActionRebindingExtensions__RebindingOperation : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/RebindingOperation
+class CORDL_TYPE InputActionRebindingExtensions_RebindingOperation : public ::System::Object {
 public:
   // Declarations
-  using Flags = ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags;
+  using Flags = ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags;
 
-  using __c__DisplayClass32_0 = ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0;
+  using __c__DisplayClass32_0 = ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0;
 
   __declspec(property(get = get_action)) ::UnityEngine::InputSystem::InputAction* action;
 
@@ -744,7 +735,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ExpectedLayout, put = __cordl_internal_set_m_ExpectedLayout)) ::UnityEngine::InputSystem::Utilities::InternedString m_ExpectedLayout;
 
   /// @brief Field m_Flags, offset 0x168, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags m_Flags;
 
   /// @brief Field m_IncludePathCount, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_m_IncludePathCount, put = __cordl_internal_set_m_IncludePathCount)) int32_t m_IncludePathCount;
@@ -756,7 +747,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_LastMatchTime, put = __cordl_internal_set_m_LastMatchTime)) double_t m_LastMatchTime;
 
   /// @brief Field m_LayoutCache, offset 0x158, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LayoutCache, put = __cordl_internal_set_m_LayoutCache)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache m_LayoutCache;
+  __declspec(property(get = __cordl_internal_get_m_LayoutCache, put = __cordl_internal_set_m_LayoutCache)) ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache m_LayoutCache;
 
   /// @brief Field m_MagnitudeThreshold, offset 0xc8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MagnitudeThreshold, put = __cordl_internal_set_m_MagnitudeThreshold)) float_t m_MagnitudeThreshold;
@@ -769,15 +760,15 @@ public:
 
   /// @brief Field m_OnApplyBinding, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnApplyBinding,
-                      put = __cordl_internal_set_m_OnApplyBinding)) ::System::Action_2<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*, ::StringW>* m_OnApplyBinding;
+                      put = __cordl_internal_set_m_OnApplyBinding)) ::System::Action_2<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, ::StringW>* m_OnApplyBinding;
 
   /// @brief Field m_OnCancel, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnCancel,
-                      put = __cordl_internal_set_m_OnCancel)) ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* m_OnCancel;
+                      put = __cordl_internal_set_m_OnCancel)) ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* m_OnCancel;
 
   /// @brief Field m_OnComplete, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnComplete,
-                      put = __cordl_internal_set_m_OnComplete)) ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* m_OnComplete;
+                      put = __cordl_internal_set_m_OnComplete)) ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* m_OnComplete;
 
   /// @brief Field m_OnComputeScore, offset 0x138, size 0x8
   __declspec(property(
@@ -795,7 +786,7 @@ public:
 
   /// @brief Field m_OnPotentialMatch, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnPotentialMatch,
-                      put = __cordl_internal_set_m_OnPotentialMatch)) ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* m_OnPotentialMatch;
+                      put = __cordl_internal_set_m_OnPotentialMatch)) ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* m_OnPotentialMatch;
 
   /// @brief Field m_PathBuilder, offset 0x160, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PathBuilder, put = __cordl_internal_set_m_PathBuilder)) ::System::Text::StringBuilder* m_PathBuilder;
@@ -834,151 +825,151 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddCandidate, addr 0x44ea5a8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AddCandidate, addr 0x454b8bc, size 0x174, virtual false, abstract: false, final false
   inline void AddCandidate(::UnityEngine::InputSystem::InputControl* control, float_t score, float_t magnitude);
 
-  /// @brief Method Cancel, addr 0x44ea258, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x454b56c, size 0x10, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method Complete, addr 0x44ea2a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x454b5b8, size 0x10, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Dispose, addr 0x44ea964, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x454bc78, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x44eaac4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x454bdd8, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GeneratePathForControl, addr 0x44eb440, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GeneratePathForControl, addr 0x454c754, size 0x100, virtual false, abstract: false, final false
   inline ::StringW GeneratePathForControl(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method HavePathMatch, addr 0x44eb308, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HavePathMatch, addr 0x454c61c, size 0x90, virtual false, abstract: false, final false
   static inline bool HavePathMatch(::UnityEngine::InputSystem::InputControl* control, ::ArrayW<::StringW, ::Array<::StringW>*> paths, int32_t pathCount);
 
-  /// @brief Method HookOnAfterUpdate, addr 0x44ea0c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HookOnAfterUpdate, addr 0x454b3d4, size 0xc0, virtual false, abstract: false, final false
   inline void HookOnAfterUpdate();
 
-  /// @brief Method HookOnEvent, addr 0x44ea180, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HookOnEvent, addr 0x454b494, size 0xd8, virtual false, abstract: false, final false
   inline void HookOnEvent();
 
-  static inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* New_ctor();
+  static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* New_ctor();
 
-  /// @brief Method OnAfterUpdate, addr 0x44eb398, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnAfterUpdate, addr 0x454c6ac, size 0xa8, virtual false, abstract: false, final false
   inline void OnAfterUpdate();
 
-  /// @brief Method OnApplyBinding, addr 0x44e9f5c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*
-  OnApplyBinding(::System::Action_2<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*, ::StringW>* callback);
+  /// @brief Method OnApplyBinding, addr 0x454b270, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
+  OnApplyBinding(::System::Action_2<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, ::StringW>* callback);
 
-  /// @brief Method OnCancel, addr 0x44e9f3c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*
-  OnCancel(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* callback);
+  /// @brief Method OnCancel, addr 0x454b250, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
+  OnCancel(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* callback);
 
-  /// @brief Method OnCancel, addr 0x44ea268, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x454b57c, size 0x3c, virtual false, abstract: false, final false
   inline void OnCancel();
 
-  /// @brief Method OnComplete, addr 0x44e9f34, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*
-  OnComplete(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* callback);
+  /// @brief Method OnComplete, addr 0x454b248, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
+  OnComplete(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* callback);
 
-  /// @brief Method OnComplete, addr 0x44ea2b4, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x454b5c8, size 0x2f4, virtual false, abstract: false, final false
   inline void OnComplete();
 
-  /// @brief Method OnComputeScore, addr 0x44e9f54, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*
+  /// @brief Method OnComputeScore, addr 0x454b268, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
   OnComputeScore(::System::Func_3<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>* callback);
 
-  /// @brief Method OnEvent, addr 0x44eabf0, size 0x718, virtual false, abstract: false, final false
+  /// @brief Method OnEvent, addr 0x454bf04, size 0x718, virtual false, abstract: false, final false
   inline void OnEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method OnGeneratePath, addr 0x44e9f4c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* OnGeneratePath(::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>* callback);
+  /// @brief Method OnGeneratePath, addr 0x454b260, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* OnGeneratePath(::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>* callback);
 
-  /// @brief Method OnMatchWaitForAnother, addr 0x44e82c0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* OnMatchWaitForAnother(float_t seconds);
+  /// @brief Method OnMatchWaitForAnother, addr 0x45495d4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* OnMatchWaitForAnother(float_t seconds);
 
-  /// @brief Method OnPotentialMatch, addr 0x44e9f44, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*
-  OnPotentialMatch(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* callback);
+  /// @brief Method OnPotentialMatch, addr 0x454b258, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
+  OnPotentialMatch(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* callback);
 
-  /// @brief Method RemoveCandidate, addr 0x44ea84c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RemoveCandidate, addr 0x454bb60, size 0x118, virtual false, abstract: false, final false
   inline void RemoveCandidate(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method Reset, addr 0x44eab58, size 0x98, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* Reset();
+  /// @brief Method Reset, addr 0x454be6c, size 0x98, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* Reset();
 
-  /// @brief Method ResetAfterMatchCompleted, addr 0x44eb540, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ResetAfterMatchCompleted, addr 0x454c854, size 0xc4, virtual false, abstract: false, final false
   inline void ResetAfterMatchCompleted();
 
-  /// @brief Method SortCandidatesByScore, addr 0x44ea71c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SortCandidatesByScore, addr 0x454ba30, size 0x130, virtual false, abstract: false, final false
   inline void SortCandidatesByScore();
 
-  /// @brief Method Start, addr 0x44e9f64, size 0x15c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* Start();
+  /// @brief Method Start, addr 0x454b278, size 0x15c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* Start();
 
-  /// @brief Method ThrowIfRebindInProgress, addr 0x44e9998, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfRebindInProgress, addr 0x454acac, size 0x5c, virtual false, abstract: false, final false
   inline void ThrowIfRebindInProgress();
 
-  /// @brief Method UnhookOnAfterUpdate, addr 0x44eaa50, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UnhookOnAfterUpdate, addr 0x454bd64, size 0x74, virtual false, abstract: false, final false
   inline void UnhookOnAfterUpdate();
 
-  /// @brief Method UnhookOnEvent, addr 0x44ea9c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UnhookOnEvent, addr 0x454bcdc, size 0x88, virtual false, abstract: false, final false
   inline void UnhookOnEvent();
 
-  /// @brief Method WithAction, addr 0x44e813c, size 0x184, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithAction(::UnityEngine::InputSystem::InputAction* action);
+  /// @brief Method WithAction, addr 0x4549450, size 0x184, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method WithBindingGroup, addr 0x44e9d88, size 0x98, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithBindingGroup(::StringW group);
+  /// @brief Method WithBindingGroup, addr 0x454b09c, size 0x98, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithBindingGroup(::StringW group);
 
-  /// @brief Method WithBindingMask, addr 0x44e9d68, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithBindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> bindingMask);
+  /// @brief Method WithBindingMask, addr 0x454b07c, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithBindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> bindingMask);
 
-  /// @brief Method WithCancelingThrough, addr 0x44e8440, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithCancelingThrough(::StringW binding);
+  /// @brief Method WithCancelingThrough, addr 0x4549754, size 0x28, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithCancelingThrough(::StringW binding);
 
-  /// @brief Method WithCancelingThrough, addr 0x44e9a3c, size 0x8c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithCancelingThrough(::UnityEngine::InputSystem::InputControl* control);
+  /// @brief Method WithCancelingThrough, addr 0x454ad50, size 0x8c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithCancelingThrough(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method WithControlsExcluding, addr 0x44e82c8, size 0x128, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithControlsExcluding(::StringW path);
+  /// @brief Method WithControlsExcluding, addr 0x45495dc, size 0x128, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithControlsExcluding(::StringW path);
 
-  /// @brief Method WithControlsHavingToMatchPath, addr 0x44e9c40, size 0x128, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithControlsHavingToMatchPath(::StringW path);
+  /// @brief Method WithControlsHavingToMatchPath, addr 0x454af54, size 0x128, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithControlsHavingToMatchPath(::StringW path);
 
   /// @brief Method WithExpectedControlType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TControl> inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithExpectedControlType();
+  template <typename TControl> inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithExpectedControlType();
 
-  /// @brief Method WithExpectedControlType, addr 0x44e99f4, size 0x48, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithExpectedControlType(::StringW layoutName);
+  /// @brief Method WithExpectedControlType, addr 0x454ad08, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithExpectedControlType(::StringW layoutName);
 
-  /// @brief Method WithExpectedControlType, addr 0x44e9ac8, size 0x170, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithExpectedControlType(::System::Type* type);
+  /// @brief Method WithExpectedControlType, addr 0x454addc, size 0x170, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithExpectedControlType(::System::Type* type);
 
-  /// @brief Method WithMagnitudeHavingToBeGreaterThan, addr 0x44e9e44, size 0xc4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithMagnitudeHavingToBeGreaterThan(float_t magnitude);
+  /// @brief Method WithMagnitudeHavingToBeGreaterThan, addr 0x454b158, size 0xc4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithMagnitudeHavingToBeGreaterThan(float_t magnitude);
 
-  /// @brief Method WithMatchingEventsBeingSuppressed, addr 0x44e83f0, size 0x40, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithMatchingEventsBeingSuppressed(bool value);
+  /// @brief Method WithMatchingEventsBeingSuppressed, addr 0x4549704, size 0x40, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithMatchingEventsBeingSuppressed(bool value);
 
-  /// @brief Method WithRebindAddingNewBinding, addr 0x44e9e30, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithRebindAddingNewBinding(::StringW group);
+  /// @brief Method WithRebindAddingNewBinding, addr 0x454b144, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithRebindAddingNewBinding(::StringW group);
 
-  /// @brief Method WithTargetBinding, addr 0x44e8468, size 0x52c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithTargetBinding(int32_t bindingIndex);
+  /// @brief Method WithTargetBinding, addr 0x454977c, size 0x52c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithTargetBinding(int32_t bindingIndex);
 
-  /// @brief Method WithTimeout, addr 0x44e9f2c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithTimeout(float_t timeInSeconds);
+  /// @brief Method WithTimeout, addr 0x454b240, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithTimeout(float_t timeInSeconds);
 
-  /// @brief Method WithoutGeneralizingPathOfSelectedControl, addr 0x44e9e20, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithoutGeneralizingPathOfSelectedControl();
+  /// @brief Method WithoutGeneralizingPathOfSelectedControl, addr 0x454b134, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithoutGeneralizingPathOfSelectedControl();
 
-  /// @brief Method WithoutIgnoringNoisyControls, addr 0x44e9f08, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* WithoutIgnoringNoisyControls();
+  /// @brief Method WithoutIgnoringNoisyControls, addr 0x454b21c, size 0x24, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithoutIgnoringNoisyControls();
+
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_ActionToRebind() const;
 
   constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_ActionToRebind();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_ActionToRebind() const;
 
   constexpr ::StringW const& __cordl_internal_get_m_BindingGroupForNewBinding() const;
 
@@ -996,9 +987,9 @@ public:
 
   constexpr ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>& __cordl_internal_get_m_Candidates();
 
-  constexpr ::System::Type*& __cordl_internal_get_m_ControlType();
+  constexpr ::System::Type* const& __cordl_internal_get_m_ControlType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_ControlType() const;
+  constexpr ::System::Type*& __cordl_internal_get_m_ControlType();
 
   constexpr int32_t const& __cordl_internal_get_m_ExcludePathCount() const;
 
@@ -1012,9 +1003,9 @@ public:
 
   constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_ExpectedLayout();
 
-  constexpr ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags const& __cordl_internal_get_m_Flags() const;
+  constexpr ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags& __cordl_internal_get_m_Flags();
+  constexpr ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags& __cordl_internal_get_m_Flags();
 
   constexpr int32_t const& __cordl_internal_get_m_IncludePathCount() const;
 
@@ -1028,9 +1019,9 @@ public:
 
   constexpr double_t& __cordl_internal_get_m_LastMatchTime();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache const& __cordl_internal_get_m_LayoutCache() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache const& __cordl_internal_get_m_LayoutCache() const;
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache& __cordl_internal_get_m_LayoutCache();
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache& __cordl_internal_get_m_LayoutCache();
 
   constexpr float_t const& __cordl_internal_get_m_MagnitudeThreshold() const;
 
@@ -1040,46 +1031,41 @@ public:
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_m_Magnitudes();
 
+  constexpr ::System::Action* const& __cordl_internal_get_m_OnAfterUpdateDelegate() const;
+
   constexpr ::System::Action*& __cordl_internal_get_m_OnAfterUpdateDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_OnAfterUpdateDelegate() const;
+  constexpr ::System::Action_2<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, ::StringW>* const& __cordl_internal_get_m_OnApplyBinding() const;
 
-  constexpr ::System::Action_2<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*, ::StringW>*& __cordl_internal_get_m_OnApplyBinding();
+  constexpr ::System::Action_2<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, ::StringW>*& __cordl_internal_get_m_OnApplyBinding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*, ::StringW>*> const&
-  __cordl_internal_get_m_OnApplyBinding() const;
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* const& __cordl_internal_get_m_OnCancel() const;
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*& __cordl_internal_get_m_OnCancel();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>*& __cordl_internal_get_m_OnCancel();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*> const& __cordl_internal_get_m_OnCancel() const;
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* const& __cordl_internal_get_m_OnComplete() const;
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*& __cordl_internal_get_m_OnComplete();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>*& __cordl_internal_get_m_OnComplete();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*> const&
-  __cordl_internal_get_m_OnComplete() const;
+  constexpr ::System::Func_3<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>* const& __cordl_internal_get_m_OnComputeScore() const;
 
   constexpr ::System::Func_3<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>*& __cordl_internal_get_m_OnComputeScore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>*> const&
-  __cordl_internal_get_m_OnComputeScore() const;
+  constexpr ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* const& __cordl_internal_get_m_OnEventDelegate() const;
 
   constexpr ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*& __cordl_internal_get_m_OnEventDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> const&
-  __cordl_internal_get_m_OnEventDelegate() const;
+  constexpr ::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>* const& __cordl_internal_get_m_OnGeneratePath() const;
 
   constexpr ::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>*& __cordl_internal_get_m_OnGeneratePath();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>*> const& __cordl_internal_get_m_OnGeneratePath() const;
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* const& __cordl_internal_get_m_OnPotentialMatch() const;
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*& __cordl_internal_get_m_OnPotentialMatch();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>*& __cordl_internal_get_m_OnPotentialMatch();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>*> const&
-  __cordl_internal_get_m_OnPotentialMatch() const;
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_m_PathBuilder() const;
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_m_PathBuilder();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_m_PathBuilder() const;
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_m_Scores() const;
 
@@ -1089,10 +1075,9 @@ public:
 
   constexpr double_t& __cordl_internal_get_m_StartTime();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputControl*, float_t>*& __cordl_internal_get_m_StartingActuations();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputControl*, float_t>* const& __cordl_internal_get_m_StartingActuations() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputControl*, float_t>*> const&
-  __cordl_internal_get_m_StartingActuations() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputControl*, float_t>*& __cordl_internal_get_m_StartingActuations();
 
   constexpr int32_t const& __cordl_internal_get_m_TargetBindingIndex() const;
 
@@ -1124,7 +1109,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ExpectedLayout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr void __cordl_internal_set_m_Flags(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags value);
+  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags value);
 
   constexpr void __cordl_internal_set_m_IncludePathCount(int32_t value);
 
@@ -1132,7 +1117,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LastMatchTime(double_t value);
 
-  constexpr void __cordl_internal_set_m_LayoutCache(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache value);
+  constexpr void __cordl_internal_set_m_LayoutCache(::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache value);
 
   constexpr void __cordl_internal_set_m_MagnitudeThreshold(float_t value);
 
@@ -1140,11 +1125,11 @@ public:
 
   constexpr void __cordl_internal_set_m_OnAfterUpdateDelegate(::System::Action* value);
 
-  constexpr void __cordl_internal_set_m_OnApplyBinding(::System::Action_2<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*, ::StringW>* value);
+  constexpr void __cordl_internal_set_m_OnApplyBinding(::System::Action_2<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, ::StringW>* value);
 
-  constexpr void __cordl_internal_set_m_OnCancel(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* value);
+  constexpr void __cordl_internal_set_m_OnCancel(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* value);
 
-  constexpr void __cordl_internal_set_m_OnComplete(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* value);
+  constexpr void __cordl_internal_set_m_OnComplete(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* value);
 
   constexpr void __cordl_internal_set_m_OnComputeScore(::System::Func_3<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>* value);
 
@@ -1152,7 +1137,7 @@ public:
 
   constexpr void __cordl_internal_set_m_OnGeneratePath(::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>* value);
 
-  constexpr void __cordl_internal_set_m_OnPotentialMatch(::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* value);
+  constexpr void __cordl_internal_set_m_OnPotentialMatch(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* value);
 
   constexpr void __cordl_internal_set_m_PathBuilder(::System::Text::StringBuilder* value);
 
@@ -1168,43 +1153,43 @@ public:
 
   constexpr void __cordl_internal_set_m_WaitSecondsAfterMatch(float_t value);
 
-  /// @brief Method .ctor, addr 0x44e80ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45493c0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_action, addr 0x44e97e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x454aaf4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_bindingMask, addr 0x44e97e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bindingMask, addr 0x454aafc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
-  /// @brief Method get_canceled, addr 0x44e997c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_canceled, addr 0x454ac90, size 0xc, virtual false, abstract: false, final false
   inline bool get_canceled();
 
-  /// @brief Method get_candidates, addr 0x44e97f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_candidates, addr 0x454ab0c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> get_candidates();
 
-  /// @brief Method get_completed, addr 0x44e9970, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_completed, addr 0x454ac84, size 0xc, virtual false, abstract: false, final false
   inline bool get_completed();
 
-  /// @brief Method get_expectedControlType, addr 0x44e8430, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_expectedControlType, addr 0x4549744, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_expectedControlType();
 
-  /// @brief Method get_magnitudes, addr 0x44e9880, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_magnitudes, addr 0x454ab94, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<float_t> get_magnitudes();
 
-  /// @brief Method get_scores, addr 0x44e980c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_scores, addr 0x454ab20, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<float_t> get_scores();
 
-  /// @brief Method get_selectedControl, addr 0x44e98f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_selectedControl, addr 0x454ac08, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_selectedControl();
 
-  /// @brief Method get_startTime, addr 0x44e9988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x454ac9c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method get_started, addr 0x44e9964, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_started, addr 0x454ac78, size 0xc, virtual false, abstract: false, final false
   inline bool get_started();
 
-  /// @brief Method get_timeout, addr 0x44e9990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeout, addr 0x454aca4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeout();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1213,16 +1198,22 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__RebindingOperation();
+  constexpr InputActionRebindingExtensions_RebindingOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions__RebindingOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions_RebindingOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputActionRebindingExtensions__RebindingOperation(__InputActionRebindingExtensions__RebindingOperation&&) = delete;
+  InputActionRebindingExtensions_RebindingOperation(InputActionRebindingExtensions_RebindingOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions__RebindingOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions_RebindingOperation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputActionRebindingExtensions__RebindingOperation(__InputActionRebindingExtensions__RebindingOperation const&) = delete;
+  InputActionRebindingExtensions_RebindingOperation(InputActionRebindingExtensions_RebindingOperation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6560 };
+
+  /// @brief Field kDefaultMagnitudeThreshold offset 0xffffffff size 0x4
+  static constexpr float_t kDefaultMagnitudeThreshold{ static_cast<float_t>(0.2f) };
 
   /// @brief Field m_ActionToRebind, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___m_ActionToRebind;
@@ -1282,13 +1273,13 @@ public:
   ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> ___m_Candidates;
 
   /// @brief Field m_OnComplete, offset: 0x118, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* ___m_OnComplete;
+  ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* ___m_OnComplete;
 
   /// @brief Field m_OnCancel, offset: 0x120, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* ___m_OnCancel;
+  ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* ___m_OnCancel;
 
   /// @brief Field m_OnPotentialMatch, offset: 0x128, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*>* ___m_OnPotentialMatch;
+  ::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* ___m_OnPotentialMatch;
 
   /// @brief Field m_OnGeneratePath, offset: 0x130, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>* ___m_OnGeneratePath;
@@ -1297,7 +1288,7 @@ public:
   ::System::Func_3<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>* ___m_OnComputeScore;
 
   /// @brief Field m_OnApplyBinding, offset: 0x140, size: 0x8, def value: None
-  ::System::Action_2<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*, ::StringW>* ___m_OnApplyBinding;
+  ::System::Action_2<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, ::StringW>* ___m_OnApplyBinding;
 
   /// @brief Field m_OnEventDelegate, offset: 0x148, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* ___m_OnEventDelegate;
@@ -1306,111 +1297,104 @@ public:
   ::System::Action* ___m_OnAfterUpdateDelegate;
 
   /// @brief Field m_LayoutCache, offset: 0x158, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache ___m_LayoutCache;
+  ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache ___m_LayoutCache;
 
   /// @brief Field m_PathBuilder, offset: 0x160, size: 0x8, def value: None
   ::System::Text::StringBuilder* ___m_PathBuilder;
 
   /// @brief Field m_Flags, offset: 0x168, size: 0x4, def value: None
-  ::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags ___m_Flags;
+  ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags ___m_Flags;
 
   /// @brief Field m_StartingActuations, offset: 0x170, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputControl*, float_t>* ___m_StartingActuations;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6535 };
-
-  /// @brief Field kDefaultMagnitudeThreshold offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultMagnitudeThreshold{ 0.2 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, 0x178>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_ActionToRebind) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_ActionToRebind) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_BindingMask) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_BindingMask) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_ControlType) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_ControlType) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_ExpectedLayout) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_ExpectedLayout) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_IncludePathCount) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_IncludePathCount) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_IncludePaths) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_IncludePaths) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_ExcludePathCount) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_ExcludePathCount) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_ExcludePaths) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_ExcludePaths) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_TargetBindingIndex) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_TargetBindingIndex) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_BindingGroupForNewBinding) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_BindingGroupForNewBinding) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_CancelBinding) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_CancelBinding) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_MagnitudeThreshold) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_MagnitudeThreshold) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_Scores) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_Scores) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_Magnitudes) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_Magnitudes) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_LastMatchTime) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_LastMatchTime) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_StartTime) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_StartTime) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_Timeout) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_Timeout) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_WaitSecondsAfterMatch) == 0xf4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_WaitSecondsAfterMatch) == 0xf4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_Candidates) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_Candidates) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnComplete) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnComplete) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnCancel) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnCancel) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnPotentialMatch) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnPotentialMatch) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnGeneratePath) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnGeneratePath) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnComputeScore) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnComputeScore) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnApplyBinding) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnApplyBinding) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnEventDelegate) == 0x148, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnEventDelegate) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_OnAfterUpdateDelegate) == 0x150, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_OnAfterUpdateDelegate) == 0x150, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_LayoutCache) == 0x158, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_LayoutCache) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_PathBuilder) == 0x160, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_PathBuilder) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_Flags) == 0x168, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_Flags) == 0x168, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, ___m_StartingActuations) == 0x170, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation, ___m_StartingActuations) == 0x170, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation, 0x178>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: ::DeferBindingResolutionWrapper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::InputActionRebindingExtensions::DeferBindingResolutionWrapper*
-class CORDL_TYPE __InputActionRebindingExtensions__DeferBindingResolutionWrapper : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/DeferBindingResolutionWrapper
+class CORDL_TYPE InputActionRebindingExtensions_DeferBindingResolutionWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Acquire, addr 0x44e899c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x4549cb0, size 0x50, virtual false, abstract: false, final false
   inline void Acquire();
 
-  /// @brief Method Dispose, addr 0x44eb628, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x454c93c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  static inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper* New_ctor();
+  static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44e8994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4549ca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1419,32 +1403,31 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions__DeferBindingResolutionWrapper();
+  constexpr InputActionRebindingExtensions_DeferBindingResolutionWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions__DeferBindingResolutionWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions_DeferBindingResolutionWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputActionRebindingExtensions__DeferBindingResolutionWrapper(__InputActionRebindingExtensions__DeferBindingResolutionWrapper&&) = delete;
+  InputActionRebindingExtensions_DeferBindingResolutionWrapper(InputActionRebindingExtensions_DeferBindingResolutionWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions__DeferBindingResolutionWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions_DeferBindingResolutionWrapper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputActionRebindingExtensions__DeferBindingResolutionWrapper(__InputActionRebindingExtensions__DeferBindingResolutionWrapper const&) = delete;
+  InputActionRebindingExtensions_DeferBindingResolutionWrapper(InputActionRebindingExtensions_DeferBindingResolutionWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: ::<>c__DisplayClass25_0
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.InputSystem.InputBinding, UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<TValue>
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::InputActionRebindingExtensions::<>c__DisplayClass25_0*
-class CORDL_TYPE __InputActionRebindingExtensions____c__DisplayClass25_0 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions/<>c__DisplayClass25_0
+class CORDL_TYPE InputActionRebindingExtensions___c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bindings, offset 0x10, size 0x10
@@ -1460,9 +1443,9 @@ public:
   /// @brief Field partStrings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_partStrings, put = __cordl_internal_set_partStrings)) ::ArrayW<::StringW, ::Array<::StringW>*> partStrings;
 
-  static inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0* New_ctor();
+  static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <GetBindingDisplayString>b__0, addr 0x44eb694, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method <GetBindingDisplayString>b__0, addr 0x454c9a8, size 0x160, virtual false, abstract: false, final false
   inline ::StringW _GetBindingDisplayString_b__0(::StringW fragment);
 
   constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputBinding> const& __cordl_internal_get_bindings() const;
@@ -1489,22 +1472,25 @@ public:
 
   constexpr void __cordl_internal_set_partStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x44e554c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4546860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputActionRebindingExtensions____c__DisplayClass25_0();
+  constexpr InputActionRebindingExtensions___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions____c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputActionRebindingExtensions____c__DisplayClass25_0(__InputActionRebindingExtensions____c__DisplayClass25_0&&) = delete;
+  InputActionRebindingExtensions___c__DisplayClass25_0(InputActionRebindingExtensions___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputActionRebindingExtensions____c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputActionRebindingExtensions____c__DisplayClass25_0(__InputActionRebindingExtensions____c__DisplayClass25_0 const&) = delete;
+  InputActionRebindingExtensions___c__DisplayClass25_0(InputActionRebindingExtensions___c__DisplayClass25_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6562 };
 
   /// @brief Field bindings, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputBinding> ___bindings;
@@ -1518,80 +1504,75 @@ public:
   /// @brief Field partCount, offset: 0x30, size: 0x4, def value: None
   int32_t ___partCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6537 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0, 0x38>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0, ___bindings) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0, ___bindings) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0, ___firstPartIndex) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0, ___firstPartIndex) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0, ___partStrings) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0, ___partStrings) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0, ___partCount) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0, ___partCount) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: UnityEngine.InputSystem::InputActionRebindingExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputActionRebindingExtensions*
+// CS Name: UnityEngine.InputSystem.InputActionRebindingExtensions
 class CORDL_TYPE InputActionRebindingExtensions : public ::System::Object {
 public:
   // Declarations
-  using DeferBindingResolutionWrapper = ::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper;
+  using DeferBindingResolutionWrapper = ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper;
 
-  using Parameter = ::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter;
+  using Parameter = ::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter;
 
-  using ParameterEnumerable = ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable;
+  using ParameterEnumerable = ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable;
 
-  using ParameterEnumerator = ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator;
+  using ParameterEnumerator = ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator;
 
-  using ParameterOverride = ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride;
+  using ParameterOverride = ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride;
 
-  using RebindingOperation = ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation;
+  using RebindingOperation = ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation;
 
-  using __c__DisplayClass25_0 = ::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0;
+  using __c__DisplayClass25_0 = ::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0;
 
   /// @brief Field s_DeferBindingResolutionWrapper, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_s_DeferBindingResolutionWrapper,
-      put = setStaticF_s_DeferBindingResolutionWrapper)) ::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper* s_DeferBindingResolutionWrapper;
+  __declspec(property(get = getStaticF_s_DeferBindingResolutionWrapper,
+                      put = setStaticF_s_DeferBindingResolutionWrapper)) ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* s_DeferBindingResolutionWrapper;
 
-  /// @brief Method AddBindingOverrideJsonTo, addr 0x44e7084, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method AddBindingOverrideJsonTo, addr 0x4548398, size 0x224, virtual false, abstract: false, final false
   static inline void AddBindingOverrideJsonTo(::UnityEngine::InputSystem::IInputActionCollection2* actions, ::UnityEngine::InputSystem::InputBinding binding,
-                                              ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson>* list,
+                                              ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>* list,
                                               ::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method ApplyBindingOverride, addr 0x44e56d0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x45469e4, size 0x130, virtual false, abstract: false, final false
   static inline int32_t ApplyBindingOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverride, addr 0x44e5800, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x4546b14, size 0xbc, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverride, addr 0x44e5a30, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x4546d44, size 0x98, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::StringW path);
 
-  /// @brief Method ApplyBindingOverride, addr 0x44e55d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x45468e8, size 0xfc, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverride, addr 0x44e5554, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x4546868, size 0x80, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, ::StringW newPath, ::StringW group, ::StringW path);
 
-  /// @brief Method ApplyBindingOverride, addr 0x44e58bc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x4546bd0, size 0x174, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, int32_t bindingIndex, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverrides, addr 0x44e62bc, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverrides, addr 0x45475d0, size 0x368, virtual false, abstract: false, final false
   static inline void ApplyBindingOverrides(::UnityEngine::InputSystem::InputActionMap* actionMap, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* overrides);
 
-  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x44e698c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x4547ca0, size 0x150, virtual false, abstract: false, final false
   static inline int32_t ApplyBindingOverridesOnMatchingControls(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x44e6adc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x4547df0, size 0x118, virtual false, abstract: false, final false
   static inline int32_t ApplyBindingOverridesOnMatchingControls(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ApplyParameterOverride, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1599,10 +1580,10 @@ public:
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputAction* action, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x44e42b8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x45455cc, size 0x1f0, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputAction* action, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value, int32_t bindingIndex);
 
-  /// @brief Method ApplyParameterOverride, addr 0x44e415c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x4545470, size 0x15c, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputAction* action, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
@@ -1611,7 +1592,7 @@ public:
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x44e3ac0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x4544dd4, size 0x144, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
@@ -1620,110 +1601,110 @@ public:
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionAsset* asset, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x44e3fcc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x45452e0, size 0x190, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x44e3c04, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x4544f18, size 0x3c8, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(
       ::UnityEngine::InputSystem::InputActionState* state, int32_t mapIndex,
-      ByRef<::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*>>
+      ::ByRef<::ArrayW<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, ::Array<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>*>>
           parameterOverrides,
-      ByRef<int32_t> parameterOverridesCount, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride parameterOverride);
+      ::ByRef<int32_t> parameterOverridesCount, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameterOverride);
 
-  /// @brief Method DeferBindingResolution, addr 0x44e2654, size 0xdc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper* DeferBindingResolution();
+  /// @brief Method DeferBindingResolution, addr 0x4543968, size 0xdc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* DeferBindingResolution();
 
   /// @brief Method ExtractParameterOverride, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject, typename TValue>
-  static inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride
+  static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride
   ExtractParameterOverride(::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, ::UnityEngine::InputSystem::InputBinding bindingMask,
                            ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method GetBindingDisplayString, addr 0x44e4fdc, size 0x570, virtual false, abstract: false, final false
-  static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath,
-                                                  ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options);
+  /// @brief Method GetBindingDisplayString, addr 0x45462f0, size 0x570, virtual false, abstract: false, final false
+  static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::ByRef<::StringW> deviceLayoutName, ::ByRef<::StringW> controlPath,
+                                                  ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options);
 
-  /// @brief Method GetBindingDisplayString, addr 0x44e4f68, size 0x74, virtual false, abstract: false, final false
-  static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options);
+  /// @brief Method GetBindingDisplayString, addr 0x454627c, size 0x74, virtual false, abstract: false, final false
+  static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options);
 
-  /// @brief Method GetBindingDisplayString, addr 0x44e4d5c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetBindingDisplayString, addr 0x4546070, size 0x20c, virtual false, abstract: false, final false
   static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingMask,
-                                                  ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options);
+                                                  ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options);
 
-  /// @brief Method GetBindingDisplayString, addr 0x44e4c0c, size 0x150, virtual false, abstract: false, final false
-  static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options, ::StringW group);
+  /// @brief Method GetBindingDisplayString, addr 0x4545f20, size 0x150, virtual false, abstract: false, final false
+  static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options, ::StringW group);
 
-  /// @brief Method GetBindingForControl, addr 0x44e48fc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetBindingForControl, addr 0x4545c10, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> GetBindingForControl(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetBindingIndex, addr 0x44e4620, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndex, addr 0x4545934, size 0x110, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndex(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method GetBindingIndex, addr 0x44e4840, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndex, addr 0x4545b54, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndex(::UnityEngine::InputSystem::InputAction* action, ::StringW group, ::StringW path);
 
-  /// @brief Method GetBindingIndex, addr 0x44e4730, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndex, addr 0x4545a44, size 0x110, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndex(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method GetBindingIndexForControl, addr 0x44e4a68, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndexForControl, addr 0x4545d7c, size 0x1a4, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndexForControl(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetParameterValue, addr 0x44e38c8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetParameterValue, addr 0x4544bdc, size 0x1f8, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::StringW name, int32_t bindingIndex);
 
-  /// @brief Method GetParameterValue, addr 0x44e33e0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetParameterValue, addr 0x45446f4, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::StringW name,
                                                                                                               ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method GetParameterValue, addr 0x44e35b0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetParameterValue, addr 0x45448c4, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>
-  GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride parameterOverride);
+  GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameterOverride);
 
   /// @brief Method GetParameterValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject, typename TValue>
   static inline ::System::Nullable_1<TValue> GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr,
                                                                ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method LoadBindingOverridesFromJson, addr 0x44e7b0c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method LoadBindingOverridesFromJson, addr 0x4548e20, size 0x1e0, virtual false, abstract: false, final false
   static inline void LoadBindingOverridesFromJson(::UnityEngine::InputSystem::InputAction* action, ::StringW json, bool removeExisting);
 
-  /// @brief Method LoadBindingOverridesFromJson, addr 0x44e75c8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method LoadBindingOverridesFromJson, addr 0x45488dc, size 0x1cc, virtual false, abstract: false, final false
   static inline void LoadBindingOverridesFromJson(::UnityEngine::InputSystem::IInputActionCollection2* actions, ::StringW json, bool removeExisting);
 
-  /// @brief Method LoadBindingOverridesFromJsonInternal, addr 0x44e7794, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method LoadBindingOverridesFromJsonInternal, addr 0x4548aa8, size 0x378, virtual false, abstract: false, final false
   static inline void LoadBindingOverridesFromJsonInternal(::UnityEngine::InputSystem::IInputActionCollection2* actions, ::StringW json);
 
-  /// @brief Method PerformInteractiveRebinding, addr 0x44e7cec, size 0x3c0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation* PerformInteractiveRebinding(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex);
+  /// @brief Method PerformInteractiveRebinding, addr 0x4549000, size 0x3c0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* PerformInteractiveRebinding(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex);
 
-  /// @brief Method RemoveAllBindingOverrides, addr 0x44e6184, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllBindingOverrides, addr 0x4547498, size 0x138, virtual false, abstract: false, final false
   static inline void RemoveAllBindingOverrides(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method RemoveAllBindingOverrides, addr 0x44e5c4c, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllBindingOverrides, addr 0x4546f60, size 0x538, virtual false, abstract: false, final false
   static inline void RemoveAllBindingOverrides(::UnityEngine::InputSystem::IInputActionCollection2* actions);
 
-  /// @brief Method RemoveBindingOverride, addr 0x44e5ac8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverride, addr 0x4546ddc, size 0x7c, virtual false, abstract: false, final false
   static inline void RemoveBindingOverride(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex);
 
-  /// @brief Method RemoveBindingOverride, addr 0x44e5b44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverride, addr 0x4546e58, size 0x84, virtual false, abstract: false, final false
   static inline void RemoveBindingOverride(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method RemoveBindingOverride, addr 0x44e5bc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverride, addr 0x4546edc, size 0x84, virtual false, abstract: false, final false
   static inline void RemoveBindingOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method RemoveBindingOverrides, addr 0x44e6624, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverrides, addr 0x4547938, size 0x368, virtual false, abstract: false, final false
   static inline void RemoveBindingOverrides(::UnityEngine::InputSystem::InputActionMap* actionMap, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* overrides);
 
-  /// @brief Method SaveBindingOverridesAsJson, addr 0x44e72a8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method SaveBindingOverridesAsJson, addr 0x45485bc, size 0x320, virtual false, abstract: false, final false
   static inline ::StringW SaveBindingOverridesAsJson(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method SaveBindingOverridesAsJson, addr 0x44e6bf4, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method SaveBindingOverridesAsJson, addr 0x4547f08, size 0x490, virtual false, abstract: false, final false
   static inline ::StringW SaveBindingOverridesAsJson(::UnityEngine::InputSystem::IInputActionCollection2* actions);
 
-  static inline ::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper* getStaticF_s_DeferBindingResolutionWrapper();
+  static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* getStaticF_s_DeferBindingResolutionWrapper();
 
-  static inline void setStaticF_s_DeferBindingResolutionWrapper(::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper* value);
+  static inline void setStaticF_s_DeferBindingResolutionWrapper(::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* value);
 
 protected:
   // Ctor Parameters []
@@ -1740,7 +1721,7 @@ public:
   InputActionRebindingExtensions(InputActionRebindingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1748,20 +1729,20 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionRebindingExtensions, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation__Flags, "UnityEngine.InputSystem", "InputActionRebindingExtensions/RebindingOperation/Flags");
-NEED_NO_BOX(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0*, "UnityEngine.InputSystem",
-                       "InputActionRebindingExtensions/RebindingOperation/<>c__DisplayClass32_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags, "UnityEngine.InputSystem", "InputActionRebindingExtensions/RebindingOperation/Flags");
 NEED_NO_BOX(::UnityEngine::InputSystem::InputActionRebindingExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions*, "UnityEngine.InputSystem", "InputActionRebindingExtensions");
-NEED_NO_BOX(::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionRebindingExtensions__DeferBindingResolutionWrapper*, "UnityEngine.InputSystem",
+NEED_NO_BOX(::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper*, "UnityEngine.InputSystem",
                        "InputActionRebindingExtensions/DeferBindingResolutionWrapper");
-NEED_NO_BOX(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionRebindingExtensions__RebindingOperation*, "UnityEngine.InputSystem", "InputActionRebindingExtensions/RebindingOperation");
-NEED_NO_BOX(::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionRebindingExtensions____c__DisplayClass25_0*, "UnityEngine.InputSystem", "InputActionRebindingExtensions/<>c__DisplayClass25_0");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionRebindingExtensions__Parameter, "UnityEngine.InputSystem", "InputActionRebindingExtensions/Parameter");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerable, "UnityEngine.InputSystem", "InputActionRebindingExtensions/ParameterEnumerable");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterEnumerator, "UnityEngine.InputSystem", "InputActionRebindingExtensions/ParameterEnumerator");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, "UnityEngine.InputSystem", "InputActionRebindingExtensions/ParameterOverride");
+NEED_NO_BOX(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, "UnityEngine.InputSystem", "InputActionRebindingExtensions/RebindingOperation");
+NEED_NO_BOX(::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0*, "UnityEngine.InputSystem", "InputActionRebindingExtensions/<>c__DisplayClass25_0");
+NEED_NO_BOX(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0*, "UnityEngine.InputSystem",
+                       "InputActionRebindingExtensions/RebindingOperation/<>c__DisplayClass32_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter, "UnityEngine.InputSystem", "InputActionRebindingExtensions/Parameter");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable, "UnityEngine.InputSystem", "InputActionRebindingExtensions/ParameterEnumerable");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator, "UnityEngine.InputSystem", "InputActionRebindingExtensions/ParameterEnumerator");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride, "UnityEngine.InputSystem", "InputActionRebindingExtensions/ParameterOverride");

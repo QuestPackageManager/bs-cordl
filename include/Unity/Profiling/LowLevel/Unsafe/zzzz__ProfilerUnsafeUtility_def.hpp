@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProfilerUnsafeUtility)
@@ -29,45 +28,44 @@ class ProfilerUnsafeUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility);
-// Type: Unity.Profiling.LowLevel.Unsafe::ProfilerUnsafeUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: false
-// CS Name: ::Unity.Profiling.LowLevel.Unsafe::ProfilerUnsafeUtility*
+// CS Name: Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility
 class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeginSample, addr 0x47fcca4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x485dfd0, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::System::IntPtr markerPtr);
 
-  /// @brief Method CreateCategory__Unmanaged, addr 0x47fcd9c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateCategory__Unmanaged, addr 0x485e93c, size 0x54, virtual false, abstract: false, final false
   static inline uint16_t CreateCategory__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen, ::Unity::Profiling::ProfilerCategoryColor colorIndex);
 
-  /// @brief Method CreateCounterValue__Unmanaged, addr 0x47fcf14, size 0x9c, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<void> CreateCounterValue__Unmanaged(ByRef<::System::IntPtr> counterPtr, ::cordl_internals::Ptr<uint8_t> name, int32_t nameLen, uint16_t categoryId,
+  /// @brief Method CreateCounterValue__Unmanaged, addr 0x485eab4, size 0x9c, virtual false, abstract: false, final false
+  static inline ::cordl_internals::Ptr<void> CreateCounterValue__Unmanaged(::ByRef<::System::IntPtr> counterPtr, ::cordl_internals::Ptr<uint8_t> name, int32_t nameLen, uint16_t categoryId,
                                                                            ::Unity::Profiling::LowLevel::MarkerFlags flags, uint8_t dataType, uint8_t dataUnit, int32_t dataSize,
                                                                            ::Unity::Profiling::ProfilerCounterOptions counterOptions);
 
-  /// @brief Method CreateMarker, addr 0x47fcb30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x485de5c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method CreateMarker__Unmanaged, addr 0x47fce34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker__Unmanaged, addr 0x485e9d4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                          int32_t metadataCount);
 
-  /// @brief Method EndSample, addr 0x47fcd40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x485e06c, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::System::IntPtr markerPtr);
 
-  /// @brief Method GetCategoryDescription, addr 0x47fc950, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryDescription, addr 0x485dc64, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription GetCategoryDescription(uint16_t categoryId);
 
-  /// @brief Method GetCategoryDescription_Injected, addr 0x47fcdf0, size 0x44, virtual false, abstract: false, final false
-  static inline void GetCategoryDescription_Injected(uint16_t categoryId, ByRef<::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription> ret);
+  /// @brief Method GetCategoryDescription_Injected, addr 0x485e990, size 0x44, virtual false, abstract: false, final false
+  static inline void GetCategoryDescription_Injected(uint16_t categoryId, ::ByRef<::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription> ret);
 
-  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x47fcea0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x485ea40, size 0x74, virtual false, abstract: false, final false
   static inline void SetMarkerMetadata__Unmanaged(::System::IntPtr markerPtr, int32_t index, ::cordl_internals::Ptr<uint8_t> name, int32_t nameLen, uint8_t type, uint8_t unit);
 
-  /// @brief Method Utf8ToString, addr 0x47fc9e0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToString, addr 0x485dcf4, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW Utf8ToString(::cordl_internals::Ptr<uint8_t> chars, int32_t charsLen);
 
 protected:
@@ -85,7 +83,7 @@ public:
   ProfilerUnsafeUtility(ProfilerUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

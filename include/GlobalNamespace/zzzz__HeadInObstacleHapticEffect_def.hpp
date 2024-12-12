@@ -30,11 +30,10 @@ class HeadInObstacleHapticEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HeadInObstacleHapticEffect);
-// Type: ::HeadInObstacleHapticEffect
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HeadInObstacleHapticEffect*
+// CS Name: HeadInObstacleHapticEffect
 class CORDL_TYPE HeadInObstacleHapticEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -74,33 +73,33 @@ public:
   /// @brief Field _wasHeadInWallLastFrame, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__wasHeadInWallLastFrame, put = __cordl_internal_set__wasHeadInWallLastFrame)) bool _wasHeadInWallLastFrame;
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x3b1ed14, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x3b7fec0, size 0x14, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
-  /// @brief Method HandleDidPauseEvent, addr 0x3b1ed40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPauseEvent, addr 0x3b7feec, size 0x14, virtual false, abstract: false, final false
   inline void HandleDidPauseEvent();
 
-  /// @brief Method HandleDidResumeEvent, addr 0x3b1ed28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleDidResumeEvent, addr 0x3b7fed4, size 0x18, virtual false, abstract: false, final false
   inline void HandleDidResumeEvent();
 
   static inline ::GlobalNamespace::HeadInObstacleHapticEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1ea9c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b7fc48, size 0x1f0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b1e894, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b7fa40, size 0x208, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b1ec8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b7fe38, size 0x88, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
 
   constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
+  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents* const& __cordl_internal_get__gameplayLevelSceneTransitionEvents() const;
 
   constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __cordl_internal_get__gameplayLevelSceneTransitionEvents();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& __cordl_internal_get__gameplayLevelSceneTransitionEvents() const;
 
   constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
@@ -160,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set__wasHeadInWallLastFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x3b1ed54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ff00, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,6 +175,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HeadInObstacleHapticEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HeadInObstacleHapticEffect(HeadInObstacleHapticEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4221 };
+
+  /// @brief Field kInvalidTime offset 0xffffffff size 0x4
+  static constexpr float_t kInvalidTime{ static_cast<float_t>(-1.0f) };
 
   /// @brief Field _headHapticPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____headHapticPreset;
@@ -210,17 +215,9 @@ public:
   /// @brief Field _wasHeadInWallLastFrame, offset: 0x60, size: 0x1, def value: None
   bool ____wasHeadInWallLastFrame;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
-
-  /// @brief Field kInvalidTime offset 0xffffffff size 0x4
-  static constexpr float_t kInvalidTime{ -1.0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HeadInObstacleHapticEffect, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HeadInObstacleHapticEffect, ____headHapticPreset) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HeadInObstacleHapticEffect, ____minimalHapticDuration) == 0x28, "Offset mismatch!");
@@ -242,6 +239,8 @@ static_assert(offsetof(::GlobalNamespace::HeadInObstacleHapticEffect, ____isLeve
 static_assert(offsetof(::GlobalNamespace::HeadInObstacleHapticEffect, ____minimumTimeUntilHapticEnd) == 0x5c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HeadInObstacleHapticEffect, ____wasHeadInWallLastFrame) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HeadInObstacleHapticEffect, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HeadInObstacleHapticEffect);

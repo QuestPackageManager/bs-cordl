@@ -25,11 +25,10 @@ class KawaseBloomMainEffectSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::KawaseBloomMainEffectSO);
-// Type: ::KawaseBloomMainEffectSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MainEffectSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::KawaseBloomMainEffectSO*
+// CS Name: KawaseBloomMainEffectSO
 class CORDL_TYPE KawaseBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
   // Declarations
@@ -49,19 +48,19 @@ public:
   __declspec(property(get = __cordl_internal_get__bloomIntensity, put = __cordl_internal_set__bloomIntensity)) float_t _bloomIntensity;
 
   /// @brief Field _bloomIntensityID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__bloomIntensityID, put = setStaticF__bloomIntensityID)) int32_t _bloomIntensityID;
+  __declspec(property(get = getStaticF__bloomIntensityID, put = setStaticF__bloomIntensityID)) int32_t _bloomIntensityID;
 
   /// @brief Field _bloomIterations, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__bloomIterations, put = __cordl_internal_set__bloomIterations)) int32_t _bloomIterations;
 
   /// @brief Field _bloomTexID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__bloomTexID, put = setStaticF__bloomTexID)) int32_t _bloomTexID;
+  __declspec(property(get = getStaticF__bloomTexID, put = setStaticF__bloomTexID)) int32_t _bloomTexID;
 
   /// @brief Field _bloomTextureWidth, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__bloomTextureWidth, put = __cordl_internal_set__bloomTextureWidth)) int32_t _bloomTextureWidth;
 
   /// @brief Field _fadeID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__fadeID, put = setStaticF__fadeID)) int32_t _fadeID;
+  __declspec(property(get = getStaticF__fadeID, put = setStaticF__fadeID)) int32_t _fadeID;
 
   /// @brief Field _kawaseBlurRenderer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__kawaseBlurRenderer, put = __cordl_internal_set__kawaseBlurRenderer)) ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> _kawaseBlurRenderer;
@@ -74,21 +73,21 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method LazyInitializeMaterials, addr 0x401fc00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeMaterials, addr 0x4080f14, size 0xbc, virtual false, abstract: false, final false
   inline void LazyInitializeMaterials();
 
   static inline ::GlobalNamespace::KawaseBloomMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x401fcbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4080fd0, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x401fbe4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4080ef8, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PreRender, addr 0x401fcdc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x4080ff0, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x401fdc8, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x40810dc, size 0x210, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -151,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set__mainEffectShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x401ffd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40812ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomIntensityID();
@@ -160,7 +159,7 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x401fbdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x4080ef0, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
   static inline void setStaticF__bloomIntensityID(int32_t value);
@@ -182,6 +181,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "KawaseBloomMainEffectSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   KawaseBloomMainEffectSO(KawaseBloomMainEffectSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17895 };
 
   /// @brief Field _kawaseBlurRenderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;
@@ -213,14 +215,9 @@ public:
   /// @brief Field _mainEffectMaterial, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____mainEffectMaterial;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17812 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::KawaseBloomMainEffectSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::KawaseBloomMainEffectSO, ____kawaseBlurRenderer) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::KawaseBloomMainEffectSO, ____mainEffectShader) == 0x20, "Offset mismatch!");
@@ -240,6 +237,8 @@ static_assert(offsetof(::GlobalNamespace::KawaseBloomMainEffectSO, ____baseColor
 static_assert(offsetof(::GlobalNamespace::KawaseBloomMainEffectSO, ____baseColorBoostThreshold) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::KawaseBloomMainEffectSO, ____mainEffectMaterial) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::KawaseBloomMainEffectSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::KawaseBloomMainEffectSO);

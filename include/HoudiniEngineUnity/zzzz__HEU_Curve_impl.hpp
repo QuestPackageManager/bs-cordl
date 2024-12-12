@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_Curve.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Curve_impl.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
@@ -9,305 +9,298 @@
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState::__HEU_Curve__CurveEditState(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState::HEU_Curve_CurveEditState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState::__HEU_Curve__CurveEditState() {}
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState HoudiniEngineUnity::__HEU_Curve__CurveEditState::INVALID{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState HoudiniEngineUnity::__HEU_Curve__CurveEditState::GENERATED{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState HoudiniEngineUnity::__HEU_Curve__CurveEditState::EDITING{ static_cast<int32_t>(0x2) };
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState HoudiniEngineUnity::__HEU_Curve__CurveEditState::REQUIRES_GENERATION{ static_cast<int32_t>(0x3) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState::HEU_Curve_CurveEditState() {}
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState HoudiniEngineUnity::HEU_Curve_CurveEditState::INVALID{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState HoudiniEngineUnity::HEU_Curve_CurveEditState::GENERATED{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState HoudiniEngineUnity::HEU_Curve_CurveEditState::EDITING{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState HoudiniEngineUnity::HEU_Curve_CurveEditState::REQUIRES_GENERATION{ static_cast<int32_t>(0x3) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_Curve__Interaction::__HEU_Curve__Interaction(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_Curve_Interaction::HEU_Curve_Interaction(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_Curve__Interaction::__HEU_Curve__Interaction() {}
-constexpr ::HoudiniEngineUnity::__HEU_Curve__Interaction HoudiniEngineUnity::__HEU_Curve__Interaction::VIEW{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_Curve__Interaction HoudiniEngineUnity::__HEU_Curve__Interaction::ADD{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_Curve__Interaction HoudiniEngineUnity::__HEU_Curve__Interaction::EDIT{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_Interaction::HEU_Curve_Interaction() {}
+constexpr ::HoudiniEngineUnity::HEU_Curve_Interaction HoudiniEngineUnity::HEU_Curve_Interaction::VIEW{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_Interaction HoudiniEngineUnity::HEU_Curve_Interaction::ADD{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_Interaction HoudiniEngineUnity::HEU_Curve_Interaction::EDIT{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision::__HEU_Curve__CurveDrawCollision(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision::HEU_Curve_CurveDrawCollision(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision::__HEU_Curve__CurveDrawCollision() {}
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision::COLLIDERS{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision::LAYERMASK{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0._ctor
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision::HEU_Curve_CurveDrawCollision() {}
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision HoudiniEngineUnity::HEU_Curve_CurveDrawCollision::COLLIDERS{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision HoudiniEngineUnity::HEU_Curve_CurveDrawCollision::LAYERMASK{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::*)()>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::*)()>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b4b8c;
+  constexpr static std::size_t addrs = 0x3a0b7fc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0._UpdateCurveInputForCustomAttributes_b__0
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0._UpdateCurveInputForCustomAttributes_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__0)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x39b6aa4;
+  constexpr static std::size_t addrs = 0x3a0d714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::CurveNodeData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0._UpdateCurveInputForCustomAttributes_b__1
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0._UpdateCurveInputForCustomAttributes_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::*)(int32_t, int32_t, float_t, int32_t)>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::*)(int32_t, int32_t, float_t, int32_t)>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__1)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x39b6c5c;
+  constexpr static std::size_t addrs = 0x3a0d8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__1",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0._UpdateCurveInputForCustomAttributes_b__2
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0._UpdateCurveInputForCustomAttributes_b__2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::*)(int32_t, int32_t)>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::*)(int32_t, int32_t)>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__2)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x39b701c;
+  constexpr static std::size_t addrs = 0x3a0dc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__2",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__2",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_get_positions() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_get_positions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const&
-HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_get_positions() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_get_positions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
-constexpr void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_set_positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_set_positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_get_rotations() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_get_rotations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotations;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*> const&
-HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_get_rotations() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* const& HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_get_rotations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotations;
 }
-constexpr void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value) {
+constexpr void HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_get_scales() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_get_scales() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scales;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const&
-HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_get_scales() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_get_scales() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scales;
 }
-constexpr void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::__cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scales)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0* HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>());
-}
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(),
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__0(::HoudiniEngineUnity::CurveNodeData* data) {
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__0(::HoudiniEngineUnity::CurveNodeData* data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::CurveNodeData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__1(int32_t nIndex1, int32_t nIndex2, float_t fCoeff, int32_t nInsertIndex) {
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__1(int32_t nIndex1, int32_t nIndex2, float_t fCoeff, int32_t nInsertIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__1",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nIndex1, nIndex2, fCoeff, nInsertIndex);
 }
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__2(int32_t nIndex, int32_t nInsertIndex) {
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::_UpdateCurveInputForCustomAttributes_b__2(int32_t nIndex, int32_t nInsertIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__2",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>::get(), "<UpdateCurveInputForCustomAttributes>b__2",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nIndex, nInsertIndex);
 }
+inline ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0* HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0*>());
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0::__HEU_Curve____c__DisplayClass38_0() {}
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0._ctor
+constexpr ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass38_0::HEU_Curve___c__DisplayClass38_0() {}
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::*)()>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::*)()>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b5660;
+  constexpr static std::size_t addrs = 0x3a0c2d0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0._UpdatePoints_b__0
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0._UpdatePoints_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::_UpdatePoints_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::_UpdatePoints_b__0)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x39b72e8;
+  constexpr static std::size_t addrs = 0x3a0df58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0*>::get(), "<UpdatePoints>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0*>::get(), "<UpdatePoints>b__0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::CurveNodeData*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::__cordl_internal_get_rotations() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::__cordl_internal_get_rotations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotations;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const&
-HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::__cordl_internal_get_rotations() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::__cordl_internal_get_rotations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotations;
 }
-constexpr void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::__cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::__cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::__cordl_internal_get_scales() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::__cordl_internal_get_scales() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scales;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const&
-HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::__cordl_internal_get_scales() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::__cordl_internal_get_scales() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scales;
 }
-constexpr void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::__cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::__cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scales)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0* HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0*>());
-}
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0*>::get(),
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::_UpdatePoints_b__0(::HoudiniEngineUnity::CurveNodeData* data) {
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::_UpdatePoints_b__0(::HoudiniEngineUnity::CurveNodeData* data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0*>::get(), "<UpdatePoints>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0*>::get(), "<UpdatePoints>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::CurveNodeData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
+inline ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0* HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0*>());
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0::__HEU_Curve____c__DisplayClass40_0() {}
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0._ctor
+constexpr ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass40_0::HEU_Curve___c__DisplayClass40_0() {}
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::*)()>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::*)()>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b6088;
+  constexpr static std::size_t addrs = 0x3a0ccf8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0._GetAllPoints_b__0
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0._GetAllPoints_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(
-    &::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::_GetAllPoints_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(
+    &::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::_GetAllPoints_b__0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39b7400;
+  constexpr static std::size_t addrs = 0x3a0e070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0*>::get(), "<GetAllPoints>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0*>::get(), "<GetAllPoints>b__0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::CurveNodeData*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::__cordl_internal_get_points() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::__cordl_internal_get_points() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___points;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const&
-HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::__cordl_internal_get_points() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::__cordl_internal_get_points() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___points;
 }
-constexpr void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::__cordl_internal_set_points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::__cordl_internal_set_points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___points)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0* HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0*>());
-}
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0*>::get(),
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::_GetAllPoints_b__0(::HoudiniEngineUnity::CurveNodeData* transform) {
+inline void HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::_GetAllPoints_b__0(::HoudiniEngineUnity::CurveNodeData* transform) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0*>::get(), "<GetAllPoints>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0*>::get(), "<GetAllPoints>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::CurveNodeData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transform);
 }
+inline ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0* HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0*>());
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0::__HEU_Curve____c__DisplayClass48_0() {}
+constexpr ::HoudiniEngineUnity::HEU_Curve___c__DisplayClass48_0::HEU_Curve___c__DisplayClass48_0() {}
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve.get_GeoID
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_Curve::*)()>(&::HoudiniEngineUnity::HEU_Curve::get_GeoID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b2908;
+  constexpr static std::size_t addrs = 0x3a09578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_GeoID",
@@ -321,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::get_CurveNodeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b2910;
+  constexpr static std::size_t addrs = 0x3a09580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_CurveNodeData",
@@ -334,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Curve::*)()>(&::HoudiniEngineUnity::HEU_Curve::IsEditable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b2918;
+  constexpr static std::size_t addrs = 0x3a09588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "IsEditable",
@@ -348,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HoudiniEngineUnity::HEU_Parameters> (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::get_Parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b2920;
+  constexpr static std::size_t addrs = 0x3a09590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_Parameters",
@@ -361,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(bool)>(&::HoudiniEngineUnity::HEU_Curve::SetUploadParameterPreset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39b2928;
+  constexpr static std::size_t addrs = 0x3a09598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_Curve::*)()>(&::HoudiniEngineUnity::HEU_Curve::get_CurveName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b2934;
+  constexpr static std::size_t addrs = 0x3a095a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_CurveName",
@@ -388,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Curve::*)()>(&::HoudiniEngineUnity::HEU_Curve::IsGeoCurve)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b293c;
+  constexpr static std::size_t addrs = 0x3a095ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "IsGeoCurve",
@@ -399,10 +392,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve.get_EditState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::__HEU_Curve__CurveEditState (::HoudiniEngineUnity::HEU_Curve::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Curve_CurveEditState (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::get_EditState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b2944;
+  constexpr static std::size_t addrs = 0x3a095b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_EditState",
@@ -416,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::get_ParentAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b294c;
+  constexpr static std::size_t addrs = 0x3a095bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_ParentAsset",
@@ -427,10 +420,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve.CreateSetupCurve
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::HoudiniEngineUnity::HEU_Curve> (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::StringW, int32_t, bool)>(&::HoudiniEngineUnity::HEU_Curve::CreateSetupCurve)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Curve* (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::StringW, int32_t, bool)>(
+    &::HoudiniEngineUnity::HEU_Curve::CreateSetupCurve)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x39b2954;
+  constexpr static std::size_t addrs = 0x3a095c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -446,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(bool)>(&::HoudiniEngineUnity::HEU_Curve::DestroyAllData)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x39b2ba8;
+  constexpr static std::size_t addrs = 0x3a09818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -460,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::StringW)>(&::HoudiniEngineUnity::HEU_Curve::SetCurveName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39b2cf4;
+  constexpr static std::size_t addrs = 0x3a09964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -475,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, ::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&::HoudiniEngineUnity::HEU_Curve::UploadParameterPreset)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x39b2d90;
+  constexpr static std::size_t addrs = 0x3a09a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&::HoudiniEngineUnity::HEU_Curve::ResetCurveParameters)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x39b2e78;
+  constexpr static std::size_t addrs = 0x3a09ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::HoudiniEngineUnity::HEU_Curve::SetCurveParameterPreset)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x39b2f48;
+  constexpr static std::size_t addrs = 0x3a09bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -525,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t)>(
     &::HoudiniEngineUnity::HEU_Curve::UpdateCurve)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x39b3018;
+  constexpr static std::size_t addrs = 0x3a09c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -541,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_Curve::GenerateMesh)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x39b31fc;
+  constexpr static std::size_t addrs = 0x3a09e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Curve::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&::HoudiniEngineUnity::HEU_Curve::UpdateCurveInputForCustomAttributes)> {
   constexpr static std::size_t size = 0x15e0;
-  constexpr static std::size_t addrs = 0x39b35ac;
+  constexpr static std::size_t addrs = 0x3a0a21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -572,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&::HoudiniEngineUnity::HEU_Curve::SyncFromParameters)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x39b4dfc;
+  constexpr static std::size_t addrs = 0x3a0ba6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -588,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t)>(
     &::HoudiniEngineUnity::HEU_Curve::UpdatePoints)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x39b5070;
+  constexpr static std::size_t addrs = 0x3a0bce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -604,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::UnityEngine::Vector3, float_t)>(
     &::HoudiniEngineUnity::HEU_Curve::ProjectToColliders)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x39b5668;
+  constexpr static std::size_t addrs = 0x3a0c2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -621,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*)>(
     &::HoudiniEngineUnity::HEU_Curve::GetPointsString)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x39b5b74;
+  constexpr static std::size_t addrs = 0x3a0c7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)>(
     &::HoudiniEngineUnity::HEU_Curve::GetPointsString)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x39b4b94;
+  constexpr static std::size_t addrs = 0x3a0b804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -648,15 +641,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve.SetEditState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::__HEU_Curve__CurveEditState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_Curve_CurveEditState)>(
     &::HoudiniEngineUnity::HEU_Curve::SetEditState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b5df0;
+  constexpr static std::size_t addrs = 0x3a0ca60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "SetEditState", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_Curve__CurveEditState>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Curve_CurveEditState>::get() })));
     return ___internal_method;
   }
 };
@@ -666,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(int32_t, ::UnityEngine::Vector3)>(
     &::HoudiniEngineUnity::HEU_Curve::SetCurvePoint)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39b5df8;
+  constexpr static std::size_t addrs = 0x3a0ca68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -682,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HoudiniEngineUnity::HEU_Curve::*)(int32_t)>(
     &::HoudiniEngineUnity::HEU_Curve::GetCurvePoint)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x39b5e98;
+  constexpr static std::size_t addrs = 0x3a0cb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -697,7 +690,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::GetAllPointTransforms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b5f68;
+  constexpr static std::size_t addrs = 0x3a0cbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "GetAllPointTransforms",
@@ -711,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Vector3>* (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::GetAllPoints)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x39b5f70;
+  constexpr static std::size_t addrs = 0x3a0cbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "GetAllPoints",
@@ -724,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_Curve::*)()>(&::HoudiniEngineUnity::HEU_Curve::GetNumPoints)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39b6090;
+  constexpr static std::size_t addrs = 0x3a0cd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "GetNumPoints",
@@ -738,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HoudiniEngineUnity::HEU_Curve::*)(int32_t)>(
     &::HoudiniEngineUnity::HEU_Curve::GetTransformedPoint)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39b60d8;
+  constexpr static std::size_t addrs = 0x3a0cd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -753,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HoudiniEngineUnity::HEU_Curve::*)(::UnityEngine::Vector3)>(
     &::HoudiniEngineUnity::HEU_Curve::GetTransformedPosition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39b61a4;
+  constexpr static std::size_t addrs = 0x3a0ce14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -768,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HoudiniEngineUnity::HEU_Curve::*)(::UnityEngine::Vector3)>(
     &::HoudiniEngineUnity::HEU_Curve::GetInvertedTransformedPosition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39b61f4;
+  constexpr static std::size_t addrs = 0x3a0ce64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -783,7 +776,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HoudiniEngineUnity::HEU_Curve::*)(::UnityEngine::Vector3)>(
     &::HoudiniEngineUnity::HEU_Curve::GetInvertedTransformedDirection)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39b6244;
+  constexpr static std::size_t addrs = 0x3a0ceb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -798,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::GetVertices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b6294;
+  constexpr static std::size_t addrs = 0x3a0cf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "GetVertices",
@@ -811,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(bool)>(&::HoudiniEngineUnity::HEU_Curve::SetCurveGeometryVisibility)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x39b629c;
+  constexpr static std::size_t addrs = 0x3a0cf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -826,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_SessionBase*)>(
     &::HoudiniEngineUnity::HEU_Curve::DownloadPresetData)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39b55c8;
+  constexpr static std::size_t addrs = 0x3a0c238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -841,7 +834,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_SessionBase*)>(
     &::HoudiniEngineUnity::HEU_Curve::UploadPresetData)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39b6384;
+  constexpr static std::size_t addrs = 0x3a0cff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -856,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_SessionBase*)>(
     &::HoudiniEngineUnity::HEU_Curve::DownloadAsDefaultPresetData)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39b641c;
+  constexpr static std::size_t addrs = 0x3a0d08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -871,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* (::HoudiniEngineUnity::HEU_Curve::*)()>(
     &::HoudiniEngineUnity::HEU_Curve::DuplicateCurveNodeData)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x39b64b4;
+  constexpr static std::size_t addrs = 0x3a0d124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(),
@@ -885,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*)>(&::HoudiniEngineUnity::HEU_Curve::SetCurveNodeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b66cc;
+  constexpr static std::size_t addrs = 0x3a0d33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -900,7 +893,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Curve::*)(::HoudiniEngineUnity::HEU_Curve*)>(
     &::HoudiniEngineUnity::HEU_Curve::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x39b66d4;
+  constexpr static std::size_t addrs = 0x3a0d344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -914,7 +907,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Curve::*)()>(&::HoudiniEngineUnity::HEU_Curve::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39b6a28;
+  constexpr static std::size_t addrs = 0x3a0d698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), ".ctor",
@@ -922,15 +915,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
-constexpr HoudiniEngineUnity::HEU_Curve::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*
-HoudiniEngineUnity::HEU_Curve::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Curve__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*>(static_cast<void*>(this));
-}
 constexpr int32_t& HoudiniEngineUnity::HEU_Curve::__cordl_internal_get__geoID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____geoID;
@@ -947,8 +931,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNode
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveNodeData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*> const&
-HoudiniEngineUnity::HEU_Curve::__cordl_internal_get__curveNodeData() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* const& HoudiniEngineUnity::HEU_Curve::__cordl_internal_get__curveNodeData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveNodeData;
 }
@@ -1040,15 +1023,15 @@ constexpr void HoudiniEngineUnity::HEU_Curve::__cordl_internal_set__isGeoCurve(b
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isGeoCurve = value;
 }
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState& HoudiniEngineUnity::HEU_Curve::__cordl_internal_get__editState() {
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState& HoudiniEngineUnity::HEU_Curve::__cordl_internal_get__editState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editState;
 }
-constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const& HoudiniEngineUnity::HEU_Curve::__cordl_internal_get__editState() const {
+constexpr ::HoudiniEngineUnity::HEU_Curve_CurveEditState const& HoudiniEngineUnity::HEU_Curve::__cordl_internal_get__editState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editState;
 }
-constexpr void HoudiniEngineUnity::HEU_Curve::__cordl_internal_set__editState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState value) {
+constexpr void HoudiniEngineUnity::HEU_Curve::__cordl_internal_set__editState(::HoudiniEngineUnity::HEU_Curve_CurveEditState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____editState = value;
 }
@@ -1064,12 +1047,12 @@ constexpr void HoudiniEngineUnity::HEU_Curve::__cordl_internal_set__parentAsset(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void HoudiniEngineUnity::HEU_Curve::setStaticF_PreferredNextInteractionMode(::HoudiniEngineUnity::__HEU_Curve__Interaction value) {
-  ::cordl_internals::setStaticField<::HoudiniEngineUnity::__HEU_Curve__Interaction, "PreferredNextInteractionMode",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get>(std::forward<::HoudiniEngineUnity::__HEU_Curve__Interaction>(value));
+inline void HoudiniEngineUnity::HEU_Curve::setStaticF_PreferredNextInteractionMode(::HoudiniEngineUnity::HEU_Curve_Interaction value) {
+  ::cordl_internals::setStaticField<::HoudiniEngineUnity::HEU_Curve_Interaction, "PreferredNextInteractionMode",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get>(std::forward<::HoudiniEngineUnity::HEU_Curve_Interaction>(value));
 }
-inline ::HoudiniEngineUnity::__HEU_Curve__Interaction HoudiniEngineUnity::HEU_Curve::getStaticF_PreferredNextInteractionMode() {
-  return ::cordl_internals::getStaticField<::HoudiniEngineUnity::__HEU_Curve__Interaction, "PreferredNextInteractionMode",
+inline ::HoudiniEngineUnity::HEU_Curve_Interaction HoudiniEngineUnity::HEU_Curve::getStaticF_PreferredNextInteractionMode() {
+  return ::cordl_internals::getStaticField<::HoudiniEngineUnity::HEU_Curve_Interaction, "PreferredNextInteractionMode",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get>();
 }
 inline int32_t HoudiniEngineUnity::HEU_Curve::get_GeoID() {
@@ -1108,26 +1091,25 @@ inline bool HoudiniEngineUnity::HEU_Curve::IsGeoCurve() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::__HEU_Curve__CurveEditState HoudiniEngineUnity::HEU_Curve::get_EditState() {
+inline ::HoudiniEngineUnity::HEU_Curve_CurveEditState HoudiniEngineUnity::HEU_Curve::get_EditState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_EditState",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::__HEU_Curve__CurveEditState, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_Curve_CurveEditState, false>(this, ___internal_method);
 }
 inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> HoudiniEngineUnity::HEU_Curve::get_ParentAsset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "get_ParentAsset",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, false>(this, ___internal_method);
 }
-inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> HoudiniEngineUnity::HEU_Curve::CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName,
-                                                                                                 int32_t geoID, bool bGeoCurve) {
+inline ::HoudiniEngineUnity::HEU_Curve* HoudiniEngineUnity::HEU_Curve::CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID,
+                                                                                        bool bGeoCurve) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "CreateSetupCurve", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::HoudiniEngineUnity::HEU_Curve>, false>(nullptr, ___internal_method, parentAsset, isEditable, curveName, geoID, bGeoCurve);
+  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_Curve*, false>(nullptr, ___internal_method, parentAsset, isEditable, curveName, geoID, bGeoCurve);
 }
-/// @param bIsRebuild: bool (default: false)
 inline void HoudiniEngineUnity::HEU_Curve::DestroyAllData(bool bIsRebuild) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "DestroyAllData",
@@ -1218,10 +1200,10 @@ inline ::StringW HoudiniEngineUnity::HEU_Curve::GetPointsString(::System::Collec
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, points);
 }
-inline void HoudiniEngineUnity::HEU_Curve::SetEditState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState editState) {
+inline void HoudiniEngineUnity::HEU_Curve::SetEditState(::HoudiniEngineUnity::HEU_Curve_CurveEditState editState) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "SetEditState", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_Curve__CurveEditState>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Curve_CurveEditState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, editState);
 }
 inline void HoudiniEngineUnity::HEU_Curve::SetCurvePoint(int32_t pointIndex, ::UnityEngine::Vector3 newPosition) {
@@ -1322,13 +1304,21 @@ inline bool HoudiniEngineUnity::HEU_Curve::IsEquivalentTo(::HoudiniEngineUnity::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Curve*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::HoudiniEngineUnity::HEU_Curve* HoudiniEngineUnity::HEU_Curve::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Curve*>());
-}
 inline void HoudiniEngineUnity::HEU_Curve::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_Curve* HoudiniEngineUnity::HEU_Curve::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Curve*>());
+}
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
+constexpr HoudiniEngineUnity::HEU_Curve::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>* HoudiniEngineUnity::HEU_Curve::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Curve__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Curve::HEU_Curve() {}

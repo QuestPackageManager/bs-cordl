@@ -12,11 +12,10 @@ struct EventType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::EventType);
-// Type: UnityEngine::EventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::EventType
+// CS Name: UnityEngine.EventType
 struct CORDL_TYPE EventType {
 public:
   // Declarations
@@ -81,135 +80,135 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EventType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ContextClick value: static_cast<int32_t>(0x10)
+  /// @brief Field ContextClick value: I32(16)
   static ::UnityEngine::EventType const ContextClick;
 
-  /// @brief Field DragExited value: static_cast<int32_t>(0xf)
+  /// @brief Field DragExited value: I32(15)
   static ::UnityEngine::EventType const DragExited;
 
-  /// @brief Field DragPerform value: static_cast<int32_t>(0xa)
+  /// @brief Field DragPerform value: I32(10)
   static ::UnityEngine::EventType const DragPerform;
 
-  /// @brief Field DragUpdated value: static_cast<int32_t>(0x9)
+  /// @brief Field DragUpdated value: I32(9)
   static ::UnityEngine::EventType const DragUpdated;
 
-  /// @brief Field ExecuteCommand value: static_cast<int32_t>(0xe)
+  /// @brief Field ExecuteCommand value: I32(14)
   static ::UnityEngine::EventType const ExecuteCommand;
 
-  /// @brief Field Ignore value: static_cast<int32_t>(0xb)
+  /// @brief Field Ignore value: I32(11)
   static ::UnityEngine::EventType const Ignore;
 
-  /// @brief Field KeyDown value: static_cast<int32_t>(0x4)
+  /// @brief Field KeyDown value: I32(4)
   static ::UnityEngine::EventType const KeyDown;
 
-  /// @brief Field KeyUp value: static_cast<int32_t>(0x5)
+  /// @brief Field KeyUp value: I32(5)
   static ::UnityEngine::EventType const KeyUp;
 
-  /// @brief Field Layout value: static_cast<int32_t>(0x8)
+  /// @brief Field Layout value: I32(8)
   static ::UnityEngine::EventType const Layout;
 
-  /// @brief Field MouseDown value: static_cast<int32_t>(0x0)
+  /// @brief Field MouseDown value: I32(0)
   static ::UnityEngine::EventType const MouseDown;
 
-  /// @brief Field MouseDrag value: static_cast<int32_t>(0x3)
+  /// @brief Field MouseDrag value: I32(3)
   static ::UnityEngine::EventType const MouseDrag;
 
-  /// @brief Field MouseEnterWindow value: static_cast<int32_t>(0x14)
+  /// @brief Field MouseEnterWindow value: I32(20)
   static ::UnityEngine::EventType const MouseEnterWindow;
 
-  /// @brief Field MouseLeaveWindow value: static_cast<int32_t>(0x15)
+  /// @brief Field MouseLeaveWindow value: I32(21)
   static ::UnityEngine::EventType const MouseLeaveWindow;
 
-  /// @brief Field MouseMove value: static_cast<int32_t>(0x2)
+  /// @brief Field MouseMove value: I32(2)
   static ::UnityEngine::EventType const MouseMove;
 
-  /// @brief Field MouseUp value: static_cast<int32_t>(0x1)
+  /// @brief Field MouseUp value: I32(1)
   static ::UnityEngine::EventType const MouseUp;
 
-  /// @brief Field Repaint value: static_cast<int32_t>(0x7)
+  /// @brief Field Repaint value: I32(7)
   static ::UnityEngine::EventType const Repaint;
 
-  /// @brief Field ScrollWheel value: static_cast<int32_t>(0x6)
+  /// @brief Field ScrollWheel value: I32(6)
   static ::UnityEngine::EventType const ScrollWheel;
 
-  /// @brief Field TouchDown value: static_cast<int32_t>(0x1e)
+  /// @brief Field TouchDown value: I32(30)
   static ::UnityEngine::EventType const TouchDown;
 
-  /// @brief Field TouchEnter value: static_cast<int32_t>(0x21)
+  /// @brief Field TouchEnter value: I32(33)
   static ::UnityEngine::EventType const TouchEnter;
 
-  /// @brief Field TouchLeave value: static_cast<int32_t>(0x22)
+  /// @brief Field TouchLeave value: I32(34)
   static ::UnityEngine::EventType const TouchLeave;
 
-  /// @brief Field TouchMove value: static_cast<int32_t>(0x20)
+  /// @brief Field TouchMove value: I32(32)
   static ::UnityEngine::EventType const TouchMove;
 
-  /// @brief Field TouchStationary value: static_cast<int32_t>(0x23)
+  /// @brief Field TouchStationary value: I32(35)
   static ::UnityEngine::EventType const TouchStationary;
 
-  /// @brief Field TouchUp value: static_cast<int32_t>(0x1f)
+  /// @brief Field TouchUp value: I32(31)
   static ::UnityEngine::EventType const TouchUp;
 
-  /// @brief Field Used value: static_cast<int32_t>(0xc)
+  /// @brief Field Used value: I32(12)
   static ::UnityEngine::EventType const Used;
 
-  /// @brief Field ValidateCommand value: static_cast<int32_t>(0xd)
+  /// @brief Field ValidateCommand value: I32(13)
   static ::UnityEngine::EventType const ValidateCommand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16625 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field dragPerform value: static_cast<int32_t>(0xa)
+  /// @brief Field dragPerform value: I32(10)
   static ::UnityEngine::EventType const dragPerform;
 
-  /// @brief Field dragUpdated value: static_cast<int32_t>(0x9)
+  /// @brief Field dragUpdated value: I32(9)
   static ::UnityEngine::EventType const dragUpdated;
 
-  /// @brief Field ignore value: static_cast<int32_t>(0xb)
+  /// @brief Field ignore value: I32(11)
   static ::UnityEngine::EventType const ignore;
 
-  /// @brief Field keyDown value: static_cast<int32_t>(0x4)
+  /// @brief Field keyDown value: I32(4)
   static ::UnityEngine::EventType const keyDown;
 
-  /// @brief Field keyUp value: static_cast<int32_t>(0x5)
+  /// @brief Field keyUp value: I32(5)
   static ::UnityEngine::EventType const keyUp;
 
-  /// @brief Field layout value: static_cast<int32_t>(0x8)
+  /// @brief Field layout value: I32(8)
   static ::UnityEngine::EventType const layout;
 
-  /// @brief Field mouseDown value: static_cast<int32_t>(0x0)
+  /// @brief Field mouseDown value: I32(0)
   static ::UnityEngine::EventType const mouseDown;
 
-  /// @brief Field mouseDrag value: static_cast<int32_t>(0x3)
+  /// @brief Field mouseDrag value: I32(3)
   static ::UnityEngine::EventType const mouseDrag;
 
-  /// @brief Field mouseMove value: static_cast<int32_t>(0x2)
+  /// @brief Field mouseMove value: I32(2)
   static ::UnityEngine::EventType const mouseMove;
 
-  /// @brief Field mouseUp value: static_cast<int32_t>(0x1)
+  /// @brief Field mouseUp value: I32(1)
   static ::UnityEngine::EventType const mouseUp;
 
-  /// @brief Field repaint value: static_cast<int32_t>(0x7)
+  /// @brief Field repaint value: I32(7)
   static ::UnityEngine::EventType const repaint;
 
-  /// @brief Field scrollWheel value: static_cast<int32_t>(0x6)
+  /// @brief Field scrollWheel value: I32(6)
   static ::UnityEngine::EventType const scrollWheel;
 
-  /// @brief Field used value: static_cast<int32_t>(0xc)
+  /// @brief Field used value: I32(12)
   static ::UnityEngine::EventType const used;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::EventType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventType, "UnityEngine", "EventType");

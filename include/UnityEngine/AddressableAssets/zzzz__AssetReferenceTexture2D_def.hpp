@@ -15,17 +15,16 @@ class AssetReferenceTexture2D;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture2D);
-// Type: UnityEngine.AddressableAssets::AssetReferenceTexture2D
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AddressableAssets.AssetReferenceT`1<TObject>
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture2D*
-class CORDL_TYPE AssetReferenceTexture2D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Texture2D>> {
+// CS Name: UnityEngine.AddressableAssets.AssetReferenceTexture2D
+class CORDL_TYPE AssetReferenceTexture2D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture2D*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture2D* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x448f6c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f09d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:
@@ -43,7 +42,7 @@ public:
   AssetReferenceTexture2D(AssetReferenceTexture2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

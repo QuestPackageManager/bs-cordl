@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::LinkInfo::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::UnityEngine::TextCore::Text::LinkInfo::SetLinkId)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x48c6cac;
+  constexpr static std::size_t addrs = 0x492b33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::LinkInfo::*)(::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::LinkInfo::GetLinkText)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x48c6d88;
+  constexpr static std::size_t addrs = 0x492b418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::LinkInfo::*)()>(&::UnityEngine::TextCore::Text::LinkInfo::GetLinkId)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48c6e80;
+  constexpr static std::size_t addrs = 0x492b510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::LinkInfo>::get(), "GetLinkId",
@@ -67,8 +67,8 @@ inline ::StringW UnityEngine::TextCore::Text::LinkInfo::GetLinkId() {
 // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkId", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "m_LinkIdString", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_LinkTextString", ty: "::StringW", modifiers: "",
-// def_value: Some("nullptr") }]
+// def_value: Some("{}") }, CppParam { name: "m_LinkIdString", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LinkTextString", ty: "::StringW", modifiers: "", def_value:
+// Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::LinkInfo::LinkInfo(int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex, int32_t linkTextLength,
                                                             ::ArrayW<char16_t, ::Array<char16_t>*> linkId, ::StringW m_LinkIdString, ::StringW m_LinkTextString) noexcept {
   this->hashCode = hashCode;

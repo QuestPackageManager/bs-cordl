@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ChoiceNode)
 namespace System::Xml::Schema {
 class BitSet;
@@ -27,33 +26,32 @@ class ChoiceNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ChoiceNode);
-// Type: System.Xml.Schema::ChoiceNode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.InteriorNode
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::ChoiceNode*
+// CS Name: System.Xml.Schema.ChoiceNode
 class CORDL_TYPE ChoiceNode : public ::System::Xml::Schema::InteriorNode {
 public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructChildPos, addr 0x4339f24, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConstructChildPos, addr 0x439b238, size 0xd4, virtual false, abstract: false, final false
   static inline void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode* child, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                                        ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ConstructPos, addr 0x4339ff8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x439b30c, size 0x12c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x433a1bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x439b4d0, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::ChoiceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4339764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439aa78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x433a124, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x439b438, size 0x98, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -71,7 +69,7 @@ public:
   ChoiceNode(ChoiceNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

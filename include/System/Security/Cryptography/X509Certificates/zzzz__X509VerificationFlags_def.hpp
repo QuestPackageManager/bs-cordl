@@ -12,11 +12,10 @@ struct X509VerificationFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509VerificationFlags);
-// Type: System.Security.Cryptography.X509Certificates::X509VerificationFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509VerificationFlags
+// CS Name: System.Security.Cryptography.X509Certificates.X509VerificationFlags
 struct CORDL_TYPE X509VerificationFlags {
 public:
   // Declarations
@@ -57,63 +56,63 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr X509VerificationFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AllFlags value: static_cast<int32_t>(0xfff)
+  /// @brief Field AllFlags value: I32(4095)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllFlags;
 
-  /// @brief Field AllowUnknownCertificateAuthority value: static_cast<int32_t>(0x10)
+  /// @brief Field AllowUnknownCertificateAuthority value: I32(16)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllowUnknownCertificateAuthority;
 
-  /// @brief Field IgnoreCertificateAuthorityRevocationUnknown value: static_cast<int32_t>(0x400)
+  /// @brief Field IgnoreCertificateAuthorityRevocationUnknown value: I32(1024)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCertificateAuthorityRevocationUnknown;
 
-  /// @brief Field IgnoreCtlNotTimeValid value: static_cast<int32_t>(0x2)
+  /// @brief Field IgnoreCtlNotTimeValid value: I32(2)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlNotTimeValid;
 
-  /// @brief Field IgnoreCtlSignerRevocationUnknown value: static_cast<int32_t>(0x200)
+  /// @brief Field IgnoreCtlSignerRevocationUnknown value: I32(512)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlSignerRevocationUnknown;
 
-  /// @brief Field IgnoreEndRevocationUnknown value: static_cast<int32_t>(0x100)
+  /// @brief Field IgnoreEndRevocationUnknown value: I32(256)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreEndRevocationUnknown;
 
-  /// @brief Field IgnoreInvalidBasicConstraints value: static_cast<int32_t>(0x8)
+  /// @brief Field IgnoreInvalidBasicConstraints value: I32(8)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidBasicConstraints;
 
-  /// @brief Field IgnoreInvalidName value: static_cast<int32_t>(0x40)
+  /// @brief Field IgnoreInvalidName value: I32(64)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidName;
 
-  /// @brief Field IgnoreInvalidPolicy value: static_cast<int32_t>(0x80)
+  /// @brief Field IgnoreInvalidPolicy value: I32(128)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidPolicy;
 
-  /// @brief Field IgnoreNotTimeNested value: static_cast<int32_t>(0x4)
+  /// @brief Field IgnoreNotTimeNested value: I32(4)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeNested;
 
-  /// @brief Field IgnoreNotTimeValid value: static_cast<int32_t>(0x1)
+  /// @brief Field IgnoreNotTimeValid value: I32(1)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeValid;
 
-  /// @brief Field IgnoreRootRevocationUnknown value: static_cast<int32_t>(0x800)
+  /// @brief Field IgnoreRootRevocationUnknown value: I32(2048)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreRootRevocationUnknown;
 
-  /// @brief Field IgnoreWrongUsage value: static_cast<int32_t>(0x20)
+  /// @brief Field IgnoreWrongUsage value: I32(32)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreWrongUsage;
 
-  /// @brief Field NoFlag value: static_cast<int32_t>(0x0)
+  /// @brief Field NoFlag value: I32(0)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const NoFlag;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9305 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509VerificationFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509VerificationFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509VerificationFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509VerificationFlags, "System.Security.Cryptography.X509Certificates", "X509VerificationFlags");

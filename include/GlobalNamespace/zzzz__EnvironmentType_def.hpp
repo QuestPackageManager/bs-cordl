@@ -12,11 +12,10 @@ struct EnvironmentType;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::EnvironmentType);
-// Type: ::EnvironmentType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::EnvironmentType
+// CS Name: EnvironmentType
 struct CORDL_TYPE EnvironmentType {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EnvironmentType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Circle value: static_cast<int32_t>(0x1)
+  /// @brief Field Circle value: I32(1)
   static ::GlobalNamespace::EnvironmentType const Circle;
 
-  /// @brief Field Multiplayer value: static_cast<int32_t>(0x2)
+  /// @brief Field Multiplayer value: I32(2)
   static ::GlobalNamespace::EnvironmentType const Multiplayer;
 
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
+  /// @brief Field Normal value: I32(0)
   static ::GlobalNamespace::EnvironmentType const Normal;
 
-  /// @brief Field Tutorial value: static_cast<int32_t>(0x3)
+  /// @brief Field Tutorial value: I32(3)
   static ::GlobalNamespace::EnvironmentType const Tutorial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentType, "", "EnvironmentType");

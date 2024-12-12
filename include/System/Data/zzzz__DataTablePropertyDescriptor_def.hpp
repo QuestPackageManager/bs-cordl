@@ -20,11 +20,10 @@ class DataTablePropertyDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataTablePropertyDescriptor);
-// Type: System.Data::DataTablePropertyDescriptor
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.PropertyDescriptor
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::DataTablePropertyDescriptor*
+// CS Name: System.Data.DataTablePropertyDescriptor
 class CORDL_TYPE DataTablePropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
@@ -39,37 +38,37 @@ public:
   /// @brief Field <Table>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__Table_k__BackingField, put = __cordl_internal_set__Table_k__BackingField)) ::System::Data::DataTable* _Table_k__BackingField;
 
-  /// @brief Method CanResetValue, addr 0x410768c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x41689a0, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x4107694, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x41689a8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method ResetValue, addr 0x4107778, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x4168a8c, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x410777c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x4168a90, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x4107780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x4168a94, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
+
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__Table_k__BackingField() const;
 
   constexpr ::System::Data::DataTable*& __cordl_internal_get__Table_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& __cordl_internal_get__Table_k__BackingField() const;
-
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method get_ComponentType, addr 0x41075ac, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x41688c0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x4107618, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x416892c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x4107620, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x4168934, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_Table, addr 0x41075a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x41688b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
 protected:
@@ -86,18 +85,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DataTablePropertyDescriptor(DataTablePropertyDescriptor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11402 };
+
   /// @brief Field <Table>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Data::DataTable* ____Table_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::DataTablePropertyDescriptor, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::DataTablePropertyDescriptor, ____Table_k__BackingField) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::DataTablePropertyDescriptor, 0x90>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::DataTablePropertyDescriptor);

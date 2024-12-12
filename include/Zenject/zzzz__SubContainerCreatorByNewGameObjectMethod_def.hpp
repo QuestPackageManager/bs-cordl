@@ -29,30 +29,29 @@ class SubContainerCreatorByNewGameObjectMethod;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewGameObjectMethod);
-// Type: Zenject::SubContainerCreatorByNewGameObjectMethod
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.SubContainerCreatorByNewGameObjectDynamicContext
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod*
+// CS Name: Zenject.SubContainerCreatorByNewGameObjectMethod
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:
   // Declarations
   /// @brief Field _installerMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installerMethod;
 
-  /// @brief Method AddInstallers, addr 0x4adaf24, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x4b3f834, size 0xb0, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                                                                               ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get__installerMethod();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>* const& __cordl_internal_get__installerMethod() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get__installerMethod() const;
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get__installerMethod();
 
   constexpr void __cordl_internal_set__installerMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x4adaee8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3f7f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
 protected:
@@ -69,18 +68,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByNewGameObjectMethod(SubContainerCreatorByNewGameObjectMethod const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12595 };
+
   /// @brief Field _installerMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ____installerMethod;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByNewGameObjectMethod, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::SubContainerCreatorByNewGameObjectMethod, ____installerMethod) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByNewGameObjectMethod, 0x28>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByNewGameObjectMethod);

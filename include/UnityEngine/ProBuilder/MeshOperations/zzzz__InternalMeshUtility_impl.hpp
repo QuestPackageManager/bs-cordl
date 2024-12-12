@@ -12,271 +12,271 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._ctor
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4719090;
+  constexpr static std::size_t addrs = 0x477a3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._CreateMeshWithTransform_b__1_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._CreateMeshWithTransform_b__1_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)(::UnityEngine::Mesh*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_CreateMeshWithTransform_b__1_0)> {
+    static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)(::UnityEngine::Mesh*)>(
+        &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_CreateMeshWithTransform_b__1_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4719098;
+  constexpr static std::size_t addrs = 0x477a3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<CreateMeshWithTransform>b__1_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<CreateMeshWithTransform>b__1_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._CreateMeshWithTransform_b__1_1
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._CreateMeshWithTransform_b__1_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)(::UnityEngine::Mesh*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_CreateMeshWithTransform_b__1_1)> {
+    static_cast<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)(::UnityEngine::Mesh*)>(
+        &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_CreateMeshWithTransform_b__1_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47190b0;
+  constexpr static std::size_t addrs = 0x477a3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<CreateMeshWithTransform>b__1_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<CreateMeshWithTransform>b__1_1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._CreateMeshWithTransform_b__1_2
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._CreateMeshWithTransform_b__1_2
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)(::UnityEngine::Mesh*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_CreateMeshWithTransform_b__1_2)> {
+    static_cast<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)(::UnityEngine::Mesh*)>(
+        &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_CreateMeshWithTransform_b__1_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47190c8;
+  constexpr static std::size_t addrs = 0x477a3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<CreateMeshWithTransform>b__1_2",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<CreateMeshWithTransform>b__1_2",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._ResetPbObjectWithMeshFilter_b__2_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._ResetPbObjectWithMeshFilter_b__2_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)(::UnityEngine::Mesh*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ResetPbObjectWithMeshFilter_b__2_0)> {
+    static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)(::UnityEngine::Mesh*)>(
+        &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ResetPbObjectWithMeshFilter_b__2_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47190e0;
+  constexpr static std::size_t addrs = 0x477a3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._ResetPbObjectWithMeshFilter_b__2_1
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._ResetPbObjectWithMeshFilter_b__2_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)(::UnityEngine::Mesh*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ResetPbObjectWithMeshFilter_b__2_1)> {
+    static_cast<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)(::UnityEngine::Mesh*)>(
+        &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ResetPbObjectWithMeshFilter_b__2_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47190f8;
+  constexpr static std::size_t addrs = 0x477a40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._ResetPbObjectWithMeshFilter_b__2_2
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._ResetPbObjectWithMeshFilter_b__2_2
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)(::UnityEngine::Mesh*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ResetPbObjectWithMeshFilter_b__2_2)> {
+    static_cast<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)(::UnityEngine::Mesh*)>(
+        &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ResetPbObjectWithMeshFilter_b__2_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4719110;
+  constexpr static std::size_t addrs = 0x477a424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_2",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_2",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c._FilterUnusedSubmeshIndexes_b__3_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c._FilterUnusedSubmeshIndexes_b__3_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::*)(bool)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_FilterUnusedSubmeshIndexes_b__3_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::*)(bool)>(
+    &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_FilterUnusedSubmeshIndexes_b__3_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4719128;
+  constexpr static std::size_t addrs = 0x477a43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<FilterUnusedSubmeshIndexes>b__3_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<FilterUnusedSubmeshIndexes>b__3_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
-      std::forward<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
+      std::forward<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>(value));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+inline ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c* UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9__1_0(
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9__1_0(
     ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*, "<>9__1_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*>(value));
 }
 inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9__1_0() {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*, "<>9__1_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9__1_1(
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9__1_1(
     ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*, "<>9__1_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*>(value));
 }
 inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9__1_1() {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9__1_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*, "<>9__1_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9__1_2(
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9__1_2(
     ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*, "<>9__1_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*>(value));
 }
 inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9__1_2() {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9__1_2() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*, "<>9__1_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9__2_0(
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9__2_0(
     ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*, "<>9__2_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*>(value));
 }
 inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9__2_0() {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9__2_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*, "<>9__2_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9__2_1(
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9__2_1(
     ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*, "<>9__2_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*>(value));
 }
 inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9__2_1() {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9__2_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>*, "<>9__2_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9__2_2(
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9__2_2(
     ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*, "<>9__2_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*>(value));
 }
 inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9__2_2() {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9__2_2() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>*, "<>9__2_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::setStaticF___9__3_0(::System::Func_2<bool, bool>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::setStaticF___9__3_0(::System::Func_2<bool, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<bool, bool>*, "<>9__3_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>(
       std::forward<::System::Func_2<bool, bool>*>(value));
 }
-inline ::System::Func_2<bool, bool>* UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::getStaticF___9__3_0() {
+inline ::System::Func_2<bool, bool>* UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<bool, bool>*, "<>9__3_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get>();
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ctor() {
+inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_CreateMeshWithTransform_b__1_0(::UnityEngine::Mesh* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<CreateMeshWithTransform>b__1_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
+inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_CreateMeshWithTransform_b__1_0(::UnityEngine::Mesh* x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<CreateMeshWithTransform>b__1_0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, false>(this, ___internal_method, x);
 }
-inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_CreateMeshWithTransform_b__1_1(::UnityEngine::Mesh* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<CreateMeshWithTransform>b__1_1",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
+inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_CreateMeshWithTransform_b__1_1(::UnityEngine::Mesh* x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<CreateMeshWithTransform>b__1_1",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>, false>(this, ___internal_method, x);
 }
-inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_CreateMeshWithTransform_b__1_2(::UnityEngine::Mesh* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<CreateMeshWithTransform>b__1_2",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
+inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_CreateMeshWithTransform_b__1_2(::UnityEngine::Mesh* x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<CreateMeshWithTransform>b__1_2",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>, false>(this, ___internal_method, x);
 }
 inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ResetPbObjectWithMeshFilter_b__2_0(::UnityEngine::Mesh* x) {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ResetPbObjectWithMeshFilter_b__2_0(::UnityEngine::Mesh* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, false>(this, ___internal_method, x);
 }
-inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ResetPbObjectWithMeshFilter_b__2_1(::UnityEngine::Mesh* x) {
+inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ResetPbObjectWithMeshFilter_b__2_1(::UnityEngine::Mesh* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>, false>(this, ___internal_method, x);
 }
 inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>
-UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_ResetPbObjectWithMeshFilter_b__2_2(::UnityEngine::Mesh* x) {
+UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_ResetPbObjectWithMeshFilter_b__2_2(::UnityEngine::Mesh* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_2",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<ResetPbObjectWithMeshFilter>b__2_2",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>, false>(this, ___internal_method, x);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::_FilterUnusedSubmeshIndexes_b__3_0(bool x) {
+inline bool UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::_FilterUnusedSubmeshIndexes_b__3_0(bool x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c*>::get(), "<FilterUnusedSubmeshIndexes>b__3_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>::get(), "<FilterUnusedSubmeshIndexes>b__3_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
+inline ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c* UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c::__InternalMeshUtility____c() {}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c::InternalMeshUtility___c() {}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility.AverageNormalWithIndexes
 template <>
 
@@ -284,7 +284,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::SharedVertex*, ::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4715108;
+  constexpr static std::size_t addrs = 0x477641c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::UnityEngine::Transform*, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::CreateMeshWithTransform)> {
   constexpr static std::size_t size = 0x10b0;
-  constexpr static std::size_t addrs = 0x4716610;
+  constexpr static std::size_t addrs = 0x4777924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::ResetPbObjectWithMeshFilter)> {
   constexpr static std::size_t size = 0x114c;
-  constexpr static std::size_t addrs = 0x4717998;
+  constexpr static std::size_t addrs = 0x4778cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::FilterUnusedSubmeshIndexes)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x4718ae4;
+  constexpr static std::size_t addrs = 0x4779df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

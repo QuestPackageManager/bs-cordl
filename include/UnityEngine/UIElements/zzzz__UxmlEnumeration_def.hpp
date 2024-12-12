@@ -21,11 +21,10 @@ class UxmlEnumeration;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlEnumeration);
-// Type: UnityEngine.UIElements::UxmlEnumeration
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UxmlTypeRestriction
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlEnumeration*
+// CS Name: UnityEngine.UIElements.UxmlEnumeration
 class CORDL_TYPE UxmlEnumeration : public ::UnityEngine::UIElements::UxmlTypeRestriction {
 public:
   // Declarations
@@ -34,24 +33,24 @@ public:
 
   __declspec(property(get = get_values, put = set_values)) ::System::Collections::Generic::IEnumerable_1<::StringW>* values;
 
-  /// @brief Method Equals, addr 0x4a3dcb4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4aa25c4, size 0x134, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlEnumeration* New_ctor();
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Values();
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Values() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Values() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Values();
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x4a3dde8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa26f8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_values, addr 0x4a3dc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x4aa2560, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_values();
 
-  /// @brief Method set_values, addr 0x4a3dc58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_values, addr 0x4aa2568, size 0x5c, virtual false, abstract: false, final false
   inline void set_values(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
 protected:
@@ -68,18 +67,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlEnumeration(UxmlEnumeration const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6280 };
+
   /// @brief Field m_Values, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Values;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlEnumeration, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UxmlEnumeration, ___m_Values) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlEnumeration, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlEnumeration);

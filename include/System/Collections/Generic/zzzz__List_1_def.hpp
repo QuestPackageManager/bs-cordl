@@ -3,14 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(List_1)
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
@@ -21,31 +28,13 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __List_1__Enumerator;
+template <typename T> struct List_1_Enumerator;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -60,9 +49,6 @@ namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 namespace System {
@@ -73,19 +59,18 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __List_1__Enumerator;
+template <typename T> struct List_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::List_1);
-MARK_GEN_VAL_T(::System::Collections::Generic::__List_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::System::Collections::Generic::List_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::List`1::Enumerator<T>
-struct CORDL_TYPE __List_1__Enumerator {
+// CS Name: System.Collections.Generic.List`1/Enumerator<T>
+struct CORDL_TYPE List_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -133,11 +118,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __List_1__Enumerator();
+  constexpr List_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: None }]
-  constexpr __List_1__Enumerator(::System::Collections::Generic::List_1<T>* _list, int32_t _index, int32_t _version, T _current) noexcept;
+  constexpr List_1_Enumerator(::System::Collections::Generic::List_1<T>* _list, int32_t _index, int32_t _version, T _current) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3856 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field _list, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* _list;
@@ -151,27 +142,21 @@ public:
   /// @brief Field _current, offset: 0x10, size: 0x8, def value: None
   T _current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3856 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: System.Collections.Generic::List`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>,
+// System.Collections.Generic.IReadOnlyList`1<T>, System.Collections.ICollection, System.Collections.IEnumerable, System.Collections.IList, System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::List`1<T>*
+// CS Name: System.Collections.Generic.List`1<T>
 class CORDL_TYPE List_1 : public ::System::Object {
 public:
   // Declarations
-  using Enumerator = ::System::Collections::Generic::__List_1__Enumerator<T>;
+  using Enumerator = ::System::Collections::Generic::List_1_Enumerator<T>;
 
   __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
 
@@ -204,7 +189,7 @@ public:
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field s_emptyArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_emptyArray, put = setStaticF_s_emptyArray)) ::ArrayW<T, ::Array<T>*> s_emptyArray;
+  __declspec(property(get = getStaticF_s_emptyArray, put = setStaticF_s_emptyArray)) ::ArrayW<T, ::Array<T>*> s_emptyArray;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
@@ -294,7 +279,7 @@ public:
   inline void ForEach(::System::Action_1<T>* action);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__List_1__Enumerator<T> GetEnumerator();
+  inline ::System::Collections::Generic::List_1_Enumerator<T> GetEnumerator();
 
   /// @brief Method GetRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<T>* GetRange(int32_t index, int32_t count);
@@ -406,9 +391,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
@@ -488,6 +473,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   List_1(List_1 const&) = delete;
 
+  /// @brief Field DefaultCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t DefaultCapacity{ static_cast<int32_t>(0x4) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3857 };
+
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____items;
 
@@ -500,15 +491,9 @@ public:
   /// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
-  /// @brief Field DefaultCapacity offset 0xffffffff size 0x4
-  static constexpr int32_t DefaultCapacity{ static_cast<int32_t>(0x4) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3857 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::List_1, "System.Collections.Generic", "List`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__List_1__Enumerator, "System.Collections.Generic", "List`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::List_1_Enumerator, "System.Collections.Generic", "List`1/Enumerator");

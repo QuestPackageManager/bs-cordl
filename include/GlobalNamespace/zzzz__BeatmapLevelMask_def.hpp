@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelMask)
 namespace GlobalNamespace {
 class BitMaskSparse;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -23,9 +22,6 @@ namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -34,11 +30,10 @@ class BeatmapLevelMask;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelMask);
-// Type: ::BeatmapLevelMask
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LiteNetLib.Utils.INetSerializable, System.IEquatable`1<T>, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapLevelMask*
+// CS Name: BeatmapLevelMask
 class CORDL_TYPE BeatmapLevelMask : public ::System::Object {
 public:
   // Declarations
@@ -51,22 +46,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*() noexcept;
 
-  /// @brief Method AddLevel, addr 0x26e7ed4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddLevel, addr 0x271a570, size 0x60, virtual false, abstract: false, final false
   inline void AddLevel(::StringW state);
 
-  /// @brief Method Contains, addr 0x26e7e74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x271a510, size 0x60, virtual false, abstract: false, final false
   inline bool Contains(::StringW state);
 
-  /// @brief Method Deserialize, addr 0x26e8138, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x271a7d4, size 0x18, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x26e82a8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x271a944, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x26e8288, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x271a924, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapLevelMask* other);
 
-  /// @brief Method GetHashCode, addr 0x26e8268, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x271a904, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor();
@@ -75,25 +70,25 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet);
 
-  /// @brief Method Serialize, addr 0x26e7f34, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x271a5d0, size 0x18, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToString, addr 0x26e81e4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x271a880, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  constexpr ::GlobalNamespace::BitMaskSparse* const& __cordl_internal_get__bloomFilter() const;
 
   constexpr ::GlobalNamespace::BitMaskSparse*& __cordl_internal_get__bloomFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BitMaskSparse*> const& __cordl_internal_get__bloomFilter() const;
-
   constexpr void __cordl_internal_set__bloomFilter(::GlobalNamespace::BitMaskSparse* value);
 
-  /// @brief Method .ctor, addr 0x26e7b60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271a1fc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26e7c48, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271a2e4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW level);
 
-  /// @brief Method .ctor, addr 0x26e7ce0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271a37c, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -116,11 +111,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelMask(BeatmapLevelMask const&) = delete;
 
-  /// @brief Field _bloomFilter, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BitMaskSparse* ____bloomFilter;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16962 };
 
   /// @brief Field kBitCount offset 0xffffffff size 0x4
   static constexpr int32_t kBitCount{ static_cast<int32_t>(0x4000) };
@@ -137,12 +129,15 @@ public:
   /// @brief Field kToStringSuffix offset 0xffffffff size 0x8
   static constexpr ::ConstString kToStringSuffix{ u"]" };
 
+  /// @brief Field _bloomFilter, offset: 0x10, size: 0x8, def value: None
+  ::GlobalNamespace::BitMaskSparse* ____bloomFilter;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelMask, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelMask, ____bloomFilter) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelMask, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelMask);

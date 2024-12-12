@@ -71,13 +71,13 @@ template <typename TPriority> inline void Priority_Queue::GenericPriorityQueueNo
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TPriority> inline ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>* Priority_Queue::GenericPriorityQueueNode_1<TPriority>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*>());
-}
 template <typename TPriority> inline void Priority_Queue::GenericPriorityQueueNode_1<TPriority>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TPriority> inline ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>* Priority_Queue::GenericPriorityQueueNode_1<TPriority>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*>());
 }
 // Ctor Parameters []
 template <typename TPriority> constexpr ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>::GenericPriorityQueueNode_1() {}

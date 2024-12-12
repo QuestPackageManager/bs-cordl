@@ -14,11 +14,10 @@ class HEU_InputData;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputData);
-// Type: HoudiniEngineUnity::HEU_InputData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_InputData*
+// CS Name: HoudiniEngineUnity.HEU_InputData
 class CORDL_TYPE HEU_InputData : public ::System::Object {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__inputObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3a24be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7b850, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputData(HEU_InputData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11820 };
+
   /// @brief Field _inputObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____inputObject;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11787 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputData, ____inputObject) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputData, 0x18>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputData);

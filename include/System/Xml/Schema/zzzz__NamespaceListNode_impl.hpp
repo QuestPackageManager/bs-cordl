@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceListNode::*)(::System::Xml::Schema::NamespaceList*, ::System::Object*)>(
     &::System::Xml::Schema::NamespaceListNode::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43392a4;
+  constexpr static std::size_t addrs = 0x439a5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (
     ::System::Xml::Schema::NamespaceListNode::*)(::System::Xml::Schema::SymbolsDictionary*)>(&::System::Xml::Schema::NamespaceListNode::GetResolvedSymbols)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x43392d0;
+  constexpr static std::size_t addrs = 0x439a5e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceListNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::NamespaceListNode::ExpandTree)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x43392f0;
+  constexpr static std::size_t addrs = 0x439a604;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
     &::System::Xml::Schema::NamespaceListNode::ConstructPos)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x433976c;
+  constexpr static std::size_t addrs = 0x439aa80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::NamespaceListNode::*)()>(&::System::Xml::Schema::NamespaceListNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43397a4;
+  constexpr static std::size_t addrs = 0x439aab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ constexpr ::System::Xml::Schema::NamespaceList*& System::Xml::Schema::NamespaceL
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& System::Xml::Schema::NamespaceListNode::__cordl_internal_get_namespaceList() const {
+constexpr ::System::Xml::Schema::NamespaceList* const& System::Xml::Schema::NamespaceListNode::__cordl_internal_get_namespaceList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceList;
 }
@@ -101,16 +101,13 @@ constexpr ::System::Object*& System::Xml::Schema::NamespaceListNode::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::NamespaceListNode::__cordl_internal_get_particle() const {
+constexpr ::System::Object* const& System::Xml::Schema::NamespaceListNode::__cordl_internal_get_particle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
 constexpr void System::Xml::Schema::NamespaceListNode::__cordl_internal_set_particle(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___particle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Schema::NamespaceListNode* System::Xml::Schema::NamespaceListNode::New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceListNode*>(namespaceList, particle));
 }
 inline void System::Xml::Schema::NamespaceListNode::_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -140,6 +137,9 @@ inline bool System::Xml::Schema::NamespaceListNode::get_IsNullable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceListNode*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::NamespaceListNode* System::Xml::Schema::NamespaceListNode::New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceListNode*>(namespaceList, particle));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::NamespaceListNode::NamespaceListNode() {}

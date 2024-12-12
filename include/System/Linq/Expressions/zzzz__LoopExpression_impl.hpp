@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::LoopExpression::*)(
     ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::LabelTarget*)>(&::System::Linq::Expressions::LoopExpression::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x40578d8;
+  constexpr static std::size_t addrs = 0x40b8bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::LoopExpression::*)()>(
     &::System::Linq::Expressions::LoopExpression::get_Type)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4057958;
+  constexpr static std::size_t addrs = 0x40b8c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LoopExpression*>::get(), "get_Type",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::LoopExpression::*)()>(
     &::System::Linq::Expressions::LoopExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40579e0;
+  constexpr static std::size_t addrs = 0x40b8cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LoopExpression*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::LoopExpression::*)()>(
     &::System::Linq::Expressions::LoopExpression::get_Body)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40579e8;
+  constexpr static std::size_t addrs = 0x40b8cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LoopExpression*>::get(), "get_Body",
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (::System::Linq::Expressions::LoopExpression::*)()>(
     &::System::Linq::Expressions::LoopExpression::get_BreakLabel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40579f0;
+  constexpr static std::size_t addrs = 0x40b8d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LoopExpression*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (::System::Linq::Expressions::LoopExpression::*)()>(
     &::System::Linq::Expressions::LoopExpression::get_ContinueLabel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40579f8;
+  constexpr static std::size_t addrs = 0x40b8d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LoopExpression*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::LoopExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::LoopExpression::Accept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4057a00;
+  constexpr static std::size_t addrs = 0x40b8d14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::LoopExpression::*)(::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::LoopExpression::Update)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4055bac;
+  constexpr static std::size_t addrs = 0x40b6ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Body_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::LoopExpression::__cordl_internal_get__Body_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::LoopExpression::__cordl_internal_get__Body_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Body_k__BackingField;
 }
@@ -143,7 +143,7 @@ constexpr ::System::Linq::Expressions::LabelTarget*& System::Linq::Expressions::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BreakLabel_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const& System::Linq::Expressions::LoopExpression::__cordl_internal_get__BreakLabel_k__BackingField() const {
+constexpr ::System::Linq::Expressions::LabelTarget* const& System::Linq::Expressions::LoopExpression::__cordl_internal_get__BreakLabel_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BreakLabel_k__BackingField;
 }
@@ -155,18 +155,13 @@ constexpr ::System::Linq::Expressions::LabelTarget*& System::Linq::Expressions::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContinueLabel_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const& System::Linq::Expressions::LoopExpression::__cordl_internal_get__ContinueLabel_k__BackingField() const {
+constexpr ::System::Linq::Expressions::LabelTarget* const& System::Linq::Expressions::LoopExpression::__cordl_internal_get__ContinueLabel_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContinueLabel_k__BackingField;
 }
 constexpr void System::Linq::Expressions::LoopExpression::__cordl_internal_set__ContinueLabel_k__BackingField(::System::Linq::Expressions::LabelTarget* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ContinueLabel_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::LoopExpression* System::Linq::Expressions::LoopExpression::New_ctor(::System::Linq::Expressions::Expression* body,
-                                                                                                        ::System::Linq::Expressions::LabelTarget* _cordl_break,
-                                                                                                        ::System::Linq::Expressions::LabelTarget* _cordl_continue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::LoopExpression*>(body, _cordl_break, _cordl_continue));
 }
 inline void System::Linq::Expressions::LoopExpression::_ctor(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break,
                                                              ::System::Linq::Expressions::LabelTarget* _cordl_continue) {
@@ -216,6 +211,11 @@ inline ::System::Linq::Expressions::LoopExpression* System::Linq::Expressions::L
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::LabelTarget*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::LoopExpression*, false>(this, ___internal_method, breakLabel, continueLabel, body);
+}
+inline ::System::Linq::Expressions::LoopExpression* System::Linq::Expressions::LoopExpression::New_ctor(::System::Linq::Expressions::Expression* body,
+                                                                                                        ::System::Linq::Expressions::LabelTarget* _cordl_break,
+                                                                                                        ::System::Linq::Expressions::LabelTarget* _cordl_continue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::LoopExpression*>(body, _cordl_break, _cordl_continue));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::LoopExpression::LoopExpression() {}

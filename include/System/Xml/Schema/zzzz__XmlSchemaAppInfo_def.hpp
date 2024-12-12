@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaAppInfo)
 namespace System::Xml {
@@ -16,11 +15,10 @@ class XmlSchemaAppInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAppInfo);
-// Type: System.Xml.Schema::XmlSchemaAppInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaObject
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaAppInfo*
+// CS Name: System.Xml.Schema.XmlSchemaAppInfo
 class CORDL_TYPE XmlSchemaAppInfo : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
@@ -48,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4257588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b889c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Markup, addr 0x4257578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Markup, addr 0x42b888c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> get_Markup();
 
-  /// @brief Method set_Markup, addr 0x4257580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x42b8894, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> value);
 
-  /// @brief Method set_Source, addr 0x4257570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x42b8884, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:
@@ -74,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaAppInfo(XmlSchemaAppInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7650 };
+
   /// @brief Field source, offset: 0x38, size: 0x8, def value: None
   ::StringW ___source;
 
   /// @brief Field markup, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> ___markup;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7625 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAppInfo, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAppInfo, ___source) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAppInfo, ___markup) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAppInfo, 0x48>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaAppInfo);

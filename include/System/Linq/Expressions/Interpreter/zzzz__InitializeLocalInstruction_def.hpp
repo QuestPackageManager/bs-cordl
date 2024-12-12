@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__LocalAccessInstruction_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitializeLocalInstruction)
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__ImmutableBox;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_ImmutableBox;
 }
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__ImmutableRefBox;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_ImmutableRefBox;
 }
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__ImmutableValue;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_ImmutableValue;
 }
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__MutableBox;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_MutableBox;
 }
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__MutableValue;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_MutableValue;
 }
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__ParameterBox;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_ParameterBox;
 }
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__Parameter;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_Parameter;
 }
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__Reference;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_Reference;
 }
 // Forward declare root types
 namespace System::Linq::Expressions::Interpreter {
@@ -36,33 +36,32 @@ class InitializeLocalInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::InitializeLocalInstruction);
-// Type: System.Linq.Expressions.Interpreter::InitializeLocalInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.LocalAccessInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::InitializeLocalInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.InitializeLocalInstruction
 class CORDL_TYPE InitializeLocalInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction {
 public:
   // Declarations
-  using ImmutableBox = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableBox;
+  using ImmutableBox = ::GlobalNamespace::InitializeLocalInstruction_ImmutableBox;
 
-  using ImmutableRefBox = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableRefBox;
+  using ImmutableRefBox = ::GlobalNamespace::InitializeLocalInstruction_ImmutableRefBox;
 
-  using ImmutableValue = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue;
+  using ImmutableValue = ::GlobalNamespace::InitializeLocalInstruction_ImmutableValue;
 
-  using MutableBox = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__MutableBox;
+  using MutableBox = ::GlobalNamespace::InitializeLocalInstruction_MutableBox;
 
-  using MutableValue = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__MutableValue;
+  using MutableValue = ::GlobalNamespace::InitializeLocalInstruction_MutableValue;
 
-  using Parameter = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__Parameter;
+  using Parameter = ::GlobalNamespace::InitializeLocalInstruction_Parameter;
 
-  using ParameterBox = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox;
+  using ParameterBox = ::GlobalNamespace::InitializeLocalInstruction_ParameterBox;
 
-  using Reference = ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__Reference;
+  using Reference = ::GlobalNamespace::InitializeLocalInstruction_Reference;
 
   static inline ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction* New_ctor(int32_t index);
 
-  /// @brief Method .ctor, addr 0x408768c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e89a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
 protected:
@@ -80,7 +79,7 @@ public:
   InitializeLocalInstruction(InitializeLocalInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13976 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

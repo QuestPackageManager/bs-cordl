@@ -14,35 +14,34 @@ class CommitmentTypeIdentifier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier);
-// Type: Org.BouncyCastle.Asn1.Esf::CommitmentTypeIdentifier
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Esf::CommitmentTypeIdentifier*
+// CS Name: Org.BouncyCastle.Asn1.Esf.CommitmentTypeIdentifier
 class CORDL_TYPE CommitmentTypeIdentifier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ProofOfApproval, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ProofOfApproval, put = setStaticF_ProofOfApproval)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfApproval;
+  __declspec(property(get = getStaticF_ProofOfApproval, put = setStaticF_ProofOfApproval)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfApproval;
 
   /// @brief Field ProofOfCreation, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ProofOfCreation, put = setStaticF_ProofOfCreation)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfCreation;
+  __declspec(property(get = getStaticF_ProofOfCreation, put = setStaticF_ProofOfCreation)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfCreation;
 
   /// @brief Field ProofOfDelivery, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ProofOfDelivery, put = setStaticF_ProofOfDelivery)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfDelivery;
+  __declspec(property(get = getStaticF_ProofOfDelivery, put = setStaticF_ProofOfDelivery)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfDelivery;
 
   /// @brief Field ProofOfOrigin, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ProofOfOrigin, put = setStaticF_ProofOfOrigin)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfOrigin;
+  __declspec(property(get = getStaticF_ProofOfOrigin, put = setStaticF_ProofOfOrigin)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfOrigin;
 
   /// @brief Field ProofOfReceipt, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ProofOfReceipt, put = setStaticF_ProofOfReceipt)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfReceipt;
+  __declspec(property(get = getStaticF_ProofOfReceipt, put = setStaticF_ProofOfReceipt)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfReceipt;
 
   /// @brief Field ProofOfSender, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ProofOfSender, put = setStaticF_ProofOfSender)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfSender;
+  __declspec(property(get = getStaticF_ProofOfSender, put = setStaticF_ProofOfSender)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ProofOfSender;
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e7840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231ab2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ProofOfApproval();

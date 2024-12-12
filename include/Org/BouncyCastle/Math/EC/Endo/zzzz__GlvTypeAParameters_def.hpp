@@ -17,11 +17,10 @@ class GlvTypeAParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters);
-// Type: Org.BouncyCastle.Math.EC.Endo::GlvTypeAParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeAParameters*
+// CS Name: Org.BouncyCastle.Math.EC.Endo.GlvTypeAParameters
 class CORDL_TYPE GlvTypeAParameters : public ::System::Object {
 public:
   // Declarations
@@ -43,17 +42,17 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_m_i() const;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_i();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_i() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_m_lambda() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_lambda();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_lambda() const;
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* const& __cordl_internal_get_m_splitParams() const;
 
   constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& __cordl_internal_get_m_splitParams();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*> const& __cordl_internal_get_m_splitParams() const;
 
   constexpr void __cordl_internal_set_m_i(::Org::BouncyCastle::Math::BigInteger* value);
 
@@ -61,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
 
-  /// @brief Method .ctor, addr 0x248200c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b52f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method get_I, addr 0x2482048, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_I, addr 0x24b5334, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_I();
 
-  /// @brief Method get_Lambda, addr 0x2482050, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Lambda, addr 0x24b533c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams, addr 0x2482058, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SplitParams, addr 0x24b5344, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GlvTypeAParameters(GlvTypeAParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1522 };
+
   /// @brief Field m_i, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___m_i;
 
@@ -96,19 +98,16 @@ public:
   /// @brief Field m_splitParams, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* ___m_splitParams;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1522 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters, ___m_i) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters, ___m_lambda) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters, ___m_splitParams) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Endo
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters);

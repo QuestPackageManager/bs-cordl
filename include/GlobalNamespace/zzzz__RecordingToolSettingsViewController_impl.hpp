@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)(::System::Action*)>(
     &::GlobalNamespace::RecordingToolSettingsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bbcef0;
+  constexpr static std::size_t addrs = 0x3c20020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)(::System::Action*)>(
     &::GlobalNamespace::RecordingToolSettingsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bbcf8c;
+  constexpr static std::size_t addrs = 0x3c200bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3bbd028;
+  constexpr static std::size_t addrs = 0x3c20158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)()>(
     &::GlobalNamespace::RecordingToolSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbd144;
+  constexpr static std::size_t addrs = 0x3c20274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsViewController*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)()>(
     &::GlobalNamespace::RecordingToolSettingsViewController::_DidActivate_b__6_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bbd14c;
+  constexpr static std::size_t addrs = 0x3c2027c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsViewController*>::get(),
@@ -108,8 +108,7 @@ constexpr ::GlobalNamespace::RecordingToolManager*& GlobalNamespace::RecordingTo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolManager*> const&
-GlobalNamespace::RecordingToolSettingsViewController::__cordl_internal_get__recordingToolManager() const {
+constexpr ::GlobalNamespace::RecordingToolManager* const& GlobalNamespace::RecordingToolSettingsViewController::__cordl_internal_get__recordingToolManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolManager;
 }
@@ -121,7 +120,7 @@ constexpr ::System::Action*& GlobalNamespace::RecordingToolSettingsViewControlle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::RecordingToolSettingsViewController::__cordl_internal_get_didFinishEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::RecordingToolSettingsViewController::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
@@ -147,9 +146,6 @@ inline void GlobalNamespace::RecordingToolSettingsViewController::DidActivate(bo
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsViewController*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline ::GlobalNamespace::RecordingToolSettingsViewController* GlobalNamespace::RecordingToolSettingsViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolSettingsViewController*>());
-}
 inline void GlobalNamespace::RecordingToolSettingsViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsViewController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -159,6 +155,9 @@ inline void GlobalNamespace::RecordingToolSettingsViewController::_DidActivate_b
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsViewController*>::get(),
                                                                              "<DidActivate>b__6_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::RecordingToolSettingsViewController* GlobalNamespace::RecordingToolSettingsViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolSettingsViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSettingsViewController::RecordingToolSettingsViewController() {}

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppDomainSetup)
@@ -17,11 +16,10 @@ class AppDomainSetup;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::AppDomainSetup);
-// Type: System::AppDomainSetup
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::AppDomainSetup*
+// CS Name: System.AppDomainSetup
 class CORDL_TYPE AppDomainSetup : public ::System::Object {
 public:
   // Declarations
@@ -110,9 +108,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__TargetFrameworkName_k__BackingField();
 
-  constexpr ::System::Object*& __cordl_internal_get__activationArguments();
+  constexpr ::System::Object* const& __cordl_internal_get__activationArguments() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__activationArguments() const;
+  constexpr ::System::Object*& __cordl_internal_get__activationArguments();
 
   constexpr ::StringW const& __cordl_internal_get_application_base() const;
 
@@ -122,9 +120,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_application_name();
 
-  constexpr ::System::Object*& __cordl_internal_get_application_trust();
+  constexpr ::System::Object* const& __cordl_internal_get_application_trust() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_application_trust() const;
+  constexpr ::System::Object*& __cordl_internal_get_application_trust();
 
   constexpr ::StringW const& __cordl_internal_get_cache_path() const;
 
@@ -150,9 +148,9 @@ public:
 
   constexpr bool& __cordl_internal_get_disallow_code_downloads();
 
-  constexpr ::System::Object*& __cordl_internal_get_domain_initializer();
+  constexpr ::System::Object* const& __cordl_internal_get_domain_initializer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_domain_initializer() const;
+  constexpr ::System::Object*& __cordl_internal_get_domain_initializer();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_domain_initializer_args() const;
 
@@ -262,7 +260,7 @@ public:
 
   constexpr void __cordl_internal_set_shadow_copy_files(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3dd1204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e312b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -278,6 +276,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AppDomainSetup(AppDomainSetup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2584 };
 
   /// @brief Field application_base, offset: 0x10, size: 0x8, def value: None
   ::StringW ___application_base;
@@ -357,14 +358,9 @@ public:
   /// @brief Field <TargetFrameworkName>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::StringW ____TargetFrameworkName_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2584 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::AppDomainSetup, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::System::AppDomainSetup, ___application_base) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::AppDomainSetup, ___application_name) == 0x18, "Offset mismatch!");
@@ -416,6 +412,8 @@ static_assert(offsetof(::System::AppDomainSetup, ___manager_type) == 0xb0, "Offs
 static_assert(offsetof(::System::AppDomainSetup, ___partial_visible_assemblies) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::System::AppDomainSetup, ____TargetFrameworkName_k__BackingField) == 0xc0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::AppDomainSetup, 0xc8>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::AppDomainSetup);

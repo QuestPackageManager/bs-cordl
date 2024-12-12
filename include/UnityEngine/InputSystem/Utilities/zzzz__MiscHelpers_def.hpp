@@ -3,6 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscHelpers)
@@ -16,38 +21,32 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
+template <typename TValue> class MiscHelpers__EveryNth_d__1_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 class MiscHelpers;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
+template <typename TValue> class MiscHelpers__EveryNth_d__1_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::MiscHelpers);
-MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1);
-// Type: ::<EveryNth>d__1`1
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1);
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::MiscHelpers::<EveryNth>d__1`1<TValue>*
-class CORDL_TYPE __MiscHelpers___EveryNth_d__1_1 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.MiscHelpers/<EveryNth>d__1`1<TValue>
+class CORDL_TYPE MiscHelpers__EveryNth_d__1_1 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TValue__get_Current)) TValue System_Collections_Generic_IEnumerator_TValue__Current;
@@ -105,7 +104,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<TValue>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TValue>* System_Collections_Generic_IEnumerable_TValue__GetEnumerator();
@@ -133,9 +132,9 @@ public:
 
   constexpr TValue& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __cordl_internal_get___3__enumerable();
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* const& __cordl_internal_get___3__enumerable() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __cordl_internal_get___3__enumerable() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __cordl_internal_get___3__enumerable();
 
   constexpr int32_t const& __cordl_internal_get___3__n() const;
 
@@ -145,9 +144,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get___3__start();
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>*& __cordl_internal_get___7__wrap2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TValue>*> const& __cordl_internal_get___7__wrap2() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>*& __cordl_internal_get___7__wrap2();
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
@@ -157,9 +156,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__index_5__2();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __cordl_internal_get_enumerable();
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* const& __cordl_internal_get_enumerable() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __cordl_internal_get_enumerable() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __cordl_internal_get_enumerable();
 
   constexpr int32_t const& __cordl_internal_get_n() const;
 
@@ -215,16 +214,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MiscHelpers___EveryNth_d__1_1();
+  constexpr MiscHelpers__EveryNth_d__1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MiscHelpers___EveryNth_d__1_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers__EveryNth_d__1_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MiscHelpers___EveryNth_d__1_1(__MiscHelpers___EveryNth_d__1_1&&) = delete;
+  MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MiscHelpers___EveryNth_d__1_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers__EveryNth_d__1_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MiscHelpers___EveryNth_d__1_1(__MiscHelpers___EveryNth_d__1_1 const&) = delete;
+  MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7084 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -259,22 +261,18 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TValue>* _____7__wrap2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7059 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: UnityEngine.InputSystem.Utilities::MiscHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::MiscHelpers*
+// CS Name: UnityEngine.InputSystem.Utilities.MiscHelpers
 class CORDL_TYPE MiscHelpers : public ::System::Object {
 public:
   // Declarations
-  template <typename TValue> using _EveryNth_d__1_1 = ::UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>;
+  template <typename TValue> using _EveryNth_d__1_1 = ::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>;
 
   /// @brief Method EveryNth, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::Collections::Generic::IEnumerable_1<TValue>* EveryNth(::System::Collections::Generic::IEnumerable_1<TValue>* enumerable, int32_t n, int32_t start);
@@ -300,7 +298,7 @@ public:
   MiscHelpers(MiscHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -310,4 +308,4 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilit
 } // namespace UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::MiscHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::MiscHelpers*, "UnityEngine.InputSystem.Utilities", "MiscHelpers");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1, "UnityEngine.InputSystem.Utilities", "MiscHelpers/<EveryNth>d__1`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1, "UnityEngine.InputSystem.Utilities", "MiscHelpers/<EveryNth>d__1`1");

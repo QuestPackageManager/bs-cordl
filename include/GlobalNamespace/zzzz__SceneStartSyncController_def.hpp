@@ -31,11 +31,10 @@ class SceneStartSyncController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneStartSyncController);
-// Type: ::SceneStartSyncController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SceneStartSyncController*
+// CS Name: SceneStartSyncController
 class CORDL_TYPE SceneStartSyncController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -69,41 +68,41 @@ public:
   /// @brief Field syncStartDidSuccessEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_syncStartDidSuccessEvent, put = __cordl_internal_set_syncStartDidSuccessEvent)) ::System::Action_1<::StringW>* syncStartDidSuccessEvent;
 
-  /// @brief Method HandleSceneSetupDidFinish, addr 0x3e11830, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneSetupDidFinish, addr 0x3e718dc, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidFinish(::StringW sessionGameId);
 
-  /// @brief Method HandleSceneSetupDidReceiveTooLate, addr 0x3e1187c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneSetupDidReceiveTooLate, addr 0x3e71928, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
 
   static inline ::GlobalNamespace::SceneStartSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3e115d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3e71684, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3e11568, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3e71614, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSceneLoadSync, addr 0x3e116d0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method StartSceneLoadSync, addr 0x3e7177c, size 0x160, virtual false, abstract: false, final false
   inline void StartSceneLoadSync(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method Update, addr 0x3e11580, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3e7162c, size 0x58, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr ::GlobalNamespace::IGameplayRpcManager* const& __cordl_internal_get__gameplayRpcManager() const;
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* const& __cordl_internal_get__playersAtGameStartModel() const;
 
   constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __cordl_internal_get__playersAtGameStartModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __cordl_internal_get__playersAtGameStartModel() const;
+  constexpr ::GlobalNamespace::SceneStartHandler* const& __cordl_internal_get__sceneStartHandler() const;
 
   constexpr ::GlobalNamespace::SceneStartHandler*& __cordl_internal_get__sceneStartHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneStartHandler*> const& __cordl_internal_get__sceneStartHandler() const;
 
   constexpr bool const& __cordl_internal_get__sceneSyncStarted() const;
 
@@ -113,17 +112,17 @@ public:
 
   constexpr float_t& __cordl_internal_get__waitStartTime();
 
+  constexpr ::System::Action* const& __cordl_internal_get_syncStartDidFailEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_syncStartDidFailEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_syncStartDidFailEvent() const;
+  constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get_syncStartDidReceiveTooLateEvent() const;
 
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_syncStartDidReceiveTooLateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_syncStartDidReceiveTooLateEvent() const;
+  constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get_syncStartDidSuccessEvent() const;
 
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_syncStartDidSuccessEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_syncStartDidSuccessEvent() const;
 
   constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
@@ -143,25 +142,25 @@ public:
 
   constexpr void __cordl_internal_set_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3e118c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e71974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_syncStartDidFailEvent, addr 0x3e11430, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidFailEvent, addr 0x3e714dc, size 0x9c, virtual false, abstract: false, final false
   inline void add_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method add_syncStartDidReceiveTooLateEvent, addr 0x3e112d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidReceiveTooLateEvent, addr 0x3e7137c, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_syncStartDidSuccessEvent, addr 0x3e11170, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidSuccessEvent, addr 0x3e7121c, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidFailEvent, addr 0x3e114cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidFailEvent, addr 0x3e71578, size 0x9c, virtual false, abstract: false, final false
   inline void remove_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_syncStartDidReceiveTooLateEvent, addr 0x3e11380, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidReceiveTooLateEvent, addr 0x3e7142c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidSuccessEvent, addr 0x3e11220, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidSuccessEvent, addr 0x3e712cc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
 protected:
@@ -177,6 +176,15 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SceneStartSyncController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SceneStartSyncController(SceneStartSyncController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17366 };
+
+  /// @brief Field kLoadOtherTimeout offset 0xffffffff size 0x4
+  static constexpr float_t kLoadOtherTimeout{ static_cast<float_t>(15.0f) };
+
+  /// @brief Field kLoadSelfTimeout offset 0xffffffff size 0x4
+  static constexpr float_t kLoadSelfTimeout{ static_cast<float_t>(20.0f) };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
@@ -205,20 +213,9 @@ public:
   /// @brief Field _sceneSyncStarted, offset: 0x5c, size: 0x1, def value: None
   bool ____sceneSyncStarted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17322 };
-
-  /// @brief Field kLoadOtherTimeout offset 0xffffffff size 0x4
-  static constexpr float_t kLoadOtherTimeout{ 15.0 };
-
-  /// @brief Field kLoadSelfTimeout offset 0xffffffff size 0x4
-  static constexpr float_t kLoadSelfTimeout{ 20.0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneStartSyncController, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____multiplayerSessionManager) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____gameplayRpcManager) == 0x28, "Offset mismatch!");
@@ -236,6 +233,8 @@ static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____playersA
 static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____waitStartTime) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____sceneSyncStarted) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneStartSyncController, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SceneStartSyncController);

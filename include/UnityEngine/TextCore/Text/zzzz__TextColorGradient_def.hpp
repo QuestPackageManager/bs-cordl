@@ -16,11 +16,10 @@ class TextColorGradient;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextColorGradient);
-// Type: UnityEngine.TextCore.Text::TextColorGradient
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.ScriptableObject, UnityEngine.TextCore.Text.ColorGradientMode
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextColorGradient*
+// CS Name: UnityEngine.TextCore.Text.TextColorGradient
 class CORDL_TYPE TextColorGradient : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get_colorMode, put = __cordl_internal_set_colorMode)) ::UnityEngine::TextCore::Text::ColorGradientMode colorMode;
 
   /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor)) ::UnityEngine::Color k_DefaultColor;
+  __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor)) ::UnityEngine::Color k_DefaultColor;
 
   /// @brief Field topLeft, offset 0x1c, size 0x10
   __declspec(property(get = __cordl_internal_get_topLeft, put = __cordl_internal_set_topLeft)) ::UnityEngine::Color topLeft;
@@ -78,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x48ca63c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492eccc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48ca6d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492ed68, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x48ca744, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492edd4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   static inline ::UnityEngine::Color getStaticF_k_DefaultColor();
@@ -105,6 +104,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextColorGradient(TextColorGradient const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15255 };
+
+  /// @brief Field k_DefaultColorMode value: I32(3)
+  static ::UnityEngine::TextCore::Text::ColorGradientMode const k_DefaultColorMode;
+
   /// @brief Field colorMode, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::ColorGradientMode ___colorMode;
 
@@ -120,17 +125,9 @@ public:
   /// @brief Field bottomRight, offset: 0x4c, size: 0x10, def value: None
   ::UnityEngine::Color ___bottomRight;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15220 };
-
-  /// @brief Field k_DefaultColorMode value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::TextCore::Text::ColorGradientMode const k_DefaultColorMode;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextColorGradient, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextColorGradient, ___colorMode) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextColorGradient, ___topLeft) == 0x1c, "Offset mismatch!");
@@ -140,6 +137,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextColorGradient, ___topR
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextColorGradient, ___bottomLeft) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextColorGradient, ___bottomRight) == 0x4c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextColorGradient, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextColorGradient);

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPool_4_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MonoPoolableMemoryPool_4)
 namespace System {
 class Object;
@@ -21,13 +20,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MonoPoolableMemoryPool_4);
-// Type: Zenject::MonoPoolableMemoryPool`4
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MemoryPool`4<TParam1, TParam2, TParam3, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::MonoPoolableMemoryPool`4<TParam1,TParam2,TParam3,TValue>*
+// CS Name: Zenject.MonoPoolableMemoryPool`4<TParam1,TParam2,TParam3,TValue>
 class CORDL_TYPE MonoPoolableMemoryPool_4 : public ::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue> {
 public:
   // Declarations
@@ -77,11 +75,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoPoolableMemoryPool_4(MonoPoolableMemoryPool_4 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12396 };
+
   /// @brief Field _originalParent, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____originalParent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

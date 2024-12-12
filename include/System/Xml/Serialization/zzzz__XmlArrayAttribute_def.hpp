@@ -20,11 +20,10 @@ class XmlArrayAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlArrayAttribute);
-// Type: System.Xml.Serialization::XmlArrayAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Xml.Schema.XmlSchemaForm
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlArrayAttribute*
+// CS Name: System.Xml.Serialization.XmlArrayAttribute
 class CORDL_TYPE XmlArrayAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   /// @brief Field order, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  /// @brief Method AddKeyHash, addr 0x430bcd4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436cfe8, size 0x120, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_elementName() const;
@@ -86,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_ElementName, addr 0x430bc60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x436cf74, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x430bcb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x436cfc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x430bcbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x436cfd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Namespace, addr 0x430bcc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x436cfd8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x430bccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x436cfe0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -115,6 +114,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlArrayAttribute(XmlArrayAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7404 };
+
   /// @brief Field elementName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___elementName;
 
@@ -130,14 +132,9 @@ public:
   /// @brief Field order, offset: 0x28, size: 0x4, def value: None
   int32_t ___order;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7379 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlArrayAttribute, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayAttribute, ___elementName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayAttribute, ___form) == 0x18, "Offset mismatch!");
@@ -147,6 +144,8 @@ static_assert(offsetof(::System::Xml::Serialization::XmlArrayAttribute, ___isNul
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayAttribute, ___ns) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayAttribute, ___order) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlArrayAttribute, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlArrayAttribute);

@@ -2,13 +2,12 @@
 // IWYU pragma private; include "LIV/SDK/Unity/SDKClipPlane.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKClipPlane_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKClipPlane.get_empty
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKClipPlane (*)()>(&::LIV::SDK::Unity::SDKClipPlane::get_empty)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3a715bc;
+  constexpr static std::size_t addrs = 0x3ac822c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKClipPlane>::get(), "get_empty",
@@ -21,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKClipPlane::*)()>(&::LIV::SDK::Unity::SDKClipPlane::ToString)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3a72130;
+  constexpr static std::size_t addrs = 0x3ac8da0;
 
   inline static ::MethodInfo const* methodInfo() {
 

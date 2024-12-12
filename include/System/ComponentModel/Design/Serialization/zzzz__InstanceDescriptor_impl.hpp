@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)(
     ::System::Reflection::MemberInfo*, ::System::Collections::ICollection*)>(&::System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441cb00;
+  constexpr static std::size_t addrs = 0x447de14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)(
     ::System::Reflection::MemberInfo*, ::System::Collections::ICollection*, bool)>(&::System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x441cb08;
+  constexpr static std::size_t addrs = 0x447de1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::get_Arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d010;
+  constexpr static std::size_t addrs = 0x447e324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::get_MemberInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d018;
+  constexpr static std::size_t addrs = 0x447e32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::Invoke)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x440ca6c;
+  constexpr static std::size_t addrs = 0x446dd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,8 +87,7 @@ constexpr ::System::Collections::ICollection*& System::ComponentModel::Design::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Arguments_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const&
-System::ComponentModel::Design::Serialization::InstanceDescriptor::__cordl_internal_get__Arguments_k__BackingField() const {
+constexpr ::System::Collections::ICollection* const& System::ComponentModel::Design::Serialization::InstanceDescriptor::__cordl_internal_get__Arguments_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Arguments_k__BackingField;
 }
@@ -112,8 +111,7 @@ constexpr ::System::Reflection::MemberInfo*& System::ComponentModel::Design::Ser
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemberInfo_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const&
-System::ComponentModel::Design::Serialization::InstanceDescriptor::__cordl_internal_get__MemberInfo_k__BackingField() const {
+constexpr ::System::Reflection::MemberInfo* const& System::ComponentModel::Design::Serialization::InstanceDescriptor::__cordl_internal_get__MemberInfo_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemberInfo_k__BackingField;
 }
@@ -121,20 +119,12 @@ constexpr void System::ComponentModel::Design::Serialization::InstanceDescriptor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MemberInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* System::ComponentModel::Design::Serialization::InstanceDescriptor::New_ctor(::System::Reflection::MemberInfo* member,
-                                                                                                                                                        ::System::Collections::ICollection* arguments) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::Design::Serialization::InstanceDescriptor*>(member, arguments));
-}
 inline void System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Design::Serialization::InstanceDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ICollection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, member, arguments);
-}
-inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor*
-System::ComponentModel::Design::Serialization::InstanceDescriptor::New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::Design::Serialization::InstanceDescriptor*>(member, arguments, isComplete));
 }
 inline void System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,6 +151,14 @@ inline ::System::Object* System::ComponentModel::Design::Serialization::Instance
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Design::Serialization::InstanceDescriptor*>::get(), "Invoke",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* System::ComponentModel::Design::Serialization::InstanceDescriptor::New_ctor(::System::Reflection::MemberInfo* member,
+                                                                                                                                                        ::System::Collections::ICollection* arguments) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::Design::Serialization::InstanceDescriptor*>(member, arguments));
+}
+inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor*
+System::ComponentModel::Design::Serialization::InstanceDescriptor::New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::Design::Serialization::InstanceDescriptor*>(member, arguments, isComplete));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Design::Serialization::InstanceDescriptor::InstanceDescriptor() {}

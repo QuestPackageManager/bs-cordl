@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerOutroAnimationController)
 namespace GlobalNamespace {
@@ -50,11 +49,10 @@ class MultiplayerOutroAnimationController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOutroAnimationController);
-// Type: ::MultiplayerOutroAnimationController
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.PropertyName
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerOutroAnimationController*
+// CS Name: MultiplayerOutroAnimationController
 class CORDL_TYPE MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -134,27 +132,27 @@ public:
   /// @brief Field _songPreviewTrackName, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewTrackName, put = __cordl_internal_set__songPreviewTrackName)) ::StringW _songPreviewTrackName;
 
-  /// @brief Method AnimateOutro, addr 0x3b77668, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method AnimateOutro, addr 0x3bcd0fc, size 0x1bc, virtual false, abstract: false, final false
   inline void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
 
-  /// @brief Method BindOutroTimeline, addr 0x3b77824, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method BindOutroTimeline, addr 0x3bd9138, size 0x6b4, virtual false, abstract: false, final false
   inline void BindOutroTimeline();
 
-  /// @brief Method BindRingsAndAudio, addr 0x3b780b0, size 0x748, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndAudio, addr 0x3bd99c4, size 0x748, virtual false, abstract: false, final false
   inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
 
-  /// @brief Method Completed, addr 0x3b78dc8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x3bda6dc, size 0x24, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x3b77440, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x3bd8f10, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerSpawningDidFinish();
 
   static inline ::GlobalNamespace::MultiplayerOutroAnimationController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b77500, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd8fd0, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b773a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bd8e74, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__badgeMidTransform() const;
@@ -173,9 +171,9 @@ public:
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__badgeTimelineTrackNames();
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
   constexpr ::UnityEngine::PropertyName const& __cordl_internal_get__localPlayerTimelinePropertyName() const;
 
@@ -197,13 +195,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager>& __cordl_internal_get__multiplayerScoreRingManager();
 
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::System::Action* const& __cordl_internal_get__onCompleted() const;
 
   constexpr ::System::Action*& __cordl_internal_get__onCompleted();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__onCompleted() const;
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__outroPlayableDirector() const;
 
@@ -233,9 +231,9 @@ public:
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__ringTimelineTrackNames();
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr ::StringW const& __cordl_internal_get__songPreviewTrackName() const;
 
@@ -283,7 +281,7 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewTrackName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b791e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdaafc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -299,6 +297,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerOutroAnimationController(MultiplayerOutroAnimationController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4594 };
 
   /// @brief Field _outroPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____outroPlayableDirector;
@@ -363,14 +364,9 @@ public:
   /// @brief Field _onCompleted, offset: 0xc0, size: 0x8, def value: None
   ::System::Action* ____onCompleted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4582 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerOutroAnimationController, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____outroPlayableDirector) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____localPlayerTrackName) == 0x28, "Offset mismatch!");
@@ -412,6 +408,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, _
 static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____layoutProvider) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____onCompleted) == 0xc0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerOutroAnimationController, 0xc8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerOutroAnimationController);

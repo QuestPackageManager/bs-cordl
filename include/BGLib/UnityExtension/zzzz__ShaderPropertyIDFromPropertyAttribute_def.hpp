@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ShaderPropertyIDFromPropertyAttribute)
 namespace BGLib::UnityExtension {
-struct __ShaderPropertyAttributeFilter__PropType;
+struct ShaderPropertyAttributeFilter_PropType;
 }
 // Forward declare root types
 namespace BGLib::UnityExtension {
@@ -15,22 +15,21 @@ class ShaderPropertyIDFromPropertyAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute);
-// Type: BGLib.UnityExtension::ShaderPropertyIDFromPropertyAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.UnityExtension.ShaderPropertyIDFromRendererAttribute
 namespace BGLib::UnityExtension {
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension::ShaderPropertyIDFromPropertyAttribute*
+// CS Name: BGLib.UnityExtension.ShaderPropertyIDFromPropertyAttribute
 class CORDL_TYPE ShaderPropertyIDFromPropertyAttribute : public ::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute {
 public:
   // Declarations
   /// @brief Field nestedPropertyName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_nestedPropertyName, put = __cordl_internal_set_nestedPropertyName)) ::StringW nestedPropertyName;
 
-  /// @brief Method GetTargetName, addr 0x2281f84, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x22b5270, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute* New_ctor(::StringW propertyName, ::StringW nestedPropertyName, ::StringW nameFilter,
-                                                                                         ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
+                                                                                         ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
   constexpr ::StringW const& __cordl_internal_get_nestedPropertyName() const;
 
@@ -38,8 +37,8 @@ public:
 
   constexpr void __cordl_internal_set_nestedPropertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2281f54, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::StringW propertyName, ::StringW nestedPropertyName, ::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
+  /// @brief Method .ctor, addr 0x22b5240, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::StringW propertyName, ::StringW nestedPropertyName, ::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
   // Ctor Parameters []
@@ -55,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShaderPropertyIDFromPropertyAttribute(ShaderPropertyIDFromPropertyAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17172 };
+
   /// @brief Field nestedPropertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___nestedPropertyName;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute, ___nestedPropertyName) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
 NEED_NO_BOX(::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute);

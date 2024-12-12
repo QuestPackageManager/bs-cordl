@@ -9,30 +9,29 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RankModel)
 namespace GlobalNamespace {
-struct __RankModel__Rank;
+struct RankModel_Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __RankModel__Rank;
+struct RankModel_Rank;
 }
 namespace GlobalNamespace {
 class RankModel;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__RankModel__Rank);
+MARK_VAL_T(::GlobalNamespace::RankModel_Rank);
 MARK_REF_PTR_T(::GlobalNamespace::RankModel);
-// Type: ::Rank
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::RankModel::Rank
-struct CORDL_TYPE __RankModel__Rank {
+// CS Name: RankModel/Rank
+struct CORDL_TYPE RankModel_Rank {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____RankModel__Rank_Unwrapped
-  enum struct ____RankModel__Rank_Unwrapped : int32_t {
+  /// @brief Nested struct __RankModel_Rank_Unwrapped
+  enum struct __RankModel_Rank_Unwrapped : int32_t {
     __E_E = static_cast<int32_t>(0x0),
     __E_D = static_cast<int32_t>(0x1),
     __E_C = static_cast<int32_t>(0x2),
@@ -44,8 +43,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____RankModel__Rank_Unwrapped() const noexcept {
-    return static_cast<____RankModel__Rank_Unwrapped>(this->value__);
+  constexpr operator __RankModel_Rank_Unwrapped() const noexcept {
+    return static_cast<__RankModel_Rank_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -55,67 +54,66 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RankModel__Rank();
+  constexpr RankModel_Rank();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __RankModel__Rank(int32_t value__) noexcept;
+  constexpr RankModel_Rank(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field A value: I32(4)
+  static ::GlobalNamespace::RankModel_Rank const A;
 
-  /// @brief Field A value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__RankModel__Rank const A;
+  /// @brief Field B value: I32(3)
+  static ::GlobalNamespace::RankModel_Rank const B;
 
-  /// @brief Field B value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__RankModel__Rank const B;
+  /// @brief Field C value: I32(2)
+  static ::GlobalNamespace::RankModel_Rank const C;
 
-  /// @brief Field C value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__RankModel__Rank const C;
+  /// @brief Field D value: I32(1)
+  static ::GlobalNamespace::RankModel_Rank const D;
 
-  /// @brief Field D value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__RankModel__Rank const D;
+  /// @brief Field E value: I32(0)
+  static ::GlobalNamespace::RankModel_Rank const E;
 
-  /// @brief Field E value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__RankModel__Rank const E;
+  /// @brief Field S value: I32(5)
+  static ::GlobalNamespace::RankModel_Rank const S;
 
-  /// @brief Field S value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__RankModel__Rank const S;
+  /// @brief Field SS value: I32(6)
+  static ::GlobalNamespace::RankModel_Rank const SS;
 
-  /// @brief Field SS value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__RankModel__Rank const SS;
-
-  /// @brief Field SSS value: static_cast<int32_t>(0x7)
-  static ::GlobalNamespace::__RankModel__Rank const SSS;
+  /// @brief Field SSS value: I32(7)
+  static ::GlobalNamespace::RankModel_Rank const SSS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17008 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RankModel__Rank, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::RankModel_Rank, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__RankModel__Rank, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RankModel_Rank, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::RankModel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RankModel*
+// CS Name: RankModel
 class CORDL_TYPE RankModel : public ::System::Object {
 public:
   // Declarations
-  using Rank = ::GlobalNamespace::__RankModel__Rank;
+  using Rank = ::GlobalNamespace::RankModel_Rank;
 
-  /// @brief Method GetRankForScore, addr 0x26ee0b0, size 0xc8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__RankModel__Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
+  /// @brief Method GetRankForScore, addr 0x27205e8, size 0xc8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::RankModel_Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
 
-  /// @brief Method GetRankName, addr 0x26edff4, size 0xbc, virtual false, abstract: false, final false
-  static inline ::StringW GetRankName(::GlobalNamespace::__RankModel__Rank rank);
+  /// @brief Method GetRankName, addr 0x272052c, size 0xbc, virtual false, abstract: false, final false
+  static inline ::StringW GetRankName(::GlobalNamespace::RankModel_Rank rank);
 
 protected:
   // Ctor Parameters []
@@ -132,7 +130,7 @@ public:
   RankModel(RankModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -140,6 +138,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RankModel, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__RankModel__Rank, "", "RankModel/Rank");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RankModel_Rank, "", "RankModel/Rank");
 NEED_NO_BOX(::GlobalNamespace::RankModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RankModel*, "", "RankModel");

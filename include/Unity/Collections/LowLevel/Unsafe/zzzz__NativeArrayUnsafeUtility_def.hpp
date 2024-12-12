@@ -18,11 +18,10 @@ class NativeArrayUnsafeUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility);
-// Type: Unity.Collections.LowLevel.Unsafe::NativeArrayUnsafeUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeArrayUnsafeUtility*
+// CS Name: Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility
 class CORDL_TYPE NativeArrayUnsafeUtility : public ::System::Object {
 public:
   // Declarations
@@ -54,7 +53,7 @@ public:
   NativeArrayUnsafeUtility(NativeArrayUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

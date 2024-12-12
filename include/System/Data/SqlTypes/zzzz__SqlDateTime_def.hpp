@@ -3,17 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
+#include "System/Xml/Serialization/zzzz__IXmlSerializable_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SqlDateTime)
-namespace System::Data::SqlTypes {
-class INullable;
-}
 namespace System::Data::SqlTypes {
 struct SqlBoolean;
 }
@@ -22,9 +21,6 @@ class XmlSchemaSet;
 }
 namespace System::Xml::Schema {
 class XmlSchema;
-}
-namespace System::Xml::Serialization {
-class IXmlSerializable;
 }
 namespace System::Xml {
 class XmlQualifiedName;
@@ -39,9 +35,6 @@ namespace System {
 struct DateTime;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
 class Object;
 }
 namespace System {
@@ -53,11 +46,10 @@ struct SqlDateTime;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlDateTime);
-// Type: System.Data.SqlTypes::SqlDateTime
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.Data.SqlTypes.INullable, System.DateTime, System.IComparable, System.TimeSpan, System.Xml.Serialization.IXmlSerializable
 namespace System::Data::SqlTypes {
 // Is value type: true
-// CS Name: ::System.Data.SqlTypes::SqlDateTime
+// CS Name: System.Data.SqlTypes.SqlDateTime
 struct CORDL_TYPE SqlDateTime {
 public:
   // Declarations
@@ -66,86 +58,86 @@ public:
   __declspec(property(get = get_IsNull)) bool IsNull;
 
   /// @brief Field MaxValue, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_MaxValue, put = setStaticF_MaxValue)) ::System::Data::SqlTypes::SqlDateTime MaxValue;
+  __declspec(property(get = getStaticF_MaxValue, put = setStaticF_MaxValue)) ::System::Data::SqlTypes::SqlDateTime MaxValue;
 
   /// @brief Field MinValue, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_MinValue, put = setStaticF_MinValue)) ::System::Data::SqlTypes::SqlDateTime MinValue;
+  __declspec(property(get = getStaticF_MinValue, put = setStaticF_MinValue)) ::System::Data::SqlTypes::SqlDateTime MinValue;
 
   /// @brief Field Null, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_Null, put = setStaticF_Null)) ::System::Data::SqlTypes::SqlDateTime Null;
+  __declspec(property(get = getStaticF_Null, put = setStaticF_Null)) ::System::Data::SqlTypes::SqlDateTime Null;
 
   /// @brief Field SQLTicksPerHour, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_SQLTicksPerHour, put = setStaticF_SQLTicksPerHour)) int32_t SQLTicksPerHour;
+  __declspec(property(get = getStaticF_SQLTicksPerHour, put = setStaticF_SQLTicksPerHour)) int32_t SQLTicksPerHour;
 
   /// @brief Field SQLTicksPerMinute, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_SQLTicksPerMinute, put = setStaticF_SQLTicksPerMinute)) int32_t SQLTicksPerMinute;
+  __declspec(property(get = getStaticF_SQLTicksPerMinute, put = setStaticF_SQLTicksPerMinute)) int32_t SQLTicksPerMinute;
 
   /// @brief Field SQLTicksPerSecond, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_SQLTicksPerSecond, put = setStaticF_SQLTicksPerSecond)) int32_t SQLTicksPerSecond;
+  __declspec(property(get = getStaticF_SQLTicksPerSecond, put = setStaticF_SQLTicksPerSecond)) int32_t SQLTicksPerSecond;
 
   __declspec(property(get = get_TimeTicks)) int32_t TimeTicks;
 
   __declspec(property(get = get_Value)) ::System::DateTime Value;
 
   /// @brief Field s_ISO8601_DateTimeFormat, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ISO8601_DateTimeFormat, put = setStaticF_s_ISO8601_DateTimeFormat)) ::StringW s_ISO8601_DateTimeFormat;
+  __declspec(property(get = getStaticF_s_ISO8601_DateTimeFormat, put = setStaticF_s_ISO8601_DateTimeFormat)) ::StringW s_ISO8601_DateTimeFormat;
 
   /// @brief Field s_SQLBaseDate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SQLBaseDate, put = setStaticF_s_SQLBaseDate)) ::System::DateTime s_SQLBaseDate;
+  __declspec(property(get = getStaticF_s_SQLBaseDate, put = setStaticF_s_SQLBaseDate)) ::System::DateTime s_SQLBaseDate;
 
   /// @brief Field s_SQLBaseDateTicks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SQLBaseDateTicks, put = setStaticF_s_SQLBaseDateTicks)) int64_t s_SQLBaseDateTicks;
+  __declspec(property(get = getStaticF_s_SQLBaseDateTicks, put = setStaticF_s_SQLBaseDateTicks)) int64_t s_SQLBaseDateTicks;
 
   /// @brief Field s_SQLTicksPerDay, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_SQLTicksPerDay, put = setStaticF_s_SQLTicksPerDay)) int32_t s_SQLTicksPerDay;
+  __declspec(property(get = getStaticF_s_SQLTicksPerDay, put = setStaticF_s_SQLTicksPerDay)) int32_t s_SQLTicksPerDay;
 
   /// @brief Field s_SQLTicksPerMillisecond, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SQLTicksPerMillisecond, put = setStaticF_s_SQLTicksPerMillisecond)) double_t s_SQLTicksPerMillisecond;
+  __declspec(property(get = getStaticF_s_SQLTicksPerMillisecond, put = setStaticF_s_SQLTicksPerMillisecond)) double_t s_SQLTicksPerMillisecond;
 
   /// @brief Field s_dateTimeFormats, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_dateTimeFormats, put = setStaticF_s_dateTimeFormats)) ::ArrayW<::StringW, ::Array<::StringW>*> s_dateTimeFormats;
+  __declspec(property(get = getStaticF_s_dateTimeFormats, put = setStaticF_s_dateTimeFormats)) ::ArrayW<::StringW, ::Array<::StringW>*> s_dateTimeFormats;
 
   /// @brief Field s_dayBase, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_dayBase, put = setStaticF_s_dayBase)) int32_t s_dayBase;
+  __declspec(property(get = getStaticF_s_dayBase, put = setStaticF_s_dayBase)) int32_t s_dayBase;
 
   /// @brief Field s_daysToMonth365, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_daysToMonth365, put = setStaticF_s_daysToMonth365)) ::ArrayW<int32_t, ::Array<int32_t>*> s_daysToMonth365;
+  __declspec(property(get = getStaticF_s_daysToMonth365, put = setStaticF_s_daysToMonth365)) ::ArrayW<int32_t, ::Array<int32_t>*> s_daysToMonth365;
 
   /// @brief Field s_daysToMonth366, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_daysToMonth366, put = setStaticF_s_daysToMonth366)) ::ArrayW<int32_t, ::Array<int32_t>*> s_daysToMonth366;
+  __declspec(property(get = getStaticF_s_daysToMonth366, put = setStaticF_s_daysToMonth366)) ::ArrayW<int32_t, ::Array<int32_t>*> s_daysToMonth366;
 
   /// @brief Field s_maxDateTime, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_maxDateTime, put = setStaticF_s_maxDateTime)) ::System::DateTime s_maxDateTime;
+  __declspec(property(get = getStaticF_s_maxDateTime, put = setStaticF_s_maxDateTime)) ::System::DateTime s_maxDateTime;
 
   /// @brief Field s_maxDay, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_maxDay, put = setStaticF_s_maxDay)) int32_t s_maxDay;
+  __declspec(property(get = getStaticF_s_maxDay, put = setStaticF_s_maxDay)) int32_t s_maxDay;
 
   /// @brief Field s_maxTime, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_maxTime, put = setStaticF_s_maxTime)) int32_t s_maxTime;
+  __declspec(property(get = getStaticF_s_maxTime, put = setStaticF_s_maxTime)) int32_t s_maxTime;
 
   /// @brief Field s_maxTimeSpan, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_maxTimeSpan, put = setStaticF_s_maxTimeSpan)) ::System::TimeSpan s_maxTimeSpan;
+  __declspec(property(get = getStaticF_s_maxTimeSpan, put = setStaticF_s_maxTimeSpan)) ::System::TimeSpan s_maxTimeSpan;
 
   /// @brief Field s_maxYear, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_maxYear, put = setStaticF_s_maxYear)) int32_t s_maxYear;
+  __declspec(property(get = getStaticF_s_maxYear, put = setStaticF_s_maxYear)) int32_t s_maxYear;
 
   /// @brief Field s_minDateTime, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_minDateTime, put = setStaticF_s_minDateTime)) ::System::DateTime s_minDateTime;
+  __declspec(property(get = getStaticF_s_minDateTime, put = setStaticF_s_minDateTime)) ::System::DateTime s_minDateTime;
 
   /// @brief Field s_minDay, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_minDay, put = setStaticF_s_minDay)) int32_t s_minDay;
+  __declspec(property(get = getStaticF_s_minDay, put = setStaticF_s_minDay)) int32_t s_minDay;
 
   /// @brief Field s_minTime, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_minTime, put = setStaticF_s_minTime)) int32_t s_minTime;
+  __declspec(property(get = getStaticF_s_minTime, put = setStaticF_s_minTime)) int32_t s_minTime;
 
   /// @brief Field s_minTimeSpan, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_minTimeSpan, put = setStaticF_s_minTimeSpan)) ::System::TimeSpan s_minTimeSpan;
+  __declspec(property(get = getStaticF_s_minTimeSpan, put = setStaticF_s_minTimeSpan)) ::System::TimeSpan s_minTimeSpan;
 
   /// @brief Field s_minYear, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_minYear, put = setStaticF_s_minYear)) int32_t s_minYear;
+  __declspec(property(get = getStaticF_s_minYear, put = setStaticF_s_minYear)) int32_t s_minYear;
 
   /// @brief Field s_ticksPerSecond, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ticksPerSecond, put = setStaticF_s_ticksPerSecond)) int64_t s_ticksPerSecond;
+  __declspec(property(get = getStaticF_s_ticksPerSecond, put = setStaticF_s_ticksPerSecond)) int64_t s_ticksPerSecond;
 
   /// @brief Convert operator to "::System::Data::SqlTypes::INullable"
   constexpr operator ::System::Data::SqlTypes::INullable*();
@@ -156,58 +148,58 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*();
 
-  /// @brief Method CompareTo, addr 0x41605b0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x41c18c4, size 0x174, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Data::SqlTypes::SqlDateTime value);
 
-  /// @brief Method CompareTo, addr 0x41604a4, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x41c17b8, size 0x10c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method Equals, addr 0x4160724, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x41c1a38, size 0x14c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method FromDateTime, addr 0x415f918, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromDateTime, addr 0x41c0c2c, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlDateTime FromDateTime(::System::DateTime value);
 
-  /// @brief Method FromTimeSpan, addr 0x415fc84, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method FromTimeSpan, addr 0x41c0f98, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlDateTime FromTimeSpan(::System::TimeSpan value);
 
-  /// @brief Method GetHashCode, addr 0x4160870, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x41c1b84, size 0xb8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetXsdType, addr 0x4160c8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x41c1fa0, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method GreaterThan, addr 0x4160420, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GreaterThan, addr 0x41c1734, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean GreaterThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method LessThan, addr 0x416039c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x41c16b0, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean LessThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x4160928, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x41c1c3c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x4160930, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x41c1c44, size 0x200, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x4160b30, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x41c1e44, size 0x15c, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method ToDateTime, addr 0x415fbdc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x41c0ef0, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::System::Data::SqlTypes::SqlDateTime value);
 
-  /// @brief Method ToString, addr 0x415ffd8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41c12ec, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTimeSpan, addr 0x415fb34, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x41c0e48, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::TimeSpan ToTimeSpan(::System::Data::SqlTypes::SqlDateTime value);
 
-  /// @brief Method .ctor, addr 0x415f9fc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c0d10, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(int32_t dayTicks, int32_t timeTicks);
 
-  /// @brief Method .ctor, addr 0x415f8a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c0bb4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool fNull);
 
-  /// @brief Method .ctor, addr 0x415f8ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c0bc0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime value);
 
   static inline ::System::Data::SqlTypes::SqlDateTime getStaticF_MaxValue();
@@ -262,16 +254,16 @@ public:
 
   static inline int64_t getStaticF_s_ticksPerSecond();
 
-  /// @brief Method get_DayTicks, addr 0x415ff18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_DayTicks, addr 0x41c122c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_DayTicks();
 
-  /// @brief Method get_IsNull, addr 0x415fb24, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x41c0e38, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_TimeTicks, addr 0x415ff60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_TimeTicks, addr 0x41c1274, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_TimeTicks();
 
-  /// @brief Method get_Value, addr 0x415fe80, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x41c1194, size 0x98, virtual false, abstract: false, final false
   inline ::System::DateTime get_Value();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"
@@ -283,16 +275,16 @@ public:
   /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
   constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable();
 
-  /// @brief Method op_Equality, addr 0x41600a4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x41c13b8, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_Equality(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method op_GreaterThan, addr 0x416029c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x41c15b0, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_GreaterThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method op_Implicit, addr 0x415ffa8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x41c12bc, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlDateTime op_Implicit___System__Data__SqlTypes__SqlDateTime(::System::DateTime value);
 
-  /// @brief Method op_LessThan, addr 0x416019c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x41c14b0, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_LessThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
   static inline void setStaticF_MaxValue(::System::Data::SqlTypes::SqlDateTime value);
@@ -355,6 +347,12 @@ public:
   // ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SqlDateTime(bool m_fNotNull, int32_t m_day, int32_t m_time) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11498 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field m_fNotNull, offset: 0x0, size: 0x1, def value: None
   bool m_fNotNull;
 
@@ -364,22 +362,16 @@ public:
   /// @brief Field m_time, offset: 0x8, size: 0x4, def value: None
   int32_t m_time;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11465 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::SqlDateTime, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::SqlTypes::SqlDateTime, m_fNotNull) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::SqlTypes::SqlDateTime, m_day) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::SqlTypes::SqlDateTime, m_time) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::SqlDateTime, 0xc>, "Size mismatch!");
 
 } // namespace System::Data::SqlTypes
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SqlDateTime, "System.Data.SqlTypes", "SqlDateTime");

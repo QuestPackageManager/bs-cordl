@@ -14,37 +14,35 @@ class CreditsScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CreditsScenesTransitionSetupDataSO);
-// Type: ::CreditsScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CreditsScenesTransitionSetupDataSO*
+// CS Name: CreditsScenesTransitionSetupDataSO
 class CORDL_TYPE CreditsScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
   /// @brief Field didFinishEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x3ada4a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3b3a410, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
   static inline ::GlobalNamespace::CreditsScenesTransitionSetupDataSO* New_ctor();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>*> const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
 
-  /// @brief Method .ctor, addr 0x3ada4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3a430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3ada340, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
+  /// @brief Method add_didFinishEvent, addr 0x3b3a2b0, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3ada3f0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
+  /// @brief Method remove_didFinishEvent, addr 0x3b3a360, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
 
 protected:
   // Ctor Parameters []
@@ -60,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CreditsScenesTransitionSetupDataSO(CreditsScenesTransitionSetupDataSO const&) = delete;
 
-  /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* ___didFinishEvent;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5252 };
+
+  /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
+  ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreditsScenesTransitionSetupDataSO, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CreditsScenesTransitionSetupDataSO, ___didFinishEvent) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreditsScenesTransitionSetupDataSO, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreditsScenesTransitionSetupDataSO);

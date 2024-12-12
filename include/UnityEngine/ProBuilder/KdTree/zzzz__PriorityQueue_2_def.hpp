@@ -4,12 +4,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PriorityQueue_2)
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
 }
@@ -22,13 +19,12 @@ template <typename TItem, typename TPriority> class PriorityQueue_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2);
-// Type: UnityEngine.ProBuilder.KdTree::PriorityQueue`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ProBuilder.KdTree.IPriorityQueue`2<TItem, TPriority>
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.KdTree::PriorityQueue`2<TItem,TPriority>*
+// CS Name: UnityEngine.ProBuilder.KdTree.PriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE PriorityQueue_2 : public ::System::Object {
 public:
   // Declarations
@@ -80,9 +76,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*& __cordl_internal_get_priorityMath();
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* const& __cordl_internal_get_priorityMath() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*> const& __cordl_internal_get_priorityMath() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*& __cordl_internal_get_priorityMath();
 
   constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> const&
   __cordl_internal_get_queue() const;
@@ -121,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PriorityQueue_2(PriorityQueue_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18549 };
+
   /// @brief Field priorityMath, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* ___priorityMath;
 
@@ -132,9 +131,6 @@ public:
 
   /// @brief Field count, offset: 0x24, size: 0x4, def value: None
   int32_t ___count;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

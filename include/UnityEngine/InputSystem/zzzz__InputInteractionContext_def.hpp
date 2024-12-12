@@ -8,28 +8,27 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(InputInteractionContext)
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-struct __InputInteractionContext__Flags;
+struct InputInteractionContext_Flags;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::InputSystem::__InputInteractionContext__Flags);
-// Type: ::Flags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::InputSystem::InputInteractionContext_Flags);
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputInteractionContext::Flags
-struct CORDL_TYPE __InputInteractionContext__Flags {
+// CS Name: UnityEngine.InputSystem.InputInteractionContext/Flags
+struct CORDL_TYPE InputInteractionContext_Flags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____InputInteractionContext__Flags_Unwrapped
-  enum struct ____InputInteractionContext__Flags_Unwrapped : int32_t {
+  /// @brief Nested struct __InputInteractionContext_Flags_Unwrapped
+  enum struct __InputInteractionContext_Flags_Unwrapped : int32_t {
     __E_TimerHasExpired = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____InputInteractionContext__Flags_Unwrapped() const noexcept {
-    return static_cast<____InputInteractionContext__Flags_Unwrapped>(this->value__);
+  constexpr operator __InputInteractionContext_Flags_Unwrapped() const noexcept {
+    return static_cast<__InputInteractionContext_Flags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -39,29 +38,29 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputInteractionContext__Flags();
+  constexpr InputInteractionContext_Flags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputInteractionContext__Flags(int32_t value__) noexcept;
+  constexpr InputInteractionContext_Flags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field TimerHasExpired value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::__InputInteractionContext__Flags const TimerHasExpired;
+  /// @brief Field TimerHasExpired value: I32(2)
+  static ::UnityEngine::InputSystem::InputInteractionContext_Flags const TimerHasExpired;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6606 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputInteractionContext__Flags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputInteractionContext_Flags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputInteractionContext__Flags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputInteractionContext_Flags, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputInteractionContext__Flags, "UnityEngine.InputSystem", "InputInteractionContext/Flags");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputInteractionContext_Flags, "UnityEngine.InputSystem", "InputInteractionContext/Flags");

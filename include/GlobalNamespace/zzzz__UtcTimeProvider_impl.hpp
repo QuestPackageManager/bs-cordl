@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/UtcTimeProvider.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UtcTimeProvider_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::UtcTimeProvider.GetTimeMs
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::GetTimeMs)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22b5af8;
+  constexpr static std::size_t addrs = 0x22e8de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get(), "GetTimeMs",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::GetTicks)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22a4554;
+  constexpr static std::size_t addrs = 0x22d7840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get(), "GetTicks",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b5b24;
+  constexpr static std::size_t addrs = 0x22e8e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get(), ".ctor",
@@ -43,14 +43,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::BGNet::Core::ITimeProvider"
-constexpr GlobalNamespace::UtcTimeProvider::operator ::BGNet::Core::ITimeProvider*() noexcept {
-  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BGNet::Core::ITimeProvider"
-constexpr ::BGNet::Core::ITimeProvider* GlobalNamespace::UtcTimeProvider::i___BGNet__Core__ITimeProvider() noexcept {
-  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
-}
 inline void GlobalNamespace::UtcTimeProvider::setStaticF__epoch(::System::DateTime value) {
   ::cordl_internals::setStaticField<::System::DateTime, "_epoch", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get>(
       std::forward<::System::DateTime>(value));
@@ -75,13 +67,21 @@ inline int64_t GlobalNamespace::UtcTimeProvider::GetTicks() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::UtcTimeProvider* GlobalNamespace::UtcTimeProvider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UtcTimeProvider*>());
-}
 inline void GlobalNamespace::UtcTimeProvider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::UtcTimeProvider* GlobalNamespace::UtcTimeProvider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UtcTimeProvider*>());
+}
+/// @brief Convert operator to "::BGNet::Core::ITimeProvider"
+constexpr GlobalNamespace::UtcTimeProvider::operator ::BGNet::Core::ITimeProvider*() noexcept {
+  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BGNet::Core::ITimeProvider"
+constexpr ::BGNet::Core::ITimeProvider* GlobalNamespace::UtcTimeProvider::i___BGNet__Core__ITimeProvider() noexcept {
+  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UtcTimeProvider::UtcTimeProvider() {}

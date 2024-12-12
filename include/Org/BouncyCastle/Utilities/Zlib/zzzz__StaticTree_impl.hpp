@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::StaticTree::*)(
     ::ArrayW<int16_t, ::Array<int16_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::StaticTree::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25ad544;
+  constexpr static std::size_t addrs = 0x25e0830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,11 +125,6 @@ inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* Org::BouncyCastle::Util
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Utilities::Zlib::StaticTree*, "static_bl_desc",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>::get>();
 }
-inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* Org::BouncyCastle::Utilities::Zlib::StaticTree::New_ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree,
-                                                                                                                  ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems,
-                                                                                                                  int32_t max_length) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>(static_tree, extra_bits, extra_base, elems, max_length));
-}
 inline void Org::BouncyCastle::Utilities::Zlib::StaticTree::_ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree, ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems,
                                                                   int32_t max_length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,6 +134,11 @@ inline void Org::BouncyCastle::Utilities::Zlib::StaticTree::_ctor(::ArrayW<int16
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, static_tree, extra_bits, extra_base, elems, max_length);
+}
+inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* Org::BouncyCastle::Utilities::Zlib::StaticTree::New_ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree,
+                                                                                                                  ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems,
+                                                                                                                  int32_t max_length) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Zlib::StaticTree*>(static_tree, extra_bits, extra_base, elems, max_length));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::StaticTree::StaticTree() {}

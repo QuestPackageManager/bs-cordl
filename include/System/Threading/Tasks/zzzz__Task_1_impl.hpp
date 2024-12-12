@@ -18,48 +18,49 @@
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template <typename TResult> inline void GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>::setStaticF___9(::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*>::get>(
-      std::forward<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*>(value));
+template <typename TResult> inline void System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>::setStaticF___9(::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>* value) {
+  ::cordl_internals::setStaticField<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*>::get>(
+      std::forward<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*>(value));
 }
-template <typename TResult> inline ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*>::get>();
+template <typename TResult> inline ::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>* System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*>::get>();
 }
-template <typename TResult> inline ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*>());
-}
-template <typename TResult> inline void GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+template <typename TResult> inline void System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TResult>
 inline ::System::Threading::Tasks::Task_1<TResult>*
-GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>::__cctor_b__1_0(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* completed) {
+System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>::__cctor_b__1_0(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* completed) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*>::get(), "<.cctor>b__1_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*>::get(), "<.cctor>b__1_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal_method, completed);
 }
+template <typename TResult> inline ::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>* System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>*>());
+}
 // Ctor Parameters []
-template <typename TResult> constexpr ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>::__Task_1__TaskWhenAnyCast____c() {}
+template <typename TResult> constexpr ::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c<TResult>::TaskWhenAnyCast_Task_1___c() {}
 template <typename TResult>
-inline void System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>::setStaticF_Value(
+inline void System::Threading::Tasks::Task_1_TaskWhenAnyCast<TResult>::setStaticF_Value(
     ::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>*, "Value",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Task_1_TaskWhenAnyCast<TResult>*>::get>(
       std::forward<::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>*>(value));
 }
 template <typename TResult>
 inline ::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>*
-System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>::getStaticF_Value() {
+System::Threading::Tasks::Task_1_TaskWhenAnyCast<TResult>::getStaticF_Value() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>*, "Value",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Task_1_TaskWhenAnyCast<TResult>*>::get>();
 }
 // Ctor Parameters []
-template <typename TResult> constexpr ::System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>::__Task_1__TaskWhenAnyCast() {}
+template <typename TResult> constexpr ::System::Threading::Tasks::Task_1_TaskWhenAnyCast<TResult>::Task_1_TaskWhenAnyCast() {}
 template <typename TResult> constexpr TResult& System::Threading::Tasks::Task_1<TResult>::__cordl_internal_get_m_result() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_result;
@@ -81,17 +82,10 @@ template <typename TResult> inline ::System::Threading::Tasks::TaskFactory_1<TRe
   return ::cordl_internals::getStaticField<::System::Threading::Tasks::TaskFactory_1<TResult>*, "s_defaultFactory",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Task_1<TResult>*>::get>();
 }
-template <typename TResult> inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>());
-}
 template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Task_1<TResult>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TResult>
-inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions options) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(state, options));
 }
 template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -100,19 +94,11 @@ template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCreationOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, options);
 }
-template <typename TResult> inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(TResult result) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(result));
-}
 template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult>::_ctor(TResult result) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Task_1<TResult>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TResult>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
-}
-template <typename TResult>
-inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(bool canceled, TResult result, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                                                                        ::System::Threading::CancellationToken ct) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(canceled, result, creationOptions, ct));
 }
 template <typename TResult>
 inline void System::Threading::Tasks::Task_1<TResult>::_ctor(bool canceled, TResult result, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
@@ -124,22 +110,12 @@ inline void System::Threading::Tasks::Task_1<TResult>::_ctor(bool canceled, TRes
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, canceled, result, creationOptions, ct);
 }
-template <typename TResult>
-inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(function, cancellationToken));
-}
 template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Task_1<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_1<TResult>*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, function, cancellationToken);
-}
-template <typename TResult>
-inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state,
-                                                                                                        ::System::Threading::CancellationToken cancellationToken,
-                                                                                                        ::System::Threading::Tasks::TaskCreationOptions creationOptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(function, state, cancellationToken, creationOptions));
 }
 template <typename TResult>
 inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state, ::System::Threading::CancellationToken cancellationToken,
@@ -151,13 +127,6 @@ inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Func_2<::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCreationOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, function, state, cancellationToken, creationOptions);
-}
-template <typename TResult>
-inline ::System::Threading::Tasks::Task_1<TResult>*
-System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_1<TResult>* valueSelector, ::System::Threading::Tasks::Task* parent, ::System::Threading::CancellationToken cancellationToken,
-                                                    ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::InternalTaskOptions internalOptions,
-                                                    ::System::Threading::Tasks::TaskScheduler* scheduler) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(valueSelector, parent, cancellationToken, creationOptions, internalOptions, scheduler));
 }
 template <typename TResult>
 inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Func_1<TResult>* valueSelector, ::System::Threading::Tasks::Task* parent,
@@ -172,13 +141,6 @@ inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Func_1<TR
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::InternalTaskOptions>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, valueSelector, parent, cancellationToken, creationOptions, internalOptions, scheduler);
-}
-template <typename TResult>
-inline ::System::Threading::Tasks::Task_1<TResult>*
-System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Delegate* valueSelector, ::System::Object* state, ::System::Threading::Tasks::Task* parent,
-                                                    ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                    ::System::Threading::Tasks::InternalTaskOptions internalOptions, ::System::Threading::Tasks::TaskScheduler* scheduler) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(valueSelector, state, parent, cancellationToken, creationOptions, internalOptions, scheduler));
 }
 template <typename TResult>
 inline void System::Threading::Tasks::Task_1<TResult>::_ctor(::System::Delegate* valueSelector, ::System::Object* state, ::System::Threading::Tasks::Task* parent,
@@ -357,6 +319,45 @@ System::Threading::Tasks::Task_1<TResult>::ContinueWith(::System::Func_2<::Syste
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TNewResult>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TNewResult>*, false>(this, ___internal_method, continuationFunction, scheduler, cancellationToken, continuationOptions);
+}
+template <typename TResult> inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>());
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions options) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(state, options));
+}
+template <typename TResult> inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(TResult result) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(result));
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(bool canceled, TResult result, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
+                                                                                                        ::System::Threading::CancellationToken ct) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(canceled, result, creationOptions, ct));
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(function, cancellationToken));
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state,
+                                                                                                        ::System::Threading::CancellationToken cancellationToken,
+                                                                                                        ::System::Threading::Tasks::TaskCreationOptions creationOptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(function, state, cancellationToken, creationOptions));
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>*
+System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Func_1<TResult>* valueSelector, ::System::Threading::Tasks::Task* parent, ::System::Threading::CancellationToken cancellationToken,
+                                                    ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::InternalTaskOptions internalOptions,
+                                                    ::System::Threading::Tasks::TaskScheduler* scheduler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(valueSelector, parent, cancellationToken, creationOptions, internalOptions, scheduler));
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>*
+System::Threading::Tasks::Task_1<TResult>::New_ctor(::System::Delegate* valueSelector, ::System::Object* state, ::System::Threading::Tasks::Task* parent,
+                                                    ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
+                                                    ::System::Threading::Tasks::InternalTaskOptions internalOptions, ::System::Threading::Tasks::TaskScheduler* scheduler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::Task_1<TResult>*>(valueSelector, state, parent, cancellationToken, creationOptions, internalOptions, scheduler));
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::Task_1<TResult>::Task_1() {}

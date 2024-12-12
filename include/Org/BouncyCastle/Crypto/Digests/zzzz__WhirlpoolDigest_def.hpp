@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WhirlpoolDigest)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -20,45 +18,44 @@ class WhirlpoolDigest;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest);
-// Type: Org.BouncyCastle.Crypto.Digests::WhirlpoolDigest
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IDigest, Org.BouncyCastle.Utilities.IMemoable, System.Object
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Digests::WhirlpoolDigest*
+// CS Name: Org.BouncyCastle.Crypto.Digests.WhirlpoolDigest
 class CORDL_TYPE WhirlpoolDigest : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field C0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C0, put = setStaticF_C0)) ::ArrayW<int64_t, ::Array<int64_t>*> C0;
+  __declspec(property(get = getStaticF_C0, put = setStaticF_C0)) ::ArrayW<int64_t, ::Array<int64_t>*> C0;
 
   /// @brief Field C1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C1, put = setStaticF_C1)) ::ArrayW<int64_t, ::Array<int64_t>*> C1;
+  __declspec(property(get = getStaticF_C1, put = setStaticF_C1)) ::ArrayW<int64_t, ::Array<int64_t>*> C1;
 
   /// @brief Field C2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C2, put = setStaticF_C2)) ::ArrayW<int64_t, ::Array<int64_t>*> C2;
+  __declspec(property(get = getStaticF_C2, put = setStaticF_C2)) ::ArrayW<int64_t, ::Array<int64_t>*> C2;
 
   /// @brief Field C3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C3, put = setStaticF_C3)) ::ArrayW<int64_t, ::Array<int64_t>*> C3;
+  __declspec(property(get = getStaticF_C3, put = setStaticF_C3)) ::ArrayW<int64_t, ::Array<int64_t>*> C3;
 
   /// @brief Field C4, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C4, put = setStaticF_C4)) ::ArrayW<int64_t, ::Array<int64_t>*> C4;
+  __declspec(property(get = getStaticF_C4, put = setStaticF_C4)) ::ArrayW<int64_t, ::Array<int64_t>*> C4;
 
   /// @brief Field C5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C5, put = setStaticF_C5)) ::ArrayW<int64_t, ::Array<int64_t>*> C5;
+  __declspec(property(get = getStaticF_C5, put = setStaticF_C5)) ::ArrayW<int64_t, ::Array<int64_t>*> C5;
 
   /// @brief Field C6, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C6, put = setStaticF_C6)) ::ArrayW<int64_t, ::Array<int64_t>*> C6;
+  __declspec(property(get = getStaticF_C6, put = setStaticF_C6)) ::ArrayW<int64_t, ::Array<int64_t>*> C6;
 
   /// @brief Field C7, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C7, put = setStaticF_C7)) ::ArrayW<int64_t, ::Array<int64_t>*> C7;
+  __declspec(property(get = getStaticF_C7, put = setStaticF_C7)) ::ArrayW<int64_t, ::Array<int64_t>*> C7;
 
   /// @brief Field EIGHT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EIGHT, put = setStaticF_EIGHT)) ::ArrayW<int16_t, ::Array<int16_t>*> EIGHT;
+  __declspec(property(get = getStaticF_EIGHT, put = setStaticF_EIGHT)) ::ArrayW<int16_t, ::Array<int16_t>*> EIGHT;
 
   /// @brief Field SBOX, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SBOX, put = setStaticF_SBOX)) ::ArrayW<int32_t, ::Array<int32_t>*> SBOX;
+  __declspec(property(get = getStaticF_SBOX, put = setStaticF_SBOX)) ::ArrayW<int32_t, ::Array<int32_t>*> SBOX;
 
   /// @brief Field _K, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__K, put = __cordl_internal_set__K)) ::ArrayW<int64_t, ::Array<int64_t>*> _K;
@@ -93,32 +90,32 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x2303a98, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x2336d84, size 0x6c, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Copy, addr 0x2303bb4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x2336ea0, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x2302e40, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x233612c, size 0xc4, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetByteLength, addr 0x2303bac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x2336e98, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x2302e38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x2336124, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* originalDigest);
 
-  /// @brief Method Reset, addr 0x2303030, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x233631c, size 0xbc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x2302c90, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2335f7c, size 0x168, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Update, addr 0x2303950, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2336c3c, size 0x64, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__K() const;
@@ -175,22 +172,22 @@ public:
 
   constexpr void __cordl_internal_set__state(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23028d0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2335bbc, size 0x2b0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2302b80, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2335e6c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* originalDigest);
 
-  /// @brief Method bytesToLongFromBuffer, addr 0x23031cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method bytesToLongFromBuffer, addr 0x23364b8, size 0xd4, virtual false, abstract: false, final false
   static inline int64_t bytesToLongFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t startPos);
 
-  /// @brief Method convertLongToByteArray, addr 0x2302fdc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method convertLongToByteArray, addr 0x23362c8, size 0x54, virtual false, abstract: false, final false
   static inline void convertLongToByteArray(int64_t inputLong, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputArray, int32_t offSet);
 
-  /// @brief Method copyBitLength, addr 0x2303b04, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method copyBitLength, addr 0x2336df0, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> copyBitLength();
 
-  /// @brief Method finish, addr 0x2302f04, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method finish, addr 0x23361f0, size 0xd8, virtual false, abstract: false, final false
   inline void finish();
 
   static inline ::ArrayW<int64_t, ::Array<int64_t>*> getStaticF_C0();
@@ -213,7 +210,7 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_SBOX();
 
-  /// @brief Method get_AlgorithmName, addr 0x2302df8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x23360e4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
@@ -222,19 +219,19 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  /// @brief Method increment, addr 0x23039b4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method increment, addr 0x2336ca0, size 0xe4, virtual false, abstract: false, final false
   inline void increment();
 
-  /// @brief Method maskWithReductionPolynomial, addr 0x2302888, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method maskWithReductionPolynomial, addr 0x2335b74, size 0x14, virtual false, abstract: false, final false
   static inline int32_t maskWithReductionPolynomial(int32_t input);
 
-  /// @brief Method packIntoLong, addr 0x230289c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method packIntoLong, addr 0x2335b88, size 0x34, virtual false, abstract: false, final false
   static inline int64_t packIntoLong(int32_t b7, int32_t b6, int32_t b5, int32_t b4, int32_t b3, int32_t b2, int32_t b1, int32_t b0);
 
-  /// @brief Method processBlock, addr 0x23032a0, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method processBlock, addr 0x233658c, size 0x6b0, virtual false, abstract: false, final false
   inline void processBlock();
 
-  /// @brief Method processFilledBuffer, addr 0x23030ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method processFilledBuffer, addr 0x23363d8, size 0xe0, virtual false, abstract: false, final false
   inline void processFilledBuffer();
 
   static inline void setStaticF_C0(::ArrayW<int64_t, ::Array<int64_t>*> value);
@@ -271,6 +268,24 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WhirlpoolDigest(WhirlpoolDigest const&) = delete;
 
+  /// @brief Field BITCOUNT_ARRAY_SIZE offset 0xffffffff size 0x4
+  static constexpr int32_t BITCOUNT_ARRAY_SIZE{ static_cast<int32_t>(0x20) };
+
+  /// @brief Field BYTE_LENGTH offset 0xffffffff size 0x4
+  static constexpr int32_t BYTE_LENGTH{ static_cast<int32_t>(0x40) };
+
+  /// @brief Field DIGEST_LENGTH_BYTES offset 0xffffffff size 0x4
+  static constexpr int32_t DIGEST_LENGTH_BYTES{ static_cast<int32_t>(0x40) };
+
+  /// @brief Field REDUCTION_POLYNOMIAL offset 0xffffffff size 0x4
+  static constexpr int32_t REDUCTION_POLYNOMIAL{ static_cast<int32_t>(0x11d) };
+
+  /// @brief Field ROUNDS offset 0xffffffff size 0x4
+  static constexpr int32_t ROUNDS{ static_cast<int32_t>(0xa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 784 };
+
   /// @brief Field _rc, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int64_t, ::Array<int64_t>*> ____rc;
 
@@ -298,29 +313,9 @@ public:
   /// @brief Field _state, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<int64_t, ::Array<int64_t>*> ____state;
 
-  /// @brief Field BITCOUNT_ARRAY_SIZE offset 0xffffffff size 0x4
-  static constexpr int32_t BITCOUNT_ARRAY_SIZE{ static_cast<int32_t>(0x20) };
-
-  /// @brief Field BYTE_LENGTH offset 0xffffffff size 0x4
-  static constexpr int32_t BYTE_LENGTH{ static_cast<int32_t>(0x40) };
-
-  /// @brief Field DIGEST_LENGTH_BYTES offset 0xffffffff size 0x4
-  static constexpr int32_t DIGEST_LENGTH_BYTES{ static_cast<int32_t>(0x40) };
-
-  /// @brief Field REDUCTION_POLYNOMIAL offset 0xffffffff size 0x4
-  static constexpr int32_t REDUCTION_POLYNOMIAL{ static_cast<int32_t>(0x11d) };
-
-  /// @brief Field ROUNDS offset 0xffffffff size 0x4
-  static constexpr int32_t ROUNDS{ static_cast<int32_t>(0xa) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 784 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____rc) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____buffer) == 0x18, "Offset mismatch!");
@@ -338,6 +333,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, __
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____block) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____state) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, 0x58>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest);

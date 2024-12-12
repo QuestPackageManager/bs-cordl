@@ -24,11 +24,10 @@ class XRLoaderHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoaderHelper);
-// Type: UnityEngine.XR.Management::XRLoaderHelper
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.XR.Management.XRLoader
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// CS Name: ::UnityEngine.XR.Management::XRLoaderHelper*
+// CS Name: UnityEngine.XR.Management.XRLoaderHelper
 class CORDL_TYPE XRLoaderHelper : public ::UnityEngine::XR::Management::XRLoader {
 public:
   // Declarations
@@ -45,7 +44,7 @@ public:
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method Deinitialize, addr 0x47cf0f0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x4830404, size 0x58, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -62,13 +61,13 @@ public:
   /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StopSubsystem();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*& __cordl_internal_get_m_SubsystemInstanceMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* const& __cordl_internal_get_m_SubsystemInstanceMap() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*> const& __cordl_internal_get_m_SubsystemInstanceMap() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*& __cordl_internal_get_m_SubsystemInstanceMap();
 
   constexpr void __cordl_internal_set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
 
-  /// @brief Method .ctor, addr 0x47cf148, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483045c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,18 +84,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRLoaderHelper(XRLoaderHelper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18679 };
+
   /// @brief Field m_SubsystemInstanceMap, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* ___m_SubsystemInstanceMap;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::XRLoaderHelper, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::XR::Management::XRLoaderHelper, ___m_SubsystemInstanceMap) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::XRLoaderHelper, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::XR::Management
 NEED_NO_BOX(::UnityEngine::XR::Management::XRLoaderHelper);

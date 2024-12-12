@@ -5,140 +5,140 @@
 #include "System/Xml/Serialization/zzzz__EnumMap_def.hpp"
 #include "System/Xml/Serialization/zzzz__EnumMap_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Xml::Serialization::__EnumMap__EnumMapMember._ctor
+//  Writing Method size for method: ::System::Xml::Serialization::EnumMap_EnumMapMember._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::__EnumMap__EnumMapMember::*)(::StringW, ::StringW, int64_t)>(
-    &::System::Xml::Serialization::__EnumMap__EnumMapMember::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::EnumMap_EnumMapMember::*)(::StringW, ::StringW, int64_t)>(
+    &::System::Xml::Serialization::EnumMap_EnumMapMember::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4330e74;
+  constexpr static std::size_t addrs = 0x4392188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Serialization::__EnumMap__EnumMapMember.get_XmlName
+//  Writing Method size for method: ::System::Xml::Serialization::EnumMap_EnumMapMember.get_XmlName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::__EnumMap__EnumMapMember::*)()>(
-    &::System::Xml::Serialization::__EnumMap__EnumMapMember::get_XmlName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::EnumMap_EnumMapMember::*)()>(
+    &::System::Xml::Serialization::EnumMap_EnumMapMember::get_XmlName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330eb0;
+  constexpr static std::size_t addrs = 0x43921c4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(),
                                                                                "get_XmlName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Serialization::__EnumMap__EnumMapMember.get_EnumName
+//  Writing Method size for method: ::System::Xml::Serialization::EnumMap_EnumMapMember.get_EnumName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::__EnumMap__EnumMapMember::*)()>(
-    &::System::Xml::Serialization::__EnumMap__EnumMapMember::get_EnumName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::EnumMap_EnumMapMember::*)()>(
+    &::System::Xml::Serialization::EnumMap_EnumMapMember::get_EnumName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330eb8;
+  constexpr static std::size_t addrs = 0x43921cc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(),
                                                                                "get_EnumName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Serialization::__EnumMap__EnumMapMember.get_Value
+//  Writing Method size for method: ::System::Xml::Serialization::EnumMap_EnumMapMember.get_Value
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Serialization::__EnumMap__EnumMapMember::*)()>(
-    &::System::Xml::Serialization::__EnumMap__EnumMapMember::get_Value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Serialization::EnumMap_EnumMapMember::*)()>(
+    &::System::Xml::Serialization::EnumMap_EnumMapMember::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330ec0;
+  constexpr static std::size_t addrs = 0x43921d4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(),
                                                                                "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_get__xmlName() {
+constexpr ::StringW& System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_get__xmlName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlName;
 }
-constexpr ::StringW const& System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_get__xmlName() const {
+constexpr ::StringW const& System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_get__xmlName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlName;
 }
-constexpr void System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_set__xmlName(::StringW value) {
+constexpr void System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_set__xmlName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xmlName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_get__enumName() {
+constexpr ::StringW& System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_get__enumName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enumName;
 }
-constexpr ::StringW const& System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_get__enumName() const {
+constexpr ::StringW const& System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_get__enumName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enumName;
 }
-constexpr void System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_set__enumName(::StringW value) {
+constexpr void System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_set__enumName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enumName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int64_t& System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_get__value() {
+constexpr int64_t& System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr int64_t const& System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_get__value() const {
+constexpr int64_t const& System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_get__value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr void System::Xml::Serialization::__EnumMap__EnumMapMember::__cordl_internal_set__value(int64_t value) {
+constexpr void System::Xml::Serialization::EnumMap_EnumMapMember::__cordl_internal_set__value(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____value = value;
 }
-inline ::System::Xml::Serialization::__EnumMap__EnumMapMember* System::Xml::Serialization::__EnumMap__EnumMapMember::New_ctor(::StringW xmlName, ::StringW enumName, int64_t value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::__EnumMap__EnumMapMember*>(xmlName, enumName, value));
-}
-inline void System::Xml::Serialization::__EnumMap__EnumMapMember::_ctor(::StringW xmlName, ::StringW enumName, int64_t value) {
+inline void System::Xml::Serialization::EnumMap_EnumMapMember::_ctor(::StringW xmlName, ::StringW enumName, int64_t value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlName, enumName, value);
 }
-inline ::StringW System::Xml::Serialization::__EnumMap__EnumMapMember::get_XmlName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(),
+inline ::StringW System::Xml::Serialization::EnumMap_EnumMapMember::get_XmlName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(),
                                                                              "get_XmlName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::Serialization::__EnumMap__EnumMapMember::get_EnumName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(),
+inline ::StringW System::Xml::Serialization::EnumMap_EnumMapMember::get_EnumName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(),
                                                                              "get_EnumName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline int64_t System::Xml::Serialization::__EnumMap__EnumMapMember::get_Value() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__EnumMap__EnumMapMember*>::get(),
+inline int64_t System::Xml::Serialization::EnumMap_EnumMapMember::get_Value() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap_EnumMapMember*>::get(),
                                                                              "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
+inline ::System::Xml::Serialization::EnumMap_EnumMapMember* System::Xml::Serialization::EnumMap_EnumMapMember::New_ctor(::StringW xmlName, ::StringW enumName, int64_t value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::EnumMap_EnumMapMember*>(xmlName, enumName, value));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Serialization::__EnumMap__EnumMapMember::__EnumMap__EnumMapMember() {}
+constexpr ::System::Xml::Serialization::EnumMap_EnumMapMember::EnumMap_EnumMapMember() {}
 //  Writing Method size for method: ::System::Xml::Serialization::EnumMap._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::EnumMap::*)(
-    ::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*>, bool)>(&::System::Xml::Serialization::EnumMap::_ctor)> {
+    ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>, bool)>(&::System::Xml::Serialization::EnumMap::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4330a28;
+  constexpr static std::size_t addrs = 0x4391d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                ::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*>>::get(),
+                                                ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Serialization::EnumMap::*)()>(&::System::Xml::Serialization::EnumMap::get_IsFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330b78;
+  constexpr static std::size_t addrs = 0x4391e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap*>::get(), "get_IsFlags",
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Xml::Serialization::EnumMap::*)()>(
     &::System::Xml::Serialization::EnumMap::get_EnumNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330b80;
+  constexpr static std::size_t addrs = 0x4391e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap*>::get(), "get_EnumNames",
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Xml::Serialization::EnumMap::*)()>(
     &::System::Xml::Serialization::EnumMap::get_XmlNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330b88;
+  constexpr static std::size_t addrs = 0x4391e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap*>::get(), "get_XmlNames",
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int64_t, ::Array<int64_t>*> (::System::Xml::Serialization::EnumMap::*)()>(
     &::System::Xml::Serialization::EnumMap::get_Values)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330b90;
+  constexpr static std::size_t addrs = 0x4391ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap*>::get(), "get_Values",
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::EnumMap::*)(::StringW, ::System::Object*)>(
     &::System::Xml::Serialization::EnumMap::GetXmlName)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x432ad98;
+  constexpr static std::size_t addrs = 0x438c0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::EnumMap::*)(::StringW, ::StringW)>(
     &::System::Xml::Serialization::EnumMap::GetEnumName)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x4330b98;
+  constexpr static std::size_t addrs = 0x4391eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,18 +229,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*>&
+constexpr ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>&
 System::Xml::Serialization::EnumMap::__cordl_internal_get__members() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____members;
 }
-constexpr ::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*> const&
+constexpr ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> const&
 System::Xml::Serialization::EnumMap::__cordl_internal_get__members() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____members;
 }
 constexpr void System::Xml::Serialization::EnumMap::__cordl_internal_set__members(
-    ::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*> value) {
+    ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____members)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -292,18 +292,13 @@ constexpr void System::Xml::Serialization::EnumMap::__cordl_internal_set__values
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Serialization::EnumMap*
-System::Xml::Serialization::EnumMap::New_ctor(::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*> members,
-                                              bool isFlags) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::EnumMap*>(members, isFlags));
-}
-inline void System::Xml::Serialization::EnumMap::_ctor(::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*> members,
+inline void System::Xml::Serialization::EnumMap::_ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> members,
                                                        bool isFlags) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                              ::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, members, isFlags);
 }
 inline bool System::Xml::Serialization::EnumMap::get_IsFlags() {
@@ -337,6 +332,10 @@ inline ::StringW System::Xml::Serialization::EnumMap::GetEnumName(::StringW type
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::EnumMap*>::get(), "GetEnumName", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, typeName, xmlName);
+}
+inline ::System::Xml::Serialization::EnumMap*
+System::Xml::Serialization::EnumMap::New_ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> members, bool isFlags) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::EnumMap*>(members, isFlags));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::EnumMap::EnumMap() {}

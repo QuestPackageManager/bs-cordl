@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(NamespaceListNode)
 namespace System::Collections {
 class ICollection;
@@ -33,11 +32,10 @@ class NamespaceListNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::NamespaceListNode);
-// Type: System.Xml.Schema::NamespaceListNode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.SyntaxTreeNode
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::NamespaceListNode*
+// CS Name: System.Xml.Schema.NamespaceListNode
 class CORDL_TYPE NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
   // Declarations
@@ -49,34 +47,34 @@ public:
   /// @brief Field particle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_particle, put = __cordl_internal_set_particle)) ::System::Object* particle;
 
-  /// @brief Method ConstructPos, addr 0x433976c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x439aa80, size 0x38, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x43392f0, size 0x474, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x439a604, size 0x474, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method GetResolvedSymbols, addr 0x43392d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetResolvedSymbols, addr 0x439a5e4, size 0x20, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* GetResolvedSymbols(::System::Xml::Schema::SymbolsDictionary* symbols);
 
   static inline ::System::Xml::Schema::NamespaceListNode* New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
 
+  constexpr ::System::Xml::Schema::NamespaceList* const& __cordl_internal_get_namespaceList() const;
+
   constexpr ::System::Xml::Schema::NamespaceList*& __cordl_internal_get_namespaceList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& __cordl_internal_get_namespaceList() const;
+  constexpr ::System::Object* const& __cordl_internal_get_particle() const;
 
   constexpr ::System::Object*& __cordl_internal_get_particle();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particle() const;
 
   constexpr void __cordl_internal_set_namespaceList(::System::Xml::Schema::NamespaceList* value);
 
   constexpr void __cordl_internal_set_particle(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x43392a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439a5b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
 
-  /// @brief Method get_IsNullable, addr 0x43397a4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x439aab8, size 0x38, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -93,23 +91,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NamespaceListNode(NamespaceListNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7496 };
+
   /// @brief Field namespaceList, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::NamespaceList* ___namespaceList;
 
   /// @brief Field particle, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___particle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7471 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::NamespaceListNode, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::NamespaceListNode, ___namespaceList) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::NamespaceListNode, ___particle) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::NamespaceListNode, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::NamespaceListNode);

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileSystemName)
 namespace System {
@@ -16,30 +15,29 @@ class FileSystemName;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::Enumeration::FileSystemName);
-// Type: System.IO.Enumeration::FileSystemName
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::IO::Enumeration {
 // Is value type: false
-// CS Name: ::System.IO.Enumeration::FileSystemName*
+// CS Name: System.IO.Enumeration.FileSystemName
 class CORDL_TYPE FileSystemName : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_simpleWildcardChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_simpleWildcardChars, put = setStaticF_s_simpleWildcardChars)) ::ArrayW<char16_t, ::Array<char16_t>*> s_simpleWildcardChars;
+  __declspec(property(get = getStaticF_s_simpleWildcardChars, put = setStaticF_s_simpleWildcardChars)) ::ArrayW<char16_t, ::Array<char16_t>*> s_simpleWildcardChars;
 
   /// @brief Field s_wildcardChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_wildcardChars, put = setStaticF_s_wildcardChars)) ::ArrayW<char16_t, ::Array<char16_t>*> s_wildcardChars;
+  __declspec(property(get = getStaticF_s_wildcardChars, put = setStaticF_s_wildcardChars)) ::ArrayW<char16_t, ::Array<char16_t>*> s_wildcardChars;
 
-  /// @brief Method MatchPattern, addr 0x3d25410, size 0x738, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x3d85584, size 0x738, virtual false, abstract: false, final false
   static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);
 
-  /// @brief Method MatchesSimpleExpression, addr 0x3d242d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MatchesSimpleExpression, addr 0x3d8444c, size 0x88, virtual false, abstract: false, final false
   static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method MatchesWin32Expression, addr 0x3d24360, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MatchesWin32Expression, addr 0x3d844d4, size 0x88, virtual false, abstract: false, final false
   static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method TranslateWin32Expression, addr 0x3d23d38, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method TranslateWin32Expression, addr 0x3d83eac, size 0x378, virtual false, abstract: false, final false
   static inline ::StringW TranslateWin32Expression(::StringW expression);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_simpleWildcardChars();

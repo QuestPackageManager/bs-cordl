@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedList_2)
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
-}
-namespace GlobalNamespace {
-template <typename T> class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
@@ -24,13 +22,12 @@ template <typename T, typename TBase> class SortedList_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SortedList_2);
-// Type: ::SortedList`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ISortedList`1<T>, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TBase>
 // Is value type: false
-// CS Name: ::SortedList`2<T,TBase>*
+// CS Name: SortedList`2<T,TBase>
 class CORDL_TYPE SortedList_2 : public ::System::Object {
 public:
   // Declarations
@@ -68,17 +65,17 @@ public:
   /// @brief Method TouchLastUsedNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* node);
 
+  constexpr ::System::Collections::Generic::LinkedList_1<TBase>* const& __cordl_internal_get__items() const;
+
   constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& __cordl_internal_get__items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<TBase>*> const& __cordl_internal_get__items() const;
+  constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>* const& __cordl_internal_get__lastUsedNode() const;
 
   constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& __cordl_internal_get__lastUsedNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<TBase>*> const& __cordl_internal_get__lastUsedNode() const;
+  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>* const& __cordl_internal_get__sortedListDataProcessor() const;
 
   constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& __cordl_internal_get__sortedListDataProcessor();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedListItemProcessor_1<TBase>*> const& __cordl_internal_get__sortedListDataProcessor() const;
 
   constexpr void __cordl_internal_set__items(::System::Collections::Generic::LinkedList_1<TBase>* value);
 
@@ -112,6 +109,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SortedList_2(SortedList_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17092 };
+
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<TBase>* ____items;
 
@@ -120,9 +120,6 @@ public:
 
   /// @brief Field _lastUsedNode, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<TBase>* ____lastUsedNode;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

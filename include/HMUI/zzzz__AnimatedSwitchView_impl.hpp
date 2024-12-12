@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "HMUI/AnimatedSwitchView.hpp"
-#include "HMUI/zzzz__AnimatedSwitchView_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -16,417 +15,406 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView__ColorBlock._ctor
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView_ColorBlock._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AnimatedSwitchView__ColorBlock::*)()>(&::HMUI::__AnimatedSwitchView__ColorBlock::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView_ColorBlock::*)()>(&::HMUI::AnimatedSwitchView_ColorBlock::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2259d3c;
+  constexpr static std::size_t addrs = 0x228c42c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__ColorBlock*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_ColorBlock*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_knobColor() {
+constexpr ::UnityEngine::Color& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_knobColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor;
 }
-constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_knobColor() const {
+constexpr ::UnityEngine::Color const& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_knobColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor;
 }
-constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_set_knobColor(::UnityEngine::Color value) {
+constexpr void HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_set_knobColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___knobColor = value;
 }
-constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_knobColor0() {
+constexpr ::UnityEngine::Color& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_knobColor0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor0;
 }
-constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_knobColor0() const {
+constexpr ::UnityEngine::Color const& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_knobColor0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor0;
 }
-constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_set_knobColor0(::UnityEngine::Color value) {
+constexpr void HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_set_knobColor0(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___knobColor0 = value;
 }
-constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_knobColor1() {
+constexpr ::UnityEngine::Color& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_knobColor1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor1;
 }
-constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_knobColor1() const {
+constexpr ::UnityEngine::Color const& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_knobColor1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor1;
 }
-constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_set_knobColor1(::UnityEngine::Color value) {
+constexpr void HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_set_knobColor1(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___knobColor1 = value;
 }
-constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_backgroundColor() {
+constexpr ::UnityEngine::Color& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_backgroundColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor;
 }
-constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_backgroundColor() const {
+constexpr ::UnityEngine::Color const& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_backgroundColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor;
 }
-constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_set_backgroundColor(::UnityEngine::Color value) {
+constexpr void HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_set_backgroundColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___backgroundColor = value;
 }
-constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_backgroundColor0() {
+constexpr ::UnityEngine::Color& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_backgroundColor0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor0;
 }
-constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_backgroundColor0() const {
+constexpr ::UnityEngine::Color const& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_backgroundColor0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor0;
 }
-constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_set_backgroundColor0(::UnityEngine::Color value) {
+constexpr void HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_set_backgroundColor0(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___backgroundColor0 = value;
 }
-constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_backgroundColor1() {
+constexpr ::UnityEngine::Color& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_backgroundColor1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor1;
 }
-constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_get_backgroundColor1() const {
+constexpr ::UnityEngine::Color const& HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_get_backgroundColor1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor1;
 }
-constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__cordl_internal_set_backgroundColor1(::UnityEngine::Color value) {
+constexpr void HMUI::AnimatedSwitchView_ColorBlock::__cordl_internal_set_backgroundColor1(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___backgroundColor1 = value;
 }
-inline ::HMUI::__AnimatedSwitchView__ColorBlock* HMUI::__AnimatedSwitchView__ColorBlock::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__AnimatedSwitchView__ColorBlock*>());
-}
-inline void HMUI::__AnimatedSwitchView__ColorBlock::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__ColorBlock*>::get(), ".ctor",
+inline void HMUI::AnimatedSwitchView_ColorBlock::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_ColorBlock*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::HMUI::AnimatedSwitchView_ColorBlock* HMUI::AnimatedSwitchView_ColorBlock::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::AnimatedSwitchView_ColorBlock*>());
+}
 // Ctor Parameters []
-constexpr ::HMUI::__AnimatedSwitchView__ColorBlock::__AnimatedSwitchView__ColorBlock() {}
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock::AnimatedSwitchView_ColorBlock() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState::__AnimatedSwitchView__AnimationState(int32_t value__) noexcept {
+constexpr ::HMUI::AnimatedSwitchView_AnimationState::AnimatedSwitchView_AnimationState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState::__AnimatedSwitchView__AnimationState() {}
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState HMUI::__AnimatedSwitchView__AnimationState::Idle{ static_cast<int32_t>(0x0) };
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState HMUI::__AnimatedSwitchView__AnimationState::SwitchingOn{ static_cast<int32_t>(0x1) };
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState HMUI::__AnimatedSwitchView__AnimationState::SwitchingOff{ static_cast<int32_t>(0x2) };
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState HMUI::__AnimatedSwitchView__AnimationState::HighlightingOn{ static_cast<int32_t>(0x4) };
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState HMUI::__AnimatedSwitchView__AnimationState::HighlightingOff{ static_cast<int32_t>(0x8) };
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState HMUI::__AnimatedSwitchView__AnimationState::DisablingOn{ static_cast<int32_t>(0x10) };
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState HMUI::__AnimatedSwitchView__AnimationState::DisablingOff{ static_cast<int32_t>(0x20) };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView__GetColorDelegate._ctor
+constexpr ::HMUI::AnimatedSwitchView_AnimationState::AnimatedSwitchView_AnimationState() {}
+constexpr ::HMUI::AnimatedSwitchView_AnimationState HMUI::AnimatedSwitchView_AnimationState::Idle{ static_cast<int32_t>(0x0) };
+constexpr ::HMUI::AnimatedSwitchView_AnimationState HMUI::AnimatedSwitchView_AnimationState::SwitchingOn{ static_cast<int32_t>(0x1) };
+constexpr ::HMUI::AnimatedSwitchView_AnimationState HMUI::AnimatedSwitchView_AnimationState::SwitchingOff{ static_cast<int32_t>(0x2) };
+constexpr ::HMUI::AnimatedSwitchView_AnimationState HMUI::AnimatedSwitchView_AnimationState::HighlightingOn{ static_cast<int32_t>(0x4) };
+constexpr ::HMUI::AnimatedSwitchView_AnimationState HMUI::AnimatedSwitchView_AnimationState::HighlightingOff{ static_cast<int32_t>(0x8) };
+constexpr ::HMUI::AnimatedSwitchView_AnimationState HMUI::AnimatedSwitchView_AnimationState::DisablingOn{ static_cast<int32_t>(0x10) };
+constexpr ::HMUI::AnimatedSwitchView_AnimationState HMUI::AnimatedSwitchView_AnimationState::DisablingOff{ static_cast<int32_t>(0x20) };
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView_GetColorDelegate._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::System::Object*, ::System::IntPtr)>(
-    &::HMUI::__AnimatedSwitchView__GetColorDelegate::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView_GetColorDelegate::*)(::System::Object*, ::System::IntPtr)>(
+    &::HMUI::AnimatedSwitchView_GetColorDelegate::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x22599fc;
+  constexpr static std::size_t addrs = 0x228c0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView__GetColorDelegate.Invoke
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView_GetColorDelegate.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
-    &::HMUI::__AnimatedSwitchView__GetColorDelegate::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView_GetColorDelegate::*)(::HMUI::AnimatedSwitchView_ColorBlock*)>(
+    &::HMUI::AnimatedSwitchView_GetColorDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2259d54;
+  constexpr static std::size_t addrs = 0x228c444;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), 13));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView__GetColorDelegate.BeginInvoke
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView_GetColorDelegate.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IAsyncResult* (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::HMUI::__AnimatedSwitchView__ColorBlock*, ::System::AsyncCallback*, ::System::Object*)>(
-        &::HMUI::__AnimatedSwitchView__GetColorDelegate::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::HMUI::AnimatedSwitchView_GetColorDelegate::*)(::HMUI::AnimatedSwitchView_ColorBlock*, ::System::AsyncCallback*, ::System::Object*)>(&::HMUI::AnimatedSwitchView_GetColorDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2259d68;
+  constexpr static std::size_t addrs = 0x228c458;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), 14));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView__GetColorDelegate.EndInvoke
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView_GetColorDelegate.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::System::IAsyncResult*)>(
-    &::HMUI::__AnimatedSwitchView__GetColorDelegate::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView_GetColorDelegate::*)(::System::IAsyncResult*)>(
+    &::HMUI::AnimatedSwitchView_GetColorDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2259d88;
+  constexpr static std::size_t addrs = 0x228c478;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), 15));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* HMUI::__AnimatedSwitchView__GetColorDelegate::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__AnimatedSwitchView__GetColorDelegate*>(object, method));
-}
-inline void HMUI::__AnimatedSwitchView__GetColorDelegate::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void HMUI::AnimatedSwitchView_GetColorDelegate::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView__GetColorDelegate::Invoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView_GetColorDelegate::Invoke(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), 13)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorBlock);
 }
-inline ::System::IAsyncResult* HMUI::__AnimatedSwitchView__GetColorDelegate::BeginInvoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock, ::System::AsyncCallback* callback,
-                                                                                         ::System::Object* object) {
+inline ::System::IAsyncResult* HMUI::AnimatedSwitchView_GetColorDelegate::BeginInvoke(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), 14)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, colorBlock, callback, object);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView__GetColorDelegate::EndInvoke(::System::IAsyncResult* result) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView_GetColorDelegate::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get(), 15)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, result);
 }
+inline ::HMUI::AnimatedSwitchView_GetColorDelegate* HMUI::AnimatedSwitchView_GetColorDelegate::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::AnimatedSwitchView_GetColorDelegate*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::HMUI::__AnimatedSwitchView__GetColorDelegate::__AnimatedSwitchView__GetColorDelegate() {}
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView____c._ctor
+constexpr ::HMUI::AnimatedSwitchView_GetColorDelegate::AnimatedSwitchView_GetColorDelegate() {}
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AnimatedSwitchView____c::*)()>(&::HMUI::__AnimatedSwitchView____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView___c::*)()>(&::HMUI::AnimatedSwitchView___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2259e10;
+  constexpr static std::size_t addrs = 0x228c500;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView____c._LerpColors_b__31_0
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView___c._LerpColors_b__31_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
-    &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView___c::*)(::HMUI::AnimatedSwitchView_ColorBlock*)>(
+    &::HMUI::AnimatedSwitchView___c::_LerpColors_b__31_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2259e18;
+  constexpr static std::size_t addrs = 0x228c508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_0", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_0", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView____c._LerpColors_b__31_1
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView___c._LerpColors_b__31_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
-    &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView___c::*)(::HMUI::AnimatedSwitchView_ColorBlock*)>(
+    &::HMUI::AnimatedSwitchView___c::_LerpColors_b__31_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2259e34;
+  constexpr static std::size_t addrs = 0x228c524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_1", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_1", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView____c._LerpColors_b__31_2
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView___c._LerpColors_b__31_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
-    &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView___c::*)(::HMUI::AnimatedSwitchView_ColorBlock*)>(
+    &::HMUI::AnimatedSwitchView___c::_LerpColors_b__31_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2259e50;
+  constexpr static std::size_t addrs = 0x228c540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_2", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_2", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView____c._LerpColors_b__31_3
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView___c._LerpColors_b__31_3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
-    &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView___c::*)(::HMUI::AnimatedSwitchView_ColorBlock*)>(
+    &::HMUI::AnimatedSwitchView___c::_LerpColors_b__31_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2259e6c;
+  constexpr static std::size_t addrs = 0x228c55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_3", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_3", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView____c._LerpColors_b__31_4
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView___c._LerpColors_b__31_4
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
-    &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView___c::*)(::HMUI::AnimatedSwitchView_ColorBlock*)>(
+    &::HMUI::AnimatedSwitchView___c::_LerpColors_b__31_4)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2259e88;
+  constexpr static std::size_t addrs = 0x228c578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_4", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_4", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__AnimatedSwitchView____c._LerpColors_b__31_5
+//  Writing Method size for method: ::HMUI::AnimatedSwitchView___c._LerpColors_b__31_5
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
-    &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView___c::*)(::HMUI::AnimatedSwitchView_ColorBlock*)>(
+    &::HMUI::AnimatedSwitchView___c::_LerpColors_b__31_5)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2259ea4;
+  constexpr static std::size_t addrs = 0x228c594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_5", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_5", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
     return ___internal_method;
   }
 };
-inline void HMUI::__AnimatedSwitchView____c::setStaticF___9(::HMUI::__AnimatedSwitchView____c* value) {
-  ::cordl_internals::setStaticField<::HMUI::__AnimatedSwitchView____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>(
-      std::forward<::HMUI::__AnimatedSwitchView____c*>(value));
+inline void HMUI::AnimatedSwitchView___c::setStaticF___9(::HMUI::AnimatedSwitchView___c* value) {
+  ::cordl_internals::setStaticField<::HMUI::AnimatedSwitchView___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>(
+      std::forward<::HMUI::AnimatedSwitchView___c*>(value));
 }
-inline ::HMUI::__AnimatedSwitchView____c* HMUI::__AnimatedSwitchView____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::HMUI::__AnimatedSwitchView____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>();
+inline ::HMUI::AnimatedSwitchView___c* HMUI::AnimatedSwitchView___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::HMUI::AnimatedSwitchView___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>();
 }
-inline void HMUI::__AnimatedSwitchView____c::setStaticF___9__31_0(::HMUI::__AnimatedSwitchView__GetColorDelegate* value) {
-  ::cordl_internals::setStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>(
-      std::forward<::HMUI::__AnimatedSwitchView__GetColorDelegate*>(value));
+inline void HMUI::AnimatedSwitchView___c::setStaticF___9__31_0(::HMUI::AnimatedSwitchView_GetColorDelegate* value) {
+  ::cordl_internals::setStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>(
+      std::forward<::HMUI::AnimatedSwitchView_GetColorDelegate*>(value));
 }
-inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* HMUI::__AnimatedSwitchView____c::getStaticF___9__31_0() {
-  return ::cordl_internals::getStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>();
+inline ::HMUI::AnimatedSwitchView_GetColorDelegate* HMUI::AnimatedSwitchView___c::getStaticF___9__31_0() {
+  return ::cordl_internals::getStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>();
 }
-inline void HMUI::__AnimatedSwitchView____c::setStaticF___9__31_1(::HMUI::__AnimatedSwitchView__GetColorDelegate* value) {
-  ::cordl_internals::setStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>(
-      std::forward<::HMUI::__AnimatedSwitchView__GetColorDelegate*>(value));
+inline void HMUI::AnimatedSwitchView___c::setStaticF___9__31_1(::HMUI::AnimatedSwitchView_GetColorDelegate* value) {
+  ::cordl_internals::setStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>(
+      std::forward<::HMUI::AnimatedSwitchView_GetColorDelegate*>(value));
 }
-inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* HMUI::__AnimatedSwitchView____c::getStaticF___9__31_1() {
-  return ::cordl_internals::getStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>();
+inline ::HMUI::AnimatedSwitchView_GetColorDelegate* HMUI::AnimatedSwitchView___c::getStaticF___9__31_1() {
+  return ::cordl_internals::getStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>();
 }
-inline void HMUI::__AnimatedSwitchView____c::setStaticF___9__31_2(::HMUI::__AnimatedSwitchView__GetColorDelegate* value) {
-  ::cordl_internals::setStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>(
-      std::forward<::HMUI::__AnimatedSwitchView__GetColorDelegate*>(value));
+inline void HMUI::AnimatedSwitchView___c::setStaticF___9__31_2(::HMUI::AnimatedSwitchView_GetColorDelegate* value) {
+  ::cordl_internals::setStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>(
+      std::forward<::HMUI::AnimatedSwitchView_GetColorDelegate*>(value));
 }
-inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* HMUI::__AnimatedSwitchView____c::getStaticF___9__31_2() {
-  return ::cordl_internals::getStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>();
+inline ::HMUI::AnimatedSwitchView_GetColorDelegate* HMUI::AnimatedSwitchView___c::getStaticF___9__31_2() {
+  return ::cordl_internals::getStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>();
 }
-inline void HMUI::__AnimatedSwitchView____c::setStaticF___9__31_3(::HMUI::__AnimatedSwitchView__GetColorDelegate* value) {
-  ::cordl_internals::setStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>(
-      std::forward<::HMUI::__AnimatedSwitchView__GetColorDelegate*>(value));
+inline void HMUI::AnimatedSwitchView___c::setStaticF___9__31_3(::HMUI::AnimatedSwitchView_GetColorDelegate* value) {
+  ::cordl_internals::setStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>(
+      std::forward<::HMUI::AnimatedSwitchView_GetColorDelegate*>(value));
 }
-inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* HMUI::__AnimatedSwitchView____c::getStaticF___9__31_3() {
-  return ::cordl_internals::getStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_3",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>();
+inline ::HMUI::AnimatedSwitchView_GetColorDelegate* HMUI::AnimatedSwitchView___c::getStaticF___9__31_3() {
+  return ::cordl_internals::getStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>();
 }
-inline void HMUI::__AnimatedSwitchView____c::setStaticF___9__31_4(::HMUI::__AnimatedSwitchView__GetColorDelegate* value) {
-  ::cordl_internals::setStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>(
-      std::forward<::HMUI::__AnimatedSwitchView__GetColorDelegate*>(value));
+inline void HMUI::AnimatedSwitchView___c::setStaticF___9__31_4(::HMUI::AnimatedSwitchView_GetColorDelegate* value) {
+  ::cordl_internals::setStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>(
+      std::forward<::HMUI::AnimatedSwitchView_GetColorDelegate*>(value));
 }
-inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* HMUI::__AnimatedSwitchView____c::getStaticF___9__31_4() {
-  return ::cordl_internals::getStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_4",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>();
+inline ::HMUI::AnimatedSwitchView_GetColorDelegate* HMUI::AnimatedSwitchView___c::getStaticF___9__31_4() {
+  return ::cordl_internals::getStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>();
 }
-inline void HMUI::__AnimatedSwitchView____c::setStaticF___9__31_5(::HMUI::__AnimatedSwitchView__GetColorDelegate* value) {
-  ::cordl_internals::setStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>(
-      std::forward<::HMUI::__AnimatedSwitchView__GetColorDelegate*>(value));
+inline void HMUI::AnimatedSwitchView___c::setStaticF___9__31_5(::HMUI::AnimatedSwitchView_GetColorDelegate* value) {
+  ::cordl_internals::setStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>(
+      std::forward<::HMUI::AnimatedSwitchView_GetColorDelegate*>(value));
 }
-inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* HMUI::__AnimatedSwitchView____c::getStaticF___9__31_5() {
-  return ::cordl_internals::getStaticField<::HMUI::__AnimatedSwitchView__GetColorDelegate*, "<>9__31_5",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get>();
+inline ::HMUI::AnimatedSwitchView_GetColorDelegate* HMUI::AnimatedSwitchView___c::getStaticF___9__31_5() {
+  return ::cordl_internals::getStaticField<::HMUI::AnimatedSwitchView_GetColorDelegate*, "<>9__31_5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get>();
 }
-inline ::HMUI::__AnimatedSwitchView____c* HMUI::__AnimatedSwitchView____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__AnimatedSwitchView____c*>());
-}
-inline void HMUI::__AnimatedSwitchView____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), ".ctor",
+inline void HMUI::AnimatedSwitchView___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_0(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView___c::_LerpColors_b__31_0(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_0", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_0", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorBlock);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_1(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView___c::_LerpColors_b__31_1(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_1", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_1", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorBlock);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_2(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView___c::_LerpColors_b__31_2(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_2", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_2", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorBlock);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_3(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView___c::_LerpColors_b__31_3(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_3", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_3", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorBlock);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_4(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView___c::_LerpColors_b__31_4(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_4", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_4", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorBlock);
 }
-inline ::UnityEngine::Color HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_5(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView___c::_LerpColors_b__31_5(::HMUI::AnimatedSwitchView_ColorBlock* colorBlock) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), "<LerpColors>b__31_5", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__ColorBlock*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView___c*>::get(), "<LerpColors>b__31_5", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_ColorBlock*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorBlock);
+}
+inline ::HMUI::AnimatedSwitchView___c* HMUI::AnimatedSwitchView___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::AnimatedSwitchView___c*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::__AnimatedSwitchView____c::__AnimatedSwitchView____c() {}
+constexpr ::HMUI::AnimatedSwitchView___c::AnimatedSwitchView___c() {}
 //  Writing Method size for method: ::HMUI::AnimatedSwitchView.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2258e5c;
+  constexpr static std::size_t addrs = 0x228b54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "Awake",
@@ -439,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::Start)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2258eac;
+  constexpr static std::size_t addrs = 0x228b59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "Start",
@@ -452,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::OnDestroy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2259594;
+  constexpr static std::size_t addrs = 0x228bc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "OnDestroy",
@@ -465,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::Update)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x22596dc;
+  constexpr static std::size_t addrs = 0x228bdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "Update",
@@ -478,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(float_t)>(&::HMUI::AnimatedSwitchView::LerpPosition)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2259530;
+  constexpr static std::size_t addrs = 0x228bc20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -492,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(float_t)>(&::HMUI::AnimatedSwitchView::LerpStretch)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x225997c;
+  constexpr static std::size_t addrs = 0x228c06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -506,7 +494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(float_t, float_t, float_t)>(&::HMUI::AnimatedSwitchView::LerpColors)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x225904c;
+  constexpr static std::size_t addrs = 0x228b73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -520,16 +508,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView::*)(float_t, float_t, float_t, ::HMUI::__AnimatedSwitchView__GetColorDelegate*)>(&::HMUI::AnimatedSwitchView::LerpColor)> {
+    static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView::*)(float_t, float_t, float_t, ::HMUI::AnimatedSwitchView_GetColorDelegate*)>(&::HMUI::AnimatedSwitchView::LerpColor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x2259afc;
+  constexpr static std::size_t addrs = 0x228c1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "LerpColor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get() })));
     return ___internal_method;
   }
 };
@@ -538,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(bool)>(&::HMUI::AnimatedSwitchView::HandleOnValueChanged)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2259ca4;
+  constexpr static std::size_t addrs = 0x228c394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -550,15 +538,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::AnimatedSwitchView.HandleStateDidChange
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(::HMUI::__ToggleWithCallbacks__SelectionState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(::HMUI::ToggleWithCallbacks_SelectionState)>(
     &::HMUI::AnimatedSwitchView::HandleStateDidChange)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2259ccc;
+  constexpr static std::size_t addrs = 0x228c3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "HandleStateDidChange", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__ToggleWithCallbacks__SelectionState>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ToggleWithCallbacks_SelectionState>::get() })));
     return ___internal_method;
   }
 };
@@ -567,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2259d1c;
+  constexpr static std::size_t addrs = 0x228c40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), ".ctor",
@@ -695,75 +683,75 @@ constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__verticalStretchAm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____verticalStretchAmount = value;
 }
-constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__onColors() {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__onColors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onColors;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__cordl_internal_get__onColors() const {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock* const& HMUI::AnimatedSwitchView::__cordl_internal_get__onColors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onColors;
 }
-constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__onColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
+constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__onColors(::HMUI::AnimatedSwitchView_ColorBlock* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__offColors() {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__offColors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offColors;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__cordl_internal_get__offColors() const {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock* const& HMUI::AnimatedSwitchView::__cordl_internal_get__offColors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offColors;
 }
-constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__offColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
+constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__offColors(::HMUI::AnimatedSwitchView_ColorBlock* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____offColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__onHighlightedColors() {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__onHighlightedColors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onHighlightedColors;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__cordl_internal_get__onHighlightedColors() const {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock* const& HMUI::AnimatedSwitchView::__cordl_internal_get__onHighlightedColors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onHighlightedColors;
 }
-constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__onHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
+constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__onHighlightedColors(::HMUI::AnimatedSwitchView_ColorBlock* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onHighlightedColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__offHighlightedColors() {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__offHighlightedColors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offHighlightedColors;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__cordl_internal_get__offHighlightedColors() const {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock* const& HMUI::AnimatedSwitchView::__cordl_internal_get__offHighlightedColors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offHighlightedColors;
 }
-constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__offHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
+constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__offHighlightedColors(::HMUI::AnimatedSwitchView_ColorBlock* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____offHighlightedColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__disabledColors() {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock*& HMUI::AnimatedSwitchView::__cordl_internal_get__disabledColors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledColors;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__cordl_internal_get__disabledColors() const {
+constexpr ::HMUI::AnimatedSwitchView_ColorBlock* const& HMUI::AnimatedSwitchView::__cordl_internal_get__disabledColors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledColors;
 }
-constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__disabledColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
+constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__disabledColors(::HMUI::AnimatedSwitchView_ColorBlock* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disabledColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState& HMUI::AnimatedSwitchView::__cordl_internal_get__animationState() {
+constexpr ::HMUI::AnimatedSwitchView_AnimationState& HMUI::AnimatedSwitchView::__cordl_internal_get__animationState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationState;
 }
-constexpr ::HMUI::__AnimatedSwitchView__AnimationState const& HMUI::AnimatedSwitchView::__cordl_internal_get__animationState() const {
+constexpr ::HMUI::AnimatedSwitchView_AnimationState const& HMUI::AnimatedSwitchView::__cordl_internal_get__animationState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationState;
 }
-constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__animationState(::HMUI::__AnimatedSwitchView__AnimationState value) {
+constexpr void HMUI::AnimatedSwitchView::__cordl_internal_set__animationState(::HMUI::AnimatedSwitchView_AnimationState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____animationState = value;
 }
@@ -878,13 +866,12 @@ inline void HMUI::AnimatedSwitchView::LerpColors(float_t switchAmount, float_t h
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, switchAmount, highlightAmount, disabledAmount);
 }
-inline ::UnityEngine::Color HMUI::AnimatedSwitchView::LerpColor(float_t switchAmount, float_t highlightAmount, float_t disabledAmount,
-                                                                ::HMUI::__AnimatedSwitchView__GetColorDelegate* getColorDelegate) {
+inline ::UnityEngine::Color HMUI::AnimatedSwitchView::LerpColor(float_t switchAmount, float_t highlightAmount, float_t disabledAmount, ::HMUI::AnimatedSwitchView_GetColorDelegate* getColorDelegate) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "LerpColor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__AnimatedSwitchView__GetColorDelegate*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::AnimatedSwitchView_GetColorDelegate*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, switchAmount, highlightAmount, disabledAmount, getColorDelegate);
 }
 inline void HMUI::AnimatedSwitchView::HandleOnValueChanged(bool value) {
@@ -893,19 +880,19 @@ inline void HMUI::AnimatedSwitchView::HandleOnValueChanged(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::AnimatedSwitchView::HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState selectionState) {
+inline void HMUI::AnimatedSwitchView::HandleStateDidChange(::HMUI::ToggleWithCallbacks_SelectionState selectionState) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "HandleStateDidChange", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__ToggleWithCallbacks__SelectionState>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ToggleWithCallbacks_SelectionState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, selectionState);
-}
-inline ::HMUI::AnimatedSwitchView* HMUI::AnimatedSwitchView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::AnimatedSwitchView*>());
 }
 inline void HMUI::AnimatedSwitchView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::AnimatedSwitchView* HMUI::AnimatedSwitchView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::AnimatedSwitchView*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::AnimatedSwitchView::AnimatedSwitchView() {}

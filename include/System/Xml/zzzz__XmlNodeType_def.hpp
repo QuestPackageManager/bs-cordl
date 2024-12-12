@@ -12,11 +12,10 @@ struct XmlNodeType;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::XmlNodeType);
-// Type: System.Xml::XmlNodeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::System.Xml::XmlNodeType
+// CS Name: System.Xml.XmlNodeType
 struct CORDL_TYPE XmlNodeType {
 public:
   // Declarations
@@ -61,75 +60,75 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr XmlNodeType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Attribute value: static_cast<int32_t>(0x2)
+  /// @brief Field Attribute value: I32(2)
   static ::System::Xml::XmlNodeType const Attribute;
 
-  /// @brief Field CDATA value: static_cast<int32_t>(0x4)
+  /// @brief Field CDATA value: I32(4)
   static ::System::Xml::XmlNodeType const CDATA;
 
-  /// @brief Field Comment value: static_cast<int32_t>(0x8)
+  /// @brief Field Comment value: I32(8)
   static ::System::Xml::XmlNodeType const Comment;
 
-  /// @brief Field Document value: static_cast<int32_t>(0x9)
+  /// @brief Field Document value: I32(9)
   static ::System::Xml::XmlNodeType const Document;
 
-  /// @brief Field DocumentFragment value: static_cast<int32_t>(0xb)
+  /// @brief Field DocumentFragment value: I32(11)
   static ::System::Xml::XmlNodeType const DocumentFragment;
 
-  /// @brief Field DocumentType value: static_cast<int32_t>(0xa)
+  /// @brief Field DocumentType value: I32(10)
   static ::System::Xml::XmlNodeType const DocumentType;
 
-  /// @brief Field Element value: static_cast<int32_t>(0x1)
+  /// @brief Field Element value: I32(1)
   static ::System::Xml::XmlNodeType const Element;
 
-  /// @brief Field EndElement value: static_cast<int32_t>(0xf)
+  /// @brief Field EndElement value: I32(15)
   static ::System::Xml::XmlNodeType const EndElement;
 
-  /// @brief Field EndEntity value: static_cast<int32_t>(0x10)
+  /// @brief Field EndEntity value: I32(16)
   static ::System::Xml::XmlNodeType const EndEntity;
 
-  /// @brief Field Entity value: static_cast<int32_t>(0x6)
+  /// @brief Field Entity value: I32(6)
   static ::System::Xml::XmlNodeType const Entity;
 
-  /// @brief Field EntityReference value: static_cast<int32_t>(0x5)
+  /// @brief Field EntityReference value: I32(5)
   static ::System::Xml::XmlNodeType const EntityReference;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Xml::XmlNodeType const None;
 
-  /// @brief Field Notation value: static_cast<int32_t>(0xc)
+  /// @brief Field Notation value: I32(12)
   static ::System::Xml::XmlNodeType const Notation;
 
-  /// @brief Field ProcessingInstruction value: static_cast<int32_t>(0x7)
+  /// @brief Field ProcessingInstruction value: I32(7)
   static ::System::Xml::XmlNodeType const ProcessingInstruction;
 
-  /// @brief Field SignificantWhitespace value: static_cast<int32_t>(0xe)
+  /// @brief Field SignificantWhitespace value: I32(14)
   static ::System::Xml::XmlNodeType const SignificantWhitespace;
 
-  /// @brief Field Text value: static_cast<int32_t>(0x3)
+  /// @brief Field Text value: I32(3)
   static ::System::Xml::XmlNodeType const Text;
 
-  /// @brief Field Whitespace value: static_cast<int32_t>(0xd)
+  /// @brief Field Whitespace value: I32(13)
   static ::System::Xml::XmlNodeType const Whitespace;
 
-  /// @brief Field XmlDeclaration value: static_cast<int32_t>(0x11)
+  /// @brief Field XmlDeclaration value: I32(17)
   static ::System::Xml::XmlNodeType const XmlDeclaration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7364 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlNodeType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeType, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeType, "System.Xml", "XmlNodeType");

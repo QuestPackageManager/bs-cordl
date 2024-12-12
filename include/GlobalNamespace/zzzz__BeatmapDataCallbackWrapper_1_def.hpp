@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallbackWrapper_1)
@@ -20,13 +19,12 @@ template <typename T> class BeatmapDataCallbackWrapper_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BeatmapDataCallbackWrapper_1);
-// Type: ::BeatmapDataCallbackWrapper`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDataCallbackWrapper
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BeatmapDataCallbackWrapper`1<T>*
+// CS Name: BeatmapDataCallbackWrapper`1<T>
 class CORDL_TYPE BeatmapDataCallbackWrapper_1 : public ::GlobalNamespace::BeatmapDataCallbackWrapper {
 public:
   // Declarations
@@ -39,9 +37,9 @@ public:
   static inline ::GlobalNamespace::BeatmapDataCallbackWrapper_1<T>* New_ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime,
                                                                              ::ArrayW<int32_t, ::Array<int32_t>*> beatmapEventSubtypeIdentifiers);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>*& __cordl_internal_get__callback();
+  constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>* const& __cordl_internal_get__callback() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallback_1<T>*> const& __cordl_internal_get__callback() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>*& __cordl_internal_get__callback();
 
   constexpr void __cordl_internal_set__callback(::GlobalNamespace::BeatmapDataCallback_1<T>* value);
 
@@ -62,11 +60,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataCallbackWrapper_1(BeatmapDataCallbackWrapper_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4061 };
+
   /// @brief Field _callback, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallback_1<T>* ____callback;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,23 +26,22 @@ class JavaScriptDateTimeConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter);
-// Type: Newtonsoft.Json.Converters::JavaScriptDateTimeConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Converters.DateTimeConverterBase
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Converters::JavaScriptDateTimeConverter*
+// CS Name: Newtonsoft.Json.Converters.JavaScriptDateTimeConverter
 class CORDL_TYPE JavaScriptDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3edeb28, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f3ebd4, size 0x340, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3ede944, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f3e9f0, size 0x1e4, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3edee68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3ef14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +59,7 @@ public:
   JavaScriptDateTimeConverter(JavaScriptDateTimeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

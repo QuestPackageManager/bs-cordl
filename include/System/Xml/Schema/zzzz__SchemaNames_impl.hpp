@@ -7,141 +7,141 @@
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::Schema::__SchemaNames__Token::__SchemaNames__Token(int32_t value__) noexcept {
+constexpr ::System::Xml::Schema::SchemaNames_Token::SchemaNames_Token(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__SchemaNames__Token::__SchemaNames__Token() {}
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::Empty{ static_cast<int32_t>(0x0) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaName{ static_cast<int32_t>(0x1) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaType{ static_cast<int32_t>(0x2) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaMaxOccurs{ static_cast<int32_t>(0x3) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaMinOccurs{ static_cast<int32_t>(0x4) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaInfinite{ static_cast<int32_t>(0x5) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaModel{ static_cast<int32_t>(0x6) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaOpen{ static_cast<int32_t>(0x7) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaClosed{ static_cast<int32_t>(0x8) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaContent{ static_cast<int32_t>(0x9) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaMixed{ static_cast<int32_t>(0xa) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaEmpty{ static_cast<int32_t>(0xb) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaElementOnly{ static_cast<int32_t>(0xc) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaTextOnly{ static_cast<int32_t>(0xd) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaOrder{ static_cast<int32_t>(0xe) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaSeq{ static_cast<int32_t>(0xf) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaOne{ static_cast<int32_t>(0x10) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaMany{ static_cast<int32_t>(0x11) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaRequired{ static_cast<int32_t>(0x12) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaYes{ static_cast<int32_t>(0x13) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaNo{ static_cast<int32_t>(0x14) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaString{ static_cast<int32_t>(0x15) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaId{ static_cast<int32_t>(0x16) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaIdref{ static_cast<int32_t>(0x17) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaIdrefs{ static_cast<int32_t>(0x18) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaEntity{ static_cast<int32_t>(0x19) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaEntities{ static_cast<int32_t>(0x1a) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaNmtoken{ static_cast<int32_t>(0x1b) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaNmtokens{ static_cast<int32_t>(0x1c) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaEnumeration{ static_cast<int32_t>(0x1d) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDefault{ static_cast<int32_t>(0x1e) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrRoot{ static_cast<int32_t>(0x1f) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrElementType{ static_cast<int32_t>(0x20) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrElement{ static_cast<int32_t>(0x21) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrGroup{ static_cast<int32_t>(0x22) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrAttributeType{ static_cast<int32_t>(0x23) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrAttribute{ static_cast<int32_t>(0x24) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrDatatype{ static_cast<int32_t>(0x25) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrDescription{ static_cast<int32_t>(0x26) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XdrExtends{ static_cast<int32_t>(0x27) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaXdrRootAlias{ static_cast<int32_t>(0x28) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtType{ static_cast<int32_t>(0x29) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtValues{ static_cast<int32_t>(0x2a) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtMaxLength{ static_cast<int32_t>(0x2b) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtMinLength{ static_cast<int32_t>(0x2c) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtMax{ static_cast<int32_t>(0x2d) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtMin{ static_cast<int32_t>(0x2e) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtMinExclusive{ static_cast<int32_t>(0x2f) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDtMaxExclusive{ static_cast<int32_t>(0x30) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaTargetNamespace{ static_cast<int32_t>(0x31) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaVersion{ static_cast<int32_t>(0x32) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaFinalDefault{ static_cast<int32_t>(0x33) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaBlockDefault{ static_cast<int32_t>(0x34) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaFixed{ static_cast<int32_t>(0x35) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaAbstract{ static_cast<int32_t>(0x36) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaBlock{ static_cast<int32_t>(0x37) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaSubstitutionGroup{ static_cast<int32_t>(0x38) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaFinal{ static_cast<int32_t>(0x39) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaNillable{ static_cast<int32_t>(0x3a) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaRef{ static_cast<int32_t>(0x3b) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaBase{ static_cast<int32_t>(0x3c) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaDerivedBy{ static_cast<int32_t>(0x3d) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaNamespace{ static_cast<int32_t>(0x3e) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaProcessContents{ static_cast<int32_t>(0x3f) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaRefer{ static_cast<int32_t>(0x40) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaPublic{ static_cast<int32_t>(0x41) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaSystem{ static_cast<int32_t>(0x42) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaSchemaLocation{ static_cast<int32_t>(0x43) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaValue{ static_cast<int32_t>(0x44) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaSource{ static_cast<int32_t>(0x45) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaAttributeFormDefault{ static_cast<int32_t>(0x46) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaElementFormDefault{ static_cast<int32_t>(0x47) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaUse{ static_cast<int32_t>(0x48) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaForm{ static_cast<int32_t>(0x49) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSchema{ static_cast<int32_t>(0x4a) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdAnnotation{ static_cast<int32_t>(0x4b) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdInclude{ static_cast<int32_t>(0x4c) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdImport{ static_cast<int32_t>(0x4d) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdElement{ static_cast<int32_t>(0x4e) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdAttribute{ static_cast<int32_t>(0x4f) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::xsdAttributeGroup{ static_cast<int32_t>(0x50) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdAnyAttribute{ static_cast<int32_t>(0x51) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdGroup{ static_cast<int32_t>(0x52) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdAll{ static_cast<int32_t>(0x53) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdChoice{ static_cast<int32_t>(0x54) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSequence{ static_cast<int32_t>(0x55) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdAny{ static_cast<int32_t>(0x56) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdNotation{ static_cast<int32_t>(0x57) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSimpleType{ static_cast<int32_t>(0x58) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdComplexType{ static_cast<int32_t>(0x59) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdUnique{ static_cast<int32_t>(0x5a) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdKey{ static_cast<int32_t>(0x5b) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdKeyref{ static_cast<int32_t>(0x5c) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSelector{ static_cast<int32_t>(0x5d) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdField{ static_cast<int32_t>(0x5e) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdMinExclusive{ static_cast<int32_t>(0x5f) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdMinInclusive{ static_cast<int32_t>(0x60) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdMaxExclusive{ static_cast<int32_t>(0x61) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdMaxInclusive{ static_cast<int32_t>(0x62) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdTotalDigits{ static_cast<int32_t>(0x63) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdFractionDigits{ static_cast<int32_t>(0x64) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdLength{ static_cast<int32_t>(0x65) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdMinLength{ static_cast<int32_t>(0x66) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdMaxLength{ static_cast<int32_t>(0x67) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdEnumeration{ static_cast<int32_t>(0x68) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdPattern{ static_cast<int32_t>(0x69) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdDocumentation{ static_cast<int32_t>(0x6a) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdAppInfo{ static_cast<int32_t>(0x6b) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdComplexContent{ static_cast<int32_t>(0x6c) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdComplexContentExtension{ static_cast<int32_t>(0x6d) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdComplexContentRestriction{ static_cast<int32_t>(0x6e) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSimpleContent{ static_cast<int32_t>(0x6f) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSimpleContentExtension{ static_cast<int32_t>(0x70) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSimpleContentRestriction{ static_cast<int32_t>(0x71) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSimpleTypeList{ static_cast<int32_t>(0x72) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSimpleTypeRestriction{ static_cast<int32_t>(0x73) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdSimpleTypeUnion{ static_cast<int32_t>(0x74) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdWhitespace{ static_cast<int32_t>(0x75) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XsdRedefine{ static_cast<int32_t>(0x76) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaItemType{ static_cast<int32_t>(0x77) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaMemberTypes{ static_cast<int32_t>(0x78) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::SchemaXPath{ static_cast<int32_t>(0x79) };
-constexpr ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::__SchemaNames__Token::XmlLang{ static_cast<int32_t>(0x7a) };
+constexpr ::System::Xml::Schema::SchemaNames_Token::SchemaNames_Token() {}
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::Empty{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaName{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaType{ static_cast<int32_t>(0x2) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaMaxOccurs{ static_cast<int32_t>(0x3) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaMinOccurs{ static_cast<int32_t>(0x4) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaInfinite{ static_cast<int32_t>(0x5) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaModel{ static_cast<int32_t>(0x6) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaOpen{ static_cast<int32_t>(0x7) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaClosed{ static_cast<int32_t>(0x8) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaContent{ static_cast<int32_t>(0x9) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaMixed{ static_cast<int32_t>(0xa) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaEmpty{ static_cast<int32_t>(0xb) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaElementOnly{ static_cast<int32_t>(0xc) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaTextOnly{ static_cast<int32_t>(0xd) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaOrder{ static_cast<int32_t>(0xe) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaSeq{ static_cast<int32_t>(0xf) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaOne{ static_cast<int32_t>(0x10) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaMany{ static_cast<int32_t>(0x11) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaRequired{ static_cast<int32_t>(0x12) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaYes{ static_cast<int32_t>(0x13) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaNo{ static_cast<int32_t>(0x14) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaString{ static_cast<int32_t>(0x15) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaId{ static_cast<int32_t>(0x16) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaIdref{ static_cast<int32_t>(0x17) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaIdrefs{ static_cast<int32_t>(0x18) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaEntity{ static_cast<int32_t>(0x19) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaEntities{ static_cast<int32_t>(0x1a) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaNmtoken{ static_cast<int32_t>(0x1b) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaNmtokens{ static_cast<int32_t>(0x1c) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaEnumeration{ static_cast<int32_t>(0x1d) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDefault{ static_cast<int32_t>(0x1e) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrRoot{ static_cast<int32_t>(0x1f) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrElementType{ static_cast<int32_t>(0x20) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrElement{ static_cast<int32_t>(0x21) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrGroup{ static_cast<int32_t>(0x22) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrAttributeType{ static_cast<int32_t>(0x23) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrAttribute{ static_cast<int32_t>(0x24) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrDatatype{ static_cast<int32_t>(0x25) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrDescription{ static_cast<int32_t>(0x26) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XdrExtends{ static_cast<int32_t>(0x27) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaXdrRootAlias{ static_cast<int32_t>(0x28) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtType{ static_cast<int32_t>(0x29) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtValues{ static_cast<int32_t>(0x2a) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtMaxLength{ static_cast<int32_t>(0x2b) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtMinLength{ static_cast<int32_t>(0x2c) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtMax{ static_cast<int32_t>(0x2d) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtMin{ static_cast<int32_t>(0x2e) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtMinExclusive{ static_cast<int32_t>(0x2f) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDtMaxExclusive{ static_cast<int32_t>(0x30) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaTargetNamespace{ static_cast<int32_t>(0x31) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaVersion{ static_cast<int32_t>(0x32) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaFinalDefault{ static_cast<int32_t>(0x33) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaBlockDefault{ static_cast<int32_t>(0x34) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaFixed{ static_cast<int32_t>(0x35) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaAbstract{ static_cast<int32_t>(0x36) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaBlock{ static_cast<int32_t>(0x37) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaSubstitutionGroup{ static_cast<int32_t>(0x38) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaFinal{ static_cast<int32_t>(0x39) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaNillable{ static_cast<int32_t>(0x3a) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaRef{ static_cast<int32_t>(0x3b) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaBase{ static_cast<int32_t>(0x3c) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaDerivedBy{ static_cast<int32_t>(0x3d) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaNamespace{ static_cast<int32_t>(0x3e) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaProcessContents{ static_cast<int32_t>(0x3f) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaRefer{ static_cast<int32_t>(0x40) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaPublic{ static_cast<int32_t>(0x41) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaSystem{ static_cast<int32_t>(0x42) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaSchemaLocation{ static_cast<int32_t>(0x43) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaValue{ static_cast<int32_t>(0x44) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaSource{ static_cast<int32_t>(0x45) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaAttributeFormDefault{ static_cast<int32_t>(0x46) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaElementFormDefault{ static_cast<int32_t>(0x47) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaUse{ static_cast<int32_t>(0x48) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaForm{ static_cast<int32_t>(0x49) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSchema{ static_cast<int32_t>(0x4a) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdAnnotation{ static_cast<int32_t>(0x4b) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdInclude{ static_cast<int32_t>(0x4c) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdImport{ static_cast<int32_t>(0x4d) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdElement{ static_cast<int32_t>(0x4e) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdAttribute{ static_cast<int32_t>(0x4f) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::xsdAttributeGroup{ static_cast<int32_t>(0x50) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdAnyAttribute{ static_cast<int32_t>(0x51) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdGroup{ static_cast<int32_t>(0x52) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdAll{ static_cast<int32_t>(0x53) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdChoice{ static_cast<int32_t>(0x54) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSequence{ static_cast<int32_t>(0x55) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdAny{ static_cast<int32_t>(0x56) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdNotation{ static_cast<int32_t>(0x57) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSimpleType{ static_cast<int32_t>(0x58) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdComplexType{ static_cast<int32_t>(0x59) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdUnique{ static_cast<int32_t>(0x5a) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdKey{ static_cast<int32_t>(0x5b) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdKeyref{ static_cast<int32_t>(0x5c) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSelector{ static_cast<int32_t>(0x5d) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdField{ static_cast<int32_t>(0x5e) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdMinExclusive{ static_cast<int32_t>(0x5f) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdMinInclusive{ static_cast<int32_t>(0x60) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdMaxExclusive{ static_cast<int32_t>(0x61) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdMaxInclusive{ static_cast<int32_t>(0x62) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdTotalDigits{ static_cast<int32_t>(0x63) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdFractionDigits{ static_cast<int32_t>(0x64) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdLength{ static_cast<int32_t>(0x65) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdMinLength{ static_cast<int32_t>(0x66) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdMaxLength{ static_cast<int32_t>(0x67) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdEnumeration{ static_cast<int32_t>(0x68) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdPattern{ static_cast<int32_t>(0x69) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdDocumentation{ static_cast<int32_t>(0x6a) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdAppInfo{ static_cast<int32_t>(0x6b) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdComplexContent{ static_cast<int32_t>(0x6c) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdComplexContentExtension{ static_cast<int32_t>(0x6d) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdComplexContentRestriction{ static_cast<int32_t>(0x6e) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSimpleContent{ static_cast<int32_t>(0x6f) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSimpleContentExtension{ static_cast<int32_t>(0x70) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSimpleContentRestriction{ static_cast<int32_t>(0x71) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSimpleTypeList{ static_cast<int32_t>(0x72) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSimpleTypeRestriction{ static_cast<int32_t>(0x73) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdSimpleTypeUnion{ static_cast<int32_t>(0x74) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdWhitespace{ static_cast<int32_t>(0x75) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XsdRedefine{ static_cast<int32_t>(0x76) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaItemType{ static_cast<int32_t>(0x77) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaMemberTypes{ static_cast<int32_t>(0x78) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::SchemaXPath{ static_cast<int32_t>(0x79) };
+constexpr ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::SchemaNames_Token::XmlLang{ static_cast<int32_t>(0x7a) };
 //  Writing Method size for method: ::System::Xml::Schema::SchemaNames._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaNames::*)(::System::Xml::XmlNameTable*)>(
     &::System::Xml::Schema::SchemaNames::_ctor)> {
   constexpr static std::size_t size = 0x28d8;
-  constexpr static std::size_t addrs = 0x42319b4;
+  constexpr static std::size_t addrs = 0x4292cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaNames::*)()>(&::System::Xml::Schema::SchemaNames::CreateTokenToQNameTable)> {
   constexpr static std::size_t size = 0x196c;
-  constexpr static std::size_t addrs = 0x423428c;
+  constexpr static std::size_t addrs = 0x42955a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SchemaNames*>::get(),
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaType (::System::Xml::Schema::SchemaNames::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::SchemaNames::SchemaTypeFromRoot)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4235bf8;
+  constexpr static std::size_t addrs = 0x4296f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SchemaNames::*)(::StringW, ::StringW)>(&::System::Xml::Schema::SchemaNames::IsXSDRoot)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4235c58;
+  constexpr static std::size_t addrs = 0x4296f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SchemaNames::*)(::StringW, ::StringW)>(&::System::Xml::Schema::SchemaNames::IsXDRRoot)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4235ca8;
+  constexpr static std::size_t addrs = 0x4296fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +210,7 @@ constexpr ::System::Xml::XmlNameTable*& System::Xml::Schema::SchemaNames::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_nameTable() const {
+constexpr ::System::Xml::XmlNameTable* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_nameTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
@@ -402,7 +402,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnPCData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnPCData() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnPCData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnPCData;
 }
@@ -414,7 +414,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXml;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXml() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXml() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXml;
 }
@@ -426,7 +426,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXmlNs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXmlNs() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXmlNs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXmlNs;
 }
@@ -438,7 +438,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtDt;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtDt() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtDt() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtDt;
 }
@@ -450,7 +450,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXmlLang;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXmlLang() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXmlLang() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXmlLang;
 }
@@ -462,7 +462,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnName;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnName() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnName;
 }
@@ -474,7 +474,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnType;
 }
@@ -486,7 +486,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMaxOccurs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMaxOccurs() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMaxOccurs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMaxOccurs;
 }
@@ -498,7 +498,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMinOccurs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMinOccurs() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMinOccurs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMinOccurs;
 }
@@ -510,7 +510,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnInfinite;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnInfinite() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnInfinite() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnInfinite;
 }
@@ -522,7 +522,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnModel() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnModel;
 }
@@ -534,7 +534,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnOpen;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnOpen() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnOpen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnOpen;
 }
@@ -546,7 +546,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnClosed;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnClosed() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnClosed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnClosed;
 }
@@ -558,7 +558,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnContent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnContent() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnContent;
 }
@@ -570,7 +570,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMixed;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMixed() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMixed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMixed;
 }
@@ -582,7 +582,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEmpty;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEmpty() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEmpty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEmpty;
 }
@@ -594,7 +594,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEltOnly;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEltOnly() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEltOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEltOnly;
 }
@@ -606,7 +606,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnTextOnly;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnTextOnly() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnTextOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnTextOnly;
 }
@@ -618,7 +618,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnOrder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnOrder() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnOrder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnOrder;
 }
@@ -630,7 +630,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSeq;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSeq() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSeq() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSeq;
 }
@@ -642,7 +642,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnOne;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnOne() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnOne() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnOne;
 }
@@ -654,7 +654,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMany;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMany() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMany() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMany;
 }
@@ -666,7 +666,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnRequired;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnRequired() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnRequired() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnRequired;
 }
@@ -678,7 +678,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnYes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnYes() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnYes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnYes;
 }
@@ -690,7 +690,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNo() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNo;
 }
@@ -702,7 +702,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnString;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnString() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnString() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnString;
 }
@@ -714,7 +714,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnID;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnID() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnID;
 }
@@ -726,7 +726,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnIDRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnIDRef() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnIDRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnIDRef;
 }
@@ -738,7 +738,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnIDRefs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnIDRefs() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnIDRefs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnIDRefs;
 }
@@ -750,7 +750,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEntity;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEntity() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEntity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEntity;
 }
@@ -762,7 +762,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEntities;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEntities() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEntities() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEntities;
 }
@@ -774,7 +774,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNmToken;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNmToken() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNmToken() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNmToken;
 }
@@ -786,7 +786,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNmTokens;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNmTokens() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNmTokens() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNmTokens;
 }
@@ -798,7 +798,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEnumeration;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEnumeration() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnEnumeration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnEnumeration;
 }
@@ -810,7 +810,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDefault;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDefault() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDefault() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDefault;
 }
@@ -822,7 +822,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrSchema;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrSchema() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrSchema() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrSchema;
 }
@@ -834,7 +834,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrElementType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrElementType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrElementType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrElementType;
 }
@@ -846,7 +846,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrElement() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrElement;
 }
@@ -858,7 +858,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrGroup() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrGroup;
 }
@@ -870,7 +870,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrAttributeType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrAttributeType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrAttributeType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrAttributeType;
 }
@@ -882,7 +882,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrAttribute;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrAttribute() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrAttribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrAttribute;
 }
@@ -894,7 +894,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrDataType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrDataType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrDataType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrDataType;
 }
@@ -906,7 +906,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrDescription;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrDescription() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrDescription() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrDescription;
 }
@@ -918,7 +918,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrExtends;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrExtends() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrExtends() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrExtends;
 }
@@ -930,7 +930,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrAliasSchema;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrAliasSchema() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXdrAliasSchema() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXdrAliasSchema;
 }
@@ -942,7 +942,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtType;
 }
@@ -954,7 +954,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtValues;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtValues() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtValues() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtValues;
 }
@@ -966,7 +966,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMaxLength;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMaxLength() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMaxLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMaxLength;
 }
@@ -978,7 +978,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMinLength;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMinLength() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMinLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMinLength;
 }
@@ -990,7 +990,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMax;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMax() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMax() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMax;
 }
@@ -1002,7 +1002,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMin;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMin() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMin() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMin;
 }
@@ -1014,7 +1014,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMinExclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMinExclusive() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMinExclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMinExclusive;
 }
@@ -1026,7 +1026,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMaxExclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMaxExclusive() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDtMaxExclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDtMaxExclusive;
 }
@@ -1038,7 +1038,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnTargetNamespace;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnTargetNamespace() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnTargetNamespace() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnTargetNamespace;
 }
@@ -1050,7 +1050,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnVersion;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnVersion() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnVersion;
 }
@@ -1062,7 +1062,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnFinalDefault;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnFinalDefault() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnFinalDefault() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnFinalDefault;
 }
@@ -1074,7 +1074,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnBlockDefault;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnBlockDefault() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnBlockDefault() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnBlockDefault;
 }
@@ -1086,7 +1086,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnFixed;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnFixed() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnFixed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnFixed;
 }
@@ -1098,7 +1098,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnAbstract;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnAbstract() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnAbstract() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnAbstract;
 }
@@ -1110,7 +1110,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnBlock;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnBlock() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnBlock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnBlock;
 }
@@ -1122,7 +1122,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSubstitutionGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSubstitutionGroup() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSubstitutionGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSubstitutionGroup;
 }
@@ -1134,7 +1134,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnFinal;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnFinal() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnFinal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnFinal;
 }
@@ -1146,7 +1146,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNillable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNillable() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNillable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNillable;
 }
@@ -1158,7 +1158,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnRef() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnRef;
 }
@@ -1170,7 +1170,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnBase;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnBase() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnBase() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnBase;
 }
@@ -1182,7 +1182,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDerivedBy;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDerivedBy() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnDerivedBy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnDerivedBy;
 }
@@ -1194,7 +1194,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNamespace;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNamespace() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnNamespace() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnNamespace;
 }
@@ -1206,7 +1206,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnProcessContents;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnProcessContents() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnProcessContents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnProcessContents;
 }
@@ -1218,7 +1218,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnRefer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnRefer() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnRefer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnRefer;
 }
@@ -1230,7 +1230,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnPublic;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnPublic() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnPublic() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnPublic;
 }
@@ -1242,7 +1242,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSystem;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSystem() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSystem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSystem;
 }
@@ -1254,7 +1254,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSchemaLocation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSchemaLocation() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSchemaLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSchemaLocation;
 }
@@ -1266,7 +1266,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnValue() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnValue;
 }
@@ -1278,7 +1278,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnUse;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnUse() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnUse() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnUse;
 }
@@ -1290,7 +1290,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnForm;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnForm() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnForm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnForm;
 }
@@ -1302,7 +1302,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnElementFormDefault;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnElementFormDefault() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnElementFormDefault() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnElementFormDefault;
 }
@@ -1314,7 +1314,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnAttributeFormDefault;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnAttributeFormDefault() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnAttributeFormDefault() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnAttributeFormDefault;
 }
@@ -1326,7 +1326,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnItemType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnItemType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnItemType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnItemType;
 }
@@ -1338,7 +1338,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMemberTypes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMemberTypes() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnMemberTypes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnMemberTypes;
 }
@@ -1350,7 +1350,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXPath;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXPath() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXPath;
 }
@@ -1362,7 +1362,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSchema;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSchema() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSchema() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSchema;
 }
@@ -1374,7 +1374,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAnnotation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAnnotation() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAnnotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAnnotation;
 }
@@ -1386,7 +1386,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdInclude;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdInclude() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdInclude() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdInclude;
 }
@@ -1398,7 +1398,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdImport;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdImport() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdImport() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdImport;
 }
@@ -1410,7 +1410,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdElement() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdElement;
 }
@@ -1422,7 +1422,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAttribute;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAttribute() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAttribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAttribute;
 }
@@ -1434,7 +1434,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAttributeGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAttributeGroup() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAttributeGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAttributeGroup;
 }
@@ -1446,7 +1446,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAnyAttribute;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAnyAttribute() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAnyAttribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAnyAttribute;
 }
@@ -1458,7 +1458,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdGroup() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdGroup;
 }
@@ -1470,7 +1470,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAll;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAll() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAll() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAll;
 }
@@ -1482,7 +1482,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdChoice;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdChoice() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdChoice() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdChoice;
 }
@@ -1494,7 +1494,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSequence;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSequence() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSequence() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSequence;
 }
@@ -1506,7 +1506,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAny;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAny() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAny() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAny;
 }
@@ -1518,7 +1518,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdNotation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdNotation() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdNotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdNotation;
 }
@@ -1530,7 +1530,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSimpleType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSimpleType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSimpleType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSimpleType;
 }
@@ -1542,7 +1542,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdComplexType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdComplexType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdComplexType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdComplexType;
 }
@@ -1554,7 +1554,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdUnique;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdUnique() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdUnique() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdUnique;
 }
@@ -1566,7 +1566,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdKey() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdKey;
 }
@@ -1578,7 +1578,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdKeyRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdKeyRef() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdKeyRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdKeyRef;
 }
@@ -1590,7 +1590,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSelector;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSelector() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSelector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSelector;
 }
@@ -1602,7 +1602,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdField() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdField;
 }
@@ -1614,7 +1614,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMinExclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMinExclusive() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMinExclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMinExclusive;
 }
@@ -1626,7 +1626,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMinInclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMinInclusive() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMinInclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMinInclusive;
 }
@@ -1638,7 +1638,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMaxInclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMaxInclusive() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMaxInclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMaxInclusive;
 }
@@ -1650,7 +1650,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMaxExclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMaxExclusive() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMaxExclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMaxExclusive;
 }
@@ -1662,7 +1662,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdTotalDigits;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdTotalDigits() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdTotalDigits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdTotalDigits;
 }
@@ -1674,7 +1674,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdFractionDigits;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdFractionDigits() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdFractionDigits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdFractionDigits;
 }
@@ -1686,7 +1686,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdLength;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdLength() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdLength;
 }
@@ -1698,7 +1698,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMinLength;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMinLength() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMinLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMinLength;
 }
@@ -1710,7 +1710,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMaxLength;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMaxLength() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdMaxLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdMaxLength;
 }
@@ -1722,7 +1722,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdEnumeration;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdEnumeration() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdEnumeration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdEnumeration;
 }
@@ -1734,7 +1734,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdPattern;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdPattern() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdPattern() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdPattern;
 }
@@ -1746,7 +1746,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdDocumentation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdDocumentation() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdDocumentation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdDocumentation;
 }
@@ -1758,7 +1758,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAppinfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAppinfo() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAppinfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAppinfo;
 }
@@ -1770,7 +1770,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSource() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnSource;
 }
@@ -1782,7 +1782,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdComplexContent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdComplexContent() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdComplexContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdComplexContent;
 }
@@ -1794,7 +1794,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSimpleContent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSimpleContent() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdSimpleContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdSimpleContent;
 }
@@ -1806,7 +1806,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdRestriction;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdRestriction() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdRestriction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdRestriction;
 }
@@ -1818,7 +1818,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdExtension;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdExtension() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdExtension() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdExtension;
 }
@@ -1830,7 +1830,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdUnion;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdUnion() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdUnion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdUnion;
 }
@@ -1842,7 +1842,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdList() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdList;
 }
@@ -1854,7 +1854,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdWhiteSpace;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdWhiteSpace() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdWhiteSpace() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdWhiteSpace;
 }
@@ -1866,7 +1866,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdRedefine;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdRedefine() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdRedefine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdRedefine;
 }
@@ -1878,7 +1878,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::SchemaNames::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAnyType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAnyType() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::SchemaNames::__cordl_internal_get_QnXsdAnyType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QnXsdAnyType;
 }
@@ -1897,9 +1897,6 @@ constexpr ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQ
 constexpr void System::Xml::Schema::SchemaNames::__cordl_internal_set_TokenToQName(::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TokenToQName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Schema::SchemaNames* System::Xml::Schema::SchemaNames::New_ctor(::System::Xml::XmlNameTable* nameTable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SchemaNames*>(nameTable));
 }
 inline void System::Xml::Schema::SchemaNames::_ctor(::System::Xml::XmlNameTable* nameTable) {
   static auto* ___internal_method =
@@ -1929,6 +1926,9 @@ inline bool System::Xml::Schema::SchemaNames::IsXDRRoot(::StringW localName, ::S
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SchemaNames*>::get(), "IsXDRRoot", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, localName, ns);
+}
+inline ::System::Xml::Schema::SchemaNames* System::Xml::Schema::SchemaNames::New_ctor(::System::Xml::XmlNameTable* nameTable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SchemaNames*>(nameTable));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaNames::SchemaNames() {}

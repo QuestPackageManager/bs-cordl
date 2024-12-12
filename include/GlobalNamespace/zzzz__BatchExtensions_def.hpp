@@ -3,11 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchExtensions)
 namespace GlobalNamespace {
-template <typename T> class __BatchExtensions___Batch_d__0_1;
+template <typename T> class BatchExtensions__Batch_d__0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -19,13 +24,7 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -35,19 +34,19 @@ namespace GlobalNamespace {
 class BatchExtensions;
 }
 namespace GlobalNamespace {
-template <typename T> class __BatchExtensions___Batch_d__0_1;
+template <typename T> class BatchExtensions__Batch_d__0_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BatchExtensions);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__BatchExtensions___Batch_d__0_1);
-// Type: ::<Batch>d__0`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::GlobalNamespace::BatchExtensions__Batch_d__0_1);
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BatchExtensions::<Batch>d__0`1<T>*
-class CORDL_TYPE __BatchExtensions___Batch_d__0_1 : public ::System::Object {
+// CS Name: BatchExtensions/<Batch>d__0`1<T>
+class CORDL_TYPE BatchExtensions__Batch_d__0_1 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___get_Current)) ::System::Collections::Generic::List_1<T>*
@@ -97,7 +96,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::BatchExtensions__Batch_d__0_1<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.List<T>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>* System_Collections_Generic_IEnumerable_System_Collections_Generic_List_T___GetEnumerator();
@@ -121,21 +120,21 @@ public:
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get___2__current();
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get___2__current();
 
   constexpr int32_t const& __cordl_internal_get___3__batchSize() const;
 
   constexpr int32_t& __cordl_internal_get___3__batchSize();
 
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* const& __cordl_internal_get___3__enumerable() const;
+
   constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__enumerable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__enumerable() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* const& __cordl_internal_get___7__wrap1() const;
 
   constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap1() const;
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
@@ -145,9 +144,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_batchSize();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_enumerable();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* const& __cordl_internal_get_enumerable() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_enumerable() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_enumerable();
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -191,16 +190,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BatchExtensions___Batch_d__0_1();
+  constexpr BatchExtensions__Batch_d__0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BatchExtensions___Batch_d__0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions__Batch_d__0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BatchExtensions___Batch_d__0_1(__BatchExtensions___Batch_d__0_1&&) = delete;
+  BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BatchExtensions___Batch_d__0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions__Batch_d__0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BatchExtensions___Batch_d__0_1(__BatchExtensions___Batch_d__0_1 const&) = delete;
+  BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14687 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -226,22 +228,18 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<T>* _____7__wrap1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14653 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::BatchExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BatchExtensions*
+// CS Name: BatchExtensions
 class CORDL_TYPE BatchExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using _Batch_d__0_1 = ::GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>;
+  template <typename T> using _Batch_d__0_1 = ::GlobalNamespace::BatchExtensions__Batch_d__0_1<T>;
 
   /// @brief Method Batch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -262,7 +260,7 @@ public:
   BatchExtensions(BatchExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -272,4 +270,4 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BatchExtensions
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BatchExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BatchExtensions*, "", "BatchExtensions");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__BatchExtensions___Batch_d__0_1, "", "BatchExtensions/<Batch>d__0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::BatchExtensions__Batch_d__0_1, "", "BatchExtensions/<Batch>d__0`1");

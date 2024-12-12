@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TextMeshProAutosizeGroup)
 namespace TMPro {
 class TMP_Text;
@@ -15,11 +14,10 @@ class TextMeshProAutosizeGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TextMeshProAutosizeGroup);
-// Type: ::TextMeshProAutosizeGroup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TextMeshProAutosizeGroup*
+// CS Name: TextMeshProAutosizeGroup
 class CORDL_TYPE TextMeshProAutosizeGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -28,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::TextMeshProAutosizeGroup* New_ctor();
 
-  /// @brief Method Start, addr 0x3990f14, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e7a94, size 0x104, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get__texts() const;
@@ -37,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> value);
 
-  /// @brief Method .ctor, addr 0x3991018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextMeshProAutosizeGroup(TextMeshProAutosizeGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15997 };
+
   /// @brief Field _texts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> ____texts;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15962 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextMeshProAutosizeGroup, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TextMeshProAutosizeGroup, ____texts) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextMeshProAutosizeGroup, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextMeshProAutosizeGroup);

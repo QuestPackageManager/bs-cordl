@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -24,10 +23,10 @@ namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+class BinaryDataProvider_InternalOp;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __BinaryDataProvider__InternalOp;
+struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement {
 class WebRequestQueueOperation;
@@ -40,17 +39,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class BinaryDataProvider;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __BinaryDataProvider__InternalOp;
+class BinaryDataProvider_InternalOp;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider);
-MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp);
-// Type: ::InternalOp
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp);
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::BinaryDataProvider::InternalOp*
-class CORDL_TYPE __BinaryDataProvider__InternalOp : public ::System::Object {
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.BinaryDataProvider/InternalOp
+class CORDL_TYPE BinaryDataProvider_InternalOp : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Complete, offset 0x41, size 0x1
@@ -75,30 +73,30 @@ public:
   /// @brief Field m_Timeout, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Timeout, put = __cordl_internal_set_m_Timeout)) int32_t m_Timeout;
 
-  /// @brief Method CompleteOperation, addr 0x473a464, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x479b778, size 0xa4, virtual false, abstract: false, final false
   inline void CompleteOperation(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::Exception* exception);
 
-  /// @brief Method ConvertBytes, addr 0x473a090, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ConvertBytes, addr 0x479b3a4, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Object* ConvertBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetPercentComplete, addr 0x473a078, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPercentComplete, addr 0x479b38c, size 0x18, virtual false, abstract: false, final false
   inline float_t GetPercentComplete();
 
-  static inline ::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp* New_ctor();
+  static inline ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp* New_ctor();
 
-  /// @brief Method RequestOperation_completed, addr 0x473a2a8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method RequestOperation_completed, addr 0x479b5bc, size 0x1bc, virtual false, abstract: false, final false
   inline void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method SendWebRequest, addr 0x473a508, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method SendWebRequest, addr 0x479b81c, size 0x288, virtual true, abstract: false, final false
   inline void SendWebRequest(::StringW path);
 
-  /// @brief Method Start, addr 0x4739be4, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x479aef8, size 0x48c, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider* rawProvider);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x473a234, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x479b548, size 0x74, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method <SendWebRequest>b__13_0, addr 0x473a790, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <SendWebRequest>b__13_0, addr 0x479baa4, size 0x94, virtual false, abstract: false, final false
   inline void _SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
   constexpr bool const& __cordl_internal_get_m_Complete() const;
@@ -113,17 +111,17 @@ public:
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_PI();
 
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider* const& __cordl_internal_get_m_Provider() const;
+
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider*& __cordl_internal_get_m_Provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider*> const& __cordl_internal_get_m_Provider() const;
+  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation* const& __cordl_internal_get_m_RequestOperation() const;
 
   constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_m_RequestOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_m_RequestOperation() const;
+  constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation* const& __cordl_internal_get_m_RequestQueueOperation() const;
 
   constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __cordl_internal_get_m_RequestQueueOperation();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const& __cordl_internal_get_m_RequestQueueOperation() const;
 
   constexpr int32_t const& __cordl_internal_get_m_Timeout() const;
 
@@ -143,22 +141,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Timeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4739bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479aef0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BinaryDataProvider__InternalOp();
+  constexpr BinaryDataProvider_InternalOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BinaryDataProvider__InternalOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider_InternalOp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BinaryDataProvider__InternalOp(__BinaryDataProvider__InternalOp&&) = delete;
+  BinaryDataProvider_InternalOp(BinaryDataProvider_InternalOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BinaryDataProvider__InternalOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider_InternalOp", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BinaryDataProvider__InternalOp(__BinaryDataProvider__InternalOp const&) = delete;
+  BinaryDataProvider_InternalOp(BinaryDataProvider_InternalOp const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15654 };
 
   /// @brief Field m_Provider, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider* ___m_Provider;
@@ -181,50 +182,46 @@ public:
   /// @brief Field m_Timeout, offset: 0x44, size: 0x4, def value: None
   int32_t ___m_Timeout;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15619 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, 0x48>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, ___m_Provider) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, ___m_Provider) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, ___m_RequestOperation) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, ___m_RequestOperation) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, ___m_RequestQueueOperation) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, ___m_RequestQueueOperation) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, ___m_PI) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, ___m_PI) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, ___m_IgnoreFailures) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, ___m_IgnoreFailures) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, ___m_Complete) == 0x41, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, ___m_Complete) == 0x41, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, ___m_Timeout) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp, ___m_Timeout) == 0x44, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp, 0x48>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
-// Type: UnityEngine.ResourceManagement.ResourceProviders::BinaryDataProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::BinaryDataProvider*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.BinaryDataProvider
 class CORDL_TYPE BinaryDataProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
-  using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp;
+  using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp;
 
   __declspec(property(get = get_IgnoreFailures, put = set_IgnoreFailures)) bool IgnoreFailures;
 
   /// @brief Field <IgnoreFailures>k__BackingField, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get__IgnoreFailures_k__BackingField, put = __cordl_internal_set__IgnoreFailures_k__BackingField)) bool _IgnoreFailures_k__BackingField;
 
-  /// @brief Method Convert, addr 0x4739b34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x479ae48, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Type* type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x4739b3c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x479ae50, size 0xa0, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
   constexpr bool const& __cordl_internal_get__IgnoreFailures_k__BackingField() const;
@@ -233,13 +230,13 @@ public:
 
   constexpr void __cordl_internal_set__IgnoreFailures_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x473a070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479b384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IgnoreFailures, addr 0x4739b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x479ae34, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method set_IgnoreFailures, addr 0x4739b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x479ae3c, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
 protected:
@@ -256,21 +253,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryDataProvider(BinaryDataProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15655 };
+
   /// @brief Field <IgnoreFailures>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____IgnoreFailures_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider, ____IgnoreFailures_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "BinaryDataProvider");
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::__BinaryDataProvider__InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BinaryDataProvider/InternalOp");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BinaryDataProvider/InternalOp");

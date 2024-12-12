@@ -12,11 +12,10 @@ struct HAPI_AttributeTypeInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_AttributeTypeInfo);
-// Type: HoudiniEngineUnity::HAPI_AttributeTypeInfo
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_AttributeTypeInfo
+// CS Name: HoudiniEngineUnity.HAPI_AttributeTypeInfo
 struct CORDL_TYPE HAPI_AttributeTypeInfo {
 public:
   // Declarations
@@ -59,69 +58,69 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_AttributeTypeInfo(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_BOX value: static_cast<int32_t>(0xc)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_BOX value: I32(12)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_BOX;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_BOX2 value: static_cast<int32_t>(0xb)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_BOX2 value: I32(11)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_BOX2;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_COLOR value: static_cast<int32_t>(0x5)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_COLOR value: I32(5)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_COLOR;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_HIDDEN value: static_cast<int32_t>(0xa)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_HIDDEN value: I32(10)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_HIDDEN;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_HPOINT value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_HPOINT value: I32(2)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_HPOINT;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_INVALID value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_INVALID value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_INVALID;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_MATRIX value: static_cast<int32_t>(0x8)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_MATRIX value: I32(8)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MATRIX;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_MATRIX3 value: static_cast<int32_t>(0x7)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_MATRIX3 value: I32(7)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MATRIX3;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_MAX value: static_cast<int32_t>(0xe)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_MAX value: I32(14)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_MAX;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_NONE value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_NONE value: I32(0)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_NONE;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_NORMAL value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_NORMAL value: I32(4)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_NORMAL;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_POINT value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_POINT value: I32(1)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_POINT;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_QUATERNION value: static_cast<int32_t>(0x6)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_QUATERNION value: I32(6)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_QUATERNION;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_ST value: static_cast<int32_t>(0x9)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_ST value: I32(9)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_ST;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_TEXTURE value: static_cast<int32_t>(0xd)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_TEXTURE value: I32(13)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_TEXTURE;
 
-  /// @brief Field HAPI_ATTRIBUTE_TYPE_VECTOR value: static_cast<int32_t>(0x3)
+  /// @brief Field HAPI_ATTRIBUTE_TYPE_VECTOR value: I32(3)
   static ::HoudiniEngineUnity::HAPI_AttributeTypeInfo const HAPI_ATTRIBUTE_TYPE_VECTOR;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_AttributeTypeInfo, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeTypeInfo, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_AttributeTypeInfo, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_AttributeTypeInfo, "HoudiniEngineUnity", "HAPI_AttributeTypeInfo");

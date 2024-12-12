@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaRedefine::*)()>(&::System::Xml::Schema::XmlSchemaRedefine::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x425efdc;
+  constexpr static std::size_t addrs = 0x42c02f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaRedefine*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaRedefine::*)()>(
     &::System::Xml::Schema::XmlSchemaRedefine::get_Items)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425f0a0;
+  constexpr static std::size_t addrs = 0x42c03b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaRedefine*>::get(), "get_Items",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchemaRedefine::*)()>(
     &::System::Xml::Schema::XmlSchemaRedefine::get_AttributeGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425f0a8;
+  constexpr static std::size_t addrs = 0x42c03bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaRedefine*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchemaRedefine::*)()>(
     &::System::Xml::Schema::XmlSchemaRedefine::get_SchemaTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425f0b0;
+  constexpr static std::size_t addrs = 0x42c03c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaRedefine*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchemaRedefine::*)()>(
     &::System::Xml::Schema::XmlSchemaRedefine::get_Groups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425f0b8;
+  constexpr static std::size_t addrs = 0x42c03cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaRedefine*>::get(), "get_Groups",
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaRedefine::*)(::System::Xml::Schema::XmlSchemaAnnotation*)>(
     &::System::Xml::Schema::XmlSchemaRedefine::AddAnnotation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x425f0c0;
+  constexpr static std::size_t addrs = 0x42c03d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Xml::Schema
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_items() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_items() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
@@ -105,7 +105,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Xml
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeGroups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectTable*> const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_attributeGroups() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_attributeGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeGroups;
 }
@@ -117,7 +117,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Xml
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___types;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectTable*> const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_types() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_types() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___types;
 }
@@ -129,16 +129,13 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Xml
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectTable*> const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_groups() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_get_groups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groups;
 }
 constexpr void System::Xml::Schema::XmlSchemaRedefine::__cordl_internal_set_groups(::System::Xml::Schema::XmlSchemaObjectTable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___groups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Schema::XmlSchemaRedefine* System::Xml::Schema::XmlSchemaRedefine::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaRedefine*>());
 }
 inline void System::Xml::Schema::XmlSchemaRedefine::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaRedefine*>::get(), ".ctor",
@@ -169,6 +166,9 @@ inline void System::Xml::Schema::XmlSchemaRedefine::AddAnnotation(::System::Xml:
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaRedefine*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, annotation);
+}
+inline ::System::Xml::Schema::XmlSchemaRedefine* System::Xml::Schema::XmlSchemaRedefine::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaRedefine*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaRedefine::XmlSchemaRedefine() {}

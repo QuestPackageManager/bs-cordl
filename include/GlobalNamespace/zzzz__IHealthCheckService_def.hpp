@@ -3,24 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IHealthCheckService)
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class IHealthCheckService;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IHealthCheckService);
-// Type: ::IHealthCheckService
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IPollable, System.IDisposable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IHealthCheckService*
+// CS Name: IHealthCheckService
 class CORDL_TYPE IHealthCheckService {
 public:
   // Declarations
@@ -36,16 +31,12 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IHealthCheckService", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IHealthCheckService(IHealthCheckService&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IHealthCheckService", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IHealthCheckService(IHealthCheckService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

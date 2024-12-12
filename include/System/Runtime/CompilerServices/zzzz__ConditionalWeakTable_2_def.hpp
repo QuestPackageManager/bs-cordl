@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConditionalWeakTable_2)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
@@ -21,22 +21,16 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_Enumerator;
+}
+namespace System::Runtime::CompilerServices {
 struct Ephemeron;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 struct IntPtr;
@@ -49,29 +43,28 @@ namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::ConditionalWeakTable_2);
-MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback);
-MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator);
-// Type: ::CreateValueCallback
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback);
+MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::ConditionalWeakTable_2_Enumerator);
+// Dependencies System.MulticastDelegate
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::ConditionalWeakTable`2::CreateValueCallback<TKey,TValue>*
-class CORDL_TYPE __ConditionalWeakTable_2__CreateValueCallback : public ::System::MulticastDelegate {
+// CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<TKey,TValue>
+class CORDL_TYPE ConditionalWeakTable_2_CreateValueCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Invoke(TKey key);
 
-  static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<TKey, TValue>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
@@ -79,16 +72,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ConditionalWeakTable_2__CreateValueCallback();
+  constexpr ConditionalWeakTable_2_CreateValueCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__CreateValueCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_CreateValueCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ConditionalWeakTable_2__CreateValueCallback(__ConditionalWeakTable_2__CreateValueCallback&&) = delete;
+  ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__CreateValueCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_CreateValueCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ConditionalWeakTable_2__CreateValueCallback(__ConditionalWeakTable_2__CreateValueCallback const&) = delete;
+  ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3419 };
@@ -97,14 +90,13 @@ public:
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
-// Type: ::Enumerator
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
-class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
+// CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2/Enumerator<TKey,TValue>
+class CORDL_TYPE ConditionalWeakTable_2_Enumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
@@ -138,7 +130,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>* New_ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
+  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2_Enumerator<TKey, TValue>* New_ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
 
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
@@ -154,9 +146,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__currentIndex();
 
-  constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*& __cordl_internal_get__table();
+  constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* const& __cordl_internal_get__table() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*> const& __cordl_internal_get__table() const;
+  constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*& __cordl_internal_get__table();
 
   constexpr void __cordl_internal_set__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value);
 
@@ -183,16 +175,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ConditionalWeakTable_2__Enumerator();
+  constexpr ConditionalWeakTable_2_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_Enumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ConditionalWeakTable_2__Enumerator(__ConditionalWeakTable_2__Enumerator&&) = delete;
+  ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_Enumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ConditionalWeakTable_2__Enumerator(__ConditionalWeakTable_2__Enumerator const&) = delete;
+  ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3420 };
 
   /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* ____table;
@@ -203,26 +198,22 @@ public:
   /// @brief Field _current, offset: 0x20, size: 0x10, def value: None
   ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> ____current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3420 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
-// Type: System.Runtime.CompilerServices::ConditionalWeakTable`2
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable, System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::ConditionalWeakTable`2<TKey,TValue>*
+// CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2<TKey,TValue>
 class CORDL_TYPE ConditionalWeakTable_2 : public ::System::Object {
 public:
   // Declarations
-  using CreateValueCallback = ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>;
+  using CreateValueCallback = ::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<TKey, TValue>;
 
-  using Enumerator = ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>;
+  using Enumerator = ::System::Runtime::CompilerServices::ConditionalWeakTable_2_Enumerator<TKey, TValue>;
 
   /// @brief Field _lock, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
@@ -248,7 +239,7 @@ public:
   inline void Finalize();
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue GetValue(TKey key, ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>* createValueCallback);
+  inline TValue GetValue(TKey key, ::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<TKey, TValue>* createValueCallback);
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* New_ctor();
 
@@ -273,11 +264,11 @@ public:
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetValue(TKey key, ByRef<TValue> value);
+  inline bool TryGetValue(TKey key, ::ByRef<TValue> value);
+
+  constexpr ::System::Object* const& __cordl_internal_get__lock() const;
 
   constexpr ::System::Object*& __cordl_internal_get__lock();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
 
   constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> const& __cordl_internal_get_data() const;
 
@@ -317,6 +308,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalWeakTable_2(ConditionalWeakTable_2 const&) = delete;
 
+  /// @brief Field COMPACT_FACTOR offset 0xffffffff size 0x4
+  static constexpr float_t COMPACT_FACTOR{ static_cast<float_t>(0.5f) };
+
+  /// @brief Field EXPAND_FACTOR offset 0xffffffff size 0x4
+  static constexpr float_t EXPAND_FACTOR{ static_cast<float_t>(1.1f) };
+
+  /// @brief Field INITIAL_SIZE offset 0xffffffff size 0x4
+  static constexpr int32_t INITIAL_SIZE{ static_cast<int32_t>(0xd) };
+
+  /// @brief Field LOAD_FACTOR offset 0xffffffff size 0x4
+  static constexpr float_t LOAD_FACTOR{ static_cast<float_t>(0.7f) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3421 };
+
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> ___data;
 
@@ -326,26 +332,10 @@ public:
   /// @brief Field size, offset: 0x20, size: 0x4, def value: None
   int32_t ___size;
 
-  /// @brief Field COMPACT_FACTOR offset 0xffffffff size 0x4
-  static constexpr float_t COMPACT_FACTOR{ 0.5 };
-
-  /// @brief Field EXPAND_FACTOR offset 0xffffffff size 0x4
-  static constexpr float_t EXPAND_FACTOR{ 1.1 };
-
-  /// @brief Field INITIAL_SIZE offset 0xffffffff size 0x4
-  static constexpr int32_t INITIAL_SIZE{ static_cast<int32_t>(0xd) };
-
-  /// @brief Field LOAD_FACTOR offset 0xffffffff size 0x4
-  static constexpr float_t LOAD_FACTOR{ 0.7 };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3421 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::ConditionalWeakTable_2, "System.Runtime.CompilerServices", "ConditionalWeakTable`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback, "System.Runtime.CompilerServices",
-                                     "ConditionalWeakTable`2/CreateValueCallback");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator, "System.Runtime.CompilerServices", "ConditionalWeakTable`2/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback, "System.Runtime.CompilerServices", "ConditionalWeakTable`2/CreateValueCallback");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::ConditionalWeakTable_2_Enumerator, "System.Runtime.CompilerServices", "ConditionalWeakTable`2/Enumerator");

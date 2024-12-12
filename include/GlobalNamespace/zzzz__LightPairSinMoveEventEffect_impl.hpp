@@ -11,122 +11,122 @@
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__LightPairSinMoveEventEffect_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData._ctor
+//  Writing Method size for method: ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::*)()>(
-    &::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::*)()>(
+    &::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2f80c;
+  constexpr static std::size_t addrs = 0x3b90d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_enabled() {
+constexpr bool& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_enabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabled;
 }
-constexpr bool const& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_enabled() const {
+constexpr bool const& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_enabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabled;
 }
-constexpr void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_set_enabled(bool value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_set_enabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enabled = value;
 }
-constexpr float_t& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_speed() {
+constexpr float_t& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_speed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___speed;
 }
-constexpr float_t const& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_speed() const {
+constexpr float_t const& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_speed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___speed;
 }
-constexpr void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_set_speed(float_t value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_set_speed(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___speed = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_startPosition() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_startPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPosition;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_startPosition() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_startPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPosition;
 }
-constexpr void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_set_startPosition(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_set_startPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startPosition = value;
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_transform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_transform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
-constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_transform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_transform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
-constexpr void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_startMovementValue() {
+constexpr float_t& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_startMovementValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startMovementValue;
 }
-constexpr float_t const& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_startMovementValue() const {
+constexpr float_t const& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_startMovementValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startMovementValue;
 }
-constexpr void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_set_startMovementValue(float_t value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_set_startMovementValue(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startMovementValue = value;
 }
-constexpr float_t& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_movementValue() {
+constexpr float_t& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_movementValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___movementValue;
 }
-constexpr float_t const& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_movementValue() const {
+constexpr float_t const& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_movementValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___movementValue;
 }
-constexpr void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_set_movementValue(float_t value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_set_movementValue(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___movementValue = value;
 }
-constexpr float_t& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_side() {
+constexpr float_t& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_side() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___side;
 }
-constexpr float_t const& GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_get_side() const {
+constexpr float_t const& GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_get_side() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___side;
 }
-constexpr void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__cordl_internal_set_side(float_t value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::__cordl_internal_set_side(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___side = value;
 }
-inline ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*>());
-}
-inline void GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::_ctor() {
+inline void GlobalNamespace::LightPairSinMoveEventEffect_MovementData::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* GlobalNamespace::LightPairSinMoveEventEffect_MovementData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData::__LightPairSinMoveEventEffect__MovementData() {}
+constexpr ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::LightPairSinMoveEventEffect_MovementData() {}
 //  Writing Method size for method: ::GlobalNamespace::LightPairSinMoveEventEffect.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::Start)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x3b2f4fc;
+  constexpr static std::size_t addrs = 0x3b90a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), "Start",
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::Update)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3b2f814;
+  constexpr static std::size_t addrs = 0x3b90d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), "Update",
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b2f9f0;
+  constexpr static std::size_t addrs = 0x3b90f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3b2fa0c;
+  constexpr static std::size_t addrs = 0x3b90f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,15 +181,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)(
-    int32_t, ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*, float_t)>(&::GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData)> {
+    int32_t, ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*, float_t)>(&::GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3b2fb68;
+  constexpr static std::size_t addrs = 0x3b910d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), "UpdateMovementData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b2fca0;
+  constexpr static std::size_t addrs = 0x3b91208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), ".ctor",
@@ -319,8 +319,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Light
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
-GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -332,7 +331,7 @@ constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::LightPairSinMov
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__audioTimeSource() const {
+constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
@@ -340,29 +339,27 @@ constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataL() {
+constexpr ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataL() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementDataL;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*> const&
-GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataL() const {
+constexpr ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataL() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementDataL;
 }
-constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_set__movementDataL(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_set__movementDataL(::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____movementDataL)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataR() {
+constexpr ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataR() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementDataR;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*> const&
-GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataR() const {
+constexpr ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataR() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementDataR;
 }
-constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_set__movementDataR(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* value) {
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_set__movementDataR(::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____movementDataR)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -394,8 +391,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Light
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
@@ -424,22 +420,22 @@ inline void GlobalNamespace::LightPairSinMoveEventEffect::HandleBeatmapEvent(::G
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
 }
-inline void GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* movementData,
+inline void GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData(int32_t beatmapEventDataValue, ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* movementData,
                                                                              float_t movementValueOffset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), "UpdateMovementData", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapEventDataValue, movementData, movementValueOffset);
-}
-inline ::GlobalNamespace::LightPairSinMoveEventEffect* GlobalNamespace::LightPairSinMoveEventEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightPairSinMoveEventEffect*>());
 }
 inline void GlobalNamespace::LightPairSinMoveEventEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LightPairSinMoveEventEffect* GlobalNamespace::LightPairSinMoveEventEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightPairSinMoveEventEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightPairSinMoveEventEffect::LightPairSinMoveEventEffect() {}

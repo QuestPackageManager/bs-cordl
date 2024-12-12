@@ -32,11 +32,10 @@ class ControllerColliderHit;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ControllerColliderHit);
-// Type: UnityEngine::ControllerColliderHit
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ControllerColliderHit*
+// CS Name: UnityEngine.ControllerColliderHit
 class CORDL_TYPE ControllerColliderHit : public ::System::Object {
 public:
   // Declarations
@@ -125,40 +124,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Push(int32_t value);
 
-  /// @brief Method .ctor, addr 0x488e828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f2eb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_collider, addr 0x488e710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x48f2da0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_controller, addr 0x488e708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controller, addr 0x48f2d98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CharacterController> get_controller();
 
-  /// @brief Method get_gameObject, addr 0x488e798, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x48f2e28, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_moveDirection, addr 0x488e7e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_moveDirection, addr 0x48f2e78, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_moveDirection();
 
-  /// @brief Method get_moveLength, addr 0x488e7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveLength, addr 0x48f2e84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_moveLength();
 
-  /// @brief Method get_normal, addr 0x488e7dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x48f2e6c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_point, addr 0x488e7d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x48f2e60, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_push, addr 0x488e7fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_push, addr 0x48f2e8c, size 0x10, virtual false, abstract: false, final false
   inline bool get_push();
 
-  /// @brief Method get_rigidbody, addr 0x488e718, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rigidbody, addr 0x48f2da8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_rigidbody();
 
-  /// @brief Method get_transform, addr 0x488e7b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x48f2e44, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method set_push, addr 0x488e80c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_push, addr 0x48f2e9c, size 0x1c, virtual false, abstract: false, final false
   inline void set_push(bool value);
 
 protected:
@@ -174,6 +173,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ControllerColliderHit", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ControllerColliderHit(ControllerColliderHit const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15719 };
 
   /// @brief Field m_Controller, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CharacterController> ___m_Controller;
@@ -196,14 +198,9 @@ public:
   /// @brief Field m_Push, offset: 0x48, size: 0x4, def value: None
   int32_t ___m_Push;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15684 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ControllerColliderHit, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Controller) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Collider) == 0x18, "Offset mismatch!");
@@ -217,6 +214,8 @@ static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_MoveDirection)
 static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_MoveLength) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Push) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ControllerColliderHit, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ControllerColliderHit);

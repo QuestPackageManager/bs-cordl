@@ -12,26 +12,25 @@ class TouchPressControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchPressControl);
-// Type: UnityEngine.InputSystem.Controls::TouchPressControl
-// SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Controls.ButtonControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Controls::TouchPressControl*
+// CS Name: UnityEngine.InputSystem.Controls.TouchPressControl
 class CORDL_TYPE TouchPressControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x4501698, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x45629ac, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::TouchPressControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x4501794, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x4562aa8, size 0x14c, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x4501a44, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x4562d58, size 0x38, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x4501a7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4562d90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +48,7 @@ public:
   TouchPressControl(TouchPressControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

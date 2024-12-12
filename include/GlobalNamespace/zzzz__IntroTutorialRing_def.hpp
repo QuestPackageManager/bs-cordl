@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IntroTutorialRing)
 namespace GlobalNamespace {
@@ -35,11 +34,10 @@ class IntroTutorialRing;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IntroTutorialRing);
-// Type: ::IntroTutorialRing
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SaberType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IntroTutorialRing*
+// CS Name: IntroTutorialRing
 class CORDL_TYPE IntroTutorialRing : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -91,25 +89,25 @@ public:
 
   static inline ::GlobalNamespace::IntroTutorialRing* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3adf82c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b3eef4, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTriggerEnter, addr 0x3adfa08, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x3b3f0d0, size 0x10c, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerExit, addr 0x3adfb14, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x3b3f1dc, size 0x10c, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerStay, addr 0x3adfc20, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerStay, addr 0x3b3f2e8, size 0x10c, virtual false, abstract: false, final false
   inline void OnTriggerStay(::UnityEngine::Collider* other);
 
-  /// @brief Method SetProgressImagesfillAmount, addr 0x3adf998, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetProgressImagesfillAmount, addr 0x3b3f060, size 0x70, virtual false, abstract: false, final false
   inline void SetProgressImagesfillAmount(float_t fillAmount);
 
-  /// @brief Method Start, addr 0x3adf7a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3ee68, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3adf87c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b3ef44, size 0x11c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__activationDuration() const;
@@ -124,9 +122,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr float_t const& __cordl_internal_get__emitNextParticleTimer() const;
 
@@ -152,9 +150,9 @@ public:
 
   constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
 
-  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*& __cordl_internal_get__sabersInside();
+  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>* const& __cordl_internal_get__sabersInside() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*> const& __cordl_internal_get__sabersInside() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*& __cordl_internal_get__sabersInside();
 
   constexpr bool const& __cordl_internal_get__sabersInsideAfterOnEnable() const;
 
@@ -184,19 +182,19 @@ public:
 
   constexpr void __cordl_internal_set__sabersInsideAfterOnEnable(bool value);
 
-  /// @brief Method .ctor, addr 0x3adfd2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f3f4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fullyActivated, addr 0x3adf76c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_fullyActivated, addr 0x3b3ee34, size 0x24, virtual false, abstract: false, final false
   inline bool get_fullyActivated();
 
-  /// @brief Method get_saberType, addr 0x3adf790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x3b3ee58, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
-  /// @brief Method set_alpha, addr 0x3adf750, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3b3ee18, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_saberType, addr 0x3adf798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x3b3ee60, size 0x8, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:
@@ -212,6 +210,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialRing", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IntroTutorialRing(IntroTutorialRing const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5278 };
 
   /// @brief Field _progressImages, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> ____progressImages;
@@ -249,14 +250,9 @@ public:
   /// @brief Field _sabersInsideAfterOnEnable, offset: 0x70, size: 0x1, def value: None
   bool ____sabersInsideAfterOnEnable;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5255 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntroTutorialRing, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____progressImages) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____saberType) == 0x28, "Offset mismatch!");
@@ -280,6 +276,8 @@ static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____activationProgr
 static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____sabersInside) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____sabersInsideAfterOnEnable) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntroTutorialRing, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IntroTutorialRing);

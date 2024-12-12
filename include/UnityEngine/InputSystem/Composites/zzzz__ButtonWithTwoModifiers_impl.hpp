@@ -7,9 +7,9 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
-    ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ReadValue)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ReadValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x45108c8;
+  constexpr static std::size_t addrs = 0x4571bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,14 +23,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
-    ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ModifiersArePressed)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ModifiersArePressed)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4510938;
+  constexpr static std::size_t addrs = 0x4571c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>::get(), "ModifiersArePressed", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
     return ___internal_method;
   }
 };
@@ -38,9 +38,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
-    ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::EvaluateMagnitude)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45109ec;
+  constexpr static std::size_t addrs = 0x4571d00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,9 +54,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
-    ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::FinishSetup)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::FinishSetup)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x45109f8;
+  constexpr static std::size_t addrs = 0x4571d0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)()>(
     &::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4510a6c;
+  constexpr static std::size_t addrs = 0x4571d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,38 +129,38 @@ constexpr void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideModifiersNeedToBePressedFirst = value;
 }
-inline float_t UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+inline float_t UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, context);
 }
-inline bool UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ModifiersArePressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+inline bool UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ModifiersArePressed(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>::get(), "ModifiersArePressed", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, context);
 }
-inline float_t UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+inline float_t UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::EvaluateMagnitude(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, context);
 }
-inline void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+inline void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::FinishSetup(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
-}
-inline ::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers* UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>());
 }
 inline void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers* UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ButtonWithTwoModifiers() {}

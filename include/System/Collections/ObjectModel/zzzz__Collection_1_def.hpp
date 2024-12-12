@@ -3,39 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Collection_1)
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System {
 class Array;
@@ -49,13 +35,13 @@ template <typename T> class Collection_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::Collection_1);
-// Type: System.Collections.ObjectModel::Collection`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>,
+// System.Collections.Generic.IReadOnlyList`1<T>, System.Collections.ICollection, System.Collections.IEnumerable, System.Collections.IList, System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.ObjectModel::Collection`1<T>*
+// CS Name: System.Collections.ObjectModel.Collection`1<T>
 class CORDL_TYPE Collection_1 : public ::System::Object {
 public:
   // Declarations
@@ -192,9 +178,9 @@ public:
   /// @brief Method System.Collections.IList.set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
-  constexpr ::System::Collections::Generic::IList_1<T>*& __cordl_internal_get_items();
+  constexpr ::System::Collections::Generic::IList_1<T>* const& __cordl_internal_get_items() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<T>*> const& __cordl_internal_get_items() const;
+  constexpr ::System::Collections::Generic::IList_1<T>*& __cordl_internal_get_items();
 
   constexpr void __cordl_internal_set_items(::System::Collections::Generic::IList_1<T>* value);
 
@@ -254,11 +240,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Collection_1(Collection_1 const&) = delete;
 
-  /// @brief Field items, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::IList_1<T>* ___items;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3823 };
+
+  /// @brief Field items, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::IList_1<T>* ___items;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

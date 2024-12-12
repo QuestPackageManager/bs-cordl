@@ -21,20 +21,19 @@ class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder);
-// Type: Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*
+// CS Name: Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder
 class CORDL_TYPE NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method WithGameObjectName, addr 0x4aab6b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithGameObjectName, addr 0x4b0ffc4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* WithGameObjectName(::StringW gameObjectName);
 
-  /// @brief Method .ctor, addr 0x4a9dfd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b028e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
 protected:
@@ -52,7 +51,7 @@ public:
   NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder(NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

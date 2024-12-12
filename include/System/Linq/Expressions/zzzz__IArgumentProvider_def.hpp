@@ -14,32 +14,27 @@ class IArgumentProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::IArgumentProvider);
-// Type: System.Linq.Expressions::IArgumentProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::IArgumentProvider*
+// CS Name: System.Linq.Expressions.IArgumentProvider
 class CORDL_TYPE IArgumentProvider {
 public:
   // Declarations
   __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
 
-  /// @brief Method GetArgument, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetArgument, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
-  /// @brief Method get_ArgumentCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ArgumentCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IArgumentProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IArgumentProvider(IArgumentProvider&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IArgumentProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IArgumentProvider(IArgumentProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,11 +14,10 @@ class ScrollToTopOnEnable;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScrollToTopOnEnable);
-// Type: HMUI::ScrollToTopOnEnable
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ScrollToTopOnEnable*
+// CS Name: HMUI.ScrollToTopOnEnable
 class CORDL_TYPE ScrollToTopOnEnable : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -27,7 +26,7 @@ public:
 
   static inline ::HMUI::ScrollToTopOnEnable* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x39a3a1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39fa68c, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::HMUI::ScrollView> const& __cordl_internal_get__scrollView() const;
@@ -36,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollView(::UnityW<::HMUI::ScrollView> value);
 
-  /// @brief Method .ctor, addr 0x39a3b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fa770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScrollToTopOnEnable(ScrollToTopOnEnable const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16085 };
+
   /// @brief Field _scrollView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____scrollView;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ScrollToTopOnEnable, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ScrollToTopOnEnable, ____scrollView) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ScrollToTopOnEnable, 0x28>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ScrollToTopOnEnable);

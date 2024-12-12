@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b7e88c;
+  constexpr static std::size_t addrs = 0x3be00d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "OnDestroy",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::InitIfNeeded)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3b7e914;
+  constexpr static std::size_t addrs = 0x3be0160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "InitIfNeeded",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::ScaleAnimator::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b7eb58;
+  constexpr static std::size_t addrs = 0x3be03a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::HideInstant)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3b7ebd0;
+  constexpr static std::size_t addrs = 0x3be041c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "HideInstant",
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::ShowInstant)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3b7ec78;
+  constexpr static std::size_t addrs = 0x3be04c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "ShowInstant",
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(bool, float_t, ::GlobalNamespace::EaseType, float_t)>(
     &::GlobalNamespace::ScaleAnimator::Animate)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b7ece8;
+  constexpr static std::size_t addrs = 0x3be0534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b7ede8;
+  constexpr static std::size_t addrs = 0x3be0634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), ".ctor",
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(float_t)>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b7edf8;
+  constexpr static std::size_t addrs = 0x3be0644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b7ee1c;
+  constexpr static std::size_t addrs = 0x3be0668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "<InitIfNeeded>b__7_2",
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)(float_t)>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b7ee48;
+  constexpr static std::size_t addrs = 0x3be0694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScaleAnimator::*)()>(&::GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b7ee6c;
+  constexpr static std::size_t addrs = 0x3be06b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "<InitIfNeeded>b__7_3",
@@ -200,7 +200,7 @@ constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::ScaleAnimator::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleUpTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::ScaleAnimator::__cordl_internal_get__scaleUpTween() const {
+constexpr ::Tweening::Tween_1<float_t>* const& GlobalNamespace::ScaleAnimator::__cordl_internal_get__scaleUpTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleUpTween;
 }
@@ -212,7 +212,7 @@ constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::ScaleAnimator::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleDownTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::ScaleAnimator::__cordl_internal_get__scaleDownTween() const {
+constexpr ::Tweening::Tween_1<float_t>* const& GlobalNamespace::ScaleAnimator::__cordl_internal_get__scaleDownTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleDownTween;
 }
@@ -259,7 +259,6 @@ inline void GlobalNamespace::ScaleAnimator::ShowInstant() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param delay: float_t (default: 0.0)
 inline void GlobalNamespace::ScaleAnimator::Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "Animate", std::span<Il2CppClass const* const, 0>(),
@@ -267,9 +266,6 @@ inline void GlobalNamespace::ScaleAnimator::Animate(bool show, float_t duration,
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, show, duration, easeType, delay);
-}
-inline ::GlobalNamespace::ScaleAnimator* GlobalNamespace::ScaleAnimator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScaleAnimator*>());
 }
 inline void GlobalNamespace::ScaleAnimator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), ".ctor",
@@ -297,6 +293,9 @@ inline void GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_3() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScaleAnimator*>::get(), "<InitIfNeeded>b__7_3",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ScaleAnimator* GlobalNamespace::ScaleAnimator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScaleAnimator*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScaleAnimator::ScaleAnimator() {}

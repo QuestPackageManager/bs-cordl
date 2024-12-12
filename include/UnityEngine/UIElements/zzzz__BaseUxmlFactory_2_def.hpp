@@ -21,13 +21,12 @@ template <typename TCreatedType, typename TTraits> class BaseUxmlFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BaseUxmlFactory_2);
-// Type: UnityEngine.UIElements::BaseUxmlFactory`2
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::BaseUxmlFactory`2<TCreatedType,TTraits>*
+// CS Name: UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType,TTraits>
 class CORDL_TYPE BaseUxmlFactory_2 : public ::System::Object {
 public:
   // Declarations
@@ -82,11 +81,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseUxmlFactory_2(BaseUxmlFactory_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6272 };
+
   /// @brief Field m_Traits, offset: 0x10, size: 0x8, def value: None
   TTraits ___m_Traits;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

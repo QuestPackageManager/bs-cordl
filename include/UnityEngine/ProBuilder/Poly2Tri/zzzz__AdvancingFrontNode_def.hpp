@@ -18,11 +18,10 @@ class AdvancingFrontNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
-// Type: UnityEngine.ProBuilder.Poly2Tri::AdvancingFrontNode
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::AdvancingFrontNode*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode
 class CORDL_TYPE AdvancingFrontNode : public ::System::Object {
 public:
   // Declarations
@@ -47,21 +46,21 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get_Next() const;
+
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Next() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get_Point() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_Point();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_Point() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get_Prev() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Prev();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Prev() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* const& __cordl_internal_get_Triangle() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& __cordl_internal_get_Triangle();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> const& __cordl_internal_get_Triangle() const;
 
   constexpr double_t const& __cordl_internal_get_Value() const;
 
@@ -77,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_Value(double_t value);
 
-  /// @brief Method .ctor, addr 0x46970bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46f83d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method get_HasNext, addr 0x46970f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasNext, addr 0x46f8408, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasNext();
 
-  /// @brief Method get_HasPrev, addr 0x4697104, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasPrev, addr 0x46f8418, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasPrev();
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AdvancingFrontNode(AdvancingFrontNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17816 };
+
   /// @brief Field Next, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___Next;
 
@@ -115,14 +117,9 @@ public:
   /// @brief Field Triangle, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ___Triangle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17733 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Next) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Prev) == 0x18, "Offset mismatch!");
@@ -132,6 +129,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Point) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Triangle) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);

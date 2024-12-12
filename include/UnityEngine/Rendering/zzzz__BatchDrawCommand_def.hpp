@@ -10,29 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchDrawCommand)
-namespace UnityEngine::Rendering {
-struct BatchDrawCommandFlags;
-}
-namespace UnityEngine::Rendering {
-struct BatchID;
-}
-namespace UnityEngine::Rendering {
-struct BatchMaterialID;
-}
-namespace UnityEngine::Rendering {
-struct BatchMeshID;
-}
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct BatchDrawCommand;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchDrawCommand);
-// Type: UnityEngine.Rendering::BatchDrawCommand
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Rendering.BatchDrawCommandFlags, UnityEngine.Rendering.BatchID, UnityEngine.Rendering.BatchMaterialID, UnityEngine.Rendering.BatchMeshID
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::BatchDrawCommand
+// CS Name: UnityEngine.Rendering.BatchDrawCommand
 struct CORDL_TYPE BatchDrawCommand {
 public:
   // Declarations
@@ -48,6 +35,12 @@ public:
   constexpr BatchDrawCommand(uint32_t visibleOffset, uint32_t visibleCount, ::UnityEngine::Rendering::BatchID batchID, ::UnityEngine::Rendering::BatchMaterialID materialID,
                              ::UnityEngine::Rendering::BatchMeshID meshID, uint16_t submeshIndex, uint16_t splitVisibilityMask, ::UnityEngine::Rendering::BatchDrawCommandFlags flags,
                              int32_t sortingPosition) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11244 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field visibleOffset, offset: 0x0, size: 0x4, def value: None
   uint32_t visibleOffset;
@@ -76,17 +69,9 @@ public:
   /// @brief Field sortingPosition, offset: 0x1c, size: 0x4, def value: None
   int32_t sortingPosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11211 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchDrawCommand, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, visibleOffset) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, visibleCount) == 0x4, "Offset mismatch!");
@@ -104,6 +89,8 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, splitVisibili
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, flags) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, sortingPosition) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchDrawCommand, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchDrawCommand, "UnityEngine.Rendering", "BatchDrawCommand");

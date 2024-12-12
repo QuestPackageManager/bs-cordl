@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SurrogateKey::*)(
     ::System::Type*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::SurrogateKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c9d10c;
+  constexpr static std::size_t addrs = 0x3cfd280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::SurrogateKey::*)()>(
     &::System::Runtime::Serialization::SurrogateKey::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c9d33c;
+  constexpr static std::size_t addrs = 0x3cfd4b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ constexpr ::System::Type*& System::Runtime::Serialization::SurrogateKey::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::SurrogateKey::__cordl_internal_get_m_type() const {
+constexpr ::System::Type* const& System::Runtime::Serialization::SurrogateKey::__cordl_internal_get_m_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_type;
 }
@@ -61,9 +61,6 @@ constexpr void System::Runtime::Serialization::SurrogateKey::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_context = value;
 }
-inline ::System::Runtime::Serialization::SurrogateKey* System::Runtime::Serialization::SurrogateKey::New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SurrogateKey*>(type, context));
-}
 inline void System::Runtime::Serialization::SurrogateKey::_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateKey*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -75,6 +72,9 @@ inline int32_t System::Runtime::Serialization::SurrogateKey::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateKey*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::SurrogateKey* System::Runtime::Serialization::SurrogateKey::New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SurrogateKey*>(type, context));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SurrogateKey::SurrogateKey() {}

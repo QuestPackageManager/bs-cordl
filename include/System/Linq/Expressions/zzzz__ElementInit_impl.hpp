@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/ElementInit.hpp"
+#include "System/Linq/Expressions/zzzz__IArgumentProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ElementInit_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::ElementInit.get_AddMethod
 template <>
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::ElementInit::*)()>(
     &::System::Linq::Expressions::ElementInit::get_AddMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404c890;
+  constexpr static std::size_t addrs = 0x40adba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ElementInit*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (
     ::System::Linq::Expressions::ElementInit::*)()>(&::System::Linq::Expressions::ElementInit::get_Arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404c898;
+  constexpr static std::size_t addrs = 0x40adbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ElementInit*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ElementInit::*)(int32_t)>(
     &::System::Linq::Expressions::ElementInit::GetArgument)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x404c8a0;
+  constexpr static std::size_t addrs = 0x40adbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::ElementInit::*)()>(
     &::System::Linq::Expressions::ElementInit::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x404c8f8;
+  constexpr static std::size_t addrs = 0x40adc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ElementInit*>::get(),
@@ -63,19 +63,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
-constexpr System::Linq::Expressions::ElementInit::operator ::System::Linq::Expressions::IArgumentProvider*() noexcept {
-  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
-constexpr ::System::Linq::Expressions::IArgumentProvider* System::Linq::Expressions::ElementInit::i___System__Linq__Expressions__IArgumentProvider() noexcept {
-  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
-}
 constexpr ::System::Reflection::MethodInfo*& System::Linq::Expressions::ElementInit::__cordl_internal_get__AddMethod_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AddMethod_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::Linq::Expressions::ElementInit::__cordl_internal_get__AddMethod_k__BackingField() const {
+constexpr ::System::Reflection::MethodInfo* const& System::Linq::Expressions::ElementInit::__cordl_internal_get__AddMethod_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AddMethod_k__BackingField;
 }
@@ -88,7 +80,7 @@ System::Linq::Expressions::ElementInit::__cordl_internal_get__Arguments_k__Backi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Arguments_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* const&
 System::Linq::Expressions::ElementInit::__cordl_internal_get__Arguments_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Arguments_k__BackingField;
@@ -118,6 +110,14 @@ inline int32_t System::Linq::Expressions::ElementInit::get_ArgumentCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ElementInit*>::get(),
                                                                              "get_ArgumentCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
+constexpr System::Linq::Expressions::ElementInit::operator ::System::Linq::Expressions::IArgumentProvider*() noexcept {
+  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
+constexpr ::System::Linq::Expressions::IArgumentProvider* System::Linq::Expressions::ElementInit::i___System__Linq__Expressions__IArgumentProvider() noexcept {
+  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::ElementInit::ElementInit() {}

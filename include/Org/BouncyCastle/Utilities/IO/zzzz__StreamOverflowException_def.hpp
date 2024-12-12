@@ -15,11 +15,10 @@ class StreamOverflowException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::StreamOverflowException);
-// Type: Org.BouncyCastle.Utilities.IO::StreamOverflowException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.IO::StreamOverflowException*
+// CS Name: Org.BouncyCastle.Utilities.IO.StreamOverflowException
 class CORDL_TYPE StreamOverflowException : public ::System::IO::IOException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::StreamOverflowException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x25a4afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25a4b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7df0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25a4b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7df8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

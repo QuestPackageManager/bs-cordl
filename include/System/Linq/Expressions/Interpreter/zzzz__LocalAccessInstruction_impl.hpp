@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalAccessInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::LocalAccessInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4086694;
+  constexpr static std::size_t addrs = 0x40e79a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::System::Object*, ::System::Func_2<int32_t, int32_t>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*)>(
     &::System::Linq::Expressions::Interpreter::LocalAccessInstruction::ToDebugString)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x40866bc;
+  constexpr static std::size_t addrs = 0x40e79d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,9 +49,6 @@ constexpr void System::Linq::Expressions::Interpreter::LocalAccessInstruction::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
-inline ::System::Linq::Expressions::Interpreter::LocalAccessInstruction* System::Linq::Expressions::Interpreter::LocalAccessInstruction::New_ctor(int32_t index) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LocalAccessInstruction*>(index));
-}
 inline void System::Linq::Expressions::Interpreter::LocalAccessInstruction::_ctor(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalAccessInstruction*>::get(), ".ctor",
@@ -64,6 +61,9 @@ inline ::StringW System::Linq::Expressions::Interpreter::LocalAccessInstruction:
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalAccessInstruction*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, instructionIndex, cookie, labelIndexer, objects);
+}
+inline ::System::Linq::Expressions::Interpreter::LocalAccessInstruction* System::Linq::Expressions::Interpreter::LocalAccessInstruction::New_ctor(int32_t index) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LocalAccessInstruction*>(index));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::LocalAccessInstruction::LocalAccessInstruction() {}

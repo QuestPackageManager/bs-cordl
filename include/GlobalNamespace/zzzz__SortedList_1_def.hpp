@@ -14,13 +14,12 @@ template <typename TBase> class SortedList_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SortedList_1);
-// Type: ::SortedList`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SortedList`2<T, TBase>
 namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// CS Name: ::SortedList`1<TBase>*
+// CS Name: SortedList`1<TBase>
 class CORDL_TYPE SortedList_1 : public ::GlobalNamespace::SortedList_2<TBase, TBase> {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
   SortedList_1(SortedList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Hashes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -27,6 +27,12 @@ namespace UnityEngine::UIElements {
 struct PseudoStates;
 }
 namespace UnityEngine::UIElements {
+struct StyleComplexSelector_PseudoStateData;
+}
+namespace UnityEngine::UIElements {
+class StyleComplexSelector___c;
+}
+namespace UnityEngine::UIElements {
 class StyleRule;
 }
 namespace UnityEngine::UIElements {
@@ -35,47 +41,43 @@ struct StyleSelectorPart;
 namespace UnityEngine::UIElements {
 class StyleSelector;
 }
-namespace UnityEngine::UIElements {
-struct __StyleComplexSelector__PseudoStateData;
-}
-namespace UnityEngine::UIElements {
-class __StyleComplexSelector____c;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class StyleComplexSelector;
 }
 namespace UnityEngine::UIElements {
-class __StyleComplexSelector____c;
+class StyleComplexSelector___c;
 }
 namespace UnityEngine::UIElements {
-struct __StyleComplexSelector__PseudoStateData;
+struct StyleComplexSelector_PseudoStateData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleComplexSelector);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__StyleComplexSelector____c);
-MARK_VAL_T(::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData);
-// Type: ::PseudoStateData
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 21, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::StyleComplexSelector___c);
+MARK_VAL_T(::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData);
+// Dependencies UnityEngine.UIElements.PseudoStates
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::StyleComplexSelector::PseudoStateData
-struct CORDL_TYPE __StyleComplexSelector__PseudoStateData {
+// CS Name: UnityEngine.UIElements.StyleComplexSelector/PseudoStateData
+struct CORDL_TYPE StyleComplexSelector_PseudoStateData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4a25d90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8a6a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::PseudoStates state, bool negate);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StyleComplexSelector__PseudoStateData();
+  constexpr StyleComplexSelector_PseudoStateData();
 
   // Ctor Parameters [CppParam { name: "state", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: None }, CppParam { name: "negate", ty: "bool", modifiers: "", def_value: None
   // }]
-  constexpr __StyleComplexSelector__PseudoStateData(::UnityEngine::UIElements::PseudoStates state, bool negate) noexcept;
+  constexpr StyleComplexSelector_PseudoStateData(::UnityEngine::UIElements::PseudoStates state, bool negate) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6165 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field state, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::PseudoStates state;
@@ -83,57 +85,50 @@ public:
   /// @brief Field negate, offset: 0x4, size: 0x1, def value: None
   bool negate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData, 0x8>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData, state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData, state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData, negate) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData, negate) == 0x4, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData, 0x8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::StyleComplexSelector::<>c*
-class CORDL_TYPE __StyleComplexSelector____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.StyleComplexSelector/<>c
+class CORDL_TYPE StyleComplexSelector___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__StyleComplexSelector____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::StyleComplexSelector___c* __9;
 
   /// @brief Field <>9__24_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0)) ::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* __9__24_0;
+  __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0)) ::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* __9__24_0;
 
   /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>* __9__27_0;
+  __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>* __9__27_0;
 
-  static inline ::UnityEngine::UIElements::__StyleComplexSelector____c* New_ctor();
+  static inline ::UnityEngine::UIElements::StyleComplexSelector___c* New_ctor();
 
-  /// @brief Method <CalculateHashes>b__27_0, addr 0x4a2654c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <CalculateHashes>b__27_0, addr 0x4a8ae5c, size 0x24, virtual false, abstract: false, final false
   inline bool _CalculateHashes_b__27_0(::UnityEngine::UIElements::StyleSelectorPart p);
 
-  /// @brief Method <ToString>b__24_0, addr 0x4a26528, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__24_0, addr 0x4a8ae38, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__24_0(::UnityEngine::UIElements::StyleSelector* x);
 
-  /// @brief Method .ctor, addr 0x4a26520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8ae30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__StyleComplexSelector____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::StyleComplexSelector___c* getStaticF___9();
 
   static inline ::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* getStaticF___9__24_0();
 
   static inline ::System::Predicate_1<::UnityEngine::UIElements::StyleSelectorPart>* getStaticF___9__27_0();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__StyleComplexSelector____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::StyleComplexSelector___c* value);
 
   static inline void setStaticF___9__24_0(::System::Func_2<::UnityEngine::UIElements::StyleSelector*, ::StringW>* value);
 
@@ -142,37 +137,36 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StyleComplexSelector____c();
+  constexpr StyleComplexSelector___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StyleComplexSelector____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StyleComplexSelector____c(__StyleComplexSelector____c&&) = delete;
+  StyleComplexSelector___c(StyleComplexSelector___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StyleComplexSelector____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StyleComplexSelector____c(__StyleComplexSelector____c const&) = delete;
+  StyleComplexSelector___c(StyleComplexSelector___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StyleComplexSelector____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleComplexSelector___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::StyleComplexSelector
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ISerializationCallbackReceiver, UnityEngine.UIElements.Hashes
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::StyleComplexSelector*
+// CS Name: UnityEngine.UIElements.StyleComplexSelector
 class CORDL_TYPE StyleComplexSelector : public ::System::Object {
 public:
   // Declarations
-  using PseudoStateData = ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData;
+  using PseudoStateData = ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData;
 
-  using __c = ::UnityEngine::UIElements::__StyleComplexSelector____c;
+  using __c = ::UnityEngine::UIElements::StyleComplexSelector___c;
 
   /// @brief Field <rule>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__rule_k__BackingField, put = __cordl_internal_set__rule_k__BackingField)) ::UnityEngine::UIElements::StyleRule* _rule_k__BackingField;
@@ -183,7 +177,7 @@ public:
   __declspec(property(get = get_isSimple)) bool isSimple;
 
   /// @brief Field m_HashList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_HashList, put = setStaticF_m_HashList)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* m_HashList;
+  __declspec(property(get = getStaticF_m_HashList, put = setStaticF_m_HashList)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* m_HashList;
 
   /// @brief Field m_Selectors, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Selectors,
@@ -208,9 +202,8 @@ public:
   __declspec(property(get = __cordl_internal_get_ruleIndex, put = __cordl_internal_set_ruleIndex)) int32_t ruleIndex;
 
   /// @brief Field s_PseudoStates, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF_s_PseudoStates,
-                          put = setStaticF_s_PseudoStates)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData>* s_PseudoStates;
+  __declspec(property(get = getStaticF_s_PseudoStates,
+                      put = setStaticF_s_PseudoStates)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>* s_PseudoStates;
 
   __declspec(property(get = get_selectors, put = set_selectors)) ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> selectors;
 
@@ -219,29 +212,29 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method CachePseudoStateMasks, addr 0x4a258d8, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method CachePseudoStateMasks, addr 0x4a8a1e8, size 0x4b8, virtual false, abstract: false, final false
   inline void CachePseudoStateMasks();
 
-  /// @brief Method CalculateHashes, addr 0x4a25f74, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashes, addr 0x4a8a884, size 0x4bc, virtual false, abstract: false, final false
   inline void CalculateHashes();
 
   static inline ::UnityEngine::UIElements::StyleComplexSelector* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x4a258b0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnAfterDeserialize, addr 0x4a8a1c0, size 0x28, virtual true, abstract: false, final false
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x4a258ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x4a8a1bc, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method StyleSelectorPartCompare, addr 0x4a25f28, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method StyleSelectorPartCompare, addr 0x4a8a838, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t StyleSelectorPartCompare(::UnityEngine::UIElements::StyleSelectorPart x, ::UnityEngine::UIElements::StyleSelectorPart y);
 
-  /// @brief Method ToString, addr 0x4a25db8, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a8a6c8, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  constexpr ::UnityEngine::UIElements::StyleRule*& __cordl_internal_get__rule_k__BackingField();
+  constexpr ::UnityEngine::UIElements::StyleRule* const& __cordl_internal_get__rule_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleRule*> const& __cordl_internal_get__rule_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::StyleRule*& __cordl_internal_get__rule_k__BackingField();
 
   constexpr ::UnityEngine::UIElements::Hashes const& __cordl_internal_get_ancestorHashes() const;
 
@@ -259,9 +252,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_isSimple();
 
-  constexpr ::UnityEngine::UIElements::StyleComplexSelector*& __cordl_internal_get_nextInTable();
+  constexpr ::UnityEngine::UIElements::StyleComplexSelector* const& __cordl_internal_get_nextInTable() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleComplexSelector*> const& __cordl_internal_get_nextInTable() const;
+  constexpr ::UnityEngine::UIElements::StyleComplexSelector*& __cordl_internal_get_nextInTable();
 
   constexpr int32_t const& __cordl_internal_get_orderInStyleSheet() const;
 
@@ -287,23 +280,23 @@ public:
 
   constexpr void __cordl_internal_set_ruleIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a26430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8ad40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* getStaticF_m_HashList();
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData>* getStaticF_s_PseudoStates();
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>* getStaticF_s_PseudoStates();
 
-  /// @brief Method get_isSimple, addr 0x4a25874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSimple, addr 0x4a8a184, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSimple();
 
-  /// @brief Method get_rule, addr 0x4a25864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rule, addr 0x4a8a174, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* get_rule();
 
-  /// @brief Method get_selectors, addr 0x4a2587c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectors, addr 0x4a8a18c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> get_selectors();
 
-  /// @brief Method get_specificity, addr 0x4a2585c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specificity, addr 0x4a8a16c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_specificity();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -311,12 +304,12 @@ public:
 
   static inline void setStaticF_m_HashList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* value);
 
-  static inline void setStaticF_s_PseudoStates(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData>* value);
+  static inline void setStaticF_s_PseudoStates(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>* value);
 
-  /// @brief Method set_rule, addr 0x4a2586c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rule, addr 0x4a8a17c, size 0x8, virtual false, abstract: false, final false
   inline void set_rule(::UnityEngine::UIElements::StyleRule* value);
 
-  /// @brief Method set_selectors, addr 0x4a25884, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_selectors, addr 0x4a8a194, size 0x28, virtual false, abstract: false, final false
   inline void set_selectors(::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> value);
 
 protected:
@@ -332,6 +325,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StyleComplexSelector(StyleComplexSelector const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6167 };
 
   /// @brief Field ancestorHashes, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::UIElements::Hashes ___ancestorHashes;
@@ -357,14 +353,9 @@ public:
   /// @brief Field orderInStyleSheet, offset: 0x50, size: 0x4, def value: None
   int32_t ___orderInStyleSheet;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleComplexSelector, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleComplexSelector, ___ancestorHashes) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleComplexSelector, ___m_Specificity) == 0x20, "Offset mismatch!");
@@ -381,9 +372,11 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleComplexSelector, ___nextI
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleComplexSelector, ___orderInStyleSheet) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleComplexSelector, 0x58>, "Size mismatch!");
+
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleComplexSelector);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleComplexSelector*, "UnityEngine.UIElements", "StyleComplexSelector");
-NEED_NO_BOX(::UnityEngine::UIElements::__StyleComplexSelector____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__StyleComplexSelector____c*, "UnityEngine.UIElements", "StyleComplexSelector/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData, "UnityEngine.UIElements", "StyleComplexSelector/PseudoStateData");
+NEED_NO_BOX(::UnityEngine::UIElements::StyleComplexSelector___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleComplexSelector___c*, "UnityEngine.UIElements", "StyleComplexSelector/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData, "UnityEngine.UIElements", "StyleComplexSelector/PseudoStateData");

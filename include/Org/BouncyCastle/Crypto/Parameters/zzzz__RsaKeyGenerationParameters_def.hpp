@@ -21,11 +21,10 @@ class RsaKeyGenerationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::RsaKeyGenerationParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.KeyGenerationParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::RsaKeyGenerationParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.RsaKeyGenerationParameters
 class CORDL_TYPE RsaKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
@@ -39,10 +38,10 @@ public:
   /// @brief Field publicExponent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_publicExponent, put = __cordl_internal_set_publicExponent)) ::Org::BouncyCastle::Math::BigInteger* publicExponent;
 
-  /// @brief Method Equals, addr 0x238bb58, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x23bee44, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x238bc0c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x23beef8, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent,
@@ -52,21 +51,21 @@ public:
 
   constexpr int32_t& __cordl_internal_get_certainty();
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_publicExponent();
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_publicExponent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_publicExponent() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_publicExponent();
 
   constexpr void __cordl_internal_set_certainty(int32_t value);
 
   constexpr void __cordl_internal_set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x238bb10, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bedfc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty);
 
-  /// @brief Method get_Certainty, addr 0x238bb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0x23bee3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_PublicExponent, addr 0x238bb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x23bee34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
 protected:
@@ -83,23 +82,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsaKeyGenerationParameters(RsaKeyGenerationParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1079 };
+
   /// @brief Field publicExponent, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___publicExponent;
 
   /// @brief Field certainty, offset: 0x28, size: 0x4, def value: None
   int32_t ___certainty;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1079 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters, ___publicExponent) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters, ___certainty) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters);

@@ -1,132 +1,130 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/LinkedList_1.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T> constexpr System::Collections::Generic::__LinkedList_1__Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::__LinkedList_1__Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr System::Collections::Generic::__LinkedList_1__Enumerator<T>::operator ::System::IDisposable*() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* System::Collections::Generic::__LinkedList_1__Enumerator<T>::i___System__IDisposable() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T> constexpr System::Collections::Generic::__LinkedList_1__Enumerator<T>::operator ::System::Collections::IEnumerator*() {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::__LinkedList_1__Enumerator<T>::i___System__Collections__IEnumerator() {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-template <typename T> constexpr System::Collections::Generic::__LinkedList_1__Enumerator<T>::operator ::System::Runtime::Serialization::ISerializable*() {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::__LinkedList_1__Enumerator<T>::i___System__Runtime__Serialization__ISerializable() {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
-template <typename T> constexpr System::Collections::Generic::__LinkedList_1__Enumerator<T>::operator ::System::Runtime::Serialization::IDeserializationCallback*() {
-  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-template <typename T>
-constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::__LinkedList_1__Enumerator<T>::i___System__Runtime__Serialization__IDeserializationCallback() {
-  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-template <typename T> inline void System::Collections::Generic::__LinkedList_1__Enumerator<T>::_ctor(::System::Collections::Generic::LinkedList_1<T>* list) {
+template <typename T> inline void System::Collections::Generic::LinkedList_1_Enumerator<T>::_ctor(::System::Collections::Generic::LinkedList_1<T>* list) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::LinkedList_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
 }
 template <typename T>
-inline void System::Collections::Generic::__LinkedList_1__Enumerator<T>::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+inline void System::Collections::Generic::LinkedList_1_Enumerator<T>::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
-template <typename T> inline T System::Collections::Generic::__LinkedList_1__Enumerator<T>::get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(), "get_Current",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+template <typename T> inline T System::Collections::Generic::LinkedList_1_Enumerator<T>::get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(),
+                                                                             "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* System::Collections::Generic::__LinkedList_1__Enumerator<T>::System_Collections_IEnumerator_get_Current() {
+template <typename T> inline ::System::Object* System::Collections::Generic::LinkedList_1_Enumerator<T>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename T> inline bool System::Collections::Generic::__LinkedList_1__Enumerator<T>::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+template <typename T> inline bool System::Collections::Generic::LinkedList_1_Enumerator<T>::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline void System::Collections::Generic::__LinkedList_1__Enumerator<T>::System_Collections_IEnumerator_Reset() {
+template <typename T> inline void System::Collections::Generic::LinkedList_1_Enumerator<T>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void System::Collections::Generic::__LinkedList_1__Enumerator<T>::Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(), "Dispose",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+template <typename T> inline void System::Collections::Generic::LinkedList_1_Enumerator<T>::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(),
+                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline void System::Collections::Generic::__LinkedList_1__Enumerator<T>::System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                                                                  ::System::Runtime::Serialization::StreamingContext context) {
+inline void System::Collections::Generic::LinkedList_1_Enumerator<T>::System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                                                               ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(),
                                   "System.Runtime.Serialization.ISerializable.GetObjectData", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
-template <typename T> inline void System::Collections::Generic::__LinkedList_1__Enumerator<T>::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__LinkedList_1__Enumerator<T>>::get(),
-                                               "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+template <typename T> inline void System::Collections::Generic::LinkedList_1_Enumerator<T>::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1_Enumerator<T>>::get(),
+                                                                             "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
-// Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_node", ty:
-// "::System::Collections::Generic::LinkedListNode_1<T>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_current", ty: "T", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1_Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::LinkedList_1_Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1_Enumerator<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* System::Collections::Generic::LinkedList_1_Enumerator<T>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1_Enumerator<T>::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::LinkedList_1_Enumerator<T>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1_Enumerator<T>::operator ::System::Runtime::Serialization::ISerializable*() {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::LinkedList_1_Enumerator<T>::i___System__Runtime__Serialization__ISerializable() {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1_Enumerator<T>::operator ::System::Runtime::Serialization::IDeserializationCallback*() {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
 template <typename T>
-constexpr ::System::Collections::Generic::__LinkedList_1__Enumerator<T>::__LinkedList_1__Enumerator(::System::Collections::Generic::LinkedList_1<T>* _list,
-                                                                                                    ::System::Collections::Generic::LinkedListNode_1<T>* _node, int32_t _version, T _current,
-                                                                                                    int32_t _index) noexcept {
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::LinkedList_1_Enumerator<T>::i___System__Runtime__Serialization__IDeserializationCallback() {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_node", ty:
+// "::System::Collections::Generic::LinkedListNode_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_current", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+template <typename T>
+constexpr ::System::Collections::Generic::LinkedList_1_Enumerator<T>::LinkedList_1_Enumerator(::System::Collections::Generic::LinkedList_1<T>* _list,
+                                                                                              ::System::Collections::Generic::LinkedListNode_1<T>* _node, int32_t _version, T _current,
+                                                                                              int32_t _index) noexcept {
   this->_list = _list;
   this->_node = _node;
   this->_version = _version;
@@ -134,71 +132,12 @@ constexpr ::System::Collections::Generic::__LinkedList_1__Enumerator<T>::__Linke
   this->_index = _index;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::Collections::Generic::__LinkedList_1__Enumerator<T>::__LinkedList_1__Enumerator() {}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-template <typename T> constexpr ::System::Collections::ICollection* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T>
-constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::LinkedList_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
-template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept {
-  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-template <typename T>
-constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::LinkedList_1<T>::i___System__Runtime__Serialization__IDeserializationCallback() noexcept {
-  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
-}
+template <typename T> constexpr ::System::Collections::Generic::LinkedList_1_Enumerator<T>::LinkedList_1_Enumerator() {}
 template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& System::Collections::Generic::LinkedList_1<T>::__cordl_internal_get_head() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& System::Collections::Generic::LinkedList_1<T>::__cordl_internal_get_head() const {
+template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>* const& System::Collections::Generic::LinkedList_1<T>::__cordl_internal_get_head() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
@@ -234,7 +173,7 @@ template <typename T> constexpr ::System::Object*& System::Collections::Generic:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::Generic::LinkedList_1<T>::__cordl_internal_get__syncRoot() const {
+template <typename T> constexpr ::System::Object* const& System::Collections::Generic::LinkedList_1<T>::__cordl_internal_get__syncRoot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
@@ -246,8 +185,7 @@ template <typename T> constexpr ::System::Runtime::Serialization::SerializationI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____siInfo;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& System::Collections::Generic::LinkedList_1<T>::__cordl_internal_get__siInfo() const {
+template <typename T> constexpr ::System::Runtime::Serialization::SerializationInfo* const& System::Collections::Generic::LinkedList_1<T>::__cordl_internal_get__siInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____siInfo;
 }
@@ -255,18 +193,10 @@ template <typename T> constexpr void System::Collections::Generic::LinkedList_1<
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____siInfo, value);
 }
-template <typename T> inline ::System::Collections::Generic::LinkedList_1<T>* System::Collections::Generic::LinkedList_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedList_1<T>*>());
-}
 template <typename T> inline void System::Collections::Generic::LinkedList_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T>
-inline ::System::Collections::Generic::LinkedList_1<T>* System::Collections::Generic::LinkedList_1<T>::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                                                ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedList_1<T>*>(info, context));
 }
 template <typename T>
 inline void System::Collections::Generic::LinkedList_1<T>::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
@@ -375,10 +305,10 @@ template <typename T> inline ::System::Collections::Generic::LinkedListNode_1<T>
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal_method, value);
 }
-template <typename T> inline ::System::Collections::Generic::__LinkedList_1__Enumerator<T> System::Collections::Generic::LinkedList_1<T>::GetEnumerator() {
+template <typename T> inline ::System::Collections::Generic::LinkedList_1_Enumerator<T> System::Collections::Generic::LinkedList_1<T>::GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1<T>*>::get(),
                                                                              "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::__LinkedList_1__Enumerator<T>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedList_1_Enumerator<T>, false>(this, ___internal_method);
 }
 template <typename T> inline ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::LinkedList_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
   static auto* ___internal_method =
@@ -476,6 +406,72 @@ template <typename T> inline ::System::Collections::IEnumerator* System::Collect
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedList_1<T>*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+}
+template <typename T> inline ::System::Collections::Generic::LinkedList_1<T>* System::Collections::Generic::LinkedList_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedList_1<T>*>());
+}
+template <typename T>
+inline ::System::Collections::Generic::LinkedList_1<T>* System::Collections::Generic::LinkedList_1<T>::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                                                ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedList_1<T>*>(info, context));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename T> constexpr ::System::Collections::ICollection* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Generic::LinkedList_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::LinkedList_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
+template <typename T> constexpr System::Collections::Generic::LinkedList_1<T>::operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+template <typename T>
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::LinkedList_1<T>::i___System__Runtime__Serialization__IDeserializationCallback() noexcept {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>::LinkedList_1() {}

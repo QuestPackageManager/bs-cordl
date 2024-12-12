@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ParticleSystemEventEffect)
 namespace GlobalNamespace {
@@ -23,10 +22,10 @@ namespace GlobalNamespace {
 class ColorSO;
 }
 namespace UnityEngine {
-class ParticleSystem;
+struct ParticleSystem_Particle;
 }
 namespace UnityEngine {
-struct __ParticleSystem__Particle;
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,11 +33,10 @@ class ParticleSystemEventEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemEventEffect);
-// Type: ::ParticleSystemEventEffect
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasicBeatmapEventType, UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::MainModule
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ParticleSystemEventEffect*
+// CS Name: ParticleSystemEventEffect
 class CORDL_TYPE ParticleSystemEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -81,7 +79,7 @@ public:
   __declspec(property(get = __cordl_internal_get__lightOnStart, put = __cordl_internal_set__lightOnStart)) bool _lightOnStart;
 
   /// @brief Field _mainModule, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainModule, put = __cordl_internal_set__mainModule)) ::UnityEngine::__ParticleSystem__MainModule _mainModule;
+  __declspec(property(get = __cordl_internal_get__mainModule, put = __cordl_internal_set__mainModule)) ::UnityEngine::ParticleSystem_MainModule _mainModule;
 
   /// @brief Field _offColor, offset 0x5c, size 0x10
   __declspec(property(get = __cordl_internal_get__offColor, put = __cordl_internal_set__offColor)) ::UnityEngine::Color _offColor;
@@ -93,41 +91,40 @@ public:
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
   /// @brief Field _particles, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__particles,
-                      put = __cordl_internal_set__particles)) ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>
+  __declspec(property(get = __cordl_internal_get__particles, put = __cordl_internal_set__particles)) ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*>
       _particles;
 
   /// @brief Field kFadeSpeed, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_kFadeSpeed, put = __cordl_internal_set_kFadeSpeed)) float_t kFadeSpeed;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b33068, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b945ac, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b32f84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b944c8, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshParticles, addr 0x3b32e5c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RefreshParticles, addr 0x3b943a0, size 0x128, virtual false, abstract: false, final false
   inline void RefreshParticles();
 
-  /// @brief Method Start, addr 0x3b32c80, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b941c4, size 0x1dc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b32fa0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b944e4, size 0xc8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__afterHighlightColor() const;
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__afterHighlightColor();
 
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__colorEvent() const;
 
@@ -165,9 +162,9 @@ public:
 
   constexpr bool& __cordl_internal_get__lightOnStart();
 
-  constexpr ::UnityEngine::__ParticleSystem__MainModule const& __cordl_internal_get__mainModule() const;
+  constexpr ::UnityEngine::ParticleSystem_MainModule const& __cordl_internal_get__mainModule() const;
 
-  constexpr ::UnityEngine::__ParticleSystem__MainModule& __cordl_internal_get__mainModule();
+  constexpr ::UnityEngine::ParticleSystem_MainModule& __cordl_internal_get__mainModule();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__offColor() const;
 
@@ -181,9 +178,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
 
-  constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> const& __cordl_internal_get__particles() const;
+  constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> const& __cordl_internal_get__particles() const;
 
-  constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>& __cordl_internal_get__particles();
+  constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*>& __cordl_internal_get__particles();
 
   constexpr float_t const& __cordl_internal_get_kFadeSpeed() const;
 
@@ -213,7 +210,7 @@ public:
 
   constexpr void __cordl_internal_set__lightOnStart(bool value);
 
-  constexpr void __cordl_internal_set__mainModule(::UnityEngine::__ParticleSystem__MainModule value);
+  constexpr void __cordl_internal_set__mainModule(::UnityEngine::ParticleSystem_MainModule value);
 
   constexpr void __cordl_internal_set__offColor(::UnityEngine::Color value);
 
@@ -221,11 +218,11 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr void __cordl_internal_set__particles(::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> value);
+  constexpr void __cordl_internal_set__particles(::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> value);
 
   constexpr void __cordl_internal_set_kFadeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b3322c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b94770, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -241,6 +238,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ParticleSystemEventEffect(ParticleSystemEventEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4331 };
 
   /// @brief Field _lightColor0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0;
@@ -285,10 +285,10 @@ public:
   float_t ___kFadeSpeed;
 
   /// @brief Field _mainModule, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::__ParticleSystem__MainModule ____mainModule;
+  ::UnityEngine::ParticleSystem_MainModule ____mainModule;
 
   /// @brief Field _particles, offset: 0xa0, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> ____particles;
+  ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> ____particles;
 
   /// @brief Field _particleColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____particleColor;
@@ -296,14 +296,9 @@ public:
   /// @brief Field _beatmapDataCallbackWrapper, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4320 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemEventEffect, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ParticleSystemEventEffect, ____lightColor0) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ParticleSystemEventEffect, ____lightColor1) == 0x28, "Offset mismatch!");
@@ -339,6 +334,8 @@ static_assert(offsetof(::GlobalNamespace::ParticleSystemEventEffect, ____particl
 static_assert(offsetof(::GlobalNamespace::ParticleSystemEventEffect, ____particleColor) == 0xa8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ParticleSystemEventEffect, ____beatmapDataCallbackWrapper) == 0xb8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemEventEffect, 0xc0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParticleSystemEventEffect);

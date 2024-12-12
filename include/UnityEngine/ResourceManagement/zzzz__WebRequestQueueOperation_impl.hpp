@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)()>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::get_IsDone)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x472eb60;
+  constexpr static std::size_t addrs = 0x478fe74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)()>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::get_WebRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472eb80;
+  constexpr static std::size_t addrs = 0x478fe94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::set_WebRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472eb88;
+  constexpr static std::size_t addrs = 0x478fe9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x472eb90;
+  constexpr static std::size_t addrs = 0x478fea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(
     ::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x472ebb8;
+  constexpr static std::size_t addrs = 0x478fecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,8 +96,7 @@ constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& UnityEngine
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Result;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const&
-UnityEngine::ResourceManagement::WebRequestQueueOperation::__cordl_internal_get_Result() const {
+constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation* const& UnityEngine::ResourceManagement::WebRequestQueueOperation::__cordl_internal_get_Result() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Result;
 }
@@ -109,8 +108,7 @@ constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOper
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnComplete;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*> const&
-UnityEngine::ResourceManagement::WebRequestQueueOperation::__cordl_internal_get_OnComplete() const {
+constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* const& UnityEngine::ResourceManagement::WebRequestQueueOperation::__cordl_internal_get_OnComplete() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnComplete;
 }
@@ -122,7 +120,7 @@ constexpr ::UnityEngine::Networking::UnityWebRequest*& UnityEngine::ResourceMana
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequest;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& UnityEngine::ResourceManagement::WebRequestQueueOperation::__cordl_internal_get_m_WebRequest() const {
+constexpr ::UnityEngine::Networking::UnityWebRequest* const& UnityEngine::ResourceManagement::WebRequestQueueOperation::__cordl_internal_get_m_WebRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequest;
 }
@@ -148,9 +146,6 @@ inline void UnityEngine::ResourceManagement::WebRequestQueueOperation::set_WebRe
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* UnityEngine::ResourceManagement::WebRequestQueueOperation::New_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>(request));
-}
 inline void UnityEngine::ResourceManagement::WebRequestQueueOperation::_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -162,6 +157,9 @@ inline void UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>::get(), "Complete", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asyncOp);
+}
+inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* UnityEngine::ResourceManagement::WebRequestQueueOperation::New_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>(request));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation::WebRequestQueueOperation() {}

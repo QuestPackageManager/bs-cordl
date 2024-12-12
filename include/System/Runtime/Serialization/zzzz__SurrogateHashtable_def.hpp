@@ -15,20 +15,19 @@ class SurrogateHashtable;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateHashtable);
-// Type: System.Runtime.Serialization::SurrogateHashtable
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Hashtable
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::SurrogateHashtable*
+// CS Name: System.Runtime.Serialization.SurrogateHashtable
 class CORDL_TYPE SurrogateHashtable : public ::System::Collections::Hashtable {
 public:
   // Declarations
-  /// @brief Method KeyEquals, addr 0x3c9d35c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method KeyEquals, addr 0x3cfd4d0, size 0x128, virtual true, abstract: false, final false
   inline bool KeyEquals(::System::Object* key, ::System::Object* item);
 
   static inline ::System::Runtime::Serialization::SurrogateHashtable* New_ctor(int32_t size);
 
-  /// @brief Method .ctor, addr 0x3c9cfc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfd138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
 protected:

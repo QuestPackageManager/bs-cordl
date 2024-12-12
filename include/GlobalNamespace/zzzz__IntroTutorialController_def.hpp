@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -18,22 +21,16 @@ namespace GlobalNamespace {
 class IGamePause;
 }
 namespace GlobalNamespace {
-class IntroTutorialRing;
+class IntroTutorialController__ShowFinishAnimationCoroutine_d__22;
 }
 namespace GlobalNamespace {
-class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class IntroTutorialRing;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Action;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -52,17 +49,16 @@ namespace GlobalNamespace {
 class IntroTutorialController;
 }
 namespace GlobalNamespace {
-class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
+class IntroTutorialController__ShowFinishAnimationCoroutine_d__22;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IntroTutorialController);
-MARK_REF_PTR_T(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22);
-// Type: ::<ShowFinishAnimationCoroutine>d__22
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IntroTutorialController::<ShowFinishAnimationCoroutine>d__22*
-class CORDL_TYPE __IntroTutorialController___ShowFinishAnimationCoroutine_d__22 : public ::System::Object {
+// CS Name: IntroTutorialController/<ShowFinishAnimationCoroutine>d__22
+class CORDL_TYPE IntroTutorialController__ShowFinishAnimationCoroutine_d__22 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -90,30 +86,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b8af50, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bec768, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b8b084, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bec89c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b8b08c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bec8a4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b8b0c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bec8dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b8af4c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bec764, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::IntroTutorialController> const& __cordl_internal_get___4__this() const;
 
@@ -131,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b8aec0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bec6d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -146,16 +142,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IntroTutorialController___ShowFinishAnimationCoroutine_d__22();
+  constexpr IntroTutorialController__ShowFinishAnimationCoroutine_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IntroTutorialController___ShowFinishAnimationCoroutine_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController__ShowFinishAnimationCoroutine_d__22", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IntroTutorialController___ShowFinishAnimationCoroutine_d__22(__IntroTutorialController___ShowFinishAnimationCoroutine_d__22&&) = delete;
+  IntroTutorialController__ShowFinishAnimationCoroutine_d__22(IntroTutorialController__ShowFinishAnimationCoroutine_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IntroTutorialController___ShowFinishAnimationCoroutine_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController__ShowFinishAnimationCoroutine_d__22", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IntroTutorialController___ShowFinishAnimationCoroutine_d__22(__IntroTutorialController___ShowFinishAnimationCoroutine_d__22 const&) = delete;
+  IntroTutorialController__ShowFinishAnimationCoroutine_d__22(IntroTutorialController__ShowFinishAnimationCoroutine_d__22 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4694 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -169,32 +168,28 @@ public:
   /// @brief Field <elapsedTime>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____elapsedTime_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4682 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22, ____elapsedTime_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22, ____elapsedTime_5__2) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::IntroTutorialController
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 115, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IntroTutorialController*
+// CS Name: IntroTutorialController
 class CORDL_TYPE IntroTutorialController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _ShowFinishAnimationCoroutine_d__22 = ::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
+  using _ShowFinishAnimationCoroutine_d__22 = ::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22;
 
   /// @brief Field _bloomFogAnimator, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomFogAnimator, put = __cordl_internal_set__bloomFogAnimator)) ::UnityW<::GlobalNamespace::BloomFogParamsAnimator> _bloomFogAnimator;
@@ -235,33 +230,33 @@ public:
   /// @brief Field introTutorialDidFinishEvent, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_introTutorialDidFinishEvent, put = __cordl_internal_set_introTutorialDidFinishEvent)) ::System::Action* introTutorialDidFinishEvent;
 
-  /// @brief Method CleanUp, addr 0x3b8ab24, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x3bec33c, size 0x1a8, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method HandleGameDidPause, addr 0x3b8adb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleGameDidPause, addr 0x3bec5d0, size 0x70, virtual false, abstract: false, final false
   inline void HandleGameDidPause();
 
-  /// @brief Method HandleGameDidResume, addr 0x3b8ae28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleGameDidResume, addr 0x3bec640, size 0x38, virtual false, abstract: false, final false
   inline void HandleGameDidResume();
 
   static inline ::GlobalNamespace::IntroTutorialController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b8ab20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bec338, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetFinishAnimationParams, addr 0x3b8aee8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetFinishAnimationParams, addr 0x3bec700, size 0x5c, virtual false, abstract: false, final false
   inline void SetFinishAnimationParams(float_t progress);
 
-  /// @brief Method ShowFinishAnimation, addr 0x3b8ad3c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ShowFinishAnimation, addr 0x3bec554, size 0x7c, virtual false, abstract: false, final false
   inline void ShowFinishAnimation();
 
-  /// @brief Method ShowFinishAnimationCoroutine, addr 0x3b8ae60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShowFinishAnimationCoroutine, addr 0x3bec678, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
 
-  /// @brief Method Start, addr 0x3b8a98c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bec1a4, size 0x194, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b8accc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bec4e4, size 0x70, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogParamsAnimator> const& __cordl_internal_get__bloomFogAnimator() const;
@@ -284,9 +279,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__finishForParams();
 
-  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
   constexpr ::UnityW<::GlobalNamespace::IntroTutorialRing> const& __cordl_internal_get__redRing() const;
 
@@ -312,9 +307,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__textCanvasGroup();
 
-  constexpr ::System::Action*& __cordl_internal_get_introTutorialDidFinishEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_introTutorialDidFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_introTutorialDidFinishEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_introTutorialDidFinishEvent();
 
   constexpr void __cordl_internal_set__bloomFogAnimator(::UnityW<::GlobalNamespace::BloomFogParamsAnimator> value);
 
@@ -342,13 +337,13 @@ public:
 
   constexpr void __cordl_internal_set_introTutorialDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b8af44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bec75c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_introTutorialDidFinishEvent, addr 0x3b8a854, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_introTutorialDidFinishEvent, addr 0x3bec06c, size 0x9c, virtual false, abstract: false, final false
   inline void add_introTutorialDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_introTutorialDidFinishEvent, addr 0x3b8a8f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_introTutorialDidFinishEvent, addr 0x3bec108, size 0x9c, virtual false, abstract: false, final false
   inline void remove_introTutorialDidFinishEvent(::System::Action* value);
 
 protected:
@@ -364,6 +359,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IntroTutorialController(IntroTutorialController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4695 };
 
   /// @brief Field _redRing, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::IntroTutorialRing> ____redRing;
@@ -404,14 +402,9 @@ public:
   /// @brief Field _blueRingWrapperActive, offset: 0x72, size: 0x1, def value: None
   bool ____blueRingWrapperActive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4683 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntroTutorialController, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::IntroTutorialController, ____redRing) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::IntroTutorialController, ____blueRing) == 0x28, "Offset mismatch!");
@@ -438,8 +431,10 @@ static_assert(offsetof(::GlobalNamespace::IntroTutorialController, ____redRingWr
 
 static_assert(offsetof(::GlobalNamespace::IntroTutorialController, ____blueRingWrapperActive) == 0x72, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntroTutorialController, 0x78>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IntroTutorialController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IntroTutorialController*, "", "IntroTutorialController");
-NEED_NO_BOX(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22*, "", "IntroTutorialController/<ShowFinishAnimationCoroutine>d__22");
+NEED_NO_BOX(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22*, "", "IntroTutorialController/<ShowFinishAnimationCoroutine>d__22");

@@ -12,11 +12,10 @@ struct ClipCaps;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::ClipCaps);
-// Type: UnityEngine.Timeline::ClipCaps
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
-// CS Name: ::UnityEngine.Timeline::ClipCaps
+// CS Name: UnityEngine.Timeline.ClipCaps
 struct CORDL_TYPE ClipCaps {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ClipCaps(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field All value: I32(-1)
   static ::UnityEngine::Timeline::ClipCaps const All;
 
-  /// @brief Field AutoScale value: static_cast<int32_t>(0x28)
+  /// @brief Field AutoScale value: I32(40)
   static ::UnityEngine::Timeline::ClipCaps const AutoScale;
 
-  /// @brief Field Blending value: static_cast<int32_t>(0x10)
+  /// @brief Field Blending value: I32(16)
   static ::UnityEngine::Timeline::ClipCaps const Blending;
 
-  /// @brief Field ClipIn value: static_cast<int32_t>(0x4)
+  /// @brief Field ClipIn value: I32(4)
   static ::UnityEngine::Timeline::ClipCaps const ClipIn;
 
-  /// @brief Field Extrapolation value: static_cast<int32_t>(0x2)
+  /// @brief Field Extrapolation value: I32(2)
   static ::UnityEngine::Timeline::ClipCaps const Extrapolation;
 
-  /// @brief Field Looping value: static_cast<int32_t>(0x1)
+  /// @brief Field Looping value: I32(1)
   static ::UnityEngine::Timeline::ClipCaps const Looping;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::Timeline::ClipCaps const None;
 
-  /// @brief Field SpeedMultiplier value: static_cast<int32_t>(0x8)
+  /// @brief Field SpeedMultiplier value: I32(8)
   static ::UnityEngine::Timeline::ClipCaps const SpeedMultiplier;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::ClipCaps, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::ClipCaps, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::ClipCaps, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ClipCaps, "UnityEngine.Timeline", "ClipCaps");

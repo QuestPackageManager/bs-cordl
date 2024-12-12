@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationStatus_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -40,6 +41,12 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class AsyncOperationBase_1___c__DisplayClass60_0;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class AsyncOperationBase_1___c__DisplayClass61_0;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -54,12 +61,6 @@ struct DownloadStatus;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IAsyncOperation;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass60_0;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass61_0;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
@@ -68,33 +69,32 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> class AsyncOperationBase_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass60_0;
+template <typename TObject> class AsyncOperationBase_1___c__DisplayClass60_0;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass61_0;
+template <typename TObject> class AsyncOperationBase_1___c__DisplayClass61_0;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0);
-MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0);
-// Type: ::<>c__DisplayClass60_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0);
+MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0);
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// CS Name: ::AsyncOperationBase`1::<>c__DisplayClass60_0<TObject>*
-class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass60_0 : public ::System::Object {
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1/<>c__DisplayClass60_0<TObject>
+class CORDL_TYPE AsyncOperationBase_1___c__DisplayClass60_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value;
 
-  static inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>* New_ctor();
+  static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>* New_ctor();
+
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const& __cordl_internal_get_value() const;
 
   constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_value();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __cordl_internal_get_value() const;
 
   constexpr void __cordl_internal_set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
@@ -107,45 +107,44 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __AsyncOperationBase_1____c__DisplayClass60_0();
+  constexpr AsyncOperationBase_1___c__DisplayClass60_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__AsyncOperationBase_1____c__DisplayClass60_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass60_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __AsyncOperationBase_1____c__DisplayClass60_0(__AsyncOperationBase_1____c__DisplayClass60_0&&) = delete;
+  AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__AsyncOperationBase_1____c__DisplayClass60_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass60_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __AsyncOperationBase_1____c__DisplayClass60_0(__AsyncOperationBase_1____c__DisplayClass60_0 const&) = delete;
+  AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15690 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15655 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
-// Type: ::<>c__DisplayClass61_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// CS Name: ::AsyncOperationBase`1::<>c__DisplayClass61_0<TObject>*
-class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass61_0 : public ::System::Object {
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1/<>c__DisplayClass61_0<TObject>
+class CORDL_TYPE AsyncOperationBase_1___c__DisplayClass61_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value;
 
-  static inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>* New_ctor();
+  static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>* New_ctor();
+
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const& __cordl_internal_get_value() const;
 
   constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_value();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __cordl_internal_get_value() const;
 
   constexpr void __cordl_internal_set_value(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
@@ -158,40 +157,39 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __AsyncOperationBase_1____c__DisplayClass61_0();
+  constexpr AsyncOperationBase_1___c__DisplayClass61_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__AsyncOperationBase_1____c__DisplayClass61_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass61_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __AsyncOperationBase_1____c__DisplayClass61_0(__AsyncOperationBase_1____c__DisplayClass61_0&&) = delete;
+  AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__AsyncOperationBase_1____c__DisplayClass61_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass61_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __AsyncOperationBase_1____c__DisplayClass61_0(__AsyncOperationBase_1____c__DisplayClass61_0 const&) = delete;
+  AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15691 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
-// Type: UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationBase`1
-// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus, UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationBase`1<TObject>*
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>
 class CORDL_TYPE AsyncOperationBase_1 : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass60_0 = ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>;
+  using __c__DisplayClass60_0 = ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>;
 
-  using __c__DisplayClass61_0 = ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>;
+  using __c__DisplayClass61_0 = ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>;
 
   __declspec(property(get = get_CompletedEventHasListeners)) bool CompletedEventHasListeners;
 
@@ -331,7 +329,7 @@ public:
   /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Execute();
 
   /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -453,9 +451,9 @@ public:
   /// @brief Method WaitForCompletion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void WaitForCompletion();
 
-  constexpr ::System::Action*& __cordl_internal_get_Executed();
+  constexpr ::System::Action* const& __cordl_internal_get_Executed() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_Executed() const;
+  constexpr ::System::Action*& __cordl_internal_get_Executed();
 
   constexpr bool const& __cordl_internal_get_HasExecuted() const;
 
@@ -469,64 +467,61 @@ public:
 
   constexpr TObject& __cordl_internal_get__Result_k__BackingField();
 
+  constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* const& __cordl_internal_get_m_CompletedActionT() const;
+
   constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*& __cordl_internal_get_m_CompletedActionT();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
-  __cordl_internal_get_m_CompletedActionT() const;
+  constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const& __cordl_internal_get_m_DestroyedAction() const;
 
   constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_DestroyedAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __cordl_internal_get_m_DestroyedAction() const;
+  constexpr ::System::Exception* const& __cordl_internal_get_m_Error() const;
 
   constexpr ::System::Exception*& __cordl_internal_get_m_Error();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_m_Error() const;
 
   constexpr bool const& __cordl_internal_get_m_InDeferredCallbackQueue() const;
 
   constexpr bool& __cordl_internal_get_m_InDeferredCallbackQueue();
 
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* const& __cordl_internal_get_m_OnDestroyAction() const;
+
   constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __cordl_internal_get_m_OnDestroyAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const& __cordl_internal_get_m_OnDestroyAction() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceManager* const& __cordl_internal_get_m_RM() const;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_RM();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get_m_RM() const;
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus const& __cordl_internal_get_m_Status() const;
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus& __cordl_internal_get_m_Status();
 
+  constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_m_UpdateCallback() const;
+
   constexpr ::System::Action_1<float_t>*& __cordl_internal_get_m_UpdateCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_m_UpdateCallback() const;
+  constexpr ::GlobalNamespace::DelegateList_1<float_t>* const& __cordl_internal_get_m_UpdateCallbacks() const;
 
   constexpr ::GlobalNamespace::DelegateList_1<float_t>*& __cordl_internal_get_m_UpdateCallbacks();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<float_t>*> const& __cordl_internal_get_m_UpdateCallbacks() const;
 
   constexpr int32_t const& __cordl_internal_get_m_Version() const;
 
   constexpr int32_t& __cordl_internal_get_m_Version();
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_dependencyCompleteAction();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const& __cordl_internal_get_m_dependencyCompleteAction() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __cordl_internal_get_m_dependencyCompleteAction() const;
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_dependencyCompleteAction();
 
   constexpr int32_t const& __cordl_internal_get_m_referenceCount() const;
 
   constexpr int32_t& __cordl_internal_get_m_referenceCount();
 
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<TObject>* const& __cordl_internal_get_m_taskCompletionSource() const;
+
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<TObject>*& __cordl_internal_get_m_taskCompletionSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<TObject>*> const& __cordl_internal_get_m_taskCompletionSource() const;
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* const& __cordl_internal_get_m_taskCompletionSourceTypeless() const;
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*& __cordl_internal_get_m_taskCompletionSourceTypeless();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*> const& __cordl_internal_get_m_taskCompletionSourceTypeless() const;
 
   constexpr void __cordl_internal_set_Executed(::System::Action* value);
 
@@ -668,6 +663,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncOperationBase_1(AsyncOperationBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15692 };
+
   /// @brief Field <Result>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TObject ____Result_k__BackingField;
 
@@ -722,15 +720,12 @@ public:
   /// @brief Field m_UpdateCallback, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___m_UpdateCallback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15657 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationBase`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0, "UnityEngine.ResourceManagement.AsyncOperations",
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0, "UnityEngine.ResourceManagement.AsyncOperations",
                                      "AsyncOperationBase`1/<>c__DisplayClass60_0");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0, "UnityEngine.ResourceManagement.AsyncOperations",
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0, "UnityEngine.ResourceManagement.AsyncOperations",
                                      "AsyncOperationBase`1/<>c__DisplayClass61_0");

@@ -13,38 +13,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(StyleValue)
-namespace System::Runtime::InteropServices {
-struct GCHandle;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-struct BackgroundPosition;
-}
-namespace UnityEngine::UIElements {
-struct BackgroundRepeat;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine {
-struct Color;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleValue;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleValue);
-// Type: UnityEngine.UIElements.StyleSheets::StyleValue
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.InteropServices.GCHandle, UnityEngine.Color, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat, UnityEngine.UIElements.Length,
+// UnityEngine.UIElements.StyleKeyword, UnityEngine.UIElements.StyleSheets.StylePropertyId
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.StyleSheets::StyleValue
+// CS Name: UnityEngine.UIElements.StyleSheets.StyleValue
 struct CORDL_TYPE StyleValue {
 public:
   // Declarations
@@ -252,7 +231,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6460 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -13,11 +13,10 @@ class LocalVariable;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LocalVariable);
-// Type: System.Linq.Expressions.Interpreter::LocalVariable
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::LocalVariable*
+// CS Name: System.Linq.Expressions.Interpreter.LocalVariable
 class CORDL_TYPE LocalVariable : public ::System::Object {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalVariable* New_ctor(int32_t index, bool closure);
 
-  /// @brief Method ToString, addr 0x40883f8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40e970c, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_Index() const;
@@ -48,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40883c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e96d4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, bool closure);
 
-  /// @brief Method get_InClosure, addr 0x4083094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_InClosure, addr 0x40e43a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_InClosure();
 
-  /// @brief Method get_IsBoxed, addr 0x40830a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsBoxed, addr 0x40e43b4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsBoxed();
 
-  /// @brief Method set_IsBoxed, addr 0x40883b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsBoxed, addr 0x40e96c4, size 0x10, virtual false, abstract: false, final false
   inline void set_IsBoxed(bool value);
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalVariable(LocalVariable const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13978 };
+
   /// @brief Field Index, offset: 0x10, size: 0x4, def value: None
   int32_t ___Index;
 
   /// @brief Field _flags, offset: 0x14, size: 0x4, def value: None
   int32_t ____flags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13944 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LocalVariable, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LocalVariable, ___Index) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LocalVariable, ____flags) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LocalVariable, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LocalVariable);

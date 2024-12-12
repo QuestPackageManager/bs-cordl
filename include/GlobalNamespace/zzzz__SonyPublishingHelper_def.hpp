@@ -15,36 +15,35 @@ class SonyPublishingHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SonyPublishingHelper);
-// Type: ::SonyPublishingHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SonyPublishingHelper*
+// CS Name: SonyPublishingHelper
 class CORDL_TYPE SonyPublishingHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetContentId, addr 0x26b7ce8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetContentId, addr 0x26ec7b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetContentId(::StringW serviceId, ::StringW productLabel);
 
-  /// @brief Method GetContentId, addr 0x26b7c94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetContentId, addr 0x26ec764, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetContentId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetContentIdFromNpTitleId, addr 0x26b7d44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromNpTitleId, addr 0x26ec814, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW GetContentIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId, ::StringW productLabel);
 
-  /// @brief Method GetContentIdFromTitleId, addr 0x26b7cb4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromTitleId, addr 0x26ec784, size 0x34, virtual false, abstract: false, final false
   static inline ::StringW GetContentIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId, ::StringW productLabel);
 
-  /// @brief Method GetNpTitleId, addr 0x26b7db8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetNpTitleId, addr 0x26ec888, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetNpTitleId(::StringW titleId);
 
-  /// @brief Method GetServiceId, addr 0x26b7c50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetServiceId, addr 0x26ec720, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW GetServiceId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetServiceIdFromNpTitleId, addr 0x26b7d5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetServiceIdFromNpTitleId, addr 0x26ec82c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetServiceIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId);
 
-  /// @brief Method GetServiceIdFromTitleId, addr 0x26b7c74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetServiceIdFromTitleId, addr 0x26ec744, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetServiceIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId);
 
 protected:
@@ -62,7 +61,7 @@ public:
   SonyPublishingHelper(SonyPublishingHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

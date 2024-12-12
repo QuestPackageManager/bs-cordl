@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftSByte;
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftSByte;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftSByte);
-// Type: ::LeftShiftSByte
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::LeftShiftInstruction_LeftShiftSByte);
+// Dependencies System.Linq.Expressions.Interpreter.LeftShiftInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LeftShiftInstruction::LeftShiftSByte*
-class CORDL_TYPE __LeftShiftInstruction__LeftShiftSByte : public ::System::Linq::Expressions::Interpreter::LeftShiftInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.LeftShiftInstruction/LeftShiftSByte
+class CORDL_TYPE LeftShiftInstruction_LeftShiftSByte : public ::System::Linq::Expressions::Interpreter::LeftShiftInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftSByte* New_ctor();
+  static inline ::GlobalNamespace::LeftShiftInstruction_LeftShiftSByte* New_ctor();
 
-  /// @brief Method Run, addr 0x4073024, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40d4338, size 0xe8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4072fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d42f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LeftShiftInstruction__LeftShiftSByte();
+  constexpr LeftShiftInstruction_LeftShiftSByte();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LeftShiftInstruction__LeftShiftSByte", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftSByte", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LeftShiftInstruction__LeftShiftSByte(__LeftShiftInstruction__LeftShiftSByte&&) = delete;
+  LeftShiftInstruction_LeftShiftSByte(LeftShiftInstruction_LeftShiftSByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LeftShiftInstruction__LeftShiftSByte", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftSByte", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LeftShiftInstruction__LeftShiftSByte(__LeftShiftInstruction__LeftShiftSByte const&) = delete;
+  LeftShiftInstruction_LeftShiftSByte(LeftShiftInstruction_LeftShiftSByte const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftSByte, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeftShiftInstruction_LeftShiftSByte, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftSByte);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftSByte*, "System.Linq.Expressions.Interpreter", "LeftShiftInstruction/LeftShiftSByte");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::LeftShiftInstruction_LeftShiftSByte);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeftShiftInstruction_LeftShiftSByte*, "System.Linq.Expressions.Interpreter", "LeftShiftInstruction/LeftShiftSByte");

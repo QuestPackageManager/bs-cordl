@@ -15,41 +15,40 @@ class DecoderFallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::DecoderFallback);
-// Type: System.Text::DecoderFallback
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Text {
 // Is value type: false
-// CS Name: ::System.Text::DecoderFallback*
+// CS Name: System.Text.DecoderFallback
 class CORDL_TYPE DecoderFallback : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
   /// @brief Field s_exceptionFallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_exceptionFallback, put = setStaticF_s_exceptionFallback)) ::System::Text::DecoderFallback* s_exceptionFallback;
+  __declspec(property(get = getStaticF_s_exceptionFallback, put = setStaticF_s_exceptionFallback)) ::System::Text::DecoderFallback* s_exceptionFallback;
 
   /// @brief Field s_replacementFallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_replacementFallback, put = setStaticF_s_replacementFallback)) ::System::Text::DecoderFallback* s_replacementFallback;
+  __declspec(property(get = getStaticF_s_replacementFallback, put = setStaticF_s_replacementFallback)) ::System::Text::DecoderFallback* s_replacementFallback;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateFallbackBuffer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
   static inline ::System::Text::DecoderFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e0d2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6d388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::DecoderFallback* getStaticF_s_exceptionFallback();
 
   static inline ::System::Text::DecoderFallback* getStaticF_s_replacementFallback();
 
-  /// @brief Method get_ExceptionFallback, addr 0x3e0db44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionFallback, addr 0x3e6dbf0, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ExceptionFallback();
 
-  /// @brief Method get_MaxCharCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_MaxCharCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method get_ReplacementFallback, addr 0x3e0a85c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementFallback, addr 0x3e6a908, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ReplacementFallback();
 
   static inline void setStaticF_s_exceptionFallback(::System::Text::DecoderFallback* value);

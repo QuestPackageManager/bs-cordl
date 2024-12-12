@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::DataSet*)>(
     &::System::Data::ForeignKeyConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40f6738;
+  constexpr static std::size_t addrs = 0x4157a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::Constraint*)>(
     &::System::Data::ForeignKeyConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x40f673c;
+  constexpr static std::size_t addrs = 0x4157a50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ForeignKeyConstraint* (::System::Data::ForeignKeyConstraintEnumerator::*)()>(
     &::System::Data::ForeignKeyConstraintEnumerator::GetForeignKeyConstraint)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x40f67b4;
+  constexpr static std::size_t addrs = 0x4157ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
@@ -50,9 +50,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Data::ForeignKeyConstraintEnumerator* System::Data::ForeignKeyConstraintEnumerator::New_ctor(::System::Data::DataSet* dataSet) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ForeignKeyConstraintEnumerator*>(dataSet));
-}
 inline void System::Data::ForeignKeyConstraintEnumerator::_ctor(::System::Data::DataSet* dataSet) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -68,6 +65,9 @@ inline ::System::Data::ForeignKeyConstraint* System::Data::ForeignKeyConstraintE
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
                                                                              "GetForeignKeyConstraint", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Data::ForeignKeyConstraint*, false>(this, ___internal_method);
+}
+inline ::System::Data::ForeignKeyConstraintEnumerator* System::Data::ForeignKeyConstraintEnumerator::New_ctor(::System::Data::DataSet* dataSet) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ForeignKeyConstraintEnumerator*>(dataSet));
 }
 // Ctor Parameters []
 constexpr ::System::Data::ForeignKeyConstraintEnumerator::ForeignKeyConstraintEnumerator() {}

@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 CORDL_MODULE_EXPORT(JumpMarker)
 namespace GlobalNamespace {
 class JumpDestinationMarker;
-}
-namespace UnityEngine::Playables {
-class INotification;
 }
 namespace UnityEngine {
 struct PropertyName;
@@ -21,11 +19,10 @@ class JumpMarker;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::JumpMarker);
-// Type: ::JumpMarker
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Playables.INotification, UnityEngine.PropertyName, UnityEngine.Timeline.Marker
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::JumpMarker*
+// CS Name: JumpMarker
 class CORDL_TYPE JumpMarker : public ::UnityEngine::Timeline::Marker {
 public:
   // Declarations
@@ -56,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value);
 
-  /// @brief Method .ctor, addr 0x3970560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c5a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x3970550, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x39c5a38, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName get_id();
 
-  /// @brief Method get_jumpDestination, addr 0x3970558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDestination, addr 0x39c5a40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::JumpDestinationMarker> get_jumpDestination();
 
   /// @brief Convert to "::UnityEngine::Playables::INotification"
@@ -82,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JumpMarker(JumpMarker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16449 };
+
   /// @brief Field _destination, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::JumpDestinationMarker> ____destination;
 
   /// @brief Field <id>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::PropertyName ____id_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16413 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::JumpMarker, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::JumpMarker, ____destination) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::JumpMarker, ____id_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::JumpMarker, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::JumpMarker);

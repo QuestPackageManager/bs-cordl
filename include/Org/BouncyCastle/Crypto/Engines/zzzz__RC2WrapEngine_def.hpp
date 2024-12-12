@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RC2WrapEngine)
@@ -20,9 +20,6 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -32,18 +29,17 @@ class RC2WrapEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);
-// Type: Org.BouncyCastle.Crypto.Engines::RC2WrapEngine
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IWrapper, System.Object
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Engines::RC2WrapEngine*
+// CS Name: Org.BouncyCastle.Crypto.Engines.RC2WrapEngine
 class CORDL_TYPE RC2WrapEngine : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field IV2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IV2, put = setStaticF_IV2)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV2;
+  __declspec(property(get = getStaticF_IV2, put = setStaticF_IV2)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV2;
 
   /// @brief Field digest, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
@@ -72,30 +68,30 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method CalculateCmsKeyChecksum, addr 0x233045c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CalculateCmsKeyChecksum, addr 0x2363748, size 0x180, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckCmsKeyChecksum, addr 0x2330b80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckCmsKeyChecksum, addr 0x2363e6c, size 0x80, virtual false, abstract: false, final false
   inline bool CheckCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum);
 
-  /// @brief Method Init, addr 0x232fd08, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2362ff4, size 0x2a8, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine* New_ctor();
 
-  /// @brief Method Unwrap, addr 0x23305dc, size 0x5a4, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x23638c8, size 0x5a4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x232fff0, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x23632dc, size 0x46c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
 
-  constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*& __cordl_internal_get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher* const& __cordl_internal_get_engine() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*> const& __cordl_internal_get_engine() const;
+  constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*& __cordl_internal_get_engine();
 
   constexpr bool const& __cordl_internal_get_forWrapping() const;
 
@@ -105,21 +101,21 @@ public:
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_iv();
 
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* const& __cordl_internal_get_paramPlusIV() const;
+
   constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*& __cordl_internal_get_paramPlusIV();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*> const& __cordl_internal_get_paramPlusIV() const;
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* const& __cordl_internal_get_parameters() const;
 
   constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherParameters*> const& __cordl_internal_get_parameters() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_sha1() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_sha1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_sha1() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_sr() const;
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_sr();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_sr() const;
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
@@ -137,12 +133,12 @@ public:
 
   constexpr void __cordl_internal_set_sr(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x2330c94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2363f80, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV2();
 
-  /// @brief Method get_AlgorithmName, addr 0x232ffb0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x236329c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
@@ -163,6 +159,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RC2WrapEngine", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RC2WrapEngine(RC2WrapEngine const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 855 };
 
   /// @brief Field engine, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher* ___engine;
@@ -188,14 +187,9 @@ public:
   /// @brief Field digest, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___digest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 855 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___engine) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___parameters) == 0x18, "Offset mismatch!");
@@ -211,6 +205,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___s
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___sha1) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___digest) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, 0x50>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);

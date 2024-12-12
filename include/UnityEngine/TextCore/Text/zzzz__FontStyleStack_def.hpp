@@ -15,21 +15,20 @@ struct FontStyleStack;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::FontStyleStack);
-// Type: UnityEngine.TextCore.Text::FontStyleStack
-// SizeInfo { instance_size: 10, native_size: 10, calculated_instance_size: 10, calculated_native_size: 26, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::FontStyleStack
+// CS Name: UnityEngine.TextCore.Text.FontStyleStack
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x48e9468, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x494daf8, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Clear, addr 0x48e945c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x494daec, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x48e9564, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x494dbf4, size 0x144, virtual false, abstract: false, final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
 
   // Ctor Parameters []
@@ -43,6 +42,12 @@ public:
   // "uint8_t", modifiers: "", def_value: None }]
   constexpr FontStyleStack(uint8_t bold, uint8_t italic, uint8_t underline, uint8_t strikethrough, uint8_t highlight, uint8_t superscript, uint8_t subscript, uint8_t uppercase, uint8_t lowercase,
                            uint8_t smallcaps) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15286 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };
 
   /// @brief Field bold, offset: 0x0, size: 0x1, def value: None
   uint8_t bold;
@@ -74,17 +79,9 @@ public:
   /// @brief Field smallcaps, offset: 0x9, size: 0x1, def value: None
   uint8_t smallcaps;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15251 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontStyleStack, 0xa>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, bold) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, italic) == 0x1, "Offset mismatch!");
@@ -104,6 +101,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, uppercase)
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, lowercase) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, smallcaps) == 0x9, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontStyleStack, 0xa>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontStyleStack, "UnityEngine.TextCore.Text", "FontStyleStack");

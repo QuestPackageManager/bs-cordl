@@ -12,11 +12,10 @@ class CADArgHolder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADArgHolder);
-// Type: System.Runtime.Remoting.Messaging::CADArgHolder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::CADArgHolder*
+// CS Name: System.Runtime.Remoting.Messaging.CADArgHolder
 class CORDL_TYPE CADArgHolder : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c86094, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce6208, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t i);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CADArgHolder(CADArgHolder const&) = delete;
 
-  /// @brief Field index, offset: 0x10, size: 0x4, def value: None
-  int32_t ___index;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3151 };
+
+  /// @brief Field index, offset: 0x10, size: 0x4, def value: None
+  int32_t ___index;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADArgHolder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADArgHolder, ___index) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADArgHolder, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADArgHolder);

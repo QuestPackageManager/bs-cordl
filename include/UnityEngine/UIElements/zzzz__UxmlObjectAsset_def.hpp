@@ -11,11 +11,10 @@ class UxmlObjectAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlObjectAsset);
-// Type: UnityEngine.UIElements::UxmlObjectAsset
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UxmlAsset
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlObjectAsset*
+// CS Name: UnityEngine.UIElements.UxmlObjectAsset
 class CORDL_TYPE UxmlObjectAsset : public ::UnityEngine::UIElements::UxmlAsset {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   UxmlObjectAsset(UxmlObjectAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

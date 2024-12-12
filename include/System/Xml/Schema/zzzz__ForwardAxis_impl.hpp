@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (::System::Xml::Schema::ForwardAxis::*)()>(
     &::System::Xml::Schema::ForwardAxis::get_RootNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4332228;
+  constexpr static std::size_t addrs = 0x439353c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_RootNode",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (::System::Xml::Schema::ForwardAxis::*)()>(
     &::System::Xml::Schema::ForwardAxis::get_TopNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4332230;
+  constexpr static std::size_t addrs = 0x4393544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_TopNode",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ForwardAxis::*)()>(&::System::Xml::Schema::ForwardAxis::get_IsAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4332238;
+  constexpr static std::size_t addrs = 0x439354c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_IsAttribute",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ForwardAxis::*)()>(&::System::Xml::Schema::ForwardAxis::get_IsDss)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4332240;
+  constexpr static std::size_t addrs = 0x4393554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_IsDss",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ForwardAxis::*)()>(&::System::Xml::Schema::ForwardAxis::get_IsSelfAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4332248;
+  constexpr static std::size_t addrs = 0x439355c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_IsSelfAxis",
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ForwardAxis::*)(::System::Xml::Schema::DoubleLinkAxis*, bool)>(
     &::System::Xml::Schema::ForwardAxis::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4332250;
+  constexpr static std::size_t addrs = 0x4393564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ constexpr ::System::Xml::Schema::DoubleLinkAxis*& System::Xml::Schema::ForwardAx
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DoubleLinkAxis*> const& System::Xml::Schema::ForwardAxis::__cordl_internal_get__topNode() const {
+constexpr ::System::Xml::Schema::DoubleLinkAxis* const& System::Xml::Schema::ForwardAxis::__cordl_internal_get__topNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topNode;
 }
@@ -102,7 +102,7 @@ constexpr ::System::Xml::Schema::DoubleLinkAxis*& System::Xml::Schema::ForwardAx
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DoubleLinkAxis*> const& System::Xml::Schema::ForwardAxis::__cordl_internal_get__rootNode() const {
+constexpr ::System::Xml::Schema::DoubleLinkAxis* const& System::Xml::Schema::ForwardAxis::__cordl_internal_get__rootNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootNode;
 }
@@ -171,15 +171,15 @@ inline bool System::Xml::Schema::ForwardAxis::get_IsSelfAxis() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::ForwardAxis* System::Xml::Schema::ForwardAxis::New_ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ForwardAxis*>(axis, isdesorself));
-}
 inline void System::Xml::Schema::ForwardAxis::_ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::DoubleLinkAxis*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, axis, isdesorself);
+}
+inline ::System::Xml::Schema::ForwardAxis* System::Xml::Schema::ForwardAxis::New_ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ForwardAxis*>(axis, isdesorself));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ForwardAxis::ForwardAxis() {}

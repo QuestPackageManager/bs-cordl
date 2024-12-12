@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DepthTextureController)
 namespace GlobalNamespace {
 class SettingsManager;
@@ -14,20 +15,19 @@ class DepthTextureController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DepthTextureController);
-// Type: ::DepthTextureController
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DepthTextureController*
+// CS Name: DepthTextureController
 class CORDL_TYPE DepthTextureController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3acda6c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b2d0b0, size 0xb8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsManager* settingsManager);
 
   static inline ::GlobalNamespace::DepthTextureController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3acdb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2d168, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   DepthTextureController(DepthTextureController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5167 };
 
   /// @brief Field kDepthTextureEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthTextureEnabledKeyword{ u"DEPTH_TEXTURE_ENABLED" };

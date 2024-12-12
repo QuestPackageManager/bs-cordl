@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventSourceAttribute::*)(::StringW)>(
     &::System::Diagnostics::Tracing::EventSourceAttribute::set_Guid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d572d4;
+  constexpr static std::size_t addrs = 0x3db7448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventSourceAttribute::*)(::StringW)>(
     &::System::Diagnostics::Tracing::EventSourceAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d572dc;
+  constexpr static std::size_t addrs = 0x3db7450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventSourceAttribute::*)()>(
     &::System::Diagnostics::Tracing::EventSourceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d572e4;
+  constexpr static std::size_t addrs = 0x3db7458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Tracing::EventSourceAttribute*>::get(),
@@ -82,13 +82,13 @@ inline void System::Diagnostics::Tracing::EventSourceAttribute::set_Name(::Strin
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Diagnostics::Tracing::EventSourceAttribute* System::Diagnostics::Tracing::EventSourceAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::Tracing::EventSourceAttribute*>());
-}
 inline void System::Diagnostics::Tracing::EventSourceAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Tracing::EventSourceAttribute*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Diagnostics::Tracing::EventSourceAttribute* System::Diagnostics::Tracing::EventSourceAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::Tracing::EventSourceAttribute*>());
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Tracing::EventSourceAttribute::EventSourceAttribute() {}

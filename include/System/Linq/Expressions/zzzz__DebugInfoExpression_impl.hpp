@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_StartLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x404c76c;
+  constexpr static std::size_t addrs = 0x40ada80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_EndLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x404c794;
+  constexpr static std::size_t addrs = 0x40adaa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::SymbolDocumentInfo* (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_Document)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404c7bc;
+  constexpr static std::size_t addrs = 0x40adad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::DebugInfoExpression*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_IsClear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x404c7c4;
+  constexpr static std::size_t addrs = 0x40adad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,8 +69,7 @@ constexpr ::System::Linq::Expressions::SymbolDocumentInfo*& System::Linq::Expres
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Document_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::SymbolDocumentInfo*> const&
-System::Linq::Expressions::DebugInfoExpression::__cordl_internal_get__Document_k__BackingField() const {
+constexpr ::System::Linq::Expressions::SymbolDocumentInfo* const& System::Linq::Expressions::DebugInfoExpression::__cordl_internal_get__Document_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Document_k__BackingField;
 }

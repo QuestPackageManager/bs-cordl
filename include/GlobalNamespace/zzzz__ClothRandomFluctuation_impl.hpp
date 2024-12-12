@@ -7,60 +7,60 @@
 #include "GlobalNamespace/zzzz__ClothRandomFluctuation_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Cloth_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__ClothRandomFluctuation__SineLayer._ctor
+//  Writing Method size for method: ::GlobalNamespace::ClothRandomFluctuation_SineLayer._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ClothRandomFluctuation__SineLayer::*)()>(
-    &::GlobalNamespace::__ClothRandomFluctuation__SineLayer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation_SineLayer::*)()>(
+    &::GlobalNamespace::ClothRandomFluctuation_SineLayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a73904;
+  constexpr static std::size_t addrs = 0x3acac74;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::__ClothRandomFluctuation__SineLayer::__cordl_internal_get_multiplier() {
+constexpr float_t& GlobalNamespace::ClothRandomFluctuation_SineLayer::__cordl_internal_get_multiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
-constexpr float_t const& GlobalNamespace::__ClothRandomFluctuation__SineLayer::__cordl_internal_get_multiplier() const {
+constexpr float_t const& GlobalNamespace::ClothRandomFluctuation_SineLayer::__cordl_internal_get_multiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
-constexpr void GlobalNamespace::__ClothRandomFluctuation__SineLayer::__cordl_internal_set_multiplier(float_t value) {
+constexpr void GlobalNamespace::ClothRandomFluctuation_SineLayer::__cordl_internal_set_multiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___multiplier = value;
 }
-constexpr float_t& GlobalNamespace::__ClothRandomFluctuation__SineLayer::__cordl_internal_get_offset() {
+constexpr float_t& GlobalNamespace::ClothRandomFluctuation_SineLayer::__cordl_internal_get_offset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr float_t const& GlobalNamespace::__ClothRandomFluctuation__SineLayer::__cordl_internal_get_offset() const {
+constexpr float_t const& GlobalNamespace::ClothRandomFluctuation_SineLayer::__cordl_internal_get_offset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr void GlobalNamespace::__ClothRandomFluctuation__SineLayer::__cordl_internal_set_offset(float_t value) {
+constexpr void GlobalNamespace::ClothRandomFluctuation_SineLayer::__cordl_internal_set_offset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
-inline ::GlobalNamespace::__ClothRandomFluctuation__SineLayer* GlobalNamespace::__ClothRandomFluctuation__SineLayer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>());
-}
-inline void GlobalNamespace::__ClothRandomFluctuation__SineLayer::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>::get(),
+inline void GlobalNamespace::ClothRandomFluctuation_SineLayer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::ClothRandomFluctuation_SineLayer* GlobalNamespace::ClothRandomFluctuation_SineLayer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ClothRandomFluctuation__SineLayer::__ClothRandomFluctuation__SineLayer() {}
+constexpr ::GlobalNamespace::ClothRandomFluctuation_SineLayer::ClothRandomFluctuation_SineLayer() {}
 //  Writing Method size for method: ::GlobalNamespace::ClothRandomFluctuation.Update
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation::*)()>(&::GlobalNamespace::ClothRandomFluctuation::Update)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a73680;
+  constexpr static std::size_t addrs = 0x3aca9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClothRandomFluctuation*>::get(), "Update",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation::*)(::UnityEngine::Cloth*)>(
     &::GlobalNamespace::ClothRandomFluctuation::FluctuateCloth)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3a73688;
+  constexpr static std::size_t addrs = 0x3aca9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ClothRandomFluctuation::*)(float_t, float_t)>(
     &::GlobalNamespace::ClothRandomFluctuation::GetNoise)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3a737f8;
+  constexpr static std::size_t addrs = 0x3acab68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation::*)()>(&::GlobalNamespace::ClothRandomFluctuation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a738fc;
+  constexpr static std::size_t addrs = 0x3acac6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClothRandomFluctuation*>::get(), ".ctor",
@@ -183,16 +183,15 @@ constexpr void GlobalNamespace::ClothRandomFluctuation::__cordl_internal_set__ma
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxFluctuations = value;
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>*& GlobalNamespace::ClothRandomFluctuation::__cordl_internal_get__compoundSins() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>*& GlobalNamespace::ClothRandomFluctuation::__cordl_internal_get__compoundSins() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compoundSins;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>*> const&
-GlobalNamespace::ClothRandomFluctuation::__cordl_internal_get__compoundSins() const {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>* const& GlobalNamespace::ClothRandomFluctuation::__cordl_internal_get__compoundSins() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compoundSins;
 }
-constexpr void GlobalNamespace::ClothRandomFluctuation::__cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* value) {
+constexpr void GlobalNamespace::ClothRandomFluctuation::__cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____compoundSins)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -219,20 +218,19 @@ inline void GlobalNamespace::ClothRandomFluctuation::FluctuateCloth(::UnityEngin
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Cloth*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cloth);
 }
-/// @param offset: float_t (default: 0.0)
 inline float_t GlobalNamespace::ClothRandomFluctuation::GetNoise(float_t time, float_t offset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClothRandomFluctuation*>::get(), "GetNoise", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, time, offset);
 }
-inline ::GlobalNamespace::ClothRandomFluctuation* GlobalNamespace::ClothRandomFluctuation::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ClothRandomFluctuation*>());
-}
 inline void GlobalNamespace::ClothRandomFluctuation::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClothRandomFluctuation*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ClothRandomFluctuation* GlobalNamespace::ClothRandomFluctuation::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ClothRandomFluctuation*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ClothRandomFluctuation::ClothRandomFluctuation() {}

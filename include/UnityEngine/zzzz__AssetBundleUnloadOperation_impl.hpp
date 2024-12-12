@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AssetBundleUnloadOperation::*)()>(
     &::UnityEngine::AssetBundleUnloadOperation::WaitForCompletion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47f57b4;
+  constexpr static std::size_t addrs = 0x4856ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundleUnloadOperation*>::get(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AssetBundleUnloadOperation::*)()>(&::UnityEngine::AssetBundleUnloadOperation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47f57f0;
+  constexpr static std::size_t addrs = 0x4856b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundleUnloadOperation*>::get(), ".ctor",
@@ -34,13 +34,13 @@ inline void UnityEngine::AssetBundleUnloadOperation::WaitForCompletion() {
                                                                              "WaitForCompletion", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::AssetBundleUnloadOperation* UnityEngine::AssetBundleUnloadOperation::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AssetBundleUnloadOperation*>());
-}
 inline void UnityEngine::AssetBundleUnloadOperation::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundleUnloadOperation*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::AssetBundleUnloadOperation* UnityEngine::AssetBundleUnloadOperation::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AssetBundleUnloadOperation*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AssetBundleUnloadOperation::AssetBundleUnloadOperation() {}

@@ -14,17 +14,16 @@ class Kdf2BytesGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::Kdf2BytesGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::Kdf2BytesGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.Kdf2BytesGenerator
 class CORDL_TYPE Kdf2BytesGenerator : public ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x23523b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23856a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
 protected:

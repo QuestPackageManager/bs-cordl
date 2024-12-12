@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DelayedMenuButtonTrigger.hpp"
+#include "GlobalNamespace/zzzz__IMenuButtonTrigger_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "GlobalNamespace/zzzz__DelayedMenuButtonTrigger_def.hpp"
-#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DelayedMenuButtonTrigger.add_menuButtonTriggeredEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)(::System::Action*)>(
     &::GlobalNamespace::DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b46034;
+  constexpr static std::size_t addrs = 0x3ba7724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)(::System::Action*)>(
     &::GlobalNamespace::DelayedMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b460d0;
+  constexpr static std::size_t addrs = 0x3ba77c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)()>(&::GlobalNamespace::DelayedMenuButtonTrigger::Tick)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3b4616c;
+  constexpr static std::size_t addrs = 0x3ba785c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DelayedMenuButtonTrigger*>::get(), "Tick",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DelayedMenuButtonTrigger::*)()>(&::GlobalNamespace::DelayedMenuButtonTrigger::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b4627c;
+  constexpr static std::size_t addrs = 0x3ba796c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DelayedMenuButtonTrigger*>::get(), ".ctor",
@@ -62,27 +62,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::ITickable"
-constexpr GlobalNamespace::DelayedMenuButtonTrigger::operator ::Zenject::ITickable*() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::ITickable"
-constexpr ::Zenject::ITickable* GlobalNamespace::DelayedMenuButtonTrigger::i___Zenject__ITickable() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
-constexpr GlobalNamespace::DelayedMenuButtonTrigger::operator ::GlobalNamespace::IMenuButtonTrigger*() noexcept {
-  return static_cast<::GlobalNamespace::IMenuButtonTrigger*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
-constexpr ::GlobalNamespace::IMenuButtonTrigger* GlobalNamespace::DelayedMenuButtonTrigger::i___GlobalNamespace__IMenuButtonTrigger() noexcept {
-  return static_cast<::GlobalNamespace::IMenuButtonTrigger*>(static_cast<void*>(this));
-}
 constexpr ::System::Action*& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get_menuButtonTriggeredEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuButtonTriggeredEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get_menuButtonTriggeredEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get_menuButtonTriggeredEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuButtonTriggeredEvent;
 }
@@ -130,7 +114,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::DelayedMenuBut
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::DelayedMenuButtonTrigger::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -155,13 +139,29 @@ inline void GlobalNamespace::DelayedMenuButtonTrigger::Tick() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::DelayedMenuButtonTrigger* GlobalNamespace::DelayedMenuButtonTrigger::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DelayedMenuButtonTrigger*>());
-}
 inline void GlobalNamespace::DelayedMenuButtonTrigger::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DelayedMenuButtonTrigger*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::DelayedMenuButtonTrigger* GlobalNamespace::DelayedMenuButtonTrigger::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DelayedMenuButtonTrigger*>());
+}
+/// @brief Convert operator to "::Zenject::ITickable"
+constexpr GlobalNamespace::DelayedMenuButtonTrigger::operator ::Zenject::ITickable*() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* GlobalNamespace::DelayedMenuButtonTrigger::i___Zenject__ITickable() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
+constexpr GlobalNamespace::DelayedMenuButtonTrigger::operator ::GlobalNamespace::IMenuButtonTrigger*() noexcept {
+  return static_cast<::GlobalNamespace::IMenuButtonTrigger*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
+constexpr ::GlobalNamespace::IMenuButtonTrigger* GlobalNamespace::DelayedMenuButtonTrigger::i___GlobalNamespace__IMenuButtonTrigger() noexcept {
+  return static_cast<::GlobalNamespace::IMenuButtonTrigger*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DelayedMenuButtonTrigger::DelayedMenuButtonTrigger() {}

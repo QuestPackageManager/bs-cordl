@@ -12,604 +12,603 @@
 #include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback._ctor
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(::System::Object*, ::System::IntPtr)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(::System::Object*, ::System::IntPtr)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a69b30;
+  constexpr static std::size_t addrs = 0x4ace440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback.Invoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(
-    ::UnityEngine::Ray, ByRef<::UnityEngine::RaycastHit>, float_t, int32_t)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(
+    ::UnityEngine::Ray, ::ByRef<::UnityEngine::RaycastHit>, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::Invoke)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a69bbc;
+  constexpr static std::size_t addrs = 0x4ace4cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback.BeginInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(::UnityEngine::Ray, ByRef<::UnityEngine::RaycastHit>, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::BeginInvoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(::UnityEngine::Ray, ::ByRef<::UnityEngine::RaycastHit>, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4a69bfc;
+  constexpr static std::size_t addrs = 0x4ace50c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback.EndInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(
-    ByRef<::UnityEngine::RaycastHit>, ::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(
+    ::ByRef<::UnityEngine::RaycastHit>, ::System::IAsyncResult*)>(&::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4a69d20;
+  constexpr static std::size_t addrs = 0x4ace630;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback* UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>(object, method));
-}
-inline void UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline bool UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::Invoke(::UnityEngine::Ray r, ByRef<::UnityEngine::RaycastHit> hit, float_t f, int32_t i) {
+inline bool UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::Invoke(::UnityEngine::Ray r, ::ByRef<::UnityEngine::RaycastHit> hit, float_t f, int32_t i) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, r, hit, f, i);
 }
-inline ::System::IAsyncResult* UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::BeginInvoke(::UnityEngine::Ray r, ByRef<::UnityEngine::RaycastHit> hit, float_t f, int32_t i,
-                                                                                                         ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::BeginInvoke(::UnityEngine::Ray r, ::ByRef<::UnityEngine::RaycastHit> hit, float_t f, int32_t i,
+                                                                                                      ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, r, hit, f, i, callback, object);
 }
-inline bool UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::EndInvoke(ByRef<::UnityEngine::RaycastHit> hit, ::System::IAsyncResult* result) {
+inline bool UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::EndInvoke(::ByRef<::UnityEngine::RaycastHit> hit, ::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, hit, result);
 }
+inline ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback* UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::__ReflectionMethodsCache__Raycast3DCallback() {}
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback._ctor
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::ReflectionMethodsCache_Raycast3DCallback() {}
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::System::Object*, ::System::IntPtr)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::System::Object*, ::System::IntPtr)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a69d4c;
+  constexpr static std::size_t addrs = 0x4ace65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback.Invoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback.Invoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> (
-    ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t)>(&::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::Invoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a69dd8;
+  constexpr static std::size_t addrs = 0x4ace6e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback.BeginInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IAsyncResult* (::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
-        &::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::BeginInvoke)> {
+    static_cast<::System::IAsyncResult* (::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
+        &::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4a69e14;
+  constexpr static std::size_t addrs = 0x4ace724;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback.EndInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback.EndInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> (
-    ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::EndInvoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::System::IAsyncResult*)>(&::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a69f04;
+  constexpr static std::size_t addrs = 0x4ace814;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback* UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>(object, method));
-}
-inline void UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::Invoke(::UnityEngine::Ray r, float_t f, int32_t i) {
+inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::Invoke(::UnityEngine::Ray r, float_t f, int32_t i) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*>, false>(this, ___internal_method, r, f, i);
 }
-inline ::System::IAsyncResult* UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback,
-                                                                                                          ::System::Object* object) {
+inline ::System::IAsyncResult* UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback,
+                                                                                                       ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, r, f, i, callback, object);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::EndInvoke(::System::IAsyncResult* result) {
+inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*>, false>(this, ___internal_method, result);
 }
+inline ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback* UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::__ReflectionMethodsCache__RaycastAllCallback() {}
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback._ctor
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::ReflectionMethodsCache_RaycastAllCallback() {}
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::*)(
-    ::System::Object*, ::System::IntPtr)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(::System::Object*, ::System::IntPtr)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a69f10;
+  constexpr static std::size_t addrs = 0x4ace820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback.Invoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::*)(
-    ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*>, float_t, int32_t)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(
+    ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*>, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a69f9c;
+  constexpr static std::size_t addrs = 0x4ace8ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback.BeginInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::*)(::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*>, float_t, int32_t,
-                                                                                ::System::AsyncCallback*, ::System::Object*)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::BeginInvoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*>, float_t, int32_t,
+                                                                             ::System::AsyncCallback*, ::System::Object*)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4a69fd8;
+  constexpr static std::size_t addrs = 0x4ace8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback.EndInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::*)(::System::IAsyncResult*)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(::System::IAsyncResult*)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a6a0cc;
+  constexpr static std::size_t addrs = 0x4ace9dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback* UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::New_ctor(::System::Object* object,
-                                                                                                                                                                ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>(object, method));
-}
-inline void UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline int32_t UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::Invoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results,
-                                                                                             float_t f, int32_t i) {
+inline int32_t UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::Invoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results,
+                                                                                          float_t f, int32_t i) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, r, results, f, i);
 }
-inline ::System::IAsyncResult* UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::BeginInvoke(::UnityEngine::Ray r,
-                                                                                                                  ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results,
-                                                                                                                  float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::BeginInvoke(::UnityEngine::Ray r,
+                                                                                                               ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results,
+                                                                                                               float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, r, results, f, i, callback, object);
 }
-inline int32_t UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::EndInvoke(::System::IAsyncResult* result) {
+inline int32_t UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, result);
 }
+inline ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback* UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::New_ctor(::System::Object* object,
+                                                                                                                                                          ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::__ReflectionMethodsCache__GetRaycastNonAllocCallback() {}
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback._ctor
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::ReflectionMethodsCache_GetRaycastNonAllocCallback() {}
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(::System::Object*, ::System::IntPtr)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::*)(::System::Object*, ::System::IntPtr)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a6a0f4;
+  constexpr static std::size_t addrs = 0x4acea04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback.Invoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(
-    ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, int32_t)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::*)(
+    ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a6a180;
+  constexpr static std::size_t addrs = 0x4acea90;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback.BeginInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::BeginInvoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4a6a194;
+  constexpr static std::size_t addrs = 0x4aceaa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback.EndInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(
-    ::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::*)(
+    ::System::IAsyncResult*)>(&::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4a6a298;
+  constexpr static std::size_t addrs = 0x4aceba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback* UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>(object, method));
-}
-inline void UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::UnityEngine::RaycastHit2D UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::Invoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i) {
+inline ::UnityEngine::RaycastHit2D UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::Invoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RaycastHit2D, false>(this, ___internal_method, p1, p2, f, i);
 }
-inline ::System::IAsyncResult* UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::BeginInvoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i,
-                                                                                                         ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::BeginInvoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i,
+                                                                                                      ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, p1, p2, f, i, callback, object);
 }
-inline ::UnityEngine::RaycastHit2D UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::EndInvoke(::System::IAsyncResult* result) {
+inline ::UnityEngine::RaycastHit2D UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RaycastHit2D, false>(this, ___internal_method, result);
 }
+inline ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback* UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::__ReflectionMethodsCache__Raycast2DCallback() {}
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback._ctor
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::ReflectionMethodsCache_Raycast2DCallback() {}
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(
-    ::System::Object*, ::System::IntPtr)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(
+    ::System::Object*, ::System::IntPtr)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a6a2d0;
+  constexpr static std::size_t addrs = 0x4acebe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback.Invoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback.Invoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> (
-    ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(::UnityEngine::Ray, float_t, int32_t)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::Invoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(::UnityEngine::Ray, float_t, int32_t)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a6a35c;
+  constexpr static std::size_t addrs = 0x4acec6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback.BeginInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::BeginInvoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4a6a398;
+  constexpr static std::size_t addrs = 0x4aceca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback.EndInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback.EndInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> (
-    ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::EndInvoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(::System::IAsyncResult*)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a6a488;
+  constexpr static std::size_t addrs = 0x4aced98;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback* UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::New_ctor(::System::Object* object,
-                                                                                                                                                                      ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>(object, method));
-}
-inline void UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::Invoke(::UnityEngine::Ray r, float_t f,
-                                                                                                                                                                     int32_t i) {
+inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::Invoke(::UnityEngine::Ray r, float_t f,
+                                                                                                                                                                  int32_t i) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>, false>(this, ___internal_method, r, f, i);
 }
-inline ::System::IAsyncResult* UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback,
-                                                                                                                     ::System::Object* object) {
+inline ::System::IAsyncResult* UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback,
+                                                                                                                  ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, r, f, i, callback, object);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>
-UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::EndInvoke(::System::IAsyncResult* result) {
+inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>, false>(this, ___internal_method, result);
 }
+inline ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback* UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::New_ctor(::System::Object* object,
+                                                                                                                                                                ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::__ReflectionMethodsCache__GetRayIntersectionAllCallback() {}
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback._ctor
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::ReflectionMethodsCache_GetRayIntersectionAllCallback() {}
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::*)(
-    ::System::Object*, ::System::IntPtr)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::*)(
+    ::System::Object*, ::System::IntPtr)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a6a494;
+  constexpr static std::size_t addrs = 0x4aceda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback.Invoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::*)(
     ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>, float_t, int32_t)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::Invoke)> {
+    &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a6a520;
+  constexpr static std::size_t addrs = 0x4acee30;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(), 13));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback.BeginInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::*)(::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>, float_t,
-                                                                                           int32_t, ::System::AsyncCallback*, ::System::Object*)>(
-    &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
+    ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::*)(::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>, float_t,
+                                                                                        int32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4a6a55c;
+  constexpr static std::size_t addrs = 0x4acee6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(), 14));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback.EndInvoke
+//  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::*)(
-    ::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::*)(
+    ::System::IAsyncResult*)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a6a650;
+  constexpr static std::size_t addrs = 0x4acef60;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(), 15));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*
-UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>(object, method));
-}
-inline void UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline int32_t UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::Invoke(::UnityEngine::Ray r,
-                                                                                                        ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t f,
-                                                                                                        int32_t i) {
+inline int32_t UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::Invoke(::UnityEngine::Ray r,
+                                                                                                     ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t f,
+                                                                                                     int32_t i) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(), 13)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, r, results, f, i);
 }
-inline ::System::IAsyncResult* UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::BeginInvoke(
-    ::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult*
+UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::BeginInvoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results,
+                                                                                           float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(), 14)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, r, results, f, i, callback, object);
 }
-inline int32_t UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::EndInvoke(::System::IAsyncResult* result) {
+inline int32_t UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*>::get(), 15)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, result);
 }
+inline ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*
+UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback() {}
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback() {}
 //  Writing Method size for method: ::UnityEngine::UI::ReflectionMethodsCache._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache::*)()>(&::UnityEngine::UI::ReflectionMethodsCache::_ctor)> {
   constexpr static std::size_t size = 0xc14;
-  constexpr static std::size_t addrs = 0x4a68ea8;
+  constexpr static std::size_t addrs = 0x4acd7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache*>::get(), ".ctor",
@@ -622,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ReflectionMethodsCache* (*)()>(&::UnityEngine::UI::ReflectionMethodsCache::get_Singleton)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a69abc;
+  constexpr static std::size_t addrs = 0x4ace3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache*>::get(),
@@ -630,79 +629,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3D() {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3D() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycast3D;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*> const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3D() const {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback* const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3D() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycast3D;
 }
-constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_raycast3D(::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback* value) {
+constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_raycast3D(::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___raycast3D)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3DAll() {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3DAll() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycast3DAll;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*> const&
-UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3DAll() const {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback* const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast3DAll() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycast3DAll;
 }
-constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_raycast3DAll(::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback* value) {
+constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_raycast3DAll(::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___raycast3DAll)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRaycastNonAlloc() {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRaycastNonAlloc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getRaycastNonAlloc;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*> const&
-UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRaycastNonAlloc() const {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback* const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRaycastNonAlloc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getRaycastNonAlloc;
 }
-constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_getRaycastNonAlloc(::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback* value) {
+constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_getRaycastNonAlloc(::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___getRaycastNonAlloc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast2D() {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast2D() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycast2D;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*> const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast2D() const {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback* const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_raycast2D() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycast2D;
 }
-constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_raycast2D(::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback* value) {
+constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_raycast2D(::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___raycast2D)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAll() {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAll() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getRayIntersectionAll;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*> const&
-UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAll() const {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback* const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAll() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getRayIntersectionAll;
 }
-constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_getRayIntersectionAll(::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback* value) {
+constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_getRayIntersectionAll(::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___getRayIntersectionAll)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAllNonAlloc() {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAllNonAlloc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getRayIntersectionAllNonAlloc;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*> const&
-UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAllNonAlloc() const {
+constexpr ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback* const& UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_get_getRayIntersectionAllNonAlloc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getRayIntersectionAllNonAlloc;
 }
-constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_getRayIntersectionAllNonAlloc(::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback* value) {
+constexpr void UnityEngine::UI::ReflectionMethodsCache::__cordl_internal_set_getRayIntersectionAllNonAlloc(::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___getRayIntersectionAllNonAlloc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -715,9 +710,6 @@ inline ::UnityEngine::UI::ReflectionMethodsCache* UnityEngine::UI::ReflectionMet
   return ::cordl_internals::getStaticField<::UnityEngine::UI::ReflectionMethodsCache*, "s_ReflectionMethodsCache",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache*>::get>();
 }
-inline ::UnityEngine::UI::ReflectionMethodsCache* UnityEngine::UI::ReflectionMethodsCache::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache*>());
-}
 inline void UnityEngine::UI::ReflectionMethodsCache::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -727,6 +719,9 @@ inline ::UnityEngine::UI::ReflectionMethodsCache* UnityEngine::UI::ReflectionMet
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache*>::get(), "get_Singleton",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::ReflectionMethodsCache*, false>(nullptr, ___internal_method);
+}
+inline ::UnityEngine::UI::ReflectionMethodsCache* UnityEngine::UI::ReflectionMethodsCache::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::ReflectionMethodsCache*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ReflectionMethodsCache::ReflectionMethodsCache() {}

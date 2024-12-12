@@ -15,10 +15,10 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+class LegacyResourcesProvider_InternalOp;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __LegacyResourcesProvider__InternalOp;
+struct ProvideHandle;
 }
 namespace UnityEngine {
 class AsyncOperation;
@@ -31,17 +31,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class LegacyResourcesProvider;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __LegacyResourcesProvider__InternalOp;
+class LegacyResourcesProvider_InternalOp;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider);
-MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp);
-// Type: ::InternalOp
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp);
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::LegacyResourcesProvider::InternalOp*
-class CORDL_TYPE __LegacyResourcesProvider__InternalOp : public ::System::Object {
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider/InternalOp
+class CORDL_TYPE LegacyResourcesProvider_InternalOp : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ProvideHandle, offset 0x18, size 0x18
@@ -50,48 +49,51 @@ public:
   /// @brief Field m_RequestOperation, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation)) ::UnityEngine::ResourceRequest* m_RequestOperation;
 
-  /// @brief Method AsyncOperationCompleted, addr 0x473c878, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method AsyncOperationCompleted, addr 0x479db8c, size 0x180, virtual false, abstract: false, final false
   inline void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
 
-  static inline ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp* New_ctor();
+  static inline ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp* New_ctor();
 
-  /// @brief Method PercentComplete, addr 0x473c9f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PercentComplete, addr 0x479dd0c, size 0x18, virtual false, abstract: false, final false
   inline float_t PercentComplete();
 
-  /// @brief Method Start, addr 0x473c46c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x479d780, size 0x18c, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x473c724, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x479da38, size 0x154, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProvideHandle();
 
-  constexpr ::UnityEngine::ResourceRequest*& __cordl_internal_get_m_RequestOperation();
+  constexpr ::UnityEngine::ResourceRequest* const& __cordl_internal_get_m_RequestOperation() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceRequest*> const& __cordl_internal_get_m_RequestOperation() const;
+  constexpr ::UnityEngine::ResourceRequest*& __cordl_internal_get_m_RequestOperation();
 
   constexpr void __cordl_internal_set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
 
   constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::ResourceRequest* value);
 
-  /// @brief Method .ctor, addr 0x473c464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479d778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacyResourcesProvider__InternalOp();
+  constexpr LegacyResourcesProvider_InternalOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacyResourcesProvider__InternalOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesProvider_InternalOp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacyResourcesProvider__InternalOp(__LegacyResourcesProvider__InternalOp&&) = delete;
+  LegacyResourcesProvider_InternalOp(LegacyResourcesProvider_InternalOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacyResourcesProvider__InternalOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesProvider_InternalOp", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacyResourcesProvider__InternalOp(__LegacyResourcesProvider__InternalOp const&) = delete;
+  LegacyResourcesProvider_InternalOp(LegacyResourcesProvider_InternalOp const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15669 };
 
   /// @brief Field m_RequestOperation, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ResourceRequest* ___m_RequestOperation;
@@ -99,38 +101,34 @@ public:
   /// @brief Field m_ProvideHandle, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle ___m_ProvideHandle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15634 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp, 0x30>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp, ___m_RequestOperation) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp, ___m_RequestOperation) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp, ___m_ProvideHandle) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp, ___m_ProvideHandle) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
-// Type: UnityEngine.ResourceManagement.ResourceProviders::LegacyResourcesProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::LegacyResourcesProvider*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider
 class CORDL_TYPE LegacyResourcesProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
-  using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp;
+  using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp;
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x473c05c, size 0x408, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x479d370, size 0x408, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle pi);
 
-  /// @brief Method Release, addr 0x473c5f8, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x479d90c, size 0x124, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
-  /// @brief Method .ctor, addr 0x473c71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479da30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +146,7 @@ public:
   LegacyResourcesProvider(LegacyResourcesProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -158,6 +156,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider");
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders",
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider_InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders",
                        "LegacyResourcesProvider/InternalOp");

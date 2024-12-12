@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NumericConvertInstruction)
+namespace GlobalNamespace {
+class NumericConvertInstruction_Checked;
+}
+namespace GlobalNamespace {
+class NumericConvertInstruction_ToUnderlying;
+}
+namespace GlobalNamespace {
+class NumericConvertInstruction_Unchecked;
+}
 namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __NumericConvertInstruction__Checked;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __NumericConvertInstruction__ToUnderlying;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __NumericConvertInstruction__Unchecked;
 }
 namespace System {
 class Object;
@@ -32,19 +32,18 @@ class NumericConvertInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::NumericConvertInstruction);
-// Type: System.Linq.Expressions.Interpreter::NumericConvertInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction, System.TypeCode
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::NumericConvertInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.NumericConvertInstruction
 class CORDL_TYPE NumericConvertInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using Checked = ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Checked;
+  using Checked = ::GlobalNamespace::NumericConvertInstruction_Checked;
 
-  using ToUnderlying = ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying;
+  using ToUnderlying = ::GlobalNamespace::NumericConvertInstruction_ToUnderlying;
 
-  using Unchecked = ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Unchecked;
+  using Unchecked = ::GlobalNamespace::NumericConvertInstruction_Unchecked;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
@@ -61,15 +60,15 @@ public:
   /// @brief Field _to, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__to, put = __cordl_internal_set__to)) ::System::TypeCode _to;
 
-  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Convert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
   static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method Run, addr 0x408f6cc, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x40f09e0, size 0xd4, virtual true, abstract: false, final true
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x408f7f0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40f0b04, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::TypeCode const& __cordl_internal_get__from() const;
@@ -90,16 +89,16 @@ public:
 
   constexpr void __cordl_internal_set__to(::System::TypeCode value);
 
-  /// @brief Method .ctor, addr 0x408f690, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f09a4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_ConsumedStack, addr 0x408f7e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f0af4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x408f7a0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f0ab4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x408f7e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f0afc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -116,6 +115,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NumericConvertInstruction(NumericConvertInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14058 };
+
   /// @brief Field _from, offset: 0x10, size: 0x4, def value: None
   ::System::TypeCode ____from;
 
@@ -125,19 +127,16 @@ public:
   /// @brief Field _isLiftedToNull, offset: 0x18, size: 0x1, def value: None
   bool ____isLiftedToNull;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14024 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NumericConvertInstruction, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NumericConvertInstruction, ____from) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NumericConvertInstruction, ____to) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NumericConvertInstruction, ____isLiftedToNull) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NumericConvertInstruction, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NumericConvertInstruction);

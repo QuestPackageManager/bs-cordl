@@ -18,11 +18,10 @@ class HEU_Shelf;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Shelf);
-// Type: HoudiniEngineUnity::HEU_Shelf
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_Shelf*
+// CS Name: HoudiniEngineUnity.HEU_Shelf
 class CORDL_TYPE HEU_Shelf : public ::System::Object {
 public:
   // Declarations
@@ -52,9 +51,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__shelfPath();
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*& __cordl_internal_get__tools();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* const& __cordl_internal_get__tools() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*> const& __cordl_internal_get__tools() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*& __cordl_internal_get__tools();
 
   constexpr void __cordl_internal_set__defaultShelf(bool value);
 
@@ -64,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__tools(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* value);
 
-  /// @brief Method .ctor, addr 0x3a2eea8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a85b18, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_Shelf(HEU_Shelf const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11840 };
+
   /// @brief Field _shelfName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____shelfName;
 
@@ -93,14 +95,9 @@ public:
   /// @brief Field _tools, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* ____tools;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11807 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_Shelf, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_Shelf, ____shelfName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_Shelf, ____shelfPath) == 0x18, "Offset mismatch!");
@@ -108,6 +105,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_Shelf, ____shelfPath) == 0x18, 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_Shelf, ____defaultShelf) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_Shelf, ____tools) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_Shelf, 0x30>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_Shelf);

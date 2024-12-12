@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(
     ::UnityEngine::UIElements::TextElement*, ::UnityEngine::TextEditingUtilities*)>(&::UnityEngine::UIElements::TextEditorEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4986d9c;
+  constexpr static std::size_t addrs = 0x49eb6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::TextEditorEventHandler::ExecuteDefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4987078;
+  constexpr static std::size_t addrs = 0x49eb988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ constexpr ::UnityEngine::UIElements::TextElement*& UnityEngine::UIElements::Text
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextElement*> const& UnityEngine::UIElements::TextEditorEventHandler::__cordl_internal_get_textElement() const {
+constexpr ::UnityEngine::UIElements::TextElement* const& UnityEngine::UIElements::TextEditorEventHandler::__cordl_internal_get_textElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textElement;
 }
@@ -53,17 +53,13 @@ constexpr ::UnityEngine::TextEditingUtilities*& UnityEngine::UIElements::TextEdi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editingUtilities;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextEditingUtilities*> const& UnityEngine::UIElements::TextEditorEventHandler::__cordl_internal_get_editingUtilities() const {
+constexpr ::UnityEngine::TextEditingUtilities* const& UnityEngine::UIElements::TextEditorEventHandler::__cordl_internal_get_editingUtilities() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editingUtilities;
 }
 constexpr void UnityEngine::UIElements::TextEditorEventHandler::__cordl_internal_set_editingUtilities(::UnityEngine::TextEditingUtilities* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___editingUtilities)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::UIElements::TextEditorEventHandler* UnityEngine::UIElements::TextEditorEventHandler::New_ctor(::UnityEngine::UIElements::TextElement* textElement,
-                                                                                                                    ::UnityEngine::TextEditingUtilities* editingUtilities) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextEditorEventHandler*>(textElement, editingUtilities));
 }
 inline void UnityEngine::UIElements::TextEditorEventHandler::_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -76,6 +72,10 @@ inline void UnityEngine::UIElements::TextEditorEventHandler::ExecuteDefaultActio
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+inline ::UnityEngine::UIElements::TextEditorEventHandler* UnityEngine::UIElements::TextEditorEventHandler::New_ctor(::UnityEngine::UIElements::TextElement* textElement,
+                                                                                                                    ::UnityEngine::TextEditingUtilities* editingUtilities) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextEditorEventHandler*>(textElement, editingUtilities));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextEditorEventHandler::TextEditorEventHandler() {}

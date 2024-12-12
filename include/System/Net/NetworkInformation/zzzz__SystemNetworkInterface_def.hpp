@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SystemNetworkInterface)
 namespace System::Net::NetworkInformation {
 class NetworkInterfaceFactory;
@@ -18,18 +17,17 @@ class SystemNetworkInterface;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::SystemNetworkInterface);
-// Type: System.Net.NetworkInformation::SystemNetworkInterface
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::SystemNetworkInterface*
+// CS Name: System.Net.NetworkInformation.SystemNetworkInterface
 class CORDL_TYPE SystemNetworkInterface : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nif, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nif, put = setStaticF_nif)) ::System::Net::NetworkInformation::NetworkInterfaceFactory* nif;
+  __declspec(property(get = getStaticF_nif, put = setStaticF_nif)) ::System::Net::NetworkInformation::NetworkInterfaceFactory* nif;
 
-  /// @brief Method GetNetworkInterfaces, addr 0x4386ebc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetNetworkInterfaces, addr 0x43e81d0, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* getStaticF_nif();
@@ -51,7 +49,7 @@ public:
   SystemNetworkInterface(SystemNetworkInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

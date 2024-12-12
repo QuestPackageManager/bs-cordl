@@ -23,11 +23,10 @@ class BackgroundTextureGradientSwitchEventEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect);
-// Type: ::BackgroundTextureGradientSwitchEventEffect
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BackgroundTextureGradientSwitchEventEffect*
+// CS Name: BackgroundTextureGradientSwitchEventEffect
 class CORDL_TYPE BackgroundTextureGradientSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -47,24 +46,24 @@ public:
   __declspec(property(get = __cordl_internal_get__defaultTextureGradient, put = __cordl_internal_set__defaultTextureGradient)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>
       _defaultTextureGradient;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b27080, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b88618, size 0x50, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b27064, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b885fc, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b26fb8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b88550, size 0xac, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> const& __cordl_internal_get__boostTextureGradient() const;
 
@@ -82,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> value);
 
-  /// @brief Method .ctor, addr 0x3b270d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b88668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BackgroundTextureGradientSwitchEventEffect(BackgroundTextureGradientSwitchEventEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4252 };
+
   /// @brief Field _defaultTextureGradient, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> ____defaultTextureGradient;
 
@@ -111,14 +113,9 @@ public:
   /// @brief Field _beatmapDataCallbackWrapper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4241 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____defaultTextureGradient) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____boostTextureGradient) == 0x28, "Offset mismatch!");
@@ -126,6 +123,8 @@ static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEf
 static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____beatmapCallbacksController) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect);

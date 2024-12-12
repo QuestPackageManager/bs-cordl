@@ -11,17 +11,16 @@ class VoipManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::VoipManager);
-// Type: ::VoipManager
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::VoipManager*
+// CS Name: VoipManager
 class CORDL_TYPE VoipManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::VoipManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e14e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e74ec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   VoipManager(VoipManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,17 +11,16 @@ class FixedJoint;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::FixedJoint);
-// Type: UnityEngine::FixedJoint
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Joint
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::FixedJoint*
+// CS Name: UnityEngine.FixedJoint
 class CORDL_TYPE FixedJoint : public ::UnityEngine::Joint {
 public:
   // Declarations
   static inline ::UnityEngine::FixedJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48a5724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4909db4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   FixedJoint(FixedJoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

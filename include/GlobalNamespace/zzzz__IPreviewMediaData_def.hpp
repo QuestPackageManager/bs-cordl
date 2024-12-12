@@ -19,36 +19,31 @@ class IPreviewMediaData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IPreviewMediaData);
-// Type: ::IPreviewMediaData
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IPreviewMediaData*
+// CS Name: IPreviewMediaData
 class CORDL_TYPE IPreviewMediaData {
 public:
   // Declarations
-  /// @brief Method GetCoverSpriteAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetCoverSpriteAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync();
 
-  /// @brief Method GetPreviewAudioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetPreviewAudioClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip();
 
-  /// @brief Method UnloadCoverSprite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnloadCoverSprite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnloadCoverSprite();
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnloadPreviewAudioClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnloadPreviewAudioClip();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPreviewMediaData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPreviewMediaData(IPreviewMediaData&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPreviewMediaData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPreviewMediaData(IPreviewMediaData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

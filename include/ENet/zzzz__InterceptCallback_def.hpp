@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InterceptCallback)
 namespace ENet {
@@ -31,27 +30,26 @@ class InterceptCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::ENet::InterceptCallback);
-// Type: ENet::InterceptCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace ENet {
 // Is value type: false
-// CS Name: ::ENet::InterceptCallback*
+// CS Name: ENet.InterceptCallback
 class CORDL_TYPE InterceptCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3a4c7dc, size 0x120, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x3aa344c, size 0x120, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3a4c8fc, size 0x34, virtual true, abstract: false, final false
-  inline int32_t EndInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x3aa356c, size 0x34, virtual true, abstract: false, final false
+  inline int32_t EndInvoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3a4c7c8, size 0x14, virtual true, abstract: false, final false
-  inline int32_t Invoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength);
+  /// @brief Method Invoke, addr 0x3aa3438, size 0x14, virtual true, abstract: false, final false
+  inline int32_t Invoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength);
 
   static inline ::ENet::InterceptCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3a4c728, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3398, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -69,7 +67,7 @@ public:
   InterceptCallback(InterceptCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,59 +16,59 @@
 #include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 #include "System/Xml/zzzz__XmlValidatingReaderImpl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Xml::Schema::__DtdValidator__NamespaceManager.LookupNamespace
+//  Writing Method size for method: ::System::Xml::Schema::DtdValidator_NamespaceManager.LookupNamespace
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::__DtdValidator__NamespaceManager::*)(::StringW)>(
-    &::System::Xml::Schema::__DtdValidator__NamespaceManager::LookupNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::DtdValidator_NamespaceManager::*)(::StringW)>(
+    &::System::Xml::Schema::DtdValidator_NamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43518bc;
+  constexpr static std::size_t addrs = 0x43b2bd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__DtdValidator__NamespaceManager*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__DtdValidator__NamespaceManager*>::get(), 16));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(), 16));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__DtdValidator__NamespaceManager._ctor
+//  Writing Method size for method: ::System::Xml::Schema::DtdValidator_NamespaceManager._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__DtdValidator__NamespaceManager::*)()>(
-    &::System::Xml::Schema::__DtdValidator__NamespaceManager::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator_NamespaceManager::*)()>(
+    &::System::Xml::Schema::DtdValidator_NamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43518b4;
+  constexpr static std::size_t addrs = 0x43b2bc8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__DtdValidator__NamespaceManager*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW System::Xml::Schema::__DtdValidator__NamespaceManager::LookupNamespace(::StringW prefix) {
+inline ::StringW System::Xml::Schema::DtdValidator_NamespaceManager::LookupNamespace(::StringW prefix) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__DtdValidator__NamespaceManager*>::get(), 16)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, prefix);
 }
-inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* System::Xml::Schema::__DtdValidator__NamespaceManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__DtdValidator__NamespaceManager*>());
-}
-inline void System::Xml::Schema::__DtdValidator__NamespaceManager::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__DtdValidator__NamespaceManager*>::get(),
+inline void System::Xml::Schema::DtdValidator_NamespaceManager::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Xml::Schema::DtdValidator_NamespaceManager* System::Xml::Schema::DtdValidator_NamespaceManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::DtdValidator_NamespaceManager*>());
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__DtdValidator__NamespaceManager::__DtdValidator__NamespaceManager() {}
+constexpr ::System::Xml::Schema::DtdValidator_NamespaceManager::DtdValidator_NamespaceManager() {}
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlValidatingReaderImpl*, ::System::Xml::IValidationEventHandling*, bool)>(&::System::Xml::Schema::DtdValidator::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x434f320;
+  constexpr static std::size_t addrs = 0x43b0634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Init)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x434f3c0;
+  constexpr static std::size_t addrs = 0x43b06d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(), "Init",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Validate)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x434f5c8;
+  constexpr static std::size_t addrs = 0x43b08dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::MeetsStandAloneConstraint)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x434f8c8;
+  constexpr static std::size_t addrs = 0x43b0bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidatePIComment)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x434f968;
+  constexpr static std::size_t addrs = 0x43b0c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(), "ValidatePIComment",
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x434f7c0;
+  constexpr static std::size_t addrs = 0x43b0ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(), "ValidateElement",
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateChildElement)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x434fd10;
+  constexpr static std::size_t addrs = 0x43b1024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateStartElement)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x434ff60;
+  constexpr static std::size_t addrs = 0x43b1274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateEndStartElement)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x435092c;
+  constexpr static std::size_t addrs = 0x43b1c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ProcessElement)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x434fe54;
+  constexpr static std::size_t addrs = 0x43b1168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(), "ProcessElement",
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4350b00;
+  constexpr static std::size_t addrs = 0x43b1e14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateEndElement)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x434fb6c;
+  constexpr static std::size_t addrs = 0x43b0e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::get_PreserveWhitespace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4350cf0;
+  constexpr static std::size_t addrs = 0x43b2004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlTokenizedType, ::StringW)>(
     &::System::Xml::Schema::DtdValidator::ProcessTokenizedType)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x4350d28;
+  constexpr static std::size_t addrs = 0x43b203c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::StringW, ::System::Xml::Schema::SchemaAttDef*)>(
     &::System::Xml::Schema::DtdValidator::CheckValue)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x43503bc;
+  constexpr static std::size_t addrs = 0x43b16d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::StringW, ::System::Object*)>(
     &::System::Xml::Schema::DtdValidator::AddID)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4350f3c;
+  constexpr static std::size_t addrs = 0x43b2250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::DtdValidator::*)(::StringW)>(
     &::System::Xml::Schema::DtdValidator::FindId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4350fcc;
+  constexpr static std::size_t addrs = 0x43b22e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::DtdValidator::GenEntity)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x434fa18;
+  constexpr static std::size_t addrs = 0x43b0d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::SchemaEntity* (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*, bool)>(&::System::Xml::Schema::DtdValidator::GetEntity)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4350fe8;
+  constexpr static std::size_t addrs = 0x43b22fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::CheckForwardRefs)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4350bec;
+  constexpr static std::size_t addrs = 0x43b1f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(), "CheckForwardRefs",
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::DtdValidator::Push)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x434f4f0;
+  constexpr static std::size_t addrs = 0x43b0804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Pop)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4350b48;
+  constexpr static std::size_t addrs = 0x43b1e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(), "Pop",
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::SchemaAttDef*, ::System::Xml::IDtdParserAdapter*)>(
     &::System::Xml::Schema::DtdValidator::SetDefaultTypedValue)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x435107c;
+  constexpr static std::size_t addrs = 0x43b2390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Xml::Schema::SchemaAttDef*, ::System::Xml::Schema::SchemaInfo*, ::System::Xml::IValidationEventHandling*, ::StringW)>(&::System::Xml::Schema::DtdValidator::CheckDefaultValue)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x4351430;
+  constexpr static std::size_t addrs = 0x43b2744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ constexpr ::System::Xml::HWStack*& System::Xml::Schema::DtdValidator::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationStack;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::HWStack*> const& System::Xml::Schema::DtdValidator::__cordl_internal_get_validationStack() const {
+constexpr ::System::Xml::HWStack* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_validationStack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationStack;
 }
@@ -423,7 +423,7 @@ constexpr ::System::Collections::Hashtable*& System::Xml::Schema::DtdValidator::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attPresence;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Schema::DtdValidator::__cordl_internal_get_attPresence() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_attPresence() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attPresence;
 }
@@ -435,7 +435,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::DtdValidator::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::DtdValidator::__cordl_internal_get_name() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
@@ -447,7 +447,7 @@ constexpr ::System::Collections::Hashtable*& System::Xml::Schema::DtdValidator::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IDs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Schema::DtdValidator::__cordl_internal_get_IDs() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_IDs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IDs;
 }
@@ -459,7 +459,7 @@ constexpr ::System::Xml::Schema::IdRefNode*& System::Xml::Schema::DtdValidator::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idRefListHead;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::IdRefNode*> const& System::Xml::Schema::DtdValidator::__cordl_internal_get_idRefListHead() const {
+constexpr ::System::Xml::Schema::IdRefNode* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_idRefListHead() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idRefListHead;
 }
@@ -479,18 +479,14 @@ constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_processId
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___processIdentityConstraints = value;
 }
-inline void System::Xml::Schema::DtdValidator::setStaticF_namespaceManager(::System::Xml::Schema::__DtdValidator__NamespaceManager* value) {
-  ::cordl_internals::setStaticField<::System::Xml::Schema::__DtdValidator__NamespaceManager*, "namespaceManager",
+inline void System::Xml::Schema::DtdValidator::setStaticF_namespaceManager(::System::Xml::Schema::DtdValidator_NamespaceManager* value) {
+  ::cordl_internals::setStaticField<::System::Xml::Schema::DtdValidator_NamespaceManager*, "namespaceManager",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get>(
-      std::forward<::System::Xml::Schema::__DtdValidator__NamespaceManager*>(value));
+      std::forward<::System::Xml::Schema::DtdValidator_NamespaceManager*>(value));
 }
-inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* System::Xml::Schema::DtdValidator::getStaticF_namespaceManager() {
-  return ::cordl_internals::getStaticField<::System::Xml::Schema::__DtdValidator__NamespaceManager*, "namespaceManager",
+inline ::System::Xml::Schema::DtdValidator_NamespaceManager* System::Xml::Schema::DtdValidator::getStaticF_namespaceManager() {
+  return ::cordl_internals::getStaticField<::System::Xml::Schema::DtdValidator_NamespaceManager*, "namespaceManager",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get>();
-}
-inline ::System::Xml::Schema::DtdValidator* System::Xml::Schema::DtdValidator::New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::IValidationEventHandling* eventHandling,
-                                                                                        bool processIdentityConstraints) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::DtdValidator*>(reader, eventHandling, processIdentityConstraints));
 }
 inline void System::Xml::Schema::DtdValidator::_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::IValidationEventHandling* eventHandling, bool processIdentityConstraints) {
   static auto* ___internal_method =
@@ -630,6 +626,10 @@ inline void System::Xml::Schema::DtdValidator::CheckDefaultValue(::System::Xml::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IValidationEventHandling*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, attdef, sinfo, eventHandling, baseUriStr);
+}
+inline ::System::Xml::Schema::DtdValidator* System::Xml::Schema::DtdValidator::New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::IValidationEventHandling* eventHandling,
+                                                                                        bool processIdentityConstraints) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::DtdValidator*>(reader, eventHandling, processIdentityConstraints));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::DtdValidator::DtdValidator() {}

@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Slider)
 namespace UnityEngine::UIElements {
+template <typename TValueType> struct BaseSlider_1_SliderKey;
+}
+namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
@@ -19,6 +22,12 @@ class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct SliderDirection;
+}
+namespace UnityEngine::UIElements {
+class Slider_UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class Slider_UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
@@ -32,15 +41,6 @@ class UxmlFloatAttributeDescription;
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine::UIElements {
-template <typename TValueType> struct __BaseSlider_1__SliderKey;
-}
-namespace UnityEngine::UIElements {
-class __Slider__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class __Slider__UxmlTraits;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -49,57 +49,55 @@ namespace UnityEngine::UIElements {
 class Slider;
 }
 namespace UnityEngine::UIElements {
-class __Slider__UxmlFactory;
+class Slider_UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class __Slider__UxmlTraits;
+class Slider_UxmlTraits;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Slider);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__Slider__UxmlFactory);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__Slider__UxmlTraits);
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::Slider_UxmlFactory);
+MARK_REF_PTR_T(::UnityEngine::UIElements::Slider_UxmlTraits);
+// Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::Slider::UxmlFactory*
-class CORDL_TYPE __Slider__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Slider*, ::UnityEngine::UIElements::__Slider__UxmlTraits*> {
+// CS Name: UnityEngine.UIElements.Slider/UxmlFactory
+class CORDL_TYPE Slider_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Slider*, ::UnityEngine::UIElements::Slider_UxmlTraits*> {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::__Slider__UxmlFactory* New_ctor();
+  static inline ::UnityEngine::UIElements::Slider_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49a58ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0a1fc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Slider__UxmlFactory();
+  constexpr Slider_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Slider__UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Slider__UxmlFactory(__Slider__UxmlFactory&&) = delete;
+  Slider_UxmlFactory(Slider_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Slider__UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Slider__UxmlFactory(__Slider__UxmlFactory const&) = delete;
+  Slider_UxmlFactory(Slider_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5691 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Slider__UxmlFactory, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Slider_UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: ::UxmlTraits
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseSlider`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::Slider::UxmlTraits*
-class CORDL_TYPE __Slider__UxmlTraits : public ::UnityEngine::UIElements::__BaseSlider_1__UxmlTraits<float_t> {
+// CS Name: UnityEngine.UIElements.Slider/UxmlTraits
+class CORDL_TYPE Slider_UxmlTraits : public ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<float_t> {
 public:
   // Declarations
   /// @brief Field m_Direction, offset 0xa0, size 0x8
@@ -121,34 +119,34 @@ public:
   /// @brief Field m_ShowInputField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowInputField;
 
-  /// @brief Method Init, addr 0x49a5934, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a0a244, size 0x2b4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  static inline ::UnityEngine::UIElements::__Slider__UxmlTraits* New_ctor();
+  static inline ::UnityEngine::UIElements::Slider_UxmlTraits* New_ctor();
+
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>* const& __cordl_internal_get_m_Direction() const;
 
   constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>*& __cordl_internal_get_m_Direction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>*> const& __cordl_internal_get_m_Direction() const;
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription* const& __cordl_internal_get_m_HighValue() const;
 
   constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_HighValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_HighValue() const;
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Inverted() const;
 
   constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Inverted();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_Inverted() const;
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription* const& __cordl_internal_get_m_LowValue() const;
 
   constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_LowValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_LowValue() const;
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription* const& __cordl_internal_get_m_PageSize() const;
 
   constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_PageSize();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_PageSize() const;
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_ShowInputField() const;
 
   constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowInputField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowInputField() const;
 
   constexpr void __cordl_internal_set_m_Direction(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>* value);
 
@@ -162,22 +160,25 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowInputField(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x49a5be8, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0a4f8, size 0x228, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Slider__UxmlTraits();
+  constexpr Slider_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Slider__UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlTraits", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Slider__UxmlTraits(__Slider__UxmlTraits&&) = delete;
+  Slider_UxmlTraits(Slider_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Slider__UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlTraits", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Slider__UxmlTraits(__Slider__UxmlTraits const&) = delete;
+  Slider_UxmlTraits(Slider_UxmlTraits const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5692 };
 
   /// @brief Field m_LowValue, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_LowValue;
@@ -197,53 +198,49 @@ public:
   /// @brief Field m_Inverted, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Inverted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5667 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Slider__UxmlTraits, 0xb0>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Slider_UxmlTraits, ___m_LowValue) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_LowValue) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Slider_UxmlTraits, ___m_HighValue) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_HighValue) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Slider_UxmlTraits, ___m_PageSize) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_PageSize) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Slider_UxmlTraits, ___m_ShowInputField) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_ShowInputField) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Slider_UxmlTraits, ___m_Direction) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_Direction) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Slider_UxmlTraits, ___m_Inverted) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_Inverted) == 0xa8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Slider_UxmlTraits, 0xb0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::Slider
-// SizeInfo { instance_size: 1184, native_size: -1, calculated_instance_size: 1184, calculated_native_size: 1181, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseSlider`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::Slider*
+// CS Name: UnityEngine.UIElements.Slider
 class CORDL_TYPE Slider : public ::UnityEngine::UIElements::BaseSlider_1<float_t> {
 public:
   // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::__Slider__UxmlFactory;
+  using UxmlFactory = ::UnityEngine::UIElements::Slider_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::__Slider__UxmlTraits;
+  using UxmlTraits = ::UnityEngine::UIElements::Slider_UxmlTraits;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
+  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
+  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49a51c0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x4a09ad0, size 0x124, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue);
 
-  /// @brief Method ComputeValueFromKey, addr 0x49a561c, size 0x200, virtual true, abstract: false, final false
-  inline void ComputeValueFromKey(::UnityEngine::UIElements::__BaseSlider_1__SliderKey<float_t> sliderKey, bool isShift);
+  /// @brief Method ComputeValueFromKey, addr 0x4a09f2c, size 0x200, virtual true, abstract: false, final false
+  inline void ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<float_t> sliderKey, bool isShift);
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor();
 
@@ -251,22 +248,22 @@ public:
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method ParseStringToValue, addr 0x49a5598, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ParseStringToValue, addr 0x4a09ea8, size 0x84, virtual true, abstract: false, final false
   inline float_t ParseStringToValue(::StringW previousValue, ::StringW newValue);
 
-  /// @brief Method SliderLerpUnclamped, addr 0x49a52e4, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method SliderLerpUnclamped, addr 0x4a09bf4, size 0x2b4, virtual true, abstract: false, final false
   inline float_t SliderLerpUnclamped(float_t a, float_t b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue, addr 0x49a4c08, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SliderNormalizeValue, addr 0x4a09518, size 0x10, virtual true, abstract: false, final false
   inline float_t SliderNormalizeValue(float_t currentValue, float_t lowerValue, float_t higherValue);
 
-  /// @brief Method .ctor, addr 0x49a505c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0996c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49a5074, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a09984, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method .ctor, addr 0x49a4bd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a094e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -296,7 +293,7 @@ public:
   Slider(Slider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -306,7 +303,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Slider,
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Slider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Slider*, "UnityEngine.UIElements", "Slider");
-NEED_NO_BOX(::UnityEngine::UIElements::__Slider__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__Slider__UxmlFactory*, "UnityEngine.UIElements", "Slider/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::__Slider__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__Slider__UxmlTraits*, "UnityEngine.UIElements", "Slider/UxmlTraits");
+NEED_NO_BOX(::UnityEngine::UIElements::Slider_UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Slider_UxmlFactory*, "UnityEngine.UIElements", "Slider/UxmlFactory");
+NEED_NO_BOX(::UnityEngine::UIElements::Slider_UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Slider_UxmlTraits*, "UnityEngine.UIElements", "Slider/UxmlTraits");

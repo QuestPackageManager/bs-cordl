@@ -12,74 +12,73 @@
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__CustomTweenBehaviour____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::CustomTweenBehaviour___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CustomTweenBehaviour____c::*)()>(&::GlobalNamespace::__CustomTweenBehaviour____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour___c::*)()>(&::GlobalNamespace::CustomTweenBehaviour___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad409c;
+  constexpr static std::size_t addrs = 0x3b336e0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__CustomTweenBehaviour____c._OnBehaviourPlay_b__21_0
+//  Writing Method size for method: ::GlobalNamespace::CustomTweenBehaviour___c._OnBehaviourPlay_b__21_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__CustomTweenBehaviour____c::*)(int32_t)>(
-    &::GlobalNamespace::__CustomTweenBehaviour____c::_OnBehaviourPlay_b__21_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::CustomTweenBehaviour___c::*)(int32_t)>(
+    &::GlobalNamespace::CustomTweenBehaviour___c::_OnBehaviourPlay_b__21_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad40a4;
+  constexpr static std::size_t addrs = 0x3b336e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), "<OnBehaviourPlay>b__21_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get(), "<OnBehaviourPlay>b__21_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__CustomTweenBehaviour____c::setStaticF___9(::GlobalNamespace::__CustomTweenBehaviour____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__CustomTweenBehaviour____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get>(
-      std::forward<::GlobalNamespace::__CustomTweenBehaviour____c*>(value));
+inline void GlobalNamespace::CustomTweenBehaviour___c::setStaticF___9(::GlobalNamespace::CustomTweenBehaviour___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::CustomTweenBehaviour___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get>(
+      std::forward<::GlobalNamespace::CustomTweenBehaviour___c*>(value));
 }
-inline ::GlobalNamespace::__CustomTweenBehaviour____c* GlobalNamespace::__CustomTweenBehaviour____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__CustomTweenBehaviour____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get>();
+inline ::GlobalNamespace::CustomTweenBehaviour___c* GlobalNamespace::CustomTweenBehaviour___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::CustomTweenBehaviour___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get>();
 }
-inline void GlobalNamespace::__CustomTweenBehaviour____c::setStaticF___9__21_0(::System::Func_2<int32_t, float_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<int32_t, float_t>*, "<>9__21_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get>(
+inline void GlobalNamespace::CustomTweenBehaviour___c::setStaticF___9__21_0(::System::Func_2<int32_t, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<int32_t, float_t>*, "<>9__21_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get>(
       std::forward<::System::Func_2<int32_t, float_t>*>(value));
 }
-inline ::System::Func_2<int32_t, float_t>* GlobalNamespace::__CustomTweenBehaviour____c::getStaticF___9__21_0() {
+inline ::System::Func_2<int32_t, float_t>* GlobalNamespace::CustomTweenBehaviour___c::getStaticF___9__21_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<int32_t, float_t>*, "<>9__21_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get>();
 }
-inline ::GlobalNamespace::__CustomTweenBehaviour____c* GlobalNamespace::__CustomTweenBehaviour____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__CustomTweenBehaviour____c*>());
-}
-inline void GlobalNamespace::__CustomTweenBehaviour____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), ".ctor",
+inline void GlobalNamespace::CustomTweenBehaviour___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::__CustomTweenBehaviour____c::_OnBehaviourPlay_b__21_0(int32_t i) {
+inline float_t GlobalNamespace::CustomTweenBehaviour___c::_OnBehaviourPlay_b__21_0(int32_t i) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CustomTweenBehaviour____c*>::get(), "<OnBehaviourPlay>b__21_0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get(), "<OnBehaviourPlay>b__21_0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, i);
 }
+inline ::GlobalNamespace::CustomTweenBehaviour___c* GlobalNamespace::CustomTweenBehaviour___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CustomTweenBehaviour___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__CustomTweenBehaviour____c::__CustomTweenBehaviour____c() {}
+constexpr ::GlobalNamespace::CustomTweenBehaviour___c::CustomTweenBehaviour___c() {}
 //  Writing Method size for method: ::GlobalNamespace::CustomTweenBehaviour.OnGraphStart
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3ad381c;
+  constexpr static std::size_t addrs = 0x3b32e60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::CustomTweenBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3ad3958;
+  constexpr static std::size_t addrs = 0x3b32f9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ad3d40;
+  constexpr static std::size_t addrs = 0x3b33384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3ad3e44;
+  constexpr static std::size_t addrs = 0x3b33488;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)()>(&::GlobalNamespace::CustomTweenBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ad4028;
+  constexpr static std::size_t addrs = 0x3b3366c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), ".ctor",
@@ -382,13 +381,13 @@ inline void GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay(::UnityEngine
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playable, info);
 }
-inline ::GlobalNamespace::CustomTweenBehaviour* GlobalNamespace::CustomTweenBehaviour::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CustomTweenBehaviour*>());
-}
 inline void GlobalNamespace::CustomTweenBehaviour::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::CustomTweenBehaviour* GlobalNamespace::CustomTweenBehaviour::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CustomTweenBehaviour*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CustomTweenBehaviour::CustomTweenBehaviour() {}

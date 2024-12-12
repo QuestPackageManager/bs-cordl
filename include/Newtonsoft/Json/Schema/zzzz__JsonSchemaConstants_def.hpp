@@ -18,17 +18,16 @@ class JsonSchemaConstants;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaConstants);
-// Type: Newtonsoft.Json.Schema::JsonSchemaConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Schema::JsonSchemaConstants*
+// CS Name: Newtonsoft.Json.Schema.JsonSchemaConstants
 class CORDL_TYPE JsonSchemaConstants : public ::System::Object {
 public:
   // Declarations
   /// @brief Field JsonSchemaTypeMapping, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_JsonSchemaTypeMapping,
-                             put = setStaticF_JsonSchemaTypeMapping)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType>* JsonSchemaTypeMapping;
+  __declspec(property(get = getStaticF_JsonSchemaTypeMapping,
+                      put = setStaticF_JsonSchemaTypeMapping)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType>* JsonSchemaTypeMapping;
 
   static inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType>* getStaticF_JsonSchemaTypeMapping();
 
@@ -145,7 +144,7 @@ public:
   static constexpr ::ConstString UniqueItemsPropertyName{ u"uniqueItems" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

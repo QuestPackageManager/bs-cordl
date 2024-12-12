@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::ReaderPositionInfo::*)(::System::Xml::IXmlLineInfo*)>(
     &::System::Xml::ReaderPositionInfo::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x42e8158;
+  constexpr static std::size_t addrs = 0x434946c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::ReaderPositionInfo::*)()>(&::System::Xml::ReaderPositionInfo::HasLineInfo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x42e8188;
+  constexpr static std::size_t addrs = 0x434949c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::ReaderPositionInfo::*)()>(&::System::Xml::ReaderPositionInfo::get_LineNumber)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42e8228;
+  constexpr static std::size_t addrs = 0x434953c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::ReaderPositionInfo::*)()>(&::System::Xml::ReaderPositionInfo::get_LinePosition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42e82cc;
+  constexpr static std::size_t addrs = 0x43495e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,16 +64,13 @@ constexpr ::System::Xml::IXmlLineInfo*& System::Xml::ReaderPositionInfo::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlLineInfo*> const& System::Xml::ReaderPositionInfo::__cordl_internal_get_lineInfo() const {
+constexpr ::System::Xml::IXmlLineInfo* const& System::Xml::ReaderPositionInfo::__cordl_internal_get_lineInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
 constexpr void System::Xml::ReaderPositionInfo::__cordl_internal_set_lineInfo(::System::Xml::IXmlLineInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lineInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::ReaderPositionInfo* System::Xml::ReaderPositionInfo::New_ctor(::System::Xml::IXmlLineInfo* lineInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::ReaderPositionInfo*>(lineInfo));
 }
 inline void System::Xml::ReaderPositionInfo::_ctor(::System::Xml::IXmlLineInfo* lineInfo) {
   static auto* ___internal_method =
@@ -95,6 +92,9 @@ inline int32_t System::Xml::ReaderPositionInfo::get_LinePosition() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::ReaderPositionInfo*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Xml::ReaderPositionInfo* System::Xml::ReaderPositionInfo::New_ctor(::System::Xml::IXmlLineInfo* lineInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::ReaderPositionInfo*>(lineInfo));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::ReaderPositionInfo::ReaderPositionInfo() {}

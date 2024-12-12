@@ -20,11 +20,10 @@ class HealthWarningNoTransitionInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HealthWarningNoTransitionInstaller);
-// Type: ::HealthWarningNoTransitionInstaller
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.NoTransitionInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HealthWarningNoTransitionInstaller*
+// CS Name: HealthWarningNoTransitionInstaller
 class CORDL_TYPE HealthWarningNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
@@ -37,14 +36,14 @@ public:
                       put = __cordl_internal_set__scenesTransitionSetupData)) ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO>
       _scenesTransitionSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3ad81bc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b37800, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::HealthWarningNoTransitionInstaller* New_ctor();
 
-  constexpr ::GlobalNamespace::HealthWarningSceneSetupData*& __cordl_internal_get__healthWarningSceneSetupData();
+  constexpr ::GlobalNamespace::HealthWarningSceneSetupData* const& __cordl_internal_get__healthWarningSceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningSceneSetupData*> const& __cordl_internal_get__healthWarningSceneSetupData() const;
+  constexpr ::GlobalNamespace::HealthWarningSceneSetupData*& __cordl_internal_get__healthWarningSceneSetupData();
 
   constexpr ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
 
@@ -54,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3ad8208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3784c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HealthWarningNoTransitionInstaller(HealthWarningNoTransitionInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5223 };
+
   /// @brief Field _healthWarningSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::HealthWarningSceneSetupData* ____healthWarningSceneSetupData;
 
   /// @brief Field _scenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5203 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningNoTransitionInstaller, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HealthWarningNoTransitionInstaller, ____healthWarningSceneSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningNoTransitionInstaller, ____scenesTransitionSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningNoTransitionInstaller, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HealthWarningNoTransitionInstaller);

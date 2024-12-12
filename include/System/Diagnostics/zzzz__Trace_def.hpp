@@ -17,26 +17,25 @@ class Trace;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Trace);
-// Type: System.Diagnostics::Trace
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::Trace*
+// CS Name: System.Diagnostics.Trace
 class CORDL_TYPE Trace : public ::System::Object {
 public:
   // Declarations
   /// @brief Field correlationManager, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_correlationManager, put = setStaticF_correlationManager)) ::System::Diagnostics::CorrelationManager* correlationManager;
+  __declspec(property(get = getStaticF_correlationManager, put = setStaticF_correlationManager)) ::System::Diagnostics::CorrelationManager* correlationManager;
 
   static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager();
 
-  /// @brief Method get_AutoFlush, addr 0x43c90d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x442a3ec, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_CorrelationManager, addr 0x43c9184, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_CorrelationManager, addr 0x442a498, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
 
-  /// @brief Method get_Listeners, addr 0x43c8e48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x442a15c, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_correlationManager(::System::Diagnostics::CorrelationManager* value);
@@ -56,7 +55,7 @@ public:
   Trace(Trace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

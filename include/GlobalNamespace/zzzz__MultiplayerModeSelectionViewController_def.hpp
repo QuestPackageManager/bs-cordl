@@ -11,10 +11,10 @@ namespace GlobalNamespace {
 class INetworkConfig;
 }
 namespace GlobalNamespace {
-class MultiplayerStatusData;
+struct MultiplayerModeSelectionViewController_MenuButton;
 }
 namespace GlobalNamespace {
-struct __MultiplayerModeSelectionViewController__MenuButton;
+class MultiplayerStatusData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -27,26 +27,25 @@ class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __MultiplayerModeSelectionViewController__MenuButton;
+struct MultiplayerModeSelectionViewController_MenuButton;
 }
 namespace GlobalNamespace {
 class MultiplayerModeSelectionViewController;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton);
+MARK_VAL_T(::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton);
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSelectionViewController);
-// Type: ::MenuButton
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MultiplayerModeSelectionViewController::MenuButton
-struct CORDL_TYPE __MultiplayerModeSelectionViewController__MenuButton {
+// CS Name: MultiplayerModeSelectionViewController/MenuButton
+struct CORDL_TYPE MultiplayerModeSelectionViewController_MenuButton {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____MultiplayerModeSelectionViewController__MenuButton_Unwrapped
-  enum struct ____MultiplayerModeSelectionViewController__MenuButton_Unwrapped : int32_t {
+  /// @brief Nested struct __MultiplayerModeSelectionViewController_MenuButton_Unwrapped
+  enum struct __MultiplayerModeSelectionViewController_MenuButton_Unwrapped : int32_t {
     __E_QuickPlay = static_cast<int32_t>(0x0),
     __E_CreateServer = static_cast<int32_t>(0x1),
     __E_JoinWithCode = static_cast<int32_t>(0x2),
@@ -54,8 +53,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____MultiplayerModeSelectionViewController__MenuButton_Unwrapped() const noexcept {
-    return static_cast<____MultiplayerModeSelectionViewController__MenuButton_Unwrapped>(this->value__);
+  constexpr operator __MultiplayerModeSelectionViewController_MenuButton_Unwrapped() const noexcept {
+    return static_cast<__MultiplayerModeSelectionViewController_MenuButton_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -65,49 +64,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerModeSelectionViewController__MenuButton();
+  constexpr MultiplayerModeSelectionViewController_MenuButton();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerModeSelectionViewController__MenuButton(int32_t value__) noexcept;
+  constexpr MultiplayerModeSelectionViewController_MenuButton(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field CreateServer value: I32(1)
+  static ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton const CreateServer;
 
-  /// @brief Field CreateServer value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const CreateServer;
+  /// @brief Field GameBrowser value: I32(3)
+  static ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton const GameBrowser;
 
-  /// @brief Field GameBrowser value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const GameBrowser;
+  /// @brief Field JoinWithCode value: I32(2)
+  static ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton const JoinWithCode;
 
-  /// @brief Field JoinWithCode value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const JoinWithCode;
-
-  /// @brief Field QuickPlay value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const QuickPlay;
+  /// @brief Field QuickPlay value: I32(0)
+  static ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton const QuickPlay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5376 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerModeSelectionViewController
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerModeSelectionViewController*
+// CS Name: MultiplayerModeSelectionViewController
 class CORDL_TYPE MultiplayerModeSelectionViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using MenuButton = ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton;
+  using MenuButton = ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton;
 
   /// @brief Field _createServerButton, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton)) ::UnityW<::UnityEngine::UI::Button> _createServerButton;
@@ -132,30 +130,30 @@ public:
 
   /// @brief Field didFinishEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>,
-                                                                                     ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*,
+                                                                                     ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3b0be40, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6be9c, size 0x2cc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x3b0c3a8, size 0x28, virtual false, abstract: false, final false
-  inline void HandleMenuButton(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton menuButton);
+  /// @brief Method HandleMenuButton, addr 0x3b6c404, size 0x28, virtual false, abstract: false, final false
+  inline void HandleMenuButton(::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton menuButton);
 
   static inline ::GlobalNamespace::MultiplayerModeSelectionViewController* New_ctor();
 
-  /// @brief Method SetData, addr 0x3b0c10c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b6c168, size 0x29c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
 
-  /// @brief Method <DidActivate>b__11_0, addr 0x3b0c3d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_0, addr 0x3b6c434, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_0();
 
-  /// @brief Method <DidActivate>b__11_1, addr 0x3b0c3fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_1, addr 0x3b6c458, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_1();
 
-  /// @brief Method <DidActivate>b__11_2, addr 0x3b0c420, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_2, addr 0x3b6c47c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_2();
 
-  /// @brief Method <DidActivate>b__11_3, addr 0x3b0c444, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_3, addr 0x3b6c4a0, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createServerButton() const;
@@ -178,20 +176,19 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maintenanceMessageText();
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+  constexpr ::GlobalNamespace::INetworkConfig* const& __cordl_internal_get__networkConfig() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__quickPlayButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__quickPlayButton();
 
-  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*&
-  __cordl_internal_get_didFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*> const&
+  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* const&
   __cordl_internal_get_didFinishEvent() const;
+
+  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>*&
+  __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__createServerButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -207,19 +204,17 @@ public:
 
   constexpr void __cordl_internal_set__quickPlayButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(
-      ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
+  constexpr void
+  __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
 
-  /// @brief Method .ctor, addr 0x3b0c3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6c42c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b0bce0, size 0xb0, virtual false, abstract: false, final false
-  inline void
-  add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
+  /// @brief Method add_didFinishEvent, addr 0x3b6bd3c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b0bd90, size 0xb0, virtual false, abstract: false, final false
-  inline void
-  remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
+  /// @brief Method remove_didFinishEvent, addr 0x3b6bdec, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
 
 protected:
   // Ctor Parameters []
@@ -234,6 +229,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerModeSelectionViewController(MultiplayerModeSelectionViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5377 };
 
   /// @brief Field _quickPlayButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____quickPlayButton;
@@ -257,16 +255,11 @@ public:
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 
   /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* ___didFinishEvent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5353 };
+  ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerModeSelectionViewController, 0xb8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____quickPlayButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____gameBrowserButton) == 0x80, "Offset mismatch!");
@@ -283,7 +276,9 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ___didFinishEvent) == 0xb0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerModeSelectionViewController, 0xb8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");
 NEED_NO_BOX(::GlobalNamespace::MultiplayerModeSelectionViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");

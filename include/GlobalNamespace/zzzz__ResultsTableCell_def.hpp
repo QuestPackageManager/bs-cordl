@@ -24,11 +24,10 @@ class ResultsTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResultsTableCell);
-// Type: ::ResultsTableCell
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies TableCellWithSeparator
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ResultsTableCell*
+// CS Name: ResultsTableCell
 class CORDL_TYPE ResultsTableCell : public ::GlobalNamespace::TableCellWithSeparator {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
 
   static inline ::GlobalNamespace::ResultsTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x3aa7814, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b04cb8, size 0x388, virtual false, abstract: false, final false
   inline void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__border() const;
@@ -82,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3aa7b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResultsTableCell(ResultsTableCell const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4998 };
+
   /// @brief Field _border, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____border;
 
@@ -114,14 +116,9 @@ public:
   /// @brief Field _rankText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4978 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsTableCell, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____border) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____orderText) == 0x78, "Offset mismatch!");
@@ -131,6 +128,8 @@ static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____nameText) == 0x8
 static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____scoreText) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____rankText) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsTableCell, 0x98>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultsTableCell);

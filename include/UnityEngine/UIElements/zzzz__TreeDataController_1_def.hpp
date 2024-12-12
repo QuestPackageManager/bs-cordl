@@ -3,6 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeData_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeViewItemData_1_def.hpp"
@@ -21,48 +26,42 @@ namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
+template <typename T> class TreeDataController_1__GetAllItemIds_d__13;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class TreeDataController_1__GetItemIds_d__9;
+}
+namespace UnityEngine::UIElements {
 template <typename T> struct TreeViewItemData_1;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class __TreeDataController_1___GetAllItemIds_d__13;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class __TreeDataController_1___GetItemIds_d__9;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template <typename T> class TreeDataController_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __TreeDataController_1___GetAllItemIds_d__13;
+template <typename T> class TreeDataController_1__GetAllItemIds_d__13;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __TreeDataController_1___GetItemIds_d__9;
+template <typename T> class TreeDataController_1__GetItemIds_d__9;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::TreeDataController_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9);
-// Type: ::<GetAllItemIds>d__13
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::TreeDataController_1__GetAllItemIds_d__13);
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::TreeDataController_1__GetItemIds_d__9);
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::TreeDataController`1::<GetAllItemIds>d__13<T>*
-class CORDL_TYPE __TreeDataController_1___GetAllItemIds_d__13 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.TreeDataController`1/<GetAllItemIds>d__13<T>
+class CORDL_TYPE TreeDataController_1__GetAllItemIds_d__13 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Int32__get_Current)) int32_t System_Collections_Generic_IEnumerator_System_Int32__Current;
@@ -115,7 +114,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::UIElements::TreeDataController_1__GetAllItemIds_d__13<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
@@ -143,13 +142,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get___2__current();
 
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>* const& __cordl_internal_get___3__rootIds() const;
+
   constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& __cordl_internal_get___3__rootIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const& __cordl_internal_get___3__rootIds() const;
+  constexpr ::UnityEngine::UIElements::TreeDataController_1<T>* const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityEngine::UIElements::TreeDataController_1<T>*& __cordl_internal_get___4__this();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TreeDataController_1<T>*> const& __cordl_internal_get___4__this() const;
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
@@ -159,17 +158,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get__currentItemId_5__3();
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>*& __cordl_internal_get__currentIterator_5__1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>* const& __cordl_internal_get__currentIterator_5__1() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<int32_t>*> const& __cordl_internal_get__currentIterator_5__1() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>*& __cordl_internal_get__currentIterator_5__1();
 
   constexpr bool const& __cordl_internal_get__hasNext_5__2() const;
 
   constexpr bool& __cordl_internal_get__hasNext_5__2();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& __cordl_internal_get_rootIds();
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>* const& __cordl_internal_get_rootIds() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const& __cordl_internal_get_rootIds() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& __cordl_internal_get_rootIds();
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -210,16 +209,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TreeDataController_1___GetAllItemIds_d__13();
+  constexpr TreeDataController_1__GetAllItemIds_d__13();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeDataController_1___GetAllItemIds_d__13", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeDataController_1__GetAllItemIds_d__13", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TreeDataController_1___GetAllItemIds_d__13(__TreeDataController_1___GetAllItemIds_d__13&&) = delete;
+  TreeDataController_1__GetAllItemIds_d__13(TreeDataController_1__GetAllItemIds_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeDataController_1___GetAllItemIds_d__13", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeDataController_1__GetAllItemIds_d__13", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TreeDataController_1___GetAllItemIds_d__13(__TreeDataController_1___GetAllItemIds_d__13 const&) = delete;
+  TreeDataController_1__GetAllItemIds_d__13(TreeDataController_1__GetAllItemIds_d__13 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5472 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -248,21 +250,18 @@ public:
   /// @brief Field <currentItemId>5__3, offset: 0x44, size: 0x4, def value: None
   int32_t ____currentItemId_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5448 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Type: ::<GetItemIds>d__9
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object, UnityEngine.UIElements.TreeViewItemData`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::TreeDataController`1::<GetItemIds>d__9<T>*
-class CORDL_TYPE __TreeDataController_1___GetItemIds_d__9 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.TreeDataController`1/<GetItemIds>d__9<T>
+class CORDL_TYPE TreeDataController_1__GetItemIds_d__9 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Int32__get_Current)) int32_t System_Collections_Generic_IEnumerator_System_Int32__Current;
@@ -309,7 +308,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9<T>* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::UIElements::TreeDataController_1__GetItemIds_d__9<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
@@ -337,25 +336,25 @@ public:
 
   constexpr int32_t& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*& __cordl_internal_get___3__items();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* const& __cordl_internal_get___3__items() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*> const& __cordl_internal_get___3__items() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*& __cordl_internal_get___3__items();
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*& __cordl_internal_get___s__1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* const& __cordl_internal_get___s__1() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*> const& __cordl_internal_get___s__1() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*& __cordl_internal_get___s__1();
 
   constexpr ::UnityEngine::UIElements::TreeViewItemData_1<T> const& __cordl_internal_get__item_5__2() const;
 
   constexpr ::UnityEngine::UIElements::TreeViewItemData_1<T>& __cordl_internal_get__item_5__2();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*& __cordl_internal_get_items();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* const& __cordl_internal_get_items() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*> const& __cordl_internal_get_items() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*& __cordl_internal_get_items();
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -395,16 +394,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TreeDataController_1___GetItemIds_d__9();
+  constexpr TreeDataController_1__GetItemIds_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeDataController_1___GetItemIds_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeDataController_1__GetItemIds_d__9", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TreeDataController_1___GetItemIds_d__9(__TreeDataController_1___GetItemIds_d__9&&) = delete;
+  TreeDataController_1__GetItemIds_d__9(TreeDataController_1__GetItemIds_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeDataController_1___GetItemIds_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeDataController_1__GetItemIds_d__9", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TreeDataController_1___GetItemIds_d__9(__TreeDataController_1___GetItemIds_d__9 const&) = delete;
+  TreeDataController_1__GetItemIds_d__9(TreeDataController_1__GetItemIds_d__9 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5473 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -427,26 +429,22 @@ public:
   /// @brief Field <item>5__2, offset: 0x38, size: 0x18, def value: None
   ::UnityEngine::UIElements::TreeViewItemData_1<T> ____item_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5449 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::TreeDataController`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.TreeData`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::TreeDataController`1<T>*
+// CS Name: UnityEngine.UIElements.TreeDataController`1<T>
 class CORDL_TYPE TreeDataController_1 : public ::System::Object {
 public:
   // Declarations
-  using _GetAllItemIds_d__13 = ::UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>;
+  using _GetAllItemIds_d__13 = ::UnityEngine::UIElements::TreeDataController_1__GetAllItemIds_d__13<T>;
 
-  using _GetItemIds_d__9 = ::UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9<T>;
+  using _GetItemIds_d__9 = ::UnityEngine::UIElements::TreeDataController_1__GetItemIds_d__9<T>;
 
   /// @brief Field m_IteratorStack, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IteratorStack,
@@ -484,9 +482,9 @@ public:
   /// @brief Method SetRootItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetRootItems(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* rootItems);
 
-  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<int32_t>*>*& __cordl_internal_get_m_IteratorStack();
+  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<int32_t>*>* const& __cordl_internal_get_m_IteratorStack() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<int32_t>*>*> const& __cordl_internal_get_m_IteratorStack() const;
+  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<int32_t>*>*& __cordl_internal_get_m_IteratorStack();
 
   constexpr ::UnityEngine::UIElements::TreeData_1<T> const& __cordl_internal_get_m_TreeData() const;
 
@@ -513,19 +511,19 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TreeDataController_1(TreeDataController_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5474 };
+
   /// @brief Field m_TreeData, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::UIElements::TreeData_1<T> ___m_TreeData;
 
   /// @brief Field m_IteratorStack, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<int32_t>*>* ___m_IteratorStack;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5450 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::TreeDataController_1, "UnityEngine.UIElements", "TreeDataController`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13, "UnityEngine.UIElements", "TreeDataController`1/<GetAllItemIds>d__13");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9, "UnityEngine.UIElements", "TreeDataController`1/<GetItemIds>d__9");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::TreeDataController_1__GetAllItemIds_d__13, "UnityEngine.UIElements", "TreeDataController`1/<GetAllItemIds>d__13");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::TreeDataController_1__GetItemIds_d__9, "UnityEngine.UIElements", "TreeDataController`1/<GetItemIds>d__9");

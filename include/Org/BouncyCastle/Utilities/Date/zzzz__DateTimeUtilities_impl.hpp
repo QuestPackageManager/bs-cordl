@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::*)()>(
     &::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a0590;
+  constexpr static std::size_t addrs = 0x25d387c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>::get(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::DateTime)>(&::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeToUnixMs)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x25a0598;
+  constexpr static std::size_t addrs = 0x25d3884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int64_t)>(&::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::UnixMsToDateTime)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x25a071c;
+  constexpr static std::size_t addrs = 0x25d3a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::CurrentUnixMs)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x25a07d4;
+  constexpr static std::size_t addrs = 0x25d3ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>::get(),
@@ -65,9 +65,6 @@ inline void Org::BouncyCastle::Utilities::Date::DateTimeUtilities::setStaticF_Un
 }
 inline ::System::DateTime Org::BouncyCastle::Utilities::Date::DateTimeUtilities::getStaticF_UnixEpoch() {
   return ::cordl_internals::getStaticField<::System::DateTime, "UnixEpoch", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>::get>();
-}
-inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* Org::BouncyCastle::Utilities::Date::DateTimeUtilities::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>());
 }
 inline void Org::BouncyCastle::Utilities::Date::DateTimeUtilities::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>::get(),
@@ -90,6 +87,9 @@ inline int64_t Org::BouncyCastle::Utilities::Date::DateTimeUtilities::CurrentUni
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>::get(),
                                                                              "CurrentUnixMs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method);
+}
+inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* Org::BouncyCastle::Utilities::Date::DateTimeUtilities::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeUtilities() {}

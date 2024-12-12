@@ -26,11 +26,10 @@ class DllImportAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::DllImportAttribute);
-// Type: System.Runtime.InteropServices::DllImportAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 46, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Runtime.InteropServices.CallingConvention, System.Runtime.InteropServices.CharSet
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::DllImportAttribute*
+// CS Name: System.Runtime.InteropServices.DllImportAttribute
 class CORDL_TYPE DllImportAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -63,10 +62,10 @@ public:
   /// @brief Field _val, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) ::StringW _val;
 
-  /// @brief Method GetCustomAttribute, addr 0x3cb33d0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x3d13544, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method IsDefined, addr 0x3cb360c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x3d13780, size 0x28, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::RuntimeMethodInfo* method);
 
   static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName);
@@ -129,14 +128,14 @@ public:
 
   constexpr void __cordl_internal_set__val(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cb3634, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d137a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName);
 
-  /// @brief Method .ctor, addr 0x3cb3580, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d136f4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig,
                     ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
 
-  /// @brief Method get_Value, addr 0x3cb365c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3d137d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -152,6 +151,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DllImportAttribute(DllImportAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3330 };
 
   /// @brief Field _val, offset: 0x10, size: 0x8, def value: None
   ::StringW ____val;
@@ -180,14 +182,9 @@ public:
   /// @brief Field ThrowOnUnmappableChar, offset: 0x2d, size: 0x1, def value: None
   bool ___ThrowOnUnmappableChar;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3330 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::DllImportAttribute, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ____val) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___EntryPoint) == 0x18, "Offset mismatch!");
@@ -205,6 +202,8 @@ static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, _
 static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___BestFitMapping) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___ThrowOnUnmappableChar) == 0x2d, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::DllImportAttribute, 0x30>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::DllImportAttribute);

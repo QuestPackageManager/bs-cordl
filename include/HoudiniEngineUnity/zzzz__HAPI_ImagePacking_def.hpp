@@ -12,11 +12,10 @@ struct HAPI_ImagePacking;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImagePacking);
-// Type: HoudiniEngineUnity::HAPI_ImagePacking
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_ImagePacking
+// CS Name: HoudiniEngineUnity.HAPI_ImagePacking
 struct CORDL_TYPE HAPI_ImagePacking {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_ImagePacking(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_IMAGE_PACKING_ABGR value: static_cast<int32_t>(0x5)
+  /// @brief Field HAPI_IMAGE_PACKING_ABGR value: I32(5)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_ABGR;
 
-  /// @brief Field HAPI_IMAGE_PACKING_BGR value: static_cast<int32_t>(0x3)
+  /// @brief Field HAPI_IMAGE_PACKING_BGR value: I32(3)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_BGR;
 
-  /// @brief Field HAPI_IMAGE_PACKING_DEFAULT3 value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_IMAGE_PACKING_DEFAULT3 value: I32(2)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_DEFAULT3;
 
-  /// @brief Field HAPI_IMAGE_PACKING_DEFAULT4 value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_IMAGE_PACKING_DEFAULT4 value: I32(4)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_DEFAULT4;
 
-  /// @brief Field HAPI_IMAGE_PACKING_DUAL value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_IMAGE_PACKING_DUAL value: I32(1)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_DUAL;
 
-  /// @brief Field HAPI_IMAGE_PACKING_MAX value: static_cast<int32_t>(0x6)
+  /// @brief Field HAPI_IMAGE_PACKING_MAX value: I32(6)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_MAX;
 
-  /// @brief Field HAPI_IMAGE_PACKING_RGB value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_IMAGE_PACKING_RGB value: I32(2)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_RGB;
 
-  /// @brief Field HAPI_IMAGE_PACKING_RGBA value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_IMAGE_PACKING_RGBA value: I32(4)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_RGBA;
 
-  /// @brief Field HAPI_IMAGE_PACKING_SINGLE value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_IMAGE_PACKING_SINGLE value: I32(0)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_SINGLE;
 
-  /// @brief Field HAPI_IMAGE_PACKING_UNKNOWN value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_IMAGE_PACKING_UNKNOWN value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_UNKNOWN;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ImagePacking, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImagePacking, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ImagePacking, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ImagePacking, "HoudiniEngineUnity", "HAPI_ImagePacking");

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::OnRemoveWriter::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::OnRemoveWriter::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42a8cec;
+  constexpr static std::size_t addrs = 0x430a000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::OnRemoveWriter::*)(::System::Xml::XmlRawWriter*)>(&::System::Xml::OnRemoveWriter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42a8dec;
+  constexpr static std::size_t addrs = 0x430a100;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,9 +35,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Xml::OnRemoveWriter* System::Xml::OnRemoveWriter::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::OnRemoveWriter*>(object, method));
-}
 inline void System::Xml::OnRemoveWriter::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::OnRemoveWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -49,6 +46,9 @@ inline void System::Xml::OnRemoveWriter::Invoke(::System::Xml::XmlRawWriter* wri
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::OnRemoveWriter*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
+}
+inline ::System::Xml::OnRemoveWriter* System::Xml::OnRemoveWriter::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::OnRemoveWriter*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::OnRemoveWriter::OnRemoveWriter() {}

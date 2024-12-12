@@ -18,11 +18,10 @@ class FlyingGameHUDRotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingGameHUDRotation);
-// Type: ::FlyingGameHUDRotation
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingGameHUDRotation*
+// CS Name: FlyingGameHUDRotation
 class CORDL_TYPE FlyingGameHUDRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -42,15 +41,15 @@ public:
   /// @brief Field _yAngle, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__yAngle, put = __cordl_internal_set__yAngle)) float_t _yAngle;
 
-  /// @brief Method FixedUpdate, addr 0x3b370b8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b985fc, size 0x178, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x3b37230, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b98774, size 0x88, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FlyingGameHUDRotation* New_ctor();
 
-  /// @brief Method Start, addr 0x3b36fdc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b98520, size 0xdc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BeatLineManager> const& __cordl_internal_get__beatLineManager() const;
@@ -83,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__yAngle(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b372b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b987fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingGameHUDRotation(FlyingGameHUDRotation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4358 };
+
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;
 
@@ -115,14 +117,9 @@ public:
   /// @brief Field _yAngle, offset: 0x3c, size: 0x4, def value: None
   float_t ____yAngle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4347 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingGameHUDRotation, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____smooth) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____beatLineManager) == 0x28, "Offset mismatch!");
@@ -132,6 +129,8 @@ static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____environment
 static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____prevYAngle) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____yAngle) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingGameHUDRotation, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingGameHUDRotation);

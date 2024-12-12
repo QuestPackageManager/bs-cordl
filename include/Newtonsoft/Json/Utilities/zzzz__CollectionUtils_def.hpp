@@ -4,11 +4,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionUtils)
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __CollectionUtils__EmptyArrayContainer_1;
+template <typename T> class CollectionUtils_EmptyArrayContainer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
@@ -51,23 +50,22 @@ namespace Newtonsoft::Json::Utilities {
 class CollectionUtils;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __CollectionUtils__EmptyArrayContainer_1;
+template <typename T> class CollectionUtils_EmptyArrayContainer_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::CollectionUtils);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1);
-// Type: ::EmptyArrayContainer`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1);
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::CollectionUtils::EmptyArrayContainer`1<T>*
-class CORDL_TYPE __CollectionUtils__EmptyArrayContainer_1 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Utilities.CollectionUtils/EmptyArrayContainer`1<T>
+class CORDL_TYPE CollectionUtils_EmptyArrayContainer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::ArrayW<T, ::Array<T>*> Empty;
+  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::ArrayW<T, ::Array<T>*> Empty;
 
   static inline ::ArrayW<T, ::Array<T>*> getStaticF_Empty();
 
@@ -76,33 +74,32 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CollectionUtils__EmptyArrayContainer_1();
+  constexpr CollectionUtils_EmptyArrayContainer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CollectionUtils__EmptyArrayContainer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils_EmptyArrayContainer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CollectionUtils__EmptyArrayContainer_1(__CollectionUtils__EmptyArrayContainer_1&&) = delete;
+  CollectionUtils_EmptyArrayContainer_1(CollectionUtils_EmptyArrayContainer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CollectionUtils__EmptyArrayContainer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils_EmptyArrayContainer_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CollectionUtils__EmptyArrayContainer_1(__CollectionUtils__EmptyArrayContainer_1 const&) = delete;
+  CollectionUtils_EmptyArrayContainer_1(CollectionUtils_EmptyArrayContainer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
-// Type: Newtonsoft.Json.Utilities::CollectionUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::CollectionUtils*
+// CS Name: Newtonsoft.Json.Utilities.CollectionUtils
 class CORDL_TYPE CollectionUtils : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using EmptyArrayContainer_1 = ::Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1<T>;
+  template <typename T> using EmptyArrayContainer_1 = ::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1<T>;
 
   /// @brief Method AddDistinct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool AddDistinct(::System::Collections::Generic::IList_1<T>* list, T value);
@@ -128,13 +125,13 @@ public:
   template <typename TSource>
   static inline bool ContainsValue(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource value, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer);
 
-  /// @brief Method CopyFromJaggedToMultidimensionalArray, addr 0x3e5eb90, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method CopyFromJaggedToMultidimensionalArray, addr 0x3ebec3c, size 0x2bc, virtual false, abstract: false, final false
   static inline void CopyFromJaggedToMultidimensionalArray(::System::Collections::IList* values, ::System::Array* multidimensionalArray, ::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
   /// @brief Method FastReverse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void FastReverse(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method GetDimensions, addr 0x3e5e8dc, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetDimensions, addr 0x3ebe988, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<int32_t>* GetDimensions(::System::Collections::IList* values, int32_t dimensionsCount);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -143,23 +140,23 @@ public:
   /// @brief Method IndexOfReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item);
 
-  /// @brief Method IsDictionaryType, addr 0x3e5e298, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method IsDictionaryType, addr 0x3ebe344, size 0x198, virtual false, abstract: false, final false
   static inline bool IsDictionaryType(::System::Type* type);
 
   /// @brief Method IsNullOrEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsNullOrEmpty(::System::Collections::Generic::ICollection_1<T>* collection);
 
-  /// @brief Method JaggedArrayGetValue, addr 0x3e5ee4c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method JaggedArrayGetValue, addr 0x3ebeef8, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Object* JaggedArrayGetValue(::System::Collections::IList* values, ::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
-  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3e5e4a4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3ebe550, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType);
 
-  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3e5e5b4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3ebe660, size 0x328, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType,
                                                                                               ::System::Type* constructorArgumentType);
 
-  /// @brief Method ToMultidimensionalArray, addr 0x3e5ef88, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ToMultidimensionalArray, addr 0x3ebf034, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Array* ToMultidimensionalArray(::System::Collections::IList* values, ::System::Type* type, int32_t rank);
 
 protected:
@@ -177,7 +174,7 @@ public:
   CollectionUtils(CollectionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,4 +184,4 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::Col
 } // namespace Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::CollectionUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::CollectionUtils*, "Newtonsoft.Json.Utilities", "CollectionUtils");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1, "Newtonsoft.Json.Utilities", "CollectionUtils/EmptyArrayContainer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1, "Newtonsoft.Json.Utilities", "CollectionUtils/EmptyArrayContainer`1");

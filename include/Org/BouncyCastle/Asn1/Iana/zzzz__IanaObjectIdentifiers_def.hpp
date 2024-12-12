@@ -14,32 +14,31 @@ class IanaObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.Iana::IanaObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Iana {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Iana::IanaObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.Iana.IanaObjectIdentifiers
 class CORDL_TYPE IanaObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field HmacMD5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HmacMD5, put = setStaticF_HmacMD5)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacMD5;
+  __declspec(property(get = getStaticF_HmacMD5, put = setStaticF_HmacMD5)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacMD5;
 
   /// @brief Field HmacRipeMD160, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HmacRipeMD160, put = setStaticF_HmacRipeMD160)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacRipeMD160;
+  __declspec(property(get = getStaticF_HmacRipeMD160, put = setStaticF_HmacRipeMD160)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacRipeMD160;
 
   /// @brief Field HmacSha1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HmacSha1, put = setStaticF_HmacSha1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacSha1;
+  __declspec(property(get = getStaticF_HmacSha1, put = setStaticF_HmacSha1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacSha1;
 
   /// @brief Field HmacTiger, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HmacTiger, put = setStaticF_HmacTiger)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacTiger;
+  __declspec(property(get = getStaticF_HmacTiger, put = setStaticF_HmacTiger)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* HmacTiger;
 
   /// @brief Field IsakmpOakley, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IsakmpOakley, put = setStaticF_IsakmpOakley)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IsakmpOakley;
+  __declspec(property(get = getStaticF_IsakmpOakley, put = setStaticF_IsakmpOakley)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IsakmpOakley;
 
   static inline ::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f6db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a0a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_HmacMD5();

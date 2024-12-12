@@ -1,1121 +1,1104 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/SortedList.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IDictionary_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IList_impl.hpp"
+#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__SortedList_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__SortedList_SyncSortedList_def.hpp"
 #include "System/Collections/zzzz__SortedList_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator._ctor
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__SortedListEnumerator::*)(
-    ::System::Collections::SortedList*, int32_t, int32_t, int32_t)>(&::System::Collections::__SortedList__SortedListEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_SortedListEnumerator::*)(
+    ::System::Collections::SortedList*, int32_t, int32_t, int32_t)>(&::System::Collections::SortedList_SortedListEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d5bc38;
+  constexpr static std::size_t addrs = 0x3dbbdac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator.Clone
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator.Clone
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__SortedListEnumerator::*)()>(
-    &::System::Collections::__SortedList__SortedListEnumerator::Clone)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_SortedListEnumerator::*)()>(
+    &::System::Collections::SortedList_SortedListEnumerator::Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5d574;
+  constexpr static std::size_t addrs = 0x3dbd6e8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), "Clone",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
+                                                                               "Clone", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator.get_Key
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator.get_Key
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__SortedListEnumerator::*)()>(
-    &::System::Collections::__SortedList__SortedListEnumerator::get_Key)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_SortedListEnumerator::*)()>(
+    &::System::Collections::SortedList_SortedListEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d5d57c;
+  constexpr static std::size_t addrs = 0x3dbd6f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 11));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 11));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator.MoveNext
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__SortedListEnumerator::*)()>(
-    &::System::Collections::__SortedList__SortedListEnumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_SortedListEnumerator::*)()>(
+    &::System::Collections::SortedList_SortedListEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3d5d618;
+  constexpr static std::size_t addrs = 0x3dbd78c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 12));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 12));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator.get_Entry
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator.get_Entry
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Collections::__SortedList__SortedListEnumerator::*)()>(
-    &::System::Collections::__SortedList__SortedListEnumerator::get_Entry)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Collections::SortedList_SortedListEnumerator::*)()>(
+    &::System::Collections::SortedList_SortedListEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d5d700;
+  constexpr static std::size_t addrs = 0x3dbd874;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator.get_Current
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__SortedListEnumerator::*)()>(
-    &::System::Collections::__SortedList__SortedListEnumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_SortedListEnumerator::*)()>(
+    &::System::Collections::SortedList_SortedListEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3d5d7a0;
+  constexpr static std::size_t addrs = 0x3dbd914;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator.get_Value
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator.get_Value
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__SortedListEnumerator::*)()>(
-    &::System::Collections::__SortedList__SortedListEnumerator::get_Value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_SortedListEnumerator::*)()>(
+    &::System::Collections::SortedList_SortedListEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d5d870;
+  constexpr static std::size_t addrs = 0x3dbd9e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 15));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__SortedListEnumerator.Reset
+//  Writing Method size for method: ::System::Collections::SortedList_SortedListEnumerator.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__SortedListEnumerator::*)()>(
-    &::System::Collections::__SortedList__SortedListEnumerator::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_SortedListEnumerator::*)()>(
+    &::System::Collections::SortedList_SortedListEnumerator::Reset)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d5d90c;
+  constexpr static std::size_t addrs = 0x3dbda80;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 16));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 16));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-constexpr System::Collections::__SortedList__SortedListEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-constexpr ::System::Collections::IDictionaryEnumerator* System::Collections::__SortedList__SortedListEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Collections::__SortedList__SortedListEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Collections::__SortedList__SortedListEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::ICloneable"
-constexpr System::Collections::__SortedList__SortedListEnumerator::operator ::System::ICloneable*() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* System::Collections::__SortedList__SortedListEnumerator::i___System__ICloneable() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::SortedList*& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__sortedList() {
+constexpr ::System::Collections::SortedList*& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__sortedList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__sortedList() const {
+constexpr ::System::Collections::SortedList* const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__sortedList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedList;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__sortedList(::System::Collections::SortedList* value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__sortedList(::System::Collections::SortedList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sortedList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__key() {
+constexpr ::System::Object*& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__key() const {
+constexpr ::System::Object* const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__key(::System::Object* value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__key(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__value() {
+constexpr ::System::Object*& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__value() const {
+constexpr ::System::Object* const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__value(::System::Object* value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__value(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__index() {
+constexpr int32_t& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
-constexpr int32_t const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__index() const {
+constexpr int32_t const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__index(int32_t value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__index(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
-constexpr int32_t& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__startIndex() {
+constexpr int32_t& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__startIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startIndex;
 }
-constexpr int32_t const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__startIndex() const {
+constexpr int32_t const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__startIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startIndex;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__startIndex(int32_t value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__startIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startIndex = value;
 }
-constexpr int32_t& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__endIndex() {
+constexpr int32_t& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__endIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endIndex;
 }
-constexpr int32_t const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__endIndex() const {
+constexpr int32_t const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__endIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endIndex;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__endIndex(int32_t value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__endIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endIndex = value;
 }
-constexpr int32_t& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__version() {
+constexpr int32_t& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr int32_t const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__version() const {
+constexpr int32_t const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__version(int32_t value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__version(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
-constexpr bool& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__current() {
+constexpr bool& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-constexpr bool const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__current() const {
+constexpr bool const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__current(bool value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__current(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
-constexpr int32_t& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__getObjectRetType() {
+constexpr int32_t& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__getObjectRetType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getObjectRetType;
 }
-constexpr int32_t const& System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_get__getObjectRetType() const {
+constexpr int32_t const& System::Collections::SortedList_SortedListEnumerator::__cordl_internal_get__getObjectRetType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getObjectRetType;
 }
-constexpr void System::Collections::__SortedList__SortedListEnumerator::__cordl_internal_set__getObjectRetType(int32_t value) {
+constexpr void System::Collections::SortedList_SortedListEnumerator::__cordl_internal_set__getObjectRetType(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____getObjectRetType = value;
 }
-inline ::System::Collections::__SortedList__SortedListEnumerator* System::Collections::__SortedList__SortedListEnumerator::New_ctor(::System::Collections::SortedList* sortedList, int32_t index,
-                                                                                                                                    int32_t count, int32_t getObjRetType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::__SortedList__SortedListEnumerator*>(sortedList, index, count, getObjRetType));
-}
-inline void System::Collections::__SortedList__SortedListEnumerator::_ctor(::System::Collections::SortedList* sortedList, int32_t index, int32_t count, int32_t getObjRetType) {
+inline void System::Collections::SortedList_SortedListEnumerator::_ctor(::System::Collections::SortedList* sortedList, int32_t index, int32_t count, int32_t getObjRetType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sortedList, index, count, getObjRetType);
 }
-inline ::System::Object* System::Collections::__SortedList__SortedListEnumerator::Clone() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(),
+inline ::System::Object* System::Collections::SortedList_SortedListEnumerator::Clone() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(),
                                                                              "Clone", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::__SortedList__SortedListEnumerator::get_Key() {
+inline ::System::Object* System::Collections::SortedList_SortedListEnumerator::get_Key() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 11)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__SortedListEnumerator::MoveNext() {
+inline bool System::Collections::SortedList_SortedListEnumerator::MoveNext() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Collections::DictionaryEntry System::Collections::__SortedList__SortedListEnumerator::get_Entry() {
+inline ::System::Collections::DictionaryEntry System::Collections::SortedList_SortedListEnumerator::get_Entry() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::DictionaryEntry, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::__SortedList__SortedListEnumerator::get_Current() {
+inline ::System::Object* System::Collections::SortedList_SortedListEnumerator::get_Current() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::__SortedList__SortedListEnumerator::get_Value() {
+inline ::System::Object* System::Collections::SortedList_SortedListEnumerator::get_Value() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void System::Collections::__SortedList__SortedListEnumerator::Reset() {
+inline void System::Collections::SortedList_SortedListEnumerator::Reset() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__SortedListEnumerator*>::get(), 16)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_SortedListEnumerator*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Collections::SortedList_SortedListEnumerator* System::Collections::SortedList_SortedListEnumerator::New_ctor(::System::Collections::SortedList* sortedList, int32_t index,
+                                                                                                                              int32_t count, int32_t getObjRetType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList_SortedListEnumerator*>(sortedList, index, count, getObjRetType));
+}
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
+constexpr System::Collections::SortedList_SortedListEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+constexpr ::System::Collections::IDictionaryEnumerator* System::Collections::SortedList_SortedListEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Collections::SortedList_SortedListEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Collections::SortedList_SortedListEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::ICloneable"
+constexpr System::Collections::SortedList_SortedListEnumerator::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* System::Collections::SortedList_SortedListEnumerator::i___System__ICloneable() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Collections::__SortedList__SortedListEnumerator::__SortedList__SortedListEnumerator() {}
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList._ctor
+constexpr ::System::Collections::SortedList_SortedListEnumerator::SortedList_SortedListEnumerator() {}
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__KeyList::*)(::System::Collections::SortedList*)>(
-    &::System::Collections::__SortedList__KeyList::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_KeyList::*)(::System::Collections::SortedList*)>(
+    &::System::Collections::SortedList_KeyList::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d5be20;
+  constexpr static std::size_t addrs = 0x3dbbf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.get_Count
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__SortedList__KeyList::*)()>(
-    &::System::Collections::__SortedList__KeyList::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList_KeyList::*)()>(&::System::Collections::SortedList_KeyList::get_Count)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d5d98c;
+  constexpr static std::size_t addrs = 0x3dbdb00;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 20));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 20));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.get_IsReadOnly
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.get_IsReadOnly
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__KeyList::*)()>(
-    &::System::Collections::__SortedList__KeyList::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_KeyList::*)()>(&::System::Collections::SortedList_KeyList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5d9a8;
+  constexpr static std::size_t addrs = 0x3dbdb1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 21));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 21));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.get_IsFixedSize
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.get_IsFixedSize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__KeyList::*)()>(
-    &::System::Collections::__SortedList__KeyList::get_IsFixedSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_KeyList::*)()>(&::System::Collections::SortedList_KeyList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5d9b0;
+  constexpr static std::size_t addrs = 0x3dbdb24;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 22));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 22));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.get_IsSynchronized
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.get_IsSynchronized
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__KeyList::*)()>(
-    &::System::Collections::__SortedList__KeyList::get_IsSynchronized)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_KeyList::*)()>(
+    &::System::Collections::SortedList_KeyList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5d9b8;
+  constexpr static std::size_t addrs = 0x3dbdb2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 23));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 23));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.get_SyncRoot
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.get_SyncRoot
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__KeyList::*)()>(
-    &::System::Collections::__SortedList__KeyList::get_SyncRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_KeyList::*)()>(
+    &::System::Collections::SortedList_KeyList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5d9dc;
+  constexpr static std::size_t addrs = 0x3dbdb50;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 24));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 24));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.Add
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.Add
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__SortedList__KeyList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__KeyList::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList_KeyList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_KeyList::Add)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5da00;
+  constexpr static std::size_t addrs = 0x3dbdb74;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 25));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 25));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.Clear
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.Clear
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__KeyList::*)()>(&::System::Collections::__SortedList__KeyList::Clear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_KeyList::*)()>(&::System::Collections::SortedList_KeyList::Clear)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5da4c;
+  constexpr static std::size_t addrs = 0x3dbdbc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 26));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 26));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.Contains
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.Contains
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__KeyList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__KeyList::Contains)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_KeyList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_KeyList::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5da98;
+  constexpr static std::size_t addrs = 0x3dbdc0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 27));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 27));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.CopyTo
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__KeyList::*)(::System::Array*, int32_t)>(
-    &::System::Collections::__SortedList__KeyList::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_KeyList::*)(::System::Array*, int32_t)>(
+    &::System::Collections::SortedList_KeyList::CopyTo)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d5dabc;
+  constexpr static std::size_t addrs = 0x3dbdc30;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 28));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 28));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.Insert
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.Insert
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__KeyList::*)(int32_t, ::System::Object*)>(
-    &::System::Collections::__SortedList__KeyList::Insert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_KeyList::*)(int32_t, ::System::Object*)>(
+    &::System::Collections::SortedList_KeyList::Insert)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5db88;
+  constexpr static std::size_t addrs = 0x3dbdcfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 29));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 29));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.get_Item
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.get_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__KeyList::*)(int32_t)>(
-    &::System::Collections::__SortedList__KeyList::get_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_KeyList::*)(int32_t)>(
+    &::System::Collections::SortedList_KeyList::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5dbd4;
+  constexpr static std::size_t addrs = 0x3dbdd48;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 30));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 30));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.set_Item
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.set_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__KeyList::*)(int32_t, ::System::Object*)>(
-    &::System::Collections::__SortedList__KeyList::set_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_KeyList::*)(int32_t, ::System::Object*)>(
+    &::System::Collections::SortedList_KeyList::set_Item)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5dbf8;
+  constexpr static std::size_t addrs = 0x3dbdd6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 31));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 31));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.GetEnumerator
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::__SortedList__KeyList::*)()>(
-    &::System::Collections::__SortedList__KeyList::GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::SortedList_KeyList::*)()>(
+    &::System::Collections::SortedList_KeyList::GetEnumerator)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d5dc44;
+  constexpr static std::size_t addrs = 0x3dbddb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 32));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 32));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.IndexOf
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.IndexOf
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__SortedList__KeyList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__KeyList::IndexOf)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList_KeyList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_KeyList::IndexOf)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d5dcd0;
+  constexpr static std::size_t addrs = 0x3dbde44;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 33));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 33));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.Remove
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.Remove
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__KeyList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__KeyList::Remove)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_KeyList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_KeyList::Remove)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5dd98;
+  constexpr static std::size_t addrs = 0x3dbdf0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 34));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 34));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__KeyList.RemoveAt
+//  Writing Method size for method: ::System::Collections::SortedList_KeyList.RemoveAt
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__KeyList::*)(int32_t)>(
-    &::System::Collections::__SortedList__KeyList::RemoveAt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_KeyList::*)(int32_t)>(&::System::Collections::SortedList_KeyList::RemoveAt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5dde4;
+  constexpr static std::size_t addrs = 0x3dbdf58;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 35));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 35));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IList"
-constexpr System::Collections::__SortedList__KeyList::operator ::System::Collections::IList*() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IList"
-constexpr ::System::Collections::IList* System::Collections::__SortedList__KeyList::i___System__Collections__IList() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Collections::__SortedList__KeyList::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Collections::__SortedList__KeyList::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::__SortedList__KeyList::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::__SortedList__KeyList::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::SortedList*& System::Collections::__SortedList__KeyList::__cordl_internal_get_sortedList() {
+constexpr ::System::Collections::SortedList*& System::Collections::SortedList_KeyList::__cordl_internal_get_sortedList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortedList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& System::Collections::__SortedList__KeyList::__cordl_internal_get_sortedList() const {
+constexpr ::System::Collections::SortedList* const& System::Collections::SortedList_KeyList::__cordl_internal_get_sortedList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortedList;
 }
-constexpr void System::Collections::__SortedList__KeyList::__cordl_internal_set_sortedList(::System::Collections::SortedList* value) {
+constexpr void System::Collections::SortedList_KeyList::__cordl_internal_set_sortedList(::System::Collections::SortedList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sortedList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::__SortedList__KeyList* System::Collections::__SortedList__KeyList::New_ctor(::System::Collections::SortedList* sortedList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::__SortedList__KeyList*>(sortedList));
-}
-inline void System::Collections::__SortedList__KeyList::_ctor(::System::Collections::SortedList* sortedList) {
+inline void System::Collections::SortedList_KeyList::_ctor(::System::Collections::SortedList* sortedList) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sortedList);
 }
-inline int32_t System::Collections::__SortedList__KeyList::get_Count() {
+inline int32_t System::Collections::SortedList_KeyList::get_Count() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 20)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__KeyList::get_IsReadOnly() {
+inline bool System::Collections::SortedList_KeyList::get_IsReadOnly() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 21)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__KeyList::get_IsFixedSize() {
+inline bool System::Collections::SortedList_KeyList::get_IsFixedSize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 22)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__KeyList::get_IsSynchronized() {
+inline bool System::Collections::SortedList_KeyList::get_IsSynchronized() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 23)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::__SortedList__KeyList::get_SyncRoot() {
+inline ::System::Object* System::Collections::SortedList_KeyList::get_SyncRoot() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline int32_t System::Collections::__SortedList__KeyList::Add(::System::Object* key) {
+inline int32_t System::Collections::SortedList_KeyList::Add(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__SortedList__KeyList::Clear() {
+inline void System::Collections::SortedList_KeyList::Clear() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__KeyList::Contains(::System::Object* key) {
+inline bool System::Collections::SortedList_KeyList::Contains(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__SortedList__KeyList::CopyTo(::System::Array* array, int32_t arrayIndex) {
+inline void System::Collections::SortedList_KeyList::CopyTo(::System::Array* array, int32_t arrayIndex) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
 }
-inline void System::Collections::__SortedList__KeyList::Insert(int32_t index, ::System::Object* value) {
+inline void System::Collections::SortedList_KeyList::Insert(int32_t index, ::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 29)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline ::System::Object* System::Collections::__SortedList__KeyList::get_Item(int32_t index) {
+inline ::System::Object* System::Collections::SortedList_KeyList::get_Item(int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 30)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
 }
-inline void System::Collections::__SortedList__KeyList::set_Item(int32_t index, ::System::Object* value) {
+inline void System::Collections::SortedList_KeyList::set_Item(int32_t index, ::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline ::System::Collections::IEnumerator* System::Collections::__SortedList__KeyList::GetEnumerator() {
+inline ::System::Collections::IEnumerator* System::Collections::SortedList_KeyList::GetEnumerator() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline int32_t System::Collections::__SortedList__KeyList::IndexOf(::System::Object* key) {
+inline int32_t System::Collections::SortedList_KeyList::IndexOf(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 33)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 33)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__SortedList__KeyList::Remove(::System::Object* key) {
+inline void System::Collections::SortedList_KeyList::Remove(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 34)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__SortedList__KeyList::RemoveAt(int32_t index) {
+inline void System::Collections::SortedList_KeyList::RemoveAt(int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__KeyList*>::get(), 35)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_KeyList*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
+inline ::System::Collections::SortedList_KeyList* System::Collections::SortedList_KeyList::New_ctor(::System::Collections::SortedList* sortedList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList_KeyList*>(sortedList));
+}
+/// @brief Convert operator to "::System::Collections::IList"
+constexpr System::Collections::SortedList_KeyList::operator ::System::Collections::IList*() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IList"
+constexpr ::System::Collections::IList* System::Collections::SortedList_KeyList::i___System__Collections__IList() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Collections::SortedList_KeyList::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Collections::SortedList_KeyList::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Collections::SortedList_KeyList::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Collections::SortedList_KeyList::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Collections::__SortedList__KeyList::__SortedList__KeyList() {}
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList._ctor
+constexpr ::System::Collections::SortedList_KeyList::SortedList_KeyList() {}
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__ValueList::*)(::System::Collections::SortedList*)>(
-    &::System::Collections::__SortedList__ValueList::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_ValueList::*)(::System::Collections::SortedList*)>(
+    &::System::Collections::SortedList_ValueList::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d5beb0;
+  constexpr static std::size_t addrs = 0x3dbc024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.get_Count
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__SortedList__ValueList::*)()>(
-    &::System::Collections::__SortedList__ValueList::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList_ValueList::*)()>(
+    &::System::Collections::SortedList_ValueList::get_Count)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d5de30;
+  constexpr static std::size_t addrs = 0x3dbdfa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 20));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 20));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.get_IsReadOnly
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.get_IsReadOnly
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__ValueList::*)()>(
-    &::System::Collections::__SortedList__ValueList::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_ValueList::*)()>(
+    &::System::Collections::SortedList_ValueList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5de4c;
+  constexpr static std::size_t addrs = 0x3dbdfc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 21));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 21));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.get_IsFixedSize
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.get_IsFixedSize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__ValueList::*)()>(
-    &::System::Collections::__SortedList__ValueList::get_IsFixedSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_ValueList::*)()>(
+    &::System::Collections::SortedList_ValueList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5de54;
+  constexpr static std::size_t addrs = 0x3dbdfc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 22));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 22));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.get_IsSynchronized
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.get_IsSynchronized
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__ValueList::*)()>(
-    &::System::Collections::__SortedList__ValueList::get_IsSynchronized)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_ValueList::*)()>(
+    &::System::Collections::SortedList_ValueList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5de5c;
+  constexpr static std::size_t addrs = 0x3dbdfd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 23));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 23));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.get_SyncRoot
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.get_SyncRoot
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__ValueList::*)()>(
-    &::System::Collections::__SortedList__ValueList::get_SyncRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_ValueList::*)()>(
+    &::System::Collections::SortedList_ValueList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5de80;
+  constexpr static std::size_t addrs = 0x3dbdff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 24));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 24));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.Add
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.Add
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__SortedList__ValueList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__ValueList::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList_ValueList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_ValueList::Add)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5dea4;
+  constexpr static std::size_t addrs = 0x3dbe018;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 25));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 25));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.Clear
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.Clear
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__ValueList::*)()>(&::System::Collections::__SortedList__ValueList::Clear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_ValueList::*)()>(&::System::Collections::SortedList_ValueList::Clear)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5def0;
+  constexpr static std::size_t addrs = 0x3dbe064;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 26));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 26));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.Contains
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.Contains
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__SortedList__ValueList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__ValueList::Contains)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList_ValueList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_ValueList::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5df3c;
+  constexpr static std::size_t addrs = 0x3dbe0b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 27));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 27));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.CopyTo
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__ValueList::*)(::System::Array*, int32_t)>(
-    &::System::Collections::__SortedList__ValueList::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_ValueList::*)(::System::Array*, int32_t)>(
+    &::System::Collections::SortedList_ValueList::CopyTo)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d5df60;
+  constexpr static std::size_t addrs = 0x3dbe0d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 28));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 28));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.Insert
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.Insert
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__ValueList::*)(int32_t, ::System::Object*)>(
-    &::System::Collections::__SortedList__ValueList::Insert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_ValueList::*)(int32_t, ::System::Object*)>(
+    &::System::Collections::SortedList_ValueList::Insert)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5e02c;
+  constexpr static std::size_t addrs = 0x3dbe1a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 29));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 29));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.get_Item
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.get_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__SortedList__ValueList::*)(int32_t)>(
-    &::System::Collections::__SortedList__ValueList::get_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList_ValueList::*)(int32_t)>(
+    &::System::Collections::SortedList_ValueList::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5e078;
+  constexpr static std::size_t addrs = 0x3dbe1ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 30));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 30));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.set_Item
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.set_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__ValueList::*)(int32_t, ::System::Object*)>(
-    &::System::Collections::__SortedList__ValueList::set_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_ValueList::*)(int32_t, ::System::Object*)>(
+    &::System::Collections::SortedList_ValueList::set_Item)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5e09c;
+  constexpr static std::size_t addrs = 0x3dbe210;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 31));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 31));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.GetEnumerator
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::__SortedList__ValueList::*)()>(
-    &::System::Collections::__SortedList__ValueList::GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::SortedList_ValueList::*)()>(
+    &::System::Collections::SortedList_ValueList::GetEnumerator)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d5e0e8;
+  constexpr static std::size_t addrs = 0x3dbe25c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 32));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 32));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.IndexOf
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.IndexOf
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__SortedList__ValueList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__ValueList::IndexOf)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList_ValueList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_ValueList::IndexOf)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d5e174;
+  constexpr static std::size_t addrs = 0x3dbe2e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 33));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 33));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.Remove
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.Remove
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__ValueList::*)(::System::Object*)>(
-    &::System::Collections::__SortedList__ValueList::Remove)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_ValueList::*)(::System::Object*)>(
+    &::System::Collections::SortedList_ValueList::Remove)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5e1ec;
+  constexpr static std::size_t addrs = 0x3dbe360;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 34));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 34));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__SortedList__ValueList.RemoveAt
+//  Writing Method size for method: ::System::Collections::SortedList_ValueList.RemoveAt
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__SortedList__ValueList::*)(int32_t)>(
-    &::System::Collections::__SortedList__ValueList::RemoveAt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList_ValueList::*)(int32_t)>(
+    &::System::Collections::SortedList_ValueList::RemoveAt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5e238;
+  constexpr static std::size_t addrs = 0x3dbe3ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 35));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 35));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IList"
-constexpr System::Collections::__SortedList__ValueList::operator ::System::Collections::IList*() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IList"
-constexpr ::System::Collections::IList* System::Collections::__SortedList__ValueList::i___System__Collections__IList() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Collections::__SortedList__ValueList::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Collections::__SortedList__ValueList::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::__SortedList__ValueList::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::__SortedList__ValueList::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::SortedList*& System::Collections::__SortedList__ValueList::__cordl_internal_get_sortedList() {
+constexpr ::System::Collections::SortedList*& System::Collections::SortedList_ValueList::__cordl_internal_get_sortedList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortedList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& System::Collections::__SortedList__ValueList::__cordl_internal_get_sortedList() const {
+constexpr ::System::Collections::SortedList* const& System::Collections::SortedList_ValueList::__cordl_internal_get_sortedList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortedList;
 }
-constexpr void System::Collections::__SortedList__ValueList::__cordl_internal_set_sortedList(::System::Collections::SortedList* value) {
+constexpr void System::Collections::SortedList_ValueList::__cordl_internal_set_sortedList(::System::Collections::SortedList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sortedList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::__SortedList__ValueList* System::Collections::__SortedList__ValueList::New_ctor(::System::Collections::SortedList* sortedList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::__SortedList__ValueList*>(sortedList));
-}
-inline void System::Collections::__SortedList__ValueList::_ctor(::System::Collections::SortedList* sortedList) {
+inline void System::Collections::SortedList_ValueList::_ctor(::System::Collections::SortedList* sortedList) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sortedList);
 }
-inline int32_t System::Collections::__SortedList__ValueList::get_Count() {
+inline int32_t System::Collections::SortedList_ValueList::get_Count() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 20)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__ValueList::get_IsReadOnly() {
+inline bool System::Collections::SortedList_ValueList::get_IsReadOnly() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 21)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__ValueList::get_IsFixedSize() {
+inline bool System::Collections::SortedList_ValueList::get_IsFixedSize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 22)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__ValueList::get_IsSynchronized() {
+inline bool System::Collections::SortedList_ValueList::get_IsSynchronized() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 23)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::__SortedList__ValueList::get_SyncRoot() {
+inline ::System::Object* System::Collections::SortedList_ValueList::get_SyncRoot() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline int32_t System::Collections::__SortedList__ValueList::Add(::System::Object* key) {
+inline int32_t System::Collections::SortedList_ValueList::Add(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__SortedList__ValueList::Clear() {
+inline void System::Collections::SortedList_ValueList::Clear() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool System::Collections::__SortedList__ValueList::Contains(::System::Object* value) {
+inline bool System::Collections::SortedList_ValueList::Contains(::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
-inline void System::Collections::__SortedList__ValueList::CopyTo(::System::Array* array, int32_t arrayIndex) {
+inline void System::Collections::SortedList_ValueList::CopyTo(::System::Array* array, int32_t arrayIndex) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
 }
-inline void System::Collections::__SortedList__ValueList::Insert(int32_t index, ::System::Object* value) {
+inline void System::Collections::SortedList_ValueList::Insert(int32_t index, ::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 29)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline ::System::Object* System::Collections::__SortedList__ValueList::get_Item(int32_t index) {
+inline ::System::Object* System::Collections::SortedList_ValueList::get_Item(int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 30)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
 }
-inline void System::Collections::__SortedList__ValueList::set_Item(int32_t index, ::System::Object* value) {
+inline void System::Collections::SortedList_ValueList::set_Item(int32_t index, ::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline ::System::Collections::IEnumerator* System::Collections::__SortedList__ValueList::GetEnumerator() {
+inline ::System::Collections::IEnumerator* System::Collections::SortedList_ValueList::GetEnumerator() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline int32_t System::Collections::__SortedList__ValueList::IndexOf(::System::Object* value) {
+inline int32_t System::Collections::SortedList_ValueList::IndexOf(::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 33)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 33)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
 }
-inline void System::Collections::__SortedList__ValueList::Remove(::System::Object* value) {
+inline void System::Collections::SortedList_ValueList::Remove(::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 34)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void System::Collections::__SortedList__ValueList::RemoveAt(int32_t index) {
+inline void System::Collections::SortedList_ValueList::RemoveAt(int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__SortedList__ValueList*>::get(), 35)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList_ValueList*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
+inline ::System::Collections::SortedList_ValueList* System::Collections::SortedList_ValueList::New_ctor(::System::Collections::SortedList* sortedList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList_ValueList*>(sortedList));
+}
+/// @brief Convert operator to "::System::Collections::IList"
+constexpr System::Collections::SortedList_ValueList::operator ::System::Collections::IList*() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IList"
+constexpr ::System::Collections::IList* System::Collections::SortedList_ValueList::i___System__Collections__IList() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Collections::SortedList_ValueList::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Collections::SortedList_ValueList::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Collections::SortedList_ValueList::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Collections::SortedList_ValueList::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Collections::__SortedList__ValueList::__SortedList__ValueList() {}
+constexpr ::System::Collections::SortedList_ValueList::SortedList_ValueList() {}
 // Ctor Parameters []
-constexpr ::System::Collections::__SortedList__SortedListDebugView::__SortedList__SortedListDebugView() {}
+constexpr ::System::Collections::SortedList_SortedListDebugView::SortedList_SortedListDebugView() {}
 //  Writing Method size for method: ::System::Collections::SortedList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d5af20;
+  constexpr static std::size_t addrs = 0x3dbb094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList*>::get(), ".ctor",
@@ -1128,7 +1111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::Init)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3d5af3c;
+  constexpr static std::size_t addrs = 0x3dbb0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList*>::get(), "Init",
@@ -1141,7 +1124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(int32_t)>(&::System::Collections::SortedList::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3d5b088;
+  constexpr static std::size_t addrs = 0x3dbb1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1156,7 +1139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(::System::Collections::IComparer*)>(
     &::System::Collections::SortedList::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3d5b1c0;
+  constexpr static std::size_t addrs = 0x3dbb334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1171,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::SortedList::Add)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3d5b1f4;
+  constexpr static std::size_t addrs = 0x3dbb368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1185,7 +1168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(int32_t)>(&::System::Collections::SortedList::set_Capacity)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3d5b448;
+  constexpr static std::size_t addrs = 0x3dbb5bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1199,7 +1182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5b64c;
+  constexpr static std::size_t addrs = 0x3dbb7c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1214,7 +1197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::SortedList::*)()>(
     &::System::Collections::SortedList::get_Keys)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d5b654;
+  constexpr static std::size_t addrs = 0x3dbb7c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1229,7 +1212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::SortedList::*)()>(
     &::System::Collections::SortedList::get_Values)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d5b664;
+  constexpr static std::size_t addrs = 0x3dbb7d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1243,7 +1226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5b674;
+  constexpr static std::size_t addrs = 0x3dbb7e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1257,7 +1240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5b67c;
+  constexpr static std::size_t addrs = 0x3dbb7f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1271,7 +1254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5b684;
+  constexpr static std::size_t addrs = 0x3dbb7f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1285,7 +1268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d5b68c;
+  constexpr static std::size_t addrs = 0x3dbb800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1299,7 +1282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::Clear)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3d5b6fc;
+  constexpr static std::size_t addrs = 0x3dbb870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1313,7 +1296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList::*)()>(&::System::Collections::SortedList::Clone)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3d5b744;
+  constexpr static std::size_t addrs = 0x3dbb8b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1327,7 +1310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList::*)(::System::Object*)>(&::System::Collections::SortedList::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5b7f0;
+  constexpr static std::size_t addrs = 0x3dbb964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1341,7 +1324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList::*)(::System::Object*)>(&::System::Collections::SortedList::ContainsKey)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5b814;
+  constexpr static std::size_t addrs = 0x3dbb988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1355,7 +1338,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::SortedList::*)(::System::Object*)>(&::System::Collections::SortedList::ContainsValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5b838;
+  constexpr static std::size_t addrs = 0x3dbb9ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1369,7 +1352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(::System::Array*, int32_t)>(&::System::Collections::SortedList::CopyTo)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3d5b85c;
+  constexpr static std::size_t addrs = 0x3dbb9d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1383,7 +1366,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(int32_t)>(&::System::Collections::SortedList::EnsureCapacity)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d5bacc;
+  constexpr static std::size_t addrs = 0x3dbbc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1397,7 +1380,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList::*)(int32_t)>(&::System::Collections::SortedList::GetByIndex)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3d5bb18;
+  constexpr static std::size_t addrs = 0x3dbbc8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1412,7 +1395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::SortedList::*)()>(
     &::System::Collections::SortedList::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d5bbd0;
+  constexpr static std::size_t addrs = 0x3dbbd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1427,7 +1410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::SortedList::*)()>(
     &::System::Collections::SortedList::GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d5bc98;
+  constexpr static std::size_t addrs = 0x3dbbe0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1441,7 +1424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList::*)(int32_t)>(&::System::Collections::SortedList::GetKey)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3d5bd00;
+  constexpr static std::size_t addrs = 0x3dbbe74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1456,7 +1439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::System::Collections::SortedList::*)()>(
     &::System::Collections::SortedList::GetKeyList)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d5bdb8;
+  constexpr static std::size_t addrs = 0x3dbbf2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1471,7 +1454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::System::Collections::SortedList::*)()>(
     &::System::Collections::SortedList::GetValueList)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d5be48;
+  constexpr static std::size_t addrs = 0x3dbbfbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1486,7 +1469,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::SortedList::*)(::System::Object*)>(
     &::System::Collections::SortedList::get_Item)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d5bed8;
+  constexpr static std::size_t addrs = 0x3dbc04c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1501,7 +1484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::SortedList::set_Item)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3d5bf28;
+  constexpr static std::size_t addrs = 0x3dbc09c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1515,7 +1498,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList::*)(::System::Object*)>(&::System::Collections::SortedList::IndexOfKey)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d5c048;
+  constexpr static std::size_t addrs = 0x3dbc1bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1530,7 +1513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::SortedList::*)(::System::Object*)>(
     &::System::Collections::SortedList::IndexOfValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d5c0e4;
+  constexpr static std::size_t addrs = 0x3dbc258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1545,7 +1528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(int32_t, ::System::Object*, ::System::Object*)>(
     &::System::Collections::SortedList::Insert)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3d5b318;
+  constexpr static std::size_t addrs = 0x3dbb48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1560,7 +1543,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(int32_t)>(&::System::Collections::SortedList::RemoveAt)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3d5c144;
+  constexpr static std::size_t addrs = 0x3dbc2b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1574,7 +1557,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::SortedList::*)(::System::Object*)>(&::System::Collections::SortedList::Remove)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3d5c27c;
+  constexpr static std::size_t addrs = 0x3dbc3f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1589,7 +1572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::SortedList* (*)(::System::Collections::SortedList*)>(
     &::System::Collections::SortedList::Synchronized)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3d5c2bc;
+  constexpr static std::size_t addrs = 0x3dbc430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1598,38 +1581,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IDictionary"
-constexpr System::Collections::SortedList::operator ::System::Collections::IDictionary*() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionary"
-constexpr ::System::Collections::IDictionary* System::Collections::SortedList::i___System__Collections__IDictionary() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Collections::SortedList::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Collections::SortedList::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::SortedList::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::SortedList::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::ICloneable"
-constexpr System::Collections::SortedList::operator ::System::ICloneable*() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* System::Collections::SortedList::i___System__ICloneable() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Collections::SortedList::__cordl_internal_get_keys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
@@ -1682,7 +1633,7 @@ constexpr ::System::Collections::IComparer*& System::Collections::SortedList::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& System::Collections::SortedList::__cordl_internal_get_comparer() const {
+constexpr ::System::Collections::IComparer* const& System::Collections::SortedList::__cordl_internal_get_comparer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
@@ -1690,27 +1641,27 @@ constexpr void System::Collections::SortedList::__cordl_internal_set_comparer(::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::__SortedList__KeyList*& System::Collections::SortedList::__cordl_internal_get_keyList() {
+constexpr ::System::Collections::SortedList_KeyList*& System::Collections::SortedList::__cordl_internal_get_keyList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::__SortedList__KeyList*> const& System::Collections::SortedList::__cordl_internal_get_keyList() const {
+constexpr ::System::Collections::SortedList_KeyList* const& System::Collections::SortedList::__cordl_internal_get_keyList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyList;
 }
-constexpr void System::Collections::SortedList::__cordl_internal_set_keyList(::System::Collections::__SortedList__KeyList* value) {
+constexpr void System::Collections::SortedList::__cordl_internal_set_keyList(::System::Collections::SortedList_KeyList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::__SortedList__ValueList*& System::Collections::SortedList::__cordl_internal_get_valueList() {
+constexpr ::System::Collections::SortedList_ValueList*& System::Collections::SortedList::__cordl_internal_get_valueList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::__SortedList__ValueList*> const& System::Collections::SortedList::__cordl_internal_get_valueList() const {
+constexpr ::System::Collections::SortedList_ValueList* const& System::Collections::SortedList::__cordl_internal_get_valueList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueList;
 }
-constexpr void System::Collections::SortedList::__cordl_internal_set_valueList(::System::Collections::__SortedList__ValueList* value) {
+constexpr void System::Collections::SortedList::__cordl_internal_set_valueList(::System::Collections::SortedList_ValueList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___valueList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1718,16 +1669,13 @@ constexpr ::System::Object*& System::Collections::SortedList::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::SortedList::__cordl_internal_get__syncRoot() const {
+constexpr ::System::Object* const& System::Collections::SortedList::__cordl_internal_get__syncRoot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
 constexpr void System::Collections::SortedList::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Collections::SortedList* System::Collections::SortedList::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList*>());
 }
 inline void System::Collections::SortedList::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList*>::get(), ".ctor",
@@ -1739,17 +1687,11 @@ inline void System::Collections::SortedList::Init() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::SortedList* System::Collections::SortedList::New_ctor(int32_t initialCapacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList*>(initialCapacity));
-}
 inline void System::Collections::SortedList::_ctor(int32_t initialCapacity) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initialCapacity);
-}
-inline ::System::Collections::SortedList* System::Collections::SortedList::New_ctor(::System::Collections::IComparer* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList*>(comparer));
 }
 inline void System::Collections::SortedList::_ctor(::System::Collections::IComparer* comparer) {
   static auto* ___internal_method =
@@ -1911,6 +1853,47 @@ inline ::System::Collections::SortedList* System::Collections::SortedList::Synch
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::SortedList*>::get(), "Synchronized", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::SortedList*, false>(nullptr, ___internal_method, list);
+}
+inline ::System::Collections::SortedList* System::Collections::SortedList::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList*>());
+}
+inline ::System::Collections::SortedList* System::Collections::SortedList::New_ctor(int32_t initialCapacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList*>(initialCapacity));
+}
+inline ::System::Collections::SortedList* System::Collections::SortedList::New_ctor(::System::Collections::IComparer* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::SortedList*>(comparer));
+}
+/// @brief Convert operator to "::System::Collections::IDictionary"
+constexpr System::Collections::SortedList::operator ::System::Collections::IDictionary*() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionary"
+constexpr ::System::Collections::IDictionary* System::Collections::SortedList::i___System__Collections__IDictionary() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Collections::SortedList::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Collections::SortedList::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Collections::SortedList::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Collections::SortedList::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::ICloneable"
+constexpr System::Collections::SortedList::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* System::Collections::SortedList::i___System__ICloneable() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Collections::SortedList::SortedList() {}

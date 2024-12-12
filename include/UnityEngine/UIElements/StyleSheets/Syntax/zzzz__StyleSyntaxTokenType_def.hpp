@@ -12,11 +12,10 @@ struct StyleSyntaxTokenType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType);
-// Type: UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxTokenType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxTokenType
+// CS Name: UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType
 struct CORDL_TYPE StyleSyntaxTokenType {
 public:
   // Declarations
@@ -64,84 +63,84 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StyleSyntaxTokenType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Asterisk value: static_cast<int32_t>(0x9)
+  /// @brief Field Asterisk value: I32(9)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Asterisk;
 
-  /// @brief Field CloseBrace value: static_cast<int32_t>(0x11)
+  /// @brief Field CloseBrace value: I32(17)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const CloseBrace;
 
-  /// @brief Field CloseBracket value: static_cast<int32_t>(0xf)
+  /// @brief Field CloseBracket value: I32(15)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const CloseBracket;
 
-  /// @brief Field Comma value: static_cast<int32_t>(0x7)
+  /// @brief Field Comma value: I32(7)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Comma;
 
-  /// @brief Field DoubleAmpersand value: static_cast<int32_t>(0x6)
+  /// @brief Field DoubleAmpersand value: I32(6)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const DoubleAmpersand;
 
-  /// @brief Field DoubleBar value: static_cast<int32_t>(0x5)
+  /// @brief Field DoubleBar value: I32(5)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const DoubleBar;
 
-  /// @brief Field End value: static_cast<int32_t>(0x14)
+  /// @brief Field End value: I32(20)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const End;
 
-  /// @brief Field ExclamationPoint value: static_cast<int32_t>(0xd)
+  /// @brief Field ExclamationPoint value: I32(13)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const ExclamationPoint;
 
-  /// @brief Field GreaterThan value: static_cast<int32_t>(0x13)
+  /// @brief Field GreaterThan value: I32(19)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const GreaterThan;
 
-  /// @brief Field HashMark value: static_cast<int32_t>(0xc)
+  /// @brief Field HashMark value: I32(12)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const HashMark;
 
-  /// @brief Field LessThan value: static_cast<int32_t>(0x12)
+  /// @brief Field LessThan value: I32(18)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const LessThan;
 
-  /// @brief Field Number value: static_cast<int32_t>(0x2)
+  /// @brief Field Number value: I32(2)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Number;
 
-  /// @brief Field OpenBrace value: static_cast<int32_t>(0x10)
+  /// @brief Field OpenBrace value: I32(16)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const OpenBrace;
 
-  /// @brief Field OpenBracket value: static_cast<int32_t>(0xe)
+  /// @brief Field OpenBracket value: I32(14)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const OpenBracket;
 
-  /// @brief Field Plus value: static_cast<int32_t>(0xa)
+  /// @brief Field Plus value: I32(10)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Plus;
 
-  /// @brief Field QuestionMark value: static_cast<int32_t>(0xb)
+  /// @brief Field QuestionMark value: I32(11)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const QuestionMark;
 
-  /// @brief Field SingleBar value: static_cast<int32_t>(0x4)
+  /// @brief Field SingleBar value: I32(4)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const SingleBar;
 
-  /// @brief Field SingleQuote value: static_cast<int32_t>(0x8)
+  /// @brief Field SingleQuote value: I32(8)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const SingleQuote;
 
-  /// @brief Field Space value: static_cast<int32_t>(0x3)
+  /// @brief Field Space value: I32(3)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Space;
 
-  /// @brief Field String value: static_cast<int32_t>(0x1)
+  /// @brief Field String value: I32(1)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const String;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  /// @brief Field Unknown value: I32(0)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6474 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxTokenType");

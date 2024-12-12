@@ -16,26 +16,21 @@ class ITrackingHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Services::ITrackingHandler);
-// Type: System.Runtime.Remoting.Services::ITrackingHandler
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Services::ITrackingHandler*
+// CS Name: System.Runtime.Remoting.Services.ITrackingHandler
 class CORDL_TYPE ITrackingHandler {
 public:
   // Declarations
-  /// @brief Method DisconnectedObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method DisconnectedObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DisconnectedObject(::System::Object* obj);
 
-  /// @brief Method MarshaledObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method MarshaledObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void MarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method UnmarshaledObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnmarshaledObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ITrackingHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ITrackingHandler(ITrackingHandler&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITrackingHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

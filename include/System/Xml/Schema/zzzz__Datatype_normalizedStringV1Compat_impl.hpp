@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_normalizedStringV1Compat::*)()>(
     &::System::Xml::Schema::Datatype_normalizedStringV1Compat::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434aa5c;
+  constexpr static std::size_t addrs = 0x43abd70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_normalizedStringV1Compat::*)()>(
     &::System::Xml::Schema::Datatype_normalizedStringV1Compat::get_HasValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434aa64;
+  constexpr static std::size_t addrs = 0x43abd78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_normalizedStringV1Compat::*)()>(
     &::System::Xml::Schema::Datatype_normalizedStringV1Compat::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4343444;
+  constexpr static std::size_t addrs = 0x43a4758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedStringV1Compat*>::get(),
@@ -61,13 +61,13 @@ inline bool System::Xml::Schema::Datatype_normalizedStringV1Compat::get_HasValue
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedStringV1Compat*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::Datatype_normalizedStringV1Compat* System::Xml::Schema::Datatype_normalizedStringV1Compat::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_normalizedStringV1Compat*>());
-}
 inline void System::Xml::Schema::Datatype_normalizedStringV1Compat::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedStringV1Compat*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_normalizedStringV1Compat* System::Xml::Schema::Datatype_normalizedStringV1Compat::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_normalizedStringV1Compat*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_normalizedStringV1Compat::Datatype_normalizedStringV1Compat() {}

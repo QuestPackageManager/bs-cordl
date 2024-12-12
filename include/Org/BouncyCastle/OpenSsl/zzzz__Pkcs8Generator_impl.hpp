@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/OpenSsl/Pkcs8Generator.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__Pkcs8Generator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::OpenSsl::Pkcs8Generator._ctor
 template <>
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x251ee5c;
+  constexpr static std::size_t addrs = 0x2552148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::StringW)>(&::Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x251ee84;
+  constexpr static std::size_t addrs = 0x2552170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::set_SecureRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x251eebc;
+  constexpr static std::size_t addrs = 0x25521a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::set_Password)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x251eec4;
+  constexpr static std::size_t addrs = 0x25521b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)(int32_t)>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::set_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x251eecc;
+  constexpr static std::size_t addrs = 0x25521b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::OpenSsl::Pkcs8Generator::*)()>(
     &::Org::BouncyCastle::OpenSsl::Pkcs8Generator::Generate)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x251eed4;
+  constexpr static std::size_t addrs = 0x25521c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>::get(), "Generate",
@@ -96,14 +96,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
-constexpr Org::BouncyCastle::OpenSsl::Pkcs8Generator::operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept {
-  return static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
-constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* Org::BouncyCastle::OpenSsl::Pkcs8Generator::i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept {
-  return static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__cordl_internal_get_password() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
@@ -144,7 +136,7 @@ constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__cordl_internal_get_privKey() const {
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__cordl_internal_get_privKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privKey;
 }
@@ -156,7 +148,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::OpenS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -206,17 +198,11 @@ inline void Org::BouncyCastle::OpenSsl::Pkcs8Generator::setStaticF_PbeSha1_RC2_4
 inline ::StringW Org::BouncyCastle::OpenSsl::Pkcs8Generator::getStaticF_PbeSha1_RC2_40() {
   return ::cordl_internals::getStaticField<::StringW, "PbeSha1_RC2_40", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>::get>();
 }
-inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* Org::BouncyCastle::OpenSsl::Pkcs8Generator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>(privKey));
-}
 inline void Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, privKey);
-}
-inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* Org::BouncyCastle::OpenSsl::Pkcs8Generator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>(privKey, algorithm));
 }
 inline void Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -247,6 +233,20 @@ inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Org::BouncyCastle::Op
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>::get(), "Generate",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Utilities::IO::Pem::PemObject*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* Org::BouncyCastle::OpenSsl::Pkcs8Generator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>(privKey));
+}
+inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* Org::BouncyCastle::OpenSsl::Pkcs8Generator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::OpenSsl::Pkcs8Generator*>(privKey, algorithm));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
+constexpr Org::BouncyCastle::OpenSsl::Pkcs8Generator::operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept {
+  return static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
+constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* Org::BouncyCastle::OpenSsl::Pkcs8Generator::i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept {
+  return static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::Pkcs8Generator::Pkcs8Generator() {}

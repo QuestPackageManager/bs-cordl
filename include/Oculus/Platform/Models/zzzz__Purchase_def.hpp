@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(Purchase)
 namespace System {
 struct IntPtr;
@@ -17,11 +16,10 @@ class Purchase;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Purchase);
-// Type: Oculus.Platform.Models::Purchase
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::Purchase*
+// CS Name: Oculus.Platform.Models.Purchase
 class CORDL_TYPE Purchase : public ::System::Object {
 public:
   // Declarations
@@ -81,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f31eb4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f91f60, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -97,6 +95,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Purchase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Purchase(Purchase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15557 };
 
   /// @brief Field DeveloperPayload, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DeveloperPayload;
@@ -116,14 +117,9 @@ public:
   /// @brief Field Sku, offset: 0x38, size: 0x8, def value: None
   ::StringW ___Sku;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15522 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Purchase, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___DeveloperPayload) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___ExpirationTime) == 0x18, "Offset mismatch!");
@@ -135,6 +131,8 @@ static_assert(offsetof(::Oculus::Platform::Models::Purchase, ____cordl_ID) == 0x
 static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___ReportingId) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___Sku) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Purchase, 0x40>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Purchase);

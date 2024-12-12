@@ -18,23 +18,22 @@ class AndroidPlatform;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::AndroidPlatform);
-// Type: Oculus.Platform::AndroidPlatform
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::AndroidPlatform*
+// CS Name: Oculus.Platform.AndroidPlatform
 class CORDL_TYPE AndroidPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsyncInitialize, addr 0x3efa224, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x3f5a2d0, size 0xfc, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method Initialize, addr 0x3efa0e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3f5a18c, size 0xac, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
   static inline ::Oculus::Platform::AndroidPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3efa3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5a460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +51,7 @@ public:
   AndroidPlatform(AndroidPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

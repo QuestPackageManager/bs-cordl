@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_ServerProviders)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c6cc14;
+  constexpr static std::size_t addrs = 0x3cccd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_ClientProviders)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c6cc78;
+  constexpr static std::size_t addrs = 0x3cccdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_CustomProperties)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c6ccdc;
+  constexpr static std::size_t addrs = 0x3ccce50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ChannelData::*)(::System::Runtime::Remoting::ChannelData*)>(
     &::System::Runtime::Remoting::ChannelData::CopyFrom)> {
   constexpr static std::size_t size = 0x938;
-  constexpr static std::size_t addrs = 0x3c6cd40;
+  constexpr static std::size_t addrs = 0x3ccceb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ChannelData::*)()>(&::System::Runtime::Remoting::ChannelData::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c6ddd8;
+  constexpr static std::size_t addrs = 0x3ccdf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(), ".ctor",
@@ -126,7 +126,7 @@ constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::ChannelD
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverProviders;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::ChannelData::__cordl_internal_get__serverProviders() const {
+constexpr ::System::Collections::ArrayList* const& System::Runtime::Remoting::ChannelData::__cordl_internal_get__serverProviders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverProviders;
 }
@@ -138,7 +138,7 @@ constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::ChannelD
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientProviders;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::ChannelData::__cordl_internal_get__clientProviders() const {
+constexpr ::System::Collections::ArrayList* const& System::Runtime::Remoting::ChannelData::__cordl_internal_get__clientProviders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientProviders;
 }
@@ -150,7 +150,7 @@ constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::ChannelD
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customProperties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Runtime::Remoting::ChannelData::__cordl_internal_get__customProperties() const {
+constexpr ::System::Collections::Hashtable* const& System::Runtime::Remoting::ChannelData::__cordl_internal_get__customProperties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customProperties;
 }
@@ -179,13 +179,13 @@ inline void System::Runtime::Remoting::ChannelData::CopyFrom(::System::Runtime::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::ChannelData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
-inline ::System::Runtime::Remoting::ChannelData* System::Runtime::Remoting::ChannelData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ChannelData*>());
-}
 inline void System::Runtime::Remoting::ChannelData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::ChannelData* System::Runtime::Remoting::ChannelData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ChannelData*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ChannelData::ChannelData() {}

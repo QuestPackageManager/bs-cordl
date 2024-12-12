@@ -16,11 +16,10 @@ class LocalVariableInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::LocalVariableInfo);
-// Type: System.Reflection::LocalVariableInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::LocalVariableInfo*
+// CS Name: System.Reflection.LocalVariableInfo
 class CORDL_TYPE LocalVariableInfo : public ::System::Object {
 public:
   // Declarations
@@ -35,7 +34,7 @@ public:
 
   static inline ::System::Reflection::LocalVariableInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x3ccc9d8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d2cb4c, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_is_pinned() const;
@@ -46,9 +45,9 @@ public:
 
   constexpr uint16_t& __cordl_internal_get_position();
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set_is_pinned(bool value);
 
@@ -56,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3ccc9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2cb44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalVariableInfo(LocalVariableInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3519 };
+
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
@@ -82,19 +84,16 @@ public:
   /// @brief Field position, offset: 0x1a, size: 0x2, def value: None
   uint16_t ___position;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3519 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::LocalVariableInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___type) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___is_pinned) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___position) == 0x1a, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::LocalVariableInfo, 0x20>, "Size mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::LocalVariableInfo);

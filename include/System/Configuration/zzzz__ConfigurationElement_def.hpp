@@ -14,26 +14,25 @@ class ConfigurationElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Configuration::ConfigurationElement);
-// Type: System.Configuration::ConfigurationElement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Configuration {
 // Is value type: false
-// CS Name: ::System.Configuration::ConfigurationElement*
+// CS Name: System.Configuration.ConfigurationElement
 class CORDL_TYPE ConfigurationElement : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method IsModified, addr 0x4028acc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x4089de0, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset, addr 0x4028b04, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4089e18, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified, addr 0x4028b3c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x4089e50, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method get_Properties, addr 0x4028a94, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x4089da8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -51,7 +50,7 @@ public:
   ConfigurationElement(ConfigurationElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

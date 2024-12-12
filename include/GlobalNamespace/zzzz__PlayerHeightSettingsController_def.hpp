@@ -30,11 +30,10 @@ class PlayerHeightSettingsController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightSettingsController);
-// Type: ::PlayerHeightSettingsController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerHeightSettingsController*
+// CS Name: PlayerHeightSettingsController
 class CORDL_TYPE PlayerHeightSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -61,31 +60,31 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<float_t>* valueDidChangeEvent;
 
-  /// @brief Method AutoSetHeight, addr 0x3bad24c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AutoSetHeight, addr 0x3c0fc68, size 0x114, virtual false, abstract: false, final false
   inline void AutoSetHeight();
 
-  /// @brief Method Awake, addr 0x3bad0dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c0faf8, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x3bad19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c0fbb8, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightSettingsController* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x3bad1a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3c0fbc0, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__setButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__setButton();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
@@ -95,13 +94,13 @@ public:
 
   constexpr float_t& __cordl_internal_get__value();
 
+  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
 
   constexpr ::System::Action_1<float_t>*& __cordl_internal_get_valueDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_valueDidChangeEvent() const;
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -117,16 +116,16 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3bad360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0fd7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3bacf74, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3c0f990, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_value, addr 0x3bad0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3c0faf0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3bad024, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3c0fa40, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -142,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightSettingsController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerHeightSettingsController(PlayerHeightSettingsController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4864 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
@@ -164,14 +166,9 @@ public:
   /// @brief Field _value, offset: 0x50, size: 0x4, def value: None
   float_t ____value;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4847 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightSettingsController, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____text) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____setButton) == 0x28, "Offset mismatch!");
@@ -185,6 +182,8 @@ static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ___val
 static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____buttonBinder) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____value) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightSettingsController, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerHeightSettingsController);

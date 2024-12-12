@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(AllocCallback)
 namespace System {
 class AsyncCallback;
@@ -24,26 +23,25 @@ class AllocCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::ENet::AllocCallback);
-// Type: ENet::AllocCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace ENet {
 // Is value type: false
-// CS Name: ::ENet::AllocCallback*
+// CS Name: ENet.AllocCallback
 class CORDL_TYPE AllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3a4c354, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3aa2fc4, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3a4c3d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3aa3048, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3a4c340, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3aa2fb0, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::System::IntPtr size);
 
   static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3a4c2b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa2f24, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -61,7 +59,7 @@ public:
   AllocCallback(AllocCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

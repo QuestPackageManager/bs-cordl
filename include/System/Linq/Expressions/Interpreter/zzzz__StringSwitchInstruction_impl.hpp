@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*, ::System::Runtime::CompilerServices::StrongBox_1<int32_t>*)>(
     &::System::Linq::Expressions::Interpreter::StringSwitchInstruction::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x406309c;
+  constexpr static std::size_t addrs = 0x40c43b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::StringSwitchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StringSwitchInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40630c8;
+  constexpr static std::size_t addrs = 0x40c43dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StringSwitchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StringSwitchInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4063108;
+  constexpr static std::size_t addrs = 0x40c441c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StringSwitchInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::StringSwitchInstruction::Run)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4063110;
+  constexpr static std::size_t addrs = 0x40c4424;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,8 +74,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& Sys
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cases;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const&
-System::Linq::Expressions::Interpreter::StringSwitchInstruction::__cordl_internal_get__cases() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& System::Linq::Expressions::Interpreter::StringSwitchInstruction::__cordl_internal_get__cases() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cases;
 }
@@ -87,19 +86,13 @@ constexpr ::System::Runtime::CompilerServices::StrongBox_1<int32_t>*& System::Li
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullCase;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::StrongBox_1<int32_t>*> const&
-System::Linq::Expressions::Interpreter::StringSwitchInstruction::__cordl_internal_get__nullCase() const {
+constexpr ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* const& System::Linq::Expressions::Interpreter::StringSwitchInstruction::__cordl_internal_get__nullCase() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullCase;
 }
 constexpr void System::Linq::Expressions::Interpreter::StringSwitchInstruction::__cordl_internal_set__nullCase(::System::Runtime::CompilerServices::StrongBox_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nullCase)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::Interpreter::StringSwitchInstruction*
-System::Linq::Expressions::Interpreter::StringSwitchInstruction::New_ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases,
-                                                                          ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::StringSwitchInstruction*>(cases, nullCase));
 }
 inline void System::Linq::Expressions::Interpreter::StringSwitchInstruction::_ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases,
                                                                                    ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase) {
@@ -126,6 +119,11 @@ inline int32_t System::Linq::Expressions::Interpreter::StringSwitchInstruction::
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::StringSwitchInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::StringSwitchInstruction*
+System::Linq::Expressions::Interpreter::StringSwitchInstruction::New_ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases,
+                                                                          ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::StringSwitchInstruction*>(cases, nullCase));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::StringSwitchInstruction::StringSwitchInstruction() {}

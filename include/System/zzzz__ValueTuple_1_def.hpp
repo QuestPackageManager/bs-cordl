@@ -3,6 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -13,27 +20,6 @@ class IComparer;
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class IValueTupleInternal;
-}
 namespace System {
 class Object;
 }
@@ -43,13 +29,13 @@ template <typename T1> struct ValueTuple_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::ValueTuple_1);
-// Type: System::ValueTuple`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.IComparable, System.IComparable`1<T>, System.IEquatable`1<T>, System.IValueTupleInternal,
+// System.Runtime.CompilerServices.ITuple
 namespace System {
 // cpp template
 template <typename T1>
 // Is value type: true
-// CS Name: ::System::ValueTuple`1<T1>
+// CS Name: System.ValueTuple`1<T1>
 struct CORDL_TYPE ValueTuple_1 {
 public:
   // Declarations
@@ -143,14 +129,14 @@ public:
   // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }]
   constexpr ValueTuple_1(T1 Item1) noexcept;
 
-  /// @brief Field Item1, offset: 0x0, size: 0x8, def value: None
-  T1 Item1;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2505 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
+  /// @brief Field Item1, offset: 0x0, size: 0x8, def value: None
+  T1 Item1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

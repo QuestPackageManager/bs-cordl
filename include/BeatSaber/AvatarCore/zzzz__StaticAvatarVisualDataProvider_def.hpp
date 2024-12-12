@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BeatSaber/AvatarCore/zzzz__IAvatarVisualDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StaticAvatarVisualDataProvider)
-namespace BeatSaber::AvatarCore {
-class IAvatarVisualDataProvider;
-}
 namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
 }
@@ -18,11 +16,10 @@ class StaticAvatarVisualDataProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider);
-// Type: BeatSaber.AvatarCore::StaticAvatarVisualDataProvider
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.AvatarCore.IAvatarVisualDataProvider, MultiplayerAvatarsData, System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::StaticAvatarVisualDataProvider*
+// CS Name: BeatSaber.AvatarCore.StaticAvatarVisualDataProvider
 class CORDL_TYPE StaticAvatarVisualDataProvider : public ::System::Object {
 public:
   // Declarations
@@ -42,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__avatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0x2224998, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224ff0c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
 
-  /// @brief Method get_avatarsData, addr 0x2224984, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0x224fef8, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
@@ -65,18 +62,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StaticAvatarVisualDataProvider(StaticAvatarVisualDataProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17590 };
+
   /// @brief Field _avatarsData, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____avatarsData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider, ____avatarsData) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider, 0x28>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider);

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DelegateHelpers)
 namespace System {
@@ -34,40 +33,39 @@ class DelegateHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::DelegateHelpers);
-// Type: UnityEngine.InputSystem.Utilities::DelegateHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::DelegateHelpers*
+// CS Name: UnityEngine.InputSystem.Utilities.DelegateHelpers
 class CORDL_TYPE DelegateHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeCallbacksSafe, addr 0x45056b0, size 0x2bc, virtual false, abstract: false, final false
-  static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::StringW callbackName, ::System::Object* context);
+  /// @brief Method InvokeCallbacksSafe, addr 0x45669c4, size 0x2bc, virtual false, abstract: false, final false
+  static inline void InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
-  static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<TValue>*>> callbacks, TValue argument, ::StringW callbackName,
+  static inline void InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<TValue>*>> callbacks, TValue argument, ::StringW callbackName,
                                          ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue1, typename TValue2>
-  static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1, TValue2>*>> callbacks, TValue1 argument1, TValue2 argument2,
+  static inline void InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1, TValue2>*>> callbacks, TValue1 argument1, TValue2 argument2,
                                          ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe_AndInvokeReturnedActions, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
-  static inline void InvokeCallbacksSafe_AndInvokeReturnedActions(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, ::System::Action*>*>> callbacks,
+  static inline void InvokeCallbacksSafe_AndInvokeReturnedActions(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, ::System::Action*>*>> callbacks,
                                                                   TValue argument, ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe_AnyCallbackReturnsObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue, typename TReturn>
-  static inline bool InvokeCallbacksSafe_AnyCallbackReturnsObject(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, TReturn>*>> callbacks, TValue argument,
+  static inline bool InvokeCallbacksSafe_AnyCallbackReturnsObject(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, TReturn>*>> callbacks, TValue argument,
                                                                   ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe_AnyCallbackReturnsTrue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue1, typename TValue2>
-  static inline bool InvokeCallbacksSafe_AnyCallbackReturnsTrue(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<TValue1, TValue2, bool>*>> callbacks, TValue1 argument1,
+  static inline bool InvokeCallbacksSafe_AnyCallbackReturnsTrue(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<TValue1, TValue2, bool>*>> callbacks, TValue1 argument1,
                                                                 TValue2 argument2, ::StringW callbackName, ::System::Object* context);
 
 protected:
@@ -85,7 +83,7 @@ public:
   DelegateHelpers(DelegateHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

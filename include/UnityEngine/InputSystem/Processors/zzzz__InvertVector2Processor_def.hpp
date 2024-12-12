@@ -19,11 +19,10 @@ class InvertVector2Processor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertVector2Processor);
-// Type: UnityEngine.InputSystem.Processors::InvertVector2Processor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>, UnityEngine.Vector2
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Processors::InvertVector2Processor*
+// CS Name: UnityEngine.InputSystem.Processors.InvertVector2Processor
 class CORDL_TYPE InvertVector2Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -35,10 +34,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::InvertVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x45b6110, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4617424, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45b6134, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4617448, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_invertX() const;
@@ -53,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_invertY(bool value);
 
-  /// @brief Method .ctor, addr 0x45b61d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46174e8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvertVector2Processor(InvertVector2Processor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6990 };
+
   /// @brief Field invertX, offset: 0x10, size: 0x1, def value: None
   bool ___invertX;
 
   /// @brief Field invertY, offset: 0x11, size: 0x1, def value: None
   bool ___invertY;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6965 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::InvertVector2Processor, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Processors::InvertVector2Processor, ___invertX) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::Processors::InvertVector2Processor, ___invertY) == 0x11, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::InvertVector2Processor, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::InvertVector2Processor);

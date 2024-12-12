@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomainSetup::*)()>(&::System::AppDomainSetup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dd1204;
+  constexpr static std::size_t addrs = 0x3e312b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomainSetup*>::get(), ".ctor",
@@ -200,7 +200,7 @@ constexpr ::System::Object*& System::AppDomainSetup::__cordl_internal_get__activ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activationArguments;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomainSetup::__cordl_internal_get__activationArguments() const {
+constexpr ::System::Object* const& System::AppDomainSetup::__cordl_internal_get__activationArguments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activationArguments;
 }
@@ -212,7 +212,7 @@ constexpr ::System::Object*& System::AppDomainSetup::__cordl_internal_get_domain
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___domain_initializer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomainSetup::__cordl_internal_get_domain_initializer() const {
+constexpr ::System::Object* const& System::AppDomainSetup::__cordl_internal_get_domain_initializer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___domain_initializer;
 }
@@ -224,7 +224,7 @@ constexpr ::System::Object*& System::AppDomainSetup::__cordl_internal_get_applic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___application_trust;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomainSetup::__cordl_internal_get_application_trust() const {
+constexpr ::System::Object* const& System::AppDomainSetup::__cordl_internal_get_application_trust() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___application_trust;
 }
@@ -329,13 +329,13 @@ constexpr void System::AppDomainSetup::__cordl_internal_set__TargetFrameworkName
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TargetFrameworkName_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::AppDomainSetup* System::AppDomainSetup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AppDomainSetup*>());
-}
 inline void System::AppDomainSetup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomainSetup*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::AppDomainSetup* System::AppDomainSetup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AppDomainSetup*>());
 }
 // Ctor Parameters []
 constexpr ::System::AppDomainSetup::AppDomainSetup() {}

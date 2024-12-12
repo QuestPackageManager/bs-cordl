@@ -12,11 +12,10 @@ class DisplayStringFormatAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute);
-// Type: UnityEngine.InputSystem.Utilities::DisplayStringFormatAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::DisplayStringFormatAttribute*
+// CS Name: UnityEngine.InputSystem.Utilities.DisplayStringFormatAttribute
 class CORDL_TYPE DisplayStringFormatAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__formatString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x450597c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4566c90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatString);
 
-  /// @brief Method get_formatString, addr 0x450596c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_formatString, addr 0x4566c80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
-  /// @brief Method set_formatString, addr 0x4505974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_formatString, addr 0x4566c88, size 0x8, virtual false, abstract: false, final false
   inline void set_formatString(::StringW value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisplayStringFormatAttribute(DisplayStringFormatAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7070 };
+
   /// @brief Field <formatString>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____formatString_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7045 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute, ____formatString_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute);

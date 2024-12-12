@@ -3,31 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IProducerConsumerCollection_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 // Forward declare root types
 namespace System::Collections::Concurrent {
 template <typename T> class IProducerConsumerCollection_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::IProducerConsumerCollection_1);
-// Type: System.Collections.Concurrent::IProducerConsumerCollection`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.ICollection, System.Collections.IEnumerable
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Concurrent::IProducerConsumerCollection`1<T>*
+// CS Name: System.Collections.Concurrent.IProducerConsumerCollection`1<T>
 class CORDL_TYPE IProducerConsumerCollection_1 {
 public:
   // Declarations
@@ -40,14 +31,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ToArray, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
-  /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method TryAdd, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryAdd(T item);
 
-  /// @brief Method TryTake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryTake(ByRef<T> item);
+  /// @brief Method TryTake, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool TryTake(::ByRef<T> item);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
@@ -57,10 +48,6 @@ public:
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IProducerConsumerCollection_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IProducerConsumerCollection_1(IProducerConsumerCollection_1&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IProducerConsumerCollection_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

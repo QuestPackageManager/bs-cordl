@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::MessageEventArgs::*)()>(
     &::UnityEngine::Networking::PlayerConnection::MessageEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x485e2e8;
+  constexpr static std::size_t addrs = 0x48bf660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,14 +41,14 @@ constexpr void UnityEngine::Networking::PlayerConnection::MessageEventArgs::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* UnityEngine::Networking::PlayerConnection::MessageEventArgs::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>());
-}
 inline void UnityEngine::Networking::PlayerConnection::MessageEventArgs::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* UnityEngine::Networking::PlayerConnection::MessageEventArgs::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::PlayerConnection::MessageEventArgs::MessageEventArgs() {}

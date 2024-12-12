@@ -12,11 +12,10 @@ struct TextureDimension;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::TextureDimension);
-// Type: UnityEngine.Rendering::TextureDimension
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::TextureDimension
+// CS Name: UnityEngine.Rendering.TextureDimension
 struct CORDL_TYPE TextureDimension {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextureDimension(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Any value: static_cast<int32_t>(0x1)
+  /// @brief Field Any value: I32(1)
   static ::UnityEngine::Rendering::TextureDimension const Any;
 
-  /// @brief Field Cube value: static_cast<int32_t>(0x4)
+  /// @brief Field Cube value: I32(4)
   static ::UnityEngine::Rendering::TextureDimension const Cube;
 
-  /// @brief Field CubeArray value: static_cast<int32_t>(0x6)
+  /// @brief Field CubeArray value: I32(6)
   static ::UnityEngine::Rendering::TextureDimension const CubeArray;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::Rendering::TextureDimension const None;
 
-  /// @brief Field Tex2D value: static_cast<int32_t>(0x2)
+  /// @brief Field Tex2D value: I32(2)
   static ::UnityEngine::Rendering::TextureDimension const Tex2D;
 
-  /// @brief Field Tex2DArray value: static_cast<int32_t>(0x5)
+  /// @brief Field Tex2DArray value: I32(5)
   static ::UnityEngine::Rendering::TextureDimension const Tex2DArray;
 
-  /// @brief Field Tex3D value: static_cast<int32_t>(0x3)
+  /// @brief Field Tex3D value: I32(3)
   static ::UnityEngine::Rendering::TextureDimension const Tex3D;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field Unknown value: I32(-1)
   static ::UnityEngine::Rendering::TextureDimension const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11205 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::TextureDimension, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::TextureDimension, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::TextureDimension, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::TextureDimension, "UnityEngine.Rendering", "TextureDimension");

@@ -20,11 +20,11 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingSettings::*)(
     ::StringW, ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*, bool, bool,
-    ::GlobalNamespace::__ObjectsMovementRecorder__Mode, ::StringW, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView, bool, bool, int32_t, int32_t, int32_t,
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>, bool, float_t, float_t, bool,
+    ::GlobalNamespace::ObjectsMovementRecorder_Mode, ::StringW, ::GlobalNamespace::ObjectsMovementRecorder_CameraView, bool, bool, int32_t, int32_t, int32_t,
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>, bool, float_t, float_t, bool,
     ::System::Nullable_1<::GlobalNamespace::EnvironmentType>, ::GlobalNamespace::EnvironmentInfoSO*, bool)>(&::GlobalNamespace::RecordingSettings::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3ac9a24;
+  constexpr static std::size_t addrs = 0x3b29700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,16 +36,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__Mode>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_Mode>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__CameraView>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_CameraView>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                 ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>>::get(),
+                                                 ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::RecordingSettings::*)()>(&::GlobalNamespace::RecordingSettings::ToString)> {
   constexpr static std::size_t size = 0xa6c;
-  constexpr static std::size_t addrs = 0x3acaf5c;
+  constexpr static std::size_t addrs = 0x3b2a5a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ constexpr ::GlobalNamespace::BeatmapLevelPack*& GlobalNamespace::RecordingSettin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pack;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& GlobalNamespace::RecordingSettings::__cordl_internal_get_pack() const {
+constexpr ::GlobalNamespace::BeatmapLevelPack* const& GlobalNamespace::RecordingSettings::__cordl_internal_get_pack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pack;
 }
@@ -98,7 +98,7 @@ constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::RecordingSettings::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::RecordingSettings::__cordl_internal_get_level() const {
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::RecordingSettings::__cordl_internal_get_level() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
@@ -154,15 +154,15 @@ constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_recordPe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordPerformance = value;
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& GlobalNamespace::RecordingSettings::__cordl_internal_get_recordingMode() {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode& GlobalNamespace::RecordingSettings::__cordl_internal_get_recordingMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingMode;
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& GlobalNamespace::RecordingSettings::__cordl_internal_get_recordingMode() const {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode const& GlobalNamespace::RecordingSettings::__cordl_internal_get_recordingMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingMode;
 }
-constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_recordingMode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value) {
+constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_recordingMode(::GlobalNamespace::ObjectsMovementRecorder_Mode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordingMode = value;
 }
@@ -178,15 +178,15 @@ constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_recordin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recordingPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& GlobalNamespace::RecordingSettings::__cordl_internal_get_cameraView() {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView& GlobalNamespace::RecordingSettings::__cordl_internal_get_cameraView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraView;
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& GlobalNamespace::RecordingSettings::__cordl_internal_get_cameraView() const {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView const& GlobalNamespace::RecordingSettings::__cordl_internal_get_cameraView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraView;
 }
-constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value) {
+constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_cameraView(::GlobalNamespace::ObjectsMovementRecorder_CameraView value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cameraView = value;
 }
@@ -250,18 +250,18 @@ constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_framerat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___framerate = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>&
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>&
 GlobalNamespace::RecordingSettings::__cordl_internal_get_playbackScreenshots() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackScreenshots;
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> const&
 GlobalNamespace::RecordingSettings::__cordl_internal_get_playbackScreenshots() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackScreenshots;
 }
 constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_playbackScreenshots(
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value) {
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playbackScreenshots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -349,24 +349,14 @@ constexpr void GlobalNamespace::RecordingSettings::__cordl_internal_set_saveToOl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___saveToOldFormat = value;
 }
-inline ::GlobalNamespace::RecordingSettings* GlobalNamespace::RecordingSettings::New_ctor(
-    ::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
-    ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode, ::StringW recordingPath,
-    ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight,
-    int32_t framerate, ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool practice,
-    float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType,
-    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingSettings*>(
-      gameMode, pack, level, difficulty, characteristic, runLevel, recordPerformance, recordingMode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording, screenshotWidth,
-      screenshotHeight, framerate, playbackScreenshots, practice, startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentInfo, saveToOldFormat));
-}
-inline void GlobalNamespace::RecordingSettings::_ctor(
-    ::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
-    ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode, ::StringW recordingPath,
-    ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight,
-    int32_t framerate, ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool practice,
-    float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType,
-    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat) {
+inline void
+GlobalNamespace::RecordingSettings::_ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
+                                          ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance,
+                                          ::GlobalNamespace::ObjectsMovementRecorder_Mode recordingMode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView,
+                                          bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
+                                          ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> playbackScreenshots,
+                                          bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments,
+                                          ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingSettings*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 23>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -376,16 +366,16 @@ inline void GlobalNamespace::RecordingSettings::_ctor(
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__Mode>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_Mode>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__CameraView>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_CameraView>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                               ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>>::get(),
+                                               ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -401,6 +391,18 @@ inline ::StringW GlobalNamespace::RecordingSettings::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingSettings*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::RecordingSettings*
+GlobalNamespace::RecordingSettings::New_ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
+                                             ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance,
+                                             ::GlobalNamespace::ObjectsMovementRecorder_Mode recordingMode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView,
+                                             bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
+                                             ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> playbackScreenshots,
+                                             bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments,
+                                             ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingSettings*>(
+      gameMode, pack, level, difficulty, characteristic, runLevel, recordPerformance, recordingMode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording, screenshotWidth,
+      screenshotHeight, framerate, playbackScreenshots, practice, startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentInfo, saveToOldFormat));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingSettings::RecordingSettings() {}

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Mail::MailAddress::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Net::Mail::MailAddress::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43a1f88;
+  constexpr static std::size_t addrs = 0x440329c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Mail::MailAddress::*)(::StringW)>(&::System::Net::Mail::MailAddress::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43a2880;
+  constexpr static std::size_t addrs = 0x4403b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Mail::MailAddress::*)(::StringW, ::StringW, ::System::Text::Encoding*)>(
     &::System::Net::Mail::MailAddress::_ctor)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x43a288c;
+  constexpr static std::size_t addrs = 0x4403ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Mail::MailAddress::*)()>(&::System::Net::Mail::MailAddress::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43a2ad0;
+  constexpr static std::size_t addrs = 0x4403de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mail::MailAddress*>::get(), "get_DisplayName",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Mail::MailAddress::*)()>(&::System::Net::Mail::MailAddress::get_Address)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43a2ad8;
+  constexpr static std::size_t addrs = 0x4403dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mail::MailAddress*>::get(), "get_Address",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Mail::MailAddress::*)()>(&::System::Net::Mail::MailAddress::get_SmtpAddress)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43a2b24;
+  constexpr static std::size_t addrs = 0x4403e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mail::MailAddress*>::get(), "get_SmtpAddress",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Mail::MailAddress::*)()>(&::System::Net::Mail::MailAddress::ToString)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x43a2b9c;
+  constexpr static std::size_t addrs = 0x4403eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Mail::MailAddress::*)(::System::Object*)>(&::System::Net::Mail::MailAddress::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43a2c40;
+  constexpr static std::size_t addrs = 0x4403f54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Mail::MailAddress::*)()>(&::System::Net::Mail::MailAddress::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43a2ca4;
+  constexpr static std::size_t addrs = 0x4403fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ constexpr ::System::Text::Encoding*& System::Net::Mail::MailAddress::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayNameEncoding;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Net::Mail::MailAddress::__cordl_internal_get__displayNameEncoding() const {
+constexpr ::System::Text::Encoding* const& System::Net::Mail::MailAddress::__cordl_internal_get__displayNameEncoding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayNameEncoding;
 }
@@ -188,9 +188,6 @@ inline ::System::Net::Mime::EncodedStreamFactory* System::Net::Mail::MailAddress
   return ::cordl_internals::getStaticField<::System::Net::Mime::EncodedStreamFactory*, "s_encoderFactory",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mail::MailAddress*>::get>();
 }
-inline ::System::Net::Mail::MailAddress* System::Net::Mail::MailAddress::New_ctor(::StringW displayName, ::StringW userName, ::StringW domain) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Mail::MailAddress*>(displayName, userName, domain));
-}
 inline void System::Net::Mail::MailAddress::_ctor(::StringW displayName, ::StringW userName, ::StringW domain) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mail::MailAddress*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -198,17 +195,11 @@ inline void System::Net::Mail::MailAddress::_ctor(::StringW displayName, ::Strin
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, displayName, userName, domain);
 }
-inline ::System::Net::Mail::MailAddress* System::Net::Mail::MailAddress::New_ctor(::StringW address) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Mail::MailAddress*>(address));
-}
 inline void System::Net::Mail::MailAddress::_ctor(::StringW address) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mail::MailAddress*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, address);
-}
-inline ::System::Net::Mail::MailAddress* System::Net::Mail::MailAddress::New_ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Mail::MailAddress*>(address, displayName, displayNameEncoding));
 }
 inline void System::Net::Mail::MailAddress::_ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,6 +237,15 @@ inline int32_t System::Net::Mail::MailAddress::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mail::MailAddress*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Net::Mail::MailAddress* System::Net::Mail::MailAddress::New_ctor(::StringW displayName, ::StringW userName, ::StringW domain) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Mail::MailAddress*>(displayName, userName, domain));
+}
+inline ::System::Net::Mail::MailAddress* System::Net::Mail::MailAddress::New_ctor(::StringW address) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Mail::MailAddress*>(address));
+}
+inline ::System::Net::Mail::MailAddress* System::Net::Mail::MailAddress::New_ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Mail::MailAddress*>(address, displayName, displayNameEncoding));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::MailAddress::MailAddress() {}

@@ -15,11 +15,10 @@ class PkcsIOException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::PkcsIOException);
-// Type: Org.BouncyCastle.Pkcs::PkcsIOException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkcs::PkcsIOException*
+// CS Name: Org.BouncyCastle.Pkcs.PkcsIOException
 class CORDL_TYPE PkcsIOException : public ::System::IO::IOException {
 public:
   // Declarations
@@ -27,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::PkcsIOException* New_ctor(::StringW message, ::System::Exception* underlying);
 
-  /// @brief Method .ctor, addr 0x252fd5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2563048, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x252f3e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25626d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* underlying);
 
 protected:

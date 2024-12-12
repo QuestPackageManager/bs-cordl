@@ -12,11 +12,10 @@ class NamedPreset;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NamedPreset);
-// Type: ::NamedPreset
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NamedPreset*
+// CS Name: NamedPreset
 class CORDL_TYPE NamedPreset : public ::System::Object {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__presetNameLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x269ee7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3bb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_presetNameLocalizationKey, addr 0x269ef00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presetNameLocalizationKey, addr 0x26d3c34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_presetNameLocalizationKey();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NamedPreset(NamedPreset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13033 };
+
   /// @brief Field _presetNameLocalizationKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ____presetNameLocalizationKey;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12998 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NamedPreset, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NamedPreset, ____presetNameLocalizationKey) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NamedPreset, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NamedPreset);

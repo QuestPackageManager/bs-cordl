@@ -5,14 +5,13 @@
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeartbeatMessage)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class HeartbeatMessage_PayloadBuffer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __HeartbeatMessage__PayloadBuffer;
+class TlsContext;
 }
 namespace System::IO {
 class Stream;
@@ -22,40 +21,39 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class HeartbeatMessage;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __HeartbeatMessage__PayloadBuffer;
+class HeartbeatMessage_PayloadBuffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage);
-MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer);
-// Type: ::PayloadBuffer
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage_PayloadBuffer);
+// Dependencies System.IO.MemoryStream
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::HeartbeatMessage::PayloadBuffer*
-class CORDL_TYPE __HeartbeatMessage__PayloadBuffer : public ::System::IO::MemoryStream {
+// CS Name: Org.BouncyCastle.Crypto.Tls.HeartbeatMessage/PayloadBuffer
+class CORDL_TYPE HeartbeatMessage_PayloadBuffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer* New_ctor();
+  static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage_PayloadBuffer* New_ctor();
 
-  /// @brief Method ToTruncatedByteArray, addr 0x23e1ef4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ToTruncatedByteArray, addr 0x24151e0, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToTruncatedByteArray(int32_t payloadLength);
 
-  /// @brief Method .ctor, addr 0x23e1eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24151d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HeartbeatMessage__PayloadBuffer();
+  constexpr HeartbeatMessage_PayloadBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HeartbeatMessage__PayloadBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeartbeatMessage_PayloadBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HeartbeatMessage__PayloadBuffer(__HeartbeatMessage__PayloadBuffer&&) = delete;
+  HeartbeatMessage_PayloadBuffer(HeartbeatMessage_PayloadBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HeartbeatMessage__PayloadBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeartbeatMessage_PayloadBuffer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HeartbeatMessage__PayloadBuffer(__HeartbeatMessage__PayloadBuffer const&) = delete;
+  HeartbeatMessage_PayloadBuffer(HeartbeatMessage_PayloadBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1248 };
@@ -63,18 +61,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage_PayloadBuffer, 0x50>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
-// Type: Org.BouncyCastle.Crypto.Tls::HeartbeatMessage
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatMessage*
+// CS Name: Org.BouncyCastle.Crypto.Tls.HeartbeatMessage
 class CORDL_TYPE HeartbeatMessage : public ::System::Object {
 public:
   // Declarations
-  using PayloadBuffer = ::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer;
+  using PayloadBuffer = ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage_PayloadBuffer;
 
   /// @brief Field mPaddingLength, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_mPaddingLength, put = __cordl_internal_set_mPaddingLength)) int32_t mPaddingLength;
@@ -85,12 +82,12 @@ public:
   /// @brief Field mType, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mType, put = __cordl_internal_set_mType)) uint8_t mType;
 
-  /// @brief Method Encode, addr 0x23e1b3c, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2414e28, size 0x1fc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* New_ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 
-  /// @brief Method Parse, addr 0x23e1d38, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2415024, size 0x1b4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* Parse(::System::IO::Stream* input);
 
   constexpr int32_t const& __cordl_internal_get_mPaddingLength() const;
@@ -111,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_mType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23e1a04, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414cf0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 
 protected:
@@ -128,6 +125,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeartbeatMessage(HeartbeatMessage const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1249 };
+
   /// @brief Field mType, offset: 0x10, size: 0x1, def value: None
   uint8_t ___mType;
 
@@ -137,22 +137,19 @@ public:
   /// @brief Field mPaddingLength, offset: 0x20, size: 0x4, def value: None
   int32_t ___mPaddingLength;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1249 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage, ___mType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage, ___mPayload) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage, ___mPaddingLength) == 0x20, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage, 0x28>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage*, "Org.BouncyCastle.Crypto.Tls", "HeartbeatMessage");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer*, "Org.BouncyCastle.Crypto.Tls", "HeartbeatMessage/PayloadBuffer");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage_PayloadBuffer);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage_PayloadBuffer*, "Org.BouncyCastle.Crypto.Tls", "HeartbeatMessage/PayloadBuffer");

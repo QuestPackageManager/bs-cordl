@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorWriteMethodParameterAttribute::*)()>(
     &::JetBrains::Annotations::RazorWriteMethodParameterAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c93c;
+  constexpr static std::size_t addrs = 0x4af124c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -17,14 +17,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::JetBrains::Annotations::RazorWriteMethodParameterAttribute* JetBrains::Annotations::RazorWriteMethodParameterAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::RazorWriteMethodParameterAttribute*>());
-}
 inline void JetBrains::Annotations::RazorWriteMethodParameterAttribute::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::RazorWriteMethodParameterAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::JetBrains::Annotations::RazorWriteMethodParameterAttribute* JetBrains::Annotations::RazorWriteMethodParameterAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::RazorWriteMethodParameterAttribute*>());
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorWriteMethodParameterAttribute::RazorWriteMethodParameterAttribute() {}

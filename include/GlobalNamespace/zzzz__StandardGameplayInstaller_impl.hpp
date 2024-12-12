@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardGameplayInstaller::*)()>(
     &::GlobalNamespace::StandardGameplayInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x3b91344;
+  constexpr static std::size_t addrs = 0x3bf312c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardGameplayInstaller::*)()>(&::GlobalNamespace::StandardGameplayInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b91690;
+  constexpr static std::size_t addrs = 0x3bf3478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardGameplayInstaller*>::get(), ".ctor",
@@ -35,8 +35,7 @@ constexpr ::GlobalNamespace::StandardGameplaySceneSetupData*& GlobalNamespace::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardSceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardGameplaySceneSetupData*> const&
-GlobalNamespace::StandardGameplayInstaller::__cordl_internal_get__standardSceneSetupData() const {
+constexpr ::GlobalNamespace::StandardGameplaySceneSetupData* const& GlobalNamespace::StandardGameplayInstaller::__cordl_internal_get__standardSceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardSceneSetupData;
 }
@@ -49,13 +48,13 @@ inline void GlobalNamespace::StandardGameplayInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardGameplayInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::StandardGameplayInstaller* GlobalNamespace::StandardGameplayInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardGameplayInstaller*>());
-}
 inline void GlobalNamespace::StandardGameplayInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardGameplayInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::StandardGameplayInstaller* GlobalNamespace::StandardGameplayInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardGameplayInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardGameplayInstaller::StandardGameplayInstaller() {}

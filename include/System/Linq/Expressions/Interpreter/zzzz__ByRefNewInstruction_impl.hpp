@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Reflection::ConstructorInfo*, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*>)>(
     &::System::Linq::Expressions::Interpreter::ByRefNewInstruction::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x408c9e8;
+  constexpr static std::size_t addrs = 0x40edcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ByRefNewInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ByRefNewInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x408ca28;
+  constexpr static std::size_t addrs = 0x40edd3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ByRefNewInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::ByRefNewInstruction::Run)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x408ca68;
+  constexpr static std::size_t addrs = 0x40edd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,11 +70,6 @@ constexpr void System::Linq::Expressions::Interpreter::ByRefNewInstruction::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____byrefArgs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Linq::Expressions::Interpreter::ByRefNewInstruction* System::Linq::Expressions::Interpreter::ByRefNewInstruction::New_ctor(
-    ::System::Reflection::ConstructorInfo* target, int32_t argumentCount,
-    ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> byrefArgs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ByRefNewInstruction*>(target, argumentCount, byrefArgs));
-}
 inline void System::Linq::Expressions::Interpreter::ByRefNewInstruction::_ctor(
     ::System::Reflection::ConstructorInfo* target, int32_t argumentCount,
     ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> byrefArgs) {
@@ -97,6 +92,11 @@ inline int32_t System::Linq::Expressions::Interpreter::ByRefNewInstruction::Run(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ByRefNewInstruction*>::get(), "Run", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::InterpretedFrame*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::ByRefNewInstruction* System::Linq::Expressions::Interpreter::ByRefNewInstruction::New_ctor(
+    ::System::Reflection::ConstructorInfo* target, int32_t argumentCount,
+    ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> byrefArgs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ByRefNewInstruction*>(target, argumentCount, byrefArgs));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::ByRefNewInstruction::ByRefNewInstruction() {}

@@ -30,11 +30,10 @@ class AvatarSelectionView;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarSelectionView);
-// Type: BeatSaber.AvatarCore::AvatarSelectionView
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::AvatarSelectionView*
+// CS Name: BeatSaber.AvatarCore.AvatarSelectionView
 class CORDL_TYPE AvatarSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -76,39 +75,39 @@ public:
 
   __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  /// @brief Method Activate, addr 0x221f208, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x224a77c, size 0x4, virtual true, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x221f20c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x224a780, size 0x4, virtual true, abstract: false, final false
   inline void Deactivate();
 
   static inline ::BeatSaber::AvatarCore::AvatarSelectionView* New_ctor();
 
-  /// @brief Method SetCreated, addr 0x221f190, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method SetCreated, addr 0x224a704, size 0x78, virtual true, abstract: false, final false
   inline void SetCreated(bool isCreated);
 
-  /// @brief Method SetPreferred, addr 0x221f0e0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method SetPreferred, addr 0x224a654, size 0xb0, virtual true, abstract: false, final false
   inline void SetPreferred(bool isPreferred);
 
-  /// @brief Method Start, addr 0x221efa0, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x224a514, size 0x140, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__20_0, addr 0x221f270, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__20_0, addr 0x224a7e4, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_0();
 
-  /// @brief Method <Start>b__20_1, addr 0x221f28c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__20_1, addr 0x224a800, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_1();
 
-  /// @brief Method <Start>b__20_2, addr 0x221f2a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__20_2, addr 0x224a81c, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_2();
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__backgroundImageView() const;
 
   constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__backgroundImageView();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createButton() const;
 
@@ -138,17 +137,17 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__setAsPreferredButton();
 
+  constexpr ::System::Action* const& __cordl_internal_get_didPressCreateButtonEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_didPressCreateButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressCreateButtonEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressEditButtonEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didPressEditButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressEditButtonEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressPreferredButtonEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didPressPreferredButtonEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressPreferredButtonEvent() const;
 
   constexpr void __cordl_internal_set__backgroundImageView(::UnityW<::HMUI::ImageView> value);
 
@@ -174,28 +173,28 @@ public:
 
   constexpr void __cordl_internal_set_didPressPreferredButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x221f210, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224a784, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressCreateButtonEvent, addr 0x221ed28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressCreateButtonEvent, addr 0x224a29c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressCreateButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressEditButtonEvent, addr 0x221ebf0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressEditButtonEvent, addr 0x224a164, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressEditButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressPreferredButtonEvent, addr 0x221ee60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPreferredButtonEvent, addr 0x224a3d4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressPreferredButtonEvent(::System::Action* value);
 
-  /// @brief Method get_rectTransform, addr 0x221ef98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x224a50c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method remove_didPressCreateButtonEvent, addr 0x221edc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressCreateButtonEvent, addr 0x224a338, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressCreateButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressEditButtonEvent, addr 0x221ec8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressEditButtonEvent, addr 0x224a200, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressEditButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressPreferredButtonEvent, addr 0x221eefc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPreferredButtonEvent, addr 0x224a470, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressPreferredButtonEvent(::System::Action* value);
 
 protected:
@@ -211,6 +210,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSelectionView(AvatarSelectionView const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17557 };
 
   /// @brief Field _createButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createButton;
@@ -248,14 +250,9 @@ public:
   /// @brief Field _buttonBinder, offset: 0x88, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17513 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarSelectionView, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSelectionView, ____createButton) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSelectionView, ____editButton) == 0x28, "Offset mismatch!");
@@ -279,6 +276,8 @@ static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSelectionView, ___didPress
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSelectionView, ___didPressPreferredButtonEvent) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSelectionView, ____buttonBinder) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarSelectionView, 0x90>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarSelectionView);

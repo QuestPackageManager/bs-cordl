@@ -10,22 +10,17 @@ class IServerChannelSinkProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IServerChannelSinkProvider);
-// Type: System.Runtime.Remoting.Channels::IServerChannelSinkProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Channels::IServerChannelSinkProvider*
+// CS Name: System.Runtime.Remoting.Channels.IServerChannelSinkProvider
 class CORDL_TYPE IServerChannelSinkProvider {
 public:
   // Declarations
   __declspec(property(put = set_Next)) ::System::Runtime::Remoting::Channels::IServerChannelSinkProvider* Next;
 
-  /// @brief Method set_Next, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Next, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Next(::System::Runtime::Remoting::Channels::IServerChannelSinkProvider* value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IServerChannelSinkProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IServerChannelSinkProvider(IServerChannelSinkProvider&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IServerChannelSinkProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

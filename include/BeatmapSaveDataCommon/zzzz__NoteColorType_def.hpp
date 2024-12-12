@@ -12,11 +12,10 @@ struct NoteColorType;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataCommon::NoteColorType);
-// Type: BeatmapSaveDataCommon::NoteColorType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatmapSaveDataCommon {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataCommon::NoteColorType
+// CS Name: BeatmapSaveDataCommon.NoteColorType
 struct CORDL_TYPE NoteColorType {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NoteColorType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ColorA value: static_cast<int32_t>(0x0)
+  /// @brief Field ColorA value: I32(0)
   static ::BeatmapSaveDataCommon::NoteColorType const ColorA;
 
-  /// @brief Field ColorB value: static_cast<int32_t>(0x1)
+  /// @brief Field ColorB value: I32(1)
   static ::BeatmapSaveDataCommon::NoteColorType const ColorB;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13452 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::NoteColorType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataCommon::NoteColorType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::NoteColorType, 0x4>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataCommon
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataCommon::NoteColorType, "BeatmapSaveDataCommon", "NoteColorType");

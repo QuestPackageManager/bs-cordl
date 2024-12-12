@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(OVRMeshAttributes)
 namespace UnityEngine {
@@ -27,11 +26,10 @@ struct OVRMeshAttributes;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRMeshAttributes);
-// Type: ::OVRMeshAttributes
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRMeshAttributes
+// CS Name: OVRMeshAttributes
 struct CORDL_TYPE OVRMeshAttributes {
 public:
   // Declarations
@@ -48,6 +46,12 @@ public:
   constexpr OVRMeshAttributes(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals,
                               ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> tangents, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> texcoords,
                               ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors, ::ArrayW<::UnityEngine::BoneWeight, ::Array<::UnityEngine::BoneWeight>*> boneWeights) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7880 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field vertices, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices;
@@ -67,17 +71,9 @@ public:
   /// @brief Field boneWeights, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::BoneWeight, ::Array<::UnityEngine::BoneWeight>*> boneWeights;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7855 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMeshAttributes, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRMeshAttributes, vertices) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRMeshAttributes, normals) == 0x8, "Offset mismatch!");
@@ -89,6 +85,8 @@ static_assert(offsetof(::GlobalNamespace::OVRMeshAttributes, texcoords) == 0x18,
 static_assert(offsetof(::GlobalNamespace::OVRMeshAttributes, colors) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRMeshAttributes, boneWeights) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMeshAttributes, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMeshAttributes, "", "OVRMeshAttributes");

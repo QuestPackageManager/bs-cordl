@@ -4,18 +4,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MemberInfoSerializationHolder)
 namespace System::Reflection {
 struct MemberTypes;
-}
-namespace System::Runtime::Serialization {
-class IObjectReference;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -38,11 +33,10 @@ class MemberInfoSerializationHolder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::MemberInfoSerializationHolder);
-// Type: System.Reflection::MemberInfoSerializationHolder
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Reflection.MemberTypes, System.Runtime.Serialization.IObjectReference, System.Runtime.Serialization.ISerializable
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::MemberInfoSerializationHolder*
+// CS Name: System.Reflection.MemberInfoSerializationHolder
 class CORDL_TYPE MemberInfoSerializationHolder : public ::System::Object {
 public:
   // Declarations
@@ -70,25 +64,25 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3cc932c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d294a0, size 0x58, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x3cc9384, size 0x800, virtual true, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x3d294f8, size 0x800, virtual true, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetSerializationInfo, addr 0x3cc8d04, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x3d28e78, size 0x310, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature, ::StringW signature2,
                                           ::System::Reflection::MemberTypes type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> genericArguments);
 
-  /// @brief Method GetSerializationInfo, addr 0x3cc8cf4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x3d28e68, size 0x10, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature,
                                           ::System::Reflection::MemberTypes type);
 
   static inline ::System::Reflection::MemberInfoSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_m_info();
+  constexpr ::System::Runtime::Serialization::SerializationInfo* const& __cordl_internal_get_m_info() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get_m_info() const;
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_m_info();
 
   constexpr ::StringW const& __cordl_internal_get_m_memberName() const;
 
@@ -98,9 +92,9 @@ public:
 
   constexpr ::System::Reflection::MemberTypes& __cordl_internal_get_m_memberType();
 
-  constexpr ::System::RuntimeType*& __cordl_internal_get_m_reflectedType();
+  constexpr ::System::RuntimeType* const& __cordl_internal_get_m_reflectedType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::RuntimeType*> const& __cordl_internal_get_m_reflectedType() const;
+  constexpr ::System::RuntimeType*& __cordl_internal_get_m_reflectedType();
 
   constexpr ::StringW const& __cordl_internal_get_m_signature() const;
 
@@ -122,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_m_signature2(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cc9014, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d29188, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
@@ -145,6 +139,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberInfoSerializationHolder(MemberInfoSerializationHolder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3512 };
+
   /// @brief Field m_memberName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_memberName;
 
@@ -163,14 +160,9 @@ public:
   /// @brief Field m_info, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::Serialization::SerializationInfo* ___m_info;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3512 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::MemberInfoSerializationHolder, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_memberName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_reflectedType) == 0x18, "Offset mismatch!");
@@ -182,6 +174,8 @@ static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m
 static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_memberType) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_info) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::MemberInfoSerializationHolder, 0x40>, "Size mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::MemberInfoSerializationHolder);

@@ -24,11 +24,10 @@ class SafeSerializationEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SafeSerializationEventArgs);
-// Type: System.Runtime.Serialization::SafeSerializationEventArgs
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs, System.Runtime.Serialization.StreamingContext
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::SafeSerializationEventArgs*
+// CS Name: System.Runtime.Serialization.SafeSerializationEventArgs
 class CORDL_TYPE SafeSerializationEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -42,9 +41,9 @@ public:
 
   static inline ::System::Runtime::Serialization::SafeSerializationEventArgs* New_ctor(::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get_m_serializedStates();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get_m_serializedStates() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get_m_serializedStates() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get_m_serializedStates();
 
   constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_streamingContext() const;
 
@@ -54,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_streamingContext(::System::Runtime::Serialization::StreamingContext value);
 
-  /// @brief Method .ctor, addr 0x3c9a594, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfa708, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_SerializedStates, addr 0x3c9a64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedStates, addr 0x3cfa7c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Object*>* get_SerializedStates();
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeSerializationEventArgs(SafeSerializationEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3225 };
+
   /// @brief Field m_streamingContext, offset: 0x10, size: 0x10, def value: None
   ::System::Runtime::Serialization::StreamingContext ___m_streamingContext;
 
   /// @brief Field m_serializedStates, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Object*>* ___m_serializedStates;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3225 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SafeSerializationEventArgs, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::SafeSerializationEventArgs, ___m_streamingContext) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::SafeSerializationEventArgs, ___m_serializedStates) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SafeSerializationEventArgs, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::SafeSerializationEventArgs);

@@ -18,11 +18,10 @@ class PageControlElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PageControlElement);
-// Type: ::PageControlElement
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PageControlElement*
+// CS Name: PageControlElement
 class CORDL_TYPE PageControlElement : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -42,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::PageControlElement* New_ctor();
 
-  /// @brief Method SetSelected, addr 0x3aa750c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x3b049b0, size 0x60, virtual false, abstract: false, final false
   inline void SetSelected(bool isSelected);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__imageView() const;
@@ -69,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__unselectedColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3aa7678, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b04b1c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rectTransform, addr 0x3aa7670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x3b04b14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PageControlElement(PageControlElement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4995 };
+
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
@@ -101,14 +103,9 @@ public:
   /// @brief Field _unselectedColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ____unselectedColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4975 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PageControlElement, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PageControlElement, ____rectTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PageControlElement, ____imageView) == 0x28, "Offset mismatch!");
@@ -116,6 +113,8 @@ static_assert(offsetof(::GlobalNamespace::PageControlElement, ____imageView) == 
 static_assert(offsetof(::GlobalNamespace::PageControlElement, ____selectedColor) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PageControlElement, ____unselectedColor) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PageControlElement, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PageControlElement);

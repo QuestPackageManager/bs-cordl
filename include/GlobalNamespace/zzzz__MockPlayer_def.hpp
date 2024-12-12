@@ -5,6 +5,8 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -44,9 +46,6 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class INetworkPlayer;
-}
-namespace GlobalNamespace {
 class MockPlayerFiniteStateMachine;
 }
 namespace GlobalNamespace {
@@ -67,11 +66,10 @@ class MockPlayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayer);
-// Type: ::MockPlayer
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, IConnectedPlayer, INetworkPlayer, MultiplayerAvatarsData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockPlayer*
+// CS Name: MockPlayer
 class CORDL_TYPE MockPlayer : public ::System::Object {
 public:
   // Declarations
@@ -222,62 +220,62 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayer"
   constexpr operator ::GlobalNamespace::INetworkPlayer*() noexcept;
 
-  /// @brief Method Block, addr 0x3b64a8c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Block, addr 0x3bc61c8, size 0x38, virtual true, abstract: false, final true
   inline void Block();
 
-  /// @brief Method Connect, addr 0x3b62fcc, size 0x11cc, virtual true, abstract: false, final false
+  /// @brief Method Connect, addr 0x3bc4708, size 0x11cc, virtual true, abstract: false, final false
   inline void Connect(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                       ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                       ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Disconnect, addr 0x3b649bc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x3bc60f8, size 0x28, virtual true, abstract: false, final false
   inline void Disconnect();
 
-  /// @brief Method HasState, addr 0x3b629fc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method HasState, addr 0x3bc4138, size 0x58, virtual true, abstract: false, final true
   inline bool HasState(::StringW state);
 
-  /// @brief Method Invite, addr 0x3b64b00, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Invite, addr 0x3bc623c, size 0x38, virtual true, abstract: false, final true
   inline void Invite();
 
-  /// @brief Method Join, addr 0x3b64b70, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Join, addr 0x3bc62ac, size 0x38, virtual true, abstract: false, final false
   inline void Join();
 
-  /// @brief Method Join, addr 0x3b64b38, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Join, addr 0x3bc6274, size 0x38, virtual true, abstract: false, final false
   inline void Join(::StringW password);
 
-  /// @brief Method Kick, addr 0x3b64ac8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Kick, addr 0x3bc6204, size 0x38, virtual true, abstract: false, final true
   inline void Kick();
 
-  /// @brief Method Leave, addr 0x3b64ac4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Leave, addr 0x3bc6200, size 0x4, virtual true, abstract: false, final true
   inline void Leave();
 
   static inline ::GlobalNamespace::MockPlayer* New_ctor(::GlobalNamespace::MockPlayerSettings* settings, bool isLocalPlayer);
 
-  /// @brief Method RecommendBeatmapLevel, addr 0x3b64cc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RecommendBeatmapLevel, addr 0x3bc6404, size 0x1c, virtual false, abstract: false, final false
   inline void RecommendBeatmapLevel(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::StringW beatmapLevelId);
 
-  /// @brief Method SendInviteResponse, addr 0x3b64a54, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method SendInviteResponse, addr 0x3bc6190, size 0x38, virtual true, abstract: false, final true
   inline void SendInviteResponse(bool accept);
 
-  /// @brief Method SendJoinResponse, addr 0x3b64a1c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method SendJoinResponse, addr 0x3bc6158, size 0x38, virtual true, abstract: false, final true
   inline void SendJoinResponse(bool accept);
 
-  /// @brief Method SetState, addr 0x3b62aac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x3bc41e8, size 0x94, virtual false, abstract: false, final false
   inline bool SetState(::StringW state, bool value);
 
-  /// @brief Method SimulateFail, addr 0x3b64ba8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x3bc62e4, size 0x40, virtual false, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp, addr 0x3b64be8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SimulateGiveUp, addr 0x3bc6324, size 0x3c, virtual false, abstract: false, final false
   inline void SimulateGiveUp();
 
-  /// @brief Method SimulateReturnToMainMenu, addr 0x3b64c24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SimulateReturnToMainMenu, addr 0x3bc6360, size 0xa4, virtual false, abstract: false, final false
   inline void SimulateReturnToMainMenu();
 
-  /// @brief Method Tick, addr 0x3b62fb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x3bc46f4, size 0x14, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method Unblock, addr 0x3b649e4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Unblock, addr 0x3bc6120, size 0x38, virtual true, abstract: false, final true
   inline void Unblock();
 
   constexpr bool const& __cordl_internal_get__canBlock_k__BackingField() const;
@@ -308,13 +306,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__currentPartySize_k__BackingField();
 
+  constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine* const& __cordl_internal_get__fsm() const;
+
   constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine*& __cordl_internal_get__fsm();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerFiniteStateMachine*> const& __cordl_internal_get__fsm() const;
+  constexpr ::GlobalNamespace::IGameplayRpcManager* const& __cordl_internal_get__gameplayRpcManager() const;
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
 
   constexpr bool const& __cordl_internal_get__isConnected_k__BackingField() const;
 
@@ -352,9 +350,9 @@ public:
 
   constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__multiplayerAvatarsData_k__BackingField();
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__playerState();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__playerState() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__playerState() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__playerState();
 
   constexpr bool const& __cordl_internal_get__requiresPassword_k__BackingField() const;
 
@@ -364,9 +362,9 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask_k__BackingField();
 
-  constexpr ::GlobalNamespace::MockPlayerSettings*& __cordl_internal_get__settings();
+  constexpr ::GlobalNamespace::MockPlayerSettings* const& __cordl_internal_get__settings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerSettings*> const& __cordl_internal_get__settings() const;
+  constexpr ::GlobalNamespace::MockPlayerSettings*& __cordl_internal_get__settings();
 
   constexpr void __cordl_internal_set__canBlock_k__BackingField(bool value);
 
@@ -412,115 +410,115 @@ public:
 
   constexpr void __cordl_internal_set__settings(::GlobalNamespace::MockPlayerSettings* value);
 
-  /// @brief Method .ctor, addr 0x3b62f00, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc463c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MockPlayerSettings* settings, bool isLocalPlayer);
 
-  /// @brief Method get_autoConnect, addr 0x3b6274c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_autoConnect, addr 0x3bc3e88, size 0x1c, virtual false, abstract: false, final false
   inline bool get_autoConnect();
 
-  /// @brief Method get_canBlock, addr 0x3b6298c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canBlock, addr 0x3bc40c8, size 0x8, virtual true, abstract: false, final true
   inline bool get_canBlock();
 
-  /// @brief Method get_canInvite, addr 0x3b6293c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canInvite, addr 0x3bc4078, size 0x8, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
-  /// @brief Method get_canJoin, addr 0x3b6290c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canJoin, addr 0x3bc4048, size 0x8, virtual true, abstract: false, final false
   inline bool get_canJoin();
 
-  /// @brief Method get_canKick, addr 0x3b62964, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canKick, addr 0x3bc40a0, size 0x8, virtual true, abstract: false, final true
   inline bool get_canKick();
 
-  /// @brief Method get_canLeave, addr 0x3b62978, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canLeave, addr 0x3bc40b4, size 0x8, virtual true, abstract: false, final true
   inline bool get_canLeave();
 
-  /// @brief Method get_canUnblock, addr 0x3b629a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canUnblock, addr 0x3bc40dc, size 0x8, virtual true, abstract: false, final true
   inline bool get_canUnblock();
 
-  /// @brief Method get_configuration, addr 0x3b628cc, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_configuration, addr 0x3bc4008, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_connectedPlayer, addr 0x3b62908, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_connectedPlayer, addr 0x3bc4044, size 0x4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
 
-  /// @brief Method get_currentLatency, addr 0x3b62844, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_currentLatency, addr 0x3bc3f80, size 0x2c, virtual true, abstract: false, final true
   inline int64_t get_currentLatency();
 
-  /// @brief Method get_currentPartySize, addr 0x3b6288c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentPartySize, addr 0x3bc3fc8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_currentPartySize();
 
-  /// @brief Method get_disconnectedReason, addr 0x3b627d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_disconnectedReason, addr 0x3bc3f10, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
 
-  /// @brief Method get_finishedLevel, addr 0x3b62dc0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_finishedLevel, addr 0x3bc44fc, size 0x48, virtual false, abstract: false, final false
   inline bool get_finishedLevel();
 
-  /// @brief Method get_hasValidLatency, addr 0x3b62870, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasValidLatency, addr 0x3bc3fac, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasValidLatency();
 
-  /// @brief Method get_inactiveByDefault, addr 0x3b62768, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_inactiveByDefault, addr 0x3bc3ea4, size 0x1c, virtual false, abstract: false, final false
   inline bool get_inactiveByDefault();
 
-  /// @brief Method get_isActive, addr 0x3b62d20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3bc445c, size 0x48, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isConnected, addr 0x3b62784, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x3bc3ec0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnectionOwner, addr 0x3b627c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x3bc3efc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDedicatedServer, addr 0x3b62b40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isDedicatedServer, addr 0x3bc427c, size 0x48, virtual false, abstract: false, final false
   inline bool get_isDedicatedServer();
 
-  /// @brief Method get_isKicked, addr 0x3b62878, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isKicked, addr 0x3bc3fb4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isKicked();
 
-  /// @brief Method get_isMe, addr 0x3b626f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMe, addr 0x3bc3e2c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMe();
 
-  /// @brief Method get_isMyPartyOwner, addr 0x3b628f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMyPartyOwner, addr 0x3bc4030, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMyPartyOwner();
 
-  /// @brief Method get_isPlayer, addr 0x3b629b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isPlayer, addr 0x3bc40f0, size 0x48, virtual false, abstract: false, final false
   inline bool get_isPlayer();
 
-  /// @brief Method get_isReady, addr 0x3b626b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isReady, addr 0x3bc3dec, size 0x8, virtual false, abstract: false, final false
   inline bool get_isReady();
 
-  /// @brief Method get_isTerminating, addr 0x3b62e60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isTerminating, addr 0x3bc459c, size 0x48, virtual false, abstract: false, final false
   inline bool get_isTerminating();
 
-  /// @brief Method get_isWaitingOnInvite, addr 0x3b62950, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isWaitingOnInvite, addr 0x3bc408c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isWaitingOnInvite();
 
-  /// @brief Method get_isWaitingOnJoin, addr 0x3b62928, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isWaitingOnJoin, addr 0x3bc4064, size 0x8, virtual true, abstract: false, final true
   inline bool get_isWaitingOnJoin();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0x3b62798, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerAvatarsData, addr 0x3bc3ed4, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
-  /// @brief Method get_offsetSyncTime, addr 0x3b627dc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3bc3f18, size 0x68, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_requiresPassword, addr 0x3b62914, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_requiresPassword, addr 0x3bc4050, size 0x8, virtual true, abstract: false, final true
   inline bool get_requiresPassword();
 
-  /// @brief Method get_selectionMask, addr 0x3b6289c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_selectionMask, addr 0x3bc3fd8, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method get_sortIndex, addr 0x3b62730, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_sortIndex, addr 0x3bc3e6c, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_sortIndex();
 
-  /// @brief Method get_userId, addr 0x3b626f8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x3bc3e34, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3b62714, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x3bc3e50, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
-  /// @brief Method get_wantsToPlayNextLevel, addr 0x3b62be0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_wantsToPlayNextLevel, addr 0x3bc431c, size 0x48, virtual false, abstract: false, final false
   inline bool get_wantsToPlayNextLevel();
 
-  /// @brief Method get_wasActiveAtLevelStart, addr 0x3b62c80, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_wasActiveAtLevelStart, addr 0x3bc43bc, size 0x48, virtual false, abstract: false, final false
   inline bool get_wasActiveAtLevelStart();
 
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
@@ -529,76 +527,76 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkPlayer"
   constexpr ::GlobalNamespace::INetworkPlayer* i___GlobalNamespace__INetworkPlayer() noexcept;
 
-  /// @brief Method set_canBlock, addr 0x3b62994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canBlock, addr 0x3bc40d0, size 0xc, virtual false, abstract: false, final false
   inline void set_canBlock(bool value);
 
-  /// @brief Method set_canInvite, addr 0x3b62944, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canInvite, addr 0x3bc4080, size 0xc, virtual false, abstract: false, final false
   inline void set_canInvite(bool value);
 
-  /// @brief Method set_canKick, addr 0x3b6296c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canKick, addr 0x3bc40a8, size 0xc, virtual false, abstract: false, final false
   inline void set_canKick(bool value);
 
-  /// @brief Method set_canLeave, addr 0x3b62980, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canLeave, addr 0x3bc40bc, size 0xc, virtual false, abstract: false, final false
   inline void set_canLeave(bool value);
 
-  /// @brief Method set_canUnblock, addr 0x3b629a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canUnblock, addr 0x3bc40e4, size 0xc, virtual false, abstract: false, final false
   inline void set_canUnblock(bool value);
 
-  /// @brief Method set_configuration, addr 0x3b628e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_configuration, addr 0x3bc401c, size 0x14, virtual false, abstract: false, final false
   inline void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  /// @brief Method set_currentPartySize, addr 0x3b62894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentPartySize, addr 0x3bc3fd0, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPartySize(int32_t value);
 
-  /// @brief Method set_finishedLevel, addr 0x3b62e08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_finishedLevel, addr 0x3bc4544, size 0x58, virtual false, abstract: false, final false
   inline void set_finishedLevel(bool value);
 
-  /// @brief Method set_isActive, addr 0x3b62d68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x3bc44a4, size 0x58, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isConnected, addr 0x3b6278c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isConnected, addr 0x3bc3ec8, size 0xc, virtual false, abstract: false, final false
   inline void set_isConnected(bool value);
 
-  /// @brief Method set_isConnectionOwner, addr 0x3b627c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isConnectionOwner, addr 0x3bc3f04, size 0xc, virtual false, abstract: false, final false
   inline void set_isConnectionOwner(bool value);
 
-  /// @brief Method set_isDedicatedServer, addr 0x3b62b88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_isDedicatedServer, addr 0x3bc42c4, size 0x58, virtual false, abstract: false, final false
   inline void set_isDedicatedServer(bool value);
 
-  /// @brief Method set_isKicked, addr 0x3b62880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isKicked, addr 0x3bc3fbc, size 0xc, virtual false, abstract: false, final false
   inline void set_isKicked(bool value);
 
-  /// @brief Method set_isMyPartyOwner, addr 0x3b628fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isMyPartyOwner, addr 0x3bc4038, size 0xc, virtual false, abstract: false, final false
   inline void set_isMyPartyOwner(bool value);
 
-  /// @brief Method set_isPlayer, addr 0x3b62a54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_isPlayer, addr 0x3bc4190, size 0x58, virtual false, abstract: false, final false
   inline void set_isPlayer(bool value);
 
-  /// @brief Method set_isReady, addr 0x3b626b8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_isReady, addr 0x3bc3df4, size 0x38, virtual false, abstract: false, final false
   inline void set_isReady(bool value);
 
-  /// @brief Method set_isTerminating, addr 0x3b62ea8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_isTerminating, addr 0x3bc45e4, size 0x58, virtual false, abstract: false, final false
   inline void set_isTerminating(bool value);
 
-  /// @brief Method set_isWaitingOnInvite, addr 0x3b62958, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isWaitingOnInvite, addr 0x3bc4094, size 0xc, virtual false, abstract: false, final false
   inline void set_isWaitingOnInvite(bool value);
 
-  /// @brief Method set_isWaitingOnJoin, addr 0x3b62930, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isWaitingOnJoin, addr 0x3bc406c, size 0xc, virtual false, abstract: false, final false
   inline void set_isWaitingOnJoin(bool value);
 
-  /// @brief Method set_multiplayerAvatarsData, addr 0x3b627ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_multiplayerAvatarsData, addr 0x3bc3ee8, size 0x14, virtual false, abstract: false, final false
   inline void set_multiplayerAvatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method set_requiresPassword, addr 0x3b6291c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_requiresPassword, addr 0x3bc4058, size 0xc, virtual false, abstract: false, final false
   inline void set_requiresPassword(bool value);
 
-  /// @brief Method set_selectionMask, addr 0x3b628b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_selectionMask, addr 0x3bc3ff0, size 0x18, virtual false, abstract: false, final false
   inline void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  /// @brief Method set_wantsToPlayNextLevel, addr 0x3b62c28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_wantsToPlayNextLevel, addr 0x3bc4364, size 0x58, virtual false, abstract: false, final false
   inline void set_wantsToPlayNextLevel(bool value);
 
-  /// @brief Method set_wasActiveAtLevelStart, addr 0x3b62cc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_wasActiveAtLevelStart, addr 0x3bc4404, size 0x58, virtual false, abstract: false, final false
   inline void set_wasActiveAtLevelStart(bool value);
 
 protected:
@@ -614,6 +612,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayer(MockPlayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4538 };
 
   /// @brief Field <isMe>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isMe_k__BackingField;
@@ -681,14 +682,9 @@ public:
   /// @brief Field _gameplayRpcManager, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4526 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayer, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockPlayer, ____isMe_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayer, ____isConnected_k__BackingField) == 0x11, "Offset mismatch!");
@@ -732,6 +728,8 @@ static_assert(offsetof(::GlobalNamespace::MockPlayer, ____settings) == 0x90, "Of
 static_assert(offsetof(::GlobalNamespace::MockPlayer, ____fsm) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayer, ____gameplayRpcManager) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayer, 0xa8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayer);

@@ -18,11 +18,10 @@ class CryptographicUnexpectedOperationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::CryptographicUnexpectedOperationException);
-// Type: System.Security.Cryptography::CryptographicUnexpectedOperationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.CryptographicException
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::CryptographicUnexpectedOperationException*
+// CS Name: System.Security.Cryptography.CryptographicUnexpectedOperationException
 class CORDL_TYPE CryptographicUnexpectedOperationException : public ::System::Security::Cryptography::CryptographicException {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   static inline ::System::Security::Cryptography::CryptographicUnexpectedOperationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c3d71c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d890, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c3d740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d8b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c3c7e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9c958, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -23,18 +23,17 @@ class UserAgeCategory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::UserAgeCategory);
-// Type: Oculus.Platform::UserAgeCategory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::UserAgeCategory*
+// CS Name: Oculus.Platform.UserAgeCategory
 class CORDL_TYPE UserAgeCategory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x3f2a584, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3f8a630, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* Get();
 
-  /// @brief Method Report, addr 0x3f2a6d4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Report, addr 0x3f8a780, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Report(::Oculus::Platform::AppAgeCategory age_category);
 
 protected:
@@ -52,7 +51,7 @@ public:
   UserAgeCategory(UserAgeCategory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

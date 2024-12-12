@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(Action_2)
 namespace System {
 struct IntPtr;
@@ -18,13 +17,12 @@ template <typename T1, typename T2> class Action_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Action_2);
-// Type: System::Action`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// CS Name: ::System::Action`2<T1,T2>*
+// CS Name: System.Action`2<T1,T2>
 class CORDL_TYPE Action_2 : public ::System::MulticastDelegate {
 public:
   // Declarations

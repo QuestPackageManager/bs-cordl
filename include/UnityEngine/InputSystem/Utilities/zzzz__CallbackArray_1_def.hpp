@@ -7,22 +7,18 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CallbackArray_1)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
-}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TDelegate> struct CallbackArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::CallbackArray_1);
-// Type: UnityEngine.InputSystem.Utilities::CallbackArray`1
-// SizeInfo { instance_size: 80, native_size: 96, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TDelegate>
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Utilities::CallbackArray`1<TDelegate>
+// CS Name: UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>
 struct CORDL_TYPE CallbackArray_1 {
 public:
   // Declarations
@@ -63,6 +59,12 @@ public:
                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToAdd,
                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToRemove) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7065 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+
   /// @brief Field m_CannotMutateCallbacksArray, offset: 0x0, size: 0x1, def value: None
   bool m_CannotMutateCallbacksArray;
 
@@ -74,12 +76,6 @@ public:
 
   /// @brief Field m_CallbacksToRemove, offset: 0x38, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToRemove;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7040 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

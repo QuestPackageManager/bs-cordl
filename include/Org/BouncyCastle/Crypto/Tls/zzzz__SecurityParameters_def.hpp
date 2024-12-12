@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecurityParameters)
 // Forward declare root types
@@ -13,11 +12,10 @@ class SecurityParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SecurityParameters);
-// Type: Org.BouncyCastle.Crypto.Tls::SecurityParameters
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::SecurityParameters*
+// CS Name: Org.BouncyCastle.Crypto.Tls.SecurityParameters
 class CORDL_TYPE SecurityParameters : public ::System::Object {
 public:
   // Declarations
@@ -90,7 +88,7 @@ public:
   /// @brief Field verifyDataLength, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_verifyDataLength, put = __cordl_internal_set_verifyDataLength)) int32_t verifyDataLength;
 
-  /// @brief Method Clear, addr 0x23e4cdc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x2417fc8, size 0x6c, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* New_ctor();
@@ -185,43 +183,43 @@ public:
 
   constexpr void __cordl_internal_set_verifyDataLength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23e4da8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2418094, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CipherSuite, addr 0x23e4d50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CipherSuite, addr 0x241803c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_CipherSuite();
 
-  /// @brief Method get_ClientRandom, addr 0x23e4d78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ClientRandom, addr 0x2418064, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ClientRandom();
 
-  /// @brief Method get_CompressionAlgorithm, addr 0x23e4d58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithm, addr 0x2418044, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_CompressionAlgorithm();
 
-  /// @brief Method get_Entity, addr 0x23e4d48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Entity, addr 0x2418034, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Entity();
 
-  /// @brief Method get_IsExtendedMasterSecret, addr 0x23e4da0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsExtendedMasterSecret, addr 0x241808c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsExtendedMasterSecret();
 
-  /// @brief Method get_MasterSecret, addr 0x23e4d70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MasterSecret, addr 0x241805c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MasterSecret();
 
-  /// @brief Method get_PrfAlgorithm, addr 0x23e4d60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PrfAlgorithm, addr 0x241804c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_PrfAlgorithm();
 
-  /// @brief Method get_PskIdentity, addr 0x23e4d90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PskIdentity, addr 0x241807c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PskIdentity();
 
-  /// @brief Method get_ServerRandom, addr 0x23e4d80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerRandom, addr 0x241806c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ServerRandom();
 
-  /// @brief Method get_SessionHash, addr 0x23e4d88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SessionHash, addr 0x2418074, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SessionHash();
 
-  /// @brief Method get_SrpIdentity, addr 0x23e4d98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SrpIdentity, addr 0x2418084, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SrpIdentity();
 
-  /// @brief Method get_VerifyDataLength, addr 0x23e4d68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_VerifyDataLength, addr 0x2418054, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_VerifyDataLength();
 
 protected:
@@ -237,6 +235,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SecurityParameters", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SecurityParameters(SecurityParameters const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1266 };
 
   /// @brief Field entity, offset: 0x10, size: 0x4, def value: None
   int32_t ___entity;
@@ -283,14 +284,9 @@ public:
   /// @brief Field extendedMasterSecret, offset: 0x5c, size: 0x1, def value: None
   bool ___extendedMasterSecret;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1266 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::SecurityParameters, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::SecurityParameters, ___entity) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::SecurityParameters, ___cipherSuite) == 0x14, "Offset mismatch!");
@@ -320,6 +316,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::SecurityParameters, ___
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::SecurityParameters, ___encryptThenMac) == 0x5b, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::SecurityParameters, ___extendedMasterSecret) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::SecurityParameters, 0x60>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::SecurityParameters);

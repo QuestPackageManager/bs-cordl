@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderModel_TextureMap_t)
-namespace System {
-struct IntPtr;
-}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct RenderModel_TextureMap_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t);
-// Type: OVR.OpenVR::RenderModel_TextureMap_t
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::RenderModel_TextureMap_t
+// CS Name: OVR.OpenVR.RenderModel_TextureMap_t
 struct CORDL_TYPE RenderModel_TextureMap_t {
 public:
   // Declarations
@@ -32,6 +28,12 @@ public:
   // "rubTextureMapData", ty: "::System::IntPtr", modifiers: "", def_value: None }]
   constexpr RenderModel_TextureMap_t(uint16_t unWidth, uint16_t unHeight, ::System::IntPtr rubTextureMapData) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9026 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field unWidth, offset: 0x0, size: 0x2, def value: None
   uint16_t unWidth;
 
@@ -41,22 +43,16 @@ public:
   /// @brief Field rubTextureMapData, offset: 0x8, size: 0x8, def value: None
   ::System::IntPtr rubTextureMapData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9001 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_TextureMap_t, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t, unWidth) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t, unHeight) == 0x2, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t, rubTextureMapData) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_TextureMap_t, 0x10>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_TextureMap_t, "OVR.OpenVR", "RenderModel_TextureMap_t");

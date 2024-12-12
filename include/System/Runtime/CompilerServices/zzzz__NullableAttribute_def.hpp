@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullableAttribute)
 // Forward declare root types
@@ -13,11 +12,10 @@ class NullableAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::NullableAttribute);
-// Type: System.Runtime.CompilerServices::NullableAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::NullableAttribute*
+// CS Name: System.Runtime.CompilerServices.NullableAttribute
 class CORDL_TYPE NullableAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -34,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_NullableFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x266c8d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0778, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x266c850, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a06f8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -54,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullableAttribute(NullableAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12741 };
+
   /// @brief Field NullableFlags, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___NullableFlags;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::NullableAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::NullableAttribute, ___NullableFlags) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::NullableAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::NullableAttribute);

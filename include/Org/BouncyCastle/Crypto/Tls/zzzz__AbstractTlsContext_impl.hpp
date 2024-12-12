@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsContext.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SecurityParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::NextCounterValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23abe30;
+  constexpr static std::size_t addrs = 0x23df11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*)>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::_ctor)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x23abe88;
+  constexpr static std::size_t addrs = 0x23df174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_NonceRandomGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1ac;
+  constexpr static std::size_t addrs = 0x23df498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_SecureRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1b4;
+  constexpr static std::size_t addrs = 0x23df4a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SecurityParameters* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_SecurityParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1bc;
+  constexpr static std::size_t addrs = 0x23df4a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,29 +86,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext.get_IsServer
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
-    &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_IsServer)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>::get(), 17));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext.get_ClientVersion
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_ClientVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1c4;
+  constexpr static std::size_t addrs = 0x23df4b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::SetClientVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1cc;
+  constexpr static std::size_t addrs = 0x23df4b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_ServerVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1d4;
+  constexpr static std::size_t addrs = 0x23df4c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::SetServerVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1dc;
+  constexpr static std::size_t addrs = 0x23df4c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSession* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_ResumableSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1e4;
+  constexpr static std::size_t addrs = 0x23df4d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::Org::BouncyCastle::Crypto::Tls::TlsSession*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::SetResumableSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1ec;
+  constexpr static std::size_t addrs = 0x23df4d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_UserObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1f4;
+  constexpr static std::size_t addrs = 0x23df4e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::set_UserObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ac1fc;
+  constexpr static std::size_t addrs = 0x23df4e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::ExportKeyingMaterial)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x23ac204;
+  constexpr static std::size_t addrs = 0x23df4f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,20 +230,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
-constexpr Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsContext*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsContext*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mNonceRandom() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mNonceRandom;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const&
-Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mNonceRandom() const {
+constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mNonceRandom() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mNonceRandom;
 }
@@ -271,7 +246,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSecureRandom;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mSecureRandom() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mSecureRandom() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSecureRandom;
 }
@@ -283,8 +258,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSecurityParameters;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*> const&
-Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mSecurityParameters() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mSecurityParameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSecurityParameters;
 }
@@ -296,8 +270,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& Org::BouncyCastle:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mClientVersion;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const&
-Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mClientVersion() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mClientVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mClientVersion;
 }
@@ -309,8 +282,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& Org::BouncyCastle:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mServerVersion;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const&
-Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mServerVersion() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mServerVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mServerVersion;
 }
@@ -322,7 +294,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession*& Org::BouncyCastle::Cryp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSession;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSession*> const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mSession() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession* const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mSession() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSession;
 }
@@ -334,7 +306,7 @@ constexpr ::System::Object*& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mUserObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mUserObject() const {
+constexpr ::System::Object* const& Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::__cordl_internal_get_mUserObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mUserObject;
 }
@@ -353,10 +325,6 @@ inline int64_t Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::NextCounterVa
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>::get(),
                                                                              "NextCounterValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
-                                                                                                                          ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>(secureRandom, securityParameters));
 }
 inline void Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                       ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters) {
@@ -444,6 +412,18 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::Abst
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, asciiLabel, context_value, length);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
+                                                                                                                          ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>(secureRandom, securityParameters));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
+constexpr Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsContext*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsContext*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::AbstractTlsContext() {}

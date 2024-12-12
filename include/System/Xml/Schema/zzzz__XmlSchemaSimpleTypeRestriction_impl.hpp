@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::get_BaseTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42670d0;
+  constexpr static std::size_t addrs = 0x42c83e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::set_BaseTypeName)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42670d8;
+  constexpr static std::size_t addrs = 0x42c83ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::get_BaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4267170;
+  constexpr static std::size_t addrs = 0x42c8484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::set_BaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4267178;
+  constexpr static std::size_t addrs = 0x42c848c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::get_Facets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4267180;
+  constexpr static std::size_t addrs = 0x42c8494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObject* (::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::Clone)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4267188;
+  constexpr static std::size_t addrs = 0x42c849c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4267238;
+  constexpr static std::size_t addrs = 0x42c854c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>::get(),
@@ -112,7 +112,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XmlSchemaSimple
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseTypeName;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::XmlSchemaSimpleTypeRestriction::__cordl_internal_get_baseTypeName() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XmlSchemaSimpleTypeRestriction::__cordl_internal_get_baseTypeName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseTypeName;
 }
@@ -124,7 +124,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& System::Xml::Schema::XmlS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& System::Xml::Schema::XmlSchemaSimpleTypeRestriction::__cordl_internal_get_baseType() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& System::Xml::Schema::XmlSchemaSimpleTypeRestriction::__cordl_internal_get_baseType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseType;
 }
@@ -136,7 +136,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Xml::Schema
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___facets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& System::Xml::Schema::XmlSchemaSimpleTypeRestriction::__cordl_internal_get_facets() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Xml::Schema::XmlSchemaSimpleTypeRestriction::__cordl_internal_get_facets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___facets;
 }
@@ -177,13 +177,13 @@ inline ::System::Xml::Schema::XmlSchemaObject* System::Xml::Schema::XmlSchemaSim
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObject*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* System::Xml::Schema::XmlSchemaSimpleTypeRestriction::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>());
-}
 inline void System::Xml::Schema::XmlSchemaSimpleTypeRestriction::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* System::Xml::Schema::XmlSchemaSimpleTypeRestriction::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::XmlSchemaSimpleTypeRestriction() {}

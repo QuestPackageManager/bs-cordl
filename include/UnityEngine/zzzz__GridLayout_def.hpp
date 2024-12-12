@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GridLayout)
 namespace UnityEngine {
 struct Vector3Int;
@@ -18,26 +17,25 @@ class GridLayout;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::GridLayout);
-// Type: UnityEngine::GridLayout
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::GridLayout*
+// CS Name: UnityEngine.GridLayout
 class CORDL_TYPE GridLayout : public ::UnityEngine::Behaviour {
 public:
   // Declarations
-  /// @brief Method CellToLocal, addr 0x486ff80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CellToLocal, addr 0x48d1554, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 CellToLocal(::UnityEngine::Vector3Int cellPosition);
 
-  /// @brief Method CellToLocal_Injected, addr 0x486ffe8, size 0x54, virtual false, abstract: false, final false
-  inline void CellToLocal_Injected(ByRef<::UnityEngine::Vector3Int> cellPosition, ByRef<::UnityEngine::Vector3> ret);
+  /// @brief Method CellToLocal_Injected, addr 0x48d15bc, size 0x54, virtual false, abstract: false, final false
+  inline void CellToLocal_Injected(::ByRef<::UnityEngine::Vector3Int> cellPosition, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method DoNothing, addr 0x487003c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoNothing, addr 0x48d1610, size 0x4, virtual false, abstract: false, final false
   inline void DoNothing();
 
   static inline ::UnityEngine::GridLayout* New_ctor();
 
-  /// @brief Method .ctor, addr 0x486ff78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d154c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +53,7 @@ public:
   GridLayout(GridLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19047 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

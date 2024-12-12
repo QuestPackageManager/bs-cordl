@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericEqualityComparer_1)
 namespace System {
@@ -16,13 +15,12 @@ template <typename T> class GenericEqualityComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::GenericEqualityComparer_1);
-// Type: System.Collections.Generic::GenericEqualityComparer`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.EqualityComparer`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::GenericEqualityComparer`1<T>*
+// CS Name: System.Collections.Generic.GenericEqualityComparer`1<T>
 class CORDL_TYPE GenericEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
 public:
   // Declarations

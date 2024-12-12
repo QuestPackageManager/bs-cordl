@@ -16,20 +16,15 @@ class ISponsor;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::ISponsor);
-// Type: System.Runtime.Remoting.Lifetime::ISponsor
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Lifetime::ISponsor*
+// CS Name: System.Runtime.Remoting.Lifetime.ISponsor
 class CORDL_TYPE ISponsor {
 public:
   // Declarations
-  /// @brief Method Renewal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Renewal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::TimeSpan Renewal(::System::Runtime::Remoting::Lifetime::ILease* lease);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISponsor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISponsor(ISponsor&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISponsor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

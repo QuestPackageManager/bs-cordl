@@ -26,25 +26,24 @@ class RsassaPssParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters);
-// Type: Org.BouncyCastle.Asn1.Pkcs::RsassaPssParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Pkcs::RsassaPssParameters*
+// CS Name: Org.BouncyCastle.Asn1.Pkcs.RsassaPssParameters
 class CORDL_TYPE RsassaPssParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field DefaultHashAlgorithm, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultHashAlgorithm, put = setStaticF_DefaultHashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DefaultHashAlgorithm;
+  __declspec(property(get = getStaticF_DefaultHashAlgorithm, put = setStaticF_DefaultHashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DefaultHashAlgorithm;
 
   /// @brief Field DefaultMaskGenFunction, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultMaskGenFunction, put = setStaticF_DefaultMaskGenFunction)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DefaultMaskGenFunction;
+  __declspec(property(get = getStaticF_DefaultMaskGenFunction, put = setStaticF_DefaultMaskGenFunction)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DefaultMaskGenFunction;
 
   /// @brief Field DefaultSaltLength, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultSaltLength, put = setStaticF_DefaultSaltLength)) ::Org::BouncyCastle::Asn1::DerInteger* DefaultSaltLength;
+  __declspec(property(get = getStaticF_DefaultSaltLength, put = setStaticF_DefaultSaltLength)) ::Org::BouncyCastle::Asn1::DerInteger* DefaultSaltLength;
 
   /// @brief Field DefaultTrailerField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultTrailerField, put = setStaticF_DefaultTrailerField)) ::Org::BouncyCastle::Asn1::DerInteger* DefaultTrailerField;
+  __declspec(property(get = getStaticF_DefaultTrailerField, put = setStaticF_DefaultTrailerField)) ::Org::BouncyCastle::Asn1::DerInteger* DefaultTrailerField;
 
   __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
 
@@ -66,7 +65,7 @@ public:
   /// @brief Field trailerField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_trailerField, put = __cordl_internal_set_trailerField)) ::Org::BouncyCastle::Asn1::DerInteger* trailerField;
 
-  /// @brief Method GetInstance, addr 0x23decfc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2411fe8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor();
@@ -77,24 +76,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23df12c, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2412418, size 0x280, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_hashAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_maskGenAlgorithm() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_maskGenAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_maskGenAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_saltLength() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_saltLength();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_saltLength() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_trailerField() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_trailerField();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_trailerField() const;
 
   constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
@@ -104,14 +103,14 @@ public:
 
   constexpr void __cordl_internal_set_trailerField(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x23df058, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2412344, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x23df0cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24123b8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerInteger* saltLength, ::Org::BouncyCastle::Asn1::DerInteger* trailerField);
 
-  /// @brief Method .ctor, addr 0x23dee78, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2412164, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultHashAlgorithm();
@@ -122,16 +121,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_DefaultTrailerField();
 
-  /// @brief Method get_HashAlgorithm, addr 0x23df10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x24123f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MaskGenAlgorithm, addr 0x23df114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaskGenAlgorithm, addr 0x2412400, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MaskGenAlgorithm();
 
-  /// @brief Method get_SaltLength, addr 0x23df11c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SaltLength, addr 0x2412408, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SaltLength();
 
-  /// @brief Method get_TrailerField, addr 0x23df124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrailerField, addr 0x2412410, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_TrailerField();
 
   static inline void setStaticF_DefaultHashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
@@ -156,6 +155,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsassaPssParameters(RsassaPssParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 250 };
+
   /// @brief Field hashAlgorithm, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___hashAlgorithm;
 
@@ -168,14 +170,9 @@ public:
   /// @brief Field trailerField, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___trailerField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 250 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___hashAlgorithm) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___maskGenAlgorithm) == 0x18, "Offset mismatch!");
@@ -183,6 +180,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___saltLength) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___trailerField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters);

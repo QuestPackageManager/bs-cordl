@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MomentaryLoudnessBuffer::*)()>(
     &::GlobalNamespace::MomentaryLoudnessBuffer::get_isNextReadingIntervalReady)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a7688c;
+  constexpr static std::size_t addrs = 0x3acdbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MomentaryLoudnessBuffer*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::GlobalNamespace::MomentaryLoudnessBuffer::*)()>(
     &::GlobalNamespace::MomentaryLoudnessBuffer::get_buffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7a318;
+  constexpr static std::size_t addrs = 0x3ad1730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MomentaryLoudnessBuffer*>::get(), "get_buffer",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MomentaryLoudnessBuffer::*)(int32_t, int32_t, float_t, int32_t)>(
     &::GlobalNamespace::MomentaryLoudnessBuffer::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3a7678c;
+  constexpr static std::size_t addrs = 0x3acdafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MomentaryLoudnessBuffer::*)(float_t)>(
     &::GlobalNamespace::MomentaryLoudnessBuffer::AddSample)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a76848;
+  constexpr static std::size_t addrs = 0x3acdbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,10 +107,6 @@ inline ::ArrayW<float_t, ::Array<float_t>*> GlobalNamespace::MomentaryLoudnessBu
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t, ::Array<float_t>*>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MomentaryLoudnessBuffer* GlobalNamespace::MomentaryLoudnessBuffer::New_ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration,
-                                                                                                      int32_t readingsPerBuffer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MomentaryLoudnessBuffer*>(numChannels, sampleFrequency, momentaryWindowDuration, readingsPerBuffer));
-}
 inline void GlobalNamespace::MomentaryLoudnessBuffer::_ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration, int32_t readingsPerBuffer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MomentaryLoudnessBuffer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -123,6 +119,10 @@ inline void GlobalNamespace::MomentaryLoudnessBuffer::AddSample(float_t data) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MomentaryLoudnessBuffer*>::get(), "AddSample",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+}
+inline ::GlobalNamespace::MomentaryLoudnessBuffer* GlobalNamespace::MomentaryLoudnessBuffer::New_ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration,
+                                                                                                      int32_t readingsPerBuffer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MomentaryLoudnessBuffer*>(numChannels, sampleFrequency, momentaryWindowDuration, readingsPerBuffer));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MomentaryLoudnessBuffer::MomentaryLoudnessBuffer() {}

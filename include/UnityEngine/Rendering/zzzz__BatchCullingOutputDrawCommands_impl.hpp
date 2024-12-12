@@ -3,10 +3,10 @@
 #include "UnityEngine/Rendering/zzzz__BatchCullingOutputDrawCommands_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommand_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawRange_def.hpp"
-// Ctor Parameters [CppParam { name: "drawCommands", ty: "::cordl_internals::Ptr<::UnityEngine::Rendering::BatchDrawCommand>", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "visibleInstances", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "drawRanges", ty:
-// "::cordl_internals::Ptr<::UnityEngine::Rendering::BatchDrawRange>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "instanceSortingPositions", ty: "::cordl_internals::Ptr<float_t>",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
+// Ctor Parameters [CppParam { name: "drawCommands", ty: "::cordl_internals::Ptr<::UnityEngine::Rendering::BatchDrawCommand>", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "visibleInstances", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawRanges", ty:
+// "::cordl_internals::Ptr<::UnityEngine::Rendering::BatchDrawRange>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceSortingPositions", ty: "::cordl_internals::Ptr<float_t>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "drawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleInstanceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "drawRangeCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceSortingPositionFloatCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::BatchCullingOutputDrawCommands::BatchCullingOutputDrawCommands(

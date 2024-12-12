@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCategoryFlags_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(EventInterestAttribute)
 namespace System {
 class Type;
@@ -19,11 +18,10 @@ class EventInterestAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventInterestAttribute);
-// Type: UnityEngine.UIElements::EventInterestAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, UnityEngine.UIElements.EventCategoryFlags
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::EventInterestAttribute*
+// CS Name: UnityEngine.UIElements.EventInterestAttribute
 class CORDL_TYPE EventInterestAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -49,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_eventTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x4937854, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499c164, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> eventTypes);
 
-  /// @brief Method .ctor, addr 0x4937880, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499c190, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptions interests);
 
 protected:
@@ -69,23 +67,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventInterestAttribute(EventInterestAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6314 };
+
   /// @brief Field eventTypes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___eventTypes;
 
   /// @brief Field categoryFlags, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::UIElements::EventCategoryFlags ___categoryFlags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6289 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventInterestAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::EventInterestAttribute, ___eventTypes) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::EventInterestAttribute, ___categoryFlags) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventInterestAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventInterestAttribute);

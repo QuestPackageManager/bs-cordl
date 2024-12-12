@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/TypeLoadException.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__TypeLoadException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::TypeLoadException._ctor
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TypeLoadException::*)()>(&::System::TypeLoadException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3dcd034;
+  constexpr static std::size_t addrs = 0x3e2d0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeLoadException*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TypeLoadException::*)(::StringW)>(&::System::TypeLoadException::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3dcd094;
+  constexpr static std::size_t addrs = 0x3e2d140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TypeLoadException::*)()>(&::System::TypeLoadException::get_Message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3dcd0bc;
+  constexpr static std::size_t addrs = 0x3e2d168;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TypeLoadException::*)()>(&::System::TypeLoadException::SetMessageField)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3dcd0d4;
+  constexpr static std::size_t addrs = 0x3e2d180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeLoadException*>::get(), "SetMessageField",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TypeLoadException::*)(::StringW, ::StringW)>(&::System::TypeLoadException::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3dcd1d0;
+  constexpr static std::size_t addrs = 0x3e2d27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TypeLoadException::*)(::StringW, ::StringW, ::StringW, int32_t)>(
     &::System::TypeLoadException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3dcd1dc;
+  constexpr static std::size_t addrs = 0x3e2d288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::TypeLoadException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::TypeLoadException::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3dcd23c;
+  constexpr static std::size_t addrs = 0x3e2d2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TypeLoadException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::TypeLoadException::GetObjectData)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3dcd380;
+  constexpr static std::size_t addrs = 0x3e2d42c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,14 +120,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::TypeLoadException::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::TypeLoadException::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
 constexpr ::StringW& System::TypeLoadException::__cordl_internal_get_ClassName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ClassName;
@@ -176,16 +168,10 @@ constexpr void System::TypeLoadException::__cordl_internal_set_ResourceId(int32_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ResourceId = value;
 }
-inline ::System::TypeLoadException* System::TypeLoadException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>());
-}
 inline void System::TypeLoadException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeLoadException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(message));
 }
 inline void System::TypeLoadException::_ctor(::StringW message) {
   static auto* ___internal_method =
@@ -203,17 +189,11 @@ inline void System::TypeLoadException::SetMessageField() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::StringW className, ::StringW assemblyName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(className, assemblyName));
-}
 inline void System::TypeLoadException::_ctor(::StringW className, ::StringW assemblyName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeLoadException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, className, assemblyName);
-}
-inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(className, assemblyName, messageArg, resourceId));
 }
 inline void System::TypeLoadException::_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,9 +201,6 @@ inline void System::TypeLoadException::_ctor(::StringW className, ::StringW asse
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, className, assemblyName, messageArg, resourceId);
-}
-inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(info, context));
 }
 inline void System::TypeLoadException::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -236,6 +213,29 @@ inline void System::TypeLoadException::GetObjectData(::System::Runtime::Serializ
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeLoadException*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
+}
+inline ::System::TypeLoadException* System::TypeLoadException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>());
+}
+inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(message));
+}
+inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::StringW className, ::StringW assemblyName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(className, assemblyName));
+}
+inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(className, assemblyName, messageArg, resourceId));
+}
+inline ::System::TypeLoadException* System::TypeLoadException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeLoadException*>(info, context));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::TypeLoadException::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::TypeLoadException::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::TypeLoadException::TypeLoadException() {}

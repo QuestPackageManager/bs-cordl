@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::*)(
     ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::BezierSplineEvaluator*, ::UnityEngine::Vector2)>(&::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2232550;
+  constexpr static std::size_t addrs = 0x225dab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngle)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x2232630;
+  constexpr static std::size_t addrs = 0x225db90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*>::get(),
@@ -41,7 +41,7 @@ constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::BeatmapObjectAv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__cordl_internal_get__audioTimeSource() const {
+constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
@@ -77,8 +77,7 @@ constexpr ::GlobalNamespace::BezierSplineEvaluator*& GlobalNamespace::BeatmapObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierSplineEvaluator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const&
-GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__cordl_internal_get__bezierSplineEvaluator() const {
+constexpr ::GlobalNamespace::BezierSplineEvaluator* const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__cordl_internal_get__bezierSplineEvaluator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierSplineEvaluator;
 }
@@ -98,11 +97,6 @@ constexpr void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentAcceleration = value;
 }
-inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
-                                                                                                                              ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
-                                                                                                                              ::UnityEngine::Vector2 gravity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*>(audioTimeSource, bezierSplineEvaluator, gravity));
-}
 inline void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
                                                                         ::UnityEngine::Vector2 gravity) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,6 +110,11 @@ inline float_t GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngl
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*>::get(),
                                                                              "GetTiltAngle", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
+                                                                                                                              ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
+                                                                                                                              ::UnityEngine::Vector2 gravity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*>(audioTimeSource, bezierSplineEvaluator, gravity));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::BeatmapObjectAvoidanceTiltEvaluator() {}

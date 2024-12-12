@@ -23,11 +23,10 @@ class MultiplayerCoreInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCoreInstaller);
-// Type: ::MultiplayerCoreInstaller
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerCoreInstaller*
+// CS Name: MultiplayerCoreInstaller
 class CORDL_TYPE MultiplayerCoreInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -46,7 +45,7 @@ public:
   __declspec(property(get = __cordl_internal_get__scoreSyncStateManagerPrefab, put = __cordl_internal_set__scoreSyncStateManagerPrefab)) ::UnityW<::GlobalNamespace::ScoreSyncStateManager>
       _scoreSyncStateManagerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b905d0, size 0x788, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf23b8, size 0x788, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerCoreInstaller* New_ctor();
@@ -55,13 +54,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel();
 
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager> const& __cordl_internal_get__scoreSyncStateManagerPrefab() const;
 
@@ -75,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x3b90d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf2b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,6 +91,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerCoreInstaller(MultiplayerCoreInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4725 };
+
   /// @brief Field _scoreSyncStateManagerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScoreSyncStateManager> ____scoreSyncStateManagerPrefab;
 
@@ -104,14 +106,9 @@ public:
   /// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4709 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCoreInstaller, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerCoreInstaller, ____scoreSyncStateManagerPrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerCoreInstaller, ____multiplayerBadgesModel) == 0x30, "Offset mismatch!");
@@ -119,6 +116,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerCoreInstaller, ____multipla
 static_assert(offsetof(::GlobalNamespace::MultiplayerCoreInstaller, ____sceneSetupData) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerCoreInstaller, ____multiplayerSessionManager) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCoreInstaller, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerCoreInstaller);

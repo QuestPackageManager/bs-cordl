@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4a8bfac;
+  constexpr static std::size_t addrs = 0x4af08bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW, bool)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4a8bfd8;
+  constexpr static std::size_t addrs = 0x4af08e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::ContractAnnotationAttribute::*)()>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::get_Contract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c00c;
+  constexpr static std::size_t addrs = 0x4af091c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::ContractAnnotationAttribute*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::set_Contract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c014;
+  constexpr static std::size_t addrs = 0x4af0924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::JetBrains::Annotations::ContractAnnotationAttribute::*)()>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::get_ForceFullStates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c01c;
+  constexpr static std::size_t addrs = 0x4af092c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::ContractAnnotationAttribute*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(bool)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullStates)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a8c024;
+  constexpr static std::size_t addrs = 0x4af0934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,17 +114,11 @@ constexpr void JetBrains::Annotations::ContractAnnotationAttribute::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ForceFullStates_k__BackingField = value;
 }
-inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::ContractAnnotationAttribute*>(contract));
-}
 inline void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(::StringW contract) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::ContractAnnotationAttribute*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, contract);
-}
-inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract, bool forceFullStates) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::ContractAnnotationAttribute*>(contract, forceFullStates));
 }
 inline void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(::StringW contract, bool forceFullStates) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,6 +147,12 @@ inline void JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullSt
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::ContractAnnotationAttribute*>::get(), "set_ForceFullStates",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::ContractAnnotationAttribute*>(contract));
+}
+inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract, bool forceFullStates) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::ContractAnnotationAttribute*>(contract, forceFullStates));
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::ContractAnnotationAttribute::ContractAnnotationAttribute() {}

@@ -12,30 +12,29 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SessionSyncData)
 namespace HoudiniEngineUnity {
-struct __HEU_SessionSyncData__Status;
+struct HEU_SessionSyncData_Status;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct __HEU_SessionSyncData__Status;
+struct HEU_SessionSyncData_Status;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionSyncData;
 }
 // Write type traits
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_SessionSyncData__Status);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_SessionSyncData_Status);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionSyncData);
-// Type: ::Status
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_SessionSyncData::Status
-struct CORDL_TYPE __HEU_SessionSyncData__Status {
+// CS Name: HoudiniEngineUnity.HEU_SessionSyncData/Status
+struct CORDL_TYPE HEU_SessionSyncData_Status {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_SessionSyncData__Status_Unwrapped
-  enum struct ____HEU_SessionSyncData__Status_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_SessionSyncData_Status_Unwrapped
+  enum struct __HEU_SessionSyncData_Status_Unwrapped : int32_t {
     __E_Stopped = static_cast<int32_t>(0x0),
     __E_Started = static_cast<int32_t>(0x1),
     __E_Connecting = static_cast<int32_t>(0x2),
@@ -44,8 +43,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_SessionSyncData__Status_Unwrapped() const noexcept {
-    return static_cast<____HEU_SessionSyncData__Status_Unwrapped>(this->value__);
+  constexpr operator __HEU_SessionSyncData_Status_Unwrapped() const noexcept {
+    return static_cast<__HEU_SessionSyncData_Status_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -55,54 +54,53 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_SessionSyncData__Status();
+  constexpr HEU_SessionSyncData_Status();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_SessionSyncData__Status(int32_t value__) noexcept;
+  constexpr HEU_SessionSyncData_Status(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Connected value: I32(4)
+  static ::HoudiniEngineUnity::HEU_SessionSyncData_Status const Connected;
 
-  /// @brief Field Connected value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::__HEU_SessionSyncData__Status const Connected;
+  /// @brief Field Connecting value: I32(2)
+  static ::HoudiniEngineUnity::HEU_SessionSyncData_Status const Connecting;
 
-  /// @brief Field Connecting value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_SessionSyncData__Status const Connecting;
+  /// @brief Field Initializing value: I32(3)
+  static ::HoudiniEngineUnity::HEU_SessionSyncData_Status const Initializing;
 
-  /// @brief Field Initializing value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_SessionSyncData__Status const Initializing;
+  /// @brief Field Started value: I32(1)
+  static ::HoudiniEngineUnity::HEU_SessionSyncData_Status const Started;
 
-  /// @brief Field Started value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_SessionSyncData__Status const Started;
-
-  /// @brief Field Stopped value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_SessionSyncData__Status const Stopped;
+  /// @brief Field Stopped value: I32(0)
+  static ::HoudiniEngineUnity::HEU_SessionSyncData_Status const Stopped;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11771 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_SessionSyncData__Status, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData_Status, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_SessionSyncData_Status, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: HoudiniEngineUnity::HEU_SessionSyncData
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_SessionSyncInfo, HoudiniEngineUnity.HAPI_Viewport, System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_SessionSyncData*
+// CS Name: HoudiniEngineUnity.HEU_SessionSyncData
 class CORDL_TYPE HEU_SessionSyncData : public ::System::Object {
 public:
   // Declarations
-  using Status = ::HoudiniEngineUnity::__HEU_SessionSyncData__Status;
+  using Status = ::HoudiniEngineUnity::HEU_SessionSyncData_Status;
 
-  __declspec(property(get = get_SyncStatus, put = set_SyncStatus)) ::HoudiniEngineUnity::__HEU_SessionSyncData__Status SyncStatus;
+  __declspec(property(get = get_SyncStatus, put = set_SyncStatus)) ::HoudiniEngineUnity::HEU_SessionSyncData_Status SyncStatus;
 
   /// @brief Field _newNodeName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__newNodeName, put = __cordl_internal_set__newNodeName)) ::StringW _newNodeName;
@@ -196,14 +194,14 @@ public:
 
   constexpr void __cordl_internal_set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value);
 
-  /// @brief Method .ctor, addr 0x3a02a94, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a59704, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SyncStatus, addr 0x3a05670, size 0x14, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status get_SyncStatus();
+  /// @brief Method get_SyncStatus, addr 0x3a5c2e0, size 0x14, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_SessionSyncData_Status get_SyncStatus();
 
-  /// @brief Method set_SyncStatus, addr 0x3a05684, size 0xc, virtual false, abstract: false, final false
-  inline void set_SyncStatus(::HoudiniEngineUnity::__HEU_SessionSyncData__Status value);
+  /// @brief Method set_SyncStatus, addr 0x3a5c2f4, size 0xc, virtual false, abstract: false, final false
+  inline void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData_Status value);
 
 protected:
   // Ctor Parameters []
@@ -218,6 +216,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_SessionSyncData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_SessionSyncData(HEU_SessionSyncData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11772 };
 
   /// @brief Field _status, offset: 0x10, size: 0x4, def value: None
   int32_t ____status;
@@ -249,14 +250,9 @@ public:
   /// @brief Field _syncInfo, offset: 0x61, size: 0x2, def value: None
   ::HoudiniEngineUnity::HAPI_SessionSyncInfo ____syncInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11739 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_SessionSyncData, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____status) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____timeLastUpdate) == 0x14, "Offset mismatch!");
@@ -277,7 +273,9 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____viewportJu
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____syncInfo) == 0x61, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_SessionSyncData, 0x68>, "Size mismatch!");
+
 } // namespace HoudiniEngineUnity
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, "HoudiniEngineUnity", "HEU_SessionSyncData/Status");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionSyncData_Status, "HoudiniEngineUnity", "HEU_SessionSyncData/Status");
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionSyncData);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionSyncData*, "HoudiniEngineUnity", "HEU_SessionSyncData");

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)()>(
     &::System::Collections::Concurrent::CDSCollectionETWBCLProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44244bc;
+  constexpr static std::size_t addrs = 0x44857d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)()>(
     &::System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentBag_TryTakeSteals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44244c4;
+  constexpr static std::size_t addrs = 0x44857d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)()>(
     &::System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentBag_TryPeekSteals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44244fc;
+  constexpr static std::size_t addrs = 0x4485810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,9 +55,6 @@ inline void System::Collections::Concurrent::CDSCollectionETWBCLProvider::setSta
 inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* System::Collections::Concurrent::CDSCollectionETWBCLProvider::getStaticF_Log() {
   return ::cordl_internals::getStaticField<::System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "Log",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::CDSCollectionETWBCLProvider*>::get>();
-}
-inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* System::Collections::Concurrent::CDSCollectionETWBCLProvider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::CDSCollectionETWBCLProvider*>());
 }
 inline void System::Collections::Concurrent::CDSCollectionETWBCLProvider::_ctor() {
   static auto* ___internal_method =
@@ -76,6 +73,9 @@ inline void System::Collections::Concurrent::CDSCollectionETWBCLProvider::Concur
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::CDSCollectionETWBCLProvider*>::get(),
                                                "ConcurrentBag_TryPeekSteals", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* System::Collections::Concurrent::CDSCollectionETWBCLProvider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::CDSCollectionETWBCLProvider*>());
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Concurrent::CDSCollectionETWBCLProvider::CDSCollectionETWBCLProvider() {}

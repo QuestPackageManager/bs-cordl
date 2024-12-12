@@ -17,11 +17,10 @@ class OVRMultimodalHandsAndControllersSample;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRMultimodalHandsAndControllersSample);
-// Type: ::OVRMultimodalHandsAndControllersSample
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRMultimodalHandsAndControllersSample*
+// CS Name: OVRMultimodalHandsAndControllersSample
 class CORDL_TYPE OVRMultimodalHandsAndControllersSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,27 +33,27 @@ public:
   /// @brief Field enableButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_enableButton, put = __cordl_internal_set_enableButton)) ::UnityW<::UnityEngine::UI::Button> enableButton;
 
-  /// @brief Method Awake, addr 0x3f6efd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fcf084, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisableMultiModality, addr 0x3f6f150, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DisableMultiModality, addr 0x3fcf1fc, size 0x80, virtual false, abstract: false, final false
   inline void DisableMultiModality();
 
-  /// @brief Method EnableMultiModality, addr 0x3f6f0d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnableMultiModality, addr 0x3fcf17c, size 0x80, virtual false, abstract: false, final false
   inline void EnableMultiModality();
 
   static inline ::GlobalNamespace::OVRMultimodalHandsAndControllersSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3f6efdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3fcf088, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3f6efe4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fcf090, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3f6efe0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3fcf08c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3f6efe8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fcf094, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_disableButton() const;
@@ -75,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_enableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x3f6f1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fcf27c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,6 +91,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMultimodalHandsAndControllersSample(OVRMultimodalHandsAndControllersSample const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7963 };
+
   /// @brief Field enableButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___enableButton;
 
@@ -101,19 +103,16 @@ public:
   /// @brief Field displayText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___displayText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7938 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMultimodalHandsAndControllersSample, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRMultimodalHandsAndControllersSample, ___enableButton) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRMultimodalHandsAndControllersSample, ___disableButton) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRMultimodalHandsAndControllersSample, ___displayText) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMultimodalHandsAndControllersSample, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRMultimodalHandsAndControllersSample);

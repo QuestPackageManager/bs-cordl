@@ -30,13 +30,12 @@ template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1);
-// Type: Zenject::MemoryPoolInitialSizeMaxSizeBinder`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MemoryPoolMaxSizeBinder`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::MemoryPoolInitialSizeMaxSizeBinder`1<TContract>*
+// CS Name: Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
 class CORDL_TYPE MemoryPoolInitialSizeMaxSizeBinder_1 : public ::Zenject::MemoryPoolMaxSizeBinder_1<TContract> {
 public:
   // Declarations
@@ -67,7 +66,7 @@ public:
   MemoryPoolInitialSizeMaxSizeBinder_1(MemoryPoolInitialSizeMaxSizeBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,23 +10,18 @@ class IMemoable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IMemoable);
-// Type: Org.BouncyCastle.Utilities::IMemoable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities::IMemoable*
+// CS Name: Org.BouncyCastle.Utilities.IMemoable
 class CORDL_TYPE IMemoable {
 public:
   // Declarations
-  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IMemoable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IMemoable(IMemoable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMemoable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

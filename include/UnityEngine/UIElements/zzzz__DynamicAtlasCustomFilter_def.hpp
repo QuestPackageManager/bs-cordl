@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(DynamicAtlasCustomFilter)
 namespace System {
 struct IntPtr;
@@ -25,20 +23,19 @@ class DynamicAtlasCustomFilter;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasCustomFilter);
-// Type: UnityEngine.UIElements::DynamicAtlasCustomFilter
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::DynamicAtlasCustomFilter*
+// CS Name: UnityEngine.UIElements.DynamicAtlasCustomFilter
 class CORDL_TYPE DynamicAtlasCustomFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x49086fc, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::UIElements::DynamicAtlasFilters> filtersToApply);
+  /// @brief Method Invoke, addr 0x496ceac, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(::UnityEngine::Texture2D* texture, ::ByRef<::UnityEngine::UIElements::DynamicAtlasFilters> filtersToApply);
 
   static inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x490865c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x496ce0c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -56,7 +53,7 @@ public:
   DynamicAtlasCustomFilter(DynamicAtlasCustomFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::PartyUpdateNotification::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::PartyUpdateNotification::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3f31748;
+  constexpr static std::size_t addrs = 0x3f917f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,14 +103,14 @@ constexpr void Oculus::Platform::Models::PartyUpdateNotification::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UserName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Oculus::Platform::Models::PartyUpdateNotification* Oculus::Platform::Models::PartyUpdateNotification::New_ctor(::System::IntPtr o) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::PartyUpdateNotification*>(o));
-}
 inline void Oculus::Platform::Models::PartyUpdateNotification::_ctor(::System::IntPtr o) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::PartyUpdateNotification*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
+}
+inline ::Oculus::Platform::Models::PartyUpdateNotification* Oculus::Platform::Models::PartyUpdateNotification::New_ctor(::System::IntPtr o) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::PartyUpdateNotification*>(o));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::PartyUpdateNotification::PartyUpdateNotification() {}

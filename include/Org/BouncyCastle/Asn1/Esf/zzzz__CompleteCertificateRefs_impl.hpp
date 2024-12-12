@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22e83ec;
+  constexpr static std::size_t addrs = 0x231b6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x22e8568;
+  constexpr static std::size_t addrs = 0x231b854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*>)>(&::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22e8a2c;
+  constexpr static std::size_t addrs = 0x231bd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x22e8ae4;
+  constexpr static std::size_t addrs = 0x231bdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> (
     ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)()>(&::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::GetOtherCertIDs)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x22e8c78;
+  constexpr static std::size_t addrs = 0x231bf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e8d98;
+  constexpr static std::size_t addrs = 0x231c084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Esf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherCertIDs;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::__cordl_internal_get_otherCertIDs() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::__cordl_internal_get_otherCertIDs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherCertIDs;
 }
@@ -116,18 +116,11 @@ inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* Org::BouncyCastl
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*
-Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> otherCertIDs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(otherCertIDs));
 }
 inline void Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> otherCertIDs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,9 +128,6 @@ inline void Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor(::Array
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, otherCertIDs);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::New_ctor(::System::Collections::IEnumerable* otherCertIDs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(otherCertIDs));
 }
 inline void Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::_ctor(::System::Collections::IEnumerable* otherCertIDs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,6 +145,16 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Comp
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*
+Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> otherCertIDs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(otherCertIDs));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::New_ctor(::System::Collections::IEnumerable* otherCertIDs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*>(otherCertIDs));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs::CompleteCertificateRefs() {}

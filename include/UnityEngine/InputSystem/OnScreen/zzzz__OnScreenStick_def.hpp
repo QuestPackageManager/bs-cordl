@@ -3,8 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_def.hpp"
-#include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenStick_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -16,31 +19,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine::InputSystem::OnScreen {
-struct __OnScreenStick__Behaviour;
+struct OnScreenStick_Behaviour;
+}
+namespace UnityEngine::InputSystem {
+struct InputAction_CallbackContext;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
 }
 namespace UnityEngine {
 class Camera;
@@ -50,34 +41,33 @@ struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
-struct __OnScreenStick__Behaviour;
+struct OnScreenStick_Behaviour;
 }
 namespace UnityEngine::InputSystem::OnScreen {
 class OnScreenStick;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour);
+MARK_VAL_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
-// Type: ::Behaviour
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: true
-// CS Name: ::OnScreenStick::Behaviour
-struct CORDL_TYPE __OnScreenStick__Behaviour {
+// CS Name: UnityEngine.InputSystem.OnScreen.OnScreenStick/Behaviour
+struct CORDL_TYPE OnScreenStick_Behaviour {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____OnScreenStick__Behaviour_Unwrapped
-  enum struct ____OnScreenStick__Behaviour_Unwrapped : int32_t {
+  /// @brief Nested struct __OnScreenStick_Behaviour_Unwrapped
+  enum struct __OnScreenStick_Behaviour_Unwrapped : int32_t {
     __E_RelativePositionWithStaticOrigin = static_cast<int32_t>(0x0),
     __E_ExactPositionWithStaticOrigin = static_cast<int32_t>(0x1),
     __E_ExactPositionWithDynamicOrigin = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OnScreenStick__Behaviour_Unwrapped() const noexcept {
-    return static_cast<____OnScreenStick__Behaviour_Unwrapped>(this->value__);
+  constexpr operator __OnScreenStick_Behaviour_Unwrapped() const noexcept {
+    return static_cast<__OnScreenStick_Behaviour_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -87,55 +77,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OnScreenStick__Behaviour();
+  constexpr OnScreenStick_Behaviour();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OnScreenStick__Behaviour(int32_t value__) noexcept;
+  constexpr OnScreenStick_Behaviour(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ExactPositionWithDynamicOrigin value: I32(2)
+  static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const ExactPositionWithDynamicOrigin;
 
-  /// @brief Field ExactPositionWithDynamicOrigin value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour const ExactPositionWithDynamicOrigin;
+  /// @brief Field ExactPositionWithStaticOrigin value: I32(1)
+  static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const ExactPositionWithStaticOrigin;
 
-  /// @brief Field ExactPositionWithStaticOrigin value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour const ExactPositionWithStaticOrigin;
-
-  /// @brief Field RelativePositionWithStaticOrigin value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour const RelativePositionWithStaticOrigin;
+  /// @brief Field RelativePositionWithStaticOrigin value: I32(0)
+  static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const RelativePositionWithStaticOrigin;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6793 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::OnScreen
-// Type: UnityEngine.InputSystem.OnScreen::OnScreenStick
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.IDragHandler, UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerDownHandler, UnityEngine.EventSystems.IPointerUpHandler,
+// UnityEngine.InputSystem.OnScreen.OnScreenControl, UnityEngine.InputSystem.OnScreen.OnScreenStick::Behaviour, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenStick*
+// CS Name: UnityEngine.InputSystem.OnScreen.OnScreenStick
 class CORDL_TYPE OnScreenStick : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
   // Declarations
-  using Behaviour = ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour;
+  using Behaviour = ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour;
 
-  __declspec(property(get = get_behaviour, put = set_behaviour)) ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour behaviour;
+  __declspec(property(get = get_behaviour, put = set_behaviour)) ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour behaviour;
 
   __declspec(property(get = get_controlPathInternal, put = set_controlPathInternal)) ::StringW controlPathInternal;
 
   __declspec(property(get = get_dynamicOriginRange, put = set_dynamicOriginRange)) float_t dynamicOriginRange;
 
   /// @brief Field m_Behaviour, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Behaviour, put = __cordl_internal_set_m_Behaviour)) ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour m_Behaviour;
+  __declspec(property(get = __cordl_internal_get_m_Behaviour, put = __cordl_internal_set_m_Behaviour)) ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour m_Behaviour;
 
   /// @brief Field m_ControlPath, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ControlPath, put = __cordl_internal_set_m_ControlPath)) ::StringW m_ControlPath;
@@ -184,53 +174,53 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method BeginInteraction, addr 0x459595c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method BeginInteraction, addr 0x45f6c70, size 0x248, virtual false, abstract: false, final false
   inline void BeginInteraction(::UnityEngine::Vector2 pointerPosition, ::UnityEngine::Camera* uiCamera);
 
-  /// @brief Method DrawGizmoCircle, addr 0x4596f18, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmoCircle, addr 0x45f822c, size 0xe4, virtual false, abstract: false, final false
   inline void DrawGizmoCircle(::UnityEngine::Vector2 center, float_t radius);
 
-  /// @brief Method EndInteraction, addr 0x4596038, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EndInteraction, addr 0x45f734c, size 0xc8, virtual false, abstract: false, final false
   inline void EndInteraction();
 
-  /// @brief Method GetCameraFromCanvas, addr 0x4596aa4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCameraFromCanvas, addr 0x45f7db8, size 0x134, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> GetCameraFromCanvas();
 
-  /// @brief Method MoveStick, addr 0x4595c40, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method MoveStick, addr 0x45f6f54, size 0x3e8, virtual false, abstract: false, final false
   inline void MoveStick(::UnityEngine::Vector2 pointerPosition, ::UnityEngine::Camera* uiCamera);
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick* New_ctor();
 
-  /// @brief Method OnDrag, addr 0x4595ba4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method OnDrag, addr 0x45f6eb8, size 0x9c, virtual true, abstract: false, final true
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x4596d58, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x45f806c, size 0x1c0, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnPointerDown, addr 0x4596748, size 0x35c, virtual false, abstract: false, final false
-  inline void OnPointerDown(::UnityEngine::InputSystem::__InputAction__CallbackContext ctx);
+  /// @brief Method OnPointerDown, addr 0x45f7a5c, size 0x35c, virtual false, abstract: false, final false
+  inline void OnPointerDown(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method OnPointerDown, addr 0x45958c0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x45f6bd4, size 0x9c, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerMove, addr 0x4596bd8, size 0xe8, virtual false, abstract: false, final false
-  inline void OnPointerMove(::UnityEngine::InputSystem::__InputAction__CallbackContext ctx);
+  /// @brief Method OnPointerMove, addr 0x45f7eec, size 0xe8, virtual false, abstract: false, final false
+  inline void OnPointerMove(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method OnPointerUp, addr 0x4596cc0, size 0x98, virtual false, abstract: false, final false
-  inline void OnPointerUp(::UnityEngine::InputSystem::__InputAction__CallbackContext ctx);
+  /// @brief Method OnPointerUp, addr 0x45f7fd4, size 0x98, virtual false, abstract: false, final false
+  inline void OnPointerUp(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method OnPointerUp, addr 0x4596028, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x45f733c, size 0x10, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Start, addr 0x4596100, size 0x648, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x45f7414, size 0x648, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateDynamicOriginClickableArea, addr 0x4596ffc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamicOriginClickableArea, addr 0x45f8310, size 0xec, virtual false, abstract: false, final false
   inline void UpdateDynamicOriginClickableArea();
 
-  constexpr ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour const& __cordl_internal_get_m_Behaviour() const;
+  constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const& __cordl_internal_get_m_Behaviour() const;
 
-  constexpr ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour& __cordl_internal_get_m_Behaviour();
+  constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour& __cordl_internal_get_m_Behaviour();
 
   constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
 
@@ -244,25 +234,25 @@ public:
 
   constexpr float_t& __cordl_internal_get_m_MovementRange();
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PointerDownAction();
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_PointerDownAction() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_PointerDownAction() const;
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PointerDownAction();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_PointerDownPos() const;
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_PointerDownPos();
 
+  constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get_m_PointerEventData() const;
+
   constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_m_PointerEventData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_m_PointerEventData() const;
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_PointerMoveAction() const;
 
   constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PointerMoveAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_PointerMoveAction() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* const& __cordl_internal_get_m_RaycastResults() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*& __cordl_internal_get_m_RaycastResults();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*> const& __cordl_internal_get_m_RaycastResults() const;
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_StartPos() const;
 
@@ -272,7 +262,7 @@ public:
 
   constexpr bool& __cordl_internal_get_m_UseIsolatedInputActions();
 
-  constexpr void __cordl_internal_set_m_Behaviour(::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour value);
+  constexpr void __cordl_internal_set_m_Behaviour(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour value);
 
   constexpr void __cordl_internal_set_m_ControlPath(::StringW value);
 
@@ -294,22 +284,22 @@ public:
 
   constexpr void __cordl_internal_set_m_UseIsolatedInputActions(bool value);
 
-  /// @brief Method .ctor, addr 0x459714c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45f8460, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_behaviour, addr 0x459713c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour get_behaviour();
+  /// @brief Method get_behaviour, addr 0x45f8450, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour get_behaviour();
 
-  /// @brief Method get_controlPathInternal, addr 0x459712c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x45f8440, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
-  /// @brief Method get_dynamicOriginRange, addr 0x45970f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicOriginRange, addr 0x45f840c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_dynamicOriginRange();
 
-  /// @brief Method get_movementRange, addr 0x45970e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementRange, addr 0x45f83fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_movementRange();
 
-  /// @brief Method get_useIsolatedInputActions, addr 0x4597118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useIsolatedInputActions, addr 0x45f842c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useIsolatedInputActions();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
@@ -324,19 +314,19 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method set_behaviour, addr 0x4597144, size 0x8, virtual false, abstract: false, final false
-  inline void set_behaviour(::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour value);
+  /// @brief Method set_behaviour, addr 0x45f8458, size 0x8, virtual false, abstract: false, final false
+  inline void set_behaviour(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour value);
 
-  /// @brief Method set_controlPathInternal, addr 0x4597134, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x45f8448, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
-  /// @brief Method set_dynamicOriginRange, addr 0x4597100, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicOriginRange, addr 0x45f8414, size 0x18, virtual false, abstract: false, final false
   inline void set_dynamicOriginRange(float_t value);
 
-  /// @brief Method set_movementRange, addr 0x45970f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_movementRange, addr 0x45f8404, size 0x8, virtual false, abstract: false, final false
   inline void set_movementRange(float_t value);
 
-  /// @brief Method set_useIsolatedInputActions, addr 0x4597120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useIsolatedInputActions, addr 0x45f8434, size 0xc, virtual false, abstract: false, final false
   inline void set_useIsolatedInputActions(bool value);
 
 protected:
@@ -353,6 +343,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OnScreenStick(OnScreenStick const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6794 };
+
+  /// @brief Field kDynamicOriginClickable offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDynamicOriginClickable{ u"DynamicOriginClickable" };
+
   /// @brief Field m_MovementRange, offset: 0x38, size: 0x4, def value: None
   float_t ___m_MovementRange;
 
@@ -363,7 +359,7 @@ public:
   ::StringW ___m_ControlPath;
 
   /// @brief Field m_Behaviour, offset: 0x48, size: 0x4, def value: None
-  ::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour ___m_Behaviour;
+  ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour ___m_Behaviour;
 
   /// @brief Field m_UseIsolatedInputActions, offset: 0x4c, size: 0x1, def value: None
   bool ___m_UseIsolatedInputActions;
@@ -386,17 +382,9 @@ public:
   /// @brief Field m_PointerEventData, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::EventSystems::PointerEventData* ___m_PointerEventData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6769 };
-
-  /// @brief Field kDynamicOriginClickable offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDynamicOriginClickable{ u"DynamicOriginClickable" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::OnScreenStick, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick, ___m_MovementRange) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick, ___m_DynamicOriginRange) == 0x3c, "Offset mismatch!");
@@ -419,7 +407,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick, ___m
 
 static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick, ___m_PointerEventData) == 0x80, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::OnScreenStick, 0x88>, "Size mismatch!");
+
 } // namespace UnityEngine::InputSystem::OnScreen
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::__OnScreenStick__Behaviour, "UnityEngine.InputSystem.OnScreen", "OnScreenStick/Behaviour");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour, "UnityEngine.InputSystem.OnScreen", "OnScreenStick/Behaviour");
 NEED_NO_BOX(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenStick*, "UnityEngine.InputSystem.OnScreen", "OnScreenStick");

@@ -3,14 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CmsProcessableInputStream)
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
-}
 namespace System::IO {
 class Stream;
 }
@@ -23,11 +19,10 @@ class CmsProcessableInputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableInputStream);
-// Type: Org.BouncyCastle.Cms::CmsProcessableInputStream
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Cms.CmsProcessable, Org.BouncyCastle.Cms.CmsReadable, System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsProcessableInputStream*
+// CS Name: Org.BouncyCastle.Cms.CmsProcessableInputStream
 class CORDL_TYPE CmsProcessableInputStream : public ::System::Object {
 public:
   // Declarations
@@ -43,23 +38,23 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method CheckSingleUsage, addr 0x262578c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CheckSingleUsage, addr 0x2658a78, size 0xf0, virtual true, abstract: false, final false
   inline void CheckSingleUsage();
 
-  /// @brief Method GetContent, addr 0x2625780, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x2658a6c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x26256d8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x26589c4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method Write, addr 0x26256f8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x26589e4, size 0x88, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* output);
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_input();
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_input() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_input() const;
+  constexpr ::System::IO::Stream*& __cordl_internal_get_input();
 
   constexpr bool const& __cordl_internal_get_used() const;
 
@@ -69,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_used(bool value);
 
-  /// @brief Method .ctor, addr 0x2624860, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2657b4c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
@@ -92,23 +87,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsProcessableInputStream(CmsProcessableInputStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 647 };
+
   /// @brief Field input, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ___input;
 
   /// @brief Field used, offset: 0x18, size: 0x1, def value: None
   bool ___used;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 647 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsProcessableInputStream, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsProcessableInputStream, ___input) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsProcessableInputStream, ___used) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsProcessableInputStream, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsProcessableInputStream);

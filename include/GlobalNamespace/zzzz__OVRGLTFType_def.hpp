@@ -12,11 +12,10 @@ struct OVRGLTFType;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRGLTFType);
-// Type: ::OVRGLTFType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRGLTFType
+// CS Name: OVRGLTFType
 struct CORDL_TYPE OVRGLTFType {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr OVRGLTFType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field MAT4 value: static_cast<int32_t>(0x5)
+  /// @brief Field MAT4 value: I32(5)
   static ::GlobalNamespace::OVRGLTFType const MAT4;
 
-  /// @brief Field NONE value: static_cast<int32_t>(0x0)
+  /// @brief Field NONE value: I32(0)
   static ::GlobalNamespace::OVRGLTFType const NONE;
 
-  /// @brief Field SCALAR value: static_cast<int32_t>(0x1)
+  /// @brief Field SCALAR value: I32(1)
   static ::GlobalNamespace::OVRGLTFType const SCALAR;
 
-  /// @brief Field VEC2 value: static_cast<int32_t>(0x2)
+  /// @brief Field VEC2 value: I32(2)
   static ::GlobalNamespace::OVRGLTFType const VEC2;
 
-  /// @brief Field VEC3 value: static_cast<int32_t>(0x3)
+  /// @brief Field VEC3 value: I32(3)
   static ::GlobalNamespace::OVRGLTFType const VEC3;
 
-  /// @brief Field VEC4 value: static_cast<int32_t>(0x4)
+  /// @brief Field VEC4 value: I32(4)
   static ::GlobalNamespace::OVRGLTFType const VEC4;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7862 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRGLTFType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFType, "", "OVRGLTFType");

@@ -17,11 +17,10 @@ class MockObstacleData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockObstacleData);
-// Type: ::MockObstacleData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies NoteLineLayer, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockObstacleData*
+// CS Name: MockObstacleData
 class CORDL_TYPE MockObstacleData : public ::System::Object {
 public:
   // Declarations
@@ -82,37 +81,37 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bc8f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2905c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x3bc8f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x3c2903c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x3bc8f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x3c2901c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x3bc8f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x3c2902c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_time, addr 0x3bc8ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3c2900c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_width, addr 0x3bc8f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x3c2904c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_duration, addr 0x3bc8f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x3c29044, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_lineIndex, addr 0x3bc8f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x3c29024, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0x3bc8f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x3c29034, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_time, addr 0x3bc8f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x3c29014, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_width, addr 0x3bc8f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x3c29054, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:
@@ -129,6 +128,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockObstacleData(MockObstacleData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18098 };
+
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;
 
@@ -144,14 +146,9 @@ public:
   /// @brief Field <width>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____width_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18018 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockObstacleData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____time_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____lineIndex_k__BackingField) == 0x14, "Offset mismatch!");
@@ -161,6 +158,8 @@ static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____lineLayer_k__Bac
 static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____duration_k__BackingField) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____width_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockObstacleData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockObstacleData);

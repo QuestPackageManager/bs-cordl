@@ -1,25 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/PointerCaptureEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerCaptureEventInternal_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerCaptureEventInternal_def.hpp"
-/// @brief Convert operator to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
-template <typename T> constexpr UnityEngine::UIElements::PointerCaptureEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerCaptureEventInternal*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IPointerCaptureEventInternal*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
-template <typename T>
-constexpr ::UnityEngine::UIElements::IPointerCaptureEventInternal* UnityEngine::UIElements::PointerCaptureEventBase_1<T>::i___UnityEngine__UIElements__IPointerCaptureEventInternal() noexcept {
-  return static_cast<::UnityEngine::UIElements::IPointerCaptureEventInternal*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::UnityEngine::UIElements::IEventHandler*& UnityEngine::UIElements::PointerCaptureEventBase_1<T>::__cordl_internal_get__relatedTarget_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relatedTarget_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const&
-UnityEngine::UIElements::PointerCaptureEventBase_1<T>::__cordl_internal_get__relatedTarget_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::UIElements::IEventHandler* const& UnityEngine::UIElements::PointerCaptureEventBase_1<T>::__cordl_internal_get__relatedTarget_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relatedTarget_k__BackingField;
 }
@@ -77,13 +66,22 @@ inline T UnityEngine::UIElements::PointerCaptureEventBase_1<T>::GetPooled(::Unit
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, target, relatedTarget, pointerId);
 }
-template <typename T> inline ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>* UnityEngine::UIElements::PointerCaptureEventBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PointerCaptureEventBase_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::PointerCaptureEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerCaptureEventBase_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>* UnityEngine::UIElements::PointerCaptureEventBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PointerCaptureEventBase_1<T>*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
+template <typename T> constexpr UnityEngine::UIElements::PointerCaptureEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerCaptureEventInternal*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerCaptureEventInternal*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
+template <typename T>
+constexpr ::UnityEngine::UIElements::IPointerCaptureEventInternal* UnityEngine::UIElements::PointerCaptureEventBase_1<T>::i___UnityEngine__UIElements__IPointerCaptureEventInternal() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerCaptureEventInternal*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>::PointerCaptureEventBase_1() {}

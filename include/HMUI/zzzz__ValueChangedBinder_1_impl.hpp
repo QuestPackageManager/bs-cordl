@@ -12,7 +12,7 @@ constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValu
   return this->____bindings;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>*> const&
+constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* const&
 HMUI::ValueChangedBinder_1<T>::__cordl_internal_get__bindings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindings;
@@ -22,16 +22,10 @@ constexpr void HMUI::ValueChangedBinder_1<T>::__cordl_internal_set__bindings(::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____bindings, value);
 }
-template <typename T> inline ::HMUI::ValueChangedBinder_1<T>* HMUI::ValueChangedBinder_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ValueChangedBinder_1<T>*>());
-}
 template <typename T> inline void HMUI::ValueChangedBinder_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ValueChangedBinder_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline ::HMUI::ValueChangedBinder_1<T>* HMUI::ValueChangedBinder_1<T>::New_ctor(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ValueChangedBinder_1<T>*>(valueChanger, action));
 }
 template <typename T> inline void HMUI::ValueChangedBinder_1<T>::_ctor(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action) {
   static auto* ___internal_method =
@@ -39,11 +33,6 @@ template <typename T> inline void HMUI::ValueChangedBinder_1<T>::_ctor(::HMUI::I
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::IValueChanger_1<T>*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, valueChanger, action);
-}
-template <typename T>
-inline ::HMUI::ValueChangedBinder_1<T>*
-HMUI::ValueChangedBinder_1<T>::New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* bindingData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ValueChangedBinder_1<T>*>(bindingData));
 }
 template <typename T> inline void HMUI::ValueChangedBinder_1<T>::_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* bindingData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,6 +65,17 @@ template <typename T> inline void HMUI::ValueChangedBinder_1<T>::ClearBindings()
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ValueChangedBinder_1<T>*>::get(), "ClearBindings",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::HMUI::ValueChangedBinder_1<T>* HMUI::ValueChangedBinder_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ValueChangedBinder_1<T>*>());
+}
+template <typename T> inline ::HMUI::ValueChangedBinder_1<T>* HMUI::ValueChangedBinder_1<T>::New_ctor(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ValueChangedBinder_1<T>*>(valueChanger, action));
+}
+template <typename T>
+inline ::HMUI::ValueChangedBinder_1<T>*
+HMUI::ValueChangedBinder_1<T>::New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* bindingData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ValueChangedBinder_1<T>*>(bindingData));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::HMUI::ValueChangedBinder_1<T>::ValueChangedBinder_1() {}

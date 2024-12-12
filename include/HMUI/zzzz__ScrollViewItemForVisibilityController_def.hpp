@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScrollViewItemForVisibilityController)
 namespace UnityEngine {
 struct Vector3;
@@ -15,20 +14,19 @@ class ScrollViewItemForVisibilityController;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScrollViewItemForVisibilityController);
-// Type: HMUI::ScrollViewItemForVisibilityController
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ScrollViewItemForVisibilityController*
+// CS Name: HMUI.ScrollViewItemForVisibilityController
 class CORDL_TYPE ScrollViewItemForVisibilityController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetWorldCorners, addr 0x39a59a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetWorldCorners, addr 0x39fc610, size 0x68, virtual false, abstract: false, final false
   inline void GetWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> fourCornersArray);
 
   static inline ::HMUI::ScrollViewItemForVisibilityController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39a5a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fc678, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +44,7 @@ public:
   ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16095 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

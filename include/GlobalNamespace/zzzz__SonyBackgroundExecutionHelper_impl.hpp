@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SonyBackgroundExecutionHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyBackgroundExecutionHelper_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.add_didGoToBackgroundExecutionEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToBackgroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26b32a4;
+  constexpr static std::size_t addrs = 0x26e7d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToBackgroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26b3340;
+  constexpr static std::size_t addrs = 0x26e7e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToForegroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26b33dc;
+  constexpr static std::size_t addrs = 0x26e7ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToForegroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26b3478;
+  constexpr static std::size_t addrs = 0x26e7f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::get_isInBackgroundExecution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3514;
+  constexpr static std::size_t addrs = 0x26e7fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::Tick)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26b351c;
+  constexpr static std::size_t addrs = 0x26e7fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(), "Tick",
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3544;
+  constexpr static std::size_t addrs = 0x26e8010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
@@ -106,19 +106,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::ITickable"
-constexpr GlobalNamespace::SonyBackgroundExecutionHelper::operator ::Zenject::ITickable*() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::ITickable"
-constexpr ::Zenject::ITickable* GlobalNamespace::SonyBackgroundExecutionHelper::i___Zenject__ITickable() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
 constexpr ::System::Action*& GlobalNamespace::SonyBackgroundExecutionHelper::__cordl_internal_get_didGoToBackgroundExecutionEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToBackgroundExecutionEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::SonyBackgroundExecutionHelper::__cordl_internal_get_didGoToBackgroundExecutionEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::SonyBackgroundExecutionHelper::__cordl_internal_get_didGoToBackgroundExecutionEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToBackgroundExecutionEvent;
 }
@@ -130,7 +122,7 @@ constexpr ::System::Action*& GlobalNamespace::SonyBackgroundExecutionHelper::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToForegroundExecutionEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::SonyBackgroundExecutionHelper::__cordl_internal_get_didGoToForegroundExecutionEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::SonyBackgroundExecutionHelper::__cordl_internal_get_didGoToForegroundExecutionEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToForegroundExecutionEvent;
 }
@@ -184,13 +176,21 @@ inline void GlobalNamespace::SonyBackgroundExecutionHelper::Tick() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SonyBackgroundExecutionHelper* GlobalNamespace::SonyBackgroundExecutionHelper::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyBackgroundExecutionHelper*>());
-}
 inline void GlobalNamespace::SonyBackgroundExecutionHelper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SonyBackgroundExecutionHelper* GlobalNamespace::SonyBackgroundExecutionHelper::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyBackgroundExecutionHelper*>());
+}
+/// @brief Convert operator to "::Zenject::ITickable"
+constexpr GlobalNamespace::SonyBackgroundExecutionHelper::operator ::Zenject::ITickable*() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* GlobalNamespace::SonyBackgroundExecutionHelper::i___Zenject__ITickable() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper::SonyBackgroundExecutionHelper() {}

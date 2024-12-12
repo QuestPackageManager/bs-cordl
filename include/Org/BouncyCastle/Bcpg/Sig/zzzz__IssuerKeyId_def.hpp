@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IssuerKeyId)
 // Forward declare root types
@@ -13,30 +12,29 @@ class IssuerKeyId;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId);
-// Type: Org.BouncyCastle.Bcpg.Sig::IssuerKeyId
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::IssuerKeyId*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.IssuerKeyId
 class CORDL_TYPE IssuerKeyId : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  /// @brief Method KeyIdToBytes, addr 0x2609300, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method KeyIdToBytes, addr 0x263c5ec, size 0xd4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> KeyIdToBytes(int64_t keyId);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, int64_t keyId);
 
-  /// @brief Method .ctor, addr 0x26093d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263c6c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x260941c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263c708, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t keyId);
 
-  /// @brief Method get_KeyId, addr 0x2609468, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x263c754, size 0x9c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
 protected:

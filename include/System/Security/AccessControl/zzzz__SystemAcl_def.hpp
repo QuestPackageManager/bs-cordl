@@ -15,18 +15,17 @@ class SystemAcl;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::SystemAcl);
-// Type: System.Security.AccessControl::SystemAcl
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.AccessControl.CommonAcl
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::SystemAcl*
+// CS Name: System.Security.AccessControl.SystemAcl
 class CORDL_TYPE SystemAcl : public ::System::Security::AccessControl::CommonAcl {
 public:
   // Declarations
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x3c654a0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x3cc5614, size 0x20, virtual true, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method GetAceInsertPosition, addr 0x3c654c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAceInsertPosition, addr 0x3cc5634, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
 protected:

@@ -6,23 +6,23 @@
 #include "HoudiniEngineUnity/zzzz__HEU_SessionSyncData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionSyncData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_SessionSyncData__Status::__HEU_SessionSyncData__Status(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_SessionSyncData_Status::HEU_SessionSyncData_Status(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_SessionSyncData__Status::__HEU_SessionSyncData__Status() {}
-constexpr ::HoudiniEngineUnity::__HEU_SessionSyncData__Status HoudiniEngineUnity::__HEU_SessionSyncData__Status::Stopped{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_SessionSyncData__Status HoudiniEngineUnity::__HEU_SessionSyncData__Status::Started{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_SessionSyncData__Status HoudiniEngineUnity::__HEU_SessionSyncData__Status::Connecting{ static_cast<int32_t>(0x2) };
-constexpr ::HoudiniEngineUnity::__HEU_SessionSyncData__Status HoudiniEngineUnity::__HEU_SessionSyncData__Status::Initializing{ static_cast<int32_t>(0x3) };
-constexpr ::HoudiniEngineUnity::__HEU_SessionSyncData__Status HoudiniEngineUnity::__HEU_SessionSyncData__Status::Connected{ static_cast<int32_t>(0x4) };
+constexpr ::HoudiniEngineUnity::HEU_SessionSyncData_Status::HEU_SessionSyncData_Status() {}
+constexpr ::HoudiniEngineUnity::HEU_SessionSyncData_Status HoudiniEngineUnity::HEU_SessionSyncData_Status::Stopped{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_SessionSyncData_Status HoudiniEngineUnity::HEU_SessionSyncData_Status::Started{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_SessionSyncData_Status HoudiniEngineUnity::HEU_SessionSyncData_Status::Connecting{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_SessionSyncData_Status HoudiniEngineUnity::HEU_SessionSyncData_Status::Initializing{ static_cast<int32_t>(0x3) };
+constexpr ::HoudiniEngineUnity::HEU_SessionSyncData_Status HoudiniEngineUnity::HEU_SessionSyncData_Status::Connected{ static_cast<int32_t>(0x4) };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_SessionSyncData.get_SyncStatus
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::__HEU_SessionSyncData__Status (::HoudiniEngineUnity::HEU_SessionSyncData::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionSyncData_Status (::HoudiniEngineUnity::HEU_SessionSyncData::*)()>(
     &::HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a05670;
+  constexpr static std::size_t addrs = 0x3a5c2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(),
@@ -33,15 +33,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_SessionSyncData.set_SyncStatus
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionSyncData::*)(::HoudiniEngineUnity::__HEU_SessionSyncData__Status)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionSyncData::*)(::HoudiniEngineUnity::HEU_SessionSyncData_Status)>(
     &::HoudiniEngineUnity::HEU_SessionSyncData::set_SyncStatus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a05684;
+  constexpr static std::size_t addrs = 0x3a5c2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(), "set_SyncStatus", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_SessionSyncData__Status>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionSyncData_Status>::get() })));
     return ___internal_method;
   }
 };
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionSyncData::*)()>(&::HoudiniEngineUnity::HEU_SessionSyncData::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3a02a94;
+  constexpr static std::size_t addrs = 0x3a59704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(), ".ctor",
@@ -178,24 +178,24 @@ constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__cordl_internal_set__sy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____syncInfo = value;
 }
-inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus() {
+inline ::HoudiniEngineUnity::HEU_SessionSyncData_Status HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(),
                                                                              "get_SyncStatus", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::__HEU_SessionSyncData__Status, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_SessionSyncData_Status, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::HEU_SessionSyncData::set_SyncStatus(::HoudiniEngineUnity::__HEU_SessionSyncData__Status value) {
+inline void HoudiniEngineUnity::HEU_SessionSyncData::set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData_Status value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(), "set_SyncStatus", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_SessionSyncData__Status>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionSyncData_Status>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::HoudiniEngineUnity::HEU_SessionSyncData* HoudiniEngineUnity::HEU_SessionSyncData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_SessionSyncData*>());
 }
 inline void HoudiniEngineUnity::HEU_SessionSyncData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionSyncData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_SessionSyncData* HoudiniEngineUnity::HEU_SessionSyncData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_SessionSyncData*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_SessionSyncData::HEU_SessionSyncData() {}

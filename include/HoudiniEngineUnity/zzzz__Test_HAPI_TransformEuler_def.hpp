@@ -4,13 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_TransformEuler)
 namespace HoudiniEngineUnity {
 struct HAPI_TransformEuler;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -18,11 +16,10 @@ class Test_HAPI_TransformEuler;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_TransformEuler);
-// Type: HoudiniEngineUnity::Test_HAPI_TransformEuler
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_TransformEuler, HoudiniEngineUnity.IEquivable`1<T>, System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::Test_HAPI_TransformEuler*
+// CS Name: HoudiniEngineUnity.Test_HAPI_TransformEuler
 class CORDL_TYPE Test_HAPI_TransformEuler : public ::System::Object {
 public:
   // Declarations
@@ -32,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a40f28, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a97b98, size 0x254, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_TransformEuler* New_ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
@@ -43,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_TransformEuler value);
 
-  /// @brief Method .ctor, addr 0x3a40ef4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a97b64, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>"
@@ -63,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_TransformEuler(Test_HAPI_TransformEuler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11882 };
+
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_TransformEuler ___self;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_HAPI_TransformEuler, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::Test_HAPI_TransformEuler, ___self) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_HAPI_TransformEuler, 0x38>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_TransformEuler);

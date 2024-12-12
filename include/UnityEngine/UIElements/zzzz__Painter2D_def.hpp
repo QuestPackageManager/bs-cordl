@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SafeHandleAccess_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Painter2D)
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::UIElements::UIR {
 class DetachedAllocator;
 }
@@ -23,16 +21,15 @@ class Painter2D;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Painter2D);
-// Type: UnityEngine.UIElements::Painter2D
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.SafeHandleAccess
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::Painter2D*
+// CS Name: UnityEngine.UIElements.Painter2D
 class CORDL_TYPE Painter2D : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <isPainterActive>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__isPainterActive_k__BackingField, put = setStaticF__isPainterActive_k__BackingField)) bool _isPainterActive_k__BackingField;
+  __declspec(property(get = getStaticF__isPainterActive_k__BackingField, put = setStaticF__isPainterActive_k__BackingField)) bool _isPainterActive_k__BackingField;
 
   /// @brief Field m_Ctx, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ctx, put = __cordl_internal_set_m_Ctx)) ::UnityEngine::UIElements::MeshGenerationContext* m_Ctx;
@@ -47,35 +44,35 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Handle, put = __cordl_internal_set_m_Handle)) ::UnityEngine::UIElements::SafeHandleAccess m_Handle;
 
   /// @brief Field s_FillMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FillMarker, put = setStaticF_s_FillMarker)) ::Unity::Profiling::ProfilerMarker s_FillMarker;
+  __declspec(property(get = getStaticF_s_FillMarker, put = setStaticF_s_FillMarker)) ::Unity::Profiling::ProfilerMarker s_FillMarker;
 
   /// @brief Field s_MaxArcRadius, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_MaxArcRadius, put = setStaticF_s_MaxArcRadius)) float_t s_MaxArcRadius;
+  __declspec(property(get = getStaticF_s_MaxArcRadius, put = setStaticF_s_MaxArcRadius)) float_t s_MaxArcRadius;
 
   /// @brief Field s_StrokeMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_StrokeMarker, put = setStaticF_s_StrokeMarker)) ::Unity::Profiling::ProfilerMarker s_StrokeMarker;
+  __declspec(property(get = getStaticF_s_StrokeMarker, put = setStaticF_s_StrokeMarker)) ::Unity::Profiling::ProfilerMarker s_StrokeMarker;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x49e5eec, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a4a7fc, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49e5f50, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a4a860, size 0x88, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
-  /// @brief Method Reset, addr 0x49e5ea8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a4a7b8, size 0x44, virtual false, abstract: false, final false
   inline void Reset();
+
+  constexpr ::UnityEngine::UIElements::MeshGenerationContext* const& __cordl_internal_get_m_Ctx() const;
 
   constexpr ::UnityEngine::UIElements::MeshGenerationContext*& __cordl_internal_get_m_Ctx();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::MeshGenerationContext*> const& __cordl_internal_get_m_Ctx() const;
+  constexpr ::UnityEngine::UIElements::UIR::DetachedAllocator* const& __cordl_internal_get_m_DetachedAllocator() const;
 
   constexpr ::UnityEngine::UIElements::UIR::DetachedAllocator*& __cordl_internal_get_m_DetachedAllocator();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::DetachedAllocator*> const& __cordl_internal_get_m_DetachedAllocator() const;
 
   constexpr bool const& __cordl_internal_get_m_Disposed() const;
 
@@ -93,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Handle(::UnityEngine::UIElements::SafeHandleAccess value);
 
-  /// @brief Method .ctor, addr 0x49e5d64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a4a674, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
   static inline bool getStaticF__isPainterActive_k__BackingField();
@@ -115,7 +112,7 @@ public:
 
   static inline void setStaticF_s_StrokeMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_isPainterActive, addr 0x49e5fd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_isPainterActive, addr 0x4a4a8e8, size 0x60, virtual false, abstract: false, final false
   static inline void set_isPainterActive(bool value);
 
 protected:
@@ -132,6 +129,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Painter2D(Painter2D const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6035 };
+
   /// @brief Field m_Ctx, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::MeshGenerationContext* ___m_Ctx;
 
@@ -144,14 +144,9 @@ public:
   /// @brief Field m_Disposed, offset: 0x28, size: 0x1, def value: None
   bool ___m_Disposed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6010 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Painter2D, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::Painter2D, ___m_Ctx) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::Painter2D, ___m_DetachedAllocator) == 0x18, "Offset mismatch!");
@@ -159,6 +154,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Painter2D, ___m_DetachedAlloca
 static_assert(offsetof(::UnityEngine::UIElements::Painter2D, ___m_Handle) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::Painter2D, ___m_Disposed) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Painter2D, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Painter2D);

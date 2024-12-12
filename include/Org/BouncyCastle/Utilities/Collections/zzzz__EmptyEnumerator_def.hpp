@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyEnumerator)
 namespace System::Collections {
@@ -17,36 +18,35 @@ class EmptyEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator);
-// Type: Org.BouncyCastle.Utilities.Collections::EmptyEnumerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEnumerator, System.Object
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Collections::EmptyEnumerator*
+// CS Name: Org.BouncyCastle.Utilities.Collections.EmptyEnumerator
 class CORDL_TYPE EmptyEnumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Object* Current;
 
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Collections::IEnumerator* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Collections::IEnumerator* Instance;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x259c95c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25cfc48, size 0x8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator* New_ctor();
 
-  /// @brief Method Reset, addr 0x259c964, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x25cfc50, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x259c954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cfc40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IEnumerator* getStaticF_Instance();
 
-  /// @brief Method get_Current, addr 0x259c968, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x25cfc54, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"

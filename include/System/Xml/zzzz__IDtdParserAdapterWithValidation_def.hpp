@@ -3,10 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
 CORDL_MODULE_EXPORT(IDtdParserAdapterWithValidation)
-namespace System::Xml {
-class IDtdParserAdapter;
-}
 namespace System::Xml {
 class IValidationEventHandling;
 }
@@ -16,11 +14,10 @@ class IDtdParserAdapterWithValidation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IDtdParserAdapterWithValidation);
-// Type: System.Xml::IDtdParserAdapterWithValidation
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.IDtdParserAdapter
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::IDtdParserAdapterWithValidation*
+// CS Name: System.Xml.IDtdParserAdapterWithValidation
 class CORDL_TYPE IDtdParserAdapterWithValidation {
 public:
   // Declarations
@@ -31,25 +28,21 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdParserAdapter"
   constexpr operator ::System::Xml::IDtdParserAdapter*() noexcept;
 
-  /// @brief Method get_DtdValidation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_DtdValidation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_DtdValidation();
 
-  /// @brief Method get_ValidationEventHandling, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ValidationEventHandling, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Xml::IValidationEventHandling* get_ValidationEventHandling();
 
   /// @brief Convert to "::System::Xml::IDtdParserAdapter"
   constexpr ::System::Xml::IDtdParserAdapter* i___System__Xml__IDtdParserAdapter() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapterWithValidation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDtdParserAdapterWithValidation(IDtdParserAdapterWithValidation&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapterWithValidation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDtdParserAdapterWithValidation(IDtdParserAdapterWithValidation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

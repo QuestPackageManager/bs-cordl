@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(LeaderboardViewController)
 namespace GlobalNamespace {
 struct BeatmapKey;
@@ -15,23 +14,22 @@ class LeaderboardViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LeaderboardViewController);
-// Type: ::LeaderboardViewController
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LeaderboardViewController*
+// CS Name: LeaderboardViewController
 class CORDL_TYPE LeaderboardViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   static inline ::GlobalNamespace::LeaderboardViewController* New_ctor();
 
-  /// @brief Method RefreshLevelStats, addr 0x3bb4b38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RefreshLevelStats, addr 0x3b58354, size 0x4, virtual true, abstract: false, final false
   inline void RefreshLevelStats();
 
-  /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetData(ByRef<::GlobalNamespace::BeatmapKey> previewDifficultyBeatmap);
+  /// @brief Method SetData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetData(::ByRef<::GlobalNamespace::BeatmapKey> previewDifficultyBeatmap);
 
-  /// @brief Method .ctor, addr 0x3bb4b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b58358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +47,7 @@ public:
   LeaderboardViewController(LeaderboardViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5327 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

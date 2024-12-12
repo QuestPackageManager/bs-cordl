@@ -24,13 +24,12 @@ template <typename TDelegate> class ExpressionCreator_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::ExpressionCreator_1);
-// Type: System.Linq.Expressions::ExpressionCreator`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::ExpressionCreator`1<TDelegate>*
+// CS Name: System.Linq.Expressions.ExpressionCreator`1<TDelegate>
 class CORDL_TYPE ExpressionCreator_1 : public ::System::Object {
 public:
   // Declarations
@@ -54,7 +53,7 @@ public:
   ExpressionCreator_1(ExpressionCreator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,13 +11,12 @@ template <typename T> class SelectableStateController_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SelectableStateController_1);
-// Type: ::SelectableStateController`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SelectableStateController
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::SelectableStateController`1<T>*
+// CS Name: SelectableStateController`1<T>
 class CORDL_TYPE SelectableStateController_1 : public ::GlobalNamespace::SelectableStateController {
 public:
   // Declarations
@@ -49,11 +48,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectableStateController_1(SelectableStateController_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18205 };
+
   /// @brief Field _component, offset: 0x38, size: 0x8, def value: None
   T ____component;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18125 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

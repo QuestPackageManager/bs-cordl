@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RightShiftInstruction)
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftByte;
+}
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftInt16;
+}
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftInt32;
+}
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftInt64;
+}
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftSByte;
+}
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftUInt16;
+}
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftUInt32;
+}
+namespace GlobalNamespace {
+class RightShiftInstruction_RightShiftUInt64;
+}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftInt64;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftSByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftUInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftUInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __RightShiftInstruction__RightShiftUInt64;
 }
 namespace System {
 class Type;
@@ -43,29 +43,28 @@ class RightShiftInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::RightShiftInstruction);
-// Type: System.Linq.Expressions.Interpreter::RightShiftInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::RightShiftInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.RightShiftInstruction
 class CORDL_TYPE RightShiftInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using RightShiftByte = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftByte;
+  using RightShiftByte = ::GlobalNamespace::RightShiftInstruction_RightShiftByte;
 
-  using RightShiftInt16 = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftInt16;
+  using RightShiftInt16 = ::GlobalNamespace::RightShiftInstruction_RightShiftInt16;
 
-  using RightShiftInt32 = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftInt32;
+  using RightShiftInt32 = ::GlobalNamespace::RightShiftInstruction_RightShiftInt32;
 
-  using RightShiftInt64 = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftInt64;
+  using RightShiftInt64 = ::GlobalNamespace::RightShiftInstruction_RightShiftInt64;
 
-  using RightShiftSByte = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftSByte;
+  using RightShiftSByte = ::GlobalNamespace::RightShiftInstruction_RightShiftSByte;
 
-  using RightShiftUInt16 = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftUInt16;
+  using RightShiftUInt16 = ::GlobalNamespace::RightShiftInstruction_RightShiftUInt16;
 
-  using RightShiftUInt32 = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftUInt32;
+  using RightShiftUInt32 = ::GlobalNamespace::RightShiftInstruction_RightShiftUInt32;
 
-  using RightShiftUInt64 = ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftUInt64;
+  using RightShiftUInt64 = ::GlobalNamespace::RightShiftInstruction_RightShiftUInt64;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
@@ -74,35 +73,35 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_Byte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
+  __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
 
   /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
   /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
   /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
   /// @brief Field s_SByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
+  __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
 
   /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+  __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
 
   /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+  __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
 
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+  __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x409265c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40f3970, size 0x368, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::RightShiftInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4092654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f3968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Byte();
@@ -121,13 +120,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x4092604, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f3918, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4092614, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f3928, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x409260c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f3920, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Byte(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -161,7 +160,7 @@ public:
   RightShiftInstruction(RightShiftInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

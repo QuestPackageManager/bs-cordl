@@ -15,11 +15,10 @@ class CrashManagerSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CrashManagerSO);
-// Type: ::CrashManagerSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CrashManagerSO*
+// CS Name: CrashManagerSO
 class CORDL_TYPE CrashManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -33,15 +32,15 @@ public:
 
   __declspec(property(get = get_stackTrace)) ::StringW stackTrace;
 
-  /// @brief Method HandleLog, addr 0x3aaa4f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleLog, addr 0x3b07498, size 0xc4, virtual false, abstract: false, final false
   inline void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::GlobalNamespace::CrashManagerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3aaa454, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b073f4, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StartCatchingExceptions, addr 0x3aaa3b0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method StartCatchingExceptions, addr 0x3b07350, size 0xa4, virtual false, abstract: false, final false
   inline void StartCatchingExceptions();
 
   constexpr ::StringW const& __cordl_internal_get__logString() const;
@@ -56,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__stackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3aaa5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0755c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_logString, addr 0x3aaa3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logString, addr 0x3b07340, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logString();
 
-  /// @brief Method get_stackTrace, addr 0x3aaa3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stackTrace, addr 0x3b07348, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stackTrace();
 
 protected:
@@ -79,23 +78,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CrashManagerSO(CrashManagerSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5014 };
+
   /// @brief Field _logString, offset: 0x18, size: 0x8, def value: None
   ::StringW ____logString;
 
   /// @brief Field _stackTrace, offset: 0x20, size: 0x8, def value: None
   ::StringW ____stackTrace;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4994 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CrashManagerSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CrashManagerSO, ____logString) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CrashManagerSO, ____stackTrace) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CrashManagerSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CrashManagerSO);

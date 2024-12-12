@@ -3,8 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageDictionary)
@@ -21,16 +25,13 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class __MessageDictionary__DictionaryEnumerator;
+class MessageDictionary_DictionaryEnumerator;
 }
 namespace System {
 class Array;
@@ -43,17 +44,16 @@ namespace System::Runtime::Remoting::Messaging {
 class MessageDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
-class __MessageDictionary__DictionaryEnumerator;
+class MessageDictionary_DictionaryEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MessageDictionary);
-MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator);
-// Type: ::DictionaryEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator);
+// Dependencies System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator, System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::MessageDictionary::DictionaryEnumerator*
-class CORDL_TYPE __MessageDictionary__DictionaryEnumerator : public ::System::Object {
+// CS Name: System.Runtime.Remoting.Messaging.MessageDictionary/DictionaryEnumerator
+class CORDL_TYPE MessageDictionary_DictionaryEnumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Object* Current;
@@ -79,21 +79,21 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3c8db90, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3cedd04, size 0x1d0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator* New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
+  static inline ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator* New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method Reset, addr 0x3c8dd60, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3ceded4, size 0xac, virtual true, abstract: false, final true
   inline void Reset();
+
+  constexpr ::System::Collections::IDictionaryEnumerator* const& __cordl_internal_get__hashtableEnum() const;
 
   constexpr ::System::Collections::IDictionaryEnumerator*& __cordl_internal_get__hashtableEnum();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionaryEnumerator*> const& __cordl_internal_get__hashtableEnum() const;
+  constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary* const& __cordl_internal_get__methodDictionary() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary*& __cordl_internal_get__methodDictionary();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MessageDictionary*> const& __cordl_internal_get__methodDictionary() const;
 
   constexpr int32_t const& __cordl_internal_get__posMethod() const;
 
@@ -105,19 +105,19 @@ public:
 
   constexpr void __cordl_internal_set__posMethod(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c8d8e0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ceda54, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method get_Current, addr 0x3c8d9c4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x3cedb38, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry, addr 0x3c8da28, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x3cedb9c, size 0x168, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x3c8de0c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x3cedf80, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x3c8de10, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x3cedf84, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -129,16 +129,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MessageDictionary__DictionaryEnumerator();
+  constexpr MessageDictionary_DictionaryEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MessageDictionary__DictionaryEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MessageDictionary_DictionaryEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MessageDictionary__DictionaryEnumerator(__MessageDictionary__DictionaryEnumerator&&) = delete;
+  MessageDictionary_DictionaryEnumerator(MessageDictionary_DictionaryEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MessageDictionary__DictionaryEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MessageDictionary_DictionaryEnumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MessageDictionary__DictionaryEnumerator(__MessageDictionary__DictionaryEnumerator const&) = delete;
+  MessageDictionary_DictionaryEnumerator(MessageDictionary_DictionaryEnumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3175 };
 
   /// @brief Field _methodDictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::MessageDictionary* ____methodDictionary;
@@ -149,30 +152,26 @@ public:
   /// @brief Field _posMethod, offset: 0x20, size: 0x4, def value: None
   int32_t ____posMethod;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3175 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator, ____methodDictionary) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, ____methodDictionary) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator, ____hashtableEnum) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, ____hashtableEnum) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator, ____posMethod) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, ____posMethod) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
-// Type: System.Runtime.Remoting.Messaging::MessageDictionary
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable, System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::MessageDictionary*
+// CS Name: System.Runtime.Remoting.Messaging.MessageDictionary
 class CORDL_TYPE MessageDictionary : public ::System::Object {
 public:
   // Declarations
-  using DictionaryEnumerator = ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator;
+  using DictionaryEnumerator = ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -215,54 +214,54 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x3c8c958, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x3cecacc, size 0x168, virtual true, abstract: false, final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method AllocInternalProperties, addr 0x3c8c71c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method AllocInternalProperties, addr 0x3cec890, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* AllocInternalProperties();
 
-  /// @brief Method Clear, addr 0x3c8d328, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x3ced49c, size 0xac, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x3c8d3d4, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x3ced548, size 0x13c, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method CopyTo, addr 0x3c8d768, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x3ced8dc, size 0xc0, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x3c8d884, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3ced9f8, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetInternalProperties, addr 0x3c895e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetInternalProperties, addr 0x3ce9754, size 0x30, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetInternalProperties();
 
-  /// @brief Method GetMethodProperty, addr 0x3c8a8e0, size 0x564, virtual true, abstract: false, final false
+  /// @brief Method GetMethodProperty, addr 0x3ceaa54, size 0x564, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
-  /// @brief Method HasUserData, addr 0x3c8736c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HasUserData, addr 0x3ce74e0, size 0xfc, virtual false, abstract: false, final false
   inline bool HasUserData();
 
-  /// @brief Method IsOverridenKey, addr 0x3c8c77c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsOverridenKey, addr 0x3cec8f0, size 0x88, virtual false, abstract: false, final false
   inline bool IsOverridenKey(::StringW key);
 
   static inline ::System::Runtime::Remoting::Messaging::MessageDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method Remove, addr 0x3c8d510, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x3ced684, size 0x184, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method SetMethodProperty, addr 0x3c8b0ac, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method SetMethodProperty, addr 0x3ceb220, size 0x2e0, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3c8d828, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3ced99c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get__internalProperties() const;
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get__internalProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__internalProperties() const;
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* const& __cordl_internal_get__message() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage*& __cordl_internal_get__message();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMethodMessage*> const& __cordl_internal_get__message() const;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__methodKeys() const;
 
@@ -280,34 +279,34 @@ public:
 
   constexpr void __cordl_internal_set__ownProperties(bool value);
 
-  /// @brief Method .ctor, addr 0x3c8a4ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cea660, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method get_Count, addr 0x3c8d694, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x3ced808, size 0xc8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_InternalDictionary, addr 0x3c87468, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_InternalDictionary, addr 0x3ce75dc, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_InternalDictionary();
 
-  /// @brief Method get_IsFixedSize, addr 0x3c8c804, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x3cec978, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x3c8c80c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x3cec980, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x3c8d75c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x3ced8d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x3c8c814, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x3cec988, size 0x140, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method get_Keys, addr 0x3c8cac0, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x3cecc34, size 0x440, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_SyncRoot, addr 0x3c8d764, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x3ced8d8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x3c8cf00, size 0x428, virtual true, abstract: false, final true
+  /// @brief Method get_Values, addr 0x3ced074, size 0x428, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Values();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -319,10 +318,10 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x3c8c954, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x3cecac8, size 0x4, virtual true, abstract: false, final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method set_MethodKeys, addr 0x3c8c714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MethodKeys, addr 0x3cec888, size 0x8, virtual false, abstract: false, final false
   inline void set_MethodKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
 protected:
@@ -339,6 +338,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageDictionary(MessageDictionary const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3176 };
+
   /// @brief Field _internalProperties, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ____internalProperties;
 
@@ -351,14 +353,9 @@ public:
   /// @brief Field _ownProperties, offset: 0x28, size: 0x1, def value: None
   bool ____ownProperties;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3176 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::MessageDictionary, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary, ____internalProperties) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary, ____message) == 0x18, "Offset mismatch!");
@@ -367,8 +364,10 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary, ____ownProperties) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::MessageDictionary, 0x30>, "Size mismatch!");
+
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MessageDictionary);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::MessageDictionary*, "System.Runtime.Remoting.Messaging", "MessageDictionary");
-NEED_NO_BOX(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*, "System.Runtime.Remoting.Messaging", "MessageDictionary/DictionaryEnumerator");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*, "System.Runtime.Remoting.Messaging", "MessageDictionary/DictionaryEnumerator");

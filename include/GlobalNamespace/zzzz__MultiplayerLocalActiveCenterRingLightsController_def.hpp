@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalActiveCenterRingLightsController)
 namespace GlobalNamespace {
@@ -25,11 +24,10 @@ class MultiplayerLocalActiveCenterRingLightsController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController);
-// Type: ::MultiplayerLocalActiveCenterRingLightsController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 74, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLocalActiveCenterRingLightsController*
+// CS Name: MultiplayerLocalActiveCenterRingLightsController
 class CORDL_TYPE MultiplayerLocalActiveCenterRingLightsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -58,24 +56,24 @@ public:
   /// @brief Field _verticalLinePositions, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__verticalLinePositions, put = __cordl_internal_set__verticalLinePositions)) ::ArrayW<float_t, ::Array<float_t>*> _verticalLinePositions;
 
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x3b5b644, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x3bbcf3c, size 0x18, virtual false, abstract: false, final false
   inline void HandleEdgeDistanceFromCenterWasCalculated(float_t constructEdgeDistanceFromCenter);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x3b5b70c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x3bbd004, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t spawnCenterDistance);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b5b724, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bbd01c, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Resize, addr 0x3b5b934, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x3bbd22c, size 0x2bc, virtual false, abstract: false, final false
   inline void Resize();
 
-  /// @brief Method Start, addr 0x3b5b4c0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bbcdb8, size 0x184, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TryResize, addr 0x3b5b91c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryResize, addr 0x3bbd214, size 0x18, virtual false, abstract: false, final false
   inline void TryResize();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__beatmapObjectSpawnCenter() const;
@@ -94,9 +92,9 @@ public:
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__horizontalLines();
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
   constexpr bool const& __cordl_internal_get__spawnCenterDistanceFound() const;
 
@@ -120,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set__verticalLinePositions(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3b5bbf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbd4e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,6 +134,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveCenterRingLightsController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalActiveCenterRingLightsController(MultiplayerLocalActiveCenterRingLightsController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4508 };
 
   /// @brief Field _verticalLinePositions, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ____verticalLinePositions;
@@ -158,14 +159,9 @@ public:
   /// @brief Field _spawnCenterDistanceFound, offset: 0x49, size: 0x1, def value: None
   bool ____spawnCenterDistanceFound;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4496 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, ____verticalLinePositions) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, ____horizontalLines) == 0x28, "Offset mismatch!");
@@ -179,6 +175,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveCenterRingLights
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, ____edgeDistanceFromCenterCalculated) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, ____spawnCenterDistanceFound) == 0x49, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController);

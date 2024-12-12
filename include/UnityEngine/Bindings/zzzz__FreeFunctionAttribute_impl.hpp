@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::FreeFunctionAttribute::*)()>(&::UnityEngine::Bindings::FreeFunctionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48b231c;
+  constexpr static std::size_t addrs = 0x49169ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::FreeFunctionAttribute*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::FreeFunctionAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::FreeFunctionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48b233c;
+  constexpr static std::size_t addrs = 0x49169cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::FreeFunctionAttribute::*)(::StringW, bool)>(
     &::UnityEngine::Bindings::FreeFunctionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x48b2358;
+  constexpr static std::size_t addrs = 0x49169e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,16 +45,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Bindings::FreeFunctionAttribute* UnityEngine::Bindings::FreeFunctionAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::FreeFunctionAttribute*>());
-}
 inline void UnityEngine::Bindings::FreeFunctionAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::FreeFunctionAttribute*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityEngine::Bindings::FreeFunctionAttribute* UnityEngine::Bindings::FreeFunctionAttribute::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::FreeFunctionAttribute*>(name));
 }
 inline void UnityEngine::Bindings::FreeFunctionAttribute::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -62,14 +56,20 @@ inline void UnityEngine::Bindings::FreeFunctionAttribute::_ctor(::StringW name) 
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
-inline ::UnityEngine::Bindings::FreeFunctionAttribute* UnityEngine::Bindings::FreeFunctionAttribute::New_ctor(::StringW name, bool isThreadSafe) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::FreeFunctionAttribute*>(name, isThreadSafe));
-}
 inline void UnityEngine::Bindings::FreeFunctionAttribute::_ctor(::StringW name, bool isThreadSafe) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::FreeFunctionAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, isThreadSafe);
+}
+inline ::UnityEngine::Bindings::FreeFunctionAttribute* UnityEngine::Bindings::FreeFunctionAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::FreeFunctionAttribute*>());
+}
+inline ::UnityEngine::Bindings::FreeFunctionAttribute* UnityEngine::Bindings::FreeFunctionAttribute::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::FreeFunctionAttribute*>(name));
+}
+inline ::UnityEngine::Bindings::FreeFunctionAttribute* UnityEngine::Bindings::FreeFunctionAttribute::New_ctor(::StringW name, bool isThreadSafe) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::FreeFunctionAttribute*>(name, isThreadSafe));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::FreeFunctionAttribute::FreeFunctionAttribute() {}

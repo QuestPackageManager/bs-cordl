@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::RestrictionFacets::*)()>(&::System::Xml::Schema::RestrictionFacets::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433efb0;
+  constexpr static std::size_t addrs = 0x43a02c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RestrictionFacets*>::get(), ".ctor",
@@ -59,7 +59,7 @@ constexpr ::System::Collections::ArrayList*& System::Xml::Schema::RestrictionFac
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Patterns;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_Patterns() const {
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_Patterns() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Patterns;
 }
@@ -71,7 +71,7 @@ constexpr ::System::Collections::ArrayList*& System::Xml::Schema::RestrictionFac
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Enumeration;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_Enumeration() const {
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_Enumeration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Enumeration;
 }
@@ -95,7 +95,7 @@ constexpr ::System::Object*& System::Xml::Schema::RestrictionFacets::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MaxInclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MaxInclusive() const {
+constexpr ::System::Object* const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MaxInclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MaxInclusive;
 }
@@ -107,7 +107,7 @@ constexpr ::System::Object*& System::Xml::Schema::RestrictionFacets::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MaxExclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MaxExclusive() const {
+constexpr ::System::Object* const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MaxExclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MaxExclusive;
 }
@@ -119,7 +119,7 @@ constexpr ::System::Object*& System::Xml::Schema::RestrictionFacets::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MinInclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MinInclusive() const {
+constexpr ::System::Object* const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MinInclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MinInclusive;
 }
@@ -131,7 +131,7 @@ constexpr ::System::Object*& System::Xml::Schema::RestrictionFacets::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MinExclusive;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MinExclusive() const {
+constexpr ::System::Object* const& System::Xml::Schema::RestrictionFacets::__cordl_internal_get_MinExclusive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MinExclusive;
 }
@@ -187,13 +187,13 @@ constexpr void System::Xml::Schema::RestrictionFacets::__cordl_internal_set_Fixe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FixedFlags = value;
 }
-inline ::System::Xml::Schema::RestrictionFacets* System::Xml::Schema::RestrictionFacets::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::RestrictionFacets*>());
-}
 inline void System::Xml::Schema::RestrictionFacets::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RestrictionFacets*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::RestrictionFacets* System::Xml::Schema::RestrictionFacets::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::RestrictionFacets*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::RestrictionFacets::RestrictionFacets() {}

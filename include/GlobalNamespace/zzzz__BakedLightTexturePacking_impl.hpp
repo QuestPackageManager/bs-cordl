@@ -10,14 +10,14 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(
-    ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>*, ::UnityEngine::RenderTextureDescriptor)>(&::GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
+    ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>*, ::UnityEngine::RenderTextureDescriptor)>(&::GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x3ab5c50;
+  constexpr static std::size_t addrs = 0x3b12b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightTexturePacking*>::get(), "PackTextures", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get() })));
     return ___internal_method;
   }
@@ -37,11 +37,11 @@ inline void GlobalNamespace::BakedLightTexturePacking::setStaticF__material(::Un
 inline ::UnityW<::UnityEngine::Material> GlobalNamespace::BakedLightTexturePacking::getStaticF__material() {
   return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "_material", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightTexturePacking*>::get>();
 }
-inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::BakedLightTexturePacking::PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>* textures,
+inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::BakedLightTexturePacking::PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>* textures,
                                                                                                       ::UnityEngine::RenderTextureDescriptor descriptor) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightTexturePacking*>::get(), "PackTextures", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, textures, descriptor);
 }

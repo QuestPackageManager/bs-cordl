@@ -3,47 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Position_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Wrap_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutData)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-struct Align;
-}
-namespace UnityEngine::UIElements {
-struct DisplayStyle;
-}
-namespace UnityEngine::UIElements {
-struct FlexDirection;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
-namespace UnityEngine::UIElements {
-struct Justify;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct Position;
-}
-namespace UnityEngine::UIElements {
-struct Wrap;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -51,11 +25,11 @@ struct LayoutData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::LayoutData);
-// Type: UnityEngine.UIElements::LayoutData
-// SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.Align, UnityEngine.UIElements.DisplayStyle, UnityEngine.UIElements.FlexDirection, UnityEngine.UIElements.IStyleDataGroup`1<T>,
+// UnityEngine.UIElements.Justify, UnityEngine.UIElements.Length, UnityEngine.UIElements.Position, UnityEngine.UIElements.Wrap
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::LayoutData
+// CS Name: UnityEngine.UIElements.LayoutData
 struct CORDL_TYPE LayoutData {
 public:
   // Declarations
@@ -65,19 +39,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*();
 
-  /// @brief Method Copy, addr 0x4a1b178, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a7fa88, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::LayoutData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a1b194, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::LayoutData> other);
+  /// @brief Method CopyFrom, addr 0x4a7faa4, size 0x14, virtual true, abstract: false, final true
+  inline void CopyFrom(::ByRef<::UnityEngine::UIElements::LayoutData> other);
 
-  /// @brief Method Equals, addr 0x4a1b590, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a7fea0, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1b544, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a7fe54, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::LayoutData other);
 
-  /// @brief Method GetHashCode, addr 0x4a1b638, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a7ff48, size 0x338, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
@@ -86,7 +60,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__LayoutData_();
 
-  /// @brief Method op_Equality, addr 0x4a1b1a8, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a7fab8, size 0x39c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::LayoutData lhs, ::UnityEngine::UIElements::LayoutData rhs);
 
   // Ctor Parameters []
@@ -121,6 +95,12 @@ public:
                        ::UnityEngine::UIElements::Length minHeight, ::UnityEngine::UIElements::Length minWidth, ::UnityEngine::UIElements::Length paddingBottom,
                        ::UnityEngine::UIElements::Length paddingLeft, ::UnityEngine::UIElements::Length paddingRight, ::UnityEngine::UIElements::Length paddingTop,
                        ::UnityEngine::UIElements::Position position, ::UnityEngine::UIElements::Length right, ::UnityEngine::UIElements::Length top, ::UnityEngine::UIElements::Length width) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6079 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
 
   /// @brief Field alignContent, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::Align alignContent;
@@ -221,17 +201,9 @@ public:
   /// @brief Field width, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length width;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6054 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LayoutData, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::LayoutData, alignContent) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::LayoutData, alignItems) == 0x4, "Offset mismatch!");
@@ -297,6 +269,8 @@ static_assert(offsetof(::UnityEngine::UIElements::LayoutData, right) == 0xb8, "O
 static_assert(offsetof(::UnityEngine::UIElements::LayoutData, top) == 0xc0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::LayoutData, width) == 0xc8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LayoutData, 0xd0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LayoutData, "UnityEngine.UIElements", "LayoutData");

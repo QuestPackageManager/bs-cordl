@@ -26,31 +26,30 @@ class OpAssignMethodConversionBinaryExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression);
-// Type: System.Linq.Expressions::OpAssignMethodConversionBinaryExpression
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.MethodBinaryExpression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::OpAssignMethodConversionBinaryExpression*
+// CS Name: System.Linq.Expressions.OpAssignMethodConversionBinaryExpression
 class CORDL_TYPE OpAssignMethodConversionBinaryExpression : public ::System::Linq::Expressions::MethodBinaryExpression {
 public:
   // Declarations
   /// @brief Field _conversion, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__conversion, put = __cordl_internal_set__conversion)) ::System::Linq::Expressions::LambdaExpression* _conversion;
 
-  /// @brief Method GetConversion, addr 0x40344d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetConversion, addr 0x40957ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::LambdaExpression* GetConversion();
 
   static inline ::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left,
                                                                                                 ::System::Linq::Expressions::Expression* right, ::System::Type* type,
                                                                                                 ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  constexpr ::System::Linq::Expressions::LambdaExpression*& __cordl_internal_get__conversion();
+  constexpr ::System::Linq::Expressions::LambdaExpression* const& __cordl_internal_get__conversion() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LambdaExpression*> const& __cordl_internal_get__conversion() const;
+  constexpr ::System::Linq::Expressions::LambdaExpression*& __cordl_internal_get__conversion();
 
   constexpr void __cordl_internal_set__conversion(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x4034450, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4095764, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Type* type,
                     ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
@@ -68,18 +67,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OpAssignMethodConversionBinaryExpression(OpAssignMethodConversionBinaryExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13611 };
+
   /// @brief Field _conversion, offset: 0x38, size: 0x8, def value: None
   ::System::Linq::Expressions::LambdaExpression* ____conversion;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression, ____conversion) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression, 0x40>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression);

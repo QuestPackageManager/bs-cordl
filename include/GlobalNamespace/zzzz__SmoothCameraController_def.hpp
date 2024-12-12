@@ -17,11 +17,10 @@ class SmoothCameraController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SmoothCameraController);
-// Type: ::SmoothCameraController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SmoothCameraController*
+// CS Name: SmoothCameraController
 class CORDL_TYPE SmoothCameraController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -31,26 +30,26 @@ public:
   /// @brief Field _smoothCamera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera)) ::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x3b8a178, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x3beb990, size 0xe8, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
-  /// @brief Method HandleDidActivate, addr 0x3b8a264, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x3beba7c, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x3b8a2a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x3bebabc, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b8a260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3beba78, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b8a174, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3beb98c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr ::UnityW<::GlobalNamespace::SmoothCamera> const& __cordl_internal_get__smoothCamera() const;
 
@@ -60,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method .ctor, addr 0x3b8a2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bebac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,23 +76,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SmoothCameraController(SmoothCameraController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4689 };
+
   /// @brief Field _smoothCamera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SmoothCamera> ____smoothCamera;
 
   /// @brief Field _settingsManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4677 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SmoothCameraController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SmoothCameraController, ____smoothCamera) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SmoothCameraController, ____settingsManager) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SmoothCameraController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SmoothCameraController);

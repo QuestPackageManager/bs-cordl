@@ -18,13 +18,12 @@ template <typename TElement> class ListPropertyBag_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::ListPropertyBag_1);
-// Type: Unity.Properties::ListPropertyBag`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.IndexedCollectionPropertyBag`2<TList, TElement>
 namespace Unity::Properties {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// CS Name: ::Unity.Properties::ListPropertyBag`1<TElement>*
+// CS Name: Unity.Properties.ListPropertyBag`1<TElement>
 class CORDL_TYPE ListPropertyBag_1 : public ::Unity::Properties::IndexedCollectionPropertyBag_2<::System::Collections::Generic::List_1<TElement>*, TElement> {
 public:
   // Declarations
@@ -59,7 +58,7 @@ public:
   ListPropertyBag_1(ListPropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

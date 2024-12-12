@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReadOnlyAttribute::*)(bool)>(&::System::ComponentModel::ReadOnlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e520c;
+  constexpr static std::size_t addrs = 0x4446520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)()>(
     &::System::ComponentModel::ReadOnlyAttribute::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e5234;
+  constexpr static std::size_t addrs = 0x4446548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReadOnlyAttribute*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::ReadOnlyAttribute::Equals)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43e523c;
+  constexpr static std::size_t addrs = 0x4446550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ReadOnlyAttribute::*)()>(
     &::System::ComponentModel::ReadOnlyAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e5320;
+  constexpr static std::size_t addrs = 0x4446634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)()>(
     &::System::ComponentModel::ReadOnlyAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43e5328;
+  constexpr static std::size_t addrs = 0x444663c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,9 +112,6 @@ inline ::System::ComponentModel::ReadOnlyAttribute* System::ComponentModel::Read
   return ::cordl_internals::getStaticField<::System::ComponentModel::ReadOnlyAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReadOnlyAttribute*>::get>();
 }
-inline ::System::ComponentModel::ReadOnlyAttribute* System::ComponentModel::ReadOnlyAttribute::New_ctor(bool isReadOnly) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ReadOnlyAttribute*>(isReadOnly));
-}
 inline void System::ComponentModel::ReadOnlyAttribute::_ctor(bool isReadOnly) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReadOnlyAttribute*>::get(), ".ctor",
@@ -140,6 +137,9 @@ inline bool System::ComponentModel::ReadOnlyAttribute::IsDefaultAttribute() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReadOnlyAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::ReadOnlyAttribute* System::ComponentModel::ReadOnlyAttribute::New_ctor(bool isReadOnly) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ReadOnlyAttribute*>(isReadOnly));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ReadOnlyAttribute::ReadOnlyAttribute() {}

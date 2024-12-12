@@ -29,14 +29,14 @@ inline T UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>::GetValueF
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, bag, cc);
 }
-template <typename T> inline ::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>* UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>* UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<T>::UxmlObjectAttributeDescription_1() {}

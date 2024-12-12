@@ -14,11 +14,10 @@ class ConditionalActivation;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ConditionalActivation);
-// Type: ::ConditionalActivation
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ConditionalActivation*
+// CS Name: ConditionalActivation
 class CORDL_TYPE ConditionalActivation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -28,7 +27,7 @@ public:
   /// @brief Field _value, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  /// @brief Method Awake, addr 0x3acd660, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b2cca4, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalActivation* New_ctor();
@@ -45,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3acd6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2cd28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,23 +61,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalActivation(ConditionalActivation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5160 };
+
   /// @brief Field _value, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
   /// @brief Field _activateOnFalse, offset: 0x28, size: 0x1, def value: None
   bool ____activateOnFalse;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5140 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConditionalActivation, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ConditionalActivation, ____value) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ConditionalActivation, ____activateOnFalse) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConditionalActivation, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConditionalActivation);

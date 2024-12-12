@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -20,11 +19,10 @@ struct HumanDescription;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanDescription);
-// Type: UnityEngine::HumanDescription
-// SizeInfo { instance_size: 64, native_size: 72, calculated_instance_size: 64, calculated_native_size: 75, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::HumanDescription
+// CS Name: UnityEngine.HumanDescription
 struct CORDL_TYPE HumanDescription {
 public:
   // Declarations
@@ -42,6 +40,12 @@ public:
   constexpr HumanDescription(::ArrayW<::UnityEngine::HumanBone, ::Array<::UnityEngine::HumanBone>*> human, ::ArrayW<::UnityEngine::SkeletonBone, ::Array<::UnityEngine::SkeletonBone>*> skeleton,
                              float_t m_ArmTwist, float_t m_ForeArmTwist, float_t m_UpperLegTwist, float_t m_LegTwist, float_t m_ArmStretch, float_t m_LegStretch, float_t m_FeetSpacing,
                              float_t m_GlobalScale, ::StringW m_RootMotionBoneName, bool m_HasTranslationDoF, bool m_HasExtraRoot, bool m_SkeletonHasParents) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16876 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field human, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::HumanBone, ::Array<::UnityEngine::HumanBone>*> human;
@@ -85,17 +89,9 @@ public:
   /// @brief Field m_SkeletonHasParents, offset: 0x3a, size: 0x1, def value: None
   bool m_SkeletonHasParents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16837 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanDescription, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::HumanDescription, human) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::HumanDescription, skeleton) == 0x8, "Offset mismatch!");
@@ -123,6 +119,8 @@ static_assert(offsetof(::UnityEngine::HumanDescription, m_HasTranslationDoF) == 
 static_assert(offsetof(::UnityEngine::HumanDescription, m_HasExtraRoot) == 0x39, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::HumanDescription, m_SkeletonHasParents) == 0x3a, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanDescription, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");

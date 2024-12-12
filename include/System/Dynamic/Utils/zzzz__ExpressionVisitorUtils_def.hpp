@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ExpressionVisitorUtils)
 namespace System::Linq::Expressions {
@@ -31,23 +30,22 @@ class ExpressionVisitorUtils;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::Utils::ExpressionVisitorUtils);
-// Type: System.Dynamic.Utils::ExpressionVisitorUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Dynamic::Utils {
 // Is value type: false
-// CS Name: ::System.Dynamic.Utils::ExpressionVisitorUtils*
+// CS Name: System.Dynamic.Utils.ExpressionVisitorUtils
 class CORDL_TYPE ExpressionVisitorUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method VisitArguments, addr 0x40a115c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method VisitArguments, addr 0x4102470, size 0x294, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> VisitArguments(::System::Linq::Expressions::ExpressionVisitor* visitor,
                                                                                                                                       ::System::Linq::Expressions::IArgumentProvider* nodes);
 
-  /// @brief Method VisitBlockExpressions, addr 0x40a0d04, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method VisitBlockExpressions, addr 0x4102018, size 0x1a4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> VisitBlockExpressions(::System::Linq::Expressions::ExpressionVisitor* visitor,
                                                                                                                                              ::System::Linq::Expressions::BlockExpression* block);
 
-  /// @brief Method VisitParameters, addr 0x40a0ea8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method VisitParameters, addr 0x41021bc, size 0x2b4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::ParameterExpression*, ::Array<::System::Linq::Expressions::ParameterExpression*>*>
   VisitParameters(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::IParameterProvider* nodes, ::StringW callerName);
 
@@ -66,7 +64,7 @@ public:
   ExpressionVisitorUtils(ExpressionVisitorUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithLaunchReportFlowResult)
 namespace Oculus::Platform::Models {
 class LaunchReportFlowResult;
@@ -18,23 +17,22 @@ class MessageWithLaunchReportFlowResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchReportFlowResult);
-// Type: Oculus.Platform::MessageWithLaunchReportFlowResult
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Message`1<T>
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::MessageWithLaunchReportFlowResult*
+// CS Name: Oculus.Platform.MessageWithLaunchReportFlowResult
 class CORDL_TYPE MessageWithLaunchReportFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchReportFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f1d7f4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7d8a0, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchReportFlowResult, addr 0x3f1d7b8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchReportFlowResult, addr 0x3f7d864, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchReportFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f1d760, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7d80c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +50,7 @@ public:
   MessageWithLaunchReportFlowResult(MessageWithLaunchReportFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

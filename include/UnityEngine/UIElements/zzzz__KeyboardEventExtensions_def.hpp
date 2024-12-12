@@ -17,18 +17,17 @@ class KeyboardEventExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::KeyboardEventExtensions);
-// Type: UnityEngine.UIElements::KeyboardEventExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::KeyboardEventExtensions*
+// CS Name: UnityEngine.UIElements.KeyboardEventExtensions
 class CORDL_TYPE KeyboardEventExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x49c3e4c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x4a2875c, size 0xe8, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEvent(::UnityEngine::UIElements::KeyDownEvent* e);
 
-  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x49c41e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x4a28af0, size 0x44, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEventRuntime(::UnityEngine::Event* e);
 
 protected:
@@ -46,7 +45,7 @@ public:
   KeyboardEventExtensions(KeyboardEventExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

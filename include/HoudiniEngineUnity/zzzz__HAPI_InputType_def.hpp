@@ -12,11 +12,10 @@ struct HAPI_InputType;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_InputType);
-// Type: HoudiniEngineUnity::HAPI_InputType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_InputType
+// CS Name: HoudiniEngineUnity.HAPI_InputType
 struct CORDL_TYPE HAPI_InputType {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_InputType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_INPUT_GEOMETRY value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_INPUT_GEOMETRY value: I32(1)
   static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_GEOMETRY;
 
-  /// @brief Field HAPI_INPUT_INVALID value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_INPUT_INVALID value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_INVALID;
 
-  /// @brief Field HAPI_INPUT_MAX value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_INPUT_MAX value: I32(2)
   static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_MAX;
 
-  /// @brief Field HAPI_INPUT_TRANSFORM value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_INPUT_TRANSFORM value: I32(0)
   static ::HoudiniEngineUnity::HAPI_InputType const HAPI_INPUT_TRANSFORM;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11693 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_InputType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_InputType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_InputType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_InputType, "HoudiniEngineUnity", "HAPI_InputType");

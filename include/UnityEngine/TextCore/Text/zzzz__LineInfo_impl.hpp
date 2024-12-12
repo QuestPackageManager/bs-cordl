@@ -3,8 +3,6 @@
 #include "UnityEngine/TextCore/Text/zzzz__Extents_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LineInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__Extents_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
 // Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:

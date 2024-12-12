@@ -28,11 +28,10 @@ class Pipe;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Pipe);
-// Type: UnityEngine.ProBuilder.Shapes::Pipe
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Shapes::Pipe*
+// CS Name: UnityEngine.ProBuilder.Shapes.Pipe
 class CORDL_TYPE Pipe : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
@@ -48,15 +47,15 @@ public:
   /// @brief Field m_Thickness, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Thickness, put = __cordl_internal_set_m_Thickness)) float_t m_Thickness;
 
-  /// @brief Method CopyShape, addr 0x46ee45c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x474f770, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Pipe* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x46ee514, size 0x9bc, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x474f828, size 0x9bc, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x46ee4e8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x474f7fc, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_HeightCuts() const;
@@ -83,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Thickness(float_t value);
 
-  /// @brief Method .ctor, addr 0x46eeed0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47501e4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Pipe(Pipe const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14342 };
+
   /// @brief Field m_Thickness, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Thickness;
 
@@ -112,14 +114,9 @@ public:
   /// @brief Field m_Smooth, offset: 0x1c, size: 0x1, def value: None
   bool ___m_Smooth;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14308 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Pipe, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Pipe, ___m_Thickness) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Pipe, ___m_NumberOfSides) == 0x14, "Offset mismatch!");
@@ -127,6 +124,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Pipe, ___m_NumberOfSid
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Pipe, ___m_HeightCuts) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Pipe, ___m_Smooth) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Pipe, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Pipe);

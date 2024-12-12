@@ -17,11 +17,10 @@ class MainEffectContainerSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainEffectContainerSO);
-// Type: ::MainEffectContainerSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MainEffectContainerSO*
+// CS Name: MainEffectContainerSO
 class CORDL_TYPE MainEffectContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -33,12 +32,12 @@ public:
 
   __declspec(property(get = get_mainEffect)) ::UnityW<::GlobalNamespace::MainEffectSO> mainEffect;
 
-  /// @brief Method Init, addr 0x4020150, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4081464, size 0x74, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MainEffectSO* mainEffect);
 
   static inline ::GlobalNamespace::MainEffectContainerSO* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x40200d8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x40813ec, size 0x78, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::MainEffectSO> const& __cordl_internal_get__mainEffect() const;
@@ -53,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x40201c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40814d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainEffect, addr 0x40200d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainEffect, addr 0x40813e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectSO> get_mainEffect();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainEffectContainerSO(MainEffectContainerSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17896 };
+
   /// @brief Field _mainEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ____mainEffect;
 
   /// @brief Field _postProcessEnabled, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____postProcessEnabled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17813 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainEffectContainerSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MainEffectContainerSO, ____mainEffect) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainEffectContainerSO, ____postProcessEnabled) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainEffectContainerSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainEffectContainerSO);

@@ -17,11 +17,10 @@ class TlsProtocolHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler);
-// Type: Org.BouncyCastle.Crypto.Tls::TlsProtocolHandler
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Tls.TlsClientProtocol
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsProtocolHandler*
+// CS Name: Org.BouncyCastle.Crypto.Tls.TlsProtocolHandler
 class CORDL_TYPE TlsProtocolHandler : public ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol {
 public:
   // Declarations
@@ -29,10 +28,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0x23fedbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24320a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0x23fedac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2432098, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
 protected:

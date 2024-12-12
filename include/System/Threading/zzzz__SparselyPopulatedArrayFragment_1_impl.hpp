@@ -30,9 +30,7 @@ template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const&
-System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__next() const {
+template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>* const& System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
@@ -44,9 +42,7 @@ template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prev;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const&
-System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__prev() const {
+template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>* const& System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__prev() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prev;
 }
@@ -54,19 +50,11 @@ template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____prev, value);
 }
-template <typename T> inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* System::Threading::SparselyPopulatedArrayFragment_1<T>::New_ctor(int32_t size) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::SparselyPopulatedArrayFragment_1<T>*>(size));
-}
 template <typename T> inline void System::Threading::SparselyPopulatedArrayFragment_1<T>::_ctor(int32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SparselyPopulatedArrayFragment_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, size);
-}
-template <typename T>
-inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* System::Threading::SparselyPopulatedArrayFragment_1<T>::New_ctor(int32_t size,
-                                                                                                                                  ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::SparselyPopulatedArrayFragment_1<T>*>(size, prev));
 }
 template <typename T> inline void System::Threading::SparselyPopulatedArrayFragment_1<T>::_ctor(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,6 +84,14 @@ template <typename T> inline T System::Threading::SparselyPopulatedArrayFragment
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SparselyPopulatedArrayFragment_1<T>*>::get(), "SafeAtomicRemove", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, index, expectedElement);
+}
+template <typename T> inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* System::Threading::SparselyPopulatedArrayFragment_1<T>::New_ctor(int32_t size) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::SparselyPopulatedArrayFragment_1<T>*>(size));
+}
+template <typename T>
+inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* System::Threading::SparselyPopulatedArrayFragment_1<T>::New_ctor(int32_t size,
+                                                                                                                                  ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::SparselyPopulatedArrayFragment_1<T>*>(size, prev));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>::SparselyPopulatedArrayFragment_1() {}

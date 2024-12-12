@@ -27,24 +27,23 @@ class Vector3Converter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::JsonExtension::Vector3Converter);
-// Type: BGLib.JsonExtension::Vector3Converter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonConverter`1<T>, UnityEngine.Vector3
 namespace BGLib::JsonExtension {
 // Is value type: false
-// CS Name: ::BGLib.JsonExtension::Vector3Converter*
+// CS Name: BGLib.JsonExtension.Vector3Converter
 class CORDL_TYPE Vector3Converter : public ::Newtonsoft::Json::JsonConverter_1<::UnityEngine::Vector3> {
 public:
   // Declarations
   static inline ::BGLib::JsonExtension::Vector3Converter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x2271dbc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x22a46dc, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Vector3 existingValue, bool hasExistingValue,
                                          ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x2271e5c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x22a477c, size 0x148, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Vector3 value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x2271fa4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a48c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +61,7 @@ public:
   Vector3Converter(Vector3Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19028 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

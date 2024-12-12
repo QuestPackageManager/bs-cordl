@@ -17,18 +17,17 @@ class TrackAssetExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TrackAssetExtensions);
-// Type: UnityEngine.Timeline::TrackAssetExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::TrackAssetExtensions*
+// CS Name: UnityEngine.Timeline.TrackAssetExtensions
 class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGroup, addr 0x47c465c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetGroup, addr 0x4825970, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::GroupTrack> GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SetGroup, addr 0x47c4720, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method SetGroup, addr 0x4825a34, size 0x32c, virtual false, abstract: false, final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
 protected:
@@ -46,7 +45,7 @@ public:
   TrackAssetExtensions(TrackAssetExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

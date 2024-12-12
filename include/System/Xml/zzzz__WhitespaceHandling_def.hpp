@@ -12,11 +12,10 @@ struct WhitespaceHandling;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::WhitespaceHandling);
-// Type: System.Xml::WhitespaceHandling
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::System.Xml::WhitespaceHandling
+// CS Name: System.Xml.WhitespaceHandling
 struct CORDL_TYPE WhitespaceHandling {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr WhitespaceHandling(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0x0)
+  /// @brief Field All value: I32(0)
   static ::System::Xml::WhitespaceHandling const All;
 
-  /// @brief Field None value: static_cast<int32_t>(0x2)
+  /// @brief Field None value: I32(2)
   static ::System::Xml::WhitespaceHandling const None;
 
-  /// @brief Field Significant value: static_cast<int32_t>(0x1)
+  /// @brief Field Significant value: I32(1)
   static ::System::Xml::WhitespaceHandling const Significant;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::WhitespaceHandling, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::WhitespaceHandling, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::WhitespaceHandling, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::WhitespaceHandling, "System.Xml", "WhitespaceHandling");

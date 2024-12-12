@@ -12,11 +12,10 @@ struct UnescapeMode;
 }
 // Write type traits
 MARK_VAL_T(::System::UnescapeMode);
-// Type: System::UnescapeMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::UnescapeMode
+// CS Name: System.UnescapeMode
 struct CORDL_TYPE UnescapeMode {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr UnescapeMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field CopyOnly value: static_cast<int32_t>(0x0)
+  /// @brief Field CopyOnly value: I32(0)
   static ::System::UnescapeMode const CopyOnly;
 
-  /// @brief Field Escape value: static_cast<int32_t>(0x1)
+  /// @brief Field Escape value: I32(1)
   static ::System::UnescapeMode const Escape;
 
-  /// @brief Field EscapeUnescape value: static_cast<int32_t>(0x3)
+  /// @brief Field EscapeUnescape value: I32(3)
   static ::System::UnescapeMode const EscapeUnescape;
 
-  /// @brief Field Unescape value: static_cast<int32_t>(0x2)
+  /// @brief Field Unescape value: I32(2)
   static ::System::UnescapeMode const Unescape;
 
-  /// @brief Field UnescapeAll value: static_cast<int32_t>(0x8)
+  /// @brief Field UnescapeAll value: I32(8)
   static ::System::UnescapeMode const UnescapeAll;
 
-  /// @brief Field UnescapeAllOrThrow value: static_cast<int32_t>(0x18)
+  /// @brief Field UnescapeAllOrThrow value: I32(24)
   static ::System::UnescapeMode const UnescapeAllOrThrow;
 
-  /// @brief Field V1ToStringFlag value: static_cast<int32_t>(0x4)
+  /// @brief Field V1ToStringFlag value: I32(4)
   static ::System::UnescapeMode const V1ToStringFlag;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::UnescapeMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::UnescapeMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::UnescapeMode, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::UnescapeMode, "System", "UnescapeMode");

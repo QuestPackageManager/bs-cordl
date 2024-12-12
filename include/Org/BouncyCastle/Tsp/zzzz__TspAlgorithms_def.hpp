@@ -15,59 +15,58 @@ class TspAlgorithms;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TspAlgorithms);
-// Type: Org.BouncyCastle.Tsp::TspAlgorithms
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Tsp::TspAlgorithms*
+// CS Name: Org.BouncyCastle.Tsp.TspAlgorithms
 class CORDL_TYPE TspAlgorithms : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Allowed, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Allowed, put = setStaticF_Allowed)) ::System::Collections::IList* Allowed;
+  __declspec(property(get = getStaticF_Allowed, put = setStaticF_Allowed)) ::System::Collections::IList* Allowed;
 
   /// @brief Field Gost3411, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Gost3411, put = setStaticF_Gost3411)) ::StringW Gost3411;
+  __declspec(property(get = getStaticF_Gost3411, put = setStaticF_Gost3411)) ::StringW Gost3411;
 
   /// @brief Field Gost3411_2012_256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Gost3411_2012_256, put = setStaticF_Gost3411_2012_256)) ::StringW Gost3411_2012_256;
+  __declspec(property(get = getStaticF_Gost3411_2012_256, put = setStaticF_Gost3411_2012_256)) ::StringW Gost3411_2012_256;
 
   /// @brief Field Gost3411_2012_512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Gost3411_2012_512, put = setStaticF_Gost3411_2012_512)) ::StringW Gost3411_2012_512;
+  __declspec(property(get = getStaticF_Gost3411_2012_512, put = setStaticF_Gost3411_2012_512)) ::StringW Gost3411_2012_512;
 
   /// @brief Field MD5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MD5, put = setStaticF_MD5)) ::StringW MD5;
+  __declspec(property(get = getStaticF_MD5, put = setStaticF_MD5)) ::StringW MD5;
 
   /// @brief Field RipeMD128, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RipeMD128, put = setStaticF_RipeMD128)) ::StringW RipeMD128;
+  __declspec(property(get = getStaticF_RipeMD128, put = setStaticF_RipeMD128)) ::StringW RipeMD128;
 
   /// @brief Field RipeMD160, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RipeMD160, put = setStaticF_RipeMD160)) ::StringW RipeMD160;
+  __declspec(property(get = getStaticF_RipeMD160, put = setStaticF_RipeMD160)) ::StringW RipeMD160;
 
   /// @brief Field RipeMD256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RipeMD256, put = setStaticF_RipeMD256)) ::StringW RipeMD256;
+  __declspec(property(get = getStaticF_RipeMD256, put = setStaticF_RipeMD256)) ::StringW RipeMD256;
 
   /// @brief Field SM3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SM3, put = setStaticF_SM3)) ::StringW SM3;
+  __declspec(property(get = getStaticF_SM3, put = setStaticF_SM3)) ::StringW SM3;
 
   /// @brief Field Sha1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sha1, put = setStaticF_Sha1)) ::StringW Sha1;
+  __declspec(property(get = getStaticF_Sha1, put = setStaticF_Sha1)) ::StringW Sha1;
 
   /// @brief Field Sha224, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sha224, put = setStaticF_Sha224)) ::StringW Sha224;
+  __declspec(property(get = getStaticF_Sha224, put = setStaticF_Sha224)) ::StringW Sha224;
 
   /// @brief Field Sha256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sha256, put = setStaticF_Sha256)) ::StringW Sha256;
+  __declspec(property(get = getStaticF_Sha256, put = setStaticF_Sha256)) ::StringW Sha256;
 
   /// @brief Field Sha384, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sha384, put = setStaticF_Sha384)) ::StringW Sha384;
+  __declspec(property(get = getStaticF_Sha384, put = setStaticF_Sha384)) ::StringW Sha384;
 
   /// @brief Field Sha512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sha512, put = setStaticF_Sha512)) ::StringW Sha512;
+  __declspec(property(get = getStaticF_Sha512, put = setStaticF_Sha512)) ::StringW Sha512;
 
   static inline ::Org::BouncyCastle::Tsp::TspAlgorithms* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2599450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cc73c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IList* getStaticF_Allowed();

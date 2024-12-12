@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffectSpawner_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstddef>
@@ -20,44 +19,43 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class TrackLaneRingsRotationEffect;
+struct TrackLaneRingsRotationEffectSpawner_RotationStepType;
 }
 namespace GlobalNamespace {
-struct __TrackLaneRingsRotationEffectSpawner__RotationStepType;
+class TrackLaneRingsRotationEffect;
 }
 namespace System {
 class Random;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __TrackLaneRingsRotationEffectSpawner__RotationStepType;
+struct TrackLaneRingsRotationEffectSpawner_RotationStepType;
 }
 namespace GlobalNamespace {
 class TrackLaneRingsRotationEffectSpawner;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType);
+MARK_VAL_T(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType);
 MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
-// Type: ::RotationStepType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::TrackLaneRingsRotationEffectSpawner::RotationStepType
-struct CORDL_TYPE __TrackLaneRingsRotationEffectSpawner__RotationStepType {
+// CS Name: TrackLaneRingsRotationEffectSpawner/RotationStepType
+struct CORDL_TYPE TrackLaneRingsRotationEffectSpawner_RotationStepType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped
-  enum struct ____TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped : int32_t {
+  /// @brief Nested struct __TrackLaneRingsRotationEffectSpawner_RotationStepType_Unwrapped
+  enum struct __TrackLaneRingsRotationEffectSpawner_RotationStepType_Unwrapped : int32_t {
     __E_Range0ToMax = static_cast<int32_t>(0x0),
     __E_Range = static_cast<int32_t>(0x1),
     __E_MaxOr0 = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped() const noexcept {
-    return static_cast<____TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped>(this->value__);
+  constexpr operator __TrackLaneRingsRotationEffectSpawner_RotationStepType_Unwrapped() const noexcept {
+    return static_cast<__TrackLaneRingsRotationEffectSpawner_RotationStepType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -67,59 +65,58 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TrackLaneRingsRotationEffectSpawner__RotationStepType();
+  constexpr TrackLaneRingsRotationEffectSpawner_RotationStepType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TrackLaneRingsRotationEffectSpawner__RotationStepType(int32_t value__) noexcept;
+  constexpr TrackLaneRingsRotationEffectSpawner_RotationStepType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field MaxOr0 value: I32(2)
+  static ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType const MaxOr0;
 
-  /// @brief Field MaxOr0 value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType const MaxOr0;
+  /// @brief Field Range value: I32(1)
+  static ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType const Range;
 
-  /// @brief Field Range value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType const Range;
-
-  /// @brief Field Range0ToMax value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType const Range0ToMax;
+  /// @brief Field Range0ToMax value: I32(0)
+  static ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType const Range0ToMax;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4381 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::TrackLaneRingsRotationEffectSpawner
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasicBeatmapEventType, TrackLaneRingsRotationEffectSpawner::RotationStepType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TrackLaneRingsRotationEffectSpawner*
+// CS Name: TrackLaneRingsRotationEffectSpawner
 class CORDL_TYPE TrackLaneRingsRotationEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using RotationStepType = ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType;
+  using RotationStepType = ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType;
 
   /// @brief Field _beatmapCallbacksController, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x48, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
   /// @brief Field _beatmapEventType, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__beatmapEventType, put = __cordl_internal_set__beatmapEventType)) ::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
 
-  /// @brief Field _random, offset 0x50, size 0x8
+  /// @brief Field _random, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
 
   /// @brief Field _rotation, offset 0x2c, size 0x4
@@ -136,38 +133,38 @@ public:
 
   /// @brief Field _rotationStepType, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__rotationStepType,
-                      put = __cordl_internal_set__rotationStepType)) ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType _rotationStepType;
+                      put = __cordl_internal_set__rotationStepType)) ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType _rotationStepType;
 
   /// @brief Field _trackLaneRingsRotationEffect, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__trackLaneRingsRotationEffect, put = __cordl_internal_set__trackLaneRingsRotationEffect)) ::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect>
       _trackLaneRingsRotationEffect;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b3b538, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b9c970, size 0xc8, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b3b51c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9c954, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b3b3c4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9c82c, size 0x128, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__beatmapEventType() const;
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__beatmapEventType();
 
-  constexpr ::System::Random*& __cordl_internal_get__random();
+  constexpr ::System::Random* const& __cordl_internal_get__random() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get__random() const;
+  constexpr ::System::Random*& __cordl_internal_get__random();
 
   constexpr float_t const& __cordl_internal_get__rotation() const;
 
@@ -185,9 +182,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__rotationStep();
 
-  constexpr ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType const& __cordl_internal_get__rotationStepType() const;
+  constexpr ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType const& __cordl_internal_get__rotationStepType() const;
 
-  constexpr ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType& __cordl_internal_get__rotationStepType();
+  constexpr ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType& __cordl_internal_get__rotationStepType();
 
   constexpr ::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> const& __cordl_internal_get__trackLaneRingsRotationEffect() const;
 
@@ -209,11 +206,11 @@ public:
 
   constexpr void __cordl_internal_set__rotationStep(float_t value);
 
-  constexpr void __cordl_internal_set__rotationStepType(::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType value);
+  constexpr void __cordl_internal_set__rotationStepType(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType value);
 
   constexpr void __cordl_internal_set__trackLaneRingsRotationEffect(::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> value);
 
-  /// @brief Method .ctor, addr 0x3b3b600, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9ca38, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -230,6 +227,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackLaneRingsRotationEffectSpawner(TrackLaneRingsRotationEffectSpawner const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4382 };
+
   /// @brief Field _trackLaneRingsRotationEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> ____trackLaneRingsRotationEffect;
 
@@ -243,7 +243,7 @@ public:
   float_t ____rotationStep;
 
   /// @brief Field _rotationStepType, offset: 0x34, size: 0x4, def value: None
-  ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType ____rotationStepType;
+  ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType ____rotationStepType;
 
   /// @brief Field _rotationPropagationSpeed, offset: 0x38, size: 0x4, def value: None
   int32_t ____rotationPropagationSpeed;
@@ -254,20 +254,15 @@ public:
   /// @brief Field _beatmapCallbacksController, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
-
-  /// @brief Field _random, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _random, offset: 0x48, size: 0x8, def value: None
   ::System::Random* ____random;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4370 };
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x50, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, ____trackLaneRingsRotationEffect) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, ____beatmapEventType) == 0x28, "Offset mismatch!");
@@ -284,11 +279,13 @@ static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, _
 
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, ____beatmapCallbacksController) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, ____beatmapDataCallbackWrapper) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, ____random) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, ____random) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, ____beatmapDataCallbackWrapper) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsRotationEffectSpawner, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
 NEED_NO_BOX(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");

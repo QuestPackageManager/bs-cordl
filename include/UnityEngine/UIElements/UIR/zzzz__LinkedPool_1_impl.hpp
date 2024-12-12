@@ -8,7 +8,7 @@ template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::UIElements::U
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__cordl_internal_get_m_CreateFunc() const {
+template <typename T> constexpr ::System::Func_1<T>* const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__cordl_internal_get_m_CreateFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
@@ -20,7 +20,7 @@ template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::UIElements:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResetAction;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__cordl_internal_get_m_ResetAction() const {
+template <typename T> constexpr ::System::Action_1<T>* const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__cordl_internal_get_m_ResetAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResetAction;
 }
@@ -64,12 +64,6 @@ template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPool_1<
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Count_k__BackingField = value;
 }
-/// @param limit: int32_t (default: static_cast<int32_t>(0x2710))
-template <typename T>
-inline ::UnityEngine::UIElements::UIR::LinkedPool_1<T>* UnityEngine::UIElements::UIR::LinkedPool_1<T>::New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::LinkedPool_1<T>*>(createFunc, resetAction, limit));
-}
-/// @param limit: int32_t (default: static_cast<int32_t>(0x2710))
 template <typename T> inline void UnityEngine::UIElements::UIR::LinkedPool_1<T>::_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::LinkedPool_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -104,6 +98,10 @@ template <typename T> inline void UnityEngine::UIElements::UIR::LinkedPool_1<T>:
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::LinkedPool_1<T>*>::get(), "Return",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::UIR::LinkedPool_1<T>* UnityEngine::UIElements::UIR::LinkedPool_1<T>::New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::LinkedPool_1<T>*>(createFunc, resetAction, limit));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<T>::LinkedPool_1() {}

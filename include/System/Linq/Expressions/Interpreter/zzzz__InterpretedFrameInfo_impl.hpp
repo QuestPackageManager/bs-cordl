@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::*)(
     ::StringW, ::System::Linq::Expressions::Interpreter::DebugInfo*)>(&::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4071f30;
+  constexpr static std::size_t addrs = 0x40d3244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x407582c;
+  constexpr static std::size_t addrs = 0x40d6b40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,8 +47,8 @@ inline ::StringW System::Linq::Expressions::Interpreter::InterpretedFrameInfo::T
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_debugInfo", ty:
-// "::System::Linq::Expressions::Interpreter::DebugInfo*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_debugInfo", ty: "::System::Linq::Expressions::Interpreter::DebugInfo*",
+// modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::InterpretedFrameInfo(::StringW _methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo) noexcept {
   this->_methodName = _methodName;
   this->_debugInfo = _debugInfo;

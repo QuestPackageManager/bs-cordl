@@ -11,8 +11,7 @@ constexpr ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*& UnityEngine::Ev
   return this->___Delegate;
 }
 template <typename T1, typename T2, typename T3, typename T4>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*> const&
-UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::__cordl_internal_get_Delegate() const {
+constexpr ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* const& UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::__cordl_internal_get_Delegate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Delegate;
 }
@@ -20,10 +19,6 @@ template <typename T1, typename T2, typename T3, typename T4>
 constexpr void UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::__cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___Delegate, value);
-}
-template <typename T1, typename T2, typename T3, typename T4>
-inline ::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>* UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>*>(target, theFunction));
 }
 template <typename T1, typename T2, typename T3, typename T4>
 inline void UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction) {
@@ -45,6 +40,10 @@ inline bool UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::Find(::System:
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, targetObj, method);
+}
+template <typename T1, typename T2, typename T3, typename T4>
+inline ::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>* UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>*>(target, theFunction));
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3, typename T4> constexpr ::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::InvokableCall_4() {}

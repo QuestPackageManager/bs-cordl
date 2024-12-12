@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Debugger)
@@ -14,27 +13,26 @@ class Debugger;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Debugger);
-// Type: System.Diagnostics::Debugger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::Debugger*
+// CS Name: System.Diagnostics.Debugger
 class CORDL_TYPE Debugger : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DefaultCategory, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultCategory, put = setStaticF_DefaultCategory)) ::StringW DefaultCategory;
+  __declspec(property(get = getStaticF_DefaultCategory, put = setStaticF_DefaultCategory)) ::StringW DefaultCategory;
 
-  /// @brief Method IsLogging, addr 0x3d54fc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsLogging, addr 0x3db5134, size 0x4, virtual false, abstract: false, final false
   static inline bool IsLogging();
 
-  /// @brief Method Log, addr 0x3d54fc8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x3db513c, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(int32_t level, ::StringW category, ::StringW message);
 
-  /// @brief Method Log_icall, addr 0x3d54fc4, size 0x4, virtual false, abstract: false, final false
-  static inline void Log_icall(int32_t level, ByRef<::StringW> category, ByRef<::StringW> message);
+  /// @brief Method Log_icall, addr 0x3db5138, size 0x4, virtual false, abstract: false, final false
+  static inline void Log_icall(int32_t level, ::ByRef<::StringW> category, ::ByRef<::StringW> message);
 
-  /// @brief Method NotifyOfCrossThreadDependency, addr 0x3d55034, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfCrossThreadDependency, addr 0x3db51a8, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyOfCrossThreadDependency();
 
   static inline ::StringW getStaticF_DefaultCategory();

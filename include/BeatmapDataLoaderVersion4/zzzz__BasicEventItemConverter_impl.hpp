@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*>, ::BeatmapDataLoaderVersion4::SpecialEventsFilter*, ::GlobalNamespace::BpmTimeProcessor*,
     ::GlobalNamespace::IBeatmapLightEventConverter*)>(&::BeatmapDataLoaderVersion4::BasicEventItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26d81ac;
+  constexpr static std::size_t addrs = 0x2709d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::BasicEventItemConverter::*)(
     ::BeatmapSaveDataVersion4::BeatIndex*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::BeatmapDataLoaderVersion4::BasicEventItemConverter::Convert)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x26d8218;
+  constexpr static std::size_t addrs = 0x2709dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,8 +63,7 @@ constexpr ::BeatmapDataLoaderVersion4::SpecialEventsFilter*& BeatmapDataLoaderVe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEventsFilter;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatmapDataLoaderVersion4::SpecialEventsFilter*> const&
-BeatmapDataLoaderVersion4::BasicEventItemConverter::__cordl_internal_get__specialEventsFilter() const {
+constexpr ::BeatmapDataLoaderVersion4::SpecialEventsFilter* const& BeatmapDataLoaderVersion4::BasicEventItemConverter::__cordl_internal_get__specialEventsFilter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEventsFilter;
 }
@@ -76,20 +75,13 @@ constexpr ::GlobalNamespace::IBeatmapLightEventConverter*& BeatmapDataLoaderVers
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightEventConverter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLightEventConverter*> const&
-BeatmapDataLoaderVersion4::BasicEventItemConverter::__cordl_internal_get__lightEventConverter() const {
+constexpr ::GlobalNamespace::IBeatmapLightEventConverter* const& BeatmapDataLoaderVersion4::BasicEventItemConverter::__cordl_internal_get__lightEventConverter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightEventConverter;
 }
 constexpr void BeatmapDataLoaderVersion4::BasicEventItemConverter::__cordl_internal_set__lightEventConverter(::GlobalNamespace::IBeatmapLightEventConverter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightEventConverter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::BeatmapDataLoaderVersion4::BasicEventItemConverter*
-BeatmapDataLoaderVersion4::BasicEventItemConverter::New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents,
-                                                             ::BeatmapDataLoaderVersion4::SpecialEventsFilter* specialEventsFilter, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
-                                                             ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::BasicEventItemConverter*>(basicEvents, specialEventsFilter, bpmTimeProcessor, lightEventConverter));
 }
 inline void BeatmapDataLoaderVersion4::BasicEventItemConverter::_ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents,
                                                                       ::BeatmapDataLoaderVersion4::SpecialEventsFilter* specialEventsFilter, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
@@ -110,6 +102,12 @@ inline void BeatmapDataLoaderVersion4::BasicEventItemConverter::Convert(::Beatma
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::BeatIndex*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, output);
+}
+inline ::BeatmapDataLoaderVersion4::BasicEventItemConverter*
+BeatmapDataLoaderVersion4::BasicEventItemConverter::New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents,
+                                                             ::BeatmapDataLoaderVersion4::SpecialEventsFilter* specialEventsFilter, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
+                                                             ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::BasicEventItemConverter*>(basicEvents, specialEventsFilter, bpmTimeProcessor, lightEventConverter));
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::BasicEventItemConverter::BasicEventItemConverter() {}

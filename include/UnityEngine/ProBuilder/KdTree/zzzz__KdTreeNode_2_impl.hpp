@@ -32,8 +32,7 @@ template <typename TKey, typename TValue> constexpr ::System::Collections::Gener
   return this->___Duplicates;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TValue>*> const&
-UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::__cordl_internal_get_Duplicates() const {
+constexpr ::System::Collections::Generic::List_1<TValue>* const& UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::__cordl_internal_get_Duplicates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Duplicates;
 }
@@ -48,8 +47,7 @@ constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& UnityE
   return this->___LeftChild;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const&
-UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::__cordl_internal_get_LeftChild() const {
+constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* const& UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::__cordl_internal_get_LeftChild() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LeftChild;
 }
@@ -64,8 +62,7 @@ constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& UnityE
   return this->___RightChild;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const&
-UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::__cordl_internal_get_RightChild() const {
+constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* const& UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::__cordl_internal_get_RightChild() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RightChild;
 }
@@ -74,18 +71,11 @@ constexpr void UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___RightChild, value);
 }
-template <typename TKey, typename TValue> inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>());
-}
 template <typename TKey, typename TValue> inline void UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TKey, typename TValue>
-inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::New_ctor(::ArrayW<TKey, ::Array<TKey>*> point, TValue value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>(point, value));
 }
 template <typename TKey, typename TValue> inline void UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::_ctor(::ArrayW<TKey, ::Array<TKey>*> point, TValue value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,6 +115,13 @@ template <typename TKey, typename TValue> inline ::StringW UnityEngine::ProBuild
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+template <typename TKey, typename TValue> inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>());
+}
+template <typename TKey, typename TValue>
+inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::New_ctor(::ArrayW<TKey, ::Array<TKey>*> point, TValue value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>(point, value));
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::KdTreeNode_2() {}

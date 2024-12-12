@@ -19,11 +19,10 @@ class MoveAndRotateWithMainCamera;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MoveAndRotateWithMainCamera);
-// Type: ::MoveAndRotateWithMainCamera
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MoveAndRotateWithMainCamera*
+// CS Name: MoveAndRotateWithMainCamera
 class CORDL_TYPE MoveAndRotateWithMainCamera : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -39,10 +38,10 @@ public:
   /// @brief Field _transform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x3ab9efc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b16e40, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x3ab9f48, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b16e8c, size 0x108, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MoveAndRotateWithMainCamera* New_ctor();
@@ -71,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3aba050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16f94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MoveAndRotateWithMainCamera(MoveAndRotateWithMainCamera const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5077 };
+
   /// @brief Field _mainCamera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
@@ -100,14 +102,9 @@ public:
   /// @brief Field _transform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5058 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveAndRotateWithMainCamera, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MoveAndRotateWithMainCamera, ____mainCamera) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MoveAndRotateWithMainCamera, ____rotationOffset) == 0x28, "Offset mismatch!");
@@ -115,6 +112,8 @@ static_assert(offsetof(::GlobalNamespace::MoveAndRotateWithMainCamera, ____rotat
 static_assert(offsetof(::GlobalNamespace::MoveAndRotateWithMainCamera, ____positionOffset) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MoveAndRotateWithMainCamera, ____transform) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveAndRotateWithMainCamera, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MoveAndRotateWithMainCamera);

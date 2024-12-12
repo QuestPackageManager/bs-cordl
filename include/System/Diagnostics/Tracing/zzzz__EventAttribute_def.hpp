@@ -21,11 +21,10 @@ class EventAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventAttribute);
-// Type: System.Diagnostics.Tracing::EventAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Diagnostics.Tracing.EventKeywords, System.Diagnostics.Tracing.EventLevel
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// CS Name: ::System.Diagnostics.Tracing::EventAttribute*
+// CS Name: System.Diagnostics.Tracing.EventAttribute
 class CORDL_TYPE EventAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -76,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set__Message_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d56a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db6bb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
-  /// @brief Method set_EventId, addr 0x3d56a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventId, addr 0x3db6be0, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
-  /// @brief Method set_Keywords, addr 0x3d56a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keywords, addr 0x3db6bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
-  /// @brief Method set_Level, addr 0x3d56a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x3db6be8, size 0x8, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
-  /// @brief Method set_Message, addr 0x3d56a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x3db6bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
 protected:
@@ -105,6 +104,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventAttribute(EventAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3751 };
+
   /// @brief Field <EventId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____EventId_k__BackingField;
 
@@ -117,14 +119,9 @@ public:
   /// @brief Field <Message>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Message_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3751 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventAttribute, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____EventId_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____Level_k__BackingField) == 0x14, "Offset mismatch!");
@@ -132,6 +129,8 @@ static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____Level
 static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____Keywords_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____Message_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventAttribute, 0x28>, "Size mismatch!");
 
 } // namespace System::Diagnostics::Tracing
 NEED_NO_BOX(::System::Diagnostics::Tracing::EventAttribute);

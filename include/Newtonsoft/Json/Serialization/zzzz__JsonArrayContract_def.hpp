@@ -32,11 +32,10 @@ class JsonArrayContract;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonArrayContract);
-// Type: Newtonsoft.Json.Serialization::JsonArrayContract
-// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 273, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Serialization.JsonContainerContract
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::JsonArrayContract*
+// CS Name: Newtonsoft.Json.Serialization.JsonArrayContract
 class CORDL_TYPE JsonArrayContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
@@ -104,24 +103,24 @@ public:
   __declspec(property(get = __cordl_internal_get__parameterizedCreator,
                       put = __cordl_internal_set__parameterizedCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
-  /// @brief Method CreateTemporaryCollection, addr 0x3e83f08, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method CreateTemporaryCollection, addr 0x3ee3fb4, size 0x258, virtual false, abstract: false, final false
   inline ::System::Collections::IList* CreateTemporaryCollection();
 
-  /// @brief Method CreateWrapper, addr 0x3e83b44, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x3ee3bf0, size 0x3c4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::IWrappedCollection* CreateWrapper(::System::Object* list);
 
   static inline ::Newtonsoft::Json::Serialization::JsonArrayContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method StoreFSharpListCreatorIfNecessary, addr 0x3e83a30, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method StoreFSharpListCreatorIfNecessary, addr 0x3ee3adc, size 0x114, virtual false, abstract: false, final false
   inline void StoreFSharpListCreatorIfNecessary(::System::Type* underlyingType);
 
   constexpr bool const& __cordl_internal_get__CanDeserialize_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__CanDeserialize_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__CollectionItemType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__CollectionItemType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__CollectionItemType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__CollectionItemType_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__HasParameterizedCreator_k__BackingField() const;
 
@@ -139,33 +138,33 @@ public:
 
   constexpr bool& __cordl_internal_get__ShouldCreateWrapper_k__BackingField();
 
+  constexpr ::System::Type* const& __cordl_internal_get__genericCollectionDefinitionType() const;
+
   constexpr ::System::Type*& __cordl_internal_get__genericCollectionDefinitionType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__genericCollectionDefinitionType() const;
+  constexpr ::System::Func_1<::System::Object*>* const& __cordl_internal_get__genericTemporaryCollectionCreator() const;
 
   constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get__genericTemporaryCollectionCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __cordl_internal_get__genericTemporaryCollectionCreator() const;
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const& __cordl_internal_get__genericWrapperCreator() const;
 
   constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__genericWrapperCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__genericWrapperCreator() const;
+  constexpr ::System::Type* const& __cordl_internal_get__genericWrapperType() const;
 
   constexpr ::System::Type*& __cordl_internal_get__genericWrapperType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__genericWrapperType() const;
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const& __cordl_internal_get__overrideCreator() const;
 
   constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__overrideCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__overrideCreator() const;
+  constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get__parameterizedConstructor() const;
 
   constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__parameterizedConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__parameterizedConstructor() const;
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const& __cordl_internal_get__parameterizedCreator() const;
 
   constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__parameterizedCreator();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__parameterizedCreator() const;
 
   constexpr void __cordl_internal_set__CanDeserialize_k__BackingField(bool value);
 
@@ -193,43 +192,43 @@ public:
 
   constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3e7e924, size 0xd18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ede9d0, size 0xd18, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_CanDeserialize, addr 0x3e83700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanDeserialize, addr 0x3ee37ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanDeserialize();
 
-  /// @brief Method get_CollectionItemType, addr 0x3e836e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItemType, addr 0x3ee378c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_CollectionItemType();
 
-  /// @brief Method get_HasParameterizedCreator, addr 0x3e837dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreator, addr 0x3ee3888, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreator();
 
-  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x3e837f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x3ee389c, size 0x80, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreatorInternal();
 
-  /// @brief Method get_IsArray, addr 0x3e836f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsArray, addr 0x3ee379c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsArray();
 
-  /// @brief Method get_IsMultidimensionalArray, addr 0x3e836e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMultidimensionalArray, addr 0x3ee3794, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMultidimensionalArray();
 
-  /// @brief Method get_OverrideCreator, addr 0x3e837d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverrideCreator, addr 0x3ee3880, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
 
-  /// @brief Method get_ParameterizedCreator, addr 0x3e83714, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterizedCreator, addr 0x3ee37c0, size 0xc0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
 
-  /// @brief Method get_ShouldCreateWrapper, addr 0x3e836f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldCreateWrapper, addr 0x3ee37a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldCreateWrapper();
 
-  /// @brief Method set_CanDeserialize, addr 0x3e83708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CanDeserialize, addr 0x3ee37b4, size 0xc, virtual false, abstract: false, final false
   inline void set_CanDeserialize(bool value);
 
-  /// @brief Method set_HasParameterizedCreator, addr 0x3e837e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HasParameterizedCreator, addr 0x3ee3890, size 0xc, virtual false, abstract: false, final false
   inline void set_HasParameterizedCreator(bool value);
 
-  /// @brief Method set_OverrideCreator, addr 0x3e7f63c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_OverrideCreator, addr 0x3edf6e8, size 0x10, virtual false, abstract: false, final false
   inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:
@@ -245,6 +244,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonArrayContract", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   JsonArrayContract(JsonArrayContract const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10306 };
 
   /// @brief Field <CollectionItemType>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::System::Type* ____CollectionItemType_k__BackingField;
@@ -285,14 +287,9 @@ public:
   /// @brief Field <HasParameterizedCreator>k__BackingField, offset: 0x110, size: 0x1, def value: None
   bool ____HasParameterizedCreator_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10281 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonArrayContract, 0x118>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonArrayContract, ____CollectionItemType_k__BackingField) == 0xc0, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonArrayContract, ____IsMultidimensionalArray_k__BackingField) == 0xc8, "Offset mismatch!");
@@ -318,6 +315,8 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonArrayContract, ___
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonArrayContract, ____overrideCreator) == 0x108, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonArrayContract, ____HasParameterizedCreator_k__BackingField) == 0x110, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonArrayContract, 0x118>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonArrayContract);

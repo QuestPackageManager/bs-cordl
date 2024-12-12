@@ -12,11 +12,10 @@ class DropdownMenuSeparator;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuSeparator);
-// Type: UnityEngine.UIElements::DropdownMenuSeparator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.DropdownMenuItem
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::DropdownMenuSeparator*
+// CS Name: UnityEngine.UIElements.DropdownMenuSeparator
 class CORDL_TYPE DropdownMenuSeparator : public ::UnityEngine::UIElements::DropdownMenuItem {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__subMenuPath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49ba958, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1f268, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW subMenuPath);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DropdownMenuSeparator(DropdownMenuSeparator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5766 };
+
   /// @brief Field <subMenuPath>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____subMenuPath_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DropdownMenuSeparator, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuSeparator, ____subMenuPath_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DropdownMenuSeparator, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DropdownMenuSeparator);

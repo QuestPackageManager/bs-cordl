@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputValue::*)()>(&::UnityEngine::InputSystem::InputValue::Get)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x45780a0;
+  constexpr static std::size_t addrs = 0x45d93b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputValue*>::get(), "Get",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputValue::*)()>(&::UnityEngine::InputSystem::InputValue::get_isPressed)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4578104;
+  constexpr static std::size_t addrs = 0x45d9418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputValue*>::get(), "get_isPressed",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputValue::*)()>(&::UnityEngine::InputSystem::InputValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4578180;
+  constexpr static std::size_t addrs = 0x45d9494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputValue*>::get(), ".ctor",
@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>& UnityEngine::InputSystem::InputValue::__cordl_internal_get_m_Context() {
+constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext>& UnityEngine::InputSystem::InputValue::__cordl_internal_get_m_Context() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
-constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> const& UnityEngine::InputSystem::InputValue::__cordl_internal_get_m_Context() const {
+constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> const& UnityEngine::InputSystem::InputValue::__cordl_internal_get_m_Context() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
-constexpr void UnityEngine::InputSystem::InputValue::__cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> value) {
+constexpr void UnityEngine::InputSystem::InputValue::__cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Context = value;
 }
@@ -74,13 +74,13 @@ inline bool UnityEngine::InputSystem::InputValue::get_isPressed() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::InputValue* UnityEngine::InputSystem::InputValue::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputValue*>());
-}
 inline void UnityEngine::InputSystem::InputValue::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputValue*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::InputValue* UnityEngine::InputSystem::InputValue::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputValue*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputValue::InputValue() {}

@@ -11,11 +11,10 @@ class NotNullWhenAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute);
-// Type: System.Diagnostics.CodeAnalysis::NotNullWhenAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
-// CS Name: ::System.Diagnostics.CodeAnalysis::NotNullWhenAttribute*
+// CS Name: System.Diagnostics.CodeAnalysis.NotNullWhenAttribute
 class CORDL_TYPE NotNullWhenAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3e15be0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e75c8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
 
-  /// @brief Method get_ReturnValue, addr 0x3e15c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnValue, addr 0x3e75cb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReturnValue();
 
 protected:
@@ -52,18 +51,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NotNullWhenAttribute(NotNullWhenAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10039 };
+
   /// @brief Field <ReturnValue>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ReturnValue_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute, ____ReturnValue_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Diagnostics::CodeAnalysis
 NEED_NO_BOX(::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute);

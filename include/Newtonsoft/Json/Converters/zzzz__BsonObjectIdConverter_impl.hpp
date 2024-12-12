@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::BsonObjectIdConverter::WriteJson)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3ed9a08;
+  constexpr static std::size_t addrs = 0x3f39ab4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::BsonObjectIdConverter::ReadJson)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3ed9b08;
+  constexpr static std::size_t addrs = 0x3f39bb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::BsonObjectIdConverter::CanConvert)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ed9c98;
+  constexpr static std::size_t addrs = 0x3f39d44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)()>(
     &::Newtonsoft::Json::Converters::BsonObjectIdConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ed9d20;
+  constexpr static std::size_t addrs = 0x3f39dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>::get(),
@@ -89,13 +89,13 @@ inline bool Newtonsoft::Json::Converters::BsonObjectIdConverter::CanConvert(::Sy
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, objectType);
 }
-inline ::Newtonsoft::Json::Converters::BsonObjectIdConverter* Newtonsoft::Json::Converters::BsonObjectIdConverter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>());
-}
 inline void Newtonsoft::Json::Converters::BsonObjectIdConverter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Converters::BsonObjectIdConverter* Newtonsoft::Json::Converters::BsonObjectIdConverter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>());
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::BsonObjectIdConverter::BsonObjectIdConverter() {}

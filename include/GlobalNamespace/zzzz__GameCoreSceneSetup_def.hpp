@@ -21,11 +21,10 @@ class GameCoreSceneSetup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameCoreSceneSetup);
-// Type: ::GameCoreSceneSetup
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameCoreSceneSetup*
+// CS Name: GameCoreSceneSetup
 class CORDL_TYPE GameCoreSceneSetup : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -39,12 +38,12 @@ public:
   /// @brief Field _settingsManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method InstallBindings, addr 0x3ad6acc, size 0x428, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b36110, size 0x428, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::GameCoreSceneSetup* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad6ef4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b36538, size 0x48, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -55,9 +54,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay>& __cordl_internal_get__screenCaptureAfterDelayPrefab();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
@@ -65,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3ad6f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b36580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,6 +81,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameCoreSceneSetup(GameCoreSceneSetup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5218 };
+
+  /// @brief Field kPauseButtonPressDuration offset 0xffffffff size 0x4
+  static constexpr float_t kPauseButtonPressDuration{ static_cast<float_t>(0.8f) };
+
   /// @brief Field _screenCaptureAfterDelayPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> ____screenCaptureAfterDelayPrefab;
 
@@ -91,22 +96,16 @@ public:
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5198 };
-
-  /// @brief Field kPauseButtonPressDuration offset 0xffffffff size 0x4
-  static constexpr float_t kPauseButtonPressDuration{ 0.75 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameCoreSceneSetup, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____screenCaptureAfterDelayPrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____bloomFog) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____settingsManager) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameCoreSceneSetup, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameCoreSceneSetup);

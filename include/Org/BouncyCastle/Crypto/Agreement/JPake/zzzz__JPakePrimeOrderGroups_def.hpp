@@ -14,26 +14,25 @@ class JPakePrimeOrderGroups;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups);
-// Type: Org.BouncyCastle.Crypto.Agreement.JPake::JPakePrimeOrderGroups
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakePrimeOrderGroups*
+// CS Name: Org.BouncyCastle.Crypto.Agreement.JPake.JPakePrimeOrderGroups
 class CORDL_TYPE JPakePrimeOrderGroups : public ::System::Object {
 public:
   // Declarations
   /// @brief Field NIST_2048, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NIST_2048, put = setStaticF_NIST_2048)) ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* NIST_2048;
+  __declspec(property(get = getStaticF_NIST_2048, put = setStaticF_NIST_2048)) ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* NIST_2048;
 
   /// @brief Field NIST_3072, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NIST_3072, put = setStaticF_NIST_3072)) ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* NIST_3072;
+  __declspec(property(get = getStaticF_NIST_3072, put = setStaticF_NIST_3072)) ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* NIST_3072;
 
   /// @brief Field SUN_JCE_1024, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SUN_JCE_1024, put = setStaticF_SUN_JCE_1024)) ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* SUN_JCE_1024;
+  __declspec(property(get = getStaticF_SUN_JCE_1024, put = setStaticF_SUN_JCE_1024)) ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* SUN_JCE_1024;
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26546b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26879a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* getStaticF_NIST_2048();

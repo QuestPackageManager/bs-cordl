@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Exception_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ExitGUIException)
 // Forward declare root types
 namespace UnityEngine {
@@ -11,18 +12,22 @@ class ExitGUIException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ExitGUIException);
-// Type: UnityEngine::ExitGUIException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ExitGUIException*
+// CS Name: UnityEngine.ExitGUIException
 class CORDL_TYPE ExitGUIException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::ExitGUIException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x487a878, size 0xc0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ExitGUIException* New_ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x48ded28, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x48dac3c, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
 protected:
   // Ctor Parameters []
@@ -39,7 +44,7 @@ public:
   ExitGUIException(ExitGUIException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

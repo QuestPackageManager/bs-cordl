@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NetLogger.hpp"
+#include "LiteNetLib/zzzz__INetLogger_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetLogger_def.hpp"
-#include "LiteNetLib/zzzz__INetLogger_def.hpp"
 #include "LiteNetLib/zzzz__NetLogLevel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetLogger.WriteNet
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::NetLogger::*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::GlobalNamespace::NetLogger::WriteNet)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x22a7ae4;
+  constexpr static std::size_t addrs = 0x22dadd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetLogger::*)()>(&::GlobalNamespace::NetLogger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a7c78;
+  constexpr static std::size_t addrs = 0x22daf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetLogger*>::get(), ".ctor",
@@ -35,14 +35,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::LiteNetLib::INetLogger"
-constexpr GlobalNamespace::NetLogger::operator ::LiteNetLib::INetLogger*() noexcept {
-  return static_cast<::LiteNetLib::INetLogger*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::LiteNetLib::INetLogger"
-constexpr ::LiteNetLib::INetLogger* GlobalNamespace::NetLogger::i___LiteNetLib__INetLogger() noexcept {
-  return static_cast<::LiteNetLib::INetLogger*>(static_cast<void*>(this));
-}
 inline void GlobalNamespace::NetLogger::WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetLogger*>::get(), "WriteNet", std::span<Il2CppClass const* const, 0>(),
@@ -51,13 +43,21 @@ inline void GlobalNamespace::NetLogger::WriteNet(::LiteNetLib::NetLogLevel level
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level, str, args);
 }
-inline ::GlobalNamespace::NetLogger* GlobalNamespace::NetLogger::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetLogger*>());
-}
 inline void GlobalNamespace::NetLogger::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetLogger*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NetLogger* GlobalNamespace::NetLogger::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetLogger*>());
+}
+/// @brief Convert operator to "::LiteNetLib::INetLogger"
+constexpr GlobalNamespace::NetLogger::operator ::LiteNetLib::INetLogger*() noexcept {
+  return static_cast<::LiteNetLib::INetLogger*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::LiteNetLib::INetLogger"
+constexpr ::LiteNetLib::INetLogger* GlobalNamespace::NetLogger::i___LiteNetLib__INetLogger() noexcept {
+  return static_cast<::LiteNetLib::INetLogger*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetLogger::NetLogger() {}

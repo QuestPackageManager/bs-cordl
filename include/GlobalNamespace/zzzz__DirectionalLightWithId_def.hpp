@@ -18,11 +18,10 @@ class DirectionalLightWithId;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithId);
-// Type: ::DirectionalLightWithId
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightWithIdMonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DirectionalLightWithId*
+// CS Name: DirectionalLightWithId
 class CORDL_TYPE DirectionalLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
@@ -35,7 +34,7 @@ public:
   /// @brief Field _minIntensity, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__minIntensity, put = __cordl_internal_set__minIntensity)) float_t _minIntensity;
 
-  /// @brief Method ColorWasSet, addr 0x398b568, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e1f38, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithId* New_ctor();
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__minIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x398b59c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e1f6c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DirectionalLightWithId(DirectionalLightWithId const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16302 };
+
   /// @brief Field _light, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____light;
 
@@ -84,19 +86,16 @@ public:
   /// @brief Field _minIntensity, offset: 0x44, size: 0x4, def value: None
   float_t ____minIntensity;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16267 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DirectionalLightWithId, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::DirectionalLightWithId, ____light) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DirectionalLightWithId, ____intensity) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DirectionalLightWithId, ____minIntensity) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DirectionalLightWithId, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DirectionalLightWithId);

@@ -16,40 +16,39 @@ struct TextureId;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TextureId);
-// Type: UnityEngine.UIElements::TextureId
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::TextureId
+// CS Name: UnityEngine.UIElements.TextureId
 struct CORDL_TYPE TextureId {
 public:
   // Declarations
   __declspec(property(get = get_index)) int32_t index;
 
   /// @brief Field invalid, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid)) ::UnityEngine::UIElements::TextureId invalid;
+  __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid)) ::UnityEngine::UIElements::TextureId invalid;
 
-  /// @brief Method ConvertToGpu, addr 0x49ffeb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToGpu, addr 0x4a647c4, size 0x5c, virtual false, abstract: false, final false
   inline float_t ConvertToGpu();
 
-  /// @brief Method Equals, addr 0x49fff10, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a64820, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x49fffb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a648c8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x49ffe9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a647ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
   static inline ::UnityEngine::UIElements::TextureId getStaticF_invalid();
 
-  /// @brief Method get_index, addr 0x49ffea8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x4a647b8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method op_Equality, addr 0x49fffc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a648d0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right);
 
-  /// @brief Method op_Inequality, addr 0x49fffcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4a648dc, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right);
 
   static inline void setStaticF_invalid(::UnityEngine::UIElements::TextureId value);
@@ -61,21 +60,21 @@ public:
   // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextureId(int32_t m_Index) noexcept;
 
-  /// @brief Field m_Index, offset: 0x0, size: 0x4, def value: None
-  int32_t m_Index;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6037 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field m_Index, offset: 0x0, size: 0x4, def value: None
+  int32_t m_Index;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextureId, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::TextureId, m_Index) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextureId, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextureId, "UnityEngine.UIElements", "TextureId");

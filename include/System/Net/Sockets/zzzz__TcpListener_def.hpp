@@ -36,11 +36,10 @@ class TcpListener;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::TcpListener);
-// Type: System.Net.Sockets::TcpListener
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
-// CS Name: ::System.Net.Sockets::TcpListener*
+// CS Name: System.Net.Sockets.TcpListener
 class CORDL_TYPE TcpListener : public ::System::Object {
 public:
   // Declarations
@@ -58,21 +57,21 @@ public:
   /// @brief Field m_ServerSocketEP, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ServerSocketEP, put = __cordl_internal_set_m_ServerSocketEP)) ::System::Net::IPEndPoint* m_ServerSocketEP;
 
-  /// @brief Method BeginAcceptTcpClient, addr 0x439ee3c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method BeginAcceptTcpClient, addr 0x4400150, size 0xac, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginAcceptTcpClient(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndAcceptTcpClient, addr 0x439eee8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method EndAcceptTcpClient, addr 0x44001fc, size 0x154, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::TcpClient* EndAcceptTcpClient(::System::IAsyncResult* asyncResult);
 
   static inline ::System::Net::Sockets::TcpListener* New_ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method Start, addr 0x439ebf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x43fff04, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Start, addr 0x439ebf8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x43fff0c, size 0x180, virtual false, abstract: false, final false
   inline void Start(int32_t backlog);
 
-  /// @brief Method Stop, addr 0x439ed78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x440008c, size 0xc4, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr bool const& __cordl_internal_get_m_Active() const;
@@ -83,13 +82,13 @@ public:
 
   constexpr bool& __cordl_internal_get_m_ExclusiveAddressUse();
 
+  constexpr ::System::Net::Sockets::Socket* const& __cordl_internal_get_m_ServerSocket() const;
+
   constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_m_ServerSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_m_ServerSocket() const;
+  constexpr ::System::Net::IPEndPoint* const& __cordl_internal_get_m_ServerSocketEP() const;
 
   constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_m_ServerSocketEP();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_m_ServerSocketEP() const;
 
   constexpr void __cordl_internal_set_m_Active(bool value);
 
@@ -99,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ServerSocketEP(::System::Net::IPEndPoint* value);
 
-  /// @brief Method .ctor, addr 0x439ea2c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ffd40, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method get_LocalEndpoint, addr 0x439ebc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndpoint, addr 0x43ffed4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Net::EndPoint* get_LocalEndpoint();
 
 protected:
@@ -119,6 +118,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TcpListener(TcpListener const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9870 };
+
   /// @brief Field m_ServerSocketEP, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ___m_ServerSocketEP;
 
@@ -131,14 +133,9 @@ public:
   /// @brief Field m_ExclusiveAddressUse, offset: 0x21, size: 0x1, def value: None
   bool ___m_ExclusiveAddressUse;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9845 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::TcpListener, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::TcpListener, ___m_ServerSocketEP) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::TcpListener, ___m_ServerSocket) == 0x18, "Offset mismatch!");
@@ -146,6 +143,8 @@ static_assert(offsetof(::System::Net::Sockets::TcpListener, ___m_ServerSocket) =
 static_assert(offsetof(::System::Net::Sockets::TcpListener, ___m_Active) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::TcpListener, ___m_ExclusiveAddressUse) == 0x21, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::TcpListener, 0x28>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::TcpListener);

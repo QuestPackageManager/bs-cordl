@@ -15,39 +15,39 @@
 #include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo::*)(int32_t)>(
-    &::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo::*)(int32_t)>(
+    &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x259660c;
+  constexpr static std::size_t addrs = 0x25c98f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo* Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo::New_ctor(int32_t failInfoValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo*>(failInfoValue));
-}
-inline void Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo::_ctor(int32_t failInfoValue) {
+inline void Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo::_ctor(int32_t failInfoValue) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, failInfoValue);
 }
+inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo* Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo::New_ctor(int32_t failInfoValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo*>(failInfoValue));
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo::__TimeStampResponseGenerator__FailInfo() {}
+constexpr ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator_FailInfo::TimeStampResponseGenerator_FailInfo() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(
     ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*, ::System::Collections::IList*)>(&::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25962d8;
+  constexpr static std::size_t addrs = 0x25c95c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(
     ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*, ::System::Collections::IList*, ::System::Collections::IList*)>(&::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2596370;
+  constexpr static std::size_t addrs = 0x25c965c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*, ::System::Collections::IList*, ::System::Collections::IList*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x25962e4;
+  constexpr static std::size_t addrs = 0x25c95d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::AddStatusString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2596378;
+  constexpr static std::size_t addrs = 0x25c9664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::SetFailInfoField)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25963f4;
+  constexpr static std::size_t addrs = 0x25c96e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::GetPkiStatusInfo)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2596404;
+  constexpr static std::size_t addrs = 0x25c96f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>::get(),
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::Org::BouncyCastle::Tsp::TimeStampRequest*, ::Org::BouncyCastle::Math::BigInteger*, ::System::DateTime)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::Generate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2596674;
+  constexpr static std::size_t addrs = 0x25c9960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::Org::BouncyCastle::Tsp::TimeStampRequest*, ::Org::BouncyCastle::Math::BigInteger*,
                                                              ::Org::BouncyCastle::Utilities::Date::DateTimeObject*)>(&::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::Generate)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x2596720;
+  constexpr static std::size_t addrs = 0x25c9a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Tsp::TimeStampResponse* (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::Org::BouncyCastle::Asn1::Cmp::PkiStatus, int32_t, ::StringW)>(
         &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::GenerateFailResponse)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x2597184;
+  constexpr static std::size_t addrs = 0x25ca470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& Org::BouncyCastle::Ts
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusStrings;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_statusStrings() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_statusStrings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusStrings;
 }
@@ -230,8 +230,7 @@ constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*& Org::BouncyCastle:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenGenerator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*> const&
-Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_tokenGenerator() const {
+constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_tokenGenerator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenGenerator;
 }
@@ -243,7 +242,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Tsp::TimeStampRespon
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedAlgorithms;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_acceptedAlgorithms() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_acceptedAlgorithms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedAlgorithms;
 }
@@ -255,7 +254,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Tsp::TimeStampRespon
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedPolicies;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_acceptedPolicies() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_acceptedPolicies() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedPolicies;
 }
@@ -267,7 +266,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Tsp::TimeStampRespon
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedExtensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_acceptedExtensions() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_internal_get_acceptedExtensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedExtensions;
 }
@@ -275,21 +274,12 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___acceptedExtensions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator,
-                                                                                                                          ::System::Collections::IList* acceptedAlgorithms) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>(tokenGenerator, acceptedAlgorithms));
-}
 inline void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tokenGenerator, acceptedAlgorithms);
-}
-inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator,
-                                                                                                                          ::System::Collections::IList* acceptedAlgorithms,
-                                                                                                                          ::System::Collections::IList* acceptedPolicy) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>(tokenGenerator, acceptedAlgorithms, acceptedPolicy));
 }
 inline void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms,
                                                                       ::System::Collections::IList* acceptedPolicy) {
@@ -299,12 +289,6 @@ inline void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor(::Org::Bou
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tokenGenerator, acceptedAlgorithms, acceptedPolicy);
-}
-inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator,
-                                                                                                                          ::System::Collections::IList* acceptedAlgorithms,
-                                                                                                                          ::System::Collections::IList* acceptedPolicies,
-                                                                                                                          ::System::Collections::IList* acceptedExtensions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>(tokenGenerator, acceptedAlgorithms, acceptedPolicies, acceptedExtensions));
 }
 inline void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms,
                                                                       ::System::Collections::IList* acceptedPolicies, ::System::Collections::IList* acceptedExtensions) {
@@ -359,6 +343,21 @@ inline ::Org::BouncyCastle::Tsp::TimeStampResponse* Org::BouncyCastle::Tsp::Time
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiStatus>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Tsp::TimeStampResponse*, false>(this, ___internal_method, status, failInfoField, statusString);
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator,
+                                                                                                                          ::System::Collections::IList* acceptedAlgorithms) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>(tokenGenerator, acceptedAlgorithms));
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator,
+                                                                                                                          ::System::Collections::IList* acceptedAlgorithms,
+                                                                                                                          ::System::Collections::IList* acceptedPolicy) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>(tokenGenerator, acceptedAlgorithms, acceptedPolicy));
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator,
+                                                                                                                          ::System::Collections::IList* acceptedAlgorithms,
+                                                                                                                          ::System::Collections::IList* acceptedPolicies,
+                                                                                                                          ::System::Collections::IList* acceptedExtensions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>(tokenGenerator, acceptedAlgorithms, acceptedPolicies, acceptedExtensions));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::TimeStampResponseGenerator() {}

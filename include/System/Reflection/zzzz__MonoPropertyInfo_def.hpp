@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(MonoPropertyInfo)
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System::Reflection {
-struct PropertyAttributes;
-}
 namespace System {
 class Type;
 }
@@ -22,11 +19,10 @@ struct MonoPropertyInfo;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::MonoPropertyInfo);
-// Type: System.Reflection::MonoPropertyInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.PropertyAttributes
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::MonoPropertyInfo
+// CS Name: System.Reflection.MonoPropertyInfo
 struct CORDL_TYPE MonoPropertyInfo {
 public:
   // Declarations
@@ -40,6 +36,12 @@ public:
   // None }]
   constexpr MonoPropertyInfo(::System::Type* parent, ::System::Type* declaring_type, ::StringW name, ::System::Reflection::MethodInfo* get_method, ::System::Reflection::MethodInfo* set_method,
                              ::System::Reflection::PropertyAttributes attrs) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3530 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field parent, offset: 0x0, size: 0x8, def value: None
   ::System::Type* parent;
@@ -59,17 +61,9 @@ public:
   /// @brief Field attrs, offset: 0x28, size: 0x4, def value: None
   ::System::Reflection::PropertyAttributes attrs;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3530 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoPropertyInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::MonoPropertyInfo, parent) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MonoPropertyInfo, declaring_type) == 0x8, "Offset mismatch!");
@@ -81,6 +75,8 @@ static_assert(offsetof(::System::Reflection::MonoPropertyInfo, get_method) == 0x
 static_assert(offsetof(::System::Reflection::MonoPropertyInfo, set_method) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MonoPropertyInfo, attrs) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoPropertyInfo, 0x30>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");

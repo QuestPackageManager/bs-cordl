@@ -14,11 +14,10 @@ class AvatarPromoView;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarPromoView);
-// Type: BeatSaber.AvatarCore::AvatarPromoView
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::AvatarPromoView*
+// CS Name: BeatSaber.AvatarCore.AvatarPromoView
 class CORDL_TYPE AvatarPromoView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -35,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x221e6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2249c30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rectTransform, addr 0x221e6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x2249c28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
 protected:
@@ -55,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarPromoView(AvatarPromoView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17555 };
+
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarPromoView, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarPromoView, ____rectTransform) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarPromoView, 0x28>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarPromoView);

@@ -12,27 +12,26 @@ class CSharpCodeHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers);
-// Type: UnityEngine.InputSystem.Utilities::CSharpCodeHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::CSharpCodeHelpers*
+// CS Name: UnityEngine.InputSystem.Utilities.CSharpCodeHelpers
 class CORDL_TYPE CSharpCodeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEmptyOrProperIdentifier, addr 0x4505264, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperIdentifier, addr 0x4566578, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperIdentifier(::StringW name);
 
-  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x4505290, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x45665a4, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperNamespaceName(::StringW name);
 
-  /// @brief Method IsProperIdentifier, addr 0x4505150, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsProperIdentifier, addr 0x4566464, size 0x114, virtual false, abstract: false, final false
   static inline bool IsProperIdentifier(::StringW name);
 
-  /// @brief Method MakeIdentifier, addr 0x4505364, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method MakeIdentifier, addr 0x4566678, size 0x244, virtual false, abstract: false, final false
   static inline ::StringW MakeIdentifier(::StringW name, ::StringW suffix);
 
-  /// @brief Method MakeTypeName, addr 0x45055a8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method MakeTypeName, addr 0x45668bc, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW MakeTypeName(::StringW name, ::StringW suffix);
 
 protected:
@@ -50,7 +49,7 @@ public:
   CSharpCodeHelpers(CSharpCodeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

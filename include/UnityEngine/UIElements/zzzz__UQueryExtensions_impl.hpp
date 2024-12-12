@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (*)(::UnityEngine::UIElements::VisualElement*, ::StringW, ::StringW)>(
     &::UnityEngine::UIElements::UQueryExtensions::Q)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x4a39e1c;
+  constexpr static std::size_t addrs = 0x4a9e72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +92,6 @@ inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::Visua
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>, "SingleElementTypeAndNameAndClassQuery",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get>();
 }
-/// @param name: ::StringW (default: nullptr)
-/// @param className: ::StringW (default: nullptr)
 template <typename T> inline T UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get(), "Q",
@@ -104,8 +102,6 @@ template <typename T> inline T UnityEngine::UIElements::UQueryExtensions::Q(::Un
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, e, name, className);
 }
-/// @param name: ::StringW (default: nullptr)
-/// @param className: ::StringW (default: nullptr)
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get(), "Q", std::span<Il2CppClass const* const, 0>(),

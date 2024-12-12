@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SafePasswordHandle)
 namespace System {
 struct IntPtr;
@@ -16,37 +15,36 @@ class SafePasswordHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafePasswordHandle);
-// Type: Microsoft.Win32.SafeHandles::SafePasswordHandle
-// SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.InteropServices.SafeHandle
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// CS Name: ::Microsoft.Win32.SafeHandles::SafePasswordHandle*
+// CS Name: Microsoft.Win32.SafeHandles.SafePasswordHandle
 class CORDL_TYPE SafePasswordHandle : public ::System::Runtime::InteropServices::SafeHandle {
 public:
   // Declarations
   __declspec(property(get = get_IsInvalid)) bool IsInvalid;
 
-  /// @brief Method CreateHandle, addr 0x3c0d444, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x3c6d558, size 0x58, virtual false, abstract: false, final false
   inline ::System::IntPtr CreateHandle(::StringW password);
 
-  /// @brief Method Dispose, addr 0x3c0d578, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c6d68c, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FreeHandle, addr 0x3c0d49c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method FreeHandle, addr 0x3c6d5b0, size 0x5c, virtual false, abstract: false, final false
   inline void FreeHandle();
 
-  /// @brief Method Mono_DangerousGetString, addr 0x3c0d610, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Mono_DangerousGetString, addr 0x3c6d724, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW Mono_DangerousGetString();
 
   static inline ::Microsoft::Win32::SafeHandles::SafePasswordHandle* New_ctor(::StringW password);
 
-  /// @brief Method ReleaseHandle, addr 0x3c0d534, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x3c6d648, size 0x44, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x3c0d4f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6d60c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password);
 
-  /// @brief Method get_IsInvalid, addr 0x3c0d5e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x3c6d6fc, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:

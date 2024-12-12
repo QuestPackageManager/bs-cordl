@@ -1,15 +1,31 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LanguageSettingsController.hpp"
+#include "BGLib/Polyglot/zzzz__Language_impl.hpp"
 #include "GlobalNamespace/zzzz__DropdownSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__LanguageSettingsController_def.hpp"
+#include "BGLib/Polyglot/zzzz__Language_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::LanguageSettingsController.get_language
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (::GlobalNamespace::LanguageSettingsController::*)()>(
+    &::GlobalNamespace::LanguageSettingsController::get_language)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3c0f36c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LanguageSettingsController*>::get(),
+                                                                               "get_language", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::LanguageSettingsController.GetInitValues
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LanguageSettingsController::*)(ByRef<int32_t>, ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LanguageSettingsController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::LanguageSettingsController::GetInitValues)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3bac9f4;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x3c0f374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LanguageSettingsController::*)(int32_t)>(
     &::GlobalNamespace::LanguageSettingsController::ApplyValue)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3bacb18;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x3c0f530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LanguageSettingsController::*)(int32_t)>(
     &::GlobalNamespace::LanguageSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3bacbec;
+  constexpr static std::size_t addrs = 0x3c0f608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LanguageSettingsController::*)()>(&::GlobalNamespace::LanguageSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bacc50;
+  constexpr static std::size_t addrs = 0x3c0f66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LanguageSettingsController*>::get(), ".ctor",
@@ -65,7 +81,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::LanguageSettings
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -73,7 +89,24 @@ constexpr void GlobalNamespace::LanguageSettingsController::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline bool GlobalNamespace::LanguageSettingsController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {
+constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__language() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____language;
+}
+constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__language() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____language;
+}
+constexpr void GlobalNamespace::LanguageSettingsController::__cordl_internal_set__language(::BGLib::Polyglot::Language value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____language = value;
+}
+inline ::BGLib::Polyglot::Language GlobalNamespace::LanguageSettingsController::get_language() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LanguageSettingsController*>::get(),
+                                                                             "get_language", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::Language, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::LanguageSettingsController::GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LanguageSettingsController*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, idx, numberOfElements);
@@ -88,13 +121,13 @@ inline ::StringW GlobalNamespace::LanguageSettingsController::TextForValue(int32
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LanguageSettingsController*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, idx);
 }
-inline ::GlobalNamespace::LanguageSettingsController* GlobalNamespace::LanguageSettingsController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LanguageSettingsController*>());
-}
 inline void GlobalNamespace::LanguageSettingsController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LanguageSettingsController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LanguageSettingsController* GlobalNamespace::LanguageSettingsController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LanguageSettingsController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LanguageSettingsController::LanguageSettingsController() {}

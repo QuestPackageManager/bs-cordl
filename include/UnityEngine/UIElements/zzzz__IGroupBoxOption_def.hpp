@@ -10,27 +10,22 @@ class IGroupBoxOption;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IGroupBoxOption);
-// Type: UnityEngine.UIElements::IGroupBoxOption
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::IGroupBoxOption*
+// CS Name: UnityEngine.UIElements.IGroupBoxOption
 class CORDL_TYPE IGroupBoxOption {
 public:
   // Declarations
-  /// @brief Method SetSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetSelected(bool selected);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IGroupBoxOption", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IGroupBoxOption(IGroupBoxOption&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IGroupBoxOption", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IGroupBoxOption(IGroupBoxOption const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

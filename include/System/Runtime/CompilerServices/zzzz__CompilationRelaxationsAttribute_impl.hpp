@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::*)(int32_t)>(
     &::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cb96ec;
+  constexpr static std::size_t addrs = 0x3d19860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::*)(
     ::System::Runtime::CompilerServices::CompilationRelaxations)>(&::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cb9714;
+  constexpr static std::size_t addrs = 0x3d19888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::*)()>(
     &::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::get_CompilationRelaxations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb973c;
+  constexpr static std::size_t addrs = 0x3d198b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,18 +60,11 @@ constexpr void System::Runtime::CompilerServices::CompilationRelaxationsAttribut
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_relaxations = value;
 }
-inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* System::Runtime::CompilerServices::CompilationRelaxationsAttribute::New_ctor(int32_t relaxations) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*>(relaxations));
-}
 inline void System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor(int32_t relaxations) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, relaxations);
-}
-inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*
-System::Runtime::CompilerServices::CompilationRelaxationsAttribute::New_ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*>(relaxations));
 }
 inline void System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,6 +77,13 @@ inline int32_t System::Runtime::CompilerServices::CompilationRelaxationsAttribut
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*>::get(),
                                                "get_CompilationRelaxations", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* System::Runtime::CompilerServices::CompilationRelaxationsAttribute::New_ctor(int32_t relaxations) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*>(relaxations));
+}
+inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*
+System::Runtime::CompilerServices::CompilationRelaxationsAttribute::New_ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute*>(relaxations));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::CompilationRelaxationsAttribute() {}

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)(::Mono::Security::X509::X509Extension*)>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bde9ac;
+  constexpr static std::size_t addrs = 0x3c3eac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::Decode)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3be0530;
+  constexpr static std::size_t addrs = 0x3c40644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::Encode)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3be0664;
+  constexpr static std::size_t addrs = 0x3c40778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::get_CertificateAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be078c;
+  constexpr static std::size_t addrs = 0x3c408a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3be0794;
+  constexpr static std::size_t addrs = 0x3c408a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,9 +105,6 @@ constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pathLenConstraint = value;
 }
-inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* Mono::Security::X509::Extensions::BasicConstraintsExtension::New_ctor(::Mono::Security::X509::X509Extension* extension) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(extension));
-}
 inline void Mono::Security::X509::Extensions::BasicConstraintsExtension::_ctor(::Mono::Security::X509::X509Extension* extension) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -137,6 +134,9 @@ inline ::StringW Mono::Security::X509::Extensions::BasicConstraintsExtension::To
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* Mono::Security::X509::Extensions::BasicConstraintsExtension::New_ctor(::Mono::Security::X509::X509Extension* extension) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(extension));
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::Extensions::BasicConstraintsExtension::BasicConstraintsExtension() {}

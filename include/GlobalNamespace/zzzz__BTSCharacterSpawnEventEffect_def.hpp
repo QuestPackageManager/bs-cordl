@@ -59,11 +59,10 @@ class BTSCharacterSpawnEventEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterSpawnEventEffect);
-// Type: ::BTSCharacterSpawnEventEffect
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BTSCharacterSpawnEventEffect*
+// CS Name: BTSCharacterSpawnEventEffect
 class CORDL_TYPE BTSCharacterSpawnEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -122,52 +121,51 @@ public:
   __declspec(property(get = __cordl_internal_get_startCharacterAnimationEvent,
                       put = __cordl_internal_set_startCharacterAnimationEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* startCharacterAnimationEvent;
 
-  /// @brief Method CleanupAddressables, addr 0x2237248, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CleanupAddressables, addr 0x2262504, size 0x154, virtual false, abstract: false, final false
   inline void CleanupAddressables();
 
-  /// @brief Method GetCharacterWithAnimationClip, addr 0x22370d0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterWithAnimationClip, addr 0x226238c, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
-  GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
-                                ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
+  GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* charDictionary,
+                                ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>* animDictionary, int32_t prefabId, int32_t animationId);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x22373c4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x2262680, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LoadAddressables, addr 0x2236850, size 0x870, virtual false, abstract: false, final false
+  /// @brief Method LoadAddressables, addr 0x2261b0c, size 0x870, virtual false, abstract: false, final false
   inline void LoadAddressables();
 
   static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x223739c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2262658, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x223629c, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2261558, size 0x5b4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__animationStartAheadTime() const;
 
   constexpr float_t& __cordl_internal_get__animationStartAheadTime();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const& __cordl_internal_get__asyncOperationHandles() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get__asyncOperationHandles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __cordl_internal_get__asyncOperationHandles() const;
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get__beatmapData() const;
 
   constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__beatmapData() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel> const& __cordl_internal_get__btsCharacterDataModel() const;
 
@@ -177,32 +175,29 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__characterWrapper();
 
+  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
+
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* const& __cordl_internal_get__idsToAnimationClipsDictionary() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*& __cordl_internal_get__idsToAnimationClipsDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*> const&
-  __cordl_internal_get__idsToAnimationClipsDictionary() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* const& __cordl_internal_get__idsToCharacterPrefabsDictionary() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get__idsToCharacterPrefabsDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*> const&
-  __cordl_internal_get__idsToCharacterPrefabsDictionary() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* const& __cordl_internal_get__idsToCharactersDictionary() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get__idsToCharactersDictionary();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*> const&
-  __cordl_internal_get__idsToCharactersDictionary() const;
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
 
   constexpr bool& __cordl_internal_get__isInitialized();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get_startCharacterAnimationEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* const& __cordl_internal_get_startCharacterAnimationEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*> const& __cordl_internal_get_startCharacterAnimationEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get_startCharacterAnimationEvent();
 
   constexpr void __cordl_internal_set__animationStartAheadTime(float_t value);
 
@@ -232,17 +227,17 @@ public:
 
   constexpr void __cordl_internal_set_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method .ctor, addr 0x2237510, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22627cc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_startCharacterAnimationEvent, addr 0x2235bbc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
+  /// @brief Method add_startCharacterAnimationEvent, addr 0x2260e78, size 0xb0, virtual false, abstract: false, final false
+  inline void add_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
 
-  /// @brief Method get_isInitialized, addr 0x2236294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x2261550, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method remove_startCharacterAnimationEvent, addr 0x2236058, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
+  /// @brief Method remove_startCharacterAnimationEvent, addr 0x2261314, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
 
 protected:
   // Ctor Parameters []
@@ -257,6 +252,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacterSpawnEventEffect(BTSCharacterSpawnEventEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17672 };
+
+  /// @brief Field kCharacterDisplayEventType value: I32(40)
+  static ::GlobalNamespace::BasicBeatmapEventType const kCharacterDisplayEventType;
 
   /// @brief Field _animationStartAheadTime, offset: 0x20, size: 0x4, def value: None
   float_t ____animationStartAheadTime;
@@ -300,17 +301,9 @@ public:
   /// @brief Field _asyncOperationHandles, offset: 0x88, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ____asyncOperationHandles;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17628 };
-
-  /// @brief Field kCharacterDisplayEventType value: static_cast<int32_t>(0x28)
-  static ::GlobalNamespace::BasicBeatmapEventType const kCharacterDisplayEventType;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterSpawnEventEffect, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____animationStartAheadTime) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____btsCharacterDataModel) == 0x28, "Offset mismatch!");
@@ -338,6 +331,8 @@ static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____isIn
 static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____beatmapDataCallbackWrapper) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____asyncOperationHandles) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterSpawnEventEffect, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacterSpawnEventEffect);

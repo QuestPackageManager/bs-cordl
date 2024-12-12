@@ -12,17 +12,16 @@ class ColorSignal;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorSignal);
-// Type: ::ColorSignal
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies GenericSignal`1<T>, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorSignal*
+// CS Name: ColorSignal
 class CORDL_TYPE ColorSignal : public ::GlobalNamespace::GenericSignal_1<::UnityEngine::Color> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ColorSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x396fdb0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c5298, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +39,7 @@ public:
   ColorSignal(ColorSignal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16435 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

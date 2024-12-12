@@ -1,42 +1,41 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LevelCompletionResults.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_impl.hpp"
+#include "System/zzzz__IComparable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType::__LevelCompletionResults__LevelEndStateType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType::LevelCompletionResults_LevelEndStateType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType::__LevelCompletionResults__LevelEndStateType() {}
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType GlobalNamespace::__LevelCompletionResults__LevelEndStateType::Incomplete{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType GlobalNamespace::__LevelCompletionResults__LevelEndStateType::Cleared{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType GlobalNamespace::__LevelCompletionResults__LevelEndStateType::Failed{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType::LevelCompletionResults_LevelEndStateType() {}
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType GlobalNamespace::LevelCompletionResults_LevelEndStateType::Incomplete{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType GlobalNamespace::LevelCompletionResults_LevelEndStateType::Cleared{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType GlobalNamespace::LevelCompletionResults_LevelEndStateType::Failed{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction::__LevelCompletionResults__LevelEndAction(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction::LevelCompletionResults_LevelEndAction(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction::__LevelCompletionResults__LevelEndAction() {}
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction GlobalNamespace::__LevelCompletionResults__LevelEndAction::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction GlobalNamespace::__LevelCompletionResults__LevelEndAction::Quit{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction GlobalNamespace::__LevelCompletionResults__LevelEndAction::Restart{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction::LevelCompletionResults_LevelEndAction() {}
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction GlobalNamespace::LevelCompletionResults_LevelEndAction::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction GlobalNamespace::LevelCompletionResults_LevelEndAction::Quit{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction GlobalNamespace::LevelCompletionResults_LevelEndAction::Restart{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::LevelCompletionResults.get_cumulativeScore
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LevelCompletionResults::*)()>(
     &::GlobalNamespace::LevelCompletionResults::get_cumulativeScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea4ac;
+  constexpr static std::size_t addrs = 0x271cb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCompletionResults*>::get(),
@@ -49,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCompletionResults::*)()>(&::GlobalNamespace::LevelCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea4b4;
+  constexpr static std::size_t addrs = 0x271cb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCompletionResults*>::get(), ".ctor",
@@ -61,11 +60,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCompletionResults::*)(
-    ::GlobalNamespace::GameplayModifiers*, int32_t, int32_t, ::GlobalNamespace::__RankModel__Rank, bool, float_t, float_t, float_t, float_t,
-    ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType, ::GlobalNamespace::__LevelCompletionResults__LevelEndAction, float_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t,
-    int32_t, float_t, float_t, int32_t, float_t, bool)>(&::GlobalNamespace::LevelCompletionResults::_ctor)> {
+    ::GlobalNamespace::GameplayModifiers*, int32_t, int32_t, ::GlobalNamespace::RankModel_Rank, bool, float_t, float_t, float_t, float_t, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType,
+    ::GlobalNamespace::LevelCompletionResults_LevelEndAction, float_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, float_t, float_t, int32_t, float_t, bool)>(
+    &::GlobalNamespace::LevelCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x26ea4bc;
+  constexpr static std::size_t addrs = 0x271cb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,14 +72,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                     ::std::array<Il2CppType const*, 25>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__RankModel__Rank>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RankModel_Rank>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndAction>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults_LevelEndStateType>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults_LevelEndAction>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
@@ -104,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LevelCompletionResults::*)(::System::Object*)>(
     &::GlobalNamespace::LevelCompletionResults::CompareTo)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x26ea5f0;
+  constexpr static std::size_t addrs = 0x271cc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCompletionResults::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::LevelCompletionResults::Serialize)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x26ea70c;
+  constexpr static std::size_t addrs = 0x271cda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +134,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::LevelCompletionResults* (::GlobalNamespace::LevelCompletionResults::*)(::LiteNetLib::Utils::NetDataReader*)>(
         &::GlobalNamespace::LevelCompletionResults::LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea9f0;
+  constexpr static std::size_t addrs = 0x271d08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LevelCompletionResults* (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::LevelCompletionResults::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x26ea9f8;
+  constexpr static std::size_t addrs = 0x271d094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,28 +159,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
-constexpr GlobalNamespace::LevelCompletionResults::operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
-constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*
-GlobalNamespace::LevelCompletionResults::i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__LevelCompletionResults__() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IComparable"
-constexpr GlobalNamespace::LevelCompletionResults::operator ::System::IComparable*() noexcept {
-  return static_cast<::System::IComparable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IComparable"
-constexpr ::System::IComparable* GlobalNamespace::LevelCompletionResults::i___System__IComparable() noexcept {
-  return static_cast<::System::IComparable*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_gameplayModifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
@@ -213,15 +195,15 @@ constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_mul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___multipliedScore = value;
 }
-constexpr ::GlobalNamespace::__RankModel__Rank& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_rank() {
+constexpr ::GlobalNamespace::RankModel_Rank& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_rank() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rank;
 }
-constexpr ::GlobalNamespace::__RankModel__Rank const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_rank() const {
+constexpr ::GlobalNamespace::RankModel_Rank const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_rank() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rank;
 }
-constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_rank(::GlobalNamespace::__RankModel__Rank value) {
+constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_rank(::GlobalNamespace::RankModel_Rank value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rank = value;
 }
@@ -285,27 +267,27 @@ constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_rig
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rightHandMovementDistance = value;
 }
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndStateType() {
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndStateType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndStateType;
 }
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndStateType() const {
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndStateType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndStateType;
 }
-constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_levelEndStateType(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType value) {
+constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_levelEndStateType(::GlobalNamespace::LevelCompletionResults_LevelEndStateType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelEndStateType = value;
 }
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndAction() {
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndAction;
 }
-constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndAction() const {
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction const& GlobalNamespace::LevelCompletionResults::__cordl_internal_get_levelEndAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndAction;
 }
-constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_levelEndAction(::GlobalNamespace::__LevelCompletionResults__LevelEndAction value) {
+constexpr void GlobalNamespace::LevelCompletionResults::__cordl_internal_set_levelEndAction(::GlobalNamespace::LevelCompletionResults_LevelEndAction value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelEndAction = value;
 }
@@ -482,30 +464,16 @@ inline int32_t GlobalNamespace::LevelCompletionResults::get_cumulativeScore() {
                                                                              "get_cumulativeScore", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompletionResults::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelCompletionResults*>());
-}
 inline void GlobalNamespace::LevelCompletionResults::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCompletionResults*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompletionResults::New_ctor(
-    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::__RankModel__Rank rank, bool fullCombo,
-    float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance,
-    ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType, ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount,
-    int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType,
-    float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelCompletionResults*>(
-      gameplayModifiers, modifiedScore, multipliedScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, levelEndStateType,
-      levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, maxCutScore, totalCutScore, goodCutsCountForNotesWithFullScoreScoringType,
-      averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, averageCutScoreForNotesWithFullScoreScoringType, maxCombo, endSongTime, invalidated));
-}
 inline void GlobalNamespace::LevelCompletionResults::_ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore,
-                                                           ::GlobalNamespace::__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance,
+                                                           ::GlobalNamespace::RankModel_Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance,
                                                            float_t leftHandMovementDistance, float_t rightHandMovementDistance,
-                                                           ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
-                                                           ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount,
+                                                           ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType,
+                                                           ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount,
                                                            int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore,
                                                            int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                                                            float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated) {
@@ -514,14 +482,14 @@ inline void GlobalNamespace::LevelCompletionResults::_ctor(::GlobalNamespace::Ga
                                   ::std::array<Il2CppType const*, 25>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__RankModel__Rank>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RankModel_Rank>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndAction>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults_LevelEndStateType>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults_LevelEndAction>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
@@ -567,6 +535,37 @@ inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompleti
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCompletionResults*>::get(), "CreateFromSerializedData", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LevelCompletionResults*, false>(nullptr, ___internal_method, reader);
+}
+inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompletionResults::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelCompletionResults*>());
+}
+inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompletionResults::New_ctor(
+    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::RankModel_Rank rank, bool fullCombo, float_t leftSaberMovementDistance,
+    float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType,
+    ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount,
+    int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
+    float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelCompletionResults*>(
+      gameplayModifiers, modifiedScore, multipliedScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, levelEndStateType,
+      levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, maxCutScore, totalCutScore, goodCutsCountForNotesWithFullScoreScoringType,
+      averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, averageCutScoreForNotesWithFullScoreScoringType, maxCombo, endSongTime, invalidated));
+}
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
+constexpr GlobalNamespace::LevelCompletionResults::operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*
+GlobalNamespace::LevelCompletionResults::i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__LevelCompletionResults__() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IComparable"
+constexpr GlobalNamespace::LevelCompletionResults::operator ::System::IComparable*() noexcept {
+  return static_cast<::System::IComparable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IComparable"
+constexpr ::System::IComparable* GlobalNamespace::LevelCompletionResults::i___System__IComparable() noexcept {
+  return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelCompletionResults::LevelCompletionResults() {}

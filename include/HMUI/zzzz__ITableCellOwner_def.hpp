@@ -14,11 +14,10 @@ class ITableCellOwner;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ITableCellOwner);
-// Type: HMUI::ITableCellOwner
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ITableCellOwner*
+// CS Name: HMUI.ITableCellOwner
 class CORDL_TYPE ITableCellOwner {
 public:
   // Declarations
@@ -28,25 +27,21 @@ public:
 
   __declspec(property(get = get_selectionType)) ::HMUI::TableViewSelectionType selectionType;
 
-  /// @brief Method get_canSelectSelectedCell, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_canSelectSelectedCell, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_canSelectSelectedCell();
 
-  /// @brief Method get_numberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_numberOfCells, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_numberOfCells();
 
-  /// @brief Method get_selectionType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_selectionType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::HMUI::TableViewSelectionType get_selectionType();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ITableCellOwner", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ITableCellOwner(ITableCellOwner&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITableCellOwner", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ITableCellOwner(ITableCellOwner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16106 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

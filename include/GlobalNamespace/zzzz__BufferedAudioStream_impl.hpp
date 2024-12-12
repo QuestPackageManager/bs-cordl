@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)(::UnityEngine::AudioSource*)>(
     &::GlobalNamespace::BufferedAudioStream::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ef8f50;
+  constexpr static std::size_t addrs = 0x3f58ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)()>(&::GlobalNamespace::BufferedAudioStream::Update)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3ef9058;
+  constexpr static std::size_t addrs = 0x3f59104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedAudioStream*>::get(), "Update",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)()>(&::GlobalNamespace::BufferedAudioStream::Stop)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ef9014;
+  constexpr static std::size_t addrs = 0x3f590c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedAudioStream*>::get(), "Stop",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)(::ArrayW<float_t, ::Array<float_t>*>)>(
     &::GlobalNamespace::BufferedAudioStream::AddData)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3ef9234;
+  constexpr static std::size_t addrs = 0x3f592e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,9 +119,6 @@ constexpr void GlobalNamespace::BufferedAudioStream::__cordl_internal_set_remain
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___remainingBufferTime = value;
 }
-inline ::GlobalNamespace::BufferedAudioStream* GlobalNamespace::BufferedAudioStream::New_ctor(::UnityEngine::AudioSource* audio) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BufferedAudioStream*>(audio));
-}
 inline void GlobalNamespace::BufferedAudioStream::_ctor(::UnityEngine::AudioSource* audio) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedAudioStream*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -143,6 +140,9 @@ inline void GlobalNamespace::BufferedAudioStream::AddData(::ArrayW<float_t, ::Ar
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedAudioStream*>::get(), "AddData", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, samples);
+}
+inline ::GlobalNamespace::BufferedAudioStream* GlobalNamespace::BufferedAudioStream::New_ctor(::UnityEngine::AudioSource* audio) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BufferedAudioStream*>(audio));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BufferedAudioStream::BufferedAudioStream() {}

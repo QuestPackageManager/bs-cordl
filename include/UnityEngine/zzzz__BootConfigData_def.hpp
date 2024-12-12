@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(BootConfigData)
 namespace System {
 struct IntPtr;
@@ -16,11 +15,10 @@ class BootConfigData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::BootConfigData);
-// Type: UnityEngine::BootConfigData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::BootConfigData*
+// CS Name: UnityEngine.BootConfigData
 class CORDL_TYPE BootConfigData : public ::System::Object {
 public:
   // Declarations
@@ -29,7 +27,7 @@ public:
 
   static inline ::UnityEngine::BootConfigData* New_ctor(::System::IntPtr nativeHandle);
 
-  /// @brief Method WrapBootConfigData, addr 0x4800934, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method WrapBootConfigData, addr 0x48624d4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr nativeHandle);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -38,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x480098c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486252c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativeHandle);
 
 protected:
@@ -55,18 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BootConfigData(BootConfigData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10662 };
+
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::BootConfigData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::BootConfigData, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::BootConfigData, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::BootConfigData);

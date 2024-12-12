@@ -14,11 +14,10 @@ class LightGroupElementsSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightGroupElementsSpawner);
-// Type: ::LightGroupElementsSpawner
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightGroupElementsSpawner*
+// CS Name: LightGroupElementsSpawner
 class CORDL_TYPE LightGroupElementsSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -51,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__useAlternatePrefab(bool value);
 
-  /// @brief Method .ctor, addr 0x398a888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e1258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,6 +67,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupElementsSpawner(LightGroupElementsSpawner const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16291 };
+
   /// @brief Field _lightPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____lightPrefab;
 
@@ -77,19 +79,16 @@ public:
   /// @brief Field _alternateLightPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____alternateLightPrefab;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16256 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupElementsSpawner, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightGroupElementsSpawner, ____lightPrefab) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupElementsSpawner, ____useAlternatePrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupElementsSpawner, ____alternateLightPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupElementsSpawner, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupElementsSpawner);

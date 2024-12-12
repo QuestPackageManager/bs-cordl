@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreSlot::*)(::System::LocalDataStoreMgr*, int32_t, int64_t)>(
     &::System::LocalDataStoreSlot::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3db3224;
+  constexpr static std::size_t addrs = 0x3e132d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreMgr* (::System::LocalDataStoreSlot::*)()>(&::System::LocalDataStoreSlot::get_Manager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db3264;
+  constexpr static std::size_t addrs = 0x3e13310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreSlot*>::get(), "get_Manager",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::LocalDataStoreSlot::*)()>(&::System::LocalDataStoreSlot::get_Slot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db326c;
+  constexpr static std::size_t addrs = 0x3e13318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreSlot*>::get(), "get_Slot",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::LocalDataStoreSlot::*)()>(&::System::LocalDataStoreSlot::get_Cookie)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db3274;
+  constexpr static std::size_t addrs = 0x3e13320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreSlot*>::get(), "get_Cookie",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreSlot::*)()>(&::System::LocalDataStoreSlot::Finalize)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3db327c;
+  constexpr static std::size_t addrs = 0x3e13328;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ constexpr ::System::LocalDataStoreMgr*& System::LocalDataStoreSlot::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_mgr;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& System::LocalDataStoreSlot::__cordl_internal_get_m_mgr() const {
+constexpr ::System::LocalDataStoreMgr* const& System::LocalDataStoreSlot::__cordl_internal_get_m_mgr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_mgr;
 }
@@ -108,9 +108,6 @@ constexpr void System::LocalDataStoreSlot::__cordl_internal_set_m_cookie(int64_t
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cookie = value;
 }
-inline ::System::LocalDataStoreSlot* System::LocalDataStoreSlot::New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::LocalDataStoreSlot*>(mgr, slot, cookie));
-}
 inline void System::LocalDataStoreSlot::_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreSlot*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -137,6 +134,9 @@ inline void System::LocalDataStoreSlot::Finalize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreSlot*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::LocalDataStoreSlot* System::LocalDataStoreSlot::New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::LocalDataStoreSlot*>(mgr, slot, cookie));
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStoreSlot::LocalDataStoreSlot() {}

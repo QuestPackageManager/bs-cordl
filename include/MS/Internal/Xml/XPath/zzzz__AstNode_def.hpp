@@ -8,33 +8,32 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AstNode)
 namespace MS::Internal::Xml::XPath {
-struct __AstNode__AstType;
+struct AstNode_AstType;
 }
 namespace System::Xml::XPath {
 struct XPathResultType;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::XPath {
-struct __AstNode__AstType;
+struct AstNode_AstType;
 }
 namespace MS::Internal::Xml::XPath {
 class AstNode;
 }
 // Write type traits
-MARK_VAL_T(::MS::Internal::Xml::XPath::__AstNode__AstType);
+MARK_VAL_T(::MS::Internal::Xml::XPath::AstNode_AstType);
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::AstNode);
-// Type: ::AstType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace MS::Internal::Xml::XPath {
 // Is value type: true
-// CS Name: ::AstNode::AstType
-struct CORDL_TYPE __AstNode__AstType {
+// CS Name: MS.Internal.Xml.XPath.AstNode/AstType
+struct CORDL_TYPE AstNode_AstType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____AstNode__AstType_Unwrapped
-  enum struct ____AstNode__AstType_Unwrapped : int32_t {
+  /// @brief Nested struct __AstNode_AstType_Unwrapped
+  enum struct __AstNode_AstType_Unwrapped : int32_t {
     __E_Axis = static_cast<int32_t>(0x0),
     __E_Operator = static_cast<int32_t>(0x1),
     __E_Filter = static_cast<int32_t>(0x2),
@@ -47,8 +46,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____AstNode__AstType_Unwrapped() const noexcept {
-    return static_cast<____AstNode__AstType_Unwrapped>(this->value__);
+  constexpr operator __AstNode_AstType_Unwrapped() const noexcept {
+    return static_cast<__AstNode_AstType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -58,79 +57,78 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __AstNode__AstType();
+  constexpr AstNode_AstType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AstNode__AstType(int32_t value__) noexcept;
+  constexpr AstNode_AstType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Axis value: I32(0)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Axis;
 
-  /// @brief Field Axis value: static_cast<int32_t>(0x0)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Axis;
+  /// @brief Field ConstantOperand value: I32(3)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const ConstantOperand;
 
-  /// @brief Field ConstantOperand value: static_cast<int32_t>(0x3)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const ConstantOperand;
+  /// @brief Field Error value: I32(8)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Error;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x8)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Error;
+  /// @brief Field Filter value: I32(2)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Filter;
 
-  /// @brief Field Filter value: static_cast<int32_t>(0x2)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Filter;
+  /// @brief Field Function value: I32(4)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Function;
 
-  /// @brief Field Function value: static_cast<int32_t>(0x4)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Function;
+  /// @brief Field Group value: I32(5)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Group;
 
-  /// @brief Field Group value: static_cast<int32_t>(0x5)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Group;
+  /// @brief Field Operator value: I32(1)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Operator;
 
-  /// @brief Field Operator value: static_cast<int32_t>(0x1)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Operator;
+  /// @brief Field Root value: I32(6)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Root;
 
-  /// @brief Field Root value: static_cast<int32_t>(0x6)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Root;
-
-  /// @brief Field Variable value: static_cast<int32_t>(0x7)
-  static ::MS::Internal::Xml::XPath::__AstNode__AstType const Variable;
+  /// @brief Field Variable value: I32(7)
+  static ::MS::Internal::Xml::XPath::AstNode_AstType const Variable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7767 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::__AstNode__AstType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::MS::Internal::Xml::XPath::AstNode_AstType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::MS::Internal::Xml::XPath::__AstNode__AstType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::AstNode_AstType, 0x4>, "Size mismatch!");
 
 } // namespace MS::Internal::Xml::XPath
-// Type: MS.Internal.Xml.XPath::AstNode
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
-// CS Name: ::MS.Internal.Xml.XPath::AstNode*
+// CS Name: MS.Internal.Xml.XPath.AstNode
 class CORDL_TYPE AstNode : public ::System::Object {
 public:
   // Declarations
-  using AstType = ::MS::Internal::Xml::XPath::__AstNode__AstType;
+  using AstType = ::MS::Internal::Xml::XPath::AstNode_AstType;
 
   __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::AstNode_AstType Type;
 
   static inline ::MS::Internal::Xml::XPath::AstNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42a3bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4304ec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReturnType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ReturnType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
+  /// @brief Method get_Type, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
   // Ctor Parameters []
@@ -147,7 +145,7 @@ public:
   AstNode(AstNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -155,6 +153,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::AstNode, 0x10>, "Size mismatch!");
 
 } // namespace MS::Internal::Xml::XPath
-DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::__AstNode__AstType, "MS.Internal.Xml.XPath", "AstNode/AstType");
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::AstNode_AstType, "MS.Internal.Xml.XPath", "AstNode/AstType");
 NEED_NO_BOX(::MS::Internal::Xml::XPath::AstNode);
 DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::AstNode*, "MS.Internal.Xml.XPath", "AstNode");

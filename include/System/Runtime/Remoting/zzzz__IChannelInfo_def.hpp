@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(IChannelInfo)
 namespace System {
 class Object;
@@ -14,22 +13,17 @@ class IChannelInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::IChannelInfo);
-// Type: System.Runtime.Remoting::IChannelInfo
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::IChannelInfo*
+// CS Name: System.Runtime.Remoting.IChannelInfo
 class CORDL_TYPE IChannelInfo {
 public:
   // Declarations
   __declspec(property(get = get_ChannelData)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ChannelData;
 
-  /// @brief Method get_ChannelData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ChannelData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ChannelData();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IChannelInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IChannelInfo(IChannelInfo&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IChannelInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/PolyShape.hpp"
-#include "UnityEngine/ProBuilder/zzzz__PolyShape_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -10,22 +9,22 @@
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode::__PolyShape__PolyEditMode(int32_t value__) noexcept {
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode::PolyShape_PolyEditMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode::__PolyShape__PolyEditMode() {}
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode UnityEngine::ProBuilder::__PolyShape__PolyEditMode::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode UnityEngine::ProBuilder::__PolyShape__PolyEditMode::Path{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode UnityEngine::ProBuilder::__PolyShape__PolyEditMode::Height{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode UnityEngine::ProBuilder::__PolyShape__PolyEditMode::Edit{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode::PolyShape_PolyEditMode() {}
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode UnityEngine::ProBuilder::PolyShape_PolyEditMode::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode UnityEngine::ProBuilder::PolyShape_PolyEditMode::Path{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode UnityEngine::ProBuilder::PolyShape_PolyEditMode::Height{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode UnityEngine::ProBuilder::PolyShape_PolyEditMode::Edit{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::PolyShape.get_controlPoints
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* (
     ::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::get_controlPoints)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x46ba710;
+  constexpr static std::size_t addrs = 0x471ba24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(),
@@ -39,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*)>(
     &::UnityEngine::ProBuilder::PolyShape::SetControlPoints)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x46ba78c;
+  constexpr static std::size_t addrs = 0x471baa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::get_extrude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ba7e8;
+  constexpr static std::size_t addrs = 0x471bafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_extrude",
@@ -66,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(float_t)>(&::UnityEngine::ProBuilder::PolyShape::set_extrude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ba7f0;
+  constexpr static std::size_t addrs = 0x471bb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,10 +77,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ProBuilder::PolyShape.get_polyEditMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::__PolyShape__PolyEditMode (::UnityEngine::ProBuilder::PolyShape::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::PolyShape_PolyEditMode (::UnityEngine::ProBuilder::PolyShape::*)()>(
     &::UnityEngine::ProBuilder::PolyShape::get_polyEditMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ba7f8;
+  constexpr static std::size_t addrs = 0x471bb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_polyEditMode",
@@ -92,15 +91,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ProBuilder::PolyShape.set_polyEditMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(::UnityEngine::ProBuilder::PolyShape_PolyEditMode)>(
     &::UnityEngine::ProBuilder::PolyShape::set_polyEditMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ba800;
+  constexpr static std::size_t addrs = 0x471bb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "set_polyEditMode", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::__PolyShape__PolyEditMode>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::PolyShape_PolyEditMode>::get() })));
     return ___internal_method;
   }
 };
@@ -109,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::get_flipNormals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ba808;
+  constexpr static std::size_t addrs = 0x471bb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_flipNormals",
@@ -122,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(bool)>(&::UnityEngine::ProBuilder::PolyShape::set_flipNormals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46ba810;
+  constexpr static std::size_t addrs = 0x471bb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (::UnityEngine::ProBuilder::PolyShape::*)()>(
     &::UnityEngine::ProBuilder::PolyShape::get_mesh)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x46ba81c;
+  constexpr static std::size_t addrs = 0x471bb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_mesh",
@@ -151,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::PolyShape::set_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ba8b0;
+  constexpr static std::size_t addrs = 0x471bbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::IsSnapEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ba8b8;
+  constexpr static std::size_t addrs = 0x471bbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "IsSnapEnabled",
@@ -178,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x46ba8c0;
+  constexpr static std::size_t addrs = 0x471bbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), ".ctor",
@@ -202,7 +201,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& Unity
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Points;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& UnityEngine::ProBuilder::PolyShape::__cordl_internal_get_m_Points() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& UnityEngine::ProBuilder::PolyShape::__cordl_internal_get_m_Points() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Points;
 }
@@ -222,15 +221,15 @@ constexpr void UnityEngine::ProBuilder::PolyShape::__cordl_internal_set_m_Extrud
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Extrude = value;
 }
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode& UnityEngine::ProBuilder::PolyShape::__cordl_internal_get_m_EditMode() {
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode& UnityEngine::ProBuilder::PolyShape::__cordl_internal_get_m_EditMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EditMode;
 }
-constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode const& UnityEngine::ProBuilder::PolyShape::__cordl_internal_get_m_EditMode() const {
+constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode const& UnityEngine::ProBuilder::PolyShape::__cordl_internal_get_m_EditMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EditMode;
 }
-constexpr void UnityEngine::ProBuilder::PolyShape::__cordl_internal_set_m_EditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value) {
+constexpr void UnityEngine::ProBuilder::PolyShape::__cordl_internal_set_m_EditMode(::UnityEngine::ProBuilder::PolyShape_PolyEditMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EditMode = value;
 }
@@ -280,15 +279,15 @@ inline void UnityEngine::ProBuilder::PolyShape::set_extrude(float_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode UnityEngine::ProBuilder::PolyShape::get_polyEditMode() {
+inline ::UnityEngine::ProBuilder::PolyShape_PolyEditMode UnityEngine::ProBuilder::PolyShape::get_polyEditMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_polyEditMode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::PolyShape_PolyEditMode, false>(this, ___internal_method);
 }
-inline void UnityEngine::ProBuilder::PolyShape::set_polyEditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value) {
+inline void UnityEngine::ProBuilder::PolyShape::set_polyEditMode(::UnityEngine::ProBuilder::PolyShape_PolyEditMode value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "set_polyEditMode", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::__PolyShape__PolyEditMode>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::PolyShape_PolyEditMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool UnityEngine::ProBuilder::PolyShape::get_flipNormals() {
@@ -318,13 +317,13 @@ inline bool UnityEngine::ProBuilder::PolyShape::IsSnapEnabled() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::UnityEngine::ProBuilder::PolyShape* UnityEngine::ProBuilder::PolyShape::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::PolyShape*>());
-}
 inline void UnityEngine::ProBuilder::PolyShape::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ProBuilder::PolyShape* UnityEngine::ProBuilder::PolyShape::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::PolyShape*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::PolyShape::PolyShape() {}

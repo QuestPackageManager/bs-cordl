@@ -12,11 +12,10 @@ class SongSpeedData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongSpeedData);
-// Type: ::SongSpeedData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongSpeedData*
+// CS Name: SongSpeedData
 class CORDL_TYPE SongSpeedData : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_speedMul(float_t value);
 
-  /// @brief Method .ctor, addr 0x2679f78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ae530, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t speedMul);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongSpeedData(SongSpeedData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12844 };
+
   /// @brief Field speedMul, offset: 0x10, size: 0x4, def value: None
   float_t ___speedMul;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongSpeedData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SongSpeedData, ___speedMul) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongSpeedData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongSpeedData);

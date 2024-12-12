@@ -3,37 +3,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Unity/Properties/zzzz__IPropertyBag_1_def.hpp"
+#include "Unity/Properties/zzzz__IPropertyBag_def.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SetPropertyBagBase_2)
 namespace Unity::Properties {
-template <typename TContainer> class IPropertyBag_1;
-}
-namespace Unity::Properties {
-class IPropertyBag;
-}
-namespace Unity::Properties {
-template <typename TSet, typename TElement> class __SetPropertyBagBase_2__SetElementProperty;
+template <typename TSet, typename TElement> class SetPropertyBagBase_2_SetElementProperty;
 }
 // Forward declare root types
 namespace Unity::Properties {
 template <typename TSet, typename TElement> class SetPropertyBagBase_2;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class __SetPropertyBagBase_2__SetElementProperty;
+template <typename TSet, typename TElement> class SetPropertyBagBase_2_SetElementProperty;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::SetPropertyBagBase_2);
-MARK_GEN_REF_PTR_T(::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty);
-// Type: ::SetElementProperty
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::Unity::Properties::SetPropertyBagBase_2_SetElementProperty);
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
 // Is value type: false
-// CS Name: ::SetPropertyBagBase`2::SetElementProperty<TSet,TElement>*
-class CORDL_TYPE __SetPropertyBagBase_2__SetElementProperty : public ::Unity::Properties::Property_2<TSet, TElement> {
+// CS Name: Unity.Properties.SetPropertyBagBase`2/SetElementProperty<TSet,TElement>
+class CORDL_TYPE SetPropertyBagBase_2_SetElementProperty : public ::Unity::Properties::Property_2<TSet, TElement> {
 public:
   // Declarations
   __declspec(property(get = get_Name)) ::StringW Name;
@@ -41,7 +36,7 @@ public:
   /// @brief Field m_Value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) TElement m_Value;
 
-  static inline ::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>* New_ctor();
+  static inline ::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>* New_ctor();
 
   constexpr TElement const& __cordl_internal_get_m_Value() const;
 
@@ -58,41 +53,40 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SetPropertyBagBase_2__SetElementProperty();
+  constexpr SetPropertyBagBase_2_SetElementProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SetPropertyBagBase_2__SetElementProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2_SetElementProperty", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SetPropertyBagBase_2__SetElementProperty(__SetPropertyBagBase_2__SetElementProperty&&) = delete;
+  SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SetPropertyBagBase_2__SetElementProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2_SetElementProperty", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SetPropertyBagBase_2__SetElementProperty(__SetPropertyBagBase_2__SetElementProperty const&) = delete;
+  SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementProperty const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17466 };
 
   /// @brief Field m_Value, offset: 0x18, size: 0x8, def value: None
   TElement ___m_Value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17422 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Type: Unity.Properties::SetPropertyBagBase`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.IPropertyBag, Unity.Properties.IPropertyBag`1<TContainer>, Unity.Properties.PropertyBag`1<TContainer>
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
 // Is value type: false
-// CS Name: ::Unity.Properties::SetPropertyBagBase`2<TSet,TElement>*
+// CS Name: Unity.Properties.SetPropertyBagBase`2<TSet,TElement>
 class CORDL_TYPE SetPropertyBagBase_2 : public ::Unity::Properties::PropertyBag_1<TSet> {
 public:
   // Declarations
-  using SetElementProperty = ::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>;
+  using SetElementProperty = ::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>;
 
   /// @brief Field m_Property, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Property, put = __cordl_internal_set_m_Property)) ::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>* m_Property;
+  __declspec(property(get = __cordl_internal_get_m_Property, put = __cordl_internal_set_m_Property)) ::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>* m_Property;
 
   /// @brief Convert operator to "::Unity::Properties::IPropertyBag"
   constexpr operator ::Unity::Properties::IPropertyBag*() noexcept;
@@ -102,11 +96,11 @@ public:
 
   static inline ::Unity::Properties::SetPropertyBagBase_2<TSet, TElement>* New_ctor();
 
-  constexpr ::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>*& __cordl_internal_get_m_Property();
+  constexpr ::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>* const& __cordl_internal_get_m_Property() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>*> const& __cordl_internal_get_m_Property() const;
+  constexpr ::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>*& __cordl_internal_get_m_Property();
 
-  constexpr void __cordl_internal_set_m_Property(::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>* value);
+  constexpr void __cordl_internal_set_m_Property(::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -131,15 +125,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetPropertyBagBase_2(SetPropertyBagBase_2 const&) = delete;
 
-  /// @brief Field m_Property, offset: 0x18, size: 0x8, def value: None
-  ::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>* ___m_Property;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17467 };
+
+  /// @brief Field m_Property, offset: 0x18, size: 0x8, def value: None
+  ::Unity::Properties::SetPropertyBagBase_2_SetElementProperty<TSet, TElement>* ___m_Property;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Unity::Properties
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::SetPropertyBagBase_2, "Unity.Properties", "SetPropertyBagBase`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty, "Unity.Properties", "SetPropertyBagBase`2/SetElementProperty");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::SetPropertyBagBase_2_SetElementProperty, "Unity.Properties", "SetPropertyBagBase`2/SetElementProperty");

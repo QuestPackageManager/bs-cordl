@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::LookupId::*)()>(&::Zenject::Internal::LookupId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af0014;
+  constexpr static std::size_t addrs = 0x4b54924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::LookupId::*)(::Zenject::IProvider*, ::Zenject::BindingId)>(
     &::Zenject::Internal::LookupId::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4af001c;
+  constexpr static std::size_t addrs = 0x4b5492c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::Internal::LookupId::*)()>(&::Zenject::Internal::LookupId::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4af00b8;
+  constexpr static std::size_t addrs = 0x4b549c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ constexpr ::Zenject::IProvider*& Zenject::Internal::LookupId::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::Internal::LookupId::__cordl_internal_get_Provider() const {
+constexpr ::Zenject::IProvider* const& Zenject::Internal::LookupId::__cordl_internal_get_Provider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
@@ -72,16 +72,10 @@ constexpr void Zenject::Internal::LookupId::__cordl_internal_set_BindingId(::Zen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BindingId = value;
 }
-inline ::Zenject::Internal::LookupId* Zenject::Internal::LookupId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::LookupId*>());
-}
 inline void Zenject::Internal::LookupId::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Zenject::Internal::LookupId* Zenject::Internal::LookupId::New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::LookupId*>(provider, bindingId));
 }
 inline void Zenject::Internal::LookupId::_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
   static auto* ___internal_method =
@@ -94,6 +88,12 @@ inline int32_t Zenject::Internal::LookupId::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Zenject::Internal::LookupId* Zenject::Internal::LookupId::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::LookupId*>());
+}
+inline ::Zenject::Internal::LookupId* Zenject::Internal::LookupId::New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::LookupId*>(provider, bindingId));
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::LookupId::LookupId() {}

@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/Init/zzzz__BSAppInit_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PCAppInit)
 namespace GlobalNamespace {
 class DefaultScenesTransitionsFromInit;
@@ -29,11 +30,10 @@ class PCAppInit;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PCAppInit);
-// Type: ::PCAppInit
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Init.BSAppInit
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PCAppInit*
+// CS Name: PCAppInit
 class CORDL_TYPE PCAppInit : public ::BeatSaber::Init::BSAppInit {
 public:
   // Declarations
@@ -52,18 +52,18 @@ public:
   /// @brief Field _settingsApplicator, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x26e5034, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x27175f0, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x26e52f8, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x271791c, size 0x244, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PCAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x26e509c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x2717658, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x26e513c, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x27176f8, size 0x224, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
@@ -74,9 +74,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
 
-  constexpr ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*& __cordl_internal_get__playerDataModel();
+  constexpr ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>* const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*> const& __cordl_internal_get__playerDataModel() const;
+  constexpr ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*& __cordl_internal_get__playerDataModel();
 
   constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& __cordl_internal_get__settingsApplicator() const;
 
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x26e553c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2717b60, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,6 +107,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PCAppInit(PCAppInit const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17790 };
+
+  /// @brief Field kMissingOpenXRRuntimeErrorSubtitle offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMissingOpenXRRuntimeErrorSubtitle{ u"LABEL_MISSING_OPEN_XR_RUNTIME_ERROR" };
+
+  /// @brief Field kMissingOpenXRRuntimeErrorTitle offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMissingOpenXRRuntimeErrorTitle{ u"TITLE_MISSING_OPEN_XR_RUNTIME_ERROR" };
+
   /// @brief Field _mainSystemInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 
@@ -119,20 +128,9 @@ public:
   /// @brief Field _playerDataModel, offset: 0x80, size: 0x8, def value: None
   ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>* ____playerDataModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17875 };
-
-  /// @brief Field kMissingOpenXRRuntimeErrorSubtitle offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMissingOpenXRRuntimeErrorSubtitle{ u"LABEL_MISSING_OPEN_XR_RUNTIME_ERROR" };
-
-  /// @brief Field kMissingOpenXRRuntimeErrorTitle offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMissingOpenXRRuntimeErrorTitle{ u"TITLE_MISSING_OPEN_XR_RUNTIME_ERROR" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PCAppInit, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PCAppInit, ____mainSystemInit) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PCAppInit, ____settingsApplicator) == 0x70, "Offset mismatch!");
@@ -140,6 +138,8 @@ static_assert(offsetof(::GlobalNamespace::PCAppInit, ____settingsApplicator) == 
 static_assert(offsetof(::GlobalNamespace::PCAppInit, ____defaultScenesTransitionsFromInit) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PCAppInit, ____playerDataModel) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PCAppInit, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PCAppInit);

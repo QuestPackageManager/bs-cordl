@@ -4,20 +4,19 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasScaler_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CanvasScaler)
 namespace UnityEngine::UI {
-struct __CanvasScaler__ScaleMode;
+struct CanvasScaler_ScaleMode;
 }
 namespace UnityEngine::UI {
-struct __CanvasScaler__ScreenMatchMode;
+struct CanvasScaler_ScreenMatchMode;
 }
 namespace UnityEngine::UI {
-struct __CanvasScaler__Unit;
+struct CanvasScaler_Unit;
 }
 namespace UnityEngine {
 class Canvas;
@@ -27,42 +26,41 @@ struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
-struct __CanvasScaler__ScaleMode;
+struct CanvasScaler_ScaleMode;
 }
 namespace UnityEngine::UI {
-struct __CanvasScaler__ScreenMatchMode;
+struct CanvasScaler_ScreenMatchMode;
 }
 namespace UnityEngine::UI {
-struct __CanvasScaler__Unit;
+struct CanvasScaler_Unit;
 }
 namespace UnityEngine::UI {
 class CanvasScaler;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::UI::__CanvasScaler__ScaleMode);
-MARK_VAL_T(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode);
-MARK_VAL_T(::UnityEngine::UI::__CanvasScaler__Unit);
+MARK_VAL_T(::UnityEngine::UI::CanvasScaler_ScaleMode);
+MARK_VAL_T(::UnityEngine::UI::CanvasScaler_ScreenMatchMode);
+MARK_VAL_T(::UnityEngine::UI::CanvasScaler_Unit);
 MARK_REF_PTR_T(::UnityEngine::UI::CanvasScaler);
-// Type: ::ScaleMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UI {
 // Is value type: true
-// CS Name: ::CanvasScaler::ScaleMode
-struct CORDL_TYPE __CanvasScaler__ScaleMode {
+// CS Name: UnityEngine.UI.CanvasScaler/ScaleMode
+struct CORDL_TYPE CanvasScaler_ScaleMode {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____CanvasScaler__ScaleMode_Unwrapped
-  enum struct ____CanvasScaler__ScaleMode_Unwrapped : int32_t {
+  /// @brief Nested struct __CanvasScaler_ScaleMode_Unwrapped
+  enum struct __CanvasScaler_ScaleMode_Unwrapped : int32_t {
     __E_ConstantPixelSize = static_cast<int32_t>(0x0),
     __E_ScaleWithScreenSize = static_cast<int32_t>(0x1),
     __E_ConstantPhysicalSize = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____CanvasScaler__ScaleMode_Unwrapped() const noexcept {
-    return static_cast<____CanvasScaler__ScaleMode_Unwrapped>(this->value__);
+  constexpr operator __CanvasScaler_ScaleMode_Unwrapped() const noexcept {
+    return static_cast<__CanvasScaler_ScaleMode_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -72,57 +70,56 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CanvasScaler__ScaleMode();
+  constexpr CanvasScaler_ScaleMode();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CanvasScaler__ScaleMode(int32_t value__) noexcept;
+  constexpr CanvasScaler_ScaleMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ConstantPhysicalSize value: I32(2)
+  static ::UnityEngine::UI::CanvasScaler_ScaleMode const ConstantPhysicalSize;
 
-  /// @brief Field ConstantPhysicalSize value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UI::__CanvasScaler__ScaleMode const ConstantPhysicalSize;
+  /// @brief Field ConstantPixelSize value: I32(0)
+  static ::UnityEngine::UI::CanvasScaler_ScaleMode const ConstantPixelSize;
 
-  /// @brief Field ConstantPixelSize value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UI::__CanvasScaler__ScaleMode const ConstantPixelSize;
-
-  /// @brief Field ScaleWithScreenSize value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UI::__CanvasScaler__ScaleMode const ScaleWithScreenSize;
+  /// @brief Field ScaleWithScreenSize value: I32(1)
+  static ::UnityEngine::UI::CanvasScaler_ScaleMode const ScaleWithScreenSize;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15083 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__CanvasScaler__ScaleMode, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UI::CanvasScaler_ScaleMode, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__CanvasScaler__ScaleMode, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CanvasScaler_ScaleMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
-// Type: ::ScreenMatchMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UI {
 // Is value type: true
-// CS Name: ::CanvasScaler::ScreenMatchMode
-struct CORDL_TYPE __CanvasScaler__ScreenMatchMode {
+// CS Name: UnityEngine.UI.CanvasScaler/ScreenMatchMode
+struct CORDL_TYPE CanvasScaler_ScreenMatchMode {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____CanvasScaler__ScreenMatchMode_Unwrapped
-  enum struct ____CanvasScaler__ScreenMatchMode_Unwrapped : int32_t {
+  /// @brief Nested struct __CanvasScaler_ScreenMatchMode_Unwrapped
+  enum struct __CanvasScaler_ScreenMatchMode_Unwrapped : int32_t {
     __E_MatchWidthOrHeight = static_cast<int32_t>(0x0),
     __E_Expand = static_cast<int32_t>(0x1),
     __E_Shrink = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____CanvasScaler__ScreenMatchMode_Unwrapped() const noexcept {
-    return static_cast<____CanvasScaler__ScreenMatchMode_Unwrapped>(this->value__);
+  constexpr operator __CanvasScaler_ScreenMatchMode_Unwrapped() const noexcept {
+    return static_cast<__CanvasScaler_ScreenMatchMode_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -132,49 +129,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CanvasScaler__ScreenMatchMode();
+  constexpr CanvasScaler_ScreenMatchMode();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CanvasScaler__ScreenMatchMode(int32_t value__) noexcept;
+  constexpr CanvasScaler_ScreenMatchMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Expand value: I32(1)
+  static ::UnityEngine::UI::CanvasScaler_ScreenMatchMode const Expand;
 
-  /// @brief Field Expand value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode const Expand;
+  /// @brief Field MatchWidthOrHeight value: I32(0)
+  static ::UnityEngine::UI::CanvasScaler_ScreenMatchMode const MatchWidthOrHeight;
 
-  /// @brief Field MatchWidthOrHeight value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode const MatchWidthOrHeight;
-
-  /// @brief Field Shrink value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode const Shrink;
+  /// @brief Field Shrink value: I32(2)
+  static ::UnityEngine::UI::CanvasScaler_ScreenMatchMode const Shrink;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15084 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__CanvasScaler__ScreenMatchMode, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UI::CanvasScaler_ScreenMatchMode, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CanvasScaler_ScreenMatchMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
-// Type: ::Unit
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UI {
 // Is value type: true
-// CS Name: ::CanvasScaler::Unit
-struct CORDL_TYPE __CanvasScaler__Unit {
+// CS Name: UnityEngine.UI.CanvasScaler/Unit
+struct CORDL_TYPE CanvasScaler_Unit {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____CanvasScaler__Unit_Unwrapped
-  enum struct ____CanvasScaler__Unit_Unwrapped : int32_t {
+  /// @brief Nested struct __CanvasScaler_Unit_Unwrapped
+  enum struct __CanvasScaler_Unit_Unwrapped : int32_t {
     __E_Centimeters = static_cast<int32_t>(0x0),
     __E_Millimeters = static_cast<int32_t>(0x1),
     __E_Inches = static_cast<int32_t>(0x2),
@@ -183,8 +179,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____CanvasScaler__Unit_Unwrapped() const noexcept {
-    return static_cast<____CanvasScaler__Unit_Unwrapped>(this->value__);
+  constexpr operator __CanvasScaler_Unit_Unwrapped() const noexcept {
+    return static_cast<__CanvasScaler_Unit_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -194,56 +190,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CanvasScaler__Unit();
+  constexpr CanvasScaler_Unit();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CanvasScaler__Unit(int32_t value__) noexcept;
+  constexpr CanvasScaler_Unit(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Centimeters value: I32(0)
+  static ::UnityEngine::UI::CanvasScaler_Unit const Centimeters;
 
-  /// @brief Field Centimeters value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UI::__CanvasScaler__Unit const Centimeters;
+  /// @brief Field Inches value: I32(2)
+  static ::UnityEngine::UI::CanvasScaler_Unit const Inches;
 
-  /// @brief Field Inches value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UI::__CanvasScaler__Unit const Inches;
+  /// @brief Field Millimeters value: I32(1)
+  static ::UnityEngine::UI::CanvasScaler_Unit const Millimeters;
 
-  /// @brief Field Millimeters value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UI::__CanvasScaler__Unit const Millimeters;
+  /// @brief Field Picas value: I32(4)
+  static ::UnityEngine::UI::CanvasScaler_Unit const Picas;
 
-  /// @brief Field Picas value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UI::__CanvasScaler__Unit const Picas;
-
-  /// @brief Field Points value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UI::__CanvasScaler__Unit const Points;
+  /// @brief Field Points value: I32(3)
+  static ::UnityEngine::UI::CanvasScaler_Unit const Points;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15085 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__CanvasScaler__Unit, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UI::CanvasScaler_Unit, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__CanvasScaler__Unit, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CanvasScaler_Unit, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
-// Type: UnityEngine.UI::CanvasScaler
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.UIBehaviour, UnityEngine.UI.CanvasScaler::ScaleMode, UnityEngine.UI.CanvasScaler::ScreenMatchMode, UnityEngine.UI.CanvasScaler::Unit, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::CanvasScaler*
+// CS Name: UnityEngine.UI.CanvasScaler
 class CORDL_TYPE CanvasScaler : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
-  using ScaleMode = ::UnityEngine::UI::__CanvasScaler__ScaleMode;
+  using ScaleMode = ::UnityEngine::UI::CanvasScaler_ScaleMode;
 
-  using ScreenMatchMode = ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode;
+  using ScreenMatchMode = ::UnityEngine::UI::CanvasScaler_ScreenMatchMode;
 
-  using Unit = ::UnityEngine::UI::__CanvasScaler__Unit;
+  using Unit = ::UnityEngine::UI::CanvasScaler_Unit;
 
   __declspec(property(get = get_defaultSpriteDPI, put = set_defaultSpriteDPI)) float_t defaultSpriteDPI;
 
@@ -267,7 +262,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_MatchWidthOrHeight, put = __cordl_internal_set_m_MatchWidthOrHeight)) float_t m_MatchWidthOrHeight;
 
   /// @brief Field m_PhysicalUnit, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PhysicalUnit, put = __cordl_internal_set_m_PhysicalUnit)) ::UnityEngine::UI::__CanvasScaler__Unit m_PhysicalUnit;
+  __declspec(property(get = __cordl_internal_get_m_PhysicalUnit, put = __cordl_internal_set_m_PhysicalUnit)) ::UnityEngine::UI::CanvasScaler_Unit m_PhysicalUnit;
 
   /// @brief Field m_PresetInfoIsWorld, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_m_PresetInfoIsWorld, put = __cordl_internal_set_m_PresetInfoIsWorld)) bool m_PresetInfoIsWorld;
@@ -288,14 +283,14 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ScaleFactor, put = __cordl_internal_set_m_ScaleFactor)) float_t m_ScaleFactor;
 
   /// @brief Field m_ScreenMatchMode, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ScreenMatchMode, put = __cordl_internal_set_m_ScreenMatchMode)) ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode m_ScreenMatchMode;
+  __declspec(property(get = __cordl_internal_get_m_ScreenMatchMode, put = __cordl_internal_set_m_ScreenMatchMode)) ::UnityEngine::UI::CanvasScaler_ScreenMatchMode m_ScreenMatchMode;
 
   /// @brief Field m_UiScaleMode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UiScaleMode, put = __cordl_internal_set_m_UiScaleMode)) ::UnityEngine::UI::__CanvasScaler__ScaleMode m_UiScaleMode;
+  __declspec(property(get = __cordl_internal_get_m_UiScaleMode, put = __cordl_internal_set_m_UiScaleMode)) ::UnityEngine::UI::CanvasScaler_ScaleMode m_UiScaleMode;
 
   __declspec(property(get = get_matchWidthOrHeight, put = set_matchWidthOrHeight)) float_t matchWidthOrHeight;
 
-  __declspec(property(get = get_physicalUnit, put = set_physicalUnit)) ::UnityEngine::UI::__CanvasScaler__Unit physicalUnit;
+  __declspec(property(get = get_physicalUnit, put = set_physicalUnit)) ::UnityEngine::UI::CanvasScaler_Unit physicalUnit;
 
   __declspec(property(get = get_referencePixelsPerUnit, put = set_referencePixelsPerUnit)) float_t referencePixelsPerUnit;
 
@@ -303,40 +298,40 @@ public:
 
   __declspec(property(get = get_scaleFactor, put = set_scaleFactor)) float_t scaleFactor;
 
-  __declspec(property(get = get_screenMatchMode, put = set_screenMatchMode)) ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode screenMatchMode;
+  __declspec(property(get = get_screenMatchMode, put = set_screenMatchMode)) ::UnityEngine::UI::CanvasScaler_ScreenMatchMode screenMatchMode;
 
-  __declspec(property(get = get_uiScaleMode, put = set_uiScaleMode)) ::UnityEngine::UI::__CanvasScaler__ScaleMode uiScaleMode;
+  __declspec(property(get = get_uiScaleMode, put = set_uiScaleMode)) ::UnityEngine::UI::CanvasScaler_ScaleMode uiScaleMode;
 
-  /// @brief Method Canvas_preWillRenderCanvases, addr 0x4a512b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Canvas_preWillRenderCanvases, addr 0x4ab5bc0, size 0x10, virtual false, abstract: false, final false
   inline void Canvas_preWillRenderCanvases();
 
-  /// @brief Method Handle, addr 0x4a513e8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Handle, addr 0x4ab5cf8, size 0xfc, virtual true, abstract: false, final false
   inline void Handle();
 
-  /// @brief Method HandleConstantPhysicalSize, addr 0x4a51758, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method HandleConstantPhysicalSize, addr 0x4ab6068, size 0x68, virtual true, abstract: false, final false
   inline void HandleConstantPhysicalSize();
 
-  /// @brief Method HandleConstantPixelSize, addr 0x4a51504, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HandleConstantPixelSize, addr 0x4ab5e14, size 0x20, virtual true, abstract: false, final false
   inline void HandleConstantPixelSize();
 
-  /// @brief Method HandleScaleWithScreenSize, addr 0x4a51524, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method HandleScaleWithScreenSize, addr 0x4ab5e34, size 0x234, virtual true, abstract: false, final false
   inline void HandleScaleWithScreenSize();
 
-  /// @brief Method HandleWorldCanvas, addr 0x4a514e4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HandleWorldCanvas, addr 0x4ab5df4, size 0x20, virtual true, abstract: false, final false
   inline void HandleWorldCanvas();
 
   static inline ::UnityEngine::UI::CanvasScaler* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4a512c0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4ab5bd0, size 0xa8, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4a511ec, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4ab5afc, size 0xc4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetReferencePixelsPerUnit, addr 0x4a513a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetReferencePixelsPerUnit, addr 0x4ab5cb8, size 0x40, virtual false, abstract: false, final false
   inline void SetReferencePixelsPerUnit(float_t referencePixelsPerUnit);
 
-  /// @brief Method SetScaleFactor, addr 0x4a51368, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetScaleFactor, addr 0x4ab5c78, size 0x40, virtual false, abstract: false, final false
   inline void SetScaleFactor(float_t scaleFactor);
 
   constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
@@ -359,9 +354,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_m_MatchWidthOrHeight();
 
-  constexpr ::UnityEngine::UI::__CanvasScaler__Unit const& __cordl_internal_get_m_PhysicalUnit() const;
+  constexpr ::UnityEngine::UI::CanvasScaler_Unit const& __cordl_internal_get_m_PhysicalUnit() const;
 
-  constexpr ::UnityEngine::UI::__CanvasScaler__Unit& __cordl_internal_get_m_PhysicalUnit();
+  constexpr ::UnityEngine::UI::CanvasScaler_Unit& __cordl_internal_get_m_PhysicalUnit();
 
   constexpr bool const& __cordl_internal_get_m_PresetInfoIsWorld() const;
 
@@ -387,13 +382,13 @@ public:
 
   constexpr float_t& __cordl_internal_get_m_ScaleFactor();
 
-  constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode const& __cordl_internal_get_m_ScreenMatchMode() const;
+  constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode const& __cordl_internal_get_m_ScreenMatchMode() const;
 
-  constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode& __cordl_internal_get_m_ScreenMatchMode();
+  constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode& __cordl_internal_get_m_ScreenMatchMode();
 
-  constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode const& __cordl_internal_get_m_UiScaleMode() const;
+  constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode const& __cordl_internal_get_m_UiScaleMode() const;
 
-  constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode& __cordl_internal_get_m_UiScaleMode();
+  constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode& __cordl_internal_get_m_UiScaleMode();
 
   constexpr void __cordl_internal_set_m_Canvas(::UnityW<::UnityEngine::Canvas> value);
 
@@ -405,7 +400,7 @@ public:
 
   constexpr void __cordl_internal_set_m_MatchWidthOrHeight(float_t value);
 
-  constexpr void __cordl_internal_set_m_PhysicalUnit(::UnityEngine::UI::__CanvasScaler__Unit value);
+  constexpr void __cordl_internal_set_m_PhysicalUnit(::UnityEngine::UI::CanvasScaler_Unit value);
 
   constexpr void __cordl_internal_set_m_PresetInfoIsWorld(bool value);
 
@@ -419,72 +414,72 @@ public:
 
   constexpr void __cordl_internal_set_m_ScaleFactor(float_t value);
 
-  constexpr void __cordl_internal_set_m_ScreenMatchMode(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode value);
+  constexpr void __cordl_internal_set_m_ScreenMatchMode(::UnityEngine::UI::CanvasScaler_ScreenMatchMode value);
 
-  constexpr void __cordl_internal_set_m_UiScaleMode(::UnityEngine::UI::__CanvasScaler__ScaleMode value);
+  constexpr void __cordl_internal_set_m_UiScaleMode(::UnityEngine::UI::CanvasScaler_ScaleMode value);
 
-  /// @brief Method .ctor, addr 0x4a511a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab5ab4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_defaultSpriteDPI, addr 0x4a5117c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpriteDPI, addr 0x4ab5a8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultSpriteDPI();
 
-  /// @brief Method get_dynamicPixelsPerUnit, addr 0x4a51194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicPixelsPerUnit, addr 0x4ab5aa4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_dynamicPixelsPerUnit();
 
-  /// @brief Method get_fallbackScreenDPI, addr 0x4a5116c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackScreenDPI, addr 0x4ab5a7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fallbackScreenDPI();
 
-  /// @brief Method get_matchWidthOrHeight, addr 0x4a5114c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_matchWidthOrHeight, addr 0x4ab5a5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_matchWidthOrHeight();
 
-  /// @brief Method get_physicalUnit, addr 0x4a5115c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::__CanvasScaler__Unit get_physicalUnit();
+  /// @brief Method get_physicalUnit, addr 0x4ab5a6c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UI::CanvasScaler_Unit get_physicalUnit();
 
-  /// @brief Method get_referencePixelsPerUnit, addr 0x4a510a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referencePixelsPerUnit, addr 0x4ab59b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_referencePixelsPerUnit();
 
-  /// @brief Method get_referenceResolution, addr 0x4a510d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceResolution, addr 0x4ab59e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_referenceResolution();
 
-  /// @brief Method get_scaleFactor, addr 0x4a510b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scaleFactor, addr 0x4ab59c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scaleFactor();
 
-  /// @brief Method get_screenMatchMode, addr 0x4a5113c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode get_screenMatchMode();
+  /// @brief Method get_screenMatchMode, addr 0x4ab5a4c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UI::CanvasScaler_ScreenMatchMode get_screenMatchMode();
 
-  /// @brief Method get_uiScaleMode, addr 0x4a51094, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::__CanvasScaler__ScaleMode get_uiScaleMode();
+  /// @brief Method get_uiScaleMode, addr 0x4ab59a4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UI::CanvasScaler_ScaleMode get_uiScaleMode();
 
-  /// @brief Method set_defaultSpriteDPI, addr 0x4a51184, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSpriteDPI, addr 0x4ab5a94, size 0x10, virtual false, abstract: false, final false
   inline void set_defaultSpriteDPI(float_t value);
 
-  /// @brief Method set_dynamicPixelsPerUnit, addr 0x4a5119c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicPixelsPerUnit, addr 0x4ab5aac, size 0x8, virtual false, abstract: false, final false
   inline void set_dynamicPixelsPerUnit(float_t value);
 
-  /// @brief Method set_fallbackScreenDPI, addr 0x4a51174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackScreenDPI, addr 0x4ab5a84, size 0x8, virtual false, abstract: false, final false
   inline void set_fallbackScreenDPI(float_t value);
 
-  /// @brief Method set_matchWidthOrHeight, addr 0x4a51154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_matchWidthOrHeight, addr 0x4ab5a64, size 0x8, virtual false, abstract: false, final false
   inline void set_matchWidthOrHeight(float_t value);
 
-  /// @brief Method set_physicalUnit, addr 0x4a51164, size 0x8, virtual false, abstract: false, final false
-  inline void set_physicalUnit(::UnityEngine::UI::__CanvasScaler__Unit value);
+  /// @brief Method set_physicalUnit, addr 0x4ab5a74, size 0x8, virtual false, abstract: false, final false
+  inline void set_physicalUnit(::UnityEngine::UI::CanvasScaler_Unit value);
 
-  /// @brief Method set_referencePixelsPerUnit, addr 0x4a510ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_referencePixelsPerUnit, addr 0x4ab59bc, size 0x8, virtual false, abstract: false, final false
   inline void set_referencePixelsPerUnit(float_t value);
 
-  /// @brief Method set_referenceResolution, addr 0x4a510d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_referenceResolution, addr 0x4ab59e8, size 0x64, virtual false, abstract: false, final false
   inline void set_referenceResolution(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_scaleFactor, addr 0x4a510bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_scaleFactor, addr 0x4ab59cc, size 0x14, virtual false, abstract: false, final false
   inline void set_scaleFactor(float_t value);
 
-  /// @brief Method set_screenMatchMode, addr 0x4a51144, size 0x8, virtual false, abstract: false, final false
-  inline void set_screenMatchMode(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode value);
+  /// @brief Method set_screenMatchMode, addr 0x4ab5a54, size 0x8, virtual false, abstract: false, final false
+  inline void set_screenMatchMode(::UnityEngine::UI::CanvasScaler_ScreenMatchMode value);
 
-  /// @brief Method set_uiScaleMode, addr 0x4a5109c, size 0x8, virtual false, abstract: false, final false
-  inline void set_uiScaleMode(::UnityEngine::UI::__CanvasScaler__ScaleMode value);
+  /// @brief Method set_uiScaleMode, addr 0x4ab59ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_uiScaleMode(::UnityEngine::UI::CanvasScaler_ScaleMode value);
 
 protected:
   // Ctor Parameters []
@@ -500,8 +495,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CanvasScaler(CanvasScaler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15086 };
+
+  /// @brief Field kLogBase offset 0xffffffff size 0x4
+  static constexpr float_t kLogBase{ static_cast<float_t>(2.0f) };
+
   /// @brief Field m_UiScaleMode, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::UI::__CanvasScaler__ScaleMode ___m_UiScaleMode;
+  ::UnityEngine::UI::CanvasScaler_ScaleMode ___m_UiScaleMode;
 
   /// @brief Field m_ReferencePixelsPerUnit, offset: 0x24, size: 0x4, def value: None
   float_t ___m_ReferencePixelsPerUnit;
@@ -513,13 +514,13 @@ public:
   ::UnityEngine::Vector2 ___m_ReferenceResolution;
 
   /// @brief Field m_ScreenMatchMode, offset: 0x34, size: 0x4, def value: None
-  ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode ___m_ScreenMatchMode;
+  ::UnityEngine::UI::CanvasScaler_ScreenMatchMode ___m_ScreenMatchMode;
 
   /// @brief Field m_MatchWidthOrHeight, offset: 0x38, size: 0x4, def value: None
   float_t ___m_MatchWidthOrHeight;
 
   /// @brief Field m_PhysicalUnit, offset: 0x3c, size: 0x4, def value: None
-  ::UnityEngine::UI::__CanvasScaler__Unit ___m_PhysicalUnit;
+  ::UnityEngine::UI::CanvasScaler_Unit ___m_PhysicalUnit;
 
   /// @brief Field m_FallbackScreenDPI, offset: 0x40, size: 0x4, def value: None
   float_t ___m_FallbackScreenDPI;
@@ -542,17 +543,9 @@ public:
   /// @brief Field m_PresetInfoIsWorld, offset: 0x60, size: 0x1, def value: None
   bool ___m_PresetInfoIsWorld;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15051 };
-
-  /// @brief Field kLogBase offset 0xffffffff size 0x4
-  static constexpr float_t kLogBase{ 2.0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CanvasScaler, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UI::CanvasScaler, ___m_UiScaleMode) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UI::CanvasScaler, ___m_ReferencePixelsPerUnit) == 0x24, "Offset mismatch!");
@@ -581,9 +574,11 @@ static_assert(offsetof(::UnityEngine::UI::CanvasScaler, ___m_PrevReferencePixels
 
 static_assert(offsetof(::UnityEngine::UI::CanvasScaler, ___m_PresetInfoIsWorld) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CanvasScaler, 0x68>, "Size mismatch!");
+
 } // namespace UnityEngine::UI
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__CanvasScaler__ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__CanvasScaler__Unit, "UnityEngine.UI", "CanvasScaler/Unit");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CanvasScaler_ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CanvasScaler_ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CanvasScaler_Unit, "UnityEngine.UI", "CanvasScaler/Unit");
 NEED_NO_BOX(::UnityEngine::UI::CanvasScaler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CanvasScaler*, "UnityEngine.UI", "CanvasScaler");

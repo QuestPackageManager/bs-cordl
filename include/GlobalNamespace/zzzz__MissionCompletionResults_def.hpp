@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionCompletionResults)
 namespace GlobalNamespace {
 class LevelCompletionResults;
@@ -18,11 +17,10 @@ class MissionCompletionResults;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionCompletionResults);
-// Type: ::MissionCompletionResults
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionCompletionResults*
+// CS Name: MissionCompletionResults
 class CORDL_TYPE MissionCompletionResults : public ::System::Object {
 public:
   // Declarations
@@ -40,9 +38,9 @@ public:
   New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
            ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
-  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get_levelCompletionResults();
+  constexpr ::GlobalNamespace::LevelCompletionResults* const& __cordl_internal_get_levelCompletionResults() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get_levelCompletionResults() const;
+  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get_levelCompletionResults();
 
   constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> const& __cordl_internal_get_missionObjectiveResults() const;
 
@@ -52,11 +50,11 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
-  /// @brief Method .ctor, addr 0x269ef90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3cc4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
-  /// @brief Method get_IsMissionComplete, addr 0x269ef08, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_IsMissionComplete, addr 0x26d3c3c, size 0x88, virtual false, abstract: false, final false
   inline bool get_IsMissionComplete();
 
 protected:
@@ -73,23 +71,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionCompletionResults(MissionCompletionResults const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13035 };
+
   /// @brief Field levelCompletionResults, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ___levelCompletionResults;
 
   /// @brief Field missionObjectiveResults, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> ___missionObjectiveResults;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13000 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionCompletionResults, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionCompletionResults, ___levelCompletionResults) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionCompletionResults, ___missionObjectiveResults) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionCompletionResults, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionCompletionResults);

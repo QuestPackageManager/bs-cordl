@@ -12,11 +12,10 @@ struct NativeInputEventBuffer;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEventBuffer);
-// Type: UnityEngineInternal.Input::NativeInputEventBuffer
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, packing: Some(1), specified_packing: Some(1) }
+// Dependencies
 namespace UnityEngineInternal::Input {
 // Is value type: true
-// CS Name: ::UnityEngineInternal.Input::NativeInputEventBuffer
+// CS Name: UnityEngineInternal.Input.NativeInputEventBuffer
 #pragma pack(push, 1)
 struct CORDL_TYPE NativeInputEventBuffer {
 public:
@@ -128,7 +127,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

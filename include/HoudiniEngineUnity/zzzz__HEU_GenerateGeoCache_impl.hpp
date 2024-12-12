@@ -3,7 +3,6 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_impl.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MeshTopology_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -28,265 +27,263 @@
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType() {}
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::NONE{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::BOX{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::SPHERE{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::MESH{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::SIMPLE_BOX{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::SIMPLE_SPHERE{ static_cast<int32_t>(0x5) };
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::SIMPLE_CAPSULE{ static_cast<int32_t>(
-    0x6) };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo._ctor
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType() {}
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::NONE{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::BOX{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::SPHERE{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::MESH{ static_cast<int32_t>(0x3) };
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::SIMPLE_BOX{ static_cast<int32_t>(0x4) };
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::SIMPLE_SPHERE{ static_cast<int32_t>(0x5) };
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType::SIMPLE_CAPSULE{ static_cast<int32_t>(0x6) };
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::*)()>(
-    &::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::*)()>(
+    &::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a21bec;
+  constexpr static std::size_t addrs = 0x3a7885c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderType() {
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderType;
 }
-constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderType() const {
+constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderType;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__colliderType(::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__colliderType(::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderType = value;
 }
-constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderCenter() {
+constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderCenter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderCenter;
 }
-constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderCenter() const {
+constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderCenter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderCenter;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__colliderCenter(::UnityEngine::Vector3 value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__colliderCenter(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderCenter = value;
 }
-constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderSize() {
+constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderSize;
 }
-constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderSize() const {
+constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderSize;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__colliderSize(::UnityEngine::Vector3 value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__colliderSize(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderSize = value;
 }
-constexpr float_t& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderRadius() {
+constexpr float_t& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderRadius() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderRadius;
 }
-constexpr float_t const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__colliderRadius() const {
+constexpr float_t const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__colliderRadius() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderRadius;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__colliderRadius(float_t value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__colliderRadius(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderRadius = value;
 }
-constexpr bool& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__convexCollider() {
+constexpr bool& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__convexCollider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convexCollider;
 }
-constexpr bool const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__convexCollider() const {
+constexpr bool const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__convexCollider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convexCollider;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__convexCollider(bool value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__convexCollider(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____convexCollider = value;
 }
-constexpr ::StringW& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__collisionGroupName() {
+constexpr ::StringW& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__collisionGroupName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionGroupName;
 }
-constexpr ::StringW const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__collisionGroupName() const {
+constexpr ::StringW const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__collisionGroupName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionGroupName;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__collisionGroupName(::StringW value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__collisionGroupName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collisionGroupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__collisionVertices() {
+constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__collisionVertices() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionVertices;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__collisionVertices() const {
+constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__collisionVertices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionVertices;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__collisionVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__collisionVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collisionVertices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__collisionIndices() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__collisionIndices() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionIndices;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__collisionIndices() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__collisionIndices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionIndices;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__collisionIndices(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__collisionIndices(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collisionIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::MeshTopology& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__meshTopology() {
+constexpr ::UnityEngine::MeshTopology& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__meshTopology() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTopology;
 }
-constexpr ::UnityEngine::MeshTopology const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__meshTopology() const {
+constexpr ::UnityEngine::MeshTopology const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__meshTopology() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTopology;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__meshTopology(::UnityEngine::MeshTopology value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__meshTopology(::UnityEngine::MeshTopology value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshTopology = value;
 }
-constexpr bool& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__isTrigger() {
+constexpr bool& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__isTrigger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isTrigger;
 }
-constexpr bool const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_get__isTrigger() const {
+constexpr bool const& HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_get__isTrigger() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isTrigger;
 }
-constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__cordl_internal_set__isTrigger(bool value) {
+constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::__cordl_internal_set__isTrigger(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isTrigger = value;
 }
-inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo* HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>());
-}
-inline void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::_ctor() {
+inline void HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo* HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>());
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__HEU_GenerateGeoCache__HEU_ColliderInfo() {}
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c._ctor
+constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo::HEU_GenerateGeoCache_HEU_ColliderInfo() {}
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_GenerateGeoCache____c::*)()>(
-    &::HoudiniEngineUnity::__HEU_GenerateGeoCache____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_GenerateGeoCache___c::*)()>(&::HoudiniEngineUnity::HEU_GenerateGeoCache___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a23f2c;
+  constexpr static std::size_t addrs = 0x3a7ab9c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c._GetFinalMaterialsFromComparingNewWithPrevious_b__63_0
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache___c._GetFinalMaterialsFromComparingNewWithPrevious_b__63_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::__HEU_GenerateGeoCache____c::*)(::UnityEngine::Material*)>(
-    &::HoudiniEngineUnity::__HEU_GenerateGeoCache____c::_GetFinalMaterialsFromComparingNewWithPrevious_b__63_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_GenerateGeoCache___c::*)(::UnityEngine::Material*)>(
+    &::HoudiniEngineUnity::HEU_GenerateGeoCache___c::_GetFinalMaterialsFromComparingNewWithPrevious_b__63_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a23f34;
+  constexpr static std::size_t addrs = 0x3a7aba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get(), "<GetFinalMaterialsFromComparingNewWithPrevious>b__63_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get(), "<GetFinalMaterialsFromComparingNewWithPrevious>b__63_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c._GenerateLODMeshesFromGeoGroups_b__65_0
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache___c._GenerateLODMeshesFromGeoGroups_b__65_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::__HEU_GenerateGeoCache____c::*)(float_t, float_t)>(
-    &::HoudiniEngineUnity::__HEU_GenerateGeoCache____c::_GenerateLODMeshesFromGeoGroups_b__65_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_GenerateGeoCache___c::*)(float_t, float_t)>(
+    &::HoudiniEngineUnity::HEU_GenerateGeoCache___c::_GenerateLODMeshesFromGeoGroups_b__65_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a23f90;
+  constexpr static std::size_t addrs = 0x3a7ac00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get(), "<GenerateLODMeshesFromGeoGroups>b__65_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get(), "<GenerateLODMeshesFromGeoGroups>b__65_0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-inline void HoudiniEngineUnity::__HEU_GenerateGeoCache____c::setStaticF___9(::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* value) {
-  ::cordl_internals::setStaticField<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get>(
-      std::forward<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>(value));
+inline void HoudiniEngineUnity::HEU_GenerateGeoCache___c::setStaticF___9(::HoudiniEngineUnity::HEU_GenerateGeoCache___c* value) {
+  ::cordl_internals::setStaticField<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get>(
+      std::forward<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>(value));
 }
-inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* HoudiniEngineUnity::__HEU_GenerateGeoCache____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get>();
+inline ::HoudiniEngineUnity::HEU_GenerateGeoCache___c* HoudiniEngineUnity::HEU_GenerateGeoCache___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get>();
 }
-inline void HoudiniEngineUnity::__HEU_GenerateGeoCache____c::setStaticF___9__63_0(::System::Predicate_1<::UnityW<::UnityEngine::Material>>* value) {
+inline void HoudiniEngineUnity::HEU_GenerateGeoCache___c::setStaticF___9__63_0(::System::Predicate_1<::UnityW<::UnityEngine::Material>>* value) {
   ::cordl_internals::setStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Material>>*, "<>9__63_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get>(
       std::forward<::System::Predicate_1<::UnityW<::UnityEngine::Material>>*>(value));
 }
-inline ::System::Predicate_1<::UnityW<::UnityEngine::Material>>* HoudiniEngineUnity::__HEU_GenerateGeoCache____c::getStaticF___9__63_0() {
+inline ::System::Predicate_1<::UnityW<::UnityEngine::Material>>* HoudiniEngineUnity::HEU_GenerateGeoCache___c::getStaticF___9__63_0() {
   return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Material>>*, "<>9__63_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get>();
 }
-inline void HoudiniEngineUnity::__HEU_GenerateGeoCache____c::setStaticF___9__65_0(::System::Comparison_1<float_t>* value) {
-  ::cordl_internals::setStaticField<::System::Comparison_1<float_t>*, "<>9__65_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get>(
+inline void HoudiniEngineUnity::HEU_GenerateGeoCache___c::setStaticF___9__65_0(::System::Comparison_1<float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Comparison_1<float_t>*, "<>9__65_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get>(
       std::forward<::System::Comparison_1<float_t>*>(value));
 }
-inline ::System::Comparison_1<float_t>* HoudiniEngineUnity::__HEU_GenerateGeoCache____c::getStaticF___9__65_0() {
+inline ::System::Comparison_1<float_t>* HoudiniEngineUnity::HEU_GenerateGeoCache___c::getStaticF___9__65_0() {
   return ::cordl_internals::getStaticField<::System::Comparison_1<float_t>*, "<>9__65_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get>();
 }
-inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* HoudiniEngineUnity::__HEU_GenerateGeoCache____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>());
-}
-inline void HoudiniEngineUnity::__HEU_GenerateGeoCache____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get(), ".ctor",
+inline void HoudiniEngineUnity::HEU_GenerateGeoCache___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HoudiniEngineUnity::__HEU_GenerateGeoCache____c::_GetFinalMaterialsFromComparingNewWithPrevious_b__63_0(::UnityEngine::Material* material) {
+inline bool HoudiniEngineUnity::HEU_GenerateGeoCache___c::_GetFinalMaterialsFromComparingNewWithPrevious_b__63_0(::UnityEngine::Material* material) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get(), "<GetFinalMaterialsFromComparingNewWithPrevious>b__63_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get(), "<GetFinalMaterialsFromComparingNewWithPrevious>b__63_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, material);
 }
-inline int32_t HoudiniEngineUnity::__HEU_GenerateGeoCache____c::_GenerateLODMeshesFromGeoGroups_b__65_0(float_t a, float_t b) {
+inline int32_t HoudiniEngineUnity::HEU_GenerateGeoCache___c::_GenerateLODMeshesFromGeoGroups_b__65_0(float_t a, float_t b) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*>::get(), "<GenerateLODMeshesFromGeoGroups>b__65_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>::get(), "<GenerateLODMeshesFromGeoGroups>b__65_0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, a, b);
 }
+inline ::HoudiniEngineUnity::HEU_GenerateGeoCache___c* HoudiniEngineUnity::HEU_GenerateGeoCache___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_GenerateGeoCache___c*>());
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c::__HEU_GenerateGeoCache____c() {}
+constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache___c::HEU_GenerateGeoCache___c() {}
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache.get_GeoID
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_GenerateGeoCache::*)()>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::get_GeoID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a19110;
+  constexpr static std::size_t addrs = 0x3a6fd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "get_GeoID",
@@ -299,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_GenerateGeoCache::*)()>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::get_PartID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a19118;
+  constexpr static std::size_t addrs = 0x3a6fd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "get_PartID",
@@ -313,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_GenerateGeoCache::*)()>(
     &::HoudiniEngineUnity::HEU_GenerateGeoCache::get_AssetID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a19120;
+  constexpr static std::size_t addrs = 0x3a6fd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(),
@@ -327,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_GenerateGeoCache::*)(int32_t)>(
     &::HoudiniEngineUnity::HEU_GenerateGeoCache::set_AssetID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a19128;
+  constexpr static std::size_t addrs = 0x3a6fd98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,10 +338,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::HoudiniEngineUnity::HEU_GenerateGeoCache* (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, int32_t, bool,
-                                                                ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*, ::StringW)>(
+                                                                ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*, ::StringW)>(
         &::HoudiniEngineUnity::HEU_GenerateGeoCache::GetPopulatedGeoCache)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x3a19130;
+  constexpr static std::size_t addrs = 0x3a6fda0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,7 +349,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -363,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_GenerateGeoCache::*)(::HoudiniEngineUnity::HEU_SessionBase*)>(
     &::HoudiniEngineUnity::HEU_GenerateGeoCache::PopulateUnityMaterialData)> {
   constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x3a1961c;
+  constexpr static std::size_t addrs = 0x3a7028c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -375,18 +372,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache.GetMaterialKeyFromAttributeIndex
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::HoudiniEngineUnity::HEU_GenerateGeoCache*, int32_t, ByRef<::StringW>, ByRef<::StringW>,
-                                                                                              ByRef<int32_t>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GetMaterialKeyFromAttributeIndex)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::HoudiniEngineUnity::HEU_GenerateGeoCache*, int32_t, ::ByRef<::StringW>, ::ByRef<::StringW>,
+                                                                                              ::ByRef<int32_t>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GetMaterialKeyFromAttributeIndex)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3a1b764;
+  constexpr static std::size_t addrs = 0x3a723d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "GetMaterialKeyFromAttributeIndex", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -396,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_GenerateGeoCache*, int32_t)>(
     &::HoudiniEngineUnity::HEU_GenerateGeoCache::CreateMaterialInfoEntryFromAttributeIndex)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3a1b64c;
+  constexpr static std::size_t addrs = 0x3a722bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -413,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_GenerateGeoCache::*)(::HoudiniEngineUnity::HEU_SessionBase*, bool)>(
     &::HoudiniEngineUnity::HEU_GenerateGeoCache::PopulateGeometryData)> {
   constexpr static std::size_t size = 0x1a48;
-  constexpr static std::size_t addrs = 0x3a19c04;
+  constexpr static std::size_t addrs = 0x3a70874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -426,17 +423,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache.ParseLODTransitionAttribute
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(
     &::HoudiniEngineUnity::HEU_GenerateGeoCache::ParseLODTransitionAttribute)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3a1b8c0;
+  constexpr static std::size_t addrs = 0x3a72530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "ParseLODTransitionAttribute", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
     return ___internal_method;
   }
 };
@@ -446,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_GenerateGeoCache*, ::HoudiniEngineUnity::HEU_GeneratedOutputData*)>(
     &::HoudiniEngineUnity::HEU_GenerateGeoCache::UpdateColliders)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3a1ba78;
+  constexpr static std::size_t addrs = 0x3a726e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,28 +457,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::HoudiniEngineUnity::HEU_GenerateGeoCache*, ::HoudiniEngineUnity::HEU_GeneratedOutputData*, ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*)>(
+    static_cast<void (*)(::HoudiniEngineUnity::HEU_GenerateGeoCache*, ::HoudiniEngineUnity::HEU_GeneratedOutputData*, ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*)>(
         &::HoudiniEngineUnity::HEU_GenerateGeoCache::UpdateCollider)> {
   constexpr static std::size_t size = 0x6d8;
-  constexpr static std::size_t addrs = 0x3a1bbc8;
+  constexpr static std::size_t addrs = 0x3a72838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "UpdateCollider", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GeneratedOutputData*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GenerateGeoCache.GetFinalMaterialsFromComparingNewWithPrevious
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::UnityEngine::GameObject*, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>,
-                         ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GetFinalMaterialsFromComparingNewWithPrevious)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    ::UnityEngine::GameObject*, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>,
+    ::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GetFinalMaterialsFromComparingNewWithPrevious)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x3a1c2a0;
+  constexpr static std::size_t addrs = 0x3a72f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -490,7 +487,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
     return ___internal_method;
   }
 };
@@ -501,7 +498,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_GeoGroup*, ::HoudiniEngineUnity::HEU_GenerateGeoCache*, ::HoudiniEngineUnity::HEU_GeneratedOutput*, int32_t,
                          bool, bool, bool, bool)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateMeshFromSingleGroup)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3a1c654;
+  constexpr static std::size_t addrs = 0x3a732c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -523,7 +520,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*, ::HoudiniEngineUnity::HEU_GenerateGeoCache*,
                          ::HoudiniEngineUnity::HEU_GeneratedOutput*, int32_t, bool, bool, bool, bool)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateLODMeshesFromGeoGroups)> {
   constexpr static std::size_t size = 0xb78;
-  constexpr static std::size_t addrs = 0x3a1d30c;
+  constexpr static std::size_t addrs = 0x3a73f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -542,10 +539,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
-    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_GeoGroup*, ::HoudiniEngineUnity::HEU_GenerateGeoCache*, int32_t, bool, bool, bool, bool, ByRef<::UnityEngine::Mesh*>,
-    ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateMeshFromGeoGroup)> {
+    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_GeoGroup*, ::HoudiniEngineUnity::HEU_GenerateGeoCache*, int32_t, bool, bool, bool, bool, ::ByRef<::UnityEngine::Mesh*>,
+    ::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateMeshFromGeoGroup)> {
   constexpr static std::size_t size = 0xb00;
-  constexpr static std::size_t addrs = 0x3a1c80c;
+  constexpr static std::size_t addrs = 0x3a7347c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -556,8 +553,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Mesh*>>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Mesh*>>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
     return ___internal_method;
   }
 };
@@ -568,7 +565,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Mesh> (*)(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MeshData*>*, ::System::Collections::Generic::List_1<int32_t>*, bool)>(
         &::HoudiniEngineUnity::HEU_GenerateGeoCache::CombineQuadMeshes)> {
   constexpr static std::size_t size = 0x5d8;
-  constexpr static std::size_t addrs = 0x3a1e610;
+  constexpr static std::size_t addrs = 0x3a75280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -586,7 +583,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Mesh> (*)(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MeshData*>*, ::System::Collections::Generic::List_1<int32_t>*, bool,
                                                   bool, ::HoudiniEngineUnity::HEU_MeshIndexFormat*)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::CombineMeshes)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x3a1ebe8;
+  constexpr static std::size_t addrs = 0x3a75858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -604,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (*)(
     ::HoudiniEngineUnity::HEU_MeshData*, bool, bool, ::HoudiniEngineUnity::HEU_MeshIndexFormat*)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::CreateMeshFromMeshData)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x3a1e360;
+  constexpr static std::size_t addrs = 0x3a74fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -620,10 +617,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Collections::Generic::List_1<int32_t>*, ::System::Collections::Generic::List_1<int32_t>*,
-                         ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<float_t, ::Array<float_t>*>, ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(
+                         ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<float_t, ::Array<float_t>*>, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(
         &::HoudiniEngineUnity::HEU_GenerateGeoCache::TransferRegularAttributesToVertices)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3a1ef88;
+  constexpr static std::size_t addrs = 0x3a75bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -632,9 +629,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
     return ___internal_method;
   }
 };
@@ -642,10 +639,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_GenerateGeoCache*, bool, bool, bool, bool,
-                                                                                           bool, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>, ByRef<int32_t>)>(
-    &::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCacheVertices)> {
+                                                                                           bool, ::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>,
+                                                                                           ::ByRef<int32_t>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCacheVertices)> {
   constexpr static std::size_t size = 0x297c;
-  constexpr static std::size_t addrs = 0x3a1f270;
+  constexpr static std::size_t addrs = 0x3a75ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -655,8 +652,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -664,10 +661,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_GenerateGeoCache*, bool, bool, bool, bool,
-                                                                                           bool, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>, ByRef<int32_t>)>(
-    &::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCachePoints)> {
+                                                                                           bool, ::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>,
+                                                                                           ::ByRef<int32_t>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCachePoints)> {
   constexpr static std::size_t size = 0x1f18;
-  constexpr static std::size_t addrs = 0x3a21fb8;
+  constexpr static std::size_t addrs = 0x3a78c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -677,8 +674,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -688,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MeshTopology (*)(
     ::System::Collections::Generic::List_1<int32_t>*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::CalculateGroupMeshTopology)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3a21bf4;
+  constexpr static std::size_t addrs = 0x3a78864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -703,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_GenerateGeoCache::*)()>(&::HoudiniEngineUnity::HEU_GenerateGeoCache::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3a1942c;
+  constexpr static std::size_t addrs = 0x3a7009c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), ".ctor",
@@ -823,7 +820,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineU
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialInfos;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>* const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__unityMaterialInfos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialInfos;
@@ -861,8 +858,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& Hou
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrStringsMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const&
-HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__unityMaterialAttrStringsMap() const {
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* const& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__unityMaterialAttrStringsMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrStringsMap;
 }
@@ -898,8 +894,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& Hou
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrStringsMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const&
-HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__substanceMaterialAttrStringsMap() const {
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* const& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__substanceMaterialAttrStringsMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrStringsMap;
 }
@@ -935,8 +930,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inUseMaterials;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*> const&
-HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__inUseMaterials() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* const& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__inUseMaterials() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inUseMaterials;
 }
@@ -1118,7 +1112,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitVertexIndices;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>* const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__groupSplitVertexIndices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitVertexIndices;
@@ -1133,7 +1127,7 @@ HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__groupSplitFaceIn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitFaceIndices;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__groupSplitFaceIndices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitFaceIndices;
@@ -1148,7 +1142,7 @@ HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__groupVertexOffse
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupVertexOffsets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__groupVertexOffsets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupVertexOffsets;
@@ -1230,17 +1224,17 @@ constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_set__i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isMeshReadWrite = value;
 }
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__colliderInfos() {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__colliderInfos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderInfos;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>*> const&
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__colliderInfos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderInfos;
 }
 constexpr void
-HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_set__colliderInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>* value) {
+HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_set__colliderInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colliderInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1248,8 +1242,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialCache;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*> const&
-HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__materialCache() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* const& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__materialCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialCache;
 }
@@ -1262,7 +1255,7 @@ HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__materialIDToData
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIDToDataMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__materialIDToDataMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIDToDataMap;
@@ -1288,7 +1281,7 @@ constexpr ::HoudiniEngineUnity::HEU_MeshIndexFormat*& HoudiniEngineUnity::HEU_Ge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshIndexFormat;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_MeshIndexFormat*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__meshIndexFormat() const {
+constexpr ::HoudiniEngineUnity::HEU_MeshIndexFormat* const& HoudiniEngineUnity::HEU_GenerateGeoCache::__cordl_internal_get__meshIndexFormat() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshIndexFormat;
 }
@@ -1319,14 +1312,13 @@ inline void HoudiniEngineUnity::HEU_GenerateGeoCache::set_AssetID(int32_t value)
 }
 inline ::HoudiniEngineUnity::HEU_GenerateGeoCache*
 HoudiniEngineUnity::HEU_GenerateGeoCache::GetPopulatedGeoCache(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t geoID, int32_t partID, bool bUseLODGroups,
-                                                               ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
-                                                               ::StringW assetCacheFolderPath) {
+                                                               ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "GetPopulatedGeoCache", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_GenerateGeoCache*, false>(nullptr, ___internal_method, session, assetID, geoID, partID, bUseLODGroups, materialCache,
                                                                                                  assetCacheFolderPath);
@@ -1338,13 +1330,13 @@ inline void HoudiniEngineUnity::HEU_GenerateGeoCache::PopulateUnityMaterialData(
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, session);
 }
 inline int32_t HoudiniEngineUnity::HEU_GenerateGeoCache::GetMaterialKeyFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t attributeIndex,
-                                                                                          ByRef<::StringW> unityMaterialName, ByRef<::StringW> substanceName, ByRef<int32_t> substanceIndex) {
+                                                                                          ::ByRef<::StringW> unityMaterialName, ::ByRef<::StringW> substanceName, ::ByRef<int32_t> substanceIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "GetMaterialKeyFromAttributeIndex", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, geoCache, attributeIndex, unityMaterialName, substanceName, substanceIndex);
 }
 inline void HoudiniEngineUnity::HEU_GenerateGeoCache::CreateMaterialInfoEntryFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t materialAttributeIndex) {
@@ -1362,12 +1354,12 @@ inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::PopulateGeometryData(::Hou
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, bUseLODGroups);
 }
 inline void HoudiniEngineUnity::HEU_GenerateGeoCache::ParseLODTransitionAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID,
-                                                                                  ByRef<::ArrayW<float_t, ::Array<float_t>*>> LODTransitionValues) {
+                                                                                  ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> LODTransitionValues) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "ParseLODTransitionAttribute", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, session, geoID, partID, LODTransitionValues);
 }
 inline void HoudiniEngineUnity::HEU_GenerateGeoCache::UpdateColliders(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData) {
@@ -1378,25 +1370,25 @@ inline void HoudiniEngineUnity::HEU_GenerateGeoCache::UpdateColliders(::HoudiniE
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, geoCache, outputData);
 }
 inline void HoudiniEngineUnity::HEU_GenerateGeoCache::UpdateCollider(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData,
-                                                                     ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo* colliderInfo) {
+                                                                     ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo* colliderInfo) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "UpdateCollider", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GeneratedOutputData*>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>::get() })));
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, geoCache, outputData, colliderInfo);
 }
 inline void HoudiniEngineUnity::HEU_GenerateGeoCache::GetFinalMaterialsFromComparingNewWithPrevious(::UnityEngine::GameObject* gameObject,
                                                                                                     ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> previousMaterials,
                                                                                                     ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> newMaterials,
-                                                                                                    ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> finalMaterials) {
+                                                                                                    ::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> finalMaterials) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "GetFinalMaterialsFromComparingNewWithPrevious",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObject, previousMaterials, newMaterials, finalMaterials);
 }
 inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateMeshFromSingleGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup,
@@ -1433,8 +1425,8 @@ inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateLODMeshesFromGeoGr
 }
 inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateMeshFromGeoGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup,
                                                                                ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t defaultMaterialKey, bool bGenerateUVs,
-                                                                               bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced, ByRef<::UnityEngine::Mesh*> newMesh,
-                                                                               ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> newMaterials) {
+                                                                               bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced, ::ByRef<::UnityEngine::Mesh*> newMesh,
+                                                                               ::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> newMaterials) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "GenerateMeshFromGeoGroup", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -1443,8 +1435,8 @@ inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateMeshFromGeoGroup(:
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Mesh*>>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Mesh*>>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, session, GeoGroup, geoCache, defaultMaterialKey, bGenerateUVs, bGenerateTangents, bGenerateNormals,
                                                           bPartInstanced, newMesh, newMaterials);
 }
@@ -1481,23 +1473,23 @@ inline ::UnityW<::UnityEngine::Mesh> HoudiniEngineUnity::HEU_GenerateGeoCache::C
 inline void HoudiniEngineUnity::HEU_GenerateGeoCache::TransferRegularAttributesToVertices(::ArrayW<int32_t, ::Array<int32_t>*> groupVertexList, ::ArrayW<int32_t, ::Array<int32_t>*> allFaceCounts,
                                                                                           ::System::Collections::Generic::List_1<int32_t>* groupFaces,
                                                                                           ::System::Collections::Generic::List_1<int32_t>* groupVertexOffset,
-                                                                                          ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo, ::ArrayW<float_t, ::Array<float_t>*> inData,
-                                                                                          ByRef<::ArrayW<float_t, ::Array<float_t>*>> outData) {
+                                                                                          ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo, ::ArrayW<float_t, ::Array<float_t>*> inData,
+                                                                                          ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> outData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "TransferRegularAttributesToVertices", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<float_t, ::Array<float_t>*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, groupVertexList, allFaceCounts, groupFaces, groupVertexOffset, attribInfo, inData, outData);
 }
 inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCacheVertices(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache,
                                                                                             bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced,
-                                                                                            ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes,
-                                                                                            ByRef<int32_t> defaultMaterialKey) {
+                                                                                            ::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes,
+                                                                                            ::ByRef<int32_t> defaultMaterialKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "GenerateGeoGroupUsingGeoCacheVertices", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -1505,15 +1497,15 @@ inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCa
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, session, geoCache, bGenerateUVs, bGenerateTangents, bGenerateNormals, bUseLODGroups, bPartInstanced,
                                                           LODGroupMeshes, defaultMaterialKey);
 }
 inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCachePoints(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache,
                                                                                           bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced,
-                                                                                          ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes,
-                                                                                          ByRef<int32_t> defaultMaterialKey) {
+                                                                                          ::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes,
+                                                                                          ::ByRef<int32_t> defaultMaterialKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), "GenerateGeoGroupUsingGeoCachePoints", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -1521,8 +1513,8 @@ inline bool HoudiniEngineUnity::HEU_GenerateGeoCache::GenerateGeoGroupUsingGeoCa
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, session, geoCache, bGenerateUVs, bGenerateTangents, bGenerateNormals, bUseLODGroups, bPartInstanced,
                                                           LODGroupMeshes, defaultMaterialKey);
 }
@@ -1534,13 +1526,13 @@ inline ::UnityEngine::MeshTopology HoudiniEngineUnity::HEU_GenerateGeoCache::Cal
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::MeshTopology, false>(nullptr, ___internal_method, groupFaces, allFaceCounts);
 }
-inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* HoudiniEngineUnity::HEU_GenerateGeoCache::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_GenerateGeoCache*>());
-}
 inline void HoudiniEngineUnity::HEU_GenerateGeoCache::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GenerateGeoCache*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* HoudiniEngineUnity::HEU_GenerateGeoCache::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_GenerateGeoCache*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_GenerateGeoCache() {}

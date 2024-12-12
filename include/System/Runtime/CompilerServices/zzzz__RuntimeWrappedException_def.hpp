@@ -20,11 +20,10 @@ class RuntimeWrappedException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeWrappedException);
-// Type: System.Runtime.CompilerServices::RuntimeWrappedException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::RuntimeWrappedException*
+// CS Name: System.Runtime.CompilerServices.RuntimeWrappedException
 class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
   /// @brief Field _wrappedException, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException)) ::System::Object* _wrappedException;
 
-  /// @brief Method GetObjectData, addr 0x3cb757c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d176f0, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
@@ -43,22 +42,22 @@ public:
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Object* thrownObject);
 
-  constexpr ::System::Object*& __cordl_internal_get__wrappedException();
+  constexpr ::System::Object* const& __cordl_internal_get__wrappedException() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__wrappedException() const;
+  constexpr ::System::Object*& __cordl_internal_get__wrappedException();
 
   constexpr void __cordl_internal_set__wrappedException(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3cb7660, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d177d4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cb747c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d175f0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cb73ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d17560, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* thrownObject);
 
-  /// @brief Method get_WrappedException, addr 0x3cb7658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WrappedException, addr 0x3d177cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_WrappedException();
 
 protected:
@@ -75,18 +74,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeWrappedException(RuntimeWrappedException const&) = delete;
 
-  /// @brief Field _wrappedException, offset: 0x90, size: 0x8, def value: None
-  ::System::Object* ____wrappedException;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3383 };
+
+  /// @brief Field _wrappedException, offset: 0x90, size: 0x8, def value: None
+  ::System::Object* ____wrappedException;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::RuntimeWrappedException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::RuntimeWrappedException, ____wrappedException) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::RuntimeWrappedException, 0x98>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeWrappedException);

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(OnRemoveWriter)
 namespace System::Xml {
 class XmlRawWriter;
@@ -21,20 +20,19 @@ class OnRemoveWriter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::OnRemoveWriter);
-// Type: System.Xml::OnRemoveWriter
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::OnRemoveWriter*
+// CS Name: System.Xml.OnRemoveWriter
 class CORDL_TYPE OnRemoveWriter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x42a8dec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x430a100, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XmlRawWriter* writer);
 
   static inline ::System::Xml::OnRemoveWriter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x42a8cec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430a000, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -52,7 +50,7 @@ public:
   OnRemoveWriter(OnRemoveWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

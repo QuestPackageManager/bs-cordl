@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -17,9 +18,6 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -28,11 +26,10 @@ class DnsEndPoint;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DnsEndPoint);
-// Type: ::DnsEndPoint
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DnsEndPoint*
+// CS Name: DnsEndPoint
 class CORDL_TYPE DnsEndPoint : public ::System::Object {
 public:
   // Declarations
@@ -50,34 +47,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x228eb48, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x22c1e34, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x228ebe8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x22c1ed4, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::DnsEndPoint* other);
 
-  /// @brief Method GetEndPoint, addr 0x228e978, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEndPoint, addr 0x22c1c64, size 0x94, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPoint();
 
-  /// @brief Method GetEndPointAsync, addr 0x228e864, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetEndPointAsync, addr 0x22c1b50, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync(::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method GetEndPointInternal, addr 0x228ea0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetEndPointInternal, addr 0x22c1cf8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPointInternal();
 
-  /// @brief Method GetHashCode, addr 0x228ec34, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x22c1f20, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint);
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::StringW hostName, int32_t port);
 
-  /// @brief Method ToString, addr 0x228eabc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22c1da8, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& __cordl_internal_get__getEndPointTask();
+  constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* const& __cordl_internal_get__getEndPointTask() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*> const& __cordl_internal_get__getEndPointTask() const;
+  constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& __cordl_internal_get__getEndPointTask();
 
   constexpr ::StringW const& __cordl_internal_get_hostName() const;
 
@@ -93,13 +90,13 @@ public:
 
   constexpr void __cordl_internal_set_port(int32_t value);
 
-  /// @brief Method .ctor, addr 0x228e7b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c1a9c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method .ctor, addr 0x228d650, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c093c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW hostName, int32_t port);
 
-  /// @brief Method get_endPoint, addr 0x228e73c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0x22c1a28, size 0x74, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_endPoint();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
@@ -119,6 +116,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DnsEndPoint(DnsEndPoint const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14725 };
+
   /// @brief Field hostName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___hostName;
 
@@ -128,19 +128,16 @@ public:
   /// @brief Field _getEndPointTask, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* ____getEndPointTask;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DnsEndPoint, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::DnsEndPoint, ___hostName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DnsEndPoint, ___port) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DnsEndPoint, ____getEndPointTask) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DnsEndPoint, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DnsEndPoint);

@@ -11,20 +11,19 @@ class EventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::EventArgs);
-// Type: System::EventArgs
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::EventArgs*
+// CS Name: System.EventArgs
 class CORDL_TYPE EventArgs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::EventArgs* Empty;
+  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::EventArgs* Empty;
 
   static inline ::System::EventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d73578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd36ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::EventArgs* getStaticF_Empty();

@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeLoadException)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -22,11 +20,10 @@ class TypeLoadException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::TypeLoadException);
-// Type: System::TypeLoadException
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Serialization.ISerializable, System.SystemException
 namespace System {
 // Is value type: false
-// CS Name: ::System::TypeLoadException*
+// CS Name: System.TypeLoadException
 class CORDL_TYPE TypeLoadException : public ::System::SystemException {
 public:
   // Declarations
@@ -47,7 +44,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3dcd380, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3e2d42c, size 0x1d0, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::TypeLoadException* New_ctor();
@@ -60,7 +57,7 @@ public:
 
   static inline ::System::TypeLoadException* New_ctor(::StringW message);
 
-  /// @brief Method SetMessageField, addr 0x3dcd0d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x3e2d180, size 0xfc, virtual false, abstract: false, final false
   inline void SetMessageField();
 
   constexpr ::StringW const& __cordl_internal_get_AssemblyName() const;
@@ -87,22 +84,22 @@ public:
 
   constexpr void __cordl_internal_set_ResourceId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3dcd034, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2d0e0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dcd1d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2d27c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x3dcd1dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2d288, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId);
 
-  /// @brief Method .ctor, addr 0x3dcd23c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2d2e8, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dcd094, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2d140, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x3dcd0bc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3e2d168, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -122,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeLoadException(TypeLoadException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2574 };
+
   /// @brief Field ClassName, offset: 0x90, size: 0x8, def value: None
   ::StringW ___ClassName;
 
@@ -134,14 +134,9 @@ public:
   /// @brief Field ResourceId, offset: 0xa8, size: 0x4, def value: None
   int32_t ___ResourceId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2574 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::TypeLoadException, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::System::TypeLoadException, ___ClassName) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::System::TypeLoadException, ___AssemblyName) == 0x98, "Offset mismatch!");
@@ -149,6 +144,8 @@ static_assert(offsetof(::System::TypeLoadException, ___AssemblyName) == 0x98, "O
 static_assert(offsetof(::System::TypeLoadException, ___MessageArg) == 0xa0, "Offset mismatch!");
 
 static_assert(offsetof(::System::TypeLoadException, ___ResourceId) == 0xa8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::TypeLoadException, 0xb0>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::TypeLoadException);

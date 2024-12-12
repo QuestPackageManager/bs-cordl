@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKCS7)
@@ -15,16 +14,16 @@ namespace Mono::Security {
 class ASN1;
 }
 namespace Mono::Security {
-class __PKCS7__ContentInfo;
+class PKCS7_ContentInfo;
 }
 namespace Mono::Security {
-class __PKCS7__EncryptedData;
+class PKCS7_EncryptedData;
 }
 namespace Mono::Security {
-class __PKCS7__SignedData;
+class PKCS7_SignedData;
 }
 namespace Mono::Security {
-class __PKCS7__SignerInfo;
+class PKCS7_SignerInfo;
 }
 namespace System::Collections {
 class ArrayList;
@@ -34,29 +33,28 @@ namespace Mono::Security {
 class PKCS7;
 }
 namespace Mono::Security {
-class __PKCS7__ContentInfo;
+class PKCS7_ContentInfo;
 }
 namespace Mono::Security {
-class __PKCS7__EncryptedData;
+class PKCS7_EncryptedData;
 }
 namespace Mono::Security {
-class __PKCS7__SignedData;
+class PKCS7_SignedData;
 }
 namespace Mono::Security {
-class __PKCS7__SignerInfo;
+class PKCS7_SignerInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::PKCS7);
-MARK_REF_PTR_T(::Mono::Security::__PKCS7__ContentInfo);
-MARK_REF_PTR_T(::Mono::Security::__PKCS7__EncryptedData);
-MARK_REF_PTR_T(::Mono::Security::__PKCS7__SignedData);
-MARK_REF_PTR_T(::Mono::Security::__PKCS7__SignerInfo);
-// Type: ::ContentInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Mono::Security::PKCS7_ContentInfo);
+MARK_REF_PTR_T(::Mono::Security::PKCS7_EncryptedData);
+MARK_REF_PTR_T(::Mono::Security::PKCS7_SignedData);
+MARK_REF_PTR_T(::Mono::Security::PKCS7_SignerInfo);
+// Dependencies System.Object
 namespace Mono::Security {
 // Is value type: false
-// CS Name: ::PKCS7::ContentInfo*
-class CORDL_TYPE __PKCS7__ContentInfo : public ::System::Object {
+// CS Name: Mono.Security.PKCS7/ContentInfo
+class CORDL_TYPE PKCS7_ContentInfo : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_ASN1)) ::Mono::Security::ASN1* ASN1;
@@ -71,20 +69,20 @@ public:
   /// @brief Field contentType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::StringW contentType;
 
-  /// @brief Method GetASN1, addr 0x3bd1280, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetASN1, addr 0x3c31394, size 0xac, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* GetASN1();
 
-  static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor();
+  static inline ::Mono::Security::PKCS7_ContentInfo* New_ctor();
 
-  static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor(::Mono::Security::ASN1* asn1);
+  static inline ::Mono::Security::PKCS7_ContentInfo* New_ctor(::Mono::Security::ASN1* asn1);
 
-  static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+  static inline ::Mono::Security::PKCS7_ContentInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor(::StringW oid);
+  static inline ::Mono::Security::PKCS7_ContentInfo* New_ctor(::StringW oid);
+
+  constexpr ::Mono::Security::ASN1* const& __cordl_internal_get_content() const;
 
   constexpr ::Mono::Security::ASN1*& __cordl_internal_get_content();
-
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __cordl_internal_get_content() const;
 
   constexpr ::StringW const& __cordl_internal_get_contentType() const;
 
@@ -94,46 +92,49 @@ public:
 
   constexpr void __cordl_internal_set_contentType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3bd1004, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c31118, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3bd1100, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c31214, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x3bd1098, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c311ac, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x3bd1074, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c31188, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_ASN1, addr 0x3bd127c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x3c31390, size 0x4, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_Content, addr 0x3bd132c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x3c31440, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_Content();
 
-  /// @brief Method get_ContentType, addr 0x3bd133c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x3c31450, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContentType();
 
-  /// @brief Method set_Content, addr 0x3bd1334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x3c31448, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::Mono::Security::ASN1* value);
 
-  /// @brief Method set_ContentType, addr 0x3bd1344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x3c31458, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentType(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PKCS7__ContentInfo();
+  constexpr PKCS7_ContentInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__ContentInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_ContentInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PKCS7__ContentInfo(__PKCS7__ContentInfo&&) = delete;
+  PKCS7_ContentInfo(PKCS7_ContentInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__ContentInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_ContentInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PKCS7__ContentInfo(__PKCS7__ContentInfo const&) = delete;
+  PKCS7_ContentInfo(PKCS7_ContentInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15911 };
 
   /// @brief Field contentType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___contentType;
@@ -141,147 +142,142 @@ public:
   /// @brief Field content, offset: 0x18, size: 0x8, def value: None
   ::Mono::Security::ASN1* ___content;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15876 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::__PKCS7__ContentInfo, 0x20>, "Size mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_ContentInfo, ___contentType) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__ContentInfo, ___contentType) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_ContentInfo, ___content) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__ContentInfo, ___content) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::Security::PKCS7_ContentInfo, 0x20>, "Size mismatch!");
 
 } // namespace Mono::Security
-// Type: ::EncryptedData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security {
 // Is value type: false
-// CS Name: ::PKCS7::EncryptedData*
-class CORDL_TYPE __PKCS7__EncryptedData : public ::System::Object {
+// CS Name: Mono.Security.PKCS7/EncryptedData
+class CORDL_TYPE PKCS7_EncryptedData : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_EncryptedContent)) ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptedContent;
 
-  __declspec(property(get = get_EncryptionAlgorithm)) ::Mono::Security::__PKCS7__ContentInfo* EncryptionAlgorithm;
+  __declspec(property(get = get_EncryptionAlgorithm)) ::Mono::Security::PKCS7_ContentInfo* EncryptionAlgorithm;
 
   /// @brief Field _content, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__content, put = __cordl_internal_set__content)) ::Mono::Security::__PKCS7__ContentInfo* _content;
+  __declspec(property(get = __cordl_internal_get__content, put = __cordl_internal_set__content)) ::Mono::Security::PKCS7_ContentInfo* _content;
 
   /// @brief Field _encrypted, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__encrypted, put = __cordl_internal_set__encrypted)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _encrypted;
 
   /// @brief Field _encryptionAlgorithm, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__encryptionAlgorithm, put = __cordl_internal_set__encryptionAlgorithm)) ::Mono::Security::__PKCS7__ContentInfo* _encryptionAlgorithm;
+  __declspec(property(get = __cordl_internal_get__encryptionAlgorithm, put = __cordl_internal_set__encryptionAlgorithm)) ::Mono::Security::PKCS7_ContentInfo* _encryptionAlgorithm;
 
   /// @brief Field _version, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) uint8_t _version;
 
-  static inline ::Mono::Security::__PKCS7__EncryptedData* New_ctor();
+  static inline ::Mono::Security::PKCS7_EncryptedData* New_ctor();
 
-  static inline ::Mono::Security::__PKCS7__EncryptedData* New_ctor(::Mono::Security::ASN1* asn1);
+  static inline ::Mono::Security::PKCS7_EncryptedData* New_ctor(::Mono::Security::ASN1* asn1);
 
-  constexpr ::Mono::Security::__PKCS7__ContentInfo*& __cordl_internal_get__content();
+  constexpr ::Mono::Security::PKCS7_ContentInfo* const& __cordl_internal_get__content() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::__PKCS7__ContentInfo*> const& __cordl_internal_get__content() const;
+  constexpr ::Mono::Security::PKCS7_ContentInfo*& __cordl_internal_get__content();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__encrypted() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__encrypted();
 
-  constexpr ::Mono::Security::__PKCS7__ContentInfo*& __cordl_internal_get__encryptionAlgorithm();
+  constexpr ::Mono::Security::PKCS7_ContentInfo* const& __cordl_internal_get__encryptionAlgorithm() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::__PKCS7__ContentInfo*> const& __cordl_internal_get__encryptionAlgorithm() const;
+  constexpr ::Mono::Security::PKCS7_ContentInfo*& __cordl_internal_get__encryptionAlgorithm();
 
   constexpr uint8_t const& __cordl_internal_get__version() const;
 
   constexpr uint8_t& __cordl_internal_get__version();
 
-  constexpr void __cordl_internal_set__content(::Mono::Security::__PKCS7__ContentInfo* value);
+  constexpr void __cordl_internal_set__content(::Mono::Security::PKCS7_ContentInfo* value);
 
   constexpr void __cordl_internal_set__encrypted(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr void __cordl_internal_set__encryptionAlgorithm(::Mono::Security::__PKCS7__ContentInfo* value);
+  constexpr void __cordl_internal_set__encryptionAlgorithm(::Mono::Security::PKCS7_ContentInfo* value);
 
   constexpr void __cordl_internal_set__version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3bd134c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c31460, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3bd1368, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3147c, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_EncryptedContent, addr 0x3bd1628, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedContent, addr 0x3c3173c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_EncryptedContent();
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0x3bd1620, size 0x8, virtual false, abstract: false, final false
-  inline ::Mono::Security::__PKCS7__ContentInfo* get_EncryptionAlgorithm();
+  /// @brief Method get_EncryptionAlgorithm, addr 0x3c31734, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Security::PKCS7_ContentInfo* get_EncryptionAlgorithm();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PKCS7__EncryptedData();
+  constexpr PKCS7_EncryptedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__EncryptedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_EncryptedData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PKCS7__EncryptedData(__PKCS7__EncryptedData&&) = delete;
+  PKCS7_EncryptedData(PKCS7_EncryptedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__EncryptedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_EncryptedData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PKCS7__EncryptedData(__PKCS7__EncryptedData const&) = delete;
+  PKCS7_EncryptedData(PKCS7_EncryptedData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15912 };
 
   /// @brief Field _version, offset: 0x10, size: 0x1, def value: None
   uint8_t ____version;
 
   /// @brief Field _content, offset: 0x18, size: 0x8, def value: None
-  ::Mono::Security::__PKCS7__ContentInfo* ____content;
+  ::Mono::Security::PKCS7_ContentInfo* ____content;
 
   /// @brief Field _encryptionAlgorithm, offset: 0x20, size: 0x8, def value: None
-  ::Mono::Security::__PKCS7__ContentInfo* ____encryptionAlgorithm;
+  ::Mono::Security::PKCS7_ContentInfo* ____encryptionAlgorithm;
 
   /// @brief Field _encrypted, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____encrypted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15877 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::__PKCS7__EncryptedData, 0x30>, "Size mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_EncryptedData, ____version) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__EncryptedData, ____version) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_EncryptedData, ____content) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__EncryptedData, ____content) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_EncryptedData, ____encryptionAlgorithm) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__EncryptedData, ____encryptionAlgorithm) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_EncryptedData, ____encrypted) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__EncryptedData, ____encrypted) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::Security::PKCS7_EncryptedData, 0x30>, "Size mismatch!");
 
 } // namespace Mono::Security
-// Type: ::SignedData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security {
 // Is value type: false
-// CS Name: ::PKCS7::SignedData*
-class CORDL_TYPE __PKCS7__SignedData : public ::System::Object {
+// CS Name: Mono.Security.PKCS7/SignedData
+class CORDL_TYPE PKCS7_SignedData : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Certificates)) ::Mono::Security::X509::X509CertificateCollection* Certificates;
 
-  __declspec(property(get = get_ContentInfo)) ::Mono::Security::__PKCS7__ContentInfo* ContentInfo;
+  __declspec(property(get = get_ContentInfo)) ::Mono::Security::PKCS7_ContentInfo* ContentInfo;
 
   __declspec(property(put = set_HashName)) ::StringW HashName;
 
-  __declspec(property(get = get_SignerInfo)) ::Mono::Security::__PKCS7__SignerInfo* SignerInfo;
+  __declspec(property(get = get_SignerInfo)) ::Mono::Security::PKCS7_SignerInfo* SignerInfo;
 
   /// @brief Field certs, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_certs, put = __cordl_internal_set_certs)) ::Mono::Security::X509::X509CertificateCollection* certs;
 
   /// @brief Field contentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo)) ::Mono::Security::__PKCS7__ContentInfo* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo)) ::Mono::Security::PKCS7_ContentInfo* contentInfo;
 
   /// @brief Field crls, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls)) ::System::Collections::ArrayList* crls;
@@ -293,27 +289,27 @@ public:
   __declspec(property(get = __cordl_internal_get_mda, put = __cordl_internal_set_mda)) bool mda;
 
   /// @brief Field signerInfo, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_signerInfo, put = __cordl_internal_set_signerInfo)) ::Mono::Security::__PKCS7__SignerInfo* signerInfo;
+  __declspec(property(get = __cordl_internal_get_signerInfo, put = __cordl_internal_set_signerInfo)) ::Mono::Security::PKCS7_SignerInfo* signerInfo;
 
   /// @brief Field version, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
-  static inline ::Mono::Security::__PKCS7__SignedData* New_ctor(::Mono::Security::ASN1* asn1);
+  static inline ::Mono::Security::PKCS7_SignedData* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method OidToName, addr 0x3bd2158, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OidToName, addr 0x3c3226c, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW OidToName(::StringW oid);
+
+  constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get_certs() const;
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get_certs() const;
+  constexpr ::Mono::Security::PKCS7_ContentInfo* const& __cordl_internal_get_contentInfo() const;
 
-  constexpr ::Mono::Security::__PKCS7__ContentInfo*& __cordl_internal_get_contentInfo();
+  constexpr ::Mono::Security::PKCS7_ContentInfo*& __cordl_internal_get_contentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::__PKCS7__ContentInfo*> const& __cordl_internal_get_contentInfo() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_crls() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_crls();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_crls() const;
 
   constexpr ::StringW const& __cordl_internal_get_hashAlgorithm() const;
 
@@ -323,9 +319,9 @@ public:
 
   constexpr bool& __cordl_internal_get_mda();
 
-  constexpr ::Mono::Security::__PKCS7__SignerInfo*& __cordl_internal_get_signerInfo();
+  constexpr ::Mono::Security::PKCS7_SignerInfo* const& __cordl_internal_get_signerInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::__PKCS7__SignerInfo*> const& __cordl_internal_get_signerInfo() const;
+  constexpr ::Mono::Security::PKCS7_SignerInfo*& __cordl_internal_get_signerInfo();
 
   constexpr uint8_t const& __cordl_internal_get_version() const;
 
@@ -333,7 +329,7 @@ public:
 
   constexpr void __cordl_internal_set_certs(::Mono::Security::X509::X509CertificateCollection* value);
 
-  constexpr void __cordl_internal_set_contentInfo(::Mono::Security::__PKCS7__ContentInfo* value);
+  constexpr void __cordl_internal_set_contentInfo(::Mono::Security::PKCS7_ContentInfo* value);
 
   constexpr void __cordl_internal_set_crls(::System::Collections::ArrayList* value);
 
@@ -341,38 +337,41 @@ public:
 
   constexpr void __cordl_internal_set_mda(bool value);
 
-  constexpr void __cordl_internal_set_signerInfo(::Mono::Security::__PKCS7__SignerInfo* value);
+  constexpr void __cordl_internal_set_signerInfo(::Mono::Security::PKCS7_SignerInfo* value);
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3bd169c, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c317b0, size 0x4c4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_Certificates, addr 0x3bd232c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x3c32440, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_ContentInfo, addr 0x3bd2334, size 0x8, virtual false, abstract: false, final false
-  inline ::Mono::Security::__PKCS7__ContentInfo* get_ContentInfo();
+  /// @brief Method get_ContentInfo, addr 0x3c32448, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Security::PKCS7_ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_SignerInfo, addr 0x3bd233c, size 0x8, virtual false, abstract: false, final false
-  inline ::Mono::Security::__PKCS7__SignerInfo* get_SignerInfo();
+  /// @brief Method get_SignerInfo, addr 0x3c32450, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Security::PKCS7_SignerInfo* get_SignerInfo();
 
-  /// @brief Method set_HashName, addr 0x3bd230c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x3c32420, size 0x20, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PKCS7__SignedData();
+  constexpr PKCS7_SignedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__SignedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignedData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PKCS7__SignedData(__PKCS7__SignedData&&) = delete;
+  PKCS7_SignedData(PKCS7_SignedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__SignedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignedData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PKCS7__SignedData(__PKCS7__SignedData const&) = delete;
+  PKCS7_SignedData(PKCS7_SignedData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15913 };
 
   /// @brief Field version, offset: 0x10, size: 0x1, def value: None
   uint8_t ___version;
@@ -381,7 +380,7 @@ public:
   ::StringW ___hashAlgorithm;
 
   /// @brief Field contentInfo, offset: 0x20, size: 0x8, def value: None
-  ::Mono::Security::__PKCS7__ContentInfo* ___contentInfo;
+  ::Mono::Security::PKCS7_ContentInfo* ___contentInfo;
 
   /// @brief Field certs, offset: 0x28, size: 0x8, def value: None
   ::Mono::Security::X509::X509CertificateCollection* ___certs;
@@ -390,40 +389,36 @@ public:
   ::System::Collections::ArrayList* ___crls;
 
   /// @brief Field signerInfo, offset: 0x38, size: 0x8, def value: None
-  ::Mono::Security::__PKCS7__SignerInfo* ___signerInfo;
+  ::Mono::Security::PKCS7_SignerInfo* ___signerInfo;
 
   /// @brief Field mda, offset: 0x40, size: 0x1, def value: None
   bool ___mda;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15878 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::__PKCS7__SignedData, 0x48>, "Size mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignedData, ___version) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___version) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignedData, ___hashAlgorithm) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___hashAlgorithm) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignedData, ___contentInfo) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___contentInfo) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignedData, ___certs) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___certs) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignedData, ___crls) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___crls) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignedData, ___signerInfo) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___signerInfo) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignedData, ___mda) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___mda) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::Security::PKCS7_SignedData, 0x48>, "Size mismatch!");
 
 } // namespace Mono::Security
-// Type: ::SignerInfo
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security {
 // Is value type: false
-// CS Name: ::PKCS7::SignerInfo*
-class CORDL_TYPE __PKCS7__SignerInfo : public ::System::Object {
+// CS Name: Mono.Security.PKCS7/SignerInfo
+class CORDL_TYPE PKCS7_SignerInfo : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_AuthenticatedAttributes)) ::System::Collections::ArrayList* AuthenticatedAttributes;
@@ -464,13 +459,13 @@ public:
   /// @brief Field version, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
-  static inline ::Mono::Security::__PKCS7__SignerInfo* New_ctor();
+  static inline ::Mono::Security::PKCS7_SignerInfo* New_ctor();
 
-  static inline ::Mono::Security::__PKCS7__SignerInfo* New_ctor(::Mono::Security::ASN1* asn1);
+  static inline ::Mono::Security::PKCS7_SignerInfo* New_ctor(::Mono::Security::ASN1* asn1);
+
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_authenticatedAttributes() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_authenticatedAttributes();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_authenticatedAttributes() const;
 
   constexpr ::StringW const& __cordl_internal_get_hashAlgorithm() const;
 
@@ -492,9 +487,9 @@ public:
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ski();
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_unauthenticatedAttributes();
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_unauthenticatedAttributes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_unauthenticatedAttributes() const;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_unauthenticatedAttributes();
 
   constexpr uint8_t const& __cordl_internal_get_version() const;
 
@@ -516,49 +511,52 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3bd20d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c321e8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3bd1d64, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c31e78, size 0x370, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_AuthenticatedAttributes, addr 0x3bd24fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticatedAttributes, addr 0x3c32610, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_AuthenticatedAttributes();
 
-  /// @brief Method get_HashName, addr 0x3bd2504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashName, addr 0x3c32618, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HashName();
 
-  /// @brief Method get_IssuerName, addr 0x3bd2480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x3c32594, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_SerialNumber, addr 0x3bd2488, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3c3259c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_Signature, addr 0x3bd2514, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x3c32628, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
 
-  /// @brief Method get_UnauthenticatedAttributes, addr 0x3bd2588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthenticatedAttributes, addr 0x3c3269c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_UnauthenticatedAttributes();
 
-  /// @brief Method get_Version, addr 0x3bd2590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3c326a4, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Version();
 
-  /// @brief Method set_HashName, addr 0x3bd250c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x3c32620, size 0x8, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PKCS7__SignerInfo();
+  constexpr PKCS7_SignerInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__SignerInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignerInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PKCS7__SignerInfo(__PKCS7__SignerInfo&&) = delete;
+  PKCS7_SignerInfo(PKCS7_SignerInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__SignerInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignerInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PKCS7__SignerInfo(__PKCS7__SignerInfo const&) = delete;
+  PKCS7_SignerInfo(PKCS7_SignerInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
 
   /// @brief Field version, offset: 0x10, size: 0x1, def value: None
   uint8_t ___version;
@@ -584,46 +582,42 @@ public:
   /// @brief Field ski, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___ski;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15879 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::__PKCS7__SignerInfo, 0x50>, "Size mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___version) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___version) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___hashAlgorithm) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___hashAlgorithm) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___authenticatedAttributes) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___authenticatedAttributes) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___unauthenticatedAttributes) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___unauthenticatedAttributes) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___signature) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___signature) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___issuer) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___issuer) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___serial) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___serial) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::PKCS7_SignerInfo, ___ski) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___ski) == 0x48, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::Security::PKCS7_SignerInfo, 0x50>, "Size mismatch!");
 
 } // namespace Mono::Security
-// Type: Mono.Security::PKCS7
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security {
 // Is value type: false
-// CS Name: ::Mono.Security::PKCS7*
+// CS Name: Mono.Security.PKCS7
 class CORDL_TYPE PKCS7 : public ::System::Object {
 public:
   // Declarations
-  using ContentInfo = ::Mono::Security::__PKCS7__ContentInfo;
+  using ContentInfo = ::Mono::Security::PKCS7_ContentInfo;
 
-  using EncryptedData = ::Mono::Security::__PKCS7__EncryptedData;
+  using EncryptedData = ::Mono::Security::PKCS7_EncryptedData;
 
-  using SignedData = ::Mono::Security::__PKCS7__SignedData;
+  using SignedData = ::Mono::Security::PKCS7_SignedData;
 
-  using SignerInfo = ::Mono::Security::__PKCS7__SignerInfo;
+  using SignerInfo = ::Mono::Security::PKCS7_SignerInfo;
 
 protected:
   // Ctor Parameters []
@@ -640,7 +634,7 @@ public:
   PKCS7(PKCS7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -650,11 +644,11 @@ static_assert(::cordl_internals::size_check_v<::Mono::Security::PKCS7, 0x10>, "S
 } // namespace Mono::Security
 NEED_NO_BOX(::Mono::Security::PKCS7);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::PKCS7*, "Mono.Security", "PKCS7");
-NEED_NO_BOX(::Mono::Security::__PKCS7__ContentInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::__PKCS7__ContentInfo*, "Mono.Security", "PKCS7/ContentInfo");
-NEED_NO_BOX(::Mono::Security::__PKCS7__EncryptedData);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::__PKCS7__EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
-NEED_NO_BOX(::Mono::Security::__PKCS7__SignedData);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::__PKCS7__SignedData*, "Mono.Security", "PKCS7/SignedData");
-NEED_NO_BOX(::Mono::Security::__PKCS7__SignerInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::__PKCS7__SignerInfo*, "Mono.Security", "PKCS7/SignerInfo");
+NEED_NO_BOX(::Mono::Security::PKCS7_ContentInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::PKCS7_ContentInfo*, "Mono.Security", "PKCS7/ContentInfo");
+NEED_NO_BOX(::Mono::Security::PKCS7_EncryptedData);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::PKCS7_EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
+NEED_NO_BOX(::Mono::Security::PKCS7_SignedData);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::PKCS7_SignedData*, "Mono.Security", "PKCS7/SignedData");
+NEED_NO_BOX(::Mono::Security::PKCS7_SignerInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::PKCS7_SignerInfo*, "Mono.Security", "PKCS7/SignerInfo");

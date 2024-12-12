@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/IO/MonoIOStat.hpp"
 #include "System/IO/zzzz__FileAttributes_impl.hpp"
 #include "System/IO/zzzz__MonoIOStat_def.hpp"
-#include "System/IO/zzzz__FileAttributes_def.hpp"
 // Ctor Parameters [CppParam { name: "fileAttributes", ty: "::System::IO::FileAttributes", modifiers: "", def_value: Some("{}") }, CppParam { name: "Length", ty: "int64_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "CreationTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LastAccessTime", ty: "int64_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "LastWriteTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }]

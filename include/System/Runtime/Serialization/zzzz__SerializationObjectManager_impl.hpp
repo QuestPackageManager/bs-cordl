@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)(
     ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::SerializationObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c9333c;
+  constexpr static std::size_t addrs = 0x3cf34b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)(::System::Object*)>(
     &::System::Runtime::Serialization::SerializationObjectManager::RegisterObject)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3c933d0;
+  constexpr static std::size_t addrs = 0x3cf3544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)()>(
     &::System::Runtime::Serialization::SerializationObjectManager::RaiseOnSerializedEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c93570;
+  constexpr static std::size_t addrs = 0x3cf36e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)(::System::Object*)>(
     &::System::Runtime::Serialization::SerializationObjectManager::AddOnSerialized)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c934e0;
+  constexpr static std::size_t addrs = 0x3cf3654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::Syst
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectSeenTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* const&
 System::Runtime::Serialization::SerializationObjectManager::__cordl_internal_get__objectSeenTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectSeenTable;
@@ -97,17 +97,13 @@ constexpr ::System::Runtime::Serialization::SerializationEventHandler*& System::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onSerializedHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationEventHandler*> const&
-System::Runtime::Serialization::SerializationObjectManager::__cordl_internal_get__onSerializedHandler() const {
+constexpr ::System::Runtime::Serialization::SerializationEventHandler* const& System::Runtime::Serialization::SerializationObjectManager::__cordl_internal_get__onSerializedHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onSerializedHandler;
 }
 constexpr void System::Runtime::Serialization::SerializationObjectManager::__cordl_internal_set__onSerializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onSerializedHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Runtime::Serialization::SerializationObjectManager* System::Runtime::Serialization::SerializationObjectManager::New_ctor(::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SerializationObjectManager*>(context));
 }
 inline void System::Runtime::Serialization::SerializationObjectManager::_ctor(::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,6 +128,9 @@ inline void System::Runtime::Serialization::SerializationObjectManager::AddOnSer
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationObjectManager*>::get(), "AddOnSerialized",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj);
+}
+inline ::System::Runtime::Serialization::SerializationObjectManager* System::Runtime::Serialization::SerializationObjectManager::New_ctor(::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SerializationObjectManager*>(context));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationObjectManager::SerializationObjectManager() {}

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(TupleExtensions)
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
@@ -15,16 +14,15 @@ class TupleExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::TupleExtensions);
-// Type: System::TupleExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::TupleExtensions*
+// CS Name: System.TupleExtensions
 class CORDL_TYPE TupleExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Deconstruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T1, typename T2> static inline void Deconstruct(::System::Tuple_2<T1, T2>* value, ByRef<T1> item1, ByRef<T2> item2);
+  template <typename T1, typename T2> static inline void Deconstruct(::System::Tuple_2<T1, T2>* value, ::ByRef<T1> item1, ::ByRef<T2> item2);
 
 protected:
   // Ctor Parameters []

@@ -4,8 +4,8 @@
 #include "Meta/XR/Samples/Telemetry/zzzz__SampleTelemetryEvents_def.hpp"
 #include "Meta/XR/Samples/Telemetry/zzzz__SampleTelemetryEvents_def.hpp"
 // Ctor Parameters []
-constexpr ::Meta::XR::Samples::Telemetry::__SampleTelemetryEvents__EventTypes::__SampleTelemetryEvents__EventTypes() {}
+constexpr ::Meta::XR::Samples::Telemetry::SampleTelemetryEvents_EventTypes::SampleTelemetryEvents_EventTypes() {}
 // Ctor Parameters []
-constexpr ::Meta::XR::Samples::Telemetry::__SampleTelemetryEvents__AnnotationTypes::__SampleTelemetryEvents__AnnotationTypes() {}
+constexpr ::Meta::XR::Samples::Telemetry::SampleTelemetryEvents_AnnotationTypes::SampleTelemetryEvents_AnnotationTypes() {}
 // Ctor Parameters []
 constexpr ::Meta::XR::Samples::Telemetry::SampleTelemetryEvents::SampleTelemetryEvents() {}

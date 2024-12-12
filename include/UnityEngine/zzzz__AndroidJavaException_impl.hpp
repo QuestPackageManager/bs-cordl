@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaException::*)(::StringW, ::StringW)>(&::UnityEngine::AndroidJavaException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47df5a0;
+  constexpr static std::size_t addrs = 0x48408b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AndroidJavaException::*)()>(&::UnityEngine::AndroidJavaException::get_StackTrace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e2b38;
+  constexpr static std::size_t addrs = 0x4843e4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,9 +42,6 @@ constexpr void UnityEngine::AndroidJavaException::__cordl_internal_set_mJavaStac
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mJavaStackTrace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::AndroidJavaException* UnityEngine::AndroidJavaException::New_ctor(::StringW message, ::StringW javaStackTrace) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AndroidJavaException*>(message, javaStackTrace));
-}
 inline void UnityEngine::AndroidJavaException::_ctor(::StringW message, ::StringW javaStackTrace) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -55,6 +52,9 @@ inline ::StringW UnityEngine::AndroidJavaException::get_StackTrace() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJavaException*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::UnityEngine::AndroidJavaException* UnityEngine::AndroidJavaException::New_ctor(::StringW message, ::StringW javaStackTrace) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AndroidJavaException*>(message, javaStackTrace));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaException::AndroidJavaException() {}

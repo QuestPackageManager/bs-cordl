@@ -26,13 +26,12 @@ template <typename TResult> class TaskCompletionSource_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::TaskCompletionSource_1);
-// Type: System.Threading.Tasks::TaskCompletionSource`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::TaskCompletionSource`1<TResult>*
+// CS Name: System.Threading.Tasks.TaskCompletionSource`1<TResult>
 class CORDL_TYPE TaskCompletionSource_1 : public ::System::Object {
 public:
   // Declarations
@@ -73,9 +72,9 @@ public:
   /// @brief Method TrySetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetResult(TResult result);
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get__task();
+  constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get__task() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TResult>*> const& __cordl_internal_get__task() const;
+  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get__task();
 
   constexpr void __cordl_internal_set__task(::System::Threading::Tasks::Task_1<TResult>* value);
 
@@ -108,11 +107,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TaskCompletionSource_1(TaskCompletionSource_1 const&) = delete;
 
-  /// @brief Field _task, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TResult>* ____task;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2760 };
+
+  /// @brief Field _task, offset: 0x10, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task_1<TResult>* ____task;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

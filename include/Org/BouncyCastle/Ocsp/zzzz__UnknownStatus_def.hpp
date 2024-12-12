@@ -11,17 +11,16 @@ class UnknownStatus;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::UnknownStatus);
-// Type: Org.BouncyCastle.Ocsp::UnknownStatus
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Ocsp.CertificateStatus
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Ocsp::UnknownStatus*
+// CS Name: Org.BouncyCastle.Ocsp.UnknownStatus
 class CORDL_TYPE UnknownStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Ocsp::UnknownStatus* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24ef8cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2522bb8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

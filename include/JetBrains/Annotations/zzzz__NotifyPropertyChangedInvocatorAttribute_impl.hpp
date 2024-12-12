@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8bf6c;
+  constexpr static std::size_t addrs = 0x4af087c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a8bf74;
+  constexpr static std::size_t addrs = 0x4af0884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::get_ParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8bf9c;
+  constexpr static std::size_t addrs = 0x4af08ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set_ParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8bfa4;
+  constexpr static std::size_t addrs = 0x4af08b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,17 +74,11 @@ constexpr void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ParameterName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*>());
-}
 inline void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor(::StringW parameterName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*>(parameterName));
 }
 inline void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor(::StringW parameterName) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -103,6 +97,12 @@ inline void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*>::get(), "set_ParameterName",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*>());
+}
+inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor(::StringW parameterName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*>(parameterName));
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::NotifyPropertyChangedInvocatorAttribute() {}

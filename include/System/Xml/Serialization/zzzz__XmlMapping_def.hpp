@@ -25,11 +25,10 @@ class XmlMapping;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlMapping);
-// Type: System.Xml.Serialization::XmlMapping
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.Serialization.SerializationFormat
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlMapping*
+// CS Name: System.Xml.Serialization.XmlMapping
 class CORDL_TYPE XmlMapping : public ::System::Object {
 public:
   // Declarations
@@ -68,7 +67,7 @@ public:
 
   static inline ::System::Xml::Serialization::XmlMapping* New_ctor(::StringW elementName, ::StringW ns);
 
-  /// @brief Method SetKey, addr 0x4310128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x437143c, size 0x8, virtual false, abstract: false, final false
   inline void SetKey(::StringW key);
 
   constexpr ::StringW const& __cordl_internal_get__elementName() const;
@@ -87,17 +86,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_key();
 
+  constexpr ::System::Xml::Serialization::ObjectMap* const& __cordl_internal_get_map() const;
+
   constexpr ::System::Xml::Serialization::ObjectMap*& __cordl_internal_get_map();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::ObjectMap*> const& __cordl_internal_get_map() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_relatedMaps() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_relatedMaps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_relatedMaps() const;
+  constexpr ::System::Xml::Serialization::SerializationSource* const& __cordl_internal_get_source() const;
 
   constexpr ::System::Xml::Serialization::SerializationSource*& __cordl_internal_get_source();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::SerializationSource*> const& __cordl_internal_get_source() const;
 
   constexpr void __cordl_internal_set__elementName(::StringW value);
 
@@ -113,34 +112,34 @@ public:
 
   constexpr void __cordl_internal_set_source(::System::Xml::Serialization::SerializationSource* value);
 
-  /// @brief Method .ctor, addr 0x43100ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4371400, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::StringW ns);
 
-  /// @brief Method get_ElementName, addr 0x4310118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x437142c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Format, addr 0x4310150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x4371464, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::SerializationFormat get_Format();
 
-  /// @brief Method get_Namespace, addr 0x4310120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x4371434, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_ObjectMap, addr 0x4310130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectMap, addr 0x4371444, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::ObjectMap* get_ObjectMap();
 
-  /// @brief Method get_RelatedMaps, addr 0x4310140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RelatedMaps, addr 0x4371454, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_RelatedMaps();
 
-  /// @brief Method get_Source, addr 0x4310160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x4371474, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::SerializationSource* get_Source();
 
-  /// @brief Method set_Format, addr 0x4310158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x437146c, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::System::Xml::Serialization::SerializationFormat value);
 
-  /// @brief Method set_ObjectMap, addr 0x4310138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectMap, addr 0x437144c, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectMap(::System::Xml::Serialization::ObjectMap* value);
 
-  /// @brief Method set_RelatedMaps, addr 0x4310148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RelatedMaps, addr 0x437145c, size 0x8, virtual false, abstract: false, final false
   inline void set_RelatedMaps(::System::Collections::ArrayList* value);
 
 protected:
@@ -156,6 +155,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlMapping", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlMapping(XmlMapping const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7417 };
 
   /// @brief Field map, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::ObjectMap* ___map;
@@ -178,14 +180,9 @@ public:
   /// @brief Field key, offset: 0x40, size: 0x8, def value: None
   ::StringW ___key;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7392 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlMapping, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlMapping, ___map) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlMapping, ___relatedMaps) == 0x18, "Offset mismatch!");
@@ -199,6 +196,8 @@ static_assert(offsetof(::System::Xml::Serialization::XmlMapping, ____elementName
 static_assert(offsetof(::System::Xml::Serialization::XmlMapping, ____namespace) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlMapping, ___key) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlMapping, 0x48>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlMapping);

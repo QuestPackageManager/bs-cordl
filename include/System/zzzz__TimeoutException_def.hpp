@@ -18,11 +18,10 @@ class TimeoutException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::TimeoutException);
-// Type: System::TimeoutException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System {
 // Is value type: false
-// CS Name: ::System::TimeoutException*
+// CS Name: System.TimeoutException
 class CORDL_TYPE TimeoutException : public ::System::SystemException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::TimeoutException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3da1ac4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01b70, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3da1b3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01be8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3da1b1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01bc8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

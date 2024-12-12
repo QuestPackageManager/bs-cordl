@@ -4,21 +4,21 @@
 #include "GlobalNamespace/zzzz__SonyVersion_def.hpp"
 #include "GlobalNamespace/zzzz__SonyVersion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__SonyVersion__VersionFormat::__SonyVersion__VersionFormat(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::SonyVersion_VersionFormat::SonyVersion_VersionFormat(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SonyVersion__VersionFormat::__SonyVersion__VersionFormat() {}
-constexpr ::GlobalNamespace::__SonyVersion__VersionFormat GlobalNamespace::__SonyVersion__VersionFormat::FullLong{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__SonyVersion__VersionFormat GlobalNamespace::__SonyVersion__VersionFormat::Long{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__SonyVersion__VersionFormat GlobalNamespace::__SonyVersion__VersionFormat::FullShort{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__SonyVersion__VersionFormat GlobalNamespace::__SonyVersion__VersionFormat::Short{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::SonyVersion_VersionFormat::SonyVersion_VersionFormat() {}
+constexpr ::GlobalNamespace::SonyVersion_VersionFormat GlobalNamespace::SonyVersion_VersionFormat::FullLong{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::SonyVersion_VersionFormat GlobalNamespace::SonyVersion_VersionFormat::Long{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::SonyVersion_VersionFormat GlobalNamespace::SonyVersion_VersionFormat::FullShort{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::SonyVersion_VersionFormat GlobalNamespace::SonyVersion_VersionFormat::Short{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::GlobalNamespace::SonyVersion.get_majorVersion
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::SonyVersion::*)()>(&::GlobalNamespace::SonyVersion::get_majorVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b7e04;
+  constexpr static std::size_t addrs = 0x26ec8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyVersion*>::get(), "get_majorVersion",
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::SonyVersion::*)()>(&::GlobalNamespace::SonyVersion::get_minorVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b7e0c;
+  constexpr static std::size_t addrs = 0x26ec8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyVersion*>::get(), "get_minorVersion",
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyVersion::*)(uint32_t, uint32_t)>(&::GlobalNamespace::SonyVersion::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26b7e14;
+  constexpr static std::size_t addrs = 0x26ec8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SonyVersion* (*)(::StringW)>(&::GlobalNamespace::SonyVersion::GetFromString)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x26b7e40;
+  constexpr static std::size_t addrs = 0x26ec910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::SonyVersion::IsVersionFormatValid)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26b8390;
+  constexpr static std::size_t addrs = 0x26ece60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,15 +84,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::SonyVersion.Get
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyVersion::*)(::GlobalNamespace::__SonyVersion__VersionFormat)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyVersion::*)(::GlobalNamespace::SonyVersion_VersionFormat)>(
     &::GlobalNamespace::SonyVersion::Get)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x26b8420;
+  constexpr static std::size_t addrs = 0x26ecef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyVersion*>::get(), "Get", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SonyVersion__VersionFormat>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyVersion_VersionFormat>::get() })));
     return ___internal_method;
   }
 };
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyVersion::*)()>(&::GlobalNamespace::SonyVersion::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b8648;
+  constexpr static std::size_t addrs = 0x26ed118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::SonyVersion*)>(&::GlobalNamespace::SonyVersion::op_Implicit___StringW)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26b8650;
+  constexpr static std::size_t addrs = 0x26ed120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyVersion::*)(::GlobalNamespace::SonyVersion*)>(
     &::GlobalNamespace::SonyVersion::CopyValueFrom)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26b262c;
+  constexpr static std::size_t addrs = 0x26e70f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyVersion::*)()>(&::GlobalNamespace::SonyVersion::IncreaseVersion)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26b2680;
+  constexpr static std::size_t addrs = 0x26e714c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyVersion*>::get(), "IncreaseVersion",
@@ -186,9 +186,6 @@ inline uint32_t GlobalNamespace::SonyVersion::get_minorVersion() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SonyVersion* GlobalNamespace::SonyVersion::New_ctor(uint32_t majorVersion, uint32_t minorVersion) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyVersion*>(majorVersion, minorVersion));
-}
 inline void GlobalNamespace::SonyVersion::_ctor(uint32_t majorVersion, uint32_t minorVersion) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyVersion*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -207,10 +204,10 @@ inline bool GlobalNamespace::SonyVersion::IsVersionFormatValid(::StringW version
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, versionString);
 }
-inline ::StringW GlobalNamespace::SonyVersion::Get(::GlobalNamespace::__SonyVersion__VersionFormat format) {
+inline ::StringW GlobalNamespace::SonyVersion::Get(::GlobalNamespace::SonyVersion_VersionFormat format) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyVersion*>::get(), "Get", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SonyVersion__VersionFormat>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyVersion_VersionFormat>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, format);
 }
 inline ::StringW GlobalNamespace::SonyVersion::ToString() {
@@ -234,6 +231,9 @@ inline void GlobalNamespace::SonyVersion::IncreaseVersion() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyVersion*>::get(), "IncreaseVersion",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SonyVersion* GlobalNamespace::SonyVersion::New_ctor(uint32_t majorVersion, uint32_t minorVersion) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyVersion*>(majorVersion, minorVersion));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyVersion::SonyVersion() {}

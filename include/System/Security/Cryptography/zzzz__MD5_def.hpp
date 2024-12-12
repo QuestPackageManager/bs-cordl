@@ -11,20 +11,19 @@ class MD5;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::MD5);
-// Type: System.Security.Cryptography::MD5
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.HashAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::MD5*
+// CS Name: System.Security.Cryptography.MD5
 class CORDL_TYPE MD5 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3c41014, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ca1188, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::MD5* Create();
 
   static inline ::System::Security::Cryptography::MD5* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c40ff4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca1168, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

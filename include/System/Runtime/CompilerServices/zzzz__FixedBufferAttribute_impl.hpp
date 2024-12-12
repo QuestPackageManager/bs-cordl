@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::FixedBufferAttribute::*)(::System::Type*, int32_t)>(
     &::System::Runtime::CompilerServices::FixedBufferAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3cb71e4;
+  constexpr static std::size_t addrs = 0x3d17358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::CompilerServices::FixedBufferAttribute::*)()>(
     &::System::Runtime::CompilerServices::FixedBufferAttribute::get_ElementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb7214;
+  constexpr static std::size_t addrs = 0x3d17388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::CompilerServices::FixedBufferAttribute::*)()>(
     &::System::Runtime::CompilerServices::FixedBufferAttribute::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb721c;
+  constexpr static std::size_t addrs = 0x3d17390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ constexpr ::System::Type*& System::Runtime::CompilerServices::FixedBufferAttribu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::CompilerServices::FixedBufferAttribute::__cordl_internal_get__ElementType_k__BackingField() const {
+constexpr ::System::Type* const& System::Runtime::CompilerServices::FixedBufferAttribute::__cordl_internal_get__ElementType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementType_k__BackingField;
 }
@@ -72,9 +72,6 @@ constexpr void System::Runtime::CompilerServices::FixedBufferAttribute::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Length_k__BackingField = value;
 }
-inline ::System::Runtime::CompilerServices::FixedBufferAttribute* System::Runtime::CompilerServices::FixedBufferAttribute::New_ctor(::System::Type* elementType, int32_t length) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::FixedBufferAttribute*>(elementType, length));
-}
 inline void System::Runtime::CompilerServices::FixedBufferAttribute::_ctor(::System::Type* elementType, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::FixedBufferAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -90,6 +87,9 @@ inline int32_t System::Runtime::CompilerServices::FixedBufferAttribute::get_Leng
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::FixedBufferAttribute*>::get(),
                                                                              "get_Length", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Runtime::CompilerServices::FixedBufferAttribute* System::Runtime::CompilerServices::FixedBufferAttribute::New_ctor(::System::Type* elementType, int32_t length) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::FixedBufferAttribute*>(elementType, length));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::FixedBufferAttribute::FixedBufferAttribute() {}

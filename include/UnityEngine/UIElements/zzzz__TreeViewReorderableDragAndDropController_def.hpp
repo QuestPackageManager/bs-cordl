@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TreeViewReorderableDragAndDropController)
@@ -38,7 +37,7 @@ namespace UnityEngine::UIElements {
 struct StartDragArgs;
 }
 namespace UnityEngine::UIElements {
-class __TreeViewReorderableDragAndDropController__DropData;
+class TreeViewReorderableDragAndDropController_DropData;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -48,17 +47,16 @@ namespace UnityEngine::UIElements {
 class TreeViewReorderableDragAndDropController;
 }
 namespace UnityEngine::UIElements {
-class __TreeViewReorderableDragAndDropController__DropData;
+class TreeViewReorderableDragAndDropController_DropData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData);
-// Type: ::DropData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData);
+// Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::TreeViewReorderableDragAndDropController::DropData*
-class CORDL_TYPE __TreeViewReorderableDragAndDropController__DropData : public ::System::Object {
+// CS Name: UnityEngine.UIElements.TreeViewReorderableDragAndDropController/DropData
+class CORDL_TYPE TreeViewReorderableDragAndDropController_DropData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field draggedIds, offset 0x18, size 0x8
@@ -76,7 +74,7 @@ public:
   /// @brief Field lastItemId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_lastItemId, put = __cordl_internal_set_lastItemId)) int32_t lastItemId;
 
-  static inline ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData* New_ctor();
+  static inline ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* New_ctor();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_draggedIds() const;
 
@@ -108,22 +106,25 @@ public:
 
   constexpr void __cordl_internal_set_lastItemId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x49ba624, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1ef34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TreeViewReorderableDragAndDropController__DropData();
+  constexpr TreeViewReorderableDragAndDropController_DropData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeViewReorderableDragAndDropController__DropData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController_DropData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TreeViewReorderableDragAndDropController__DropData(__TreeViewReorderableDragAndDropController__DropData&&) = delete;
+  TreeViewReorderableDragAndDropController_DropData(TreeViewReorderableDragAndDropController_DropData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TreeViewReorderableDragAndDropController__DropData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController_DropData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TreeViewReorderableDragAndDropController__DropData(__TreeViewReorderableDragAndDropController__DropData const&) = delete;
+  TreeViewReorderableDragAndDropController_DropData(TreeViewReorderableDragAndDropController_DropData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5762 };
 
   /// @brief Field expandedIdsBeforeDrag, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___expandedIdsBeforeDrag;
@@ -140,37 +141,33 @@ public:
   /// @brief Field expandItemBeginPosition, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___expandItemBeginPosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5737 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData, 0x30>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData, ___expandedIdsBeforeDrag) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData, ___expandedIdsBeforeDrag) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData, ___draggedIds) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData, ___draggedIds) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData, ___lastItemId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData, ___lastItemId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData, ___expandItemBeginTimerMs) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData, ___expandItemBeginTimerMs) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData, ___expandItemBeginPosition) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData, ___expandItemBeginPosition) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::TreeViewReorderableDragAndDropController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseReorderableDragAndDropController
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::TreeViewReorderableDragAndDropController*
+// CS Name: UnityEngine.UIElements.TreeViewReorderableDragAndDropController
 class CORDL_TYPE TreeViewReorderableDragAndDropController : public ::UnityEngine::UIElements::BaseReorderableDragAndDropController {
 public:
   // Declarations
-  using DropData = ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData;
+  using DropData = ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData;
 
   /// @brief Field m_DropData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DropData, put = __cordl_internal_set_m_DropData)) ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData* m_DropData;
+  __declspec(property(get = __cordl_internal_get_m_DropData, put = __cordl_internal_set_m_DropData)) ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* m_DropData;
 
   /// @brief Field m_ExpandDropItemCallback, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExpandDropItemCallback, put = __cordl_internal_set_m_ExpandDropItemCallback)) ::System::Action* m_ExpandDropItemCallback;
@@ -182,52 +179,52 @@ public:
   /// @brief Field m_TreeView, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TreeView, put = __cordl_internal_set_m_TreeView)) ::UnityEngine::UIElements::BaseTreeView* m_TreeView;
 
-  /// @brief Method CompareId, addr 0x49b8d1c, size 0x644, virtual true, abstract: false, final false
+  /// @brief Method CompareId, addr 0x4a1d62c, size 0x644, virtual true, abstract: false, final false
   inline int32_t CompareId(int32_t id1, int32_t id2);
 
-  /// @brief Method DelayExpandDropItem, addr 0x49ba268, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method DelayExpandDropItem, addr 0x4a1eb78, size 0x218, virtual false, abstract: false, final false
   inline void DelayExpandDropItem();
 
-  /// @brief Method DragCleanup, addr 0x49b9c98, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method DragCleanup, addr 0x4a1e5a8, size 0x140, virtual true, abstract: false, final false
   inline void DragCleanup();
 
-  /// @brief Method ExpandDropItem, addr 0x49ba480, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ExpandDropItem, addr 0x4a1ed90, size 0x1a4, virtual false, abstract: false, final false
   inline void ExpandDropItem();
 
-  /// @brief Method HandleAutoExpand, addr 0x49ba134, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method HandleAutoExpand, addr 0x4a1ea44, size 0x134, virtual true, abstract: false, final false
   inline void HandleAutoExpand(::UnityEngine::UIElements::ReusableCollectionItem* item, ::UnityEngine::Vector2 pointerPosition);
 
-  /// @brief Method HandleDragAndDrop, addr 0x49b9404, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method HandleDragAndDrop, addr 0x4a1dd14, size 0xe8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   static inline ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseTreeView* view);
 
-  /// @brief Method OnDrop, addr 0x49b94ec, size 0x7ac, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x4a1ddfc, size 0x7ac, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
-  /// @brief Method RestoreExpanded, addr 0x49b9dd8, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method RestoreExpanded, addr 0x4a1e6e8, size 0x35c, virtual false, abstract: false, final false
   inline void RestoreExpanded(::System::Collections::Generic::List_1<int32_t>* ids);
 
-  /// @brief Method SetupDragAndDrop, addr 0x49b9360, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method SetupDragAndDrop, addr 0x4a1dc70, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds, bool skipText);
 
-  constexpr ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*& __cordl_internal_get_m_DropData();
+  constexpr ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* const& __cordl_internal_get_m_DropData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*> const& __cordl_internal_get_m_DropData() const;
+  constexpr ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData*& __cordl_internal_get_m_DropData();
+
+  constexpr ::System::Action* const& __cordl_internal_get_m_ExpandDropItemCallback() const;
 
   constexpr ::System::Action*& __cordl_internal_get_m_ExpandDropItemCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_ExpandDropItemCallback() const;
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& __cordl_internal_get_m_ExpandDropItemScheduledItem() const;
 
   constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_ExpandDropItemScheduledItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_ExpandDropItemScheduledItem() const;
+  constexpr ::UnityEngine::UIElements::BaseTreeView* const& __cordl_internal_get_m_TreeView() const;
 
   constexpr ::UnityEngine::UIElements::BaseTreeView*& __cordl_internal_get_m_TreeView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseTreeView*> const& __cordl_internal_get_m_TreeView() const;
-
-  constexpr void __cordl_internal_set_m_DropData(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData* value);
+  constexpr void __cordl_internal_set_m_DropData(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* value);
 
   constexpr void __cordl_internal_set_m_ExpandDropItemCallback(::System::Action* value);
 
@@ -235,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TreeView(::UnityEngine::UIElements::BaseTreeView* value);
 
-  /// @brief Method .ctor, addr 0x49b8c58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1d568, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseTreeView* view);
 
 protected:
@@ -252,8 +249,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TreeViewReorderableDragAndDropController(TreeViewReorderableDragAndDropController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
+
   /// @brief Field m_DropData, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData* ___m_DropData;
+  ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* ___m_DropData;
 
   /// @brief Field m_TreeView, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseTreeView* ___m_TreeView;
@@ -264,14 +264,9 @@ public:
   /// @brief Field m_ExpandDropItemCallback, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___m_ExpandDropItemCallback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5738 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController, ___m_DropData) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController, ___m_TreeView) == 0x30, "Offset mismatch!");
@@ -280,8 +275,10 @@ static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDrop
 
 static_assert(offsetof(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController, ___m_ExpandDropItemCallback) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController, 0x48>, "Size mismatch!");
+
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*, "UnityEngine.UIElements", "TreeViewReorderableDragAndDropController");
-NEED_NO_BOX(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*, "UnityEngine.UIElements", "TreeViewReorderableDragAndDropController/DropData");
+NEED_NO_BOX(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData*, "UnityEngine.UIElements", "TreeViewReorderableDragAndDropController/DropData");

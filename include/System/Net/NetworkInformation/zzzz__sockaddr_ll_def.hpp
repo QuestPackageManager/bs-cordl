@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(sockaddr_ll)
@@ -13,11 +12,10 @@ struct sockaddr_ll;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_ll);
-// Type: System.Net.NetworkInformation::sockaddr_ll
-// SizeInfo { instance_size: 24, native_size: 20, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// CS Name: ::System.Net.NetworkInformation::sockaddr_ll
+// CS Name: System.Net.NetworkInformation.sockaddr_ll
 struct CORDL_TYPE sockaddr_ll {
 public:
   // Declarations
@@ -31,6 +29,12 @@ public:
   // modifiers: "", def_value: None }]
   constexpr sockaddr_ll(uint16_t sll_family, uint16_t sll_protocol, int32_t sll_ifindex, uint16_t sll_hatype, uint8_t sll_pkttype, uint8_t sll_halen,
                         ::ArrayW<uint8_t, ::Array<uint8_t>*> sll_addr) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9791 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field sll_family, offset: 0x0, size: 0x2, def value: None
   uint16_t sll_family;
@@ -53,17 +57,9 @@ public:
   /// @brief Field sll_addr, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> sll_addr;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9766 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::sockaddr_ll, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_family) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_protocol) == 0x2, "Offset mismatch!");
@@ -77,6 +73,8 @@ static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_pktty
 static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_halen) == 0xb, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_addr) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::sockaddr_ll, 0x18>, "Size mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::sockaddr_ll, "System.Net.NetworkInformation", "sockaddr_ll");

@@ -23,11 +23,10 @@ class JsonLoadSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonLoadSettings);
-// Type: Newtonsoft.Json.Linq::JsonLoadSettings
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Linq.CommentHandling, Newtonsoft.Json.Linq.DuplicatePropertyNameHandling, Newtonsoft.Json.Linq.LineInfoHandling, System.Object
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Linq::JsonLoadSettings*
+// CS Name: Newtonsoft.Json.Linq.JsonLoadSettings
 class CORDL_TYPE JsonLoadSettings : public ::System::Object {
 public:
   // Declarations
@@ -67,25 +66,25 @@ public:
 
   constexpr void __cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
-  /// @brief Method .ctor, addr 0x3ebdb0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1dbb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CommentHandling, addr 0x3ebdb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommentHandling, addr 0x3f1dbe0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
 
-  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x3ebdc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x3f1dcb0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling get_DuplicatePropertyNameHandling();
 
-  /// @brief Method get_LineInfoHandling, addr 0x3ebdb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineInfoHandling, addr 0x3f1dc48, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
 
-  /// @brief Method set_CommentHandling, addr 0x3ebdb3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_CommentHandling, addr 0x3f1dbe8, size 0x60, virtual false, abstract: false, final false
   inline void set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x3ebdc0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x3f1dcb8, size 0x60, virtual false, abstract: false, final false
   inline void set_DuplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling value);
 
-  /// @brief Method set_LineInfoHandling, addr 0x3ebdba4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_LineInfoHandling, addr 0x3f1dc50, size 0x60, virtual false, abstract: false, final false
   inline void set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
 protected:
@@ -102,6 +101,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonLoadSettings(JsonLoadSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10413 };
+
   /// @brief Field _commentHandling, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::CommentHandling ____commentHandling;
 
@@ -111,19 +113,16 @@ public:
   /// @brief Field _duplicatePropertyNameHandling, offset: 0x18, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling ____duplicatePropertyNameHandling;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10388 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonLoadSettings, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonLoadSettings, ____commentHandling) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonLoadSettings, ____lineInfoHandling) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonLoadSettings, ____duplicatePropertyNameHandling) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonLoadSettings, 0x20>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonLoadSettings);

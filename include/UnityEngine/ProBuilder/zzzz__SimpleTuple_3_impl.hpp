@@ -46,8 +46,8 @@ template <typename T1, typename T2, typename T3> inline ::StringW UnityEngine::P
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: Some("nullptr") }, CppParam {
-// name: "m_Item3", ty: "T3", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_Item3", ty: "T3", modifiers: "", def_value: Some("{}") }]
 template <typename T1, typename T2, typename T3> constexpr ::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>::SimpleTuple_3(T1 m_Item1, T2 m_Item2, T3 m_Item3) noexcept {
   this->m_Item1 = m_Item1;
   this->m_Item2 = m_Item2;

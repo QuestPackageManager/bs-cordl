@@ -4,12 +4,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
 CORDL_MODULE_EXPORT(CommandEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
@@ -20,26 +18,25 @@ class CommandEventDispatchingStrategy;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::CommandEventDispatchingStrategy);
-// Type: UnityEngine.UIElements::CommandEventDispatchingStrategy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.IEventDispatchingStrategy
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::CommandEventDispatchingStrategy*
+// CS Name: UnityEngine.UIElements.CommandEventDispatchingStrategy
 class CORDL_TYPE CommandEventDispatchingStrategy : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x49bd5a0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x4a21eb0, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x49bd5f4, size 0x2ec, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x4a21f04, size 0x2ec, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::CommandEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49bcd3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2164c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
@@ -60,7 +57,7 @@ public:
   CommandEventDispatchingStrategy(CommandEventDispatchingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

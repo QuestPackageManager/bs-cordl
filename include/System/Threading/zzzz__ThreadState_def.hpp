@@ -12,11 +12,10 @@ struct ThreadState;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::ThreadState);
-// Type: System.Threading::ThreadState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::System.Threading::ThreadState
+// CS Name: System.Threading.ThreadState
 struct CORDL_TYPE ThreadState {
 public:
   // Declarations
@@ -53,37 +52,34 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ThreadState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AbortRequested value: static_cast<int32_t>(0x80)
+  /// @brief Field AbortRequested value: I32(128)
   static ::System::Threading::ThreadState const AbortRequested;
 
-  /// @brief Field Aborted value: static_cast<int32_t>(0x100)
+  /// @brief Field Aborted value: I32(256)
   static ::System::Threading::ThreadState const Aborted;
 
-  /// @brief Field Background value: static_cast<int32_t>(0x4)
+  /// @brief Field Background value: I32(4)
   static ::System::Threading::ThreadState const Background;
 
-  /// @brief Field Running value: static_cast<int32_t>(0x0)
+  /// @brief Field Running value: I32(0)
   static ::System::Threading::ThreadState const Running;
 
-  /// @brief Field StopRequested value: static_cast<int32_t>(0x1)
+  /// @brief Field StopRequested value: I32(1)
   static ::System::Threading::ThreadState const StopRequested;
 
-  /// @brief Field Stopped value: static_cast<int32_t>(0x10)
+  /// @brief Field Stopped value: I32(16)
   static ::System::Threading::ThreadState const Stopped;
 
-  /// @brief Field SuspendRequested value: static_cast<int32_t>(0x2)
+  /// @brief Field SuspendRequested value: I32(2)
   static ::System::Threading::ThreadState const SuspendRequested;
 
-  /// @brief Field Suspended value: static_cast<int32_t>(0x40)
+  /// @brief Field Suspended value: I32(64)
   static ::System::Threading::ThreadState const Suspended;
 
-  /// @brief Field Unstarted value: static_cast<int32_t>(0x8)
+  /// @brief Field Unstarted value: I32(8)
   static ::System::Threading::ThreadState const Unstarted;
 
-  /// @brief Field WaitSleepJoin value: static_cast<int32_t>(0x20)
+  /// @brief Field WaitSleepJoin value: I32(32)
   static ::System::Threading::ThreadState const WaitSleepJoin;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,12 +88,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::ThreadState, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::ThreadState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::ThreadState, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadState, "System.Threading", "ThreadState");

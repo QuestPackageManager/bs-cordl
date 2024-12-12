@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Tsp::Accuracy::*)(
     ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*)>(&::Org::BouncyCastle::Asn1::Tsp::Accuracy::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x24c4a28;
+  constexpr static std::size_t addrs = 0x24f7d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Tsp::Accuracy::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Tsp::Accuracy::_ctor)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x24c4b04;
+  constexpr static std::size_t addrs = 0x24f7df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Tsp::Accuracy* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Tsp::Accuracy::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24c4e08;
+  constexpr static std::size_t addrs = 0x24f80f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Tsp::Accuracy::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::Accuracy::get_Seconds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c4eac;
+  constexpr static std::size_t addrs = 0x24f8198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>::get(), "get_Seconds",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Tsp::Accuracy::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::Accuracy::get_Millis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c4eb4;
+  constexpr static std::size_t addrs = 0x24f81a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>::get(), "get_Millis",
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Tsp::Accuracy::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::Accuracy::get_Micros)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c4ebc;
+  constexpr static std::size_t addrs = 0x24f81a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>::get(), "get_Micros",
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Tsp::Accuracy::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::Accuracy::ToAsn1Object)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x24c4ec4;
+  constexpr static std::size_t addrs = 0x24f81b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Tsp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seconds;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Tsp::Accuracy::__cordl_internal_get_seconds() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Tsp::Accuracy::__cordl_internal_get_seconds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seconds;
 }
@@ -126,7 +126,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Tsp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___millis;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Tsp::Accuracy::__cordl_internal_get_millis() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Tsp::Accuracy::__cordl_internal_get_millis() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___millis;
 }
@@ -138,17 +138,13 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Tsp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___micros;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Tsp::Accuracy::__cordl_internal_get_micros() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Tsp::Accuracy::__cordl_internal_get_micros() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___micros;
 }
 constexpr void Org::BouncyCastle::Asn1::Tsp::Accuracy::__cordl_internal_set_micros(::Org::BouncyCastle::Asn1::DerInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___micros)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* Org::BouncyCastle::Asn1::Tsp::Accuracy::New_ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis,
-                                                                                                  ::Org::BouncyCastle::Asn1::DerInteger* micros) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>(seconds, millis, micros));
 }
 inline void Org::BouncyCastle::Asn1::Tsp::Accuracy::_ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis,
                                                           ::Org::BouncyCastle::Asn1::DerInteger* micros) {
@@ -158,9 +154,6 @@ inline void Org::BouncyCastle::Asn1::Tsp::Accuracy::_ctor(::Org::BouncyCastle::A
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerInteger*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seconds, millis, micros);
-}
-inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* Org::BouncyCastle::Asn1::Tsp::Accuracy::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Tsp::Accuracy::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -193,6 +186,13 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Tsp::Accu
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* Org::BouncyCastle::Asn1::Tsp::Accuracy::New_ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis,
+                                                                                                  ::Org::BouncyCastle::Asn1::DerInteger* micros) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>(seconds, millis, micros));
+}
+inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* Org::BouncyCastle::Asn1::Tsp::Accuracy::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy::Accuracy() {}

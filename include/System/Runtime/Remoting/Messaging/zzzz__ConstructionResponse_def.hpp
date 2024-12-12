@@ -3,25 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_def.hpp"
 CORDL_MODULE_EXPORT(ConstructionResponse)
 namespace System::Collections {
 class IDictionary;
 }
-namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
@@ -44,11 +36,11 @@ class ConstructionResponse;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionResponse);
-// Type: System.Runtime.Remoting.Messaging::ConstructionResponse
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Activation.IConstructionReturnMessage, System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMethodMessage,
+// System.Runtime.Remoting.Messaging.IMethodReturnMessage, System.Runtime.Remoting.Messaging.MethodResponse
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::ConstructionResponse*
+// CS Name: System.Runtime.Remoting.Messaging.ConstructionResponse
 class CORDL_TYPE ConstructionResponse : public ::System::Runtime::Remoting::Messaging::MethodResponse {
 public:
   // Declarations
@@ -74,16 +66,16 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                        ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3c83624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce3798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3c8b58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ceb700, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c79868, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd99dc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method get_Properties, addr 0x3c8b594, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3ceb708, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"

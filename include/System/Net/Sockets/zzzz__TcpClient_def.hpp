@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -30,9 +31,6 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -41,11 +39,10 @@ class TcpClient;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::TcpClient);
-// Type: System.Net.Sockets::TcpClient
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Net.Sockets.AddressFamily, System.Object
 namespace System::Net::Sockets {
 // Is value type: false
-// CS Name: ::System.Net.Sockets::TcpClient*
+// CS Name: System.Net.Sockets.TcpClient
 class CORDL_TYPE TcpClient : public ::System::Object {
 public:
   // Declarations
@@ -71,34 +68,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginConnect, addr 0x439e3ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BeginConnect, addr 0x43ff700, size 0x6c, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginConnect(::StringW host, int32_t port, ::System::AsyncCallback* requestCallback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x439e744, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x43ffa58, size 0xa4, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Connect, addr 0x439dc5c, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x43fef70, size 0x690, virtual false, abstract: false, final false
   inline void Connect(::StringW hostname, int32_t port);
 
-  /// @brief Method Connect, addr 0x439e2ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x43ff600, size 0x100, virtual false, abstract: false, final false
   inline void Connect(::System::Net::IPEndPoint* remoteEP);
 
-  /// @brief Method ConnectAsync, addr 0x439e4a0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ConnectAsync, addr 0x43ff7b4, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ConnectAsync(::StringW host, int32_t port);
 
-  /// @brief Method Dispose, addr 0x439e97c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x43ffc90, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x439e7e8, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x43ffafc, size 0x194, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndConnect, addr 0x439e458, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method EndConnect, addr 0x43ff76c, size 0x48, virtual false, abstract: false, final false
   inline void EndConnect(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Finalize, addr 0x439e98c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x43ffca0, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetStream, addr 0x439e60c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetStream, addr 0x43ff920, size 0x138, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::NetworkStream* GetStream();
 
   static inline ::System::Net::Sockets::TcpClient* New_ctor();
@@ -115,13 +112,13 @@ public:
 
   constexpr bool& __cordl_internal_get_m_CleanedUp();
 
+  constexpr ::System::Net::Sockets::Socket* const& __cordl_internal_get_m_ClientSocket() const;
+
   constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_m_ClientSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_m_ClientSocket() const;
+  constexpr ::System::Net::Sockets::NetworkStream* const& __cordl_internal_get_m_DataStream() const;
 
   constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get_m_DataStream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __cordl_internal_get_m_DataStream() const;
 
   constexpr ::System::Net::Sockets::AddressFamily const& __cordl_internal_get_m_Family() const;
 
@@ -137,28 +134,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Family(::System::Net::Sockets::AddressFamily value);
 
-  /// @brief Method .ctor, addr 0x439da54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fed68, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x439dbec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fef00, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* acceptedSocket);
 
-  /// @brief Method .ctor, addr 0x439da74, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fed88, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::AddressFamily family);
 
-  /// @brief Method get_Client, addr 0x439dc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Client, addr 0x43fef44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_Client();
 
-  /// @brief Method get_Connected, addr 0x439dc40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Connected, addr 0x43fef54, size 0x1c, virtual false, abstract: false, final false
   inline bool get_Connected();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method initialize, addr 0x439db80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method initialize, addr 0x43fee94, size 0x6c, virtual false, abstract: false, final false
   inline void initialize();
 
-  /// @brief Method set_Client, addr 0x439dc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Client, addr 0x43fef4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Client(::System::Net::Sockets::Socket* value);
 
 protected:
@@ -175,6 +172,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TcpClient(TcpClient const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9869 };
+
   /// @brief Field m_ClientSocket, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___m_ClientSocket;
 
@@ -190,14 +190,9 @@ public:
   /// @brief Field m_CleanedUp, offset: 0x2c, size: 0x1, def value: None
   bool ___m_CleanedUp;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9844 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::TcpClient, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::TcpClient, ___m_ClientSocket) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::TcpClient, ___m_Active) == 0x18, "Offset mismatch!");
@@ -207,6 +202,8 @@ static_assert(offsetof(::System::Net::Sockets::TcpClient, ___m_DataStream) == 0x
 static_assert(offsetof(::System::Net::Sockets::TcpClient, ___m_Family) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::TcpClient, ___m_CleanedUp) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::TcpClient, 0x30>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::TcpClient);

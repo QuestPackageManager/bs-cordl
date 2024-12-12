@@ -21,11 +21,10 @@ class RawImage;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::RawImage);
-// Type: UnityEngine.UI::RawImage
-// SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Rect, UnityEngine.UI.MaskableGraphic
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::RawImage*
+// CS Name: UnityEngine.UI.RawImage
 class CORDL_TYPE RawImage : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
@@ -43,13 +42,13 @@ public:
 
   static inline ::UnityEngine::UI::RawImage* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x4a5b018, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x4abf928, size 0x3c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnPopulateMesh, addr 0x4a5a994, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x4abf2a4, size 0x2c8, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method SetNativeSize, addr 0x4a5a6e0, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method SetNativeSize, addr 0x4abeff0, size 0x2b4, virtual true, abstract: false, final false
   inline void SetNativeSize();
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Texture() const;
@@ -64,22 +63,22 @@ public:
 
   constexpr void __cordl_internal_set_m_UVRect(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x4a5a454, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4abed64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainTexture, addr 0x4a5a47c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method get_mainTexture, addr 0x4abed8c, size 0x158, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
-  /// @brief Method get_texture, addr 0x4a5a5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x4abeee4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
-  /// @brief Method get_uvRect, addr 0x4a5a688, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uvRect, addr 0x4abef98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRect();
 
-  /// @brief Method set_texture, addr 0x4a5a5dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x4abeeec, size 0xac, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture* value);
 
-  /// @brief Method set_uvRect, addr 0x4a5a694, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_uvRect, addr 0x4abefa4, size 0x4c, virtual false, abstract: false, final false
   inline void set_uvRect(::UnityEngine::Rect value);
 
 protected:
@@ -96,23 +95,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RawImage(RawImage const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15117 };
+
   /// @brief Field m_Texture, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> ___m_Texture;
 
   /// @brief Field m_UVRect, offset: 0xe0, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_UVRect;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15082 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::RawImage, 0xf0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UI::RawImage, ___m_Texture) == 0xd8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UI::RawImage, ___m_UVRect) == 0xe0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::RawImage, 0xf0>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::RawImage);

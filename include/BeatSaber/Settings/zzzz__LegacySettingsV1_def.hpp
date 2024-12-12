@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -18,11 +17,10 @@ class LegacySettingsV1;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV1);
-// Type: BeatSaber.Settings::LegacySettingsV1
-// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 211, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::BeatSaber.Settings::LegacySettingsV1*
+// CS Name: BeatSaber.Settings.LegacySettingsV1
 class CORDL_TYPE LegacySettingsV1 : public ::System::Object {
 public:
   // Declarations
@@ -173,8 +171,8 @@ public:
   /// @brief Field windowResolutionWidth, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_windowResolutionWidth, put = __cordl_internal_set_windowResolutionWidth)) int32_t windowResolutionWidth;
 
-  /// @brief Method ApplyTo, addr 0x224889c, size 0x1c0, virtual false, abstract: false, final false
-  inline void ApplyTo(ByRef<::BeatSaber::Settings::Settings> settings);
+  /// @brief Method ApplyTo, addr 0x227ade4, size 0x1c0, virtual false, abstract: false, final false
+  inline void ApplyTo(::ByRef<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV1* New_ctor();
 
@@ -472,7 +470,7 @@ public:
 
   constexpr void __cordl_internal_set_windowResolutionWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2248a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227afa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -488,6 +486,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LegacySettingsV1(LegacySettingsV1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17985 };
 
   /// @brief Field roomCenterX, offset: 0x10, size: 0x4, def value: None
   float_t ___roomCenterX;
@@ -636,14 +637,9 @@ public:
   /// @brief Field enableFPSRecorder, offset: 0xd2, size: 0x1, def value: None
   bool ___enableFPSRecorder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17936 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV1, 0xd8>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___roomCenterX) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___roomCenterY) == 0x14, "Offset mismatch!");
@@ -741,6 +737,8 @@ static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___enableMemoryT
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___enableFPSCounter) == 0xd1, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV1, ___enableFPSRecorder) == 0xd2, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV1, 0xd8>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
 NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV1);

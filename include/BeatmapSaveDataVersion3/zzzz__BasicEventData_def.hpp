@@ -17,11 +17,10 @@ class BasicEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BasicEventData);
-// Type: BeatmapSaveDataVersion3::BasicEventData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.BeatmapEventType, BeatmapSaveDataVersion3.BeatmapSaveDataItem
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::BasicEventData*
+// CS Name: BeatmapSaveDataVersion3.BasicEventData
 class CORDL_TYPE BasicEventData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -60,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d4a14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706384, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::BeatmapEventType eventType, int32_t value, float_t floatValue);
 
-  /// @brief Method get_eventType, addr 0x26d49fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x270636c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::BeatmapEventType get_eventType();
 
-  /// @brief Method get_floatValue, addr 0x26d4a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x270637c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_value, addr 0x26d4a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2706374, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -86,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicEventData(BasicEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13412 };
+
   /// @brief Field et, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::BeatmapEventType ___et;
 
@@ -95,19 +97,16 @@ public:
   /// @brief Field f, offset: 0x1c, size: 0x4, def value: None
   float_t ___f;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13381 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BasicEventData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::BasicEventData, ___et) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::BasicEventData, ___i) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::BasicEventData, ___f) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BasicEventData, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::BasicEventData);

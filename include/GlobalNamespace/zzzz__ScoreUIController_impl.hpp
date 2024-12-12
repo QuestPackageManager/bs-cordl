@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ScoreUIController.hpp"
-#include "GlobalNamespace/zzzz__ScoreUIController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
@@ -9,57 +8,57 @@
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType::__ScoreUIController__ScoreDisplayType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::ScoreUIController_ScoreDisplayType::ScoreUIController_ScoreDisplayType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType::__ScoreUIController__ScoreDisplayType() {}
-constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType GlobalNamespace::__ScoreUIController__ScoreDisplayType::MultipliedScore{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType GlobalNamespace::__ScoreUIController__ScoreDisplayType::ModifiedScore{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::GlobalNamespace::__ScoreUIController__InitData._ctor
+constexpr ::GlobalNamespace::ScoreUIController_ScoreDisplayType::ScoreUIController_ScoreDisplayType() {}
+constexpr ::GlobalNamespace::ScoreUIController_ScoreDisplayType GlobalNamespace::ScoreUIController_ScoreDisplayType::MultipliedScore{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::ScoreUIController_ScoreDisplayType GlobalNamespace::ScoreUIController_ScoreDisplayType::ModifiedScore{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::GlobalNamespace::ScoreUIController_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ScoreUIController__InitData::*)(::GlobalNamespace::__ScoreUIController__ScoreDisplayType)>(
-    &::GlobalNamespace::__ScoreUIController__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController_InitData::*)(::GlobalNamespace::ScoreUIController_ScoreDisplayType)>(
+    &::GlobalNamespace::ScoreUIController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b44790;
+  constexpr static std::size_t addrs = 0x3ba5e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreUIController__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreUIController__ScoreDisplayType>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScoreUIController_ScoreDisplayType>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType& GlobalNamespace::__ScoreUIController__InitData::__cordl_internal_get_scoreDisplayType() {
+constexpr ::GlobalNamespace::ScoreUIController_ScoreDisplayType& GlobalNamespace::ScoreUIController_InitData::__cordl_internal_get_scoreDisplayType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoreDisplayType;
 }
-constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType const& GlobalNamespace::__ScoreUIController__InitData::__cordl_internal_get_scoreDisplayType() const {
+constexpr ::GlobalNamespace::ScoreUIController_ScoreDisplayType const& GlobalNamespace::ScoreUIController_InitData::__cordl_internal_get_scoreDisplayType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoreDisplayType;
 }
-constexpr void GlobalNamespace::__ScoreUIController__InitData::__cordl_internal_set_scoreDisplayType(::GlobalNamespace::__ScoreUIController__ScoreDisplayType value) {
+constexpr void GlobalNamespace::ScoreUIController_InitData::__cordl_internal_set_scoreDisplayType(::GlobalNamespace::ScoreUIController_ScoreDisplayType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scoreDisplayType = value;
 }
-inline ::GlobalNamespace::__ScoreUIController__InitData* GlobalNamespace::__ScoreUIController__InitData::New_ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ScoreUIController__InitData*>(scoreDisplayType));
-}
-inline void GlobalNamespace::__ScoreUIController__InitData::_ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType) {
+inline void GlobalNamespace::ScoreUIController_InitData::_ctor(::GlobalNamespace::ScoreUIController_ScoreDisplayType scoreDisplayType) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoreUIController__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreUIController__ScoreDisplayType>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScoreUIController_ScoreDisplayType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scoreDisplayType);
 }
+inline ::GlobalNamespace::ScoreUIController_InitData* GlobalNamespace::ScoreUIController_InitData::New_ctor(::GlobalNamespace::ScoreUIController_ScoreDisplayType scoreDisplayType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreUIController_InitData*>(scoreDisplayType));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ScoreUIController__InitData::__ScoreUIController__InitData() {}
+constexpr ::GlobalNamespace::ScoreUIController_InitData::ScoreUIController_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::ScoreUIController.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)()>(&::GlobalNamespace::ScoreUIController::Start)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3b44224;
+  constexpr static std::size_t addrs = 0x3ba5914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController*>::get(), "Start",
@@ -72,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)()>(&::GlobalNamespace::ScoreUIController::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b44448;
+  constexpr static std::size_t addrs = 0x3ba5b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController*>::get(), "OnEnable",
@@ -85,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)()>(&::GlobalNamespace::ScoreUIController::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b4444c;
+  constexpr static std::size_t addrs = 0x3ba5b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController*>::get(), "OnDisable",
@@ -98,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)()>(&::GlobalNamespace::ScoreUIController::RegisterForEvents)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3b44294;
+  constexpr static std::size_t addrs = 0x3ba5984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController*>::get(),
@@ -111,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)()>(&::GlobalNamespace::ScoreUIController::UnregisterFromEvents)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b44450;
+  constexpr static std::size_t addrs = 0x3ba5b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController*>::get(),
@@ -125,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)(int32_t, int32_t)>(
     &::GlobalNamespace::ScoreUIController::HandleScoreDidChangeRealtime)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b44550;
+  constexpr static std::size_t addrs = 0x3ba5c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)(int32_t, int32_t)>(
     &::GlobalNamespace::ScoreUIController::UpdateScore)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b44424;
+  constexpr static std::size_t addrs = 0x3ba5b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)(int32_t)>(&::GlobalNamespace::ScoreUIController::UpdateScore)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3b44554;
+  constexpr static std::size_t addrs = 0x3ba5c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t)>(&::GlobalNamespace::ScoreUIController::Append000Number)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b446c8;
+  constexpr static std::size_t addrs = 0x3ba5db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreUIController::*)()>(&::GlobalNamespace::ScoreUIController::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b44728;
+  constexpr static std::size_t addrs = 0x3ba5e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController*>::get(), ".ctor",
@@ -207,7 +206,7 @@ constexpr ::GlobalNamespace::IScoreController*& GlobalNamespace::ScoreUIControll
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& GlobalNamespace::ScoreUIController::__cordl_internal_get__scoreController() const {
+constexpr ::GlobalNamespace::IScoreController* const& GlobalNamespace::ScoreUIController::__cordl_internal_get__scoreController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
@@ -215,15 +214,15 @@ constexpr void GlobalNamespace::ScoreUIController::__cordl_internal_set__scoreCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ScoreUIController__InitData*& GlobalNamespace::ScoreUIController::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::ScoreUIController_InitData*& GlobalNamespace::ScoreUIController::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreUIController__InitData*> const& GlobalNamespace::ScoreUIController::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::ScoreUIController_InitData* const& GlobalNamespace::ScoreUIController::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::ScoreUIController::__cordl_internal_set__initData(::GlobalNamespace::__ScoreUIController__InitData* value) {
+constexpr void GlobalNamespace::ScoreUIController::__cordl_internal_set__initData(::GlobalNamespace::ScoreUIController_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -231,7 +230,7 @@ constexpr ::System::Text::StringBuilder*& GlobalNamespace::ScoreUIController::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuilder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& GlobalNamespace::ScoreUIController::__cordl_internal_get__stringBuilder() const {
+constexpr ::System::Text::StringBuilder* const& GlobalNamespace::ScoreUIController::__cordl_internal_get__stringBuilder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuilder;
 }
@@ -289,13 +288,13 @@ inline void GlobalNamespace::ScoreUIController::Append000Number(::System::Text::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, stringBuilder, number);
 }
-inline ::GlobalNamespace::ScoreUIController* GlobalNamespace::ScoreUIController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreUIController*>());
-}
 inline void GlobalNamespace::ScoreUIController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreUIController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ScoreUIController* GlobalNamespace::ScoreUIController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreUIController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreUIController::ScoreUIController() {}

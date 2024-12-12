@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRControllerState_t)
-namespace OVR::OpenVR {
-struct VRControllerAxis_t;
-}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct VRControllerState_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VRControllerState_t);
-// Type: OVR.OpenVR::VRControllerState_t
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVR.OpenVR.VRControllerAxis_t
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::VRControllerState_t
+// CS Name: OVR.OpenVR.VRControllerState_t
 struct CORDL_TYPE VRControllerState_t {
 public:
   // Declarations
@@ -34,6 +30,12 @@ public:
   // { name: "rAxis3", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis4", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }]
   constexpr VRControllerState_t(uint32_t unPacketNum, uint64_t ulButtonPressed, uint64_t ulButtonTouched, ::OVR::OpenVR::VRControllerAxis_t rAxis0, ::OVR::OpenVR::VRControllerAxis_t rAxis1,
                                 ::OVR::OpenVR::VRControllerAxis_t rAxis2, ::OVR::OpenVR::VRControllerAxis_t rAxis3, ::OVR::OpenVR::VRControllerAxis_t rAxis4) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9009 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field unPacketNum, offset: 0x0, size: 0x4, def value: None
   uint32_t unPacketNum;
@@ -59,17 +61,9 @@ public:
   /// @brief Field rAxis4, offset: 0x38, size: 0x8, def value: None
   ::OVR::OpenVR::VRControllerAxis_t rAxis4;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8984 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRControllerState_t, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, unPacketNum) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, ulButtonPressed) == 0x8, "Offset mismatch!");
@@ -85,6 +79,8 @@ static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis2) == 0x28, "Off
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis3) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis4) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRControllerState_t, 0x40>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRControllerState_t, "OVR.OpenVR", "VRControllerState_t");

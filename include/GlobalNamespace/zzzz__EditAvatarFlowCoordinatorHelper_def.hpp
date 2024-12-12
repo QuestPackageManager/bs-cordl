@@ -4,11 +4,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EditAvatarFlowCoordinatorHelper)
+namespace BeatSaber::AvatarCore {
+struct AvatarEditorFlowCoordinator_EditMode;
+}
+namespace BeatSaber::AvatarCore {
+struct AvatarEditorFlowCoordinator_FinishAction;
+}
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
@@ -21,41 +28,29 @@ class IAvatarSystemMetadata;
 namespace BeatSaber::AvatarCore {
 class IAvatarSystem;
 }
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__EditMode;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__FinishAction;
+namespace GlobalNamespace {
+struct AvatarSystemSelectionFlowCoordinator_FinishAction;
 }
 namespace GlobalNamespace {
 class AvatarSystemSelectionFlowCoordinator;
 }
 namespace GlobalNamespace {
+struct EditAvatarFlowCoordinatorHelper_FinishAction;
+}
+namespace GlobalNamespace {
+struct EditAvatarFlowCoordinatorHelper__Initialize_d__13;
+}
+namespace GlobalNamespace {
+struct EditAvatarFlowCoordinatorHelper__Show_d__12;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper__FinishAction;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
 }
 namespace HMUI {
 class FlowCoordinator;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -65,41 +60,40 @@ class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper__FinishAction;
+struct EditAvatarFlowCoordinatorHelper_FinishAction;
 }
 namespace GlobalNamespace {
 class EditAvatarFlowCoordinatorHelper;
 }
 namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
+struct EditAvatarFlowCoordinatorHelper__Initialize_d__13;
 }
 namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
+struct EditAvatarFlowCoordinatorHelper__Show_d__12;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction);
+MARK_VAL_T(::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction);
 MARK_REF_PTR_T(::GlobalNamespace::EditAvatarFlowCoordinatorHelper);
-MARK_VAL_T(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13);
-MARK_VAL_T(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12);
-// Type: ::FinishAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13);
+MARK_VAL_T(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::EditAvatarFlowCoordinatorHelper::FinishAction
-struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper__FinishAction {
+// CS Name: EditAvatarFlowCoordinatorHelper/FinishAction
+struct CORDL_TYPE EditAvatarFlowCoordinatorHelper_FinishAction {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____EditAvatarFlowCoordinatorHelper__FinishAction_Unwrapped
-  enum struct ____EditAvatarFlowCoordinatorHelper__FinishAction_Unwrapped : int32_t {
+  /// @brief Nested struct __EditAvatarFlowCoordinatorHelper_FinishAction_Unwrapped
+  enum struct __EditAvatarFlowCoordinatorHelper_FinishAction_Unwrapped : int32_t {
     __E_Continue = static_cast<int32_t>(0x0),
     __E_Back = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____EditAvatarFlowCoordinatorHelper__FinishAction_Unwrapped() const noexcept {
-    return static_cast<____EditAvatarFlowCoordinatorHelper__FinishAction_Unwrapped>(this->value__);
+  constexpr operator __EditAvatarFlowCoordinatorHelper_FinishAction_Unwrapped() const noexcept {
+    return static_cast<__EditAvatarFlowCoordinatorHelper_FinishAction_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -109,49 +103,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EditAvatarFlowCoordinatorHelper__FinishAction();
+  constexpr EditAvatarFlowCoordinatorHelper_FinishAction();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EditAvatarFlowCoordinatorHelper__FinishAction(int32_t value__) noexcept;
+  constexpr EditAvatarFlowCoordinatorHelper_FinishAction(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Back value: I32(1)
+  static ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction const Back;
 
-  /// @brief Field Back value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction const Back;
-
-  /// @brief Field Continue value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction const Continue;
+  /// @brief Field Continue value: I32(0)
+  static ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction const Continue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4782 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<Initialize>d__13
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::EditAvatarFlowCoordinatorHelper::<Initialize>d__13
-struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Initialize_d__13 {
+// CS Name: EditAvatarFlowCoordinatorHelper/<Initialize>d__13
+struct CORDL_TYPE EditAvatarFlowCoordinatorHelper__Initialize_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b9f3a4, size 0x494, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c014f4, size 0x494, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b9f838, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c01988, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -159,15 +152,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EditAvatarFlowCoordinatorHelper___Initialize_d__13();
+  constexpr EditAvatarFlowCoordinatorHelper__Initialize_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*",
   // modifiers: "", def_value: None }, CppParam { name: "_avatarSystem_5__2", ty: "::BeatSaber::AvatarCore::IAvatarSystem*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>", modifiers: "", def_value: None }]
-  constexpr __EditAvatarFlowCoordinatorHelper___Initialize_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                 ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this, ::BeatSaber::AvatarCore::IAvatarSystem* _avatarSystem_5__2,
-                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1) noexcept;
+  constexpr EditAvatarFlowCoordinatorHelper__Initialize_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                              ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this, ::BeatSaber::AvatarCore::IAvatarSystem* _avatarSystem_5__2,
+                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4783 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -184,43 +183,36 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4767 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13, _avatarSystem_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, _avatarSystem_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<Show>d__12
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::EditAvatarFlowCoordinatorHelper::<Show>d__12
-struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Show_d__12 {
+// CS Name: EditAvatarFlowCoordinatorHelper/<Show>d__12
+struct CORDL_TYPE EditAvatarFlowCoordinatorHelper__Show_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b9f844, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c01994, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b9fbe4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c01d34, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -228,16 +220,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EditAvatarFlowCoordinatorHelper___Show_d__12();
+  constexpr EditAvatarFlowCoordinatorHelper__Show_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*",
   // modifiers: "", def_value: None }, CppParam { name: "parentFlowCoordinator", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "immediately", ty: "bool",
   // modifiers: "", def_value: None }, CppParam { name: "replaceTopViewController", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "backButtonVisible", ty: "bool", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-  constexpr __EditAvatarFlowCoordinatorHelper___Show_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                           ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this, ::UnityW<::HMUI::FlowCoordinator> parentFlowCoordinator, bool immediately,
-                                                           bool replaceTopViewController, bool backButtonVisible, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+  constexpr EditAvatarFlowCoordinatorHelper__Show_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                        ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this, ::UnityW<::HMUI::FlowCoordinator> parentFlowCoordinator, bool immediately,
+                                                        bool replaceTopViewController, bool backButtonVisible, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4784 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -263,47 +261,40 @@ public:
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4768 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, 0x48>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, parentFlowCoordinator) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, parentFlowCoordinator) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, immediately) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, immediately) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, replaceTopViewController) == 0x39, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, replaceTopViewController) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, backButtonVisible) == 0x3a, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, backButtonVisible) == 0x3a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, __u__1) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::EditAvatarFlowCoordinatorHelper
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EditAvatarFlowCoordinatorHelper*
+// CS Name: EditAvatarFlowCoordinatorHelper
 class CORDL_TYPE EditAvatarFlowCoordinatorHelper : public ::System::Object {
 public:
   // Declarations
-  using FinishAction = ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction;
+  using FinishAction = ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction;
 
-  using _Initialize_d__13 = ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13;
+  using _Initialize_d__13 = ::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13;
 
-  using _Show_d__12 = ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12;
+  using _Show_d__12 = ::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12;
 
   /// @brief Field _avatarSystemCollection, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
@@ -330,41 +321,41 @@ public:
       _singleAvatarEditorFlowCoordinator;
 
   /// @brief Field didFinishEvent, offset 0x30, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_didFinishEvent,
-      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put =
+                          __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* didFinishEvent;
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x3b9f280, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x3c013d0, size 0xd4, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem,
-                                                         ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction finishAction);
+                                                         ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x3b9f354, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x3c014a4, size 0x48, virtual false, abstract: false, final false
   inline void HandleAvatarSystemSelectionFlowCoordinatorDidFinish(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator* flowCoordinator,
-                                                                  ::GlobalNamespace::__AvatarSystemSelectionFlowCoordinator__FinishAction finishAction);
+                                                                  ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method Initialize, addr 0x3b9f10c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c0125c, size 0x8c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* New_ctor();
 
-  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x3b9f198, size 0xe8, virtual false, abstract: false, final false
-  inline void PresentAvatarEditorFlowCoordinator(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode,
+  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x3c012e8, size 0xe8, virtual false, abstract: false, final false
+  inline void PresentAvatarEditorFlowCoordinator(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode editMode,
                                                  ::HMUI::FlowCoordinator* parentFlowCoordinator, bool immediately, bool replaceTopViewController);
 
-  /// @brief Method Show, addr 0x3b9f044, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3c01194, size 0xc8, virtual false, abstract: false, final false
   inline void Show(::HMUI::FlowCoordinator* parentFlowCoordinator, bool backButtonVisible, bool immediately, bool replaceTopViewController);
 
-  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __cordl_internal_get__avatarSystemCollection() const;
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
 
   constexpr ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator> const& __cordl_internal_get__avatarSystemSelectionFlowCoordinator() const;
 
   constexpr ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>& __cordl_internal_get__avatarSystemSelectionFlowCoordinator();
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__parentFlowCoordinator() const;
 
@@ -378,10 +369,9 @@ public:
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>& __cordl_internal_get__singleAvatarEditorFlowCoordinator();
 
-  constexpr ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>*> const&
-  __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
 
@@ -395,19 +385,19 @@ public:
 
   constexpr void __cordl_internal_set__singleAvatarEditorFlowCoordinator(::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x3b9f39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c014ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b9ee84, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* value);
+  /// @brief Method add_didFinishEvent, addr 0x3c00fd4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
-  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x3b9efe4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x3c01134, size 0x60, virtual false, abstract: false, final false
   inline bool get__hasOnlyOneAvatarSystem();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b9ef34, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* value);
+  /// @brief Method remove_didFinishEvent, addr 0x3c01084, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
 protected:
   // Ctor Parameters []
@@ -423,6 +413,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditAvatarFlowCoordinatorHelper(EditAvatarFlowCoordinatorHelper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4785 };
+
   /// @brief Field _avatarSystemSelectionFlowCoordinator, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator> ____avatarSystemSelectionFlowCoordinator;
 
@@ -436,7 +429,7 @@ public:
   ::Zenject::DiContainer* ____container;
 
   /// @brief Field didFinishEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* ___didFinishEvent;
 
   /// @brief Field _parentFlowCoordinator, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::HMUI::FlowCoordinator> ____parentFlowCoordinator;
@@ -444,14 +437,9 @@ public:
   /// @brief Field _singleAvatarEditorFlowCoordinator, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator> ____singleAvatarEditorFlowCoordinator;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4769 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditAvatarFlowCoordinatorHelper, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper, ____avatarSystemSelectionFlowCoordinator) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper, ____playerDataModel) == 0x18, "Offset mismatch!");
@@ -466,9 +454,11 @@ static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper, ____p
 
 static_assert(offsetof(::GlobalNamespace::EditAvatarFlowCoordinatorHelper, ____singleAvatarEditorFlowCoordinator) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditAvatarFlowCoordinatorHelper, 0x48>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction, "", "EditAvatarFlowCoordinatorHelper/FinishAction");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction, "", "EditAvatarFlowCoordinatorHelper/FinishAction");
 NEED_NO_BOX(::GlobalNamespace::EditAvatarFlowCoordinatorHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditAvatarFlowCoordinatorHelper*, "", "EditAvatarFlowCoordinatorHelper");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, "", "EditAvatarFlowCoordinatorHelper/<Initialize>d__13");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, "", "EditAvatarFlowCoordinatorHelper/<Show>d__12");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13, "", "EditAvatarFlowCoordinatorHelper/<Initialize>d__13");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12, "", "EditAvatarFlowCoordinatorHelper/<Show>d__12");

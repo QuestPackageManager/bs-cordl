@@ -17,15 +17,14 @@ class Test_LayerMask_Extensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LayerMask_Extensions);
-// Type: HoudiniEngineUnity::Test_LayerMask_Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::Test_LayerMask_Extensions*
+// CS Name: HoudiniEngineUnity.Test_LayerMask_Extensions
 class CORDL_TYPE Test_LayerMask_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x3a44174, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9ade4, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_LayerMask* ToTestObject(::UnityEngine::LayerMask self);
 
 protected:
@@ -43,7 +42,7 @@ public:
   Test_LayerMask_Extensions(Test_LayerMask_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11908 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

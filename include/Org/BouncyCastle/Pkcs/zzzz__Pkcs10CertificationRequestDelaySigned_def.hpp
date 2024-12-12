@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs10CertificationRequest_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs10CertificationRequestDelaySigned)
@@ -32,15 +31,14 @@ class Pkcs10CertificationRequestDelaySigned;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned);
-// Type: Org.BouncyCastle.Pkcs::Pkcs10CertificationRequestDelaySigned
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Pkcs.Pkcs10CertificationRequest
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkcs::Pkcs10CertificationRequestDelaySigned*
+// CS Name: Org.BouncyCastle.Pkcs.Pkcs10CertificationRequestDelaySigned
 class CORDL_TYPE Pkcs10CertificationRequestDelaySigned : public ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest {
 public:
   // Declarations
-  /// @brief Method GetDataToSign, addr 0x252531c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDataToSign, addr 0x2558608, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDataToSign();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor();
@@ -60,29 +58,29 @@ public:
                                                                                            ::Org::BouncyCastle::Asn1::Asn1Set* attributes,
                                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
-  /// @brief Method SignRequest, addr 0x2525338, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SignRequest, addr 0x2558624, size 0x68, virtual false, abstract: false, final false
   inline void SignRequest(::ArrayW<uint8_t, ::Array<uint8_t>*> signedData);
 
-  /// @brief Method SignRequest, addr 0x25253a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SignRequest, addr 0x255868c, size 0x8, virtual false, abstract: false, final false
   inline void SignRequest(::Org::BouncyCastle::Asn1::DerBitString* signedData);
 
-  /// @brief Method .ctor, addr 0x2524acc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2557db8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2524b24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2557e10, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor, addr 0x2524bf0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2557edc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x2524b88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2557e74, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x2524ce8, size 0x634, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2557fd4, size 0x634, virtual false, abstract: false, final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor, addr 0x2524c54, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2557f40, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 

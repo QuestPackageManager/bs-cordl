@@ -18,25 +18,24 @@ class AsyncHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::AsyncHelper);
-// Type: System.Xml::AsyncHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::AsyncHelper*
+// CS Name: System.Xml.AsyncHelper
 class CORDL_TYPE AsyncHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DoneTask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoneTask, put = setStaticF_DoneTask)) ::System::Threading::Tasks::Task* DoneTask;
+  __declspec(property(get = getStaticF_DoneTask, put = setStaticF_DoneTask)) ::System::Threading::Tasks::Task* DoneTask;
 
   /// @brief Field DoneTaskFalse, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoneTaskFalse, put = setStaticF_DoneTaskFalse)) ::System::Threading::Tasks::Task_1<bool>* DoneTaskFalse;
+  __declspec(property(get = getStaticF_DoneTaskFalse, put = setStaticF_DoneTaskFalse)) ::System::Threading::Tasks::Task_1<bool>* DoneTaskFalse;
 
   /// @brief Field DoneTaskTrue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoneTaskTrue, put = setStaticF_DoneTaskTrue)) ::System::Threading::Tasks::Task_1<bool>* DoneTaskTrue;
+  __declspec(property(get = getStaticF_DoneTaskTrue, put = setStaticF_DoneTaskTrue)) ::System::Threading::Tasks::Task_1<bool>* DoneTaskTrue;
 
   /// @brief Field DoneTaskZero, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoneTaskZero, put = setStaticF_DoneTaskZero)) ::System::Threading::Tasks::Task_1<int32_t>* DoneTaskZero;
+  __declspec(property(get = getStaticF_DoneTaskZero, put = setStaticF_DoneTaskZero)) ::System::Threading::Tasks::Task_1<int32_t>* DoneTaskZero;
 
   static inline ::System::Threading::Tasks::Task* getStaticF_DoneTask();
 
@@ -69,7 +68,7 @@ public:
   AsyncHelper(AsyncHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

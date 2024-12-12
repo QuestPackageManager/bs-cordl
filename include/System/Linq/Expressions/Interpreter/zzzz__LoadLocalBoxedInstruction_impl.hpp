@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40869ac;
+  constexpr static std::size_t addrs = 0x40e7cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40869d4;
+  constexpr static std::size_t addrs = 0x40e7ce8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40869dc;
+  constexpr static std::size_t addrs = 0x40e7cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::Run)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4086a1c;
+  constexpr static std::size_t addrs = 0x40e7d30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,9 +66,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction* System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::New_ctor(int32_t index) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction*>(index));
-}
 inline void System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::_ctor(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction*>::get(), ".ctor",
@@ -92,6 +89,9 @@ inline int32_t System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction* System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::New_ctor(int32_t index) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction*>(index));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction::LoadLocalBoxedInstruction() {}

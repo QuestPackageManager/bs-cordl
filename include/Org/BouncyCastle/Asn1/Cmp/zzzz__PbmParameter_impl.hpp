@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22c2a60;
+  constexpr static std::size_t addrs = 0x22f5d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PbmParameter* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22c2b0c;
+  constexpr static std::size_t addrs = 0x22f5df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22c2c88;
+  constexpr static std::size_t addrs = 0x22f5f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22c2d48;
+  constexpr static std::size_t addrs = 0x22f6034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_Salt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c2d88;
+  constexpr static std::size_t addrs = 0x22f6074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_Owf)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c2d90;
+  constexpr static std::size_t addrs = 0x22f607c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c2d98;
+  constexpr static std::size_t addrs = 0x22f6084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_Mac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c2da0;
+  constexpr static std::size_t addrs = 0x22f608c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::ToAsn1Object)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x22c2da8;
+  constexpr static std::size_t addrs = 0x22f6094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& Org::BouncyCastle::Asn1::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___salt;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_salt() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_salt() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___salt;
 }
@@ -167,7 +167,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owf;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_owf() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_owf() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owf;
 }
@@ -179,7 +179,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Cmp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_iterationCount() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_iterationCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
@@ -191,16 +191,13 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_mac() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_get_mac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
 constexpr void Org::BouncyCastle::Asn1::Cmp::PbmParameter::__cordl_internal_set_mac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mac)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* Org::BouncyCastle::Asn1::Cmp::PbmParameter::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -214,11 +211,6 @@ inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* Org::BouncyCastle::Asn1::Cm
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* Org::BouncyCastle::Asn1::Cmp::PbmParameter::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
-                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
-                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>(salt, owf, iterationCount, mac));
-}
 inline void Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
                                                               ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -228,12 +220,6 @@ inline void Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor(::ArrayW<uint8_t, 
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, salt, owf, iterationCount, mac);
-}
-inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* Org::BouncyCastle::Asn1::Cmp::PbmParameter::New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* salt,
-                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf,
-                                                                                                          ::Org::BouncyCastle::Asn1::DerInteger* iterationCount,
-                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>(salt, owf, iterationCount, mac));
 }
 inline void Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf,
                                                               ::Org::BouncyCastle::Asn1::DerInteger* iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac) {
@@ -269,6 +255,20 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::PbmP
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* Org::BouncyCastle::Asn1::Cmp::PbmParameter::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* Org::BouncyCastle::Asn1::Cmp::PbmParameter::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
+                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
+                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>(salt, owf, iterationCount, mac));
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* Org::BouncyCastle::Asn1::Cmp::PbmParameter::New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* salt,
+                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf,
+                                                                                                          ::Org::BouncyCastle::Asn1::DerInteger* iterationCount,
+                                                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>(salt, owf, iterationCount, mac));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter::PbmParameter() {}

@@ -11,17 +11,16 @@ class AndroidGamepadWithDpadButtons;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons);
-// Type: UnityEngine.InputSystem.Android::AndroidGamepadWithDpadButtons
-// SizeInfo { instance_size: 496, native_size: -1, calculated_instance_size: 496, calculated_native_size: 496, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Android.AndroidGamepad
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidGamepadWithDpadButtons*
+// CS Name: UnityEngine.InputSystem.Android.AndroidGamepadWithDpadButtons
 class CORDL_TYPE AndroidGamepadWithDpadButtons : public ::UnityEngine::InputSystem::Android::AndroidGamepad {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46043b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidGamepadWithDpadButtons(AndroidGamepadWithDpadButtons const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

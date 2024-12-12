@@ -24,11 +24,10 @@ class JsonWriterException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonWriterException);
-// Type: Newtonsoft.Json::JsonWriterException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonException
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonWriterException*
+// CS Name: Newtonsoft.Json.JsonWriterException
 class CORDL_TYPE JsonWriterException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
@@ -37,10 +36,10 @@ public:
   /// @brief Field <Path>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField)) ::StringW _Path_k__BackingField;
 
-  /// @brief Method Create, addr 0x3e5c1bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ebc268, size 0xb4, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x3e5b4b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ebb560, size 0x34, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::Newtonsoft::Json::JsonWriter* writer, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonWriterException* New_ctor();
@@ -59,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e5c170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebc21c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e5c188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebc234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e5c178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebc224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e5c180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebc22c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3e5c190, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebc23c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW path, ::System::Exception* innerException);
 
-  /// @brief Method get_Path, addr 0x3e5c168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3ebc214, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -91,18 +90,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonWriterException(JsonWriterException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10162 };
+
   /// @brief Field <Path>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____Path_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonWriterException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::JsonWriterException, ____Path_k__BackingField) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonWriterException, 0x98>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonWriterException);

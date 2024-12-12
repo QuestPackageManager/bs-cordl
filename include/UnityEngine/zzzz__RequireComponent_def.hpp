@@ -14,11 +14,10 @@ class RequireComponent;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::RequireComponent);
-// Type: UnityEngine::RequireComponent
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::RequireComponent*
+// CS Name: UnityEngine.RequireComponent
 class CORDL_TYPE RequireComponent : public ::System::Attribute {
 public:
   // Declarations
@@ -35,17 +34,17 @@ public:
 
   static inline ::UnityEngine::RequireComponent* New_ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
+  constexpr ::System::Type* const& __cordl_internal_get_m_Type0() const;
+
   constexpr ::System::Type*& __cordl_internal_get_m_Type0();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type0() const;
+  constexpr ::System::Type* const& __cordl_internal_get_m_Type1() const;
 
   constexpr ::System::Type*& __cordl_internal_get_m_Type1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type1() const;
+  constexpr ::System::Type* const& __cordl_internal_get_m_Type2() const;
 
   constexpr ::System::Type*& __cordl_internal_get_m_Type2();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type2() const;
 
   constexpr void __cordl_internal_set_m_Type0(::System::Type* value);
 
@@ -53,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type2(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4845608, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a633c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor, addr 0x4845630, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6364, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
 protected:
@@ -73,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RequireComponent(RequireComponent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10856 };
+
   /// @brief Field m_Type0, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___m_Type0;
 
@@ -82,19 +84,16 @@ public:
   /// @brief Field m_Type2, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___m_Type2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10823 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::RequireComponent, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::RequireComponent, ___m_Type0) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::RequireComponent, ___m_Type1) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::RequireComponent, ___m_Type2) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::RequireComponent, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::RequireComponent);

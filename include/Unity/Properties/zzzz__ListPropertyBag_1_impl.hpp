@@ -19,13 +19,13 @@ template <typename TElement> inline ::System::Collections::Generic::List_1<TElem
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ListPropertyBag_1<TElement>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<TElement>*, false>(this, ___internal_method);
 }
-template <typename TElement> inline ::Unity::Properties::ListPropertyBag_1<TElement>* Unity::Properties::ListPropertyBag_1<TElement>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::ListPropertyBag_1<TElement>*>());
-}
 template <typename TElement> inline void Unity::Properties::ListPropertyBag_1<TElement>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ListPropertyBag_1<TElement>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TElement> inline ::Unity::Properties::ListPropertyBag_1<TElement>* Unity::Properties::ListPropertyBag_1<TElement>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::ListPropertyBag_1<TElement>*>());
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::Unity::Properties::ListPropertyBag_1<TElement>::ListPropertyBag_1() {}

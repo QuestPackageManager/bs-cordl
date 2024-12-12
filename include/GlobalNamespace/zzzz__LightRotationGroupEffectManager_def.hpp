@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LightRotationGroupEffectManager)
 namespace GlobalNamespace {
 class LightRotationGroupEffect;
@@ -24,11 +23,10 @@ class LightRotationGroupEffectManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroupEffectManager);
-// Type: ::LightRotationGroupEffectManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightRotationGroupEffectManager*
+// CS Name: LightRotationGroupEffectManager
 class CORDL_TYPE LightRotationGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -46,19 +44,19 @@ public:
 
   static inline ::GlobalNamespace::LightRotationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2cc0c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8e1a4, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b2c6c0, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8dc58, size 0x54c, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* const& __cordl_internal_get__lightRotationGroupEffects() const;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*& __cordl_internal_get__lightRotationGroupEffects();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*> const& __cordl_internal_get__lightRotationGroupEffects() const;
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> const& __cordl_internal_get__lightRotationGroups() const;
 
@@ -70,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__lightRotationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b2cd54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8e2ec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationGroupEffectManager(LightRotationGroupEffectManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4306 };
+
   /// @brief Field _lightRotationGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> ____lightRotationGroups;
 
@@ -96,19 +97,16 @@ public:
   /// @brief Field _lightRotationGroupEffects, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* ____lightRotationGroupEffects;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroupEffectManager, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____lightRotationGroups) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____container) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____lightRotationGroupEffects) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroupEffectManager, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightRotationGroupEffectManager);

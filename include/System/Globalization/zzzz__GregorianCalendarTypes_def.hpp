@@ -12,11 +12,10 @@ struct GregorianCalendarTypes;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::GregorianCalendarTypes);
-// Type: System.Globalization::GregorianCalendarTypes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::System.Globalization::GregorianCalendarTypes
+// CS Name: System.Globalization.GregorianCalendarTypes
 struct CORDL_TYPE GregorianCalendarTypes {
 public:
   // Declarations
@@ -49,25 +48,22 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr GregorianCalendarTypes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Arabic value: static_cast<int32_t>(0xa)
+  /// @brief Field Arabic value: I32(10)
   static ::System::Globalization::GregorianCalendarTypes const Arabic;
 
-  /// @brief Field Localized value: static_cast<int32_t>(0x1)
+  /// @brief Field Localized value: I32(1)
   static ::System::Globalization::GregorianCalendarTypes const Localized;
 
-  /// @brief Field MiddleEastFrench value: static_cast<int32_t>(0x9)
+  /// @brief Field MiddleEastFrench value: I32(9)
   static ::System::Globalization::GregorianCalendarTypes const MiddleEastFrench;
 
-  /// @brief Field TransliteratedEnglish value: static_cast<int32_t>(0xb)
+  /// @brief Field TransliteratedEnglish value: I32(11)
   static ::System::Globalization::GregorianCalendarTypes const TransliteratedEnglish;
 
-  /// @brief Field TransliteratedFrench value: static_cast<int32_t>(0xc)
+  /// @brief Field TransliteratedFrench value: I32(12)
   static ::System::Globalization::GregorianCalendarTypes const TransliteratedFrench;
 
-  /// @brief Field USEnglish value: static_cast<int32_t>(0x2)
+  /// @brief Field USEnglish value: I32(2)
   static ::System::Globalization::GregorianCalendarTypes const USEnglish;
 
   /// @brief IL2CPP Metadata Type Index
@@ -76,12 +72,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::GregorianCalendarTypes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::GregorianCalendarTypes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::GregorianCalendarTypes, 0x4>, "Size mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::GregorianCalendarTypes, "System.Globalization", "GregorianCalendarTypes");

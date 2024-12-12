@@ -4,10 +4,10 @@
 #include "GlobalNamespace/zzzz__GameplayModifiersConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersConfiguration_def.hpp"
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed::__GameplayModifiersConfiguration__SongSpeed() {}
+constexpr ::GlobalNamespace::GameplayModifiersConfiguration_SongSpeed::GameplayModifiersConfiguration_SongSpeed() {}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTolerance::__GameplayModifiersConfiguration__CutAngleTolerance() {}
+constexpr ::GlobalNamespace::GameplayModifiersConfiguration_CutAngleTolerance::GameplayModifiersConfiguration_CutAngleTolerance() {}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiersConfiguration__NoteUniformScale::__GameplayModifiersConfiguration__NoteUniformScale() {}
+constexpr ::GlobalNamespace::GameplayModifiersConfiguration_NoteUniformScale::GameplayModifiersConfiguration_NoteUniformScale() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifiersConfiguration::GameplayModifiersConfiguration() {}

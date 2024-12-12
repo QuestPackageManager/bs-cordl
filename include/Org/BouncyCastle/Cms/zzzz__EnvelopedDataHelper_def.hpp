@@ -35,35 +35,34 @@ class EnvelopedDataHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::EnvelopedDataHelper);
-// Type: Org.BouncyCastle.Cms::EnvelopedDataHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::EnvelopedDataHelper*
+// CS Name: Org.BouncyCastle.Cms.EnvelopedDataHelper
 class CORDL_TYPE EnvelopedDataHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BaseCipherNames, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_BaseCipherNames, put = setStaticF_BaseCipherNames)) ::System::Collections::IDictionary* BaseCipherNames;
+  __declspec(property(get = getStaticF_BaseCipherNames, put = setStaticF_BaseCipherNames)) ::System::Collections::IDictionary* BaseCipherNames;
 
   /// @brief Field MacAlgNames, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MacAlgNames, put = setStaticF_MacAlgNames)) ::System::Collections::IDictionary* MacAlgNames;
+  __declspec(property(get = getStaticF_MacAlgNames, put = setStaticF_MacAlgNames)) ::System::Collections::IDictionary* MacAlgNames;
 
-  /// @brief Method CreateContentCipher, addr 0x2641840, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x2674b2c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
-  /// @brief Method CreateKeyGenerator, addr 0x2641940, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyGenerator, addr 0x2674c2c, size 0x10, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x26418b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0x2674b9c, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID,
                                                                                        ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey,
                                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::EnvelopedDataHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2641950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2674c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();

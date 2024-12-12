@@ -12,11 +12,10 @@ struct CameraEvent;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CameraEvent);
-// Type: UnityEngine.Rendering::CameraEvent
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::CameraEvent
+// CS Name: UnityEngine.Rendering.CameraEvent
 struct CORDL_TYPE CameraEvent {
 public:
   // Declarations
@@ -68,96 +67,96 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CameraEvent(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AfterDepthNormalsTexture value: static_cast<int32_t>(0x3)
+  /// @brief Field AfterDepthNormalsTexture value: I32(3)
   static ::UnityEngine::Rendering::CameraEvent const AfterDepthNormalsTexture;
 
-  /// @brief Field AfterDepthTexture value: static_cast<int32_t>(0x1)
+  /// @brief Field AfterDepthTexture value: I32(1)
   static ::UnityEngine::Rendering::CameraEvent const AfterDepthTexture;
 
-  /// @brief Field AfterEverything value: static_cast<int32_t>(0x14)
+  /// @brief Field AfterEverything value: I32(20)
   static ::UnityEngine::Rendering::CameraEvent const AfterEverything;
 
-  /// @brief Field AfterFinalPass value: static_cast<int32_t>(0x9)
+  /// @brief Field AfterFinalPass value: I32(9)
   static ::UnityEngine::Rendering::CameraEvent const AfterFinalPass;
 
-  /// @brief Field AfterForwardAlpha value: static_cast<int32_t>(0x11)
+  /// @brief Field AfterForwardAlpha value: I32(17)
   static ::UnityEngine::Rendering::CameraEvent const AfterForwardAlpha;
 
-  /// @brief Field AfterForwardOpaque value: static_cast<int32_t>(0xb)
+  /// @brief Field AfterForwardOpaque value: I32(11)
   static ::UnityEngine::Rendering::CameraEvent const AfterForwardOpaque;
 
-  /// @brief Field AfterGBuffer value: static_cast<int32_t>(0x5)
+  /// @brief Field AfterGBuffer value: I32(5)
   static ::UnityEngine::Rendering::CameraEvent const AfterGBuffer;
 
-  /// @brief Field AfterHaloAndLensFlares value: static_cast<int32_t>(0x18)
+  /// @brief Field AfterHaloAndLensFlares value: I32(24)
   static ::UnityEngine::Rendering::CameraEvent const AfterHaloAndLensFlares;
 
-  /// @brief Field AfterImageEffects value: static_cast<int32_t>(0x13)
+  /// @brief Field AfterImageEffects value: I32(19)
   static ::UnityEngine::Rendering::CameraEvent const AfterImageEffects;
 
-  /// @brief Field AfterImageEffectsOpaque value: static_cast<int32_t>(0xd)
+  /// @brief Field AfterImageEffectsOpaque value: I32(13)
   static ::UnityEngine::Rendering::CameraEvent const AfterImageEffectsOpaque;
 
-  /// @brief Field AfterLighting value: static_cast<int32_t>(0x7)
+  /// @brief Field AfterLighting value: I32(7)
   static ::UnityEngine::Rendering::CameraEvent const AfterLighting;
 
-  /// @brief Field AfterReflections value: static_cast<int32_t>(0x16)
+  /// @brief Field AfterReflections value: I32(22)
   static ::UnityEngine::Rendering::CameraEvent const AfterReflections;
 
-  /// @brief Field AfterSkybox value: static_cast<int32_t>(0xf)
+  /// @brief Field AfterSkybox value: I32(15)
   static ::UnityEngine::Rendering::CameraEvent const AfterSkybox;
 
-  /// @brief Field BeforeDepthNormalsTexture value: static_cast<int32_t>(0x2)
+  /// @brief Field BeforeDepthNormalsTexture value: I32(2)
   static ::UnityEngine::Rendering::CameraEvent const BeforeDepthNormalsTexture;
 
-  /// @brief Field BeforeDepthTexture value: static_cast<int32_t>(0x0)
+  /// @brief Field BeforeDepthTexture value: I32(0)
   static ::UnityEngine::Rendering::CameraEvent const BeforeDepthTexture;
 
-  /// @brief Field BeforeFinalPass value: static_cast<int32_t>(0x8)
+  /// @brief Field BeforeFinalPass value: I32(8)
   static ::UnityEngine::Rendering::CameraEvent const BeforeFinalPass;
 
-  /// @brief Field BeforeForwardAlpha value: static_cast<int32_t>(0x10)
+  /// @brief Field BeforeForwardAlpha value: I32(16)
   static ::UnityEngine::Rendering::CameraEvent const BeforeForwardAlpha;
 
-  /// @brief Field BeforeForwardOpaque value: static_cast<int32_t>(0xa)
+  /// @brief Field BeforeForwardOpaque value: I32(10)
   static ::UnityEngine::Rendering::CameraEvent const BeforeForwardOpaque;
 
-  /// @brief Field BeforeGBuffer value: static_cast<int32_t>(0x4)
+  /// @brief Field BeforeGBuffer value: I32(4)
   static ::UnityEngine::Rendering::CameraEvent const BeforeGBuffer;
 
-  /// @brief Field BeforeHaloAndLensFlares value: static_cast<int32_t>(0x17)
+  /// @brief Field BeforeHaloAndLensFlares value: I32(23)
   static ::UnityEngine::Rendering::CameraEvent const BeforeHaloAndLensFlares;
 
-  /// @brief Field BeforeImageEffects value: static_cast<int32_t>(0x12)
+  /// @brief Field BeforeImageEffects value: I32(18)
   static ::UnityEngine::Rendering::CameraEvent const BeforeImageEffects;
 
-  /// @brief Field BeforeImageEffectsOpaque value: static_cast<int32_t>(0xc)
+  /// @brief Field BeforeImageEffectsOpaque value: I32(12)
   static ::UnityEngine::Rendering::CameraEvent const BeforeImageEffectsOpaque;
 
-  /// @brief Field BeforeLighting value: static_cast<int32_t>(0x6)
+  /// @brief Field BeforeLighting value: I32(6)
   static ::UnityEngine::Rendering::CameraEvent const BeforeLighting;
 
-  /// @brief Field BeforeReflections value: static_cast<int32_t>(0x15)
+  /// @brief Field BeforeReflections value: I32(21)
   static ::UnityEngine::Rendering::CameraEvent const BeforeReflections;
 
-  /// @brief Field BeforeSkybox value: static_cast<int32_t>(0xe)
+  /// @brief Field BeforeSkybox value: I32(14)
   static ::UnityEngine::Rendering::CameraEvent const BeforeSkybox;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11187 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CameraEvent, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::CameraEvent, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CameraEvent, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CameraEvent, "UnityEngine.Rendering", "CameraEvent");

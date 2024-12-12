@@ -25,11 +25,10 @@ class XmlParserContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlParserContext);
-// Type: System.Xml::XmlParserContext
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.XmlSpace
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlParserContext*
+// CS Name: System.Xml.XmlParserContext
 class CORDL_TYPE XmlParserContext : public ::System::Object {
 public:
   // Declarations
@@ -101,21 +100,21 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__docTypeName();
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get__encoding() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
   constexpr ::StringW const& __cordl_internal_get__internalSubset() const;
 
   constexpr ::StringW& __cordl_internal_get__internalSubset();
 
+  constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get__nsMgr() const;
+
   constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get__nsMgr();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& __cordl_internal_get__nsMgr() const;
+  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get__nt() const;
 
   constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get__nt();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get__nt() const;
 
   constexpr ::StringW const& __cordl_internal_get__pubId() const;
 
@@ -153,48 +152,48 @@ public:
 
   constexpr void __cordl_internal_set__xmlSpace(::System::Xml::XmlSpace value);
 
-  /// @brief Method .ctor, addr 0x42b1ee8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43131fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI,
                     ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace);
 
-  /// @brief Method .ctor, addr 0x42b1f14, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4313228, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI,
                     ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace, ::System::Text::Encoding* enc);
 
-  /// @brief Method .ctor, addr 0x42b1e48, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x431315c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace);
 
-  /// @brief Method get_BaseURI, addr 0x42b20f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseURI, addr 0x4313408, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_DocTypeName, addr 0x42b20dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocTypeName, addr 0x43133f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocTypeName();
 
-  /// @brief Method get_Encoding, addr 0x42b2114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x4313428, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_HasDtdInfo, addr 0x42b211c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_HasDtdInfo, addr 0x4313430, size 0x9c, virtual false, abstract: false, final false
   inline bool get_HasDtdInfo();
 
-  /// @brief Method get_InternalSubset, addr 0x42b20fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x4313410, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_NameTable, addr 0x42b20cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x43133e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceManager, addr 0x42b20d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceManager, addr 0x43133e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamespaceManager* get_NamespaceManager();
 
-  /// @brief Method get_PublicId, addr 0x42b20e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x43133f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x42b20ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x4313400, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
-  /// @brief Method get_XmlLang, addr 0x42b2104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlLang, addr 0x4313418, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlLang();
 
-  /// @brief Method get_XmlSpace, addr 0x42b210c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlSpace, addr 0x4313420, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlSpace get_XmlSpace();
 
 protected:
@@ -210,6 +209,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlParserContext", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlParserContext(XmlParserContext const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7220 };
 
   /// @brief Field _nt, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNameTable* ____nt;
@@ -241,14 +243,9 @@ public:
   /// @brief Field _encoding, offset: 0x58, size: 0x8, def value: None
   ::System::Text::Encoding* ____encoding;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7195 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlParserContext, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlParserContext, ____nt) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlParserContext, ____nsMgr) == 0x18, "Offset mismatch!");
@@ -268,6 +265,8 @@ static_assert(offsetof(::System::Xml::XmlParserContext, ____xmlSpace) == 0x48, "
 static_assert(offsetof(::System::Xml::XmlParserContext, ____baseURI) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlParserContext, ____encoding) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlParserContext, 0x60>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlParserContext);

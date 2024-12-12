@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeEventCalls)
@@ -20,33 +19,32 @@ class NativeEventCalls;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::NativeEventCalls);
-// Type: System.Threading::NativeEventCalls
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::NativeEventCalls*
+// CS Name: System.Threading.NativeEventCalls
 class CORDL_TYPE NativeEventCalls : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseEvent_internal, addr 0x3dfaed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseEvent_internal, addr 0x3e5af7c, size 0x4, virtual false, abstract: false, final false
   static inline void CloseEvent_internal(::System::IntPtr handle);
 
-  /// @brief Method CreateEvent_icall, addr 0x3dfacdc, size 0xc, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ByRef<int32_t> errorCode);
+  /// @brief Method CreateEvent_icall, addr 0x3e5ad88, size 0xc, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ::ByRef<int32_t> errorCode);
 
-  /// @brief Method CreateEvent_internal, addr 0x3dfac88, size 0x54, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int32_t> errorCode);
+  /// @brief Method CreateEvent_internal, addr 0x3e5ad34, size 0x54, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CreateEvent_internal(bool manual, bool initial, ::StringW name, ::ByRef<int32_t> errorCode);
 
-  /// @brief Method ResetEvent, addr 0x3dfaddc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent, addr 0x3e5ae88, size 0xf0, virtual false, abstract: false, final false
   static inline bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method ResetEvent_internal, addr 0x3dfaecc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent_internal, addr 0x3e5af78, size 0x4, virtual false, abstract: false, final false
   static inline bool ResetEvent_internal(::System::IntPtr handle);
 
-  /// @brief Method SetEvent, addr 0x3dface8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetEvent, addr 0x3e5ad94, size 0xf0, virtual false, abstract: false, final false
   static inline bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method SetEvent_internal, addr 0x3dfadd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetEvent_internal, addr 0x3e5ae84, size 0x4, virtual false, abstract: false, final false
   static inline bool SetEvent_internal(::System::IntPtr handle);
 
 protected:

@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::System::Xml::Serialization::XmlAttributeOverrides*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4305fbc;
+  constexpr static std::size_t addrs = 0x43672d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Serialization::XmlTypeSerializationSource::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x43060c0;
+  constexpr static std::size_t addrs = 0x43673d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Serialization::XmlTypeSerializationSource::*)()>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x43061a0;
+  constexpr static std::size_t addrs = 0x43674b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ constexpr ::System::Type*& System::Xml::Serialization::XmlTypeSerializationSourc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Xml::Serialization::XmlTypeSerializationSource::__cordl_internal_get_type() const {
+constexpr ::System::Type* const& System::Xml::Serialization::XmlTypeSerializationSource::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
@@ -93,12 +93,6 @@ constexpr ::StringW const& System::Xml::Serialization::XmlTypeSerializationSourc
 constexpr void System::Xml::Serialization::XmlTypeSerializationSource::__cordl_internal_set_rootHash(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Serialization::XmlTypeSerializationSource*
-System::Xml::Serialization::XmlTypeSerializationSource::New_ctor(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root,
-                                                                 ::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::StringW namspace,
-                                                                 ::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlTypeSerializationSource*>(type, root, attributeOverrides, namspace, includedTypes));
 }
 inline void System::Xml::Serialization::XmlTypeSerializationSource::_ctor(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                           ::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::StringW namspace,
@@ -122,6 +116,12 @@ inline int32_t System::Xml::Serialization::XmlTypeSerializationSource::GetHashCo
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlTypeSerializationSource*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Xml::Serialization::XmlTypeSerializationSource*
+System::Xml::Serialization::XmlTypeSerializationSource::New_ctor(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root,
+                                                                 ::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::StringW namspace,
+                                                                 ::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlTypeSerializationSource*>(type, root, attributeOverrides, namspace, includedTypes));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlTypeSerializationSource::XmlTypeSerializationSource() {}

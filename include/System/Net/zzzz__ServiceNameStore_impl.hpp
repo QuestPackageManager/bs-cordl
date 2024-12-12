@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServiceNameStore::*)()>(&::System::Net::ServiceNameStore::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4448748;
+  constexpr static std::size_t addrs = 0x44a9a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServiceNameStore*>::get(), ".ctor",
@@ -21,7 +21,7 @@ constexpr ::System::Collections::Generic::List_1<::StringW>*& System::Net::Servi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serviceNames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& System::Net::ServiceNameStore::__cordl_internal_get_serviceNames() const {
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& System::Net::ServiceNameStore::__cordl_internal_get_serviceNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serviceNames;
 }
@@ -33,8 +33,7 @@ constexpr ::System::Security::Authentication::ExtendedProtection::ServiceNameCol
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serviceNameCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*> const&
-System::Net::ServiceNameStore::__cordl_internal_get_serviceNameCollection() const {
+constexpr ::System::Security::Authentication::ExtendedProtection::ServiceNameCollection* const& System::Net::ServiceNameStore::__cordl_internal_get_serviceNameCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serviceNameCollection;
 }
@@ -42,13 +41,13 @@ constexpr void System::Net::ServiceNameStore::__cordl_internal_set_serviceNameCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serviceNameCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Net::ServiceNameStore* System::Net::ServiceNameStore::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::ServiceNameStore*>());
-}
 inline void System::Net::ServiceNameStore::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServiceNameStore*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Net::ServiceNameStore* System::Net::ServiceNameStore::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::ServiceNameStore*>());
 }
 // Ctor Parameters []
 constexpr ::System::Net::ServiceNameStore::ServiceNameStore() {}

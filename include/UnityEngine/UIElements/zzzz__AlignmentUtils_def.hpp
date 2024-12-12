@@ -12,18 +12,17 @@ class AlignmentUtils;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::AlignmentUtils);
-// Type: UnityEngine.UIElements::AlignmentUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::AlignmentUtils*
+// CS Name: UnityEngine.UIElements.AlignmentUtils
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CeilToPixelGrid, addr 0x49083f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CeilToPixelGrid, addr 0x496cba8, size 0x14, virtual false, abstract: false, final false
   static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
-  /// @brief Method RoundToPixelGrid, addr 0x49083dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RoundToPixelGrid, addr 0x496cb8c, size 0x1c, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
 protected:
@@ -41,7 +40,7 @@ public:
   AlignmentUtils(AlignmentUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

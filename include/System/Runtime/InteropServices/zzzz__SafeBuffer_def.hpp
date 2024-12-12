@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 #include "System/zzzz__UIntPtr_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeBuffer)
 namespace System {
@@ -17,27 +16,26 @@ class SafeBuffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeBuffer);
-// Type: System.Runtime.InteropServices::SafeBuffer
-// SizeInfo { instance_size: 40, native_size: 8, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid, System.UIntPtr
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::SafeBuffer*
+// CS Name: System.Runtime.InteropServices.SafeBuffer
 class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
   /// @brief Field Uninitialized, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) ::System::UIntPtr Uninitialized;
+  __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) ::System::UIntPtr Uninitialized;
 
   /// @brief Field _numBytes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) ::System::UIntPtr _numBytes;
 
-  /// @brief Method AcquirePointer, addr 0x3cb2d80, size 0xd0, virtual false, abstract: false, final false
-  inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
+  /// @brief Method AcquirePointer, addr 0x3d12ef4, size 0xd0, virtual false, abstract: false, final false
+  inline void AcquirePointer(::ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
 
-  /// @brief Method NotInitialized, addr 0x3cb2e50, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NotInitialized, addr 0x3d12fc4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* NotInitialized();
 
-  /// @brief Method ReleasePointer, addr 0x3cb2f80, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x3d130f4, size 0xa8, virtual false, abstract: false, final false
   inline void ReleasePointer();
 
   constexpr ::System::UIntPtr const& __cordl_internal_get__numBytes() const;
@@ -64,18 +62,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeBuffer(SafeBuffer const&) = delete;
 
-  /// @brief Field _numBytes, offset: 0x20, size: 0x8, def value: None
-  ::System::UIntPtr ____numBytes;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3309 };
+
+  /// @brief Field _numBytes, offset: 0x20, size: 0x8, def value: None
+  ::System::UIntPtr ____numBytes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::SafeBuffer, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::SafeBuffer, ____numBytes) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::SafeBuffer, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::SafeBuffer);

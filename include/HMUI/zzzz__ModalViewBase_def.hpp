@@ -14,29 +14,28 @@ class ModalViewBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ModalViewBase);
-// Type: HMUI::ModalViewBase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ModalViewBase*
+// CS Name: HMUI.ModalViewBase
 class CORDL_TYPE ModalViewBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Hide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Hide, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Hide(bool animated, ::System::Action* finishedCallback);
 
   static inline ::HMUI::ModalViewBase* New_ctor();
 
-  /// @brief Method Show, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Show, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
-  /// @brief Method .ctor, addr 0x39a3698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fa308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_blockerClickedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_blockerClickedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method remove_blockerClickedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_blockerClickedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_blockerClickedEvent(::System::Action* value);
 
 protected:
@@ -54,7 +53,7 @@ public:
   ModalViewBase(ModalViewBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

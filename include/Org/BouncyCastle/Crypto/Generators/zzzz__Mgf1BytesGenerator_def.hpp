@@ -3,13 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mgf1BytesGenerator)
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
@@ -22,11 +19,10 @@ class Mgf1BytesGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::Mgf1BytesGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IDerivationFunction, System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::Mgf1BytesGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.Mgf1BytesGenerator
 class CORDL_TYPE Mgf1BytesGenerator : public ::System::Object {
 public:
   // Declarations
@@ -44,20 +40,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x23545cc, size 0x4bc, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0x23878b8, size 0x4bc, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method Init, addr 0x235442c, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x2387718, size 0x144, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method ItoOSP, addr 0x2354578, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ItoOSP, addr 0x2387864, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
   constexpr int32_t const& __cordl_internal_get_hLen() const;
 
@@ -73,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2354370, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238765c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest, addr 0x2354570, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0x238785c, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
@@ -96,6 +92,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Mgf1BytesGenerator(Mgf1BytesGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 913 };
+
   /// @brief Field digest, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___digest;
 
@@ -105,19 +104,16 @@ public:
   /// @brief Field hLen, offset: 0x20, size: 0x4, def value: None
   int32_t ___hLen;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 913 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, ___digest) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, ___seed) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, ___hLen) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator);

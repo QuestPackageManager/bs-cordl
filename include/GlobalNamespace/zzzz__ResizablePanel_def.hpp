@@ -24,11 +24,10 @@ class ResizablePanel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResizablePanel);
-// Type: ::ResizablePanel
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ResizablePanel*
+// CS Name: ResizablePanel
 class CORDL_TYPE ResizablePanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -43,22 +42,22 @@ public:
 
   static inline ::GlobalNamespace::ResizablePanel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3991020, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39e7ba0, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Resize, addr 0x39910a8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x39e7c28, size 0x1a0, virtual false, abstract: false, final false
   inline void Resize(::UnityEngine::Vector2 size, float_t duration);
 
-  /// @brief Method SetSize, addr 0x3991248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetSize, addr 0x39e7dc8, size 0x1c, virtual false, abstract: false, final false
   inline void SetSize(::UnityEngine::Vector2 size);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__resizeTween();
+  constexpr ::Tweening::Vector2Tween* const& __cordl_internal_get__resizeTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __cordl_internal_get__resizeTween() const;
+  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__resizeTween();
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3991264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResizablePanel(ResizablePanel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15999 };
+
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
@@ -96,19 +98,16 @@ public:
   /// @brief Field _resizeTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::Vector2Tween* ____resizeTween;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15964 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResizablePanel, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ResizablePanel, ____rectTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResizablePanel, ____tweeningManager) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResizablePanel, ____resizeTween) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResizablePanel, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResizablePanel);

@@ -15,31 +15,30 @@ class AudioPlayerBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AudioPlayerBase);
-// Type: ::AudioPlayerBase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AudioPlayerBase*
+// CS Name: AudioPlayerBase
 class CORDL_TYPE AudioPlayerBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   __declspec(property(get = get_activeAudioClip)) ::UnityW<::UnityEngine::AudioClip> activeAudioClip;
 
-  /// @brief Method FadeOut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method FadeOut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void FadeOut(float_t duration);
 
   static inline ::GlobalNamespace::AudioPlayerBase* New_ctor();
 
-  /// @brief Method PauseCurrentChannel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method PauseCurrentChannel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method UnPauseCurrentChannel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnPauseCurrentChannel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnPauseCurrentChannel();
 
-  /// @brief Method .ctor, addr 0x3a77654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aceb18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeAudioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_activeAudioClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
 protected:
@@ -57,7 +56,7 @@ public:
   AudioPlayerBase(AudioPlayerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

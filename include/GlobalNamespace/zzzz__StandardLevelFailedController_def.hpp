@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
@@ -32,22 +35,16 @@ namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
+class StandardLevelFailedController_InitData;
+}
+namespace GlobalNamespace {
+class StandardLevelFailedController__LevelFailedCoroutine_d__13;
+}
+namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class __StandardLevelFailedController__InitData;
-}
-namespace GlobalNamespace {
-class __StandardLevelFailedController___LevelFailedCoroutine_d__13;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -57,27 +54,26 @@ namespace GlobalNamespace {
 class StandardLevelFailedController;
 }
 namespace GlobalNamespace {
-class __StandardLevelFailedController__InitData;
+class StandardLevelFailedController_InitData;
 }
 namespace GlobalNamespace {
-class __StandardLevelFailedController___LevelFailedCoroutine_d__13;
+class StandardLevelFailedController__LevelFailedCoroutine_d__13;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelFailedController);
-MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelFailedController__InitData);
-MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::StandardLevelFailedController_InitData);
+MARK_REF_PTR_T(::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelFailedController::InitData*
-class CORDL_TYPE __StandardLevelFailedController__InitData : public ::System::Object {
+// CS Name: StandardLevelFailedController/InitData
+class CORDL_TYPE StandardLevelFailedController_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field autoRestart, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
 
-  static inline ::GlobalNamespace::__StandardLevelFailedController__InitData* New_ctor(bool autoRestart);
+  static inline ::GlobalNamespace::StandardLevelFailedController_InitData* New_ctor(bool autoRestart);
 
   constexpr bool const& __cordl_internal_get_autoRestart() const;
 
@@ -85,43 +81,42 @@ public:
 
   constexpr void __cordl_internal_set_autoRestart(bool value);
 
-  /// @brief Method .ctor, addr 0x3b4cd00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae70c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelFailedController__InitData();
+  constexpr StandardLevelFailedController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelFailedController__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFailedController_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StandardLevelFailedController__InitData(__StandardLevelFailedController__InitData&&) = delete;
+  StandardLevelFailedController_InitData(StandardLevelFailedController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelFailedController__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFailedController_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StandardLevelFailedController__InitData(__StandardLevelFailedController__InitData const&) = delete;
+  StandardLevelFailedController_InitData(StandardLevelFailedController_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4452 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4439 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelFailedController__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController_InitData, ___autoRestart) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelFailedController__InitData, ___autoRestart) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelFailedController_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<LevelFailedCoroutine>d__13
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelFailedController::<LevelFailedCoroutine>d__13*
-class CORDL_TYPE __StandardLevelFailedController___LevelFailedCoroutine_d__13 : public ::System::Object {
+// CS Name: StandardLevelFailedController/<LevelFailedCoroutine>d__13
+class CORDL_TYPE StandardLevelFailedController__LevelFailedCoroutine_d__13 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -150,38 +145,38 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b4cd2c, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bae738, size 0x144, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b4ce70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bae87c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b4ce78, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bae884, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b4ceb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bae8bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b4cd28, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bae734, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::StandardLevelFailedController> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::StandardLevelFailedController>& __cordl_internal_get___4__this();
 
-  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get__levelCompletionResults_5__2();
+  constexpr ::GlobalNamespace::LevelCompletionResults* const& __cordl_internal_get__levelCompletionResults_5__2() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get__levelCompletionResults_5__2() const;
+  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get__levelCompletionResults_5__2();
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -191,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set__levelCompletionResults_5__2(::GlobalNamespace::LevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x3b4ccd0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae6dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -206,16 +201,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelFailedController___LevelFailedCoroutine_d__13();
+  constexpr StandardLevelFailedController__LevelFailedCoroutine_d__13();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelFailedController___LevelFailedCoroutine_d__13", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StandardLevelFailedController___LevelFailedCoroutine_d__13(__StandardLevelFailedController___LevelFailedCoroutine_d__13&&) = delete;
+  StandardLevelFailedController__LevelFailedCoroutine_d__13(StandardLevelFailedController__LevelFailedCoroutine_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelFailedController___LevelFailedCoroutine_d__13", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StandardLevelFailedController___LevelFailedCoroutine_d__13(__StandardLevelFailedController___LevelFailedCoroutine_d__13 const&) = delete;
+  StandardLevelFailedController__LevelFailedCoroutine_d__13(StandardLevelFailedController__LevelFailedCoroutine_d__13 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4453 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -229,34 +227,30 @@ public:
   /// @brief Field <levelCompletionResults>5__2, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ____levelCompletionResults_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13, ____levelCompletionResults_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13, ____levelCompletionResults_5__2) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::StandardLevelFailedController
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelFailedController*
+// CS Name: StandardLevelFailedController
 class CORDL_TYPE StandardLevelFailedController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__StandardLevelFailedController__InitData;
+  using InitData = ::GlobalNamespace::StandardLevelFailedController_InitData;
 
-  using _LevelFailedCoroutine_d__13 = ::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13;
+  using _LevelFailedCoroutine_d__13 = ::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13;
 
   /// @brief Field _beatmapObjectManager, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
@@ -276,7 +270,7 @@ public:
   __declspec(property(get = __cordl_internal_get__gameplayManager, put = __cordl_internal_set__gameplayManager)) ::GlobalNamespace::ILevelEndActions* _gameplayManager;
 
   /// @brief Field _initData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__StandardLevelFailedController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::StandardLevelFailedController_InitData* _initData;
 
   /// @brief Field _levelFailedTextEffect, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelFailedTextEffect, put = __cordl_internal_set__levelFailedTextEffect)) ::UnityW<::GlobalNamespace::LevelFailedTextEffect> _levelFailedTextEffect;
@@ -290,23 +284,23 @@ public:
                       put = __cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFailed, addr 0x3b4cc50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x3bae65c, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelFailedCoroutine, addr 0x3b4cc70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LevelFailedCoroutine, addr 0x3bae67c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LevelFailedCoroutine();
 
   static inline ::GlobalNamespace::StandardLevelFailedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b4cb50, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bae55c, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b4ca5c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bae468, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
@@ -320,13 +314,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::GameSongController>& __cordl_internal_get__gameSongController();
 
+  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
+
   constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__gameplayManager() const;
+  constexpr ::GlobalNamespace::StandardLevelFailedController_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::GlobalNamespace::__StandardLevelFailedController__InitData*& __cordl_internal_get__initData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StandardLevelFailedController__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::StandardLevelFailedController_InitData*& __cordl_internal_get__initData();
 
   constexpr ::UnityW<::GlobalNamespace::LevelFailedTextEffect> const& __cordl_internal_get__levelFailedTextEffect() const;
 
@@ -350,7 +344,7 @@ public:
 
   constexpr void __cordl_internal_set__gameplayManager(::GlobalNamespace::ILevelEndActions* value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__StandardLevelFailedController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::StandardLevelFailedController_InitData* value);
 
   constexpr void __cordl_internal_set__levelFailedTextEffect(::UnityW<::GlobalNamespace::LevelFailedTextEffect> value);
 
@@ -358,7 +352,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b4ccf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -375,6 +369,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelFailedController(StandardLevelFailedController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4454 };
+
   /// @brief Field _levelFailedTextEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;
 
@@ -385,7 +382,7 @@ public:
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::__StandardLevelFailedController__InitData* ____initData;
+  ::GlobalNamespace::StandardLevelFailedController_InitData* ____initData;
 
   /// @brief Field _gameplayManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
@@ -402,14 +399,9 @@ public:
   /// @brief Field _beatmapObjectManager, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4441 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelFailedController, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController, ____levelFailedTextEffect) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController, ____standardLevelSceneSetupData) == 0x28, "Offset mismatch!");
@@ -428,10 +420,12 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController, ____env
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelFailedController, ____beatmapObjectManager) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelFailedController, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelFailedController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelFailedController*, "", "StandardLevelFailedController");
-NEED_NO_BOX(::GlobalNamespace::__StandardLevelFailedController__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelFailedController__InitData*, "", "StandardLevelFailedController/InitData");
-NEED_NO_BOX(::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelFailedController___LevelFailedCoroutine_d__13*, "", "StandardLevelFailedController/<LevelFailedCoroutine>d__13");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelFailedController_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelFailedController_InitData*, "", "StandardLevelFailedController/InitData");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13*, "", "StandardLevelFailedController/<LevelFailedCoroutine>d__13");

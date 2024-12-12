@@ -11,17 +11,16 @@ class ItemNotNullAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::ItemNotNullAttribute);
-// Type: JetBrains.Annotations::ItemNotNullAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::ItemNotNullAttribute*
+// CS Name: JetBrains.Annotations.ItemNotNullAttribute
 class CORDL_TYPE ItemNotNullAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::ItemNotNullAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a8bee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af07f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   ItemNotNullAttribute(ItemNotNullAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

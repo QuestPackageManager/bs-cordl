@@ -15,71 +15,68 @@
 #include "System/zzzz__Type_def.hpp"
 template <typename T>
 constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*&
-System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_get_Parameters() {
+System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_Parameters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*> const&
-System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_get_Parameters() const {
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* const&
+System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_Parameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 template <typename T>
-constexpr void System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_set_Parameters(
+constexpr void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_set_Parameters(
     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___Parameters, value);
 }
-template <typename T> constexpr ::System::Linq::Expressions::LabelTarget*& System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() {
+template <typename T> constexpr ::System::Linq::Expressions::LabelTarget*& System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReturnLabel;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const&
-System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() const {
+template <typename T> constexpr ::System::Linq::Expressions::LabelTarget* const& System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReturnLabel;
 }
-template <typename T> constexpr void System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_set_ReturnLabel(::System::Linq::Expressions::LabelTarget* value) {
+template <typename T> constexpr void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_set_ReturnLabel(::System::Linq::Expressions::LabelTarget* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___ReturnLabel, value);
 }
 template <typename T>
-inline void System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::setStaticF_s_instance(::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>* value) {
-  ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*, "s_instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*>::get>(
-      std::forward<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*>(value));
+inline void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::setStaticF_s_instance(::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* value) {
+  ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*, "s_instance",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>::get>(
+      std::forward<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>(value));
 }
-template <typename T>
-inline ::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>* System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::getStaticF_s_instance() {
-  return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*, "s_instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*>::get>();
+template <typename T> inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::getStaticF_s_instance() {
+  return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*, "s_instance",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>::get>();
 }
-template <typename T> inline ::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>* System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::get_Instance() {
+template <typename T> inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::get_Instance() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*>::get(),
-                                               "get_Instance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*, false>(nullptr, ___internal_method);
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>::get(), "get_Instance",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*, false>(nullptr, ___internal_method);
 }
-template <typename T> inline ::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>* System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*>());
-}
-template <typename T> inline void System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::_ctor() {
+template <typename T> inline void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__CallSiteBinder__LambdaSignature_1() {}
+template <typename T> constexpr ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::CallSiteBinder_LambdaSignature_1() {}
 //  Writing Method size for method: ::System::Runtime::CompilerServices::CallSiteBinder._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::CallSiteBinder::*)()>(
     &::System::Runtime::CompilerServices::CallSiteBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40986e4;
+  constexpr static std::size_t addrs = 0x40f99f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
@@ -93,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)()>(
     &::System::Runtime::CompilerServices::CallSiteBinder::get_UpdateLabel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40986ec;
+  constexpr static std::size_t addrs = 0x40f9a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
@@ -101,30 +98,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::CompilerServices::CallSiteBinder.Bind
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
-    ::System::Runtime::CompilerServices::CallSiteBinder::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>,
-                                                            ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
-                                                            ::System::Linq::Expressions::LabelTarget*)>(&::System::Runtime::CompilerServices::CallSiteBinder::Bind)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(), 4));
-    return ___internal_method;
-  }
-};
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*& System::Runtime::CompilerServices::CallSiteBinder::__cordl_internal_get_Cache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Cache;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*> const&
-System::Runtime::CompilerServices::CallSiteBinder::__cordl_internal_get_Cache() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* const& System::Runtime::CompilerServices::CallSiteBinder::__cordl_internal_get_Cache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Cache;
 }
@@ -140,9 +118,6 @@ inline void System::Runtime::CompilerServices::CallSiteBinder::setStaticF__Updat
 inline ::System::Linq::Expressions::LabelTarget* System::Runtime::CompilerServices::CallSiteBinder::getStaticF__UpdateLabel_k__BackingField() {
   return ::cordl_internals::getStaticField<::System::Linq::Expressions::LabelTarget*, "<UpdateLabel>k__BackingField",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get>();
-}
-inline ::System::Runtime::CompilerServices::CallSiteBinder* System::Runtime::CompilerServices::CallSiteBinder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CallSiteBinder*>());
 }
 inline void System::Runtime::CompilerServices::CallSiteBinder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
@@ -189,12 +164,12 @@ template <typename T> inline void System::Runtime::CompilerServices::CallSiteBin
 }
 template <typename T>
 inline ::System::Linq::Expressions::Expression_1<T>* System::Runtime::CompilerServices::CallSiteBinder::Stitch(::System::Linq::Expressions::Expression* binding,
-                                                                                                               ::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>* signature) {
+                                                                                                               ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* signature) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(), "Stitch",
       std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression_1<T>*, false>(nullptr, ___internal_method, binding, signature);
@@ -206,6 +181,9 @@ template <typename T> inline ::System::Runtime::CompilerServices::RuleCache_1<T>
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::RuleCache_1<T>*, false>(this, ___internal_method);
+}
+inline ::System::Runtime::CompilerServices::CallSiteBinder* System::Runtime::CompilerServices::CallSiteBinder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CallSiteBinder*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::CallSiteBinder::CallSiteBinder() {}

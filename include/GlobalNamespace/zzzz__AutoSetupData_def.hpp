@@ -11,11 +11,10 @@ class AutoSetupData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AutoSetupData);
-// Type: ::AutoSetupData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AutoSetupData*
+// CS Name: AutoSetupData
 class CORDL_TYPE AutoSetupData : public ::System::Object {
 public:
   // Declarations
@@ -57,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_selectBasedOnSuggestions(bool value);
 
-  /// @brief Method .ctor, addr 0x3af4b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b543b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,6 +73,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AutoSetupData(AutoSetupData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5312 };
+
   /// @brief Field selectBasedOnSuggestions, offset: 0x10, size: 0x1, def value: None
   bool ___selectBasedOnSuggestions;
 
@@ -86,14 +88,9 @@ public:
   /// @brief Field randomSongIfNoneSuggested, offset: 0x13, size: 0x1, def value: None
   bool ___randomSongIfNoneSuggested;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5289 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoSetupData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___selectBasedOnSuggestions) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___autoStartWhenAllReady) == 0x11, "Offset mismatch!");
@@ -101,6 +98,8 @@ static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___autoStartWhenAllRead
 static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___forceAutoStartAfterSongSelection) == 0x12, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___randomSongIfNoneSuggested) == 0x13, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoSetupData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AutoSetupData);

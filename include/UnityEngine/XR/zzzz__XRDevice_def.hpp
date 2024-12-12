@@ -21,24 +21,23 @@ class XRDevice;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::XRDevice);
-// Type: UnityEngine.XR::XRDevice
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.XR::XRDevice*
+// CS Name: UnityEngine.XR.XRDevice
 class CORDL_TYPE XRDevice : public ::System::Object {
 public:
   // Declarations
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
+  __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
 
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x4a83638, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking, addr 0x4ae7f48, size 0x44, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
 
-  /// @brief Method InvokeDeviceLoaded, addr 0x4a8367c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeviceLoaded, addr 0x4ae7f8c, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
-  /// @brief Method SetTrackingSpaceType, addr 0x4a835fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpaceType, addr 0x4ae7f0c, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
@@ -60,7 +59,7 @@ public:
   XRDevice(XRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18985 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

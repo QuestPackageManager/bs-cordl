@@ -4,13 +4,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ILocationSizeData_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetLoadMode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundleRequestOptions)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class ILocationSizeData;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
@@ -26,11 +24,10 @@ class AssetBundleRequestOptions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions);
-// Type: UnityEngine.ResourceManagement.ResourceProviders::AssetBundleRequestOptions
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 75, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceLocations.ILocationSizeData, UnityEngine.ResourceManagement.ResourceProviders.AssetLoadMode
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleRequestOptions*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions
 class CORDL_TYPE AssetBundleRequestOptions : public ::System::Object {
 public:
   // Declarations
@@ -97,7 +94,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*() noexcept;
 
-  /// @brief Method ComputeSize, addr 0x4736a88, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ComputeSize, addr 0x4797d9c, size 0x148, virtual true, abstract: false, final false
   inline int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* New_ctor();
@@ -174,82 +171,82 @@ public:
 
   constexpr void __cordl_internal_set_m_UseUWRForLocalBundles(bool value);
 
-  /// @brief Method .ctor, addr 0x4736bd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4797ee4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssetLoadMode, addr 0x4736a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetLoadMode, addr 0x4797d40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode get_AssetLoadMode();
 
-  /// @brief Method get_BundleName, addr 0x4736a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BundleName, addr 0x4797d30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BundleName();
 
-  /// @brief Method get_BundleSize, addr 0x4736a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BundleSize, addr 0x4797d50, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_BundleSize();
 
-  /// @brief Method get_ChunkedTransfer, addr 0x47369dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkedTransfer, addr 0x4797cf0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ChunkedTransfer();
 
-  /// @brief Method get_ClearOtherCachedVersionsWhenLoaded, addr 0x4736a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClearOtherCachedVersionsWhenLoaded, addr 0x4797d88, size 0x8, virtual false, abstract: false, final false
   inline bool get_ClearOtherCachedVersionsWhenLoaded();
 
-  /// @brief Method get_Crc, addr 0x47369bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Crc, addr 0x4797cd0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Crc();
 
-  /// @brief Method get_Hash, addr 0x47369ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x4797cc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Hash();
 
-  /// @brief Method get_RedirectLimit, addr 0x47369f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectLimit, addr 0x4797d04, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_RedirectLimit();
 
-  /// @brief Method get_RetryCount, addr 0x4736a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RetryCount, addr 0x4797d20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RetryCount();
 
-  /// @brief Method get_Timeout, addr 0x47369cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x4797ce0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Timeout();
 
-  /// @brief Method get_UseCrcForCachedBundle, addr 0x4736a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCrcForCachedBundle, addr 0x4797d60, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCrcForCachedBundle();
 
-  /// @brief Method get_UseUnityWebRequestForLocalBundles, addr 0x4736a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseUnityWebRequestForLocalBundles, addr 0x4797d74, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseUnityWebRequestForLocalBundles();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData"
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData* i___UnityEngine__ResourceManagement__ResourceLocations__ILocationSizeData() noexcept;
 
-  /// @brief Method set_AssetLoadMode, addr 0x4736a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssetLoadMode, addr 0x4797d48, size 0x8, virtual false, abstract: false, final false
   inline void set_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value);
 
-  /// @brief Method set_BundleName, addr 0x4736a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BundleName, addr 0x4797d38, size 0x8, virtual false, abstract: false, final false
   inline void set_BundleName(::StringW value);
 
-  /// @brief Method set_BundleSize, addr 0x4736a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BundleSize, addr 0x4797d58, size 0x8, virtual false, abstract: false, final false
   inline void set_BundleSize(int64_t value);
 
-  /// @brief Method set_ChunkedTransfer, addr 0x47369e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ChunkedTransfer, addr 0x4797cf8, size 0xc, virtual false, abstract: false, final false
   inline void set_ChunkedTransfer(bool value);
 
-  /// @brief Method set_ClearOtherCachedVersionsWhenLoaded, addr 0x4736a7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ClearOtherCachedVersionsWhenLoaded, addr 0x4797d90, size 0xc, virtual false, abstract: false, final false
   inline void set_ClearOtherCachedVersionsWhenLoaded(bool value);
 
-  /// @brief Method set_Crc, addr 0x47369c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Crc, addr 0x4797cd8, size 0x8, virtual false, abstract: false, final false
   inline void set_Crc(uint32_t value);
 
-  /// @brief Method set_Hash, addr 0x47369b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Hash, addr 0x4797cc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Hash(::StringW value);
 
-  /// @brief Method set_RedirectLimit, addr 0x4736a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectLimit, addr 0x4797d18, size 0x8, virtual false, abstract: false, final false
   inline void set_RedirectLimit(int32_t value);
 
-  /// @brief Method set_RetryCount, addr 0x4736a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RetryCount, addr 0x4797d28, size 0x8, virtual false, abstract: false, final false
   inline void set_RetryCount(int32_t value);
 
-  /// @brief Method set_Timeout, addr 0x47369d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x4797ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_Timeout(int32_t value);
 
-  /// @brief Method set_UseCrcForCachedBundle, addr 0x4736a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseCrcForCachedBundle, addr 0x4797d68, size 0xc, virtual false, abstract: false, final false
   inline void set_UseCrcForCachedBundle(bool value);
 
-  /// @brief Method set_UseUnityWebRequestForLocalBundles, addr 0x4736a68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseUnityWebRequestForLocalBundles, addr 0x4797d7c, size 0xc, virtual false, abstract: false, final false
   inline void set_UseUnityWebRequestForLocalBundles(bool value);
 
 protected:
@@ -265,6 +262,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequestOptions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssetBundleRequestOptions(AssetBundleRequestOptions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15647 };
 
   /// @brief Field m_Hash, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Hash;
@@ -302,14 +302,9 @@ public:
   /// @brief Field m_ClearOtherCachedVersionsWhenLoaded, offset: 0x4a, size: 0x1, def value: None
   bool ___m_ClearOtherCachedVersionsWhenLoaded;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15612 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, ___m_Hash) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, ___m_Crc) == 0x18, "Offset mismatch!");
@@ -333,6 +328,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Ass
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, ___m_UseUWRForLocalBundles) == 0x49, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, ___m_ClearOtherCachedVersionsWhenLoaded) == 0x4a, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions);

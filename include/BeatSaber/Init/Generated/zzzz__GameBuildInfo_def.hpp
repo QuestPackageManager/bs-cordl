@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "BeatSaber/Init/zzzz__GameVersion_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GameBuildInfo)
 // Forward declare root types
 namespace BeatSaber::Init::Generated {
@@ -12,20 +13,19 @@ class GameBuildInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::Init::Generated::GameBuildInfo);
-// Type: BeatSaber.Init.Generated::GameBuildInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Init.GameVersion::PreReleaseLabel, BeatSaber.Init.GameVersion::PreReleasePrefix, System.Object
 namespace BeatSaber::Init::Generated {
 // Is value type: false
-// CS Name: ::BeatSaber.Init.Generated::GameBuildInfo*
+// CS Name: BeatSaber.Init.Generated.GameBuildInfo
 class CORDL_TYPE GameBuildInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field kBuildLabel, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kBuildLabel, put = setStaticF_kBuildLabel)) ::BeatSaber::Init::__GameVersion__PreReleaseLabel kBuildLabel;
+  __declspec(property(get = getStaticF_kBuildLabel, put = setStaticF_kBuildLabel)) ::BeatSaber::Init::GameVersion_PreReleaseLabel kBuildLabel;
 
-  static inline ::BeatSaber::Init::__GameVersion__PreReleaseLabel getStaticF_kBuildLabel();
+  static inline ::BeatSaber::Init::GameVersion_PreReleaseLabel getStaticF_kBuildLabel();
 
-  static inline void setStaticF_kBuildLabel(::BeatSaber::Init::__GameVersion__PreReleaseLabel value);
+  static inline void setStaticF_kBuildLabel(::BeatSaber::Init::GameVersion_PreReleaseLabel value);
 
 protected:
   // Ctor Parameters []
@@ -42,7 +42,7 @@ public:
   GameBuildInfo(GameBuildInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18388 };
 
   /// @brief Field kDefaultPlatformVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultPlatformVersion{ u"1390" };
@@ -50,8 +50,8 @@ public:
   /// @brief Field kPreReleaseLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kPreReleaseLabel{ u"" };
 
-  /// @brief Field kPreReleasePrefix value: static_cast<int32_t>(0x1e)
-  static ::BeatSaber::Init::__GameVersion__PreReleasePrefix const kPreReleasePrefix;
+  /// @brief Field kPreReleasePrefix value: I32(30)
+  static ::BeatSaber::Init::GameVersion_PreReleasePrefix const kPreReleasePrefix;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

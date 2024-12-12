@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::LocalVariable*, int32_t)>(&::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4082e7c;
+  constexpr static std::size_t addrs = 0x40e4190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::Update)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x4082eac;
+  constexpr static std::size_t addrs = 0x40e41c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,18 +41,13 @@ constexpr ::System::Linq::Expressions::Interpreter::LocalVariable*& System::Linq
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameter;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::LocalVariable*> const&
-System::Linq::Expressions::Interpreter::ParameterByRefUpdater::__cordl_internal_get__parameter() const {
+constexpr ::System::Linq::Expressions::Interpreter::LocalVariable* const& System::Linq::Expressions::Interpreter::ParameterByRefUpdater::__cordl_internal_get__parameter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameter;
 }
 constexpr void System::Linq::Expressions::Interpreter::ParameterByRefUpdater::__cordl_internal_set__parameter(::System::Linq::Expressions::Interpreter::LocalVariable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::Interpreter::ParameterByRefUpdater*
-System::Linq::Expressions::Interpreter::ParameterByRefUpdater::New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ParameterByRefUpdater*>(parameter, argumentIndex));
 }
 inline void System::Linq::Expressions::Interpreter::ParameterByRefUpdater::_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,6 +61,10 @@ inline void System::Linq::Expressions::Interpreter::ParameterByRefUpdater::Updat
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ParameterByRefUpdater*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, frame, value);
+}
+inline ::System::Linq::Expressions::Interpreter::ParameterByRefUpdater*
+System::Linq::Expressions::Interpreter::ParameterByRefUpdater::New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ParameterByRefUpdater*>(parameter, argumentIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::ParameterByRefUpdater() {}

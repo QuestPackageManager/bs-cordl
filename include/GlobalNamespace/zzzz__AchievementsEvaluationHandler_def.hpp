@@ -35,11 +35,10 @@ class AchievementsEvaluationHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AchievementsEvaluationHandler);
-// Type: ::AchievementsEvaluationHandler
-// SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AchievementsEvaluationHandler*
+// CS Name: AchievementsEvaluationHandler
 class CORDL_TYPE AchievementsEvaluationHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -163,30 +162,30 @@ public:
   __declspec(property(get = __cordl_internal_get__totalScore100MillionAchievement, put = __cordl_internal_set__totalScore100MillionAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>
       _totalScore100MillionAchievement;
 
-  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x266d4b0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x26a1358, size 0xf8, virtual false, abstract: false, final false
   inline void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::IMissionNode* missionNode);
 
-  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x266d480, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x26a1328, size 0x30, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x266ce34, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x26a0cdc, size 0x54, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   static inline ::GlobalNamespace::AchievementsEvaluationHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x266cc84, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26a0b2c, size 0x1b0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessLevelFinishData, addr 0x266ce88, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ProcessLevelFinishData, addr 0x26a0d30, size 0x360, virtual false, abstract: false, final false
   inline void ProcessLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ProcessMissionFinishData, addr 0x266d5a8, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method ProcessMissionFinishData, addr 0x26a1450, size 0x400, virtual false, abstract: false, final false
   inline void ProcessMissionFinishData(::GlobalNamespace::IMissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x266d1e8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x26a1090, size 0x298, virtual false, abstract: false, final false
   inline void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Start, addr 0x266c9a4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26a084c, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15ExpertLevelsFullComboAchievement() const;
@@ -277,9 +276,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__kilometersTravelled100Achievement();
 
-  constexpr ::GlobalNamespace::IMissionNodesManager*& __cordl_internal_get__missionNodesManager();
+  constexpr ::GlobalNamespace::IMissionNodesManager* const& __cordl_internal_get__missionNodesManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMissionNodesManager*> const& __cordl_internal_get__missionNodesManager() const;
+  constexpr ::GlobalNamespace::IMissionNodesManager*& __cordl_internal_get__missionNodesManager();
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
@@ -357,7 +356,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScore100MillionAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  /// @brief Method .ctor, addr 0x266db28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a19d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -373,6 +372,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AchievementsEvaluationHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AchievementsEvaluationHandler(AchievementsEvaluationHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12744 };
 
   /// @brief Field _clearedLevel100Achievement, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevel100Achievement;
@@ -458,14 +460,9 @@ public:
   /// @brief Field _achievementsModel, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementsModelSO> ____achievementsModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12711 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AchievementsEvaluationHandler, 0x100>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____clearedLevel100Achievement) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____totalScore100MillionAchievement) == 0x28, "Offset mismatch!");
@@ -521,6 +518,8 @@ static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____pla
 static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____missionNodesManager) == 0xf0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____achievementsModel) == 0xf8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AchievementsEvaluationHandler, 0x100>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AchievementsEvaluationHandler);

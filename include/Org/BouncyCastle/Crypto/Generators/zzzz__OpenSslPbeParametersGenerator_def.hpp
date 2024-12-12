@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__PbeParametersGenerator_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OpenSslPbeParametersGenerator)
@@ -20,50 +19,49 @@ class OpenSslPbeParametersGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::OpenSslPbeParametersGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.PbeParametersGenerator
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::OpenSslPbeParametersGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.OpenSslPbeParametersGenerator
 class CORDL_TYPE OpenSslPbeParametersGenerator : public ::Org::BouncyCastle::Crypto::PbeParametersGenerator {
 public:
   // Declarations
   /// @brief Field digest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest* digest;
 
-  /// @brief Method GenerateDerivedKey, addr 0x2357cdc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method GenerateDerivedKey, addr 0x238afc8, size 0x384, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateDerivedKey(int32_t bytesNeeded);
 
-  /// @brief Method GenerateDerivedMacParameters, addr 0x23582e8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedMacParameters, addr 0x238b5d4, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x235806c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x238b358, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x23581ec, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x238b4d8, size 0xfc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x2358060, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x238b34c, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x2358104, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x238b3f0, size 0xe8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
 
-  /// @brief Method Init, addr 0x2357cd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x238afc0, size 0x8, virtual true, abstract: false, final false
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method Init, addr 0x2357ccc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x238afb8, size 0x8, virtual true, abstract: false, final false
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator* New_ctor();
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
   constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x2357c6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238af58, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,18 +78,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OpenSslPbeParametersGenerator(OpenSslPbeParametersGenerator const&) = delete;
 
-  /// @brief Field digest, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IDigest* ___digest;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 917 };
+
+  /// @brief Field digest, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::IDigest* ___digest;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator, ___digest) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator);

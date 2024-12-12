@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TextEditingManipulator::*)()>(
     &::UnityEngine::UIElements::TextEditingManipulator::get_touchScreenTextFieldChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a2ab98;
+  constexpr static std::size_t addrs = 0x4a8f4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::TextElement*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4a2ac48;
+  constexpr static std::size_t addrs = 0x4a8f558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)()>(
     &::UnityEngine::UIElements::TextEditingManipulator::InitTextEditorEventHandler)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4a2ad6c;
+  constexpr static std::size_t addrs = 0x4a8f67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditingManipulator*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::ExecuteDefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4a2ae38;
+  constexpr static std::size_t addrs = 0x4a8f748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::FocusInEvent*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::OnFocusInEvent)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x4a2af9c;
+  constexpr static std::size_t addrs = 0x4a8f8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::FocusOutEvent*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::OnFocusOutEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a2b248;
+  constexpr static std::size_t addrs = 0x4a8fb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)()>(
     &::UnityEngine::UIElements::TextEditingManipulator::_OnFocusInEvent_b__10_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a2b2fc;
+  constexpr static std::size_t addrs = 0x4a8fc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditingManipulator*>::get(),
@@ -116,7 +116,7 @@ constexpr ::UnityEngine::UIElements::TextElement*& UnityEngine::UIElements::Text
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextElement*> const& UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_m_TextElement() const {
+constexpr ::UnityEngine::UIElements::TextElement* const& UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_m_TextElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextElement;
 }
@@ -128,8 +128,7 @@ constexpr ::UnityEngine::UIElements::TextEditorEventHandler*& UnityEngine::UIEle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editingEventHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEventHandler*> const&
-UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_editingEventHandler() const {
+constexpr ::UnityEngine::UIElements::TextEditorEventHandler* const& UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_editingEventHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editingEventHandler;
 }
@@ -141,7 +140,7 @@ constexpr ::UnityEngine::TextEditingUtilities*& UnityEngine::UIElements::TextEdi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editingUtilities;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextEditingUtilities*> const& UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_editingUtilities() const {
+constexpr ::UnityEngine::TextEditingUtilities* const& UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_editingUtilities() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editingUtilities;
 }
@@ -165,8 +164,7 @@ constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HardwareKeyboardPoller;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const&
-UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_m_HardwareKeyboardPoller() const {
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& UnityEngine::UIElements::TextEditingManipulator::__cordl_internal_get_m_HardwareKeyboardPoller() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HardwareKeyboardPoller;
 }
@@ -178,9 +176,6 @@ inline bool UnityEngine::UIElements::TextEditingManipulator::get_touchScreenText
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditingManipulator*>::get(),
                                                                              "get_touchScreenTextFieldChanged", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::TextEditingManipulator* UnityEngine::UIElements::TextEditingManipulator::New_ctor(::UnityEngine::UIElements::TextElement* textElement) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextEditingManipulator*>(textElement));
 }
 inline void UnityEngine::UIElements::TextEditingManipulator::_ctor(::UnityEngine::UIElements::TextElement* textElement) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -215,6 +210,9 @@ inline void UnityEngine::UIElements::TextEditingManipulator::_OnFocusInEvent_b__
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditingManipulator*>::get(),
                                                                              "<OnFocusInEvent>b__10_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::TextEditingManipulator* UnityEngine::UIElements::TextEditingManipulator::New_ctor(::UnityEngine::UIElements::TextElement* textElement) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextEditingManipulator*>(textElement));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextEditingManipulator::TextEditingManipulator() {}

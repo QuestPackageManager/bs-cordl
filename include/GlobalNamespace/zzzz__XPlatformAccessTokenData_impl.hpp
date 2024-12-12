@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::XPlatformAccessTokenData::*)(::StringW, ::GlobalNamespace::PlatformEnvironment)>(
     &::GlobalNamespace::XPlatformAccessTokenData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22ac9d8;
+  constexpr static std::size_t addrs = 0x22dfcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::XPlatformAccessTokenData::*)()>(&::GlobalNamespace::XPlatformAccessTokenData::IsValid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22ac9e4;
+  constexpr static std::size_t addrs = 0x22dfcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::XPlatformAccessTokenData>::get(), "IsValid",
@@ -52,8 +52,8 @@ inline bool GlobalNamespace::XPlatformAccessTokenData::IsValid() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment", modifiers:
+// "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::XPlatformAccessTokenData::XPlatformAccessTokenData(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment) noexcept {
   this->token = token;
   this->platformEnvironment = platformEnvironment;

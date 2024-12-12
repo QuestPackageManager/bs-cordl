@@ -18,20 +18,19 @@ class AndroidCompensateDirectionProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor);
-// Type: UnityEngine.InputSystem.Android.LowLevel::AndroidCompensateDirectionProcessor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Processors.CompensateDirectionProcessor
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidCompensateDirectionProcessor*
+// CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidCompensateDirectionProcessor
 class CORDL_TYPE AndroidCompensateDirectionProcessor : public ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45a4694, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x46059a8, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 vector, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x45a46b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46059c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,13 +48,13 @@ public:
   AndroidCompensateDirectionProcessor(AndroidCompensateDirectionProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6863 };
 
   /// @brief Field kAccelerationMultiplier offset 0xffffffff size 0x4
-  static constexpr float_t kAccelerationMultiplier{ -0.10197162 };
+  static constexpr float_t kAccelerationMultiplier{ static_cast<float_t>(-0.1f) };
 
   /// @brief Field kSensorStandardGravity offset 0xffffffff size 0x4
-  static constexpr float_t kSensorStandardGravity{ 9.80665 };
+  static constexpr float_t kSensorStandardGravity{ static_cast<float_t>(9.8f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __NotEqualInstruction__NotEqualInt64;
+namespace GlobalNamespace {
+class NotEqualInstruction_NotEqualInt64;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt64);
-// Type: ::NotEqualInt64
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::NotEqualInstruction_NotEqualInt64);
+// Dependencies System.Linq.Expressions.Interpreter.NotEqualInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NotEqualInstruction::NotEqualInt64*
-class CORDL_TYPE __NotEqualInstruction__NotEqualInt64 : public ::System::Linq::Expressions::Interpreter::NotEqualInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.NotEqualInstruction/NotEqualInt64
+class CORDL_TYPE NotEqualInstruction_NotEqualInt64 : public ::System::Linq::Expressions::Interpreter::NotEqualInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt64* New_ctor();
+  static inline ::GlobalNamespace::NotEqualInstruction_NotEqualInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x408da94, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40eeda8, size 0xe4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x408d5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ee8f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NotEqualInstruction__NotEqualInt64();
+  constexpr NotEqualInstruction_NotEqualInt64();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NotEqualInstruction__NotEqualInt64", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualInt64", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NotEqualInstruction__NotEqualInt64(__NotEqualInstruction__NotEqualInt64&&) = delete;
+  NotEqualInstruction_NotEqualInt64(NotEqualInstruction_NotEqualInt64&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NotEqualInstruction__NotEqualInt64", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualInt64", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NotEqualInstruction__NotEqualInt64(__NotEqualInstruction__NotEqualInt64 const&) = delete;
+  NotEqualInstruction_NotEqualInt64(NotEqualInstruction_NotEqualInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt64, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NotEqualInstruction_NotEqualInt64, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt64);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt64*, "System.Linq.Expressions.Interpreter", "NotEqualInstruction/NotEqualInt64");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::NotEqualInstruction_NotEqualInt64);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NotEqualInstruction_NotEqualInt64*, "System.Linq.Expressions.Interpreter", "NotEqualInstruction/NotEqualInt64");

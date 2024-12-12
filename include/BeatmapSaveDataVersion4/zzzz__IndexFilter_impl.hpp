@@ -4,9 +4,6 @@
 #include "BeatmapSaveDataCommon/zzzz__IndexFilterRandomType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IndexFilterType_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__IndexFilter_def.hpp"
-#include "BeatmapSaveDataCommon/zzzz__IndexFilterLimitAlsoAffectsType_def.hpp"
-#include "BeatmapSaveDataCommon/zzzz__IndexFilterRandomType_def.hpp"
-#include "BeatmapSaveDataCommon/zzzz__IndexFilterType_def.hpp"
 // Ctor Parameters [CppParam { name: "f", ty: "::BeatmapSaveDataCommon::IndexFilterType", modifiers: "", def_value: Some("{}") }, CppParam { name: "p", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "t", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "c", ty:
 // "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "n", ty: "::BeatmapSaveDataCommon::IndexFilterRandomType", modifiers: "", def_value: Some("{}") }, CppParam { name: "s", ty:

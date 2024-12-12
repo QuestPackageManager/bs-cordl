@@ -14,15 +14,14 @@ class ExceptionHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ExceptionHelpers);
-// Type: UnityEngine.InputSystem.Utilities::ExceptionHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::ExceptionHelpers*
+// CS Name: UnityEngine.InputSystem.Utilities.ExceptionHelpers
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x45059a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x4566cb8, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
 protected:
@@ -40,7 +39,7 @@ public:
   ExceptionHelpers(ExceptionHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

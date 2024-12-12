@@ -12,11 +12,10 @@ struct ClassInterfaceType;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::ClassInterfaceType);
-// Type: System.Runtime.InteropServices::ClassInterfaceType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// CS Name: ::System.Runtime.InteropServices::ClassInterfaceType
+// CS Name: System.Runtime.InteropServices.ClassInterfaceType
 struct CORDL_TYPE ClassInterfaceType {
 public:
   // Declarations
@@ -46,16 +45,13 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ClassInterfaceType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AutoDispatch value: static_cast<int32_t>(0x1)
+  /// @brief Field AutoDispatch value: I32(1)
   static ::System::Runtime::InteropServices::ClassInterfaceType const AutoDispatch;
 
-  /// @brief Field AutoDual value: static_cast<int32_t>(0x2)
+  /// @brief Field AutoDual value: I32(2)
   static ::System::Runtime::InteropServices::ClassInterfaceType const AutoDual;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Runtime::InteropServices::ClassInterfaceType const None;
 
   /// @brief IL2CPP Metadata Type Index
@@ -64,12 +60,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ClassInterfaceType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::ClassInterfaceType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ClassInterfaceType, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ClassInterfaceType, "System.Runtime.InteropServices", "ClassInterfaceType");

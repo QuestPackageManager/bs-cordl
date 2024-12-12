@@ -17,16 +17,15 @@ class PointLight;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PointLight);
-// Type: ::PointLight
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PointLight*
+// CS Name: PointLight
 class CORDL_TYPE PointLight : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lights, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__lights, put = setStaticF__lights)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* _lights;
+  __declspec(property(get = getStaticF__lights, put = setStaticF__lights)) ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* _lights;
 
   /// @brief Field color, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
@@ -36,10 +35,10 @@ public:
 
   static inline ::GlobalNamespace::PointLight* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3988310, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39dece0, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3988244, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39dec14, size 0xcc, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
@@ -54,15 +53,15 @@ public:
 
   constexpr void __cordl_internal_set_intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3988390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ded60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* getStaticF__lights();
+  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* getStaticF__lights();
 
-  /// @brief Method get_lights, addr 0x39881ec, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* get_lights();
+  /// @brief Method get_lights, addr 0x39debbc, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* get_lights();
 
-  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* value);
+  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* value);
 
 protected:
   // Ctor Parameters []
@@ -78,26 +77,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointLight(PointLight const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16277 };
+
+  /// @brief Field kMaxLights offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxLights{ static_cast<int32_t>(0x1) };
+
   /// @brief Field color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 
   /// @brief Field intensity, offset: 0x30, size: 0x4, def value: None
   float_t ___intensity;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16242 };
-
-  /// @brief Field kMaxLights offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxLights{ static_cast<int32_t>(0x1) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PointLight, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PointLight, ___color) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PointLight, ___intensity) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PointLight, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PointLight);

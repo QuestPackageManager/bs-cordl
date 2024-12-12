@@ -19,11 +19,10 @@ class AssetDetails;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::AssetDetails);
-// Type: Oculus.Platform.Models::AssetDetails
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::AssetDetails*
+// CS Name: Oculus.Platform.Models.AssetDetails
 class CORDL_TYPE AssetDetails : public ::System::Object {
 public:
   // Declarations
@@ -73,13 +72,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_IapStatus();
 
+  constexpr ::Oculus::Platform::Models::LanguagePackInfo* const& __cordl_internal_get_Language() const;
+
   constexpr ::Oculus::Platform::Models::LanguagePackInfo*& __cordl_internal_get_Language();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::LanguagePackInfo*> const& __cordl_internal_get_Language() const;
+  constexpr ::Oculus::Platform::Models::LanguagePackInfo* const& __cordl_internal_get_LanguageOptional() const;
 
   constexpr ::Oculus::Platform::Models::LanguagePackInfo*& __cordl_internal_get_LanguageOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::LanguagePackInfo*> const& __cordl_internal_get_LanguageOptional() const;
 
   constexpr ::StringW const& __cordl_internal_get_Metadata() const;
 
@@ -101,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_Metadata(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f2e248, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8e2f4, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -117,6 +116,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssetDetails(AssetDetails const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15499 };
 
   /// @brief Field AssetId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetId;
@@ -142,14 +144,9 @@ public:
   /// @brief Field Metadata, offset: 0x48, size: 0x8, def value: None
   ::StringW ___Metadata;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15464 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AssetDetails, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___AssetId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___AssetType) == 0x18, "Offset mismatch!");
@@ -165,6 +162,8 @@ static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___LanguageOpti
 static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___Language) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___Metadata) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AssetDetails, 0x50>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AssetDetails);

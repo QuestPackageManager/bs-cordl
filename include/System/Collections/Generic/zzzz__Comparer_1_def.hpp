@@ -3,15 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer_1)
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace System::Collections {
-class IComparer;
-}
 namespace System {
 class Object;
 }
@@ -21,18 +17,17 @@ template <typename T> class Comparer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::Comparer_1);
-// Type: System.Collections.Generic::Comparer`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IComparer`1<T>, System.Collections.IComparer, System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::Comparer`1<T>*
+// CS Name: System.Collections.Generic.Comparer`1<T>
 class CORDL_TYPE Comparer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field defaultComparer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultComparer, put = setStaticF_defaultComparer)) ::System::Collections::Generic::Comparer_1<T>* defaultComparer;
+  __declspec(property(get = getStaticF_defaultComparer, put = setStaticF_defaultComparer)) ::System::Collections::Generic::Comparer_1<T>* defaultComparer;
 
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<T>"
   constexpr operator ::System::Collections::Generic::IComparer_1<T>*() noexcept;
@@ -40,7 +35,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Compare(T x, T y);
 
   /// @brief Method CreateComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

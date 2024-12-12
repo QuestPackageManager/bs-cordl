@@ -11,17 +11,16 @@ class FormatterData;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::FormatterData);
-// Type: System.Runtime.Remoting::FormatterData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.ProviderData
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::FormatterData*
+// CS Name: System.Runtime.Remoting.FormatterData
 class CORDL_TYPE FormatterData : public ::System::Runtime::Remoting::ProviderData {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::FormatterData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c6de84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccdff8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Threading/NativeOverlapped.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Threading/zzzz__NativeOverlapped_def.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
 // Ctor Parameters [CppParam { name: "InternalLow", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "InternalHigh", ty: "::System::IntPtr", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "OffsetLow", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "OffsetHigh", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "EventHandle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]

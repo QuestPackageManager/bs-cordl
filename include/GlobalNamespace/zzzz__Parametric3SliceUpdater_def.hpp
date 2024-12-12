@@ -14,11 +14,10 @@ class Parametric3SliceUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Parametric3SliceUpdater);
-// Type: ::Parametric3SliceUpdater
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Parametric3SliceUpdater*
+// CS Name: Parametric3SliceUpdater
 class CORDL_TYPE Parametric3SliceUpdater : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -29,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::Parametric3SliceUpdater* New_ctor();
 
-  /// @brief Method Update, addr 0x39850cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39db994, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
@@ -38,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__parametric3SliceSpriteController(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
 
-  /// @brief Method .ctor, addr 0x39850e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39db9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Parametric3SliceUpdater(Parametric3SliceUpdater const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16264 };
+
   /// @brief Field _parametric3SliceSpriteController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSpriteController;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Parametric3SliceUpdater, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::Parametric3SliceUpdater, ____parametric3SliceSpriteController) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Parametric3SliceUpdater, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Parametric3SliceUpdater);

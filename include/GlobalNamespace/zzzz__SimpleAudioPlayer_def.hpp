@@ -18,11 +18,10 @@ class SimpleAudioPlayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleAudioPlayer);
-// Type: ::SimpleAudioPlayer
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies AudioPlayerBase
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SimpleAudioPlayer*
+// CS Name: SimpleAudioPlayer
 class CORDL_TYPE SimpleAudioPlayer : public ::GlobalNamespace::AudioPlayerBase {
 public:
   // Declarations
@@ -46,24 +45,24 @@ public:
 
   __declspec(property(get = get_activeAudioClip)) ::UnityW<::UnityEngine::AudioClip> activeAudioClip;
 
-  /// @brief Method FadeIn, addr 0x3a7c4fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x3ad391c, size 0x3c, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeOut, addr 0x3a7c638, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x3ad3a58, size 0x38, virtual true, abstract: false, final false
   inline void FadeOut(float_t duration);
 
   static inline ::GlobalNamespace::SimpleAudioPlayer* New_ctor();
 
-  /// @brief Method PauseCurrentChannel, addr 0x3a7c670, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method PauseCurrentChannel, addr 0x3ad3a90, size 0x1c, virtual true, abstract: false, final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method Start, addr 0x3a7c47c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad389c, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnPauseCurrentChannel, addr 0x3a7c68c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method UnPauseCurrentChannel, addr 0x3ad3aac, size 0x1c, virtual true, abstract: false, final false
   inline void UnPauseCurrentChannel();
 
-  /// @brief Method Update, addr 0x3a7c538, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad3958, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
@@ -102,10 +101,10 @@ public:
 
   constexpr void __cordl_internal_set__targetVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7c6a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad3ac8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeAudioClip, addr 0x3a7c474, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_activeAudioClip, addr 0x3ad3894, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
 protected:
@@ -121,6 +120,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleAudioPlayer(SimpleAudioPlayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4024 };
 
   /// @brief Field _audioClip, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
@@ -140,14 +142,9 @@ public:
   /// @brief Field _fadingIn, offset: 0x3c, size: 0x1, def value: None
   bool ____fadingIn;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4018 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleAudioPlayer, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____audioClip) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____audioSource) == 0x28, "Offset mismatch!");
@@ -159,6 +156,8 @@ static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____loop) == 0x34, 
 static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____fadeSpeed) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____fadingIn) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleAudioPlayer, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleAudioPlayer);

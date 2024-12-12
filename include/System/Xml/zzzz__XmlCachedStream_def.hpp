@@ -17,11 +17,10 @@ class XmlCachedStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlCachedStream);
-// Type: System.Xml::XmlCachedStream
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.MemoryStream
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlCachedStream*
+// CS Name: System.Xml.XmlCachedStream
 class CORDL_TYPE XmlCachedStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
@@ -30,13 +29,13 @@ public:
 
   static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
-  constexpr ::System::Uri*& __cordl_internal_get_uri();
+  constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x42fb784, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x435ca98, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlCachedStream(XmlCachedStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7346 };
+
   /// @brief Field uri, offset: 0x50, size: 0x8, def value: None
   ::System::Uri* ___uri;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCachedStream, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlCachedStream, ___uri) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCachedStream, 0x58>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlCachedStream);

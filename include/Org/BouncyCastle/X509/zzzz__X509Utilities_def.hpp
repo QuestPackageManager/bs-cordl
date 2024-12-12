@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Utilities)
@@ -41,43 +40,42 @@ class X509Utilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509Utilities);
-// Type: Org.BouncyCastle.X509::X509Utilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509::X509Utilities*
+// CS Name: Org.BouncyCastle.X509.X509Utilities
 class CORDL_TYPE X509Utilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
+  __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
   /// @brief Field exParams, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_exParams, put = setStaticF_exParams)) ::System::Collections::IDictionary* exParams;
+  __declspec(property(get = getStaticF_exParams, put = setStaticF_exParams)) ::System::Collections::IDictionary* exParams;
 
   /// @brief Field noParams, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
+  __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
 
-  /// @brief Method CreatePssParams, addr 0x25c62a4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x25f9590, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method GetAlgNames, addr 0x25c68fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgNames, addr 0x25f9be8, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* GetAlgNames();
 
-  /// @brief Method GetAlgorithmOid, addr 0x25c63c4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmOid, addr 0x25f96b0, size 0x208, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetSigAlgID, addr 0x25c65cc, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method GetSigAlgID, addr 0x25f98b8, size 0x330, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW algorithmName);
 
-  /// @brief Method GetSignatureForObject, addr 0x25c6a04, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureForObject, addr 0x25f9cf0, size 0x2c8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureForObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW sigName,
                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* ae);
 
   static inline ::Org::BouncyCastle::X509::X509Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c6ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f9fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();

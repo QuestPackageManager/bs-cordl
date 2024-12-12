@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocatorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447a85c;
+  constexpr static std::size_t addrs = 0x44dbb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocalHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447a864;
+  constexpr static std::size_t addrs = 0x44dbb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (
     ::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(&::AddressablesInternalBridge::Runtime::CatalogLocationData::get_CatalogLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447a86c;
+  constexpr static std::size_t addrs = 0x44dbb80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)(
     ::StringW, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::AddressablesInternalBridge::Runtime::CatalogLocationData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x447a210;
+  constexpr static std::size_t addrs = 0x44db524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocatio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CatalogLocation_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const&
+constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const&
 AddressablesInternalBridge::Runtime::CatalogLocationData::__cordl_internal_get__CatalogLocation_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CatalogLocation_k__BackingField;
@@ -117,11 +117,6 @@ inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* 
                                                                              "get_CatalogLocation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, false>(this, ___internal_method);
 }
-inline ::AddressablesInternalBridge::Runtime::CatalogLocationData*
-AddressablesInternalBridge::Runtime::CatalogLocationData::New_ctor(::StringW locatorId, ::StringW localHash,
-                                                                   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::AddressablesInternalBridge::Runtime::CatalogLocationData*>(locatorId, localHash, resourceLocation));
-}
 inline void AddressablesInternalBridge::Runtime::CatalogLocationData::_ctor(::StringW locatorId, ::StringW localHash,
                                                                             ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,6 +124,11 @@ inline void AddressablesInternalBridge::Runtime::CatalogLocationData::_ctor(::St
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, locatorId, localHash, resourceLocation);
+}
+inline ::AddressablesInternalBridge::Runtime::CatalogLocationData*
+AddressablesInternalBridge::Runtime::CatalogLocationData::New_ctor(::StringW locatorId, ::StringW localHash,
+                                                                   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::AddressablesInternalBridge::Runtime::CatalogLocationData*>(locatorId, localHash, resourceLocation));
 }
 // Ctor Parameters []
 constexpr ::AddressablesInternalBridge::Runtime::CatalogLocationData::CatalogLocationData() {}

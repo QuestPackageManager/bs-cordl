@@ -32,11 +32,10 @@ class AuthEnvelopedDataParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser);
-// Type: Org.BouncyCastle.Asn1.Cms::AuthEnvelopedDataParser
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::AuthEnvelopedDataParser*
+// CS Name: Org.BouncyCastle.Asn1.Cms.AuthEnvelopedDataParser
 class CORDL_TYPE AuthEnvelopedDataParser : public ::System::Object {
 public:
   // Declarations
@@ -54,41 +53,41 @@ public:
   /// @brief Field version, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetAuthAttrs, addr 0x22ceb9c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetAuthAttrs, addr 0x2301e88, size 0x1b8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
 
-  /// @brief Method GetAuthEncryptedContentInfo, addr 0x22ce7d0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetAuthEncryptedContentInfo, addr 0x2301abc, size 0x114, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetAuthEncryptedContentInfo();
 
-  /// @brief Method GetMac, addr 0x22ced54, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x2302040, size 0x130, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
 
-  /// @brief Method GetOriginatorInfo, addr 0x22ce3f4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetOriginatorInfo, addr 0x23016e0, size 0x2dc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos, addr 0x22ce6d0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x23019bc, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetUnauthAttrs, addr 0x22cee84, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUnauthAttrs, addr 0x2302170, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get_nextObject();
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* const& __cordl_internal_get_nextObject() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IAsn1Convertible*> const& __cordl_internal_get_nextObject() const;
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get_nextObject();
 
   constexpr bool const& __cordl_internal_get_originatorInfoCalled() const;
 
   constexpr bool& __cordl_internal_get_originatorInfoCalled();
 
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* const& __cordl_internal_get_seq() const;
+
   constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get_seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __cordl_internal_get_seq() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_version() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
   constexpr void __cordl_internal_set_nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible* value);
 
@@ -98,10 +97,10 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x22ce2c8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23015b4, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0x22ce3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x23016d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
@@ -118,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AuthEnvelopedDataParser(AuthEnvelopedDataParser const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 61 };
+
   /// @brief Field seq, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1SequenceParser* ___seq;
 
@@ -130,14 +132,9 @@ public:
   /// @brief Field originatorInfoCalled, offset: 0x28, size: 0x1, def value: None
   bool ___originatorInfoCalled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 61 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___seq) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___version) == 0x18, "Offset mismatch!");
@@ -145,6 +142,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___nextObject) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___originatorInfoCalled) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser);

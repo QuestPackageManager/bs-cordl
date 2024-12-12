@@ -11,11 +11,10 @@ class DataContractAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::DataContractAttribute);
-// Type: System.Runtime.Serialization::DataContractAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::DataContractAttribute*
+// CS Name: System.Runtime.Serialization.DataContractAttribute
 class CORDL_TYPE DataContractAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set_isReference(bool value);
 
-  /// @brief Method get_IsReference, addr 0x41d2e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x4234170, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
 protected:
@@ -47,18 +46,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DataContractAttribute(DataContractAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19228 };
+
   /// @brief Field isReference, offset: 0x10, size: 0x1, def value: None
   bool ___isReference;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DataContractAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::DataContractAttribute, ___isReference) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DataContractAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::DataContractAttribute);

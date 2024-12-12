@@ -13,18 +13,17 @@ struct SDKPriority;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKPriority);
-// Type: LIV.SDK.Unity::SDKPriority
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::SDKPriority
+// CS Name: LIV.SDK.Unity.SDKPriority
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3a7110c, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ac7d7c, size 0x26c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a71100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac7d70, size 0xc, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
   // Ctor Parameters []
@@ -36,6 +35,12 @@ public:
   // None }, CppParam { name: "nearFarAdjustment", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "groundPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name:
   // "reserved2", ty: "int8_t", modifiers: "", def_value: None }]
   constexpr SDKPriority(int8_t pose, int8_t clipPlane, int8_t stage, int8_t resolution, int8_t feature, int8_t nearFarAdjustment, int8_t groundPlane, int8_t reserved2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17321 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field pose, offset: 0x0, size: 0x1, def value: None
   int8_t pose;
@@ -61,17 +66,9 @@ public:
   /// @brief Field reserved2, offset: 0x7, size: 0x1, def value: None
   int8_t reserved2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17277 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKPriority, 0x8>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, pose) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, clipPlane) == 0x1, "Offset mismatch!");
@@ -87,6 +84,8 @@ static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, nearFarAdjustment) == 0x5
 static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, groundPlane) == 0x6, "Offset mismatch!");
 
 static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, reserved2) == 0x7, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKPriority, 0x8>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKPriority, "LIV.SDK.Unity", "SDKPriority");

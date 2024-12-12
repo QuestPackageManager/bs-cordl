@@ -21,11 +21,10 @@ class StandardTaskContinuation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::StandardTaskContinuation);
-// Type: System.Threading.Tasks::StandardTaskContinuation
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.Tasks.TaskContinuation, System.Threading.Tasks.TaskContinuationOptions
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::StandardTaskContinuation*
+// CS Name: System.Threading.Tasks.StandardTaskContinuation
 class CORDL_TYPE StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {
 public:
   // Declarations
@@ -41,20 +40,20 @@ public:
   static inline ::System::Threading::Tasks::StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options,
                                                                                ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method Run, addr 0x3e080e8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x3e68194, size 0x190, virtual true, abstract: false, final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
   constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_options() const;
 
   constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_options();
 
+  constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_m_task() const;
+
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_task();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_m_task() const;
+  constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_m_taskScheduler() const;
 
   constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_taskScheduler();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __cordl_internal_get_m_taskScheduler() const;
 
   constexpr void __cordl_internal_set_m_options(::System::Threading::Tasks::TaskContinuationOptions value);
 
@@ -62,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
 
-  /// @brief Method .ctor, addr 0x3e04db8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e64e64, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
 protected:
@@ -79,6 +78,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardTaskContinuation(StandardTaskContinuation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2805 };
+
   /// @brief Field m_task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ___m_task;
 
@@ -88,19 +90,16 @@ public:
   /// @brief Field m_taskScheduler, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskScheduler* ___m_taskScheduler;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2805 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::StandardTaskContinuation, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___m_task) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___m_options) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___m_taskScheduler) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::StandardTaskContinuation, 0x28>, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::StandardTaskContinuation);

@@ -21,449 +21,447 @@
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c._ctor
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ReflectionUtils____c::*)()>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ReflectionUtils___c::*)()>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e755f0;
+  constexpr static std::size_t addrs = 0x3ed569c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c._GetDefaultConstructor_b__11_0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c._GetDefaultConstructor_b__11_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ReflectionUtils____c::*)(::System::Reflection::ConstructorInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetDefaultConstructor_b__11_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ReflectionUtils___c::*)(::System::Reflection::ConstructorInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetDefaultConstructor_b__11_0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e755f8;
+  constexpr static std::size_t addrs = 0x3ed56a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetDefaultConstructor>b__11_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetDefaultConstructor>b__11_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c._GetFieldsAndProperties_b__31_0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c._GetFieldsAndProperties_b__31_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::__ReflectionUtils____c::*)(::System::Reflection::MemberInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetFieldsAndProperties_b__31_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ReflectionUtils___c::*)(::System::Reflection::MemberInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetFieldsAndProperties_b__31_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e75664;
+  constexpr static std::size_t addrs = 0x3ed5710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetFieldsAndProperties>b__31_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetFieldsAndProperties>b__31_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c._GetMemberInfoFromType_b__39_0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c._GetMemberInfoFromType_b__39_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Utilities::__ReflectionUtils____c::*)(::System::Reflection::ParameterInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetMemberInfoFromType_b__39_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Utilities::ReflectionUtils___c::*)(::System::Reflection::ParameterInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetMemberInfoFromType_b__39_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e75688;
+  constexpr static std::size_t addrs = 0x3ed5734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetMemberInfoFromType>b__39_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetMemberInfoFromType>b__39_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c._GetChildPrivateFields_b__41_0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c._GetChildPrivateFields_b__41_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ReflectionUtils____c::*)(::System::Reflection::FieldInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetChildPrivateFields_b__41_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ReflectionUtils___c::*)(::System::Reflection::FieldInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetChildPrivateFields_b__41_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3e756ac;
+  constexpr static std::size_t addrs = 0x3ed5758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetChildPrivateFields>b__41_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetChildPrivateFields>b__41_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c::setStaticF___9(::Newtonsoft::Json::Utilities::__ReflectionUtils____c* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>(value));
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c::setStaticF___9(::Newtonsoft::Json::Utilities::ReflectionUtils___c* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::ReflectionUtils___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>(value));
 }
-inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c* Newtonsoft::Json::Utilities::__ReflectionUtils____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>();
+inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c* Newtonsoft::Json::Utilities::ReflectionUtils___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::ReflectionUtils___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>();
 }
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c::setStaticF___9__11_0(::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c::setStaticF___9__11_0(::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::ConstructorInfo*, bool>*, "<>9__11_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>(
       std::forward<::System::Func_2<::System::Reflection::ConstructorInfo*, bool>*>(value));
 }
-inline ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* Newtonsoft::Json::Utilities::__ReflectionUtils____c::getStaticF___9__11_0() {
+inline ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* Newtonsoft::Json::Utilities::ReflectionUtils___c::getStaticF___9__11_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::ConstructorInfo*, bool>*, "<>9__11_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>();
 }
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c::setStaticF___9__31_0(::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c::setStaticF___9__31_0(::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>*, "<>9__31_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>(
       std::forward<::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* Newtonsoft::Json::Utilities::__ReflectionUtils____c::getStaticF___9__31_0() {
+inline ::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* Newtonsoft::Json::Utilities::ReflectionUtils___c::getStaticF___9__31_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>*, "<>9__31_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>();
 }
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c::setStaticF___9__39_0(::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c::setStaticF___9__39_0(::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>*, "<>9__39_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>(
       std::forward<::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>*>(value));
 }
-inline ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* Newtonsoft::Json::Utilities::__ReflectionUtils____c::getStaticF___9__39_0() {
+inline ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* Newtonsoft::Json::Utilities::ReflectionUtils___c::getStaticF___9__39_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>*, "<>9__39_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>();
 }
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c::setStaticF___9__41_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c::setStaticF___9__41_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::FieldInfo*, bool>*, "<>9__41_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>(
       std::forward<::System::Func_2<::System::Reflection::FieldInfo*, bool>*>(value));
 }
-inline ::System::Func_2<::System::Reflection::FieldInfo*, bool>* Newtonsoft::Json::Utilities::__ReflectionUtils____c::getStaticF___9__41_0() {
+inline ::System::Func_2<::System::Reflection::FieldInfo*, bool>* Newtonsoft::Json::Utilities::ReflectionUtils___c::getStaticF___9__41_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::FieldInfo*, bool>*, "<>9__41_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get>();
 }
-inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c* Newtonsoft::Json::Utilities::__ReflectionUtils____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>());
-}
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(),
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetDefaultConstructor_b__11_0(::System::Reflection::ConstructorInfo* c) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetDefaultConstructor_b__11_0(::System::Reflection::ConstructorInfo* c) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetDefaultConstructor>b__11_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetDefaultConstructor>b__11_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, c);
 }
-inline ::StringW Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetFieldsAndProperties_b__31_0(::System::Reflection::MemberInfo* m) {
+inline ::StringW Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetFieldsAndProperties_b__31_0(::System::Reflection::MemberInfo* m) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetFieldsAndProperties>b__31_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetFieldsAndProperties>b__31_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, m);
 }
-inline ::System::Type* Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetMemberInfoFromType_b__39_0(::System::Reflection::ParameterInfo* p) {
+inline ::System::Type* Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetMemberInfoFromType_b__39_0(::System::Reflection::ParameterInfo* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetMemberInfoFromType>b__39_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetMemberInfoFromType>b__39_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, p);
 }
-inline bool Newtonsoft::Json::Utilities::__ReflectionUtils____c::_GetChildPrivateFields_b__41_0(::System::Reflection::FieldInfo* f) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils___c::_GetChildPrivateFields_b__41_0(::System::Reflection::FieldInfo* f) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c*>::get(), "<GetChildPrivateFields>b__41_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>::get(), "<GetChildPrivateFields>b__41_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, f);
 }
+inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c* Newtonsoft::Json::Utilities::ReflectionUtils___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ReflectionUtils___c*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ReflectionUtils____c::__ReflectionUtils____c() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0._ctor
+constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c::ReflectionUtils___c() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::*)()>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::*)()>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e756c4;
+  constexpr static std::size_t addrs = 0x3ed5770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0._GetFieldsAndProperties_b__1
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0._GetFieldsAndProperties_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::*)(::System::Reflection::MemberInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::_GetFieldsAndProperties_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::*)(::System::Reflection::MemberInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::_GetFieldsAndProperties_b__1)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e756cc;
+  constexpr static std::size_t addrs = 0x3ed5778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0*>::get(), "<GetFieldsAndProperties>b__1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0*>::get(), "<GetFieldsAndProperties>b__1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Reflection::MemberInfo*& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::__cordl_internal_get_memberInfo() {
+constexpr ::System::Reflection::MemberInfo*& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::__cordl_internal_get_memberInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::__cordl_internal_get_memberInfo() const {
+constexpr ::System::Reflection::MemberInfo* const& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::__cordl_internal_get_memberInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberInfo;
 }
-constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::__cordl_internal_set_memberInfo(::System::Reflection::MemberInfo* value) {
+constexpr void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::__cordl_internal_set_memberInfo(::System::Reflection::MemberInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0* Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0*>());
-}
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::_ctor() {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::_GetFieldsAndProperties_b__1(::System::Reflection::MemberInfo* m) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::_GetFieldsAndProperties_b__1(::System::Reflection::MemberInfo* m) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0*>::get(), "<GetFieldsAndProperties>b__1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0*>::get(), "<GetFieldsAndProperties>b__1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, m);
 }
+inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0* Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0::__ReflectionUtils____c__DisplayClass31_0() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0._ctor
+constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0::ReflectionUtils___c__DisplayClass31_0() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::*)()>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::*)()>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e75768;
+  constexpr static std::size_t addrs = 0x3ed5814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0._GetChildPrivateProperties_b__0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0._GetChildPrivateProperties_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::*)(
-    ::System::Reflection::PropertyInfo*)>(&::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::_GetChildPrivateProperties_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::*)(::System::Reflection::PropertyInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::_GetChildPrivateProperties_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e75770;
+  constexpr static std::size_t addrs = 0x3ed581c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::PropertyInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0._GetChildPrivateProperties_b__1
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0._GetChildPrivateProperties_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::*)(
-    ::System::Reflection::PropertyInfo*)>(&::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::_GetChildPrivateProperties_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::*)(::System::Reflection::PropertyInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::_GetChildPrivateProperties_b__1)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3e757c4;
+  constexpr static std::size_t addrs = 0x3ed5870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::PropertyInfo*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Reflection::PropertyInfo*& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::__cordl_internal_get_subTypeProperty() {
+constexpr ::System::Reflection::PropertyInfo*& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::__cordl_internal_get_subTypeProperty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subTypeProperty;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const&
-Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::__cordl_internal_get_subTypeProperty() const {
+constexpr ::System::Reflection::PropertyInfo* const& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::__cordl_internal_get_subTypeProperty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subTypeProperty;
 }
-constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::__cordl_internal_set_subTypeProperty(::System::Reflection::PropertyInfo* value) {
+constexpr void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::__cordl_internal_set_subTypeProperty(::System::Reflection::PropertyInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subTypeProperty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0* Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*>());
-}
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::_ctor() {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::_GetChildPrivateProperties_b__0(::System::Reflection::PropertyInfo* p) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::_GetChildPrivateProperties_b__0(::System::Reflection::PropertyInfo* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::PropertyInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, p);
 }
-inline bool Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::_GetChildPrivateProperties_b__1(::System::Reflection::PropertyInfo* p) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::_GetChildPrivateProperties_b__1(::System::Reflection::PropertyInfo* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*>::get(), "<GetChildPrivateProperties>b__1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::PropertyInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, p);
+}
+inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*>());
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0::__ReflectionUtils____c__DisplayClass44_0() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1._ctor
+constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0::ReflectionUtils___c__DisplayClass44_0() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::*)()>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::*)()>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e758b0;
+  constexpr static std::size_t addrs = 0x3ed595c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1._GetChildPrivateProperties_b__2
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1._GetChildPrivateProperties_b__2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::*)(
-    ::System::Reflection::PropertyInfo*)>(&::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::_GetChildPrivateProperties_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::*)(::System::Reflection::PropertyInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::_GetChildPrivateProperties_b__2)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e758b8;
+  constexpr static std::size_t addrs = 0x3ed5964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1*>::get(), "<GetChildPrivateProperties>b__2",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1*>::get(), "<GetChildPrivateProperties>b__2",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::PropertyInfo*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::__cordl_internal_get_subTypePropertyDeclaringType() {
+constexpr ::System::Type*& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::__cordl_internal_get_subTypePropertyDeclaringType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subTypePropertyDeclaringType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::__cordl_internal_get_subTypePropertyDeclaringType() const {
+constexpr ::System::Type* const& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::__cordl_internal_get_subTypePropertyDeclaringType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subTypePropertyDeclaringType;
 }
-constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::__cordl_internal_set_subTypePropertyDeclaringType(::System::Type* value) {
+constexpr void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::__cordl_internal_set_subTypePropertyDeclaringType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subTypePropertyDeclaringType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::__cordl_internal_get_CS$__8__locals1() {
+constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::__cordl_internal_get_CS$__8__locals1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*> const&
-Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::__cordl_internal_get_CS$__8__locals1() const {
+constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* const&
+Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::__cordl_internal_get_CS$__8__locals1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
-constexpr void
-Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::__cordl_internal_set_CS$__8__locals1(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0* value) {
+constexpr void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::__cordl_internal_set_CS$__8__locals1(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1* Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1*>());
-}
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::_ctor() {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::_GetChildPrivateProperties_b__2(::System::Reflection::PropertyInfo* p) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::_GetChildPrivateProperties_b__2(::System::Reflection::PropertyInfo* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1*>::get(), "<GetChildPrivateProperties>b__2",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1*>::get(), "<GetChildPrivateProperties>b__2",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::PropertyInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, p);
 }
+inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1* Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1::__ReflectionUtils____c__DisplayClass44_1() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0._ctor
+constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1::ReflectionUtils___c__DisplayClass44_1() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::*)()>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::*)()>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e759cc;
+  constexpr static std::size_t addrs = 0x3ed5a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0._IsMethodOverridden_b__0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0._IsMethodOverridden_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::*)(::System::Reflection::MethodInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::_IsMethodOverridden_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::*)(::System::Reflection::MethodInfo*)>(
+    &::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::_IsMethodOverridden_b__0)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e759d4;
+  constexpr static std::size_t addrs = 0x3ed5a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0*>::get(), "<IsMethodOverridden>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0*>::get(), "<IsMethodOverridden>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::__cordl_internal_get_method() {
+constexpr ::StringW& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::__cordl_internal_get_method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
-constexpr ::StringW const& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::__cordl_internal_get_method() const {
+constexpr ::StringW const& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::__cordl_internal_get_method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
-constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::__cordl_internal_set_method(::StringW value) {
+constexpr void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::__cordl_internal_set_method(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::__cordl_internal_get_methodDeclaringType() {
+constexpr ::System::Type*& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::__cordl_internal_get_methodDeclaringType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodDeclaringType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::__cordl_internal_get_methodDeclaringType() const {
+constexpr ::System::Type* const& Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::__cordl_internal_get_methodDeclaringType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodDeclaringType;
 }
-constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::__cordl_internal_set_methodDeclaringType(::System::Type* value) {
+constexpr void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::__cordl_internal_set_methodDeclaringType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___methodDeclaringType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0* Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0*>());
-}
-inline void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::_ctor() {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::_IsMethodOverridden_b__0(::System::Reflection::MethodInfo* info) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::_IsMethodOverridden_b__0(::System::Reflection::MethodInfo* info) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0*>::get(), "<IsMethodOverridden>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0*>::get(), "<IsMethodOverridden>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, info);
 }
+inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0* Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0::__ReflectionUtils____c__DisplayClass45_0() {}
+constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0::ReflectionUtils___c__DisplayClass45_0() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils.IsVirtual
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::IsVirtual)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3e71880;
+  constexpr static std::size_t addrs = 0x3ed192c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -478,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Reflection::PropertyInfo*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetBaseDefinition)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3e71964;
+  constexpr static std::size_t addrs = 0x3ed1a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -492,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::IsPublic)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e71a2c;
+  constexpr static std::size_t addrs = 0x3ed1ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -506,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Object*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::GetObjectType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e6145c;
+  constexpr static std::size_t addrs = 0x3ec1508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -521,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(
     ::System::Type*, ::Newtonsoft::Json::TypeNameAssemblyFormatHandling, ::Newtonsoft::Json::Serialization::ISerializationBinder*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::GetTypeName)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e71abc;
+  constexpr static std::size_t addrs = 0x3ed1b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -538,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::Newtonsoft::Json::Serialization::ISerializationBinder*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetFullyQualifiedTypeName)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3e71b94;
+  constexpr static std::size_t addrs = 0x3ed1c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -553,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::RemoveAssemblyDetails)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3e71cc4;
+  constexpr static std::size_t addrs = 0x3ed1d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -567,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, bool)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::HasDefaultConstructor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3e7106c;
+  constexpr static std::size_t addrs = 0x3ed1118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -582,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e71f84;
+  constexpr static std::size_t addrs = 0x3ed2030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -597,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, bool)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3e71e58;
+  constexpr static std::size_t addrs = 0x3ed1f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -611,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::IsNullable)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e61034;
+  constexpr static std::size_t addrs = 0x3ec10e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -625,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::IsNullableType)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3e5f47c;
+  constexpr static std::size_t addrs = 0x3ebf528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -639,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotNullableType)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e71fdc;
+  constexpr static std::size_t addrs = 0x3ed2088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -653,7 +651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotByRefType)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3e72050;
+  constexpr static std::size_t addrs = 0x3ed20fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -667,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::IsGenericDefinition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3e720a0;
+  constexpr static std::size_t addrs = 0x3ed214c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(),
@@ -683,7 +681,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e5e430;
+  constexpr static std::size_t addrs = 0x3ebe4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(),
@@ -696,17 +694,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils.ImplementsGenericDefinition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ::ByRef<::System::Type*>)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x3e72144;
+  constexpr static std::size_t addrs = 0x3ed21f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "ImplementsGenericDefinition", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
     return ___internal_method;
   }
 };
@@ -716,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e723a8;
+  constexpr static std::size_t addrs = 0x3ed2454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(),
@@ -729,34 +727,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils.InheritsGenericDefinition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ::ByRef<::System::Type*>)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3e7241c;
+  constexpr static std::size_t addrs = 0x3ed24c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "InheritsGenericDefinition", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils.InheritsGenericDefinitionInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ::ByRef<::System::Type*>)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3e7256c;
+  constexpr static std::size_t addrs = 0x3ed2618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "InheritsGenericDefinitionInternal", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
     return ___internal_method;
   }
 };
@@ -765,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::GetCollectionItemType)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3e72660;
+  constexpr static std::size_t addrs = 0x3ed270c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -777,17 +775,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::ReflectionUtils.GetDictionaryKeyValueTypes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ByRef<::System::Type*>, ByRef<::System::Type*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::ByRef<::System::Type*>, ::ByRef<::System::Type*>)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3e72880;
+  constexpr static std::size_t addrs = 0x3ed292c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "GetDictionaryKeyValueTypes", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
     return ___internal_method;
   }
 };
@@ -797,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::MemberInfo*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberUnderlyingType)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3e71448;
+  constexpr static std::size_t addrs = 0x3ed14f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -811,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::IsByRefLikeType)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3e72aa4;
+  constexpr static std::size_t addrs = 0x3ed2b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -825,7 +823,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::IsIndexedProperty)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e730bc;
+  constexpr static std::size_t addrs = 0x3ed3168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -840,7 +838,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Reflection::MemberInfo*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberValue)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3e73138;
+  constexpr static std::size_t addrs = 0x3ed31e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -856,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MemberInfo*, ::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::SetMemberValue)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3e73458;
+  constexpr static std::size_t addrs = 0x3ed3504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -873,7 +871,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, bool)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::CanReadMemberValue)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3e7115c;
+  constexpr static std::size_t addrs = 0x3ed1208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -889,7 +887,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, bool, bool)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::CanSetMemberValue)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3e712b0;
+  constexpr static std::size_t addrs = 0x3ed135c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -906,7 +904,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>* (*)(::System::Type*, ::System::Reflection::BindingFlags)>(
         &::Newtonsoft::Json::Utilities::ReflectionUtils::GetFieldsAndProperties)> {
   constexpr static std::size_t size = 0xa7c;
-  constexpr static std::size_t addrs = 0x3e73674;
+  constexpr static std::size_t addrs = 0x3ed3720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -922,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::BindingFlags)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::IsOverridenGenericMember)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3e74510;
+  constexpr static std::size_t addrs = 0x3ed45bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -938,7 +936,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (*)(::System::Object*, ::System::Type*, bool)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x3e72ba8;
+  constexpr static std::size_t addrs = 0x3ed2c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -954,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> (*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::SplitFullyQualifiedTypeName)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3e746e0;
+  constexpr static std::size_t addrs = 0x3ed478c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -969,7 +967,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetAssemblyDelimiterIndex)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e747dc;
+  constexpr static std::size_t addrs = 0x3ed4888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -984,7 +982,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (*)(::System::Type*, ::System::Reflection::MemberInfo*)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberInfoFromType)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x3e748b4;
+  constexpr static std::size_t addrs = 0x3ed4960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1001,7 +999,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* (*)(::System::Type*, ::System::Reflection::BindingFlags)>(
         &::Newtonsoft::Json::Utilities::ReflectionUtils::GetFields)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3e740f0;
+  constexpr static std::size_t addrs = 0x3ed419c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1018,7 +1016,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IList_1<::System::Reflection::MemberInfo*>*, ::System::Type*, ::System::Reflection::BindingFlags)>(
         &::Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateFields)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3e74b18;
+  constexpr static std::size_t addrs = 0x3ed4bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1036,7 +1034,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* (*)(::System::Type*, ::System::Reflection::BindingFlags)>(
         &::Newtonsoft::Json::Utilities::ReflectionUtils::GetProperties)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x3e7420c;
+  constexpr static std::size_t addrs = 0x3ed42b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1052,7 +1050,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::BindingFlags (*)(::System::Reflection::BindingFlags, ::System::Reflection::BindingFlags)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::RemoveFlag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e74cf8;
+  constexpr static std::size_t addrs = 0x3ed4da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1069,7 +1067,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IList_1<::System::Reflection::PropertyInfo*>*, ::System::Type*, ::System::Reflection::BindingFlags)>(
         &::Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateProperties)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x3e74d08;
+  constexpr static std::size_t addrs = 0x3ed4db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1086,7 +1084,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ::StringW)>(
     &::Newtonsoft::Json::Utilities::ReflectionUtils::IsMethodOverridden)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e75264;
+  constexpr static std::size_t addrs = 0x3ed5310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1101,7 +1099,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultValue)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x3e7535c;
+  constexpr static std::size_t addrs = 0x3ed5408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1221,11 +1219,11 @@ inline bool Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefin
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, genericInterfaceDefinition);
 }
-inline bool Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition, ByRef<::System::Type*> implementingType) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition, ::ByRef<::System::Type*> implementingType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "ImplementsGenericDefinition", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, genericInterfaceDefinition, implementingType);
 }
 inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition) {
@@ -1235,18 +1233,18 @@ inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinit
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, genericClassDefinition);
 }
-inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition, ::ByRef<::System::Type*> implementingType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "InheritsGenericDefinition", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, genericClassDefinition, implementingType);
 }
-inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal(::System::Type* type, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal(::System::Type* type, ::System::Type* genericClassDefinition, ::ByRef<::System::Type*> implementingType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "InheritsGenericDefinitionInternal", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, genericClassDefinition, implementingType);
 }
 inline ::System::Type* Newtonsoft::Json::Utilities::ReflectionUtils::GetCollectionItemType(::System::Type* type) {
@@ -1255,12 +1253,12 @@ inline ::System::Type* Newtonsoft::Json::Utilities::ReflectionUtils::GetCollecti
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes(::System::Type* dictionaryType, ByRef<::System::Type*> keyType, ByRef<::System::Type*> valueType) {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes(::System::Type* dictionaryType, ::ByRef<::System::Type*> keyType, ::ByRef<::System::Type*> valueType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ReflectionUtils*>::get(), "GetDictionaryKeyValueTypes", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, dictionaryType, keyType, valueType);
 }
 inline ::System::Type* Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberUnderlyingType(::System::Reflection::MemberInfo* member) {

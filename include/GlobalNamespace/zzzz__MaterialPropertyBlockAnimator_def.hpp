@@ -16,11 +16,10 @@ class MaterialPropertyBlockAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockAnimator);
-// Type: ::MaterialPropertyBlockAnimator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialPropertyBlockAnimator*
+// CS Name: MaterialPropertyBlockAnimator
 class CORDL_TYPE MaterialPropertyBlockAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -41,21 +40,21 @@ public:
   /// @brief Field propertyId, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  /// @brief Method Awake, addr 0x398f9b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39e6384, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x398fa44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x39e6414, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockAnimator* New_ctor();
 
-  /// @brief Method RefreshProperty, addr 0x398fb00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshProperty, addr 0x39e64d0, size 0x20, virtual false, abstract: false, final false
   inline void RefreshProperty();
 
-  /// @brief Method SetProperty, addr 0x398f9b0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x39e6380, size 0x4, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Update, addr 0x398fa74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39e6444, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -82,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set_propertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x398fb20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e64f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x398f92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x39e62fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
-  /// @brief Method set_materialPropertyBlockController, addr 0x398f934, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_materialPropertyBlockController, addr 0x39e6304, size 0x7c, virtual false, abstract: false, final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
 protected:
@@ -105,6 +104,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16344 };
+
   /// @brief Field _property, offset: 0x20, size: 0x8, def value: None
   ::StringW ____property;
 
@@ -117,14 +119,9 @@ public:
   /// @brief Field _isInitialized, offset: 0x34, size: 0x1, def value: None
   bool ____isInitialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16309 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockAnimator, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockAnimator, ____property) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockAnimator, ____materialPropertyBlockController) == 0x28, "Offset mismatch!");
@@ -132,6 +129,8 @@ static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockAnimator, ____mat
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockAnimator, ___propertyId) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockAnimator, ____isInitialized) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockAnimator, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockAnimator);

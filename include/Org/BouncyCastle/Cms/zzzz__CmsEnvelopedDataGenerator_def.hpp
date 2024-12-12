@@ -28,34 +28,33 @@ class CmsEnvelopedDataGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator);
-// Type: Org.BouncyCastle.Cms::CmsEnvelopedDataGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Cms.CmsEnvelopedGenerator
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedDataGenerator*
+// CS Name: Org.BouncyCastle.Cms.CmsEnvelopedDataGenerator
 class CORDL_TYPE CmsEnvelopedDataGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x261fcfc, size 0xc94, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2652fe8, size 0xc94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* cipherBuilder);
 
-  /// @brief Method Generate, addr 0x261fb58, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2652e44, size 0x1a4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-  /// @brief Method Generate, addr 0x261eefc, size 0xc5c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x26521e8, size 0xc5c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Generate, addr 0x2620990, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2653c7c, size 0x1a0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, int32_t keySize);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x261ee44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652130, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x261ee98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652184, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

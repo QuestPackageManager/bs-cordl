@@ -27,13 +27,12 @@ template <typename T> struct TreeData_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::TreeData_1);
-// Type: UnityEngine.UIElements::TreeData`1
-// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::TreeData`1<T>
+// CS Name: UnityEngine.UIElements.TreeData`1<T>
 struct CORDL_TYPE TreeData_1 {
 public:
   // Declarations
@@ -84,6 +83,12 @@ public:
                        ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_ParentIds,
                        ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* m_ChildrenIds) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5708 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field m_RootItemIds, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<int32_t>* m_RootItemIds;
 
@@ -95,12 +100,6 @@ public:
 
   /// @brief Field m_ChildrenIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* m_ChildrenIds;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5683 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

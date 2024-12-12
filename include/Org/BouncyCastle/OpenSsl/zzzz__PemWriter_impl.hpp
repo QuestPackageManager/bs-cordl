@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(::System::IO::TextWriter*)>(
     &::Org::BouncyCastle::OpenSsl::PemWriter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x251ec70;
+  constexpr static std::size_t addrs = 0x2551f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(::System::Object*)>(
     &::Org::BouncyCastle::OpenSsl::PemWriter::WriteObject)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x251ec74;
+  constexpr static std::size_t addrs = 0x2551f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(
     ::System::Object*, ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::OpenSsl::PemWriter::WriteObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x251edd8;
+  constexpr static std::size_t addrs = 0x25520c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,9 +52,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::OpenSsl::PemWriter* Org::BouncyCastle::OpenSsl::PemWriter::New_ctor(::System::IO::TextWriter* writer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::OpenSsl::PemWriter*>(writer));
-}
 inline void Org::BouncyCastle::OpenSsl::PemWriter::_ctor(::System::IO::TextWriter* writer) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::PemWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -75,6 +72,9 @@ inline void Org::BouncyCastle::OpenSsl::PemWriter::WriteObject(::System::Object*
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, algorithm, password, random);
+}
+inline ::Org::BouncyCastle::OpenSsl::PemWriter* Org::BouncyCastle::OpenSsl::PemWriter::New_ctor(::System::IO::TextWriter* writer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::OpenSsl::PemWriter*>(writer));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::PemWriter::PemWriter() {}

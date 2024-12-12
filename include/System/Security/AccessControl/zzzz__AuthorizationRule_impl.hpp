@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Principal::IdentityReference*, int32_t, bool, ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags)>(
     &::System::Security::AccessControl::AuthorizationRule::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3c61314;
+  constexpr static std::size_t addrs = 0x3cc1488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::AuthorizationRule::*)()>(
     &::System::Security::AccessControl::AuthorizationRule::get_AccessMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c6156c;
+  constexpr static std::size_t addrs = 0x3cc16e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AuthorizationRule*>::get(),
@@ -44,7 +44,7 @@ constexpr ::System::Security::Principal::IdentityReference*& System::Security::A
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identity;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IdentityReference*> const& System::Security::AccessControl::AuthorizationRule::__cordl_internal_get_identity() const {
+constexpr ::System::Security::Principal::IdentityReference* const& System::Security::AccessControl::AuthorizationRule::__cordl_internal_get_identity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identity;
 }
@@ -100,12 +100,6 @@ constexpr void System::Security::AccessControl::AuthorizationRule::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___propagationFlags = value;
 }
-inline ::System::Security::AccessControl::AuthorizationRule* System::Security::AccessControl::AuthorizationRule::New_ctor(::System::Security::Principal::IdentityReference* identity,
-                                                                                                                          int32_t accessMask, bool isInherited,
-                                                                                                                          ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
-                                                                                                                          ::System::Security::AccessControl::PropagationFlags propagationFlags) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::AuthorizationRule*>(identity, accessMask, isInherited, inheritanceFlags, propagationFlags));
-}
 inline void System::Security::AccessControl::AuthorizationRule::_ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited,
                                                                       ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                       ::System::Security::AccessControl::PropagationFlags propagationFlags) {
@@ -121,6 +115,12 @@ inline int32_t System::Security::AccessControl::AuthorizationRule::get_AccessMas
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AuthorizationRule*>::get(),
                                                                              "get_AccessMask", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Security::AccessControl::AuthorizationRule* System::Security::AccessControl::AuthorizationRule::New_ctor(::System::Security::Principal::IdentityReference* identity,
+                                                                                                                          int32_t accessMask, bool isInherited,
+                                                                                                                          ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
+                                                                                                                          ::System::Security::AccessControl::PropagationFlags propagationFlags) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::AuthorizationRule*>(identity, accessMask, isInherited, inheritanceFlags, propagationFlags));
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::AuthorizationRule::AuthorizationRule() {}

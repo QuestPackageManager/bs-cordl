@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::PlayerTransforms*, ::GlobalNamespace::BezierSplineEvaluator*, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x22323bc;
+  constexpr static std::size_t addrs = 0x225d930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2232434;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x225d9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*>::get(),
@@ -117,8 +117,7 @@ constexpr ::GlobalNamespace::BezierSplineEvaluator*& GlobalNamespace::BeatmapObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathBezierCurveEvaluator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const&
-GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::__cordl_internal_get__pathBezierCurveEvaluator() const {
+constexpr ::GlobalNamespace::BezierSplineEvaluator* const& GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::__cordl_internal_get__pathBezierCurveEvaluator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathBezierCurveEvaluator;
 }
@@ -130,7 +129,7 @@ constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::BeatmapObjectAv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::__cordl_internal_get__audioTimeSource() const {
+constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
@@ -150,14 +149,6 @@ constexpr void GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
-                                                                                                                              ::GlobalNamespace::PlayerTransforms* playerTransforms,
-                                                                                                                              ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
-                                                                                                                              float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset,
-                                                                                                                              float_t noteJumpSeed, float_t moveToPlayerHeadTParam) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset,
-                                                                                                           zOffset, noteJumpSeed, moveToPlayerHeadTParam));
-}
 inline void GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms,
                                                                         ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset,
                                                                         float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) {
@@ -176,6 +167,14 @@ inline ::UnityEngine::Vector3 GlobalNamespace::BeatmapObjectAvoidancePathEvaluat
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*>::get(),
                                                                              "GetCurrentPathPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
+                                                                                                                              ::GlobalNamespace::PlayerTransforms* playerTransforms,
+                                                                                                                              ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
+                                                                                                                              float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset,
+                                                                                                                              float_t noteJumpSeed, float_t moveToPlayerHeadTParam) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset,
+                                                                                                           zOffset, noteJumpSeed, moveToPlayerHeadTParam));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::BeatmapObjectAvoidancePathEvaluator() {}

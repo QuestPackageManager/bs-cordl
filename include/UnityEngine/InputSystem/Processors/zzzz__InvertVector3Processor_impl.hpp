@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Processors::InvertVector3Processor::*)(
     ::UnityEngine::Vector3, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::InvertVector3Processor::Process)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x45b6224;
+  constexpr static std::size_t addrs = 0x4617538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::InvertVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::InvertVector3Processor::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x45b6258;
+  constexpr static std::size_t addrs = 0x461756c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::InvertVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::InvertVector3Processor::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45b631c;
+  constexpr static std::size_t addrs = 0x4617630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,14 +100,14 @@ inline ::StringW UnityEngine::InputSystem::Processors::InvertVector3Processor::T
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::InvertVector3Processor*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::Processors::InvertVector3Processor* UnityEngine::InputSystem::Processors::InvertVector3Processor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Processors::InvertVector3Processor*>());
-}
 inline void UnityEngine::InputSystem::Processors::InvertVector3Processor::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::InvertVector3Processor*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::Processors::InvertVector3Processor* UnityEngine::InputSystem::Processors::InvertVector3Processor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Processors::InvertVector3Processor*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::InvertVector3Processor::InvertVector3Processor() {}

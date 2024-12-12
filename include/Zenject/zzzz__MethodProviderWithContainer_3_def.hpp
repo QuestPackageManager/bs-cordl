@@ -4,7 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 CORDL_MODULE_EXPORT(MethodProviderWithContainer_3)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -25,9 +25,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -39,13 +36,12 @@ template <typename TParam1, typename TParam2, typename TValue> class MethodProvi
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MethodProviderWithContainer_3);
-// Type: Zenject::MethodProviderWithContainer`3
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.IProvider
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::MethodProviderWithContainer`3<TParam1,TParam2,TValue>*
+// CS Name: Zenject.MethodProviderWithContainer`3<TParam1,TParam2,TValue>
 class CORDL_TYPE MethodProviderWithContainer_3 : public ::System::Object {
 public:
   // Declarations
@@ -60,7 +56,7 @@ public:
   constexpr operator ::Zenject::IProvider*() noexcept;
 
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -68,9 +64,9 @@ public:
 
   static inline ::Zenject::MethodProviderWithContainer_3<TParam1, TParam2, TValue>* New_ctor(::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* method);
 
-  constexpr ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>*& __cordl_internal_get__method();
+  constexpr ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* const& __cordl_internal_get__method() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>*> const& __cordl_internal_get__method() const;
+  constexpr ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>*& __cordl_internal_get__method();
 
   constexpr void __cordl_internal_set__method(::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* value);
 
@@ -100,11 +96,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MethodProviderWithContainer_3(MethodProviderWithContainer_3 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12550 };
+
   /// @brief Field _method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* ____method;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12517 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

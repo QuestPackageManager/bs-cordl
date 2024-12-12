@@ -17,11 +17,10 @@ class SwitchCase;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::SwitchCase);
-// Type: System.Linq.Expressions::SwitchCase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::SwitchCase*
+// CS Name: System.Linq.Expressions.SwitchCase
 class CORDL_TYPE SwitchCase : public ::System::Object {
 public:
   // Declarations
@@ -37,23 +36,22 @@ public:
       get = __cordl_internal_get__TestValues_k__BackingField,
       put = __cordl_internal_set__TestValues_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _TestValues_k__BackingField;
 
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Body_k__BackingField() const;
+
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Body_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Body_k__BackingField() const;
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* const& __cordl_internal_get__TestValues_k__BackingField() const;
 
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*& __cordl_internal_get__TestValues_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> const&
-  __cordl_internal_get__TestValues_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Body_k__BackingField(::System::Linq::Expressions::Expression* value);
 
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Body, addr 0x405a3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x40bb6e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_TestValues, addr 0x405a3cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TestValues, addr 0x40bb6e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
 protected:
@@ -70,23 +68,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SwitchCase(SwitchCase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13731 };
+
   /// @brief Field <TestValues>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ____TestValues_k__BackingField;
 
   /// @brief Field <Body>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Body_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13697 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::SwitchCase, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::SwitchCase, ____TestValues_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::SwitchCase, ____Body_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::SwitchCase, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::SwitchCase);

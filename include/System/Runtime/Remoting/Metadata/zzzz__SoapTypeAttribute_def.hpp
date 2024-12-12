@@ -15,11 +15,10 @@ class SoapTypeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapTypeAttribute);
-// Type: System.Runtime.Remoting.Metadata::SoapTypeAttribute
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Metadata.SoapAttribute
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Metadata::SoapTypeAttribute*
+// CS Name: System.Runtime.Remoting.Metadata.SoapTypeAttribute
 class CORDL_TYPE SoapTypeAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
@@ -60,7 +59,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* New_ctor();
 
-  /// @brief Method SetReflectionObject, addr 0x3c84504, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x3ce4678, size 0x21c, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr bool const& __cordl_internal_get__isElement() const;
@@ -105,28 +104,28 @@ public:
 
   constexpr void __cordl_internal_set__xmlTypeNamespace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c844c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce4638, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInteropXmlElement, addr 0x3c844f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInteropXmlElement, addr 0x3ce4668, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInteropXmlElement();
 
-  /// @brief Method get_IsInteropXmlType, addr 0x3c844fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInteropXmlType, addr 0x3ce4670, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInteropXmlType();
 
-  /// @brief Method get_UseAttribute, addr 0x3c844cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x3ce4640, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlElementName, addr 0x3c844d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlElementName, addr 0x3ce4648, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlElementName();
 
-  /// @brief Method get_XmlNamespace, addr 0x3c844dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x3ce4650, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method get_XmlTypeName, addr 0x3c844e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTypeName, addr 0x3ce4658, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlTypeName();
 
-  /// @brief Method get_XmlTypeNamespace, addr 0x3c844ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTypeNamespace, addr 0x3ce4660, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlTypeNamespace();
 
 protected:
@@ -142,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SoapTypeAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SoapTypeAttribute(SoapTypeAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3141 };
 
   /// @brief Field _useAttribute, offset: 0x28, size: 0x1, def value: None
   bool ____useAttribute;
@@ -164,14 +166,9 @@ public:
   /// @brief Field _isElement, offset: 0x51, size: 0x1, def value: None
   bool ____isElement;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3141 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Metadata::SoapTypeAttribute, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____useAttribute) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____xmlElementName) == 0x30, "Offset mismatch!");
@@ -185,6 +182,8 @@ static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute,
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____isType) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____isElement) == 0x51, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Metadata::SoapTypeAttribute, 0x58>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Metadata
 NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapTypeAttribute);

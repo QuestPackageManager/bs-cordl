@@ -15,11 +15,10 @@ class CertificateExpiredException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::Certificates::CertificateExpiredException);
-// Type: Org.BouncyCastle.Security.Certificates::CertificateExpiredException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.Certificates.CertificateException
 namespace Org::BouncyCastle::Security::Certificates {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security.Certificates::CertificateExpiredException*
+// CS Name: Org.BouncyCastle.Security.Certificates.CertificateExpiredException
 class CORDL_TYPE CertificateExpiredException : public ::Org::BouncyCastle::Security::Certificates::CertificateException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x2564f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2564f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2564f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

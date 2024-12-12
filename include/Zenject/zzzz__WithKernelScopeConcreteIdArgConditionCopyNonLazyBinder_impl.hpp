@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::*)(
     ::Zenject::SubContainerCreatorBindInfo*, ::Zenject::BindInfo*)>(&::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4aaef5c;
+  constexpr static std::size_t addrs = 0x4b1386c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (
     ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aaef88;
+  constexpr static std::size_t addrs = 0x4b13898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,18 +40,13 @@ constexpr ::Zenject::SubContainerCreatorBindInfo*& Zenject::WithKernelScopeConcr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subContainerBindInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const&
-Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::__cordl_internal_get__subContainerBindInfo() const {
+constexpr ::Zenject::SubContainerCreatorBindInfo* const& Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::__cordl_internal_get__subContainerBindInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subContainerBindInfo;
 }
 constexpr void Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::__cordl_internal_set__subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subContainerBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*
-Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*>(subContainerBindInfo, bindInfo));
 }
 inline void Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,6 +68,10 @@ template <typename TKernel> inline ::Zenject::ScopeConcreteIdArgConditionCopyNon
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get() }));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal_method);
+}
+inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*
+Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*>(subContainerBindInfo, bindInfo));
 }
 // Ctor Parameters []
 constexpr ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder() {}

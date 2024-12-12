@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithLaunchInvitePanelFlowResult)
 namespace Oculus::Platform::Models {
 class LaunchInvitePanelFlowResult;
@@ -18,23 +17,22 @@ class MessageWithLaunchInvitePanelFlowResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult);
-// Type: Oculus.Platform::MessageWithLaunchInvitePanelFlowResult
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Message`1<T>
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::MessageWithLaunchInvitePanelFlowResult*
+// CS Name: Oculus.Platform.MessageWithLaunchInvitePanelFlowResult
 class CORDL_TYPE MessageWithLaunchInvitePanelFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f1d6cc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7d778, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x3f1d690, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x3f7d73c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f1aaa0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7ab4c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +50,7 @@ public:
   MessageWithLaunchInvitePanelFlowResult(MessageWithLaunchInvitePanelFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

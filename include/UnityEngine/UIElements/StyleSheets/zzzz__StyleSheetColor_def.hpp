@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSheetColor)
@@ -23,22 +22,21 @@ class StyleSheetColor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetColor);
-// Type: UnityEngine.UIElements.StyleSheets::StyleSheetColor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetColor*
+// CS Name: UnityEngine.UIElements.StyleSheets.StyleSheetColor
 class CORDL_TYPE StyleSheetColor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_NameToColor, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_NameToColor, put = setStaticF_s_NameToColor)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* s_NameToColor;
+  __declspec(property(get = getStaticF_s_NameToColor, put = setStaticF_s_NameToColor)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* s_NameToColor;
 
-  /// @brief Method HexToColor32, addr 0x4973b1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HexToColor32, addr 0x49d842c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
 
-  /// @brief Method TryGetColor, addr 0x49701f4, size 0xd8, virtual false, abstract: false, final false
-  static inline bool TryGetColor(::StringW name, ByRef<::UnityEngine::Color> color);
+  /// @brief Method TryGetColor, addr 0x49d4b04, size 0xd8, virtual false, abstract: false, final false
+  static inline bool TryGetColor(::StringW name, ::ByRef<::UnityEngine::Color> color);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* getStaticF_s_NameToColor();
 
@@ -59,7 +57,7 @@ public:
   StyleSheetColor(StyleSheetColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6458 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

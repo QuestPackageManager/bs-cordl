@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::GetInstance)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x23cdcd8;
+  constexpr static std::size_t addrs = 0x2400fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x23cde58;
+  constexpr static std::size_t addrs = 0x2401144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)()>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cdec4;
+  constexpr static std::size_t addrs = 0x24011b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (
     ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)()>(&::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::get_SubjectPublicKeyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cdecc;
+  constexpr static std::size_t addrs = 0x24011b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)()>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::get_Challenge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cded4;
+  constexpr static std::size_t addrs = 0x24011c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Moz
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pkacSeq;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::__cordl_internal_get_pkacSeq() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::__cordl_internal_get_pkacSeq() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pkacSeq;
 }
@@ -99,8 +99,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spki;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const&
-Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::__cordl_internal_get_spki() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* const& Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::__cordl_internal_get_spki() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spki;
 }
@@ -112,7 +111,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& Org::BouncyCastle::Asn1::Moz
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___challenge;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::__cordl_internal_get_challenge() const {
+constexpr ::Org::BouncyCastle::Asn1::DerIA5String* const& Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::__cordl_internal_get_challenge() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___challenge;
 }
@@ -125,9 +124,6 @@ inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* Org::BouncyCas
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge*>::get(), "GetInstance",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge*, false>(nullptr, ___internal_method, obj);
-}
-inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,6 +146,9 @@ inline ::Org::BouncyCastle::Asn1::DerIA5String* Org::BouncyCastle::Asn1::Mozilla
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge*>::get(),
                                                                              "get_Challenge", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerIA5String*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::PublicKeyAndChallenge() {}

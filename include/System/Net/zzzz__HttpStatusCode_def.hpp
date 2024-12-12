@@ -12,11 +12,10 @@ struct HttpStatusCode;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::HttpStatusCode);
-// Type: System.Net::HttpStatusCode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::HttpStatusCode
+// CS Name: System.Net.HttpStatusCode
 struct CORDL_TYPE HttpStatusCode {
 public:
   // Declarations
@@ -109,219 +108,219 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HttpStatusCode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Accepted value: static_cast<int32_t>(0xca)
+  /// @brief Field Accepted value: I32(202)
   static ::System::Net::HttpStatusCode const Accepted;
 
-  /// @brief Field AlreadyReported value: static_cast<int32_t>(0xd0)
+  /// @brief Field AlreadyReported value: I32(208)
   static ::System::Net::HttpStatusCode const AlreadyReported;
 
-  /// @brief Field Ambiguous value: static_cast<int32_t>(0x12c)
+  /// @brief Field Ambiguous value: I32(300)
   static ::System::Net::HttpStatusCode const Ambiguous;
 
-  /// @brief Field BadGateway value: static_cast<int32_t>(0x1f6)
+  /// @brief Field BadGateway value: I32(502)
   static ::System::Net::HttpStatusCode const BadGateway;
 
-  /// @brief Field BadRequest value: static_cast<int32_t>(0x190)
+  /// @brief Field BadRequest value: I32(400)
   static ::System::Net::HttpStatusCode const BadRequest;
 
-  /// @brief Field Conflict value: static_cast<int32_t>(0x199)
+  /// @brief Field Conflict value: I32(409)
   static ::System::Net::HttpStatusCode const Conflict;
 
-  /// @brief Field Continue value: static_cast<int32_t>(0x64)
+  /// @brief Field Continue value: I32(100)
   static ::System::Net::HttpStatusCode const Continue;
 
-  /// @brief Field Created value: static_cast<int32_t>(0xc9)
+  /// @brief Field Created value: I32(201)
   static ::System::Net::HttpStatusCode const Created;
 
-  /// @brief Field EarlyHints value: static_cast<int32_t>(0x67)
+  /// @brief Field EarlyHints value: I32(103)
   static ::System::Net::HttpStatusCode const EarlyHints;
 
-  /// @brief Field ExpectationFailed value: static_cast<int32_t>(0x1a1)
+  /// @brief Field ExpectationFailed value: I32(417)
   static ::System::Net::HttpStatusCode const ExpectationFailed;
 
-  /// @brief Field FailedDependency value: static_cast<int32_t>(0x1a8)
+  /// @brief Field FailedDependency value: I32(424)
   static ::System::Net::HttpStatusCode const FailedDependency;
 
-  /// @brief Field Forbidden value: static_cast<int32_t>(0x193)
+  /// @brief Field Forbidden value: I32(403)
   static ::System::Net::HttpStatusCode const Forbidden;
 
-  /// @brief Field Found value: static_cast<int32_t>(0x12e)
+  /// @brief Field Found value: I32(302)
   static ::System::Net::HttpStatusCode const Found;
 
-  /// @brief Field GatewayTimeout value: static_cast<int32_t>(0x1f8)
+  /// @brief Field GatewayTimeout value: I32(504)
   static ::System::Net::HttpStatusCode const GatewayTimeout;
 
-  /// @brief Field Gone value: static_cast<int32_t>(0x19a)
+  /// @brief Field Gone value: I32(410)
   static ::System::Net::HttpStatusCode const Gone;
 
-  /// @brief Field HttpVersionNotSupported value: static_cast<int32_t>(0x1f9)
+  /// @brief Field HttpVersionNotSupported value: I32(505)
   static ::System::Net::HttpStatusCode const HttpVersionNotSupported;
 
-  /// @brief Field IMUsed value: static_cast<int32_t>(0xe2)
+  /// @brief Field IMUsed value: I32(226)
   static ::System::Net::HttpStatusCode const IMUsed;
 
-  /// @brief Field InsufficientStorage value: static_cast<int32_t>(0x1fb)
+  /// @brief Field InsufficientStorage value: I32(507)
   static ::System::Net::HttpStatusCode const InsufficientStorage;
 
-  /// @brief Field InternalServerError value: static_cast<int32_t>(0x1f4)
+  /// @brief Field InternalServerError value: I32(500)
   static ::System::Net::HttpStatusCode const InternalServerError;
 
-  /// @brief Field LengthRequired value: static_cast<int32_t>(0x19b)
+  /// @brief Field LengthRequired value: I32(411)
   static ::System::Net::HttpStatusCode const LengthRequired;
 
-  /// @brief Field Locked value: static_cast<int32_t>(0x1a7)
+  /// @brief Field Locked value: I32(423)
   static ::System::Net::HttpStatusCode const Locked;
 
-  /// @brief Field LoopDetected value: static_cast<int32_t>(0x1fc)
+  /// @brief Field LoopDetected value: I32(508)
   static ::System::Net::HttpStatusCode const LoopDetected;
 
-  /// @brief Field MethodNotAllowed value: static_cast<int32_t>(0x195)
+  /// @brief Field MethodNotAllowed value: I32(405)
   static ::System::Net::HttpStatusCode const MethodNotAllowed;
 
-  /// @brief Field MisdirectedRequest value: static_cast<int32_t>(0x1a5)
+  /// @brief Field MisdirectedRequest value: I32(421)
   static ::System::Net::HttpStatusCode const MisdirectedRequest;
 
-  /// @brief Field Moved value: static_cast<int32_t>(0x12d)
+  /// @brief Field Moved value: I32(301)
   static ::System::Net::HttpStatusCode const Moved;
 
-  /// @brief Field MovedPermanently value: static_cast<int32_t>(0x12d)
+  /// @brief Field MovedPermanently value: I32(301)
   static ::System::Net::HttpStatusCode const MovedPermanently;
 
-  /// @brief Field MultiStatus value: static_cast<int32_t>(0xcf)
+  /// @brief Field MultiStatus value: I32(207)
   static ::System::Net::HttpStatusCode const MultiStatus;
 
-  /// @brief Field MultipleChoices value: static_cast<int32_t>(0x12c)
+  /// @brief Field MultipleChoices value: I32(300)
   static ::System::Net::HttpStatusCode const MultipleChoices;
 
-  /// @brief Field NetworkAuthenticationRequired value: static_cast<int32_t>(0x1ff)
+  /// @brief Field NetworkAuthenticationRequired value: I32(511)
   static ::System::Net::HttpStatusCode const NetworkAuthenticationRequired;
 
-  /// @brief Field NoContent value: static_cast<int32_t>(0xcc)
+  /// @brief Field NoContent value: I32(204)
   static ::System::Net::HttpStatusCode const NoContent;
 
-  /// @brief Field NonAuthoritativeInformation value: static_cast<int32_t>(0xcb)
+  /// @brief Field NonAuthoritativeInformation value: I32(203)
   static ::System::Net::HttpStatusCode const NonAuthoritativeInformation;
 
-  /// @brief Field NotAcceptable value: static_cast<int32_t>(0x196)
+  /// @brief Field NotAcceptable value: I32(406)
   static ::System::Net::HttpStatusCode const NotAcceptable;
 
-  /// @brief Field NotExtended value: static_cast<int32_t>(0x1fe)
+  /// @brief Field NotExtended value: I32(510)
   static ::System::Net::HttpStatusCode const NotExtended;
 
-  /// @brief Field NotFound value: static_cast<int32_t>(0x194)
+  /// @brief Field NotFound value: I32(404)
   static ::System::Net::HttpStatusCode const NotFound;
 
-  /// @brief Field NotImplemented value: static_cast<int32_t>(0x1f5)
+  /// @brief Field NotImplemented value: I32(501)
   static ::System::Net::HttpStatusCode const NotImplemented;
 
-  /// @brief Field NotModified value: static_cast<int32_t>(0x130)
+  /// @brief Field NotModified value: I32(304)
   static ::System::Net::HttpStatusCode const NotModified;
 
-  /// @brief Field OK value: static_cast<int32_t>(0xc8)
+  /// @brief Field OK value: I32(200)
   static ::System::Net::HttpStatusCode const OK;
 
-  /// @brief Field PartialContent value: static_cast<int32_t>(0xce)
+  /// @brief Field PartialContent value: I32(206)
   static ::System::Net::HttpStatusCode const PartialContent;
 
-  /// @brief Field PaymentRequired value: static_cast<int32_t>(0x192)
+  /// @brief Field PaymentRequired value: I32(402)
   static ::System::Net::HttpStatusCode const PaymentRequired;
 
-  /// @brief Field PermanentRedirect value: static_cast<int32_t>(0x134)
+  /// @brief Field PermanentRedirect value: I32(308)
   static ::System::Net::HttpStatusCode const PermanentRedirect;
 
-  /// @brief Field PreconditionFailed value: static_cast<int32_t>(0x19c)
+  /// @brief Field PreconditionFailed value: I32(412)
   static ::System::Net::HttpStatusCode const PreconditionFailed;
 
-  /// @brief Field PreconditionRequired value: static_cast<int32_t>(0x1ac)
+  /// @brief Field PreconditionRequired value: I32(428)
   static ::System::Net::HttpStatusCode const PreconditionRequired;
 
-  /// @brief Field Processing value: static_cast<int32_t>(0x66)
+  /// @brief Field Processing value: I32(102)
   static ::System::Net::HttpStatusCode const Processing;
 
-  /// @brief Field ProxyAuthenticationRequired value: static_cast<int32_t>(0x197)
+  /// @brief Field ProxyAuthenticationRequired value: I32(407)
   static ::System::Net::HttpStatusCode const ProxyAuthenticationRequired;
 
-  /// @brief Field Redirect value: static_cast<int32_t>(0x12e)
+  /// @brief Field Redirect value: I32(302)
   static ::System::Net::HttpStatusCode const Redirect;
 
-  /// @brief Field RedirectKeepVerb value: static_cast<int32_t>(0x133)
+  /// @brief Field RedirectKeepVerb value: I32(307)
   static ::System::Net::HttpStatusCode const RedirectKeepVerb;
 
-  /// @brief Field RedirectMethod value: static_cast<int32_t>(0x12f)
+  /// @brief Field RedirectMethod value: I32(303)
   static ::System::Net::HttpStatusCode const RedirectMethod;
 
-  /// @brief Field RequestEntityTooLarge value: static_cast<int32_t>(0x19d)
+  /// @brief Field RequestEntityTooLarge value: I32(413)
   static ::System::Net::HttpStatusCode const RequestEntityTooLarge;
 
-  /// @brief Field RequestHeaderFieldsTooLarge value: static_cast<int32_t>(0x1af)
+  /// @brief Field RequestHeaderFieldsTooLarge value: I32(431)
   static ::System::Net::HttpStatusCode const RequestHeaderFieldsTooLarge;
 
-  /// @brief Field RequestTimeout value: static_cast<int32_t>(0x198)
+  /// @brief Field RequestTimeout value: I32(408)
   static ::System::Net::HttpStatusCode const RequestTimeout;
 
-  /// @brief Field RequestUriTooLong value: static_cast<int32_t>(0x19e)
+  /// @brief Field RequestUriTooLong value: I32(414)
   static ::System::Net::HttpStatusCode const RequestUriTooLong;
 
-  /// @brief Field RequestedRangeNotSatisfiable value: static_cast<int32_t>(0x1a0)
+  /// @brief Field RequestedRangeNotSatisfiable value: I32(416)
   static ::System::Net::HttpStatusCode const RequestedRangeNotSatisfiable;
 
-  /// @brief Field ResetContent value: static_cast<int32_t>(0xcd)
+  /// @brief Field ResetContent value: I32(205)
   static ::System::Net::HttpStatusCode const ResetContent;
 
-  /// @brief Field SeeOther value: static_cast<int32_t>(0x12f)
+  /// @brief Field SeeOther value: I32(303)
   static ::System::Net::HttpStatusCode const SeeOther;
 
-  /// @brief Field ServiceUnavailable value: static_cast<int32_t>(0x1f7)
+  /// @brief Field ServiceUnavailable value: I32(503)
   static ::System::Net::HttpStatusCode const ServiceUnavailable;
 
-  /// @brief Field SwitchingProtocols value: static_cast<int32_t>(0x65)
+  /// @brief Field SwitchingProtocols value: I32(101)
   static ::System::Net::HttpStatusCode const SwitchingProtocols;
 
-  /// @brief Field TemporaryRedirect value: static_cast<int32_t>(0x133)
+  /// @brief Field TemporaryRedirect value: I32(307)
   static ::System::Net::HttpStatusCode const TemporaryRedirect;
 
-  /// @brief Field TooManyRequests value: static_cast<int32_t>(0x1ad)
+  /// @brief Field TooManyRequests value: I32(429)
   static ::System::Net::HttpStatusCode const TooManyRequests;
 
-  /// @brief Field Unauthorized value: static_cast<int32_t>(0x191)
+  /// @brief Field Unauthorized value: I32(401)
   static ::System::Net::HttpStatusCode const Unauthorized;
 
-  /// @brief Field UnavailableForLegalReasons value: static_cast<int32_t>(0x1c3)
+  /// @brief Field UnavailableForLegalReasons value: I32(451)
   static ::System::Net::HttpStatusCode const UnavailableForLegalReasons;
 
-  /// @brief Field UnprocessableEntity value: static_cast<int32_t>(0x1a6)
+  /// @brief Field UnprocessableEntity value: I32(422)
   static ::System::Net::HttpStatusCode const UnprocessableEntity;
 
-  /// @brief Field UnsupportedMediaType value: static_cast<int32_t>(0x19f)
+  /// @brief Field UnsupportedMediaType value: I32(415)
   static ::System::Net::HttpStatusCode const UnsupportedMediaType;
 
-  /// @brief Field Unused value: static_cast<int32_t>(0x132)
+  /// @brief Field Unused value: I32(306)
   static ::System::Net::HttpStatusCode const Unused;
 
-  /// @brief Field UpgradeRequired value: static_cast<int32_t>(0x1aa)
+  /// @brief Field UpgradeRequired value: I32(426)
   static ::System::Net::HttpStatusCode const UpgradeRequired;
 
-  /// @brief Field UseProxy value: static_cast<int32_t>(0x131)
+  /// @brief Field UseProxy value: I32(305)
   static ::System::Net::HttpStatusCode const UseProxy;
 
-  /// @brief Field VariantAlsoNegotiates value: static_cast<int32_t>(0x1fa)
+  /// @brief Field VariantAlsoNegotiates value: I32(506)
   static ::System::Net::HttpStatusCode const VariantAlsoNegotiates;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9543 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HttpStatusCode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HttpStatusCode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpStatusCode, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpStatusCode, "System.Net", "HttpStatusCode");

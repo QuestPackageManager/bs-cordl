@@ -3,8 +3,6 @@
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingSplit_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "sphereCenter", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "sphereRadius", ty: "float_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "cullingPlaneOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullingPlaneCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "cascadeBlendCullingFactor", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nearPlane", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam

@@ -14,11 +14,10 @@ class AsyncMethodBuilderAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute);
-// Type: System.Runtime.CompilerServices::AsyncMethodBuilderAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::AsyncMethodBuilderAttribute*
+// CS Name: System.Runtime.CompilerServices.AsyncMethodBuilderAttribute
 class CORDL_TYPE AsyncMethodBuilderAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -27,13 +26,13 @@ public:
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute* New_ctor(::System::Type* builderType);
 
-  constexpr ::System::Type*& __cordl_internal_get__BuilderType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__BuilderType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__BuilderType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__BuilderType_k__BackingField();
 
   constexpr void __cordl_internal_set__BuilderType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3cb681c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d16990, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* builderType);
 
 protected:
@@ -50,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncMethodBuilderAttribute(AsyncMethodBuilderAttribute const&) = delete;
 
-  /// @brief Field <BuilderType>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____BuilderType_k__BackingField;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3355 };
+
+  /// @brief Field <BuilderType>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::System::Type* ____BuilderType_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute, ____BuilderType_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute);

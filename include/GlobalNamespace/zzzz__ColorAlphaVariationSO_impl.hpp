@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorAlphaVariationSO::*)()>(
     &::GlobalNamespace::ColorAlphaVariationSO::get_color)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x266b96c;
+  constexpr static std::size_t addrs = 0x269ec58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -20,12 +20,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::ColorAlphaVariationSO.get_baseColor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::NoAlphaColorSO> (::GlobalNamespace::ColorAlphaVariationSO::*)()>(
+    &::GlobalNamespace::ColorAlphaVariationSO::get_baseColor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x269ec8c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(),
+                                                                               "get_baseColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ColorAlphaVariationSO.get_alpha
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::AlphaSO> (::GlobalNamespace::ColorAlphaVariationSO::*)()>(
+    &::GlobalNamespace::ColorAlphaVariationSO::get_alpha)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x269ec94;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), "get_alpha",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::ColorAlphaVariationSO._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorAlphaVariationSO::*)()>(&::GlobalNamespace::ColorAlphaVariationSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266b9a0;
+  constexpr static std::size_t addrs = 0x269ec9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), ".ctor",
@@ -62,13 +90,23 @@ inline ::UnityEngine::Color GlobalNamespace::ColorAlphaVariationSO::get_color() 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ColorAlphaVariationSO* GlobalNamespace::ColorAlphaVariationSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorAlphaVariationSO*>());
+inline ::UnityW<::GlobalNamespace::NoAlphaColorSO> GlobalNamespace::ColorAlphaVariationSO::get_baseColor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), "get_baseColor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::NoAlphaColorSO>, false>(this, ___internal_method);
+}
+inline ::UnityW<::GlobalNamespace::AlphaSO> GlobalNamespace::ColorAlphaVariationSO::get_alpha() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), "get_alpha",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::AlphaSO>, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorAlphaVariationSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ColorAlphaVariationSO* GlobalNamespace::ColorAlphaVariationSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorAlphaVariationSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorAlphaVariationSO::ColorAlphaVariationSO() {}

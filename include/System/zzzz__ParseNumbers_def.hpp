@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParseNumbers)
@@ -17,54 +16,53 @@ class ParseNumbers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ParseNumbers);
-// Type: System::ParseNumbers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::ParseNumbers*
+// CS Name: System.ParseNumbers
 class CORDL_TYPE ParseNumbers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EatWhiteSpace, addr 0x3d99714, size 0xcc, virtual false, abstract: false, final false
-  static inline void EatWhiteSpace(::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i);
+  /// @brief Method EatWhiteSpace, addr 0x3df9784, size 0xcc, virtual false, abstract: false, final false
+  static inline void EatWhiteSpace(::System::ReadOnlySpan_1<char16_t> s, ::ByRef<int32_t> i);
 
-  /// @brief Method GrabInts, addr 0x3d99da8, size 0x220, virtual false, abstract: false, final false
-  static inline int32_t GrabInts(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned);
+  /// @brief Method GrabInts, addr 0x3df9e18, size 0x220, virtual false, abstract: false, final false
+  static inline int32_t GrabInts(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ::ByRef<int32_t> i, bool isUnsigned);
 
-  /// @brief Method GrabLongs, addr 0x3d997e0, size 0x1f4, virtual false, abstract: false, final false
-  static inline int64_t GrabLongs(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned);
+  /// @brief Method GrabLongs, addr 0x3df9850, size 0x1f4, virtual false, abstract: false, final false
+  static inline int64_t GrabLongs(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ::ByRef<int32_t> i, bool isUnsigned);
 
-  /// @brief Method IntToString, addr 0x3d99fc8, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method IntToString, addr 0x3dfa038, size 0x328, virtual false, abstract: false, final false
   static inline ::StringW IntToString(int32_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags);
 
-  /// @brief Method IsDigit, addr 0x3d9a7b0, size 0x54, virtual false, abstract: false, final false
-  static inline bool IsDigit(char16_t c, int32_t radix, ByRef<int32_t> result);
+  /// @brief Method IsDigit, addr 0x3dfa820, size 0x54, virtual false, abstract: false, final false
+  static inline bool IsDigit(char16_t c, int32_t radix, ::ByRef<int32_t> result);
 
-  /// @brief Method LongToString, addr 0x3d9a2f0, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method LongToString, addr 0x3dfa360, size 0x3a0, virtual false, abstract: false, final false
   static inline ::StringW LongToString(int64_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags);
 
-  /// @brief Method StringToInt, addr 0x3d999d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToInt, addr 0x3df9a44, size 0x18, virtual false, abstract: false, final false
   static inline int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags);
 
-  /// @brief Method StringToInt, addr 0x3d999ec, size 0x3bc, virtual false, abstract: false, final false
-  static inline int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos);
+  /// @brief Method StringToInt, addr 0x3df9a5c, size 0x3bc, virtual false, abstract: false, final false
+  static inline int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ::ByRef<int32_t> currPos);
 
-  /// @brief Method StringToLong, addr 0x3d99398, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToLong, addr 0x3df9408, size 0x18, virtual false, abstract: false, final false
   static inline int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags);
 
-  /// @brief Method StringToLong, addr 0x3d993b0, size 0x364, virtual false, abstract: false, final false
-  static inline int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos);
+  /// @brief Method StringToLong, addr 0x3df9420, size 0x364, virtual false, abstract: false, final false
+  static inline int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ::ByRef<int32_t> currPos);
 
-  /// @brief Method ThrowOverflowInt32Exception, addr 0x3d9a720, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowInt32Exception, addr 0x3dfa790, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowInt32Exception();
 
-  /// @brief Method ThrowOverflowInt64Exception, addr 0x3d9a690, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowInt64Exception, addr 0x3dfa700, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowInt64Exception();
 
-  /// @brief Method ThrowOverflowUInt32Exception, addr 0x3d9a768, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowUInt32Exception, addr 0x3dfa7d8, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowUInt32Exception();
 
-  /// @brief Method ThrowOverflowUInt64Exception, addr 0x3d9a6d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowUInt64Exception, addr 0x3dfa748, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowUInt64Exception();
 
 protected:

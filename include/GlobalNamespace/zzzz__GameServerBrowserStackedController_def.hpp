@@ -11,23 +11,22 @@ class GameServerBrowserStackedController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserStackedController);
-// Type: ::GameServerBrowserStackedController
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.StackedController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameServerBrowserStackedController*
+// CS Name: GameServerBrowserStackedController
 class CORDL_TYPE GameServerBrowserStackedController : public ::HMUI::StackedController {
 public:
   // Declarations
-  /// @brief Method DidActivate, addr 0x3b0b4a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6b4fc, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b0b4a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b6b500, size 0x4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::GameServerBrowserStackedController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b0b4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6b504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   GameServerBrowserStackedController(GameServerBrowserStackedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

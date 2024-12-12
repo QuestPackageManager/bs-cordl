@@ -24,11 +24,10 @@ class XmlNotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlNotation);
-// Type: System.Xml::XmlNotation
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.XmlNode
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlNotation*
+// CS Name: System.Xml.XmlNotation
 class CORDL_TYPE XmlNotation : public ::System::Xml::XmlNode {
 public:
   // Declarations
@@ -51,15 +50,15 @@ public:
   /// @brief Field systemId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId)) ::StringW systemId;
 
-  /// @brief Method CloneNode, addr 0x42e6ed0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x43481e4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlNotation* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x42e6f8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x43482a0, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x42e6f88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x434829c, size 0x4, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -80,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42e6e50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4348164, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsReadOnly, addr 0x42e6f28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x434823c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LocalName, addr 0x42e6ec0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x43481d4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x42e6eb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x43481cc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x42e6ec8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x43481dc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method set_InnerXml, addr 0x42e6f30, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method set_InnerXml, addr 0x4348244, size 0x58, virtual true, abstract: false, final false
   inline void set_InnerXml(::StringW value);
 
 protected:
@@ -112,6 +111,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlNotation(XmlNotation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7312 };
+
   /// @brief Field publicId, offset: 0x18, size: 0x8, def value: None
   ::StringW ___publicId;
 
@@ -121,19 +123,16 @@ public:
   /// @brief Field name, offset: 0x28, size: 0x8, def value: None
   ::StringW ___name;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7287 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNotation, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlNotation, ___publicId) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlNotation, ___systemId) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlNotation, ___name) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNotation, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlNotation);

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FxBaseData::*)(float_t, bool)>(&::GlobalNamespace::FxBaseData::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26870e0;
+  constexpr static std::size_t addrs = 0x26bb8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,14 +40,14 @@ constexpr void GlobalNamespace::FxBaseData::__cordl_internal_set_usePreviousEven
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePreviousEventValue = value;
 }
-inline ::GlobalNamespace::FxBaseData* GlobalNamespace::FxBaseData::New_ctor(float_t beat, bool usePreviousEventValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FxBaseData*>(beat, usePreviousEventValue));
-}
 inline void GlobalNamespace::FxBaseData::_ctor(float_t beat, bool usePreviousEventValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FxBaseData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, usePreviousEventValue);
+}
+inline ::GlobalNamespace::FxBaseData* GlobalNamespace::FxBaseData::New_ctor(float_t beat, bool usePreviousEventValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FxBaseData*>(beat, usePreviousEventValue));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FxBaseData::FxBaseData() {}

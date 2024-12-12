@@ -3,30 +3,30 @@
 #include "UnityEngine/PlayerLoop/zzzz__FixedUpdate_def.hpp"
 #include "UnityEngine/PlayerLoop/zzzz__FixedUpdate_def.hpp"
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__ClearLines::__FixedUpdate__ClearLines() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_ClearLines::FixedUpdate_ClearLines() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedSampleTime::__FixedUpdate__DirectorFixedSampleTime() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedSampleTime::FixedUpdate_DirectorFixedSampleTime() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__AudioFixedUpdate::__FixedUpdate__AudioFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_AudioFixedUpdate::FixedUpdate_AudioFixedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunBehaviourFixedUpdate::__FixedUpdate__ScriptRunBehaviourFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunBehaviourFixedUpdate::FixedUpdate_ScriptRunBehaviourFixedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdate::__FixedUpdate__DirectorFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdate::FixedUpdate_DirectorFixedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__LegacyFixedAnimationUpdate::__FixedUpdate__LegacyFixedAnimationUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_LegacyFixedAnimationUpdate::FixedUpdate_LegacyFixedAnimationUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate::__FixedUpdate__XRFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_XRFixedUpdate::FixedUpdate_XRFixedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsFixedUpdate::__FixedUpdate__PhysicsFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_PhysicsFixedUpdate::FixedUpdate_PhysicsFixedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__Physics2DFixedUpdate::__FixedUpdate__Physics2DFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_Physics2DFixedUpdate::FixedUpdate_Physics2DFixedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsClothFixedUpdate::__FixedUpdate__PhysicsClothFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_PhysicsClothFixedUpdate::FixedUpdate_PhysicsClothFixedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdatePostPhysics::__FixedUpdate__DirectorFixedUpdatePostPhysics() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdatePostPhysics::FixedUpdate_DirectorFixedUpdatePostPhysics() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunDelayedFixedFrameRate::__FixedUpdate__ScriptRunDelayedFixedFrameRate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunDelayedFixedFrameRate::FixedUpdate_ScriptRunDelayedFixedFrameRate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__NewInputFixedUpdate::__FixedUpdate__NewInputFixedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::FixedUpdate_NewInputFixedUpdate::FixedUpdate_NewInputFixedUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::FixedUpdate::FixedUpdate() {}

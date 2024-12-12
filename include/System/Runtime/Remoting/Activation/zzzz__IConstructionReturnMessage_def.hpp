@@ -3,27 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 CORDL_MODULE_EXPORT(IConstructionReturnMessage)
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
 class IConstructionReturnMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IConstructionReturnMessage);
-// Type: System.Runtime.Remoting.Activation::IConstructionReturnMessage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMethodMessage, System.Runtime.Remoting.Messaging.IMethodReturnMessage
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Activation::IConstructionReturnMessage*
+// CS Name: System.Runtime.Remoting.Activation.IConstructionReturnMessage
 class CORDL_TYPE IConstructionReturnMessage {
 public:
   // Declarations
@@ -44,10 +37,6 @@ public:
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IConstructionReturnMessage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IConstructionReturnMessage(IConstructionReturnMessage&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IConstructionReturnMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

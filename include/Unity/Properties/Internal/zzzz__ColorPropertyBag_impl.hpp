@@ -5,205 +5,201 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Unity/Properties/Internal/zzzz__ColorPropertyBag_def.hpp"
 #include "Unity/Properties/Internal/zzzz__ColorPropertyBag_def.hpp"
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__RProperty.get_Name
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_RProperty.get_Name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::__ColorPropertyBag__RProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__RProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_RProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48af5bc;
+  constexpr static std::size_t addrs = 0x4913c4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__RProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__RProperty*>::get(), 7));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__RProperty._ctor
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_RProperty._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::__ColorPropertyBag__RProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__RProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_RProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48af49c;
+  constexpr static std::size_t addrs = 0x4913b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__RProperty*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::__ColorPropertyBag__RProperty::get_Name() {
+inline ::StringW Unity::Properties::Internal::ColorPropertyBag_RProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__RProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::__ColorPropertyBag__RProperty* Unity::Properties::Internal::__ColorPropertyBag__RProperty::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::__ColorPropertyBag__RProperty*>());
-}
-inline void Unity::Properties::Internal::__ColorPropertyBag__RProperty::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__RProperty*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Unity::Properties::Internal::ColorPropertyBag_RProperty::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Unity::Properties::Internal::ColorPropertyBag_RProperty* Unity::Properties::Internal::ColorPropertyBag_RProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>());
+}
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::__ColorPropertyBag__RProperty::__ColorPropertyBag__RProperty() {}
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__GProperty.get_Name
+constexpr ::Unity::Properties::Internal::ColorPropertyBag_RProperty::ColorPropertyBag_RProperty() {}
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_GProperty.get_Name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::__ColorPropertyBag__GProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__GProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_GProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48af5fc;
+  constexpr static std::size_t addrs = 0x4913c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__GProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__GProperty*>::get(), 7));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__GProperty._ctor
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_GProperty._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::__ColorPropertyBag__GProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__GProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_GProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48af4e4;
+  constexpr static std::size_t addrs = 0x4913b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__GProperty*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::__ColorPropertyBag__GProperty::get_Name() {
+inline ::StringW Unity::Properties::Internal::ColorPropertyBag_GProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__GProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::__ColorPropertyBag__GProperty* Unity::Properties::Internal::__ColorPropertyBag__GProperty::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::__ColorPropertyBag__GProperty*>());
-}
-inline void Unity::Properties::Internal::__ColorPropertyBag__GProperty::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__GProperty*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Unity::Properties::Internal::ColorPropertyBag_GProperty::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Unity::Properties::Internal::ColorPropertyBag_GProperty* Unity::Properties::Internal::ColorPropertyBag_GProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>());
+}
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::__ColorPropertyBag__GProperty::__ColorPropertyBag__GProperty() {}
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__BProperty.get_Name
+constexpr ::Unity::Properties::Internal::ColorPropertyBag_GProperty::ColorPropertyBag_GProperty() {}
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_BProperty.get_Name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::__ColorPropertyBag__BProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__BProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_BProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48af63c;
+  constexpr static std::size_t addrs = 0x4913ccc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__BProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__BProperty*>::get(), 7));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__BProperty._ctor
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_BProperty._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::__ColorPropertyBag__BProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__BProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_BProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48af52c;
+  constexpr static std::size_t addrs = 0x4913bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__BProperty*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::__ColorPropertyBag__BProperty::get_Name() {
+inline ::StringW Unity::Properties::Internal::ColorPropertyBag_BProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__BProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::__ColorPropertyBag__BProperty* Unity::Properties::Internal::__ColorPropertyBag__BProperty::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::__ColorPropertyBag__BProperty*>());
-}
-inline void Unity::Properties::Internal::__ColorPropertyBag__BProperty::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__BProperty*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Unity::Properties::Internal::ColorPropertyBag_BProperty::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Unity::Properties::Internal::ColorPropertyBag_BProperty* Unity::Properties::Internal::ColorPropertyBag_BProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>());
+}
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::__ColorPropertyBag__BProperty::__ColorPropertyBag__BProperty() {}
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__AProperty.get_Name
+constexpr ::Unity::Properties::Internal::ColorPropertyBag_BProperty::ColorPropertyBag_BProperty() {}
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_AProperty.get_Name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::__ColorPropertyBag__AProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__AProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_AProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48af67c;
+  constexpr static std::size_t addrs = 0x4913d0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__AProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__AProperty*>::get(), 7));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Properties::Internal::__ColorPropertyBag__AProperty._ctor
+//  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag_AProperty._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::__ColorPropertyBag__AProperty::*)()>(
-    &::Unity::Properties::Internal::__ColorPropertyBag__AProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)()>(
+    &::Unity::Properties::Internal::ColorPropertyBag_AProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48af574;
+  constexpr static std::size_t addrs = 0x4913c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__AProperty*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::__ColorPropertyBag__AProperty::get_Name() {
+inline ::StringW Unity::Properties::Internal::ColorPropertyBag_AProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__AProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::__ColorPropertyBag__AProperty* Unity::Properties::Internal::__ColorPropertyBag__AProperty::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::__ColorPropertyBag__AProperty*>());
-}
-inline void Unity::Properties::Internal::__ColorPropertyBag__AProperty::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__ColorPropertyBag__AProperty*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Unity::Properties::Internal::ColorPropertyBag_AProperty::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Unity::Properties::Internal::ColorPropertyBag_AProperty* Unity::Properties::Internal::ColorPropertyBag_AProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>());
+}
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::__ColorPropertyBag__AProperty::__ColorPropertyBag__AProperty() {}
+constexpr ::Unity::Properties::Internal::ColorPropertyBag_AProperty::ColorPropertyBag_AProperty() {}
 //  Writing Method size for method: ::Unity::Properties::Internal::ColorPropertyBag._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x48ae7a4;
+  constexpr static std::size_t addrs = 0x4912e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag*>::get(), ".ctor",
@@ -211,13 +207,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Unity::Properties::Internal::ColorPropertyBag* Unity::Properties::Internal::ColorPropertyBag::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::ColorPropertyBag*>());
-}
 inline void Unity::Properties::Internal::ColorPropertyBag::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Unity::Properties::Internal::ColorPropertyBag* Unity::Properties::Internal::ColorPropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::ColorPropertyBag*>());
 }
 // Ctor Parameters []
 constexpr ::Unity::Properties::Internal::ColorPropertyBag::ColorPropertyBag() {}

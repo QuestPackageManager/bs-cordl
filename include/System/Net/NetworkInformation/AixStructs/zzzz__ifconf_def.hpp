@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ifconf)
-namespace System {
-struct IntPtr;
-}
 // Forward declare root types
 namespace System::Net::NetworkInformation::AixStructs {
 struct ifconf;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifconf);
-// Type: System.Net.NetworkInformation.AixStructs::ifconf
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: Some(0) }
+// Dependencies System.IntPtr
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// CS Name: ::System.Net.NetworkInformation.AixStructs::ifconf
+// CS Name: System.Net.NetworkInformation.AixStructs.ifconf
 #pragma pack(push, 0)
 struct CORDL_TYPE ifconf {
 public:
@@ -85,7 +81,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9816 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

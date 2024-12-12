@@ -11,17 +11,16 @@ class MenuScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuScenesTransitionSetupDataSO);
-// Type: ::MenuScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MenuScenesTransitionSetupDataSO*
+// CS Name: MenuScenesTransitionSetupDataSO
 class CORDL_TYPE MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
   static inline ::GlobalNamespace::MenuScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22672a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2299afc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

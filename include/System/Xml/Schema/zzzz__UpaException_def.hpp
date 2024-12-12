@@ -14,11 +14,10 @@ class UpaException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::UpaException);
-// Type: System.Xml.Schema::UpaException
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::UpaException*
+// CS Name: System.Xml.Schema.UpaException
 class CORDL_TYPE UpaException : public ::System::Exception {
 public:
   // Declarations
@@ -34,25 +33,25 @@ public:
 
   static inline ::System::Xml::Schema::UpaException* New_ctor(::System::Object* particle1, ::System::Object* particle2);
 
+  constexpr ::System::Object* const& __cordl_internal_get_particle1() const;
+
   constexpr ::System::Object*& __cordl_internal_get_particle1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particle1() const;
+  constexpr ::System::Object* const& __cordl_internal_get_particle2() const;
 
   constexpr ::System::Object*& __cordl_internal_get_particle2();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particle2() const;
 
   constexpr void __cordl_internal_set_particle1(::System::Object* value);
 
   constexpr void __cordl_internal_set_particle2(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x433794c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4398c60, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
 
-  /// @brief Method get_Particle1, addr 0x43379bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle1, addr 0x4398cd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle1();
 
-  /// @brief Method get_Particle2, addr 0x43379c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle2, addr 0x4398cd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle2();
 
 protected:
@@ -69,23 +68,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UpaException(UpaException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7490 };
+
   /// @brief Field particle1, offset: 0x90, size: 0x8, def value: None
   ::System::Object* ___particle1;
 
   /// @brief Field particle2, offset: 0x98, size: 0x8, def value: None
   ::System::Object* ___particle2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7465 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::UpaException, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::UpaException, ___particle1) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::UpaException, ___particle2) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::UpaException, 0xa0>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::UpaException);

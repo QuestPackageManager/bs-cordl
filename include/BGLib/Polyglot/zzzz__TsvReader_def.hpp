@@ -15,20 +15,19 @@ class TsvReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::TsvReader);
-// Type: BGLib.Polyglot::TsvReader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
-// CS Name: ::BGLib.Polyglot::TsvReader*
+// CS Name: BGLib.Polyglot.TsvReader
 class CORDL_TYPE TsvReader : public ::System::Object {
 public:
   // Declarations
   static inline ::BGLib::Polyglot::TsvReader* New_ctor();
 
-  /// @brief Method Parse, addr 0x2277ff8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x22aa954, size 0x1a4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
-  /// @brief Method .ctor, addr 0x227819c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aaaf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +45,7 @@ public:
   TsvReader(TsvReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

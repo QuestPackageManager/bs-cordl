@@ -9,79 +9,77 @@
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__RuntimePanel____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::RuntimePanel___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__RuntimePanel____c::*)()>(&::UnityEngine::UIElements::__RuntimePanel____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel___c::*)()>(&::UnityEngine::UIElements::RuntimePanel___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49d41c4;
+  constexpr static std::size_t addrs = 0x4a38ad4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__RuntimePanel____c.__ctor_b__5_0
+//  Writing Method size for method: ::UnityEngine::UIElements::RuntimePanel___c.__ctor_b__5_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__RuntimePanel____c::*)(
-    ::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*)>(&::UnityEngine::UIElements::__RuntimePanel____c::__ctor_b__5_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel___c::*)(
+    ::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*)>(&::UnityEngine::UIElements::RuntimePanel___c::__ctor_b__5_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49d41cc;
+  constexpr static std::size_t addrs = 0x4a38adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get(), "<.ctor>b__5_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get(), "<.ctor>b__5_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::FocusEvent*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::RuntimePanel*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__RuntimePanel____c::setStaticF___9(::UnityEngine::UIElements::__RuntimePanel____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__RuntimePanel____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__RuntimePanel____c*>(value));
+inline void UnityEngine::UIElements::RuntimePanel___c::setStaticF___9(::UnityEngine::UIElements::RuntimePanel___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::RuntimePanel___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get>(
+      std::forward<::UnityEngine::UIElements::RuntimePanel___c*>(value));
 }
-inline ::UnityEngine::UIElements::__RuntimePanel____c* UnityEngine::UIElements::__RuntimePanel____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__RuntimePanel____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get>();
+inline ::UnityEngine::UIElements::RuntimePanel___c* UnityEngine::UIElements::RuntimePanel___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::RuntimePanel___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get>();
 }
 inline void
-UnityEngine::UIElements::__RuntimePanel____c::setStaticF___9__5_0(::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*>* value) {
+UnityEngine::UIElements::RuntimePanel___c::setStaticF___9__5_0(::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*>*, "<>9__5_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get>(
       std::forward<::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*>*>(value));
 }
-inline ::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*>*
-UnityEngine::UIElements::__RuntimePanel____c::getStaticF___9__5_0() {
+inline ::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*>* UnityEngine::UIElements::RuntimePanel___c::getStaticF___9__5_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*>*, "<>9__5_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__RuntimePanel____c* UnityEngine::UIElements::__RuntimePanel____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__RuntimePanel____c*>());
-}
-inline void UnityEngine::UIElements::__RuntimePanel____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get(), ".ctor",
+inline void UnityEngine::UIElements::RuntimePanel___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::__RuntimePanel____c::__ctor_b__5_0(::UnityEngine::UIElements::FocusEvent* e, ::UnityEngine::UIElements::RuntimePanel* p) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RuntimePanel____c*>::get(), "<.ctor>b__5_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::FocusEvent*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::RuntimePanel*>::get() })));
+inline void UnityEngine::UIElements::RuntimePanel___c::__ctor_b__5_0(::UnityEngine::UIElements::FocusEvent* e, ::UnityEngine::UIElements::RuntimePanel* p) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get(), "<.ctor>b__5_0", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::FocusEvent*>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::RuntimePanel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e, p);
 }
+inline ::UnityEngine::UIElements::RuntimePanel___c* UnityEngine::UIElements::RuntimePanel___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RuntimePanel___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__RuntimePanel____c::__RuntimePanel____c() {}
+constexpr ::UnityEngine::UIElements::RuntimePanel___c::RuntimePanel___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::RuntimePanel.get_panelSettings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::PanelSettings> (::UnityEngine::UIElements::RuntimePanel::*)()>(
     &::UnityEngine::UIElements::RuntimePanel::get_panelSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49d3ac4;
+  constexpr static std::size_t addrs = 0x4a383d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(),
@@ -95,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::RuntimePanel* (*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::UIElements::RuntimePanel::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49d3acc;
+  constexpr static std::size_t addrs = 0x4a383dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel::*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::UIElements::RuntimePanel::_ctor)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x49d3b24;
+  constexpr static std::size_t addrs = 0x4a38434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel::*)()>(&::UnityEngine::UIElements::RuntimePanel::Update)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49d3f1c;
+  constexpr static std::size_t addrs = 0x4a3882c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel::*)(::UnityEngine::UIElements::FocusEvent*)>(
     &::UnityEngine::UIElements::RuntimePanel::OnElementFocus)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49d40a4;
+  constexpr static std::size_t addrs = 0x4a389b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,9 +178,6 @@ inline ::UnityEngine::UIElements::RuntimePanel* UnityEngine::UIElements::Runtime
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ScriptableObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::RuntimePanel*, false>(nullptr, ___internal_method, ownerObject);
 }
-inline ::UnityEngine::UIElements::RuntimePanel* UnityEngine::UIElements::RuntimePanel::New_ctor(::UnityEngine::ScriptableObject* ownerObject) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RuntimePanel*>(ownerObject));
-}
 inline void UnityEngine::UIElements::RuntimePanel::_ctor(::UnityEngine::ScriptableObject* ownerObject) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -199,6 +194,9 @@ inline void UnityEngine::UIElements::RuntimePanel::OnElementFocus(::UnityEngine:
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(), "OnElementFocus", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::FocusEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+inline ::UnityEngine::UIElements::RuntimePanel* UnityEngine::UIElements::RuntimePanel::New_ctor(::UnityEngine::ScriptableObject* ownerObject) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RuntimePanel*>(ownerObject));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RuntimePanel::RuntimePanel() {}

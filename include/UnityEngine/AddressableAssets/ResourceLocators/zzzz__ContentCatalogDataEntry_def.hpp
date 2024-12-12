@@ -24,11 +24,10 @@ class ContentCatalogDataEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);
-// Type: UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogDataEntry
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogDataEntry*
+// CS Name: UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogDataEntry
 class CORDL_TYPE ContentCatalogDataEntry : public ::System::Object {
 public:
   // Declarations
@@ -69,29 +68,29 @@ public:
                                                                                                       ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies,
                                                                                                       ::System::Object* extraData);
 
+  constexpr ::System::Object* const& __cordl_internal_get__Data_k__BackingField() const;
+
   constexpr ::System::Object*& __cordl_internal_get__Data_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Data_k__BackingField() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get__Dependencies_k__BackingField() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__Dependencies_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__Dependencies_k__BackingField() const;
 
   constexpr ::StringW const& __cordl_internal_get__InternalId_k__BackingField() const;
 
   constexpr ::StringW& __cordl_internal_get__InternalId_k__BackingField();
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__Keys_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get__Keys_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__Keys_k__BackingField() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__Keys_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__Provider_k__BackingField() const;
 
   constexpr ::StringW& __cordl_internal_get__Provider_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__ResourceType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__ResourceType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ResourceType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__ResourceType_k__BackingField();
 
   constexpr void __cordl_internal_set__Data_k__BackingField(::System::Object* value);
 
@@ -105,44 +104,44 @@ public:
 
   constexpr void __cordl_internal_set__ResourceType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4498ca4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f9fb8, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
                     ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies, ::System::Object* extraData);
 
-  /// @brief Method get_Data, addr 0x4498c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x44f9f98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x4498c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x44f9f88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Dependencies();
 
-  /// @brief Method get_InternalId, addr 0x4498c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x44f9f58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Keys, addr 0x4498c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x44f9f78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_Provider, addr 0x4498c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x44f9f68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_ResourceType, addr 0x4498c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x44f9fa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_Data, addr 0x4498c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x44f9fa0, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method set_Dependencies, addr 0x4498c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Dependencies, addr 0x44f9f90, size 0x8, virtual false, abstract: false, final false
   inline void set_Dependencies(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_InternalId, addr 0x4498c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalId, addr 0x44f9f60, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalId(::StringW value);
 
-  /// @brief Method set_Keys, addr 0x4498c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keys, addr 0x44f9f80, size 0x8, virtual false, abstract: false, final false
   inline void set_Keys(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_Provider, addr 0x4498c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Provider, addr 0x44f9f70, size 0x8, virtual false, abstract: false, final false
   inline void set_Provider(::StringW value);
 
-  /// @brief Method set_ResourceType, addr 0x4498c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ResourceType, addr 0x44f9fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_ResourceType(::System::Type* value);
 
 protected:
@@ -158,6 +157,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogDataEntry", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ContentCatalogDataEntry(ContentCatalogDataEntry const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16201 };
 
   /// @brief Field <InternalId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____InternalId_k__BackingField;
@@ -177,14 +179,9 @@ public:
   /// @brief Field <ResourceType>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Type* ____ResourceType_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16166 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____InternalId_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____Provider_k__BackingField) == 0x18, "Offset mismatch!");
@@ -196,6 +193,8 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::Conte
 static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____Data_k__BackingField) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____ResourceType_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::ResourceLocators
 NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);

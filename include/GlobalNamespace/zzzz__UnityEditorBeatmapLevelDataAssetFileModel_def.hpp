@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEditorBeatmapLevelDataAssetFileModel)
 namespace GlobalNamespace {
@@ -22,24 +21,23 @@ class UnityEditorBeatmapLevelDataAssetFileModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel);
-// Type: ::UnityEditorBeatmapLevelDataAssetFileModel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UnityEditorBeatmapLevelDataAssetFileModel*
+// CS Name: UnityEditorBeatmapLevelDataAssetFileModel
 class CORDL_TYPE UnityEditorBeatmapLevelDataAssetFileModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Method LoadAllAssetsFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> LoadAllAssetsFromAssetDatabase();
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x26cb238, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x26fca04, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> LoadBeatmapLevelDataFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x26cb2ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x26fca78, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> LoadBeatmapLevelFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x26cb320, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x26fcaec, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> LoadBeatmapLevelPackFromAssetDatabase(::StringW packId);
 
   /// @brief Method LoadUniqueAssetFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -60,7 +58,7 @@ public:
   UnityEditorBeatmapLevelDataAssetFileModel(UnityEditorBeatmapLevelDataAssetFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

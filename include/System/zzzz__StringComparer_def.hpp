@@ -3,22 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringComparer)
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Globalization {
 class CultureInfo;
 }
@@ -40,25 +32,24 @@ class StringComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::StringComparer);
-// Type: System::StringComparer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IComparer`1<T>, System.Collections.Generic.IEqualityComparer`1<T>, System.Collections.IComparer, System.Collections.IEqualityComparer, System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::StringComparer*
+// CS Name: System.StringComparer
 class CORDL_TYPE StringComparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_invariantCulture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_invariantCulture, put = setStaticF_s_invariantCulture)) ::System::CultureAwareComparer* s_invariantCulture;
+  __declspec(property(get = getStaticF_s_invariantCulture, put = setStaticF_s_invariantCulture)) ::System::CultureAwareComparer* s_invariantCulture;
 
   /// @brief Field s_invariantCultureIgnoreCase, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_invariantCultureIgnoreCase, put = setStaticF_s_invariantCultureIgnoreCase)) ::System::CultureAwareComparer* s_invariantCultureIgnoreCase;
+  __declspec(property(get = getStaticF_s_invariantCultureIgnoreCase, put = setStaticF_s_invariantCultureIgnoreCase)) ::System::CultureAwareComparer* s_invariantCultureIgnoreCase;
 
   /// @brief Field s_ordinal, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ordinal, put = setStaticF_s_ordinal)) ::System::OrdinalCaseSensitiveComparer* s_ordinal;
+  __declspec(property(get = getStaticF_s_ordinal, put = setStaticF_s_ordinal)) ::System::OrdinalCaseSensitiveComparer* s_ordinal;
 
   /// @brief Field s_ordinalIgnoreCase, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ordinalIgnoreCase, put = setStaticF_s_ordinalIgnoreCase)) ::System::OrdinalIgnoreCaseComparer* s_ordinalIgnoreCase;
+  __declspec(property(get = getStaticF_s_ordinalIgnoreCase, put = setStaticF_s_ordinalIgnoreCase)) ::System::OrdinalIgnoreCaseComparer* s_ordinalIgnoreCase;
 
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::StringW>*() noexcept;
@@ -72,30 +63,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Compare, addr 0x3d9f650, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3dff6fc, size 0x18c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method Create, addr 0x3d9f55c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3dff608, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::StringComparer* Create(::System::Globalization::CultureInfo* culture, bool ignoreCase);
 
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x3d9f7dc, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3dff888, size 0xc8, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetHashCode, addr 0x3d9f8a4, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3dff950, size 0xc4, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::StringComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d9f968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dffa14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::CultureAwareComparer* getStaticF_s_invariantCulture();
@@ -106,13 +97,13 @@ public:
 
   static inline ::System::OrdinalIgnoreCaseComparer* getStaticF_s_ordinalIgnoreCase();
 
-  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x3d9f454, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x3dff500, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_InvariantCultureIgnoreCase();
 
-  /// @brief Method get_Ordinal, addr 0x3d9f4ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Ordinal, addr 0x3dff558, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_Ordinal();
 
-  /// @brief Method get_OrdinalIgnoreCase, addr 0x3d9f504, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OrdinalIgnoreCase, addr 0x3dff5b0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_OrdinalIgnoreCase();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::StringW>"

@@ -18,11 +18,10 @@ class InvalidDataException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::InvalidDataException);
-// Type: System.IO::InvalidDataException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::InvalidDataException*
+// CS Name: System.IO.InvalidDataException
 class CORDL_TYPE InvalidDataException : public ::System::SystemException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::IO::InvalidDataException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x4424720, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485a34, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44247ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4424788, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485a9c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -56,7 +55,7 @@ public:
   InvalidDataException(InvalidDataException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

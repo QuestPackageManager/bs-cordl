@@ -11,29 +11,28 @@ class VerticalLayoutGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::VerticalLayoutGroup);
-// Type: UnityEngine.UI::VerticalLayoutGroup
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 107, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UI.HorizontalOrVerticalLayoutGroup
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::VerticalLayoutGroup*
+// CS Name: UnityEngine.UI.VerticalLayoutGroup
 class CORDL_TYPE VerticalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 public:
   // Declarations
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4a576c0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4abbfd0, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x4a576e0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x4abbff0, size 0xc, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::UnityEngine::UI::VerticalLayoutGroup* New_ctor();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x4a576ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x4abbffc, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x4a576f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x4abc008, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
-  /// @brief Method .ctor, addr 0x4a576b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4abbfc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +50,7 @@ public:
   VerticalLayoutGroup(VerticalLayoutGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15107 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

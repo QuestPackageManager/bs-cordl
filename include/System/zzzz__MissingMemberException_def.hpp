@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MemberAccessException_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissingMemberException)
@@ -20,11 +19,10 @@ class MissingMemberException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MissingMemberException);
-// Type: System::MissingMemberException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MemberAccessException
 namespace System {
 // Is value type: false
-// CS Name: ::System::MissingMemberException*
+// CS Name: System.MissingMemberException
 class CORDL_TYPE MissingMemberException : public ::System::MemberAccessException {
 public:
   // Declarations
@@ -39,10 +37,10 @@ public:
   /// @brief Field Signature, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_Signature, put = __cordl_internal_set_Signature)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
 
-  /// @brief Method FormatSignature, addr 0x3dac4f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FormatSignature, addr 0x3e0c5a0, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW FormatSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method GetObjectData, addr 0x3dac398, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3e0c444, size 0x15c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::MissingMemberException* New_ctor();
@@ -69,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_Signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3dabf78, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0c024, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dabfd8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0c084, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dabf08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0bfb4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x3dac270, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3e0c31c, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -95,6 +93,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissingMemberException(MissingMemberException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2527 };
+
   /// @brief Field ClassName, offset: 0x90, size: 0x8, def value: None
   ::StringW ___ClassName;
 
@@ -104,19 +105,16 @@ public:
   /// @brief Field Signature, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Signature;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2527 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::MissingMemberException, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::System::MissingMemberException, ___ClassName) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::System::MissingMemberException, ___MemberName) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::System::MissingMemberException, ___Signature) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::MissingMemberException, 0xa8>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::MissingMemberException);

@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct SliderMidAnchorMode;
+struct SliderData_Type;
 }
 namespace GlobalNamespace {
-struct __SliderData__Type;
+struct SliderMidAnchorMode;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -43,11 +43,10 @@ class SliderSpawnInfoNetSerializable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderSpawnInfoNetSerializable);
-// Type: ::SliderSpawnInfoNetSerializable
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ColorType, NoteCutDirection, NoteLineLayer, PoolableSerializable, SliderData::Type, SliderMidAnchorMode, Vector3Serializable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SliderSpawnInfoNetSerializable*
+// CS Name: SliderSpawnInfoNetSerializable
 class CORDL_TYPE SliderSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
@@ -75,14 +74,8 @@ public:
   /// @brief Field headCutDirectionAngleOffset, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_headCutDirectionAngleOffset, put = __cordl_internal_set_headCutDirectionAngleOffset)) float_t headCutDirectionAngleOffset;
 
-  /// @brief Field headJumpEndPos, offset 0x84, size 0xc
-  __declspec(property(get = __cordl_internal_get_headJumpEndPos, put = __cordl_internal_set_headJumpEndPos)) ::GlobalNamespace::Vector3Serializable headJumpEndPos;
-
-  /// @brief Field headJumpGravity, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get_headJumpGravity, put = __cordl_internal_set_headJumpGravity)) float_t headJumpGravity;
-
-  /// @brief Field headJumpStartPos, offset 0x78, size 0xc
-  __declspec(property(get = __cordl_internal_get_headJumpStartPos, put = __cordl_internal_set_headJumpStartPos)) ::GlobalNamespace::Vector3Serializable headJumpStartPos;
+  /// @brief Field headGravityBase, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_headGravityBase, put = __cordl_internal_set_headGravityBase)) float_t headGravityBase;
 
   /// @brief Field headLineIndex, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_headLineIndex, put = __cordl_internal_set_headLineIndex)) int32_t headLineIndex;
@@ -90,29 +83,23 @@ public:
   /// @brief Field headLineLayer, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_headLineLayer, put = __cordl_internal_set_headLineLayer)) ::GlobalNamespace::NoteLineLayer headLineLayer;
 
-  /// @brief Field headMoveStartPos, offset 0x6c, size 0xc
-  __declspec(property(get = __cordl_internal_get_headMoveStartPos, put = __cordl_internal_set_headMoveStartPos)) ::GlobalNamespace::Vector3Serializable headMoveStartPos;
+  /// @brief Field headNoteOffset, offset 0x6c, size 0xc
+  __declspec(property(get = __cordl_internal_get_headNoteOffset, put = __cordl_internal_set_headNoteOffset)) ::GlobalNamespace::Vector3Serializable headNoteOffset;
 
   /// @brief Field headTime, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_headTime, put = __cordl_internal_set_headTime)) float_t headTime;
 
-  /// @brief Field jumpDuration, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get_jumpDuration, put = __cordl_internal_set_jumpDuration)) float_t jumpDuration;
-
   /// @brief Field midAnchorMode, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_midAnchorMode, put = __cordl_internal_set_midAnchorMode)) ::GlobalNamespace::SliderMidAnchorMode midAnchorMode;
 
-  /// @brief Field moveDuration, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get_moveDuration, put = __cordl_internal_set_moveDuration)) float_t moveDuration;
-
-  /// @brief Field rotation, offset 0xc4, size 0x4
+  /// @brief Field rotation, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
 
   /// @brief Field sliceCount, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_sliceCount, put = __cordl_internal_set_sliceCount)) int32_t sliceCount;
 
   /// @brief Field sliderType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_sliderType, put = __cordl_internal_set_sliderType)) ::GlobalNamespace::__SliderData__Type sliderType;
+  __declspec(property(get = __cordl_internal_get_sliderType, put = __cordl_internal_set_sliderType)) ::GlobalNamespace::SliderData_Type sliderType;
 
   /// @brief Field squishAmount, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_squishAmount, put = __cordl_internal_set_squishAmount)) float_t squishAmount;
@@ -129,14 +116,8 @@ public:
   /// @brief Field tailCutDirectionAngleOffset, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_tailCutDirectionAngleOffset, put = __cordl_internal_set_tailCutDirectionAngleOffset)) float_t tailCutDirectionAngleOffset;
 
-  /// @brief Field tailJumpEndPos, offset 0xac, size 0xc
-  __declspec(property(get = __cordl_internal_get_tailJumpEndPos, put = __cordl_internal_set_tailJumpEndPos)) ::GlobalNamespace::Vector3Serializable tailJumpEndPos;
-
-  /// @brief Field tailJumpGravity, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get_tailJumpGravity, put = __cordl_internal_set_tailJumpGravity)) float_t tailJumpGravity;
-
-  /// @brief Field tailJumpStartPos, offset 0xa0, size 0xc
-  __declspec(property(get = __cordl_internal_get_tailJumpStartPos, put = __cordl_internal_set_tailJumpStartPos)) ::GlobalNamespace::Vector3Serializable tailJumpStartPos;
+  /// @brief Field tailGravityBase, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get_tailGravityBase, put = __cordl_internal_set_tailGravityBase)) float_t tailGravityBase;
 
   /// @brief Field tailLineIndex, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_tailLineIndex, put = __cordl_internal_set_tailLineIndex)) int32_t tailLineIndex;
@@ -144,31 +125,31 @@ public:
   /// @brief Field tailLineLayer, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_tailLineLayer, put = __cordl_internal_set_tailLineLayer)) ::GlobalNamespace::NoteLineLayer tailLineLayer;
 
-  /// @brief Field tailMoveStartPos, offset 0x94, size 0xc
-  __declspec(property(get = __cordl_internal_get_tailMoveStartPos, put = __cordl_internal_set_tailMoveStartPos)) ::GlobalNamespace::Vector3Serializable tailMoveStartPos;
+  /// @brief Field tailNoteOffset, offset 0x7c, size 0xc
+  __declspec(property(get = __cordl_internal_get_tailNoteOffset, put = __cordl_internal_set_tailNoteOffset)) ::GlobalNamespace::Vector3Serializable tailNoteOffset;
 
   /// @brief Field tailTime, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_tailTime, put = __cordl_internal_set_tailTime)) float_t tailTime;
 
-  /// @brief Method Deserialize, addr 0x26f106c, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2723448, size 0x224, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26f0af8, size 0x224, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SliderSpawnInfoNetSerializable*
-  Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, float_t headBeat, int32_t headLineIndex,
-       ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
-       ::GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex,
-       ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier,
-       ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount,
-       ::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float_t headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos,
-       ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float_t tailJumpGravity, float_t moveDuration, float_t jumpDuration, float_t rotation);
+  /// @brief Method Init, addr 0x2723030, size 0x118, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::SliderData_Type sliderType, bool hasHeadNote, float_t headTime,
+                                                                 float_t headBeat, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer,
+                                                                 ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
+                                                                 ::GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime,
+                                                                 int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer,
+                                                                 float_t tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset,
+                                                                 ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount, ::UnityEngine::Vector3 headNoteOffset,
+                                                                 float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase, float_t rotation);
 
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26f0a94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x2722fcc, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26f0d74, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x27231a0, size 0x2a8, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
@@ -203,17 +184,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_headCutDirectionAngleOffset();
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_headJumpEndPos() const;
+  constexpr float_t const& __cordl_internal_get_headGravityBase() const;
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_headJumpEndPos();
-
-  constexpr float_t const& __cordl_internal_get_headJumpGravity() const;
-
-  constexpr float_t& __cordl_internal_get_headJumpGravity();
-
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_headJumpStartPos() const;
-
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_headJumpStartPos();
+  constexpr float_t& __cordl_internal_get_headGravityBase();
 
   constexpr int32_t const& __cordl_internal_get_headLineIndex() const;
 
@@ -223,25 +196,17 @@ public:
 
   constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get_headLineLayer();
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_headMoveStartPos() const;
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_headNoteOffset() const;
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_headMoveStartPos();
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_headNoteOffset();
 
   constexpr float_t const& __cordl_internal_get_headTime() const;
 
   constexpr float_t& __cordl_internal_get_headTime();
 
-  constexpr float_t const& __cordl_internal_get_jumpDuration() const;
-
-  constexpr float_t& __cordl_internal_get_jumpDuration();
-
   constexpr ::GlobalNamespace::SliderMidAnchorMode const& __cordl_internal_get_midAnchorMode() const;
 
   constexpr ::GlobalNamespace::SliderMidAnchorMode& __cordl_internal_get_midAnchorMode();
-
-  constexpr float_t const& __cordl_internal_get_moveDuration() const;
-
-  constexpr float_t& __cordl_internal_get_moveDuration();
 
   constexpr float_t const& __cordl_internal_get_rotation() const;
 
@@ -251,9 +216,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_sliceCount();
 
-  constexpr ::GlobalNamespace::__SliderData__Type const& __cordl_internal_get_sliderType() const;
+  constexpr ::GlobalNamespace::SliderData_Type const& __cordl_internal_get_sliderType() const;
 
-  constexpr ::GlobalNamespace::__SliderData__Type& __cordl_internal_get_sliderType();
+  constexpr ::GlobalNamespace::SliderData_Type& __cordl_internal_get_sliderType();
 
   constexpr float_t const& __cordl_internal_get_squishAmount() const;
 
@@ -275,17 +240,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_tailCutDirectionAngleOffset();
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_tailJumpEndPos() const;
+  constexpr float_t const& __cordl_internal_get_tailGravityBase() const;
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_tailJumpEndPos();
-
-  constexpr float_t const& __cordl_internal_get_tailJumpGravity() const;
-
-  constexpr float_t& __cordl_internal_get_tailJumpGravity();
-
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_tailJumpStartPos() const;
-
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_tailJumpStartPos();
+  constexpr float_t& __cordl_internal_get_tailGravityBase();
 
   constexpr int32_t const& __cordl_internal_get_tailLineIndex() const;
 
@@ -295,9 +252,9 @@ public:
 
   constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get_tailLineLayer();
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_tailMoveStartPos() const;
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_tailNoteOffset() const;
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_tailMoveStartPos();
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_tailNoteOffset();
 
   constexpr float_t const& __cordl_internal_get_tailTime() const;
 
@@ -319,31 +276,23 @@ public:
 
   constexpr void __cordl_internal_set_headCutDirectionAngleOffset(float_t value);
 
-  constexpr void __cordl_internal_set_headJumpEndPos(::GlobalNamespace::Vector3Serializable value);
-
-  constexpr void __cordl_internal_set_headJumpGravity(float_t value);
-
-  constexpr void __cordl_internal_set_headJumpStartPos(::GlobalNamespace::Vector3Serializable value);
+  constexpr void __cordl_internal_set_headGravityBase(float_t value);
 
   constexpr void __cordl_internal_set_headLineIndex(int32_t value);
 
   constexpr void __cordl_internal_set_headLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr void __cordl_internal_set_headMoveStartPos(::GlobalNamespace::Vector3Serializable value);
+  constexpr void __cordl_internal_set_headNoteOffset(::GlobalNamespace::Vector3Serializable value);
 
   constexpr void __cordl_internal_set_headTime(float_t value);
 
-  constexpr void __cordl_internal_set_jumpDuration(float_t value);
-
   constexpr void __cordl_internal_set_midAnchorMode(::GlobalNamespace::SliderMidAnchorMode value);
-
-  constexpr void __cordl_internal_set_moveDuration(float_t value);
 
   constexpr void __cordl_internal_set_rotation(float_t value);
 
   constexpr void __cordl_internal_set_sliceCount(int32_t value);
 
-  constexpr void __cordl_internal_set_sliderType(::GlobalNamespace::__SliderData__Type value);
+  constexpr void __cordl_internal_set_sliderType(::GlobalNamespace::SliderData_Type value);
 
   constexpr void __cordl_internal_set_squishAmount(float_t value);
 
@@ -355,21 +304,17 @@ public:
 
   constexpr void __cordl_internal_set_tailCutDirectionAngleOffset(float_t value);
 
-  constexpr void __cordl_internal_set_tailJumpEndPos(::GlobalNamespace::Vector3Serializable value);
-
-  constexpr void __cordl_internal_set_tailJumpGravity(float_t value);
-
-  constexpr void __cordl_internal_set_tailJumpStartPos(::GlobalNamespace::Vector3Serializable value);
+  constexpr void __cordl_internal_set_tailGravityBase(float_t value);
 
   constexpr void __cordl_internal_set_tailLineIndex(int32_t value);
 
   constexpr void __cordl_internal_set_tailLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr void __cordl_internal_set_tailMoveStartPos(::GlobalNamespace::Vector3Serializable value);
+  constexpr void __cordl_internal_set_tailNoteOffset(::GlobalNamespace::Vector3Serializable value);
 
   constexpr void __cordl_internal_set_tailTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x26f0d1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2723148, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -386,11 +331,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderSpawnInfoNetSerializable(SliderSpawnInfoNetSerializable const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17020 };
+
   /// @brief Field colorType, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ___colorType;
 
   /// @brief Field sliderType, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::__SliderData__Type ___sliderType;
+  ::GlobalNamespace::SliderData_Type ___sliderType;
 
   /// @brief Field hasHeadNote, offset: 0x1c, size: 0x1, def value: None
   bool ___hasHeadNote;
@@ -452,47 +400,24 @@ public:
   /// @brief Field squishAmount, offset: 0x68, size: 0x4, def value: None
   float_t ___squishAmount;
 
-  /// @brief Field headMoveStartPos, offset: 0x6c, size: 0xc, def value: None
-  ::GlobalNamespace::Vector3Serializable ___headMoveStartPos;
+  /// @brief Field headNoteOffset, offset: 0x6c, size: 0xc, def value: None
+  ::GlobalNamespace::Vector3Serializable ___headNoteOffset;
 
-  /// @brief Field headJumpStartPos, offset: 0x78, size: 0xc, def value: None
-  ::GlobalNamespace::Vector3Serializable ___headJumpStartPos;
+  /// @brief Field headGravityBase, offset: 0x78, size: 0x4, def value: None
+  float_t ___headGravityBase;
 
-  /// @brief Field headJumpEndPos, offset: 0x84, size: 0xc, def value: None
-  ::GlobalNamespace::Vector3Serializable ___headJumpEndPos;
+  /// @brief Field tailNoteOffset, offset: 0x7c, size: 0xc, def value: None
+  ::GlobalNamespace::Vector3Serializable ___tailNoteOffset;
 
-  /// @brief Field headJumpGravity, offset: 0x90, size: 0x4, def value: None
-  float_t ___headJumpGravity;
+  /// @brief Field tailGravityBase, offset: 0x88, size: 0x4, def value: None
+  float_t ___tailGravityBase;
 
-  /// @brief Field tailMoveStartPos, offset: 0x94, size: 0xc, def value: None
-  ::GlobalNamespace::Vector3Serializable ___tailMoveStartPos;
-
-  /// @brief Field tailJumpStartPos, offset: 0xa0, size: 0xc, def value: None
-  ::GlobalNamespace::Vector3Serializable ___tailJumpStartPos;
-
-  /// @brief Field tailJumpEndPos, offset: 0xac, size: 0xc, def value: None
-  ::GlobalNamespace::Vector3Serializable ___tailJumpEndPos;
-
-  /// @brief Field tailJumpGravity, offset: 0xb8, size: 0x4, def value: None
-  float_t ___tailJumpGravity;
-
-  /// @brief Field moveDuration, offset: 0xbc, size: 0x4, def value: None
-  float_t ___moveDuration;
-
-  /// @brief Field jumpDuration, offset: 0xc0, size: 0x4, def value: None
-  float_t ___jumpDuration;
-
-  /// @brief Field rotation, offset: 0xc4, size: 0x4, def value: None
+  /// @brief Field rotation, offset: 0x8c, size: 0x4, def value: None
   float_t ___rotation;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderSpawnInfoNetSerializable, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___colorType) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___sliderType) == 0x18, "Offset mismatch!");
@@ -537,27 +462,17 @@ static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___sli
 
 static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___squishAmount) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headMoveStartPos) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headNoteOffset) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headJumpStartPos) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headGravityBase) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headJumpEndPos) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailNoteOffset) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headJumpGravity) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailGravityBase) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailMoveStartPos) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___rotation) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailJumpStartPos) == 0xa0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailJumpEndPos) == 0xac, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailJumpGravity) == 0xb8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___moveDuration) == 0xbc, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___jumpDuration) == 0xc0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___rotation) == 0xc4, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderSpawnInfoNetSerializable, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderSpawnInfoNetSerializable);

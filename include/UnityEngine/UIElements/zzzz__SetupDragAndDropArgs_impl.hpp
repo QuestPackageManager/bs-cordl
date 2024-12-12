@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, ::UnityEngine::UIElements::StartDragArgs)>(
     &::UnityEngine::UIElements::SetupDragAndDropArgs::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49b33d4;
+  constexpr static std::size_t addrs = 0x4a17ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,9 +32,9 @@ inline void UnityEngine::UIElements::SetupDragAndDropArgs::_ctor(::UnityEngine::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StartDragArgs>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, draggedElement, selectedIds, startDragArgs);
 }
-// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "selectedIds", ty:
-// "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "selectedIds", ty:
+// "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs", modifiers: "",
+// def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::SetupDragAndDropArgs::SetupDragAndDropArgs(::UnityEngine::UIElements::VisualElement* draggedElement,
                                                                                 ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds,
                                                                                 ::UnityEngine::UIElements::StartDragArgs startDragArgs) noexcept {

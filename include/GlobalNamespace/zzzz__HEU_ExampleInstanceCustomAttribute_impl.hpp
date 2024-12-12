@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::*)()>(
     &::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::InstancerCallback)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x39ae1bc;
+  constexpr static std::size_t addrs = 0x3a04e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_OutputAttribute*)>(
     &::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::LogAttr)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x39ae564;
+  constexpr static std::size_t addrs = 0x3a051d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::*)()>(
     &::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ae6b8;
+  constexpr static std::size_t addrs = 0x3a05328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute*>::get(),
@@ -68,13 +68,13 @@ inline void GlobalNamespace::HEU_ExampleInstanceCustomAttribute::LogAttr(::Houdi
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_OutputAttribute*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, outAttr);
 }
-inline ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute* GlobalNamespace::HEU_ExampleInstanceCustomAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute*>());
-}
 inline void GlobalNamespace::HEU_ExampleInstanceCustomAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute* GlobalNamespace::HEU_ExampleInstanceCustomAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::HEU_ExampleInstanceCustomAttribute() {}

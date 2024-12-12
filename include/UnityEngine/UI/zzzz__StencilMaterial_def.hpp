@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering {
 struct StencilOp;
 }
 namespace UnityEngine::UI {
-class __StencilMaterial__MatEntry;
+class StencilMaterial_MatEntry;
 }
 namespace UnityEngine {
 class Material;
@@ -36,17 +36,16 @@ namespace UnityEngine::UI {
 class StencilMaterial;
 }
 namespace UnityEngine::UI {
-class __StencilMaterial__MatEntry;
+class StencilMaterial_MatEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::StencilMaterial);
-MARK_REF_PTR_T(::UnityEngine::UI::__StencilMaterial__MatEntry);
-// Type: ::MatEntry
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UI::StencilMaterial_MatEntry);
+// Dependencies System.Object, UnityEngine.Rendering.ColorWriteMask, UnityEngine.Rendering.CompareFunction, UnityEngine.Rendering.StencilOp
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::StencilMaterial::MatEntry*
-class CORDL_TYPE __StencilMaterial__MatEntry : public ::System::Object {
+// CS Name: UnityEngine.UI.StencilMaterial/MatEntry
+class CORDL_TYPE StencilMaterial_MatEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field baseMat, offset 0x10, size 0x8
@@ -79,7 +78,7 @@ public:
   /// @brief Field writeMask, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_writeMask, put = __cordl_internal_set_writeMask)) int32_t writeMask;
 
-  static inline ::UnityEngine::UI::__StencilMaterial__MatEntry* New_ctor();
+  static inline ::UnityEngine::UI::StencilMaterial_MatEntry* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMat() const;
 
@@ -141,22 +140,25 @@ public:
 
   constexpr void __cordl_internal_set_writeMask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a65d64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aca674, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StencilMaterial__MatEntry();
+  constexpr StencilMaterial_MatEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StencilMaterial__MatEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial_MatEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StencilMaterial__MatEntry(__StencilMaterial__MatEntry&&) = delete;
+  StencilMaterial_MatEntry(StencilMaterial_MatEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StencilMaterial__MatEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial_MatEntry", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StencilMaterial__MatEntry(__StencilMaterial__MatEntry const&) = delete;
+  StencilMaterial_MatEntry(StencilMaterial_MatEntry const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15137 };
 
   /// @brief Field baseMat, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___baseMat;
@@ -188,72 +190,68 @@ public:
   /// @brief Field colorMask, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::Rendering::ColorWriteMask ___colorMask;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15102 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__StencilMaterial__MatEntry, 0x40>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___baseMat) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___baseMat) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___customMat) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___customMat) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___count) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___count) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___stencilId) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___stencilId) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___operation) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___operation) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___compareFunction) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___compareFunction) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___readMask) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___readMask) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___writeMask) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___writeMask) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___useAlphaClip) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___useAlphaClip) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::StencilMaterial_MatEntry, ___colorMask) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___colorMask) == 0x3c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::StencilMaterial_MatEntry, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
-// Type: UnityEngine.UI::StencilMaterial
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::StencilMaterial*
+// CS Name: UnityEngine.UI.StencilMaterial
 class CORDL_TYPE StencilMaterial : public ::System::Object {
 public:
   // Declarations
-  using MatEntry = ::UnityEngine::UI::__StencilMaterial__MatEntry;
+  using MatEntry = ::UnityEngine::UI::StencilMaterial_MatEntry;
 
   /// @brief Field m_List, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_List, put = setStaticF_m_List)) ::System::Collections::Generic::List_1<::UnityEngine::UI::__StencilMaterial__MatEntry*>* m_List;
+  __declspec(property(get = getStaticF_m_List, put = setStaticF_m_List)) ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>* m_List;
 
-  /// @brief Method Add, addr 0x4a652c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4ac9bd0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID);
 
-  /// @brief Method Add, addr 0x4a652c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4ac9bd8, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method Add, addr 0x4a65354, size 0x968, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4ac9c64, size 0x968, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask, int32_t readMask,
                                                       int32_t writeMask);
 
-  /// @brief Method ClearAll, addr 0x4a65f34, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ClearAll, addr 0x4aca844, size 0x120, virtual false, abstract: false, final false
   static inline void ClearAll();
 
-  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x4a65cbc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x4aca5cc, size 0xa8, virtual false, abstract: false, final false
   static inline void LogWarningWhenNotInBatchmode(::StringW warning, ::UnityEngine::Object* context);
 
-  /// @brief Method Remove, addr 0x4a65d74, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4aca684, size 0x1c0, virtual false, abstract: false, final false
   static inline void Remove(::UnityEngine::Material* customMat);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::__StencilMaterial__MatEntry*>* getStaticF_m_List();
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>* getStaticF_m_List();
 
-  static inline void setStaticF_m_List(::System::Collections::Generic::List_1<::UnityEngine::UI::__StencilMaterial__MatEntry*>* value);
+  static inline void setStaticF_m_List(::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>* value);
 
 protected:
   // Ctor Parameters []
@@ -270,7 +268,7 @@ public:
   StencilMaterial(StencilMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -280,5 +278,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::StencilMaterial
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::StencilMaterial);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::StencilMaterial*, "UnityEngine.UI", "StencilMaterial");
-NEED_NO_BOX(::UnityEngine::UI::__StencilMaterial__MatEntry);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__StencilMaterial__MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");
+NEED_NO_BOX(::UnityEngine::UI::StencilMaterial_MatEntry);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::StencilMaterial_MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");

@@ -14,21 +14,20 @@ class XmlReaderSection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlConfiguration::XmlReaderSection);
-// Type: System.Xml.XmlConfiguration::XmlReaderSection
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::XmlConfiguration {
 // Is value type: false
-// CS Name: ::System.Xml.XmlConfiguration::XmlReaderSection*
+// CS Name: System.Xml.XmlConfiguration.XmlReaderSection
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDefaultResolver, addr 0x4330ed0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultResolver, addr 0x43921e4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlResolver* CreateDefaultResolver();
 
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x4330f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x4392238, size 0x8, virtual false, abstract: false, final false
   static inline bool get_CollapseWhiteSpaceIntoEmptyString();
 
-  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x4330ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x43921dc, size 0x8, virtual false, abstract: false, final false
   static inline bool get_ProhibitDefaultUrlResolver();
 
 protected:
@@ -46,7 +45,7 @@ public:
   XmlReaderSection(XmlReaderSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

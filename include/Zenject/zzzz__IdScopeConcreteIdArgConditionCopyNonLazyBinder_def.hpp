@@ -20,20 +20,19 @@ class IdScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder);
-// Type: Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder*
+// CS Name: Zenject.IdScopeConcreteIdArgConditionCopyNonLazyBinder
 class CORDL_TYPE IdScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithId, addr 0x4aab91c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x4b1022c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithId(::System::Object* identifier);
 
-  /// @brief Method .ctor, addr 0x4aab914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b10224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -51,7 +50,7 @@ public:
   IdScopeConcreteIdArgConditionCopyNonLazyBinder(IdScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

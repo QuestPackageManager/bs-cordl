@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Internal/zzzz__ISubAssetNotDuplicatable_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioMixerSnapshot)
 namespace UnityEngine::Audio {
 class AudioMixer;
-}
-namespace UnityEngine::Internal {
-class ISubAssetNotDuplicatable;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -18,11 +16,10 @@ class AudioMixerSnapshot;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixerSnapshot);
-// Type: UnityEngine.Audio::AudioMixerSnapshot
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Internal.ISubAssetNotDuplicatable, UnityEngine.Object
 namespace UnityEngine::Audio {
 // Is value type: false
-// CS Name: ::UnityEngine.Audio::AudioMixerSnapshot*
+// CS Name: UnityEngine.Audio.AudioMixerSnapshot
 class CORDL_TYPE AudioMixerSnapshot : public ::UnityEngine::Object {
 public:
   // Declarations
@@ -33,13 +30,13 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerSnapshot* New_ctor();
 
-  /// @brief Method TransitionTo, addr 0x47fb7e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TransitionTo, addr 0x485caf8, size 0x5c, virtual false, abstract: false, final false
   inline void TransitionTo(float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x47fb78c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485caa0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x47fb0b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x485c3cc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
@@ -60,7 +57,7 @@ public:
   AudioMixerSnapshot(AudioMixerSnapshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,11 +24,10 @@ class XmlText;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlText);
-// Type: System.Xml::XmlText
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.XmlCharacterData
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlText*
+// CS Name: System.Xml.XmlText
 class CORDL_TYPE XmlText : public ::System::Xml::XmlCharacterData {
 public:
   // Declarations
@@ -44,44 +43,44 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
-  /// @brief Method CloneNode, addr 0x42e74f8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x434880c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlText* New_ctor(::StringW strData);
 
   static inline ::System::Xml::XmlText* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x42e7668, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x434897c, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x42e7628, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x434893c, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x42e7408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x434871c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData);
 
-  /// @brief Method .ctor, addr 0x42e7414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4348728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsText, addr 0x42e766c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x4348980, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
-  /// @brief Method get_LocalName, addr 0x42e7444, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x4348758, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x42e741c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4348730, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x42e746c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x4348780, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x42e7474, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x4348788, size 0x84, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_Value, addr 0x42e7554, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4348868, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x42e7564, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x4348878, size 0xc4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -99,7 +98,7 @@ public:
   XmlText(XmlText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

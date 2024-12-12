@@ -12,11 +12,10 @@ struct DllImportSearchPath;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::DllImportSearchPath);
-// Type: System.Runtime.InteropServices::DllImportSearchPath
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// CS Name: ::System.Runtime.InteropServices::DllImportSearchPath
+// CS Name: System.Runtime.InteropServices.DllImportSearchPath
 struct CORDL_TYPE DllImportSearchPath {
 public:
   // Declarations
@@ -50,28 +49,25 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DllImportSearchPath(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ApplicationDirectory value: static_cast<int32_t>(0x200)
+  /// @brief Field ApplicationDirectory value: I32(512)
   static ::System::Runtime::InteropServices::DllImportSearchPath const ApplicationDirectory;
 
-  /// @brief Field AssemblyDirectory value: static_cast<int32_t>(0x2)
+  /// @brief Field AssemblyDirectory value: I32(2)
   static ::System::Runtime::InteropServices::DllImportSearchPath const AssemblyDirectory;
 
-  /// @brief Field LegacyBehavior value: static_cast<int32_t>(0x0)
+  /// @brief Field LegacyBehavior value: I32(0)
   static ::System::Runtime::InteropServices::DllImportSearchPath const LegacyBehavior;
 
-  /// @brief Field SafeDirectories value: static_cast<int32_t>(0x1000)
+  /// @brief Field SafeDirectories value: I32(4096)
   static ::System::Runtime::InteropServices::DllImportSearchPath const SafeDirectories;
 
-  /// @brief Field System32 value: static_cast<int32_t>(0x800)
+  /// @brief Field System32 value: I32(2048)
   static ::System::Runtime::InteropServices::DllImportSearchPath const System32;
 
-  /// @brief Field UseDllDirectoryForDependencies value: static_cast<int32_t>(0x100)
+  /// @brief Field UseDllDirectoryForDependencies value: I32(256)
   static ::System::Runtime::InteropServices::DllImportSearchPath const UseDllDirectoryForDependencies;
 
-  /// @brief Field UserDirectories value: static_cast<int32_t>(0x400)
+  /// @brief Field UserDirectories value: I32(1024)
   static ::System::Runtime::InteropServices::DllImportSearchPath const UserDirectories;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,12 +76,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::DllImportSearchPath, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::DllImportSearchPath, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::DllImportSearchPath, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::DllImportSearchPath, "System.Runtime.InteropServices", "DllImportSearchPath");

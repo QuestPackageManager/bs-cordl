@@ -12,11 +12,10 @@ class FloatTransitionSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatTransitionSO);
-// Type: ::FloatTransitionSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseTransitionSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FloatTransitionSO*
+// CS Name: FloatTransitionSO
 class CORDL_TYPE FloatTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
@@ -88,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(float_t value);
 
-  /// @brief Method .ctor, addr 0x4476edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d81f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x4476ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x44d81d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x4476eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x44d81c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x4476eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x44d81c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x4476ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x44d81d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x4476ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x44d81e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x4476ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x44d81e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedState();
 
 protected:
@@ -122,6 +121,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FloatTransitionSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FloatTransitionSO(FloatTransitionSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18214 };
 
   /// @brief Field _normalState, offset: 0x20, size: 0x4, def value: None
   float_t ____normalState;
@@ -141,14 +143,9 @@ public:
   /// @brief Field _selectedAndHighlightedState, offset: 0x34, size: 0x4, def value: None
   float_t ____selectedAndHighlightedState;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18134 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatTransitionSO, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FloatTransitionSO, ____normalState) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatTransitionSO, ____highlightedState) == 0x24, "Offset mismatch!");
@@ -160,6 +157,8 @@ static_assert(offsetof(::GlobalNamespace::FloatTransitionSO, ____disabledState) 
 static_assert(offsetof(::GlobalNamespace::FloatTransitionSO, ____selectedState) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatTransitionSO, ____selectedAndHighlightedState) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatTransitionSO, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatTransitionSO);

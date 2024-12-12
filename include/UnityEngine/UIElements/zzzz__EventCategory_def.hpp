@@ -12,11 +12,10 @@ struct EventCategory;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::EventCategory);
-// Type: UnityEngine.UIElements::EventCategory
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::EventCategory
+// CS Name: UnityEngine.UIElements.EventCategory
 struct CORDL_TYPE EventCategory {
 public:
   // Declarations
@@ -61,75 +60,75 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EventCategory(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Bind value: static_cast<int32_t>(0x9)
+  /// @brief Field Bind value: I32(9)
   static ::UnityEngine::UIElements::EventCategory const Bind;
 
-  /// @brief Field ChangePanel value: static_cast<int32_t>(0xb)
+  /// @brief Field ChangePanel value: I32(11)
   static ::UnityEngine::UIElements::EventCategory const ChangePanel;
 
-  /// @brief Field ChangeValue value: static_cast<int32_t>(0x8)
+  /// @brief Field ChangeValue value: I32(8)
   static ::UnityEngine::UIElements::EventCategory const ChangeValue;
 
-  /// @brief Field Command value: static_cast<int32_t>(0xe)
+  /// @brief Field Command value: I32(14)
   static ::UnityEngine::UIElements::EventCategory const Command;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
+  /// @brief Field Default value: I32(0)
   static ::UnityEngine::UIElements::EventCategory const Default;
 
-  /// @brief Field EnterLeave value: static_cast<int32_t>(0x3)
+  /// @brief Field EnterLeave value: I32(3)
   static ::UnityEngine::UIElements::EventCategory const EnterLeave;
 
-  /// @brief Field EnterLeaveWindow value: static_cast<int32_t>(0x4)
+  /// @brief Field EnterLeaveWindow value: I32(4)
   static ::UnityEngine::UIElements::EventCategory const EnterLeaveWindow;
 
-  /// @brief Field Focus value: static_cast<int32_t>(0xa)
+  /// @brief Field Focus value: I32(10)
   static ::UnityEngine::UIElements::EventCategory const Focus;
 
-  /// @brief Field Geometry value: static_cast<int32_t>(0x6)
+  /// @brief Field Geometry value: I32(6)
   static ::UnityEngine::UIElements::EventCategory const Geometry;
 
-  /// @brief Field IMGUI value: static_cast<int32_t>(0x10)
+  /// @brief Field IMGUI value: I32(16)
   static ::UnityEngine::UIElements::EventCategory const IMGUI;
 
-  /// @brief Field Keyboard value: static_cast<int32_t>(0x5)
+  /// @brief Field Keyboard value: I32(5)
   static ::UnityEngine::UIElements::EventCategory const Keyboard;
 
-  /// @brief Field Navigation value: static_cast<int32_t>(0xd)
+  /// @brief Field Navigation value: I32(13)
   static ::UnityEngine::UIElements::EventCategory const Navigation;
 
-  /// @brief Field Pointer value: static_cast<int32_t>(0x1)
+  /// @brief Field Pointer value: I32(1)
   static ::UnityEngine::UIElements::EventCategory const Pointer;
 
-  /// @brief Field PointerMove value: static_cast<int32_t>(0x2)
+  /// @brief Field PointerMove value: I32(2)
   static ::UnityEngine::UIElements::EventCategory const PointerMove;
 
-  /// @brief Field Reserved value: static_cast<int32_t>(0x1f)
+  /// @brief Field Reserved value: I32(31)
   static ::UnityEngine::UIElements::EventCategory const Reserved;
 
-  /// @brief Field Style value: static_cast<int32_t>(0x7)
+  /// @brief Field Style value: I32(7)
   static ::UnityEngine::UIElements::EventCategory const Style;
 
-  /// @brief Field StyleTransition value: static_cast<int32_t>(0xc)
+  /// @brief Field StyleTransition value: I32(12)
   static ::UnityEngine::UIElements::EventCategory const StyleTransition;
 
-  /// @brief Field Tooltip value: static_cast<int32_t>(0xf)
+  /// @brief Field Tooltip value: I32(15)
   static ::UnityEngine::UIElements::EventCategory const Tooltip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6311 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCategory, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::EventCategory, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCategory, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventCategory, "UnityEngine.UIElements", "EventCategory");

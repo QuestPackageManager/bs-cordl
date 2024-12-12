@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/zzzz__CollectionBase_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
@@ -14,9 +15,6 @@ namespace Mono::Security {
 class ASN1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 // Forward declare root types
@@ -25,11 +23,10 @@ class X509ExtensionCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509ExtensionCollection);
-// Type: Mono.Security.X509::X509ExtensionCollection
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.CollectionBase, System.Collections.IEnumerable
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::Mono.Security.X509::X509ExtensionCollection*
+// CS Name: Mono.Security.X509.X509ExtensionCollection
 class CORDL_TYPE X509ExtensionCollection : public ::System::Collections::CollectionBase {
 public:
   // Declarations
@@ -41,14 +38,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method IndexOf, addr 0x3bdf264, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c3f378, size 0x138, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW oid);
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor();
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3bdf39c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3c3f4b0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr bool const& __cordl_internal_get_readOnly() const;
@@ -57,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_readOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x3bdf25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3f370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3bdb010, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3b124, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_Item, addr 0x3bde8fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c3ea10, size 0xb0, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Extension* get_Item(::StringW oid);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -83,18 +80,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509ExtensionCollection(X509ExtensionCollection const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15928 };
+
   /// @brief Field readOnly, offset: 0x18, size: 0x1, def value: None
   bool ___readOnly;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509ExtensionCollection, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::X509::X509ExtensionCollection, ___readOnly) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509ExtensionCollection, 0x20>, "Size mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509ExtensionCollection);

@@ -11,29 +11,28 @@ class CallbackRunner;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::CallbackRunner);
-// Type: Oculus.Platform::CallbackRunner
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::CallbackRunner*
+// CS Name: Oculus.Platform.CallbackRunner
 class CORDL_TYPE CallbackRunner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field IsPersistantBetweenSceneLoads, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_IsPersistantBetweenSceneLoads, put = __cordl_internal_set_IsPersistantBetweenSceneLoads)) bool IsPersistantBetweenSceneLoads;
 
-  /// @brief Method Awake, addr 0x3efb6ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f5b798, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Oculus::Platform::CallbackRunner* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x3efb860, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x3f5b90c, size 0x4c, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method OnDestroy, addr 0x3efb85c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3f5b908, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x3efb7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f5b898, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_IsPersistantBetweenSceneLoads() const;
@@ -42,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_IsPersistantBetweenSceneLoads(bool value);
 
-  /// @brief Method .ctor, addr 0x3efb8ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5b958, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ovr_UnityResetTestPlatform, addr 0x3efb688, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovr_UnityResetTestPlatform, addr 0x3f5b734, size 0x64, virtual false, abstract: false, final false
   static inline void ovr_UnityResetTestPlatform();
 
 protected:
@@ -62,18 +61,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CallbackRunner(CallbackRunner const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15317 };
+
   /// @brief Field IsPersistantBetweenSceneLoads, offset: 0x20, size: 0x1, def value: None
   bool ___IsPersistantBetweenSceneLoads;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::CallbackRunner, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::CallbackRunner, ___IsPersistantBetweenSceneLoads) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::CallbackRunner, 0x28>, "Size mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::CallbackRunner);

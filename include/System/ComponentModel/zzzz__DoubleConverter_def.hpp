@@ -22,11 +22,10 @@ class DoubleConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::DoubleConverter);
-// Type: System.ComponentModel::DoubleConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.BaseNumberConverter
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::DoubleConverter*
+// CS Name: System.ComponentModel.DoubleConverter
 class CORDL_TYPE DoubleConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
@@ -34,24 +33,24 @@ public:
 
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x43ef760, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x4450a74, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x43ef6a0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x44509b4, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::DoubleConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x43ef7d0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4450ae4, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x43ef880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4450b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x43ef62c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x4450940, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x43ef634, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x4450948, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -69,7 +68,7 @@ public:
   DoubleConverter(DoubleConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

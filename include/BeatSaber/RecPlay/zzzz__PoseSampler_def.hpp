@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoseSampler)
@@ -24,22 +22,22 @@ class PoseSampler;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::RecPlay::PoseSampler);
-// Type: BeatSaber.RecPlay::PoseSampler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::RecPlay {
 // Is value type: false
-// CS Name: ::BeatSaber.RecPlay::PoseSampler*
+// CS Name: BeatSaber.RecPlay.PoseSampler
 class CORDL_TYPE PoseSampler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindPoseSample, addr 0x224811c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method FindPoseSample, addr 0x227a0f0, size 0x15c, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::FrameSample FindPoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, float_t time, int32_t nearest);
 
-  /// @brief Method InterpolatePoseSample, addr 0x2248278, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, ByRef<::BeatSaber::RecPlay::FrameSample> sample);
+  /// @brief Method InterpolatePoseSample, addr 0x227a24c, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames,
+                                                          ::ByRef<::BeatSaber::RecPlay::FrameSample> sample);
 
-  /// @brief Method SamplePose, addr 0x2247eb8, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose SamplePose(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, float_t time, ByRef<int32_t> nearest);
+  /// @brief Method SamplePose, addr 0x2279e0c, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Pose SamplePose(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, float_t time, ::ByRef<int32_t> nearest);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +54,7 @@ public:
   PoseSampler(PoseSampler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18892 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

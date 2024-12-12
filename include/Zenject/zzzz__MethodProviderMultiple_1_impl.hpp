@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Zenject/MethodProviderMultiple_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__MethodProviderMultiple_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,22 +10,13 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-/// @brief Convert operator to "::Zenject::IProvider"
-template <typename TReturn> constexpr Zenject::MethodProviderMultiple_1<TReturn>::operator ::Zenject::IProvider*() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IProvider"
-template <typename TReturn> constexpr ::Zenject::IProvider* Zenject::MethodProviderMultiple_1<TReturn>::i___Zenject__IProvider() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
 template <typename TReturn> constexpr ::Zenject::DiContainer*& Zenject::MethodProviderMultiple_1<TReturn>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-template <typename TReturn> constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::MethodProviderMultiple_1<TReturn>::__cordl_internal_get__container() const {
+template <typename TReturn> constexpr ::Zenject::DiContainer* const& Zenject::MethodProviderMultiple_1<TReturn>::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -38,7 +30,7 @@ constexpr ::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Gen
   return this->____method;
 }
 template <typename TReturn>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<TReturn>*>*> const&
+constexpr ::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<TReturn>*>* const&
 Zenject::MethodProviderMultiple_1<TReturn>::__cordl_internal_get__method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____method;
@@ -47,11 +39,6 @@ template <typename TReturn>
 constexpr void Zenject::MethodProviderMultiple_1<TReturn>::__cordl_internal_set__method(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<TReturn>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____method, value);
-}
-template <typename TReturn>
-inline ::Zenject::MethodProviderMultiple_1<TReturn>*
-Zenject::MethodProviderMultiple_1<TReturn>::New_ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<TReturn>*>* method, ::Zenject::DiContainer* container) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MethodProviderMultiple_1<TReturn>*>(method, container));
 }
 template <typename TReturn>
 inline void Zenject::MethodProviderMultiple_1<TReturn>::_ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<TReturn>*>* method,
@@ -81,14 +68,27 @@ template <typename TReturn> inline ::System::Type* Zenject::MethodProviderMultip
 }
 template <typename TReturn>
 inline void Zenject::MethodProviderMultiple_1<TReturn>::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
-                                                                                       ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
+                                                                                       ::ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MethodProviderMultiple_1<TReturn>*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
+}
+template <typename TReturn>
+inline ::Zenject::MethodProviderMultiple_1<TReturn>*
+Zenject::MethodProviderMultiple_1<TReturn>::New_ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<TReturn>*>* method, ::Zenject::DiContainer* container) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MethodProviderMultiple_1<TReturn>*>(method, container));
+}
+/// @brief Convert operator to "::Zenject::IProvider"
+template <typename TReturn> constexpr Zenject::MethodProviderMultiple_1<TReturn>::operator ::Zenject::IProvider*() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IProvider"
+template <typename TReturn> constexpr ::Zenject::IProvider* Zenject::MethodProviderMultiple_1<TReturn>::i___Zenject__IProvider() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TReturn> constexpr ::Zenject::MethodProviderMultiple_1<TReturn>::MethodProviderMultiple_1() {}

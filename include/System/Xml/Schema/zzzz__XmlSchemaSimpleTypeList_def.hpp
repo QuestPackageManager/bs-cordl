@@ -20,11 +20,10 @@ class XmlSchemaSimpleTypeList;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeList);
-// Type: System.Xml.Schema::XmlSchemaSimpleTypeList
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaSimpleTypeContent
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeList*
+// CS Name: System.Xml.Schema.XmlSchemaSimpleTypeList
 class CORDL_TYPE XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
   // Declarations
@@ -43,22 +42,22 @@ public:
   /// @brief Field itemTypeName, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_itemTypeName, put = __cordl_internal_set_itemTypeName)) ::System::Xml::XmlQualifiedName* itemTypeName;
 
-  /// @brief Method Clone, addr 0x4266fb8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42c82cc, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeList* New_ctor();
 
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& __cordl_internal_get_baseItemType() const;
+
   constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_baseItemType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_baseItemType() const;
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& __cordl_internal_get_itemType() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_itemType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_itemType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_itemTypeName() const;
 
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_itemTypeName();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_itemTypeName() const;
 
   constexpr void __cordl_internal_set_baseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
@@ -66,25 +65,25 @@ public:
 
   constexpr void __cordl_internal_set_itemTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x4267068, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c837c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseItemType, addr 0x4266fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseItemType, addr 0x42c82bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseItemType();
 
-  /// @brief Method get_ItemType, addr 0x4266f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemType, addr 0x42c82ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_ItemType();
 
-  /// @brief Method get_ItemTypeName, addr 0x4266ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeName, addr 0x42c820c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_ItemTypeName();
 
-  /// @brief Method set_BaseItemType, addr 0x4266fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseItemType, addr 0x42c82c4, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_ItemType, addr 0x4266fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemType, addr 0x42c82b4, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_ItemTypeName, addr 0x4266f00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeName, addr 0x42c8214, size 0x98, virtual false, abstract: false, final false
   inline void set_ItemTypeName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaSimpleTypeList(XmlSchemaSimpleTypeList const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7721 };
+
   /// @brief Field itemTypeName, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___itemTypeName;
 
@@ -110,19 +112,16 @@ public:
   /// @brief Field baseItemType, offset: 0x60, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaSimpleType* ___baseItemType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7696 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleTypeList, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeList, ___itemTypeName) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeList, ___itemType) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeList, ___baseItemType) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleTypeList, 0x68>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleTypeList);

@@ -14,106 +14,104 @@
 #include "UnityEngine/ProBuilder/zzzz__UvUnwrapping_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform.ToString
+//  Writing Method size for method: ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform.ToString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform::*)()>(
-    &::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform::ToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::UvUnwrapping_UVTransform::*)()>(
+    &::UnityEngine::ProBuilder::UvUnwrapping_UVTransform::ToString)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x46e31dc;
+  constexpr static std::size_t addrs = 0x47444f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform>::get(), 3));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform>::get(), 3));
     return ___internal_method;
   }
 };
-inline ::StringW UnityEngine::ProBuilder::__UvUnwrapping__UVTransform::ToString() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform>::get(), 3)));
+inline ::StringW UnityEngine::ProBuilder::UvUnwrapping_UVTransform::ToString() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "translation", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform::__UvUnwrapping__UVTransform(::UnityEngine::Vector2 translation, float_t rotation, ::UnityEngine::Vector2 scale) noexcept {
+constexpr ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform::UvUnwrapping_UVTransform(::UnityEngine::Vector2 translation, float_t rotation, ::UnityEngine::Vector2 scale) noexcept {
   this->translation = translation;
   this->rotation = rotation;
   this->scale = scale;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform::__UvUnwrapping__UVTransform() {}
-//  Writing Method size for method: ::UnityEngine::ProBuilder::__UvUnwrapping____c._ctor
+constexpr ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform::UvUnwrapping_UVTransform() {}
+//  Writing Method size for method: ::UnityEngine::ProBuilder::UvUnwrapping___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::__UvUnwrapping____c::*)()>(&::UnityEngine::ProBuilder::__UvUnwrapping____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UvUnwrapping___c::*)()>(&::UnityEngine::ProBuilder::UvUnwrapping___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46e334c;
+  constexpr static std::size_t addrs = 0x4744660;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::__UvUnwrapping____c._SetAutoUV_b__0_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::UvUnwrapping___c._SetAutoUV_b__0_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::__UvUnwrapping____c::*)(::UnityEngine::ProBuilder::Face*)>(
-    &::UnityEngine::ProBuilder::__UvUnwrapping____c::_SetAutoUV_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::UvUnwrapping___c::*)(::UnityEngine::ProBuilder::Face*)>(
+    &::UnityEngine::ProBuilder::UvUnwrapping___c::_SetAutoUV_b__0_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x46e3354;
+  constexpr static std::size_t addrs = 0x4744668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get(), "<SetAutoUV>b__0_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get(), "<SetAutoUV>b__0_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::ProBuilder::__UvUnwrapping____c::setStaticF___9(::UnityEngine::ProBuilder::__UvUnwrapping____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::__UvUnwrapping____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get>(
-      std::forward<::UnityEngine::ProBuilder::__UvUnwrapping____c*>(value));
+inline void UnityEngine::ProBuilder::UvUnwrapping___c::setStaticF___9(::UnityEngine::ProBuilder::UvUnwrapping___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::UvUnwrapping___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get>(
+      std::forward<::UnityEngine::ProBuilder::UvUnwrapping___c*>(value));
 }
-inline ::UnityEngine::ProBuilder::__UvUnwrapping____c* UnityEngine::ProBuilder::__UvUnwrapping____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::__UvUnwrapping____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get>();
+inline ::UnityEngine::ProBuilder::UvUnwrapping___c* UnityEngine::ProBuilder::UvUnwrapping___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::UvUnwrapping___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::__UvUnwrapping____c::setStaticF___9__0_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>* value) {
+inline void UnityEngine::ProBuilder::UvUnwrapping___c::setStaticF___9__0_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>*, "<>9__0_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>* UnityEngine::ProBuilder::__UvUnwrapping____c::getStaticF___9__0_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>* UnityEngine::ProBuilder::UvUnwrapping___c::getStaticF___9__0_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>*, "<>9__0_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get>();
 }
-inline ::UnityEngine::ProBuilder::__UvUnwrapping____c* UnityEngine::ProBuilder::__UvUnwrapping____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::__UvUnwrapping____c*>());
-}
-inline void UnityEngine::ProBuilder::__UvUnwrapping____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get(), ".ctor",
+inline void UnityEngine::ProBuilder::UvUnwrapping___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::ProBuilder::__UvUnwrapping____c::_SetAutoUV_b__0_0(::UnityEngine::ProBuilder::Face* x) {
+inline bool UnityEngine::ProBuilder::UvUnwrapping___c::_SetAutoUV_b__0_0(::UnityEngine::ProBuilder::Face* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__UvUnwrapping____c*>::get(), "<SetAutoUV>b__0_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping___c*>::get(), "<SetAutoUV>b__0_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
+inline ::UnityEngine::ProBuilder::UvUnwrapping___c* UnityEngine::ProBuilder::UvUnwrapping___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::UvUnwrapping___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::__UvUnwrapping____c::__UvUnwrapping____c() {}
+constexpr ::UnityEngine::ProBuilder::UvUnwrapping___c::UvUnwrapping___c() {}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::UvUnwrapping.SetAutoUV
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>, bool)>(&::UnityEngine::ProBuilder::UvUnwrapping::SetAutoUV)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x46e1204;
+  constexpr static std::size_t addrs = 0x4742518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +129,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*)>(
         &::UnityEngine::ProBuilder::UvUnwrapping::SetAutoAndAlignUnwrapParamsToUVs)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x46e1394;
+  constexpr static std::size_t addrs = 0x47426a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::AutoUnwrapSettings (*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::UvUnwrapping::GetAutoUnwrapSettings)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x46e19c4;
+  constexpr static std::size_t addrs = 0x4742cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,10 +158,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ProBuilder::UvUnwrapping.GetUVTransform
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform (*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::UvUnwrapping::GetUVTransform)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x46e1ac8;
+  constexpr static std::size_t addrs = 0x4742ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Collections::Generic::IList_1<int32_t>*, int32_t)>(
     &::UnityEngine::ProBuilder::UvUnwrapping::GetIndex)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x46e1bd0;
+  constexpr static std::size_t addrs = 0x4742ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,11 +190,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ProBuilder::UvUnwrapping.CalculateDelta
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform (*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<int32_t>*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*,
     ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::UvUnwrapping::CalculateDelta)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x46e1580;
+  constexpr static std::size_t addrs = 0x4742894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +213,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector2 (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<int32_t>*, ::UnityEngine::Vector2, float_t)>(
         &::UnityEngine::ProBuilder::UvUnwrapping::GetRotatedSize)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x46e1c80;
+  constexpr static std::size_t addrs = 0x4742f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::UvUnwrapping::Unwrap)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x46d998c;
+  constexpr static std::size_t addrs = 0x473aca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::UvUnwrapping::CopyUVs)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x46d9acc;
+  constexpr static std::size_t addrs = 0x473ade0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t, ::UnityEngine::ProBuilder::AutoUnwrapSettings)>(
     &::UnityEngine::ProBuilder::UvUnwrapping::ProjectTextureGroup)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x46e286c;
+  constexpr static std::size_t addrs = 0x4743b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +283,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>, ::System::Collections::Generic::IList_1<int32_t>*, ::UnityEngine::ProBuilder::AutoUnwrapSettings)>(
         &::UnityEngine::ProBuilder::UvUnwrapping::ApplyUVSettings)> {
   constexpr static std::size_t size = 0x8f0;
-  constexpr static std::size_t addrs = 0x46e1f7c;
+  constexpr static std::size_t addrs = 0x4743290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -303,7 +301,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>, ::System::Collections::Generic::IList_1<int32_t>*, ::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Bounds2D*)>(
     &::UnityEngine::ProBuilder::UvUnwrapping::ScaleUVs)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x46e2a00;
+  constexpr static std::size_t addrs = 0x4743d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -318,18 +316,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ProBuilder::UvUnwrapping.ApplyUVAnchor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>,
-                                                                                           ::System::Collections::Generic::IList_1<int32_t>*, ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor)>(
-    &::UnityEngine::ProBuilder::UvUnwrapping::ApplyUVAnchor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>, ::System::Collections::Generic::IList_1<int32_t>*, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor)>(
+        &::UnityEngine::ProBuilder::UvUnwrapping::ApplyUVAnchor)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x46e2c1c;
+  constexpr static std::size_t addrs = 0x4743f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping*>::get(), "ApplyUVAnchor", std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor>::get() })));
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor>::get() })));
     return ___internal_method;
   }
 };
@@ -339,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::UvUnwrapping::UpgradeAutoUVScaleOffset)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x46e2f9c;
+  constexpr static std::size_t addrs = 0x47442b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -398,13 +396,13 @@ inline ::UnityEngine::ProBuilder::AutoUnwrapSettings UnityEngine::ProBuilder::Uv
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::AutoUnwrapSettings, false>(nullptr, ___internal_method, mesh, face);
 }
-inline ::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform UnityEngine::ProBuilder::UvUnwrapping::GetUVTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                                                                                                                    ::UnityEngine::ProBuilder::Face* face) {
+inline ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform UnityEngine::ProBuilder::UvUnwrapping::GetUVTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
+                                                                                                                 ::UnityEngine::ProBuilder::Face* face) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping*>::get(), "GetUVTransform", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform, false>(nullptr, ___internal_method, mesh, face);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform, false>(nullptr, ___internal_method, mesh, face);
 }
 inline int32_t UnityEngine::ProBuilder::UvUnwrapping::GetIndex(::System::Collections::Generic::IList_1<int32_t>* collection, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -413,17 +411,17 @@ inline int32_t UnityEngine::ProBuilder::UvUnwrapping::GetIndex(::System::Collect
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, collection, index);
 }
-inline ::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform UnityEngine::ProBuilder::UvUnwrapping::CalculateDelta(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* src,
-                                                                                                                    ::System::Collections::Generic::IList_1<int32_t>* srcIndices,
-                                                                                                                    ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* dst,
-                                                                                                                    ::System::Collections::Generic::IList_1<int32_t>* dstIndices) {
+inline ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform UnityEngine::ProBuilder::UvUnwrapping::CalculateDelta(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* src,
+                                                                                                                 ::System::Collections::Generic::IList_1<int32_t>* srcIndices,
+                                                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* dst,
+                                                                                                                 ::System::Collections::Generic::IList_1<int32_t>* dstIndices) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping*>::get(), "CalculateDelta", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform, false>(nullptr, ___internal_method, src, srcIndices, dst, dstIndices);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform, false>(nullptr, ___internal_method, src, srcIndices, dst, dstIndices);
 }
 inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::UvUnwrapping::GetRotatedSize(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points,
                                                                                     ::System::Collections::Generic::IList_1<int32_t>* indices, ::UnityEngine::Vector2 center, float_t rotation) {
@@ -435,7 +433,6 @@ inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::UvUnwrapping::GetRotatedS
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, points, indices, center, rotation);
 }
-/// @param projection: ::UnityEngine::Vector3 (default: {})
 inline void UnityEngine::ProBuilder::UvUnwrapping::Unwrap(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping*>::get(), "Unwrap", std::span<Il2CppClass const* const, 0>(),
@@ -480,12 +477,12 @@ inline void UnityEngine::ProBuilder::UvUnwrapping::ScaleUVs(::ArrayW<::UnityEngi
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, uvs, indexes, scale, bounds);
 }
 inline void UnityEngine::ProBuilder::UvUnwrapping::ApplyUVAnchor(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::System::Collections::Generic::IList_1<int32_t>* indexes,
-                                                                 ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor anchor) {
+                                                                 ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor anchor) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UvUnwrapping*>::get(), "ApplyUVAnchor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, uvs, indexes, anchor);
 }
 inline void UnityEngine::ProBuilder::UvUnwrapping::UpgradeAutoUVScaleOffset(::UnityEngine::ProBuilder::ProBuilderMesh* mesh) {

@@ -12,11 +12,10 @@ struct FileAttributes;
 }
 // Write type traits
 MARK_VAL_T(::System::IO::FileAttributes);
-// Type: System.IO::FileAttributes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::IO {
 // Is value type: true
-// CS Name: ::System.IO::FileAttributes
+// CS Name: System.IO.FileAttributes
 struct CORDL_TYPE FileAttributes {
 public:
   // Declarations
@@ -59,55 +58,52 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FileAttributes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Archive value: static_cast<int32_t>(0x20)
+  /// @brief Field Archive value: I32(32)
   static ::System::IO::FileAttributes const Archive;
 
-  /// @brief Field Compressed value: static_cast<int32_t>(0x800)
+  /// @brief Field Compressed value: I32(2048)
   static ::System::IO::FileAttributes const Compressed;
 
-  /// @brief Field Device value: static_cast<int32_t>(0x40)
+  /// @brief Field Device value: I32(64)
   static ::System::IO::FileAttributes const Device;
 
-  /// @brief Field Directory value: static_cast<int32_t>(0x10)
+  /// @brief Field Directory value: I32(16)
   static ::System::IO::FileAttributes const Directory;
 
-  /// @brief Field Encrypted value: static_cast<int32_t>(0x4000)
+  /// @brief Field Encrypted value: I32(16384)
   static ::System::IO::FileAttributes const Encrypted;
 
-  /// @brief Field Hidden value: static_cast<int32_t>(0x2)
+  /// @brief Field Hidden value: I32(2)
   static ::System::IO::FileAttributes const Hidden;
 
-  /// @brief Field IntegrityStream value: static_cast<int32_t>(0x8000)
+  /// @brief Field IntegrityStream value: I32(32768)
   static ::System::IO::FileAttributes const IntegrityStream;
 
-  /// @brief Field NoScrubData value: static_cast<int32_t>(0x20000)
+  /// @brief Field NoScrubData value: I32(131072)
   static ::System::IO::FileAttributes const NoScrubData;
 
-  /// @brief Field Normal value: static_cast<int32_t>(0x80)
+  /// @brief Field Normal value: I32(128)
   static ::System::IO::FileAttributes const Normal;
 
-  /// @brief Field NotContentIndexed value: static_cast<int32_t>(0x2000)
+  /// @brief Field NotContentIndexed value: I32(8192)
   static ::System::IO::FileAttributes const NotContentIndexed;
 
-  /// @brief Field Offline value: static_cast<int32_t>(0x1000)
+  /// @brief Field Offline value: I32(4096)
   static ::System::IO::FileAttributes const Offline;
 
-  /// @brief Field ReadOnly value: static_cast<int32_t>(0x1)
+  /// @brief Field ReadOnly value: I32(1)
   static ::System::IO::FileAttributes const ReadOnly;
 
-  /// @brief Field ReparsePoint value: static_cast<int32_t>(0x400)
+  /// @brief Field ReparsePoint value: I32(1024)
   static ::System::IO::FileAttributes const ReparsePoint;
 
-  /// @brief Field SparseFile value: static_cast<int32_t>(0x200)
+  /// @brief Field SparseFile value: I32(512)
   static ::System::IO::FileAttributes const SparseFile;
 
-  /// @brief Field System value: static_cast<int32_t>(0x4)
+  /// @brief Field System value: I32(4)
   static ::System::IO::FileAttributes const System;
 
-  /// @brief Field Temporary value: static_cast<int32_t>(0x100)
+  /// @brief Field Temporary value: I32(256)
   static ::System::IO::FileAttributes const Temporary;
 
   /// @brief IL2CPP Metadata Type Index
@@ -116,12 +112,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::IO::FileAttributes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::IO::FileAttributes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::IO::FileAttributes, 0x4>, "Size mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileAttributes, "System.IO", "FileAttributes");

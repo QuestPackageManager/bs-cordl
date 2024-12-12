@@ -8,26 +8,16 @@ CORDL_MODULE_INIT
 #include "OVR/OpenVR/zzzz__HmdVector3_t_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TrackedDevicePose_t)
-namespace OVR::OpenVR {
-struct ETrackingResult;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
-namespace OVR::OpenVR {
-struct HmdVector3_t;
-}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct TrackedDevicePose_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::TrackedDevicePose_t);
-// Type: OVR.OpenVR::TrackedDevicePose_t
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 94, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies OVR.OpenVR.ETrackingResult, OVR.OpenVR.HmdMatrix34_t, OVR.OpenVR.HmdVector3_t
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::TrackedDevicePose_t
+// CS Name: OVR.OpenVR.TrackedDevicePose_t
 struct CORDL_TYPE TrackedDevicePose_t {
 public:
   // Declarations
@@ -41,6 +31,12 @@ public:
   // "bDeviceIsConnected", ty: "bool", modifiers: "", def_value: None }]
   constexpr TrackedDevicePose_t(::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking, ::OVR::OpenVR::HmdVector3_t vVelocity, ::OVR::OpenVR::HmdVector3_t vAngularVelocity,
                                 ::OVR::OpenVR::ETrackingResult eTrackingResult, bool bPoseIsValid, bool bDeviceIsConnected) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8971 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field mDeviceToAbsoluteTracking, offset: 0x0, size: 0x30, def value: None
   ::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking;
@@ -60,17 +56,9 @@ public:
   /// @brief Field bDeviceIsConnected, offset: 0x4d, size: 0x1, def value: None
   bool bDeviceIsConnected;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8946 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::TrackedDevicePose_t, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, mDeviceToAbsoluteTracking) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, vVelocity) == 0x30, "Offset mismatch!");
@@ -82,6 +70,8 @@ static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, eTrackingResult) == 0
 static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, bPoseIsValid) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, bDeviceIsConnected) == 0x4d, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::TrackedDevicePose_t, 0x50>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::TrackedDevicePose_t, "OVR.OpenVR", "TrackedDevicePose_t");

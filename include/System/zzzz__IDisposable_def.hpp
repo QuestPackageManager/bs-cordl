@@ -10,20 +10,15 @@ class IDisposable;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IDisposable);
-// Type: System::IDisposable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: false
-// CS Name: ::System::IDisposable*
+// CS Name: System.IDisposable
 class CORDL_TYPE IDisposable {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDisposable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDisposable(IDisposable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDisposable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

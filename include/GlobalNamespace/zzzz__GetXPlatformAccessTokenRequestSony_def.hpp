@@ -16,11 +16,10 @@ class GetXPlatformAccessTokenRequestSony;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSony);
-// Type: ::GetXPlatformAccessTokenRequestSony
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PlatformEnvironment, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GetXPlatformAccessTokenRequestSony*
+// CS Name: GetXPlatformAccessTokenRequestSony
 class CORDL_TYPE GetXPlatformAccessTokenRequestSony : public ::System::Object {
 public:
   // Declarations
@@ -44,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_platformToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x401defc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407f210, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
 protected:
@@ -61,23 +60,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetXPlatformAccessTokenRequestSony(GetXPlatformAccessTokenRequestSony const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18753 };
+
   /// @brief Field platformToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___platformToken;
 
   /// @brief Field platformEnvironment, offset: 0x18, size: 0x1, def value: None
   ::GlobalNamespace::PlatformEnvironment ___platformEnvironment;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18672 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetXPlatformAccessTokenRequestSony, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GetXPlatformAccessTokenRequestSony, ___platformToken) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GetXPlatformAccessTokenRequestSony, ___platformEnvironment) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetXPlatformAccessTokenRequestSony, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GetXPlatformAccessTokenRequestSony);

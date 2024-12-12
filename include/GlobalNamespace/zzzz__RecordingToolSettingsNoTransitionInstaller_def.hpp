@@ -20,11 +20,10 @@ class RecordingToolSettingsNoTransitionInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller);
-// Type: ::RecordingToolSettingsNoTransitionInstaller
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.NoTransitionInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RecordingToolSettingsNoTransitionInstaller*
+// CS Name: RecordingToolSettingsNoTransitionInstaller
 class CORDL_TYPE RecordingToolSettingsNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
@@ -37,14 +36,14 @@ public:
                       put = __cordl_internal_set__scenesTransitionSetupData)) ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>
       _scenesTransitionSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3ad837c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b37d7c, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* New_ctor();
 
-  constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& __cordl_internal_get__recordingToolSceneSetupData();
+  constexpr ::GlobalNamespace::RecordingToolSceneSetupData* const& __cordl_internal_get__recordingToolSceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSceneSetupData*> const& __cordl_internal_get__recordingToolSceneSetupData() const;
+  constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& __cordl_internal_get__recordingToolSceneSetupData();
 
   constexpr ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
 
@@ -54,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3ad83c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b37dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordingToolSettingsNoTransitionInstaller(RecordingToolSettingsNoTransitionInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5226 };
+
   /// @brief Field _recordingToolSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::RecordingToolSceneSetupData* ____recordingToolSceneSetupData;
 
   /// @brief Field _scenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5206 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller, ____recordingToolSceneSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller, ____scenesTransitionSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller);

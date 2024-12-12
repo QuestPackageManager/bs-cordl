@@ -11,17 +11,16 @@ class HierarchyIgnorePrefabOverrides;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HierarchyIgnorePrefabOverrides);
-// Type: ::HierarchyIgnorePrefabOverrides
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HierarchyIgnorePrefabOverrides*
+// CS Name: HierarchyIgnorePrefabOverrides
 class CORDL_TYPE HierarchyIgnorePrefabOverrides : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::HierarchyIgnorePrefabOverrides* New_ctor();
 
-  /// @brief Method .ctor, addr 0x267e12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b26e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   HierarchyIgnorePrefabOverrides(HierarchyIgnorePrefabOverrides const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

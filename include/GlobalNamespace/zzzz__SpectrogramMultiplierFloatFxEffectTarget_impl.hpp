@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b2916c;
+  constexpr static std::size_t addrs = 0x3b8a704;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b291f0;
+  constexpr static std::size_t addrs = 0x3b8a788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)()>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b29274;
+  constexpr static std::size_t addrs = 0x3b8a80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,14 +74,14 @@ inline void GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::TriggerVa
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, value);
 }
-inline ::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget* GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget*>());
-}
 inline void GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget* GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::SpectrogramMultiplierFloatFxEffectTarget() {}

@@ -11,13 +11,12 @@ template <typename TResult> class SystemThreadingTasks_FutureDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::SystemThreadingTasks_FutureDebugView_1);
-// Type: System.Threading.Tasks::SystemThreadingTasks_FutureDebugView`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::SystemThreadingTasks_FutureDebugView`1<TResult>*
+// CS Name: System.Threading.Tasks.SystemThreadingTasks_FutureDebugView`1<TResult>
 class CORDL_TYPE SystemThreadingTasks_FutureDebugView_1 : public ::System::Object {
 public:
   // Declarations

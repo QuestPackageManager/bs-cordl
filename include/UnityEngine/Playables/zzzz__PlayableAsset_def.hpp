@@ -3,18 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Playables/zzzz__IPlayableAsset_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
-#include <cstdint>
 CORDL_MODULE_EXPORT(PlayableAsset)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
 struct IntPtr;
-}
-namespace UnityEngine::Playables {
-class IPlayableAsset;
 }
 namespace UnityEngine::Playables {
 struct PlayableBinding;
@@ -34,11 +31,10 @@ class PlayableAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Playables::PlayableAsset);
-// Type: UnityEngine.Playables::PlayableAsset
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Playables.IPlayableAsset, UnityEngine.ScriptableObject
 namespace UnityEngine::Playables {
 // Is value type: false
-// CS Name: ::UnityEngine.Playables::PlayableAsset*
+// CS Name: UnityEngine.Playables.PlayableAsset
 class CORDL_TYPE PlayableAsset : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -49,24 +45,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableAsset"
   constexpr operator ::UnityEngine::Playables::IPlayableAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreatePlayable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
-  /// @brief Method Internal_CreatePlayable, addr 0x48684ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreatePlayable, addr 0x48c9870, size 0xd8, virtual false, abstract: false, final false
   static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::IntPtr ptr);
 
-  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x48685c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x48c9948, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, ::System::IntPtr ptrToDouble);
 
   static inline ::UnityEngine::Playables::PlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48685ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c9970, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x486843c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x48c97c0, size 0x58, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs, addr 0x4868494, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x48c9818, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
@@ -87,7 +83,7 @@ public:
   PlayableAsset(PlayableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11272 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,23 +9,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_LineInfo)
-namespace TMPro {
-struct Extents;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
-}
 // Forward declare root types
 namespace TMPro {
 struct TMP_LineInfo;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_LineInfo);
-// Type: TMPro::TMP_LineInfo
-// SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies TMPro.Extents, TMPro.HorizontalAlignmentOptions
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TMP_LineInfo
+// CS Name: TMPro.TMP_LineInfo
 struct CORDL_TYPE TMP_LineInfo {
 public:
   // Declarations
@@ -47,6 +40,12 @@ public:
                          int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight, float_t ascender, float_t baseline,
                          float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight, ::TMPro::HorizontalAlignmentOptions alignment,
                          ::TMPro::Extents lineExtents) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14511 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };
 
   /// @brief Field controlCharacterCount, offset: 0x0, size: 0x4, def value: None
   int32_t controlCharacterCount;
@@ -108,17 +107,9 @@ public:
   /// @brief Field lineExtents, offset: 0x4c, size: 0x10, def value: None
   ::TMPro::Extents lineExtents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14477 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_LineInfo, 0x5c>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_LineInfo, controlCharacterCount) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_LineInfo, characterCount) == 0x4, "Offset mismatch!");
@@ -158,6 +149,8 @@ static_assert(offsetof(::TMPro::TMP_LineInfo, marginRight) == 0x44, "Offset mism
 static_assert(offsetof(::TMPro::TMP_LineInfo, alignment) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_LineInfo, lineExtents) == 0x4c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_LineInfo, 0x5c>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");

@@ -15,11 +15,10 @@ class XmlTypeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeAttribute);
-// Type: System.Xml.Serialization::XmlTypeAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlTypeAttribute*
+// CS Name: System.Xml.Serialization.XmlTypeAttribute
 class CORDL_TYPE XmlTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -38,7 +37,7 @@ public:
   /// @brief Field typeName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method AddKeyHash, addr 0x432c63c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x438d950, size 0xa4, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr bool const& __cordl_internal_get_includeInSchema() const;
@@ -59,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method get_IncludeInSchema, addr 0x432c5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeInSchema, addr 0x438d8ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeInSchema();
 
-  /// @brief Method get_Namespace, addr 0x432c5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x438d8f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_TypeName, addr 0x432c5e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x438d8fc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -82,6 +81,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlTypeAttribute(XmlTypeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7450 };
+
   /// @brief Field includeInSchema, offset: 0x10, size: 0x1, def value: None
   bool ___includeInSchema;
 
@@ -91,19 +93,16 @@ public:
   /// @brief Field typeName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___typeName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7425 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeAttribute, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlTypeAttribute, ___includeInSchema) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlTypeAttribute, ___ns) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlTypeAttribute, ___typeName) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeAttribute, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlTypeAttribute);

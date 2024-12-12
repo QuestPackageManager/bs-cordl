@@ -14,18 +14,17 @@ class Misc;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::Misc);
-// Type: UnityEngine.UI::Misc
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::Misc*
+// CS Name: UnityEngine.UI.Misc
 class CORDL_TYPE Misc : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Destroy, addr 0x4a59b1c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x4abe42c, size 0x124, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method DestroyImmediate, addr 0x4a59c40, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DestroyImmediate, addr 0x4abe550, size 0xcc, virtual false, abstract: false, final false
   static inline void DestroyImmediate(::UnityEngine::Object* obj);
 
 protected:
@@ -43,7 +42,7 @@ public:
   Misc(Misc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15113 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_LoadBufferInstancer)
@@ -17,11 +16,10 @@ class HEU_LoadBufferInstancer;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferInstancer);
-// Type: HoudiniEngineUnity::HEU_LoadBufferInstancer
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_LoadBufferBase
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_LoadBufferInstancer*
+// CS Name: HoudiniEngineUnity.HEU_LoadBufferInstancer
 class CORDL_TYPE HEU_LoadBufferInstancer : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
   // Declarations
@@ -74,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__instanceTransforms(::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> value);
 
-  /// @brief Method .ctor, addr 0x3a0bf50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a62bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_LoadBufferInstancer(HEU_LoadBufferInstancer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11790 };
+
   /// @brief Field _instanceTransforms, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> ____instanceTransforms;
 
@@ -106,14 +107,9 @@ public:
   /// @brief Field _collisionAssetPaths, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____collisionAssetPaths;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11757 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferInstancer, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferInstancer, ____instanceTransforms) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferInstancer, ____instancePrefixes) == 0x38, "Offset mismatch!");
@@ -123,6 +119,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferInstancer, ____instan
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferInstancer, ____assetPaths) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferInstancer, ____collisionAssetPaths) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferInstancer, 0x58>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferInstancer);

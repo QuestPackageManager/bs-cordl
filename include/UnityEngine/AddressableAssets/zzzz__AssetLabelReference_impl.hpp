@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/AddressableAssets/AssetLabelReference.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__IKeyEvaluator_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__IKeyEvaluator_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::AssetLabelReference.get_labelString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::get_labelString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448f508;
+  constexpr static std::size_t addrs = 0x44f081c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetLabelReference*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetLabelReference::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::set_labelString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448f510;
+  constexpr static std::size_t addrs = 0x44f0824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::get_RuntimeKey)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x448f518;
+  constexpr static std::size_t addrs = 0x44f082c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetLabelReference*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::RuntimeKeyIsValid)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x448f570;
+  constexpr static std::size_t addrs = 0x44f0884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetLabelReference*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x448f5ec;
+  constexpr static std::size_t addrs = 0x44f0900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetLabelReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetLabelReference::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448f60c;
+  constexpr static std::size_t addrs = 0x44f0920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetLabelReference*>::get(),
@@ -91,14 +91,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
-constexpr UnityEngine::AddressableAssets::AssetLabelReference::operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept {
-  return static_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
-constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* UnityEngine::AddressableAssets::AssetLabelReference::i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept {
-  return static_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(static_cast<void*>(this));
-}
 constexpr ::StringW& UnityEngine::AddressableAssets::AssetLabelReference::__cordl_internal_get_m_LabelString() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LabelString;
@@ -138,13 +130,21 @@ inline int32_t UnityEngine::AddressableAssets::AssetLabelReference::GetHashCode(
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetLabelReference*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::AddressableAssets::AssetLabelReference* UnityEngine::AddressableAssets::AssetLabelReference::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::AssetLabelReference*>());
-}
 inline void UnityEngine::AddressableAssets::AssetLabelReference::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetLabelReference*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::AddressableAssets::AssetLabelReference* UnityEngine::AddressableAssets::AssetLabelReference::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::AssetLabelReference*>());
+}
+/// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
+constexpr UnityEngine::AddressableAssets::AssetLabelReference::operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept {
+  return static_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
+constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* UnityEngine::AddressableAssets::AssetLabelReference::i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept {
+  return static_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetLabelReference::AssetLabelReference() {}

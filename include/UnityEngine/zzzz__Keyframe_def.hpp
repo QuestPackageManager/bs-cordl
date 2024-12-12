@@ -13,18 +13,17 @@ struct Keyframe;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Keyframe);
-// Type: UnityEngine::Keyframe
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::Keyframe
+// CS Name: UnityEngine.Keyframe
 struct CORDL_TYPE Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x47fe10c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485fcac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x47fe11c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485fcbc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
   // Ctor Parameters []
@@ -35,6 +34,12 @@ public:
   // "m_InTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_WeightedMode", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutWeight", ty: "float_t", modifiers: "", def_value: None }]
   constexpr Keyframe(float_t m_Time, float_t m_Value, float_t m_InTangent, float_t m_OutTangent, int32_t m_WeightedMode, float_t m_InWeight, float_t m_OutWeight) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10641 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
 
   /// @brief Field m_Time, offset: 0x0, size: 0x4, def value: None
   float_t m_Time;
@@ -57,17 +62,9 @@ public:
   /// @brief Field m_OutWeight, offset: 0x18, size: 0x4, def value: None
   float_t m_OutWeight;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10608 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Keyframe, 0x1c>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Keyframe, m_Time) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Keyframe, m_Value) == 0x4, "Offset mismatch!");
@@ -81,6 +78,8 @@ static_assert(offsetof(::UnityEngine::Keyframe, m_WeightedMode) == 0x10, "Offset
 static_assert(offsetof(::UnityEngine::Keyframe, m_InWeight) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Keyframe, m_OutWeight) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Keyframe, 0x1c>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Keyframe, "UnityEngine", "Keyframe");

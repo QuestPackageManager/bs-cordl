@@ -12,11 +12,10 @@ struct LeakCategory;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LeakCategory);
-// Type: Unity.Collections::LeakCategory
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Collections {
 // Is value type: true
-// CS Name: ::Unity.Collections::LeakCategory
+// CS Name: Unity.Collections.LeakCategory
 struct CORDL_TYPE LeakCategory {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr LeakCategory(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Invalid value: static_cast<int32_t>(0x0)
+  /// @brief Field Invalid value: I32(0)
   static ::Unity::Collections::LeakCategory const Invalid;
 
-  /// @brief Field LightProbesQuery value: static_cast<int32_t>(0x4)
+  /// @brief Field LightProbesQuery value: I32(4)
   static ::Unity::Collections::LeakCategory const LightProbesQuery;
 
-  /// @brief Field Malloc value: static_cast<int32_t>(0x1)
+  /// @brief Field Malloc value: I32(1)
   static ::Unity::Collections::LeakCategory const Malloc;
 
-  /// @brief Field MeshDataArray value: static_cast<int32_t>(0x6)
+  /// @brief Field MeshDataArray value: I32(6)
   static ::Unity::Collections::LeakCategory const MeshDataArray;
 
-  /// @brief Field NativeTest value: static_cast<int32_t>(0x5)
+  /// @brief Field NativeTest value: I32(5)
   static ::Unity::Collections::LeakCategory const NativeTest;
 
-  /// @brief Field NavMeshQuery value: static_cast<int32_t>(0x8)
+  /// @brief Field NavMeshQuery value: I32(8)
   static ::Unity::Collections::LeakCategory const NavMeshQuery;
 
-  /// @brief Field Persistent value: static_cast<int32_t>(0x3)
+  /// @brief Field Persistent value: I32(3)
   static ::Unity::Collections::LeakCategory const Persistent;
 
-  /// @brief Field TempJob value: static_cast<int32_t>(0x2)
+  /// @brief Field TempJob value: I32(2)
   static ::Unity::Collections::LeakCategory const TempJob;
 
-  /// @brief Field TransformAccessArray value: static_cast<int32_t>(0x7)
+  /// @brief Field TransformAccessArray value: I32(7)
   static ::Unity::Collections::LeakCategory const TransformAccessArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10594 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Collections::LeakCategory, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Collections::LeakCategory, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Collections::LeakCategory, 0x4>, "Size mismatch!");
 
 } // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LeakCategory, "Unity.Collections", "LeakCategory");

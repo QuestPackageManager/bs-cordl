@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::*)()>(
     &::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2619984;
+  constexpr static std::size_t addrs = 0x264cc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2619988;
+  constexpr static std::size_t addrs = 0x264cc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x261998c;
+  constexpr static std::size_t addrs = 0x264cc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,17 +49,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>());
-}
 inline void Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>(name));
 }
 inline void Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -67,15 +61,21 @@ inline void Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor(
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
-inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::New_ctor(::StringW name, ::System::Exception* e) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>(name, e));
-}
 inline void Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor(::StringW name, ::System::Exception* e) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, e);
+}
+inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>());
+}
+inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>(name));
+}
+inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::New_ctor(::StringW name, ::System::Exception* e) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException*>(name, e));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::CmsAttributeTableGenerationException() {}

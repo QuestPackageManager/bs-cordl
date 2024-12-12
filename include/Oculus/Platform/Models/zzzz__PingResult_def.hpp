@@ -16,11 +16,10 @@ class PingResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::PingResult);
-// Type: Oculus.Platform.Models::PingResult
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Nullable`1<T>, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::PingResult*
+// CS Name: Oculus.Platform.Models.PingResult
 class CORDL_TYPE PingResult : public ::System::Object {
 public:
   // Declarations
@@ -50,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set_pingTimeUsec(::System::Nullable_1<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x3f31a88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f91b34, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
-  /// @brief Method get_ID, addr 0x3f31ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0x3f91b70, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_ID();
 
-  /// @brief Method get_IsTimeout, addr 0x3f31b40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_IsTimeout, addr 0x3f91bec, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsTimeout();
 
-  /// @brief Method get_PingTimeUsec, addr 0x3f31ad4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_PingTimeUsec, addr 0x3f91b80, size 0x6c, virtual false, abstract: false, final false
   inline uint64_t get_PingTimeUsec();
 
-  /// @brief Method set_ID, addr 0x3f31acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ID, addr 0x3f91b78, size 0x8, virtual false, abstract: false, final false
   inline void set_ID(uint64_t value);
 
 protected:
@@ -79,23 +78,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PingResult(PingResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15553 };
+
   /// @brief Field <ID>k__BackingField, offset: 0x10, size: 0x8, def value: None
   uint64_t ____ID_k__BackingField;
 
   /// @brief Field pingTimeUsec, offset: 0x18, size: 0x10, def value: None
   ::System::Nullable_1<uint64_t> ___pingTimeUsec;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15518 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::PingResult, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::PingResult, ____ID_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::PingResult, ___pingTimeUsec) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::PingResult, 0x28>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::PingResult);

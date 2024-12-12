@@ -26,11 +26,10 @@ class ConstantExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::ConstantExpression);
-// Type: System.Linq.Expressions::ConstantExpression
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::ConstantExpression*
+// CS Name: System.Linq.Expressions.ConstantExpression
 class CORDL_TYPE ConstantExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -43,27 +42,27 @@ public:
   /// @brief Field <Value>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::System::Object* _Value_k__BackingField;
 
-  /// @brief Method Accept, addr 0x404c718, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40ada2c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::ConstantExpression* New_ctor(::System::Object* value);
 
-  constexpr ::System::Object*& __cordl_internal_get__Value_k__BackingField();
+  constexpr ::System::Object* const& __cordl_internal_get__Value_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Value_k__BackingField() const;
+  constexpr ::System::Object*& __cordl_internal_get__Value_k__BackingField();
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x404c614, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ad928, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_NodeType, addr 0x404c708, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40ada1c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x404c680, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40ad994, size 0x88, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Value, addr 0x404c710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x40ada24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -80,18 +79,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConstantExpression(ConstantExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13661 };
+
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____Value_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ConstantExpression, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::ConstantExpression, ____Value_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ConstantExpression, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::ConstantExpression);

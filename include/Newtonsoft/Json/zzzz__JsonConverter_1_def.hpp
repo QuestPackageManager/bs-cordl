@@ -26,13 +26,12 @@ template <typename T> class JsonConverter_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::JsonConverter_1);
-// Type: Newtonsoft.Json::JsonConverter`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonConverter`1<T>*
+// CS Name: Newtonsoft.Json.JsonConverter`1<T>
 class CORDL_TYPE JsonConverter_1 : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
@@ -44,13 +43,13 @@ public:
   /// @brief Method ReadJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ReadJson, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, T existingValue, bool hasExistingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method WriteJson, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, T value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +70,7 @@ public:
   JsonConverter_1(JsonConverter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10060 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

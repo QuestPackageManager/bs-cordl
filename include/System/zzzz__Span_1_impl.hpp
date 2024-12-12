@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Span_1.hpp"
 #include "System/zzzz__ByReference_1_impl.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ByReference_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 template <typename T> inline void System::Span_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array) {
@@ -25,22 +24,22 @@ template <typename T> inline void System::Span_1<T>::_ctor(::cordl_internals::Pt
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pointer, length);
 }
-template <typename T> inline void System::Span_1<T>::_ctor(ByRef<T> ptr, int32_t length) {
+template <typename T> inline void System::Span_1<T>::_ctor(::ByRef<T> ptr, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Span_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ptr, length);
 }
-template <typename T> inline ByRef<T> System::Span_1<T>::get_Item(int32_t index) {
+template <typename T> inline ::ByRef<T> System::Span_1<T>::get_Item(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Span_1<T>>::get(), "get_Item", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(this, ___internal_method, index);
+  return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(this, ___internal_method, index);
 }
-template <typename T> inline ByRef<T> System::Span_1<T>::GetPinnableReference() {
+template <typename T> inline ::ByRef<T> System::Span_1<T>::GetPinnableReference() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Span_1<T>>::get(), "GetPinnableReference",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(this, ___internal_method);
 }
 template <typename T> inline void System::Span_1<T>::Clear() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Span_1<T>>::get(), "Clear",

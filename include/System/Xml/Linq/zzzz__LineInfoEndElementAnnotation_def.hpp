@@ -12,17 +12,16 @@ class LineInfoEndElementAnnotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::LineInfoEndElementAnnotation);
-// Type: System.Xml.Linq::LineInfoEndElementAnnotation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Linq.LineInfoAnnotation
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::LineInfoEndElementAnnotation*
+// CS Name: System.Xml.Linq.LineInfoEndElementAnnotation
 class CORDL_TYPE LineInfoEndElementAnnotation : public ::System::Xml::Linq::LineInfoAnnotation {
 public:
   // Declarations
   static inline ::System::Xml::Linq::LineInfoEndElementAnnotation* New_ctor(int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x41e2b9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4243eb0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -40,7 +39,7 @@ public:
   LineInfoEndElementAnnotation(LineInfoEndElementAnnotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

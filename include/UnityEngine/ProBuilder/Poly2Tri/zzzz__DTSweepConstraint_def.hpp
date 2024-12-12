@@ -14,18 +14,17 @@ class DTSweepConstraint;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint);
-// Type: UnityEngine.ProBuilder.Poly2Tri::DTSweepConstraint
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepConstraint*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint
 class CORDL_TYPE DTSweepConstraint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint {
 public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1,
                                                                                  ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
-  /// @brief Method .ctor, addr 0x4699ca0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fafb4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
 protected:
@@ -43,7 +42,7 @@ public:
   DTSweepConstraint(DTSweepConstraint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

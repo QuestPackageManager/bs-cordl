@@ -15,11 +15,10 @@ class AsyncProtocolResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::AsyncProtocolResult);
-// Type: Mono.Net.Security::AsyncProtocolResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Net::Security {
 // Is value type: false
-// CS Name: ::Mono.Net.Security::AsyncProtocolResult*
+// CS Name: Mono.Net.Security.AsyncProtocolResult
 class CORDL_TYPE AsyncProtocolResult : public ::System::Object {
 public:
   // Declarations
@@ -38,9 +37,9 @@ public:
 
   static inline ::Mono::Net::Security::AsyncProtocolResult* New_ctor(int32_t result);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__Error_k__BackingField();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* const& __cordl_internal_get__Error_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get__Error_k__BackingField() const;
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__Error_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__UserResult_k__BackingField() const;
 
@@ -50,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40add48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410f05c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor, addr 0x40add20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410f034, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
-  /// @brief Method get_Error, addr 0x40add18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x410f02c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
-  /// @brief Method get_UserResult, addr 0x40add10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x410f024, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
 protected:
@@ -76,23 +75,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncProtocolResult(AsyncProtocolResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9133 };
+
   /// @brief Field <UserResult>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____UserResult_k__BackingField;
 
   /// @brief Field <Error>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* ____Error_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9108 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::AsyncProtocolResult, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Net::Security::AsyncProtocolResult, ____UserResult_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Net::Security::AsyncProtocolResult, ____Error_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::AsyncProtocolResult, 0x20>, "Size mismatch!");
 
 } // namespace Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::AsyncProtocolResult);

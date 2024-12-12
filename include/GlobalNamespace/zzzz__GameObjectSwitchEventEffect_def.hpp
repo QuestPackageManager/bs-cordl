@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameObjectSwitchEventEffect)
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
@@ -24,11 +23,10 @@ class GameObjectSwitchEventEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameObjectSwitchEventEffect);
-// Type: ::GameObjectSwitchEventEffect
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameObjectSwitchEventEffect*
+// CS Name: GameObjectSwitchEventEffect
 class CORDL_TYPE GameObjectSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,31 +48,31 @@ public:
                       put = __cordl_internal_set__deactivateOnBoostObjects)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _deactivateOnBoostObjects;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b276b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b88c50, size 0x18, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::GameObjectSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2769c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b88c34, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b275f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b88b88, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x3b276d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x3b88c68, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__activateOnBoostObjects() const;
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__activateOnBoostObjects();
 
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__deactivateOnBoostObjects() const;
 
@@ -88,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b27794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b88d2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,6 +103,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameObjectSwitchEventEffect(GameObjectSwitchEventEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4257 };
+
   /// @brief Field _deactivateOnBoostObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____deactivateOnBoostObjects;
 
@@ -117,14 +118,9 @@ public:
   /// @brief Field _beatmapDataCallbackWrapper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4246 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameObjectSwitchEventEffect, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameObjectSwitchEventEffect, ____deactivateOnBoostObjects) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameObjectSwitchEventEffect, ____activateOnBoostObjects) == 0x28, "Offset mismatch!");
@@ -132,6 +128,8 @@ static_assert(offsetof(::GlobalNamespace::GameObjectSwitchEventEffect, ____activ
 static_assert(offsetof(::GlobalNamespace::GameObjectSwitchEventEffect, ____beatmapCallbacksController) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameObjectSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameObjectSwitchEventEffect, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameObjectSwitchEventEffect);

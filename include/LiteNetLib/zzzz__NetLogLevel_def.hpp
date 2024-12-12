@@ -12,11 +12,10 @@ struct NetLogLevel;
 }
 // Write type traits
 MARK_VAL_T(::LiteNetLib::NetLogLevel);
-// Type: LiteNetLib::NetLogLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace LiteNetLib {
 // Is value type: true
-// CS Name: ::LiteNetLib::NetLogLevel
+// CS Name: LiteNetLib.NetLogLevel
 struct CORDL_TYPE NetLogLevel {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NetLogLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Error value: static_cast<int32_t>(0x1)
+  /// @brief Field Error value: I32(1)
   static ::LiteNetLib::NetLogLevel const Error;
 
-  /// @brief Field Info value: static_cast<int32_t>(0x3)
+  /// @brief Field Info value: I32(3)
   static ::LiteNetLib::NetLogLevel const Info;
 
-  /// @brief Field Trace value: static_cast<int32_t>(0x2)
+  /// @brief Field Trace value: I32(2)
   static ::LiteNetLib::NetLogLevel const Trace;
 
-  /// @brief Field Warning value: static_cast<int32_t>(0x0)
+  /// @brief Field Warning value: I32(0)
   static ::LiteNetLib::NetLogLevel const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16532 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetLogLevel, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::LiteNetLib::NetLogLevel, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetLogLevel, 0x4>, "Size mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetLogLevel, "LiteNetLib", "NetLogLevel");

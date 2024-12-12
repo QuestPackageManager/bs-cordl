@@ -18,15 +18,14 @@ class DerTaggedObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerTaggedObject);
-// Type: Org.BouncyCastle.Asn1::DerTaggedObject
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1TaggedObject
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::DerTaggedObject*
+// CS Name: Org.BouncyCastle.Asn1.DerTaggedObject
 class CORDL_TYPE DerTaggedObject : public ::Org::BouncyCastle::Asn1::Asn1TaggedObject {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x2600cdc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2633fc8, size 0xc8, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::DerTaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
@@ -35,13 +34,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerTaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x25f566c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x2600c68, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633f54, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x25ecf04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26201f0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
 protected:

@@ -12,11 +12,10 @@ class StringFormatMethodAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::StringFormatMethodAttribute);
-// Type: JetBrains.Annotations::StringFormatMethodAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::StringFormatMethodAttribute*
+// CS Name: JetBrains.Annotations.StringFormatMethodAttribute
 class CORDL_TYPE StringFormatMethodAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__FormatParameterName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8bef4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0804, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatParameterName);
 
-  /// @brief Method get_FormatParameterName, addr 0x4a8bf1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FormatParameterName, addr 0x4af082c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FormatParameterName();
 
-  /// @brief Method set_FormatParameterName, addr 0x4a8bf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatParameterName, addr 0x4af0834, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatParameterName(::StringW value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StringFormatMethodAttribute(StringFormatMethodAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18445 };
+
   /// @brief Field <FormatParameterName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____FormatParameterName_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::StringFormatMethodAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::StringFormatMethodAttribute, ____FormatParameterName_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::StringFormatMethodAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::StringFormatMethodAttribute);

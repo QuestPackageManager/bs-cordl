@@ -12,11 +12,10 @@ struct TlsProtocols;
 }
 // Write type traits
 MARK_VAL_T(::Mono::Security::Interface::TlsProtocols);
-// Type: Mono.Security.Interface::TlsProtocols
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Mono::Security::Interface {
 // Is value type: true
-// CS Name: ::Mono.Security.Interface::TlsProtocols
+// CS Name: Mono.Security.Interface.TlsProtocols
 struct CORDL_TYPE TlsProtocols {
 public:
   // Declarations
@@ -55,57 +54,57 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TlsProtocols(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ClientMask value: static_cast<int32_t>(0xa80)
+  /// @brief Field ClientMask value: I32(2688)
   static ::Mono::Security::Interface::TlsProtocols const ClientMask;
 
-  /// @brief Field ServerMask value: static_cast<int32_t>(0x540)
+  /// @brief Field ServerMask value: I32(1344)
   static ::Mono::Security::Interface::TlsProtocols const ServerMask;
 
-  /// @brief Field Tls10 value: static_cast<int32_t>(0xc0)
+  /// @brief Field Tls10 value: I32(192)
   static ::Mono::Security::Interface::TlsProtocols const Tls10;
 
-  /// @brief Field Tls10Client value: static_cast<int32_t>(0x80)
+  /// @brief Field Tls10Client value: I32(128)
   static ::Mono::Security::Interface::TlsProtocols const Tls10Client;
 
-  /// @brief Field Tls10Server value: static_cast<int32_t>(0x40)
+  /// @brief Field Tls10Server value: I32(64)
   static ::Mono::Security::Interface::TlsProtocols const Tls10Server;
 
-  /// @brief Field Tls11 value: static_cast<int32_t>(0x300)
+  /// @brief Field Tls11 value: I32(768)
   static ::Mono::Security::Interface::TlsProtocols const Tls11;
 
-  /// @brief Field Tls11Client value: static_cast<int32_t>(0x200)
+  /// @brief Field Tls11Client value: I32(512)
   static ::Mono::Security::Interface::TlsProtocols const Tls11Client;
 
-  /// @brief Field Tls11Server value: static_cast<int32_t>(0x100)
+  /// @brief Field Tls11Server value: I32(256)
   static ::Mono::Security::Interface::TlsProtocols const Tls11Server;
 
-  /// @brief Field Tls12 value: static_cast<int32_t>(0xc00)
+  /// @brief Field Tls12 value: I32(3072)
   static ::Mono::Security::Interface::TlsProtocols const Tls12;
 
-  /// @brief Field Tls12Client value: static_cast<int32_t>(0x800)
+  /// @brief Field Tls12Client value: I32(2048)
   static ::Mono::Security::Interface::TlsProtocols const Tls12Client;
 
-  /// @brief Field Tls12Server value: static_cast<int32_t>(0x400)
+  /// @brief Field Tls12Server value: I32(1024)
   static ::Mono::Security::Interface::TlsProtocols const Tls12Server;
 
-  /// @brief Field Zero value: static_cast<int32_t>(0x0)
+  /// @brief Field Zero value: I32(0)
   static ::Mono::Security::Interface::TlsProtocols const Zero;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15957 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::TlsProtocols, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Interface::TlsProtocols, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::TlsProtocols, 0x4>, "Size mismatch!");
 
 } // namespace Mono::Security::Interface
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");

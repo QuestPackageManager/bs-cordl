@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PbmParameter)
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -31,11 +30,10 @@ class PbmParameter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PbmParameter);
-// Type: Org.BouncyCastle.Asn1.Cmp::PbmParameter
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cmp::PbmParameter*
+// CS Name: Org.BouncyCastle.Asn1.Cmp.PbmParameter
 class CORDL_TYPE PbmParameter : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -59,7 +57,7 @@ public:
   /// @brief Field salt, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt)) ::Org::BouncyCastle::Asn1::Asn1OctetString* salt;
 
-  /// @brief Method GetInstance, addr 0x22c2b0c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22f5df8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
@@ -70,24 +68,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22c2da8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22f6094, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_iterationCount() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterationCount();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_iterationCount() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_mac() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_mac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_mac() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_owf() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_owf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_owf() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_salt() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_salt();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_salt() const;
 
   constexpr void __cordl_internal_set_iterationCount(::Org::BouncyCastle::Asn1::DerInteger* value);
 
@@ -97,27 +95,27 @@ public:
 
   constexpr void __cordl_internal_set_salt(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x22c2c88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f5f74, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
-  /// @brief Method .ctor, addr 0x22c2d48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f6034, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, ::Org::BouncyCastle::Asn1::DerInteger* iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
-  /// @brief Method .ctor, addr 0x22c2a60, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f5d4c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_IterationCount, addr 0x22c2d98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x22f6084, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_IterationCount();
 
-  /// @brief Method get_Mac, addr 0x22c2da0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mac, addr 0x22f608c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Mac();
 
-  /// @brief Method get_Owf, addr 0x22c2d90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Owf, addr 0x22f607c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Owf();
 
-  /// @brief Method get_Salt, addr 0x22c2d88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x22f6074, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Salt();
 
 protected:
@@ -134,6 +132,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PbmParameter(PbmParameter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 28 };
+
   /// @brief Field salt, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___salt;
 
@@ -146,14 +147,9 @@ public:
   /// @brief Field mac, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___mac;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PbmParameter, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PbmParameter, ___salt) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PbmParameter, ___owf) == 0x18, "Offset mismatch!");
@@ -161,6 +157,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PbmParameter, ___owf) == 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PbmParameter, ___iterationCount) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PbmParameter, ___mac) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PbmParameter, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PbmParameter);

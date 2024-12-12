@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -19,11 +18,10 @@ class G_GraphShader;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::G_GraphShader);
-// Type: Tayx.Graphy::G_GraphShader
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Color
 namespace Tayx::Graphy {
 // Is value type: false
-// CS Name: ::Tayx.Graphy::G_GraphShader*
+// CS Name: Tayx.Graphy.G_GraphShader
 class CORDL_TYPE G_GraphShader : public ::System::Object {
 public:
   // Declarations
@@ -78,24 +76,24 @@ public:
   /// @brief Field m_goodThresholdPropertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_goodThresholdPropertyId, put = __cordl_internal_set_m_goodThresholdPropertyId)) int32_t m_goodThresholdPropertyId;
 
-  /// @brief Method InitializeShader, addr 0x446e934, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InitializeShader, addr 0x44cfc48, size 0x17c, virtual false, abstract: false, final false
   inline void InitializeShader();
 
   static inline ::Tayx::Graphy::G_GraphShader* New_ctor();
 
-  /// @brief Method UpdateArray, addr 0x446eab0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateArray, addr 0x44cfdc4, size 0x44, virtual false, abstract: false, final false
   inline void UpdateArray();
 
-  /// @brief Method UpdateAverage, addr 0x446eaf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAverage, addr 0x44cfe08, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateAverage();
 
-  /// @brief Method UpdateColors, addr 0x446eb98, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x44cfeac, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePoints, addr 0x446ec38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePoints, addr 0x44cff4c, size 0x3c, virtual false, abstract: false, final false
   inline void UpdatePoints();
 
-  /// @brief Method UpdateThresholds, addr 0x446eb30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateThresholds, addr 0x44cfe44, size 0x68, virtual false, abstract: false, final false
   inline void UpdateThresholds();
 
   constexpr int32_t const& __cordl_internal_get_ArrayMaxSize() const;
@@ -200,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set_m_goodThresholdPropertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x446ec74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44cff88, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,6 +214,15 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "G_GraphShader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   G_GraphShader(G_GraphShader const&) = delete;
+
+  /// @brief Field ArrayMaxSizeFull offset 0xffffffff size 0x4
+  static constexpr int32_t ArrayMaxSizeFull{ static_cast<int32_t>(0x200) };
+
+  /// @brief Field ArrayMaxSizeLight offset 0xffffffff size 0x4
+  static constexpr int32_t ArrayMaxSizeLight{ static_cast<int32_t>(0x80) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17212 };
 
   /// @brief Field ArrayMaxSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___ArrayMaxSize;
@@ -268,20 +275,9 @@ public:
   /// @brief Field m_criticalColorPropertyId, offset: 0x88, size: 0x4, def value: None
   int32_t ___m_criticalColorPropertyId;
 
-  /// @brief Field ArrayMaxSizeFull offset 0xffffffff size 0x4
-  static constexpr int32_t ArrayMaxSizeFull{ static_cast<int32_t>(0x200) };
-
-  /// @brief Field ArrayMaxSizeLight offset 0xffffffff size 0x4
-  static constexpr int32_t ArrayMaxSizeLight{ static_cast<int32_t>(0x80) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17079 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::G_GraphShader, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::G_GraphShader, ___ArrayMaxSize) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::G_GraphShader, ___ShaderArrayValues) == 0x18, "Offset mismatch!");
@@ -315,6 +311,8 @@ static_assert(offsetof(::Tayx::Graphy::G_GraphShader, ___m_goodColorPropertyId) 
 static_assert(offsetof(::Tayx::Graphy::G_GraphShader, ___m_cautionColorPropertyId) == 0x84, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::G_GraphShader, ___m_criticalColorPropertyId) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::G_GraphShader, 0x90>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
 NEED_NO_BOX(::Tayx::Graphy::G_GraphShader);

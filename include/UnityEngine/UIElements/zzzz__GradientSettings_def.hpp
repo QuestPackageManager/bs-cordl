@@ -9,29 +9,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(GradientSettings)
-namespace UnityEngine::UIElements {
-struct AddressMode;
-}
-namespace UnityEngine::UIElements {
-struct GradientType;
-}
-namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct GradientSettings;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::GradientSettings);
-// Type: UnityEngine.UIElements::GradientSettings
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.RectInt, UnityEngine.UIElements.AddressMode, UnityEngine.UIElements.GradientType, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::GradientSettings
+// CS Name: UnityEngine.UIElements.GradientSettings
 struct CORDL_TYPE GradientSettings {
 public:
   // Declarations
@@ -45,6 +32,12 @@ public:
   constexpr GradientSettings(::UnityEngine::UIElements::GradientType gradientType, ::UnityEngine::UIElements::AddressMode addressMode, ::UnityEngine::Vector2 radialFocus,
                              ::UnityEngine::RectInt location) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6298 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field gradientType, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::GradientType gradientType;
 
@@ -57,17 +50,9 @@ public:
   /// @brief Field location, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::RectInt location;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6273 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GradientSettings, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, gradientType) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, addressMode) == 0x4, "Offset mismatch!");
@@ -75,6 +60,8 @@ static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, addressMode)
 static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, radialFocus) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, location) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GradientSettings, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GradientSettings, "UnityEngine.UIElements", "GradientSettings");

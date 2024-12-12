@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* (
     ::System::Linq::Expressions::MemberMemberBinding::*)()>(&::System::Linq::Expressions::MemberMemberBinding::get_Bindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4057c9c;
+  constexpr static std::size_t addrs = 0x40b8fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MemberMemberBinding*>::get(),
@@ -23,7 +23,7 @@ System::Linq::Expressions::MemberMemberBinding::__cordl_internal_get__Bindings_k
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Bindings_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* const&
 System::Linq::Expressions::MemberMemberBinding::__cordl_internal_get__Bindings_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Bindings_k__BackingField;

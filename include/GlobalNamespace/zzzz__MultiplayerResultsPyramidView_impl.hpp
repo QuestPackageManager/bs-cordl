@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> (
     ::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&::GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7a9e0;
+  constexpr static std::size_t addrs = 0x3bdc23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidView*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> (
     ::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&::GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7a9e8;
+  constexpr static std::size_t addrs = 0x3bdc244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidView*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidView::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*)>(&::GlobalNamespace::MultiplayerResultsPyramidView::PrespawnAvatars)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x3b78dec;
+  constexpr static std::size_t addrs = 0x3bda700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::MultiplayerResultsPyramidView::SetupResults)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x3b787f8;
+  constexpr static std::size_t addrs = 0x3bda10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidView::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b7b3f8;
+  constexpr static std::size_t addrs = 0x3bdcc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidView*>::get(),
@@ -136,16 +136,15 @@ constexpr void GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____evenCountOffset = value;
 }
-constexpr ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory*& GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_get__avatarsFactory() {
+constexpr ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory*& GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_get__avatarsFactory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarsFactory;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory*> const&
-GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_get__avatarsFactory() const {
+constexpr ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory* const& GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_get__avatarsFactory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarsFactory;
 }
-constexpr void GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_set__avatarsFactory(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* value) {
+constexpr void GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_set__avatarsFactory(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarsFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -154,7 +153,7 @@ GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_get__avatarsDic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarsDictionary;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>>* const&
 GlobalNamespace::MultiplayerResultsPyramidView::__cordl_internal_get__avatarsDictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarsDictionary;
@@ -229,13 +228,13 @@ inline void GlobalNamespace::MultiplayerResultsPyramidView::SetupResults(::Syste
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, resultsData, badgeStartTransform, badgeMidTransform);
 }
-inline ::GlobalNamespace::MultiplayerResultsPyramidView* GlobalNamespace::MultiplayerResultsPyramidView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerResultsPyramidView*>());
-}
 inline void GlobalNamespace::MultiplayerResultsPyramidView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidView*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerResultsPyramidView* GlobalNamespace::MultiplayerResultsPyramidView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerResultsPyramidView*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerResultsPyramidView::MultiplayerResultsPyramidView() {}

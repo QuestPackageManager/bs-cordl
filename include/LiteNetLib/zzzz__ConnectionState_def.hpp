@@ -12,11 +12,10 @@ struct ConnectionState;
 }
 // Write type traits
 MARK_VAL_T(::LiteNetLib::ConnectionState);
-// Type: LiteNetLib::ConnectionState
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace LiteNetLib {
 // Is value type: true
-// CS Name: ::LiteNetLib::ConnectionState
+// CS Name: LiteNetLib.ConnectionState
 struct CORDL_TYPE ConnectionState {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr ConnectionState(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field Any value: static_cast<uint8_t>(0xeu)
+  /// @brief Field Any value: U8(14)
   static ::LiteNetLib::ConnectionState const Any;
 
-  /// @brief Field Connected value: static_cast<uint8_t>(0x4u)
+  /// @brief Field Connected value: U8(4)
   static ::LiteNetLib::ConnectionState const Connected;
 
-  /// @brief Field Disconnected value: static_cast<uint8_t>(0x10u)
+  /// @brief Field Disconnected value: U8(16)
   static ::LiteNetLib::ConnectionState const Disconnected;
 
-  /// @brief Field Outgoing value: static_cast<uint8_t>(0x2u)
+  /// @brief Field Outgoing value: U8(2)
   static ::LiteNetLib::ConnectionState const Outgoing;
 
-  /// @brief Field ShutdownRequested value: static_cast<uint8_t>(0x8u)
+  /// @brief Field ShutdownRequested value: U8(8)
   static ::LiteNetLib::ConnectionState const ShutdownRequested;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16548 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::ConnectionState, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::LiteNetLib::ConnectionState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::ConnectionState, 0x1>, "Size mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::ConnectionState, "LiteNetLib", "ConnectionState");

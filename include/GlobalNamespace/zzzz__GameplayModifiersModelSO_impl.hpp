@@ -15,624 +15,624 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter._ctor
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::*)(
+    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x267d3d8;
+  constexpr static std::size_t addrs = 0x26b1990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter.Invoke
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::*)(
-    ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::*)(
+    ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x267dec4;
+  constexpr static std::size_t addrs = 0x26b247c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter.BeginInvoke
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::*)(::GlobalNamespace::GameplayModifiers*, ::System::AsyncCallback*, ::System::Object*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::BeginInvoke)> {
+    ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::*)(::GlobalNamespace::GameplayModifiers*, ::System::AsyncCallback*, ::System::Object*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x267ded8;
+  constexpr static std::size_t addrs = 0x26b2490;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter.EndInvoke
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::*)(::System::IAsyncResult*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::*)(::System::IAsyncResult*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x267def8;
+  constexpr static std::size_t addrs = 0x26b24b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::New_ctor(::System::Object* object,
-                                                                                                                                                                    ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(object, method));
-}
-inline void GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::Invoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::Invoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline ::System::IAsyncResult* GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::BeginInvoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                                                                                                    ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::BeginInvoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                                                                                 ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, gameplayModifiers, callback, object);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::EndInvoke(::System::IAsyncResult* result) {
+inline bool GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, result);
 }
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::New_ctor(::System::Object* object,
+                                                                                                                                                              ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter::__GameplayModifiersModelSO__GameplayModifierBoolGetter() {}
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._ctor
+constexpr ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter::GameplayModifiersModelSO_GameplayModifierBoolGetter() {}
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayModifiersModelSO____c::*)()>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersModelSO___c::*)()>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267df7c;
+  constexpr static std::size_t addrs = 0x26b2534;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_0
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x267df84;
+  constexpr static std::size_t addrs = 0x26b253c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_1
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267dfa4;
+  constexpr static std::size_t addrs = 0x26b255c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_2
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267dfbc;
+  constexpr static std::size_t addrs = 0x26b2574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_2", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_3
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_3)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x267dfd4;
+  constexpr static std::size_t addrs = 0x26b258c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_3", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_3", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_4
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_4
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_4)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267dff4;
+  constexpr static std::size_t addrs = 0x26b25ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_4", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_4", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_5
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_5
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_5)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e00c;
+  constexpr static std::size_t addrs = 0x26b25c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_5", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_5", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_6
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_6
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_6)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_6)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e024;
+  constexpr static std::size_t addrs = 0x26b25dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_6", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_6", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_7
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_7
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_7)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_7)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e03c;
+  constexpr static std::size_t addrs = 0x26b25f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_7", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_7", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_8
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_8
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_8)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_8)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x267e054;
+  constexpr static std::size_t addrs = 0x26b260c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_8", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_8", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_9
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_9
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_9)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_9)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x267e074;
+  constexpr static std::size_t addrs = 0x26b262c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_9", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_9", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_10
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_10
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_10)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_10)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x267e094;
+  constexpr static std::size_t addrs = 0x26b264c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_10", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_10", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_11
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_11
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_11)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_11)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e0b4;
+  constexpr static std::size_t addrs = 0x26b266c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_11", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_11", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_12
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_12
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_12)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_12)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e0cc;
+  constexpr static std::size_t addrs = 0x26b2684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_12", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_12", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_13
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_13
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_13)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_13)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e0e4;
+  constexpr static std::size_t addrs = 0x26b269c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_13", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_13", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_14
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_14
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_14)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_14)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e0fc;
+  constexpr static std::size_t addrs = 0x26b26b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_14", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_14", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO____c._OnEnable_b__21_15
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO___c._OnEnable_b__21_15
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameplayModifiersModelSO____c::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_15)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO___c::*)(::GlobalNamespace::GameplayModifiers*)>(
+    &::GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_15)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x267e114;
+  constexpr static std::size_t addrs = 0x26b26cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_15", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_15", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9(::GlobalNamespace::__GameplayModifiersModelSO____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO____c*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9(::GlobalNamespace::GameplayModifiersModelSO___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO___c*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO____c* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO___c* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_0(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_0(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_0() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_0() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_1(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_1(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_1",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_1() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_1() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_1",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_2(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_2(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_2",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_2() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_2() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_2",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_3(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_3",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_3(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_3",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_3() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_3",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_3() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_3",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_4(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_4",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_4(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_4",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_4() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_4",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_4() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_4",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_5(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_5",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_5(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_5",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_5() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_5",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_5() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_5",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_6(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_6",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_6(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_6",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_6() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_6",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_6() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_6",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_7(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_7",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_7(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_7",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_7() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_7",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_7() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_7",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_8(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_8",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_8(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_8",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_8() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_8",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_8() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_8",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_9(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_9(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_10(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_10",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_10(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_10",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_10() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_10",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_10() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_10",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_11(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_11",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_11(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_11",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_11() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_11",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_11() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_11",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_12(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_12",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_12(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_12",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_12() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_12",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_12() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_12",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_13(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_13",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_13(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_13",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_13() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_13",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_13() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_13",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_14(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_14",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_14(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_14",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_14() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_14",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_14() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_14",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::setStaticF___9__21_15(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_15",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>(
-      std::forward<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>(value));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::setStaticF___9__21_15(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_15",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>(
+      std::forward<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>(value));
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* GlobalNamespace::__GameplayModifiersModelSO____c::getStaticF___9__21_15() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*, "<>9__21_15",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get>();
+inline ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter* GlobalNamespace::GameplayModifiersModelSO___c::getStaticF___9__21_15() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*, "<>9__21_15",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get>();
 }
-inline ::GlobalNamespace::__GameplayModifiersModelSO____c* GlobalNamespace::__GameplayModifiersModelSO____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__GameplayModifiersModelSO____c*>());
-}
-inline void GlobalNamespace::__GameplayModifiersModelSO____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::GameplayModifiersModelSO___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_2", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_2", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_3", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_3", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_4", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_4", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_5", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_5", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_6", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_6", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_7", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_7", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_8", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_8", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_9", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_9", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_10", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_10", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_11", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_11", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_12", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_12", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_13", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_13", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_14", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_14", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
 }
-inline bool GlobalNamespace::__GameplayModifiersModelSO____c::_OnEnable_b__21_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline bool GlobalNamespace::GameplayModifiersModelSO___c::_OnEnable_b__21_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersModelSO____c*>::get(), "<OnEnable>b__21_15", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO___c*>::get(), "<OnEnable>b__21_15", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, gameplayModifiers);
+}
+inline ::GlobalNamespace::GameplayModifiersModelSO___c* GlobalNamespace::GameplayModifiersModelSO___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiersModelSO___c*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiersModelSO____c::__GameplayModifiersModelSO____c() {}
+constexpr ::GlobalNamespace::GameplayModifiersModelSO___c::GameplayModifiersModelSO___c() {}
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO.get_gameplayModifierGetters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>* (
+    static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>* (
         ::GlobalNamespace::GameplayModifiersModelSO::*)()>(&::GlobalNamespace::GameplayModifiersModelSO::get_gameplayModifierGetters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267ca0c;
+  constexpr static std::size_t addrs = 0x26b0fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(),
@@ -645,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersModelSO::*)()>(&::GlobalNamespace::GameplayModifiersModelSO::OnEnable)> {
   constexpr static std::size_t size = 0x9c4;
-  constexpr static std::size_t addrs = 0x267ca14;
+  constexpr static std::size_t addrs = 0x26b0fcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -657,16 +657,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO.CreateGameplayModifiers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::GameplayModifiersModelSO::*)(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>*)>(
-        &::GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (
+    ::GlobalNamespace::GameplayModifiersModelSO::*)(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&::GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x267d4d8;
+  constexpr static std::size_t addrs = 0x26b1a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "CreateGameplayModifiers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>*>::get() })));
     return ___internal_method;
   }
 };
@@ -676,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersModelSO::*)(
     ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifierParamsSO*)>(&::GlobalNamespace::GameplayModifiersModelSO::GetModifierBoolValue)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x267d7cc;
+  constexpr static std::size_t addrs = 0x26b1d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -692,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* (
     ::GlobalNamespace::GameplayModifiersModelSO::*)(::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::GameplayModifiersModelSO::CreateModifierParamsList)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x267d868;
+  constexpr static std::size_t addrs = 0x26b1e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -705,35 +704,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameplayModifiersModelSO::*)(
-    ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*, float_t)>(&::GlobalNamespace::GameplayModifiersModelSO::GetTotalMultiplier)> {
+    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*, float_t)>(&::GlobalNamespace::GameplayModifiersModelSO::GetTotalMultiplier)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x267daf8;
+  constexpr static std::size_t addrs = 0x26b20b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "GetTotalMultiplier", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO.MaxModifiedScoreForMaxMultipliedScore
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::GlobalNamespace::GameplayModifiersModelSO::*)(int32_t, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*, float_t)>(
-        &::GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x267dcd8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "MaxModifiedScoreForMaxMultipliedScore", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -741,37 +720,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameplayModifiersModelSO::*)(
-    int32_t, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*, ::GlobalNamespace::GameplayModifiersModelSO*, float_t)>(
-    &::GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore)> {
+    int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*, float_t)>(&::GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x267dd68;
+  constexpr static std::size_t addrs = 0x26b2290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "MaxModifiedScoreForMaxMultipliedScore", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiersModelSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO.MaxModifiedScoreForMaxMultipliedScore
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameplayModifiersModelSO::*)(
+    int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*, ::GlobalNamespace::GameplayModifiersModelSO*, float_t)>(
+    &::GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x26b2320;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "MaxModifiedScoreForMaxMultipliedScore", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiersModelSO*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO.GetModifiedScoreForGameplayModifiers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::GlobalNamespace::GameplayModifiersModelSO::*)(int32_t, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*, float_t)>(
-        &::GlobalNamespace::GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameplayModifiersModelSO::*)(
+    int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*, float_t)>(&::GlobalNamespace::GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x267dcdc;
+  constexpr static std::size_t addrs = 0x26b2294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "GetModifiedScoreForGameplayModifiers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -781,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::GameplayModifierParamsSO> (::GlobalNamespace::GameplayModifiersModelSO::*)(
     ::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::GameplayModifiersModelSO::GetGameplayModifierParams)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x267dd6c;
+  constexpr static std::size_t addrs = 0x26b2324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -793,15 +787,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiersModelSO.GetSongSpeedFromValueGetter
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__GameplayModifiers__SongSpeed (::GlobalNamespace::GameplayModifiersModelSO::*)(
-    ::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>*)>(&::GlobalNamespace::GameplayModifiersModelSO::GetSongSpeedFromValueGetter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers_SongSpeed (::GlobalNamespace::GameplayModifiersModelSO::*)(
+    ::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&::GlobalNamespace::GameplayModifiersModelSO::GetSongSpeedFromValueGetter)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x267d748;
+  constexpr static std::size_t addrs = 0x26b1d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "GetSongSpeedFromValueGetter", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>*>::get() })));
     return ___internal_method;
   }
 };
@@ -810,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersModelSO::*)()>(&::GlobalNamespace::GameplayModifiersModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267debc;
+  constexpr static std::size_t addrs = 0x26b2474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), ".ctor",
@@ -1010,28 +1004,27 @@ constexpr void GlobalNamespace::GameplayModifiersModelSO::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smallCubes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*&
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>*&
 GlobalNamespace::GameplayModifiersModelSO::__cordl_internal_get__gameplayModifierGetters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierGetters;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>* const&
 GlobalNamespace::GameplayModifiersModelSO::__cordl_internal_get__gameplayModifierGetters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierGetters;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__cordl_internal_set__gameplayModifierGetters(
-    ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>* value) {
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifierGetters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*
+inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>*
 GlobalNamespace::GameplayModifiersModelSO::get_gameplayModifierGetters() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(),
                                                                              "get_gameplayModifierGetters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<
-      ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*, false>(
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>*, false>(
       this, ___internal_method);
 }
 inline void GlobalNamespace::GameplayModifiersModelSO::OnEnable() {
@@ -1039,11 +1032,10 @@ inline void GlobalNamespace::GameplayModifiersModelSO::OnEnable() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameplayModifiers*
-GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter) {
+inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "CreateGameplayModifiers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifiers*, false>(this, ___internal_method, valueGetter);
 }
 inline bool GlobalNamespace::GameplayModifiersModelSO::GetModifierBoolValue(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -1061,41 +1053,41 @@ GlobalNamespace::GameplayModifiersModelSO::CreateModifierParamsList(::GlobalName
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*, false>(this, ___internal_method, gameplayModifiers);
 }
-inline float_t GlobalNamespace::GameplayModifiersModelSO::GetTotalMultiplier(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
-                                                                             float_t energy) {
+inline float_t GlobalNamespace::GameplayModifiersModelSO::GetTotalMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float_t energy) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "GetTotalMultiplier", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, modifierParams, energy);
 }
-inline int32_t GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore(
-    int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams, float_t energy) {
+inline int32_t GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore,
+                                                                                                ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams,
+                                                                                                float_t energy) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "MaxModifiedScoreForMaxMultipliedScore", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, maxMultipliedScore, modifierParams, energy);
 }
-inline int32_t
-GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore,
-                                                                                 ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
-                                                                                 ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy) {
+inline int32_t GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore,
+                                                                                                ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams,
+                                                                                                ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "MaxModifiedScoreForMaxMultipliedScore", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiersModelSO*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, maxMultipliedScore, modifierParams, gameplayModifiersModel, energy);
 }
-inline int32_t GlobalNamespace::GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers(
-    int32_t multipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams, float_t energy) {
+inline int32_t GlobalNamespace::GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers(int32_t multipliedScore,
+                                                                                               ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams,
+                                                                                               float_t energy) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "GetModifiedScoreForGameplayModifiers", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, multipliedScore, modifierParams, energy);
 }
@@ -1105,20 +1097,20 @@ inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> GlobalNamespace::Ga
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, false>(this, ___internal_method, modifier);
 }
-inline ::GlobalNamespace::__GameplayModifiers__SongSpeed
-GlobalNamespace::GameplayModifiersModelSO::GetSongSpeedFromValueGetter(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter) {
+inline ::GlobalNamespace::GameplayModifiers_SongSpeed
+GlobalNamespace::GameplayModifiersModelSO::GetSongSpeedFromValueGetter(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), "GetSongSpeedFromValueGetter", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__GameplayModifiers__SongSpeed, false>(this, ___internal_method, valueGetter);
-}
-inline ::GlobalNamespace::GameplayModifiersModelSO* GlobalNamespace::GameplayModifiersModelSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiersModelSO*>());
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifiers_SongSpeed, false>(this, ___internal_method, valueGetter);
 }
 inline void GlobalNamespace::GameplayModifiersModelSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersModelSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GameplayModifiersModelSO* GlobalNamespace::GameplayModifiersModelSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiersModelSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifiersModelSO() {}

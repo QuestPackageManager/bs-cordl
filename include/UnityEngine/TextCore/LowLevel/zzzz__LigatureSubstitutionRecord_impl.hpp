@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::get_componentGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48bc7e0;
+  constexpr static std::size_t addrs = 0x4920e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::get_ligatureGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48bc7e8;
+  constexpr static std::size_t addrs = 0x4920e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,8 +43,8 @@ inline uint32_t UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::get
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_ComponentGlyphIDs", ty: "::ArrayW<uint32_t,::Array<uint32_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_LigatureGlyphID", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ComponentGlyphIDs", ty: "::ArrayW<uint32_t,::Array<uint32_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LigatureGlyphID", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::LigatureSubstitutionRecord(::ArrayW<uint32_t, ::Array<uint32_t>*> m_ComponentGlyphIDs, uint32_t m_LigatureGlyphID) noexcept {
   this->m_ComponentGlyphIDs = m_ComponentGlyphIDs;
   this->m_LigatureGlyphID = m_LigatureGlyphID;

@@ -18,21 +18,20 @@ class BPMChangeBeatmapEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BPMChangeBeatmapEventData);
-// Type: ::BPMChangeBeatmapEventData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapEventData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BPMChangeBeatmapEventData*
+// CS Name: BPMChangeBeatmapEventData
 class CORDL_TYPE BPMChangeBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
   /// @brief Field bpm, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_bpm, put = __cordl_internal_set_bpm)) float_t bpm;
 
-  /// @brief Method GetCopy, addr 0x2215d2c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x2240da0, size 0x84, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x2215db0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x2240e24, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::BPMChangeBeatmapEventData* New_ctor(float_t time, float_t bpm);
@@ -43,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_bpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x2215ce8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2240d5c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t bpm);
 
 protected:
@@ -60,18 +59,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BPMChangeBeatmapEventData(BPMChangeBeatmapEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17044 };
+
   /// @brief Field bpm, offset: 0x30, size: 0x4, def value: None
   float_t ___bpm;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17005 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BPMChangeBeatmapEventData, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BPMChangeBeatmapEventData, ___bpm) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BPMChangeBeatmapEventData, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BPMChangeBeatmapEventData);

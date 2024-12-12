@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryManager_1)
 namespace System::Buffers {
@@ -22,24 +21,23 @@ template <typename T> class MemoryManager_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Buffers::MemoryManager_1);
-// Type: System.Buffers::MemoryManager`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Buffers::MemoryManager`1<T>*
+// CS Name: System.Buffers.MemoryManager`1<T>
 class CORDL_TYPE MemoryManager_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSpan, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetSpan, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Span_1<T> GetSpan();
 
-  /// @brief Method Pin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Pin, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Buffers::MemoryHandle Pin(int32_t elementIndex);
 
   /// @brief Method TryGetArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryGetArray(ByRef<::System::ArraySegment_1<T>> segment);
+  inline bool TryGetArray(::ByRef<::System::ArraySegment_1<T>> segment);
 
 protected:
   // Ctor Parameters []

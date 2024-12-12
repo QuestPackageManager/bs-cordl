@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_CurveInfo)
-namespace HoudiniEngineUnity {
-struct HAPI_CurveType;
-}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_CurveInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveInfo);
-// Type: HoudiniEngineUnity::HAPI_CurveInfo
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 41, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_CurveType
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_CurveInfo
+// CS Name: HoudiniEngineUnity.HAPI_CurveInfo
 struct CORDL_TYPE HAPI_CurveInfo {
 public:
   // Declarations
@@ -34,6 +30,12 @@ public:
   // def_value: None }, CppParam { name: "hasKnots", ty: "bool", modifiers: "", def_value: None }]
   constexpr HAPI_CurveInfo(::HoudiniEngineUnity::HAPI_CurveType curveType, int32_t curveCount, int32_t vertexCount, int32_t knotCount, bool isPeriodic, bool isRational, int32_t order,
                            bool hasKnots) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11731 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
 
   /// @brief Field curveType, offset: 0x0, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_CurveType curveType;
@@ -59,17 +61,9 @@ public:
   /// @brief Field hasKnots, offset: 0x18, size: 0x1, def value: None
   bool hasKnots;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11698 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CurveInfo, 0x1c>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, curveType) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, curveCount) == 0x4, "Offset mismatch!");
@@ -85,6 +79,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, isRational) == 0x11
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, order) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, hasKnots) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CurveInfo, 0x1c>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CurveInfo, "HoudiniEngineUnity", "HAPI_CurveInfo");

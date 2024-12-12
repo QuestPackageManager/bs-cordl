@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GZipStream)
 namespace System::IO::Compression {
@@ -64,11 +63,10 @@ class GZipStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::Compression::GZipStream);
-// Type: System.IO.Compression::GZipStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.Stream
 namespace System::IO::Compression {
 // Is value type: false
-// CS Name: ::System.IO.Compression::GZipStream*
+// CS Name: System.IO.Compression.GZipStream
 class CORDL_TYPE GZipStream : public ::System::IO::Stream {
 public:
   // Declarations
@@ -85,34 +83,34 @@ public:
   /// @brief Field _deflateStream, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__deflateStream, put = __cordl_internal_set__deflateStream)) ::System::IO::Compression::DeflateStream* _deflateStream;
 
-  /// @brief Method BeginRead, addr 0x4424b58, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x4485e6c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::AsyncCallback* asyncCallback, ::System::Object* asyncState);
 
-  /// @brief Method BeginWrite, addr 0x4424e7c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x4486190, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::AsyncCallback* asyncCallback, ::System::Object* asyncState);
 
-  /// @brief Method CheckDeflateStream, addr 0x4424a84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CheckDeflateStream, addr 0x4485d98, size 0x18, virtual false, abstract: false, final false
   inline void CheckDeflateStream();
 
-  /// @brief Method CopyTo, addr 0x44250d0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x44863e4, size 0x24, virtual true, abstract: false, final false
   inline void CopyTo(::System::IO::Stream* destination, int32_t bufferSize);
 
-  /// @brief Method CopyToAsync, addr 0x44253d8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CopyToAsync, addr 0x44866ec, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x44250f4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4486408, size 0xb8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x4424c0c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x4485f20, size 0x48, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x4424f30, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x4486244, size 0xc, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush, addr 0x4424a60, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x4485d74, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x44253b4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x44866c8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::IO::Compression::GZipStream* New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel);
@@ -123,76 +121,76 @@ public:
 
   static inline ::System::IO::Compression::GZipStream* New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen);
 
-  /// @brief Method Read, addr 0x4424c54, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x4485f68, size 0x24, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count);
 
-  /// @brief Method Read, addr 0x4424c78, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x4485f8c, size 0xec, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method ReadAsync, addr 0x44251ac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x44864c0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x44251d0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x44864e4, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte, addr 0x4424b34, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x4485e48, size 0x24, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x4424a9c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x4485db0, size 0x4c, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x4424ae8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x4485dfc, size 0x4c, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method ThrowStreamClosedException, addr 0x44253fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowStreamClosedException, addr 0x4486710, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowStreamClosedException();
 
-  /// @brief Method Write, addr 0x4424f3c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x4486250, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count);
 
-  /// @brief Method Write, addr 0x4424f60, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x4486274, size 0xec, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteAsync, addr 0x44252b0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x44865c4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync, addr 0x44252d4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x44865e8, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
+
+  constexpr ::System::IO::Compression::DeflateStream* const& __cordl_internal_get__deflateStream() const;
 
   constexpr ::System::IO::Compression::DeflateStream*& __cordl_internal_get__deflateStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::DeflateStream*> const& __cordl_internal_get__deflateStream() const;
-
   constexpr void __cordl_internal_set__deflateStream(::System::IO::Compression::DeflateStream* value);
 
-  /// @brief Method .ctor, addr 0x4424878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485b8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel);
 
-  /// @brief Method .ctor, addr 0x4424880, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485b94, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel, bool leaveOpen);
 
-  /// @brief Method .ctor, addr 0x44247b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485ac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode);
 
-  /// @brief Method .ctor, addr 0x44247bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485ad0, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen);
 
-  /// @brief Method get_CanRead, addr 0x4424934, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x4485c48, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x4424964, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x4485c78, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x442494c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x4485c60, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x442497c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4485c90, size 0x4c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x44249c8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x4485cdc, size 0x4c, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x4424a14, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x4485d28, size 0x4c, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -209,18 +207,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GZipStream(GZipStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9527 };
+
   /// @brief Field _deflateStream, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Compression::DeflateStream* ____deflateStream;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::IO::Compression::GZipStream, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::IO::Compression::GZipStream, ____deflateStream) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::IO::Compression::GZipStream, 0x30>, "Size mismatch!");
 
 } // namespace System::IO::Compression
 NEED_NO_BOX(::System::IO::Compression::GZipStream);

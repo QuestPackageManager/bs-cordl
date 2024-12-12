@@ -12,17 +12,16 @@ class BulkCipherAlgorithm;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::BulkCipherAlgorithm);
-// Type: Org.BouncyCastle.Crypto.Tls::BulkCipherAlgorithm
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::BulkCipherAlgorithm*
+// CS Name: Org.BouncyCastle.Crypto.Tls.BulkCipherAlgorithm
 class CORDL_TYPE BulkCipherAlgorithm : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::BulkCipherAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ae2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e1598, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

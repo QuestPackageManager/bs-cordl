@@ -12,18 +12,17 @@ class EnvironmentVariableHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::DotnetExtension::EnvironmentVariableHelper);
-// Type: BGLib.DotnetExtension::EnvironmentVariableHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::DotnetExtension {
 // Is value type: false
-// CS Name: ::BGLib.DotnetExtension::EnvironmentVariableHelper*
+// CS Name: BGLib.DotnetExtension.EnvironmentVariableHelper
 class CORDL_TYPE EnvironmentVariableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDirectoryPath, addr 0x226cc70, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetDirectoryPath, addr 0x229f4c4, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetDirectoryPath(::StringW variableName);
 
-  /// @brief Method SetDirectoryPath, addr 0x226cd18, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SetDirectoryPath, addr 0x229f56c, size 0x120, virtual false, abstract: false, final false
   static inline void SetDirectoryPath(::StringW variableName, ::StringW path);
 
 protected:
@@ -41,7 +40,7 @@ public:
   EnvironmentVariableHelper(EnvironmentVariableHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16944 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

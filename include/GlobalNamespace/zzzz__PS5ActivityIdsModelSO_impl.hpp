@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> (
     ::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(&::GlobalNamespace::PS5ActivityIdsModelSO::get_progressActivities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b26dc;
+  constexpr static std::size_t addrs = 0x26e71a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(),
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> (::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(
         &::GlobalNamespace::PS5ActivityIdsModelSO::get_competetiveActivities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b26e4;
+  constexpr static std::size_t addrs = 0x26e71b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(&::GlobalNamespace::PS5ActivityIdsModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b26ec;
+  constexpr static std::size_t addrs = 0x26e71b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(), ".ctor",
@@ -87,13 +87,13 @@ inline ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::Un
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*>, false>(this,
                                                                                                                                                                                 ___internal_method);
 }
-inline ::GlobalNamespace::PS5ActivityIdsModelSO* GlobalNamespace::PS5ActivityIdsModelSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PS5ActivityIdsModelSO*>());
-}
 inline void GlobalNamespace::PS5ActivityIdsModelSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PS5ActivityIdsModelSO* GlobalNamespace::PS5ActivityIdsModelSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PS5ActivityIdsModelSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS5ActivityIdsModelSO::PS5ActivityIdsModelSO() {}

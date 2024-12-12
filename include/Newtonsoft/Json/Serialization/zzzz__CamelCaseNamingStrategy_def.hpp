@@ -12,11 +12,10 @@ class CamelCaseNamingStrategy;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy);
-// Type: Newtonsoft.Json.Serialization::CamelCaseNamingStrategy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Serialization.NamingStrategy
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::CamelCaseNamingStrategy*
+// CS Name: Newtonsoft.Json.Serialization.CamelCaseNamingStrategy
 class CORDL_TYPE CamelCaseNamingStrategy : public ::Newtonsoft::Json::Serialization::NamingStrategy {
 public:
   // Declarations
@@ -26,16 +25,16 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-  /// @brief Method ResolvePropertyName, addr 0x3e77694, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x3ed7740, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3e7768c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed7738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e77608, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed76b4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x3e77640, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed76ec, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:
@@ -53,7 +52,7 @@ public:
   CamelCaseNamingStrategy(CamelCaseNamingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

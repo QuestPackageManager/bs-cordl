@@ -15,11 +15,10 @@ class ReaderPositionInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::ReaderPositionInfo);
-// Type: System.Xml::ReaderPositionInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.PositionInfo
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::ReaderPositionInfo*
+// CS Name: System.Xml.ReaderPositionInfo
 class CORDL_TYPE ReaderPositionInfo : public ::System::Xml::PositionInfo {
 public:
   // Declarations
@@ -30,24 +29,24 @@ public:
   /// @brief Field lineInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_lineInfo, put = __cordl_internal_set_lineInfo)) ::System::Xml::IXmlLineInfo* lineInfo;
 
-  /// @brief Method HasLineInfo, addr 0x42e8188, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x434949c, size 0xa0, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::ReaderPositionInfo* New_ctor(::System::Xml::IXmlLineInfo* lineInfo);
 
-  constexpr ::System::Xml::IXmlLineInfo*& __cordl_internal_get_lineInfo();
+  constexpr ::System::Xml::IXmlLineInfo* const& __cordl_internal_get_lineInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlLineInfo*> const& __cordl_internal_get_lineInfo() const;
+  constexpr ::System::Xml::IXmlLineInfo*& __cordl_internal_get_lineInfo();
 
   constexpr void __cordl_internal_set_lineInfo(::System::Xml::IXmlLineInfo* value);
 
-  /// @brief Method .ctor, addr 0x42e8158, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x434946c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::IXmlLineInfo* lineInfo);
 
-  /// @brief Method get_LineNumber, addr 0x42e8228, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x434953c, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x42e82cc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x43495e0, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
 protected:
@@ -64,18 +63,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReaderPositionInfo(ReaderPositionInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7322 };
+
   /// @brief Field lineInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::IXmlLineInfo* ___lineInfo;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::ReaderPositionInfo, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::ReaderPositionInfo, ___lineInfo) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::ReaderPositionInfo, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::ReaderPositionInfo);

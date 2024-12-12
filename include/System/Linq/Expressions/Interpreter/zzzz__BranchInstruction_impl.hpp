@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> (
         ::System::Linq::Expressions::Interpreter::BranchInstruction::*)()>(&::System::Linq::Expressions::Interpreter::BranchInstruction::get_Cache)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x406122c;
+  constexpr static std::size_t addrs = 0x40c2540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchInstruction::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4061454;
+  constexpr static std::size_t addrs = 0x40c2768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchInstruction::*)(bool, bool)>(
     &::System::Linq::Expressions::Interpreter::BranchInstruction::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4061478;
+  constexpr static std::size_t addrs = 0x40c278c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::BranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40614b0;
+  constexpr static std::size_t addrs = 0x40c27c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::BranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40614f0;
+  constexpr static std::size_t addrs = 0x40c2804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::BranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40614f8;
+  constexpr static std::size_t addrs = 0x40c280c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::BranchInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::BranchInstruction::Run)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4061500;
+  constexpr static std::size_t addrs = 0x40c2814;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,17 +176,11 @@ System::Linq::Expressions::Interpreter::BranchInstruction::get_Cache() {
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>, false>(
       this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::BranchInstruction* System::Linq::Expressions::Interpreter::BranchInstruction::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::BranchInstruction*>());
-}
 inline void System::Linq::Expressions::Interpreter::BranchInstruction::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchInstruction*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Linq::Expressions::Interpreter::BranchInstruction* System::Linq::Expressions::Interpreter::BranchInstruction::New_ctor(bool hasResult, bool hasValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::BranchInstruction*>(hasResult, hasValue));
 }
 inline void System::Linq::Expressions::Interpreter::BranchInstruction::_ctor(bool hasResult, bool hasValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,6 +211,12 @@ inline int32_t System::Linq::Expressions::Interpreter::BranchInstruction::Run(::
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::BranchInstruction* System::Linq::Expressions::Interpreter::BranchInstruction::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::BranchInstruction*>());
+}
+inline ::System::Linq::Expressions::Interpreter::BranchInstruction* System::Linq::Expressions::Interpreter::BranchInstruction::New_ctor(bool hasResult, bool hasValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::BranchInstruction*>(hasResult, hasValue));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::BranchInstruction::BranchInstruction() {}

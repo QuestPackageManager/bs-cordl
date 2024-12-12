@@ -6,77 +6,77 @@
 #include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__CoreGameHUDController__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::CoreGameHUDController_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CoreGameHUDController__InitData::*)(bool, bool, bool)>(
-    &::GlobalNamespace::__CoreGameHUDController__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController_InitData::*)(bool, bool, bool)>(
+    &::GlobalNamespace::CoreGameHUDController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b41380;
+  constexpr static std::size_t addrs = 0x3ba2a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CoreGameHUDController__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_hide() {
+constexpr bool& GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_get_hide() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hide;
 }
-constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_hide() const {
+constexpr bool const& GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_get_hide() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hide;
 }
-constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_set_hide(bool value) {
+constexpr void GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_set_hide(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hide = value;
 }
-constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_showEnergyPanel() {
+constexpr bool& GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_get_showEnergyPanel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showEnergyPanel;
 }
-constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_showEnergyPanel() const {
+constexpr bool const& GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_get_showEnergyPanel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showEnergyPanel;
 }
-constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_set_showEnergyPanel(bool value) {
+constexpr void GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_set_showEnergyPanel(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showEnergyPanel = value;
 }
-constexpr bool& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_advancedHUD() {
+constexpr bool& GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_get_advancedHUD() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___advancedHUD;
 }
-constexpr bool const& GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_get_advancedHUD() const {
+constexpr bool const& GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_get_advancedHUD() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___advancedHUD;
 }
-constexpr void GlobalNamespace::__CoreGameHUDController__InitData::__cordl_internal_set_advancedHUD(bool value) {
+constexpr void GlobalNamespace::CoreGameHUDController_InitData::__cordl_internal_set_advancedHUD(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___advancedHUD = value;
 }
-inline ::GlobalNamespace::__CoreGameHUDController__InitData* GlobalNamespace::__CoreGameHUDController__InitData::New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__CoreGameHUDController__InitData*>(hide, showEnergyPanel, advancedHUD));
-}
-inline void GlobalNamespace::__CoreGameHUDController__InitData::_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
+inline void GlobalNamespace::CoreGameHUDController_InitData::_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__CoreGameHUDController__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hide, showEnergyPanel, advancedHUD);
 }
+inline ::GlobalNamespace::CoreGameHUDController_InitData* GlobalNamespace::CoreGameHUDController_InitData::New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CoreGameHUDController_InitData*>(hide, showEnergyPanel, advancedHUD));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__CoreGameHUDController__InitData::__CoreGameHUDController__InitData() {}
+constexpr ::GlobalNamespace::CoreGameHUDController_InitData::CoreGameHUDController_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::CoreGameHUDController.get_songProgressPanelGO
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_songProgressPanelGO)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b412ac;
+  constexpr static std::size_t addrs = 0x3ba299c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_relativeScoreGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b412b4;
+  constexpr static std::size_t addrs = 0x3ba29a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_immediateRankGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b412bc;
+  constexpr static std::size_t addrs = 0x3ba29ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_energyPanelGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b412c4;
+  constexpr static std::size_t addrs = 0x3ba29b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(),
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)(float_t)>(&::GlobalNamespace::CoreGameHUDController::set_alpha)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b412cc;
+  constexpr static std::size_t addrs = 0x3ba29bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,15 +143,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::CoreGameHUDController.Initialize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)(::GlobalNamespace::__CoreGameHUDController__InitData*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)(::GlobalNamespace::CoreGameHUDController_InitData*)>(
     &::GlobalNamespace::CoreGameHUDController::Initialize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b412e8;
+  constexpr static std::size_t addrs = 0x3ba29d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__CoreGameHUDController__InitData*>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CoreGameHUDController_InitData*>::get() })));
     return ___internal_method;
   }
 };
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)()>(&::GlobalNamespace::CoreGameHUDController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41378;
+  constexpr static std::size_t addrs = 0x3ba2a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), ".ctor",
@@ -254,19 +254,19 @@ inline void GlobalNamespace::CoreGameHUDController::set_alpha(float_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::CoreGameHUDController::Initialize(::GlobalNamespace::__CoreGameHUDController__InitData* initData) {
+inline void GlobalNamespace::CoreGameHUDController::Initialize(::GlobalNamespace::CoreGameHUDController_InitData* initData) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__CoreGameHUDController__InitData*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CoreGameHUDController_InitData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initData);
-}
-inline ::GlobalNamespace::CoreGameHUDController* GlobalNamespace::CoreGameHUDController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CoreGameHUDController*>());
 }
 inline void GlobalNamespace::CoreGameHUDController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreGameHUDController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::CoreGameHUDController* GlobalNamespace::CoreGameHUDController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CoreGameHUDController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CoreGameHUDController::CoreGameHUDController() {}

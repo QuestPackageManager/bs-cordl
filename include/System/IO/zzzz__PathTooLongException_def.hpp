@@ -18,11 +18,10 @@ class PathTooLongException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::PathTooLongException);
-// Type: System.IO::PathTooLongException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::PathTooLongException*
+// CS Name: System.IO.PathTooLongException
 class CORDL_TYPE PathTooLongException : public ::System::IO::IOException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::IO::PathTooLongException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cd9bcc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d39d40, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cd9c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d39dc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cd9c28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d39d9c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

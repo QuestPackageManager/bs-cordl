@@ -12,11 +12,10 @@ struct TextOverflowModes;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TextOverflowModes);
-// Type: TMPro::TextOverflowModes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TextOverflowModes
+// CS Name: TMPro.TextOverflowModes
 struct CORDL_TYPE TextOverflowModes {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextOverflowModes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Ellipsis value: static_cast<int32_t>(0x1)
+  /// @brief Field Ellipsis value: I32(1)
   static ::TMPro::TextOverflowModes const Ellipsis;
 
-  /// @brief Field Linked value: static_cast<int32_t>(0x6)
+  /// @brief Field Linked value: I32(6)
   static ::TMPro::TextOverflowModes const Linked;
 
-  /// @brief Field Masking value: static_cast<int32_t>(0x2)
+  /// @brief Field Masking value: I32(2)
   static ::TMPro::TextOverflowModes const Masking;
 
-  /// @brief Field Overflow value: static_cast<int32_t>(0x0)
+  /// @brief Field Overflow value: I32(0)
   static ::TMPro::TextOverflowModes const Overflow;
 
-  /// @brief Field Page value: static_cast<int32_t>(0x5)
+  /// @brief Field Page value: I32(5)
   static ::TMPro::TextOverflowModes const Page;
 
-  /// @brief Field ScrollRect value: static_cast<int32_t>(0x4)
+  /// @brief Field ScrollRect value: I32(4)
   static ::TMPro::TextOverflowModes const ScrollRect;
 
-  /// @brief Field Truncate value: static_cast<int32_t>(0x3)
+  /// @brief Field Truncate value: I32(3)
   static ::TMPro::TextOverflowModes const Truncate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14552 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TextOverflowModes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TextOverflowModes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TextOverflowModes, 0x4>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextOverflowModes, "TMPro", "TextOverflowModes");

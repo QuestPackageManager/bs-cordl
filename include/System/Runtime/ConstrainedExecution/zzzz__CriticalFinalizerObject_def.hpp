@@ -11,20 +11,19 @@ class CriticalFinalizerObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::CriticalFinalizerObject);
-// Type: System.Runtime.ConstrainedExecution::CriticalFinalizerObject
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// CS Name: ::System.Runtime.ConstrainedExecution::CriticalFinalizerObject*
+// CS Name: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 class CORDL_TYPE CriticalFinalizerObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x3cb6814, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3d16988, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb680c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d16980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -13,162 +13,154 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__BoundsInt_def.hpp"
 #include "UnityEngine/zzzz__Vector3Int_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__BoundsIntField__UxmlFactory._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::BoundsIntField_UxmlFactory._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BoundsIntField__UxmlFactory::*)()>(
-    &::UnityEngine::UIElements::__BoundsIntField__UxmlFactory::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField_UxmlFactory::*)()>(
+    &::UnityEngine::UIElements::BoundsIntField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49261fc;
+  constexpr static std::size_t addrs = 0x498a9ac;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlFactory*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField_UxmlFactory*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__BoundsIntField__UxmlFactory* UnityEngine::UIElements::__BoundsIntField__UxmlFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__BoundsIntField__UxmlFactory*>());
-}
-inline void UnityEngine::UIElements::__BoundsIntField__UxmlFactory::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlFactory*>::get(),
+inline void UnityEngine::UIElements::BoundsIntField_UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField_UxmlFactory*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::BoundsIntField_UxmlFactory* UnityEngine::UIElements::BoundsIntField_UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BoundsIntField_UxmlFactory*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__BoundsIntField__UxmlFactory::__BoundsIntField__UxmlFactory() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__BoundsIntField__UxmlTraits.Init
+constexpr ::UnityEngine::UIElements::BoundsIntField_UxmlFactory::BoundsIntField_UxmlFactory() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::BoundsIntField_UxmlTraits.Init
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::*)(
-    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
-    &::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField_UxmlTraits::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::BoundsIntField_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x4926244;
+  constexpr static std::size_t addrs = 0x498a9f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlTraits*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlTraits*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField_UxmlTraits*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField_UxmlTraits*>::get(), 4));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__BoundsIntField__UxmlTraits._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::BoundsIntField_UxmlTraits._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::*)()>(
-    &::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField_UxmlTraits::*)()>(
+    &::UnityEngine::UIElements::BoundsIntField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x492649c;
+  constexpr static std::size_t addrs = 0x498ac4c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlTraits*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField_UxmlTraits*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_PositionXValue() {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_PositionXValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionXValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
-UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_PositionXValue() const {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_PositionXValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionXValue;
 }
-constexpr void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_set_m_PositionXValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_set_m_PositionXValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PositionXValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_PositionYValue() {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_PositionYValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionYValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
-UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_PositionYValue() const {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_PositionYValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionYValue;
 }
-constexpr void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_set_m_PositionYValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_set_m_PositionYValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PositionYValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_PositionZValue() {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_PositionZValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionZValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
-UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_PositionZValue() const {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_PositionZValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionZValue;
 }
-constexpr void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_set_m_PositionZValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_set_m_PositionZValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PositionZValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_SizeXValue() {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_SizeXValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeXValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
-UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_SizeXValue() const {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_SizeXValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeXValue;
 }
-constexpr void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_set_m_SizeXValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_set_m_SizeXValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SizeXValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_SizeYValue() {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_SizeYValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeYValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
-UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_SizeYValue() const {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_SizeYValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeYValue;
 }
-constexpr void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_set_m_SizeYValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_set_m_SizeYValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SizeYValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_SizeZValue() {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_SizeZValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeZValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
-UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_get_m_SizeZValue() const {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_get_m_SizeZValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeZValue;
 }
-constexpr void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__cordl_internal_set_m_SizeZValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::BoundsIntField_UxmlTraits::__cordl_internal_set_m_SizeZValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SizeZValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
-                                                                        ::UnityEngine::UIElements::CreationContext cc) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlTraits*>::get(), 4)));
+inline void UnityEngine::UIElements::BoundsIntField_UxmlTraits::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
+                                                                     ::UnityEngine::UIElements::CreationContext cc) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField_UxmlTraits*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, bag, cc);
 }
-inline ::UnityEngine::UIElements::__BoundsIntField__UxmlTraits* UnityEngine::UIElements::__BoundsIntField__UxmlTraits::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__BoundsIntField__UxmlTraits*>());
-}
-inline void UnityEngine::UIElements::__BoundsIntField__UxmlTraits::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlTraits*>::get(),
+inline void UnityEngine::UIElements::BoundsIntField_UxmlTraits::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField_UxmlTraits*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::BoundsIntField_UxmlTraits* UnityEngine::UIElements::BoundsIntField_UxmlTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BoundsIntField_UxmlTraits*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::__BoundsIntField__UxmlTraits() {}
+constexpr ::UnityEngine::UIElements::BoundsIntField_UxmlTraits::BoundsIntField_UxmlTraits() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::BoundsIntField._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)()>(&::UnityEngine::UIElements::BoundsIntField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492595c;
+  constexpr static std::size_t addrs = 0x498a10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField*>::get(), ".ctor",
@@ -181,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(::StringW)>(&::UnityEngine::UIElements::BoundsIntField::_ctor)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x4925964;
+  constexpr static std::size_t addrs = 0x498a114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(::UnityEngine::BoundsInt)>(
     &::UnityEngine::UIElements::BoundsIntField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4925dfc;
+  constexpr static std::size_t addrs = 0x498a5ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)()>(
     &::UnityEngine::UIElements::BoundsIntField::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4925ef8;
+  constexpr static std::size_t addrs = 0x498a6a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(
     ::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>*)>(&::UnityEngine::UIElements::BoundsIntField::__ctor_b__10_0)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x49260a4;
+  constexpr static std::size_t addrs = 0x498a854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(
     ::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>*)>(&::UnityEngine::UIElements::BoundsIntField::__ctor_b__10_1)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4926150;
+  constexpr static std::size_t addrs = 0x498a900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +246,7 @@ constexpr ::UnityEngine::UIElements::Vector3IntField*& UnityEngine::UIElements::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Vector3IntField*> const& UnityEngine::UIElements::BoundsIntField::__cordl_internal_get_m_PositionField() const {
+constexpr ::UnityEngine::UIElements::Vector3IntField* const& UnityEngine::UIElements::BoundsIntField::__cordl_internal_get_m_PositionField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PositionField;
 }
@@ -266,7 +258,7 @@ constexpr ::UnityEngine::UIElements::Vector3IntField*& UnityEngine::UIElements::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Vector3IntField*> const& UnityEngine::UIElements::BoundsIntField::__cordl_internal_get_m_SizeField() const {
+constexpr ::UnityEngine::UIElements::Vector3IntField* const& UnityEngine::UIElements::BoundsIntField::__cordl_internal_get_m_SizeField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SizeField;
 }
@@ -308,16 +300,10 @@ inline void UnityEngine::UIElements::BoundsIntField::setStaticF_sizeUssClassName
 inline ::StringW UnityEngine::UIElements::BoundsIntField::getStaticF_sizeUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "sizeUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField*>::get>();
 }
-inline ::UnityEngine::UIElements::BoundsIntField* UnityEngine::UIElements::BoundsIntField::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BoundsIntField*>());
-}
 inline void UnityEngine::UIElements::BoundsIntField::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::BoundsIntField* UnityEngine::UIElements::BoundsIntField::New_ctor(::StringW label) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BoundsIntField*>(label));
 }
 inline void UnityEngine::UIElements::BoundsIntField::_ctor(::StringW label) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -346,6 +332,12 @@ inline void UnityEngine::UIElements::BoundsIntField::__ctor_b__10_1(::UnityEngin
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField*>::get(), "<.ctor>b__10_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
+}
+inline ::UnityEngine::UIElements::BoundsIntField* UnityEngine::UIElements::BoundsIntField::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BoundsIntField*>());
+}
+inline ::UnityEngine::UIElements::BoundsIntField* UnityEngine::UIElements::BoundsIntField::New_ctor(::StringW label) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BoundsIntField*>(label));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BoundsIntField::BoundsIntField() {}

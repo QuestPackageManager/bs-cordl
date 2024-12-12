@@ -15,11 +15,10 @@ class MultiColumnHeaderColumnResizeHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle);
-// Type: UnityEngine.UIElements.Internal::MultiColumnHeaderColumnResizeHandle
-// SizeInfo { instance_size: 976, native_size: -1, calculated_instance_size: 976, calculated_native_size: 976, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements::Internal {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.Internal::MultiColumnHeaderColumnResizeHandle*
+// CS Name: UnityEngine.UIElements.Internal.MultiColumnHeaderColumnResizeHandle
 class CORDL_TYPE MultiColumnHeaderColumnResizeHandle : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
@@ -29,27 +28,27 @@ public:
   __declspec(property(get = get_dragArea)) ::UnityEngine::UIElements::VisualElement* dragArea;
 
   /// @brief Field dragAreaUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dragAreaUssClassName, put = setStaticF_dragAreaUssClassName)) ::StringW dragAreaUssClassName;
+  __declspec(property(get = getStaticF_dragAreaUssClassName, put = setStaticF_dragAreaUssClassName)) ::StringW dragAreaUssClassName;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* New_ctor();
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragArea_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__dragArea_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__dragArea_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragArea_k__BackingField();
 
   constexpr void __cordl_internal_set__dragArea_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4981c44, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e6554, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_dragAreaUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_dragArea, addr 0x4986b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragArea, addr 0x49eb470, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragArea();
 
   static inline void setStaticF_dragAreaUssClassName(::StringW value);
@@ -70,18 +69,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiColumnHeaderColumnResizeHandle(MultiColumnHeaderColumnResizeHandle const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6509 };
+
   /// @brief Field <dragArea>k__BackingField, offset: 0x3c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragArea_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle, 0x3d0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle, ____dragArea_k__BackingField) == 0x3c8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle, 0x3d0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
 NEED_NO_BOX(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle);

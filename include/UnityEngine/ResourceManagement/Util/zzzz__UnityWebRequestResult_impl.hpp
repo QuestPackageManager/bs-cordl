@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)(
     ::UnityEngine::Networking::UnityWebRequest*)>(&::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x47363ac;
+  constexpr static std::size_t addrs = 0x47976c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::ToString)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x47364b4;
+  constexpr static std::size_t addrs = 0x47977c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_Error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4736634;
+  constexpr static std::size_t addrs = 0x4797948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::set_Error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x473663c;
+  constexpr static std::size_t addrs = 0x4797950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_ResponseCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4736644;
+  constexpr static std::size_t addrs = 0x4797958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,10 +83,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult.get_Result
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__Result (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_Result (
     ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)()>(&::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x473664c;
+  constexpr static std::size_t addrs = 0x4797960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_Method)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4736654;
+  constexpr static std::size_t addrs = 0x4797968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_Url)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x473665c;
+  constexpr static std::size_t addrs = 0x4797970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::ShouldRetryDownloadError)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4736664;
+  constexpr static std::size_t addrs = 0x4797978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,15 +164,15 @@ constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ResponseCode_k__BackingField = value;
 }
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__cordl_internal_get__Result_k__BackingField() {
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__cordl_internal_get__Result_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Result_k__BackingField;
 }
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result const& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__cordl_internal_get__Result_k__BackingField() const {
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result const& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__cordl_internal_get__Result_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Result_k__BackingField;
 }
-constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__cordl_internal_set__Result_k__BackingField(::UnityEngine::Networking::__UnityWebRequest__Result value) {
+constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__cordl_internal_set__Result_k__BackingField(::UnityEngine::Networking::UnityWebRequest_Result value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Result_k__BackingField = value;
 }
@@ -199,9 +199,6 @@ constexpr ::StringW const& UnityEngine::ResourceManagement::Util::UnityWebReques
 constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__cordl_internal_set__Url_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Url_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* UnityEngine::ResourceManagement::Util::UnityWebRequestResult::New_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>(request));
 }
 inline void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,11 +230,11 @@ inline int64_t UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__Result UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_Result() {
+inline ::UnityEngine::Networking::UnityWebRequest_Result UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_Result() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>::get(), "get_Result",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__Result, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_Result, false>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::ResourceManagement::Util::UnityWebRequestResult::get_Method() {
   static auto* ___internal_method =
@@ -256,6 +253,9 @@ inline bool UnityEngine::ResourceManagement::Util::UnityWebRequestResult::Should
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>::get(),
                                                "ShouldRetryDownloadError", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* UnityEngine::ResourceManagement::Util::UnityWebRequestResult::New_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>(request));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::UnityWebRequestResult() {}

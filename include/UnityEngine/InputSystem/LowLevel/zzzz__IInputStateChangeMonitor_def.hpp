@@ -18,30 +18,25 @@ class IInputStateChangeMonitor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor);
-// Type: UnityEngine.InputSystem.LowLevel::IInputStateChangeMonitor
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateChangeMonitor*
+// CS Name: UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor
 class CORDL_TYPE IInputStateChangeMonitor {
 public:
   // Declarations
-  /// @brief Method NotifyControlStateChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method NotifyControlStateChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex);
 
-  /// @brief Method NotifyTimerExpired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method NotifyTimerExpired, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void NotifyTimerExpired(::UnityEngine::InputSystem::InputControl* control, double_t time, int64_t monitorIndex, int32_t timerIndex);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IInputStateChangeMonitor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IInputStateChangeMonitor(IInputStateChangeMonitor&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputStateChangeMonitor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IInputStateChangeMonitor(IInputStateChangeMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

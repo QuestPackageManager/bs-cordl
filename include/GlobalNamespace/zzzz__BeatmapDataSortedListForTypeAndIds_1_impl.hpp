@@ -11,66 +11,65 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
-template <typename TBase>
-inline void GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::setStaticF___9(::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get>(
-      std::forward<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>(value));
+template <typename TBase> inline void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::setStaticF___9(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get>(
+      std::forward<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>(value));
 }
-template <typename TBase> inline ::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get>();
+template <typename TBase> inline ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>* GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get>();
 }
 template <typename TBase>
-inline void GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::setStaticF___9__1_0(
+inline void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::setStaticF___9__1_0(
     ::System::Func_2<::GlobalNamespace::ISortedList_1<TBase>*, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::ISortedList_1<TBase>*, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*, "<>9__1_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::ISortedList_1<TBase>*, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*>(value));
 }
 template <typename TBase>
 inline ::System::Func_2<::GlobalNamespace::ISortedList_1<TBase>*, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*
-GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::getStaticF___9__1_0() {
+GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::ISortedList_1<TBase>*, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*, "<>9__1_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get>();
 }
 template <typename TBase>
-inline void GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::setStaticF___9__1_1(::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>* value) {
+inline void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::setStaticF___9__1_1(::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>*, "<>9__1_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>*>(value));
 }
 template <typename TBase>
-inline ::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>* GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::getStaticF___9__1_1() {
+inline ::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>* GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::getStaticF___9__1_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>*, "<>9__1_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get>();
 }
-template <typename TBase> inline ::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>());
-}
-template <typename TBase> inline void GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::_ctor() {
+template <typename TBase> inline void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TBase>
 inline ::System::Collections::Generic::LinkedListNode_1<TBase>*
-GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::_get_sortedListHeads_b__1_0(::GlobalNamespace::ISortedList_1<TBase>* listItem) {
+GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::_get_sortedListHeads_b__1_0(::GlobalNamespace::ISortedList_1<TBase>* listItem) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get(), "<get_sortedListHeads>b__1_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get(), "<get_sortedListHeads>b__1_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISortedList_1<TBase>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<TBase>*, false>(this, ___internal_method, listItem);
 }
-template <typename TBase> inline bool GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::_get_sortedListHeads_b__1_1(::System::Collections::Generic::LinkedListNode_1<TBase>* head) {
+template <typename TBase> inline bool GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::_get_sortedListHeads_b__1_1(::System::Collections::Generic::LinkedListNode_1<TBase>* head) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>*>::get(), "<get_sortedListHeads>b__1_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>::get(), "<get_sortedListHeads>b__1_1",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::LinkedListNode_1<TBase>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, head);
 }
+template <typename TBase> inline ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>* GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>*>());
+}
 // Ctor Parameters []
-template <typename TBase> constexpr ::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::__BeatmapDataSortedListForTypeAndIds_1____c() {}
+template <typename TBase> constexpr ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c<TBase>::BeatmapDataSortedListForTypeAndIds_1___c() {}
 template <typename TBase>
 constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>*&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_get__items() {
@@ -78,7 +77,7 @@ GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_g
   return this->____items;
 }
 template <typename TBase>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* const&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_get__items() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
@@ -96,7 +95,7 @@ GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_g
   return this->____sortedListsDataProcessors;
 }
 template <typename TBase>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* const&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_get__sortedListsDataProcessors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedListsDataProcessors;
@@ -114,7 +113,7 @@ GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_g
   return this->____itemToNodeMap;
 }
 template <typename TBase>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* const&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_get__itemToNodeMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemToNodeMap;
@@ -178,14 +177,14 @@ template <typename TBase> inline void GlobalNamespace::BeatmapDataSortedListForT
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, typeIdentifier);
 }
-template <typename TBase> inline ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>* GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>*>());
-}
 template <typename TBase> inline void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TBase> inline ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>* GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>*>());
 }
 // Ctor Parameters []
 template <typename TBase> constexpr ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::BeatmapDataSortedListForTypeAndIds_1() {}

@@ -1,72 +1,71 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/Interpreter/DebugInfo.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DebugInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DebugInfo_def.hpp"
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer.System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer.System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::*)(
     ::System::Linq::Expressions::Interpreter::DebugInfo*, ::System::Linq::Expressions::Interpreter::DebugInfo*)>(
-    &::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare)> {
+    &::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x40757f8;
+  constexpr static std::size_t addrs = 0x40d6b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*>::get(),
                                     "System.Collections.Generic.IComparer<System.Linq.Expressions.Interpreter.DebugInfo>.Compare", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::DebugInfo*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::DebugInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer._ctor
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::*)()>(
-    &::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::*)()>(
+    &::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40757f0;
+  constexpr static std::size_t addrs = 0x40d6b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>"
-constexpr System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::operator ::System::Collections::Generic::IComparer_1<
-    ::System::Linq::Expressions::Interpreter::DebugInfo*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>"
-constexpr ::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*
-System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::i___System__Collections__Generic__IComparer_1___System__Linq__Expressions__Interpreter__DebugInfo__() noexcept {
-  return static_cast<::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*>(static_cast<void*>(this));
-}
-inline int32_t System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare(
+inline int32_t System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare(
     ::System::Linq::Expressions::Interpreter::DebugInfo* d1, ::System::Linq::Expressions::Interpreter::DebugInfo* d2) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*>::get(),
                                   "System.Collections.Generic.IComparer<System.Linq.Expressions.Interpreter.DebugInfo>.Compare", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::DebugInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::DebugInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, d1, d2);
 }
-inline ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*>());
-}
-inline void System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::_ctor() {
+inline void System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer* System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>"
+constexpr System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::operator ::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>"
+constexpr ::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*
+System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::i___System__Collections__Generic__IComparer_1___System__Linq__Expressions__Interpreter__DebugInfo__() noexcept {
+  return static_cast<::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::__DebugInfo__DebugInfoComparer() {}
+constexpr ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::DebugInfo_DebugInfoComparer() {}
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::DebugInfo.GetMatchingDebugInfo
 template <>
 
@@ -74,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::Interpreter::DebugInfo* (*)(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*>,
                                                                          int32_t)>(&::System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x40713b0;
+  constexpr static std::size_t addrs = 0x40d26c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo::ToString)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x407556c;
+  constexpr static std::size_t addrs = 0x40d6880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4075564;
+  constexpr static std::size_t addrs = 0x40d6878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo*>::get(),
@@ -175,13 +174,13 @@ constexpr void System::Linq::Expressions::Interpreter::DebugInfo::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsClear = value;
 }
-inline void System::Linq::Expressions::Interpreter::DebugInfo::setStaticF_s_debugComparer(::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* value) {
-  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*, "s_debugComparer",
+inline void System::Linq::Expressions::Interpreter::DebugInfo::setStaticF_s_debugComparer(::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer* value) {
+  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*, "s_debugComparer",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo*>::get>(
-      std::forward<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*>(value));
+      std::forward<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* System::Linq::Expressions::Interpreter::DebugInfo::getStaticF_s_debugComparer() {
-  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer*, "s_debugComparer",
+inline ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer* System::Linq::Expressions::Interpreter::DebugInfo::getStaticF_s_debugComparer() {
+  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer*, "s_debugComparer",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo*>::get>();
 }
 inline ::System::Linq::Expressions::Interpreter::DebugInfo* System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo(
@@ -198,13 +197,13 @@ inline ::StringW System::Linq::Expressions::Interpreter::DebugInfo::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::DebugInfo* System::Linq::Expressions::Interpreter::DebugInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::DebugInfo*>());
-}
 inline void System::Linq::Expressions::Interpreter::DebugInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::DebugInfo* System::Linq::Expressions::Interpreter::DebugInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::DebugInfo*>());
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::DebugInfo::DebugInfo() {}

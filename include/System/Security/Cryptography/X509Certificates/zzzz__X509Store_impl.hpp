@@ -2,6 +2,7 @@
 // IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Store.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__OpenFlags_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Store_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Store_def.hpp"
@@ -10,7 +11,6 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__StoreName_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Store._ctor
 template <>
 
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::X509Certificates::StoreName, ::System::Security::Cryptography::X509Certificates::StoreLocation)>(
     &::System::Security::Cryptography::X509Certificates::X509Store::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x43e22a0;
+  constexpr static std::size_t addrs = 0x44435b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (
     ::System::Security::Cryptography::X509Certificates::X509Store::*)()>(&::System::Security::Cryptography::X509Certificates::X509Store::get_Certificates)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43e23cc;
+  constexpr static std::size_t addrs = 0x44436e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Stores* (::System::Security::Cryptography::X509Certificates::X509Store::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Store::get_Factory)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43e244c;
+  constexpr static std::size_t addrs = 0x4443760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Store* (::System::Security::Cryptography::X509Certificates::X509Store::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Store::get_Store)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e2468;
+  constexpr static std::size_t addrs = 0x444377c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Store::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Store::Close)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43e2470;
+  constexpr static std::size_t addrs = 0x4443784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Store::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Store::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43e248c;
+  constexpr static std::size_t addrs = 0x44437a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Store::*)(
     ::System::Security::Cryptography::X509Certificates::OpenFlags)>(&::System::Security::Cryptography::X509Certificates::X509Store::Open)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x43e24a8;
+  constexpr static std::size_t addrs = 0x44437bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,14 +118,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Security::Cryptography::X509Certificates::X509Store::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Security::Cryptography::X509Certificates::X509Store::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::StringW& System::Security::Cryptography::X509Certificates::X509Store::__cordl_internal_get__name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
@@ -154,8 +146,7 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const&
-System::Security::Cryptography::X509Certificates::X509Store::__cordl_internal_get_list() const {
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* const& System::Security::Cryptography::X509Certificates::X509Store::__cordl_internal_get_list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
@@ -179,18 +170,13 @@ constexpr ::Mono::Security::X509::X509Store*& System::Security::Cryptography::X5
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Store*> const& System::Security::Cryptography::X509Certificates::X509Store::__cordl_internal_get_store() const {
+constexpr ::Mono::Security::X509::X509Store* const& System::Security::Cryptography::X509Certificates::X509Store::__cordl_internal_get_store() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Store::__cordl_internal_set_store(::Mono::Security::X509::X509Store* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___store)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Cryptography::X509Certificates::X509Store*
-System::Security::Cryptography::X509Certificates::X509Store::New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
-                                                                      ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Store*>(storeName, storeLocation));
 }
 inline void System::Security::Cryptography::X509Certificates::X509Store::_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
                                                                                ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
@@ -235,6 +221,19 @@ inline void System::Security::Cryptography::X509Certificates::X509Store::Open(::
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Store*>::get(), "Open", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::OpenFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, flags);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Store*
+System::Security::Cryptography::X509Certificates::X509Store::New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
+                                                                      ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Store*>(storeName, storeLocation));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Security::Cryptography::X509Certificates::X509Store::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Security::Cryptography::X509Certificates::X509Store::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Store::X509Store() {}

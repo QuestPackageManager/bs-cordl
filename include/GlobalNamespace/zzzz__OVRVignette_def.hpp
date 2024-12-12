@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__OVRVignette_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRVignette)
 namespace GlobalNamespace {
-struct __OVRVignette__FalloffType;
+struct OVRVignette_FalloffType;
 }
 namespace GlobalNamespace {
-struct __OVRVignette__MeshComplexityLevel;
+struct OVRVignette_MeshComplexityLevel;
 }
 namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
+}
+namespace UnityEngine {
+struct Camera_StereoscopicEye;
 }
 namespace UnityEngine {
 class Camera;
@@ -43,35 +43,31 @@ class Shader;
 namespace UnityEngine {
 struct Vector4;
 }
-namespace UnityEngine {
-struct __Camera__StereoscopicEye;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct __OVRVignette__FalloffType;
+struct OVRVignette_FalloffType;
 }
 namespace GlobalNamespace {
-struct __OVRVignette__MeshComplexityLevel;
+struct OVRVignette_MeshComplexityLevel;
 }
 namespace GlobalNamespace {
 class OVRVignette;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__OVRVignette__FalloffType);
-MARK_VAL_T(::GlobalNamespace::__OVRVignette__MeshComplexityLevel);
+MARK_VAL_T(::GlobalNamespace::OVRVignette_FalloffType);
+MARK_VAL_T(::GlobalNamespace::OVRVignette_MeshComplexityLevel);
 MARK_REF_PTR_T(::GlobalNamespace::OVRVignette);
-// Type: ::MeshComplexityLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRVignette::MeshComplexityLevel
-struct CORDL_TYPE __OVRVignette__MeshComplexityLevel {
+// CS Name: OVRVignette/MeshComplexityLevel
+struct CORDL_TYPE OVRVignette_MeshComplexityLevel {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____OVRVignette__MeshComplexityLevel_Unwrapped
-  enum struct ____OVRVignette__MeshComplexityLevel_Unwrapped : int32_t {
+  /// @brief Nested struct __OVRVignette_MeshComplexityLevel_Unwrapped
+  enum struct __OVRVignette_MeshComplexityLevel_Unwrapped : int32_t {
     __E_VerySimple = static_cast<int32_t>(0x0),
     __E_Simple = static_cast<int32_t>(0x1),
     __E_Normal = static_cast<int32_t>(0x2),
@@ -80,8 +76,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OVRVignette__MeshComplexityLevel_Unwrapped() const noexcept {
-    return static_cast<____OVRVignette__MeshComplexityLevel_Unwrapped>(this->value__);
+  constexpr operator __OVRVignette_MeshComplexityLevel_Unwrapped() const noexcept {
+    return static_cast<__OVRVignette_MeshComplexityLevel_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -91,62 +87,61 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRVignette__MeshComplexityLevel();
+  constexpr OVRVignette_MeshComplexityLevel();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRVignette__MeshComplexityLevel(int32_t value__) noexcept;
+  constexpr OVRVignette_MeshComplexityLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Detailed value: I32(3)
+  static ::GlobalNamespace::OVRVignette_MeshComplexityLevel const Detailed;
 
-  /// @brief Field Detailed value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__OVRVignette__MeshComplexityLevel const Detailed;
+  /// @brief Field Normal value: I32(2)
+  static ::GlobalNamespace::OVRVignette_MeshComplexityLevel const Normal;
 
-  /// @brief Field Normal value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__OVRVignette__MeshComplexityLevel const Normal;
+  /// @brief Field Simple value: I32(1)
+  static ::GlobalNamespace::OVRVignette_MeshComplexityLevel const Simple;
 
-  /// @brief Field Simple value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__OVRVignette__MeshComplexityLevel const Simple;
+  /// @brief Field VeryDetailed value: I32(4)
+  static ::GlobalNamespace::OVRVignette_MeshComplexityLevel const VeryDetailed;
 
-  /// @brief Field VeryDetailed value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__OVRVignette__MeshComplexityLevel const VeryDetailed;
-
-  /// @brief Field VerySimple value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRVignette__MeshComplexityLevel const VerySimple;
+  /// @brief Field VerySimple value: I32(0)
+  static ::GlobalNamespace::OVRVignette_MeshComplexityLevel const VerySimple;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8496 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRVignette__MeshComplexityLevel, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette_MeshComplexityLevel, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRVignette__MeshComplexityLevel, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVignette_MeshComplexityLevel, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::FalloffType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRVignette::FalloffType
-struct CORDL_TYPE __OVRVignette__FalloffType {
+// CS Name: OVRVignette/FalloffType
+struct CORDL_TYPE OVRVignette_FalloffType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____OVRVignette__FalloffType_Unwrapped
-  enum struct ____OVRVignette__FalloffType_Unwrapped : int32_t {
+  /// @brief Nested struct __OVRVignette_FalloffType_Unwrapped
+  enum struct __OVRVignette_FalloffType_Unwrapped : int32_t {
     __E_Linear = static_cast<int32_t>(0x0),
     __E_Quadratic = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OVRVignette__FalloffType_Unwrapped() const noexcept {
-    return static_cast<____OVRVignette__FalloffType_Unwrapped>(this->value__);
+  constexpr operator __OVRVignette_FalloffType_Unwrapped() const noexcept {
+    return static_cast<__OVRVignette_FalloffType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -156,54 +151,53 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRVignette__FalloffType();
+  constexpr OVRVignette_FalloffType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRVignette__FalloffType(int32_t value__) noexcept;
+  constexpr OVRVignette_FalloffType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Linear value: I32(0)
+  static ::GlobalNamespace::OVRVignette_FalloffType const Linear;
 
-  /// @brief Field Linear value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRVignette__FalloffType const Linear;
-
-  /// @brief Field Quadratic value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__OVRVignette__FalloffType const Quadratic;
+  /// @brief Field Quadratic value: I32(1)
+  static ::GlobalNamespace::OVRVignette_FalloffType const Quadratic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8497 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRVignette__FalloffType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette_FalloffType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRVignette__FalloffType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVignette_FalloffType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRVignette
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 194, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRVignette::FalloffType, OVRVignette::MeshComplexityLevel, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRVignette*
+// CS Name: OVRVignette
 class CORDL_TYPE OVRVignette : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using FalloffType = ::GlobalNamespace::__OVRVignette__FalloffType;
+  using FalloffType = ::GlobalNamespace::OVRVignette_FalloffType;
 
-  using MeshComplexityLevel = ::GlobalNamespace::__OVRVignette__MeshComplexityLevel;
+  using MeshComplexityLevel = ::GlobalNamespace::OVRVignette_MeshComplexityLevel;
 
   /// @brief Field Falloff, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_Falloff, put = __cordl_internal_set_Falloff)) ::GlobalNamespace::__OVRVignette__FalloffType Falloff;
+  __declspec(property(get = __cordl_internal_get_Falloff, put = __cordl_internal_set_Falloff)) ::GlobalNamespace::OVRVignette_FalloffType Falloff;
 
   /// @brief Field MeshComplexity, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_MeshComplexity, put = __cordl_internal_set_MeshComplexity)) ::GlobalNamespace::__OVRVignette__MeshComplexityLevel MeshComplexity;
+  __declspec(property(get = __cordl_internal_get_MeshComplexity, put = __cordl_internal_set_MeshComplexity)) ::GlobalNamespace::OVRVignette_MeshComplexityLevel MeshComplexity;
 
   /// @brief Field QUADRATIC_FALLOFF, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_QUADRATIC_FALLOFF, put = setStaticF_QUADRATIC_FALLOFF)) ::StringW QUADRATIC_FALLOFF;
+  __declspec(property(get = getStaticF_QUADRATIC_FALLOFF, put = setStaticF_QUADRATIC_FALLOFF)) ::StringW QUADRATIC_FALLOFF;
 
   /// @brief Field VignetteAspectRatio, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_VignetteAspectRatio, put = __cordl_internal_set_VignetteAspectRatio)) float_t VignetteAspectRatio;
@@ -277,60 +271,60 @@ public:
   /// @brief Field _TransparentVignetteVisible, offset 0xc1, size 0x1
   __declspec(property(get = __cordl_internal_get__TransparentVignetteVisible, put = __cordl_internal_set__TransparentVignetteVisible)) bool _TransparentVignetteVisible;
 
-  /// @brief Method Awake, addr 0x3fe9444, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x40494f0, size 0x314, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BuildMaterials, addr 0x3fe8f0c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method BuildMaterials, addr 0x4048fb8, size 0x3b0, virtual false, abstract: false, final false
   inline void BuildMaterials();
 
-  /// @brief Method BuildMeshes, addr 0x3fe8894, size 0x678, virtual false, abstract: false, final false
+  /// @brief Method BuildMeshes, addr 0x4048940, size 0x678, virtual false, abstract: false, final false
   inline void BuildMeshes();
 
-  /// @brief Method DisableRenderers, addr 0x3fe940c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DisableRenderers, addr 0x40494b8, size 0x38, virtual false, abstract: false, final false
   inline void DisableRenderers();
 
-  /// @brief Method EnableRenderers, addr 0x3fe9d44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EnableRenderers, addr 0x4049df0, size 0x38, virtual false, abstract: false, final false
   inline void EnableRenderers();
 
-  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x3fe9920, size 0x8c, virtual false, abstract: false, final false
-  inline void GetTanFovAndOffsetForMonoEye(ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY);
+  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x40499cc, size 0x8c, virtual false, abstract: false, final false
+  inline void GetTanFovAndOffsetForMonoEye(::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX, ::ByRef<float_t> offsetY);
 
-  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x3fe9758, size 0x1c8, virtual false, abstract: false, final false
-  inline void GetTanFovAndOffsetForStereoEye(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY);
+  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x4049804, size 0x1c8, virtual false, abstract: false, final false
+  inline void GetTanFovAndOffsetForStereoEye(::UnityEngine::Camera_StereoscopicEye eye, ::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX, ::ByRef<float_t> offsetY);
 
-  /// @brief Method GetTriangleCount, addr 0x3fe8870, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTriangleCount, addr 0x404891c, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetTriangleCount();
 
   static inline ::GlobalNamespace::OVRVignette* New_ctor();
 
-  /// @brief Method OnBeginCameraRendering, addr 0x3fe9d84, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x4049e30, size 0x8c, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDisable, addr 0x3fe9360, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x404940c, size 0xac, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3fe92bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4049368, size 0xa4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPostRender, addr 0x3fe9d80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x4049e2c, size 0x4, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreCull, addr 0x3fe9d7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPreCull, addr 0x4049e28, size 0x4, virtual false, abstract: false, final false
   inline void OnPreCull();
 
-  /// @brief Method Update, addr 0x3fe99e0, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4049a8c, size 0x364, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method VisibilityTest, addr 0x3fe99ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method VisibilityTest, addr 0x4049a58, size 0x34, virtual false, abstract: false, final false
   inline bool VisibilityTest(float_t scaleX, float_t scaleY, float_t offsetX, float_t offsetY);
 
-  constexpr ::GlobalNamespace::__OVRVignette__FalloffType const& __cordl_internal_get_Falloff() const;
+  constexpr ::GlobalNamespace::OVRVignette_FalloffType const& __cordl_internal_get_Falloff() const;
 
-  constexpr ::GlobalNamespace::__OVRVignette__FalloffType& __cordl_internal_get_Falloff();
+  constexpr ::GlobalNamespace::OVRVignette_FalloffType& __cordl_internal_get_Falloff();
 
-  constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel const& __cordl_internal_get_MeshComplexity() const;
+  constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel const& __cordl_internal_get_MeshComplexity() const;
 
-  constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel& __cordl_internal_get_MeshComplexity();
+  constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel& __cordl_internal_get_MeshComplexity();
 
   constexpr float_t const& __cordl_internal_get_VignetteAspectRatio() const;
 
@@ -420,9 +414,9 @@ public:
 
   constexpr bool& __cordl_internal_get__TransparentVignetteVisible();
 
-  constexpr void __cordl_internal_set_Falloff(::GlobalNamespace::__OVRVignette__FalloffType value);
+  constexpr void __cordl_internal_set_Falloff(::GlobalNamespace::OVRVignette_FalloffType value);
 
-  constexpr void __cordl_internal_set_MeshComplexity(::GlobalNamespace::__OVRVignette__MeshComplexityLevel value);
+  constexpr void __cordl_internal_set_MeshComplexity(::GlobalNamespace::OVRVignette_MeshComplexityLevel value);
 
   constexpr void __cordl_internal_set_VignetteAspectRatio(float_t value);
 
@@ -468,7 +462,7 @@ public:
 
   constexpr void __cordl_internal_set__TransparentVignetteVisible(bool value);
 
-  /// @brief Method .ctor, addr 0x3fe9e10, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4049ebc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_QUADRATIC_FALLOFF();
@@ -489,14 +483,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRVignette(OVRVignette const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8498 };
+
   /// @brief Field VignetteShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___VignetteShader;
 
   /// @brief Field MeshComplexity, offset: 0x28, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRVignette__MeshComplexityLevel ___MeshComplexity;
+  ::GlobalNamespace::OVRVignette_MeshComplexityLevel ___MeshComplexity;
 
   /// @brief Field Falloff, offset: 0x2c, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRVignette__FalloffType ___Falloff;
+  ::GlobalNamespace::OVRVignette_FalloffType ___Falloff;
 
   /// @brief Field VignetteFieldOfView, offset: 0x30, size: 0x4, def value: None
   float_t ___VignetteFieldOfView;
@@ -561,14 +558,9 @@ public:
   /// @brief Field _TransparentVignetteVisible, offset: 0xc1, size: 0x1, def value: None
   bool ____TransparentVignetteVisible;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8473 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVignette, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRVignette, ___VignetteShader) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRVignette, ___MeshComplexity) == 0x28, "Offset mismatch!");
@@ -617,8 +609,10 @@ static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueVignetteVisible
 
 static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentVignetteVisible) == 0xc1, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVignette, 0xc8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRVignette__FalloffType, "", "OVRVignette/FalloffType");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRVignette__MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVignette_FalloffType, "", "OVRVignette/FalloffType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVignette_MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
 NEED_NO_BOX(::GlobalNamespace::OVRVignette);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVignette*, "", "OVRVignette");

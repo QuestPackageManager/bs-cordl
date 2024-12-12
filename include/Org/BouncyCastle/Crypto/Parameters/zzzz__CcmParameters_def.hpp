@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__AeadParameters_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CcmParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -16,18 +15,17 @@ class CcmParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::CcmParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::CcmParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Parameters.AeadParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::CcmParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.CcmParameters
 class CORDL_TYPE CcmParameters : public ::Org::BouncyCastle::Crypto::Parameters::AeadParameters {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Parameters::CcmParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
-  /// @brief Method .ctor, addr 0x2382e5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b6148, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
 protected:

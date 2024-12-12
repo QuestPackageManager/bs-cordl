@@ -12,11 +12,10 @@ struct ParseFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::ParseFlags);
-// Type: System::ParseFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::ParseFlags
+// CS Name: System.ParseFlags
 struct CORDL_TYPE ParseFlags {
 public:
   // Declarations
@@ -58,52 +57,49 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ParseFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field CaptureOffset value: static_cast<int32_t>(0x800)
+  /// @brief Field CaptureOffset value: I32(2048)
   static ::System::ParseFlags const CaptureOffset;
 
-  /// @brief Field HaveDate value: static_cast<int32_t>(0x80)
+  /// @brief Field HaveDate value: I32(128)
   static ::System::ParseFlags const HaveDate;
 
-  /// @brief Field HaveDay value: static_cast<int32_t>(0x4)
+  /// @brief Field HaveDay value: I32(4)
   static ::System::ParseFlags const HaveDay;
 
-  /// @brief Field HaveHour value: static_cast<int32_t>(0x8)
+  /// @brief Field HaveHour value: I32(8)
   static ::System::ParseFlags const HaveHour;
 
-  /// @brief Field HaveMinute value: static_cast<int32_t>(0x10)
+  /// @brief Field HaveMinute value: I32(16)
   static ::System::ParseFlags const HaveMinute;
 
-  /// @brief Field HaveMonth value: static_cast<int32_t>(0x2)
+  /// @brief Field HaveMonth value: I32(2)
   static ::System::ParseFlags const HaveMonth;
 
-  /// @brief Field HaveSecond value: static_cast<int32_t>(0x20)
+  /// @brief Field HaveSecond value: I32(32)
   static ::System::ParseFlags const HaveSecond;
 
-  /// @brief Field HaveTime value: static_cast<int32_t>(0x40)
+  /// @brief Field HaveTime value: I32(64)
   static ::System::ParseFlags const HaveTime;
 
-  /// @brief Field HaveYear value: static_cast<int32_t>(0x1)
+  /// @brief Field HaveYear value: I32(1)
   static ::System::ParseFlags const HaveYear;
 
-  /// @brief Field ParsedMonthName value: static_cast<int32_t>(0x400)
+  /// @brief Field ParsedMonthName value: I32(1024)
   static ::System::ParseFlags const ParsedMonthName;
 
-  /// @brief Field Rfc1123Pattern value: static_cast<int32_t>(0x2000)
+  /// @brief Field Rfc1123Pattern value: I32(8192)
   static ::System::ParseFlags const Rfc1123Pattern;
 
-  /// @brief Field TimeZoneUsed value: static_cast<int32_t>(0x100)
+  /// @brief Field TimeZoneUsed value: I32(256)
   static ::System::ParseFlags const TimeZoneUsed;
 
-  /// @brief Field TimeZoneUtc value: static_cast<int32_t>(0x200)
+  /// @brief Field TimeZoneUtc value: I32(512)
   static ::System::ParseFlags const TimeZoneUtc;
 
-  /// @brief Field UtcSortPattern value: static_cast<int32_t>(0x4000)
+  /// @brief Field UtcSortPattern value: I32(16384)
   static ::System::ParseFlags const UtcSortPattern;
 
-  /// @brief Field YearDefault value: static_cast<int32_t>(0x1000)
+  /// @brief Field YearDefault value: I32(4096)
   static ::System::ParseFlags const YearDefault;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,12 +108,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ParseFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::ParseFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ParseFlags, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ParseFlags, "System", "ParseFlags");

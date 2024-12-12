@@ -22,11 +22,10 @@ class XmlSchemaAnyAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAnyAttribute);
-// Type: System.Xml.Schema::XmlSchemaAnyAttribute
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaAnnotated, System.Xml.Schema.XmlSchemaContentProcessing
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaAnyAttribute*
+// CS Name: System.Xml.Schema.XmlSchemaAnyAttribute
 class CORDL_TYPE XmlSchemaAnyAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
@@ -47,29 +46,29 @@ public:
   /// @brief Field processContents, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_processContents, put = __cordl_internal_set_processContents)) ::System::Xml::Schema::XmlSchemaContentProcessing processContents;
 
-  /// @brief Method Allows, addr 0x42573bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Allows, addr 0x42b86d0, size 0x28, virtual false, abstract: false, final false
   inline bool Allows(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method BuildNamespaceList, addr 0x425729c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method BuildNamespaceList, addr 0x42b85b0, size 0x80, virtual false, abstract: false, final false
   inline void BuildNamespaceList(::StringW targetNamespace);
 
-  /// @brief Method BuildNamespaceListV1Compat, addr 0x425731c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildNamespaceListV1Compat, addr 0x42b8630, size 0xa0, virtual false, abstract: false, final false
   inline void BuildNamespaceListV1Compat(::StringW targetNamespace);
 
-  /// @brief Method Intersection, addr 0x4257408, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Intersection, addr 0x42b871c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaAnyAttribute* Intersection(::System::Xml::Schema::XmlSchemaAnyAttribute* o1, ::System::Xml::Schema::XmlSchemaAnyAttribute* o2, bool v1Compat);
 
-  /// @brief Method IsSubset, addr 0x42573e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSubset, addr 0x42b86f8, size 0x24, virtual false, abstract: false, final false
   static inline bool IsSubset(::System::Xml::Schema::XmlSchemaAnyAttribute* sub, ::System::Xml::Schema::XmlSchemaAnyAttribute* super);
 
   static inline ::System::Xml::Schema::XmlSchemaAnyAttribute* New_ctor();
 
-  /// @brief Method Union, addr 0x42574c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Union, addr 0x42b87d4, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaAnyAttribute* Union(::System::Xml::Schema::XmlSchemaAnyAttribute* o1, ::System::Xml::Schema::XmlSchemaAnyAttribute* o2, bool v1Compat);
 
-  constexpr ::System::Xml::Schema::NamespaceList*& __cordl_internal_get_namespaceList();
+  constexpr ::System::Xml::Schema::NamespaceList* const& __cordl_internal_get_namespaceList() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& __cordl_internal_get_namespaceList() const;
+  constexpr ::System::Xml::Schema::NamespaceList*& __cordl_internal_get_namespaceList();
 
   constexpr ::StringW const& __cordl_internal_get_ns() const;
 
@@ -85,22 +84,22 @@ public:
 
   constexpr void __cordl_internal_set_processContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
 
-  /// @brief Method .ctor, addr 0x42574b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b87cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NamespaceList, addr 0x4257280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceList, addr 0x42b8594, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::NamespaceList* get_NamespaceList();
 
-  /// @brief Method get_ProcessContents, addr 0x4257270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessContents, addr 0x42b8584, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentProcessing get_ProcessContents();
 
-  /// @brief Method get_ProcessContentsCorrect, addr 0x4257288, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessContentsCorrect, addr 0x42b859c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentProcessing get_ProcessContentsCorrect();
 
-  /// @brief Method set_Namespace, addr 0x4257268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x42b857c, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
-  /// @brief Method set_ProcessContents, addr 0x4257278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProcessContents, addr 0x42b858c, size 0x8, virtual false, abstract: false, final false
   inline void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
 
 protected:
@@ -117,6 +116,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaAnyAttribute(XmlSchemaAnyAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7649 };
+
   /// @brief Field ns, offset: 0x50, size: 0x8, def value: None
   ::StringW ___ns;
 
@@ -126,19 +128,16 @@ public:
   /// @brief Field namespaceList, offset: 0x60, size: 0x8, def value: None
   ::System::Xml::Schema::NamespaceList* ___namespaceList;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7624 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAnyAttribute, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnyAttribute, ___ns) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnyAttribute, ___processContents) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnyAttribute, ___namespaceList) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAnyAttribute, 0x68>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaAnyAttribute);

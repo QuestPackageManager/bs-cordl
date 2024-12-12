@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayerPrefsStorage)
 // Forward declare root types
@@ -13,26 +12,25 @@ class PlayerPrefsStorage;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerPrefsStorage);
-// Type: ::PlayerPrefsStorage
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerPrefsStorage*
+// CS Name: PlayerPrefsStorage
 class CORDL_TYPE PlayerPrefsStorage : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FileExists, addr 0x2271514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x22a3e34, size 0xc, virtual false, abstract: false, final false
   inline bool FileExists(::StringW filePath);
 
-  /// @brief Method Initialize, addr 0x2271490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x22a3db0, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LoadFile, addr 0x2271494, size 0x80, virtual false, abstract: false, final false
-  inline bool LoadFile(::StringW filePath, ByRef<::StringW> value);
+  /// @brief Method LoadFile, addr 0x22a3db4, size 0x80, virtual false, abstract: false, final false
+  inline bool LoadFile(::StringW filePath, ::ByRef<::StringW> value);
 
   static inline ::GlobalNamespace::PlayerPrefsStorage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2271520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a3e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +48,7 @@ public:
   PlayerPrefsStorage(PlayerPrefsStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

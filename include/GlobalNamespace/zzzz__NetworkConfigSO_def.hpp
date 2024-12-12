@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -10,9 +11,6 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(NetworkConfigSO)
 namespace GlobalNamespace {
 class DnsEndPoint;
-}
-namespace GlobalNamespace {
-class INetworkConfig;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
@@ -23,11 +21,10 @@ class NetworkConfigSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetworkConfigSO);
-// Type: ::NetworkConfigSO
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies INetworkConfig, PersistentScriptableObject, ServiceEnvironment
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NetworkConfigSO*
+// CS Name: NetworkConfigSO
 class CORDL_TYPE NetworkConfigSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -168,43 +165,43 @@ public:
 
   constexpr void __cordl_internal_set__serviceEnvironment(::GlobalNamespace::ServiceEnvironment value);
 
-  /// @brief Method .ctor, addr 0x3e10f54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e71000, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_appId, addr 0x3e10ed4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method get_appId, addr 0x3e70f80, size 0x70, virtual true, abstract: false, final true
   inline ::StringW get_appId();
 
-  /// @brief Method get_discoveryPort, addr 0x3e10dd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_discoveryPort, addr 0x3e70e80, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_forceGameLift, addr 0x3e10f44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_forceGameLift, addr 0x3e70ff0, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGameLift();
 
-  /// @brief Method get_graphAccessToken, addr 0x3e10e6c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_graphAccessToken, addr 0x3e70f18, size 0x68, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_graphUrl, addr 0x3e10e64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphUrl, addr 0x3e70f10, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_masterServerEndPoint, addr 0x3e10dec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_masterServerEndPoint, addr 0x3e70e98, size 0x68, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
 
-  /// @brief Method get_maxPartySize, addr 0x3e10dcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_maxPartySize, addr 0x3e70e78, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_multiplayerPort, addr 0x3e10de4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerPort, addr 0x3e70e90, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_multiplayerStatusUrl, addr 0x3e10e54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerStatusUrl, addr 0x3e70f00, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_partyPort, addr 0x3e10ddc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_partyPort, addr 0x3e70e88, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_quickPlaySetupUrl, addr 0x3e10e5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_quickPlaySetupUrl, addr 0x3e70f08, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_serviceEnvironment, addr 0x3e10f4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_serviceEnvironment, addr 0x3e70ff8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
   /// @brief Convert to "::GlobalNamespace::INetworkConfig"
@@ -223,6 +220,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkConfigSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkConfigSO(NetworkConfigSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17351 };
 
   /// @brief Field _maxPartySize, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxPartySize;
@@ -260,14 +260,9 @@ public:
   /// @brief Field _serviceEnvironment, offset: 0x5c, size: 0x4, def value: None
   ::GlobalNamespace::ServiceEnvironment ____serviceEnvironment;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17307 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkConfigSO, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NetworkConfigSO, ____maxPartySize) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkConfigSO, ____discoveryPort) == 0x1c, "Offset mismatch!");
@@ -291,6 +286,8 @@ static_assert(offsetof(::GlobalNamespace::NetworkConfigSO, ____graphAppId) == 0x
 static_assert(offsetof(::GlobalNamespace::NetworkConfigSO, ____forceGameLift) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkConfigSO, ____serviceEnvironment) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkConfigSO, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkConfigSO);

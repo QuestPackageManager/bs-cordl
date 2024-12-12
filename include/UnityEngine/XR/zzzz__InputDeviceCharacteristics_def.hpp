@@ -12,11 +12,10 @@ struct InputDeviceCharacteristics;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::InputDeviceCharacteristics);
-// Type: UnityEngine.XR::InputDeviceCharacteristics
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
-// CS Name: ::UnityEngine.XR::InputDeviceCharacteristics
+// CS Name: UnityEngine.XR.InputDeviceCharacteristics
 struct CORDL_TYPE InputDeviceCharacteristics {
 public:
   // Declarations
@@ -55,57 +54,57 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr InputDeviceCharacteristics(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field Camera value: static_cast<uint32_t>(0x10080402u)
+  /// @brief Field Camera value: U32(268960770)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Camera;
 
-  /// @brief Field Controller value: static_cast<uint32_t>(0x81808040u)
+  /// @brief Field Controller value: U32(2172682304)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Controller;
 
-  /// @brief Field EyeTracking value: static_cast<uint32_t>(0x80402010u)
+  /// @brief Field EyeTracking value: U32(2151686160)
   static ::UnityEngine::XR::InputDeviceCharacteristics const EyeTracking;
 
-  /// @brief Field HandTracking value: static_cast<uint32_t>(0x40201008u)
+  /// @brief Field HandTracking value: U32(1075843080)
   static ::UnityEngine::XR::InputDeviceCharacteristics const HandTracking;
 
-  /// @brief Field HeadMounted value: static_cast<uint32_t>(0x8040201u)
+  /// @brief Field HeadMounted value: U32(134480385)
   static ::UnityEngine::XR::InputDeviceCharacteristics const HeadMounted;
 
-  /// @brief Field HeldInHand value: static_cast<uint32_t>(0x20100804u)
+  /// @brief Field HeldInHand value: U32(537921540)
   static ::UnityEngine::XR::InputDeviceCharacteristics const HeldInHand;
 
-  /// @brief Field Left value: static_cast<uint32_t>(0x820081u)
+  /// @brief Field Left value: U32(8519809)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Left;
 
-  /// @brief Field None value: static_cast<uint32_t>(0x4020100u)
+  /// @brief Field None value: U32(67240192)
   static ::UnityEngine::XR::InputDeviceCharacteristics const None;
 
-  /// @brief Field Right value: static_cast<uint32_t>(0x840082u)
+  /// @brief Field Right value: U32(8650882)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Right;
 
-  /// @brief Field Simulated6DOF value: static_cast<uint32_t>(0x1000084u)
+  /// @brief Field Simulated6DOF value: U32(16777348)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Simulated6DOF;
 
-  /// @brief Field TrackedDevice value: static_cast<uint32_t>(0x80804020u)
+  /// @brief Field TrackedDevice value: U32(2155888672)
   static ::UnityEngine::XR::InputDeviceCharacteristics const TrackedDevice;
 
-  /// @brief Field TrackingReference value: static_cast<uint32_t>(0x818080u)
+  /// @brief Field TrackingReference value: U32(8487040)
   static ::UnityEngine::XR::InputDeviceCharacteristics const TrackingReference;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18265 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::InputDeviceCharacteristics, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::XR::InputDeviceCharacteristics, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::InputDeviceCharacteristics, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputDeviceCharacteristics, "UnityEngine.XR", "InputDeviceCharacteristics");

@@ -17,23 +17,22 @@ class OVRCursor;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRCursor);
-// Type: ::OVRCursor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRCursor*
+// CS Name: OVRCursor
 class CORDL_TYPE OVRCursor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVRCursor* New_ctor();
 
-  /// @brief Method SetCursorRay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetCursorRay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetCursorRay(::UnityEngine::Transform* ray);
 
-  /// @brief Method SetCursorStartDest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetCursorStartDest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetCursorStartDest(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 dest, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method .ctor, addr 0x3fcde84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402df30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +50,7 @@ public:
   OVRCursor(OVRCursor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8397 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

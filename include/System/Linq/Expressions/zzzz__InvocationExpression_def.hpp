@@ -4,7 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InvocationExpression)
 namespace System::Linq::Expressions {
@@ -16,9 +16,6 @@ class ExpressionVisitor;
 namespace System::Linq::Expressions {
 class Expression;
 }
-namespace System::Linq::Expressions {
-class IArgumentProvider;
-}
 namespace System {
 class Type;
 }
@@ -28,11 +25,10 @@ class InvocationExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::InvocationExpression);
-// Type: System.Linq.Expressions::InvocationExpression
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.IArgumentProvider
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::InvocationExpression*
+// CS Name: System.Linq.Expressions.InvocationExpression
 class CORDL_TYPE InvocationExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -54,43 +50,43 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method Accept, addr 0x4056960, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40b7c74, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetArgument, addr 0x4056910, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x40b7c24, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method Rewrite, addr 0x4056988, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40b7c9c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Expression_k__BackingField() const;
+
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Expression_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Expression_k__BackingField() const;
+  constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
 
   constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__Type_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Expression_k__BackingField(::System::Linq::Expressions::Expression* value);
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4056888, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b7b9c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method get_ArgumentCount, addr 0x4056938, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x40b7c4c, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Expression, addr 0x4056908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x40b7c1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_NodeType, addr 0x4056900, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40b7c14, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x40568f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40b7c0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -110,23 +106,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvocationExpression(InvocationExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13675 };
+
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
   /// @brief Field <Expression>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Expression_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13641 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::InvocationExpression, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::InvocationExpression, ____Type_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::InvocationExpression, ____Expression_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::InvocationExpression, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::InvocationExpression);

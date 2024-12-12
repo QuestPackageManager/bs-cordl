@@ -15,15 +15,14 @@ class IEnumerableExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IEnumerableExtensions);
-// Type: UnityEngine.UIElements::IEnumerableExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::IEnumerableExtensions*
+// CS Name: UnityEngine.UIElements.IEnumerableExtensions
 class CORDL_TYPE IEnumerableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasValues, addr 0x49d5f74, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method HasValues, addr 0x4a3a884, size 0x2f8, virtual false, abstract: false, final false
   static inline bool HasValues(::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
 protected:
@@ -41,7 +40,7 @@ public:
   IEnumerableExtensions(IEnumerableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5966 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

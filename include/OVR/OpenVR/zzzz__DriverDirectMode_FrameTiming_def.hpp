@@ -12,11 +12,10 @@ struct DriverDirectMode_FrameTiming;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::DriverDirectMode_FrameTiming);
-// Type: OVR.OpenVR::DriverDirectMode_FrameTiming
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::DriverDirectMode_FrameTiming
+// CS Name: OVR.OpenVR.DriverDirectMode_FrameTiming
 struct CORDL_TYPE DriverDirectMode_FrameTiming {
 public:
   // Declarations
@@ -28,6 +27,12 @@ public:
   // name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_nReprojectionFlags", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr DriverDirectMode_FrameTiming(uint32_t m_nSize, uint32_t m_nNumFramePresents, uint32_t m_nNumMisPresented, uint32_t m_nNumDroppedFrames, uint32_t m_nReprojectionFlags) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9014 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
   /// @brief Field m_nSize, offset: 0x0, size: 0x4, def value: None
   uint32_t m_nSize;
@@ -44,17 +49,9 @@ public:
   /// @brief Field m_nReprojectionFlags, offset: 0x10, size: 0x4, def value: None
   uint32_t m_nReprojectionFlags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8989 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::DriverDirectMode_FrameTiming, 0x14>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::DriverDirectMode_FrameTiming, m_nSize) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::DriverDirectMode_FrameTiming, m_nNumFramePresents) == 0x4, "Offset mismatch!");
@@ -64,6 +61,8 @@ static_assert(offsetof(::OVR::OpenVR::DriverDirectMode_FrameTiming, m_nNumMisPre
 static_assert(offsetof(::OVR::OpenVR::DriverDirectMode_FrameTiming, m_nNumDroppedFrames) == 0xc, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::DriverDirectMode_FrameTiming, m_nReprojectionFlags) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::DriverDirectMode_FrameTiming, 0x14>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::DriverDirectMode_FrameTiming, "OVR.OpenVR", "DriverDirectMode_FrameTiming");

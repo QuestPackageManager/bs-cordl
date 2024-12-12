@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ArrayExtensions)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -16,16 +14,15 @@ class ArrayExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::ArrayExtensions);
-// Type: HoudiniEngineUnity::ArrayExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::ArrayExtensions*
+// CS Name: HoudiniEngineUnity.ArrayExtensions
 class CORDL_TYPE ArrayExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method CopyToWithResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CopyToWithResize(::ArrayW<T, ::Array<T>*> srcArray, ByRef<::ArrayW<T, ::Array<T>*>> destArray);
+  template <typename T> static inline void CopyToWithResize(::ArrayW<T, ::Array<T>*> srcArray, ::ByRef<::ArrayW<T, ::Array<T>*>> destArray);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Init(::ArrayW<T, ::Array<T>*> array, T defaultValue);
@@ -54,7 +51,7 @@ public:
   ArrayExtensions(ArrayExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

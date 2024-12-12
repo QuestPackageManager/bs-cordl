@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (*)(int32_t)>(&::System::Text::StringBuilderCache::Acquire)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x41e7cbc;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3c7f810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::System::Text::StringBuilderCache::Release)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x41ebc70;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x3c7f8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Text::StringBuilder*)>(&::System::Text::StringBuilderCache::GetStringAndRelease)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x41e7d7c;
+  constexpr static std::size_t addrs = 0x3c7f95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,6 @@ inline void System::Text::StringBuilderCache::setStaticF_t_cachedInstance(::Syst
 inline ::System::Text::StringBuilder* System::Text::StringBuilderCache::getStaticF_t_cachedInstance() {
   return ::cordl_internals::getStaticField<::System::Text::StringBuilder*, "t_cachedInstance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::StringBuilderCache*>::get>();
 }
-/// @param capacity: int32_t (default: static_cast<int32_t>(0x10))
 inline ::System::Text::StringBuilder* System::Text::StringBuilderCache::Acquire(int32_t capacity) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::StringBuilderCache*>::get(), "Acquire", std::span<Il2CppClass const* const, 0>(),

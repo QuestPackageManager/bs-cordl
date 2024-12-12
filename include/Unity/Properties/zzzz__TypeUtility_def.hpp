@@ -4,7 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "Unity/Properties/zzzz__ITypeVisitor_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -34,28 +34,25 @@ namespace Unity::Properties {
 template <typename T> class IConstructor_1;
 }
 namespace Unity::Properties {
-class ITypeVisitor;
+template <typename T> struct TypeUtility_Cache_1;
 }
 namespace Unity::Properties {
-template <typename T> struct __TypeUtility__Cache_1;
+template <typename T> class TypeUtility_ITypeConstructor_1;
 }
 namespace Unity::Properties {
-template <typename T> class __TypeUtility__ITypeConstructor_1;
+class TypeUtility_ITypeConstructor;
 }
 namespace Unity::Properties {
-class __TypeUtility__ITypeConstructor;
+class TypeUtility_NonConstructable;
 }
 namespace Unity::Properties {
-class __TypeUtility__NonConstructable;
+class TypeUtility_TypeConstructorVisitor;
 }
 namespace Unity::Properties {
-class __TypeUtility__TypeConstructorVisitor;
+template <typename T> class TypeUtility_TypeConstructor_1;
 }
 namespace Unity::Properties {
-template <typename T> class __TypeUtility__TypeConstructor_1;
-}
-namespace Unity::Properties {
-class __TypeUtility____c;
+class TypeUtility___c;
 }
 namespace UnityEngine::Pool {
 template <typename T> class ObjectPool_1;
@@ -65,111 +62,100 @@ namespace Unity::Properties {
 class TypeUtility;
 }
 namespace Unity::Properties {
-class __TypeUtility__ITypeConstructor;
+class TypeUtility_ITypeConstructor;
 }
 namespace Unity::Properties {
-template <typename T> class __TypeUtility__ITypeConstructor_1;
+template <typename T> class TypeUtility_ITypeConstructor_1;
 }
 namespace Unity::Properties {
-class __TypeUtility__NonConstructable;
+class TypeUtility_NonConstructable;
 }
 namespace Unity::Properties {
-class __TypeUtility__TypeConstructorVisitor;
+class TypeUtility_TypeConstructorVisitor;
 }
 namespace Unity::Properties {
-template <typename T> class __TypeUtility__TypeConstructor_1;
+template <typename T> class TypeUtility_TypeConstructor_1;
 }
 namespace Unity::Properties {
-class __TypeUtility____c;
+class TypeUtility___c;
 }
 namespace Unity::Properties {
-template <typename T> struct __TypeUtility__Cache_1;
+template <typename T> struct TypeUtility_Cache_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Properties::TypeUtility);
-MARK_REF_PTR_T(::Unity::Properties::__TypeUtility__ITypeConstructor);
-MARK_GEN_REF_PTR_T(::Unity::Properties::__TypeUtility__ITypeConstructor_1);
-MARK_REF_PTR_T(::Unity::Properties::__TypeUtility__NonConstructable);
-MARK_REF_PTR_T(::Unity::Properties::__TypeUtility__TypeConstructorVisitor);
-MARK_GEN_REF_PTR_T(::Unity::Properties::__TypeUtility__TypeConstructor_1);
-MARK_REF_PTR_T(::Unity::Properties::__TypeUtility____c);
-MARK_GEN_VAL_T(::Unity::Properties::__TypeUtility__Cache_1);
-// Type: ::ITypeConstructor
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Unity::Properties::TypeUtility_ITypeConstructor);
+MARK_GEN_REF_PTR_T(::Unity::Properties::TypeUtility_ITypeConstructor_1);
+MARK_REF_PTR_T(::Unity::Properties::TypeUtility_NonConstructable);
+MARK_REF_PTR_T(::Unity::Properties::TypeUtility_TypeConstructorVisitor);
+MARK_GEN_REF_PTR_T(::Unity::Properties::TypeUtility_TypeConstructor_1);
+MARK_REF_PTR_T(::Unity::Properties::TypeUtility___c);
+MARK_GEN_VAL_T(::Unity::Properties::TypeUtility_Cache_1);
+// Dependencies
 namespace Unity::Properties {
 // Is value type: false
-// CS Name: ::TypeUtility::ITypeConstructor*
-class CORDL_TYPE __TypeUtility__ITypeConstructor {
+// CS Name: Unity.Properties.TypeUtility/ITypeConstructor
+class CORDL_TYPE TypeUtility_ITypeConstructor {
 public:
   // Declarations
   __declspec(property(get = get_CanBeInstantiated)) bool CanBeInstantiated;
 
-  /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Instantiate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* Instantiate();
 
-  /// @brief Method get_CanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_CanBeInstantiated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_CanBeInstantiated();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__ITypeConstructor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TypeUtility__ITypeConstructor(__TypeUtility__ITypeConstructor&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__ITypeConstructor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeUtility__ITypeConstructor(__TypeUtility__ITypeConstructor const&) = delete;
+  TypeUtility_ITypeConstructor(TypeUtility_ITypeConstructor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Type: ::ITypeConstructor`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.TypeUtility::ITypeConstructor
 namespace Unity::Properties {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::TypeUtility::ITypeConstructor`1<T>*
-class CORDL_TYPE __TypeUtility__ITypeConstructor_1 {
+// CS Name: Unity.Properties.TypeUtility/ITypeConstructor`1<T>
+class CORDL_TYPE TypeUtility_ITypeConstructor_1 {
 public:
   // Declarations
-  /// @brief Convert operator to "::Unity::Properties::__TypeUtility__ITypeConstructor"
-  constexpr operator ::Unity::Properties::__TypeUtility__ITypeConstructor*() noexcept;
+  /// @brief Convert operator to "::Unity::Properties::TypeUtility_ITypeConstructor"
+  constexpr operator ::Unity::Properties::TypeUtility_ITypeConstructor*() noexcept;
 
-  /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Instantiate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T Instantiate();
 
-  /// @brief Method SetExplicitConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetExplicitConstructor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetExplicitConstructor(::System::Func_1<T>* constructor);
 
-  /// @brief Convert to "::Unity::Properties::__TypeUtility__ITypeConstructor"
-  constexpr ::Unity::Properties::__TypeUtility__ITypeConstructor* i___Unity__Properties____TypeUtility__ITypeConstructor() noexcept;
+  /// @brief Convert to "::Unity::Properties::TypeUtility_ITypeConstructor"
+  constexpr ::Unity::Properties::TypeUtility_ITypeConstructor* i___Unity__Properties__TypeUtility_ITypeConstructor() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__ITypeConstructor_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TypeUtility__ITypeConstructor_1(__TypeUtility__ITypeConstructor_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__ITypeConstructor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeUtility__ITypeConstructor_1(__TypeUtility__ITypeConstructor_1 const&) = delete;
+  TypeUtility_ITypeConstructor_1(TypeUtility_ITypeConstructor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Type: ::TypeConstructor`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Properties.TypeUtility::ITypeConstructor, Unity.Properties.TypeUtility::ITypeConstructor`1<T>
 namespace Unity::Properties {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::TypeUtility::TypeConstructor`1<T>*
-class CORDL_TYPE __TypeUtility__TypeConstructor_1 : public ::System::Object {
+// CS Name: Unity.Properties.TypeUtility/TypeConstructor`1<T>
+class CORDL_TYPE TypeUtility_TypeConstructor_1 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = Unity_Properties_TypeUtility_ITypeConstructor_get_CanBeInstantiated)) bool Unity_Properties_TypeUtility_ITypeConstructor_CanBeInstantiated;
@@ -183,11 +169,11 @@ public:
   /// @brief Field m_OverrideConstructor, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OverrideConstructor, put = __cordl_internal_set_m_OverrideConstructor)) ::Unity::Properties::IConstructor_1<T>* m_OverrideConstructor;
 
-  /// @brief Convert operator to "::Unity::Properties::__TypeUtility__ITypeConstructor"
-  constexpr operator ::Unity::Properties::__TypeUtility__ITypeConstructor*() noexcept;
+  /// @brief Convert operator to "::Unity::Properties::TypeUtility_ITypeConstructor"
+  constexpr operator ::Unity::Properties::TypeUtility_ITypeConstructor*() noexcept;
 
-  /// @brief Convert operator to "::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>"
-  constexpr operator ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>*() noexcept;
+  /// @brief Convert operator to "::Unity::Properties::TypeUtility_ITypeConstructor_1<T>"
+  constexpr operator ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>*() noexcept;
 
   /// @brief Method CreateClassInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T CreateClassInstance();
@@ -198,7 +184,7 @@ public:
   /// @brief Method CreateValueTypeInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T CreateValueTypeInstance();
 
-  static inline ::Unity::Properties::__TypeUtility__TypeConstructor_1<T>* New_ctor();
+  static inline ::Unity::Properties::TypeUtility_TypeConstructor_1<T>* New_ctor();
 
   /// @brief Method SetExplicitConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetExplicitConstructor(::System::Func_1<T>* constructor);
@@ -215,17 +201,17 @@ public:
   /// @brief Method Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Unity_Properties_TypeUtility_ITypeConstructor_get_CanBeInstantiated();
 
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_m_ExplicitConstructor() const;
+
   constexpr ::System::Func_1<T>*& __cordl_internal_get_m_ExplicitConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_m_ExplicitConstructor() const;
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_m_ImplicitConstructor() const;
 
   constexpr ::System::Func_1<T>*& __cordl_internal_get_m_ImplicitConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_m_ImplicitConstructor() const;
+  constexpr ::Unity::Properties::IConstructor_1<T>* const& __cordl_internal_get_m_OverrideConstructor() const;
 
   constexpr ::Unity::Properties::IConstructor_1<T>*& __cordl_internal_get_m_OverrideConstructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::IConstructor_1<T>*> const& __cordl_internal_get_m_OverrideConstructor() const;
 
   constexpr void __cordl_internal_set_m_ExplicitConstructor(::System::Func_1<T>* value);
 
@@ -236,25 +222,28 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::Unity::Properties::__TypeUtility__ITypeConstructor"
-  constexpr ::Unity::Properties::__TypeUtility__ITypeConstructor* i___Unity__Properties____TypeUtility__ITypeConstructor() noexcept;
+  /// @brief Convert to "::Unity::Properties::TypeUtility_ITypeConstructor"
+  constexpr ::Unity::Properties::TypeUtility_ITypeConstructor* i___Unity__Properties__TypeUtility_ITypeConstructor() noexcept;
 
-  /// @brief Convert to "::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>"
-  constexpr ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* i___Unity__Properties____TypeUtility__ITypeConstructor_1_T_() noexcept;
+  /// @brief Convert to "::Unity::Properties::TypeUtility_ITypeConstructor_1<T>"
+  constexpr ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* i___Unity__Properties__TypeUtility_ITypeConstructor_1_T_() noexcept;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeUtility__TypeConstructor_1();
+  constexpr TypeUtility_TypeConstructor_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__TypeConstructor_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructor_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeUtility__TypeConstructor_1(__TypeUtility__TypeConstructor_1&&) = delete;
+  TypeUtility_TypeConstructor_1(TypeUtility_TypeConstructor_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__TypeConstructor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructor_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeUtility__TypeConstructor_1(__TypeUtility__TypeConstructor_1 const&) = delete;
+  TypeUtility_TypeConstructor_1(TypeUtility_TypeConstructor_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
 
   /// @brief Field m_ExplicitConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___m_ExplicitConstructor;
@@ -265,87 +254,82 @@ public:
   /// @brief Field m_OverrideConstructor, offset: 0x20, size: 0x8, def value: None
   ::Unity::Properties::IConstructor_1<T>* ___m_OverrideConstructor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17433 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Type: ::NonConstructable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Properties.TypeUtility::ITypeConstructor
 namespace Unity::Properties {
 // Is value type: false
-// CS Name: ::TypeUtility::NonConstructable*
-class CORDL_TYPE __TypeUtility__NonConstructable : public ::System::Object {
+// CS Name: Unity.Properties.TypeUtility/NonConstructable
+class CORDL_TYPE TypeUtility_NonConstructable : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = Unity_Properties_TypeUtility_ITypeConstructor_get_CanBeInstantiated)) bool Unity_Properties_TypeUtility_ITypeConstructor_CanBeInstantiated;
 
-  /// @brief Convert operator to "::Unity::Properties::__TypeUtility__ITypeConstructor"
-  constexpr operator ::Unity::Properties::__TypeUtility__ITypeConstructor*() noexcept;
+  /// @brief Convert operator to "::Unity::Properties::TypeUtility_ITypeConstructor"
+  constexpr operator ::Unity::Properties::TypeUtility_ITypeConstructor*() noexcept;
 
-  /// @brief Method Instantiate, addr 0x48ae310, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x49129a0, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Object* Instantiate();
 
-  static inline ::Unity::Properties::__TypeUtility__NonConstructable* New_ctor();
+  static inline ::Unity::Properties::TypeUtility_NonConstructable* New_ctor();
 
-  /// @brief Method Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated, addr 0x48ae308, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated, addr 0x4912998, size 0x8, virtual true, abstract: false, final true
   inline bool Unity_Properties_TypeUtility_ITypeConstructor_get_CanBeInstantiated();
 
-  /// @brief Method .ctor, addr 0x48adee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4912574, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::Unity::Properties::__TypeUtility__ITypeConstructor"
-  constexpr ::Unity::Properties::__TypeUtility__ITypeConstructor* i___Unity__Properties____TypeUtility__ITypeConstructor() noexcept;
+  /// @brief Convert to "::Unity::Properties::TypeUtility_ITypeConstructor"
+  constexpr ::Unity::Properties::TypeUtility_ITypeConstructor* i___Unity__Properties__TypeUtility_ITypeConstructor() noexcept;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeUtility__NonConstructable();
+  constexpr TypeUtility_NonConstructable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__NonConstructable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_NonConstructable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeUtility__NonConstructable(__TypeUtility__NonConstructable&&) = delete;
+  TypeUtility_NonConstructable(TypeUtility_NonConstructable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__NonConstructable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_NonConstructable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeUtility__NonConstructable(__TypeUtility__NonConstructable const&) = delete;
+  TypeUtility_NonConstructable(TypeUtility_NonConstructable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17478 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::__TypeUtility__NonConstructable, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::TypeUtility_NonConstructable, 0x10>, "Size mismatch!");
 
 } // namespace Unity::Properties
-// Type: ::Cache`1
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace Unity::Properties {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::TypeUtility::Cache`1<T>
+// CS Name: Unity.Properties.TypeUtility/Cache`1<T>
 #pragma pack(push, 0)
-struct CORDL_TYPE __TypeUtility__Cache_1 {
+struct CORDL_TYPE TypeUtility_Cache_1 {
 public:
   // Declarations
   /// @brief Field TypeConstructor, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TypeConstructor, put = setStaticF_TypeConstructor)) ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* TypeConstructor;
+  __declspec(property(get = getStaticF_TypeConstructor, put = setStaticF_TypeConstructor)) ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* TypeConstructor;
 
-  static inline ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* getStaticF_TypeConstructor();
+  static inline ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* getStaticF_TypeConstructor();
 
-  static inline void setStaticF_TypeConstructor(::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* value);
+  static inline void setStaticF_TypeConstructor(::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* value);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeUtility__Cache_1();
+  constexpr TypeUtility_Cache_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17479 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -355,32 +339,31 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace Unity::Properties
-// Type: ::TypeConstructorVisitor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Properties.ITypeVisitor
 namespace Unity::Properties {
 // Is value type: false
-// CS Name: ::TypeUtility::TypeConstructorVisitor*
-class CORDL_TYPE __TypeUtility__TypeConstructorVisitor : public ::System::Object {
+// CS Name: Unity.Properties.TypeUtility/TypeConstructorVisitor
+class CORDL_TYPE TypeUtility_TypeConstructorVisitor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field TypeConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_TypeConstructor, put = __cordl_internal_set_TypeConstructor)) ::Unity::Properties::__TypeUtility__ITypeConstructor* TypeConstructor;
+  __declspec(property(get = __cordl_internal_get_TypeConstructor, put = __cordl_internal_set_TypeConstructor)) ::Unity::Properties::TypeUtility_ITypeConstructor* TypeConstructor;
 
   /// @brief Convert operator to "::Unity::Properties::ITypeVisitor"
   constexpr operator ::Unity::Properties::ITypeVisitor*() noexcept;
 
-  static inline ::Unity::Properties::__TypeUtility__TypeConstructorVisitor* New_ctor();
+  static inline ::Unity::Properties::TypeUtility_TypeConstructorVisitor* New_ctor();
 
   /// @brief Method Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TContainer> inline void Visit();
 
-  constexpr ::Unity::Properties::__TypeUtility__ITypeConstructor*& __cordl_internal_get_TypeConstructor();
+  constexpr ::Unity::Properties::TypeUtility_ITypeConstructor* const& __cordl_internal_get_TypeConstructor() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::__TypeUtility__ITypeConstructor*> const& __cordl_internal_get_TypeConstructor() const;
+  constexpr ::Unity::Properties::TypeUtility_ITypeConstructor*& __cordl_internal_get_TypeConstructor();
 
-  constexpr void __cordl_internal_set_TypeConstructor(::Unity::Properties::__TypeUtility__ITypeConstructor* value);
+  constexpr void __cordl_internal_set_TypeConstructor(::Unity::Properties::TypeUtility_ITypeConstructor* value);
 
-  /// @brief Method .ctor, addr 0x48adedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491256c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Unity::Properties::ITypeVisitor"
@@ -389,158 +372,156 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeUtility__TypeConstructorVisitor();
+  constexpr TypeUtility_TypeConstructorVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__TypeConstructorVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructorVisitor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeUtility__TypeConstructorVisitor(__TypeUtility__TypeConstructorVisitor&&) = delete;
+  TypeUtility_TypeConstructorVisitor(TypeUtility_TypeConstructorVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility__TypeConstructorVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructorVisitor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeUtility__TypeConstructorVisitor(__TypeUtility__TypeConstructorVisitor const&) = delete;
-
-  /// @brief Field TypeConstructor, offset: 0x10, size: 0x8, def value: None
-  ::Unity::Properties::__TypeUtility__ITypeConstructor* ___TypeConstructor;
+  TypeUtility_TypeConstructorVisitor(TypeUtility_TypeConstructorVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17480 };
+
+  /// @brief Field TypeConstructor, offset: 0x10, size: 0x8, def value: None
+  ::Unity::Properties::TypeUtility_ITypeConstructor* ___TypeConstructor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::__TypeUtility__TypeConstructorVisitor, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Unity::Properties::TypeUtility_TypeConstructorVisitor, ___TypeConstructor) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::__TypeUtility__TypeConstructorVisitor, ___TypeConstructor) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::TypeUtility_TypeConstructorVisitor, 0x18>, "Size mismatch!");
 
 } // namespace Unity::Properties
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Properties {
 // Is value type: false
-// CS Name: ::TypeUtility::<>c*
-class CORDL_TYPE __TypeUtility____c : public ::System::Object {
+// CS Name: Unity.Properties.TypeUtility/<>c
+class CORDL_TYPE TypeUtility___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Unity::Properties::__TypeUtility____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Unity::Properties::TypeUtility___c* __9;
 
-  static inline ::Unity::Properties::__TypeUtility____c* New_ctor();
+  static inline ::Unity::Properties::TypeUtility___c* New_ctor();
 
-  /// @brief Method <.cctor>b__11_0, addr 0x48ae3c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_0, addr 0x4912a50, size 0x54, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* __cctor_b__11_0();
 
-  /// @brief Method <.cctor>b__11_1, addr 0x48ae414, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_1, addr 0x4912aa4, size 0x18, virtual false, abstract: false, final false
   inline void __cctor_b__11_1(::System::Text::StringBuilder* sb);
 
-  /// @brief Method <.cctor>b__11_2, addr 0x48ae42c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_2, addr 0x4912abc, size 0x48, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__11_2();
 
-  /// @brief Method .ctor, addr 0x48ae3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4912a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Unity::Properties::__TypeUtility____c* getStaticF___9();
+  static inline ::Unity::Properties::TypeUtility___c* getStaticF___9();
 
-  static inline void setStaticF___9(::Unity::Properties::__TypeUtility____c* value);
+  static inline void setStaticF___9(::Unity::Properties::TypeUtility___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeUtility____c();
+  constexpr TypeUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeUtility____c(__TypeUtility____c&&) = delete;
+  TypeUtility___c(TypeUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeUtility____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeUtility____c(__TypeUtility____c const&) = delete;
+  TypeUtility___c(TypeUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::__TypeUtility____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::TypeUtility___c, 0x10>, "Size mismatch!");
 
 } // namespace Unity::Properties
-// Type: Unity.Properties::TypeUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Properties {
 // Is value type: false
-// CS Name: ::Unity.Properties::TypeUtility*
+// CS Name: Unity.Properties.TypeUtility
 class CORDL_TYPE TypeUtility : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using Cache_1 = ::Unity::Properties::__TypeUtility__Cache_1<T>;
+  template <typename T> using Cache_1 = ::Unity::Properties::TypeUtility_Cache_1<T>;
 
-  using ITypeConstructor = ::Unity::Properties::__TypeUtility__ITypeConstructor;
+  using ITypeConstructor = ::Unity::Properties::TypeUtility_ITypeConstructor;
 
-  template <typename T> using ITypeConstructor_1 = ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>;
+  template <typename T> using ITypeConstructor_1 = ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>;
 
-  using NonConstructable = ::Unity::Properties::__TypeUtility__NonConstructable;
+  using NonConstructable = ::Unity::Properties::TypeUtility_NonConstructable;
 
-  using TypeConstructorVisitor = ::Unity::Properties::__TypeUtility__TypeConstructorVisitor;
+  using TypeConstructorVisitor = ::Unity::Properties::TypeUtility_TypeConstructorVisitor;
 
-  template <typename T> using TypeConstructor_1 = ::Unity::Properties::__TypeUtility__TypeConstructor_1<T>;
+  template <typename T> using TypeConstructor_1 = ::Unity::Properties::TypeUtility_TypeConstructor_1<T>;
 
-  using __c = ::Unity::Properties::__TypeUtility____c;
+  using __c = ::Unity::Properties::TypeUtility___c;
 
   /// @brief Field s_Builders, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Builders, put = setStaticF_s_Builders)) ::UnityEngine::Pool::ObjectPool_1<::System::Text::StringBuilder*>* s_Builders;
+  __declspec(property(get = getStaticF_s_Builders, put = setStaticF_s_Builders)) ::UnityEngine::Pool::ObjectPool_1<::System::Text::StringBuilder*>* s_Builders;
 
   /// @brief Field s_CachedResolvedName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CachedResolvedName,
-                             put = setStaticF_s_CachedResolvedName)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::StringW>* s_CachedResolvedName;
+  __declspec(property(get = getStaticF_s_CachedResolvedName,
+                      put = setStaticF_s_CachedResolvedName)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::StringW>* s_CachedResolvedName;
 
   /// @brief Field s_CreateTypeConstructor, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CreateTypeConstructor, put = setStaticF_s_CreateTypeConstructor)) ::System::Reflection::MethodInfo* s_CreateTypeConstructor;
+  __declspec(property(get = getStaticF_s_CreateTypeConstructor, put = setStaticF_s_CreateTypeConstructor)) ::System::Reflection::MethodInfo* s_CreateTypeConstructor;
 
   /// @brief Field s_TypeConstructors, offset 0xffffffff, size 0x8
-  static __declspec(property(
+  __declspec(property(
       get = getStaticF_s_TypeConstructors,
-      put = setStaticF_s_TypeConstructors)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::Unity::Properties::__TypeUtility__ITypeConstructor*>* s_TypeConstructors;
+      put = setStaticF_s_TypeConstructors)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::Unity::Properties::TypeUtility_ITypeConstructor*>* s_TypeConstructors;
 
   /// @brief Field syncedPoolObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_syncedPoolObject, put = setStaticF_syncedPoolObject)) ::System::Object* syncedPoolObject;
+  __declspec(property(get = getStaticF_syncedPoolObject, put = setStaticF_syncedPoolObject)) ::System::Object* syncedPoolObject;
 
   /// @brief Method CanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool CanBeInstantiated();
 
-  /// @brief Method CanBeInstantiated, addr 0x48adfa4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CanBeInstantiated, addr 0x4912634, size 0xcc, virtual false, abstract: false, final false
   static inline bool CanBeInstantiated(::System::Type* type);
 
-  /// @brief Method CheckCanBeInstantiated, addr 0x48ae1d8, size 0x130, virtual false, abstract: false, final false
-  static inline void CheckCanBeInstantiated(::Unity::Properties::__TypeUtility__ITypeConstructor* constructor, ::System::Type* type);
+  /// @brief Method CheckCanBeInstantiated, addr 0x4912868, size 0x130, virtual false, abstract: false, final false
+  static inline void CheckCanBeInstantiated(::Unity::Properties::TypeUtility_ITypeConstructor* constructor, ::System::Type* type);
 
   /// @brief Method CheckCanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CheckCanBeInstantiated(::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* constructor);
+  template <typename T> static inline void CheckCanBeInstantiated(::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* constructor);
 
-  /// @brief Method CheckIsAssignableFrom, addr 0x48ae070, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckIsAssignableFrom, addr 0x4912700, size 0x168, virtual false, abstract: false, final false
   static inline void CheckIsAssignableFrom(::System::Type* type, ::System::Type* derivedType);
 
-  /// @brief Method CreateTypeConstructor, addr 0x48ad9e0, size 0x278, virtual false, abstract: false, final false
-  static inline ::Unity::Properties::__TypeUtility__ITypeConstructor* CreateTypeConstructor(::System::Type* type);
+  /// @brief Method CreateTypeConstructor, addr 0x4912070, size 0x278, virtual false, abstract: false, final false
+  static inline ::Unity::Properties::TypeUtility_ITypeConstructor* CreateTypeConstructor(::System::Type* type);
 
   /// @brief Method CreateTypeConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* CreateTypeConstructor();
+  template <typename T> static inline ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* CreateTypeConstructor();
 
-  /// @brief Method GetRootType, addr 0x48ad8ac, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetRootType, addr 0x4911f3c, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Type* GetRootType(::System::Type* type);
 
-  /// @brief Method GetTypeConstructor, addr 0x48adeec, size 0xb8, virtual false, abstract: false, final false
-  static inline ::Unity::Properties::__TypeUtility__ITypeConstructor* GetTypeConstructor(::System::Type* type);
+  /// @brief Method GetTypeConstructor, addr 0x491257c, size 0xb8, virtual false, abstract: false, final false
+  static inline ::Unity::Properties::TypeUtility_ITypeConstructor* GetTypeConstructor(::System::Type* type);
 
   /// @brief Method GetTypeConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* GetTypeConstructor();
+  template <typename T> static inline ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* GetTypeConstructor();
 
-  /// @brief Method GetTypeDisplayName, addr 0x48acdf0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDisplayName, addr 0x4911480, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW GetTypeDisplayName(::System::Type* type);
 
-  /// @brief Method GetTypeDisplayName, addr 0x48acf08, size 0x9a4, virtual false, abstract: false, final false
-  static inline ::StringW GetTypeDisplayName(::System::Type* type, ::System::Collections::Generic::IReadOnlyList_1<::System::Type*>* args, ByRef<int32_t> argIndex);
+  /// @brief Method GetTypeDisplayName, addr 0x4911598, size 0x9a4, virtual false, abstract: false, final false
+  static inline ::StringW GetTypeDisplayName(::System::Type* type, ::System::Collections::Generic::IReadOnlyList_1<::System::Type*>* args, ::ByRef<int32_t> argIndex);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Instantiate();
@@ -558,13 +539,13 @@ public:
   template <typename T> static inline void SetExplicitInstantiationMethod(::System::Func_1<T>* constructor);
 
   /// @brief Method TryInstantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryInstantiate(::System::Type* derivedType, ByRef<T> value);
+  template <typename T> static inline bool TryInstantiate(::System::Type* derivedType, ::ByRef<T> value);
 
   /// @brief Method TryInstantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryInstantiate(ByRef<T> instance);
+  template <typename T> static inline bool TryInstantiate(::ByRef<T> instance);
 
   /// @brief Method TryInstantiateArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArray> static inline bool TryInstantiateArray(int32_t count, ByRef<TArray> instance);
+  template <typename TArray> static inline bool TryInstantiateArray(int32_t count, ::ByRef<TArray> instance);
 
   static inline ::UnityEngine::Pool::ObjectPool_1<::System::Text::StringBuilder*>* getStaticF_s_Builders();
 
@@ -572,7 +553,7 @@ public:
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_CreateTypeConstructor();
 
-  static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::Unity::Properties::__TypeUtility__ITypeConstructor*>* getStaticF_s_TypeConstructors();
+  static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::Unity::Properties::TypeUtility_ITypeConstructor*>* getStaticF_s_TypeConstructors();
 
   static inline ::System::Object* getStaticF_syncedPoolObject();
 
@@ -582,7 +563,7 @@ public:
 
   static inline void setStaticF_s_CreateTypeConstructor(::System::Reflection::MethodInfo* value);
 
-  static inline void setStaticF_s_TypeConstructors(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::Unity::Properties::__TypeUtility__ITypeConstructor*>* value);
+  static inline void setStaticF_s_TypeConstructors(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::Unity::Properties::TypeUtility_ITypeConstructor*>* value);
 
   static inline void setStaticF_syncedPoolObject(::System::Object* value);
 
@@ -601,7 +582,7 @@ public:
   TypeUtility(TypeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -611,14 +592,14 @@ static_assert(::cordl_internals::size_check_v<::Unity::Properties::TypeUtility, 
 } // namespace Unity::Properties
 NEED_NO_BOX(::Unity::Properties::TypeUtility);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::TypeUtility*, "Unity.Properties", "TypeUtility");
-NEED_NO_BOX(::Unity::Properties::__TypeUtility__ITypeConstructor);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::__TypeUtility__ITypeConstructor*, "Unity.Properties", "TypeUtility/ITypeConstructor");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::__TypeUtility__ITypeConstructor_1, "Unity.Properties", "TypeUtility/ITypeConstructor`1");
-NEED_NO_BOX(::Unity::Properties::__TypeUtility__NonConstructable);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::__TypeUtility__NonConstructable*, "Unity.Properties", "TypeUtility/NonConstructable");
-NEED_NO_BOX(::Unity::Properties::__TypeUtility__TypeConstructorVisitor);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::__TypeUtility__TypeConstructorVisitor*, "Unity.Properties", "TypeUtility/TypeConstructorVisitor");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::__TypeUtility__TypeConstructor_1, "Unity.Properties", "TypeUtility/TypeConstructor`1");
-NEED_NO_BOX(::Unity::Properties::__TypeUtility____c);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::__TypeUtility____c*, "Unity.Properties", "TypeUtility/<>c");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Properties::__TypeUtility__Cache_1, "Unity.Properties", "TypeUtility/Cache`1");
+NEED_NO_BOX(::Unity::Properties::TypeUtility_ITypeConstructor);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::TypeUtility_ITypeConstructor*, "Unity.Properties", "TypeUtility/ITypeConstructor");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::TypeUtility_ITypeConstructor_1, "Unity.Properties", "TypeUtility/ITypeConstructor`1");
+NEED_NO_BOX(::Unity::Properties::TypeUtility_NonConstructable);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::TypeUtility_NonConstructable*, "Unity.Properties", "TypeUtility/NonConstructable");
+NEED_NO_BOX(::Unity::Properties::TypeUtility_TypeConstructorVisitor);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::TypeUtility_TypeConstructorVisitor*, "Unity.Properties", "TypeUtility/TypeConstructorVisitor");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::TypeUtility_TypeConstructor_1, "Unity.Properties", "TypeUtility/TypeConstructor`1");
+NEED_NO_BOX(::Unity::Properties::TypeUtility___c);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::TypeUtility___c*, "Unity.Properties", "TypeUtility/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Properties::TypeUtility_Cache_1, "Unity.Properties", "TypeUtility/Cache`1");

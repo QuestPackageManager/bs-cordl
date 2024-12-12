@@ -17,11 +17,10 @@ class LightTranslationBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightTranslationBaseData);
-// Type: BeatmapSaveDataVersion3::LightTranslationBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.EaseType, System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::LightTranslationBaseData*
+// CS Name: BeatmapSaveDataVersion3.LightTranslationBaseData
 class CORDL_TYPE LightTranslationBaseData : public ::System::Object {
 public:
   // Declarations
@@ -71,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set_t(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d49b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706324, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
-  /// @brief Method get_beat, addr 0x26d498c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x27062fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x26d49a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x2706314, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_translation, addr 0x26d49ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translation, addr 0x270631c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translation();
 
-  /// @brief Method get_usePreviousEventTranslationValue, addr 0x26d4994, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventTranslationValue, addr 0x2706304, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventTranslationValue();
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationBaseData(LightTranslationBaseData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13411 };
+
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 
@@ -112,14 +114,9 @@ public:
   /// @brief Field t, offset: 0x1c, size: 0x4, def value: None
   float_t ___t;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13380 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightTranslationBaseData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationBaseData, ___b) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationBaseData, ___p) == 0x14, "Offset mismatch!");
@@ -127,6 +124,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationBaseData, ___p
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationBaseData, ___e) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationBaseData, ___t) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightTranslationBaseData, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::LightTranslationBaseData);

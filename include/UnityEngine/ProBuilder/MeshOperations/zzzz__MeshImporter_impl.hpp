@@ -11,78 +11,78 @@
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c._ctor
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471bda4;
+  constexpr static std::size_t addrs = 0x477d0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c._Import_b__9_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c._Import_b__9_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::*)(
-    ::UnityEngine::ProBuilder::Vertex*)>(&::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::_Import_b__9_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::*)(
+    ::UnityEngine::ProBuilder::Vertex*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_Import_b__9_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x471bdac;
+  constexpr static std::size_t addrs = 0x477d0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get(), "<Import>b__9_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get(), "<Import>b__9_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Vertex*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get>(
-      std::forward<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get>(
+      std::forward<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>(value));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get>();
+inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c* UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::setStaticF___9__9_0(::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::setStaticF___9__9_0(::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>*, "<>9__9_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::getStaticF___9__9_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::getStaticF___9__9_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>*, "<>9__9_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get>();
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::_ctor() {
+inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::_Import_b__9_0(::UnityEngine::ProBuilder::Vertex* x) {
+inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_Import_b__9_0(::UnityEngine::ProBuilder::Vertex* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c*>::get(), "<Import>b__9_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>::get(), "<Import>b__9_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Vertex*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, x);
 }
+inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c* UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c::__MeshImporter____c() {}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::MeshImporter___c() {}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::MeshImporter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x471a548;
+  constexpr static std::size_t addrs = 0x477b85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x471a6b0;
+  constexpr static std::size_t addrs = 0x477b9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x471a7d0;
+  constexpr static std::size_t addrs = 0x477bae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x471a7f8;
+  constexpr static std::size_t addrs = 0x477bb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(
     ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   constexpr static std::size_t size = 0xa8c;
-  constexpr static std::size_t addrs = 0x471a97c;
+  constexpr static std::size_t addrs = 0x477bc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,19 +216,11 @@ inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* UnityEngin
   return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*, "k_DefaultImportSettings",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>::get>();
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(::UnityEngine::GameObject* gameObject) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(gameObject));
-}
 inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor(::UnityEngine::GameObject* gameObject) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameObject);
-}
-inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter*
-UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials,
-                                                                ::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(sourceMesh, sourceMaterials, destination));
 }
 inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials,
                                                                          ::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
@@ -239,16 +231,12 @@ inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor(::Unity
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceMesh, sourceMaterials, destination);
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(destination));
-}
 inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destination);
 }
-/// @param importSettings: ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* (default: nullptr)
 inline bool UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>::get(), "Import", std::span<Il2CppClass const* const, 0>(),
@@ -256,12 +244,22 @@ inline bool UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import(::Unit
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, go, importSettings);
 }
-/// @param importSettings: ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* (default: nullptr)
 inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>::get(), "Import", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, importSettings);
+}
+inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(::UnityEngine::GameObject* gameObject) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(gameObject));
+}
+inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter*
+UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials,
+                                                                ::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(sourceMesh, sourceMaterials, destination));
+}
+inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(destination));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::MeshImporter::MeshImporter() {}

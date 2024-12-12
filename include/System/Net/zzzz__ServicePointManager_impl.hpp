@@ -13,135 +13,133 @@
 #include "System/Net/zzzz__ServicePoint_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-//  Writing Method size for method: ::System::Net::__ServicePointManager__SPKey._ctor
+//  Writing Method size for method: ::System::Net::ServicePointManager_SPKey._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointManager__SPKey::*)(::System::Uri*, ::System::Uri*, bool)>(
-    &::System::Net::__ServicePointManager__SPKey::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointManager_SPKey::*)(::System::Uri*, ::System::Uri*, bool)>(
+    &::System::Net::ServicePointManager_SPKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x437386c;
+  constexpr static std::size_t addrs = 0x43d4b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__ServicePointManager__SPKey.get_UsesProxy
+//  Writing Method size for method: ::System::Net::ServicePointManager_SPKey.get_UsesProxy
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::__ServicePointManager__SPKey::*)()>(
-    &::System::Net::__ServicePointManager__SPKey::get_UsesProxy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::get_UsesProxy)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4373d44;
+  constexpr static std::size_t addrs = 0x43d5058;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
                                                                                "get_UsesProxy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__ServicePointManager__SPKey.GetHashCode
+//  Writing Method size for method: ::System::Net::ServicePointManager_SPKey.GetHashCode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::__ServicePointManager__SPKey::*)()>(
-    &::System::Net::__ServicePointManager__SPKey::GetHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::GetHashCode)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4373da4;
+  constexpr static std::size_t addrs = 0x43d50b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(), 2));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(), 2));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__ServicePointManager__SPKey.Equals
+//  Writing Method size for method: ::System::Net::ServicePointManager_SPKey.Equals
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::__ServicePointManager__SPKey::*)(::System::Object*)>(
-    &::System::Net::__ServicePointManager__SPKey::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)(::System::Object*)>(
+    &::System::Net::ServicePointManager_SPKey::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4373e78;
+  constexpr static std::size_t addrs = 0x43d518c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(), 0));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(), 0));
     return ___internal_method;
   }
 };
-constexpr ::System::Uri*& System::Net::__ServicePointManager__SPKey::__cordl_internal_get_uri() {
+constexpr ::System::Uri*& System::Net::ServicePointManager_SPKey::__cordl_internal_get_uri() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::__ServicePointManager__SPKey::__cordl_internal_get_uri() const {
+constexpr ::System::Uri* const& System::Net::ServicePointManager_SPKey::__cordl_internal_get_uri() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
-constexpr void System::Net::__ServicePointManager__SPKey::__cordl_internal_set_uri(::System::Uri* value) {
+constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_uri(::System::Uri* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Uri*& System::Net::__ServicePointManager__SPKey::__cordl_internal_get_proxy() {
+constexpr ::System::Uri*& System::Net::ServicePointManager_SPKey::__cordl_internal_get_proxy() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::__ServicePointManager__SPKey::__cordl_internal_get_proxy() const {
+constexpr ::System::Uri* const& System::Net::ServicePointManager_SPKey::__cordl_internal_get_proxy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
-constexpr void System::Net::__ServicePointManager__SPKey::__cordl_internal_set_proxy(::System::Uri* value) {
+constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_proxy(::System::Uri* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___proxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Net::__ServicePointManager__SPKey::__cordl_internal_get_use_connect() {
+constexpr bool& System::Net::ServicePointManager_SPKey::__cordl_internal_get_use_connect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_connect;
 }
-constexpr bool const& System::Net::__ServicePointManager__SPKey::__cordl_internal_get_use_connect() const {
+constexpr bool const& System::Net::ServicePointManager_SPKey::__cordl_internal_get_use_connect() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_connect;
 }
-constexpr void System::Net::__ServicePointManager__SPKey::__cordl_internal_set_use_connect(bool value) {
+constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_use_connect(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___use_connect = value;
 }
-inline ::System::Net::__ServicePointManager__SPKey* System::Net::__ServicePointManager__SPKey::New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::__ServicePointManager__SPKey*>(uri, proxy, use_connect));
-}
-inline void System::Net::__ServicePointManager__SPKey::_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
+inline void System::Net::ServicePointManager_SPKey::_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uri, proxy, use_connect);
 }
-inline bool System::Net::__ServicePointManager__SPKey::get_UsesProxy() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(),
-                                                                             "get_UsesProxy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool System::Net::ServicePointManager_SPKey::get_UsesProxy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(), "get_UsesProxy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t System::Net::__ServicePointManager__SPKey::GetHashCode() {
+inline int32_t System::Net::ServicePointManager_SPKey::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(), 2)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::Net::__ServicePointManager__SPKey::Equals(::System::Object* obj) {
+inline bool System::Net::ServicePointManager_SPKey::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointManager__SPKey*>::get(), 0)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
+inline ::System::Net::ServicePointManager_SPKey* System::Net::ServicePointManager_SPKey::New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::ServicePointManager_SPKey*>(uri, proxy, use_connect));
+}
 // Ctor Parameters []
-constexpr ::System::Net::__ServicePointManager__SPKey::__ServicePointManager__SPKey() {}
+constexpr ::System::Net::ServicePointManager_SPKey::ServicePointManager_SPKey() {}
 //  Writing Method size for method: ::System::Net::ServicePointManager.GetLegacyCertificatePolicy
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICertificatePolicy* (*)()>(&::System::Net::ServicePointManager::GetLegacyCertificatePolicy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x437362c;
+  constexpr static std::size_t addrs = 0x43d4940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
@@ -154,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Net::ServicePointManager::get_CheckCertificateRevocationList)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4373684;
+  constexpr static std::size_t addrs = 0x43d4998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Net::ServicePointManager::get_DnsRefreshTimeout)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43736dc;
+  constexpr static std::size_t addrs = 0x43d49f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
@@ -181,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::SecurityProtocolType (*)()>(&::System::Net::ServicePointManager::get_SecurityProtocol)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4373734;
+  constexpr static std::size_t addrs = 0x43d4a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
@@ -195,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServerCertValidationCallback* (*)()>(
     &::System::Net::ServicePointManager::get_ServerCertValidationCallback)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x437378c;
+  constexpr static std::size_t addrs = 0x43d4aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::RemoteCertificateValidationCallback* (*)()>(
     &::System::Net::ServicePointManager::get_ServerCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x43737e4;
+  constexpr static std::size_t addrs = 0x43d4af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*, ::System::Net::IWebProxy*)>(
     &::System::Net::ServicePointManager::FindServicePoint)> {
   constexpr static std::size_t size = 0x674;
-  constexpr static std::size_t addrs = 0x43677bc;
+  constexpr static std::size_t addrs = 0x43c8ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Net::ServicePointManager::CloseConnectionGroup)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x43738a8;
+  constexpr static std::size_t addrs = 0x43d4bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Net::ServicePoint*)>(&::System::Net::ServicePointManager::RemoveServicePoint)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4373cac;
+  constexpr static std::size_t addrs = 0x43d4fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,15 +261,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void System::Net::ServicePointManager::setStaticF_servicePoints(
-    ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::__ServicePointManager__SPKey*, ::System::Net::ServicePoint*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::__ServicePointManager__SPKey*, ::System::Net::ServicePoint*>*, "servicePoints",
+inline void
+System::Net::ServicePointManager::setStaticF_servicePoints(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*, "servicePoints",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(
-      std::forward<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::__ServicePointManager__SPKey*, ::System::Net::ServicePoint*>*>(value));
+      std::forward<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*>(value));
 }
-inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::__ServicePointManager__SPKey*, ::System::Net::ServicePoint*>*
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*
 System::Net::ServicePointManager::getStaticF_servicePoints() {
-  return ::cordl_internals::getStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::__ServicePointManager__SPKey*, ::System::Net::ServicePoint*>*, "servicePoints",
+  return ::cordl_internals::getStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*, "servicePoints",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
 }
 inline void System::Net::ServicePointManager::setStaticF_policy(::System::Net::ICertificatePolicy* value) {

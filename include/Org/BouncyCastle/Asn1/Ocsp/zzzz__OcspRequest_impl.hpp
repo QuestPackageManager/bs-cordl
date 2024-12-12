@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x23d113c;
+  constexpr static std::size_t addrs = 0x2404428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x23d1154;
+  constexpr static std::size_t addrs = 0x2404440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)(
     ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*, ::Org::BouncyCastle::Asn1::Ocsp::Signature*)>(&::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x23d13ec;
+  constexpr static std::size_t addrs = 0x24046d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x23d12d0;
+  constexpr static std::size_t addrs = 0x24045bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::get_TbsRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23d15f8;
+  constexpr static std::size_t addrs = 0x24048e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::Signature* (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::get_OptionalSignature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23d1600;
+  constexpr static std::size_t addrs = 0x24048ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::ToAsn1Object)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x23d1608;
+  constexpr static std::size_t addrs = 0x24048f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ constexpr ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*& Org::BouncyCastle::Asn1:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tbsRequest;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*> const& Org::BouncyCastle::Asn1::Ocsp::OcspRequest::__cordl_internal_get_tbsRequest() const {
+constexpr ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* const& Org::BouncyCastle::Asn1::Ocsp::OcspRequest::__cordl_internal_get_tbsRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tbsRequest;
 }
@@ -129,7 +129,7 @@ constexpr ::Org::BouncyCastle::Asn1::Ocsp::Signature*& Org::BouncyCastle::Asn1::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___optionalSignature;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::Signature*> const& Org::BouncyCastle::Asn1::Ocsp::OcspRequest::__cordl_internal_get_optionalSignature() const {
+constexpr ::Org::BouncyCastle::Asn1::Ocsp::Signature* const& Org::BouncyCastle::Asn1::Ocsp::OcspRequest::__cordl_internal_get_optionalSignature() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___optionalSignature;
 }
@@ -150,19 +150,12 @@ inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* Org::BouncyCastle::Asn1::Oc
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* Org::BouncyCastle::Asn1::Ocsp::OcspRequest::New_ctor(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest,
-                                                                                                          ::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>(tbsRequest, optionalSignature));
-}
 inline void Org::BouncyCastle::Asn1::Ocsp::OcspRequest::_ctor(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest, ::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ocsp::Signature*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tbsRequest, optionalSignature);
-}
-inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* Org::BouncyCastle::Asn1::Ocsp::OcspRequest::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Ocsp::OcspRequest::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -184,6 +177,13 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Ocsp::Ocs
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* Org::BouncyCastle::Asn1::Ocsp::OcspRequest::New_ctor(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest,
+                                                                                                          ::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>(tbsRequest, optionalSignature));
+}
+inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* Org::BouncyCastle::Asn1::Ocsp::OcspRequest::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::OcspRequest() {}

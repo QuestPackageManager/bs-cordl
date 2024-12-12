@@ -3,38 +3,35 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ShelfToolData)
 namespace HoudiniEngineUnity {
-struct __HEU_ShelfToolData__ToolType;
+struct HEU_ShelfToolData_ToolType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct __HEU_ShelfToolData__ToolType;
+struct HEU_ShelfToolData_ToolType;
 }
 namespace HoudiniEngineUnity {
 class HEU_ShelfToolData;
 }
 // Write type traits
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_ShelfToolData_ToolType);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ShelfToolData);
-// Type: ::ToolType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_ShelfToolData::ToolType
-struct CORDL_TYPE __HEU_ShelfToolData__ToolType {
+// CS Name: HoudiniEngineUnity.HEU_ShelfToolData/ToolType
+struct CORDL_TYPE HEU_ShelfToolData_ToolType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_ShelfToolData__ToolType_Unwrapped
-  enum struct ____HEU_ShelfToolData__ToolType_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_ShelfToolData_ToolType_Unwrapped
+  enum struct __HEU_ShelfToolData_ToolType_Unwrapped : int32_t {
     __E_GENERATOR = static_cast<int32_t>(0x0),
     __E_OPERATOR_SINGLE = static_cast<int32_t>(0x1),
     __E_OPERATOR_MULTI = static_cast<int32_t>(0x2),
@@ -42,8 +39,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_ShelfToolData__ToolType_Unwrapped() const noexcept {
-    return static_cast<____HEU_ShelfToolData__ToolType_Unwrapped>(this->value__);
+  constexpr operator __HEU_ShelfToolData_ToolType_Unwrapped() const noexcept {
+    return static_cast<__HEU_ShelfToolData_ToolType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -53,49 +50,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_ShelfToolData__ToolType();
+  constexpr HEU_ShelfToolData_ToolType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_ShelfToolData__ToolType(int32_t value__) noexcept;
+  constexpr HEU_ShelfToolData_ToolType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BATCH value: I32(3)
+  static ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType const BATCH;
 
-  /// @brief Field BATCH value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const BATCH;
+  /// @brief Field GENERATOR value: I32(0)
+  static ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType const GENERATOR;
 
-  /// @brief Field GENERATOR value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const GENERATOR;
+  /// @brief Field OPERATOR_MULTI value: I32(2)
+  static ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType const OPERATOR_MULTI;
 
-  /// @brief Field OPERATOR_MULTI value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const OPERATOR_MULTI;
-
-  /// @brief Field OPERATOR_SINGLE value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const OPERATOR_SINGLE;
+  /// @brief Field OPERATOR_SINGLE value: I32(1)
+  static ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType const OPERATOR_SINGLE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData_ToolType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ShelfToolData_ToolType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: HoudiniEngineUnity::HEU_ShelfToolData
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_ShelfToolData::ToolType, System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_ShelfToolData*
+// CS Name: HoudiniEngineUnity.HEU_ShelfToolData
 class CORDL_TYPE HEU_ShelfToolData : public ::System::Object {
 public:
   // Declarations
-  using ToolType = ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType;
+  using ToolType = ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType;
 
   /// @brief Field _assetPath, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath)) ::StringW _assetPath;
@@ -119,7 +115,7 @@ public:
   __declspec(property(get = __cordl_internal_get__toolTip, put = __cordl_internal_set__toolTip)) ::StringW _toolTip;
 
   /// @brief Field _toolType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__toolType, put = __cordl_internal_set__toolType)) ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType _toolType;
+  __declspec(property(get = __cordl_internal_get__toolType, put = __cordl_internal_set__toolType)) ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType _toolType;
 
   static inline ::HoudiniEngineUnity::HEU_ShelfToolData* New_ctor();
 
@@ -151,9 +147,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__toolTip();
 
-  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const& __cordl_internal_get__toolType() const;
+  constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType const& __cordl_internal_get__toolType() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType& __cordl_internal_get__toolType();
+  constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType& __cordl_internal_get__toolType();
 
   constexpr void __cordl_internal_set__assetPath(::StringW value);
 
@@ -169,9 +165,9 @@ public:
 
   constexpr void __cordl_internal_set__toolTip(::StringW value);
 
-  constexpr void __cordl_internal_set__toolType(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType value);
+  constexpr void __cordl_internal_set__toolType(::HoudiniEngineUnity::HEU_ShelfToolData_ToolType value);
 
-  /// @brief Method .ctor, addr 0x3a2ee4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a85abc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,11 +184,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ShelfToolData(HEU_ShelfToolData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11839 };
+
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
 
   /// @brief Field _toolType, offset: 0x18, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType ____toolType;
+  ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType ____toolType;
 
   /// @brief Field _toolTip, offset: 0x20, size: 0x8, def value: None
   ::StringW ____toolTip;
@@ -212,14 +211,9 @@ public:
   /// @brief Field _jsonPath, offset: 0x48, size: 0x8, def value: None
   ::StringW ____jsonPath;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11806 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ShelfToolData, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____toolType) == 0x18, "Offset mismatch!");
@@ -236,7 +230,9 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____targets) == 
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____jsonPath) == 0x48, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ShelfToolData, 0x50>, "Size mismatch!");
+
 } // namespace HoudiniEngineUnity
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, "HoudiniEngineUnity", "HEU_ShelfToolData/ToolType");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ShelfToolData_ToolType, "HoudiniEngineUnity", "HEU_ShelfToolData/ToolType");
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_ShelfToolData);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ShelfToolData*, "HoudiniEngineUnity", "HEU_ShelfToolData");

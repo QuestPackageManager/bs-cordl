@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ScreenshotRecorder.hpp"
-#include "GlobalNamespace/zzzz__ScreenshotRecorder_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenshotRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__ScreenshotRecorder_def.hpp"
@@ -8,23 +7,23 @@
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType::__ScreenshotRecorder__RecordingType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType::ScreenshotRecorder_RecordingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType::__ScreenshotRecorder__RecordingType() {}
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType GlobalNamespace::__ScreenshotRecorder__RecordingType::Sequence{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType GlobalNamespace::__ScreenshotRecorder__RecordingType::Stereo360Sequence{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType GlobalNamespace::__ScreenshotRecorder__RecordingType::Mono360Sequence{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType GlobalNamespace::__ScreenshotRecorder__RecordingType::F10ForScreenshot{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType GlobalNamespace::__ScreenshotRecorder__RecordingType::Interval{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType GlobalNamespace::__ScreenshotRecorder__RecordingType::ScreenshotOnPause{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType::ScreenshotRecorder_RecordingType() {}
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType GlobalNamespace::ScreenshotRecorder_RecordingType::Sequence{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType GlobalNamespace::ScreenshotRecorder_RecordingType::Stereo360Sequence{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType GlobalNamespace::ScreenshotRecorder_RecordingType::Mono360Sequence{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType GlobalNamespace::ScreenshotRecorder_RecordingType::F10ForScreenshot{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType GlobalNamespace::ScreenshotRecorder_RecordingType::Interval{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType GlobalNamespace::ScreenshotRecorder_RecordingType::ScreenshotOnPause{ static_cast<int32_t>(0x5) };
 //  Writing Method size for method: ::GlobalNamespace::ScreenshotRecorder.get_directory
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::get_directory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x396f270;
+  constexpr static std::size_t addrs = 0x39c4758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenshotRecorder*>::get(), "get_directory",
@@ -37,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)(::StringW)>(&::GlobalNamespace::ScreenshotRecorder::set_directory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x396f278;
+  constexpr static std::size_t addrs = 0x39c4760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::OnEnable)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x396f280;
+  constexpr static std::size_t addrs = 0x39c4768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenshotRecorder*>::get(), "OnEnable",
@@ -64,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::OnDisable)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x396f3f4;
+  constexpr static std::size_t addrs = 0x39c48dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenshotRecorder*>::get(), "OnDisable",
@@ -77,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::LateUpdate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x396f4b8;
+  constexpr static std::size_t addrs = 0x39c49a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenshotRecorder*>::get(), "LateUpdate",
@@ -90,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)(bool)>(&::GlobalNamespace::ScreenshotRecorder::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x396f5fc;
+  constexpr static std::size_t addrs = 0x39c4ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::SaveCameraScreenshot)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x396f578;
+  constexpr static std::size_t addrs = 0x39c4a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenshotRecorder*>::get(),
@@ -118,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)(::UnityEngine::Texture2D*)>(
     &::GlobalNamespace::ScreenshotRecorder::SaveTextureScreenshot)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x396f710;
+  constexpr static std::size_t addrs = 0x39c4bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::ScreenshotRecorder::*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::ScreenshotRecorder::ConvertRenderTexture)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x396f614;
+  constexpr static std::size_t addrs = 0x39c4afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x396f850;
+  constexpr static std::size_t addrs = 0x39c4d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenshotRecorder*>::get(), ".ctor",
@@ -215,15 +214,15 @@ constexpr void GlobalNamespace::ScreenshotRecorder::__cordl_internal_set__interv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____interval = value;
 }
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType& GlobalNamespace::ScreenshotRecorder::__cordl_internal_get__recordingType() {
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType& GlobalNamespace::ScreenshotRecorder::__cordl_internal_get__recordingType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingType;
 }
-constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType const& GlobalNamespace::ScreenshotRecorder::__cordl_internal_get__recordingType() const {
+constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType const& GlobalNamespace::ScreenshotRecorder::__cordl_internal_get__recordingType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingType;
 }
-constexpr void GlobalNamespace::ScreenshotRecorder::__cordl_internal_set__recordingType(::GlobalNamespace::__ScreenshotRecorder__RecordingType value) {
+constexpr void GlobalNamespace::ScreenshotRecorder::__cordl_internal_set__recordingType(::GlobalNamespace::ScreenshotRecorder_RecordingType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____recordingType = value;
 }
@@ -420,13 +419,13 @@ inline ::UnityW<::UnityEngine::Texture2D> GlobalNamespace::ScreenshotRecorder::C
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>, false>(this, ___internal_method, renderTexture);
 }
-inline ::GlobalNamespace::ScreenshotRecorder* GlobalNamespace::ScreenshotRecorder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScreenshotRecorder*>());
-}
 inline void GlobalNamespace::ScreenshotRecorder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenshotRecorder*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ScreenshotRecorder* GlobalNamespace::ScreenshotRecorder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScreenshotRecorder*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScreenshotRecorder::ScreenshotRecorder() {}

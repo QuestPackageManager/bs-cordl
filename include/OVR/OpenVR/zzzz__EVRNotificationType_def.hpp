@@ -12,11 +12,10 @@ struct EVRNotificationType;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRNotificationType);
-// Type: OVR.OpenVR::EVRNotificationType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRNotificationType
+// CS Name: OVR.OpenVR.EVRNotificationType
 struct CORDL_TYPE EVRNotificationType {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRNotificationType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Persistent value: static_cast<int32_t>(0x1)
+  /// @brief Field Persistent value: I32(1)
   static ::OVR::OpenVR::EVRNotificationType const Persistent;
 
-  /// @brief Field Transient value: static_cast<int32_t>(0x0)
+  /// @brief Field Transient value: I32(0)
   static ::OVR::OpenVR::EVRNotificationType const Transient;
 
-  /// @brief Field Transient_SystemWithUserValue value: static_cast<int32_t>(0x2)
+  /// @brief Field Transient_SystemWithUserValue value: I32(2)
   static ::OVR::OpenVR::EVRNotificationType const Transient_SystemWithUserValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRNotificationType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRNotificationType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRNotificationType, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRNotificationType, "OVR.OpenVR", "EVRNotificationType");

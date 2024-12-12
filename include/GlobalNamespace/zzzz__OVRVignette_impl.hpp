@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRVignette.hpp"
-#include "GlobalNamespace/zzzz__OVRVignette_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRVignette_def.hpp"
@@ -14,30 +13,30 @@
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel::__OVRVignette__MeshComplexityLevel(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel::OVRVignette_MeshComplexityLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel::__OVRVignette__MeshComplexityLevel() {}
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel GlobalNamespace::__OVRVignette__MeshComplexityLevel::VerySimple{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel GlobalNamespace::__OVRVignette__MeshComplexityLevel::Simple{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel GlobalNamespace::__OVRVignette__MeshComplexityLevel::Normal{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel GlobalNamespace::__OVRVignette__MeshComplexityLevel::Detailed{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel GlobalNamespace::__OVRVignette__MeshComplexityLevel::VeryDetailed{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel::OVRVignette_MeshComplexityLevel() {}
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::VerySimple{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Simple{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Normal{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Detailed{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::VeryDetailed{ static_cast<int32_t>(0x4) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRVignette__FalloffType::__OVRVignette__FalloffType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRVignette_FalloffType::OVRVignette_FalloffType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRVignette__FalloffType::__OVRVignette__FalloffType() {}
-constexpr ::GlobalNamespace::__OVRVignette__FalloffType GlobalNamespace::__OVRVignette__FalloffType::Linear{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVRVignette__FalloffType GlobalNamespace::__OVRVignette__FalloffType::Quadratic{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRVignette_FalloffType::OVRVignette_FalloffType() {}
+constexpr ::GlobalNamespace::OVRVignette_FalloffType GlobalNamespace::OVRVignette_FalloffType::Linear{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRVignette_FalloffType GlobalNamespace::OVRVignette_FalloffType::Quadratic{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.GetTriangleCount
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::GetTriangleCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3fe8870;
+  constexpr static std::size_t addrs = 0x404891c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTriangleCount",
@@ -50,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::BuildMeshes)> {
   constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x3fe8894;
+  constexpr static std::size_t addrs = 0x4048940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "BuildMeshes",
@@ -63,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::BuildMaterials)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x3fe8f0c;
+  constexpr static std::size_t addrs = 0x4048fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "BuildMaterials",
@@ -76,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnEnable)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3fe92bc;
+  constexpr static std::size_t addrs = 0x4049368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnEnable",
@@ -89,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnDisable)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3fe9360;
+  constexpr static std::size_t addrs = 0x404940c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnDisable",
@@ -102,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::Awake)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3fe9444;
+  constexpr static std::size_t addrs = 0x40494f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Awake",
@@ -114,34 +113,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(
-    ::UnityEngine::__Camera__StereoscopicEye, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>)>(&::GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye)> {
+    ::UnityEngine::Camera_StereoscopicEye, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(&::GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3fe9758;
+  constexpr static std::size_t addrs = 0x4049804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForStereoEye", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__Camera__StereoscopicEye>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera_StereoscopicEye>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.GetTanFovAndOffsetForMonoEye
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(
     &::GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3fe9920;
+  constexpr static std::size_t addrs = 0x40499cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForMonoEye", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -151,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRVignette::*)(float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::OVRVignette::VisibilityTest)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3fe99ac;
+  constexpr static std::size_t addrs = 0x4049a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::Update)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x3fe99e0;
+  constexpr static std::size_t addrs = 0x4049a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Update",
@@ -179,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::EnableRenderers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3fe9d44;
+  constexpr static std::size_t addrs = 0x4049df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "EnableRenderers",
@@ -192,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::DisableRenderers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3fe940c;
+  constexpr static std::size_t addrs = 0x40494b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "DisableRenderers",
@@ -205,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnPreCull)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fe9d7c;
+  constexpr static std::size_t addrs = 0x4049e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnPreCull",
@@ -218,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnPostRender)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fe9d80;
+  constexpr static std::size_t addrs = 0x4049e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnPostRender",
@@ -232,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRVignette::OnBeginCameraRendering)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3fe9d84;
+  constexpr static std::size_t addrs = 0x4049e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3fe9e10;
+  constexpr static std::size_t addrs = 0x4049ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), ".ctor",
@@ -267,27 +266,27 @@ constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteShader
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___VignetteShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel& GlobalNamespace::OVRVignette::__cordl_internal_get_MeshComplexity() {
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel& GlobalNamespace::OVRVignette::__cordl_internal_get_MeshComplexity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MeshComplexity;
 }
-constexpr ::GlobalNamespace::__OVRVignette__MeshComplexityLevel const& GlobalNamespace::OVRVignette::__cordl_internal_get_MeshComplexity() const {
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel const& GlobalNamespace::OVRVignette::__cordl_internal_get_MeshComplexity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MeshComplexity;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_MeshComplexity(::GlobalNamespace::__OVRVignette__MeshComplexityLevel value) {
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_MeshComplexity(::GlobalNamespace::OVRVignette_MeshComplexityLevel value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MeshComplexity = value;
 }
-constexpr ::GlobalNamespace::__OVRVignette__FalloffType& GlobalNamespace::OVRVignette::__cordl_internal_get_Falloff() {
+constexpr ::GlobalNamespace::OVRVignette_FalloffType& GlobalNamespace::OVRVignette::__cordl_internal_get_Falloff() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Falloff;
 }
-constexpr ::GlobalNamespace::__OVRVignette__FalloffType const& GlobalNamespace::OVRVignette::__cordl_internal_get_Falloff() const {
+constexpr ::GlobalNamespace::OVRVignette_FalloffType const& GlobalNamespace::OVRVignette::__cordl_internal_get_Falloff() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Falloff;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_Falloff(::GlobalNamespace::__OVRVignette__FalloffType value) {
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_Falloff(::GlobalNamespace::OVRVignette_FalloffType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Falloff = value;
 }
@@ -579,22 +578,22 @@ inline void GlobalNamespace::OVRVignette::Awake() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX,
-                                                                         ByRef<float_t> offsetY) {
+inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye(::UnityEngine::Camera_StereoscopicEye eye, ::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX,
+                                                                         ::ByRef<float_t> offsetY) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForStereoEye", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__Camera__StereoscopicEye>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera_StereoscopicEye>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eye, tanFovX, tanFovY, offsetX, offsetY);
 }
-inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye(ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY) {
+inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye(::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX, ::ByRef<float_t> offsetY) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForMonoEye", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tanFovX, tanFovY, offsetX, offsetY);
 }
 inline bool GlobalNamespace::OVRVignette::VisibilityTest(float_t scaleX, float_t scaleY, float_t offsetX, float_t offsetY) {
@@ -636,13 +635,13 @@ inline void GlobalNamespace::OVRVignette::OnBeginCameraRendering(::UnityEngine::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, camera);
 }
-inline ::GlobalNamespace::OVRVignette* GlobalNamespace::OVRVignette::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRVignette*>());
-}
 inline void GlobalNamespace::OVRVignette::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRVignette* GlobalNamespace::OVRVignette::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRVignette*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVignette::OVRVignette() {}

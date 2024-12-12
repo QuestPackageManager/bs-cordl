@@ -12,11 +12,10 @@ class ColorBoostEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::ColorBoostEventData);
-// Type: BeatmapSaveDataVersion3::ColorBoostEventData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataVersion3.BeatmapSaveDataItem
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::ColorBoostEventData*
+// CS Name: BeatmapSaveDataVersion3.ColorBoostEventData
 class CORDL_TYPE ColorBoostEventData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_o(bool value);
 
-  /// @brief Method .ctor, addr 0x26d4a60, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27063d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool boost);
 
-  /// @brief Method get_boost, addr 0x26d4a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boost, addr 0x27063c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_boost();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorBoostEventData(ColorBoostEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13413 };
+
   /// @brief Field o, offset: 0x14, size: 0x1, def value: None
   bool ___o;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::ColorBoostEventData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::ColorBoostEventData, ___o) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::ColorBoostEventData, 0x18>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::ColorBoostEventData);

@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolBase_1)
 namespace System::Collections::Generic {
@@ -12,9 +14,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -29,12 +28,6 @@ namespace Zenject {
 template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
-class IValidatable;
-}
-namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
@@ -46,13 +39,12 @@ template <typename TContract> class MemoryPoolBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPoolBase_1);
-// Type: Zenject::MemoryPoolBase`1
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, Zenject.IMemoryPool, Zenject.IValidatable
 namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::MemoryPoolBase`1<TContract>*
+// CS Name: Zenject.MemoryPoolBase`1<TContract>
 class CORDL_TYPE MemoryPoolBase_1 : public ::System::Object {
 public:
   // Declarations
@@ -146,21 +138,21 @@ public:
 
   constexpr int32_t& __cordl_internal_get__activeCount();
 
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
+
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::IFactory_1<TContract>* const& __cordl_internal_get__factory() const;
 
   constexpr ::Zenject::IFactory_1<TContract>*& __cordl_internal_get__factory();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IFactory_1<TContract>*> const& __cordl_internal_get__factory() const;
+  constexpr ::System::Collections::Generic::Stack_1<TContract>* const& __cordl_internal_get__inactiveItems() const;
 
   constexpr ::System::Collections::Generic::Stack_1<TContract>*& __cordl_internal_get__inactiveItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<TContract>*> const& __cordl_internal_get__inactiveItems() const;
+  constexpr ::Zenject::MemoryPoolSettings* const& __cordl_internal_get__settings() const;
 
   constexpr ::Zenject::MemoryPoolSettings*& __cordl_internal_get__settings();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolSettings*> const& __cordl_internal_get__settings() const;
 
   constexpr void __cordl_internal_set__activeCount(int32_t value);
 
@@ -225,6 +217,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolBase_1(MemoryPoolBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12386 };
+
   /// @brief Field _inactiveItems, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<TContract>* ____inactiveItems;
 
@@ -239,9 +234,6 @@ public:
 
   /// @brief Field _activeCount, offset: 0x30, size: 0x4, def value: None
   int32_t ____activeCount;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12353 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

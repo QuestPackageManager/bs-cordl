@@ -12,11 +12,10 @@ struct KnownColor;
 }
 // Write type traits
 MARK_VAL_T(::System::Drawing::KnownColor);
-// Type: System.Drawing::KnownColor
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Drawing {
 // Is value type: true
-// CS Name: ::System.Drawing::KnownColor
+// CS Name: System.Drawing.KnownColor
 struct CORDL_TYPE KnownColor {
 public:
   // Declarations
@@ -217,543 +216,543 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr KnownColor(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ActiveBorder value: static_cast<int32_t>(0x1)
+  /// @brief Field ActiveBorder value: I32(1)
   static ::System::Drawing::KnownColor const ActiveBorder;
 
-  /// @brief Field ActiveCaption value: static_cast<int32_t>(0x2)
+  /// @brief Field ActiveCaption value: I32(2)
   static ::System::Drawing::KnownColor const ActiveCaption;
 
-  /// @brief Field ActiveCaptionText value: static_cast<int32_t>(0x3)
+  /// @brief Field ActiveCaptionText value: I32(3)
   static ::System::Drawing::KnownColor const ActiveCaptionText;
 
-  /// @brief Field AliceBlue value: static_cast<int32_t>(0x1c)
+  /// @brief Field AliceBlue value: I32(28)
   static ::System::Drawing::KnownColor const AliceBlue;
 
-  /// @brief Field AntiqueWhite value: static_cast<int32_t>(0x1d)
+  /// @brief Field AntiqueWhite value: I32(29)
   static ::System::Drawing::KnownColor const AntiqueWhite;
 
-  /// @brief Field AppWorkspace value: static_cast<int32_t>(0x4)
+  /// @brief Field AppWorkspace value: I32(4)
   static ::System::Drawing::KnownColor const AppWorkspace;
 
-  /// @brief Field Aqua value: static_cast<int32_t>(0x1e)
+  /// @brief Field Aqua value: I32(30)
   static ::System::Drawing::KnownColor const Aqua;
 
-  /// @brief Field Aquamarine value: static_cast<int32_t>(0x1f)
+  /// @brief Field Aquamarine value: I32(31)
   static ::System::Drawing::KnownColor const Aquamarine;
 
-  /// @brief Field Azure value: static_cast<int32_t>(0x20)
+  /// @brief Field Azure value: I32(32)
   static ::System::Drawing::KnownColor const Azure;
 
-  /// @brief Field Beige value: static_cast<int32_t>(0x21)
+  /// @brief Field Beige value: I32(33)
   static ::System::Drawing::KnownColor const Beige;
 
-  /// @brief Field Bisque value: static_cast<int32_t>(0x22)
+  /// @brief Field Bisque value: I32(34)
   static ::System::Drawing::KnownColor const Bisque;
 
-  /// @brief Field Black value: static_cast<int32_t>(0x23)
+  /// @brief Field Black value: I32(35)
   static ::System::Drawing::KnownColor const Black;
 
-  /// @brief Field BlanchedAlmond value: static_cast<int32_t>(0x24)
+  /// @brief Field BlanchedAlmond value: I32(36)
   static ::System::Drawing::KnownColor const BlanchedAlmond;
 
-  /// @brief Field Blue value: static_cast<int32_t>(0x25)
+  /// @brief Field Blue value: I32(37)
   static ::System::Drawing::KnownColor const Blue;
 
-  /// @brief Field BlueViolet value: static_cast<int32_t>(0x26)
+  /// @brief Field BlueViolet value: I32(38)
   static ::System::Drawing::KnownColor const BlueViolet;
 
-  /// @brief Field Brown value: static_cast<int32_t>(0x27)
+  /// @brief Field Brown value: I32(39)
   static ::System::Drawing::KnownColor const Brown;
 
-  /// @brief Field BurlyWood value: static_cast<int32_t>(0x28)
+  /// @brief Field BurlyWood value: I32(40)
   static ::System::Drawing::KnownColor const BurlyWood;
 
-  /// @brief Field ButtonFace value: static_cast<int32_t>(0xa8)
+  /// @brief Field ButtonFace value: I32(168)
   static ::System::Drawing::KnownColor const ButtonFace;
 
-  /// @brief Field ButtonHighlight value: static_cast<int32_t>(0xa9)
+  /// @brief Field ButtonHighlight value: I32(169)
   static ::System::Drawing::KnownColor const ButtonHighlight;
 
-  /// @brief Field ButtonShadow value: static_cast<int32_t>(0xaa)
+  /// @brief Field ButtonShadow value: I32(170)
   static ::System::Drawing::KnownColor const ButtonShadow;
 
-  /// @brief Field CadetBlue value: static_cast<int32_t>(0x29)
+  /// @brief Field CadetBlue value: I32(41)
   static ::System::Drawing::KnownColor const CadetBlue;
 
-  /// @brief Field Chartreuse value: static_cast<int32_t>(0x2a)
+  /// @brief Field Chartreuse value: I32(42)
   static ::System::Drawing::KnownColor const Chartreuse;
 
-  /// @brief Field Chocolate value: static_cast<int32_t>(0x2b)
+  /// @brief Field Chocolate value: I32(43)
   static ::System::Drawing::KnownColor const Chocolate;
 
-  /// @brief Field Control value: static_cast<int32_t>(0x5)
+  /// @brief Field Control value: I32(5)
   static ::System::Drawing::KnownColor const Control;
 
-  /// @brief Field ControlDark value: static_cast<int32_t>(0x6)
+  /// @brief Field ControlDark value: I32(6)
   static ::System::Drawing::KnownColor const ControlDark;
 
-  /// @brief Field ControlDarkDark value: static_cast<int32_t>(0x7)
+  /// @brief Field ControlDarkDark value: I32(7)
   static ::System::Drawing::KnownColor const ControlDarkDark;
 
-  /// @brief Field ControlLight value: static_cast<int32_t>(0x8)
+  /// @brief Field ControlLight value: I32(8)
   static ::System::Drawing::KnownColor const ControlLight;
 
-  /// @brief Field ControlLightLight value: static_cast<int32_t>(0x9)
+  /// @brief Field ControlLightLight value: I32(9)
   static ::System::Drawing::KnownColor const ControlLightLight;
 
-  /// @brief Field ControlText value: static_cast<int32_t>(0xa)
+  /// @brief Field ControlText value: I32(10)
   static ::System::Drawing::KnownColor const ControlText;
 
-  /// @brief Field Coral value: static_cast<int32_t>(0x2c)
+  /// @brief Field Coral value: I32(44)
   static ::System::Drawing::KnownColor const Coral;
 
-  /// @brief Field CornflowerBlue value: static_cast<int32_t>(0x2d)
+  /// @brief Field CornflowerBlue value: I32(45)
   static ::System::Drawing::KnownColor const CornflowerBlue;
 
-  /// @brief Field Cornsilk value: static_cast<int32_t>(0x2e)
+  /// @brief Field Cornsilk value: I32(46)
   static ::System::Drawing::KnownColor const Cornsilk;
 
-  /// @brief Field Crimson value: static_cast<int32_t>(0x2f)
+  /// @brief Field Crimson value: I32(47)
   static ::System::Drawing::KnownColor const Crimson;
 
-  /// @brief Field Cyan value: static_cast<int32_t>(0x30)
+  /// @brief Field Cyan value: I32(48)
   static ::System::Drawing::KnownColor const Cyan;
 
-  /// @brief Field DarkBlue value: static_cast<int32_t>(0x31)
+  /// @brief Field DarkBlue value: I32(49)
   static ::System::Drawing::KnownColor const DarkBlue;
 
-  /// @brief Field DarkCyan value: static_cast<int32_t>(0x32)
+  /// @brief Field DarkCyan value: I32(50)
   static ::System::Drawing::KnownColor const DarkCyan;
 
-  /// @brief Field DarkGoldenrod value: static_cast<int32_t>(0x33)
+  /// @brief Field DarkGoldenrod value: I32(51)
   static ::System::Drawing::KnownColor const DarkGoldenrod;
 
-  /// @brief Field DarkGray value: static_cast<int32_t>(0x34)
+  /// @brief Field DarkGray value: I32(52)
   static ::System::Drawing::KnownColor const DarkGray;
 
-  /// @brief Field DarkGreen value: static_cast<int32_t>(0x35)
+  /// @brief Field DarkGreen value: I32(53)
   static ::System::Drawing::KnownColor const DarkGreen;
 
-  /// @brief Field DarkKhaki value: static_cast<int32_t>(0x36)
+  /// @brief Field DarkKhaki value: I32(54)
   static ::System::Drawing::KnownColor const DarkKhaki;
 
-  /// @brief Field DarkMagenta value: static_cast<int32_t>(0x37)
+  /// @brief Field DarkMagenta value: I32(55)
   static ::System::Drawing::KnownColor const DarkMagenta;
 
-  /// @brief Field DarkOliveGreen value: static_cast<int32_t>(0x38)
+  /// @brief Field DarkOliveGreen value: I32(56)
   static ::System::Drawing::KnownColor const DarkOliveGreen;
 
-  /// @brief Field DarkOrange value: static_cast<int32_t>(0x39)
+  /// @brief Field DarkOrange value: I32(57)
   static ::System::Drawing::KnownColor const DarkOrange;
 
-  /// @brief Field DarkOrchid value: static_cast<int32_t>(0x3a)
+  /// @brief Field DarkOrchid value: I32(58)
   static ::System::Drawing::KnownColor const DarkOrchid;
 
-  /// @brief Field DarkRed value: static_cast<int32_t>(0x3b)
+  /// @brief Field DarkRed value: I32(59)
   static ::System::Drawing::KnownColor const DarkRed;
 
-  /// @brief Field DarkSalmon value: static_cast<int32_t>(0x3c)
+  /// @brief Field DarkSalmon value: I32(60)
   static ::System::Drawing::KnownColor const DarkSalmon;
 
-  /// @brief Field DarkSeaGreen value: static_cast<int32_t>(0x3d)
+  /// @brief Field DarkSeaGreen value: I32(61)
   static ::System::Drawing::KnownColor const DarkSeaGreen;
 
-  /// @brief Field DarkSlateBlue value: static_cast<int32_t>(0x3e)
+  /// @brief Field DarkSlateBlue value: I32(62)
   static ::System::Drawing::KnownColor const DarkSlateBlue;
 
-  /// @brief Field DarkSlateGray value: static_cast<int32_t>(0x3f)
+  /// @brief Field DarkSlateGray value: I32(63)
   static ::System::Drawing::KnownColor const DarkSlateGray;
 
-  /// @brief Field DarkTurquoise value: static_cast<int32_t>(0x40)
+  /// @brief Field DarkTurquoise value: I32(64)
   static ::System::Drawing::KnownColor const DarkTurquoise;
 
-  /// @brief Field DarkViolet value: static_cast<int32_t>(0x41)
+  /// @brief Field DarkViolet value: I32(65)
   static ::System::Drawing::KnownColor const DarkViolet;
 
-  /// @brief Field DeepPink value: static_cast<int32_t>(0x42)
+  /// @brief Field DeepPink value: I32(66)
   static ::System::Drawing::KnownColor const DeepPink;
 
-  /// @brief Field DeepSkyBlue value: static_cast<int32_t>(0x43)
+  /// @brief Field DeepSkyBlue value: I32(67)
   static ::System::Drawing::KnownColor const DeepSkyBlue;
 
-  /// @brief Field Desktop value: static_cast<int32_t>(0xb)
+  /// @brief Field Desktop value: I32(11)
   static ::System::Drawing::KnownColor const Desktop;
 
-  /// @brief Field DimGray value: static_cast<int32_t>(0x44)
+  /// @brief Field DimGray value: I32(68)
   static ::System::Drawing::KnownColor const DimGray;
 
-  /// @brief Field DodgerBlue value: static_cast<int32_t>(0x45)
+  /// @brief Field DodgerBlue value: I32(69)
   static ::System::Drawing::KnownColor const DodgerBlue;
 
-  /// @brief Field Firebrick value: static_cast<int32_t>(0x46)
+  /// @brief Field Firebrick value: I32(70)
   static ::System::Drawing::KnownColor const Firebrick;
 
-  /// @brief Field FloralWhite value: static_cast<int32_t>(0x47)
+  /// @brief Field FloralWhite value: I32(71)
   static ::System::Drawing::KnownColor const FloralWhite;
 
-  /// @brief Field ForestGreen value: static_cast<int32_t>(0x48)
+  /// @brief Field ForestGreen value: I32(72)
   static ::System::Drawing::KnownColor const ForestGreen;
 
-  /// @brief Field Fuchsia value: static_cast<int32_t>(0x49)
+  /// @brief Field Fuchsia value: I32(73)
   static ::System::Drawing::KnownColor const Fuchsia;
 
-  /// @brief Field Gainsboro value: static_cast<int32_t>(0x4a)
+  /// @brief Field Gainsboro value: I32(74)
   static ::System::Drawing::KnownColor const Gainsboro;
 
-  /// @brief Field GhostWhite value: static_cast<int32_t>(0x4b)
+  /// @brief Field GhostWhite value: I32(75)
   static ::System::Drawing::KnownColor const GhostWhite;
 
-  /// @brief Field Gold value: static_cast<int32_t>(0x4c)
+  /// @brief Field Gold value: I32(76)
   static ::System::Drawing::KnownColor const Gold;
 
-  /// @brief Field Goldenrod value: static_cast<int32_t>(0x4d)
+  /// @brief Field Goldenrod value: I32(77)
   static ::System::Drawing::KnownColor const Goldenrod;
 
-  /// @brief Field GradientActiveCaption value: static_cast<int32_t>(0xab)
+  /// @brief Field GradientActiveCaption value: I32(171)
   static ::System::Drawing::KnownColor const GradientActiveCaption;
 
-  /// @brief Field GradientInactiveCaption value: static_cast<int32_t>(0xac)
+  /// @brief Field GradientInactiveCaption value: I32(172)
   static ::System::Drawing::KnownColor const GradientInactiveCaption;
 
-  /// @brief Field Gray value: static_cast<int32_t>(0x4e)
+  /// @brief Field Gray value: I32(78)
   static ::System::Drawing::KnownColor const Gray;
 
-  /// @brief Field GrayText value: static_cast<int32_t>(0xc)
+  /// @brief Field GrayText value: I32(12)
   static ::System::Drawing::KnownColor const GrayText;
 
-  /// @brief Field Green value: static_cast<int32_t>(0x4f)
+  /// @brief Field Green value: I32(79)
   static ::System::Drawing::KnownColor const Green;
 
-  /// @brief Field GreenYellow value: static_cast<int32_t>(0x50)
+  /// @brief Field GreenYellow value: I32(80)
   static ::System::Drawing::KnownColor const GreenYellow;
 
-  /// @brief Field Highlight value: static_cast<int32_t>(0xd)
+  /// @brief Field Highlight value: I32(13)
   static ::System::Drawing::KnownColor const Highlight;
 
-  /// @brief Field HighlightText value: static_cast<int32_t>(0xe)
+  /// @brief Field HighlightText value: I32(14)
   static ::System::Drawing::KnownColor const HighlightText;
 
-  /// @brief Field Honeydew value: static_cast<int32_t>(0x51)
+  /// @brief Field Honeydew value: I32(81)
   static ::System::Drawing::KnownColor const Honeydew;
 
-  /// @brief Field HotPink value: static_cast<int32_t>(0x52)
+  /// @brief Field HotPink value: I32(82)
   static ::System::Drawing::KnownColor const HotPink;
 
-  /// @brief Field HotTrack value: static_cast<int32_t>(0xf)
+  /// @brief Field HotTrack value: I32(15)
   static ::System::Drawing::KnownColor const HotTrack;
 
-  /// @brief Field InactiveBorder value: static_cast<int32_t>(0x10)
+  /// @brief Field InactiveBorder value: I32(16)
   static ::System::Drawing::KnownColor const InactiveBorder;
 
-  /// @brief Field InactiveCaption value: static_cast<int32_t>(0x11)
+  /// @brief Field InactiveCaption value: I32(17)
   static ::System::Drawing::KnownColor const InactiveCaption;
 
-  /// @brief Field InactiveCaptionText value: static_cast<int32_t>(0x12)
+  /// @brief Field InactiveCaptionText value: I32(18)
   static ::System::Drawing::KnownColor const InactiveCaptionText;
 
-  /// @brief Field IndianRed value: static_cast<int32_t>(0x53)
+  /// @brief Field IndianRed value: I32(83)
   static ::System::Drawing::KnownColor const IndianRed;
 
-  /// @brief Field Indigo value: static_cast<int32_t>(0x54)
+  /// @brief Field Indigo value: I32(84)
   static ::System::Drawing::KnownColor const Indigo;
 
-  /// @brief Field Info value: static_cast<int32_t>(0x13)
+  /// @brief Field Info value: I32(19)
   static ::System::Drawing::KnownColor const Info;
 
-  /// @brief Field InfoText value: static_cast<int32_t>(0x14)
+  /// @brief Field InfoText value: I32(20)
   static ::System::Drawing::KnownColor const InfoText;
 
-  /// @brief Field Ivory value: static_cast<int32_t>(0x55)
+  /// @brief Field Ivory value: I32(85)
   static ::System::Drawing::KnownColor const Ivory;
 
-  /// @brief Field Khaki value: static_cast<int32_t>(0x56)
+  /// @brief Field Khaki value: I32(86)
   static ::System::Drawing::KnownColor const Khaki;
 
-  /// @brief Field Lavender value: static_cast<int32_t>(0x57)
+  /// @brief Field Lavender value: I32(87)
   static ::System::Drawing::KnownColor const Lavender;
 
-  /// @brief Field LavenderBlush value: static_cast<int32_t>(0x58)
+  /// @brief Field LavenderBlush value: I32(88)
   static ::System::Drawing::KnownColor const LavenderBlush;
 
-  /// @brief Field LawnGreen value: static_cast<int32_t>(0x59)
+  /// @brief Field LawnGreen value: I32(89)
   static ::System::Drawing::KnownColor const LawnGreen;
 
-  /// @brief Field LemonChiffon value: static_cast<int32_t>(0x5a)
+  /// @brief Field LemonChiffon value: I32(90)
   static ::System::Drawing::KnownColor const LemonChiffon;
 
-  /// @brief Field LightBlue value: static_cast<int32_t>(0x5b)
+  /// @brief Field LightBlue value: I32(91)
   static ::System::Drawing::KnownColor const LightBlue;
 
-  /// @brief Field LightCoral value: static_cast<int32_t>(0x5c)
+  /// @brief Field LightCoral value: I32(92)
   static ::System::Drawing::KnownColor const LightCoral;
 
-  /// @brief Field LightCyan value: static_cast<int32_t>(0x5d)
+  /// @brief Field LightCyan value: I32(93)
   static ::System::Drawing::KnownColor const LightCyan;
 
-  /// @brief Field LightGoldenrodYellow value: static_cast<int32_t>(0x5e)
+  /// @brief Field LightGoldenrodYellow value: I32(94)
   static ::System::Drawing::KnownColor const LightGoldenrodYellow;
 
-  /// @brief Field LightGray value: static_cast<int32_t>(0x5f)
+  /// @brief Field LightGray value: I32(95)
   static ::System::Drawing::KnownColor const LightGray;
 
-  /// @brief Field LightGreen value: static_cast<int32_t>(0x60)
+  /// @brief Field LightGreen value: I32(96)
   static ::System::Drawing::KnownColor const LightGreen;
 
-  /// @brief Field LightPink value: static_cast<int32_t>(0x61)
+  /// @brief Field LightPink value: I32(97)
   static ::System::Drawing::KnownColor const LightPink;
 
-  /// @brief Field LightSalmon value: static_cast<int32_t>(0x62)
+  /// @brief Field LightSalmon value: I32(98)
   static ::System::Drawing::KnownColor const LightSalmon;
 
-  /// @brief Field LightSeaGreen value: static_cast<int32_t>(0x63)
+  /// @brief Field LightSeaGreen value: I32(99)
   static ::System::Drawing::KnownColor const LightSeaGreen;
 
-  /// @brief Field LightSkyBlue value: static_cast<int32_t>(0x64)
+  /// @brief Field LightSkyBlue value: I32(100)
   static ::System::Drawing::KnownColor const LightSkyBlue;
 
-  /// @brief Field LightSlateGray value: static_cast<int32_t>(0x65)
+  /// @brief Field LightSlateGray value: I32(101)
   static ::System::Drawing::KnownColor const LightSlateGray;
 
-  /// @brief Field LightSteelBlue value: static_cast<int32_t>(0x66)
+  /// @brief Field LightSteelBlue value: I32(102)
   static ::System::Drawing::KnownColor const LightSteelBlue;
 
-  /// @brief Field LightYellow value: static_cast<int32_t>(0x67)
+  /// @brief Field LightYellow value: I32(103)
   static ::System::Drawing::KnownColor const LightYellow;
 
-  /// @brief Field Lime value: static_cast<int32_t>(0x68)
+  /// @brief Field Lime value: I32(104)
   static ::System::Drawing::KnownColor const Lime;
 
-  /// @brief Field LimeGreen value: static_cast<int32_t>(0x69)
+  /// @brief Field LimeGreen value: I32(105)
   static ::System::Drawing::KnownColor const LimeGreen;
 
-  /// @brief Field Linen value: static_cast<int32_t>(0x6a)
+  /// @brief Field Linen value: I32(106)
   static ::System::Drawing::KnownColor const Linen;
 
-  /// @brief Field Magenta value: static_cast<int32_t>(0x6b)
+  /// @brief Field Magenta value: I32(107)
   static ::System::Drawing::KnownColor const Magenta;
 
-  /// @brief Field Maroon value: static_cast<int32_t>(0x6c)
+  /// @brief Field Maroon value: I32(108)
   static ::System::Drawing::KnownColor const Maroon;
 
-  /// @brief Field MediumAquamarine value: static_cast<int32_t>(0x6d)
+  /// @brief Field MediumAquamarine value: I32(109)
   static ::System::Drawing::KnownColor const MediumAquamarine;
 
-  /// @brief Field MediumBlue value: static_cast<int32_t>(0x6e)
+  /// @brief Field MediumBlue value: I32(110)
   static ::System::Drawing::KnownColor const MediumBlue;
 
-  /// @brief Field MediumOrchid value: static_cast<int32_t>(0x6f)
+  /// @brief Field MediumOrchid value: I32(111)
   static ::System::Drawing::KnownColor const MediumOrchid;
 
-  /// @brief Field MediumPurple value: static_cast<int32_t>(0x70)
+  /// @brief Field MediumPurple value: I32(112)
   static ::System::Drawing::KnownColor const MediumPurple;
 
-  /// @brief Field MediumSeaGreen value: static_cast<int32_t>(0x71)
+  /// @brief Field MediumSeaGreen value: I32(113)
   static ::System::Drawing::KnownColor const MediumSeaGreen;
 
-  /// @brief Field MediumSlateBlue value: static_cast<int32_t>(0x72)
+  /// @brief Field MediumSlateBlue value: I32(114)
   static ::System::Drawing::KnownColor const MediumSlateBlue;
 
-  /// @brief Field MediumSpringGreen value: static_cast<int32_t>(0x73)
+  /// @brief Field MediumSpringGreen value: I32(115)
   static ::System::Drawing::KnownColor const MediumSpringGreen;
 
-  /// @brief Field MediumTurquoise value: static_cast<int32_t>(0x74)
+  /// @brief Field MediumTurquoise value: I32(116)
   static ::System::Drawing::KnownColor const MediumTurquoise;
 
-  /// @brief Field MediumVioletRed value: static_cast<int32_t>(0x75)
+  /// @brief Field MediumVioletRed value: I32(117)
   static ::System::Drawing::KnownColor const MediumVioletRed;
 
-  /// @brief Field Menu value: static_cast<int32_t>(0x15)
+  /// @brief Field Menu value: I32(21)
   static ::System::Drawing::KnownColor const Menu;
 
-  /// @brief Field MenuBar value: static_cast<int32_t>(0xad)
+  /// @brief Field MenuBar value: I32(173)
   static ::System::Drawing::KnownColor const MenuBar;
 
-  /// @brief Field MenuHighlight value: static_cast<int32_t>(0xae)
+  /// @brief Field MenuHighlight value: I32(174)
   static ::System::Drawing::KnownColor const MenuHighlight;
 
-  /// @brief Field MenuText value: static_cast<int32_t>(0x16)
+  /// @brief Field MenuText value: I32(22)
   static ::System::Drawing::KnownColor const MenuText;
 
-  /// @brief Field MidnightBlue value: static_cast<int32_t>(0x76)
+  /// @brief Field MidnightBlue value: I32(118)
   static ::System::Drawing::KnownColor const MidnightBlue;
 
-  /// @brief Field MintCream value: static_cast<int32_t>(0x77)
+  /// @brief Field MintCream value: I32(119)
   static ::System::Drawing::KnownColor const MintCream;
 
-  /// @brief Field MistyRose value: static_cast<int32_t>(0x78)
+  /// @brief Field MistyRose value: I32(120)
   static ::System::Drawing::KnownColor const MistyRose;
 
-  /// @brief Field Moccasin value: static_cast<int32_t>(0x79)
+  /// @brief Field Moccasin value: I32(121)
   static ::System::Drawing::KnownColor const Moccasin;
 
-  /// @brief Field NavajoWhite value: static_cast<int32_t>(0x7a)
+  /// @brief Field NavajoWhite value: I32(122)
   static ::System::Drawing::KnownColor const NavajoWhite;
 
-  /// @brief Field Navy value: static_cast<int32_t>(0x7b)
+  /// @brief Field Navy value: I32(123)
   static ::System::Drawing::KnownColor const Navy;
 
-  /// @brief Field OldLace value: static_cast<int32_t>(0x7c)
+  /// @brief Field OldLace value: I32(124)
   static ::System::Drawing::KnownColor const OldLace;
 
-  /// @brief Field Olive value: static_cast<int32_t>(0x7d)
+  /// @brief Field Olive value: I32(125)
   static ::System::Drawing::KnownColor const Olive;
 
-  /// @brief Field OliveDrab value: static_cast<int32_t>(0x7e)
+  /// @brief Field OliveDrab value: I32(126)
   static ::System::Drawing::KnownColor const OliveDrab;
 
-  /// @brief Field Orange value: static_cast<int32_t>(0x7f)
+  /// @brief Field Orange value: I32(127)
   static ::System::Drawing::KnownColor const Orange;
 
-  /// @brief Field OrangeRed value: static_cast<int32_t>(0x80)
+  /// @brief Field OrangeRed value: I32(128)
   static ::System::Drawing::KnownColor const OrangeRed;
 
-  /// @brief Field Orchid value: static_cast<int32_t>(0x81)
+  /// @brief Field Orchid value: I32(129)
   static ::System::Drawing::KnownColor const Orchid;
 
-  /// @brief Field PaleGoldenrod value: static_cast<int32_t>(0x82)
+  /// @brief Field PaleGoldenrod value: I32(130)
   static ::System::Drawing::KnownColor const PaleGoldenrod;
 
-  /// @brief Field PaleGreen value: static_cast<int32_t>(0x83)
+  /// @brief Field PaleGreen value: I32(131)
   static ::System::Drawing::KnownColor const PaleGreen;
 
-  /// @brief Field PaleTurquoise value: static_cast<int32_t>(0x84)
+  /// @brief Field PaleTurquoise value: I32(132)
   static ::System::Drawing::KnownColor const PaleTurquoise;
 
-  /// @brief Field PaleVioletRed value: static_cast<int32_t>(0x85)
+  /// @brief Field PaleVioletRed value: I32(133)
   static ::System::Drawing::KnownColor const PaleVioletRed;
 
-  /// @brief Field PapayaWhip value: static_cast<int32_t>(0x86)
+  /// @brief Field PapayaWhip value: I32(134)
   static ::System::Drawing::KnownColor const PapayaWhip;
 
-  /// @brief Field PeachPuff value: static_cast<int32_t>(0x87)
+  /// @brief Field PeachPuff value: I32(135)
   static ::System::Drawing::KnownColor const PeachPuff;
 
-  /// @brief Field Peru value: static_cast<int32_t>(0x88)
+  /// @brief Field Peru value: I32(136)
   static ::System::Drawing::KnownColor const Peru;
 
-  /// @brief Field Pink value: static_cast<int32_t>(0x89)
+  /// @brief Field Pink value: I32(137)
   static ::System::Drawing::KnownColor const Pink;
 
-  /// @brief Field Plum value: static_cast<int32_t>(0x8a)
+  /// @brief Field Plum value: I32(138)
   static ::System::Drawing::KnownColor const Plum;
 
-  /// @brief Field PowderBlue value: static_cast<int32_t>(0x8b)
+  /// @brief Field PowderBlue value: I32(139)
   static ::System::Drawing::KnownColor const PowderBlue;
 
-  /// @brief Field Purple value: static_cast<int32_t>(0x8c)
+  /// @brief Field Purple value: I32(140)
   static ::System::Drawing::KnownColor const Purple;
 
-  /// @brief Field Red value: static_cast<int32_t>(0x8d)
+  /// @brief Field Red value: I32(141)
   static ::System::Drawing::KnownColor const Red;
 
-  /// @brief Field RosyBrown value: static_cast<int32_t>(0x8e)
+  /// @brief Field RosyBrown value: I32(142)
   static ::System::Drawing::KnownColor const RosyBrown;
 
-  /// @brief Field RoyalBlue value: static_cast<int32_t>(0x8f)
+  /// @brief Field RoyalBlue value: I32(143)
   static ::System::Drawing::KnownColor const RoyalBlue;
 
-  /// @brief Field SaddleBrown value: static_cast<int32_t>(0x90)
+  /// @brief Field SaddleBrown value: I32(144)
   static ::System::Drawing::KnownColor const SaddleBrown;
 
-  /// @brief Field Salmon value: static_cast<int32_t>(0x91)
+  /// @brief Field Salmon value: I32(145)
   static ::System::Drawing::KnownColor const Salmon;
 
-  /// @brief Field SandyBrown value: static_cast<int32_t>(0x92)
+  /// @brief Field SandyBrown value: I32(146)
   static ::System::Drawing::KnownColor const SandyBrown;
 
-  /// @brief Field ScrollBar value: static_cast<int32_t>(0x17)
+  /// @brief Field ScrollBar value: I32(23)
   static ::System::Drawing::KnownColor const ScrollBar;
 
-  /// @brief Field SeaGreen value: static_cast<int32_t>(0x93)
+  /// @brief Field SeaGreen value: I32(147)
   static ::System::Drawing::KnownColor const SeaGreen;
 
-  /// @brief Field SeaShell value: static_cast<int32_t>(0x94)
+  /// @brief Field SeaShell value: I32(148)
   static ::System::Drawing::KnownColor const SeaShell;
 
-  /// @brief Field Sienna value: static_cast<int32_t>(0x95)
+  /// @brief Field Sienna value: I32(149)
   static ::System::Drawing::KnownColor const Sienna;
 
-  /// @brief Field Silver value: static_cast<int32_t>(0x96)
+  /// @brief Field Silver value: I32(150)
   static ::System::Drawing::KnownColor const Silver;
 
-  /// @brief Field SkyBlue value: static_cast<int32_t>(0x97)
+  /// @brief Field SkyBlue value: I32(151)
   static ::System::Drawing::KnownColor const SkyBlue;
 
-  /// @brief Field SlateBlue value: static_cast<int32_t>(0x98)
+  /// @brief Field SlateBlue value: I32(152)
   static ::System::Drawing::KnownColor const SlateBlue;
 
-  /// @brief Field SlateGray value: static_cast<int32_t>(0x99)
+  /// @brief Field SlateGray value: I32(153)
   static ::System::Drawing::KnownColor const SlateGray;
 
-  /// @brief Field Snow value: static_cast<int32_t>(0x9a)
+  /// @brief Field Snow value: I32(154)
   static ::System::Drawing::KnownColor const Snow;
 
-  /// @brief Field SpringGreen value: static_cast<int32_t>(0x9b)
+  /// @brief Field SpringGreen value: I32(155)
   static ::System::Drawing::KnownColor const SpringGreen;
 
-  /// @brief Field SteelBlue value: static_cast<int32_t>(0x9c)
+  /// @brief Field SteelBlue value: I32(156)
   static ::System::Drawing::KnownColor const SteelBlue;
 
-  /// @brief Field Tan value: static_cast<int32_t>(0x9d)
+  /// @brief Field Tan value: I32(157)
   static ::System::Drawing::KnownColor const Tan;
 
-  /// @brief Field Teal value: static_cast<int32_t>(0x9e)
+  /// @brief Field Teal value: I32(158)
   static ::System::Drawing::KnownColor const Teal;
 
-  /// @brief Field Thistle value: static_cast<int32_t>(0x9f)
+  /// @brief Field Thistle value: I32(159)
   static ::System::Drawing::KnownColor const Thistle;
 
-  /// @brief Field Tomato value: static_cast<int32_t>(0xa0)
+  /// @brief Field Tomato value: I32(160)
   static ::System::Drawing::KnownColor const Tomato;
 
-  /// @brief Field Transparent value: static_cast<int32_t>(0x1b)
+  /// @brief Field Transparent value: I32(27)
   static ::System::Drawing::KnownColor const Transparent;
 
-  /// @brief Field Turquoise value: static_cast<int32_t>(0xa1)
+  /// @brief Field Turquoise value: I32(161)
   static ::System::Drawing::KnownColor const Turquoise;
 
-  /// @brief Field Violet value: static_cast<int32_t>(0xa2)
+  /// @brief Field Violet value: I32(162)
   static ::System::Drawing::KnownColor const Violet;
 
-  /// @brief Field Wheat value: static_cast<int32_t>(0xa3)
+  /// @brief Field Wheat value: I32(163)
   static ::System::Drawing::KnownColor const Wheat;
 
-  /// @brief Field White value: static_cast<int32_t>(0xa4)
+  /// @brief Field White value: I32(164)
   static ::System::Drawing::KnownColor const White;
 
-  /// @brief Field WhiteSmoke value: static_cast<int32_t>(0xa5)
+  /// @brief Field WhiteSmoke value: I32(165)
   static ::System::Drawing::KnownColor const WhiteSmoke;
 
-  /// @brief Field Window value: static_cast<int32_t>(0x18)
+  /// @brief Field Window value: I32(24)
   static ::System::Drawing::KnownColor const Window;
 
-  /// @brief Field WindowFrame value: static_cast<int32_t>(0x19)
+  /// @brief Field WindowFrame value: I32(25)
   static ::System::Drawing::KnownColor const WindowFrame;
 
-  /// @brief Field WindowText value: static_cast<int32_t>(0x1a)
+  /// @brief Field WindowText value: I32(26)
   static ::System::Drawing::KnownColor const WindowText;
 
-  /// @brief Field Yellow value: static_cast<int32_t>(0xa6)
+  /// @brief Field Yellow value: I32(166)
   static ::System::Drawing::KnownColor const Yellow;
 
-  /// @brief Field YellowGreen value: static_cast<int32_t>(0xa7)
+  /// @brief Field YellowGreen value: I32(167)
   static ::System::Drawing::KnownColor const YellowGreen;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17425 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Drawing::KnownColor, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Drawing::KnownColor, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Drawing::KnownColor, 0x4>, "Size mismatch!");
 
 } // namespace System::Drawing
 DEFINE_IL2CPP_ARG_TYPE(::System::Drawing::KnownColor, "System.Drawing", "KnownColor");

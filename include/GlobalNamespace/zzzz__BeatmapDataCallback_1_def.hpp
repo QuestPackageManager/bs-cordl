@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallback_1)
 namespace System {
 class AsyncCallback;
@@ -24,13 +23,12 @@ template <typename T> class BeatmapDataCallback_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BeatmapDataCallback_1);
-// Type: ::BeatmapDataCallback`1
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BeatmapDataCallback`1<T>*
+// CS Name: BeatmapDataCallback`1<T>
 class CORDL_TYPE BeatmapDataCallback_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
@@ -63,7 +61,7 @@ public:
   BeatmapDataCallback_1(BeatmapDataCallback_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,13 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlainDsaEncoding)
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaEncoding;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -19,39 +16,38 @@ class PlainDsaEncoding;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding);
-// Type: Org.BouncyCastle.Crypto.Signers::PlainDsaEncoding
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Signers.IDsaEncoding, System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Signers::PlainDsaEncoding*
+// CS Name: Org.BouncyCastle.Crypto.Signers.PlainDsaEncoding
 class CORDL_TYPE PlainDsaEncoding : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* Instance;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*() noexcept;
 
-  /// @brief Method CheckValue, addr 0x23a5380, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method CheckValue, addr 0x23d866c, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CheckValue(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method Decode, addr 0x23a5120, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x23d840c, size 0x194, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> Decode(::Org::BouncyCastle::Math::BigInteger* n,
                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method DecodeValue, addr 0x23a5418, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method DecodeValue, addr 0x23d8704, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* DecodeValue(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method Encode, addr 0x23a52b4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23d85a0, size 0xcc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
-  /// @brief Method EncodeValue, addr 0x23a54b0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method EncodeValue, addr 0x23d879c, size 0x124, virtual true, abstract: false, final false
   inline void EncodeValue(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* x, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a5630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d891c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* getStaticF_Instance();

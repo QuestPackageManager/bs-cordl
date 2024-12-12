@@ -17,11 +17,10 @@ class MultiplayerMenuClient;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMenuClient);
-// Type: ::MultiplayerMenuClient
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerMenuClient*
+// CS Name: MultiplayerMenuClient
 class CORDL_TYPE MultiplayerMenuClient : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method LateUpdate, addr 0x3ba898c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3c0b328, size 0x368, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerMenuClient* New_ctor();
@@ -41,15 +40,15 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MenuPlayerController>& __cordl_internal_get__menuPlayerController();
 
-  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
   constexpr void __cordl_internal_set__menuPlayerController(::UnityW<::GlobalNamespace::MenuPlayerController> value);
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x3ba8d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0b690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,23 +65,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerMenuClient(MultiplayerMenuClient const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4842 };
+
   /// @brief Field _menuPlayerController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuPlayerController> ____menuPlayerController;
 
   /// @brief Field _nodePoseSyncStateManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::INodePoseSyncStateManager* ____nodePoseSyncStateManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4825 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerMenuClient, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerMenuClient, ____menuPlayerController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerMenuClient, ____nodePoseSyncStateManager) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerMenuClient, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerMenuClient);

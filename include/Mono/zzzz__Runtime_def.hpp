@@ -14,16 +14,15 @@ class Runtime;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Runtime);
-// Type: Mono::Runtime
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono {
 // Is value type: false
-// CS Name: ::Mono::Runtime*
+// CS Name: Mono.Runtime
 class CORDL_TYPE Runtime : public ::System::Object {
 public:
   // Declarations
   /// @brief Field dump, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dump, put = setStaticF_dump)) ::System::Object* dump;
+  __declspec(property(get = getStaticF_dump, put = setStaticF_dump)) ::System::Object* dump;
 
   static inline ::System::Object* getStaticF_dump();
 

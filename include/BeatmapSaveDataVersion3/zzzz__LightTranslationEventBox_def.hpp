@@ -37,11 +37,10 @@ class LightTranslationEventBox;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightTranslationEventBox);
-// Type: BeatmapSaveDataVersion3::LightTranslationEventBox
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.Axis, BeatmapSaveDataCommon.DistributionParamType, BeatmapSaveDataCommon.EaseType, BeatmapSaveDataVersion3.EventBox
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::LightTranslationEventBox*
+// CS Name: BeatmapSaveDataVersion3.LightTranslationEventBox
 class CORDL_TYPE LightTranslationEventBox : public ::BeatmapSaveDataVersion3::EventBox {
 public:
   // Declarations
@@ -97,9 +96,9 @@ public:
 
   constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_i();
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*& __cordl_internal_get_l();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* const& __cordl_internal_get_l() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*> const& __cordl_internal_get_l() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*& __cordl_internal_get_l();
 
   constexpr int32_t const& __cordl_internal_get_r() const;
 
@@ -127,31 +126,31 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x26d48fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270626c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t gapDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent,
                     ::BeatmapSaveDataCommon::EaseType gapDistributionEaseType, ::BeatmapSaveDataCommon::Axis axis, bool flipTranslation,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method get_axis, addr 0x26d48c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x2706234, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::Axis get_axis();
 
-  /// @brief Method get_flipTranslation, addr 0x26d48cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_flipTranslation, addr 0x270623c, size 0x10, virtual false, abstract: false, final false
   inline bool get_flipTranslation();
 
-  /// @brief Method get_gapDistributionEaseType, addr 0x26d48ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionEaseType, addr 0x270625c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_gapDistributionEaseType();
 
-  /// @brief Method get_gapDistributionParam, addr 0x26d48b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionParam, addr 0x2706224, size 0x8, virtual false, abstract: false, final false
   inline float_t get_gapDistributionParam();
 
-  /// @brief Method get_gapDistributionParamType, addr 0x26d48bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionParamType, addr 0x270622c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_gapDistributionParamType();
 
-  /// @brief Method get_gapDistributionShouldAffectFirstBaseEvent, addr 0x26d48dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionShouldAffectFirstBaseEvent, addr 0x270624c, size 0x10, virtual false, abstract: false, final false
   inline bool get_gapDistributionShouldAffectFirstBaseEvent();
 
-  /// @brief Method get_lightTranslationBaseDataList, addr 0x26d48f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightTranslationBaseDataList, addr 0x2706264, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* get_lightTranslationBaseDataList();
 
 protected:
@@ -167,6 +166,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationEventBox", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationEventBox(LightTranslationEventBox const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13410 };
 
   /// @brief Field s, offset: 0x20, size: 0x4, def value: None
   float_t ___s;
@@ -189,14 +191,9 @@ public:
   /// @brief Field l, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* ___l;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13379 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightTranslationEventBox, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationEventBox, ___s) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationEventBox, ___t) == 0x24, "Offset mismatch!");
@@ -210,6 +207,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationEventBox, ___b
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationEventBox, ___i) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationEventBox, ___l) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightTranslationEventBox, 0x40>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::LightTranslationEventBox);

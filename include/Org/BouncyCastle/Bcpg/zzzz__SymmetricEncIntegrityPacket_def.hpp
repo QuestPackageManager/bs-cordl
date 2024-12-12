@@ -15,11 +15,10 @@ class SymmetricEncIntegrityPacket;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket);
-// Type: Org.BouncyCastle.Bcpg::SymmetricEncIntegrityPacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.InputStreamPacket
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::SymmetricEncIntegrityPacket*
+// CS Name: Org.BouncyCastle.Bcpg.SymmetricEncIntegrityPacket
 class CORDL_TYPE SymmetricEncIntegrityPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26109e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2643cd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SymmetricEncIntegrityPacket(SymmetricEncIntegrityPacket const&) = delete;
 
-  /// @brief Field version, offset: 0x18, size: 0x4, def value: None
-  int32_t ___version;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 593 };
+
+  /// @brief Field version, offset: 0x18, size: 0x4, def value: None
+  int32_t ___version;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket, ___version) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket);

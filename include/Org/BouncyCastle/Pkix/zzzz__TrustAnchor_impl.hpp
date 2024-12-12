@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Pkix::TrustAnchor::*)(::Org::BouncyCastle::X509::X509Certificate*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::TrustAnchor::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2564950;
+  constexpr static std::size_t addrs = 0x2597c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::TrustAnchor::*)(
     ::Org::BouncyCastle::Asn1::X509::X509Name*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::TrustAnchor::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2564a90;
+  constexpr static std::size_t addrs = 0x2597d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::TrustAnchor::*)(
     ::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::TrustAnchor::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2564b54;
+  constexpr static std::size_t addrs = 0x2597e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::Pkix::TrustAnchor::*)()>(
     &::Org::BouncyCastle::Pkix::TrustAnchor::get_TrustedCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2564c88;
+  constexpr static std::size_t addrs = 0x2597f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::TrustAnchor*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (::Org::BouncyCastle::Pkix::TrustAnchor::*)()>(
     &::Org::BouncyCastle::Pkix::TrustAnchor::get_CA)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2564c90;
+  constexpr static std::size_t addrs = 0x2597f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::TrustAnchor*>::get(), "get_CA",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::TrustAnchor::*)()>(&::Org::BouncyCastle::Pkix::TrustAnchor::get_CAName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2564c98;
+  constexpr static std::size_t addrs = 0x2597f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::TrustAnchor*>::get(), "get_CAName",
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (::Org::BouncyCastle::Pkix::TrustAnchor::*)()>(
     &::Org::BouncyCastle::Pkix::TrustAnchor::get_CAPublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2564ca0;
+  constexpr static std::size_t addrs = 0x2597f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::TrustAnchor*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::TrustAnchor::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::TrustAnchor::setNameConstraints)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x25649d4;
+  constexpr static std::size_t addrs = 0x2597cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Pkix::TrustAnchor::*)()>(
     &::Org::BouncyCastle::Pkix::TrustAnchor::get_GetNameConstraints)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2564ca8;
+  constexpr static std::size_t addrs = 0x2597f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::TrustAnchor*>::get(),
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::TrustAnchor::*)()>(&::Org::BouncyCastle::Pkix::TrustAnchor::ToString)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x2564d04;
+  constexpr static std::size_t addrs = 0x2597ff0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pubKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_pubKey() const {
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_pubKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pubKey;
 }
@@ -182,7 +182,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& Org::BouncyCastle::Pkix::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___caPrincipal;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_caPrincipal() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Name* const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_caPrincipal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___caPrincipal;
 }
@@ -194,7 +194,7 @@ constexpr ::Org::BouncyCastle::X509::X509Certificate*& Org::BouncyCastle::Pkix::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trustedCert;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_trustedCert() const {
+constexpr ::Org::BouncyCastle::X509::X509Certificate* const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_trustedCert() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trustedCert;
 }
@@ -218,7 +218,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::NameConstraints*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nc;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NameConstraints*> const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_nc() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::NameConstraints* const& Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_get_nc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nc;
 }
@@ -226,21 +226,12 @@ constexpr void Org::BouncyCastle::Pkix::TrustAnchor::__cordl_internal_set_nc(::O
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Pkix::TrustAnchor* Org::BouncyCastle::Pkix::TrustAnchor::New_ctor(::Org::BouncyCastle::X509::X509Certificate* trustedCert,
-                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::TrustAnchor*>(trustedCert, nameConstraints));
-}
 inline void Org::BouncyCastle::Pkix::TrustAnchor::_ctor(::Org::BouncyCastle::X509::X509Certificate* trustedCert, ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::TrustAnchor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, trustedCert, nameConstraints);
-}
-inline ::Org::BouncyCastle::Pkix::TrustAnchor* Org::BouncyCastle::Pkix::TrustAnchor::New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* caPrincipal,
-                                                                                              ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
-                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::TrustAnchor*>(caPrincipal, pubKey, nameConstraints));
 }
 inline void Org::BouncyCastle::Pkix::TrustAnchor::_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* caPrincipal, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
@@ -250,10 +241,6 @@ inline void Org::BouncyCastle::Pkix::TrustAnchor::_ctor(::Org::BouncyCastle::Asn
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, caPrincipal, pubKey, nameConstraints);
-}
-inline ::Org::BouncyCastle::Pkix::TrustAnchor* Org::BouncyCastle::Pkix::TrustAnchor::New_ctor(::StringW caName, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
-                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::TrustAnchor*>(caName, pubKey, nameConstraints));
 }
 inline void Org::BouncyCastle::Pkix::TrustAnchor::_ctor(::StringW caName, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -298,6 +285,19 @@ inline ::StringW Org::BouncyCastle::Pkix::TrustAnchor::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::TrustAnchor*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Pkix::TrustAnchor* Org::BouncyCastle::Pkix::TrustAnchor::New_ctor(::Org::BouncyCastle::X509::X509Certificate* trustedCert,
+                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::TrustAnchor*>(trustedCert, nameConstraints));
+}
+inline ::Org::BouncyCastle::Pkix::TrustAnchor* Org::BouncyCastle::Pkix::TrustAnchor::New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* caPrincipal,
+                                                                                              ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
+                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::TrustAnchor*>(caPrincipal, pubKey, nameConstraints));
+}
+inline ::Org::BouncyCastle::Pkix::TrustAnchor* Org::BouncyCastle::Pkix::TrustAnchor::New_ctor(::StringW caName, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
+                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::TrustAnchor*>(caName, pubKey, nameConstraints));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::TrustAnchor::TrustAnchor() {}

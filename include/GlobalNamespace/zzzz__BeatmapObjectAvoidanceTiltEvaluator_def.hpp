@@ -22,11 +22,10 @@ class BeatmapObjectAvoidanceTiltEvaluator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);
-// Type: ::BeatmapObjectAvoidanceTiltEvaluator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapObjectAvoidanceTiltEvaluator*
+// CS Name: BeatmapObjectAvoidanceTiltEvaluator
 class CORDL_TYPE BeatmapObjectAvoidanceTiltEvaluator : public ::System::Object {
 public:
   // Declarations
@@ -45,19 +44,19 @@ public:
   /// @brief Field _normalizedGravity, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__normalizedGravity, put = __cordl_internal_set__normalizedGravity)) ::UnityEngine::Vector2 _normalizedGravity;
 
-  /// @brief Method GetTiltAngle, addr 0x2232630, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetTiltAngle, addr 0x225db90, size 0x2c8, virtual false, abstract: false, final false
   inline float_t GetTiltAngle();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
                                                                                  ::UnityEngine::Vector2 gravity);
 
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
+
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
+  constexpr ::GlobalNamespace::BezierSplineEvaluator* const& __cordl_internal_get__bezierSplineEvaluator() const;
 
   constexpr ::GlobalNamespace::BezierSplineEvaluator*& __cordl_internal_get__bezierSplineEvaluator();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const& __cordl_internal_get__bezierSplineEvaluator() const;
 
   constexpr float_t const& __cordl_internal_get__currentAcceleration() const;
 
@@ -81,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__normalizedGravity(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x2232550, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225dab0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity);
 
 protected:
@@ -98,6 +97,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapObjectAvoidanceTiltEvaluator(BeatmapObjectAvoidanceTiltEvaluator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17659 };
+
+  /// @brief Field kLookAheadTime offset 0xffffffff size 0x4
+  static constexpr float_t kLookAheadTime{ static_cast<float_t>(0.2f) };
+
   /// @brief Field _audioTimeSource, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
@@ -113,17 +118,9 @@ public:
   /// @brief Field _currentAcceleration, offset: 0x30, size: 0x4, def value: None
   float_t ____currentAcceleration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
-
-  /// @brief Field kLookAheadTime offset 0xffffffff size 0x4
-  static constexpr float_t kLookAheadTime{ 0.2 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____audioTimeSource) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____gravity) == 0x18, "Offset mismatch!");
@@ -133,6 +130,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, _
 static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____bezierSplineEvaluator) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____currentAcceleration) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);

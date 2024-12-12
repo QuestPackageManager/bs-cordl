@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AvatarsAsyncInstaller)
 namespace BGLib::AppFlow::Initialization {
-class __AsyncInstaller__IInstallerRegistry;
+class AsyncInstaller_IInstallerRegistry;
 }
 namespace BeatSaber::AvatarCore {
 class AbstractAdapterInstallerSO;
@@ -21,29 +21,28 @@ class AvatarsAsyncInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarsAsyncInstaller);
-// Type: BeatSaber.AvatarCore::AvatarsAsyncInstaller
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::AvatarsAsyncInstaller*
-class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>> {
+// CS Name: BeatSaber.AvatarCore.AvatarsAsyncInstaller
+class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*> {
 public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x221e704, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2249c78, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x221e7c0, size 0x3e8, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
-                                         ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2249d34, size 0x3e8, virtual true, abstract: false, final false
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*>* adaptersInstallers,
+                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221eba8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224a11c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x221e6c4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x2249c38, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -61,7 +60,7 @@ public:
   AvatarsAsyncInstaller(AvatarsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

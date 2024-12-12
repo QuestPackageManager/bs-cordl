@@ -12,11 +12,10 @@ struct BuiltinRenderTextureType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BuiltinRenderTextureType);
-// Type: UnityEngine.Rendering::BuiltinRenderTextureType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::BuiltinRenderTextureType
+// CS Name: UnityEngine.Rendering.BuiltinRenderTextureType
 struct CORDL_TYPE BuiltinRenderTextureType {
 public:
   // Declarations
@@ -66,90 +65,90 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr BuiltinRenderTextureType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BindableTexture value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field BindableTexture value: I32(-1)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const BindableTexture;
 
-  /// @brief Field BufferPtr value: static_cast<int32_t>(0xfffffffd)
+  /// @brief Field BufferPtr value: I32(-3)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const BufferPtr;
 
-  /// @brief Field CameraTarget value: static_cast<int32_t>(0x2)
+  /// @brief Field CameraTarget value: I32(2)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const CameraTarget;
 
-  /// @brief Field CurrentActive value: static_cast<int32_t>(0x1)
+  /// @brief Field CurrentActive value: I32(1)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const CurrentActive;
 
-  /// @brief Field Depth value: static_cast<int32_t>(0x3)
+  /// @brief Field Depth value: I32(3)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const Depth;
 
-  /// @brief Field DepthNormals value: static_cast<int32_t>(0x4)
+  /// @brief Field DepthNormals value: I32(4)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const DepthNormals;
 
-  /// @brief Field GBuffer0 value: static_cast<int32_t>(0xa)
+  /// @brief Field GBuffer0 value: I32(10)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer0;
 
-  /// @brief Field GBuffer1 value: static_cast<int32_t>(0xb)
+  /// @brief Field GBuffer1 value: I32(11)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer1;
 
-  /// @brief Field GBuffer2 value: static_cast<int32_t>(0xc)
+  /// @brief Field GBuffer2 value: I32(12)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer2;
 
-  /// @brief Field GBuffer3 value: static_cast<int32_t>(0xd)
+  /// @brief Field GBuffer3 value: I32(13)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer3;
 
-  /// @brief Field GBuffer4 value: static_cast<int32_t>(0x10)
+  /// @brief Field GBuffer4 value: I32(16)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer4;
 
-  /// @brief Field GBuffer5 value: static_cast<int32_t>(0x11)
+  /// @brief Field GBuffer5 value: I32(17)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer5;
 
-  /// @brief Field GBuffer6 value: static_cast<int32_t>(0x12)
+  /// @brief Field GBuffer6 value: I32(18)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer6;
 
-  /// @brief Field GBuffer7 value: static_cast<int32_t>(0x13)
+  /// @brief Field GBuffer7 value: I32(19)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer7;
 
-  /// @brief Field MotionVectors value: static_cast<int32_t>(0xf)
+  /// @brief Field MotionVectors value: I32(15)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const MotionVectors;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const None;
 
-  /// @brief Field PrepassLight value: static_cast<int32_t>(0x8)
+  /// @brief Field PrepassLight value: I32(8)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLight;
 
-  /// @brief Field PrepassLightSpec value: static_cast<int32_t>(0x9)
+  /// @brief Field PrepassLightSpec value: I32(9)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLightSpec;
 
-  /// @brief Field PrepassNormalsSpec value: static_cast<int32_t>(0x7)
+  /// @brief Field PrepassNormalsSpec value: I32(7)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassNormalsSpec;
 
-  /// @brief Field PropertyName value: static_cast<int32_t>(0xfffffffc)
+  /// @brief Field PropertyName value: I32(-4)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const PropertyName;
 
-  /// @brief Field Reflections value: static_cast<int32_t>(0xe)
+  /// @brief Field Reflections value: I32(14)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const Reflections;
 
-  /// @brief Field RenderTexture value: static_cast<int32_t>(0xfffffffe)
+  /// @brief Field RenderTexture value: I32(-2)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const RenderTexture;
 
-  /// @brief Field ResolvedDepth value: static_cast<int32_t>(0x5)
+  /// @brief Field ResolvedDepth value: I32(5)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const ResolvedDepth;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11189 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BuiltinRenderTextureType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::BuiltinRenderTextureType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BuiltinRenderTextureType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BuiltinRenderTextureType, "UnityEngine.Rendering", "BuiltinRenderTextureType");

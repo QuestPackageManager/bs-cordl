@@ -12,18 +12,17 @@ class HttpUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::HttpUtilities);
-// Type: System.Net.Http::HttpUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http {
 // Is value type: false
-// CS Name: ::System.Net.Http::HttpUtilities*
+// CS Name: System.Net.Http.HttpUtilities
 class CORDL_TYPE HttpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsSecureWebSocketScheme, addr 0x41aff00, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsSecureWebSocketScheme, addr 0x4211214, size 0x50, virtual false, abstract: false, final false
   static inline bool IsSecureWebSocketScheme(::StringW scheme);
 
-  /// @brief Method IsSupportedSecureScheme, addr 0x41afe94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedSecureScheme, addr 0x42111a8, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsSupportedSecureScheme(::StringW scheme);
 
 protected:
@@ -41,7 +40,7 @@ public:
   HttpUtilities(HttpUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

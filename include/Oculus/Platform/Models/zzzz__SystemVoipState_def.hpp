@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__SystemVoipStatus_def.hpp"
 #include "Oculus/Platform/zzzz__VoipMuteState_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SystemVoipState)
 namespace System {
 struct IntPtr;
@@ -17,11 +16,10 @@ class SystemVoipState;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::SystemVoipState);
-// Type: Oculus.Platform.Models::SystemVoipState
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.SystemVoipStatus, Oculus.Platform.VoipMuteState, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::SystemVoipState*
+// CS Name: Oculus.Platform.Models.SystemVoipState
 class CORDL_TYPE SystemVoipState : public ::System::Object {
 public:
   // Declarations
@@ -45,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::SystemVoipStatus value);
 
-  /// @brief Method .ctor, addr 0x3f325a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9264c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -62,23 +60,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SystemVoipState(SystemVoipState const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15565 };
+
   /// @brief Field MicrophoneMuted, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::VoipMuteState ___MicrophoneMuted;
 
   /// @brief Field Status, offset: 0x14, size: 0x4, def value: None
   ::Oculus::Platform::SystemVoipStatus ___Status;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15530 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SystemVoipState, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::SystemVoipState, ___MicrophoneMuted) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::SystemVoipState, ___Status) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SystemVoipState, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::SystemVoipState);

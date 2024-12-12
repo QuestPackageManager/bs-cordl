@@ -14,33 +14,38 @@ namespace UnityEngine::Events {
 class UnityAction;
 }
 namespace UnityEngine {
-struct __BeforeRenderHelper__OrderBlock;
+struct BeforeRenderHelper_OrderBlock;
 }
 // Forward declare root types
 namespace UnityEngine {
 class BeforeRenderHelper;
 }
 namespace UnityEngine {
-struct __BeforeRenderHelper__OrderBlock;
+struct BeforeRenderHelper_OrderBlock;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::BeforeRenderHelper);
-MARK_VAL_T(::UnityEngine::__BeforeRenderHelper__OrderBlock);
-// Type: ::OrderBlock
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::BeforeRenderHelper_OrderBlock);
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::BeforeRenderHelper::OrderBlock
-struct CORDL_TYPE __BeforeRenderHelper__OrderBlock {
+// CS Name: UnityEngine.BeforeRenderHelper/OrderBlock
+struct CORDL_TYPE BeforeRenderHelper_OrderBlock {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeforeRenderHelper__OrderBlock();
+  constexpr BeforeRenderHelper_OrderBlock();
 
   // Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "::UnityEngine::Events::UnityAction*", modifiers: "", def_value: None
   // }]
-  constexpr __BeforeRenderHelper__OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept;
+  constexpr BeforeRenderHelper_OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10707 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field order, offset: 0x0, size: 0x4, def value: None
   int32_t order;
@@ -48,50 +53,43 @@ public:
   /// @brief Field callback, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction* callback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10674 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::__BeforeRenderHelper__OrderBlock, 0x10>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::BeforeRenderHelper_OrderBlock, order) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, order) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::BeforeRenderHelper_OrderBlock, callback) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, callback) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::BeforeRenderHelper_OrderBlock, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine
-// Type: UnityEngine::BeforeRenderHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::BeforeRenderHelper*
+// CS Name: UnityEngine.BeforeRenderHelper
 class CORDL_TYPE BeforeRenderHelper : public ::System::Object {
 public:
   // Declarations
-  using OrderBlock = ::UnityEngine::__BeforeRenderHelper__OrderBlock;
+  using OrderBlock = ::UnityEngine::BeforeRenderHelper_OrderBlock;
 
   /// @brief Field s_OrderBlocks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_OrderBlocks, put = setStaticF_s_OrderBlocks)) ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* s_OrderBlocks;
+  __declspec(property(get = getStaticF_s_OrderBlocks, put = setStaticF_s_OrderBlocks)) ::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>* s_OrderBlocks;
 
-  /// @brief Method GetUpdateOrder, addr 0x480fe58, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateOrder, addr 0x48719f8, size 0x118, virtual false, abstract: false, final false
   static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method Invoke, addr 0x48003d4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4861f74, size 0x1a8, virtual false, abstract: false, final false
   static inline void Invoke();
 
-  /// @brief Method RegisterCallback, addr 0x47ff480, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallback, addr 0x4861020, size 0x34c, virtual false, abstract: false, final false
   static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method UnregisterCallback, addr 0x47ff820, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x48613c0, size 0x304, virtual false, abstract: false, final false
   static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* getStaticF_s_OrderBlocks();
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>* getStaticF_s_OrderBlocks();
 
-  static inline void setStaticF_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* value);
+  static inline void setStaticF_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>* value);
 
 protected:
   // Ctor Parameters []
@@ -108,7 +106,7 @@ public:
   BeforeRenderHelper(BeforeRenderHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,4 +116,4 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::BeforeRenderHelper,
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::BeforeRenderHelper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BeforeRenderHelper*, "UnityEngine", "BeforeRenderHelper");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::__BeforeRenderHelper__OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BeforeRenderHelper_OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");

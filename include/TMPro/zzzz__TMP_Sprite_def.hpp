@@ -17,11 +17,10 @@ class TMP_Sprite;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_Sprite);
-// Type: TMPro::TMP_Sprite
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies TMPro.TMP_TextElement_Legacy, UnityEngine.Vector2
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_Sprite*
+// CS Name: TMPro.TMP_Sprite
 class CORDL_TYPE TMP_Sprite : public ::TMPro::TMP_TextElement_Legacy {
 public:
   // Declarations
@@ -72,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_unicode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x479d9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fece8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_Sprite(TMP_Sprite const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14534 };
+
   /// @brief Field name, offset: 0x38, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -104,14 +106,9 @@ public:
   /// @brief Field sprite, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14500 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Sprite, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_Sprite, ___name) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_Sprite, ___hashCode) == 0x40, "Offset mismatch!");
@@ -121,6 +118,8 @@ static_assert(offsetof(::TMPro::TMP_Sprite, ___unicode) == 0x44, "Offset mismatc
 static_assert(offsetof(::TMPro::TMP_Sprite, ___pivot) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_Sprite, ___sprite) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Sprite, 0x58>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_Sprite);

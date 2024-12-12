@@ -28,24 +28,23 @@ class BeatmapDataAddTestSlidersTransform;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataAddTestSlidersTransform);
-// Type: ::BeatmapDataAddTestSlidersTransform
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapDataAddTestSlidersTransform*
+// CS Name: BeatmapDataAddTestSlidersTransform
 class CORDL_TYPE BeatmapDataAddTestSlidersTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x2675494, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x26a9a24, size 0x328, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method FindNextSameColorTypeNote, addr 0x2675b88, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FindNextSameColorTypeNote, addr 0x26aa118, size 0x1ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int32_t startIndex,
                                                                        ::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2675d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aa304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,10 +62,10 @@ public:
   BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12784 };
 
   /// @brief Field kMaxTimeDiff offset 0xffffffff size 0x4
-  static constexpr float_t kMaxTimeDiff{ 2.0 };
+  static constexpr float_t kMaxTimeDiff{ static_cast<float_t>(2.0f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

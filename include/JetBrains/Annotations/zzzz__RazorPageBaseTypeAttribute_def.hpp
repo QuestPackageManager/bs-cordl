@@ -12,11 +12,10 @@ class RazorPageBaseTypeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::RazorPageBaseTypeAttribute);
-// Type: JetBrains.Annotations::RazorPageBaseTypeAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::RazorPageBaseTypeAttribute*
+// CS Name: JetBrains.Annotations.RazorPageBaseTypeAttribute
 class CORDL_TYPE RazorPageBaseTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -46,22 +45,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c8a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af11b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x4a8c8d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af11e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x4a8c8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x4af120c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x4a8c90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x4af121c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x4a8c904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x4af1214, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x4a8c914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x4af1224, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:
@@ -78,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18509 };
+
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BaseType_k__BackingField;
 
   /// @brief Field <PageName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____PageName_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18428 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::RazorPageBaseTypeAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::RazorPageBaseTypeAttribute, ____BaseType_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::JetBrains::Annotations::RazorPageBaseTypeAttribute, ____PageName_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::RazorPageBaseTypeAttribute, 0x20>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::RazorPageBaseTypeAttribute);

@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/BaseSlider_1.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IValueField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
@@ -12,60 +13,45 @@
 #include "UnityEngine/UIElements/zzzz__FocusInEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IValueField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-template <typename TValueType> inline ::UnityEngine::UIElements::__BaseSlider_1__UxmlTraits<TValueType>* UnityEngine::UIElements::__BaseSlider_1__UxmlTraits<TValueType>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__BaseSlider_1__UxmlTraits<TValueType>*>());
-}
-template <typename TValueType> inline void UnityEngine::UIElements::__BaseSlider_1__UxmlTraits<TValueType>::_ctor() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BaseSlider_1__UxmlTraits<TValueType>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename TValueType> inline ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>* UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>*>());
+}
 // Ctor Parameters []
-template <typename TValueType> constexpr ::UnityEngine::UIElements::__BaseSlider_1__UxmlTraits<TValueType>::__BaseSlider_1__UxmlTraits() {}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>::BaseSlider_1_UxmlTraits() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename TValueType> constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::__BaseSlider_1__SliderKey(int32_t value__) noexcept {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::BaseSlider_1_SliderKey(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-template <typename TValueType> constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::__BaseSlider_1__SliderKey() {}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::BaseSlider_1_SliderKey() {}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::None{ static_cast<int32_t>(0x0) };
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Lowest{ static_cast<int32_t>(0x1) };
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::LowerPage{ static_cast<int32_t>(0x2) };
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Lower{ static_cast<int32_t>(0x3) };
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Higher{ static_cast<int32_t>(0x4) };
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::Lowest{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::HigherPage{ static_cast<int32_t>(0x5) };
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::LowerPage{ static_cast<int32_t>(0x2) };
-template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::Lower{ static_cast<int32_t>(0x3) };
-template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::Higher{ static_cast<int32_t>(0x4) };
-template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::HigherPage{ static_cast<int32_t>(0x5) };
-template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::Highest{ static_cast<int32_t>(0x6) };
-/// @brief Convert operator to "::UnityEngine::UIElements::IValueField_1<TValueType>"
-template <typename TValueType> constexpr UnityEngine::UIElements::BaseSlider_1<TValueType>::operator ::UnityEngine::UIElements::IValueField_1<TValueType>*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IValueField_1<TValueType>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IValueField_1<TValueType>"
-template <typename TValueType>
-constexpr ::UnityEngine::UIElements::IValueField_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::i___UnityEngine__UIElements__IValueField_1_TValueType_() noexcept {
-  return static_cast<::UnityEngine::UIElements::IValueField_1<TValueType>*>(static_cast<void*>(this));
-}
+constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Highest{ static_cast<int32_t>(0x6) };
 template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragContainer_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragContainer_k__BackingField;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragContainer_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragContainer_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragContainer_k__BackingField;
 }
@@ -77,9 +63,7 @@ template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElemen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragElement_k__BackingField;
 }
-template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragElement_k__BackingField() const {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragElement_k__BackingField;
 }
@@ -92,8 +76,7 @@ template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElemen
   return this->____trackElement_k__BackingField;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__trackElement_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__trackElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackElement_k__BackingField;
 }
@@ -106,8 +89,7 @@ template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElemen
   return this->____dragBorderElement_k__BackingField;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragBorderElement_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragBorderElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragBorderElement_k__BackingField;
 }
@@ -120,9 +102,7 @@ template <typename TValueType> constexpr ::UnityEngine::UIElements::TextField*& 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputTextField_k__BackingField;
 }
-template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextField*> const&
-UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__inputTextField_k__BackingField() const {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::TextField* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__inputTextField_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputTextField_k__BackingField;
 }
@@ -208,8 +188,7 @@ constexpr ::UnityEngine::UIElements::ClampedDragger_1<TValueType>*& UnityEngine:
   return this->____clampedDragger_k__BackingField;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClampedDragger_1<TValueType>*> const&
-UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clampedDragger_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clampedDragger_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clampedDragger_k__BackingField;
 }
@@ -527,15 +506,6 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-/// @param direction: ::UnityEngine::UIElements::SliderDirection (default: static_cast<int32_t>(0x0))
-/// @param pageSize: float_t (default: 0.0)
-template <typename TValueType>
-inline ::UnityEngine::UIElements::BaseSlider_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::New_ctor(::StringW label, TValueType start, TValueType end,
-                                                                                                                        ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(label, start, end, direction, pageSize));
-}
-/// @param direction: ::UnityEngine::UIElements::SliderDirection (default: static_cast<int32_t>(0x0))
-/// @param pageSize: float_t (default: 0.0)
 template <typename TValueType>
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::_ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -582,7 +552,7 @@ template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSl
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method, previousValue, newValue);
 }
 template <typename TValueType>
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueFromKey(::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> sliderKey, bool isShift) {
+inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> sliderKey, bool isShift) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 131)));
@@ -717,6 +687,20 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 115)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValueType>
+inline ::UnityEngine::UIElements::BaseSlider_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::New_ctor(::StringW label, TValueType start, TValueType end,
+                                                                                                                        ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(label, start, end, direction, pageSize));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IValueField_1<TValueType>"
+template <typename TValueType> constexpr UnityEngine::UIElements::BaseSlider_1<TValueType>::operator ::UnityEngine::UIElements::IValueField_1<TValueType>*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IValueField_1<TValueType>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IValueField_1<TValueType>"
+template <typename TValueType>
+constexpr ::UnityEngine::UIElements::IValueField_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::i___UnityEngine__UIElements__IValueField_1_TValueType_() noexcept {
+  return static_cast<::UnityEngine::UIElements::IValueField_1<TValueType>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1<TValueType>::BaseSlider_1() {}

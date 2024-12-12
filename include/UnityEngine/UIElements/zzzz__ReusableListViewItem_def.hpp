@@ -14,11 +14,10 @@ class ReusableListViewItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ReusableListViewItem);
-// Type: UnityEngine.UIElements::ReusableListViewItem
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.ReusableCollectionItem
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ReusableListViewItem*
+// CS Name: UnityEngine.UIElements.ReusableListViewItem
 class CORDL_TYPE ReusableListViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
 public:
   // Declarations
@@ -33,37 +32,37 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x4917b64, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x497c314, size 0x8c, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x490f548, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4973cf8, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method PreAttachElement, addr 0x4917ad8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x497c288, size 0x8c, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetDragGhost, addr 0x4917bf0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetDragGhost, addr 0x497c3a0, size 0xfc, virtual true, abstract: false, final false
   inline void SetDragGhost(bool dragGhost);
 
-  /// @brief Method UpdateDragHandle, addr 0x490fb40, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragHandle, addr 0x49742f0, size 0x144, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method UpdateHierarchy, addr 0x4917888, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x497c038, size 0x250, virtual false, abstract: false, final false
   inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
+
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Container() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_DragHandle() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_DragHandle() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ItemContainer() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ItemContainer();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_ItemContainer() const;
 
   constexpr void __cordl_internal_set_m_Container(::UnityEngine::UIElements::VisualElement* value);
 
@@ -71,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4917cec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497c49c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x4917870, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x497c020, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReusableListViewItem(ReusableListViewItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5483 };
+
   /// @brief Field m_Container, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Container;
 
@@ -100,19 +102,16 @@ public:
   /// @brief Field m_ItemContainer, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_ItemContainer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5459 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableListViewItem, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_Container) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_DragHandle) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_ItemContainer) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableListViewItem, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ReusableListViewItem);

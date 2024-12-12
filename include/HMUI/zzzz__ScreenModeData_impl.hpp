@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::ScreenModeData::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, bool, float_t, float_t)>(&::HMUI::ScreenModeData::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2256bb8;
+  constexpr static std::size_t addrs = 0x22892a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,10 +106,6 @@ constexpr void HMUI::ScreenModeData::__cordl_internal_set_minYPos(float_t value)
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minYPos = value;
 }
-inline ::HMUI::ScreenModeData* HMUI::ScreenModeData::New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos,
-                                                              float_t yOffsetRelativeToHead, float_t minYPos) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScreenModeData*>(position, rotation, scale, radius, offsetHeightByHeadPos, yOffsetRelativeToHead, minYPos));
-}
 inline void HMUI::ScreenModeData::_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead,
                                         float_t minYPos) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,6 +115,10 @@ inline void HMUI::ScreenModeData::_ctor(::UnityEngine::Vector3 position, ::Unity
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, rotation, scale, radius, offsetHeightByHeadPos, yOffsetRelativeToHead, minYPos);
+}
+inline ::HMUI::ScreenModeData* HMUI::ScreenModeData::New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos,
+                                                              float_t yOffsetRelativeToHead, float_t minYPos) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScreenModeData*>(position, rotation, scale, radius, offsetHeightByHeadPos, yOffsetRelativeToHead, minYPos));
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScreenModeData::ScreenModeData() {}

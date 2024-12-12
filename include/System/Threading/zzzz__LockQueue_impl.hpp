@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::LockQueue::*)(::System::Threading::ReaderWriterLock*)>(
     &::System::Threading::LockQueue::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3dfa944;
+  constexpr static std::size_t addrs = 0x3e5a9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::LockQueue::*)(int32_t)>(&::System::Threading::LockQueue::Wait)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3dfa96c;
+  constexpr static std::size_t addrs = 0x3e5aa18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::LockQueue::*)()>(&::System::Threading::LockQueue::get_IsEmpty)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3dfab10;
+  constexpr static std::size_t addrs = 0x3e5abbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::LockQueue*>::get(), "get_IsEmpty",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::LockQueue::*)()>(&::System::Threading::LockQueue::Pulse)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3dfabd0;
+  constexpr static std::size_t addrs = 0x3e5ac7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::LockQueue*>::get(), "Pulse",
@@ -62,7 +62,7 @@ constexpr ::System::Threading::ReaderWriterLock*& System::Threading::LockQueue::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rwlock;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& System::Threading::LockQueue::__cordl_internal_get_rwlock() const {
+constexpr ::System::Threading::ReaderWriterLock* const& System::Threading::LockQueue::__cordl_internal_get_rwlock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rwlock;
 }
@@ -81,9 +81,6 @@ constexpr int32_t const& System::Threading::LockQueue::__cordl_internal_get_lock
 constexpr void System::Threading::LockQueue::__cordl_internal_set_lockCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lockCount = value;
-}
-inline ::System::Threading::LockQueue* System::Threading::LockQueue::New_ctor(::System::Threading::ReaderWriterLock* rwlock) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::LockQueue*>(rwlock));
 }
 inline void System::Threading::LockQueue::_ctor(::System::Threading::ReaderWriterLock* rwlock) {
   static auto* ___internal_method =
@@ -106,6 +103,9 @@ inline void System::Threading::LockQueue::Pulse() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::LockQueue*>::get(), "Pulse",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Threading::LockQueue* System::Threading::LockQueue::New_ctor(::System::Threading::ReaderWriterLock* rwlock) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::LockQueue*>(rwlock));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::LockQueue::LockQueue() {}

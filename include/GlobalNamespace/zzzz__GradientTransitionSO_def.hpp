@@ -17,11 +17,10 @@ class GradientTransitionSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GradientTransitionSO);
-// Type: ::GradientTransitionSO
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseTransitionSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GradientTransitionSO*
+// CS Name: GradientTransitionSO
 class CORDL_TYPE GradientTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
@@ -161,43 +160,43 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor2(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x4476ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d81f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor1, addr 0x4474e18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor1, addr 0x44d612c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2, addr 0x4474e24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor2, addr 0x44d6138, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_highlightColor1, addr 0x4474cc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor1, addr 0x44d5fdc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2, addr 0x4474cd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor2, addr 0x44d5fe8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_normalColor1, addr 0x44749f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor1, addr 0x44d5d0c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2, addr 0x4474a04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor2, addr 0x44d5d18, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_pressedColor1, addr 0x4474d70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor1, addr 0x44d6084, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2, addr 0x4474d7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor2, addr 0x44d6090, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1, addr 0x4474f68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor1, addr 0x44d627c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2, addr 0x4474f74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor2, addr 0x44d6288, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
-  /// @brief Method get_selectedColor1, addr 0x4474ec0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor1, addr 0x44d61d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2, addr 0x4474ecc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor2, addr 0x44d61e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor2();
 
 protected:
@@ -213,6 +212,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GradientTransitionSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GradientTransitionSO(GradientTransitionSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18215 };
 
   /// @brief Field _normalColor1, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____normalColor1;
@@ -250,14 +252,9 @@ public:
   /// @brief Field _selectedAndHighlightedColor2, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____selectedAndHighlightedColor2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18135 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GradientTransitionSO, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____normalColor1) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____normalColor2) == 0x28, "Offset mismatch!");
@@ -281,6 +278,8 @@ static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____selectedColo
 static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____selectedAndHighlightedColor1) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____selectedAndHighlightedColor2) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GradientTransitionSO, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GradientTransitionSO);

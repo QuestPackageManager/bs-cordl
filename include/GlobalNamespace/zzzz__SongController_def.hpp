@@ -14,11 +14,10 @@ class SongController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongController);
-// Type: ::SongController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongController*
+// CS Name: SongController
 class CORDL_TYPE SongController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -30,46 +29,46 @@ public:
 
   static inline ::GlobalNamespace::SongController* New_ctor();
 
-  /// @brief Method PauseSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method PauseSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ResumeSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method SendSongDidFinishEvent, addr 0x3b8a378, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendSongDidFinishEvent, addr 0x3bebb90, size 0x1c, virtual false, abstract: false, final false
   inline void SendSongDidFinishEvent();
 
-  /// @brief Method SendSongDidStartEvent, addr 0x3b8a3d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendSongDidStartEvent, addr 0x3bebbf0, size 0x1c, virtual false, abstract: false, final false
   inline void SendSongDidStartEvent();
 
-  /// @brief Method StopSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method StopSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void StopSong();
+
+  constexpr ::System::Action* const& __cordl_internal_get_songDidFinishEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_songDidFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songDidFinishEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_songDidStartEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_songDidStartEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songDidStartEvent() const;
 
   constexpr void __cordl_internal_set_songDidFinishEvent(::System::Action* value);
 
   constexpr void __cordl_internal_set_songDidStartEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b8a5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bebdc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_songDidFinishEvent, addr 0x3b8a71c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songDidFinishEvent, addr 0x3bebf34, size 0x9c, virtual false, abstract: false, final false
   inline void add_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_songDidStartEvent, addr 0x3b8a5e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songDidStartEvent, addr 0x3bebdfc, size 0x9c, virtual false, abstract: false, final false
   inline void add_songDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_songDidFinishEvent, addr 0x3b8a7b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songDidFinishEvent, addr 0x3bebfd0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_songDidStartEvent, addr 0x3b8a680, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songDidStartEvent, addr 0x3bebe98, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songDidStartEvent(::System::Action* value);
 
 protected:
@@ -86,23 +85,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongController(SongController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4693 };
+
   /// @brief Field songDidStartEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___songDidStartEvent;
 
   /// @brief Field songDidFinishEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___songDidFinishEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4681 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SongController, ___songDidStartEvent) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongController, ___songDidFinishEvent) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongController);

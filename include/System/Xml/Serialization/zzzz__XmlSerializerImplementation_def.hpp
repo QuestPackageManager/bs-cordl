@@ -14,17 +14,16 @@ class XmlSerializerImplementation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializerImplementation);
-// Type: System.Xml.Serialization::XmlSerializerImplementation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlSerializerImplementation*
+// CS Name: System.Xml.Serialization.XmlSerializerImplementation
 class CORDL_TYPE XmlSerializerImplementation : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Writer)) ::System::Xml::Serialization::XmlSerializationWriter* Writer;
 
-  /// @brief Method get_Writer, addr 0x432c4ac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x438d7c0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationWriter* get_Writer();
 
 protected:
@@ -42,7 +41,7 @@ public:
   XmlSerializerImplementation(XmlSerializerImplementation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

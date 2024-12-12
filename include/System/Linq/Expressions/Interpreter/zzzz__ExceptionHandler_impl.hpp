@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(
     int32_t, int32_t, int32_t, ::System::Type*, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(&::System::Linq::Expressions::Interpreter::ExceptionHandler::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4074f3c;
+  constexpr static std::size_t addrs = 0x40d6250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::ExceptionHandler::Matches)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4074f90;
+  constexpr static std::size_t addrs = 0x40d62a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::ExceptionHandler::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4074fb4;
+  constexpr static std::size_t addrs = 0x40d62c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ constexpr ::System::Type*& System::Linq::Expressions::Interpreter::ExceptionHand
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exceptionType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get__exceptionType() const {
+constexpr ::System::Type* const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get__exceptionType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exceptionType;
 }
@@ -104,19 +104,13 @@ constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter*& System::Li
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Filter;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::ExceptionFilter*> const&
-System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_Filter() const {
+constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter* const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_Filter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Filter;
 }
 constexpr void System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_set_Filter(::System::Linq::Expressions::Interpreter::ExceptionFilter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Filter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::Interpreter::ExceptionHandler*
-System::Linq::Expressions::Interpreter::ExceptionHandler::New_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
-                                                                   ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(labelIndex, handlerStartIndex, handlerEndIndex, exceptionType, filter));
 }
 inline void System::Linq::Expressions::Interpreter::ExceptionHandler::_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
                                                                             ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter) {
@@ -138,6 +132,11 @@ inline ::StringW System::Linq::Expressions::Interpreter::ExceptionHandler::ToStr
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ExceptionHandler*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::ExceptionHandler*
+System::Linq::Expressions::Interpreter::ExceptionHandler::New_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
+                                                                   ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(labelIndex, handlerStartIndex, handlerEndIndex, exceptionType, filter));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::ExceptionHandler::ExceptionHandler() {}

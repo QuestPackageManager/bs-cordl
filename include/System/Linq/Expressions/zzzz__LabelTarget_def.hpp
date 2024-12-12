@@ -15,11 +15,10 @@ class LabelTarget;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::LabelTarget);
-// Type: System.Linq.Expressions::LabelTarget
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::LabelTarget*
+// CS Name: System.Linq.Expressions.LabelTarget
 class CORDL_TYPE LabelTarget : public ::System::Object {
 public:
   // Declarations
@@ -35,28 +34,28 @@ public:
 
   static inline ::System::Linq::Expressions::LabelTarget* New_ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method ToString, addr 0x40576c0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40b89d4, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
   constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__Type_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4057684, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b8998, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method get_Name, addr 0x40576b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x40b89c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Type, addr 0x40576b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40b89cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LabelTarget(LabelTarget const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13684 };
+
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
   /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13650 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LabelTarget, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::LabelTarget, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::LabelTarget, ____Type_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LabelTarget, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::LabelTarget);

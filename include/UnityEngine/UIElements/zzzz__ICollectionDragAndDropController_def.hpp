@@ -3,15 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IReorderable_def.hpp"
 CORDL_MODULE_EXPORT(ICollectionDragAndDropController)
 namespace UnityEngine::UIElements {
-template <typename TArgs> class IDragAndDropController_1;
-}
-namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
-}
-namespace UnityEngine::UIElements {
-class IReorderable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -19,11 +15,10 @@ class ICollectionDragAndDropController;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ICollectionDragAndDropController);
-// Type: UnityEngine.UIElements::ICollectionDragAndDropController
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.IDragAndDropController`1<TArgs>, UnityEngine.UIElements.IReorderable
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ICollectionDragAndDropController*
+// CS Name: UnityEngine.UIElements.ICollectionDragAndDropController
 class CORDL_TYPE ICollectionDragAndDropController {
 public:
   // Declarations
@@ -40,16 +35,12 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IReorderable"
   constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICollectionDragAndDropController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICollectionDragAndDropController(ICollectionDragAndDropController&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "ICollectionDragAndDropController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ICollectionDragAndDropController(ICollectionDragAndDropController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

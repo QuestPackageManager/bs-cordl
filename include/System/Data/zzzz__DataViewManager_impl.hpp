@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewSettingCollection* (::System::Data::DataViewManager::*)()>(
     &::System::Data::DataViewManager::get_DataViewSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410bc80;
+  constexpr static std::size_t addrs = 0x416cf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewManager*>::get(), "get_DataViewSettings",
@@ -22,7 +22,7 @@ constexpr ::System::Data::DataViewSettingCollection*& System::Data::DataViewMana
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewSettingsCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataViewSettingCollection*> const& System::Data::DataViewManager::__cordl_internal_get__dataViewSettingsCollection() const {
+constexpr ::System::Data::DataViewSettingCollection* const& System::Data::DataViewManager::__cordl_internal_get__dataViewSettingsCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewSettingsCollection;
 }

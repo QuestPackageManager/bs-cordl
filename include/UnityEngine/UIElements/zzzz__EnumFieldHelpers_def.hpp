@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/enum-type.hpp"
 CORDL_MODULE_EXPORT(EnumFieldHelpers)
 namespace System {
 class Enum;
@@ -34,26 +32,25 @@ class EnumFieldHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EnumFieldHelpers);
-// Type: UnityEngine.UIElements::EnumFieldHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::EnumFieldHelpers*
+// CS Name: UnityEngine.UIElements.EnumFieldHelpers
 class CORDL_TYPE EnumFieldHelpers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field includeObsoleteValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_includeObsoleteValues, put = setStaticF_includeObsoleteValues)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* includeObsoleteValues;
+  __declspec(property(get = getStaticF_includeObsoleteValues, put = setStaticF_includeObsoleteValues)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* includeObsoleteValues;
 
   /// @brief Field type, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_type, put = setStaticF_type)) ::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<::System::Enum*>* type;
+  __declspec(property(get = getStaticF_type, put = setStaticF_type)) ::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<::System::Enum*>* type;
 
   /// @brief Field value, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_value, put = setStaticF_value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* value;
+  __declspec(property(get = getStaticF_value, put = setStaticF_value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* value;
 
-  /// @brief Method ExtractValue, addr 0x492c378, size 0x378, virtual false, abstract: false, final false
-  static inline bool ExtractValue(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<::System::Type*> resEnumType,
-                                  ByRef<::bs_hook::EnumPtr> resEnumValue, ByRef<bool> resIncludeObsoleteValues);
+  /// @brief Method ExtractValue, addr 0x4990b28, size 0x378, virtual false, abstract: false, final false
+  static inline bool ExtractValue(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::ByRef<::System::Type*> resEnumType,
+                                  ::ByRef<::System::Enum*> resEnumValue, ::ByRef<bool> resIncludeObsoleteValues);
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* getStaticF_includeObsoleteValues();
 
@@ -82,7 +79,7 @@ public:
   EnumFieldHelpers(EnumFieldHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5567 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

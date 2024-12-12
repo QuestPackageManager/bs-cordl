@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureDeformatter_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSASignatureDeformatter)
@@ -20,11 +19,10 @@ class DSASignatureDeformatter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureDeformatter);
-// Type: System.Security.Cryptography::DSASignatureDeformatter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.AsymmetricSignatureDeformatter
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::DSASignatureDeformatter*
+// CS Name: System.Security.Cryptography.DSASignatureDeformatter
 class CORDL_TYPE DSASignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter {
 public:
   // Declarations
@@ -38,18 +36,18 @@ public:
 
   static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm, addr 0x3c3f3e4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method SetHashAlgorithm, addr 0x3c9f558, size 0xc4, virtual true, abstract: false, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method SetKey, addr 0x3c3f2fc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x3c9f470, size 0xe8, virtual true, abstract: false, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method VerifySignature, addr 0x3c3f4a8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3c9f61c, size 0xe0, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  constexpr ::System::Security::Cryptography::DSA*& __cordl_internal_get__dsaKey();
+  constexpr ::System::Security::Cryptography::DSA* const& __cordl_internal_get__dsaKey() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DSA*> const& __cordl_internal_get__dsaKey() const;
+  constexpr ::System::Security::Cryptography::DSA*& __cordl_internal_get__dsaKey();
 
   constexpr ::StringW const& __cordl_internal_get__oid() const;
 
@@ -59,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c3f18c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9f300, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c3f20c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9f380, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
 protected:
@@ -79,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DSASignatureDeformatter(DSASignatureDeformatter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2931 };
+
   /// @brief Field _dsaKey, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::DSA* ____dsaKey;
 
   /// @brief Field _oid, offset: 0x18, size: 0x8, def value: None
   ::StringW ____oid;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2931 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSASignatureDeformatter, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::DSASignatureDeformatter, ____dsaKey) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::DSASignatureDeformatter, ____oid) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSASignatureDeformatter, 0x20>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::DSASignatureDeformatter);

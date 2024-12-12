@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DeactivateMenuControllersOnFocusCaptureOrTrackingLost.hpp"
+#include "GlobalNamespace/zzzz__IVerboseLogger_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateMenuControllersOnFocusCaptureOrTrackingLost_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost.get_loggerPrefix
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)()>(
     &::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x396a2fc;
+  constexpr static std::size_t addrs = 0x39bf994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)(
     ::GlobalNamespace::IVRPlatformHelper*)>(&::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::Init)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x396a33c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x39bf9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,26 +41,11 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)()>(
     &::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x396a430;
+  constexpr static std::size_t addrs = 0x39bf9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>::get(), "Awake",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost.OnDestroy
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)()>(
-    &::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::OnDestroy)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x396a5d4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>::get(), "OnDestroy",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -71,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)()>(
     &::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x396a6d4;
+  constexpr static std::size_t addrs = 0x39bfbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,28 +65,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost.HandleInputFocusCaptured
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)()>(
-    &::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::HandleInputFocusCaptured)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x396a6d8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>::get(),
-                                                 "HandleInputFocusCaptured", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost.UpdateMenuControllersState
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)()>(
     &::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::UpdateMenuControllersState)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x396a434;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x39bf9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)(
     bool, ::GlobalNamespace::VRController*)>(&::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::SetActiveMenuController)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x396a6dc;
+  constexpr static std::size_t addrs = 0x39bfbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::*)()>(
     &::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x396a74c;
+  constexpr static std::size_t addrs = 0x39bfc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,14 +112,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
-constexpr GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::operator ::GlobalNamespace::IVerboseLogger*() noexcept {
-  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IVerboseLogger"
-constexpr ::GlobalNamespace::IVerboseLogger* GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::i___GlobalNamespace__IVerboseLogger() noexcept {
-  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<::UnityW<::GlobalNamespace::VRController>, ::Array<::UnityW<::GlobalNamespace::VRController>>*>&
 GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::__cordl_internal_get__vrControllers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -169,8 +131,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::DeactivateMenu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const&
-GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -196,22 +157,10 @@ inline void GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLo
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::OnDestroy() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>::get(), "OnDestroy",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
 inline void GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::LateUpdate() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>::get(), "LateUpdate",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::HandleInputFocusCaptured() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>::get(),
-                                               "HandleInputFocusCaptured", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::UpdateMenuControllersState() {
@@ -228,14 +177,22 @@ inline void GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLo
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, active, vrController);
 }
-inline ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost* GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>());
-}
 inline void GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost* GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
+constexpr GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::operator ::GlobalNamespace::IVerboseLogger*() noexcept {
+  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+constexpr ::GlobalNamespace::IVerboseLogger* GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::i___GlobalNamespace__IVerboseLogger() noexcept {
+  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost::DeactivateMenuControllersOnFocusCaptureOrTrackingLost() {}

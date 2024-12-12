@@ -3,16 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ChainBuilderStats_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Transform3x4_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__UIRVEShaderInfoAllocator_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -30,13 +28,7 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 struct IntPtr;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
 class UIRStylePainter;
@@ -57,6 +49,18 @@ namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
 }
 namespace UnityEngine::UIElements::UIR {
+struct RenderChain_DepthOrderedDirtyTracking;
+}
+namespace UnityEngine::UIElements::UIR {
+struct RenderChain_RenderChainStaticIndexAllocator;
+}
+namespace UnityEngine::UIElements::UIR {
+struct RenderChain_RenderNodeData;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChain___c;
+}
+namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypeClasses;
 }
 namespace UnityEngine::UIElements::UIR {
@@ -69,25 +73,10 @@ namespace UnityEngine::UIElements::UIR {
 struct TextureEntry;
 }
 namespace UnityEngine::UIElements::UIR {
-struct Transform3x4;
-}
-namespace UnityEngine::UIElements::UIR {
 class UIRenderDevice;
 }
 namespace UnityEngine::UIElements::UIR {
 class VectorImageManager;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__DepthOrderedDirtyTracking;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__RenderChainStaticIndexAllocator;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__RenderNodeData;
-}
-namespace UnityEngine::UIElements::UIR {
-class __RenderChain____c;
 }
 namespace UnityEngine::UIElements {
 class AtlasBase;
@@ -125,63 +114,65 @@ class Shader;
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine {
-struct Vector4;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
 }
 namespace UnityEngine::UIElements::UIR {
-class __RenderChain____c;
+class RenderChain___c;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__DepthOrderedDirtyTracking;
+struct RenderChain_DepthOrderedDirtyTracking;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__RenderChainStaticIndexAllocator;
+struct RenderChain_RenderChainStaticIndexAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__RenderNodeData;
+struct RenderChain_RenderNodeData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::RenderChain);
-MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__RenderChain____c);
-MARK_VAL_T(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking);
-MARK_VAL_T(::UnityEngine::UIElements::UIR::__RenderChain__RenderChainStaticIndexAllocator);
-MARK_VAL_T(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData);
-// Type: ::DepthOrderedDirtyTracking
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::RenderChain___c);
+MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking);
+MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChain_RenderChainStaticIndexAllocator);
+MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData);
+// Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::RenderChain::DepthOrderedDirtyTracking
-struct CORDL_TYPE __RenderChain__DepthOrderedDirtyTracking {
+// CS Name: UnityEngine.UIElements.UIR.RenderChain/DepthOrderedDirtyTracking
+struct CORDL_TYPE RenderChain_DepthOrderedDirtyTracking {
 public:
   // Declarations
-  /// @brief Method ClearDirty, addr 0x4944c50, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ClearDirty, addr 0x49a9560, size 0x198, virtual false, abstract: false, final false
   inline void ClearDirty(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypesInverse);
 
-  /// @brief Method EnsureFits, addr 0x49469b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnsureFits, addr 0x49ab2c8, size 0x114, virtual false, abstract: false, final false
   inline void EnsureFits(int32_t maxDepth);
 
-  /// @brief Method RegisterDirty, addr 0x4946368, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method RegisterDirty, addr 0x49aac78, size 0x1c4, virtual false, abstract: false, final false
   inline void RegisterDirty(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypes,
                             ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses dirtyTypeClass);
 
-  /// @brief Method Reset, addr 0x4944124, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49a8a34, size 0x78, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RenderChain__DepthOrderedDirtyTracking();
+  constexpr RenderChain_DepthOrderedDirtyTracking();
 
   // Ctor Parameters [CppParam { name: "heads", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name: "tails",
   // ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name: "minDepths", ty:
   // "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "", def_value: None }, CppParam { name: "maxDepths", ty: "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "", def_value: None }, CppParam {
   // name: "dirtyID", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr __RenderChain__DepthOrderedDirtyTracking(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* heads,
-                                                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* tails, ::ArrayW<int32_t, ::Array<int32_t>*> minDepths,
-                                                     ::ArrayW<int32_t, ::Array<int32_t>*> maxDepths, uint32_t dirtyID) noexcept;
+  constexpr RenderChain_DepthOrderedDirtyTracking(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* heads,
+                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* tails, ::ArrayW<int32_t, ::Array<int32_t>*> minDepths,
+                                                  ::ArrayW<int32_t, ::Array<int32_t>*> maxDepths, uint32_t dirtyID) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6375 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field heads, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* heads;
@@ -198,47 +189,40 @@ public:
   /// @brief Field dirtyID, offset: 0x20, size: 0x4, def value: None
   uint32_t dirtyID;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6350 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking, 0x28>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking, heads) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking, heads) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking, tails) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking, tails) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking, minDepths) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking, minDepths) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking, maxDepths) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking, maxDepths) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking, dirtyID) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking, dirtyID) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Type: ::RenderChainStaticIndexAllocator
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::RenderChain::RenderChainStaticIndexAllocator
+// CS Name: UnityEngine.UIElements.UIR.RenderChain/RenderChainStaticIndexAllocator
 #pragma pack(push, 0)
-struct CORDL_TYPE __RenderChain__RenderChainStaticIndexAllocator {
+struct CORDL_TYPE RenderChain_RenderChainStaticIndexAllocator {
 public:
   // Declarations
   /// @brief Field renderChains, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_renderChains, put = setStaticF_renderChains)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* renderChains;
+  __declspec(property(get = getStaticF_renderChains, put = setStaticF_renderChains)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* renderChains;
 
-  /// @brief Method AccessIndex, addr 0x49479d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AccessIndex, addr 0x49ac2e0, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChain* AccessIndex(int32_t index);
 
-  /// @brief Method AllocateIndex, addr 0x4947800, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AllocateIndex, addr 0x49ac110, size 0x14c, virtual false, abstract: false, final false
   static inline int32_t AllocateIndex(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method FreeIndex, addr 0x494794c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method FreeIndex, addr 0x49ac25c, size 0x84, virtual false, abstract: false, final false
   static inline void FreeIndex(int32_t index);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* getStaticF_renderChains();
@@ -247,10 +231,10 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RenderChain__RenderChainStaticIndexAllocator();
+  constexpr RenderChain_RenderChainStaticIndexAllocator();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6376 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -259,20 +243,19 @@ public:
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__RenderChain__RenderChainStaticIndexAllocator, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain_RenderChainStaticIndexAllocator, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Type: ::RenderNodeData
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Collections.NativeSlice`1<T>, UnityEngine.UIElements.UIR.Transform3x4, UnityEngine.Vector4
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::RenderChain::RenderNodeData
-struct CORDL_TYPE __RenderChain__RenderNodeData {
+// CS Name: UnityEngine.UIElements.UIR.RenderChain/RenderNodeData
+struct CORDL_TYPE RenderChain_RenderNodeData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RenderChain__RenderNodeData();
+  constexpr RenderChain_RenderNodeData();
 
   // Ctor Parameters [CppParam { name: "standardMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "initialMaterial", ty:
   // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "matPropBlock", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam {
@@ -281,11 +264,17 @@ public:
   // CppParam { name: "shaderInfoAtlas", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "dpiScale", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "transformConstants", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4>", modifiers: "", def_value: None }, CppParam { name:
   // "clipRectConstants", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4>", modifiers: "", def_value: None }]
-  constexpr __RenderChain__RenderNodeData(::UnityW<::UnityEngine::Material> standardMaterial, ::UnityW<::UnityEngine::Material> initialMaterial, ::UnityEngine::MaterialPropertyBlock* matPropBlock,
-                                          ::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
-                                          ::UnityW<::UnityEngine::Texture> vectorAtlas, ::UnityW<::UnityEngine::Texture> shaderInfoAtlas, float_t dpiScale,
-                                          ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> transformConstants,
-                                          ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRectConstants) noexcept;
+  constexpr RenderChain_RenderNodeData(::UnityW<::UnityEngine::Material> standardMaterial, ::UnityW<::UnityEngine::Material> initialMaterial, ::UnityEngine::MaterialPropertyBlock* matPropBlock,
+                                       ::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
+                                       ::UnityW<::UnityEngine::Texture> vectorAtlas, ::UnityW<::UnityEngine::Texture> shaderInfoAtlas, float_t dpiScale,
+                                       ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> transformConstants,
+                                       ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRectConstants) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6377 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field standardMaterial, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> standardMaterial;
@@ -317,73 +306,66 @@ public:
   /// @brief Field clipRectConstants, offset: 0x50, size: 0x10, def value: None
   ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRectConstants;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6352 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, 0x60>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, standardMaterial) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, standardMaterial) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, initialMaterial) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, initialMaterial) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, matPropBlock) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, matPropBlock) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, firstCommand) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, firstCommand) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, device) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, device) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, vectorAtlas) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, vectorAtlas) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, shaderInfoAtlas) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, shaderInfoAtlas) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, dpiScale) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, dpiScale) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, transformConstants) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, transformConstants) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, clipRectConstants) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, clipRectConstants) == 0x50, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::RenderChain::<>c*
-class CORDL_TYPE __RenderChain____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.UIR.RenderChain/<>c
+class CORDL_TYPE RenderChain___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::__RenderChain____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::RenderChain___c* __9;
 
   /// @brief Field <>9__34_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__34_0, put = setStaticF___9__34_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__34_0;
+  __declspec(property(get = getStaticF___9__34_0, put = setStaticF___9__34_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__34_0;
 
   /// @brief Field <>9__34_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__34_1, put = setStaticF___9__34_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__34_1;
+  __declspec(property(get = getStaticF___9__34_1, put = setStaticF___9__34_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__34_1;
 
-  static inline ::UnityEngine::UIElements::UIR::__RenderChain____c* New_ctor();
+  static inline ::UnityEngine::UIElements::UIR::RenderChain___c* New_ctor();
 
-  /// @brief Method <.ctor>b__34_0, addr 0x4947b44, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__34_0, addr 0x49ac454, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* __ctor_b__34_0();
 
-  /// @brief Method <.ctor>b__34_1, addr 0x4947bdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__34_1, addr 0x49ac4ec, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__34_1(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method .ctor, addr 0x4947b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ac44c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::UIR::__RenderChain____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::UIR::RenderChain___c* getStaticF___9();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* getStaticF___9__34_0();
 
   static inline ::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* getStaticF___9__34_1();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__RenderChain____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::RenderChain___c* value);
 
   static inline void setStaticF___9__34_0(::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* value);
 
@@ -392,44 +374,44 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RenderChain____c();
+  constexpr RenderChain___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__RenderChain____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __RenderChain____c(__RenderChain____c&&) = delete;
+  RenderChain___c(RenderChain___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__RenderChain____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __RenderChain____c(__RenderChain____c const&) = delete;
+  RenderChain___c(RenderChain___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__RenderChain____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Type: UnityEngine.UIElements.UIR::RenderChain
-// SizeInfo { instance_size: 544, native_size: -1, calculated_instance_size: 544, calculated_native_size: 538, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.UIR.ChainBuilderStats, UnityEngine.UIElements.UIR.RenderChain::DepthOrderedDirtyTracking,
+// UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::RenderChain*
+// CS Name: UnityEngine.UIElements.UIR.RenderChain
 class CORDL_TYPE RenderChain : public ::System::Object {
 public:
   // Declarations
-  using DepthOrderedDirtyTracking = ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking;
+  using DepthOrderedDirtyTracking = ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking;
 
-  using RenderChainStaticIndexAllocator = ::UnityEngine::UIElements::UIR::__RenderChain__RenderChainStaticIndexAllocator;
+  using RenderChainStaticIndexAllocator = ::UnityEngine::UIElements::UIR::RenderChain_RenderChainStaticIndexAllocator;
 
-  using RenderNodeData = ::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData;
+  using RenderNodeData = ::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData;
 
-  using __c = ::UnityEngine::UIElements::UIR::__RenderChain____c;
+  using __c = ::UnityEngine::UIElements::UIR::RenderChain___c;
 
   /// @brief Field OnPreRender, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_OnPreRender, put = setStaticF_OnPreRender)) ::System::Action* OnPreRender;
+  __declspec(property(get = getStaticF_OnPreRender, put = setStaticF_OnPreRender)) ::System::Action* OnPreRender;
 
   /// @brief Field <atlas>k__BackingField, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__atlas_k__BackingField, put = __cordl_internal_set__atlas_k__BackingField)) ::UnityEngine::UIElements::AtlasBase* _atlas_k__BackingField;
@@ -517,14 +499,14 @@ public:
   __declspec(property(get = __cordl_internal_get_m_DefaultWorldSpaceShader, put = __cordl_internal_set_m_DefaultWorldSpaceShader)) ::UnityW<::UnityEngine::Shader> m_DefaultWorldSpaceShader;
 
   /// @brief Field m_DirtyTracker, offset 0x18, size 0x28
-  __declspec(property(get = __cordl_internal_get_m_DirtyTracker, put = __cordl_internal_set_m_DirtyTracker)) ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking m_DirtyTracker;
+  __declspec(property(get = __cordl_internal_get_m_DirtyTracker, put = __cordl_internal_set_m_DirtyTracker)) ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking m_DirtyTracker;
 
   /// @brief Field m_FirstCommand, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FirstCommand, put = __cordl_internal_set_m_FirstCommand)) ::UnityEngine::UIElements::UIR::RenderChainCommand* m_FirstCommand;
 
   /// @brief Field m_RenderNodesData, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RenderNodesData,
-                      put = __cordl_internal_set_m_RenderNodesData)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* m_RenderNodesData;
+                      put = __cordl_internal_set_m_RenderNodesData)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData>* m_RenderNodesData;
 
   /// @brief Field m_StaticIndex, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StaticIndex, put = __cordl_internal_set_m_StaticIndex)) int32_t m_StaticIndex;
@@ -552,25 +534,25 @@ public:
   __declspec(property(get = get_panel, put = set_panel)) ::UnityEngine::UIElements::BaseVisualElementPanel* panel;
 
   /// @brief Field s_MarkerClipProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerClipProcessing, put = setStaticF_s_MarkerClipProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerClipProcessing;
+  __declspec(property(get = getStaticF_s_MarkerClipProcessing, put = setStaticF_s_MarkerClipProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerClipProcessing;
 
   /// @brief Field s_MarkerColorsProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerColorsProcessing, put = setStaticF_s_MarkerColorsProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerColorsProcessing;
+  __declspec(property(get = getStaticF_s_MarkerColorsProcessing, put = setStaticF_s_MarkerColorsProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerColorsProcessing;
 
   /// @brief Field s_MarkerOpacityProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerOpacityProcessing, put = setStaticF_s_MarkerOpacityProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerOpacityProcessing;
+  __declspec(property(get = getStaticF_s_MarkerOpacityProcessing, put = setStaticF_s_MarkerOpacityProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerOpacityProcessing;
 
   /// @brief Field s_MarkerProcess, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerProcess, put = setStaticF_s_MarkerProcess)) ::Unity::Profiling::ProfilerMarker s_MarkerProcess;
+  __declspec(property(get = getStaticF_s_MarkerProcess, put = setStaticF_s_MarkerProcess)) ::Unity::Profiling::ProfilerMarker s_MarkerProcess;
 
   /// @brief Field s_MarkerTextRegen, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerTextRegen, put = setStaticF_s_MarkerTextRegen)) ::Unity::Profiling::ProfilerMarker s_MarkerTextRegen;
+  __declspec(property(get = getStaticF_s_MarkerTextRegen, put = setStaticF_s_MarkerTextRegen)) ::Unity::Profiling::ProfilerMarker s_MarkerTextRegen;
 
   /// @brief Field s_MarkerTransformProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerTransformProcessing, put = setStaticF_s_MarkerTransformProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerTransformProcessing;
+  __declspec(property(get = getStaticF_s_MarkerTransformProcessing, put = setStaticF_s_MarkerTransformProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerTransformProcessing;
 
   /// @brief Field s_MarkerVisualsProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerVisualsProcessing, put = setStaticF_s_MarkerVisualsProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerVisualsProcessing;
+  __declspec(property(get = getStaticF_s_MarkerVisualsProcessing, put = setStaticF_s_MarkerVisualsProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerVisualsProcessing;
 
   /// @brief Field shaderInfoAllocator, offset 0x140, size 0xd0
   __declspec(property(get = __cordl_internal_get_shaderInfoAllocator, put = __cordl_internal_set_shaderInfoAllocator)) ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator shaderInfoAllocator;
@@ -582,116 +564,116 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AccessRenderNodeData, addr 0x4946d4c, size 0xd8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData AccessRenderNodeData(::System::IntPtr obj);
+  /// @brief Method AccessRenderNodeData, addr 0x49ab65c, size 0xd8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData AccessRenderNodeData(::System::IntPtr obj);
 
-  /// @brief Method AllocCommand, addr 0x4946b80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AllocCommand, addr 0x49ab490, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* AllocCommand();
 
-  /// @brief Method AppendTexture, addr 0x4947758, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AppendTexture, addr 0x49ac068, size 0xa8, virtual false, abstract: false, final false
   inline void AppendTexture(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::Texture* src, ::UnityEngine::UIElements::TextureId id, bool isAtlas);
 
-  /// @brief Method ChildWillBeRemoved, addr 0x4946acc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ChildWillBeRemoved, addr 0x49ab3dc, size 0xb4, virtual false, abstract: false, final false
   inline void ChildWillBeRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Constructor, addr 0x4943d20, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method Constructor, addr 0x49a8630, size 0x404, virtual false, abstract: false, final false
   inline void Constructor(::UnityEngine::UIElements::BaseVisualElementPanel* panelObj, ::UnityEngine::UIElements::UIR::UIRenderDevice* deviceObj, ::UnityEngine::UIElements::AtlasBase* atlas,
                           ::UnityEngine::UIElements::UIR::VectorImageManager* vectorImageMan);
 
-  /// @brief Method Destructor, addr 0x494419c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Destructor, addr 0x49a8aac, size 0x28c, virtual false, abstract: false, final false
   inline void Destructor();
 
-  /// @brief Method Dispose, addr 0x4944590, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49a8ea0, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4944600, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49a8f10, size 0x2c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawStats, addr 0x49451fc, size 0xa84, virtual false, abstract: false, final false
+  /// @brief Method DrawStats, addr 0x49a9b0c, size 0xa84, virtual false, abstract: false, final false
   inline void DrawStats();
 
-  /// @brief Method EnsureFitsDepth, addr 0x49469b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnsureFitsDepth, addr 0x49ab2c0, size 0x8, virtual false, abstract: false, final false
   inline void EnsureFitsDepth(int32_t depth);
 
-  /// @brief Method FreeCommand, addr 0x4946be8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FreeCommand, addr 0x49ab4f8, size 0xb0, virtual false, abstract: false, final false
   inline void FreeCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method GetFirstElementInPanel, addr 0x4944428, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetFirstElementInPanel, addr 0x49a8d38, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* GetFirstElementInPanel(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetStandardMaterial, addr 0x4945110, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetStandardMaterial, addr 0x49a9a20, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetStandardMaterial();
 
-  /// @brief Method GetStandardWorldSpaceMaterial, addr 0x49468c4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetStandardWorldSpaceMaterial, addr 0x49ab1d4, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetStandardWorldSpaceMaterial();
 
   static inline ::UnityEngine::UIElements::UIR::RenderChain* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method OnRegisterIntermediateRendererMat, addr 0x4947344, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method OnRegisterIntermediateRendererMat, addr 0x49abc54, size 0x334, virtual false, abstract: false, final false
   static inline void OnRegisterIntermediateRendererMat(::UnityEngine::UIElements::BaseRuntimePanel* rtp, ::UnityEngine::UIElements::UIR::RenderChain* renderChain,
-                                                       ByRef<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData> rnd, ::UnityEngine::Camera* camera, int32_t sameDistanceSortPriority);
+                                                       ::ByRef<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData> rnd, ::UnityEngine::Camera* camera, int32_t sameDistanceSortPriority);
 
-  /// @brief Method OnRegisterIntermediateRenderers, addr 0x4946ecc, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method OnRegisterIntermediateRenderers, addr 0x49ab7dc, size 0x478, virtual false, abstract: false, final false
   static inline void OnRegisterIntermediateRenderers(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnRenderCommandAdded, addr 0x4946c98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandAdded, addr 0x49ab5a8, size 0x8c, virtual false, abstract: false, final false
   inline void OnRenderCommandAdded(::UnityEngine::UIElements::UIR::RenderChainCommand* command);
 
-  /// @brief Method OnRenderCommandsRemoved, addr 0x4946d24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandsRemoved, addr 0x49ab634, size 0x28, virtual false, abstract: false, final false
   inline void OnRenderCommandsRemoved(::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::RenderChainCommand* lastCommand);
 
-  /// @brief Method OnRenderNodeExecute, addr 0x4946e24, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnRenderNodeExecute, addr 0x49ab734, size 0xa8, virtual false, abstract: false, final false
   static inline void OnRenderNodeExecute(::System::IntPtr obj);
 
-  /// @brief Method ProcessChanges, addr 0x494462c, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method ProcessChanges, addr 0x49a8f3c, size 0x624, virtual false, abstract: false, final false
   inline void ProcessChanges();
 
-  /// @brief Method Render, addr 0x4944de8, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x49a96f8, size 0x328, virtual false, abstract: false, final false
   inline void Render();
 
-  /// @brief Method RepaintTexturedElements, addr 0x4947678, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RepaintTexturedElements, addr 0x49abf88, size 0xe0, virtual false, abstract: false, final false
   inline void RepaintTexturedElements();
 
-  /// @brief Method ResetTextures, addr 0x4944470, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ResetTextures, addr 0x49a8d80, size 0x10c, virtual false, abstract: false, final false
   inline void ResetTextures(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildAdded, addr 0x4945c80, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildAdded, addr 0x49aa590, size 0x1c4, virtual false, abstract: false, final false
   inline void UIEOnChildAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildRemoving, addr 0x4946198, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildRemoving, addr 0x49aaaa8, size 0xfc, virtual false, abstract: false, final false
   inline void UIEOnChildRemoving(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildrenReordered, addr 0x4945fe8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildrenReordered, addr 0x49aa8f8, size 0x1b0, virtual false, abstract: false, final false
   inline void UIEOnChildrenReordered(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnClippingChanged, addr 0x4945e44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UIEOnClippingChanged, addr 0x49aa754, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnClippingChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
-  /// @brief Method UIEOnColorChanged, addr 0x494652c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UIEOnColorChanged, addr 0x49aae3c, size 0x80, virtual false, abstract: false, final false
   inline void UIEOnColorChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnOpacityChanged, addr 0x4945ed0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UIEOnOpacityChanged, addr 0x49aa7e0, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnOpacityChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
-  /// @brief Method UIEOnOpacityIdChanged, addr 0x494663c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UIEOnOpacityIdChanged, addr 0x49aaf4c, size 0x80, virtual false, abstract: false, final false
   inline void UIEOnOpacityIdChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnRenderHintsChanged, addr 0x4946294, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UIEOnRenderHintsChanged, addr 0x49aaba4, size 0xd4, virtual false, abstract: false, final false
   inline void UIEOnRenderHintsChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnTransformOrSizeChanged, addr 0x49465ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method UIEOnTransformOrSizeChanged, addr 0x49aaebc, size 0x90, virtual false, abstract: false, final false
   inline void UIEOnTransformOrSizeChanged(::UnityEngine::UIElements::VisualElement* ve, bool transformChanged, bool clipRectSizeChanged);
 
-  /// @brief Method UIEOnVisualsChanged, addr 0x4945f5c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UIEOnVisualsChanged, addr 0x49aa86c, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnVisualsChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
+
+  constexpr ::UnityEngine::UIElements::AtlasBase* const& __cordl_internal_get__atlas_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::AtlasBase*& __cordl_internal_get__atlas_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::AtlasBase*> const& __cordl_internal_get__atlas_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice* const& __cordl_internal_get__device_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice*& __cordl_internal_get__device_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::UIRenderDevice*> const& __cordl_internal_get__device_k__BackingField() const;
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
@@ -705,33 +687,33 @@ public:
 
   constexpr bool& __cordl_internal_get__drawStats_k__BackingField();
 
+  constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* const& __cordl_internal_get__indicesPool_k__BackingField() const;
+
   constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*& __cordl_internal_get__indicesPool_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*> const& __cordl_internal_get__indicesPool_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::UIR::JobManager* const& __cordl_internal_get__jobManager_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::UIR::JobManager*& __cordl_internal_get__jobManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::JobManager*> const& __cordl_internal_get__jobManager_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* const& __cordl_internal_get__opacityIdAccelerator_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::UIR::OpacityIdAccelerator*& __cordl_internal_get__opacityIdAccelerator_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*> const& __cordl_internal_get__opacityIdAccelerator_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* const& __cordl_internal_get__painter_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*& __cordl_internal_get__painter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*> const& __cordl_internal_get__painter_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel* const& __cordl_internal_get__panel_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get__panel_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __cordl_internal_get__panel_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::UIR::VectorImageManager* const& __cordl_internal_get__vectorImageManager_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::UIR::VectorImageManager*& __cordl_internal_get__vectorImageManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::VectorImageManager*> const& __cordl_internal_get__vectorImageManager_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* const& __cordl_internal_get__vertsPool_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>*& __cordl_internal_get__vertsPool_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>*> const& __cordl_internal_get__vertsPool_k__BackingField() const;
 
   constexpr int32_t const& __cordl_internal_get_m_ActiveRenderNodes() const;
 
@@ -741,9 +723,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_BlockDirtyRegistration();
 
-  constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>*& __cordl_internal_get_m_CommandPool();
+  constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* const& __cordl_internal_get_m_CommandPool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>*> const& __cordl_internal_get_m_CommandPool() const;
+  constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>*& __cordl_internal_get_m_CommandPool();
 
   constexpr int32_t const& __cordl_internal_get_m_CustomMaterialCommands() const;
 
@@ -765,18 +747,17 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_DefaultWorldSpaceShader();
 
-  constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking const& __cordl_internal_get_m_DirtyTracker() const;
+  constexpr ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking const& __cordl_internal_get_m_DirtyTracker() const;
 
-  constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking& __cordl_internal_get_m_DirtyTracker();
+  constexpr ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking& __cordl_internal_get_m_DirtyTracker();
+
+  constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand* const& __cordl_internal_get_m_FirstCommand() const;
 
   constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_m_FirstCommand();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __cordl_internal_get_m_FirstCommand() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData>* const& __cordl_internal_get_m_RenderNodesData() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>*& __cordl_internal_get_m_RenderNodesData();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>*> const&
-  __cordl_internal_get_m_RenderNodesData() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData>*& __cordl_internal_get_m_RenderNodesData();
 
   constexpr int32_t const& __cordl_internal_get_m_StaticIndex() const;
 
@@ -794,13 +775,13 @@ public:
 
   constexpr uint32_t& __cordl_internal_get_m_StatsElementsRemoved();
 
+  constexpr ::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* const& __cordl_internal_get_m_TexturePool() const;
+
   constexpr ::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>*& __cordl_internal_get_m_TexturePool();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>*> const& __cordl_internal_get_m_TexturePool() const;
+  constexpr ::UnityEngine::UIElements::TextureRegistry* const& __cordl_internal_get_m_TextureRegistry() const;
 
   constexpr ::UnityEngine::UIElements::TextureRegistry*& __cordl_internal_get_m_TextureRegistry();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextureRegistry*> const& __cordl_internal_get_m_TextureRegistry() const;
 
   constexpr ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator const& __cordl_internal_get_shaderInfoAllocator() const;
 
@@ -846,11 +827,11 @@ public:
 
   constexpr void __cordl_internal_set_m_DefaultWorldSpaceShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr void __cordl_internal_set_m_DirtyTracker(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking value);
+  constexpr void __cordl_internal_set_m_DirtyTracker(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking value);
 
   constexpr void __cordl_internal_set_m_FirstCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
-  constexpr void __cordl_internal_set_m_RenderNodesData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* value);
+  constexpr void __cordl_internal_set_m_RenderNodesData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData>* value);
 
   constexpr void __cordl_internal_set_m_StaticIndex(int32_t value);
 
@@ -866,7 +847,7 @@ public:
 
   constexpr void __cordl_internal_set_shaderInfoAllocator(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator value);
 
-  /// @brief Method .ctor, addr 0x49439c0, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a82d0, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::System::Action* getStaticF_OnPreRender();
@@ -885,40 +866,40 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerVisualsProcessing();
 
-  /// @brief Method get_atlas, addr 0x49466dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x49aafec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::AtlasBase* get_atlas();
 
-  /// @brief Method get_device, addr 0x49466cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x49aafdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::UIRenderDevice* get_device();
 
-  /// @brief Method get_disposed, addr 0x494457c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49a8e8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_drawInCameras, addr 0x4946750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawInCameras, addr 0x49ab060, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawInCameras();
 
-  /// @brief Method get_drawStats, addr 0x494673c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawStats, addr 0x49ab04c, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
-  /// @brief Method get_indicesPool, addr 0x494670c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indicesPool, addr 0x49ab01c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* get_indicesPool();
 
-  /// @brief Method get_jobManager, addr 0x494671c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jobManager, addr 0x49ab02c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::JobManager* get_jobManager();
 
-  /// @brief Method get_opacityIdAccelerator, addr 0x4943714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opacityIdAccelerator, addr 0x49a8024, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* get_opacityIdAccelerator();
 
-  /// @brief Method get_painter, addr 0x494672c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_painter, addr 0x49ab03c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* get_painter();
 
-  /// @brief Method get_panel, addr 0x49466bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panel, addr 0x49aafcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
-  /// @brief Method get_vectorImageManager, addr 0x49466ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImageManager, addr 0x49aaffc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageManager* get_vectorImageManager();
 
-  /// @brief Method get_vertsPool, addr 0x49466fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertsPool, addr 0x49ab00c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* get_vertsPool();
 
   /// @brief Convert to "::System::IDisposable"
@@ -940,46 +921,46 @@ public:
 
   static inline void setStaticF_s_MarkerVisualsProcessing(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_atlas, addr 0x49466e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlas, addr 0x49aaff4, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::UIElements::AtlasBase* value);
 
-  /// @brief Method set_defaultShader, addr 0x4946764, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_defaultShader, addr 0x49ab074, size 0xb0, virtual false, abstract: false, final false
   inline void set_defaultShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_defaultWorldSpaceShader, addr 0x4946814, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_defaultWorldSpaceShader, addr 0x49ab124, size 0xb0, virtual false, abstract: false, final false
   inline void set_defaultWorldSpaceShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_device, addr 0x49466d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x49aafe4, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::UIElements::UIR::UIRenderDevice* value);
 
-  /// @brief Method set_disposed, addr 0x4944584, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49a8e94, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_drawInCameras, addr 0x4946758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_drawInCameras, addr 0x49ab068, size 0xc, virtual false, abstract: false, final false
   inline void set_drawInCameras(bool value);
 
-  /// @brief Method set_drawStats, addr 0x4946744, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_drawStats, addr 0x49ab054, size 0xc, virtual false, abstract: false, final false
   inline void set_drawStats(bool value);
 
-  /// @brief Method set_indicesPool, addr 0x4946714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_indicesPool, addr 0x49ab024, size 0x8, virtual false, abstract: false, final false
   inline void set_indicesPool(::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* value);
 
-  /// @brief Method set_jobManager, addr 0x4946724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_jobManager, addr 0x49ab034, size 0x8, virtual false, abstract: false, final false
   inline void set_jobManager(::UnityEngine::UIElements::UIR::JobManager* value);
 
-  /// @brief Method set_opacityIdAccelerator, addr 0x494371c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_opacityIdAccelerator, addr 0x49a802c, size 0x8, virtual false, abstract: false, final false
   inline void set_opacityIdAccelerator(::UnityEngine::UIElements::UIR::OpacityIdAccelerator* value);
 
-  /// @brief Method set_painter, addr 0x4946734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_painter, addr 0x49ab044, size 0x8, virtual false, abstract: false, final false
   inline void set_painter(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* value);
 
-  /// @brief Method set_panel, addr 0x49466c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_panel, addr 0x49aafd4, size 0x8, virtual false, abstract: false, final false
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method set_vectorImageManager, addr 0x49466f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vectorImageManager, addr 0x49ab004, size 0x8, virtual false, abstract: false, final false
   inline void set_vectorImageManager(::UnityEngine::UIElements::UIR::VectorImageManager* value);
 
-  /// @brief Method set_vertsPool, addr 0x4946704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertsPool, addr 0x49ab014, size 0x8, virtual false, abstract: false, final false
   inline void set_vertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
 protected:
@@ -996,11 +977,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RenderChain(RenderChain const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6379 };
+
   /// @brief Field m_FirstCommand, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ___m_FirstCommand;
 
   /// @brief Field m_DirtyTracker, offset: 0x18, size: 0x28, def value: None
-  ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking ___m_DirtyTracker;
+  ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking ___m_DirtyTracker;
 
   /// @brief Field m_CommandPool, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* ___m_CommandPool;
@@ -1009,7 +993,7 @@ public:
   ::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* ___m_TexturePool;
 
   /// @brief Field m_RenderNodesData, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* ___m_RenderNodesData;
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData>* ___m_RenderNodesData;
 
   /// @brief Field m_DefaultShader, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_DefaultShader;
@@ -1086,14 +1070,9 @@ public:
   /// @brief Field <drawInCameras>k__BackingField, offset: 0x219, size: 0x1, def value: None
   bool ____drawInCameras_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6354 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain, 0x220>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_FirstCommand) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_DirtyTracker) == 0x18, "Offset mismatch!");
@@ -1154,11 +1133,13 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____drawStat
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____drawInCameras_k__BackingField) == 0x219, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain, 0x220>, "Size mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::RenderChain);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChain*, "UnityEngine.UIElements.UIR", "RenderChain");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::__RenderChain____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::__RenderChain____c*, "UnityEngine.UIElements.UIR", "RenderChain/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking, "UnityEngine.UIElements.UIR", "RenderChain/DepthOrderedDirtyTracking");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::__RenderChain__RenderChainStaticIndexAllocator, "UnityEngine.UIElements.UIR", "RenderChain/RenderChainStaticIndexAllocator");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData, "UnityEngine.UIElements.UIR", "RenderChain/RenderNodeData");
+NEED_NO_BOX(::UnityEngine::UIElements::UIR::RenderChain___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChain___c*, "UnityEngine.UIElements.UIR", "RenderChain/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking, "UnityEngine.UIElements.UIR", "RenderChain/DepthOrderedDirtyTracking");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChain_RenderChainStaticIndexAllocator, "UnityEngine.UIElements.UIR", "RenderChain/RenderChainStaticIndexAllocator");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChain_RenderNodeData, "UnityEngine.UIElements.UIR", "RenderChain/RenderNodeData");

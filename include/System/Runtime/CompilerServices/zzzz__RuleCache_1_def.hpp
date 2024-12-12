@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuleCache_1)
 namespace System {
@@ -16,13 +15,12 @@ template <typename T> class RuleCache_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::RuleCache_1);
-// Type: System.Runtime.CompilerServices::RuleCache`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::RuleCache`1<T>*
+// CS Name: System.Runtime.CompilerServices.RuleCache`1<T>
 class CORDL_TYPE RuleCache_1 : public ::System::Object {
 public:
   // Declarations
@@ -46,9 +44,9 @@ public:
 
   static inline ::System::Runtime::CompilerServices::RuleCache_1<T>* New_ctor();
 
-  constexpr ::System::Object*& __cordl_internal_get__cacheLock();
+  constexpr ::System::Object* const& __cordl_internal_get__cacheLock() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__cacheLock() const;
+  constexpr ::System::Object*& __cordl_internal_get__cacheLock();
 
   constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__rules() const;
 
@@ -75,14 +73,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuleCache_1(RuleCache_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14136 };
+
   /// @brief Field _rules, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____rules;
 
   /// @brief Field _cacheLock, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____cacheLock;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

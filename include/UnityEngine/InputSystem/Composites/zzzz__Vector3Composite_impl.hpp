@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector3Composite.hpp"
-#include "UnityEngine/InputSystem/Composites/zzzz__Vector3Composite_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__Vector3Composite_def.hpp"
@@ -8,21 +7,21 @@
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode::__Vector3Composite__Mode(int32_t value__) noexcept {
+constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite_Mode::Vector3Composite_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode::__Vector3Composite__Mode() {}
-constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode UnityEngine::InputSystem::Composites::__Vector3Composite__Mode::Analog{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode UnityEngine::InputSystem::Composites::__Vector3Composite__Mode::DigitalNormalized{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode UnityEngine::InputSystem::Composites::__Vector3Composite__Mode::Digital{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite_Mode::Vector3Composite_Mode() {}
+constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite_Mode UnityEngine::InputSystem::Composites::Vector3Composite_Mode::Analog{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite_Mode UnityEngine::InputSystem::Composites::Vector3Composite_Mode::DigitalNormalized{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite_Mode UnityEngine::InputSystem::Composites::Vector3Composite_Mode::Digital{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Composites::Vector3Composite.ReadValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Composites::Vector3Composite::*)(
-    ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::Vector3Composite::ReadValue)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::Vector3Composite::ReadValue)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x4511634;
+  constexpr static std::size_t addrs = 0x4572948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::Vector3Composite::*)()>(
     &::UnityEngine::InputSystem::Composites::Vector3Composite::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4511888;
+  constexpr static std::size_t addrs = 0x4572b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(),
@@ -118,31 +117,31 @@ constexpr void UnityEngine::InputSystem::Composites::Vector3Composite::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___backward = value;
 }
-constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode& UnityEngine::InputSystem::Composites::Vector3Composite::__cordl_internal_get_mode() {
+constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite_Mode& UnityEngine::InputSystem::Composites::Vector3Composite::__cordl_internal_get_mode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode const& UnityEngine::InputSystem::Composites::Vector3Composite::__cordl_internal_get_mode() const {
+constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite_Mode const& UnityEngine::InputSystem::Composites::Vector3Composite::__cordl_internal_get_mode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr void UnityEngine::InputSystem::Composites::Vector3Composite::__cordl_internal_set_mode(::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode value) {
+constexpr void UnityEngine::InputSystem::Composites::Vector3Composite::__cordl_internal_set_mode(::UnityEngine::InputSystem::Composites::Vector3Composite_Mode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
-inline ::UnityEngine::Vector3 UnityEngine::InputSystem::Composites::Vector3Composite::ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+inline ::UnityEngine::Vector3 UnityEngine::InputSystem::Composites::Vector3Composite::ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, context);
 }
-inline ::UnityEngine::InputSystem::Composites::Vector3Composite* UnityEngine::InputSystem::Composites::Vector3Composite::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Composites::Vector3Composite*>());
-}
 inline void UnityEngine::InputSystem::Composites::Vector3Composite::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::Composites::Vector3Composite* UnityEngine::InputSystem::Composites::Vector3Composite::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Composites::Vector3Composite*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite::Vector3Composite() {}

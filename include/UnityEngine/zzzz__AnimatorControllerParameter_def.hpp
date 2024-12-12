@@ -18,11 +18,10 @@ class AnimatorControllerParameter;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimatorControllerParameter);
-// Type: UnityEngine::AnimatorControllerParameter
-// SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.AnimatorControllerParameterType
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AnimatorControllerParameter*
+// CS Name: UnityEngine.AnimatorControllerParameter
 class CORDL_TYPE AnimatorControllerParameter : public ::System::Object {
 public:
   // Declarations
@@ -43,10 +42,10 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method Equals, addr 0x47f0bf8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4851f0c, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x47f0cd4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4851fe8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AnimatorControllerParameter* New_ctor();
@@ -81,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::UnityEngine::AnimatorControllerParameterType value);
 
-  /// @brief Method .ctor, addr 0x47f0cf4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4852008, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x47f0bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4851f04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimatorControllerParameter(AnimatorControllerParameter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16868 };
+
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 
@@ -116,14 +118,9 @@ public:
   /// @brief Field m_DefaultBool, offset: 0x24, size: 0x1, def value: None
   bool ___m_DefaultBool;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16829 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorControllerParameter, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AnimatorControllerParameter, ___m_Name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AnimatorControllerParameter, ___m_Type) == 0x18, "Offset mismatch!");
@@ -133,6 +130,8 @@ static_assert(offsetof(::UnityEngine::AnimatorControllerParameter, ___m_DefaultF
 static_assert(offsetof(::UnityEngine::AnimatorControllerParameter, ___m_DefaultInt) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AnimatorControllerParameter, ___m_DefaultBool) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorControllerParameter, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AnimatorControllerParameter);

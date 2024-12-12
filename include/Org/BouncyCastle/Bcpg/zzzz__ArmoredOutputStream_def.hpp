@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArmoredOutputStream)
@@ -26,19 +25,18 @@ class ArmoredOutputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ArmoredOutputStream);
-// Type: Org.BouncyCastle.Bcpg::ArmoredOutputStream
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.IO.BaseOutputStream
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::ArmoredOutputStream*
+// CS Name: Org.BouncyCastle.Bcpg.ArmoredOutputStream
 class CORDL_TYPE ArmoredOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field HeaderVersion, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HeaderVersion, put = setStaticF_HeaderVersion)) ::StringW HeaderVersion;
+  __declspec(property(get = getStaticF_HeaderVersion, put = setStaticF_HeaderVersion)) ::StringW HeaderVersion;
 
   /// @brief Field Version, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Version, put = setStaticF_Version)) ::StringW Version;
+  __declspec(property(get = getStaticF_Version, put = setStaticF_Version)) ::StringW Version;
 
   /// @brief Field buf, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf)) ::ArrayW<int32_t, ::Array<int32_t>*> buf;
@@ -56,19 +54,19 @@ public:
   __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc)) ::Org::BouncyCastle::Bcpg::Crc24* crc;
 
   /// @brief Field encodingTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_encodingTable, put = setStaticF_encodingTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingTable;
+  __declspec(property(get = getStaticF_encodingTable, put = setStaticF_encodingTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingTable;
 
   /// @brief Field footerStart, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_footerStart, put = setStaticF_footerStart)) ::StringW footerStart;
+  __declspec(property(get = getStaticF_footerStart, put = setStaticF_footerStart)) ::StringW footerStart;
 
   /// @brief Field footerTail, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_footerTail, put = setStaticF_footerTail)) ::StringW footerTail;
+  __declspec(property(get = getStaticF_footerTail, put = setStaticF_footerTail)) ::StringW footerTail;
 
   /// @brief Field headerStart, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_headerStart, put = setStaticF_headerStart)) ::StringW headerStart;
+  __declspec(property(get = getStaticF_headerStart, put = setStaticF_headerStart)) ::StringW headerStart;
 
   /// @brief Field headerTail, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_headerTail, put = setStaticF_headerTail)) ::StringW headerTail;
+  __declspec(property(get = getStaticF_headerTail, put = setStaticF_headerTail)) ::StringW headerTail;
 
   /// @brief Field headers, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers)) ::System::Collections::IDictionary* headers;
@@ -80,7 +78,7 @@ public:
   __declspec(property(get = __cordl_internal_get_newLine, put = __cordl_internal_set_newLine)) bool newLine;
 
   /// @brief Field nl, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nl, put = setStaticF_nl)) ::StringW nl;
+  __declspec(property(get = getStaticF_nl, put = setStaticF_nl)) ::StringW nl;
 
   /// @brief Field outStream, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_outStream, put = __cordl_internal_set_outStream)) ::System::IO::Stream* outStream;
@@ -91,41 +89,41 @@ public:
   /// @brief Field type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::StringW type;
 
-  /// @brief Method AddHeader, addr 0x260cc64, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method AddHeader, addr 0x263ff50, size 0x218, virtual false, abstract: false, final false
   inline void AddHeader(::StringW name, ::StringW val);
 
-  /// @brief Method BeginClearText, addr 0x260d0a4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method BeginClearText, addr 0x2640390, size 0x1d4, virtual false, abstract: false, final false
   inline void BeginClearText(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method Close, addr 0x260de20, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x264110c, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoClose, addr 0x260de58, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DoClose, addr 0x2641144, size 0x1ac, virtual false, abstract: false, final false
   inline void DoClose();
 
-  /// @brief Method DoWrite, addr 0x260d278, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DoWrite, addr 0x2640564, size 0x44, virtual false, abstract: false, final false
   inline void DoWrite(::StringW s);
 
-  /// @brief Method Encode, addr 0x260c038, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x263f324, size 0x2f4, virtual false, abstract: false, final false
   static inline void Encode(::System::IO::Stream* outStream, ::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t len);
 
-  /// @brief Method EndClearText, addr 0x260d2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndClearText, addr 0x26405a8, size 0x8, virtual false, abstract: false, final false
   inline void EndClearText();
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
-  /// @brief Method ResetHeaders, addr 0x260ce7c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ResetHeaders, addr 0x2640168, size 0x228, virtual false, abstract: false, final false
   inline void ResetHeaders();
 
-  /// @brief Method SetHeader, addr 0x260c458, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method SetHeader, addr 0x263f744, size 0x2b4, virtual false, abstract: false, final false
   inline void SetHeader(::StringW name, ::StringW val);
 
-  /// @brief Method WriteByte, addr 0x260d2c4, size 0xac0, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x26405b0, size 0xac0, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method WriteHeaderEntry, addr 0x260dd84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteHeaderEntry, addr 0x2641070, size 0x9c, virtual false, abstract: false, final false
   inline void WriteHeaderEntry(::StringW name, ::StringW v);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_buf() const;
@@ -144,13 +142,13 @@ public:
 
   constexpr bool& __cordl_internal_get_clearText();
 
+  constexpr ::Org::BouncyCastle::Bcpg::Crc24* const& __cordl_internal_get_crc() const;
+
   constexpr ::Org::BouncyCastle::Bcpg::Crc24*& __cordl_internal_get_crc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::Crc24*> const& __cordl_internal_get_crc() const;
+  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_headers() const;
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_headers();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_headers() const;
 
   constexpr int32_t const& __cordl_internal_get_lastb() const;
 
@@ -160,9 +158,9 @@ public:
 
   constexpr bool& __cordl_internal_get_newLine();
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_outStream();
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_outStream() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_outStream() const;
+  constexpr ::System::IO::Stream*& __cordl_internal_get_outStream();
 
   constexpr bool const& __cordl_internal_get_start() const;
 
@@ -194,10 +192,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x260c32c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263f618, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x260c70c, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263f9f8, size 0x558, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
   static inline ::StringW getStaticF_HeaderVersion();
@@ -246,6 +244,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArmoredOutputStream(ArmoredOutputStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 551 };
+
   /// @brief Field outStream, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Stream* ___outStream;
 
@@ -279,14 +280,9 @@ public:
   /// @brief Field headers, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___headers;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 551 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ArmoredOutputStream, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___outStream) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___buf) == 0x38, "Offset mismatch!");
@@ -308,6 +304,8 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___newLin
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___type) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___headers) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ArmoredOutputStream, 0x70>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ArmoredOutputStream);

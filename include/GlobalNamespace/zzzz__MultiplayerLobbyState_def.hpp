@@ -12,11 +12,10 @@ struct MultiplayerLobbyState;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::MultiplayerLobbyState);
-// Type: ::MultiplayerLobbyState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MultiplayerLobbyState
+// CS Name: MultiplayerLobbyState
 struct CORDL_TYPE MultiplayerLobbyState {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MultiplayerLobbyState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Error value: static_cast<int32_t>(0x5)
+  /// @brief Field Error value: I32(5)
   static ::GlobalNamespace::MultiplayerLobbyState const Error;
 
-  /// @brief Field GameRunning value: static_cast<int32_t>(0x4)
+  /// @brief Field GameRunning value: I32(4)
   static ::GlobalNamespace::MultiplayerLobbyState const GameRunning;
 
-  /// @brief Field GameStarting value: static_cast<int32_t>(0x3)
+  /// @brief Field GameStarting value: I32(3)
   static ::GlobalNamespace::MultiplayerLobbyState const GameStarting;
 
-  /// @brief Field LobbyCountdown value: static_cast<int32_t>(0x2)
+  /// @brief Field LobbyCountdown value: I32(2)
   static ::GlobalNamespace::MultiplayerLobbyState const LobbyCountdown;
 
-  /// @brief Field LobbySetup value: static_cast<int32_t>(0x1)
+  /// @brief Field LobbySetup value: I32(1)
   static ::GlobalNamespace::MultiplayerLobbyState const LobbySetup;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::GlobalNamespace::MultiplayerLobbyState const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14881 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyState, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyState, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyState, "", "MultiplayerLobbyState");

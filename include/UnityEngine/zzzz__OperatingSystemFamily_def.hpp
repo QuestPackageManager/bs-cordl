@@ -12,11 +12,10 @@ struct OperatingSystemFamily;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::OperatingSystemFamily);
-// Type: UnityEngine::OperatingSystemFamily
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::OperatingSystemFamily
+// CS Name: UnityEngine.OperatingSystemFamily
 struct CORDL_TYPE OperatingSystemFamily {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr OperatingSystemFamily(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Linux value: static_cast<int32_t>(0x3)
+  /// @brief Field Linux value: I32(3)
   static ::UnityEngine::OperatingSystemFamily const Linux;
 
-  /// @brief Field MacOSX value: static_cast<int32_t>(0x1)
+  /// @brief Field MacOSX value: I32(1)
   static ::UnityEngine::OperatingSystemFamily const MacOSX;
 
-  /// @brief Field Other value: static_cast<int32_t>(0x0)
+  /// @brief Field Other value: I32(0)
   static ::UnityEngine::OperatingSystemFamily const Other;
 
-  /// @brief Field Windows value: static_cast<int32_t>(0x2)
+  /// @brief Field Windows value: I32(2)
   static ::UnityEngine::OperatingSystemFamily const Windows;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::OperatingSystemFamily, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::OperatingSystemFamily, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::OperatingSystemFamily, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::OperatingSystemFamily, "UnityEngine", "OperatingSystemFamily");

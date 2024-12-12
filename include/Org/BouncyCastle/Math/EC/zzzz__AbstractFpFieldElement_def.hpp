@@ -11,17 +11,16 @@ class AbstractFpFieldElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractFpFieldElement);
-// Type: Org.BouncyCastle.Math.EC::AbstractFpFieldElement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.ECFieldElement
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC::AbstractFpFieldElement*
+// CS Name: Org.BouncyCastle.Math.EC.AbstractFpFieldElement
 class CORDL_TYPE AbstractFpFieldElement : public ::Org::BouncyCastle::Math::EC::ECFieldElement {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Math::EC::AbstractFpFieldElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x241d8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2450be0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

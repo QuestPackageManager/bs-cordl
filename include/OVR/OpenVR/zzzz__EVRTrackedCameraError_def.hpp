@@ -12,11 +12,10 @@ struct EVRTrackedCameraError;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRTrackedCameraError);
-// Type: OVR.OpenVR::EVRTrackedCameraError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRTrackedCameraError
+// CS Name: OVR.OpenVR.EVRTrackedCameraError
 struct CORDL_TYPE EVRTrackedCameraError {
 public:
   // Declarations
@@ -60,72 +59,72 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRTrackedCameraError(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field FailedToGetGLTextureId value: static_cast<int32_t>(0x6f)
+  /// @brief Field FailedToGetGLTextureId value: I32(111)
   static ::OVR::OpenVR::EVRTrackedCameraError const FailedToGetGLTextureId;
 
-  /// @brief Field FrameBufferingFailure value: static_cast<int32_t>(0x6b)
+  /// @brief Field FrameBufferingFailure value: I32(107)
   static ::OVR::OpenVR::EVRTrackedCameraError const FrameBufferingFailure;
 
-  /// @brief Field IPCFailure value: static_cast<int32_t>(0x68)
+  /// @brief Field IPCFailure value: I32(104)
   static ::OVR::OpenVR::EVRTrackedCameraError const IPCFailure;
 
-  /// @brief Field InvalidArgument value: static_cast<int32_t>(0x72)
+  /// @brief Field InvalidArgument value: I32(114)
   static ::OVR::OpenVR::EVRTrackedCameraError const InvalidArgument;
 
-  /// @brief Field InvalidFrameBufferSize value: static_cast<int32_t>(0x73)
+  /// @brief Field InvalidFrameBufferSize value: I32(115)
   static ::OVR::OpenVR::EVRTrackedCameraError const InvalidFrameBufferSize;
 
-  /// @brief Field InvalidFrameHeaderVersion value: static_cast<int32_t>(0x66)
+  /// @brief Field InvalidFrameHeaderVersion value: I32(102)
   static ::OVR::OpenVR::EVRTrackedCameraError const InvalidFrameHeaderVersion;
 
-  /// @brief Field InvalidGLTextureId value: static_cast<int32_t>(0x6d)
+  /// @brief Field InvalidGLTextureId value: I32(109)
   static ::OVR::OpenVR::EVRTrackedCameraError const InvalidGLTextureId;
 
-  /// @brief Field InvalidHandle value: static_cast<int32_t>(0x65)
+  /// @brief Field InvalidHandle value: I32(101)
   static ::OVR::OpenVR::EVRTrackedCameraError const InvalidHandle;
 
-  /// @brief Field InvalidSharedTextureHandle value: static_cast<int32_t>(0x6e)
+  /// @brief Field InvalidSharedTextureHandle value: I32(110)
   static ::OVR::OpenVR::EVRTrackedCameraError const InvalidSharedTextureHandle;
 
-  /// @brief Field NoFrameAvailable value: static_cast<int32_t>(0x71)
+  /// @brief Field NoFrameAvailable value: I32(113)
   static ::OVR::OpenVR::EVRTrackedCameraError const NoFrameAvailable;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::OVR::OpenVR::EVRTrackedCameraError const None;
 
-  /// @brief Field NotSupportedForThisDevice value: static_cast<int32_t>(0x69)
+  /// @brief Field NotSupportedForThisDevice value: I32(105)
   static ::OVR::OpenVR::EVRTrackedCameraError const NotSupportedForThisDevice;
 
-  /// @brief Field OperationFailed value: static_cast<int32_t>(0x64)
+  /// @brief Field OperationFailed value: I32(100)
   static ::OVR::OpenVR::EVRTrackedCameraError const OperationFailed;
 
-  /// @brief Field OutOfHandles value: static_cast<int32_t>(0x67)
+  /// @brief Field OutOfHandles value: I32(103)
   static ::OVR::OpenVR::EVRTrackedCameraError const OutOfHandles;
 
-  /// @brief Field SharedMemoryFailure value: static_cast<int32_t>(0x6a)
+  /// @brief Field SharedMemoryFailure value: I32(106)
   static ::OVR::OpenVR::EVRTrackedCameraError const SharedMemoryFailure;
 
-  /// @brief Field SharedTextureFailure value: static_cast<int32_t>(0x70)
+  /// @brief Field SharedTextureFailure value: I32(112)
   static ::OVR::OpenVR::EVRTrackedCameraError const SharedTextureFailure;
 
-  /// @brief Field StreamSetupFailure value: static_cast<int32_t>(0x6c)
+  /// @brief Field StreamSetupFailure value: I32(108)
   static ::OVR::OpenVR::EVRTrackedCameraError const StreamSetupFailure;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8923 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRTrackedCameraError, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRTrackedCameraError, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRTrackedCameraError, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRTrackedCameraError, "OVR.OpenVR", "EVRTrackedCameraError");

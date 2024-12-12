@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Threading::Thread*)>(
     &::Internal::Runtime::Augments::RuntimeThread::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c0dc24;
+  constexpr static std::size_t addrs = 0x3c6dd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Internal::Runtime::Augments::RuntimeThread* (*)(::System::Threading::ParameterizedThreadStart*, int32_t)>(
     &::Internal::Runtime::Augments::RuntimeThread::Create)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c0dc4c;
+  constexpr static std::size_t addrs = 0x3c6dd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(bool)>(
     &::Internal::Runtime::Augments::RuntimeThread::set_IsBackground)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c0dce4;
+  constexpr static std::size_t addrs = 0x3c6ddf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Object*)>(
     &::Internal::Runtime::Augments::RuntimeThread::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c0dd04;
+  constexpr static std::size_t addrs = 0x3c6de18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::Sleep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0dd20;
+  constexpr static std::size_t addrs = 0x3c6de34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Internal::Runtime::Augments::RuntimeThread::Yield)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0dd28;
+  constexpr static std::size_t addrs = 0x3c6de3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Runtime::Augments::RuntimeThread*>::get(), "Yield",
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::SpinWait)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c0dd30;
+  constexpr static std::size_t addrs = 0x3c6de44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Internal::Runtime::Augments::RuntimeThread::GetCurrentProcessorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0dd48;
+  constexpr static std::size_t addrs = 0x3c6de5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Runtime::Augments::RuntimeThread*>::get(),
@@ -124,7 +124,7 @@ constexpr ::System::Threading::Thread*& Internal::Runtime::Augments::RuntimeThre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thread;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& Internal::Runtime::Augments::RuntimeThread::__cordl_internal_get_thread() const {
+constexpr ::System::Threading::Thread* const& Internal::Runtime::Augments::RuntimeThread::__cordl_internal_get_thread() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thread;
 }
@@ -139,9 +139,6 @@ inline void Internal::Runtime::Augments::RuntimeThread::setStaticF_OptimalMaxSpi
 inline int32_t Internal::Runtime::Augments::RuntimeThread::getStaticF_OptimalMaxSpinWaitsPerSpinIteration() {
   return ::cordl_internals::getStaticField<int32_t, "OptimalMaxSpinWaitsPerSpinIteration",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Runtime::Augments::RuntimeThread*>::get>();
-}
-inline ::Internal::Runtime::Augments::RuntimeThread* Internal::Runtime::Augments::RuntimeThread::New_ctor(::System::Threading::Thread* t) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Internal::Runtime::Augments::RuntimeThread*>(t));
 }
 inline void Internal::Runtime::Augments::RuntimeThread::_ctor(::System::Threading::Thread* t) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -189,6 +186,9 @@ inline int32_t Internal::Runtime::Augments::RuntimeThread::GetCurrentProcessorId
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Runtime::Augments::RuntimeThread*>::get(),
                                                                              "GetCurrentProcessorId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+}
+inline ::Internal::Runtime::Augments::RuntimeThread* Internal::Runtime::Augments::RuntimeThread::New_ctor(::System::Threading::Thread* t) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Internal::Runtime::Augments::RuntimeThread*>(t));
 }
 // Ctor Parameters []
 constexpr ::Internal::Runtime::Augments::RuntimeThread::RuntimeThread() {}

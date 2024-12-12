@@ -27,1137 +27,1126 @@
 #include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo._ctor
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_DeclBaseInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__DeclBaseInfo::*)()>(
-    &::System::Xml::Schema::__XdrBuilder__DeclBaseInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_DeclBaseInfo::*)()>(&::System::Xml::Schema::XdrBuilder_DeclBaseInfo::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x424e460;
+  constexpr static std::size_t addrs = 0x42af774;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_DeclBaseInfo*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo.Reset
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_DeclBaseInfo.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__DeclBaseInfo::*)()>(
-    &::System::Xml::Schema::__XdrBuilder__DeclBaseInfo::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_DeclBaseInfo::*)()>(&::System::Xml::Schema::XdrBuilder_DeclBaseInfo::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x424e8b4;
+  constexpr static std::size_t addrs = 0x42afbc8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*>::get(),
-                                                                               "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_DeclBaseInfo*>::get(), "Reset",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Name() {
+constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Name() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__Name(::System::Xml::XmlQualifiedName* value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__Name(::System::Xml::XmlQualifiedName* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Prefix() {
+constexpr ::StringW& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Prefix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Prefix;
 }
-constexpr ::StringW const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Prefix() const {
+constexpr ::StringW const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Prefix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Prefix;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__Prefix(::StringW value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__Prefix(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__TypeName() {
+constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__TypeName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypeName;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__TypeName() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__TypeName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypeName;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__TypeName(::System::Xml::XmlQualifiedName* value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__TypeName(::System::Xml::XmlQualifiedName* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TypeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__TypePrefix() {
+constexpr ::StringW& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__TypePrefix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypePrefix;
 }
-constexpr ::StringW const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__TypePrefix() const {
+constexpr ::StringW const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__TypePrefix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypePrefix;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__TypePrefix(::StringW value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__TypePrefix(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TypePrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Default() {
+constexpr ::System::Object*& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Default() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Default;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Default() const {
+constexpr ::System::Object* const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Default() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Default;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__Default(::System::Object* value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__Default(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Default)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Revises() {
+constexpr ::System::Object*& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Revises() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Revises;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Revises() const {
+constexpr ::System::Object* const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Revises() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Revises;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__Revises(::System::Object* value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__Revises(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Revises)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__MaxOccurs() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__MaxOccurs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxOccurs;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__MaxOccurs() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__MaxOccurs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxOccurs;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__MaxOccurs(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__MaxOccurs(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxOccurs = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__MinOccurs() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__MinOccurs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinOccurs;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__MinOccurs() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__MinOccurs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinOccurs;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__MinOccurs(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__MinOccurs(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MinOccurs = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Checking() {
+constexpr bool& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Checking() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Checking;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Checking() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Checking() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Checking;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__Checking(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__Checking(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Checking = value;
 }
-constexpr ::System::Xml::Schema::SchemaElementDecl*& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__ElementDecl() {
+constexpr ::System::Xml::Schema::SchemaElementDecl*& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__ElementDecl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementDecl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__ElementDecl() const {
+constexpr ::System::Xml::Schema::SchemaElementDecl* const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__ElementDecl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementDecl;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl* value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ElementDecl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::SchemaAttDef*& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Attdef() {
+constexpr ::System::Xml::Schema::SchemaAttDef*& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Attdef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Attdef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaAttDef*> const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Attdef() const {
+constexpr ::System::Xml::Schema::SchemaAttDef* const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Attdef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Attdef;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__Attdef(::System::Xml::Schema::SchemaAttDef* value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__Attdef(::System::Xml::Schema::SchemaAttDef* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Attdef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Next() {
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*> const& System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_get__Next() const {
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_get__Next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Next;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__cordl_internal_set__Next(::System::Xml::Schema::__XdrBuilder__DeclBaseInfo* value) {
+constexpr void System::Xml::Schema::XdrBuilder_DeclBaseInfo::__cordl_internal_set__Next(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo* System::Xml::Schema::__XdrBuilder__DeclBaseInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*>());
-}
-inline void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*>::get(), ".ctor",
+inline void System::Xml::Schema::XdrBuilder_DeclBaseInfo::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_DeclBaseInfo*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Xml::Schema::__XdrBuilder__DeclBaseInfo::Reset() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*>::get(), "Reset",
+inline void System::Xml::Schema::XdrBuilder_DeclBaseInfo::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_DeclBaseInfo*>::get(), "Reset",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* System::Xml::Schema::XdrBuilder_DeclBaseInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_DeclBaseInfo*>());
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo::__XdrBuilder__DeclBaseInfo() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__GroupContent.Copy
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo::XdrBuilder_DeclBaseInfo() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_GroupContent.Copy
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::__XdrBuilder__GroupContent*, ::System::Xml::Schema::__XdrBuilder__GroupContent*)>(
-    &::System::Xml::Schema::__XdrBuilder__GroupContent::Copy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder_GroupContent*, ::System::Xml::Schema::XdrBuilder_GroupContent*)>(
+    &::System::Xml::Schema::XdrBuilder_GroupContent::Copy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4251090;
+  constexpr static std::size_t addrs = 0x42b23a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_GroupContent*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__GroupContent.Copy
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_GroupContent.Copy
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::__XdrBuilder__GroupContent* (*)(::System::Xml::Schema::__XdrBuilder__GroupContent*)>(
-    &::System::Xml::Schema::__XdrBuilder__GroupContent::Copy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XdrBuilder_GroupContent* (*)(::System::Xml::Schema::XdrBuilder_GroupContent*)>(
+    &::System::Xml::Schema::XdrBuilder_GroupContent::Copy)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x424b4bc;
+  constexpr static std::size_t addrs = 0x42ac7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_GroupContent*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__GroupContent._ctor
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_GroupContent._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__GroupContent::*)()>(
-    &::System::Xml::Schema::__XdrBuilder__GroupContent::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_GroupContent::*)()>(&::System::Xml::Schema::XdrBuilder_GroupContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424a0fc;
+  constexpr static std::size_t addrs = 0x42ab410;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__MinVal() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__MinVal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinVal;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__MinVal() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__MinVal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinVal;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_set__MinVal(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_set__MinVal(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MinVal = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__MaxVal() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__MaxVal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxVal;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__MaxVal() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__MaxVal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxVal;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_set__MaxVal(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_set__MaxVal(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxVal = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__HasMaxAttr() {
+constexpr bool& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__HasMaxAttr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasMaxAttr;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__HasMaxAttr() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__HasMaxAttr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasMaxAttr;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_set__HasMaxAttr(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_set__HasMaxAttr(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasMaxAttr = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__HasMinAttr() {
+constexpr bool& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__HasMinAttr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasMinAttr;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__HasMinAttr() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__HasMinAttr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasMinAttr;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_set__HasMinAttr(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_set__HasMinAttr(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasMinAttr = value;
 }
-constexpr int32_t& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__Order() {
+constexpr int32_t& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__Order() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Order;
 }
-constexpr int32_t const& System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_get__Order() const {
+constexpr int32_t const& System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_get__Order() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Order;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__GroupContent::__cordl_internal_set__Order(int32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_GroupContent::__cordl_internal_set__Order(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Order = value;
 }
-inline void System::Xml::Schema::__XdrBuilder__GroupContent::Copy(::System::Xml::Schema::__XdrBuilder__GroupContent* from, ::System::Xml::Schema::__XdrBuilder__GroupContent* to) {
+inline void System::Xml::Schema::XdrBuilder_GroupContent::Copy(::System::Xml::Schema::XdrBuilder_GroupContent* from, ::System::Xml::Schema::XdrBuilder_GroupContent* to) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_GroupContent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, from, to);
 }
-inline ::System::Xml::Schema::__XdrBuilder__GroupContent* System::Xml::Schema::__XdrBuilder__GroupContent::Copy(::System::Xml::Schema::__XdrBuilder__GroupContent* other) {
+inline ::System::Xml::Schema::XdrBuilder_GroupContent* System::Xml::Schema::XdrBuilder_GroupContent::Copy(::System::Xml::Schema::XdrBuilder_GroupContent* other) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::__XdrBuilder__GroupContent*, false>(nullptr, ___internal_method, other);
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_GroupContent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XdrBuilder_GroupContent*, false>(nullptr, ___internal_method, other);
 }
-inline ::System::Xml::Schema::__XdrBuilder__GroupContent* System::Xml::Schema::__XdrBuilder__GroupContent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__GroupContent*>());
-}
-inline void System::Xml::Schema::__XdrBuilder__GroupContent::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__GroupContent*>::get(), ".ctor",
+inline void System::Xml::Schema::XdrBuilder_GroupContent::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_GroupContent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Xml::Schema::XdrBuilder_GroupContent* System::Xml::Schema::XdrBuilder_GroupContent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_GroupContent*>());
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__GroupContent::__XdrBuilder__GroupContent() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__ElementContent._ctor
+constexpr ::System::Xml::Schema::XdrBuilder_GroupContent::XdrBuilder_GroupContent() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_ElementContent._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__ElementContent::*)()>(
-    &::System::Xml::Schema::__XdrBuilder__ElementContent::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_ElementContent::*)()>(
+    &::System::Xml::Schema::XdrBuilder_ElementContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424a0ec;
+  constexpr static std::size_t addrs = 0x42ab400;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__ElementContent*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_ElementContent*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::SchemaElementDecl*& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__ElementDecl() {
+constexpr ::System::Xml::Schema::SchemaElementDecl*& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__ElementDecl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementDecl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__ElementDecl() const {
+constexpr ::System::Xml::Schema::SchemaElementDecl* const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__ElementDecl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementDecl;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl* value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ElementDecl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__ContentAttr() {
+constexpr int32_t& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__ContentAttr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContentAttr;
 }
-constexpr int32_t const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__ContentAttr() const {
+constexpr int32_t const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__ContentAttr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContentAttr;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__ContentAttr(int32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__ContentAttr(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ContentAttr = value;
 }
-constexpr int32_t& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__OrderAttr() {
+constexpr int32_t& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__OrderAttr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OrderAttr;
 }
-constexpr int32_t const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__OrderAttr() const {
+constexpr int32_t const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__OrderAttr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OrderAttr;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__OrderAttr(int32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__OrderAttr(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____OrderAttr = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MasterGroupRequired() {
+constexpr bool& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MasterGroupRequired() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MasterGroupRequired;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MasterGroupRequired() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MasterGroupRequired() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MasterGroupRequired;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__MasterGroupRequired(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__MasterGroupRequired(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MasterGroupRequired = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__ExistTerminal() {
+constexpr bool& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__ExistTerminal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ExistTerminal;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__ExistTerminal() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__ExistTerminal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ExistTerminal;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__ExistTerminal(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__ExistTerminal(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ExistTerminal = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__AllowDataType() {
+constexpr bool& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__AllowDataType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllowDataType;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__AllowDataType() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__AllowDataType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllowDataType;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__AllowDataType(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__AllowDataType(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AllowDataType = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__HasDataType() {
+constexpr bool& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__HasDataType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasDataType;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__HasDataType() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__HasDataType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasDataType;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__HasDataType(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__HasDataType(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasDataType = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__HasType() {
+constexpr bool& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__HasType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasType;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__HasType() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__HasType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasType;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__HasType(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__HasType(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasType = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__EnumerationRequired() {
+constexpr bool& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__EnumerationRequired() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnumerationRequired;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__EnumerationRequired() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__EnumerationRequired() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnumerationRequired;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__EnumerationRequired(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__EnumerationRequired(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EnumerationRequired = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MinVal() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MinVal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinVal;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MinVal() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MinVal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinVal;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__MinVal(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__MinVal(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MinVal = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MaxVal() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MaxVal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxVal;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MaxVal() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MaxVal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxVal;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__MaxVal(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__MaxVal(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxVal = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MaxLength() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MaxLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxLength;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MaxLength() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MaxLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxLength;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__MaxLength(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__MaxLength(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxLength = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MinLength() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MinLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinLength;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__MinLength() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__MinLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinLength;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__MinLength(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__MinLength(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MinLength = value;
 }
-constexpr ::System::Collections::Hashtable*& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__AttDefList() {
+constexpr ::System::Collections::Hashtable*& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__AttDefList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttDefList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_get__AttDefList() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_get__AttDefList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttDefList;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__ElementContent::__cordl_internal_set__AttDefList(::System::Collections::Hashtable* value) {
+constexpr void System::Xml::Schema::XdrBuilder_ElementContent::__cordl_internal_set__AttDefList(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____AttDefList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::__XdrBuilder__ElementContent* System::Xml::Schema::__XdrBuilder__ElementContent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__ElementContent*>());
-}
-inline void System::Xml::Schema::__XdrBuilder__ElementContent::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__ElementContent*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void System::Xml::Schema::XdrBuilder_ElementContent::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_ElementContent*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Xml::Schema::XdrBuilder_ElementContent* System::Xml::Schema::XdrBuilder_ElementContent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_ElementContent*>());
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__ElementContent::__XdrBuilder__ElementContent() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__AttributeContent._ctor
+constexpr ::System::Xml::Schema::XdrBuilder_ElementContent::XdrBuilder_ElementContent() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_AttributeContent._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__AttributeContent::*)()>(
-    &::System::Xml::Schema::__XdrBuilder__AttributeContent::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_AttributeContent::*)()>(
+    &::System::Xml::Schema::XdrBuilder_AttributeContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424a0f4;
+  constexpr static std::size_t addrs = 0x42ab408;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__AttributeContent*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_AttributeContent*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::SchemaAttDef*& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__AttDef() {
+constexpr ::System::Xml::Schema::SchemaAttDef*& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__AttDef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttDef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaAttDef*> const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__AttDef() const {
+constexpr ::System::Xml::Schema::SchemaAttDef* const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__AttDef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttDef;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__AttDef(::System::Xml::Schema::SchemaAttDef* value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__AttDef(::System::Xml::Schema::SchemaAttDef* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____AttDef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Name() {
+constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Name() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__Name(::System::Xml::XmlQualifiedName* value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__Name(::System::Xml::XmlQualifiedName* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Prefix() {
+constexpr ::StringW& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Prefix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Prefix;
 }
-constexpr ::StringW const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Prefix() const {
+constexpr ::StringW const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Prefix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Prefix;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__Prefix(::StringW value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__Prefix(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Required() {
+constexpr bool& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Required() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Required;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Required() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Required() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Required;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__Required(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__Required(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Required = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MinVal() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MinVal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinVal;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MinVal() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MinVal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinVal;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__MinVal(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__MinVal(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MinVal = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MaxVal() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MaxVal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxVal;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MaxVal() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MaxVal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxVal;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__MaxVal(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__MaxVal(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxVal = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MaxLength() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MaxLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxLength;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MaxLength() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MaxLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxLength;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__MaxLength(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__MaxLength(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxLength = value;
 }
-constexpr uint32_t& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MinLength() {
+constexpr uint32_t& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MinLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinLength;
 }
-constexpr uint32_t const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__MinLength() const {
+constexpr uint32_t const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__MinLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinLength;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__MinLength(uint32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__MinLength(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MinLength = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__EnumerationRequired() {
+constexpr bool& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__EnumerationRequired() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnumerationRequired;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__EnumerationRequired() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__EnumerationRequired() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnumerationRequired;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__EnumerationRequired(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__EnumerationRequired(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EnumerationRequired = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__HasDataType() {
+constexpr bool& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__HasDataType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasDataType;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__HasDataType() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__HasDataType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasDataType;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__HasDataType(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__HasDataType(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasDataType = value;
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Global() {
+constexpr bool& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Global() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Global;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Global() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Global() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Global;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__Global(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__Global(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Global = value;
 }
-constexpr ::System::Object*& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Default() {
+constexpr ::System::Object*& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Default() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Default;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_get__Default() const {
+constexpr ::System::Object* const& System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_get__Default() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Default;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__AttributeContent::__cordl_internal_set__Default(::System::Object* value) {
+constexpr void System::Xml::Schema::XdrBuilder_AttributeContent::__cordl_internal_set__Default(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Default)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::__XdrBuilder__AttributeContent* System::Xml::Schema::__XdrBuilder__AttributeContent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__AttributeContent*>());
-}
-inline void System::Xml::Schema::__XdrBuilder__AttributeContent::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__AttributeContent*>::get(),
+inline void System::Xml::Schema::XdrBuilder_AttributeContent::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_AttributeContent*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Xml::Schema::XdrBuilder_AttributeContent* System::Xml::Schema::XdrBuilder_AttributeContent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_AttributeContent*>());
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__AttributeContent::__XdrBuilder__AttributeContent() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction._ctor
+constexpr ::System::Xml::Schema::XdrBuilder_AttributeContent::XdrBuilder_AttributeContent() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrBuildFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrBuildFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrBuildFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrBuildFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::Xml::Schema::XdrBuilder_XdrBuildFunction::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4250d1c;
+  constexpr static std::size_t addrs = 0x42b2030;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction.Invoke
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrBuildFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrBuildFunction::*)(
-    ::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(&::System::Xml::Schema::__XdrBuilder__XdrBuildFunction::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrBuildFunction::*)(
+    ::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(&::System::Xml::Schema::XdrBuilder_XdrBuildFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42510b8;
+  constexpr static std::size_t addrs = 0x42b23cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* System::Xml::Schema::__XdrBuilder__XdrBuildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>(object, method));
-}
-inline void System::Xml::Schema::__XdrBuilder__XdrBuildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void System::Xml::Schema::XdrBuilder_XdrBuildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void System::Xml::Schema::__XdrBuilder__XdrBuildFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get(), 13)));
+inline void System::Xml::Schema::XdrBuilder_XdrBuildFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder, obj, prefix);
 }
+inline ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* System::Xml::Schema::XdrBuilder_XdrBuildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction::__XdrBuilder__XdrBuildFunction() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrInitFunction._ctor
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBuildFunction::XdrBuilder_XdrBuildFunction() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrInitFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrInitFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrInitFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrInitFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::Xml::Schema::XdrBuilder_XdrInitFunction::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4250eb8;
+  constexpr static std::size_t addrs = 0x42b21cc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrInitFunction.Invoke
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrInitFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrInitFunction::*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(&::System::Xml::Schema::__XdrBuilder__XdrInitFunction::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrInitFunction::*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(
+    &::System::Xml::Schema::XdrBuilder_XdrInitFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42510cc;
+  constexpr static std::size_t addrs = 0x42b23e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::System::Xml::Schema::__XdrBuilder__XdrInitFunction* System::Xml::Schema::__XdrBuilder__XdrInitFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>(object, method));
-}
-inline void System::Xml::Schema::__XdrBuilder__XdrInitFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void System::Xml::Schema::XdrBuilder_XdrInitFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void System::Xml::Schema::__XdrBuilder__XdrInitFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>::get(), 13)));
+inline void System::Xml::Schema::XdrBuilder_XdrInitFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder, obj);
 }
-// Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrInitFunction::__XdrBuilder__XdrInitFunction() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4250f58;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::*)(::System::Xml::Schema::XdrBuilder*)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42510e0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction* System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>(object, method));
-}
-inline void System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder);
+inline ::System::Xml::Schema::XdrBuilder_XdrInitFunction* System::Xml::Schema::XdrBuilder_XdrInitFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction::__XdrBuilder__XdrBeginChildFunction() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction._ctor
+constexpr ::System::Xml::Schema::XdrBuilder_XdrInitFunction::XdrBuilder_XdrInitFunction() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4250ff4;
+  constexpr static std::size_t addrs = 0x42b226c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction.Invoke
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::*)(::System::Xml::Schema::XdrBuilder*)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::*)(::System::Xml::Schema::XdrBuilder*)>(
+    &::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42510f4;
+  constexpr static std::size_t addrs = 0x42b23f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction* System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>(object, method));
-}
-inline void System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>::get(),
+inline void System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder) {
+inline void System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder);
 }
+inline ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction::__XdrBuilder__XdrEndChildFunction() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry._ctor
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction::XdrBuilder_XdrBeginChildFunction() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::*)(
-    ::System::Xml::Schema::__SchemaNames__Token, ::System::Xml::XmlTokenizedType, ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4250dbc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrEndChildFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::Xml::Schema::XdrBuilder_XdrEndChildFunction::_ctor)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x42b2308;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry._ctor
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::*)(
-    ::System::Xml::Schema::__SchemaNames__Token, ::System::Xml::XmlTokenizedType, int32_t, ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*)>(
-    &::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::_ctor)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4250e04;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrEndChildFunction::*)(::System::Xml::Schema::XdrBuilder*)>(
+    &::System::Xml::Schema::XdrBuilder_XdrEndChildFunction::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x42b2408;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void System::Xml::Schema::XdrBuilder_XdrEndChildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void System::Xml::Schema::XdrBuilder_XdrEndChildFunction::Invoke(::System::Xml::Schema::XdrBuilder* builder) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder);
+}
+inline ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* System::Xml::Schema::XdrBuilder_XdrEndChildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction::XdrBuilder_XdrEndChildFunction() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrAttributeEntry::*)(
+    ::System::Xml::Schema::SchemaNames_Token, ::System::Xml::XmlTokenizedType, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*)>(&::System::Xml::Schema::XdrBuilder_XdrAttributeEntry::_ctor)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x42b20d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrAttributeEntry::*)(
+    ::System::Xml::Schema::SchemaNames_Token, ::System::Xml::XmlTokenizedType, int32_t, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*)>(
+    &::System::Xml::Schema::XdrBuilder_XdrAttributeEntry::_ctor)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x42b2118;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::__SchemaNames__Token& System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__Attribute() {
+constexpr ::System::Xml::Schema::SchemaNames_Token& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__Attribute() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Attribute;
 }
-constexpr ::System::Xml::Schema::__SchemaNames__Token const& System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__Attribute() const {
+constexpr ::System::Xml::Schema::SchemaNames_Token const& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__Attribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Attribute;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_set__Attribute(::System::Xml::Schema::__SchemaNames__Token value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_set__Attribute(::System::Xml::Schema::SchemaNames_Token value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Attribute = value;
 }
-constexpr int32_t& System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__SchemaFlags() {
+constexpr int32_t& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__SchemaFlags() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SchemaFlags;
 }
-constexpr int32_t const& System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__SchemaFlags() const {
+constexpr int32_t const& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__SchemaFlags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SchemaFlags;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_set__SchemaFlags(int32_t value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_set__SchemaFlags(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____SchemaFlags = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaDatatype*& System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__Datatype() {
+constexpr ::System::Xml::Schema::XmlSchemaDatatype*& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__Datatype() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Datatype;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__Datatype() const {
+constexpr ::System::Xml::Schema::XmlSchemaDatatype* const& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__Datatype() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Datatype;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_set__Datatype(::System::Xml::Schema::XmlSchemaDatatype* value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_set__Datatype(::System::Xml::Schema::XmlSchemaDatatype* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Datatype)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*& System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__BuildFunc() {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__BuildFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BuildFunc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*> const&
-System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_get__BuildFunc() const {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* const& System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_get__BuildFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BuildFunc;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__cordl_internal_set__BuildFunc(::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrAttributeEntry::__cordl_internal_set__BuildFunc(::System::Xml::Schema::XdrBuilder_XdrBuildFunction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BuildFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry* System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::New_ctor(::System::Xml::Schema::__SchemaNames__Token a,
-                                                                                                                              ::System::Xml::XmlTokenizedType ttype,
-                                                                                                                              ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* build) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>(a, ttype, build));
-}
-inline void System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::_ctor(::System::Xml::Schema::__SchemaNames__Token a, ::System::Xml::XmlTokenizedType ttype,
-                                                                        ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* build) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get() })));
+inline void System::Xml::Schema::XdrBuilder_XdrAttributeEntry::_ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::XmlTokenizedType ttype,
+                                                                     ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a, ttype, build);
 }
-inline ::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry* System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::New_ctor(::System::Xml::Schema::__SchemaNames__Token a,
-                                                                                                                              ::System::Xml::XmlTokenizedType ttype, int32_t schemaFlags,
-                                                                                                                              ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* build) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>(a, ttype, schemaFlags, build));
-}
-inline void System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::_ctor(::System::Xml::Schema::__SchemaNames__Token a, ::System::Xml::XmlTokenizedType ttype, int32_t schemaFlags,
-                                                                        ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* build) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrBuildFunction*>::get() })));
+inline void System::Xml::Schema::XdrBuilder_XdrAttributeEntry::_ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::XmlTokenizedType ttype, int32_t schemaFlags,
+                                                                     ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrBuildFunction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a, ttype, schemaFlags, build);
 }
+inline ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry* System::Xml::Schema::XdrBuilder_XdrAttributeEntry::New_ctor(::System::Xml::Schema::SchemaNames_Token a,
+                                                                                                                        ::System::Xml::XmlTokenizedType ttype,
+                                                                                                                        ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>(a, ttype, build));
+}
+inline ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry* System::Xml::Schema::XdrBuilder_XdrAttributeEntry::New_ctor(::System::Xml::Schema::SchemaNames_Token a,
+                                                                                                                        ::System::Xml::XmlTokenizedType ttype, int32_t schemaFlags,
+                                                                                                                        ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>(a, ttype, schemaFlags, build));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry::__XdrBuilder__XdrAttributeEntry() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XdrBuilder__XdrEntry._ctor
+constexpr ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry::XdrBuilder_XdrAttributeEntry() {}
+//  Writing Method size for method: ::System::Xml::Schema::XdrBuilder_XdrEntry._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XdrBuilder__XdrEntry::*)(
-    ::System::Xml::Schema::__SchemaNames__Token, ::ArrayW<int32_t, ::Array<int32_t>*>,
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>, ::System::Xml::Schema::__XdrBuilder__XdrInitFunction*,
-    ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*, ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*, bool)>(&::System::Xml::Schema::__XdrBuilder__XdrEntry::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder_XdrEntry::*)(
+    ::System::Xml::Schema::SchemaNames_Token, ::ArrayW<int32_t, ::Array<int32_t>*>,
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, ::System::Xml::Schema::XdrBuilder_XdrInitFunction*,
+    ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*, ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*, bool)>(&::System::Xml::Schema::XdrBuilder_XdrEntry::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4250e50;
+  constexpr static std::size_t addrs = 0x42b2164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>::get(),
+                                                ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::__SchemaNames__Token& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__Name() {
+constexpr ::System::Xml::Schema::SchemaNames_Token& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__Name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name;
 }
-constexpr ::System::Xml::Schema::__SchemaNames__Token const& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__Name() const {
+constexpr ::System::Xml::Schema::SchemaNames_Token const& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__Name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_set__Name(::System::Xml::Schema::__SchemaNames__Token value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_set__Name(::System::Xml::Schema::SchemaNames_Token value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Name = value;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__NextStates() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__NextStates() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NextStates;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__NextStates() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__NextStates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NextStates;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_set__NextStates(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_set__NextStates(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____NextStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>&
-System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__Attributes() {
+constexpr ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>&
+System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__Attributes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Attributes;
 }
-constexpr ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> const&
-System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__Attributes() const {
+constexpr ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> const&
+System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__Attributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Attributes;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_set__Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_set__Attributes(
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrInitFunction*& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__InitFunc() {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrInitFunction*& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__InitFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InitFunc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*> const& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__InitFunc() const {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrInitFunction* const& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__InitFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InitFunc;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_set__InitFunc(::System::Xml::Schema::__XdrBuilder__XdrInitFunction* value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_set__InitFunc(::System::Xml::Schema::XdrBuilder_XdrInitFunction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____InitFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__BeginChildFunc() {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__BeginChildFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BeginChildFunc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*> const&
-System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__BeginChildFunc() const {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* const& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__BeginChildFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BeginChildFunc;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_set__BeginChildFunc(::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction* value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_set__BeginChildFunc(::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BeginChildFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__EndChildFunc() {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__EndChildFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EndChildFunc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*> const&
-System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__EndChildFunc() const {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* const& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__EndChildFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EndChildFunc;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_set__EndChildFunc(::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction* value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_set__EndChildFunc(::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____EndChildFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__AllowText() {
+constexpr bool& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__AllowText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllowText;
 }
-constexpr bool const& System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_get__AllowText() const {
+constexpr bool const& System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_get__AllowText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllowText;
 }
-constexpr void System::Xml::Schema::__XdrBuilder__XdrEntry::__cordl_internal_set__AllowText(bool value) {
+constexpr void System::Xml::Schema::XdrBuilder_XdrEntry::__cordl_internal_set__AllowText(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AllowText = value;
 }
-inline ::System::Xml::Schema::__XdrBuilder__XdrEntry*
-System::Xml::Schema::__XdrBuilder__XdrEntry::New_ctor(::System::Xml::Schema::__SchemaNames__Token n, ::ArrayW<int32_t, ::Array<int32_t>*> states,
-                                                      ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> attributes,
-                                                      ::System::Xml::Schema::__XdrBuilder__XdrInitFunction* init, ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction* begin,
-                                                      ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction* end, bool fText) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XdrBuilder__XdrEntry*>(n, states, attributes, init, begin, end, fText));
-}
-inline void
-System::Xml::Schema::__XdrBuilder__XdrEntry::_ctor(::System::Xml::Schema::__SchemaNames__Token n, ::ArrayW<int32_t, ::Array<int32_t>*> states,
-                                                   ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> attributes,
-                                                   ::System::Xml::Schema::__XdrBuilder__XdrInitFunction* init, ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction* begin,
-                                                   ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction* end, bool fText) {
+inline void System::Xml::Schema::XdrBuilder_XdrEntry::_ctor(::System::Xml::Schema::SchemaNames_Token n, ::ArrayW<int32_t, ::Array<int32_t>*> states,
+                                                            ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> attributes,
+                                                            ::System::Xml::Schema::XdrBuilder_XdrInitFunction* init, ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* begin,
+                                                            ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* end, bool fText) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XdrBuilder__XdrEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                              ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrInitFunction*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder_XdrEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrInitFunction*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, n, states, attributes, init, begin, end, fText);
 }
+inline ::System::Xml::Schema::XdrBuilder_XdrEntry*
+System::Xml::Schema::XdrBuilder_XdrEntry::New_ctor(::System::Xml::Schema::SchemaNames_Token n, ::ArrayW<int32_t, ::Array<int32_t>*> states,
+                                                   ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> attributes,
+                                                   ::System::Xml::Schema::XdrBuilder_XdrInitFunction* init, ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* begin,
+                                                   ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* end, bool fText) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder_XdrEntry*>(n, states, attributes, init, begin, end, fText));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrEntry::__XdrBuilder__XdrEntry() {}
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry::XdrBuilder_XdrEntry() {}
 //  Writing Method size for method: ::System::Xml::Schema::XdrBuilder._ctor
 template <>
 
@@ -1165,7 +1154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlReader*, ::System::Xml::XmlNamespaceManager*, ::System::Xml::Schema::SchemaInfo*, ::StringW, ::System::Xml::XmlNameTable*,
                                                             ::System::Xml::Schema::SchemaNames*, ::System::Xml::Schema::ValidationEventHandler*)>(&::System::Xml::Schema::XdrBuilder::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4249f00;
+  constexpr static std::size_t addrs = 0x42ab214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1186,7 +1175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::ProcessElement)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x424a104;
+  constexpr static std::size_t addrs = 0x42ab418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1201,7 +1190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::ProcessAttribute)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x424a778;
+  constexpr static std::size_t addrs = 0x42aba8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1216,7 +1205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlResolver*)>(
     &::System::Xml::Schema::XdrBuilder::set_XmlResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424b188;
+  constexpr static std::size_t addrs = 0x42ac49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1230,7 +1219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)(::StringW)>(&::System::Xml::Schema::XdrBuilder::LoadSchema)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x424abb4;
+  constexpr static std::size_t addrs = 0x42abec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1244,7 +1233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Xml::Schema::XdrBuilder::IsXdrSchema)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x424aafc;
+  constexpr static std::size_t addrs = 0x42abe10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1258,7 +1247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::IsContentParsed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424b2a4;
+  constexpr static std::size_t addrs = 0x42ac5b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1273,7 +1262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*>)>(
     &::System::Xml::Schema::XdrBuilder::ProcessMarkup)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x424b2ac;
+  constexpr static std::size_t addrs = 0x42ac5c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1287,7 +1276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::StringW)>(&::System::Xml::Schema::XdrBuilder::ProcessCData)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x424b304;
+  constexpr static std::size_t addrs = 0x42ac618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1301,7 +1290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::StartChildren)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x424b378;
+  constexpr static std::size_t addrs = 0x42ac68c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1315,7 +1304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::EndChildren)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x424b3b0;
+  constexpr static std::size_t addrs = 0x42ac6c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1329,7 +1318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::Push)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x424a58c;
+  constexpr static std::size_t addrs = 0x42ab8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "Push",
@@ -1342,7 +1331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::Pop)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x424b3ec;
+  constexpr static std::size_t addrs = 0x42ac700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "Pop",
@@ -1355,7 +1344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::PushGroupInfo)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x424b46c;
+  constexpr static std::size_t addrs = 0x42ac780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "PushGroupInfo",
@@ -1368,7 +1357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::PopGroupInfo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x424b520;
+  constexpr static std::size_t addrs = 0x42ac834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "PopGroupInfo",
@@ -1381,7 +1370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(&::System::Xml::Schema::XdrBuilder::XDR_InitRoot)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x424b5a0;
+  constexpr static std::size_t addrs = 0x42ac8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1397,7 +1386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildRoot_Name)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x424b5e0;
+  constexpr static std::size_t addrs = 0x42ac8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1414,7 +1403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildRoot_ID)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x424b66c;
+  constexpr static std::size_t addrs = 0x42ac980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1430,7 +1419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_BeginRoot)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x424b670;
+  constexpr static std::size_t addrs = 0x42ac984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1444,7 +1433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndRoot)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x424b748;
+  constexpr static std::size_t addrs = 0x42aca5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1459,7 +1448,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(
     &::System::Xml::Schema::XdrBuilder::XDR_InitElementType)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x424bc9c;
+  constexpr static std::size_t addrs = 0x42acfb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1475,7 +1464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_Name)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x424bd94;
+  constexpr static std::size_t addrs = 0x42ad0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1492,7 +1481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_Content)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x424bf30;
+  constexpr static std::size_t addrs = 0x42ad244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1509,7 +1498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_Model)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x424c154;
+  constexpr static std::size_t addrs = 0x42ad468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1526,7 +1515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_Order)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x424c2d0;
+  constexpr static std::size_t addrs = 0x42ad5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1543,7 +1532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_DtType)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x424c4a0;
+  constexpr static std::size_t addrs = 0x42ad7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1560,7 +1549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_DtValues)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x424c658;
+  constexpr static std::size_t addrs = 0x42ad96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1577,7 +1566,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_DtMaxLength)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x424c734;
+  constexpr static std::size_t addrs = 0x42ada48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1594,7 +1583,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElementType_DtMinLength)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x424c8dc;
+  constexpr static std::size_t addrs = 0x42adbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1610,7 +1599,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_BeginElementType)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x424ca84;
+  constexpr static std::size_t addrs = 0x42add98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1624,7 +1613,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndElementType)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x424cd68;
+  constexpr static std::size_t addrs = 0x42ae07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1639,7 +1628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(
     &::System::Xml::Schema::XdrBuilder::XDR_InitAttributeType)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x424d11c;
+  constexpr static std::size_t addrs = 0x42ae430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1655,7 +1644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttributeType_Name)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x424d200;
+  constexpr static std::size_t addrs = 0x42ae514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1672,7 +1661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttributeType_Required)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x424d424;
+  constexpr static std::size_t addrs = 0x42ae738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1689,7 +1678,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttributeType_Default)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x424d59c;
+  constexpr static std::size_t addrs = 0x42ae8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1706,7 +1695,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttributeType_DtType)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x424d5bc;
+  constexpr static std::size_t addrs = 0x42ae8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1723,7 +1712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttributeType_DtValues)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x424d7b0;
+  constexpr static std::size_t addrs = 0x42aeac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1740,7 +1729,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttributeType_DtMaxLength)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x424d88c;
+  constexpr static std::size_t addrs = 0x42aeba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1757,7 +1746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttributeType_DtMinLength)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x424d8fc;
+  constexpr static std::size_t addrs = 0x42aec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1773,7 +1762,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_BeginAttributeType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x424d96c;
+  constexpr static std::size_t addrs = 0x42aec80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1787,7 +1776,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndAttributeType)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x424d9e4;
+  constexpr static std::size_t addrs = 0x42aecf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1802,7 +1791,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(
     &::System::Xml::Schema::XdrBuilder::XDR_InitElement)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x424dd40;
+  constexpr static std::size_t addrs = 0x42af054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1818,7 +1807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElement_Type)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x424ddcc;
+  constexpr static std::size_t addrs = 0x42af0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1835,7 +1824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElement_MinOccurs)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x424e00c;
+  constexpr static std::size_t addrs = 0x42af320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1852,7 +1841,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildElement_MaxOccurs)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x424e178;
+  constexpr static std::size_t addrs = 0x42af48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1868,7 +1857,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndElement)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x424e314;
+  constexpr static std::size_t addrs = 0x42af628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1883,7 +1872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(
     &::System::Xml::Schema::XdrBuilder::XDR_InitAttribute)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x424e3e8;
+  constexpr static std::size_t addrs = 0x42af6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1899,7 +1888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttribute_Type)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x424e47c;
+  constexpr static std::size_t addrs = 0x42af790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1916,7 +1905,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttribute_Required)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x424e540;
+  constexpr static std::size_t addrs = 0x42af854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1933,7 +1922,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildAttribute_Default)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x424e5c4;
+  constexpr static std::size_t addrs = 0x42af8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1949,7 +1938,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_BeginAttribute)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x424e5e4;
+  constexpr static std::size_t addrs = 0x42af8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1963,7 +1952,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndAttribute)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x424e898;
+  constexpr static std::size_t addrs = 0x42afbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1977,7 +1966,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(&::System::Xml::Schema::XdrBuilder::XDR_InitGroup)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x424e930;
+  constexpr static std::size_t addrs = 0x42afc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1993,7 +1982,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildGroup_Order)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x424e9e8;
+  constexpr static std::size_t addrs = 0x42afcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2010,7 +1999,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildGroup_MinOccurs)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x424ead4;
+  constexpr static std::size_t addrs = 0x42afde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2027,7 +2016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::XDR_BuildGroup_MaxOccurs)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x424eb58;
+  constexpr static std::size_t addrs = 0x42afe6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2043,7 +2032,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndGroup)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x424ebdc;
+  constexpr static std::size_t addrs = 0x42afef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2058,7 +2047,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(
     &::System::Xml::Schema::XdrBuilder::XDR_InitElementDtType)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x424ed0c;
+  constexpr static std::size_t addrs = 0x42b0020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2073,7 +2062,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndElementDtType)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x424eda8;
+  constexpr static std::size_t addrs = 0x42b00bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2088,7 +2077,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*, ::System::Object*)>(
     &::System::Xml::Schema::XdrBuilder::XDR_InitAttributeDtType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x424ee68;
+  constexpr static std::size_t addrs = 0x42b017c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2103,7 +2092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::XDR_EndAttributeDtType)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x424eed4;
+  constexpr static std::size_t addrs = 0x42b01e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2118,7 +2107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XdrBuilder::GetNextState)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x424a3f0;
+  constexpr static std::size_t addrs = 0x42ab704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2133,7 +2122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XdrBuilder::IsSkipableElement)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x424a5d4;
+  constexpr static std::size_t addrs = 0x42ab8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2148,7 +2137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XdrBuilder::IsSkipableAttribute)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x424b050;
+  constexpr static std::size_t addrs = 0x42ac364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2163,7 +2152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XdrBuilder::GetOrder)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x424c37c;
+  constexpr static std::size_t addrs = 0x42ad690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2177,7 +2166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)()>(&::System::Xml::Schema::XdrBuilder::AddOrder)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x424df50;
+  constexpr static std::size_t addrs = 0x42af264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "AddOrder",
@@ -2190,7 +2179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*, ::System::Xml::Schema::XdrBuilder*)>(&::System::Xml::Schema::XdrBuilder::IsYes)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x424d49c;
+  constexpr static std::size_t addrs = 0x42ae7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2206,7 +2195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::Object*, ::System::Xml::Schema::XdrBuilder*)>(
     &::System::Xml::Schema::XdrBuilder::ParseMinOccurs)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x424e080;
+  constexpr static std::size_t addrs = 0x42af394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2222,7 +2211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::Object*, ::System::Xml::Schema::XdrBuilder*)>(
     &::System::Xml::Schema::XdrBuilder::ParseMaxOccurs)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x424e1ec;
+  constexpr static std::size_t addrs = 0x42af500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2238,7 +2227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::ParticleContentValidator*, uint32_t, uint32_t)>(
     &::System::Xml::Schema::XdrBuilder::HandleMinMax)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x424e3b8;
+  constexpr static std::size_t addrs = 0x42af6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2251,15 +2240,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XdrBuilder.ParseDtMaxLength
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint32_t>, ::System::Object*, ::System::Xml::Schema::XdrBuilder*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint32_t>, ::System::Object*, ::System::Xml::Schema::XdrBuilder*)>(
     &::System::Xml::Schema::XdrBuilder::ParseDtMaxLength)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x424c7a4;
+  constexpr static std::size_t addrs = 0x42adab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "ParseDtMaxLength", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder*>::get() })));
     return ___internal_method;
@@ -2268,15 +2257,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XdrBuilder.ParseDtMinLength
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint32_t>, ::System::Object*, ::System::Xml::Schema::XdrBuilder*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint32_t>, ::System::Object*, ::System::Xml::Schema::XdrBuilder*)>(
     &::System::Xml::Schema::XdrBuilder::ParseDtMinLength)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x424c94c;
+  constexpr static std::size_t addrs = 0x42adc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "ParseDtMinLength", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder*>::get() })));
     return ___internal_method;
@@ -2288,7 +2277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, uint32_t, ::System::Xml::Schema::XdrBuilder*)>(
     &::System::Xml::Schema::XdrBuilder::CompareMinMaxLength)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x424d09c;
+  constexpr static std::size_t addrs = 0x42ae3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2301,14 +2290,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XdrBuilder.ParseInteger
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<uint32_t>)>(&::System::Xml::Schema::XdrBuilder::ParseInteger)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<uint32_t>)>(&::System::Xml::Schema::XdrBuilder::ParseInteger)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x424efb4;
+  constexpr static std::size_t addrs = 0x42b02c8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "ParseInteger", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "ParseInteger", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -2316,14 +2306,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(
-    ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*, ::System::Xml::Schema::SchemaAttDef*)>(&::System::Xml::Schema::XdrBuilder::XDR_CheckAttributeDefault)> {
+    ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*, ::System::Xml::Schema::SchemaAttDef*)>(&::System::Xml::Schema::XdrBuilder::XDR_CheckAttributeDefault)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x424bbf8;
+  constexpr static std::size_t addrs = 0x42acf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "XDR_CheckAttributeDefault", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_DeclBaseInfo*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get() })));
     return ___internal_method;
   }
@@ -2334,7 +2324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::Schema::SchemaAttDef*, bool)>(
     &::System::Xml::Schema::XdrBuilder::SetAttributePresence)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x424dcf0;
+  constexpr static std::size_t addrs = 0x42af004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2350,7 +2340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XdrBuilder::GetContent)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x424bfcc;
+  constexpr static std::size_t addrs = 0x42ad2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2365,7 +2355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XdrBuilder::GetModel)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x424c1f4;
+  constexpr static std::size_t addrs = 0x42ad508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2380,7 +2370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaDatatype* (::System::Xml::Schema::XdrBuilder::*)(::StringW)>(
     &::System::Xml::Schema::XdrBuilder::CheckDatatype)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x424d66c;
+  constexpr static std::size_t addrs = 0x42ae980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2395,7 +2385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::System::Xml::Schema::SchemaAttDef*)>(
     &::System::Xml::Schema::XdrBuilder::CheckDefaultAttValue)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x424dc00;
+  constexpr static std::size_t addrs = 0x42aef14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2409,7 +2399,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XdrBuilder::*)(int32_t)>(&::System::Xml::Schema::XdrBuilder::IsGlobal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x424aaf0;
+  constexpr static std::size_t addrs = 0x42abe04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2424,7 +2414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(
     ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::XdrBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x424b190;
+  constexpr static std::size_t addrs = 0x42ac4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2440,7 +2430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::StringW)>(&::System::Xml::Schema::XdrBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x424c5a0;
+  constexpr static std::size_t addrs = 0x42ad8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2455,7 +2445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::XdrBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x424a694;
+  constexpr static std::size_t addrs = 0x42ab9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2470,7 +2460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XdrBuilder::*)(
     ::System::Xml::Schema::XmlSchemaException*, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::XdrBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x424f4c0;
+  constexpr static std::size_t addrs = 0x42b07d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2484,7 +2474,7 @@ constexpr ::System::Xml::Schema::SchemaInfo*& System::Xml::Schema::XdrBuilder::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SchemaInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__SchemaInfo() const {
+constexpr ::System::Xml::Schema::SchemaInfo* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__SchemaInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SchemaInfo;
 }
@@ -2508,7 +2498,7 @@ constexpr ::System::Xml::XmlReader*& System::Xml::Schema::XdrBuilder::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__reader() const {
+constexpr ::System::Xml::XmlReader* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__reader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
@@ -2520,7 +2510,7 @@ constexpr ::System::Xml::PositionInfo*& System::Xml::Schema::XdrBuilder::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::PositionInfo*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get_positionInfo() const {
+constexpr ::System::Xml::PositionInfo* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get_positionInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionInfo;
 }
@@ -2532,7 +2522,7 @@ constexpr ::System::Xml::Schema::ParticleContentValidator*& System::Xml::Schema:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentValidator;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ParticleContentValidator*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__contentValidator() const {
+constexpr ::System::Xml::Schema::ParticleContentValidator* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__contentValidator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentValidator;
 }
@@ -2540,27 +2530,27 @@ constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__contentVal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contentValidator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrEntry*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__CurState() {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__CurState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurState;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__XdrEntry*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__CurState() const {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__CurState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurState;
 }
-constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__CurState(::System::Xml::Schema::__XdrBuilder__XdrEntry* value) {
+constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__CurState(::System::Xml::Schema::XdrBuilder_XdrEntry* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CurState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__XdrEntry*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__NextState() {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__NextState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NextState;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__XdrEntry*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__NextState() const {
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__NextState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NextState;
 }
-constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__NextState(::System::Xml::Schema::__XdrBuilder__XdrEntry* value) {
+constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__NextState(::System::Xml::Schema::XdrBuilder_XdrEntry* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____NextState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -2568,7 +2558,7 @@ constexpr ::System::Xml::HWStack*& System::Xml::Schema::XdrBuilder::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StateHistory;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::HWStack*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__StateHistory() const {
+constexpr ::System::Xml::HWStack* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__StateHistory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StateHistory;
 }
@@ -2580,7 +2570,7 @@ constexpr ::System::Xml::HWStack*& System::Xml::Schema::XdrBuilder::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GroupStack;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::HWStack*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__GroupStack() const {
+constexpr ::System::Xml::HWStack* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__GroupStack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GroupStack;
 }
@@ -2612,63 +2602,63 @@ constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__XdrPrefix(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____XdrPrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__ElementContent*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__ElementDef() {
+constexpr ::System::Xml::Schema::XdrBuilder_ElementContent*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__ElementDef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementDef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__ElementContent*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__ElementDef() const {
+constexpr ::System::Xml::Schema::XdrBuilder_ElementContent* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__ElementDef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ElementDef;
 }
-constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__ElementDef(::System::Xml::Schema::__XdrBuilder__ElementContent* value) {
+constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__ElementDef(::System::Xml::Schema::XdrBuilder_ElementContent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ElementDef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__GroupContent*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__GroupDef() {
+constexpr ::System::Xml::Schema::XdrBuilder_GroupContent*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__GroupDef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GroupDef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__GroupContent*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__GroupDef() const {
+constexpr ::System::Xml::Schema::XdrBuilder_GroupContent* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__GroupDef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GroupDef;
 }
-constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__GroupDef(::System::Xml::Schema::__XdrBuilder__GroupContent* value) {
+constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__GroupDef(::System::Xml::Schema::XdrBuilder_GroupContent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____GroupDef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__AttributeContent*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__AttributeDef() {
+constexpr ::System::Xml::Schema::XdrBuilder_AttributeContent*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__AttributeDef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttributeDef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__AttributeContent*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__AttributeDef() const {
+constexpr ::System::Xml::Schema::XdrBuilder_AttributeContent* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__AttributeDef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttributeDef;
 }
-constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__AttributeDef(::System::Xml::Schema::__XdrBuilder__AttributeContent* value) {
+constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__AttributeDef(::System::Xml::Schema::XdrBuilder_AttributeContent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____AttributeDef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__UndefinedAttributeTypes() {
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__UndefinedAttributeTypes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UndefinedAttributeTypes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__UndefinedAttributeTypes() const {
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__UndefinedAttributeTypes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UndefinedAttributeTypes;
 }
-constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__UndefinedAttributeTypes(::System::Xml::Schema::__XdrBuilder__DeclBaseInfo* value) {
+constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__UndefinedAttributeTypes(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UndefinedAttributeTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__BaseDecl() {
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& System::Xml::Schema::XdrBuilder::__cordl_internal_get__BaseDecl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BaseDecl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__BaseDecl() const {
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__BaseDecl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BaseDecl;
 }
-constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__BaseDecl(::System::Xml::Schema::__XdrBuilder__DeclBaseInfo* value) {
+constexpr void System::Xml::Schema::XdrBuilder::__cordl_internal_set__BaseDecl(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BaseDecl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -2676,7 +2666,7 @@ constexpr ::System::Xml::XmlNameTable*& System::Xml::Schema::XdrBuilder::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NameTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__NameTable() const {
+constexpr ::System::Xml::XmlNameTable* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__NameTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NameTable;
 }
@@ -2688,7 +2678,7 @@ constexpr ::System::Xml::Schema::SchemaNames*& System::Xml::Schema::XdrBuilder::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SchemaNames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaNames*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__SchemaNames() const {
+constexpr ::System::Xml::Schema::SchemaNames* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__SchemaNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SchemaNames;
 }
@@ -2700,7 +2690,7 @@ constexpr ::System::Xml::XmlNamespaceManager*& System::Xml::Schema::XdrBuilder::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurNsMgr;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__CurNsMgr() const {
+constexpr ::System::Xml::XmlNamespaceManager* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__CurNsMgr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurNsMgr;
 }
@@ -2724,7 +2714,7 @@ constexpr ::System::Xml::Schema::ValidationEventHandler*& System::Xml::Schema::X
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEventHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get_validationEventHandler() const {
+constexpr ::System::Xml::Schema::ValidationEventHandler* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get_validationEventHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEventHandler;
 }
@@ -2736,7 +2726,7 @@ constexpr ::System::Collections::Hashtable*& System::Xml::Schema::XdrBuilder::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UndeclaredElements;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__UndeclaredElements() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get__UndeclaredElements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UndeclaredElements;
 }
@@ -2748,7 +2738,7 @@ constexpr ::System::Xml::XmlResolver*& System::Xml::Schema::XdrBuilder::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolver;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& System::Xml::Schema::XdrBuilder::__cordl_internal_get_xmlResolver() const {
+constexpr ::System::Xml::XmlResolver* const& System::Xml::Schema::XdrBuilder::__cordl_internal_get_xmlResolver() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolver;
 }
@@ -2797,106 +2787,101 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> System::Xml::Schema::XdrBuilder::get
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_Root_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>, "S_XDR_Root_Attributes",
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Root_Attributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_Root_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
-                                           "S_XDR_Root_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Root_Attributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_ElementType_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
-                                    "S_XDR_ElementType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_ElementType_Attributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_ElementType_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>,
                                            "S_XDR_ElementType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_AttributeType_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
-                                    "S_XDR_AttributeType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_AttributeType_Attributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_AttributeType_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>,
                                            "S_XDR_AttributeType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_Element_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>, "S_XDR_Element_Attributes",
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Element_Attributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_Element_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
-                                           "S_XDR_Element_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Element_Attributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_Attribute_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>, "S_XDR_Attribute_Attributes",
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Attribute_Attributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_Attribute_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
-                                           "S_XDR_Attribute_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Attribute_Attributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_Group_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>, "S_XDR_Group_Attributes",
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Group_Attributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_Group_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
-                                           "S_XDR_Group_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_Group_Attributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_ElementDataType_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
-                                    "S_XDR_ElementDataType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>, "S_XDR_ElementDataType_Attributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_ElementDataType_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>,
                                            "S_XDR_ElementDataType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
 inline void System::Xml::Schema::XdrBuilder::setStaticF_S_XDR_AttributeDataType_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
+    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>,
                                     "S_XDR_AttributeDataType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
 System::Xml::Schema::XdrBuilder::getStaticF_S_XDR_AttributeDataType_Attributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>,
                                            "S_XDR_AttributeDataType_Attributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
 }
-inline void System::Xml::Schema::XdrBuilder::setStaticF_S_SchemaEntries(::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrEntry*>*>, "S_SchemaEntries",
+inline void System::Xml::Schema::XdrBuilder::setStaticF_S_SchemaEntries(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*>, "S_SchemaEntries",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrEntry*>*> System::Xml::Schema::XdrBuilder::getStaticF_S_SchemaEntries() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrEntry*>*>, "S_SchemaEntries",
+inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*> System::Xml::Schema::XdrBuilder::getStaticF_S_SchemaEntries() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*>, "S_SchemaEntries",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get>();
-}
-inline ::System::Xml::Schema::XdrBuilder* System::Xml::Schema::XdrBuilder::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr,
-                                                                                    ::System::Xml::Schema::SchemaInfo* sinfo, ::StringW targetNamspace, ::System::Xml::XmlNameTable* nameTable,
-                                                                                    ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder*>(reader, curmgr, sinfo, targetNamspace, nameTable, schemaNames, eventhandler));
 }
 inline void System::Xml::Schema::XdrBuilder::_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::SchemaInfo* sinfo, ::StringW targetNamspace,
                                                    ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
@@ -3350,18 +3335,18 @@ inline void System::Xml::Schema::XdrBuilder::HandleMinMax(::System::Xml::Schema:
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, pContent, cMin, cMax);
 }
-inline void System::Xml::Schema::XdrBuilder::ParseDtMaxLength(ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder) {
+inline void System::Xml::Schema::XdrBuilder::ParseDtMaxLength(::ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "ParseDtMaxLength", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, cVal, obj, builder);
 }
-inline void System::Xml::Schema::XdrBuilder::ParseDtMinLength(ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder) {
+inline void System::Xml::Schema::XdrBuilder::ParseDtMinLength(::ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "ParseDtMinLength", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, cVal, obj, builder);
@@ -3373,16 +3358,16 @@ inline void System::Xml::Schema::XdrBuilder::CompareMinMaxLength(uint32_t cMin, 
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, cMin, cMax, builder);
 }
-inline bool System::Xml::Schema::XdrBuilder::ParseInteger(::StringW str, ByRef<uint32_t> n) {
+inline bool System::Xml::Schema::XdrBuilder::ParseInteger(::StringW str, ::ByRef<uint32_t> n) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "ParseInteger", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, str, n);
 }
-inline void System::Xml::Schema::XdrBuilder::XDR_CheckAttributeDefault(::System::Xml::Schema::__XdrBuilder__DeclBaseInfo* decl, ::System::Xml::Schema::SchemaAttDef* pAttdef) {
+inline void System::Xml::Schema::XdrBuilder::XDR_CheckAttributeDefault(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* decl, ::System::Xml::Schema::SchemaAttDef* pAttdef) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XdrBuilder*>::get(), "XDR_CheckAttributeDefault", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XdrBuilder__DeclBaseInfo*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XdrBuilder_DeclBaseInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, decl, pAttdef);
 }
@@ -3449,6 +3434,11 @@ inline void System::Xml::Schema::XdrBuilder::SendValidationEvent(::System::Xml::
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaException*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSeverityType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e, severity);
+}
+inline ::System::Xml::Schema::XdrBuilder* System::Xml::Schema::XdrBuilder::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr,
+                                                                                    ::System::Xml::Schema::SchemaInfo* sinfo, ::StringW targetNamspace, ::System::Xml::XmlNameTable* nameTable,
+                                                                                    ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XdrBuilder*>(reader, curmgr, sinfo, targetNamspace, nameTable, schemaNames, eventhandler));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XdrBuilder::XdrBuilder() {}

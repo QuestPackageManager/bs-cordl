@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RollingAverage)
@@ -14,11 +13,10 @@ class RollingAverage;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RollingAverage);
-// Type: ::RollingAverage
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RollingAverage*
+// CS Name: RollingAverage
 class CORDL_TYPE RollingAverage : public ::System::Object {
 public:
   // Declarations
@@ -43,10 +41,10 @@ public:
 
   static inline ::GlobalNamespace::RollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method Reset, addr 0x22af360, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x22e264c, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x22af240, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22e252c, size 0x120, virtual false, abstract: false, final false
   inline void Update(float_t value);
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__buffer() const;
@@ -79,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22af1d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e24c4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method get_currentAverage, addr 0x22af1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0x22e24ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0x22af1c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0x22e24b4, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
 protected:
@@ -102,6 +100,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RollingAverage(RollingAverage const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14946 };
+
+  /// @brief Field kGranularity offset 0xffffffff size 0x8
+  static constexpr int64_t kGranularity{ static_cast<int64_t>(0x3e8) };
+
   /// @brief Field _currentTotal, offset: 0x10, size: 0x8, def value: None
   int64_t ____currentTotal;
 
@@ -117,17 +121,9 @@ public:
   /// @brief Field _length, offset: 0x2c, size: 0x4, def value: None
   int32_t ____length;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14912 };
-
-  /// @brief Field kGranularity offset 0xffffffff size 0x8
-  static constexpr int64_t kGranularity{ static_cast<int64_t>(0x3e8) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RollingAverage, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::RollingAverage, ____currentTotal) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RollingAverage, ____currentAverage) == 0x18, "Offset mismatch!");
@@ -137,6 +133,8 @@ static_assert(offsetof(::GlobalNamespace::RollingAverage, ____buffer) == 0x20, "
 static_assert(offsetof(::GlobalNamespace::RollingAverage, ____index) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RollingAverage, ____length) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RollingAverage, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RollingAverage);

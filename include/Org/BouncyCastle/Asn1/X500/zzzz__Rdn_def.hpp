@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rdn)
 namespace Org::BouncyCastle::Asn1::X500 {
@@ -31,11 +30,10 @@ class Rdn;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X500::Rdn);
-// Type: Org.BouncyCastle.Asn1.X500::Rdn
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X500 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X500::Rdn*
+// CS Name: Org.BouncyCastle.Asn1.X500.Rdn
 class CORDL_TYPE Rdn : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -46,13 +44,13 @@ public:
   /// @brief Field values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::Org::BouncyCastle::Asn1::Asn1Set* values;
 
-  /// @brief Method GetFirst, addr 0x24cc104, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetFirst, addr 0x24ff3f0, size 0x50, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* GetFirst();
 
-  /// @brief Method GetInstance, addr 0x24cbe04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24ff0f0, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTypesAndValues, addr 0x24cc154, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetTypesAndValues, addr 0x24ff440, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*>*> GetTypesAndValues();
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn*
@@ -64,31 +62,31 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* values);
 
-  /// @brief Method ToAsn1Object, addr 0x24cc248, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24ff534, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_values() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_values() const;
-
   constexpr void __cordl_internal_set_values(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x24cc044, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff330, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*>*> aAndVs);
 
-  /// @brief Method .ctor, addr 0x24cbfd0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff2bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* attrTAndV);
 
-  /// @brief Method .ctor, addr 0x24cbea4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff190, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x24cbddc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff0c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* values);
 
-  /// @brief Method get_Count, addr 0x24cc0e4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x24ff3d0, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsMultiValued, addr 0x24cc0b8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_IsMultiValued, addr 0x24ff3a4, size 0x2c, virtual true, abstract: false, final false
   inline bool get_IsMultiValued();
 
 protected:
@@ -105,18 +103,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Rdn(Rdn const&) = delete;
 
-  /// @brief Field values, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Set* ___values;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 326 };
+
+  /// @brief Field values, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Set* ___values;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X500::Rdn, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X500::Rdn, ___values) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X500::Rdn, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X500
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X500::Rdn);

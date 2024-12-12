@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RsaBlindingParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -20,11 +18,10 @@ class RsaBlindingParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::RsaBlindingParameters
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::RsaBlindingParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.RsaBlindingParameters
 class CORDL_TYPE RsaBlindingParameters : public ::System::Object {
 public:
   // Declarations
@@ -44,25 +41,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey,
                                                                                          ::Org::BouncyCastle::Math::BigInteger* blindingFactor);
 
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_blindingFactor() const;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_blindingFactor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_blindingFactor() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* const& __cordl_internal_get_publicKey() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_publicKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_publicKey() const;
 
   constexpr void __cordl_internal_set_blindingFactor(::Org::BouncyCastle::Math::BigInteger* value);
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x238ba7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bed68, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey, ::Org::BouncyCastle::Math::BigInteger* blindingFactor);
 
-  /// @brief Method get_BlindingFactor, addr 0x238bb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlindingFactor, addr 0x23bedf4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_BlindingFactor();
 
-  /// @brief Method get_PublicKey, addr 0x238bb00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x23bedec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -82,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsaBlindingParameters(RsaBlindingParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1078 };
+
   /// @brief Field publicKey, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ___publicKey;
 
   /// @brief Field blindingFactor, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___blindingFactor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1078 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters, ___publicKey) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters, ___blindingFactor) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters);

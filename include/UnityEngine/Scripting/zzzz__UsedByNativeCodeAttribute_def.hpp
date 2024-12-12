@@ -12,11 +12,10 @@ class UsedByNativeCodeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Scripting::UsedByNativeCodeAttribute);
-// Type: UnityEngine.Scripting::UsedByNativeCodeAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Scripting {
 // Is value type: false
-// CS Name: ::UnityEngine.Scripting::UsedByNativeCodeAttribute*
+// CS Name: UnityEngine.Scripting.UsedByNativeCodeAttribute
 class CORDL_TYPE UsedByNativeCodeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -35,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48b2488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916b18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48b2490, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916b20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_Name, addr 0x48b24b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x4916b48, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UsedByNativeCodeAttribute(UsedByNativeCodeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18715 };
+
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Scripting::UsedByNativeCodeAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Scripting::UsedByNativeCodeAttribute, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Scripting::UsedByNativeCodeAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Scripting
 NEED_NO_BOX(::UnityEngine::Scripting::UsedByNativeCodeAttribute);

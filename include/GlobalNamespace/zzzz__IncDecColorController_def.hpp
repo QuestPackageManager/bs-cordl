@@ -17,11 +17,10 @@ class IncDecColorController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IncDecColorController);
-// Type: ::IncDecColorController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IncDecColorController*
+// CS Name: IncDecColorController
 class CORDL_TYPE IncDecColorController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,18 +33,18 @@ public:
 
   __declspec(property(put = set_enableInc)) bool enableInc;
 
-  /// @brief Method Awake, addr 0x3bc5f94, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c260a8, size 0xb0, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method DecButtonPressed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
-  /// @brief Method IncButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IncButtonPressed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::IncDecColorController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bc6044, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c26158, size 0xfc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ColorStepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -54,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::ColorStepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x3bc6140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c26254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x3bc5f68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3c2607c, size 0x2c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_enableDec, addr 0x3bc5f18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x3c2602c, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x3bc5f40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x3c26054, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
 protected:
@@ -80,18 +79,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IncDecColorController(IncDecColorController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18959 };
+
   /// @brief Field _stepValuePicker, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorStepValuePicker> ____stepValuePicker;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18839 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IncDecColorController, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::IncDecColorController, ____stepValuePicker) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IncDecColorController, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IncDecColorController);

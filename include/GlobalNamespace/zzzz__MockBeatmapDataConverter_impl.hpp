@@ -10,256 +10,256 @@
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MockBeatmapDataConverter____c::*)()>(
-    &::GlobalNamespace::__MockBeatmapDataConverter____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapDataConverter___c::*)()>(
+    &::GlobalNamespace::MockBeatmapDataConverter___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b61eb4;
+  constexpr static std::size_t addrs = 0x3bc35c4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ToMockBeatmapData_b__0_0
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ToMockBeatmapData_b__0_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MockBeatmapDataConverter____c::*)(::GlobalNamespace::NoteData*)>(
-    &::GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
+    &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b61ebc;
+  constexpr static std::size_t addrs = 0x3bc35cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ToMockBeatmapData_b__0_1
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ToMockBeatmapData_b__0_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (
-    ::GlobalNamespace::__MockBeatmapDataConverter____c::*)(::GlobalNamespace::NoteData*)>(&::GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
+    &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b61edc;
+  constexpr static std::size_t addrs = 0x3bc35ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ToMockBeatmapData_b__0_2
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ToMockBeatmapData_b__0_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MockBeatmapDataConverter____c::*)(::GlobalNamespace::NoteData*)>(
-    &::GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
+    &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b61ee4;
+  constexpr static std::size_t addrs = 0x3bc35f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_2", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ToMockBeatmapData_b__0_3
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ToMockBeatmapData_b__0_3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (
-    ::GlobalNamespace::__MockBeatmapDataConverter____c::*)(::GlobalNamespace::NoteData*)>(&::GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
+    &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b61f04;
+  constexpr static std::size_t addrs = 0x3bc3614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_3", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_3", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ToMockBeatmapData_b__0_4
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ToMockBeatmapData_b__0_4
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MockBeatmapDataConverter____c::*)(::GlobalNamespace::NoteData*)>(
-    &::GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
+    &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b61f0c;
+  constexpr static std::size_t addrs = 0x3bc361c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_4", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_4", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ToMockBeatmapData_b__0_5
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ToMockBeatmapData_b__0_5
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (
-    ::GlobalNamespace::__MockBeatmapDataConverter____c::*)(::GlobalNamespace::NoteData*)>(&::GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
+    &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b61f2c;
+  constexpr static std::size_t addrs = 0x3bc363c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_5", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_5", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MockBeatmapDataConverter____c._ToMockBeatmapData_b__0_6
+//  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter___c._ToMockBeatmapData_b__0_6
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockObstacleData* (
-    ::GlobalNamespace::__MockBeatmapDataConverter____c::*)(::GlobalNamespace::ObstacleData*)>(&::GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_6)> {
+    ::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::ObstacleData*)>(&::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b61f34;
+  constexpr static std::size_t addrs = 0x3bc3644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_6", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_6", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleData*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9(::GlobalNamespace::__MockBeatmapDataConverter____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__MockBeatmapDataConverter____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
-      std::forward<::GlobalNamespace::__MockBeatmapDataConverter____c*>(value));
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9(::GlobalNamespace::MockBeatmapDataConverter___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::MockBeatmapDataConverter___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
+      std::forward<::GlobalNamespace::MockBeatmapDataConverter___c*>(value));
 }
-inline ::GlobalNamespace::__MockBeatmapDataConverter____c* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__MockBeatmapDataConverter____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+inline ::GlobalNamespace::MockBeatmapDataConverter___c* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::MockBeatmapDataConverter___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9__0_0(::System::Func_2<::GlobalNamespace::NoteData*, bool>* value) {
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9__0_0(::System::Func_2<::GlobalNamespace::NoteData*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::NoteData*, bool>*, "<>9__0_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::NoteData*, bool>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::NoteData*, bool>* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9__0_0() {
+inline ::System::Func_2<::GlobalNamespace::NoteData*, bool>* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9__0_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::NoteData*, bool>*, "<>9__0_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9__0_1(::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* value) {
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9__0_1(::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*, "<>9__0_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9__0_1() {
+inline ::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9__0_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*, "<>9__0_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9__0_2(::System::Func_2<::GlobalNamespace::NoteData*, bool>* value) {
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9__0_2(::System::Func_2<::GlobalNamespace::NoteData*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::NoteData*, bool>*, "<>9__0_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::NoteData*, bool>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::NoteData*, bool>* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9__0_2() {
+inline ::System::Func_2<::GlobalNamespace::NoteData*, bool>* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9__0_2() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::NoteData*, bool>*, "<>9__0_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9__0_3(::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* value) {
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9__0_3(::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*, "<>9__0_3",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9__0_3() {
+inline ::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9__0_3() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*, "<>9__0_3",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9__0_4(::System::Func_2<::GlobalNamespace::NoteData*, bool>* value) {
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9__0_4(::System::Func_2<::GlobalNamespace::NoteData*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::NoteData*, bool>*, "<>9__0_4",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::NoteData*, bool>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::NoteData*, bool>* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9__0_4() {
+inline ::System::Func_2<::GlobalNamespace::NoteData*, bool>* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9__0_4() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::NoteData*, bool>*, "<>9__0_4",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9__0_5(::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* value) {
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9__0_5(::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*, "<>9__0_5",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9__0_5() {
+inline ::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9__0_5() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::MockNoteData*>*, "<>9__0_5",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::setStaticF___9__0_6(::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>* value) {
+inline void GlobalNamespace::MockBeatmapDataConverter___c::setStaticF___9__0_6(::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>*, "<>9__0_6",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>* GlobalNamespace::__MockBeatmapDataConverter____c::getStaticF___9__0_6() {
+inline ::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>* GlobalNamespace::MockBeatmapDataConverter___c::getStaticF___9__0_6() {
   return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>*, "<>9__0_6",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get>();
 }
-inline ::GlobalNamespace::__MockBeatmapDataConverter____c* GlobalNamespace::__MockBeatmapDataConverter____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MockBeatmapDataConverter____c*>());
-}
-inline void GlobalNamespace::__MockBeatmapDataConverter____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::MockBeatmapDataConverter___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_0(::GlobalNamespace::NoteData* nd) {
+inline bool GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_0(::GlobalNamespace::NoteData* nd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, nd);
 }
-inline ::GlobalNamespace::MockNoteData* GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_1(::GlobalNamespace::NoteData* nd) {
+inline ::GlobalNamespace::MockNoteData* GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_1(::GlobalNamespace::NoteData* nd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MockNoteData*, false>(this, ___internal_method, nd);
 }
-inline bool GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_2(::GlobalNamespace::NoteData* nd) {
+inline bool GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_2(::GlobalNamespace::NoteData* nd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_2", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_2", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, nd);
 }
-inline ::GlobalNamespace::MockNoteData* GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_3(::GlobalNamespace::NoteData* nd) {
+inline ::GlobalNamespace::MockNoteData* GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_3(::GlobalNamespace::NoteData* nd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_3", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_3", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MockNoteData*, false>(this, ___internal_method, nd);
 }
-inline bool GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_4(::GlobalNamespace::NoteData* nd) {
+inline bool GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_4(::GlobalNamespace::NoteData* nd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_4", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_4", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, nd);
 }
-inline ::GlobalNamespace::MockNoteData* GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_5(::GlobalNamespace::NoteData* nd) {
+inline ::GlobalNamespace::MockNoteData* GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_5(::GlobalNamespace::NoteData* nd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_5", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_5", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MockNoteData*, false>(this, ___internal_method, nd);
 }
-inline ::GlobalNamespace::MockObstacleData* GlobalNamespace::__MockBeatmapDataConverter____c::_ToMockBeatmapData_b__0_6(::GlobalNamespace::ObstacleData* od) {
+inline ::GlobalNamespace::MockObstacleData* GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_6(::GlobalNamespace::ObstacleData* od) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MockBeatmapDataConverter____c*>::get(), "<ToMockBeatmapData>b__0_6", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), "<ToMockBeatmapData>b__0_6", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MockObstacleData*, false>(this, ___internal_method, od);
 }
+inline ::GlobalNamespace::MockBeatmapDataConverter___c* GlobalNamespace::MockBeatmapDataConverter___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockBeatmapDataConverter___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MockBeatmapDataConverter____c::__MockBeatmapDataConverter____c() {}
+constexpr ::GlobalNamespace::MockBeatmapDataConverter___c::MockBeatmapDataConverter___c() {}
 //  Writing Method size for method: ::GlobalNamespace::MockBeatmapDataConverter.ToMockBeatmapData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData)> {
   constexpr static std::size_t size = 0x8d0;
-  constexpr static std::size_t addrs = 0x3b61480;
+  constexpr static std::size_t addrs = 0x3bc2b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter::ToMockNoteData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b61d50;
+  constexpr static std::size_t addrs = 0x3bc3460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockObstacleData* (*)(::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter::ToMockObstacleData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b61dd4;
+  constexpr static std::size_t addrs = 0x3bc34e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

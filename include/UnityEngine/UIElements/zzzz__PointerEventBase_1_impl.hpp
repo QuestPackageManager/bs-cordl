@@ -1,6 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/PointerEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__PenStatus_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -8,7 +10,6 @@
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__EventType_def.hpp"
@@ -18,22 +19,6 @@
 #include "UnityEngine/zzzz__Touch_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-/// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
-template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEvent*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
-template <typename T> constexpr ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEvent() noexcept {
-  return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::UIElements::IPointerEventInternal"
-template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEventInternal*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IPointerEventInternal"
-template <typename T> constexpr ::UnityEngine::UIElements::IPointerEventInternal* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEventInternal() noexcept {
-  return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
-}
 template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeNeedsConversion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AltitudeNeedsConversion;
@@ -674,7 +659,6 @@ inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, eventType, mousePosition, delta, button, clickCount, modifiers);
 }
-/// @param modifiers: ::UnityEngine::EventModifiers (default: static_cast<int32_t>(0x0))
 template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
@@ -682,7 +666,6 @@ template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::G
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, touch, modifiers);
 }
-/// @param modifiers: ::UnityEngine::EventModifiers (default: static_cast<int32_t>(0x0))
 template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
@@ -714,13 +697,29 @@ template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
-template <typename T> inline ::UnityEngine::UIElements::PointerEventBase_1<T>* UnityEngine::UIElements::PointerEventBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PointerEventBase_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::PointerEventBase_1<T>* UnityEngine::UIElements::PointerEventBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PointerEventBase_1<T>*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
+template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEvent*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IPointerEventInternal"
+template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEventInternal*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IPointerEventInternal"
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEventInternal* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEventInternal() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::PointerEventBase_1<T>::PointerEventBase_1() {}

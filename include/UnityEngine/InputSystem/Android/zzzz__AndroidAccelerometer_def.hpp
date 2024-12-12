@@ -11,17 +11,16 @@ class AndroidAccelerometer;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidAccelerometer);
-// Type: UnityEngine.InputSystem.Android::AndroidAccelerometer
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Accelerometer
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidAccelerometer*
+// CS Name: UnityEngine.InputSystem.Android.AndroidAccelerometer
 class CORDL_TYPE AndroidAccelerometer : public ::UnityEngine::InputSystem::Accelerometer {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidAccelerometer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46043d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidAccelerometer(AndroidAccelerometer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

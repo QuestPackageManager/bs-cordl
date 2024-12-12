@@ -7,8 +7,7 @@ template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>*
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_list() const {
+template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>* const& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
@@ -20,8 +19,7 @@ template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_next() const {
+template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>* const& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
@@ -33,8 +31,7 @@ template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_prev() const {
+template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>* const& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_prev() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
@@ -54,18 +51,11 @@ template <typename T> constexpr void System::Collections::Generic::LinkedListNod
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___item, value);
 }
-template <typename T> inline ::System::Collections::Generic::LinkedListNode_1<T>* System::Collections::Generic::LinkedListNode_1<T>::New_ctor(T value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedListNode_1<T>*>(value));
-}
 template <typename T> inline void System::Collections::Generic::LinkedListNode_1<T>::_ctor(T value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedListNode_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-template <typename T>
-inline ::System::Collections::Generic::LinkedListNode_1<T>* System::Collections::Generic::LinkedListNode_1<T>::New_ctor(::System::Collections::Generic::LinkedList_1<T>* list, T value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedListNode_1<T>*>(list, value));
 }
 template <typename T> inline void System::Collections::Generic::LinkedListNode_1<T>::_ctor(::System::Collections::Generic::LinkedList_1<T>* list, T value) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -104,6 +94,13 @@ template <typename T> inline void System::Collections::Generic::LinkedListNode_1
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LinkedListNode_1<T>*>::get(),
                                                                              "Invalidate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::System::Collections::Generic::LinkedListNode_1<T>* System::Collections::Generic::LinkedListNode_1<T>::New_ctor(T value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedListNode_1<T>*>(value));
+}
+template <typename T>
+inline ::System::Collections::Generic::LinkedListNode_1<T>* System::Collections::Generic::LinkedListNode_1<T>::New_ctor(::System::Collections::Generic::LinkedList_1<T>* list, T value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedListNode_1<T>*>(list, value));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>::LinkedListNode_1() {}

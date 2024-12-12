@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/LinkedDictionaryEnumerator.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__LinkedDictionaryEnumerator_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__LinkedDictionary_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator._ctor
 template <>
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)(
     ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*)>(&::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x259e1f0;
+  constexpr static std::size_t addrs = 0x25d14dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x259eaf8;
+  constexpr static std::size_t addrs = 0x25d1de4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (
     ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(&::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x259eb64;
+  constexpr static std::size_t addrs = 0x25d1e50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x259edb8;
+  constexpr static std::size_t addrs = 0x25d20a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x259edbc;
+  constexpr static std::size_t addrs = 0x25d20a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x259ef08;
+  constexpr static std::size_t addrs = 0x25d21f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_Value)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x259ef14;
+  constexpr static std::size_t addrs = 0x25d2200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::get_CurrentKey)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x259ec44;
+  constexpr static std::size_t addrs = 0x25d1f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,28 +133,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-constexpr Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-constexpr ::System::Collections::IDictionaryEnumerator* Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__cordl_internal_get_parent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*> const&
-Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__cordl_internal_get_parent() const {
+constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* const& Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__cordl_internal_get_parent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
@@ -173,10 +156,6 @@ constexpr int32_t const& Org::BouncyCastle::Utilities::Collections::LinkedDictio
 constexpr void Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__cordl_internal_set_pos(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos = value;
-}
-inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator*
-Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator*>(parent));
 }
 inline void Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -225,6 +204,26 @@ inline ::System::Object* Org::BouncyCastle::Utilities::Collections::LinkedDictio
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator*>::get(),
                                                "get_CurrentKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator*
+Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator*>(parent));
+}
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
+constexpr Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+constexpr ::System::Collections::IDictionaryEnumerator* Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::LinkedDictionaryEnumerator() {}

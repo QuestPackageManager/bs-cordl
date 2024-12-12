@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleSheets::ScalableImage::*)()>(
     &::UnityEngine::UIElements::StyleSheets::ScalableImage::ToString)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x496ebe8;
+  constexpr static std::size_t addrs = 0x49d34f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +23,8 @@ inline ::StringW UnityEngine::UIElements::StyleSheets::ScalableImage::ToString()
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ScalableImage>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "highResolutionImage", ty:
-// "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "highResolutionImage", ty:
+// "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::StyleSheets::ScalableImage::ScalableImage(::UnityW<::UnityEngine::Texture2D> normalImage, ::UnityW<::UnityEngine::Texture2D> highResolutionImage) noexcept {
   this->normalImage = normalImage;
   this->highResolutionImage = highResolutionImage;

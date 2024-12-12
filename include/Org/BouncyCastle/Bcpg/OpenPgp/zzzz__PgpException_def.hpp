@@ -15,11 +15,10 @@ class PgpException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpException);
-// Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpException*
+// CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpException
 class CORDL_TYPE PgpException : public ::System::Exception {
 public:
   // Declarations
@@ -31,16 +30,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x24f3c14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2526f00, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x24efcc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2522fb0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24f3c6c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2526f58, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method get_UnderlyingException, addr 0x24f3cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingException, addr 0x2526fc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_UnderlyingException();
 
 protected:

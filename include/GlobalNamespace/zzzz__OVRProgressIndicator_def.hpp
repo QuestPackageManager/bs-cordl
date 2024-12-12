@@ -15,11 +15,10 @@ class OVRProgressIndicator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRProgressIndicator);
-// Type: ::OVRProgressIndicator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRProgressIndicator*
+// CS Name: OVRProgressIndicator
 class CORDL_TYPE OVRProgressIndicator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -29,12 +28,12 @@ public:
   /// @brief Field progressImage, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_progressImage, put = __cordl_internal_set_progressImage)) ::UnityW<::UnityEngine::MeshRenderer> progressImage;
 
-  /// @brief Method Awake, addr 0x3fde2cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x403e378, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRProgressIndicator* New_ctor();
 
-  /// @brief Method Update, addr 0x3fde2ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x403e398, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_currentProgress() const;
@@ -49,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_progressImage(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3fde358, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403e404, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,23 +65,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRProgressIndicator(OVRProgressIndicator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8466 };
+
   /// @brief Field progressImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ___progressImage;
 
   /// @brief Field currentProgress, offset: 0x28, size: 0x4, def value: None
   float_t ___currentProgress;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8441 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRProgressIndicator, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRProgressIndicator, ___progressImage) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRProgressIndicator, ___currentProgress) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRProgressIndicator, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRProgressIndicator);

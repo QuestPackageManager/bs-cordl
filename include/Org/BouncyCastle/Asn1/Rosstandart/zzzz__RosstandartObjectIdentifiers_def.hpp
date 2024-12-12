@@ -14,89 +14,86 @@ class RosstandartObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.Rosstandart::RosstandartObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Rosstandart {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Rosstandart::RosstandartObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.Rosstandart.RosstandartObjectIdentifiers
 class CORDL_TYPE RosstandartObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field id_tc26, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26, put = setStaticF_id_tc26)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26;
+  __declspec(property(get = getStaticF_id_tc26, put = setStaticF_id_tc26)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26;
 
   /// @brief Field id_tc26_agreement, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_agreement, put = setStaticF_id_tc26_agreement)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_agreement;
+  __declspec(property(get = getStaticF_id_tc26_agreement, put = setStaticF_id_tc26_agreement)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_agreement;
 
   /// @brief Field id_tc26_agreement_gost_3410_12_256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_agreement_gost_3410_12_256,
-                             put = setStaticF_id_tc26_agreement_gost_3410_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_agreement_gost_3410_12_256;
+  __declspec(property(get = getStaticF_id_tc26_agreement_gost_3410_12_256,
+                      put = setStaticF_id_tc26_agreement_gost_3410_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_agreement_gost_3410_12_256;
 
   /// @brief Field id_tc26_agreement_gost_3410_12_512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_agreement_gost_3410_12_512,
-                             put = setStaticF_id_tc26_agreement_gost_3410_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_agreement_gost_3410_12_512;
+  __declspec(property(get = getStaticF_id_tc26_agreement_gost_3410_12_512,
+                      put = setStaticF_id_tc26_agreement_gost_3410_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_agreement_gost_3410_12_512;
 
   /// @brief Field id_tc26_gost_28147_param_Z, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_28147_param_Z, put = setStaticF_id_tc26_gost_28147_param_Z)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_28147_param_Z;
+  __declspec(property(get = getStaticF_id_tc26_gost_28147_param_Z, put = setStaticF_id_tc26_gost_28147_param_Z)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_28147_param_Z;
 
   /// @brief Field id_tc26_gost_3410_12_256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_256, put = setStaticF_id_tc26_gost_3410_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_256;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_256, put = setStaticF_id_tc26_gost_3410_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_256;
 
   /// @brief Field id_tc26_gost_3410_12_256_paramSet, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_256_paramSet,
-                             put = setStaticF_id_tc26_gost_3410_12_256_paramSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_256_paramSet;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_256_paramSet,
+                      put = setStaticF_id_tc26_gost_3410_12_256_paramSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_256_paramSet;
 
   /// @brief Field id_tc26_gost_3410_12_256_paramSetA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_256_paramSetA,
-                             put = setStaticF_id_tc26_gost_3410_12_256_paramSetA)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_256_paramSetA;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_256_paramSetA,
+                      put = setStaticF_id_tc26_gost_3410_12_256_paramSetA)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_256_paramSetA;
 
   /// @brief Field id_tc26_gost_3410_12_512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512, put = setStaticF_id_tc26_gost_3410_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512, put = setStaticF_id_tc26_gost_3410_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512;
 
   /// @brief Field id_tc26_gost_3410_12_512_paramSet, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSet,
-                             put = setStaticF_id_tc26_gost_3410_12_512_paramSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSet;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSet,
+                      put = setStaticF_id_tc26_gost_3410_12_512_paramSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSet;
 
   /// @brief Field id_tc26_gost_3410_12_512_paramSetA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSetA,
-                             put = setStaticF_id_tc26_gost_3410_12_512_paramSetA)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSetA;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSetA,
+                      put = setStaticF_id_tc26_gost_3410_12_512_paramSetA)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSetA;
 
   /// @brief Field id_tc26_gost_3410_12_512_paramSetB, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSetB,
-                             put = setStaticF_id_tc26_gost_3410_12_512_paramSetB)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSetB;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSetB,
+                      put = setStaticF_id_tc26_gost_3410_12_512_paramSetB)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSetB;
 
   /// @brief Field id_tc26_gost_3410_12_512_paramSetC, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSetC,
-                             put = setStaticF_id_tc26_gost_3410_12_512_paramSetC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSetC;
+  __declspec(property(get = getStaticF_id_tc26_gost_3410_12_512_paramSetC,
+                      put = setStaticF_id_tc26_gost_3410_12_512_paramSetC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3410_12_512_paramSetC;
 
   /// @brief Field id_tc26_gost_3411_12_256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3411_12_256, put = setStaticF_id_tc26_gost_3411_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3411_12_256;
+  __declspec(property(get = getStaticF_id_tc26_gost_3411_12_256, put = setStaticF_id_tc26_gost_3411_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3411_12_256;
 
   /// @brief Field id_tc26_gost_3411_12_512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_gost_3411_12_512, put = setStaticF_id_tc26_gost_3411_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3411_12_512;
+  __declspec(property(get = getStaticF_id_tc26_gost_3411_12_512, put = setStaticF_id_tc26_gost_3411_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_gost_3411_12_512;
 
   /// @brief Field id_tc26_hmac_gost_3411_12_256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_hmac_gost_3411_12_256,
-                             put = setStaticF_id_tc26_hmac_gost_3411_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_hmac_gost_3411_12_256;
+  __declspec(property(get = getStaticF_id_tc26_hmac_gost_3411_12_256, put = setStaticF_id_tc26_hmac_gost_3411_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_hmac_gost_3411_12_256;
 
   /// @brief Field id_tc26_hmac_gost_3411_12_512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_hmac_gost_3411_12_512,
-                             put = setStaticF_id_tc26_hmac_gost_3411_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_hmac_gost_3411_12_512;
+  __declspec(property(get = getStaticF_id_tc26_hmac_gost_3411_12_512, put = setStaticF_id_tc26_hmac_gost_3411_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_hmac_gost_3411_12_512;
 
   /// @brief Field id_tc26_signwithdigest_gost_3410_12_256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_signwithdigest_gost_3410_12_256,
-                             put = setStaticF_id_tc26_signwithdigest_gost_3410_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_signwithdigest_gost_3410_12_256;
+  __declspec(property(get = getStaticF_id_tc26_signwithdigest_gost_3410_12_256,
+                      put = setStaticF_id_tc26_signwithdigest_gost_3410_12_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_signwithdigest_gost_3410_12_256;
 
   /// @brief Field id_tc26_signwithdigest_gost_3410_12_512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_tc26_signwithdigest_gost_3410_12_512,
-                             put = setStaticF_id_tc26_signwithdigest_gost_3410_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_signwithdigest_gost_3410_12_512;
+  __declspec(property(get = getStaticF_id_tc26_signwithdigest_gost_3410_12_512,
+                      put = setStaticF_id_tc26_signwithdigest_gost_3410_12_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_tc26_signwithdigest_gost_3410_12_512;
 
   /// @brief Field rosstandart, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rosstandart, put = setStaticF_rosstandart)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* rosstandart;
+  __declspec(property(get = getStaticF_rosstandart, put = setStaticF_rosstandart)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* rosstandart;
 
   static inline ::Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24b723c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ea528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_id_tc26();

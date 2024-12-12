@@ -11,23 +11,22 @@ class G_Graph;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Graph::G_Graph);
-// Type: Tayx.Graphy.Graph::G_Graph
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Tayx::Graphy::Graph {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Graph::G_Graph*
+// CS Name: Tayx.Graphy.Graph.G_Graph
 class CORDL_TYPE G_Graph : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method CreatePoints, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreatePoints, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CreatePoints();
 
   static inline ::Tayx::Graphy::Graph::G_Graph* New_ctor();
 
-  /// @brief Method UpdateGraph, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UpdateGraph, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method .ctor, addr 0x44705bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d18d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   G_Graph(G_Graph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

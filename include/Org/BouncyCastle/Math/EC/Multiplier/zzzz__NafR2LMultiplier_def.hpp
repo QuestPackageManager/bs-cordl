@@ -17,20 +17,19 @@ class NafR2LMultiplier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::NafR2LMultiplier);
-// Type: Org.BouncyCastle.Math.EC.Multiplier::NafR2LMultiplier
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::NafR2LMultiplier*
+// CS Name: Org.BouncyCastle.Math.EC.Multiplier.NafR2LMultiplier
 class CORDL_TYPE NafR2LMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x2483fe0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x24b72cc, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::NafR2LMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2484128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b7414, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

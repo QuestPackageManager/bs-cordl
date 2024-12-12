@@ -20,11 +20,10 @@ class GameServerListDetailTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerListDetailTableCell);
-// Type: ::GameServerListDetailTableCell
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameServerListDetailTableCell*
+// CS Name: GameServerListDetailTableCell
 class CORDL_TYPE GameServerListDetailTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -39,23 +38,23 @@ public:
 
   static inline ::GlobalNamespace::GameServerListDetailTableCell* New_ctor();
 
-  /// @brief Method Start, addr 0x3b96424, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3bf8528, size 0xa4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__5_0, addr 0x3b96528, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x3bf862c, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__5_0();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinServerButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinServerButton();
 
-  constexpr ::System::Action*& __cordl_internal_get_joinServerButtonWasPressedEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_joinServerButtonWasPressedEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_joinServerButtonWasPressedEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_joinServerButtonWasPressedEvent();
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -63,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b964c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf85cc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x3b962ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x3bf83f0, size 0x9c, virtual false, abstract: false, final false
   inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x3b96388, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x3bf848c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -86,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameServerListDetailTableCell(GameServerListDetailTableCell const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4747 };
+
   /// @brief Field _joinServerButton, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinServerButton;
 
@@ -95,19 +97,16 @@ public:
   /// @brief Field _buttonBinder, offset: 0x78, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4731 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListDetailTableCell, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____joinServerButton) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ___joinServerButtonWasPressedEvent) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____buttonBinder) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListDetailTableCell, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerListDetailTableCell);

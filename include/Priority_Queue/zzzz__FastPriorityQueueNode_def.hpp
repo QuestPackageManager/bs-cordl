@@ -13,11 +13,10 @@ class FastPriorityQueueNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::Priority_Queue::FastPriorityQueueNode);
-// Type: Priority_Queue::FastPriorityQueueNode
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Priority_Queue {
 // Is value type: false
-// CS Name: ::Priority_Queue::FastPriorityQueueNode*
+// CS Name: Priority_Queue.FastPriorityQueueNode
 class CORDL_TYPE FastPriorityQueueNode : public ::System::Object {
 public:
   // Declarations
@@ -45,19 +44,19 @@ public:
 
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x226cc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229f4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Priority, addr 0x226cc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x229f484, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Priority();
 
-  /// @brief Method get_QueueIndex, addr 0x226cc40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueueIndex, addr 0x229f494, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
-  /// @brief Method set_Priority, addr 0x226cc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x229f48c, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(float_t value);
 
-  /// @brief Method set_QueueIndex, addr 0x226cc48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueueIndex, addr 0x229f49c, size 0x8, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FastPriorityQueueNode(FastPriorityQueueNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16932 };
+
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____Priority_k__BackingField;
 
   /// @brief Field <QueueIndex>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____QueueIndex_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16893 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Priority_Queue::FastPriorityQueueNode, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Priority_Queue::FastPriorityQueueNode, ____Priority_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Priority_Queue::FastPriorityQueueNode, ____QueueIndex_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Priority_Queue::FastPriorityQueueNode, 0x18>, "Size mismatch!");
 
 } // namespace Priority_Queue
 NEED_NO_BOX(::Priority_Queue::FastPriorityQueueNode);

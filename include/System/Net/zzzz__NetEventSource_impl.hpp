@@ -8,16 +8,16 @@
 #include "System/zzzz__FormattableString_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters []
-constexpr ::System::Net::__NetEventSource__Keywords::__NetEventSource__Keywords() {}
-constexpr ::System::Diagnostics::Tracing::EventKeywords System::Net::__NetEventSource__Keywords::Default{ static_cast<int64_t>(0x1) };
-constexpr ::System::Diagnostics::Tracing::EventKeywords System::Net::__NetEventSource__Keywords::Debug{ static_cast<int64_t>(0x2) };
-constexpr ::System::Diagnostics::Tracing::EventKeywords System::Net::__NetEventSource__Keywords::EnterExit{ static_cast<int64_t>(0x4) };
+constexpr ::System::Net::NetEventSource_Keywords::NetEventSource_Keywords() {}
+constexpr ::System::Diagnostics::Tracing::EventKeywords System::Net::NetEventSource_Keywords::Default{ static_cast<int64_t>(0x1) };
+constexpr ::System::Diagnostics::Tracing::EventKeywords System::Net::NetEventSource_Keywords::Debug{ static_cast<int64_t>(0x2) };
+constexpr ::System::Diagnostics::Tracing::EventKeywords System::Net::NetEventSource_Keywords::EnterExit{ static_cast<int64_t>(0x4) };
 //  Writing Method size for method: ::System::Net::NetEventSource.Enter
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::FormattableString*, ::StringW)>(&::System::Net::NetEventSource::Enter)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4428b58;
+  constexpr static std::size_t addrs = 0x4489e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*, ::StringW)>(&::System::Net::NetEventSource::Enter)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4429104;
+  constexpr static std::size_t addrs = 0x448a418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::StringW)>(
     &::System::Net::NetEventSource::Enter)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x44295d0;
+  constexpr static std::size_t addrs = 0x448a8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)(::StringW, ::StringW, ::StringW)>(&::System::Net::NetEventSource::Enter)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4429088;
+  constexpr static std::size_t addrs = 0x448a39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::FormattableString*, ::StringW)>(&::System::Net::NetEventSource::Exit)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x44296ec;
+  constexpr static std::size_t addrs = 0x448aa00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*, ::StringW)>(&::System::Net::NetEventSource::Exit)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4429858;
+  constexpr static std::size_t addrs = 0x448ab6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)(::StringW, ::StringW, ::StringW)>(&::System::Net::NetEventSource::Exit)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x44297dc;
+  constexpr static std::size_t addrs = 0x448aaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::FormattableString*, ::StringW)>(&::System::Net::NetEventSource::Info)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4427cfc;
+  constexpr static std::size_t addrs = 0x4489010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*, ::StringW)>(&::System::Net::NetEventSource::Info)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4427dec;
+  constexpr static std::size_t addrs = 0x4489100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)(::StringW, ::StringW, ::StringW)>(&::System::Net::NetEventSource::Info)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4429928;
+  constexpr static std::size_t addrs = 0x448ac3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*, ::StringW)>(&::System::Net::NetEventSource::Error)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x44299a4;
+  constexpr static std::size_t addrs = 0x448acb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Net::NetEventSource::ErrorMessage)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4429a74;
+  constexpr static std::size_t addrs = 0x448ad88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*, ::StringW)>(&::System::Net::NetEventSource::Fail)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4427720;
+  constexpr static std::size_t addrs = 0x4488a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Net::NetEventSource::CriticalFailure)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4429af0;
+  constexpr static std::size_t addrs = 0x448ae04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*, ::StringW)>(&::System::Net::NetEventSource::Associate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4429b6c;
+  constexpr static std::size_t addrs = 0x448ae80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Net::NetEventSource::Associate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4429c3c;
+  constexpr static std::size_t addrs = 0x448af50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Net::NetEventSource::get_IsEnabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4427c98;
+  constexpr static std::size_t addrs = 0x4488fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "get_IsEnabled",
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*)>(&::System::Net::NetEventSource::IdOf)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4428c48;
+  constexpr static std::size_t addrs = 0x4489f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Object*)>(&::System::Net::NetEventSource::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4429ed0;
+  constexpr static std::size_t addrs = 0x448b1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Object*)>(&::System::Net::NetEventSource::Format)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x44291ec;
+  constexpr static std::size_t addrs = 0x448a500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::FormattableString*)>(&::System::Net::NetEventSource::Format)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x4428d30;
+  constexpr static std::size_t addrs = 0x448a044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)(int32_t, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Net::NetEventSource::WriteEvent)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x4429cc4;
+  constexpr static std::size_t addrs = 0x448afd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetEventSource::*)()>(&::System::Net::NetEventSource::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4429ee4;
+  constexpr static std::size_t addrs = 0x448b1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), ".ctor",
@@ -373,8 +373,6 @@ inline void System::Net::NetEventSource::setStaticF_Log(::System::Net::NetEventS
 inline ::System::Net::NetEventSource* System::Net::NetEventSource::getStaticF_Log() {
   return ::cordl_internals::getStaticField<::System::Net::NetEventSource*, "Log", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get>();
 }
-/// @param formattableString: ::System::FormattableString* (default: nullptr)
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Enter", std::span<Il2CppClass const* const, 0>(),
@@ -383,7 +381,6 @@ inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextOb
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, thisOrContextObject, formattableString, memberName);
 }
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Enter", std::span<Il2CppClass const* const, 0>(),
@@ -391,7 +388,6 @@ inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextOb
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, thisOrContextObject, arg0, memberName);
 }
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Enter", std::span<Il2CppClass const* const, 0>(),
@@ -408,8 +404,6 @@ inline void System::Net::NetEventSource::Enter(::StringW thisOrContextObject, ::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, thisOrContextObject, memberName, parameters);
 }
-/// @param formattableString: ::System::FormattableString* (default: nullptr)
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Exit(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Exit", std::span<Il2CppClass const* const, 0>(),
@@ -418,7 +412,6 @@ inline void System::Net::NetEventSource::Exit(::System::Object* thisOrContextObj
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, thisOrContextObject, formattableString, memberName);
 }
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Exit(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Exit", std::span<Il2CppClass const* const, 0>(),
@@ -433,8 +426,6 @@ inline void System::Net::NetEventSource::Exit(::StringW thisOrContextObject, ::S
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, thisOrContextObject, memberName, result);
 }
-/// @param formattableString: ::System::FormattableString* (default: nullptr)
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Info(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Info", std::span<Il2CppClass const* const, 0>(),
@@ -443,7 +434,6 @@ inline void System::Net::NetEventSource::Info(::System::Object* thisOrContextObj
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, thisOrContextObject, formattableString, memberName);
 }
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Info(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Info", std::span<Il2CppClass const* const, 0>(),
@@ -458,7 +448,6 @@ inline void System::Net::NetEventSource::Info(::StringW thisOrContextObject, ::S
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, thisOrContextObject, memberName, message);
 }
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Error(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Error", std::span<Il2CppClass const* const, 0>(),
@@ -473,7 +462,6 @@ inline void System::Net::NetEventSource::ErrorMessage(::StringW thisOrContextObj
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, thisOrContextObject, memberName, message);
 }
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Fail(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Fail", std::span<Il2CppClass const* const, 0>(),
@@ -488,7 +476,6 @@ inline void System::Net::NetEventSource::CriticalFailure(::StringW thisOrContext
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, thisOrContextObject, memberName, message);
 }
-/// @param memberName: ::StringW (default: nullptr)
 inline void System::Net::NetEventSource::Associate(::System::Object* first, ::System::Object* second, ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), "Associate", std::span<Il2CppClass const* const, 0>(),
@@ -540,13 +527,13 @@ inline void System::Net::NetEventSource::WriteEvent(int32_t eventId, ::StringW a
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventId, arg1, arg2, arg3, arg4);
 }
-inline ::System::Net::NetEventSource* System::Net::NetEventSource::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetEventSource*>());
-}
 inline void System::Net::NetEventSource::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetEventSource*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Net::NetEventSource* System::Net::NetEventSource::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetEventSource*>());
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetEventSource::NetEventSource() {}

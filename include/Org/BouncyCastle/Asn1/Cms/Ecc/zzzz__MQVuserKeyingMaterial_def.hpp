@@ -29,11 +29,10 @@ class MQVuserKeyingMaterial;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial);
-// Type: Org.BouncyCastle.Asn1.Cms.Ecc::MQVuserKeyingMaterial
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cms::Ecc {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms.Ecc::MQVuserKeyingMaterial*
+// CS Name: Org.BouncyCastle.Asn1.Cms.Ecc.MQVuserKeyingMaterial
 class CORDL_TYPE MQVuserKeyingMaterial : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -47,10 +46,10 @@ public:
   /// @brief Field ephemeralPublicKey, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_ephemeralPublicKey, put = __cordl_internal_set_ephemeralPublicKey)) ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey;
 
-  /// @brief Method GetInstance, addr 0x22c94ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22fc798, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x22c94c4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22fc7b0, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey,
@@ -58,31 +57,31 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22c963c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22fc928, size 0x108, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_addedukm() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_addedukm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_addedukm() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* const& __cordl_internal_get_ephemeralPublicKey() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*& __cordl_internal_get_ephemeralPublicKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*> const& __cordl_internal_get_ephemeralPublicKey() const;
 
   constexpr void __cordl_internal_set_addedukm(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   constexpr void __cordl_internal_set_ephemeralPublicKey(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* value);
 
-  /// @brief Method .ctor, addr 0x22c9248, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fc534, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey, ::Org::BouncyCastle::Asn1::Asn1OctetString* addedukm);
 
-  /// @brief Method .ctor, addr 0x22c9274, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fc560, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AddedUkm, addr 0x22c9634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddedUkm, addr 0x22fc920, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_AddedUkm();
 
-  /// @brief Method get_EphemeralPublicKey, addr 0x22c962c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0x22fc918, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* get_EphemeralPublicKey();
 
 protected:
@@ -99,23 +98,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MQVuserKeyingMaterial(MQVuserKeyingMaterial const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 54 };
+
   /// @brief Field ephemeralPublicKey, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ___ephemeralPublicKey;
 
   /// @brief Field addedukm, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___addedukm;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 54 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial, ___ephemeralPublicKey) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial, ___addedukm) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms::Ecc
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial);

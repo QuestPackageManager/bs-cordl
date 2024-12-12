@@ -18,11 +18,10 @@ class ConnectFaceRebuildData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);
-// Type: UnityEngine.ProBuilder.MeshOperations::ConnectFaceRebuildData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.MeshOperations::ConnectFaceRebuildData*
+// CS Name: UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData
 class CORDL_TYPE ConnectFaceRebuildData : public ::System::Object {
 public:
   // Declarations
@@ -35,19 +34,19 @@ public:
   static inline ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData,
                                                                                             ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
+  constexpr ::UnityEngine::ProBuilder::FaceRebuildData* const& __cordl_internal_get_faceRebuildData() const;
+
   constexpr ::UnityEngine::ProBuilder::FaceRebuildData*& __cordl_internal_get_faceRebuildData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::FaceRebuildData*> const& __cordl_internal_get_faceRebuildData() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_newVertexIndexes() const;
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_newVertexIndexes();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_newVertexIndexes() const;
 
   constexpr void __cordl_internal_set_faceRebuildData(::UnityEngine::ProBuilder::FaceRebuildData* value);
 
   constexpr void __cordl_internal_set_newVertexIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x4705e38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x476714c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
 protected:
@@ -64,23 +63,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectFaceRebuildData(ConnectFaceRebuildData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14363 };
+
   /// @brief Field faceRebuildData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::FaceRebuildData* ___faceRebuildData;
 
   /// @brief Field newVertexIndexes, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___newVertexIndexes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14329 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, ___faceRebuildData) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, ___newVertexIndexes) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionCompletionResults::*)()>(
     &::GlobalNamespace::MissionCompletionResults::get_IsMissionComplete)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x269ef08;
+  constexpr static std::size_t addrs = 0x26d3c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionCompletionResults*>::get(),
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::LevelCompletionResults*, ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*>)>(
     &::GlobalNamespace::MissionCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x269ef90;
+  constexpr static std::size_t addrs = 0x26d3cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ constexpr ::GlobalNamespace::LevelCompletionResults*& GlobalNamespace::MissionCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCompletionResults;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& GlobalNamespace::MissionCompletionResults::__cordl_internal_get_levelCompletionResults() const {
+constexpr ::GlobalNamespace::LevelCompletionResults* const& GlobalNamespace::MissionCompletionResults::__cordl_internal_get_levelCompletionResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCompletionResults;
 }
@@ -68,11 +68,6 @@ inline bool GlobalNamespace::MissionCompletionResults::get_IsMissionComplete() {
                                                                              "get_IsMissionComplete", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MissionCompletionResults*
-GlobalNamespace::MissionCompletionResults::New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
-                                                    ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionCompletionResults*>(levelCompletionResults, missionObjectiveResults));
-}
 inline void GlobalNamespace::MissionCompletionResults::_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                                              ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,6 +76,11 @@ inline void GlobalNamespace::MissionCompletionResults::_ctor(::GlobalNamespace::
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelCompletionResults, missionObjectiveResults);
+}
+inline ::GlobalNamespace::MissionCompletionResults*
+GlobalNamespace::MissionCompletionResults::New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
+                                                    ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionCompletionResults*>(levelCompletionResults, missionObjectiveResults));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionCompletionResults::MissionCompletionResults() {}

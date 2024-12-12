@@ -12,11 +12,10 @@ class PracticeSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PracticeSettings);
-// Type: ::PracticeSettings
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PracticeSettings*
+// CS Name: PracticeSettings
 class CORDL_TYPE PracticeSettings : public ::System::Object {
 public:
   // Declarations
@@ -41,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method ResetToDefault, addr 0x26c0708, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResetToDefault, addr 0x26f52fc, size 0x18, virtual false, abstract: false, final false
   inline void ResetToDefault();
 
   constexpr float_t const& __cordl_internal_get__songSpeedMul() const;
@@ -62,34 +61,34 @@ public:
 
   constexpr void __cordl_internal_set__startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x26ba640, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ef128, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26c0720, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f5314, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PracticeSettings* practiceSettings);
 
-  /// @brief Method .ctor, addr 0x26bea78, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f366c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method get_defaultPracticeSettings, addr 0x26c069c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPracticeSettings, addr 0x26f5290, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
 
-  /// @brief Method get_songSpeedMul, addr 0x26c0678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeedMul, addr 0x26f526c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songSpeedMul();
 
-  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x26c0688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x26f527c, size 0x8, virtual false, abstract: false, final false
   inline bool get_startInAdvanceAndClearNotes();
 
-  /// @brief Method get_startSongTime, addr 0x26c0668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startSongTime, addr 0x26f525c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startSongTime();
 
-  /// @brief Method set_songSpeedMul, addr 0x26c0680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songSpeedMul, addr 0x26f5274, size 0x8, virtual false, abstract: false, final false
   inline void set_songSpeedMul(float_t value);
 
-  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x26c0690, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x26f5284, size 0xc, virtual false, abstract: false, final false
   inline void set_startInAdvanceAndClearNotes(bool value);
 
-  /// @brief Method set_startSongTime, addr 0x26c0670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startSongTime, addr 0x26f5264, size 0x8, virtual false, abstract: false, final false
   inline void set_startSongTime(float_t value);
 
 protected:
@@ -106,6 +105,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PracticeSettings(PracticeSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13235 };
+
+  /// @brief Field kDelayBeforeStart offset 0xffffffff size 0x4
+  static constexpr float_t kDelayBeforeStart{ static_cast<float_t>(1.0f) };
+
   /// @brief Field _startSongTime, offset: 0x10, size: 0x4, def value: None
   float_t ____startSongTime;
 
@@ -115,22 +120,16 @@ public:
   /// @brief Field _startInAdvanceAndClearNotes, offset: 0x18, size: 0x1, def value: None
   bool ____startInAdvanceAndClearNotes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13199 };
-
-  /// @brief Field kDelayBeforeStart offset 0xffffffff size 0x4
-  static constexpr float_t kDelayBeforeStart{ 1.0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PracticeSettings, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PracticeSettings, ____startSongTime) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PracticeSettings, ____songSpeedMul) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PracticeSettings, ____startInAdvanceAndClearNotes) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PracticeSettings, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PracticeSettings);

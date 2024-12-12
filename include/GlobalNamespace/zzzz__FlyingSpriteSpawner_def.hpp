@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -11,10 +12,7 @@ namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
-}
-namespace GlobalNamespace {
-class __FlyingSpriteEffect__Pool;
+class FlyingSpriteEffect_Pool;
 }
 namespace UnityEngine {
 class Material;
@@ -34,11 +32,10 @@ class FlyingSpriteSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingSpriteSpawner);
-// Type: ::FlyingSpriteSpawner
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IFlyingObjectEffectDidFinishEvent, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingSpriteSpawner*
+// CS Name: FlyingSpriteSpawner
 class CORDL_TYPE FlyingSpriteSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -49,7 +46,7 @@ public:
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _flyingSpriteEffectPool, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__flyingSpriteEffectPool, put = __cordl_internal_set__flyingSpriteEffectPool)) ::GlobalNamespace::__FlyingSpriteEffect__Pool* _flyingSpriteEffectPool;
+  __declspec(property(get = __cordl_internal_get__flyingSpriteEffectPool, put = __cordl_internal_set__flyingSpriteEffectPool)) ::GlobalNamespace::FlyingSpriteEffect_Pool* _flyingSpriteEffectPool;
 
   /// @brief Field _material, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
@@ -72,12 +69,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b24118, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b85418, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingSpriteSpawner* New_ctor();
 
-  /// @brief Method SpawnFlyingSprite, addr 0x3b232e4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingSprite, addr 0x3b845e4, size 0x1ec, virtual false, abstract: false, final false
   inline void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -88,9 +85,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr ::GlobalNamespace::__FlyingSpriteEffect__Pool*& __cordl_internal_get__flyingSpriteEffectPool();
+  constexpr ::GlobalNamespace::FlyingSpriteEffect_Pool* const& __cordl_internal_get__flyingSpriteEffectPool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingSpriteEffect__Pool*> const& __cordl_internal_get__flyingSpriteEffectPool() const;
+  constexpr ::GlobalNamespace::FlyingSpriteEffect_Pool*& __cordl_internal_get__flyingSpriteEffectPool();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
@@ -120,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr void __cordl_internal_set__flyingSpriteEffectPool(::GlobalNamespace::__FlyingSpriteEffect__Pool* value);
+  constexpr void __cordl_internal_set__flyingSpriteEffectPool(::GlobalNamespace::FlyingSpriteEffect_Pool* value);
 
   constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
@@ -134,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__xSpread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b24234, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b85534, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
@@ -153,6 +150,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingSpriteSpawner(FlyingSpriteSpawner const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4244 };
 
   /// @brief Field _sprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____sprite;
@@ -179,16 +179,11 @@ public:
   bool ____shake;
 
   /// @brief Field _flyingSpriteEffectPool, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::__FlyingSpriteEffect__Pool* ____flyingSpriteEffectPool;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4233 };
+  ::GlobalNamespace::FlyingSpriteEffect_Pool* ____flyingSpriteEffectPool;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingSpriteSpawner, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____sprite) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____material) == 0x28, "Offset mismatch!");
@@ -206,6 +201,8 @@ static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____color) == 0x4
 static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____shake) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____flyingSpriteEffectPool) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingSpriteSpawner, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingSpriteSpawner);

@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __NullableMethodCallInstruction__ToStringClass;
+namespace GlobalNamespace {
+class NullableMethodCallInstruction_ToStringClass;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__ToStringClass);
-// Type: ::ToStringClass
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::NullableMethodCallInstruction_ToStringClass);
+// Dependencies System.Linq.Expressions.Interpreter.NullableMethodCallInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NullableMethodCallInstruction::ToStringClass*
-class CORDL_TYPE __NullableMethodCallInstruction__ToStringClass : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.NullableMethodCallInstruction/ToStringClass
+class CORDL_TYPE NullableMethodCallInstruction_ToStringClass : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__ToStringClass* New_ctor();
+  static inline ::GlobalNamespace::NullableMethodCallInstruction_ToStringClass* New_ctor();
 
-  /// @brief Method Run, addr 0x40961d4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f74e8, size 0x80, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4095f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f7224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NullableMethodCallInstruction__ToStringClass();
+  constexpr NullableMethodCallInstruction_ToStringClass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NullableMethodCallInstruction__ToStringClass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_ToStringClass", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NullableMethodCallInstruction__ToStringClass(__NullableMethodCallInstruction__ToStringClass&&) = delete;
+  NullableMethodCallInstruction_ToStringClass(NullableMethodCallInstruction_ToStringClass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NullableMethodCallInstruction__ToStringClass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_ToStringClass", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NullableMethodCallInstruction__ToStringClass(__NullableMethodCallInstruction__ToStringClass const&) = delete;
+  NullableMethodCallInstruction_ToStringClass(NullableMethodCallInstruction_ToStringClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__ToStringClass, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullableMethodCallInstruction_ToStringClass, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__ToStringClass);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__ToStringClass*, "System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction/ToStringClass");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::NullableMethodCallInstruction_ToStringClass);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NullableMethodCallInstruction_ToStringClass*, "System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction/ToStringClass");

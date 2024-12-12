@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshWriteData)
 namespace Unity::Collections {
@@ -25,11 +24,10 @@ class MeshWriteData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::MeshWriteData);
-// Type: UnityEngine.UIElements::MeshWriteData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Collections.NativeSlice`1<T>, UnityEngine.Rect, UnityEngine.UIElements.Vertex
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::MeshWriteData*
+// CS Name: UnityEngine.UIElements.MeshWriteData
 class CORDL_TYPE MeshWriteData : public ::System::Object {
 public:
   // Declarations
@@ -56,22 +54,22 @@ public:
 
   static inline ::UnityEngine::UIElements::MeshWriteData* New_ctor();
 
-  /// @brief Method Reset, addr 0x49e3bac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a484bc, size 0x1c, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices);
 
-  /// @brief Method Reset, addr 0x49e3bc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a484d8, size 0x18, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Rect uvRegion);
 
-  /// @brief Method SetAllIndices, addr 0x49e3ad8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetAllIndices, addr 0x4a483e8, size 0xd4, virtual false, abstract: false, final false
   inline void SetAllIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices);
 
-  /// @brief Method SetAllVertices, addr 0x49e3a04, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetAllVertices, addr 0x4a48314, size 0xd4, virtual false, abstract: false, final false
   inline void SetAllVertices(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> vertices);
 
-  /// @brief Method SetNextIndex, addr 0x49e39a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetNextIndex, addr 0x4a482b0, size 0x64, virtual false, abstract: false, final false
   inline void SetNextIndex(uint16_t index);
 
-  /// @brief Method SetNextVertex, addr 0x49e3918, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetNextVertex, addr 0x4a48228, size 0x88, virtual false, abstract: false, final false
   inline void SetNextVertex(::UnityEngine::UIElements::Vertex vertex);
 
   constexpr int32_t const& __cordl_internal_get_currentIndex() const;
@@ -104,16 +102,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
 
-  /// @brief Method .ctor, addr 0x49e3874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a48184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_indexCount, addr 0x49e38c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_indexCount, addr 0x4a481d4, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_indexCount();
 
-  /// @brief Method get_uvRegion, addr 0x49e390c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uvRegion, addr 0x4a4821c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRegion();
 
-  /// @brief Method get_vertexCount, addr 0x49e387c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount, addr 0x4a4818c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_vertexCount();
 
 protected:
@@ -130,6 +128,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshWriteData(MeshWriteData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6028 };
+
   /// @brief Field m_Vertices, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> ___m_Vertices;
 
@@ -145,14 +146,9 @@ public:
   /// @brief Field currentVertex, offset: 0x44, size: 0x4, def value: None
   int32_t ___currentVertex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6003 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MeshWriteData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::MeshWriteData, ___m_Vertices) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::MeshWriteData, ___m_Indices) == 0x20, "Offset mismatch!");
@@ -162,6 +158,8 @@ static_assert(offsetof(::UnityEngine::UIElements::MeshWriteData, ___m_UVRegion) 
 static_assert(offsetof(::UnityEngine::UIElements::MeshWriteData, ___currentIndex) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::MeshWriteData, ___currentVertex) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MeshWriteData, 0x48>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MeshWriteData);

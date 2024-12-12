@@ -13,22 +13,17 @@ class IEnvoyInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::IEnvoyInfo);
-// Type: System.Runtime.Remoting::IEnvoyInfo
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::IEnvoyInfo*
+// CS Name: System.Runtime.Remoting.IEnvoyInfo
 class CORDL_TYPE IEnvoyInfo {
 public:
   // Declarations
   __declspec(property(get = get_EnvoySinks)) ::System::Runtime::Remoting::Messaging::IMessageSink* EnvoySinks;
 
-  /// @brief Method get_EnvoySinks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_EnvoySinks, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IEnvoyInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IEnvoyInfo(IEnvoyInfo&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnvoyInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

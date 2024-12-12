@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollViewItemsVisibilityController)
@@ -13,7 +12,7 @@ namespace HMUI {
 class ScrollViewItemForVisibilityController;
 }
 namespace HMUI {
-class __ScrollViewItemsVisibilityController____c;
+class ScrollViewItemsVisibilityController___c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -32,48 +31,47 @@ namespace HMUI {
 class ScrollViewItemsVisibilityController;
 }
 namespace HMUI {
-class __ScrollViewItemsVisibilityController____c;
+class ScrollViewItemsVisibilityController___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScrollViewItemsVisibilityController);
-MARK_REF_PTR_T(::HMUI::__ScrollViewItemsVisibilityController____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::HMUI::ScrollViewItemsVisibilityController___c);
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::ScrollViewItemsVisibilityController::<>c*
-class CORDL_TYPE __ScrollViewItemsVisibilityController____c : public ::System::Object {
+// CS Name: HMUI.ScrollViewItemsVisibilityController/<>c
+class CORDL_TYPE ScrollViewItemsVisibilityController___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HMUI::__ScrollViewItemsVisibilityController____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HMUI::ScrollViewItemsVisibilityController___c* __9;
 
   /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_0,
-                             put = setStaticF___9__11_0)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__11_0;
+  __declspec(property(get = getStaticF___9__11_0,
+                      put = setStaticF___9__11_0)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__11_0;
 
   /// @brief Field <>9__11_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_1,
-                             put = setStaticF___9__11_1)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__11_1;
+  __declspec(property(get = getStaticF___9__11_1,
+                      put = setStaticF___9__11_1)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__11_1;
 
-  static inline ::HMUI::__ScrollViewItemsVisibilityController____c* New_ctor();
+  static inline ::HMUI::ScrollViewItemsVisibilityController___c* New_ctor();
 
-  /// @brief Method <Start>b__11_0, addr 0x39a635c, size 0x44, virtual false, abstract: false, final false
-  inline float_t _Start_b__11_0(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
+  /// @brief Method <Start>b__11_0, addr 0x39fcfcc, size 0x44, virtual false, abstract: false, final false
+  inline float_t _Start_b__11_0(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>* item);
 
-  /// @brief Method <Start>b__11_1, addr 0x39a63a0, size 0x44, virtual false, abstract: false, final false
-  inline float_t _Start_b__11_1(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
+  /// @brief Method <Start>b__11_1, addr 0x39fd010, size 0x44, virtual false, abstract: false, final false
+  inline float_t _Start_b__11_1(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>* item);
 
-  /// @brief Method .ctor, addr 0x39a6354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fcfc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::HMUI::__ScrollViewItemsVisibilityController____c* getStaticF___9();
+  static inline ::HMUI::ScrollViewItemsVisibilityController___c* getStaticF___9();
 
   static inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* getStaticF___9__11_0();
 
   static inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* getStaticF___9__11_1();
 
-  static inline void setStaticF___9(::HMUI::__ScrollViewItemsVisibilityController____c* value);
+  static inline void setStaticF___9(::HMUI::ScrollViewItemsVisibilityController___c* value);
 
   static inline void setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value);
 
@@ -82,35 +80,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ScrollViewItemsVisibilityController____c();
+  constexpr ScrollViewItemsVisibilityController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ScrollViewItemsVisibilityController____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ScrollViewItemsVisibilityController____c(__ScrollViewItemsVisibilityController____c&&) = delete;
+  ScrollViewItemsVisibilityController___c(ScrollViewItemsVisibilityController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ScrollViewItemsVisibilityController____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ScrollViewItemsVisibilityController____c(__ScrollViewItemsVisibilityController____c const&) = delete;
+  ScrollViewItemsVisibilityController___c(ScrollViewItemsVisibilityController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollViewItemsVisibilityController____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::ScrollViewItemsVisibilityController___c, 0x10>, "Size mismatch!");
 
 } // namespace HMUI
-// Type: HMUI::ScrollViewItemsVisibilityController
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ScrollViewItemsVisibilityController*
+// CS Name: HMUI.ScrollViewItemsVisibilityController
 class CORDL_TYPE ScrollViewItemsVisibilityController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c = ::HMUI::__ScrollViewItemsVisibilityController____c;
+  using __c = ::HMUI::ScrollViewItemsVisibilityController___c;
 
   /// @brief Field _contentMaxY, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__contentMaxY, put = __cordl_internal_set__contentMaxY)) float_t _contentMaxY;
@@ -156,16 +153,16 @@ public:
 
   static inline ::HMUI::ScrollViewItemsVisibilityController* New_ctor();
 
-  /// @brief Method Start, addr 0x39a5a10, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39fc680, size 0x4a0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x39a6058, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39fccc8, size 0x9c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateVisibilityDownDirection, addr 0x39a60f4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityDownDirection, addr 0x39fcd64, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateVisibilityDownDirection(float_t newContentAnchoredPositionY);
 
-  /// @brief Method UpdateVisibilityUpDirection, addr 0x39a5eb0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityUpDirection, addr 0x39fcb20, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateVisibilityUpDirection(float_t newContentAnchoredPositionY);
 
   constexpr float_t const& __cordl_internal_get__contentMaxY() const;
@@ -246,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set__viewportWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x39a62a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fcf10, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,6 +259,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16097 };
 
   /// @brief Field _viewport, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____viewport;
@@ -298,14 +298,9 @@ public:
   /// @brief Field _contentMinY, offset: 0x64, size: 0x4, def value: None
   float_t ____contentMinY;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16062 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ScrollViewItemsVisibilityController, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ScrollViewItemsVisibilityController, ____viewport) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ScrollViewItemsVisibilityController, ____contentRectTransform) == 0x28, "Offset mismatch!");
@@ -328,8 +323,10 @@ static_assert(offsetof(::HMUI::ScrollViewItemsVisibilityController, ____contentM
 
 static_assert(offsetof(::HMUI::ScrollViewItemsVisibilityController, ____contentMinY) == 0x64, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HMUI::ScrollViewItemsVisibilityController, 0x68>, "Size mismatch!");
+
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ScrollViewItemsVisibilityController);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollViewItemsVisibilityController*, "HMUI", "ScrollViewItemsVisibilityController");
-NEED_NO_BOX(::HMUI::__ScrollViewItemsVisibilityController____c);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__ScrollViewItemsVisibilityController____c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");
+NEED_NO_BOX(::HMUI::ScrollViewItemsVisibilityController___c);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollViewItemsVisibilityController___c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");

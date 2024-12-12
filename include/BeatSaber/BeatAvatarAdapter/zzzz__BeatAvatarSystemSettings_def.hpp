@@ -14,11 +14,10 @@ class BeatAvatarSystemSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings);
-// Type: BeatSaber.BeatAvatarAdapter::BeatAvatarSystemSettings
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatarSystemSettings*
+// CS Name: BeatSaber.BeatAvatarAdapter.BeatAvatarSystemSettings
 class CORDL_TYPE BeatAvatarSystemSettings : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -59,29 +58,29 @@ public:
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* New_ctor();
 
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject* const& __cordl_internal_get__avatarEditorPrefab() const;
+
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarEditorPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarEditorPrefab() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject* const& __cordl_internal_get__avatarForUnityEditorPrefab() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarForUnityEditorPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarForUnityEditorPrefab() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject* const& __cordl_internal_get__avatarGameplayPrefab() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarGameplayPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarGameplayPrefab() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject* const& __cordl_internal_get__avatarHologramPrefab() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarHologramPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarHologramPrefab() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject* const& __cordl_internal_get__avatarResultsPrefab() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarResultsPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarResultsPrefab() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject* const& __cordl_internal_get__avatarSelectionViewPrefab() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarSelectionViewPrefab();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarSelectionViewPrefab() const;
 
   constexpr void __cordl_internal_set__avatarEditorPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
@@ -95,25 +94,25 @@ public:
 
   constexpr void __cordl_internal_set__avatarSelectionViewPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
-  /// @brief Method .ctor, addr 0x2227e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22533a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_avatarEditorPrefab, addr 0x2227e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarEditorPrefab, addr 0x225338c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarEditorPrefab();
 
-  /// @brief Method get_avatarForUnityEditorPrefab, addr 0x2227e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarForUnityEditorPrefab, addr 0x225339c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarForUnityEditorPrefab();
 
-  /// @brief Method get_avatarGameplayPrefab, addr 0x2227e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarGameplayPrefab, addr 0x2253374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarGameplayPrefab();
 
-  /// @brief Method get_avatarHologramPrefab, addr 0x2227e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarHologramPrefab, addr 0x2253384, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarHologramPrefab();
 
-  /// @brief Method get_avatarResultsPrefab, addr 0x2227e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarResultsPrefab, addr 0x225337c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarResultsPrefab();
 
-  /// @brief Method get_avatarSelectionViewPrefab, addr 0x2227e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarSelectionViewPrefab, addr 0x2253394, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarSelectionViewPrefab();
 
 protected:
@@ -129,6 +128,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSystemSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatAvatarSystemSettings(BeatAvatarSystemSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17703 };
 
   /// @brief Field _avatarGameplayPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarGameplayPrefab;
@@ -148,14 +150,9 @@ public:
   /// @brief Field _avatarForUnityEditorPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarForUnityEditorPrefab;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17659 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings, ____avatarGameplayPrefab) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings, ____avatarResultsPrefab) == 0x20, "Offset mismatch!");
@@ -167,6 +164,8 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings,
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings, ____avatarSelectionViewPrefab) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings, ____avatarForUnityEditorPrefab) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings, 0x48>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarAdapter
 NEED_NO_BOX(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings);

@@ -21,11 +21,10 @@ class UIDocumentList;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIDocumentList);
-// Type: UnityEngine.UIElements::UIDocumentList
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UIDocumentList*
+// CS Name: UnityEngine.UIElements.UIDocumentList
 class CORDL_TYPE UIDocumentList : public ::System::Object {
 public:
   // Declarations
@@ -33,21 +32,21 @@ public:
   __declspec(property(get = __cordl_internal_get_m_AttachedUIDocuments,
                       put = __cordl_internal_set_m_AttachedUIDocuments)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_AttachedUIDocuments;
 
-  /// @brief Method AddToListAndToVisualTree, addr 0x49d4260, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method AddToListAndToVisualTree, addr 0x4a38b70, size 0x338, virtual false, abstract: false, final false
   inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 
-  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x49d41e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x4a38af0, size 0x78, virtual false, abstract: false, final false
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* const& __cordl_internal_get_m_AttachedUIDocuments() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*& __cordl_internal_get_m_AttachedUIDocuments();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*> const& __cordl_internal_get_m_AttachedUIDocuments() const;
-
   constexpr void __cordl_internal_set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
-  /// @brief Method .ctor, addr 0x49d4598, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a38ea8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,18 +63,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIDocumentList(UIDocumentList const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
+
   /// @brief Field m_AttachedUIDocuments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* ___m_AttachedUIDocuments;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIDocumentList, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIDocumentList, ___m_AttachedUIDocuments) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIDocumentList, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIDocumentList);

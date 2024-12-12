@@ -1,10 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/BerTaggedObjectParser.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_impl.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerTaggedObjectParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerTaggedObjectParser._ctor
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)(int32_t, int32_t, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2601418;
+  constexpr static std::size_t addrs = 0x2634704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)(bool, int32_t, ::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(&::Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25f8234;
+  constexpr static std::size_t addrs = 0x262b520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::get_IsConstructed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26014b4;
+  constexpr static std::size_t addrs = 0x26347a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>::get(),
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::get_TagNo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26014bc;
+  constexpr static std::size_t addrs = 0x26347a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>::get(),
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible* (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)(int32_t, bool)>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::GetObjectParser)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26014c4;
+  constexpr static std::size_t addrs = 0x26347b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::ToAsn1Object)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x25f8274;
+  constexpr static std::size_t addrs = 0x262b560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>::get(),
@@ -96,22 +97,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
-constexpr Org::BouncyCastle::Asn1::BerTaggedObjectParser::operator ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
-constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::i___Org__BouncyCastle__Asn1__Asn1TaggedObjectParser() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-constexpr Org::BouncyCastle::Asn1::BerTaggedObjectParser::operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* Org::BouncyCastle::Asn1::BerTaggedObjectParser::i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
-}
 constexpr bool& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__cordl_internal_get__constructed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructed;
@@ -140,7 +125,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& Org::BouncyCastle::Asn1:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parser;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1StreamParser*> const& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__cordl_internal_get__parser() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__cordl_internal_get__parser() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parser;
 }
@@ -148,19 +133,12 @@ constexpr void Org::BouncyCastle::Asn1::BerTaggedObjectParser::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(baseTag, tagNumber, contentStream));
-}
 inline void Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, baseTag, tagNumber, contentStream);
-}
-inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(bool constructed, int32_t tagNumber,
-                                                                                                                  ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(constructed, tagNumber, parser));
 }
 inline void Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,6 +167,29 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::BerTagged
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>::get(),
                                                                              "ToAsn1Object", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(baseTag, tagNumber, contentStream));
+}
+inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(bool constructed, int32_t tagNumber,
+                                                                                                                  ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(constructed, tagNumber, parser));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
+constexpr Org::BouncyCastle::Asn1::BerTaggedObjectParser::operator ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
+constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::i___Org__BouncyCastle__Asn1__Asn1TaggedObjectParser() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+constexpr Org::BouncyCastle::Asn1::BerTaggedObjectParser::operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* Org::BouncyCastle::Asn1::BerTaggedObjectParser::i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerTaggedObjectParser::BerTaggedObjectParser() {}

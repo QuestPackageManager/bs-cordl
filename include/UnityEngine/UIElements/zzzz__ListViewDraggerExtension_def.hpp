@@ -18,18 +18,17 @@ class ListViewDraggerExtension;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewDraggerExtension);
-// Type: UnityEngine.UIElements::ListViewDraggerExtension
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ListViewDraggerExtension*
+// CS Name: UnityEngine.UIElements.ListViewDraggerExtension
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRecycledItemFromId, addr 0x49b11c0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromId, addr 0x4a15ad0, size 0x344, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t id);
 
-  /// @brief Method GetRecycledItemFromIndex, addr 0x49b57ec, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromIndex, addr 0x4a1a0fc, size 0x344, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:
@@ -47,7 +46,7 @@ public:
   ListViewDraggerExtension(ListViewDraggerExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

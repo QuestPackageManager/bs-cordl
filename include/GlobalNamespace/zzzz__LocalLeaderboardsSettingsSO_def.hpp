@@ -12,11 +12,10 @@ class LocalLeaderboardsSettingsSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardsSettingsSO);
-// Type: ::LocalLeaderboardsSettingsSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LocalLeaderboardsSettingsSO*
+// CS Name: LocalLeaderboardsSettingsSO
 class CORDL_TYPE LocalLeaderboardsSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__maxNumberOfScoresInLeaderboard(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26cffe8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2701880, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x26cffd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x2701870, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxNumberOfScoresInLeaderboard();
 
-  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x26cffe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x2701878, size 0x8, virtual false, abstract: false, final false
   inline void set_maxNumberOfScoresInLeaderboard(int32_t value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13338 };
+
   /// @brief Field _maxNumberOfScoresInLeaderboard, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxNumberOfScoresInLeaderboard;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalLeaderboardsSettingsSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsSettingsSO, ____maxNumberOfScoresInLeaderboard) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalLeaderboardsSettingsSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardsSettingsSO);

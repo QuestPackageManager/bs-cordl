@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -14,28 +17,22 @@ namespace GlobalNamespace {
 class MultiplayerIntroCountdownTextController;
 }
 namespace GlobalNamespace {
+class MultiplayerIntroCountdown__CountdownRoutine_d__23;
+}
+namespace GlobalNamespace {
+class MultiplayerIntroCountdown__PhaseRoutine_d__25;
+}
+namespace GlobalNamespace {
+class MultiplayerIntroCountdown__PlayDelayed_d__24;
+}
+namespace GlobalNamespace {
+class MultiplayerIntroCountdown___c__DisplayClass25_0;
+}
+namespace GlobalNamespace {
 class MultiplayerOffsetPositionByLocalPlayerPosition;
-}
-namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___CountdownRoutine_d__23;
-}
-namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___PhaseRoutine_d__25;
-}
-namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___PlayDelayed_d__24;
-}
-namespace GlobalNamespace {
-class __MultiplayerIntroCountdown____c__DisplayClass25_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -57,29 +54,28 @@ namespace GlobalNamespace {
 class MultiplayerIntroCountdown;
 }
 namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___CountdownRoutine_d__23;
+class MultiplayerIntroCountdown__CountdownRoutine_d__23;
 }
 namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___PhaseRoutine_d__25;
+class MultiplayerIntroCountdown__PhaseRoutine_d__25;
 }
 namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___PlayDelayed_d__24;
+class MultiplayerIntroCountdown__PlayDelayed_d__24;
 }
 namespace GlobalNamespace {
-class __MultiplayerIntroCountdown____c__DisplayClass25_0;
+class MultiplayerIntroCountdown___c__DisplayClass25_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdown);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0);
-// Type: ::<>c__DisplayClass25_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23);
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25);
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24);
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerIntroCountdown::<>c__DisplayClass25_0*
-class CORDL_TYPE __MultiplayerIntroCountdown____c__DisplayClass25_0 : public ::System::Object {
+// CS Name: MultiplayerIntroCountdown/<>c__DisplayClass25_0
+class CORDL_TYPE MultiplayerIntroCountdown___c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -88,21 +84,21 @@ public:
   /// @brief Field textController, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_textController, put = __cordl_internal_set_textController)) ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> textController;
 
-  static inline ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* New_ctor();
+  static inline ::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <PhaseRoutine>b__0, addr 0x3b709e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__0, addr 0x3bd2578, size 0x18, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__0(float_t val);
 
-  /// @brief Method <PhaseRoutine>b__1, addr 0x3b70a68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__1, addr 0x3bd2600, size 0x18, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__1(float_t val);
 
-  /// @brief Method <PhaseRoutine>b__2, addr 0x3b70b00, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__2, addr 0x3bd2698, size 0x50, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__2(::UnityEngine::Vector3 pos);
 
-  /// @brief Method <PhaseRoutine>b__3, addr 0x3b70b50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__3, addr 0x3bd26e8, size 0x28, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__3(float_t f);
 
-  /// @brief Method <PhaseRoutine>b__4, addr 0x3b70c00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__4, addr 0x3bd2798, size 0x18, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__4(float_t val);
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
@@ -117,22 +113,25 @@ public:
 
   constexpr void __cordl_internal_set_textController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
 
-  /// @brief Method .ctor, addr 0x3b709d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd2570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerIntroCountdown____c__DisplayClass25_0();
+  constexpr MultiplayerIntroCountdown___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown____c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerIntroCountdown____c__DisplayClass25_0(__MultiplayerIntroCountdown____c__DisplayClass25_0&&) = delete;
+  MultiplayerIntroCountdown___c__DisplayClass25_0(MultiplayerIntroCountdown___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown____c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerIntroCountdown____c__DisplayClass25_0(__MultiplayerIntroCountdown____c__DisplayClass25_0 const&) = delete;
+  MultiplayerIntroCountdown___c__DisplayClass25_0(MultiplayerIntroCountdown___c__DisplayClass25_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4568 };
 
   /// @brief Field textController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> ___textController;
@@ -140,25 +139,21 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4556 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0, ___textController) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0, ___textController) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0, _____4__this) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0, _____4__this) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<CountdownRoutine>d__23
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerIntroCountdown::<CountdownRoutine>d__23*
-class CORDL_TYPE __MultiplayerIntroCountdown___CountdownRoutine_d__23 : public ::System::Object {
+// CS Name: MultiplayerIntroCountdown/<CountdownRoutine>d__23
+class CORDL_TYPE MultiplayerIntroCountdown__CountdownRoutine_d__23 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -195,30 +190,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b70c1c, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bd27b4, size 0x320, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b70f48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bd2ae0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b70f50, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bd2ae8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b70f88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bd2b20, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b70c18, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bd27b0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
@@ -254,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set_seconds(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b707e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd237c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -269,16 +264,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerIntroCountdown___CountdownRoutine_d__23();
+  constexpr MultiplayerIntroCountdown__CountdownRoutine_d__23();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___CountdownRoutine_d__23", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__CountdownRoutine_d__23", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerIntroCountdown___CountdownRoutine_d__23(__MultiplayerIntroCountdown___CountdownRoutine_d__23&&) = delete;
+  MultiplayerIntroCountdown__CountdownRoutine_d__23(MultiplayerIntroCountdown__CountdownRoutine_d__23&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___CountdownRoutine_d__23", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__CountdownRoutine_d__23", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerIntroCountdown___CountdownRoutine_d__23(__MultiplayerIntroCountdown___CountdownRoutine_d__23 const&) = delete;
+  MultiplayerIntroCountdown__CountdownRoutine_d__23(MultiplayerIntroCountdown__CountdownRoutine_d__23 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4569 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -301,35 +299,31 @@ public:
   /// @brief Field <soundDelayAfterText>5__2, offset: 0x34, size: 0x4, def value: None
   float_t ____soundDelayAfterText_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4557 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, ___delay) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, ___delay) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, ___seconds) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, ___seconds) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, ___durationMultiplier) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, ___durationMultiplier) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, ____soundDelayAfterText_5__2) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23, ____soundDelayAfterText_5__2) == 0x34, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<PhaseRoutine>d__25
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerIntroCountdown::<PhaseRoutine>d__25*
-class CORDL_TYPE __MultiplayerIntroCountdown___PhaseRoutine_d__25 : public ::System::Object {
+// CS Name: MultiplayerIntroCountdown/<PhaseRoutine>d__25
+class CORDL_TYPE MultiplayerIntroCountdown__PhaseRoutine_d__25 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -346,7 +340,7 @@ public:
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
   /// @brief Field <>8__1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0* __8__1;
 
   /// @brief Field appearDuration, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_appearDuration, put = __cordl_internal_set_appearDuration)) float_t appearDuration;
@@ -366,38 +360,38 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b70f94, size 0x578, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bd2b2c, size 0x578, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b7157c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bd3114, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b71584, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bd311c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b715bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bd3154, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b70f90, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bd2b28, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
-  constexpr ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*& __cordl_internal_get___8__1();
+  constexpr ::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0* const& __cordl_internal_get___8__1() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*> const& __cordl_internal_get___8__1() const;
+  constexpr ::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0*& __cordl_internal_get___8__1();
 
   constexpr float_t const& __cordl_internal_get_appearDuration() const;
 
@@ -417,7 +411,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
 
-  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* value);
+  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0* value);
 
   constexpr void __cordl_internal_set_appearDuration(float_t value);
 
@@ -425,7 +419,7 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b70930, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd24c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -440,16 +434,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerIntroCountdown___PhaseRoutine_d__25();
+  constexpr MultiplayerIntroCountdown__PhaseRoutine_d__25();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___PhaseRoutine_d__25", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__PhaseRoutine_d__25", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerIntroCountdown___PhaseRoutine_d__25(__MultiplayerIntroCountdown___PhaseRoutine_d__25&&) = delete;
+  MultiplayerIntroCountdown__PhaseRoutine_d__25(MultiplayerIntroCountdown__PhaseRoutine_d__25&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___PhaseRoutine_d__25", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__PhaseRoutine_d__25", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerIntroCountdown___PhaseRoutine_d__25(__MultiplayerIntroCountdown___PhaseRoutine_d__25 const&) = delete;
+  MultiplayerIntroCountdown__PhaseRoutine_d__25(MultiplayerIntroCountdown__PhaseRoutine_d__25 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4570 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -470,37 +467,33 @@ public:
   float_t ___disappearDuration;
 
   /// @brief Field <>8__1, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* _____8__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4558 };
+  ::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0* _____8__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, ___text) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, ___text) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, ___appearDuration) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, ___appearDuration) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, ___disappearDuration) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, ___disappearDuration) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, _____8__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25, _____8__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<PlayDelayed>d__24
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerIntroCountdown::<PlayDelayed>d__24*
-class CORDL_TYPE __MultiplayerIntroCountdown___PlayDelayed_d__24 : public ::System::Object {
+// CS Name: MultiplayerIntroCountdown/<PlayDelayed>d__24
+class CORDL_TYPE MultiplayerIntroCountdown__PlayDelayed_d__24 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -531,30 +524,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b715c8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bd3160, size 0xc0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b71688, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bd3220, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b71690, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bd3228, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b716c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bd3260, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b715c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bd315c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
@@ -578,7 +571,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b70888, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd2420, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -593,16 +586,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerIntroCountdown___PlayDelayed_d__24();
+  constexpr MultiplayerIntroCountdown__PlayDelayed_d__24();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___PlayDelayed_d__24", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__PlayDelayed_d__24", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerIntroCountdown___PlayDelayed_d__24(__MultiplayerIntroCountdown___PlayDelayed_d__24&&) = delete;
+  MultiplayerIntroCountdown__PlayDelayed_d__24(MultiplayerIntroCountdown__PlayDelayed_d__24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___PlayDelayed_d__24", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__PlayDelayed_d__24", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerIntroCountdown___PlayDelayed_d__24(__MultiplayerIntroCountdown___PlayDelayed_d__24 const&) = delete;
+  MultiplayerIntroCountdown__PlayDelayed_d__24(MultiplayerIntroCountdown__PlayDelayed_d__24 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4571 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -619,40 +615,36 @@ public:
   /// @brief Field audioClip, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ___audioClip;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4559 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24, ___delay) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24, ___delay) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24, ___audioClip) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24, ___audioClip) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerIntroCountdown
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerIntroCountdown*
+// CS Name: MultiplayerIntroCountdown
 class CORDL_TYPE MultiplayerIntroCountdown : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _CountdownRoutine_d__23 = ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23;
+  using _CountdownRoutine_d__23 = ::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23;
 
-  using _PhaseRoutine_d__25 = ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25;
+  using _PhaseRoutine_d__25 = ::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25;
 
-  using _PlayDelayed_d__24 = ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24;
+  using _PlayDelayed_d__24 = ::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24;
 
-  using __c__DisplayClass25_0 = ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0;
+  using __c__DisplayClass25_0 = ::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0;
 
   /// @brief Field _alpha, offset 0x9c, size 0x4
   __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
@@ -713,24 +705,24 @@ public:
 
   __declspec(property(get = get_textAppearDuration)) float_t textAppearDuration;
 
-  /// @brief Method Awake, addr 0x3b70570, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bd2108, size 0x54, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CountdownRoutine, addr 0x3b70760, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CountdownRoutine, addr 0x3bd22f8, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CountdownRoutine(float_t seconds, float_t delay, float_t durationMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b70668, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd2200, size 0x88, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PhaseRoutine, addr 0x3b708b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method PhaseRoutine, addr 0x3bd2448, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PhaseRoutine(::StringW text, float_t appearDuration, float_t disappearDuration);
 
-  /// @brief Method PlayDelayed, addr 0x3b7080c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x3bd23a4, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayDelayed(::UnityEngine::AudioClip* audioClip, float_t delay);
 
-  /// @brief Method StartCountdown, addr 0x3b706f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x3bd2288, size 0x70, virtual false, abstract: false, final false
   inline void StartCountdown(float_t seconds, float_t delay, float_t durationMultiplier);
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -841,10 +833,10 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b70958, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd24f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_textAppearDuration, addr 0x3b70568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textAppearDuration, addr 0x3bd2100, size 0x8, virtual false, abstract: false, final false
   inline float_t get_textAppearDuration();
 
 protected:
@@ -860,6 +852,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerIntroCountdown(MultiplayerIntroCountdown const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4572 };
 
   /// @brief Field _textAppearDuration, offset: 0x20, size: 0x4, def value: None
   float_t ____textAppearDuration;
@@ -915,14 +910,9 @@ public:
   /// @brief Field _alpha, offset: 0x9c, size: 0x4, def value: None
   float_t ____alpha;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4560 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroCountdown, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown, ____textAppearDuration) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown, ____textDisappearDuration) == 0x24, "Offset mismatch!");
@@ -959,14 +949,16 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown, ____fontSiz
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroCountdown, ____alpha) == 0x9c, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroCountdown, 0xa0>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroCountdown);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerIntroCountdown*, "", "MultiplayerIntroCountdown");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*, "", "MultiplayerIntroCountdown/<CountdownRoutine>d__23");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*, "", "MultiplayerIntroCountdown/<PhaseRoutine>d__25");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*, "", "MultiplayerIntroCountdown/<PlayDelayed>d__24");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*, "", "MultiplayerIntroCountdown/<>c__DisplayClass25_0");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__23*, "", "MultiplayerIntroCountdown/<CountdownRoutine>d__23");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__25*, "", "MultiplayerIntroCountdown/<PhaseRoutine>d__25");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__24*, "", "MultiplayerIntroCountdown/<PlayDelayed>d__24");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass25_0*, "", "MultiplayerIntroCountdown/<>c__DisplayClass25_0");

@@ -20,26 +20,25 @@ class DHKeyGeneratorHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
-// Type: Org.BouncyCastle.Crypto.Generators::DHKeyGeneratorHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::DHKeyGeneratorHelper*
+// CS Name: Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper
 class CORDL_TYPE DHKeyGeneratorHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Instance;
 
-  /// @brief Method CalculatePrivate, addr 0x234c67c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CalculatePrivate, addr 0x237f968, size 0x1c4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CalculatePublic, addr 0x234c840, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublic, addr 0x237fb2c, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234c874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237fb60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* getStaticF_Instance();

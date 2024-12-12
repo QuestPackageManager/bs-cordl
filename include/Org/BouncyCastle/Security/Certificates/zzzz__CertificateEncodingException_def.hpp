@@ -15,11 +15,10 @@ class CertificateEncodingException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::Certificates::CertificateEncodingException);
-// Type: Org.BouncyCastle.Security.Certificates::CertificateEncodingException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.Certificates.CertificateException
 namespace Org::BouncyCastle::Security::Certificates {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security.Certificates::CertificateEncodingException*
+// CS Name: Org.BouncyCastle.Security.Certificates.CertificateEncodingException
 class CORDL_TYPE CertificateEncodingException : public ::Org::BouncyCastle::Security::Certificates::CertificateException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateEncodingException* New_ctor(::StringW msg, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x2564f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25981f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2564f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25981f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x2564f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, ::System::Exception* e);
 
 protected:

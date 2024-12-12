@@ -23,27 +23,26 @@ class CharConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::CharConverter);
-// Type: System.ComponentModel::CharConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.TypeConverter
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::CharConverter*
+// CS Name: System.ComponentModel.CharConverter
 class CORDL_TYPE CharConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x43e79c0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x4448cd4, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x43e7bb8, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x4448ecc, size 0x188, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x43e7a88, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x4448d9c, size 0x130, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::CharConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43e7d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4449054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +60,7 @@ public:
   CharConverter(CharConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

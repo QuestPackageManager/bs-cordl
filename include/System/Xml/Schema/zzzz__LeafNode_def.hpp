@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeafNode)
 namespace System::Xml::Schema {
@@ -25,11 +24,10 @@ class LeafNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::LeafNode);
-// Type: System.Xml.Schema::LeafNode
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.SyntaxTreeNode
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::LeafNode*
+// CS Name: System.Xml.Schema.LeafNode
 class CORDL_TYPE LeafNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
   // Declarations
@@ -40,11 +38,11 @@ public:
   /// @brief Field pos, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
-  /// @brief Method ConstructPos, addr 0x433925c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x439a570, size 0x40, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x4339258, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x439a56c, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::LeafNode* New_ctor(int32_t pos);
@@ -55,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set_pos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4339220, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439a534, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t pos);
 
-  /// @brief Method get_IsNullable, addr 0x433929c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x439a5b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Pos, addr 0x4339248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pos, addr 0x439a55c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Pos();
 
-  /// @brief Method set_Pos, addr 0x4339250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pos, addr 0x439a564, size 0x8, virtual false, abstract: false, final false
   inline void set_Pos(int32_t value);
 
 protected:
@@ -81,18 +79,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LeafNode(LeafNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7495 };
+
   /// @brief Field pos, offset: 0x10, size: 0x4, def value: None
   int32_t ___pos;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::LeafNode, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::LeafNode, ___pos) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::LeafNode, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::LeafNode);

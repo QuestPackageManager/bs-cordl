@@ -34,11 +34,10 @@ class ProBuilderShape;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::ProBuilderShape);
-// Type: UnityEngine.ProBuilder.Shapes::ProBuilderShape
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Bounds, UnityEngine.MonoBehaviour, UnityEngine.ProBuilder.PivotLocation, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Shapes::ProBuilderShape*
+// CS Name: UnityEngine.ProBuilder.Shapes.ProBuilderShape
 class CORDL_TYPE ProBuilderShape : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -91,31 +90,31 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Shapes::ProBuilderShape* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x46efd3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x4751050, size 0xa4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Rebuild, addr 0x46f0024, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x4751338, size 0x1a0, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method Rebuild, addr 0x46f0254, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x4751568, size 0xdc, virtual false, abstract: false, final false
   inline void Rebuild(::UnityEngine::Bounds bounds, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 cornerPivot);
 
-  /// @brief Method RebuildPivot, addr 0x46f0330, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method RebuildPivot, addr 0x4751644, size 0x234, virtual false, abstract: false, final false
   inline void RebuildPivot(::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ResetPivot, addr 0x46efe14, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ResetPivot, addr 0x4751128, size 0x210, virtual false, abstract: false, final false
   inline void ResetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateInsideBounds, addr 0x46f06d8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RotateInsideBounds, addr 0x47519ec, size 0xd4, virtual false, abstract: false, final false
   inline void RotateInsideBounds(::UnityEngine::Quaternion deltaRotation);
 
-  /// @brief Method SetShape, addr 0x46f0564, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetShape, addr 0x4751878, size 0x174, virtual false, abstract: false, final false
   inline void SetShape(::UnityEngine::ProBuilder::Shapes::Shape* shape, ::UnityEngine::ProBuilder::PivotLocation location);
 
-  /// @brief Method UpdateBounds, addr 0x46f01c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x47514d8, size 0x90, virtual false, abstract: false, final false
   inline void UpdateBounds(::UnityEngine::Bounds bounds);
 
-  /// @brief Method UpdateComponent, addr 0x46efde0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateComponent, addr 0x47510f4, size 0x34, virtual false, abstract: false, final false
   inline void UpdateComponent();
 
   constexpr ::UnityEngine::Bounds const& __cordl_internal_get_m_EditionBounds() const;
@@ -138,9 +137,9 @@ public:
 
   constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_Rotation();
 
-  constexpr ::UnityEngine::ProBuilder::Shapes::Shape*& __cordl_internal_get_m_Shape();
+  constexpr ::UnityEngine::ProBuilder::Shapes::Shape* const& __cordl_internal_get_m_Shape() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Shapes::Shape*> const& __cordl_internal_get_m_Shape() const;
+  constexpr ::UnityEngine::ProBuilder::Shapes::Shape*& __cordl_internal_get_m_Shape();
 
   constexpr ::UnityEngine::Bounds const& __cordl_internal_get_m_ShapeBox() const;
 
@@ -172,55 +171,55 @@ public:
 
   constexpr void __cordl_internal_set_m_UnmodifiedMeshVersion(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x46f07ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4751ac0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_editionBounds, addr 0x46efc44, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_editionBounds, addr 0x4750f58, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_editionBounds();
 
-  /// @brief Method get_isEditable, addr 0x46efd14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isEditable, addr 0x4751028, size 0x28, virtual false, abstract: false, final false
   inline bool get_isEditable();
 
-  /// @brief Method get_mesh, addr 0x46efa0c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x4750d20, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method get_pivotGlobalPosition, addr 0x46ef9d8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_pivotGlobalPosition, addr 0x4750cec, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivotGlobalPosition();
 
-  /// @brief Method get_pivotLocalPosition, addr 0x46ef9c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pivotLocalPosition, addr 0x4750cd4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivotLocalPosition();
 
-  /// @brief Method get_pivotLocation, addr 0x46ef9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pivotLocation, addr 0x4750cc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::PivotLocation get_pivotLocation();
 
-  /// @brief Method get_rotation, addr 0x46efc2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x4750f40, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_shape, addr 0x46ef9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shape, addr 0x4750cb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Shapes::Shape* get_shape();
 
-  /// @brief Method get_shapeBox, addr 0x46efd00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_shapeBox, addr 0x4751014, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_shapeBox();
 
-  /// @brief Method get_size, addr 0x46efb64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x4750e78, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method set_pivotGlobalPosition, addr 0x46efb04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_pivotGlobalPosition, addr 0x4750e18, size 0x60, virtual false, abstract: false, final false
   inline void set_pivotGlobalPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_pivotLocalPosition, addr 0x46ef9cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pivotLocalPosition, addr 0x4750ce0, size 0xc, virtual false, abstract: false, final false
   inline void set_pivotLocalPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_pivotLocation, addr 0x46ef9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pivotLocation, addr 0x4750ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_pivotLocation(::UnityEngine::ProBuilder::PivotLocation value);
 
-  /// @brief Method set_rotation, addr 0x46efc38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x4750f4c, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_shape, addr 0x46ef9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shape, addr 0x4750cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_shape(::UnityEngine::ProBuilder::Shapes::Shape* value);
 
-  /// @brief Method set_size, addr 0x46efb70, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x4750e84, size 0xbc, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
 protected:
@@ -236,6 +235,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ProBuilderShape", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ProBuilderShape(ProBuilderShape const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14345 };
 
   /// @brief Field m_Shape, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Shapes::Shape* ___m_Shape;
@@ -264,14 +266,9 @@ public:
   /// @brief Field m_ShapeBox, offset: 0x7c, size: 0x18, def value: None
   ::UnityEngine::Bounds ___m_ShapeBox;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14311 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::ProBuilderShape, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::ProBuilderShape, ___m_Shape) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::ProBuilderShape, ___m_Size) == 0x28, "Offset mismatch!");
@@ -289,6 +286,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::ProBuilderShape, ___m_
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::ProBuilderShape, ___m_EditionBounds) == 0x64, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::ProBuilderShape, ___m_ShapeBox) == 0x7c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::ProBuilderShape, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::ProBuilderShape);

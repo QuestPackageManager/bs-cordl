@@ -11,11 +11,10 @@ class DefaultCertificatePolicy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::DefaultCertificatePolicy);
-// Type: System.Net::DefaultCertificatePolicy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::DefaultCertificatePolicy*
+// CS Name: System.Net.DefaultCertificatePolicy
 class CORDL_TYPE DefaultCertificatePolicy : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   DefaultCertificatePolicy(DefaultCertificatePolicy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

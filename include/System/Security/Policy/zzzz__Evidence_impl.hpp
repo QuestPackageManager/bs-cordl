@@ -1,153 +1,151 @@
 #pragma once
 // IWYU pragma private; include "System/Security/Policy/Evidence.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Policy/zzzz__Evidence_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Security/Policy/zzzz__Evidence_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Security::Policy::__Evidence__EvidenceEnumerator._ctor
+//  Writing Method size for method: ::System::Security::Policy::Evidence_EvidenceEnumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Policy::__Evidence__EvidenceEnumerator::*)(
-    ::System::Collections::IEnumerator*, ::System::Collections::IEnumerator*)>(&::System::Security::Policy::__Evidence__EvidenceEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Policy::Evidence_EvidenceEnumerator::*)(
+    ::System::Collections::IEnumerator*, ::System::Collections::IEnumerator*)>(&::System::Security::Policy::Evidence_EvidenceEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c37d78;
+  constexpr static std::size_t addrs = 0x3c97eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IEnumerator*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IEnumerator*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Security::Policy::__Evidence__EvidenceEnumerator.MoveNext
+//  Writing Method size for method: ::System::Security::Policy::Evidence_EvidenceEnumerator.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Policy::__Evidence__EvidenceEnumerator::*)()>(
-    &::System::Security::Policy::__Evidence__EvidenceEnumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Policy::Evidence_EvidenceEnumerator::*)()>(
+    &::System::Security::Policy::Evidence_EvidenceEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3c37da8;
+  constexpr static std::size_t addrs = 0x3c97f1c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Security::Policy::__Evidence__EvidenceEnumerator.Reset
+//  Writing Method size for method: ::System::Security::Policy::Evidence_EvidenceEnumerator.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Policy::__Evidence__EvidenceEnumerator::*)()>(
-    &::System::Security::Policy::__Evidence__EvidenceEnumerator::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Policy::Evidence_EvidenceEnumerator::*)()>(
+    &::System::Security::Policy::Evidence_EvidenceEnumerator::Reset)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3c37ed0;
+  constexpr static std::size_t addrs = 0x3c98044;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(), "Reset",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(),
+                                                                               "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Security::Policy::__Evidence__EvidenceEnumerator.get_Current
+//  Writing Method size for method: ::System::Security::Policy::Evidence_EvidenceEnumerator.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Security::Policy::__Evidence__EvidenceEnumerator::*)()>(
-    &::System::Security::Policy::__Evidence__EvidenceEnumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Security::Policy::Evidence_EvidenceEnumerator::*)()>(
+    &::System::Security::Policy::Evidence_EvidenceEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c37ff0;
+  constexpr static std::size_t addrs = 0x3c98164;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(), "get_Current",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(),
+                                                                               "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Security::Policy::__Evidence__EvidenceEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Security::Policy::__Evidence__EvidenceEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::IEnumerator*& System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_get_currentEnum() {
+constexpr ::System::Collections::IEnumerator*& System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_get_currentEnum() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEnum;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_get_currentEnum() const {
+constexpr ::System::Collections::IEnumerator* const& System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_get_currentEnum() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEnum;
 }
-constexpr void System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_set_currentEnum(::System::Collections::IEnumerator* value) {
+constexpr void System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_set_currentEnum(::System::Collections::IEnumerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::IEnumerator*& System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_get_hostEnum() {
+constexpr ::System::Collections::IEnumerator*& System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_get_hostEnum() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEnum;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_get_hostEnum() const {
+constexpr ::System::Collections::IEnumerator* const& System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_get_hostEnum() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEnum;
 }
-constexpr void System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_set_hostEnum(::System::Collections::IEnumerator* value) {
+constexpr void System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_set_hostEnum(::System::Collections::IEnumerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hostEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::IEnumerator*& System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_get_assemblyEnum() {
+constexpr ::System::Collections::IEnumerator*& System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_get_assemblyEnum() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEnum;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_get_assemblyEnum() const {
+constexpr ::System::Collections::IEnumerator* const& System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_get_assemblyEnum() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEnum;
 }
-constexpr void System::Security::Policy::__Evidence__EvidenceEnumerator::__cordl_internal_set_assemblyEnum(::System::Collections::IEnumerator* value) {
+constexpr void System::Security::Policy::Evidence_EvidenceEnumerator::__cordl_internal_set_assemblyEnum(::System::Collections::IEnumerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assemblyEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Security::Policy::__Evidence__EvidenceEnumerator* System::Security::Policy::__Evidence__EvidenceEnumerator::New_ctor(::System::Collections::IEnumerator* hostenum,
-                                                                                                                                      ::System::Collections::IEnumerator* assemblyenum) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Policy::__Evidence__EvidenceEnumerator*>(hostenum, assemblyenum));
-}
-inline void System::Security::Policy::__Evidence__EvidenceEnumerator::_ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum) {
+inline void System::Security::Policy::Evidence_EvidenceEnumerator::_ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IEnumerator*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IEnumerator*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hostenum, assemblyenum);
 }
-inline bool System::Security::Policy::__Evidence__EvidenceEnumerator::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(),
+inline bool System::Security::Policy::Evidence_EvidenceEnumerator::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Security::Policy::__Evidence__EvidenceEnumerator::Reset() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(),
+inline void System::Security::Policy::Evidence_EvidenceEnumerator::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(),
                                                                              "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Security::Policy::__Evidence__EvidenceEnumerator::get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::__Evidence__EvidenceEnumerator*>::get(),
+inline ::System::Object* System::Security::Policy::Evidence_EvidenceEnumerator::get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence_EvidenceEnumerator*>::get(),
                                                                              "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
+inline ::System::Security::Policy::Evidence_EvidenceEnumerator* System::Security::Policy::Evidence_EvidenceEnumerator::New_ctor(::System::Collections::IEnumerator* hostenum,
+                                                                                                                                ::System::Collections::IEnumerator* assemblyenum) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Policy::Evidence_EvidenceEnumerator*>(hostenum, assemblyenum));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Security::Policy::Evidence_EvidenceEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Security::Policy::Evidence_EvidenceEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Security::Policy::__Evidence__EvidenceEnumerator::__Evidence__EvidenceEnumerator() {}
+constexpr ::System::Security::Policy::Evidence_EvidenceEnumerator::Evidence_EvidenceEnumerator() {}
 //  Writing Method size for method: ::System::Security::Policy::Evidence._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c37b9c;
+  constexpr static std::size_t addrs = 0x3c97d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence*>::get(), ".ctor",
@@ -160,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::get_Count)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c37ba4;
+  constexpr static std::size_t addrs = 0x3c97d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence*>::get(), "get_Count",
@@ -173,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c37c00;
+  constexpr static std::size_t addrs = 0x3c97d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence*>::get(),
@@ -186,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c37c08;
+  constexpr static std::size_t addrs = 0x3c97d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence*>::get(), "get_SyncRoot",
@@ -200,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Policy::Evidence::*)(::System::Array*, int32_t)>(
     &::System::Security::Policy::Evidence::CopyTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3c37c0c;
+  constexpr static std::size_t addrs = 0x3c97d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Security::Policy::Evidence::*)()>(
     &::System::Security::Policy::Evidence::GetEnumerator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c37cd0;
+  constexpr static std::size_t addrs = 0x3c97e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence*>::get(), "GetEnumerator",
@@ -223,22 +221,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Security::Policy::Evidence::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Security::Policy::Evidence::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Security::Policy::Evidence::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Security::Policy::Evidence::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
 constexpr bool& System::Security::Policy::Evidence::__cordl_internal_get__locked() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____locked;
@@ -255,7 +237,7 @@ constexpr ::System::Collections::ArrayList*& System::Security::Policy::Evidence:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEvidenceList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::Policy::Evidence::__cordl_internal_get_hostEvidenceList() const {
+constexpr ::System::Collections::ArrayList* const& System::Security::Policy::Evidence::__cordl_internal_get_hostEvidenceList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEvidenceList;
 }
@@ -267,16 +249,13 @@ constexpr ::System::Collections::ArrayList*& System::Security::Policy::Evidence:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEvidenceList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::Policy::Evidence::__cordl_internal_get_assemblyEvidenceList() const {
+constexpr ::System::Collections::ArrayList* const& System::Security::Policy::Evidence::__cordl_internal_get_assemblyEvidenceList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEvidenceList;
 }
 constexpr void System::Security::Policy::Evidence::__cordl_internal_set_assemblyEvidenceList(::System::Collections::ArrayList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assemblyEvidenceList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Policy::Evidence* System::Security::Policy::Evidence::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Policy::Evidence*>());
 }
 inline void System::Security::Policy::Evidence::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence*>::get(), ".ctor",
@@ -308,6 +287,25 @@ inline ::System::Collections::IEnumerator* System::Security::Policy::Evidence::G
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Policy::Evidence*>::get(), "GetEnumerator",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+}
+inline ::System::Security::Policy::Evidence* System::Security::Policy::Evidence::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Policy::Evidence*>());
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Security::Policy::Evidence::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Security::Policy::Evidence::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Security::Policy::Evidence::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Security::Policy::Evidence::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Policy::Evidence::Evidence() {}

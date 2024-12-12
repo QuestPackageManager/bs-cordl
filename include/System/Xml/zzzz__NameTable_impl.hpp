@@ -4,76 +4,76 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__NameTable_def.hpp"
 #include "System/Xml/zzzz__NameTable_def.hpp"
-//  Writing Method size for method: ::System::Xml::__NameTable__Entry._ctor
+//  Writing Method size for method: ::System::Xml::NameTable_Entry._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__NameTable__Entry::*)(::StringW, int32_t, ::System::Xml::__NameTable__Entry*)>(
-    &::System::Xml::__NameTable__Entry::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::NameTable_Entry::*)(::StringW, int32_t, ::System::Xml::NameTable_Entry*)>(
+    &::System::Xml::NameTable_Entry::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x42e8a0c;
+  constexpr static std::size_t addrs = 0x4349d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__NameTable__Entry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable_Entry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::__NameTable__Entry*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::NameTable_Entry*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Xml::__NameTable__Entry::__cordl_internal_get_str() {
+constexpr ::StringW& System::Xml::NameTable_Entry::__cordl_internal_get_str() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___str;
 }
-constexpr ::StringW const& System::Xml::__NameTable__Entry::__cordl_internal_get_str() const {
+constexpr ::StringW const& System::Xml::NameTable_Entry::__cordl_internal_get_str() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___str;
 }
-constexpr void System::Xml::__NameTable__Entry::__cordl_internal_set_str(::StringW value) {
+constexpr void System::Xml::NameTable_Entry::__cordl_internal_set_str(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___str)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Xml::__NameTable__Entry::__cordl_internal_get_hashCode() {
+constexpr int32_t& System::Xml::NameTable_Entry::__cordl_internal_get_hashCode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCode;
 }
-constexpr int32_t const& System::Xml::__NameTable__Entry::__cordl_internal_get_hashCode() const {
+constexpr int32_t const& System::Xml::NameTable_Entry::__cordl_internal_get_hashCode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCode;
 }
-constexpr void System::Xml::__NameTable__Entry::__cordl_internal_set_hashCode(int32_t value) {
+constexpr void System::Xml::NameTable_Entry::__cordl_internal_set_hashCode(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCode = value;
 }
-constexpr ::System::Xml::__NameTable__Entry*& System::Xml::__NameTable__Entry::__cordl_internal_get_next() {
+constexpr ::System::Xml::NameTable_Entry*& System::Xml::NameTable_Entry::__cordl_internal_get_next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::__NameTable__Entry*> const& System::Xml::__NameTable__Entry::__cordl_internal_get_next() const {
+constexpr ::System::Xml::NameTable_Entry* const& System::Xml::NameTable_Entry::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr void System::Xml::__NameTable__Entry::__cordl_internal_set_next(::System::Xml::__NameTable__Entry* value) {
+constexpr void System::Xml::NameTable_Entry::__cordl_internal_set_next(::System::Xml::NameTable_Entry* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::__NameTable__Entry* System::Xml::__NameTable__Entry::New_ctor(::StringW str, int32_t hashCode, ::System::Xml::__NameTable__Entry* next) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::__NameTable__Entry*>(str, hashCode, next));
-}
-inline void System::Xml::__NameTable__Entry::_ctor(::StringW str, int32_t hashCode, ::System::Xml::__NameTable__Entry* next) {
+inline void System::Xml::NameTable_Entry::_ctor(::StringW str, int32_t hashCode, ::System::Xml::NameTable_Entry* next) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__NameTable__Entry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable_Entry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::__NameTable__Entry*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::NameTable_Entry*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, str, hashCode, next);
 }
+inline ::System::Xml::NameTable_Entry* System::Xml::NameTable_Entry::New_ctor(::StringW str, int32_t hashCode, ::System::Xml::NameTable_Entry* next) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::NameTable_Entry*>(str, hashCode, next));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::__NameTable__Entry::__NameTable__Entry() {}
+constexpr ::System::Xml::NameTable_Entry::NameTable_Entry() {}
 //  Writing Method size for method: ::System::Xml::NameTable._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::NameTable::*)()>(&::System::Xml::NameTable::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42e8380;
+  constexpr static std::size_t addrs = 0x4349694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), ".ctor",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW)>(&::System::Xml::NameTable::Add)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x42e83f0;
+  constexpr static std::size_t addrs = 0x4349704;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::NameTable::Add)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x42e866c;
+  constexpr static std::size_t addrs = 0x4349980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW)>(&::System::Xml::NameTable::Get)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x42e88a8;
+  constexpr static std::size_t addrs = 0x4349bbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW, int32_t)>(&::System::Xml::NameTable::AddEntry)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x42e8568;
+  constexpr static std::size_t addrs = 0x434987c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::NameTable::*)()>(&::System::Xml::NameTable::Grow)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x42e8a4c;
+  constexpr static std::size_t addrs = 0x4349d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), "Grow",
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::NameTable::TextEquals)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x42e87ec;
+  constexpr static std::size_t addrs = 0x4349b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,15 +168,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*>& System::Xml::NameTable::__cordl_internal_get_entries() {
+constexpr ::ArrayW<::System::Xml::NameTable_Entry*, ::Array<::System::Xml::NameTable_Entry*>*>& System::Xml::NameTable::__cordl_internal_get_entries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr ::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> const& System::Xml::NameTable::__cordl_internal_get_entries() const {
+constexpr ::ArrayW<::System::Xml::NameTable_Entry*, ::Array<::System::Xml::NameTable_Entry*>*> const& System::Xml::NameTable::__cordl_internal_get_entries() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr void System::Xml::NameTable::__cordl_internal_set_entries(::ArrayW<::System::Xml::__NameTable__Entry*, ::Array<::System::Xml::__NameTable__Entry*>*> value) {
+constexpr void System::Xml::NameTable::__cordl_internal_set_entries(::ArrayW<::System::Xml::NameTable_Entry*, ::Array<::System::Xml::NameTable_Entry*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -216,9 +216,6 @@ constexpr void System::Xml::NameTable::__cordl_internal_set_hashCodeRandomizer(i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCodeRandomizer = value;
 }
-inline ::System::Xml::NameTable* System::Xml::NameTable::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::NameTable*>());
-}
 inline void System::Xml::NameTable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -257,6 +254,9 @@ inline bool System::Xml::NameTable::TextEquals(::StringW str1, ::ArrayW<char16_t
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, str1, str2, str2Start, str2Length);
+}
+inline ::System::Xml::NameTable* System::Xml::NameTable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::NameTable*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::NameTable::NameTable() {}

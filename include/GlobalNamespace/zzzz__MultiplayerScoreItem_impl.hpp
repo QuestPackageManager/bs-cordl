@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)()>(&::GlobalNamespace::MultiplayerScoreItem::Awake)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3b7b76c;
+  constexpr static std::size_t addrs = 0x3bdcfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreItem*>::get(), "Awake",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)()>(&::GlobalNamespace::MultiplayerScoreItem::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b7b914;
+  constexpr static std::size_t addrs = 0x3bdd170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreItem*>::get(), "OnDestroy",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::MultiplayerScoreItem::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b7b99c;
+  constexpr static std::size_t addrs = 0x3bdd1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::MultiplayerScoreItem::AnimateColors)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3b6cd18;
+  constexpr static std::size_t addrs = 0x3bceeb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::StringW)>(&::GlobalNamespace::MultiplayerScoreItem::SetName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b6d524;
+  constexpr static std::size_t addrs = 0x3bcf6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::StringW)>(&::GlobalNamespace::MultiplayerScoreItem::SetScore)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b6d5e0;
+  constexpr static std::size_t addrs = 0x3bcf774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)()>(&::GlobalNamespace::MultiplayerScoreItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7ba14;
+  constexpr static std::size_t addrs = 0x3bdd270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreItem*>::get(), ".ctor",
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MultiplayerScoreItem::_Awake_b__5_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b7ba1c;
+  constexpr static std::size_t addrs = 0x3bdd278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MultiplayerScoreItem::_Awake_b__5_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b7ba40;
+  constexpr static std::size_t addrs = 0x3bdd29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& GlobalNamespace::Multiplay
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameColorTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& GlobalNamespace::MultiplayerScoreItem::__cordl_internal_get__nameColorTween() const {
+constexpr ::Tweening::Tween_1<::UnityEngine::Color>* const& GlobalNamespace::MultiplayerScoreItem::__cordl_internal_get__nameColorTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameColorTween;
 }
@@ -191,7 +191,7 @@ constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& GlobalNamespace::Multiplay
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreColorTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& GlobalNamespace::MultiplayerScoreItem::__cordl_internal_get__scoreColorTween() const {
+constexpr ::Tweening::Tween_1<::UnityEngine::Color>* const& GlobalNamespace::MultiplayerScoreItem::__cordl_internal_get__scoreColorTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreColorTween;
 }
@@ -236,9 +236,6 @@ inline void GlobalNamespace::MultiplayerScoreItem::SetScore(::StringW text) {
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text);
 }
-inline ::GlobalNamespace::MultiplayerScoreItem* GlobalNamespace::MultiplayerScoreItem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerScoreItem*>());
-}
 inline void GlobalNamespace::MultiplayerScoreItem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreItem*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -255,6 +252,9 @@ inline void GlobalNamespace::MultiplayerScoreItem::_Awake_b__5_1(::UnityEngine::
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreItem*>::get(), "<Awake>b__5_1", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
+}
+inline ::GlobalNamespace::MultiplayerScoreItem* GlobalNamespace::MultiplayerScoreItem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerScoreItem*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerScoreItem::MultiplayerScoreItem() {}

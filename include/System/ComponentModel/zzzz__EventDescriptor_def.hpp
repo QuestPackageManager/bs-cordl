@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__MemberDescriptor_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EventDescriptor)
 namespace System {
@@ -16,17 +15,16 @@ class EventDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::EventDescriptor);
-// Type: System.ComponentModel::EventDescriptor
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.MemberDescriptor
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::EventDescriptor*
+// CS Name: System.ComponentModel.EventDescriptor
 class CORDL_TYPE EventDescriptor : public ::System::ComponentModel::MemberDescriptor {
 public:
   // Declarations
   static inline ::System::ComponentModel::EventDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor, addr 0x43efa60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4450d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
 protected:
@@ -44,7 +42,7 @@ public:
   EventDescriptor(EventDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9380 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

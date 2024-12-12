@@ -12,11 +12,10 @@ class AudioClipProperties;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::AudioClipProperties);
-// Type: UnityEngine.Timeline::AudioClipProperties
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Playables.PlayableBehaviour
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::AudioClipProperties*
+// CS Name: UnityEngine.Timeline.AudioClipProperties
 class CORDL_TYPE AudioClipProperties : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x47bc248, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x481d55c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioClipProperties(AudioClipProperties const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15823 };
+
   /// @brief Field volume, offset: 0x10, size: 0x4, def value: None
   float_t ___volume;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::AudioClipProperties, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::AudioClipProperties, ___volume) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::AudioClipProperties, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::AudioClipProperties);

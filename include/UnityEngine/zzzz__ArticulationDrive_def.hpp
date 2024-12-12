@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(ArticulationDrive)
-namespace UnityEngine {
-struct ArticulationDriveType;
-}
 // Forward declare root types
 namespace UnityEngine {
 struct ArticulationDrive;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ArticulationDrive);
-// Type: UnityEngine::ArticulationDrive
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ArticulationDriveType
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::ArticulationDrive
+// CS Name: UnityEngine.ArticulationDrive
 struct CORDL_TYPE ArticulationDrive {
 public:
   // Declarations
@@ -34,6 +30,12 @@ public:
   // name: "driveType", ty: "::UnityEngine::ArticulationDriveType", modifiers: "", def_value: None }]
   constexpr ArticulationDrive(float_t lowerLimit, float_t upperLimit, float_t stiffness, float_t damping, float_t forceLimit, float_t target, float_t targetVelocity,
                               ::UnityEngine::ArticulationDriveType driveType) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15730 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field lowerLimit, offset: 0x0, size: 0x4, def value: None
   float_t lowerLimit;
@@ -59,17 +61,9 @@ public:
   /// @brief Field driveType, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::ArticulationDriveType driveType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15695 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ArticulationDrive, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ArticulationDrive, lowerLimit) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ArticulationDrive, upperLimit) == 0x4, "Offset mismatch!");
@@ -85,6 +79,8 @@ static_assert(offsetof(::UnityEngine::ArticulationDrive, target) == 0x14, "Offse
 static_assert(offsetof(::UnityEngine::ArticulationDrive, targetVelocity) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ArticulationDrive, driveType) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ArticulationDrive, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ArticulationDrive, "UnityEngine", "ArticulationDrive");

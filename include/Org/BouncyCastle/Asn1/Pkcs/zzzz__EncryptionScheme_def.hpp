@@ -26,17 +26,16 @@ class EncryptionScheme;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme);
-// Type: Org.BouncyCastle.Asn1.Pkcs::EncryptionScheme
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Pkcs::EncryptionScheme*
+// CS Name: Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme
 class CORDL_TYPE EncryptionScheme : public ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {
 public:
   // Declarations
   __declspec(property(get = get_Asn1Object)) ::Org::BouncyCastle::Asn1::Asn1Object* Asn1Object;
 
-  /// @brief Method GetInstance, addr 0x23d8bd0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x240bebc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID);
@@ -45,19 +44,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23d8d74, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x240c060, size 0x10c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x23d8ab8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240bda4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID);
 
-  /// @brief Method .ctor, addr 0x23d8ae0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240bdcc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x23d8b0c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240bdf8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Asn1Object, addr 0x23d8d4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Asn1Object, addr 0x240c038, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Asn1Object();
 
 protected:

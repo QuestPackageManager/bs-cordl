@@ -43,7 +43,7 @@ constexpr ::System::Object*& System::Runtime::Remoting::Messaging::Header::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::Header::__cordl_internal_get_Value() const {
+constexpr ::System::Object* const& System::Runtime::Remoting::Messaging::Header::__cordl_internal_get_Value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }

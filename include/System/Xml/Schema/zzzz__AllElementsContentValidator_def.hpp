@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AllElementsContentValidator)
 namespace System::Collections {
@@ -38,11 +36,10 @@ class AllElementsContentValidator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::AllElementsContentValidator);
-// Type: System.Xml.Schema::AllElementsContentValidator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.ContentValidator
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::AllElementsContentValidator*
+// CS Name: System.Xml.Schema.AllElementsContentValidator
 class CORDL_TYPE AllElementsContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
   // Declarations
@@ -60,37 +57,37 @@ public:
   /// @brief Field particles, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_particles, put = __cordl_internal_set_particles)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> particles;
 
-  /// @brief Method AddElement, addr 0x433e2dc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AddElement, addr 0x439f5f0, size 0x148, virtual false, abstract: false, final false
   inline bool AddElement(::System::Xml::XmlQualifiedName* name, ::System::Object* particle, bool isEmptiable);
 
-  /// @brief Method CompleteValidation, addr 0x433e61c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x439f930, size 0x50, virtual true, abstract: false, final false
   inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
 
-  /// @brief Method ExpectedElements, addr 0x433e66c, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method ExpectedElements, addr 0x439f980, size 0x430, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
 
-  /// @brief Method ExpectedParticles, addr 0x433ea9c, size 0x4d8, virtual true, abstract: false, final false
+  /// @brief Method ExpectedParticles, addr 0x439fdb0, size 0x4d8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method InitValidation, addr 0x433e444, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InitValidation, addr 0x439f758, size 0x90, virtual true, abstract: false, final false
   inline void InitValidation(::System::Xml::Schema::ValidationState* context);
 
   static inline ::System::Xml::Schema::AllElementsContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, int32_t size, bool isEmptiable);
 
-  /// @brief Method ValidateElement, addr 0x433e4d4, size 0x148, virtual true, abstract: false, final false
-  inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode);
+  /// @brief Method ValidateElement, addr 0x439f7e8, size 0x148, virtual true, abstract: false, final false
+  inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ::ByRef<int32_t> errorCode);
 
   constexpr int32_t const& __cordl_internal_get_countRequired() const;
 
   constexpr int32_t& __cordl_internal_get_countRequired();
 
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_elements() const;
+
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_elements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_elements() const;
+  constexpr ::System::Xml::Schema::BitSet* const& __cordl_internal_get_isRequired() const;
 
   constexpr ::System::Xml::Schema::BitSet*& __cordl_internal_get_isRequired();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& __cordl_internal_get_isRequired() const;
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_particles() const;
 
@@ -104,10 +101,10 @@ public:
 
   constexpr void __cordl_internal_set_particles(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x433e1d4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439f4e8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType, int32_t size, bool isEmptiable);
 
-  /// @brief Method get_IsEmptiable, addr 0x433e424, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmptiable, addr 0x439f738, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsEmptiable();
 
 protected:
@@ -124,6 +121,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AllElementsContentValidator(AllElementsContentValidator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7511 };
+
   /// @brief Field elements, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___elements;
 
@@ -136,14 +136,9 @@ public:
   /// @brief Field countRequired, offset: 0x30, size: 0x4, def value: None
   int32_t ___countRequired;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7486 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::AllElementsContentValidator, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::AllElementsContentValidator, ___elements) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::AllElementsContentValidator, ___particles) == 0x20, "Offset mismatch!");
@@ -151,6 +146,8 @@ static_assert(offsetof(::System::Xml::Schema::AllElementsContentValidator, ___pa
 static_assert(offsetof(::System::Xml::Schema::AllElementsContentValidator, ___isRequired) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::AllElementsContentValidator, ___countRequired) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::AllElementsContentValidator, 0x38>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::AllElementsContentValidator);

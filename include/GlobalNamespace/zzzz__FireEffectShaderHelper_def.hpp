@@ -12,32 +12,38 @@ class FireEffectShaderHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FireEffectShaderHelper);
-// Type: ::FireEffectShaderHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FireEffectShaderHelper*
+// CS Name: FireEffectShaderHelper
 class CORDL_TYPE FireEffectShaderHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field colorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_colorPropertyId, put = setStaticF_colorPropertyId)) int32_t colorPropertyId;
+  __declspec(property(get = getStaticF_colorPropertyId, put = setStaticF_colorPropertyId)) int32_t colorPropertyId;
 
   /// @brief Field effectStartSongTimePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_effectStartSongTimePropertyId, put = setStaticF_effectStartSongTimePropertyId)) int32_t effectStartSongTimePropertyId;
+  __declspec(property(get = getStaticF_effectStartSongTimePropertyId, put = setStaticF_effectStartSongTimePropertyId)) int32_t effectStartSongTimePropertyId;
+
+  /// @brief Field emissionTexColorPropertyId, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_emissionTexColorPropertyId, put = setStaticF_emissionTexColorPropertyId)) int32_t emissionTexColorPropertyId;
 
   /// @brief Field privatePointLightColorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_privatePointLightColorPropertyId, put = setStaticF_privatePointLightColorPropertyId)) int32_t privatePointLightColorPropertyId;
+  __declspec(property(get = getStaticF_privatePointLightColorPropertyId, put = setStaticF_privatePointLightColorPropertyId)) int32_t privatePointLightColorPropertyId;
 
   static inline int32_t getStaticF_colorPropertyId();
 
   static inline int32_t getStaticF_effectStartSongTimePropertyId();
+
+  static inline int32_t getStaticF_emissionTexColorPropertyId();
 
   static inline int32_t getStaticF_privatePointLightColorPropertyId();
 
   static inline void setStaticF_colorPropertyId(int32_t value);
 
   static inline void setStaticF_effectStartSongTimePropertyId(int32_t value);
+
+  static inline void setStaticF_emissionTexColorPropertyId(int32_t value);
 
   static inline void setStaticF_privatePointLightColorPropertyId(int32_t value);
 
@@ -56,7 +62,7 @@ public:
   FireEffectShaderHelper(FireEffectShaderHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

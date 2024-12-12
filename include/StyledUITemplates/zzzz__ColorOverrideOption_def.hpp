@@ -3,15 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorOverrideOption)
 namespace GlobalNamespace {
 class ColorSO;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -25,11 +23,10 @@ class ColorOverrideOption;
 }
 // Write type traits
 MARK_REF_PTR_T(::StyledUITemplates::ColorOverrideOption);
-// Type: StyledUITemplates::ColorOverrideOption
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, System.Object, UnityEngine.Color
 namespace StyledUITemplates {
 // Is value type: false
-// CS Name: ::StyledUITemplates::ColorOverrideOption*
+// CS Name: StyledUITemplates.ColorOverrideOption
 class CORDL_TYPE ColorOverrideOption : public ::System::Object {
 public:
   // Declarations
@@ -58,13 +55,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>"
   constexpr operator ::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x401ba78, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x407cd30, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x401b9a0, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x407cc58, size 0xd8, virtual true, abstract: false, final true
   inline bool Equals(::StyledUITemplates::ColorOverrideOption* other);
 
-  /// @brief Method GetHashCode, addr 0x401bb84, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x407ce3c, size 0x174, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::StyledUITemplates::ColorOverrideOption* New_ctor();
@@ -95,40 +92,40 @@ public:
 
   constexpr void __cordl_internal_set__useFixedColor(bool value);
 
-  /// @brief Method .ctor, addr 0x401b93c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407cbf4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x401b94c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407cc04, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StyledUITemplates::ColorOverrideOption* other);
 
-  /// @brief Method get_color, addr 0x401b8c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x407cb78, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_fixedColor, addr 0x401b914, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_fixedColor, addr 0x407cbcc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_fixedColor();
 
-  /// @brief Method get_overrideEnabled, addr 0x401b8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideEnabled, addr 0x407cba4, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideEnabled();
 
-  /// @brief Method get_scriptableObjectColor, addr 0x401b92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scriptableObjectColor, addr 0x407cbe4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSO> get_scriptableObjectColor();
 
-  /// @brief Method get_useFixedColor, addr 0x401b900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useFixedColor, addr 0x407cbb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_useFixedColor();
 
   /// @brief Convert to "::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>"
   constexpr ::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>* i___System__IEquatable_1___StyledUITemplates__ColorOverrideOption__() noexcept;
 
-  /// @brief Method set_fixedColor, addr 0x401b920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fixedColor, addr 0x407cbd8, size 0xc, virtual false, abstract: false, final false
   inline void set_fixedColor(::UnityEngine::Color value);
 
-  /// @brief Method set_overrideEnabled, addr 0x401b8f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_overrideEnabled, addr 0x407cbac, size 0xc, virtual false, abstract: false, final false
   inline void set_overrideEnabled(bool value);
 
-  /// @brief Method set_scriptableObjectColor, addr 0x401b934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scriptableObjectColor, addr 0x407cbec, size 0x8, virtual false, abstract: false, final false
   inline void set_scriptableObjectColor(::GlobalNamespace::ColorSO* value);
 
-  /// @brief Method set_useFixedColor, addr 0x401b908, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useFixedColor, addr 0x407cbc0, size 0xc, virtual false, abstract: false, final false
   inline void set_useFixedColor(bool value);
 
 protected:
@@ -145,6 +142,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorOverrideOption(ColorOverrideOption const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19173 };
+
   /// @brief Field _override, offset: 0x10, size: 0x1, def value: None
   bool ____override;
 
@@ -157,14 +157,9 @@ public:
   /// @brief Field _scriptableObjectColor, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____scriptableObjectColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19092 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::StyledUITemplates::ColorOverrideOption, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::StyledUITemplates::ColorOverrideOption, ____override) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::StyledUITemplates::ColorOverrideOption, ____useFixedColor) == 0x11, "Offset mismatch!");
@@ -172,6 +167,8 @@ static_assert(offsetof(::StyledUITemplates::ColorOverrideOption, ____useFixedCol
 static_assert(offsetof(::StyledUITemplates::ColorOverrideOption, ____fixedColor) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::StyledUITemplates::ColorOverrideOption, ____scriptableObjectColor) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::StyledUITemplates::ColorOverrideOption, 0x30>, "Size mismatch!");
 
 } // namespace StyledUITemplates
 NEED_NO_BOX(::StyledUITemplates::ColorOverrideOption);

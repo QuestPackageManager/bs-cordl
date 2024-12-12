@@ -11,20 +11,19 @@ class LobbyDataModelInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LobbyDataModelInstaller);
-// Type: ::LobbyDataModelInstaller
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LobbyDataModelInstaller*
+// CS Name: LobbyDataModelInstaller
 class CORDL_TYPE LobbyDataModelInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3b8fc2c, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf1a14, size 0x37c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LobbyDataModelInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b8ffa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf1d90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   LobbyDataModelInstaller(LobbyDataModelInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

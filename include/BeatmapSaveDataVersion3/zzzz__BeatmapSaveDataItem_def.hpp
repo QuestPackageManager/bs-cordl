@@ -3,14 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapSaveDataItem)
 namespace BeatmapSaveDataCommon {
 class IBeat;
-}
-namespace System {
-template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace BeatmapSaveDataVersion3 {
@@ -18,11 +17,10 @@ class BeatmapSaveDataItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BeatmapSaveDataItem);
-// Type: BeatmapSaveDataVersion3::BeatmapSaveDataItem
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.IBeat, System.IComparable`1<T>, System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::BeatmapSaveDataItem*
+// CS Name: BeatmapSaveDataVersion3.BeatmapSaveDataItem
 class CORDL_TYPE BeatmapSaveDataItem : public ::System::Object {
 public:
   // Declarations
@@ -45,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_b(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d39a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705310, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t beat);
 
-  /// @brief Method get_beat, addr 0x26d3998, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x2705308, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -71,18 +69,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapSaveDataItem(BeatmapSaveDataItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13391 };
+
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BeatmapSaveDataItem, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::BeatmapSaveDataItem, ___b) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BeatmapSaveDataItem, 0x18>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::BeatmapSaveDataItem);

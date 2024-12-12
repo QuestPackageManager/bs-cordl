@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)(
     ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*)>(&::Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2616a44;
+  constexpr static std::size_t addrs = 0x2649d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)(
     ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*, ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*)>(&::Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2616a6c;
+  constexpr static std::size_t addrs = 0x2649d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContent::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2616a98;
+  constexpr static std::size_t addrs = 0x2649d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*, ::Array<::Org::BouncyCastle::Cmp::CertificateStatus*>*> (
     ::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)()>(&::Org::BouncyCastle::Cmp::CertificateConfirmationContent::GetStatusMessages)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2616aa0;
+  constexpr static std::size_t addrs = 0x2649d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>::get(),
@@ -68,8 +68,7 @@ constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& Org
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digestAlgFinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const&
-Org::BouncyCastle::Cmp::CertificateConfirmationContent::__cordl_internal_get_digestAlgFinder() const {
+constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* const& Org::BouncyCastle::Cmp::CertificateConfirmationContent::__cordl_internal_get_digestAlgFinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digestAlgFinder;
 }
@@ -81,7 +80,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*& Org::BouncyCastle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*> const& Org::BouncyCastle::Cmp::CertificateConfirmationContent::__cordl_internal_get_content() const {
+constexpr ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* const& Org::BouncyCastle::Cmp::CertificateConfirmationContent::__cordl_internal_get_content() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
@@ -89,19 +88,11 @@ constexpr void Org::BouncyCastle::Cmp::CertificateConfirmationContent::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Org::BouncyCastle::Cmp::CertificateConfirmationContent::New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>(content));
-}
 inline void Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, content);
-}
-inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent*
-Org::BouncyCastle::Cmp::CertificateConfirmationContent::New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content,
-                                                                 ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>(content, digestAlgFinder));
 }
 inline void Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content,
                                                                           ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder) {
@@ -120,6 +111,14 @@ inline ::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*, ::Array<::Org::Bou
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>::get(),
                                                                              "GetStatusMessages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*, ::Array<::Org::BouncyCastle::Cmp::CertificateStatus*>*>, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Org::BouncyCastle::Cmp::CertificateConfirmationContent::New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>(content));
+}
+inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent*
+Org::BouncyCastle::Cmp::CertificateConfirmationContent::New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content,
+                                                                 ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>(content, digestAlgFinder));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::CertificateConfirmationContent::CertificateConfirmationContent() {}

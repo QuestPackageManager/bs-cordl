@@ -1,55 +1,22 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/Collections/IndexedSet_1.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
-/// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__Generic__IList_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_List() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_List() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_List() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
@@ -61,9 +28,7 @@ template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<T, 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dictionary;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<T, int32_t>*> const&
-UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_Dictionary() const {
+template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>* const& UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_Dictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dictionary;
 }
@@ -95,7 +60,6 @@ template <typename T> inline void UnityEngine::UI::Collections::IndexedSet_1<T>:
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item, isActive);
 }
-/// @param isActive: bool (default: true)
 template <typename T> inline bool UnityEngine::UI::Collections::IndexedSet_1<T>::AddUnique(T item, bool isActive) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Collections::IndexedSet_1<T>*>::get(), "AddUnique", std::span<Il2CppClass const* const, 0>(),
@@ -212,13 +176,45 @@ template <typename T> inline void UnityEngine::UI::Collections::IndexedSet_1<T>:
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Comparison_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sortLayoutFunction);
 }
-template <typename T> inline ::UnityEngine::UI::Collections::IndexedSet_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::Collections::IndexedSet_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UI::Collections::IndexedSet_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Collections::IndexedSet_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UI::Collections::IndexedSet_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::Collections::IndexedSet_1<T>*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__Generic__IList_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename T> constexpr UnityEngine::UI::Collections::IndexedSet_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* UnityEngine::UI::Collections::IndexedSet_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UI::Collections::IndexedSet_1<T>::IndexedSet_1() {}

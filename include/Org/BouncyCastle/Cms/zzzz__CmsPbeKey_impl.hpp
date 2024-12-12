@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/CmsPbeKey.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsPbeKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsPbeKey._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2624ed0;
+  constexpr static std::size_t addrs = 0x26581bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::StringW, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2625008;
+  constexpr static std::size_t addrs = 0x26582f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::ArrayW<char16_t, ::Array<char16_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2624f14;
+  constexpr static std::size_t addrs = 0x2658200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(
     ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2625044;
+  constexpr static std::size_t addrs = 0x2658330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::Finalize)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x262524c;
+  constexpr static std::size_t addrs = 0x2658538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Password)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26252f8;
+  constexpr static std::size_t addrs = 0x26585e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Password",
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::get_Salt)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2625308;
+  constexpr static std::size_t addrs = 0x26585f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Salt",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::GetSalt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2625364;
+  constexpr static std::size_t addrs = 0x2658650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "GetSalt",
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2625368;
+  constexpr static std::size_t addrs = 0x2658654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(),
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Algorithm)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2625370;
+  constexpr static std::size_t addrs = 0x265865c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Algorithm",
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Format)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26253b0;
+  constexpr static std::size_t addrs = 0x265869c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Format",
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::GetEncoded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26253f0;
+  constexpr static std::size_t addrs = 0x26586dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "GetEncoded",
@@ -179,29 +179,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsPbeKey.GetEncoded
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::StringW)>(
-    &::Org::BouncyCastle::Cms::CmsPbeKey::GetEncoded)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), 4));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr Org::BouncyCastle::Cms::CmsPbeKey::operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Cms::CmsPbeKey::i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::Cms::CmsPbeKey::__cordl_internal_get_password() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
@@ -238,9 +215,6 @@ constexpr void Org::BouncyCastle::Cms::CmsPbeKey::__cordl_internal_set_iteration
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iterationCount = value;
 }
-inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, salt, iterationCount));
-}
 inline void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -249,19 +223,12 @@ inline void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::StringW password, ::Array
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, password, salt, iterationCount);
 }
-inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, keyDerivationAlgorithm));
-}
 inline void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, password, keyDerivationAlgorithm);
-}
-inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
-                                                                                        int32_t iterationCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, salt, iterationCount));
 }
 inline void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
   static auto* ___internal_method =
@@ -270,10 +237,6 @@ inline void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::ArrayW<char16_t, ::Array<
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, password, salt, iterationCount);
-}
-inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password,
-                                                                                        ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, keyDerivationAlgorithm));
 }
 inline void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -326,6 +289,28 @@ inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Org::BouncyCastle:
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, false>(this, ___internal_method, algorithmOid);
+}
+inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, salt, iterationCount));
+}
+inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, keyDerivationAlgorithm));
+}
+inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
+                                                                                        int32_t iterationCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, salt, iterationCount));
+}
+inline ::Org::BouncyCastle::Cms::CmsPbeKey* Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password,
+                                                                                        ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsPbeKey*>(password, keyDerivationAlgorithm));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr Org::BouncyCastle::Cms::CmsPbeKey::operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Cms::CmsPbeKey::i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsPbeKey::CmsPbeKey() {}

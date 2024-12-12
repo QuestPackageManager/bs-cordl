@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContainedPacket)
 namespace Org::BouncyCastle::Bcpg {
@@ -16,23 +15,22 @@ class ContainedPacket;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ContainedPacket);
-// Type: Org.BouncyCastle.Bcpg::ContainedPacket
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.Packet
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::ContainedPacket*
+// CS Name: Org.BouncyCastle.Bcpg.ContainedPacket
 class CORDL_TYPE ContainedPacket : public ::Org::BouncyCastle::Bcpg::Packet {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x2611c48, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2644f34, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::ContainedPacket* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2611d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2644fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

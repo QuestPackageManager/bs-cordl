@@ -3,9 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -22,9 +27,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> struct ValueListBuilder_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -48,21 +50,6 @@ namespace System {
 struct Decimal;
 }
 namespace System {
-class ICloneable;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class IFormatProvider;
 }
 namespace System {
@@ -81,51 +68,50 @@ namespace System {
 struct StringSplitOptions;
 }
 namespace System {
+struct String_ProbabilisticMap;
+}
+namespace System {
+struct String_TrimType;
+}
+namespace System {
 struct TypeCode;
 }
 namespace System {
 class Type;
 }
-namespace System {
-struct __String__ProbabilisticMap;
-}
-namespace System {
-struct __String__TrimType;
-}
 // Forward declare root types
 namespace System {
-struct __String__TrimType;
+struct String_TrimType;
 }
 namespace System {
 class String;
 }
 namespace System {
-struct __String__ProbabilisticMap;
+struct String_ProbabilisticMap;
 }
 // Write type traits
-MARK_VAL_T(::System::__String__TrimType);
+MARK_VAL_T(::System::String_TrimType);
 MARK_REF_PTR_T(::System::String);
-MARK_VAL_T(::System::__String__ProbabilisticMap);
-// Type: ::TrimType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::System::String_ProbabilisticMap);
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::String::TrimType
-struct CORDL_TYPE __String__TrimType {
+// CS Name: System.String/TrimType
+struct CORDL_TYPE String_TrimType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____String__TrimType_Unwrapped
-  enum struct ____String__TrimType_Unwrapped : int32_t {
+  /// @brief Nested struct __String_TrimType_Unwrapped
+  enum struct __String_TrimType_Unwrapped : int32_t {
     __E_Head = static_cast<int32_t>(0x0),
     __E_Tail = static_cast<int32_t>(0x1),
     __E_Both = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____String__TrimType_Unwrapped() const noexcept {
-    return static_cast<____String__TrimType_Unwrapped>(this->value__);
+  constexpr operator __String_TrimType_Unwrapped() const noexcept {
+    return static_cast<__String_TrimType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -135,22 +121,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __String__TrimType();
+  constexpr String_TrimType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __String__TrimType(int32_t value__) noexcept;
+  constexpr String_TrimType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Both value: I32(2)
+  static ::System::String_TrimType const Both;
 
-  /// @brief Field Both value: static_cast<int32_t>(0x2)
-  static ::System::__String__TrimType const Both;
+  /// @brief Field Head value: I32(0)
+  static ::System::String_TrimType const Head;
 
-  /// @brief Field Head value: static_cast<int32_t>(0x0)
-  static ::System::__String__TrimType const Head;
-
-  /// @brief Field Tail value: static_cast<int32_t>(0x1)
-  static ::System::__String__TrimType const Tail;
+  /// @brief Field Tail value: I32(1)
+  static ::System::String_TrimType const Tail;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2310 };
@@ -158,29 +141,28 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::__String__TrimType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::String_TrimType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::__String__TrimType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::String_TrimType, 0x4>, "Size mismatch!");
 
 } // namespace System
-// Type: ::ProbabilisticMap
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::String::ProbabilisticMap
+// CS Name: System.String/ProbabilisticMap
 #pragma pack(push, 0)
-struct CORDL_TYPE __String__ProbabilisticMap {
+struct CORDL_TYPE String_ProbabilisticMap {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __String__ProbabilisticMap();
-
-  /// @brief Size padding 0x20 - 0x0 = 0x20, packed as 0x20
-  uint8_t _cordl_size_padding[0x20];
+  constexpr String_ProbabilisticMap();
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2311 };
@@ -188,29 +170,32 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// @brief Size padding 0x20 - 0x0 = 0x20, packed as 0x20
+  uint8_t _cordl_size_padding[0x20];
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::__String__ProbabilisticMap, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::String_ProbabilisticMap, 0x20>, "Size mismatch!");
 
 } // namespace System
-// Type: System::String
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.ICloneable, System.IComparable, System.IComparable`1<T>, System.IConvertible,
+// System.IEquatable`1<T>, System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::String*
+// CS Name: System.String
 class CORDL_TYPE String : public ::System::Object {
 public:
   // Declarations
-  using ProbabilisticMap = ::System::__String__ProbabilisticMap;
+  using ProbabilisticMap = ::System::String_ProbabilisticMap;
 
-  using TrimType = ::System::__String__TrimType;
+  using TrimType = ::System::String_TrimType;
 
   __declspec(property(get = get_Chars)) char16_t Chars[];
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::StringW Empty;
+  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::StringW Empty;
 
   __declspec(property(get = get_Length)) int32_t Length;
 
@@ -241,372 +226,372 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::StringW>"
   constexpr operator ::System::IEquatable_1<::StringW>*() noexcept;
 
-  /// @brief Method ArrayContains, addr 0x3c146d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ArrayContains, addr 0x3c747f0, size 0x5c, virtual false, abstract: false, final false
   static inline bool ArrayContains(char16_t searchChar, ::ArrayW<char16_t, ::Array<char16_t>*> anyOf);
 
-  /// @brief Method CheckStringComparison, addr 0x3c0e41c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CheckStringComparison, addr 0x3c6e530, size 0x1c, virtual false, abstract: false, final false
   static inline void CheckStringComparison(::System::StringComparison comparisonType);
 
-  /// @brief Method Clone, addr 0x3c15bb8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3c75cd4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Compare, addr 0x3c0e4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e5f4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, int32_t indexA, ::StringW strB, int32_t indexB, int32_t length);
 
-  /// @brief Method Compare, addr 0x3c0e628, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e73c, size 0x420, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, int32_t indexA, ::StringW strB, int32_t indexB, int32_t length, ::System::StringComparison comparisonType);
 
-  /// @brief Method Compare, addr 0x3c0e4e8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e5fc, size 0x140, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, int32_t indexA, ::StringW strB, int32_t indexB, int32_t length, bool ignoreCase);
 
-  /// @brief Method Compare, addr 0x3c0e15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e270, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, ::StringW strB);
 
-  /// @brief Method Compare, addr 0x3c0e164, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e278, size 0x2b0, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, ::StringW strB, ::System::StringComparison comparisonType);
 
-  /// @brief Method Compare, addr 0x3c0e438, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e54c, size 0x98, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, ::StringW strB, ::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method Compare, addr 0x3c0e414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e528, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, ::StringW strB, bool ignoreCase);
 
-  /// @brief Method Compare, addr 0x3c0e4d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c6e5e4, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Compare(::StringW strA, ::StringW strB, bool ignoreCase, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CompareOrdinal, addr 0x3c0eb2c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x3c6ec40, size 0x1f8, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::StringW strA, int32_t indexA, ::StringW strB, int32_t indexB, int32_t length);
 
-  /// @brief Method CompareOrdinal, addr 0x3c0ea48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x3c6eb5c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::StringW strA, ::StringW strB);
 
-  /// @brief Method CompareOrdinal, addr 0x3c0ea8c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x3c6eba0, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::System::ReadOnlySpan_1<char16_t> strA, ::System::ReadOnlySpan_1<char16_t> strB);
 
-  /// @brief Method CompareOrdinalHelper, addr 0x3c0df68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinalHelper, addr 0x3c6e07c, size 0x38, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinalHelper(::StringW strA, int32_t indexA, int32_t countA, ::StringW strB, int32_t indexB, int32_t countB);
 
-  /// @brief Method CompareOrdinalHelper, addr 0x3c0dfa0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinalHelper, addr 0x3c6e0b4, size 0x1bc, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinalHelper(::StringW strA, ::StringW strB);
 
-  /// @brief Method CompareTo, addr 0x3c0ede0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3c6eef4, size 0x8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::StringW strB);
 
-  /// @brief Method CompareTo, addr 0x3c0ed24, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3c6ee38, size 0xbc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method Concat, addr 0x3c0fb90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3c6fca4, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW Concat(::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method Concat, addr 0x3c0fc44, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3c6fd58, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW Concat(::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method Concat, addr 0x3c0fdfc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3c6ff10, size 0x22c, virtual false, abstract: false, final false
   static inline ::StringW Concat(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Concat, addr 0x3c06c1c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3c66d30, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW Concat(::StringW str0, ::StringW str1);
 
-  /// @brief Method Concat, addr 0x3c0fd3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3c6fe50, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW Concat(::StringW str0, ::StringW str1, ::StringW str2);
 
-  /// @brief Method Concat, addr 0x3c10048, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3c7015c, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW Concat(::StringW str0, ::StringW str1, ::StringW str2, ::StringW str3);
 
-  /// @brief Method Concat, addr 0x3c10150, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3c70264, size 0x204, virtual false, abstract: false, final false
   static inline ::StringW Concat(::ArrayW<::StringW, ::Array<::StringW>*> values);
 
-  /// @brief Method Contains, addr 0x3c14180, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3c7429c, size 0x24, virtual false, abstract: false, final false
   inline bool Contains(::StringW value);
 
-  /// @brief Method Contains, addr 0x3c141b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3c742d0, size 0x24, virtual false, abstract: false, final false
   inline bool Contains(::StringW value, ::System::StringComparison comparisonType);
 
-  /// @brief Method Contains, addr 0x3c141d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3c742f4, size 0x24, virtual false, abstract: false, final false
   inline bool Contains(char16_t value);
 
-  /// @brief Method Copy, addr 0x3c15bbc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3c75cd8, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW Copy(::StringW str);
 
-  /// @brief Method CopyTo, addr 0x3c15c50, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3c75d6c, size 0x174, virtual false, abstract: false, final false
   inline void CopyTo(int32_t sourceIndex, ::ArrayW<char16_t, ::Array<char16_t>*> destination, int32_t destinationIndex, int32_t count);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> static inline ::StringW Create(int32_t length, TState state, ::System::Buffers::SpanAction_2<char16_t, TState>* action);
 
-  /// @brief Method CreateFromChar, addr 0x3c16028, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateFromChar, addr 0x3c76144, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW CreateFromChar(char16_t c);
 
-  /// @brief Method CreateString, addr 0x3c16f64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3c77080, size 0xc, virtual false, abstract: false, final false
   inline ::StringW CreateString(char16_t c, int32_t count);
 
-  /// @brief Method CreateString, addr 0x3c0df2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3c6e040, size 0x8, virtual false, abstract: false, final false
   inline ::StringW CreateString(::ArrayW<char16_t, ::Array<char16_t>*> val);
 
-  /// @brief Method CreateString, addr 0x3c16f54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3c77070, size 0x10, virtual false, abstract: false, final false
   inline ::StringW CreateString(::ArrayW<char16_t, ::Array<char16_t>*> val, int32_t startIndex, int32_t length);
 
-  /// @brief Method CreateString, addr 0x3c16f84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3c770a0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW CreateString(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method CreateString, addr 0x3c16f44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3c77060, size 0x10, virtual false, abstract: false, final false
   inline ::StringW CreateString(::cordl_internals::Ptr<char16_t> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method CreateString, addr 0x3c15974, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3c75a90, size 0x10, virtual false, abstract: false, final false
   inline ::StringW CreateString(::cordl_internals::Ptr<int8_t> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method CreateString, addr 0x3c16f70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3c7708c, size 0x14, virtual false, abstract: false, final false
   inline ::StringW CreateString(::cordl_internals::Ptr<int8_t> value, int32_t startIndex, int32_t length, ::System::Text::Encoding* enc);
 
-  /// @brief Method CreateStringForSByteConstructor, addr 0x3c15744, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateStringForSByteConstructor, addr 0x3c75860, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW CreateStringForSByteConstructor(::cordl_internals::Ptr<uint8_t> pb, int32_t numBytes);
 
-  /// @brief Method CreateStringFromEncoding, addr 0x3c15f60, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateStringFromEncoding, addr 0x3c7607c, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW CreateStringFromEncoding(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteLength, ::System::Text::Encoding* encoding);
 
-  /// @brief Method CreateTrimmedString, addr 0x3c140f0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateTrimmedString, addr 0x3c7420c, size 0x90, virtual false, abstract: false, final false
   inline ::StringW CreateTrimmedString(int32_t start, int32_t end);
 
-  /// @brief Method Ctor, addr 0x3c15988, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Ctor, addr 0x3c75aa4, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW Ctor(char16_t c, int32_t count);
 
-  /// @brief Method Ctor, addr 0x3c15448, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Ctor, addr 0x3c75564, size 0x180, virtual false, abstract: false, final false
   static inline ::StringW Ctor(::cordl_internals::Ptr<char16_t> ptr, int32_t startIndex, int32_t length);
 
-  /// @brief Method Ctor, addr 0x3c15204, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Ctor, addr 0x3c75320, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW Ctor(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method Ctor, addr 0x3c15298, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Ctor, addr 0x3c753b4, size 0x1ac, virtual false, abstract: false, final false
   static inline ::StringW Ctor(::ArrayW<char16_t, ::Array<char16_t>*> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method Ctor, addr 0x3c15aa8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Ctor, addr 0x3c75bc4, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW Ctor(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method Ctor, addr 0x3c155cc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Ctor, addr 0x3c756e8, size 0x178, virtual false, abstract: false, final false
   static inline ::StringW Ctor(::cordl_internals::Ptr<int8_t> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method Ctor, addr 0x3c157c4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Ctor, addr 0x3c758e0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW Ctor(::cordl_internals::Ptr<int8_t> value, int32_t startIndex, int32_t length, ::System::Text::Encoding* enc);
 
-  /// @brief Method EndsWith, addr 0x3c0ede8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3c6eefc, size 0x8, virtual false, abstract: false, final false
   inline bool EndsWith(::StringW value);
 
-  /// @brief Method EndsWith, addr 0x3c0edf0, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3c6ef04, size 0x2b8, virtual false, abstract: false, final false
   inline bool EndsWith(::StringW value, ::System::StringComparison comparisonType);
 
-  /// @brief Method EndsWith, addr 0x3c0f0a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3c6f1bc, size 0x50, virtual false, abstract: false, final false
   inline bool EndsWith(char16_t value);
 
-  /// @brief Method Equals, addr 0x3c0f474, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c6f588, size 0x4c, virtual false, abstract: false, final false
   static inline bool Equals(::StringW a, ::StringW b);
 
-  /// @brief Method Equals, addr 0x3c0f4c0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c6f5d4, size 0x298, virtual false, abstract: false, final false
   static inline bool Equals(::StringW a, ::StringW b, ::System::StringComparison comparisonType);
 
-  /// @brief Method Equals, addr 0x3c0f0f8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c6f20c, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3c0f19c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3c6f2b0, size 0x40, virtual true, abstract: false, final true
   inline bool Equals(::StringW value);
 
-  /// @brief Method Equals, addr 0x3c0f1dc, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c6f2f0, size 0x298, virtual false, abstract: false, final false
   inline bool Equals(::StringW value, ::System::StringComparison comparisonType);
 
-  /// @brief Method EqualsHelper, addr 0x3c0df34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EqualsHelper, addr 0x3c6e048, size 0x2c, virtual false, abstract: false, final false
   static inline bool EqualsHelper(::StringW strA, ::StringW strB);
 
-  /// @brief Method FastAllocateString, addr 0x3c10028, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FastAllocateString, addr 0x3c7013c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW FastAllocateString(int32_t length);
 
-  /// @brief Method FillStringChecked, addr 0x3c0fb10, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FillStringChecked, addr 0x3c6fc24, size 0x74, virtual false, abstract: false, final false
   static inline void FillStringChecked(::StringW dest, int32_t destPos, ::StringW src);
 
-  /// @brief Method Format, addr 0x3c07828, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c6793c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW format, ::System::Object* arg0);
 
-  /// @brief Method Format, addr 0x3c10458, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c7056c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW format, ::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method Format, addr 0x3c1049c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c705b0, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method Format, addr 0x3c104e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c705f4, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Format, addr 0x3c10588, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c7069c, size 0x54, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0);
 
-  /// @brief Method Format, addr 0x3c105dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c706f0, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method Format, addr 0x3c10634, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c70748, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method Format, addr 0x3c10690, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3c707a4, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method FormatHelper, addr 0x3c10354, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method FormatHelper, addr 0x3c70468, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW FormatHelper(::System::IFormatProvider* provider, ::StringW format, ::System::ParamsArray args);
 
-  /// @brief Method GetHashCode, addr 0x3c0f774, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c6f888, size 0x4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLegacyNonRandomizedHashCode, addr 0x3c0f778, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetLegacyNonRandomizedHashCode, addr 0x3c6f88c, size 0x50, virtual false, abstract: false, final false
   inline int32_t GetLegacyNonRandomizedHashCode();
 
-  /// @brief Method GetRawStringData, addr 0x3c0df60, size 0x8, virtual false, abstract: false, final false
-  inline ByRef<char16_t> GetRawStringData();
+  /// @brief Method GetRawStringData, addr 0x3c6e074, size 0x8, virtual false, abstract: false, final false
+  inline ::ByRef<char16_t> GetRawStringData();
 
-  /// @brief Method GetTypeCode, addr 0x3c16214, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTypeCode, addr 0x3c76330, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
-  /// @brief Method IndexOf, addr 0x3c14754, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c74870, size 0x10, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW value);
 
-  /// @brief Method IndexOf, addr 0x3c141a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c742c0, size 0x10, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW value, ::System::StringComparison comparisonType);
 
-  /// @brief Method IndexOf, addr 0x3c14764, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c74880, size 0x10, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW value, int32_t startIndex);
 
-  /// @brief Method IndexOf, addr 0x3c14774, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c74890, size 0x10, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW value, int32_t startIndex, ::System::StringComparison comparisonType);
 
-  /// @brief Method IndexOf, addr 0x3c14784, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c748a0, size 0x348, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW value, int32_t startIndex, int32_t count, ::System::StringComparison comparisonType);
 
-  /// @brief Method IndexOf, addr 0x3c141fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c74318, size 0x10, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value);
 
-  /// @brief Method IndexOf, addr 0x3c1420c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c74328, size 0xc, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method IndexOf, addr 0x3c14218, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3c74334, size 0xd8, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex, int32_t count);
 
-  /// @brief Method IndexOfAny, addr 0x3c142f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IndexOfAny, addr 0x3c7440c, size 0xc, virtual false, abstract: false, final false
   inline int32_t IndexOfAny(::ArrayW<char16_t, ::Array<char16_t>*> anyOf);
 
-  /// @brief Method IndexOfAny, addr 0x3c144b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IndexOfAny, addr 0x3c745d4, size 0xc, virtual false, abstract: false, final false
   inline int32_t IndexOfAny(::ArrayW<char16_t, ::Array<char16_t>*> anyOf, int32_t startIndex);
 
-  /// @brief Method IndexOfAny, addr 0x3c142fc, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method IndexOfAny, addr 0x3c74418, size 0x1bc, virtual false, abstract: false, final false
   inline int32_t IndexOfAny(::ArrayW<char16_t, ::Array<char16_t>*> anyOf, int32_t startIndex, int32_t count);
 
-  /// @brief Method IndexOfAny, addr 0x3c144c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IndexOfAny, addr 0x3c745e0, size 0x88, virtual false, abstract: false, final false
   inline int32_t IndexOfAny(char16_t value1, char16_t value2, int32_t startIndex, int32_t count);
 
-  /// @brief Method IndexOfAny, addr 0x3c1454c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IndexOfAny, addr 0x3c74668, size 0x58, virtual false, abstract: false, final false
   inline int32_t IndexOfAny(char16_t value1, char16_t value2, char16_t value3, int32_t startIndex, int32_t count);
 
-  /// @brief Method IndexOfCharArray, addr 0x3c145a4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IndexOfCharArray, addr 0x3c746c0, size 0x130, virtual false, abstract: false, final false
   inline int32_t IndexOfCharArray(::ArrayW<char16_t, ::Array<char16_t>*> anyOf, int32_t startIndex, int32_t count);
 
-  /// @brief Method IndexOfUnchecked, addr 0x3c168ac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IndexOfUnchecked, addr 0x3c769c8, size 0x100, virtual false, abstract: false, final false
   inline int32_t IndexOfUnchecked(::StringW value, int32_t startIndex, int32_t count);
 
-  /// @brief Method IndexOfUncheckedIgnoreCase, addr 0x3c169ac, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method IndexOfUncheckedIgnoreCase, addr 0x3c76ac8, size 0x1cc, virtual false, abstract: false, final false
   inline int32_t IndexOfUncheckedIgnoreCase(::StringW value, int32_t startIndex, int32_t count);
 
-  /// @brief Method InitializeProbabilisticMap, addr 0x3c138f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InitializeProbabilisticMap, addr 0x3c73a10, size 0xe0, virtual false, abstract: false, final false
   static inline void InitializeProbabilisticMap(::cordl_internals::Ptr<uint32_t> charMap, ::System::ReadOnlySpan_1<char16_t> anyOf);
 
-  /// @brief Method Insert, addr 0x3c10740, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x3c70854, size 0x13c, virtual false, abstract: false, final false
   inline ::StringW Insert(int32_t startIndex, ::StringW value);
 
-  /// @brief Method Intern, addr 0x3c16f90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Intern, addr 0x3c770ac, size 0x54, virtual false, abstract: false, final false
   static inline ::StringW Intern(::StringW str);
 
-  /// @brief Method InternalIntern, addr 0x3c16e34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalIntern, addr 0x3c76f50, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW InternalIntern(::StringW str);
 
-  /// @brief Method InternalIsInterned, addr 0x3c16e30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalIsInterned, addr 0x3c76f4c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW InternalIsInterned(::StringW str);
 
-  /// @brief Method InternalSubString, addr 0x3c139f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InternalSubString, addr 0x3c73b0c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW InternalSubString(int32_t startIndex, int32_t length);
 
-  /// @brief Method IsCharBitSet, addr 0x3c139d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsCharBitSet, addr 0x3c73af0, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsCharBitSet(::cordl_internals::Ptr<uint32_t> charMap, uint8_t value);
 
-  /// @brief Method IsInterned, addr 0x3c16fe4, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method IsInterned, addr 0x3c77100, size 0x240, virtual false, abstract: false, final false
   static inline ::StringW IsInterned(::StringW str);
 
-  /// @brief Method IsNullOrEmpty, addr 0x3c1002c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x3c70140, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::StringW value);
 
-  /// @brief Method IsNullOrWhiteSpace, addr 0x3c15eb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrWhiteSpace, addr 0x3c75fcc, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsNullOrWhiteSpace(::StringW value);
 
-  /// @brief Method Join, addr 0x3c10cc4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x3c70dd8, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW Join(::StringW separator, ::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method Join, addr 0x3c10d24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x3c70e38, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW Join(::StringW separator, ::ArrayW<::StringW, ::Array<::StringW>*> value, int32_t startIndex, int32_t count);
 
-  /// @brief Method Join, addr 0x3c10da4, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x3c70eb8, size 0x4cc, virtual false, abstract: false, final false
   static inline ::StringW Join(::StringW separator, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
   /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW Join(::StringW separator, ::System::Collections::Generic::IEnumerable_1<T>* values);
 
-  /// @brief Method Join, addr 0x3c1087c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x3c70990, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW Join(char16_t separator, ::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method Join, addr 0x3c108f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x3c70a0c, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW Join(char16_t separator, ::ArrayW<::StringW, ::Array<::StringW>*> value, int32_t startIndex, int32_t count);
 
-  /// @brief Method JoinCore, addr 0x3c10920, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method JoinCore, addr 0x3c70a34, size 0x3a4, virtual false, abstract: false, final false
   static inline ::StringW JoinCore(::cordl_internals::Ptr<char16_t> separator, int32_t separatorLength, ::ArrayW<::StringW, ::Array<::StringW>*> value, int32_t startIndex, int32_t count);
 
   /// @brief Method JoinCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW JoinCore(::cordl_internals::Ptr<char16_t> separator, int32_t separatorLength, ::System::Collections::Generic::IEnumerable_1<T>* values);
 
-  /// @brief Method LastIndexOf, addr 0x3c14e38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3c74f54, size 0x10, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(::StringW value);
 
-  /// @brief Method LastIndexOf, addr 0x3c151f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3c7530c, size 0x10, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(::StringW value, ::System::StringComparison comparisonType);
 
-  /// @brief Method LastIndexOf, addr 0x3c14e48, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3c74f64, size 0x3a8, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(::StringW value, int32_t startIndex, int32_t count, ::System::StringComparison comparisonType);
 
-  /// @brief Method LastIndexOf, addr 0x3c14acc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3c74be8, size 0x10, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value);
 
-  /// @brief Method LastIndexOf, addr 0x3c14adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3c74bf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LastIndexOf, addr 0x3c14ae4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3c74c00, size 0xe4, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOfAny, addr 0x3c14bc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfAny, addr 0x3c74ce4, size 0xc, virtual false, abstract: false, final false
   inline int32_t LastIndexOfAny(::ArrayW<char16_t, ::Array<char16_t>*> anyOf);
 
-  /// @brief Method LastIndexOfAny, addr 0x3c14d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfAny, addr 0x3c74e1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t LastIndexOfAny(::ArrayW<char16_t, ::Array<char16_t>*> anyOf, int32_t startIndex);
 
-  /// @brief Method LastIndexOfAny, addr 0x3c14bd4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfAny, addr 0x3c74cf0, size 0x12c, virtual false, abstract: false, final false
   inline int32_t LastIndexOfAny(::ArrayW<char16_t, ::Array<char16_t>*> anyOf, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOfCharArray, addr 0x3c14d08, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfCharArray, addr 0x3c74e24, size 0x130, virtual false, abstract: false, final false
   inline int32_t LastIndexOfCharArray(::ArrayW<char16_t, ::Array<char16_t>*> anyOf, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOfUnchecked, addr 0x3c16b78, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfUnchecked, addr 0x3c76c94, size 0xd0, virtual false, abstract: false, final false
   inline int32_t LastIndexOfUnchecked(::StringW value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOfUncheckedIgnoreCase, addr 0x3c16c48, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfUncheckedIgnoreCase, addr 0x3c76d64, size 0x190, virtual false, abstract: false, final false
   inline int32_t LastIndexOfUncheckedIgnoreCase(::StringW value, int32_t startIndex, int32_t count);
 
-  /// @brief Method MakeSeparatorList, addr 0x3c136f0, size 0x1f8, virtual false, abstract: false, final false
-  inline void MakeSeparatorList(::StringW separator, ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> sepListBuilder);
+  /// @brief Method MakeSeparatorList, addr 0x3c7380c, size 0x1f8, virtual false, abstract: false, final false
+  inline void MakeSeparatorList(::StringW separator, ::ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> sepListBuilder);
 
-  /// @brief Method MakeSeparatorList, addr 0x3c13418, size 0x2d8, virtual false, abstract: false, final false
-  inline void MakeSeparatorList(::ArrayW<::StringW, ::Array<::StringW>*> separators, ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> sepListBuilder,
-                                ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> lengthListBuilder);
+  /// @brief Method MakeSeparatorList, addr 0x3c73534, size 0x2d8, virtual false, abstract: false, final false
+  inline void MakeSeparatorList(::ArrayW<::StringW, ::Array<::StringW>*> separators, ::ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> sepListBuilder,
+                                ::ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> lengthListBuilder);
 
-  /// @brief Method MakeSeparatorList, addr 0x3c12538, size 0x4d4, virtual false, abstract: false, final false
-  inline void MakeSeparatorList(::System::ReadOnlySpan_1<char16_t> separators, ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> sepListBuilder);
+  /// @brief Method MakeSeparatorList, addr 0x3c72654, size 0x4d4, virtual false, abstract: false, final false
+  inline void MakeSeparatorList(::System::ReadOnlySpan_1<char16_t> separators, ::ByRef<::System::Collections::Generic::ValueListBuilder_1<int32_t>> sepListBuilder);
 
   static inline ::System::String* New_ctor(char16_t c, int32_t count);
 
@@ -622,194 +607,197 @@ public:
 
   static inline ::System::String* New_ctor(::cordl_internals::Ptr<int8_t> value, int32_t startIndex, int32_t length, ::System::Text::Encoding* enc);
 
-  /// @brief Method Normalize, addr 0x3c1683c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x3c76958, size 0x68, virtual false, abstract: false, final false
   inline ::StringW Normalize(::System::Text::NormalizationForm normalizationForm);
 
-  /// @brief Method PadLeft, addr 0x3c11270, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method PadLeft, addr 0x3c71384, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW PadLeft(int32_t totalWidth);
+
+  /// @brief Method PadLeft, addr 0x3c7138c, size 0x120, virtual false, abstract: false, final false
   inline ::StringW PadLeft(int32_t totalWidth, char16_t paddingChar);
 
-  /// @brief Method PadRight, addr 0x3c11390, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method PadRight, addr 0x3c714ac, size 0x128, virtual false, abstract: false, final false
   inline ::StringW PadRight(int32_t totalWidth, char16_t paddingChar);
 
-  /// @brief Method Remove, addr 0x3c11654, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3c71770, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW Remove(int32_t startIndex);
 
-  /// @brief Method Remove, addr 0x3c114b8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3c715d4, size 0x19c, virtual false, abstract: false, final false
   inline ::StringW Remove(int32_t startIndex, int32_t count);
 
-  /// @brief Method Replace, addr 0x3c118a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x3c719c0, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW Replace(char16_t oldChar, char16_t newChar);
 
-  /// @brief Method Replace, addr 0x3c1197c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x3c71a98, size 0x314, virtual false, abstract: false, final false
   inline ::StringW Replace(::StringW oldValue, ::StringW newValue);
 
-  /// @brief Method ReplaceHelper, addr 0x3c11c90, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ReplaceHelper, addr 0x3c71dac, size 0x340, virtual false, abstract: false, final false
   inline ::StringW ReplaceHelper(int32_t oldValueLength, ::StringW newValue, ::System::ReadOnlySpan_1<int32_t> indices);
 
-  /// @brief Method SetCharBit, addr 0x3c14730, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetCharBit, addr 0x3c7484c, size 0x24, virtual false, abstract: false, final false
   static inline void SetCharBit(::cordl_internals::Ptr<uint32_t> charMap, uint8_t value);
 
-  /// @brief Method Split, addr 0x3c12e70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x3c72f8c, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::ArrayW<::StringW, ::Array<::StringW>*> separator, ::System::StringSplitOptions options);
 
-  /// @brief Method Split, addr 0x3c12350, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x3c7246c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::ArrayW<char16_t, ::Array<char16_t>*> separator);
 
-  /// @brief Method Split, addr 0x3c123c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x3c724e0, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::ArrayW<char16_t, ::Array<char16_t>*> separator, int32_t count);
 
-  /// @brief Method Split, addr 0x3c124b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x3c725d0, size 0x84, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::ArrayW<char16_t, ::Array<char16_t>*> separator, int32_t count, ::System::StringSplitOptions options);
 
-  /// @brief Method Split, addr 0x3c1243c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x3c72558, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::ArrayW<char16_t, ::Array<char16_t>*> separator, ::System::StringSplitOptions options);
 
-  /// @brief Method Split, addr 0x3c11fd0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x3c720ec, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(char16_t separator, ::System::StringSplitOptions options);
 
-  /// @brief Method SplitInternal, addr 0x3c13268, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SplitInternal, addr 0x3c73384, size 0x1b0, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> SplitInternal(::StringW separator, int32_t count, ::System::StringSplitOptions options);
 
-  /// @brief Method SplitInternal, addr 0x3c12e84, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method SplitInternal, addr 0x3c72fa0, size 0x3e4, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> SplitInternal(::StringW separator, ::ArrayW<::StringW, ::Array<::StringW>*> separators, int32_t count, ::System::StringSplitOptions options);
 
-  /// @brief Method SplitInternal, addr 0x3c12030, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method SplitInternal, addr 0x3c7214c, size 0x320, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> SplitInternal(::System::ReadOnlySpan_1<char16_t> separators, int32_t count, ::System::StringSplitOptions options);
 
-  /// @brief Method SplitKeepEmptyEntries, addr 0x3c12a0c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method SplitKeepEmptyEntries, addr 0x3c72b28, size 0x1d8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> SplitKeepEmptyEntries(::System::ReadOnlySpan_1<int32_t> sepList, ::System::ReadOnlySpan_1<int32_t> lengthList, int32_t defaultLength, int32_t count);
 
-  /// @brief Method SplitOmitEmptyEntries, addr 0x3c12be4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SplitOmitEmptyEntries, addr 0x3c72d00, size 0x28c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> SplitOmitEmptyEntries(::System::ReadOnlySpan_1<int32_t> sepList, ::System::ReadOnlySpan_1<int32_t> lengthList, int32_t defaultLength, int32_t count);
 
-  /// @brief Method StartsWith, addr 0x3c0f7c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3c6f8dc, size 0x58, virtual false, abstract: false, final false
   inline bool StartsWith(::StringW value);
 
-  /// @brief Method StartsWith, addr 0x3c0f820, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3c6f934, size 0x2d0, virtual false, abstract: false, final false
   inline bool StartsWith(::StringW value, ::System::StringComparison comparisonType);
 
-  /// @brief Method StartsWith, addr 0x3c0faf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3c6fc04, size 0x20, virtual false, abstract: false, final false
   inline bool StartsWith(char16_t value);
 
-  /// @brief Method StartsWithOrdinalUnchecked, addr 0x3c16dd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method StartsWithOrdinalUnchecked, addr 0x3c76ef4, size 0x58, virtual false, abstract: false, final false
   inline bool StartsWithOrdinalUnchecked(::StringW value);
 
-  /// @brief Method Substring, addr 0x3c138e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x3c73a04, size 0xc, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex);
 
-  /// @brief Method Substring, addr 0x3c1170c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x3c71828, size 0x198, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator, addr 0x3c16054, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator, addr 0x3c76170, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* System_Collections_Generic_IEnumerable_System_Char__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3c160b0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3c761cc, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.IConvertible.ToBoolean, addr 0x3c1621c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToBoolean, addr 0x3c76338, size 0x68, virtual true, abstract: false, final true
   inline bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToByte, addr 0x3c16354, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToByte, addr 0x3c76470, size 0x68, virtual true, abstract: false, final true
   inline uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToChar, addr 0x3c16284, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToChar, addr 0x3c763a0, size 0x68, virtual true, abstract: false, final true
   inline char16_t System_IConvertible_ToChar(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDateTime, addr 0x3c16764, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDateTime, addr 0x3c76880, size 0x68, virtual true, abstract: false, final true
   inline ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDecimal, addr 0x3c166fc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDecimal, addr 0x3c76818, size 0x68, virtual true, abstract: false, final true
   inline ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDouble, addr 0x3c16694, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDouble, addr 0x3c767b0, size 0x68, virtual true, abstract: false, final true
   inline double_t System_IConvertible_ToDouble(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt16, addr 0x3c163bc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt16, addr 0x3c764d8, size 0x68, virtual true, abstract: false, final true
   inline int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt32, addr 0x3c1648c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt32, addr 0x3c765a8, size 0x68, virtual true, abstract: false, final true
   inline int32_t System_IConvertible_ToInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt64, addr 0x3c1655c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt64, addr 0x3c76678, size 0x68, virtual true, abstract: false, final true
   inline int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSByte, addr 0x3c162ec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSByte, addr 0x3c76408, size 0x68, virtual true, abstract: false, final true
   inline int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSingle, addr 0x3c1662c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSingle, addr 0x3c76748, size 0x68, virtual true, abstract: false, final true
   inline float_t System_IConvertible_ToSingle(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToType, addr 0x3c167cc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToType, addr 0x3c768e8, size 0x70, virtual true, abstract: false, final true
   inline ::System::Object* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt16, addr 0x3c16424, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt16, addr 0x3c76540, size 0x68, virtual true, abstract: false, final true
   inline uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt32, addr 0x3c164f4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt32, addr 0x3c76610, size 0x68, virtual true, abstract: false, final true
   inline uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt64, addr 0x3c165c4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt64, addr 0x3c766e0, size 0x68, virtual true, abstract: false, final true
   inline uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method ToCharArray, addr 0x3c15dc4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToCharArray, addr 0x3c75ee0, size 0xec, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> ToCharArray();
 
-  /// @brief Method ToLower, addr 0x3c13a48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToLower, addr 0x3c73b64, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW ToLower();
 
-  /// @brief Method ToLower, addr 0x3c13ac4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToLower, addr 0x3c73be0, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ToLower(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method ToLowerInvariant, addr 0x3c13b48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToLowerInvariant, addr 0x3c73c64, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW ToLowerInvariant();
 
-  /// @brief Method ToString, addr 0x3c1604c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c76168, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3c16050, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x3c7616c, size 0x4, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
-  /// @brief Method ToUpper, addr 0x3c13bc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToUpper, addr 0x3c73ce0, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW ToUpper();
 
-  /// @brief Method ToUpper, addr 0x3c13c40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToUpper, addr 0x3c73d5c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ToUpper(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method ToUpperInvariant, addr 0x3c13cc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInvariant, addr 0x3c73de0, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW ToUpperInvariant();
 
-  /// @brief Method Trim, addr 0x3c13d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x3c73e5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW Trim();
 
-  /// @brief Method Trim, addr 0x3c13e80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x3c73f9c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW Trim(char16_t trimChar);
 
-  /// @brief Method Trim, addr 0x3c14004, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x3c74120, size 0x34, virtual false, abstract: false, final false
   inline ::StringW Trim(::ArrayW<char16_t, ::Array<char16_t>*> trimChars);
 
-  /// @brief Method TrimEnd, addr 0x3c14094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x3c741b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW TrimEnd();
 
-  /// @brief Method TrimEnd, addr 0x3c1409c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x3c741b8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW TrimEnd(char16_t trimChar);
 
-  /// @brief Method TrimEnd, addr 0x3c140bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x3c741d8, size 0x34, virtual false, abstract: false, final false
   inline ::StringW TrimEnd(::ArrayW<char16_t, ::Array<char16_t>*> trimChars);
 
-  /// @brief Method TrimHelper, addr 0x3c13ea0, size 0x164, virtual false, abstract: false, final false
-  inline ::StringW TrimHelper(::cordl_internals::Ptr<char16_t> trimChars, int32_t trimCharsLength, ::System::__String__TrimType trimType);
+  /// @brief Method TrimHelper, addr 0x3c73fbc, size 0x164, virtual false, abstract: false, final false
+  inline ::StringW TrimHelper(::cordl_internals::Ptr<char16_t> trimChars, int32_t trimCharsLength, ::System::String_TrimType trimType);
 
-  /// @brief Method TrimStart, addr 0x3c14038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x3c74154, size 0x8, virtual false, abstract: false, final false
   inline ::StringW TrimStart();
 
-  /// @brief Method TrimStart, addr 0x3c14040, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x3c7415c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW TrimStart(char16_t trimChar);
 
-  /// @brief Method TrimStart, addr 0x3c14060, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x3c7417c, size 0x34, virtual false, abstract: false, final false
   inline ::StringW TrimStart(::ArrayW<char16_t, ::Array<char16_t>*> trimChars);
 
-  /// @brief Method TrimWhiteSpaceHelper, addr 0x3c13d48, size 0x138, virtual false, abstract: false, final false
-  inline ::StringW TrimWhiteSpaceHelper(::System::__String__TrimType trimType);
+  /// @brief Method TrimWhiteSpaceHelper, addr 0x3c73e64, size 0x138, virtual false, abstract: false, final false
+  inline ::StringW TrimWhiteSpaceHelper(::System::String_TrimType trimType);
 
   constexpr char16_t const& __cordl_internal_get__firstChar() const;
 
@@ -823,48 +811,48 @@ public:
 
   constexpr void __cordl_internal_set__stringLength(int32_t value);
 
-  /// @brief Method bzero, addr 0x3c16ee8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method bzero, addr 0x3c77004, size 0xc, virtual false, abstract: false, final false
   static inline void _cordl_bzero(::cordl_internals::Ptr<uint8_t> dest, int32_t len);
 
-  /// @brief Method .ctor, addr 0x3c15984, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c75aa0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(char16_t c, int32_t count);
 
-  /// @brief Method .ctor, addr 0x3c15200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7531c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c15294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c753b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method .ctor, addr 0x3c15aa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c75bc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method .ctor, addr 0x3c15444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c75560, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<char16_t> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method .ctor, addr 0x3c155c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c756e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<int8_t> value, int32_t startIndex, int32_t length);
 
-  /// @brief Method .ctor, addr 0x3c157c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c758dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<int8_t> value, int32_t startIndex, int32_t length, ::System::Text::Encoding* enc);
 
-  /// @brief Method bzero_aligned_1, addr 0x3c16ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method bzero_aligned_1, addr 0x3c77010, size 0x8, virtual false, abstract: false, final false
   static inline void bzero_aligned_1(::cordl_internals::Ptr<uint8_t> dest, int32_t len);
 
-  /// @brief Method bzero_aligned_2, addr 0x3c16efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method bzero_aligned_2, addr 0x3c77018, size 0x8, virtual false, abstract: false, final false
   static inline void bzero_aligned_2(::cordl_internals::Ptr<uint8_t> dest, int32_t len);
 
-  /// @brief Method bzero_aligned_4, addr 0x3c16f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method bzero_aligned_4, addr 0x3c77020, size 0x8, virtual false, abstract: false, final false
   static inline void bzero_aligned_4(::cordl_internals::Ptr<uint8_t> dest, int32_t len);
 
-  /// @brief Method bzero_aligned_8, addr 0x3c16f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method bzero_aligned_8, addr 0x3c77028, size 0x8, virtual false, abstract: false, final false
   static inline void bzero_aligned_8(::cordl_internals::Ptr<uint8_t> dest, int32_t len);
 
   static inline ::StringW getStaticF_Empty();
 
-  /// @brief Method get_Chars, addr 0x3c0b274, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Chars, addr 0x3c6b388, size 0x3c, virtual false, abstract: false, final false
   inline char16_t get_Chars(int32_t index);
 
-  /// @brief Method get_Length, addr 0x3c168a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3c769c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
@@ -888,39 +876,39 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::StringW>"
   constexpr ::System::IEquatable_1<::StringW>* i___System__IEquatable_1___StringW_() noexcept;
 
-  /// @brief Method memcpy, addr 0x3c16ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method memcpy, addr 0x3c76ffc, size 0x8, virtual false, abstract: false, final false
   static inline void memcpy(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
-  /// @brief Method memcpy_aligned_1, addr 0x3c16f14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method memcpy_aligned_1, addr 0x3c77030, size 0xc, virtual false, abstract: false, final false
   static inline void memcpy_aligned_1(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
-  /// @brief Method memcpy_aligned_2, addr 0x3c16f20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method memcpy_aligned_2, addr 0x3c7703c, size 0xc, virtual false, abstract: false, final false
   static inline void memcpy_aligned_2(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
-  /// @brief Method memcpy_aligned_4, addr 0x3c16f2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method memcpy_aligned_4, addr 0x3c77048, size 0xc, virtual false, abstract: false, final false
   static inline void memcpy_aligned_4(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
-  /// @brief Method memcpy_aligned_8, addr 0x3c16f38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method memcpy_aligned_8, addr 0x3c77054, size 0xc, virtual false, abstract: false, final false
   static inline void memcpy_aligned_8(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
-  /// @brief Method memset, addr 0x3c16e38, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method memset, addr 0x3c76f54, size 0xa8, virtual false, abstract: false, final false
   static inline void memset(::cordl_internals::Ptr<uint8_t> dest, int32_t val, int32_t len);
 
-  /// @brief Method op_Equality, addr 0x3c0f758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3c6f86c, size 0x4, virtual false, abstract: false, final false
   static inline bool op_Equality(::StringW a, ::StringW b);
 
-  /// @brief Method op_Implicit, addr 0x3c15b68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3c75c84, size 0x50, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> op_Implicit___System__ReadOnlySpan_1_char16_t_(::StringW value);
 
-  /// @brief Method op_Inequality, addr 0x3c0f75c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3c6f870, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::StringW a, ::StringW b);
 
   static inline void setStaticF_Empty(::StringW value);
 
-  /// @brief Method wcslen, addr 0x3c1610c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method wcslen, addr 0x3c76228, size 0x108, virtual false, abstract: false, final false
   static inline int32_t wcslen(::cordl_internals::Ptr<char16_t> ptr);
 
-  /// @brief Method wstrcpy, addr 0x3c0fb84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method wstrcpy, addr 0x3c6fc98, size 0xc, virtual false, abstract: false, final false
   static inline void wstrcpy(::cordl_internals::Ptr<char16_t> dmem, ::cordl_internals::Ptr<char16_t> smem, int32_t charCount);
 
 protected:
@@ -937,12 +925,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   String(String const&) = delete;
 
-  /// @brief Field _stringLength, offset: 0x10, size: 0x4, def value: None
-  int32_t ____stringLength;
-
-  /// @brief Field _firstChar, offset: 0x14, size: 0x2, def value: None
-  char16_t ____firstChar;
-
   /// @brief Field PROBABILISTICMAP_BLOCK_INDEX_MASK offset 0xffffffff size 0x4
   static constexpr int32_t PROBABILISTICMAP_BLOCK_INDEX_MASK{ static_cast<int32_t>(0x7) };
 
@@ -958,17 +940,23 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2312 };
 
+  /// @brief Field _stringLength, offset: 0x10, size: 0x4, def value: None
+  int32_t ____stringLength;
+
+  /// @brief Field _firstChar, offset: 0x14, size: 0x2, def value: None
+  char16_t ____firstChar;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::String, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::String, ____stringLength) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::String, ____firstChar) == 0x14, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::String, 0x18>, "Size mismatch!");
+
 } // namespace System
-DEFINE_IL2CPP_ARG_TYPE(::System::__String__TrimType, "System", "String/TrimType");
+DEFINE_IL2CPP_ARG_TYPE(::System::String_TrimType, "System", "String/TrimType");
 NEED_NO_BOX(::System::String);
 DEFINE_IL2CPP_ARG_TYPE(::System::String*, "System", "String");
-DEFINE_IL2CPP_ARG_TYPE(::System::__String__ProbabilisticMap, "System", "String/ProbabilisticMap");
+DEFINE_IL2CPP_ARG_TYPE(::System::String_ProbabilisticMap, "System", "String/ProbabilisticMap");

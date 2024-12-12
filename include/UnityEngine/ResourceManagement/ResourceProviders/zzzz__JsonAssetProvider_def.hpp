@@ -18,20 +18,19 @@ class JsonAssetProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider);
-// Type: UnityEngine.ResourceManagement.ResourceProviders::JsonAssetProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::JsonAssetProvider*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.JsonAssetProvider
 class CORDL_TYPE JsonAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x473c040, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x479d354, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x473c04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479d360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +48,7 @@ public:
   JsonAssetProvider(JsonAssetProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

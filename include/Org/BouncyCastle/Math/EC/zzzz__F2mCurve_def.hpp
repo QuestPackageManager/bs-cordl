@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(F2mCurve)
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -24,10 +23,10 @@ namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class F2mPoint;
+class F2mCurve_DefaultF2mLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
-class __F2mCurve__DefaultF2mLookupTable;
+class F2mPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -37,17 +36,16 @@ namespace Org::BouncyCastle::Math::EC {
 class F2mCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
-class __F2mCurve__DefaultF2mLookupTable;
+class F2mCurve_DefaultF2mLookupTable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::F2mCurve);
-MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable);
-// Type: ::DefaultF2mLookupTable
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable);
+// Dependencies Org.BouncyCastle.Math.EC.AbstractECLookupTable
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// CS Name: ::F2mCurve::DefaultF2mLookupTable*
-class CORDL_TYPE __F2mCurve__DefaultF2mLookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
+// CS Name: Org.BouncyCastle.Math.EC.F2mCurve/DefaultF2mLookupTable
+class CORDL_TYPE F2mCurve_DefaultF2mLookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
 public:
   // Declarations
   __declspec(property(get = get_Size)) int32_t Size;
@@ -61,20 +59,20 @@ public:
   /// @brief Field m_table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table)) ::ArrayW<int64_t, ::Array<int64_t>*> m_table;
 
-  /// @brief Method CreatePoint, addr 0x249aacc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x24cddb8, size 0x1d8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<int64_t, ::Array<int64_t>*> x, ::ArrayW<int64_t, ::Array<int64_t>*> y);
 
-  /// @brief Method Lookup, addr 0x249a958, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x24cdc44, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x249aca4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x24cdf90, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
-  static inline ::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable* New_ctor(::Org::BouncyCastle::Math::EC::F2mCurve* outer, ::ArrayW<int64_t, ::Array<int64_t>*> table, int32_t size);
+  static inline ::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable* New_ctor(::Org::BouncyCastle::Math::EC::F2mCurve* outer, ::ArrayW<int64_t, ::Array<int64_t>*> table, int32_t size);
+
+  constexpr ::Org::BouncyCastle::Math::EC::F2mCurve* const& __cordl_internal_get_m_outer() const;
 
   constexpr ::Org::BouncyCastle::Math::EC::F2mCurve*& __cordl_internal_get_m_outer();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::F2mCurve*> const& __cordl_internal_get_m_outer() const;
 
   constexpr int32_t const& __cordl_internal_get_m_size() const;
 
@@ -90,25 +88,28 @@ public:
 
   constexpr void __cordl_internal_set_m_table(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x249a914, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cdc00, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::F2mCurve* outer, ::ArrayW<int64_t, ::Array<int64_t>*> table, int32_t size);
 
-  /// @brief Method get_Size, addr 0x249a950, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x24cdc3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __F2mCurve__DefaultF2mLookupTable();
+  constexpr F2mCurve_DefaultF2mLookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__F2mCurve__DefaultF2mLookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve_DefaultF2mLookupTable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __F2mCurve__DefaultF2mLookupTable(__F2mCurve__DefaultF2mLookupTable&&) = delete;
+  F2mCurve_DefaultF2mLookupTable(F2mCurve_DefaultF2mLookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__F2mCurve__DefaultF2mLookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve_DefaultF2mLookupTable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __F2mCurve__DefaultF2mLookupTable(__F2mCurve__DefaultF2mLookupTable const&) = delete;
+  F2mCurve_DefaultF2mLookupTable(F2mCurve_DefaultF2mLookupTable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1567 };
 
   /// @brief Field m_outer, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::F2mCurve* ___m_outer;
@@ -119,30 +120,26 @@ public:
   /// @brief Field m_size, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_size;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1567 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable, 0x28>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable, ___m_outer) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable, ___m_outer) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable, ___m_table) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable, ___m_table) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable, ___m_size) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable, ___m_size) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC
-// Type: Org.BouncyCastle.Math.EC::F2mCurve
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.AbstractF2mCurve
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC::F2mCurve*
+// CS Name: Org.BouncyCastle.Math.EC.F2mCurve
 class CORDL_TYPE F2mCurve : public ::Org::BouncyCastle::Math::EC::AbstractF2mCurve {
 public:
   // Declarations
-  using DefaultF2mLookupTable = ::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable;
+  using DefaultF2mLookupTable = ::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable;
 
   __declspec(property(get = get_FieldSize)) int32_t FieldSize;
 
@@ -171,28 +168,28 @@ public:
   /// @brief Field m_infinity, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_infinity, put = __cordl_internal_set_m_infinity)) ::Org::BouncyCastle::Math::EC::F2mPoint* m_infinity;
 
-  /// @brief Method CloneCurve, addr 0x249a1fc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CloneCurve, addr 0x24cd4e8, size 0xac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method CreateCacheSafeLookupTable, addr 0x249a72c, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method CreateCacheSafeLookupTable, addr 0x24cda18, size 0x1bc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
                                                                                   int32_t off, int32_t len);
 
-  /// @brief Method CreateDefaultMultiplier, addr 0x249a2c4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CreateDefaultMultiplier, addr 0x24cd5b0, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateDefaultMultiplier();
 
-  /// @brief Method CreateRawPoint, addr 0x249a5cc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x24cd8b8, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint, addr 0x249a64c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x24cd938, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                 bool withCompression);
 
-  /// @brief Method FromBigInteger, addr 0x249a350, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method FromBigInteger, addr 0x24cd63c, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method IsTrinomial, addr 0x249a6f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsTrinomial, addr 0x24cd9e0, size 0x20, virtual false, abstract: false, final false
   inline bool IsTrinomial();
 
   static inline ::Org::BouncyCastle::Math::EC::F2mCurve* New_ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
@@ -209,7 +206,7 @@ public:
                                                                   ::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::BigInteger* order,
                                                                   ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
-  /// @brief Method SupportsCoordinateSystem, addr 0x249a2a8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SupportsCoordinateSystem, addr 0x24cd594, size 0x1c, virtual true, abstract: false, final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
   constexpr int32_t const& __cordl_internal_get_k1() const;
@@ -228,9 +225,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m();
 
-  constexpr ::Org::BouncyCastle::Math::EC::F2mPoint*& __cordl_internal_get_m_infinity();
+  constexpr ::Org::BouncyCastle::Math::EC::F2mPoint* const& __cordl_internal_get_m_infinity() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::F2mPoint*> const& __cordl_internal_get_m_infinity() const;
+  constexpr ::Org::BouncyCastle::Math::EC::F2mPoint*& __cordl_internal_get_m_infinity();
 
   constexpr void __cordl_internal_set_k1(int32_t value);
 
@@ -242,40 +239,40 @@ public:
 
   constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::F2mPoint* value);
 
-  /// @brief Method .ctor, addr 0x2499e08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd0f4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method .ctor, addr 0x249a004, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd2f0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* order,
                     ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
-  /// @brief Method .ctor, addr 0x249a038, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd324, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method .ctor, addr 0x2499e38, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd124, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* order,
                     ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
-  /// @brief Method .ctor, addr 0x249a120, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd40c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::EC::ECFieldElement* a, ::Org::BouncyCastle::Math::EC::ECFieldElement* b,
                     ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
-  /// @brief Method get_FieldSize, addr 0x249a348, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x24cd634, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method get_Infinity, addr 0x249a6e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Infinity, addr 0x24cd9d0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_K1, addr 0x249a714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_K1, addr 0x24cda00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_K1();
 
-  /// @brief Method get_K2, addr 0x249a71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_K2, addr 0x24cda08, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_K2();
 
-  /// @brief Method get_K3, addr 0x249a724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_K3, addr 0x24cda10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_K3();
 
-  /// @brief Method get_M, addr 0x249a6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_M, addr 0x24cd9d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_M();
 
 protected:
@@ -292,6 +289,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   F2mCurve(F2mCurve const&) = delete;
 
+  /// @brief Field F2M_DEFAULT_COORDS offset 0xffffffff size 0x4
+  static constexpr int32_t F2M_DEFAULT_COORDS{ static_cast<int32_t>(0x6) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1568 };
+
   /// @brief Field m, offset: 0x58, size: 0x4, def value: None
   int32_t ___m;
 
@@ -307,17 +310,9 @@ public:
   /// @brief Field m_infinity, offset: 0x68, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::F2mPoint* ___m_infinity;
 
-  /// @brief Field F2M_DEFAULT_COORDS offset 0xffffffff size 0x4
-  static constexpr int32_t F2M_DEFAULT_COORDS{ static_cast<int32_t>(0x6) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1568 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::F2mCurve, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::F2mCurve, ___m) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::F2mCurve, ___k1) == 0x5c, "Offset mismatch!");
@@ -328,8 +323,10 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::F2mCurve, ___k3) == 0x64, 
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::F2mCurve, ___m_infinity) == 0x68, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::F2mCurve, 0x70>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Math::EC
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::F2mCurve);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::F2mCurve*, "Org.BouncyCastle.Math.EC", "F2mCurve");
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable*, "Org.BouncyCastle.Math.EC", "F2mCurve/DefaultF2mLookupTable");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::F2mCurve_DefaultF2mLookupTable*, "Org.BouncyCastle.Math.EC", "F2mCurve/DefaultF2mLookupTable");

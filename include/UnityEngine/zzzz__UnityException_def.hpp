@@ -18,11 +18,10 @@ class UnityException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UnityException);
-// Type: UnityEngine::UnityException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::UnityException*
+// CS Name: UnityEngine.UnityException
 class CORDL_TYPE UnityException : public ::System::Exception {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::UnityEngine::UnityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x484c33c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48acffc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x484c3bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ad07c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x484ab8c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ab84c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -56,7 +55,7 @@ public:
   UnityException(UnityException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

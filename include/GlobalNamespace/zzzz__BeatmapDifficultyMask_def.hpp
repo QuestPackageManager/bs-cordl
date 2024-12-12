@@ -12,11 +12,10 @@ struct BeatmapDifficultyMask;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BeatmapDifficultyMask);
-// Type: ::BeatmapDifficultyMask
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::BeatmapDifficultyMask
+// CS Name: BeatmapDifficultyMask
 struct CORDL_TYPE BeatmapDifficultyMask {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr BeatmapDifficultyMask(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field All value: static_cast<uint8_t>(0x1fu)
+  /// @brief Field All value: U8(31)
   static ::GlobalNamespace::BeatmapDifficultyMask const All;
 
-  /// @brief Field Easy value: static_cast<uint8_t>(0x1u)
+  /// @brief Field Easy value: U8(1)
   static ::GlobalNamespace::BeatmapDifficultyMask const Easy;
 
-  /// @brief Field Expert value: static_cast<uint8_t>(0x8u)
+  /// @brief Field Expert value: U8(8)
   static ::GlobalNamespace::BeatmapDifficultyMask const Expert;
 
-  /// @brief Field ExpertPlus value: static_cast<uint8_t>(0x10u)
+  /// @brief Field ExpertPlus value: U8(16)
   static ::GlobalNamespace::BeatmapDifficultyMask const ExpertPlus;
 
-  /// @brief Field Hard value: static_cast<uint8_t>(0x4u)
+  /// @brief Field Hard value: U8(4)
   static ::GlobalNamespace::BeatmapDifficultyMask const Hard;
 
-  /// @brief Field Normal value: static_cast<uint8_t>(0x2u)
+  /// @brief Field Normal value: U8(2)
   static ::GlobalNamespace::BeatmapDifficultyMask const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17034 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultyMask, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapDifficultyMask, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultyMask, 0x1>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultyMask, "", "BeatmapDifficultyMask");

@@ -11,13 +11,12 @@ template <typename T> class SpanDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::SpanDebugView_1);
-// Type: System::SpanDebugView`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System::SpanDebugView`1<T>*
+// CS Name: System.SpanDebugView`1<T>
 class CORDL_TYPE SpanDebugView_1 : public ::System::Object {
 public:
   // Declarations

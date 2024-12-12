@@ -12,11 +12,10 @@ class JsonDictionaryAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonDictionaryAttribute);
-// Type: Newtonsoft.Json::JsonDictionaryAttribute
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonContainerAttribute
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonDictionaryAttribute*
+// CS Name: Newtonsoft.Json.JsonDictionaryAttribute
 class CORDL_TYPE JsonDictionaryAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
   // Declarations
@@ -24,10 +23,10 @@ public:
 
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x3e1a3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e1a3bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a468, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:
@@ -45,7 +44,7 @@ public:
   JsonDictionaryAttribute(JsonDictionaryAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10063 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

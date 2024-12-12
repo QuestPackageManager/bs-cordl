@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::get_dragArea)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4986b60;
+  constexpr static std::size_t addrs = 0x49eb470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4981c44;
+  constexpr static std::size_t addrs = 0x49e6554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,7 @@ constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::In
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragArea_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::__cordl_internal_get__dragArea_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::__cordl_internal_get__dragArea_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragArea_k__BackingField;
 }
@@ -69,14 +68,14 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Intern
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle*>());
-}
 inline void UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::MultiColumnHeaderColumnResizeHandle() {}

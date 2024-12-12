@@ -13,35 +13,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpotLight)
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct AngularFalloffType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct SpotLight;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::SpotLight);
-// Type: UnityEngine.Experimental.GlobalIllumination::SpotLight
-// SizeInfo { instance_size: 88, native_size: 92, calculated_instance_size: 88, calculated_native_size: 102, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Experimental.GlobalIllumination.AngularFalloffType, UnityEngine.Experimental.GlobalIllumination.FalloffType, UnityEngine.Experimental.GlobalIllumination.LightMode,
+// UnityEngine.Experimental.GlobalIllumination.LinearColor, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.GlobalIllumination::SpotLight
+// CS Name: UnityEngine.Experimental.GlobalIllumination.SpotLight
 struct CORDL_TYPE SpotLight {
 public:
   // Declarations
@@ -61,6 +43,12 @@ public:
                       ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range,
                       float_t sphereRadius, float_t coneAngle, float_t innerConeAngle, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff,
                       ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11297 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;
@@ -101,17 +89,9 @@ public:
   /// @brief Field angularFalloff, offset: 0x55, size: 0x1, def value: None
   ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11264 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::SpotLight, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, instanceID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, shadow) == 0x4, "Offset mismatch!");
@@ -137,6 +117,8 @@ static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLigh
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, falloff) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, angularFalloff) == 0x55, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::SpotLight, 0x58>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");

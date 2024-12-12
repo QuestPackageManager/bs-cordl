@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Common)
 // Forward declare root types
@@ -13,19 +12,18 @@ class Common;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::Intrinsics::Common);
-// Type: Unity.Burst.Intrinsics::Common
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Burst::Intrinsics {
 // Is value type: false
-// CS Name: ::Unity.Burst.Intrinsics::Common*
+// CS Name: Unity.Burst.Intrinsics.Common
 class CORDL_TYPE Common : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Pause, addr 0x44c4f7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x4526290, size 0x4, virtual false, abstract: false, final false
   static inline void Pause();
 
-  /// @brief Method umul128, addr 0x44c4f80, size 0x3c, virtual false, abstract: false, final false
-  static inline uint64_t umul128(uint64_t x, uint64_t y, ByRef<uint64_t> high);
+  /// @brief Method umul128, addr 0x4526294, size 0x3c, virtual false, abstract: false, final false
+  static inline uint64_t umul128(uint64_t x, uint64_t y, ::ByRef<uint64_t> high);
 
 protected:
   // Ctor Parameters []
@@ -42,7 +40,7 @@ public:
   Common(Common const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

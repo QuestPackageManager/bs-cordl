@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::AllElementsContentValidator::*)(::System::Xml::Schema::XmlSchemaContentType, int32_t, bool)>(&::System::Xml::Schema::AllElementsContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x433e1d4;
+  constexpr static std::size_t addrs = 0x439f4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::AllElementsContentValidator::*)(
     ::System::Xml::XmlQualifiedName*, ::System::Object*, bool)>(&::System::Xml::Schema::AllElementsContentValidator::AddElement)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x433e2dc;
+  constexpr static std::size_t addrs = 0x439f5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::AllElementsContentValidator::*)()>(
     &::System::Xml::Schema::AllElementsContentValidator::get_IsEmptiable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x433e424;
+  constexpr static std::size_t addrs = 0x439f738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AllElementsContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::AllElementsContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x433e444;
+  constexpr static std::size_t addrs = 0x439f758;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,10 +78,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::System::Xml::Schema::AllElementsContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int32_t>)>(
+    static_cast<::System::Object* (::System::Xml::Schema::AllElementsContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::ByRef<int32_t>)>(
         &::System::Xml::Schema::AllElementsContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x433e4d4;
+  constexpr static std::size_t addrs = 0x439f7e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::AllElementsContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::AllElementsContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x433e61c;
+  constexpr static std::size_t addrs = 0x439f930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (
     ::System::Xml::Schema::AllElementsContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(&::System::Xml::Schema::AllElementsContentValidator::ExpectedElements)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x433e66c;
+  constexpr static std::size_t addrs = 0x439f980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::AllElementsContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(
         &::System::Xml::Schema::AllElementsContentValidator::ExpectedParticles)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x433ea9c;
+  constexpr static std::size_t addrs = 0x439fdb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ constexpr ::System::Collections::Hashtable*& System::Xml::Schema::AllElementsCon
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elements;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Schema::AllElementsContentValidator::__cordl_internal_get_elements() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::AllElementsContentValidator::__cordl_internal_get_elements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elements;
 }
@@ -168,7 +168,7 @@ constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::AllElementsConten
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRequired;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& System::Xml::Schema::AllElementsContentValidator::__cordl_internal_get_isRequired() const {
+constexpr ::System::Xml::Schema::BitSet* const& System::Xml::Schema::AllElementsContentValidator::__cordl_internal_get_isRequired() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRequired;
 }
@@ -187,10 +187,6 @@ constexpr int32_t const& System::Xml::Schema::AllElementsContentValidator::__cor
 constexpr void System::Xml::Schema::AllElementsContentValidator::__cordl_internal_set_countRequired(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___countRequired = value;
-}
-inline ::System::Xml::Schema::AllElementsContentValidator* System::Xml::Schema::AllElementsContentValidator::New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, int32_t size,
-                                                                                                                      bool isEmptiable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::AllElementsContentValidator*>(contentType, size, isEmptiable));
 }
 inline void System::Xml::Schema::AllElementsContentValidator::_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, int32_t size, bool isEmptiable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +213,7 @@ inline void System::Xml::Schema::AllElementsContentValidator::InitValidation(::S
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
 }
 inline ::System::Object* System::Xml::Schema::AllElementsContentValidator::ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context,
-                                                                                           ByRef<int32_t> errorCode) {
+                                                                                           ::ByRef<int32_t> errorCode) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AllElementsContentValidator*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, name, context, errorCode);
@@ -237,6 +233,10 @@ inline ::System::Collections::ArrayList* System::Xml::Schema::AllElementsContent
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AllElementsContentValidator*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method, context, isRequiredOnly, schemaSet);
+}
+inline ::System::Xml::Schema::AllElementsContentValidator* System::Xml::Schema::AllElementsContentValidator::New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, int32_t size,
+                                                                                                                      bool isEmptiable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::AllElementsContentValidator*>(contentType, size, isEmptiable));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::AllElementsContentValidator::AllElementsContentValidator() {}

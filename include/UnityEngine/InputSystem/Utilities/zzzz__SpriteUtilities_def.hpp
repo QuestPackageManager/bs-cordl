@@ -18,15 +18,14 @@ class SpriteUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::SpriteUtilities);
-// Type: UnityEngine.InputSystem.Utilities::SpriteUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::SpriteUtilities*
+// CS Name: UnityEngine.InputSystem.Utilities.SpriteUtilities
 class CORDL_TYPE SpriteUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateCircleSprite, addr 0x450d340, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CreateCircleSprite, addr 0x456e654, size 0x1e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateCircleSprite(int32_t radius, ::UnityEngine::Color32 colour);
 
 protected:
@@ -44,7 +43,7 @@ public:
   SpriteUtilities(SpriteUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7111 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

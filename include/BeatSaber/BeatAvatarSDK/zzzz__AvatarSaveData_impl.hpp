@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarSaveData::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarSaveData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222db84;
+  constexpr static std::size_t addrs = 0x22590f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>::get(), ".ctor",
@@ -208,13 +208,13 @@ constexpr void BeatSaber::BeatAvatarSDK::AvatarSaveData::__cordl_internal_set_cl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clothesDetailColor = value;
 }
-inline ::BeatSaber::BeatAvatarSDK::AvatarSaveData* BeatSaber::BeatAvatarSDK::AvatarSaveData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>());
-}
 inline void BeatSaber::BeatAvatarSDK::AvatarSaveData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::BeatAvatarSDK::AvatarSaveData* BeatSaber::BeatAvatarSDK::AvatarSaveData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>());
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarSaveData::AvatarSaveData() {}

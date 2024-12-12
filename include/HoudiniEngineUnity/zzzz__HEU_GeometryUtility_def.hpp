@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -27,28 +26,27 @@ class HEU_GeometryUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeometryUtility);
-// Type: HoudiniEngineUnity::HEU_GeometryUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_GeometryUtility*
+// CS Name: HoudiniEngineUnity.HEU_GeometryUtility
 class CORDL_TYPE HEU_GeometryUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateMeshTangents, addr 0x3a1de84, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CalculateMeshTangents, addr 0x3a74af4, size 0x4dc, virtual false, abstract: false, final false
   static inline void CalculateMeshTangents(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GenerateCubeMeshFromPoints, addr 0x3a24020, size 0xb08, virtual false, abstract: false, final false
+  /// @brief Method GenerateCubeMeshFromPoints, addr 0x3a7ac90, size 0xb08, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
                                                                          ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size);
 
-  /// @brief Method GeneratePerTriangle, addr 0x3a1ef3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GeneratePerTriangle, addr 0x3a75bac, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GeneratePerTriangle(::UnityEngine::Mesh* meshSrc);
 
-  /// @brief Method GenerateSecondaryUVSet, addr 0x3a23fdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GenerateSecondaryUVSet, addr 0x3a7ac4c, size 0x44, virtual false, abstract: false, final false
   static inline void GenerateSecondaryUVSet(::UnityEngine::Mesh* meshsrc);
 
-  /// @brief Method GetInstanceOutputName, addr 0x3a24b28, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceOutputName, addr 0x3a7b798, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW, ::Array<::StringW>*> userPrefix, int32_t index);
 
 protected:
@@ -66,7 +64,7 @@ public:
   HEU_GeometryUtility(HEU_GeometryUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

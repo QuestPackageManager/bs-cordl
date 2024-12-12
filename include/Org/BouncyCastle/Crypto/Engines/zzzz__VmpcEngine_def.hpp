@@ -3,16 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VmpcEngine)
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -20,11 +17,10 @@ class VmpcEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::VmpcEngine);
-// Type: Org.BouncyCastle.Crypto.Engines::VmpcEngine
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IStreamCipher, System.Object
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Engines::VmpcEngine*
+// CS Name: Org.BouncyCastle.Crypto.Engines.VmpcEngine
 class CORDL_TYPE VmpcEngine : public ::System::Object {
 public:
   // Declarations
@@ -48,21 +44,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-  /// @brief Method Init, addr 0x2349428, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x237c714, size 0x18c, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InitKey, addr 0x23495b4, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method InitKey, addr 0x237c8a0, size 0x1f8, virtual true, abstract: false, final false
   inline void InitKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::VmpcEngine* New_ctor();
 
-  /// @brief Method ProcessBytes, addr 0x23497ac, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x237ca98, size 0x1c0, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x234996c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x237cc58, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0x234997c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0x237cc68, size 0xc4, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_P() const;
@@ -95,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2349a40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237cd2c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x23493e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x237c6d4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
@@ -118,6 +114,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VmpcEngine(VmpcEngine const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 882 };
+
   /// @brief Field n, offset: 0x10, size: 0x1, def value: None
   uint8_t ___n;
 
@@ -133,14 +132,9 @@ public:
   /// @brief Field workingKey, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___workingKey;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 882 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::VmpcEngine, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___n) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___P) == 0x18, "Offset mismatch!");
@@ -150,6 +144,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___s) =
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___workingIV) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___workingKey) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::VmpcEngine, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::VmpcEngine);

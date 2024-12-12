@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BloomFogParamsAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAsset_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomFogParamsAsset.get_clipCaps
 template <>
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::BloomFogParamsAsset::*)()>(
     &::GlobalNamespace::BloomFogParamsAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad3434;
+  constexpr static std::size_t addrs = 0x3b32a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(), "get_clipCaps",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::BloomFogParamsAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::BloomFogParamsAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ad343c;
+  constexpr static std::size_t addrs = 0x3b32a80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAsset::*)()>(&::GlobalNamespace::BloomFogParamsAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad34e4;
+  constexpr static std::size_t addrs = 0x3b32b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(), ".ctor",
@@ -50,19 +50,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
-constexpr GlobalNamespace::BloomFogParamsAsset::operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept {
-  return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
-constexpr ::UnityEngine::Timeline::ITimelineClipAsset* GlobalNamespace::BloomFogParamsAsset::i___UnityEngine__Timeline__ITimelineClipAsset() noexcept {
-  return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::BloomFogParamsBehaviour*& GlobalNamespace::BloomFogParamsAsset::__cordl_internal_get__template() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogParamsBehaviour*> const& GlobalNamespace::BloomFogParamsAsset::__cordl_internal_get__template() const {
+constexpr ::GlobalNamespace::BloomFogParamsBehaviour* const& GlobalNamespace::BloomFogParamsAsset::__cordl_internal_get__template() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
@@ -80,13 +72,21 @@ inline ::UnityEngine::Playables::Playable GlobalNamespace::BloomFogParamsAsset::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(this, ___internal_method, graph, go);
 }
-inline ::GlobalNamespace::BloomFogParamsAsset* GlobalNamespace::BloomFogParamsAsset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomFogParamsAsset*>());
-}
 inline void GlobalNamespace::BloomFogParamsAsset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAsset*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BloomFogParamsAsset* GlobalNamespace::BloomFogParamsAsset::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomFogParamsAsset*>());
+}
+/// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
+constexpr GlobalNamespace::BloomFogParamsAsset::operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept {
+  return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+constexpr ::UnityEngine::Timeline::ITimelineClipAsset* GlobalNamespace::BloomFogParamsAsset::i___UnityEngine__Timeline__ITimelineClipAsset() noexcept {
+  return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomFogParamsAsset::BloomFogParamsAsset() {}

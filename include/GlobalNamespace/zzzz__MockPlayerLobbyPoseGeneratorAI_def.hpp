@@ -19,11 +19,10 @@ class MockPlayerLobbyPoseGeneratorAI;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI);
-// Type: ::MockPlayerLobbyPoseGeneratorAI
-// SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MockPlayerLobbyPoseGenerator, UnityEngine.Pose
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockPlayerLobbyPoseGeneratorAI*
+// CS Name: MockPlayerLobbyPoseGeneratorAI
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorAI : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
@@ -63,12 +62,12 @@ public:
   /// @brief Field _rightHandPoseTarget, offset 0x110, size 0x1c
   __declspec(property(get = __cordl_internal_get__rightHandPoseTarget, put = __cordl_internal_set__rightHandPoseTarget)) ::UnityEngine::Pose _rightHandPoseTarget;
 
-  /// @brief Method Init, addr 0x3bce0f4, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3c2e208, size 0x2c4, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x3bce3b8, size 0xa04, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x3c2e4cc, size 0xa04, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::UnityEngine::Pose const& __cordl_internal_get__headPose() const;
@@ -107,9 +106,9 @@ public:
 
   constexpr int64_t& __cordl_internal_get__nextTargetTime();
 
-  constexpr ::System::Random*& __cordl_internal_get__random();
+  constexpr ::System::Random* const& __cordl_internal_get__random() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get__random() const;
+  constexpr ::System::Random*& __cordl_internal_get__random();
 
   constexpr ::UnityEngine::Pose const& __cordl_internal_get__rightHandPose() const;
 
@@ -143,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__rightHandPoseTarget(::UnityEngine::Pose value);
 
-  /// @brief Method .ctor, addr 0x3bcd548, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2d65c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:
@@ -159,6 +158,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorAI", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerLobbyPoseGeneratorAI(MockPlayerLobbyPoseGeneratorAI const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18109 };
 
   /// @brief Field _random, offset: 0x20, size: 0x8, def value: None
   ::System::Random* ____random;
@@ -196,14 +198,9 @@ public:
   /// @brief Field _nextTargetTime, offset: 0x130, size: 0x8, def value: None
   int64_t ____nextTargetTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18029 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, 0x138>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____random) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____headPose) == 0x28, "Offset mismatch!");
@@ -227,6 +224,8 @@ static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____le
 static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____rightHandPoseTarget) == 0x110, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____nextTargetTime) == 0x130, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, 0x138>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI);

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Rijndael)
 namespace System::Security::Cryptography {
 class KeySizes;
@@ -15,27 +14,25 @@ class Rijndael;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::Rijndael);
-// Type: System.Security.Cryptography::Rijndael
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.SymmetricAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::Rijndael*
+// CS Name: System.Security.Cryptography.Rijndael
 class CORDL_TYPE Rijndael : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
   // Declarations
   /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_legalBlockSizes,
-                             put = setStaticF_s_legalBlockSizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+  __declspec(property(get = getStaticF_s_legalBlockSizes,
+                      put = setStaticF_s_legalBlockSizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
       s_legalBlockSizes;
 
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_legalKeySizes,
-                             put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+  __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
       s_legalKeySizes;
 
   static inline ::System::Security::Cryptography::Rijndael* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c41804, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca1978, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();

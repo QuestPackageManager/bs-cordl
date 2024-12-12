@@ -9,105 +9,103 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-//  Writing Method size for method: ::Newtonsoft::Json::Schema::__JsonSchemaNode____c._ctor
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaNode___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::__JsonSchemaNode____c::*)()>(
-    &::Newtonsoft::Json::Schema::__JsonSchemaNode____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaNode___c::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaNode___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eaa1c8;
+  constexpr static std::size_t addrs = 0x3f0a274;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Schema::__JsonSchemaNode____c._GetId_b__26_0
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaNode___c._GetId_b__26_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::__JsonSchemaNode____c::*)(::Newtonsoft::Json::Schema::JsonSchema*)>(
-    &::Newtonsoft::Json::Schema::__JsonSchemaNode____c::_GetId_b__26_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaNode___c::*)(::Newtonsoft::Json::Schema::JsonSchema*)>(
+    &::Newtonsoft::Json::Schema::JsonSchemaNode___c::_GetId_b__26_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3eaa1d0;
+  constexpr static std::size_t addrs = 0x3f0a27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get(), "<GetId>b__26_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get(), "<GetId>b__26_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Schema::JsonSchema*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Schema::__JsonSchemaNode____c._GetId_b__26_1
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaNode___c._GetId_b__26_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::__JsonSchemaNode____c::*)(::StringW)>(
-    &::Newtonsoft::Json::Schema::__JsonSchemaNode____c::_GetId_b__26_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaNode___c::*)(::StringW)>(
+    &::Newtonsoft::Json::Schema::JsonSchemaNode___c::_GetId_b__26_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eaa1e8;
+  constexpr static std::size_t addrs = 0x3f0a294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get(), "<GetId>b__26_1",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get(), "<GetId>b__26_1",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Schema::__JsonSchemaNode____c::setStaticF___9(::Newtonsoft::Json::Schema::__JsonSchemaNode____c* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get>(
-      std::forward<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>(value));
+inline void Newtonsoft::Json::Schema::JsonSchemaNode___c::setStaticF___9(::Newtonsoft::Json::Schema::JsonSchemaNode___c* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Schema::JsonSchemaNode___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get>(
+      std::forward<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>(value));
 }
-inline ::Newtonsoft::Json::Schema::__JsonSchemaNode____c* Newtonsoft::Json::Schema::__JsonSchemaNode____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get>();
+inline ::Newtonsoft::Json::Schema::JsonSchemaNode___c* Newtonsoft::Json::Schema::JsonSchemaNode___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Schema::JsonSchemaNode___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get>();
 }
-inline void Newtonsoft::Json::Schema::__JsonSchemaNode____c::setStaticF___9__26_0(::System::Func_2<::Newtonsoft::Json::Schema::JsonSchema*, ::StringW>* value) {
+inline void Newtonsoft::Json::Schema::JsonSchemaNode___c::setStaticF___9__26_0(::System::Func_2<::Newtonsoft::Json::Schema::JsonSchema*, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::Newtonsoft::Json::Schema::JsonSchema*, ::StringW>*, "<>9__26_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get>(
       std::forward<::System::Func_2<::Newtonsoft::Json::Schema::JsonSchema*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchema*, ::StringW>* Newtonsoft::Json::Schema::__JsonSchemaNode____c::getStaticF___9__26_0() {
+inline ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchema*, ::StringW>* Newtonsoft::Json::Schema::JsonSchemaNode___c::getStaticF___9__26_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::Newtonsoft::Json::Schema::JsonSchema*, ::StringW>*, "<>9__26_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get>();
 }
-inline void Newtonsoft::Json::Schema::__JsonSchemaNode____c::setStaticF___9__26_1(::System::Func_2<::StringW, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__26_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get>(
+inline void Newtonsoft::Json::Schema::JsonSchemaNode___c::setStaticF___9__26_1(::System::Func_2<::StringW, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__26_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get>(
       std::forward<::System::Func_2<::StringW, ::StringW>*>(value));
 }
-inline ::System::Func_2<::StringW, ::StringW>* Newtonsoft::Json::Schema::__JsonSchemaNode____c::getStaticF___9__26_1() {
+inline ::System::Func_2<::StringW, ::StringW>* Newtonsoft::Json::Schema::JsonSchemaNode___c::getStaticF___9__26_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__26_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get>();
 }
-inline ::Newtonsoft::Json::Schema::__JsonSchemaNode____c* Newtonsoft::Json::Schema::__JsonSchemaNode____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>());
-}
-inline void Newtonsoft::Json::Schema::__JsonSchemaNode____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get(), ".ctor",
+inline void Newtonsoft::Json::Schema::JsonSchemaNode___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW Newtonsoft::Json::Schema::__JsonSchemaNode____c::_GetId_b__26_0(::Newtonsoft::Json::Schema::JsonSchema* s) {
+inline ::StringW Newtonsoft::Json::Schema::JsonSchemaNode___c::_GetId_b__26_0(::Newtonsoft::Json::Schema::JsonSchema* s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get(), "<GetId>b__26_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get(), "<GetId>b__26_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Schema::JsonSchema*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, s);
 }
-inline ::StringW Newtonsoft::Json::Schema::__JsonSchemaNode____c::_GetId_b__26_1(::StringW id) {
+inline ::StringW Newtonsoft::Json::Schema::JsonSchemaNode___c::_GetId_b__26_1(::StringW id) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::__JsonSchemaNode____c*>::get(), "<GetId>b__26_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>::get(), "<GetId>b__26_1",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, id);
 }
+inline ::Newtonsoft::Json::Schema::JsonSchemaNode___c* Newtonsoft::Json::Schema::JsonSchemaNode___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Schema::JsonSchemaNode___c*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Schema::__JsonSchemaNode____c::__JsonSchemaNode____c() {}
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode___c::JsonSchemaNode___c() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaNode.get_Id
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaNode::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaNode::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f0c;
+  constexpr static std::size_t addrs = 0x3f09fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(), "get_Id",
@@ -121,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* (
     ::Newtonsoft::Json::Schema::JsonSchemaNode::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaNode::get_Schemas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f14;
+  constexpr static std::size_t addrs = 0x3f09fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(),
@@ -135,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* (
     ::Newtonsoft::Json::Schema::JsonSchemaNode::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaNode::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f1c;
+  constexpr static std::size_t addrs = 0x3f09fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(),
@@ -149,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* (
     ::Newtonsoft::Json::Schema::JsonSchemaNode::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaNode::get_PatternProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f24;
+  constexpr static std::size_t addrs = 0x3f09fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(),
@@ -163,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::JsonSchemaNode*>* (
     ::Newtonsoft::Json::Schema::JsonSchemaNode::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaNode::get_Items)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f2c;
+  constexpr static std::size_t addrs = 0x3f09fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(), "get_Items",
@@ -177,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaNode* (::Newtonsoft::Json::Schema::JsonSchemaNode::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaNode::get_AdditionalProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f34;
+  constexpr static std::size_t addrs = 0x3f09fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(),
@@ -191,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaNode::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaNode::set_AdditionalProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f3c;
+  constexpr static std::size_t addrs = 0x3f09fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaNode* (::Newtonsoft::Json::Schema::JsonSchemaNode::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaNode::get_AdditionalItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f44;
+  constexpr static std::size_t addrs = 0x3f09ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(),
@@ -220,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaNode::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaNode::set_AdditionalItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9f4c;
+  constexpr static std::size_t addrs = 0x3f09ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaNode::*)(::Newtonsoft::Json::Schema::JsonSchema*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaNode::_ctor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3ea9688;
+  constexpr static std::size_t addrs = 0x3f09734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaNode::*)(
     ::Newtonsoft::Json::Schema::JsonSchemaNode*, ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaNode::_ctor)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x3ea9f54;
+  constexpr static std::size_t addrs = 0x3f0a000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaNode* (
     ::Newtonsoft::Json::Schema::JsonSchemaNode::*)(::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaNode::Combine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ea9824;
+  constexpr static std::size_t addrs = 0x3f098d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Schema::JsonSchema*>*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaNode::GetId)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x3ea9450;
+  constexpr static std::size_t addrs = 0x3f094fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -307,7 +305,7 @@ Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__Schemas_k__Backi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Schemas_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* const&
 Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__Schemas_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Schemas_k__BackingField;
@@ -322,7 +320,7 @@ Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__Properties_k__Ba
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Properties_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* const&
 Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__Properties_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Properties_k__BackingField;
@@ -337,7 +335,7 @@ Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__PatternPropertie
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PatternProperties_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* const&
 Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__PatternProperties_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PatternProperties_k__BackingField;
@@ -351,8 +349,7 @@ constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::Jso
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Items_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::JsonSchemaNode*>*> const&
-Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__Items_k__BackingField() const {
+constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::JsonSchemaNode*>* const& Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__Items_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Items_k__BackingField;
 }
@@ -364,8 +361,7 @@ constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode*& Newtonsoft::Json::Schema:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AdditionalProperties_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchemaNode*> const&
-Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__AdditionalProperties_k__BackingField() const {
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode* const& Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__AdditionalProperties_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AdditionalProperties_k__BackingField;
 }
@@ -378,8 +374,7 @@ constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode*& Newtonsoft::Json::Schema:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AdditionalItems_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchemaNode*> const&
-Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__AdditionalItems_k__BackingField() const {
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode* const& Newtonsoft::Json::Schema::JsonSchemaNode::__cordl_internal_get__AdditionalItems_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AdditionalItems_k__BackingField;
 }
@@ -434,18 +429,11 @@ inline void Newtonsoft::Json::Schema::JsonSchemaNode::set_AdditionalItems(::Newt
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Schema::JsonSchemaNode* Newtonsoft::Json::Schema::JsonSchemaNode::New_ctor(::Newtonsoft::Json::Schema::JsonSchema* schema) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Schema::JsonSchemaNode*>(schema));
-}
 inline void Newtonsoft::Json::Schema::JsonSchemaNode::_ctor(::Newtonsoft::Json::Schema::JsonSchema* schema) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Schema::JsonSchema*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, schema);
-}
-inline ::Newtonsoft::Json::Schema::JsonSchemaNode* Newtonsoft::Json::Schema::JsonSchemaNode::New_ctor(::Newtonsoft::Json::Schema::JsonSchemaNode* source,
-                                                                                                      ::Newtonsoft::Json::Schema::JsonSchema* schema) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Schema::JsonSchemaNode*>(source, schema));
 }
 inline void Newtonsoft::Json::Schema::JsonSchemaNode::_ctor(::Newtonsoft::Json::Schema::JsonSchemaNode* source, ::Newtonsoft::Json::Schema::JsonSchema* schema) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -465,6 +453,13 @@ inline ::StringW Newtonsoft::Json::Schema::JsonSchemaNode::GetId(::System::Colle
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNode*>::get(), "GetId", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Schema::JsonSchema*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, schemata);
+}
+inline ::Newtonsoft::Json::Schema::JsonSchemaNode* Newtonsoft::Json::Schema::JsonSchemaNode::New_ctor(::Newtonsoft::Json::Schema::JsonSchema* schema) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Schema::JsonSchemaNode*>(schema));
+}
+inline ::Newtonsoft::Json::Schema::JsonSchemaNode* Newtonsoft::Json::Schema::JsonSchemaNode::New_ctor(::Newtonsoft::Json::Schema::JsonSchemaNode* source,
+                                                                                                      ::Newtonsoft::Json::Schema::JsonSchema* schema) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Schema::JsonSchemaNode*>(source, schema));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode::JsonSchemaNode() {}

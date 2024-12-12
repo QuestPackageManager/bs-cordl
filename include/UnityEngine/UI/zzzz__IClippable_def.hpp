@@ -22,11 +22,10 @@ class IClippable;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::IClippable);
-// Type: UnityEngine.UI::IClippable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::IClippable*
+// CS Name: UnityEngine.UI.IClippable
 class CORDL_TYPE IClippable {
 public:
   // Declarations
@@ -34,34 +33,30 @@ public:
 
   __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  /// @brief Method Cull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Cull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
-  /// @brief Method RecalculateClipping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method RecalculateClipping, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RecalculateClipping();
 
-  /// @brief Method SetClipRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetClipRect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetClipRect(::UnityEngine::Rect value, bool validRect);
 
-  /// @brief Method SetClipSoftness, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetClipSoftness, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetClipSoftness(::UnityEngine::Vector2 clipSoftness);
 
-  /// @brief Method get_gameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_gameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_rectTransform, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IClippable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IClippable(IClippable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IClippable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IClippable(IClippable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AsyncInstantiateOperation)
 namespace UnityEngine {
 class Object;
@@ -15,11 +14,10 @@ class AsyncInstantiateOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AsyncInstantiateOperation);
-// Type: UnityEngine::AsyncInstantiateOperation
-// SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AsyncOperation
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AsyncInstantiateOperation*
+// CS Name: UnityEngine.AsyncInstantiateOperation
 class CORDL_TYPE AsyncInstantiateOperation : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
@@ -34,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Result(::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> value);
 
-  /// @brief Method .ctor, addr 0x484485c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a5598, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncInstantiateOperation(AsyncInstantiateOperation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10850 };
+
   /// @brief Field m_Result, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> ___m_Result;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AsyncInstantiateOperation, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AsyncInstantiateOperation, ___m_Result) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AsyncInstantiateOperation, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AsyncInstantiateOperation);

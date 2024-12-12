@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "BGLib/Polyglot/LanguageDropdown.hpp"
+#include "BGLib/Polyglot/zzzz__ILocalize_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDropdown_def.hpp"
-#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationModel_def.hpp"
 #include "UnityEngine/UI/zzzz__Dropdown_def.hpp"
 //  Writing Method size for method: ::BGLib::Polyglot::LanguageDropdown.Reset
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::Reset)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22794d4;
+  constexpr static std::size_t addrs = 0x22ac314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), "Reset",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::Start)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2279524;
+  constexpr static std::size_t addrs = 0x22ac364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), "Start",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::CreateDropdown)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2279548;
+  constexpr static std::size_t addrs = 0x22ac388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), "CreateDropdown",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)(::BGLib::Polyglot::LocalizationModel*)>(
     &::BGLib::Polyglot::LanguageDropdown::OnLocalize)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2279a4c;
+  constexpr static std::size_t addrs = 0x22ac7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2279b7c;
+  constexpr static std::size_t addrs = 0x22ac928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), ".ctor",
@@ -72,14 +72,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
-constexpr BGLib::Polyglot::LanguageDropdown::operator ::BGLib::Polyglot::ILocalize*() noexcept {
-  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BGLib::Polyglot::ILocalize"
-constexpr ::BGLib::Polyglot::ILocalize* BGLib::Polyglot::LanguageDropdown::i___BGLib__Polyglot__ILocalize() noexcept {
-  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::UnityEngine::UI::Dropdown>& BGLib::Polyglot::LanguageDropdown::__cordl_internal_get_dropdown() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dropdown;
@@ -113,13 +105,21 @@ inline void BGLib::Polyglot::LanguageDropdown::OnLocalize(::BGLib::Polyglot::Loc
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationModel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localization);
 }
-inline ::BGLib::Polyglot::LanguageDropdown* BGLib::Polyglot::LanguageDropdown::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LanguageDropdown*>());
-}
 inline void BGLib::Polyglot::LanguageDropdown::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BGLib::Polyglot::LanguageDropdown* BGLib::Polyglot::LanguageDropdown::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LanguageDropdown*>());
+}
+/// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
+constexpr BGLib::Polyglot::LanguageDropdown::operator ::BGLib::Polyglot::ILocalize*() noexcept {
+  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BGLib::Polyglot::ILocalize"
+constexpr ::BGLib::Polyglot::ILocalize* BGLib::Polyglot::LanguageDropdown::i___BGLib__Polyglot__ILocalize() noexcept {
+  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LanguageDropdown::LanguageDropdown() {}

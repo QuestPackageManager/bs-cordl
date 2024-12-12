@@ -15,11 +15,10 @@ class CmsAttributeTableGenerationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException);
-// Type: Org.BouncyCastle.Cms::CmsAttributeTableGenerationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Cms.CmsException
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsAttributeTableGenerationException*
+// CS Name: Org.BouncyCastle.Cms.CmsAttributeTableGenerationException
 class CORDL_TYPE CmsAttributeTableGenerationException : public ::Org::BouncyCastle::Cms::CmsException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor(::StringW name, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x2619984, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264cc70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2619988, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264cc74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x261998c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264cc78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Exception* e);
 
 protected:

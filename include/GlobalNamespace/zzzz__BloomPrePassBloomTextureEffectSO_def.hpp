@@ -25,11 +25,10 @@ class BloomPrePassBloomTextureEffectSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBloomTextureEffectSO);
-// Type: ::BloomPrePassBloomTextureEffectSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BloomPrePassEffectSO, PyramidBloomRendererSO::Pass
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassBloomTextureEffectSO*
+// CS Name: BloomPrePassBloomTextureEffectSO
 class CORDL_TYPE BloomPrePassBloomTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
 public:
   // Declarations
@@ -43,13 +42,13 @@ public:
   __declspec(property(get = __cordl_internal_get__downBloomIntensityOffset, put = __cordl_internal_set__downBloomIntensityOffset)) float_t _downBloomIntensityOffset;
 
   /// @brief Field _downsamplePass, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__downsamplePass, put = __cordl_internal_set__downsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _downsamplePass;
+  __declspec(property(get = __cordl_internal_get__downsamplePass, put = __cordl_internal_set__downsamplePass)) ::GlobalNamespace::PyramidBloomRendererSO_Pass _downsamplePass;
 
   /// @brief Field _finalUpsampleBrightness, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__finalUpsampleBrightness, put = __cordl_internal_set__finalUpsampleBrightness)) float_t _finalUpsampleBrightness;
 
   /// @brief Field _finalUpsamplePass, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get__finalUpsamplePass, put = __cordl_internal_set__finalUpsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _finalUpsamplePass;
+  __declspec(property(get = __cordl_internal_get__finalUpsamplePass, put = __cordl_internal_set__finalUpsamplePass)) ::GlobalNamespace::PyramidBloomRendererSO_Pass _finalUpsamplePass;
 
   /// @brief Field _firstUpsampleBrightness, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__firstUpsampleBrightness, put = __cordl_internal_set__firstUpsampleBrightness)) float_t _firstUpsampleBrightness;
@@ -58,7 +57,7 @@ public:
   __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   /// @brief Field _prefilterPass, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__prefilterPass, put = __cordl_internal_set__prefilterPass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _prefilterPass;
+  __declspec(property(get = __cordl_internal_get__prefilterPass, put = __cordl_internal_set__prefilterPass)) ::GlobalNamespace::PyramidBloomRendererSO_Pass _prefilterPass;
 
   /// @brief Field _pyramidWeightsParam, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__pyramidWeightsParam, put = __cordl_internal_set__pyramidWeightsParam)) float_t _pyramidWeightsParam;
@@ -70,13 +69,13 @@ public:
   __declspec(property(get = __cordl_internal_get__uniformPyramidWeights, put = __cordl_internal_set__uniformPyramidWeights)) bool _uniformPyramidWeights;
 
   /// @brief Field _upsamplePass, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__upsamplePass, put = __cordl_internal_set__upsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _upsamplePass;
+  __declspec(property(get = __cordl_internal_get__upsamplePass, put = __cordl_internal_set__upsamplePass)) ::GlobalNamespace::PyramidBloomRendererSO_Pass _upsamplePass;
 
   __declspec(property(get = get_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x4024054, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x4085368, size 0x6c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -91,17 +90,17 @@ public:
 
   constexpr float_t& __cordl_internal_get__downBloomIntensityOffset();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__downsamplePass() const;
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& __cordl_internal_get__downsamplePass() const;
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__downsamplePass();
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& __cordl_internal_get__downsamplePass();
 
   constexpr float_t const& __cordl_internal_get__finalUpsampleBrightness() const;
 
   constexpr float_t& __cordl_internal_get__finalUpsampleBrightness();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__finalUpsamplePass() const;
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& __cordl_internal_get__finalUpsamplePass() const;
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__finalUpsamplePass();
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& __cordl_internal_get__finalUpsamplePass();
 
   constexpr float_t const& __cordl_internal_get__firstUpsampleBrightness() const;
 
@@ -111,9 +110,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__intensity();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__prefilterPass() const;
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& __cordl_internal_get__prefilterPass() const;
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__prefilterPass();
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& __cordl_internal_get__prefilterPass();
 
   constexpr float_t const& __cordl_internal_get__pyramidWeightsParam() const;
 
@@ -127,9 +126,9 @@ public:
 
   constexpr bool& __cordl_internal_get__uniformPyramidWeights();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__upsamplePass() const;
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& __cordl_internal_get__upsamplePass() const;
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__upsamplePass();
+  constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& __cordl_internal_get__upsamplePass();
 
   constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
@@ -137,17 +136,17 @@ public:
 
   constexpr void __cordl_internal_set__downBloomIntensityOffset(float_t value);
 
-  constexpr void __cordl_internal_set__downsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__downsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
   constexpr void __cordl_internal_set__finalUpsampleBrightness(float_t value);
 
-  constexpr void __cordl_internal_set__finalUpsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__finalUpsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
   constexpr void __cordl_internal_set__firstUpsampleBrightness(float_t value);
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  constexpr void __cordl_internal_set__prefilterPass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__prefilterPass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
   constexpr void __cordl_internal_set__pyramidWeightsParam(float_t value);
 
@@ -155,12 +154,12 @@ public:
 
   constexpr void __cordl_internal_set__uniformPyramidWeights(bool value);
 
-  constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
-  /// @brief Method .ctor, addr 0x40240c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40853d4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_toneMapping, addr 0x4024034, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x4085348, size 0x20, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
 protected:
@@ -176,6 +175,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBloomTextureEffectSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17919 };
 
   /// @brief Field _radius, offset: 0x2c, size: 0x4, def value: None
   float_t ____radius;
@@ -199,16 +201,16 @@ public:
   float_t ____finalUpsampleBrightness;
 
   /// @brief Field _prefilterPass, offset: 0x48, size: 0x4, def value: None
-  ::GlobalNamespace::__PyramidBloomRendererSO__Pass ____prefilterPass;
+  ::GlobalNamespace::PyramidBloomRendererSO_Pass ____prefilterPass;
 
   /// @brief Field _downsamplePass, offset: 0x4c, size: 0x4, def value: None
-  ::GlobalNamespace::__PyramidBloomRendererSO__Pass ____downsamplePass;
+  ::GlobalNamespace::PyramidBloomRendererSO_Pass ____downsamplePass;
 
   /// @brief Field _upsamplePass, offset: 0x50, size: 0x4, def value: None
-  ::GlobalNamespace::__PyramidBloomRendererSO__Pass ____upsamplePass;
+  ::GlobalNamespace::PyramidBloomRendererSO_Pass ____upsamplePass;
 
   /// @brief Field _finalUpsamplePass, offset: 0x54, size: 0x4, def value: None
-  ::GlobalNamespace::__PyramidBloomRendererSO__Pass ____finalUpsamplePass;
+  ::GlobalNamespace::PyramidBloomRendererSO_Pass ____finalUpsamplePass;
 
   /// @brief Field _bloomRenderer, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> ____bloomRenderer;
@@ -216,14 +218,9 @@ public:
   /// @brief Field _bloomFog, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17836 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBloomTextureEffectSO, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____radius) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____intensity) == 0x30, "Offset mismatch!");
@@ -249,6 +246,8 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____bloomRenderer) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____bloomFog) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBloomTextureEffectSO, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBloomTextureEffectSO);

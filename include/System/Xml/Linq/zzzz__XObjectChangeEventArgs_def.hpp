@@ -15,25 +15,24 @@ class XObjectChangeEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::XObjectChangeEventArgs);
-// Type: System.Xml.Linq::XObjectChangeEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs, System.Xml.Linq.XObjectChange
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::XObjectChangeEventArgs*
+// CS Name: System.Xml.Linq.XObjectChangeEventArgs
 class CORDL_TYPE XObjectChangeEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field Add, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Add, put = setStaticF_Add)) ::System::Xml::Linq::XObjectChangeEventArgs* Add;
+  __declspec(property(get = getStaticF_Add, put = setStaticF_Add)) ::System::Xml::Linq::XObjectChangeEventArgs* Add;
 
   /// @brief Field Name, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Name, put = setStaticF_Name)) ::System::Xml::Linq::XObjectChangeEventArgs* Name;
+  __declspec(property(get = getStaticF_Name, put = setStaticF_Name)) ::System::Xml::Linq::XObjectChangeEventArgs* Name;
 
   /// @brief Field Remove, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Remove, put = setStaticF_Remove)) ::System::Xml::Linq::XObjectChangeEventArgs* Remove;
+  __declspec(property(get = getStaticF_Remove, put = setStaticF_Remove)) ::System::Xml::Linq::XObjectChangeEventArgs* Remove;
 
   /// @brief Field Value, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Value, put = setStaticF_Value)) ::System::Xml::Linq::XObjectChangeEventArgs* Value;
+  __declspec(property(get = getStaticF_Value, put = setStaticF_Value)) ::System::Xml::Linq::XObjectChangeEventArgs* Value;
 
   /// @brief Field _objectChange, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__objectChange, put = __cordl_internal_set__objectChange)) ::System::Xml::Linq::XObjectChange _objectChange;
@@ -46,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__objectChange(::System::Xml::Linq::XObjectChange value);
 
-  /// @brief Method .ctor, addr 0x41eb6b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424c9cc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XObjectChange objectChange);
 
   static inline ::System::Xml::Linq::XObjectChangeEventArgs* getStaticF_Add();
@@ -79,18 +78,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XObjectChangeEventArgs(XObjectChangeEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17973 };
+
   /// @brief Field _objectChange, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Linq::XObjectChange ____objectChange;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XObjectChangeEventArgs, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::XObjectChangeEventArgs, ____objectChange) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XObjectChangeEventArgs, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XObjectChangeEventArgs);

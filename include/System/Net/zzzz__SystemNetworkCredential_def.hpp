@@ -11,20 +11,19 @@ class SystemNetworkCredential;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::SystemNetworkCredential);
-// Type: System.Net::SystemNetworkCredential
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkCredential
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::SystemNetworkCredential*
+// CS Name: System.Net.SystemNetworkCredential
 class CORDL_TYPE SystemNetworkCredential : public ::System::Net::NetworkCredential {
 public:
   // Declarations
   /// @brief Field defaultCredential, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultCredential, put = setStaticF_defaultCredential)) ::System::Net::SystemNetworkCredential* defaultCredential;
+  __declspec(property(get = getStaticF_defaultCredential, put = setStaticF_defaultCredential)) ::System::Net::SystemNetworkCredential* defaultCredential;
 
   static inline ::System::Net::SystemNetworkCredential* New_ctor();
 
-  /// @brief Method .ctor, addr 0x443c0c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d3d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::SystemNetworkCredential* getStaticF_defaultCredential();
@@ -46,7 +45,7 @@ public:
   SystemNetworkCredential(SystemNetworkCredential const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

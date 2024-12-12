@@ -15,23 +15,31 @@ class SteamInit;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SteamInit);
-// Type: ::SteamInit
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasePlatformInit
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SteamInit*
+// CS Name: SteamInit
 class CORDL_TYPE SteamInit : public ::GlobalNamespace::BasePlatformInit {
 public:
   // Declarations
-  /// @brief Method GetAppVersionAsync, addr 0x26e7404, size 0x88, virtual true, abstract: false, final false
+  /// @brief Field _isInitialized, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
+
+  /// @brief Method GetAppVersionAsync, addr 0x2719aa0, size 0x88, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAppVersionAsync();
 
-  /// @brief Method InitializeInternalAsync, addr 0x26e739c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x2719a2c, size 0x74, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
   static inline ::GlobalNamespace::SteamInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26e748c, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
+
+  constexpr bool& __cordl_internal_get__isInitialized();
+
+  constexpr void __cordl_internal_set__isInitialized(bool value);
+
+  /// @brief Method .ctor, addr 0x2719b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,12 +57,17 @@ public:
   SteamInit(SteamInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17800 };
+
+  /// @brief Field _isInitialized, offset: 0x20, size: 0x1, def value: None
+  bool ____isInitialized;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamInit, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamInit, ____isInitialized) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamInit, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SteamInit);

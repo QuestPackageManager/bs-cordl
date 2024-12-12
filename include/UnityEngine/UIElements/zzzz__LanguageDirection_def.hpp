@@ -12,11 +12,10 @@ struct LanguageDirection;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::LanguageDirection);
-// Type: UnityEngine.UIElements::LanguageDirection
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::LanguageDirection
+// CS Name: UnityEngine.UIElements.LanguageDirection
 struct CORDL_TYPE LanguageDirection {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr LanguageDirection(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Inherit value: static_cast<int32_t>(0x0)
+  /// @brief Field Inherit value: I32(0)
   static ::UnityEngine::UIElements::LanguageDirection const Inherit;
 
-  /// @brief Field LTR value: static_cast<int32_t>(0x1)
+  /// @brief Field LTR value: I32(1)
   static ::UnityEngine::UIElements::LanguageDirection const LTR;
 
-  /// @brief Field RTL value: static_cast<int32_t>(0x2)
+  /// @brief Field RTL value: I32(2)
   static ::UnityEngine::UIElements::LanguageDirection const RTL;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6303 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LanguageDirection, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::LanguageDirection, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LanguageDirection, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LanguageDirection, "UnityEngine.UIElements", "LanguageDirection");

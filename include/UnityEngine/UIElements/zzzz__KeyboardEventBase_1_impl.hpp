@@ -1,21 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/KeyboardEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IKeyboardEvent_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardEventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IKeyboardEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-/// @brief Convert operator to "::UnityEngine::UIElements::IKeyboardEvent"
-template <typename T> constexpr UnityEngine::UIElements::KeyboardEventBase_1<T>::operator ::UnityEngine::UIElements::IKeyboardEvent*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IKeyboardEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IKeyboardEvent"
-template <typename T> constexpr ::UnityEngine::UIElements::IKeyboardEvent* UnityEngine::UIElements::KeyboardEventBase_1<T>::i___UnityEngine__UIElements__IKeyboardEvent() noexcept {
-  return static_cast<::UnityEngine::UIElements::IKeyboardEvent*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::KeyboardEventBase_1<T>::__cordl_internal_get__modifiers_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
@@ -131,13 +123,21 @@ template <typename T> inline T UnityEngine::UIElements::KeyboardEventBase_1<T>::
                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Event*>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, systemEvent);
 }
-template <typename T> inline ::UnityEngine::UIElements::KeyboardEventBase_1<T>* UnityEngine::UIElements::KeyboardEventBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::KeyboardEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::KeyboardEventBase_1<T>* UnityEngine::UIElements::KeyboardEventBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IKeyboardEvent"
+template <typename T> constexpr UnityEngine::UIElements::KeyboardEventBase_1<T>::operator ::UnityEngine::UIElements::IKeyboardEvent*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IKeyboardEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IKeyboardEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::IKeyboardEvent* UnityEngine::UIElements::KeyboardEventBase_1<T>::i___UnityEngine__UIElements__IKeyboardEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::IKeyboardEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::KeyboardEventBase_1<T>::KeyboardEventBase_1() {}

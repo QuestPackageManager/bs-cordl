@@ -16,26 +16,25 @@ struct StringConcat;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Xsl::Runtime::StringConcat);
-// Type: System.Xml.Xsl.Runtime::StringConcat
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Xsl::Runtime {
 // Is value type: true
-// CS Name: ::System.Xml.Xsl.Runtime::StringConcat
+// CS Name: System.Xml.Xsl.Runtime.StringConcat
 struct CORDL_TYPE StringConcat {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x4330f2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4392240, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ConcatNoDelimiter, addr 0x4331034, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ConcatNoDelimiter, addr 0x4392348, size 0x2ac, virtual false, abstract: false, final false
   inline void ConcatNoDelimiter(::StringW s);
 
-  /// @brief Method GetResult, addr 0x4330f40, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x4392254, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetResult();
 
-  /// @brief Method get_Count, addr 0x4330f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x439224c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   // Ctor Parameters []
@@ -47,6 +46,12 @@ public:
   // None }, CppParam { name: "strList", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "idxStr", ty: "int32_t", modifiers: "", def_value:
   // None }]
   constexpr StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter, ::System::Collections::Generic::List_1<::StringW>* strList, int32_t idxStr) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7469 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field s1, offset: 0x0, size: 0x8, def value: None
   ::StringW s1;
@@ -69,17 +74,9 @@ public:
   /// @brief Field idxStr, offset: 0x30, size: 0x4, def value: None
   int32_t idxStr;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7444 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Xsl::Runtime::StringConcat, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, s1) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, s2) == 0x8, "Offset mismatch!");
@@ -93,6 +90,8 @@ static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, delimiter) == 
 static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, strList) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, idxStr) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Xsl::Runtime::StringConcat, 0x38>, "Size mismatch!");
 
 } // namespace System::Xml::Xsl::Runtime
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");

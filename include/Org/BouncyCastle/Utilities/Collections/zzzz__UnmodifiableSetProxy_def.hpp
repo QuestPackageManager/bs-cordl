@@ -24,11 +24,10 @@ class UnmodifiableSetProxy;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy);
-// Type: Org.BouncyCastle.Utilities.Collections::UnmodifiableSetProxy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.Collections.UnmodifiableSet
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableSetProxy*
+// CS Name: Org.BouncyCastle.Utilities.Collections.UnmodifiableSetProxy
 class CORDL_TYPE UnmodifiableSetProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet {
 public:
   // Declarations
@@ -45,39 +44,39 @@ public:
   /// @brief Field s, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) ::Org::BouncyCastle::Utilities::Collections::ISet* s;
 
-  /// @brief Method Contains, addr 0x259ffe4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x25d32d0, size 0xac, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* o);
 
-  /// @brief Method CopyTo, addr 0x25a0090, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x25d337c, size 0xb8, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x25a01ec, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x25d34d8, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* s);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_s();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* const& __cordl_internal_get_s() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_s() const;
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_s();
 
   constexpr void __cordl_internal_set_s(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method .ctor, addr 0x259c424, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cf710, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet* s);
 
-  /// @brief Method get_Count, addr 0x25a0148, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x25d3434, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x25a028c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x25d3578, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_IsFixedSize, addr 0x25a0330, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x25d361c, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized, addr 0x25a03d4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x25d36c0, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x25a0478, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x25d3764, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
 protected:
@@ -94,18 +93,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnmodifiableSetProxy(UnmodifiableSetProxy const&) = delete;
 
-  /// @brief Field s, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___s;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1790 };
+
+  /// @brief Field s, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Utilities::Collections::ISet* ___s;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy, ___s) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Collections
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy);

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FxBeatmapEventData::*)(float_t, int32_t, int32_t, bool)>(
     &::GlobalNamespace::FxBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2215f58;
+  constexpr static std::size_t addrs = 0x2240fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::FxBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2215fbc;
+  constexpr static std::size_t addrs = 0x2241030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,9 +68,6 @@ constexpr void GlobalNamespace::FxBeatmapEventData::__cordl_internal_set_usePrev
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePreviousEventValue = value;
 }
-inline ::GlobalNamespace::FxBeatmapEventData* GlobalNamespace::FxBeatmapEventData::New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FxBeatmapEventData*>(time, groupId, elementId, usePreviousEventValue));
-}
 inline void GlobalNamespace::FxBeatmapEventData::_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FxBeatmapEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -83,6 +80,9 @@ inline int32_t GlobalNamespace::FxBeatmapEventData::SubtypeIdentifier(int32_t gr
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FxBeatmapEventData*>::get(), "SubtypeIdentifier", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, groupId, elementId);
+}
+inline ::GlobalNamespace::FxBeatmapEventData* GlobalNamespace::FxBeatmapEventData::New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FxBeatmapEventData*>(time, groupId, elementId, usePreviousEventValue));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FxBeatmapEventData::FxBeatmapEventData() {}

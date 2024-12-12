@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
 CORDL_MODULE_EXPORT(Root)
 namespace MS::Internal::Xml::XPath {
-struct __AstNode__AstType;
+struct AstNode_AstType;
 }
 namespace System::Xml::XPath {
 struct XPathResultType;
@@ -17,28 +17,27 @@ class Root;
 }
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::Root);
-// Type: MS.Internal.Xml.XPath::Root
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MS.Internal.Xml.XPath.AstNode
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
-// CS Name: ::MS.Internal.Xml.XPath::Root*
+// CS Name: MS.Internal.Xml.XPath.Root
 class CORDL_TYPE Root : public ::MS::Internal::Xml::XPath::AstNode {
 public:
   // Declarations
   __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::AstNode_AstType Type;
 
   static inline ::MS::Internal::Xml::XPath::Root* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42a42ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43055c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReturnType, addr 0x42a42bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x43055d0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x42a42b4, size 0x8, virtual true, abstract: false, final false
-  inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
+  /// @brief Method get_Type, addr 0x43055c8, size 0x8, virtual true, abstract: false, final false
+  inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
   // Ctor Parameters []
@@ -55,7 +54,7 @@ public:
   Root(Root const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

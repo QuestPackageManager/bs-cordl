@@ -9,83 +9,82 @@
 #include "GlobalNamespace/zzzz__FloatFxGroupEffect_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__FloatFxGroupEffect__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::FloatFxGroupEffect_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FloatFxGroupEffect__InitData::*)(
-    int32_t, int32_t, ::GlobalNamespace::FloatFxGroupEffectTarget*)>(&::GlobalNamespace::__FloatFxGroupEffect__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::FloatFxGroupEffect_InitData::*)(int32_t, int32_t, ::GlobalNamespace::FloatFxGroupEffectTarget*)>(&::GlobalNamespace::FloatFxGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b287c8;
+  constexpr static std::size_t addrs = 0x3b89d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FloatFxGroupEffect__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxGroupEffect_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroupEffectTarget*>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_get_groupId() {
+constexpr int32_t& GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_get_groupId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
-constexpr int32_t const& GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_get_groupId() const {
+constexpr int32_t const& GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_get_groupId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
-constexpr void GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_set_groupId(int32_t value) {
+constexpr void GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_set_groupId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___groupId = value;
 }
-constexpr int32_t& GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_get_elementId() {
+constexpr int32_t& GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_get_elementId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
-constexpr int32_t const& GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_get_elementId() const {
+constexpr int32_t const& GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_get_elementId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
-constexpr void GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_set_elementId(int32_t value) {
+constexpr void GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_set_elementId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementId = value;
 }
-constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>& GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_get_target() {
+constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>& GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_get_target() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
-constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> const& GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_get_target() const {
+constexpr ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> const& GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_get_target() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
-constexpr void GlobalNamespace::__FloatFxGroupEffect__InitData::__cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value) {
+constexpr void GlobalNamespace::FloatFxGroupEffect_InitData::__cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__FloatFxGroupEffect__InitData* GlobalNamespace::__FloatFxGroupEffect__InitData::New_ctor(int32_t groupId, int32_t elementId,
-                                                                                                                    ::GlobalNamespace::FloatFxGroupEffectTarget* target) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FloatFxGroupEffect__InitData*>(groupId, elementId, target));
-}
-inline void GlobalNamespace::__FloatFxGroupEffect__InitData::_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target) {
+inline void GlobalNamespace::FloatFxGroupEffect_InitData::_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FloatFxGroupEffect__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxGroupEffect_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroupEffectTarget*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, target);
 }
+inline ::GlobalNamespace::FloatFxGroupEffect_InitData* GlobalNamespace::FloatFxGroupEffect_InitData::New_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FloatFxGroupEffect_InitData*>(groupId, elementId, target));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FloatFxGroupEffect__InitData::__FloatFxGroupEffect__InitData() {}
+constexpr ::GlobalNamespace::FloatFxGroupEffect_InitData::FloatFxGroupEffect_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::FloatFxGroupEffect._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)(
-    ::GlobalNamespace::__FloatFxGroupEffect__InitData*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(&::GlobalNamespace::FloatFxGroupEffect::_ctor)> {
+    ::GlobalNamespace::FloatFxGroupEffect_InitData*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(&::GlobalNamespace::FloatFxGroupEffect::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3b28ae8;
+  constexpr static std::size_t addrs = 0x3b8a080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__FloatFxGroupEffect__InitData*>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroupEffect_InitData*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tweening::SongTimeTweeningManager*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get() })));
     return ___internal_method;
@@ -96,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)()>(&::GlobalNamespace::FloatFxGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2894c;
+  constexpr static std::size_t addrs = 0x3b89ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxGroupEffect*>::get(), "Cleanup",
@@ -110,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)(::GlobalNamespace::FloatFxBeatmapEventData*)>(
     &::GlobalNamespace::FloatFxGroupEffect::HandleFloatFxBeatmapEventCallback)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3b28cbc;
+  constexpr static std::size_t addrs = 0x3b8a254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxGroupEffect::*)(float_t)>(&::GlobalNamespace::FloatFxGroupEffect::SetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b28dc8;
+  constexpr static std::size_t addrs = 0x3b8a360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +148,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Float
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -161,7 +160,7 @@ constexpr ::Tweening::FloatTween*& GlobalNamespace::FloatFxGroupEffect::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__floatTween() const {
+constexpr ::Tweening::FloatTween* const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__floatTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatTween;
 }
@@ -173,8 +172,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Float
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxBeatmapEventCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__floatFxBeatmapEventCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__floatFxBeatmapEventCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxBeatmapEventCallbackWrapper;
 }
@@ -182,28 +180,23 @@ constexpr void GlobalNamespace::FloatFxGroupEffect::__cordl_internal_set__floatF
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxBeatmapEventCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__FloatFxGroupEffect__InitData*& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::FloatFxGroupEffect_InitData*& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FloatFxGroupEffect__InitData*> const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::FloatFxGroupEffect_InitData* const& GlobalNamespace::FloatFxGroupEffect::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::FloatFxGroupEffect::__cordl_internal_set__initData(::GlobalNamespace::__FloatFxGroupEffect__InitData* value) {
+constexpr void GlobalNamespace::FloatFxGroupEffect::__cordl_internal_set__initData(::GlobalNamespace::FloatFxGroupEffect_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::FloatFxGroupEffect* GlobalNamespace::FloatFxGroupEffect::New_ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData,
-                                                                                            ::Tweening::SongTimeTweeningManager* tweeningManager,
-                                                                                            ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FloatFxGroupEffect*>(initData, tweeningManager, beatmapCallbacksController));
-}
-inline void GlobalNamespace::FloatFxGroupEffect::_ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
+inline void GlobalNamespace::FloatFxGroupEffect::_ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                        ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__FloatFxGroupEffect__InitData*>::get(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroupEffect_InitData*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tweening::SongTimeTweeningManager*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initData, tweeningManager, beatmapCallbacksController);
@@ -224,6 +217,11 @@ inline void GlobalNamespace::FloatFxGroupEffect::SetValue(float_t value) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxGroupEffect*>::get(), "SetValue",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::GlobalNamespace::FloatFxGroupEffect* GlobalNamespace::FloatFxGroupEffect::New_ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData,
+                                                                                            ::Tweening::SongTimeTweeningManager* tweeningManager,
+                                                                                            ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FloatFxGroupEffect*>(initData, tweeningManager, beatmapCallbacksController));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatFxGroupEffect::FloatFxGroupEffect() {}

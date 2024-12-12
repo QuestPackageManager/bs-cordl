@@ -12,11 +12,10 @@ struct CompareOptions;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::CompareOptions);
-// Type: System.Globalization::CompareOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::System.Globalization::CompareOptions
+// CS Name: System.Globalization.CompareOptions
 struct CORDL_TYPE CompareOptions {
 public:
   // Declarations
@@ -52,34 +51,31 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CompareOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field IgnoreCase value: static_cast<int32_t>(0x1)
+  /// @brief Field IgnoreCase value: I32(1)
   static ::System::Globalization::CompareOptions const IgnoreCase;
 
-  /// @brief Field IgnoreKanaType value: static_cast<int32_t>(0x8)
+  /// @brief Field IgnoreKanaType value: I32(8)
   static ::System::Globalization::CompareOptions const IgnoreKanaType;
 
-  /// @brief Field IgnoreNonSpace value: static_cast<int32_t>(0x2)
+  /// @brief Field IgnoreNonSpace value: I32(2)
   static ::System::Globalization::CompareOptions const IgnoreNonSpace;
 
-  /// @brief Field IgnoreSymbols value: static_cast<int32_t>(0x4)
+  /// @brief Field IgnoreSymbols value: I32(4)
   static ::System::Globalization::CompareOptions const IgnoreSymbols;
 
-  /// @brief Field IgnoreWidth value: static_cast<int32_t>(0x10)
+  /// @brief Field IgnoreWidth value: I32(16)
   static ::System::Globalization::CompareOptions const IgnoreWidth;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Globalization::CompareOptions const None;
 
-  /// @brief Field Ordinal value: static_cast<int32_t>(0x40000000)
+  /// @brief Field Ordinal value: I32(1073741824)
   static ::System::Globalization::CompareOptions const Ordinal;
 
-  /// @brief Field OrdinalIgnoreCase value: static_cast<int32_t>(0x10000000)
+  /// @brief Field OrdinalIgnoreCase value: I32(268435456)
   static ::System::Globalization::CompareOptions const OrdinalIgnoreCase;
 
-  /// @brief Field StringSort value: static_cast<int32_t>(0x20000000)
+  /// @brief Field StringSort value: I32(536870912)
   static ::System::Globalization::CompareOptions const StringSort;
 
   /// @brief IL2CPP Metadata Type Index
@@ -88,12 +84,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::CompareOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::CompareOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::CompareOptions, 0x4>, "Size mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CompareOptions, "System.Globalization", "CompareOptions");

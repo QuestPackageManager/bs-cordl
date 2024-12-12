@@ -28,11 +28,10 @@ class ArrayByRefUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ArrayByRefUpdater);
-// Type: System.Linq.Expressions.Interpreter::ArrayByRefUpdater
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.ByRefUpdater, System.Linq.Expressions.Interpreter.LocalDefinition
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::ArrayByRefUpdater*
+// CS Name: System.Linq.Expressions.Interpreter.ArrayByRefUpdater
 class CORDL_TYPE ArrayByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater {
 public:
   // Declarations
@@ -45,10 +44,10 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::ArrayByRefUpdater* New_ctor(::System::Linq::Expressions::Interpreter::LocalDefinition array,
                                                                                       ::System::Linq::Expressions::Interpreter::LocalDefinition index, int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x4083208, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x40e451c, size 0x78, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x40830fc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x40e4410, size 0x10c, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::System::Linq::Expressions::Interpreter::LocalDefinition const& __cordl_internal_get__array() const;
@@ -63,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__index(::System::Linq::Expressions::Interpreter::LocalDefinition value);
 
-  /// @brief Method .ctor, addr 0x40830ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e43c0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LocalDefinition array, ::System::Linq::Expressions::Interpreter::LocalDefinition index, int32_t argumentIndex);
 
 protected:
@@ -80,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArrayByRefUpdater(ArrayByRefUpdater const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13948 };
+
   /// @brief Field _array, offset: 0x18, size: 0x10, def value: None
   ::System::Linq::Expressions::Interpreter::LocalDefinition ____array;
 
   /// @brief Field _index, offset: 0x28, size: 0x10, def value: None
   ::System::Linq::Expressions::Interpreter::LocalDefinition ____index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13914 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ArrayByRefUpdater, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ArrayByRefUpdater, ____array) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ArrayByRefUpdater, ____index) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ArrayByRefUpdater, 0x38>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ArrayByRefUpdater);

@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Linq/Expressions/Interpreter/zzzz__IBoxableInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InitializeLocalInstruction_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitializeLocalInstruction_ImmutableValue)
-namespace System::Linq::Expressions::Interpreter {
-class IBoxableInstruction;
-}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
 }
@@ -20,17 +18,16 @@ namespace System {
 class Object;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__ImmutableValue;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_ImmutableValue;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue);
-// Type: ::ImmutableValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::InitializeLocalInstruction_ImmutableValue);
+// Dependencies System.Linq.Expressions.Interpreter.IBoxableInstruction, System.Linq.Expressions.Interpreter.InitializeLocalInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::InitializeLocalInstruction::ImmutableValue*
-class CORDL_TYPE __InitializeLocalInstruction__ImmutableValue : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.InitializeLocalInstruction/ImmutableValue
+class CORDL_TYPE InitializeLocalInstruction_ImmutableValue : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction {
 public:
   // Declarations
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
@@ -41,24 +38,24 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x408786c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x40e8b80, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
-  static inline ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue* New_ctor(int32_t index, ::System::Object* defaultValue);
+  static inline ::GlobalNamespace::InitializeLocalInstruction_ImmutableValue* New_ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method Run, addr 0x4087800, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40e8b14, size 0x6c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+
+  constexpr ::System::Object* const& __cordl_internal_get__defaultValue() const;
 
   constexpr ::System::Object*& __cordl_internal_get__defaultValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__defaultValue() const;
-
   constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x40877d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e8ae4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method get_InstructionName, addr 0x4087918, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40e8c2c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -67,30 +64,30 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InitializeLocalInstruction__ImmutableValue();
+  constexpr InitializeLocalInstruction_ImmutableValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InitializeLocalInstruction__ImmutableValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ImmutableValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InitializeLocalInstruction__ImmutableValue(__InitializeLocalInstruction__ImmutableValue&&) = delete;
+  InitializeLocalInstruction_ImmutableValue(InitializeLocalInstruction_ImmutableValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InitializeLocalInstruction__ImmutableValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ImmutableValue", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InitializeLocalInstruction__ImmutableValue(__InitializeLocalInstruction__ImmutableValue const&) = delete;
+  InitializeLocalInstruction_ImmutableValue(InitializeLocalInstruction_ImmutableValue const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13969 };
 
   /// @brief Field _defaultValue, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____defaultValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13935 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitializeLocalInstruction_ImmutableValue, ____defaultValue) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue, ____defaultValue) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InitializeLocalInstruction_ImmutableValue, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue*, "System.Linq.Expressions.Interpreter", "InitializeLocalInstruction/ImmutableValue");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::InitializeLocalInstruction_ImmutableValue);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InitializeLocalInstruction_ImmutableValue*, "System.Linq.Expressions.Interpreter", "InitializeLocalInstruction/ImmutableValue");

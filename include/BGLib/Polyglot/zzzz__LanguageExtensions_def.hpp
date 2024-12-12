@@ -9,27 +9,32 @@ CORDL_MODULE_EXPORT(LanguageExtensions)
 namespace BGLib::Polyglot {
 struct Language;
 }
+namespace UnityEngine {
+struct SystemLanguage;
+}
 // Forward declare root types
 namespace BGLib::Polyglot {
 class LanguageExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LanguageExtensions);
-// Type: BGLib.Polyglot::LanguageExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
-// CS Name: ::BGLib.Polyglot::LanguageExtensions*
+// CS Name: BGLib.Polyglot.LanguageExtensions
 class CORDL_TYPE LanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToCultureInfoName, addr 0x2278354, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToCultureInfoName, addr 0x22aacb0, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::Language lang);
 
-  /// @brief Method ToLanguage, addr 0x227840c, size 0x104c, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0x22aad68, size 0x1398, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ToLanguage(::StringW serializedName);
 
-  /// @brief Method ToSerializedName, addr 0x22781a4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0x22ac17c, size 0xe8, virtual false, abstract: false, final false
+  static inline ::BGLib::Polyglot::Language ToLanguage(::UnityEngine::SystemLanguage systemLanguage, bool useFallbackLanguage);
+
+  /// @brief Method ToSerializedName, addr 0x22aab00, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW ToSerializedName(::BGLib::Polyglot::Language lang);
 
 protected:
@@ -47,7 +52,7 @@ public:
   LanguageExtensions(LanguageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18041 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

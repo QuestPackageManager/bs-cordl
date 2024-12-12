@@ -1,51 +1,47 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryPairedUserAccountCommand.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__QueryPairedUserAccountCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryPairedUserAccountCommand_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryPairedUserAccountCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result::__QueryPairedUserAccountCommand__Result(int64_t value__) noexcept {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result::QueryPairedUserAccountCommand_Result(int64_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result::__QueryPairedUserAccountCommand__Result() {}
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result::DevicePairedToUserAccount{
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result::QueryPairedUserAccountCommand_Result() {}
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result::DevicePairedToUserAccount{
   static_cast<int64_t>(0x2)
 };
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result::UserAccountSelectionInProgress{
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result::UserAccountSelectionInProgress{
   static_cast<int64_t>(0x4)
 };
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result::UserAccountSelectionComplete{
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result::UserAccountSelectionComplete{
   static_cast<int64_t>(0x8)
 };
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result::UserAccountSelectionCanceled{
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result::UserAccountSelectionCanceled{
   static_cast<int64_t>(0x10)
 };
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer(
-    uint8_t FixedElementField) noexcept {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer() {}
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer() {}
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer(
-    uint8_t FixedElementField) noexcept {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer() {}
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand.get_Type
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45a552c;
+  constexpr static std::size_t addrs = 0x4606840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_id)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45a555c;
+  constexpr static std::size_t addrs = 0x4606870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::set_id)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x45a556c;
+  constexpr static std::size_t addrs = 0x4606880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_name)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45a567c;
+  constexpr static std::size_t addrs = 0x4606990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::set_name)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x45a568c;
+  constexpr static std::size_t addrs = 0x46069a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45a579c;
+  constexpr static std::size_t addrs = 0x4606ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45a57cc;
+  constexpr static std::size_t addrs = 0x4606ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,15 +140,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-constexpr UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*
-UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_get_baseCommand() {
   return this->___baseCommand;
 }
@@ -171,28 +158,28 @@ constexpr uint64_t const& UnityEngine::InputSystem::LowLevel::QueryPairedUserAcc
 constexpr void UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_set_handle(uint64_t value) {
   this->___handle = value;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer&
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer&
 UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_get_nameBuffer() {
   return this->___nameBuffer;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer const&
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer const&
 UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_get_nameBuffer() const {
   return this->___nameBuffer;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_set_nameBuffer(
-    ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer value) {
+    ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer value) {
   this->___nameBuffer = value;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer&
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer&
 UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_get_idBuffer() {
   return this->___idBuffer;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer const&
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer const&
 UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_get_idBuffer() const {
   return this->___idBuffer;
 }
-constexpr void UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_set_idBuffer(
-    ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer value) {
+constexpr void
+UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::__cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer value) {
   this->___idBuffer = value;
 }
 inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::get_Type() {
@@ -237,12 +224,21 @@ inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Unity
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand, false>(nullptr, ___internal_method);
 }
+/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*
+UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }, CppParam { name: "handle", ty: "uint64_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "idBuffer", ty: "::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "idBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand::QueryPairedUserAccountCommand(
-    ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint64_t handle, ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer nameBuffer,
-    ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer idBuffer) noexcept {
+    ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint64_t handle, ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer nameBuffer,
+    ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer idBuffer) noexcept {
   this->baseCommand = baseCommand;
   this->handle = handle;
   this->nameBuffer = nameBuffer;

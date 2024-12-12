@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Data/Common/zzzz__DataStorage_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeStorage)
@@ -30,11 +29,10 @@ class DateTimeStorage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Common::DateTimeStorage);
-// Type: System.Data.Common::DateTimeStorage
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.Common.DataStorage, System.DateTime
 namespace System::Data::Common {
 // Is value type: false
-// CS Name: ::System.Data.Common::DateTimeStorage*
+// CS Name: System.Data.Common.DateTimeStorage
 class CORDL_TYPE DateTimeStorage : public ::System::Data::Common::DataStorage {
 public:
   // Declarations
@@ -42,47 +40,47 @@ public:
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> _values;
 
   /// @brief Field s_defaultValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_defaultValue, put = setStaticF_s_defaultValue)) ::System::DateTime s_defaultValue;
+  __declspec(property(get = getStaticF_s_defaultValue, put = setStaticF_s_defaultValue)) ::System::DateTime s_defaultValue;
 
-  /// @brief Method Aggregate, addr 0x41817c4, size 0x4c8, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x41e2ad8, size 0x4c8, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x4181c8c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x41e2fa0, size 0x178, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x4181e04, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x41e3118, size 0x164, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x41826ec, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x41e3a00, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x4181f68, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x41e327c, size 0x150, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x4182638, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x41e394c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x41820b8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x41e33cc, size 0x54, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x41827e8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x41e3afc, size 0x160, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x418210c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x41e3420, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x41827a0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x41e3ab4, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::DateTimeStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x4182204, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x41e3518, size 0x374, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x4182578, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x41e388c, size 0xc0, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x4182948, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x41e3c5c, size 0x1ec, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> const& __cordl_internal_get__values() const;
@@ -91,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> value);
 
-  /// @brief Method .ctor, addr 0x417e7b0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41dfac4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
   static inline ::System::DateTime getStaticF_s_defaultValue();
@@ -112,18 +110,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DateTimeStorage(DateTimeStorage const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11527 };
+
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> ____values;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::Common::DateTimeStorage, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::Common::DateTimeStorage, ____values) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::Common::DateTimeStorage, 0x58>, "Size mismatch!");
 
 } // namespace System::Data::Common
 NEED_NO_BOX(::System::Data::Common::DateTimeStorage);

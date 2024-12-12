@@ -22,11 +22,10 @@ class AndroidAssetPackInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackInfo);
-// Type: UnityEngine.Android::AndroidAssetPackInfo
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Android.AndroidAssetPackError, UnityEngine.Android.AndroidAssetPackStatus
 namespace UnityEngine::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.Android::AndroidAssetPackInfo*
+// CS Name: UnityEngine.Android.AndroidAssetPackInfo
 class CORDL_TYPE AndroidAssetPackInfo : public ::System::Object {
 public:
   // Declarations
@@ -87,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__transferProgress_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x47e8494, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48497a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
                     ::UnityEngine::Android::AndroidAssetPackError error);
 
@@ -104,6 +103,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidAssetPackInfo(AndroidAssetPackInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16767 };
 
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
@@ -123,14 +125,9 @@ public:
   /// @brief Field <error>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidAssetPackError ____error_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16729 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidAssetPackInfo, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackInfo, ____name_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackInfo, ____status_k__BackingField) == 0x18, "Offset mismatch!");
@@ -142,6 +139,8 @@ static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackInfo, ____bytesDo
 static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackInfo, ____transferProgress_k__BackingField) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackInfo, ____error_k__BackingField) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidAssetPackInfo, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::Android
 NEED_NO_BOX(::UnityEngine::Android::AndroidAssetPackInfo);

@@ -11,17 +11,16 @@ class CodeDomProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::CSharp::CodeDomProvider);
-// Type: Microsoft.CSharp::CodeDomProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Microsoft::CSharp {
 // Is value type: false
-// CS Name: ::Microsoft.CSharp::CodeDomProvider*
+// CS Name: Microsoft.CSharp.CodeDomProvider
 class CORDL_TYPE CodeDomProvider : public ::System::Object {
 public:
   // Declarations
   static inline ::Microsoft::CSharp::CodeDomProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41d2f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4234218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   CodeDomProvider(CodeDomProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7144 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

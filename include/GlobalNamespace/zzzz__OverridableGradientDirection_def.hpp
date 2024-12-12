@@ -12,17 +12,16 @@ class OverridableGradientDirection;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OverridableGradientDirection);
-// Type: ::OverridableGradientDirection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies GradientDirection, StyledUITemplates.OverridableData`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OverridableGradientDirection*
+// CS Name: OverridableGradientDirection
 class CORDL_TYPE OverridableGradientDirection : public ::StyledUITemplates::OverridableData_1<::GlobalNamespace::GradientDirection> {
 public:
   // Declarations
   static inline ::GlobalNamespace::OverridableGradientDirection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224e16c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22805ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +39,7 @@ public:
   OverridableGradientDirection(OverridableGradientDirection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

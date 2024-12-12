@@ -11,13 +11,12 @@ template <typename T> class NativeArrayReadOnlyDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Collections::NativeArrayReadOnlyDebugView_1);
-// Type: Unity.Collections::NativeArrayReadOnlyDebugView`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Unity.Collections::NativeArrayReadOnlyDebugView`1<T>*
+// CS Name: Unity.Collections.NativeArrayReadOnlyDebugView`1<T>
 class CORDL_TYPE NativeArrayReadOnlyDebugView_1 : public ::System::Object {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
   NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10603 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

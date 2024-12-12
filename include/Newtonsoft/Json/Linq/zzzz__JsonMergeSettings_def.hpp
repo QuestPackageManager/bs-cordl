@@ -23,11 +23,10 @@ class JsonMergeSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonMergeSettings);
-// Type: Newtonsoft.Json.Linq::JsonMergeSettings
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Linq.MergeArrayHandling, Newtonsoft.Json.Linq.MergeNullValueHandling, System.Object, System.StringComparison
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Linq::JsonMergeSettings*
+// CS Name: Newtonsoft.Json.Linq.JsonMergeSettings
 class CORDL_TYPE JsonMergeSettings : public ::System::Object {
 public:
   // Declarations
@@ -66,25 +65,25 @@ public:
 
   constexpr void __cordl_internal_set__propertyNameComparison(::System::StringComparison value);
 
-  /// @brief Method .ctor, addr 0x3ebdc6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1dd18, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MergeArrayHandling, addr 0x3ebdc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeArrayHandling, addr 0x3f1dd38, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeArrayHandling get_MergeArrayHandling();
 
-  /// @brief Method get_MergeNullValueHandling, addr 0x3ebdcf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeNullValueHandling, addr 0x3f1dda0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeNullValueHandling get_MergeNullValueHandling();
 
-  /// @brief Method get_PropertyNameComparison, addr 0x3ebdd5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameComparison, addr 0x3f1de08, size 0x8, virtual false, abstract: false, final false
   inline ::System::StringComparison get_PropertyNameComparison();
 
-  /// @brief Method set_MergeArrayHandling, addr 0x3ebdc94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_MergeArrayHandling, addr 0x3f1dd40, size 0x60, virtual false, abstract: false, final false
   inline void set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
 
-  /// @brief Method set_MergeNullValueHandling, addr 0x3ebdcfc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_MergeNullValueHandling, addr 0x3f1dda8, size 0x60, virtual false, abstract: false, final false
   inline void set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
-  /// @brief Method set_PropertyNameComparison, addr 0x3ebdd64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameComparison, addr 0x3f1de10, size 0x60, virtual false, abstract: false, final false
   inline void set_PropertyNameComparison(::System::StringComparison value);
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonMergeSettings(JsonMergeSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10414 };
+
   /// @brief Field _mergeArrayHandling, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::MergeArrayHandling ____mergeArrayHandling;
 
@@ -110,19 +112,16 @@ public:
   /// @brief Field _propertyNameComparison, offset: 0x18, size: 0x4, def value: None
   ::System::StringComparison ____propertyNameComparison;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10389 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonMergeSettings, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonMergeSettings, ____mergeArrayHandling) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonMergeSettings, ____mergeNullValueHandling) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonMergeSettings, ____propertyNameComparison) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonMergeSettings, 0x20>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonMergeSettings);

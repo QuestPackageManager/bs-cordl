@@ -11,26 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchRendererCullingOutput)
-namespace Unity::Jobs {
-struct JobHandle;
-}
-namespace UnityEngine::Rendering {
-struct BatchCullingFlags;
-}
 namespace UnityEngine::Rendering {
 struct BatchCullingOutputDrawCommands;
 }
 namespace UnityEngine::Rendering {
-struct BatchCullingProjectionType;
-}
-namespace UnityEngine::Rendering {
-struct BatchCullingViewType;
-}
-namespace UnityEngine::Rendering {
 struct CullingSplit;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Plane;
@@ -41,11 +26,10 @@ struct BatchRendererCullingOutput;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchRendererCullingOutput);
-// Type: UnityEngine.Rendering::BatchRendererCullingOutput
-// SizeInfo { instance_size: 160, native_size: 160, calculated_instance_size: 160, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Jobs.JobHandle, UnityEngine.Matrix4x4, UnityEngine.Rendering.BatchCullingFlags, UnityEngine.Rendering.BatchCullingProjectionType, UnityEngine.Rendering.BatchCullingViewType
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::BatchRendererCullingOutput
+// CS Name: UnityEngine.Rendering.BatchRendererCullingOutput
 struct CORDL_TYPE BatchRendererCullingOutput {
 public:
   // Declarations
@@ -67,6 +51,12 @@ public:
                                        int32_t cullingSplitCount, ::UnityEngine::Rendering::BatchCullingViewType viewType, ::UnityEngine::Rendering::BatchCullingProjectionType projectionType,
                                        ::UnityEngine::Rendering::BatchCullingFlags cullingFlags, uint64_t viewID, uint32_t cullingLayerMask, uint64_t sceneCullingMask,
                                        ::cordl_internals::Ptr<::UnityEngine::Rendering::BatchCullingOutputDrawCommands> drawCommands) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11251 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
 
   /// @brief Field cullingJobsFence, offset: 0x0, size: 0x10, def value: None
   ::Unity::Jobs::JobHandle cullingJobsFence;
@@ -113,17 +103,9 @@ public:
   /// @brief Field drawCommands, offset: 0x98, size: 0x8, def value: None
   ::cordl_internals::Ptr<::UnityEngine::Rendering::BatchCullingOutputDrawCommands> drawCommands;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11218 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchRendererCullingOutput, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, cullingJobsFence) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, localToWorldMatrix) == 0x10, "Offset mismatch!");
@@ -153,6 +135,8 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, cul
 static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, sceneCullingMask) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, drawCommands) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchRendererCullingOutput, 0xa0>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");

@@ -3,31 +3,26 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ILevelPackProductData_1_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelProductData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SteamLevelProductCollectionModel)
 namespace GlobalNamespace {
-template <typename TLevelProductData> class ILevelPackProductData_1;
+class SteamLevelProductCollectionModel_LevelDepotData;
 }
 namespace GlobalNamespace {
-class ILevelProductData;
+class SteamLevelProductCollectionModel_LevelPackProductData;
+}
+namespace GlobalNamespace {
+class SteamLevelProductCollectionModel_LevelPackRedirectionData;
+}
+namespace GlobalNamespace {
+class SteamLevelProductCollectionModel_LevelProductData;
 }
 namespace GlobalNamespace {
 class SteamLevelProductPacksSO;
-}
-namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelDepotData;
-}
-namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelPackProductData;
-}
-namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelPackRedirectionData;
-}
-namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelProductData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -43,29 +38,28 @@ namespace GlobalNamespace {
 class SteamLevelProductCollectionModel;
 }
 namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelDepotData;
+class SteamLevelProductCollectionModel_LevelDepotData;
 }
 namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelPackProductData;
+class SteamLevelProductCollectionModel_LevelPackProductData;
 }
 namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelPackRedirectionData;
+class SteamLevelProductCollectionModel_LevelPackRedirectionData;
 }
 namespace GlobalNamespace {
-class __SteamLevelProductCollectionModel__LevelProductData;
+class SteamLevelProductCollectionModel_LevelProductData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SteamLevelProductCollectionModel);
-MARK_REF_PTR_T(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData);
-MARK_REF_PTR_T(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData);
-MARK_REF_PTR_T(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData);
-MARK_REF_PTR_T(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData);
-// Type: ::LevelDepotData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData);
+MARK_REF_PTR_T(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData);
+MARK_REF_PTR_T(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData);
+MARK_REF_PTR_T(::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SteamLevelProductCollectionModel::LevelDepotData*
-class CORDL_TYPE __SteamLevelProductCollectionModel__LevelDepotData : public ::System::Object {
+// CS Name: SteamLevelProductCollectionModel/LevelDepotData
+class CORDL_TYPE SteamLevelProductCollectionModel_LevelDepotData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field checkDepots, offset 0x10, size 0x1
@@ -74,7 +68,7 @@ public:
   /// @brief Field noEnvironmentKeywordsDepotId, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_noEnvironmentKeywordsDepotId, put = __cordl_internal_set_noEnvironmentKeywordsDepotId)) uint32_t noEnvironmentKeywordsDepotId;
 
-  static inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* New_ctor();
+  static inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* New_ctor();
 
   constexpr bool const& __cordl_internal_get_checkDepots() const;
 
@@ -88,22 +82,25 @@ public:
 
   constexpr void __cordl_internal_set_noEnvironmentKeywordsDepotId(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x26b2260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e6d2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SteamLevelProductCollectionModel__LevelDepotData();
+  constexpr SteamLevelProductCollectionModel_LevelDepotData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelDepotData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelDepotData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SteamLevelProductCollectionModel__LevelDepotData(__SteamLevelProductCollectionModel__LevelDepotData&&) = delete;
+  SteamLevelProductCollectionModel_LevelDepotData(SteamLevelProductCollectionModel_LevelDepotData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelDepotData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelDepotData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SteamLevelProductCollectionModel__LevelDepotData(__SteamLevelProductCollectionModel__LevelDepotData const&) = delete;
+  SteamLevelProductCollectionModel_LevelDepotData(SteamLevelProductCollectionModel_LevelDepotData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13147 };
 
   /// @brief Field checkDepots, offset: 0x10, size: 0x1, def value: None
   bool ___checkDepots;
@@ -111,54 +108,50 @@ public:
   /// @brief Field noEnvironmentKeywordsDepotId, offset: 0x14, size: 0x4, def value: None
   uint32_t ___noEnvironmentKeywordsDepotId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13112 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData, ___checkDepots) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData, ___checkDepots) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData, ___noEnvironmentKeywordsDepotId) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData, ___noEnvironmentKeywordsDepotId) == 0x14, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelProductData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILevelProductData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SteamLevelProductCollectionModel::LevelProductData*
-class CORDL_TYPE __SteamLevelProductCollectionModel__LevelProductData : public ::System::Object {
+// CS Name: SteamLevelProductCollectionModel/LevelProductData
+class CORDL_TYPE SteamLevelProductCollectionModel_LevelProductData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _appId, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__appId, put = __cordl_internal_set__appId)) uint32_t _appId;
 
   /// @brief Field _levelDepotData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelDepotData, put = __cordl_internal_set__levelDepotData)) ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* _levelDepotData;
+  __declspec(property(get = __cordl_internal_get__levelDepotData, put = __cordl_internal_set__levelDepotData)) ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* _levelDepotData;
 
   /// @brief Field _levelId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__levelId, put = __cordl_internal_set__levelId)) ::StringW _levelId;
 
   __declspec(property(get = get_appId)) uint32_t appId;
 
-  __declspec(property(get = get_levelDepotData)) ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* levelDepotData;
+  __declspec(property(get = get_levelDepotData)) ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* levelDepotData;
 
   __declspec(property(get = get_levelId)) ::StringW levelId;
 
   /// @brief Convert operator to "::GlobalNamespace::ILevelProductData"
   constexpr operator ::GlobalNamespace::ILevelProductData*() noexcept;
 
-  static inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* New_ctor(::StringW levelId, uint32_t appId);
+  static inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData* New_ctor(::StringW levelId, uint32_t appId);
 
   constexpr uint32_t const& __cordl_internal_get__appId() const;
 
   constexpr uint32_t& __cordl_internal_get__appId();
 
-  constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*& __cordl_internal_get__levelDepotData();
+  constexpr ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* const& __cordl_internal_get__levelDepotData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*> const& __cordl_internal_get__levelDepotData() const;
+  constexpr ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData*& __cordl_internal_get__levelDepotData();
 
   constexpr ::StringW const& __cordl_internal_get__levelId() const;
 
@@ -166,20 +159,20 @@ public:
 
   constexpr void __cordl_internal_set__appId(uint32_t value);
 
-  constexpr void __cordl_internal_set__levelDepotData(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* value);
+  constexpr void __cordl_internal_set__levelDepotData(::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* value);
 
   constexpr void __cordl_internal_set__levelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26b2280, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e6d4c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId, uint32_t appId);
 
-  /// @brief Method get_appId, addr 0x26b2268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_appId, addr 0x26e6d34, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_appId();
 
-  /// @brief Method get_levelDepotData, addr 0x26b2278, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* get_levelDepotData();
+  /// @brief Method get_levelDepotData, addr 0x26e6d44, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* get_levelDepotData();
 
-  /// @brief Method get_levelId, addr 0x26b2270, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelId, addr 0x26e6d3c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelId();
 
   /// @brief Convert to "::GlobalNamespace::ILevelProductData"
@@ -188,16 +181,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SteamLevelProductCollectionModel__LevelProductData();
+  constexpr SteamLevelProductCollectionModel_LevelProductData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelProductData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelProductData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SteamLevelProductCollectionModel__LevelProductData(__SteamLevelProductCollectionModel__LevelProductData&&) = delete;
+  SteamLevelProductCollectionModel_LevelProductData(SteamLevelProductCollectionModel_LevelProductData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelProductData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelProductData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SteamLevelProductCollectionModel__LevelProductData(__SteamLevelProductCollectionModel__LevelProductData const&) = delete;
+  SteamLevelProductCollectionModel_LevelProductData(SteamLevelProductCollectionModel_LevelProductData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13148 };
 
   /// @brief Field _levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelId;
@@ -206,29 +202,25 @@ public:
   uint32_t ____appId;
 
   /// @brief Field _levelDepotData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* ____levelDepotData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13113 };
+  ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* ____levelDepotData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData, ____levelId) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData, ____levelId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData, ____appId) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData, ____appId) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData, ____levelDepotData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData, ____levelDepotData) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelPackProductData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILevelPackProductData`1<TLevelProductData>, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SteamLevelProductCollectionModel::LevelPackProductData*
-class CORDL_TYPE __SteamLevelProductCollectionModel__LevelPackProductData : public ::System::Object {
+// CS Name: SteamLevelProductCollectionModel/LevelPackProductData
+class CORDL_TYPE SteamLevelProductCollectionModel_LevelPackProductData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bundleId, offset 0x18, size 0x4
@@ -239,21 +231,21 @@ public:
 
   /// @brief Field _levelProductsData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelProductsData,
-                      put = __cordl_internal_set__levelProductsData)) ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*,
-                                                                               ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>
+                      put = __cordl_internal_set__levelProductsData)) ::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*,
+                                                                               ::Array<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*>
       _levelProductsData;
 
   __declspec(property(get = get_bundleId)) uint32_t bundleId;
 
   __declspec(property(get = get_levelPackId)) ::StringW levelPackId;
 
-  __declspec(property(get = get_levelProductsData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* levelProductsData;
+  __declspec(property(get = get_levelProductsData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* levelProductsData;
 
-  /// @brief Convert operator to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
-  constexpr operator ::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>"
+  constexpr operator ::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*() noexcept;
 
-  static inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*
-  New_ctor(::StringW levelPackId, uint32_t bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* levelProducts);
+  static inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*
+  New_ctor(::StringW levelPackId, uint32_t bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* levelProducts);
 
   constexpr uint32_t const& __cordl_internal_get__bundleId() const;
 
@@ -263,10 +255,10 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__levelPackId();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*, ::Array<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*> const&
   __cordl_internal_get__levelProductsData() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>&
+  constexpr ::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*, ::Array<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*>&
   __cordl_internal_get__levelProductsData();
 
   constexpr void __cordl_internal_set__bundleId(uint32_t value);
@@ -274,37 +266,40 @@ public:
   constexpr void __cordl_internal_set__levelPackId(::StringW value);
 
   constexpr void __cordl_internal_set__levelProductsData(
-      ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> value);
+      ::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*, ::Array<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26b22c8, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::StringW levelPackId, uint32_t bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* levelProducts);
+  /// @brief Method .ctor, addr 0x26e6d94, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::StringW levelPackId, uint32_t bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* levelProducts);
 
-  /// @brief Method get_bundleId, addr 0x26b22b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bundleId, addr 0x26e6d7c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bundleId();
 
-  /// @brief Method get_levelPackId, addr 0x26b22b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackId, addr 0x26e6d84, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelPackId();
 
-  /// @brief Method get_levelProductsData, addr 0x26b22c0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* get_levelProductsData();
+  /// @brief Method get_levelProductsData, addr 0x26e6d8c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* get_levelProductsData();
 
-  /// @brief Convert to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
-  constexpr ::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*
-  i___GlobalNamespace__ILevelPackProductData_1___GlobalNamespace____SteamLevelProductCollectionModel__LevelProductData__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>"
+  constexpr ::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*
+  i___GlobalNamespace__ILevelPackProductData_1___GlobalNamespace__SteamLevelProductCollectionModel_LevelProductData__() noexcept;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SteamLevelProductCollectionModel__LevelPackProductData();
+  constexpr SteamLevelProductCollectionModel_LevelPackProductData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelPackProductData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelPackProductData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SteamLevelProductCollectionModel__LevelPackProductData(__SteamLevelProductCollectionModel__LevelPackProductData&&) = delete;
+  SteamLevelProductCollectionModel_LevelPackProductData(SteamLevelProductCollectionModel_LevelPackProductData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelPackProductData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelPackProductData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SteamLevelProductCollectionModel__LevelPackProductData(__SteamLevelProductCollectionModel__LevelPackProductData const&) = delete;
+  SteamLevelProductCollectionModel_LevelPackProductData(SteamLevelProductCollectionModel_LevelPackProductData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13149 };
 
   /// @brief Field _levelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelPackId;
@@ -313,29 +308,25 @@ public:
   uint32_t ____bundleId;
 
   /// @brief Field _levelProductsData, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> ____levelProductsData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13114 };
+  ::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*, ::Array<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*> ____levelProductsData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData, ____levelPackId) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData, ____levelPackId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData, ____bundleId) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData, ____bundleId) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData, ____levelProductsData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData, ____levelProductsData) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelPackRedirectionData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SteamLevelProductCollectionModel::LevelPackRedirectionData*
-class CORDL_TYPE __SteamLevelProductCollectionModel__LevelPackRedirectionData : public ::System::Object {
+// CS Name: SteamLevelProductCollectionModel/LevelPackRedirectionData
+class CORDL_TYPE SteamLevelProductCollectionModel_LevelPackRedirectionData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _redirectedBundleId, offset 0x20, size 0x4
@@ -358,7 +349,7 @@ public:
 
   __declspec(property(get = get_validUntilDate)) ::StringW validUntilDate;
 
-  static inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* New_ctor();
+  static inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData* New_ctor();
 
   constexpr uint32_t const& __cordl_internal_get__redirectedBundleId() const;
 
@@ -384,34 +375,37 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26b2368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e6e34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_redirectedBundleId, addr 0x26b2358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedBundleId, addr 0x26e6e24, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_redirectedBundleId();
 
-  /// @brief Method get_shouldOwnLevelPackId, addr 0x26b2350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shouldOwnLevelPackId, addr 0x26e6e1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shouldOwnLevelPackId();
 
-  /// @brief Method get_targetLevelPackId, addr 0x26b2348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetLevelPackId, addr 0x26e6e14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_targetLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x26b2360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x26e6e2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SteamLevelProductCollectionModel__LevelPackRedirectionData();
+  constexpr SteamLevelProductCollectionModel_LevelPackRedirectionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelPackRedirectionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SteamLevelProductCollectionModel__LevelPackRedirectionData(__SteamLevelProductCollectionModel__LevelPackRedirectionData&&) = delete;
+  SteamLevelProductCollectionModel_LevelPackRedirectionData(SteamLevelProductCollectionModel_LevelPackRedirectionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SteamLevelProductCollectionModel__LevelPackRedirectionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SteamLevelProductCollectionModel__LevelPackRedirectionData(__SteamLevelProductCollectionModel__LevelPackRedirectionData const&) = delete;
+  SteamLevelProductCollectionModel_LevelPackRedirectionData(SteamLevelProductCollectionModel_LevelPackRedirectionData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13150 };
 
   /// @brief Field _targetLevelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____targetLevelPackId;
@@ -425,107 +419,102 @@ public:
   /// @brief Field _validUntilDate, offset: 0x28, size: 0x8, def value: None
   ::StringW ____validUntilDate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13115 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData, ____targetLevelPackId) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData, ____targetLevelPackId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData, ____shouldOwnLevelPackId) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData, ____shouldOwnLevelPackId) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData, ____redirectedBundleId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData, ____redirectedBundleId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData, ____validUntilDate) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData, ____validUntilDate) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SteamLevelProductCollectionModel
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SteamLevelProductCollectionModel*
+// CS Name: SteamLevelProductCollectionModel
 class CORDL_TYPE SteamLevelProductCollectionModel : public ::System::Object {
 public:
   // Declarations
-  using LevelDepotData = ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData;
+  using LevelDepotData = ::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData;
 
-  using LevelPackProductData = ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData;
+  using LevelPackProductData = ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData;
 
-  using LevelPackRedirectionData = ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData;
+  using LevelPackRedirectionData = ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData;
 
-  using LevelProductData = ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData;
+  using LevelProductData = ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData;
 
   /// @brief Field _levelIdToProductData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelIdToProductData, put = __cordl_internal_set__levelIdToProductData)) ::System::Collections::Generic::Dictionary_2<
-      ::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* _levelIdToProductData;
+  __declspec(property(get = __cordl_internal_get__levelIdToProductData,
+                      put = __cordl_internal_set__levelIdToProductData)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*
+      _levelIdToProductData;
 
   /// @brief Field _levelPackIdToProductData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levelPackIdToProductData, put = __cordl_internal_set__levelPackIdToProductData)) ::System::Collections::Generic::Dictionary_2<
-      ::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>* _levelPackIdToProductData;
+      ::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*>* _levelPackIdToProductData;
 
   /// @brief Field _levelPackRedirectionData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelPackRedirectionData, put = __cordl_internal_set__levelPackRedirectionData)) ::System::Collections::Generic::Dictionary_2<
-      ::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>* _levelPackRedirectionData;
+      ::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*>* _levelPackRedirectionData;
 
   /// @brief Field _maxPossibleInstalledDepots, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__maxPossibleInstalledDepots, put = __cordl_internal_set__maxPossibleInstalledDepots)) int32_t _maxPossibleInstalledDepots;
 
   __declspec(property(get = get_levelProductDataCount)) int32_t levelProductDataCount;
 
-  __declspec(property(get = get_levelProductsData)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* levelProductsData;
+  __declspec(property(get = get_levelProductsData)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* levelProductsData;
 
-  /// @brief Method GetLevelPackProductData, addr 0x26b21b0, size 0x58, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
+  /// @brief Method GetLevelPackProductData, addr 0x26e6c7c, size 0x58, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
 
-  /// @brief Method GetLevelPackRedirectionData, addr 0x26b2208, size 0x58, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* GetLevelPackRedirectionData(::StringW levelPackId);
+  /// @brief Method GetLevelPackRedirectionData, addr 0x26e6cd4, size 0x58, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData* GetLevelPackRedirectionData(::StringW levelPackId);
 
-  /// @brief Method GetLevelProductData, addr 0x26b2158, size 0x58, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GetLevelProductData(::StringW levelId);
+  /// @brief Method GetLevelProductData, addr 0x26e6c24, size 0x58, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW levelId);
 
-  static inline ::GlobalNamespace::SteamLevelProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs);
+  static inline ::GlobalNamespace::SteamLevelProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>* levelProductsSOs);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*& __cordl_internal_get__levelIdToProductData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* const& __cordl_internal_get__levelIdToProductData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> const&
-  __cordl_internal_get__levelIdToProductData() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*& __cordl_internal_get__levelIdToProductData();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*& __cordl_internal_get__levelPackIdToProductData();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*> const&
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*>* const&
   __cordl_internal_get__levelPackIdToProductData() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*&
-  __cordl_internal_get__levelPackRedirectionData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*>*& __cordl_internal_get__levelPackIdToProductData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> const&
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*>* const&
   __cordl_internal_get__levelPackRedirectionData() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*>*& __cordl_internal_get__levelPackRedirectionData();
 
   constexpr int32_t const& __cordl_internal_get__maxPossibleInstalledDepots() const;
 
   constexpr int32_t& __cordl_internal_get__maxPossibleInstalledDepots();
 
-  constexpr void __cordl_internal_set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* value);
+  constexpr void __cordl_internal_set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* value);
 
   constexpr void
-  __cordl_internal_set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>* value);
+  __cordl_internal_set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*>* value);
 
   constexpr void
-  __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>* value);
+  __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*>* value);
 
   constexpr void __cordl_internal_set__maxPossibleInstalledDepots(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26b1824, size 0x8e4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs);
+  /// @brief Method .ctor, addr 0x26e62f0, size 0x8e4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>* levelProductsSOs);
 
-  /// @brief Method get_levelProductDataCount, addr 0x26b181c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductDataCount, addr 0x26e62e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelProductDataCount();
 
-  /// @brief Method get_levelProductsData, addr 0x26b2108, size 0x50, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* get_levelProductsData();
+  /// @brief Method get_levelProductsData, addr 0x26e6bd4, size 0x50, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* get_levelProductsData();
 
 protected:
   // Ctor Parameters []
@@ -541,26 +530,24 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SteamLevelProductCollectionModel(SteamLevelProductCollectionModel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13151 };
+
   /// @brief Field _levelIdToProductData, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* ____levelIdToProductData;
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* ____levelIdToProductData;
 
   /// @brief Field _levelPackIdToProductData, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>* ____levelPackIdToProductData;
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*>* ____levelPackIdToProductData;
 
   /// @brief Field _levelPackRedirectionData, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>* ____levelPackRedirectionData;
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*>* ____levelPackRedirectionData;
 
   /// @brief Field _maxPossibleInstalledDepots, offset: 0x28, size: 0x4, def value: None
   int32_t ____maxPossibleInstalledDepots;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13116 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamLevelProductCollectionModel, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel, ____levelIdToProductData) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel, ____levelPackIdToProductData) == 0x18, "Offset mismatch!");
@@ -569,14 +556,16 @@ static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel, ____
 
 static_assert(offsetof(::GlobalNamespace::SteamLevelProductCollectionModel, ____maxPossibleInstalledDepots) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SteamLevelProductCollectionModel, 0x30>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SteamLevelProductCollectionModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamLevelProductCollectionModel*, "", "SteamLevelProductCollectionModel");
-NEED_NO_BOX(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*, "", "SteamLevelProductCollectionModel/LevelDepotData");
-NEED_NO_BOX(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, "", "SteamLevelProductCollectionModel/LevelPackProductData");
-NEED_NO_BOX(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, "", "SteamLevelProductCollectionModel/LevelPackRedirectionData");
-NEED_NO_BOX(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, "", "SteamLevelProductCollectionModel/LevelProductData");
+NEED_NO_BOX(::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData*, "", "SteamLevelProductCollectionModel/LevelDepotData");
+NEED_NO_BOX(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*, "", "SteamLevelProductCollectionModel/LevelPackProductData");
+NEED_NO_BOX(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*, "", "SteamLevelProductCollectionModel/LevelPackRedirectionData");
+NEED_NO_BOX(::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*, "", "SteamLevelProductCollectionModel/LevelProductData");

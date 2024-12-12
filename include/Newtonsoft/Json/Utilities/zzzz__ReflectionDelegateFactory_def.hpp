@@ -44,44 +44,43 @@ class ReflectionDelegateFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionDelegateFactory);
-// Type: Newtonsoft.Json.Utilities::ReflectionDelegateFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::ReflectionDelegateFactory*
+// CS Name: Newtonsoft.Json.Utilities.ReflectionDelegateFactory
 class CORDL_TYPE ReflectionDelegateFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDefaultConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateDefaultConstructor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Func_1<T>* CreateDefaultConstructor(::System::Type* type);
 
-  /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateGet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::FieldInfo* fieldInfo);
 
   /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateGet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method CreateMethodCall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateMethodCall, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, ::System::Object*>* CreateMethodCall(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateParameterizedConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateParameterizedConstructor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateParameterizedConstructor(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::FieldInfo* fieldInfo);
 
   /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::PropertyInfo* propertyInfo);
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e6f934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ecf9e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +98,7 @@ public:
   ReflectionDelegateFactory(ReflectionDelegateFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

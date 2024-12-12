@@ -13,29 +13,24 @@ class IPlayerDataModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IPlayerDataModel);
-// Type: ::IPlayerDataModel
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IPlayerDataModel*
+// CS Name: IPlayerDataModel
 class CORDL_TYPE IPlayerDataModel {
 public:
   // Declarations
   __declspec(property(get = get_playerData)) ::GlobalNamespace::PlayerData* playerData;
 
-  /// @brief Method get_playerData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_playerData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* get_playerData();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPlayerDataModel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPlayerDataModel(IPlayerDataModel&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlayerDataModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPlayerDataModel(IPlayerDataModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

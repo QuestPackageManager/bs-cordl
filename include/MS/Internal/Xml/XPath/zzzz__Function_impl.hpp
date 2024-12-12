@@ -1,58 +1,57 @@
 #pragma once
 // IWYU pragma private; include "MS/Internal/Xml/XPath/Function.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
-#include "MS/Internal/Xml/XPath/zzzz__Function_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Function_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Function_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType::__Function__FunctionType(int32_t value__) noexcept {
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType::Function_FunctionType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType::__Function__FunctionType() {}
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncLast{ static_cast<int32_t>(0x0) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncPosition{ static_cast<int32_t>(0x1) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncCount{ static_cast<int32_t>(0x2) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncID{ static_cast<int32_t>(0x3) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncLocalName{ static_cast<int32_t>(0x4) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncNameSpaceUri{ static_cast<int32_t>(0x5) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncName{ static_cast<int32_t>(0x6) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncString{ static_cast<int32_t>(0x7) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncBoolean{ static_cast<int32_t>(0x8) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncNumber{ static_cast<int32_t>(0x9) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncTrue{ static_cast<int32_t>(0xa) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncFalse{ static_cast<int32_t>(0xb) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncNot{ static_cast<int32_t>(0xc) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncConcat{ static_cast<int32_t>(0xd) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncStartsWith{ static_cast<int32_t>(0xe) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncContains{ static_cast<int32_t>(0xf) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncSubstringBefore{ static_cast<int32_t>(0x10) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncSubstringAfter{ static_cast<int32_t>(0x11) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncSubstring{ static_cast<int32_t>(0x12) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncStringLength{ static_cast<int32_t>(0x13) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncNormalize{ static_cast<int32_t>(0x14) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncTranslate{ static_cast<int32_t>(0x15) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncLang{ static_cast<int32_t>(0x16) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncSum{ static_cast<int32_t>(0x17) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncFloor{ static_cast<int32_t>(0x18) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncCeiling{ static_cast<int32_t>(0x19) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncRound{ static_cast<int32_t>(0x1a) };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType MS::Internal::Xml::XPath::__Function__FunctionType::FuncUserDefined{ static_cast<int32_t>(0x1b) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType::Function_FunctionType() {}
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncLast{ static_cast<int32_t>(0x0) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncPosition{ static_cast<int32_t>(0x1) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncCount{ static_cast<int32_t>(0x2) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncID{ static_cast<int32_t>(0x3) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncLocalName{ static_cast<int32_t>(0x4) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncNameSpaceUri{ static_cast<int32_t>(0x5) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncName{ static_cast<int32_t>(0x6) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncString{ static_cast<int32_t>(0x7) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncBoolean{ static_cast<int32_t>(0x8) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncNumber{ static_cast<int32_t>(0x9) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncTrue{ static_cast<int32_t>(0xa) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncFalse{ static_cast<int32_t>(0xb) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncNot{ static_cast<int32_t>(0xc) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncConcat{ static_cast<int32_t>(0xd) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncStartsWith{ static_cast<int32_t>(0xe) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncContains{ static_cast<int32_t>(0xf) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncSubstringBefore{ static_cast<int32_t>(0x10) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncSubstringAfter{ static_cast<int32_t>(0x11) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncSubstring{ static_cast<int32_t>(0x12) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncStringLength{ static_cast<int32_t>(0x13) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncNormalize{ static_cast<int32_t>(0x14) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncTranslate{ static_cast<int32_t>(0x15) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncLang{ static_cast<int32_t>(0x16) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncSum{ static_cast<int32_t>(0x17) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncFloor{ static_cast<int32_t>(0x18) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncCeiling{ static_cast<int32_t>(0x19) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncRound{ static_cast<int32_t>(0x1a) };
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType MS::Internal::Xml::XPath::Function_FunctionType::FuncUserDefined{ static_cast<int32_t>(0x1b) };
 //  Writing Method size for method: ::MS::Internal::Xml::XPath::Function._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Function::*)(
-    ::MS::Internal::Xml::XPath::__Function__FunctionType, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*)>(&::MS::Internal::Xml::XPath::Function::_ctor)> {
+    ::MS::Internal::Xml::XPath::Function_FunctionType, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*)>(&::MS::Internal::Xml::XPath::Function::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42a3d60;
+  constexpr static std::size_t addrs = 0x4305074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Function*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::__Function__FunctionType>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::Function_FunctionType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*>::get() })));
     return ___internal_method;
   }
@@ -63,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Function::*)(
     ::StringW, ::StringW, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*)>(&::MS::Internal::Xml::XPath::Function::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42a3df8;
+  constexpr static std::size_t addrs = 0x430510c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,14 +76,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Function::*)(
-    ::MS::Internal::Xml::XPath::__Function__FunctionType, ::MS::Internal::Xml::XPath::AstNode*)>(&::MS::Internal::Xml::XPath::Function::_ctor)> {
+    ::MS::Internal::Xml::XPath::Function_FunctionType, ::MS::Internal::Xml::XPath::AstNode*)>(&::MS::Internal::Xml::XPath::Function::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x42a3e9c;
+  constexpr static std::size_t addrs = 0x43051b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Function*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::__Function__FunctionType>::get(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::Function_FunctionType>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::AstNode*>::get() })));
     return ___internal_method;
   }
@@ -92,10 +91,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::MS::Internal::Xml::XPath::Function.get_Type
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::__AstNode__AstType (::MS::Internal::Xml::XPath::Function::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Function::*)()>(
     &::MS::Internal::Xml::XPath::Function::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a3fac;
+  constexpr static std::size_t addrs = 0x43052c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Function::*)()>(
     &::MS::Internal::Xml::XPath::Function::get_ReturnType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x42a3fb4;
+  constexpr static std::size_t addrs = 0x43052c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,15 +118,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType& MS::Internal::Xml::XPath::Function::__cordl_internal_get__functionType() {
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType& MS::Internal::Xml::XPath::Function::__cordl_internal_get__functionType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____functionType;
 }
-constexpr ::MS::Internal::Xml::XPath::__Function__FunctionType const& MS::Internal::Xml::XPath::Function::__cordl_internal_get__functionType() const {
+constexpr ::MS::Internal::Xml::XPath::Function_FunctionType const& MS::Internal::Xml::XPath::Function::__cordl_internal_get__functionType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____functionType;
 }
-constexpr void MS::Internal::Xml::XPath::Function::__cordl_internal_set__functionType(::MS::Internal::Xml::XPath::__Function__FunctionType value) {
+constexpr void MS::Internal::Xml::XPath::Function::__cordl_internal_set__functionType(::MS::Internal::Xml::XPath::Function_FunctionType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____functionType = value;
 }
@@ -135,8 +134,7 @@ constexpr ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::Ast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____argumentList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*> const&
-MS::Internal::Xml::XPath::Function::__cordl_internal_get__argumentList() const {
+constexpr ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* const& MS::Internal::Xml::XPath::Function::__cordl_internal_get__argumentList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____argumentList;
 }
@@ -177,21 +175,13 @@ inline ::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XP
   return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*>, "ReturnTypes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Function*>::get>();
 }
-inline ::MS::Internal::Xml::XPath::Function* MS::Internal::Xml::XPath::Function::New_ctor(::MS::Internal::Xml::XPath::__Function__FunctionType ftype,
-                                                                                          ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::Function*>(ftype, argumentList));
-}
-inline void MS::Internal::Xml::XPath::Function::_ctor(::MS::Internal::Xml::XPath::__Function__FunctionType ftype,
+inline void MS::Internal::Xml::XPath::Function::_ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype,
                                                       ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Function*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::__Function__FunctionType>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::Function_FunctionType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ftype, argumentList);
-}
-inline ::MS::Internal::Xml::XPath::Function* MS::Internal::Xml::XPath::Function::New_ctor(::StringW prefix, ::StringW name,
-                                                                                          ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::Function*>(prefix, name, argumentList));
 }
 inline void MS::Internal::Xml::XPath::Function::_ctor(::StringW prefix, ::StringW name, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,25 +190,33 @@ inline void MS::Internal::Xml::XPath::Function::_ctor(::StringW prefix, ::String
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix, name, argumentList);
 }
-inline ::MS::Internal::Xml::XPath::Function* MS::Internal::Xml::XPath::Function::New_ctor(::MS::Internal::Xml::XPath::__Function__FunctionType ftype, ::MS::Internal::Xml::XPath::AstNode* arg) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::Function*>(ftype, arg));
-}
-inline void MS::Internal::Xml::XPath::Function::_ctor(::MS::Internal::Xml::XPath::__Function__FunctionType ftype, ::MS::Internal::Xml::XPath::AstNode* arg) {
+inline void MS::Internal::Xml::XPath::Function::_ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype, ::MS::Internal::Xml::XPath::AstNode* arg) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Function*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::__Function__FunctionType>::get(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::Function_FunctionType>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::AstNode*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ftype, arg);
 }
-inline ::MS::Internal::Xml::XPath::__AstNode__AstType MS::Internal::Xml::XPath::Function::get_Type() {
+inline ::MS::Internal::Xml::XPath::AstNode_AstType MS::Internal::Xml::XPath::Function::get_Type() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Function*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::__AstNode__AstType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::AstNode_AstType, false>(this, ___internal_method);
 }
 inline ::System::Xml::XPath::XPathResultType MS::Internal::Xml::XPath::Function::get_ReturnType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::Function*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathResultType, false>(this, ___internal_method);
+}
+inline ::MS::Internal::Xml::XPath::Function* MS::Internal::Xml::XPath::Function::New_ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype,
+                                                                                          ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::Function*>(ftype, argumentList));
+}
+inline ::MS::Internal::Xml::XPath::Function* MS::Internal::Xml::XPath::Function::New_ctor(::StringW prefix, ::StringW name,
+                                                                                          ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::Function*>(prefix, name, argumentList));
+}
+inline ::MS::Internal::Xml::XPath::Function* MS::Internal::Xml::XPath::Function::New_ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype, ::MS::Internal::Xml::XPath::AstNode* arg) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::Function*>(ftype, arg));
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::XPath::Function::Function() {}

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRMeshData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRGLTFAnimationNodeMorphTargetHandler)
 namespace GlobalNamespace {
@@ -17,11 +16,10 @@ class OVRGLTFAnimationNodeMorphTargetHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler);
-// Type: ::OVRGLTFAnimationNodeMorphTargetHandler
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRMeshData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRGLTFAnimationNodeMorphTargetHandler*
+// CS Name: OVRGLTFAnimationNodeMorphTargetHandler
 class CORDL_TYPE OVRGLTFAnimationNodeMorphTargetHandler : public ::System::Object {
 public:
   // Declarations
@@ -36,12 +34,12 @@ public:
   /// @brief Field modified, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_modified, put = __cordl_internal_set_modified)) bool modified;
 
-  /// @brief Method MarkModified, addr 0x3f4d360, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkModified, addr 0x3fad40c, size 0xc, virtual false, abstract: false, final false
   inline void MarkModified();
 
   static inline ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* New_ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method Update, addr 0x3f4cfd4, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fad080, size 0x38c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_Weights() const;
@@ -62,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_modified(bool value);
 
-  /// @brief Method .ctor, addr 0x3f4cfa0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fad04c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method get_MeshData, addr 0x3f4cf78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_MeshData, addr 0x3fad024, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshData get_MeshData();
 
-  /// @brief Method set_MeshData, addr 0x3f4cf88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_MeshData, addr 0x3fad034, size 0x18, virtual false, abstract: false, final false
   inline void set_MeshData(::GlobalNamespace::OVRMeshData value);
 
 protected:
@@ -85,6 +83,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRGLTFAnimationNodeMorphTargetHandler(OVRGLTFAnimationNodeMorphTargetHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7871 };
+
   /// @brief Field <MeshData>k__BackingField, offset: 0x10, size: 0x48, def value: None
   ::GlobalNamespace::OVRMeshData ____MeshData_k__BackingField;
 
@@ -94,19 +95,16 @@ public:
   /// @brief Field modified, offset: 0x60, size: 0x1, def value: None
   bool ___modified;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7846 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler, ____MeshData_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler, ___Weights) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler, ___modified) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler);

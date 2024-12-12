@@ -7,77 +7,75 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(ContextClickEvent)
 namespace UnityEngine::UIElements {
-class __ContextClickEvent____c;
+class ContextClickEvent___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ContextClickEvent;
 }
 namespace UnityEngine::UIElements {
-class __ContextClickEvent____c;
+class ContextClickEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ContextClickEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__ContextClickEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::ContextClickEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::ContextClickEvent::<>c*
-class CORDL_TYPE __ContextClickEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.ContextClickEvent/<>c
+class CORDL_TYPE ContextClickEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__ContextClickEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::ContextClickEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__ContextClickEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::ContextClickEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49c65ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2aebc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextClickEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49c65a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2aeb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__ContextClickEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::ContextClickEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__ContextClickEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::ContextClickEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ContextClickEvent____c();
+  constexpr ContextClickEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ContextClickEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ContextClickEvent____c(__ContextClickEvent____c&&) = delete;
+  ContextClickEvent___c(ContextClickEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ContextClickEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ContextClickEvent____c(__ContextClickEvent____c const&) = delete;
+  ContextClickEvent___c(ContextClickEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ContextClickEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ContextClickEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::ContextClickEvent
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ContextClickEvent*
+// CS Name: UnityEngine.UIElements.ContextClickEvent
 class CORDL_TYPE ContextClickEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::ContextClickEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__ContextClickEvent____c;
+  using __c = ::UnityEngine::UIElements::ContextClickEvent___c;
 
   static inline ::UnityEngine::UIElements::ContextClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49c6500, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2ae10, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +93,7 @@ public:
   ContextClickEvent(ContextClickEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,5 +103,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Context
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ContextClickEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ContextClickEvent*, "UnityEngine.UIElements", "ContextClickEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__ContextClickEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__ContextClickEvent____c*, "UnityEngine.UIElements", "ContextClickEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::ContextClickEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ContextClickEvent___c*, "UnityEngine.UIElements", "ContextClickEvent/<>c");

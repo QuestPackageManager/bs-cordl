@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Revocable)
 // Forward declare root types
@@ -13,28 +12,27 @@ class Revocable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::Revocable);
-// Type: Org.BouncyCastle.Bcpg.Sig::Revocable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::Revocable*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.Revocable
 class CORDL_TYPE Revocable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x260a00c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x263d2f8, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool value);
 
-  /// @brief Method IsRevocable, addr 0x260a10c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsRevocable, addr 0x263d3f8, size 0x30, virtual false, abstract: false, final false
   inline bool IsRevocable();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isRevocable);
 
-  /// @brief Method .ctor, addr 0x260a078, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d364, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x260a0c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d3ac, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isRevocable);
 
 protected:

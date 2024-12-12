@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArraySortHelper_2)
 namespace System::Collections::Generic {
@@ -16,19 +15,17 @@ template <typename TKey, typename TValue> class ArraySortHelper_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::ArraySortHelper_2);
-// Type: System.Collections.Generic::ArraySortHelper`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::ArraySortHelper`2<TKey,TValue>*
+// CS Name: System.Collections.Generic.ArraySortHelper`2<TKey,TValue>
 class CORDL_TYPE ArraySortHelper_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_defaultArraySortHelper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_defaultArraySortHelper,
-                             put = setStaticF_s_defaultArraySortHelper)) ::System::Collections::Generic::ArraySortHelper_2<TKey, TValue>* s_defaultArraySortHelper;
+  __declspec(property(get = getStaticF_s_defaultArraySortHelper, put = setStaticF_s_defaultArraySortHelper)) ::System::Collections::Generic::ArraySortHelper_2<TKey, TValue>* s_defaultArraySortHelper;
 
   /// @brief Method DownHeap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void DownHeap(::ArrayW<TKey, ::Array<TKey>*> keys, ::ArrayW<TValue, ::Array<TValue>*> values, int32_t i, int32_t n, int32_t lo,

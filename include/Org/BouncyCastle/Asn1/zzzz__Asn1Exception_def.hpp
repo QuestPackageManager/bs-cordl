@@ -15,11 +15,10 @@ class Asn1Exception;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Exception);
-// Type: Org.BouncyCastle.Asn1::Asn1Exception
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::Asn1Exception*
+// CS Name: Org.BouncyCastle.Asn1.Asn1Exception
 class CORDL_TYPE Asn1Exception : public ::System::IO::IOException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Exception* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x25f5b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628e70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25f5b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25f5b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

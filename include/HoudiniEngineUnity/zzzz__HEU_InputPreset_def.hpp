@@ -23,11 +23,10 @@ class HEU_InputPreset;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputPreset);
-// Type: HoudiniEngineUnity::HEU_InputPreset
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_InputNode::InputObjectType, System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_InputPreset*
+// CS Name: HoudiniEngineUnity.HEU_InputPreset
 class CORDL_TYPE HEU_InputPreset : public ::System::Object {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
                       put = __cordl_internal_set__inputObjectPresets)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* _inputObjectPresets;
 
   /// @brief Field _inputObjectType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__inputObjectType, put = __cordl_internal_set__inputObjectType)) ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _inputObjectType;
+  __declspec(property(get = __cordl_internal_get__inputObjectType, put = __cordl_internal_set__inputObjectType)) ::HoudiniEngineUnity::HEU_InputNode_InputObjectType _inputObjectType;
 
   /// @brief Field _keepWorldTransform, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__keepWorldTransform, put = __cordl_internal_set__keepWorldTransform)) bool _keepWorldTransform;
@@ -63,9 +62,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__inputAssetName();
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& __cordl_internal_get__inputAssetPresets();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* const& __cordl_internal_get__inputAssetPresets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*> const& __cordl_internal_get__inputAssetPresets() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& __cordl_internal_get__inputAssetPresets();
 
   constexpr int32_t const& __cordl_internal_get__inputIndex() const;
 
@@ -75,13 +74,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__inputName();
 
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* const& __cordl_internal_get__inputObjectPresets() const;
+
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*& __cordl_internal_get__inputObjectPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*> const& __cordl_internal_get__inputObjectPresets() const;
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const& __cordl_internal_get__inputObjectType() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __cordl_internal_get__inputObjectType() const;
-
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __cordl_internal_get__inputObjectType();
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputObjectType& __cordl_internal_get__inputObjectType();
 
   constexpr bool const& __cordl_internal_get__keepWorldTransform() const;
 
@@ -101,13 +100,13 @@ public:
 
   constexpr void __cordl_internal_set__inputObjectPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* value);
 
-  constexpr void __cordl_internal_set__inputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
+  constexpr void __cordl_internal_set__inputObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType value);
 
   constexpr void __cordl_internal_set__keepWorldTransform(bool value);
 
   constexpr void __cordl_internal_set__packGeometryBeforeMerging(bool value);
 
-  /// @brief Method .ctor, addr 0x39afeb0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a06b20, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,8 +123,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputPreset(HEU_InputPreset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11590 };
+
   /// @brief Field _inputObjectType, offset: 0x10, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType ____inputObjectType;
+  ::HoudiniEngineUnity::HEU_InputNode_InputObjectType ____inputObjectType;
 
   /// @brief Field _inputObjectPresets, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* ____inputObjectPresets;
@@ -148,14 +150,9 @@ public:
   /// @brief Field _inputAssetPresets, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* ____inputAssetPresets;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11557 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputPreset, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputObjectType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputObjectPresets) == 0x18, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____keepWorldTrans
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____packGeometryBeforeMerging) == 0x39, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputAssetPresets) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputPreset, 0x48>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputPreset);

@@ -19,11 +19,10 @@ class CIELabColor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::CIELabColor);
-// Type: UnityEngine.ProBuilder::CIELabColor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::CIELabColor*
+// CS Name: UnityEngine.ProBuilder.CIELabColor
 class CORDL_TYPE CIELabColor : public ::System::Object {
 public:
   // Declarations
@@ -36,15 +35,15 @@ public:
   /// @brief Field b, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
-  /// @brief Method FromRGB, addr 0x46a3b1c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x4704e30, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col);
 
-  /// @brief Method FromXYZ, addr 0x46a3940, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromXYZ, addr 0x4704c54, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz);
 
   static inline ::UnityEngine::ProBuilder::CIELabColor* New_ctor(float_t L, float_t a, float_t b);
 
-  /// @brief Method ToString, addr 0x46a3ba8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4704ebc, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_L() const;
@@ -65,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_b(float_t value);
 
-  /// @brief Method .ctor, addr 0x46a3904, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4704c18, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t L, float_t a, float_t b);
 
 protected:
@@ -82,6 +81,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CIELabColor(CIELabColor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14228 };
+
   /// @brief Field L, offset: 0x10, size: 0x4, def value: None
   float_t ___L;
 
@@ -91,19 +93,16 @@ public:
   /// @brief Field b, offset: 0x18, size: 0x4, def value: None
   float_t ___b;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14194 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::CIELabColor, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::CIELabColor, ___L) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::CIELabColor, ___a) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::CIELabColor, ___b) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::CIELabColor, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::CIELabColor);

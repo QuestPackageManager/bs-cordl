@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MockComboController.hpp"
+#include "GlobalNamespace/zzzz__IComboController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockComboController_def.hpp"
-#include "GlobalNamespace/zzzz__IComboController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockComboController.add_comboDidChangeEvent
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::MockComboController::add_comboDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b87e4c;
+  constexpr static std::size_t addrs = 0x3be9694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::MockComboController::remove_comboDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b87efc;
+  constexpr static std::size_t addrs = 0x3be9744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action*)>(
     &::GlobalNamespace::MockComboController::add_comboBreakingEventHappenedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b87fac;
+  constexpr static std::size_t addrs = 0x3be97f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action*)>(
     &::GlobalNamespace::MockComboController::remove_comboBreakingEventHappenedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b88048;
+  constexpr static std::size_t addrs = 0x3be9890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockComboController::*)()>(&::GlobalNamespace::MockComboController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b880e4;
+  constexpr static std::size_t addrs = 0x3be992c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockComboController*>::get(), ".ctor",
@@ -78,19 +78,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IComboController"
-constexpr GlobalNamespace::MockComboController::operator ::GlobalNamespace::IComboController*() noexcept {
-  return static_cast<::GlobalNamespace::IComboController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IComboController"
-constexpr ::GlobalNamespace::IComboController* GlobalNamespace::MockComboController::i___GlobalNamespace__IComboController() noexcept {
-  return static_cast<::GlobalNamespace::IComboController*>(static_cast<void*>(this));
-}
 constexpr ::System::Action_1<int32_t>*& GlobalNamespace::MockComboController::__cordl_internal_get_comboDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::MockComboController::__cordl_internal_get_comboDidChangeEvent() const {
+constexpr ::System::Action_1<int32_t>* const& GlobalNamespace::MockComboController::__cordl_internal_get_comboDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboDidChangeEvent;
 }
@@ -102,7 +94,7 @@ constexpr ::System::Action*& GlobalNamespace::MockComboController::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboBreakingEventHappenedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MockComboController::__cordl_internal_get_comboBreakingEventHappenedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::MockComboController::__cordl_internal_get_comboBreakingEventHappenedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboBreakingEventHappenedEvent;
 }
@@ -134,13 +126,21 @@ inline void GlobalNamespace::MockComboController::remove_comboBreakingEventHappe
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::MockComboController* GlobalNamespace::MockComboController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockComboController*>());
-}
 inline void GlobalNamespace::MockComboController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockComboController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MockComboController* GlobalNamespace::MockComboController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockComboController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IComboController"
+constexpr GlobalNamespace::MockComboController::operator ::GlobalNamespace::IComboController*() noexcept {
+  return static_cast<::GlobalNamespace::IComboController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IComboController"
+constexpr ::GlobalNamespace::IComboController* GlobalNamespace::MockComboController::i___GlobalNamespace__IComboController() noexcept {
+  return static_cast<::GlobalNamespace::IComboController*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockComboController::MockComboController() {}

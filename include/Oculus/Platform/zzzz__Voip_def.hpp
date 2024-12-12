@@ -14,6 +14,12 @@ namespace Oculus::Platform::Models {
 class SystemVoipState;
 }
 namespace Oculus::Platform {
+class CAPI_FilterCallback;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1_Callback;
+}
+namespace Oculus::Platform {
 template <typename T> class Request_1;
 }
 namespace Oculus::Platform {
@@ -31,69 +37,62 @@ struct VoipMuteState;
 namespace Oculus::Platform {
 class VoipOptions;
 }
-namespace Oculus::Platform {
-class __CAPI__FilterCallback;
-}
-namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
-}
 // Forward declare root types
 namespace Oculus::Platform {
 class Voip;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Voip);
-// Type: Oculus.Platform::Voip
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::Voip*
+// CS Name: Oculus.Platform.Voip
 class CORDL_TYPE Voip : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Accept, addr 0x3f235b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Accept, addr 0x3f8365c, size 0xc4, virtual false, abstract: false, final false
   static inline void Accept(uint64_t userID);
 
-  /// @brief Method GetIsConnectionUsingDtx, addr 0x3f23a58, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetIsConnectionUsingDtx, addr 0x3f83b04, size 0xc8, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::VoipDtxState GetIsConnectionUsingDtx(uint64_t peerID);
 
-  /// @brief Method GetLocalBitrate, addr 0x3f23b20, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetLocalBitrate, addr 0x3f83bcc, size 0xc8, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::VoipBitrate GetLocalBitrate(uint64_t peerID);
 
-  /// @brief Method GetMicrophoneAvailability, addr 0x3f23d88, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetMicrophoneAvailability, addr 0x3f83e34, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MicrophoneAvailabilityState*>* GetMicrophoneAvailability();
 
-  /// @brief Method GetRemoteBitrate, addr 0x3f23be8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetRemoteBitrate, addr 0x3f83c94, size 0xc8, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::VoipBitrate GetRemoteBitrate(uint64_t peerID);
 
-  /// @brief Method GetSystemVoipMicrophoneMuted, addr 0x3f238d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSystemVoipMicrophoneMuted, addr 0x3f83984, size 0xc0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::VoipMuteState GetSystemVoipMicrophoneMuted();
 
-  /// @brief Method GetSystemVoipStatus, addr 0x3f23998, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSystemVoipStatus, addr 0x3f83a44, size 0xc0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::SystemVoipStatus GetSystemVoipStatus();
 
-  /// @brief Method SetMicrophoneAvailabilityStateUpdateNotificationCallback, addr 0x3f24030, size 0x74, virtual false, abstract: false, final false
-  static inline void SetMicrophoneAvailabilityStateUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
+  /// @brief Method SetMicrophoneAvailabilityStateUpdateNotificationCallback, addr 0x3f840dc, size 0x74, virtual false, abstract: false, final false
+  static inline void SetMicrophoneAvailabilityStateUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetMicrophoneFilterCallback, addr 0x3f23738, size 0xdc, virtual false, abstract: false, final false
-  static inline void SetMicrophoneFilterCallback(::Oculus::Platform::__CAPI__FilterCallback* callback);
+  /// @brief Method SetMicrophoneFilterCallback, addr 0x3f837e4, size 0xdc, virtual false, abstract: false, final false
+  static inline void SetMicrophoneFilterCallback(::Oculus::Platform::CAPI_FilterCallback* callback);
 
-  /// @brief Method SetMicrophoneMuted, addr 0x3f23814, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetMicrophoneMuted, addr 0x3f838c0, size 0xc4, virtual false, abstract: false, final false
   static inline void SetMicrophoneMuted(::Oculus::Platform::VoipMuteState state);
 
-  /// @brief Method SetNewConnectionOptions, addr 0x3f23cb0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetNewConnectionOptions, addr 0x3f83d5c, size 0xcc, virtual false, abstract: false, final false
   static inline void SetNewConnectionOptions(::Oculus::Platform::VoipOptions* voipOptions);
 
-  /// @brief Method SetSystemVoipStateNotificationCallback, addr 0x3f240a4, size 0x74, virtual false, abstract: false, final false
-  static inline void SetSystemVoipStateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::SystemVoipState*>* callback);
+  /// @brief Method SetSystemVoipStateNotificationCallback, addr 0x3f84150, size 0x74, virtual false, abstract: false, final false
+  static inline void SetSystemVoipStateNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::SystemVoipState*>* callback);
 
-  /// @brief Method SetSystemVoipSuppressed, addr 0x3f23ed8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetSystemVoipSuppressed, addr 0x3f83f84, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::SystemVoipState*>* SetSystemVoipSuppressed(bool suppressed);
 
-  /// @brief Method Start, addr 0x3f234ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f83598, size 0xc4, virtual false, abstract: false, final false
   static inline void Start(uint64_t userID);
 
-  /// @brief Method Stop, addr 0x3f23674, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3f83720, size 0xc4, virtual false, abstract: false, final false
   static inline void Stop(uint64_t userID);
 
 protected:
@@ -111,7 +110,7 @@ public:
   Voip(Voip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

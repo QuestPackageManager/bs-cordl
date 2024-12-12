@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlgorithmIdentifierFactory)
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -22,30 +21,29 @@ class AlgorithmIdentifierFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory);
-// Type: Org.BouncyCastle.Crypto.Utilities::AlgorithmIdentifierFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Utilities {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Utilities::AlgorithmIdentifierFactory*
+// CS Name: Org.BouncyCastle.Crypto.Utilities.AlgorithmIdentifierFactory
 class CORDL_TYPE AlgorithmIdentifierFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CAST5_CBC, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CAST5_CBC, put = setStaticF_CAST5_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CAST5_CBC;
+  __declspec(property(get = getStaticF_CAST5_CBC, put = setStaticF_CAST5_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CAST5_CBC;
 
   /// @brief Field IDEA_CBC, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IDEA_CBC, put = setStaticF_IDEA_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IDEA_CBC;
+  __declspec(property(get = getStaticF_IDEA_CBC, put = setStaticF_IDEA_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IDEA_CBC;
 
   /// @brief Field rc2Table, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rc2Table, put = setStaticF_rc2Table)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Table;
+  __declspec(property(get = getStaticF_rc2Table, put = setStaticF_rc2Table)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Table;
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x240f47c, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0x2442768, size 0x538, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                               ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x240fad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2442dc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CAST5_CBC();

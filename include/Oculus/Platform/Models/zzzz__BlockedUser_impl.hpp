@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::BlockedUser::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::BlockedUser::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f2e920;
+  constexpr static std::size_t addrs = 0x3f8e9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,14 +30,14 @@ constexpr void Oculus::Platform::Models::BlockedUser::__cordl_internal_set_Id(ui
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Id = value;
 }
-inline ::Oculus::Platform::Models::BlockedUser* Oculus::Platform::Models::BlockedUser::New_ctor(::System::IntPtr o) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::BlockedUser*>(o));
-}
 inline void Oculus::Platform::Models::BlockedUser::_ctor(::System::IntPtr o) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::BlockedUser*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
+}
+inline ::Oculus::Platform::Models::BlockedUser* Oculus::Platform::Models::BlockedUser::New_ctor(::System::IntPtr o) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::BlockedUser*>(o));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::BlockedUser::BlockedUser() {}

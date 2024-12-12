@@ -12,11 +12,10 @@ struct EventResetMode;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::EventResetMode);
-// Type: System.Threading::EventResetMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::System.Threading::EventResetMode
+// CS Name: System.Threading.EventResetMode
 struct CORDL_TYPE EventResetMode {
 public:
   // Declarations
@@ -45,13 +44,10 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EventResetMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AutoReset value: static_cast<int32_t>(0x0)
+  /// @brief Field AutoReset value: I32(0)
   static ::System::Threading::EventResetMode const AutoReset;
 
-  /// @brief Field ManualReset value: static_cast<int32_t>(0x1)
+  /// @brief Field ManualReset value: I32(1)
   static ::System::Threading::EventResetMode const ManualReset;
 
   /// @brief IL2CPP Metadata Type Index
@@ -60,12 +56,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::EventResetMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::EventResetMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::EventResetMode, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::EventResetMode, "System.Threading", "EventResetMode");

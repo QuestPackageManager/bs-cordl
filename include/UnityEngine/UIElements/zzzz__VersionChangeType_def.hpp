@@ -12,11 +12,10 @@ struct VersionChangeType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VersionChangeType);
-// Type: UnityEngine.UIElements::VersionChangeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::VersionChangeType
+// CS Name: UnityEngine.UIElements.VersionChangeType
 struct CORDL_TYPE VersionChangeType {
 public:
   // Declarations
@@ -61,75 +60,75 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr VersionChangeType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Bindings value: static_cast<int32_t>(0x1)
+  /// @brief Field Bindings value: I32(1)
   static ::UnityEngine::UIElements::VersionChangeType const Bindings;
 
-  /// @brief Field BorderRadius value: static_cast<int32_t>(0x80)
+  /// @brief Field BorderRadius value: I32(128)
   static ::UnityEngine::UIElements::VersionChangeType const BorderRadius;
 
-  /// @brief Field BorderWidth value: static_cast<int32_t>(0x100)
+  /// @brief Field BorderWidth value: I32(256)
   static ::UnityEngine::UIElements::VersionChangeType const BorderWidth;
 
-  /// @brief Field Color value: static_cast<int32_t>(0x2000)
+  /// @brief Field Color value: I32(8192)
   static ::UnityEngine::UIElements::VersionChangeType const Color;
 
-  /// @brief Field EventCallbackCategories value: static_cast<int32_t>(0x10000)
+  /// @brief Field EventCallbackCategories value: I32(65536)
   static ::UnityEngine::UIElements::VersionChangeType const EventCallbackCategories;
 
-  /// @brief Field Hierarchy value: static_cast<int32_t>(0x4)
+  /// @brief Field Hierarchy value: I32(4)
   static ::UnityEngine::UIElements::VersionChangeType const Hierarchy;
 
-  /// @brief Field Layout value: static_cast<int32_t>(0x8)
+  /// @brief Field Layout value: I32(8)
   static ::UnityEngine::UIElements::VersionChangeType const Layout;
 
-  /// @brief Field Opacity value: static_cast<int32_t>(0x1000)
+  /// @brief Field Opacity value: I32(4096)
   static ::UnityEngine::UIElements::VersionChangeType const Opacity;
 
-  /// @brief Field Overflow value: static_cast<int32_t>(0x40)
+  /// @brief Field Overflow value: I32(64)
   static ::UnityEngine::UIElements::VersionChangeType const Overflow;
 
-  /// @brief Field Picking value: static_cast<int32_t>(0x100000)
+  /// @brief Field Picking value: I32(1048576)
   static ::UnityEngine::UIElements::VersionChangeType const Picking;
 
-  /// @brief Field RenderHints value: static_cast<int32_t>(0x4000)
+  /// @brief Field RenderHints value: I32(16384)
   static ::UnityEngine::UIElements::VersionChangeType const RenderHints;
 
-  /// @brief Field Repaint value: static_cast<int32_t>(0x800)
+  /// @brief Field Repaint value: I32(2048)
   static ::UnityEngine::UIElements::VersionChangeType const Repaint;
 
-  /// @brief Field Size value: static_cast<int32_t>(0x400)
+  /// @brief Field Size value: I32(1024)
   static ::UnityEngine::UIElements::VersionChangeType const Size;
 
-  /// @brief Field StyleSheet value: static_cast<int32_t>(0x10)
+  /// @brief Field StyleSheet value: I32(16)
   static ::UnityEngine::UIElements::VersionChangeType const StyleSheet;
 
-  /// @brief Field Styles value: static_cast<int32_t>(0x20)
+  /// @brief Field Styles value: I32(32)
   static ::UnityEngine::UIElements::VersionChangeType const Styles;
 
-  /// @brief Field Transform value: static_cast<int32_t>(0x200)
+  /// @brief Field Transform value: I32(512)
   static ::UnityEngine::UIElements::VersionChangeType const Transform;
 
-  /// @brief Field TransitionProperty value: static_cast<int32_t>(0x8000)
+  /// @brief Field TransitionProperty value: I32(32768)
   static ::UnityEngine::UIElements::VersionChangeType const TransitionProperty;
 
-  /// @brief Field ViewData value: static_cast<int32_t>(0x2)
+  /// @brief Field ViewData value: I32(2)
   static ::UnityEngine::UIElements::VersionChangeType const ViewData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5999 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VersionChangeType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VersionChangeType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VersionChangeType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VersionChangeType, "UnityEngine.UIElements", "VersionChangeType");

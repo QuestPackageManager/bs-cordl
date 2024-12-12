@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SchemaBuilder)
 namespace System::Xml {
@@ -16,38 +15,37 @@ class SchemaBuilder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SchemaBuilder);
-// Type: System.Xml.Schema::SchemaBuilder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::SchemaBuilder*
+// CS Name: System.Xml.Schema.SchemaBuilder
 class CORDL_TYPE SchemaBuilder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method EndChildren, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndChildren();
 
-  /// @brief Method IsContentParsed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsContentParsed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsContentParsed();
 
   static inline ::System::Xml::Schema::SchemaBuilder* New_ctor();
 
-  /// @brief Method ProcessAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ProcessAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessAttribute(::StringW prefix, ::StringW name, ::StringW ns, ::StringW value);
 
-  /// @brief Method ProcessCData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ProcessCData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessCData(::StringW value);
 
-  /// @brief Method ProcessElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ProcessElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ProcessElement(::StringW prefix, ::StringW name, ::StringW ns);
 
-  /// @brief Method ProcessMarkup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ProcessMarkup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup);
 
-  /// @brief Method StartChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method StartChildren, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void StartChildren();
 
-  /// @brief Method .ctor, addr 0x4215bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4276ec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +63,7 @@ public:
   SchemaBuilder(SchemaBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

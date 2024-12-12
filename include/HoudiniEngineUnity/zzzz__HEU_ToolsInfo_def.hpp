@@ -3,50 +3,45 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ToolsInfo)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HEU_ToolsInfo_PaintMergeMode;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMergeMode;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMeshVisibility;
+struct HEU_ToolsInfo_PaintMeshVisibility;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMergeMode;
+struct HEU_ToolsInfo_PaintMergeMode;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMeshVisibility;
+struct HEU_ToolsInfo_PaintMeshVisibility;
 }
 namespace HoudiniEngineUnity {
 class HEU_ToolsInfo;
 }
 // Write type traits
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ToolsInfo);
-// Type: ::PaintMergeMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_ToolsInfo::PaintMergeMode
-struct CORDL_TYPE __HEU_ToolsInfo__PaintMergeMode {
+// CS Name: HoudiniEngineUnity.HEU_ToolsInfo/PaintMergeMode
+struct CORDL_TYPE HEU_ToolsInfo_PaintMergeMode {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_ToolsInfo__PaintMergeMode_Unwrapped
-  enum struct ____HEU_ToolsInfo__PaintMergeMode_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_ToolsInfo_PaintMergeMode_Unwrapped
+  enum struct __HEU_ToolsInfo_PaintMergeMode_Unwrapped : int32_t {
     __E_REPLACE = static_cast<int32_t>(0x0),
     __E_ADD = static_cast<int32_t>(0x1),
     __E_SUBTRACT = static_cast<int32_t>(0x2),
@@ -54,8 +49,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_ToolsInfo__PaintMergeMode_Unwrapped() const noexcept {
-    return static_cast<____HEU_ToolsInfo__PaintMergeMode_Unwrapped>(this->value__);
+  constexpr operator __HEU_ToolsInfo_PaintMergeMode_Unwrapped() const noexcept {
+    return static_cast<__HEU_ToolsInfo_PaintMergeMode_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -65,60 +60,59 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_ToolsInfo__PaintMergeMode();
+  constexpr HEU_ToolsInfo_PaintMergeMode();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_ToolsInfo__PaintMergeMode(int32_t value__) noexcept;
+  constexpr HEU_ToolsInfo_PaintMergeMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ADD value: I32(1)
+  static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode const ADD;
 
-  /// @brief Field ADD value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode const ADD;
+  /// @brief Field MULTIPLY value: I32(3)
+  static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode const MULTIPLY;
 
-  /// @brief Field MULTIPLY value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode const MULTIPLY;
+  /// @brief Field REPLACE value: I32(0)
+  static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode const REPLACE;
 
-  /// @brief Field REPLACE value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode const REPLACE;
-
-  /// @brief Field SUBTRACT value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode const SUBTRACT;
+  /// @brief Field SUBTRACT value: I32(2)
+  static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode const SUBTRACT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11930 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::PaintMeshVisibility
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_ToolsInfo::PaintMeshVisibility
-struct CORDL_TYPE __HEU_ToolsInfo__PaintMeshVisibility {
+// CS Name: HoudiniEngineUnity.HEU_ToolsInfo/PaintMeshVisibility
+struct CORDL_TYPE HEU_ToolsInfo_PaintMeshVisibility {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_ToolsInfo__PaintMeshVisibility_Unwrapped
-  enum struct ____HEU_ToolsInfo__PaintMeshVisibility_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_ToolsInfo_PaintMeshVisibility_Unwrapped
+  enum struct __HEU_ToolsInfo_PaintMeshVisibility_Unwrapped : int32_t {
     __E_AUTO = static_cast<int32_t>(0x0),
     __E_SHOW = static_cast<int32_t>(0x1),
     __E_HIDE = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_ToolsInfo__PaintMeshVisibility_Unwrapped() const noexcept {
-    return static_cast<____HEU_ToolsInfo__PaintMeshVisibility_Unwrapped>(this->value__);
+  constexpr operator __HEU_ToolsInfo_PaintMeshVisibility_Unwrapped() const noexcept {
+    return static_cast<__HEU_ToolsInfo_PaintMeshVisibility_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -128,48 +122,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_ToolsInfo__PaintMeshVisibility();
+  constexpr HEU_ToolsInfo_PaintMeshVisibility();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_ToolsInfo__PaintMeshVisibility(int32_t value__) noexcept;
+  constexpr HEU_ToolsInfo_PaintMeshVisibility(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field AUTO value: I32(0)
+  static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility const AUTO;
 
-  /// @brief Field AUTO value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility const AUTO;
+  /// @brief Field HIDE value: I32(2)
+  static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility const HIDE;
 
-  /// @brief Field HIDE value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility const HIDE;
-
-  /// @brief Field SHOW value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility const SHOW;
+  /// @brief Field SHOW value: I32(1)
+  static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility const SHOW;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11931 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: HoudiniEngineUnity::HEU_ToolsInfo
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_ToolsInfo::PaintMergeMode, HoudiniEngineUnity.HEU_ToolsInfo::PaintMeshVisibility, HoudiniEngineUnity.IEquivable`1<T>, UnityEngine.Color,
+// UnityEngine.ScriptableObject
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
+// CS Name: HoudiniEngineUnity.HEU_ToolsInfo
 class CORDL_TYPE HEU_ToolsInfo : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  using PaintMergeMode = ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode;
+  using PaintMergeMode = ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode;
 
-  using PaintMeshVisibility = ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility;
+  using PaintMeshVisibility = ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility;
 
   /// @brief Field _affectedAreaPaintColor, offset 0x60, size 0x10
   __declspec(property(get = __cordl_internal_get__affectedAreaPaintColor, put = __cordl_internal_set__affectedAreaPaintColor)) ::UnityEngine::Color _affectedAreaPaintColor;
@@ -220,10 +214,10 @@ public:
   __declspec(property(get = __cordl_internal_get__paintIntValue, put = __cordl_internal_set__paintIntValue)) ::ArrayW<int32_t, ::Array<int32_t>*> _paintIntValue;
 
   /// @brief Field _paintMergeMode, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get__paintMergeMode, put = __cordl_internal_set__paintMergeMode)) ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode _paintMergeMode;
+  __declspec(property(get = __cordl_internal_get__paintMergeMode, put = __cordl_internal_set__paintMergeMode)) ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode _paintMergeMode;
 
   /// @brief Field _paintMeshVisiblity, offset 0xa4, size 0x4
-  __declspec(property(get = __cordl_internal_get__paintMeshVisiblity, put = __cordl_internal_set__paintMeshVisiblity)) ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility _paintMeshVisiblity;
+  __declspec(property(get = __cordl_internal_get__paintMeshVisiblity, put = __cordl_internal_set__paintMeshVisiblity)) ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility _paintMeshVisiblity;
 
   /// @brief Field _paintStringValue, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__paintStringValue, put = __cordl_internal_set__paintStringValue)) ::ArrayW<::StringW, ::Array<::StringW>*> _paintStringValue;
@@ -234,10 +228,10 @@ public:
   /// @brief Field _showOnlyEditGeometry, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__showOnlyEditGeometry, put = __cordl_internal_set__showOnlyEditGeometry)) bool _showOnlyEditGeometry;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a46c64, size 0x610, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9d8d4, size 0x610, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ToolsInfo* New_ctor();
@@ -306,13 +300,13 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__paintIntValue();
 
-  constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode const& __cordl_internal_get__paintMergeMode() const;
+  constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode const& __cordl_internal_get__paintMergeMode() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode& __cordl_internal_get__paintMergeMode();
+  constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode& __cordl_internal_get__paintMergeMode();
 
-  constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility const& __cordl_internal_get__paintMeshVisiblity() const;
+  constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility const& __cordl_internal_get__paintMeshVisiblity() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility& __cordl_internal_get__paintMeshVisiblity();
+  constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility& __cordl_internal_get__paintMeshVisiblity();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__paintStringValue() const;
 
@@ -358,9 +352,9 @@ public:
 
   constexpr void __cordl_internal_set__paintIntValue(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr void __cordl_internal_set__paintMergeMode(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode value);
+  constexpr void __cordl_internal_set__paintMergeMode(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode value);
 
-  constexpr void __cordl_internal_set__paintMeshVisiblity(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility value);
+  constexpr void __cordl_internal_set__paintMeshVisiblity(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility value);
 
   constexpr void __cordl_internal_set__paintStringValue(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
@@ -368,11 +362,11 @@ public:
 
   constexpr void __cordl_internal_set__showOnlyEditGeometry(bool value);
 
-  /// @brief Method .ctor, addr 0x3a47274, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9dee4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ToolsInfo__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ToolsInfo__() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -387,6 +381,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ToolsInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ToolsInfo(HEU_ToolsInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11932 };
 
   /// @brief Field _paintBrushSize, offset: 0x18, size: 0x4, def value: None
   float_t ____paintBrushSize;
@@ -440,7 +437,7 @@ public:
   bool ____recacheRequired;
 
   /// @brief Field _paintMergeMode, offset: 0x9c, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode ____paintMergeMode;
+  ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode ____paintMergeMode;
 
   /// @brief Field _showOnlyEditGeometry, offset: 0xa0, size: 0x1, def value: None
   bool ____showOnlyEditGeometry;
@@ -449,16 +446,11 @@ public:
   bool ____alwaysCookUpstream;
 
   /// @brief Field _paintMeshVisiblity, offset: 0xa4, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility ____paintMeshVisiblity;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11899 };
+  ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility ____paintMeshVisiblity;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ToolsInfo, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintBrushSize) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintBrushOpacity) == 0x1c, "Offset mismatch!");
@@ -501,8 +493,10 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____alwaysCookUpstre
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintMeshVisiblity) == 0xa4, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ToolsInfo, 0xa8>, "Size mismatch!");
+
 } // namespace HoudiniEngineUnity
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMergeMode");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMeshVisibility");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMergeMode");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMeshVisibility");
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_ToolsInfo);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ToolsInfo*, "HoudiniEngineUnity", "HEU_ToolsInfo");

@@ -16,11 +16,10 @@ class EnvironmentLightSimpleController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentLightSimpleController);
-// Type: ::EnvironmentLightSimpleController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentLightSimpleController*
+// CS Name: EnvironmentLightSimpleController
 class CORDL_TYPE EnvironmentLightSimpleController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
   /// @brief Field _lightManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager)) ::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
-  /// @brief Method LateUpdate, addr 0x3b1ee08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b7ffb4, size 0x2c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentLightSimpleController* New_ctor();
@@ -56,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  /// @brief Method .ctor, addr 0x3b1ee34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ffe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentLightSimpleController(EnvironmentLightSimpleController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4224 };
+
   /// @brief Field _color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
@@ -82,19 +84,16 @@ public:
   /// @brief Field _lightManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4213 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentLightSimpleController, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentLightSimpleController, ____color) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentLightSimpleController, ____colorId) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentLightSimpleController, ____lightManager) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentLightSimpleController, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentLightSimpleController);

@@ -15,11 +15,10 @@ class CrlException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::Certificates::CrlException);
-// Type: Org.BouncyCastle.Security.Certificates::CrlException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.GeneralSecurityException
 namespace Org::BouncyCastle::Security::Certificates {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security.Certificates::CrlException*
+// CS Name: Org.BouncyCastle.Security.Certificates.CrlException
 class CORDL_TYPE CrlException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor(::StringW msg, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x2564f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2564f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x2564f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598260, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, ::System::Exception* e);
 
 protected:

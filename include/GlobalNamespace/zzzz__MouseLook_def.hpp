@@ -19,11 +19,10 @@ class MouseLook;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MouseLook);
-// Type: ::MouseLook
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Quaternion
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MouseLook*
+// CS Name: MouseLook
 class CORDL_TYPE MouseLook : public ::System::Object {
 public:
   // Declarations
@@ -60,27 +59,27 @@ public:
   /// @brief Field _ySensitivity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__ySensitivity, put = __cordl_internal_set__ySensitivity)) float_t _ySensitivity;
 
-  /// @brief Method ClampRotationAroundXAxis, addr 0x3aafe78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClampRotationAroundXAxis, addr 0x3b0ce50, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
 
-  /// @brief Method Init, addr 0x3aaf190, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b0c12c, size 0x6c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* character);
 
-  /// @brief Method InternalLockUpdate, addr 0x3aafeec, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method InternalLockUpdate, addr 0x3b0cec4, size 0xe4, virtual false, abstract: false, final false
   inline void InternalLockUpdate();
 
-  /// @brief Method LookRotation, addr 0x3aaf810, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x3b0c7d4, size 0x3a8, virtual false, abstract: false, final false
   inline void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
   static inline ::GlobalNamespace::MouseLook* New_ctor();
 
-  /// @brief Method SetCursorLock, addr 0x3aaf1fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetCursorLock, addr 0x3b0c198, size 0x34, virtual false, abstract: false, final false
   inline void SetCursorLock(bool value);
 
-  /// @brief Method SetRotations, addr 0x3aafe64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRotations, addr 0x3b0ce3c, size 0x14, virtual false, abstract: false, final false
   inline void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
 
-  /// @brief Method UpdateCursorLock, addr 0x3aafedc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateCursorLock, addr 0x3b0ceb4, size 0x10, virtual false, abstract: false, final false
   inline void UpdateCursorLock();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__cameraTargetRot() const;
@@ -149,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set__ySensitivity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3aafd3c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0cd14, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,6 +164,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseLook", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MouseLook(MouseLook const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5032 };
 
   /// @brief Field _xSensitivity, offset: 0x10, size: 0x4, def value: None
   float_t ____xSensitivity;
@@ -199,14 +201,9 @@ public:
   /// @brief Field _cursorIsLocked, offset: 0x50, size: 0x1, def value: None
   bool ____cursorIsLocked;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5013 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MouseLook, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MouseLook, ____xSensitivity) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MouseLook, ____ySensitivity) == 0x14, "Offset mismatch!");
@@ -228,6 +225,8 @@ static_assert(offsetof(::GlobalNamespace::MouseLook, ____characterTargetRot) == 
 static_assert(offsetof(::GlobalNamespace::MouseLook, ____cameraTargetRot) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MouseLook, ____cursorIsLocked) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MouseLook, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MouseLook);

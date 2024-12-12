@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithLineInfoNS.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfoNS_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42aaabc;
+  constexpr static std::size_t addrs = 0x430bdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x42abbf8;
+  constexpr static std::size_t addrs = 0x430cf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::StringW)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x42abca0;
+  constexpr static std::size_t addrs = 0x430cfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNS*>::get(),
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::*)(::StringW)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x42abd4c;
+  constexpr static std::size_t addrs = 0x430d060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,28 +67,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
-constexpr System::Xml::XmlAsyncCheckReaderWithLineInfoNS::operator ::System::Xml::IXmlNamespaceResolver*() noexcept {
-  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
-constexpr ::System::Xml::IXmlNamespaceResolver* System::Xml::XmlAsyncCheckReaderWithLineInfoNS::i___System__Xml__IXmlNamespaceResolver() noexcept {
-  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
-}
 constexpr ::System::Xml::IXmlNamespaceResolver*& System::Xml::XmlAsyncCheckReaderWithLineInfoNS::__cordl_internal_get_readerAsIXmlNamespaceResolver() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readerAsIXmlNamespaceResolver;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& System::Xml::XmlAsyncCheckReaderWithLineInfoNS::__cordl_internal_get_readerAsIXmlNamespaceResolver() const {
+constexpr ::System::Xml::IXmlNamespaceResolver* const& System::Xml::XmlAsyncCheckReaderWithLineInfoNS::__cordl_internal_get_readerAsIXmlNamespaceResolver() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readerAsIXmlNamespaceResolver;
 }
 constexpr void System::Xml::XmlAsyncCheckReaderWithLineInfoNS::__cordl_internal_set_readerAsIXmlNamespaceResolver(::System::Xml::IXmlNamespaceResolver* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readerAsIXmlNamespaceResolver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS* System::Xml::XmlAsyncCheckReaderWithLineInfoNS::New_ctor(::System::Xml::XmlReader* reader) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlAsyncCheckReaderWithLineInfoNS*>(reader));
 }
 inline void System::Xml::XmlAsyncCheckReaderWithLineInfoNS::_ctor(::System::Xml::XmlReader* reader) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -113,6 +103,17 @@ inline ::StringW System::Xml::XmlAsyncCheckReaderWithLineInfoNS::System_Xml_IXml
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNS*>::get(), "System.Xml.IXmlNamespaceResolver.LookupPrefix",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, namespaceName);
+}
+inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS* System::Xml::XmlAsyncCheckReaderWithLineInfoNS::New_ctor(::System::Xml::XmlReader* reader) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlAsyncCheckReaderWithLineInfoNS*>(reader));
+}
+/// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
+constexpr System::Xml::XmlAsyncCheckReaderWithLineInfoNS::operator ::System::Xml::IXmlNamespaceResolver*() noexcept {
+  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
+constexpr ::System::Xml::IXmlNamespaceResolver* System::Xml::XmlAsyncCheckReaderWithLineInfoNS::i___System__Xml__IXmlNamespaceResolver() noexcept {
+  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS::XmlAsyncCheckReaderWithLineInfoNS() {}

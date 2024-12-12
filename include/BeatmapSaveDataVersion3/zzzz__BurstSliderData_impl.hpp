@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(
     &::BeatmapSaveDataVersion3::BurstSliderData::get_sliceCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4dac;
+  constexpr static std::size_t addrs = 0x270671c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BurstSliderData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(
     &::BeatmapSaveDataVersion3::BurstSliderData::get_cuttableSlicesCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26d4db4;
+  constexpr static std::size_t addrs = 0x2706724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BurstSliderData*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(
     &::BeatmapSaveDataVersion3::BurstSliderData::get_squishAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4dc0;
+  constexpr static std::size_t addrs = 0x2706730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BurstSliderData*>::get(),
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::BeatmapSaveDataCommon::NoteColorType, float_t, int32_t, int32_t, ::BeatmapSaveDataCommon::NoteCutDirection, float_t, int32_t, int32_t, int32_t, float_t)>(
     &::BeatmapSaveDataVersion3::BurstSliderData::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26d4dc8;
+  constexpr static std::size_t addrs = 0x2706738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,12 +106,6 @@ inline float_t BeatmapSaveDataVersion3::BurstSliderData::get_squishAmount() {
                                                                              "get_squishAmount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::BurstSliderData* BeatmapSaveDataVersion3::BurstSliderData::New_ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine,
-                                                                                                      int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat,
-                                                                                                      int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount) {
-  return THROW_UNLESS(
-      ::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::BurstSliderData*>(colorType, headBeat, headLine, headLayer, headCutDirection, tailBeat, tailLine, tailLayer, sliceCount, squishAmount));
-}
 inline void BeatmapSaveDataVersion3::BurstSliderData::_ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer,
                                                             ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount,
                                                             float_t squishAmount) {
@@ -125,6 +119,12 @@ inline void BeatmapSaveDataVersion3::BurstSliderData::_ctor(::BeatmapSaveDataCom
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, colorType, headBeat, headLine, headLayer, headCutDirection, tailBeat, tailLine, tailLayer, sliceCount,
                                                           squishAmount);
+}
+inline ::BeatmapSaveDataVersion3::BurstSliderData* BeatmapSaveDataVersion3::BurstSliderData::New_ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine,
+                                                                                                      int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat,
+                                                                                                      int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::BurstSliderData*>(colorType, headBeat, headLine, headLayer, headCutDirection, tailBeat, tailLine, tailLayer, sliceCount, squishAmount));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::BurstSliderData::BurstSliderData() {}

@@ -17,11 +17,10 @@ class BloomPrePassBackgroundSpriteRenderer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer);
-// Type: ::BloomPrePassBackgroundSpriteRenderer
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BloomPrePassBackgroundNonLightRendererCore
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassBackgroundSpriteRenderer*
+// CS Name: BloomPrePassBackgroundSpriteRenderer
 class CORDL_TYPE BloomPrePassBackgroundSpriteRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
   // Declarations
@@ -38,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x39823e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d8ca8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x39823d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x39d8ca0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundSpriteRenderer(BloomPrePassBackgroundSpriteRenderer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16245 };
+
   /// @brief Field _spriteRenderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer, ____spriteRenderer) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer);

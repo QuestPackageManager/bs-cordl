@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* (
     ::System::Linq::Expressions::MemberListBinding::*)()>(&::System::Linq::Expressions::MemberListBinding::get_Initializers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4057c94;
+  constexpr static std::size_t addrs = 0x40b8fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MemberListBinding*>::get(),
@@ -23,7 +23,7 @@ System::Linq::Expressions::MemberListBinding::__cordl_internal_get__Initializers
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Initializers_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* const&
 System::Linq::Expressions::MemberListBinding::__cordl_internal_get__Initializers_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Initializers_k__BackingField;

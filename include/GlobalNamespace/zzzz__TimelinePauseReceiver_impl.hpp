@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TimelinePauseReceiver.hpp"
+#include "UnityEngine/Playables/zzzz__INotificationReceiver_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelinePauseReceiver_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TimelinePauseReceiver.add_timelinePauseEvent
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(::System::Action*)>(
     &::GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39706d4;
+  constexpr static std::size_t addrs = 0x39c5bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(::System::Action*)>(
     &::GlobalNamespace::TimelinePauseReceiver::remove_timelinePauseEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3970770;
+  constexpr static std::size_t addrs = 0x39c5c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*, ::System::Object*)>(&::GlobalNamespace::TimelinePauseReceiver::OnNotify)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x397080c;
+  constexpr static std::size_t addrs = 0x39c5cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)()>(&::GlobalNamespace::TimelinePauseReceiver::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39708a0;
+  constexpr static std::size_t addrs = 0x39c5d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseReceiver*>::get(), ".ctor",
@@ -67,19 +67,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
-constexpr GlobalNamespace::TimelinePauseReceiver::operator ::UnityEngine::Playables::INotificationReceiver*() noexcept {
-  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
-constexpr ::UnityEngine::Playables::INotificationReceiver* GlobalNamespace::TimelinePauseReceiver::i___UnityEngine__Playables__INotificationReceiver() noexcept {
-  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
-}
 constexpr ::System::Action*& GlobalNamespace::TimelinePauseReceiver::__cordl_internal_get_timelinePauseEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timelinePauseEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::TimelinePauseReceiver::__cordl_internal_get_timelinePauseEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::TimelinePauseReceiver::__cordl_internal_get_timelinePauseEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timelinePauseEvent;
 }
@@ -107,13 +99,21 @@ inline void GlobalNamespace::TimelinePauseReceiver::OnNotify(::UnityEngine::Play
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, origin, notification, context);
 }
-inline ::GlobalNamespace::TimelinePauseReceiver* GlobalNamespace::TimelinePauseReceiver::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TimelinePauseReceiver*>());
-}
 inline void GlobalNamespace::TimelinePauseReceiver::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseReceiver*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::TimelinePauseReceiver* GlobalNamespace::TimelinePauseReceiver::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TimelinePauseReceiver*>());
+}
+/// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
+constexpr GlobalNamespace::TimelinePauseReceiver::operator ::UnityEngine::Playables::INotificationReceiver*() noexcept {
+  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+constexpr ::UnityEngine::Playables::INotificationReceiver* GlobalNamespace::TimelinePauseReceiver::i___UnityEngine__Playables__INotificationReceiver() noexcept {
+  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TimelinePauseReceiver::TimelinePauseReceiver() {}

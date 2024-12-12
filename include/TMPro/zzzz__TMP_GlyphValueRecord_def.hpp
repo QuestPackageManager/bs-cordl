@@ -18,11 +18,10 @@ struct TMP_GlyphValueRecord;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_GlyphValueRecord);
-// Type: TMPro::TMP_GlyphValueRecord
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TMP_GlyphValueRecord
+// CS Name: TMPro.TMP_GlyphValueRecord
 struct CORDL_TYPE TMP_GlyphValueRecord {
 public:
   // Declarations
@@ -34,40 +33,40 @@ public:
 
   __declspec(property(get = get_yPlacement, put = set_yPlacement)) float_t yPlacement;
 
-  /// @brief Method .ctor, addr 0x47738c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d4bd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::GlyphValueRecord_Legacy valueRecord);
 
-  /// @brief Method .ctor, addr 0x47738cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d4be0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method .ctor, addr 0x4771238, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d254c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance);
 
-  /// @brief Method get_xAdvance, addr 0x47738a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xAdvance, addr 0x47d4bb4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xAdvance();
 
-  /// @brief Method get_xPlacement, addr 0x4773880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPlacement, addr 0x47d4b94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPlacement();
 
-  /// @brief Method get_yAdvance, addr 0x47738b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yAdvance, addr 0x47d4bc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yAdvance();
 
-  /// @brief Method get_yPlacement, addr 0x4773890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPlacement, addr 0x47d4ba4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPlacement();
 
-  /// @brief Method op_Addition, addr 0x477392c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x47d4c40, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_GlyphValueRecord op_Addition(::TMPro::TMP_GlyphValueRecord a, ::TMPro::TMP_GlyphValueRecord b);
 
-  /// @brief Method set_xAdvance, addr 0x47738a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xAdvance, addr 0x47d4bbc, size 0x8, virtual false, abstract: false, final false
   inline void set_xAdvance(float_t value);
 
-  /// @brief Method set_xPlacement, addr 0x4773888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xPlacement, addr 0x47d4b9c, size 0x8, virtual false, abstract: false, final false
   inline void set_xPlacement(float_t value);
 
-  /// @brief Method set_yAdvance, addr 0x47738b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yAdvance, addr 0x47d4bcc, size 0x8, virtual false, abstract: false, final false
   inline void set_yAdvance(float_t value);
 
-  /// @brief Method set_yPlacement, addr 0x4773898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yPlacement, addr 0x47d4bac, size 0x8, virtual false, abstract: false, final false
   inline void set_yPlacement(float_t value);
 
   // Ctor Parameters []
@@ -77,6 +76,12 @@ public:
   // Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam {
   // name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: None }]
   constexpr TMP_GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14489 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_XPlacement, offset: 0x0, size: 0x4, def value: None
   float_t m_XPlacement;
@@ -90,17 +95,9 @@ public:
   /// @brief Field m_YAdvance, offset: 0xc, size: 0x4, def value: None
   float_t m_YAdvance;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14455 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_GlyphValueRecord, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_GlyphValueRecord, m_XPlacement) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_GlyphValueRecord, m_YPlacement) == 0x4, "Offset mismatch!");
@@ -108,6 +105,8 @@ static_assert(offsetof(::TMPro::TMP_GlyphValueRecord, m_YPlacement) == 0x4, "Off
 static_assert(offsetof(::TMPro::TMP_GlyphValueRecord, m_XAdvance) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_GlyphValueRecord, m_YAdvance) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_GlyphValueRecord, 0x10>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");

@@ -16,11 +16,10 @@ class VectorImageRenderInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);
-// Type: UnityEngine.UIElements.UIR::VectorImageRenderInfo
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UIR.Alloc, UnityEngine.UIElements.UIR.LinkedPoolItem`1<T>
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
+// CS Name: UnityEngine.UIElements.UIR.VectorImageRenderInfo
 class CORDL_TYPE VectorImageRenderInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations
@@ -35,12 +34,12 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x494d6e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49b1ff8, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_firstGradientRemap();
+  constexpr ::UnityEngine::UIElements::UIR::GradientRemap* const& __cordl_internal_get_firstGradientRemap() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& __cordl_internal_get_firstGradientRemap() const;
+  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_firstGradientRemap();
 
   constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_gradientSettingsAlloc() const;
 
@@ -56,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x494d680, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b1f90, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VectorImageRenderInfo(VectorImageRenderInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6405 };
+
   /// @brief Field useCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___useCount;
 
@@ -82,19 +84,16 @@ public:
   /// @brief Field gradientSettingsAlloc, offset: 0x28, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::Alloc ___gradientSettingsAlloc;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::VectorImageRenderInfo, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___useCount) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___firstGradientRemap) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___gradientSettingsAlloc) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::VectorImageRenderInfo, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);

@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakedLightUtils)
 // Forward declare root types
@@ -12,27 +13,26 @@ class BakedLightUtils;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BakedLightUtils);
-// Type: ::BakedLightUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BakedLightUtils*
+// CS Name: BakedLightUtils
 class CORDL_TYPE BakedLightUtils : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _stencilCompPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__stencilCompPropertyId, put = setStaticF__stencilCompPropertyId)) int32_t _stencilCompPropertyId;
+  __declspec(property(get = getStaticF__stencilCompPropertyId, put = setStaticF__stencilCompPropertyId)) int32_t _stencilCompPropertyId;
 
   /// @brief Field _stencilPassOpPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__stencilPassOpPropertyId, put = setStaticF__stencilPassOpPropertyId)) int32_t _stencilPassOpPropertyId;
+  __declspec(property(get = getStaticF__stencilPassOpPropertyId, put = setStaticF__stencilPassOpPropertyId)) int32_t _stencilPassOpPropertyId;
 
   /// @brief Field _stencilRefValuePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__stencilRefValuePropertyId, put = setStaticF__stencilRefValuePropertyId)) int32_t _stencilRefValuePropertyId;
+  __declspec(property(get = getStaticF__stencilRefValuePropertyId, put = setStaticF__stencilRefValuePropertyId)) int32_t _stencilRefValuePropertyId;
 
   /// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
+  __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x3ab60a0, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x3b12fe4, size 0x7a4, virtual false, abstract: false, final false
   static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
 
   static inline int32_t getStaticF__stencilCompPropertyId();
@@ -66,7 +66,7 @@ public:
   BakedLightUtils(BakedLightUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5047 };
 
   /// @brief Field kDepthOnlyShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthOnlyShaderName{ u"Custom/SetDepthOnly" };

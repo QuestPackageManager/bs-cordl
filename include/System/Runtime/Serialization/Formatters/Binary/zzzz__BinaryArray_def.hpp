@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryTypeEnum_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryArray)
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -34,11 +33,11 @@ class BinaryArray;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryArray);
-// Type: System.Runtime.Serialization.Formatters.Binary::BinaryArray
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum, System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum,
+// System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArray*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryArray
 class CORDL_TYPE BinaryArray : public ::System::Object {
 public:
   // Declarations
@@ -75,15 +74,15 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Read, addr 0x3ca0620, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3d00794, size 0x318, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x3ca02f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3d00464, size 0x58, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, int32_t rank, ::ArrayW<int32_t, ::Array<int32_t>*> lengthA, ::ArrayW<int32_t, ::Array<int32_t>*> lowerBoundA,
                   ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation,
                   ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int32_t assemId);
 
-  /// @brief Method Write, addr 0x3ca0348, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3d004bc, size 0x2d8, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -118,9 +117,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_rank();
 
-  constexpr ::System::Object*& __cordl_internal_get_typeInformation();
+  constexpr ::System::Object* const& __cordl_internal_get_typeInformation() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_typeInformation() const;
+  constexpr ::System::Object*& __cordl_internal_get_typeInformation();
 
   constexpr void __cordl_internal_set_assemId(int32_t value);
 
@@ -140,10 +139,10 @@ public:
 
   constexpr void __cordl_internal_set_typeInformation(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3ca02c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d00434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ca02c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0043c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
 protected:
@@ -159,6 +158,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryArray", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryArray(BinaryArray const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3270 };
 
   /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
   int32_t ___objectId;
@@ -187,14 +189,9 @@ public:
   /// @brief Field binaryArrayTypeEnum, offset: 0x40, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum ___binaryArrayTypeEnum;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3270 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryArray, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryArray, ___objectId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryArray, ___rank) == 0x14, "Offset mismatch!");
@@ -212,6 +209,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Bin
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryArray, ___binaryHeaderEnum) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryArray, ___binaryArrayTypeEnum) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryArray, 0x48>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryArray);

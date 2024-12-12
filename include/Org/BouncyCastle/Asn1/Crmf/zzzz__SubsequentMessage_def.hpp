@@ -12,26 +12,25 @@ class SubsequentMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage);
-// Type: Org.BouncyCastle.Asn1.Crmf::SubsequentMessage
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerInteger
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Crmf::SubsequentMessage*
+// CS Name: Org.BouncyCastle.Asn1.Crmf.SubsequentMessage
 class CORDL_TYPE SubsequentMessage : public ::Org::BouncyCastle::Asn1::DerInteger {
 public:
   // Declarations
   /// @brief Field challengeResp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_challengeResp, put = setStaticF_challengeResp)) ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* challengeResp;
+  __declspec(property(get = getStaticF_challengeResp, put = setStaticF_challengeResp)) ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* challengeResp;
 
   /// @brief Field encrCert, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_encrCert, put = setStaticF_encrCert)) ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* encrCert;
+  __declspec(property(get = getStaticF_encrCert, put = setStaticF_encrCert)) ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* encrCert;
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* New_ctor(int32_t value);
 
-  /// @brief Method ValueOf, addr 0x22e0240, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ValueOf, addr 0x231352c, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* ValueOf(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22e1b1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2314e08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* getStaticF_challengeResp();

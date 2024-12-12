@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultReferenceResolver.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultReferenceResolver_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::DefaultReferenceResolver.GetMappings
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* (
     ::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*)>(&::Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3e82358;
+  constexpr static std::size_t addrs = 0x3ee2404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::StringW)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::ResolveReference)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e82568;
+  constexpr static std::size_t addrs = 0x3ee2614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetReference)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3e825dc;
+  constexpr static std::size_t addrs = 0x3ee2688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(
     ::System::Object*, ::StringW, ::System::Object*)>(&::Newtonsoft::Json::Serialization::DefaultReferenceResolver::AddReference)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e826d0;
+  constexpr static std::size_t addrs = 0x3ee277c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::IsReferenced)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e8273c;
+  constexpr static std::size_t addrs = 0x3ee27e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)()>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e827b0;
+  constexpr static std::size_t addrs = 0x3ee285c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,14 +99,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Newtonsoft::Json::Serialization::IReferenceResolver"
-constexpr Newtonsoft::Json::Serialization::DefaultReferenceResolver::operator ::Newtonsoft::Json::Serialization::IReferenceResolver*() noexcept {
-  return static_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Newtonsoft::Json::Serialization::IReferenceResolver"
-constexpr ::Newtonsoft::Json::Serialization::IReferenceResolver* Newtonsoft::Json::Serialization::DefaultReferenceResolver::i___Newtonsoft__Json__Serialization__IReferenceResolver() noexcept {
-  return static_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(static_cast<void*>(this));
-}
 constexpr int32_t& Newtonsoft::Json::Serialization::DefaultReferenceResolver::__cordl_internal_get__referenceCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceCount;
@@ -152,14 +144,22 @@ inline bool Newtonsoft::Json::Serialization::DefaultReferenceResolver::IsReferen
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, context, value);
 }
-inline ::Newtonsoft::Json::Serialization::DefaultReferenceResolver* Newtonsoft::Json::Serialization::DefaultReferenceResolver::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::DefaultReferenceResolver*>());
-}
 inline void Newtonsoft::Json::Serialization::DefaultReferenceResolver::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::DefaultReferenceResolver*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Serialization::DefaultReferenceResolver* Newtonsoft::Json::Serialization::DefaultReferenceResolver::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::DefaultReferenceResolver*>());
+}
+/// @brief Convert operator to "::Newtonsoft::Json::Serialization::IReferenceResolver"
+constexpr Newtonsoft::Json::Serialization::DefaultReferenceResolver::operator ::Newtonsoft::Json::Serialization::IReferenceResolver*() noexcept {
+  return static_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Newtonsoft::Json::Serialization::IReferenceResolver"
+constexpr ::Newtonsoft::Json::Serialization::IReferenceResolver* Newtonsoft::Json::Serialization::DefaultReferenceResolver::i___Newtonsoft__Json__Serialization__IReferenceResolver() noexcept {
+  return static_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::DefaultReferenceResolver::DefaultReferenceResolver() {}

@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockLevelEndActions)
-namespace GlobalNamespace {
-class ILevelEndActions;
-}
 namespace System {
 class Action;
 }
@@ -17,11 +15,10 @@ class MockLevelEndActions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockLevelEndActions);
-// Type: ::MockLevelEndActions
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILevelEndActions, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockLevelEndActions*
+// CS Name: MockLevelEndActions
 class CORDL_TYPE MockLevelEndActions : public ::System::Object {
 public:
   // Declarations
@@ -36,34 +33,34 @@ public:
 
   static inline ::GlobalNamespace::MockLevelEndActions* New_ctor();
 
+  constexpr ::System::Action* const& __cordl_internal_get_levelFailedEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_levelFailedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelFailedEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_levelFinishedEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_levelFinishedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelFinishedEvent() const;
 
   constexpr void __cordl_internal_set_levelFailedEvent(::System::Action* value);
 
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b3fb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba1134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelFailedEvent, addr 0x3b3f9d0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x3ba0ffc, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x3b3f898, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x3ba0ec4, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
   constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
-  /// @brief Method remove_levelFailedEvent, addr 0x3b3fa6c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x3ba1098, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x3b3f934, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x3ba0f60, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
 protected:
@@ -80,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockLevelEndActions(MockLevelEndActions const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4395 };
+
   /// @brief Field levelFinishedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___levelFinishedEvent;
 
   /// @brief Field levelFailedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___levelFailedEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4383 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockLevelEndActions, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockLevelEndActions, ___levelFinishedEvent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockLevelEndActions, ___levelFailedEvent) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockLevelEndActions, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockLevelEndActions);

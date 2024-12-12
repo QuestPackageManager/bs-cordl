@@ -18,34 +18,33 @@ class ListViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewController);
-// Type: UnityEngine.UIElements::ListViewController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseListViewController
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ListViewController*
+// CS Name: UnityEngine.UIElements.ListViewController
 class CORDL_TYPE ListViewController : public ::UnityEngine::UIElements::BaseListViewController {
 public:
   // Declarations
   __declspec(property(get = get_listView)) ::UnityEngine::UIElements::ListView* listView;
 
-  /// @brief Method BindItem, addr 0x4915958, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x497a108, size 0x1f8, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x4915ba0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x497a350, size 0x3c, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method MakeItem, addr 0x491586c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x497a01c, size 0xec, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::ListViewController* New_ctor();
 
-  /// @brief Method UnbindItem, addr 0x4915b50, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x497a300, size 0x50, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method .ctor, addr 0x4915bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497a38c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_listView, addr 0x49157f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_listView, addr 0x4979fa0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListView* get_listView();
 
 protected:
@@ -63,7 +62,7 @@ public:
   ListViewController(ListViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

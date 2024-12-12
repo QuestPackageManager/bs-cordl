@@ -3,22 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoInvitePlatformHandler)
-namespace GlobalNamespace {
-class IInvitePlatformHandler;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class NoInvitePlatformHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoInvitePlatformHandler);
-// Type: ::NoInvitePlatformHandler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IInvitePlatformHandler, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoInvitePlatformHandler*
+// CS Name: NoInvitePlatformHandler
 class CORDL_TYPE NoInvitePlatformHandler : public ::System::Object {
 public:
   // Declarations
@@ -29,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::NoInvitePlatformHandler* New_ctor();
 
-  /// @brief Method OpenInvitePanel, addr 0x26a4f00, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method OpenInvitePanel, addr 0x26d9c34, size 0x38, virtual true, abstract: false, final true
   inline void OpenInvitePanel();
 
-  /// @brief Method .ctor, addr 0x26a4f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d9c6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isSupported, addr 0x26a4ef8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isSupported, addr 0x26d9c2c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
@@ -56,7 +53,7 @@ public:
   NoInvitePlatformHandler(NoInvitePlatformHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

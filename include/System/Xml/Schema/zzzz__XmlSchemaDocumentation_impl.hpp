@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaDocumentation::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaDocumentation::set_Source)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425b06c;
+  constexpr static std::size_t addrs = 0x42bc380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaDocumentation::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaDocumentation::set_Language)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x425b074;
+  constexpr static std::size_t addrs = 0x42bc388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaDocumentation::*)(
     ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*>)>(&::System::Xml::Schema::XmlSchemaDocumentation::set_Markup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425b144;
+  constexpr static std::size_t addrs = 0x42bc458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaDocumentation::*)()>(&::System::Xml::Schema::XmlSchemaDocumentation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425b14c;
+  constexpr static std::size_t addrs = 0x42bc460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaDocumentation*>::get(), ".ctor",
@@ -125,13 +125,13 @@ inline void System::Xml::Schema::XmlSchemaDocumentation::set_Markup(::ArrayW<::S
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Xml::Schema::XmlSchemaDocumentation* System::Xml::Schema::XmlSchemaDocumentation::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaDocumentation*>());
-}
 inline void System::Xml::Schema::XmlSchemaDocumentation::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaDocumentation*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaDocumentation* System::Xml::Schema::XmlSchemaDocumentation::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaDocumentation*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaDocumentation::XmlSchemaDocumentation() {}

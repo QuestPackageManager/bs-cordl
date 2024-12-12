@@ -15,11 +15,10 @@ class WellKnownClientTypeEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::WellKnownClientTypeEntry);
-// Type: System.Runtime.Remoting::WellKnownClientTypeEntry
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.TypeEntry
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::WellKnownClientTypeEntry*
+// CS Name: System.Runtime.Remoting.WellKnownClientTypeEntry
 class CORDL_TYPE WellKnownClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
   // Declarations
@@ -40,16 +39,16 @@ public:
 
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method ToString, addr 0x3c762d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cd6444, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_app_url() const;
 
   constexpr ::StringW& __cordl_internal_get_app_url();
 
-  constexpr ::System::Type*& __cordl_internal_get_obj_type();
+  constexpr ::System::Type* const& __cordl_internal_get_obj_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_obj_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_obj_type();
 
   constexpr ::StringW const& __cordl_internal_get_obj_url() const;
 
@@ -61,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c76190, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd6304, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x3c762b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x3cd642c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ObjectType, addr 0x3c762c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x3cd6434, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUrl, addr 0x3c762c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUrl, addr 0x3cd643c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUrl();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WellKnownClientTypeEntry(WellKnownClientTypeEntry const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3080 };
+
   /// @brief Field obj_type, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___obj_type;
 
@@ -96,19 +98,16 @@ public:
   /// @brief Field app_url, offset: 0x30, size: 0x8, def value: None
   ::StringW ___app_url;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3080 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::WellKnownClientTypeEntry, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::WellKnownClientTypeEntry, ___obj_type) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::WellKnownClientTypeEntry, ___obj_url) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::WellKnownClientTypeEntry, ___app_url) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::WellKnownClientTypeEntry, 0x38>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::WellKnownClientTypeEntry);

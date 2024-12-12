@@ -15,11 +15,10 @@ class InvalidKeyException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::InvalidKeyException);
-// Type: Org.BouncyCastle.Security::InvalidKeyException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.KeyException
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security::InvalidKeyException*
+// CS Name: Org.BouncyCastle.Security.InvalidKeyException
 class CORDL_TYPE InvalidKeyException : public ::Org::BouncyCastle::Security::KeyException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::InvalidKeyException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x2575508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a87f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2575510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a87fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2575518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a8804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

@@ -12,11 +12,10 @@ struct AixArpHardware;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::AixArpHardware);
-// Type: System.Net.NetworkInformation::AixArpHardware
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// CS Name: ::System.Net.NetworkInformation::AixArpHardware
+// CS Name: System.Net.NetworkInformation.AixArpHardware
 struct CORDL_TYPE AixArpHardware {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AixArpHardware(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ATM value: static_cast<int32_t>(0x25)
+  /// @brief Field ATM value: I32(37)
   static ::System::Net::NetworkInformation::AixArpHardware const ATM;
 
-  /// @brief Field ETHER value: static_cast<int32_t>(0x6)
+  /// @brief Field ETHER value: I32(6)
   static ::System::Net::NetworkInformation::AixArpHardware const ETHER;
 
-  /// @brief Field FDDI value: static_cast<int32_t>(0xf)
+  /// @brief Field FDDI value: I32(15)
   static ::System::Net::NetworkInformation::AixArpHardware const FDDI;
 
-  /// @brief Field LOOPBACK value: static_cast<int32_t>(0x18)
+  /// @brief Field LOOPBACK value: I32(24)
   static ::System::Net::NetworkInformation::AixArpHardware const LOOPBACK;
 
-  /// @brief Field PPP value: static_cast<int32_t>(0x17)
+  /// @brief Field PPP value: I32(23)
   static ::System::Net::NetworkInformation::AixArpHardware const PPP;
 
-  /// @brief Field SLIP value: static_cast<int32_t>(0x1c)
+  /// @brief Field SLIP value: I32(28)
   static ::System::Net::NetworkInformation::AixArpHardware const SLIP;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9778 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixArpHardware, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::NetworkInformation::AixArpHardware, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixArpHardware, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixArpHardware, "System.Net.NetworkInformation", "AixArpHardware");

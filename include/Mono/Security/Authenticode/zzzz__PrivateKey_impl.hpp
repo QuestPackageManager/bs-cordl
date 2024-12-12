@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Authenticode::PrivateKey::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW)>(
     &::Mono::Security::Authenticode::PrivateKey::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3bee41c;
+  constexpr static std::size_t addrs = 0x3c4e530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (::Mono::Security::Authenticode::PrivateKey::*)()>(
     &::Mono::Security::Authenticode::PrivateKey::get_RSA)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bee940;
+  constexpr static std::size_t addrs = 0x3c4ea54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::PrivateKey*>::get(), "get_RSA",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Authenticode::PrivateKey::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW)>(&::Mono::Security::Authenticode::PrivateKey::DeriveKey)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3bee948;
+  constexpr static std::size_t addrs = 0x3c4ea5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Authenticode::PrivateKey::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW)>(
     &::Mono::Security::Authenticode::PrivateKey::Decode)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x3bee4f4;
+  constexpr static std::size_t addrs = 0x3c4e608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Authenticode::PrivateKey* (*)(::StringW)>(
     &::Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3beea60;
+  constexpr static std::size_t addrs = 0x3c4eb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Authenticode::PrivateKey* (*)(::StringW, ::StringW)>(
     &::Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3beea68;
+  constexpr static std::size_t addrs = 0x3c4eb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ constexpr ::System::Security::Cryptography::RSA*& Mono::Security::Authenticode::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rsa;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& Mono::Security::Authenticode::PrivateKey::__cordl_internal_get_rsa() const {
+constexpr ::System::Security::Cryptography::RSA* const& Mono::Security::Authenticode::PrivateKey::__cordl_internal_get_rsa() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rsa;
 }
@@ -142,9 +142,6 @@ constexpr int32_t const& Mono::Security::Authenticode::PrivateKey::__cordl_inter
 constexpr void Mono::Security::Authenticode::PrivateKey::__cordl_internal_set_keyType(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyType = value;
-}
-inline ::Mono::Security::Authenticode::PrivateKey* Mono::Security::Authenticode::PrivateKey::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Authenticode::PrivateKey*>(data, password));
 }
 inline void Mono::Security::Authenticode::PrivateKey::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -183,6 +180,9 @@ inline ::Mono::Security::Authenticode::PrivateKey* Mono::Security::Authenticode:
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::PrivateKey*>::get(), "CreateFromFile", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Security::Authenticode::PrivateKey*, false>(nullptr, ___internal_method, filename, password);
+}
+inline ::Mono::Security::Authenticode::PrivateKey* Mono::Security::Authenticode::PrivateKey::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Authenticode::PrivateKey*>(data, password));
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Authenticode::PrivateKey::PrivateKey() {}

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ImmediateModeException::*)(::System::Exception*)>(
     &::UnityEngine::UIElements::ImmediateModeException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49d9c48;
+  constexpr static std::size_t addrs = 0x4a3e558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -18,14 +18,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::ImmediateModeException* UnityEngine::UIElements::ImmediateModeException::New_ctor(::System::Exception* inner) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ImmediateModeException*>(inner));
-}
 inline void UnityEngine::UIElements::ImmediateModeException::_ctor(::System::Exception* inner) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ImmediateModeException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inner);
+}
+inline ::UnityEngine::UIElements::ImmediateModeException* UnityEngine::UIElements::ImmediateModeException::New_ctor(::System::Exception* inner) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ImmediateModeException*>(inner));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ImmediateModeException::ImmediateModeException() {}

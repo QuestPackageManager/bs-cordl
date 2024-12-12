@@ -17,11 +17,10 @@ class SignalBindingBindInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalBindingBindInfo);
-// Type: Zenject::SignalBindingBindInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::SignalBindingBindInfo*
+// CS Name: Zenject.SignalBindingBindInfo
 class CORDL_TYPE SignalBindingBindInfo : public ::System::Object {
 public:
   // Declarations
@@ -37,31 +36,31 @@ public:
 
   static inline ::Zenject::SignalBindingBindInfo* New_ctor(::System::Type* signalType);
 
+  constexpr ::System::Object* const& __cordl_internal_get__Identifier_k__BackingField() const;
+
   constexpr ::System::Object*& __cordl_internal_get__Identifier_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Identifier_k__BackingField() const;
+  constexpr ::System::Type* const& __cordl_internal_get__SignalType_k__BackingField() const;
 
   constexpr ::System::Type*& __cordl_internal_get__SignalType_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__SignalType_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Identifier_k__BackingField(::System::Object* value);
 
   constexpr void __cordl_internal_set__SignalType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4a94230, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8b40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier, addr 0x4a94258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x4af8b68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method get_SignalType, addr 0x4a94268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x4af8b78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method set_Identifier, addr 0x4a94260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x4af8b70, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method set_SignalType, addr 0x4a94270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x4af8b80, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
 protected:
@@ -78,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalBindingBindInfo(SignalBindingBindInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11990 };
+
   /// @brief Field <Identifier>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____Identifier_k__BackingField;
 
   /// @brief Field <SignalType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____SignalType_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11957 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::SignalBindingBindInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::SignalBindingBindInfo, ____Identifier_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::SignalBindingBindInfo, ____SignalType_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::SignalBindingBindInfo, 0x20>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SignalBindingBindInfo);

@@ -4,15 +4,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 CORDL_MODULE_EXPORT(PropertyCollection)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-class ICloneable;
 }
 namespace System {
 class Object;
@@ -23,28 +21,27 @@ class PropertyCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::PropertyCollection);
-// Type: System.Data::PropertyCollection
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Hashtable, System.ICloneable
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::PropertyCollection*
+// CS Name: System.Data.PropertyCollection
 class CORDL_TYPE PropertyCollection : public ::System::Collections::Hashtable {
 public:
   // Declarations
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x4121bdc, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x4182ef0, size 0x2fc, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::System::Data::PropertyCollection* New_ctor();
 
   static inline ::System::Data::PropertyCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4121bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4182ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4121bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4182ee8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::ICloneable"
@@ -65,7 +62,7 @@ public:
   PropertyCollection(PropertyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11444 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

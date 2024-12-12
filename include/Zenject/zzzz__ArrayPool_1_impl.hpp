@@ -24,9 +24,6 @@ template <typename T> inline ::System::Collections::Generic::Dictionary_2<int32_
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>*, "_pools",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ArrayPool_1<T>*>::get>();
 }
-template <typename T> inline ::Zenject::ArrayPool_1<T>* Zenject::ArrayPool_1<T>::New_ctor(int32_t length) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ArrayPool_1<T>*>(length));
-}
 template <typename T> inline void Zenject::ArrayPool_1<T>::_ctor(int32_t length) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ArrayPool_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -54,6 +51,9 @@ template <typename T> inline ::Zenject::ArrayPool_1<T>* Zenject::ArrayPool_1<T>:
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ArrayPool_1<T>*>::get(), "GetPool", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ArrayPool_1<T>*, false>(nullptr, ___internal_method, length);
+}
+template <typename T> inline ::Zenject::ArrayPool_1<T>* Zenject::ArrayPool_1<T>::New_ctor(int32_t length) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ArrayPool_1<T>*>(length));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Zenject::ArrayPool_1<T>::ArrayPool_1() {}

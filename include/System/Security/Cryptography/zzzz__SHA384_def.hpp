@@ -11,20 +11,19 @@ class SHA384;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::SHA384);
-// Type: System.Security.Cryptography::SHA384
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.HashAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::SHA384*
+// CS Name: System.Security.Cryptography.SHA384
 class CORDL_TYPE SHA384 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3c49408, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ca957c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::SHA384* Create();
 
   static inline ::System::Security::Cryptography::SHA384* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c493e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca955c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

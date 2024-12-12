@@ -20,26 +20,25 @@ class PrincipalUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::PrincipalUtilities);
-// Type: Org.BouncyCastle.X509::PrincipalUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509::PrincipalUtilities*
+// CS Name: Org.BouncyCastle.X509.PrincipalUtilities
 class CORDL_TYPE PrincipalUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIssuerX509Principal, addr 0x25b9984, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerX509Principal, addr 0x25ecc70, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetIssuerX509Principal, addr 0x25b9bac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerX509Principal, addr 0x25ece98, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Crl* crl);
 
-  /// @brief Method GetSubjectX509Principal, addr 0x25b9a98, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSubjectX509Principal, addr 0x25ecd84, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetSubjectX509Principal(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::X509::PrincipalUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25b9cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ecfac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

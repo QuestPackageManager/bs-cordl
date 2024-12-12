@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Zenject/SubContainerCreatorByInstance.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByInstance_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByInstance._ctor
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByInstance::*)(::Zenject::DiContainer*)>(
     &::Zenject::SubContainerCreatorByInstance::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ada654;
+  constexpr static std::size_t addrs = 0x4b3ef64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByInstance::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::InjectContext*)>(
         &::Zenject::SubContainerCreatorByInstance::CreateSubContainer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ada67c;
+  constexpr static std::size_t addrs = 0x4b3ef8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,28 +39,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::ISubContainerCreator"
-constexpr Zenject::SubContainerCreatorByInstance::operator ::Zenject::ISubContainerCreator*() noexcept {
-  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::ISubContainerCreator"
-constexpr ::Zenject::ISubContainerCreator* Zenject::SubContainerCreatorByInstance::i___Zenject__ISubContainerCreator() noexcept {
-  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
-}
 constexpr ::Zenject::DiContainer*& Zenject::SubContainerCreatorByInstance::__cordl_internal_get__subcontainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subcontainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::SubContainerCreatorByInstance::__cordl_internal_get__subcontainer() const {
+constexpr ::Zenject::DiContainer* const& Zenject::SubContainerCreatorByInstance::__cordl_internal_get__subcontainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subcontainer;
 }
 constexpr void Zenject::SubContainerCreatorByInstance::__cordl_internal_set__subcontainer(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subcontainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::SubContainerCreatorByInstance* Zenject::SubContainerCreatorByInstance::New_ctor(::Zenject::DiContainer* subcontainer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByInstance*>(subcontainer));
 }
 inline void Zenject::SubContainerCreatorByInstance::_ctor(::Zenject::DiContainer* subcontainer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -74,6 +63,17 @@ inline ::Zenject::DiContainer* Zenject::SubContainerCreatorByInstance::CreateSub
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method, args, context);
+}
+inline ::Zenject::SubContainerCreatorByInstance* Zenject::SubContainerCreatorByInstance::New_ctor(::Zenject::DiContainer* subcontainer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByInstance*>(subcontainer));
+}
+/// @brief Convert operator to "::Zenject::ISubContainerCreator"
+constexpr Zenject::SubContainerCreatorByInstance::operator ::Zenject::ISubContainerCreator*() noexcept {
+  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ISubContainerCreator"
+constexpr ::Zenject::ISubContainerCreator* Zenject::SubContainerCreatorByInstance::i___Zenject__ISubContainerCreator() noexcept {
+  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByInstance::SubContainerCreatorByInstance() {}

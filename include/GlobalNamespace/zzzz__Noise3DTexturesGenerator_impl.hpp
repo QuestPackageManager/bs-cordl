@@ -6,33 +6,32 @@
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture3D_def.hpp"
-// Ctor Parameters [CppParam { name: "globalPropertyName", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "materialPropertyNameCouples", ty:
-// "::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple,::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple>*>", modifiers: "", def_value:
-// Some("nullptr") }]
-constexpr ::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple::__Noise3DTexturesGenerator__MaterialTextureParamsCouple(
-    ::StringW globalPropertyName,
-    ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple>*>
-        materialPropertyNameCouples) noexcept {
+// Ctor Parameters [CppParam { name: "globalPropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialPropertyNameCouples", ty:
+// "::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple,::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple>*>", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple::Noise3DTexturesGenerator_MaterialTextureParamsCouple(
+    ::StringW globalPropertyName, ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple, ::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple>*>
+                                      materialPropertyNameCouples) noexcept {
   this->globalPropertyName = globalPropertyName;
   this->materialPropertyNameCouples = materialPropertyNameCouples;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple::__Noise3DTexturesGenerator__MaterialTextureParamsCouple() {}
-// Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>",
-// modifiers: "", def_value: Some("nullptr") }]
-constexpr ::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple::__Noise3DTexturesGenerator__MaterialPropertyNameCouple(::StringW texturePropertyName,
-                                                                                                                                            ::UnityW<::UnityEngine::Material> material) noexcept {
+constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple::Noise3DTexturesGenerator_MaterialTextureParamsCouple() {}
+// Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers:
+// "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple::Noise3DTexturesGenerator_MaterialPropertyNameCouple(::StringW texturePropertyName,
+                                                                                                                                      ::UnityW<::UnityEngine::Material> material) noexcept {
   this->texturePropertyName = texturePropertyName;
   this->material = material;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple::__Noise3DTexturesGenerator__MaterialPropertyNameCouple() {}
+constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple::Noise3DTexturesGenerator_MaterialPropertyNameCouple() {}
 //  Writing Method size for method: ::GlobalNamespace::Noise3DTexturesGenerator.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Noise3DTexturesGenerator::*)()>(&::GlobalNamespace::Noise3DTexturesGenerator::Awake)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x4022e18;
+  constexpr static std::size_t addrs = 0x408412c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Noise3DTexturesGenerator*>::get(), "Awake",
@@ -46,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> (*)(
     int32_t, int32_t, int32_t, float_t, int32_t, float_t)>(&::GlobalNamespace::Noise3DTexturesGenerator::CreateNoisePixels)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x4023020;
+  constexpr static std::size_t addrs = 0x4084334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Noise3DTexturesGenerator::*)()>(&::GlobalNamespace::Noise3DTexturesGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4023338;
+  constexpr static std::size_t addrs = 0x408464c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Noise3DTexturesGenerator*>::get(), ".ctor",
@@ -70,18 +69,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*>&
+constexpr ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple, ::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple>*>&
 GlobalNamespace::Noise3DTexturesGenerator::__cordl_internal_get__data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
-constexpr ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> const&
+constexpr ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple, ::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple>*> const&
 GlobalNamespace::Noise3DTexturesGenerator::__cordl_internal_get__data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr void GlobalNamespace::Noise3DTexturesGenerator::__cordl_internal_set__data(
-    ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> value) {
+    ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple, ::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -106,13 +105,13 @@ inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> Global
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>, false>(nullptr, ___internal_method, width, height, depth, scale, repeat, contrast);
 }
-inline ::GlobalNamespace::Noise3DTexturesGenerator* GlobalNamespace::Noise3DTexturesGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Noise3DTexturesGenerator*>());
-}
 inline void GlobalNamespace::Noise3DTexturesGenerator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Noise3DTexturesGenerator*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::Noise3DTexturesGenerator* GlobalNamespace::Noise3DTexturesGenerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Noise3DTexturesGenerator*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Noise3DTexturesGenerator::Noise3DTexturesGenerator() {}

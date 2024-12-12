@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/MarshalByValueComponent.hpp"
+#include "System/ComponentModel/zzzz__IComponent_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
+#include "System/zzzz__IServiceProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__MarshalByValueComponent_def.hpp"
 #include "System/ComponentModel/zzzz__EventHandlerList_def.hpp"
-#include "System/ComponentModel/zzzz__IComponent_def.hpp"
 #include "System/ComponentModel/zzzz__ISite_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IServiceProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::MarshalByValueComponent._ctor
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f2464;
+  constexpr static std::size_t addrs = 0x4453778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MarshalByValueComponent*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43f246c;
+  constexpr static std::size_t addrs = 0x4453780;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ISite* (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::get_Site)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f250c;
+  constexpr static std::size_t addrs = 0x4453820;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43f2514;
+  constexpr static std::size_t addrs = 0x4453828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MarshalByValueComponent*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MarshalByValueComponent::*)(bool)>(
     &::System::ComponentModel::MarshalByValueComponent::Dispose)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x43f2580;
+  constexpr static std::size_t addrs = 0x4453894;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::MarshalByValueComponent::*)(::System::Type*)>(
     &::System::ComponentModel::MarshalByValueComponent::GetService)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43f2808;
+  constexpr static std::size_t addrs = 0x4453b1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::MarshalByValueComponent::*)()>(
     &::System::ComponentModel::MarshalByValueComponent::ToString)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x43f28bc;
+  constexpr static std::size_t addrs = 0x4453bd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,35 +117,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::ComponentModel::IComponent"
-constexpr System::ComponentModel::MarshalByValueComponent::operator ::System::ComponentModel::IComponent*() noexcept {
-  return static_cast<::System::ComponentModel::IComponent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ComponentModel::IComponent"
-constexpr ::System::ComponentModel::IComponent* System::ComponentModel::MarshalByValueComponent::i___System__ComponentModel__IComponent() noexcept {
-  return static_cast<::System::ComponentModel::IComponent*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::ComponentModel::MarshalByValueComponent::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::ComponentModel::MarshalByValueComponent::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IServiceProvider"
-constexpr System::ComponentModel::MarshalByValueComponent::operator ::System::IServiceProvider*() noexcept {
-  return static_cast<::System::IServiceProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IServiceProvider"
-constexpr ::System::IServiceProvider* System::ComponentModel::MarshalByValueComponent::i___System__IServiceProvider() noexcept {
-  return static_cast<::System::IServiceProvider*>(static_cast<void*>(this));
-}
 constexpr ::System::ComponentModel::ISite*& System::ComponentModel::MarshalByValueComponent::__cordl_internal_get__site() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____site;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ISite*> const& System::ComponentModel::MarshalByValueComponent::__cordl_internal_get__site() const {
+constexpr ::System::ComponentModel::ISite* const& System::ComponentModel::MarshalByValueComponent::__cordl_internal_get__site() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____site;
 }
@@ -157,7 +133,7 @@ constexpr ::System::ComponentModel::EventHandlerList*& System::ComponentModel::M
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventHandlerList*> const& System::ComponentModel::MarshalByValueComponent::__cordl_internal_get__events() const {
+constexpr ::System::ComponentModel::EventHandlerList* const& System::ComponentModel::MarshalByValueComponent::__cordl_internal_get__events() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
 }
@@ -171,9 +147,6 @@ inline void System::ComponentModel::MarshalByValueComponent::setStaticF_s_eventD
 }
 inline ::System::Object* System::ComponentModel::MarshalByValueComponent::getStaticF_s_eventDisposed() {
   return ::cordl_internals::getStaticField<::System::Object*, "s_eventDisposed", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MarshalByValueComponent*>::get>();
-}
-inline ::System::ComponentModel::MarshalByValueComponent* System::ComponentModel::MarshalByValueComponent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::MarshalByValueComponent*>());
 }
 inline void System::ComponentModel::MarshalByValueComponent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MarshalByValueComponent*>::get(), ".ctor",
@@ -209,6 +182,33 @@ inline ::StringW System::ComponentModel::MarshalByValueComponent::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MarshalByValueComponent*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::MarshalByValueComponent* System::ComponentModel::MarshalByValueComponent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::MarshalByValueComponent*>());
+}
+/// @brief Convert operator to "::System::ComponentModel::IComponent"
+constexpr System::ComponentModel::MarshalByValueComponent::operator ::System::ComponentModel::IComponent*() noexcept {
+  return static_cast<::System::ComponentModel::IComponent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ComponentModel::IComponent"
+constexpr ::System::ComponentModel::IComponent* System::ComponentModel::MarshalByValueComponent::i___System__ComponentModel__IComponent() noexcept {
+  return static_cast<::System::ComponentModel::IComponent*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::ComponentModel::MarshalByValueComponent::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::ComponentModel::MarshalByValueComponent::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IServiceProvider"
+constexpr System::ComponentModel::MarshalByValueComponent::operator ::System::IServiceProvider*() noexcept {
+  return static_cast<::System::IServiceProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IServiceProvider"
+constexpr ::System::IServiceProvider* System::ComponentModel::MarshalByValueComponent::i___System__IServiceProvider() noexcept {
+  return static_cast<::System::IServiceProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::MarshalByValueComponent::MarshalByValueComponent() {}

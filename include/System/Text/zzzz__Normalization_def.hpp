@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Normalization)
@@ -30,99 +28,98 @@ class Normalization;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::Normalization);
-// Type: System.Text::Normalization
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Text {
 // Is value type: false
-// CS Name: ::System.Text::Normalization*
+// CS Name: System.Text.Normalization
 class CORDL_TYPE Normalization : public ::System::Object {
 public:
   // Declarations
   /// @brief Field charMapIndex, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_charMapIndex, put = setStaticF_charMapIndex)) ::cordl_internals::Ptr<int16_t> charMapIndex;
+  __declspec(property(get = getStaticF_charMapIndex, put = setStaticF_charMapIndex)) ::cordl_internals::Ptr<int16_t> charMapIndex;
 
   /// @brief Field combiningClass, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_combiningClass, put = setStaticF_combiningClass)) ::cordl_internals::Ptr<uint8_t> combiningClass;
+  __declspec(property(get = getStaticF_combiningClass, put = setStaticF_combiningClass)) ::cordl_internals::Ptr<uint8_t> combiningClass;
 
   /// @brief Field forLock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_forLock, put = setStaticF_forLock)) ::System::Object* forLock;
+  __declspec(property(get = getStaticF_forLock, put = setStaticF_forLock)) ::System::Object* forLock;
 
   /// @brief Field helperIndex, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_helperIndex, put = setStaticF_helperIndex)) ::cordl_internals::Ptr<int16_t> helperIndex;
+  __declspec(property(get = getStaticF_helperIndex, put = setStaticF_helperIndex)) ::cordl_internals::Ptr<int16_t> helperIndex;
 
   /// @brief Field isReady, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_isReady, put = setStaticF_isReady)) bool isReady;
+  __declspec(property(get = getStaticF_isReady, put = setStaticF_isReady)) bool isReady;
 
   /// @brief Field mapIdxToComposite, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_mapIdxToComposite, put = setStaticF_mapIdxToComposite)) ::cordl_internals::Ptr<uint16_t> mapIdxToComposite;
+  __declspec(property(get = getStaticF_mapIdxToComposite, put = setStaticF_mapIdxToComposite)) ::cordl_internals::Ptr<uint16_t> mapIdxToComposite;
 
   /// @brief Field mappedChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_mappedChars, put = setStaticF_mappedChars)) ::cordl_internals::Ptr<int32_t> mappedChars;
+  __declspec(property(get = getStaticF_mappedChars, put = setStaticF_mappedChars)) ::cordl_internals::Ptr<int32_t> mappedChars;
 
   /// @brief Field props, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_props, put = setStaticF_props)) ::cordl_internals::Ptr<uint8_t> props;
+  __declspec(property(get = getStaticF_props, put = setStaticF_props)) ::cordl_internals::Ptr<uint8_t> props;
 
-  /// @brief Method CharMapIdx, addr 0x3c30238, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CharMapIdx, addr 0x3c903ac, size 0x94, virtual false, abstract: false, final false
   static inline int32_t CharMapIdx(int32_t cp);
 
-  /// @brief Method Combine, addr 0x3c306d0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x3c90844, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* Combine(::StringW source, int32_t start, int32_t checkType);
 
-  /// @brief Method Combine, addr 0x3c3080c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x3c90980, size 0x110, virtual false, abstract: false, final false
   static inline void Combine(::System::Text::StringBuilder* sb, int32_t i, int32_t checkType);
 
-  /// @brief Method CombineHangul, addr 0x3c30a50, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CombineHangul, addr 0x3c90bc4, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t CombineHangul(::System::Text::StringBuilder* sb, ::StringW s, int32_t current);
 
-  /// @brief Method Compose, addr 0x3c304c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Compose, addr 0x3c90638, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW Compose(::StringW source, int32_t checkType);
 
-  /// @brief Method Decompose, addr 0x3c30f9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Decompose, addr 0x3c91110, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW Decompose(::StringW source, int32_t checkType);
 
-  /// @brief Method Decompose, addr 0x3c305a0, size 0x130, virtual false, abstract: false, final false
-  static inline void Decompose(::StringW source, ByRef<::System::Text::StringBuilder*> sb, int32_t checkType);
+  /// @brief Method Decompose, addr 0x3c90714, size 0x130, virtual false, abstract: false, final false
+  static inline void Decompose(::StringW source, ::ByRef<::System::Text::StringBuilder*> sb, int32_t checkType);
 
-  /// @brief Method DecomposeChar, addr 0x3c31028, size 0x1d8, virtual false, abstract: false, final false
-  static inline void DecomposeChar(ByRef<::System::Text::StringBuilder*> sb, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> buf, ::StringW s, int32_t i, int32_t checkType, ByRef<int32_t> start);
+  /// @brief Method DecomposeChar, addr 0x3c9119c, size 0x1d8, virtual false, abstract: false, final false
+  static inline void DecomposeChar(::ByRef<::System::Text::StringBuilder*> sb, ::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> buf, ::StringW s, int32_t i, int32_t checkType, ::ByRef<int32_t> start);
 
-  /// @brief Method Fetch, addr 0x3c30e48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Fetch, addr 0x3c90fbc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t Fetch(::System::Text::StringBuilder* sb, ::StringW s, int32_t i);
 
-  /// @brief Method GetCanonical, addr 0x3c31470, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetCanonical, addr 0x3c915e4, size 0x1b8, virtual false, abstract: false, final false
   static inline int32_t GetCanonical(int32_t c, ::ArrayW<int32_t, ::Array<int32_t>*> buf, int32_t bufIdx, int32_t checkType);
 
-  /// @brief Method GetCanonicalHangul, addr 0x3c31628, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalHangul, addr 0x3c9179c, size 0xec, virtual false, abstract: false, final false
   static inline int32_t GetCanonicalHangul(int32_t s, ::ArrayW<int32_t, ::Array<int32_t>*> buf, int32_t bufIdx);
 
-  /// @brief Method GetCombiningClass, addr 0x3c302cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetCombiningClass, addr 0x3c90440, size 0xa8, virtual false, abstract: false, final false
   static inline uint8_t GetCombiningClass(int32_t c);
 
-  /// @brief Method GetPrimaryCompositeFromMapIndex, addr 0x3c30374, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetPrimaryCompositeFromMapIndex, addr 0x3c904e8, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetPrimaryCompositeFromMapIndex(int32_t src);
 
-  /// @brief Method GetPrimaryCompositeHelperIndex, addr 0x3c3041c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetPrimaryCompositeHelperIndex, addr 0x3c90590, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetPrimaryCompositeHelperIndex(int32_t cp);
 
-  /// @brief Method Normalize, addr 0x3c31714, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x3c91888, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW Normalize(::StringW source, ::System::Text::NormalizationForm normalizationForm);
 
-  /// @brief Method Normalize, addr 0x3c317d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x3c91944, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW Normalize(::StringW source, int32_t type);
 
-  /// @brief Method PropValue, addr 0x3c301a4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PropValue, addr 0x3c90318, size 0x94, virtual false, abstract: false, final false
   static inline uint32_t PropValue(int32_t cp);
 
-  /// @brief Method QuickCheck, addr 0x3c3091c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method QuickCheck, addr 0x3c90a90, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Text::NormalizationCheck QuickCheck(char16_t c, int32_t type);
 
-  /// @brief Method ReorderCanonical, addr 0x3c31200, size 0x270, virtual false, abstract: false, final false
-  static inline void ReorderCanonical(::StringW src, ByRef<::System::Text::StringBuilder*> sb, int32_t start);
+  /// @brief Method ReorderCanonical, addr 0x3c91374, size 0x270, virtual false, abstract: false, final false
+  static inline void ReorderCanonical(::StringW src, ::ByRef<::System::Text::StringBuilder*> sb, int32_t start);
 
-  /// @brief Method TryCompose, addr 0x3c30e84, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TryCompose, addr 0x3c90ff8, size 0x118, virtual false, abstract: false, final false
   static inline int32_t TryCompose(int32_t i, int32_t starter, int32_t candidate);
 
-  /// @brief Method TryComposeWithPreviousStarter, addr 0x3c30c14, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method TryComposeWithPreviousStarter, addr 0x3c90d88, size 0x234, virtual false, abstract: false, final false
   static inline int32_t TryComposeWithPreviousStarter(::System::Text::StringBuilder* sb, ::StringW s, int32_t current);
 
   static inline ::cordl_internals::Ptr<int16_t> getStaticF_charMapIndex();
@@ -141,9 +138,9 @@ public:
 
   static inline ::cordl_internals::Ptr<uint8_t> getStaticF_props();
 
-  /// @brief Method load_normalization_resource, addr 0x3c31870, size 0x4, virtual false, abstract: false, final false
-  static inline void load_normalization_resource(ByRef<::System::IntPtr> props, ByRef<::System::IntPtr> mappedChars, ByRef<::System::IntPtr> charMapIndex, ByRef<::System::IntPtr> helperIndex,
-                                                 ByRef<::System::IntPtr> mapIdxToComposite, ByRef<::System::IntPtr> combiningClass);
+  /// @brief Method load_normalization_resource, addr 0x3c919e4, size 0x4, virtual false, abstract: false, final false
+  static inline void load_normalization_resource(::ByRef<::System::IntPtr> props, ::ByRef<::System::IntPtr> mappedChars, ::ByRef<::System::IntPtr> charMapIndex, ::ByRef<::System::IntPtr> helperIndex,
+                                                 ::ByRef<::System::IntPtr> mapIdxToComposite, ::ByRef<::System::IntPtr> combiningClass);
 
   static inline void setStaticF_charMapIndex(::cordl_internals::Ptr<int16_t> value);
 

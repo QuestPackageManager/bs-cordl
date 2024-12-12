@@ -14,20 +14,19 @@ class PlatformUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::PlatformUtilities);
-// Type: UnityEngine.ResourceManagement.Util::PlatformUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Util::PlatformUtilities*
+// CS Name: UnityEngine.ResourceManagement.Util.PlatformUtilities
 class CORDL_TYPE PlatformUtilities : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* New_ctor();
 
-  /// @brief Method PlatformUsesMultiThreading, addr 0x4735100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PlatformUsesMultiThreading, addr 0x4796414, size 0xc, virtual false, abstract: false, final false
   static inline bool PlatformUsesMultiThreading(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method .ctor, addr 0x473510c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4796420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   PlatformUtilities(PlatformUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

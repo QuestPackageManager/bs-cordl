@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__TripleDES_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TripleDESCryptoServiceProvider)
 namespace System::Security::Cryptography {
@@ -16,29 +15,28 @@ class TripleDESCryptoServiceProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::TripleDESCryptoServiceProvider);
-// Type: System.Security.Cryptography::TripleDESCryptoServiceProvider
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.TripleDES
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::TripleDESCryptoServiceProvider*
+// CS Name: System.Security.Cryptography.TripleDESCryptoServiceProvider
 class CORDL_TYPE TripleDESCryptoServiceProvider : public ::System::Security::Cryptography::TripleDES {
 public:
   // Declarations
-  /// @brief Method CreateDecryptor, addr 0x3c4c9d0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x3cacb44, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x3c4c8c4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x3caca38, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x3c4cc40, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x3cacdb4, size 0x68, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x3c4cadc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x3cacc50, size 0xc8, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::TripleDESCryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c4c4c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cac638, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

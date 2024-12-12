@@ -12,11 +12,10 @@ struct EVRScreenshotPropertyFilenames;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRScreenshotPropertyFilenames);
-// Type: OVR.OpenVR::EVRScreenshotPropertyFilenames
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRScreenshotPropertyFilenames
+// CS Name: OVR.OpenVR.EVRScreenshotPropertyFilenames
 struct CORDL_TYPE EVRScreenshotPropertyFilenames {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRScreenshotPropertyFilenames(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Preview value: static_cast<int32_t>(0x0)
+  /// @brief Field Preview value: I32(0)
   static ::OVR::OpenVR::EVRScreenshotPropertyFilenames const Preview;
 
-  /// @brief Field VR value: static_cast<int32_t>(0x1)
+  /// @brief Field VR value: I32(1)
   static ::OVR::OpenVR::EVRScreenshotPropertyFilenames const VR;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8922 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRScreenshotPropertyFilenames, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRScreenshotPropertyFilenames, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRScreenshotPropertyFilenames, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRScreenshotPropertyFilenames, "OVR.OpenVR", "EVRScreenshotPropertyFilenames");

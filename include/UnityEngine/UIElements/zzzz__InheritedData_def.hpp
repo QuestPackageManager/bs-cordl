@@ -3,7 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
@@ -11,46 +13,15 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InheritedData)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace UnityEngine::UIElements {
-struct Visibility;
-}
-namespace UnityEngine::UIElements {
-struct WhiteSpace;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct FontStyle;
 }
 namespace UnityEngine {
 class Font;
-}
-namespace UnityEngine {
-struct TextAnchor;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -58,11 +29,11 @@ struct InheritedData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
-// Type: UnityEngine.UIElements::InheritedData
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.Color, UnityEngine.FontStyle, UnityEngine.TextAnchor, UnityEngine.UIElements.FontDefinition, UnityEngine.UIElements.IStyleDataGroup`1<T>,
+// UnityEngine.UIElements.Length, UnityEngine.UIElements.TextShadow, UnityEngine.UIElements.Visibility, UnityEngine.UIElements.WhiteSpace
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::InheritedData
+// CS Name: UnityEngine.UIElements.InheritedData
 struct CORDL_TYPE InheritedData {
 public:
   // Declarations
@@ -72,19 +43,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*();
 
-  /// @brief Method Copy, addr 0x4a1ab40, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a7f450, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::InheritedData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a1ab5c, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::InheritedData> other);
+  /// @brief Method CopyFrom, addr 0x4a7f46c, size 0x14, virtual true, abstract: false, final true
+  inline void CopyFrom(::ByRef<::UnityEngine::UIElements::InheritedData> other);
 
-  /// @brief Method Equals, addr 0x4a1ae2c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a7f73c, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1ade0, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a7f6f0, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::InheritedData other);
 
-  /// @brief Method GetHashCode, addr 0x4a1aed4, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a7f7e4, size 0x27c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
@@ -93,7 +64,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
 
-  /// @brief Method op_Equality, addr 0x4a1ab70, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a7f480, size 0x248, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::InheritedData lhs, ::UnityEngine::UIElements::InheritedData rhs);
 
   // Ctor Parameters []
@@ -113,6 +84,12 @@ public:
                           ::UnityW<::UnityEngine::Font> unityFont, ::UnityEngine::UIElements::FontDefinition unityFontDefinition, ::UnityEngine::FontStyle unityFontStyleAndWeight,
                           ::UnityEngine::UIElements::Length unityParagraphSpacing, ::UnityEngine::TextAnchor unityTextAlign, ::UnityEngine::Color unityTextOutlineColor, float_t unityTextOutlineWidth,
                           ::UnityEngine::UIElements::Visibility visibility, ::UnityEngine::UIElements::WhiteSpace whiteSpace, ::UnityEngine::UIElements::Length wordSpacing) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6078 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
   /// @brief Field color, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color color;
@@ -156,17 +133,9 @@ public:
   /// @brief Field wordSpacing, offset: 0x84, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length wordSpacing;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6053 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InheritedData, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::InheritedData, color) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::InheritedData, fontSize) == 0x10, "Offset mismatch!");
@@ -194,6 +163,8 @@ static_assert(offsetof(::UnityEngine::UIElements::InheritedData, visibility) == 
 static_assert(offsetof(::UnityEngine::UIElements::InheritedData, whiteSpace) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::InheritedData, wordSpacing) == 0x84, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InheritedData, 0x90>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InheritedData, "UnityEngine.UIElements", "InheritedData");

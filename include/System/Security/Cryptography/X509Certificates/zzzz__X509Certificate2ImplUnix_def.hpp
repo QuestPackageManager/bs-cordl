@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Internal/Cryptography/Pal/zzzz__CertificateData_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2ImplUnix)
@@ -33,11 +32,10 @@ class X509Certificate2ImplUnix;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix);
-// Type: System.Security.Cryptography.X509Certificates::X509Certificate2ImplUnix
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Internal.Cryptography.Pal.CertificateData, System.Security.Cryptography.X509Certificates.X509Certificate2Impl
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2ImplUnix*
+// CS Name: System.Security.Cryptography.X509Certificates.X509Certificate2ImplUnix
 class CORDL_TYPE X509Certificate2ImplUnix : public ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl {
 public:
   // Declarations
@@ -77,16 +75,16 @@ public:
   /// @brief Field readCertData, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_readCertData, put = __cordl_internal_set_readCertData)) bool readCertData;
 
-  /// @brief Method AppendPrivateKeyInfo, addr 0x43dad88, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method AppendPrivateKeyInfo, addr 0x443c09c, size 0x94, virtual true, abstract: false, final true
   inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method EnsureCertData, addr 0x43da940, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnsureCertData, addr 0x443bc54, size 0x80, virtual false, abstract: false, final false
   inline void EnsureCertData();
 
-  /// @brief Method GetNameInfo, addr 0x43dac7c, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetNameInfo, addr 0x443bf90, size 0x34, virtual true, abstract: false, final true
   inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
-  /// @brief Method GetRawCertData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetRawCertData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawCertData();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix* New_ctor();
@@ -103,52 +101,52 @@ public:
 
   constexpr void __cordl_internal_set_readCertData(bool value);
 
-  /// @brief Method .ctor, addr 0x43d9488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443a79c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Extensions, addr 0x43dacb0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Extensions, addr 0x443bfc4, size 0x18, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* get_Extensions();
 
-  /// @brief Method get_Issuer, addr 0x43daaac, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_Issuer, addr 0x443bdc0, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_Issuer();
 
-  /// @brief Method get_IssuerName, addr 0x43daa6c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_IssuerName, addr 0x443bd80, size 0x18, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x43da9c0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_KeyAlgorithm, addr 0x443bcd4, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_KeyAlgorithm();
 
-  /// @brief Method get_KeyAlgorithmParameters, addr 0x43da9d8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_KeyAlgorithmParameters, addr 0x443bcec, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyAlgorithmParameters();
 
-  /// @brief Method get_NotAfter, addr 0x43dacc8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_NotAfter, addr 0x443bfdc, size 0x60, virtual true, abstract: false, final true
   inline ::System::DateTime get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0x43dad28, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_NotBefore, addr 0x443c03c, size 0x60, virtual true, abstract: false, final true
   inline ::System::DateTime get_NotBefore();
 
-  /// @brief Method get_PublicKeyValue, addr 0x43da9f0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_PublicKeyValue, addr 0x443bd04, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PublicKeyValue();
 
-  /// @brief Method get_RawData, addr 0x43daad4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_RawData, addr 0x443bde8, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
 
-  /// @brief Method get_SerialNumber, addr 0x43daa08, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_SerialNumber, addr 0x443bd1c, size 0x18, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x43daa20, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_SignatureAlgorithm, addr 0x443bd34, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_SignatureAlgorithm();
 
-  /// @brief Method get_Subject, addr 0x43daa84, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_Subject, addr 0x443bd98, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_Subject();
 
-  /// @brief Method get_SubjectName, addr 0x43daa54, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_SubjectName, addr 0x443bd68, size 0x18, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_SubjectName();
 
-  /// @brief Method get_Thumbprint, addr 0x43daaec, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method get_Thumbprint, addr 0x443be00, size 0x190, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
 
-  /// @brief Method get_Version, addr 0x43daa38, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x443bd4c, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_Version();
 
 protected:
@@ -165,23 +163,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Certificate2ImplUnix(X509Certificate2ImplUnix const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9314 };
+
   /// @brief Field readCertData, offset: 0x10, size: 0x1, def value: None
   bool ___readCertData;
 
   /// @brief Field certData, offset: 0x18, size: 0x98, def value: None
   ::Internal::Cryptography::Pal::CertificateData ___certData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9289 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix, ___readCertData) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix, ___certData) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix, 0xb0>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix);

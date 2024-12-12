@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__Expression_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Expression0_1)
 namespace System::Linq::Expressions {
@@ -22,13 +21,12 @@ template <typename TDelegate> class Expression0_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Expression0_1);
-// Type: System.Linq.Expressions::Expression0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression`1<TDelegate>
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::Expression0`1<TDelegate>*
+// CS Name: System.Linq.Expressions.Expression0`1<TDelegate>
 class CORDL_TYPE Expression0_1 : public ::System::Linq::Expressions::Expression_1<TDelegate> {
 public:
   // Declarations
@@ -64,7 +62,7 @@ public:
   Expression0_1(Expression0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

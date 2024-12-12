@@ -20,11 +20,10 @@ class MultiplayerLeaderboardPanelItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeaderboardPanelItem);
-// Type: ::MultiplayerLeaderboardPanelItem
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLeaderboardPanelItem*
+// CS Name: MultiplayerLeaderboardPanelItem
 class CORDL_TYPE MultiplayerLeaderboardPanelItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -71,7 +70,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelItem* New_ctor();
 
-  /// @brief Method SetData, addr 0x3b4315c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3ba484c, size 0x2c4, virtual false, abstract: false, final false
   inline void SetData(int32_t position, ::StringW playerName, int32_t score, bool failed, int32_t numberOfPlayers);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -152,10 +151,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b43428, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba4b18, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x3b42ee8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3ba45d8, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -171,6 +170,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelItem", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLeaderboardPanelItem(MultiplayerLeaderboardPanelItem const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4410 };
 
   /// @brief Field _playerNameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
@@ -211,14 +213,9 @@ public:
   /// @brief Field _prevNumberOfPlayers, offset: 0x98, size: 0x4, def value: None
   int32_t ____prevNumberOfPlayers;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4398 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLeaderboardPanelItem, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLeaderboardPanelItem, ____playerNameText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLeaderboardPanelItem, ____scoreText) == 0x28, "Offset mismatch!");
@@ -244,6 +241,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLeaderboardPanelItem, ____p
 static_assert(offsetof(::GlobalNamespace::MultiplayerLeaderboardPanelItem, ____prevFailed) == 0x94, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLeaderboardPanelItem, ____prevNumberOfPlayers) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLeaderboardPanelItem, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLeaderboardPanelItem);

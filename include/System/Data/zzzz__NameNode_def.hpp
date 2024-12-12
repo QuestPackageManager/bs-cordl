@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Data/zzzz__ExpressionNode_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameNode)
@@ -35,11 +34,10 @@ class NameNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::NameNode);
-// Type: System.Data::NameNode
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.ExpressionNode
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::NameNode*
+// CS Name: System.Data.NameNode
 class CORDL_TYPE NameNode : public ::System::Data::ExpressionNode {
 public:
   // Declarations
@@ -54,46 +52,46 @@ public:
   /// @brief Field _name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
-  /// @brief Method Bind, addr 0x411a054, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x417b368, size 0x228, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x411a470, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x417b784, size 0x7c, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x411a27c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417b590, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x411a33c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417b650, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> records);
 
-  /// @brief Method Eval, addr 0x411a2a0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417b5b4, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x411a3c8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x417b6dc, size 0x54, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x411a41c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x417b730, size 0x54, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x411a36c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x417b680, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x411a374, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x417b688, size 0x54, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::NameNode* New_ctor(::System::Data::DataTable* table, ::StringW name);
 
   static inline ::System::Data::NameNode* New_ctor(::System::Data::DataTable* table, ::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t pos);
 
-  /// @brief Method Optimize, addr 0x411a4ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x417b800, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
-  /// @brief Method ParseName, addr 0x4117fc0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ParseName, addr 0x41792d4, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW ParseName(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t pos);
 
-  constexpr ::System::Data::DataColumn*& __cordl_internal_get__column();
+  constexpr ::System::Data::DataColumn* const& __cordl_internal_get__column() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataColumn*> const& __cordl_internal_get__column() const;
+  constexpr ::System::Data::DataColumn*& __cordl_internal_get__column();
 
   constexpr bool const& __cordl_internal_get__found() const;
 
@@ -109,13 +107,13 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4118750, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4179a64, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x4118274, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4179588, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t pos);
 
-  /// @brief Method get_IsSqlColumn, addr 0x411a038, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsSqlColumn, addr 0x417b34c, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsSqlColumn();
 
 protected:
@@ -132,6 +130,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NameNode(NameNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11433 };
+
   /// @brief Field _name, offset: 0x18, size: 0x8, def value: None
   ::StringW ____name;
 
@@ -141,19 +142,16 @@ public:
   /// @brief Field _column, offset: 0x28, size: 0x8, def value: None
   ::System::Data::DataColumn* ____column;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11400 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::NameNode, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::NameNode, ____name) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::NameNode, ____found) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::NameNode, ____column) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::NameNode, 0x30>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::NameNode);

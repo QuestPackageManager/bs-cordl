@@ -8,50 +8,50 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__SafeAreaRectChecker__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::SafeAreaRectChecker_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SafeAreaRectChecker__InitData::*)(bool)>(
-    &::GlobalNamespace::__SafeAreaRectChecker__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker_InitData::*)(bool)>(
+    &::GlobalNamespace::SafeAreaRectChecker_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b99dc4;
+  constexpr static std::size_t addrs = 0x3bfbf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SafeAreaRectChecker__InitData*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker_InitData*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__SafeAreaRectChecker__InitData::__cordl_internal_get_checkingEnabled() {
+constexpr bool& GlobalNamespace::SafeAreaRectChecker_InitData::__cordl_internal_get_checkingEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkingEnabled;
 }
-constexpr bool const& GlobalNamespace::__SafeAreaRectChecker__InitData::__cordl_internal_get_checkingEnabled() const {
+constexpr bool const& GlobalNamespace::SafeAreaRectChecker_InitData::__cordl_internal_get_checkingEnabled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkingEnabled;
 }
-constexpr void GlobalNamespace::__SafeAreaRectChecker__InitData::__cordl_internal_set_checkingEnabled(bool value) {
+constexpr void GlobalNamespace::SafeAreaRectChecker_InitData::__cordl_internal_set_checkingEnabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___checkingEnabled = value;
 }
-inline ::GlobalNamespace::__SafeAreaRectChecker__InitData* GlobalNamespace::__SafeAreaRectChecker__InitData::New_ctor(bool checkingEnabled) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SafeAreaRectChecker__InitData*>(checkingEnabled));
-}
-inline void GlobalNamespace::__SafeAreaRectChecker__InitData::_ctor(bool checkingEnabled) {
+inline void GlobalNamespace::SafeAreaRectChecker_InitData::_ctor(bool checkingEnabled) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SafeAreaRectChecker__InitData*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker_InitData*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, checkingEnabled);
 }
+inline ::GlobalNamespace::SafeAreaRectChecker_InitData* GlobalNamespace::SafeAreaRectChecker_InitData::New_ctor(bool checkingEnabled) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SafeAreaRectChecker_InitData*>(checkingEnabled));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SafeAreaRectChecker__InitData::__SafeAreaRectChecker__InitData() {}
+constexpr ::GlobalNamespace::SafeAreaRectChecker_InitData::SafeAreaRectChecker_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::SafeAreaRectChecker.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker::*)()>(&::GlobalNamespace::SafeAreaRectChecker::Start)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b99b18;
+  constexpr static std::size_t addrs = 0x3bfbc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker*>::get(), "Start",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker::*)()>(&::GlobalNamespace::SafeAreaRectChecker::Update)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3b99b7c;
+  constexpr static std::size_t addrs = 0x3bfbccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker*>::get(), "Update",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker::*)()>(&::GlobalNamespace::SafeAreaRectChecker::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b99d60;
+  constexpr static std::size_t addrs = 0x3bfbeb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker*>::get(), ".ctor",
@@ -193,15 +193,15 @@ constexpr void GlobalNamespace::SafeAreaRectChecker::__cordl_internal_set__mainC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__SafeAreaRectChecker__InitData*& GlobalNamespace::SafeAreaRectChecker::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::SafeAreaRectChecker_InitData*& GlobalNamespace::SafeAreaRectChecker::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SafeAreaRectChecker__InitData*> const& GlobalNamespace::SafeAreaRectChecker::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::SafeAreaRectChecker_InitData* const& GlobalNamespace::SafeAreaRectChecker::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::SafeAreaRectChecker::__cordl_internal_set__initData(::GlobalNamespace::__SafeAreaRectChecker__InitData* value) {
+constexpr void GlobalNamespace::SafeAreaRectChecker::__cordl_internal_set__initData(::GlobalNamespace::SafeAreaRectChecker_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -215,13 +215,13 @@ inline void GlobalNamespace::SafeAreaRectChecker::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SafeAreaRectChecker* GlobalNamespace::SafeAreaRectChecker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SafeAreaRectChecker*>());
-}
 inline void GlobalNamespace::SafeAreaRectChecker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SafeAreaRectChecker* GlobalNamespace::SafeAreaRectChecker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SafeAreaRectChecker*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SafeAreaRectChecker::SafeAreaRectChecker() {}

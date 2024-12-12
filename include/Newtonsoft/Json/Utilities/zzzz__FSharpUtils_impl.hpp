@@ -14,174 +14,171 @@
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 template <typename TKey, typename TValue>
-inline void Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::setStaticF___9(::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>(value));
+inline void Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::setStaticF___9(::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>(value));
 }
 template <typename TKey, typename TValue>
-inline ::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>* Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>::get>();
+inline ::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>* Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>::get>();
 }
 template <typename TKey, typename TValue>
-inline void Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::setStaticF___9__55_1(
+inline void Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::setStaticF___9__55_1(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::System::Tuple_2<TKey, TValue>*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::System::Tuple_2<TKey, TValue>*>*, "<>9__55_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::System::Tuple_2<TKey, TValue>*>*>(value));
 }
 template <typename TKey, typename TValue>
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::System::Tuple_2<TKey, TValue>*>*
-Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::getStaticF___9__55_1() {
+Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::getStaticF___9__55_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::System::Tuple_2<TKey, TValue>*>*, "<>9__55_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>::get>();
 }
-template <typename TKey, typename TValue>
-inline ::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>* Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>());
-}
-template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::_ctor() {
+template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline ::System::Tuple_2<TKey, TValue>* Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::_BuildMapCreator_b__55_1(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> kv) {
+inline ::System::Tuple_2<TKey, TValue>* Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::_BuildMapCreator_b__55_1(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> kv) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>*>::get(), "<BuildMapCreator>b__55_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>::get(), "<BuildMapCreator>b__55_1",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Tuple_2<TKey, TValue>*, false>(this, ___internal_method, kv);
 }
+template <typename TKey, typename TValue> inline ::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>* Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>*>());
+}
 // Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::__FSharpUtils____c__55_2<TKey, TValue>::__FSharpUtils____c__55_2() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0._ctor
+template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::FSharpUtils___c__55_2<TKey, TValue>::FSharpUtils___c__55_2() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::*)()>(
-    &::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::*)()>(
+    &::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a660;
+  constexpr static std::size_t addrs = 0x3eca70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0._CreateFSharpFuncCall_b__0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0._CreateFSharpFuncCall_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-        &::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::_CreateFSharpFuncCall_b__0)> {
+    static_cast<::System::Object* (::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
+        &::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_CreateFSharpFuncCall_b__0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e6a97c;
+  constexpr static std::size_t addrs = 0x3ecaa28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0*>::get(), "<CreateFSharpFuncCall>b__0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>::get(), "<CreateFSharpFuncCall>b__0",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::__cordl_internal_get_call() {
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::__cordl_internal_get_call() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
-Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::__cordl_internal_get_call() const {
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const& Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::__cordl_internal_get_call() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call;
 }
-constexpr void Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::__cordl_internal_set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+constexpr void Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::__cordl_internal_set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___call)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::__cordl_internal_get_invoke() {
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::__cordl_internal_get_invoke() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invoke;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
-Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::__cordl_internal_get_invoke() const {
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const&
+Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::__cordl_internal_get_invoke() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invoke;
 }
-constexpr void
-Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::__cordl_internal_set_invoke(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+constexpr void Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::__cordl_internal_set_invoke(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___invoke)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0* Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0*>());
-}
-inline void Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::_ctor() {
+inline void Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::_CreateFSharpFuncCall_b__0(::System::Object* target,
-                                                                                                                       ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
+inline ::System::Object* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_CreateFSharpFuncCall_b__0(::System::Object* target,
+                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0*>::get(), "<CreateFSharpFuncCall>b__0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>::get(), "<CreateFSharpFuncCall>b__0",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, target, args);
 }
+inline ::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::__FSharpUtils____c__DisplayClass52_0() {}
+constexpr ::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::FSharpUtils___c__DisplayClass52_0() {}
 template <typename TKey, typename TValue>
 constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*&
-Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::__cordl_internal_get_ctorDelegate() {
+Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::__cordl_internal_get_ctorDelegate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctorDelegate;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const&
-Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::__cordl_internal_get_ctorDelegate() const {
+constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const&
+Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::__cordl_internal_get_ctorDelegate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctorDelegate;
 }
 template <typename TKey, typename TValue>
 constexpr void
-Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::__cordl_internal_set_ctorDelegate(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
+Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::__cordl_internal_set_ctorDelegate(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___ctorDelegate, value);
 }
-template <typename TKey, typename TValue>
-inline ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>* Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>*>());
-}
-template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::_ctor() {
+template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline ::System::Object* Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::_BuildMapCreator_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
+inline ::System::Object* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::_BuildMapCreator_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>*>::get(),
                                   "<BuildMapCreator>b__0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, args);
 }
+template <typename TKey, typename TValue>
+inline ::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>*>());
+}
 // Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::__FSharpUtils____c__DisplayClass55_0_2() {}
+template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::FSharpUtils___c__DisplayClass55_0_2() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::FSharpUtils._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Reflection::Assembly*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::_ctor)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x3e69cd8;
+  constexpr static std::size_t addrs = 0x3ec9d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::FSharpUtils* (*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_Instance)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e6a400;
+  constexpr static std::size_t addrs = 0x3eca4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -209,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_FSharpCoreAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a458;
+  constexpr static std::size_t addrs = 0x3eca504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -223,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Reflection::Assembly*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_FSharpCoreAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a460;
+  constexpr static std::size_t addrs = 0x3eca50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_IsUnion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a468;
+  constexpr static std::size_t addrs = 0x3eca514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -252,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_IsUnion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a470;
+  constexpr static std::size_t addrs = 0x3eca51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a478;
+  constexpr static std::size_t addrs = 0x3eca524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -281,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a480;
+  constexpr static std::size_t addrs = 0x3eca52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionTagReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a488;
+  constexpr static std::size_t addrs = 0x3eca534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -310,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionTagReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a490;
+  constexpr static std::size_t addrs = 0x3eca53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a498;
+  constexpr static std::size_t addrs = 0x3eca544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -339,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4a0;
+  constexpr static std::size_t addrs = 0x3eca54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionConstructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4a8;
+  constexpr static std::size_t addrs = 0x3eca554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -368,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionConstructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4b0;
+  constexpr static std::size_t addrs = 0x3eca55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoDeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4b8;
+  constexpr static std::size_t addrs = 0x3eca564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -398,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoDeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4c0;
+  constexpr static std::size_t addrs = 0x3eca56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -413,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4c8;
+  constexpr static std::size_t addrs = 0x3eca574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -427,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4d0;
+  constexpr static std::size_t addrs = 0x3eca57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4d8;
+  constexpr static std::size_t addrs = 0x3eca584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -456,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4e0;
+  constexpr static std::size_t addrs = 0x3eca58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -471,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoFields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4e8;
+  constexpr static std::size_t addrs = 0x3eca594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -485,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoFields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6a4f0;
+  constexpr static std::size_t addrs = 0x3eca59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -499,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::EnsureInitialized)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3e6a4f8;
+  constexpr static std::size_t addrs = 0x3eca5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -514,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::System::Reflection::BindingFlags)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::GetMethodWithNonPublicFallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e6a1a8;
+  constexpr static std::size_t addrs = 0x3eca254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -530,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (*)(::System::Type*, ::StringW)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::CreateFSharpFuncCall)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3e6a21c;
+  constexpr static std::size_t addrs = 0x3eca2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -545,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::CreateSeq)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3e6a668;
+  constexpr static std::size_t addrs = 0x3eca714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Type*, ::System::Type*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::CreateMap)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3e6a764;
+  constexpr static std::size_t addrs = 0x3eca810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +571,7 @@ constexpr ::System::Reflection::MethodInfo*& Newtonsoft::Json::Utilities::FSharp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ofSeq;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__ofSeq() const {
+constexpr ::System::Reflection::MethodInfo* const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__ofSeq() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ofSeq;
 }
@@ -586,7 +583,7 @@ constexpr ::System::Type*& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mapType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__mapType() const {
+constexpr ::System::Type* const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__mapType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mapType;
 }
@@ -598,7 +595,7 @@ constexpr ::System::Reflection::Assembly*& Newtonsoft::Json::Utilities::FSharpUt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____FSharpCoreAssembly_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__FSharpCoreAssembly_k__BackingField() const {
+constexpr ::System::Reflection::Assembly* const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__FSharpCoreAssembly_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____FSharpCoreAssembly_k__BackingField;
 }
@@ -610,8 +607,7 @@ constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::Syste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsUnion_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
-Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__IsUnion_k__BackingField() const {
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__IsUnion_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsUnion_k__BackingField;
 }
@@ -623,7 +619,7 @@ constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::Syste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCases_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const&
 Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCases_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCases_k__BackingField;
@@ -637,7 +633,7 @@ Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__PreComputeUnionT
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreComputeUnionTagReader_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const&
 Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__PreComputeUnionTagReader_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreComputeUnionTagReader_k__BackingField;
@@ -652,7 +648,7 @@ constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::Syste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreComputeUnionReader_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const&
 Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__PreComputeUnionReader_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreComputeUnionReader_k__BackingField;
@@ -668,7 +664,7 @@ Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__PreComputeUnionC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreComputeUnionConstructor_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const&
 Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__PreComputeUnionConstructor_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreComputeUnionConstructor_k__BackingField;
@@ -683,8 +679,7 @@ constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& Newtonsoft::J
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoDeclaringType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const&
-Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCaseInfoDeclaringType_k__BackingField() const {
+constexpr ::System::Func_2<::System::Object*, ::System::Object*>* const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCaseInfoDeclaringType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoDeclaringType_k__BackingField;
 }
@@ -697,8 +692,7 @@ constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& Newtonsoft::J
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoName_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const&
-Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCaseInfoName_k__BackingField() const {
+constexpr ::System::Func_2<::System::Object*, ::System::Object*>* const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCaseInfoName_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoName_k__BackingField;
 }
@@ -711,8 +705,7 @@ constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& Newtonsoft::J
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoTag_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const&
-Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCaseInfoTag_k__BackingField() const {
+constexpr ::System::Func_2<::System::Object*, ::System::Object*>* const& Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCaseInfoTag_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoTag_k__BackingField;
 }
@@ -725,7 +718,7 @@ constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::Syste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoFields_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
+constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const&
 Newtonsoft::Json::Utilities::FSharpUtils::__cordl_internal_get__GetUnionCaseInfoFields_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetUnionCaseInfoFields_k__BackingField;
@@ -750,9 +743,6 @@ inline void Newtonsoft::Json::Utilities::FSharpUtils::setStaticF__instance(::New
 inline ::Newtonsoft::Json::Utilities::FSharpUtils* Newtonsoft::Json::Utilities::FSharpUtils::getStaticF__instance() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::FSharpUtils*, "_instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get>();
-}
-inline ::Newtonsoft::Json::Utilities::FSharpUtils* Newtonsoft::Json::Utilities::FSharpUtils::New_ctor(::System::Reflection::Assembly* fsharpCoreAssembly) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::FSharpUtils*>(fsharpCoreAssembly));
 }
 inline void Newtonsoft::Json::Utilities::FSharpUtils::_ctor(::System::Reflection::Assembly* fsharpCoreAssembly) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -918,6 +908,9 @@ template <typename TKey, typename TValue> inline ::Newtonsoft::Json::Serializati
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Utilities::FSharpUtils* Newtonsoft::Json::Utilities::FSharpUtils::New_ctor(::System::Reflection::Assembly* fsharpCoreAssembly) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::FSharpUtils*>(fsharpCoreAssembly));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::FSharpUtils::FSharpUtils() {}

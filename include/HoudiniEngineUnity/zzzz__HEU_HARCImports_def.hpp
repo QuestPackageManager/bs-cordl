@@ -11,17 +11,16 @@ class HEU_HARCImports;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HARCImports);
-// Type: HoudiniEngineUnity::HEU_HARCImports
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_HARCImports*
+// CS Name: HoudiniEngineUnity.HEU_HARCImports
 class CORDL_TYPE HEU_HARCImports : public ::System::Object {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_HARCImports* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39f253c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a491ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   HEU_HARCImports(HEU_HARCImports const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

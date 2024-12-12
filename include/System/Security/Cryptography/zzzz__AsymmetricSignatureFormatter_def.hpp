@@ -11,17 +11,16 @@ class AsymmetricSignatureFormatter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricSignatureFormatter);
-// Type: System.Security.Cryptography::AsymmetricSignatureFormatter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::AsymmetricSignatureFormatter*
+// CS Name: System.Security.Cryptography.AsymmetricSignatureFormatter
 class CORDL_TYPE AsymmetricSignatureFormatter : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::AsymmetricSignatureFormatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c3d4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

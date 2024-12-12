@@ -12,11 +12,10 @@ struct VisualElementFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualElementFlags);
-// Type: UnityEngine.UIElements::VisualElementFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::VisualElementFlags
+// CS Name: UnityEngine.UIElements.VisualElementFlags
 struct CORDL_TYPE VisualElementFlags {
 public:
   // Declarations
@@ -58,66 +57,66 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr VisualElementFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BoundingBoxDirty value: static_cast<int32_t>(0x8)
+  /// @brief Field BoundingBoxDirty value: I32(8)
   static ::UnityEngine::UIElements::VisualElementFlags const BoundingBoxDirty;
 
-  /// @brief Field CompositeRoot value: static_cast<int32_t>(0x80)
+  /// @brief Field CompositeRoot value: I32(128)
   static ::UnityEngine::UIElements::VisualElementFlags const CompositeRoot;
 
-  /// @brief Field DisableClipping value: static_cast<int32_t>(0x400)
+  /// @brief Field DisableClipping value: I32(1024)
   static ::UnityEngine::UIElements::VisualElementFlags const DisableClipping;
 
-  /// @brief Field EnableViewDataPersistence value: static_cast<int32_t>(0x200)
+  /// @brief Field EnableViewDataPersistence value: I32(512)
   static ::UnityEngine::UIElements::VisualElementFlags const EnableViewDataPersistence;
 
-  /// @brief Field EventCallbackParentCategoriesDirty value: static_cast<int32_t>(0x20)
+  /// @brief Field EventCallbackParentCategoriesDirty value: I32(32)
   static ::UnityEngine::UIElements::VisualElementFlags const EventCallbackParentCategoriesDirty;
 
-  /// @brief Field HierarchyDisplayed value: static_cast<int32_t>(0x1000)
+  /// @brief Field HierarchyDisplayed value: I32(4096)
   static ::UnityEngine::UIElements::VisualElementFlags const HierarchyDisplayed;
 
-  /// @brief Field Init value: static_cast<int32_t>(0x103f)
+  /// @brief Field Init value: I32(4159)
   static ::UnityEngine::UIElements::VisualElementFlags const Init;
 
-  /// @brief Field LayoutManual value: static_cast<int32_t>(0x40)
+  /// @brief Field LayoutManual value: I32(64)
   static ::UnityEngine::UIElements::VisualElementFlags const LayoutManual;
 
-  /// @brief Field NeedsAttachToPanelEvent value: static_cast<int32_t>(0x800)
+  /// @brief Field NeedsAttachToPanelEvent value: I32(2048)
   static ::UnityEngine::UIElements::VisualElementFlags const NeedsAttachToPanelEvent;
 
-  /// @brief Field RequireMeasureFunction value: static_cast<int32_t>(0x100)
+  /// @brief Field RequireMeasureFunction value: I32(256)
   static ::UnityEngine::UIElements::VisualElementFlags const RequireMeasureFunction;
 
-  /// @brief Field StyleInitialized value: static_cast<int32_t>(0x2000)
+  /// @brief Field StyleInitialized value: I32(8192)
   static ::UnityEngine::UIElements::VisualElementFlags const StyleInitialized;
 
-  /// @brief Field WorldBoundingBoxDirty value: static_cast<int32_t>(0x10)
+  /// @brief Field WorldBoundingBoxDirty value: I32(16)
   static ::UnityEngine::UIElements::VisualElementFlags const WorldBoundingBoxDirty;
 
-  /// @brief Field WorldClipDirty value: static_cast<int32_t>(0x4)
+  /// @brief Field WorldClipDirty value: I32(4)
   static ::UnityEngine::UIElements::VisualElementFlags const WorldClipDirty;
 
-  /// @brief Field WorldTransformDirty value: static_cast<int32_t>(0x1)
+  /// @brief Field WorldTransformDirty value: I32(1)
   static ::UnityEngine::UIElements::VisualElementFlags const WorldTransformDirty;
 
-  /// @brief Field WorldTransformInverseDirty value: static_cast<int32_t>(0x2)
+  /// @brief Field WorldTransformInverseDirty value: I32(2)
   static ::UnityEngine::UIElements::VisualElementFlags const WorldTransformInverseDirty;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6301 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementFlags, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementFlags, "UnityEngine.UIElements", "VisualElementFlags");

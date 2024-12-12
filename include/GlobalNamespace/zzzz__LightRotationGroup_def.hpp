@@ -20,19 +20,17 @@ class LightRotationGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroup);
-// Type: ::LightRotationGroup
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightTransformGroup`3<TX, TY, TZ>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightRotationGroup*
-class CORDL_TYPE LightRotationGroup
-    : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupRotationXTransform>, ::UnityW<::GlobalNamespace::LightGroupRotationYTransform>,
-                                                      ::UnityW<::GlobalNamespace::LightGroupRotationZTransform>> {
+// CS Name: LightRotationGroup
+class CORDL_TYPE LightRotationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupRotationXTransform*, ::GlobalNamespace::LightGroupRotationYTransform*,
+                                                                                      ::GlobalNamespace::LightGroupRotationZTransform*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LightRotationGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b2c034, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8d5cc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +48,7 @@ public:
   LightRotationGroup(LightRotationGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

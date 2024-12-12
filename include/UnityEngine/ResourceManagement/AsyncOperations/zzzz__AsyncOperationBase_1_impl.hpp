@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationBase_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationStatus_impl.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -22,95 +23,84 @@
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 template <typename TObject>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*&
-UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::__cordl_internal_get_value() {
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::__cordl_internal_get_value() const {
+constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const&
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TObject>
-constexpr void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::__cordl_internal_set_value(
+constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>::__cordl_internal_set_value(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
-template <typename TObject>
-inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>*
-UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>*>());
-}
-template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::_ctor() {
+template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>*>::get(), ".ctor",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TObject>
-inline void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::_add_CompletedTypeless_b__0(
+inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>::_add_CompletedTypeless_b__0(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>*>::get(),
       "<add_CompletedTypeless>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, s);
 }
+template <typename TObject>
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>*
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>*>());
+}
 // Ctor Parameters []
-template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::__AsyncOperationBase_1____c__DisplayClass60_0() {}
+template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass60_0<TObject>::AsyncOperationBase_1___c__DisplayClass60_0() {}
 template <typename TObject>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*&
-UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::__cordl_internal_get_value() {
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::__cordl_internal_get_value() const {
+constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const&
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TObject>
-constexpr void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::__cordl_internal_set_value(
+constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>::__cordl_internal_set_value(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
-template <typename TObject>
-inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>*
-UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>*>());
-}
-template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::_ctor() {
+template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>*>::get(), ".ctor",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TObject>
-inline void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::_remove_CompletedTypeless_b__0(
+inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>::_remove_CompletedTypeless_b__0(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>*>::get(),
       "<remove_CompletedTypeless>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, s);
 }
+template <typename TObject>
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>*
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>*>());
+}
 // Ctor Parameters []
-template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::__AsyncOperationBase_1____c__DisplayClass61_0() {}
-/// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
-template <typename TObject>
-constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
-template <typename TObject>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*
-UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__IAsyncOperation() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(static_cast<void*>(this));
-}
+template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0<TObject>::AsyncOperationBase_1___c__DisplayClass61_0() {}
 template <typename TObject> constexpr TObject& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get__Result_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Result_k__BackingField;
@@ -156,8 +146,7 @@ template <typename TObject> constexpr ::System::Exception*& UnityEngine::Resourc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Error;
 }
-template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_Error() const {
+template <typename TObject> constexpr ::System::Exception* const& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_Error() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Error;
 }
@@ -171,8 +160,7 @@ constexpr ::UnityEngine::ResourceManagement::ResourceManager*& UnityEngine::Reso
   return this->___m_RM;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const&
-UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_RM() const {
+constexpr ::UnityEngine::ResourceManagement::ResourceManager* const& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_RM() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RM;
 }
@@ -200,7 +188,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
   return this->___m_DestroyedAction;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
+constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const&
 UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_DestroyedAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DestroyedAction;
@@ -218,7 +206,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
   return this->___m_CompletedActionT;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
+constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* const&
 UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_CompletedActionT() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CompletedActionT;
@@ -236,7 +224,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
   return this->___m_OnDestroyAction;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const&
+constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* const&
 UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_OnDestroyAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnDestroyAction;
@@ -254,7 +242,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
   return this->___m_dependencyCompleteAction;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
+constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const&
 UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_dependencyCompleteAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dependencyCompleteAction;
@@ -281,8 +269,7 @@ template <typename TObject> constexpr ::System::Action*& UnityEngine::ResourceMa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Executed;
 }
-template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_Executed() const {
+template <typename TObject> constexpr ::System::Action* const& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_Executed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Executed;
 }
@@ -308,7 +295,7 @@ constexpr ::System::Threading::Tasks::TaskCompletionSource_1<TObject>*& UnityEng
   return this->___m_taskCompletionSource;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<TObject>*> const&
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<TObject>* const&
 UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_taskCompletionSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskCompletionSource;
@@ -326,7 +313,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
   return this->___m_taskCompletionSourceTypeless;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*> const&
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* const&
 UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_taskCompletionSourceTypeless() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskCompletionSourceTypeless;
@@ -355,8 +342,7 @@ constexpr ::GlobalNamespace::DelegateList_1<float_t>*& UnityEngine::ResourceMana
   return this->___m_UpdateCallbacks;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<float_t>*> const&
-UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_UpdateCallbacks() const {
+constexpr ::GlobalNamespace::DelegateList_1<float_t>* const& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_UpdateCallbacks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateCallbacks;
 }
@@ -370,8 +356,7 @@ template <typename TObject> constexpr ::System::Action_1<float_t>*& UnityEngine:
   return this->___m_UpdateCallback;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const&
-UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_UpdateCallback() const {
+constexpr ::System::Action_1<float_t>* const& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_UpdateCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateCallback;
 }
@@ -480,10 +465,6 @@ template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOp
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TObject>
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>*>());
-}
 template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>*>::get(),
@@ -541,7 +522,6 @@ template <typename TObject> inline ::StringW UnityEngine::ResourceManagement::As
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-/// @param incrementReferenceCount: bool (default: true)
 template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::RegisterForDeferredCallbackEvent(bool incrementReferenceCount) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>*>::get(), "RegisterForDeferredCallbackEvent",
@@ -693,7 +673,6 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result, success, errorMsg, releaseDependenciesOnFailure);
 }
-/// @param releaseDependenciesOnFailure: bool (default: true)
 template <typename TObject>
 inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::Complete(TObject result, bool success, ::System::Exception* exception, bool releaseDependenciesOnFailure) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -915,6 +894,21 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
+}
+template <typename TObject>
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>*>());
+}
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
+template <typename TObject>
+constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation"
+template <typename TObject>
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*
+UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__IAsyncOperation() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::AsyncOperationBase_1() {}

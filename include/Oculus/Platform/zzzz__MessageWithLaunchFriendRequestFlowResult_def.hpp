@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithLaunchFriendRequestFlowResult)
 namespace Oculus::Platform::Models {
 class LaunchFriendRequestFlowResult;
@@ -18,23 +17,22 @@ class MessageWithLaunchFriendRequestFlowResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult);
-// Type: Oculus.Platform::MessageWithLaunchFriendRequestFlowResult
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Message`1<T>
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::MessageWithLaunchFriendRequestFlowResult*
+// CS Name: Oculus.Platform.MessageWithLaunchFriendRequestFlowResult
 class CORDL_TYPE MessageWithLaunchFriendRequestFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f1d5fc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7d6a8, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x3f1d5c0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x3f7d66c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f1aa48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7aaf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +50,7 @@ public:
   MessageWithLaunchFriendRequestFlowResult(MessageWithLaunchFriendRequestFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

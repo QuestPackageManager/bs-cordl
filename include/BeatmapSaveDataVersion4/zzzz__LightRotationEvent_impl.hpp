@@ -3,8 +3,6 @@
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__RotationDirection_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__LightRotationEvent_def.hpp"
-#include "BeatmapSaveDataCommon/zzzz__EaseType_def.hpp"
-#include "BeatmapSaveDataCommon/zzzz__RotationDirection_def.hpp"
 // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "d", ty:
 // "::BeatmapSaveDataCommon::RotationDirection", modifiers: "", def_value: Some("{}") }]

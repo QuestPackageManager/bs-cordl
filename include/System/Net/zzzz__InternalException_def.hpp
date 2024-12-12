@@ -11,17 +11,16 @@ class InternalException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::InternalException);
-// Type: System.Net::InternalException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::InternalException*
+// CS Name: System.Net.InternalException
 class CORDL_TYPE InternalException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Net::InternalException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4438be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4499ef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   InternalException(InternalException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

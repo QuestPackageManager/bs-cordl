@@ -12,11 +12,10 @@ struct AssemblyNameFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::AssemblyNameFlags);
-// Type: System.Reflection::AssemblyNameFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::AssemblyNameFlags
+// CS Name: System.Reflection.AssemblyNameFlags
 struct CORDL_TYPE AssemblyNameFlags {
 public:
   // Declarations
@@ -48,22 +47,19 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AssemblyNameFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field EnableJITcompileOptimizer value: static_cast<int32_t>(0x4000)
+  /// @brief Field EnableJITcompileOptimizer value: I32(16384)
   static ::System::Reflection::AssemblyNameFlags const EnableJITcompileOptimizer;
 
-  /// @brief Field EnableJITcompileTracking value: static_cast<int32_t>(0x8000)
+  /// @brief Field EnableJITcompileTracking value: I32(32768)
   static ::System::Reflection::AssemblyNameFlags const EnableJITcompileTracking;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Reflection::AssemblyNameFlags const None;
 
-  /// @brief Field PublicKey value: static_cast<int32_t>(0x1)
+  /// @brief Field PublicKey value: I32(1)
   static ::System::Reflection::AssemblyNameFlags const PublicKey;
 
-  /// @brief Field Retargetable value: static_cast<int32_t>(0x100)
+  /// @brief Field Retargetable value: I32(256)
   static ::System::Reflection::AssemblyNameFlags const Retargetable;
 
   /// @brief IL2CPP Metadata Type Index
@@ -72,12 +68,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyNameFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::AssemblyNameFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyNameFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyNameFlags, "System.Reflection", "AssemblyNameFlags");

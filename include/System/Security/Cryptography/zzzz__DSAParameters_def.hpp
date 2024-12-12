@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSAParameters)
@@ -13,11 +12,10 @@ struct DSAParameters;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::DSAParameters);
-// Type: System.Security.Cryptography::DSAParameters
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Cryptography {
 // Is value type: true
-// CS Name: ::System.Security.Cryptography::DSAParameters
+// CS Name: System.Security.Cryptography.DSAParameters
 struct CORDL_TYPE DSAParameters {
 public:
   // Declarations
@@ -32,6 +30,12 @@ public:
   // def_value: None }]
   constexpr DSAParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> Q, ::ArrayW<uint8_t, ::Array<uint8_t>*> G, ::ArrayW<uint8_t, ::Array<uint8_t>*> Y,
                           ::ArrayW<uint8_t, ::Array<uint8_t>*> J, ::ArrayW<uint8_t, ::Array<uint8_t>*> X, ::ArrayW<uint8_t, ::Array<uint8_t>*> Seed, int32_t Counter) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2929 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field P, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> P;
@@ -57,17 +61,9 @@ public:
   /// @brief Field Counter, offset: 0x38, size: 0x4, def value: None
   int32_t Counter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2929 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSAParameters, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::DSAParameters, P) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Q) == 0x8, "Offset mismatch!");
@@ -83,6 +79,8 @@ static_assert(offsetof(::System::Security::Cryptography::DSAParameters, X) == 0x
 static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Seed) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Counter) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSAParameters, 0x40>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");

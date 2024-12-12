@@ -18,11 +18,10 @@ class ArgumentNullException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ArgumentNullException);
-// Type: System::ArgumentNullException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ArgumentException
 namespace System {
 // Is value type: false
-// CS Name: ::System::ArgumentNullException*
+// CS Name: System.ArgumentNullException
 class CORDL_TYPE ArgumentNullException : public ::System::ArgumentException {
 public:
   // Declarations
@@ -34,16 +33,16 @@ public:
 
   static inline ::System::ArgumentNullException* New_ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cf49c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54b3c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cf4a5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54bd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cecc4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d4cdc0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x3cf4a24, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54b98, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
 protected:

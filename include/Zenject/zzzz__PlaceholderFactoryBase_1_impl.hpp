@@ -1,38 +1,22 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PlaceholderFactoryBase_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IPlaceholderFactory_impl.hpp"
+#include "Zenject/zzzz__IValidatable_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBase_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__IPlaceholderFactory_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-/// @brief Convert operator to "::Zenject::IPlaceholderFactory"
-template <typename TValue> constexpr Zenject::PlaceholderFactoryBase_1<TValue>::operator ::Zenject::IPlaceholderFactory*() noexcept {
-  return static_cast<::Zenject::IPlaceholderFactory*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IPlaceholderFactory"
-template <typename TValue> constexpr ::Zenject::IPlaceholderFactory* Zenject::PlaceholderFactoryBase_1<TValue>::i___Zenject__IPlaceholderFactory() noexcept {
-  return static_cast<::Zenject::IPlaceholderFactory*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Zenject::IValidatable"
-template <typename TValue> constexpr Zenject::PlaceholderFactoryBase_1<TValue>::operator ::Zenject::IValidatable*() noexcept {
-  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IValidatable"
-template <typename TValue> constexpr ::Zenject::IValidatable* Zenject::PlaceholderFactoryBase_1<TValue>::i___Zenject__IValidatable() noexcept {
-  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
-}
 template <typename TValue> constexpr ::Zenject::IProvider*& Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_get__provider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
-template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_get__provider() const {
+template <typename TValue> constexpr ::Zenject::IProvider* const& Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_get__provider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
@@ -44,7 +28,7 @@ template <typename TValue> constexpr ::Zenject::InjectContext*& Zenject::Placeho
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectContext;
 }
-template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_get__injectContext() const {
+template <typename TValue> constexpr ::Zenject::InjectContext* const& Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_get__injectContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectContext;
 }
@@ -75,9 +59,6 @@ template <typename TValue> inline ::System::Collections::Generic::IEnumerable_1<
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBase_1<TValue>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(this, ___internal_method);
 }
-template <typename TValue> inline ::Zenject::PlaceholderFactoryBase_1<TValue>* Zenject::PlaceholderFactoryBase_1<TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PlaceholderFactoryBase_1<TValue>*>());
-}
 template <typename TValue> inline void Zenject::PlaceholderFactoryBase_1<TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBase_1<TValue>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -94,6 +75,25 @@ template <typename TValue> inline ::Zenject::InjectTypeInfo* Zenject::Placeholde
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBase_1<TValue>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TValue> inline ::Zenject::PlaceholderFactoryBase_1<TValue>* Zenject::PlaceholderFactoryBase_1<TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PlaceholderFactoryBase_1<TValue>*>());
+}
+/// @brief Convert operator to "::Zenject::IPlaceholderFactory"
+template <typename TValue> constexpr Zenject::PlaceholderFactoryBase_1<TValue>::operator ::Zenject::IPlaceholderFactory*() noexcept {
+  return static_cast<::Zenject::IPlaceholderFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IPlaceholderFactory"
+template <typename TValue> constexpr ::Zenject::IPlaceholderFactory* Zenject::PlaceholderFactoryBase_1<TValue>::i___Zenject__IPlaceholderFactory() noexcept {
+  return static_cast<::Zenject::IPlaceholderFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Zenject::IValidatable"
+template <typename TValue> constexpr Zenject::PlaceholderFactoryBase_1<TValue>::operator ::Zenject::IValidatable*() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IValidatable"
+template <typename TValue> constexpr ::Zenject::IValidatable* Zenject::PlaceholderFactoryBase_1<TValue>::i___Zenject__IValidatable() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::Zenject::PlaceholderFactoryBase_1<TValue>::PlaceholderFactoryBase_1() {}

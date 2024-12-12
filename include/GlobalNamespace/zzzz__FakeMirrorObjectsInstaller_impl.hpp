@@ -12,76 +12,76 @@
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__FakeMirrorObjectsInstaller____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::FakeMirrorObjectsInstaller___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FakeMirrorObjectsInstaller____c::*)()>(
-    &::GlobalNamespace::__FakeMirrorObjectsInstaller____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller___c::*)()>(
+    &::GlobalNamespace::FakeMirrorObjectsInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8e328;
+  constexpr static std::size_t addrs = 0x3bf00a8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FakeMirrorObjectsInstaller____c._InstallBindings_b__10_0
+//  Writing Method size for method: ::GlobalNamespace::FakeMirrorObjectsInstaller___c._InstallBindings_b__10_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__FakeMirrorObjectsInstaller____c::*)(::Zenject::BindingId)>(
-    &::GlobalNamespace::__FakeMirrorObjectsInstaller____c::_InstallBindings_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FakeMirrorObjectsInstaller___c::*)(::Zenject::BindingId)>(
+    &::GlobalNamespace::FakeMirrorObjectsInstaller___c::_InstallBindings_b__10_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b8e330;
+  constexpr static std::size_t addrs = 0x3bf00b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(), "<InstallBindings>b__10_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get(), "<InstallBindings>b__10_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__FakeMirrorObjectsInstaller____c::setStaticF___9(::GlobalNamespace::__FakeMirrorObjectsInstaller____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get>(
-      std::forward<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>(value));
+inline void GlobalNamespace::FakeMirrorObjectsInstaller___c::setStaticF___9(::GlobalNamespace::FakeMirrorObjectsInstaller___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::FakeMirrorObjectsInstaller___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get>(
+      std::forward<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>(value));
 }
-inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* GlobalNamespace::__FakeMirrorObjectsInstaller____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get>();
+inline ::GlobalNamespace::FakeMirrorObjectsInstaller___c* GlobalNamespace::FakeMirrorObjectsInstaller___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::FakeMirrorObjectsInstaller___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get>();
 }
-inline void GlobalNamespace::__FakeMirrorObjectsInstaller____c::setStaticF___9__10_0(::System::Func_2<::Zenject::BindingId, bool>* value) {
+inline void GlobalNamespace::FakeMirrorObjectsInstaller___c::setStaticF___9__10_0(::System::Func_2<::Zenject::BindingId, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::Zenject::BindingId, bool>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get>(
       std::forward<::System::Func_2<::Zenject::BindingId, bool>*>(value));
 }
-inline ::System::Func_2<::Zenject::BindingId, bool>* GlobalNamespace::__FakeMirrorObjectsInstaller____c::getStaticF___9__10_0() {
+inline ::System::Func_2<::Zenject::BindingId, bool>* GlobalNamespace::FakeMirrorObjectsInstaller___c::getStaticF___9__10_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::BindingId, bool>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get>();
 }
-inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* GlobalNamespace::__FakeMirrorObjectsInstaller____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>());
-}
-inline void GlobalNamespace::__FakeMirrorObjectsInstaller____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::FakeMirrorObjectsInstaller___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__FakeMirrorObjectsInstaller____c::_InstallBindings_b__10_0(::Zenject::BindingId t) {
+inline bool GlobalNamespace::FakeMirrorObjectsInstaller___c::_InstallBindings_b__10_0(::Zenject::BindingId t) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(), "<InstallBindings>b__10_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get(), "<InstallBindings>b__10_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, t);
 }
+inline ::GlobalNamespace::FakeMirrorObjectsInstaller___c* GlobalNamespace::FakeMirrorObjectsInstaller___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FakeMirrorObjectsInstaller____c::__FakeMirrorObjectsInstaller____c() {}
+constexpr ::GlobalNamespace::FakeMirrorObjectsInstaller___c::FakeMirrorObjectsInstaller___c() {}
 //  Writing Method size for method: ::GlobalNamespace::FakeMirrorObjectsInstaller.get_mirroredGameNoteControllerPrefab
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8de00;
+  constexpr static std::size_t addrs = 0x3befb80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x3b8de08;
+  constexpr static std::size_t addrs = 0x3befb88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&::GlobalNamespace::FakeMirrorObjectsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8e2c4;
+  constexpr static std::size_t addrs = 0x3bf0044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller*>::get(), ".ctor",
@@ -209,7 +209,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::FakeMirrorObject
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -228,13 +228,13 @@ inline void GlobalNamespace::FakeMirrorObjectsInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::FakeMirrorObjectsInstaller* GlobalNamespace::FakeMirrorObjectsInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FakeMirrorObjectsInstaller*>());
-}
 inline void GlobalNamespace::FakeMirrorObjectsInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FakeMirrorObjectsInstaller* GlobalNamespace::FakeMirrorObjectsInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FakeMirrorObjectsInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FakeMirrorObjectsInstaller::FakeMirrorObjectsInstaller() {}

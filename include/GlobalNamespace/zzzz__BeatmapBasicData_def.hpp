@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__EnvironmentName_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -22,11 +21,10 @@ class BeatmapBasicData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapBasicData);
-// Type: ::BeatmapBasicData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EnvironmentName, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapBasicData*
+// CS Name: BeatmapBasicData
 class CORDL_TYPE BeatmapBasicData : public ::System::Object {
 public:
   // Declarations
@@ -64,9 +62,9 @@ public:
                                                               ::GlobalNamespace::ColorScheme* beatmapColorScheme, int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount,
                                                               int32_t bombsCount, ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
 
-  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get_beatmapColorScheme();
+  constexpr ::GlobalNamespace::ColorScheme* const& __cordl_internal_get_beatmapColorScheme() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get_beatmapColorScheme() const;
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get_beatmapColorScheme();
 
   constexpr int32_t const& __cordl_internal_get_bombsCount() const;
 
@@ -124,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_obstaclesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x268d6c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c1eb0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::GlobalNamespace::EnvironmentName environmentName, ::GlobalNamespace::ColorScheme* beatmapColorScheme,
                     int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount, int32_t bombsCount, ::ArrayW<::StringW, ::Array<::StringW>*> mappers,
                     ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
@@ -142,6 +140,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapBasicData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapBasicData(BeatmapBasicData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12931 };
 
   /// @brief Field noteJumpMovementSpeed, offset: 0x10, size: 0x4, def value: None
   float_t ___noteJumpMovementSpeed;
@@ -173,14 +174,9 @@ public:
   /// @brief Field lighters, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___lighters;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12897 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapBasicData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___noteJumpMovementSpeed) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___noteJumpStartBeatOffset) == 0x14, "Offset mismatch!");
@@ -200,6 +196,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___bombsCount) == 0x
 static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___mappers) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___lighters) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapBasicData, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapBasicData);

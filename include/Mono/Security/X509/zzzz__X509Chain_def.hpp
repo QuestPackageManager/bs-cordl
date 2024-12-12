@@ -18,11 +18,10 @@ class X509Chain;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509Chain);
-// Type: Mono.Security.X509::X509Chain
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Security.X509.X509ChainStatusFlags, System.Object
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::Mono.Security.X509::X509Chain*
+// CS Name: Mono.Security.X509.X509Chain
 class CORDL_TYPE X509Chain : public ::System::Object {
 public:
   // Declarations
@@ -43,51 +42,51 @@ public:
   /// @brief Field roots, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_roots, put = __cordl_internal_set_roots)) ::Mono::Security::X509::X509CertificateCollection* roots;
 
-  /// @brief Method Build, addr 0x3bdded0, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x3c3dfe4, size 0x3ac, virtual false, abstract: false, final false
   inline bool Build(::Mono::Security::X509::X509Certificate* leaf);
 
-  /// @brief Method FindCertificateParent, addr 0x3bde27c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateParent, addr 0x3c3e390, size 0x1dc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateParent(::Mono::Security::X509::X509Certificate* child);
 
-  /// @brief Method FindCertificateRoot, addr 0x3bde458, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateRoot, addr 0x3c3e56c, size 0x248, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateRoot(::Mono::Security::X509::X509Certificate* potentialRoot);
 
-  /// @brief Method IsParent, addr 0x3bde6a0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsParent, addr 0x3c3e7b4, size 0x144, virtual false, abstract: false, final false
   inline bool IsParent(::Mono::Security::X509::X509Certificate* child, ::Mono::Security::X509::X509Certificate* parent);
 
-  /// @brief Method IsTrusted, addr 0x3bde8d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsTrusted, addr 0x3c3e9e4, size 0x2c, virtual false, abstract: false, final false
   inline bool IsTrusted(::Mono::Security::X509::X509Certificate* potentialTrusted);
 
-  /// @brief Method IsValid, addr 0x3bde7e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3c3e8f8, size 0xac, virtual false, abstract: false, final false
   inline bool IsValid(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method LoadCertificates, addr 0x3bddeb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificates, addr 0x3c3dfcc, size 0x18, virtual false, abstract: false, final false
   inline void LoadCertificates(::Mono::Security::X509::X509CertificateCollection* collection);
 
   static inline ::Mono::Security::X509::X509Chain* New_ctor();
 
-  /// @brief Method Reset, addr 0x3bde890, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3c3e9a4, size 0x40, virtual false, abstract: false, final false
   inline void Reset();
+
+  constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get__chain() const;
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__chain();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get__chain() const;
+  constexpr ::Mono::Security::X509::X509Certificate* const& __cordl_internal_get__root() const;
 
   constexpr ::Mono::Security::X509::X509Certificate*& __cordl_internal_get__root();
-
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& __cordl_internal_get__root() const;
 
   constexpr ::Mono::Security::X509::X509ChainStatusFlags const& __cordl_internal_get__status() const;
 
   constexpr ::Mono::Security::X509::X509ChainStatusFlags& __cordl_internal_get__status();
 
+  constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get_certs() const;
+
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get_certs() const;
+  constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get_roots() const;
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_roots();
-
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get_roots() const;
 
   constexpr void __cordl_internal_set__chain(::Mono::Security::X509::X509CertificateCollection* value);
 
@@ -99,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set_roots(::Mono::Security::X509::X509CertificateCollection* value);
 
-  /// @brief Method .ctor, addr 0x3bddd0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3de20, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TrustAnchors, addr 0x3bddd70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchors, addr 0x3c3de84, size 0x7c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_TrustAnchors();
 
 protected:
@@ -119,6 +118,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Chain(X509Chain const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15925 };
+
   /// @brief Field roots, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::X509::X509CertificateCollection* ___roots;
 
@@ -134,14 +136,9 @@ public:
   /// @brief Field _status, offset: 0x30, size: 0x4, def value: None
   ::Mono::Security::X509::X509ChainStatusFlags ____status;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15890 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Chain, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::X509::X509Chain, ___roots) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::X509Chain, ___certs) == 0x18, "Offset mismatch!");
@@ -151,6 +148,8 @@ static_assert(offsetof(::Mono::Security::X509::X509Chain, ____root) == 0x20, "Of
 static_assert(offsetof(::Mono::Security::X509::X509Chain, ____chain) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::X509Chain, ____status) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Chain, 0x38>, "Size mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509Chain);

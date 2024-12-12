@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LateTickablesTaskUpdater)
 namespace System {
 class Object;
@@ -21,26 +20,25 @@ class LateTickablesTaskUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::LateTickablesTaskUpdater);
-// Type: Zenject::LateTickablesTaskUpdater
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.TaskUpdater`1<TTask>
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::LateTickablesTaskUpdater*
+// CS Name: Zenject.LateTickablesTaskUpdater
 class CORDL_TYPE LateTickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ILateTickable*> {
 public:
   // Declarations
   static inline ::Zenject::LateTickablesTaskUpdater* New_ctor();
 
-  /// @brief Method UpdateItem, addr 0x4ae7d54, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x4b4c664, size 0x9c, virtual true, abstract: false, final false
   inline void UpdateItem(::Zenject::ILateTickable* task);
 
-  /// @brief Method __zenCreate, addr 0x4ae7e38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b4c748, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ae7e88, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4c798, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ae7df0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4c700, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +56,7 @@ public:
   LateTickablesTaskUpdater(LateTickablesTaskUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

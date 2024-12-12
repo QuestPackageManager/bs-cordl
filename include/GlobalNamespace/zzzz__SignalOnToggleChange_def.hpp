@@ -17,11 +17,10 @@ class SignalOnToggleChange;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SignalOnToggleChange);
-// Type: ::SignalOnToggleChange
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SignalOnToggleChange*
+// CS Name: SignalOnToggleChange
 class CORDL_TYPE SignalOnToggleChange : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SignalOnToggleChange* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3970224, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39c570c, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RaiseSignal, addr 0x397030c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RaiseSignal, addr 0x39c57f4, size 0x20, virtual false, abstract: false, final false
   inline void RaiseSignal(bool newValue);
 
-  /// @brief Method Start, addr 0x3970180, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39c5668, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
@@ -54,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__toggleValueChangeSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x397032c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c5814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalOnToggleChange(SignalOnToggleChange const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16442 };
+
   /// @brief Field _toggleValueChangeSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____toggleValueChangeSignal;
 
   /// @brief Field _toggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16406 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SignalOnToggleChange, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SignalOnToggleChange, ____toggleValueChangeSignal) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SignalOnToggleChange, ____toggle) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SignalOnToggleChange, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SignalOnToggleChange);

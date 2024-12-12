@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "OVR/OpenVR/zzzz__IVRScreenshots_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -32,39 +30,38 @@ class CVRScreenshots;
 }
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::CVRScreenshots);
-// Type: OVR.OpenVR::CVRScreenshots
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVR.OpenVR.IVRScreenshots, System.Object
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::OVR.OpenVR::CVRScreenshots*
+// CS Name: OVR.OpenVR.CVRScreenshots
 class CORDL_TYPE CVRScreenshots : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x38
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRScreenshots FnTable;
 
-  /// @brief Method GetScreenshotPropertyFilename, addr 0x4014718, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetScreenshotPropertyFilename, addr 0x40747c4, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetScreenshotPropertyFilename(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, ::System::Text::StringBuilder* pchFilename, uint32_t cchFilename,
-                                                ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
+                                                ::ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method GetScreenshotPropertyType, addr 0x40146f4, size 0x24, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EVRScreenshotType GetScreenshotPropertyType(uint32_t screenshotHandle, ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
+  /// @brief Method GetScreenshotPropertyType, addr 0x40747a0, size 0x24, virtual false, abstract: false, final false
+  inline ::OVR::OpenVR::EVRScreenshotType GetScreenshotPropertyType(uint32_t screenshotHandle, ::ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method HookScreenshot, addr 0x40146c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HookScreenshot, addr 0x4074774, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError HookScreenshot(::ArrayW<::OVR::OpenVR::EVRScreenshotType, ::Array<::OVR::OpenVR::EVRScreenshotType>*> pSupportedTypes);
 
   static inline ::OVR::OpenVR::CVRScreenshots* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method RequestScreenshot, addr 0x40146a0, size 0x28, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EVRScreenshotError RequestScreenshot(ByRef<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
+  /// @brief Method RequestScreenshot, addr 0x407474c, size 0x28, virtual false, abstract: false, final false
+  inline ::OVR::OpenVR::EVRScreenshotError RequestScreenshot(::ByRef<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method SubmitScreenshot, addr 0x4014788, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SubmitScreenshot, addr 0x4074834, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError SubmitScreenshot(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchSourcePreviewFilename, ::StringW pchSourceVRFilename);
 
-  /// @brief Method TakeStereoScreenshot, addr 0x4014760, size 0x28, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EVRScreenshotError TakeStereoScreenshot(ByRef<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
+  /// @brief Method TakeStereoScreenshot, addr 0x407480c, size 0x28, virtual false, abstract: false, final false
+  inline ::OVR::OpenVR::EVRScreenshotError TakeStereoScreenshot(::ByRef<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method UpdateScreenshotProgress, addr 0x401473c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateScreenshotProgress, addr 0x40747e8, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError UpdateScreenshotProgress(uint32_t screenshotHandle, float_t flProgress);
 
   constexpr ::OVR::OpenVR::IVRScreenshots const& __cordl_internal_get_FnTable() const;
@@ -73,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRScreenshots value);
 
-  /// @brief Method .ctor, addr 0x4014584, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4074630, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -90,18 +87,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CVRScreenshots(CVRScreenshots const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8886 };
+
   /// @brief Field FnTable, offset: 0x10, size: 0x38, def value: None
   ::OVR::OpenVR::IVRScreenshots ___FnTable;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRScreenshots, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::CVRScreenshots, ___FnTable) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRScreenshots, 0x48>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::CVRScreenshots);

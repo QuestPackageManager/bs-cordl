@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlaybackRenderer.hpp"
-#include "GlobalNamespace/zzzz__PlaybackRenderer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
@@ -18,289 +17,283 @@
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type::__PlaybackRenderer__PlaybackScreenshot__Type(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type::PlaybackScreenshot_PlaybackRenderer_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type::__PlaybackRenderer__PlaybackScreenshot__Type() {}
-constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type::Foreground{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type::Background{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.get_name
+constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type::PlaybackScreenshot_PlaybackRenderer_Type() {}
+constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type::Foreground{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type::Background{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.get_name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)()>(
-    &::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
+    &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abc4d0;
+  constexpr static std::size_t addrs = 0x3b19414;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "get_name",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
+                                                                               "get_name", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.get_texture
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.get_texture
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)()>(
-    &::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_texture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
+    &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abc4d8;
+  constexpr static std::size_t addrs = 0x3b1941c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "get_texture",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
+                                                                               "get_texture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.get_layerMask
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.get_layerMask
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)()>(
-    &::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_layerMask)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
+    &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_layerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abc4e0;
+  constexpr static std::size_t addrs = 0x3b19424;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "get_layerMask",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
+                                                                               "get_layerMask", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.get_type
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.get_type
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type (
-    ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)()>(&::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_type)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type (
+    ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(&::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abc4e8;
+  constexpr static std::size_t addrs = 0x3b1942c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "get_type",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
+                                                                               "get_type", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.get_path
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.get_path
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)()>(
-    &::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_path)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
+    &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abc4f0;
+  constexpr static std::size_t addrs = 0x3b19434;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "get_path",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
+                                                                               "get_path", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.set_path
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.set_path
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)(::StringW)>(
-    &::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::set_path)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)(::StringW)>(
+    &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::set_path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abc4f8;
+  constexpr static std::size_t addrs = 0x3b1943c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "set_path",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(), "set_path",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.get_backgroundColor
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.get_backgroundColor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)()>(
-    &::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_backgroundColor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
+    &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_backgroundColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3abc500;
+  constexpr static std::size_t addrs = 0x3b19444;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "get_backgroundColor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
+                                                                               "get_backgroundColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot._ctor
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)(
-    ::StringW, ::UnityEngine::LayerMask, ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type, ::UnityEngine::Color)>(&::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)(
+    ::StringW, ::UnityEngine::LayerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type, ::UnityEngine::Color)>(&::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3abc50c;
+  constexpr static std::size_t addrs = 0x3b19450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot.CreateTexture
+//  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot.CreateTexture
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::*)(int32_t, int32_t)>(
-    &::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::CreateTexture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)(int32_t, int32_t)>(
+    &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::CreateTexture)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3abbc00;
+  constexpr static std::size_t addrs = 0x3b18b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "CreateTexture", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(), "CreateTexture", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__name() {
+constexpr ::StringW& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
-constexpr ::StringW const& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__name() const {
+constexpr ::StringW const& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
-constexpr void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_set__name(::StringW value) {
+constexpr void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_set__name(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::LayerMask& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__layerMask() {
+constexpr ::UnityEngine::LayerMask& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__layerMask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layerMask;
 }
-constexpr ::UnityEngine::LayerMask const& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__layerMask() const {
+constexpr ::UnityEngine::LayerMask const& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__layerMask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layerMask;
 }
-constexpr void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_set__layerMask(::UnityEngine::LayerMask value) {
+constexpr void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_set__layerMask(::UnityEngine::LayerMask value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____layerMask = value;
 }
-constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__type() {
+constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
-constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type const& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__type() const {
+constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type const& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
-constexpr void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_set__type(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type value) {
+constexpr void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_set__type(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____type = value;
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture>& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__texture() {
+constexpr ::UnityW<::UnityEngine::RenderTexture>& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__texture() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____texture;
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture> const& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__texture() const {
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__texture() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____texture;
 }
-constexpr void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_set__texture(::UnityW<::UnityEngine::RenderTexture> value) {
+constexpr void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_set__texture(::UnityW<::UnityEngine::RenderTexture> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____texture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__path() {
+constexpr ::StringW& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__path() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____path;
 }
-constexpr ::StringW const& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__path() const {
+constexpr ::StringW const& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__path() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____path;
 }
-constexpr void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_set__path(::StringW value) {
+constexpr void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_set__path(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__backgroundColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__backgroundColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_get__backgroundColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_get__backgroundColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundColor;
 }
-constexpr void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__cordl_internal_set__backgroundColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::__cordl_internal_set__backgroundColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____backgroundColor = value;
 }
-inline ::StringW GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_name() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(),
+inline ::StringW GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_name() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
                                                                              "get_name", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_texture() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(),
+inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_texture() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
                                                                              "get_texture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::LayerMask GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_layerMask() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(),
+inline ::UnityEngine::LayerMask GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_layerMask() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
                                                                              "get_layerMask", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_type() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(),
+inline ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_type() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
                                                                              "get_type", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_path() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(),
+inline ::StringW GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_path() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
                                                                              "get_path", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::set_path(::StringW value) {
+inline void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::set_path(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "set_path",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(), "set_path",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Color GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::get_backgroundColor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(),
+inline ::UnityEngine::Color GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_backgroundColor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(),
                                                                              "get_backgroundColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*
-GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type,
-                                                                  ::UnityEngine::Color backgroundColor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>(name, layerMask, type, backgroundColor));
-}
-inline void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type,
-                                                                           ::UnityEngine::Color backgroundColor) {
+inline void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type,
+                                                                        ::UnityEngine::Color backgroundColor) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, layerMask, type, backgroundColor);
 }
-inline void GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::CreateTexture(int32_t width, int32_t height) {
+inline void GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::CreateTexture(int32_t width, int32_t height) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get(), "CreateTexture", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get(), "CreateTexture", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height);
 }
+inline ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask,
+                                                                                                                              ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type,
+                                                                                                                              ::UnityEngine::Color backgroundColor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>(name, layerMask, type, backgroundColor));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot::__PlaybackRenderer__PlaybackScreenshot() {}
+constexpr ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::PlaybackRenderer_PlaybackScreenshot() {}
 //  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer.add_texturesReadyEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::System::Action*)>(
     &::GlobalNamespace::PlaybackRenderer::add_texturesReadyEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3abb6e8;
+  constexpr static std::size_t addrs = 0x3b1862c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::System::Action*)>(
     &::GlobalNamespace::PlaybackRenderer::remove_texturesReadyEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3abb784;
+  constexpr static std::size_t addrs = 0x3b186c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,10 +321,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> (::GlobalNamespace::PlaybackRenderer::*)()>(
+    static_cast<::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> (::GlobalNamespace::PlaybackRenderer::*)()>(
         &::GlobalNamespace::PlaybackRenderer::get_screenshots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abb820;
+  constexpr static std::size_t addrs = 0x3b18764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "get_screenshots",
@@ -343,20 +336,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(
-    ::UnityEngine::Camera*, ::UnityEngine::Camera*, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*, int32_t, int32_t,
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>)>(&::GlobalNamespace::PlaybackRenderer::Setup)> {
+    ::UnityEngine::Camera*, ::UnityEngine::Camera*, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*, int32_t, int32_t,
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>)>(&::GlobalNamespace::PlaybackRenderer::Setup)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3abadbc;
+  constexpr static std::size_t addrs = 0x3b17d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "Setup", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>>::get() })));
+                                                ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -365,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::CreateClipQuad)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3abb910;
+  constexpr static std::size_t addrs = 0x3b18854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "CreateClipQuad",
@@ -377,15 +370,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(
-    ::UnityEngine::Camera*, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*)>(&::GlobalNamespace::PlaybackRenderer::InitCamera)> {
+    ::UnityEngine::Camera*, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*)>(&::GlobalNamespace::PlaybackRenderer::InitCamera)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3abb828;
+  constexpr static std::size_t addrs = 0x3b1876c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "InitCamera", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*>::get() })));
     return ___internal_method;
   }
 };
@@ -395,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(int32_t, int32_t)>(
     &::GlobalNamespace::PlaybackRenderer::CreateTextures)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3abbb8c;
+  constexpr static std::size_t addrs = 0x3b18ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::GetDistanceToHMD)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3abbcc4;
+  constexpr static std::size_t addrs = 0x3b18c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "GetDistanceToHMD",
@@ -422,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::OrientClipQuad)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3abbfd0;
+  constexpr static std::size_t addrs = 0x3b18f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "OrientClipQuad",
@@ -433,30 +426,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer.RenderForeground
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*)>(
     &::GlobalNamespace::PlaybackRenderer::RenderForeground)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3abc110;
+  constexpr static std::size_t addrs = 0x3b19054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "RenderForeground", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlaybackRenderer.RenderBackground
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*)>(
     &::GlobalNamespace::PlaybackRenderer::RenderBackground)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3abc2d0;
+  constexpr static std::size_t addrs = 0x3b19214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "RenderBackground", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get() })));
     return ___internal_method;
   }
 };
@@ -465,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::LateUpdate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3abc424;
+  constexpr static std::size_t addrs = 0x3b19368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "LateUpdate",
@@ -478,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abc4c8;
+  constexpr static std::size_t addrs = 0x3b1940c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), ".ctor",
@@ -490,7 +483,7 @@ constexpr ::System::Action*& GlobalNamespace::PlaybackRenderer::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___texturesReadyEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::PlaybackRenderer::__cordl_internal_get_texturesReadyEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::PlaybackRenderer::__cordl_internal_get_texturesReadyEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___texturesReadyEvent;
 }
@@ -546,16 +539,15 @@ constexpr void GlobalNamespace::PlaybackRenderer::__cordl_internal_set__camera(:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& GlobalNamespace::PlaybackRenderer::__cordl_internal_get__cameraCalibration() {
+constexpr ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*& GlobalNamespace::PlaybackRenderer::__cordl_internal_get__cameraCalibration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraCalibration;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*> const&
-GlobalNamespace::PlaybackRenderer::__cordl_internal_get__cameraCalibration() const {
+constexpr ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* const& GlobalNamespace::PlaybackRenderer::__cordl_internal_get__cameraCalibration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraCalibration;
 }
-constexpr void GlobalNamespace::PlaybackRenderer::__cordl_internal_set__cameraCalibration(::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* value) {
+constexpr void GlobalNamespace::PlaybackRenderer::__cordl_internal_set__cameraCalibration(::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cameraCalibration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -583,18 +575,18 @@ constexpr void GlobalNamespace::PlaybackRenderer::__cordl_internal_set__clipMate
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clipMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>&
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>&
 GlobalNamespace::PlaybackRenderer::__cordl_internal_get__screenshots() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screenshots;
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> const&
 GlobalNamespace::PlaybackRenderer::__cordl_internal_get__screenshots() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screenshots;
 }
 constexpr void GlobalNamespace::PlaybackRenderer::__cordl_internal_set__screenshots(
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value) {
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____screenshots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -610,24 +602,23 @@ inline void GlobalNamespace::PlaybackRenderer::remove_texturesReadyEvent(::Syste
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> GlobalNamespace::PlaybackRenderer::get_screenshots() {
+inline ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> GlobalNamespace::PlaybackRenderer::get_screenshots() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "get_screenshots",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>, false>(
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>, false>(
       this, ___internal_method);
 }
-inline void
-GlobalNamespace::PlaybackRenderer::Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration,
-                                         int32_t textureWidth, int32_t textureHeight,
-                                         ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots) {
+inline void GlobalNamespace::PlaybackRenderer::Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera,
+                                                     ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration, int32_t textureWidth, int32_t textureHeight,
+                                                     ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> screenshots) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "Setup", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                              ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>>::get() })));
+                                              ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hmdCamera, camera, cameraCalibration, textureWidth, textureHeight, screenshots);
 }
 inline void GlobalNamespace::PlaybackRenderer::CreateClipQuad() {
@@ -635,11 +626,11 @@ inline void GlobalNamespace::PlaybackRenderer::CreateClipQuad() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlaybackRenderer::InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration) {
+inline void GlobalNamespace::PlaybackRenderer::InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "InitCamera", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, camera, cameraCalibration);
 }
 inline void GlobalNamespace::PlaybackRenderer::CreateTextures(int32_t width, int32_t height) {
@@ -658,16 +649,16 @@ inline void GlobalNamespace::PlaybackRenderer::OrientClipQuad() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlaybackRenderer::RenderForeground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot) {
+inline void GlobalNamespace::PlaybackRenderer::RenderForeground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "RenderForeground", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, screenshot);
 }
-inline void GlobalNamespace::PlaybackRenderer::RenderBackground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot) {
+inline void GlobalNamespace::PlaybackRenderer::RenderBackground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), "RenderBackground", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, screenshot);
 }
 inline void GlobalNamespace::PlaybackRenderer::LateUpdate() {
@@ -675,13 +666,13 @@ inline void GlobalNamespace::PlaybackRenderer::LateUpdate() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlaybackRenderer* GlobalNamespace::PlaybackRenderer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlaybackRenderer*>());
-}
 inline void GlobalNamespace::PlaybackRenderer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRenderer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PlaybackRenderer* GlobalNamespace::PlaybackRenderer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlaybackRenderer*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlaybackRenderer::PlaybackRenderer() {}

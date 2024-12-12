@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Versioning::TargetFrameworkAttribute::*)(::StringW)>(
     &::System::Runtime::Versioning::TargetFrameworkAttribute::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c91e80;
+  constexpr static std::size_t addrs = 0x3cf1ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Versioning::TargetFrameworkAttribute::*)(::StringW)>(
     &::System::Runtime::Versioning::TargetFrameworkAttribute::set_FrameworkDisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c91ef4;
+  constexpr static std::size_t addrs = 0x3cf2068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,9 +56,6 @@ constexpr void System::Runtime::Versioning::TargetFrameworkAttribute::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____frameworkDisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Runtime::Versioning::TargetFrameworkAttribute* System::Runtime::Versioning::TargetFrameworkAttribute::New_ctor(::StringW frameworkName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Versioning::TargetFrameworkAttribute*>(frameworkName));
-}
 inline void System::Runtime::Versioning::TargetFrameworkAttribute::_ctor(::StringW frameworkName) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Versioning::TargetFrameworkAttribute*>::get(), ".ctor",
@@ -70,6 +67,9 @@ inline void System::Runtime::Versioning::TargetFrameworkAttribute::set_Framework
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Versioning::TargetFrameworkAttribute*>::get(), "set_FrameworkDisplayName",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Runtime::Versioning::TargetFrameworkAttribute* System::Runtime::Versioning::TargetFrameworkAttribute::New_ctor(::StringW frameworkName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Versioning::TargetFrameworkAttribute*>(frameworkName));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Versioning::TargetFrameworkAttribute::TargetFrameworkAttribute() {}

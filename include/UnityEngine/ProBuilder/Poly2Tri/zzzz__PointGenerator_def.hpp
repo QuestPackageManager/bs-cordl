@@ -22,26 +22,25 @@ class PointGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator);
-// Type: UnityEngine.ProBuilder.Poly2Tri::PointGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointGenerator*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.PointGenerator
 class CORDL_TYPE PointGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RNG, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG)) ::System::Random* RNG;
+  __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG)) ::System::Random* RNG;
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
 
-  /// @brief Method UniformDistribution, addr 0x469bc08, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method UniformDistribution, addr 0x46fcf1c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
 
-  /// @brief Method UniformGrid, addr 0x469bdc8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UniformGrid, addr 0x46fd0dc, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
 
-  /// @brief Method .ctor, addr 0x469bf54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fd268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF_RNG();
@@ -63,7 +62,7 @@ public:
   PointGenerator(PointGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,11 +15,10 @@ class BsonToken;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonToken);
-// Type: Newtonsoft.Json.Bson::BsonToken
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Bson::BsonToken*
+// CS Name: Newtonsoft.Json.Bson.BsonToken
 class CORDL_TYPE BsonToken : public ::System::Object {
 public:
   // Declarations
@@ -41,30 +40,30 @@ public:
 
   constexpr int32_t& __cordl_internal_get__CalculatedSize_k__BackingField();
 
-  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __cordl_internal_get__Parent_k__BackingField();
+  constexpr ::Newtonsoft::Json::Bson::BsonToken* const& __cordl_internal_get__Parent_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __cordl_internal_get__Parent_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::Bson::BsonToken*& __cordl_internal_get__Parent_k__BackingField();
 
   constexpr void __cordl_internal_set__CalculatedSize_k__BackingField(int32_t value);
 
   constexpr void __cordl_internal_set__Parent_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x3ef15c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5166c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CalculatedSize, addr 0x3ef15b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CalculatedSize, addr 0x3f5165c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CalculatedSize();
 
-  /// @brief Method get_Parent, addr 0x3ef15a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x3f5164c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
 
-  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Type, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method set_CalculatedSize, addr 0x3ef15b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CalculatedSize, addr 0x3f51664, size 0x8, virtual false, abstract: false, final false
   inline void set_CalculatedSize(int32_t value);
 
-  /// @brief Method set_Parent, addr 0x3ef15a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x3f51654, size 0x8, virtual false, abstract: false, final false
   inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:
@@ -81,23 +80,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BsonToken(BsonToken const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10506 };
+
   /// @brief Field <Parent>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonToken* ____Parent_k__BackingField;
 
   /// @brief Field <CalculatedSize>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____CalculatedSize_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10481 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonToken, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonToken, ____Parent_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonToken, ____CalculatedSize_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonToken, 0x20>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Bson
 NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonToken);

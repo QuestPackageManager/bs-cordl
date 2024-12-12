@@ -23,11 +23,10 @@ class AuthorizationRule;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::AuthorizationRule);
-// Type: System.Security.AccessControl::AuthorizationRule
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::AuthorizationRule*
+// CS Name: System.Security.AccessControl.AuthorizationRule
 class CORDL_TYPE AuthorizationRule : public ::System::Object {
 public:
   // Declarations
@@ -56,9 +55,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_accessMask();
 
-  constexpr ::System::Security::Principal::IdentityReference*& __cordl_internal_get_identity();
+  constexpr ::System::Security::Principal::IdentityReference* const& __cordl_internal_get_identity() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IdentityReference*> const& __cordl_internal_get_identity() const;
+  constexpr ::System::Security::Principal::IdentityReference*& __cordl_internal_get_identity();
 
   constexpr ::System::Security::AccessControl::InheritanceFlags const& __cordl_internal_get_inheritanceFlags() const;
 
@@ -82,11 +81,11 @@ public:
 
   constexpr void __cordl_internal_set_propagationFlags(::System::Security::AccessControl::PropagationFlags value);
 
-  /// @brief Method .ctor, addr 0x3c61314, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc1488, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method get_AccessMask, addr 0x3c6156c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessMask, addr 0x3cc16e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
 protected:
@@ -103,6 +102,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AuthorizationRule(AuthorizationRule const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3020 };
+
   /// @brief Field identity, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Principal::IdentityReference* ___identity;
 
@@ -118,14 +120,9 @@ public:
   /// @brief Field propagationFlags, offset: 0x24, size: 0x4, def value: None
   ::System::Security::AccessControl::PropagationFlags ___propagationFlags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3020 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AuthorizationRule, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::AccessControl::AuthorizationRule, ___identity) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::AccessControl::AuthorizationRule, ___accessMask) == 0x18, "Offset mismatch!");
@@ -135,6 +132,8 @@ static_assert(offsetof(::System::Security::AccessControl::AuthorizationRule, ___
 static_assert(offsetof(::System::Security::AccessControl::AuthorizationRule, ___inheritanceFlags) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::AccessControl::AuthorizationRule, ___propagationFlags) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AuthorizationRule, 0x28>, "Size mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::AuthorizationRule);

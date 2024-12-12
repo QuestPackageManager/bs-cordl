@@ -28,11 +28,10 @@ class PlayableOutputExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Playables::PlayableOutputExtensions);
-// Type: UnityEngine.Playables::PlayableOutputExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Playables {
 // Is value type: false
-// CS Name: ::UnityEngine.Playables::PlayableOutputExtensions*
+// CS Name: UnityEngine.Playables.PlayableOutputExtensions
 class CORDL_TYPE PlayableOutputExtensions : public ::System::Object {
 public:
   // Declarations
@@ -75,7 +74,7 @@ public:
   PlayableOutputExtensions(PlayableOutputExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11283 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

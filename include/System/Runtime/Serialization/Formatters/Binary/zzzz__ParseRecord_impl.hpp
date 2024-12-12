@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ParseRecord::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ParseRecord::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cae434;
+  constexpr static std::size_t addrs = 0x3d0e5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ParseRecord::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ParseRecord::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cb041c;
+  constexpr static std::size_t addrs = 0x3d10590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRvarValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRvarValue() const {
+constexpr ::System::Object* const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRvarValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRvarValue;
 }
@@ -176,7 +176,7 @@ constexpr ::System::Type*& System::Runtime::Serialization::Formatters::Binary::P
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRdtType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRdtType() const {
+constexpr ::System::Type* const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRdtType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRdtType;
 }
@@ -249,7 +249,7 @@ constexpr ::System::Type*& System::Runtime::Serialization::Formatters::Binary::P
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRarrayElementType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRarrayElementType() const {
+constexpr ::System::Type* const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRarrayElementType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRarrayElementType;
 }
@@ -431,8 +431,7 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*&
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRobjectInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*> const&
-System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRobjectInfo() const {
+constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRobjectInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRobjectInfo;
 }
@@ -456,7 +455,7 @@ constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRnewObj;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRnewObj() const {
+constexpr ::System::Object* const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRnewObj() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRnewObj;
 }
@@ -480,8 +479,7 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*&
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRprimitiveArray;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*> const&
-System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRprimitiveArray() const {
+constexpr ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRprimitiveArray() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRprimitiveArray;
 }
@@ -517,8 +515,7 @@ constexpr ::System::Runtime::Serialization::SerializationInfo*& System::Runtime:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRsi;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const&
-System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRsi() const {
+constexpr ::System::Runtime::Serialization::SerializationInfo* const& System::Runtime::Serialization::Formatters::Binary::ParseRecord::__cordl_internal_get_PRsi() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PRsi;
 }
@@ -546,9 +543,6 @@ inline int32_t System::Runtime::Serialization::Formatters::Binary::ParseRecord::
   return ::cordl_internals::getStaticField<int32_t, "parseRecordIdCount",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get>();
 }
-inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* System::Runtime::Serialization::Formatters::Binary::ParseRecord::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>());
-}
 inline void System::Runtime::Serialization::Formatters::Binary::ParseRecord::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get(), ".ctor",
@@ -560,6 +554,9 @@ inline void System::Runtime::Serialization::Formatters::Binary::ParseRecord::Ini
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>::get(), "Init",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* System::Runtime::Serialization::Formatters::Binary::ParseRecord::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord::ParseRecord() {}

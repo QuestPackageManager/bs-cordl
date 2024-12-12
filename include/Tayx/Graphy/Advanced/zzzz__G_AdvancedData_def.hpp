@@ -3,9 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(G_AdvancedData)
@@ -15,20 +16,14 @@ template <typename T> class List_1;
 namespace System::Text {
 class StringBuilder;
 }
-namespace Tayx::Graphy::UI {
-class IModifiableState;
+namespace Tayx::Graphy {
+struct GraphyManager_ModulePosition;
 }
-namespace Tayx::Graphy::UI {
-class IMovable;
+namespace Tayx::Graphy {
+struct GraphyManager_ModuleState;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -45,11 +40,10 @@ class G_AdvancedData;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Advanced::G_AdvancedData);
-// Type: Tayx.Graphy.Advanced::G_AdvancedData
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Tayx.Graphy.GraphyManager::ModuleState, Tayx.Graphy.UI.IModifiableState, Tayx.Graphy.UI.IMovable, UnityEngine.MonoBehaviour
 namespace Tayx::Graphy::Advanced {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Advanced::G_AdvancedData*
+// CS Name: Tayx.Graphy.Advanced.G_AdvancedData
 class CORDL_TYPE G_AdvancedData : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -58,7 +52,7 @@ public:
                       put = __cordl_internal_set_m_backgroundImages)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_backgroundImages;
 
   /// @brief Field m_currentModuleState, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_currentModuleState, put = __cordl_internal_set_m_currentModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState m_currentModuleState;
+  __declspec(property(get = __cordl_internal_get_m_currentModuleState, put = __cordl_internal_set_m_currentModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_currentModuleState;
 
   /// @brief Field m_deltaTime, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_m_deltaTime, put = __cordl_internal_set_m_deltaTime)) float_t m_deltaTime;
@@ -82,7 +76,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_operatingSystemText, put = __cordl_internal_set_m_operatingSystemText)) ::UnityW<::UnityEngine::UI::Text> m_operatingSystemText;
 
   /// @brief Field m_previousModuleState, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState m_previousModuleState;
+  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_previousModuleState;
 
   /// @brief Field m_processorTypeText, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_processorTypeText, put = __cordl_internal_set_m_processorTypeText)) ::UnityW<::UnityEngine::UI::Text> m_processorTypeText;
@@ -111,39 +105,39 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Method Init, addr 0x446cf28, size 0xcf0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44ce23c, size 0xcf0, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Advanced::G_AdvancedData* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x4472e08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d411c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshParameters, addr 0x446e7a4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x44cfab8, size 0x190, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method RestorePreviousState, addr 0x446becc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x44cd1e0, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method SetPosition, addr 0x446a850, size 0x7ac, virtual true, abstract: false, final true
-  inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
+  /// @brief Method SetPosition, addr 0x44cbb64, size 0x7ac, virtual true, abstract: false, final true
+  inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x446a7b0, size 0x78, virtual true, abstract: false, final true
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
+  /// @brief Method SetState, addr 0x44cbac4, size 0x78, virtual true, abstract: false, final true
+  inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState state, bool silentUpdate);
 
-  /// @brief Method Update, addr 0x4472e0c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d4120, size 0x2b8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x446e0c8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44cf3dc, size 0x198, virtual false, abstract: false, final false
   inline void UpdateParameters();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& __cordl_internal_get_m_backgroundImages() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get_m_backgroundImages();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get_m_backgroundImages() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_currentModuleState() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_currentModuleState() const;
-
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_currentModuleState();
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_currentModuleState();
 
   constexpr float_t const& __cordl_internal_get_m_deltaTime() const;
 
@@ -173,9 +167,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_operatingSystemText();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_previousModuleState() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_previousModuleState() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_previousModuleState();
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_previousModuleState();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_processorTypeText() const;
 
@@ -185,9 +179,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
 
-  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_m_sb();
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_m_sb() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_m_sb() const;
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_m_sb();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_screenResolutionText() const;
 
@@ -207,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
 
-  constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
   constexpr void __cordl_internal_set_m_deltaTime(float_t value);
 
@@ -223,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set_m_operatingSystemText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
   constexpr void __cordl_internal_set_m_processorTypeText(::UnityW<::UnityEngine::UI::Text> value);
 
@@ -239,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set_m_windowStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x44730c4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d43d8, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
@@ -261,6 +255,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "G_AdvancedData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   G_AdvancedData(G_AdvancedData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17233 };
 
   /// @brief Field m_backgroundImages, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;
@@ -305,22 +302,17 @@ public:
   ::System::Text::StringBuilder* ___m_sb;
 
   /// @brief Field m_previousModuleState, offset: 0x90, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModuleState ___m_previousModuleState;
+  ::Tayx::Graphy::GraphyManager_ModuleState ___m_previousModuleState;
 
   /// @brief Field m_currentModuleState, offset: 0x94, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModuleState ___m_currentModuleState;
+  ::Tayx::Graphy::GraphyManager_ModuleState ___m_currentModuleState;
 
   /// @brief Field m_windowStrings, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___m_windowStrings;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17100 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Advanced::G_AdvancedData, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::Advanced::G_AdvancedData, ___m_backgroundImages) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Advanced::G_AdvancedData, ___m_graphicsDeviceVersionText) == 0x28, "Offset mismatch!");
@@ -354,6 +346,8 @@ static_assert(offsetof(::Tayx::Graphy::Advanced::G_AdvancedData, ___m_previousMo
 static_assert(offsetof(::Tayx::Graphy::Advanced::G_AdvancedData, ___m_currentModuleState) == 0x94, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Advanced::G_AdvancedData, ___m_windowStrings) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Advanced::G_AdvancedData, 0xa0>, "Size mismatch!");
 
 } // namespace Tayx::Graphy::Advanced
 NEED_NO_BOX(::Tayx::Graphy::Advanced::G_AdvancedData);

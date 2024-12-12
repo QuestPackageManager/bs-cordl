@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)()>(
     &::System::Runtime::Serialization::FixupHolderList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9a000;
+  constexpr static std::size_t addrs = 0x3cfa174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FixupHolderList*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)(int32_t)>(
     &::System::Runtime::Serialization::FixupHolderList::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c9a10c;
+  constexpr static std::size_t addrs = 0x3cfa280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)(::System::Runtime::Serialization::FixupHolder*)>(
     &::System::Runtime::Serialization::FixupHolderList::Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c9a178;
+  constexpr static std::size_t addrs = 0x3cfa2ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)()>(
     &::System::Runtime::Serialization::FixupHolderList::EnlargeArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c9a220;
+  constexpr static std::size_t addrs = 0x3cfa394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FixupHolderList*>::get(),
@@ -89,16 +89,10 @@ constexpr void System::Runtime::Serialization::FixupHolderList::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_count = value;
 }
-inline ::System::Runtime::Serialization::FixupHolderList* System::Runtime::Serialization::FixupHolderList::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::FixupHolderList*>());
-}
 inline void System::Runtime::Serialization::FixupHolderList::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FixupHolderList*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Runtime::Serialization::FixupHolderList* System::Runtime::Serialization::FixupHolderList::New_ctor(int32_t startingSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::FixupHolderList*>(startingSize));
 }
 inline void System::Runtime::Serialization::FixupHolderList::_ctor(int32_t startingSize) {
   static auto* ___internal_method =
@@ -115,6 +109,12 @@ inline void System::Runtime::Serialization::FixupHolderList::EnlargeArray() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FixupHolderList*>::get(),
                                                                              "EnlargeArray", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::FixupHolderList* System::Runtime::Serialization::FixupHolderList::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::FixupHolderList*>());
+}
+inline ::System::Runtime::Serialization::FixupHolderList* System::Runtime::Serialization::FixupHolderList::New_ctor(int32_t startingSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::FixupHolderList*>(startingSize));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::FixupHolderList::FixupHolderList() {}

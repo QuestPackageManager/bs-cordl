@@ -11,26 +11,25 @@ class CDSCollectionETWBCLProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Concurrent::CDSCollectionETWBCLProvider);
-// Type: System.Collections.Concurrent::CDSCollectionETWBCLProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Diagnostics.Tracing.EventSource
 namespace System::Collections::Concurrent {
 // Is value type: false
-// CS Name: ::System.Collections.Concurrent::CDSCollectionETWBCLProvider*
+// CS Name: System.Collections.Concurrent.CDSCollectionETWBCLProvider
 class CORDL_TYPE CDSCollectionETWBCLProvider : public ::System::Diagnostics::Tracing::EventSource {
 public:
   // Declarations
   /// @brief Field Log, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* Log;
+  __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* Log;
 
-  /// @brief Method ConcurrentBag_TryPeekSteals, addr 0x44244fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ConcurrentBag_TryPeekSteals, addr 0x4485810, size 0x38, virtual false, abstract: false, final false
   inline void ConcurrentBag_TryPeekSteals();
 
-  /// @brief Method ConcurrentBag_TryTakeSteals, addr 0x44244c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ConcurrentBag_TryTakeSteals, addr 0x44857d8, size 0x38, virtual false, abstract: false, final false
   inline void ConcurrentBag_TryTakeSteals();
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44244bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44857d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* getStaticF_Log();
@@ -52,7 +51,7 @@ public:
   CDSCollectionETWBCLProvider(CDSCollectionETWBCLProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9504 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

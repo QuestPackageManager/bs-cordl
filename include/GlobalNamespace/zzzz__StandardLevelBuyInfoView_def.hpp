@@ -21,11 +21,10 @@ class StandardLevelBuyInfoView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelBuyInfoView);
-// Type: ::StandardLevelBuyInfoView
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelBuyInfoView*
+// CS Name: StandardLevelBuyInfoView
 class CORDL_TYPE StandardLevelBuyInfoView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -52,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method RefreshView, addr 0x3aa90bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x3b06050, size 0x98, virtual false, abstract: false, final false
   inline void RefreshView(::StringW infoText, bool canBuyPack);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyLevelButton() const;
@@ -85,16 +84,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3aa9154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b060e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_buyLevelButton, addr 0x3aa90a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyLevelButton, addr 0x3b06038, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
 
-  /// @brief Method get_buyPackButton, addr 0x3aa90b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyPackButton, addr 0x3b06048, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
 
-  /// @brief Method get_openPackButton, addr 0x3aa90ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_openPackButton, addr 0x3b06040, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
 
 protected:
@@ -111,6 +110,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelBuyInfoView(StandardLevelBuyInfoView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5004 };
+
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
@@ -126,14 +128,9 @@ public:
   /// @brief Field _steamMessageGameObject, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____steamMessageGameObject;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4984 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelBuyInfoView, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____text) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____buyLevelButton) == 0x28, "Offset mismatch!");
@@ -143,6 +140,8 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____openPack
 static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____buyPackButton) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____steamMessageGameObject) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelBuyInfoView, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelBuyInfoView);

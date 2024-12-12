@@ -4,8 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mod)
 namespace Org::BouncyCastle::Security {
@@ -17,38 +15,37 @@ class Mod;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Mod);
-// Type: Org.BouncyCastle.Math.Raw::Mod
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.Raw::Mod*
+// CS Name: Org.BouncyCastle.Math.Raw.Mod
 class CORDL_TYPE Mod : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RandomSource, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RandomSource, put = setStaticF_RandomSource)) ::Org::BouncyCastle::Security::SecureRandom* RandomSource;
+  __declspec(property(get = getStaticF_RandomSource, put = setStaticF_RandomSource)) ::Org::BouncyCastle::Security::SecureRandom* RandomSource;
 
-  /// @brief Method Add, addr 0x24a8ea8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x24dc194, size 0x4c, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method InversionResult, addr 0x24a8c20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InversionResult, addr 0x24dbf0c, size 0x48, virtual false, abstract: false, final false
   static inline void InversionResult(::ArrayW<uint32_t, ::Array<uint32_t>*> p, int32_t ac, ::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method InversionStep, addr 0x24a8af4, size 0x12c, virtual false, abstract: false, final false
-  static inline void InversionStep(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> u, int32_t uLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ByRef<int32_t> xc);
+  /// @brief Method InversionStep, addr 0x24dbde0, size 0x12c, virtual false, abstract: false, final false
+  static inline void InversionStep(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> u, int32_t uLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ByRef<int32_t> xc);
 
-  /// @brief Method Invert, addr 0x24a8598, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Invert, addr 0x24db884, size 0x3ac, virtual false, abstract: false, final false
   static inline void Invert(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
   static inline ::Org::BouncyCastle::Math::Raw::Mod* New_ctor();
 
-  /// @brief Method Random, addr 0x24a8d50, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Random, addr 0x24dc03c, size 0x158, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Random(::ArrayW<uint32_t, ::Array<uint32_t>*> p);
 
-  /// @brief Method Subtract, addr 0x24a8f88, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x24dc274, size 0x4c, virtual false, abstract: false, final false
   static inline void Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method .ctor, addr 0x24a9268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dc554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_RandomSource();

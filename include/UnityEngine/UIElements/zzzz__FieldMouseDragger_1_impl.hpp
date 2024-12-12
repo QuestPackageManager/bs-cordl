@@ -16,8 +16,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::IValueField_1<T>*& Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DrivenField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IValueField_1<T>*> const& UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_get_m_DrivenField() const {
+template <typename T> constexpr ::UnityEngine::UIElements::IValueField_1<T>* const& UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_get_m_DrivenField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DrivenField;
 }
@@ -29,8 +28,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::VisualElement*& Unity
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragElement;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_get_m_DragElement() const {
+template <typename T> constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_get_m_DragElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragElement;
 }
@@ -73,9 +71,6 @@ template <typename T> constexpr T const& UnityEngine::UIElements::FieldMouseDrag
 template <typename T> constexpr void UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_set__startValue_k__BackingField(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____startValue_k__BackingField, value);
-}
-template <typename T> inline ::UnityEngine::UIElements::FieldMouseDragger_1<T>* UnityEngine::UIElements::FieldMouseDragger_1<T>::New_ctor(::UnityEngine::UIElements::IValueField_1<T>* drivenField) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FieldMouseDragger_1<T>*>(drivenField));
 }
 template <typename T> inline void UnityEngine::UIElements::FieldMouseDragger_1<T>::_ctor(::UnityEngine::UIElements::IValueField_1<T>* drivenField) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -162,6 +157,9 @@ template <typename T> inline void UnityEngine::UIElements::FieldMouseDragger_1<T
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FieldMouseDragger_1<T>*>::get(), "UpdateValueOnKeyDown", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyDownEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+template <typename T> inline ::UnityEngine::UIElements::FieldMouseDragger_1<T>* UnityEngine::UIElements::FieldMouseDragger_1<T>::New_ctor(::UnityEngine::UIElements::IValueField_1<T>* drivenField) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FieldMouseDragger_1<T>*>(drivenField));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::FieldMouseDragger_1<T>::FieldMouseDragger_1() {}

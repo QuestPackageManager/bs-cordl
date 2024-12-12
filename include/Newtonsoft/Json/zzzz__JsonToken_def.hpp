@@ -12,11 +12,10 @@ struct JsonToken;
 }
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::JsonToken);
-// Type: Newtonsoft.Json::JsonToken
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::Newtonsoft.Json::JsonToken
+// CS Name: Newtonsoft.Json.JsonToken
 struct CORDL_TYPE JsonToken {
 public:
   // Declarations
@@ -61,75 +60,75 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr JsonToken(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Boolean value: static_cast<int32_t>(0xa)
+  /// @brief Field Boolean value: I32(10)
   static ::Newtonsoft::Json::JsonToken const Boolean;
 
-  /// @brief Field Bytes value: static_cast<int32_t>(0x11)
+  /// @brief Field Bytes value: I32(17)
   static ::Newtonsoft::Json::JsonToken const Bytes;
 
-  /// @brief Field Comment value: static_cast<int32_t>(0x5)
+  /// @brief Field Comment value: I32(5)
   static ::Newtonsoft::Json::JsonToken const Comment;
 
-  /// @brief Field Date value: static_cast<int32_t>(0x10)
+  /// @brief Field Date value: I32(16)
   static ::Newtonsoft::Json::JsonToken const Date;
 
-  /// @brief Field EndArray value: static_cast<int32_t>(0xe)
+  /// @brief Field EndArray value: I32(14)
   static ::Newtonsoft::Json::JsonToken const EndArray;
 
-  /// @brief Field EndConstructor value: static_cast<int32_t>(0xf)
+  /// @brief Field EndConstructor value: I32(15)
   static ::Newtonsoft::Json::JsonToken const EndConstructor;
 
-  /// @brief Field EndObject value: static_cast<int32_t>(0xd)
+  /// @brief Field EndObject value: I32(13)
   static ::Newtonsoft::Json::JsonToken const EndObject;
 
-  /// @brief Field Float value: static_cast<int32_t>(0x8)
+  /// @brief Field Float value: I32(8)
   static ::Newtonsoft::Json::JsonToken const Float;
 
-  /// @brief Field Integer value: static_cast<int32_t>(0x7)
+  /// @brief Field Integer value: I32(7)
   static ::Newtonsoft::Json::JsonToken const Integer;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::Newtonsoft::Json::JsonToken const None;
 
-  /// @brief Field Null value: static_cast<int32_t>(0xb)
+  /// @brief Field Null value: I32(11)
   static ::Newtonsoft::Json::JsonToken const Null;
 
-  /// @brief Field PropertyName value: static_cast<int32_t>(0x4)
+  /// @brief Field PropertyName value: I32(4)
   static ::Newtonsoft::Json::JsonToken const PropertyName;
 
-  /// @brief Field Raw value: static_cast<int32_t>(0x6)
+  /// @brief Field Raw value: I32(6)
   static ::Newtonsoft::Json::JsonToken const Raw;
 
-  /// @brief Field StartArray value: static_cast<int32_t>(0x2)
+  /// @brief Field StartArray value: I32(2)
   static ::Newtonsoft::Json::JsonToken const StartArray;
 
-  /// @brief Field StartConstructor value: static_cast<int32_t>(0x3)
+  /// @brief Field StartConstructor value: I32(3)
   static ::Newtonsoft::Json::JsonToken const StartConstructor;
 
-  /// @brief Field StartObject value: static_cast<int32_t>(0x1)
+  /// @brief Field StartObject value: I32(1)
   static ::Newtonsoft::Json::JsonToken const StartObject;
 
-  /// @brief Field String value: static_cast<int32_t>(0x9)
+  /// @brief Field String value: I32(9)
   static ::Newtonsoft::Json::JsonToken const String;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0xc)
+  /// @brief Field Undefined value: I32(12)
   static ::Newtonsoft::Json::JsonToken const Undefined;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10146 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonToken, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::JsonToken, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonToken, 0x4>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonToken, "Newtonsoft.Json", "JsonToken");

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(EditableBeatmapSelectionView)
 namespace GlobalNamespace {
 struct BeatmapKey;
@@ -21,11 +20,10 @@ class EditableBeatmapSelectionView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EditableBeatmapSelectionView);
-// Type: ::EditableBeatmapSelectionView
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 74, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSelectionView
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EditableBeatmapSelectionView*
+// CS Name: EditableBeatmapSelectionView
 class CORDL_TYPE EditableBeatmapSelectionView : public ::GlobalNamespace::BeatmapSelectionView {
 public:
   // Declarations
@@ -54,13 +52,13 @@ public:
 
   static inline ::GlobalNamespace::EditableBeatmapSelectionView* New_ctor();
 
-  /// @brief Method SetBeatmap, addr 0x3aa1858, size 0x64, virtual true, abstract: false, final false
-  inline void SetBeatmap(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+  /// @brief Method SetBeatmap, addr 0x3afecec, size 0x64, virtual true, abstract: false, final false
+  inline void SetBeatmap(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method SetVisibility, addr 0x3aa1824, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x3afecb8, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup, addr 0x3aa184c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3afece0, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool showClearButton);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearButton() const;
@@ -93,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3aa18bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afed50, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clearButton, addr 0x3aa17a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearButton, addr 0x3afec34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_clearButton();
 
-  /// @brief Method get_editButton, addr 0x3aa1798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editButton, addr 0x3afec2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_editButton();
 
-  /// @brief Method get_interactable, addr 0x3aa17a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3afec3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_showClearButton, addr 0x3aa1810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showClearButton, addr 0x3afeca4, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_interactable, addr 0x3aa17b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3afec44, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_showClearButton, addr 0x3aa1818, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_showClearButton, addr 0x3afecac, size 0xc, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
 protected:
@@ -128,6 +126,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditableBeatmapSelectionView(EditableBeatmapSelectionView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4971 };
+
   /// @brief Field _editButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
@@ -143,14 +144,9 @@ public:
   /// @brief Field <showClearButton>k__BackingField, offset: 0x49, size: 0x1, def value: None
   bool ____showClearButton_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4951 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditableBeatmapSelectionView, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____editButton) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____clearButton) == 0x38, "Offset mismatch!");
@@ -160,6 +156,8 @@ static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____leve
 static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____interactable) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____showClearButton_k__BackingField) == 0x49, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditableBeatmapSelectionView, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EditableBeatmapSelectionView);

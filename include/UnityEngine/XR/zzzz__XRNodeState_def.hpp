@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRNodeState)
@@ -29,11 +28,10 @@ struct XRNodeState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::XRNodeState);
-// Type: UnityEngine.XR::XRNodeState
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Quaternion, UnityEngine.Vector3, UnityEngine.XR.AvailableTrackingData, UnityEngine.XR.XRNode
 namespace UnityEngine::XR {
 // Is value type: true
-// CS Name: ::UnityEngine.XR::XRNodeState
+// CS Name: UnityEngine.XR.XRNodeState
 struct CORDL_TYPE XRNodeState {
 public:
   // Declarations
@@ -43,40 +41,40 @@ public:
 
   __declspec(property(put = set_uniqueID)) uint64_t uniqueID;
 
-  /// @brief Method TryGet, addr 0x4a83db8, size 0x70, virtual false, abstract: false, final false
-  inline bool TryGet(::UnityEngine::Quaternion inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ByRef<::UnityEngine::Quaternion> outValue);
+  /// @brief Method TryGet, addr 0x4ae86c8, size 0x70, virtual false, abstract: false, final false
+  inline bool TryGet(::UnityEngine::Quaternion inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::ByRef<::UnityEngine::Quaternion> outValue);
 
-  /// @brief Method TryGet, addr 0x4a83d34, size 0x70, virtual false, abstract: false, final false
-  inline bool TryGet(::UnityEngine::Vector3 inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ByRef<::UnityEngine::Vector3> outValue);
+  /// @brief Method TryGet, addr 0x4ae8644, size 0x70, virtual false, abstract: false, final false
+  inline bool TryGet(::UnityEngine::Vector3 inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::ByRef<::UnityEngine::Vector3> outValue);
 
-  /// @brief Method TryGetAcceleration, addr 0x4a83e50, size 0x14, virtual false, abstract: false, final false
-  inline bool TryGetAcceleration(ByRef<::UnityEngine::Vector3> acceleration);
+  /// @brief Method TryGetAcceleration, addr 0x4ae8760, size 0x14, virtual false, abstract: false, final false
+  inline bool TryGetAcceleration(::ByRef<::UnityEngine::Vector3> acceleration);
 
-  /// @brief Method TryGetAngularAcceleration, addr 0x4a83e64, size 0x14, virtual false, abstract: false, final false
-  inline bool TryGetAngularAcceleration(ByRef<::UnityEngine::Vector3> angularAcceleration);
+  /// @brief Method TryGetAngularAcceleration, addr 0x4ae8774, size 0x14, virtual false, abstract: false, final false
+  inline bool TryGetAngularAcceleration(::ByRef<::UnityEngine::Vector3> angularAcceleration);
 
-  /// @brief Method TryGetAngularVelocity, addr 0x4a83e3c, size 0x14, virtual false, abstract: false, final false
-  inline bool TryGetAngularVelocity(ByRef<::UnityEngine::Vector3> angularVelocity);
+  /// @brief Method TryGetAngularVelocity, addr 0x4ae874c, size 0x14, virtual false, abstract: false, final false
+  inline bool TryGetAngularVelocity(::ByRef<::UnityEngine::Vector3> angularVelocity);
 
-  /// @brief Method TryGetPosition, addr 0x4a83d20, size 0x14, virtual false, abstract: false, final false
-  inline bool TryGetPosition(ByRef<::UnityEngine::Vector3> position);
+  /// @brief Method TryGetPosition, addr 0x4ae8630, size 0x14, virtual false, abstract: false, final false
+  inline bool TryGetPosition(::ByRef<::UnityEngine::Vector3> position);
 
-  /// @brief Method TryGetRotation, addr 0x4a83da4, size 0x14, virtual false, abstract: false, final false
-  inline bool TryGetRotation(ByRef<::UnityEngine::Quaternion> rotation);
+  /// @brief Method TryGetRotation, addr 0x4ae86b4, size 0x14, virtual false, abstract: false, final false
+  inline bool TryGetRotation(::ByRef<::UnityEngine::Quaternion> rotation);
 
-  /// @brief Method TryGetVelocity, addr 0x4a83e28, size 0x14, virtual false, abstract: false, final false
-  inline bool TryGetVelocity(ByRef<::UnityEngine::Vector3> velocity);
+  /// @brief Method TryGetVelocity, addr 0x4ae8738, size 0x14, virtual false, abstract: false, final false
+  inline bool TryGetVelocity(::ByRef<::UnityEngine::Vector3> velocity);
 
-  /// @brief Method get_nodeType, addr 0x4a83d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nodeType, addr 0x4ae8628, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRNode get_nodeType();
 
-  /// @brief Method set_nodeType, addr 0x4a83bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nodeType, addr 0x4ae84e8, size 0x8, virtual false, abstract: false, final false
   inline void set_nodeType(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method set_tracked, addr 0x4a83be0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tracked, addr 0x4ae84f0, size 0xc, virtual false, abstract: false, final false
   inline void set_tracked(bool value);
 
-  /// @brief Method set_uniqueID, addr 0x4a83bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uniqueID, addr 0x4ae84e0, size 0x8, virtual false, abstract: false, final false
   inline void set_uniqueID(uint64_t value);
 
   // Ctor Parameters []
@@ -92,6 +90,12 @@ public:
   constexpr XRNodeState(::UnityEngine::XR::XRNode m_Type, ::UnityEngine::XR::AvailableTrackingData m_AvailableFields, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation,
                         ::UnityEngine::Vector3 m_Velocity, ::UnityEngine::Vector3 m_AngularVelocity, ::UnityEngine::Vector3 m_Acceleration, ::UnityEngine::Vector3 m_AngularAcceleration,
                         int32_t m_Tracked, uint64_t m_UniqueID) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18262 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field m_Type, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::XR::XRNode m_Type;
@@ -123,17 +127,9 @@ public:
   /// @brief Field m_UniqueID, offset: 0x58, size: 0x8, def value: None
   uint64_t m_UniqueID;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18182 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::XRNodeState, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Type) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_AvailableFields) == 0x4, "Offset mismatch!");
@@ -153,6 +149,8 @@ static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_AngularAcceleration) ==
 static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Tracked) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_UniqueID) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::XRNodeState, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");

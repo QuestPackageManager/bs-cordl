@@ -3,16 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EqualityComparer_1)
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System {
 class Object;
 }
@@ -22,18 +17,17 @@ template <typename T> class EqualityComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::EqualityComparer_1);
-// Type: System.Collections.Generic::EqualityComparer`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEqualityComparer`1<T>, System.Collections.IEqualityComparer, System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::EqualityComparer`1<T>*
+// CS Name: System.Collections.Generic.EqualityComparer`1<T>
 class CORDL_TYPE EqualityComparer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field defaultComparer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultComparer, put = setStaticF_defaultComparer)) ::System::Collections::Generic::EqualityComparer_1<T>* defaultComparer;
+  __declspec(property(get = getStaticF_defaultComparer, put = setStaticF_defaultComparer)) ::System::Collections::Generic::EqualityComparer_1<T>* defaultComparer;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept;
@@ -44,10 +38,10 @@ public:
   /// @brief Method CreateComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::EqualityComparer_1<T>* CreateComparer();
 
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(T x, T y);
 
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode(T obj);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false

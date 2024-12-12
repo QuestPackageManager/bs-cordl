@@ -17,13 +17,12 @@ class PlatformInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlatformInstaller);
-// Type: ::PlatformInstaller
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.Installer`3<TParam1, TParam2, TDerived>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlatformInstaller*
+// CS Name: PlatformInstaller
 class CORDL_TYPE PlatformInstaller
-    : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>, ::GlobalNamespace::PlatformInstaller*> {
+    : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*, ::GlobalNamespace::PlatformInstaller*> {
 public:
   // Declarations
   /// @brief Field _isTest, offset 0x18, size 0x1
@@ -34,28 +33,28 @@ public:
                       put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData)) ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>
       _mockPlatformAdditionalContentModelInitialData;
 
-  /// @brief Method BindAchievementsHandler, addr 0x26e584c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BindAchievementsHandler, addr 0x2717e70, size 0x7c, virtual false, abstract: false, final false
   inline void BindAchievementsHandler();
 
-  /// @brief Method BindAdditionalContentModel, addr 0x26e58c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BindAdditionalContentModel, addr 0x2717eec, size 0x74, virtual false, abstract: false, final false
   inline void BindAdditionalContentModel();
 
-  /// @brief Method BindAnalyticsModel, addr 0x26e57b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BindAnalyticsModel, addr 0x2717dd4, size 0x9c, virtual false, abstract: false, final false
   inline void BindAnalyticsModel();
 
-  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x26e593c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x2717f60, size 0x7c, virtual false, abstract: false, final false
   inline void BindBeatmapDataAssetFileModel();
 
-  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x26e59bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x2717fe0, size 0x9c, virtual false, abstract: false, final false
   inline void BindMockPlatformAdditionalContentModel();
 
-  /// @brief Method BindPSPlusHandler, addr 0x26e59b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BindPSPlusHandler, addr 0x2717fdc, size 0x4, virtual false, abstract: false, final false
   inline void BindPSPlusHandler();
 
-  /// @brief Method BindPlatformUserModel, addr 0x26e56d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BindPlatformUserModel, addr 0x2717cf8, size 0xdc, virtual false, abstract: false, final false
   inline void BindPlatformUserModel();
 
-  /// @brief Method InstallBindings, addr 0x26e56a4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2717cc8, size 0x30, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstaller* New_ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData,
@@ -73,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26e562c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2717c50, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
 protected:
@@ -90,23 +89,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformInstaller(PlatformInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17792 };
+
   /// @brief Field _isTest, offset: 0x18, size: 0x1, def value: None
   bool ____isTest;
 
   /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> ____mockPlatformAdditionalContentModelInitialData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17877 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformInstaller, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlatformInstaller, ____isTest) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlatformInstaller, ____mockPlatformAdditionalContentModelInitialData) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformInstaller, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlatformInstaller);

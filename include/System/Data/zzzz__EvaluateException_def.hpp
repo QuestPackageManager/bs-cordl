@@ -18,11 +18,10 @@ class EvaluateException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::EvaluateException);
-// Type: System.Data::EvaluateException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.InvalidExpressionException
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::EvaluateException*
+// CS Name: System.Data.EvaluateException
 class CORDL_TYPE EvaluateException : public ::System::Data::InvalidExpressionException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::Data::EvaluateException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x4119424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x411941c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x411942c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -56,7 +55,7 @@ public:
   EvaluateException(EvaluateException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

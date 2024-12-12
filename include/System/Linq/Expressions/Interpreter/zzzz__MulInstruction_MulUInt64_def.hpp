@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulUInt64;
+namespace GlobalNamespace {
+class MulInstruction_MulUInt64;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt64);
-// Type: ::MulUInt64
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::MulInstruction_MulUInt64);
+// Dependencies System.Linq.Expressions.Interpreter.MulInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MulInstruction::MulUInt64*
-class CORDL_TYPE __MulInstruction__MulUInt64 : public ::System::Linq::Expressions::Interpreter::MulInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.MulInstruction/MulUInt64
+class CORDL_TYPE MulInstruction_MulUInt64 : public ::System::Linq::Expressions::Interpreter::MulInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt64* New_ctor();
+  static inline ::GlobalNamespace::MulInstruction_MulUInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x408a620, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40eb934, size 0x148, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4089fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40eb2c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MulInstruction__MulUInt64();
+  constexpr MulInstruction_MulUInt64();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MulInstruction__MulUInt64", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulUInt64", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MulInstruction__MulUInt64(__MulInstruction__MulUInt64&&) = delete;
+  MulInstruction_MulUInt64(MulInstruction_MulUInt64&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MulInstruction__MulUInt64", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulUInt64", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MulInstruction__MulUInt64(__MulInstruction__MulUInt64 const&) = delete;
+  MulInstruction_MulUInt64(MulInstruction_MulUInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt64, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MulInstruction_MulUInt64, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt64);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt64*, "System.Linq.Expressions.Interpreter", "MulInstruction/MulUInt64");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::MulInstruction_MulUInt64);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MulInstruction_MulUInt64*, "System.Linq.Expressions.Interpreter", "MulInstruction/MulUInt64");

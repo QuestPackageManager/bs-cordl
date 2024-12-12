@@ -18,11 +18,10 @@ class SliderControllerBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderControllerBase);
-// Type: ::SliderControllerBase
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SliderControllerBase*
+// CS Name: SliderControllerBase
 class CORDL_TYPE SliderControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _materialPropertyBlockController;
 
-  /// @brief Method AnimateCutout, addr 0x3a8f364, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x3b745b8, size 0x28, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::SliderControllerBase* New_ctor();
@@ -60,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x3a8f398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b74634, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderControllerBase(SliderControllerBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4163 };
+
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field _dissolving, offset: 0x30, size: 0x1, def value: None
   bool ____dissolving;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4152 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderControllerBase, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____cutoutAnimateEffect) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____dissolving) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderControllerBase, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderControllerBase);

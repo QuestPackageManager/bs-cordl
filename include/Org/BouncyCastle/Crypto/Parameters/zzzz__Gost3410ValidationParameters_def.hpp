@@ -15,11 +15,10 @@ class Gost3410ValidationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::Gost3410ValidationParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::Gost3410ValidationParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters
 class CORDL_TYPE Gost3410ValidationParameters : public ::System::Object {
 public:
   // Declarations
@@ -43,10 +42,10 @@ public:
   /// @brief Field x0L, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_x0L, put = __cordl_internal_set_x0L)) int64_t x0L;
 
-  /// @brief Method Equals, addr 0x2389de8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x23bd0d4, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2389eb0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x23bd19c, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* New_ctor(int32_t x0, int32_t c);
@@ -77,22 +76,22 @@ public:
 
   constexpr void __cordl_internal_set_x0L(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2389d70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bd05c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t x0, int32_t c);
 
-  /// @brief Method .ctor, addr 0x2389d9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bd088, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int64_t x0L, int64_t cL);
 
-  /// @brief Method get_C, addr 0x2389dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_C, addr 0x23bd0b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_C();
 
-  /// @brief Method get_CL, addr 0x2389dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CL, addr 0x23bd0c4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_CL();
 
-  /// @brief Method get_X0, addr 0x2389dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X0, addr 0x23bd0bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_X0();
 
-  /// @brief Method get_X0L, addr 0x2389de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X0L, addr 0x23bd0cc, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_X0L();
 
 protected:
@@ -109,6 +108,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gost3410ValidationParameters(Gost3410ValidationParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1056 };
+
   /// @brief Field x0, offset: 0x10, size: 0x4, def value: None
   int32_t ___x0;
 
@@ -121,14 +123,9 @@ public:
   /// @brief Field cL, offset: 0x20, size: 0x8, def value: None
   int64_t ___cL;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1056 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, ___x0) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, ___c) == 0x14, "Offset mismatch!");
@@ -136,6 +133,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Gost3410Validati
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, ___x0L) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, ___cL) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters);

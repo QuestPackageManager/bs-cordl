@@ -19,11 +19,10 @@ class NoteTrailEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteTrailEffect);
-// Type: ::NoteTrailEffect
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteTrailEffect*
+// CS Name: NoteTrailEffect
 class CORDL_TYPE NoteTrailEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -40,21 +39,21 @@ public:
   /// @brief Field _particlesPerFrame, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__particlesPerFrame, put = __cordl_internal_set__particlesPerFrame)) int32_t _particlesPerFrame;
 
-  /// @brief Method Awake, addr 0x3b31090, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b925c4, size 0xf8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x3b3131c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x3b92850, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HandleNoteMovementDidInit, addr 0x3b31310, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteMovementDidInit, addr 0x3b92844, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteMovementDidInit();
 
   static inline ::GlobalNamespace::NoteTrailEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b31188, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b926bc, size 0x124, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x3b312ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b927e0, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
@@ -81,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__particlesPerFrame(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b31328, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9285c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,6 +97,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteTrailEffect(NoteTrailEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4321 };
+
   /// @brief Field _particlesPerFrame, offset: 0x20, size: 0x4, def value: None
   int32_t ____particlesPerFrame;
 
@@ -110,14 +112,9 @@ public:
   /// @brief Field _noteTrailParticleSystem, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteTrailParticleSystem> ____noteTrailParticleSystem;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4310 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailEffect, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____particlesPerFrame) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____maxSpawnDistance) == 0x24, "Offset mismatch!");
@@ -125,6 +122,8 @@ static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____maxSpawnDistance)
 static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____noteMovement) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____noteTrailParticleSystem) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailEffect, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteTrailEffect);

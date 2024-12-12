@@ -33,58 +33,57 @@ class LocalizationImporter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationImporter);
-// Type: BGLib.Polyglot::LocalizationImporter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
-// CS Name: ::BGLib.Polyglot::LocalizationImporter*
+// CS Name: BGLib.Polyglot.LocalizationImporter
 class CORDL_TYPE LocalizationImporter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EmptyList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList)) ::System::Collections::Generic::List_1<::StringW>* EmptyList;
+  __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList)) ::System::Collections::Generic::List_1<::StringW>* EmptyList;
 
   /// @brief Field InputFiles, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InputFiles, put = setStaticF_InputFiles)) ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* InputFiles;
+  __declspec(property(get = getStaticF_InputFiles, put = setStaticF_InputFiles)) ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* InputFiles;
 
   /// @brief Field languageStrings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_languageStrings,
-                             put = setStaticF_languageStrings)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* languageStrings;
+  __declspec(property(get = getStaticF_languageStrings,
+                      put = setStaticF_languageStrings)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* languageStrings;
 
-  /// @brief Method GetKeys, addr 0x227a050, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetKeys, addr 0x22acd3c, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetKeys();
 
-  /// @brief Method GetLanguages, addr 0x227b188, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetLanguages, addr 0x22ade74, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key);
 
-  /// @brief Method GetLanguages, addr 0x227b248, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method GetLanguages, addr 0x22adf34, size 0x444, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::Language>* supportedLanguages);
 
-  /// @brief Method GetLanguagesContains, addr 0x227b954, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetLanguagesContains, addr 0x22ae640, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesContains(::StringW key);
 
-  /// @brief Method GetLanguagesStartsWith, addr 0x227b68c, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetLanguagesStartsWith, addr 0x22ae378, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesStartsWith(::StringW key);
 
-  /// @brief Method Import, addr 0x227a7f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x22ad4e4, size 0x64, virtual false, abstract: false, final false
   static inline void Import(::StringW text, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method ImportFromFiles, addr 0x227a730, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ImportFromFiles, addr 0x22ad41c, size 0xc8, virtual false, abstract: false, final false
   static inline void ImportFromFiles(::BGLib::Polyglot::LocalizationModel* settings);
 
-  /// @brief Method ImportInputFiles, addr 0x227aee0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ImportInputFiles, addr 0x22adbcc, size 0x218, virtual false, abstract: false, final false
   static inline void ImportInputFiles();
 
-  /// @brief Method ImportTextFile, addr 0x227a85c, size 0x684, virtual false, abstract: false, final false
+  /// @brief Method ImportTextFile, addr 0x22ad548, size 0x684, virtual false, abstract: false, final false
   static inline void ImportTextFile(::StringW text, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method Initialize, addr 0x227a6ac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x22ad398, size 0x84, virtual false, abstract: false, final false
   static inline void Initialize(::BGLib::Polyglot::LocalizationModel* settings);
 
-  /// @brief Method IsLineBreak, addr 0x227b0f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsLineBreak, addr 0x22adde4, size 0x90, virtual false, abstract: false, final false
   static inline bool IsLineBreak(::StringW currentString);
 
-  /// @brief Method NoDomainReloadInit, addr 0x227a5c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x22ad2b4, size 0xe4, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_EmptyList();
@@ -114,7 +113,7 @@ public:
   LocalizationImporter(LocalizationImporter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18049 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

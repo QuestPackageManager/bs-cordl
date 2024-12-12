@@ -6,107 +6,107 @@
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "LiteNetLib/zzzz__ReliableChannel_def.hpp"
-//  Writing Method size for method: ::LiteNetLib::__ReliableChannel__PendingPacket.ToString
+//  Writing Method size for method: ::LiteNetLib::ReliableChannel_PendingPacket.ToString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::__ReliableChannel__PendingPacket::*)()>(
-    &::LiteNetLib::__ReliableChannel__PendingPacket::ToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::ReliableChannel_PendingPacket::*)()>(
+    &::LiteNetLib::ReliableChannel_PendingPacket::ToString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3a649e0;
+  constexpr static std::size_t addrs = 0x3abb650;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), 3));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), 3));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__ReliableChannel__PendingPacket.Init
+//  Writing Method size for method: ::LiteNetLib::ReliableChannel_PendingPacket.Init
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__ReliableChannel__PendingPacket::*)(::LiteNetLib::NetPacket*)>(
-    &::LiteNetLib::__ReliableChannel__PendingPacket::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel_PendingPacket::*)(::LiteNetLib::NetPacket*)>(
+    &::LiteNetLib::ReliableChannel_PendingPacket::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a64480;
+  constexpr static std::size_t addrs = 0x3abb0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__ReliableChannel__PendingPacket.TrySend
+//  Writing Method size for method: ::LiteNetLib::ReliableChannel_PendingPacket.TrySend
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__ReliableChannel__PendingPacket::*)(int64_t, ::LiteNetLib::NetPeer*)>(
-    &::LiteNetLib::__ReliableChannel__PendingPacket::TrySend)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel_PendingPacket::*)(int64_t, ::LiteNetLib::NetPeer*)>(
+    &::LiteNetLib::ReliableChannel_PendingPacket::TrySend)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a6448c;
+  constexpr static std::size_t addrs = 0x3abb0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "TrySend", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), "TrySend", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__ReliableChannel__PendingPacket.Clear
+//  Writing Method size for method: ::LiteNetLib::ReliableChannel_PendingPacket.Clear
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::__ReliableChannel__PendingPacket::*)(::LiteNetLib::NetPeer*)>(
-    &::LiteNetLib::__ReliableChannel__PendingPacket::Clear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::ReliableChannel_PendingPacket::*)(::LiteNetLib::NetPeer*)>(
+    &::LiteNetLib::ReliableChannel_PendingPacket::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a63fd8;
+  constexpr static std::size_t addrs = 0x3abac48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Clear", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), "Clear", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
     return ___internal_method;
   }
 };
-inline ::StringW LiteNetLib::__ReliableChannel__PendingPacket::ToString() {
+inline ::StringW LiteNetLib::ReliableChannel_PendingPacket::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), 3)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void LiteNetLib::__ReliableChannel__PendingPacket::Init(::LiteNetLib::NetPacket* packet) {
+inline void LiteNetLib::ReliableChannel_PendingPacket::Init(::LiteNetLib::NetPacket* packet) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, packet);
 }
-inline void LiteNetLib::__ReliableChannel__PendingPacket::TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer) {
+inline void LiteNetLib::ReliableChannel_PendingPacket::TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "TrySend", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), "TrySend", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentTime, peer);
 }
-inline bool LiteNetLib::__ReliableChannel__PendingPacket::Clear(::LiteNetLib::NetPeer* peer) {
+inline bool LiteNetLib::ReliableChannel_PendingPacket::Clear(::LiteNetLib::NetPeer* peer) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Clear", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel_PendingPacket>::get(), "Clear", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, peer);
 }
-// Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value:
+// Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "_isSent", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::LiteNetLib::__ReliableChannel__PendingPacket::__ReliableChannel__PendingPacket(::LiteNetLib::NetPacket* _packet, int64_t _timeStamp, bool _isSent) noexcept {
+constexpr ::LiteNetLib::ReliableChannel_PendingPacket::ReliableChannel_PendingPacket(::LiteNetLib::NetPacket* _packet, int64_t _timeStamp, bool _isSent) noexcept {
   this->_packet = _packet;
   this->_timeStamp = _timeStamp;
   this->_isSent = _isSent;
 }
 // Ctor Parameters []
-constexpr ::LiteNetLib::__ReliableChannel__PendingPacket::__ReliableChannel__PendingPacket() {}
+constexpr ::LiteNetLib::ReliableChannel_PendingPacket::ReliableChannel_PendingPacket() {}
 //  Writing Method size for method: ::LiteNetLib::ReliableChannel._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(
     &::LiteNetLib::ReliableChannel::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3a605cc;
+  constexpr static std::size_t addrs = 0x3ab723c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessAck)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x3a63c94;
+  constexpr static std::size_t addrs = 0x3aba904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)()>(&::LiteNetLib::ReliableChannel::SendNextPackets)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x3a64018;
+  constexpr static std::size_t addrs = 0x3abac88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessPacket)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x3a64504;
+  constexpr static std::size_t addrs = 0x3abb174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ constexpr ::LiteNetLib::NetPacket*& LiteNetLib::ReliableChannel::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outgoingAcks;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::ReliableChannel::__cordl_internal_get__outgoingAcks() const {
+constexpr ::LiteNetLib::NetPacket* const& LiteNetLib::ReliableChannel::__cordl_internal_get__outgoingAcks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outgoingAcks;
 }
@@ -170,17 +170,16 @@ constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__outgoingAcks(:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____outgoingAcks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*>& LiteNetLib::ReliableChannel::__cordl_internal_get__pendingPackets() {
+constexpr ::ArrayW<::LiteNetLib::ReliableChannel_PendingPacket, ::Array<::LiteNetLib::ReliableChannel_PendingPacket>*>& LiteNetLib::ReliableChannel::__cordl_internal_get__pendingPackets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingPackets;
 }
-constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> const&
+constexpr ::ArrayW<::LiteNetLib::ReliableChannel_PendingPacket, ::Array<::LiteNetLib::ReliableChannel_PendingPacket>*> const&
 LiteNetLib::ReliableChannel::__cordl_internal_get__pendingPackets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingPackets;
 }
-constexpr void
-LiteNetLib::ReliableChannel::__cordl_internal_set__pendingPackets(::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__pendingPackets(::ArrayW<::LiteNetLib::ReliableChannel_PendingPacket, ::Array<::LiteNetLib::ReliableChannel_PendingPacket>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingPackets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -316,9 +315,6 @@ constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__id(uint8_t val
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____id = value;
 }
-inline ::LiteNetLib::ReliableChannel* LiteNetLib::ReliableChannel::New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::ReliableChannel*>(peer, ordered, id));
-}
 inline void LiteNetLib::ReliableChannel::_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -341,6 +337,9 @@ inline bool LiteNetLib::ReliableChannel::ProcessPacket(::LiteNetLib::NetPacket* 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, packet);
+}
+inline ::LiteNetLib::ReliableChannel* LiteNetLib::ReliableChannel::New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::ReliableChannel*>(peer, ordered, id));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::ReliableChannel::ReliableChannel() {}

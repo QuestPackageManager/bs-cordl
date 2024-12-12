@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/XR/zzzz__InputTrackingState_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
@@ -10,9 +11,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoseState)
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -31,11 +29,10 @@ struct PoseState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::PoseState);
-// Type: UnityEngine.InputSystem.XR::PoseState
-// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
+// Dependencies UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo, UnityEngine.InputSystem.Utilities.FourCC, UnityEngine.Quaternion, UnityEngine.Vector3, UnityEngine.XR.InputTrackingState
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.XR::PoseState
+// CS Name: UnityEngine.InputSystem.XR.PoseState
 #pragma pack(push, 0)
 struct CORDL_TYPE PoseState {
 public:
@@ -55,7 +52,7 @@ public:
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) ::UnityEngine::Quaternion rotation;
 
   /// @brief Field s_Format, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_Format, put = setStaticF_s_Format)) ::UnityEngine::InputSystem::Utilities::FourCC s_Format;
+  __declspec(property(get = getStaticF_s_Format, put = setStaticF_s_Format)) ::UnityEngine::InputSystem::Utilities::FourCC s_Format;
 
   /// @brief Field trackingState, offset 0x4, size 0x4
   __declspec(property(get = __cordl_internal_get_trackingState, put = __cordl_internal_set_trackingState)) ::UnityEngine::XR::InputTrackingState trackingState;
@@ -102,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x45811ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e24c0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity,
                     ::UnityEngine::Vector3 angularVelocity);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_s_Format();
 
-  /// @brief Method get_format, addr 0x4581154, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x45e2468, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -218,7 +215,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6725 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

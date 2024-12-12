@@ -20,11 +20,10 @@ class HEU_HoudiniAssetRoot;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAssetRoot);
-// Type: HoudiniEngineUnity::HEU_HoudiniAssetRoot
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_HoudiniAssetRoot*
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAssetRoot
 class CORDL_TYPE HEU_HoudiniAssetRoot : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,26 +33,26 @@ public:
   /// @brief Field _houdiniAsset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__houdiniAsset, put = __cordl_internal_set__houdiniAsset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _houdiniAsset;
 
-  /// @brief Method ClearHoudiniEngineReferences, addr 0x39cdda4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ClearHoudiniEngineReferences, addr 0x3a24a14, size 0x74, virtual false, abstract: false, final false
   inline void ClearHoudiniEngineReferences();
 
-  /// @brief Method DestroyRootComponent, addr 0x39cde18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DestroyRootComponent, addr 0x3a24a88, size 0x10, virtual false, abstract: false, final false
   static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39cdaf8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a24768, size 0x1d0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x39cdcc8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x3a24938, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveHoudiniEngineAssetData();
 
-  /// @brief Method Reset, addr 0x39cde28, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3a24a98, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__bakeTargets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get__bakeTargets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__bakeTargets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__bakeTargets();
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__houdiniAsset() const;
 
@@ -63,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__houdiniAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  /// @brief Method .ctor, addr 0x39cdf10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a24b80, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_HoudiniAssetRoot(HEU_HoudiniAssetRoot const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11622 };
+
   /// @brief Field _houdiniAsset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____houdiniAsset;
 
   /// @brief Field _bakeTargets, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ____bakeTargets;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11589 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAssetRoot, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAssetRoot, ____houdiniAsset) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAssetRoot, ____bakeTargets) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAssetRoot, 0x30>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAssetRoot);

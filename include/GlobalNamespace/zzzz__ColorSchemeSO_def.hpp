@@ -15,11 +15,10 @@ class ColorSchemeSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeSO);
-// Type: ::ColorSchemeSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorSchemeSO*
+// CS Name: ColorSchemeSO
 class CORDL_TYPE ColorSchemeSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -33,14 +32,14 @@ public:
 
   __declspec(property(get = get_order)) int32_t order;
 
-  /// @brief Method LogColorScheme, addr 0x266bda0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method LogColorScheme, addr 0x269fc48, size 0x2a4, virtual false, abstract: false, final false
   inline void LogColorScheme();
 
   static inline ::GlobalNamespace::ColorSchemeSO* New_ctor();
 
-  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
+  constexpr ::GlobalNamespace::ColorScheme* const& __cordl_internal_get__colorScheme() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme() const;
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
 
   constexpr int32_t const& __cordl_internal_get__order() const;
 
@@ -50,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x266c044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269feec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x266bd90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x269fc38, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method get_order, addr 0x266bd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x269fc40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeSO(ColorSchemeSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18828 };
+
   /// @brief Field _colorScheme, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ____colorScheme;
 
   /// @brief Field _order, offset: 0x20, size: 0x4, def value: None
   int32_t ____order;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18898 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ColorSchemeSO, ____colorScheme) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeSO, ____order) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeSO);

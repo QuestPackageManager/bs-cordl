@@ -21,20 +21,19 @@ class Datatype_floatXdr;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_floatXdr);
-// Type: System.Xml.Schema::Datatype_floatXdr
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_float
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_floatXdr*
+// CS Name: System.Xml.Schema.Datatype_floatXdr
 class CORDL_TYPE Datatype_floatXdr : public ::System::Xml::Schema::Datatype_float {
 public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_floatXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x434ddb8, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x43af0cc, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x4342c70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3f84, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +51,7 @@ public:
   Datatype_floatXdr(Datatype_floatXdr const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

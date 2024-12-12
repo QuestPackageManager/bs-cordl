@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::Start)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x223b250;
+  constexpr static std::size_t addrs = 0x226650c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), "Start",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x223b468;
+  constexpr static std::size_t addrs = 0x2266724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::HandleContractBeatmapEvent)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x223b4a8;
+  constexpr static std::size_t addrs = 0x2266764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::HandleExpandBeatmapEvent)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x223b54c;
+  constexpr static std::size_t addrs = 0x2266808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x223b5f0;
+  constexpr static std::size_t addrs = 0x22668ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), ".ctor",
@@ -181,8 +181,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Hydra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
-GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -194,8 +193,7 @@ constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& GlobalNamespace::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contractEventValuesHashSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const&
-GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__contractEventValuesHashSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__contractEventValuesHashSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contractEventValuesHashSet;
 }
@@ -207,8 +205,7 @@ constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& GlobalNamespace::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expandEventValuesHashSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const&
-GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__expandEventValuesHashSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__expandEventValuesHashSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expandEventValuesHashSet;
 }
@@ -220,8 +217,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Hydra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contractBeatmapDataCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__contractBeatmapDataCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__contractBeatmapDataCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contractBeatmapDataCallbackWrapper;
 }
@@ -233,8 +229,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Hydra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expandBeatmapDataCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__expandBeatmapDataCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_get__expandBeatmapDataCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expandBeatmapDataCallbackWrapper;
 }
@@ -264,13 +259,13 @@ inline void GlobalNamespace::HydraulicCarSuspensionEffect::HandleExpandBeatmapEv
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
 }
-inline ::GlobalNamespace::HydraulicCarSuspensionEffect* GlobalNamespace::HydraulicCarSuspensionEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HydraulicCarSuspensionEffect*>());
-}
 inline void GlobalNamespace::HydraulicCarSuspensionEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::HydraulicCarSuspensionEffect* GlobalNamespace::HydraulicCarSuspensionEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HydraulicCarSuspensionEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HydraulicCarSuspensionEffect::HydraulicCarSuspensionEffect() {}

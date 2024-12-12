@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(
     &::Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4af0108;
+  constexpr static std::size_t addrs = 0x4b54a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(
     &::Zenject::Internal::SingletonMarkRegistry::MarkSingleton)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4af01b4;
+  constexpr static std::size_t addrs = 0x4b54ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(
     &::Zenject::Internal::SingletonMarkRegistry::Unmark)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4af0288;
+  constexpr static std::size_t addrs = 0x4b54b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)()>(&::Zenject::Internal::SingletonMarkRegistry::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4af02f4;
+  constexpr static std::size_t addrs = 0x4b54c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::SingletonMarkRegistry*>::get(), ".ctor",
@@ -66,8 +66,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& Zenject::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundSingletons;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const&
-Zenject::Internal::SingletonMarkRegistry::__cordl_internal_get__boundSingletons() const {
+constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>* const& Zenject::Internal::SingletonMarkRegistry::__cordl_internal_get__boundSingletons() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundSingletons;
 }
@@ -79,8 +78,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& Zenject::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundNonSingletons;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const&
-Zenject::Internal::SingletonMarkRegistry::__cordl_internal_get__boundNonSingletons() const {
+constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>* const& Zenject::Internal::SingletonMarkRegistry::__cordl_internal_get__boundNonSingletons() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundNonSingletons;
 }
@@ -106,13 +104,13 @@ inline void Zenject::Internal::SingletonMarkRegistry::Unmark(::System::Type* typ
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
 }
-inline ::Zenject::Internal::SingletonMarkRegistry* Zenject::Internal::SingletonMarkRegistry::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::SingletonMarkRegistry*>());
-}
 inline void Zenject::Internal::SingletonMarkRegistry::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::SingletonMarkRegistry*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Zenject::Internal::SingletonMarkRegistry* Zenject::Internal::SingletonMarkRegistry::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::SingletonMarkRegistry*>());
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::SingletonMarkRegistry::SingletonMarkRegistry() {}

@@ -15,20 +15,19 @@ class JsonSchemaNodeCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection);
-// Type: Newtonsoft.Json.Schema::JsonSchemaNodeCollection
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ObjectModel.KeyedCollection`2<TKey, TItem>
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Schema::JsonSchemaNodeCollection*
+// CS Name: Newtonsoft.Json.Schema.JsonSchemaNodeCollection
 class CORDL_TYPE JsonSchemaNodeCollection : public ::System::Collections::ObjectModel::KeyedCollection_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*> {
 public:
   // Declarations
-  /// @brief Method GetKeyForItem, addr 0x3eaa1f0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetKeyForItem, addr 0x3f0a29c, size 0x18, virtual true, abstract: false, final false
   inline ::StringW GetKeyForItem(::Newtonsoft::Json::Schema::JsonSchemaNode* item);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ea8704, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f087b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +45,7 @@ public:
   JsonSchemaNodeCollection(JsonSchemaNodeCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

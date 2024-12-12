@@ -27,24 +27,23 @@ class ColorConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::JsonExtension::ColorConverter);
-// Type: BGLib.JsonExtension::ColorConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonConverter`1<T>, UnityEngine.Color
 namespace BGLib::JsonExtension {
 // Is value type: false
-// CS Name: ::BGLib.JsonExtension::ColorConverter*
+// CS Name: BGLib.JsonExtension.ColorConverter
 class CORDL_TYPE ColorConverter : public ::Newtonsoft::Json::JsonConverter_1<::UnityEngine::Color> {
 public:
   // Declarations
   static inline ::BGLib::JsonExtension::ColorConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x2271794, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x22a40b4, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::Color ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Color existingValue, bool hasExistingValue,
                                        ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x2271834, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x22a4154, size 0x190, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Color value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x22719c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a42e4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +61,7 @@ public:
   ColorConverter(ColorConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19025 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

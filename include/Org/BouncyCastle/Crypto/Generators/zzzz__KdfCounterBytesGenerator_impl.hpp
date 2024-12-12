@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/KdfCounterBytesGenerator.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_impl.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMacDerivationFunction_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__KdfCounterBytesGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMacDerivationFunction_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator._ctor
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)(::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x23523e8;
+  constexpr static std::size_t addrs = 0x23856d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)(
     ::Org::BouncyCastle::Crypto::IDerivationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::Init)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x23524c8;
+  constexpr static std::size_t addrs = 0x23857b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMac* (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::GetMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2352764;
+  constexpr static std::size_t addrs = 0x2385a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::get_Digest)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x235276c;
+  constexpr static std::size_t addrs = 0x2385a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::GenerateBytes)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x23527f4;
+  constexpr static std::size_t addrs = 0x2385ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::generateNext)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x23529f4;
+  constexpr static std::size_t addrs = 0x2385ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,27 +99,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
-constexpr Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::operator ::Org::BouncyCastle::Crypto::IMacDerivationFunction*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IMacDerivationFunction*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
-constexpr ::Org::BouncyCastle::Crypto::IMacDerivationFunction* Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::i___Org__BouncyCastle__Crypto__IMacDerivationFunction() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IMacDerivationFunction*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
-constexpr Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IDerivationFunction*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
-constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IDerivationFunction*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::IMac*& Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::__cordl_internal_get_prf() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prf;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::__cordl_internal_get_prf() const {
+constexpr ::Org::BouncyCastle::Crypto::IMac* const& Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::__cordl_internal_get_prf() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prf;
 }
@@ -229,9 +213,6 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Generat
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Math::BigInteger*, "Two",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator*>::get>();
 }
-inline ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator* Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::New_ctor(::Org::BouncyCastle::Crypto::IMac* prf) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator*>(prf));
-}
 inline void Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::_ctor(::Org::BouncyCastle::Crypto::IMac* prf) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -268,6 +249,25 @@ inline void Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::gen
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator*>::get(), "generateNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator* Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::New_ctor(::Org::BouncyCastle::Crypto::IMac* prf) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator*>(prf));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
+constexpr Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::operator ::Org::BouncyCastle::Crypto::IMacDerivationFunction*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IMacDerivationFunction*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
+constexpr ::Org::BouncyCastle::Crypto::IMacDerivationFunction* Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::i___Org__BouncyCastle__Crypto__IMacDerivationFunction() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IMacDerivationFunction*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+constexpr Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IDerivationFunction*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IDerivationFunction*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::KdfCounterBytesGenerator() {}

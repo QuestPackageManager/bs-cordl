@@ -3,15 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDocumentTypeWrapper)
-namespace Newtonsoft::Json::Converters {
-class IXmlDocumentType;
-}
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Xml {
 class XmlDocumentType;
 }
@@ -21,11 +17,10 @@ class XmlDocumentTypeWrapper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);
-// Type: Newtonsoft.Json.Converters::XmlDocumentTypeWrapper
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Converters.IXmlDocumentType, Newtonsoft.Json.Converters.IXmlNode, Newtonsoft.Json.Converters.XmlNodeWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Converters::XmlDocumentTypeWrapper*
+// CS Name: Newtonsoft.Json.Converters.XmlDocumentTypeWrapper
 class CORDL_TYPE XmlDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
   // Declarations
@@ -50,28 +45,28 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper* New_ctor(::System::Xml::XmlDocumentType* documentType);
 
-  constexpr ::System::Xml::XmlDocumentType*& __cordl_internal_get__documentType();
+  constexpr ::System::Xml::XmlDocumentType* const& __cordl_internal_get__documentType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocumentType*> const& __cordl_internal_get__documentType() const;
+  constexpr ::System::Xml::XmlDocumentType*& __cordl_internal_get__documentType();
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::XmlDocumentType* value);
 
-  /// @brief Method .ctor, addr 0x3ee1ea4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f41f50, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x3ee24c0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x3f4256c, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x3ee24dc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x3f42588, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x3ee2468, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x3f42514, size 0x20, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x3ee24a4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x3f42550, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x3ee2488, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x3f42534, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
@@ -94,18 +89,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlDocumentTypeWrapper(XmlDocumentTypeWrapper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10482 };
+
   /// @brief Field _documentType, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDocumentType* ____documentType;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper, ____documentType) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper, 0x30>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);

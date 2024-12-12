@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CollectionExtensions)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -21,11 +20,10 @@ class CollectionExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::Utils::CollectionExtensions);
-// Type: System.Dynamic.Utils::CollectionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Dynamic::Utils {
 // Is value type: false
-// CS Name: ::System.Dynamic.Utils::CollectionExtensions*
+// CS Name: System.Dynamic.Utils.CollectionExtensions
 class CORDL_TYPE CollectionExtensions : public ::System::Object {
 public:
   // Declarations
@@ -59,7 +57,7 @@ public:
   CollectionExtensions(CollectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

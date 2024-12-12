@@ -12,11 +12,10 @@ struct EVRComponentProperty;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRComponentProperty);
-// Type: OVR.OpenVR::EVRComponentProperty
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRComponentProperty
+// CS Name: OVR.OpenVR.EVRComponentProperty
 struct CORDL_TYPE EVRComponentProperty {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRComponentProperty(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field IsPressed value: static_cast<int32_t>(0x8)
+  /// @brief Field IsPressed value: I32(8)
   static ::OVR::OpenVR::EVRComponentProperty const IsPressed;
 
-  /// @brief Field IsScrolled value: static_cast<int32_t>(0x10)
+  /// @brief Field IsScrolled value: I32(16)
   static ::OVR::OpenVR::EVRComponentProperty const IsScrolled;
 
-  /// @brief Field IsStatic value: static_cast<int32_t>(0x1)
+  /// @brief Field IsStatic value: I32(1)
   static ::OVR::OpenVR::EVRComponentProperty const IsStatic;
 
-  /// @brief Field IsTouched value: static_cast<int32_t>(0x4)
+  /// @brief Field IsTouched value: I32(4)
   static ::OVR::OpenVR::EVRComponentProperty const IsTouched;
 
-  /// @brief Field IsVisible value: static_cast<int32_t>(0x2)
+  /// @brief Field IsVisible value: I32(2)
   static ::OVR::OpenVR::EVRComponentProperty const IsVisible;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRComponentProperty, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRComponentProperty, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRComponentProperty, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRComponentProperty, "OVR.OpenVR", "EVRComponentProperty");

@@ -12,11 +12,10 @@ struct HmdVector3_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::HmdVector3_t);
-// Type: OVR.OpenVR::HmdVector3_t
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::HmdVector3_t
+// CS Name: OVR.OpenVR.HmdVector3_t
 struct CORDL_TYPE HmdVector3_t {
 public:
   // Declarations
@@ -28,6 +27,12 @@ public:
   // "float_t", modifiers: "", def_value: None }]
   constexpr HmdVector3_t(float_t v0, float_t v1, float_t v2) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8960 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field v0, offset: 0x0, size: 0x4, def value: None
   float_t v0;
 
@@ -37,22 +42,16 @@ public:
   /// @brief Field v2, offset: 0x8, size: 0x4, def value: None
   float_t v2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8935 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdVector3_t, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::HmdVector3_t, v0) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::HmdVector3_t, v1) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::HmdVector3_t, v2) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdVector3_t, 0xc>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdVector3_t, "OVR.OpenVR", "HmdVector3_t");

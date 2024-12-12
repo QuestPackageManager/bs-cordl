@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(InvokableCall_1)
 namespace System::Reflection {
 class MethodInfo;
@@ -21,13 +20,12 @@ template <typename T1> class InvokableCall_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Events::InvokableCall_1);
-// Type: UnityEngine.Events::InvokableCall`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Events.BaseInvokableCall
 namespace UnityEngine::Events {
 // cpp template
 template <typename T1>
 // Is value type: false
-// CS Name: ::UnityEngine.Events::InvokableCall`1<T1>*
+// CS Name: UnityEngine.Events.InvokableCall`1<T1>
 class CORDL_TYPE InvokableCall_1 : public ::UnityEngine::Events::BaseInvokableCall {
 public:
   // Declarations
@@ -47,9 +45,9 @@ public:
 
   static inline ::UnityEngine::Events::InvokableCall_1<T1>* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  constexpr ::UnityEngine::Events::UnityAction_1<T1>*& __cordl_internal_get_Delegate();
+  constexpr ::UnityEngine::Events::UnityAction_1<T1>* const& __cordl_internal_get_Delegate() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T1>*> const& __cordl_internal_get_Delegate() const;
+  constexpr ::UnityEngine::Events::UnityAction_1<T1>*& __cordl_internal_get_Delegate();
 
   constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction_1<T1>* value);
 
@@ -79,11 +77,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvokableCall_1(InvokableCall_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10975 };
+
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_1<T1>* ___Delegate;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChallengeEntry)
@@ -21,11 +20,10 @@ class ChallengeEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeEntry);
-// Type: Oculus.Platform.Models::ChallengeEntry
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::ChallengeEntry*
+// CS Name: Oculus.Platform.Models.ChallengeEntry
 class CORDL_TYPE ChallengeEntry : public ::System::Object {
 public:
   // Declarations
@@ -72,9 +70,9 @@ public:
 
   constexpr ::System::DateTime& __cordl_internal_get_Timestamp();
 
-  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_User();
+  constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_User() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_User() const;
+  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_User();
 
   constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
@@ -94,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f2f2cc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8f378, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -110,6 +108,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeEntry", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ChallengeEntry(ChallengeEntry const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };
 
   /// @brief Field DisplayScore, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DisplayScore;
@@ -132,14 +133,9 @@ public:
   /// @brief Field User, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___User;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15475 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ChallengeEntry, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::ChallengeEntry, ___DisplayScore) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::ChallengeEntry, ___ExtraData) == 0x18, "Offset mismatch!");
@@ -153,6 +149,8 @@ static_assert(offsetof(::Oculus::Platform::Models::ChallengeEntry, ___Score) == 
 static_assert(offsetof(::Oculus::Platform::Models::ChallengeEntry, ___Timestamp) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::ChallengeEntry, ___User) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ChallengeEntry, 0x48>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ChallengeEntry);

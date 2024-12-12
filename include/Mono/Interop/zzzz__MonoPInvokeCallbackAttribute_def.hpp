@@ -14,17 +14,16 @@ class MonoPInvokeCallbackAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Interop::MonoPInvokeCallbackAttribute);
-// Type: Mono.Interop::MonoPInvokeCallbackAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace Mono::Interop {
 // Is value type: false
-// CS Name: ::Mono.Interop::MonoPInvokeCallbackAttribute*
+// CS Name: Mono.Interop.MonoPInvokeCallbackAttribute
 class CORDL_TYPE MonoPInvokeCallbackAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Mono::Interop::MonoPInvokeCallbackAttribute* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x3bf6b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c56c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:

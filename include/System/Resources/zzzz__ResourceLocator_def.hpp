@@ -18,11 +18,10 @@ struct ResourceLocator;
 }
 // Write type traits
 MARK_VAL_T(::System::Resources::ResourceLocator);
-// Type: System.Resources::ResourceLocator
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Resources {
 // Is value type: true
-// CS Name: ::System.Resources::ResourceLocator
+// CS Name: System.Resources.ResourceLocator
 struct CORDL_TYPE ResourceLocator {
 public:
   // Declarations
@@ -30,19 +29,19 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value)) ::System::Object* Value;
 
-  /// @brief Method CanCache, addr 0x3cbb138, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanCache, addr 0x3d1b2ac, size 0xc, virtual false, abstract: false, final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
-  /// @brief Method .ctor, addr 0x3cbb144, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1b2b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataPos, ::System::Object* value);
 
-  /// @brief Method get_DataPosition, addr 0x3cbc98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x3d1cb00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Value, addr 0x3cbc994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3d1cb08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x3cbc99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3d1cb10, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
   // Ctor Parameters []
@@ -52,26 +51,26 @@ public:
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ResourceLocator(::System::Object* _value, int32_t _dataPos) noexcept;
 
-  /// @brief Field _value, offset: 0x0, size: 0x8, def value: None
-  ::System::Object* _value;
-
-  /// @brief Field _dataPos, offset: 0x8, size: 0x4, def value: None
-  int32_t _dataPos;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3438 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// @brief Field _value, offset: 0x0, size: 0x8, def value: None
+  ::System::Object* _value;
+
+  /// @brief Field _dataPos, offset: 0x8, size: 0x4, def value: None
+  int32_t _dataPos;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceLocator, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::System::Resources::ResourceLocator, _value) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Resources::ResourceLocator, _dataPos) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceLocator, 0x10>, "Size mismatch!");
 
 } // namespace System::Resources
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");

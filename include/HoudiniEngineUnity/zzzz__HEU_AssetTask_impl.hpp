@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetTask.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AssetTask_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Task_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetTask_def.hpp"
@@ -13,22 +12,22 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType::__HEU_AssetTask__BuildType(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType::HEU_AssetTask_BuildType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType::__HEU_AssetTask__BuildType() {}
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType HoudiniEngineUnity::__HEU_AssetTask__BuildType::NONE{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType HoudiniEngineUnity::__HEU_AssetTask__BuildType::LOAD{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType HoudiniEngineUnity::__HEU_AssetTask__BuildType::COOK{ static_cast<int32_t>(0x2) };
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType HoudiniEngineUnity::__HEU_AssetTask__BuildType::RELOAD{ static_cast<int32_t>(0x3) };
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType::HEU_AssetTask_BuildType() {}
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType HoudiniEngineUnity::HEU_AssetTask_BuildType::NONE{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType HoudiniEngineUnity::HEU_AssetTask_BuildType::LOAD{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType HoudiniEngineUnity::HEU_AssetTask_BuildType::COOK{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType HoudiniEngineUnity::HEU_AssetTask_BuildType::RELOAD{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetTask.GetTaskSession
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (::HoudiniEngineUnity::HEU_AssetTask::*)()>(
     &::HoudiniEngineUnity::HEU_AssetTask::GetTaskSession)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3a0aa54;
+  constexpr static std::size_t addrs = 0x3a616c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), "GetTaskSession",
@@ -41,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)()>(&::HoudiniEngineUnity::HEU_AssetTask::DoTask)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x3a0ab08;
+  constexpr static std::size_t addrs = 0x3a61778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)()>(&::HoudiniEngineUnity::HEU_AssetTask::KillTask)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3a0b0cc;
+  constexpr static std::size_t addrs = 0x3a61d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,10 +66,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetTask.CompleteTask
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(::HoudiniEngineUnity::__HEU_Task__TaskResult)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(::HoudiniEngineUnity::HEU_Task_TaskResult)>(
     &::HoudiniEngineUnity::HEU_AssetTask::CompleteTask)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3a0b2fc;
+  constexpr static std::size_t addrs = 0x3a61f6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,16 +82,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(
-    ::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*)>(&::HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback)> {
+    ::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)>(&::HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a0b52c;
+  constexpr static std::size_t addrs = 0x3a6219c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), "CookCompletedCallback", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -102,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(::HoudiniEngineUnity::HEU_CookedEventData*)>(
     &::HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a0b5ac;
+  constexpr static std::size_t addrs = 0x3a6221c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(::HoudiniEngineUnity::HEU_ReloadEventData*)>(
     &::HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a0b5bc;
+  constexpr static std::size_t addrs = 0x3a6222c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)()>(&::HoudiniEngineUnity::HEU_AssetTask::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3a0b5cc;
+  constexpr static std::size_t addrs = 0x3a6223c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), ".ctor",
@@ -139,15 +138,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType& HoudiniEngineUnity::HEU_AssetTask::__cordl_internal_get__buildType() {
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType& HoudiniEngineUnity::HEU_AssetTask::__cordl_internal_get__buildType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildType;
 }
-constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType const& HoudiniEngineUnity::HEU_AssetTask::__cordl_internal_get__buildType() const {
+constexpr ::HoudiniEngineUnity::HEU_AssetTask_BuildType const& HoudiniEngineUnity::HEU_AssetTask::__cordl_internal_get__buildType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildType;
 }
-constexpr void HoudiniEngineUnity::HEU_AssetTask::__cordl_internal_set__buildType(::HoudiniEngineUnity::__HEU_AssetTask__BuildType value) {
+constexpr void HoudiniEngineUnity::HEU_AssetTask::__cordl_internal_set__buildType(::HoudiniEngineUnity::HEU_AssetTask_BuildType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____buildType = value;
 }
@@ -226,18 +225,18 @@ inline void HoudiniEngineUnity::HEU_AssetTask::KillTask() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::HEU_AssetTask::CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result) {
+inline void HoudiniEngineUnity::HEU_AssetTask::CompleteTask(::HoudiniEngineUnity::HEU_Task_TaskResult result) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
 inline void HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess,
-                                                                     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs) {
+                                                                     ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), "CookCompletedCallback", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asset, bSuccess, outputs);
 }
 inline void HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData) {
@@ -252,13 +251,13 @@ inline void HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback(::HoudiniEn
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_ReloadEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reloadEventData);
 }
-inline ::HoudiniEngineUnity::HEU_AssetTask* HoudiniEngineUnity::HEU_AssetTask::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetTask*>());
-}
 inline void HoudiniEngineUnity::HEU_AssetTask::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_AssetTask* HoudiniEngineUnity::HEU_AssetTask::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetTask*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetTask::HEU_AssetTask() {}

@@ -3,26 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_DetailPrototype)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_DetailPrototype);
-// Type: HoudiniEngineUnity::HEU_DetailPrototype
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.IEquivable`1<T>, System.Object, UnityEngine.Color
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_DetailPrototype*
+// CS Name: HoudiniEngineUnity.HEU_DetailPrototype
 class CORDL_TYPE HEU_DetailPrototype : public ::System::Object {
 public:
   // Declarations
@@ -62,7 +59,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a47ebc, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9eb2c, size 0xec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
 
   static inline ::HoudiniEngineUnity::HEU_DetailPrototype* New_ctor();
@@ -133,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__renderMode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a47dc0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9ea30, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
@@ -152,6 +149,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_DetailPrototype", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_DetailPrototype(HEU_DetailPrototype const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11938 };
 
   /// @brief Field _prototypePrefab, offset: 0x10, size: 0x8, def value: None
   ::StringW ____prototypePrefab;
@@ -186,14 +186,9 @@ public:
   /// @brief Field _renderMode, offset: 0x58, size: 0x4, def value: None
   int32_t ____renderMode;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11905 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_DetailPrototype, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_DetailPrototype, ____prototypePrefab) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_DetailPrototype, ____prototypeTexture) == 0x18, "Offset mismatch!");
@@ -215,6 +210,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_DetailPrototype, ____minWidth) 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_DetailPrototype, ____noiseSpread) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_DetailPrototype, ____renderMode) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_DetailPrototype, 0x60>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_DetailPrototype);

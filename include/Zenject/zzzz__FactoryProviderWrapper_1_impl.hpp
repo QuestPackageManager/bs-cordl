@@ -1,34 +1,18 @@
 #pragma once
 // IWYU pragma private; include "Zenject/FactoryProviderWrapper_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IFactory_1_impl.hpp"
+#include "Zenject/zzzz__IFactory_impl.hpp"
 #include "Zenject/zzzz__FactoryProviderWrapper_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_1_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-/// @brief Convert operator to "::Zenject::IFactory_1<TContract>"
-template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContract>::operator ::Zenject::IFactory_1<TContract>*() noexcept {
-  return static_cast<::Zenject::IFactory_1<TContract>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IFactory_1<TContract>"
-template <typename TContract> constexpr ::Zenject::IFactory_1<TContract>* Zenject::FactoryProviderWrapper_1<TContract>::i___Zenject__IFactory_1_TContract_() noexcept {
-  return static_cast<::Zenject::IFactory_1<TContract>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Zenject::IFactory"
-template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContract>::operator ::Zenject::IFactory*() noexcept {
-  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IFactory"
-template <typename TContract> constexpr ::Zenject::IFactory* Zenject::FactoryProviderWrapper_1<TContract>::i___Zenject__IFactory() noexcept {
-  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
-}
 template <typename TContract> constexpr ::Zenject::IProvider*& Zenject::FactoryProviderWrapper_1<TContract>::__cordl_internal_get__provider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
-template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::FactoryProviderWrapper_1<TContract>::__cordl_internal_get__provider() const {
+template <typename TContract> constexpr ::Zenject::IProvider* const& Zenject::FactoryProviderWrapper_1<TContract>::__cordl_internal_get__provider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
@@ -40,18 +24,13 @@ template <typename TContract> constexpr ::Zenject::InjectContext*& Zenject::Fact
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectContext;
 }
-template <typename TContract>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& Zenject::FactoryProviderWrapper_1<TContract>::__cordl_internal_get__injectContext() const {
+template <typename TContract> constexpr ::Zenject::InjectContext* const& Zenject::FactoryProviderWrapper_1<TContract>::__cordl_internal_get__injectContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectContext;
 }
 template <typename TContract> constexpr void Zenject::FactoryProviderWrapper_1<TContract>::__cordl_internal_set__injectContext(::Zenject::InjectContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____injectContext, value);
-}
-template <typename TContract>
-inline ::Zenject::FactoryProviderWrapper_1<TContract>* Zenject::FactoryProviderWrapper_1<TContract>::New_ctor(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::FactoryProviderWrapper_1<TContract>*>(provider, injectContext));
 }
 template <typename TContract> inline void Zenject::FactoryProviderWrapper_1<TContract>::_ctor(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -75,6 +54,26 @@ template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::Factory
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryProviderWrapper_1<TContract>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TContract>
+inline ::Zenject::FactoryProviderWrapper_1<TContract>* Zenject::FactoryProviderWrapper_1<TContract>::New_ctor(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::FactoryProviderWrapper_1<TContract>*>(provider, injectContext));
+}
+/// @brief Convert operator to "::Zenject::IFactory_1<TContract>"
+template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContract>::operator ::Zenject::IFactory_1<TContract>*() noexcept {
+  return static_cast<::Zenject::IFactory_1<TContract>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory_1<TContract>"
+template <typename TContract> constexpr ::Zenject::IFactory_1<TContract>* Zenject::FactoryProviderWrapper_1<TContract>::i___Zenject__IFactory_1_TContract_() noexcept {
+  return static_cast<::Zenject::IFactory_1<TContract>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Zenject::IFactory"
+template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContract>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename TContract> constexpr ::Zenject::IFactory* Zenject::FactoryProviderWrapper_1<TContract>::i___Zenject__IFactory() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::FactoryProviderWrapper_1<TContract>::FactoryProviderWrapper_1() {}

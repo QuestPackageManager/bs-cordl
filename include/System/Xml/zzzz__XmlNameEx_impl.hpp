@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNameEx::*)(
     ::StringW, ::StringW, ::StringW, int32_t, ::System::Xml::XmlDocument*, ::System::Xml::XmlName*, ::System::Xml::Schema::IXmlSchemaInfo*)>(&::System::Xml::XmlNameEx::_ctor)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x42de508;
+  constexpr static std::size_t addrs = 0x433f81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidity (::System::Xml::XmlNameEx::*)()>(&::System::Xml::XmlNameEx::get_Validity)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x42debb4;
+  constexpr static std::size_t addrs = 0x433fec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlNameEx::*)()>(&::System::Xml::XmlNameEx::get_IsDefault)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42debe4;
+  constexpr static std::size_t addrs = 0x433fef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlNameEx::*)()>(&::System::Xml::XmlNameEx::get_IsNil)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42debf0;
+  constexpr static std::size_t addrs = 0x433ff04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::XmlNameEx::*)()>(
     &::System::Xml::XmlNameEx::get_MemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42debfc;
+  constexpr static std::size_t addrs = 0x433ff10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::XmlNameEx::*)()>(&::System::Xml::XmlNameEx::get_SchemaType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42dec04;
+  constexpr static std::size_t addrs = 0x433ff18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::XmlNameEx::*)()>(
     &::System::Xml::XmlNameEx::get_SchemaElement)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42dec0c;
+  constexpr static std::size_t addrs = 0x433ff20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (::System::Xml::XmlNameEx::*)()>(
     &::System::Xml::XmlNameEx::get_SchemaAttribute)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42dec88;
+  constexpr static std::size_t addrs = 0x433ff9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNameEx::*)(::System::Xml::Schema::XmlSchemaValidity)>(
     &::System::Xml::XmlNameEx::SetValidity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42deb60;
+  constexpr static std::size_t addrs = 0x433fe74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNameEx::*)(bool)>(&::System::Xml::XmlNameEx::SetIsDefault)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42deb74;
+  constexpr static std::size_t addrs = 0x433fe88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNameEx::*)(bool)>(&::System::Xml::XmlNameEx::SetIsNil)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42deb94;
+  constexpr static std::size_t addrs = 0x433fea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlNameEx::*)(::System::Xml::Schema::IXmlSchemaInfo*)>(&::System::Xml::XmlNameEx::Equals)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x42ded04;
+  constexpr static std::size_t addrs = 0x4340018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& System::Xml::XmlNameEx::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& System::Xml::XmlNameEx::__cordl_internal_get_memberType() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& System::Xml::XmlNameEx::__cordl_internal_get_memberType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberType;
 }
@@ -216,7 +216,7 @@ constexpr ::System::Xml::Schema::XmlSchemaType*& System::Xml::XmlNameEx::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& System::Xml::XmlNameEx::__cordl_internal_get_schemaType() const {
+constexpr ::System::Xml::Schema::XmlSchemaType* const& System::Xml::XmlNameEx::__cordl_internal_get_schemaType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
@@ -228,17 +228,13 @@ constexpr ::System::Object*& System::Xml::XmlNameEx::__cordl_internal_get_decl()
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::XmlNameEx::__cordl_internal_get_decl() const {
+constexpr ::System::Object* const& System::Xml::XmlNameEx::__cordl_internal_get_decl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decl;
 }
 constexpr void System::Xml::XmlNameEx::__cordl_internal_set_decl(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___decl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::XmlNameEx* System::Xml::XmlNameEx::New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc,
-                                                                  ::System::Xml::XmlName* next, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlNameEx*>(prefix, localName, ns, hashCode, ownerDoc, next, schemaInfo));
 }
 inline void System::Xml::XmlNameEx::_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next,
                                           ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo) {
@@ -308,6 +304,10 @@ inline bool System::Xml::XmlNameEx::Equals(::System::Xml::Schema::IXmlSchemaInfo
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNameEx*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, schemaInfo);
+}
+inline ::System::Xml::XmlNameEx* System::Xml::XmlNameEx::New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc,
+                                                                  ::System::Xml::XmlName* next, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlNameEx*>(prefix, localName, ns, hashCode, ownerDoc, next, schemaInfo));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNameEx::XmlNameEx() {}

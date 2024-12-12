@@ -15,15 +15,14 @@ class JSON;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::JSON);
-// Type: HoudiniEngineUnity::JSON
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::JSON*
+// CS Name: HoudiniEngineUnity.JSON
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x3a30dd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3a87a40, size 0x4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
 
 protected:
@@ -41,7 +40,7 @@ public:
   JSON(JSON const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

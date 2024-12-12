@@ -19,30 +19,29 @@ class PosePrediction;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PosePrediction);
-// Type: ::PosePrediction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PosePrediction*
+// CS Name: PosePrediction
 class CORDL_TYPE PosePrediction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InterpolatePose, addr 0x22b4e10, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePose, addr 0x22e80fc, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float_t t);
 
-  /// @brief Method InterpolatePoseSerializable, addr 0x22b51ec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePoseSerializable, addr 0x22e84d8, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t t);
 
   static inline ::GlobalNamespace::PosePrediction* New_ctor();
 
-  /// @brief Method PredictPose, addr 0x22b4d20, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PredictPose, addr 0x22e800c, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, int64_t prevTime, ::UnityEngine::Pose curr, int64_t currTime, int64_t time);
 
-  /// @brief Method PredictPoseSerializable, addr 0x22b510c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PredictPoseSerializable, addr 0x22e83f8, size 0xe0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime,
                                                                             int64_t time);
 
-  /// @brief Method .ctor, addr 0x22b52dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e85c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +59,7 @@ public:
   PosePrediction(PosePrediction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

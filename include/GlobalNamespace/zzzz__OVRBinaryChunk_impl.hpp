@@ -2,7 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/OVRBinaryChunk.hpp"
 #include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-// Ctor Parameters [CppParam { name: "chunkStream", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "chunkLength", ty: "uint32_t", modifiers: "", def_value:
+// Ctor Parameters [CppParam { name: "chunkStream", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "chunkLength", ty: "uint32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "chunkStart", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVRBinaryChunk::OVRBinaryChunk(::System::IO::Stream* chunkStream, uint32_t chunkLength, int64_t chunkStart) noexcept {
   this->chunkStream = chunkStream;

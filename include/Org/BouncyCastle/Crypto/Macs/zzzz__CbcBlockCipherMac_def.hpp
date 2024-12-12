@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CbcBlockCipherMac)
@@ -17,20 +17,16 @@ class IBlockCipher;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
 class CbcBlockCipherMac;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac);
-// Type: Org.BouncyCastle.Crypto.Macs::CbcBlockCipherMac
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IMac, System.Object
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Macs::CbcBlockCipherMac*
+// CS Name: Org.BouncyCastle.Crypto.Macs.CbcBlockCipherMac
 class CORDL_TYPE CbcBlockCipherMac : public ::System::Object {
 public:
   // Declarations
@@ -54,16 +50,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x235e708, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x23919f4, size 0x288, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x235e990, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x2391c7c, size 0x2b0, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x235e5ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x23918d8, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x235e474, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x2391760, size 0xb8, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
@@ -75,10 +71,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method Reset, addr 0x235e52c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2391818, size 0xc0, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x235e5f4, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x23918e0, size 0x114, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
@@ -89,17 +85,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get_bufOff();
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_cipher() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_cipher() const;
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
 
   constexpr int32_t const& __cordl_internal_get_macSize() const;
 
   constexpr int32_t& __cordl_internal_get_macSize();
 
-  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& __cordl_internal_get_padding();
+  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* const& __cordl_internal_get_padding() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*> const& __cordl_internal_get_padding() const;
+  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& __cordl_internal_get_padding();
 
   constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
@@ -111,19 +107,19 @@ public:
 
   constexpr void __cordl_internal_set_padding(::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
 
-  /// @brief Method .ctor, addr 0x235dfa8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2391294, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0x235e2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23915b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits);
 
-  /// @brief Method .ctor, addr 0x235e074, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2391360, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method .ctor, addr 0x235e1f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23914e0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method get_AlgorithmName, addr 0x235e3d4, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x23916c0, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
@@ -143,6 +139,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CbcBlockCipherMac(CbcBlockCipherMac const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 935 };
+
   /// @brief Field buf, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buf;
 
@@ -158,14 +157,9 @@ public:
   /// @brief Field macSize, offset: 0x30, size: 0x4, def value: None
   int32_t ___macSize;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 935 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac, ___buf) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac, ___bufOff) == 0x18, "Offset mismatch!");
@@ -175,6 +169,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac, ___
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac, ___padding) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac, ___macSize) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Macs
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac);

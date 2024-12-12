@@ -4,12 +4,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncValueTaskMethodBuilder_1)
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
@@ -25,20 +21,19 @@ template <typename TResult> struct AsyncValueTaskMethodBuilder_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1);
-// Type: System.Runtime.CompilerServices::AsyncValueTaskMethodBuilder`1
-// SizeInfo { instance_size: 40, native_size: 50, calculated_instance_size: 40, calculated_native_size: 50, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// CS Name: ::System.Runtime.CompilerServices::AsyncValueTaskMethodBuilder`1<TResult>
+// CS Name: System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<TResult>
 struct CORDL_TYPE AsyncValueTaskMethodBuilder_1 {
 public:
   // Declarations
   __declspec(property(get = get_Task)) ::System::Threading::Tasks::ValueTask_1<TResult> Task;
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<TResult> Create();
@@ -53,7 +48,7 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(ByRef<TStateMachine> stateMachine);
+  template <typename TStateMachine> inline void Start(::ByRef<TStateMachine> stateMachine);
 
   /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<TResult> get_Task();
@@ -67,6 +62,12 @@ public:
   // None }]
   constexpr AsyncValueTaskMethodBuilder_1(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> _methodBuilder, TResult _result, bool _haveResult, bool _useBuilder) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3358 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
   /// @brief Field _methodBuilder, offset: 0x0, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> _methodBuilder;
 
@@ -78,12 +79,6 @@ public:
 
   /// @brief Field _useBuilder, offset: 0x21, size: 0x1, def value: None
   bool _useBuilder;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3358 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

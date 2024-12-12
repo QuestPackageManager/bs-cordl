@@ -8,11 +8,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__IOAsyncResult_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SocketAsyncResult)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Net::Sockets {
+class SocketAsyncResult___c;
 }
 namespace System::Net::Sockets {
 struct SocketError;
@@ -22,9 +24,6 @@ struct SocketOperation;
 }
 namespace System::Net::Sockets {
 class Socket;
-}
-namespace System::Net::Sockets {
-class __SocketAsyncResult____c;
 }
 namespace System::Net {
 class EndPoint;
@@ -55,73 +54,71 @@ namespace System::Net::Sockets {
 class SocketAsyncResult;
 }
 namespace System::Net::Sockets {
-class __SocketAsyncResult____c;
+class SocketAsyncResult___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncResult);
-MARK_REF_PTR_T(::System::Net::Sockets::__SocketAsyncResult____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncResult___c);
+// Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
-// CS Name: ::SocketAsyncResult::<>c*
-class CORDL_TYPE __SocketAsyncResult____c : public ::System::Object {
+// CS Name: System.Net.Sockets.SocketAsyncResult/<>c
+class CORDL_TYPE SocketAsyncResult___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Sockets::__SocketAsyncResult____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Sockets::SocketAsyncResult___c* __9;
 
   /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Threading::WaitCallback* __9__27_0;
+  __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Threading::WaitCallback* __9__27_0;
 
-  static inline ::System::Net::Sockets::__SocketAsyncResult____c* New_ctor();
+  static inline ::System::Net::Sockets::SocketAsyncResult___c* New_ctor();
 
-  /// @brief Method <Complete>b__27_0, addr 0x43a0230, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__27_0, addr 0x4401544, size 0x78, virtual false, abstract: false, final false
   inline void _Complete_b__27_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x43a0228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440153c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Net::Sockets::__SocketAsyncResult____c* getStaticF___9();
+  static inline ::System::Net::Sockets::SocketAsyncResult___c* getStaticF___9();
 
   static inline ::System::Threading::WaitCallback* getStaticF___9__27_0();
 
-  static inline void setStaticF___9(::System::Net::Sockets::__SocketAsyncResult____c* value);
+  static inline void setStaticF___9(::System::Net::Sockets::SocketAsyncResult___c* value);
 
   static inline void setStaticF___9__27_0(::System::Threading::WaitCallback* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SocketAsyncResult____c();
+  constexpr SocketAsyncResult___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SocketAsyncResult____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SocketAsyncResult____c(__SocketAsyncResult____c&&) = delete;
+  SocketAsyncResult___c(SocketAsyncResult___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SocketAsyncResult____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SocketAsyncResult____c(__SocketAsyncResult____c const&) = delete;
+  SocketAsyncResult___c(SocketAsyncResult___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::__SocketAsyncResult____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketAsyncResult___c, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
-// Type: System.Net.Sockets::SocketAsyncResult
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IOAsyncResult, System.Memory`1<T>, System.Net.Sockets.SocketFlags, System.Net.Sockets.SocketOperation
 namespace System::Net::Sockets {
 // Is value type: false
-// CS Name: ::System.Net.Sockets::SocketAsyncResult*
+// CS Name: System.Net.Sockets.SocketAsyncResult
 class CORDL_TYPE SocketAsyncResult : public ::System::IOAsyncResult {
 public:
   // Declarations
-  using __c = ::System::Net::Sockets::__SocketAsyncResult____c;
+  using __c = ::System::Net::Sockets::SocketAsyncResult___c;
 
   /// @brief Field AcceptSocket, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_AcceptSocket, put = __cordl_internal_set_AcceptSocket)) ::System::Net::Sockets::Socket* AcceptSocket;
@@ -181,34 +178,34 @@ public:
   /// @brief Field socket, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket)) ::System::Net::Sockets::Socket* socket;
 
-  /// @brief Method CheckIfThrowDelayedException, addr 0x43a010c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckIfThrowDelayedException, addr 0x4401420, size 0xa0, virtual false, abstract: false, final false
   inline void CheckIfThrowDelayedException();
 
-  /// @brief Method Complete, addr 0x439c010, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fd324, size 0x1e8, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Complete, addr 0x439b8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fcbbc, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
-  /// @brief Method Complete, addr 0x43a01bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x44014d0, size 0x10, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e, bool synch);
 
-  /// @brief Method Complete, addr 0x439b8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fcbc4, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s);
 
-  /// @brief Method Complete, addr 0x439bae8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fcdfc, size 0xc, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s, int32_t total);
 
-  /// @brief Method Complete, addr 0x43a01b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x44014c4, size 0xc, virtual false, abstract: false, final false
   inline void Complete(bool synch);
 
-  /// @brief Method Complete, addr 0x439cac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43fdddc, size 0x8, virtual false, abstract: false, final false
   inline void Complete(int32_t total);
 
-  /// @brief Method CompleteDisposed, addr 0x43a01ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteDisposed, addr 0x44014c0, size 0x4, virtual true, abstract: false, final false
   inline void CompleteDisposed();
 
-  /// @brief Method Init, addr 0x439ffa0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44012b4, size 0xb4, virtual false, abstract: false, final false
   inline void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
   static inline ::System::Net::Sockets::SocketAsyncResult* New_ctor();
@@ -216,13 +213,13 @@ public:
   static inline ::System::Net::Sockets::SocketAsyncResult* New_ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state,
                                                                     ::System::Net::Sockets::SocketOperation operation);
 
+  constexpr ::System::Net::Sockets::Socket* const& __cordl_internal_get_AcceptSocket() const;
+
   constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_AcceptSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_AcceptSocket() const;
+  constexpr ::System::Net::Sockets::Socket* const& __cordl_internal_get_AcceptedSocket() const;
 
   constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_AcceptedSocket();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_AcceptedSocket() const;
 
   constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> const& __cordl_internal_get_Addresses() const;
 
@@ -232,25 +229,25 @@ public:
 
   constexpr ::System::Memory_1<uint8_t>& __cordl_internal_get_Buffer();
 
-  constexpr ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& __cordl_internal_get_Buffers();
+  constexpr ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* const& __cordl_internal_get_Buffers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*> const& __cordl_internal_get_Buffers() const;
+  constexpr ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& __cordl_internal_get_Buffers();
 
   constexpr int32_t const& __cordl_internal_get_CurrentAddress() const;
 
   constexpr int32_t& __cordl_internal_get_CurrentAddress();
 
-  constexpr ::System::Exception*& __cordl_internal_get_DelayedException();
+  constexpr ::System::Exception* const& __cordl_internal_get_DelayedException() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_DelayedException() const;
+  constexpr ::System::Exception*& __cordl_internal_get_DelayedException();
 
   constexpr int32_t const& __cordl_internal_get_EndCalled() const;
 
   constexpr int32_t& __cordl_internal_get_EndCalled();
 
-  constexpr ::System::Net::EndPoint*& __cordl_internal_get_EndPoint();
+  constexpr ::System::Net::EndPoint* const& __cordl_internal_get_EndPoint() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __cordl_internal_get_EndPoint() const;
+  constexpr ::System::Net::EndPoint*& __cordl_internal_get_EndPoint();
 
   constexpr int32_t const& __cordl_internal_get_Offset() const;
 
@@ -284,9 +281,9 @@ public:
 
   constexpr ::System::Net::Sockets::SocketOperation& __cordl_internal_get_operation();
 
-  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_socket();
+  constexpr ::System::Net::Sockets::Socket* const& __cordl_internal_get_socket() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_socket() const;
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_socket();
 
   constexpr void __cordl_internal_set_AcceptSocket(::System::Net::Sockets::Socket* value);
 
@@ -324,16 +321,16 @@ public:
 
   constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method .ctor, addr 0x439fccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4400fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43a0054, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4401368, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
-  /// @brief Method get_ErrorCode, addr 0x43a008c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x44013a0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_ErrorCode();
 
-  /// @brief Method get_Handle, addr 0x439ff8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x44012a0, size 0x14, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
 protected:
@@ -349,6 +346,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SocketAsyncResult(SocketAsyncResult const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9875 };
 
   /// @brief Field socket, offset: 0x30, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___socket;
@@ -404,14 +404,9 @@ public:
   /// @brief Field EndCalled, offset: 0xa8, size: 0x4, def value: None
   int32_t ___EndCalled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9850 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketAsyncResult, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::SocketAsyncResult, ___socket) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::SocketAsyncResult, ___operation) == 0x38, "Offset mismatch!");
@@ -448,8 +443,10 @@ static_assert(offsetof(::System::Net::Sockets::SocketAsyncResult, ___error) == 0
 
 static_assert(offsetof(::System::Net::Sockets::SocketAsyncResult, ___EndCalled) == 0xa8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketAsyncResult, 0xb0>, "Size mismatch!");
+
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::SocketAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
-NEED_NO_BOX(::System::Net::Sockets::__SocketAsyncResult____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::__SocketAsyncResult____c*, "System.Net.Sockets", "SocketAsyncResult/<>c");
+NEED_NO_BOX(::System::Net::Sockets::SocketAsyncResult___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketAsyncResult___c*, "System.Net.Sockets", "SocketAsyncResult/<>c");

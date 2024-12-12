@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/BasicTlsPskIdentity.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPskIdentity_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__BasicTlsPskIdentity_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPskIdentity_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23ae128;
+  constexpr static std::size_t addrs = 0x23e1414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23ae1b4;
+  constexpr static std::size_t addrs = 0x23e14a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::SkipIdentityHint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23ae240;
+  constexpr static std::size_t addrs = 0x23e152c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::NotifyIdentityHint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23ae244;
+  constexpr static std::size_t addrs = 0x23e1530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::GetPskIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ae248;
+  constexpr static std::size_t addrs = 0x23e1534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::GetPsk)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23ae250;
+  constexpr static std::size_t addrs = 0x23e153c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,14 +99,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
-constexpr Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::operator ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::i___Org__BouncyCastle__Crypto__Tls__TlsPskIdentity() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::__cordl_internal_get_mIdentity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mIdentity;
@@ -131,19 +123,12 @@ constexpr void Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mPsk)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity,
-                                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> psk) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(identity, psk));
-}
 inline void Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, identity, psk);
-}
-inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::New_ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(identity, psk));
 }
 inline void Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,6 +160,21 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::Basi
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity,
+                                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> psk) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(identity, psk));
+}
+inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::New_ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(identity, psk));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
+constexpr Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::operator ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::i___Org__BouncyCastle__Crypto__Tls__TlsPskIdentity() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::BasicTlsPskIdentity() {}

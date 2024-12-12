@@ -17,11 +17,10 @@ class IListDragAndDropArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IListDragAndDropArgs);
-// Type: UnityEngine.UIElements::IListDragAndDropArgs
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::IListDragAndDropArgs*
+// CS Name: UnityEngine.UIElements.IListDragAndDropArgs
 class CORDL_TYPE IListDragAndDropArgs {
 public:
   // Declarations
@@ -35,31 +34,27 @@ public:
 
   __declspec(property(get = get_parentId)) int32_t parentId;
 
-  /// @brief Method get_childIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_childIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_childIndex();
 
-  /// @brief Method get_dragAndDropData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_dragAndDropData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragAndDropData* get_dragAndDropData();
 
-  /// @brief Method get_dragAndDropPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_dragAndDropPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition();
 
-  /// @brief Method get_insertAtIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_insertAtIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_insertAtIndex();
 
-  /// @brief Method get_parentId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_parentId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_parentId();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IListDragAndDropArgs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IListDragAndDropArgs(IListDragAndDropArgs&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IListDragAndDropArgs", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IListDragAndDropArgs(IListDragAndDropArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,66 +11,65 @@ template <typename T> class TypeTraits_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::TypeTraits_1);
-// Type: Unity.Properties::TypeTraits`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Properties {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Unity.Properties::TypeTraits`1<T>*
+// CS Name: Unity.Properties.TypeTraits`1<T>
 class CORDL_TYPE TypeTraits_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <CanBeNull>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__CanBeNull_k__BackingField, put = setStaticF__CanBeNull_k__BackingField)) bool _CanBeNull_k__BackingField;
+  __declspec(property(get = getStaticF__CanBeNull_k__BackingField, put = setStaticF__CanBeNull_k__BackingField)) bool _CanBeNull_k__BackingField;
 
   /// @brief Field <IsAbstractOrInterface>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsAbstractOrInterface_k__BackingField, put = setStaticF__IsAbstractOrInterface_k__BackingField)) bool _IsAbstractOrInterface_k__BackingField;
+  __declspec(property(get = getStaticF__IsAbstractOrInterface_k__BackingField, put = setStaticF__IsAbstractOrInterface_k__BackingField)) bool _IsAbstractOrInterface_k__BackingField;
 
   /// @brief Field <IsAbstract>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsAbstract_k__BackingField, put = setStaticF__IsAbstract_k__BackingField)) bool _IsAbstract_k__BackingField;
+  __declspec(property(get = getStaticF__IsAbstract_k__BackingField, put = setStaticF__IsAbstract_k__BackingField)) bool _IsAbstract_k__BackingField;
 
   /// @brief Field <IsArray>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsArray_k__BackingField, put = setStaticF__IsArray_k__BackingField)) bool _IsArray_k__BackingField;
+  __declspec(property(get = getStaticF__IsArray_k__BackingField, put = setStaticF__IsArray_k__BackingField)) bool _IsArray_k__BackingField;
 
   /// @brief Field <IsContainer>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsContainer_k__BackingField, put = setStaticF__IsContainer_k__BackingField)) bool _IsContainer_k__BackingField;
+  __declspec(property(get = getStaticF__IsContainer_k__BackingField, put = setStaticF__IsContainer_k__BackingField)) bool _IsContainer_k__BackingField;
 
   /// @brief Field <IsEnumFlags>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsEnumFlags_k__BackingField, put = setStaticF__IsEnumFlags_k__BackingField)) bool _IsEnumFlags_k__BackingField;
+  __declspec(property(get = getStaticF__IsEnumFlags_k__BackingField, put = setStaticF__IsEnumFlags_k__BackingField)) bool _IsEnumFlags_k__BackingField;
 
   /// @brief Field <IsEnum>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsEnum_k__BackingField, put = setStaticF__IsEnum_k__BackingField)) bool _IsEnum_k__BackingField;
+  __declspec(property(get = getStaticF__IsEnum_k__BackingField, put = setStaticF__IsEnum_k__BackingField)) bool _IsEnum_k__BackingField;
 
   /// @brief Field <IsInterface>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsInterface_k__BackingField, put = setStaticF__IsInterface_k__BackingField)) bool _IsInterface_k__BackingField;
+  __declspec(property(get = getStaticF__IsInterface_k__BackingField, put = setStaticF__IsInterface_k__BackingField)) bool _IsInterface_k__BackingField;
 
   /// @brief Field <IsLazyLoadReference>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsLazyLoadReference_k__BackingField, put = setStaticF__IsLazyLoadReference_k__BackingField)) bool _IsLazyLoadReference_k__BackingField;
+  __declspec(property(get = getStaticF__IsLazyLoadReference_k__BackingField, put = setStaticF__IsLazyLoadReference_k__BackingField)) bool _IsLazyLoadReference_k__BackingField;
 
   /// @brief Field <IsMultidimensionalArray>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsMultidimensionalArray_k__BackingField, put = setStaticF__IsMultidimensionalArray_k__BackingField)) bool _IsMultidimensionalArray_k__BackingField;
+  __declspec(property(get = getStaticF__IsMultidimensionalArray_k__BackingField, put = setStaticF__IsMultidimensionalArray_k__BackingField)) bool _IsMultidimensionalArray_k__BackingField;
 
   /// @brief Field <IsNullable>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsNullable_k__BackingField, put = setStaticF__IsNullable_k__BackingField)) bool _IsNullable_k__BackingField;
+  __declspec(property(get = getStaticF__IsNullable_k__BackingField, put = setStaticF__IsNullable_k__BackingField)) bool _IsNullable_k__BackingField;
 
   /// @brief Field <IsObject>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsObject_k__BackingField, put = setStaticF__IsObject_k__BackingField)) bool _IsObject_k__BackingField;
+  __declspec(property(get = getStaticF__IsObject_k__BackingField, put = setStaticF__IsObject_k__BackingField)) bool _IsObject_k__BackingField;
 
   /// @brief Field <IsPrimitiveOrString>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsPrimitiveOrString_k__BackingField, put = setStaticF__IsPrimitiveOrString_k__BackingField)) bool _IsPrimitiveOrString_k__BackingField;
+  __declspec(property(get = getStaticF__IsPrimitiveOrString_k__BackingField, put = setStaticF__IsPrimitiveOrString_k__BackingField)) bool _IsPrimitiveOrString_k__BackingField;
 
   /// @brief Field <IsPrimitive>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsPrimitive_k__BackingField, put = setStaticF__IsPrimitive_k__BackingField)) bool _IsPrimitive_k__BackingField;
+  __declspec(property(get = getStaticF__IsPrimitive_k__BackingField, put = setStaticF__IsPrimitive_k__BackingField)) bool _IsPrimitive_k__BackingField;
 
   /// @brief Field <IsString>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsString_k__BackingField, put = setStaticF__IsString_k__BackingField)) bool _IsString_k__BackingField;
+  __declspec(property(get = getStaticF__IsString_k__BackingField, put = setStaticF__IsString_k__BackingField)) bool _IsString_k__BackingField;
 
   /// @brief Field <IsUnityObject>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsUnityObject_k__BackingField, put = setStaticF__IsUnityObject_k__BackingField)) bool _IsUnityObject_k__BackingField;
+  __declspec(property(get = getStaticF__IsUnityObject_k__BackingField, put = setStaticF__IsUnityObject_k__BackingField)) bool _IsUnityObject_k__BackingField;
 
   /// @brief Field <IsValueType>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__IsValueType_k__BackingField, put = setStaticF__IsValueType_k__BackingField)) bool _IsValueType_k__BackingField;
+  __declspec(property(get = getStaticF__IsValueType_k__BackingField, put = setStaticF__IsValueType_k__BackingField)) bool _IsValueType_k__BackingField;
 
   static inline bool getStaticF__CanBeNull_k__BackingField();
 
@@ -191,7 +190,7 @@ public:
   TypeTraits_1(TypeTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

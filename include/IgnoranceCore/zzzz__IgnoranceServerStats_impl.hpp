@@ -6,7 +6,7 @@
 // Ctor Parameters [CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "BytesSent", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketsSent", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "PeersCount", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PeerStats", ty:
-// "::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats>*", modifiers: "", def_value: Some("nullptr") }]
+// "::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats>*", modifiers: "", def_value: Some("{}") }]
 constexpr ::IgnoranceCore::IgnoranceServerStats::IgnoranceServerStats(uint64_t BytesReceived, uint64_t BytesSent, uint64_t PacketsReceived, uint64_t PacketsSent, uint64_t PeersCount,
                                                                       ::System::Collections::Generic::Dictionary_2<int32_t, ::IgnoranceCore::IgnoranceClientStats>* PeerStats) noexcept {
   this->BytesReceived = BytesReceived;

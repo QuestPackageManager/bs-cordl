@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::CollectionChangeEventArgs::*)(
     ::System::ComponentModel::CollectionChangeAction, ::System::Object*)>(&::System::ComponentModel::CollectionChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x43e7d48;
+  constexpr static std::size_t addrs = 0x444905c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::CollectionChangeAction (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e7dbc;
+  constexpr static std::size_t addrs = 0x44490d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Element)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e7dc4;
+  constexpr static std::size_t addrs = 0x44490d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,17 +69,13 @@ constexpr ::System::Object*& System::ComponentModel::CollectionChangeEventArgs::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Element_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::ComponentModel::CollectionChangeEventArgs::__cordl_internal_get__Element_k__BackingField() const {
+constexpr ::System::Object* const& System::ComponentModel::CollectionChangeEventArgs::__cordl_internal_get__Element_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Element_k__BackingField;
 }
 constexpr void System::ComponentModel::CollectionChangeEventArgs::__cordl_internal_set__Element_k__BackingField(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Element_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::ComponentModel::CollectionChangeEventArgs* System::ComponentModel::CollectionChangeEventArgs::New_ctor(::System::ComponentModel::CollectionChangeAction action,
-                                                                                                                        ::System::Object* element) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::CollectionChangeEventArgs*>(action, element));
 }
 inline void System::ComponentModel::CollectionChangeEventArgs::_ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -97,6 +93,10 @@ inline ::System::Object* System::ComponentModel::CollectionChangeEventArgs::get_
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CollectionChangeEventArgs*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::CollectionChangeEventArgs* System::ComponentModel::CollectionChangeEventArgs::New_ctor(::System::ComponentModel::CollectionChangeAction action,
+                                                                                                                        ::System::Object* element) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::CollectionChangeEventArgs*>(action, element));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::CollectionChangeEventArgs::CollectionChangeEventArgs() {}

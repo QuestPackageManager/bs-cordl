@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TupleElementNamesAttribute)
 // Forward declare root types
@@ -13,11 +12,10 @@ class TupleElementNamesAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::TupleElementNamesAttribute);
-// Type: System.Runtime.CompilerServices::TupleElementNamesAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::TupleElementNamesAttribute*
+// CS Name: System.Runtime.CompilerServices.TupleElementNamesAttribute
 class CORDL_TYPE TupleElementNamesAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -32,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__transformNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3cb76a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1781c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 
 protected:
@@ -49,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TupleElementNamesAttribute(TupleElementNamesAttribute const&) = delete;
 
-  /// @brief Field _transformNames, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____transformNames;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3386 };
+
+  /// @brief Field _transformNames, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> ____transformNames;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TupleElementNamesAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::TupleElementNamesAttribute, ____transformNames) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TupleElementNamesAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::TupleElementNamesAttribute);

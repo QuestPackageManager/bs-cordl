@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Globalization/zzzz__Calendar_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HijriCalendar)
 namespace System {
@@ -20,11 +19,10 @@ class HijriCalendar;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::HijriCalendar);
-// Type: System.Globalization::HijriCalendar
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Globalization.Calendar
 namespace System::Globalization {
 // Is value type: false
-// CS Name: ::System.Globalization::HijriCalendar*
+// CS Name: System.Globalization.HijriCalendar
 class CORDL_TYPE HijriCalendar : public ::System::Globalization::Calendar {
 public:
   // Declarations
@@ -33,10 +31,10 @@ public:
   __declspec(property(get = get_HijriAdjustment)) int32_t HijriAdjustment;
 
   /// @brief Field HijriEra, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_HijriEra, put = setStaticF_HijriEra)) int32_t HijriEra;
+  __declspec(property(get = getStaticF_HijriEra, put = setStaticF_HijriEra)) int32_t HijriEra;
 
   /// @brief Field HijriMonthDays, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HijriMonthDays, put = setStaticF_HijriMonthDays)) ::ArrayW<int32_t, ::Array<int32_t>*> HijriMonthDays;
+  __declspec(property(get = getStaticF_HijriMonthDays, put = setStaticF_HijriMonthDays)) ::ArrayW<int32_t, ::Array<int32_t>*> HijriMonthDays;
 
   __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
@@ -47,71 +45,71 @@ public:
   __declspec(property(get = get_ID)) int32_t _cordl_ID;
 
   /// @brief Field calendarMaxValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_calendarMaxValue, put = setStaticF_calendarMaxValue)) ::System::DateTime calendarMaxValue;
+  __declspec(property(get = getStaticF_calendarMaxValue, put = setStaticF_calendarMaxValue)) ::System::DateTime calendarMaxValue;
 
   /// @brief Field calendarMinValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_calendarMinValue, put = setStaticF_calendarMinValue)) ::System::DateTime calendarMinValue;
+  __declspec(property(get = getStaticF_calendarMinValue, put = setStaticF_calendarMinValue)) ::System::DateTime calendarMinValue;
 
   /// @brief Field m_HijriAdvance, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HijriAdvance, put = __cordl_internal_set_m_HijriAdvance)) int32_t m_HijriAdvance;
 
-  /// @brief Method CheckEraRange, addr 0x3d3f3c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CheckEraRange, addr 0x3d9f53c, size 0xcc, virtual false, abstract: false, final false
   static inline void CheckEraRange(int32_t era);
 
-  /// @brief Method CheckTicksRange, addr 0x3d3f1e8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CheckTicksRange, addr 0x3d9f35c, size 0x1e0, virtual false, abstract: false, final false
   static inline void CheckTicksRange(int64_t ticks);
 
-  /// @brief Method CheckYearMonthRange, addr 0x3d3f5e8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CheckYearMonthRange, addr 0x3d9f75c, size 0x184, virtual false, abstract: false, final false
   static inline void CheckYearMonthRange(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method CheckYearRange, addr 0x3d3f494, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CheckYearRange, addr 0x3d9f608, size 0x154, virtual false, abstract: false, final false
   static inline void CheckYearRange(int32_t year, int32_t era);
 
-  /// @brief Method DaysUpToHijriYear, addr 0x3d3f0bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DaysUpToHijriYear, addr 0x3d9f230, size 0xbc, virtual false, abstract: false, final false
   inline int64_t DaysUpToHijriYear(int32_t HijriYear);
 
-  /// @brief Method GetAbsoluteDateHijri, addr 0x3d3eff4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetAbsoluteDateHijri, addr 0x3d9f168, size 0xc8, virtual false, abstract: false, final false
   inline int64_t GetAbsoluteDateHijri(int32_t y, int32_t m, int32_t d);
 
-  /// @brief Method GetAdvanceHijriDate, addr 0x3d3f1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAdvanceHijriDate, addr 0x3d9f354, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetAdvanceHijriDate();
 
-  /// @brief Method GetDatePart, addr 0x3d3f76c, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method GetDatePart, addr 0x3d9f8e0, size 0x270, virtual true, abstract: false, final false
   inline int32_t GetDatePart(int64_t ticks, int32_t part);
 
-  /// @brief Method GetDayOfMonth, addr 0x3d3f9dc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfMonth, addr 0x3d9fb50, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetDayOfMonth(::System::DateTime time);
 
-  /// @brief Method GetDayOfWeek, addr 0x3d3fa60, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfWeek, addr 0x3d9fbd4, size 0xa8, virtual true, abstract: false, final false
   inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-  /// @brief Method GetDaysInMonth, addr 0x3d3fb08, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInMonth, addr 0x3d9fc7c, size 0xcc, virtual true, abstract: false, final false
   inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method GetDaysInYear, addr 0x3d3fbd4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInYear, addr 0x3d9fd48, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetEra, addr 0x3d3fc68, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetEra, addr 0x3d9fddc, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetEra(::System::DateTime time);
 
-  /// @brief Method GetMonth, addr 0x3d3fda0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetMonth, addr 0x3d9ff14, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetMonth(::System::DateTime time);
 
-  /// @brief Method GetMonthsInYear, addr 0x3d3fe24, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetMonthsInYear, addr 0x3d9ff98, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetYear, addr 0x3d3fe90, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetYear, addr 0x3da0004, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method IsLeapYear, addr 0x3d3ff14, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x3da0088, size 0xa0, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
   static inline ::System::Globalization::HijriCalendar* New_ctor();
 
-  /// @brief Method ToDateTime, addr 0x3d3ffb4, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x3da0128, size 0x1d4, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method ToFourDigitYear, addr 0x3d402e0, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToFourDigitYear, addr 0x3da0454, size 0x138, virtual true, abstract: false, final false
   inline int32_t ToFourDigitYear(int32_t year);
 
   constexpr int32_t const& __cordl_internal_get_m_HijriAdvance() const;
@@ -120,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_m_HijriAdvance(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d3efd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9f144, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_HijriEra();
@@ -131,22 +129,22 @@ public:
 
   static inline ::System::DateTime getStaticF_calendarMinValue();
 
-  /// @brief Method get_Eras, addr 0x3d3fd04, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method get_Eras, addr 0x3d9fe78, size 0x9c, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Eras();
 
-  /// @brief Method get_HijriAdjustment, addr 0x3d3f178, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_HijriAdjustment, addr 0x3d9f2ec, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_HijriAdjustment();
 
-  /// @brief Method get_ID, addr 0x3d3efec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x3d9f160, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ID();
 
-  /// @brief Method get_MaxSupportedDateTime, addr 0x3d3ef78, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSupportedDateTime, addr 0x3d9f0ec, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
-  /// @brief Method get_MinSupportedDateTime, addr 0x3d3ef20, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MinSupportedDateTime, addr 0x3d9f094, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_TwoDigitYearMax, addr 0x3d40188, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TwoDigitYearMax, addr 0x3da02fc, size 0x44, virtual true, abstract: false, final false
   inline int32_t get_TwoDigitYearMax();
 
   static inline void setStaticF_HijriEra(int32_t value);
@@ -157,7 +155,7 @@ public:
 
   static inline void setStaticF_calendarMinValue(::System::DateTime value);
 
-  /// @brief Method set_TwoDigitYearMax, addr 0x3d401cc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method set_TwoDigitYearMax, addr 0x3da0340, size 0x114, virtual true, abstract: false, final false
   inline void set_TwoDigitYearMax(int32_t value);
 
 protected:
@@ -174,18 +172,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HijriCalendar(HijriCalendar const&) = delete;
 
-  /// @brief Field m_HijriAdvance, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___m_HijriAdvance;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3708 };
+
+  /// @brief Field m_HijriAdvance, offset: 0x1c, size: 0x4, def value: None
+  int32_t ___m_HijriAdvance;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::HijriCalendar, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::HijriCalendar, ___m_HijriAdvance) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::HijriCalendar, 0x20>, "Size mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::HijriCalendar);

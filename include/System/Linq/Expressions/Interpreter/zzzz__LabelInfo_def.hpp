@@ -12,13 +12,13 @@ namespace System::Linq::Expressions::Interpreter {
 class BranchLabel;
 }
 namespace System::Linq::Expressions::Interpreter {
+class LabelInfo___c;
+}
+namespace System::Linq::Expressions::Interpreter {
 class LabelScopeInfo;
 }
 namespace System::Linq::Expressions::Interpreter {
 class LightCompiler;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LabelInfo____c;
 }
 namespace System::Linq::Expressions {
 class LabelTarget;
@@ -34,75 +34,72 @@ namespace System::Linq::Expressions::Interpreter {
 class LabelInfo;
 }
 namespace System::Linq::Expressions::Interpreter {
-class __LabelInfo____c;
+class LabelInfo___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LabelInfo);
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LabelInfo____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LabelInfo___c);
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::LabelInfo::<>c*
-class CORDL_TYPE __LabelInfo____c : public ::System::Object {
+// CS Name: System.Linq.Expressions.Interpreter.LabelInfo/<>c
+class CORDL_TYPE LabelInfo___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Linq::Expressions::Interpreter::__LabelInfo____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Linq::Expressions::Interpreter::LabelInfo___c* __9;
 
   /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF___9__9_0,
-                          put = setStaticF___9__9_0)) ::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* __9__9_0;
+  __declspec(property(get = getStaticF___9__9_0,
+                      put = setStaticF___9__9_0)) ::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* __9__9_0;
 
-  static inline ::System::Linq::Expressions::Interpreter::__LabelInfo____c* New_ctor();
+  static inline ::System::Linq::Expressions::Interpreter::LabelInfo___c* New_ctor();
 
-  /// @brief Method <ValidateJump>b__9_0, addr 0x4072ecc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ValidateJump>b__9_0, addr 0x40d41e0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LabelScopeInfo* _ValidateJump_b__9_0(::System::Linq::Expressions::Interpreter::LabelScopeInfo* b);
 
-  /// @brief Method .ctor, addr 0x4072ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d41d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Linq::Expressions::Interpreter::__LabelInfo____c* getStaticF___9();
+  static inline ::System::Linq::Expressions::Interpreter::LabelInfo___c* getStaticF___9();
 
   static inline ::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* getStaticF___9__9_0();
 
-  static inline void setStaticF___9(::System::Linq::Expressions::Interpreter::__LabelInfo____c* value);
+  static inline void setStaticF___9(::System::Linq::Expressions::Interpreter::LabelInfo___c* value);
 
   static inline void setStaticF___9__9_0(::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LabelInfo____c();
+  constexpr LabelInfo___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LabelInfo____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LabelInfo____c(__LabelInfo____c&&) = delete;
+  LabelInfo___c(LabelInfo___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LabelInfo____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LabelInfo____c(__LabelInfo____c const&) = delete;
+  LabelInfo___c(LabelInfo___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LabelInfo____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LabelInfo___c, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
-// Type: System.Linq.Expressions.Interpreter::LabelInfo
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::LabelInfo*
+// CS Name: System.Linq.Expressions.Interpreter.LabelInfo
 class CORDL_TYPE LabelInfo : public ::System::Object {
 public:
   // Declarations
-  using __c = ::System::Linq::Expressions::Interpreter::__LabelInfo____c;
+  using __c = ::System::Linq::Expressions::Interpreter::LabelInfo___c;
 
   __declspec(property(get = get_HasDefinitions)) bool HasDefinitions;
 
@@ -124,57 +121,57 @@ public:
   __declspec(property(get = __cordl_internal_get__references,
                       put = __cordl_internal_set__references)) ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* _references;
 
-  /// @brief Method AddDefinition, addr 0x40728e8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddDefinition, addr 0x40d3bfc, size 0x128, virtual false, abstract: false, final false
   inline void AddDefinition(::System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
 
   /// @brief Method CommonNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CommonNode(T first, T second, ::System::Func_2<T, T>* parent);
 
-  /// @brief Method Define, addr 0x4072684, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Define, addr 0x40d3998, size 0x204, virtual false, abstract: false, final false
   inline void Define(::System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
 
-  /// @brief Method DefinedIn, addr 0x4072b3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DefinedIn, addr 0x40d3e50, size 0xc0, virtual false, abstract: false, final false
   inline bool DefinedIn(::System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
 
-  /// @brief Method EnsureLabel, addr 0x40722ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnsureLabel, addr 0x40d3600, size 0x30, virtual false, abstract: false, final false
   inline void EnsureLabel(::System::Linq::Expressions::Interpreter::LightCompiler* compiler);
 
-  /// @brief Method FirstDefinition, addr 0x4072bfc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method FirstDefinition, addr 0x40d3f10, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LabelScopeInfo* FirstDefinition();
 
-  /// @brief Method GetLabel, addr 0x40722d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLabel, addr 0x40d35e8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::BranchLabel* GetLabel(::System::Linq::Expressions::Interpreter::LightCompiler* compiler);
 
   static inline ::System::Linq::Expressions::Interpreter::LabelInfo* New_ctor(::System::Linq::Expressions::LabelTarget* node);
 
-  /// @brief Method Reference, addr 0x407231c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Reference, addr 0x40d3630, size 0xbc, virtual false, abstract: false, final false
   inline void Reference(::System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
 
-  /// @brief Method ValidateFinish, addr 0x4072ddc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ValidateFinish, addr 0x40d40f0, size 0x8c, virtual false, abstract: false, final false
   inline void ValidateFinish();
 
-  /// @brief Method ValidateJump, addr 0x40723e8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ValidateJump, addr 0x40d36fc, size 0x29c, virtual false, abstract: false, final false
   inline void ValidateJump(::System::Linq::Expressions::Interpreter::LabelScopeInfo* reference);
 
   constexpr bool const& __cordl_internal_get__acrossBlockJump() const;
 
   constexpr bool& __cordl_internal_get__acrossBlockJump();
 
+  constexpr ::System::Object* const& __cordl_internal_get__definitions() const;
+
   constexpr ::System::Object*& __cordl_internal_get__definitions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__definitions() const;
+  constexpr ::System::Linq::Expressions::Interpreter::BranchLabel* const& __cordl_internal_get__label() const;
 
   constexpr ::System::Linq::Expressions::Interpreter::BranchLabel*& __cordl_internal_get__label();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::BranchLabel*> const& __cordl_internal_get__label() const;
+  constexpr ::System::Linq::Expressions::LabelTarget* const& __cordl_internal_get__node() const;
 
   constexpr ::System::Linq::Expressions::LabelTarget*& __cordl_internal_get__node();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const& __cordl_internal_get__node() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* const& __cordl_internal_get__references() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>*& __cordl_internal_get__references();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>*> const& __cordl_internal_get__references() const;
 
   constexpr void __cordl_internal_set__acrossBlockJump(bool value);
 
@@ -186,13 +183,13 @@ public:
 
   constexpr void __cordl_internal_set__references(::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x407224c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d3560, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::LabelTarget* node);
 
-  /// @brief Method get_HasDefinitions, addr 0x40723d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasDefinitions, addr 0x40d36ec, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasDefinitions();
 
-  /// @brief Method get_HasMultipleDefinitions, addr 0x4072ac0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_HasMultipleDefinitions, addr 0x40d3dd4, size 0x7c, virtual false, abstract: false, final false
   inline bool get_HasMultipleDefinitions();
 
 protected:
@@ -209,6 +206,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LabelInfo(LabelInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13899 };
+
   /// @brief Field _node, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::LabelTarget* ____node;
 
@@ -224,14 +224,9 @@ public:
   /// @brief Field _acrossBlockJump, offset: 0x30, size: 0x1, def value: None
   bool ____acrossBlockJump;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13865 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LabelInfo, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LabelInfo, ____node) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LabelInfo, ____label) == 0x18, "Offset mismatch!");
@@ -242,8 +237,10 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::LabelInfo, ____
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LabelInfo, ____acrossBlockJump) == 0x30, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LabelInfo, 0x38>, "Size mismatch!");
+
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LabelInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LabelInfo*, "System.Linq.Expressions.Interpreter", "LabelInfo");
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LabelInfo____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LabelInfo____c*, "System.Linq.Expressions.Interpreter", "LabelInfo/<>c");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LabelInfo___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LabelInfo___c*, "System.Linq.Expressions.Interpreter", "LabelInfo/<>c");

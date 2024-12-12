@@ -11,17 +11,16 @@ class UrlBase64Encoder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder);
-// Type: Org.BouncyCastle.Utilities.Encoders::UrlBase64Encoder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.Encoders.Base64Encoder
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Encoders::UrlBase64Encoder*
+// CS Name: Org.BouncyCastle.Utilities.Encoders.UrlBase64Encoder
 class CORDL_TYPE UrlBase64Encoder : public ::Org::BouncyCastle::Utilities::Encoders::Base64Encoder {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25a45a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7894, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

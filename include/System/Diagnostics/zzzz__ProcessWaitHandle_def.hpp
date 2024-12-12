@@ -14,17 +14,16 @@ class ProcessWaitHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::ProcessWaitHandle);
-// Type: System.Diagnostics::ProcessWaitHandle
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.WaitHandle
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::ProcessWaitHandle*
+// CS Name: System.Diagnostics.ProcessWaitHandle
 class CORDL_TYPE ProcessWaitHandle : public ::System::Threading::WaitHandle {
 public:
   // Declarations
   static inline ::System::Diagnostics::ProcessWaitHandle* New_ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
 
-  /// @brief Method .ctor, addr 0x43cbfd4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442d2e8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
 
 protected:
@@ -42,7 +41,7 @@ public:
   ProcessWaitHandle(ProcessWaitHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

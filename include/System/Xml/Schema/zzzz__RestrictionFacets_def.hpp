@@ -20,11 +20,10 @@ class RestrictionFacets;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::RestrictionFacets);
-// Type: System.Xml.Schema::RestrictionFacets
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.Schema.RestrictionFlags, System.Xml.Schema.XmlSchemaWhiteSpace
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::RestrictionFacets*
+// CS Name: System.Xml.Schema.RestrictionFacets
 class CORDL_TYPE RestrictionFacets : public ::System::Object {
 public:
   // Declarations
@@ -72,9 +71,9 @@ public:
 
   static inline ::System::Xml::Schema::RestrictionFacets* New_ctor();
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_Enumeration();
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_Enumeration() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_Enumeration() const;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_Enumeration();
 
   constexpr ::System::Xml::Schema::RestrictionFlags const& __cordl_internal_get_FixedFlags() const;
 
@@ -92,33 +91,33 @@ public:
 
   constexpr int32_t& __cordl_internal_get_Length();
 
+  constexpr ::System::Object* const& __cordl_internal_get_MaxExclusive() const;
+
   constexpr ::System::Object*& __cordl_internal_get_MaxExclusive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MaxExclusive() const;
+  constexpr ::System::Object* const& __cordl_internal_get_MaxInclusive() const;
 
   constexpr ::System::Object*& __cordl_internal_get_MaxInclusive();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MaxInclusive() const;
 
   constexpr int32_t const& __cordl_internal_get_MaxLength() const;
 
   constexpr int32_t& __cordl_internal_get_MaxLength();
 
+  constexpr ::System::Object* const& __cordl_internal_get_MinExclusive() const;
+
   constexpr ::System::Object*& __cordl_internal_get_MinExclusive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MinExclusive() const;
+  constexpr ::System::Object* const& __cordl_internal_get_MinInclusive() const;
 
   constexpr ::System::Object*& __cordl_internal_get_MinInclusive();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_MinInclusive() const;
 
   constexpr int32_t const& __cordl_internal_get_MinLength() const;
 
   constexpr int32_t& __cordl_internal_get_MinLength();
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_Patterns();
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_Patterns() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_Patterns() const;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_Patterns();
 
   constexpr int32_t const& __cordl_internal_get_TotalDigits() const;
 
@@ -156,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
 
-  /// @brief Method .ctor, addr 0x433efb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a02c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,6 +171,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RestrictionFacets", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RestrictionFacets(RestrictionFacets const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7516 };
 
   /// @brief Field Length, offset: 0x10, size: 0x4, def value: None
   int32_t ___Length;
@@ -215,14 +217,9 @@ public:
   /// @brief Field FixedFlags, offset: 0x64, size: 0x4, def value: None
   ::System::Xml::Schema::RestrictionFlags ___FixedFlags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7491 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RestrictionFacets, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___Length) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___MinLength) == 0x14, "Offset mismatch!");
@@ -250,6 +247,8 @@ static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___FractionDigi
 static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___Flags) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___FixedFlags) == 0x64, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RestrictionFacets, 0x68>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::RestrictionFacets);

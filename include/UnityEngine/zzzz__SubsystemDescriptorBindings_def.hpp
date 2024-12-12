@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SubsystemDescriptorBindings)
 namespace System {
 struct IntPtr;
@@ -16,18 +15,17 @@ class SubsystemDescriptorBindings;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SubsystemDescriptorBindings);
-// Type: UnityEngine::SubsystemDescriptorBindings
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::SubsystemDescriptorBindings*
+// CS Name: UnityEngine.SubsystemDescriptorBindings
 class CORDL_TYPE SubsystemDescriptorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x48b4160, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x49187f0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::System::IntPtr descriptorPtr);
 
-  /// @brief Method GetId, addr 0x48b4110, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x49187a0, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetId(::System::IntPtr descriptorPtr);
 
 protected:
@@ -45,7 +43,7 @@ public:
   SubsystemDescriptorBindings(SubsystemDescriptorBindings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,11 +12,10 @@ struct ProtocolType;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::ProtocolType);
-// Type: System.Net.Sockets::ProtocolType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
-// CS Name: ::System.Net.Sockets::ProtocolType
+// CS Name: System.Net.Sockets.ProtocolType
 struct CORDL_TYPE ProtocolType {
 public:
   // Declarations
@@ -68,96 +67,96 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ProtocolType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Ggp value: static_cast<int32_t>(0x3)
+  /// @brief Field Ggp value: I32(3)
   static ::System::Net::Sockets::ProtocolType const Ggp;
 
-  /// @brief Field IP value: static_cast<int32_t>(0x0)
+  /// @brief Field IP value: I32(0)
   static ::System::Net::Sockets::ProtocolType const IP;
 
-  /// @brief Field IPSecAuthenticationHeader value: static_cast<int32_t>(0x33)
+  /// @brief Field IPSecAuthenticationHeader value: I32(51)
   static ::System::Net::Sockets::ProtocolType const IPSecAuthenticationHeader;
 
-  /// @brief Field IPSecEncapsulatingSecurityPayload value: static_cast<int32_t>(0x32)
+  /// @brief Field IPSecEncapsulatingSecurityPayload value: I32(50)
   static ::System::Net::Sockets::ProtocolType const IPSecEncapsulatingSecurityPayload;
 
-  /// @brief Field IPv4 value: static_cast<int32_t>(0x4)
+  /// @brief Field IPv4 value: I32(4)
   static ::System::Net::Sockets::ProtocolType const IPv4;
 
-  /// @brief Field IPv6 value: static_cast<int32_t>(0x29)
+  /// @brief Field IPv6 value: I32(41)
   static ::System::Net::Sockets::ProtocolType const IPv6;
 
-  /// @brief Field IPv6DestinationOptions value: static_cast<int32_t>(0x3c)
+  /// @brief Field IPv6DestinationOptions value: I32(60)
   static ::System::Net::Sockets::ProtocolType const IPv6DestinationOptions;
 
-  /// @brief Field IPv6FragmentHeader value: static_cast<int32_t>(0x2c)
+  /// @brief Field IPv6FragmentHeader value: I32(44)
   static ::System::Net::Sockets::ProtocolType const IPv6FragmentHeader;
 
-  /// @brief Field IPv6HopByHopOptions value: static_cast<int32_t>(0x0)
+  /// @brief Field IPv6HopByHopOptions value: I32(0)
   static ::System::Net::Sockets::ProtocolType const IPv6HopByHopOptions;
 
-  /// @brief Field IPv6NoNextHeader value: static_cast<int32_t>(0x3b)
+  /// @brief Field IPv6NoNextHeader value: I32(59)
   static ::System::Net::Sockets::ProtocolType const IPv6NoNextHeader;
 
-  /// @brief Field IPv6RoutingHeader value: static_cast<int32_t>(0x2b)
+  /// @brief Field IPv6RoutingHeader value: I32(43)
   static ::System::Net::Sockets::ProtocolType const IPv6RoutingHeader;
 
-  /// @brief Field Icmp value: static_cast<int32_t>(0x1)
+  /// @brief Field Icmp value: I32(1)
   static ::System::Net::Sockets::ProtocolType const Icmp;
 
-  /// @brief Field IcmpV6 value: static_cast<int32_t>(0x3a)
+  /// @brief Field IcmpV6 value: I32(58)
   static ::System::Net::Sockets::ProtocolType const IcmpV6;
 
-  /// @brief Field Idp value: static_cast<int32_t>(0x16)
+  /// @brief Field Idp value: I32(22)
   static ::System::Net::Sockets::ProtocolType const Idp;
 
-  /// @brief Field Igmp value: static_cast<int32_t>(0x2)
+  /// @brief Field Igmp value: I32(2)
   static ::System::Net::Sockets::ProtocolType const Igmp;
 
-  /// @brief Field Ipx value: static_cast<int32_t>(0x3e8)
+  /// @brief Field Ipx value: I32(1000)
   static ::System::Net::Sockets::ProtocolType const Ipx;
 
-  /// @brief Field ND value: static_cast<int32_t>(0x4d)
+  /// @brief Field ND value: I32(77)
   static ::System::Net::Sockets::ProtocolType const ND;
 
-  /// @brief Field Pup value: static_cast<int32_t>(0xc)
+  /// @brief Field Pup value: I32(12)
   static ::System::Net::Sockets::ProtocolType const Pup;
 
-  /// @brief Field Raw value: static_cast<int32_t>(0xff)
+  /// @brief Field Raw value: I32(255)
   static ::System::Net::Sockets::ProtocolType const Raw;
 
-  /// @brief Field Spx value: static_cast<int32_t>(0x4e8)
+  /// @brief Field Spx value: I32(1256)
   static ::System::Net::Sockets::ProtocolType const Spx;
 
-  /// @brief Field SpxII value: static_cast<int32_t>(0x4e9)
+  /// @brief Field SpxII value: I32(1257)
   static ::System::Net::Sockets::ProtocolType const SpxII;
 
-  /// @brief Field Tcp value: static_cast<int32_t>(0x6)
+  /// @brief Field Tcp value: I32(6)
   static ::System::Net::Sockets::ProtocolType const Tcp;
 
-  /// @brief Field Udp value: static_cast<int32_t>(0x11)
+  /// @brief Field Udp value: I32(17)
   static ::System::Net::Sockets::ProtocolType const Udp;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field Unknown value: I32(-1)
   static ::System::Net::Sockets::ProtocolType const Unknown;
 
-  /// @brief Field Unspecified value: static_cast<int32_t>(0x0)
+  /// @brief Field Unspecified value: I32(0)
   static ::System::Net::Sockets::ProtocolType const Unspecified;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9859 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::ProtocolType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::ProtocolType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::ProtocolType, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::ProtocolType, "System.Net.Sockets", "ProtocolType");

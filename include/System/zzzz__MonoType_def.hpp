@@ -11,11 +11,10 @@ class MonoType;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MonoType);
-// Type: System::MonoType
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.RuntimeType
 namespace System {
 // Is value type: false
-// CS Name: ::System::MonoType*
+// CS Name: System.MonoType
 class CORDL_TYPE MonoType : public ::System::RuntimeType {
 public:
   // Declarations

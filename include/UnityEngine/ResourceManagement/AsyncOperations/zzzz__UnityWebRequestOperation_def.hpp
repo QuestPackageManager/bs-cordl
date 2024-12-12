@@ -17,32 +17,31 @@ class UnityWebRequestOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation);
-// Type: UnityEngine.ResourceManagement.AsyncOperations::UnityWebRequestOperation
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::UnityWebRequestOperation*
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.UnityWebRequestOperation
 class CORDL_TYPE UnityWebRequestOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::Networking::UnityWebRequest*> {
 public:
   // Declarations
   /// @brief Field m_UWR, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UWR, put = __cordl_internal_set_m_UWR)) ::UnityEngine::Networking::UnityWebRequest* m_UWR;
 
-  /// @brief Method Execute, addr 0x47438c0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x47a4bd4, size 0x9c, virtual true, abstract: false, final false
   inline void Execute();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* webRequest);
 
-  /// @brief Method <Execute>b__2_0, addr 0x474395c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__2_0, addr 0x47a4c70, size 0x94, virtual false, abstract: false, final false
   inline void _Execute_b__2_0(::UnityEngine::AsyncOperation* request);
+
+  constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_m_UWR() const;
 
   constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get_m_UWR();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __cordl_internal_get_m_UWR() const;
-
   constexpr void __cordl_internal_set_m_UWR(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x4743864, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a4b78, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* webRequest);
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestOperation(UnityWebRequestOperation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15701 };
+
   /// @brief Field m_UWR, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ___m_UWR;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation, ___m_UWR) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation, 0xa0>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 NEED_NO_BOX(::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation);

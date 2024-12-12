@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyLevelProductPackSourceSO)
@@ -16,16 +15,16 @@ namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductPackSource;
+class LevelProductPackSource_SonyLevelProductPackSourceSO___c;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductPackSource____c;
+class SonyLevelProductPackSourceSO_LevelProductPackSource;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductRedirectionSource;
+class SonyLevelProductPackSourceSO_LevelProductRedirectionSource;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductSource;
+class SonyLevelProductPackSourceSO_LevelProductSource;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -35,98 +34,96 @@ template <typename T1, typename T2, typename TResult> class Func_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
+class LevelProductPackSource_SonyLevelProductPackSourceSO___c;
+}
+namespace GlobalNamespace {
 class SonyLevelProductPackSourceSO;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductPackSource;
+class SonyLevelProductPackSourceSO_LevelProductPackSource;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductPackSource____c;
+class SonyLevelProductPackSourceSO_LevelProductRedirectionSource;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductRedirectionSource;
-}
-namespace GlobalNamespace {
-class __SonyLevelProductPackSourceSO__LevelProductSource;
+class SonyLevelProductPackSourceSO_LevelProductSource;
 }
 // Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c);
 MARK_REF_PTR_T(::GlobalNamespace::SonyLevelProductPackSourceSO);
-MARK_REF_PTR_T(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource);
-MARK_REF_PTR_T(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c);
-MARK_REF_PTR_T(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource);
-MARK_REF_PTR_T(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource);
+MARK_REF_PTR_T(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource);
+MARK_REF_PTR_T(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SonyLevelProductPackSourceSO::LevelProductPackSource::<>c*
-class CORDL_TYPE __SonyLevelProductPackSourceSO__LevelProductPackSource____c : public ::System::Object {
+// CS Name: SonyLevelProductPackSourceSO/LevelProductPackSource/<>c
+class CORDL_TYPE LevelProductPackSource_SonyLevelProductPackSourceSO___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF___9__10_0,
-      put = setStaticF___9__10_0)) ::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>* __9__10_0;
+  __declspec(property(get = getStaticF___9__10_0,
+                      put =
+                          setStaticF___9__10_0)) ::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>* __9__10_0;
 
-  static inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c* New_ctor();
+  static inline ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* New_ctor();
 
-  /// @brief Method <.ctor>b__10_0, addr 0x26b4678, size 0x70, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource* __ctor_b__10_0(::GlobalNamespace::BeatmapLevelSO* level, int32_t index);
+  /// @brief Method <.ctor>b__10_0, addr 0x26e9144, size 0x70, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource* __ctor_b__10_0(::GlobalNamespace::BeatmapLevelSO* level, int32_t index);
 
-  /// @brief Method .ctor, addr 0x26b4670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e913c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c* getStaticF___9();
+  static inline ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* getStaticF___9();
 
-  static inline ::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>* getStaticF___9__10_0();
+  static inline ::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>* getStaticF___9__10_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* value);
 
-  static inline void setStaticF___9__10_0(::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>* value);
+  static inline void setStaticF___9__10_0(::System::Func_3<::UnityW<::GlobalNamespace::BeatmapLevelSO>, int32_t, ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyLevelProductPackSourceSO__LevelProductPackSource____c();
+  constexpr LevelProductPackSource_SonyLevelProductPackSourceSO___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductPackSource____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelProductPackSource_SonyLevelProductPackSourceSO___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SonyLevelProductPackSourceSO__LevelProductPackSource____c(__SonyLevelProductPackSourceSO__LevelProductPackSource____c&&) = delete;
+  LevelProductPackSource_SonyLevelProductPackSourceSO___c(LevelProductPackSource_SonyLevelProductPackSourceSO___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductPackSource____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelProductPackSource_SonyLevelProductPackSourceSO___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SonyLevelProductPackSourceSO__LevelProductPackSource____c(__SonyLevelProductPackSourceSO__LevelProductPackSource____c const&) = delete;
+  LevelProductPackSource_SonyLevelProductPackSourceSO___c(LevelProductPackSource_SonyLevelProductPackSourceSO___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelProductPackSource
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SonyLevelProductPackSourceSO::LevelProductPackSource*
-class CORDL_TYPE __SonyLevelProductPackSourceSO__LevelProductPackSource : public ::System::Object {
+// CS Name: SonyLevelProductPackSourceSO/LevelProductPackSource
+class CORDL_TYPE SonyLevelProductPackSourceSO_LevelProductPackSource : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c;
+  using __c = ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c;
 
   /// @brief Field _levelPack, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levelPack, put = __cordl_internal_set__levelPack)) ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> _levelPack;
 
   /// @brief Field _levelProductsData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelProductsData,
-                      put = __cordl_internal_set__levelProductsData)) ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*,
-                                                                               ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>
+                      put = __cordl_internal_set__levelProductsData)) ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*,
+                                                                               ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*>
       _levelProductsData;
 
   /// @brief Field _packIndex, offset 0x10, size 0x4
@@ -136,21 +133,21 @@ public:
 
   __declspec(property(
       get = get_levelProductsData,
-      put = set_levelProductsData)) ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>
+      put = set_levelProductsData)) ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*>
       levelProductsData;
 
   __declspec(property(get = get_packIndex)) int32_t packIndex;
 
-  static inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* New_ctor(::GlobalNamespace::BeatmapLevelPackSO* levelPack, int32_t packIndex);
+  static inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* New_ctor(::GlobalNamespace::BeatmapLevelPackSO* levelPack, int32_t packIndex);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> const& __cordl_internal_get__levelPack() const;
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackSO>& __cordl_internal_get__levelPack();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> const&
   __cordl_internal_get__levelProductsData() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*>&
+  constexpr ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*>&
   __cordl_internal_get__levelProductsData();
 
   constexpr int32_t const& __cordl_internal_get__packIndex() const;
@@ -160,39 +157,41 @@ public:
   constexpr void __cordl_internal_set__levelPack(::UnityW<::GlobalNamespace::BeatmapLevelPackSO> value);
 
   constexpr void __cordl_internal_set__levelProductsData(
-      ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> value);
+      ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> value);
 
   constexpr void __cordl_internal_set__packIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26b44c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e8f94, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPackSO* levelPack, int32_t packIndex);
 
-  /// @brief Method get_levelPack, addr 0x26b44b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPack, addr 0x26e8f7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> get_levelPack();
 
-  /// @brief Method get_levelProductsData, addr 0x26b44b8, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> get_levelProductsData();
+  /// @brief Method get_levelProductsData, addr 0x26e8f84, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> get_levelProductsData();
 
-  /// @brief Method get_packIndex, addr 0x26b44a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packIndex, addr 0x26e8f74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_packIndex();
 
-  /// @brief Method set_levelProductsData, addr 0x26b44c0, size 0x8, virtual false, abstract: false, final false
-  inline void
-  set_levelProductsData(::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> value);
+  /// @brief Method set_levelProductsData, addr 0x26e8f8c, size 0x8, virtual false, abstract: false, final false
+  inline void set_levelProductsData(::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyLevelProductPackSourceSO__LevelProductPackSource();
+  constexpr SonyLevelProductPackSourceSO_LevelProductPackSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductPackSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SonyLevelProductPackSourceSO_LevelProductPackSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SonyLevelProductPackSourceSO__LevelProductPackSource(__SonyLevelProductPackSourceSO__LevelProductPackSource&&) = delete;
+  SonyLevelProductPackSourceSO_LevelProductPackSource(SonyLevelProductPackSourceSO_LevelProductPackSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductPackSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SonyLevelProductPackSourceSO_LevelProductPackSource", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SonyLevelProductPackSourceSO__LevelProductPackSource(__SonyLevelProductPackSourceSO__LevelProductPackSource const&) = delete;
+  SonyLevelProductPackSourceSO_LevelProductPackSource(SonyLevelProductPackSourceSO_LevelProductPackSource const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13192 };
 
   /// @brief Field _packIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____packIndex;
@@ -201,29 +200,25 @@ public:
   ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> ____levelPack;
 
   /// @brief Field _levelProductsData, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> ____levelProductsData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13157 };
+  ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> ____levelProductsData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource, ____packIndex) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource, ____packIndex) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource, ____levelPack) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource, ____levelPack) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource, ____levelProductsData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource, ____levelProductsData) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelProductSource
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SonyLevelProductPackSourceSO::LevelProductSource*
-class CORDL_TYPE __SonyLevelProductPackSourceSO__LevelProductSource : public ::System::Object {
+// CS Name: SonyLevelProductPackSourceSO/LevelProductSource
+class CORDL_TYPE SonyLevelProductPackSourceSO_LevelProductSource : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _level, offset 0x38, size 0x8
@@ -256,7 +251,7 @@ public:
 
   __declspec(property(get = get_ps5SieeDcCode, put = set_ps5SieeDcCode)) ::StringW ps5SieeDcCode;
 
-  static inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource* New_ctor(::GlobalNamespace::BeatmapLevelSO* level, int32_t levelIndex);
+  static inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource* New_ctor(::GlobalNamespace::BeatmapLevelSO* level, int32_t levelIndex);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__level() const;
 
@@ -294,52 +289,55 @@ public:
 
   constexpr void __cordl_internal_set__ps5SieeDcCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26b46e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e91b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelSO* level, int32_t levelIndex);
 
-  /// @brief Method get_level, addr 0x26b4760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_level, addr 0x26e922c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_level();
 
-  /// @brief Method get_levelIndex, addr 0x26b4718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelIndex, addr 0x26e91e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelIndex();
 
-  /// @brief Method get_ps4SieaAcCode, addr 0x26b4750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieaAcCode, addr 0x26e921c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieaAcCode();
 
-  /// @brief Method get_ps4SieeDcCode, addr 0x26b4740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieeDcCode, addr 0x26e920c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieeDcCode();
 
-  /// @brief Method get_ps5SieaAcCode, addr 0x26b4730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieaAcCode, addr 0x26e91fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieaAcCode();
 
-  /// @brief Method get_ps5SieeDcCode, addr 0x26b4720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieeDcCode, addr 0x26e91ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieeDcCode();
 
-  /// @brief Method set_ps4SieaAcCode, addr 0x26b4758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieaAcCode, addr 0x26e9224, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps4SieeDcCode, addr 0x26b4748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieeDcCode, addr 0x26e9214, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieeDcCode(::StringW value);
 
-  /// @brief Method set_ps5SieaAcCode, addr 0x26b4738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieaAcCode, addr 0x26e9204, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps5SieeDcCode, addr 0x26b4728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieeDcCode, addr 0x26e91f4, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieeDcCode(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyLevelProductPackSourceSO__LevelProductSource();
+  constexpr SonyLevelProductPackSourceSO_LevelProductSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SonyLevelProductPackSourceSO_LevelProductSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SonyLevelProductPackSourceSO__LevelProductSource(__SonyLevelProductPackSourceSO__LevelProductSource&&) = delete;
+  SonyLevelProductPackSourceSO_LevelProductSource(SonyLevelProductPackSourceSO_LevelProductSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SonyLevelProductPackSourceSO_LevelProductSource", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SonyLevelProductPackSourceSO__LevelProductSource(__SonyLevelProductPackSourceSO__LevelProductSource const&) = delete;
+  SonyLevelProductPackSourceSO_LevelProductSource(SonyLevelProductPackSourceSO_LevelProductSource const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13193 };
 
   /// @brief Field _levelIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____levelIndex;
@@ -359,33 +357,29 @@ public:
   /// @brief Field _level, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____level;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13158 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource, ____levelIndex) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource, ____levelIndex) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource, ____ps5SieeDcCode) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource, ____ps5SieeDcCode) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource, ____ps5SieaAcCode) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource, ____ps5SieaAcCode) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource, ____ps4SieeDcCode) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource, ____ps4SieeDcCode) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource, ____ps4SieaAcCode) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource, ____ps4SieaAcCode) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource, ____level) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource, ____level) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelProductRedirectionSource
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SonyLevelProductPackSourceSO::LevelProductRedirectionSource*
-class CORDL_TYPE __SonyLevelProductPackSourceSO__LevelProductRedirectionSource : public ::System::Object {
+// CS Name: SonyLevelProductPackSourceSO/LevelProductRedirectionSource
+class CORDL_TYPE SonyLevelProductPackSourceSO_LevelProductRedirectionSource : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _redirectedProductLabel, offset 0x18, size 0x8
@@ -403,7 +397,7 @@ public:
 
   __declspec(property(get = get_validUntilDate)) ::StringW validUntilDate;
 
-  static inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource* New_ctor();
+  static inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__redirectedProductLabel() const;
 
@@ -423,31 +417,34 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26b4780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e924c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_redirectedProductLabel, addr 0x26b4770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedProductLabel, addr 0x26e923c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_redirectedProductLabel();
 
-  /// @brief Method get_sourceLevelPackId, addr 0x26b4768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLevelPackId, addr 0x26e9234, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sourceLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x26b4778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x26e9244, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyLevelProductPackSourceSO__LevelProductRedirectionSource();
+  constexpr SonyLevelProductPackSourceSO_LevelProductRedirectionSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductRedirectionSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SonyLevelProductPackSourceSO_LevelProductRedirectionSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SonyLevelProductPackSourceSO__LevelProductRedirectionSource(__SonyLevelProductPackSourceSO__LevelProductRedirectionSource&&) = delete;
+  SonyLevelProductPackSourceSO_LevelProductRedirectionSource(SonyLevelProductPackSourceSO_LevelProductRedirectionSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelProductPackSourceSO__LevelProductRedirectionSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SonyLevelProductPackSourceSO_LevelProductRedirectionSource", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SonyLevelProductPackSourceSO__LevelProductRedirectionSource(__SonyLevelProductPackSourceSO__LevelProductRedirectionSource const&) = delete;
+  SonyLevelProductPackSourceSO_LevelProductRedirectionSource(SonyLevelProductPackSourceSO_LevelProductRedirectionSource const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13194 };
 
   /// @brief Field _sourceLevelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____sourceLevelPackId;
@@ -458,79 +455,74 @@ public:
   /// @brief Field _validUntilDate, offset: 0x20, size: 0x8, def value: None
   ::StringW ____validUntilDate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13159 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource, ____sourceLevelPackId) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource, ____sourceLevelPackId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource, ____redirectedProductLabel) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource, ____redirectedProductLabel) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource, ____validUntilDate) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource, ____validUntilDate) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SonyLevelProductPackSourceSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SonyLevelProductPackSourceSO*
+// CS Name: SonyLevelProductPackSourceSO
 class CORDL_TYPE SonyLevelProductPackSourceSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  using LevelProductPackSource = ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource;
+  using LevelProductPackSource = ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource;
 
-  using LevelProductRedirectionSource = ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource;
+  using LevelProductRedirectionSource = ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource;
 
-  using LevelProductSource = ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource;
+  using LevelProductSource = ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource;
 
   /// @brief Field _levelProductPackSource, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levelProductPackSource,
-                      put = __cordl_internal_set__levelProductPackSource)) ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* _levelProductPackSource;
+                      put = __cordl_internal_set__levelProductPackSource)) ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* _levelProductPackSource;
 
   /// @brief Field _levelProductRedirectionSources, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelProductRedirectionSources,
-                      put = __cordl_internal_set__levelProductRedirectionSources)) ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*,
-                                                                                            ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>*>
+                      put = __cordl_internal_set__levelProductRedirectionSources)) ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*,
+                                                                                            ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>*>
       _levelProductRedirectionSources;
 
-  __declspec(property(get = get_levelProductPackSource, put = set_levelProductPackSource)) ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* levelProductPackSource;
+  __declspec(property(get = get_levelProductPackSource, put = set_levelProductPackSource)) ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* levelProductPackSource;
 
-  __declspec(property(
-      get = get_redirectionSources)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>* redirectionSources;
+  __declspec(property(get =
+                          get_redirectionSources)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>* redirectionSources;
 
   static inline ::GlobalNamespace::SonyLevelProductPackSourceSO* New_ctor();
 
-  constexpr ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*& __cordl_internal_get__levelProductPackSource();
+  constexpr ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* const& __cordl_internal_get__levelProductPackSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*> const& __cordl_internal_get__levelProductPackSource() const;
+  constexpr ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource*& __cordl_internal_get__levelProductPackSource();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*,
-                     ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>*> const&
   __cordl_internal_get__levelProductRedirectionSources() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>*>&
+  constexpr ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>*>&
   __cordl_internal_get__levelProductRedirectionSources();
 
-  constexpr void __cordl_internal_set__levelProductPackSource(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* value);
+  constexpr void __cordl_internal_set__levelProductPackSource(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* value);
 
   constexpr void __cordl_internal_set__levelProductRedirectionSources(
-      ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>*> value);
+      ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>*> value);
 
-  /// @brief Method .ctor, addr 0x26b440c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e8ed8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelProductPackSource, addr 0x26b43f4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* get_levelProductPackSource();
+  /// @brief Method get_levelProductPackSource, addr 0x26e8ec0, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* get_levelProductPackSource();
 
-  /// @brief Method get_redirectionSources, addr 0x26b4404, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>* get_redirectionSources();
+  /// @brief Method get_redirectionSources, addr 0x26e8ed0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>* get_redirectionSources();
 
-  /// @brief Method set_levelProductPackSource, addr 0x26b43fc, size 0x8, virtual false, abstract: false, final false
-  inline void set_levelProductPackSource(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* value);
+  /// @brief Method set_levelProductPackSource, addr 0x26e8ec8, size 0x8, virtual false, abstract: false, final false
+  inline void set_levelProductPackSource(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* value);
 
 protected:
   // Ctor Parameters []
@@ -546,33 +538,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyLevelProductPackSourceSO(SonyLevelProductPackSourceSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13195 };
+
   /// @brief Field _levelProductPackSource, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* ____levelProductPackSource;
+  ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* ____levelProductPackSource;
 
   /// @brief Field _levelProductRedirectionSources, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>*>
+  ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>*>
       ____levelProductRedirectionSources;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyLevelProductPackSourceSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO, ____levelProductPackSource) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SonyLevelProductPackSourceSO, ____levelProductRedirectionSources) == 0x20, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyLevelProductPackSourceSO, 0x28>, "Size mismatch!");
+
 } // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c*, "", "SonyLevelProductPackSourceSO/LevelProductPackSource/<>c");
 NEED_NO_BOX(::GlobalNamespace::SonyLevelProductPackSourceSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyLevelProductPackSourceSO*, "", "SonyLevelProductPackSourceSO");
-NEED_NO_BOX(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource*, "", "SonyLevelProductPackSourceSO/LevelProductPackSource");
-NEED_NO_BOX(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c*, "", "SonyLevelProductPackSourceSO/LevelProductPackSource/<>c");
-NEED_NO_BOX(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*, "", "SonyLevelProductPackSourceSO/LevelProductRedirectionSource");
-NEED_NO_BOX(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, "", "SonyLevelProductPackSourceSO/LevelProductSource");
+NEED_NO_BOX(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource*, "", "SonyLevelProductPackSourceSO/LevelProductPackSource");
+NEED_NO_BOX(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*, "", "SonyLevelProductPackSourceSO/LevelProductRedirectionSource");
+NEED_NO_BOX(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, "", "SonyLevelProductPackSourceSO/LevelProductSource");

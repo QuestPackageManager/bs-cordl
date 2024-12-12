@@ -1,263 +1,264 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/AudioPitchGainEffect.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
 #include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8._ctor
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::*)(int32_t)>(
-    &::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)(int32_t)>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a773d8;
+  constexpr static std::size_t addrs = 0x3ace89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a77484;
+  constexpr static std::size_t addrs = 0x3ace948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3a77488;
+  constexpr static std::size_t addrs = 0x3ace94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7760c;
+  constexpr static std::size_t addrs = 0x3acead0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a77614;
+  constexpr static std::size_t addrs = 0x3acead8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7764c;
+  constexpr static std::size_t addrs = 0x3aceb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr int32_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::System::Object*& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::System::Object* const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_volumeScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___volumeScale;
+}
+constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_volumeScale() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___volumeScale;
+}
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set_volumeScale(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___volumeScale = value;
+}
+constexpr ::System::Action*& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_finishCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr ::System::Action* const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_finishCallback() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set_finishCallback(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___finishCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__startPitch_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startPitch_5__2;
+}
+constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__startPitch_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startPitch_5__2;
+}
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set__startPitch_5__2(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____startPitch_5__2 = value;
+}
+constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__time_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____time_5__3;
+}
+constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__time_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____time_5__3;
+}
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set__time_5__3(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____time_5__3 = value;
+}
+inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(__1__state));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::System::Object*& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr float_t& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get_volumeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___volumeScale;
-}
-constexpr float_t const& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get_volumeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___volumeScale;
-}
-constexpr void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_set_volumeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___volumeScale = value;
-}
-constexpr ::System::Action*& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get_finishCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get_finishCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_set_finishCallback(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___finishCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr float_t& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get__startPitch_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startPitch_5__2;
-}
-constexpr float_t const& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get__startPitch_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startPitch_5__2;
-}
-constexpr void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_set__startPitch_5__2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____startPitch_5__2 = value;
-}
-constexpr float_t& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get__time_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____time_5__3;
-}
-constexpr float_t const& GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_get__time_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____time_5__3;
-}
-constexpr void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__cordl_internal_set__time_5__3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____time_5__3 = value;
-}
-inline ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8* GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>(__1__state));
-}
-inline void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
-                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8::__AudioPitchGainEffect___StartEffectCoroutine_d__8() {}
+constexpr ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::AudioPitchGainEffect__StartEffectCoroutine_d__8() {}
 //  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::Start)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a77330;
+  constexpr static std::size_t addrs = 0x3ace7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect*>::get(), "Start",
@@ -271,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::AudioPitchGainEffect::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::AudioPitchGainEffect::StartEffectCoroutine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a77358;
+  constexpr static std::size_t addrs = 0x3ace81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::AudioPitchGainEffect::StartEffect)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a77400;
+  constexpr static std::size_t addrs = 0x3ace8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::InterruptEffect)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a77428;
+  constexpr static std::size_t addrs = 0x3ace8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect*>::get(),
@@ -314,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)(::UnityEngine::AudioSource*)>(
     &::GlobalNamespace::AudioPitchGainEffect::SetAudioSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a77468;
+  constexpr static std::size_t addrs = 0x3ace92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a77470;
+  constexpr static std::size_t addrs = 0x3ace934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect*>::get(), ".ctor",
@@ -364,7 +365,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::AudioPitchGainEffect:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pitchCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__pitchCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__pitchCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pitchCurve;
 }
@@ -376,7 +377,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::AudioPitchGainEffect:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gainCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__gainCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__gainCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gainCurve;
 }
@@ -388,7 +389,7 @@ constexpr ::UnityEngine::Coroutine*& GlobalNamespace::AudioPitchGainEffect::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentCoroutine;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__currentCoroutine() const {
+constexpr ::UnityEngine::Coroutine* const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__currentCoroutine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentCoroutine;
 }
@@ -448,13 +449,13 @@ inline void GlobalNamespace::AudioPitchGainEffect::SetAudioSource(::UnityEngine:
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioSource*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioSource);
 }
-inline ::GlobalNamespace::AudioPitchGainEffect* GlobalNamespace::AudioPitchGainEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioPitchGainEffect*>());
-}
 inline void GlobalNamespace::AudioPitchGainEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioPitchGainEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::AudioPitchGainEffect* GlobalNamespace::AudioPitchGainEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioPitchGainEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioPitchGainEffect::AudioPitchGainEffect() {}

@@ -22,27 +22,26 @@ class AsyncCausalityTracer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::AsyncCausalityTracer);
-// Type: System.Threading.Tasks::AsyncCausalityTracer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::AsyncCausalityTracer*
+// CS Name: System.Threading.Tasks.AsyncCausalityTracer
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TraceOperationCompletion, addr 0x3e0a824, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x3e6a8d0, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
-  /// @brief Method TraceOperationCreation, addr 0x3e0a820, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x3e6a8cc, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x3e07458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x3e67504, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x3e0a828, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkStart, addr 0x3e6a8d4, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method get_LoggingOn, addr 0x3e07450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoggingOn, addr 0x3e674fc, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
 protected:

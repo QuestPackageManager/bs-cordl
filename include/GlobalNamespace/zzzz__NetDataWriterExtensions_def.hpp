@@ -18,18 +18,17 @@ class NetDataWriterExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetDataWriterExtensions);
-// Type: ::NetDataWriterExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NetDataWriterExtensions*
+// CS Name: NetDataWriterExtensions
 class CORDL_TYPE NetDataWriterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetUpPacket, addr 0x22a7a94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x22dad80, size 0x4, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, ::GlobalNamespace::PacketOption packetOptions);
 
-  /// @brief Method SetUpPacket, addr 0x22a7a98, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x22dad84, size 0x4c, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, uint8_t packetOptions);
 
 protected:
@@ -47,7 +46,7 @@ public:
   NetDataWriterExtensions(NetDataWriterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14892 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

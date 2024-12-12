@@ -11,17 +11,16 @@ class NetSectionGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::NetSectionGroup);
-// Type: System.Net.Configuration::NetSectionGroup
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.ConfigurationSectionGroup
 namespace System::Net::Configuration {
 // Is value type: false
-// CS Name: ::System.Net.Configuration::NetSectionGroup*
+// CS Name: System.Net.Configuration.NetSectionGroup
 class CORDL_TYPE NetSectionGroup : public ::System::Configuration::ConfigurationSectionGroup {
 public:
   // Declarations
   static inline ::System::Net::Configuration::NetSectionGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a4b48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4405e5c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   NetSectionGroup(NetSectionGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

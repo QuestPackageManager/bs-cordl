@@ -3,7 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransitionData)
@@ -11,16 +12,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
 struct StylePropertyName;
@@ -34,11 +29,10 @@ struct TransitionData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TransitionData);
-// Type: UnityEngine.UIElements::TransitionData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleDataGroup`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::TransitionData
+// CS Name: UnityEngine.UIElements.TransitionData
 struct CORDL_TYPE TransitionData {
 public:
   // Declarations
@@ -48,19 +42,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*();
 
-  /// @brief Method Copy, addr 0x4a1c354, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a80c64, size 0x140, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransitionData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a1c494, size 0x160, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::TransitionData> other);
+  /// @brief Method CopyFrom, addr 0x4a80da4, size 0x160, virtual true, abstract: false, final true
+  inline void CopyFrom(::ByRef<::UnityEngine::UIElements::TransitionData> other);
 
-  /// @brief Method Equals, addr 0x4a1c68c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a80f9c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1c640, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a80f50, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransitionData other);
 
-  /// @brief Method GetHashCode, addr 0x4a1c73c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a8104c, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>"
@@ -69,7 +63,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransitionData_();
 
-  /// @brief Method op_Equality, addr 0x4a1c5f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a80f04, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransitionData lhs, ::UnityEngine::UIElements::TransitionData rhs);
 
   // Ctor Parameters []
@@ -85,6 +79,12 @@ public:
                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* transitionProperty,
                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* transitionTimingFunction) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6082 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field transitionDelay, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* transitionDelay;
 
@@ -97,17 +97,9 @@ public:
   /// @brief Field transitionTimingFunction, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* transitionTimingFunction;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6057 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::TransitionData, transitionDelay) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TransitionData, transitionDuration) == 0x8, "Offset mismatch!");
@@ -115,6 +107,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TransitionData, transitionDura
 static_assert(offsetof(::UnityEngine::UIElements::TransitionData, transitionProperty) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TransitionData, transitionTimingFunction) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionData, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransitionData, "UnityEngine.UIElements", "TransitionData");

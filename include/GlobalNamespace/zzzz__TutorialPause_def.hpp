@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TutorialPause)
 namespace GlobalNamespace {
 class AudioListenerController;
-}
-namespace GlobalNamespace {
-class IGamePause;
 }
 namespace GlobalNamespace {
 class SaberManager;
@@ -26,11 +24,10 @@ class TutorialPause;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TutorialPause);
-// Type: ::TutorialPause
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IGamePause, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TutorialPause*
+// CS Name: TutorialPause
 class CORDL_TYPE TutorialPause : public ::System::Object {
 public:
   // Declarations
@@ -64,13 +61,13 @@ public:
 
   static inline ::GlobalNamespace::TutorialPause* New_ctor();
 
-  /// @brief Method Pause, addr 0x3b8c4ec, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x3bedb5c, size 0x78, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x3b8c580, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x3bedbf0, size 0x74, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0x3b8c564, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x3bedbd4, size 0x1c, virtual true, abstract: false, final true
   inline void WillResume();
 
   constexpr ::UnityW<::GlobalNamespace::AudioListenerController> const& __cordl_internal_get__audioListenerController() const;
@@ -89,17 +86,17 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::TutorialSongController>& __cordl_internal_get__tutorialSongController();
 
+  constexpr ::System::Action* const& __cordl_internal_get_didPauseEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_didPauseEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPauseEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didResumeEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didResumeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didResumeEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_willResumeEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_willResumeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_willResumeEvent() const;
 
   constexpr void __cordl_internal_set__audioListenerController(::UnityW<::GlobalNamespace::AudioListenerController> value);
 
@@ -115,31 +112,31 @@ public:
 
   constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b8c5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bedc64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPauseEvent, addr 0x3b8c144, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x3bed7b4, size 0x9c, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x3b8c3b4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x3beda24, size 0x9c, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0x3b8c27c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x3bed8ec, size 0x9c, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x3b8c13c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x3bed7ac, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  /// @brief Method remove_didPauseEvent, addr 0x3b8c1e0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x3bed850, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x3b8c450, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x3bedac0, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0x3b8c318, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x3bed988, size 0x9c, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
 protected:
@@ -155,6 +152,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TutorialPause", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialPause(TutorialPause const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4701 };
 
   /// @brief Field _tutorialSongController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialSongController> ____tutorialSongController;
@@ -177,14 +177,9 @@ public:
   /// @brief Field _pause, offset: 0x40, size: 0x1, def value: None
   bool ____pause;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4689 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialPause, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TutorialPause, ____tutorialSongController) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TutorialPause, ____saberManager) == 0x18, "Offset mismatch!");
@@ -198,6 +193,8 @@ static_assert(offsetof(::GlobalNamespace::TutorialPause, ___willResumeEvent) == 
 static_assert(offsetof(::GlobalNamespace::TutorialPause, ___didResumeEvent) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TutorialPause, ____pause) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialPause, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialPause);

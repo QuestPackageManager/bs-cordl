@@ -15,158 +15,155 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c._ctor
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::*)()>(
-    &::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::*)()>(
+    &::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4492bf4;
+  constexpr static std::size_t addrs = 0x44f3f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c._Start_b__6_0
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c._Start_b__6_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::*)(
-    ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*)>(&::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::_Start_b__6_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::*)(
+    ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::_Start_b__6_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4492bfc;
+  constexpr static std::size_t addrs = 0x44f3f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get(), "<Start>b__6_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get(), "<Start>b__6_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::setStaticF___9(::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get>(
-      std::forward<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>(value));
+inline void UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::setStaticF___9(::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get>(
+      std::forward<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>(value));
 }
-inline ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c* UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get>();
+inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c* UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get>();
 }
-inline void
-UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::setStaticF___9__6_0(::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value) {
+inline void UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::setStaticF___9__6_0(::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*, "<>9__6_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::getStaticF___9__6_0() {
+inline ::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::getStaticF___9__6_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*, "<>9__6_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get>();
 }
-inline ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c* UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>());
-}
-inline void UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::_ctor() {
+inline void UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::_Start_b__6_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp) {
+inline bool UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::_Start_b__6_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c*>::get(), "<Start>b__6_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>::get(), "<Start>b__6_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, rp);
 }
+inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c* UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c::__UpdateCatalogsOperation____c() {}
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0._ctor
+constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::UpdateCatalogsOperation___c() {}
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::*)()>(
-    &::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::*)()>(
+    &::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4492b90;
+  constexpr static std::size_t addrs = 0x44f3ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0._OnCleanCacheCompleted_b__0
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0._OnCleanCacheCompleted_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::*)(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>)>(
-        &::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::_OnCleanCacheCompleted_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::*)(
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::_OnCleanCacheCompleted_b__0)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4492c98;
+  constexpr static std::size_t addrs = 0x44f3fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0*>::get(), "<OnCleanCacheCompleted>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0*>::get(), "<OnCleanCacheCompleted>b__0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation*& UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::__cordl_internal_get___4__this() {
+constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation*& UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*> const&
-UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation* const& UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::__cordl_internal_set___4__this(::UnityEngine::AddressableAssets::UpdateCatalogsOperation* value) {
+constexpr void UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::__cordl_internal_set___4__this(::UnityEngine::AddressableAssets::UpdateCatalogsOperation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*&
-UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::__cordl_internal_get_catalogs() {
+UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::__cordl_internal_get_catalogs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> const&
-UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::__cordl_internal_get_catalogs() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* const&
+UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::__cordl_internal_get_catalogs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogs;
 }
-constexpr void UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::__cordl_internal_set_catalogs(
+constexpr void UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::__cordl_internal_set_catalogs(
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___catalogs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0* UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0*>());
-}
-inline void UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::_ctor() {
+inline void UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void
-UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::_OnCleanCacheCompleted_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> obj) {
+UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::_OnCleanCacheCompleted_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> obj) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0*>::get(), "<OnCleanCacheCompleted>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0*>::get(), "<OnCleanCacheCompleted>b__0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj);
 }
+inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0* UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0::__UpdateCatalogsOperation____c__DisplayClass11_0() {}
+constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::UpdateCatalogsOperation___c__DisplayClass11_0() {}
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::UpdateCatalogsOperation._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)(
     ::UnityEngine::AddressableAssets::AddressablesImpl*)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x448d3ac;
+  constexpr static std::size_t addrs = 0x44ee6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +179,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)(
     ::System::Collections::Generic::IEnumerable_1<::StringW>*, bool)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation::Start)> {
   constexpr static std::size_t size = 0x6e8;
-  constexpr static std::size_t addrs = 0x448d408;
+  constexpr static std::size_t addrs = 0x44ee71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)()>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x44920fc;
+  constexpr static std::size_t addrs = 0x44f3410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -214,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)()>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation::Destroy)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44922ac;
+  constexpr static std::size_t addrs = 0x44f35c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation::GetDependencies)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4492320;
+  constexpr static std::size_t addrs = 0x44f3634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)()>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation::Execute)> {
   constexpr static std::size_t size = 0x67c;
-  constexpr static std::size_t addrs = 0x4492440;
+  constexpr static std::size_t addrs = 0x44f3754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +260,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>, ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*)>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation::OnCleanCacheCompleted)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4492abc;
+  constexpr static std::size_t addrs = 0x44f3dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,8 +275,7 @@ constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::Addr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
-UnityEngine::AddressableAssets::UpdateCatalogsOperation::__cordl_internal_get_m_Addressables() const {
+constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& UnityEngine::AddressableAssets::UpdateCatalogsOperation::__cordl_internal_get_m_Addressables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
@@ -292,7 +288,7 @@ UnityEngine::AddressableAssets::UpdateCatalogsOperation::__cordl_internal_get_m_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocatorInfos;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* const&
 UnityEngine::AddressableAssets::UpdateCatalogsOperation::__cordl_internal_get_m_LocatorInfos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocatorInfos;
@@ -344,9 +340,6 @@ constexpr void UnityEngine::AddressableAssets::UpdateCatalogsOperation::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AutoCleanBundleCache = value;
 }
-inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation* UnityEngine::AddressableAssets::UpdateCatalogsOperation::New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>(aa));
-}
 inline void UnityEngine::AddressableAssets::UpdateCatalogsOperation::_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -397,6 +390,9 @@ inline void UnityEngine::AddressableAssets::UpdateCatalogsOperation::OnCleanCach
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handle, catalogs);
+}
+inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation* UnityEngine::AddressableAssets::UpdateCatalogsOperation::New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>(aa));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation::UpdateCatalogsOperation() {}

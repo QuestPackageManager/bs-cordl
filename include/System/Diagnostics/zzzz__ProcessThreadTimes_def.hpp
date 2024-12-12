@@ -15,11 +15,10 @@ class ProcessThreadTimes;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::ProcessThreadTimes);
-// Type: System.Diagnostics::ProcessThreadTimes
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::ProcessThreadTimes*
+// CS Name: System.Diagnostics.ProcessThreadTimes
 class CORDL_TYPE ProcessThreadTimes : public ::System::Object {
 public:
   // Declarations
@@ -63,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_user(int64_t value);
 
-  /// @brief Method .ctor, addr 0x43cc3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442d6cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TotalProcessorTime, addr 0x43cc7a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TotalProcessorTime, addr 0x442dab4, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
 protected:
@@ -83,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProcessThreadTimes(ProcessThreadTimes const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9269 };
+
   /// @brief Field create, offset: 0x10, size: 0x8, def value: None
   int64_t ___create;
 
@@ -95,14 +97,9 @@ public:
   /// @brief Field user, offset: 0x28, size: 0x8, def value: None
   int64_t ___user;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9244 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessThreadTimes, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___create) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___exit) == 0x18, "Offset mismatch!");
@@ -110,6 +107,8 @@ static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___exit) == 0x
 static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___kernel) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___user) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessThreadTimes, 0x30>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::ProcessThreadTimes);

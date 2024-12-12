@@ -13,20 +13,19 @@ class ObjectiveValueFormatterSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ObjectiveValueFormatterSO);
-// Type: ::ObjectiveValueFormatterSO
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ObjectiveValueFormatterSO*
+// CS Name: ObjectiveValueFormatterSO
 class CORDL_TYPE ObjectiveValueFormatterSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x269f850, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x26d4584, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::ObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x269f418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d414c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +43,7 @@ public:
   ObjectiveValueFormatterSO(ObjectiveValueFormatterSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

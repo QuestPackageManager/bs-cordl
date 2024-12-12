@@ -11,17 +11,16 @@ class InjectOptionalAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::InjectOptionalAttribute);
-// Type: Zenject::InjectOptionalAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.InjectAttributeBase
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::InjectOptionalAttribute*
+// CS Name: Zenject.InjectOptionalAttribute
 class CORDL_TYPE InjectOptionalAttribute : public ::Zenject::InjectAttributeBase {
 public:
   // Declarations
   static inline ::Zenject::InjectOptionalAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a8b81c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af012c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   InjectOptionalAttribute(InjectOptionalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

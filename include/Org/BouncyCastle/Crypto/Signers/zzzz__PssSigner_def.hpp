@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PssSigner)
@@ -17,9 +17,6 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -29,11 +26,10 @@ class PssSigner;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::PssSigner);
-// Type: Org.BouncyCastle.Crypto.Signers::PssSigner
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.ISigner, System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Signers::PssSigner*
+// CS Name: Org.BouncyCastle.Crypto.Signers.PssSigner
 class CORDL_TYPE PssSigner : public ::System::Object {
 public:
   // Declarations
@@ -84,29 +80,29 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x23a5fe0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x23d92cc, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ClearBlock, addr 0x23a5f10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearBlock, addr 0x23d91fc, size 0x24, virtual false, abstract: false, final false
   inline void ClearBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method CreateRawSigner, addr 0x23a5910, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateRawSigner, addr 0x23d8bfc, size 0xc8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest,
                                                                                  ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen, uint8_t trailer);
 
-  /// @brief Method CreateRawSigner, addr 0x23a5638, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateRawSigner, addr 0x23d8924, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method GenerateSignature, addr 0x23a6148, size 0x438, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23d9434, size 0x438, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x23a5c90, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23d8f7c, size 0x280, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ItoOSP, addr 0x23a6eec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ItoOSP, addr 0x23da1d8, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method MaskGeneratorFunction1, addr 0x23a6580, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method MaskGeneratorFunction1, addr 0x23d986c, size 0x470, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MaskGeneratorFunction1(::ArrayW<uint8_t, ::Array<uint8_t>*> Z, int32_t zOff, int32_t zLen, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest,
@@ -132,30 +128,30 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLen,
                                                                           uint8_t trailer);
 
-  /// @brief Method Reset, addr 0x23a60a4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x23d9390, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x23a5f34, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x23d9220, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method VerifySignature, addr 0x23a69f0, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23d9cdc, size 0x4fc, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_block() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_block();
 
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* const& __cordl_internal_get_cipher() const;
+
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __cordl_internal_get_cipher() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_contentDigest1() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_contentDigest1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_contentDigest1() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_contentDigest2() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_contentDigest2();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_contentDigest2() const;
 
   constexpr int32_t const& __cordl_internal_get_emBits() const;
 
@@ -169,17 +165,17 @@ public:
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mDash();
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mgfDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_mgfDigest() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mgfDigest() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mgfDigest();
 
   constexpr int32_t const& __cordl_internal_get_mgfhLen() const;
 
   constexpr int32_t& __cordl_internal_get_mgfhLen();
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr int32_t const& __cordl_internal_get_sLen() const;
 
@@ -225,34 +221,34 @@ public:
 
   constexpr void __cordl_internal_set_trailer(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23a5b9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8e88, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor, addr 0x23a5b44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8e30, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen);
 
-  /// @brief Method .ctor, addr 0x23a5b70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8e5c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen,
                     uint8_t trailer);
 
-  /// @brief Method .ctor, addr 0x23a5764, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8a50, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest1, ::Org::BouncyCastle::Crypto::IDigest* contentDigest2,
                     ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, uint8_t trailer);
 
-  /// @brief Method .ctor, addr 0x23a59d8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8cc4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x23a5b10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8dfc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor, addr 0x23a5ab8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8da4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLen);
 
-  /// @brief Method .ctor, addr 0x23a5ae4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8dd0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLen, uint8_t trailer);
 
-  /// @brief Method get_AlgorithmName, addr 0x23a5bd0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23d8ebc, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
@@ -271,6 +267,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PssSigner", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PssSigner(PssSigner const&) = delete;
+
+  /// @brief Field TrailerImplicit offset 0xffffffff size 0x1
+  static constexpr uint8_t TrailerImplicit{ static_cast<uint8_t>(0xbcu) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1150 };
 
   /// @brief Field contentDigest1, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___contentDigest1;
@@ -314,17 +316,9 @@ public:
   /// @brief Field trailer, offset: 0x68, size: 0x1, def value: None
   uint8_t ___trailer;
 
-  /// @brief Field TrailerImplicit offset 0xffffffff size 0x1
-  static constexpr uint8_t TrailerImplicit{ static_cast<uint8_t>(0xbcu) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1150 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::PssSigner, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::PssSigner, ___contentDigest1) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::PssSigner, ___contentDigest2) == 0x18, "Offset mismatch!");
@@ -352,6 +346,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::PssSigner, ___mDash
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::PssSigner, ___block) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::PssSigner, ___trailer) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::PssSigner, 0x70>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::PssSigner);

@@ -9,12 +9,6 @@
 #include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
 template <typename TContract>
-inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*
-Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
-                                                                     ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
-}
-template <typename TContract>
 inline void Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
                                                                               ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,6 +23,12 @@ template <typename TContract> inline ::Zenject::MemoryPoolInitialSizeMaxSizeBind
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>::get(), "WithId",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*, false>(this, ___internal_method, identifier);
+}
+template <typename TContract>
+inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*
+Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
+                                                                     ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::MemoryPoolIdInitialSizeMaxSizeBinder_1() {}

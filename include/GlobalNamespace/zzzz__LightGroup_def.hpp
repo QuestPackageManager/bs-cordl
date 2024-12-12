@@ -27,11 +27,10 @@ class LightGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightGroup);
-// Type: ::LightGroup
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightGroup*
+// CS Name: LightGroup
 class CORDL_TYPE LightGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -62,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroup* New_ctor();
 
-  /// @brief Method SetColor, addr 0x398a570, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x39e0f40, size 0x8c, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get__lightGroupSO() const;
@@ -73,13 +72,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightWithIdManager();
 
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_didRefreshContentEvent() const;
+
   constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_didRefreshContentEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_didRefreshContentEvent() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_respawnEvent() const;
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_respawnEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_respawnEvent() const;
 
   constexpr void __cordl_internal_set__lightGroupSO(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
@@ -89,38 +88,38 @@ public:
 
   constexpr void __cordl_internal_set_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x398a838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e1208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRefreshContentEvent, addr 0x398a410, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+  /// @brief Method add_didRefreshContentEvent, addr 0x39e0de0, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method add_respawnEvent, addr 0x398a2b0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+  /// @brief Method add_respawnEvent, addr 0x39e0c80, size 0xb0, virtual false, abstract: false, final false
+  inline void add_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method get_groupId, addr 0x398a134, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x39e0b04, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x398a22c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x39e0bfc, size 0x84, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_lightGroupSO, addr 0x398a034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupSO, addr 0x39e0a04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO();
 
-  /// @brief Method get_numberOfElements, addr 0x398a03c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfElements, addr 0x39e0a0c, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x398a1b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x39e0b80, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x398a0b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x39e0a88, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
-  /// @brief Method remove_didRefreshContentEvent, addr 0x398a4c0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+  /// @brief Method remove_didRefreshContentEvent, addr 0x39e0e90, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method remove_respawnEvent, addr 0x398a360, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+  /// @brief Method remove_respawnEvent, addr 0x39e0d30, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
 protected:
   // Ctor Parameters []
@@ -136,6 +135,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroup(LightGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16288 };
+
   /// @brief Field _lightGroupSO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroupSO;
 
@@ -148,14 +150,9 @@ public:
   /// @brief Field didRefreshContentEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___didRefreshContentEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16253 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroup, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightGroup, ____lightGroupSO) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroup, ____lightWithIdManager) == 0x28, "Offset mismatch!");
@@ -163,6 +160,8 @@ static_assert(offsetof(::GlobalNamespace::LightGroup, ____lightWithIdManager) ==
 static_assert(offsetof(::GlobalNamespace::LightGroup, ___respawnEvent) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroup, ___didRefreshContentEvent) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroup, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroup);

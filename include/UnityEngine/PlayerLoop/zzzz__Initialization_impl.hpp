@@ -3,18 +3,18 @@
 #include "UnityEngine/PlayerLoop/zzzz__Initialization_def.hpp"
 #include "UnityEngine/PlayerLoop/zzzz__Initialization_def.hpp"
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__Initialization__ProfilerStartFrame::__Initialization__ProfilerStartFrame() {}
+constexpr ::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame::Initialization_ProfilerStartFrame() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__Initialization__UpdateCameraMotionVectors::__Initialization__UpdateCameraMotionVectors() {}
+constexpr ::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors::Initialization_UpdateCameraMotionVectors() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__Initialization__DirectorSampleTime::__Initialization__DirectorSampleTime() {}
+constexpr ::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime::Initialization_DirectorSampleTime() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__Initialization__AsyncUploadTimeSlicedUpdate::__Initialization__AsyncUploadTimeSlicedUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate::Initialization_AsyncUploadTimeSlicedUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__Initialization__SynchronizeState::__Initialization__SynchronizeState() {}
+constexpr ::UnityEngine::PlayerLoop::Initialization_SynchronizeState::Initialization_SynchronizeState() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__Initialization__SynchronizeInputs::__Initialization__SynchronizeInputs() {}
+constexpr ::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs::Initialization_SynchronizeInputs() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate::__Initialization__XREarlyUpdate() {}
+constexpr ::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate::Initialization_XREarlyUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::Initialization::Initialization() {}

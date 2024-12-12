@@ -43,30 +43,29 @@ class SelectionPicker;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::SelectionPicker);
-// Type: UnityEngine.ProBuilder::SelectionPicker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::SelectionPicker*
+// CS Name: UnityEngine.ProBuilder.SelectionPicker
 class CORDL_TYPE SelectionPicker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PickEdgesInRect, addr 0x46ca958, size 0x8e4, virtual false, abstract: false, final false
+  /// @brief Method PickEdgesInRect, addr 0x472bc6c, size 0x8e4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*
-  PickEdgesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
+  PickEdgesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
-  /// @brief Method PickFace, addr 0x46cb9d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PickFace, addr 0x472cce8, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* PickFace(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::ProBuilder::ProBuilderMesh* pickable);
 
-  /// @brief Method PickFacesInRect, addr 0x46c9444, size 0xf44, virtual false, abstract: false, final false
+  /// @brief Method PickFacesInRect, addr 0x472a758, size 0xf44, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
-  PickFacesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
+  PickFacesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
-  /// @brief Method PickVerticesInRect, addr 0x46c846c, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method PickVerticesInRect, addr 0x4729780, size 0x670, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<int32_t>*>*
-  PickVerticesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
+  PickVerticesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
                      ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
 protected:
@@ -84,7 +83,7 @@ public:
   SelectionPicker(SelectionPicker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

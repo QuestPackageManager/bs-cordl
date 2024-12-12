@@ -8,68 +8,68 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair._ctor
+//  Writing Method size for method: ::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::*)()>(
-    &::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::*)()>(
+    &::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb5878;
+  constexpr static std::size_t addrs = 0x3c189b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::MissionHelpSO>& GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::__cordl_internal_get_missionHelp() {
+constexpr ::UnityW<::GlobalNamespace::MissionHelpSO>& GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::__cordl_internal_get_missionHelp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionHelp;
 }
-constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::__cordl_internal_get_missionHelp() const {
+constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::__cordl_internal_get_missionHelp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionHelp;
 }
-constexpr void GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::__cordl_internal_set_missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value) {
+constexpr void GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::__cordl_internal_set_missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___missionHelp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::__cordl_internal_get_gameObject() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::__cordl_internal_get_gameObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameObject;
 }
-constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::__cordl_internal_get_gameObject() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::__cordl_internal_get_gameObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameObject;
 }
-constexpr void GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::__cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value) {
+constexpr void GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::__cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair* GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>());
-}
-inline void GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::_ctor() {
+inline void GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair* GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair::__MissionHelpViewController__MissionHelpGameObjectPair() {}
+constexpr ::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::MissionHelpViewController_MissionHelpGameObjectPair() {}
 //  Writing Method size for method: ::GlobalNamespace::MissionHelpViewController.add_didFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*)>(&::GlobalNamespace::MissionHelpViewController::add_didFinishEvent)> {
+    ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*)>(&::GlobalNamespace::MissionHelpViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bb554c;
+  constexpr static std::size_t addrs = 0x3c18684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -77,14 +77,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*)>(&::GlobalNamespace::MissionHelpViewController::remove_didFinishEvent)> {
+    ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*)>(&::GlobalNamespace::MissionHelpViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bb55fc;
+  constexpr static std::size_t addrs = 0x3c18734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(::GlobalNamespace::MissionHelpSO*)>(
     &::GlobalNamespace::MissionHelpViewController::Setup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bb56ac;
+  constexpr static std::size_t addrs = 0x3c187e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionHelpViewController::DidActivate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3bb57a8;
+  constexpr static std::size_t addrs = 0x3c188e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(
     &::GlobalNamespace::MissionHelpViewController::RefreshContent)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3bb56d8;
+  constexpr static std::size_t addrs = 0x3c18810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(
     &::GlobalNamespace::MissionHelpViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bb5850;
+  constexpr static std::size_t addrs = 0x3c18988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(),
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(&::GlobalNamespace::MissionHelpViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb5870;
+  constexpr static std::size_t addrs = 0x3c189a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(), ".ctor",
@@ -171,31 +171,30 @@ constexpr void GlobalNamespace::MissionHelpViewController::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____okButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*>&
+constexpr ::ArrayW<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*>*>&
 GlobalNamespace::MissionHelpViewController::__cordl_internal_get__missionHelpGameObjectPairs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionHelpGameObjectPairs;
 }
-constexpr ::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*>*> const&
 GlobalNamespace::MissionHelpViewController::__cordl_internal_get__missionHelpGameObjectPairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionHelpGameObjectPairs;
 }
 constexpr void GlobalNamespace::MissionHelpViewController::__cordl_internal_set__missionHelpGameObjectPairs(
-    ::ArrayW<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair*>*> value) {
+    ::ArrayW<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionHelpGameObjectPairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*& GlobalNamespace::MissionHelpViewController::__cordl_internal_get_didFinishEvent() {
+constexpr ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*& GlobalNamespace::MissionHelpViewController::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*> const&
-GlobalNamespace::MissionHelpViewController::__cordl_internal_get_didFinishEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* const& GlobalNamespace::MissionHelpViewController::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr void GlobalNamespace::MissionHelpViewController::__cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value) {
+constexpr void GlobalNamespace::MissionHelpViewController::__cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -211,16 +210,16 @@ constexpr void GlobalNamespace::MissionHelpViewController::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionHelp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MissionHelpViewController::add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value) {
+inline void GlobalNamespace::MissionHelpViewController::add_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionHelpViewController::remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value) {
+inline void GlobalNamespace::MissionHelpViewController::remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MissionHelpViewController::Setup(::GlobalNamespace::MissionHelpSO* missionHelp) {
@@ -244,13 +243,13 @@ inline void GlobalNamespace::MissionHelpViewController::OkButtonPressed() {
                                                                              "OkButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MissionHelpViewController* GlobalNamespace::MissionHelpViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionHelpViewController*>());
-}
 inline void GlobalNamespace::MissionHelpViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionHelpViewController* GlobalNamespace::MissionHelpViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionHelpViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionHelpViewController::MissionHelpViewController() {}

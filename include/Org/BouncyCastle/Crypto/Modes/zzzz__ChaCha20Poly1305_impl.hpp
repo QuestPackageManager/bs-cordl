@@ -1,35 +1,34 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/ChaCha20Poly1305.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__ChaCha20Poly1305_impl.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__ChaCha20Poly1305_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ChaCha7539Engine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__ChaCha20Poly1305_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::__ChaCha20Poly1305__State(int32_t value__) noexcept {
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::ChaCha20Poly1305_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::__ChaCha20Poly1305__State() {}
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::Uninitialized{ static_cast<int32_t>(0x0) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::EncInit{ static_cast<int32_t>(0x1) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::EncAad{ static_cast<int32_t>(0x2) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::EncData{ static_cast<int32_t>(0x3) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::EncFinal{ static_cast<int32_t>(0x4) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::DecInit{ static_cast<int32_t>(0x5) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::DecAad{ static_cast<int32_t>(0x6) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::DecData{ static_cast<int32_t>(0x7) };
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State::DecFinal{ static_cast<int32_t>(0x8) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::ChaCha20Poly1305_State() {}
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::Uninitialized{ static_cast<int32_t>(0x0) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::EncInit{ static_cast<int32_t>(0x1) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::EncAad{ static_cast<int32_t>(0x2) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::EncData{ static_cast<int32_t>(0x3) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::EncFinal{ static_cast<int32_t>(0x4) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::DecInit{ static_cast<int32_t>(0x5) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::DecAad{ static_cast<int32_t>(0x6) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::DecData{ static_cast<int32_t>(0x7) };
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State::DecFinal{ static_cast<int32_t>(0x8) };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x236c64c;
+  constexpr static std::size_t addrs = 0x239f938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(),
@@ -43,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x236c6a4;
+  constexpr static std::size_t addrs = 0x239f990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x236c878;
+  constexpr static std::size_t addrs = 0x239fb64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Init)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x236c8b8;
+  constexpr static std::size_t addrs = 0x239fba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::GetOutputSize)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x236ce30;
+  constexpr static std::size_t addrs = 0x23a011c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::GetUpdateOutputSize)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x236cf20;
+  constexpr static std::size_t addrs = 0x23a020c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessAadByte)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x236d014;
+  constexpr static std::size_t addrs = 0x23a0300;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessAadBytes)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x236d1ec;
+  constexpr static std::size_t addrs = 0x23a04d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(
     uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessByte)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x236d3d8;
+  constexpr static std::size_t addrs = 0x23a06c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessBytes)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x236d7f0;
+  constexpr static std::size_t addrs = 0x23a0adc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::DoFinal)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x236dd00;
+  constexpr static std::size_t addrs = 0x23a0fec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::GetMac)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x236e258;
+  constexpr static std::size_t addrs = 0x23a1544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x236e2b4;
+  constexpr static std::size_t addrs = 0x23a15a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -234,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::CheckAad)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x236d0dc;
+  constexpr static std::size_t addrs = 0x23a03c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(),
@@ -248,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::CheckData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x236d660;
+  constexpr static std::size_t addrs = 0x23a094c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(),
@@ -260,14 +259,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(
-    ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishAad)> {
+    ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishAad)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x236e2c0;
+  constexpr static std::size_t addrs = 0x23a15ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(), "FinishAad", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State>::get() })));
     return ___internal_method;
   }
 };
@@ -275,14 +274,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(
-    ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishData)> {
+    ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishData)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x236e0c8;
+  constexpr static std::size_t addrs = 0x23a13b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(), "FinishData", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State>::get() })));
     return ___internal_method;
   }
 };
@@ -292,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(uint64_t, uint32_t, uint64_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::IncrementCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x236d188;
+  constexpr static std::size_t addrs = 0x23a0474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::InitMac)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x236e3ec;
+  constexpr static std::size_t addrs = 0x23a16d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(),
@@ -322,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(uint64_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::PadMac)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x236e2ec;
+  constexpr static std::size_t addrs = 0x23a15d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x236d728;
+  constexpr static std::size_t addrs = 0x23a0a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -355,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(bool, bool)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Reset)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x236ccfc;
+  constexpr static std::size_t addrs = 0x239ffe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,20 +363,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
-constexpr Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
-constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mChacha20() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mChacha20;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*> const&
-Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mChacha20() const {
+constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* const& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mChacha20() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mChacha20;
 }
@@ -389,7 +379,7 @@ constexpr ::Org::BouncyCastle::Crypto::IMac*& Org::BouncyCastle::Crypto::Modes::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPoly1305;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mPoly1305() const {
+constexpr ::Org::BouncyCastle::Crypto::IMac* const& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mPoly1305() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPoly1305;
 }
@@ -481,15 +471,15 @@ constexpr void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mDataCount = value;
 }
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mState() {
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mState;
 }
-constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State const& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mState() const {
+constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State const& Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_get_mState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mState;
 }
-constexpr void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_set_mState(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State value) {
+constexpr void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__cordl_internal_set_mState(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mState = value;
 }
@@ -513,16 +503,10 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Modes::Ch
   return ::cordl_internals::getStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "Zeroes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get>();
 }
-inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>());
-}
 inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::New_ctor(::Org::BouncyCastle::Crypto::IMac* poly1305) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(poly1305));
 }
 inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor(::Org::BouncyCastle::Crypto::IMac* poly1305) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -607,16 +591,16 @@ inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::CheckData() {
                                                                              "CheckData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishAad(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State nextState) {
+inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishAad(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State nextState) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(), "FinishAad", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nextState);
 }
-inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishData(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State nextState) {
+inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishData(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State nextState) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(), "FinishData", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nextState);
 }
 inline uint64_t Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::IncrementCount(uint64_t count, uint32_t increment, uint64_t limit) {
@@ -652,6 +636,20 @@ inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Reset(bool clear
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>::get(), "Reset", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, clearMac, resetCipher);
+}
+inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>());
+}
+inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::New_ctor(::Org::BouncyCastle::Crypto::IMac* poly1305) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(poly1305));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
+constexpr Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
+constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ChaCha20Poly1305() {}

@@ -12,11 +12,10 @@ class PublicAPIAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::PublicAPIAttribute);
-// Type: JetBrains.Annotations::PublicAPIAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::PublicAPIAttribute*
+// CS Name: JetBrains.Annotations.PublicAPIAttribute
 class CORDL_TYPE PublicAPIAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -35,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__Comment_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a8c268, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0b78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
-  /// @brief Method get_Comment, addr 0x4a8c290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x4af0ba0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment, addr 0x4a8c298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x4af0ba8, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
 protected:
@@ -61,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PublicAPIAttribute(PublicAPIAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18457 };
+
   /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Comment_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::PublicAPIAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::PublicAPIAttribute, ____Comment_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::PublicAPIAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::PublicAPIAttribute);

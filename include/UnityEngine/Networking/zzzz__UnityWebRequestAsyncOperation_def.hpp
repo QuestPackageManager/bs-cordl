@@ -14,11 +14,10 @@ class UnityWebRequestAsyncOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestAsyncOperation);
-// Type: UnityEngine.Networking::UnityWebRequestAsyncOperation
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AsyncOperation
 namespace UnityEngine::Networking {
 // Is value type: false
-// CS Name: ::UnityEngine.Networking::UnityWebRequestAsyncOperation*
+// CS Name: UnityEngine.Networking.UnityWebRequestAsyncOperation
 class CORDL_TYPE UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
@@ -30,19 +29,19 @@ public:
 
   static inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* New_ctor();
 
-  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get__webRequest_k__BackingField();
+  constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get__webRequest_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __cordl_internal_get__webRequest_k__BackingField() const;
+  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get__webRequest_k__BackingField();
 
   constexpr void __cordl_internal_set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x4a7ec90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae35a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_webRequest, addr 0x4a7ec80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_webRequest, addr 0x4ae3590, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
 
-  /// @brief Method set_webRequest, addr 0x4a7ec88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_webRequest, addr 0x4ae3598, size 0x8, virtual false, abstract: false, final false
   inline void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18233 };
+
   /// @brief Field <webRequest>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ____webRequest_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::UnityWebRequestAsyncOperation, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Networking::UnityWebRequestAsyncOperation, ____webRequest_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::UnityWebRequestAsyncOperation, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::UnityWebRequestAsyncOperation);

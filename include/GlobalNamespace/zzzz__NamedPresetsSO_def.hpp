@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(NamedPresetsSO)
 namespace GlobalNamespace {
 class NamedPreset;
@@ -15,11 +14,10 @@ class NamedPresetsSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NamedPresetsSO);
-// Type: ::NamedPresetsSO
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NamedPresetsSO*
+// CS Name: NamedPresetsSO
 class CORDL_TYPE NamedPresetsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -27,10 +25,10 @@ public:
 
   static inline ::GlobalNamespace::NamedPresetsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x269ee6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3ba0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_namedPresets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
 protected:
@@ -48,7 +46,7 @@ public:
   NamedPresetsSO(NamedPresetsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13034 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

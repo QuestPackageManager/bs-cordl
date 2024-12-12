@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LevelFilter_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SearchFilterParamsViewController)
 namespace GlobalNamespace {
@@ -47,11 +46,10 @@ class SearchFilterParamsViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SearchFilterParamsViewController);
-// Type: ::SearchFilterParamsViewController
-// SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController, LevelFilter
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SearchFilterParamsViewController*
+// CS Name: SearchFilterParamsViewController
 class CORDL_TYPE SearchFilterParamsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -116,36 +114,36 @@ public:
 
   /// @brief Field didFinishEvent, offset 0x150, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3b04ed4, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b63790, size 0x24c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b05120, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b639dc, size 0x1b8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x3b055dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x3b63ea4, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByNotOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x3b055b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x3b63e78, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method MaxBpmControllerValueDidChange, addr 0x3b05528, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MaxBpmControllerValueDidChange, addr 0x3b63df0, size 0x88, virtual false, abstract: false, final false
   inline void MaxBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float_t value);
 
-  /// @brief Method MinBpmControllerValueDidChange, addr 0x3b054a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MinBpmControllerValueDidChange, addr 0x3b63d68, size 0x88, virtual false, abstract: false, final false
   inline void MinBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float_t value);
 
   static inline ::GlobalNamespace::SearchFilterParamsViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x3b052d8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x3b63b94, size 0x1d4, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
-  /// @brief Method Refresh, addr 0x3b04b80, size 0x354, virtual false, abstract: false, final false
-  inline void Refresh(ByRef<::GlobalNamespace::LevelFilter> filter);
+  /// @brief Method Refresh, addr 0x3b63430, size 0x360, virtual false, abstract: false, final false
+  inline void Refresh(::ByRef<::GlobalNamespace::LevelFilter> filter);
 
-  /// @brief Method Setup, addr 0x3b04b50, size 0x30, virtual false, abstract: false, final false
-  inline void Setup(ByRef<::GlobalNamespace::LevelFilter> filter);
+  /// @brief Method Setup, addr 0x3b63400, size 0x30, virtual false, abstract: false, final false
+  inline void Setup(::ByRef<::GlobalNamespace::LevelFilter> filter);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> const& __cordl_internal_get__beatmapCharacteristicsDropdown() const;
 
@@ -219,10 +217,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown>& __cordl_internal_get__songPacksDropdown();
 
-  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*> const&
-  __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__beatmapCharacteristicsDropdown(::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> value);
 
@@ -260,16 +257,16 @@ public:
 
   constexpr void __cordl_internal_set__songPacksDropdown(::UnityW<::GlobalNamespace::SongPacksDropdown> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method .ctor, addr 0x3b05608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b63ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b049e8, size 0xb4, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
+  /// @brief Method add_didFinishEvent, addr 0x3b63298, size 0xb4, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b04a9c, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
+  /// @brief Method remove_didFinishEvent, addr 0x3b6334c, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* value);
 
 protected:
   // Ctor Parameters []
@@ -284,6 +281,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SearchFilterParamsViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SearchFilterParamsViewController(SearchFilterParamsViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5351 };
 
   /// @brief Field _filterByOwnedToggle, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByOwnedToggle;
@@ -340,16 +340,11 @@ public:
   ::GlobalNamespace::LevelFilter ____currentSearchFilter;
 
   /// @brief Field didFinishEvent, offset: 0x150, size: 0x8, def value: None
-  ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* ___didFinishEvent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5327 };
+  ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SearchFilterParamsViewController, 0x158>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____filterByOwnedToggle) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____filterByNotOwnedToggle) == 0x80, "Offset mismatch!");
@@ -387,6 +382,8 @@ static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____
 static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ____currentSearchFilter) == 0x100, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SearchFilterParamsViewController, ___didFinishEvent) == 0x150, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SearchFilterParamsViewController, 0x158>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SearchFilterParamsViewController);

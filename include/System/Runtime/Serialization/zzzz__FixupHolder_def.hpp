@@ -15,11 +15,10 @@ class FixupHolder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::FixupHolder);
-// Type: System.Runtime.Serialization::FixupHolder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::FixupHolder*
+// CS Name: System.Runtime.Serialization.FixupHolder
 class CORDL_TYPE FixupHolder : public ::System::Object {
 public:
   // Declarations
@@ -34,9 +33,9 @@ public:
 
   static inline ::System::Runtime::Serialization::FixupHolder* New_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
-  constexpr ::System::Object*& __cordl_internal_get_m_fixupInfo();
+  constexpr ::System::Object* const& __cordl_internal_get_m_fixupInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_fixupInfo() const;
+  constexpr ::System::Object*& __cordl_internal_get_m_fixupInfo();
 
   constexpr int32_t const& __cordl_internal_get_m_fixupType() const;
 
@@ -52,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_m_id(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3c999bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf9b30, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
 protected:
@@ -69,6 +68,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixupHolder(FixupHolder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3219 };
+
   /// @brief Field m_id, offset: 0x10, size: 0x8, def value: None
   int64_t ___m_id;
 
@@ -78,19 +80,16 @@ public:
   /// @brief Field m_fixupType, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_fixupType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3219 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::FixupHolder, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::FixupHolder, ___m_id) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::FixupHolder, ___m_fixupInfo) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::FixupHolder, ___m_fixupType) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::FixupHolder, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::FixupHolder);

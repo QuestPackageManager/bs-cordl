@@ -13,7 +13,7 @@ GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_acquireFunc() {
   return this->___m_acquireFunc;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*> const&
+constexpr ::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* const&
 GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_acquireFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_acquireFunc;
@@ -30,8 +30,7 @@ constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::
   return this->___m_releaseFunc;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*> const&
-GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_releaseFunc() const {
+constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* const& GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_releaseFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_releaseFunc;
 }
@@ -44,9 +43,7 @@ template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_callbacks;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>*> const&
-GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_callbacks() const {
+template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>* const& GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_callbacks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_callbacks;
 }
@@ -65,12 +62,6 @@ template <typename T> constexpr bool const& GlobalNamespace::DelegateList_1<T>::
 template <typename T> constexpr void GlobalNamespace::DelegateList_1<T>::__cordl_internal_set_m_invoking(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_invoking = value;
-}
-template <typename T>
-inline ::GlobalNamespace::DelegateList_1<T>*
-GlobalNamespace::DelegateList_1<T>::New_ctor(::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* acquireFunc,
-                                             ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* releaseFunc) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DelegateList_1<T>*>(acquireFunc, releaseFunc));
 }
 template <typename T>
 inline void GlobalNamespace::DelegateList_1<T>::_ctor(::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* acquireFunc,
@@ -114,6 +105,12 @@ template <typename T> inline ::GlobalNamespace::DelegateList_1<T>* GlobalNamespa
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DelegateList_1<T>*>::get(),
                                                                              "CreateWithGlobalCache", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DelegateList_1<T>*, false>(nullptr, ___internal_method);
+}
+template <typename T>
+inline ::GlobalNamespace::DelegateList_1<T>*
+GlobalNamespace::DelegateList_1<T>::New_ctor(::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* acquireFunc,
+                                             ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* releaseFunc) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DelegateList_1<T>*>(acquireFunc, releaseFunc));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::DelegateList_1<T>::DelegateList_1() {}

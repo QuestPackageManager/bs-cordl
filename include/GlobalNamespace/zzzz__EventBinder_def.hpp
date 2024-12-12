@@ -17,32 +17,31 @@ class EventBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EventBinder);
-// Type: ::EventBinder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EventBinder*
+// CS Name: EventBinder
 class CORDL_TYPE EventBinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _unsubscribes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__unsubscribes, put = __cordl_internal_set__unsubscribes)) ::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
 
-  /// @brief Method Bind, addr 0x396dac0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x39c2fa8, size 0xc8, virtual false, abstract: false, final false
   inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
 
-  /// @brief Method ClearAllBindings, addr 0x396db88, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllBindings, addr 0x39c3070, size 0x18c, virtual false, abstract: false, final false
   inline void ClearAllBindings();
 
   static inline ::GlobalNamespace::EventBinder* New_ctor();
 
-  constexpr ::System::Collections::Generic::List_1<::System::Action*>*& __cordl_internal_get__unsubscribes();
+  constexpr ::System::Collections::Generic::List_1<::System::Action*>* const& __cordl_internal_get__unsubscribes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Action*>*> const& __cordl_internal_get__unsubscribes() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Action*>*& __cordl_internal_get__unsubscribes();
 
   constexpr void __cordl_internal_set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x396dd14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c31fc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBinder(EventBinder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16415 };
+
   /// @brief Field _unsubscribes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Action*>* ____unsubscribes;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EventBinder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EventBinder, ____unsubscribes) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EventBinder, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EventBinder);

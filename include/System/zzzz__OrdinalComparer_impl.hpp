@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OrdinalComparer::*)(bool)>(&::System::OrdinalComparer::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3da008c;
+  constexpr static std::size_t addrs = 0x3e00138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalComparer::*)(::StringW, ::StringW)>(&::System::OrdinalComparer::Compare)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3da00fc;
+  constexpr static std::size_t addrs = 0x3e001a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::OrdinalComparer::*)(::StringW, ::StringW)>(&::System::OrdinalComparer::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3da0154;
+  constexpr static std::size_t addrs = 0x3e00200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalComparer::*)(::StringW)>(&::System::OrdinalComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3da01d4;
+  constexpr static std::size_t addrs = 0x3e00280;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::OrdinalComparer::*)(::System::Object*)>(&::System::OrdinalComparer::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3da025c;
+  constexpr static std::size_t addrs = 0x3e00308;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalComparer::*)()>(&::System::OrdinalComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3da02f4;
+  constexpr static std::size_t addrs = 0x3e003a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,9 +98,6 @@ constexpr bool const& System::OrdinalComparer::__cordl_internal_get__ignoreCase(
 constexpr void System::OrdinalComparer::__cordl_internal_set__ignoreCase(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreCase = value;
-}
-inline ::System::OrdinalComparer* System::OrdinalComparer::New_ctor(bool ignoreCase) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::OrdinalComparer*>(ignoreCase));
 }
 inline void System::OrdinalComparer::_ctor(bool ignoreCase) {
   static auto* ___internal_method =
@@ -132,6 +129,9 @@ inline int32_t System::OrdinalComparer::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OrdinalComparer*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::OrdinalComparer* System::OrdinalComparer::New_ctor(bool ignoreCase) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::OrdinalComparer*>(ignoreCase));
 }
 // Ctor Parameters []
 constexpr ::System::OrdinalComparer::OrdinalComparer() {}

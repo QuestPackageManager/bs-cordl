@@ -7,7 +7,6 @@
 #include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__GameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapObjectsInstaller.InstallBindings
@@ -15,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInstaller::*)()>(
     &::GlobalNamespace::BeatmapObjectsInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x3b8d670;
+  constexpr static std::size_t size = 0x420;
+  constexpr static std::size_t addrs = 0x3bef448;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInstaller::*)()>(&::GlobalNamespace::BeatmapObjectsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8dae8;
+  constexpr static std::size_t addrs = 0x3bef868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsInstaller*>::get(), ".ctor",
@@ -146,18 +145,6 @@ constexpr void GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_set__s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderLongPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController>& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__noteLineConnectionControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____noteLineConnectionControllerPrefab;
-}
-constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController> const& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__noteLineConnectionControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____noteLineConnectionControllerPrefab;
-}
-constexpr void GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_set__noteLineConnectionControllerPrefab(::UnityW<::GlobalNamespace::NoteLineConnectionController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteLineConnectionControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityW<::GlobalNamespace::BeatLine>& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__beatLinePrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatLinePrefab;
@@ -174,7 +161,7 @@ constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::Beatm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__sceneSetupData() const {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::BeatmapObjectsInstaller::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
@@ -187,13 +174,13 @@ inline void GlobalNamespace::BeatmapObjectsInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapObjectsInstaller* GlobalNamespace::BeatmapObjectsInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectsInstaller*>());
-}
 inline void GlobalNamespace::BeatmapObjectsInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapObjectsInstaller* GlobalNamespace::BeatmapObjectsInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectsInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectsInstaller::BeatmapObjectsInstaller() {}

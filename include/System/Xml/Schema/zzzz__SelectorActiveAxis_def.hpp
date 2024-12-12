@@ -25,11 +25,10 @@ class SelectorActiveAxis;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SelectorActiveAxis);
-// Type: System.Xml.Schema::SelectorActiveAxis
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.ActiveAxis
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::SelectorActiveAxis*
+// CS Name: System.Xml.Schema.SelectorActiveAxis
 class CORDL_TYPE SelectorActiveAxis : public ::System::Xml::Schema::ActiveAxis {
 public:
   // Declarations
@@ -44,28 +43,28 @@ public:
 
   __declspec(property(get = get_lastDepth)) int32_t lastDepth;
 
-  /// @brief Method EndElement, addr 0x43364dc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EndElement, addr 0x43977f0, size 0x48, virtual true, abstract: false, final false
   inline bool EndElement(::StringW localname, ::StringW URN);
 
   static inline ::System::Xml::Schema::SelectorActiveAxis* New_ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs);
 
-  /// @brief Method PopKS, addr 0x43368f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PopKS, addr 0x4397c08, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::KeySequence* PopKS();
 
-  /// @brief Method PushKS, addr 0x4336524, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method PushKS, addr 0x4397838, size 0x2d8, virtual false, abstract: false, final false
   inline int32_t PushKS(int32_t errline, int32_t errcol);
 
   constexpr int32_t const& __cordl_internal_get_KSpointer() const;
 
   constexpr int32_t& __cordl_internal_get_KSpointer();
 
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_KSs() const;
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_KSs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_KSs() const;
+  constexpr ::System::Xml::Schema::ConstraintStruct* const& __cordl_internal_get_cs() const;
 
   constexpr ::System::Xml::Schema::ConstraintStruct*& __cordl_internal_get_cs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ConstraintStruct*> const& __cordl_internal_get_cs() const;
 
   constexpr void __cordl_internal_set_KSpointer(int32_t value);
 
@@ -73,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_cs(::System::Xml::Schema::ConstraintStruct* value);
 
-  /// @brief Method .ctor, addr 0x4336370, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4397684, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs);
 
-  /// @brief Method get_lastDepth, addr 0x4336434, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_lastDepth, addr 0x4397748, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_lastDepth();
 
 protected:
@@ -93,6 +92,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectorActiveAxis(SelectorActiveAxis const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7485 };
+
   /// @brief Field cs, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Schema::ConstraintStruct* ___cs;
 
@@ -102,19 +104,16 @@ public:
   /// @brief Field KSpointer, offset: 0x38, size: 0x4, def value: None
   int32_t ___KSpointer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7460 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SelectorActiveAxis, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::SelectorActiveAxis, ___cs) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::SelectorActiveAxis, ___KSs) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::SelectorActiveAxis, ___KSpointer) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SelectorActiveAxis, 0x40>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::SelectorActiveAxis);

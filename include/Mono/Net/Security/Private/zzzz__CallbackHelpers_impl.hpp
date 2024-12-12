@@ -11,33 +11,33 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
-//  Writing Method size for method: ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0._ctor
+//  Writing Method size for method: ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::*)()>(
-    &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::*)()>(
+    &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40b5d14;
+  constexpr static std::size_t addrs = 0x4117028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0._PublicToMono_b__0
+//  Writing Method size for method: ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0._PublicToMono_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::*)(
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors)>(
-    &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::_PublicToMono_b__0)> {
+    &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_PublicToMono_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40b5d24;
+  constexpr static std::size_t addrs = 0x4117038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0*>::get(), "<PublicToMono>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0*>::get(), "<PublicToMono>b__0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::X509Certificate*>::get(),
@@ -46,33 +46,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::__cordl_internal_get_callback() {
+constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::__cordl_internal_get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const&
-Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::__cordl_internal_get_callback() const {
+constexpr ::System::Net::Security::RemoteCertificateValidationCallback* const& Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::__cordl_internal_get_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
-constexpr void Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::__cordl_internal_set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
+constexpr void Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::__cordl_internal_set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0* Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0*>());
-}
-inline void Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::_ctor() {
+inline void Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::_PublicToMono_b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c,
-                                                                                                      ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
-                                                                                                      ::Mono::Security::Interface::MonoSslPolicyErrors e) {
+inline bool Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_PublicToMono_b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c,
+                                                                                                   ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
+                                                                                                   ::Mono::Security::Interface::MonoSslPolicyErrors e) {
   static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0*>::get(), "<PublicToMono>b__0",
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0*>::get(), "<PublicToMono>b__0",
                                  std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::X509Certificate*>::get(),
@@ -80,36 +76,39 @@ inline bool Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::Interface::MonoSslPolicyErrors>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, h, c, ch, e);
 }
+inline ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0* Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0*>());
+}
 // Ctor Parameters []
-constexpr ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::__CallbackHelpers____c__DisplayClass0_0() {}
-//  Writing Method size for method: ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0._ctor
+constexpr ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::CallbackHelpers___c__DisplayClass0_0() {}
+//  Writing Method size for method: ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::*)()>(
-    &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::*)()>(
+    &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40b5d1c;
+  constexpr static std::size_t addrs = 0x4117030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0._MonoToInternal_b__0
+//  Writing Method size for method: ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0._MonoToInternal_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (
-    ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
-                                                                                ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
-    &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::_MonoToInternal_b__0)> {
+    ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
+                                                                             ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
+    &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_MonoToInternal_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40b5d48;
+  constexpr static std::size_t addrs = 0x411705c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0*>::get(), "<MonoToInternal>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0*>::get(), "<MonoToInternal>b__0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*>::get(),
@@ -118,34 +117,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::__cordl_internal_get_callback() {
+constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::__cordl_internal_get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*> const&
-Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::__cordl_internal_get_callback() const {
+constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* const& Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::__cordl_internal_get_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
-constexpr void Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::__cordl_internal_set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value) {
+constexpr void Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::__cordl_internal_set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0* Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0*>());
-}
-inline void Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::_ctor() {
+inline void Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
-Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::_MonoToInternal_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
-                                                                                            ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
-                                                                                            ::ArrayW<::StringW, ::Array<::StringW>*> ai) {
+Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_MonoToInternal_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
+                                                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
+                                                                                         ::ArrayW<::StringW, ::Array<::StringW>*> ai) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0*>::get(), "<MonoToInternal>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0*>::get(), "<MonoToInternal>b__0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*>::get(),
@@ -153,8 +148,11 @@ Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::_MonoToIn
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*, false>(this, ___internal_method, t, lc, rc, ai);
 }
+inline ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0* Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0*>());
+}
 // Ctor Parameters []
-constexpr ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::__CallbackHelpers____c__DisplayClass6_0() {}
+constexpr ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::CallbackHelpers___c__DisplayClass6_0() {}
 //  Writing Method size for method: ::Mono::Net::Security::Private::CallbackHelpers.PublicToMono
 template <>
 
@@ -162,7 +160,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
         &::Mono::Net::Security::Private::CallbackHelpers::PublicToMono)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x40b5278;
+  constexpr static std::size_t addrs = 0x411658c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Net::Security::LocalCertSelectionCallback* (*)(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&::Mono::Net::Security::Private::CallbackHelpers::MonoToInternal)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x40b01f4;
+  constexpr static std::size_t addrs = 0x4111508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

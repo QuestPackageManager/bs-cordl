@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Data/zzzz__AggregateType_def.hpp"
 #include "System/Data/zzzz__Aggregate_def.hpp"
 #include "System/Data/zzzz__ExpressionNode_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AggregateNode)
@@ -43,11 +42,10 @@ class AggregateNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::AggregateNode);
-// Type: System.Data::AggregateNode
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.Aggregate, System.Data.AggregateType, System.Data.ExpressionNode
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::AggregateNode*
+// CS Name: System.Data.AggregateNode
 class CORDL_TYPE AggregateNode : public ::System::Data::ExpressionNode {
 public:
   // Declarations
@@ -75,54 +73,54 @@ public:
   /// @brief Field _type, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Data::AggregateType _type;
 
-  /// @brief Method Bind, addr 0x410c750, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x416da64, size 0x1f4, virtual false, abstract: false, final false
   static inline void Bind(::System::Data::DataRelation* relation, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method Bind, addr 0x410c3ec, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x416d700, size 0x264, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x410cd58, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x416e06c, size 0x7c, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x410c944, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x416dc58, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x410cc6c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x416df80, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> records);
 
-  /// @brief Method Eval, addr 0x410c958, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x416dc6c, size 0x2d4, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x410cd40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x416e054, size 0x8, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x410cd48, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x416e05c, size 0x10, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x410cd30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x416e044, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x410cd38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x416e04c, size 0x8, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::AggregateNode* New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName);
 
   static inline ::System::Data::AggregateNode* New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName, bool local, ::StringW relationName);
 
-  /// @brief Method Optimize, addr 0x410cdf0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x416e104, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr ::System::Data::Aggregate const& __cordl_internal_get__aggregate() const;
 
   constexpr ::System::Data::Aggregate& __cordl_internal_get__aggregate();
 
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__childTable() const;
+
   constexpr ::System::Data::DataTable*& __cordl_internal_get__childTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& __cordl_internal_get__childTable() const;
+  constexpr ::System::Data::DataColumn* const& __cordl_internal_get__column() const;
 
   constexpr ::System::Data::DataColumn*& __cordl_internal_get__column();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataColumn*> const& __cordl_internal_get__column() const;
 
   constexpr ::StringW const& __cordl_internal_get__columnName() const;
 
@@ -132,9 +130,9 @@ public:
 
   constexpr bool& __cordl_internal_get__local();
 
-  constexpr ::System::Data::DataRelation*& __cordl_internal_get__relation();
+  constexpr ::System::Data::DataRelation* const& __cordl_internal_get__relation() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRelation*> const& __cordl_internal_get__relation() const;
+  constexpr ::System::Data::DataRelation*& __cordl_internal_get__relation();
 
   constexpr ::StringW const& __cordl_internal_get__relationName() const;
 
@@ -160,10 +158,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Data::AggregateType value);
 
-  /// @brief Method .ctor, addr 0x410c290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416d5a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName);
 
-  /// @brief Method .ctor, addr 0x410c29c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416d5b0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName, bool local, ::StringW relationName);
 
 protected:
@@ -179,6 +177,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AggregateNode", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AggregateNode(AggregateNode const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11414 };
 
   /// @brief Field _type, offset: 0x18, size: 0x4, def value: None
   ::System::Data::AggregateType ____type;
@@ -204,14 +205,9 @@ public:
   /// @brief Field _relation, offset: 0x48, size: 0x8, def value: None
   ::System::Data::DataRelation* ____relation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11381 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::AggregateNode, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::AggregateNode, ____type) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::AggregateNode, ____aggregate) == 0x1c, "Offset mismatch!");
@@ -227,6 +223,8 @@ static_assert(offsetof(::System::Data::AggregateNode, ____childTable) == 0x38, "
 static_assert(offsetof(::System::Data::AggregateNode, ____column) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::AggregateNode, ____relation) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::AggregateNode, 0x50>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::AggregateNode);

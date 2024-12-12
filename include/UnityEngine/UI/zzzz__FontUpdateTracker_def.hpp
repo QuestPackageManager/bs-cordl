@@ -23,27 +23,26 @@ class FontUpdateTracker;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::FontUpdateTracker);
-// Type: UnityEngine.UI::FontUpdateTracker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::FontUpdateTracker*
+// CS Name: UnityEngine.UI.FontUpdateTracker
 class CORDL_TYPE FontUpdateTracker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Tracked, offset 0xffffffff, size 0x8
-  static __declspec(property(
+  __declspec(property(
       get = getStaticF_m_Tracked,
       put =
           setStaticF_m_Tracked)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* m_Tracked;
 
-  /// @brief Method RebuildForFont, addr 0x48faa48, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RebuildForFont, addr 0x495f1f8, size 0x1a4, virtual false, abstract: false, final false
   static inline void RebuildForFont(::UnityEngine::Font* f);
 
-  /// @brief Method TrackText, addr 0x48fa800, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method TrackText, addr 0x495efb0, size 0x248, virtual false, abstract: false, final false
   static inline void TrackText(::UnityEngine::UI::Text* t);
 
-  /// @brief Method UntrackText, addr 0x48fabec, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UntrackText, addr 0x495f39c, size 0x208, virtual false, abstract: false, final false
   static inline void UntrackText(::UnityEngine::UI::Text* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* getStaticF_m_Tracked();
@@ -66,7 +65,7 @@ public:
   FontUpdateTracker(FontUpdateTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

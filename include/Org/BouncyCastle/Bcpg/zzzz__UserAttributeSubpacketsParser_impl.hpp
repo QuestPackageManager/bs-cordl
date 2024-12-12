@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26165b8;
+  constexpr static std::size_t addrs = 0x26498a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* (::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::ReadPacket)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x26166e8;
+  constexpr static std::size_t addrs = 0x26499d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,16 +39,13 @@ constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::UserAttributeSubpacket
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::__cordl_internal_get_input() const {
+constexpr ::System::IO::Stream* const& Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::__cordl_internal_get_input() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
 constexpr void Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::__cordl_internal_set_input(::System::IO::Stream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___input)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser* Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::New_ctor(::System::IO::Stream* input) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser*>(input));
 }
 inline void Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::_ctor(::System::IO::Stream* input) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -61,6 +58,9 @@ inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* Org::BouncyCastle::Bcp
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser* Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::New_ctor(::System::IO::Stream* input) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser*>(input));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::UserAttributeSubpacketsParser() {}

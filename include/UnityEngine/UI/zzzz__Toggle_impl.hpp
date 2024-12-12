@@ -1,57 +1,56 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/Toggle.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_impl.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "UnityEngine/UI/zzzz__ToggleGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UI::__Toggle__ToggleTransition::__Toggle__ToggleTransition(int32_t value__) noexcept {
+constexpr ::UnityEngine::UI::Toggle_ToggleTransition::Toggle_ToggleTransition(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__Toggle__ToggleTransition::__Toggle__ToggleTransition() {}
-constexpr ::UnityEngine::UI::__Toggle__ToggleTransition UnityEngine::UI::__Toggle__ToggleTransition::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UI::__Toggle__ToggleTransition UnityEngine::UI::__Toggle__ToggleTransition::Fade{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::UnityEngine::UI::__Toggle__ToggleEvent._ctor
+constexpr ::UnityEngine::UI::Toggle_ToggleTransition::Toggle_ToggleTransition() {}
+constexpr ::UnityEngine::UI::Toggle_ToggleTransition UnityEngine::UI::Toggle_ToggleTransition::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UI::Toggle_ToggleTransition UnityEngine::UI::Toggle_ToggleTransition::Fade{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::UnityEngine::UI::Toggle_ToggleEvent._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__Toggle__ToggleEvent::*)()>(&::UnityEngine::UI::__Toggle__ToggleEvent::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle_ToggleEvent::*)()>(&::UnityEngine::UI::Toggle_ToggleEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a67d90;
+  constexpr static std::size_t addrs = 0x4acc6a0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__Toggle__ToggleEvent*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle_ToggleEvent*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::__Toggle__ToggleEvent* UnityEngine::UI::__Toggle__ToggleEvent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__Toggle__ToggleEvent*>());
-}
-inline void UnityEngine::UI::__Toggle__ToggleEvent::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__Toggle__ToggleEvent*>::get(), ".ctor",
+inline void UnityEngine::UI::Toggle_ToggleEvent::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle_ToggleEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UI::Toggle_ToggleEvent* UnityEngine::UI::Toggle_ToggleEvent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::Toggle_ToggleEvent*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__Toggle__ToggleEvent::__Toggle__ToggleEvent() {}
+constexpr ::UnityEngine::UI::Toggle_ToggleEvent::Toggle_ToggleEvent() {}
 //  Writing Method size for method: ::UnityEngine::UI::Toggle.get_group
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::ToggleGroup> (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::get_group)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a67adc;
+  constexpr static std::size_t addrs = 0x4acc3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), "get_group",
@@ -64,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(::UnityEngine::UI::ToggleGroup*)>(&::UnityEngine::UI::Toggle::set_group)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a67ae4;
+  constexpr static std::size_t addrs = 0x4acc3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a67d04;
+  constexpr static std::size_t addrs = 0x4acc614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), ".ctor",
@@ -91,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(::UnityEngine::UI::CanvasUpdate)>(&::UnityEngine::UI::Toggle::Rebuild)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a67dd8;
+  constexpr static std::size_t addrs = 0x4acc6e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::LayoutComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a67ddc;
+  constexpr static std::size_t addrs = 0x4acc6ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::GraphicUpdateComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a67de0;
+  constexpr static std::size_t addrs = 0x4acc6f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::OnDestroy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a67de4;
+  constexpr static std::size_t addrs = 0x4acc6f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4a68254;
+  constexpr static std::size_t addrs = 0x4accb64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a68280;
+  constexpr static std::size_t addrs = 0x4accb90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4a682a0;
+  constexpr static std::size_t addrs = 0x4accbb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(::UnityEngine::UI::ToggleGroup*, bool)>(
     &::UnityEngine::UI::Toggle::SetToggleGroup)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4a67b04;
+  constexpr static std::size_t addrs = 0x4acc414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::get_isOn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a687a4;
+  constexpr static std::size_t addrs = 0x4acd0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), "get_isOn",
@@ -218,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(bool)>(&::UnityEngine::UI::Toggle::set_isOn)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a687ac;
+  constexpr static std::size_t addrs = 0x4acd0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -232,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(bool)>(&::UnityEngine::UI::Toggle::SetIsOnWithoutNotify)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a687b8;
+  constexpr static std::size_t addrs = 0x4acd0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -246,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(bool, bool)>(&::UnityEngine::UI::Toggle::Set)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4a683c4;
+  constexpr static std::size_t addrs = 0x4acccd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(bool)>(&::UnityEngine::UI::Toggle::PlayEffect)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a67c40;
+  constexpr static std::size_t addrs = 0x4acc550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -274,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a688fc;
+  constexpr static std::size_t addrs = 0x4acd20c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -288,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)()>(&::UnityEngine::UI::Toggle::InternalToggle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a68904;
+  constexpr static std::size_t addrs = 0x4acd214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), "InternalToggle",
@@ -302,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::Toggle::OnPointerClick)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a68958;
+  constexpr static std::size_t addrs = 0x4acd268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Toggle::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::UI::Toggle::OnSubmit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a6897c;
+  constexpr static std::size_t addrs = 0x4acd28c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -332,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::UI::Toggle::*)()>(
     &::UnityEngine::UI::Toggle::UnityEngine_UI_ICanvasElement_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68980;
+  constexpr static std::size_t addrs = 0x4acd290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -341,47 +340,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
-constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
-constexpr ::UnityEngine::EventSystems::IPointerClickHandler* UnityEngine::UI::Toggle::i___UnityEngine__EventSystems__IPointerClickHandler() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
-constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-constexpr ::UnityEngine::EventSystems::IEventSystemHandler* UnityEngine::UI::Toggle::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
-constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept {
-  return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
-constexpr ::UnityEngine::EventSystems::ISubmitHandler* UnityEngine::UI::Toggle::i___UnityEngine__EventSystems__ISubmitHandler() noexcept {
-  return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
-constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::UI::ICanvasElement*() noexcept {
-  return static_cast<::UnityEngine::UI::ICanvasElement*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UI::ICanvasElement"
-constexpr ::UnityEngine::UI::ICanvasElement* UnityEngine::UI::Toggle::i___UnityEngine__UI__ICanvasElement() noexcept {
-  return static_cast<::UnityEngine::UI::ICanvasElement*>(static_cast<void*>(this));
-}
-constexpr ::UnityEngine::UI::__Toggle__ToggleTransition& UnityEngine::UI::Toggle::__cordl_internal_get_toggleTransition() {
+constexpr ::UnityEngine::UI::Toggle_ToggleTransition& UnityEngine::UI::Toggle::__cordl_internal_get_toggleTransition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleTransition;
 }
-constexpr ::UnityEngine::UI::__Toggle__ToggleTransition const& UnityEngine::UI::Toggle::__cordl_internal_get_toggleTransition() const {
+constexpr ::UnityEngine::UI::Toggle_ToggleTransition const& UnityEngine::UI::Toggle::__cordl_internal_get_toggleTransition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleTransition;
 }
-constexpr void UnityEngine::UI::Toggle::__cordl_internal_set_toggleTransition(::UnityEngine::UI::__Toggle__ToggleTransition value) {
+constexpr void UnityEngine::UI::Toggle::__cordl_internal_set_toggleTransition(::UnityEngine::UI::Toggle_ToggleTransition value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toggleTransition = value;
 }
@@ -409,15 +376,15 @@ constexpr void UnityEngine::UI::Toggle::__cordl_internal_set_m_Group(::UnityW<::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Group)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::__Toggle__ToggleEvent*& UnityEngine::UI::Toggle::__cordl_internal_get_onValueChanged() {
+constexpr ::UnityEngine::UI::Toggle_ToggleEvent*& UnityEngine::UI::Toggle::__cordl_internal_get_onValueChanged() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onValueChanged;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Toggle__ToggleEvent*> const& UnityEngine::UI::Toggle::__cordl_internal_get_onValueChanged() const {
+constexpr ::UnityEngine::UI::Toggle_ToggleEvent* const& UnityEngine::UI::Toggle::__cordl_internal_get_onValueChanged() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onValueChanged;
 }
-constexpr void UnityEngine::UI::Toggle::__cordl_internal_set_onValueChanged(::UnityEngine::UI::__Toggle__ToggleEvent* value) {
+constexpr void UnityEngine::UI::Toggle::__cordl_internal_set_onValueChanged(::UnityEngine::UI::Toggle_ToggleEvent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onValueChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -443,9 +410,6 @@ inline void UnityEngine::UI::Toggle::set_group(::UnityEngine::UI::ToggleGroup* v
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), "set_group", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ToggleGroup*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::UI::Toggle* UnityEngine::UI::Toggle::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::Toggle*>());
 }
 inline void UnityEngine::UI::Toggle::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), ".ctor",
@@ -511,7 +475,6 @@ inline void UnityEngine::UI::Toggle::SetIsOnWithoutNotify(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-/// @param sendCallback: bool (default: true)
 inline void UnityEngine::UI::Toggle::Set(bool value, bool sendCallback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), "Set", std::span<Il2CppClass const* const, 0>(),
@@ -549,6 +512,41 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::UI::Toggle::UnityEngine_U
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Toggle*>::get(), "UnityEngine.UI.ICanvasElement.get_transform",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UI::Toggle* UnityEngine::UI::Toggle::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::Toggle*>());
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
+constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+constexpr ::UnityEngine::EventSystems::IPointerClickHandler* UnityEngine::UI::Toggle::i___UnityEngine__EventSystems__IPointerClickHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* UnityEngine::UI::Toggle::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
+constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+constexpr ::UnityEngine::EventSystems::ISubmitHandler* UnityEngine::UI::Toggle::i___UnityEngine__EventSystems__ISubmitHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
+constexpr UnityEngine::UI::Toggle::operator ::UnityEngine::UI::ICanvasElement*() noexcept {
+  return static_cast<::UnityEngine::UI::ICanvasElement*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UI::ICanvasElement"
+constexpr ::UnityEngine::UI::ICanvasElement* UnityEngine::UI::Toggle::i___UnityEngine__UI__ICanvasElement() noexcept {
+  return static_cast<::UnityEngine::UI::ICanvasElement*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Toggle::Toggle() {}

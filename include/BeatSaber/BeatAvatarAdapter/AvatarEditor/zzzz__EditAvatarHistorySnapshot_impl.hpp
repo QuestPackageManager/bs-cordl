@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot::*)(
     ::BeatSaber::BeatAvatarSDK::AvatarData*, ::BeatSaber::BeatAvatarSDK::AvatarPart)>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22281b0;
+  constexpr static std::size_t addrs = 0x2253724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapsho
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, avatarData, avatarEditPart);
 }
 // Ctor Parameters [CppParam { name: "avatarEditPart", ty: "::BeatSaber::BeatAvatarSDK::AvatarPart", modifiers: "", def_value: Some("{}") }, CppParam { name: "avatarData", ty:
-// "::BeatSaber::BeatAvatarSDK::AvatarData*", modifiers: "", def_value: Some("nullptr") }]
+// "::BeatSaber::BeatAvatarSDK::AvatarData*", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot::EditAvatarHistorySnapshot(::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart,
                                                                                                              ::BeatSaber::BeatAvatarSDK::AvatarData* avatarData) noexcept {
   this->avatarEditPart = avatarEditPart;

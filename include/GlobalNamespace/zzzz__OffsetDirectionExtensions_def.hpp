@@ -14,15 +14,14 @@ class OffsetDirectionExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OffsetDirectionExtensions);
-// Type: ::OffsetDirectionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OffsetDirectionExtensions*
+// CS Name: OffsetDirectionExtensions
 class CORDL_TYPE OffsetDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection, addr 0x2218d78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OppositeDirection, addr 0x224427c, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OffsetDirection OppositeDirection(::GlobalNamespace::OffsetDirection offsetDirection);
 
 protected:
@@ -40,7 +39,7 @@ public:
   OffsetDirectionExtensions(OffsetDirectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

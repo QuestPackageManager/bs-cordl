@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(
     &::GlobalNamespace::LeaderboardUploadData::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26cb4a4;
+  constexpr static std::size_t addrs = 0x26fcd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,19 +148,13 @@ constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::LeaderboardUploadData::__cordl_internal_get_modifiers() const {
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::LeaderboardUploadData::__cordl_internal_get_modifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiers;
 }
 constexpr void GlobalNamespace::LeaderboardUploadData::__cordl_internal_set_modifiers(::System::Collections::Generic::List_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___modifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::LeaderboardUploadData* GlobalNamespace::LeaderboardUploadData::New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId,
-                                                                                                  ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty,
-                                                                                                  ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers) {
-  return THROW_UNLESS(
-      ::il2cpp_utils::NewSpecific<::GlobalNamespace::LeaderboardUploadData*>(playerName, playerId, score, leaderboardId, songName, songSubName, authorName, bpm, difficulty, infoHash, modifiers));
 }
 inline void GlobalNamespace::LeaderboardUploadData::_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName,
                                                           ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers) {
@@ -174,6 +168,12 @@ inline void GlobalNamespace::LeaderboardUploadData::_ctor(::StringW playerName, 
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerName, playerId, score, leaderboardId, songName, songSubName, authorName, bpm, difficulty, infoHash,
                                                           modifiers);
+}
+inline ::GlobalNamespace::LeaderboardUploadData* GlobalNamespace::LeaderboardUploadData::New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId,
+                                                                                                  ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty,
+                                                                                                  ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::GlobalNamespace::LeaderboardUploadData*>(playerName, playerId, score, leaderboardId, songName, songSubName, authorName, bpm, difficulty, infoHash, modifiers));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardUploadData::LeaderboardUploadData() {}

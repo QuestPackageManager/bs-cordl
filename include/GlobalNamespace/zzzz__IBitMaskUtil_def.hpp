@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBitMaskUtil)
@@ -15,24 +13,23 @@ class IBitMaskUtil;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBitMaskUtil);
-// Type: ::IBitMaskUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IBitMaskUtil*
+// CS Name: IBitMaskUtil
 class CORDL_TYPE IBitMaskUtil : public ::System::Object {
 public:
   // Declarations
   /// @brief Method FromBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method GetBase64Char, addr 0x26ea468, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Char, addr 0x271cb04, size 0x44, virtual false, abstract: false, final false
   static inline char16_t GetBase64Char(uint64_t digit);
 
-  /// @brief Method GetBase64Digit, addr 0x26ea3fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Digit, addr 0x271ca98, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t GetBase64Digit(char16_t c);
 
-  /// @brief Method GetHexDigit, addr 0x26ea3ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetHexDigit, addr 0x271ca48, size 0x50, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);
 
   /// @brief Method NumberOfSetBits, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -45,10 +42,10 @@ public:
   template <typename T> static inline ::StringW ToShortString(T bitMask);
 
   /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryParse(::StringW stringSerializedMask, ByRef<T> bitMask);
+  template <typename T> static inline bool TryParse(::StringW stringSerializedMask, ::ByRef<T> bitMask);
 
   /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ByRef<T> bitMask);
+  template <typename T> static inline bool TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ::ByRef<T> bitMask);
 
 protected:
   // Ctor Parameters []
@@ -65,7 +62,7 @@ public:
   IBitMaskUtil(IBitMaskUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

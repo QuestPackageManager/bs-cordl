@@ -15,28 +15,27 @@ class BerNull;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerNull);
-// Type: Org.BouncyCastle.Asn1::BerNull
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerNull
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::BerNull*
+// CS Name: Org.BouncyCastle.Asn1.BerNull
 class CORDL_TYPE BerNull : public ::Org::BouncyCastle::Asn1::DerNull {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::BerNull* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::BerNull* Instance;
 
-  /// @brief Method Encode, addr 0x25fdf38, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2631224, size 0xd0, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor();
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor(int32_t dummy);
 
-  /// @brief Method .ctor, addr 0x25fde90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263117c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25fdee4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26311d0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* getStaticF_Instance();

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3bec9e8;
+  constexpr static std::size_t addrs = 0x3c4cafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3beca68;
+  constexpr static std::size_t addrs = 0x3c4cb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::set_RawData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3beca90;
+  constexpr static std::size_t addrs = 0x3c4cba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Certificate* (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::get_SigningCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becef8;
+  constexpr static std::size_t addrs = 0x3c4d00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::CheckSignature)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3becc04;
+  constexpr static std::size_t addrs = 0x3c4cd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Mono::Security::X509::X509Certificate*)>(&::Mono::Security::Authenticode::AuthenticodeDeformatter::CompareIssuerSerial)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3bed934;
+  constexpr static std::size_t addrs = 0x3c4da48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,15 +102,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(
-    ::Mono::Security::__PKCS7__SignedData*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Security::Cryptography::HashAlgorithm*)>(
+    ::Mono::Security::PKCS7_SignedData*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Security::Cryptography::HashAlgorithm*)>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::VerifySignature)> {
   constexpr static std::size_t size = 0xa34;
-  constexpr static std::size_t addrs = 0x3becf00;
+  constexpr static std::size_t addrs = 0x3c4d014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(), "VerifySignature", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::__PKCS7__SignedData*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::PKCS7_SignedData*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::HashAlgorithm*>::get() })));
     return ___internal_method;
@@ -120,14 +120,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(
-    ::Mono::Security::__PKCS7__SignerInfo*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::Authenticode::AuthenticodeDeformatter::VerifyCounterSignature)> {
+    ::Mono::Security::PKCS7_SignerInfo*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::Authenticode::AuthenticodeDeformatter::VerifyCounterSignature)> {
   constexpr static std::size_t size = 0x9ec;
-  constexpr static std::size_t addrs = 0x3beda30;
+  constexpr static std::size_t addrs = 0x3c4db44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(), "VerifyCounterSignature", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::__PKCS7__SignerInfo*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::PKCS7_SignerInfo*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3becb60;
+  constexpr static std::size_t addrs = 0x3c4cc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(),
@@ -186,7 +186,7 @@ constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::Au
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coll;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_coll() const {
+constexpr ::Mono::Security::X509::X509CertificateCollection* const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_coll() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coll;
 }
@@ -198,7 +198,7 @@ constexpr ::Mono::Security::ASN1*& Mono::Security::Authenticode::AuthenticodeDef
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedHash;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_signedHash() const {
+constexpr ::Mono::Security::ASN1* const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_signedHash() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedHash;
 }
@@ -222,7 +222,7 @@ constexpr ::Mono::Security::X509::X509Certificate*& Mono::Security::Authenticode
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signingCertificate;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_signingCertificate() const {
+constexpr ::Mono::Security::X509::X509Certificate* const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_signingCertificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signingCertificate;
 }
@@ -282,7 +282,7 @@ constexpr ::Mono::Security::X509::X509Chain*& Mono::Security::Authenticode::Auth
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signerChain;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Chain*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_signerChain() const {
+constexpr ::Mono::Security::X509::X509Chain* const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_signerChain() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signerChain;
 }
@@ -294,7 +294,7 @@ constexpr ::Mono::Security::X509::X509Chain*& Mono::Security::Authenticode::Auth
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timestampChain;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Chain*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_timestampChain() const {
+constexpr ::Mono::Security::X509::X509Chain* const& Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_internal_get_timestampChain() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timestampChain;
 }
@@ -302,16 +302,10 @@ constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timestampChain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* Mono::Security::Authenticode::AuthenticodeDeformatter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Authenticode::AuthenticodeDeformatter*>());
-}
 inline void Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* Mono::Security::Authenticode::AuthenticodeDeformatter::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Authenticode::AuthenticodeDeformatter*>(rawData));
 }
 inline void Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,19 +337,19 @@ inline bool Mono::Security::Authenticode::AuthenticodeDeformatter::CompareIssuer
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::X509::X509Certificate*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, issuer, serial, x509);
 }
-inline bool Mono::Security::Authenticode::AuthenticodeDeformatter::VerifySignature(::Mono::Security::__PKCS7__SignedData* sd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedMessageDigest,
+inline bool Mono::Security::Authenticode::AuthenticodeDeformatter::VerifySignature(::Mono::Security::PKCS7_SignedData* sd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedMessageDigest,
                                                                                    ::System::Security::Cryptography::HashAlgorithm* ha) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(), "VerifySignature", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::__PKCS7__SignedData*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::PKCS7_SignedData*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::HashAlgorithm*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, sd, calculatedMessageDigest, ha);
 }
-inline bool Mono::Security::Authenticode::AuthenticodeDeformatter::VerifyCounterSignature(::Mono::Security::__PKCS7__SignerInfo* cs, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature) {
+inline bool Mono::Security::Authenticode::AuthenticodeDeformatter::VerifyCounterSignature(::Mono::Security::PKCS7_SignerInfo* cs, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(), "VerifyCounterSignature", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::__PKCS7__SignerInfo*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::PKCS7_SignerInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cs, signature);
 }
@@ -363,6 +357,12 @@ inline void Mono::Security::Authenticode::AuthenticodeDeformatter::Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Authenticode::AuthenticodeDeformatter*>::get(),
                                                                              "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* Mono::Security::Authenticode::AuthenticodeDeformatter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Authenticode::AuthenticodeDeformatter*>());
+}
+inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* Mono::Security::Authenticode::AuthenticodeDeformatter::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Authenticode::AuthenticodeDeformatter*>(rawData));
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Authenticode::AuthenticodeDeformatter::AuthenticodeDeformatter() {}

@@ -14,11 +14,10 @@ class SpriteGlyph;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::SpriteGlyph);
-// Type: UnityEngine.TextCore.Text::SpriteGlyph
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TextCore.Glyph
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::SpriteGlyph*
+// CS Name: UnityEngine.TextCore.Text.SpriteGlyph
 class CORDL_TYPE SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x48ca604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492ec94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpriteGlyph(SpriteGlyph const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15252 };
+
   /// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::SpriteGlyph, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::SpriteGlyph, ___sprite) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::SpriteGlyph, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::SpriteGlyph);

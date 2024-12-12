@@ -21,11 +21,10 @@ class AuthenticationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Authentication::AuthenticationException);
-// Type: System.Security.Authentication::AuthenticationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Security::Authentication {
 // Is value type: false
-// CS Name: ::System.Security.Authentication::AuthenticationException*
+// CS Name: System.Security.Authentication.AuthenticationException
 class CORDL_TYPE AuthenticationException : public ::System::SystemException {
 public:
   // Declarations
@@ -38,16 +37,16 @@ public:
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x43d05a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44318bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43d0600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4431914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x43d0608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443191c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x43d0610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4431924, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:
@@ -65,7 +64,7 @@ public:
   AuthenticationException(AuthenticationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

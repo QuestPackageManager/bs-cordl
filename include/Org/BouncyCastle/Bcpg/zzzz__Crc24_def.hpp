@@ -12,11 +12,10 @@ class Crc24;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Crc24);
-// Type: Org.BouncyCastle.Bcpg::Crc24
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::Crc24*
+// CS Name: Org.BouncyCastle.Bcpg.Crc24
 class CORDL_TYPE Crc24 : public ::System::Object {
 public:
   // Declarations
@@ -25,15 +24,15 @@ public:
   /// @brief Field crc, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc)) int32_t crc;
 
-  /// @brief Method GetValue, addr 0x2611d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x2644ff4, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
   static inline ::Org::BouncyCastle::Bcpg::Crc24* New_ctor();
 
-  /// @brief Method Reset, addr 0x260bdb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x263f0a0, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x260bdc4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x263f0b0, size 0x34, virtual false, abstract: false, final false
   inline void Update(int32_t b);
 
   constexpr int32_t const& __cordl_internal_get_crc() const;
@@ -42,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_crc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x260b128, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263e414, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Value, addr 0x2611d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2644ffc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
 protected:
@@ -62,9 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Crc24(Crc24 const&) = delete;
 
-  /// @brief Field crc, offset: 0x10, size: 0x4, def value: None
-  int32_t ___crc;
-
   /// @brief Field Crc24Init offset 0xffffffff size 0x4
   static constexpr int32_t Crc24Init{ static_cast<int32_t>(0xb704ce) };
 
@@ -74,12 +70,15 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 561 };
 
+  /// @brief Field crc, offset: 0x10, size: 0x4, def value: None
+  int32_t ___crc;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Crc24, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::Crc24, ___crc) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Crc24, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Crc24);

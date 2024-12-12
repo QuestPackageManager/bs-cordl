@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::MatchSparse::*)(
     ::System::Text::RegularExpressions::Regex*, ::System::Collections::Hashtable*, int32_t, ::StringW, int32_t, int32_t, int32_t)>(&::System::Text::RegularExpressions::MatchSparse::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x43b008c;
+  constexpr static std::size_t addrs = 0x44113a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::GroupCollection* (::System::Text::RegularExpressions::MatchSparse::*)()>(
     &::System::Text::RegularExpressions::MatchSparse::get_Groups)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43b013c;
+  constexpr static std::size_t addrs = 0x4411450;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,18 +44,13 @@ constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::M
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____caps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::MatchSparse::__cordl_internal_get__caps() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::MatchSparse::__cordl_internal_get__caps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____caps;
 }
 constexpr void System::Text::RegularExpressions::MatchSparse::__cordl_internal_set__caps(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____caps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Text::RegularExpressions::MatchSparse* System::Text::RegularExpressions::MatchSparse::New_ctor(::System::Text::RegularExpressions::Regex* regex,
-                                                                                                                ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text,
-                                                                                                                int32_t begpos, int32_t len, int32_t startpos) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::MatchSparse*>(regex, caps, capcount, text, begpos, len, startpos));
 }
 inline void System::Text::RegularExpressions::MatchSparse::_ctor(::System::Text::RegularExpressions::Regex* regex, ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text,
                                                                  int32_t begpos, int32_t len, int32_t startpos) {
@@ -72,6 +67,11 @@ inline ::System::Text::RegularExpressions::GroupCollection* System::Text::Regula
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::MatchSparse*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::GroupCollection*, false>(this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::MatchSparse* System::Text::RegularExpressions::MatchSparse::New_ctor(::System::Text::RegularExpressions::Regex* regex,
+                                                                                                                ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text,
+                                                                                                                int32_t begpos, int32_t len, int32_t startpos) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::MatchSparse*>(regex, caps, capcount, text, begpos, len, startpos));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::MatchSparse::MatchSparse() {}

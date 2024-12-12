@@ -11,17 +11,16 @@ class CallerMemberNameAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::CallerMemberNameAttribute);
-// Type: System.Runtime.CompilerServices::CallerMemberNameAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::CallerMemberNameAttribute*
+// CS Name: System.Runtime.CompilerServices.CallerMemberNameAttribute
 class CORDL_TYPE CallerMemberNameAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::CallerMemberNameAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb6c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d16de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

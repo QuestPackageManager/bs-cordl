@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Timeline/SignalEmitter.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_impl.hpp"
+#include "UnityEngine/Timeline/zzzz__INotificationOptionProvider_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalEmitter_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
-#include "UnityEngine/Timeline/zzzz__INotificationOptionProvider_def.hpp"
 #include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalAsset_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::SignalEmitter::*)()>(&::UnityEngine::Timeline::SignalEmitter::get_retroactive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c37b8;
+  constexpr static std::size_t addrs = 0x4824acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalEmitter*>::get(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)(bool)>(&::UnityEngine::Timeline::SignalEmitter::set_retroactive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47c37c0;
+  constexpr static std::size_t addrs = 0x4824ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::SignalEmitter::*)()>(&::UnityEngine::Timeline::SignalEmitter::get_emitOnce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c37cc;
+  constexpr static std::size_t addrs = 0x4824ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalEmitter*>::get(), "get_emitOnce",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)(bool)>(&::UnityEngine::Timeline::SignalEmitter::set_emitOnce)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47c37d4;
+  constexpr static std::size_t addrs = 0x4824ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Timeline::SignalAsset> (::UnityEngine::Timeline::SignalEmitter::*)()>(
     &::UnityEngine::Timeline::SignalEmitter::get_asset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c37e0;
+  constexpr static std::size_t addrs = 0x4824af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalEmitter*>::get(), "get_asset",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)(::UnityEngine::Timeline::SignalAsset*)>(
     &::UnityEngine::Timeline::SignalEmitter::set_asset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c37e8;
+  constexpr static std::size_t addrs = 0x4824afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (::UnityEngine::Timeline::SignalEmitter::*)()>(
     &::UnityEngine::Timeline::SignalEmitter::UnityEngine_Playables_INotification_get_id)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47c37f0;
+  constexpr static std::size_t addrs = 0x4824b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::NotificationFlags (::UnityEngine::Timeline::SignalEmitter::*)()>(
     &::UnityEngine::Timeline::SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47c38b0;
+  constexpr static std::size_t addrs = 0x4824bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)()>(&::UnityEngine::Timeline::SignalEmitter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c38cc;
+  constexpr static std::size_t addrs = 0x4824be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalEmitter*>::get(), ".ctor",
@@ -133,22 +133,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::Playables::INotification"
-constexpr UnityEngine::Timeline::SignalEmitter::operator ::UnityEngine::Playables::INotification*() noexcept {
-  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Playables::INotification"
-constexpr ::UnityEngine::Playables::INotification* UnityEngine::Timeline::SignalEmitter::i___UnityEngine__Playables__INotification() noexcept {
-  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::Timeline::INotificationOptionProvider"
-constexpr UnityEngine::Timeline::SignalEmitter::operator ::UnityEngine::Timeline::INotificationOptionProvider*() noexcept {
-  return static_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Timeline::INotificationOptionProvider"
-constexpr ::UnityEngine::Timeline::INotificationOptionProvider* UnityEngine::Timeline::SignalEmitter::i___UnityEngine__Timeline__INotificationOptionProvider() noexcept {
-  return static_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(static_cast<void*>(this));
-}
 constexpr bool& UnityEngine::Timeline::SignalEmitter::__cordl_internal_get_m_Retroactive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Retroactive;
@@ -230,13 +214,29 @@ inline ::UnityEngine::Timeline::NotificationFlags UnityEngine::Timeline::SignalE
                                                "UnityEngine.Timeline.INotificationOptionProvider.get_flags", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::NotificationFlags, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Timeline::SignalEmitter* UnityEngine::Timeline::SignalEmitter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::SignalEmitter*>());
-}
 inline void UnityEngine::Timeline::SignalEmitter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalEmitter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Timeline::SignalEmitter* UnityEngine::Timeline::SignalEmitter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::SignalEmitter*>());
+}
+/// @brief Convert operator to "::UnityEngine::Playables::INotification"
+constexpr UnityEngine::Timeline::SignalEmitter::operator ::UnityEngine::Playables::INotification*() noexcept {
+  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Playables::INotification"
+constexpr ::UnityEngine::Playables::INotification* UnityEngine::Timeline::SignalEmitter::i___UnityEngine__Playables__INotification() noexcept {
+  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::Timeline::INotificationOptionProvider"
+constexpr UnityEngine::Timeline::SignalEmitter::operator ::UnityEngine::Timeline::INotificationOptionProvider*() noexcept {
+  return static_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Timeline::INotificationOptionProvider"
+constexpr ::UnityEngine::Timeline::INotificationOptionProvider* UnityEngine::Timeline::SignalEmitter::i___UnityEngine__Timeline__INotificationOptionProvider() noexcept {
+  return static_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::SignalEmitter::SignalEmitter() {}

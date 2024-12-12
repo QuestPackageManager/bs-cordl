@@ -12,17 +12,16 @@ class XPlatformAccessTokenFetchException;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::XPlatformAccessTokenFetchException);
-// Type: ::XPlatformAccessTokenFetchException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::XPlatformAccessTokenFetchException*
+// CS Name: XPlatformAccessTokenFetchException
 class CORDL_TYPE XPlatformAccessTokenFetchException : public ::System::Exception {
 public:
   // Declarations
   static inline ::GlobalNamespace::XPlatformAccessTokenFetchException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x401c600, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407d8b8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -40,7 +39,7 @@ public:
   XPlatformAccessTokenFetchException(XPlatformAccessTokenFetchException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(Func_15)
 namespace System {
 struct IntPtr;
@@ -20,14 +19,13 @@ class Func_15;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Func_15);
-// Type: System::Func`15
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14,
           typename TResult>
 // Is value type: false
-// CS Name: ::System::Func`15<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TResult>*
+// CS Name: System.Func`15<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TResult>
 class CORDL_TYPE Func_15 : public ::System::MulticastDelegate {
 public:
   // Declarations
@@ -54,7 +52,7 @@ public:
   Func_15(Func_15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13555 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

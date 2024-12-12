@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoLocalCertificateSelectionCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Security::Interface::MonoLocalCertificateSelectionCallback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3be4a60;
+  constexpr static std::size_t addrs = 0x3c44b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                            ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Mono::Security::Interface::MonoLocalCertificateSelectionCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3be4b00;
+  constexpr static std::size_t addrs = 0x3c44c14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,10 +40,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* Mono::Security::Interface::MonoLocalCertificateSelectionCallback::New_ctor(::System::Object* object,
-                                                                                                                                                      ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>(object, method));
-}
 inline void Mono::Security::Interface::MonoLocalCertificateSelectionCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -60,6 +56,10 @@ Mono::Security::Interface::MonoLocalCertificateSelectionCallback::Invoke(::Strin
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*, false>(this, ___internal_method, targetHost, localCertificates, remoteCertificate,
                                                                                                                           acceptableIssuers);
+}
+inline ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* Mono::Security::Interface::MonoLocalCertificateSelectionCallback::New_ctor(::System::Object* object,
+                                                                                                                                                      ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback::MonoLocalCertificateSelectionCallback() {}

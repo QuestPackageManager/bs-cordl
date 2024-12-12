@@ -20,11 +20,10 @@ struct MarkToMarkAdjustmentRecord;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord);
-// Type: UnityEngine.TextCore.LowLevel::MarkToMarkAdjustmentRecord
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TextCore.LowLevel.GlyphAnchorPoint, UnityEngine.TextCore.LowLevel.MarkPositionAdjustment
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.LowLevel::MarkToMarkAdjustmentRecord
+// CS Name: UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord
 struct CORDL_TYPE MarkToMarkAdjustmentRecord {
 public:
   // Declarations
@@ -36,16 +35,16 @@ public:
 
   __declspec(property(get = get_combiningMarkPositionAdjustment)) ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment combiningMarkPositionAdjustment;
 
-  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x48bc7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x4920e58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint get_baseMarkGlyphAnchorPoint();
 
-  /// @brief Method get_baseMarkGlyphID, addr 0x48bc7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphID, addr 0x4920e50, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseMarkGlyphID();
 
-  /// @brief Method get_combiningMarkGlyphID, addr 0x48bc7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkGlyphID, addr 0x4920e60, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_combiningMarkGlyphID();
 
-  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x48bc7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x4920e68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment get_combiningMarkPositionAdjustment();
 
   // Ctor Parameters []
@@ -57,6 +56,12 @@ public:
   // name: "m_CombiningMarkPositionAdjustment", ty: "::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment", modifiers: "", def_value: None }]
   constexpr MarkToMarkAdjustmentRecord(uint32_t m_BaseMarkGlyphID, ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint m_BaseMarkGlyphAnchorPoint, uint32_t m_CombiningMarkGlyphID,
                                        ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_CombiningMarkPositionAdjustment) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18188 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field m_BaseMarkGlyphID, offset: 0x0, size: 0x4, def value: None
   uint32_t m_BaseMarkGlyphID;
@@ -70,17 +75,9 @@ public:
   /// @brief Field m_CombiningMarkPositionAdjustment, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_CombiningMarkPositionAdjustment;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18108 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, m_BaseMarkGlyphID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, m_BaseMarkGlyphAnchorPoint) == 0x4, "Offset mismatch!");
@@ -88,6 +85,8 @@ static_assert(offsetof(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRe
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, m_CombiningMarkGlyphID) == 0xc, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, m_CombiningMarkPositionAdjustment) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "MarkToMarkAdjustmentRecord");

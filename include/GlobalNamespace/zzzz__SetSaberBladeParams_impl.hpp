@@ -8,62 +8,62 @@
 #include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
 #include "GlobalNamespace/zzzz__SetSaberBladeParams_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair._ctor
+//  Writing Method size for method: ::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::*)()>(
-    &::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::*)()>(
+    &::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b86768;
+  constexpr static std::size_t addrs = 0x3be7fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Color& GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::__cordl_internal_get_tintColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::__cordl_internal_get_tintColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tintColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::__cordl_internal_get_tintColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::__cordl_internal_get_tintColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tintColor;
 }
-constexpr void GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::__cordl_internal_set_tintColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::__cordl_internal_set_tintColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tintColor = value;
 }
-constexpr ::StringW& GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::__cordl_internal_get_property() {
+constexpr ::StringW& GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::__cordl_internal_get_property() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___property;
 }
-constexpr ::StringW const& GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::__cordl_internal_get_property() const {
+constexpr ::StringW const& GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::__cordl_internal_get_property() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___property;
 }
-constexpr void GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::__cordl_internal_set_property(::StringW value) {
+constexpr void GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::__cordl_internal_set_property(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair* GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>());
-}
-inline void GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::_ctor() {
+inline void GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair* GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::__SetSaberBladeParams__PropertyTintColorPair() {}
+constexpr ::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair::SetSaberBladeParams_PropertyTintColorPair() {}
 //  Writing Method size for method: ::GlobalNamespace::SetSaberBladeParams.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberBladeParams::*)()>(&::GlobalNamespace::SetSaberBladeParams::Start)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b8665c;
+  constexpr static std::size_t addrs = 0x3be7eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberBladeParams*>::get(), "Start",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberBladeParams::*)()>(&::GlobalNamespace::SetSaberBladeParams::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b86760;
+  constexpr static std::size_t addrs = 0x3be7fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberBladeParams*>::get(), ".ctor",
@@ -108,18 +108,18 @@ constexpr void GlobalNamespace::SetSaberBladeParams::__cordl_internal_set__meshR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*>&
+constexpr ::ArrayW<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*, ::Array<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*>*>&
 GlobalNamespace::SetSaberBladeParams::__cordl_internal_get__propertyTintColorPairs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyTintColorPairs;
 }
-constexpr ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*, ::Array<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*>*> const&
 GlobalNamespace::SetSaberBladeParams::__cordl_internal_get__propertyTintColorPairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyTintColorPairs;
 }
 constexpr void GlobalNamespace::SetSaberBladeParams::__cordl_internal_set__propertyTintColorPairs(
-    ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> value) {
+    ::ArrayW<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*, ::Array<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____propertyTintColorPairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -127,7 +127,7 @@ constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::SetSaberBladeParams
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::SetSaberBladeParams::__cordl_internal_get__colorManager() const {
+constexpr ::GlobalNamespace::ColorManager* const& GlobalNamespace::SetSaberBladeParams::__cordl_internal_get__colorManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
@@ -140,13 +140,13 @@ inline void GlobalNamespace::SetSaberBladeParams::Start() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SetSaberBladeParams* GlobalNamespace::SetSaberBladeParams::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SetSaberBladeParams*>());
-}
 inline void GlobalNamespace::SetSaberBladeParams::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberBladeParams*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SetSaberBladeParams* GlobalNamespace::SetSaberBladeParams::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SetSaberBladeParams*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetSaberBladeParams::SetSaberBladeParams() {}

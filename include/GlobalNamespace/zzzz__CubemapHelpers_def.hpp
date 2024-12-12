@@ -4,7 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CubemapHelpers)
 namespace System::Collections::Generic {
@@ -28,40 +28,39 @@ class CubemapHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CubemapHelpers);
-// Type: ::CubemapHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CubemapHelpers*
+// CS Name: CubemapHelpers
 class CORDL_TYPE CubemapHelpers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cubeFaceNumberId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__cubeFaceNumberId, put = setStaticF__cubeFaceNumberId)) int32_t _cubeFaceNumberId;
+  __declspec(property(get = getStaticF__cubeFaceNumberId, put = setStaticF__cubeFaceNumberId)) int32_t _cubeFaceNumberId;
 
   /// @brief Field _cubePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__cubePropertyId, put = setStaticF__cubePropertyId)) int32_t _cubePropertyId;
+  __declspec(property(get = getStaticF__cubePropertyId, put = setStaticF__cubePropertyId)) int32_t _cubePropertyId;
 
   /// @brief Field _cubemapFaceToCubeFaceNumberDict, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__cubemapFaceToCubeFaceNumberDict,
-                             put = setStaticF__cubemapFaceToCubeFaceNumberDict)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::CubemapFace, int32_t>* _cubemapFaceToCubeFaceNumberDict;
+  __declspec(property(get = getStaticF__cubemapFaceToCubeFaceNumberDict,
+                      put = setStaticF__cubemapFaceToCubeFaceNumberDict)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::CubemapFace, int32_t>* _cubemapFaceToCubeFaceNumberDict;
 
   /// @brief Field _cubemapFaces, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__cubemapFaces, put = setStaticF__cubemapFaces)) ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> _cubemapFaces;
+  __declspec(property(get = getStaticF__cubemapFaces, put = setStaticF__cubemapFaces)) ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> _cubemapFaces;
 
   /// @brief Field _cubemapHelpersMaterial, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__cubemapHelpersMaterial, put = setStaticF__cubemapHelpersMaterial)) ::UnityW<::UnityEngine::Material> _cubemapHelpersMaterial;
+  __declspec(property(get = getStaticF__cubemapHelpersMaterial, put = setStaticF__cubemapHelpersMaterial)) ::UnityW<::UnityEngine::Material> _cubemapHelpersMaterial;
 
-  /// @brief Method Create2DTextureFromCubemap, addr 0x3ab7370, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Create2DTextureFromCubemap, addr 0x3b142b4, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> Create2DTextureFromCubemap(::UnityEngine::RenderTexture* src);
 
-  /// @brief Method CreateDownsampledCubemap, addr 0x3ab7198, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CreateDownsampledCubemap, addr 0x3b140dc, size 0x1d8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreateDownsampledCubemap(::UnityEngine::RenderTexture* src, int32_t count);
 
-  /// @brief Method Downsample, addr 0x3ab6ec8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Downsample, addr 0x3b13e0c, size 0x12c, virtual false, abstract: false, final false
   static inline void Downsample(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method DrawCubemapFace, addr 0x3ab6ff4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DrawCubemapFace, addr 0x3b13f38, size 0x1a4, virtual false, abstract: false, final false
   static inline void DrawCubemapFace(::UnityEngine::Texture* cubemap, ::UnityEngine::CubemapFace cubemapFace);
 
   static inline int32_t getStaticF__cubeFaceNumberId();
@@ -74,7 +73,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__cubemapHelpersMaterial();
 
-  /// @brief Method get_cubemapHelpersMaterial, addr 0x3ab6da8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_cubemapHelpersMaterial, addr 0x3b13cec, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_cubemapHelpersMaterial();
 
   static inline void setStaticF__cubeFaceNumberId(int32_t value);
@@ -102,7 +101,7 @@ public:
   CubemapHelpers(CubemapHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5050 };
 
   /// @brief Field kCubemapDownsamplePass offset 0xffffffff size 0x4
   static constexpr int32_t kCubemapDownsamplePass{ static_cast<int32_t>(0x0) };

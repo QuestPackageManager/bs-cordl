@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DisappearingArrowControllerBase_1)
@@ -23,13 +22,12 @@ template <typename T> class DisappearingArrowControllerBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::DisappearingArrowControllerBase_1);
-// Type: ::DisappearingArrowControllerBase`1
-// SizeInfo { instance_size: 88, native_size: 86, calculated_instance_size: 88, calculated_native_size: 86, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::DisappearingArrowControllerBase`1<T>*
+// CS Name: DisappearingArrowControllerBase`1<T>
 class CORDL_TYPE DisappearingArrowControllerBase_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -37,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__arrowCutoutEffect, put = __cordl_internal_set__arrowCutoutEffect)) ::UnityW<::GlobalNamespace::CutoutEffect> _arrowCutoutEffect;
 
   /// @brief Field _colorId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__colorId, put = setStaticF__colorId)) int32_t _colorId;
+  __declspec(property(get = getStaticF__colorId, put = setStaticF__colorId)) int32_t _colorId;
 
   /// @brief Field _cubeMeshRenderer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__cubeMeshRenderer, put = __cordl_internal_set__cubeMeshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _cubeMeshRenderer;
@@ -177,7 +175,7 @@ public:
 
   static inline int32_t getStaticF__colorId();
 
-  /// @brief Method get_gameNoteController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_gameNoteController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T get_gameNoteController();
 
   static inline void setStaticF__colorId(int32_t value);
@@ -195,6 +193,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowControllerBase_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4094 };
 
   /// @brief Field _transparentObjectMaterialPropertyBlocks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____transparentObjectMaterialPropertyBlocks;
@@ -231,9 +232,6 @@ public:
 
   /// @brief Field _fadeArrow, offset: 0x55, size: 0x1, def value: None
   bool ____fadeArrow;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

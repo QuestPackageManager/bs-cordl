@@ -2,14 +2,13 @@
 // IWYU pragma private; include "System/Xml/XmlUrlResolver.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Xml/zzzz__XmlResolver_impl.hpp"
 #include "System/Xml/zzzz__XmlUrlResolver_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
@@ -17,62 +16,62 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-//  Writing Method size for method: ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15.MoveNext
+//  Writing Method size for method: ::System::Xml::XmlUrlResolver__GetEntityAsync_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::*)()>(
-    &::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::*)()>(
+    &::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x4301120;
+  constexpr static std::size_t addrs = 0x4362434;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver__GetEntityAsync_d__15>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15.SetStateMachine
+//  Writing Method size for method: ::System::Xml::XmlUrlResolver__GetEntityAsync_d__15.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43014ec;
+  constexpr static std::size_t addrs = 0x4362800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver__GetEntityAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15>::get(),
+inline void System::Xml::XmlUrlResolver__GetEntityAsync_d__15::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver__GetEntityAsync_d__15>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::Xml::XmlUrlResolver__GetEntityAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver__GetEntityAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::Xml::XmlUrlResolver__GetEntityAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Xml::XmlUrlResolver__GetEntityAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "ofObjectToReturn", ty: "::System::Type*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "absoluteUri", ty: "::System::Uri*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__4__this", ty:
-// "::System::Xml::XmlUrlResolver*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::__XmlUrlResolver___GetEntityAsync_d__15(
+// "", def_value: Some("{}") }, CppParam { name: "absoluteUri", ty: "::System::Uri*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Xml::XmlUrlResolver*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "",
+// def_value: Some("{}") }]
+constexpr ::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::XmlUrlResolver__GetEntityAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::System::Type* ofObjectToReturn, ::System::Uri* absoluteUri,
-    ::System::Xml::XmlUrlResolver* __4__this, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept {
+    ::System::Xml::XmlUrlResolver* __4__this, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->ofObjectToReturn = ofObjectToReturn;
@@ -81,13 +80,13 @@ constexpr ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::__XmlUrlResolv
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15::__XmlUrlResolver___GetEntityAsync_d__15() {}
+constexpr ::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::XmlUrlResolver__GetEntityAsync_d__15() {}
 //  Writing Method size for method: ::System::Xml::XmlUrlResolver.get_DownloadManager
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDownloadManager* (*)()>(&::System::Xml::XmlUrlResolver::get_DownloadManager)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4300dcc;
+  constexpr static std::size_t addrs = 0x43620e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver*>::get(), "get_DownloadManager",
@@ -100,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUrlResolver::*)()>(&::System::Xml::XmlUrlResolver::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4300e98;
+  constexpr static std::size_t addrs = 0x43621ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver*>::get(), ".ctor",
@@ -114,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(
     &::System::Xml::XmlUrlResolver::GetEntity)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x4300ea0;
+  constexpr static std::size_t addrs = 0x43621b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW)>(
     &::System::Xml::XmlUrlResolver::ResolveUri)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4301018;
+  constexpr static std::size_t addrs = 0x436232c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (
     ::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(&::System::Xml::XmlUrlResolver::GetEntityAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x430101c;
+  constexpr static std::size_t addrs = 0x4362330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +156,7 @@ constexpr ::System::Net::ICredentials*& System::Xml::XmlUrlResolver::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____credentials;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& System::Xml::XmlUrlResolver::__cordl_internal_get__credentials() const {
+constexpr ::System::Net::ICredentials* const& System::Xml::XmlUrlResolver::__cordl_internal_get__credentials() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____credentials;
 }
@@ -169,7 +168,7 @@ constexpr ::System::Net::IWebProxy*& System::Xml::XmlUrlResolver::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proxy;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& System::Xml::XmlUrlResolver::__cordl_internal_get__proxy() const {
+constexpr ::System::Net::IWebProxy* const& System::Xml::XmlUrlResolver::__cordl_internal_get__proxy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proxy;
 }
@@ -181,7 +180,7 @@ constexpr ::System::Net::Cache::RequestCachePolicy*& System::Xml::XmlUrlResolver
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachePolicy;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& System::Xml::XmlUrlResolver::__cordl_internal_get__cachePolicy() const {
+constexpr ::System::Net::Cache::RequestCachePolicy* const& System::Xml::XmlUrlResolver::__cordl_internal_get__cachePolicy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachePolicy;
 }
@@ -200,9 +199,6 @@ inline ::System::Xml::XmlDownloadManager* System::Xml::XmlUrlResolver::get_Downl
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver*>::get(), "get_DownloadManager",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDownloadManager*, false>(nullptr, ___internal_method);
-}
-inline ::System::Xml::XmlUrlResolver* System::Xml::XmlUrlResolver::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlUrlResolver*>());
 }
 inline void System::Xml::XmlUrlResolver::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver*>::get(), ".ctor",
@@ -223,6 +219,9 @@ inline ::System::Threading::Tasks::Task_1<::System::Object*>* System::Xml::XmlUr
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Object*>*, false>(this, ___internal_method, absoluteUri, role, ofObjectToReturn);
+}
+inline ::System::Xml::XmlUrlResolver* System::Xml::XmlUrlResolver::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlUrlResolver*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlUrlResolver::XmlUrlResolver() {}

@@ -31,57 +31,56 @@ class SettingPresets;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::Settings::SettingPresets);
-// Type: BeatSaber.Settings::SettingPresets
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Settings.Settings, System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::BeatSaber.Settings::SettingPresets*
+// CS Name: BeatSaber.Settings.SettingPresets
 class CORDL_TYPE SettingPresets : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field kLightBaking, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kLightBaking, put = setStaticF_kLightBaking)) ::BeatSaber::Settings::Settings kLightBaking;
+  /// @brief Field kLightBaking, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kLightBaking, put = setStaticF_kLightBaking)) ::BeatSaber::Settings::Settings kLightBaking;
 
-  /// @brief Field kPlayStation4, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kPlayStation4, put = setStaticF_kPlayStation4)) ::BeatSaber::Settings::Settings kPlayStation4;
+  /// @brief Field kPlayStation4, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kPlayStation4, put = setStaticF_kPlayStation4)) ::BeatSaber::Settings::Settings kPlayStation4;
 
-  /// @brief Field kPlayStation4Pro, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kPlayStation4Pro, put = setStaticF_kPlayStation4Pro)) ::BeatSaber::Settings::Settings kPlayStation4Pro;
+  /// @brief Field kPlayStation4Pro, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kPlayStation4Pro, put = setStaticF_kPlayStation4Pro)) ::BeatSaber::Settings::Settings kPlayStation4Pro;
 
-  /// @brief Field kPlayStation5, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kPlayStation5, put = setStaticF_kPlayStation5)) ::BeatSaber::Settings::Settings kPlayStation5;
+  /// @brief Field kPlayStation5, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kPlayStation5, put = setStaticF_kPlayStation5)) ::BeatSaber::Settings::Settings kPlayStation5;
 
-  /// @brief Field kQuest1, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kQuest1, put = setStaticF_kQuest1)) ::BeatSaber::Settings::Settings kQuest1;
+  /// @brief Field kQuest1, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kQuest1, put = setStaticF_kQuest1)) ::BeatSaber::Settings::Settings kQuest1;
 
-  /// @brief Field kQuest2, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kQuest2, put = setStaticF_kQuest2)) ::BeatSaber::Settings::Settings kQuest2;
+  /// @brief Field kQuest2, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kQuest2, put = setStaticF_kQuest2)) ::BeatSaber::Settings::Settings kQuest2;
 
-  /// @brief Field kQuest3, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kQuest3, put = setStaticF_kQuest3)) ::BeatSaber::Settings::Settings kQuest3;
+  /// @brief Field kQuest3, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kQuest3, put = setStaticF_kQuest3)) ::BeatSaber::Settings::Settings kQuest3;
 
-  /// @brief Field kQuestPro, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kQuestPro, put = setStaticF_kQuestPro)) ::BeatSaber::Settings::Settings kQuestPro;
+  /// @brief Field kQuestPro, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kQuestPro, put = setStaticF_kQuestPro)) ::BeatSaber::Settings::Settings kQuestPro;
 
-  /// @brief Field kStandalone, offset 0xffffffff, size 0xe8
-  static __declspec(property(get = getStaticF_kStandalone, put = setStaticF_kStandalone)) ::BeatSaber::Settings::Settings kStandalone;
+  /// @brief Field kStandalone, offset 0xffffffff, size 0xf0
+  __declspec(property(get = getStaticF_kStandalone, put = setStaticF_kStandalone)) ::BeatSaber::Settings::Settings kStandalone;
 
-  /// @brief Method DefaultAudioSettingsWithLatency, addr 0x22492ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DefaultAudioSettingsWithLatency, addr 0x227b7f4, size 0x14, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::AudioSettings DefaultAudioSettingsWithLatency(float_t latency);
 
-  /// @brief Method DefaultControllerSettings, addr 0x2249324, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DefaultControllerSettings, addr 0x227b86c, size 0x94, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::ControllerSettings DefaultControllerSettings();
 
-  /// @brief Method DefaultMiscSettings, addr 0x22492c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DefaultMiscSettings, addr 0x227b808, size 0x44, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::MiscSettings DefaultMiscSettings();
 
-  /// @brief Method DefaultQuestSettings, addr 0x2249304, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DefaultQuestSettings, addr 0x227b84c, size 0x14, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::QuestSettings DefaultQuestSettings();
 
-  /// @brief Method DefaultSmoothCameraSettings, addr 0x224921c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DefaultSmoothCameraSettings, addr 0x227b764, size 0x90, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::SmoothCameraSettings DefaultSmoothCameraSettings();
 
-  /// @brief Method DefaultWindowSettings, addr 0x2249318, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DefaultWindowSettings, addr 0x227b860, size 0xc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::WindowSettings DefaultWindowSettings();
 
   static inline ::BeatSaber::Settings::Settings getStaticF_kLightBaking();
@@ -135,7 +134,7 @@ public:
   SettingPresets(SettingPresets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

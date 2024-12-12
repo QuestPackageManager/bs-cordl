@@ -12,11 +12,10 @@ struct TermInfoStrings;
 }
 // Write type traits
 MARK_VAL_T(::System::TermInfoStrings);
-// Type: System::TermInfoStrings
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::TermInfoStrings
+// CS Name: System.TermInfoStrings
 struct CORDL_TYPE TermInfoStrings {
 public:
   // Declarations
@@ -438,1192 +437,1189 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TermInfoStrings(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AcsChars value: static_cast<int32_t>(0x92)
+  /// @brief Field AcsChars value: I32(146)
   static ::System::TermInfoStrings const AcsChars;
 
-  /// @brief Field AltScancodeEsc value: static_cast<int32_t>(0x181)
+  /// @brief Field AltScancodeEsc value: I32(385)
   static ::System::TermInfoStrings const AltScancodeEsc;
 
-  /// @brief Field BackTab value: static_cast<int32_t>(0x0)
+  /// @brief Field BackTab value: I32(0)
   static ::System::TermInfoStrings const BackTab;
 
-  /// @brief Field Bell value: static_cast<int32_t>(0x1)
+  /// @brief Field Bell value: I32(1)
   static ::System::TermInfoStrings const Bell;
 
-  /// @brief Field BitImageCarriageReturn value: static_cast<int32_t>(0x174)
+  /// @brief Field BitImageCarriageReturn value: I32(372)
   static ::System::TermInfoStrings const BitImageCarriageReturn;
 
-  /// @brief Field BitImageNewline value: static_cast<int32_t>(0x173)
+  /// @brief Field BitImageNewline value: I32(371)
   static ::System::TermInfoStrings const BitImageNewline;
 
-  /// @brief Field BitImageRepeat value: static_cast<int32_t>(0x172)
+  /// @brief Field BitImageRepeat value: I32(370)
   static ::System::TermInfoStrings const BitImageRepeat;
 
-  /// @brief Field CarriageReturn value: static_cast<int32_t>(0x2)
+  /// @brief Field CarriageReturn value: I32(2)
   static ::System::TermInfoStrings const CarriageReturn;
 
-  /// @brief Field ChangeCharPitch value: static_cast<int32_t>(0x130)
+  /// @brief Field ChangeCharPitch value: I32(304)
   static ::System::TermInfoStrings const ChangeCharPitch;
 
-  /// @brief Field ChangeLinePitch value: static_cast<int32_t>(0x131)
+  /// @brief Field ChangeLinePitch value: I32(305)
   static ::System::TermInfoStrings const ChangeLinePitch;
 
-  /// @brief Field ChangeResHorz value: static_cast<int32_t>(0x132)
+  /// @brief Field ChangeResHorz value: I32(306)
   static ::System::TermInfoStrings const ChangeResHorz;
 
-  /// @brief Field ChangeResVert value: static_cast<int32_t>(0x133)
+  /// @brief Field ChangeResVert value: I32(307)
   static ::System::TermInfoStrings const ChangeResVert;
 
-  /// @brief Field ChangeScrollRegion value: static_cast<int32_t>(0x3)
+  /// @brief Field ChangeScrollRegion value: I32(3)
   static ::System::TermInfoStrings const ChangeScrollRegion;
 
-  /// @brief Field CharPadding value: static_cast<int32_t>(0x91)
+  /// @brief Field CharPadding value: I32(145)
   static ::System::TermInfoStrings const CharPadding;
 
-  /// @brief Field CharSetNames value: static_cast<int32_t>(0x162)
+  /// @brief Field CharSetNames value: I32(354)
   static ::System::TermInfoStrings const CharSetNames;
 
-  /// @brief Field ClearAllTabs value: static_cast<int32_t>(0x4)
+  /// @brief Field ClearAllTabs value: I32(4)
   static ::System::TermInfoStrings const ClearAllTabs;
 
-  /// @brief Field ClearMargins value: static_cast<int32_t>(0x10e)
+  /// @brief Field ClearMargins value: I32(270)
   static ::System::TermInfoStrings const ClearMargins;
 
-  /// @brief Field ClearScreen value: static_cast<int32_t>(0x5)
+  /// @brief Field ClearScreen value: I32(5)
   static ::System::TermInfoStrings const ClearScreen;
 
-  /// @brief Field ClrBol value: static_cast<int32_t>(0x10d)
+  /// @brief Field ClrBol value: I32(269)
   static ::System::TermInfoStrings const ClrBol;
 
-  /// @brief Field ClrEol value: static_cast<int32_t>(0x6)
+  /// @brief Field ClrEol value: I32(6)
   static ::System::TermInfoStrings const ClrEol;
 
-  /// @brief Field ClrEos value: static_cast<int32_t>(0x7)
+  /// @brief Field ClrEos value: I32(7)
   static ::System::TermInfoStrings const ClrEos;
 
-  /// @brief Field CodeSetInit value: static_cast<int32_t>(0x16b)
+  /// @brief Field CodeSetInit value: I32(363)
   static ::System::TermInfoStrings const CodeSetInit;
 
-  /// @brief Field ColorNames value: static_cast<int32_t>(0x175)
+  /// @brief Field ColorNames value: I32(373)
   static ::System::TermInfoStrings const ColorNames;
 
-  /// @brief Field ColumnAddress value: static_cast<int32_t>(0x8)
+  /// @brief Field ColumnAddress value: I32(8)
   static ::System::TermInfoStrings const ColumnAddress;
 
-  /// @brief Field CommandCharacter value: static_cast<int32_t>(0x9)
+  /// @brief Field CommandCharacter value: I32(9)
   static ::System::TermInfoStrings const CommandCharacter;
 
-  /// @brief Field CreateWindow value: static_cast<int32_t>(0x115)
+  /// @brief Field CreateWindow value: I32(277)
   static ::System::TermInfoStrings const CreateWindow;
 
-  /// @brief Field CursorAddress value: static_cast<int32_t>(0xa)
+  /// @brief Field CursorAddress value: I32(10)
   static ::System::TermInfoStrings const CursorAddress;
 
-  /// @brief Field CursorDown value: static_cast<int32_t>(0xb)
+  /// @brief Field CursorDown value: I32(11)
   static ::System::TermInfoStrings const CursorDown;
 
-  /// @brief Field CursorHome value: static_cast<int32_t>(0xc)
+  /// @brief Field CursorHome value: I32(12)
   static ::System::TermInfoStrings const CursorHome;
 
-  /// @brief Field CursorInvisible value: static_cast<int32_t>(0xd)
+  /// @brief Field CursorInvisible value: I32(13)
   static ::System::TermInfoStrings const CursorInvisible;
 
-  /// @brief Field CursorLeft value: static_cast<int32_t>(0xe)
+  /// @brief Field CursorLeft value: I32(14)
   static ::System::TermInfoStrings const CursorLeft;
 
-  /// @brief Field CursorMemAddress value: static_cast<int32_t>(0xf)
+  /// @brief Field CursorMemAddress value: I32(15)
   static ::System::TermInfoStrings const CursorMemAddress;
 
-  /// @brief Field CursorNormal value: static_cast<int32_t>(0x10)
+  /// @brief Field CursorNormal value: I32(16)
   static ::System::TermInfoStrings const CursorNormal;
 
-  /// @brief Field CursorRight value: static_cast<int32_t>(0x11)
+  /// @brief Field CursorRight value: I32(17)
   static ::System::TermInfoStrings const CursorRight;
 
-  /// @brief Field CursorToLl value: static_cast<int32_t>(0x12)
+  /// @brief Field CursorToLl value: I32(18)
   static ::System::TermInfoStrings const CursorToLl;
 
-  /// @brief Field CursorUp value: static_cast<int32_t>(0x13)
+  /// @brief Field CursorUp value: I32(19)
   static ::System::TermInfoStrings const CursorUp;
 
-  /// @brief Field CursorVisible value: static_cast<int32_t>(0x14)
+  /// @brief Field CursorVisible value: I32(20)
   static ::System::TermInfoStrings const CursorVisible;
 
-  /// @brief Field DefineBitImageRegion value: static_cast<int32_t>(0x176)
+  /// @brief Field DefineBitImageRegion value: I32(374)
   static ::System::TermInfoStrings const DefineBitImageRegion;
 
-  /// @brief Field DefineChar value: static_cast<int32_t>(0x134)
+  /// @brief Field DefineChar value: I32(308)
   static ::System::TermInfoStrings const DefineChar;
 
-  /// @brief Field DeleteCharacter value: static_cast<int32_t>(0x15)
+  /// @brief Field DeleteCharacter value: I32(21)
   static ::System::TermInfoStrings const DeleteCharacter;
 
-  /// @brief Field DeleteLine value: static_cast<int32_t>(0x16)
+  /// @brief Field DeleteLine value: I32(22)
   static ::System::TermInfoStrings const DeleteLine;
 
-  /// @brief Field DeviceType value: static_cast<int32_t>(0x16a)
+  /// @brief Field DeviceType value: I32(362)
   static ::System::TermInfoStrings const DeviceType;
 
-  /// @brief Field DialPhone value: static_cast<int32_t>(0x118)
+  /// @brief Field DialPhone value: I32(280)
   static ::System::TermInfoStrings const DialPhone;
 
-  /// @brief Field DisStatusLine value: static_cast<int32_t>(0x17)
+  /// @brief Field DisStatusLine value: I32(23)
   static ::System::TermInfoStrings const DisStatusLine;
 
-  /// @brief Field DisplayClock value: static_cast<int32_t>(0x113)
+  /// @brief Field DisplayClock value: I32(275)
   static ::System::TermInfoStrings const DisplayClock;
 
-  /// @brief Field DisplayPcChar value: static_cast<int32_t>(0x17a)
+  /// @brief Field DisplayPcChar value: I32(378)
   static ::System::TermInfoStrings const DisplayPcChar;
 
-  /// @brief Field DownHalfLine value: static_cast<int32_t>(0x18)
+  /// @brief Field DownHalfLine value: I32(24)
   static ::System::TermInfoStrings const DownHalfLine;
 
-  /// @brief Field EnaAcs value: static_cast<int32_t>(0x9b)
+  /// @brief Field EnaAcs value: I32(155)
   static ::System::TermInfoStrings const EnaAcs;
 
-  /// @brief Field EndBitImageRegion value: static_cast<int32_t>(0x177)
+  /// @brief Field EndBitImageRegion value: I32(375)
   static ::System::TermInfoStrings const EndBitImageRegion;
 
-  /// @brief Field EnterAltCharsetMode value: static_cast<int32_t>(0x19)
+  /// @brief Field EnterAltCharsetMode value: I32(25)
   static ::System::TermInfoStrings const EnterAltCharsetMode;
 
-  /// @brief Field EnterAmMode value: static_cast<int32_t>(0x97)
+  /// @brief Field EnterAmMode value: I32(151)
   static ::System::TermInfoStrings const EnterAmMode;
 
-  /// @brief Field EnterBlinkMode value: static_cast<int32_t>(0x1a)
+  /// @brief Field EnterBlinkMode value: I32(26)
   static ::System::TermInfoStrings const EnterBlinkMode;
 
-  /// @brief Field EnterBoldMode value: static_cast<int32_t>(0x1b)
+  /// @brief Field EnterBoldMode value: I32(27)
   static ::System::TermInfoStrings const EnterBoldMode;
 
-  /// @brief Field EnterCaMode value: static_cast<int32_t>(0x1c)
+  /// @brief Field EnterCaMode value: I32(28)
   static ::System::TermInfoStrings const EnterCaMode;
 
-  /// @brief Field EnterDeleteMode value: static_cast<int32_t>(0x1d)
+  /// @brief Field EnterDeleteMode value: I32(29)
   static ::System::TermInfoStrings const EnterDeleteMode;
 
-  /// @brief Field EnterDimMode value: static_cast<int32_t>(0x1e)
+  /// @brief Field EnterDimMode value: I32(30)
   static ::System::TermInfoStrings const EnterDimMode;
 
-  /// @brief Field EnterDoublewideMode value: static_cast<int32_t>(0x135)
+  /// @brief Field EnterDoublewideMode value: I32(309)
   static ::System::TermInfoStrings const EnterDoublewideMode;
 
-  /// @brief Field EnterDraftQuality value: static_cast<int32_t>(0x136)
+  /// @brief Field EnterDraftQuality value: I32(310)
   static ::System::TermInfoStrings const EnterDraftQuality;
 
-  /// @brief Field EnterHorizontalHlMode value: static_cast<int32_t>(0x182)
+  /// @brief Field EnterHorizontalHlMode value: I32(386)
   static ::System::TermInfoStrings const EnterHorizontalHlMode;
 
-  /// @brief Field EnterInsertMode value: static_cast<int32_t>(0x1f)
+  /// @brief Field EnterInsertMode value: I32(31)
   static ::System::TermInfoStrings const EnterInsertMode;
 
-  /// @brief Field EnterItalicsMode value: static_cast<int32_t>(0x137)
+  /// @brief Field EnterItalicsMode value: I32(311)
   static ::System::TermInfoStrings const EnterItalicsMode;
 
-  /// @brief Field EnterLeftHlMode value: static_cast<int32_t>(0x183)
+  /// @brief Field EnterLeftHlMode value: I32(387)
   static ::System::TermInfoStrings const EnterLeftHlMode;
 
-  /// @brief Field EnterLeftwardMode value: static_cast<int32_t>(0x138)
+  /// @brief Field EnterLeftwardMode value: I32(312)
   static ::System::TermInfoStrings const EnterLeftwardMode;
 
-  /// @brief Field EnterLowHlMode value: static_cast<int32_t>(0x184)
+  /// @brief Field EnterLowHlMode value: I32(388)
   static ::System::TermInfoStrings const EnterLowHlMode;
 
-  /// @brief Field EnterMicroMode value: static_cast<int32_t>(0x139)
+  /// @brief Field EnterMicroMode value: I32(313)
   static ::System::TermInfoStrings const EnterMicroMode;
 
-  /// @brief Field EnterNearLetterQuality value: static_cast<int32_t>(0x13a)
+  /// @brief Field EnterNearLetterQuality value: I32(314)
   static ::System::TermInfoStrings const EnterNearLetterQuality;
 
-  /// @brief Field EnterNormalQuality value: static_cast<int32_t>(0x13b)
+  /// @brief Field EnterNormalQuality value: I32(315)
   static ::System::TermInfoStrings const EnterNormalQuality;
 
-  /// @brief Field EnterPcCharsetMode value: static_cast<int32_t>(0x17b)
+  /// @brief Field EnterPcCharsetMode value: I32(379)
   static ::System::TermInfoStrings const EnterPcCharsetMode;
 
-  /// @brief Field EnterProtectedMode value: static_cast<int32_t>(0x21)
+  /// @brief Field EnterProtectedMode value: I32(33)
   static ::System::TermInfoStrings const EnterProtectedMode;
 
-  /// @brief Field EnterReverseMode value: static_cast<int32_t>(0x22)
+  /// @brief Field EnterReverseMode value: I32(34)
   static ::System::TermInfoStrings const EnterReverseMode;
 
-  /// @brief Field EnterRightHlMode value: static_cast<int32_t>(0x185)
+  /// @brief Field EnterRightHlMode value: I32(389)
   static ::System::TermInfoStrings const EnterRightHlMode;
 
-  /// @brief Field EnterScancodeMode value: static_cast<int32_t>(0x17d)
+  /// @brief Field EnterScancodeMode value: I32(381)
   static ::System::TermInfoStrings const EnterScancodeMode;
 
-  /// @brief Field EnterSecureMode value: static_cast<int32_t>(0x20)
+  /// @brief Field EnterSecureMode value: I32(32)
   static ::System::TermInfoStrings const EnterSecureMode;
 
-  /// @brief Field EnterShadowMode value: static_cast<int32_t>(0x13c)
+  /// @brief Field EnterShadowMode value: I32(316)
   static ::System::TermInfoStrings const EnterShadowMode;
 
-  /// @brief Field EnterStandoutMode value: static_cast<int32_t>(0x23)
+  /// @brief Field EnterStandoutMode value: I32(35)
   static ::System::TermInfoStrings const EnterStandoutMode;
 
-  /// @brief Field EnterSubscriptMode value: static_cast<int32_t>(0x13d)
+  /// @brief Field EnterSubscriptMode value: I32(317)
   static ::System::TermInfoStrings const EnterSubscriptMode;
 
-  /// @brief Field EnterSuperscriptMode value: static_cast<int32_t>(0x13e)
+  /// @brief Field EnterSuperscriptMode value: I32(318)
   static ::System::TermInfoStrings const EnterSuperscriptMode;
 
-  /// @brief Field EnterTopHlMode value: static_cast<int32_t>(0x186)
+  /// @brief Field EnterTopHlMode value: I32(390)
   static ::System::TermInfoStrings const EnterTopHlMode;
 
-  /// @brief Field EnterUnderlineMode value: static_cast<int32_t>(0x24)
+  /// @brief Field EnterUnderlineMode value: I32(36)
   static ::System::TermInfoStrings const EnterUnderlineMode;
 
-  /// @brief Field EnterUpwardMode value: static_cast<int32_t>(0x13f)
+  /// @brief Field EnterUpwardMode value: I32(319)
   static ::System::TermInfoStrings const EnterUpwardMode;
 
-  /// @brief Field EnterVerticalHlMode value: static_cast<int32_t>(0x187)
+  /// @brief Field EnterVerticalHlMode value: I32(391)
   static ::System::TermInfoStrings const EnterVerticalHlMode;
 
-  /// @brief Field EnterXonMode value: static_cast<int32_t>(0x95)
+  /// @brief Field EnterXonMode value: I32(149)
   static ::System::TermInfoStrings const EnterXonMode;
 
-  /// @brief Field EraseChars value: static_cast<int32_t>(0x25)
+  /// @brief Field EraseChars value: I32(37)
   static ::System::TermInfoStrings const EraseChars;
 
-  /// @brief Field ExitAltCharsetMode value: static_cast<int32_t>(0x26)
+  /// @brief Field ExitAltCharsetMode value: I32(38)
   static ::System::TermInfoStrings const ExitAltCharsetMode;
 
-  /// @brief Field ExitAmMode value: static_cast<int32_t>(0x98)
+  /// @brief Field ExitAmMode value: I32(152)
   static ::System::TermInfoStrings const ExitAmMode;
 
-  /// @brief Field ExitAttributeMode value: static_cast<int32_t>(0x27)
+  /// @brief Field ExitAttributeMode value: I32(39)
   static ::System::TermInfoStrings const ExitAttributeMode;
 
-  /// @brief Field ExitCaMode value: static_cast<int32_t>(0x28)
+  /// @brief Field ExitCaMode value: I32(40)
   static ::System::TermInfoStrings const ExitCaMode;
 
-  /// @brief Field ExitDeleteMode value: static_cast<int32_t>(0x29)
+  /// @brief Field ExitDeleteMode value: I32(41)
   static ::System::TermInfoStrings const ExitDeleteMode;
 
-  /// @brief Field ExitDoublewideMode value: static_cast<int32_t>(0x140)
+  /// @brief Field ExitDoublewideMode value: I32(320)
   static ::System::TermInfoStrings const ExitDoublewideMode;
 
-  /// @brief Field ExitInsertMode value: static_cast<int32_t>(0x2a)
+  /// @brief Field ExitInsertMode value: I32(42)
   static ::System::TermInfoStrings const ExitInsertMode;
 
-  /// @brief Field ExitItalicsMode value: static_cast<int32_t>(0x141)
+  /// @brief Field ExitItalicsMode value: I32(321)
   static ::System::TermInfoStrings const ExitItalicsMode;
 
-  /// @brief Field ExitLeftwardMode value: static_cast<int32_t>(0x142)
+  /// @brief Field ExitLeftwardMode value: I32(322)
   static ::System::TermInfoStrings const ExitLeftwardMode;
 
-  /// @brief Field ExitMicroMode value: static_cast<int32_t>(0x143)
+  /// @brief Field ExitMicroMode value: I32(323)
   static ::System::TermInfoStrings const ExitMicroMode;
 
-  /// @brief Field ExitPcCharsetMode value: static_cast<int32_t>(0x17c)
+  /// @brief Field ExitPcCharsetMode value: I32(380)
   static ::System::TermInfoStrings const ExitPcCharsetMode;
 
-  /// @brief Field ExitScancodeMode value: static_cast<int32_t>(0x17e)
+  /// @brief Field ExitScancodeMode value: I32(382)
   static ::System::TermInfoStrings const ExitScancodeMode;
 
-  /// @brief Field ExitShadowMode value: static_cast<int32_t>(0x144)
+  /// @brief Field ExitShadowMode value: I32(324)
   static ::System::TermInfoStrings const ExitShadowMode;
 
-  /// @brief Field ExitStandoutMode value: static_cast<int32_t>(0x2b)
+  /// @brief Field ExitStandoutMode value: I32(43)
   static ::System::TermInfoStrings const ExitStandoutMode;
 
-  /// @brief Field ExitSubscriptMode value: static_cast<int32_t>(0x145)
+  /// @brief Field ExitSubscriptMode value: I32(325)
   static ::System::TermInfoStrings const ExitSubscriptMode;
 
-  /// @brief Field ExitSuperscriptMode value: static_cast<int32_t>(0x146)
+  /// @brief Field ExitSuperscriptMode value: I32(326)
   static ::System::TermInfoStrings const ExitSuperscriptMode;
 
-  /// @brief Field ExitUnderlineMode value: static_cast<int32_t>(0x2c)
+  /// @brief Field ExitUnderlineMode value: I32(44)
   static ::System::TermInfoStrings const ExitUnderlineMode;
 
-  /// @brief Field ExitUpwardMode value: static_cast<int32_t>(0x147)
+  /// @brief Field ExitUpwardMode value: I32(327)
   static ::System::TermInfoStrings const ExitUpwardMode;
 
-  /// @brief Field ExitXonMode value: static_cast<int32_t>(0x96)
+  /// @brief Field ExitXonMode value: I32(150)
   static ::System::TermInfoStrings const ExitXonMode;
 
-  /// @brief Field FixedPause value: static_cast<int32_t>(0x11d)
+  /// @brief Field FixedPause value: I32(285)
   static ::System::TermInfoStrings const FixedPause;
 
-  /// @brief Field FlashHook value: static_cast<int32_t>(0x11c)
+  /// @brief Field FlashHook value: I32(284)
   static ::System::TermInfoStrings const FlashHook;
 
-  /// @brief Field FlashScreen value: static_cast<int32_t>(0x2d)
+  /// @brief Field FlashScreen value: I32(45)
   static ::System::TermInfoStrings const FlashScreen;
 
-  /// @brief Field FormFeed value: static_cast<int32_t>(0x2e)
+  /// @brief Field FormFeed value: I32(46)
   static ::System::TermInfoStrings const FormFeed;
 
-  /// @brief Field FromStatusLine value: static_cast<int32_t>(0x2f)
+  /// @brief Field FromStatusLine value: I32(47)
   static ::System::TermInfoStrings const FromStatusLine;
 
-  /// @brief Field GetMouse value: static_cast<int32_t>(0x166)
+  /// @brief Field GetMouse value: I32(358)
   static ::System::TermInfoStrings const GetMouse;
 
-  /// @brief Field GotoWindow value: static_cast<int32_t>(0x116)
+  /// @brief Field GotoWindow value: I32(278)
   static ::System::TermInfoStrings const GotoWindow;
 
-  /// @brief Field Hangup value: static_cast<int32_t>(0x117)
+  /// @brief Field Hangup value: I32(279)
   static ::System::TermInfoStrings const Hangup;
 
-  /// @brief Field Init1string value: static_cast<int32_t>(0x30)
+  /// @brief Field Init1string value: I32(48)
   static ::System::TermInfoStrings const Init1string;
 
-  /// @brief Field Init2string value: static_cast<int32_t>(0x31)
+  /// @brief Field Init2string value: I32(49)
   static ::System::TermInfoStrings const Init2string;
 
-  /// @brief Field Init3string value: static_cast<int32_t>(0x32)
+  /// @brief Field Init3string value: I32(50)
   static ::System::TermInfoStrings const Init3string;
 
-  /// @brief Field InitFile value: static_cast<int32_t>(0x33)
+  /// @brief Field InitFile value: I32(51)
   static ::System::TermInfoStrings const InitFile;
 
-  /// @brief Field InitProg value: static_cast<int32_t>(0x8a)
+  /// @brief Field InitProg value: I32(138)
   static ::System::TermInfoStrings const InitProg;
 
-  /// @brief Field InitializeColor value: static_cast<int32_t>(0x12b)
+  /// @brief Field InitializeColor value: I32(299)
   static ::System::TermInfoStrings const InitializeColor;
 
-  /// @brief Field InitializePair value: static_cast<int32_t>(0x12c)
+  /// @brief Field InitializePair value: I32(300)
   static ::System::TermInfoStrings const InitializePair;
 
-  /// @brief Field InsertCharacter value: static_cast<int32_t>(0x34)
+  /// @brief Field InsertCharacter value: I32(52)
   static ::System::TermInfoStrings const InsertCharacter;
 
-  /// @brief Field InsertLine value: static_cast<int32_t>(0x35)
+  /// @brief Field InsertLine value: I32(53)
   static ::System::TermInfoStrings const InsertLine;
 
-  /// @brief Field InsertPadding value: static_cast<int32_t>(0x36)
+  /// @brief Field InsertPadding value: I32(54)
   static ::System::TermInfoStrings const InsertPadding;
 
-  /// @brief Field KeyA1 value: static_cast<int32_t>(0x8b)
+  /// @brief Field KeyA1 value: I32(139)
   static ::System::TermInfoStrings const KeyA1;
 
-  /// @brief Field KeyA3 value: static_cast<int32_t>(0x8c)
+  /// @brief Field KeyA3 value: I32(140)
   static ::System::TermInfoStrings const KeyA3;
 
-  /// @brief Field KeyB2 value: static_cast<int32_t>(0x8d)
+  /// @brief Field KeyB2 value: I32(141)
   static ::System::TermInfoStrings const KeyB2;
 
-  /// @brief Field KeyBackspace value: static_cast<int32_t>(0x37)
+  /// @brief Field KeyBackspace value: I32(55)
   static ::System::TermInfoStrings const KeyBackspace;
 
-  /// @brief Field KeyBeg value: static_cast<int32_t>(0x9e)
+  /// @brief Field KeyBeg value: I32(158)
   static ::System::TermInfoStrings const KeyBeg;
 
-  /// @brief Field KeyBtab value: static_cast<int32_t>(0x94)
+  /// @brief Field KeyBtab value: I32(148)
   static ::System::TermInfoStrings const KeyBtab;
 
-  /// @brief Field KeyC1 value: static_cast<int32_t>(0x8e)
+  /// @brief Field KeyC1 value: I32(142)
   static ::System::TermInfoStrings const KeyC1;
 
-  /// @brief Field KeyC3 value: static_cast<int32_t>(0x8f)
+  /// @brief Field KeyC3 value: I32(143)
   static ::System::TermInfoStrings const KeyC3;
 
-  /// @brief Field KeyCancel value: static_cast<int32_t>(0x9f)
+  /// @brief Field KeyCancel value: I32(159)
   static ::System::TermInfoStrings const KeyCancel;
 
-  /// @brief Field KeyCatab value: static_cast<int32_t>(0x38)
+  /// @brief Field KeyCatab value: I32(56)
   static ::System::TermInfoStrings const KeyCatab;
 
-  /// @brief Field KeyClear value: static_cast<int32_t>(0x39)
+  /// @brief Field KeyClear value: I32(57)
   static ::System::TermInfoStrings const KeyClear;
 
-  /// @brief Field KeyClose value: static_cast<int32_t>(0xa0)
+  /// @brief Field KeyClose value: I32(160)
   static ::System::TermInfoStrings const KeyClose;
 
-  /// @brief Field KeyCommand value: static_cast<int32_t>(0xa1)
+  /// @brief Field KeyCommand value: I32(161)
   static ::System::TermInfoStrings const KeyCommand;
 
-  /// @brief Field KeyCopy value: static_cast<int32_t>(0xa2)
+  /// @brief Field KeyCopy value: I32(162)
   static ::System::TermInfoStrings const KeyCopy;
 
-  /// @brief Field KeyCreate value: static_cast<int32_t>(0xa3)
+  /// @brief Field KeyCreate value: I32(163)
   static ::System::TermInfoStrings const KeyCreate;
 
-  /// @brief Field KeyCtab value: static_cast<int32_t>(0x3a)
+  /// @brief Field KeyCtab value: I32(58)
   static ::System::TermInfoStrings const KeyCtab;
 
-  /// @brief Field KeyDc value: static_cast<int32_t>(0x3b)
+  /// @brief Field KeyDc value: I32(59)
   static ::System::TermInfoStrings const KeyDc;
 
-  /// @brief Field KeyDl value: static_cast<int32_t>(0x3c)
+  /// @brief Field KeyDl value: I32(60)
   static ::System::TermInfoStrings const KeyDl;
 
-  /// @brief Field KeyDown value: static_cast<int32_t>(0x3d)
+  /// @brief Field KeyDown value: I32(61)
   static ::System::TermInfoStrings const KeyDown;
 
-  /// @brief Field KeyEic value: static_cast<int32_t>(0x3e)
+  /// @brief Field KeyEic value: I32(62)
   static ::System::TermInfoStrings const KeyEic;
 
-  /// @brief Field KeyEnd value: static_cast<int32_t>(0xa4)
+  /// @brief Field KeyEnd value: I32(164)
   static ::System::TermInfoStrings const KeyEnd;
 
-  /// @brief Field KeyEnter value: static_cast<int32_t>(0xa5)
+  /// @brief Field KeyEnter value: I32(165)
   static ::System::TermInfoStrings const KeyEnter;
 
-  /// @brief Field KeyEol value: static_cast<int32_t>(0x3f)
+  /// @brief Field KeyEol value: I32(63)
   static ::System::TermInfoStrings const KeyEol;
 
-  /// @brief Field KeyEos value: static_cast<int32_t>(0x40)
+  /// @brief Field KeyEos value: I32(64)
   static ::System::TermInfoStrings const KeyEos;
 
-  /// @brief Field KeyExit value: static_cast<int32_t>(0xa6)
+  /// @brief Field KeyExit value: I32(166)
   static ::System::TermInfoStrings const KeyExit;
 
-  /// @brief Field KeyF0 value: static_cast<int32_t>(0x41)
+  /// @brief Field KeyF0 value: I32(65)
   static ::System::TermInfoStrings const KeyF0;
 
-  /// @brief Field KeyF1 value: static_cast<int32_t>(0x42)
+  /// @brief Field KeyF1 value: I32(66)
   static ::System::TermInfoStrings const KeyF1;
 
-  /// @brief Field KeyF10 value: static_cast<int32_t>(0x43)
+  /// @brief Field KeyF10 value: I32(67)
   static ::System::TermInfoStrings const KeyF10;
 
-  /// @brief Field KeyF11 value: static_cast<int32_t>(0xd8)
+  /// @brief Field KeyF11 value: I32(216)
   static ::System::TermInfoStrings const KeyF11;
 
-  /// @brief Field KeyF12 value: static_cast<int32_t>(0xd9)
+  /// @brief Field KeyF12 value: I32(217)
   static ::System::TermInfoStrings const KeyF12;
 
-  /// @brief Field KeyF13 value: static_cast<int32_t>(0xda)
+  /// @brief Field KeyF13 value: I32(218)
   static ::System::TermInfoStrings const KeyF13;
 
-  /// @brief Field KeyF14 value: static_cast<int32_t>(0xdb)
+  /// @brief Field KeyF14 value: I32(219)
   static ::System::TermInfoStrings const KeyF14;
 
-  /// @brief Field KeyF15 value: static_cast<int32_t>(0xdc)
+  /// @brief Field KeyF15 value: I32(220)
   static ::System::TermInfoStrings const KeyF15;
 
-  /// @brief Field KeyF16 value: static_cast<int32_t>(0xdd)
+  /// @brief Field KeyF16 value: I32(221)
   static ::System::TermInfoStrings const KeyF16;
 
-  /// @brief Field KeyF17 value: static_cast<int32_t>(0xde)
+  /// @brief Field KeyF17 value: I32(222)
   static ::System::TermInfoStrings const KeyF17;
 
-  /// @brief Field KeyF18 value: static_cast<int32_t>(0xdf)
+  /// @brief Field KeyF18 value: I32(223)
   static ::System::TermInfoStrings const KeyF18;
 
-  /// @brief Field KeyF19 value: static_cast<int32_t>(0xe0)
+  /// @brief Field KeyF19 value: I32(224)
   static ::System::TermInfoStrings const KeyF19;
 
-  /// @brief Field KeyF2 value: static_cast<int32_t>(0x44)
+  /// @brief Field KeyF2 value: I32(68)
   static ::System::TermInfoStrings const KeyF2;
 
-  /// @brief Field KeyF20 value: static_cast<int32_t>(0xe1)
+  /// @brief Field KeyF20 value: I32(225)
   static ::System::TermInfoStrings const KeyF20;
 
-  /// @brief Field KeyF21 value: static_cast<int32_t>(0xe2)
+  /// @brief Field KeyF21 value: I32(226)
   static ::System::TermInfoStrings const KeyF21;
 
-  /// @brief Field KeyF22 value: static_cast<int32_t>(0xe3)
+  /// @brief Field KeyF22 value: I32(227)
   static ::System::TermInfoStrings const KeyF22;
 
-  /// @brief Field KeyF23 value: static_cast<int32_t>(0xe4)
+  /// @brief Field KeyF23 value: I32(228)
   static ::System::TermInfoStrings const KeyF23;
 
-  /// @brief Field KeyF24 value: static_cast<int32_t>(0xe5)
+  /// @brief Field KeyF24 value: I32(229)
   static ::System::TermInfoStrings const KeyF24;
 
-  /// @brief Field KeyF25 value: static_cast<int32_t>(0xe6)
+  /// @brief Field KeyF25 value: I32(230)
   static ::System::TermInfoStrings const KeyF25;
 
-  /// @brief Field KeyF26 value: static_cast<int32_t>(0xe7)
+  /// @brief Field KeyF26 value: I32(231)
   static ::System::TermInfoStrings const KeyF26;
 
-  /// @brief Field KeyF27 value: static_cast<int32_t>(0xe8)
+  /// @brief Field KeyF27 value: I32(232)
   static ::System::TermInfoStrings const KeyF27;
 
-  /// @brief Field KeyF28 value: static_cast<int32_t>(0xe9)
+  /// @brief Field KeyF28 value: I32(233)
   static ::System::TermInfoStrings const KeyF28;
 
-  /// @brief Field KeyF29 value: static_cast<int32_t>(0xea)
+  /// @brief Field KeyF29 value: I32(234)
   static ::System::TermInfoStrings const KeyF29;
 
-  /// @brief Field KeyF3 value: static_cast<int32_t>(0x45)
+  /// @brief Field KeyF3 value: I32(69)
   static ::System::TermInfoStrings const KeyF3;
 
-  /// @brief Field KeyF30 value: static_cast<int32_t>(0xeb)
+  /// @brief Field KeyF30 value: I32(235)
   static ::System::TermInfoStrings const KeyF30;
 
-  /// @brief Field KeyF31 value: static_cast<int32_t>(0xec)
+  /// @brief Field KeyF31 value: I32(236)
   static ::System::TermInfoStrings const KeyF31;
 
-  /// @brief Field KeyF32 value: static_cast<int32_t>(0xed)
+  /// @brief Field KeyF32 value: I32(237)
   static ::System::TermInfoStrings const KeyF32;
 
-  /// @brief Field KeyF33 value: static_cast<int32_t>(0xee)
+  /// @brief Field KeyF33 value: I32(238)
   static ::System::TermInfoStrings const KeyF33;
 
-  /// @brief Field KeyF34 value: static_cast<int32_t>(0xef)
+  /// @brief Field KeyF34 value: I32(239)
   static ::System::TermInfoStrings const KeyF34;
 
-  /// @brief Field KeyF35 value: static_cast<int32_t>(0xf0)
+  /// @brief Field KeyF35 value: I32(240)
   static ::System::TermInfoStrings const KeyF35;
 
-  /// @brief Field KeyF36 value: static_cast<int32_t>(0xf1)
+  /// @brief Field KeyF36 value: I32(241)
   static ::System::TermInfoStrings const KeyF36;
 
-  /// @brief Field KeyF37 value: static_cast<int32_t>(0xf2)
+  /// @brief Field KeyF37 value: I32(242)
   static ::System::TermInfoStrings const KeyF37;
 
-  /// @brief Field KeyF38 value: static_cast<int32_t>(0xf3)
+  /// @brief Field KeyF38 value: I32(243)
   static ::System::TermInfoStrings const KeyF38;
 
-  /// @brief Field KeyF39 value: static_cast<int32_t>(0xf4)
+  /// @brief Field KeyF39 value: I32(244)
   static ::System::TermInfoStrings const KeyF39;
 
-  /// @brief Field KeyF4 value: static_cast<int32_t>(0x46)
+  /// @brief Field KeyF4 value: I32(70)
   static ::System::TermInfoStrings const KeyF4;
 
-  /// @brief Field KeyF40 value: static_cast<int32_t>(0xf5)
+  /// @brief Field KeyF40 value: I32(245)
   static ::System::TermInfoStrings const KeyF40;
 
-  /// @brief Field KeyF41 value: static_cast<int32_t>(0xf6)
+  /// @brief Field KeyF41 value: I32(246)
   static ::System::TermInfoStrings const KeyF41;
 
-  /// @brief Field KeyF42 value: static_cast<int32_t>(0xf7)
+  /// @brief Field KeyF42 value: I32(247)
   static ::System::TermInfoStrings const KeyF42;
 
-  /// @brief Field KeyF43 value: static_cast<int32_t>(0xf8)
+  /// @brief Field KeyF43 value: I32(248)
   static ::System::TermInfoStrings const KeyF43;
 
-  /// @brief Field KeyF44 value: static_cast<int32_t>(0xf9)
+  /// @brief Field KeyF44 value: I32(249)
   static ::System::TermInfoStrings const KeyF44;
 
-  /// @brief Field KeyF45 value: static_cast<int32_t>(0xfa)
+  /// @brief Field KeyF45 value: I32(250)
   static ::System::TermInfoStrings const KeyF45;
 
-  /// @brief Field KeyF46 value: static_cast<int32_t>(0xfb)
+  /// @brief Field KeyF46 value: I32(251)
   static ::System::TermInfoStrings const KeyF46;
 
-  /// @brief Field KeyF47 value: static_cast<int32_t>(0xfc)
+  /// @brief Field KeyF47 value: I32(252)
   static ::System::TermInfoStrings const KeyF47;
 
-  /// @brief Field KeyF48 value: static_cast<int32_t>(0xfd)
+  /// @brief Field KeyF48 value: I32(253)
   static ::System::TermInfoStrings const KeyF48;
 
-  /// @brief Field KeyF49 value: static_cast<int32_t>(0xfe)
+  /// @brief Field KeyF49 value: I32(254)
   static ::System::TermInfoStrings const KeyF49;
 
-  /// @brief Field KeyF5 value: static_cast<int32_t>(0x47)
+  /// @brief Field KeyF5 value: I32(71)
   static ::System::TermInfoStrings const KeyF5;
 
-  /// @brief Field KeyF50 value: static_cast<int32_t>(0xff)
+  /// @brief Field KeyF50 value: I32(255)
   static ::System::TermInfoStrings const KeyF50;
 
-  /// @brief Field KeyF51 value: static_cast<int32_t>(0x100)
+  /// @brief Field KeyF51 value: I32(256)
   static ::System::TermInfoStrings const KeyF51;
 
-  /// @brief Field KeyF52 value: static_cast<int32_t>(0x101)
+  /// @brief Field KeyF52 value: I32(257)
   static ::System::TermInfoStrings const KeyF52;
 
-  /// @brief Field KeyF53 value: static_cast<int32_t>(0x102)
+  /// @brief Field KeyF53 value: I32(258)
   static ::System::TermInfoStrings const KeyF53;
 
-  /// @brief Field KeyF54 value: static_cast<int32_t>(0x103)
+  /// @brief Field KeyF54 value: I32(259)
   static ::System::TermInfoStrings const KeyF54;
 
-  /// @brief Field KeyF55 value: static_cast<int32_t>(0x104)
+  /// @brief Field KeyF55 value: I32(260)
   static ::System::TermInfoStrings const KeyF55;
 
-  /// @brief Field KeyF56 value: static_cast<int32_t>(0x105)
+  /// @brief Field KeyF56 value: I32(261)
   static ::System::TermInfoStrings const KeyF56;
 
-  /// @brief Field KeyF57 value: static_cast<int32_t>(0x106)
+  /// @brief Field KeyF57 value: I32(262)
   static ::System::TermInfoStrings const KeyF57;
 
-  /// @brief Field KeyF58 value: static_cast<int32_t>(0x107)
+  /// @brief Field KeyF58 value: I32(263)
   static ::System::TermInfoStrings const KeyF58;
 
-  /// @brief Field KeyF59 value: static_cast<int32_t>(0x108)
+  /// @brief Field KeyF59 value: I32(264)
   static ::System::TermInfoStrings const KeyF59;
 
-  /// @brief Field KeyF6 value: static_cast<int32_t>(0x48)
+  /// @brief Field KeyF6 value: I32(72)
   static ::System::TermInfoStrings const KeyF6;
 
-  /// @brief Field KeyF60 value: static_cast<int32_t>(0x109)
+  /// @brief Field KeyF60 value: I32(265)
   static ::System::TermInfoStrings const KeyF60;
 
-  /// @brief Field KeyF61 value: static_cast<int32_t>(0x10a)
+  /// @brief Field KeyF61 value: I32(266)
   static ::System::TermInfoStrings const KeyF61;
 
-  /// @brief Field KeyF62 value: static_cast<int32_t>(0x10b)
+  /// @brief Field KeyF62 value: I32(267)
   static ::System::TermInfoStrings const KeyF62;
 
-  /// @brief Field KeyF63 value: static_cast<int32_t>(0x10c)
+  /// @brief Field KeyF63 value: I32(268)
   static ::System::TermInfoStrings const KeyF63;
 
-  /// @brief Field KeyF7 value: static_cast<int32_t>(0x49)
+  /// @brief Field KeyF7 value: I32(73)
   static ::System::TermInfoStrings const KeyF7;
 
-  /// @brief Field KeyF8 value: static_cast<int32_t>(0x4a)
+  /// @brief Field KeyF8 value: I32(74)
   static ::System::TermInfoStrings const KeyF8;
 
-  /// @brief Field KeyF9 value: static_cast<int32_t>(0x4b)
+  /// @brief Field KeyF9 value: I32(75)
   static ::System::TermInfoStrings const KeyF9;
 
-  /// @brief Field KeyFind value: static_cast<int32_t>(0xa7)
+  /// @brief Field KeyFind value: I32(167)
   static ::System::TermInfoStrings const KeyFind;
 
-  /// @brief Field KeyHelp value: static_cast<int32_t>(0xa8)
+  /// @brief Field KeyHelp value: I32(168)
   static ::System::TermInfoStrings const KeyHelp;
 
-  /// @brief Field KeyHome value: static_cast<int32_t>(0x4c)
+  /// @brief Field KeyHome value: I32(76)
   static ::System::TermInfoStrings const KeyHome;
 
-  /// @brief Field KeyIc value: static_cast<int32_t>(0x4d)
+  /// @brief Field KeyIc value: I32(77)
   static ::System::TermInfoStrings const KeyIc;
 
-  /// @brief Field KeyIl value: static_cast<int32_t>(0x4e)
+  /// @brief Field KeyIl value: I32(78)
   static ::System::TermInfoStrings const KeyIl;
 
-  /// @brief Field KeyLeft value: static_cast<int32_t>(0x4f)
+  /// @brief Field KeyLeft value: I32(79)
   static ::System::TermInfoStrings const KeyLeft;
 
-  /// @brief Field KeyLl value: static_cast<int32_t>(0x50)
+  /// @brief Field KeyLl value: I32(80)
   static ::System::TermInfoStrings const KeyLl;
 
-  /// @brief Field KeyMark value: static_cast<int32_t>(0xa9)
+  /// @brief Field KeyMark value: I32(169)
   static ::System::TermInfoStrings const KeyMark;
 
-  /// @brief Field KeyMessage value: static_cast<int32_t>(0xaa)
+  /// @brief Field KeyMessage value: I32(170)
   static ::System::TermInfoStrings const KeyMessage;
 
-  /// @brief Field KeyMouse value: static_cast<int32_t>(0x163)
+  /// @brief Field KeyMouse value: I32(355)
   static ::System::TermInfoStrings const KeyMouse;
 
-  /// @brief Field KeyMove value: static_cast<int32_t>(0xab)
+  /// @brief Field KeyMove value: I32(171)
   static ::System::TermInfoStrings const KeyMove;
 
-  /// @brief Field KeyNext value: static_cast<int32_t>(0xac)
+  /// @brief Field KeyNext value: I32(172)
   static ::System::TermInfoStrings const KeyNext;
 
-  /// @brief Field KeyNpage value: static_cast<int32_t>(0x51)
+  /// @brief Field KeyNpage value: I32(81)
   static ::System::TermInfoStrings const KeyNpage;
 
-  /// @brief Field KeyOpen value: static_cast<int32_t>(0xad)
+  /// @brief Field KeyOpen value: I32(173)
   static ::System::TermInfoStrings const KeyOpen;
 
-  /// @brief Field KeyOptions value: static_cast<int32_t>(0xae)
+  /// @brief Field KeyOptions value: I32(174)
   static ::System::TermInfoStrings const KeyOptions;
 
-  /// @brief Field KeyPpage value: static_cast<int32_t>(0x52)
+  /// @brief Field KeyPpage value: I32(82)
   static ::System::TermInfoStrings const KeyPpage;
 
-  /// @brief Field KeyPrevious value: static_cast<int32_t>(0xaf)
+  /// @brief Field KeyPrevious value: I32(175)
   static ::System::TermInfoStrings const KeyPrevious;
 
-  /// @brief Field KeyPrint value: static_cast<int32_t>(0xb0)
+  /// @brief Field KeyPrint value: I32(176)
   static ::System::TermInfoStrings const KeyPrint;
 
-  /// @brief Field KeyRedo value: static_cast<int32_t>(0xb1)
+  /// @brief Field KeyRedo value: I32(177)
   static ::System::TermInfoStrings const KeyRedo;
 
-  /// @brief Field KeyReference value: static_cast<int32_t>(0xb2)
+  /// @brief Field KeyReference value: I32(178)
   static ::System::TermInfoStrings const KeyReference;
 
-  /// @brief Field KeyRefresh value: static_cast<int32_t>(0xb3)
+  /// @brief Field KeyRefresh value: I32(179)
   static ::System::TermInfoStrings const KeyRefresh;
 
-  /// @brief Field KeyReplace value: static_cast<int32_t>(0xb4)
+  /// @brief Field KeyReplace value: I32(180)
   static ::System::TermInfoStrings const KeyReplace;
 
-  /// @brief Field KeyRestart value: static_cast<int32_t>(0xb5)
+  /// @brief Field KeyRestart value: I32(181)
   static ::System::TermInfoStrings const KeyRestart;
 
-  /// @brief Field KeyResume value: static_cast<int32_t>(0xb6)
+  /// @brief Field KeyResume value: I32(182)
   static ::System::TermInfoStrings const KeyResume;
 
-  /// @brief Field KeyRight value: static_cast<int32_t>(0x53)
+  /// @brief Field KeyRight value: I32(83)
   static ::System::TermInfoStrings const KeyRight;
 
-  /// @brief Field KeySave value: static_cast<int32_t>(0xb7)
+  /// @brief Field KeySave value: I32(183)
   static ::System::TermInfoStrings const KeySave;
 
-  /// @brief Field KeySbeg value: static_cast<int32_t>(0xba)
+  /// @brief Field KeySbeg value: I32(186)
   static ::System::TermInfoStrings const KeySbeg;
 
-  /// @brief Field KeyScancel value: static_cast<int32_t>(0xbb)
+  /// @brief Field KeyScancel value: I32(187)
   static ::System::TermInfoStrings const KeyScancel;
 
-  /// @brief Field KeyScommand value: static_cast<int32_t>(0xbc)
+  /// @brief Field KeyScommand value: I32(188)
   static ::System::TermInfoStrings const KeyScommand;
 
-  /// @brief Field KeyScopy value: static_cast<int32_t>(0xbd)
+  /// @brief Field KeyScopy value: I32(189)
   static ::System::TermInfoStrings const KeyScopy;
 
-  /// @brief Field KeyScreate value: static_cast<int32_t>(0xbe)
+  /// @brief Field KeyScreate value: I32(190)
   static ::System::TermInfoStrings const KeyScreate;
 
-  /// @brief Field KeySdc value: static_cast<int32_t>(0xbf)
+  /// @brief Field KeySdc value: I32(191)
   static ::System::TermInfoStrings const KeySdc;
 
-  /// @brief Field KeySdl value: static_cast<int32_t>(0xc0)
+  /// @brief Field KeySdl value: I32(192)
   static ::System::TermInfoStrings const KeySdl;
 
-  /// @brief Field KeySelect value: static_cast<int32_t>(0xc1)
+  /// @brief Field KeySelect value: I32(193)
   static ::System::TermInfoStrings const KeySelect;
 
-  /// @brief Field KeySend value: static_cast<int32_t>(0xc2)
+  /// @brief Field KeySend value: I32(194)
   static ::System::TermInfoStrings const KeySend;
 
-  /// @brief Field KeySeol value: static_cast<int32_t>(0xc3)
+  /// @brief Field KeySeol value: I32(195)
   static ::System::TermInfoStrings const KeySeol;
 
-  /// @brief Field KeySexit value: static_cast<int32_t>(0xc4)
+  /// @brief Field KeySexit value: I32(196)
   static ::System::TermInfoStrings const KeySexit;
 
-  /// @brief Field KeySf value: static_cast<int32_t>(0x54)
+  /// @brief Field KeySf value: I32(84)
   static ::System::TermInfoStrings const KeySf;
 
-  /// @brief Field KeySfind value: static_cast<int32_t>(0xc5)
+  /// @brief Field KeySfind value: I32(197)
   static ::System::TermInfoStrings const KeySfind;
 
-  /// @brief Field KeyShelp value: static_cast<int32_t>(0xc6)
+  /// @brief Field KeyShelp value: I32(198)
   static ::System::TermInfoStrings const KeyShelp;
 
-  /// @brief Field KeyShome value: static_cast<int32_t>(0xc7)
+  /// @brief Field KeyShome value: I32(199)
   static ::System::TermInfoStrings const KeyShome;
 
-  /// @brief Field KeySic value: static_cast<int32_t>(0xc8)
+  /// @brief Field KeySic value: I32(200)
   static ::System::TermInfoStrings const KeySic;
 
-  /// @brief Field KeySleft value: static_cast<int32_t>(0xc9)
+  /// @brief Field KeySleft value: I32(201)
   static ::System::TermInfoStrings const KeySleft;
 
-  /// @brief Field KeySmessage value: static_cast<int32_t>(0xca)
+  /// @brief Field KeySmessage value: I32(202)
   static ::System::TermInfoStrings const KeySmessage;
 
-  /// @brief Field KeySmove value: static_cast<int32_t>(0xcb)
+  /// @brief Field KeySmove value: I32(203)
   static ::System::TermInfoStrings const KeySmove;
 
-  /// @brief Field KeySnext value: static_cast<int32_t>(0xcc)
+  /// @brief Field KeySnext value: I32(204)
   static ::System::TermInfoStrings const KeySnext;
 
-  /// @brief Field KeySoptions value: static_cast<int32_t>(0xcd)
+  /// @brief Field KeySoptions value: I32(205)
   static ::System::TermInfoStrings const KeySoptions;
 
-  /// @brief Field KeySprevious value: static_cast<int32_t>(0xce)
+  /// @brief Field KeySprevious value: I32(206)
   static ::System::TermInfoStrings const KeySprevious;
 
-  /// @brief Field KeySprint value: static_cast<int32_t>(0xcf)
+  /// @brief Field KeySprint value: I32(207)
   static ::System::TermInfoStrings const KeySprint;
 
-  /// @brief Field KeySr value: static_cast<int32_t>(0x55)
+  /// @brief Field KeySr value: I32(85)
   static ::System::TermInfoStrings const KeySr;
 
-  /// @brief Field KeySredo value: static_cast<int32_t>(0xd0)
+  /// @brief Field KeySredo value: I32(208)
   static ::System::TermInfoStrings const KeySredo;
 
-  /// @brief Field KeySreplace value: static_cast<int32_t>(0xd1)
+  /// @brief Field KeySreplace value: I32(209)
   static ::System::TermInfoStrings const KeySreplace;
 
-  /// @brief Field KeySright value: static_cast<int32_t>(0xd2)
+  /// @brief Field KeySright value: I32(210)
   static ::System::TermInfoStrings const KeySright;
 
-  /// @brief Field KeySrsume value: static_cast<int32_t>(0xd3)
+  /// @brief Field KeySrsume value: I32(211)
   static ::System::TermInfoStrings const KeySrsume;
 
-  /// @brief Field KeySsave value: static_cast<int32_t>(0xd4)
+  /// @brief Field KeySsave value: I32(212)
   static ::System::TermInfoStrings const KeySsave;
 
-  /// @brief Field KeySsuspend value: static_cast<int32_t>(0xd5)
+  /// @brief Field KeySsuspend value: I32(213)
   static ::System::TermInfoStrings const KeySsuspend;
 
-  /// @brief Field KeyStab value: static_cast<int32_t>(0x56)
+  /// @brief Field KeyStab value: I32(86)
   static ::System::TermInfoStrings const KeyStab;
 
-  /// @brief Field KeySundo value: static_cast<int32_t>(0xd6)
+  /// @brief Field KeySundo value: I32(214)
   static ::System::TermInfoStrings const KeySundo;
 
-  /// @brief Field KeySuspend value: static_cast<int32_t>(0xb8)
+  /// @brief Field KeySuspend value: I32(184)
   static ::System::TermInfoStrings const KeySuspend;
 
-  /// @brief Field KeyUndo value: static_cast<int32_t>(0xb9)
+  /// @brief Field KeyUndo value: I32(185)
   static ::System::TermInfoStrings const KeyUndo;
 
-  /// @brief Field KeyUp value: static_cast<int32_t>(0x57)
+  /// @brief Field KeyUp value: I32(87)
   static ::System::TermInfoStrings const KeyUp;
 
-  /// @brief Field KeypadLocal value: static_cast<int32_t>(0x58)
+  /// @brief Field KeypadLocal value: I32(88)
   static ::System::TermInfoStrings const KeypadLocal;
 
-  /// @brief Field KeypadXmit value: static_cast<int32_t>(0x59)
+  /// @brief Field KeypadXmit value: I32(89)
   static ::System::TermInfoStrings const KeypadXmit;
 
-  /// @brief Field LabF0 value: static_cast<int32_t>(0x5a)
+  /// @brief Field LabF0 value: I32(90)
   static ::System::TermInfoStrings const LabF0;
 
-  /// @brief Field LabF1 value: static_cast<int32_t>(0x5b)
+  /// @brief Field LabF1 value: I32(91)
   static ::System::TermInfoStrings const LabF1;
 
-  /// @brief Field LabF10 value: static_cast<int32_t>(0x5c)
+  /// @brief Field LabF10 value: I32(92)
   static ::System::TermInfoStrings const LabF10;
 
-  /// @brief Field LabF2 value: static_cast<int32_t>(0x5d)
+  /// @brief Field LabF2 value: I32(93)
   static ::System::TermInfoStrings const LabF2;
 
-  /// @brief Field LabF3 value: static_cast<int32_t>(0x5e)
+  /// @brief Field LabF3 value: I32(94)
   static ::System::TermInfoStrings const LabF3;
 
-  /// @brief Field LabF4 value: static_cast<int32_t>(0x5f)
+  /// @brief Field LabF4 value: I32(95)
   static ::System::TermInfoStrings const LabF4;
 
-  /// @brief Field LabF5 value: static_cast<int32_t>(0x60)
+  /// @brief Field LabF5 value: I32(96)
   static ::System::TermInfoStrings const LabF5;
 
-  /// @brief Field LabF6 value: static_cast<int32_t>(0x61)
+  /// @brief Field LabF6 value: I32(97)
   static ::System::TermInfoStrings const LabF6;
 
-  /// @brief Field LabF7 value: static_cast<int32_t>(0x62)
+  /// @brief Field LabF7 value: I32(98)
   static ::System::TermInfoStrings const LabF7;
 
-  /// @brief Field LabF8 value: static_cast<int32_t>(0x63)
+  /// @brief Field LabF8 value: I32(99)
   static ::System::TermInfoStrings const LabF8;
 
-  /// @brief Field LabF9 value: static_cast<int32_t>(0x64)
+  /// @brief Field LabF9 value: I32(100)
   static ::System::TermInfoStrings const LabF9;
 
-  /// @brief Field LabelFormat value: static_cast<int32_t>(0x111)
+  /// @brief Field LabelFormat value: I32(273)
   static ::System::TermInfoStrings const LabelFormat;
 
-  /// @brief Field LabelOff value: static_cast<int32_t>(0x9d)
+  /// @brief Field LabelOff value: I32(157)
   static ::System::TermInfoStrings const LabelOff;
 
-  /// @brief Field LabelOn value: static_cast<int32_t>(0x9c)
+  /// @brief Field LabelOn value: I32(156)
   static ::System::TermInfoStrings const LabelOn;
 
-  /// @brief Field Last value: static_cast<int32_t>(0x18a)
+  /// @brief Field Last value: I32(394)
   static ::System::TermInfoStrings const Last;
 
-  /// @brief Field MetaOff value: static_cast<int32_t>(0x65)
+  /// @brief Field MetaOff value: I32(101)
   static ::System::TermInfoStrings const MetaOff;
 
-  /// @brief Field MetaOn value: static_cast<int32_t>(0x66)
+  /// @brief Field MetaOn value: I32(102)
   static ::System::TermInfoStrings const MetaOn;
 
-  /// @brief Field MicroColumnAddress value: static_cast<int32_t>(0x148)
+  /// @brief Field MicroColumnAddress value: I32(328)
   static ::System::TermInfoStrings const MicroColumnAddress;
 
-  /// @brief Field MicroDown value: static_cast<int32_t>(0x149)
+  /// @brief Field MicroDown value: I32(329)
   static ::System::TermInfoStrings const MicroDown;
 
-  /// @brief Field MicroLeft value: static_cast<int32_t>(0x14a)
+  /// @brief Field MicroLeft value: I32(330)
   static ::System::TermInfoStrings const MicroLeft;
 
-  /// @brief Field MicroRight value: static_cast<int32_t>(0x14b)
+  /// @brief Field MicroRight value: I32(331)
   static ::System::TermInfoStrings const MicroRight;
 
-  /// @brief Field MicroRowAddress value: static_cast<int32_t>(0x14c)
+  /// @brief Field MicroRowAddress value: I32(332)
   static ::System::TermInfoStrings const MicroRowAddress;
 
-  /// @brief Field MicroUp value: static_cast<int32_t>(0x14d)
+  /// @brief Field MicroUp value: I32(333)
   static ::System::TermInfoStrings const MicroUp;
 
-  /// @brief Field MouseInfo value: static_cast<int32_t>(0x164)
+  /// @brief Field MouseInfo value: I32(356)
   static ::System::TermInfoStrings const MouseInfo;
 
-  /// @brief Field Newline value: static_cast<int32_t>(0x67)
+  /// @brief Field Newline value: I32(103)
   static ::System::TermInfoStrings const Newline;
 
-  /// @brief Field OrderOfPins value: static_cast<int32_t>(0x14e)
+  /// @brief Field OrderOfPins value: I32(334)
   static ::System::TermInfoStrings const OrderOfPins;
 
-  /// @brief Field OrigColors value: static_cast<int32_t>(0x12a)
+  /// @brief Field OrigColors value: I32(298)
   static ::System::TermInfoStrings const OrigColors;
 
-  /// @brief Field OrigPair value: static_cast<int32_t>(0x129)
+  /// @brief Field OrigPair value: I32(297)
   static ::System::TermInfoStrings const OrigPair;
 
-  /// @brief Field PadChar value: static_cast<int32_t>(0x68)
+  /// @brief Field PadChar value: I32(104)
   static ::System::TermInfoStrings const PadChar;
 
-  /// @brief Field ParmDch value: static_cast<int32_t>(0x69)
+  /// @brief Field ParmDch value: I32(105)
   static ::System::TermInfoStrings const ParmDch;
 
-  /// @brief Field ParmDeleteLine value: static_cast<int32_t>(0x6a)
+  /// @brief Field ParmDeleteLine value: I32(106)
   static ::System::TermInfoStrings const ParmDeleteLine;
 
-  /// @brief Field ParmDownCursor value: static_cast<int32_t>(0x6b)
+  /// @brief Field ParmDownCursor value: I32(107)
   static ::System::TermInfoStrings const ParmDownCursor;
 
-  /// @brief Field ParmDownMicro value: static_cast<int32_t>(0x14f)
+  /// @brief Field ParmDownMicro value: I32(335)
   static ::System::TermInfoStrings const ParmDownMicro;
 
-  /// @brief Field ParmIch value: static_cast<int32_t>(0x6c)
+  /// @brief Field ParmIch value: I32(108)
   static ::System::TermInfoStrings const ParmIch;
 
-  /// @brief Field ParmIndex value: static_cast<int32_t>(0x6d)
+  /// @brief Field ParmIndex value: I32(109)
   static ::System::TermInfoStrings const ParmIndex;
 
-  /// @brief Field ParmInsertLine value: static_cast<int32_t>(0x6e)
+  /// @brief Field ParmInsertLine value: I32(110)
   static ::System::TermInfoStrings const ParmInsertLine;
 
-  /// @brief Field ParmLeftCursor value: static_cast<int32_t>(0x6f)
+  /// @brief Field ParmLeftCursor value: I32(111)
   static ::System::TermInfoStrings const ParmLeftCursor;
 
-  /// @brief Field ParmLeftMicro value: static_cast<int32_t>(0x150)
+  /// @brief Field ParmLeftMicro value: I32(336)
   static ::System::TermInfoStrings const ParmLeftMicro;
 
-  /// @brief Field ParmRightCursor value: static_cast<int32_t>(0x70)
+  /// @brief Field ParmRightCursor value: I32(112)
   static ::System::TermInfoStrings const ParmRightCursor;
 
-  /// @brief Field ParmRightMicro value: static_cast<int32_t>(0x151)
+  /// @brief Field ParmRightMicro value: I32(337)
   static ::System::TermInfoStrings const ParmRightMicro;
 
-  /// @brief Field ParmRindex value: static_cast<int32_t>(0x71)
+  /// @brief Field ParmRindex value: I32(113)
   static ::System::TermInfoStrings const ParmRindex;
 
-  /// @brief Field ParmUpCursor value: static_cast<int32_t>(0x72)
+  /// @brief Field ParmUpCursor value: I32(114)
   static ::System::TermInfoStrings const ParmUpCursor;
 
-  /// @brief Field ParmUpMicro value: static_cast<int32_t>(0x152)
+  /// @brief Field ParmUpMicro value: I32(338)
   static ::System::TermInfoStrings const ParmUpMicro;
 
-  /// @brief Field PcTermOptions value: static_cast<int32_t>(0x17f)
+  /// @brief Field PcTermOptions value: I32(383)
   static ::System::TermInfoStrings const PcTermOptions;
 
-  /// @brief Field PkeyKey value: static_cast<int32_t>(0x73)
+  /// @brief Field PkeyKey value: I32(115)
   static ::System::TermInfoStrings const PkeyKey;
 
-  /// @brief Field PkeyLocal value: static_cast<int32_t>(0x74)
+  /// @brief Field PkeyLocal value: I32(116)
   static ::System::TermInfoStrings const PkeyLocal;
 
-  /// @brief Field PkeyPlab value: static_cast<int32_t>(0x169)
+  /// @brief Field PkeyPlab value: I32(361)
   static ::System::TermInfoStrings const PkeyPlab;
 
-  /// @brief Field PkeyXmit value: static_cast<int32_t>(0x75)
+  /// @brief Field PkeyXmit value: I32(117)
   static ::System::TermInfoStrings const PkeyXmit;
 
-  /// @brief Field PlabNorm value: static_cast<int32_t>(0x93)
+  /// @brief Field PlabNorm value: I32(147)
   static ::System::TermInfoStrings const PlabNorm;
 
-  /// @brief Field PrintScreen value: static_cast<int32_t>(0x76)
+  /// @brief Field PrintScreen value: I32(118)
   static ::System::TermInfoStrings const PrintScreen;
 
-  /// @brief Field PrtrNon value: static_cast<int32_t>(0x90)
+  /// @brief Field PrtrNon value: I32(144)
   static ::System::TermInfoStrings const PrtrNon;
 
-  /// @brief Field PrtrOff value: static_cast<int32_t>(0x77)
+  /// @brief Field PrtrOff value: I32(119)
   static ::System::TermInfoStrings const PrtrOff;
 
-  /// @brief Field PrtrOn value: static_cast<int32_t>(0x78)
+  /// @brief Field PrtrOn value: I32(120)
   static ::System::TermInfoStrings const PrtrOn;
 
-  /// @brief Field Pulse value: static_cast<int32_t>(0x11b)
+  /// @brief Field Pulse value: I32(283)
   static ::System::TermInfoStrings const Pulse;
 
-  /// @brief Field QuickDial value: static_cast<int32_t>(0x119)
+  /// @brief Field QuickDial value: I32(281)
   static ::System::TermInfoStrings const QuickDial;
 
-  /// @brief Field RemoveClock value: static_cast<int32_t>(0x114)
+  /// @brief Field RemoveClock value: I32(276)
   static ::System::TermInfoStrings const RemoveClock;
 
-  /// @brief Field RepeatChar value: static_cast<int32_t>(0x79)
+  /// @brief Field RepeatChar value: I32(121)
   static ::System::TermInfoStrings const RepeatChar;
 
-  /// @brief Field ReqForInput value: static_cast<int32_t>(0xd7)
+  /// @brief Field ReqForInput value: I32(215)
   static ::System::TermInfoStrings const ReqForInput;
 
-  /// @brief Field ReqMousePos value: static_cast<int32_t>(0x165)
+  /// @brief Field ReqMousePos value: I32(357)
   static ::System::TermInfoStrings const ReqMousePos;
 
-  /// @brief Field Reset1string value: static_cast<int32_t>(0x7a)
+  /// @brief Field Reset1string value: I32(122)
   static ::System::TermInfoStrings const Reset1string;
 
-  /// @brief Field Reset2string value: static_cast<int32_t>(0x7b)
+  /// @brief Field Reset2string value: I32(123)
   static ::System::TermInfoStrings const Reset2string;
 
-  /// @brief Field Reset3string value: static_cast<int32_t>(0x7c)
+  /// @brief Field Reset3string value: I32(124)
   static ::System::TermInfoStrings const Reset3string;
 
-  /// @brief Field ResetFile value: static_cast<int32_t>(0x7d)
+  /// @brief Field ResetFile value: I32(125)
   static ::System::TermInfoStrings const ResetFile;
 
-  /// @brief Field RestoreCursor value: static_cast<int32_t>(0x7e)
+  /// @brief Field RestoreCursor value: I32(126)
   static ::System::TermInfoStrings const RestoreCursor;
 
-  /// @brief Field RowAddress value: static_cast<int32_t>(0x7f)
+  /// @brief Field RowAddress value: I32(127)
   static ::System::TermInfoStrings const RowAddress;
 
-  /// @brief Field SaveCursor value: static_cast<int32_t>(0x80)
+  /// @brief Field SaveCursor value: I32(128)
   static ::System::TermInfoStrings const SaveCursor;
 
-  /// @brief Field ScancodeEscape value: static_cast<int32_t>(0x180)
+  /// @brief Field ScancodeEscape value: I32(384)
   static ::System::TermInfoStrings const ScancodeEscape;
 
-  /// @brief Field ScrollForward value: static_cast<int32_t>(0x81)
+  /// @brief Field ScrollForward value: I32(129)
   static ::System::TermInfoStrings const ScrollForward;
 
-  /// @brief Field ScrollReverse value: static_cast<int32_t>(0x82)
+  /// @brief Field ScrollReverse value: I32(130)
   static ::System::TermInfoStrings const ScrollReverse;
 
-  /// @brief Field SelectCharSet value: static_cast<int32_t>(0x153)
+  /// @brief Field SelectCharSet value: I32(339)
   static ::System::TermInfoStrings const SelectCharSet;
 
-  /// @brief Field Set0DesSeq value: static_cast<int32_t>(0x16c)
+  /// @brief Field Set0DesSeq value: I32(364)
   static ::System::TermInfoStrings const Set0DesSeq;
 
-  /// @brief Field Set1DesSeq value: static_cast<int32_t>(0x16d)
+  /// @brief Field Set1DesSeq value: I32(365)
   static ::System::TermInfoStrings const Set1DesSeq;
 
-  /// @brief Field Set2DesSeq value: static_cast<int32_t>(0x16e)
+  /// @brief Field Set2DesSeq value: I32(366)
   static ::System::TermInfoStrings const Set2DesSeq;
 
-  /// @brief Field Set3DesSeq value: static_cast<int32_t>(0x16f)
+  /// @brief Field Set3DesSeq value: I32(367)
   static ::System::TermInfoStrings const Set3DesSeq;
 
-  /// @brief Field SetAAttributes value: static_cast<int32_t>(0x188)
+  /// @brief Field SetAAttributes value: I32(392)
   static ::System::TermInfoStrings const SetAAttributes;
 
-  /// @brief Field SetABackground value: static_cast<int32_t>(0x168)
+  /// @brief Field SetABackground value: I32(360)
   static ::System::TermInfoStrings const SetABackground;
 
-  /// @brief Field SetAForeground value: static_cast<int32_t>(0x167)
+  /// @brief Field SetAForeground value: I32(359)
   static ::System::TermInfoStrings const SetAForeground;
 
-  /// @brief Field SetAttributes value: static_cast<int32_t>(0x83)
+  /// @brief Field SetAttributes value: I32(131)
   static ::System::TermInfoStrings const SetAttributes;
 
-  /// @brief Field SetBackground value: static_cast<int32_t>(0x12f)
+  /// @brief Field SetBackground value: I32(303)
   static ::System::TermInfoStrings const SetBackground;
 
-  /// @brief Field SetBottomMargin value: static_cast<int32_t>(0x154)
+  /// @brief Field SetBottomMargin value: I32(340)
   static ::System::TermInfoStrings const SetBottomMargin;
 
-  /// @brief Field SetBottomMarginParm value: static_cast<int32_t>(0x155)
+  /// @brief Field SetBottomMarginParm value: I32(341)
   static ::System::TermInfoStrings const SetBottomMarginParm;
 
-  /// @brief Field SetClock value: static_cast<int32_t>(0x112)
+  /// @brief Field SetClock value: I32(274)
   static ::System::TermInfoStrings const SetClock;
 
-  /// @brief Field SetColorBand value: static_cast<int32_t>(0x178)
+  /// @brief Field SetColorBand value: I32(376)
   static ::System::TermInfoStrings const SetColorBand;
 
-  /// @brief Field SetColorPair value: static_cast<int32_t>(0x12d)
+  /// @brief Field SetColorPair value: I32(301)
   static ::System::TermInfoStrings const SetColorPair;
 
-  /// @brief Field SetForeground value: static_cast<int32_t>(0x12e)
+  /// @brief Field SetForeground value: I32(302)
   static ::System::TermInfoStrings const SetForeground;
 
-  /// @brief Field SetLeftMargin value: static_cast<int32_t>(0x10f)
+  /// @brief Field SetLeftMargin value: I32(271)
   static ::System::TermInfoStrings const SetLeftMargin;
 
-  /// @brief Field SetLeftMarginParm value: static_cast<int32_t>(0x156)
+  /// @brief Field SetLeftMarginParm value: I32(342)
   static ::System::TermInfoStrings const SetLeftMarginParm;
 
-  /// @brief Field SetLrMargin value: static_cast<int32_t>(0x170)
+  /// @brief Field SetLrMargin value: I32(368)
   static ::System::TermInfoStrings const SetLrMargin;
 
-  /// @brief Field SetPageLength value: static_cast<int32_t>(0x179)
+  /// @brief Field SetPageLength value: I32(377)
   static ::System::TermInfoStrings const SetPageLength;
 
-  /// @brief Field SetPglenInch value: static_cast<int32_t>(0x189)
+  /// @brief Field SetPglenInch value: I32(393)
   static ::System::TermInfoStrings const SetPglenInch;
 
-  /// @brief Field SetRightMargin value: static_cast<int32_t>(0x110)
+  /// @brief Field SetRightMargin value: I32(272)
   static ::System::TermInfoStrings const SetRightMargin;
 
-  /// @brief Field SetRightMarginParm value: static_cast<int32_t>(0x157)
+  /// @brief Field SetRightMarginParm value: I32(343)
   static ::System::TermInfoStrings const SetRightMarginParm;
 
-  /// @brief Field SetTab value: static_cast<int32_t>(0x84)
+  /// @brief Field SetTab value: I32(132)
   static ::System::TermInfoStrings const SetTab;
 
-  /// @brief Field SetTbMargin value: static_cast<int32_t>(0x171)
+  /// @brief Field SetTbMargin value: I32(369)
   static ::System::TermInfoStrings const SetTbMargin;
 
-  /// @brief Field SetTopMargin value: static_cast<int32_t>(0x158)
+  /// @brief Field SetTopMargin value: I32(344)
   static ::System::TermInfoStrings const SetTopMargin;
 
-  /// @brief Field SetTopMarginParm value: static_cast<int32_t>(0x159)
+  /// @brief Field SetTopMarginParm value: I32(345)
   static ::System::TermInfoStrings const SetTopMarginParm;
 
-  /// @brief Field SetWindow value: static_cast<int32_t>(0x85)
+  /// @brief Field SetWindow value: I32(133)
   static ::System::TermInfoStrings const SetWindow;
 
-  /// @brief Field StartBitImage value: static_cast<int32_t>(0x15a)
+  /// @brief Field StartBitImage value: I32(346)
   static ::System::TermInfoStrings const StartBitImage;
 
-  /// @brief Field StartCharSetDef value: static_cast<int32_t>(0x15b)
+  /// @brief Field StartCharSetDef value: I32(347)
   static ::System::TermInfoStrings const StartCharSetDef;
 
-  /// @brief Field StopBitImage value: static_cast<int32_t>(0x15c)
+  /// @brief Field StopBitImage value: I32(348)
   static ::System::TermInfoStrings const StopBitImage;
 
-  /// @brief Field StopCharSetDef value: static_cast<int32_t>(0x15d)
+  /// @brief Field StopCharSetDef value: I32(349)
   static ::System::TermInfoStrings const StopCharSetDef;
 
-  /// @brief Field SubscriptCharacters value: static_cast<int32_t>(0x15e)
+  /// @brief Field SubscriptCharacters value: I32(350)
   static ::System::TermInfoStrings const SubscriptCharacters;
 
-  /// @brief Field SuperscriptCharacters value: static_cast<int32_t>(0x15f)
+  /// @brief Field SuperscriptCharacters value: I32(351)
   static ::System::TermInfoStrings const SuperscriptCharacters;
 
-  /// @brief Field Tab value: static_cast<int32_t>(0x86)
+  /// @brief Field Tab value: I32(134)
   static ::System::TermInfoStrings const Tab;
 
-  /// @brief Field TheseCauseCr value: static_cast<int32_t>(0x160)
+  /// @brief Field TheseCauseCr value: I32(352)
   static ::System::TermInfoStrings const TheseCauseCr;
 
-  /// @brief Field ToStatusLine value: static_cast<int32_t>(0x87)
+  /// @brief Field ToStatusLine value: I32(135)
   static ::System::TermInfoStrings const ToStatusLine;
 
-  /// @brief Field Tone value: static_cast<int32_t>(0x11a)
+  /// @brief Field Tone value: I32(282)
   static ::System::TermInfoStrings const Tone;
 
-  /// @brief Field UnderlineChar value: static_cast<int32_t>(0x88)
+  /// @brief Field UnderlineChar value: I32(136)
   static ::System::TermInfoStrings const UnderlineChar;
 
-  /// @brief Field UpHalfLine value: static_cast<int32_t>(0x89)
+  /// @brief Field UpHalfLine value: I32(137)
   static ::System::TermInfoStrings const UpHalfLine;
 
-  /// @brief Field User0 value: static_cast<int32_t>(0x11f)
+  /// @brief Field User0 value: I32(287)
   static ::System::TermInfoStrings const User0;
 
-  /// @brief Field User1 value: static_cast<int32_t>(0x120)
+  /// @brief Field User1 value: I32(288)
   static ::System::TermInfoStrings const User1;
 
-  /// @brief Field User2 value: static_cast<int32_t>(0x121)
+  /// @brief Field User2 value: I32(289)
   static ::System::TermInfoStrings const User2;
 
-  /// @brief Field User3 value: static_cast<int32_t>(0x122)
+  /// @brief Field User3 value: I32(290)
   static ::System::TermInfoStrings const User3;
 
-  /// @brief Field User4 value: static_cast<int32_t>(0x123)
+  /// @brief Field User4 value: I32(291)
   static ::System::TermInfoStrings const User4;
 
-  /// @brief Field User5 value: static_cast<int32_t>(0x124)
+  /// @brief Field User5 value: I32(292)
   static ::System::TermInfoStrings const User5;
 
-  /// @brief Field User6 value: static_cast<int32_t>(0x125)
+  /// @brief Field User6 value: I32(293)
   static ::System::TermInfoStrings const User6;
 
-  /// @brief Field User7 value: static_cast<int32_t>(0x126)
+  /// @brief Field User7 value: I32(294)
   static ::System::TermInfoStrings const User7;
 
-  /// @brief Field User8 value: static_cast<int32_t>(0x127)
+  /// @brief Field User8 value: I32(295)
   static ::System::TermInfoStrings const User8;
 
-  /// @brief Field User9 value: static_cast<int32_t>(0x128)
+  /// @brief Field User9 value: I32(296)
   static ::System::TermInfoStrings const User9;
 
-  /// @brief Field WaitTone value: static_cast<int32_t>(0x11e)
+  /// @brief Field WaitTone value: I32(286)
   static ::System::TermInfoStrings const WaitTone;
 
-  /// @brief Field XoffCharacter value: static_cast<int32_t>(0x9a)
+  /// @brief Field XoffCharacter value: I32(154)
   static ::System::TermInfoStrings const XoffCharacter;
 
-  /// @brief Field XonCharacter value: static_cast<int32_t>(0x99)
+  /// @brief Field XonCharacter value: I32(153)
   static ::System::TermInfoStrings const XonCharacter;
 
-  /// @brief Field ZeroMotion value: static_cast<int32_t>(0x161)
+  /// @brief Field ZeroMotion value: I32(353)
   static ::System::TermInfoStrings const ZeroMotion;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1632,12 +1628,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::TermInfoStrings, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::TermInfoStrings, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::TermInfoStrings, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoStrings, "System", "TermInfoStrings");

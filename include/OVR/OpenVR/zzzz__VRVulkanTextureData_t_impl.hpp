@@ -2,7 +2,6 @@
 // IWYU pragma private; include "OVR/OpenVR/VRVulkanTextureData_t.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRVulkanTextureData_t_def.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
 // Ctor Parameters [CppParam { name: "m_nImage", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pDevice", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "m_pPhysicalDevice", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pInstance", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "m_pQueue", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_nQueueFamilyIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam

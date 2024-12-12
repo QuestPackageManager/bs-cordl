@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::LikeNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*)>(&::System::Data::LikeNode::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4114d9c;
+  constexpr static std::size_t addrs = 0x41760b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::LikeNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::LikeNode::Eval)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x4114de0;
+  constexpr static std::size_t addrs = 0x41760f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::LikeNode::*)(::StringW)>(&::System::Data::LikeNode::AnalyzePattern)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x4115334;
+  constexpr static std::size_t addrs = 0x4176648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,9 +78,6 @@ constexpr void System::Data::LikeNode::__cordl_internal_set__pattern(::StringW v
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Data::LikeNode* System::Data::LikeNode::New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::LikeNode*>(table, op, left, right));
-}
 inline void System::Data::LikeNode::_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::LikeNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -100,6 +97,9 @@ inline ::StringW System::Data::LikeNode::AnalyzePattern(::StringW pat) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::LikeNode*>::get(), "AnalyzePattern", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, pat);
+}
+inline ::System::Data::LikeNode* System::Data::LikeNode::New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::LikeNode*>(table, op, left, right));
 }
 // Ctor Parameters []
 constexpr ::System::Data::LikeNode::LikeNode() {}

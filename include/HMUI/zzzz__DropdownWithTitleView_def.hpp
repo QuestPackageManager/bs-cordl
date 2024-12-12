@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 CORDL_MODULE_EXPORT(DropdownWithTitleView)
 namespace HMUI {
-class __TableView__IDataSource;
+class TableView_IDataSource;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -17,11 +17,10 @@ class DropdownWithTitleView;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::DropdownWithTitleView);
-// Type: HMUI::DropdownWithTitleView
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.SimpleTextDropdown
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::DropdownWithTitleView*
+// CS Name: HMUI.DropdownWithTitleView
 class CORDL_TYPE DropdownWithTitleView : public ::HMUI::SimpleTextDropdown {
 public:
   // Declarations
@@ -33,8 +32,8 @@ public:
 
   static inline ::HMUI::DropdownWithTitleView* New_ctor();
 
-  /// @brief Method RefreshSize, addr 0x399f2dc, size 0x60, virtual true, abstract: false, final false
-  inline void RefreshSize(::HMUI::__TableView__IDataSource* dataSource);
+  /// @brief Method RefreshSize, addr 0x39f5f4c, size 0x60, virtual true, abstract: false, final false
+  inline void RefreshSize(::HMUI::TableView_IDataSource* dataSource);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
@@ -48,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__titleRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x399f33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f5fac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,23 +64,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DropdownWithTitleView(DropdownWithTitleView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16071 };
+
   /// @brief Field _rectTransform, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _titleRectTransform, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____titleRectTransform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16036 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::DropdownWithTitleView, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::DropdownWithTitleView, ____rectTransform) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::DropdownWithTitleView, ____titleRectTransform) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::DropdownWithTitleView, 0x90>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::DropdownWithTitleView);

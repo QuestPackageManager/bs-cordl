@@ -12,27 +12,26 @@ class BinaryPrimitives;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Buffers::Binary::BinaryPrimitives);
-// Type: System.Buffers.Binary::BinaryPrimitives
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Buffers::Binary {
 // Is value type: false
-// CS Name: ::System.Buffers.Binary::BinaryPrimitives*
+// CS Name: System.Buffers.Binary.BinaryPrimitives
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x3d686c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x3dc8838, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x3d686cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x3dc8840, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ReverseEndianness(int64_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x3d686d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x3dc8848, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x3d686e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x3dc8854, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x3d686e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x3dc885c, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ReverseEndianness(uint64_t value);
 
 protected:

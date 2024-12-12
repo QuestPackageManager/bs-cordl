@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XProcessingInstruction* (::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::get_ProcessingInstruction)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ee49e4;
+  constexpr static std::size_t addrs = 0x3f44a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::*)(
     ::System::Xml::Linq::XProcessingInstruction*)>(&::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ee3eb8;
+  constexpr static std::size_t addrs = 0x3f43f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::get_LocalName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ee4a5c;
+  constexpr static std::size_t addrs = 0x3f44b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::get_Value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ee4a78;
+  constexpr static std::size_t addrs = 0x3f44b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::set_Value)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3ee4a94;
+  constexpr static std::size_t addrs = 0x3f44b40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,10 +86,6 @@ inline ::System::Xml::Linq::XProcessingInstruction* Newtonsoft::Json::Converters
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*>::get(),
                                                "get_ProcessingInstruction", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Linq::XProcessingInstruction*, false>(this, ___internal_method);
-}
-inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*
-Newtonsoft::Json::Converters::XProcessingInstructionWrapper::New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*>(processingInstruction));
 }
 inline void Newtonsoft::Json::Converters::XProcessingInstructionWrapper::_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,6 +110,10 @@ inline void Newtonsoft::Json::Converters::XProcessingInstructionWrapper::set_Val
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*
+Newtonsoft::Json::Converters::XProcessingInstructionWrapper::New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*>(processingInstruction));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::XProcessingInstructionWrapper() {}

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::InterceptCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::InterceptCallback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3a4c728;
+  constexpr static std::size_t addrs = 0x3aa3398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,10 +26,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::ENet::InterceptCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::InterceptCallback::*)(ByRef<::ENet::Event>, ByRef<::ENet::Address>, ::System::IntPtr, int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::InterceptCallback::*)(::ByRef<::ENet::Event>, ::ByRef<::ENet::Address>, ::System::IntPtr, int32_t)>(
     &::ENet::InterceptCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a4c7c8;
+  constexpr static std::size_t addrs = 0x3aa3438;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,9 +42,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::ENet::InterceptCallback::*)(ByRef<::ENet::Event>, ByRef<::ENet::Address>, ::System::IntPtr, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::ENet::InterceptCallback::BeginInvoke)> {
+    ::ENet::InterceptCallback::*)(::ByRef<::ENet::Event>, ::ByRef<::ENet::Address>, ::System::IntPtr, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::ENet::InterceptCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3a4c7dc;
+  constexpr static std::size_t addrs = 0x3aa344c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,10 +56,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::ENet::InterceptCallback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::InterceptCallback::*)(ByRef<::ENet::Event>, ByRef<::ENet::Address>, ::System::IAsyncResult*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::InterceptCallback::*)(::ByRef<::ENet::Event>, ::ByRef<::ENet::Address>, ::System::IAsyncResult*)>(
     &::ENet::InterceptCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3a4c8fc;
+  constexpr static std::size_t addrs = 0x3aa356c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,9 +68,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::ENet::InterceptCallback* ENet::InterceptCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ENet::InterceptCallback*>(object, method));
-}
 inline void ENet::InterceptCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::InterceptCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -78,21 +75,24 @@ inline void ENet::InterceptCallback::_ctor(::System::Object* object, ::System::I
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline int32_t ENet::InterceptCallback::Invoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength) {
+inline int32_t ENet::InterceptCallback::Invoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::InterceptCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, event, address, receivedData, receivedDataLength);
 }
-inline ::System::IAsyncResult* ENet::InterceptCallback::BeginInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength,
+inline ::System::IAsyncResult* ENet::InterceptCallback::BeginInvoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength,
                                                                     ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::InterceptCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, event, address, receivedData, receivedDataLength, callback, object);
 }
-inline int32_t ENet::InterceptCallback::EndInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IAsyncResult* result) {
+inline int32_t ENet::InterceptCallback::EndInvoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IAsyncResult* result) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::InterceptCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, event, address, result);
+}
+inline ::ENet::InterceptCallback* ENet::InterceptCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ENet::InterceptCallback*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::ENet::InterceptCallback::InterceptCallback() {}

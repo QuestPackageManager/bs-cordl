@@ -4,8 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CADMessageBase)
 namespace System::Collections {
@@ -38,11 +36,10 @@ class CADMessageBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMessageBase);
-// Type: System.Runtime.Remoting.Messaging::CADMessageBase
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::CADMessageBase*
+// CS Name: System.Runtime.Remoting.Messaging.CADMessageBase
 class CORDL_TYPE CADMessageBase : public ::System::Object {
 public:
   // Declarations
@@ -61,48 +58,48 @@ public:
   /// @brief Field serializedMethod, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_serializedMethod, put = __cordl_internal_set_serializedMethod)) ::ArrayW<uint8_t, ::Array<uint8_t>*> serializedMethod;
 
-  /// @brief Method GetLogicalCallContext, addr 0x3c8850c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalCallContext, addr 0x3ce8680, size 0x88, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetMethod, addr 0x3c869fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x3ce6b70, size 0x80, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* GetMethod();
 
-  /// @brief Method GetSignature, addr 0x3c86a7c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x3ce6bf0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetSignature(::System::Reflection::MethodBase* methodBase, bool load);
 
-  /// @brief Method IsPossibleToIgnoreMarshal, addr 0x3c8762c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method IsPossibleToIgnoreMarshal, addr 0x3ce77a0, size 0x1b0, virtual false, abstract: false, final false
   static inline bool IsPossibleToIgnoreMarshal(::System::Object* obj);
 
-  /// @brief Method MarshalArgument, addr 0x3c877dc, size 0x154, virtual false, abstract: false, final false
-  inline ::System::Object* MarshalArgument(::System::Object* arg, ByRef<::System::Collections::ArrayList*> args);
+  /// @brief Method MarshalArgument, addr 0x3ce7950, size 0x154, virtual false, abstract: false, final false
+  inline ::System::Object* MarshalArgument(::System::Object* arg, ::ByRef<::System::Collections::ArrayList*> args);
 
-  /// @brief Method MarshalArguments, addr 0x3c880d4, size 0x100, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> MarshalArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments, ByRef<::System::Collections::ArrayList*> args);
+  /// @brief Method MarshalArguments, addr 0x3ce8248, size 0x100, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> MarshalArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments, ::ByRef<::System::Collections::ArrayList*> args);
 
-  /// @brief Method MarshalProperties, addr 0x3c86c2c, size 0x740, virtual false, abstract: false, final false
-  static inline int32_t MarshalProperties(::System::Collections::IDictionary* dict, ByRef<::System::Collections::ArrayList*> args);
+  /// @brief Method MarshalProperties, addr 0x3ce6da0, size 0x740, virtual false, abstract: false, final false
+  static inline int32_t MarshalProperties(::System::Collections::IDictionary* dict, ::ByRef<::System::Collections::ArrayList*> args);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMessageBase* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method SaveLogicalCallContext, addr 0x3c882d4, size 0x238, virtual false, abstract: false, final false
-  inline void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage* msg, ByRef<::System::Collections::ArrayList*> serializeList);
+  /// @brief Method SaveLogicalCallContext, addr 0x3ce8448, size 0x238, virtual false, abstract: false, final false
+  inline void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage* msg, ::ByRef<::System::Collections::ArrayList*> serializeList);
 
-  /// @brief Method UnmarshalArgument, addr 0x3c87930, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalArgument, addr 0x3ce7aa4, size 0x7a4, virtual false, abstract: false, final false
   inline ::System::Object* UnmarshalArgument(::System::Object* arg, ::System::Collections::ArrayList* args);
 
-  /// @brief Method UnmarshalArguments, addr 0x3c881d4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalArguments, addr 0x3ce8348, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> UnmarshalArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments, ::System::Collections::ArrayList* args);
 
-  /// @brief Method UnmarshalProperties, addr 0x3c874f0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalProperties, addr 0x3ce7664, size 0x13c, virtual false, abstract: false, final false
   static inline void UnmarshalProperties(::System::Collections::IDictionary* dict, int32_t count, ::System::Collections::ArrayList* args);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__args() const;
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__args();
 
-  constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& __cordl_internal_get__callContext();
+  constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder* const& __cordl_internal_get__callContext() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CADArgHolder*> const& __cordl_internal_get__callContext() const;
+  constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& __cordl_internal_get__callContext();
 
   constexpr int32_t const& __cordl_internal_get__propertyCount() const;
 
@@ -126,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedMethod(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c8696c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce6ae0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
 protected:
@@ -143,6 +140,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CADMessageBase(CADMessageBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3154 };
+
   /// @brief Field _args, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ____args;
 
@@ -158,14 +158,9 @@ public:
   /// @brief Field serializedMethod, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___serializedMethod;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3154 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADMessageBase, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ____args) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ____serializedArgs) == 0x18, "Offset mismatch!");
@@ -175,6 +170,8 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, _
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ____callContext) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ___serializedMethod) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADMessageBase, 0x38>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADMessageBase);

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncReadRequest::*)(
     ::Mono::Net::Security::MobileAuthenticatedStream*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Mono::Net::Security::AsyncReadRequest::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40af874;
+  constexpr static std::size_t addrs = 0x4110b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Net::Security::AsyncOperationStatus (::Mono::Net::Security::AsyncReadRequest::*)(::Mono::Net::Security::AsyncOperationStatus)>(&::Mono::Net::Security::AsyncReadRequest::Run)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40af87c;
+  constexpr static std::size_t addrs = 0x4110b90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,10 +37,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-inline ::Mono::Net::Security::AsyncReadRequest* Mono::Net::Security::AsyncReadRequest::New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync,
-                                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::AsyncReadRequest*>(parent, sync, buffer, offset, size));
-}
 inline void Mono::Net::Security::AsyncReadRequest::_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                          int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,6 +51,10 @@ inline ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::AsyncRea
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncReadRequest*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::AsyncOperationStatus, false>(this, ___internal_method, status);
+}
+inline ::Mono::Net::Security::AsyncReadRequest* Mono::Net::Security::AsyncReadRequest::New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync,
+                                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::AsyncReadRequest*>(parent, sync, buffer, offset, size));
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::AsyncReadRequest::AsyncReadRequest() {}

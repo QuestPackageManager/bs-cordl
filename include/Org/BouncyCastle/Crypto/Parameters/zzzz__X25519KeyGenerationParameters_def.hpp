@@ -14,17 +14,16 @@ class X25519KeyGenerationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::X25519KeyGenerationParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::X25519KeyGenerationParameters
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.KeyGenerationParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::X25519KeyGenerationParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.X25519KeyGenerationParameters
 class CORDL_TYPE X25519KeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x238de78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1164, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
 protected:

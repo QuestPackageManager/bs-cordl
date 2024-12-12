@@ -11,22 +11,17 @@ template <typename T> class IComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::IComparer_1);
-// Type: System.Collections.Generic::IComparer`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::IComparer`1<T>*
+// CS Name: System.Collections.Generic.IComparer`1<T>
 class CORDL_TYPE IComparer_1 {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Compare(T x, T y);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IComparer_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IComparer_1(IComparer_1&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IComparer_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

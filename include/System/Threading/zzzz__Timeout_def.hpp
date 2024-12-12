@@ -12,16 +12,15 @@ class Timeout;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Timeout);
-// Type: System.Threading::Timeout
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.TimeSpan
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::Timeout*
+// CS Name: System.Threading.Timeout
 class CORDL_TYPE Timeout : public ::System::Object {
 public:
   // Declarations
   /// @brief Field InfiniteTimeSpan, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InfiniteTimeSpan, put = setStaticF_InfiniteTimeSpan)) ::System::TimeSpan InfiniteTimeSpan;
+  __declspec(property(get = getStaticF_InfiniteTimeSpan, put = setStaticF_InfiniteTimeSpan)) ::System::TimeSpan InfiniteTimeSpan;
 
   static inline ::System::TimeSpan getStaticF_InfiniteTimeSpan();
 

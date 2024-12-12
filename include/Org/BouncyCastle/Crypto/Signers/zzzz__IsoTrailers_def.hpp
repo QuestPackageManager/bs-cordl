@@ -18,29 +18,28 @@ class IsoTrailers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::IsoTrailers);
-// Type: Org.BouncyCastle.Crypto.Signers::IsoTrailers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Signers::IsoTrailers*
+// CS Name: Org.BouncyCastle.Crypto.Signers.IsoTrailers
 class CORDL_TYPE IsoTrailers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field trailerMap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_trailerMap, put = setStaticF_trailerMap)) ::System::Collections::IDictionary* trailerMap;
+  __declspec(property(get = getStaticF_trailerMap, put = setStaticF_trailerMap)) ::System::Collections::IDictionary* trailerMap;
 
-  /// @brief Method CreateTrailerMap, addr 0x23a4a58, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method CreateTrailerMap, addr 0x23d7d44, size 0x674, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateTrailerMap();
 
-  /// @brief Method GetTrailer, addr 0x23a113c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetTrailer, addr 0x23d4428, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::IsoTrailers* New_ctor();
 
-  /// @brief Method NoTrailerAvailable, addr 0x23a0fe8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method NoTrailerAvailable, addr 0x23d42d4, size 0x154, virtual false, abstract: false, final false
   static inline bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x23a5118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8404, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_trailerMap();

@@ -15,11 +15,10 @@ class LocalDataStoreSlot;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::LocalDataStoreSlot);
-// Type: System::LocalDataStoreSlot
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::LocalDataStoreSlot*
+// CS Name: System.LocalDataStoreSlot
 class CORDL_TYPE LocalDataStoreSlot : public ::System::Object {
 public:
   // Declarations
@@ -38,7 +37,7 @@ public:
   /// @brief Field m_slot, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_slot, put = __cordl_internal_set_m_slot)) int32_t m_slot;
 
-  /// @brief Method Finalize, addr 0x3db327c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3e13328, size 0xac, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
@@ -47,9 +46,9 @@ public:
 
   constexpr int64_t& __cordl_internal_get_m_cookie();
 
-  constexpr ::System::LocalDataStoreMgr*& __cordl_internal_get_m_mgr();
+  constexpr ::System::LocalDataStoreMgr* const& __cordl_internal_get_m_mgr() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& __cordl_internal_get_m_mgr() const;
+  constexpr ::System::LocalDataStoreMgr*& __cordl_internal_get_m_mgr();
 
   constexpr int32_t const& __cordl_internal_get_m_slot() const;
 
@@ -61,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_m_slot(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3db3224, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e132d0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x3db3274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x3e13320, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Manager, addr 0x3db3264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Manager, addr 0x3e13310, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreMgr* get_Manager();
 
-  /// @brief Method get_Slot, addr 0x3db326c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Slot, addr 0x3e13318, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Slot();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalDataStoreSlot(LocalDataStoreSlot const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2545 };
+
   /// @brief Field m_mgr, offset: 0x10, size: 0x8, def value: None
   ::System::LocalDataStoreMgr* ___m_mgr;
 
@@ -96,19 +98,16 @@ public:
   /// @brief Field m_cookie, offset: 0x20, size: 0x8, def value: None
   int64_t ___m_cookie;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2545 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreSlot, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::LocalDataStoreSlot, ___m_mgr) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::LocalDataStoreSlot, ___m_slot) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::LocalDataStoreSlot, ___m_cookie) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreSlot, 0x28>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStoreSlot);

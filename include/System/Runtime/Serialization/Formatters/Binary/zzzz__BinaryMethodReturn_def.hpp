@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnum_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BinaryMethodReturn)
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
@@ -22,11 +21,10 @@ class BinaryMethodReturn;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);
-// Type: System.Runtime.Serialization.Formatters.Binary::BinaryMethodReturn
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.MessageEnum
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryMethodReturn*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryMethodReturn
 class CORDL_TYPE BinaryMethodReturn : public ::System::Object {
 public:
   // Declarations
@@ -43,7 +41,7 @@ public:
   __declspec(property(get = __cordl_internal_get_callContext, put = __cordl_internal_set_callContext)) ::System::Object* callContext;
 
   /// @brief Field instanceOfVoid, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instanceOfVoid, put = setStaticF_instanceOfVoid)) ::System::Object* instanceOfVoid;
+  __declspec(property(get = getStaticF_instanceOfVoid, put = setStaticF_instanceOfVoid)) ::System::Object* instanceOfVoid;
 
   /// @brief Field messageEnum, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_messageEnum, put = __cordl_internal_set_messageEnum)) ::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
@@ -54,12 +52,12 @@ public:
   /// @brief Field returnValue, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_returnValue, put = __cordl_internal_set_returnValue)) ::System::Object* returnValue;
 
-  /// @brief Method Dump, addr 0x3c9f970, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3cffae4, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* New_ctor();
 
-  /// @brief Method Write, addr 0x3c9f828, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3cff99c, size 0x148, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_argTypes() const;
@@ -74,21 +72,21 @@ public:
 
   constexpr bool& __cordl_internal_get_bArgsPrimitive();
 
-  constexpr ::System::Object*& __cordl_internal_get_callContext();
+  constexpr ::System::Object* const& __cordl_internal_get_callContext() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_callContext() const;
+  constexpr ::System::Object*& __cordl_internal_get_callContext();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const& __cordl_internal_get_messageEnum() const;
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& __cordl_internal_get_messageEnum();
 
+  constexpr ::System::Type* const& __cordl_internal_get_returnType() const;
+
   constexpr ::System::Type*& __cordl_internal_get_returnType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_returnType() const;
+  constexpr ::System::Object* const& __cordl_internal_get_returnValue() const;
 
   constexpr ::System::Object*& __cordl_internal_get_returnValue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_returnValue() const;
 
   constexpr void __cordl_internal_set_argTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
@@ -104,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_returnValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3c9f818, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cff98c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_instanceOfVoid();
@@ -124,6 +122,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryMethodReturn", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryMethodReturn(BinaryMethodReturn const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3263 };
 
   /// @brief Field returnValue, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___returnValue;
@@ -146,14 +147,9 @@ public:
   /// @brief Field returnType, offset: 0x38, size: 0x8, def value: None
   ::System::Type* ___returnType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3263 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, ___returnValue) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, ___args) == 0x18, "Offset mismatch!");
@@ -167,6 +163,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Bin
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, ___messageEnum) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, ___returnType) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn, 0x40>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);

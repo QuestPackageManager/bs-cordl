@@ -13,11 +13,10 @@ class CacheInitializationData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData);
-// Type: UnityEngine.AddressableAssets.Initialization::CacheInitializationData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets.Initialization::CacheInitializationData*
+// CS Name: UnityEngine.AddressableAssets.Initialization.CacheInitializationData
 class CORDL_TYPE CacheInitializationData : public ::System::Object {
 public:
   // Declarations
@@ -78,37 +77,37 @@ public:
 
   constexpr void __cordl_internal_set_m_MaximumCacheSize(int64_t value);
 
-  /// @brief Method .ctor, addr 0x449d57c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fe890, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CacheDirectoryOverride, addr 0x449d538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CacheDirectoryOverride, addr 0x44fe84c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CacheDirectoryOverride();
 
-  /// @brief Method get_CompressionEnabled, addr 0x449d524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionEnabled, addr 0x44fe838, size 0x8, virtual false, abstract: false, final false
   inline bool get_CompressionEnabled();
 
-  /// @brief Method get_ExpirationDelay, addr 0x449d548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpirationDelay, addr 0x44fe85c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ExpirationDelay();
 
-  /// @brief Method get_LimitCacheSize, addr 0x449d558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LimitCacheSize, addr 0x44fe86c, size 0x8, virtual false, abstract: false, final false
   inline bool get_LimitCacheSize();
 
-  /// @brief Method get_MaximumCacheSize, addr 0x449d56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumCacheSize, addr 0x44fe880, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaximumCacheSize();
 
-  /// @brief Method set_CacheDirectoryOverride, addr 0x449d540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CacheDirectoryOverride, addr 0x44fe854, size 0x8, virtual false, abstract: false, final false
   inline void set_CacheDirectoryOverride(::StringW value);
 
-  /// @brief Method set_CompressionEnabled, addr 0x449d52c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CompressionEnabled, addr 0x44fe840, size 0xc, virtual false, abstract: false, final false
   inline void set_CompressionEnabled(bool value);
 
-  /// @brief Method set_ExpirationDelay, addr 0x449d550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpirationDelay, addr 0x44fe864, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpirationDelay(int32_t value);
 
-  /// @brief Method set_LimitCacheSize, addr 0x449d560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_LimitCacheSize, addr 0x44fe874, size 0xc, virtual false, abstract: false, final false
   inline void set_LimitCacheSize(bool value);
 
-  /// @brief Method set_MaximumCacheSize, addr 0x449d574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumCacheSize, addr 0x44fe888, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumCacheSize(int64_t value);
 
 protected:
@@ -125,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CacheInitializationData(CacheInitializationData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16214 };
+
   /// @brief Field m_CompressionEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___m_CompressionEnabled;
 
@@ -140,14 +142,9 @@ public:
   /// @brief Field m_MaximumCacheSize, offset: 0x28, size: 0x8, def value: None
   int64_t ___m_MaximumCacheSize;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16179 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData, ___m_CompressionEnabled) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData, ___m_CacheDirectoryOverride) == 0x18, "Offset mismatch!");
@@ -157,6 +154,8 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::CacheIn
 static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData, ___m_LimitCacheSize) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData, ___m_MaximumCacheSize) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Initialization
 NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData);

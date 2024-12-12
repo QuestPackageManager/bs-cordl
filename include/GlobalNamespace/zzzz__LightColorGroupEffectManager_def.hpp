@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LightColorGroupEffectManager)
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
@@ -36,11 +35,10 @@ class LightColorGroupEffectManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorGroupEffectManager);
-// Type: ::LightColorGroupEffectManager
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightColorGroupEffectManager*
+// CS Name: LightColorGroupEffectManager
 class CORDL_TYPE LightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -66,32 +64,32 @@ public:
 
   __declspec(property(get = get_lightGroups)) ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* lightGroups;
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b2b780, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b8cd18, size 0x15c, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2b624, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8cbbc, size 0x15c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b2b390, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8c928, size 0x294, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const;
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>* const& __cordl_internal_get__lightColorGroupEffects() const;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>*& __cordl_internal_get__lightColorGroupEffects();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>*> const& __cordl_internal_get__lightColorGroupEffects() const;
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> const& __cordl_internal_get__lightGroups() const;
 
@@ -107,10 +105,10 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b2b8dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8ce74, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightGroups, addr 0x3b2b388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x3b8c920, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* get_lightGroups();
 
 protected:
@@ -127,6 +125,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorGroupEffectManager(LightColorGroupEffectManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4287 };
+
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> ____lightGroups;
 
@@ -142,14 +143,9 @@ public:
   /// @brief Field _lightColorGroupEffects, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>* ____lightColorGroupEffects;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4276 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroupEffectManager, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____lightGroups) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
@@ -159,6 +155,8 @@ static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____cont
 static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____colorBoostBeatmapDataCallbackWrapper) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____lightColorGroupEffects) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroupEffectManager, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightColorGroupEffectManager);

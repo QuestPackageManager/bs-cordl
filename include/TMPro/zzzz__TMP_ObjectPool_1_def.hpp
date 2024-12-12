@@ -18,13 +18,12 @@ template <typename T> class TMP_ObjectPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::TMPro::TMP_ObjectPool_1);
-// Type: TMPro::TMP_ObjectPool`1
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::TMPro::TMP_ObjectPool`1<T>*
+// CS Name: TMPro.TMP_ObjectPool`1<T>
 class CORDL_TYPE TMP_ObjectPool_1 : public ::System::Object {
 public:
   // Declarations
@@ -58,17 +57,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get__countAll_k__BackingField();
 
+  constexpr ::UnityEngine::Events::UnityAction_1<T>* const& __cordl_internal_get_m_ActionOnGet() const;
+
   constexpr ::UnityEngine::Events::UnityAction_1<T>*& __cordl_internal_get_m_ActionOnGet();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& __cordl_internal_get_m_ActionOnGet() const;
+  constexpr ::UnityEngine::Events::UnityAction_1<T>* const& __cordl_internal_get_m_ActionOnRelease() const;
 
   constexpr ::UnityEngine::Events::UnityAction_1<T>*& __cordl_internal_get_m_ActionOnRelease();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& __cordl_internal_get_m_ActionOnRelease() const;
+  constexpr ::System::Collections::Generic::Stack_1<T>* const& __cordl_internal_get_m_Stack() const;
 
   constexpr ::System::Collections::Generic::Stack_1<T>*& __cordl_internal_get_m_Stack();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& __cordl_internal_get_m_Stack() const;
 
   constexpr void __cordl_internal_set__countAll_k__BackingField(int32_t value);
 
@@ -107,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_ObjectPool_1(TMP_ObjectPool_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14523 };
+
   /// @brief Field m_Stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<T>* ___m_Stack;
 
@@ -118,9 +120,6 @@ public:
 
   /// @brief Field <countAll>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____countAll_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

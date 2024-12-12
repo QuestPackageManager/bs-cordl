@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::DiContainer*, ::Zenject::IPrefabProvider*, ::Zenject::GameObjectCreationParameters*, ::System::Action_1<::Zenject::DiContainer*>*)>(
     &::Zenject::SubContainerCreatorByNewPrefabMethod::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4adb8d8;
+  constexpr static std::size_t addrs = 0x4b401e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabMethod::*)(
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::GameObjectContext*)>(&::Zenject::SubContainerCreatorByNewPrefabMethod::AddInstallers)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4adb918;
+  constexpr static std::size_t addrs = 0x4b40228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,18 +48,13 @@ constexpr ::System::Action_1<::Zenject::DiContainer*>*& Zenject::SubContainerCre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& Zenject::SubContainerCreatorByNewPrefabMethod::__cordl_internal_get__installerMethod() const {
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& Zenject::SubContainerCreatorByNewPrefabMethod::__cordl_internal_get__installerMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerMethod;
 }
 constexpr void Zenject::SubContainerCreatorByNewPrefabMethod::__cordl_internal_set__installerMethod(::System::Action_1<::Zenject::DiContainer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____installerMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::SubContainerCreatorByNewPrefabMethod* Zenject::SubContainerCreatorByNewPrefabMethod::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
-                                                                                                                ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
-                                                                                                                ::System::Action_1<::Zenject::DiContainer*>* installerMethod) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabMethod*>(container, prefabProvider, gameObjectBindInfo, installerMethod));
 }
 inline void Zenject::SubContainerCreatorByNewPrefabMethod::_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                  ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installerMethod) {
@@ -75,6 +70,11 @@ inline void Zenject::SubContainerCreatorByNewPrefabMethod::AddInstallers(::Syste
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args, context);
+}
+inline ::Zenject::SubContainerCreatorByNewPrefabMethod* Zenject::SubContainerCreatorByNewPrefabMethod::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
+                                                                                                                ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
+                                                                                                                ::System::Action_1<::Zenject::DiContainer*>* installerMethod) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabMethod*>(container, prefabProvider, gameObjectBindInfo, installerMethod));
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod::SubContainerCreatorByNewPrefabMethod() {}

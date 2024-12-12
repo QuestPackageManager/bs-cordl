@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::InvalidConstraintException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::InvalidConstraintException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40db75c;
+  constexpr static std::size_t addrs = 0x413ca70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::InvalidConstraintException::*)()>(&::System::Data::InvalidConstraintException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x40db764;
+  constexpr static std::size_t addrs = 0x413ca78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::InvalidConstraintException*>::get(), ".ctor",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::InvalidConstraintException::*)(::StringW)>(
     &::System::Data::InvalidConstraintException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40db7c0;
+  constexpr static std::size_t addrs = 0x413cad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,10 +48,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Data::InvalidConstraintException* System::Data::InvalidConstraintException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                                      ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::InvalidConstraintException*>(info, context));
-}
 inline void System::Data::InvalidConstraintException::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::InvalidConstraintException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -59,22 +55,26 @@ inline void System::Data::InvalidConstraintException::_ctor(::System::Runtime::S
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
-inline ::System::Data::InvalidConstraintException* System::Data::InvalidConstraintException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::InvalidConstraintException*>());
-}
 inline void System::Data::InvalidConstraintException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::InvalidConstraintException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Data::InvalidConstraintException* System::Data::InvalidConstraintException::New_ctor(::StringW s) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::InvalidConstraintException*>(s));
 }
 inline void System::Data::InvalidConstraintException::_ctor(::StringW s) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::InvalidConstraintException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, s);
+}
+inline ::System::Data::InvalidConstraintException* System::Data::InvalidConstraintException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                                      ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::InvalidConstraintException*>(info, context));
+}
+inline ::System::Data::InvalidConstraintException* System::Data::InvalidConstraintException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::InvalidConstraintException*>());
+}
+inline ::System::Data::InvalidConstraintException* System::Data::InvalidConstraintException::New_ctor(::StringW s) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::InvalidConstraintException*>(s));
 }
 // Ctor Parameters []
 constexpr ::System::Data::InvalidConstraintException::InvalidConstraintException() {}

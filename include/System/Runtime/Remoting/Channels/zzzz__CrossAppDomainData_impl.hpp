@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainData::*)(int32_t)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainData::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c815bc;
+  constexpr static std::size_t addrs = 0x3ce1730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainData::get_DomainID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c81664;
+  constexpr static std::size_t addrs = 0x3ce17d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainData::get_ProcessID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8166c;
+  constexpr static std::size_t addrs = 0x3ce17e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ constexpr ::System::Object*& System::Runtime::Remoting::Channels::CrossAppDomain
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContextID;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Channels::CrossAppDomainData::__cordl_internal_get__ContextID() const {
+constexpr ::System::Object* const& System::Runtime::Remoting::Channels::CrossAppDomainData::__cordl_internal_get__ContextID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContextID;
 }
@@ -84,9 +84,6 @@ constexpr void System::Runtime::Remoting::Channels::CrossAppDomainData::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____processGuid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* System::Runtime::Remoting::Channels::CrossAppDomainData::New_ctor(int32_t domainId) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Channels::CrossAppDomainData*>(domainId));
-}
 inline void System::Runtime::Remoting::Channels::CrossAppDomainData::_ctor(int32_t domainId) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::CrossAppDomainData*>::get(), ".ctor",
@@ -102,6 +99,9 @@ inline ::StringW System::Runtime::Remoting::Channels::CrossAppDomainData::get_Pr
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::CrossAppDomainData*>::get(),
                                                                              "get_ProcessID", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* System::Runtime::Remoting::Channels::CrossAppDomainData::New_ctor(int32_t domainId) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Channels::CrossAppDomainData*>(domainId));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainData::CrossAppDomainData() {}

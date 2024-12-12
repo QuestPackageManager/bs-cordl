@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NewInstruction)
@@ -23,11 +22,10 @@ class NewInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::NewInstruction);
-// Type: System.Linq.Expressions.Interpreter::NewInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::NewInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.NewInstruction
 class CORDL_TYPE NewInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -43,39 +41,39 @@ public:
   /// @brief Field _constructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor)) ::System::Reflection::ConstructorInfo* _constructor;
 
-  /// @brief Method GetArgs, addr 0x408c744, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x40eda58, size 0x17c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, int32_t first);
 
   static inline ::System::Linq::Expressions::Interpreter::NewInstruction* New_ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
 
-  /// @brief Method Run, addr 0x408c5f4, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40ed908, size 0x150, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x408c8c0, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40edbd4, size 0x128, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__argumentCount() const;
 
   constexpr int32_t& __cordl_internal_get__argumentCount();
 
-  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__constructor();
+  constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get__constructor() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__constructor() const;
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__constructor();
 
   constexpr void __cordl_internal_set__argumentCount(int32_t value);
 
   constexpr void __cordl_internal_set__constructor(::System::Reflection::ConstructorInfo* value);
 
-  /// @brief Method .ctor, addr 0x408c574, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ed888, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
 
-  /// @brief Method get_ConsumedStack, addr 0x408c5a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40ed8b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x408c5b4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40ed8c8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x408c5ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40ed8c0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -92,23 +90,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NewInstruction(NewInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14017 };
+
   /// @brief Field _constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ____constructor;
 
   /// @brief Field _argumentCount, offset: 0x18, size: 0x4, def value: None
   int32_t ____argumentCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13983 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewInstruction, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewInstruction, ____constructor) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewInstruction, ____argumentCount) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewInstruction, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NewInstruction);

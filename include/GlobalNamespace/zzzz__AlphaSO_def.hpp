@@ -12,11 +12,10 @@ class AlphaSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AlphaSO);
-// Type: ::AlphaSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AlphaSO*
+// CS Name: AlphaSO
 class CORDL_TYPE AlphaSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -31,10 +30,10 @@ public:
 
   constexpr void __cordl_internal_set_alphaValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x266b964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269ec50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Implicit, addr 0x266b94c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x269ec38, size 0x18, virtual false, abstract: false, final false
   static inline float_t op_Implicit_float_t(::GlobalNamespace::AlphaSO* obj);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AlphaSO(AlphaSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18824 };
+
   /// @brief Field alphaValue, offset: 0x18, size: 0x4, def value: None
   float_t ___alphaValue;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AlphaSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AlphaSO, ___alphaValue) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AlphaSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AlphaSO);

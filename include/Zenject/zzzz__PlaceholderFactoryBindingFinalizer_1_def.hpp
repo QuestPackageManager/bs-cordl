@@ -20,13 +20,12 @@ template <typename TContract> class PlaceholderFactoryBindingFinalizer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactoryBindingFinalizer_1);
-// Type: Zenject::PlaceholderFactoryBindingFinalizer`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ProviderBindingFinalizer
 namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::PlaceholderFactoryBindingFinalizer`1<TContract>*
+// CS Name: Zenject.PlaceholderFactoryBindingFinalizer`1<TContract>
 class CORDL_TYPE PlaceholderFactoryBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:
   // Declarations
@@ -38,9 +37,9 @@ public:
   /// @brief Method OnFinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
-  constexpr ::Zenject::FactoryBindInfo*& __cordl_internal_get__factoryBindInfo();
+  constexpr ::Zenject::FactoryBindInfo* const& __cordl_internal_get__factoryBindInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __cordl_internal_get__factoryBindInfo() const;
+  constexpr ::Zenject::FactoryBindInfo*& __cordl_internal_get__factoryBindInfo();
 
   constexpr void __cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
 
@@ -61,11 +60,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlaceholderFactoryBindingFinalizer_1(PlaceholderFactoryBindingFinalizer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12201 };
+
   /// @brief Field _factoryBindInfo, offset: 0x18, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____factoryBindInfo;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TypeValuePair::*)(::System::Type*, ::System::Object*)>(&::Zenject::TypeValuePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abbb30;
+  constexpr static std::size_t addrs = 0x4b20440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,7 @@ inline void Zenject::TypeValuePair::_ctor(::System::Type* type, ::System::Object
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, value);
 }
-// Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value:
-// Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
 constexpr ::Zenject::TypeValuePair::TypeValuePair(::System::Type* Type, ::System::Object* Value) noexcept {
   this->Type = Type;
   this->Value = Value;

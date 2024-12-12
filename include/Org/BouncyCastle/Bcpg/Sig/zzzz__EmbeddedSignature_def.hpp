@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EmbeddedSignature)
 // Forward declare root types
@@ -13,17 +12,16 @@ class EmbeddedSignature;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature);
-// Type: Org.BouncyCastle.Bcpg.Sig::EmbeddedSignature
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::EmbeddedSignature*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.EmbeddedSignature
 class CORDL_TYPE EmbeddedSignature : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2608d78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263c064, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:

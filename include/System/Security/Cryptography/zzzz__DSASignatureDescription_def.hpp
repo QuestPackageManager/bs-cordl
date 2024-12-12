@@ -11,17 +11,16 @@ class DSASignatureDescription;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureDescription);
-// Type: System.Security.Cryptography::DSASignatureDescription
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.SignatureDescription
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::DSASignatureDescription*
+// CS Name: System.Security.Cryptography.DSASignatureDescription
 class CORDL_TYPE DSASignatureDescription : public ::System::Security::Cryptography::SignatureDescription {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::DSASignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c4b504, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cab678, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

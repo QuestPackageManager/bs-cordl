@@ -21,11 +21,10 @@ class DataException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataException);
-// Type: System.Data::DataException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::DataException*
+// CS Name: System.Data.DataException
 class CORDL_TYPE DataException : public ::System::SystemException {
 public:
   // Declarations
@@ -37,16 +36,16 @@ public:
 
   static inline ::System::Data::DataException* New_ctor(::StringW s, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x40db4b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413c7c8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x40db4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413c7c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x40db510, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413c824, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x40db534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413c848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s, ::System::Exception* innerException);
 
 protected:
@@ -64,7 +63,7 @@ public:
   DataException(DataException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11337 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,13 +14,12 @@ template <typename T> class GenericSignal_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::GenericSignal_1);
-// Type: ::GenericSignal`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Signal
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::GenericSignal`1<T>*
+// CS Name: GenericSignal`1<T>
 class CORDL_TYPE GenericSignal_1 : public ::GlobalNamespace::Signal {
 public:
   // Declarations
@@ -41,9 +40,9 @@ public:
   /// @brief Method Unsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Unsubscribe(::System::Action_1<T>* foo);
 
-  constexpr ::System::Action_1<T>*& __cordl_internal_get__floatEvent();
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get__floatEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get__floatEvent() const;
+  constexpr ::System::Action_1<T>*& __cordl_internal_get__floatEvent();
 
   constexpr void __cordl_internal_set__floatEvent(::System::Action_1<T>* value);
 
@@ -64,11 +63,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericSignal_1(GenericSignal_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16438 };
+
   /// @brief Field _floatEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ____floatEvent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

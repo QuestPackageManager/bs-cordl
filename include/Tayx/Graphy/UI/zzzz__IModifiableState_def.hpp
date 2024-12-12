@@ -5,7 +5,7 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IModifiableState)
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
+struct GraphyManager_ModuleState;
 }
 // Forward declare root types
 namespace Tayx::Graphy::UI {
@@ -13,27 +13,22 @@ class IModifiableState;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::UI::IModifiableState);
-// Type: Tayx.Graphy.UI::IModifiableState
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy::UI {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.UI::IModifiableState*
+// CS Name: Tayx.Graphy.UI.IModifiableState
 class CORDL_TYPE IModifiableState {
 public:
   // Declarations
-  /// @brief Method SetState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState newState, bool silentUpdate);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IModifiableState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IModifiableState(IModifiableState&&) = delete;
+  /// @brief Method SetState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState newState, bool silentUpdate);
 
   // Ctor Parameters [CppParam { name: "", ty: "IModifiableState", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IModifiableState(IModifiableState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

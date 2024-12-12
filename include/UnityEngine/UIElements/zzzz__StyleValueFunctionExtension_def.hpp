@@ -15,15 +15,14 @@ class StyleValueFunctionExtension;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueFunctionExtension);
-// Type: UnityEngine.UIElements::StyleValueFunctionExtension
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::StyleValueFunctionExtension*
+// CS Name: UnityEngine.UIElements.StyleValueFunctionExtension
 class CORDL_TYPE StyleValueFunctionExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x4a27adc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x4a8c3ec, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction svf);
 
 protected:
@@ -41,7 +40,7 @@ public:
   StyleValueFunctionExtension(StyleValueFunctionExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

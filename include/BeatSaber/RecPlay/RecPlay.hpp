@@ -5,7 +5,10 @@ module;
 #pragma once
 #include "BeatSaber/RecPlay/FrameSample.hpp"
 #include "BeatSaber/RecPlay/PlayerPose.hpp"
+#include "BeatSaber/RecPlay/PlayerPoseCapturer.hpp"
+#include "BeatSaber/RecPlay/PlayerPoseFrame.hpp"
 #include "BeatSaber/RecPlay/PlayerPoseFrames.hpp"
+#include "BeatSaber/RecPlay/PlayerPoseIO.hpp"
 #include "BeatSaber/RecPlay/PlayerPoseSampler.hpp"
 #include "BeatSaber/RecPlay/PoseFrame.hpp"
 #include "BeatSaber/RecPlay/PoseNoise.hpp"

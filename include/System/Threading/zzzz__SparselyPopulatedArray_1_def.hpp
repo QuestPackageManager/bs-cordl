@@ -18,13 +18,12 @@ template <typename T> class SparselyPopulatedArray_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::SparselyPopulatedArray_1);
-// Type: System.Threading::SparselyPopulatedArray`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Threading::SparselyPopulatedArray`1<T>*
+// CS Name: System.Threading.SparselyPopulatedArray`1<T>
 class CORDL_TYPE SparselyPopulatedArray_1 : public ::System::Object {
 public:
   // Declarations
@@ -41,13 +40,13 @@ public:
 
   static inline ::System::Threading::SparselyPopulatedArray_1<T>* New_ctor(int32_t initialSize);
 
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>* const& __cordl_internal_get__head() const;
+
   constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__head();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__head() const;
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>* const& __cordl_internal_get__tail() const;
 
   constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__tail();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__tail() const;
 
   constexpr void __cordl_internal_set__head(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
 
@@ -73,14 +72,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SparselyPopulatedArray_1(SparselyPopulatedArray_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2695 };
+
   /// @brief Field _head, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::SparselyPopulatedArrayFragment_1<T>* ____head;
 
   /// @brief Field _tail, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::SparselyPopulatedArrayFragment_1<T>* ____tail;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

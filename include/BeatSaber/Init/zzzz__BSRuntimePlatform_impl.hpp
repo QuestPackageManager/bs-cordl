@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Init::RuntimePlatformType (*)()>(&::BeatSaber::Init::BSRuntimePlatform::GetPlatformType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223f314;
+  constexpr static std::size_t addrs = 0x226fe30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSRuntimePlatform*>::get(), "GetPlatformType",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::BeatSaber::Init::BSRuntimePlatform::get_IsSteam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223f31c;
+  constexpr static std::size_t addrs = 0x226fe38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSRuntimePlatform*>::get(), "get_IsSteam",

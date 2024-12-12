@@ -14,11 +14,10 @@ class XmlIncludeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlIncludeAttribute);
-// Type: System.Xml.Serialization::XmlIncludeAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlIncludeAttribute*
+// CS Name: System.Xml.Serialization.XmlIncludeAttribute
 class CORDL_TYPE XmlIncludeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -27,13 +26,13 @@ public:
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_Type, addr 0x43100e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x43713f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -50,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlIncludeAttribute(XmlIncludeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7416 };
+
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlIncludeAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlIncludeAttribute, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlIncludeAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlIncludeAttribute);

@@ -19,11 +19,10 @@ class HttpListenerException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerException);
-// Type: System.Net::HttpListenerException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.Win32Exception
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpListenerException*
+// CS Name: System.Net.HttpListenerException
 class CORDL_TYPE HttpListenerException : public ::System::ComponentModel::Win32Exception {
 public:
   // Declarations
@@ -36,16 +35,16 @@ public:
   static inline ::System::Net::HttpListenerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x443c2e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d5fc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x443c34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x443c354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x443c35c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x449d670, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:
@@ -63,7 +62,7 @@ public:
   HttpListenerException(HttpListenerException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9579 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

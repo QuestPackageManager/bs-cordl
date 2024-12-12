@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoConfig)
@@ -23,40 +22,39 @@ class CryptoConfig;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::CryptoConfig);
-// Type: System.Security.Cryptography::CryptoConfig
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::CryptoConfig*
+// CS Name: System.Security.Cryptography.CryptoConfig
 class CORDL_TYPE CryptoConfig : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* algorithms;
+  __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* algorithms;
 
   /// @brief Field lockObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_lockObject, put = setStaticF_lockObject)) ::System::Object* lockObject;
+  __declspec(property(get = getStaticF_lockObject, put = setStaticF_lockObject)) ::System::Object* lockObject;
 
-  /// @brief Method CreateFromName, addr 0x3c4bf24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x3cac098, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
-  /// @brief Method CreateFromName, addr 0x3c4d168, size 0x1ec4, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x3cad2dc, size 0x1ec4, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method EncodeLongNumber, addr 0x3c4fcd4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method EncodeLongNumber, addr 0x3cafe48, size 0x168, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeLongNumber(int64_t x);
 
-  /// @brief Method EncodeOID, addr 0x3c4f8d4, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method EncodeOID, addr 0x3cafa48, size 0x400, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeOID(::StringW str);
 
-  /// @brief Method MapNameToOID, addr 0x3c4f100, size 0x7d4, virtual false, abstract: false, final false
+  /// @brief Method MapNameToOID, addr 0x3caf274, size 0x7d4, virtual false, abstract: false, final false
   static inline ::StringW MapNameToOID(::StringW name);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* getStaticF_algorithms();
 
   static inline ::System::Object* getStaticF_lockObject();
 
-  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x3c47c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x3ca7df4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_AllowOnlyFipsAlgorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* value);

@@ -30,11 +30,10 @@ class TransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder);
-// Type: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*
+// CS Name: Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder
 class CORDL_TYPE TransformScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
@@ -46,28 +45,28 @@ public:
 
   static inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method UnderTransform, addr 0x4aab87c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnderTransform, addr 0x4b1018c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::UnityEngine::Transform* parent);
 
-  /// @brief Method UnderTransform, addr 0x4aab898, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* parentGetter);
+  /// @brief Method UnderTransform, addr 0x4b101a8, size 0x1c, virtual false, abstract: false, final false
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* parentGetter);
 
-  /// @brief Method UnderTransformGroup, addr 0x4aab8b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnderTransformGroup, addr 0x4b101c4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::StringW transformGroupname);
+
+  constexpr ::Zenject::GameObjectCreationParameters* const& __cordl_internal_get__GameObjectInfo_k__BackingField() const;
 
   constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__GameObjectInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__GameObjectInfo_k__BackingField() const;
-
   constexpr void __cordl_internal_set__GameObjectInfo_k__BackingField(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x4aab83c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b1014c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method get_GameObjectInfo, addr 0x4aab86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameObjectInfo, addr 0x4b1017c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectInfo();
 
-  /// @brief Method set_GameObjectInfo, addr 0x4aab874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GameObjectInfo, addr 0x4b10184, size 0x8, virtual false, abstract: false, final false
   inline void set_GameObjectInfo(::Zenject::GameObjectCreationParameters* value);
 
 protected:
@@ -84,18 +83,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransformScopeConcreteIdArgConditionCopyNonLazyBinder(TransformScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12256 };
+
   /// @brief Field <GameObjectInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____GameObjectInfo_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder, ____GameObjectInfo_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder, 0x28>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder);

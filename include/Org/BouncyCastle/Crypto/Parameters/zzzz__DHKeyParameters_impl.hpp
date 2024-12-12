@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::*)(
     bool, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2383cd0;
+  constexpr static std::size_t addrs = 0x23b6fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::*)(
     bool, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2383d54;
+  constexpr static std::size_t addrs = 0x23b7040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (
     ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::get_Parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2383d90;
+  constexpr static std::size_t addrs = 0x23b707c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::get_AlgorithmOid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2383d98;
+  constexpr static std::size_t addrs = 0x23b7084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2383da0;
+  constexpr static std::size_t addrs = 0x23b708c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2383e3c;
+  constexpr static std::size_t addrs = 0x23b7128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2383e8c;
+  constexpr static std::size_t addrs = 0x23b7178;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,8 +117,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHParameters*> const&
-Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::__cordl_internal_get_parameters() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters* const& Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::__cordl_internal_get_parameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
@@ -130,8 +129,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::Cr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___algorithmOid;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const&
-Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::__cordl_internal_get_algorithmOid() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::__cordl_internal_get_algorithmOid() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___algorithmOid;
 }
@@ -139,21 +137,12 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___algorithmOid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::New_ctor(bool isPrivate,
-                                                                                                                                  ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>(isPrivate, parameters));
-}
 inline void Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isPrivate, parameters);
-}
-inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::New_ctor(bool isPrivate,
-                                                                                                                                  ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters,
-                                                                                                                                  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>(isPrivate, parameters, algorithmOid));
 }
 inline void Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters,
                                                                           ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid) {
@@ -191,6 +180,15 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::GetHashCo
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::New_ctor(bool isPrivate,
+                                                                                                                                  ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>(isPrivate, parameters));
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::New_ctor(bool isPrivate,
+                                                                                                                                  ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters,
+                                                                                                                                  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*>(isPrivate, parameters, algorithmOid));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::DHKeyParameters() {}

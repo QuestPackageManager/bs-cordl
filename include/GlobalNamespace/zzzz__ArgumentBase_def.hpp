@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ArgumentBase)
 namespace System {
@@ -16,11 +15,10 @@ class ArgumentBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ArgumentBase);
-// Type: ::ArgumentBase
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ArgumentBase*
+// CS Name: ArgumentBase
 class CORDL_TYPE ArgumentBase : public ::System::Object {
 public:
   // Declarations
@@ -37,11 +35,11 @@ public:
 
   static inline ::GlobalNamespace::ArgumentBase* New_ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
-  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryParseWithValue(::StringW inValue, ByRef<::StringW> outError);
+  /// @brief Method TryParseWithValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool TryParseWithValue(::StringW inValue, ::ByRef<::StringW> outError);
 
   constexpr ::StringW const& __cordl_internal_get_description() const;
 
@@ -51,9 +49,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::System::Type*& __cordl_internal_get_valueType();
+  constexpr ::System::Type* const& __cordl_internal_get_valueType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_valueType() const;
+  constexpr ::System::Type*& __cordl_internal_get_valueType();
 
   constexpr void __cordl_internal_set_description(::StringW value);
 
@@ -61,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3aab5bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0855c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
-  /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_isOptional, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isOptional();
 
 protected:
@@ -81,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArgumentBase(ArgumentBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5017 };
+
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -90,19 +91,16 @@ public:
   /// @brief Field valueType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___valueType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4997 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ArgumentBase, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ArgumentBase, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ArgumentBase, ___description) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ArgumentBase, ___valueType) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ArgumentBase, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ArgumentBase);

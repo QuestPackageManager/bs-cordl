@@ -1,69 +1,26 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Concurrent/BlockingCollection_1.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__BlockingCollection_1_def.hpp"
 #include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T>
-constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-template <typename T> constexpr ::System::Collections::ICollection* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T>
-constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__collection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collection;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*> const&
-System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__collection() const {
+constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* const& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__collection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collection;
 }
@@ -88,8 +45,7 @@ template <typename T> constexpr ::System::Threading::SemaphoreSlim*& System::Col
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeNodes;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__freeNodes() const {
+template <typename T> constexpr ::System::Threading::SemaphoreSlim* const& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__freeNodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeNodes;
 }
@@ -101,8 +57,7 @@ template <typename T> constexpr ::System::Threading::SemaphoreSlim*& System::Col
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____occupiedNodes;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__occupiedNodes() const {
+template <typename T> constexpr ::System::Threading::SemaphoreSlim* const& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__occupiedNodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____occupiedNodes;
 }
@@ -127,8 +82,7 @@ template <typename T> constexpr ::System::Threading::CancellationTokenSource*& S
   return this->____consumersCancellationTokenSource;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const&
-System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__consumersCancellationTokenSource() const {
+constexpr ::System::Threading::CancellationTokenSource* const& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__consumersCancellationTokenSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____consumersCancellationTokenSource;
 }
@@ -142,8 +96,7 @@ template <typename T> constexpr ::System::Threading::CancellationTokenSource*& S
   return this->____producersCancellationTokenSource;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const&
-System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__producersCancellationTokenSource() const {
+constexpr ::System::Threading::CancellationTokenSource* const& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__producersCancellationTokenSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____producersCancellationTokenSource;
 }
@@ -191,18 +144,10 @@ template <typename T> inline ::System::Object* System::Collections::Concurrent::
                                                "System.Collections.ICollection.get_SyncRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Collections::Concurrent::BlockingCollection_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::BlockingCollection_1<T>*>());
-}
 template <typename T> inline void System::Collections::Concurrent::BlockingCollection_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::BlockingCollection_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T>
-inline ::System::Collections::Concurrent::BlockingCollection_1<T>*
-System::Collections::Concurrent::BlockingCollection_1<T>::New_ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::BlockingCollection_1<T>*>(collection));
 }
 template <typename T> inline void System::Collections::Concurrent::BlockingCollection_1<T>::_ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,20 +185,21 @@ template <typename T> inline T System::Collections::Concurrent::BlockingCollecti
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T>
-inline bool System::Collections::Concurrent::BlockingCollection_1<T>::TryTake(ByRef<T> item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken) {
+inline bool System::Collections::Concurrent::BlockingCollection_1<T>::TryTake(::ByRef<T> item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::BlockingCollection_1<T>*>::get(), "TryTake", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item, millisecondsTimeout, cancellationToken);
 }
 template <typename T>
-inline bool System::Collections::Concurrent::BlockingCollection_1<T>::TryTakeWithNoTimeValidation(ByRef<T> item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken,
+inline bool System::Collections::Concurrent::BlockingCollection_1<T>::TryTakeWithNoTimeValidation(::ByRef<T> item, int32_t millisecondsTimeout,
+                                                                                                  ::System::Threading::CancellationToken cancellationToken,
                                                                                                   ::System::Threading::CancellationTokenSource* combinedTokenSource) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::BlockingCollection_1<T>*>::get(), "TryTakeWithNoTimeValidation",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationTokenSource*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item, millisecondsTimeout, cancellationToken, combinedTokenSource);
@@ -313,6 +259,56 @@ template <typename T> inline void System::Collections::Concurrent::BlockingColle
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::BlockingCollection_1<T>*>::get(),
                                                                              "CheckDisposed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::System::Collections::Concurrent::BlockingCollection_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::BlockingCollection_1<T>*>());
+}
+template <typename T>
+inline ::System::Collections::Concurrent::BlockingCollection_1<T>*
+System::Collections::Concurrent::BlockingCollection_1<T>::New_ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::BlockingCollection_1<T>*>(collection));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename T> constexpr ::System::Collections::ICollection* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Concurrent::BlockingCollection_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Concurrent::BlockingCollection_1<T>::BlockingCollection_1() {}

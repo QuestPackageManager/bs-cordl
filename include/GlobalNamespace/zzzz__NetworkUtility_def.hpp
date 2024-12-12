@@ -4,12 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkUtility)
 namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+struct AuthenticationToken_Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,36 +16,35 @@ class NetworkUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetworkUtility);
-// Type: ::NetworkUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NetworkUtility*
+// CS Name: NetworkUtility
 class CORDL_TYPE NetworkUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _nameEncryptionIv, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__nameEncryptionIv, put = setStaticF__nameEncryptionIv)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _nameEncryptionIv;
+  __declspec(property(get = getStaticF__nameEncryptionIv, put = setStaticF__nameEncryptionIv)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _nameEncryptionIv;
 
   /// @brief Field _nameEncryptionKey, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__nameEncryptionKey, put = setStaticF__nameEncryptionKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _nameEncryptionKey;
+  __declspec(property(get = getStaticF__nameEncryptionKey, put = setStaticF__nameEncryptionKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _nameEncryptionKey;
 
-  /// @brief Method DecryptName, addr 0x22a863c, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method DecryptName, addr 0x22db928, size 0x420, virtual false, abstract: false, final false
   static inline ::StringW DecryptName(::StringW text);
 
-  /// @brief Method EncryptName, addr 0x22a8220, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method EncryptName, addr 0x22db50c, size 0x41c, virtual false, abstract: false, final false
   static inline ::StringW EncryptName(::StringW text);
 
-  /// @brief Method GenerateId, addr 0x22a8a5c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GenerateId, addr 0x22dbd48, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW GenerateId();
 
-  /// @brief Method GetHashBase64, addr 0x22a8018, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetHashBase64, addr 0x22db304, size 0x208, virtual false, abstract: false, final false
   static inline ::StringW GetHashBase64(::StringW input);
 
-  /// @brief Method GetHashedUserId, addr 0x22a7f4c, size 0xcc, virtual false, abstract: false, final false
-  static inline ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::__AuthenticationToken__Platform platform);
+  /// @brief Method GetHashedUserId, addr 0x22db238, size 0xcc, virtual false, abstract: false, final false
+  static inline ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::AuthenticationToken_Platform platform);
 
-  /// @brief Method Init, addr 0x22a7e6c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22db158, size 0xe0, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__nameEncryptionIv();
@@ -72,7 +70,7 @@ public:
   NetworkUtility(NetworkUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,11 +15,10 @@ class AspChildControlTypeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspChildControlTypeAttribute);
-// Type: JetBrains.Annotations::AspChildControlTypeAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::AspChildControlTypeAttribute*
+// CS Name: JetBrains.Annotations.AspChildControlTypeAttribute
 class CORDL_TYPE AspChildControlTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -35,9 +34,9 @@ public:
 
   static inline ::JetBrains::Annotations::AspChildControlTypeAttribute* New_ctor(::StringW tagName, ::System::Type* controlType);
 
-  constexpr ::System::Type*& __cordl_internal_get__ControlType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__ControlType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ControlType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__ControlType_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__TagName_k__BackingField() const;
 
@@ -47,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c710, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af1020, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method get_ControlType, addr 0x4a8c74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControlType, addr 0x4af105c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
-  /// @brief Method get_TagName, addr 0x4a8c73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagName, addr 0x4af104c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TagName();
 
-  /// @brief Method set_ControlType, addr 0x4a8c754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ControlType, addr 0x4af1064, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
-  /// @brief Method set_TagName, addr 0x4a8c744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TagName, addr 0x4af1054, size 0x8, virtual false, abstract: false, final false
   inline void set_TagName(::StringW value);
 
 protected:
@@ -76,23 +75,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspChildControlTypeAttribute(AspChildControlTypeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18500 };
+
   /// @brief Field <TagName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TagName_k__BackingField;
 
   /// @brief Field <ControlType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____ControlType_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18419 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspChildControlTypeAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::AspChildControlTypeAttribute, ____TagName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::JetBrains::Annotations::AspChildControlTypeAttribute, ____ControlType_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspChildControlTypeAttribute, 0x20>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspChildControlTypeAttribute);

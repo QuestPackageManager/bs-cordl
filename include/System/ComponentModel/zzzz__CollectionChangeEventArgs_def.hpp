@@ -18,11 +18,10 @@ class CollectionChangeEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::CollectionChangeEventArgs);
-// Type: System.ComponentModel::CollectionChangeEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.CollectionChangeAction, System.EventArgs
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::CollectionChangeEventArgs*
+// CS Name: System.ComponentModel.CollectionChangeEventArgs
 class CORDL_TYPE CollectionChangeEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -42,21 +41,21 @@ public:
 
   constexpr ::System::ComponentModel::CollectionChangeAction& __cordl_internal_get__Action_k__BackingField();
 
-  constexpr ::System::Object*& __cordl_internal_get__Element_k__BackingField();
+  constexpr ::System::Object* const& __cordl_internal_get__Element_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Element_k__BackingField() const;
+  constexpr ::System::Object*& __cordl_internal_get__Element_k__BackingField();
 
   constexpr void __cordl_internal_set__Action_k__BackingField(::System::ComponentModel::CollectionChangeAction value);
 
   constexpr void __cordl_internal_set__Element_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x43e7d48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444905c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element);
 
-  /// @brief Method get_Action, addr 0x43e7dbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Action, addr 0x44490d0, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::CollectionChangeAction get_Action();
 
-  /// @brief Method get_Element, addr 0x43e7dc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Element, addr 0x44490d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Element();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionChangeEventArgs(CollectionChangeEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9365 };
+
   /// @brief Field <Action>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::CollectionChangeAction ____Action_k__BackingField;
 
   /// @brief Field <Element>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____Element_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9340 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CollectionChangeEventArgs, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::CollectionChangeEventArgs, ____Action_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::CollectionChangeEventArgs, ____Element_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CollectionChangeEventArgs, 0x20>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::CollectionChangeEventArgs);

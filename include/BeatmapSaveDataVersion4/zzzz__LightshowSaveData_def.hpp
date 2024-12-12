@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LightshowSaveData)
 namespace BeatmapSaveDataCommon {
@@ -61,11 +60,10 @@ class LightshowSaveData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::LightshowSaveData);
-// Type: BeatmapSaveDataVersion4::LightshowSaveData
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 161, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion4::LightshowSaveData*
+// CS Name: BeatmapSaveDataVersion4.LightshowSaveData
 class CORDL_TYPE LightshowSaveData : public ::System::Object {
 public:
   // Declarations
@@ -160,9 +158,9 @@ public:
 
   static inline ::BeatmapSaveDataVersion4::LightshowSaveData* New_ctor();
 
-  constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*& __cordl_internal_get_basicEventTypesWithKeywords();
+  constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* const& __cordl_internal_get_basicEventTypesWithKeywords() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*> const& __cordl_internal_get_basicEventTypesWithKeywords() const;
+  constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*& __cordl_internal_get_basicEventTypesWithKeywords();
 
   constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& __cordl_internal_get_basicEvents() const;
 
@@ -274,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set_waypointsData(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
 
-  /// @brief Method .ctor, addr 0x26d3054, size 0x730, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27049c4, size 0x730, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -290,6 +288,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightshowSaveData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightshowSaveData(LightshowSaveData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13381 };
+
+  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };
 
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::StringW ___version;
@@ -348,17 +352,9 @@ public:
   /// @brief Field useNormalEventsAsCompatibleEvents, offset: 0xa0, size: 0x1, def value: None
   bool ___useNormalEventsAsCompatibleEvents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13351 };
-
-  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::LightshowSaveData, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightshowSaveData, ___version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightshowSaveData, ___waypoints) == 0x18, "Offset mismatch!");
@@ -396,6 +392,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::LightshowSaveData, ___floatFxE
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightshowSaveData, ___basicEventTypesWithKeywords) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightshowSaveData, ___useNormalEventsAsCompatibleEvents) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::LightshowSaveData, 0xa8>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion4
 NEED_NO_BOX(::BeatmapSaveDataVersion4::LightshowSaveData);

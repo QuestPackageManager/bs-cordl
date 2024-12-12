@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bcd548;
+  constexpr static std::size_t addrs = 0x3c2d65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Init)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3bce0f4;
+  constexpr static std::size_t addrs = 0x3c2e208;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Tick)> {
   constexpr static std::size_t size = 0xa04;
-  constexpr static std::size_t addrs = 0x3bce3b8;
+  constexpr static std::size_t addrs = 0x3c2e4cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ constexpr ::System::Random*& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__cordl_internal_get__random() const {
+constexpr ::System::Random* const& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__cordl_internal_get__random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
@@ -196,9 +196,6 @@ constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nextTargetTime = value;
 }
-inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>(multiplayerSessionManager));
-}
 inline void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -214,6 +211,9 @@ inline void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Tick() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>(multiplayerSessionManager));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::MockPlayerLobbyPoseGeneratorAI() {}

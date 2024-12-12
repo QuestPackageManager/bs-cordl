@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3b5f608;
+  constexpr static std::size_t addrs = 0x3bc0e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5f740;
+  constexpr static std::size_t addrs = 0x3bc0fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalActivePlayerInstaller*>::get(),
@@ -51,8 +51,7 @@ constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& GlobalNamespace::M
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optionalAvatarDataSender;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const&
-GlobalNamespace::MultiplayerLocalActivePlayerInstaller::__cordl_internal_get__optionalAvatarDataSender() const {
+constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender* const& GlobalNamespace::MultiplayerLocalActivePlayerInstaller::__cordl_internal_get__optionalAvatarDataSender() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optionalAvatarDataSender;
 }
@@ -64,8 +63,7 @@ constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::Multi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const&
-GlobalNamespace::MultiplayerLocalActivePlayerInstaller::__cordl_internal_get__sceneSetupData() const {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::MultiplayerLocalActivePlayerInstaller::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
@@ -79,13 +77,13 @@ inline void GlobalNamespace::MultiplayerLocalActivePlayerInstaller::InstallBindi
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalActivePlayerInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerLocalActivePlayerInstaller* GlobalNamespace::MultiplayerLocalActivePlayerInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLocalActivePlayerInstaller*>());
-}
 inline void GlobalNamespace::MultiplayerLocalActivePlayerInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalActivePlayerInstaller*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerLocalActivePlayerInstaller* GlobalNamespace::MultiplayerLocalActivePlayerInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLocalActivePlayerInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalActivePlayerInstaller::MultiplayerLocalActivePlayerInstaller() {}

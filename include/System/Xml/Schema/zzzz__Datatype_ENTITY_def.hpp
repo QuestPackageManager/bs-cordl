@@ -17,11 +17,10 @@ class Datatype_ENTITY;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_ENTITY);
-// Type: System.Xml.Schema::Datatype_ENTITY
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_NCName
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_ENTITY*
+// CS Name: System.Xml.Schema.Datatype_ENTITY
 class CORDL_TYPE Datatype_ENTITY : public ::System::Xml::Schema::Datatype_NCName {
 public:
   // Declarations
@@ -31,13 +30,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_ENTITY* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4342a40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3d54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TokenizedType, addr 0x434abd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x43abee4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x434abc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43abedc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -55,7 +54,7 @@ public:
   Datatype_ENTITY(Datatype_ENTITY const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7559 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

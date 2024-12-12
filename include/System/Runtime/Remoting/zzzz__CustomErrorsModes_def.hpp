@@ -12,11 +12,10 @@ struct CustomErrorsModes;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::Remoting::CustomErrorsModes);
-// Type: System.Runtime.Remoting::CustomErrorsModes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting {
 // Is value type: true
-// CS Name: ::System.Runtime.Remoting::CustomErrorsModes
+// CS Name: System.Runtime.Remoting.CustomErrorsModes
 struct CORDL_TYPE CustomErrorsModes {
 public:
   // Declarations
@@ -46,16 +45,13 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CustomErrorsModes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Off value: static_cast<int32_t>(0x1)
+  /// @brief Field Off value: I32(1)
   static ::System::Runtime::Remoting::CustomErrorsModes const Off;
 
-  /// @brief Field On value: static_cast<int32_t>(0x0)
+  /// @brief Field On value: I32(0)
   static ::System::Runtime::Remoting::CustomErrorsModes const On;
 
-  /// @brief Field RemoteOnly value: static_cast<int32_t>(0x2)
+  /// @brief Field RemoteOnly value: I32(2)
   static ::System::Runtime::Remoting::CustomErrorsModes const RemoteOnly;
 
   /// @brief IL2CPP Metadata Type Index
@@ -64,12 +60,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::CustomErrorsModes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::CustomErrorsModes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::CustomErrorsModes, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::CustomErrorsModes, "System.Runtime.Remoting", "CustomErrorsModes");

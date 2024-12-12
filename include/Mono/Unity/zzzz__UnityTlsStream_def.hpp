@@ -29,21 +29,20 @@ class UnityTlsStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Unity::UnityTlsStream);
-// Type: Mono.Unity::UnityTlsStream
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Net.Security.MobileAuthenticatedStream
 namespace Mono::Unity {
 // Is value type: false
-// CS Name: ::Mono.Unity::UnityTlsStream*
+// CS Name: Mono.Unity.UnityTlsStream
 class CORDL_TYPE UnityTlsStream : public ::Mono::Net::Security::MobileAuthenticatedStream {
 public:
   // Declarations
-  /// @brief Method CreateContext, addr 0x40ad3f4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CreateContext, addr 0x410e708, size 0x68, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileTlsContext* CreateContext(::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
   static inline ::Mono::Unity::UnityTlsStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner,
                                                         ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Net::Security::MobileTlsProvider* provider);
 
-  /// @brief Method .ctor, addr 0x40ac8d4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410dbe8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner, ::Mono::Security::Interface::MonoTlsSettings* settings,
                     ::Mono::Net::Security::MobileTlsProvider* provider);
 
@@ -62,7 +61,7 @@ public:
   UnityTlsStream(UnityTlsStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

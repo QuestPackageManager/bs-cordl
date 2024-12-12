@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayPool_1)
 // Forward declare root types
@@ -13,25 +12,24 @@ template <typename T> class ArrayPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Buffers::ArrayPool_1);
-// Type: System.Buffers::ArrayPool`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Buffers::ArrayPool`1<T>*
+// CS Name: System.Buffers.ArrayPool`1<T>
 class CORDL_TYPE ArrayPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Shared>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__Shared_k__BackingField, put = setStaticF__Shared_k__BackingField)) ::System::Buffers::ArrayPool_1<T>* _Shared_k__BackingField;
+  __declspec(property(get = getStaticF__Shared_k__BackingField, put = setStaticF__Shared_k__BackingField)) ::System::Buffers::ArrayPool_1<T>* _Shared_k__BackingField;
 
   static inline ::System::Buffers::ArrayPool_1<T>* New_ctor();
 
-  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Rent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> Rent(int32_t minimumLength);
 
-  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Return, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

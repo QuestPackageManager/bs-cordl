@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SelectableStateController_1_def.hpp"
 CORDL_MODULE_EXPORT(InputFieldSelectableStateController)
 namespace HMUI {
-class InputFieldView;
+struct InputFieldView_SelectionState;
 }
 namespace HMUI {
-struct __InputFieldView__SelectionState;
+class InputFieldView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,29 +17,28 @@ class InputFieldSelectableStateController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::InputFieldSelectableStateController);
-// Type: ::InputFieldSelectableStateController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SelectableStateController`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::InputFieldSelectableStateController*
-class CORDL_TYPE InputFieldSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::InputFieldView>> {
+// CS Name: InputFieldSelectableStateController
+class CORDL_TYPE InputFieldSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::InputFieldView*> {
 public:
   // Declarations
-  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x44764cc, size 0x8, virtual false, abstract: false, final false
-  inline void HandleInputFieldSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state);
+  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x44d77e0, size 0x8, virtual false, abstract: false, final false
+  inline void HandleInputFieldSelectionStateDidChange(::HMUI::InputFieldView_SelectionState state);
 
   static inline ::GlobalNamespace::InputFieldSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x447643c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x44d7750, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x44762a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d75bc, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x4476350, size 0xec, virtual false, abstract: false, final false
-  inline void ResolveSelectionState(::HMUI::__InputFieldView__SelectionState state, bool animated);
+  /// @brief Method ResolveSelectionState, addr 0x44d7664, size 0xec, virtual false, abstract: false, final false
+  inline void ResolveSelectionState(::HMUI::InputFieldView_SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x44764d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d77e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +56,7 @@ public:
   InputFieldSelectableStateController(InputFieldSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

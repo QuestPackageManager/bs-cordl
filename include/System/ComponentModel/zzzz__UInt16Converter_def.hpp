@@ -22,31 +22,30 @@ class UInt16Converter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::UInt16Converter);
-// Type: System.ComponentModel::UInt16Converter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.BaseNumberConverter
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::UInt16Converter*
+// CS Name: System.ComponentModel.UInt16Converter
 class CORDL_TYPE UInt16Converter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x43f9ba0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x445aeb4, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x43f9b0c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x445ae20, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::UInt16Converter* New_ctor();
 
-  /// @brief Method ToString, addr 0x43f9c14, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x445af28, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x43f9cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445afd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TargetType, addr 0x43f9aa0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x445adb4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -64,7 +63,7 @@ public:
   UInt16Converter(UInt16Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

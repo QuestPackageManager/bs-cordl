@@ -17,11 +17,10 @@ class ToggleableCanvasGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ToggleableCanvasGroup);
-// Type: ::ToggleableCanvasGroup
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ToggleableCanvasGroup*
+// CS Name: ToggleableCanvasGroup
 class CORDL_TYPE ToggleableCanvasGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,18 +33,18 @@ public:
   /// @brief Field _toggle, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-  /// @brief Method HandleToggleValueChanged, addr 0x3991d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueChanged, addr 0x39e88dc, size 0x8, virtual false, abstract: false, final false
   inline void HandleToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::ToggleableCanvasGroup* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3991cb8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39e8838, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3991bd0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39e8750, size 0xb8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetCanvasGroupData, addr 0x3991c88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetCanvasGroupData, addr 0x39e8808, size 0x30, virtual false, abstract: false, final false
   inline void SetCanvasGroupData(bool isOn);
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -66,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3991d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e88e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ToggleableCanvasGroup(ToggleableCanvasGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16005 };
+
   /// @brief Field _canvasGroup, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
@@ -92,19 +94,16 @@ public:
   /// @brief Field _invertToggle, offset: 0x30, size: 0x1, def value: None
   bool ____invertToggle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15970 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ToggleableCanvasGroup, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ToggleableCanvasGroup, ____canvasGroup) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ToggleableCanvasGroup, ____toggle) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ToggleableCanvasGroup, ____invertToggle) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ToggleableCanvasGroup, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ToggleableCanvasGroup);

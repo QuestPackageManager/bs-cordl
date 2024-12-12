@@ -12,11 +12,10 @@ struct NetworkInterfaceType;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::NetworkInterfaceType);
-// Type: System.Net.NetworkInformation::NetworkInterfaceType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// CS Name: ::System.Net.NetworkInformation::NetworkInterfaceType
+// CS Name: System.Net.NetworkInformation.NetworkInterfaceType
 struct CORDL_TYPE NetworkInterfaceType {
 public:
   // Declarations
@@ -71,105 +70,105 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NetworkInterfaceType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AsymmetricDsl value: static_cast<int32_t>(0x5e)
+  /// @brief Field AsymmetricDsl value: I32(94)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const AsymmetricDsl;
 
-  /// @brief Field Atm value: static_cast<int32_t>(0x25)
+  /// @brief Field Atm value: I32(37)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Atm;
 
-  /// @brief Field BasicIsdn value: static_cast<int32_t>(0x14)
+  /// @brief Field BasicIsdn value: I32(20)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const BasicIsdn;
 
-  /// @brief Field Ethernet value: static_cast<int32_t>(0x6)
+  /// @brief Field Ethernet value: I32(6)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Ethernet;
 
-  /// @brief Field Ethernet3Megabit value: static_cast<int32_t>(0x1a)
+  /// @brief Field Ethernet3Megabit value: I32(26)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Ethernet3Megabit;
 
-  /// @brief Field FastEthernetFx value: static_cast<int32_t>(0x45)
+  /// @brief Field FastEthernetFx value: I32(69)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const FastEthernetFx;
 
-  /// @brief Field FastEthernetT value: static_cast<int32_t>(0x3e)
+  /// @brief Field FastEthernetT value: I32(62)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const FastEthernetT;
 
-  /// @brief Field Fddi value: static_cast<int32_t>(0xf)
+  /// @brief Field Fddi value: I32(15)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Fddi;
 
-  /// @brief Field GenericModem value: static_cast<int32_t>(0x30)
+  /// @brief Field GenericModem value: I32(48)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const GenericModem;
 
-  /// @brief Field GigabitEthernet value: static_cast<int32_t>(0x75)
+  /// @brief Field GigabitEthernet value: I32(117)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const GigabitEthernet;
 
-  /// @brief Field HighPerformanceSerialBus value: static_cast<int32_t>(0x90)
+  /// @brief Field HighPerformanceSerialBus value: I32(144)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const HighPerformanceSerialBus;
 
-  /// @brief Field IPOverAtm value: static_cast<int32_t>(0x72)
+  /// @brief Field IPOverAtm value: I32(114)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const IPOverAtm;
 
-  /// @brief Field Isdn value: static_cast<int32_t>(0x3f)
+  /// @brief Field Isdn value: I32(63)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Isdn;
 
-  /// @brief Field Loopback value: static_cast<int32_t>(0x18)
+  /// @brief Field Loopback value: I32(24)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Loopback;
 
-  /// @brief Field MultiRateSymmetricDsl value: static_cast<int32_t>(0x8f)
+  /// @brief Field MultiRateSymmetricDsl value: I32(143)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const MultiRateSymmetricDsl;
 
-  /// @brief Field Ppp value: static_cast<int32_t>(0x17)
+  /// @brief Field Ppp value: I32(23)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Ppp;
 
-  /// @brief Field PrimaryIsdn value: static_cast<int32_t>(0x15)
+  /// @brief Field PrimaryIsdn value: I32(21)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const PrimaryIsdn;
 
-  /// @brief Field RateAdaptDsl value: static_cast<int32_t>(0x5f)
+  /// @brief Field RateAdaptDsl value: I32(95)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const RateAdaptDsl;
 
-  /// @brief Field Slip value: static_cast<int32_t>(0x1c)
+  /// @brief Field Slip value: I32(28)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Slip;
 
-  /// @brief Field SymmetricDsl value: static_cast<int32_t>(0x60)
+  /// @brief Field SymmetricDsl value: I32(96)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const SymmetricDsl;
 
-  /// @brief Field TokenRing value: static_cast<int32_t>(0x9)
+  /// @brief Field TokenRing value: I32(9)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const TokenRing;
 
-  /// @brief Field Tunnel value: static_cast<int32_t>(0x83)
+  /// @brief Field Tunnel value: I32(131)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Tunnel;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x1)
+  /// @brief Field Unknown value: I32(1)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Unknown;
 
-  /// @brief Field VeryHighSpeedDsl value: static_cast<int32_t>(0x61)
+  /// @brief Field VeryHighSpeedDsl value: I32(97)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const VeryHighSpeedDsl;
 
-  /// @brief Field Wireless80211 value: static_cast<int32_t>(0x47)
+  /// @brief Field Wireless80211 value: I32(71)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Wireless80211;
 
-  /// @brief Field Wman value: static_cast<int32_t>(0xed)
+  /// @brief Field Wman value: I32(237)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Wman;
 
-  /// @brief Field Wwanpp value: static_cast<int32_t>(0xf3)
+  /// @brief Field Wwanpp value: I32(243)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Wwanpp;
 
-  /// @brief Field Wwanpp2 value: static_cast<int32_t>(0xf4)
+  /// @brief Field Wwanpp2 value: I32(244)
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Wwanpp2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::NetworkInterfaceType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::NetworkInformation::NetworkInterfaceType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::NetworkInterfaceType, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::NetworkInterfaceType, "System.Net.NetworkInformation", "NetworkInterfaceType");

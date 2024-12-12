@@ -4,8 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GetterProvider_2)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -26,9 +26,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -43,13 +40,12 @@ template <typename TObj, typename TResult> class GetterProvider_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::GetterProvider_2);
-// Type: Zenject::GetterProvider`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.IProvider, Zenject.InjectSources
 namespace Zenject {
 // cpp template
 template <typename TObj, typename TResult>
 // Is value type: false
-// CS Name: ::Zenject::GetterProvider`2<TObj,TResult>*
+// CS Name: Zenject.GetterProvider`2<TObj,TResult>
 class CORDL_TYPE GetterProvider_2 : public ::System::Object {
 public:
   // Declarations
@@ -76,7 +72,7 @@ public:
   constexpr operator ::Zenject::IProvider*() noexcept;
 
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -88,21 +84,21 @@ public:
   static inline ::Zenject::GetterProvider_2<TObj, TResult>* New_ctor(::System::Object* identifier, ::System::Func_2<TObj, TResult>* method, ::Zenject::DiContainer* container,
                                                                      ::Zenject::InjectSources sourceType, bool matchAll);
 
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
+
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::System::Object* const& __cordl_internal_get__identifier() const;
 
   constexpr ::System::Object*& __cordl_internal_get__identifier();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identifier() const;
 
   constexpr bool const& __cordl_internal_get__matchAll() const;
 
   constexpr bool& __cordl_internal_get__matchAll();
 
-  constexpr ::System::Func_2<TObj, TResult>*& __cordl_internal_get__method();
+  constexpr ::System::Func_2<TObj, TResult>* const& __cordl_internal_get__method() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObj, TResult>*> const& __cordl_internal_get__method() const;
+  constexpr ::System::Func_2<TObj, TResult>*& __cordl_internal_get__method();
 
   constexpr ::Zenject::InjectSources const& __cordl_internal_get__sourceType() const;
 
@@ -144,6 +140,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetterProvider_2(GetterProvider_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12530 };
+
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
@@ -158,9 +157,6 @@ public:
 
   /// @brief Field _sourceType, offset: 0x2c, size: 0x4, def value: None
   ::Zenject::InjectSources ____sourceType;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

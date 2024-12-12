@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __EqualInstruction__EqualReference;
+namespace GlobalNamespace {
+class EqualInstruction_EqualReference;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualReference);
-// Type: ::EqualReference
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::EqualInstruction_EqualReference);
+// Dependencies System.Linq.Expressions.Interpreter.EqualInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EqualInstruction::EqualReference*
-class CORDL_TYPE __EqualInstruction__EqualReference : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.EqualInstruction/EqualReference
+class CORDL_TYPE EqualInstruction_EqualReference : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualReference* New_ctor();
+  static inline ::GlobalNamespace::EqualInstruction_EqualReference* New_ctor();
 
-  /// @brief Method Run, addr 0x4065ef8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c720c, size 0x54, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4065460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c6774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EqualInstruction__EqualReference();
+  constexpr EqualInstruction_EqualReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualReference", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EqualInstruction__EqualReference(__EqualInstruction__EqualReference&&) = delete;
+  EqualInstruction_EqualReference(EqualInstruction_EqualReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualReference", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EqualInstruction__EqualReference(__EqualInstruction__EqualReference const&) = delete;
+  EqualInstruction_EqualReference(EqualInstruction_EqualReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualReference, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EqualInstruction_EqualReference, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualReference);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualReference*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualReference");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::EqualInstruction_EqualReference);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EqualInstruction_EqualReference*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualReference");

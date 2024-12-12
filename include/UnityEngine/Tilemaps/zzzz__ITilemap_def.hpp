@@ -23,11 +23,10 @@ class ITilemap;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Tilemaps::ITilemap);
-// Type: UnityEngine.Tilemaps::ITilemap
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.Vector3Int
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// CS Name: ::UnityEngine.Tilemaps::ITilemap*
+// CS Name: UnityEngine.Tilemaps.ITilemap
 class CORDL_TYPE ITilemap : public ::System::Object {
 public:
   // Declarations
@@ -44,21 +43,21 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Tilemap, put = __cordl_internal_set_m_Tilemap)) ::UnityW<::UnityEngine::Tilemaps::Tilemap> m_Tilemap;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Tilemaps::ITilemap* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Tilemaps::ITilemap* s_Instance;
 
-  /// @brief Method CreateInstance, addr 0x48eea9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x495312c, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Tilemaps::ITilemap* CreateInstance();
 
-  /// @brief Method FindAllRefreshPositions, addr 0x48eeb04, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method FindAllRefreshPositions, addr 0x4953194, size 0x308, virtual false, abstract: false, final false
   static inline void FindAllRefreshPositions(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, ::System::IntPtr oldTilesIntPtr, ::System::IntPtr newTilesIntPtr,
                                              ::System::IntPtr positionsIntPtr);
 
-  /// @brief Method GetAllTileData, addr 0x48eee60, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetAllTileData, addr 0x49534f0, size 0x1f8, virtual false, abstract: false, final false
   static inline void GetAllTileData(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, ::System::IntPtr tilesIntPtr, ::System::IntPtr positionsIntPtr, ::System::IntPtr outTileDataIntPtr);
 
   static inline ::UnityEngine::Tilemaps::ITilemap* New_ctor();
 
-  /// @brief Method RefreshTile, addr 0x48ee8f4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x4952f84, size 0x154, virtual false, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position);
 
   constexpr bool const& __cordl_internal_get_m_AddToList() const;
@@ -85,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
 
-  /// @brief Method .ctor, addr 0x48ee8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4952f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Tilemaps::ITilemap* getStaticF_s_Instance();
@@ -106,6 +105,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ITilemap(ITilemap const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18557 };
+
   /// @brief Field m_Tilemap, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Tilemaps::Tilemap> ___m_Tilemap;
 
@@ -118,14 +120,9 @@ public:
   /// @brief Field m_RefreshPos, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> ___m_RefreshPos;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18476 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::ITilemap, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_Tilemap) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_AddToList) == 0x18, "Offset mismatch!");
@@ -133,6 +130,8 @@ static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_AddToList) == 0x1
 static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_RefreshCount) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_RefreshPos) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::ITilemap, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::Tilemaps
 NEED_NO_BOX(::UnityEngine::Tilemaps::ITilemap);

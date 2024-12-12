@@ -38,9 +38,6 @@ template <typename T> constexpr void GlobalNamespace::FixedUpdateSmoothValue_1<T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____smooth = value;
 }
-template <typename T> inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* GlobalNamespace::FixedUpdateSmoothValue_1<T>::New_ctor(float_t smooth) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FixedUpdateSmoothValue_1<T>*>(smooth));
-}
 template <typename T> inline void GlobalNamespace::FixedUpdateSmoothValue_1<T>::_ctor(float_t smooth) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FixedUpdateSmoothValue_1<T>*>::get(), ".ctor",
@@ -69,6 +66,9 @@ template <typename T> inline T GlobalNamespace::FixedUpdateSmoothValue_1<T>::Int
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FixedUpdateSmoothValue_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, value0, value1, t);
+}
+template <typename T> inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* GlobalNamespace::FixedUpdateSmoothValue_1<T>::New_ctor(float_t smooth) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FixedUpdateSmoothValue_1<T>*>(smooth));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::FixedUpdateSmoothValue_1<T>::FixedUpdateSmoothValue_1() {}

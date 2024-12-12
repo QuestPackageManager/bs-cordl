@@ -13,11 +13,10 @@ class MacroAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::MacroAttribute);
-// Type: JetBrains.Annotations::MacroAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::MacroAttribute*
+// CS Name: JetBrains.Annotations.MacroAttribute
 class CORDL_TYPE MacroAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -56,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0c80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Editable, addr 0x4a8c350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Editable, addr 0x4af0c60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
-  /// @brief Method get_Expression, addr 0x4a8c340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x4af0c50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_Target, addr 0x4a8c360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x4af0c70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Editable, addr 0x4a8c358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Editable, addr 0x4af0c68, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
-  /// @brief Method set_Expression, addr 0x4a8c348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x4af0c58, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method set_Target, addr 0x4a8c368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x4af0c78, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MacroAttribute(MacroAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18464 };
+
   /// @brief Field <Expression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Expression_k__BackingField;
 
@@ -100,19 +102,16 @@ public:
   /// @brief Field <Target>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Target_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18383 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MacroAttribute, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::MacroAttribute, ____Expression_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::JetBrains::Annotations::MacroAttribute, ____Editable_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::JetBrains::Annotations::MacroAttribute, ____Target_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MacroAttribute, 0x28>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::MacroAttribute);

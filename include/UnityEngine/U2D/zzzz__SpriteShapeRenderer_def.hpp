@@ -11,11 +11,10 @@ class SpriteShapeRenderer;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::U2D::SpriteShapeRenderer);
-// Type: UnityEngine.U2D::SpriteShapeRenderer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Renderer
 namespace UnityEngine::U2D {
 // Is value type: false
-// CS Name: ::UnityEngine.U2D::SpriteShapeRenderer*
+// CS Name: UnityEngine.U2D.SpriteShapeRenderer
 class CORDL_TYPE SpriteShapeRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   SpriteShapeRenderer(SpriteShapeRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

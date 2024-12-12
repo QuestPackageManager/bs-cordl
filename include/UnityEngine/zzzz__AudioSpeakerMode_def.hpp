@@ -12,11 +12,10 @@ struct AudioSpeakerMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AudioSpeakerMode);
-// Type: UnityEngine::AudioSpeakerMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::AudioSpeakerMode
+// CS Name: UnityEngine.AudioSpeakerMode
 struct CORDL_TYPE AudioSpeakerMode {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AudioSpeakerMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Mode5point1 value: static_cast<int32_t>(0x5)
+  /// @brief Field Mode5point1 value: I32(5)
   static ::UnityEngine::AudioSpeakerMode const Mode5point1;
 
-  /// @brief Field Mode7point1 value: static_cast<int32_t>(0x6)
+  /// @brief Field Mode7point1 value: I32(6)
   static ::UnityEngine::AudioSpeakerMode const Mode7point1;
 
-  /// @brief Field Mono value: static_cast<int32_t>(0x1)
+  /// @brief Field Mono value: I32(1)
   static ::UnityEngine::AudioSpeakerMode const Mono;
 
-  /// @brief Field Prologic value: static_cast<int32_t>(0x7)
+  /// @brief Field Prologic value: I32(7)
   static ::UnityEngine::AudioSpeakerMode const Prologic;
 
-  /// @brief Field Quad value: static_cast<int32_t>(0x3)
+  /// @brief Field Quad value: I32(3)
   static ::UnityEngine::AudioSpeakerMode const Quad;
 
-  /// @brief Field Raw value: static_cast<int32_t>(0x0)
+  /// @brief Field Raw value: I32(0)
   static ::UnityEngine::AudioSpeakerMode const Raw;
 
-  /// @brief Field Stereo value: static_cast<int32_t>(0x2)
+  /// @brief Field Stereo value: I32(2)
   static ::UnityEngine::AudioSpeakerMode const Stereo;
 
-  /// @brief Field Surround value: static_cast<int32_t>(0x4)
+  /// @brief Field Surround value: I32(4)
   static ::UnityEngine::AudioSpeakerMode const Surround;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17847 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioSpeakerMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AudioSpeakerMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioSpeakerMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSpeakerMode, "UnityEngine", "AudioSpeakerMode");

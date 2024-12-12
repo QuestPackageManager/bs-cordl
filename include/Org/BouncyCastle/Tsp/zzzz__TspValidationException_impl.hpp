@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TspValidationException::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TspValidationException::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2596200;
+  constexpr static std::size_t addrs = 0x25c94ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TspValidationException::*)(::StringW, int32_t)>(
     &::Org::BouncyCastle::Tsp::TspValidationException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2594df4;
+  constexpr static std::size_t addrs = 0x25c80e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::TspValidationException::*)()>(
     &::Org::BouncyCastle::Tsp::TspValidationException::get_FailureCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259bd0c;
+  constexpr static std::size_t addrs = 0x25ceff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TspValidationException*>::get(),
@@ -58,17 +58,11 @@ constexpr void Org::BouncyCastle::Tsp::TspValidationException::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___failureCode = value;
 }
-inline ::Org::BouncyCastle::Tsp::TspValidationException* Org::BouncyCastle::Tsp::TspValidationException::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspValidationException*>(message));
-}
 inline void Org::BouncyCastle::Tsp::TspValidationException::_ctor(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TspValidationException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
-}
-inline ::Org::BouncyCastle::Tsp::TspValidationException* Org::BouncyCastle::Tsp::TspValidationException::New_ctor(::StringW message, int32_t failureCode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspValidationException*>(message, failureCode));
 }
 inline void Org::BouncyCastle::Tsp::TspValidationException::_ctor(::StringW message, int32_t failureCode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,6 +74,12 @@ inline int32_t Org::BouncyCastle::Tsp::TspValidationException::get_FailureCode()
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TspValidationException*>::get(),
                                                                              "get_FailureCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Tsp::TspValidationException* Org::BouncyCastle::Tsp::TspValidationException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspValidationException*>(message));
+}
+inline ::Org::BouncyCastle::Tsp::TspValidationException* Org::BouncyCastle::Tsp::TspValidationException::New_ctor(::StringW message, int32_t failureCode) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspValidationException*>(message, failureCode));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TspValidationException::TspValidationException() {}

@@ -14,15 +14,14 @@ class UnixNetworkInterfaceFactoryPal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterfaceFactoryPal);
-// Type: System.Net.NetworkInformation::UnixNetworkInterfaceFactoryPal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::UnixNetworkInterfaceFactoryPal*
+// CS Name: System.Net.NetworkInformation.UnixNetworkInterfaceFactoryPal
 class CORDL_TYPE UnixNetworkInterfaceFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x438b8c0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x43ecbd4, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
 protected:
@@ -40,7 +39,7 @@ public:
   UnixNetworkInterfaceFactoryPal(UnixNetworkInterfaceFactoryPal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

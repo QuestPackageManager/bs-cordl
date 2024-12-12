@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingSpriteEffect)
 namespace GlobalNamespace {
-class __FlyingSpriteEffect__Pool;
+class FlyingSpriteEffect_Pool;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -37,56 +37,54 @@ namespace GlobalNamespace {
 class FlyingSpriteEffect;
 }
 namespace GlobalNamespace {
-class __FlyingSpriteEffect__Pool;
+class FlyingSpriteEffect_Pool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingSpriteEffect);
-MARK_REF_PTR_T(::GlobalNamespace::__FlyingSpriteEffect__Pool);
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::FlyingSpriteEffect_Pool);
+// Dependencies Zenject.MonoMemoryPool`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingSpriteEffect::Pool*
-class CORDL_TYPE __FlyingSpriteEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingSpriteEffect>> {
+// CS Name: FlyingSpriteEffect/Pool
+class CORDL_TYPE FlyingSpriteEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingSpriteEffect*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__FlyingSpriteEffect__Pool* New_ctor();
+  static inline ::GlobalNamespace::FlyingSpriteEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b1dcc4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ee70, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FlyingSpriteEffect__Pool();
+  constexpr FlyingSpriteEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FlyingSpriteEffect__Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect_Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __FlyingSpriteEffect__Pool(__FlyingSpriteEffect__Pool&&) = delete;
+  FlyingSpriteEffect_Pool(FlyingSpriteEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__FlyingSpriteEffect__Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect_Pool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __FlyingSpriteEffect__Pool(__FlyingSpriteEffect__Pool const&) = delete;
+  FlyingSpriteEffect_Pool(FlyingSpriteEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FlyingSpriteEffect__Pool, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingSpriteEffect_Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::FlyingSpriteEffect
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FlyingObjectEffect, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingSpriteEffect*
+// CS Name: FlyingSpriteEffect
 class CORDL_TYPE FlyingSpriteEffect : public ::GlobalNamespace::FlyingObjectEffect {
 public:
   // Declarations
-  using Pool = ::GlobalNamespace::__FlyingSpriteEffect__Pool;
+  using Pool = ::GlobalNamespace::FlyingSpriteEffect_Pool;
 
   /// @brief Field _color, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
@@ -97,11 +95,11 @@ public:
   /// @brief Field _spriteRenderer, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer)) ::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  /// @brief Method InitAndPresent, addr 0x3b1db80, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x3b7ed2c, size 0xb8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Sprite* sprite, ::UnityEngine::Material* material,
                              ::UnityEngine::Color color, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x3b1dc38, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b7ede4, size 0x5c, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingSpriteEffect* New_ctor();
@@ -110,9 +108,9 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__fadeAnimationCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeAnimationCurve();
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
@@ -124,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3b1dc94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ee40, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,6 +139,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingSpriteEffect(FlyingSpriteEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4214 };
+
   /// @brief Field _spriteRenderer, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
@@ -150,22 +151,19 @@ public:
   /// @brief Field _color, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4203 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingSpriteEffect, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FlyingSpriteEffect, ____spriteRenderer) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingSpriteEffect, ____fadeAnimationCurve) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingSpriteEffect, ____color) == 0x98, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingSpriteEffect, 0xa8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingSpriteEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlyingSpriteEffect*, "", "FlyingSpriteEffect");
-NEED_NO_BOX(::GlobalNamespace::__FlyingSpriteEffect__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FlyingSpriteEffect__Pool*, "", "FlyingSpriteEffect/Pool");
+NEED_NO_BOX(::GlobalNamespace::FlyingSpriteEffect_Pool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlyingSpriteEffect_Pool*, "", "FlyingSpriteEffect/Pool");

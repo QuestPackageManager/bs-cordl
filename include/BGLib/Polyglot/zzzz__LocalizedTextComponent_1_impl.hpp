@@ -1,20 +1,12 @@
 #pragma once
 // IWYU pragma private; include "BGLib/Polyglot/LocalizedTextComponent_1.hpp"
+#include "BGLib/Polyglot/zzzz__ILocalize_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
-#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
-template <typename T> constexpr BGLib::Polyglot::LocalizedTextComponent_1<T>::operator ::BGLib::Polyglot::ILocalize*() noexcept {
-  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BGLib::Polyglot::ILocalize"
-template <typename T> constexpr ::BGLib::Polyglot::ILocalize* BGLib::Polyglot::LocalizedTextComponent_1<T>::i___BGLib__Polyglot__ILocalize() noexcept {
-  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
-}
 template <typename T> constexpr T& BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_get_localizedComponent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedComponent;
@@ -55,8 +47,7 @@ template <typename T> constexpr ::System::Collections::Generic::List_1<::System:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_get_parameters() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_get_parameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
@@ -111,13 +102,21 @@ template <typename T> inline void BGLib::Polyglot::LocalizedTextComponent_1<T>::
                                                                              "ClearParameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::BGLib::Polyglot::LocalizedTextComponent_1<T>* BGLib::Polyglot::LocalizedTextComponent_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizedTextComponent_1<T>*>());
-}
 template <typename T> inline void BGLib::Polyglot::LocalizedTextComponent_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextComponent_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::BGLib::Polyglot::LocalizedTextComponent_1<T>* BGLib::Polyglot::LocalizedTextComponent_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizedTextComponent_1<T>*>());
+}
+/// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
+template <typename T> constexpr BGLib::Polyglot::LocalizedTextComponent_1<T>::operator ::BGLib::Polyglot::ILocalize*() noexcept {
+  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BGLib::Polyglot::ILocalize"
+template <typename T> constexpr ::BGLib::Polyglot::ILocalize* BGLib::Polyglot::LocalizedTextComponent_1<T>::i___BGLib__Polyglot__ILocalize() noexcept {
+  return static_cast<::BGLib::Polyglot::ILocalize*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BGLib::Polyglot::LocalizedTextComponent_1<T>::LocalizedTextComponent_1() {}

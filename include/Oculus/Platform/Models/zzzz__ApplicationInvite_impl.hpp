@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::ApplicationInvite::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::ApplicationInvite::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3f2dc44;
+  constexpr static std::size_t addrs = 0x3f8dcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ constexpr ::Oculus::Platform::Models::Destination*& Oculus::Platform::Models::Ap
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationOptional;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_DestinationOptional() const {
+constexpr ::Oculus::Platform::Models::Destination* const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_DestinationOptional() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationOptional;
 }
@@ -36,7 +36,7 @@ constexpr ::Oculus::Platform::Models::Destination*& Oculus::Platform::Models::Ap
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Destination;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_Destination() const {
+constexpr ::Oculus::Platform::Models::Destination* const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_Destination() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Destination;
 }
@@ -96,7 +96,7 @@ constexpr ::Oculus::Platform::Models::User*& Oculus::Platform::Models::Applicati
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RecipientOptional;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_RecipientOptional() const {
+constexpr ::Oculus::Platform::Models::User* const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_RecipientOptional() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RecipientOptional;
 }
@@ -108,7 +108,7 @@ constexpr ::Oculus::Platform::Models::User*& Oculus::Platform::Models::Applicati
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Recipient;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_Recipient() const {
+constexpr ::Oculus::Platform::Models::User* const& Oculus::Platform::Models::ApplicationInvite::__cordl_internal_get_Recipient() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Recipient;
 }
@@ -116,14 +116,14 @@ constexpr void Oculus::Platform::Models::ApplicationInvite::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Recipient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Oculus::Platform::Models::ApplicationInvite* Oculus::Platform::Models::ApplicationInvite::New_ctor(::System::IntPtr o) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::ApplicationInvite*>(o));
-}
 inline void Oculus::Platform::Models::ApplicationInvite::_ctor(::System::IntPtr o) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::ApplicationInvite*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
+}
+inline ::Oculus::Platform::Models::ApplicationInvite* Oculus::Platform::Models::ApplicationInvite::New_ctor(::System::IntPtr o) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::ApplicationInvite*>(o));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::ApplicationInvite::ApplicationInvite() {}

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(EventHandler_1)
 namespace System {
 struct IntPtr;
@@ -18,13 +17,12 @@ template <typename TEventArgs> class EventHandler_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::EventHandler_1);
-// Type: System::EventHandler`1
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System {
 // cpp template
 template <typename TEventArgs>
 // Is value type: false
-// CS Name: ::System::EventHandler`1<TEventArgs>*
+// CS Name: System.EventHandler`1<TEventArgs>
 class CORDL_TYPE EventHandler_1 : public ::System::MulticastDelegate {
 public:
   // Declarations

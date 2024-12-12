@@ -31,11 +31,10 @@ class HttpListenerContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerContext);
-// Type: System.Net::HttpListenerContext
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpListenerContext*
+// CS Name: System.Net.HttpListenerContext
 class CORDL_TYPE HttpListenerContext : public ::System::Object {
 public:
   // Declarations
@@ -74,19 +73,19 @@ public:
 
   static inline ::System::Net::HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method ParseAuthentication, addr 0x4466148, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ParseAuthentication, addr 0x44c745c, size 0x120, virtual false, abstract: false, final false
   inline void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes);
 
-  /// @brief Method ParseBasicAuthentication, addr 0x44665b0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ParseBasicAuthentication, addr 0x44c78c4, size 0x234, virtual false, abstract: false, final false
   inline ::System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
+
+  constexpr ::System::Net::HttpListener* const& __cordl_internal_get_Listener() const;
 
   constexpr ::System::Net::HttpListener*& __cordl_internal_get_Listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_Listener() const;
+  constexpr ::System::Net::HttpConnection* const& __cordl_internal_get_cnc() const;
 
   constexpr ::System::Net::HttpConnection*& __cordl_internal_get_cnc();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpConnection*> const& __cordl_internal_get_cnc() const;
 
   constexpr int32_t const& __cordl_internal_get_err_status() const;
 
@@ -96,17 +95,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_error();
 
+  constexpr ::System::Net::HttpListenerRequest* const& __cordl_internal_get_request() const;
+
   constexpr ::System::Net::HttpListenerRequest*& __cordl_internal_get_request();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerRequest*> const& __cordl_internal_get_request() const;
+  constexpr ::System::Net::HttpListenerResponse* const& __cordl_internal_get_response() const;
 
   constexpr ::System::Net::HttpListenerResponse*& __cordl_internal_get_response();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerResponse*> const& __cordl_internal_get_response() const;
+  constexpr ::System::Security::Principal::IPrincipal* const& __cordl_internal_get_user() const;
 
   constexpr ::System::Security::Principal::IPrincipal*& __cordl_internal_get_user();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& __cordl_internal_get_user() const;
 
   constexpr void __cordl_internal_set_Listener(::System::Net::HttpListener* value);
 
@@ -122,31 +121,31 @@ public:
 
   constexpr void __cordl_internal_set_user(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method .ctor, addr 0x44623cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c36e0, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method get_Connection, addr 0x4466598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x44c78ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpConnection* get_Connection();
 
-  /// @brief Method get_ErrorMessage, addr 0x4466588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorMessage, addr 0x44c789c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ErrorMessage();
 
-  /// @brief Method get_ErrorStatus, addr 0x4466578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorStatus, addr 0x44c788c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorStatus();
 
-  /// @brief Method get_HaveError, addr 0x4462f88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveError, addr 0x44c429c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveError();
 
-  /// @brief Method get_Request, addr 0x44665a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x44c78b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerRequest* get_Request();
 
-  /// @brief Method get_Response, addr 0x44665a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Response, addr 0x44c78bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerResponse* get_Response();
 
-  /// @brief Method set_ErrorMessage, addr 0x4466590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorMessage, addr 0x44c78a4, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorMessage(::StringW value);
 
-  /// @brief Method set_ErrorStatus, addr 0x4466580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorStatus, addr 0x44c7894, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorStatus(int32_t value);
 
 protected:
@@ -162,6 +161,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerContext", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpListenerContext(HttpListenerContext const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9689 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpListenerRequest* ___request;
@@ -184,14 +186,9 @@ public:
   /// @brief Field Listener, offset: 0x40, size: 0x8, def value: None
   ::System::Net::HttpListener* ___Listener;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9664 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerContext, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HttpListenerContext, ___request) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HttpListenerContext, ___response) == 0x18, "Offset mismatch!");
@@ -205,6 +202,8 @@ static_assert(offsetof(::System::Net::HttpListenerContext, ___error) == 0x30, "O
 static_assert(offsetof(::System::Net::HttpListenerContext, ___err_status) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HttpListenerContext, ___Listener) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerContext, 0x48>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::HttpListenerContext);

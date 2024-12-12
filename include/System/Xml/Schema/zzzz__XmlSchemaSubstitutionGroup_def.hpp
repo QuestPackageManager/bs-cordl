@@ -17,11 +17,10 @@ class XmlSchemaSubstitutionGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSubstitutionGroup);
-// Type: System.Xml.Schema::XmlSchemaSubstitutionGroup
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaObject
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaSubstitutionGroup*
+// CS Name: System.Xml.Schema.XmlSchemaSubstitutionGroup
 class CORDL_TYPE XmlSchemaSubstitutionGroup : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
@@ -37,28 +36,28 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSubstitutionGroup* New_ctor();
 
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_examplar() const;
+
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_examplar();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_examplar() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_membersList() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_membersList();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_membersList() const;
 
   constexpr void __cordl_internal_set_examplar(::System::Xml::XmlQualifiedName* value);
 
   constexpr void __cordl_internal_set_membersList(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x42674d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c87e8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Examplar, addr 0x42674c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Examplar, addr 0x42c87d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Examplar();
 
-  /// @brief Method get_Members, addr 0x42674bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x42c87d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Members();
 
-  /// @brief Method set_Examplar, addr 0x42674cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Examplar, addr 0x42c87e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Examplar(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -75,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaSubstitutionGroup(XmlSchemaSubstitutionGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7724 };
+
   /// @brief Field membersList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::ArrayList* ___membersList;
 
   /// @brief Field examplar, offset: 0x40, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___examplar;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7699 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSubstitutionGroup, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSubstitutionGroup, ___membersList) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSubstitutionGroup, ___examplar) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSubstitutionGroup, 0x48>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSubstitutionGroup);

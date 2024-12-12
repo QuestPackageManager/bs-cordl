@@ -11,17 +11,16 @@ class AndroidPressureSensor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidPressureSensor);
-// Type: UnityEngine.InputSystem.Android::AndroidPressureSensor
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.PressureSensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidPressureSensor*
+// CS Name: UnityEngine.InputSystem.Android.AndroidPressureSensor
 class CORDL_TYPE AndroidPressureSensor : public ::UnityEngine::InputSystem::PressureSensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidPressureSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46043f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidPressureSensor(AndroidPressureSensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

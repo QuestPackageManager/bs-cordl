@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ExtendedPropertyDescriptor)
 namespace System::ComponentModel {
@@ -28,11 +27,10 @@ class ExtendedPropertyDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ExtendedPropertyDescriptor);
-// Type: System.ComponentModel::ExtendedPropertyDescriptor
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.PropertyDescriptor
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::ExtendedPropertyDescriptor*
+// CS Name: System.ComponentModel.ExtendedPropertyDescriptor
 class CORDL_TYPE ExtendedPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
@@ -50,51 +48,51 @@ public:
   /// @brief Field _provider, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__provider, put = __cordl_internal_set__provider)) ::System::ComponentModel::IExtenderProvider* _provider;
 
-  /// @brief Method CanResetValue, addr 0x43f0eb0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x44521c4, size 0x28, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* comp);
 
-  /// @brief Method GetValue, addr 0x43f11f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x4452508, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* comp);
 
   static inline ::System::ComponentModel::ExtendedPropertyDescriptor* New_ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType,
                                                                                ::System::ComponentModel::IExtenderProvider* provider,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method ResetValue, addr 0x43f121c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x4452530, size 0x28, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* comp);
 
-  /// @brief Method SetValue, addr 0x43f1244, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x4452558, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x43f1270, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x4452584, size 0x28, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* comp);
+
+  constexpr ::System::ComponentModel::ReflectPropertyDescriptor* const& __cordl_internal_get__extenderInfo() const;
 
   constexpr ::System::ComponentModel::ReflectPropertyDescriptor*& __cordl_internal_get__extenderInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ReflectPropertyDescriptor*> const& __cordl_internal_get__extenderInfo() const;
+  constexpr ::System::ComponentModel::IExtenderProvider* const& __cordl_internal_get__provider() const;
 
   constexpr ::System::ComponentModel::IExtenderProvider*& __cordl_internal_get__provider();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const& __cordl_internal_get__provider() const;
 
   constexpr void __cordl_internal_set__extenderInfo(::System::ComponentModel::ReflectPropertyDescriptor* value);
 
   constexpr void __cordl_internal_set__provider(::System::ComponentModel::IExtenderProvider* value);
 
-  /// @brief Method .ctor, addr 0x43f0be4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4451ef8, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType, ::System::ComponentModel::IExtenderProvider* provider,
                     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method get_ComponentType, addr 0x43f0ed8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x44521ec, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_DisplayName, addr 0x43f1018, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x445232c, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_IsReadOnly, addr 0x43f0efc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x4452210, size 0xf8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x43f0ff4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x4452308, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -111,23 +109,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExtendedPropertyDescriptor(ExtendedPropertyDescriptor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9384 };
+
   /// @brief Field _extenderInfo, offset: 0x88, size: 0x8, def value: None
   ::System::ComponentModel::ReflectPropertyDescriptor* ____extenderInfo;
 
   /// @brief Field _provider, offset: 0x90, size: 0x8, def value: None
   ::System::ComponentModel::IExtenderProvider* ____provider;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9359 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ExtendedPropertyDescriptor, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::ExtendedPropertyDescriptor, ____extenderInfo) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::ExtendedPropertyDescriptor, ____provider) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ExtendedPropertyDescriptor, 0x98>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::ExtendedPropertyDescriptor);

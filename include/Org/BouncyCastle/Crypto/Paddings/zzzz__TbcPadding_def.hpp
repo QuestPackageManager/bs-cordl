@@ -3,14 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/Paddings/zzzz__IBlockCipherPadding_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TbcPadding)
-namespace Org::BouncyCastle::Crypto::Paddings {
-class IBlockCipherPadding;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -20,11 +17,10 @@ class TbcPadding;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::TbcPadding);
-// Type: Org.BouncyCastle.Crypto.Paddings::TbcPadding
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding, System.Object
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Paddings::TbcPadding*
+// CS Name: Org.BouncyCastle.Crypto.Paddings.TbcPadding
 class CORDL_TYPE TbcPadding : public ::System::Object {
 public:
   // Declarations
@@ -33,21 +29,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method AddPadding, addr 0x2382a40, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method AddPadding, addr 0x23b5d2c, size 0x7c, virtual true, abstract: false, final false
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0x2382a3c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23b5d28, size 0x4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::TbcPadding* New_ctor();
 
-  /// @brief Method PadCount, addr 0x2382abc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method PadCount, addr 0x23b5da8, size 0x70, virtual true, abstract: false, final false
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method .ctor, addr 0x2382b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b5e18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PaddingName, addr 0x23829fc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0x23b5ce8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"

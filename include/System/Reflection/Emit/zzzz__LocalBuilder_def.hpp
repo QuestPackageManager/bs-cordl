@@ -16,11 +16,10 @@ class LocalBuilder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Emit::LocalBuilder);
-// Type: System.Reflection.Emit::LocalBuilder
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.LocalVariableInfo
 namespace System::Reflection::Emit {
 // Is value type: false
-// CS Name: ::System.Reflection.Emit::LocalBuilder*
+// CS Name: System.Reflection.Emit.LocalBuilder
 class CORDL_TYPE LocalBuilder : public ::System::Reflection::LocalVariableInfo {
 public:
   // Declarations
@@ -40,9 +39,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_endOffset();
 
-  constexpr ::System::Reflection::Emit::ILGenerator*& __cordl_internal_get_ilgen();
+  constexpr ::System::Reflection::Emit::ILGenerator* const& __cordl_internal_get_ilgen() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Emit::ILGenerator*> const& __cordl_internal_get_ilgen() const;
+  constexpr ::System::Reflection::Emit::ILGenerator*& __cordl_internal_get_ilgen();
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
 
@@ -74,6 +73,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalBuilder(LocalBuilder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3545 };
+
   /// @brief Field name, offset: 0x20, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -86,14 +88,9 @@ public:
   /// @brief Field endOffset, offset: 0x34, size: 0x4, def value: None
   int32_t ___endOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3545 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::Emit::LocalBuilder, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::Emit::LocalBuilder, ___name) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::Emit::LocalBuilder, ___ilgen) == 0x28, "Offset mismatch!");
@@ -101,6 +98,8 @@ static_assert(offsetof(::System::Reflection::Emit::LocalBuilder, ___ilgen) == 0x
 static_assert(offsetof(::System::Reflection::Emit::LocalBuilder, ___startOffset) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::Emit::LocalBuilder, ___endOffset) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::Emit::LocalBuilder, 0x38>, "Size mismatch!");
 
 } // namespace System::Reflection::Emit
 NEED_NO_BOX(::System::Reflection::Emit::LocalBuilder);

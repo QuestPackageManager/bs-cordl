@@ -12,10 +12,10 @@ namespace Oculus::Platform::Models {
 class Party;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template <typename T> class Message_1_Callback;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -23,19 +23,18 @@ class Parties;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Parties);
-// Type: Oculus.Platform::Parties
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::Parties*
+// CS Name: Oculus.Platform.Parties
 class CORDL_TYPE Parties : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x3f29f54, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x3f8a000, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* GetCurrent();
 
-  /// @brief Method SetPartyUpdateNotificationCallback, addr 0x3f2a0a4, size 0x74, virtual false, abstract: false, final false
-  static inline void SetPartyUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PartyUpdateNotification*>* callback);
+  /// @brief Method SetPartyUpdateNotificationCallback, addr 0x3f8a150, size 0x74, virtual false, abstract: false, final false
+  static inline void SetPartyUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::PartyUpdateNotification*>* callback);
 
 protected:
   // Ctor Parameters []
@@ -52,7 +51,7 @@ public:
   Parties(Parties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

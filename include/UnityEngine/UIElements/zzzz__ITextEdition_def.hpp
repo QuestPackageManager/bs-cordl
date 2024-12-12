@@ -24,11 +24,10 @@ class ITextEdition;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ITextEdition);
-// Type: UnityEngine.UIElements::ITextEdition
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ITextEdition*
+// CS Name: UnityEngine.UIElements.ITextEdition
 class CORDL_TYPE ITextEdition {
 public:
   // Declarations
@@ -60,109 +59,105 @@ public:
 
   __declspec(property(get = get_multiline, put = set_multiline)) bool multiline;
 
-  /// @brief Method CullString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CullString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW CullString(::StringW s);
 
-  /// @brief Method RestoreValueAndText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method RestoreValueAndText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RestoreValueAndText();
 
-  /// @brief Method SaveValueAndText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SaveValueAndText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SaveValueAndText();
 
-  /// @brief Method UpdateText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UpdateText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateText(::StringW value);
 
-  /// @brief Method get_AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_AcceptCharacter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Func_2<char16_t, bool>* get_AcceptCharacter();
 
-  /// @brief Method get_MoveFocusToCompositeRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_MoveFocusToCompositeRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Action* get_MoveFocusToCompositeRoot();
 
-  /// @brief Method get_UpdateScrollOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_UpdateScrollOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Action_1<bool>* get_UpdateScrollOffset();
 
-  /// @brief Method get_UpdateTextFromValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_UpdateTextFromValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Action* get_UpdateTextFromValue();
 
-  /// @brief Method get_UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Action* get_UpdateValueFromText();
 
-  /// @brief Method get_autoCorrection, addr 0x4a33cf8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_autoCorrection, addr 0x4a98608, size 0xc8, virtual true, abstract: false, final false
   inline bool get_autoCorrection();
 
-  /// @brief Method get_hideMobileInput, addr 0x4a33e80, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_hideMobileInput, addr 0x4a98790, size 0xc8, virtual true, abstract: false, final false
   inline bool get_hideMobileInput();
 
-  /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_isDelayed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isDelayed();
 
-  /// @brief Method get_isPassword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_isPassword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isPassword();
 
-  /// @brief Method get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isReadOnly();
 
-  /// @brief Method get_keyboardType, addr 0x4a34008, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_keyboardType, addr 0x4a98918, size 0xc8, virtual true, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
 
-  /// @brief Method get_maxLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_maxLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_maxLength();
 
-  /// @brief Method get_multiline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_multiline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_multiline();
 
-  /// @brief Method set_AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_AcceptCharacter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_AcceptCharacter(::System::Func_2<char16_t, bool>* value);
 
-  /// @brief Method set_MoveFocusToCompositeRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_MoveFocusToCompositeRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_MoveFocusToCompositeRoot(::System::Action* value);
 
-  /// @brief Method set_UpdateScrollOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_UpdateScrollOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_UpdateScrollOffset(::System::Action_1<bool>* value);
 
-  /// @brief Method set_UpdateTextFromValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_UpdateTextFromValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_UpdateTextFromValue(::System::Action* value);
 
-  /// @brief Method set_UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_UpdateValueFromText(::System::Action* value);
 
-  /// @brief Method set_autoCorrection, addr 0x4a33dc0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method set_autoCorrection, addr 0x4a986d0, size 0xc0, virtual true, abstract: false, final false
   inline void set_autoCorrection(bool value);
 
-  /// @brief Method set_hideMobileInput, addr 0x4a33f48, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method set_hideMobileInput, addr 0x4a98858, size 0xc0, virtual true, abstract: false, final false
   inline void set_hideMobileInput(bool value);
 
-  /// @brief Method set_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_isDelayed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_isDelayed(bool value);
 
-  /// @brief Method set_isPassword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_isPassword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_isPassword(bool value);
 
-  /// @brief Method set_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_isReadOnly(bool value);
 
-  /// @brief Method set_keyboardType, addr 0x4a340d0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method set_keyboardType, addr 0x4a989e0, size 0xc0, virtual true, abstract: false, final false
   inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
-  /// @brief Method set_maskChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_maskChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_maskChar(char16_t value);
 
-  /// @brief Method set_maxLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_maxLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_maxLength(int32_t value);
 
-  /// @brief Method set_multiline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_multiline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_multiline(bool value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ITextEdition", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ITextEdition(ITextEdition&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextEdition", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ITextEdition(ITextEdition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

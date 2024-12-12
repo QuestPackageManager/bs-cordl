@@ -11,17 +11,16 @@ class FlagsAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::FlagsAttribute);
-// Type: System::FlagsAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System {
 // Is value type: false
-// CS Name: ::System::FlagsAttribute*
+// CS Name: System.FlagsAttribute
 class CORDL_TYPE FlagsAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::FlagsAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d73804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd3978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

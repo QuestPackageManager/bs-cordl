@@ -11,13 +11,12 @@ template <typename T> class BlockingCollectionDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::BlockingCollectionDebugView_1);
-// Type: System.Collections.Concurrent::BlockingCollectionDebugView`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Concurrent::BlockingCollectionDebugView`1<T>*
+// CS Name: System.Collections.Concurrent.BlockingCollectionDebugView`1<T>
 class CORDL_TYPE BlockingCollectionDebugView_1 : public ::System::Object {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
   BlockingCollectionDebugView_1(BlockingCollectionDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9503 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

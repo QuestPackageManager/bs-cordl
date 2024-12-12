@@ -11,17 +11,16 @@ class AndroidRotationVector;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidRotationVector);
-// Type: UnityEngine.InputSystem.Android::AndroidRotationVector
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.AttitudeSensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidRotationVector*
+// CS Name: UnityEngine.InputSystem.Android.AndroidRotationVector
 class CORDL_TYPE AndroidRotationVector : public ::UnityEngine::InputSystem::AttitudeSensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidRotationVector* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a3104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4604418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidRotationVector(AndroidRotationVector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

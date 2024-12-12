@@ -22,11 +22,10 @@ class G_AudioText;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioText);
-// Type: Tayx.Graphy.Audio::G_AudioText
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Audio::G_AudioText*
+// CS Name: Tayx.Graphy.Audio.G_AudioText
 class CORDL_TYPE G_AudioText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -45,18 +44,18 @@ public:
   /// @brief Field m_updateRate, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) int32_t m_updateRate;
 
-  /// @brief Method Awake, addr 0x4472cf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x44d4008, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x447276c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d3a80, size 0x110, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioText* New_ctor();
 
-  /// @brief Method Update, addr 0x4472cf8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d400c, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x447274c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d3a60, size 0x20, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_DBText() const;
@@ -89,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_m_updateRate(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4472df8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d410c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,6 +105,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_AudioText(G_AudioText const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17232 };
+
   /// @brief Field m_DBText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_DBText;
 
@@ -121,14 +123,9 @@ public:
   /// @brief Field m_deltaTimeOffset, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_deltaTimeOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17099 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Audio::G_AudioText, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_DBText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_graphyManager) == 0x28, "Offset mismatch!");
@@ -138,6 +135,8 @@ static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_audioMonitor) ==
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_updateRate) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_deltaTimeOffset) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Audio::G_AudioText, 0x40>, "Size mismatch!");
 
 } // namespace Tayx::Graphy::Audio
 NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioText);

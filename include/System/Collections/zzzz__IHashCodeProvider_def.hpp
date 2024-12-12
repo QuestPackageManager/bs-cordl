@@ -14,20 +14,15 @@ class IHashCodeProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::IHashCodeProvider);
-// Type: System.Collections::IHashCodeProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::System.Collections::IHashCodeProvider*
+// CS Name: System.Collections.IHashCodeProvider
 class CORDL_TYPE IHashCodeProvider {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::System::Object* obj);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IHashCodeProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IHashCodeProvider(IHashCodeProvider&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IHashCodeProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

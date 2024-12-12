@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
     &::System::Xml::Schema::PlusNode::ConstructPos)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x433a1c0;
+  constexpr static std::size_t addrs = 0x439b4d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x433a25c;
+  constexpr static std::size_t addrs = 0x439b570;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433a27c;
+  constexpr static std::size_t addrs = 0x439b590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(), ".ctor",
@@ -57,13 +57,13 @@ inline bool System::Xml::Schema::PlusNode::get_IsNullable() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::PlusNode* System::Xml::Schema::PlusNode::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::PlusNode*>());
-}
 inline void System::Xml::Schema::PlusNode::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::PlusNode* System::Xml::Schema::PlusNode::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::PlusNode*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::PlusNode::PlusNode() {}

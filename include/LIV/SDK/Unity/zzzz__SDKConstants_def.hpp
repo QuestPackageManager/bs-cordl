@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKConstants)
 // Forward declare root types
@@ -11,11 +12,10 @@ struct SDKConstants;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKConstants);
-// Type: LIV.SDK.Unity::SDKConstants
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::SDKConstants
+// CS Name: LIV.SDK.Unity.SDKConstants
 #pragma pack(push, 0)
 struct CORDL_TYPE SDKConstants {
 public:
@@ -34,7 +34,7 @@ public:
   static constexpr ::ConstString SDK_VERSION{ u"1.5.4" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17307 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

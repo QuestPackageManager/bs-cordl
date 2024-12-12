@@ -19,11 +19,10 @@ class ExternalException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::ExternalException);
-// Type: System.Runtime.InteropServices::ExternalException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::ExternalException*
+// CS Name: System.Runtime.InteropServices.ExternalException
 class CORDL_TYPE ExternalException : public ::System::SystemException {
 public:
   // Declarations
@@ -37,22 +36,22 @@ public:
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method ToString, addr 0x3cb2648, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d127bc, size 0x1e0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3cb2590, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d12704, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cb2638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d127ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cb25ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d12760, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cb2610, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d12784, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method get_ErrorCode, addr 0x3cb2640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x3d127b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:

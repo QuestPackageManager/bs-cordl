@@ -22,5 +22,12 @@ inline void GlobalNamespace::FireEffectShaderHelper::setStaticF_privatePointLigh
 inline int32_t GlobalNamespace::FireEffectShaderHelper::getStaticF_privatePointLightColorPropertyId() {
   return ::cordl_internals::getStaticField<int32_t, "privatePointLightColorPropertyId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireEffectShaderHelper*>::get>();
 }
+inline void GlobalNamespace::FireEffectShaderHelper::setStaticF_emissionTexColorPropertyId(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "emissionTexColorPropertyId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireEffectShaderHelper*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::FireEffectShaderHelper::getStaticF_emissionTexColorPropertyId() {
+  return ::cordl_internals::getStaticField<int32_t, "emissionTexColorPropertyId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireEffectShaderHelper*>::get>();
+}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FireEffectShaderHelper::FireEffectShaderHelper() {}

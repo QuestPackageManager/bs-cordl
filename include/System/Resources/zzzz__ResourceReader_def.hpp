@@ -3,9 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Resources/zzzz__IResourceReader_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceReader)
@@ -17,9 +20,6 @@ struct DictionaryEntry;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,22 +34,16 @@ namespace System::IO {
 class UnmanagedMemoryStream;
 }
 namespace System::Resources {
-class IResourceReader;
+struct ResourceLocator;
 }
 namespace System::Resources {
-struct ResourceLocator;
+class ResourceReader_ResourceEnumerator;
 }
 namespace System::Resources {
 struct ResourceTypeCode;
 }
-namespace System::Resources {
-class __ResourceReader__ResourceEnumerator;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -62,17 +56,16 @@ namespace System::Resources {
 class ResourceReader;
 }
 namespace System::Resources {
-class __ResourceReader__ResourceEnumerator;
+class ResourceReader_ResourceEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Resources::ResourceReader);
-MARK_REF_PTR_T(::System::Resources::__ResourceReader__ResourceEnumerator);
-// Type: ::ResourceEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Resources::ResourceReader_ResourceEnumerator);
+// Dependencies System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator, System.Object
 namespace System::Resources {
 // Is value type: false
-// CS Name: ::ResourceReader::ResourceEnumerator*
-class CORDL_TYPE __ResourceReader__ResourceEnumerator : public ::System::Object {
+// CS Name: System.Resources.ResourceReader/ResourceEnumerator
+class CORDL_TYPE ResourceReader_ResourceEnumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Object* Current;
@@ -103,12 +96,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3cbb268, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3d1b3dc, size 0x70, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::System::Resources::__ResourceReader__ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader);
+  static inline ::System::Resources::ResourceReader_ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader);
 
-  /// @brief Method Reset, addr 0x3cbfd0c, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3d1fe80, size 0x84, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__currentIsValid() const;
@@ -123,9 +116,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__dataPosition();
 
-  constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__reader();
+  constexpr ::System::Resources::ResourceReader* const& __cordl_internal_get__reader() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __cordl_internal_get__reader() const;
+  constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__reader();
 
   constexpr void __cordl_internal_set__currentIsValid(bool value);
 
@@ -135,22 +128,22 @@ public:
 
   constexpr void __cordl_internal_set__reader(::System::Resources::ResourceReader* value);
 
-  /// @brief Method .ctor, addr 0x3cbce5c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1cfd0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceReader* reader);
 
-  /// @brief Method get_Current, addr 0x3cbf8b8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x3d1fa2c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataPosition, addr 0x3cbfc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x3d1fdd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Entry, addr 0x3cbf91c, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x3d1fa90, size 0x340, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x3cbb1b8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x3d1b32c, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x3cbfc64, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x3d1fdd8, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -162,16 +155,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ResourceReader__ResourceEnumerator();
+  constexpr ResourceReader_ResourceEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceReader__ResourceEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader_ResourceEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ResourceReader__ResourceEnumerator(__ResourceReader__ResourceEnumerator&&) = delete;
+  ResourceReader_ResourceEnumerator(ResourceReader_ResourceEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceReader__ResourceEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader_ResourceEnumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ResourceReader__ResourceEnumerator(__ResourceReader__ResourceEnumerator const&) = delete;
+  ResourceReader_ResourceEnumerator(ResourceReader_ResourceEnumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3439 };
 
   /// @brief Field _reader, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::ResourceReader* ____reader;
@@ -185,32 +181,28 @@ public:
   /// @brief Field _dataPosition, offset: 0x20, size: 0x4, def value: None
   int32_t ____dataPosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3439 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceReader__ResourceEnumerator, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Resources::ResourceReader_ResourceEnumerator, ____reader) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____reader) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Resources::ResourceReader_ResourceEnumerator, ____currentIsValid) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____currentIsValid) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Resources::ResourceReader_ResourceEnumerator, ____currentName) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____currentName) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::System::Resources::ResourceReader_ResourceEnumerator, ____dataPosition) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____dataPosition) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceReader_ResourceEnumerator, 0x28>, "Size mismatch!");
 
 } // namespace System::Resources
-// Type: System.Resources::ResourceReader
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEnumerable, System.IDisposable, System.Object, System.Resources.IResourceReader
 namespace System::Resources {
 // Is value type: false
-// CS Name: ::System.Resources::ResourceReader*
+// CS Name: System.Resources.ResourceReader
 class CORDL_TYPE ResourceReader : public ::System::Object {
 public:
   // Declarations
-  using ResourceEnumerator = ::System::Resources::__ResourceReader__ResourceEnumerator;
+  using ResourceEnumerator = ::System::Resources::ResourceReader_ResourceEnumerator;
 
   /// @brief Field _dataSectionOffset, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__dataSectionOffset, put = __cordl_internal_set__dataSectionOffset)) int64_t _dataSectionOffset;
@@ -264,81 +256,81 @@ public:
   /// @brief Convert operator to "::System::Resources::IResourceReader"
   constexpr operator ::System::Resources::IResourceReader*() noexcept;
 
-  /// @brief Method AllocateStringForNameIndex, addr 0x3cbd098, size 0x7c0, virtual false, abstract: false, final false
-  inline ::StringW AllocateStringForNameIndex(int32_t index, ByRef<int32_t> dataOffset);
+  /// @brief Method AllocateStringForNameIndex, addr 0x3d1d20c, size 0x7c0, virtual false, abstract: false, final false
+  inline ::StringW AllocateStringForNameIndex(int32_t index, ::ByRef<int32_t> dataOffset);
 
-  /// @brief Method Close, addr 0x3cb9e5c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x3d19fd0, size 0x3c, virtual true, abstract: false, final true
   inline void Close();
 
-  /// @brief Method CompareStringEqualsName, addr 0x3cbce90, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method CompareStringEqualsName, addr 0x3d1d004, size 0x208, virtual false, abstract: false, final false
   inline bool CompareStringEqualsName(::StringW name);
 
-  /// @brief Method DeserializeObject, addr 0x3cbe914, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method DeserializeObject, addr 0x3d1ea88, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Object* DeserializeObject(int32_t typeIndex);
 
-  /// @brief Method Dispose, addr 0x3cbcb48, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3d1ccbc, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3cbcb08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3d1cc7c, size 0x40, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FindPosForResource, addr 0x3cbaa4c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method FindPosForResource, addr 0x3d1abc0, size 0x3ac, virtual false, abstract: false, final false
   inline int32_t FindPosForResource(::StringW name);
 
-  /// @brief Method FindType, addr 0x3cbdce4, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method FindType, addr 0x3d1de58, size 0x3bc, virtual false, abstract: false, final false
   inline ::System::RuntimeType* FindType(int32_t typeIndex);
 
-  /// @brief Method GetEnumerator, addr 0x3cbcd9c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3d1cf10, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetEnumeratorInternal, addr 0x3cbb150, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Resources::__ResourceReader__ResourceEnumerator* GetEnumeratorInternal();
+  /// @brief Method GetEnumeratorInternal, addr 0x3d1b2c4, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Resources::ResourceReader_ResourceEnumerator* GetEnumeratorInternal();
 
-  /// @brief Method GetNameHash, addr 0x3cbcc3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNameHash, addr 0x3d1cdb0, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetNameHash(int32_t index);
 
-  /// @brief Method GetNamePosition, addr 0x3cbcc80, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetNamePosition, addr 0x3d1cdf4, size 0x118, virtual false, abstract: false, final false
   inline int32_t GetNamePosition(int32_t index);
 
-  /// @brief Method GetValueForNameIndex, addr 0x3cbd858, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method GetValueForNameIndex, addr 0x3d1d9cc, size 0x29c, virtual false, abstract: false, final false
   inline ::System::Object* GetValueForNameIndex(int32_t index);
 
-  /// @brief Method LoadObject, addr 0x3cbe0a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LoadObject, addr 0x3d1e214, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* LoadObject(int32_t pos);
 
-  /// @brief Method LoadObject, addr 0x3cbb0a0, size 0x98, virtual false, abstract: false, final false
-  inline ::System::Object* LoadObject(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
+  /// @brief Method LoadObject, addr 0x3d1b214, size 0x98, virtual false, abstract: false, final false
+  inline ::System::Object* LoadObject(int32_t pos, ::ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method LoadObjectV1, addr 0x3cbdaf4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadObjectV1, addr 0x3d1dc68, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Object* LoadObjectV1(int32_t pos);
 
-  /// @brief Method LoadObjectV2, addr 0x3cbdbec, size 0xf8, virtual false, abstract: false, final false
-  inline ::System::Object* LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
+  /// @brief Method LoadObjectV2, addr 0x3d1dd60, size 0xf8, virtual false, abstract: false, final false
+  inline ::System::Object* LoadObjectV2(int32_t pos, ::ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method LoadString, addr 0x3cbadf8, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method LoadString, addr 0x3d1af6c, size 0x2a8, virtual false, abstract: false, final false
   inline ::StringW LoadString(int32_t pos);
 
   static inline ::System::Resources::ResourceReader* New_ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 
-  /// @brief Method ReadResources, addr 0x3cbc9a4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ReadResources, addr 0x3d1cb18, size 0x164, virtual false, abstract: false, final false
   inline void ReadResources();
 
-  /// @brief Method ReadUnalignedI4, addr 0x3cbcb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadUnalignedI4, addr 0x3d1ccf8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReadUnalignedI4(::cordl_internals::Ptr<int32_t> p);
 
-  /// @brief Method SkipString, addr 0x3cbcb8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SkipString, addr 0x3d1cd00, size 0xb0, virtual false, abstract: false, final false
   inline void SkipString();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3cbcd98, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3d1cf0c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method _LoadObjectV1, addr 0x3cbe0cc, size 0x848, virtual false, abstract: false, final false
+  /// @brief Method _LoadObjectV1, addr 0x3d1e240, size 0x848, virtual false, abstract: false, final false
   inline ::System::Object* _LoadObjectV1(int32_t pos);
 
-  /// @brief Method _LoadObjectV2, addr 0x3cbeae4, size 0x724, virtual false, abstract: false, final false
-  inline ::System::Object* _LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
+  /// @brief Method _LoadObjectV2, addr 0x3d1ec58, size 0x724, virtual false, abstract: false, final false
+  inline ::System::Object* _LoadObjectV2(int32_t pos, ::ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method _ReadResources, addr 0x3cbf208, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method _ReadResources, addr 0x3d1f37c, size 0x6b0, virtual false, abstract: false, final false
   inline void _ReadResources();
 
   constexpr int64_t const& __cordl_internal_get__dataSectionOffset() const;
@@ -369,17 +361,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get__numResources();
 
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* const& __cordl_internal_get__objFormatter() const;
+
   constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*& __cordl_internal_get__objFormatter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*> const& __cordl_internal_get__objFormatter() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* const& __cordl_internal_get__resCache() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __cordl_internal_get__resCache() const;
+  constexpr ::System::IO::BinaryReader* const& __cordl_internal_get__store() const;
 
   constexpr ::System::IO::BinaryReader*& __cordl_internal_get__store();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __cordl_internal_get__store() const;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__typeNamePositions() const;
 
@@ -389,9 +381,9 @@ public:
 
   constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>& __cordl_internal_get__typeTable();
 
-  constexpr ::System::IO::UnmanagedMemoryStream*& __cordl_internal_get__ums();
+  constexpr ::System::IO::UnmanagedMemoryStream* const& __cordl_internal_get__ums() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::UnmanagedMemoryStream*> const& __cordl_internal_get__ums() const;
+  constexpr ::System::IO::UnmanagedMemoryStream*& __cordl_internal_get__ums();
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
@@ -425,7 +417,7 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3cb9b44, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d19cb8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -450,6 +442,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourceReader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceReader(ResourceReader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3440 };
 
   /// @brief Field _store, offset: 0x10, size: 0x8, def value: None
   ::System::IO::BinaryReader* ____store;
@@ -493,14 +488,9 @@ public:
   /// @brief Field _version, offset: 0x78, size: 0x4, def value: None
   int32_t ____version;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3440 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceReader, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::System::Resources::ResourceReader, ____store) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Resources::ResourceReader, ____resCache) == 0x18, "Offset mismatch!");
@@ -529,8 +519,10 @@ static_assert(offsetof(::System::Resources::ResourceReader, ____ums) == 0x70, "O
 
 static_assert(offsetof(::System::Resources::ResourceReader, ____version) == 0x78, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceReader, 0x80>, "Size mismatch!");
+
 } // namespace System::Resources
 NEED_NO_BOX(::System::Resources::ResourceReader);
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceReader*, "System.Resources", "ResourceReader");
-NEED_NO_BOX(::System::Resources::__ResourceReader__ResourceEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Resources::__ResourceReader__ResourceEnumerator*, "System.Resources", "ResourceReader/ResourceEnumerator");
+NEED_NO_BOX(::System::Resources::ResourceReader_ResourceEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceReader_ResourceEnumerator*, "System.Resources", "ResourceReader/ResourceEnumerator");

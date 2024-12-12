@@ -13,8 +13,8 @@ template <typename TElement> inline ::ArrayW<TElement, ::Array<TElement>*> Syste
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<TElement, ::Array<TElement>*>, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "items", ty: "::ArrayW<TElement,::Array<TElement>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "count", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "items", ty: "::ArrayW<TElement,::Array<TElement>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value:
+// Some("{}") }]
 template <typename TElement> constexpr ::System::Linq::Buffer_1<TElement>::Buffer_1(::ArrayW<TElement, ::Array<TElement>*> items, int32_t count) noexcept {
   this->items = items;
   this->count = count;

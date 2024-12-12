@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertHelper)
 namespace Mono::Unity {
-struct __UnityTls__unitytls_errorstate;
+struct UnityTls_unitytls_errorstate;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list;
+struct UnityTls_unitytls_x509list;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
@@ -23,23 +23,22 @@ class CertHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Unity::CertHelper);
-// Type: Mono.Unity::CertHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Unity {
 // Is value type: false
-// CS Name: ::Mono.Unity::CertHelper*
+// CS Name: Mono.Unity.CertHelper
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificateToNativeChain, addr 0x40a7c10, size 0x1b0, virtual false, abstract: false, final false
-  static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
+  /// @brief Method AddCertificateToNativeChain, addr 0x4108f24, size 0x1b0, virtual false, abstract: false, final false
+  static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> nativeCertificateChain,
                                                  ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
-                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
+                                                 ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
 
-  /// @brief Method AddCertificatesToNativeChain, addr 0x40a7a38, size 0x1d8, virtual false, abstract: false, final false
-  static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
+  /// @brief Method AddCertificatesToNativeChain, addr 0x4108d4c, size 0x1d8, virtual false, abstract: false, final false
+  static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> nativeCertificateChain,
                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
-                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
+                                                  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +55,7 @@ public:
   CertHelper(CertHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

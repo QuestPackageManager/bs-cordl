@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BasicMockPlayerScoreCalculator.hpp"
+#include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicMockPlayerScoreCalculator_def.hpp"
-#include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
 #include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 #include "System/zzzz__Random_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BasicMockPlayerScoreCalculator._ctor
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicMockPlayerScoreCalculator::*)(float_t, int32_t, int32_t)>(
     &::GlobalNamespace::BasicMockPlayerScoreCalculator::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bc8838;
+  constexpr static std::size_t addrs = 0x3c2894c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BasicMockPlayerScoreCalculator::*)(::GlobalNamespace::MockNoteData*)>(
     &::GlobalNamespace::BasicMockPlayerScoreCalculator::GetScoreForNote)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3bc88ec;
+  constexpr static std::size_t addrs = 0x3c28a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,14 +36,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
-constexpr GlobalNamespace::BasicMockPlayerScoreCalculator::operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept {
-  return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
-constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* GlobalNamespace::BasicMockPlayerScoreCalculator::i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept {
-  return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
-}
 constexpr float_t& GlobalNamespace::BasicMockPlayerScoreCalculator::__cordl_internal_get__hitFrequency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hitFrequency;
@@ -84,7 +76,7 @@ constexpr ::System::Random*& GlobalNamespace::BasicMockPlayerScoreCalculator::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& GlobalNamespace::BasicMockPlayerScoreCalculator::__cordl_internal_get__random() const {
+constexpr ::System::Random* const& GlobalNamespace::BasicMockPlayerScoreCalculator::__cordl_internal_get__random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
@@ -92,15 +84,6 @@ constexpr void GlobalNamespace::BasicMockPlayerScoreCalculator::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-/// @param hitFrequency: float_t (default: 0.95)
-/// @param minScore: int32_t (default: static_cast<int32_t>(0x42))
-/// @param maxScore: int32_t (default: static_cast<int32_t>(0x6e))
-inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* GlobalNamespace::BasicMockPlayerScoreCalculator::New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicMockPlayerScoreCalculator*>(hitFrequency, minScore, maxScore));
-}
-/// @param hitFrequency: float_t (default: 0.95)
-/// @param minScore: int32_t (default: static_cast<int32_t>(0x42))
-/// @param maxScore: int32_t (default: static_cast<int32_t>(0x6e))
 inline void GlobalNamespace::BasicMockPlayerScoreCalculator::_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicMockPlayerScoreCalculator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -113,6 +96,17 @@ inline int32_t GlobalNamespace::BasicMockPlayerScoreCalculator::GetScoreForNote(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicMockPlayerScoreCalculator*>::get(), "GetScoreForNote", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockNoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, noteData);
+}
+inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* GlobalNamespace::BasicMockPlayerScoreCalculator::New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicMockPlayerScoreCalculator*>(hitFrequency, minScore, maxScore));
+}
+/// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
+constexpr GlobalNamespace::BasicMockPlayerScoreCalculator::operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept {
+  return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
+constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* GlobalNamespace::BasicMockPlayerScoreCalculator::i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept {
+  return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicMockPlayerScoreCalculator::BasicMockPlayerScoreCalculator() {}

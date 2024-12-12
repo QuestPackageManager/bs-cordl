@@ -4,13 +4,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ColumnTypeConverter)
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
+class TypeConverter_StandardValuesCollection;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -27,51 +26,50 @@ class ColumnTypeConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::ColumnTypeConverter);
-// Type: System.Data::ColumnTypeConverter
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.TypeConverter
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::ColumnTypeConverter*
+// CS Name: System.Data.ColumnTypeConverter
 class CORDL_TYPE ColumnTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
   /// @brief Field _values, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::ComponentModel::__TypeConverter__StandardValuesCollection* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::ComponentModel::TypeConverter_StandardValuesCollection* _values;
 
   /// @brief Field s_types, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_types, put = setStaticF_s_types)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> s_types;
+  __declspec(property(get = getStaticF_s_types, put = setStaticF_s_types)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> s_types;
 
-  /// @brief Method CanConvertFrom, addr 0x40f2568, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x415387c, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x40f1fb8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x41532cc, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x40f2630, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x4153944, size 0x208, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x40f2080, size 0x4e8, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x4153394, size 0x4e8, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues, addr 0x40f2838, size 0x114, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
+  /// @brief Method GetStandardValues, addr 0x4153b4c, size 0x114, virtual true, abstract: false, final false
+  inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x40f294c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x4153c60, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x40f2954, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x4153c68, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::Data::ColumnTypeConverter* New_ctor();
 
-  constexpr ::System::ComponentModel::__TypeConverter__StandardValuesCollection*& __cordl_internal_get__values();
+  constexpr ::System::ComponentModel::TypeConverter_StandardValuesCollection* const& __cordl_internal_get__values() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeConverter__StandardValuesCollection*> const& __cordl_internal_get__values() const;
+  constexpr ::System::ComponentModel::TypeConverter_StandardValuesCollection*& __cordl_internal_get__values();
 
-  constexpr void __cordl_internal_set__values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
+  constexpr void __cordl_internal_set__values(::System::ComponentModel::TypeConverter_StandardValuesCollection* value);
 
-  /// @brief Method .ctor, addr 0x40f1fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41532c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_s_types();
@@ -92,18 +90,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColumnTypeConverter(ColumnTypeConverter const&) = delete;
 
-  /// @brief Field _values, offset: 0x10, size: 0x8, def value: None
-  ::System::ComponentModel::__TypeConverter__StandardValuesCollection* ____values;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11362 };
+
+  /// @brief Field _values, offset: 0x10, size: 0x8, def value: None
+  ::System::ComponentModel::TypeConverter_StandardValuesCollection* ____values;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::ColumnTypeConverter, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::ColumnTypeConverter, ____values) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::ColumnTypeConverter, 0x18>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::ColumnTypeConverter);

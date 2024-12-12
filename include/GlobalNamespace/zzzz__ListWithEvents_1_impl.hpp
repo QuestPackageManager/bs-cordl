@@ -1,52 +1,20 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ListWithEvents_1.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ListWithEvents_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-/// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__Generic__IList_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& GlobalNamespace::ListWithEvents_1<T>::__cordl_internal_get_m_List() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& GlobalNamespace::ListWithEvents_1<T>::__cordl_internal_get_m_List() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& GlobalNamespace::ListWithEvents_1<T>::__cordl_internal_get_m_List() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
@@ -58,7 +26,7 @@ template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::ListWit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnElementAdded;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& GlobalNamespace::ListWithEvents_1<T>::__cordl_internal_get_OnElementAdded() const {
+template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::ListWithEvents_1<T>::__cordl_internal_get_OnElementAdded() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnElementAdded;
 }
@@ -70,7 +38,7 @@ template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::ListWit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnElementRemoved;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& GlobalNamespace::ListWithEvents_1<T>::__cordl_internal_get_OnElementRemoved() const {
+template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::ListWithEvents_1<T>::__cordl_internal_get_OnElementRemoved() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnElementRemoved;
 }
@@ -195,13 +163,45 @@ template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::ListWithEvents_1<T>* GlobalNamespace::ListWithEvents_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ListWithEvents_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::ListWithEvents_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListWithEvents_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::ListWithEvents_1<T>* GlobalNamespace::ListWithEvents_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ListWithEvents_1<T>*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__Generic__IList_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename T> constexpr GlobalNamespace::ListWithEvents_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::ListWithEvents_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::ListWithEvents_1<T>::ListWithEvents_1() {}

@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenCaptureCache)
 namespace GlobalNamespace {
-struct __ScreenCaptureCache__ScreenshotType;
+struct ScreenCaptureCache_ScreenshotType;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -18,34 +18,33 @@ class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __ScreenCaptureCache__ScreenshotType;
+struct ScreenCaptureCache_ScreenshotType;
 }
 namespace GlobalNamespace {
 class ScreenCaptureCache;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType);
+MARK_VAL_T(::GlobalNamespace::ScreenCaptureCache_ScreenshotType);
 MARK_REF_PTR_T(::GlobalNamespace::ScreenCaptureCache);
-// Type: ::ScreenshotType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::ScreenCaptureCache::ScreenshotType
-struct CORDL_TYPE __ScreenCaptureCache__ScreenshotType {
+// CS Name: ScreenCaptureCache/ScreenshotType
+struct CORDL_TYPE ScreenCaptureCache_ScreenshotType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ScreenCaptureCache__ScreenshotType_Unwrapped
-  enum struct ____ScreenCaptureCache__ScreenshotType_Unwrapped : int32_t {
+  /// @brief Nested struct __ScreenCaptureCache_ScreenshotType_Unwrapped
+  enum struct __ScreenCaptureCache_ScreenshotType_Unwrapped : int32_t {
     __E_Game = static_cast<int32_t>(0x0),
     __E_Menu = static_cast<int32_t>(0x1),
     __E_Other = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ScreenCaptureCache__ScreenshotType_Unwrapped() const noexcept {
-    return static_cast<____ScreenCaptureCache__ScreenshotType_Unwrapped>(this->value__);
+  constexpr operator __ScreenCaptureCache_ScreenshotType_Unwrapped() const noexcept {
+    return static_cast<__ScreenCaptureCache_ScreenshotType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -55,68 +54,66 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ScreenCaptureCache__ScreenshotType();
+  constexpr ScreenCaptureCache_ScreenshotType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ScreenCaptureCache__ScreenshotType(int32_t value__) noexcept;
+  constexpr ScreenCaptureCache_ScreenshotType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Game value: I32(0)
+  static ::GlobalNamespace::ScreenCaptureCache_ScreenshotType const Game;
 
-  /// @brief Field Game value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType const Game;
+  /// @brief Field Menu value: I32(1)
+  static ::GlobalNamespace::ScreenCaptureCache_ScreenshotType const Menu;
 
-  /// @brief Field Menu value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType const Menu;
-
-  /// @brief Field Other value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType const Other;
+  /// @brief Field Other value: I32(2)
+  static ::GlobalNamespace::ScreenCaptureCache_ScreenshotType const Other;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17913 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenCaptureCache_ScreenshotType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::ScreenCaptureCache
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ScreenCaptureCache*
+// CS Name: ScreenCaptureCache
 class CORDL_TYPE ScreenCaptureCache : public ::System::Object {
 public:
   // Declarations
-  using ScreenshotType = ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType;
+  using ScreenshotType = ::GlobalNamespace::ScreenCaptureCache_ScreenshotType;
 
   /// @brief Field _cache, offset 0x10, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__cache,
-      put = __cordl_internal_set__cache)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* _cache;
+  __declspec(property(get = __cordl_internal_get__cache,
+                      put =
+                          __cordl_internal_set__cache)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* _cache;
 
-  /// @brief Method GetLastScreenshot, addr 0x40239dc, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture2D> GetLastScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType);
+  /// @brief Method GetLastScreenshot, addr 0x4084cf0, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Texture2D> GetLastScreenshot(::GlobalNamespace::ScreenCaptureCache_ScreenshotType screenshotType);
 
   static inline ::GlobalNamespace::ScreenCaptureCache* New_ctor();
 
-  /// @brief Method StoreScreenshot, addr 0x40236ac, size 0xac, virtual false, abstract: false, final false
-  inline void StoreScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
+  /// @brief Method StoreScreenshot, addr 0x40849c0, size 0xac, virtual false, abstract: false, final false
+  inline void StoreScreenshot(::GlobalNamespace::ScreenCaptureCache_ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>*& __cordl_internal_get__cache();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* const& __cordl_internal_get__cache() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>*> const&
-  __cordl_internal_get__cache() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>*& __cordl_internal_get__cache();
 
-  constexpr void __cordl_internal_set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* value);
+  constexpr void __cordl_internal_set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method .ctor, addr 0x4023a54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4084d68, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,20 +130,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenCaptureCache(ScreenCaptureCache const&) = delete;
 
-  /// @brief Field _cache, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* ____cache;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17914 };
+
+  /// @brief Field _cache, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* ____cache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenCaptureCache, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ScreenCaptureCache, ____cache) == 0x10, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenCaptureCache, 0x18>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenCaptureCache_ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
 NEED_NO_BOX(::GlobalNamespace::ScreenCaptureCache);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");

@@ -3,19 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PlayableBehaviour)
-namespace System {
-class ICloneable;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
-}
-namespace UnityEngine::Playables {
-class IPlayableBehaviour;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -26,11 +22,10 @@ class PlayableBehaviour;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Playables::PlayableBehaviour);
-// Type: UnityEngine.Playables::PlayableBehaviour
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ICloneable, System.Object, UnityEngine.Playables.IPlayableBehaviour
 namespace UnityEngine::Playables {
 // Is value type: false
-// CS Name: ::UnityEngine.Playables::PlayableBehaviour*
+// CS Name: UnityEngine.Playables.PlayableBehaviour
 class CORDL_TYPE PlayableBehaviour : public ::System::Object {
 public:
   // Declarations
@@ -40,36 +35,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr operator ::UnityEngine::Playables::IPlayableBehaviour*() noexcept;
 
-  /// @brief Method Clone, addr 0x486861c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x48c99a0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::UnityEngine::Playables::PlayableBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x4868610, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x48c9994, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x486860c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x48c9990, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x48685fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x48c9980, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop, addr 0x4868600, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStop, addr 0x48c9984, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate, addr 0x4868604, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableCreate, addr 0x48c9988, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x4868608, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x48c998c, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x4868614, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x48c9998, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x4868618, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x48c999c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method .ctor, addr 0x48685f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c9978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::ICloneable"
@@ -93,7 +88,7 @@ public:
   PlayableBehaviour(PlayableBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

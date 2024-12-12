@@ -15,11 +15,10 @@ class Stopwatch;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Stopwatch);
-// Type: System.Diagnostics::Stopwatch
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::Stopwatch*
+// CS Name: System.Diagnostics.Stopwatch
 class CORDL_TYPE Stopwatch : public ::System::Object {
 public:
   // Declarations
@@ -30,10 +29,10 @@ public:
   __declspec(property(get = get_ElapsedTicks)) int64_t ElapsedTicks;
 
   /// @brief Field Frequency, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Frequency, put = setStaticF_Frequency)) int64_t Frequency;
+  __declspec(property(get = getStaticF_Frequency, put = setStaticF_Frequency)) int64_t Frequency;
 
   /// @brief Field IsHighResolution, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IsHighResolution, put = setStaticF_IsHighResolution)) bool IsHighResolution;
+  __declspec(property(get = getStaticF_IsHighResolution, put = setStaticF_IsHighResolution)) bool IsHighResolution;
 
   __declspec(property(get = get_IsRunning)) bool IsRunning;
 
@@ -46,21 +45,21 @@ public:
   /// @brief Field started, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) int64_t started;
 
-  /// @brief Method GetTimestamp, addr 0x43c9438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimestamp, addr 0x442a74c, size 0x4, virtual false, abstract: false, final false
   static inline int64_t GetTimestamp();
 
   static inline ::System::Diagnostics::Stopwatch* New_ctor();
 
-  /// @brief Method Reset, addr 0x43d04c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x44317d8, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0x43d01a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x44314bc, size 0x68, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartNew, addr 0x43d013c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StartNew, addr 0x4431450, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Stopwatch* StartNew();
 
-  /// @brief Method Stop, addr 0x43d04d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x44317e4, size 0x78, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr int64_t const& __cordl_internal_get_elapsed() const;
@@ -81,23 +80,23 @@ public:
 
   constexpr void __cordl_internal_set_started(int64_t value);
 
-  /// @brief Method .ctor, addr 0x43d01a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44314b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_Frequency();
 
   static inline bool getStaticF_IsHighResolution();
 
-  /// @brief Method get_Elapsed, addr 0x43d0210, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_Elapsed, addr 0x4431524, size 0xf8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Elapsed();
 
-  /// @brief Method get_ElapsedMilliseconds, addr 0x43d0378, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedMilliseconds, addr 0x443168c, size 0x144, virtual false, abstract: false, final false
   inline int64_t get_ElapsedMilliseconds();
 
-  /// @brief Method get_ElapsedTicks, addr 0x43d0308, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedTicks, addr 0x443161c, size 0x70, virtual false, abstract: false, final false
   inline int64_t get_ElapsedTicks();
 
-  /// @brief Method get_IsRunning, addr 0x43d04bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRunning, addr 0x44317d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRunning();
 
   static inline void setStaticF_Frequency(int64_t value);
@@ -118,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Stopwatch(Stopwatch const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9277 };
+
   /// @brief Field elapsed, offset: 0x10, size: 0x8, def value: None
   int64_t ___elapsed;
 
@@ -127,19 +129,16 @@ public:
   /// @brief Field is_running, offset: 0x20, size: 0x1, def value: None
   bool ___is_running;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9252 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Stopwatch, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::Stopwatch, ___elapsed) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::Stopwatch, ___started) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::Stopwatch, ___is_running) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Stopwatch, 0x28>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::Stopwatch);

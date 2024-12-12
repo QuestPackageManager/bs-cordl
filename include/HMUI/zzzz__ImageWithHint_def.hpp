@@ -24,11 +24,10 @@ class ImageWithHint;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ImageWithHint);
-// Type: HMUI::ImageWithHint
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ImageWithHint*
+// CS Name: HMUI.ImageWithHint
 class CORDL_TYPE ImageWithHint : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -58,22 +57,22 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x39a2610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f9280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_imageColor, addr 0x39a25c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_imageColor, addr 0x39f9238, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_imageColor();
 
-  /// @brief Method get_sprite, addr 0x39a2590, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x39f9200, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x39a25ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x39f921c, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_imageColor, addr 0x39a25ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_imageColor, addr 0x39f925c, size 0x24, virtual false, abstract: false, final false
   inline void set_imageColor(::UnityEngine::Color value);
 
-  /// @brief Method set_sprite, addr 0x39a2574, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x39f91e4, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -90,23 +89,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ImageWithHint(ImageWithHint const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16074 };
+
   /// @brief Field _image, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;
 
   /// @brief Field _hoverHint, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16039 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ImageWithHint, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ImageWithHint, ____image) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ImageWithHint, ____hoverHint) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ImageWithHint, 0x30>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ImageWithHint);

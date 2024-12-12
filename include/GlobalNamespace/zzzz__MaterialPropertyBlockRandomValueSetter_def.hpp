@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -21,11 +20,10 @@ class MaterialPropertyBlockRandomValueSetter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter);
-// Type: ::MaterialPropertyBlockRandomValueSetter
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialPropertyBlockRandomValueSetter*
+// CS Name: MaterialPropertyBlockRandomValueSetter
 class CORDL_TYPE MaterialPropertyBlockRandomValueSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,18 +48,18 @@ public:
   __declspec(property(get = __cordl_internal_get__renderers, put = __cordl_internal_set__renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>
       _renderers;
 
-  /// @brief Method ApplyParams, addr 0x39901b0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x39e6d30, size 0x184, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3990334, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e6eb4, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x3990358, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x39e6ed8, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x39901ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e6d2c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*, ::Array<::UnityEngine::MaterialPropertyBlock*>*> const& __cordl_internal_get__materialPropertyBlocks() const;
@@ -100,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x3990378, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e6ef8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,6 +114,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockRandomValueSetter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockRandomValueSetter(MaterialPropertyBlockRandomValueSetter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16354 };
 
   /// @brief Field _renderers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> ____renderers;
@@ -135,14 +136,9 @@ public:
   /// @brief Field _propertyId, offset: 0x40, size: 0x4, def value: None
   int32_t ____propertyId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16318 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockRandomValueSetter, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter, ____renderers) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter, ____propertyName) == 0x28, "Offset mismatch!");
@@ -154,6 +150,8 @@ static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter, ____materialPropertyBlocks) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter, ____propertyId) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockRandomValueSetter, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter);

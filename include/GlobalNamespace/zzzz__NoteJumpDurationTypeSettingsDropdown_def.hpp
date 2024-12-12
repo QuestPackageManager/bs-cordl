@@ -22,20 +22,19 @@ class NoteJumpDurationTypeSettingsDropdown;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown);
-// Type: ::NoteJumpDurationTypeSettingsDropdown
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies NoteJumpDurationTypeSettings, ValueDropdownController`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteJumpDurationTypeSettingsDropdown*
+// CS Name: NoteJumpDurationTypeSettingsDropdown
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x3bacc58, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x3c0f674, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bacd4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0f768, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +52,7 @@ public:
   NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

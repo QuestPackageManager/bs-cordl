@@ -30,35 +30,34 @@ class EntityKeyMemberConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::EntityKeyMemberConverter);
-// Type: Newtonsoft.Json.Converters::EntityKeyMemberConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Converters::EntityKeyMemberConverter*
+// CS Name: Newtonsoft.Json.Converters.EntityKeyMemberConverter
 class CORDL_TYPE EntityKeyMemberConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   /// @brief Field _reflectionObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__reflectionObject, put = setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
+  __declspec(property(get = getStaticF__reflectionObject, put = setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
 
-  /// @brief Method CanConvert, addr 0x3eddacc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x3f3db78, size 0x50, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method EnsureReflectionObject, addr 0x3edd638, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method EnsureReflectionObject, addr 0x3f3d6e4, size 0xe0, virtual false, abstract: false, final false
   static inline void EnsureReflectionObject(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::EntityKeyMemberConverter* New_ctor();
 
-  /// @brief Method ReadAndAssertProperty, addr 0x3edd718, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadAndAssertProperty, addr 0x3f3d7c4, size 0xf4, virtual false, abstract: false, final false
   static inline void ReadAndAssertProperty(::Newtonsoft::Json::JsonReader* reader, ::StringW propertyName);
 
-  /// @brief Method ReadJson, addr 0x3edd80c, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f3d8b8, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3edd2dc, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f3d388, size 0x35c, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3eddb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3dbc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject();
@@ -92,7 +91,7 @@ public:
   static constexpr ::ConstString ValuePropertyName{ u"Value" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Generic::BitHelper::*)(::cordl_internals::Ptr<int32_t>, int32_t)>(
     &::System::Collections::Generic::BitHelper::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x40a4a20;
+  constexpr static std::size_t addrs = 0x4105d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Generic::BitHelper::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(
     &::System::Collections::Generic::BitHelper::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x40a4a58;
+  constexpr static std::size_t addrs = 0x4105d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Generic::BitHelper::*)(int32_t)>(&::System::Collections::Generic::BitHelper::MarkBit)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40a4a88;
+  constexpr static std::size_t addrs = 0x4105d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Generic::BitHelper::*)(int32_t)>(&::System::Collections::Generic::BitHelper::IsMarked)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40a4b04;
+  constexpr static std::size_t addrs = 0x4105e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::Generic::BitHelper::ToIntArrayLength)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40a4b88;
+  constexpr static std::size_t addrs = 0x4105e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,18 +124,12 @@ constexpr void System::Collections::Generic::BitHelper::__cordl_internal_set__us
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useStackAlloc = value;
 }
-inline ::System::Collections::Generic::BitHelper* System::Collections::Generic::BitHelper::New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::BitHelper*>(bitArrayPtr, length));
-}
 inline void System::Collections::Generic::BitHelper::_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::BitHelper*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int32_t>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bitArrayPtr, length);
-}
-inline ::System::Collections::Generic::BitHelper* System::Collections::Generic::BitHelper::New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::BitHelper*>(bitArray, length));
 }
 inline void System::Collections::Generic::BitHelper::_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -161,6 +155,12 @@ inline int32_t System::Collections::Generic::BitHelper::ToIntArrayLength(int32_t
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::BitHelper*>::get(), "ToIntArrayLength",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, n);
+}
+inline ::System::Collections::Generic::BitHelper* System::Collections::Generic::BitHelper::New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::BitHelper*>(bitArrayPtr, length));
+}
+inline ::System::Collections::Generic::BitHelper* System::Collections::Generic::BitHelper::New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::BitHelper*>(bitArray, length));
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Generic::BitHelper::BitHelper() {}

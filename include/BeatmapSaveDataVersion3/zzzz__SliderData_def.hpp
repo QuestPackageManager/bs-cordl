@@ -24,11 +24,10 @@ class SliderData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::SliderData);
-// Type: BeatmapSaveDataVersion3::SliderData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.NoteCutDirection, BeatmapSaveDataCommon.SliderMidAnchorMode, BeatmapSaveDataVersion3.BaseSliderData
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::SliderData*
+// CS Name: BeatmapSaveDataVersion3.SliderData
 class CORDL_TYPE SliderData : public ::BeatmapSaveDataVersion3::BaseSliderData {
 public:
   // Declarations
@@ -81,21 +80,21 @@ public:
 
   constexpr void __cordl_internal_set_tmu(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d4d18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706688, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, float_t headControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection, ::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode);
 
-  /// @brief Method get_headControlPointLengthMultiplier, addr 0x26d4cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headControlPointLengthMultiplier, addr 0x2706668, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headControlPointLengthMultiplier();
 
-  /// @brief Method get_sliderMidAnchorMode, addr 0x26d4d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliderMidAnchorMode, addr 0x2706680, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::SliderMidAnchorMode get_sliderMidAnchorMode();
 
-  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x26d4d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x2706670, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailControlPointLengthMultiplier();
 
-  /// @brief Method get_tailCutDirection, addr 0x26d4d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailCutDirection, addr 0x2706678, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_tailCutDirection();
 
 protected:
@@ -112,6 +111,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderData(SliderData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13421 };
+
   /// @brief Field mu, offset: 0x30, size: 0x4, def value: None
   float_t ___mu;
 
@@ -124,14 +126,9 @@ public:
   /// @brief Field m, offset: 0x3c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::SliderMidAnchorMode ___m;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13390 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::SliderData, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::SliderData, ___mu) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::SliderData, ___tmu) == 0x34, "Offset mismatch!");
@@ -139,6 +136,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::SliderData, ___tmu) == 0x34, "
 static_assert(offsetof(::BeatmapSaveDataVersion3::SliderData, ___tc) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::SliderData, ___m) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::SliderData, 0x40>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::SliderData);

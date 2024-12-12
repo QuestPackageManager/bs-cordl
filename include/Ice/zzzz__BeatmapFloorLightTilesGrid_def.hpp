@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapFloorLightTilesGrid)
 namespace GlobalNamespace {
-class IBeatmapObjectSpawnController;
+class BeatmapObjectSpawnController;
 }
 namespace Ice {
 class FloorLightTilesGrid;
@@ -19,17 +19,16 @@ class BeatmapFloorLightTilesGrid;
 }
 // Write type traits
 MARK_REF_PTR_T(::Ice::BeatmapFloorLightTilesGrid);
-// Type: Ice::BeatmapFloorLightTilesGrid
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Ice {
 // Is value type: false
-// CS Name: ::Ice::BeatmapFloorLightTilesGrid*
+// CS Name: Ice.BeatmapFloorLightTilesGrid
 class CORDL_TYPE BeatmapFloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _beatmapObjectSpawnController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController,
-                      put = __cordl_internal_set__beatmapObjectSpawnController)) ::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController, put = __cordl_internal_set__beatmapObjectSpawnController)) ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController>
+      _beatmapObjectSpawnController;
 
   /// @brief Field _floorLightTilesGrid, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__floorLightTilesGrid, put = __cordl_internal_set__floorLightTilesGrid)) ::UnityW<::Ice::FloorLightTilesGrid> _floorLightTilesGrid;
@@ -45,12 +44,12 @@ public:
 
   static inline ::Ice::BeatmapFloorLightTilesGrid* New_ctor();
 
-  /// @brief Method Start, addr 0x223b798, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2266a54, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const& __cordl_internal_get__beatmapObjectSpawnController() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController>& __cordl_internal_get__beatmapObjectSpawnController();
 
   constexpr ::UnityW<::Ice::FloorLightTilesGrid> const& __cordl_internal_get__floorLightTilesGrid() const;
 
@@ -68,7 +67,7 @@ public:
 
   constexpr float_t& __cordl_internal_get__tileWidth();
 
-  constexpr void __cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
+  constexpr void __cordl_internal_set__beatmapObjectSpawnController(::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> value);
 
   constexpr void __cordl_internal_set__floorLightTilesGrid(::UnityW<::Ice::FloorLightTilesGrid> value);
 
@@ -78,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__tileWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x223ba18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2266c5c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,6 +94,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGrid const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18928 };
+
   /// @brief Field _numberOfRows, offset: 0x20, size: 0x4, def value: None
   int32_t ____numberOfRows;
 
@@ -108,16 +110,11 @@ public:
   ::UnityW<::Ice::FloorLightTilesGrid> ____floorLightTilesGrid;
 
   /// @brief Field _beatmapObjectSpawnController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatmapObjectSpawnController* ____beatmapObjectSpawnController;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18808 };
+  ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> ____beatmapObjectSpawnController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Ice::BeatmapFloorLightTilesGrid, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____numberOfRows) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____tileWidth) == 0x24, "Offset mismatch!");
@@ -127,6 +124,8 @@ static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____tileHeight) == 0x2
 static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____floorLightTilesGrid) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____beatmapObjectSpawnController) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Ice::BeatmapFloorLightTilesGrid, 0x40>, "Size mismatch!");
 
 } // namespace Ice
 NEED_NO_BOX(::Ice::BeatmapFloorLightTilesGrid);

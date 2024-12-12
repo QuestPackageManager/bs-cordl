@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(AchievementDefinitionList)
 namespace Oculus::Platform::Models {
 class AchievementDefinition;
@@ -18,17 +17,16 @@ class AchievementDefinitionList;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementDefinitionList);
-// Type: Oculus.Platform.Models::AchievementDefinitionList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Models.DeserializableList`1<T>
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::AchievementDefinitionList*
+// CS Name: Oculus.Platform.Models.AchievementDefinitionList
 class CORDL_TYPE AchievementDefinitionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementDefinition*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x3f2d5cc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8d678, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -46,7 +44,7 @@ public:
   AchievementDefinitionList(AchievementDefinitionList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

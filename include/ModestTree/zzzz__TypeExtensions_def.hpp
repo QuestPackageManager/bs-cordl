@@ -3,24 +3,28 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeExtensions)
 namespace ModestTree {
-class __TypeExtensions___GetParentTypes_d__28;
+class TypeExtensions__GetParentTypes_d__28;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass35_0;
+class TypeExtensions___c__DisplayClass35_0;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass35_1;
+class TypeExtensions___c__DisplayClass35_1;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_0;
+class TypeExtensions___c__DisplayClass39_0;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_1;
+class TypeExtensions___c__DisplayClass39_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -30,9 +34,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -62,9 +63,6 @@ namespace System {
 class Delegate;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 namespace System {
@@ -75,41 +73,40 @@ namespace ModestTree {
 class TypeExtensions;
 }
 namespace ModestTree {
-class __TypeExtensions___GetParentTypes_d__28;
+class TypeExtensions__GetParentTypes_d__28;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass35_0;
+class TypeExtensions___c__DisplayClass35_0;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass35_1;
+class TypeExtensions___c__DisplayClass35_1;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_0;
+class TypeExtensions___c__DisplayClass39_0;
 }
 namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_1;
+class TypeExtensions___c__DisplayClass39_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::ModestTree::TypeExtensions);
-MARK_REF_PTR_T(::ModestTree::__TypeExtensions___GetParentTypes_d__28);
-MARK_REF_PTR_T(::ModestTree::__TypeExtensions____c__DisplayClass35_0);
-MARK_REF_PTR_T(::ModestTree::__TypeExtensions____c__DisplayClass35_1);
-MARK_REF_PTR_T(::ModestTree::__TypeExtensions____c__DisplayClass39_0);
-MARK_REF_PTR_T(::ModestTree::__TypeExtensions____c__DisplayClass39_1);
-// Type: ::<>c__DisplayClass35_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::ModestTree::TypeExtensions__GetParentTypes_d__28);
+MARK_REF_PTR_T(::ModestTree::TypeExtensions___c__DisplayClass35_0);
+MARK_REF_PTR_T(::ModestTree::TypeExtensions___c__DisplayClass35_1);
+MARK_REF_PTR_T(::ModestTree::TypeExtensions___c__DisplayClass39_0);
+MARK_REF_PTR_T(::ModestTree::TypeExtensions___c__DisplayClass39_1);
+// Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::TypeExtensions::<>c__DisplayClass35_0*
-class CORDL_TYPE __TypeExtensions____c__DisplayClass35_0 : public ::System::Object {
+// CS Name: ModestTree.TypeExtensions/<>c__DisplayClass35_0
+class CORDL_TYPE TypeExtensions___c__DisplayClass35_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributeTypes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributeTypes, put = __cordl_internal_set_attributeTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes;
 
-  static inline ::ModestTree::__TypeExtensions____c__DisplayClass35_0* New_ctor();
+  static inline ::ModestTree::TypeExtensions___c__DisplayClass35_0* New_ctor();
 
-  /// @brief Method <AllAttributes>b__0, addr 0x4a8f3ec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__0, addr 0x4af3cfc, size 0xd4, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__0(::System::Attribute* a);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_attributeTypes() const;
@@ -118,104 +115,102 @@ public:
 
   constexpr void __cordl_internal_set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x4a8f0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af39fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeExtensions____c__DisplayClass35_0();
+  constexpr TypeExtensions___c__DisplayClass35_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass35_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass35_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeExtensions____c__DisplayClass35_0(__TypeExtensions____c__DisplayClass35_0&&) = delete;
+  TypeExtensions___c__DisplayClass35_0(TypeExtensions___c__DisplayClass35_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass35_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass35_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeExtensions____c__DisplayClass35_0(__TypeExtensions____c__DisplayClass35_0 const&) = delete;
+  TypeExtensions___c__DisplayClass35_0(TypeExtensions___c__DisplayClass35_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
 
   /// @brief Field attributeTypes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___attributeTypes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11920 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeExtensions____c__DisplayClass35_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass35_0, ___attributeTypes) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass35_0, ___attributeTypes) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::ModestTree::TypeExtensions___c__DisplayClass35_0, 0x18>, "Size mismatch!");
 
 } // namespace ModestTree
-// Type: ::<>c__DisplayClass35_1
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::TypeExtensions::<>c__DisplayClass35_1*
-class CORDL_TYPE __TypeExtensions____c__DisplayClass35_1 : public ::System::Object {
+// CS Name: ModestTree.TypeExtensions/<>c__DisplayClass35_1
+class CORDL_TYPE TypeExtensions___c__DisplayClass35_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field a, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) ::System::Attribute* a;
 
-  static inline ::ModestTree::__TypeExtensions____c__DisplayClass35_1* New_ctor();
+  static inline ::ModestTree::TypeExtensions___c__DisplayClass35_1* New_ctor();
 
-  /// @brief Method <AllAttributes>b__1, addr 0x4a8f4c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__1, addr 0x4af3dd8, size 0x78, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__1(::System::Type* x);
+
+  constexpr ::System::Attribute* const& __cordl_internal_get_a() const;
 
   constexpr ::System::Attribute*& __cordl_internal_get_a();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Attribute*> const& __cordl_internal_get_a() const;
-
   constexpr void __cordl_internal_set_a(::System::Attribute* value);
 
-  /// @brief Method .ctor, addr 0x4a8f4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3dd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeExtensions____c__DisplayClass35_1();
+  constexpr TypeExtensions___c__DisplayClass35_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass35_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass35_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeExtensions____c__DisplayClass35_1(__TypeExtensions____c__DisplayClass35_1&&) = delete;
+  TypeExtensions___c__DisplayClass35_1(TypeExtensions___c__DisplayClass35_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass35_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass35_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeExtensions____c__DisplayClass35_1(__TypeExtensions____c__DisplayClass35_1 const&) = delete;
+  TypeExtensions___c__DisplayClass35_1(TypeExtensions___c__DisplayClass35_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
 
   /// @brief Field a, offset: 0x10, size: 0x8, def value: None
   ::System::Attribute* ___a;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11921 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeExtensions____c__DisplayClass35_1, 0x18>, "Size mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass35_1, ___a) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass35_1, ___a) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::ModestTree::TypeExtensions___c__DisplayClass35_1, 0x18>, "Size mismatch!");
 
 } // namespace ModestTree
-// Type: ::<>c__DisplayClass39_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::TypeExtensions::<>c__DisplayClass39_0*
-class CORDL_TYPE __TypeExtensions____c__DisplayClass39_0 : public ::System::Object {
+// CS Name: ModestTree.TypeExtensions/<>c__DisplayClass39_0
+class CORDL_TYPE TypeExtensions___c__DisplayClass39_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributeTypes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributeTypes, put = __cordl_internal_set_attributeTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes;
 
-  static inline ::ModestTree::__TypeExtensions____c__DisplayClass39_0* New_ctor();
+  static inline ::ModestTree::TypeExtensions___c__DisplayClass39_0* New_ctor();
 
-  /// @brief Method <AllAttributes>b__0, addr 0x4a8f540, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__0, addr 0x4af3e50, size 0xd4, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__0(::System::Attribute* a);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_attributeTypes() const;
@@ -224,96 +219,95 @@ public:
 
   constexpr void __cordl_internal_set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x4a8f2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeExtensions____c__DisplayClass39_0();
+  constexpr TypeExtensions___c__DisplayClass39_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass39_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass39_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeExtensions____c__DisplayClass39_0(__TypeExtensions____c__DisplayClass39_0&&) = delete;
+  TypeExtensions___c__DisplayClass39_0(TypeExtensions___c__DisplayClass39_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass39_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass39_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeExtensions____c__DisplayClass39_0(__TypeExtensions____c__DisplayClass39_0 const&) = delete;
+  TypeExtensions___c__DisplayClass39_0(TypeExtensions___c__DisplayClass39_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11955 };
 
   /// @brief Field attributeTypes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___attributeTypes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11922 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeExtensions____c__DisplayClass39_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass39_0, ___attributeTypes) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass39_0, ___attributeTypes) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::ModestTree::TypeExtensions___c__DisplayClass39_0, 0x18>, "Size mismatch!");
 
 } // namespace ModestTree
-// Type: ::<>c__DisplayClass39_1
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::TypeExtensions::<>c__DisplayClass39_1*
-class CORDL_TYPE __TypeExtensions____c__DisplayClass39_1 : public ::System::Object {
+// CS Name: ModestTree.TypeExtensions/<>c__DisplayClass39_1
+class CORDL_TYPE TypeExtensions___c__DisplayClass39_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field a, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) ::System::Attribute* a;
 
-  static inline ::ModestTree::__TypeExtensions____c__DisplayClass39_1* New_ctor();
+  static inline ::ModestTree::TypeExtensions___c__DisplayClass39_1* New_ctor();
 
-  /// @brief Method <AllAttributes>b__1, addr 0x4a8f61c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__1, addr 0x4af3f2c, size 0x78, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__1(::System::Type* x);
+
+  constexpr ::System::Attribute* const& __cordl_internal_get_a() const;
 
   constexpr ::System::Attribute*& __cordl_internal_get_a();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Attribute*> const& __cordl_internal_get_a() const;
-
   constexpr void __cordl_internal_set_a(::System::Attribute* value);
 
-  /// @brief Method .ctor, addr 0x4a8f614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3f24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeExtensions____c__DisplayClass39_1();
+  constexpr TypeExtensions___c__DisplayClass39_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass39_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass39_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeExtensions____c__DisplayClass39_1(__TypeExtensions____c__DisplayClass39_1&&) = delete;
+  TypeExtensions___c__DisplayClass39_1(TypeExtensions___c__DisplayClass39_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions____c__DisplayClass39_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass39_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeExtensions____c__DisplayClass39_1(__TypeExtensions____c__DisplayClass39_1 const&) = delete;
+  TypeExtensions___c__DisplayClass39_1(TypeExtensions___c__DisplayClass39_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11956 };
 
   /// @brief Field a, offset: 0x10, size: 0x8, def value: None
   ::System::Attribute* ___a;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11923 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeExtensions____c__DisplayClass39_1, 0x18>, "Size mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass39_1, ___a) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass39_1, ___a) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::ModestTree::TypeExtensions___c__DisplayClass39_1, 0x18>, "Size mismatch!");
 
 } // namespace ModestTree
-// Type: ::<GetParentTypes>d__28
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::TypeExtensions::<GetParentTypes>d__28*
-class CORDL_TYPE __TypeExtensions___GetParentTypes_d__28 : public ::System::Object {
+// CS Name: ModestTree.TypeExtensions/<GetParentTypes>d__28
+class CORDL_TYPE TypeExtensions__GetParentTypes_d__28 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Type__get_Current)) ::System::Type* System_Collections_Generic_IEnumerator_System_Type__Current;
@@ -353,52 +347,52 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4a8f6b0, size 0x4e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4af3fc0, size 0x4e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::ModestTree::__TypeExtensions___GetParentTypes_d__28* New_ctor(int32_t __1__state);
+  static inline ::ModestTree::TypeExtensions__GetParentTypes_d__28* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4a8fc88, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4af4598, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4a8fc40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4af4550, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4a8fd24, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af4634, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4a8fc48, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af4558, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4a8fc80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af4590, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4a8f694, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4af3fa4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
+  constexpr ::System::Type* const& __cordl_internal_get___2__current() const;
+
   constexpr ::System::Type*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Type* const& __cordl_internal_get___3__type() const;
 
   constexpr ::System::Type*& __cordl_internal_get___3__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___3__type() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>* const& __cordl_internal_get___7__wrap1() const;
 
   constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Type*>*> const& __cordl_internal_get___7__wrap1() const;
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -412,10 +406,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method <>m__Finally1, addr 0x4a8fb90, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4af44a0, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4a8ed74, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3684, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
@@ -436,16 +430,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeExtensions___GetParentTypes_d__28();
+  constexpr TypeExtensions__GetParentTypes_d__28();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions___GetParentTypes_d__28", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions__GetParentTypes_d__28", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeExtensions___GetParentTypes_d__28(__TypeExtensions___GetParentTypes_d__28&&) = delete;
+  TypeExtensions__GetParentTypes_d__28(TypeExtensions__GetParentTypes_d__28&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeExtensions___GetParentTypes_d__28", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions__GetParentTypes_d__28", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeExtensions___GetParentTypes_d__28(__TypeExtensions___GetParentTypes_d__28 const&) = delete;
+  TypeExtensions__GetParentTypes_d__28(TypeExtensions__GetParentTypes_d__28 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11957 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -465,63 +462,59 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::System::Type*>* _____7__wrap1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11924 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeExtensions___GetParentTypes_d__28, 0x40>, "Size mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions__GetParentTypes_d__28, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions___GetParentTypes_d__28, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions__GetParentTypes_d__28, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions___GetParentTypes_d__28, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions__GetParentTypes_d__28, _____l__initialThreadId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions___GetParentTypes_d__28, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions__GetParentTypes_d__28, ___type) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions___GetParentTypes_d__28, ___type) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions__GetParentTypes_d__28, _____3__type) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions___GetParentTypes_d__28, _____3__type) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::ModestTree::TypeExtensions__GetParentTypes_d__28, _____7__wrap1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::ModestTree::__TypeExtensions___GetParentTypes_d__28, _____7__wrap1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::ModestTree::TypeExtensions__GetParentTypes_d__28, 0x40>, "Size mismatch!");
 
 } // namespace ModestTree
-// Type: ModestTree::TypeExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::ModestTree::TypeExtensions*
+// CS Name: ModestTree.TypeExtensions
 class CORDL_TYPE TypeExtensions : public ::System::Object {
 public:
   // Declarations
-  using _GetParentTypes_d__28 = ::ModestTree::__TypeExtensions___GetParentTypes_d__28;
+  using _GetParentTypes_d__28 = ::ModestTree::TypeExtensions__GetParentTypes_d__28;
 
-  using __c__DisplayClass35_0 = ::ModestTree::__TypeExtensions____c__DisplayClass35_0;
+  using __c__DisplayClass35_0 = ::ModestTree::TypeExtensions___c__DisplayClass35_0;
 
-  using __c__DisplayClass35_1 = ::ModestTree::__TypeExtensions____c__DisplayClass35_1;
+  using __c__DisplayClass35_1 = ::ModestTree::TypeExtensions___c__DisplayClass35_1;
 
-  using __c__DisplayClass39_0 = ::ModestTree::__TypeExtensions____c__DisplayClass39_0;
+  using __c__DisplayClass39_0 = ::ModestTree::TypeExtensions___c__DisplayClass39_0;
 
-  using __c__DisplayClass39_1 = ::ModestTree::__TypeExtensions____c__DisplayClass39_1;
+  using __c__DisplayClass39_1 = ::ModestTree::TypeExtensions___c__DisplayClass39_1;
 
   /// @brief Field _interfaces, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__interfaces,
-                             put = setStaticF__interfaces)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* _interfaces;
+  __declspec(property(get = getStaticF__interfaces,
+                      put = setStaticF__interfaces)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* _interfaces;
 
   /// @brief Field _isClosedGenericType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__isClosedGenericType, put = setStaticF__isClosedGenericType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isClosedGenericType;
+  __declspec(property(get = getStaticF__isClosedGenericType, put = setStaticF__isClosedGenericType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isClosedGenericType;
 
   /// @brief Field _isOpenGenericType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__isOpenGenericType, put = setStaticF__isOpenGenericType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isOpenGenericType;
+  __declspec(property(get = getStaticF__isOpenGenericType, put = setStaticF__isOpenGenericType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isOpenGenericType;
 
   /// @brief Field _isValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__isValueType, put = setStaticF__isValueType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isValueType;
+  __declspec(property(get = getStaticF__isValueType, put = setStaticF__isValueType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isValueType;
 
-  /// @brief Method AllAttributes, addr 0x4a8ef98, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AllAttributes, addr 0x4af38a8, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::MemberInfo* provider,
                                                                                                    ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
-  /// @brief Method AllAttributes, addr 0x4a8f174, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AllAttributes, addr 0x4af3a84, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::ParameterInfo* provider,
                                                                                                    ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
@@ -531,97 +524,97 @@ public:
   /// @brief Method AllAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* AllAttributes(::System::Reflection::ParameterInfo* provider);
 
-  /// @brief Method BaseType, addr 0x4a8e9f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BaseType, addr 0x4af3308, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Type* BaseType(::System::Type* type);
 
-  /// @brief Method Constructors, addr 0x4a8eafc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Constructors, addr 0x4af340c, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ConstructorInfo*, ::Array<::System::Reflection::ConstructorInfo*>*> Constructors(::System::Type* type);
 
-  /// @brief Method ContainsGenericParameters, addr 0x4a8ea80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ContainsGenericParameters, addr 0x4af3390, size 0x20, virtual false, abstract: false, final false
   static inline bool ContainsGenericParameters(::System::Type* type);
 
-  /// @brief Method DeclaredInstanceFields, addr 0x4a8e9d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeclaredInstanceFields, addr 0x4af32e4, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> DeclaredInstanceFields(::System::Type* type);
 
-  /// @brief Method DeclaredInstanceMethods, addr 0x4a8e98c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeclaredInstanceMethods, addr 0x4af329c, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> DeclaredInstanceMethods(::System::Type* type);
 
-  /// @brief Method DeclaredInstanceProperties, addr 0x4a8e9b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeclaredInstanceProperties, addr 0x4af32c0, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> DeclaredInstanceProperties(::System::Type* type);
 
   /// @brief Method DerivesFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DerivesFrom(::System::Type* a);
 
-  /// @brief Method DerivesFrom, addr 0x4a8cc30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DerivesFrom, addr 0x4af1540, size 0xb0, virtual false, abstract: false, final false
   static inline bool DerivesFrom(::System::Type* a, ::System::Type* b);
 
   /// @brief Method DerivesFromOrEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DerivesFromOrEqual(::System::Type* a);
 
-  /// @brief Method DerivesFromOrEqual, addr 0x4a8ce94, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DerivesFromOrEqual, addr 0x4af17a4, size 0xa0, virtual false, abstract: false, final false
   static inline bool DerivesFromOrEqual(::System::Type* a, ::System::Type* b);
 
-  /// @brief Method GenericArguments, addr 0x4a8eadc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GenericArguments, addr 0x4af33ec, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GenericArguments(::System::Type* type);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetAttribute(::System::Reflection::MemberInfo* provider);
 
-  /// @brief Method GetDefaultValue, addr 0x4a8eb20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultValue, addr 0x4af3430, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* GetDefaultValue(::System::Type* type);
 
-  /// @brief Method GetParentTypes, addr 0x4a8ed04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetParentTypes, addr 0x4af3614, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetParentTypes(::System::Type* type);
 
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAttribute(::System::Reflection::MemberInfo* provider);
 
-  /// @brief Method HasAttribute, addr 0x4a8ef18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasAttribute, addr 0x4af3828, size 0x80, virtual false, abstract: false, final false
   static inline bool HasAttribute(::System::Reflection::MemberInfo* provider, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider);
 
-  /// @brief Method HasAttribute, addr 0x4a8f0f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasAttribute, addr 0x4af3a04, size 0x80, virtual false, abstract: false, final false
   static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
-  /// @brief Method Interfaces, addr 0x4a8e770, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Interfaces, addr 0x4af3080, size 0x100, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> Interfaces(::System::Type* type);
 
-  /// @brief Method IsAbstract, addr 0x4a8eaa0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsAbstract, addr 0x4af33b0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsAbstract(::System::Type* type);
 
-  /// @brief Method IsAssignableToGenericType, addr 0x4a8e598, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableToGenericType, addr 0x4af2ea8, size 0x1d8, virtual false, abstract: false, final false
   static inline bool IsAssignableToGenericType(::System::Type* givenType, ::System::Type* genericType);
 
-  /// @brief Method IsClosedGenericType, addr 0x4a8eb94, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsClosedGenericType, addr 0x4af34a4, size 0x170, virtual false, abstract: false, final false
   static inline bool IsClosedGenericType(::System::Type* type);
 
-  /// @brief Method IsEnum, addr 0x4a8e870, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEnum, addr 0x4af3180, size 0x20, virtual false, abstract: false, final false
   static inline bool IsEnum(::System::Type* type);
 
-  /// @brief Method IsGenericType, addr 0x4a8ea18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsGenericType, addr 0x4af3328, size 0x20, virtual false, abstract: false, final false
   static inline bool IsGenericType(::System::Type* type);
 
-  /// @brief Method IsGenericTypeDefinition, addr 0x4a8ea38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsGenericTypeDefinition, addr 0x4af3348, size 0x20, virtual false, abstract: false, final false
   static inline bool IsGenericTypeDefinition(::System::Type* type);
 
-  /// @brief Method IsInterface, addr 0x4a8ea6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsInterface, addr 0x4af337c, size 0x14, virtual false, abstract: false, final false
   static inline bool IsInterface(::System::Type* type);
 
-  /// @brief Method IsOpenGenericType, addr 0x4a8eda8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsOpenGenericType, addr 0x4af36b8, size 0x170, virtual false, abstract: false, final false
   static inline bool IsOpenGenericType(::System::Type* type);
 
-  /// @brief Method IsPrimitive, addr 0x4a8ea58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x4af3368, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* type);
 
-  /// @brief Method IsSealed, addr 0x4a8eab4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSealed, addr 0x4af33c4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSealed(::System::Type* type);
 
-  /// @brief Method IsValueType, addr 0x4a8e890, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsValueType, addr 0x4af31a0, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsValueType(::System::Type* type);
 
-  /// @brief Method Method, addr 0x4a8eac8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Method, addr 0x4af33d8, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* Method(::System::Delegate* del);
 
   /// @brief Method TryGetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -658,7 +651,7 @@ public:
   TypeExtensions(TypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -668,13 +661,13 @@ static_assert(::cordl_internals::size_check_v<::ModestTree::TypeExtensions, 0x10
 } // namespace ModestTree
 NEED_NO_BOX(::ModestTree::TypeExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::ModestTree::TypeExtensions*, "ModestTree", "TypeExtensions");
-NEED_NO_BOX(::ModestTree::__TypeExtensions___GetParentTypes_d__28);
-DEFINE_IL2CPP_ARG_TYPE(::ModestTree::__TypeExtensions___GetParentTypes_d__28*, "ModestTree", "TypeExtensions/<GetParentTypes>d__28");
-NEED_NO_BOX(::ModestTree::__TypeExtensions____c__DisplayClass35_0);
-DEFINE_IL2CPP_ARG_TYPE(::ModestTree::__TypeExtensions____c__DisplayClass35_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_0");
-NEED_NO_BOX(::ModestTree::__TypeExtensions____c__DisplayClass35_1);
-DEFINE_IL2CPP_ARG_TYPE(::ModestTree::__TypeExtensions____c__DisplayClass35_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_1");
-NEED_NO_BOX(::ModestTree::__TypeExtensions____c__DisplayClass39_0);
-DEFINE_IL2CPP_ARG_TYPE(::ModestTree::__TypeExtensions____c__DisplayClass39_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass39_0");
-NEED_NO_BOX(::ModestTree::__TypeExtensions____c__DisplayClass39_1);
-DEFINE_IL2CPP_ARG_TYPE(::ModestTree::__TypeExtensions____c__DisplayClass39_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass39_1");
+NEED_NO_BOX(::ModestTree::TypeExtensions__GetParentTypes_d__28);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::TypeExtensions__GetParentTypes_d__28*, "ModestTree", "TypeExtensions/<GetParentTypes>d__28");
+NEED_NO_BOX(::ModestTree::TypeExtensions___c__DisplayClass35_0);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::TypeExtensions___c__DisplayClass35_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_0");
+NEED_NO_BOX(::ModestTree::TypeExtensions___c__DisplayClass35_1);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::TypeExtensions___c__DisplayClass35_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_1");
+NEED_NO_BOX(::ModestTree::TypeExtensions___c__DisplayClass39_0);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::TypeExtensions___c__DisplayClass39_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass39_0");
+NEED_NO_BOX(::ModestTree::TypeExtensions___c__DisplayClass39_1);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::TypeExtensions___c__DisplayClass39_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass39_1");

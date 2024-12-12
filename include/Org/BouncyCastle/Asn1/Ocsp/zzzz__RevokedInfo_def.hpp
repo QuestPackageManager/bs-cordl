@@ -29,11 +29,10 @@ class RevokedInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo);
-// Type: Org.BouncyCastle.Asn1.Ocsp::RevokedInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Ocsp::RevokedInfo*
+// CS Name: Org.BouncyCastle.Asn1.Ocsp.RevokedInfo
 class CORDL_TYPE RevokedInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -47,10 +46,10 @@ public:
   /// @brief Field revocationTime, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_revocationTime, put = __cordl_internal_set_revocationTime)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime;
 
-  /// @brief Method GetInstance, addr 0x23d07c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2403ab0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x23d3b18, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2406e04, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime);
@@ -59,34 +58,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23d3ee0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24071cc, size 0x108, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::CrlReason* const& __cordl_internal_get_revocationReason() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::CrlReason*& __cordl_internal_get_revocationReason();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CrlReason*> const& __cordl_internal_get_revocationReason() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_revocationTime() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_revocationTime();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_revocationTime() const;
 
   constexpr void __cordl_internal_set_revocationReason(::Org::BouncyCastle::Asn1::X509::CrlReason* value);
 
   constexpr void __cordl_internal_set_revocationTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x23d3e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240713c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime);
 
-  /// @brief Method .ctor, addr 0x23d3e58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2407144, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime, ::Org::BouncyCastle::Asn1::X509::CrlReason* revocationReason);
 
-  /// @brief Method .ctor, addr 0x23d3c94, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406f80, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_RevocationReason, addr 0x23d3ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationReason, addr 0x24071c4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::CrlReason* get_RevocationReason();
 
-  /// @brief Method get_RevocationTime, addr 0x23d3ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationTime, addr 0x24071bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_RevocationTime();
 
 protected:
@@ -103,23 +102,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RevokedInfo(RevokedInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 219 };
+
   /// @brief Field revocationTime, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ___revocationTime;
 
   /// @brief Field revocationReason, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::CrlReason* ___revocationReason;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 219 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo, ___revocationTime) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo, ___revocationReason) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo);

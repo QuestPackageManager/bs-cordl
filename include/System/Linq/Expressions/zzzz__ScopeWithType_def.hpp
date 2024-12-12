@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__ScopeN_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScopeWithType)
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -30,11 +29,10 @@ class ScopeWithType;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::ScopeWithType);
-// Type: System.Linq.Expressions::ScopeWithType
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.ScopeN
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::ScopeWithType*
+// CS Name: System.Linq.Expressions.ScopeWithType
 class CORDL_TYPE ScopeWithType : public ::System::Linq::Expressions::ScopeN {
 public:
   // Declarations
@@ -46,21 +44,21 @@ public:
   static inline ::System::Linq::Expressions::ScopeWithType* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                      ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions, ::System::Type* type);
 
-  /// @brief Method Rewrite, addr 0x404b828, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40acb3c, size 0xec, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
-  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__Type_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x404b7e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40acafc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions, ::System::Type* type);
 
-  /// @brief Method get_Type, addr 0x404b820, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40acb34, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -77,18 +75,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScopeWithType(ScopeWithType const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13651 };
+
   /// @brief Field <Type>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13617 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ScopeWithType, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::ScopeWithType, ____Type_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ScopeWithType, 0x28>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::ScopeWithType);

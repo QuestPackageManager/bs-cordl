@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PosesSerializer.hpp"
+#include "GlobalNamespace/zzzz__IPosesSerializer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
-#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingInfoSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::GlobalNamespace::IBeatSaberLogger*)>(
     &::GlobalNamespace::PosesSerializer::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3abd49c;
+  constexpr static std::size_t addrs = 0x3b1a3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(&::GlobalNamespace::PosesSerializer::SaveInfoFile)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3abd53c;
+  constexpr static std::size_t addrs = 0x3b1a480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(&::GlobalNamespace::PosesSerializer::SaveDataFile)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x3abd640;
+  constexpr static std::size_t addrs = 0x3b1a584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(
     &::GlobalNamespace::PosesSerializer::SaveRecordingIntoDirectory)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3abd9a8;
+  constexpr static std::size_t addrs = 0x3b1a8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PosesRecordingInfoSaveData* (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::LoadInfoFile)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3abdc38;
+  constexpr static std::size_t addrs = 0x3b1ab7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,10 +87,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::PosesSerializer.LoadDataFile
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData_TransformsKeyframe*>* (
     ::GlobalNamespace::PosesSerializer::*)(::StringW)>(&::GlobalNamespace::PosesSerializer::LoadDataFile)> {
   constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x3abdddc;
+  constexpr static std::size_t addrs = 0x3b1ad20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PosesRecordingData* (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::LoadRecordingFromDirectory)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x3abe3cc;
+  constexpr static std::size_t addrs = 0x3b1b310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(
     &::GlobalNamespace::PosesSerializer::SaveToOldFormat)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3abe6a0;
+  constexpr static std::size_t addrs = 0x3b1b5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*, bool)>(
     &::GlobalNamespace::PosesSerializer::SaveRecording)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3abe7a8;
+  constexpr static std::size_t addrs = 0x3b1b6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PosesRecordingData* (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::LoadRecording)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3abe7e4;
+  constexpr static std::size_t addrs = 0x3b1b728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PosesSerializer::*)(::StringW)>(&::GlobalNamespace::PosesSerializer::RecordingExists)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x3abe8fc;
+  constexpr static std::size_t addrs = 0x3b1b840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::RecordingCanBeCreated)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x3abec84;
+  constexpr static std::size_t addrs = 0x3b1bbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,19 +191,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
-constexpr GlobalNamespace::PosesSerializer::operator ::GlobalNamespace::IPosesSerializer*() noexcept {
-  return static_cast<::GlobalNamespace::IPosesSerializer*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IPosesSerializer"
-constexpr ::GlobalNamespace::IPosesSerializer* GlobalNamespace::PosesSerializer::i___GlobalNamespace__IPosesSerializer() noexcept {
-  return static_cast<::GlobalNamespace::IPosesSerializer*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::PosesSerializer::__cordl_internal_get__logger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& GlobalNamespace::PosesSerializer::__cordl_internal_get__logger() const {
+constexpr ::GlobalNamespace::IBeatSaberLogger* const& GlobalNamespace::PosesSerializer::__cordl_internal_get__logger() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
@@ -215,16 +207,13 @@ constexpr ::GlobalNamespace::RecordingConverter*& GlobalNamespace::PosesSerializ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingConverter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingConverter*> const& GlobalNamespace::PosesSerializer::__cordl_internal_get__recordingConverter() const {
+constexpr ::GlobalNamespace::RecordingConverter* const& GlobalNamespace::PosesSerializer::__cordl_internal_get__recordingConverter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingConverter;
 }
 constexpr void GlobalNamespace::PosesSerializer::__cordl_internal_set__recordingConverter(::GlobalNamespace::RecordingConverter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingConverter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::PosesSerializer* GlobalNamespace::PosesSerializer::New_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PosesSerializer*>(logger));
 }
 inline void GlobalNamespace::PosesSerializer::_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
   static auto* ___internal_method =
@@ -259,11 +248,11 @@ inline ::GlobalNamespace::PosesRecordingInfoSaveData* GlobalNamespace::PosesSeri
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PosesRecordingInfoSaveData*, false>(this, ___internal_method, filePath);
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* GlobalNamespace::PosesSerializer::LoadDataFile(::StringW filePath) {
+inline ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData_TransformsKeyframe*>* GlobalNamespace::PosesSerializer::LoadDataFile(::StringW filePath) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesSerializer*>::get(), "LoadDataFile", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>*, false>(this, ___internal_method, filePath);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData_TransformsKeyframe*>*, false>(this, ___internal_method, filePath);
 }
 inline ::GlobalNamespace::PosesRecordingData* GlobalNamespace::PosesSerializer::LoadRecordingFromDirectory(::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -303,6 +292,17 @@ inline bool GlobalNamespace::PosesSerializer::RecordingCanBeCreated(::StringW pa
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesSerializer*>::get(), "RecordingCanBeCreated", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, path);
+}
+inline ::GlobalNamespace::PosesSerializer* GlobalNamespace::PosesSerializer::New_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PosesSerializer*>(logger));
+}
+/// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
+constexpr GlobalNamespace::PosesSerializer::operator ::GlobalNamespace::IPosesSerializer*() noexcept {
+  return static_cast<::GlobalNamespace::IPosesSerializer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IPosesSerializer"
+constexpr ::GlobalNamespace::IPosesSerializer* GlobalNamespace::PosesSerializer::i___GlobalNamespace__IPosesSerializer() noexcept {
+  return static_cast<::GlobalNamespace::IPosesSerializer*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PosesSerializer::PosesSerializer() {}

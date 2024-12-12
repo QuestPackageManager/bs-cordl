@@ -13,11 +13,10 @@ class IntFxBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IntFxBaseData);
-// Type: ::IntFxBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FxBaseData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IntFxBaseData*
+// CS Name: IntFxBaseData
 class CORDL_TYPE IntFxBaseData : public ::GlobalNamespace::FxBaseData {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2687118, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bb908, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, int32_t value);
 
 protected:
@@ -49,18 +48,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntFxBaseData(IntFxBaseData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12904 };
+
   /// @brief Field value, offset: 0x18, size: 0x4, def value: None
   int32_t ___value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntFxBaseData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::IntFxBaseData, ___value) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntFxBaseData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IntFxBaseData);

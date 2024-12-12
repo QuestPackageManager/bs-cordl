@@ -12,11 +12,10 @@ struct ArgumentType;
 }
 // Write type traits
 MARK_VAL_T(::BGLib::DotnetExtension::CommandLine::ArgumentType);
-// Type: BGLib.DotnetExtension.CommandLine::ArgumentType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: true
-// CS Name: ::BGLib.DotnetExtension.CommandLine::ArgumentType
+// CS Name: BGLib.DotnetExtension.CommandLine.ArgumentType
 struct CORDL_TYPE ArgumentType {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ArgumentType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Boolean value: static_cast<int32_t>(0x0)
+  /// @brief Field Boolean value: I32(0)
   static ::BGLib::DotnetExtension::CommandLine::ArgumentType const Boolean;
 
-  /// @brief Field Integer value: static_cast<int32_t>(0x3)
+  /// @brief Field Integer value: I32(3)
   static ::BGLib::DotnetExtension::CommandLine::ArgumentType const Integer;
 
-  /// @brief Field IntegerOptional value: static_cast<int32_t>(0x4)
+  /// @brief Field IntegerOptional value: I32(4)
   static ::BGLib::DotnetExtension::CommandLine::ArgumentType const IntegerOptional;
 
-  /// @brief Field String value: static_cast<int32_t>(0x1)
+  /// @brief Field String value: I32(1)
   static ::BGLib::DotnetExtension::CommandLine::ArgumentType const String;
 
-  /// @brief Field StringOptional value: static_cast<int32_t>(0x2)
+  /// @brief Field StringOptional value: I32(2)
   static ::BGLib::DotnetExtension::CommandLine::ArgumentType const StringOptional;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::DotnetExtension::CommandLine::ArgumentType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::ArgumentType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::DotnetExtension::CommandLine::ArgumentType, 0x4>, "Size mismatch!");
 
 } // namespace BGLib::DotnetExtension::CommandLine
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::DotnetExtension::CommandLine::ArgumentType, "BGLib.DotnetExtension.CommandLine", "ArgumentType");

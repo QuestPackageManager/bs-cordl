@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HDROutputSettings)
 // Forward declare root types
@@ -13,19 +12,18 @@ class HDROutputSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::HDROutputSettings);
-// Type: UnityEngine::HDROutputSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::HDROutputSettings*
+// CS Name: UnityEngine.HDROutputSettings
 class CORDL_TYPE HDROutputSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _mainDisplay, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__mainDisplay, put = setStaticF__mainDisplay)) ::UnityEngine::HDROutputSettings* _mainDisplay;
+  __declspec(property(get = getStaticF__mainDisplay, put = setStaticF__mainDisplay)) ::UnityEngine::HDROutputSettings* _mainDisplay;
 
   /// @brief Field displays, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_displays, put = setStaticF_displays)) ::ArrayW<::UnityEngine::HDROutputSettings*, ::Array<::UnityEngine::HDROutputSettings*>*> displays;
+  __declspec(property(get = getStaticF_displays, put = setStaticF_displays)) ::ArrayW<::UnityEngine::HDROutputSettings*, ::Array<::UnityEngine::HDROutputSettings*>*> displays;
 
   /// @brief Field m_DisplayIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DisplayIndex, put = __cordl_internal_set_m_DisplayIndex)) int32_t m_DisplayIndex;
@@ -38,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DisplayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4813df0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x487593c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::HDROutputSettings* getStaticF__mainDisplay();
@@ -63,18 +61,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HDROutputSettings(HDROutputSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10723 };
+
   /// @brief Field m_DisplayIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_DisplayIndex;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::HDROutputSettings, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::HDROutputSettings, ___m_DisplayIndex) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::HDROutputSettings, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::HDROutputSettings);

@@ -15,11 +15,10 @@ class NaccacheSternKeyGenerationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyGenerationParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.KeyGenerationParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyGenerationParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.NaccacheSternKeyGenerationParameters
 class CORDL_TYPE NaccacheSternKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
@@ -53,19 +52,19 @@ public:
 
   constexpr void __cordl_internal_set_countSmallPrimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x238b20c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23be4f8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes);
 
-  /// @brief Method .ctor, addr 0x238b2c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23be5ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug);
 
-  /// @brief Method get_Certainty, addr 0x238b2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0x23be5b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_CountSmallPrimes, addr 0x238b2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CountSmallPrimes, addr 0x23be5b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CountSmallPrimes();
 
-  /// @brief Method get_IsDebug, addr 0x238b2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDebug, addr 0x23be5c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDebug();
 
 protected:
@@ -82,23 +81,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NaccacheSternKeyGenerationParameters(NaccacheSternKeyGenerationParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1068 };
+
   /// @brief Field certainty, offset: 0x1c, size: 0x4, def value: None
   int32_t ___certainty;
 
   /// @brief Field countSmallPrimes, offset: 0x20, size: 0x4, def value: None
   int32_t ___countSmallPrimes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1068 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, ___certainty) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, ___countSmallPrimes) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters);

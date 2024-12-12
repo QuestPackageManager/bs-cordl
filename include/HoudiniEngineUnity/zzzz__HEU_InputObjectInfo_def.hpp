@@ -3,15 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(HEU_InputObjectInfo)
 namespace GlobalNamespace {
 class HEU_BoundingVolume;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 namespace System {
 class Type;
@@ -31,11 +29,10 @@ class HEU_InputObjectInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectInfo);
-// Type: HoudiniEngineUnity::HEU_InputObjectInfo
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.IEquivable`1<T>, System.Object, UnityEngine.Matrix4x4, UnityEngine.Vector3
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_InputObjectInfo*
+// CS Name: HoudiniEngineUnity.HEU_InputObjectInfo
 class CORDL_TYPE HEU_InputObjectInfo : public ::System::Object {
 public:
   // Declarations
@@ -73,15 +70,15 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x39d03a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3a27010, size 0x84, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
 
-  /// @brief Method IsEquivalentTo, addr 0x39d2698, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a29308, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectInfo* New_ctor();
 
-  /// @brief Method SetReferencesFromGameObject, addr 0x39d06a8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetReferencesFromGameObject, addr 0x3a27318, size 0xec, virtual false, abstract: false, final false
   inline void SetReferencesFromGameObject();
 
   constexpr ::UnityW<::GlobalNamespace::HEU_BoundingVolume> const& __cordl_internal_get__boundingVolumeReference() const;
@@ -92,9 +89,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__gameObject();
 
-  constexpr ::System::Type*& __cordl_internal_get__inputInterfaceType();
+  constexpr ::System::Type* const& __cordl_internal_get__inputInterfaceType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__inputInterfaceType() const;
+  constexpr ::System::Type*& __cordl_internal_get__inputInterfaceType();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotateOffset() const;
 
@@ -144,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x39d02b8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a26f28, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"
@@ -163,6 +160,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputObjectInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputObjectInfo(HEU_InputObjectInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11628 };
 
   /// @brief Field _gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject;
@@ -194,14 +194,9 @@ public:
   /// @brief Field _inputInterfaceType, offset: 0x98, size: 0x8, def value: None
   ::System::Type* ____inputInterfaceType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11595 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputObjectInfo, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectInfo, ____gameObject) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectInfo, ____terrainReference) == 0x18, "Offset mismatch!");
@@ -221,6 +216,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectInfo, ____rotateOffs
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectInfo, ____scaleOffset) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectInfo, ____inputInterfaceType) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputObjectInfo, 0xa0>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputObjectInfo);

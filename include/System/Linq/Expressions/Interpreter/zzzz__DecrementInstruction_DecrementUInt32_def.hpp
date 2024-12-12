@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __DecrementInstruction__DecrementUInt32;
+namespace GlobalNamespace {
+class DecrementInstruction_DecrementUInt32;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32);
-// Type: ::DecrementUInt32
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::DecrementInstruction_DecrementUInt32);
+// Dependencies System.Linq.Expressions.Interpreter.DecrementInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DecrementInstruction::DecrementUInt32*
-class CORDL_TYPE __DecrementInstruction__DecrementUInt32 : public ::System::Linq::Expressions::Interpreter::DecrementInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.DecrementInstruction/DecrementUInt32
+class CORDL_TYPE DecrementInstruction_DecrementUInt32 : public ::System::Linq::Expressions::Interpreter::DecrementInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32* New_ctor();
+  static inline ::GlobalNamespace::DecrementInstruction_DecrementUInt32* New_ctor();
 
-  /// @brief Method Run, addr 0x4063878, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c4b8c, size 0xb0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40635bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c48d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __DecrementInstruction__DecrementUInt32();
+  constexpr DecrementInstruction_DecrementUInt32();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__DecrementInstruction__DecrementUInt32", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementUInt32", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __DecrementInstruction__DecrementUInt32(__DecrementInstruction__DecrementUInt32&&) = delete;
+  DecrementInstruction_DecrementUInt32(DecrementInstruction_DecrementUInt32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__DecrementInstruction__DecrementUInt32", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementUInt32", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __DecrementInstruction__DecrementUInt32(__DecrementInstruction__DecrementUInt32 const&) = delete;
+  DecrementInstruction_DecrementUInt32(DecrementInstruction_DecrementUInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DecrementInstruction_DecrementUInt32, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32*, "System.Linq.Expressions.Interpreter", "DecrementInstruction/DecrementUInt32");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::DecrementInstruction_DecrementUInt32);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DecrementInstruction_DecrementUInt32*, "System.Linq.Expressions.Interpreter", "DecrementInstruction/DecrementUInt32");

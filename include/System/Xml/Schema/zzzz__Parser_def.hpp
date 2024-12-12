@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__SchemaType_def.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Parser)
@@ -64,11 +63,10 @@ class Parser;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Parser);
-// Type: System.Xml.Schema::Parser
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.Schema.SchemaType, System.Xml.XmlCharType
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Parser*
+// CS Name: System.Xml.Schema.Parser
 class CORDL_TYPE Parser : public ::System::Object {
 public:
   // Declarations
@@ -138,54 +136,54 @@ public:
   /// @brief Field xmlns, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlns, put = __cordl_internal_set_xmlns)) ::StringW xmlns;
 
-  /// @brief Method CheckSchemaRoot, addr 0x420b5d0, size 0x100, virtual false, abstract: false, final false
-  inline bool CheckSchemaRoot(::System::Xml::Schema::SchemaType rootType, ByRef<::StringW> code);
+  /// @brief Method CheckSchemaRoot, addr 0x426c8e4, size 0x100, virtual false, abstract: false, final false
+  inline bool CheckSchemaRoot(::System::Xml::Schema::SchemaType rootType, ::ByRef<::StringW> code);
 
-  /// @brief Method CreateXmlNsAttribute, addr 0x420be5c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CreateXmlNsAttribute, addr 0x426d170, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* CreateXmlNsAttribute(::StringW prefix, ::StringW value);
 
-  /// @brief Method FinishParsing, addr 0x420b6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FinishParsing, addr 0x426c9e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType FinishParsing();
 
-  /// @brief Method LoadAttributeNode, addr 0x420bce8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadAttributeNode, addr 0x426cffc, size 0x174, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* LoadAttributeNode();
 
-  /// @brief Method LoadElementNode, addr 0x420b910, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method LoadElementNode, addr 0x426cc24, size 0x3d8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlElement* LoadElementNode(bool root);
 
-  /// @brief Method LoadEntityReferenceInAttribute, addr 0x420bf78, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method LoadEntityReferenceInAttribute, addr 0x426d28c, size 0x208, virtual false, abstract: false, final false
   inline ::System::Xml::XmlEntityReference* LoadEntityReferenceInAttribute();
 
   static inline ::System::Xml::Schema::Parser* New_ctor(::System::Xml::Schema::SchemaType schemaType, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                         ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method Parse, addr 0x420ab54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x426be68, size 0x50, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType Parse(::System::Xml::XmlReader* reader, ::StringW targetNamespace);
 
-  /// @brief Method ParseReaderNode, addr 0x420af54, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method ParseReaderNode, addr 0x426c268, size 0x67c, virtual false, abstract: false, final false
   inline bool ParseReaderNode();
 
-  /// @brief Method ProcessAppInfoDocMarkup, addr 0x420b6f0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ProcessAppInfoDocMarkup, addr 0x426ca04, size 0x220, virtual false, abstract: false, final false
   inline void ProcessAppInfoDocMarkup(bool root);
 
-  /// @brief Method StartParsing, addr 0x420aba4, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method StartParsing, addr 0x426beb8, size 0x3b0, virtual false, abstract: false, final false
   inline void StartParsing(::System::Xml::XmlReader* reader, ::StringW targetNamespace);
+
+  constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get_annotationNSManager() const;
 
   constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get_annotationNSManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& __cordl_internal_get_annotationNSManager() const;
+  constexpr ::System::Xml::Schema::SchemaBuilder* const& __cordl_internal_get_builder() const;
 
   constexpr ::System::Xml::Schema::SchemaBuilder*& __cordl_internal_get_builder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaBuilder*> const& __cordl_internal_get_builder() const;
+  constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get_dummyDocument() const;
 
   constexpr ::System::Xml::XmlDocument*& __cordl_internal_get_dummyDocument();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __cordl_internal_get_dummyDocument() const;
+  constexpr ::System::Xml::Schema::ValidationEventHandler* const& __cordl_internal_get_eventHandler() const;
 
   constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_eventHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_eventHandler() const;
 
   constexpr bool const& __cordl_internal_get_isProcessNamespaces() const;
 
@@ -195,37 +193,37 @@ public:
 
   constexpr int32_t& __cordl_internal_get_markupDepth();
 
+  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
+
   constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
+  constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get_namespaceManager() const;
 
   constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get_namespaceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& __cordl_internal_get_namespaceManager() const;
+  constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_parentNode() const;
 
   constexpr ::System::Xml::XmlNode*& __cordl_internal_get_parentNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_parentNode() const;
+  constexpr ::System::Xml::PositionInfo* const& __cordl_internal_get_positionInfo() const;
 
   constexpr ::System::Xml::PositionInfo*& __cordl_internal_get_positionInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::PositionInfo*> const& __cordl_internal_get_positionInfo() const;
 
   constexpr bool const& __cordl_internal_get_processMarkup() const;
 
   constexpr bool& __cordl_internal_get_processMarkup();
 
+  constexpr ::System::Xml::XmlReader* const& __cordl_internal_get_reader() const;
+
   constexpr ::System::Xml::XmlReader*& __cordl_internal_get_reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __cordl_internal_get_reader() const;
+  constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_schema() const;
 
   constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_schema();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchema*> const& __cordl_internal_get_schema() const;
+  constexpr ::System::Xml::Schema::SchemaNames* const& __cordl_internal_get_schemaNames() const;
 
   constexpr ::System::Xml::Schema::SchemaNames*& __cordl_internal_get_schemaNames();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaNames*> const& __cordl_internal_get_schemaNames() const;
 
   constexpr ::System::Xml::Schema::SchemaType const& __cordl_internal_get_schemaType() const;
 
@@ -235,17 +233,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get_schemaXmlDepth();
 
-  constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get_xdrSchema();
+  constexpr ::System::Xml::Schema::SchemaInfo* const& __cordl_internal_get_xdrSchema() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& __cordl_internal_get_xdrSchema() const;
+  constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get_xdrSchema();
 
   constexpr ::System::Xml::XmlCharType const& __cordl_internal_get_xmlCharType() const;
 
   constexpr ::System::Xml::XmlCharType& __cordl_internal_get_xmlCharType();
 
-  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
+  constexpr ::System::Xml::XmlResolver* const& __cordl_internal_get_xmlResolver() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __cordl_internal_get_xmlResolver() const;
+  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
 
   constexpr ::StringW const& __cordl_internal_get_xmlns() const;
 
@@ -291,17 +289,17 @@ public:
 
   constexpr void __cordl_internal_set_xmlns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x420aaa4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426bdb8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SchemaType schemaType, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                     ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method get_XdrSchema, addr 0x420b6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XdrSchema, addr 0x426c9fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_XdrSchema();
 
-  /// @brief Method get_XmlSchema, addr 0x420b6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlSchema, addr 0x426c9ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_XmlSchema();
 
-  /// @brief Method set_XmlResolver, addr 0x420b6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x426c9f4, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:
@@ -317,6 +315,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Parser(Parser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7603 };
 
   /// @brief Field schemaType, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Schema::SchemaType ___schemaType;
@@ -378,14 +379,9 @@ public:
   /// @brief Field xmlCharType, offset: 0xa0, size: 0x8, def value: None
   ::System::Xml::XmlCharType ___xmlCharType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7578 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Parser, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::Parser, ___schemaType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::Parser, ___nameTable) == 0x18, "Offset mismatch!");
@@ -425,6 +421,8 @@ static_assert(offsetof(::System::Xml::Schema::Parser, ___annotationNSManager) ==
 static_assert(offsetof(::System::Xml::Schema::Parser, ___xmlns) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::Parser, ___xmlCharType) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Parser, 0xa8>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Parser);

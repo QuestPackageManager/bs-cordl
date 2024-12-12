@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 CORDL_MODULE_EXPORT(GhostEffectAsset)
 namespace GlobalNamespace {
@@ -22,9 +23,6 @@ struct Playable;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace UnityEngine {
 class GameObject;
 }
@@ -34,11 +32,10 @@ class GhostEffectAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GhostEffectAsset);
-// Type: ::GhostEffectAsset
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies GhostEffectBehaviour::GhostEffectType, UnityEngine.ExposedReference`1<T>, UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GhostEffectAsset*
+// CS Name: GhostEffectAsset
 class CORDL_TYPE GhostEffectAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
@@ -46,7 +43,7 @@ public:
   __declspec(property(get = __cordl_internal_get__cordl_template, put = __cordl_internal_set__cordl_template)) ::GlobalNamespace::GhostEffectBehaviour* _cordl_template;
 
   /// @brief Field _ghostEffectType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__ghostEffectType, put = __cordl_internal_set__ghostEffectType)) ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType _ghostEffectType;
+  __declspec(property(get = __cordl_internal_get__ghostEffectType, put = __cordl_internal_set__ghostEffectType)) ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType _ghostEffectType;
 
   /// @brief Field arrayReference, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_arrayReference, put = __cordl_internal_set_arrayReference)) ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>>
@@ -57,18 +54,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3ad40b4, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3b336f8, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::GhostEffectAsset* New_ctor();
 
+  constexpr ::GlobalNamespace::GhostEffectBehaviour* const& __cordl_internal_get__cordl_template() const;
+
   constexpr ::GlobalNamespace::GhostEffectBehaviour*& __cordl_internal_get__cordl_template();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostEffectBehaviour*> const& __cordl_internal_get__cordl_template() const;
+  constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType const& __cordl_internal_get__ghostEffectType() const;
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& __cordl_internal_get__ghostEffectType() const;
-
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& __cordl_internal_get__ghostEffectType();
+  constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType& __cordl_internal_get__ghostEffectType();
 
   constexpr ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> const& __cordl_internal_get_arrayReference() const;
 
@@ -76,14 +73,14 @@ public:
 
   constexpr void __cordl_internal_set__cordl_template(::GlobalNamespace::GhostEffectBehaviour* value);
 
-  constexpr void __cordl_internal_set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value);
+  constexpr void __cordl_internal_set__ghostEffectType(::GlobalNamespace::GhostEffectBehaviour_GhostEffectType value);
 
   constexpr void __cordl_internal_set_arrayReference(::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> value);
 
-  /// @brief Method .ctor, addr 0x3ad41f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b33834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3ad40ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3b336f0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -103,8 +100,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GhostEffectAsset(GhostEffectAsset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5199 };
+
   /// @brief Field _ghostEffectType, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType ____ghostEffectType;
+  ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType ____ghostEffectType;
 
   /// @brief Field arrayReference, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> ___arrayReference;
@@ -112,19 +112,16 @@ public:
   /// @brief Field template, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GhostEffectBehaviour* ____cordl_template;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5179 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectAsset, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GhostEffectAsset, ____ghostEffectType) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GhostEffectAsset, ___arrayReference) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GhostEffectAsset, ____cordl_template) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectAsset, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GhostEffectAsset);

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(ZenTypeInfoGetter)
 namespace System {
 class AsyncCallback;
@@ -27,26 +26,25 @@ class ZenTypeInfoGetter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ZenTypeInfoGetter);
-// Type: Zenject::ZenTypeInfoGetter
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ZenTypeInfoGetter*
+// CS Name: Zenject.ZenTypeInfoGetter
 class CORDL_TYPE ZenTypeInfoGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4aed204, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4b51b14, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4aed224, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4b51b34, size 0xc, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4aed1f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4b51b00, size 0x14, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* Invoke();
 
   static inline ::Zenject::ZenTypeInfoGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4aed168, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b51a78, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -64,7 +62,7 @@ public:
   ZenTypeInfoGetter(ZenTypeInfoGetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

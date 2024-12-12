@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SettingsApplicatorSO)
 namespace BeatSaber::Settings {
 struct Settings;
@@ -51,11 +50,10 @@ class SettingsApplicatorSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SettingsApplicatorSO);
-// Type: ::SettingsApplicatorSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SettingsApplicatorSO*
+// CS Name: SettingsApplicatorSO
 class CORDL_TYPE SettingsApplicatorSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -96,18 +94,18 @@ public:
   /// @brief Field roomTransformOffsetDidUpdateEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_roomTransformOffsetDidUpdateEvent, put = __cordl_internal_set_roomTransformOffsetDidUpdateEvent)) ::System::Action* roomTransformOffsetDidUpdateEvent;
 
-  /// @brief Method ApplyGameSettings, addr 0x3ace040, size 0xfc, virtual false, abstract: false, final false
-  inline void ApplyGameSettings(ByRef<::BeatSaber::Settings::Settings> settings);
+  /// @brief Method ApplyGameSettings, addr 0x3b2d684, size 0xfc, virtual false, abstract: false, final false
+  inline void ApplyGameSettings(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method ApplyGraphicSettings, addr 0x3acddd0, size 0x1f4, virtual true, abstract: false, final false
-  inline void ApplyGraphicSettings(ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
+  /// @brief Method ApplyGraphicSettings, addr 0x3b2d414, size 0x1f4, virtual true, abstract: false, final false
+  inline void ApplyGraphicSettings(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
-  /// @brief Method ApplyWindowSettings, addr 0x3ace298, size 0x4, virtual true, abstract: false, final false
-  inline void ApplyWindowSettings(ByRef<::BeatSaber::Settings::WindowSettings> settings);
+  /// @brief Method ApplyWindowSettings, addr 0x3b2d8dc, size 0x4, virtual true, abstract: false, final false
+  inline void ApplyWindowSettings(::ByRef<::BeatSaber::Settings::WindowSettings> settings);
 
   static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor();
 
-  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x3ace27c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x3b2d8c0, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyRoomTransformOffsetWasUpdated();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
@@ -142,13 +140,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets();
 
+  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::System::Action* const& __cordl_internal_get_roomTransformOffsetDidUpdateEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_roomTransformOffsetDidUpdateEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_roomTransformOffsetDidUpdateEvent() const;
 
   constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
@@ -170,13 +168,13 @@ public:
 
   constexpr void __cordl_internal_set_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3acdfcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2d610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x3ace144, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x3b2d788, size 0x9c, virtual false, abstract: false, final false
   inline void add_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x3ace1e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x3b2d824, size 0x9c, virtual false, abstract: false, final false
   inline void remove_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
 protected:
@@ -192,6 +190,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsApplicatorSO(SettingsApplicatorSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5172 };
 
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
@@ -223,14 +224,9 @@ public:
   /// @brief Field roomTransformOffsetDidUpdateEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___roomTransformOffsetDidUpdateEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5152 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SettingsApplicatorSO, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SettingsApplicatorSO, ____mirrorRendererGraphicsSettingsPresets) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SettingsApplicatorSO, ____mainEffectGraphicsSettingsPresets) == 0x20, "Offset mismatch!");
@@ -250,6 +246,8 @@ static_assert(offsetof(::GlobalNamespace::SettingsApplicatorSO, ____audioManager
 static_assert(offsetof(::GlobalNamespace::SettingsApplicatorSO, ____vrPlatformHelper) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SettingsApplicatorSO, ___roomTransformOffsetDidUpdateEvent) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SettingsApplicatorSO, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SettingsApplicatorSO);

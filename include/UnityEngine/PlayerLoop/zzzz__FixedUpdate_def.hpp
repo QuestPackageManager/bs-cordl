@@ -6,526 +6,512 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(FixedUpdate)
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__AudioFixedUpdate;
+struct FixedUpdate_AudioFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ClearLines;
+struct FixedUpdate_ClearLines;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedSampleTime;
+struct FixedUpdate_DirectorFixedSampleTime;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdatePostPhysics;
+struct FixedUpdate_DirectorFixedUpdatePostPhysics;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdate;
+struct FixedUpdate_DirectorFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__LegacyFixedAnimationUpdate;
+struct FixedUpdate_LegacyFixedAnimationUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__NewInputFixedUpdate;
+struct FixedUpdate_NewInputFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__Physics2DFixedUpdate;
+struct FixedUpdate_Physics2DFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__PhysicsClothFixedUpdate;
+struct FixedUpdate_PhysicsClothFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__PhysicsFixedUpdate;
+struct FixedUpdate_PhysicsFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ScriptRunBehaviourFixedUpdate;
+struct FixedUpdate_ScriptRunBehaviourFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ScriptRunDelayedFixedFrameRate;
+struct FixedUpdate_ScriptRunDelayedFixedFrameRate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__XRFixedUpdate;
+struct FixedUpdate_XRFixedUpdate;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct FixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__AudioFixedUpdate;
+struct FixedUpdate_AudioFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ClearLines;
+struct FixedUpdate_ClearLines;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedSampleTime;
+struct FixedUpdate_DirectorFixedSampleTime;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdate;
+struct FixedUpdate_DirectorFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdatePostPhysics;
+struct FixedUpdate_DirectorFixedUpdatePostPhysics;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__LegacyFixedAnimationUpdate;
+struct FixedUpdate_LegacyFixedAnimationUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__NewInputFixedUpdate;
+struct FixedUpdate_NewInputFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__Physics2DFixedUpdate;
+struct FixedUpdate_Physics2DFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__PhysicsClothFixedUpdate;
+struct FixedUpdate_PhysicsClothFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__PhysicsFixedUpdate;
+struct FixedUpdate_PhysicsFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ScriptRunBehaviourFixedUpdate;
+struct FixedUpdate_ScriptRunBehaviourFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ScriptRunDelayedFixedFrameRate;
+struct FixedUpdate_ScriptRunDelayedFixedFrameRate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__XRFixedUpdate;
+struct FixedUpdate_XRFixedUpdate;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__AudioFixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__ClearLines);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedSampleTime);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdatePostPhysics);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__LegacyFixedAnimationUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__NewInputFixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__Physics2DFixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsClothFixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsFixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunBehaviourFixedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunDelayedFixedFrameRate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate);
-// Type: ::ClearLines
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_AudioFixedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_ClearLines);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedSampleTime);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdatePostPhysics);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_LegacyFixedAnimationUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_NewInputFixedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_Physics2DFixedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_PhysicsClothFixedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_PhysicsFixedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunBehaviourFixedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunDelayedFixedFrameRate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::FixedUpdate_XRFixedUpdate);
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::ClearLines
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/ClearLines
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__ClearLines {
+struct CORDL_TYPE FixedUpdate_ClearLines {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__ClearLines();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_ClearLines();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__ClearLines, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_ClearLines, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorFixedSampleTime
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::DirectorFixedSampleTime
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedSampleTime
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__DirectorFixedSampleTime {
+struct CORDL_TYPE FixedUpdate_DirectorFixedSampleTime {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__DirectorFixedSampleTime();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_DirectorFixedSampleTime();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11059 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedSampleTime, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedSampleTime, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::AudioFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::AudioFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/AudioFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__AudioFixedUpdate {
+struct CORDL_TYPE FixedUpdate_AudioFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__AudioFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_AudioFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11060 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__AudioFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_AudioFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::ScriptRunBehaviourFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::ScriptRunBehaviourFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/ScriptRunBehaviourFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__ScriptRunBehaviourFixedUpdate {
+struct CORDL_TYPE FixedUpdate_ScriptRunBehaviourFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__ScriptRunBehaviourFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_ScriptRunBehaviourFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11061 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunBehaviourFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunBehaviourFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::DirectorFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__DirectorFixedUpdate {
+struct CORDL_TYPE FixedUpdate_DirectorFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__DirectorFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_DirectorFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::LegacyFixedAnimationUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::LegacyFixedAnimationUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/LegacyFixedAnimationUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__LegacyFixedAnimationUpdate {
+struct CORDL_TYPE FixedUpdate_LegacyFixedAnimationUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__LegacyFixedAnimationUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_LegacyFixedAnimationUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11063 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__LegacyFixedAnimationUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_LegacyFixedAnimationUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::XRFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::XRFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/XRFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__XRFixedUpdate {
+struct CORDL_TYPE FixedUpdate_XRFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__XRFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_XRFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_XRFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::PhysicsFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::PhysicsFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/PhysicsFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__PhysicsFixedUpdate {
+struct CORDL_TYPE FixedUpdate_PhysicsFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__PhysicsFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_PhysicsFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11065 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_PhysicsFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::Physics2DFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::Physics2DFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/Physics2DFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__Physics2DFixedUpdate {
+struct CORDL_TYPE FixedUpdate_Physics2DFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__Physics2DFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_Physics2DFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11066 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__Physics2DFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_Physics2DFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::PhysicsClothFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::PhysicsClothFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/PhysicsClothFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__PhysicsClothFixedUpdate {
+struct CORDL_TYPE FixedUpdate_PhysicsClothFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__PhysicsClothFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_PhysicsClothFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11067 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsClothFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_PhysicsClothFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorFixedUpdatePostPhysics
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::DirectorFixedUpdatePostPhysics
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedUpdatePostPhysics
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__DirectorFixedUpdatePostPhysics {
+struct CORDL_TYPE FixedUpdate_DirectorFixedUpdatePostPhysics {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__DirectorFixedUpdatePostPhysics();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_DirectorFixedUpdatePostPhysics();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11068 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdatePostPhysics, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdatePostPhysics, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::ScriptRunDelayedFixedFrameRate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::ScriptRunDelayedFixedFrameRate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/ScriptRunDelayedFixedFrameRate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__ScriptRunDelayedFixedFrameRate {
+struct CORDL_TYPE FixedUpdate_ScriptRunDelayedFixedFrameRate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__ScriptRunDelayedFixedFrameRate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_ScriptRunDelayedFixedFrameRate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11069 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunDelayedFixedFrameRate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunDelayedFixedFrameRate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::NewInputFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::FixedUpdate::NewInputFixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate/NewInputFixedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __FixedUpdate__NewInputFixedUpdate {
+struct CORDL_TYPE FixedUpdate_NewInputFixedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FixedUpdate__NewInputFixedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr FixedUpdate_NewInputFixedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11070 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__FixedUpdate__NewInputFixedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUpdate_NewInputFixedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: UnityEngine.PlayerLoop::FixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::UnityEngine.PlayerLoop::FixedUpdate
+// CS Name: UnityEngine.PlayerLoop.FixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE FixedUpdate {
 public:
   // Declarations
-  using AudioFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__AudioFixedUpdate;
+  using AudioFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_AudioFixedUpdate;
 
-  using ClearLines = ::UnityEngine::PlayerLoop::__FixedUpdate__ClearLines;
+  using ClearLines = ::UnityEngine::PlayerLoop::FixedUpdate_ClearLines;
 
-  using DirectorFixedSampleTime = ::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedSampleTime;
+  using DirectorFixedSampleTime = ::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedSampleTime;
 
-  using DirectorFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdate;
+  using DirectorFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdate;
 
-  using DirectorFixedUpdatePostPhysics = ::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdatePostPhysics;
+  using DirectorFixedUpdatePostPhysics = ::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdatePostPhysics;
 
-  using LegacyFixedAnimationUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__LegacyFixedAnimationUpdate;
+  using LegacyFixedAnimationUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_LegacyFixedAnimationUpdate;
 
-  using NewInputFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__NewInputFixedUpdate;
+  using NewInputFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_NewInputFixedUpdate;
 
-  using Physics2DFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__Physics2DFixedUpdate;
+  using Physics2DFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_Physics2DFixedUpdate;
 
-  using PhysicsClothFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsClothFixedUpdate;
+  using PhysicsClothFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_PhysicsClothFixedUpdate;
 
-  using PhysicsFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsFixedUpdate;
+  using PhysicsFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_PhysicsFixedUpdate;
 
-  using ScriptRunBehaviourFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunBehaviourFixedUpdate;
+  using ScriptRunBehaviourFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunBehaviourFixedUpdate;
 
-  using ScriptRunDelayedFixedFrameRate = ::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunDelayedFixedFrameRate;
+  using ScriptRunDelayedFixedFrameRate = ::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunDelayedFixedFrameRate;
 
-  using XRFixedUpdate = ::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate;
+  using XRFixedUpdate = ::UnityEngine::PlayerLoop::FixedUpdate_XRFixedUpdate;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FixedUpdate();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11071 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -535,16 +521,16 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::FixedUp
 
 } // namespace UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__AudioFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/AudioFixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__ClearLines, "UnityEngine.PlayerLoop", "FixedUpdate/ClearLines");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedSampleTime, "UnityEngine.PlayerLoop", "FixedUpdate/DirectorFixedSampleTime");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/DirectorFixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__DirectorFixedUpdatePostPhysics, "UnityEngine.PlayerLoop", "FixedUpdate/DirectorFixedUpdatePostPhysics");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__LegacyFixedAnimationUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/LegacyFixedAnimationUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__NewInputFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/NewInputFixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__Physics2DFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/Physics2DFixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsClothFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/PhysicsClothFixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__PhysicsFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/PhysicsFixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunBehaviourFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/ScriptRunBehaviourFixedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunDelayedFixedFrameRate, "UnityEngine.PlayerLoop", "FixedUpdate/ScriptRunDelayedFixedFrameRate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/XRFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_AudioFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/AudioFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_ClearLines, "UnityEngine.PlayerLoop", "FixedUpdate/ClearLines");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedSampleTime, "UnityEngine.PlayerLoop", "FixedUpdate/DirectorFixedSampleTime");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/DirectorFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdatePostPhysics, "UnityEngine.PlayerLoop", "FixedUpdate/DirectorFixedUpdatePostPhysics");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_LegacyFixedAnimationUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/LegacyFixedAnimationUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_NewInputFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/NewInputFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_Physics2DFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/Physics2DFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_PhysicsClothFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/PhysicsClothFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_PhysicsFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/PhysicsFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunBehaviourFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/ScriptRunBehaviourFixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunDelayedFixedFrameRate, "UnityEngine.PlayerLoop", "FixedUpdate/ScriptRunDelayedFixedFrameRate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate_XRFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/XRFixedUpdate");

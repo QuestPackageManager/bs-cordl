@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x406235c;
+  constexpr static std::size_t addrs = 0x40c3670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4062384;
+  constexpr static std::size_t addrs = 0x40c3698;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40623c4;
+  constexpr static std::size_t addrs = 0x40c36d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::get_ConsumedContinuations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40623cc;
+  constexpr static std::size_t addrs = 0x40c36e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* (*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::Create)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x40623d4;
+  constexpr static std::size_t addrs = 0x40c36e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::Run)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40624c8;
+  constexpr static std::size_t addrs = 0x40c37dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,9 +107,6 @@ inline ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstructio
 System::Linq::Expressions::Interpreter::EnterFinallyInstruction::getStaticF_s_cache() {
   return ::cordl_internals::getStaticField<::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*>,
                                            "s_cache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>::get>();
-}
-inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* System::Linq::Expressions::Interpreter::EnterFinallyInstruction::New_ctor(int32_t labelIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>(labelIndex));
 }
 inline void System::Linq::Expressions::Interpreter::EnterFinallyInstruction::_ctor(int32_t labelIndex) {
   static auto* ___internal_method =
@@ -146,6 +143,9 @@ inline int32_t System::Linq::Expressions::Interpreter::EnterFinallyInstruction::
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* System::Linq::Expressions::Interpreter::EnterFinallyInstruction::New_ctor(int32_t labelIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>(labelIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::EnterFinallyInstruction() {}

@@ -13,9 +13,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChainVEData)
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct ClipMethod;
-}
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
 }
@@ -29,22 +26,10 @@ namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
 }
 namespace UnityEngine::UIElements::UIR {
-struct RenderDataDirtyTypes;
-}
-namespace UnityEngine::UIElements::UIR {
-struct RenderDataFlags;
-}
-namespace UnityEngine::UIElements::UIR {
 struct TextureEntry;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -52,11 +37,11 @@ struct RenderChainVEData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainVEData);
-// Type: UnityEngine.UIElements.UIR::RenderChainVEData
-// SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 344, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.Matrix4x4, UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.UIElements.UIR.Implementation.ClipMethod, UnityEngine.UIElements.UIR.RenderDataDirtyTypes,
+// UnityEngine.UIElements.UIR.RenderDataFlags
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.UIR::RenderChainVEData
+// CS Name: UnityEngine.UIElements.UIR.RenderChainVEData
 struct CORDL_TYPE RenderChainVEData {
 public:
   // Declarations
@@ -64,16 +49,16 @@ public:
 
   __declspec(property(get = get_lastClosingOrLastCommand)) ::UnityEngine::UIElements::UIR::RenderChainCommand* lastClosingOrLastCommand;
 
-  /// @brief Method AllocatesID, addr 0x4947bf8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AllocatesID, addr 0x49ac508, size 0x6c, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID, addr 0x4947c74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InheritsID, addr 0x49ac584, size 0x68, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x4947cdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x49ac5ec, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIgnoringDynamicColorHint();
 
-  /// @brief Method get_lastClosingOrLastCommand, addr 0x4947be0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_lastClosingOrLastCommand, addr 0x49ac4f0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
 
   // Ctor Parameters []
@@ -120,6 +105,12 @@ public:
                               ::UnityEngine::UIElements::UIR::BMPAlloc borderTopColorID, ::UnityEngine::UIElements::UIR::BMPAlloc borderRightColorID,
                               ::UnityEngine::UIElements::UIR::BMPAlloc borderBottomColorID, ::UnityEngine::UIElements::UIR::BMPAlloc tintColorID, float_t compositeOpacity,
                               ::UnityEngine::Color backgroundColor, ::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::TextureEntry>* textures) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6383 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x148 };
 
   /// @brief Field prev, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* prev;
@@ -250,17 +241,9 @@ public:
   /// @brief Field textures, offset: 0x140, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::TextureEntry>* textures;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6358 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x148 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChainVEData, 0x148>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, prev) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, next) == 0x8, "Offset mismatch!");
@@ -346,6 +329,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, compos
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, backgroundColor) == 0x12c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, textures) == 0x140, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChainVEData, 0x148>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChainVEData, "UnityEngine.UIElements.UIR", "RenderChainVEData");

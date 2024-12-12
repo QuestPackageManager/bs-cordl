@@ -13,27 +13,22 @@ class IMaterialModifier;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::IMaterialModifier);
-// Type: UnityEngine.UI::IMaterialModifier
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::IMaterialModifier*
+// CS Name: UnityEngine.UI.IMaterialModifier
 class CORDL_TYPE IMaterialModifier {
 public:
   // Declarations
-  /// @brief Method GetModifiedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetModifiedMaterial, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IMaterialModifier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IMaterialModifier(IMaterialModifier&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMaterialModifier", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IMaterialModifier(IMaterialModifier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15112 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

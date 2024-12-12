@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -14,13 +13,10 @@ namespace HMUI {
 class IconSegmentedControlCell;
 }
 namespace HMUI {
+class IconSegmentedControl_DataItem;
+}
+namespace HMUI {
 class SegmentedControlCell;
-}
-namespace HMUI {
-class __IconSegmentedControl__DataItem;
-}
-namespace HMUI {
-class __SegmentedControl__IDataSource;
 }
 namespace UnityEngine {
 class Sprite;
@@ -30,17 +26,16 @@ namespace HMUI {
 class IconSegmentedControl;
 }
 namespace HMUI {
-class __IconSegmentedControl__DataItem;
+class IconSegmentedControl_DataItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::IconSegmentedControl);
-MARK_REF_PTR_T(::HMUI::__IconSegmentedControl__DataItem);
-// Type: ::DataItem
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::HMUI::IconSegmentedControl_DataItem);
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::IconSegmentedControl::DataItem*
-class CORDL_TYPE __IconSegmentedControl__DataItem : public ::System::Object {
+// CS Name: HMUI.IconSegmentedControl/DataItem
+class CORDL_TYPE IconSegmentedControl_DataItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <hintText>k__BackingField, offset 0x18, size 0x8
@@ -58,7 +53,7 @@ public:
 
   __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
 
-  static inline ::HMUI::__IconSegmentedControl__DataItem* New_ctor(::UnityEngine::Sprite* icon, ::StringW hintText, bool interactable);
+  static inline ::HMUI::IconSegmentedControl_DataItem* New_ctor(::UnityEngine::Sprite* icon, ::StringW hintText, bool interactable);
 
   constexpr ::StringW const& __cordl_internal_get__hintText_k__BackingField() const;
 
@@ -78,40 +73,43 @@ public:
 
   constexpr void __cordl_internal_set__interactable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4027a10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4088d24, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW hintText, bool interactable);
 
-  /// @brief Method get_hintText, addr 0x40279ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hintText, addr 0x4088d00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_hintText();
 
-  /// @brief Method get_icon, addr 0x40279dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x4088cf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_interactable, addr 0x40279fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x4088d10, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method set_hintText, addr 0x40279f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x4088d08, size 0x8, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_icon, addr 0x40279e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x4088cf8, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_interactable, addr 0x4027a04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x4088d18, size 0xc, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IconSegmentedControl__DataItem();
+  constexpr IconSegmentedControl_DataItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IconSegmentedControl__DataItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControl_DataItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IconSegmentedControl__DataItem(__IconSegmentedControl__DataItem&&) = delete;
+  IconSegmentedControl_DataItem(IconSegmentedControl_DataItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IconSegmentedControl__DataItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControl_DataItem", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IconSegmentedControl__DataItem(__IconSegmentedControl__DataItem const&) = delete;
+  IconSegmentedControl_DataItem(IconSegmentedControl_DataItem const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18788 };
 
   /// @brief Field <icon>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon_k__BackingField;
@@ -122,34 +120,29 @@ public:
   /// @brief Field <interactable>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____interactable_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18707 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__IconSegmentedControl__DataItem, 0x28>, "Size mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl_DataItem, ____icon_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____icon_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl_DataItem, ____hintText_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____hintText_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::IconSegmentedControl_DataItem, ____interactable_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____interactable_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControl_DataItem, 0x28>, "Size mismatch!");
 
 } // namespace HMUI
-// Type: HMUI::IconSegmentedControl
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 185, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.SegmentedControl, HMUI.SegmentedControl::IDataSource
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::IconSegmentedControl*
+// CS Name: HMUI.IconSegmentedControl
 class CORDL_TYPE IconSegmentedControl : public ::HMUI::SegmentedControl {
 public:
   // Declarations
-  using DataItem = ::HMUI::__IconSegmentedControl__DataItem;
+  using DataItem = ::HMUI::IconSegmentedControl_DataItem;
 
   /// @brief Field _dataItems, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataItems,
-                      put = __cordl_internal_set__dataItems)) ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*>
+  __declspec(property(get = __cordl_internal_get__dataItems, put = __cordl_internal_set__dataItems)) ::ArrayW<::HMUI::IconSegmentedControl_DataItem*, ::Array<::HMUI::IconSegmentedControl_DataItem*>*>
       _dataItems;
 
   /// @brief Field _firstCellPrefab, offset 0x90, size 0x8
@@ -179,26 +172,26 @@ public:
   /// @brief Field _singleCellPrefab, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__singleCellPrefab, put = __cordl_internal_set__singleCellPrefab)) ::UnityW<::HMUI::IconSegmentedControlCell> _singleCellPrefab;
 
-  /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
-  constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
+  /// @brief Convert operator to "::HMUI::SegmentedControl_IDataSource"
+  constexpr operator ::HMUI::SegmentedControl_IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x40276f4, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x4088a08, size 0x1c8, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method Init, addr 0x4027680, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4088994, size 0x1c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::IconSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x40276dc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x40889f0, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x402769c, size 0x40, virtual false, abstract: false, final false
-  inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
+  /// @brief Method SetData, addr 0x40889b0, size 0x40, virtual false, abstract: false, final false
+  inline void SetData(::ArrayW<::HMUI::IconSegmentedControl_DataItem*, ::Array<::HMUI::IconSegmentedControl_DataItem*>*> dataItems);
 
-  constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> const& __cordl_internal_get__dataItems() const;
+  constexpr ::ArrayW<::HMUI::IconSegmentedControl_DataItem*, ::Array<::HMUI::IconSegmentedControl_DataItem*>*> const& __cordl_internal_get__dataItems() const;
 
-  constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*>& __cordl_internal_get__dataItems();
+  constexpr ::ArrayW<::HMUI::IconSegmentedControl_DataItem*, ::Array<::HMUI::IconSegmentedControl_DataItem*>*>& __cordl_internal_get__dataItems();
 
   constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
 
@@ -236,7 +229,7 @@ public:
 
   constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
 
-  constexpr void __cordl_internal_set__dataItems(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> value);
+  constexpr void __cordl_internal_set__dataItems(::ArrayW<::HMUI::IconSegmentedControl_DataItem*, ::Array<::HMUI::IconSegmentedControl_DataItem*>*> value);
 
   constexpr void __cordl_internal_set__firstCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
@@ -256,11 +249,11 @@ public:
 
   constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
-  /// @brief Method .ctor, addr 0x40279cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4088ce0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
-  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
+  /// @brief Convert to "::HMUI::SegmentedControl_IDataSource"
+  constexpr ::HMUI::SegmentedControl_IDataSource* i___HMUI__SegmentedControl_IDataSource() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -275,6 +268,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IconSegmentedControl(IconSegmentedControl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18789 };
 
   /// @brief Field _iconSize, offset: 0x80, size: 0x4, def value: None
   float_t ____iconSize;
@@ -301,19 +297,14 @@ public:
   ::UnityW<::HMUI::IconSegmentedControlCell> ____singleCellPrefab;
 
   /// @brief Field _dataItems, offset: 0xb0, size: 0x8, def value: None
-  ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> ____dataItems;
+  ::ArrayW<::HMUI::IconSegmentedControl_DataItem*, ::Array<::HMUI::IconSegmentedControl_DataItem*>*> ____dataItems;
 
   /// @brief Field _isInitialized, offset: 0xb8, size: 0x1, def value: None
   bool ____isInitialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18708 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControl, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::IconSegmentedControl, ____iconSize) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::IconSegmentedControl, ____overrideCellSize) == 0x84, "Offset mismatch!");
@@ -334,8 +325,10 @@ static_assert(offsetof(::HMUI::IconSegmentedControl, ____dataItems) == 0xb0, "Of
 
 static_assert(offsetof(::HMUI::IconSegmentedControl, ____isInitialized) == 0xb8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControl, 0xc0>, "Size mismatch!");
+
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::IconSegmentedControl);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::IconSegmentedControl*, "HMUI", "IconSegmentedControl");
-NEED_NO_BOX(::HMUI::__IconSegmentedControl__DataItem);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__IconSegmentedControl__DataItem*, "HMUI", "IconSegmentedControl/DataItem");
+NEED_NO_BOX(::HMUI::IconSegmentedControl_DataItem);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::IconSegmentedControl_DataItem*, "HMUI", "IconSegmentedControl/DataItem");

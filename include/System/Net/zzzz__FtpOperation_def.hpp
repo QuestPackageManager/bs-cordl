@@ -12,11 +12,10 @@ struct FtpOperation;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::FtpOperation);
-// Type: System.Net::FtpOperation
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::FtpOperation
+// CS Name: System.Net.FtpOperation
 struct CORDL_TYPE FtpOperation {
 public:
   // Declarations
@@ -57,63 +56,63 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FtpOperation(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AppendFile value: static_cast<int32_t>(0x5)
+  /// @brief Field AppendFile value: I32(5)
   static ::System::Net::FtpOperation const AppendFile;
 
-  /// @brief Field DeleteFile value: static_cast<int32_t>(0x6)
+  /// @brief Field DeleteFile value: I32(6)
   static ::System::Net::FtpOperation const DeleteFile;
 
-  /// @brief Field DownloadFile value: static_cast<int32_t>(0x0)
+  /// @brief Field DownloadFile value: I32(0)
   static ::System::Net::FtpOperation const DownloadFile;
 
-  /// @brief Field GetDateTimestamp value: static_cast<int32_t>(0x7)
+  /// @brief Field GetDateTimestamp value: I32(7)
   static ::System::Net::FtpOperation const GetDateTimestamp;
 
-  /// @brief Field GetFileSize value: static_cast<int32_t>(0x8)
+  /// @brief Field GetFileSize value: I32(8)
   static ::System::Net::FtpOperation const GetFileSize;
 
-  /// @brief Field ListDirectory value: static_cast<int32_t>(0x1)
+  /// @brief Field ListDirectory value: I32(1)
   static ::System::Net::FtpOperation const ListDirectory;
 
-  /// @brief Field ListDirectoryDetails value: static_cast<int32_t>(0x2)
+  /// @brief Field ListDirectoryDetails value: I32(2)
   static ::System::Net::FtpOperation const ListDirectoryDetails;
 
-  /// @brief Field MakeDirectory value: static_cast<int32_t>(0xa)
+  /// @brief Field MakeDirectory value: I32(10)
   static ::System::Net::FtpOperation const MakeDirectory;
 
-  /// @brief Field Other value: static_cast<int32_t>(0xd)
+  /// @brief Field Other value: I32(13)
   static ::System::Net::FtpOperation const Other;
 
-  /// @brief Field PrintWorkingDirectory value: static_cast<int32_t>(0xc)
+  /// @brief Field PrintWorkingDirectory value: I32(12)
   static ::System::Net::FtpOperation const PrintWorkingDirectory;
 
-  /// @brief Field RemoveDirectory value: static_cast<int32_t>(0xb)
+  /// @brief Field RemoveDirectory value: I32(11)
   static ::System::Net::FtpOperation const RemoveDirectory;
 
-  /// @brief Field Rename value: static_cast<int32_t>(0x9)
+  /// @brief Field Rename value: I32(9)
   static ::System::Net::FtpOperation const Rename;
 
-  /// @brief Field UploadFile value: static_cast<int32_t>(0x3)
+  /// @brief Field UploadFile value: I32(3)
   static ::System::Net::FtpOperation const UploadFile;
 
-  /// @brief Field UploadFileUnique value: static_cast<int32_t>(0x4)
+  /// @brief Field UploadFileUnique value: I32(4)
   static ::System::Net::FtpOperation const UploadFileUnique;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9560 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::FtpOperation, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::FtpOperation, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::FtpOperation, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpOperation, "System.Net", "FtpOperation");

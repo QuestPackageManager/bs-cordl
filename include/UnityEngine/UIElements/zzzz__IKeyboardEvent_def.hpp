@@ -16,11 +16,10 @@ class IKeyboardEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IKeyboardEvent);
-// Type: UnityEngine.UIElements::IKeyboardEvent
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::IKeyboardEvent*
+// CS Name: UnityEngine.UIElements.IKeyboardEvent
 class CORDL_TYPE IKeyboardEvent {
 public:
   // Declarations
@@ -30,25 +29,21 @@ public:
 
   __declspec(property(get = get_modifiers)) ::UnityEngine::EventModifiers modifiers;
 
-  /// @brief Method get_character, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_character, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline char16_t get_character();
 
-  /// @brief Method get_keyCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_keyCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
-  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_modifiers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IKeyboardEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IKeyboardEvent(IKeyboardEvent&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IKeyboardEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IKeyboardEvent(IKeyboardEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

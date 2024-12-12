@@ -22,11 +22,10 @@ struct InstantiationParameters;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters);
-// Type: UnityEngine.ResourceManagement.ResourceProviders::InstantiationParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 58, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::InstantiationParameters
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
 struct CORDL_TYPE InstantiationParameters {
 public:
   // Declarations
@@ -43,25 +42,25 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline TObject Instantiate(TObject source);
 
-  /// @brief Method .ctor, addr 0x473b650, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479c964, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
-  /// @brief Method .ctor, addr 0x473b700, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479ca14, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
-  /// @brief Method get_InstantiateInWorldPosition, addr 0x473b640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateInWorldPosition, addr 0x479c954, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateInWorldPosition();
 
-  /// @brief Method get_Parent, addr 0x473b638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x479c94c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Parent();
 
-  /// @brief Method get_Position, addr 0x473b620, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x479c934, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation, addr 0x473b62c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x479c940, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_SetPositionRotation, addr 0x473b648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SetPositionRotation, addr 0x479c95c, size 0x8, virtual false, abstract: false, final false
   inline bool get_SetPositionRotation();
 
   // Ctor Parameters []
@@ -73,6 +72,12 @@ public:
   // "", def_value: None }, CppParam { name: "m_SetPositionRotation", ty: "bool", modifiers: "", def_value: None }]
   constexpr InstantiationParameters(::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation, ::UnityW<::UnityEngine::Transform> m_Parent, bool m_InstantiateInWorldPosition,
                                     bool m_SetPositionRotation) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15658 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field m_Position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Position;
@@ -89,17 +94,9 @@ public:
   /// @brief Field m_SetPositionRotation, offset: 0x29, size: 0x1, def value: None
   bool m_SetPositionRotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15623 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, m_Position) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, m_Rotation) == 0xc, "Offset mismatch!");
@@ -109,6 +106,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Ins
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, m_InstantiateInWorldPosition) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, m_SetPositionRotation) == 0x29, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");

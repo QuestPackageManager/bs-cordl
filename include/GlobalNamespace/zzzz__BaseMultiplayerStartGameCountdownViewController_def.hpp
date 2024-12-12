@@ -32,11 +32,10 @@ class BaseMultiplayerStartGameCountdownViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController);
-// Type: ::BaseMultiplayerStartGameCountdownViewController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BaseMultiplayerStartGameCountdownViewController*
+// CS Name: BaseMultiplayerStartGameCountdownViewController
 class CORDL_TYPE BaseMultiplayerStartGameCountdownViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -56,24 +55,24 @@ public:
   /// @brief Field playerActiveStateChangedEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_playerActiveStateChangedEvent, put = __cordl_internal_set_playerActiveStateChangedEvent)) ::System::Action_1<bool>* playerActiveStateChangedEvent;
 
-  /// @brief Method DidActivate, addr 0x3bb743c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1a574, size 0x98, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bb74d4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c1a60c, size 0x1c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb74f0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c1a628, size 0x1c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetLevelGameplaySetupData, addr 0x3bb7218, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetLevelGameplaySetupData, addr 0x3c1a350, size 0x164, virtual false, abstract: false, final false
   inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method SetLobbyPlayerData, addr 0x3bb737c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetLobbyPlayerData, addr 0x3c1a4b4, size 0xc0, virtual true, abstract: false, final false
   inline void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method <DidActivate>b__9_0, addr 0x3bb756c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__9_0, addr 0x3c1a6a4, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_0(bool value);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
@@ -88,13 +87,13 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
 
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
+
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+  constexpr ::System::Action_1<bool>* const& __cordl_internal_get_playerActiveStateChangedEvent() const;
 
   constexpr ::System::Action_1<bool>*& __cordl_internal_get_playerActiveStateChangedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_playerActiveStateChangedEvent() const;
 
   constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value);
 
@@ -106,13 +105,13 @@ public:
 
   constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3bb750c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1a644, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerActiveStateChangedEvent, addr 0x3bb70b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerActiveStateChangedEvent, addr 0x3c1a1f0, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x3bb7168, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x3c1a2a0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -129,6 +128,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseMultiplayerStartGameCountdownViewController(BaseMultiplayerStartGameCountdownViewController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4921 };
+
   /// @brief Field _beatmapSelectionView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapSelectionView> ____beatmapSelectionView;
 
@@ -144,14 +146,9 @@ public:
   /// @brief Field _toggleBinder, offset: 0x98, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4901 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController, ____beatmapSelectionView) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController, ____modifiersSelectionView) == 0x80, "Offset mismatch!");
@@ -161,6 +158,8 @@ static_assert(offsetof(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewC
 static_assert(offsetof(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController, ___playerActiveStateChangedEvent) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController, ____toggleBinder) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController);

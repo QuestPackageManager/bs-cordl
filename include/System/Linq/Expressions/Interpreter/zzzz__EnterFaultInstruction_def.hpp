@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__IndexedBranchInstruction_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnterFaultInstruction)
@@ -17,11 +16,10 @@ class EnterFaultInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::EnterFaultInstruction);
-// Type: System.Linq.Expressions.Interpreter::EnterFaultInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.IndexedBranchInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::EnterFaultInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.EnterFaultInstruction
 class CORDL_TYPE EnterFaultInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction {
 public:
   // Declarations
@@ -30,28 +28,27 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_s_cache,
-      put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*>*>
+  __declspec(property(get = getStaticF_s_cache,
+                      put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*>*>
       s_cache;
 
-  /// @brief Method Create, addr 0x4062700, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40c3a14, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterFaultInstruction* Create(int32_t labelIndex);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterFaultInstruction* New_ctor(int32_t labelIndex);
 
-  /// @brief Method Run, addr 0x40627f4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c3b08, size 0x48, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4062690, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c39a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_InstructionName, addr 0x40626b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c39cc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40626f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c3a0c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*>*> value);
@@ -71,7 +68,7 @@ public:
   EnterFaultInstruction(EnterFaultInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13787 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

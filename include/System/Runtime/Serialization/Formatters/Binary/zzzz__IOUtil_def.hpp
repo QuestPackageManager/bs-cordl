@@ -24,21 +24,20 @@ class IOUtil;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::IOUtil);
-// Type: System.Runtime.Serialization.Formatters.Binary::IOUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::IOUtil*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.IOUtil
 class CORDL_TYPE IOUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FlagTest, addr 0x3c9e6e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FlagTest, addr 0x3cfe85c, size 0xc, virtual false, abstract: false, final false
   static inline bool FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target);
 
-  /// @brief Method WriteStringWithCode, addr 0x3c9e6f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteStringWithCode, addr 0x3cfe868, size 0x74, virtual false, abstract: false, final false
   static inline void WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method WriteWithCode, addr 0x3c9e768, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method WriteWithCode, addr 0x3cfe8dc, size 0x12c, virtual false, abstract: false, final false
   static inline void WriteWithCode(::System::Type* type, ::System::Object* value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
 protected:

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Span_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueListBuilder_1)
@@ -20,13 +19,12 @@ template <typename T> struct ValueListBuilder_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Collections::Generic::ValueListBuilder_1);
-// Type: System.Collections.Generic::ValueListBuilder`1
-// SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Span`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::System.Collections.Generic::ValueListBuilder`1<T>
+// CS Name: System.Collections.Generic.ValueListBuilder`1<T>
 struct CORDL_TYPE ValueListBuilder_1 {
 public:
   // Declarations
@@ -58,6 +56,12 @@ public:
   // None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T, ::Array<T>*> _arrayFromPool, int32_t _pos) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3858 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field _span, offset: 0x0, size: 0x10, def value: None
   ::System::Span_1<T> _span;
 
@@ -66,12 +70,6 @@ public:
 
   /// @brief Field _pos, offset: 0x18, size: 0x4, def value: None
   int32_t _pos;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3858 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

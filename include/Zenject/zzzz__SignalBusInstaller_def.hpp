@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__Installer_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalBusInstaller)
 namespace System {
 class Object;
@@ -18,26 +17,25 @@ class SignalBusInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalBusInstaller);
-// Type: Zenject::SignalBusInstaller
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.Installer`1<TDerived>
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::SignalBusInstaller*
+// CS Name: Zenject.SignalBusInstaller
 class CORDL_TYPE SignalBusInstaller : public ::Zenject::Installer_1<::Zenject::SignalBusInstaller*> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x4a97b9c, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4afc4ac, size 0x180, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::SignalBusInstaller* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4a97d80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afc690, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a97dd0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afc6e0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a97d38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afc648, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +53,7 @@ public:
   SignalBusInstaller(SignalBusInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

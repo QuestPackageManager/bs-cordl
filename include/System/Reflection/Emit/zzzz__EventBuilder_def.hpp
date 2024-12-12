@@ -11,11 +11,10 @@ class EventBuilder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Emit::EventBuilder);
-// Type: System.Reflection.Emit::EventBuilder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Reflection::Emit {
 // Is value type: false
-// CS Name: ::System.Reflection.Emit::EventBuilder*
+// CS Name: System.Reflection.Emit.EventBuilder
 class CORDL_TYPE EventBuilder : public ::System::Object {
 public:
   // Declarations

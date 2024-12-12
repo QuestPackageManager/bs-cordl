@@ -18,11 +18,10 @@ class GUIContent;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::GUIContent);
-// Type: UnityEngine::GUIContent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::GUIContent*
+// CS Name: UnityEngine.GUIContent
 class CORDL_TYPE GUIContent : public ::System::Object {
 public:
   // Declarations
@@ -41,39 +40,41 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Tooltip, put = __cordl_internal_set_m_Tooltip)) ::StringW m_Tooltip;
 
   /// @brief Field none, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_none, put = setStaticF_none)) ::UnityEngine::GUIContent* none;
+  __declspec(property(get = getStaticF_none, put = setStaticF_none)) ::UnityEngine::GUIContent* none;
 
   /// @brief Field s_Image, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Image, put = setStaticF_s_Image)) ::UnityEngine::GUIContent* s_Image;
+  __declspec(property(get = getStaticF_s_Image, put = setStaticF_s_Image)) ::UnityEngine::GUIContent* s_Image;
 
   /// @brief Field s_Text, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Text, put = setStaticF_s_Text)) ::UnityEngine::GUIContent* s_Text;
+  __declspec(property(get = getStaticF_s_Text, put = setStaticF_s_Text)) ::UnityEngine::GUIContent* s_Text;
 
   /// @brief Field s_TextImage, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_TextImage, put = setStaticF_s_TextImage)) ::UnityEngine::GUIContent* s_TextImage;
+  __declspec(property(get = getStaticF_s_TextImage, put = setStaticF_s_TextImage)) ::UnityEngine::GUIContent* s_TextImage;
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
   __declspec(property(get = get_tooltip, put = set_tooltip)) ::StringW tooltip;
 
-  /// @brief Method ClearStaticCache, addr 0x487622c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ClearStaticCache, addr 0x48d7db8, size 0xa0, virtual false, abstract: false, final false
   static inline void ClearStaticCache();
 
   static inline ::UnityEngine::GUIContent* New_ctor();
+
+  static inline ::UnityEngine::GUIContent* New_ctor(::UnityEngine::GUIContent* src);
 
   static inline ::UnityEngine::GUIContent* New_ctor(::StringW text);
 
   static inline ::UnityEngine::GUIContent* New_ctor(::StringW text, ::UnityEngine::Texture* image, ::StringW tooltip);
 
-  /// @brief Method Temp, addr 0x4874914, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Temp, addr 0x48d5ee8, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIContent* Temp(::StringW t);
 
-  /// @brief Method ToString, addr 0x48762cc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48d7e58, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  constexpr ::System::Action*& __cordl_internal_get_OnTextChanged();
+  constexpr ::System::Action* const& __cordl_internal_get_OnTextChanged() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_OnTextChanged() const;
+  constexpr ::System::Action*& __cordl_internal_get_OnTextChanged();
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Image() const;
 
@@ -95,13 +96,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Tooltip(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48760e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d7bdc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x487613c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d7d28, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::GUIContent* src);
+
+  /// @brief Method .ctor, addr 0x48d7c38, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x48761a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d7c9c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::Texture* image, ::StringW tooltip);
 
   static inline ::UnityEngine::GUIContent* getStaticF_none();
@@ -112,10 +116,10 @@ public:
 
   static inline ::UnityEngine::GUIContent* getStaticF_s_TextImage();
 
-  /// @brief Method get_text, addr 0x4876070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x48d7b6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_tooltip, addr 0x4875154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tooltip, addr 0x48d6728, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_tooltip();
 
   static inline void setStaticF_none(::UnityEngine::GUIContent* value);
@@ -126,13 +130,13 @@ public:
 
   static inline void setStaticF_s_TextImage(::UnityEngine::GUIContent* value);
 
-  /// @brief Method set_image, addr 0x48760d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_image, addr 0x48d7bcc, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::Texture* value);
 
-  /// @brief Method set_text, addr 0x4876078, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x48d7b74, size 0x58, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_tooltip, addr 0x48760d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x48d7bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:
@@ -149,6 +153,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GUIContent(GUIContent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16633 };
+
   /// @brief Field m_Text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Text;
 
@@ -161,14 +168,9 @@ public:
   /// @brief Field OnTextChanged, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___OnTextChanged;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16597 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIContent, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::GUIContent, ___m_Text) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::GUIContent, ___m_Image) == 0x18, "Offset mismatch!");
@@ -176,6 +178,8 @@ static_assert(offsetof(::UnityEngine::GUIContent, ___m_Image) == 0x18, "Offset m
 static_assert(offsetof(::UnityEngine::GUIContent, ___m_Tooltip) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::GUIContent, ___OnTextChanged) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIContent, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GUIContent);

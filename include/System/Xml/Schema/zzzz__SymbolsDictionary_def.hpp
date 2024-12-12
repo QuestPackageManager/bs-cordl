@@ -31,11 +31,10 @@ class SymbolsDictionary;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SymbolsDictionary);
-// Type: System.Xml.Schema::SymbolsDictionary
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::SymbolsDictionary*
+// CS Name: System.Xml.Schema.SymbolsDictionary
 class CORDL_TYPE SymbolsDictionary : public ::System::Object {
 public:
   // Declarations
@@ -63,25 +62,25 @@ public:
   /// @brief Field wildcards, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards)) ::System::Collections::Hashtable* wildcards;
 
-  /// @brief Method AddName, addr 0x4337a8c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x4398da0, size 0x134, virtual false, abstract: false, final false
   inline int32_t AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
 
-  /// @brief Method AddNamespaceList, addr 0x4337bc0, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method AddNamespaceList, addr 0x4398ed4, size 0x3a0, virtual false, abstract: false, final false
   inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, bool allowLocal);
 
-  /// @brief Method AddWildcard, addr 0x4337f60, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddWildcard, addr 0x4399274, size 0x164, virtual false, abstract: false, final false
   inline void AddWildcard(::StringW wildcard, ::System::Object* particle);
 
-  /// @brief Method Exists, addr 0x4338920, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x4399c34, size 0x30, virtual false, abstract: false, final false
   inline bool Exists(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetNamespaceListSymbols, addr 0x43380c4, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceListSymbols, addr 0x43993d8, size 0x7a4, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
 
-  /// @brief Method GetParticle, addr 0x4338950, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetParticle, addr 0x4399c64, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* GetParticle(int32_t symbol);
 
-  /// @brief Method NameOf, addr 0x433898c, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method NameOf, addr 0x4399ca0, size 0x6d4, virtual false, abstract: false, final false
   inline ::StringW NameOf(int32_t symbol);
 
   static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
@@ -94,21 +93,21 @@ public:
 
   constexpr int32_t& __cordl_internal_get_last();
 
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_names() const;
+
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_names();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_names() const;
+  constexpr ::System::Object* const& __cordl_internal_get_particleLast() const;
 
   constexpr ::System::Object*& __cordl_internal_get_particleLast();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particleLast() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_particles() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_particles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_particles() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_wildcards() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_wildcards();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_wildcards() const;
 
   constexpr void __cordl_internal_set_isUpaEnforced(bool value);
 
@@ -122,19 +121,19 @@ public:
 
   constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x43379cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4398ce0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x4337a6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4398d80, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsUpaEnforced, addr 0x4337a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpaEnforced, addr 0x4398d8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUpaEnforced();
 
-  /// @brief Method get_Item, addr 0x4338868, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4399b7c, size 0xb8, virtual false, abstract: false, final false
   inline int32_t get_Item(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method set_IsUpaEnforced, addr 0x4337a80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsUpaEnforced, addr 0x4398d94, size 0xc, virtual false, abstract: false, final false
   inline void set_IsUpaEnforced(bool value);
 
 protected:
@@ -150,6 +149,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SymbolsDictionary", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SymbolsDictionary(SymbolsDictionary const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7491 };
 
   /// @brief Field last, offset: 0x10, size: 0x4, def value: None
   int32_t ___last;
@@ -169,14 +171,9 @@ public:
   /// @brief Field isUpaEnforced, offset: 0x38, size: 0x1, def value: None
   bool ___isUpaEnforced;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7466 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SymbolsDictionary, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::SymbolsDictionary, ___last) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::SymbolsDictionary, ___names) == 0x18, "Offset mismatch!");
@@ -188,6 +185,8 @@ static_assert(offsetof(::System::Xml::Schema::SymbolsDictionary, ___particles) =
 static_assert(offsetof(::System::Xml::Schema::SymbolsDictionary, ___particleLast) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::SymbolsDictionary, ___isUpaEnforced) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SymbolsDictionary, 0x40>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::SymbolsDictionary);

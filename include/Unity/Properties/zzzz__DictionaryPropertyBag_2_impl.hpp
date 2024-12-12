@@ -16,13 +16,13 @@ template <typename TKey, typename TValue> inline ::System::Collections::Generic:
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey, TValue>*, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline ::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>* Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>());
-}
 template <typename TKey, typename TValue> inline void Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TKey, typename TValue> inline ::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>* Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>());
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>::DictionaryPropertyBag_2() {}

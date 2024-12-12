@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SendInvitesResult)
 namespace Oculus::Platform::Models {
 class ApplicationInviteList;
@@ -18,11 +17,10 @@ class SendInvitesResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::SendInvitesResult);
-// Type: Oculus.Platform.Models::SendInvitesResult
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::SendInvitesResult*
+// CS Name: Oculus.Platform.Models.SendInvitesResult
 class CORDL_TYPE SendInvitesResult : public ::System::Object {
 public:
   // Declarations
@@ -31,13 +29,13 @@ public:
 
   static inline ::Oculus::Platform::Models::SendInvitesResult* New_ctor(::System::IntPtr o);
 
-  constexpr ::Oculus::Platform::Models::ApplicationInviteList*& __cordl_internal_get_Invites();
+  constexpr ::Oculus::Platform::Models::ApplicationInviteList* const& __cordl_internal_get_Invites() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::ApplicationInviteList*> const& __cordl_internal_get_Invites() const;
+  constexpr ::Oculus::Platform::Models::ApplicationInviteList*& __cordl_internal_get_Invites();
 
   constexpr void __cordl_internal_set_Invites(::Oculus::Platform::Models::ApplicationInviteList* value);
 
-  /// @brief Method .ctor, addr 0x3f32480, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9252c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -54,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SendInvitesResult(SendInvitesResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15562 };
+
   /// @brief Field Invites, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::ApplicationInviteList* ___Invites;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SendInvitesResult, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::SendInvitesResult, ___Invites) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SendInvitesResult, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::SendInvitesResult);

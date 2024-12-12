@@ -14,11 +14,10 @@ class X9ECParametersHolder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);
-// Type: Org.BouncyCastle.Asn1.X9::X9ECParametersHolder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X9::X9ECParametersHolder*
+// CS Name: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 class CORDL_TYPE X9ECParametersHolder : public ::System::Object {
 public:
   // Declarations
@@ -27,21 +26,21 @@ public:
   /// @brief Field parameters, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters;
 
-  /// @brief Method CreateParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* New_ctor();
 
-  constexpr ::Org::BouncyCastle::Asn1::X9::X9ECParameters*& __cordl_internal_get_parameters();
+  constexpr ::Org::BouncyCastle::Asn1::X9::X9ECParameters* const& __cordl_internal_get_parameters() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::X9ECParameters*> const& __cordl_internal_get_parameters() const;
+  constexpr ::Org::BouncyCastle::Asn1::X9::X9ECParameters*& __cordl_internal_get_parameters();
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
 
-  /// @brief Method .ctor, addr 0x22bc86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22efb58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Parameters, addr 0x22bc59c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x22ef888, size 0xb8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X9ECParametersHolder(X9ECParametersHolder const&) = delete;
 
-  /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X9::X9ECParameters* ___parameters;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3 };
+
+  /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::X9::X9ECParameters* ___parameters;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, ___parameters) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);

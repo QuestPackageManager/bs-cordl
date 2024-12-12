@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::CIELabColor::*)(float_t, float_t, float_t)>(
     &::UnityEngine::ProBuilder::CIELabColor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46a3904;
+  constexpr static std::size_t addrs = 0x4704c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::ProBuilder::XYZColor*)>(
     &::UnityEngine::ProBuilder::CIELabColor::FromXYZ)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x46a3940;
+  constexpr static std::size_t addrs = 0x4704c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::Color)>(
     &::UnityEngine::ProBuilder::CIELabColor::FromRGB)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x46a3b1c;
+  constexpr static std::size_t addrs = 0x4704e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::CIELabColor::*)()>(&::UnityEngine::ProBuilder::CIELabColor::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x46a3ba8;
+  constexpr static std::size_t addrs = 0x4704ebc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,9 +100,6 @@ constexpr void UnityEngine::ProBuilder::CIELabColor::__cordl_internal_set_b(floa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
-inline ::UnityEngine::ProBuilder::CIELabColor* UnityEngine::ProBuilder::CIELabColor::New_ctor(float_t L, float_t a, float_t b) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::CIELabColor*>(L, a, b));
-}
 inline void UnityEngine::ProBuilder::CIELabColor::_ctor(float_t L, float_t a, float_t b) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::CIELabColor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -126,6 +123,9 @@ inline ::StringW UnityEngine::ProBuilder::CIELabColor::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::CIELabColor*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ProBuilder::CIELabColor* UnityEngine::ProBuilder::CIELabColor::New_ctor(float_t L, float_t a, float_t b) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::CIELabColor*>(L, a, b));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::CIELabColor::CIELabColor() {}

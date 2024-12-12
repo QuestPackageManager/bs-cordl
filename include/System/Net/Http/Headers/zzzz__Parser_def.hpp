@@ -4,43 +4,41 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Parser)
-namespace GlobalNamespace {
-class __Parser__DateTime____c;
-}
-namespace GlobalNamespace {
-class __Parser__MD5____c;
+namespace System::Net::Http::Headers {
+class DateTime_Parser___c;
 }
 namespace System::Net::Http::Headers {
-class __Parser__DateTime;
+class MD5_Parser___c;
 }
 namespace System::Net::Http::Headers {
-class __Parser__EmailAddress;
+class Parser_DateTime;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Host;
+class Parser_EmailAddress;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Int;
+class Parser_Host;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Long;
+class Parser_Int;
 }
 namespace System::Net::Http::Headers {
-class __Parser__MD5;
+class Parser_Long;
 }
 namespace System::Net::Http::Headers {
-class __Parser__TimeSpanSeconds;
+class Parser_MD5;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Token;
+class Parser_TimeSpanSeconds;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Uri;
+class Parser_Token;
+}
+namespace System::Net::Http::Headers {
+class Parser_Uri;
 }
 namespace System {
 struct DateTimeOffset;
@@ -58,153 +56,150 @@ namespace System {
 class Uri;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-class __Parser__DateTime____c;
+namespace System::Net::Http::Headers {
+class DateTime_Parser___c;
 }
-namespace GlobalNamespace {
-class __Parser__MD5____c;
+namespace System::Net::Http::Headers {
+class MD5_Parser___c;
 }
 namespace System::Net::Http::Headers {
 class Parser;
 }
 namespace System::Net::Http::Headers {
-class __Parser__DateTime;
+class Parser_DateTime;
 }
 namespace System::Net::Http::Headers {
-class __Parser__EmailAddress;
+class Parser_EmailAddress;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Host;
+class Parser_Host;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Int;
+class Parser_Int;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Long;
+class Parser_Long;
 }
 namespace System::Net::Http::Headers {
-class __Parser__MD5;
+class Parser_MD5;
 }
 namespace System::Net::Http::Headers {
-class __Parser__TimeSpanSeconds;
+class Parser_TimeSpanSeconds;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Token;
+class Parser_Token;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Uri;
+class Parser_Uri;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::__Parser__DateTime____c);
-MARK_REF_PTR_T(::GlobalNamespace::__Parser__MD5____c);
+MARK_REF_PTR_T(::System::Net::Http::Headers::DateTime_Parser___c);
+MARK_REF_PTR_T(::System::Net::Http::Headers::MD5_Parser___c);
 MARK_REF_PTR_T(::System::Net::Http::Headers::Parser);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__DateTime);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__EmailAddress);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Host);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Int);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Long);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__MD5);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__TimeSpanSeconds);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Token);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Uri);
-// Type: ::Token
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_DateTime);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_EmailAddress);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_Host);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_Int);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_Long);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_MD5);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_TimeSpanSeconds);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_Token);
+MARK_REF_PTR_T(::System::Net::Http::Headers::Parser_Uri);
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::Token*
-class CORDL_TYPE __Parser__Token : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/Token
+class CORDL_TYPE Parser_Token : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x41b70dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x42183f0, size 0xf4, virtual false, abstract: false, final false
   static inline void Check(::StringW s);
 
-  /// @brief Method TryCheck, addr 0x41bf744, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryCheck, addr 0x4220a58, size 0x68, virtual false, abstract: false, final false
   static inline bool TryCheck(::StringW s);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__Token();
+  constexpr Parser_Token();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Token", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Token", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__Token(__Parser__Token&&) = delete;
+  Parser_Token(Parser_Token&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Token", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Token", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__Token(__Parser__Token const&) = delete;
+  Parser_Token(Parser_Token const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__Token, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_Token, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Object
+namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::DateTime::<>c*
-class CORDL_TYPE __Parser__DateTime____c : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/DateTime/<>c
+class CORDL_TYPE DateTime_Parser___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__Parser__DateTime____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Http::Headers::DateTime_Parser___c* __9;
 
-  static inline ::GlobalNamespace::__Parser__DateTime____c* New_ctor();
+  static inline ::System::Net::Http::Headers::DateTime_Parser___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x41c2660, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x4223974, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x41c2658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x422396c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__Parser__DateTime____c* getStaticF___9();
+  static inline ::System::Net::Http::Headers::DateTime_Parser___c* getStaticF___9();
 
-  static inline void setStaticF___9(::GlobalNamespace::__Parser__DateTime____c* value);
+  static inline void setStaticF___9(::System::Net::Http::Headers::DateTime_Parser___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__DateTime____c();
+  constexpr DateTime_Parser___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__DateTime____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTime_Parser___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__DateTime____c(__Parser__DateTime____c&&) = delete;
+  DateTime_Parser___c(DateTime_Parser___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__DateTime____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTime_Parser___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__DateTime____c(__Parser__DateTime____c const&) = delete;
+  DateTime_Parser___c(DateTime_Parser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__DateTime____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::DateTime_Parser___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::DateTime
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Net::Http::Headers
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::DateTime*
-class CORDL_TYPE __Parser__DateTime : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/DateTime
+class CORDL_TYPE Parser_DateTime : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__Parser__DateTime____c;
+  using __c = ::System::Net::Http::Headers::DateTime_Parser___c;
 
   /// @brief Field ToString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
+  __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x41c24d4, size 0x64, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::System::DateTimeOffset> result);
+  /// @brief Method TryParse, addr 0x42237e8, size 0x64, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<::System::DateTimeOffset> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
 
@@ -213,223 +208,217 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__DateTime();
+  constexpr Parser_DateTime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__DateTime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_DateTime", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__DateTime(__Parser__DateTime&&) = delete;
+  Parser_DateTime(Parser_DateTime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__DateTime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_DateTime", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__DateTime(__Parser__DateTime const&) = delete;
+  Parser_DateTime(Parser_DateTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__DateTime, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_DateTime, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::EmailAddress
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::EmailAddress*
-class CORDL_TYPE __Parser__EmailAddress : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/EmailAddress
+class CORDL_TYPE Parser_EmailAddress : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x41c2750, size 0xe0, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::StringW> result);
+  /// @brief Method TryParse, addr 0x4223a64, size 0xe0, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<::StringW> result);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__EmailAddress();
+  constexpr Parser_EmailAddress();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__EmailAddress", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_EmailAddress", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__EmailAddress(__Parser__EmailAddress&&) = delete;
+  Parser_EmailAddress(Parser_EmailAddress&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__EmailAddress", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_EmailAddress", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__EmailAddress(__Parser__EmailAddress const&) = delete;
+  Parser_EmailAddress(Parser_EmailAddress const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16727 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__EmailAddress, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_EmailAddress, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::Host
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::Host*
-class CORDL_TYPE __Parser__Host : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/Host
+class CORDL_TYPE Parser_Host : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x41c2830, size 0xc8, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::StringW> result);
+  /// @brief Method TryParse, addr 0x4223b44, size 0xc8, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<::StringW> result);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__Host();
+  constexpr Parser_Host();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Host", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Host", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__Host(__Parser__Host&&) = delete;
+  Parser_Host(Parser_Host&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Host", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Host", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__Host(__Parser__Host const&) = delete;
+  Parser_Host(Parser_Host const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__Host, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_Host, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::Int
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::Int*
-class CORDL_TYPE __Parser__Int : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/Int
+class CORDL_TYPE Parser_Int : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x41c28f8, size 0x78, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<int32_t> result);
+  /// @brief Method TryParse, addr 0x4223c0c, size 0x78, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<int32_t> result);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__Int();
+  constexpr Parser_Int();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Int", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Int", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__Int(__Parser__Int&&) = delete;
+  Parser_Int(Parser_Int&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Int", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Int", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__Int(__Parser__Int const&) = delete;
+  Parser_Int(Parser_Int const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__Int, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_Int, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::Long
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::Long*
-class CORDL_TYPE __Parser__Long : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/Long
+class CORDL_TYPE Parser_Long : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x41c2970, size 0x78, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<int64_t> result);
+  /// @brief Method TryParse, addr 0x4223c84, size 0x78, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<int64_t> result);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__Long();
+  constexpr Parser_Long();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Long", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Long", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__Long(__Parser__Long&&) = delete;
+  Parser_Long(Parser_Long&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Long", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Long", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__Long(__Parser__Long const&) = delete;
+  Parser_Long(Parser_Long const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__Long, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_Long, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Object
+namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::MD5::<>c*
-class CORDL_TYPE __Parser__MD5____c : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/MD5/<>c
+class CORDL_TYPE MD5_Parser___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__Parser__MD5____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Http::Headers::MD5_Parser___c* __9;
 
-  static inline ::GlobalNamespace::__Parser__MD5____c* New_ctor();
+  static inline ::System::Net::Http::Headers::MD5_Parser___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x41c2c00, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x4223f14, size 0x94, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x41c2bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4223f0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__Parser__MD5____c* getStaticF___9();
+  static inline ::System::Net::Http::Headers::MD5_Parser___c* getStaticF___9();
 
-  static inline void setStaticF___9(::GlobalNamespace::__Parser__MD5____c* value);
+  static inline void setStaticF___9(::System::Net::Http::Headers::MD5_Parser___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__MD5____c();
+  constexpr MD5_Parser___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__MD5____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MD5_Parser___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__MD5____c(__Parser__MD5____c&&) = delete;
+  MD5_Parser___c(MD5_Parser___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__MD5____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MD5_Parser___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__MD5____c(__Parser__MD5____c const&) = delete;
+  MD5_Parser___c(MD5_Parser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__MD5____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::MD5_Parser___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::MD5
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Net::Http::Headers
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::MD5*
-class CORDL_TYPE __Parser__MD5 : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/MD5
+class CORDL_TYPE Parser_MD5 : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__Parser__MD5____c;
+  using __c = ::System::Net::Http::Headers::MD5_Parser___c;
 
   /// @brief Field ToString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
+  __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x41c29e8, size 0xf0, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> result);
+  /// @brief Method TryParse, addr 0x4223cfc, size 0xf0, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
 
@@ -438,119 +427,116 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__MD5();
+  constexpr Parser_MD5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__MD5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_MD5", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__MD5(__Parser__MD5&&) = delete;
+  Parser_MD5(Parser_MD5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__MD5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_MD5", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__MD5(__Parser__MD5 const&) = delete;
+  Parser_MD5(Parser_MD5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__MD5, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_MD5, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::TimeSpanSeconds
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::TimeSpanSeconds*
-class CORDL_TYPE __Parser__TimeSpanSeconds : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/TimeSpanSeconds
+class CORDL_TYPE Parser_TimeSpanSeconds : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x41c2c94, size 0xb0, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::System::TimeSpan> result);
+  /// @brief Method TryParse, addr 0x4223fa8, size 0xb0, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<::System::TimeSpan> result);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__TimeSpanSeconds();
+  constexpr Parser_TimeSpanSeconds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__TimeSpanSeconds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_TimeSpanSeconds", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__TimeSpanSeconds(__Parser__TimeSpanSeconds&&) = delete;
+  Parser_TimeSpanSeconds(Parser_TimeSpanSeconds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__TimeSpanSeconds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_TimeSpanSeconds", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__TimeSpanSeconds(__Parser__TimeSpanSeconds const&) = delete;
+  Parser_TimeSpanSeconds(Parser_TimeSpanSeconds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__TimeSpanSeconds, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_TimeSpanSeconds, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: ::Uri
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::Parser::Uri*
-class CORDL_TYPE __Parser__Uri : public ::System::Object {
+// CS Name: System.Net.Http.Headers.Parser/Uri
+class CORDL_TYPE Parser_Uri : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x41c2d44, size 0x6c, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::System::Uri*> result);
+  /// @brief Method TryParse, addr 0x4224058, size 0x6c, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ::ByRef<::System::Uri*> result);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Parser__Uri();
+  constexpr Parser_Uri();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Uri", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Uri", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Parser__Uri(__Parser__Uri&&) = delete;
+  Parser_Uri(Parser_Uri&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Parser__Uri", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parser_Uri", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Parser__Uri(__Parser__Uri const&) = delete;
+  Parser_Uri(Parser_Uri const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Parser__Uri, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser_Uri, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: System.Net.Http.Headers::Parser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::Parser*
+// CS Name: System.Net.Http.Headers.Parser
 class CORDL_TYPE Parser : public ::System::Object {
 public:
   // Declarations
-  using DateTime = ::System::Net::Http::Headers::__Parser__DateTime;
+  using DateTime = ::System::Net::Http::Headers::Parser_DateTime;
 
-  using EmailAddress = ::System::Net::Http::Headers::__Parser__EmailAddress;
+  using EmailAddress = ::System::Net::Http::Headers::Parser_EmailAddress;
 
-  using Host = ::System::Net::Http::Headers::__Parser__Host;
+  using Host = ::System::Net::Http::Headers::Parser_Host;
 
-  using Int = ::System::Net::Http::Headers::__Parser__Int;
+  using Int = ::System::Net::Http::Headers::Parser_Int;
 
-  using Long = ::System::Net::Http::Headers::__Parser__Long;
+  using Long = ::System::Net::Http::Headers::Parser_Long;
 
-  using MD5 = ::System::Net::Http::Headers::__Parser__MD5;
+  using MD5 = ::System::Net::Http::Headers::Parser_MD5;
 
-  using TimeSpanSeconds = ::System::Net::Http::Headers::__Parser__TimeSpanSeconds;
+  using TimeSpanSeconds = ::System::Net::Http::Headers::Parser_TimeSpanSeconds;
 
-  using Token = ::System::Net::Http::Headers::__Parser__Token;
+  using Token = ::System::Net::Http::Headers::Parser_Token;
 
-  using Uri = ::System::Net::Http::Headers::__Parser__Uri;
+  using Uri = ::System::Net::Http::Headers::Parser_Uri;
 
 protected:
   // Ctor Parameters []
@@ -567,7 +553,7 @@ public:
   Parser(Parser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -575,27 +561,27 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Parser, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-NEED_NO_BOX(::GlobalNamespace::__Parser__DateTime____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__Parser__DateTime____c*, "System.Net.Http.Headers", "Parser/DateTime/<>c");
-NEED_NO_BOX(::GlobalNamespace::__Parser__MD5____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__Parser__MD5____c*, "System.Net.Http.Headers", "Parser/MD5/<>c");
+NEED_NO_BOX(::System::Net::Http::Headers::DateTime_Parser___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::DateTime_Parser___c*, "System.Net.Http.Headers", "Parser/DateTime/<>c");
+NEED_NO_BOX(::System::Net::Http::Headers::MD5_Parser___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::MD5_Parser___c*, "System.Net.Http.Headers", "Parser/MD5/<>c");
 NEED_NO_BOX(::System::Net::Http::Headers::Parser);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser*, "System.Net.Http.Headers", "Parser");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__DateTime);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__DateTime*, "System.Net.Http.Headers", "Parser/DateTime");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__EmailAddress);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__EmailAddress*, "System.Net.Http.Headers", "Parser/EmailAddress");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__Host);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__Host*, "System.Net.Http.Headers", "Parser/Host");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__Int);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__Int*, "System.Net.Http.Headers", "Parser/Int");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__Long);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__Long*, "System.Net.Http.Headers", "Parser/Long");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__MD5);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__MD5*, "System.Net.Http.Headers", "Parser/MD5");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__TimeSpanSeconds);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__TimeSpanSeconds*, "System.Net.Http.Headers", "Parser/TimeSpanSeconds");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__Token);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__Token*, "System.Net.Http.Headers", "Parser/Token");
-NEED_NO_BOX(::System::Net::Http::Headers::__Parser__Uri);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__Parser__Uri*, "System.Net.Http.Headers", "Parser/Uri");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_DateTime);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_DateTime*, "System.Net.Http.Headers", "Parser/DateTime");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_EmailAddress);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_EmailAddress*, "System.Net.Http.Headers", "Parser/EmailAddress");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_Host);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_Host*, "System.Net.Http.Headers", "Parser/Host");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_Int);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_Int*, "System.Net.Http.Headers", "Parser/Int");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_Long);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_Long*, "System.Net.Http.Headers", "Parser/Long");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_MD5);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_MD5*, "System.Net.Http.Headers", "Parser/MD5");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_TimeSpanSeconds);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_TimeSpanSeconds*, "System.Net.Http.Headers", "Parser/TimeSpanSeconds");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_Token);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_Token*, "System.Net.Http.Headers", "Parser/Token");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser_Uri);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser_Uri*, "System.Net.Http.Headers", "Parser/Uri");

@@ -12,221 +12,217 @@
 #include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.get_positionActionReference
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration.get_positionActionReference
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (
-    ::GlobalNamespace::__UnityXRController__Configuration::*)()>(&::GlobalNamespace::__UnityXRController__Configuration::get_positionActionReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (::GlobalNamespace::UnityXRController_Configuration::*)()>(
+    &::GlobalNamespace::UnityXRController_Configuration::get_positionActionReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f4c;
+  constexpr static std::size_t addrs = 0x39cf9e4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                                "get_positionActionReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.set_positionActionReference
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration.set_positionActionReference
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityXRController__Configuration::*)(::UnityEngine::InputSystem::InputActionReference*)>(
-    &::GlobalNamespace::__UnityXRController__Configuration::set_positionActionReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController_Configuration::*)(::UnityEngine::InputSystem::InputActionReference*)>(
+    &::GlobalNamespace::UnityXRController_Configuration::set_positionActionReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f54;
+  constexpr static std::size_t addrs = 0x39cf9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "set_positionActionReference", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "set_positionActionReference", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.get_orientationActionReference
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration.get_orientationActionReference
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (
-    ::GlobalNamespace::__UnityXRController__Configuration::*)()>(&::GlobalNamespace::__UnityXRController__Configuration::get_orientationActionReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (::GlobalNamespace::UnityXRController_Configuration::*)()>(
+    &::GlobalNamespace::UnityXRController_Configuration::get_orientationActionReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f5c;
+  constexpr static std::size_t addrs = 0x39cf9f4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                                "get_orientationActionReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.set_orientationActionReference
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration.set_orientationActionReference
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityXRController__Configuration::*)(::UnityEngine::InputSystem::InputActionReference*)>(
-    &::GlobalNamespace::__UnityXRController__Configuration::set_orientationActionReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController_Configuration::*)(::UnityEngine::InputSystem::InputActionReference*)>(
+    &::GlobalNamespace::UnityXRController_Configuration::set_orientationActionReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f64;
+  constexpr static std::size_t addrs = 0x39cf9fc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "set_orientationActionReference",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "set_orientationActionReference", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.get_thumbstickActionReference
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration.get_thumbstickActionReference
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (
-    ::GlobalNamespace::__UnityXRController__Configuration::*)()>(&::GlobalNamespace::__UnityXRController__Configuration::get_thumbstickActionReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (::GlobalNamespace::UnityXRController_Configuration::*)()>(
+    &::GlobalNamespace::UnityXRController_Configuration::get_thumbstickActionReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f6c;
+  constexpr static std::size_t addrs = 0x39cfa04;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                                "get_thumbstickActionReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.set_thumbstickActionReference
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration.set_thumbstickActionReference
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityXRController__Configuration::*)(::UnityEngine::InputSystem::InputActionReference*)>(
-    &::GlobalNamespace::__UnityXRController__Configuration::set_thumbstickActionReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController_Configuration::*)(::UnityEngine::InputSystem::InputActionReference*)>(
+    &::GlobalNamespace::UnityXRController_Configuration::set_thumbstickActionReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f74;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "set_thumbstickActionReference",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.CreateController
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UnityXRController* (
-    ::GlobalNamespace::__UnityXRController__Configuration::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::__UnityXRController__Configuration::CreateController)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x39772a8;
+  constexpr static std::size_t addrs = 0x39cfa0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "CreateController", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "set_thumbstickActionReference", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration.CreateController
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UnityXRController* (
+    ::GlobalNamespace::UnityXRController_Configuration::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::UnityXRController_Configuration::CreateController)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x39ccbc4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "CreateController", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration._ctor
+//  Writing Method size for method: ::GlobalNamespace::UnityXRController_Configuration._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityXRController__Configuration::*)()>(
-    &::GlobalNamespace::__UnityXRController__Configuration::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController_Configuration::*)()>(
+    &::GlobalNamespace::UnityXRController_Configuration::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f7c;
+  constexpr static std::size_t addrs = 0x39cfa14;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_get__positionActionReference_k__BackingField() {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& GlobalNamespace::UnityXRController_Configuration::__cordl_internal_get__positionActionReference_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionActionReference_k__BackingField;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_get__positionActionReference_k__BackingField() const {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& GlobalNamespace::UnityXRController_Configuration::__cordl_internal_get__positionActionReference_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionActionReference_k__BackingField;
 }
-constexpr void GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_set__positionActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void GlobalNamespace::UnityXRController_Configuration::__cordl_internal_set__positionActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____positionActionReference_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_get__orientationActionReference_k__BackingField() {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& GlobalNamespace::UnityXRController_Configuration::__cordl_internal_get__orientationActionReference_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientationActionReference_k__BackingField;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const&
-GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_get__orientationActionReference_k__BackingField() const {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& GlobalNamespace::UnityXRController_Configuration::__cordl_internal_get__orientationActionReference_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientationActionReference_k__BackingField;
 }
-constexpr void GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_set__orientationActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void GlobalNamespace::UnityXRController_Configuration::__cordl_internal_set__orientationActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____orientationActionReference_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_get__thumbstickActionReference_k__BackingField() {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& GlobalNamespace::UnityXRController_Configuration::__cordl_internal_get__thumbstickActionReference_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thumbstickActionReference_k__BackingField;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const&
-GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_get__thumbstickActionReference_k__BackingField() const {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& GlobalNamespace::UnityXRController_Configuration::__cordl_internal_get__thumbstickActionReference_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thumbstickActionReference_k__BackingField;
 }
-constexpr void GlobalNamespace::__UnityXRController__Configuration::__cordl_internal_set__thumbstickActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void GlobalNamespace::UnityXRController_Configuration::__cordl_internal_set__thumbstickActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____thumbstickActionReference_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> GlobalNamespace::__UnityXRController__Configuration::get_positionActionReference() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> GlobalNamespace::UnityXRController_Configuration::get_positionActionReference() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                              "get_positionActionReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::InputActionReference>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__UnityXRController__Configuration::set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value) {
+inline void GlobalNamespace::UnityXRController_Configuration::set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "set_positionActionReference", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "set_positionActionReference", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> GlobalNamespace::__UnityXRController__Configuration::get_orientationActionReference() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> GlobalNamespace::UnityXRController_Configuration::get_orientationActionReference() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                              "get_orientationActionReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::InputActionReference>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__UnityXRController__Configuration::set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value) {
+inline void GlobalNamespace::UnityXRController_Configuration::set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "set_orientationActionReference", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "set_orientationActionReference", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> GlobalNamespace::__UnityXRController__Configuration::get_thumbstickActionReference() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> GlobalNamespace::UnityXRController_Configuration::get_thumbstickActionReference() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                              "get_thumbstickActionReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::InputActionReference>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__UnityXRController__Configuration::set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value) {
+inline void GlobalNamespace::UnityXRController_Configuration::set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "set_thumbstickActionReference", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "set_thumbstickActionReference", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::UnityXRController* GlobalNamespace::__UnityXRController__Configuration::CreateController(::UnityEngine::XR::XRNode node) {
+inline ::GlobalNamespace::UnityXRController* GlobalNamespace::UnityXRController_Configuration::CreateController(::UnityEngine::XR::XRNode node) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(), "CreateController", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(), "CreateController", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::UnityXRController*, false>(this, ___internal_method, node);
 }
-inline ::GlobalNamespace::__UnityXRController__Configuration* GlobalNamespace::__UnityXRController__Configuration::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityXRController__Configuration*>());
-}
-inline void GlobalNamespace::__UnityXRController__Configuration::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityXRController__Configuration*>::get(),
+inline void GlobalNamespace::UnityXRController_Configuration::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController_Configuration*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::UnityXRController_Configuration* GlobalNamespace::UnityXRController_Configuration::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UnityXRController_Configuration*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityXRController__Configuration::__UnityXRController__Configuration() {}
+constexpr ::GlobalNamespace::UnityXRController_Configuration::UnityXRController_Configuration() {}
 //  Writing Method size for method: ::GlobalNamespace::UnityXRController.get_hapticsHandler
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IUnityXRHapticsHandler* (::GlobalNamespace::UnityXRController::*)()>(
     &::GlobalNamespace::UnityXRController::get_hapticsHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979b58;
+  constexpr static std::size_t addrs = 0x39cf5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(),
@@ -237,10 +233,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::UnityXRController.get_manufacturerName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName (::GlobalNamespace::UnityXRController::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName (::GlobalNamespace::UnityXRController::*)()>(
     &::GlobalNamespace::UnityXRController::get_manufacturerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979b60;
+  constexpr static std::size_t addrs = 0x39cf5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(),
@@ -251,15 +247,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::UnityXRController.set_manufacturerName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController::*)(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController::*)(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName)>(
     &::GlobalNamespace::UnityXRController::set_manufacturerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979b68;
+  constexpr static std::size_t addrs = 0x39cf600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(), "set_manufacturerName", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName>::get() })));
     return ___internal_method;
   }
 };
@@ -270,7 +266,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputAction*)>(
     &::GlobalNamespace::UnityXRController::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3979b70;
+  constexpr static std::size_t addrs = 0x39cf608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRController::*)(::UnityEngine::XR::InputDevice, ::UnityEngine::MonoBehaviour*)>(
     &::GlobalNamespace::UnityXRController::SetupController)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3979c3c;
+  constexpr static std::size_t addrs = 0x39cf6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController::*)(::UnityEngine::MonoBehaviour*)>(
     &::GlobalNamespace::UnityXRController::UpdateHapticsHandler)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3979dc0;
+  constexpr static std::size_t addrs = 0x39cf858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRController::*)(::UnityEngine::XR::InputDevice)>(
     &::GlobalNamespace::UnityXRController::TryToUpdateManufacturerName)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3979c70;
+  constexpr static std::size_t addrs = 0x39cf708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRController::*)()>(&::GlobalNamespace::UnityXRController::ResetManufacturerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3979f44;
+  constexpr static std::size_t addrs = 0x39cf9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(),
@@ -345,7 +341,7 @@ constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRCont
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionAction;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& GlobalNamespace::UnityXRController::__cordl_internal_get_positionAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& GlobalNamespace::UnityXRController::__cordl_internal_get_positionAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionAction;
 }
@@ -357,7 +353,7 @@ constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRCont
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationAction;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& GlobalNamespace::UnityXRController::__cordl_internal_get_rotationAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& GlobalNamespace::UnityXRController::__cordl_internal_get_rotationAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationAction;
 }
@@ -369,7 +365,7 @@ constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRCont
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thumbstickAction;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& GlobalNamespace::UnityXRController::__cordl_internal_get_thumbstickAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& GlobalNamespace::UnityXRController::__cordl_internal_get_thumbstickAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thumbstickAction;
 }
@@ -389,15 +385,15 @@ constexpr void GlobalNamespace::UnityXRController::__cordl_internal_set_node(::U
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___node = value;
 }
-constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName& GlobalNamespace::UnityXRController::__cordl_internal_get__manufacturerName_k__BackingField() {
+constexpr ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName& GlobalNamespace::UnityXRController::__cordl_internal_get__manufacturerName_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manufacturerName_k__BackingField;
 }
-constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName const& GlobalNamespace::UnityXRController::__cordl_internal_get__manufacturerName_k__BackingField() const {
+constexpr ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName const& GlobalNamespace::UnityXRController::__cordl_internal_get__manufacturerName_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manufacturerName_k__BackingField;
 }
-constexpr void GlobalNamespace::UnityXRController::__cordl_internal_set__manufacturerName_k__BackingField(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName value) {
+constexpr void GlobalNamespace::UnityXRController::__cordl_internal_set__manufacturerName_k__BackingField(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____manufacturerName_k__BackingField = value;
 }
@@ -405,7 +401,7 @@ constexpr ::GlobalNamespace::IUnityXRHapticsHandler*& GlobalNamespace::UnityXRCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticsHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnityXRHapticsHandler*> const& GlobalNamespace::UnityXRController::__cordl_internal_get__hapticsHandler() const {
+constexpr ::GlobalNamespace::IUnityXRHapticsHandler* const& GlobalNamespace::UnityXRController::__cordl_internal_get__hapticsHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticsHandler;
 }
@@ -418,21 +414,16 @@ inline ::GlobalNamespace::IUnityXRHapticsHandler* GlobalNamespace::UnityXRContro
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IUnityXRHapticsHandler*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName GlobalNamespace::UnityXRController::get_manufacturerName() {
+inline ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName GlobalNamespace::UnityXRController::get_manufacturerName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(),
                                                                              "get_manufacturerName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::UnityXRController::set_manufacturerName(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(), "set_manufacturerName", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName>::get() })));
+inline void GlobalNamespace::UnityXRController::set_manufacturerName(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName value) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(), "set_manufacturerName", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::GlobalNamespace::UnityXRController* GlobalNamespace::UnityXRController::New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction,
-                                                                                          ::UnityEngine::InputSystem::InputAction* rotationAction,
-                                                                                          ::UnityEngine::InputSystem::InputAction* thumbstickAction) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UnityXRController*>(node, positionAction, rotationAction, thumbstickAction));
 }
 inline void GlobalNamespace::UnityXRController::_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction, ::UnityEngine::InputSystem::InputAction* rotationAction,
                                                       ::UnityEngine::InputSystem::InputAction* thumbstickAction) {
@@ -467,6 +458,11 @@ inline void GlobalNamespace::UnityXRController::ResetManufacturerName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRController*>::get(),
                                                                              "ResetManufacturerName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::UnityXRController* GlobalNamespace::UnityXRController::New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction,
+                                                                                          ::UnityEngine::InputSystem::InputAction* rotationAction,
+                                                                                          ::UnityEngine::InputSystem::InputAction* thumbstickAction) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UnityXRController*>(node, positionAction, rotationAction, thumbstickAction));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityXRController::UnityXRController() {}

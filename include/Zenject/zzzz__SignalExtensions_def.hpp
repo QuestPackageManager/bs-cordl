@@ -26,18 +26,17 @@ class SignalExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalExtensions);
-// Type: Zenject::SignalExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::SignalExtensions*
+// CS Name: Zenject.SignalExtensions
 class CORDL_TYPE SignalExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method BindSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> static inline ::Zenject::BindSignalIdToBinder_1<TSignal>* BindSignal(::Zenject::DiContainer* container);
 
-  /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x4a945c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x4af8ed0, size 0xa0, virtual false, abstract: false, final false
   static inline ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
 
   /// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -58,7 +57,7 @@ public:
   SignalExtensions(SignalExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

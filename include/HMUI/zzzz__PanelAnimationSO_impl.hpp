@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*)>(&::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3993378;
+  constexpr static std::size_t addrs = 0x39e9ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3993454;
+  constexpr static std::size_t addrs = 0x39e9fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::UnityEngine::CanvasGroup*, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3993464;
+  constexpr static std::size_t addrs = 0x39e9fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::UnityEngine::CanvasGroup*, bool, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3993388;
+  constexpr static std::size_t addrs = 0x39e9f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)()>(&::HMUI::PanelAnimationSO::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3993470;
+  constexpr static std::size_t addrs = 0x39e9ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::PanelAnimationSO*>::get(), ".ctor",
@@ -99,7 +99,7 @@ constexpr ::UnityEngine::AnimationCurve*& HMUI::PanelAnimationSO::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleXAnimationCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& HMUI::PanelAnimationSO::__cordl_internal_get__scaleXAnimationCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& HMUI::PanelAnimationSO::__cordl_internal_get__scaleXAnimationCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleXAnimationCurve;
 }
@@ -111,7 +111,7 @@ constexpr ::UnityEngine::AnimationCurve*& HMUI::PanelAnimationSO::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleYAnimationCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& HMUI::PanelAnimationSO::__cordl_internal_get__scaleYAnimationCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& HMUI::PanelAnimationSO::__cordl_internal_get__scaleYAnimationCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleYAnimationCurve;
 }
@@ -123,7 +123,7 @@ constexpr ::UnityEngine::AnimationCurve*& HMUI::PanelAnimationSO::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaAnimationCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& HMUI::PanelAnimationSO::__cordl_internal_get__alphaAnimationCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& HMUI::PanelAnimationSO::__cordl_internal_get__alphaAnimationCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaAnimationCurve;
 }
@@ -135,7 +135,7 @@ constexpr ::UnityEngine::AnimationCurve*& HMUI::PanelAnimationSO::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentAlphaAnimationCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& HMUI::PanelAnimationSO::__cordl_internal_get__parentAlphaAnimationCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& HMUI::PanelAnimationSO::__cordl_internal_get__parentAlphaAnimationCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentAlphaAnimationCurve;
 }
@@ -172,13 +172,13 @@ inline void HMUI::PanelAnimationSO::ExecuteAnimation(::UnityEngine::GameObject* 
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, go, parentCanvasGroup, instant, finishedCallback);
 }
-inline ::HMUI::PanelAnimationSO* HMUI::PanelAnimationSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::PanelAnimationSO*>());
-}
 inline void HMUI::PanelAnimationSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::PanelAnimationSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::PanelAnimationSO* HMUI::PanelAnimationSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::PanelAnimationSO*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::PanelAnimationSO::PanelAnimationSO() {}

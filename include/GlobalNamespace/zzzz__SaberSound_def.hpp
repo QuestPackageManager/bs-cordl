@@ -22,11 +22,10 @@ class SaberSound;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberSound);
-// Type: ::SaberSound
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberSound*
+// CS Name: SaberSound
 class CORDL_TYPE SaberSound : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -62,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::SaberSound* New_ctor();
 
-  /// @brief Method Start, addr 0x3b86370, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be7bc0, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b8639c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3be7bec, size 0x1cc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -76,17 +75,17 @@ public:
 
   constexpr float_t& __cordl_internal_get__downSmooth();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__gainBySpeedCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__gainBySpeedCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__gainBySpeedCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__gainBySpeedCurve();
 
   constexpr float_t const& __cordl_internal_get__noSoundTopThresholdSqr() const;
 
   constexpr float_t& __cordl_internal_get__noSoundTopThresholdSqr();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__pitchBySpeedCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__pitchBySpeedCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__pitchBySpeedCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__pitchBySpeedCurve();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevPos() const;
 
@@ -128,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__upSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b86568, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be7db8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,6 +143,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberSound", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SaberSound(SaberSound const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4660 };
 
   /// @brief Field _saberTop, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____saberTop;
@@ -175,14 +177,9 @@ public:
   /// @brief Field _speed, offset: 0x5c, size: 0x4, def value: None
   float_t ____speed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4648 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberSound, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberSound, ____saberTop) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberSound, ____audioSource) == 0x28, "Offset mismatch!");
@@ -202,6 +199,8 @@ static_assert(offsetof(::GlobalNamespace::SaberSound, ____noSoundTopThresholdSqr
 static_assert(offsetof(::GlobalNamespace::SaberSound, ____prevPos) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberSound, ____speed) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberSound, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberSound);

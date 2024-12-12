@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TermInfoReader)
@@ -21,11 +19,10 @@ class TermInfoReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::TermInfoReader);
-// Type: System::TermInfoReader
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::TermInfoReader*
+// CS Name: System.TermInfoReader
 class CORDL_TYPE TermInfoReader : public ::System::Object {
 public:
   // Declarations
@@ -47,36 +44,36 @@ public:
   /// @brief Field strOffsets, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_strOffsets, put = __cordl_internal_set_strOffsets)) int32_t strOffsets;
 
-  /// @brief Method DetermineVersion, addr 0x3de12e8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DetermineVersion, addr 0x3e41394, size 0xa8, virtual false, abstract: false, final false
   inline void DetermineVersion(int16_t magic);
 
-  /// @brief Method Get, addr 0x3ddc008, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e3c0b4, size 0x90, virtual false, abstract: false, final false
   inline ::StringW Get(::System::TermInfoStrings tstr);
 
-  /// @brief Method Get, addr 0x3ddc098, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e3c144, size 0x60, virtual false, abstract: false, final false
   inline int32_t Get(::System::TermInfoNumbers number);
 
-  /// @brief Method GetInt16, addr 0x3de1390, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetInt16, addr 0x3e4143c, size 0x50, virtual false, abstract: false, final false
   inline int16_t GetInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetString, addr 0x3de13e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x3e4148c, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetStringBytes, addr 0x3de145c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetStringBytes, addr 0x3e41508, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStringBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetStringBytes, addr 0x3ddff44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetStringBytes, addr 0x3e3fff0, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStringBytes(::System::TermInfoStrings tstr);
 
   static inline ::System::TermInfoReader* New_ctor(::StringW term, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   static inline ::System::TermInfoReader* New_ctor(::StringW term, ::StringW filename);
 
-  /// @brief Method ReadHeader, addr 0x3de11f4, size 0xc0, virtual false, abstract: false, final false
-  inline void ReadHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> position);
+  /// @brief Method ReadHeader, addr 0x3e412a0, size 0xc0, virtual false, abstract: false, final false
+  inline void ReadHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ByRef<int32_t> position);
 
-  /// @brief Method ReadNames, addr 0x3de12b4, size 0x34, virtual false, abstract: false, final false
-  inline void ReadNames(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> position);
+  /// @brief Method ReadNames, addr 0x3e41360, size 0x34, virtual false, abstract: false, final false
+  inline void ReadNames(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ByRef<int32_t> position);
 
   constexpr int32_t const& __cordl_internal_get_boolSize() const;
 
@@ -114,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_strOffsets(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ddb7bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e3b868, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW term, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method .ctor, addr 0x3ddb4f8, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e3b5a4, size 0x2c4, virtual false, abstract: false, final false
   inline void _ctor(::StringW term, ::StringW filename);
 
 protected:
@@ -133,6 +130,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TermInfoReader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TermInfoReader(TermInfoReader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2627 };
 
   /// @brief Field boolSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___boolSize;
@@ -152,14 +152,9 @@ public:
   /// @brief Field intOffset, offset: 0x2c, size: 0x4, def value: None
   int32_t ___intOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2627 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::TermInfoReader, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::TermInfoReader, ___boolSize) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::TermInfoReader, ___numSize) == 0x14, "Offset mismatch!");
@@ -171,6 +166,8 @@ static_assert(offsetof(::System::TermInfoReader, ___buffer) == 0x20, "Offset mis
 static_assert(offsetof(::System::TermInfoReader, ___booleansOffset) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::TermInfoReader, ___intOffset) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::TermInfoReader, 0x30>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::TermInfoReader);

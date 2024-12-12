@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/CubemapCapture.hpp"
-#include "GlobalNamespace/zzzz__CubemapCapture_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
@@ -12,21 +11,21 @@
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType::__CubemapCapture__ImageType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::CubemapCapture_ImageType::CubemapCapture_ImageType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType::__CubemapCapture__ImageType() {}
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType GlobalNamespace::__CubemapCapture__ImageType::PNG{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType GlobalNamespace::__CubemapCapture__ImageType::JPEG{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType GlobalNamespace::__CubemapCapture__ImageType::TGA{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType GlobalNamespace::__CubemapCapture__ImageType::EXR{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::CubemapCapture_ImageType::CubemapCapture_ImageType() {}
+constexpr ::GlobalNamespace::CubemapCapture_ImageType GlobalNamespace::CubemapCapture_ImageType::PNG{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::CubemapCapture_ImageType GlobalNamespace::CubemapCapture_ImageType::JPEG{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::CubemapCapture_ImageType GlobalNamespace::CubemapCapture_ImageType::TGA{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::CubemapCapture_ImageType GlobalNamespace::CubemapCapture_ImageType::EXR{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::GlobalNamespace::CubemapCapture.Update
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CubemapCapture::*)()>(&::GlobalNamespace::CubemapCapture::Update)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3aaa5c4;
+  constexpr static std::size_t addrs = 0x3b07564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CubemapCapture*>::get(), "Update",
@@ -39,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CubemapCapture::*)()>(&::GlobalNamespace::CubemapCapture::GenerateAndSaveCubemapTexture)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3aaa644;
+  constexpr static std::size_t addrs = 0x3b075e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CubemapCapture*>::get(),
@@ -53,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CubemapCapture::*)(::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::CubemapCapture::RenderCubemapTexture)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x3aaa6f8;
+  constexpr static std::size_t addrs = 0x3b07698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CubemapCapture::*)(::UnityEngine::Cubemap*, ::StringW)>(
     &::GlobalNamespace::CubemapCapture::SaveCubemapTexture)> {
   constexpr static std::size_t size = 0x7c0;
-  constexpr static std::size_t addrs = 0x3aaabb0;
+  constexpr static std::size_t addrs = 0x3b07b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::CubemapCapture::*)(::UnityEngine::Texture2D*)>(
     &::GlobalNamespace::CubemapCapture::SerializeTextureToByteArray)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3aab370;
+  constexpr static std::size_t addrs = 0x3b08310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CubemapCapture::*)()>(&::GlobalNamespace::CubemapCapture::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3aab46c;
+  constexpr static std::size_t addrs = 0x3b0840c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CubemapCapture*>::get(), ".ctor",
@@ -154,15 +153,15 @@ constexpr void GlobalNamespace::CubemapCapture::__cordl_internal_set__saveDirect
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saveDirectoryAbsolutePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType& GlobalNamespace::CubemapCapture::__cordl_internal_get__imageType() {
+constexpr ::GlobalNamespace::CubemapCapture_ImageType& GlobalNamespace::CubemapCapture::__cordl_internal_get__imageType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____imageType;
 }
-constexpr ::GlobalNamespace::__CubemapCapture__ImageType const& GlobalNamespace::CubemapCapture::__cordl_internal_get__imageType() const {
+constexpr ::GlobalNamespace::CubemapCapture_ImageType const& GlobalNamespace::CubemapCapture::__cordl_internal_get__imageType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____imageType;
 }
-constexpr void GlobalNamespace::CubemapCapture::__cordl_internal_set__imageType(::GlobalNamespace::__CubemapCapture__ImageType value) {
+constexpr void GlobalNamespace::CubemapCapture::__cordl_internal_set__imageType(::GlobalNamespace::CubemapCapture_ImageType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____imageType = value;
 }
@@ -178,15 +177,15 @@ constexpr void GlobalNamespace::CubemapCapture::__cordl_internal_set__jpegCompre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jpegCompression = value;
 }
-constexpr ::UnityEngine::__Texture2D__EXRFlags& GlobalNamespace::CubemapCapture::__cordl_internal_get__exrFlags() {
+constexpr ::UnityEngine::Texture2D_EXRFlags& GlobalNamespace::CubemapCapture::__cordl_internal_get__exrFlags() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exrFlags;
 }
-constexpr ::UnityEngine::__Texture2D__EXRFlags const& GlobalNamespace::CubemapCapture::__cordl_internal_get__exrFlags() const {
+constexpr ::UnityEngine::Texture2D_EXRFlags const& GlobalNamespace::CubemapCapture::__cordl_internal_get__exrFlags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exrFlags;
 }
-constexpr void GlobalNamespace::CubemapCapture::__cordl_internal_set__exrFlags(::UnityEngine::__Texture2D__EXRFlags value) {
+constexpr void GlobalNamespace::CubemapCapture::__cordl_internal_set__exrFlags(::UnityEngine::Texture2D_EXRFlags value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____exrFlags = value;
 }
@@ -243,13 +242,13 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::CubemapCapture::Ser
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, texture);
 }
-inline ::GlobalNamespace::CubemapCapture* GlobalNamespace::CubemapCapture::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CubemapCapture*>());
-}
 inline void GlobalNamespace::CubemapCapture::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CubemapCapture*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::CubemapCapture* GlobalNamespace::CubemapCapture::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CubemapCapture*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CubemapCapture::CubemapCapture() {}

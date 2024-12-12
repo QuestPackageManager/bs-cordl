@@ -26,17 +26,16 @@ template <typename TArgs> class IDragAndDropController_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::IDragAndDropController_1);
-// Type: UnityEngine.UIElements::IDragAndDropController`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TArgs>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::IDragAndDropController`1<TArgs>*
+// CS Name: UnityEngine.UIElements.IDragAndDropController`1<TArgs>
 class CORDL_TYPE IDragAndDropController_1 {
 public:
   // Declarations
-  /// @brief Method CanStartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CanStartDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds);
 
   /// @brief Method DragCleanup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -48,25 +47,21 @@ public:
   /// @brief Method HandleAutoExpand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleAutoExpand(::UnityEngine::UIElements::ReusableCollectionItem* item, ::UnityEngine::Vector2 pointerPosition);
 
-  /// @brief Method HandleDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method HandleDragAndDrop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(TArgs args);
 
-  /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnDrop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDrop(TArgs args);
 
-  /// @brief Method SetupDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetupDragAndDrop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds, bool skipText);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDragAndDropController_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDragAndDropController_1(IDragAndDropController_1&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDragAndDropController_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDragAndDropController_1(IDragAndDropController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

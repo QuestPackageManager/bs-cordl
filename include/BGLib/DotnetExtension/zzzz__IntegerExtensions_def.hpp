@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntegerExtensions)
 // Forward declare root types
@@ -13,16 +12,15 @@ class IntegerExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::DotnetExtension::IntegerExtensions);
-// Type: BGLib.DotnetExtension::IntegerExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::DotnetExtension {
 // Is value type: false
-// CS Name: ::BGLib.DotnetExtension::IntegerExtensions*
+// CS Name: BGLib.DotnetExtension.IntegerExtensions
 class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUInt, addr 0x226b4ec, size 0x18, virtual false, abstract: false, final false
-  static inline void ToUInt(int32_t number, ByRef<uint32_t> uNumber, ByRef<bool> isNegative);
+  /// @brief Method ToUInt, addr 0x229dd40, size 0x18, virtual false, abstract: false, final false
+  static inline void ToUInt(int32_t number, ::ByRef<uint32_t> uNumber, ::ByRef<bool> isNegative);
 
 protected:
   // Ctor Parameters []
@@ -39,7 +37,7 @@ public:
   IntegerExtensions(IntegerExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

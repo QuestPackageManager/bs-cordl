@@ -15,11 +15,10 @@ class LimitedInputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::LimitedInputStream);
-// Type: Org.BouncyCastle.Asn1::LimitedInputStream
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.IO.BaseInputStream
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::LimitedInputStream*
+// CS Name: Org.BouncyCastle.Asn1.LimitedInputStream
 class CORDL_TYPE LimitedInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
@@ -33,12 +32,12 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::LimitedInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method SetParentEofDetect, addr 0x2601cac, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetParentEofDetect, addr 0x2634f98, size 0x90, virtual true, abstract: false, final false
   inline void SetParentEofDetect(bool on);
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get__in();
+  constexpr ::System::IO::Stream* const& __cordl_internal_get__in() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__in() const;
+  constexpr ::System::IO::Stream*& __cordl_internal_get__in();
 
   constexpr int32_t const& __cordl_internal_get__limit() const;
 
@@ -48,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__limit(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2601c78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634f64, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method get_Limit, addr 0x2601ca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Limit, addr 0x2634f90, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Limit();
 
 protected:
@@ -68,23 +67,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LimitedInputStream(LimitedInputStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 500 };
+
   /// @brief Field _in, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Stream* ____in;
 
   /// @brief Field _limit, offset: 0x38, size: 0x4, def value: None
   int32_t ____limit;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 500 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::LimitedInputStream, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::LimitedInputStream, ____in) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::LimitedInputStream, ____limit) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::LimitedInputStream, 0x40>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::LimitedInputStream);

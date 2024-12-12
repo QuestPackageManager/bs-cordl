@@ -4,6 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
@@ -13,16 +15,10 @@ namespace GlobalNamespace {
 class CutScoreBuffer;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidChangeReceiver;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
+class FlyingScoreEffect_Pool;
 }
 namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;
-}
-namespace GlobalNamespace {
-class __FlyingScoreEffect__Pool;
 }
 namespace TMPro {
 class TextMeshPro;
@@ -44,59 +40,57 @@ namespace GlobalNamespace {
 class FlyingScoreEffect;
 }
 namespace GlobalNamespace {
-class __FlyingScoreEffect__Pool;
+class FlyingScoreEffect_Pool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingScoreEffect);
-MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreEffect__Pool);
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::FlyingScoreEffect_Pool);
+// Dependencies Zenject.MonoMemoryPool`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingScoreEffect::Pool*
-class CORDL_TYPE __FlyingScoreEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingScoreEffect>> {
+// CS Name: FlyingScoreEffect/Pool
+class CORDL_TYPE FlyingScoreEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__FlyingScoreEffect__Pool* New_ctor();
+  static inline ::GlobalNamespace::FlyingScoreEffect_Pool* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x3b1dad8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x3b7ec84, size 0x60, virtual true, abstract: false, final false
   inline void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
 
-  /// @brief Method .ctor, addr 0x3b1db38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ece4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FlyingScoreEffect__Pool();
+  constexpr FlyingScoreEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FlyingScoreEffect__Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect_Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __FlyingScoreEffect__Pool(__FlyingScoreEffect__Pool&&) = delete;
+  FlyingScoreEffect_Pool(FlyingScoreEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__FlyingScoreEffect__Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect_Pool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __FlyingScoreEffect__Pool(__FlyingScoreEffect__Pool const&) = delete;
+  FlyingScoreEffect_Pool(FlyingScoreEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4211 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FlyingScoreEffect__Pool, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreEffect_Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::FlyingScoreEffect
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FlyingObjectEffect, ICutScoreBufferDidChangeReceiver, ICutScoreBufferDidFinishReceiver, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingScoreEffect*
+// CS Name: FlyingScoreEffect
 class CORDL_TYPE FlyingScoreEffect : public ::GlobalNamespace::FlyingObjectEffect {
 public:
   // Declarations
-  using Pool = ::GlobalNamespace::__FlyingScoreEffect__Pool;
+  using Pool = ::GlobalNamespace::FlyingScoreEffect_Pool;
 
   /// @brief Field _color, offset 0xa0, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
@@ -126,24 +120,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleCutScoreBufferDidChange, addr 0x3b1d930, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidChange, addr 0x3b7eadc, size 0x4c, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x3b1d97c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x3b7eb28, size 0x4, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method InitAndPresent, addr 0x3b1d33c, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x3b7e4e8, size 0x4e4, virtual false, abstract: false, final false
   inline void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
 
-  /// @brief Method ManualUpdate, addr 0x3b1d8a8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b7ea54, size 0x88, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingScoreEffect* New_ctor();
 
-  /// @brief Method RefreshScore, addr 0x3b1d820, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshScore, addr 0x3b7e9cc, size 0x88, virtual false, abstract: false, final false
   inline void RefreshScore(int32_t score, int32_t maxPossibleCutScore);
 
-  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x3b1d980, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x3b7eb2c, size 0x128, virtual false, abstract: false, final false
   inline void UnregisterCallbacksIfNeeded();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -154,13 +148,13 @@ public:
 
   constexpr float_t& __cordl_internal_get__colorAMultiplier();
 
+  constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer* const& __cordl_internal_get__cutScoreBuffer() const;
+
   constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer*& __cordl_internal_get__cutScoreBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyCutScoreBuffer*> const& __cordl_internal_get__cutScoreBuffer() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__fadeAnimationCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeAnimationCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeAnimationCurve() const;
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__maxCutDistanceScoreIndicator() const;
 
@@ -188,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3b1daa8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ec54, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
@@ -211,6 +205,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingScoreEffect(FlyingScoreEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4212 };
+
   /// @brief Field _fadeAnimationCurve, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeAnimationCurve;
 
@@ -232,14 +229,9 @@ public:
   /// @brief Field _cutScoreBuffer, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyCutScoreBuffer* ____cutScoreBuffer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4201 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreEffect, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____fadeAnimationCurve) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____maxCutDistanceScoreIndicator) == 0x90, "Offset mismatch!");
@@ -254,8 +246,10 @@ static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____registeredToCal
 
 static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____cutScoreBuffer) == 0xb8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreEffect, 0xc0>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingScoreEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffect");
-NEED_NO_BOX(::GlobalNamespace::__FlyingScoreEffect__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FlyingScoreEffect__Pool*, "", "FlyingScoreEffect/Pool");
+NEED_NO_BOX(::GlobalNamespace::FlyingScoreEffect_Pool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlyingScoreEffect_Pool*, "", "FlyingScoreEffect/Pool");

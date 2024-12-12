@@ -11,15 +11,14 @@ class OnScreenSupport;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenSupport);
-// Type: UnityEngine.InputSystem.OnScreen::OnScreenSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenSupport*
+// CS Name: UnityEngine.InputSystem.OnScreen.OnScreenSupport
 class CORDL_TYPE OnScreenSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x4597160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45f8474, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +36,7 @@ public:
   OnScreenSupport(OnScreenSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,11 +29,10 @@ class SaberTrail;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberTrail);
-// Type: ::SaberTrail
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberTrail*
+// CS Name: SaberTrail
 class CORDL_TYPE SaberTrail : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -88,36 +87,36 @@ public:
   /// @brief Field _whiteSectionMaxDuration, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
-  /// @brief Method Awake, addr 0x4024580, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4085894, size 0x12c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetTrailWidth, addr 0x4024af8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTrailWidth, addr 0x4085e0c, size 0x84, virtual false, abstract: false, final false
   inline float_t GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
 
-  /// @brief Method Init, addr 0x40246cc, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x40859e0, size 0x278, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LateUpdate, addr 0x4024d84, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x4086098, size 0x3d8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberTrail* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x402558c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x40868a0, size 0xa8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x4025508, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x408681c, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x4025634, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x4086948, size 0x1d0, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x402545c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4086770, size 0xac, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetTrailData, addr 0x4024b7c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ResetTrailData, addr 0x4085e90, size 0x178, virtual false, abstract: false, final false
   inline void ResetTrailData();
 
-  /// @brief Method Setup, addr 0x40246ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x40859c0, size 0x20, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -156,9 +155,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__lastZScale();
 
-  constexpr ::GlobalNamespace::IBladeMovementData*& __cordl_internal_get__movementData();
+  constexpr ::GlobalNamespace::IBladeMovementData* const& __cordl_internal_get__movementData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBladeMovementData*> const& __cordl_internal_get__movementData() const;
+  constexpr ::GlobalNamespace::IBladeMovementData*& __cordl_internal_get__movementData();
 
   constexpr float_t const& __cordl_internal_get__sampleStep() const;
 
@@ -172,9 +171,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__trailDuration();
 
-  constexpr ::GlobalNamespace::TrailElementCollection*& __cordl_internal_get__trailElementCollection();
+  constexpr ::GlobalNamespace::TrailElementCollection* const& __cordl_internal_get__trailElementCollection() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrailElementCollection*> const& __cordl_internal_get__trailElementCollection() const;
+  constexpr ::GlobalNamespace::TrailElementCollection*& __cordl_internal_get__trailElementCollection();
 
   constexpr ::UnityW<::GlobalNamespace::SaberTrailRenderer> const& __cordl_internal_get__trailRenderer() const;
 
@@ -222,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x4025804, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4086b18, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,6 +237,18 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberTrail", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SaberTrail(SaberTrail const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18870 };
+
+  /// @brief Field kIgnoredFramesCount offset 0xffffffff size 0x4
+  static constexpr int32_t kIgnoredFramesCount{ static_cast<int32_t>(0x4) };
+
+  /// @brief Field kScaleCheckFramesInterval offset 0xffffffff size 0x4
+  static constexpr int32_t kScaleCheckFramesInterval{ static_cast<int32_t>(0xa) };
+
+  /// @brief Field kSnapshotCapacityMargin offset 0xffffffff size 0x4
+  static constexpr int32_t kSnapshotCapacityMargin{ static_cast<int32_t>(0x3) };
 
   /// @brief Field _trailRendererPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTrailRenderer> ____trailRendererPrefab;
@@ -290,23 +301,9 @@ public:
   /// @brief Field _inited, offset: 0x90, size: 0x1, def value: None
   bool ____inited;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18769 };
-
-  /// @brief Field kIgnoredFramesCount offset 0xffffffff size 0x4
-  static constexpr int32_t kIgnoredFramesCount{ static_cast<int32_t>(0x4) };
-
-  /// @brief Field kScaleCheckFramesInterval offset 0xffffffff size 0x4
-  static constexpr int32_t kScaleCheckFramesInterval{ static_cast<int32_t>(0xa) };
-
-  /// @brief Field kSnapshotCapacityMargin offset 0xffffffff size 0x4
-  static constexpr int32_t kSnapshotCapacityMargin{ static_cast<int32_t>(0x3) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTrail, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberTrail, ____trailRendererPrefab) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberTrail, ____trailDuration) == 0x28, "Offset mismatch!");
@@ -340,6 +337,8 @@ static_assert(offsetof(::GlobalNamespace::SaberTrail, ____lastZScale) == 0x88, "
 static_assert(offsetof(::GlobalNamespace::SaberTrail, ____framesToScaleCheck) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberTrail, ____inited) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTrail, 0x98>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberTrail);

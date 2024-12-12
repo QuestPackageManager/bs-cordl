@@ -18,11 +18,10 @@ class TMP_Character;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_Character);
-// Type: TMPro::TMP_Character
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies TMPro.TMP_TextElement
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_Character*
+// CS Name: TMPro.TMP_Character
 class CORDL_TYPE TMP_Character : public ::TMPro::TMP_TextElement {
 public:
   // Declarations
@@ -34,16 +33,16 @@ public:
 
   static inline ::TMPro::TMP_Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x47632bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c45d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4763338, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c464c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x47632e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c45f8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x4763398, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c46ac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:
@@ -61,7 +60,7 @@ public:
   TMP_Character(TMP_Character const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

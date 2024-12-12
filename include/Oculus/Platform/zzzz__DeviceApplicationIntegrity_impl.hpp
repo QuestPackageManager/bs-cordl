@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)(::StringW)>(
     &::Oculus::Platform::DeviceApplicationIntegrity::GetIntegrityToken)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f27c18;
+  constexpr static std::size_t addrs = 0x3f87cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

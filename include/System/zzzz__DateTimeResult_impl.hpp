@@ -7,18 +7,15 @@
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/zzzz__DateTimeResult_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ParseFailureKind_def.hpp"
-#include "System/zzzz__ParseFlags_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: ::System::DateTimeResult.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::DateTimeResult::Init)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d82a68;
+  constexpr static std::size_t addrs = 0x3de2bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(int32_t, int32_t, int32_t)>(&::System::DateTimeResult::SetDate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d82a8c;
+  constexpr static std::size_t addrs = 0x3de2c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)()>(&::System::DateTimeResult::SetBadFormatSpecifierFailure)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3d82a98;
+  constexpr static std::size_t addrs = 0x3de2c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::DateTimeResult>::get(), "SetBadFormatSpecifierFailure",
@@ -61,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::DateTimeResult::SetBadFormatSpecifierFailure)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d82b2c;
+  constexpr static std::size_t addrs = 0x3de2ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)()>(&::System::DateTimeResult::SetBadDateTimeFailure)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d82b90;
+  constexpr static std::size_t addrs = 0x3de2d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::DateTimeResult>::get(), "SetBadDateTimeFailure",
@@ -88,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW)>(&::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d82be0;
+  constexpr static std::size_t addrs = 0x3de2d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW, ::System::Object*)>(
     &::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d82bec;
+  constexpr static std::size_t addrs = 0x3de2d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW, ::System::Object*, ::StringW)>(
     &::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d82bf8;
+  constexpr static std::size_t addrs = 0x3de2d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,12 +184,11 @@ inline void System::DateTimeResult::SetFailure(::System::ParseFailureKind failur
 // "Day", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Minute", ty: "int32_t", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty: "::System::ParseFlags", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "timeZoneOffset", ty: "::System::TimeSpan", modifiers: "", def_value: Some("{}") }, CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: Some("nullptr")
-// }, CppParam { name: "parsedDate", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "failure", ty: "::System::ParseFailureKind", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "failureMessageID", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "failureMessageFormatArgument", ty: "::System::Object*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "failureArgumentName", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "originalDateTimeString", ty:
-// "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "failedFormatSpecifier", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value:
-// Some("{}") }]
+// "timeZoneOffset", ty: "::System::TimeSpan", modifiers: "", def_value: Some("{}") }, CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "parsedDate", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "failure", ty: "::System::ParseFailureKind", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "failureMessageID", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "failureArgumentName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "originalDateTimeString", ty: "::System::ReadOnlySpan_1<char16_t>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "failedFormatSpecifier", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::DateTimeResult::DateTimeResult(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, double_t fraction, int32_t era, ::System::ParseFlags flags,
                                                    ::System::TimeSpan timeZoneOffset, ::System::Globalization::Calendar* calendar, ::System::DateTime parsedDate, ::System::ParseFailureKind failure,
                                                    ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName,

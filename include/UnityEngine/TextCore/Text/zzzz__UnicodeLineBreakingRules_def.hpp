@@ -18,11 +18,10 @@ class UnicodeLineBreakingRules;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules);
-// Type: UnityEngine.TextCore.Text::UnicodeLineBreakingRules
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::UnicodeLineBreakingRules*
+// CS Name: UnityEngine.TextCore.Text.UnicodeLineBreakingRules
 class CORDL_TYPE UnicodeLineBreakingRules : public ::System::Object {
 public:
   // Declarations
@@ -56,13 +55,13 @@ public:
 
   __declspec(property(get = get_useModernHangulLineBreakingRules)) bool useModernHangulLineBreakingRules;
 
-  /// @brief Method GetCharacters, addr 0x48ec178, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x4950808, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
 
-  /// @brief Method LoadLineBreakingRules, addr 0x48e9f54, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method LoadLineBreakingRules, addr 0x494e5e4, size 0x1e4, virtual false, abstract: false, final false
   inline void LoadLineBreakingRules();
 
-  /// @brief Method LoadLineBreakingRules, addr 0x48ebf74, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method LoadLineBreakingRules, addr 0x4950604, size 0x1d4, virtual false, abstract: false, final false
   inline void LoadLineBreakingRules(::UnityEngine::TextAsset* leadingRules, ::UnityEngine::TextAsset* followingRules);
 
   static inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* New_ctor();
@@ -71,17 +70,17 @@ public:
 
   constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_FollowingCharacters();
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_FollowingCharactersLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>* const& __cordl_internal_get_m_FollowingCharactersLookup() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get_m_FollowingCharactersLookup() const;
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_FollowingCharactersLookup();
 
   constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_LeadingCharacters() const;
 
   constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_LeadingCharacters();
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_LeadingCharactersLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>* const& __cordl_internal_get_m_LeadingCharactersLookup() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get_m_LeadingCharactersLookup() const;
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_LeadingCharactersLookup();
 
   constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_UnicodeLineBreakingRules() const;
 
@@ -103,22 +102,22 @@ public:
 
   constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value);
 
-  /// @brief Method .ctor, addr 0x48e9f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494e5dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_followingCharacters, addr 0x48ebf44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharacters, addr 0x49505d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_followingCharacters();
 
-  /// @brief Method get_followingCharactersLookup, addr 0x48ec148, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharactersLookup, addr 0x49507d8, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_followingCharactersLookup();
 
-  /// @brief Method get_leadingCharacters, addr 0x48ebf3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharacters, addr 0x49505cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_leadingCharacters();
 
-  /// @brief Method get_leadingCharactersLookup, addr 0x48ebf4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharactersLookup, addr 0x49505dc, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_leadingCharactersLookup();
 
-  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x48ec170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x4950800, size 0x8, virtual false, abstract: false, final false
   inline bool get_useModernHangulLineBreakingRules();
 
 protected:
@@ -134,6 +133,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnicodeLineBreakingRules(UnicodeLineBreakingRules const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15296 };
 
   /// @brief Field m_UnicodeLineBreakingRules, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_UnicodeLineBreakingRules;
@@ -153,14 +155,9 @@ public:
   /// @brief Field m_FollowingCharactersLookup, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<uint32_t>* ___m_FollowingCharactersLookup;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15261 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, ___m_UnicodeLineBreakingRules) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, ___m_LeadingCharacters) == 0x18, "Offset mismatch!");
@@ -172,6 +169,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, 
 static_assert(offsetof(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, ___m_LeadingCharactersLookup) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, ___m_FollowingCharactersLookup) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules);

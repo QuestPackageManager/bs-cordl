@@ -13,33 +13,32 @@ class PlayerPrefs;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::PlayerPrefs);
-// Type: UnityEngine::PlayerPrefs
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::PlayerPrefs*
+// CS Name: UnityEngine.PlayerPrefs
 class CORDL_TYPE PlayerPrefs : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInt, addr 0x4843628, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x48a43ec, size 0x40, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key);
 
-  /// @brief Method GetInt, addr 0x48435e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x48a43a8, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key, int32_t defaultValue);
 
-  /// @brief Method GetString, addr 0x48436ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x48a4470, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key);
 
-  /// @brief Method GetString, addr 0x4843668, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x48a442c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key, ::StringW defaultValue);
 
-  /// @brief Method HasKey, addr 0x4843718, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasKey, addr 0x48a44dc, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasKey(::StringW key);
 
-  /// @brief Method SetInt, addr 0x4843554, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetInt, addr 0x48a4318, size 0x90, virtual false, abstract: false, final false
   static inline void SetInt(::StringW key, int32_t value);
 
-  /// @brief Method TrySetInt, addr 0x4843510, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TrySetInt, addr 0x48a42d4, size 0x44, virtual false, abstract: false, final false
   static inline bool TrySetInt(::StringW key, int32_t value);
 
 protected:
@@ -57,7 +56,7 @@ public:
   PlayerPrefs(PlayerPrefs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

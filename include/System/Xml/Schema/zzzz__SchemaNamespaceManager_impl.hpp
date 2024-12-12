@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SchemaNamespaceManager::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::SchemaNamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4235cf8;
+  constexpr static std::size_t addrs = 0x429700c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::SchemaNamespaceManager::*)(::StringW)>(
     &::System::Xml::Schema::SchemaNamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4235d20;
+  constexpr static std::size_t addrs = 0x4297034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::SchemaNamespaceManager::*)(::StringW)>(
     &::System::Xml::Schema::SchemaNamespaceManager::LookupPrefix)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x4235e50;
+  constexpr static std::size_t addrs = 0x4297164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,16 +54,13 @@ constexpr ::System::Xml::Schema::XmlSchemaObject*& System::Xml::Schema::SchemaNa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObject*> const& System::Xml::Schema::SchemaNamespaceManager::__cordl_internal_get_node() const {
+constexpr ::System::Xml::Schema::XmlSchemaObject* const& System::Xml::Schema::SchemaNamespaceManager::__cordl_internal_get_node() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
 constexpr void System::Xml::Schema::SchemaNamespaceManager::__cordl_internal_set_node(::System::Xml::Schema::XmlSchemaObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___node)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Schema::SchemaNamespaceManager* System::Xml::Schema::SchemaNamespaceManager::New_ctor(::System::Xml::Schema::XmlSchemaObject* node) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SchemaNamespaceManager*>(node));
 }
 inline void System::Xml::Schema::SchemaNamespaceManager::_ctor(::System::Xml::Schema::XmlSchemaObject* node) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -80,6 +77,9 @@ inline ::StringW System::Xml::Schema::SchemaNamespaceManager::LookupPrefix(::Str
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SchemaNamespaceManager*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, ns);
+}
+inline ::System::Xml::Schema::SchemaNamespaceManager* System::Xml::Schema::SchemaNamespaceManager::New_ctor(::System::Xml::Schema::XmlSchemaObject* node) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SchemaNamespaceManager*>(node));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaNamespaceManager::SchemaNamespaceManager() {}

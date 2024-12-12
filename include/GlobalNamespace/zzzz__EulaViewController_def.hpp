@@ -4,6 +4,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -11,34 +14,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EulaViewController)
 namespace GlobalNamespace {
+struct EulaViewController_ButtonType;
+}
+namespace GlobalNamespace {
+class EulaViewController_InitData;
+}
+namespace GlobalNamespace {
+class EulaViewController__EnableButtonsCoroutine_d__22;
+}
+namespace GlobalNamespace {
 class ICoroutineStarter;
 }
 namespace GlobalNamespace {
 class LocalizedTextAsset;
 }
-namespace GlobalNamespace {
-struct __EulaViewController__ButtonType;
-}
-namespace GlobalNamespace {
-class __EulaViewController__InitData;
-}
-namespace GlobalNamespace {
-class __EulaViewController___EnableButtonsCoroutine_d__22;
-}
 namespace HMUI {
 class TextPageScrollView;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -54,41 +51,40 @@ class Coroutine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __EulaViewController__ButtonType;
+struct EulaViewController_ButtonType;
 }
 namespace GlobalNamespace {
 class EulaViewController;
 }
 namespace GlobalNamespace {
-class __EulaViewController__InitData;
+class EulaViewController_InitData;
 }
 namespace GlobalNamespace {
-class __EulaViewController___EnableButtonsCoroutine_d__22;
+class EulaViewController__EnableButtonsCoroutine_d__22;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__EulaViewController__ButtonType);
+MARK_VAL_T(::GlobalNamespace::EulaViewController_ButtonType);
 MARK_REF_PTR_T(::GlobalNamespace::EulaViewController);
-MARK_REF_PTR_T(::GlobalNamespace::__EulaViewController__InitData);
-MARK_REF_PTR_T(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22);
-// Type: ::ButtonType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::EulaViewController_InitData);
+MARK_REF_PTR_T(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::EulaViewController::ButtonType
-struct CORDL_TYPE __EulaViewController__ButtonType {
+// CS Name: EulaViewController/ButtonType
+struct CORDL_TYPE EulaViewController_ButtonType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____EulaViewController__ButtonType_Unwrapped
-  enum struct ____EulaViewController__ButtonType_Unwrapped : int32_t {
+  /// @brief Nested struct __EulaViewController_ButtonType_Unwrapped
+  enum struct __EulaViewController_ButtonType_Unwrapped : int32_t {
     __E_Agree = static_cast<int32_t>(0x0),
     __E_DoNotAgree = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____EulaViewController__ButtonType_Unwrapped() const noexcept {
-    return static_cast<____EulaViewController__ButtonType_Unwrapped>(this->value__);
+  constexpr operator __EulaViewController_ButtonType_Unwrapped() const noexcept {
+    return static_cast<__EulaViewController_ButtonType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -98,46 +94,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EulaViewController__ButtonType();
+  constexpr EulaViewController_ButtonType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EulaViewController__ButtonType(int32_t value__) noexcept;
+  constexpr EulaViewController_ButtonType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Agree value: I32(0)
+  static ::GlobalNamespace::EulaViewController_ButtonType const Agree;
 
-  /// @brief Field Agree value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__EulaViewController__ButtonType const Agree;
-
-  /// @brief Field DoNotAgree value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__EulaViewController__ButtonType const DoNotAgree;
+  /// @brief Field DoNotAgree value: I32(1)
+  static ::GlobalNamespace::EulaViewController_ButtonType const DoNotAgree;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4885 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EulaViewController__ButtonType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController_ButtonType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController__ButtonType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EulaViewController_ButtonType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EulaViewController::InitData*
-class CORDL_TYPE __EulaViewController__InitData : public ::System::Object {
+// CS Name: EulaViewController/InitData
+class CORDL_TYPE EulaViewController_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field showDoNotAgreeButton, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_showDoNotAgreeButton, put = __cordl_internal_set_showDoNotAgreeButton)) bool showDoNotAgreeButton;
 
-  static inline ::GlobalNamespace::__EulaViewController__InitData* New_ctor(bool showDoNotAgreeButton);
+  static inline ::GlobalNamespace::EulaViewController_InitData* New_ctor(bool showDoNotAgreeButton);
 
   constexpr bool const& __cordl_internal_get_showDoNotAgreeButton() const;
 
@@ -145,43 +140,42 @@ public:
 
   constexpr void __cordl_internal_set_showDoNotAgreeButton(bool value);
 
-  /// @brief Method .ctor, addr 0x3bb0434, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c13550, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDoNotAgreeButton);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EulaViewController__InitData();
+  constexpr EulaViewController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EulaViewController__InitData(__EulaViewController__InitData&&) = delete;
+  EulaViewController_InitData(EulaViewController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EulaViewController__InitData(__EulaViewController__InitData const&) = delete;
+  EulaViewController_InitData(EulaViewController_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4886 };
 
   /// @brief Field showDoNotAgreeButton, offset: 0x10, size: 0x1, def value: None
   bool ___showDoNotAgreeButton;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4865 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EulaViewController__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController_InitData, ___showDoNotAgreeButton) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController__InitData, ___showDoNotAgreeButton) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EulaViewController_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<EnableButtonsCoroutine>d__22
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EulaViewController::<EnableButtonsCoroutine>d__22*
-class CORDL_TYPE __EulaViewController___EnableButtonsCoroutine_d__22 : public ::System::Object {
+// CS Name: EulaViewController/<EnableButtonsCoroutine>d__22
+class CORDL_TYPE EulaViewController__EnableButtonsCoroutine_d__22 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -215,30 +209,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bb0460, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c1357c, size 0x15c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bb05bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c136d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bb05c4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c136e0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bb05fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c13718, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bb045c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3c13578, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::EulaViewController> const& __cordl_internal_get___4__this() const;
 
@@ -268,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bb039c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c134b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -283,16 +277,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EulaViewController___EnableButtonsCoroutine_d__22();
+  constexpr EulaViewController__EnableButtonsCoroutine_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController___EnableButtonsCoroutine_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController__EnableButtonsCoroutine_d__22", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EulaViewController___EnableButtonsCoroutine_d__22(__EulaViewController___EnableButtonsCoroutine_d__22&&) = delete;
+  EulaViewController__EnableButtonsCoroutine_d__22(EulaViewController__EnableButtonsCoroutine_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController___EnableButtonsCoroutine_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController__EnableButtonsCoroutine_d__22", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EulaViewController___EnableButtonsCoroutine_d__22(__EulaViewController___EnableButtonsCoroutine_d__22 const&) = delete;
+  EulaViewController__EnableButtonsCoroutine_d__22(EulaViewController__EnableButtonsCoroutine_d__22 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4887 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -312,40 +309,36 @@ public:
   /// @brief Field <elapsedTime>5__3, offset: 0x30, size: 0x4, def value: None
   float_t ____elapsedTime_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4866 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22, ___delay) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22, ___delay) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22, ____startProgressBarWidth_5__2) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22, ____startProgressBarWidth_5__2) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22, ____elapsedTime_5__3) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22, ____elapsedTime_5__3) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::EulaViewController
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EulaViewController*
+// CS Name: EulaViewController
 class CORDL_TYPE EulaViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using ButtonType = ::GlobalNamespace::__EulaViewController__ButtonType;
+  using ButtonType = ::GlobalNamespace::EulaViewController_ButtonType;
 
-  using InitData = ::GlobalNamespace::__EulaViewController__InitData;
+  using InitData = ::GlobalNamespace::EulaViewController_InitData;
 
-  using _EnableButtonsCoroutine_d__22 = ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22;
+  using _EnableButtonsCoroutine_d__22 = ::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22;
 
   /// @brief Field _agreeButton, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__agreeButton, put = __cordl_internal_set__agreeButton)) ::UnityW<::UnityEngine::UI::Button> _agreeButton;
@@ -372,7 +365,7 @@ public:
   __declspec(property(get = __cordl_internal_get__eulaLocalizedTextAsset, put = __cordl_internal_set__eulaLocalizedTextAsset)) ::UnityW<::GlobalNamespace::LocalizedTextAsset> _eulaLocalizedTextAsset;
 
   /// @brief Field _initData, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__EulaViewController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::EulaViewController_InitData* _initData;
 
   /// @brief Field _showOnlyContinueButton, offset 0xd1, size 0x1
   __declspec(property(get = __cordl_internal_get__showOnlyContinueButton, put = __cordl_internal_set__showOnlyContinueButton)) bool _showOnlyContinueButton;
@@ -387,49 +380,49 @@ public:
   __declspec(property(get = __cordl_internal_get__updateNoticeLocalizationKey, put = __cordl_internal_set__updateNoticeLocalizationKey)) ::StringW _updateNoticeLocalizationKey;
 
   /// @brief Field didFinishEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::EulaViewController_ButtonType>* didFinishEvent;
 
-  /// @brief Method Awake, addr 0x3bafef8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c13014, size 0x38, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DidActivate, addr 0x3baff30, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1304c, size 0x328, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bb02c8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c133e4, size 0xc0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method EnableButtonsCoroutine, addr 0x3bb0258, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EnableButtonsCoroutine, addr 0x3c13374, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
 
-  /// @brief Method Init, addr 0x3bb0388, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c134a4, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showOnlyContinueButton);
 
   static inline ::GlobalNamespace::EulaViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__19_0, addr 0x3bb03d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__19_0, addr 0x3c134f0, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_0();
 
-  /// @brief Method <DidActivate>b__19_1, addr 0x3bb03f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__19_1, addr 0x3c13510, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_1();
 
-  /// @brief Method <DidActivate>b__19_2, addr 0x3bb0414, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__19_2, addr 0x3c13530, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__agreeButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__agreeButton();
 
-  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__buttonsCoroutine();
+  constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get__buttonsCoroutine() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__buttonsCoroutine() const;
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__buttonsCoroutine();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
+  constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
+  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__disableButtonsProgress() const;
 
@@ -447,9 +440,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset>& __cordl_internal_get__eulaLocalizedTextAsset();
 
-  constexpr ::GlobalNamespace::__EulaViewController__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::EulaViewController_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EulaViewController__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::EulaViewController_InitData*& __cordl_internal_get__initData();
 
   constexpr bool const& __cordl_internal_get__showOnlyContinueButton() const;
 
@@ -467,9 +460,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__updateNoticeLocalizationKey();
 
-  constexpr ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::EulaViewController_ButtonType>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*> const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::EulaViewController_ButtonType>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__agreeButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -487,7 +480,7 @@ public:
 
   constexpr void __cordl_internal_set__eulaLocalizedTextAsset(::UnityW<::GlobalNamespace::LocalizedTextAsset> value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__EulaViewController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::EulaViewController_InitData* value);
 
   constexpr void __cordl_internal_set__showOnlyContinueButton(bool value);
 
@@ -497,16 +490,16 @@ public:
 
   constexpr void __cordl_internal_set__updateNoticeLocalizationKey(::StringW value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController_ButtonType>* value);
 
-  /// @brief Method .ctor, addr 0x3bb03c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c134e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3bafd98, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
+  /// @brief Method add_didFinishEvent, addr 0x3c12eb4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController_ButtonType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3bafe48, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
+  /// @brief Method remove_didFinishEvent, addr 0x3c12f64, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController_ButtonType>* value);
 
 protected:
   // Ctor Parameters []
@@ -521,6 +514,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EulaViewController(EulaViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4888 };
 
   /// @brief Field _agreeButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____agreeButton;
@@ -547,13 +543,13 @@ public:
   ::StringW ____updateNoticeLocalizationKey;
 
   /// @brief Field _initData, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::__EulaViewController__InitData* ____initData;
+  ::GlobalNamespace::EulaViewController_InitData* ____initData;
 
   /// @brief Field _coroutineStarter, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 
   /// @brief Field didFinishEvent, offset: 0xc8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* ___didFinishEvent;
+  ::System::Action_1<::GlobalNamespace::EulaViewController_ButtonType>* ___didFinishEvent;
 
   /// @brief Field _showUpdate, offset: 0xd0, size: 0x1, def value: None
   bool ____showUpdate;
@@ -564,14 +560,9 @@ public:
   /// @brief Field _buttonsCoroutine, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____buttonsCoroutine;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4867 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EulaViewController, 0xe0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EulaViewController, ____agreeButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EulaViewController, ____doNotAgreeButton) == 0x80, "Offset mismatch!");
@@ -600,11 +591,13 @@ static_assert(offsetof(::GlobalNamespace::EulaViewController, ____showOnlyContin
 
 static_assert(offsetof(::GlobalNamespace::EulaViewController, ____buttonsCoroutine) == 0xd8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EulaViewController, 0xe0>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EulaViewController__ButtonType, "", "EulaViewController/ButtonType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EulaViewController_ButtonType, "", "EulaViewController/ButtonType");
 NEED_NO_BOX(::GlobalNamespace::EulaViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EulaViewController*, "", "EulaViewController");
-NEED_NO_BOX(::GlobalNamespace::__EulaViewController__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EulaViewController__InitData*, "", "EulaViewController/InitData");
-NEED_NO_BOX(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__22*, "", "EulaViewController/<EnableButtonsCoroutine>d__22");
+NEED_NO_BOX(::GlobalNamespace::EulaViewController_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EulaViewController_InitData*, "", "EulaViewController/InitData");
+NEED_NO_BOX(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__22*, "", "EulaViewController/<EnableButtonsCoroutine>d__22");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IReferenceService)
 namespace System {
@@ -18,33 +17,28 @@ class IReferenceService;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::Design::IReferenceService);
-// Type: System.ComponentModel.Design::IReferenceService
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::ComponentModel::Design {
 // Is value type: false
-// CS Name: ::System.ComponentModel.Design::IReferenceService*
+// CS Name: System.ComponentModel.Design.IReferenceService
 class CORDL_TYPE IReferenceService {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW GetName(::System::Object* reference);
 
-  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetReference, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* GetReference(::StringW name);
 
-  /// @brief Method GetReferences, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetReferences, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetReferences(::System::Type* baseType);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IReferenceService", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IReferenceService(IReferenceService&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IReferenceService", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IReferenceService(IReferenceService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

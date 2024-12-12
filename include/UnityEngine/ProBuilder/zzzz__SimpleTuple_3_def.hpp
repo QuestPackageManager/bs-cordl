@@ -12,13 +12,12 @@ template <typename T1, typename T2, typename T3> struct SimpleTuple_3;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ProBuilder::SimpleTuple_3);
-// Type: UnityEngine.ProBuilder::SimpleTuple`3
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T1, typename T2, typename T3>
 // Is value type: true
-// CS Name: ::UnityEngine.ProBuilder::SimpleTuple`3<T1,T2,T3>
+// CS Name: UnityEngine.ProBuilder.SimpleTuple`3<T1,T2,T3>
 struct CORDL_TYPE SimpleTuple_3 {
 public:
   // Declarations
@@ -60,6 +59,12 @@ public:
   // "T3", modifiers: "", def_value: None }]
   constexpr SimpleTuple_3(T1 m_Item1, T2 m_Item2, T3 m_Item3) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14315 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
   /// @brief Field m_Item1, offset: 0x0, size: 0x8, def value: None
   T1 m_Item1;
 
@@ -68,12 +73,6 @@ public:
 
   /// @brief Field m_Item3, offset: 0x10, size: 0x8, def value: None
   T3 m_Item3;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14281 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

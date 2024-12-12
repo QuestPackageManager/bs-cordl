@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* (
     ::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::*)(::Org::BouncyCastle::Pkix::PkixBuilderParameters*)>(&::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::Build)> {
   constexpr static std::size_t size = 0xe70;
-  constexpr static std::size_t addrs = 0x2531268;
+  constexpr static std::size_t addrs = 0x2564554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                            ::Org::BouncyCastle::Pkix::PkixBuilderParameters*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::Build)> {
   constexpr static std::size_t size = 0xc00;
-  constexpr static std::size_t addrs = 0x2533118;
+  constexpr static std::size_t addrs = 0x2566404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::*)()>(
     &::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2534668;
+  constexpr static std::size_t addrs = 0x2567954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder*>::get(),
@@ -62,7 +62,7 @@ constexpr ::System::Exception*& Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certPathException;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::__cordl_internal_get_certPathException() const {
+constexpr ::System::Exception* const& Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::__cordl_internal_get_certPathException() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certPathException;
 }
@@ -87,13 +87,13 @@ inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Org::BouncyCastle::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult*, false>(this, ___internal_method, attrCert, tbvCert, pkixParams, tbvPath);
 }
-inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder* Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder*>());
-}
 inline void Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder* Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::PkixAttrCertPathBuilder() {}

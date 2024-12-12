@@ -8,7 +8,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -19,11 +18,10 @@ class HEU_LoadBufferVolumeLayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
-// Type: HoudiniEngineUnity::HEU_LoadBufferVolumeLayer
-// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HFLayerType, System.Object, UnityEngine.Color, UnityEngine.Vector2, UnityEngine.Vector3
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*
+// CS Name: HoudiniEngineUnity.HEU_LoadBufferVolumeLayer
 class CORDL_TYPE HEU_LoadBufferVolumeLayer : public ::System::Object {
 public:
   // Declarations
@@ -290,7 +288,7 @@ public:
 
   constexpr void __cordl_internal_set__uiExpanded(bool value);
 
-  /// @brief Method .ctor, addr 0x3a0bed0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a62b40, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -306,6 +304,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferVolumeLayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_LoadBufferVolumeLayer(HEU_LoadBufferVolumeLayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11789 };
 
   /// @brief Field _layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____layerName;
@@ -394,14 +395,9 @@ public:
   /// @brief Field _layerType, offset: 0xd4, size: 0x4, def value: None
   ::HoudiniEngineUnity::HFLayerType ____layerType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11756 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, 0xd8>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____layerName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____partID) == 0x18, "Offset mismatch!");
@@ -459,6 +455,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____laye
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____hasLayerAttributes) == 0xd0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____layerType) == 0xd4, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, 0xd8>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);

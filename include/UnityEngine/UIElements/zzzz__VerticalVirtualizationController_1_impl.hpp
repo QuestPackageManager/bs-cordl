@@ -14,78 +14,76 @@
 #include "UnityEngine/UIElements/zzzz__SerializedVirtualizationData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-template <typename T>
-inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::setStaticF___9(::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>(
-      std::forward<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>(value));
+template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::setStaticF___9(::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>(
+      std::forward<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>(value));
 }
-template <typename T> inline ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>();
+template <typename T> inline ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>();
 }
-template <typename T> inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::setStaticF___9__30_0(::System::Func_1<T>* value) {
+template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::setStaticF___9__30_0(::System::Func_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Func_1<T>*, "<>9__30_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>(
       std::forward<::System::Func_1<T>*>(value));
 }
-template <typename T> inline ::System::Func_1<T>* UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::getStaticF___9__30_0() {
+template <typename T> inline ::System::Func_1<T>* UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::getStaticF___9__30_0() {
   return ::cordl_internals::getStaticField<::System::Func_1<T>*, "<>9__30_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>();
 }
-template <typename T> inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::setStaticF___9__30_1(::System::Action_1<T>* value) {
+template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::setStaticF___9__30_1(::System::Action_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<T>*, "<>9__30_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>(
       std::forward<::System::Action_1<T>*>(value));
 }
-template <typename T> inline ::System::Action_1<T>* UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::getStaticF___9__30_1() {
+template <typename T> inline ::System::Action_1<T>* UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::getStaticF___9__30_1() {
   return ::cordl_internals::getStaticField<::System::Action_1<T>*, "<>9__30_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>();
 }
-template <typename T> inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::setStaticF___9__30_2(::System::Action_1<T>* value) {
+template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::setStaticF___9__30_2(::System::Action_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<T>*, "<>9__30_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>(
       std::forward<::System::Action_1<T>*>(value));
 }
-template <typename T> inline ::System::Action_1<T>* UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::getStaticF___9__30_2() {
+template <typename T> inline ::System::Action_1<T>* UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::getStaticF___9__30_2() {
   return ::cordl_internals::getStaticField<::System::Action_1<T>*, "<>9__30_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get>();
 }
-template <typename T> inline ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>());
-}
-template <typename T> inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::_ctor() {
+template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::__ctor_b__30_0() {
+template <typename T> inline T UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::__ctor_b__30_0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get(),
-                                               "<.ctor>b__30_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get(), "<.ctor>b__30_0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::__ctor_b__30_1(T i) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get(), "<.ctor>b__30_1",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::__ctor_b__30_1(T i) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get(), "<.ctor>b__30_1",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i);
 }
-template <typename T> inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::__ctor_b__30_2(T i) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*>::get(), "<.ctor>b__30_2",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::__ctor_b__30_2(T i) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>::get(), "<.ctor>b__30_2",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i);
+}
+template <typename T> inline ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::__VerticalVirtualizationController_1____c() {}
+template <typename T> constexpr ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>::VerticalVirtualizationController_1___c() {}
 template <typename T> constexpr ::UnityEngine::Pool::ObjectPool_1<T>*& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_Pool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Pool;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Pool::ObjectPool_1<T>*> const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_Pool() const {
+template <typename T> constexpr ::UnityEngine::Pool::ObjectPool_1<T>* const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_Pool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Pool;
 }
@@ -98,8 +96,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::BaseVerticalCollectio
   return this->___m_CollectionView;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const&
-UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_CollectionView() const {
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView* const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_CollectionView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CollectionView;
 }
@@ -112,9 +109,7 @@ template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& Unit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveItems;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const&
-UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_ActiveItems() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_ActiveItems() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveItems;
 }
@@ -152,8 +147,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIEleme
   return this->___m_LastFocusedElementTreeChildIndexes;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const&
-UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_LastFocusedElementTreeChildIndexes() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_LastFocusedElementTreeChildIndexes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastFocusedElementTreeChildIndexes;
 }
@@ -166,9 +160,7 @@ template <typename T> constexpr ::System::Func_2<T, bool>*& UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisibleItemPredicateDelegate;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T, bool>*> const&
-UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_VisibleItemPredicateDelegate() const {
+template <typename T> constexpr ::System::Func_2<T, bool>* const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_VisibleItemPredicateDelegate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisibleItemPredicateDelegate;
 }
@@ -180,9 +172,7 @@ template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& Unit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollInsertionList;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const&
-UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_ScrollInsertionList() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_ScrollInsertionList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollInsertionList;
 }
@@ -194,9 +184,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::VisualElement*& Unity
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EmptyRows;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_EmptyRows() const {
+template <typename T> constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_EmptyRows() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EmptyRows;
 }
@@ -271,11 +259,6 @@ template <typename T> inline bool UnityEngine::UIElements::VerticalVirtualizatio
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T>
-inline ::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*
-UnityEngine::UIElements::VerticalVirtualizationController_1<T>::New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>(collectionView));
-}
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -331,8 +314,6 @@ template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizatio
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dropIndex);
 }
-/// @param activeItemIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-/// @param scrollViewIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
 template <typename T> inline T UnityEngine::UIElements::VerticalVirtualizationController_1<T>::GetOrMakeItemAtIndex(int32_t activeItemIndex, int32_t scrollViewIndex) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -356,6 +337,11 @@ template <typename T> inline int32_t UnityEngine::UIElements::VerticalVirtualiza
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "GetDraggedIndex",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*
+UnityEngine::UIElements::VerticalVirtualizationController_1<T>::New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>(collectionView));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::VerticalVirtualizationController_1<T>::VerticalVirtualizationController_1() {}

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AuthorizationRuleCollection)
 namespace System::Security::AccessControl {
 class AuthorizationRule;
@@ -15,18 +14,17 @@ class AuthorizationRuleCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::AuthorizationRuleCollection);
-// Type: System.Security.AccessControl::AuthorizationRuleCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ReadOnlyCollectionBase
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::AuthorizationRuleCollection*
+// CS Name: System.Security.AccessControl.AuthorizationRuleCollection
 class CORDL_TYPE AuthorizationRuleCollection : public ::System::Collections::ReadOnlyCollectionBase {
 public:
   // Declarations
   static inline ::System::Security::AccessControl::AuthorizationRuleCollection*
   New_ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
-  /// @brief Method .ctor, addr 0x3c61574, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc16e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
 protected:

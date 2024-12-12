@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __AndInstruction__AndBoolean;
+namespace GlobalNamespace {
+class AndInstruction_AndBoolean;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__AndInstruction__AndBoolean);
-// Type: ::AndBoolean
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::AndInstruction_AndBoolean);
+// Dependencies System.Linq.Expressions.Interpreter.AndInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AndInstruction::AndBoolean*
-class CORDL_TYPE __AndInstruction__AndBoolean : public ::System::Linq::Expressions::Interpreter::AndInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.AndInstruction/AndBoolean
+class CORDL_TYPE AndInstruction_AndBoolean : public ::System::Linq::Expressions::Interpreter::AndInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__AndInstruction__AndBoolean* New_ctor();
+  static inline ::GlobalNamespace::AndInstruction_AndBoolean* New_ctor();
 
-  /// @brief Method Run, addr 0x405e9fc, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40bfd10, size 0x154, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x405e230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bf544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __AndInstruction__AndBoolean();
+  constexpr AndInstruction_AndBoolean();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__AndInstruction__AndBoolean", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndInstruction_AndBoolean", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __AndInstruction__AndBoolean(__AndInstruction__AndBoolean&&) = delete;
+  AndInstruction_AndBoolean(AndInstruction_AndBoolean&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__AndInstruction__AndBoolean", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndInstruction_AndBoolean", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __AndInstruction__AndBoolean(__AndInstruction__AndBoolean const&) = delete;
+  AndInstruction_AndBoolean(AndInstruction_AndBoolean const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__AndInstruction__AndBoolean, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AndInstruction_AndBoolean, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__AndInstruction__AndBoolean);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__AndInstruction__AndBoolean*, "System.Linq.Expressions.Interpreter", "AndInstruction/AndBoolean");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::AndInstruction_AndBoolean);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AndInstruction_AndBoolean*, "System.Linq.Expressions.Interpreter", "AndInstruction/AndBoolean");

@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
@@ -26,19 +29,13 @@ namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8;
 }
 namespace GlobalNamespace {
-class __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class MultiplayerPlayersManager;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -48,17 +45,16 @@ namespace GlobalNamespace {
 class MultiplayerLocalActiveLevelFailController;
 }
 namespace GlobalNamespace {
-class __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
+class MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveLevelFailController);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8);
-// Type: ::<PlayerFailedCoroutine>d__8
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLocalActiveLevelFailController::<PlayerFailedCoroutine>d__8*
-class CORDL_TYPE __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8 : public ::System::Object {
+// CS Name: MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8
+class CORDL_TYPE MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -83,30 +79,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b5d838, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bbf0a0, size 0xec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b5d924, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bbf18c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b5d92c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bbf194, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b5d964, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bbf1cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b5d834, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bbf09c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> const& __cordl_internal_get___4__this() const;
 
@@ -118,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> value);
 
-  /// @brief Method .ctor, addr 0x3b5d7c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbf028, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -133,16 +129,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8();
+  constexpr MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8(__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8&&) = delete;
+  MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8(__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8 const&) = delete;
+  MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4510 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -153,30 +152,26 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4498 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerLocalActiveLevelFailController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLocalActiveLevelFailController*
+// CS Name: MultiplayerLocalActiveLevelFailController
 class CORDL_TYPE MultiplayerLocalActiveLevelFailController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _PlayerFailedCoroutine_d__8 = ::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
+  using _PlayerFailedCoroutine_d__8 = ::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8;
 
   /// @brief Field _beatmapObjectManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
@@ -199,23 +194,23 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager, put = __cordl_internal_set__multiplayerPlayersManager)) ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>
       _multiplayerPlayersManager;
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x3b5d7e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x3bbf050, size 0x44, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveLevelFailController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b5d660, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bbeec8, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayerFailedCoroutine, addr 0x3b5d760, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PlayerFailedCoroutine, addr 0x3bbefc8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayerFailedCoroutine();
 
-  /// @brief Method Start, addr 0x3b5d570, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bbedd8, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
@@ -225,9 +220,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::GameSongController>& __cordl_internal_get__gameSongController();
 
-  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __cordl_internal_get__levelEndActionsPublisher();
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* const& __cordl_internal_get__levelEndActionsPublisher() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const& __cordl_internal_get__levelEndActionsPublisher() const;
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __cordl_internal_get__levelEndActionsPublisher();
 
   constexpr ::UnityW<::GlobalNamespace::LevelFailedTextEffect> const& __cordl_internal_get__levelFailedTextEffect() const;
 
@@ -249,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  /// @brief Method .ctor, addr 0x3b5d82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbf094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -265,6 +260,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalActiveLevelFailController(MultiplayerLocalActiveLevelFailController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4511 };
 
   /// @brief Field _levelFailedTextEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;
@@ -284,14 +282,9 @@ public:
   /// @brief Field _multiplayerPlayersManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4499 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActiveLevelFailController, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveLevelFailController, ____levelFailedTextEffect) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveLevelFailController, ____levelEndActionsPublisher) == 0x28, "Offset mismatch!");
@@ -304,8 +297,10 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveLevelFailControl
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveLevelFailController, ____multiplayerPlayersManager) == 0x48, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActiveLevelFailController, 0x50>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActiveLevelFailController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalActiveLevelFailController*, "", "MultiplayerLocalActiveLevelFailController");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8*, "", "MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*, "", "MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8");

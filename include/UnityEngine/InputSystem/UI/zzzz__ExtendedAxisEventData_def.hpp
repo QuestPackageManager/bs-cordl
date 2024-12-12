@@ -15,20 +15,19 @@ class ExtendedAxisEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::ExtendedAxisEventData);
-// Type: UnityEngine.InputSystem.UI::ExtendedAxisEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.AxisEventData
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.UI::ExtendedAxisEventData*
+// CS Name: UnityEngine.InputSystem.UI.ExtendedAxisEventData
 class CORDL_TYPE ExtendedAxisEventData : public ::UnityEngine::EventSystems::AxisEventData {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x458b12c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45ec440, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x458b124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ec438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
 protected:
@@ -46,7 +45,7 @@ public:
   ExtendedAxisEventData(ExtendedAxisEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6774 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

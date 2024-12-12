@@ -8,12 +8,13 @@
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolumeLayer_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_LoadBufferVolume._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_LoadBufferVolume::*)()>(&::HoudiniEngineUnity::HEU_LoadBufferVolume::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3a0bdc4;
+  constexpr static std::size_t addrs = 0x3a62a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_LoadBufferVolume*>::get(), ".ctor",
@@ -37,8 +38,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadB
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____splatLayers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>*> const&
-HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__splatLayers() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__splatLayers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____splatLayers;
 }
@@ -70,27 +70,27 @@ constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__h
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____heightMapHeight = value;
 }
-constexpr Il2CppObject*& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__heightMap() {
+constexpr ::System::Object*& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__heightMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightMap;
 }
-constexpr ::cordl_internals::to_const_pointer<Il2CppObject*> const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__heightMap() const {
+constexpr ::System::Object* const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__heightMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightMap;
 }
-constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__heightMap(Il2CppObject* value) {
+constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__heightMap(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____heightMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr Il2CppObject*& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__splatMaps() {
+constexpr ::System::Object*& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__splatMaps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____splatMaps;
 }
-constexpr ::cordl_internals::to_const_pointer<Il2CppObject*> const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__splatMaps() const {
+constexpr ::System::Object* const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__splatMaps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____splatMaps;
 }
-constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__splatMaps(Il2CppObject* value) {
+constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__splatMaps(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____splatMaps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -170,7 +170,7 @@ constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& HoudiniEngineUnity::HEU
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scatterTrees;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__scatterTrees() const {
+constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees* const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__scatterTrees() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scatterTrees;
 }
@@ -182,8 +182,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Detai
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailPrototypes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*> const&
-HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailPrototypes() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailPrototypes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailPrototypes;
 }
@@ -191,15 +190,15 @@ constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__d
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____detailPrototypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<Il2CppObject*>*& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailMaps() {
+constexpr ::System::Collections::Generic::List_1<::System::Object*>*& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailMaps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailMaps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<Il2CppObject*>*> const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailMaps() const {
+constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailMaps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailMaps;
 }
-constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__detailMaps(::System::Collections::Generic::List_1<Il2CppObject*>* value) {
+constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__detailMaps(::System::Collections::Generic::List_1<::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____detailMaps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -207,7 +206,7 @@ constexpr ::HoudiniEngineUnity::HEU_DetailProperties*& HoudiniEngineUnity::HEU_L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailProperties;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_DetailProperties*> const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailProperties() const {
+constexpr ::HoudiniEngineUnity::HEU_DetailProperties* const& HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_get__detailProperties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailProperties;
 }
@@ -227,13 +226,13 @@ constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__cordl_internal_set__s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____specifiedTerrainMaterialName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::HEU_LoadBufferVolume* HoudiniEngineUnity::HEU_LoadBufferVolume::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_LoadBufferVolume*>());
-}
 inline void HoudiniEngineUnity::HEU_LoadBufferVolume::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_LoadBufferVolume*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_LoadBufferVolume* HoudiniEngineUnity::HEU_LoadBufferVolume::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_LoadBufferVolume*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_LoadBufferVolume::HEU_LoadBufferVolume() {}

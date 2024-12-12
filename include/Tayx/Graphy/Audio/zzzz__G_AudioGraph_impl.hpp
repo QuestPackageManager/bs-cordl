@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::OnEnable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4471b34;
+  constexpr static std::size_t addrs = 0x44d2e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "OnEnable",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::Update)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4471b84;
+  constexpr static std::size_t addrs = 0x44d2e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "Update",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::UpdateParameters)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x4471c1c;
+  constexpr static std::size_t addrs = 0x44d2f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "UpdateParameters",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::Init)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4471dc4;
+  constexpr static std::size_t addrs = 0x44d30d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "Init",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::UpdateGraph)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x4471ef8;
+  constexpr static std::size_t addrs = 0x44d320c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::CreatePoints)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x447240c;
+  constexpr static std::size_t addrs = 0x44d3720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4472620;
+  constexpr static std::size_t addrs = 0x44d3934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), ".ctor",
@@ -200,7 +200,7 @@ constexpr ::Tayx::Graphy::G_GraphShader*& Tayx::Graphy::Audio::G_AudioGraph::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_shaderGraph;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& Tayx::Graphy::Audio::G_AudioGraph::__cordl_internal_get_m_shaderGraph() const {
+constexpr ::Tayx::Graphy::G_GraphShader* const& Tayx::Graphy::Audio::G_AudioGraph::__cordl_internal_get_m_shaderGraph() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_shaderGraph;
 }
@@ -212,7 +212,7 @@ constexpr ::Tayx::Graphy::G_GraphShader*& Tayx::Graphy::Audio::G_AudioGraph::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_shaderGraphHighestValues;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& Tayx::Graphy::Audio::G_AudioGraph::__cordl_internal_get_m_shaderGraphHighestValues() const {
+constexpr ::Tayx::Graphy::G_GraphShader* const& Tayx::Graphy::Audio::G_AudioGraph::__cordl_internal_get_m_shaderGraphHighestValues() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_shaderGraphHighestValues;
 }
@@ -274,13 +274,13 @@ inline void Tayx::Graphy::Audio::G_AudioGraph::CreatePoints() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Tayx::Graphy::Audio::G_AudioGraph* Tayx::Graphy::Audio::G_AudioGraph::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::Audio::G_AudioGraph*>());
-}
 inline void Tayx::Graphy::Audio::G_AudioGraph::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Tayx::Graphy::Audio::G_AudioGraph* Tayx::Graphy::Audio::G_AudioGraph::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::Audio::G_AudioGraph*>());
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Audio::G_AudioGraph::G_AudioGraph() {}

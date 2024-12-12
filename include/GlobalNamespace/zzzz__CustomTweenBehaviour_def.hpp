@@ -7,12 +7,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomTweenBehaviour)
 namespace GlobalNamespace {
-class __CustomTweenBehaviour____c;
+class CustomTweenBehaviour___c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -37,73 +36,71 @@ namespace GlobalNamespace {
 class CustomTweenBehaviour;
 }
 namespace GlobalNamespace {
-class __CustomTweenBehaviour____c;
+class CustomTweenBehaviour___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CustomTweenBehaviour);
-MARK_REF_PTR_T(::GlobalNamespace::__CustomTweenBehaviour____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::CustomTweenBehaviour___c);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CustomTweenBehaviour::<>c*
-class CORDL_TYPE __CustomTweenBehaviour____c : public ::System::Object {
+// CS Name: CustomTweenBehaviour/<>c
+class CORDL_TYPE CustomTweenBehaviour___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__CustomTweenBehaviour____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::CustomTweenBehaviour___c* __9;
 
   /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0)) ::System::Func_2<int32_t, float_t>* __9__21_0;
+  __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0)) ::System::Func_2<int32_t, float_t>* __9__21_0;
 
-  static inline ::GlobalNamespace::__CustomTweenBehaviour____c* New_ctor();
+  static inline ::GlobalNamespace::CustomTweenBehaviour___c* New_ctor();
 
-  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x3ad40a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x3b336e8, size 0x8, virtual false, abstract: false, final false
   inline float_t _OnBehaviourPlay_b__21_0(int32_t i);
 
-  /// @brief Method .ctor, addr 0x3ad409c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b336e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__CustomTweenBehaviour____c* getStaticF___9();
+  static inline ::GlobalNamespace::CustomTweenBehaviour___c* getStaticF___9();
 
   static inline ::System::Func_2<int32_t, float_t>* getStaticF___9__21_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__CustomTweenBehaviour____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::CustomTweenBehaviour___c* value);
 
   static inline void setStaticF___9__21_0(::System::Func_2<int32_t, float_t>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CustomTweenBehaviour____c();
+  constexpr CustomTweenBehaviour___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CustomTweenBehaviour____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CustomTweenBehaviour____c(__CustomTweenBehaviour____c&&) = delete;
+  CustomTweenBehaviour___c(CustomTweenBehaviour___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CustomTweenBehaviour____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CustomTweenBehaviour____c(__CustomTweenBehaviour____c const&) = delete;
+  CustomTweenBehaviour___c(CustomTweenBehaviour___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CustomTweenBehaviour____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomTweenBehaviour___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::CustomTweenBehaviour
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EaseType, UnityEngine.Playables.PlayableBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CustomTweenBehaviour*
+// CS Name: CustomTweenBehaviour
 class CORDL_TYPE CustomTweenBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__CustomTweenBehaviour____c;
+  using __c = ::GlobalNamespace::CustomTweenBehaviour___c;
 
   /// @brief Field _duration, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
@@ -162,16 +159,16 @@ public:
 
   static inline ::GlobalNamespace::CustomTweenBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPlay, addr 0x3ad3e44, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x3b33488, size 0x1e4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x3ad381c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x3b32e60, size 0x13c, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x3ad3d40, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3b33384, size 0x104, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3ad3958, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b32f9c, size 0x3e8, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__duration() const;
@@ -282,7 +279,7 @@ public:
 
   constexpr void __cordl_internal_set_startLocationCurrentPosition(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad4028, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3366c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -298,6 +295,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CustomTweenBehaviour(CustomTweenBehaviour const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5198 };
 
   /// @brief Field _transforms, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
@@ -353,14 +353,9 @@ public:
   /// @brief Field _randomizedDuration, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ____randomizedDuration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5178 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomTweenBehaviour, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CustomTweenBehaviour, ____transforms) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CustomTweenBehaviour, ___startLocationCurrentPosition) == 0x18, "Offset mismatch!");
@@ -397,8 +392,10 @@ static_assert(offsetof(::GlobalNamespace::CustomTweenBehaviour, ____randomizedOr
 
 static_assert(offsetof(::GlobalNamespace::CustomTweenBehaviour, ____randomizedDuration) == 0x68, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomTweenBehaviour, 0x70>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomTweenBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");
-NEED_NO_BOX(::GlobalNamespace::__CustomTweenBehaviour____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CustomTweenBehaviour____c*, "", "CustomTweenBehaviour/<>c");
+NEED_NO_BOX(::GlobalNamespace::CustomTweenBehaviour___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomTweenBehaviour___c*, "", "CustomTweenBehaviour/<>c");

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnDecodeStatus_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509SubjectKeyIdentifierExtension)
@@ -27,11 +26,10 @@ class X509SubjectKeyIdentifierExtension;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension);
-// Type: System.Security.Cryptography.X509Certificates::X509SubjectKeyIdentifierExtension
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.AsnDecodeStatus, System.Security.Cryptography.X509Certificates.X509Extension
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509SubjectKeyIdentifierExtension*
+// CS Name: System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
 class CORDL_TYPE X509SubjectKeyIdentifierExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
   // Declarations
@@ -46,22 +44,22 @@ public:
   /// @brief Field _subjectKeyIdentifier, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__subjectKeyIdentifier, put = __cordl_internal_set__subjectKeyIdentifier)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _subjectKeyIdentifier;
 
-  /// @brief Method CopyFrom, addr 0x43e340c, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x4444720, size 0x1cc, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Decode, addr 0x43e2a00, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x4443d14, size 0x164, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode, addr 0x43e2d0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x4444020, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
-  /// @brief Method FromHex, addr 0x43e2ed8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x44441ec, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromHex(::StringW hex);
 
-  /// @brief Method FromHexChar, addr 0x43e35d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromHexChar, addr 0x44448ec, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t FromHexChar(char16_t c);
 
-  /// @brief Method FromHexChars, addr 0x43e361c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FromHexChars, addr 0x4444930, size 0x9c, virtual false, abstract: false, final false
   static inline uint8_t FromHexChars(char16_t c1, char16_t c2);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension* New_ctor();
@@ -78,7 +76,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension* New_ctor(::StringW subjectKeyIdentifier, bool critical);
 
-  /// @brief Method ToString, addr 0x43e36b8, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x44449cc, size 0x238, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   constexpr ::StringW const& __cordl_internal_get__ski() const;
@@ -99,26 +97,26 @@ public:
 
   constexpr void __cordl_internal_set__subjectKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x43e2894, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4443ba8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43e2930, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4443c44, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedSubjectKeyIdentifier, bool critical);
 
-  /// @brief Method .ctor, addr 0x43e2fd8, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44442ec, size 0x3b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::PublicKey* key, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm,
                     bool critical);
 
-  /// @brief Method .ctor, addr 0x43e2fcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44442e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::PublicKey* key, bool critical);
 
-  /// @brief Method .ctor, addr 0x43e2b64, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4443e78, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier, bool critical);
 
-  /// @brief Method .ctor, addr 0x43e2d80, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4444094, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW subjectKeyIdentifier, bool critical);
 
-  /// @brief Method get_SubjectKeyIdentifier, addr 0x43e3388, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectKeyIdentifier, addr 0x444469c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_SubjectKeyIdentifier();
 
 protected:
@@ -135,6 +133,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509SubjectKeyIdentifierExtension(X509SubjectKeyIdentifierExtension const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9333 };
+
+  /// @brief Field friendlyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString friendlyName{ u"Subject Key Identifier" };
+
+  /// @brief Field oid offset 0xffffffff size 0x8
+  static constexpr ::ConstString oid{ u"2.5.29.14" };
+
   /// @brief Field _subjectKeyIdentifier, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____subjectKeyIdentifier;
 
@@ -144,25 +151,16 @@ public:
   /// @brief Field _status, offset: 0x38, size: 0x4, def value: None
   ::System::Security::Cryptography::AsnDecodeStatus ____status;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9308 };
-
-  /// @brief Field friendlyName offset 0xffffffff size 0x8
-  static constexpr ::ConstString friendlyName{ u"Subject Key Identifier" };
-
-  /// @brief Field oid offset 0xffffffff size 0x8
-  static constexpr ::ConstString oid{ u"2.5.29.14" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension, ____subjectKeyIdentifier) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension, ____ski) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension, ____status) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension, 0x40>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension);

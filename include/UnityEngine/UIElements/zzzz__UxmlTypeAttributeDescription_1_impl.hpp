@@ -5,9 +5,6 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-template <typename TBase> inline ::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>* UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>*>());
-}
 template <typename TBase> inline void UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>*>::get(), ".ctor",
@@ -33,6 +30,9 @@ template <typename TBase> inline ::System::Type* UnityEngine::UIElements::UxmlTy
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, s, type1);
+}
+template <typename TBase> inline ::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>* UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>*>());
 }
 // Ctor Parameters []
 template <typename TBase> constexpr ::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<TBase>::UxmlTypeAttributeDescription_1() {}

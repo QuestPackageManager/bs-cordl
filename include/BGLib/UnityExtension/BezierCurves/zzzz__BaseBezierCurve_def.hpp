@@ -18,31 +18,30 @@ class BaseBezierCurve;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve);
-// Type: BGLib.UnityExtension.BezierCurves::BaseBezierCurve
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace BGLib::UnityExtension::BezierCurves {
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension.BezierCurves::BaseBezierCurve*
+// CS Name: BGLib.UnityExtension.BezierCurves.BaseBezierCurve
 class CORDL_TYPE BaseBezierCurve : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   __declspec(property(get = get_isReady)) bool isReady;
 
-  /// @brief Method Evaluate, addr 0x2282adc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x22b5dc8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t current);
 
-  /// @brief Method GetBezierCurveData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::BGLib::UnityExtension::BezierCurves::CurveData GetBezierCurveData();
 
   static inline ::BGLib::UnityExtension::BezierCurves::BaseBezierCurve* New_ctor();
 
-  /// @brief Method SetBezierCurveData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData data);
 
-  /// @brief Method .ctor, addr 0x2282bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isReady();
 
 protected:
@@ -60,7 +59,7 @@ public:
   BaseBezierCurve(BaseBezierCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

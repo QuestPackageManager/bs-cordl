@@ -3,6 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__GridView_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -37,14 +41,11 @@ class PageControl;
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace GlobalNamespace {
-class __GridView__IDataSource;
+namespace HMUI {
+struct SelectableCell_TransitionType;
 }
 namespace HMUI {
 class SelectableCell;
-}
-namespace HMUI {
-struct __SelectableCell__TransitionType;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -57,15 +58,6 @@ class Action;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -82,11 +74,11 @@ class AnnotatedBeatmapLevelCollectionsGridView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView);
-// Type: ::AnnotatedBeatmapLevelCollectionsGridView
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies GridView::IDataSource, UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerEnterHandler, UnityEngine.EventSystems.IPointerExitHandler,
+// UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AnnotatedBeatmapLevelCollectionsGridView*
+// CS Name: AnnotatedBeatmapLevelCollectionsGridView
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -159,8 +151,8 @@ public:
 
   __declspec(property(get = get_numberOfCells)) int32_t numberOfCells;
 
-  /// @brief Convert operator to "::GlobalNamespace::__GridView__IDataSource"
-  constexpr operator ::GlobalNamespace::__GridView__IDataSource*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::GridView_IDataSource"
+  constexpr operator ::GlobalNamespace::GridView_IDataSource*() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
@@ -171,72 +163,71 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
 
-  /// @brief Method CancelAsyncOperations, addr 0x3a9e9e0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x3afbe74, size 0x184, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method CellForIdx, addr 0x3a9ff00, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x3afd394, size 0x200, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::MonoBehaviour> CellForIdx(::GlobalNamespace::GridView* gridView, int32_t idx);
 
-  /// @brief Method CloseLevelCollection, addr 0x3a9e938, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CloseLevelCollection, addr 0x3afbdcc, size 0x60, virtual false, abstract: false, final false
   inline void CloseLevelCollection(bool animated);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x3a9f32c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x3afc7c0, size 0x58, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleCellSelectionDidChange, addr 0x3a9fa78, size 0x488, virtual false, abstract: false, final false
-  inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transition, ::System::Object* changeOwner);
+  /// @brief Method HandleCellSelectionDidChange, addr 0x3afcf0c, size 0x488, virtual false, abstract: false, final false
+  inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transition, ::System::Object* changeOwner);
 
-  /// @brief Method HandleVRPlatformHelperInputFocusCaptured, addr 0x3a9fa70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleVRPlatformHelperInputFocusCaptured, addr 0x3afcf04, size 0x8, virtual false, abstract: false, final false
   inline void HandleVRPlatformHelperInputFocusCaptured();
 
-  /// @brief Method Hide, addr 0x3a9e9bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3afbe50, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3a9e78c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3afbc20, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3a9e5f4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3afba88, size 0x198, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPointerEnter, addr 0x3a9f28c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x3afc720, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x3a9f304, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x3afc798, size 0x28, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method RefreshAvailability, addr 0x3a9ec48, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailability, addr 0x3afc0dc, size 0x2c4, virtual false, abstract: false, final false
   inline void RefreshAvailability();
 
-  /// @brief Method SelectAndScrollToCellWithIdx, addr 0x3a9ef6c, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method SelectAndScrollToCellWithIdx, addr 0x3afc400, size 0x320, virtual false, abstract: false, final false
   inline void SelectAndScrollToCellWithIdx(int32_t idx);
 
-  /// @brief Method SetData, addr 0x3a9dff8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3afb48c, size 0xc8, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* annotatedBeatmapLevelCollections);
 
-  /// @brief Method ShouldExpandCollection, addr 0x3a9f2d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShouldExpandCollection, addr 0x3afc76c, size 0x2c, virtual false, abstract: false, final false
   inline bool ShouldExpandCollection();
 
-  /// @brief Method Show, addr 0x3a9e998, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3afbe2c, size 0x24, virtual false, abstract: false, final false
   inline void Show();
 
-  constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
   constexpr ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator> const& __cordl_internal_get__animator() const;
 
   constexpr ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator>& __cordl_internal_get__animator();
 
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get__annotatedBeatmapLevelCollections() const;
+
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get__annotatedBeatmapLevelCollections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*> const&
-  __cordl_internal_get__annotatedBeatmapLevelCollections() const;
+  constexpr ::GlobalNamespace::BeatmapLevelsPromoModel* const& __cordl_internal_get__beatmapLevelsPromoModel() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelsPromoModel*& __cordl_internal_get__beatmapLevelsPromoModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsPromoModel*> const& __cordl_internal_get__beatmapLevelsPromoModel() const;
 
   constexpr float_t const& __cordl_internal_get__cellHeight() const;
 
@@ -254,9 +245,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__contentWarningLabel();
 
-  constexpr ::GlobalNamespace::IEntitlementModel*& __cordl_internal_get__entitlementModel();
+  constexpr ::GlobalNamespace::IEntitlementModel* const& __cordl_internal_get__entitlementModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEntitlementModel*> const& __cordl_internal_get__entitlementModel() const;
+  constexpr ::GlobalNamespace::IEntitlementModel*& __cordl_internal_get__entitlementModel();
 
   constexpr ::UnityW<::GlobalNamespace::GridView> const& __cordl_internal_get__gridView() const;
 
@@ -282,21 +273,21 @@ public:
 
   constexpr int32_t& __cordl_internal_get__selectedCellIndex();
 
+  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didCloseAnnotatedBeatmapLevelCollectionEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didCloseAnnotatedBeatmapLevelCollectionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didCloseAnnotatedBeatmapLevelCollectionEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didOpenAnnotatedBeatmapLevelCollectionEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didOpenAnnotatedBeatmapLevelCollectionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didOpenAnnotatedBeatmapLevelCollectionEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get_didSelectAnnotatedBeatmapLevelCollectionEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get_didSelectAnnotatedBeatmapLevelCollectionEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>*> const& __cordl_internal_get_didSelectAnnotatedBeatmapLevelCollectionEvent() const;
 
   constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
@@ -336,29 +327,29 @@ public:
 
   constexpr void __cordl_internal_set_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method .ctor, addr 0x3aa0100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afd594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didCloseAnnotatedBeatmapLevelCollectionEvent, addr 0x3a9dd60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didCloseAnnotatedBeatmapLevelCollectionEvent, addr 0x3afb1f4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCloseAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
 
-  /// @brief Method add_didOpenAnnotatedBeatmapLevelCollectionEvent, addr 0x3a9dc28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didOpenAnnotatedBeatmapLevelCollectionEvent, addr 0x3afb0bc, size 0x9c, virtual false, abstract: false, final false
   inline void add_didOpenAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
 
-  /// @brief Method add_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x3a9de98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x3afb32c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method get_cellHeight, addr 0x3a9dc20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_cellHeight, addr 0x3afb0b4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_cellHeight();
 
-  /// @brief Method get_cellWidth, addr 0x3a9dc18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_cellWidth, addr 0x3afb0ac, size 0x8, virtual true, abstract: false, final true
   inline float_t get_cellWidth();
 
-  /// @brief Method get_numberOfCells, addr 0x3a9db6c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfCells, addr 0x3afb000, size 0xac, virtual true, abstract: false, final true
   inline int32_t get_numberOfCells();
 
-  /// @brief Convert to "::GlobalNamespace::__GridView__IDataSource"
-  constexpr ::GlobalNamespace::__GridView__IDataSource* i___GlobalNamespace____GridView__IDataSource() noexcept;
+  /// @brief Convert to "::GlobalNamespace::GridView_IDataSource"
+  constexpr ::GlobalNamespace::GridView_IDataSource* i___GlobalNamespace__GridView_IDataSource() noexcept;
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
@@ -369,13 +360,13 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method remove_didCloseAnnotatedBeatmapLevelCollectionEvent, addr 0x3a9ddfc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didCloseAnnotatedBeatmapLevelCollectionEvent, addr 0x3afb290, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCloseAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
 
-  /// @brief Method remove_didOpenAnnotatedBeatmapLevelCollectionEvent, addr 0x3a9dcc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didOpenAnnotatedBeatmapLevelCollectionEvent, addr 0x3afb158, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didOpenAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
 
-  /// @brief Method remove_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x3a9df48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x3afb3dc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
 protected:
@@ -391,6 +382,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AnnotatedBeatmapLevelCollectionsGridView(AnnotatedBeatmapLevelCollectionsGridView const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4963 };
 
   /// @brief Field _gridView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GridView> ____gridView;
@@ -449,14 +443,9 @@ public:
   /// @brief Field _selectedCellIndex, offset: 0xa0, size: 0x4, def value: None
   int32_t ____selectedCellIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4943 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView, ____gridView) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView, ____pageControl) == 0x28, "Offset mismatch!");
@@ -494,6 +483,8 @@ static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridVi
 static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView, ____annotatedBeatmapLevelCollections) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView, ____selectedCellIndex) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView, 0xa8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView);

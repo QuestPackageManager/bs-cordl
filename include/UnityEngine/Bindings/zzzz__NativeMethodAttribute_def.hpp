@@ -12,11 +12,10 @@ class NativeMethodAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativeMethodAttribute);
-// Type: UnityEngine.Bindings::NativeMethodAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
-// CS Name: ::UnityEngine.Bindings::NativeMethodAttribute*
+// CS Name: UnityEngine.Bindings.NativeMethodAttribute
 class CORDL_TYPE NativeMethodAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -83,31 +82,31 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x48b1f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49165f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48b1f70, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916600, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x48b206c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49166fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction);
 
-  /// @brief Method .ctor, addr 0x48b2094, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916724, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
-  /// @brief Method set_HasExplicitThis, addr 0x48b1f5c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_HasExplicitThis, addr 0x49165ec, size 0xc, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
-  /// @brief Method set_IsFreeFunction, addr 0x48b1f44, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsFreeFunction, addr 0x49165d4, size 0xc, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
-  /// @brief Method set_IsThreadSafe, addr 0x48b1f38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsThreadSafe, addr 0x49165c8, size 0xc, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
-  /// @brief Method set_Name, addr 0x48b1f30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Name, addr 0x49165c0, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_ThrowsException, addr 0x48b1f50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x49165e0, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:
@@ -124,6 +123,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativeMethodAttribute(NativeMethodAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18699 };
+
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -139,14 +141,9 @@ public:
   /// @brief Field <HasExplicitThis>k__BackingField, offset: 0x1b, size: 0x1, def value: None
   bool ____HasExplicitThis_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18618 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeMethodAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Bindings::NativeMethodAttribute, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Bindings::NativeMethodAttribute, ____IsThreadSafe_k__BackingField) == 0x18, "Offset mismatch!");
@@ -156,6 +153,8 @@ static_assert(offsetof(::UnityEngine::Bindings::NativeMethodAttribute, ____IsFre
 static_assert(offsetof(::UnityEngine::Bindings::NativeMethodAttribute, ____ThrowsException_k__BackingField) == 0x1a, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Bindings::NativeMethodAttribute, ____HasExplicitThis_k__BackingField) == 0x1b, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeMethodAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NativeMethodAttribute);

@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__ThreadState_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__UIntPtr_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalThread)
 namespace System {
@@ -19,11 +18,10 @@ class InternalThread;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::InternalThread);
-// Type: System.Threading::InternalThread
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Runtime.ConstrainedExecution.CriticalFinalizerObject, System.Threading.ThreadState, System.UIntPtr
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::InternalThread*
+// CS Name: System.Threading.InternalThread
 class CORDL_TYPE InternalThread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
@@ -147,12 +145,12 @@ public:
   /// @brief Field threadpool_thread, offset 0xa8, size 0x1
   __declspec(property(get = __cordl_internal_get_threadpool_thread, put = __cordl_internal_set_threadpool_thread)) bool threadpool_thread;
 
-  /// @brief Method Finalize, addr 0x3dfc1a8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3e5c254, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Threading::InternalThread* New_ctor();
 
-  /// @brief Method Thread_free_internal, addr 0x3dfc1a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Thread_free_internal, addr 0x3e5c250, size 0x4, virtual false, abstract: false, final false
   inline void Thread_free_internal();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__serialized_principal() const;
@@ -163,9 +161,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__serialized_principal_version();
 
-  constexpr ::System::Object*& __cordl_internal_get_abort_exc();
+  constexpr ::System::Object* const& __cordl_internal_get_abort_exc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_abort_exc() const;
+  constexpr ::System::Object*& __cordl_internal_get_abort_exc();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_abort_protected_block_count() const;
 
@@ -187,9 +185,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_critical_region_level();
 
-  constexpr ::System::Object*& __cordl_internal_get_current_appcontext();
+  constexpr ::System::Object* const& __cordl_internal_get_current_appcontext() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_current_appcontext() const;
+  constexpr ::System::Object*& __cordl_internal_get_current_appcontext();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_debugger_thread() const;
 
@@ -263,9 +261,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_priority();
 
-  constexpr ::System::Object*& __cordl_internal_get_root_domain_thread();
+  constexpr ::System::Object* const& __cordl_internal_get_root_domain_thread() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_root_domain_thread() const;
+  constexpr ::System::Object*& __cordl_internal_get_root_domain_thread();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_runtime_thread_info() const;
 
@@ -395,7 +393,7 @@ public:
 
   constexpr void __cordl_internal_set_threadpool_thread(bool value);
 
-  /// @brief Method .ctor, addr 0x3dfc23c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5c2e8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -411,6 +409,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InternalThread", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InternalThread(InternalThread const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2750 };
 
   /// @brief Field lock_thread_id, offset: 0x10, size: 0x4, def value: None
   int32_t ___lock_thread_id;
@@ -532,14 +533,9 @@ public:
   /// @brief Field last, offset: 0x120, size: 0x8, def value: None
   ::System::IntPtr ___last;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2750 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::InternalThread, 0x128>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::InternalThread, ___lock_thread_id) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::InternalThread, ___handle) == 0x18, "Offset mismatch!");
@@ -619,6 +615,8 @@ static_assert(offsetof(::System::Threading::InternalThread, ___netcore1) == 0x11
 static_assert(offsetof(::System::Threading::InternalThread, ___netcore2) == 0x118, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::InternalThread, ___last) == 0x120, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::InternalThread, 0x128>, "Size mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::InternalThread);

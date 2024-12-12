@@ -13,20 +13,19 @@ class JZlib;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::JZlib);
-// Type: Org.BouncyCastle.Utilities.Zlib::JZlib
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Zlib::JZlib*
+// CS Name: Org.BouncyCastle.Utilities.Zlib.JZlib
 class CORDL_TYPE JZlib : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Zlib::JZlib* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25ad53c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e0828, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method version, addr 0x25ad4fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method version, addr 0x25e07e8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW version();
 
 protected:

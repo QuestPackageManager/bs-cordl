@@ -12,11 +12,10 @@ class Sensor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Sensor);
-// Type: UnityEngine.InputSystem::Sensor
-// SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::Sensor*
+// CS Name: UnityEngine.InputSystem.Sensor
 class CORDL_TYPE Sensor : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
@@ -24,13 +23,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Sensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4564924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45c5c38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_samplingFrequency, addr 0x4564798, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_samplingFrequency, addr 0x45c5aac, size 0xec, virtual false, abstract: false, final false
   inline float_t get_samplingFrequency();
 
-  /// @brief Method set_samplingFrequency, addr 0x4564884, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_samplingFrequency, addr 0x45c5b98, size 0xa0, virtual false, abstract: false, final false
   inline void set_samplingFrequency(float_t value);
 
 protected:
@@ -48,7 +47,7 @@ public:
   Sensor(Sensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,13 +11,12 @@ template <typename T> class OverridableData_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::StyledUITemplates::OverridableData_1);
-// Type: StyledUITemplates::OverridableData`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace StyledUITemplates {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::StyledUITemplates::OverridableData`1<T>*
+// CS Name: StyledUITemplates.OverridableData`1<T>
 class CORDL_TYPE OverridableData_1 : public ::System::Object {
 public:
   // Declarations
@@ -74,14 +73,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OverridableData_1(OverridableData_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19175 };
+
   /// @brief Field _override, offset: 0x10, size: 0x1, def value: None
   bool ____override;
 
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
   T ____data;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,11 +20,10 @@ class XmlSchemaRedefine;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaRedefine);
-// Type: System.Xml.Schema::XmlSchemaRedefine
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaExternal
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaRedefine*
+// CS Name: System.Xml.Schema.XmlSchemaRedefine
 class CORDL_TYPE XmlSchemaRedefine : public ::System::Xml::Schema::XmlSchemaExternal {
 public:
   // Declarations
@@ -48,26 +47,26 @@ public:
   /// @brief Field types, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_types, put = __cordl_internal_set_types)) ::System::Xml::Schema::XmlSchemaObjectTable* types;
 
-  /// @brief Method AddAnnotation, addr 0x425f0c0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x42c03d4, size 0x1c, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaRedefine* New_ctor();
 
+  constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& __cordl_internal_get_attributeGroups() const;
+
   constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& __cordl_internal_get_attributeGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectTable*> const& __cordl_internal_get_attributeGroups() const;
+  constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& __cordl_internal_get_groups() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& __cordl_internal_get_groups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectTable*> const& __cordl_internal_get_groups() const;
+  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_items() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __cordl_internal_get_items() const;
+  constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& __cordl_internal_get_types() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& __cordl_internal_get_types();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectTable*> const& __cordl_internal_get_types() const;
 
   constexpr void __cordl_internal_set_attributeGroups(::System::Xml::Schema::XmlSchemaObjectTable* value);
 
@@ -77,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set_types(::System::Xml::Schema::XmlSchemaObjectTable* value);
 
-  /// @brief Method .ctor, addr 0x425efdc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c02f0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttributeGroups, addr 0x425f0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeGroups, addr 0x42c03bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeGroups();
 
-  /// @brief Method get_Groups, addr 0x425f0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x42c03cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_Groups();
 
-  /// @brief Method get_Items, addr 0x425f0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x42c03b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
-  /// @brief Method get_SchemaTypes, addr 0x425f0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaTypes, addr 0x42c03c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_SchemaTypes();
 
 protected:
@@ -106,6 +105,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaRedefine(XmlSchemaRedefine const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7713 };
+
   /// @brief Field items, offset: 0x68, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectCollection* ___items;
 
@@ -118,14 +120,9 @@ public:
   /// @brief Field groups, offset: 0x80, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectTable* ___groups;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7688 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaRedefine, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaRedefine, ___items) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaRedefine, ___attributeGroups) == 0x70, "Offset mismatch!");
@@ -133,6 +130,8 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaRedefine, ___attributeGro
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaRedefine, ___types) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaRedefine, ___groups) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaRedefine, 0x88>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaRedefine);

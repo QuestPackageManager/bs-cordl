@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControl_1)
 namespace System {
@@ -24,13 +22,12 @@ template <typename TValue> class InputControl_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::InputControl_1);
-// Type: UnityEngine.InputSystem::InputControl`1
-// SizeInfo { instance_size: 272, native_size: 265, calculated_instance_size: 272, calculated_native_size: 265, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputControl`1<TValue>*
+// CS Name: UnityEngine.InputSystem.InputControl`1<TValue>
 class CORDL_TYPE InputControl_1 : public ::UnityEngine::InputSystem::InputControl {
 public:
   // Declarations
@@ -65,7 +62,7 @@ public:
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
   /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool CompareValue(ByRef<TValue> firstValue, ByRef<TValue> secondValue);
+  static inline bool CompareValue(::ByRef<TValue> firstValue, ::ByRef<TValue> secondValue);
 
   /// @brief Method FinishSetup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void FinishSetup();
@@ -76,7 +73,7 @@ public:
   inline TValue ProcessValue(TValue value);
 
   /// @brief Method ProcessValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ProcessValue(ByRef<TValue> value);
+  inline void ProcessValue(::ByRef<TValue> value);
 
   /// @brief Method ReadDefaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadDefaultValue();
@@ -84,7 +81,7 @@ public:
   /// @brief Method ReadUnprocessedValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadUnprocessedValue();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
   /// @brief Method ReadUnprocessedValueFromStateWithCaching, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -154,10 +151,10 @@ public:
   inline ::ArrayW<::UnityEngine::InputSystem::InputProcessor_1<TValue>*, ::Array<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>*> get_processors();
 
   /// @brief Method get_unprocessedValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ByRef<TValue> get_unprocessedValue();
+  inline ::ByRef<TValue> get_unprocessedValue();
 
   /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ByRef<TValue> get_value();
+  inline ::ByRef<TValue> get_value();
 
   /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
@@ -179,6 +176,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputControl_1(InputControl_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
+
   /// @brief Field m_ProcessorStack, offset: 0xe0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> ___m_ProcessorStack;
 
@@ -190,9 +190,6 @@ public:
 
   /// @brief Field evaluateProcessorsEveryRead, offset: 0x108, size: 0x1, def value: None
   bool ___evaluateProcessorsEveryRead;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,11 +24,10 @@ class PanelAnimationSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::PanelAnimationSO);
-// Type: HMUI::PanelAnimationSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::PanelAnimationSO*
+// CS Name: HMUI.PanelAnimationSO
 class CORDL_TYPE PanelAnimationSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -47,39 +46,39 @@ public:
   /// @brief Field _scaleYAnimationCurve, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__scaleYAnimationCurve, put = __cordl_internal_set__scaleYAnimationCurve)) ::UnityEngine::AnimationCurve* _scaleYAnimationCurve;
 
-  /// @brief Method ExecuteAnimation, addr 0x3993378, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39e9ef8, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go);
 
-  /// @brief Method ExecuteAnimation, addr 0x3993454, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39e9fd4, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x3993464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39e9fe4, size 0xc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x3993388, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39e9f08, size 0xcc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
 
   static inline ::HMUI::PanelAnimationSO* New_ctor();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__alphaAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__alphaAnimationCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__alphaAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__alphaAnimationCurve();
 
   constexpr float_t const& __cordl_internal_get__duration() const;
 
   constexpr float_t& __cordl_internal_get__duration();
 
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__parentAlphaAnimationCurve() const;
+
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__parentAlphaAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__parentAlphaAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__scaleXAnimationCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__scaleXAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__scaleXAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__scaleYAnimationCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__scaleYAnimationCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__scaleYAnimationCurve() const;
 
   constexpr void __cordl_internal_set__alphaAnimationCurve(::UnityEngine::AnimationCurve* value);
 
@@ -91,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x3993470, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9ff0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,6 +107,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PanelAnimationSO(PanelAnimationSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16012 };
+
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None
   float_t ____duration;
 
@@ -123,14 +125,9 @@ public:
   /// @brief Field _parentAlphaAnimationCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____parentAlphaAnimationCurve;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15977 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::PanelAnimationSO, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::PanelAnimationSO, ____duration) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::PanelAnimationSO, ____scaleXAnimationCurve) == 0x20, "Offset mismatch!");
@@ -140,6 +137,8 @@ static_assert(offsetof(::HMUI::PanelAnimationSO, ____scaleYAnimationCurve) == 0x
 static_assert(offsetof(::HMUI::PanelAnimationSO, ____alphaAnimationCurve) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::PanelAnimationSO, ____parentAlphaAnimationCurve) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::PanelAnimationSO, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::PanelAnimationSO);

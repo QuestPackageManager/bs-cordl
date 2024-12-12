@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RectangularVertexClipper)
 namespace UnityEngine {
 class Canvas;
@@ -24,11 +23,10 @@ class RectangularVertexClipper;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::RectangularVertexClipper);
-// Type: UnityEngine.UI::RectangularVertexClipper
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::RectangularVertexClipper*
+// CS Name: UnityEngine.UI.RectangularVertexClipper
 class CORDL_TYPE RectangularVertexClipper : public ::System::Object {
 public:
   // Declarations
@@ -38,7 +36,7 @@ public:
   /// @brief Field m_WorldCorners, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WorldCorners, put = __cordl_internal_set_m_WorldCorners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_WorldCorners;
 
-  /// @brief Method GetCanvasRect, addr 0x48f2bb8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasRect, addr 0x4957368, size 0x158, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
 
   static inline ::UnityEngine::UI::RectangularVertexClipper* New_ctor();
@@ -55,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x48f2d10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49574c0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RectangularVertexClipper(RectangularVertexClipper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15039 };
+
   /// @brief Field m_WorldCorners, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___m_WorldCorners;
 
   /// @brief Field m_CanvasCorners, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___m_CanvasCorners;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15004 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::RectangularVertexClipper, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UI::RectangularVertexClipper, ___m_WorldCorners) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UI::RectangularVertexClipper, ___m_CanvasCorners) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::RectangularVertexClipper, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::RectangularVertexClipper);

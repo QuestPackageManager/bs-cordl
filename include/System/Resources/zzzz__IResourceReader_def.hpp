@@ -3,15 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IResourceReader)
 namespace System::Collections {
 class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -19,11 +15,10 @@ class IResourceReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Resources::IResourceReader);
-// Type: System.Resources::IResourceReader
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEnumerable, System.IDisposable
 namespace System::Resources {
 // Is value type: false
-// CS Name: ::System.Resources::IResourceReader*
+// CS Name: System.Resources.IResourceReader
 class CORDL_TYPE IResourceReader {
 public:
   // Declarations
@@ -33,10 +28,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Close, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetEnumerator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -44,10 +39,6 @@ public:
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IResourceReader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IResourceReader(IResourceReader&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IResourceReader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

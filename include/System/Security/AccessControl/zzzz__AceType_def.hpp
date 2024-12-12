@@ -12,11 +12,10 @@ struct AceType;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::AceType);
-// Type: System.Security.AccessControl::AceType
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
-// CS Name: ::System.Security.AccessControl::AceType
+// CS Name: System.Security.AccessControl.AceType
 struct CORDL_TYPE AceType {
 public:
   // Declarations
@@ -61,61 +60,58 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr AceType(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field AccessAllowed value: static_cast<uint8_t>(0x0u)
+  /// @brief Field AccessAllowed value: U8(0)
   static ::System::Security::AccessControl::AceType const AccessAllowed;
 
-  /// @brief Field AccessAllowedCallback value: static_cast<uint8_t>(0x9u)
+  /// @brief Field AccessAllowedCallback value: U8(9)
   static ::System::Security::AccessControl::AceType const AccessAllowedCallback;
 
-  /// @brief Field AccessAllowedCallbackObject value: static_cast<uint8_t>(0xbu)
+  /// @brief Field AccessAllowedCallbackObject value: U8(11)
   static ::System::Security::AccessControl::AceType const AccessAllowedCallbackObject;
 
-  /// @brief Field AccessAllowedCompound value: static_cast<uint8_t>(0x4u)
+  /// @brief Field AccessAllowedCompound value: U8(4)
   static ::System::Security::AccessControl::AceType const AccessAllowedCompound;
 
-  /// @brief Field AccessAllowedObject value: static_cast<uint8_t>(0x5u)
+  /// @brief Field AccessAllowedObject value: U8(5)
   static ::System::Security::AccessControl::AceType const AccessAllowedObject;
 
-  /// @brief Field AccessDenied value: static_cast<uint8_t>(0x1u)
+  /// @brief Field AccessDenied value: U8(1)
   static ::System::Security::AccessControl::AceType const AccessDenied;
 
-  /// @brief Field AccessDeniedCallback value: static_cast<uint8_t>(0xau)
+  /// @brief Field AccessDeniedCallback value: U8(10)
   static ::System::Security::AccessControl::AceType const AccessDeniedCallback;
 
-  /// @brief Field AccessDeniedCallbackObject value: static_cast<uint8_t>(0xcu)
+  /// @brief Field AccessDeniedCallbackObject value: U8(12)
   static ::System::Security::AccessControl::AceType const AccessDeniedCallbackObject;
 
-  /// @brief Field AccessDeniedObject value: static_cast<uint8_t>(0x6u)
+  /// @brief Field AccessDeniedObject value: U8(6)
   static ::System::Security::AccessControl::AceType const AccessDeniedObject;
 
-  /// @brief Field MaxDefinedAceType value: static_cast<uint8_t>(0x10u)
+  /// @brief Field MaxDefinedAceType value: U8(16)
   static ::System::Security::AccessControl::AceType const MaxDefinedAceType;
 
-  /// @brief Field SystemAlarm value: static_cast<uint8_t>(0x3u)
+  /// @brief Field SystemAlarm value: U8(3)
   static ::System::Security::AccessControl::AceType const SystemAlarm;
 
-  /// @brief Field SystemAlarmCallback value: static_cast<uint8_t>(0xeu)
+  /// @brief Field SystemAlarmCallback value: U8(14)
   static ::System::Security::AccessControl::AceType const SystemAlarmCallback;
 
-  /// @brief Field SystemAlarmCallbackObject value: static_cast<uint8_t>(0x10u)
+  /// @brief Field SystemAlarmCallbackObject value: U8(16)
   static ::System::Security::AccessControl::AceType const SystemAlarmCallbackObject;
 
-  /// @brief Field SystemAlarmObject value: static_cast<uint8_t>(0x8u)
+  /// @brief Field SystemAlarmObject value: U8(8)
   static ::System::Security::AccessControl::AceType const SystemAlarmObject;
 
-  /// @brief Field SystemAudit value: static_cast<uint8_t>(0x2u)
+  /// @brief Field SystemAudit value: U8(2)
   static ::System::Security::AccessControl::AceType const SystemAudit;
 
-  /// @brief Field SystemAuditCallback value: static_cast<uint8_t>(0xdu)
+  /// @brief Field SystemAuditCallback value: U8(13)
   static ::System::Security::AccessControl::AceType const SystemAuditCallback;
 
-  /// @brief Field SystemAuditCallbackObject value: static_cast<uint8_t>(0xfu)
+  /// @brief Field SystemAuditCallbackObject value: U8(15)
   static ::System::Security::AccessControl::AceType const SystemAuditCallbackObject;
 
-  /// @brief Field SystemAuditObject value: static_cast<uint8_t>(0x7u)
+  /// @brief Field SystemAuditObject value: U8(7)
   static ::System::Security::AccessControl::AceType const SystemAuditObject;
 
   /// @brief IL2CPP Metadata Type Index
@@ -124,12 +120,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AceType, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::AccessControl::AceType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AceType, 0x1>, "Size mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceType, "System.Security.AccessControl", "AceType");

@@ -12,11 +12,10 @@ struct AndroidInputSource;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource);
-// Type: UnityEngine.InputSystem.Android.LowLevel::AndroidInputSource
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidInputSource
+// CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidInputSource
 struct CORDL_TYPE AndroidInputSource {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AndroidInputSource(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Dpad value: static_cast<int32_t>(0x201)
+  /// @brief Field Dpad value: I32(513)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Dpad;
 
-  /// @brief Field Gamepad value: static_cast<int32_t>(0x401)
+  /// @brief Field Gamepad value: I32(1025)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Gamepad;
 
-  /// @brief Field Joystick value: static_cast<int32_t>(0x1000010)
+  /// @brief Field Joystick value: I32(16777232)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Joystick;
 
-  /// @brief Field Keyboard value: static_cast<int32_t>(0x101)
+  /// @brief Field Keyboard value: I32(257)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Keyboard;
 
-  /// @brief Field Mouse value: static_cast<int32_t>(0x2002)
+  /// @brief Field Mouse value: I32(8194)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Mouse;
 
-  /// @brief Field Stylus value: static_cast<int32_t>(0x4002)
+  /// @brief Field Stylus value: I32(16386)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Stylus;
 
-  /// @brief Field Touchpad value: static_cast<int32_t>(0x100008)
+  /// @brief Field Touchpad value: I32(1048584)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchpad;
 
-  /// @brief Field Touchscreen value: static_cast<int32_t>(0x1002)
+  /// @brief Field Touchscreen value: I32(4098)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchscreen;
 
-  /// @brief Field Trackball value: static_cast<int32_t>(0x10004)
+  /// @brief Field Trackball value: I32(65540)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Trackball;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6855 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, "UnityEngine.InputSystem.Android.LowLevel", "AndroidInputSource");

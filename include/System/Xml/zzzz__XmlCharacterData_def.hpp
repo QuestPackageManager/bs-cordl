@@ -15,11 +15,10 @@ class XmlCharacterData;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlCharacterData);
-// Type: System.Xml::XmlCharacterData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.XmlLinkedNode
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlCharacterData*
+// CS Name: System.Xml.XmlCharacterData
 class CORDL_TYPE XmlCharacterData : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
   /// @brief Field data, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
 
-  /// @brief Method CheckOnData, addr 0x42d2d4c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckOnData, addr 0x4334060, size 0x38, virtual false, abstract: false, final false
   inline bool CheckOnData(::StringW data);
 
   static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
@@ -43,25 +42,25 @@ public:
 
   constexpr void __cordl_internal_set_data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42d2a54, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4333d68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Data, addr 0x42d2c58, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x4333f6c, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method get_InnerText, addr 0x42d2c40, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x4333f54, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_Value, addr 0x42d2c20, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4333f34, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Data, addr 0x42d2cac, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method set_Data, addr 0x4333fc0, size 0xa0, virtual true, abstract: false, final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method set_InnerText, addr 0x42d2c4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x4333f60, size 0xc, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_Value, addr 0x42d2c30, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x4333f44, size 0x10, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -78,18 +77,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlCharacterData(XmlCharacterData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7285 };
+
   /// @brief Field data, offset: 0x20, size: 0x8, def value: None
   ::StringW ___data;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCharacterData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlCharacterData, ___data) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCharacterData, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlCharacterData);

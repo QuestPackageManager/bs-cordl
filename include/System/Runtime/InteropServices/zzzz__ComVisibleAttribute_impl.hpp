@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::ComVisibleAttribute::*)(bool)>(
     &::System::Runtime::InteropServices::ComVisibleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cb3330;
+  constexpr static std::size_t addrs = 0x3d134a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,14 +29,14 @@ constexpr void System::Runtime::InteropServices::ComVisibleAttribute::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____val = value;
 }
-inline ::System::Runtime::InteropServices::ComVisibleAttribute* System::Runtime::InteropServices::ComVisibleAttribute::New_ctor(bool visibility) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::InteropServices::ComVisibleAttribute*>(visibility));
-}
 inline void System::Runtime::InteropServices::ComVisibleAttribute::_ctor(bool visibility) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::ComVisibleAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, visibility);
+}
+inline ::System::Runtime::InteropServices::ComVisibleAttribute* System::Runtime::InteropServices::ComVisibleAttribute::New_ctor(bool visibility) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::InteropServices::ComVisibleAttribute*>(visibility));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ComVisibleAttribute::ComVisibleAttribute() {}

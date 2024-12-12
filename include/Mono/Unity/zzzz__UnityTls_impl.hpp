@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Mono/Unity/UnityTls.hpp"
-#include "Mono/Unity/zzzz__UnityTls_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTls_def.hpp"
@@ -8,2636 +7,2580 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code::__UnityTls__unitytls_error_code(uint32_t value__) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code::UnityTls_unitytls_error_code(uint32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code::__UnityTls__unitytls_error_code() {}
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_SUCCESS{ static_cast<uint32_t>(0x3020100u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_INVALID_ARGUMENT{ static_cast<uint32_t>(0x4030201u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_INVALID_FORMAT{ static_cast<uint32_t>(0x5040302u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_INVALID_PASSWORD{ static_cast<uint32_t>(0x6050403u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_INVALID_STATE{ static_cast<uint32_t>(0x7060504u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_BUFFER_OVERFLOW{ static_cast<uint32_t>(0x8070605u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_OUT_OF_MEMORY{ static_cast<uint32_t>(0x9080706u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_INTERNAL_ERROR{ static_cast<uint32_t>(0xa090807u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_NOT_SUPPORTED{ static_cast<uint32_t>(0xc00a0908u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_ENTROPY_SOURCE_FAILED{ static_cast<uint32_t>(0x10c00a09u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_STREAM_CLOSED{ static_cast<uint32_t>(0x10c00au) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_START{ static_cast<uint32_t>(0x10c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_USER_WOULD_BLOCK{ static_cast<uint32_t>(0x10010c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_USER_READ_FAILED{ static_cast<uint32_t>(0x20010c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_USER_WRITE_FAILED{ static_cast<uint32_t>(0x30010c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_USER_UNKNOWN_ERROR{ static_cast<uint32_t>(0x40010c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_error_code Mono::Unity::__UnityTls__unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_END{ static_cast<uint32_t>(0x20c0u) };
-// Ctor Parameters [CppParam { name: "magic", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "code", ty: "::Mono::Unity::__UnityTls__unitytls_error_code", modifiers: "",
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code::UnityTls_unitytls_error_code() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_SUCCESS{ static_cast<uint32_t>(0x3020100u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_ARGUMENT{ static_cast<uint32_t>(0x4030201u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_FORMAT{ static_cast<uint32_t>(0x5040302u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_PASSWORD{ static_cast<uint32_t>(0x6050403u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_STATE{ static_cast<uint32_t>(0x7060504u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_BUFFER_OVERFLOW{ static_cast<uint32_t>(0x8070605u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_OUT_OF_MEMORY{ static_cast<uint32_t>(0x9080706u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INTERNAL_ERROR{ static_cast<uint32_t>(0xa090807u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_NOT_SUPPORTED{ static_cast<uint32_t>(0xc00a0908u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_ENTROPY_SOURCE_FAILED{ static_cast<uint32_t>(0x10c00a09u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_STREAM_CLOSED{ static_cast<uint32_t>(0x10c00au) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_START{ static_cast<uint32_t>(0x10c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_WOULD_BLOCK{ static_cast<uint32_t>(0x10010c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_READ_FAILED{ static_cast<uint32_t>(0x20010c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_WRITE_FAILED{ static_cast<uint32_t>(0x30010c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_UNKNOWN_ERROR{ static_cast<uint32_t>(0x40010c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_END{ static_cast<uint32_t>(0x20c0u) };
+// Ctor Parameters [CppParam { name: "magic", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "code", ty: "::Mono::Unity::UnityTls_unitytls_error_code", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "reserved", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_errorstate::__UnityTls__unitytls_errorstate(uint32_t magic, ::Mono::Unity::__UnityTls__unitytls_error_code code, uint64_t reserved) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_errorstate::UnityTls_unitytls_errorstate(uint32_t magic, ::Mono::Unity::UnityTls_unitytls_error_code code, uint64_t reserved) noexcept {
   this->magic = magic;
   this->code = code;
   this->reserved = reserved;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_errorstate::__UnityTls__unitytls_errorstate() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_errorstate::UnityTls_unitytls_errorstate() {}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_key::__UnityTls__unitytls_key() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_key::UnityTls_unitytls_key() {}
 // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_key_ref::__UnityTls__unitytls_key_ref(uint64_t handle) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_key_ref::UnityTls_unitytls_key_ref(uint64_t handle) noexcept {
   this->handle = handle;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_key_ref::__UnityTls__unitytls_key_ref() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_key_ref::UnityTls_unitytls_key_ref() {}
 // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509_ref::__UnityTls__unitytls_x509_ref(uint64_t handle) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_x509_ref::UnityTls_unitytls_x509_ref(uint64_t handle) noexcept {
   this->handle = handle;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509_ref::__UnityTls__unitytls_x509_ref() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_x509_ref::UnityTls_unitytls_x509_ref() {}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509list::__UnityTls__unitytls_x509list() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_x509list::UnityTls_unitytls_x509list() {}
 // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref::__UnityTls__unitytls_x509list_ref(uint64_t handle) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_x509list_ref::UnityTls_unitytls_x509list_ref(uint64_t handle) noexcept {
   this->handle = handle;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref::__UnityTls__unitytls_x509list_ref() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_x509list_ref::UnityTls_unitytls_x509list_ref() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result::__UnityTls__unitytls_x509verify_result(uint32_t value__) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result::UnityTls_unitytls_x509verify_result(uint32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result::__UnityTls__unitytls_x509verify_result() {}
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_SUCCESS{ static_cast<uint32_t>(0xf000u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_NOT_DONE{ static_cast<uint32_t>(0xf0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FATAL_ERROR{ static_cast<uint32_t>(0x40201ffu) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_EXPIRED{ static_cast<uint32_t>(0x8040201u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_REVOKED{ static_cast<uint32_t>(0xc0080402u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH{ static_cast<uint32_t>(0x1c00804u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED{ static_cast<uint32_t>(0x1c008u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR1{ static_cast<uint32_t>(0x1c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR2{ static_cast<uint32_t>(0x2c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR3{ static_cast<uint32_t>(0x4c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR4{ static_cast<uint32_t>(0x8c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR5{ static_cast<uint32_t>(0x10c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR6{ static_cast<uint32_t>(0x20c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR7{ static_cast<uint32_t>(0x40c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR8{ static_cast<uint32_t>(0x80c0u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_result Mono::Unity::__UnityTls__unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR{ static_cast<uint32_t>(0xc8u) };
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_x509verify_callback._ctor
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result::UnityTls_unitytls_x509verify_result() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_SUCCESS{ static_cast<uint32_t>(0xf000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_NOT_DONE{ static_cast<uint32_t>(0xf0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FATAL_ERROR{ static_cast<uint32_t>(0x40201ffu) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_EXPIRED{ static_cast<uint32_t>(0x8040201u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_REVOKED{ static_cast<uint32_t>(0xc0080402u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH{ static_cast<uint32_t>(0x1c00804u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED{ static_cast<uint32_t>(0x1c008u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR1{ static_cast<uint32_t>(0x1c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR2{ static_cast<uint32_t>(0x2c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR3{ static_cast<uint32_t>(0x4c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR4{ static_cast<uint32_t>(0x8c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR5{ static_cast<uint32_t>(0x10c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR6{ static_cast<uint32_t>(0x20c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR7{ static_cast<uint32_t>(0x40c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR8{ static_cast<uint32_t>(0x80c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR{ static_cast<uint32_t>(0xc8u) };
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_x509verify_callback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_x509verify_callback::*)(::System::Object*, ::System::IntPtr)>(
-    &::Mono::Unity::__UnityTls__unitytls_x509verify_callback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_x509verify_callback::*)(::System::Object*, ::System::IntPtr)>(
+    &::Mono::Unity::UnityTls_unitytls_x509verify_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8060;
+  constexpr static std::size_t addrs = 0x4109374;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_x509verify_callback*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_x509verify_callback*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_x509verify_callback.Invoke
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_x509verify_callback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::__UnityTls__unitytls_x509verify_result (::Mono::Unity::__UnityTls__unitytls_x509verify_callback::*)(
-    ::cordl_internals::Ptr<void>, ::Mono::Unity::__UnityTls__unitytls_x509_ref, ::Mono::Unity::__UnityTls__unitytls_x509verify_result,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::Mono::Unity::__UnityTls__unitytls_x509verify_callback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls_unitytls_x509verify_result (::Mono::Unity::UnityTls_unitytls_x509verify_callback::*)(
+    ::cordl_internals::Ptr<void>, ::Mono::Unity::UnityTls_unitytls_x509_ref, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::UnityTls_unitytls_x509verify_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8100;
+  constexpr static std::size_t addrs = 0x4109414;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_x509verify_callback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_x509verify_callback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_x509verify_callback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_x509verify_callback*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* Mono::Unity::__UnityTls__unitytls_x509verify_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::__UnityTls__unitytls_x509verify_callback*>(object, method));
-}
-inline void Mono::Unity::__UnityTls__unitytls_x509verify_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_x509verify_callback*>::get(),
+inline void Mono::Unity::UnityTls_unitytls_x509verify_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_x509verify_callback*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result
-Mono::Unity::__UnityTls__unitytls_x509verify_callback::Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
-                                                              ::Mono::Unity::__UnityTls__unitytls_x509verify_result result,
-                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_callback::Invoke(::cordl_internals::Ptr<void> userData,
+                                                                                                                     ::Mono::Unity::UnityTls_unitytls_x509_ref cert,
+                                                                                                                     ::Mono::Unity::UnityTls_unitytls_x509verify_result result,
+                                                                                                                     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_x509verify_callback*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_x509verify_result, false>(this, ___internal_method, userData, cert, result, errorState);
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_x509verify_callback*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509verify_result, false>(this, ___internal_method, userData, cert, result, errorState);
+}
+inline ::Mono::Unity::UnityTls_unitytls_x509verify_callback* Mono::Unity::UnityTls_unitytls_x509verify_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTls_unitytls_x509verify_callback*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509verify_callback::__UnityTls__unitytls_x509verify_callback() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_callback::UnityTls_unitytls_x509verify_callback() {}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx::__UnityTls__unitytls_tlsctx() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx::UnityTls_unitytls_tlsctx() {}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_x509name::__UnityTls__unitytls_x509name() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_x509name::UnityTls_unitytls_x509name() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_ciphersuite::__UnityTls__unitytls_ciphersuite(uint32_t value__) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_ciphersuite::UnityTls_unitytls_ciphersuite(uint32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_ciphersuite::__UnityTls__unitytls_ciphersuite() {}
-constexpr ::Mono::Unity::__UnityTls__unitytls_ciphersuite Mono::Unity::__UnityTls__unitytls_ciphersuite::UNITYTLS_CIPHERSUITE_INVALID{ static_cast<uint32_t>(0xffffffc0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_ciphersuite::UnityTls_unitytls_ciphersuite() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_ciphersuite Mono::Unity::UnityTls_unitytls_ciphersuite::UNITYTLS_CIPHERSUITE_INVALID{ static_cast<uint32_t>(0xffffffc0u) };
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_protocol::__UnityTls__unitytls_protocol(uint32_t value__) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol::UnityTls_unitytls_protocol(uint32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_protocol::__UnityTls__unitytls_protocol() {}
-constexpr ::Mono::Unity::__UnityTls__unitytls_protocol Mono::Unity::__UnityTls__unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_0{ static_cast<uint32_t>(0x3020100u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_protocol Mono::Unity::__UnityTls__unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_1{ static_cast<uint32_t>(0x50030201u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_protocol Mono::Unity::__UnityTls__unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_2{ static_cast<uint32_t>(0x500302u) };
-constexpr ::Mono::Unity::__UnityTls__unitytls_protocol Mono::Unity::__UnityTls__unitytls_protocol::UNITYTLS_PROTOCOL_INVALID{ static_cast<uint32_t>(0x5003u) };
-// Ctor Parameters [CppParam { name: "min", ty: "::Mono::Unity::__UnityTls__unitytls_protocol", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty:
-// "::Mono::Unity::__UnityTls__unitytls_protocol", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange::__UnityTls__unitytls_tlsctx_protocolrange(::Mono::Unity::__UnityTls__unitytls_protocol min,
-                                                                                                              ::Mono::Unity::__UnityTls__unitytls_protocol max) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol::UnityTls_unitytls_protocol() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_0{ static_cast<uint32_t>(0x3020100u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_1{ static_cast<uint32_t>(0x50030201u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_2{ static_cast<uint32_t>(0x500302u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_INVALID{ static_cast<uint32_t>(0x5003u) };
+// Ctor Parameters [CppParam { name: "min", ty: "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty:
+// "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: Some("{}") }]
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange::UnityTls_unitytls_tlsctx_protocolrange(::Mono::Unity::UnityTls_unitytls_protocol min,
+                                                                                                        ::Mono::Unity::UnityTls_unitytls_protocol max) noexcept {
   this->min = min;
   this->max = max;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange::__UnityTls__unitytls_tlsctx_protocolrange() {}
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback._ctor
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange::UnityTls_unitytls_tlsctx_protocolrange() {}
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::*)(::System::Object*, ::System::IntPtr)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::*)(::System::Object*, ::System::IntPtr)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8114;
+  constexpr static std::size_t addrs = 0x4109428;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::*)(
-    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a81b4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*>(object, method));
-}
-inline void Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::System::IntPtr Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
-                                                                                        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, userData, data, bufferLen, errorState);
-}
-// Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback::__UnityTls__unitytls_tlsctx_write_callback() {}
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::*)(::System::Object*, ::System::IntPtr)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a81c8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback.Invoke
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::*)(
-    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::*)(
+    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8268;
+  constexpr static std::size_t addrs = 0x41094c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*>(object, method));
-}
-inline void Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*>::get(),
+inline void Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::System::IntPtr Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
-                                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline ::System::IntPtr Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
+                                                                                     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, userData, data, bufferLen, errorState);
+}
+inline ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback::UnityTls_unitytls_tlsctx_write_callback() {}
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::*)(::System::Object*, ::System::IntPtr)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x41094dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::*)(
+    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410957c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::System::IntPtr Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
+                                                                                    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, userData, buffer, bufferLen, errorState);
 }
+inline ::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback::__UnityTls__unitytls_tlsctx_read_callback() {}
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback._ctor
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback::UnityTls_unitytls_tlsctx_read_callback() {}
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::*)(::System::Object*, ::System::IntPtr)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::*)(::System::Object*, ::System::IntPtr)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a827c;
+  constexpr static std::size_t addrs = 0x4109590;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback.Invoke
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::*)(
-    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::*)(
+    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a831c;
+  constexpr static std::size_t addrs = 0x4109630;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback*>(object, method));
-}
-inline void Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback*>::get(),
+inline void Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                            ::cordl_internals::Ptr<uint8_t> traceMessage, ::System::IntPtr traceMessageLen) {
+inline void Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                         ::cordl_internals::Ptr<uint8_t> traceMessage, ::System::IntPtr traceMessageLen) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userData, ctx, traceMessage, traceMessageLen);
 }
+inline ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback* Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback::__UnityTls__unitytls_tlsctx_trace_callback() {}
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback._ctor
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback::UnityTls_unitytls_tlsctx_trace_callback() {}
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::*)(::System::Object*, ::System::IntPtr)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::*)(::System::Object*, ::System::IntPtr)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8330;
+  constexpr static std::size_t addrs = 0x4109644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback.Invoke
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::*)(
-    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509name>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list_ref>,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key_ref>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::*)(
+    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr,
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509name>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list_ref>,
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key_ref>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::Invoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x40a83d0;
+  constexpr static std::size_t addrs = 0x41096e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*>(object, method));
-}
-inline void Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                  ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
-                                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509name> caList, ::System::IntPtr caListLen,
-                                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list_ref> chain,
-                                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key_ref> key,
-                                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline void Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                               ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
+                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509name> caList, ::System::IntPtr caListLen,
+                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list_ref> chain,
+                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key_ref> key,
+                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userData, ctx, cn, cnLen, caList, caListLen, chain, key, errorState);
 }
+inline ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback::__UnityTls__unitytls_tlsctx_certificate_callback() {}
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback._ctor
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback::UnityTls_unitytls_tlsctx_certificate_callback() {}
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::*)(::System::Object*, ::System::IntPtr)>(
-    &::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::*)(::System::Object*, ::System::IntPtr)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a83ec;
+  constexpr static std::size_t addrs = 0x4109700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback.Invoke
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_x509verify_result (::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::*)(
-        ::cordl_internals::Ptr<void>, ::Mono::Unity::__UnityTls__unitytls_x509list_ref, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls_unitytls_x509verify_result (::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::*)(
+    ::cordl_internals::Ptr<void>, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a848c;
+  constexpr static std::size_t addrs = 0x41097a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*>(object, method));
-}
-inline void Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result
-Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509list_ref chain,
-                                                                     ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline ::Mono::Unity::UnityTls_unitytls_x509verify_result
+Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain,
+                                                                  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_x509verify_result, false>(this, ___internal_method, userData, chain, errorState);
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509verify_result, false>(this, ___internal_method, userData, chain, errorState);
+}
+inline ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback::__UnityTls__unitytls_tlsctx_x509verify_callback() {}
-// Ctor Parameters [CppParam { name: "read", ty: "::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "write", ty:
-// "::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "data", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value:
-// Some("nullptr") }]
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks::__UnityTls__unitytls_tlsctx_callbacks(::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* read,
-                                                                                                      ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* write,
-                                                                                                      ::cordl_internals::Ptr<void> data) noexcept {
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback::UnityTls_unitytls_tlsctx_x509verify_callback() {}
+// Ctor Parameters [CppParam { name: "read", ty: "::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "write", ty:
+// "::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: Some("{}")
+// }]
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks::UnityTls_unitytls_tlsctx_callbacks(::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* read,
+                                                                                                ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* write,
+                                                                                                ::cordl_internals::Ptr<void> data) noexcept {
   this->read = read;
   this->write = write;
   this->data = data;
 }
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks::__UnityTls__unitytls_tlsctx_callbacks() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t._ctor
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks::UnityTls_unitytls_tlsctx_callbacks() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x40a84a8;
+  constexpr static std::size_t addrs = 0x41097bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::__UnityTls__unitytls_errorstate (
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::*)()>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls_unitytls_errorstate (
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::*)()>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8530;
+  constexpr static std::size_t addrs = 0x4109844;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*>::get(), 13));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*>(object, method));
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline ::Mono::Unity::UnityTls_unitytls_errorstate Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::Invoke() {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_errorstate, false>(this, ___internal_method);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::New_ctor(::System::Object* object,
+                                                                                                                                                                              ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x4109858;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>, ::Mono::Unity::UnityTls_unitytls_error_code)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x41098f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::Mono::Unity::__UnityTls__unitytls_errorstate GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::Invoke() {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState,
+                                                                                                      ::Mono::Unity::UnityTls_unitytls_error_code errorCode) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_errorstate, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8544;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*>::get(),
-                                    ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>, ::Mono::Unity::__UnityTls__unitytls_error_code)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a85e4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState,
-                                                                                                              ::Mono::Unity::__UnityTls__unitytls_error_code errorCode) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*>::get(), 13)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, errorState, errorCode);
 }
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a85f8;
+  constexpr static std::size_t addrs = 0x410990c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t.Invoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_key_ref (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::*)(
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::Invoke)> {
+    static_cast<::Mono::Unity::UnityTls_unitytls_key_ref (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::*)(
+        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8698;
+  constexpr static std::size_t addrs = 0x41099ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*>::get(), 13));
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::Mono::Unity::__UnityTls__unitytls_key_ref
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key,
-                                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_key_ref, false>(this, ___internal_method, key, errorState);
+inline ::Mono::Unity::UnityTls_unitytls_key_ref
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> key,
+                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_key_ref, false>(this, ___internal_method, key, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::New_ctor(::System::Object* object,
+                                                                                                                                                                  ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a86ac;
+  constexpr static std::size_t addrs = 0x41099c0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t.Invoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::*)(
-        ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::Invoke)> {
+    static_cast<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::*)(
+        ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a874c;
+  constexpr static std::size_t addrs = 0x4109a60;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*>::get(), 13));
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
-                                                                                         ::System::IntPtr passwordLen,
-                                                                                         ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>, false>(this, ___internal_method, buffer, bufferLen, password, passwordLen, errorState);
+inline ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
+                                                                                 ::System::IntPtr passwordLen, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>, false>(this, ___internal_method, buffer, bufferLen, password, passwordLen, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::New_ctor(::System::Object* object,
+                                                                                                                                                                      ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8760;
+  constexpr static std::size_t addrs = 0x4109a74;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t.Invoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::*)(
-        ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::Invoke)> {
+    static_cast<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::*)(
+        ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8800;
+  constexpr static std::size_t addrs = 0x4109b14;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*>::get(), 13));
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
-                                                                                         ::System::IntPtr passwordLen,
-                                                                                         ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>, false>(this, ___internal_method, buffer, bufferLen, password, passwordLen, errorState);
+inline ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
+                                                                                 ::System::IntPtr passwordLen, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>, false>(this, ___internal_method, buffer, bufferLen, password, passwordLen, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::New_ctor(::System::Object* object,
+                                                                                                                                                                      ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::*)(::System::Object*, ::System::IntPtr)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40a8814;
+  constexpr static std::size_t addrs = 0x4109b28;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x4109bc4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> key) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::New_ctor(::System::Object* object,
+                                                                                                                                                            ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t::unitytls_interface_struct_UnityTls_unitytls_key_free_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::_ctor)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x4109bd8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::*)(
+    ::Mono::Unity::UnityTls_unitytls_x509_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x4109c64;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::System::IntPtr Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::Invoke(::Mono::Unity::UnityTls_unitytls_x509_ref cert, ::cordl_internals::Ptr<uint8_t> buffer,
+                                                                                                           ::System::IntPtr bufferLen,
+                                                                                                           ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, cert, buffer, bufferLen, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::New_ctor(::System::Object* object,
+                                                                                                                                                                          ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x4109c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Mono::Unity::UnityTls_unitytls_x509list_ref (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::*)(
+        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a88b0;
+  constexpr static std::size_t addrs = 0x4109d18;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*>::get(), 13));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::New_ctor(::System::Object* object,
-                                                                                                                                                                            ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key) {
+inline ::Mono::Unity::UnityTls_unitytls_x509list_ref
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> list,
+                                                                                    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509list_ref, false>(this, ___internal_method, list, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::New_ctor(::System::Object* object,
+                                                                                                                                                                            ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t::__UnityTls__unitytls_interface_struct__unitytls_key_free_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40a88c4;
+  constexpr static std::size_t addrs = 0x4109d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::*)(
-    ::Mono::Unity::__UnityTls__unitytls_x509_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8950;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::System::IntPtr GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::Invoke(::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
-                                                                                                                   ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
-                                                                                                                   ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, cert, buffer, bufferLen, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8964;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t.Invoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_x509list_ref (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::*)(
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::Invoke)> {
+    static_cast<::Mono::Unity::UnityTls_unitytls_x509_ref (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::*)(
+        ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8a04;
+  constexpr static std::size_t addrs = 0x4109db8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*>::get(), 13));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list,
-                                                                                            ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline ::Mono::Unity::UnityTls_unitytls_x509_ref
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::Invoke(::Mono::Unity::UnityTls_unitytls_x509list_ref list, ::System::IntPtr index,
+                                                                                     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_x509list_ref, false>(this, ___internal_method, list, errorState);
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509_ref, false>(this, ___internal_method, list, index, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::New_ctor(::System::Object* object,
+                                                                                                                                                                              ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40a8a18;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_x509_ref (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::*)(
-        ::Mono::Unity::__UnityTls__unitytls_x509list_ref, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8aa4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::Mono::Unity::__UnityTls__unitytls_x509_ref
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref list, ::System::IntPtr index,
-                                                                                             ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_x509_ref, false>(this, ___internal_method, list, index, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40a8ab8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> (
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::*)(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8b54;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>, false>(this, ___internal_method, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8b68;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>, ::Mono::Unity::__UnityTls__unitytls_x509_ref, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8c08;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list,
-                                                                                                       ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
-                                                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list, cert, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a8c1c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8cbc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list,
-                                                                                                           ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
-                                                                                                           ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list, buffer, bufferLen, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40a8cd0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8d6c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40a8d80;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_x509verify_result (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::*)(
-        ::Mono::Unity::__UnityTls__unitytls_x509list_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::Mono::Unity::__UnityTls__unitytls_x509verify_callback*, ::cordl_internals::Ptr<void>,
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a8e0c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::Invoke(
-    ::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen, ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb,
-    ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_x509verify_result, false>(this, ___internal_method, chain, cn, cnLen, cb, userData, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40a8e20;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*>::get(),
-                                    ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_x509verify_result (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::*)(
-        ::Mono::Unity::__UnityTls__unitytls_x509list_ref, ::Mono::Unity::__UnityTls__unitytls_x509list_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr,
-        ::Mono::Unity::__UnityTls__unitytls_x509verify_callback*, ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::Invoke)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40a8eac;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::Invoke(
-    ::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::Mono::Unity::__UnityTls__unitytls_x509list_ref trustCA, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
-    ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_x509verify_result, false>(this, ___internal_method, chain, trustCA, cn, cnLen, cb, userData, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40a8ec4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::*)(
-        ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange, ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks, uint64_t, uint64_t,
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::Invoke)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40a8f50;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::Invoke(
-    ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols, ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, false>(this, ___internal_method, supportedProtocols, callbacks, certChain,
-                                                                                                                        leafCertificateKey, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40a8f8c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::*)(
-        ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange, ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr,
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::Invoke)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40a9018;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::Invoke(
-    ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols, ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, ::cordl_internals::Ptr<uint8_t> cn,
-    ::System::IntPtr cnLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, false>(this, ___internal_method, supportedProtocols, callbacks, cn, cnLen, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::*)(::System::Object*, ::System::IntPtr)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a9054;
+  constexpr static std::size_t addrs = 0x4109dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*>::get(), ".ctor",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> (
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::*)(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x4109e68;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>, false>(this, ___internal_method, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::New_ctor(::System::Object* object,
+                                                                                                                                                                          ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x4109e7c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>, ::Mono::Unity::UnityTls_unitytls_x509_ref, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x4109f1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> list,
+                                                                                               ::Mono::Unity::UnityTls_unitytls_x509_ref cert,
+                                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list, cert, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::New_ctor(::System::Object* object,
+                                                                                                                                                                          ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x4109f30;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x4109fd0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> list,
+                                                                                                   ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
+                                                                                                   ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list, buffer, bufferLen, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::_ctor)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x4109fe4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410a080;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> list) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::New_ctor(::System::Object* object,
+                                                                                                                                                                      ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::_ctor)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x410a094;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Mono::Unity::UnityTls_unitytls_x509verify_result (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::*)(
+        ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509verify_callback*, ::cordl_internals::Ptr<void>,
+        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410a120;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::Invoke(
+    ::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509verify_callback* cb,
+    ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509verify_result, false>(this, ___internal_method, chain, cn, cnLen, cb, userData, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::_ctor)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x410a134;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Mono::Unity::UnityTls_unitytls_x509verify_result (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::*)(
+        ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr,
+        ::Mono::Unity::UnityTls_unitytls_x509verify_callback*, ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::Invoke)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x410a1c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::Invoke(
+    ::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_x509list_ref trustCA, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
+    ::Mono::Unity::UnityTls_unitytls_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509verify_result, false>(this, ___internal_method, chain, trustCA, cn, cnLen, cb, userData, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::_ctor)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x410a1d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> (
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::*)(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks,
+                                                                                          uint64_t, uint64_t, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::Invoke)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x410a264;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange supportedProtocols,
+                                                                                        ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey,
+                                                                                        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, false>(this, ___internal_method, supportedProtocols, callbacks, certChain,
+                                                                                                                     leafCertificateKey, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::_ctor)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x410a2a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::*)(
+        ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr,
+        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::Invoke)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x410a32c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange supportedProtocols,
+                                                                                        ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks callbacks, ::cordl_internals::Ptr<uint8_t> cn,
+                                                                                        ::System::IntPtr cnLen, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, false>(this, ___internal_method, supportedProtocols, callbacks, cn, cnLen, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410a368;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*>::get(), ".ctor",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::*)(
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::Mono::Unity::__UnityTls__unitytls_x509list_ref, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a90f4;
+  constexpr static std::size_t addrs = 0x410a408;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*>::get(), 13));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*>::get(), ".ctor",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::Invoke(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_x509list_ref clientAuthCAList,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline void
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                                               ::Mono::Unity::UnityTls_unitytls_x509list_ref clientAuthCAList,
+                                                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
       il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*>::get(), 13)));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, clientAuthCAList, errorState);
 }
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t::
-    __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a9108;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*>::get(),
-                                   ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*, ::cordl_internals::Ptr<void>,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a91a8;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::Invoke(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* cb, ::cordl_internals::Ptr<void> userData,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, cb, userData, errorState);
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t::
+    unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a91bc;
+  constexpr static std::size_t addrs = 0x410a41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*>::get(),
                                     ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback*, ::cordl_internals::Ptr<void>,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback*, ::cordl_internals::Ptr<void>,
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a925c;
+  constexpr static std::size_t addrs = 0x410a4bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*>::get(), 13));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                                                 ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* cb,
-                                                                                                                 ::cordl_internals::Ptr<void> userData,
-                                                                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                                               ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* cb,
+                                                                                                               ::cordl_internals::Ptr<void> userData,
+                                                                                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
       il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*>::get(), 13)));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, cb, userData, errorState);
 }
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a9270;
+  constexpr static std::size_t addrs = 0x410a4d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback*, ::cordl_internals::Ptr<void>,
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410a570;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                                         ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback* cb,
+                                                                                                         ::cordl_internals::Ptr<void> userData,
+                                                                                                         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, cb, userData, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410a584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*>::get(),
                                     ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*, ::cordl_internals::Ptr<void>,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback*, ::cordl_internals::Ptr<void>,
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a9310;
+  constexpr static std::size_t addrs = 0x410a624;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*>::get(), 13));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                                              ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* cb,
+                                                                                                              ::cordl_internals::Ptr<void> userData,
+                                                                                                              ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, cb, userData, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410a638;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*>::get(),
+                                    ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_ciphersuite>, ::System::IntPtr,
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410a6d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*>::get(),
                                   ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::Invoke(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::Invoke(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_ciphersuite> supportedCiphersuites,
+    ::System::IntPtr supportedCiphersuitesLen, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
       il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, cb, userData, errorState);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, supportedCiphersuites, supportedCiphersuitesLen, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a9324;
+  constexpr static std::size_t addrs = 0x410a6ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Mono::Unity::UnityTls_unitytls_ciphersuite (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::*)(
+        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410a78c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::Mono::Unity::UnityTls_unitytls_ciphersuite
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                          ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_ciphersuite, false>(this, ___internal_method, ctx, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410a7a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Mono::Unity::UnityTls_unitytls_protocol (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::*)(
+        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410a840;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::Mono::Unity::UnityTls_unitytls_protocol
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                       ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_protocol, false>(this, ___internal_method, ctx, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410a854;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Mono::Unity::UnityTls_unitytls_x509verify_result (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::*)(
+        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+        &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410a8f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline ::Mono::Unity::UnityTls_unitytls_x509verify_result
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                            ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509verify_result, false>(this, ___internal_method, ctx, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410a908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*>::get(), ".ctor",
-        std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_ciphersuite>, ::System::IntPtr,
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a93c4;
+  constexpr static std::size_t addrs = 0x410a9a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*>::get(),
-                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::Invoke(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_ciphersuite> supportedCiphersuites,
-    ::System::IntPtr supportedCiphersuitesLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, supportedCiphersuites, supportedCiphersuitesLen, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t::
-    __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a93d8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*>::get(),
-                                    ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_ciphersuite (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::*)(
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a9478;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::Mono::Unity::__UnityTls__unitytls_ciphersuite
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_ciphersuite, false>(this, ___internal_method, ctx, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a948c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_protocol (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::*)(
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a952c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::Mono::Unity::__UnityTls__unitytls_protocol
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                               ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_protocol, false>(this, ___internal_method, ctx, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a9540;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*>::get(),
-                                    ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Mono::Unity::__UnityTls__unitytls_x509verify_result (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::*)(
-        ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-        &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a95e0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                                    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_x509verify_result, false>(this, ___internal_method, ctx, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a95f4;
-
-  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a9694;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::System::IntPtr GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                                               ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
-                                                                                                               ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*>::get(), 13)));
+inline ::System::IntPtr Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                                       ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
+                                                                                                       ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, ctx, buffer, bufferLen, errorState);
 }
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a96a8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a9748;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*>(object, method));
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::New_ctor(::System::Object* object,
+                                                                                                                                                                  ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t*>(object, method));
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410a9bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410aa5c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::System::IntPtr GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                                                ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
-                                                                                                                ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*>::get(), 13)));
+inline ::System::IntPtr Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                                        ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
+                                                                                                        ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, ctx, data, bufferLen, errorState);
 }
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::New_ctor(::System::Object* object,
+                                                                                                                                                                    ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a975c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t.Invoke
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::Invoke)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a97fc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*>::get(), 13));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
-                                                                                                           ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, errorState);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40a9810;
+  constexpr static std::size_t addrs = 0x410aa70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::*)(
-    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a98ac;
+  constexpr static std::size_t addrs = 0x410ab10;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*>::get(), 13));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx) {
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx,
+                                                                                                   ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx);
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t() {}
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::*)(
-    ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40a98c0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::_ctor)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x410ab24;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t.Invoke
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::*)(
-    ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(
-    &::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::*)(
+    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40a9960;
+  constexpr static std::size_t addrs = 0x410abc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*>::get(),
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*>::get(), 13));
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*
-GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*>(object, method));
-}
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
-                                                                                                             ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, bufferLen, errorState);
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::Invoke(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t* Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::New_ctor(::System::Object* object,
+                                                                                                                                                                  ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t() {}
-//  Writing Method size for method: ::Mono::Unity::__UnityTls__unitytls_interface_struct._ctor
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t() {}
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::__UnityTls__unitytls_interface_struct::*)()>(
-    &::Mono::Unity::__UnityTls__unitytls_interface_struct::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a84a0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x410abd4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_interface_struct*>::get(),
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::*)(
+    ::cordl_internals::Ptr<uint8_t>, ::System::IntPtr, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    &::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x410ac74;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
+                                                                                                     ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, bufferLen, errorState);
+}
+inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*
+Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t() {}
+//  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_interface_struct._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTls_unitytls_interface_struct::*)()>(
+    &::Mono::Unity::UnityTls_unitytls_interface_struct::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x41097b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_interface_struct*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr uint64_t& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_UNITYTLS_INVALID_HANDLE() {
+constexpr uint64_t& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_UNITYTLS_INVALID_HANDLE() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UNITYTLS_INVALID_HANDLE;
 }
-constexpr uint64_t const& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_UNITYTLS_INVALID_HANDLE() const {
+constexpr uint64_t const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_UNITYTLS_INVALID_HANDLE() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UNITYTLS_INVALID_HANDLE;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_UNITYTLS_INVALID_HANDLE(uint64_t value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_UNITYTLS_INVALID_HANDLE(uint64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___UNITYTLS_INVALID_HANDLE = value;
 }
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT() {
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT;
 }
-constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange const& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT() const {
+constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT = value;
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_create() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_create() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_errorstate_create;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_create() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_create() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_errorstate_create;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_errorstate_create(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_errorstate_create(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_errorstate_create)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_raise_error() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_raise_error() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_errorstate_raise_error;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_raise_error() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_errorstate_raise_error() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_errorstate_raise_error;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_errorstate_raise_error(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_errorstate_raise_error(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_errorstate_raise_error)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_get_ref() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_get_ref() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_get_ref;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_get_ref() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_get_ref() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_get_ref;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_key_get_ref(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_key_get_ref(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_key_get_ref)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_der() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_der() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_parse_der;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_der() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_der() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_parse_der;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_key_parse_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_key_parse_der(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_key_parse_der)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_pem() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_pem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_parse_pem;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_pem() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_parse_pem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_parse_pem;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_key_parse_pem(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_key_parse_pem(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_key_parse_pem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_free() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_free() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_free;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_key_free() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_key_free() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_key_free;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_key_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_key_free(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_key_free)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509_export_der() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509_export_der() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509_export_der;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509_export_der() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509_export_der() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509_export_der;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509_export_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509_export_der(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509_export_der)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_ref() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_ref() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_get_ref;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_ref() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_ref() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_get_ref;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_get_ref(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_get_ref(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509list_get_ref)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_x509() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_x509() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_get_x509;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_x509() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_get_x509() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_get_x509;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_get_x509(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_get_x509(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509list_get_x509)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_create() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_create() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_create;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_create() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_create() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_create;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_create(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_create(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509list_create)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_append;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_append;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_append(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_append(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509list_append)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_der() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_der() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_append_der;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_der() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_der() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_append_der;
 }
 constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_append_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* value) {
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_append_der(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509list_append_der)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_pem() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_pem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_append_pem;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_pem() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_append_pem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_append_pem;
 }
 constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_append_pem(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* value) {
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_append_pem(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509list_append_pem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_free() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_free() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_free;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_free() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509list_free() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509list_free;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509list_free(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509list_free)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_default_ca() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_default_ca() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509verify_default_ca;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_default_ca() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_default_ca() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509verify_default_ca;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509verify_default_ca(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509verify_default_ca(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509verify_default_ca)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_explicit_ca() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_explicit_ca() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509verify_explicit_ca;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_explicit_ca() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_x509verify_explicit_ca() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_x509verify_explicit_ca;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_x509verify_explicit_ca(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_x509verify_explicit_ca(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_x509verify_explicit_ca)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_server() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_server() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_create_server;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_server() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_server() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_create_server;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_create_server(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_create_server(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_create_server)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_client() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_client() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_create_client;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_client() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_create_client() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_create_client;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_create_client(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_create_client(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_create_client)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_server_require_client_authentication() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_server_require_client_authentication() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_server_require_client_authentication;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_server_require_client_authentication() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_server_require_client_authentication() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_server_require_client_authentication;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_server_require_client_authentication(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_server_require_client_authentication(
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_server_require_client_authentication)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_certificate_callback() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_certificate_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_certificate_callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_certificate_callback() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_certificate_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_certificate_callback;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_certificate_callback(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_certificate_callback(
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_set_certificate_callback)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_trace_callback() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_trace_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_trace_callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_trace_callback() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_trace_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_trace_callback;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_trace_callback(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_trace_callback(
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_set_trace_callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_x509verify_callback() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_x509verify_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_x509verify_callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_x509verify_callback() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_x509verify_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_x509verify_callback;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_x509verify_callback(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_x509verify_callback(
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_set_x509verify_callback)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_supported_ciphersuites;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_set_supported_ciphersuites;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_supported_ciphersuites(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_set_supported_ciphersuites(
+    ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_set_supported_ciphersuites)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_ciphersuite() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_ciphersuite() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_get_ciphersuite;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_ciphersuite() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_ciphersuite() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_get_ciphersuite;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_get_ciphersuite(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_get_ciphersuite(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_get_ciphersuite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_protocol() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_protocol() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_get_protocol;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_protocol() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_get_protocol() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_get_protocol;
 }
 constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_get_protocol(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* value) {
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_get_protocol(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_get_protocol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_process_handshake() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t*&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_process_handshake() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_process_handshake;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_process_handshake() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_process_handshake() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_process_handshake;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_process_handshake(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_process_handshake(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_process_handshake)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_read() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_read() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_read;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_read() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_read() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_read;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_read(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_read(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_read)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_write() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_write() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_write;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_write() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_write() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_write;
 }
-constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_write(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_write(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_write)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_notify_close() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_notify_close() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_notify_close;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_notify_close() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_notify_close() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_notify_close;
 }
 constexpr void
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_notify_close(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* value) {
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_notify_close(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_notify_close)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*& Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_free() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_free() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_free;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_free() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t* const& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_tlsctx_free() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_tlsctx_free;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* value) {
+constexpr void Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_tlsctx_free(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_tlsctx_free)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_random_generate_bytes() {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t*& Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_random_generate_bytes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_random_generate_bytes;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*> const&
-Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_get_unitytls_random_generate_bytes() const {
+constexpr ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t* const&
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_get_unitytls_random_generate_bytes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unitytls_random_generate_bytes;
 }
-constexpr void Mono::Unity::__UnityTls__unitytls_interface_struct::__cordl_internal_set_unitytls_random_generate_bytes(
-    ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* value) {
+constexpr void
+Mono::Unity::UnityTls_unitytls_interface_struct::__cordl_internal_set_unitytls_random_generate_bytes(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unitytls_random_generate_bytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* Mono::Unity::__UnityTls__unitytls_interface_struct::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::__UnityTls__unitytls_interface_struct*>());
-}
-inline void Mono::Unity::__UnityTls__unitytls_interface_struct::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::__UnityTls__unitytls_interface_struct*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Mono::Unity::UnityTls_unitytls_interface_struct::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls_unitytls_interface_struct*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Mono::Unity::UnityTls_unitytls_interface_struct* Mono::Unity::UnityTls_unitytls_interface_struct::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTls_unitytls_interface_struct*>());
+}
 // Ctor Parameters []
-constexpr ::Mono::Unity::__UnityTls__unitytls_interface_struct::__UnityTls__unitytls_interface_struct() {}
+constexpr ::Mono::Unity::UnityTls_unitytls_interface_struct::UnityTls_unitytls_interface_struct() {}
 //  Writing Method size for method: ::Mono::Unity::UnityTls.GetUnityTlsInterface
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Mono::Unity::UnityTls::GetUnityTlsInterface)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40a8044;
+  constexpr static std::size_t addrs = 0x4109358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get(), "GetUnityTlsInterface",
@@ -2650,7 +2593,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Mono::Unity::UnityTls::get_IsSupported)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40a8048;
+  constexpr static std::size_t addrs = 0x410935c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get(), "get_IsSupported",
@@ -2661,9 +2604,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Mono::Unity::UnityTls.get_NativeInterface
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::__UnityTls__unitytls_interface_struct* (*)()>(&::Mono::Unity::UnityTls::get_NativeInterface)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls_unitytls_interface_struct* (*)()>(&::Mono::Unity::UnityTls::get_NativeInterface)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x40a7dc0;
+  constexpr static std::size_t addrs = 0x41090d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get(), "get_NativeInterface",
@@ -2671,12 +2614,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void Mono::Unity::UnityTls::setStaticF_marshalledInterface(::Mono::Unity::__UnityTls__unitytls_interface_struct* value) {
-  ::cordl_internals::setStaticField<::Mono::Unity::__UnityTls__unitytls_interface_struct*, "marshalledInterface",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get>(std::forward<::Mono::Unity::__UnityTls__unitytls_interface_struct*>(value));
+inline void Mono::Unity::UnityTls::setStaticF_marshalledInterface(::Mono::Unity::UnityTls_unitytls_interface_struct* value) {
+  ::cordl_internals::setStaticField<::Mono::Unity::UnityTls_unitytls_interface_struct*, "marshalledInterface", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get>(
+      std::forward<::Mono::Unity::UnityTls_unitytls_interface_struct*>(value));
 }
-inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* Mono::Unity::UnityTls::getStaticF_marshalledInterface() {
-  return ::cordl_internals::getStaticField<::Mono::Unity::__UnityTls__unitytls_interface_struct*, "marshalledInterface",
+inline ::Mono::Unity::UnityTls_unitytls_interface_struct* Mono::Unity::UnityTls::getStaticF_marshalledInterface() {
+  return ::cordl_internals::getStaticField<::Mono::Unity::UnityTls_unitytls_interface_struct*, "marshalledInterface",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get>();
 }
 inline ::System::IntPtr Mono::Unity::UnityTls::GetUnityTlsInterface() {
@@ -2689,10 +2632,10 @@ inline bool Mono::Unity::UnityTls::get_IsSupported() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* Mono::Unity::UnityTls::get_NativeInterface() {
+inline ::Mono::Unity::UnityTls_unitytls_interface_struct* Mono::Unity::UnityTls::get_NativeInterface() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTls*>::get(), "get_NativeInterface",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::__UnityTls__unitytls_interface_struct*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_interface_struct*, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTls::UnityTls() {}

@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -18,10 +16,13 @@ namespace BeatSaber::RecPlay {
 struct PoseFrame;
 }
 namespace GlobalNamespace {
+struct AutoRecord_Beatmap;
+}
+namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-struct ColorType;
+struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 class NoteData;
@@ -31,9 +32,6 @@ struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 class SliderData;
-}
-namespace GlobalNamespace {
-struct __AutoRecord__Beatmap;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -49,26 +47,31 @@ namespace GlobalNamespace {
 class AutoRecord;
 }
 namespace GlobalNamespace {
-struct __AutoRecord__Beatmap;
+struct AutoRecord_Beatmap;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AutoRecord);
-MARK_VAL_T(::GlobalNamespace::__AutoRecord__Beatmap);
-// Type: ::Beatmap
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::AutoRecord_Beatmap);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::AutoRecord::Beatmap
-struct CORDL_TYPE __AutoRecord__Beatmap {
+// CS Name: AutoRecord/Beatmap
+struct CORDL_TYPE AutoRecord_Beatmap {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __AutoRecord__Beatmap();
+  constexpr AutoRecord_Beatmap();
 
   // Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteLineCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "items", ty: "::ArrayW<::GlobalNamespace::BeatmapDataItem*,::Array<::GlobalNamespace::BeatmapDataItem*>*>", modifiers: "", def_value: None }]
-  constexpr __AutoRecord__Beatmap(float_t beatsPerMinute, int32_t noteLineCount, ::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*> items) noexcept;
+  constexpr AutoRecord_Beatmap(float_t beatsPerMinute, int32_t noteLineCount, ::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*> items) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5132 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field beatsPerMinute, offset: 0x0, size: 0x4, def value: None
   float_t beatsPerMinute;
@@ -79,62 +82,51 @@ public:
   /// @brief Field items, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*> items;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5109 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AutoRecord__Beatmap, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoRecord_Beatmap, beatsPerMinute) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__AutoRecord__Beatmap, beatsPerMinute) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoRecord_Beatmap, noteLineCount) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__AutoRecord__Beatmap, noteLineCount) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoRecord_Beatmap, items) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__AutoRecord__Beatmap, items) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoRecord_Beatmap, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::AutoRecord
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Pose
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AutoRecord*
+// CS Name: AutoRecord
 class CORDL_TYPE AutoRecord : public ::System::Object {
 public:
   // Declarations
-  using Beatmap = ::GlobalNamespace::__AutoRecord__Beatmap;
+  using Beatmap = ::GlobalNamespace::AutoRecord_Beatmap;
 
   /// @brief Field kCutEndOffset, offset 0xffffffff, size 0x1c
-  static __declspec(property(get = getStaticF_kCutEndOffset, put = setStaticF_kCutEndOffset)) ::UnityEngine::Pose kCutEndOffset;
+  __declspec(property(get = getStaticF_kCutEndOffset, put = setStaticF_kCutEndOffset)) ::UnityEngine::Pose kCutEndOffset;
 
   /// @brief Field kCutStartOffset, offset 0xffffffff, size 0x1c
-  static __declspec(property(get = getStaticF_kCutStartOffset, put = setStaticF_kCutStartOffset)) ::UnityEngine::Pose kCutStartOffset;
+  __declspec(property(get = getStaticF_kCutStartOffset, put = setStaticF_kCutStartOffset)) ::UnityEngine::Pose kCutStartOffset;
 
-  /// @brief Method AddNoteHandFrames, addr 0x3ac63fc, size 0x474, virtual false, abstract: false, final false
-  static inline void AddNoteHandFrames(::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
-                                       ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* leftHandFrames,
-                                       ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* rightHandFrames);
+  /// @brief Method AddNoteHandFrames, addr 0x3b25f00, size 0x504, virtual false, abstract: false, final false
+  static inline void
+  AddNoteHandFrames(::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
+                    ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames,
+                    ::ArrayW<::GlobalNamespace::NoteCutDirection, ::Array<::GlobalNamespace::NoteCutDirection>*> lastCutDirections);
 
-  /// @brief Method AddSliderHandFrames, addr 0x3ac6870, size 0x5f0, virtual false, abstract: false, final false
-  static inline void AddSliderHandFrames(::GlobalNamespace::SliderData* slider, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
-                                         ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* leftHandFrames,
-                                         ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* rightHandFrames);
+  /// @brief Method AddSliderHandFrames, addr 0x3b26404, size 0x600, virtual false, abstract: false, final false
+  static inline void AddSliderHandFrames(
+      ::GlobalNamespace::SliderData* slider, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
+      ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames);
 
-  /// @brief Method CreatePlayerPoseFrames, addr 0x3ac5ba4, size 0x818, virtual false, abstract: false, final false
-  static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(ByRef<::GlobalNamespace::__AutoRecord__Beatmap> beatmap);
+  /// @brief Method CreatePlayerPoseFrames, addr 0x3b255e8, size 0x8d8, virtual false, abstract: false, final false
+  static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(::ByRef<::GlobalNamespace::AutoRecord_Beatmap> beatmap);
 
-  /// @brief Method LocateCutPosition, addr 0x3ac63bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LocateCutPosition, addr 0x3b25ec0, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer);
 
-  /// @brief Method SelectHand, addr 0x3ac6ee8, size 0x18, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* SelectHand(::GlobalNamespace::ColorType type,
-                                                                                                    ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* left,
-                                                                                                    ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* right);
-
-  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3ac6e60, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3b26a04, size 0x88, virtual false, abstract: false, final false
   static inline int32_t _CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames);
 
   static inline ::UnityEngine::Pose getStaticF_kCutEndOffset();
@@ -160,7 +152,7 @@ public:
   AutoRecord(AutoRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -170,4 +162,4 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoRecord, 0x1
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AutoRecord);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AutoRecord*, "", "AutoRecord");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AutoRecord__Beatmap, "", "AutoRecord/Beatmap");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AutoRecord_Beatmap, "", "AutoRecord/Beatmap");

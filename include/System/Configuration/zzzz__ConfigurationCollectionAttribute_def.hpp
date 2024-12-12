@@ -14,17 +14,16 @@ class ConfigurationCollectionAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Configuration::ConfigurationCollectionAttribute);
-// Type: System.Configuration::ConfigurationCollectionAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Configuration {
 // Is value type: false
-// CS Name: ::System.Configuration::ConfigurationCollectionAttribute*
+// CS Name: System.Configuration.ConfigurationCollectionAttribute
 class CORDL_TYPE ConfigurationCollectionAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Configuration::ConfigurationCollectionAttribute* New_ctor(::System::Type* itemType);
 
-  /// @brief Method .ctor, addr 0x4028c54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4089f68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* itemType);
 
 protected:
@@ -42,7 +41,7 @@ public:
   ConfigurationCollectionAttribute(ConfigurationCollectionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19271 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

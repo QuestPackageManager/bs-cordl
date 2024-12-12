@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Asn1SignatureFactory)
@@ -11,9 +12,6 @@ class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
@@ -33,11 +31,10 @@ class Asn1SignatureFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory);
-// Type: Org.BouncyCastle.Crypto.Operators::Asn1SignatureFactory
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.ISignatureFactory, System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1SignatureFactory*
+// CS Name: Org.BouncyCastle.Crypto.Operators.Asn1SignatureFactory
 class CORDL_TYPE Asn1SignatureFactory : public ::System::Object {
 public:
   // Declarations
@@ -58,7 +55,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignatureFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::ISignatureFactory*() noexcept;
 
-  /// @brief Method CreateCalculator, addr 0x2380460, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method CreateCalculator, addr 0x23b374c, size 0xac, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
@@ -66,21 +63,21 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algID();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algID() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algID() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algID();
 
   constexpr ::StringW const& __cordl_internal_get_algorithm() const;
 
   constexpr ::StringW& __cordl_internal_get_algorithm();
 
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_privateKey() const;
+
   constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_privateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_privateKey() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
   constexpr void __cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
@@ -90,16 +87,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x2380304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b35f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0x238030c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b35f8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x2380458, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x23b3744, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method get_SignatureAlgNames, addr 0x2380580, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x23b386c, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISignatureFactory"
@@ -119,6 +116,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Asn1SignatureFactory(Asn1SignatureFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 992 };
+
   /// @brief Field algID, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___algID;
 
@@ -131,14 +131,9 @@ public:
   /// @brief Field random, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 992 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory, ___algID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory, ___algorithm) == 0x18, "Offset mismatch!");
@@ -146,6 +141,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFact
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory, ___privateKey) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory, ___random) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory);

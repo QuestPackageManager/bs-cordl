@@ -14,28 +14,23 @@ class ICipher;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::ICipher);
-// Type: Org.BouncyCastle.Crypto::ICipher
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::ICipher*
+// CS Name: Org.BouncyCastle.Crypto.ICipher
 class CORDL_TYPE ICipher {
 public:
   // Declarations
   __declspec(property(get = get_Stream)) ::System::IO::Stream* Stream;
 
-  /// @brief Method GetMaxOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetMaxOutputSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetUpdateOutputSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
-  /// @brief Method get_Stream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Stream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IO::Stream* get_Stream();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ICipher", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICipher(ICipher&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICipher", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

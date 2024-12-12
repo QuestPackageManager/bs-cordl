@@ -18,29 +18,28 @@ class CallContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CallContext);
-// Type: System.Runtime.Remoting.Messaging::CallContext
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::CallContext*
+// CS Name: System.Runtime.Remoting.Messaging.CallContext
 class CORDL_TYPE CallContext : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogicalGetData, addr 0x3c84730, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LogicalGetData, addr 0x3ce48a4, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Object* LogicalGetData(::StringW name);
 
-  /// @brief Method LogicalSetData, addr 0x3c8478c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogicalSetData, addr 0x3ce4900, size 0x68, virtual false, abstract: false, final false
   static inline void LogicalSetData(::StringW name, ::System::Object* data);
 
   static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
 
-  /// @brief Method SetCurrentCallContext, addr 0x3c84728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentCallContext, addr 0x3ce489c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method SetLogicalCallContext, addr 0x3c6ec84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLogicalCallContext, addr 0x3ccedf8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
 
-  /// @brief Method .ctor, addr 0x3c84720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce4894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

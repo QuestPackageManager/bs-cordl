@@ -3,9 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SerializableDictionary_2)
 namespace System::Collections::Generic {
@@ -15,25 +19,13 @@ namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -41,13 +33,13 @@ template <typename TKey, typename TValue> class HEU_SerializableDictionary_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::HoudiniEngineUnity::HEU_SerializableDictionary_2);
-// Type: HoudiniEngineUnity::HEU_SerializableDictionary`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
+// System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable, System.Object, UnityEngine.ISerializationCallbackReceiver
 namespace HoudiniEngineUnity {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_SerializableDictionary`2<TKey,TValue>*
+// CS Name: HoudiniEngineUnity.HEU_SerializableDictionary`2<TKey,TValue>
 class CORDL_TYPE HEU_SerializableDictionary_2 : public ::System::Object {
 public:
   // Declarations
@@ -124,11 +116,11 @@ public:
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool TryGetValue(TKey key, ByRef<TValue> value);
+  inline bool TryGetValue(TKey key, ::ByRef<TValue> value);
+
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>* const& __cordl_internal_get__dictionary() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__dictionary() const;
 
   constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __cordl_internal_get__keys() const;
 
@@ -196,6 +188,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_SerializableDictionary_2(HEU_SerializableDictionary_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };
+
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
 
@@ -204,9 +199,6 @@ public:
 
   /// @brief Field _values, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<TValue, ::Array<TValue>*> ____values;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class PlayerTransforms;
+class IVariableMovementDataProvider;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class PlayerTransforms;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -32,28 +32,30 @@ class NoteFloorMovement;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteFloorMovement);
-// Type: ::NoteFloorMovement
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteFloorMovement*
+// CS Name: NoteFloorMovement
 class CORDL_TYPE NoteFloorMovement : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioTimeSyncController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSyncController;
 
-  /// @brief Field _endPos, offset 0x4c, size 0xc
-  __declspec(property(get = __cordl_internal_get__endPos, put = __cordl_internal_set__endPos)) ::UnityEngine::Vector3 _endPos;
+  /// @brief Field _beatTime, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get__beatTime, put = __cordl_internal_set__beatTime)) float_t _beatTime;
 
-  /// @brief Field _inverseWorldRotation, offset 0x70, size 0x10
+  /// @brief Field _inverseWorldRotation, offset 0x78, size 0x10
   __declspec(property(get = __cordl_internal_get__inverseWorldRotation, put = __cordl_internal_set__inverseWorldRotation)) ::UnityEngine::Quaternion _inverseWorldRotation;
 
-  /// @brief Field _localPosition, offset 0x80, size 0xc
+  /// @brief Field _localPosition, offset 0x40, size 0xc
   __declspec(property(get = __cordl_internal_get__localPosition, put = __cordl_internal_set__localPosition)) ::UnityEngine::Vector3 _localPosition;
 
-  /// @brief Field _moveDuration, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__moveDuration, put = __cordl_internal_set__moveDuration)) float_t _moveDuration;
+  /// @brief Field _moveEndOffset, offset 0x5c, size 0xc
+  __declspec(property(get = __cordl_internal_get__moveEndOffset, put = __cordl_internal_set__moveEndOffset)) ::UnityEngine::Vector3 _moveEndOffset;
+
+  /// @brief Field _moveStartOffset, offset 0x50, size 0xc
+  __declspec(property(get = __cordl_internal_get__moveStartOffset, put = __cordl_internal_set__moveStartOffset)) ::UnityEngine::Vector3 _moveStartOffset;
 
   /// @brief Field _playerTransforms, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms)) ::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
@@ -61,52 +63,46 @@ public:
   /// @brief Field _rotatedObject, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__rotatedObject, put = __cordl_internal_set__rotatedObject)) ::UnityW<::UnityEngine::Transform> _rotatedObject;
 
-  /// @brief Field _startPos, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos)) ::UnityEngine::Vector3 _startPos;
+  /// @brief Field _variableMovementDataProvider, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
+                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
-  /// @brief Field _startTime, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) float_t _startTime;
-
-  /// @brief Field _worldRotation, offset 0x60, size 0x10
+  /// @brief Field _worldRotation, offset 0x68, size 0x10
   __declspec(property(get = __cordl_internal_get__worldRotation, put = __cordl_internal_set__worldRotation)) ::UnityEngine::Quaternion _worldRotation;
 
   __declspec(property(get = get_distanceToPlayer)) float_t distanceToPlayer;
 
   __declspec(property(get = get_endPos)) ::UnityEngine::Vector3 endPos;
 
-  /// @brief Field floorMovementDidFinishEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_floorMovementDidFinishEvent, put = __cordl_internal_set_floorMovementDidFinishEvent)) ::System::Action* floorMovementDidFinishEvent;
-
   __declspec(property(get = get_inverseWorldRotation)) ::UnityEngine::Quaternion inverseWorldRotation;
 
   __declspec(property(get = get_localPosition)) ::UnityEngine::Vector3 localPosition;
 
-  __declspec(property(get = get_moveDuration)) float_t moveDuration;
-
-  __declspec(property(get = get_startPos)) ::UnityEngine::Vector3 startPos;
-
-  __declspec(property(get = get_startTime)) float_t startTime;
+  __declspec(property(get = get_noteTime)) float_t noteTime;
 
   __declspec(property(get = get_worldRotation)) ::UnityEngine::Quaternion worldRotation;
 
-  /// @brief Method Init, addr 0x3a91d48, size 0xb8, virtual false, abstract: false, final false
-  inline void Init(float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float_t moveDuration, float_t startTime);
+  /// @brief Method Init, addr 0x3aeb570, size 0x74, virtual false, abstract: false, final false
+  inline void Init(float_t worldRotation, float_t beatTime, ::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset);
 
-  /// @brief Method ManualUpdate, addr 0x3a91ef4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3aeb984, size 0x398, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ManualUpdate();
 
   static inline ::GlobalNamespace::NoteFloorMovement* New_ctor();
 
-  /// @brief Method SetToStart, addr 0x3a91e00, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetToStart, addr 0x3aeb7fc, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SetToStart();
+
+  /// @brief Method ShouldMove, addr 0x3aeb5e4, size 0x218, virtual false, abstract: false, final false
+  inline bool ShouldMove();
+
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSyncController() const;
+  constexpr float_t const& __cordl_internal_get__beatTime() const;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__endPos() const;
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__endPos();
+  constexpr float_t& __cordl_internal_get__beatTime();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__inverseWorldRotation() const;
 
@@ -116,9 +112,13 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__localPosition();
 
-  constexpr float_t const& __cordl_internal_get__moveDuration() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveEndOffset() const;
 
-  constexpr float_t& __cordl_internal_get__moveDuration();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__moveEndOffset();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveStartOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__moveStartOffset();
 
   constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
 
@@ -128,76 +128,54 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rotatedObject();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPos();
-
-  constexpr float_t const& __cordl_internal_get__startTime() const;
-
-  constexpr float_t& __cordl_internal_get__startTime();
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldRotation() const;
 
   constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldRotation();
 
-  constexpr ::System::Action*& __cordl_internal_get_floorMovementDidFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_floorMovementDidFinishEvent() const;
-
   constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr void __cordl_internal_set__endPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__beatTime(float_t value);
 
   constexpr void __cordl_internal_set__inverseWorldRotation(::UnityEngine::Quaternion value);
 
   constexpr void __cordl_internal_set__localPosition(::UnityEngine::Vector3 value);
 
-  constexpr void __cordl_internal_set__moveDuration(float_t value);
+  constexpr void __cordl_internal_set__moveEndOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__moveStartOffset(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
   constexpr void __cordl_internal_set__rotatedObject(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr void __cordl_internal_set__startPos(::UnityEngine::Vector3 value);
-
-  constexpr void __cordl_internal_set__startTime(float_t value);
+  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
   constexpr void __cordl_internal_set__worldRotation(::UnityEngine::Quaternion value);
 
-  constexpr void __cordl_internal_set_floorMovementDidFinishEvent(::System::Action* value);
-
-  /// @brief Method .ctor, addr 0x3a92070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aebd1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_floorMovementDidFinishEvent, addr 0x3a91b84, size 0x9c, virtual false, abstract: false, final false
-  inline void add_floorMovementDidFinishEvent(::System::Action* value);
-
-  /// @brief Method get_distanceToPlayer, addr 0x3a91cbc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_distanceToPlayer, addr 0x3aeb448, size 0x40, virtual false, abstract: false, final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_endPos, addr 0x3a91d08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_endPos, addr 0x3aeb488, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPos();
 
-  /// @brief Method get_inverseWorldRotation, addr 0x3a91d30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWorldRotation, addr 0x3aeb558, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_localPosition, addr 0x3a91d3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x3aeb564, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_moveDuration, addr 0x3a91d1c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_moveDuration();
+  /// @brief Method get_noteTime, addr 0x3aeb544, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_noteTime();
 
-  /// @brief Method get_startPos, addr 0x3a91cfc, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_startPos();
-
-  /// @brief Method get_startTime, addr 0x3a91d14, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_startTime();
-
-  /// @brief Method get_worldRotation, addr 0x3a91d24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldRotation, addr 0x3aeb54c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
-
-  /// @brief Method remove_floorMovementDidFinishEvent, addr 0x3a91c20, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_floorMovementDidFinishEvent(::System::Action* value);
 
 protected:
   // Ctor Parameters []
@@ -213,6 +191,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteFloorMovement(NoteFloorMovement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4129 };
+
   /// @brief Field _rotatedObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rotatedObject;
 
@@ -222,59 +203,51 @@ public:
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 
-  /// @brief Field floorMovementDidFinishEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action* ___floorMovementDidFinishEvent;
+  /// @brief Field _variableMovementDataProvider, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
-  /// @brief Field _startPos, offset: 0x40, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____startPos;
-
-  /// @brief Field _endPos, offset: 0x4c, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____endPos;
-
-  /// @brief Field _moveDuration, offset: 0x58, size: 0x4, def value: None
-  float_t ____moveDuration;
-
-  /// @brief Field _startTime, offset: 0x5c, size: 0x4, def value: None
-  float_t ____startTime;
-
-  /// @brief Field _worldRotation, offset: 0x60, size: 0x10, def value: None
-  ::UnityEngine::Quaternion ____worldRotation;
-
-  /// @brief Field _inverseWorldRotation, offset: 0x70, size: 0x10, def value: None
-  ::UnityEngine::Quaternion ____inverseWorldRotation;
-
-  /// @brief Field _localPosition, offset: 0x80, size: 0xc, def value: None
+  /// @brief Field _localPosition, offset: 0x40, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4117 };
+  /// @brief Field _beatTime, offset: 0x4c, size: 0x4, def value: None
+  float_t ____beatTime;
+
+  /// @brief Field _moveStartOffset, offset: 0x50, size: 0xc, def value: None
+  ::UnityEngine::Vector3 ____moveStartOffset;
+
+  /// @brief Field _moveEndOffset, offset: 0x5c, size: 0xc, def value: None
+  ::UnityEngine::Vector3 ____moveEndOffset;
+
+  /// @brief Field _worldRotation, offset: 0x68, size: 0x10, def value: None
+  ::UnityEngine::Quaternion ____worldRotation;
+
+  /// @brief Field _inverseWorldRotation, offset: 0x78, size: 0x10, def value: None
+  ::UnityEngine::Quaternion ____inverseWorldRotation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteFloorMovement, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____rotatedObject) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____playerTransforms) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____audioTimeSyncController) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ___floorMovementDidFinishEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____variableMovementDataProvider) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____startPos) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____localPosition) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____endPos) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____beatTime) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____moveDuration) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____moveStartOffset) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____startTime) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____moveEndOffset) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____worldRotation) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____worldRotation) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____inverseWorldRotation) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____inverseWorldRotation) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____localPosition) == 0x80, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteFloorMovement, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteFloorMovement);

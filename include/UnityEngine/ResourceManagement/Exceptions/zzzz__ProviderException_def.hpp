@@ -18,11 +18,10 @@ class ProviderException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ProviderException);
-// Type: UnityEngine.ResourceManagement.Exceptions::ProviderException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.Exceptions.OperationException
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Exceptions::ProviderException*
+// CS Name: UnityEngine.ResourceManagement.Exceptions.ProviderException
 class CORDL_TYPE ProviderException : public ::UnityEngine::ResourceManagement::Exceptions::OperationException {
 public:
   // Declarations
@@ -35,16 +34,16 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::ProviderException* New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                            ::System::Exception* innerException);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get__Location_k__BackingField();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const& __cordl_internal_get__Location_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get__Location_k__BackingField() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get__Location_k__BackingField();
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x472fd60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4791074, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
-  /// @brief Method get_Location, addr 0x472fd88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x479109c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
 protected:
@@ -61,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProviderException(ProviderException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15602 };
+
   /// @brief Field <Location>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____Location_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15567 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Exceptions::ProviderException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::Exceptions::ProviderException, ____Location_k__BackingField) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Exceptions::ProviderException, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Exceptions
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Exceptions::ProviderException);

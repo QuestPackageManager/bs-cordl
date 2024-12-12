@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexCode)
@@ -31,11 +30,10 @@ class RegexCode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexCode);
-// Type: System.Text.RegularExpressions::RegexCode
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Nullable`1<T>, System.Object, System.Text.RegularExpressions.RegexPrefix
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// CS Name: ::System.Text.RegularExpressions::RegexCode*
+// CS Name: System.Text.RegularExpressions.RegexCode
 class CORDL_TYPE RegexCode : public ::System::Object {
 public:
   // Declarations
@@ -70,24 +68,24 @@ public:
                                                                         ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
                                                                         ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft);
 
-  /// @brief Method OpcodeBacktracks, addr 0x43bb458, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OpcodeBacktracks, addr 0x441c76c, size 0x30, virtual false, abstract: false, final false
   static inline bool OpcodeBacktracks(int32_t Op);
 
   constexpr int32_t const& __cordl_internal_get_Anchors() const;
 
   constexpr int32_t& __cordl_internal_get_Anchors();
 
-  constexpr ::System::Text::RegularExpressions::RegexBoyerMoore*& __cordl_internal_get_BMPrefix();
+  constexpr ::System::Text::RegularExpressions::RegexBoyerMoore* const& __cordl_internal_get_BMPrefix() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexBoyerMoore*> const& __cordl_internal_get_BMPrefix() const;
+  constexpr ::System::Text::RegularExpressions::RegexBoyerMoore*& __cordl_internal_get_BMPrefix();
 
   constexpr int32_t const& __cordl_internal_get_CapSize() const;
 
   constexpr int32_t& __cordl_internal_get_CapSize();
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Caps();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_Caps() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Caps() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Caps();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_Codes() const;
 
@@ -127,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_TrackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43bb388, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441c69c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount, ::System::Collections::Hashtable* caps,
                     int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors,
                     bool rightToLeft);
@@ -145,33 +143,6 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RegexCode", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RegexCode(RegexCode const&) = delete;
-
-  /// @brief Field Codes, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___Codes;
-
-  /// @brief Field Strings, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___Strings;
-
-  /// @brief Field TrackCount, offset: 0x20, size: 0x4, def value: None
-  int32_t ___TrackCount;
-
-  /// @brief Field Caps, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___Caps;
-
-  /// @brief Field CapSize, offset: 0x30, size: 0x4, def value: None
-  int32_t ___CapSize;
-
-  /// @brief Field FCPrefix, offset: 0x38, size: 0x18, def value: None
-  ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> ___FCPrefix;
-
-  /// @brief Field BMPrefix, offset: 0x50, size: 0x8, def value: None
-  ::System::Text::RegularExpressions::RegexBoyerMoore* ___BMPrefix;
-
-  /// @brief Field Anchors, offset: 0x58, size: 0x4, def value: None
-  int32_t ___Anchors;
-
-  /// @brief Field RightToLeft, offset: 0x5c, size: 0x1, def value: None
-  bool ___RightToLeft;
 
   /// @brief Field Back offset 0xffffffff size 0x4
   static constexpr int32_t Back{ static_cast<int32_t>(0x80) };
@@ -318,13 +289,38 @@ public:
   static constexpr int32_t Testref{ static_cast<int32_t>(0x25) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9234 };
+
+  /// @brief Field Codes, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> ___Codes;
+
+  /// @brief Field Strings, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> ___Strings;
+
+  /// @brief Field TrackCount, offset: 0x20, size: 0x4, def value: None
+  int32_t ___TrackCount;
+
+  /// @brief Field Caps, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Hashtable* ___Caps;
+
+  /// @brief Field CapSize, offset: 0x30, size: 0x4, def value: None
+  int32_t ___CapSize;
+
+  /// @brief Field FCPrefix, offset: 0x38, size: 0x18, def value: None
+  ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> ___FCPrefix;
+
+  /// @brief Field BMPrefix, offset: 0x50, size: 0x8, def value: None
+  ::System::Text::RegularExpressions::RegexBoyerMoore* ___BMPrefix;
+
+  /// @brief Field Anchors, offset: 0x58, size: 0x4, def value: None
+  int32_t ___Anchors;
+
+  /// @brief Field RightToLeft, offset: 0x5c, size: 0x1, def value: None
+  bool ___RightToLeft;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexCode, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::RegularExpressions::RegexCode, ___Codes) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexCode, ___Strings) == 0x18, "Offset mismatch!");
@@ -342,6 +338,8 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexCode, ___BMPrefi
 static_assert(offsetof(::System::Text::RegularExpressions::RegexCode, ___Anchors) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexCode, ___RightToLeft) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexCode, 0x60>, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexCode);

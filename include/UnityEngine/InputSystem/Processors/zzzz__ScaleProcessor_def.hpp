@@ -16,11 +16,10 @@ class ScaleProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleProcessor);
-// Type: UnityEngine.InputSystem.Processors::ScaleProcessor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Processors::ScaleProcessor*
+// CS Name: UnityEngine.InputSystem.Processors.ScaleProcessor
 class CORDL_TYPE ScaleProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
@@ -29,10 +28,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45b6838, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4617b4c, size 0xc, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45b6844, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4617b58, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_factor() const;
@@ -41,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_factor(float_t value);
 
-  /// @brief Method .ctor, addr 0x45b68c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4617bdc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScaleProcessor(ScaleProcessor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6995 };
+
   /// @brief Field factor, offset: 0x10, size: 0x4, def value: None
   float_t ___factor;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6970 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ScaleProcessor, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Processors::ScaleProcessor, ___factor) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ScaleProcessor, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ScaleProcessor);

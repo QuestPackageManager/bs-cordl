@@ -22,11 +22,10 @@ class VisualMetronome;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::VisualMetronome);
-// Type: ::VisualMetronome
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::VisualMetronome*
+// CS Name: VisualMetronome
 class CORDL_TYPE VisualMetronome : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -80,21 +79,21 @@ public:
 
   __declspec(property(get = get_zeroOffset, put = set_zeroOffset)) float_t zeroOffset;
 
-  /// @brief Method Awake, addr 0x3b928a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bf47cc, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::VisualMetronome* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b92988, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bf48ac, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b92940, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bf4864, size 0x48, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x3b92b1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x3bf4a40, size 0xa4, virtual false, abstract: false, final false
   inline void SetMovingTickerNormalizedPosition(float_t t);
 
-  /// @brief Method Update, addr 0x3b929d0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bf48f4, size 0x14c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -193,13 +192,13 @@ public:
 
   constexpr void __cordl_internal_set__zeroOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b92bc0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf4ae4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_zeroOffset, addr 0x3b928a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zeroOffset, addr 0x3bf47c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_zeroOffset();
 
-  /// @brief Method set_zeroOffset, addr 0x3b92890, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_zeroOffset, addr 0x3bf47b4, size 0x10, virtual false, abstract: false, final false
   inline void set_zeroOffset(float_t value);
 
 protected:
@@ -215,6 +214,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "VisualMetronome", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   VisualMetronome(VisualMetronome const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4734 };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
@@ -264,14 +266,9 @@ public:
   /// @brief Field _dontTickThisFrame, offset: 0x7c, size: 0x1, def value: None
   bool ____dontTickThisFrame;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4718 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VisualMetronome, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____audioSource) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____leftPadding) == 0x28, "Offset mismatch!");
@@ -303,6 +300,8 @@ static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____zeroOffset) == 0x
 static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____direction) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____dontTickThisFrame) == 0x7c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VisualMetronome, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VisualMetronome);

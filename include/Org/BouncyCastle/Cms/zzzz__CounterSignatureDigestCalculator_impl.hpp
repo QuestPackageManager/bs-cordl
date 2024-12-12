@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/CounterSignatureDigestCalculator.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CounterSignatureDigestCalculator_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26402c8;
+  constexpr static std::size_t addrs = 0x26735b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::*)()>(
     &::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::GetDigest)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26402f4;
+  constexpr static std::size_t addrs = 0x26735e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,14 +34,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
-constexpr Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept {
-  return static_cast<::Org::BouncyCastle::Cms::IDigestCalculator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
-constexpr ::Org::BouncyCastle::Cms::IDigestCalculator* Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::i___Org__BouncyCastle__Cms__IDigestCalculator() noexcept {
-  return static_cast<::Org::BouncyCastle::Cms::IDigestCalculator*>(static_cast<void*>(this));
-}
 constexpr ::StringW& Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::__cordl_internal_get_alg() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alg;
@@ -66,9 +58,6 @@ constexpr void Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator* Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::New_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator*>(alg, data));
-}
 inline void Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -80,6 +69,17 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Cms::CounterSigna
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator*>::get(),
                                                                              "GetDigest", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator* Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::New_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator*>(alg, data));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
+constexpr Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept {
+  return static_cast<::Org::BouncyCastle::Cms::IDigestCalculator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
+constexpr ::Org::BouncyCastle::Cms::IDigestCalculator* Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::i___Org__BouncyCastle__Cms__IDigestCalculator() noexcept {
+  return static_cast<::Org::BouncyCastle::Cms::IDigestCalculator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::CounterSignatureDigestCalculator() {}

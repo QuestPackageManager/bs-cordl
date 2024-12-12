@@ -13,27 +13,22 @@ class INoteControllerDidInitEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::INoteControllerDidInitEvent);
-// Type: ::INoteControllerDidInitEvent
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::INoteControllerDidInitEvent*
+// CS Name: INoteControllerDidInitEvent
 class CORDL_TYPE INoteControllerDidInitEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteControllerDidInit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method HandleNoteControllerDidInit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
-
-  // Ctor Parameters [CppParam { name: "", ty: "INoteControllerDidInitEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  INoteControllerDidInitEvent(INoteControllerDidInitEvent&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteControllerDidInitEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INoteControllerDidInitEvent(INoteControllerDidInitEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4114 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

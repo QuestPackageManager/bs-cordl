@@ -15,11 +15,10 @@ class PasswordException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::PasswordException);
-// Type: Org.BouncyCastle.Security::PasswordException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security::PasswordException*
+// CS Name: Org.BouncyCastle.Security.PasswordException
 class CORDL_TYPE PasswordException : public ::System::IO::IOException {
 public:
   // Declarations
@@ -27,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Security::PasswordException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x251b544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254e830, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x251b54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254e838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

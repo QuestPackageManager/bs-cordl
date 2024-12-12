@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Net/HttpStreamAsyncResult.hpp"
+#include "System/zzzz__IAsyncResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpStreamAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpStreamAsyncResult.Complete
 template <>
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpStreamAsyncResult::*)(::System::Exception*)>(
     &::System::Net::HttpStreamAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43663a8;
+  constexpr static std::size_t addrs = 0x43c76bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x43663b0;
+  constexpr static std::size_t addrs = 0x43c76c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStreamAsyncResult*>::get(), "Complete",
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::HttpStreamAsyncResult::*)()>(
     &::System::Net::HttpStreamAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43664b0;
+  constexpr static std::size_t addrs = 0x43c77c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStreamAsyncResult*>::get(), "get_AsyncState",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::Net::HttpStreamAsyncResult::*)()>(
     &::System::Net::HttpStreamAsyncResult::get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x43664b8;
+  constexpr static std::size_t addrs = 0x43c77cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStreamAsyncResult*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpStreamAsyncResult::*)()>(
     &::System::Net::HttpStreamAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43665e8;
+  constexpr static std::size_t addrs = 0x43c78fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStreamAsyncResult*>::get(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43665fc;
+  constexpr static std::size_t addrs = 0x43c7910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStreamAsyncResult*>::get(), "get_IsCompleted",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43666c4;
+  constexpr static std::size_t addrs = 0x43c79d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStreamAsyncResult*>::get(), ".ctor",
@@ -104,19 +104,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IAsyncResult"
-constexpr System::Net::HttpStreamAsyncResult::operator ::System::IAsyncResult*() noexcept {
-  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IAsyncResult"
-constexpr ::System::IAsyncResult* System::Net::HttpStreamAsyncResult::i___System__IAsyncResult() noexcept {
-  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
-}
 constexpr ::System::Object*& System::Net::HttpStreamAsyncResult::__cordl_internal_get_locker() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_locker() const {
+constexpr ::System::Object* const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_locker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
@@ -128,7 +120,7 @@ constexpr ::System::Threading::ManualResetEvent*& System::Net::HttpStreamAsyncRe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_handle() const {
+constexpr ::System::Threading::ManualResetEvent* const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_handle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
@@ -188,7 +180,7 @@ constexpr ::System::AsyncCallback*& System::Net::HttpStreamAsyncResult::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_Callback() const {
+constexpr ::System::AsyncCallback* const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_Callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Callback;
 }
@@ -200,7 +192,7 @@ constexpr ::System::Object*& System::Net::HttpStreamAsyncResult::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___State;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_State() const {
+constexpr ::System::Object* const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_State() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___State;
 }
@@ -224,7 +216,7 @@ constexpr ::System::Exception*& System::Net::HttpStreamAsyncResult::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Error;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_Error() const {
+constexpr ::System::Exception* const& System::Net::HttpStreamAsyncResult::__cordl_internal_get_Error() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Error;
 }
@@ -263,13 +255,21 @@ inline bool System::Net::HttpStreamAsyncResult::get_IsCompleted() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Net::HttpStreamAsyncResult* System::Net::HttpStreamAsyncResult::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpStreamAsyncResult*>());
-}
 inline void System::Net::HttpStreamAsyncResult::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStreamAsyncResult*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Net::HttpStreamAsyncResult* System::Net::HttpStreamAsyncResult::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpStreamAsyncResult*>());
+}
+/// @brief Convert operator to "::System::IAsyncResult"
+constexpr System::Net::HttpStreamAsyncResult::operator ::System::IAsyncResult*() noexcept {
+  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IAsyncResult"
+constexpr ::System::IAsyncResult* System::Net::HttpStreamAsyncResult::i___System__IAsyncResult() noexcept {
+  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpStreamAsyncResult::HttpStreamAsyncResult() {}

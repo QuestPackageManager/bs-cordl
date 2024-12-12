@@ -12,11 +12,10 @@ struct RenderDataDirtyTypes;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes);
-// Type: UnityEngine.UIElements.UIR::RenderDataDirtyTypes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.UIR::RenderDataDirtyTypes
+// CS Name: UnityEngine.UIElements.UIR.RenderDataDirtyTypes
 struct CORDL_TYPE RenderDataDirtyTypes {
 public:
   // Declarations
@@ -55,57 +54,57 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RenderDataDirtyTypes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AllVisuals value: static_cast<int32_t>(0x70)
+  /// @brief Field AllVisuals value: I32(112)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const AllVisuals;
 
-  /// @brief Field ClipRectSize value: static_cast<int32_t>(0x2)
+  /// @brief Field ClipRectSize value: I32(2)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClipRectSize;
 
-  /// @brief Field Clipping value: static_cast<int32_t>(0x4)
+  /// @brief Field Clipping value: I32(4)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Clipping;
 
-  /// @brief Field ClippingHierarchy value: static_cast<int32_t>(0x8)
+  /// @brief Field ClippingHierarchy value: I32(8)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClippingHierarchy;
 
-  /// @brief Field Color value: static_cast<int32_t>(0x200)
+  /// @brief Field Color value: I32(512)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Color;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const None;
 
-  /// @brief Field Opacity value: static_cast<int32_t>(0x80)
+  /// @brief Field Opacity value: I32(128)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Opacity;
 
-  /// @brief Field OpacityHierarchy value: static_cast<int32_t>(0x100)
+  /// @brief Field OpacityHierarchy value: I32(256)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const OpacityHierarchy;
 
-  /// @brief Field Transform value: static_cast<int32_t>(0x1)
+  /// @brief Field Transform value: I32(1)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Transform;
 
-  /// @brief Field Visuals value: static_cast<int32_t>(0x10)
+  /// @brief Field Visuals value: I32(16)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Visuals;
 
-  /// @brief Field VisualsHierarchy value: static_cast<int32_t>(0x20)
+  /// @brief Field VisualsHierarchy value: I32(32)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const VisualsHierarchy;
 
-  /// @brief Field VisualsOpacityId value: static_cast<int32_t>(0x40)
+  /// @brief Field VisualsOpacityId value: I32(64)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const VisualsOpacityId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderDataDirtyTypes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderDataDirtyTypes, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes, "UnityEngine.UIElements.UIR", "RenderDataDirtyTypes");

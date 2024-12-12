@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
@@ -25,6 +24,18 @@ namespace GlobalNamespace {
 class PS5LevelProductPacksSO;
 }
 namespace GlobalNamespace {
+class PackDefinitionSO_Credits;
+}
+namespace GlobalNamespace {
+class PackDefinitionSO_LeaderboardIds;
+}
+namespace GlobalNamespace {
+class PackDefinitionSO_LevelProductPacks;
+}
+namespace GlobalNamespace {
+struct PackDefinitionSO_Tags;
+}
+namespace GlobalNamespace {
 class PackPromoInfoSO;
 }
 namespace GlobalNamespace {
@@ -39,18 +50,6 @@ class SonyLevelProductPackSourceSO;
 namespace GlobalNamespace {
 class SteamLevelProductPacksSO;
 }
-namespace GlobalNamespace {
-class __PackDefinitionSO__Credits;
-}
-namespace GlobalNamespace {
-class __PackDefinitionSO__LeaderboardIds;
-}
-namespace GlobalNamespace {
-class __PackDefinitionSO__LevelProductPacks;
-}
-namespace GlobalNamespace {
-struct __PackDefinitionSO__Tags;
-}
 namespace UnityEngine::AddressableAssets {
 class AssetReferenceGameObject;
 }
@@ -59,38 +58,37 @@ template <typename TObject> class AssetReferenceT_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __PackDefinitionSO__Tags;
+struct PackDefinitionSO_Tags;
 }
 namespace GlobalNamespace {
 class PackDefinitionSO;
 }
 namespace GlobalNamespace {
-class __PackDefinitionSO__Credits;
+class PackDefinitionSO_Credits;
 }
 namespace GlobalNamespace {
-class __PackDefinitionSO__LeaderboardIds;
+class PackDefinitionSO_LeaderboardIds;
 }
 namespace GlobalNamespace {
-class __PackDefinitionSO__LevelProductPacks;
+class PackDefinitionSO_LevelProductPacks;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__PackDefinitionSO__Tags);
+MARK_VAL_T(::GlobalNamespace::PackDefinitionSO_Tags);
 MARK_REF_PTR_T(::GlobalNamespace::PackDefinitionSO);
-MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionSO__Credits);
-MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds);
-MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks);
-// Type: ::Tags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::PackDefinitionSO_Credits);
+MARK_REF_PTR_T(::GlobalNamespace::PackDefinitionSO_LeaderboardIds);
+MARK_REF_PTR_T(::GlobalNamespace::PackDefinitionSO_LevelProductPacks);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PackDefinitionSO::Tags
-struct CORDL_TYPE __PackDefinitionSO__Tags {
+// CS Name: PackDefinitionSO/Tags
+struct CORDL_TYPE PackDefinitionSO_Tags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____PackDefinitionSO__Tags_Unwrapped
-  enum struct ____PackDefinitionSO__Tags_Unwrapped : int32_t {
+  /// @brief Nested struct __PackDefinitionSO_Tags_Unwrapped
+  enum struct __PackDefinitionSO_Tags_Unwrapped : int32_t {
     __E_Hidden = static_cast<int32_t>(0x0),
     __E_BuiltIn = static_cast<int32_t>(0x1),
     __E_DLC = static_cast<int32_t>(0x2),
@@ -98,8 +96,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PackDefinitionSO__Tags_Unwrapped() const noexcept {
-    return static_cast<____PackDefinitionSO__Tags_Unwrapped>(this->value__);
+  constexpr operator __PackDefinitionSO_Tags_Unwrapped() const noexcept {
+    return static_cast<__PackDefinitionSO_Tags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -109,46 +107,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PackDefinitionSO__Tags();
+  constexpr PackDefinitionSO_Tags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PackDefinitionSO__Tags(int32_t value__) noexcept;
+  constexpr PackDefinitionSO_Tags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BuiltIn value: I32(1)
+  static ::GlobalNamespace::PackDefinitionSO_Tags const BuiltIn;
 
-  /// @brief Field BuiltIn value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__PackDefinitionSO__Tags const BuiltIn;
+  /// @brief Field DLC value: I32(2)
+  static ::GlobalNamespace::PackDefinitionSO_Tags const DLC;
 
-  /// @brief Field DLC value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__PackDefinitionSO__Tags const DLC;
+  /// @brief Field Hidden value: I32(0)
+  static ::GlobalNamespace::PackDefinitionSO_Tags const Hidden;
 
-  /// @brief Field Hidden value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PackDefinitionSO__Tags const Hidden;
-
-  /// @brief Field InDevelopment value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__PackDefinitionSO__Tags const InDevelopment;
+  /// @brief Field InDevelopment value: I32(4)
+  static ::GlobalNamespace::PackDefinitionSO_Tags const InDevelopment;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionSO__Tags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_Tags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__Tags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionSO_Tags, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LeaderboardIds
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PackDefinitionSO::LeaderboardIds*
-class CORDL_TYPE __PackDefinitionSO__LeaderboardIds : public ::System::Object {
+// CS Name: PackDefinitionSO/LeaderboardIds
+class CORDL_TYPE PackDefinitionSO_LeaderboardIds : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ps4LeaderboardIds, offset 0x28, size 0x8
@@ -176,7 +173,7 @@ public:
 
   __declspec(property(get = get_steamLeaderboardIds, put = set_steamLeaderboardIds)) ::UnityW<::GlobalNamespace::LeaderboardIdsSO> steamLeaderboardIds;
 
-  static inline ::GlobalNamespace::__PackDefinitionSO__LeaderboardIds* New_ctor();
+  static inline ::GlobalNamespace::PackDefinitionSO_LeaderboardIds* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& __cordl_internal_get__ps4LeaderboardIds() const;
 
@@ -208,52 +205,55 @@ public:
 
   constexpr void __cordl_internal_set__steamLeaderboardIds(::UnityW<::GlobalNamespace::LeaderboardIdsSO> value);
 
-  /// @brief Method .ctor, addr 0x269cc9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d196c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ps4LeaderboardIds, addr 0x269cc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4LeaderboardIds, addr 0x26d194c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> get_ps4LeaderboardIds();
 
-  /// @brief Method get_ps5LeaderboardIds, addr 0x269cc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5LeaderboardIds, addr 0x26d195c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> get_ps5LeaderboardIds();
 
-  /// @brief Method get_questLeaderboardIds, addr 0x269cc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_questLeaderboardIds, addr 0x26d192c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> get_questLeaderboardIds();
 
-  /// @brief Method get_riftLeaderboardIds, addr 0x269cc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_riftLeaderboardIds, addr 0x26d191c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> get_riftLeaderboardIds();
 
-  /// @brief Method get_steamLeaderboardIds, addr 0x269cc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_steamLeaderboardIds, addr 0x26d193c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> get_steamLeaderboardIds();
 
-  /// @brief Method set_ps4LeaderboardIds, addr 0x269cc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4LeaderboardIds, addr 0x26d1954, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4LeaderboardIds(::GlobalNamespace::SonyLeaderboardIdsSO* value);
 
-  /// @brief Method set_ps5LeaderboardIds, addr 0x269cc94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5LeaderboardIds, addr 0x26d1964, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5LeaderboardIds(::GlobalNamespace::SonyLeaderboardIdsSO* value);
 
-  /// @brief Method set_questLeaderboardIds, addr 0x269cc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_questLeaderboardIds, addr 0x26d1934, size 0x8, virtual false, abstract: false, final false
   inline void set_questLeaderboardIds(::GlobalNamespace::LeaderboardIdsSO* value);
 
-  /// @brief Method set_riftLeaderboardIds, addr 0x269cc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_riftLeaderboardIds, addr 0x26d1924, size 0x8, virtual false, abstract: false, final false
   inline void set_riftLeaderboardIds(::GlobalNamespace::LeaderboardIdsSO* value);
 
-  /// @brief Method set_steamLeaderboardIds, addr 0x269cc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_steamLeaderboardIds, addr 0x26d1944, size 0x8, virtual false, abstract: false, final false
   inline void set_steamLeaderboardIds(::GlobalNamespace::LeaderboardIdsSO* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PackDefinitionSO__LeaderboardIds();
+  constexpr PackDefinitionSO_LeaderboardIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionSO__LeaderboardIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LeaderboardIds", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionSO__LeaderboardIds(__PackDefinitionSO__LeaderboardIds&&) = delete;
+  PackDefinitionSO_LeaderboardIds(PackDefinitionSO_LeaderboardIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionSO__LeaderboardIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LeaderboardIds", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionSO__LeaderboardIds(__PackDefinitionSO__LeaderboardIds const&) = delete;
+  PackDefinitionSO_LeaderboardIds(PackDefinitionSO_LeaderboardIds const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13003 };
 
   /// @brief Field _riftLeaderboardIds, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardIdsSO> ____riftLeaderboardIds;
@@ -270,31 +270,27 @@ public:
   /// @brief Field _ps5LeaderboardIds, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> ____ps5LeaderboardIds;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12968 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionSO__LeaderboardIds, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LeaderboardIds, ____riftLeaderboardIds) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds, ____riftLeaderboardIds) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LeaderboardIds, ____questLeaderboardIds) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds, ____questLeaderboardIds) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LeaderboardIds, ____steamLeaderboardIds) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds, ____steamLeaderboardIds) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LeaderboardIds, ____ps4LeaderboardIds) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds, ____ps4LeaderboardIds) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LeaderboardIds, ____ps5LeaderboardIds) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds, ____ps5LeaderboardIds) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionSO_LeaderboardIds, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelProductPacks
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PackDefinitionSO::LevelProductPacks*
-class CORDL_TYPE __PackDefinitionSO__LevelProductPacks : public ::System::Object {
+// CS Name: PackDefinitionSO/LevelProductPacks
+class CORDL_TYPE PackDefinitionSO_LevelProductPacks : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _oculusLevelProductPacks, offset 0x18, size 0x8
@@ -325,7 +321,7 @@ public:
 
   __declspec(property(get = get_steamLevelProductPacks, put = set_steamLevelProductPacks)) ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> steamLevelProductPacks;
 
-  static inline ::GlobalNamespace::__PackDefinitionSO__LevelProductPacks* New_ctor();
+  static inline ::GlobalNamespace::PackDefinitionSO_LevelProductPacks* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> const& __cordl_internal_get__oculusLevelProductPacks() const;
 
@@ -357,52 +353,55 @@ public:
 
   constexpr void __cordl_internal_set__steamLevelProductPacks(::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> value);
 
-  /// @brief Method .ctor, addr 0x269ccf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d19c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_oculusLevelProductPacks, addr 0x269ccb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_oculusLevelProductPacks, addr 0x26d1984, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> get_oculusLevelProductPacks();
 
-  /// @brief Method get_ps4LevelProductPacks, addr 0x269ccc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4LevelProductPacks, addr 0x26d1994, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> get_ps4LevelProductPacks();
 
-  /// @brief Method get_ps5LevelProductPacks, addr 0x269ccd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5LevelProductPacks, addr 0x26d19a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> get_ps5LevelProductPacks();
 
-  /// @brief Method get_sonyLevelProductPackSource, addr 0x269cce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sonyLevelProductPackSource, addr 0x26d19b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SonyLevelProductPackSourceSO> get_sonyLevelProductPackSource();
 
-  /// @brief Method get_steamLevelProductPacks, addr 0x269cca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_steamLevelProductPacks, addr 0x26d1974, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> get_steamLevelProductPacks();
 
-  /// @brief Method set_oculusLevelProductPacks, addr 0x269ccbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_oculusLevelProductPacks, addr 0x26d198c, size 0x8, virtual false, abstract: false, final false
   inline void set_oculusLevelProductPacks(::GlobalNamespace::OculusLevelProductPacksSO* value);
 
-  /// @brief Method set_ps4LevelProductPacks, addr 0x269cccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4LevelProductPacks, addr 0x26d199c, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4LevelProductPacks(::GlobalNamespace::PS4LevelProductPacksSO* value);
 
-  /// @brief Method set_ps5LevelProductPacks, addr 0x269ccdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5LevelProductPacks, addr 0x26d19ac, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5LevelProductPacks(::GlobalNamespace::PS5LevelProductPacksSO* value);
 
-  /// @brief Method set_sonyLevelProductPackSource, addr 0x269ccec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sonyLevelProductPackSource, addr 0x26d19bc, size 0x8, virtual false, abstract: false, final false
   inline void set_sonyLevelProductPackSource(::GlobalNamespace::SonyLevelProductPackSourceSO* value);
 
-  /// @brief Method set_steamLevelProductPacks, addr 0x269ccac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_steamLevelProductPacks, addr 0x26d197c, size 0x8, virtual false, abstract: false, final false
   inline void set_steamLevelProductPacks(::GlobalNamespace::SteamLevelProductPacksSO* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PackDefinitionSO__LevelProductPacks();
+  constexpr PackDefinitionSO_LevelProductPacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionSO__LevelProductPacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LevelProductPacks", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionSO__LevelProductPacks(__PackDefinitionSO__LevelProductPacks&&) = delete;
+  PackDefinitionSO_LevelProductPacks(PackDefinitionSO_LevelProductPacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionSO__LevelProductPacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LevelProductPacks", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionSO__LevelProductPacks(__PackDefinitionSO__LevelProductPacks const&) = delete;
+  PackDefinitionSO_LevelProductPacks(PackDefinitionSO_LevelProductPacks const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13004 };
 
   /// @brief Field _steamLevelProductPacks, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> ____steamLevelProductPacks;
@@ -419,31 +418,27 @@ public:
   /// @brief Field _ps5LevelProductPacks, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> ____ps5LevelProductPacks;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12969 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionSO__LevelProductPacks, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LevelProductPacks, ____steamLevelProductPacks) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks, ____steamLevelProductPacks) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LevelProductPacks, ____oculusLevelProductPacks) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks, ____oculusLevelProductPacks) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LevelProductPacks, ____sonyLevelProductPackSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks, ____sonyLevelProductPackSource) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LevelProductPacks, ____ps4LevelProductPacks) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks, ____ps4LevelProductPacks) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_LevelProductPacks, ____ps5LevelProductPacks) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks, ____ps5LevelProductPacks) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionSO_LevelProductPacks, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::Credits
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PackDefinitionSO::Credits*
-class CORDL_TYPE __PackDefinitionSO__Credits : public ::System::Object {
+// CS Name: PackDefinitionSO/Credits
+class CORDL_TYPE PackDefinitionSO_Credits : public ::System::Object {
 public:
   // Declarations
   /// @brief Field creditsPrefab, offset 0x18, size 0x8
@@ -452,11 +447,11 @@ public:
   /// @brief Field order, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  static inline ::GlobalNamespace::__PackDefinitionSO__Credits* New_ctor();
+  static inline ::GlobalNamespace::PackDefinitionSO_Credits* New_ctor();
+
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject* const& __cordl_internal_get_creditsPrefab() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get_creditsPrefab();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get_creditsPrefab() const;
 
   constexpr int32_t const& __cordl_internal_get_order() const;
 
@@ -466,22 +461,25 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x269ccfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d19cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PackDefinitionSO__Credits();
+  constexpr PackDefinitionSO_Credits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionSO__Credits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_Credits", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionSO__Credits(__PackDefinitionSO__Credits&&) = delete;
+  PackDefinitionSO_Credits(PackDefinitionSO_Credits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionSO__Credits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_Credits", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionSO__Credits(__PackDefinitionSO__Credits const&) = delete;
+  PackDefinitionSO_Credits(PackDefinitionSO_Credits const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13005 };
 
   /// @brief Field order, offset: 0x10, size: 0x4, def value: None
   int32_t ___order;
@@ -489,46 +487,42 @@ public:
   /// @brief Field creditsPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ___creditsPrefab;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12970 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionSO__Credits, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_Credits, ___order) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__Credits, ___order) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackDefinitionSO_Credits, ___creditsPrefab) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionSO__Credits, ___creditsPrefab) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionSO_Credits, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PackDefinitionSO
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PackDefinitionSO::Tags, PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PackDefinitionSO*
+// CS Name: PackDefinitionSO
 class CORDL_TYPE PackDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  using Credits = ::GlobalNamespace::__PackDefinitionSO__Credits;
+  using Credits = ::GlobalNamespace::PackDefinitionSO_Credits;
 
-  using LeaderboardIds = ::GlobalNamespace::__PackDefinitionSO__LeaderboardIds;
+  using LeaderboardIds = ::GlobalNamespace::PackDefinitionSO_LeaderboardIds;
 
-  using LevelProductPacks = ::GlobalNamespace::__PackDefinitionSO__LevelProductPacks;
+  using LevelProductPacks = ::GlobalNamespace::PackDefinitionSO_LevelProductPacks;
 
-  using Tags = ::GlobalNamespace::__PackDefinitionSO__Tags;
+  using Tags = ::GlobalNamespace::PackDefinitionSO_Tags;
 
   /// @brief Field _beatmapLevelPack, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelPack, put = __cordl_internal_set__beatmapLevelPack)) ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> _beatmapLevelPack;
 
   /// @brief Field _credits, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__credits, put = __cordl_internal_set__credits)) ::GlobalNamespace::__PackDefinitionSO__Credits* _credits;
+  __declspec(property(get = __cordl_internal_get__credits, put = __cordl_internal_set__credits)) ::GlobalNamespace::PackDefinitionSO_Credits* _credits;
 
   /// @brief Field _leaderboardIds, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds)) ::GlobalNamespace::__PackDefinitionSO__LeaderboardIds* _leaderboardIds;
+  __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds)) ::GlobalNamespace::PackDefinitionSO_LeaderboardIds* _leaderboardIds;
 
   /// @brief Field _levelProductPacks, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelProductPacks, put = __cordl_internal_set__levelProductPacks)) ::GlobalNamespace::__PackDefinitionSO__LevelProductPacks* _levelProductPacks;
+  __declspec(property(get = __cordl_internal_get__levelProductPacks, put = __cordl_internal_set__levelProductPacks)) ::GlobalNamespace::PackDefinitionSO_LevelProductPacks* _levelProductPacks;
 
   /// @brief Field _order, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__order, put = __cordl_internal_set__order)) int32_t _order;
@@ -542,11 +536,11 @@ public:
       _perceivedLoudnessPerLevel;
 
   /// @brief Field _tags, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags)) ::GlobalNamespace::__PackDefinitionSO__Tags _tags;
+  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags)) ::GlobalNamespace::PackDefinitionSO_Tags _tags;
 
   __declspec(property(get = get_content, put = set_content)) ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> content;
 
-  __declspec(property(get = get_credits)) ::GlobalNamespace::__PackDefinitionSO__Credits* credits;
+  __declspec(property(get = get_credits)) ::GlobalNamespace::PackDefinitionSO_Credits* credits;
 
   __declspec(property(get = get_hasCredits)) bool hasCredits;
 
@@ -564,9 +558,9 @@ public:
 
   __declspec(property(get = get_isOST)) bool isOST;
 
-  __declspec(property(get = get_leaderboardIds)) ::GlobalNamespace::__PackDefinitionSO__LeaderboardIds* leaderboardIds;
+  __declspec(property(get = get_leaderboardIds)) ::GlobalNamespace::PackDefinitionSO_LeaderboardIds* leaderboardIds;
 
-  __declspec(property(get = get_levelProductPacks, put = set_levelProductPacks)) ::GlobalNamespace::__PackDefinitionSO__LevelProductPacks* levelProductPacks;
+  __declspec(property(get = get_levelProductPacks, put = set_levelProductPacks)) ::GlobalNamespace::PackDefinitionSO_LevelProductPacks* levelProductPacks;
 
   __declspec(property(get = get_order, put = set_order)) int32_t order;
 
@@ -574,7 +568,7 @@ public:
 
   __declspec(property(get = get_perceivedLoudness, put = set_perceivedLoudness)) ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> perceivedLoudness;
 
-  __declspec(property(get = get_tags, put = set_tags)) ::GlobalNamespace::__PackDefinitionSO__Tags tags;
+  __declspec(property(get = get_tags, put = set_tags)) ::GlobalNamespace::PackDefinitionSO_Tags tags;
 
   static inline ::GlobalNamespace::PackDefinitionSO* New_ctor();
 
@@ -582,42 +576,41 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackSO>& __cordl_internal_get__beatmapLevelPack();
 
-  constexpr ::GlobalNamespace::__PackDefinitionSO__Credits*& __cordl_internal_get__credits();
+  constexpr ::GlobalNamespace::PackDefinitionSO_Credits* const& __cordl_internal_get__credits() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PackDefinitionSO__Credits*> const& __cordl_internal_get__credits() const;
+  constexpr ::GlobalNamespace::PackDefinitionSO_Credits*& __cordl_internal_get__credits();
 
-  constexpr ::GlobalNamespace::__PackDefinitionSO__LeaderboardIds*& __cordl_internal_get__leaderboardIds();
+  constexpr ::GlobalNamespace::PackDefinitionSO_LeaderboardIds* const& __cordl_internal_get__leaderboardIds() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PackDefinitionSO__LeaderboardIds*> const& __cordl_internal_get__leaderboardIds() const;
+  constexpr ::GlobalNamespace::PackDefinitionSO_LeaderboardIds*& __cordl_internal_get__leaderboardIds();
 
-  constexpr ::GlobalNamespace::__PackDefinitionSO__LevelProductPacks*& __cordl_internal_get__levelProductPacks();
+  constexpr ::GlobalNamespace::PackDefinitionSO_LevelProductPacks* const& __cordl_internal_get__levelProductPacks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PackDefinitionSO__LevelProductPacks*> const& __cordl_internal_get__levelProductPacks() const;
+  constexpr ::GlobalNamespace::PackDefinitionSO_LevelProductPacks*& __cordl_internal_get__levelProductPacks();
 
   constexpr int32_t const& __cordl_internal_get__order() const;
 
   constexpr int32_t& __cordl_internal_get__order();
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>*& __cordl_internal_get__packPromoInfoReference();
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* const& __cordl_internal_get__packPromoInfoReference() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>*> const&
-  __cordl_internal_get__packPromoInfoReference() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>*& __cordl_internal_get__packPromoInfoReference();
 
   constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> const& __cordl_internal_get__perceivedLoudnessPerLevel() const;
 
   constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>& __cordl_internal_get__perceivedLoudnessPerLevel();
 
-  constexpr ::GlobalNamespace::__PackDefinitionSO__Tags const& __cordl_internal_get__tags() const;
+  constexpr ::GlobalNamespace::PackDefinitionSO_Tags const& __cordl_internal_get__tags() const;
 
-  constexpr ::GlobalNamespace::__PackDefinitionSO__Tags& __cordl_internal_get__tags();
+  constexpr ::GlobalNamespace::PackDefinitionSO_Tags& __cordl_internal_get__tags();
 
   constexpr void __cordl_internal_set__beatmapLevelPack(::UnityW<::GlobalNamespace::BeatmapLevelPackSO> value);
 
-  constexpr void __cordl_internal_set__credits(::GlobalNamespace::__PackDefinitionSO__Credits* value);
+  constexpr void __cordl_internal_set__credits(::GlobalNamespace::PackDefinitionSO_Credits* value);
 
-  constexpr void __cordl_internal_set__leaderboardIds(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds* value);
+  constexpr void __cordl_internal_set__leaderboardIds(::GlobalNamespace::PackDefinitionSO_LeaderboardIds* value);
 
-  constexpr void __cordl_internal_set__levelProductPacks(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks* value);
+  constexpr void __cordl_internal_set__levelProductPacks(::GlobalNamespace::PackDefinitionSO_LevelProductPacks* value);
 
   constexpr void __cordl_internal_set__order(int32_t value);
 
@@ -625,73 +618,73 @@ public:
 
   constexpr void __cordl_internal_set__perceivedLoudnessPerLevel(::UnityW<::GlobalNamespace::PerceivedLoudnessSO> value);
 
-  constexpr void __cordl_internal_set__tags(::GlobalNamespace::__PackDefinitionSO__Tags value);
+  constexpr void __cordl_internal_set__tags(::GlobalNamespace::PackDefinitionSO_Tags value);
 
-  /// @brief Method .ctor, addr 0x269cc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d1914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_content, addr 0x269cb64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_content, addr 0x26d1834, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> get_content();
 
-  /// @brief Method get_credits, addr 0x269cc3c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PackDefinitionSO__Credits* get_credits();
+  /// @brief Method get_credits, addr 0x26d190c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PackDefinitionSO_Credits* get_credits();
 
-  /// @brief Method get_hasCredits, addr 0x269cbf0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasCredits, addr 0x26d18c0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasCredits();
 
-  /// @brief Method get_isBuiltIn, addr 0x269cbb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isBuiltIn, addr 0x26d1884, size 0xc, virtual false, abstract: false, final false
   inline bool get_isBuiltIn();
 
-  /// @brief Method get_isBuiltInContent, addr 0x269cbc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isBuiltInContent, addr 0x26d1890, size 0x14, virtual false, abstract: false, final false
   inline bool get_isBuiltInContent();
 
-  /// @brief Method get_isDLC, addr 0x26956f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isDLC, addr 0x26ca26c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isDLC();
 
-  /// @brief Method get_isEntitlementCheckSkipped, addr 0x2695704, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isEntitlementCheckSkipped, addr 0x26ca278, size 0x14, virtual false, abstract: false, final false
   inline bool get_isEntitlementCheckSkipped();
 
-  /// @brief Method get_isHidden, addr 0x269cbd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isHidden, addr 0x26d18a4, size 0x10, virtual false, abstract: false, final false
   inline bool get_isHidden();
 
-  /// @brief Method get_isInDevelopment, addr 0x269cbe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isInDevelopment, addr 0x26d18b4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isInDevelopment();
 
-  /// @brief Method get_isOST, addr 0x26956e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isOST, addr 0x26ca258, size 0x14, virtual false, abstract: false, final false
   inline bool get_isOST();
 
-  /// @brief Method get_leaderboardIds, addr 0x269cba4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PackDefinitionSO__LeaderboardIds* get_leaderboardIds();
+  /// @brief Method get_leaderboardIds, addr 0x26d1874, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PackDefinitionSO_LeaderboardIds* get_leaderboardIds();
 
-  /// @brief Method get_levelProductPacks, addr 0x269cb94, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PackDefinitionSO__LevelProductPacks* get_levelProductPacks();
+  /// @brief Method get_levelProductPacks, addr 0x26d1864, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PackDefinitionSO_LevelProductPacks* get_levelProductPacks();
 
-  /// @brief Method get_order, addr 0x269cb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x26d1844, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
-  /// @brief Method get_packPromoInfoReference, addr 0x269cbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packPromoInfoReference, addr 0x26d187c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* get_packPromoInfoReference();
 
-  /// @brief Method get_perceivedLoudness, addr 0x269cc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_perceivedLoudness, addr 0x26d18fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> get_perceivedLoudness();
 
-  /// @brief Method get_tags, addr 0x269cb84, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PackDefinitionSO__Tags get_tags();
+  /// @brief Method get_tags, addr 0x26d1854, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PackDefinitionSO_Tags get_tags();
 
-  /// @brief Method set_content, addr 0x269cb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_content, addr 0x26d183c, size 0x8, virtual false, abstract: false, final false
   inline void set_content(::GlobalNamespace::BeatmapLevelPackSO* value);
 
-  /// @brief Method set_levelProductPacks, addr 0x269cb9c, size 0x8, virtual false, abstract: false, final false
-  inline void set_levelProductPacks(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks* value);
+  /// @brief Method set_levelProductPacks, addr 0x26d186c, size 0x8, virtual false, abstract: false, final false
+  inline void set_levelProductPacks(::GlobalNamespace::PackDefinitionSO_LevelProductPacks* value);
 
-  /// @brief Method set_order, addr 0x269cb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x26d184c, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
-  /// @brief Method set_perceivedLoudness, addr 0x269cc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_perceivedLoudness, addr 0x26d1904, size 0x8, virtual false, abstract: false, final false
   inline void set_perceivedLoudness(::GlobalNamespace::PerceivedLoudnessSO* value);
 
-  /// @brief Method set_tags, addr 0x269cb8c, size 0x8, virtual false, abstract: false, final false
-  inline void set_tags(::GlobalNamespace::__PackDefinitionSO__Tags value);
+  /// @brief Method set_tags, addr 0x26d185c, size 0x8, virtual false, abstract: false, final false
+  inline void set_tags(::GlobalNamespace::PackDefinitionSO_Tags value);
 
 protected:
   // Ctor Parameters []
@@ -707,6 +700,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PackDefinitionSO(PackDefinitionSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13006 };
+
   /// @brief Field _beatmapLevelPack, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> ____beatmapLevelPack;
 
@@ -714,13 +710,13 @@ public:
   int32_t ____order;
 
   /// @brief Field _leaderboardIds, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::__PackDefinitionSO__LeaderboardIds* ____leaderboardIds;
+  ::GlobalNamespace::PackDefinitionSO_LeaderboardIds* ____leaderboardIds;
 
   /// @brief Field _levelProductPacks, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::__PackDefinitionSO__LevelProductPacks* ____levelProductPacks;
+  ::GlobalNamespace::PackDefinitionSO_LevelProductPacks* ____levelProductPacks;
 
   /// @brief Field _tags, offset: 0x38, size: 0x4, def value: None
-  ::GlobalNamespace::__PackDefinitionSO__Tags ____tags;
+  ::GlobalNamespace::PackDefinitionSO_Tags ____tags;
 
   /// @brief Field _packPromoInfoReference, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* ____packPromoInfoReference;
@@ -729,16 +725,11 @@ public:
   ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> ____perceivedLoudnessPerLevel;
 
   /// @brief Field _credits, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::__PackDefinitionSO__Credits* ____credits;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12971 };
+  ::GlobalNamespace::PackDefinitionSO_Credits* ____credits;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionSO, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PackDefinitionSO, ____beatmapLevelPack) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PackDefinitionSO, ____order) == 0x20, "Offset mismatch!");
@@ -755,13 +746,15 @@ static_assert(offsetof(::GlobalNamespace::PackDefinitionSO, ____perceivedLoudnes
 
 static_assert(offsetof(::GlobalNamespace::PackDefinitionSO, ____credits) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionSO, 0x58>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PackDefinitionSO__Tags, "", "PackDefinitionSO/Tags");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackDefinitionSO_Tags, "", "PackDefinitionSO/Tags");
 NEED_NO_BOX(::GlobalNamespace::PackDefinitionSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackDefinitionSO*, "", "PackDefinitionSO");
-NEED_NO_BOX(::GlobalNamespace::__PackDefinitionSO__Credits);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PackDefinitionSO__Credits*, "", "PackDefinitionSO/Credits");
-NEED_NO_BOX(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PackDefinitionSO__LeaderboardIds*, "", "PackDefinitionSO/LeaderboardIds");
-NEED_NO_BOX(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PackDefinitionSO__LevelProductPacks*, "", "PackDefinitionSO/LevelProductPacks");
+NEED_NO_BOX(::GlobalNamespace::PackDefinitionSO_Credits);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackDefinitionSO_Credits*, "", "PackDefinitionSO/Credits");
+NEED_NO_BOX(::GlobalNamespace::PackDefinitionSO_LeaderboardIds);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackDefinitionSO_LeaderboardIds*, "", "PackDefinitionSO/LeaderboardIds");
+NEED_NO_BOX(::GlobalNamespace::PackDefinitionSO_LevelProductPacks);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackDefinitionSO_LevelProductPacks*, "", "PackDefinitionSO/LevelProductPacks");

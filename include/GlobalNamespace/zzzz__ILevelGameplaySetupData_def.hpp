@@ -16,11 +16,10 @@ class ILevelGameplaySetupData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ILevelGameplaySetupData);
-// Type: ::ILevelGameplaySetupData
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ILevelGameplaySetupData*
+// CS Name: ILevelGameplaySetupData
 class CORDL_TYPE ILevelGameplaySetupData {
 public:
   // Declarations
@@ -28,22 +27,18 @@ public:
 
   __declspec(property(get = get_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Method get_beatmapKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_beatmapKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_gameplayModifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_gameplayModifiers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ILevelGameplaySetupData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ILevelGameplaySetupData(ILevelGameplaySetupData&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelGameplaySetupData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ILevelGameplaySetupData(ILevelGameplaySetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

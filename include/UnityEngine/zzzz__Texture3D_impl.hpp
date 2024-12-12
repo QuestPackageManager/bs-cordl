@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Texture3D::*)()>(&::UnityEngine::Texture3D::get_isReadable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4832230;
+  constexpr static std::size_t addrs = 0x4893678;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::Texture3D*, int32_t, int32_t, int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::TextureColorSpace,
                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags, ::System::IntPtr)>(&::UnityEngine::Texture3D::Internal_CreateImpl)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x483226c;
+  constexpr static std::size_t addrs = 0x48936b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Texture3D*, int32_t, int32_t, int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::TextureColorSpace,
                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags, ::System::IntPtr)>(&::UnityEngine::Texture3D::Internal_Create)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4832308;
+  constexpr static std::size_t addrs = 0x4893750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(bool, bool)>(&::UnityEngine::Texture3D::ApplyImpl)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48323fc;
+  constexpr static std::size_t addrs = 0x4893844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>, int32_t)>(
     &::UnityEngine::Texture3D::SetPixels32)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4832450;
+  constexpr static std::size_t addrs = 0x4893898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>)>(
     &::UnityEngine::Texture3D::SetPixels32)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48324a4;
+  constexpr static std::size_t addrs = 0x48938ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(
     int32_t, int32_t, int32_t, ::UnityEngine::Experimental::Rendering::DefaultFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48324ec;
+  constexpr static std::size_t addrs = 0x4893934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(
     int32_t, int32_t, int32_t, ::UnityEngine::Experimental::Rendering::DefaultFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags, int32_t)>(&::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48325e0;
+  constexpr static std::size_t addrs = 0x4893a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(
     int32_t, int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4832540;
+  constexpr static std::size_t addrs = 0x4893988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(
     int32_t, int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags, int32_t)>(&::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4832644;
+  constexpr static std::size_t addrs = 0x4893a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(int32_t, int32_t, int32_t, ::UnityEngine::TextureFormat, int32_t)>(
     &::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4832784;
+  constexpr static std::size_t addrs = 0x4893bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Texture3D::*)(int32_t, int32_t, int32_t, ::UnityEngine::TextureFormat, int32_t, ::System::IntPtr)>(&::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48327a4;
+  constexpr static std::size_t addrs = 0x4893bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Texture3D::*)(int32_t, int32_t, int32_t, ::UnityEngine::TextureFormat, int32_t, ::System::IntPtr, bool)>(&::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x48327c0;
+  constexpr static std::size_t addrs = 0x4893c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(int32_t, int32_t, int32_t, ::UnityEngine::TextureFormat, bool)>(
     &::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4832924;
+  constexpr static std::size_t addrs = 0x4893d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(int32_t, int32_t, int32_t, ::UnityEngine::TextureFormat, bool, bool)>(
     &::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x48329dc;
+  constexpr static std::size_t addrs = 0x4893e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(int32_t, int32_t, int32_t, ::UnityEngine::TextureFormat, bool, ::System::IntPtr)>(
     &::UnityEngine::Texture3D::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4832aa0;
+  constexpr static std::size_t addrs = 0x4893ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)(bool, bool)>(&::UnityEngine::Texture3D::Apply)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4832b64;
+  constexpr static std::size_t addrs = 0x4893fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Texture3D::*)()>(&::UnityEngine::Texture3D::Apply)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4832bf0;
+  constexpr static std::size_t addrs = 0x4894038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Texture3D*>::get(), "Apply",
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::TextureCreationFlags)>(
     &::UnityEngine::Texture3D::ValidateIsNotCrunched)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4832730;
+  constexpr static std::size_t addrs = 0x4893b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,10 +388,6 @@ inline void UnityEngine::Texture3D::SetPixels32(::ArrayW<::UnityEngine::Color32,
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, colors);
 }
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
-                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags));
-}
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                           ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,10 +397,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Rendering::DefaultFormat>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Rendering::TextureCreationFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, format, flags);
-}
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
-                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags, mipCount));
 }
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                           ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
@@ -417,10 +409,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, format, flags, mipCount);
 }
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags));
-}
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                           ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -430,10 +418,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Rendering::GraphicsFormat>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Rendering::TextureCreationFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, format, flags);
-}
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags, mipCount));
 }
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                           ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
@@ -445,9 +429,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Rendering::TextureCreationFlags>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, format, flags, mipCount);
-}
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount));
 }
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -458,10 +439,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, textureFormat, mipCount);
 }
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
-                                                                  ::System::IntPtr nativeTex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount, nativeTex));
-}
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Texture3D*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -470,10 +447,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureFormat>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, textureFormat, mipCount, nativeTex);
-}
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
-                                                                  ::System::IntPtr nativeTex, bool createUninitialized) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount, nativeTex, createUninitialized));
 }
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex,
                                           bool createUninitialized) {
@@ -486,9 +459,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, textureFormat, mipCount, nativeTex, createUninitialized);
 }
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain));
-}
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Texture3D*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -498,9 +468,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, textureFormat, mipChain);
 }
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain, createUninitialized));
-}
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Texture3D*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -509,9 +476,6 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureFormat>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, depth, textureFormat, mipChain, createUninitialized);
-}
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, ::System::IntPtr nativeTex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain, nativeTex));
 }
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, ::System::IntPtr nativeTex) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -538,6 +502,42 @@ inline void UnityEngine::Texture3D::ValidateIsNotCrunched(::UnityEngine::Experim
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Texture3D*>::get(), "ValidateIsNotCrunched", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Rendering::TextureCreationFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, flags);
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
+                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
+                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags, mipCount));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
+                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
+                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, format, flags, mipCount));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
+                                                                  ::System::IntPtr nativeTex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount, nativeTex));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
+                                                                  ::System::IntPtr nativeTex, bool createUninitialized) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount, nativeTex, createUninitialized));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain, createUninitialized));
+}
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, ::System::IntPtr nativeTex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain, nativeTex));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Texture3D::Texture3D() {}

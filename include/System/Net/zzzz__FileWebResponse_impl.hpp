@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Net/FileWebResponse.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
+#include "System/Net/zzzz__ICloseEx_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/Net/zzzz__FileWebResponse_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__CloseExState_def.hpp"
 #include "System/Net/zzzz__FileWebRequest_def.hpp"
-#include "System/Net/zzzz__ICloseEx_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::FileWebResponse::*)(::System::Net::FileWebRequest*, ::System::Uri*, ::System::IO::FileAccess, bool)>(&::System::Net::FileWebResponse::_ctor)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x4454774;
+  constexpr static std::size_t addrs = 0x44b5a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebResponse::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::FileWebResponse::_ctor)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x4455698;
+  constexpr static std::size_t addrs = 0x44b69ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::FileWebResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Net::FileWebResponse::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44558e8;
+  constexpr static std::size_t addrs = 0x44b6bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebResponse::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::FileWebResponse::GetObjectData)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x44558f4;
+  constexpr static std::size_t addrs = 0x44b6c08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::FileWebResponse::*)()>(
     &::System::Net::FileWebResponse::get_Headers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4455aac;
+  constexpr static std::size_t addrs = 0x44b6dc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::FileWebResponse::*)()>(&::System::Net::FileWebResponse::get_ResponseUri)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4455b40;
+  constexpr static std::size_t addrs = 0x44b6e54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebResponse::*)()>(&::System::Net::FileWebResponse::CheckDisposed)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4455ac4;
+  constexpr static std::size_t addrs = 0x44b6dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FileWebResponse*>::get(), "CheckDisposed",
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebResponse::*)()>(&::System::Net::FileWebResponse::Close)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4455b58;
+  constexpr static std::size_t addrs = 0x44b6e6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebResponse::*)(::System::Net::CloseExState)>(
     &::System::Net::FileWebResponse::System_Net_ICloseEx_CloseEx)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4455bf0;
+  constexpr static std::size_t addrs = 0x44b6f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::FileWebResponse::*)()>(&::System::Net::FileWebResponse::GetResponseStream)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4455d5c;
+  constexpr static std::size_t addrs = 0x44b7070;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,22 +165,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::Net::FileWebResponse::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::Net::FileWebResponse::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Net::ICloseEx"
-constexpr System::Net::FileWebResponse::operator ::System::Net::ICloseEx*() noexcept {
-  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Net::ICloseEx"
-constexpr ::System::Net::ICloseEx* System::Net::FileWebResponse::i___System__Net__ICloseEx() noexcept {
-  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
-}
 constexpr bool& System::Net::FileWebResponse::__cordl_internal_get_m_closed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_closed;
@@ -221,7 +205,7 @@ constexpr ::System::Net::WebHeaderCollection*& System::Net::FileWebResponse::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::FileWebResponse::__cordl_internal_get_m_headers() const {
+constexpr ::System::Net::WebHeaderCollection* const& System::Net::FileWebResponse::__cordl_internal_get_m_headers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headers;
 }
@@ -233,7 +217,7 @@ constexpr ::System::IO::Stream*& System::Net::FileWebResponse::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::FileWebResponse::__cordl_internal_get_m_stream() const {
+constexpr ::System::IO::Stream* const& System::Net::FileWebResponse::__cordl_internal_get_m_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stream;
 }
@@ -245,16 +229,13 @@ constexpr ::System::Uri*& System::Net::FileWebResponse::__cordl_internal_get_m_u
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_uri;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::FileWebResponse::__cordl_internal_get_m_uri() const {
+constexpr ::System::Uri* const& System::Net::FileWebResponse::__cordl_internal_get_m_uri() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_uri;
 }
 constexpr void System::Net::FileWebResponse::__cordl_internal_set_m_uri(::System::Uri* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Net::FileWebResponse* System::Net::FileWebResponse::New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebResponse*>(request, uri, access, asyncHint));
 }
 inline void System::Net::FileWebResponse::_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint) {
   static auto* ___internal_method =
@@ -264,10 +245,6 @@ inline void System::Net::FileWebResponse::_ctor(::System::Net::FileWebRequest* r
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::FileAccess>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, request, uri, access, asyncHint);
-}
-inline ::System::Net::FileWebResponse* System::Net::FileWebResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                              ::System::Runtime::Serialization::StreamingContext streamingContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebResponse*>(serializationInfo, streamingContext));
 }
 inline void System::Net::FileWebResponse::_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -320,6 +297,29 @@ inline ::System::IO::Stream* System::Net::FileWebResponse::GetResponseStream() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FileWebResponse*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(this, ___internal_method);
+}
+inline ::System::Net::FileWebResponse* System::Net::FileWebResponse::New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebResponse*>(request, uri, access, asyncHint));
+}
+inline ::System::Net::FileWebResponse* System::Net::FileWebResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                              ::System::Runtime::Serialization::StreamingContext streamingContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebResponse*>(serializationInfo, streamingContext));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::Net::FileWebResponse::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Net::FileWebResponse::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Net::ICloseEx"
+constexpr System::Net::FileWebResponse::operator ::System::Net::ICloseEx*() noexcept {
+  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Net::ICloseEx"
+constexpr ::System::Net::ICloseEx* System::Net::FileWebResponse::i___System__Net__ICloseEx() noexcept {
+  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::FileWebResponse::FileWebResponse() {}

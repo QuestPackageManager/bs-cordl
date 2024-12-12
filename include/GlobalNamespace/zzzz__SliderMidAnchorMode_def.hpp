@@ -12,11 +12,10 @@ struct SliderMidAnchorMode;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::SliderMidAnchorMode);
-// Type: ::SliderMidAnchorMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SliderMidAnchorMode
+// CS Name: SliderMidAnchorMode
 struct CORDL_TYPE SliderMidAnchorMode {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SliderMidAnchorMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Clockwise value: static_cast<int32_t>(0x1)
+  /// @brief Field Clockwise value: I32(1)
   static ::GlobalNamespace::SliderMidAnchorMode const Clockwise;
 
-  /// @brief Field CounterClockwise value: static_cast<int32_t>(0x2)
+  /// @brief Field CounterClockwise value: I32(2)
   static ::GlobalNamespace::SliderMidAnchorMode const CounterClockwise;
 
-  /// @brief Field Straight value: static_cast<int32_t>(0x0)
+  /// @brief Field Straight value: I32(0)
   static ::GlobalNamespace::SliderMidAnchorMode const Straight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17080 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMidAnchorMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SliderMidAnchorMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMidAnchorMode, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderMidAnchorMode, "", "SliderMidAnchorMode");

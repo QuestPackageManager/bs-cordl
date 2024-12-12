@@ -1,48 +1,21 @@
 #pragma once
 // IWYU pragma private; include "Unity/Properties/Property_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Properties/Internal/zzzz__IAttributes_impl.hpp"
+#include "Unity/Properties/zzzz__IProperty_1_impl.hpp"
+#include "Unity/Properties/zzzz__IProperty_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Unity/Properties/Internal/zzzz__IAttributes_def.hpp"
-#include "Unity/Properties/zzzz__IProperty_1_def.hpp"
-#include "Unity/Properties/zzzz__IProperty_def.hpp"
-/// @brief Convert operator to "::Unity::Properties::IProperty_1<TContainer>"
-template <typename TContainer, typename TValue> constexpr Unity::Properties::Property_2<TContainer, TValue>::operator ::Unity::Properties::IProperty_1<TContainer>*() noexcept {
-  return static_cast<::Unity::Properties::IProperty_1<TContainer>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::IProperty_1<TContainer>"
-template <typename TContainer, typename TValue>
-constexpr ::Unity::Properties::IProperty_1<TContainer>* Unity::Properties::Property_2<TContainer, TValue>::i___Unity__Properties__IProperty_1_TContainer_() noexcept {
-  return static_cast<::Unity::Properties::IProperty_1<TContainer>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Unity::Properties::IProperty"
-template <typename TContainer, typename TValue> constexpr Unity::Properties::Property_2<TContainer, TValue>::operator ::Unity::Properties::IProperty*() noexcept {
-  return static_cast<::Unity::Properties::IProperty*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::IProperty"
-template <typename TContainer, typename TValue> constexpr ::Unity::Properties::IProperty* Unity::Properties::Property_2<TContainer, TValue>::i___Unity__Properties__IProperty() noexcept {
-  return static_cast<::Unity::Properties::IProperty*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Unity::Properties::Internal::IAttributes"
-template <typename TContainer, typename TValue> constexpr Unity::Properties::Property_2<TContainer, TValue>::operator ::Unity::Properties::Internal::IAttributes*() noexcept {
-  return static_cast<::Unity::Properties::Internal::IAttributes*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::Internal::IAttributes"
-template <typename TContainer, typename TValue>
-constexpr ::Unity::Properties::Internal::IAttributes* Unity::Properties::Property_2<TContainer, TValue>::i___Unity__Properties__Internal__IAttributes() noexcept {
-  return static_cast<::Unity::Properties::Internal::IAttributes*>(static_cast<void*>(this));
-}
 template <typename TContainer, typename TValue>
 constexpr ::System::Collections::Generic::List_1<::System::Attribute*>*& Unity::Properties::Property_2<TContainer, TValue>::__cordl_internal_get_m_Attributes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Attributes;
 }
 template <typename TContainer, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Attribute*>*> const&
-Unity::Properties::Property_2<TContainer, TValue>::__cordl_internal_get_m_Attributes() const {
+constexpr ::System::Collections::Generic::List_1<::System::Attribute*>* const& Unity::Properties::Property_2<TContainer, TValue>::__cordl_internal_get_m_Attributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Attributes;
 }
@@ -96,13 +69,39 @@ template <typename TContainer, typename TValue> template <typename TAttribute> i
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAttribute>::get() }));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename TContainer, typename TValue> inline ::Unity::Properties::Property_2<TContainer, TValue>* Unity::Properties::Property_2<TContainer, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Property_2<TContainer, TValue>*>());
-}
 template <typename TContainer, typename TValue> inline void Unity::Properties::Property_2<TContainer, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Property_2<TContainer, TValue>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TContainer, typename TValue> inline ::Unity::Properties::Property_2<TContainer, TValue>* Unity::Properties::Property_2<TContainer, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Property_2<TContainer, TValue>*>());
+}
+/// @brief Convert operator to "::Unity::Properties::IProperty_1<TContainer>"
+template <typename TContainer, typename TValue> constexpr Unity::Properties::Property_2<TContainer, TValue>::operator ::Unity::Properties::IProperty_1<TContainer>*() noexcept {
+  return static_cast<::Unity::Properties::IProperty_1<TContainer>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::IProperty_1<TContainer>"
+template <typename TContainer, typename TValue>
+constexpr ::Unity::Properties::IProperty_1<TContainer>* Unity::Properties::Property_2<TContainer, TValue>::i___Unity__Properties__IProperty_1_TContainer_() noexcept {
+  return static_cast<::Unity::Properties::IProperty_1<TContainer>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Unity::Properties::IProperty"
+template <typename TContainer, typename TValue> constexpr Unity::Properties::Property_2<TContainer, TValue>::operator ::Unity::Properties::IProperty*() noexcept {
+  return static_cast<::Unity::Properties::IProperty*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::IProperty"
+template <typename TContainer, typename TValue> constexpr ::Unity::Properties::IProperty* Unity::Properties::Property_2<TContainer, TValue>::i___Unity__Properties__IProperty() noexcept {
+  return static_cast<::Unity::Properties::IProperty*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Unity::Properties::Internal::IAttributes"
+template <typename TContainer, typename TValue> constexpr Unity::Properties::Property_2<TContainer, TValue>::operator ::Unity::Properties::Internal::IAttributes*() noexcept {
+  return static_cast<::Unity::Properties::Internal::IAttributes*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::Internal::IAttributes"
+template <typename TContainer, typename TValue>
+constexpr ::Unity::Properties::Internal::IAttributes* Unity::Properties::Property_2<TContainer, TValue>::i___Unity__Properties__Internal__IAttributes() noexcept {
+  return static_cast<::Unity::Properties::Internal::IAttributes*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TContainer, typename TValue> constexpr ::Unity::Properties::Property_2<TContainer, TValue>::Property_2() {}

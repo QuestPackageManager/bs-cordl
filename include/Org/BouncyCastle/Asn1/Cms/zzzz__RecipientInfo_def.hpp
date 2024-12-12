@@ -4,6 +4,7 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 CORDL_MODULE_EXPORT(RecipientInfo)
 namespace Org::BouncyCastle::Asn1::Cms {
 class KekRecipientInfo;
@@ -32,9 +33,6 @@ class Asn1TaggedObject;
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
 namespace System {
 class Object;
 }
@@ -44,11 +42,10 @@ class RecipientInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::RecipientInfo);
-// Type: Org.BouncyCastle.Asn1.Cms::RecipientInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::RecipientInfo*
+// CS Name: Org.BouncyCastle.Asn1.Cms.RecipientInfo
 class CORDL_TYPE RecipientInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -64,10 +61,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x22d10e4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23043d0, size 0x1a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* GetInstance(::System::Object* o);
 
-  /// @brief Method GetKekInfo, addr 0x22d6654, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetKekInfo, addr 0x2309940, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetKekInfo(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
@@ -82,40 +79,40 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
-  /// @brief Method ToAsn1Object, addr 0x22d6834, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2309b20, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_info() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_info() const;
-
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x22d662c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2309918, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
 
-  /// @brief Method .ctor, addr 0x22d64b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23097a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x22d643c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2309728, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x22d6414, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2309700, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x22d65b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230989c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x22d6534, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2309820, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
-  /// @brief Method get_Info, addr 0x22d66f8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_Info, addr 0x23099e4, size 0x13c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Info();
 
-  /// @brief Method get_IsTagged, addr 0x22d667c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsTagged, addr 0x2309968, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsTagged();
 
-  /// @brief Method get_Version, addr 0x22d1288, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2304574, size 0x164, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -135,18 +132,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecipientInfo(RecipientInfo const&) = delete;
 
-  /// @brief Field info, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___info;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 90 };
+
+  /// @brief Field info, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___info;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::RecipientInfo, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::RecipientInfo, ___info) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::RecipientInfo, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::RecipientInfo);

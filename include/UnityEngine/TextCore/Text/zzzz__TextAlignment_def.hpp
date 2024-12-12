@@ -12,11 +12,10 @@ struct TextAlignment;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextAlignment);
-// Type: UnityEngine.TextCore.Text::TextAlignment
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::TextAlignment
+// CS Name: UnityEngine.TextCore.Text.TextAlignment
 struct CORDL_TYPE TextAlignment {
 public:
   // Declarations
@@ -79,129 +78,129 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextAlignment(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BaselineCenter value: static_cast<int32_t>(0x802)
+  /// @brief Field BaselineCenter value: I32(2050)
   static ::UnityEngine::TextCore::Text::TextAlignment const BaselineCenter;
 
-  /// @brief Field BaselineFlush value: static_cast<int32_t>(0x810)
+  /// @brief Field BaselineFlush value: I32(2064)
   static ::UnityEngine::TextCore::Text::TextAlignment const BaselineFlush;
 
-  /// @brief Field BaselineGeoAligned value: static_cast<int32_t>(0x820)
+  /// @brief Field BaselineGeoAligned value: I32(2080)
   static ::UnityEngine::TextCore::Text::TextAlignment const BaselineGeoAligned;
 
-  /// @brief Field BaselineJustified value: static_cast<int32_t>(0x808)
+  /// @brief Field BaselineJustified value: I32(2056)
   static ::UnityEngine::TextCore::Text::TextAlignment const BaselineJustified;
 
-  /// @brief Field BaselineLeft value: static_cast<int32_t>(0x801)
+  /// @brief Field BaselineLeft value: I32(2049)
   static ::UnityEngine::TextCore::Text::TextAlignment const BaselineLeft;
 
-  /// @brief Field BaselineRight value: static_cast<int32_t>(0x804)
+  /// @brief Field BaselineRight value: I32(2052)
   static ::UnityEngine::TextCore::Text::TextAlignment const BaselineRight;
 
-  /// @brief Field BottomCenter value: static_cast<int32_t>(0x402)
+  /// @brief Field BottomCenter value: I32(1026)
   static ::UnityEngine::TextCore::Text::TextAlignment const BottomCenter;
 
-  /// @brief Field BottomFlush value: static_cast<int32_t>(0x410)
+  /// @brief Field BottomFlush value: I32(1040)
   static ::UnityEngine::TextCore::Text::TextAlignment const BottomFlush;
 
-  /// @brief Field BottomGeoAligned value: static_cast<int32_t>(0x420)
+  /// @brief Field BottomGeoAligned value: I32(1056)
   static ::UnityEngine::TextCore::Text::TextAlignment const BottomGeoAligned;
 
-  /// @brief Field BottomJustified value: static_cast<int32_t>(0x408)
+  /// @brief Field BottomJustified value: I32(1032)
   static ::UnityEngine::TextCore::Text::TextAlignment const BottomJustified;
 
-  /// @brief Field BottomLeft value: static_cast<int32_t>(0x401)
+  /// @brief Field BottomLeft value: I32(1025)
   static ::UnityEngine::TextCore::Text::TextAlignment const BottomLeft;
 
-  /// @brief Field BottomRight value: static_cast<int32_t>(0x404)
+  /// @brief Field BottomRight value: I32(1028)
   static ::UnityEngine::TextCore::Text::TextAlignment const BottomRight;
 
-  /// @brief Field CaplineCenter value: static_cast<int32_t>(0x2002)
+  /// @brief Field CaplineCenter value: I32(8194)
   static ::UnityEngine::TextCore::Text::TextAlignment const CaplineCenter;
 
-  /// @brief Field CaplineFlush value: static_cast<int32_t>(0x2010)
+  /// @brief Field CaplineFlush value: I32(8208)
   static ::UnityEngine::TextCore::Text::TextAlignment const CaplineFlush;
 
-  /// @brief Field CaplineGeoAligned value: static_cast<int32_t>(0x2020)
+  /// @brief Field CaplineGeoAligned value: I32(8224)
   static ::UnityEngine::TextCore::Text::TextAlignment const CaplineGeoAligned;
 
-  /// @brief Field CaplineJustified value: static_cast<int32_t>(0x2008)
+  /// @brief Field CaplineJustified value: I32(8200)
   static ::UnityEngine::TextCore::Text::TextAlignment const CaplineJustified;
 
-  /// @brief Field CaplineLeft value: static_cast<int32_t>(0x2001)
+  /// @brief Field CaplineLeft value: I32(8193)
   static ::UnityEngine::TextCore::Text::TextAlignment const CaplineLeft;
 
-  /// @brief Field CaplineRight value: static_cast<int32_t>(0x2004)
+  /// @brief Field CaplineRight value: I32(8196)
   static ::UnityEngine::TextCore::Text::TextAlignment const CaplineRight;
 
-  /// @brief Field MiddleCenter value: static_cast<int32_t>(0x202)
+  /// @brief Field MiddleCenter value: I32(514)
   static ::UnityEngine::TextCore::Text::TextAlignment const MiddleCenter;
 
-  /// @brief Field MiddleFlush value: static_cast<int32_t>(0x210)
+  /// @brief Field MiddleFlush value: I32(528)
   static ::UnityEngine::TextCore::Text::TextAlignment const MiddleFlush;
 
-  /// @brief Field MiddleGeoAligned value: static_cast<int32_t>(0x220)
+  /// @brief Field MiddleGeoAligned value: I32(544)
   static ::UnityEngine::TextCore::Text::TextAlignment const MiddleGeoAligned;
 
-  /// @brief Field MiddleJustified value: static_cast<int32_t>(0x208)
+  /// @brief Field MiddleJustified value: I32(520)
   static ::UnityEngine::TextCore::Text::TextAlignment const MiddleJustified;
 
-  /// @brief Field MiddleLeft value: static_cast<int32_t>(0x201)
+  /// @brief Field MiddleLeft value: I32(513)
   static ::UnityEngine::TextCore::Text::TextAlignment const MiddleLeft;
 
-  /// @brief Field MiddleRight value: static_cast<int32_t>(0x204)
+  /// @brief Field MiddleRight value: I32(516)
   static ::UnityEngine::TextCore::Text::TextAlignment const MiddleRight;
 
-  /// @brief Field MidlineCenter value: static_cast<int32_t>(0x1002)
+  /// @brief Field MidlineCenter value: I32(4098)
   static ::UnityEngine::TextCore::Text::TextAlignment const MidlineCenter;
 
-  /// @brief Field MidlineFlush value: static_cast<int32_t>(0x1010)
+  /// @brief Field MidlineFlush value: I32(4112)
   static ::UnityEngine::TextCore::Text::TextAlignment const MidlineFlush;
 
-  /// @brief Field MidlineGeoAligned value: static_cast<int32_t>(0x1020)
+  /// @brief Field MidlineGeoAligned value: I32(4128)
   static ::UnityEngine::TextCore::Text::TextAlignment const MidlineGeoAligned;
 
-  /// @brief Field MidlineJustified value: static_cast<int32_t>(0x1008)
+  /// @brief Field MidlineJustified value: I32(4104)
   static ::UnityEngine::TextCore::Text::TextAlignment const MidlineJustified;
 
-  /// @brief Field MidlineLeft value: static_cast<int32_t>(0x1001)
+  /// @brief Field MidlineLeft value: I32(4097)
   static ::UnityEngine::TextCore::Text::TextAlignment const MidlineLeft;
 
-  /// @brief Field MidlineRight value: static_cast<int32_t>(0x1004)
+  /// @brief Field MidlineRight value: I32(4100)
   static ::UnityEngine::TextCore::Text::TextAlignment const MidlineRight;
 
-  /// @brief Field TopCenter value: static_cast<int32_t>(0x102)
+  /// @brief Field TopCenter value: I32(258)
   static ::UnityEngine::TextCore::Text::TextAlignment const TopCenter;
 
-  /// @brief Field TopFlush value: static_cast<int32_t>(0x110)
+  /// @brief Field TopFlush value: I32(272)
   static ::UnityEngine::TextCore::Text::TextAlignment const TopFlush;
 
-  /// @brief Field TopGeoAligned value: static_cast<int32_t>(0x120)
+  /// @brief Field TopGeoAligned value: I32(288)
   static ::UnityEngine::TextCore::Text::TextAlignment const TopGeoAligned;
 
-  /// @brief Field TopJustified value: static_cast<int32_t>(0x108)
+  /// @brief Field TopJustified value: I32(264)
   static ::UnityEngine::TextCore::Text::TextAlignment const TopJustified;
 
-  /// @brief Field TopLeft value: static_cast<int32_t>(0x101)
+  /// @brief Field TopLeft value: I32(257)
   static ::UnityEngine::TextCore::Text::TextAlignment const TopLeft;
 
-  /// @brief Field TopRight value: static_cast<int32_t>(0x104)
+  /// @brief Field TopRight value: I32(260)
   static ::UnityEngine::TextCore::Text::TextAlignment const TopRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15264 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextAlignment, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextAlignment, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextAlignment, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextAlignment, "UnityEngine.TextCore.Text", "TextAlignment");

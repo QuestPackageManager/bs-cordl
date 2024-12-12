@@ -3,9 +3,38 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extensions)
+namespace Newtonsoft::Json::Linq {
+template <typename T, typename U> class Extensions__Convert_d__14_2;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T, typename U> class Extensions__Values_d__11_2;
+}
+namespace Newtonsoft::Json::Linq {
+class Extensions___c;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class Extensions___c__0_1;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T, typename U> class Extensions___c__13_2;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class Extensions___c__1_1;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class Extensions___c__2_1;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class Extensions___c__3_1;
+}
 namespace Newtonsoft::Json::Linq {
 template <typename T> class IJEnumerable_1;
 }
@@ -18,30 +47,6 @@ class JProperty;
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions___Convert_d__14_2;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions___Values_d__11_2;
-}
-namespace Newtonsoft::Json::Linq {
-class __Extensions____c;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__0_1;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions____c__13_2;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__1_1;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__2_1;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__3_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -49,16 +54,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -68,111 +67,108 @@ namespace Newtonsoft::Json::Linq {
 class Extensions;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions___Convert_d__14_2;
+template <typename T, typename U> class Extensions__Convert_d__14_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions___Values_d__11_2;
+template <typename T, typename U> class Extensions__Values_d__11_2;
 }
 namespace Newtonsoft::Json::Linq {
-class __Extensions____c;
+class Extensions___c;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__0_1;
+template <typename T> class Extensions___c__0_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions____c__13_2;
+template <typename T, typename U> class Extensions___c__13_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__1_1;
+template <typename T> class Extensions___c__1_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__2_1;
+template <typename T> class Extensions___c__2_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__3_1;
+template <typename T> class Extensions___c__3_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions___Values_d__11_2);
-MARK_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions____c);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions____c__0_1);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions____c__13_2);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions____c__1_1);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions____c__2_1);
-MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::__Extensions____c__3_1);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions__Convert_d__14_2);
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions__Values_d__11_2);
+MARK_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions___c);
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions___c__0_1);
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions___c__13_2);
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions___c__1_1);
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions___c__2_1);
+MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::Extensions___c__3_1);
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// CS Name: ::Extensions::<>c*
-class CORDL_TYPE __Extensions____c : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<>c
+class CORDL_TYPE Extensions___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::__Extensions____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::Extensions___c* __9;
 
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF___9__4_0,
-      put = setStaticF___9__4_0)) ::System::Func_2<::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>*>* __9__4_0;
+  __declspec(property(get = getStaticF___9__4_0,
+                      put = setStaticF___9__4_0)) ::System::Func_2<::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>*>* __9__4_0;
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c* New_ctor();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c* New_ctor();
 
-  /// @brief Method <Properties>b__4_0, addr 0x3eab630, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Properties>b__4_0, addr 0x3f0b6dc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* _Properties_b__4_0(::Newtonsoft::Json::Linq::JObject* d);
 
-  /// @brief Method .ctor, addr 0x3eab628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0b6d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c* getStaticF___9();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c* getStaticF___9();
 
   static inline ::System::Func_2<::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>*>* getStaticF___9__4_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Linq::__Extensions____c* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Linq::Extensions___c* value);
 
   static inline void setStaticF___9__4_0(::System::Func_2<::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions____c();
+  constexpr Extensions___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions____c(__Extensions____c&&) = delete;
+  Extensions___c(Extensions___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions____c(__Extensions____c const&) = delete;
+  Extensions___c(Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::__Extensions____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::Extensions___c, 0x10>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
-// Type: ::<>c__0`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Extensions::<>c__0`1<T>*
-class CORDL_TYPE __Extensions____c__0_1 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<>c__0`1<T>
+class CORDL_TYPE Extensions___c__0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::Extensions___c__0_1<T>* __9;
 
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__0_0;
+  __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__0_0;
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>* New_ctor();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__0_1<T>* New_ctor();
 
   /// @brief Method <Ancestors>b__0_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _Ancestors_b__0_0(T j);
@@ -180,52 +176,51 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>* getStaticF___9();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__0_1<T>* getStaticF___9();
 
   static inline ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* getStaticF___9__0_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Linq::Extensions___c__0_1<T>* value);
 
   static inline void setStaticF___9__0_0(::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions____c__0_1();
+  constexpr Extensions___c__0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions____c__0_1(__Extensions____c__0_1&&) = delete;
+  Extensions___c__0_1(Extensions___c__0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions____c__0_1(__Extensions____c__0_1 const&) = delete;
+  Extensions___c__0_1(Extensions___c__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Type: ::<>c__1`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Extensions::<>c__1`1<T>*
-class CORDL_TYPE __Extensions____c__1_1 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<>c__1`1<T>
+class CORDL_TYPE Extensions___c__1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::__Extensions____c__1_1<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::Extensions___c__1_1<T>* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__1_0;
+  __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__1_0;
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__1_1<T>* New_ctor();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__1_1<T>* New_ctor();
 
   /// @brief Method <AncestorsAndSelf>b__1_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _AncestorsAndSelf_b__1_0(T j);
@@ -233,52 +228,51 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__1_1<T>* getStaticF___9();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__1_1<T>* getStaticF___9();
 
   static inline ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* getStaticF___9__1_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Linq::__Extensions____c__1_1<T>* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Linq::Extensions___c__1_1<T>* value);
 
   static inline void setStaticF___9__1_0(::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions____c__1_1();
+  constexpr Extensions___c__1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__1_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__1_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions____c__1_1(__Extensions____c__1_1&&) = delete;
+  Extensions___c__1_1(Extensions___c__1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__1_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__1_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions____c__1_1(__Extensions____c__1_1 const&) = delete;
+  Extensions___c__1_1(Extensions___c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Type: ::<>c__13`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// CS Name: ::Extensions::<>c__13`2<T,U>*
-class CORDL_TYPE __Extensions____c__13_2 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<>c__13`2<T,U>
+class CORDL_TYPE Extensions___c__13_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::__Extensions____c__13_2<T, U>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::Extensions___c__13_2<T, U>* __9;
 
   /// @brief Field <>9__13_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__13_0;
+  __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__13_0;
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__13_2<T, U>* New_ctor();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__13_2<T, U>* New_ctor();
 
   /// @brief Method <Children>b__13_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _Children_b__13_0(T c);
@@ -286,52 +280,51 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__13_2<T, U>* getStaticF___9();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__13_2<T, U>* getStaticF___9();
 
   static inline ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* getStaticF___9__13_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Linq::__Extensions____c__13_2<T, U>* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Linq::Extensions___c__13_2<T, U>* value);
 
   static inline void setStaticF___9__13_0(::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions____c__13_2();
+  constexpr Extensions___c__13_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__13_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__13_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions____c__13_2(__Extensions____c__13_2&&) = delete;
+  Extensions___c__13_2(Extensions___c__13_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__13_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__13_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions____c__13_2(__Extensions____c__13_2 const&) = delete;
+  Extensions___c__13_2(Extensions___c__13_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Type: ::<>c__2`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Extensions::<>c__2`1<T>*
-class CORDL_TYPE __Extensions____c__2_1 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<>c__2`1<T>
+class CORDL_TYPE Extensions___c__2_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::__Extensions____c__2_1<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::Extensions___c__2_1<T>* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__2_0;
+  __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__2_0;
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__2_1<T>* New_ctor();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__2_1<T>* New_ctor();
 
   /// @brief Method <Descendants>b__2_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _Descendants_b__2_0(T j);
@@ -339,52 +332,51 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__2_1<T>* getStaticF___9();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__2_1<T>* getStaticF___9();
 
   static inline ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* getStaticF___9__2_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Linq::__Extensions____c__2_1<T>* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Linq::Extensions___c__2_1<T>* value);
 
   static inline void setStaticF___9__2_0(::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions____c__2_1();
+  constexpr Extensions___c__2_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__2_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__2_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions____c__2_1(__Extensions____c__2_1&&) = delete;
+  Extensions___c__2_1(Extensions___c__2_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__2_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__2_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions____c__2_1(__Extensions____c__2_1 const&) = delete;
+  Extensions___c__2_1(Extensions___c__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Type: ::<>c__3`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Extensions::<>c__3`1<T>*
-class CORDL_TYPE __Extensions____c__3_1 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<>c__3`1<T>
+class CORDL_TYPE Extensions___c__3_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::__Extensions____c__3_1<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::Extensions___c__3_1<T>* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__3_0;
+  __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* __9__3_0;
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__3_1<T>* New_ctor();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__3_1<T>* New_ctor();
 
   /// @brief Method <DescendantsAndSelf>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _DescendantsAndSelf_b__3_0(T j);
@@ -392,43 +384,43 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions____c__3_1<T>* getStaticF___9();
+  static inline ::Newtonsoft::Json::Linq::Extensions___c__3_1<T>* getStaticF___9();
 
   static inline ::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* getStaticF___9__3_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Linq::__Extensions____c__3_1<T>* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Linq::Extensions___c__3_1<T>* value);
 
   static inline void setStaticF___9__3_0(::System::Func_2<T, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions____c__3_1();
+  constexpr Extensions___c__3_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__3_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__3_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions____c__3_1(__Extensions____c__3_1&&) = delete;
+  Extensions___c__3_1(Extensions___c__3_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__3_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__3_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions____c__3_1(__Extensions____c__3_1 const&) = delete;
+  Extensions___c__3_1(Extensions___c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10380 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Type: ::<Convert>d__14`2
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// CS Name: ::Extensions::<Convert>d__14`2<T,U>*
-class CORDL_TYPE __Extensions___Convert_d__14_2 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<Convert>d__14`2<T,U>
+class CORDL_TYPE Extensions__Convert_d__14_2 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_U__get_Current)) U System_Collections_Generic_IEnumerator_U__Current;
@@ -471,7 +463,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>* New_ctor(int32_t __1__state);
+  static inline ::Newtonsoft::Json::Linq::Extensions__Convert_d__14_2<T, U>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<U>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<U>* System_Collections_Generic_IEnumerable_U__GetEnumerator();
@@ -499,21 +491,21 @@ public:
 
   constexpr U& __cordl_internal_get___2__current();
 
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* const& __cordl_internal_get___3__source() const;
+
   constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__source() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* const& __cordl_internal_get___7__wrap1() const;
 
   constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap1() const;
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* const& __cordl_internal_get_source() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_source() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_source();
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -551,16 +543,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions___Convert_d__14_2();
+  constexpr Extensions__Convert_d__14_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions___Convert_d__14_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions__Convert_d__14_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions___Convert_d__14_2(__Extensions___Convert_d__14_2&&) = delete;
+  Extensions__Convert_d__14_2(Extensions__Convert_d__14_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions___Convert_d__14_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions__Convert_d__14_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions___Convert_d__14_2(__Extensions___Convert_d__14_2 const&) = delete;
+  Extensions__Convert_d__14_2(Extensions__Convert_d__14_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10381 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -580,21 +575,18 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<T>* _____7__wrap1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10356 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Type: ::<Values>d__11`2
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// CS Name: ::Extensions::<Values>d__11`2<T,U>*
-class CORDL_TYPE __Extensions___Values_d__11_2 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Linq.Extensions/<Values>d__11`2<T,U>
+class CORDL_TYPE Extensions__Values_d__11_2 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_U__get_Current)) U System_Collections_Generic_IEnumerator_U__Current;
@@ -646,7 +638,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>* New_ctor(int32_t __1__state);
+  static inline ::Newtonsoft::Json::Linq::Extensions__Values_d__11_2<T, U>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<U>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<U>* System_Collections_Generic_IEnumerable_U__GetEnumerator();
@@ -674,33 +666,33 @@ public:
 
   constexpr U& __cordl_internal_get___2__current();
 
+  constexpr ::System::Object* const& __cordl_internal_get___3__key() const;
+
   constexpr ::System::Object*& __cordl_internal_get___3__key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___3__key() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* const& __cordl_internal_get___3__source() const;
 
   constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__source() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* const& __cordl_internal_get___7__wrap1() const;
 
   constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap1() const;
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* const& __cordl_internal_get___7__wrap2() const;
 
   constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& __cordl_internal_get___7__wrap2();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*> const& __cordl_internal_get___7__wrap2() const;
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
+  constexpr ::System::Object* const& __cordl_internal_get_key() const;
+
   constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* const& __cordl_internal_get_source() const;
 
   constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_source();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_source() const;
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -750,16 +742,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Extensions___Values_d__11_2();
+  constexpr Extensions__Values_d__11_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions___Values_d__11_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions__Values_d__11_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Extensions___Values_d__11_2(__Extensions___Values_d__11_2&&) = delete;
+  Extensions__Values_d__11_2(Extensions__Values_d__11_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Extensions___Values_d__11_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions__Values_d__11_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Extensions___Values_d__11_2(__Extensions___Values_d__11_2 const&) = delete;
+  Extensions__Values_d__11_2(Extensions__Values_d__11_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10382 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -788,36 +783,32 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* _____7__wrap2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10357 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Type: Newtonsoft.Json.Linq::Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Linq::Extensions*
+// CS Name: Newtonsoft.Json.Linq.Extensions
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T, typename U> using _Convert_d__14_2 = ::Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>;
+  template <typename T, typename U> using _Convert_d__14_2 = ::Newtonsoft::Json::Linq::Extensions__Convert_d__14_2<T, U>;
 
-  template <typename T, typename U> using _Values_d__11_2 = ::Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>;
+  template <typename T, typename U> using _Values_d__11_2 = ::Newtonsoft::Json::Linq::Extensions__Values_d__11_2<T, U>;
 
-  using __c = ::Newtonsoft::Json::Linq::__Extensions____c;
+  using __c = ::Newtonsoft::Json::Linq::Extensions___c;
 
-  template <typename T> using __c__0_1 = ::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>;
+  template <typename T> using __c__0_1 = ::Newtonsoft::Json::Linq::Extensions___c__0_1<T>;
 
-  template <typename T, typename U> using __c__13_2 = ::Newtonsoft::Json::Linq::__Extensions____c__13_2<T, U>;
+  template <typename T, typename U> using __c__13_2 = ::Newtonsoft::Json::Linq::Extensions___c__13_2<T, U>;
 
-  template <typename T> using __c__1_1 = ::Newtonsoft::Json::Linq::__Extensions____c__1_1<T>;
+  template <typename T> using __c__1_1 = ::Newtonsoft::Json::Linq::Extensions___c__1_1<T>;
 
-  template <typename T> using __c__2_1 = ::Newtonsoft::Json::Linq::__Extensions____c__2_1<T>;
+  template <typename T> using __c__2_1 = ::Newtonsoft::Json::Linq::Extensions___c__2_1<T>;
 
-  template <typename T> using __c__3_1 = ::Newtonsoft::Json::Linq::__Extensions____c__3_1<T>;
+  template <typename T> using __c__3_1 = ::Newtonsoft::Json::Linq::Extensions___c__3_1<T>;
 
   /// @brief Method Ancestors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Ancestors(::System::Collections::Generic::IEnumerable_1<T>* source);
@@ -825,7 +816,7 @@ public:
   /// @brief Method AncestorsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AncestorsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method AsJEnumerable, addr 0x3eab57c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AsJEnumerable, addr 0x3f0b628, size 0x48, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// @brief Method AsJEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -849,7 +840,7 @@ public:
   /// @brief Method DescendantsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Properties, addr 0x3eab3e8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Properties, addr 0x3f0b494, size 0x138, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JObject*>* source);
 
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -858,10 +849,10 @@ public:
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U Value(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  /// @brief Method Values, addr 0x3eab5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x3f0b670, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
-  /// @brief Method Values, addr 0x3eab520, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x3f0b5cc, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source,
                                                                                                     ::System::Object* key);
 
@@ -890,7 +881,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -900,12 +891,12 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::Extensio
 } // namespace Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::Extensions);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::Extensions*, "Newtonsoft.Json.Linq", "Extensions");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2, "Newtonsoft.Json.Linq", "Extensions/<Convert>d__14`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::__Extensions___Values_d__11_2, "Newtonsoft.Json.Linq", "Extensions/<Values>d__11`2");
-NEED_NO_BOX(::Newtonsoft::Json::Linq::__Extensions____c);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::__Extensions____c*, "Newtonsoft.Json.Linq", "Extensions/<>c");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::__Extensions____c__0_1, "Newtonsoft.Json.Linq", "Extensions/<>c__0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::__Extensions____c__13_2, "Newtonsoft.Json.Linq", "Extensions/<>c__13`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::__Extensions____c__1_1, "Newtonsoft.Json.Linq", "Extensions/<>c__1`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::__Extensions____c__2_1, "Newtonsoft.Json.Linq", "Extensions/<>c__2`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::__Extensions____c__3_1, "Newtonsoft.Json.Linq", "Extensions/<>c__3`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::Extensions__Convert_d__14_2, "Newtonsoft.Json.Linq", "Extensions/<Convert>d__14`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::Extensions__Values_d__11_2, "Newtonsoft.Json.Linq", "Extensions/<Values>d__11`2");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::Extensions___c);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::Extensions___c*, "Newtonsoft.Json.Linq", "Extensions/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::Extensions___c__0_1, "Newtonsoft.Json.Linq", "Extensions/<>c__0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::Extensions___c__13_2, "Newtonsoft.Json.Linq", "Extensions/<>c__13`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::Extensions___c__1_1, "Newtonsoft.Json.Linq", "Extensions/<>c__1`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::Extensions___c__2_1, "Newtonsoft.Json.Linq", "Extensions/<>c__2`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Linq::Extensions___c__3_1, "Newtonsoft.Json.Linq", "Extensions/<>c__3`1");

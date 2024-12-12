@@ -17,11 +17,10 @@ class UserAttributeSubpacketsParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser);
-// Type: Org.BouncyCastle.Bcpg::UserAttributeSubpacketsParser
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::UserAttributeSubpacketsParser*
+// CS Name: Org.BouncyCastle.Bcpg.UserAttributeSubpacketsParser
 class CORDL_TYPE UserAttributeSubpacketsParser : public ::System::Object {
 public:
   // Declarations
@@ -30,16 +29,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket, addr 0x26166e8, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x26499d4, size 0x2ac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* ReadPacket();
+
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_input() const;
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_input();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_input() const;
-
   constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x26165b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26498a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserAttributeSubpacketsParser(UserAttributeSubpacketsParser const&) = delete;
 
-  /// @brief Field input, offset: 0x10, size: 0x8, def value: None
-  ::System::IO::Stream* ___input;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 598 };
+
+  /// @brief Field input, offset: 0x10, size: 0x8, def value: None
+  ::System::IO::Stream* ___input;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser, ___input) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser);

@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
+#include "System/Linq/Expressions/zzzz__IParameterProvider_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LambdaExpression)
@@ -12,9 +13,6 @@ struct ExpressionType;
 }
 namespace System::Linq::Expressions {
 class Expression;
-}
-namespace System::Linq::Expressions {
-class IParameterProvider;
 }
 namespace System::Linq::Expressions {
 class ParameterExpression;
@@ -28,11 +26,10 @@ class LambdaExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::LambdaExpression);
-// Type: System.Linq.Expressions::LambdaExpression
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.IParameterProvider
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::LambdaExpression*
+// CS Name: System.Linq.Expressions.LambdaExpression
 class CORDL_TYPE LambdaExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -66,57 +63,57 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IParameterProvider"
   constexpr operator ::System::Linq::Expressions::IParameterProvider*() noexcept;
 
-  /// @brief Method GetParameter, addr 0x4057868, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetParameter, addr 0x40b8b7c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* GetParameter(int32_t index);
 
   static inline ::System::Linq::Expressions::LambdaExpression* New_ctor(::System::Linq::Expressions::Expression* body);
 
-  /// @brief Method System.Linq.Expressions.IParameterProvider.GetParameter, addr 0x4057858, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Linq.Expressions.IParameterProvider.GetParameter, addr 0x40b8b6c, size 0x10, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ParameterExpression* System_Linq_Expressions_IParameterProvider_GetParameter(int32_t index);
 
-  /// @brief Method System.Linq.Expressions.IParameterProvider.get_ParameterCount, addr 0x4057890, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Linq.Expressions.IParameterProvider.get_ParameterCount, addr 0x40b8ba4, size 0x10, virtual true, abstract: false, final true
   inline int32_t System_Linq_Expressions_IParameterProvider_get_ParameterCount();
+
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__body() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__body();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__body() const;
-
   constexpr void __cordl_internal_set__body(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x4057718, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b8a2c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* body);
 
-  /// @brief Method get_Body, addr 0x40577b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x40b8ac4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_Name, addr 0x4057798, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x40b8aac, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameCore, addr 0x40577a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameCore, addr 0x40b8abc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameCore();
 
-  /// @brief Method get_NodeType, addr 0x4057790, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40b8aa4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_ParameterCount, addr 0x40578a0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ParameterCount, addr 0x40b8bb4, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ParameterCount();
 
-  /// @brief Method get_PublicType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_PublicType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_PublicType();
 
-  /// @brief Method get_ReturnType, addr 0x40577b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x40b8acc, size 0x88, virtual false, abstract: false, final false
   inline ::System::Type* get_ReturnType();
 
-  /// @brief Method get_TailCall, addr 0x4057840, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_TailCall, addr 0x40b8b54, size 0x10, virtual false, abstract: false, final false
   inline bool get_TailCall();
 
-  /// @brief Method get_TailCallCore, addr 0x4057850, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TailCallCore, addr 0x40b8b64, size 0x8, virtual true, abstract: false, final false
   inline bool get_TailCallCore();
 
-  /// @brief Method get_Type, addr 0x4057784, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40b8a98, size 0xc, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeCore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_TypeCore, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_TypeCore();
 
   /// @brief Convert to "::System::Linq::Expressions::IParameterProvider"
@@ -136,18 +133,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LambdaExpression(LambdaExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13685 };
+
   /// @brief Field _body, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____body;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LambdaExpression, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::LambdaExpression, ____body) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LambdaExpression, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::LambdaExpression);

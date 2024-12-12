@@ -11,17 +11,16 @@ class UnityEngineModuleAssembly;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UnityEngineModuleAssembly);
-// Type: UnityEngine::UnityEngineModuleAssembly
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::UnityEngineModuleAssembly*
+// CS Name: UnityEngine.UnityEngineModuleAssembly
 class CORDL_TYPE UnityEngineModuleAssembly : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::UnityEngineModuleAssembly* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48b1b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49161fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   UnityEngineModuleAssembly(UnityEngineModuleAssembly const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18691 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TubeLightIntensityBehaviour)
 namespace GlobalNamespace {
@@ -28,11 +27,10 @@ class TubeLightIntensityBehaviour;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TubeLightIntensityBehaviour);
-// Type: ::TubeLightIntensityBehaviour
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Playables.PlayableBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TubeLightIntensityBehaviour*
+// CS Name: TubeLightIntensityBehaviour
 class CORDL_TYPE TubeLightIntensityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
@@ -88,15 +86,15 @@ public:
                       put = __cordl_internal_set__tubeLights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
       _tubeLights;
 
-  /// @brief Method EnableObjects, addr 0x3ad5908, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x3b34f4c, size 0xd4, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::TubeLightIntensityBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x3ad59dc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3b35020, size 0xd4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3ad558c, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b34bd0, size 0x37c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
@@ -195,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method .ctor, addr 0x3ad5ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b350f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -211,6 +209,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityBehaviour", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TubeLightIntensityBehaviour(TubeLightIntensityBehaviour const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5211 };
 
   /// @brief Field _noPredefinedStartValue, offset: 0x10, size: 0x1, def value: None
   bool ____noPredefinedStartValue;
@@ -260,14 +261,9 @@ public:
   /// @brief Field _firstFrameLaserIntensity, offset: 0x50, size: 0x4, def value: None
   float_t ____firstFrameLaserIntensity;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5191 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightIntensityBehaviour, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____noPredefinedStartValue) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____startLightIntensity) == 0x14, "Offset mismatch!");
@@ -299,6 +295,8 @@ static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____finis
 static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____firstFrameLightIntensity) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____firstFrameLaserIntensity) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightIntensityBehaviour, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TubeLightIntensityBehaviour);

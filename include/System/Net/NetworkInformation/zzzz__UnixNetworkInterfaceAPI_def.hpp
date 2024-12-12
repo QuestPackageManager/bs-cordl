@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceFactory_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnixNetworkInterfaceAPI)
 namespace System {
@@ -16,24 +15,23 @@ class UnixNetworkInterfaceAPI;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterfaceAPI);
-// Type: System.Net.NetworkInformation::UnixNetworkInterfaceAPI
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkInformation.NetworkInterfaceFactory
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::UnixNetworkInterfaceAPI*
+// CS Name: System.Net.NetworkInformation.UnixNetworkInterfaceAPI
 class CORDL_TYPE UnixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory {
 public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4388e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ea1ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method freeifaddrs, addr 0x43895e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method freeifaddrs, addr 0x43ea8fc, size 0x7c, virtual false, abstract: false, final false
   static inline void freeifaddrs(::System::IntPtr ifap);
 
-  /// @brief Method getifaddrs, addr 0x4389668, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t getifaddrs(ByRef<::System::IntPtr> ifap);
+  /// @brief Method getifaddrs, addr 0x43ea97c, size 0x7c, virtual false, abstract: false, final false
+  static inline int32_t getifaddrs(::ByRef<::System::IntPtr> ifap);
 
 protected:
   // Ctor Parameters []
@@ -50,7 +48,7 @@ public:
   UnixNetworkInterfaceAPI(UnixNetworkInterfaceAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

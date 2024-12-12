@@ -15,11 +15,10 @@ class GUIScrollGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::GUIScrollGroup);
-// Type: UnityEngine::GUIScrollGroup
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.GUILayoutGroup
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::GUIScrollGroup*
+// CS Name: UnityEngine.GUIScrollGroup
 class CORDL_TYPE GUIScrollGroup : public ::UnityEngine::GUILayoutGroup {
 public:
   // Declarations
@@ -59,18 +58,18 @@ public:
   /// @brief Field verticalScrollbar, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_verticalScrollbar, put = __cordl_internal_set_verticalScrollbar)) ::UnityEngine::GUIStyle* verticalScrollbar;
 
-  /// @brief Method CalcHeight, addr 0x487e460, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x48e2a18, size 0xfc, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x487e2e8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x48e28a0, size 0x7c, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUIScrollGroup* New_ctor();
 
-  /// @brief Method SetHorizontal, addr 0x487e364, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x48e291c, size 0xfc, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x487e55c, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x48e2b14, size 0x1a4, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
   constexpr bool const& __cordl_internal_get_allowHorizontalScroll() const;
@@ -105,9 +104,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_clientWidth();
 
-  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_horizontalScrollbar();
+  constexpr ::UnityEngine::GUIStyle* const& __cordl_internal_get_horizontalScrollbar() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_horizontalScrollbar() const;
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_horizontalScrollbar();
 
   constexpr bool const& __cordl_internal_get_needsHorizontalScrollbar() const;
 
@@ -117,9 +116,9 @@ public:
 
   constexpr bool& __cordl_internal_get_needsVerticalScrollbar();
 
-  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_verticalScrollbar();
+  constexpr ::UnityEngine::GUIStyle* const& __cordl_internal_get_verticalScrollbar() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_verticalScrollbar() const;
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_verticalScrollbar();
 
   constexpr void __cordl_internal_set_allowHorizontalScroll(bool value);
 
@@ -145,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x487e28c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e2844, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,6 +160,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GUIScrollGroup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GUIScrollGroup(GUIScrollGroup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16653 };
 
   /// @brief Field calcMinWidth, offset: 0x90, size: 0x4, def value: None
   float_t ___calcMinWidth;
@@ -198,14 +200,9 @@ public:
   /// @brief Field verticalScrollbar, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___verticalScrollbar;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16615 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIScrollGroup, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___calcMinWidth) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___calcMaxWidth) == 0x94, "Offset mismatch!");
@@ -229,6 +226,8 @@ static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___needsVerticalScrollbar)
 static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___horizontalScrollbar) == 0xb0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___verticalScrollbar) == 0xb8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIScrollGroup, 0xc0>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GUIScrollGroup);

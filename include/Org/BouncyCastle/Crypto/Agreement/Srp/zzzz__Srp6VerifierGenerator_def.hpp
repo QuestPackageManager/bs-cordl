@@ -4,7 +4,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Srp6VerifierGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -22,11 +21,10 @@ class Srp6VerifierGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator);
-// Type: Org.BouncyCastle.Crypto.Agreement.Srp::Srp6VerifierGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Agreement.Srp::Srp6VerifierGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Agreement.Srp.Srp6VerifierGenerator
 class CORDL_TYPE Srp6VerifierGenerator : public ::System::Object {
 public:
   // Declarations
@@ -39,29 +37,29 @@ public:
   /// @brief Field g, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Org::BouncyCastle::Math::BigInteger* g;
 
-  /// @brief Method GenerateVerifier, addr 0x2657eec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GenerateVerifier, addr 0x268b1d8, size 0x40, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateVerifier(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity,
                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method Init, addr 0x2657eb8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x268b1a4, size 0xc, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0x2657ec4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x268b1b0, size 0x28, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* New_ctor();
 
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_N() const;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_N();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_N() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_g() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_g() const;
 
   constexpr void __cordl_internal_set_N(::Org::BouncyCastle::Math::BigInteger* value);
 
@@ -69,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x2657eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268b19c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,6 +84,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Srp6VerifierGenerator(Srp6VerifierGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 731 };
+
   /// @brief Field N, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___N;
 
@@ -95,19 +96,16 @@ public:
   /// @brief Field digest, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___digest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 731 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator, ___N) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator, ___g) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator, ___digest) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::Srp
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator);

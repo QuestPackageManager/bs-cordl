@@ -17,11 +17,10 @@ class XStreamingElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::XStreamingElement);
-// Type: System.Xml.Linq::XStreamingElement
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::XStreamingElement*
+// CS Name: System.Xml.Linq.XStreamingElement
 class CORDL_TYPE XStreamingElement : public ::System::Object {
 public:
   // Declarations
@@ -31,13 +30,13 @@ public:
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::System::Xml::Linq::XName* name;
 
+  constexpr ::System::Object* const& __cordl_internal_get_content() const;
+
   constexpr ::System::Object*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_content() const;
+  constexpr ::System::Xml::Linq::XName* const& __cordl_internal_get_name() const;
 
   constexpr ::System::Xml::Linq::XName*& __cordl_internal_get_name();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __cordl_internal_get_name() const;
 
   constexpr void __cordl_internal_set_content(::System::Object* value);
 
@@ -57,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XStreamingElement(XStreamingElement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17975 };
+
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::XName* ___name;
 
   /// @brief Field content, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___content;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17926 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XStreamingElement, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::XStreamingElement, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Linq::XStreamingElement, ___content) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XStreamingElement, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XStreamingElement);

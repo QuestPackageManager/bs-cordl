@@ -1,166 +1,110 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/HashSet_1.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__ISet_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 // Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__ElementCount<T>::__HashSet_1__ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept {
+template <typename T> constexpr ::System::Collections::Generic::HashSet_1_ElementCount<T>::HashSet_1_ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept {
   this->uniqueCount = uniqueCount;
   this->unfoundCount = unfoundCount;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__ElementCount<T>::__HashSet_1__ElementCount() {}
+template <typename T> constexpr ::System::Collections::Generic::HashSet_1_ElementCount<T>::HashSet_1_ElementCount() {}
 // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "value", ty: "T", modifiers: "", def_value: Some("nullptr") }]
-template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__Slot<T>::__HashSet_1__Slot(int32_t hashCode, int32_t next, T value) noexcept {
+// "value", ty: "T", modifiers: "", def_value: Some("{}") }]
+template <typename T> constexpr ::System::Collections::Generic::HashSet_1_Slot<T>::HashSet_1_Slot(int32_t hashCode, int32_t next, T value) noexcept {
   this->hashCode = hashCode;
   this->next = next;
   this->value = value;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__Slot<T>::__HashSet_1__Slot() {}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T> constexpr System::Collections::Generic::__HashSet_1__Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::__HashSet_1__Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr System::Collections::Generic::__HashSet_1__Enumerator<T>::operator ::System::IDisposable*() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* System::Collections::Generic::__HashSet_1__Enumerator<T>::i___System__IDisposable() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T> constexpr System::Collections::Generic::__HashSet_1__Enumerator<T>::operator ::System::Collections::IEnumerator*() {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::__HashSet_1__Enumerator<T>::i___System__Collections__IEnumerator() {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-template <typename T> inline void System::Collections::Generic::__HashSet_1__Enumerator<T>::_ctor(::System::Collections::Generic::HashSet_1<T>* set) {
+template <typename T> constexpr ::System::Collections::Generic::HashSet_1_Slot<T>::HashSet_1_Slot() {}
+template <typename T> inline void System::Collections::Generic::HashSet_1_Enumerator<T>::_ctor(::System::Collections::Generic::HashSet_1<T>* set) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__HashSet_1__Enumerator<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1_Enumerator<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, set);
 }
-template <typename T> inline void System::Collections::Generic::__HashSet_1__Enumerator<T>::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__HashSet_1__Enumerator<T>>::get(),
+template <typename T> inline void System::Collections::Generic::HashSet_1_Enumerator<T>::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1_Enumerator<T>>::get(),
                                                                              "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline bool System::Collections::Generic::__HashSet_1__Enumerator<T>::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__HashSet_1__Enumerator<T>>::get(),
+template <typename T> inline bool System::Collections::Generic::HashSet_1_Enumerator<T>::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1_Enumerator<T>>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline T System::Collections::Generic::__HashSet_1__Enumerator<T>::get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__HashSet_1__Enumerator<T>>::get(),
+template <typename T> inline T System::Collections::Generic::HashSet_1_Enumerator<T>::get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1_Enumerator<T>>::get(),
                                                                              "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* System::Collections::Generic::__HashSet_1__Enumerator<T>::System_Collections_IEnumerator_get_Current() {
+template <typename T> inline ::System::Object* System::Collections::Generic::HashSet_1_Enumerator<T>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__HashSet_1__Enumerator<T>>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1_Enumerator<T>>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename T> inline void System::Collections::Generic::__HashSet_1__Enumerator<T>::System_Collections_IEnumerator_Reset() {
+template <typename T> inline void System::Collections::Generic::HashSet_1_Enumerator<T>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::__HashSet_1__Enumerator<T>>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1_Enumerator<T>>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: Some("nullptr") }]
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr System::Collections::Generic::HashSet_1_Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::HashSet_1_Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename T> constexpr System::Collections::Generic::HashSet_1_Enumerator<T>::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* System::Collections::Generic::HashSet_1_Enumerator<T>::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template <typename T> constexpr System::Collections::Generic::HashSet_1_Enumerator<T>::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename T> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::HashSet_1_Enumerator<T>::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: Some("{}") }]
 template <typename T>
-constexpr ::System::Collections::Generic::__HashSet_1__Enumerator<T>::__HashSet_1__Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version,
-                                                                                              T _current) noexcept {
+constexpr ::System::Collections::Generic::HashSet_1_Enumerator<T>::HashSet_1_Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version, T _current) noexcept {
   this->_set = _set;
   this->_index = _index;
   this->_version = _version;
   this->_current = _current;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__Enumerator<T>::__HashSet_1__Enumerator() {}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Generic::HashSet_1<T>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ISet_1<T>"
-template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::ISet_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::ISet_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ISet_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::ISet_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__ISet_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::ISet_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T>
-constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::HashSet_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
-template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept {
-  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-template <typename T>
-constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::HashSet_1<T>::i___System__Runtime__Serialization__IDeserializationCallback() noexcept {
-  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
-}
+template <typename T> constexpr ::System::Collections::Generic::HashSet_1_Enumerator<T>::HashSet_1_Enumerator() {}
 template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__buckets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
@@ -174,20 +118,20 @@ template <typename T> constexpr void System::Collections::Generic::HashSet_1<T>:
   ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename T>
-constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*>&
+constexpr ::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*>&
 System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__slots() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____slots;
 }
 template <typename T>
-constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> const&
+constexpr ::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*> const&
 System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__slots() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____slots;
 }
 template <typename T>
 constexpr void System::Collections::Generic::HashSet_1<T>::__cordl_internal_set__slots(
-    ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> value) {
+    ::ArrayW<::System::Collections::Generic::HashSet_1_Slot<T>, ::Array<::System::Collections::Generic::HashSet_1_Slot<T>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____slots, value);
 }
@@ -231,8 +175,7 @@ template <typename T> constexpr ::System::Collections::Generic::IEqualityCompare
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<T>*> const& System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__comparer() const {
+template <typename T> constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* const& System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__comparer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
@@ -256,8 +199,7 @@ template <typename T> constexpr ::System::Runtime::Serialization::SerializationI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____siInfo;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__siInfo() const {
+template <typename T> constexpr ::System::Runtime::Serialization::SerializationInfo* const& System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__siInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____siInfo;
 }
@@ -265,16 +207,10 @@ template <typename T> constexpr void System::Collections::Generic::HashSet_1<T>:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____siInfo, value);
 }
-template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>());
-}
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(comparer));
 }
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_ctor(::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -282,17 +218,11 @@ template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_c
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, comparer);
 }
-template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(int32_t capacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(capacity));
-}
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_ctor(int32_t capacity) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
-}
-template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(collection));
 }
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -301,22 +231,12 @@ template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_c
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
 }
 template <typename T>
-inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection,
-                                                                                                          ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(collection, comparer));
-}
-template <typename T>
 inline void System::Collections::Generic::HashSet_1<T>::_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection, comparer);
-}
-template <typename T>
-inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                                          ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(info, context));
 }
 template <typename T>
 inline void System::Collections::Generic::HashSet_1<T>::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
@@ -331,10 +251,6 @@ template <typename T> inline void System::Collections::Generic::HashSet_1<T>::Co
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, source);
-}
-template <typename T>
-inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(capacity, comparer));
 }
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -384,10 +300,10 @@ template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::Sy
                                                "System.Collections.Generic.ICollection<T>.get_IsReadOnly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Collections::Generic::__HashSet_1__Enumerator<T> System::Collections::Generic::HashSet_1<T>::GetEnumerator() {
+template <typename T> inline ::System::Collections::Generic::HashSet_1_Enumerator<T> System::Collections::Generic::HashSet_1<T>::GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(),
                                                                              "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::__HashSet_1__Enumerator<T>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1_Enumerator<T>, false>(this, ___internal_method);
 }
 template <typename T> inline ::System::Collections::Generic::IEnumerator_1<T>* System::Collections::Generic::HashSet_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
   static auto* ___internal_method =
@@ -526,13 +442,13 @@ template <typename T> inline int32_t System::Collections::Generic::HashSet_1<T>:
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
 }
 template <typename T>
-inline ::System::Collections::Generic::__HashSet_1__ElementCount<T> System::Collections::Generic::HashSet_1<T>::CheckUniqueAndUnfoundElements(::System::Collections::Generic::IEnumerable_1<T>* other,
-                                                                                                                                              bool returnIfUnfound) {
+inline ::System::Collections::Generic::HashSet_1_ElementCount<T> System::Collections::Generic::HashSet_1<T>::CheckUniqueAndUnfoundElements(::System::Collections::Generic::IEnumerable_1<T>* other,
+                                                                                                                                           bool returnIfUnfound) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "CheckUniqueAndUnfoundElements", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::__HashSet_1__ElementCount<T>, false>(this, ___internal_method, other, returnIfUnfound);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1_ElementCount<T>, false>(this, ___internal_method, other, returnIfUnfound);
 }
 template <typename T>
 inline bool System::Collections::Generic::HashSet_1<T>::AreEqualityComparersEqual(::System::Collections::Generic::HashSet_1<T>* set1, ::System::Collections::Generic::HashSet_1<T>* set2) {
@@ -547,6 +463,90 @@ template <typename T> inline int32_t System::Collections::Generic::HashSet_1<T>:
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "InternalGetHashCode",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
+}
+template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>());
+}
+template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(comparer));
+}
+template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(int32_t capacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(capacity));
+}
+template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(collection));
+}
+template <typename T>
+inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection,
+                                                                                                          ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(collection, comparer));
+}
+template <typename T>
+inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                                          ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(info, context));
+}
+template <typename T>
+inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>(capacity, comparer));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* System::Collections::Generic::HashSet_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ISet_1<T>"
+template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::ISet_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ISet_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ISet_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ISet_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__ISet_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ISet_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::Collections::Generic::HashSet_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+template <typename T> constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::HashSet_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
+template <typename T> constexpr System::Collections::Generic::HashSet_1<T>::operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+template <typename T>
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::HashSet_1<T>::i___System__Runtime__Serialization__IDeserializationCallback() noexcept {
+  return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1<T>::HashSet_1() {}

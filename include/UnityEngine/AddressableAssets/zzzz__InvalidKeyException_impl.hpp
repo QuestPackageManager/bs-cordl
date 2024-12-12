@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447b914;
+  constexpr static std::size_t addrs = 0x44dcc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::set_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447b91c;
+  constexpr static std::size_t addrs = 0x44dcc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447b924;
+  constexpr static std::size_t addrs = 0x44dcc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Type*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447b92c;
+  constexpr static std::size_t addrs = 0x44dcc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,10 +77,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::InvalidKeyException.get_MergeMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> (
     ::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(&::UnityEngine::AddressableAssets::InvalidKeyException::get_MergeMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447b934;
+  constexpr static std::size_t addrs = 0x44dcc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x447b93c;
+  constexpr static std::size_t addrs = 0x44dcc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*, ::System::Type*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x447b9c8;
+  constexpr static std::size_t addrs = 0x44dccdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::AddressablesImpl*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x447ba38;
+  constexpr static std::size_t addrs = 0x44dcd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,16 +140,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
-    ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::__Addressables__MergeMode)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
+    ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::Addressables_MergeMode)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x447bab8;
+  constexpr static std::size_t addrs = 0x44dcdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::__Addressables__MergeMode>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::Addressables_MergeMode>::get() })));
     return ___internal_method;
   }
 };
@@ -157,17 +157,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
-    ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::__Addressables__MergeMode, ::UnityEngine::AddressableAssets::AddressablesImpl*)>(
+    ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::Addressables_MergeMode, ::UnityEngine::AddressableAssets::AddressablesImpl*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x447bb64;
+  constexpr static std::size_t addrs = 0x44dce78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::__Addressables__MergeMode>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::Addressables_MergeMode>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::AddressablesImpl*>::get() })));
     return ___internal_method;
   }
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x447bc1c;
+  constexpr static std::size_t addrs = 0x44dcf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x447bc74;
+  constexpr static std::size_t addrs = 0x44dcf88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW, ::System::Exception*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x447bcdc;
+  constexpr static std::size_t addrs = 0x44dcff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x447bd4c;
+  constexpr static std::size_t addrs = 0x44dd060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Message)> {
   constexpr static std::size_t size = 0x708;
-  constexpr static std::size_t addrs = 0x447bdcc;
+  constexpr static std::size_t addrs = 0x44dd0e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetMessageForSingleKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x447c4d4;
+  constexpr static std::size_t addrs = 0x44dd7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetNotFoundMessage)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x447e008;
+  constexpr static std::size_t addrs = 0x44df31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::StringW, ::System::Collections::Generic::HashSet_1<::System::Type*>*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetTypeNotAssignableMessage)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x447e06c;
+  constexpr static std::size_t addrs = 0x44df380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::StringW, ::System::Collections::Generic::HashSet_1<::System::Type*>*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetMultipleAssignableTypesMessage)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x447e350;
+  constexpr static std::size_t addrs = 0x44df664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Collections::Generic::List_1<::StringW>*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetMessageforMergeKeys)> {
   constexpr static std::size_t size = 0xfbc;
-  constexpr static std::size_t addrs = 0x447c934;
+  constexpr static std::size_t addrs = 0x44ddc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<::System::Type*>* (
     ::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetTypesForKey)> {
   constexpr static std::size_t size = 0x718;
-  constexpr static std::size_t addrs = 0x447d8f0;
+  constexpr static std::size_t addrs = 0x44dec04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::StringW>*>*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetTypeToKeys)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x447e658;
+  constexpr static std::size_t addrs = 0x44df96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Collections::Generic::IEnumerable_1<::StringW>*, ::StringW, ::StringW)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetCSVString)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x447c558;
+  constexpr static std::size_t addrs = 0x44dd86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -380,7 +380,7 @@ constexpr ::System::Object*& UnityEngine::AddressableAssets::InvalidKeyException
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get__Key_k__BackingField() const {
+constexpr ::System::Object* const& UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get__Key_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
@@ -392,7 +392,7 @@ constexpr ::System::Type*& UnityEngine::AddressableAssets::InvalidKeyException::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get__Type_k__BackingField() const {
+constexpr ::System::Type* const& UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get__Type_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
@@ -400,17 +400,17 @@ constexpr void UnityEngine::AddressableAssets::InvalidKeyException::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Type_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode>& UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get__MergeMode_k__BackingField() {
+constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode>& UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get__MergeMode_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MergeMode_k__BackingField;
 }
-constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> const&
+constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> const&
 UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get__MergeMode_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MergeMode_k__BackingField;
 }
 constexpr void
-UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_set__MergeMode_k__BackingField(::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> value) {
+UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_set__MergeMode_k__BackingField(::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MergeMode_k__BackingField = value;
 }
@@ -418,8 +418,7 @@ constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::Addr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
-UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get_m_Addressables() const {
+constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& UnityEngine::AddressableAssets::InvalidKeyException::__cordl_internal_get_m_Addressables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
@@ -449,13 +448,10 @@ inline void UnityEngine::AddressableAssets::InvalidKeyException::set_Type(::Syst
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> UnityEngine::AddressableAssets::InvalidKeyException::get_MergeMode() {
+inline ::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> UnityEngine::AddressableAssets::InvalidKeyException::get_MergeMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
                                                                              "get_MergeMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode>, false>(this, ___internal_method);
-}
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode>, false>(this, ___internal_method);
 }
 inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Object* key) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -463,19 +459,12 @@ inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System:
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
 }
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type));
-}
 inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Object* key, ::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, type);
-}
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type,
-                                                                                                                            ::UnityEngine::AddressableAssets::AddressablesImpl* addr) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type, addr));
 }
 inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::AddressablesImpl* addr) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -485,43 +474,28 @@ inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System:
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::AddressablesImpl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, type, addr);
 }
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type,
-                                                                                                                            ::UnityEngine::AddressableAssets::__Addressables__MergeMode mergeMode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type, mergeMode));
-}
-inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::__Addressables__MergeMode mergeMode) {
+inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::Addressables_MergeMode mergeMode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::__Addressables__MergeMode>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::Addressables_MergeMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, type, mergeMode);
 }
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type,
-                                                                                                                            ::UnityEngine::AddressableAssets::__Addressables__MergeMode mergeMode,
-                                                                                                                            ::UnityEngine::AddressableAssets::AddressablesImpl* addr) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type, mergeMode, addr));
-}
-inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::__Addressables__MergeMode mergeMode,
+inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::Addressables_MergeMode mergeMode,
                                                                        ::UnityEngine::AddressableAssets::AddressablesImpl* addr) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::__Addressables__MergeMode>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::Addressables_MergeMode>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::AddressablesImpl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, type, mergeMode, addr);
-}
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>());
 }
 inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(message));
 }
 inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -529,19 +503,12 @@ inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::StringW
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::StringW message, ::System::Exception* innerException) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(message, innerException));
-}
 inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::StringW message, ::System::Exception* innerException) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerException);
-}
-inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
-                                                                                                                            ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(message, context));
 }
 inline void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -614,6 +581,38 @@ inline ::StringW UnityEngine::AddressableAssets::InvalidKeyException::GetCSVStri
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::StringW>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, enumerator, prefixSingle, prefixPlural);
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key));
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type));
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type,
+                                                                                                                            ::UnityEngine::AddressableAssets::AddressablesImpl* addr) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type, addr));
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type,
+                                                                                                                            ::UnityEngine::AddressableAssets::Addressables_MergeMode mergeMode) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type, mergeMode));
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Object* key, ::System::Type* type,
+                                                                                                                            ::UnityEngine::AddressableAssets::Addressables_MergeMode mergeMode,
+                                                                                                                            ::UnityEngine::AddressableAssets::AddressablesImpl* addr) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(key, type, mergeMode, addr));
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>());
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(message));
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::StringW message, ::System::Exception* innerException) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(message, innerException));
+}
+inline ::UnityEngine::AddressableAssets::InvalidKeyException* UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
+                                                                                                                            ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::InvalidKeyException*>(message, context));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException() {}

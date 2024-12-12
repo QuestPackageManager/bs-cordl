@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectExecutionRating::*)()>(
     &::GlobalNamespace::BeatmapObjectExecutionRating::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677bc8;
+  constexpr static std::size_t addrs = 0x26ac158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectExecutionRating*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRating::*)(float_t)>(
     &::GlobalNamespace::BeatmapObjectExecutionRating::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2677bd0;
+  constexpr static std::size_t addrs = 0x26ac160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,14 +48,14 @@ inline float_t GlobalNamespace::BeatmapObjectExecutionRating::get_time() {
                                                                              "get_time", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapObjectExecutionRating* GlobalNamespace::BeatmapObjectExecutionRating::New_ctor(float_t time) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectExecutionRating*>(time));
-}
 inline void GlobalNamespace::BeatmapObjectExecutionRating::_ctor(float_t time) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectExecutionRating*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time);
+}
+inline ::GlobalNamespace::BeatmapObjectExecutionRating* GlobalNamespace::BeatmapObjectExecutionRating::New_ctor(float_t time) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectExecutionRating*>(time));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRating() {}

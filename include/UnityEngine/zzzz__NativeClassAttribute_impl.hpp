@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(
     &::UnityEngine::NativeClassAttribute::set_QualifiedNativeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b1b74;
+  constexpr static std::size_t addrs = 0x4916204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(&::UnityEngine::NativeClassAttribute::set_Declaration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b1b7c;
+  constexpr static std::size_t addrs = 0x491620c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(&::UnityEngine::NativeClassAttribute::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x48b1b84;
+  constexpr static std::size_t addrs = 0x4916214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW, ::StringW)>(&::UnityEngine::NativeClassAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x48b1bf4;
+  constexpr static std::size_t addrs = 0x4916284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,23 +96,23 @@ inline void UnityEngine::NativeClassAttribute::set_Declaration(::StringW value) 
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::NativeClassAttribute* UnityEngine::NativeClassAttribute::New_ctor(::StringW qualifiedCppName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::NativeClassAttribute*>(qualifiedCppName));
-}
 inline void UnityEngine::NativeClassAttribute::_ctor(::StringW qualifiedCppName) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::NativeClassAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, qualifiedCppName);
 }
-inline ::UnityEngine::NativeClassAttribute* UnityEngine::NativeClassAttribute::New_ctor(::StringW qualifiedCppName, ::StringW declaration) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::NativeClassAttribute*>(qualifiedCppName, declaration));
-}
 inline void UnityEngine::NativeClassAttribute::_ctor(::StringW qualifiedCppName, ::StringW declaration) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::NativeClassAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, qualifiedCppName, declaration);
+}
+inline ::UnityEngine::NativeClassAttribute* UnityEngine::NativeClassAttribute::New_ctor(::StringW qualifiedCppName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::NativeClassAttribute*>(qualifiedCppName));
+}
+inline ::UnityEngine::NativeClassAttribute* UnityEngine::NativeClassAttribute::New_ctor(::StringW qualifiedCppName, ::StringW declaration) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::NativeClassAttribute*>(qualifiedCppName, declaration));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::NativeClassAttribute::NativeClassAttribute() {}

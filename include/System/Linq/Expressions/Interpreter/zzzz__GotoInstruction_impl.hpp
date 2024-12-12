@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::GotoInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::GotoInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40616e8;
+  constexpr static std::size_t addrs = 0x40c29fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::GotoInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::GotoInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4061728;
+  constexpr static std::size_t addrs = 0x40c2a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::GotoInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::GotoInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4061730;
+  constexpr static std::size_t addrs = 0x40c2a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::GotoInstruction::*)(int32_t, bool, bool, bool)>(
     &::System::Linq::Expressions::Interpreter::GotoInstruction::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4061738;
+  constexpr static std::size_t addrs = 0x40c2a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::GotoInstruction* (*)(int32_t, bool, bool, bool)>(
     &::System::Linq::Expressions::Interpreter::GotoInstruction::Create)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4061780;
+  constexpr static std::size_t addrs = 0x40c2a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::GotoInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::GotoInstruction::Run)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x40618e8;
+  constexpr static std::size_t addrs = 0x40c2bfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,10 +164,6 @@ inline int32_t System::Linq::Expressions::Interpreter::GotoInstruction::get_Prod
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::GotoInstruction*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::GotoInstruction* System::Linq::Expressions::Interpreter::GotoInstruction::New_ctor(int32_t targetIndex, bool hasResult, bool hasValue,
-                                                                                                                                    bool labelTargetGetsValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::GotoInstruction*>(targetIndex, hasResult, hasValue, labelTargetGetsValue));
-}
 inline void System::Linq::Expressions::Interpreter::GotoInstruction::_ctor(int32_t targetIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::GotoInstruction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -188,6 +184,10 @@ inline int32_t System::Linq::Expressions::Interpreter::GotoInstruction::Run(::Sy
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::GotoInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::GotoInstruction* System::Linq::Expressions::Interpreter::GotoInstruction::New_ctor(int32_t targetIndex, bool hasResult, bool hasValue,
+                                                                                                                                    bool labelTargetGetsValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::GotoInstruction*>(targetIndex, hasResult, hasValue, labelTargetGetsValue));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::GotoInstruction::GotoInstruction() {}

@@ -15,11 +15,10 @@ class NetConnectAcceptPacket;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NetConnectAcceptPacket);
-// Type: LiteNetLib::NetConnectAcceptPacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::LiteNetLib::NetConnectAcceptPacket*
+// CS Name: LiteNetLib.NetConnectAcceptPacket
 class CORDL_TYPE NetConnectAcceptPacket : public ::System::Object {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
   /// @brief Field IsReusedPeer, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_IsReusedPeer, put = __cordl_internal_set_IsReusedPeer)) bool IsReusedPeer;
 
-  /// @brief Method FromData, addr 0x3a5d054, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x3ab3cc4, size 0xdc, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x3a60110, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x3ab6d80, size 0xbc, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
 
   static inline ::LiteNetLib::NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_IsReusedPeer(bool value);
 
-  /// @brief Method .ctor, addr 0x3a600d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab6d40, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
 protected:
@@ -75,6 +74,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetConnectAcceptPacket(NetConnectAcceptPacket const&) = delete;
 
+  /// @brief Field Size offset 0xffffffff size 0x4
+  static constexpr int32_t Size{ static_cast<int32_t>(0xb) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16546 };
+
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;
 
@@ -84,22 +89,16 @@ public:
   /// @brief Field IsReusedPeer, offset: 0x19, size: 0x1, def value: None
   bool ___IsReusedPeer;
 
-  /// @brief Field Size offset 0xffffffff size 0x4
-  static constexpr int32_t Size{ static_cast<int32_t>(0xb) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16510 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetConnectAcceptPacket, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::LiteNetLib::NetConnectAcceptPacket, ___ConnectionId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::NetConnectAcceptPacket, ___ConnectionNumber) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::NetConnectAcceptPacket, ___IsReusedPeer) == 0x19, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetConnectAcceptPacket, 0x20>, "Size mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetConnectAcceptPacket);

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BPMChangeBeatmapEventData::*)(float_t, float_t)>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2215ce8;
+  constexpr static std::size_t addrs = 0x2240d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2215d2c;
+  constexpr static std::size_t addrs = 0x2240da0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2215db0;
+  constexpr static std::size_t addrs = 0x2240e24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,9 +61,6 @@ constexpr void GlobalNamespace::BPMChangeBeatmapEventData::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bpm = value;
 }
-inline ::GlobalNamespace::BPMChangeBeatmapEventData* GlobalNamespace::BPMChangeBeatmapEventData::New_ctor(float_t time, float_t bpm) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BPMChangeBeatmapEventData*>(time, bpm));
-}
 inline void GlobalNamespace::BPMChangeBeatmapEventData::_ctor(float_t time, float_t bpm) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BPMChangeBeatmapEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -79,6 +76,9 @@ inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::BPMChangeBeatmapEve
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BPMChangeBeatmapEventData*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventData*, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BPMChangeBeatmapEventData* GlobalNamespace::BPMChangeBeatmapEventData::New_ctor(float_t time, float_t bpm) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BPMChangeBeatmapEventData*>(time, bpm));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BPMChangeBeatmapEventData::BPMChangeBeatmapEventData() {}

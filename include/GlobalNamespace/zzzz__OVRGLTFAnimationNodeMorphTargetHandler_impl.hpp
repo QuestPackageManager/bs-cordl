@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRMeshData (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::get_MeshData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3f4cf78;
+  constexpr static std::size_t addrs = 0x3fad024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::set_MeshData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3f4cf88;
+  constexpr static std::size_t addrs = 0x3fad034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3f4cfa0;
+  constexpr static std::size_t addrs = 0x3fad04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::Update)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x3f4cfd4;
+  constexpr static std::size_t addrs = 0x3fad080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::MarkModified)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f4d360;
+  constexpr static std::size_t addrs = 0x3fad40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,9 +126,6 @@ inline void GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::set_MeshDat
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRMeshData>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::New_ctor(::GlobalNamespace::OVRMeshData meshData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>(meshData));
-}
 inline void GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::_ctor(::GlobalNamespace::OVRMeshData meshData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -144,6 +141,9 @@ inline void GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::MarkModifie
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get(),
                                                                              "MarkModified", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::New_ctor(::GlobalNamespace::OVRMeshData meshData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>(meshData));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::OVRGLTFAnimationNodeMorphTargetHandler() {}

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(JsonSettings)
 namespace Newtonsoft::Json {
 class JsonConverter;
@@ -18,26 +17,24 @@ class JsonSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::JsonExtension::JsonSettings);
-// Type: BGLib.JsonExtension::JsonSettings
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::JsonExtension {
 // Is value type: false
-// CS Name: ::BGLib.JsonExtension::JsonSettings*
+// CS Name: BGLib.JsonExtension.JsonSettings
 class CORDL_TYPE JsonSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field compactNoDefault, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_compactNoDefault, put = setStaticF_compactNoDefault)) ::Newtonsoft::Json::JsonSerializerSettings* compactNoDefault;
+  __declspec(property(get = getStaticF_compactNoDefault, put = setStaticF_compactNoDefault)) ::Newtonsoft::Json::JsonSerializerSettings* compactNoDefault;
 
   /// @brief Field compactWithDefault, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_compactWithDefault, put = setStaticF_compactWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings* compactWithDefault;
+  __declspec(property(get = getStaticF_compactWithDefault, put = setStaticF_compactWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings* compactWithDefault;
 
   /// @brief Field jsonConverters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_jsonConverters, put = setStaticF_jsonConverters)) ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*>
-      jsonConverters;
+  __declspec(property(get = getStaticF_jsonConverters, put = setStaticF_jsonConverters)) ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> jsonConverters;
 
   /// @brief Field readableWithDefault, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_readableWithDefault, put = setStaticF_readableWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings* readableWithDefault;
+  __declspec(property(get = getStaticF_readableWithDefault, put = setStaticF_readableWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings* readableWithDefault;
 
   static inline ::Newtonsoft::Json::JsonSerializerSettings* getStaticF_compactNoDefault();
 
@@ -70,7 +67,7 @@ public:
   JsonSettings(JsonSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19031 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

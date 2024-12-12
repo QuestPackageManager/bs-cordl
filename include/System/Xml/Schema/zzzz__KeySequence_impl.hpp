@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::KeySequence::*)(int32_t, int32_t, int32_t)>(
     &::System::Xml::Schema::KeySequence::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x43367fc;
+  constexpr static std::size_t addrs = 0x4397b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::get_PosLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4337224;
+  constexpr static std::size_t addrs = 0x4398538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::KeySequence*>::get(), "get_PosLine",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::get_PosCol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433722c;
+  constexpr static std::size_t addrs = 0x4398540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::KeySequence*>::get(), "get_PosCol",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::KeySequence::*)(int32_t)>(&::System::Xml::Schema::KeySequence::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4337234;
+  constexpr static std::size_t addrs = 0x4398548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::KeySequence::*)(int32_t, ::System::Object*)>(
     &::System::Xml::Schema::KeySequence::set_Item)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4337264;
+  constexpr static std::size_t addrs = 0x4398578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::IsQualified)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x433735c;
+  constexpr static std::size_t addrs = 0x4398670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::KeySequence*>::get(), "IsQualified",
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::GetHashCode)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x43373bc;
+  constexpr static std::size_t addrs = 0x43986d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::KeySequence::*)(::System::Object*)>(&::System::Xml::Schema::KeySequence::Equals)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4337730;
+  constexpr static std::size_t addrs = 0x4398a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::ToString)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4337820;
+  constexpr static std::size_t addrs = 0x4398b34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,9 +190,6 @@ constexpr void System::Xml::Schema::KeySequence::__cordl_internal_set_poscol(int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___poscol = value;
 }
-inline ::System::Xml::Schema::KeySequence* System::Xml::Schema::KeySequence::New_ctor(int32_t dim, int32_t line, int32_t col) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::KeySequence*>(dim, line, col));
-}
 inline void System::Xml::Schema::KeySequence::_ctor(int32_t dim, int32_t line, int32_t col) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::KeySequence*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -241,6 +238,9 @@ inline ::StringW System::Xml::Schema::KeySequence::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::KeySequence*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::KeySequence* System::Xml::Schema::KeySequence::New_ctor(int32_t dim, int32_t line, int32_t col) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::KeySequence*>(dim, line, col));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::KeySequence::KeySequence() {}

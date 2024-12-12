@@ -11,17 +11,16 @@ class DuplicateNodeError;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::DuplicateNodeError);
-// Type: UnityEngine.ProBuilder.KdTree::DuplicateNodeError
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine::ProBuilder::KdTree {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.KdTree::DuplicateNodeError*
+// CS Name: UnityEngine.ProBuilder.KdTree.DuplicateNodeError
 class CORDL_TYPE DuplicateNodeError : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::KdTree::DuplicateNodeError* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4693840, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46f4b54, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   DuplicateNodeError(DuplicateNodeError const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18540 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

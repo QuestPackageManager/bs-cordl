@@ -3,59 +3,49 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__OneOrMore_2_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OneOrMore_2)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue, typename TList> class __OneOrMore_2__Enumerator;
+template <typename TValue, typename TList> class OneOrMore_2_Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue, typename TList> class __OneOrMore_2__Enumerator;
+template <typename TValue, typename TList> class OneOrMore_2_Enumerator;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue, typename TList> struct OneOrMore_2;
 }
 // Write type traits
-MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__OneOrMore_2__Enumerator);
+MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::OneOrMore_2);
-// Type: UnityEngine.InputSystem.Utilities::OneOrMore`2
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyList`1<T>, System.Collections.IEnumerable
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Utilities::OneOrMore`2<TValue,TList>
+// CS Name: UnityEngine.InputSystem.Utilities.OneOrMore`2<TValue,TList>
 struct CORDL_TYPE OneOrMore_2 {
 public:
   // Declarations
-  using Enumerator = ::UnityEngine::InputSystem::Utilities::__OneOrMore_2__Enumerator<TValue, TList>;
+  using Enumerator = ::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -117,6 +107,12 @@ public:
   // "m_Multiple", ty: "TList", modifiers: "", def_value: None }]
   constexpr OneOrMore_2(bool m_IsSingle, TValue m_Single, TList m_Multiple) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7102 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
   /// @brief Field m_IsSingle, offset: 0x0, size: 0x1, def value: None
   bool m_IsSingle;
 
@@ -126,24 +122,17 @@ public:
   /// @brief Field m_Multiple, offset: 0x10, size: 0x8, def value: None
   TList m_Multiple;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7077 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: ::Enumerator
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object, UnityEngine.InputSystem.Utilities.OneOrMore`2<TValue, TList>
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: false
-// CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
-class CORDL_TYPE __OneOrMore_2__Enumerator : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.OneOrMore`2/Enumerator<TValue,TList>
+class CORDL_TYPE OneOrMore_2_Enumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) TValue Current;
@@ -171,7 +160,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::InputSystem::Utilities::__OneOrMore_2__Enumerator<TValue, TList>* New_ctor();
+  static inline ::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>* New_ctor();
 
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
@@ -209,16 +198,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OneOrMore_2__Enumerator();
+  constexpr OneOrMore_2_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OneOrMore_2__Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OneOrMore_2_Enumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OneOrMore_2__Enumerator(__OneOrMore_2__Enumerator&&) = delete;
+  OneOrMore_2_Enumerator(OneOrMore_2_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OneOrMore_2__Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OneOrMore_2_Enumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OneOrMore_2__Enumerator(__OneOrMore_2__Enumerator const&) = delete;
+  OneOrMore_2_Enumerator(OneOrMore_2_Enumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7101 };
 
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Index;
@@ -226,12 +218,9 @@ public:
   /// @brief Field m_List, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> ___m_List;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7076 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::__OneOrMore_2__Enumerator, "UnityEngine.InputSystem.Utilities", "OneOrMore`2/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator, "UnityEngine.InputSystem.Utilities", "OneOrMore`2/Enumerator");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::OneOrMore_2, "UnityEngine.InputSystem.Utilities", "OneOrMore`2");

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__DES_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DESCryptoServiceProvider)
 namespace System::Security::Cryptography {
@@ -16,29 +15,28 @@ class DESCryptoServiceProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::DESCryptoServiceProvider);
-// Type: System.Security.Cryptography::DESCryptoServiceProvider
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.DES
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::DESCryptoServiceProvider*
+// CS Name: System.Security.Cryptography.DESCryptoServiceProvider
 class CORDL_TYPE DESCryptoServiceProvider : public ::System::Security::Cryptography::DES {
 public:
   // Declarations
-  /// @brief Method CreateDecryptor, addr 0x3c3e3c0, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x3c9e534, size 0x130, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x3c3e290, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x3c9e404, size 0x130, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x3c3e5d0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x3c9e744, size 0x6c, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x3c3e4f0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x3c9e664, size 0xe0, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::DESCryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c3e004, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9e178, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

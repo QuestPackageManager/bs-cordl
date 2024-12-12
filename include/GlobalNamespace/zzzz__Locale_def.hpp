@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Locale)
 namespace System {
@@ -16,18 +15,17 @@ class Locale;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Locale);
-// Type: ::Locale
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Locale*
+// CS Name: Locale
 class CORDL_TYPE Locale : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetText, addr 0x3bcee8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x3c2efa0, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetText, addr 0x3bcee88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x3c2ef9c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW msg);
 
 protected:
@@ -45,7 +43,7 @@ public:
   Locale(Locale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

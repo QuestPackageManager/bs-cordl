@@ -10,36 +10,36 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__FlyingTextEffect__Pool._ctor
+//  Writing Method size for method: ::GlobalNamespace::FlyingTextEffect_Pool._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FlyingTextEffect__Pool::*)()>(&::GlobalNamespace::__FlyingTextEffect__Pool::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingTextEffect_Pool::*)()>(&::GlobalNamespace::FlyingTextEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b1de18;
+  constexpr static std::size_t addrs = 0x3b7efc4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FlyingTextEffect__Pool*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingTextEffect_Pool*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__FlyingTextEffect__Pool* GlobalNamespace::__FlyingTextEffect__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FlyingTextEffect__Pool*>());
-}
-inline void GlobalNamespace::__FlyingTextEffect__Pool::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FlyingTextEffect__Pool*>::get(), ".ctor",
+inline void GlobalNamespace::FlyingTextEffect_Pool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingTextEffect_Pool*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::FlyingTextEffect_Pool* GlobalNamespace::FlyingTextEffect_Pool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingTextEffect_Pool*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FlyingTextEffect__Pool::__FlyingTextEffect__Pool() {}
+constexpr ::GlobalNamespace::FlyingTextEffect_Pool::FlyingTextEffect_Pool() {}
 //  Writing Method size for method: ::GlobalNamespace::FlyingTextEffect.InitAndPresent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)(
     ::StringW, float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Color, float_t, bool)>(&::GlobalNamespace::FlyingTextEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b1dd0c;
+  constexpr static std::size_t addrs = 0x3b7eeb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)(float_t)>(&::GlobalNamespace::FlyingTextEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b1dd84;
+  constexpr static std::size_t addrs = 0x3b7ef30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)()>(&::GlobalNamespace::FlyingTextEffect::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b1dde8;
+  constexpr static std::size_t addrs = 0x3b7ef94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingTextEffect*>::get(), ".ctor",
@@ -95,7 +95,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::FlyingTextEffect::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeAnimationCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::FlyingTextEffect::__cordl_internal_get__fadeAnimationCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::FlyingTextEffect::__cordl_internal_get__fadeAnimationCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeAnimationCurve;
 }
@@ -131,13 +131,13 @@ inline void GlobalNamespace::FlyingTextEffect::ManualUpdate(float_t t) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingTextEffect*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
 }
-inline ::GlobalNamespace::FlyingTextEffect* GlobalNamespace::FlyingTextEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingTextEffect*>());
-}
 inline void GlobalNamespace::FlyingTextEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingTextEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FlyingTextEffect* GlobalNamespace::FlyingTextEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingTextEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlyingTextEffect::FlyingTextEffect() {}

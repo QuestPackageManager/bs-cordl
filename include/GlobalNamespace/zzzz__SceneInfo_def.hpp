@@ -12,11 +12,10 @@ class SceneInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneInfo);
-// Type: ::SceneInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SceneInfo*
+// CS Name: SceneInfo
 class CORDL_TYPE SceneInfo : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -44,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2267024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2299878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledRootObjects, addr 0x226701c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledRootObjects, addr 0x2299870, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledRootObjects();
 
-  /// @brief Method get_sceneName, addr 0x2267014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneName, addr 0x2299868, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sceneName();
 
 protected:
@@ -67,23 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SceneInfo(SceneInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };
+
   /// @brief Field _sceneName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____sceneName;
 
   /// @brief Field _disabledRootObjects, offset: 0x20, size: 0x1, def value: None
   bool ____disabledRootObjects;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17577 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SceneInfo, ____sceneName) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SceneInfo, ____disabledRootObjects) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneInfo, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SceneInfo);

@@ -40,11 +40,11 @@ class X509ChainPolicy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainPolicy);
-// Type: System.Security.Cryptography.X509Certificates::X509ChainPolicy
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Object, System.Security.Cryptography.X509Certificates.X509RevocationFlag, System.Security.Cryptography.X509Certificates.X509RevocationMode,
+// System.Security.Cryptography.X509Certificates.X509VerificationFlags, System.TimeSpan
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainPolicy*
+// CS Name: System.Security.Cryptography.X509Certificates.X509ChainPolicy
 class CORDL_TYPE X509ChainPolicy : public ::System::Object {
 public:
   // Declarations
@@ -89,16 +89,16 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* New_ctor();
 
-  /// @brief Method Reset, addr 0x43dfaec, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4440e00, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
+
+  constexpr ::System::Security::Cryptography::OidCollection* const& __cordl_internal_get_apps() const;
 
   constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get_apps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __cordl_internal_get_apps() const;
+  constexpr ::System::Security::Cryptography::OidCollection* const& __cordl_internal_get_cert() const;
 
   constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get_cert();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __cordl_internal_get_cert() const;
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode const& __cordl_internal_get_mode() const;
 
@@ -108,13 +108,13 @@ public:
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag& __cordl_internal_get_rflag();
 
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* const& __cordl_internal_get_store() const;
+
   constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get_store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get_store() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* const& __cordl_internal_get_store2() const;
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __cordl_internal_get_store2();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __cordl_internal_get_store2() const;
 
   constexpr ::System::TimeSpan const& __cordl_internal_get_timeout() const;
 
@@ -146,37 +146,37 @@ public:
 
   constexpr void __cordl_internal_set_vtime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x43dcb9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443deb0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExtraStore, addr 0x43ddafc, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method get_ExtraStore, addr 0x443ee10, size 0x260, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
 
-  /// @brief Method get_RevocationFlag, addr 0x43dfbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationFlag, addr 0x4440ee8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
 
-  /// @brief Method get_RevocationMode, addr 0x43dfc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationMode, addr 0x4440f50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
 
-  /// @brief Method get_VerificationFlags, addr 0x43dfcac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationFlags, addr 0x4440fc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
 
-  /// @brief Method get_VerificationTime, addr 0x43dfd14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationTime, addr 0x4441028, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_VerificationTime();
 
-  /// @brief Method set_RevocationFlag, addr 0x43dfbdc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationFlag, addr 0x4440ef0, size 0x60, virtual false, abstract: false, final false
   inline void set_RevocationFlag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
 
-  /// @brief Method set_RevocationMode, addr 0x43dfc44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationMode, addr 0x4440f58, size 0x60, virtual false, abstract: false, final false
   inline void set_RevocationMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_UrlRetrievalTimeout, addr 0x43dfca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UrlRetrievalTimeout, addr 0x4440fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_UrlRetrievalTimeout(::System::TimeSpan value);
 
-  /// @brief Method set_VerificationFlags, addr 0x43dfcb4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_VerificationFlags, addr 0x4440fc8, size 0x60, virtual false, abstract: false, final false
   inline void set_VerificationFlags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
 
-  /// @brief Method set_VerificationTime, addr 0x43dfd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_VerificationTime, addr 0x4441030, size 0x8, virtual false, abstract: false, final false
   inline void set_VerificationTime(::System::DateTime value);
 
 protected:
@@ -192,6 +192,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainPolicy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509ChainPolicy(X509ChainPolicy const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9324 };
 
   /// @brief Field apps, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::OidCollection* ___apps;
@@ -220,14 +223,9 @@ public:
   /// @brief Field vtime, offset: 0x48, size: 0x8, def value: None
   ::System::DateTime ___vtime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9299 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ChainPolicy, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___apps) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___cert) == 0x18, "Offset mismatch!");
@@ -245,6 +243,8 @@ static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509C
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___vflags) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___vtime) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ChainPolicy, 0x50>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509ChainPolicy);

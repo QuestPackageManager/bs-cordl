@@ -12,17 +12,16 @@ class UserMappingType;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::UserMappingType);
-// Type: Org.BouncyCastle.Crypto.Tls::UserMappingType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::UserMappingType*
+// CS Name: Org.BouncyCastle.Crypto.Tls.UserMappingType
 class CORDL_TYPE UserMappingType : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::UserMappingType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x240f464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2442750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

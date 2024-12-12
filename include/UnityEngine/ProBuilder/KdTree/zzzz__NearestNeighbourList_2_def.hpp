@@ -4,11 +4,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__INearestNeighbourList_2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NearestNeighbourList_2)
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TDistance> class INearestNeighbourList_2;
-}
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
 }
@@ -21,13 +19,12 @@ template <typename TItem, typename TDistance> class NearestNeighbourList_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2);
-// Type: UnityEngine.ProBuilder.KdTree::NearestNeighbourList`2
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ProBuilder.KdTree.INearestNeighbourList`2<TItem, TDistance>
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TDistance>
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.KdTree::NearestNeighbourList`2<TItem,TDistance>*
+// CS Name: UnityEngine.ProBuilder.KdTree.NearestNeighbourList`2<TItem,TDistance>
 class CORDL_TYPE NearestNeighbourList_2 : public ::System::Object {
 public:
   // Declarations
@@ -63,17 +60,17 @@ public:
   /// @brief Method RemoveFurtherest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem RemoveFurtherest();
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*& __cordl_internal_get_distanceMath();
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* const& __cordl_internal_get_distanceMath() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*> const& __cordl_internal_get_distanceMath() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*& __cordl_internal_get_distanceMath();
 
   constexpr int32_t const& __cordl_internal_get_maxCapacity() const;
 
   constexpr int32_t& __cordl_internal_get_maxCapacity();
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*& __cordl_internal_get_queue();
+  constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* const& __cordl_internal_get_queue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*> const& __cordl_internal_get_queue() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*& __cordl_internal_get_queue();
 
   constexpr void __cordl_internal_set_distanceMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* value);
 
@@ -110,6 +107,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NearestNeighbourList_2(NearestNeighbourList_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18547 };
+
   /// @brief Field queue, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* ___queue;
 
@@ -118,9 +118,6 @@ public:
 
   /// @brief Field maxCapacity, offset: 0x20, size: 0x4, def value: None
   int32_t ___maxCapacity;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

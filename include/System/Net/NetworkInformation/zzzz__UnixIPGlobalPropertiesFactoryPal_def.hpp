@@ -14,24 +14,22 @@ class UnixIPGlobalPropertiesFactoryPal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal);
-// Type: System.Net.NetworkInformation::UnixIPGlobalPropertiesFactoryPal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::UnixIPGlobalPropertiesFactoryPal*
+// CS Name: System.Net.NetworkInformation.UnixIPGlobalPropertiesFactoryPal
 class CORDL_TYPE UnixIPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <PlatformNeedsLibCWorkaround>k__BackingField, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF__PlatformNeedsLibCWorkaround_k__BackingField,
-                             put = setStaticF__PlatformNeedsLibCWorkaround_k__BackingField)) bool _PlatformNeedsLibCWorkaround_k__BackingField;
+  __declspec(property(get = getStaticF__PlatformNeedsLibCWorkaround_k__BackingField, put = setStaticF__PlatformNeedsLibCWorkaround_k__BackingField)) bool _PlatformNeedsLibCWorkaround_k__BackingField;
 
-  /// @brief Method Create, addr 0x4389000, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x43ea314, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
   static inline bool getStaticF__PlatformNeedsLibCWorkaround_k__BackingField();
 
-  /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x438be20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x43ed134, size 0x48, virtual false, abstract: false, final false
   static inline bool get_PlatformNeedsLibCWorkaround();
 
   static inline void setStaticF__PlatformNeedsLibCWorkaround_k__BackingField(bool value);
@@ -51,7 +49,7 @@ public:
   UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

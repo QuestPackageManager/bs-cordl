@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_GlyphAdjustmentRecord (::TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47739bc;
+  constexpr static std::size_t addrs = 0x47d4cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::TMP_GlyphAdjustmentRecord)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47739d0;
+  constexpr static std::size_t addrs = 0x47d4ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_GlyphAdjustmentRecord (::TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47739e4;
+  constexpr static std::size_t addrs = 0x47d4cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::TMP_GlyphAdjustmentRecord)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47739f8;
+  constexpr static std::size_t addrs = 0x47d4d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::FontFeatureLookupFlags (::TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4773a0c;
+  constexpr static std::size_t addrs = 0x47d4d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::FontFeatureLookupFlags)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4773a14;
+  constexpr static std::size_t addrs = 0x47d4d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::TMP_GlyphAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord)>(&::TMPro::TMP_GlyphPairAdjustmentRecord::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4771254;
+  constexpr static std::size_t addrs = 0x47d2568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4770808;
+  constexpr static std::size_t addrs = 0x47d1b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,10 +194,6 @@ inline void TMPro::TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags(::TMPro
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::FontFeatureLookupFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::TMPro::TMP_GlyphPairAdjustmentRecord* TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord,
-                                                                                              ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_GlyphPairAdjustmentRecord*>(firstAdjustmentRecord, secondAdjustmentRecord));
-}
 inline void TMPro::TMP_GlyphPairAdjustmentRecord::_ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -205,14 +201,18 @@ inline void TMPro::TMP_GlyphPairAdjustmentRecord::_ctor(::TMPro::TMP_GlyphAdjust
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_GlyphAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstAdjustmentRecord, secondAdjustmentRecord);
 }
-inline ::TMPro::TMP_GlyphPairAdjustmentRecord* TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_GlyphPairAdjustmentRecord*>(glyphPairAdjustmentRecord));
-}
 inline void TMPro::TMP_GlyphPairAdjustmentRecord::_ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, glyphPairAdjustmentRecord);
+}
+inline ::TMPro::TMP_GlyphPairAdjustmentRecord* TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord,
+                                                                                              ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_GlyphPairAdjustmentRecord*>(firstAdjustmentRecord, secondAdjustmentRecord));
+}
+inline ::TMPro::TMP_GlyphPairAdjustmentRecord* TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_GlyphPairAdjustmentRecord*>(glyphPairAdjustmentRecord));
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_GlyphPairAdjustmentRecord::TMP_GlyphPairAdjustmentRecord() {}

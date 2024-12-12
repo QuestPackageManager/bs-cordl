@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__HMAC_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMACMD5)
 // Forward declare root types
@@ -13,11 +12,10 @@ class HMACMD5;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::HMACMD5);
-// Type: System.Security.Cryptography::HMACMD5
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.HMAC
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::HMACMD5*
+// CS Name: System.Security.Cryptography.HMACMD5
 class CORDL_TYPE HMACMD5 : public ::System::Security::Cryptography::HMAC {
 public:
   // Declarations
@@ -25,10 +23,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x3c3fd70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9fee4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c3fd94, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9ff08, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:

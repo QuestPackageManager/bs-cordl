@@ -11,17 +11,16 @@ class UnsafeValueTypeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::UnsafeValueTypeAttribute);
-// Type: System.Runtime.CompilerServices::UnsafeValueTypeAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::UnsafeValueTypeAttribute*
+// CS Name: System.Runtime.CompilerServices.UnsafeValueTypeAttribute
 class CORDL_TYPE UnsafeValueTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::UnsafeValueTypeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb77a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d17918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

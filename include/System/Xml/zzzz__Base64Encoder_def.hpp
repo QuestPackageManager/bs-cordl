@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Base64Encoder)
 // Forward declare root types
@@ -13,11 +12,10 @@ class Base64Encoder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Base64Encoder);
-// Type: System.Xml::Base64Encoder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::Base64Encoder*
+// CS Name: System.Xml.Base64Encoder
 class CORDL_TYPE Base64Encoder : public ::System::Object {
 public:
   // Declarations
@@ -30,15 +28,15 @@ public:
   /// @brief Field leftOverBytesCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_leftOverBytesCount, put = __cordl_internal_set_leftOverBytesCount)) int32_t leftOverBytesCount;
 
-  /// @brief Method Encode, addr 0x41d3060, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x4234374, size 0x348, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush, addr 0x41d33a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x42346bc, size 0xa8, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
 
-  /// @brief Method WriteChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method WriteChars, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_charsLine() const;
@@ -59,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_leftOverBytesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41d3004, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4234318, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Base64Encoder(Base64Encoder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7149 };
+
   /// @brief Field leftOverBytes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___leftOverBytes;
 
@@ -85,19 +86,16 @@ public:
   /// @brief Field charsLine, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<char16_t, ::Array<char16_t>*> ___charsLine;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7124 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Base64Encoder, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Base64Encoder, ___leftOverBytes) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Base64Encoder, ___leftOverBytesCount) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Base64Encoder, ___charsLine) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Base64Encoder, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::Base64Encoder);

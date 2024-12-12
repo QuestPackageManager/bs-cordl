@@ -16,11 +16,10 @@ class DefaultValueAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Internal::DefaultValueAttribute);
-// Type: UnityEngine.Internal::DefaultValueAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Internal {
 // Is value type: false
-// CS Name: ::UnityEngine.Internal::DefaultValueAttribute*
+// CS Name: UnityEngine.Internal.DefaultValueAttribute
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -29,24 +28,24 @@ public:
 
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
-  /// @brief Method Equals, addr 0x48600dc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48c1474, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4860194, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48c152c, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
 
-  constexpr ::System::Object*& __cordl_internal_get_DefaultValue();
+  constexpr ::System::Object* const& __cordl_internal_get_DefaultValue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_DefaultValue() const;
+  constexpr ::System::Object*& __cordl_internal_get_DefaultValue();
 
   constexpr void __cordl_internal_set_DefaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x48600ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c1444, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_Value, addr 0x48600d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x48c146c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -63,18 +62,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultValueAttribute(DefaultValueAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11170 };
+
   /// @brief Field DefaultValue, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___DefaultValue;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Internal::DefaultValueAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Internal::DefaultValueAttribute, ___DefaultValue) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Internal::DefaultValueAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Internal
 NEED_NO_BOX(::UnityEngine::Internal::DefaultValueAttribute);

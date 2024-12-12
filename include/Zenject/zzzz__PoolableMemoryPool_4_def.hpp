@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPool_4_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPool_4)
 namespace System {
 class Object;
@@ -18,13 +17,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolableMemoryPool_4);
-// Type: Zenject::PoolableMemoryPool`4
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MemoryPool`4<TParam1, TParam2, TParam3, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::PoolableMemoryPool`4<TParam1,TParam2,TParam3,TValue>*
+// CS Name: Zenject.PoolableMemoryPool`4<TParam1,TParam2,TParam3,TValue>
 class CORDL_TYPE PoolableMemoryPool_4 : public ::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue> {
 public:
   // Declarations
@@ -60,7 +58,7 @@ public:
   PoolableMemoryPool_4(PoolableMemoryPool_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

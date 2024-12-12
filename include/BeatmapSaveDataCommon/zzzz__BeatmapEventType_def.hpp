@@ -12,11 +12,10 @@ struct BeatmapEventType;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataCommon::BeatmapEventType);
-// Type: BeatmapSaveDataCommon::BeatmapEventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatmapSaveDataCommon {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataCommon::BeatmapEventType
+// CS Name: BeatmapSaveDataCommon.BeatmapEventType
 struct CORDL_TYPE BeatmapEventType {
 public:
   // Declarations
@@ -71,105 +70,105 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr BeatmapEventType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BpmChange value: static_cast<int32_t>(0x64)
+  /// @brief Field BpmChange value: I32(100)
   static ::BeatmapSaveDataCommon::BeatmapEventType const BpmChange;
 
-  /// @brief Field ColorBoostEventType value: static_cast<int32_t>(0x5)
+  /// @brief Field ColorBoostEventType value: I32(5)
   static ::BeatmapSaveDataCommon::BeatmapEventType const ColorBoostEventType;
 
-  /// @brief Field EarlyRotationEventType value: static_cast<int32_t>(0xe)
+  /// @brief Field EarlyRotationEventType value: I32(14)
   static ::BeatmapSaveDataCommon::BeatmapEventType const EarlyRotationEventType;
 
-  /// @brief Field Event0 value: static_cast<int32_t>(0x0)
+  /// @brief Field Event0 value: I32(0)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event0;
 
-  /// @brief Field Event1 value: static_cast<int32_t>(0x1)
+  /// @brief Field Event1 value: I32(1)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event1;
 
-  /// @brief Field Event10 value: static_cast<int32_t>(0xa)
+  /// @brief Field Event10 value: I32(10)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event10;
 
-  /// @brief Field Event11 value: static_cast<int32_t>(0xb)
+  /// @brief Field Event11 value: I32(11)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event11;
 
-  /// @brief Field Event12 value: static_cast<int32_t>(0xc)
+  /// @brief Field Event12 value: I32(12)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event12;
 
-  /// @brief Field Event13 value: static_cast<int32_t>(0xd)
+  /// @brief Field Event13 value: I32(13)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event13;
 
-  /// @brief Field Event14 value: static_cast<int32_t>(0xe)
+  /// @brief Field Event14 value: I32(14)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event14;
 
-  /// @brief Field Event15 value: static_cast<int32_t>(0xf)
+  /// @brief Field Event15 value: I32(15)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event15;
 
-  /// @brief Field Event16 value: static_cast<int32_t>(0x10)
+  /// @brief Field Event16 value: I32(16)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event16;
 
-  /// @brief Field Event17 value: static_cast<int32_t>(0x11)
+  /// @brief Field Event17 value: I32(17)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event17;
 
-  /// @brief Field Event2 value: static_cast<int32_t>(0x2)
+  /// @brief Field Event2 value: I32(2)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event2;
 
-  /// @brief Field Event3 value: static_cast<int32_t>(0x3)
+  /// @brief Field Event3 value: I32(3)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event3;
 
-  /// @brief Field Event4 value: static_cast<int32_t>(0x4)
+  /// @brief Field Event4 value: I32(4)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event4;
 
-  /// @brief Field Event5 value: static_cast<int32_t>(0x5)
+  /// @brief Field Event5 value: I32(5)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event5;
 
-  /// @brief Field Event6 value: static_cast<int32_t>(0x6)
+  /// @brief Field Event6 value: I32(6)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event6;
 
-  /// @brief Field Event7 value: static_cast<int32_t>(0x7)
+  /// @brief Field Event7 value: I32(7)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event7;
 
-  /// @brief Field Event8 value: static_cast<int32_t>(0x8)
+  /// @brief Field Event8 value: I32(8)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event8;
 
-  /// @brief Field Event9 value: static_cast<int32_t>(0x9)
+  /// @brief Field Event9 value: I32(9)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event9;
 
-  /// @brief Field LateRotationEventType value: static_cast<int32_t>(0xf)
+  /// @brief Field LateRotationEventType value: I32(15)
   static ::BeatmapSaveDataCommon::BeatmapEventType const LateRotationEventType;
 
-  /// @brief Field LegacyBpmEventType value: static_cast<int32_t>(0xa)
+  /// @brief Field LegacyBpmEventType value: I32(10)
   static ::BeatmapSaveDataCommon::BeatmapEventType const LegacyBpmEventType;
 
-  /// @brief Field Special0 value: static_cast<int32_t>(0x28)
+  /// @brief Field Special0 value: I32(40)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Special0;
 
-  /// @brief Field Special1 value: static_cast<int32_t>(0x29)
+  /// @brief Field Special1 value: I32(41)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Special1;
 
-  /// @brief Field Special2 value: static_cast<int32_t>(0x2a)
+  /// @brief Field Special2 value: I32(42)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Special2;
 
-  /// @brief Field Special3 value: static_cast<int32_t>(0x2b)
+  /// @brief Field Special3 value: I32(43)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Special3;
 
-  /// @brief Field VoidEvent value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field VoidEvent value: I32(-1)
   static ::BeatmapSaveDataCommon::BeatmapEventType const VoidEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13439 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::BeatmapEventType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataCommon::BeatmapEventType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::BeatmapEventType, 0x4>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataCommon
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataCommon::BeatmapEventType, "BeatmapSaveDataCommon", "BeatmapEventType");

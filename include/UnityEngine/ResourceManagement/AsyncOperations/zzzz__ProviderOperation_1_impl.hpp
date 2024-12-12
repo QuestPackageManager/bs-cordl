@@ -3,6 +3,8 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_impl.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_impl.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ProviderOperation_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -16,34 +18,10 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
-/// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation"
-template <typename TObject>
-constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation"
-template <typename TObject>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__IGenericProviderOperation() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
-template <typename TObject>
-constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
-template <typename TObject>
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__ICachable() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(static_cast<void*>(this));
-}
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_ReleaseDependenciesOnFailure() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseDependenciesOnFailure;
@@ -63,7 +41,7 @@ UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::
   return this->___m_CompletionCallback;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*> const&
+constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_CompletionCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CompletionCallback;
@@ -81,7 +59,7 @@ UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::
   return this->___m_GetDepCallback;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*> const&
+constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_GetDepCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetDepCallback;
@@ -97,8 +75,7 @@ template <typename TObject> constexpr ::System::Func_1<float_t>*& UnityEngine::R
   return this->___m_GetProgressCallback;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_1<float_t>*> const&
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_GetProgressCallback() const {
+constexpr ::System::Func_1<float_t>* const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_GetProgressCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetProgressCallback;
 }
@@ -114,7 +91,7 @@ UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::
   return this->___m_GetDownloadProgressCallback;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*> const&
+constexpr ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_GetDownloadProgressCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetDownloadProgressCallback;
@@ -130,8 +107,7 @@ template <typename TObject> constexpr ::System::Func_1<bool>*& UnityEngine::Reso
   return this->___m_WaitForCompletionCallback;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const&
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_WaitForCompletionCallback() const {
+constexpr ::System::Func_1<bool>* const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_WaitForCompletionCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WaitForCompletionCallback;
 }
@@ -175,7 +151,7 @@ constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvide
   return this->___m_Provider;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*> const&
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_Provider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Provider;
@@ -213,7 +189,7 @@ constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocatio
   return this->___m_Location;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const&
+constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_Location() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Location;
@@ -255,7 +231,7 @@ UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::
   return this->____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*> const&
+constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
@@ -272,8 +248,7 @@ constexpr ::UnityEngine::ResourceManagement::ResourceManager*& UnityEngine::Reso
   return this->___m_ResourceManager;
 }
 template <typename TObject>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const&
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_ResourceManager() const {
+constexpr ::UnityEngine::ResourceManagement::ResourceManager* const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_ResourceManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceManager;
 }
@@ -340,10 +315,6 @@ UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, false>(this, ___internal_method, visited);
-}
-template <typename TObject>
-inline ::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>* UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>*>());
 }
 template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::_ctor() {
   static auto* ___internal_method =
@@ -475,6 +446,32 @@ template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOp
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TObject>
+inline ::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>* UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>*>());
+}
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation"
+template <typename TObject>
+constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation"
+template <typename TObject>
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*
+UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__IGenericProviderOperation() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
+template <typename TObject>
+constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
+template <typename TObject>
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*
+UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::i___UnityEngine__ResourceManagement__AsyncOperations__ICachable() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::ProviderOperation_1() {}

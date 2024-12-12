@@ -18,11 +18,10 @@ class LocatedActiveAxis;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::LocatedActiveAxis);
-// Type: System.Xml.Schema::LocatedActiveAxis
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.ActiveAxis
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::LocatedActiveAxis*
+// CS Name: System.Xml.Schema.LocatedActiveAxis
 class CORDL_TYPE LocatedActiveAxis : public ::System::Xml::Schema::ActiveAxis {
 public:
   // Declarations
@@ -39,12 +38,12 @@ public:
 
   static inline ::System::Xml::Schema::LocatedActiveAxis* New_ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method Reactivate, addr 0x433641c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reactivate, addr 0x4397730, size 0x18, virtual false, abstract: false, final false
   inline void Reactivate(::System::Xml::Schema::KeySequence* ks);
 
-  constexpr ::System::Xml::Schema::KeySequence*& __cordl_internal_get_Ks();
+  constexpr ::System::Xml::Schema::KeySequence* const& __cordl_internal_get_Ks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::KeySequence*> const& __cordl_internal_get_Ks() const;
+  constexpr ::System::Xml::Schema::KeySequence*& __cordl_internal_get_Ks();
 
   constexpr int32_t const& __cordl_internal_get_column() const;
 
@@ -60,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_isMatched(bool value);
 
-  /// @brief Method .ctor, addr 0x43363ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4397700, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method get_Column, addr 0x43363e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Column, addr 0x43976f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Column();
 
 protected:
@@ -80,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocatedActiveAxis(LocatedActiveAxis const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7484 };
+
   /// @brief Field column, offset: 0x28, size: 0x4, def value: None
   int32_t ___column;
 
@@ -89,19 +91,16 @@ public:
   /// @brief Field Ks, offset: 0x30, size: 0x8, def value: None
   ::System::Xml::Schema::KeySequence* ___Ks;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7459 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::LocatedActiveAxis, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::LocatedActiveAxis, ___column) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::LocatedActiveAxis, ___isMatched) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::LocatedActiveAxis, ___Ks) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::LocatedActiveAxis, 0x38>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::LocatedActiveAxis);

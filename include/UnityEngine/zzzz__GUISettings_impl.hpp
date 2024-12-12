@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUISettings::*)()>(&::UnityEngine::GUISettings::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x48776d4;
+  constexpr static std::size_t addrs = 0x48db954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISettings*>::get(), ".ctor",
@@ -76,13 +76,13 @@ constexpr void UnityEngine::GUISettings::__cordl_internal_set_m_SelectionColor(:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SelectionColor = value;
 }
-inline ::UnityEngine::GUISettings* UnityEngine::GUISettings::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUISettings*>());
-}
 inline void UnityEngine::GUISettings::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISettings*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::GUISettings* UnityEngine::GUISettings::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUISettings*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUISettings::GUISettings() {}

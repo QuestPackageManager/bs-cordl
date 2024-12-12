@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SaberManager)
 namespace GlobalNamespace {
+class SaberManager_InitData;
+}
+namespace GlobalNamespace {
 struct SaberType;
 }
 namespace GlobalNamespace {
 class Saber;
-}
-namespace GlobalNamespace {
-class __SaberManager__InitData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -24,17 +24,16 @@ namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
-class __SaberManager__InitData;
+class SaberManager_InitData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberManager);
-MARK_REF_PTR_T(::GlobalNamespace::__SaberManager__InitData);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::SaberManager_InitData);
+// Dependencies SaberType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberManager::InitData*
-class CORDL_TYPE __SaberManager__InitData : public ::System::Object {
+// CS Name: SaberManager/InitData
+class CORDL_TYPE SaberManager_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field oneSaberMode, offset 0x10, size 0x1
@@ -43,7 +42,7 @@ public:
   /// @brief Field oneSaberType, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_oneSaberType, put = __cordl_internal_set_oneSaberType)) ::GlobalNamespace::SaberType oneSaberType;
 
-  static inline ::GlobalNamespace::__SaberManager__InitData* New_ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
+  static inline ::GlobalNamespace::SaberManager_InitData* New_ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
   constexpr bool const& __cordl_internal_get_oneSaberMode() const;
 
@@ -57,22 +56,25 @@ public:
 
   constexpr void __cordl_internal_set_oneSaberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x3b85ec4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be7714, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SaberManager__InitData();
+  constexpr SaberManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SaberManager__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberManager_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SaberManager__InitData(__SaberManager__InitData&&) = delete;
+  SaberManager_InitData(SaberManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SaberManager__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberManager_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SaberManager__InitData(__SaberManager__InitData const&) = delete;
+  SaberManager_InitData(SaberManager_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4655 };
 
   /// @brief Field oneSaberMode, offset: 0x10, size: 0x1, def value: None
   bool ___oneSaberMode;
@@ -80,31 +82,27 @@ public:
   /// @brief Field oneSaberType, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::SaberType ___oneSaberType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4643 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SaberManager__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberManager_InitData, ___oneSaberMode) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SaberManager__InitData, ___oneSaberMode) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberManager_InitData, ___oneSaberType) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SaberManager__InitData, ___oneSaberType) == 0x14, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberManager_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SaberManager
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberManager*
+// CS Name: SaberManager
 class CORDL_TYPE SaberManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__SaberManager__InitData;
+  using InitData = ::GlobalNamespace::SaberManager_InitData;
 
   /// @brief Field _initData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__SaberManager__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::SaberManager_InitData* _initData;
 
   /// @brief Field _leftSaber, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__leftSaber, put = __cordl_internal_set__leftSaber)) ::UnityW<::GlobalNamespace::Saber> _leftSaber;
@@ -128,27 +126,27 @@ public:
 
   static inline ::GlobalNamespace::SaberManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b85dc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3be7614, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b85dc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3be7618, size 0x10, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshSabers, addr 0x3b85ca0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RefreshSabers, addr 0x3be74f0, size 0x124, virtual false, abstract: false, final false
   inline void RefreshSabers();
 
-  /// @brief Method SaberForType, addr 0x3b85e6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SaberForType, addr 0x3be76bc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> SaberForType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method Start, addr 0x3b85c84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be74d4, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b85dd8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3be7628, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
-  constexpr ::GlobalNamespace::__SaberManager__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::SaberManager_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SaberManager__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::SaberManager_InitData*& __cordl_internal_get__initData();
 
   constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__leftSaber() const;
 
@@ -162,12 +160,11 @@ public:
 
   constexpr bool& __cordl_internal_get__started();
 
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* const& __cordl_internal_get_didUpdateSaberPositionsEvent() const;
+
   constexpr ::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>*& __cordl_internal_get_didUpdateSaberPositionsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>*> const&
-  __cordl_internal_get_didUpdateSaberPositionsEvent() const;
-
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SaberManager__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::SaberManager_InitData* value);
 
   constexpr void __cordl_internal_set__leftSaber(::UnityW<::GlobalNamespace::Saber> value);
 
@@ -177,22 +174,22 @@ public:
 
   constexpr void __cordl_internal_set_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method .ctor, addr 0x3b85ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be770c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x3b8413c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
+  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x3be59c4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
 
-  /// @brief Method get_leftSaber, addr 0x3b85c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftSaber, addr 0x3be74b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_leftSaber();
 
-  /// @brief Method get_rightSaber, addr 0x3b85c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightSaber, addr 0x3be74bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_rightSaber();
 
-  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x3b84278, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
+  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x3be5b00, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
 
-  /// @brief Method set_disableSabers, addr 0x3b85c74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_disableSabers, addr 0x3be74c4, size 0x10, virtual false, abstract: false, final false
   inline void set_disableSabers(bool value);
 
 protected:
@@ -209,6 +206,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberManager(SaberManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4656 };
+
   /// @brief Field _leftSaber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____leftSaber;
 
@@ -216,7 +216,7 @@ public:
   ::UnityW<::GlobalNamespace::Saber> ____rightSaber;
 
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::__SaberManager__InitData* ____initData;
+  ::GlobalNamespace::SaberManager_InitData* ____initData;
 
   /// @brief Field _started, offset: 0x38, size: 0x1, def value: None
   bool ____started;
@@ -224,14 +224,9 @@ public:
   /// @brief Field didUpdateSaberPositionsEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* ___didUpdateSaberPositionsEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4644 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberManager, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberManager, ____leftSaber) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberManager, ____rightSaber) == 0x28, "Offset mismatch!");
@@ -242,8 +237,10 @@ static_assert(offsetof(::GlobalNamespace::SaberManager, ____started) == 0x38, "O
 
 static_assert(offsetof(::GlobalNamespace::SaberManager, ___didUpdateSaberPositionsEvent) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberManager, 0x48>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberManager*, "", "SaberManager");
-NEED_NO_BOX(::GlobalNamespace::__SaberManager__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SaberManager__InitData*, "", "SaberManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::SaberManager_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberManager_InitData*, "", "SaberManager/InitData");

@@ -14,17 +14,16 @@ class HEU_PreAssetEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PreAssetEvent);
-// Type: HoudiniEngineUnity::HEU_PreAssetEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Events.UnityEvent`1<T0>
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_PreAssetEvent*
+// CS Name: HoudiniEngineUnity.HEU_PreAssetEvent
 class CORDL_TYPE HEU_PreAssetEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_PreAssetEventData*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_PreAssetEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39afd14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a06984, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   HEU_PreAssetEvent(HEU_PreAssetEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

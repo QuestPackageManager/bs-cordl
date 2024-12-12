@@ -17,38 +17,43 @@ namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
-struct __TextResourceManager__FontAssetRef;
+struct TextResourceManager_FontAssetRef;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 class TextResourceManager;
 }
 namespace UnityEngine::TextCore::Text {
-struct __TextResourceManager__FontAssetRef;
+struct TextResourceManager_FontAssetRef;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextResourceManager);
-MARK_VAL_T(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef);
-// Type: ::FontAssetRef
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef);
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::TextResourceManager::FontAssetRef
-struct CORDL_TYPE __TextResourceManager__FontAssetRef {
+// CS Name: UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef
+struct CORDL_TYPE TextResourceManager_FontAssetRef {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x48e9bb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494e248, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TextResourceManager__FontAssetRef();
+  constexpr TextResourceManager_FontAssetRef();
 
   // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam
   // { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
   // "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
-  constexpr __TextResourceManager__FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, int64_t familyNameAndStyleHashCode,
-                                                ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
+  constexpr TextResourceManager_FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, int64_t familyNameAndStyleHashCode,
+                                             ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15288 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field nameHashCode, offset: 0x0, size: 0x4, def value: None
   int32_t nameHashCode;
@@ -65,60 +70,53 @@ public:
   /// @brief Field fontAsset, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15253 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef, 0x20>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef, nameHashCode) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef, nameHashCode) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef, familyNameHashCode) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef, familyNameHashCode) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef, styleNameHashCode) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef, styleNameHashCode) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef, familyNameAndStyleHashCode) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef, familyNameAndStyleHashCode) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef, fontAsset) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef, fontAsset) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
-// Type: UnityEngine.TextCore.Text::TextResourceManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextResourceManager*
+// CS Name: UnityEngine.TextCore.Text.TextResourceManager
 class CORDL_TYPE TextResourceManager : public ::System::Object {
 public:
   // Declarations
-  using FontAssetRef = ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef;
+  using FontAssetRef = ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef;
 
   /// @brief Field k_RegularStyleHashCode, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_k_RegularStyleHashCode, put = setStaticF_k_RegularStyleHashCode)) int32_t k_RegularStyleHashCode;
+  __declspec(property(get = getStaticF_k_RegularStyleHashCode, put = setStaticF_k_RegularStyleHashCode)) int32_t k_RegularStyleHashCode;
 
   /// @brief Field s_FontAssetFamilyNameAndStyleReferenceLookup, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup,
-                             put = setStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*
+  __declspec(property(get = getStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup,
+                      put = setStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*
       s_FontAssetFamilyNameAndStyleReferenceLookup;
 
   /// @brief Field s_FontAssetNameReferenceLookup, offset 0xffffffff, size 0x8
-  static __declspec(property(
+  __declspec(property(
       get = getStaticF_s_FontAssetNameReferenceLookup,
       put = setStaticF_s_FontAssetNameReferenceLookup)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* s_FontAssetNameReferenceLookup;
 
   /// @brief Field s_FontAssetReferences, offset 0xffffffff, size 0x8
-  static __declspec(property(
+  __declspec(property(
       get = getStaticF_s_FontAssetReferences,
-      put = setStaticF_s_FontAssetReferences)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>* s_FontAssetReferences;
+      put = setStaticF_s_FontAssetReferences)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>* s_FontAssetReferences;
 
   /// @brief Field s_FontAssetRemovalList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FontAssetRemovalList, put = setStaticF_s_FontAssetRemovalList)) ::System::Collections::Generic::List_1<int32_t>* s_FontAssetRemovalList;
+  __declspec(property(get = getStaticF_s_FontAssetRemovalList, put = setStaticF_s_FontAssetRemovalList)) ::System::Collections::Generic::List_1<int32_t>* s_FontAssetRemovalList;
 
-  /// @brief Method AddFontAsset, addr 0x48e96a8, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x494dd38, size 0x510, virtual false, abstract: false, final false
   static inline void AddFontAsset(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   static inline int32_t getStaticF_k_RegularStyleHashCode();
@@ -127,7 +125,7 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF_s_FontAssetNameReferenceLookup();
 
-  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>* getStaticF_s_FontAssetReferences();
+  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>* getStaticF_s_FontAssetReferences();
 
   static inline ::System::Collections::Generic::List_1<int32_t>* getStaticF_s_FontAssetRemovalList();
 
@@ -137,7 +135,7 @@ public:
 
   static inline void setStaticF_s_FontAssetNameReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  static inline void setStaticF_s_FontAssetReferences(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>* value);
+  static inline void setStaticF_s_FontAssetReferences(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>* value);
 
   static inline void setStaticF_s_FontAssetRemovalList(::System::Collections::Generic::List_1<int32_t>* value);
 
@@ -156,7 +154,7 @@ public:
   TextResourceManager(TextResourceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15289 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,4 +164,4 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::Tex
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextResourceManager);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextResourceManager*, "UnityEngine.TextCore.Text", "TextResourceManager");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef, "UnityEngine.TextCore.Text", "TextResourceManager/FontAssetRef");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef, "UnityEngine.TextCore.Text", "TextResourceManager/FontAssetRef");

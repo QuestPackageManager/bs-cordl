@@ -18,11 +18,10 @@ class WebRequestPrefixElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::WebRequestPrefixElement);
-// Type: System.Net::WebRequestPrefixElement
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::WebRequestPrefixElement*
+// CS Name: System.Net.WebRequestPrefixElement
 class CORDL_TYPE WebRequestPrefixElement : public ::System::Object {
 public:
   // Declarations
@@ -43,13 +42,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_Prefix();
 
+  constexpr ::System::Net::IWebRequestCreate* const& __cordl_internal_get_creator() const;
+
   constexpr ::System::Net::IWebRequestCreate*& __cordl_internal_get_creator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebRequestCreate*> const& __cordl_internal_get_creator() const;
+  constexpr ::System::Type* const& __cordl_internal_get_creatorType() const;
 
   constexpr ::System::Type*& __cordl_internal_get_creatorType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_creatorType() const;
 
   constexpr void __cordl_internal_set_Prefix(::StringW value);
 
@@ -57,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_creatorType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x443ec5c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449ff70, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
-  /// @brief Method get_Creator, addr 0x443ea5c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x449fd70, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Net::IWebRequestCreate* get_Creator();
 
-  /// @brief Method set_Creator, addr 0x443ec54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Creator, addr 0x449ff68, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::System::Net::IWebRequestCreate* value);
 
 protected:
@@ -80,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WebRequestPrefixElement(WebRequestPrefixElement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9593 };
+
   /// @brief Field Prefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Prefix;
 
@@ -89,19 +91,16 @@ public:
   /// @brief Field creatorType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___creatorType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9568 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::WebRequestPrefixElement, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::WebRequestPrefixElement, ___Prefix) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::WebRequestPrefixElement, ___creator) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::WebRequestPrefixElement, ___creatorType) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::WebRequestPrefixElement, 0x28>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::WebRequestPrefixElement);

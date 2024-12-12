@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetPresetUtility)
@@ -17,24 +16,23 @@ class HEU_AssetPresetUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetPresetUtility);
-// Type: HoudiniEngineUnity::HEU_AssetPresetUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_AssetPresetUtility*
+// CS Name: HoudiniEngineUnity.HEU_AssetPresetUtility
 class CORDL_TYPE HEU_AssetPresetUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field PRESET_IDENTIFIER, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PRESET_IDENTIFIER, put = setStaticF_PRESET_IDENTIFIER)) ::ArrayW<char16_t, ::Array<char16_t>*> PRESET_IDENTIFIER;
+  __declspec(property(get = getStaticF_PRESET_IDENTIFIER, put = setStaticF_PRESET_IDENTIFIER)) ::ArrayW<char16_t, ::Array<char16_t>*> PRESET_IDENTIFIER;
 
   /// @brief Field PRESET_VERSION, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_PRESET_VERSION, put = setStaticF_PRESET_VERSION)) int32_t PRESET_VERSION;
+  __declspec(property(get = getStaticF_PRESET_VERSION, put = setStaticF_PRESET_VERSION)) int32_t PRESET_VERSION;
 
-  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x39b0f5c, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x3a07bcc, size 0x66c, virtual false, abstract: false, final false
   static inline void LoadPresetFileIntoAssetAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
-  /// @brief Method SaveAssetPresetToFile, addr 0x39b016c, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetPresetToFile, addr 0x3a06ddc, size 0x640, virtual false, abstract: false, final false
   static inline void SaveAssetPresetToFile(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_PRESET_IDENTIFIER();
@@ -60,7 +58,7 @@ public:
   HEU_AssetPresetUtility(HEU_AssetPresetUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11596 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

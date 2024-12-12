@@ -11,15 +11,14 @@ class __Il2CppComDelegate;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::__Il2CppComDelegate);
-// Type: System::__Il2CppComDelegate
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.__Il2CppComObject
 namespace System {
 // Is value type: false
-// CS Name: ::System::__Il2CppComDelegate*
+// CS Name: System.__Il2CppComDelegate
 class CORDL_TYPE __Il2CppComDelegate : public ::System::__Il2CppComObject {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x4af7228, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4b5bb38, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
 protected:
@@ -36,11 +35,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Il2CppComDelegate(__Il2CppComDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19286 };
+
   /// @brief Size padding 0xb0 - 0x10 = 0xa0, packed as 0xa0
   uint8_t _cordl_size_padding[0xa0];
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

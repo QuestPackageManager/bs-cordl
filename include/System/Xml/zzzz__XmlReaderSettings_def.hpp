@@ -60,11 +60,10 @@ class XmlReaderSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlReaderSettings);
-// Type: System.Xml::XmlReaderSettings
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 107, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Nullable`1<T>, System.Object, System.Xml.ConformanceLevel, System.Xml.DtdProcessing, System.Xml.Schema.XmlSchemaValidationFlags, System.Xml.ValidationType
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlReaderSettings*
+// CS Name: System.Xml.XmlReaderSettings
 class CORDL_TYPE XmlReaderSettings : public ::System::Object {
 public:
   // Declarations
@@ -149,7 +148,7 @@ public:
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field s_enableLegacyXmlSettings, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_s_enableLegacyXmlSettings, put = setStaticF_s_enableLegacyXmlSettings)) ::System::Nullable_1<bool> s_enableLegacyXmlSettings;
+  __declspec(property(get = getStaticF_s_enableLegacyXmlSettings, put = setStaticF_s_enableLegacyXmlSettings)) ::System::Nullable_1<bool> s_enableLegacyXmlSettings;
 
   /// @brief Field schemas, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_schemas, put = __cordl_internal_set_schemas)) ::System::Xml::Schema::XmlSchemaSet* schemas;
@@ -169,43 +168,43 @@ public:
   /// @brief Field xmlResolver, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver)) ::System::Xml::XmlResolver* xmlResolver;
 
-  /// @brief Method AddValidation, addr 0x42b45e4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddValidation, addr 0x43158f8, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReader* AddValidation(::System::Xml::XmlReader* reader);
 
-  /// @brief Method CheckReadOnly, addr 0x42b474c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CheckReadOnly, addr 0x4315a60, size 0xb4, virtual false, abstract: false, final false
   inline void CheckReadOnly(::StringW propertyName);
 
-  /// @brief Method Clone, addr 0x42aae70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x430c184, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReaderSettings* Clone();
 
-  /// @brief Method CreateDefaultResolver, addr 0x42b5264, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultResolver, addr 0x4316578, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlResolver* CreateDefaultResolver();
 
-  /// @brief Method CreateDtdValidatingReader, addr 0x42b52b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateDtdValidatingReader, addr 0x43165cc, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::XmlValidatingReaderImpl* CreateDtdValidatingReader(::System::Xml::XmlReader* baseReader);
 
-  /// @brief Method CreateReader, addr 0x42b3ef4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method CreateReader, addr 0x4315208, size 0x1a8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReader* CreateReader(::System::IO::Stream* input, ::System::Uri* baseUri, ::StringW baseUriString, ::System::Xml::XmlParserContext* inputContext);
 
-  /// @brief Method CreateReader, addr 0x42b4128, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreateReader, addr 0x431543c, size 0x120, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReader* CreateReader(::System::IO::TextReader* input, ::StringW baseUriString, ::System::Xml::XmlParserContext* inputContext);
 
-  /// @brief Method EnableLegacyXmlSettings, addr 0x42b5170, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EnableLegacyXmlSettings, addr 0x4316484, size 0xf4, virtual false, abstract: false, final false
   static inline bool EnableLegacyXmlSettings();
 
-  /// @brief Method GetEventHandler, addr 0x42b50d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEventHandler, addr 0x43163e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ValidationEventHandler* GetEventHandler();
 
-  /// @brief Method GetXmlResolver, addr 0x42b48dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetXmlResolver, addr 0x4315bf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlResolver* GetXmlResolver();
 
-  /// @brief Method GetXmlResolver_CheckConfig, addr 0x42b48e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetXmlResolver_CheckConfig, addr 0x4315bf8, size 0x30, virtual false, abstract: false, final false
   inline ::System::Xml::XmlResolver* GetXmlResolver_CheckConfig();
 
-  /// @brief Method Initialize, addr 0x42b473c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4315a50, size 0x8, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method Initialize, addr 0x42b50e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x43163fc, size 0x88, virtual false, abstract: false, final false
   inline void Initialize(::System::Xml::XmlResolver* resolver);
 
   static inline ::System::Xml::XmlReaderSettings* New_ctor();
@@ -262,21 +261,21 @@ public:
 
   constexpr int64_t& __cordl_internal_get_maxCharactersInDocument();
 
+  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
+
   constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
+  constexpr ::System::Xml::Schema::XmlSchemaSet* const& __cordl_internal_get_schemas() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaSet*& __cordl_internal_get_schemas();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSet*> const& __cordl_internal_get_schemas() const;
 
   constexpr bool const& __cordl_internal_get_useAsync() const;
 
   constexpr bool& __cordl_internal_get_useAsync();
 
-  constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_valEventHandler();
+  constexpr ::System::Xml::Schema::ValidationEventHandler* const& __cordl_internal_get_valEventHandler() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_valEventHandler() const;
+  constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_valEventHandler();
 
   constexpr ::System::Xml::Schema::XmlSchemaValidationFlags const& __cordl_internal_get_validationFlags() const;
 
@@ -286,9 +285,9 @@ public:
 
   constexpr ::System::Xml::ValidationType& __cordl_internal_get_validationType();
 
-  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
+  constexpr ::System::Xml::XmlResolver* const& __cordl_internal_get_xmlResolver() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __cordl_internal_get_xmlResolver() const;
+  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
 
   constexpr void __cordl_internal_set__IsXmlResolverSet_k__BackingField(bool value);
 
@@ -330,119 +329,119 @@ public:
 
   constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method .ctor, addr 0x42aaed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430c1ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Nullable_1<bool> getStaticF_s_enableLegacyXmlSettings();
 
-  /// @brief Method get_Async, addr 0x42b4744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Async, addr 0x4315a58, size 0x8, virtual false, abstract: false, final false
   inline bool get_Async();
 
-  /// @brief Method get_CheckCharacters, addr 0x42b4a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CheckCharacters, addr 0x4315da4, size 0x8, virtual false, abstract: false, final false
   inline bool get_CheckCharacters();
 
-  /// @brief Method get_CloseInput, addr 0x42b4e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CloseInput, addr 0x4316158, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseInput();
 
-  /// @brief Method get_ConformanceLevel, addr 0x42b49dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConformanceLevel, addr 0x4315cf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::ConformanceLevel get_ConformanceLevel();
 
-  /// @brief Method get_DtdProcessing, addr 0x42b4d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DtdProcessing, addr 0x43160a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::DtdProcessing get_DtdProcessing();
 
-  /// @brief Method get_IgnoreComments, addr 0x42b4d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreComments, addr 0x431603c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreComments();
 
-  /// @brief Method get_IgnoreProcessingInstructions, addr 0x42b4cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreProcessingInstructions, addr 0x4315fd4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreProcessingInstructions();
 
-  /// @brief Method get_IgnoreWhitespace, addr 0x42b4c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreWhitespace, addr 0x4315f6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreWhitespace();
 
-  /// @brief Method get_IsXmlResolverSet, addr 0x42b4864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsXmlResolverSet, addr 0x4315b78, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsXmlResolverSet();
 
-  /// @brief Method get_LineNumberOffset, addr 0x42b4914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumberOffset, addr 0x4315c28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumberOffset();
 
-  /// @brief Method get_LinePositionOffset, addr 0x42b4978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePositionOffset, addr 0x4315c8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePositionOffset();
 
-  /// @brief Method get_MaxCharactersFromEntities, addr 0x42b4ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxCharactersFromEntities, addr 0x4315ebc, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxCharactersFromEntities();
 
-  /// @brief Method get_MaxCharactersInDocument, addr 0x42b4af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxCharactersInDocument, addr 0x4315e0c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxCharactersInDocument();
 
-  /// @brief Method get_NameTable, addr 0x42b4800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x4315b14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_Schemas, addr 0x42b5014, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Schemas, addr 0x4316328, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSet* get_Schemas();
 
-  /// @brief Method get_ValidationFlags, addr 0x42b4f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationFlags, addr 0x4316274, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaValidationFlags get_ValidationFlags();
 
-  /// @brief Method get_ValidationType, addr 0x42b4eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationType, addr 0x43161c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::ValidationType get_ValidationType();
 
   static inline void setStaticF_s_enableLegacyXmlSettings(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_Async, addr 0x42aaef8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Async, addr 0x430c20c, size 0x60, virtual false, abstract: false, final false
   inline void set_Async(bool value);
 
-  /// @brief Method set_CheckCharacters, addr 0x42b4a98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_CheckCharacters, addr 0x4315dac, size 0x60, virtual false, abstract: false, final false
   inline void set_CheckCharacters(bool value);
 
-  /// @brief Method set_CloseInput, addr 0x42b4e4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_CloseInput, addr 0x4316160, size 0x60, virtual false, abstract: false, final false
   inline void set_CloseInput(bool value);
 
-  /// @brief Method set_ConformanceLevel, addr 0x42b49e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_ConformanceLevel, addr 0x4315cf8, size 0xac, virtual false, abstract: false, final false
   inline void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
 
-  /// @brief Method set_DtdProcessing, addr 0x42b4d98, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_DtdProcessing, addr 0x43160ac, size 0xac, virtual false, abstract: false, final false
   inline void set_DtdProcessing(::System::Xml::DtdProcessing value);
 
-  /// @brief Method set_IgnoreComments, addr 0x42b4d30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreComments, addr 0x4316044, size 0x60, virtual false, abstract: false, final false
   inline void set_IgnoreComments(bool value);
 
-  /// @brief Method set_IgnoreProcessingInstructions, addr 0x42b4cc8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreProcessingInstructions, addr 0x4315fdc, size 0x60, virtual false, abstract: false, final false
   inline void set_IgnoreProcessingInstructions(bool value);
 
-  /// @brief Method set_IgnoreWhitespace, addr 0x42b4c60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreWhitespace, addr 0x4315f74, size 0x60, virtual false, abstract: false, final false
   inline void set_IgnoreWhitespace(bool value);
 
-  /// @brief Method set_IsXmlResolverSet, addr 0x42b486c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsXmlResolverSet, addr 0x4315b80, size 0xc, virtual false, abstract: false, final false
   inline void set_IsXmlResolverSet(bool value);
 
-  /// @brief Method set_LineNumberOffset, addr 0x42b491c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_LineNumberOffset, addr 0x4315c30, size 0x5c, virtual false, abstract: false, final false
   inline void set_LineNumberOffset(int32_t value);
 
-  /// @brief Method set_LinePositionOffset, addr 0x42b4980, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_LinePositionOffset, addr 0x4315c94, size 0x5c, virtual false, abstract: false, final false
   inline void set_LinePositionOffset(int32_t value);
 
-  /// @brief Method set_MaxCharactersFromEntities, addr 0x42b4bb0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxCharactersFromEntities, addr 0x4315ec4, size 0xa8, virtual false, abstract: false, final false
   inline void set_MaxCharactersFromEntities(int64_t value);
 
-  /// @brief Method set_MaxCharactersInDocument, addr 0x42b4b00, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxCharactersInDocument, addr 0x4315e14, size 0xa8, virtual false, abstract: false, final false
   inline void set_MaxCharactersInDocument(int64_t value);
 
-  /// @brief Method set_NameTable, addr 0x42b4808, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_NameTable, addr 0x4315b1c, size 0x5c, virtual false, abstract: false, final false
   inline void set_NameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method set_ReadOnly, addr 0x42b50dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x43163f0, size 0xc, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
-  /// @brief Method set_Schemas, addr 0x42b5078, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_Schemas, addr 0x431638c, size 0x5c, virtual false, abstract: false, final false
   inline void set_Schemas(::System::Xml::Schema::XmlSchemaSet* value);
 
-  /// @brief Method set_ValidationFlags, addr 0x42b4f68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_ValidationFlags, addr 0x431627c, size 0xac, virtual false, abstract: false, final false
   inline void set_ValidationFlags(::System::Xml::Schema::XmlSchemaValidationFlags value);
 
-  /// @brief Method set_ValidationType, addr 0x42b4eb4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_ValidationType, addr 0x43161c8, size 0xac, virtual false, abstract: false, final false
   inline void set_ValidationType(::System::Xml::ValidationType value);
 
-  /// @brief Method set_XmlResolver, addr 0x42b4878, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x4315b8c, size 0x64, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:
@@ -458,6 +457,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlReaderSettings(XmlReaderSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7223 };
 
   /// @brief Field useAsync, offset: 0x10, size: 0x1, def value: None
   bool ___useAsync;
@@ -519,14 +521,9 @@ public:
   /// @brief Field <IsXmlResolverSet>k__BackingField, offset: 0x6a, size: 0x1, def value: None
   bool ____IsXmlResolverSet_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7198 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlReaderSettings, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlReaderSettings, ___useAsync) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlReaderSettings, ___nameTable) == 0x18, "Offset mismatch!");
@@ -566,6 +563,8 @@ static_assert(offsetof(::System::Xml::XmlReaderSettings, ___closeInput) == 0x68,
 static_assert(offsetof(::System::Xml::XmlReaderSettings, ___isReadOnly) == 0x69, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlReaderSettings, ____IsXmlResolverSet_k__BackingField) == 0x6a, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlReaderSettings, 0x70>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlReaderSettings);

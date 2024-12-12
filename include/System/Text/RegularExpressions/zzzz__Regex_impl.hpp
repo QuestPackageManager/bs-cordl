@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Text/RegularExpressions/Regex.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_impl.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__ExclusiveReference_def.hpp"
@@ -18,156 +18,155 @@
 #include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexRunnerFactory_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__WeakReference_1_def.hpp"
-//  Writing Method size for method: ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey._ctor
+//  Writing Method size for method: ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::*)(
-    ::System::Text::RegularExpressions::RegexOptions, ::StringW, ::StringW)>(&::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::*)(
+    ::System::Text::RegularExpressions::RegexOptions, ::StringW, ::StringW)>(&::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43b32e4;
+  constexpr static std::size_t addrs = 0x44145f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::RegexOptions>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey.Equals
+//  Writing Method size for method: ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey.Equals
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::*)(::System::Object*)>(
-    &::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::*)(::System::Object*)>(
+    &::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x43b3408;
+  constexpr static std::size_t addrs = 0x441471c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), 0));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), 0));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey.Equals
+//  Writing Method size for method: ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey.Equals
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::*)(
-    ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey)>(&::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::*)(
+    ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey)>(&::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43b3498;
+  constexpr static std::size_t addrs = 0x44147ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey.op_Equality
+//  Writing Method size for method: ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey.op_Equality
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey)>(
-        &::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::op_Equality)> {
+    static_cast<bool (*)(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey)>(
+        &::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43b10e8;
+  constexpr static std::size_t addrs = 0x44123fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey.GetHashCode
+//  Writing Method size for method: ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey.GetHashCode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::*)()>(
-    &::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::GetHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::*)()>(
+    &::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43b3500;
+  constexpr static std::size_t addrs = 0x4414814;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), 2));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), 2));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
-constexpr System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::operator ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>*() {
-  return static_cast<::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
-constexpr ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>*
-System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::i___System__IEquatable_1___System__Text__RegularExpressions____Regex__CachedCodeEntryKey_() {
-  return static_cast<::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::_ctor(::System::Text::RegularExpressions::RegexOptions options, ::StringW cultureKey, ::StringW pattern) {
+inline void System::Text::RegularExpressions::Regex_CachedCodeEntryKey::_ctor(::System::Text::RegularExpressions::RegexOptions options, ::StringW cultureKey, ::StringW pattern) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::RegexOptions>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, options, cultureKey, pattern);
 }
-inline bool System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::Equals(::System::Object* obj) {
+inline bool System::Text::RegularExpressions::Regex_CachedCodeEntryKey::Equals(::System::Object* obj) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), 0)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-inline bool System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::Equals(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey other) {
+inline bool System::Text::RegularExpressions::Regex_CachedCodeEntryKey::Equals(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline bool System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::op_Equality(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey left,
-                                                                                       ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey right) {
+inline bool System::Text::RegularExpressions::Regex_CachedCodeEntryKey::op_Equality(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey left,
+                                                                                    ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey right) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
-inline int32_t System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::GetHashCode() {
+inline int32_t System::Text::RegularExpressions::Regex_CachedCodeEntryKey::GetHashCode() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(), 2)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
+/// @brief Convert operator to "::System::IEquatable_1<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>"
+constexpr System::Text::RegularExpressions::Regex_CachedCodeEntryKey::operator ::System::IEquatable_1<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>*() {
+  return static_cast<::System::IEquatable_1<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>"
+constexpr ::System::IEquatable_1<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>*
+System::Text::RegularExpressions::Regex_CachedCodeEntryKey::i___System__IEquatable_1___System__Text__RegularExpressions__Regex_CachedCodeEntryKey_() {
+  return static_cast<::System::IEquatable_1<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "_options", ty: "::System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: Some("{}") }, CppParam { name: "_cultureKey", ty: "::StringW",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::__Regex__CachedCodeEntryKey(::System::Text::RegularExpressions::RegexOptions _options, ::StringW _cultureKey,
-                                                                                                       ::StringW _pattern) noexcept {
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::Regex_CachedCodeEntryKey(::System::Text::RegularExpressions::RegexOptions _options, ::StringW _cultureKey,
+                                                                                                 ::StringW _pattern) noexcept {
   this->_options = _options;
   this->_cultureKey = _cultureKey;
   this->_pattern = _pattern;
 }
 // Ctor Parameters []
-constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey::__Regex__CachedCodeEntryKey() {}
-//  Writing Method size for method: ::System::Text::RegularExpressions::__Regex__CachedCodeEntry._ctor
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::Regex_CachedCodeEntryKey() {}
+//  Writing Method size for method: ::System::Text::RegularExpressions::Regex_CachedCodeEntry._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::__Regex__CachedCodeEntry::*)(
-    ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Collections::Hashtable*, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Text::RegularExpressions::RegexCode*,
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Regex_CachedCodeEntry::*)(
+    ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::System::Collections::Hashtable*, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Text::RegularExpressions::RegexCode*,
     ::System::Collections::Hashtable*, int32_t, ::System::Text::RegularExpressions::ExclusiveReference*, ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*)>(
-    &::System::Text::RegularExpressions::__Regex__CachedCodeEntry::_ctor)> {
+    &::System::Text::RegularExpressions::Regex_CachedCodeEntry::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43b1780;
+  constexpr static std::size_t addrs = 0x4412a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Hashtable*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::RegexCode*>::get(),
@@ -178,144 +177,133 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Next() {
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntry*& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const&
-System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Next() const {
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntry* const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Next(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Next(::System::Text::RegularExpressions::Regex_CachedCodeEntry* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Previous() {
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntry*& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Previous() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Previous;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const&
-System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Previous() const {
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntry* const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Previous() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Previous;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Previous(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Previous(::System::Text::RegularExpressions::Regex_CachedCodeEntry* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Previous)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Key() {
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Key;
 }
-constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Key() const {
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Key;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Key(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Key(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Key = value;
 }
-constexpr ::System::Text::RegularExpressions::RegexCode*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Code() {
+constexpr ::System::Text::RegularExpressions::RegexCode*& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Code() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Code;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Code() const {
+constexpr ::System::Text::RegularExpressions::RegexCode* const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Code() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Code;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Code(::System::Text::RegularExpressions::RegexCode* value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Code(::System::Text::RegularExpressions::RegexCode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Code)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Caps() {
+constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Caps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Caps() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Caps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Caps(::System::Collections::Hashtable* value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Caps(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Caps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Capnames() {
+constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Capnames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capnames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Capnames() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Capnames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capnames;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Capnames(::System::Collections::Hashtable* value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Capnames(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Capnames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Capslist() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Capslist() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capslist;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Capslist() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Capslist() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capslist;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Capslist(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Capslist(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Capslist)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Capsize() {
+constexpr int32_t& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Capsize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capsize;
 }
-constexpr int32_t const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Capsize() const {
+constexpr int32_t const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Capsize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capsize;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Capsize(int32_t value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Capsize(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Capsize = value;
 }
-constexpr ::System::Text::RegularExpressions::ExclusiveReference*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Runnerref() {
+constexpr ::System::Text::RegularExpressions::ExclusiveReference*& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Runnerref() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Runnerref;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const&
-System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_Runnerref() const {
+constexpr ::System::Text::RegularExpressions::ExclusiveReference* const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_Runnerref() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Runnerref;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_Runnerref(::System::Text::RegularExpressions::ExclusiveReference* value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_Runnerref(::System::Text::RegularExpressions::ExclusiveReference* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Runnerref)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_ReplRef() {
+constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_ReplRef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReplRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const&
-System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_get_ReplRef() const {
+constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* const& System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_get_ReplRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReplRef;
 }
-constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__cordl_internal_set_ReplRef(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value) {
+constexpr void System::Text::RegularExpressions::Regex_CachedCodeEntry::__cordl_internal_set_ReplRef(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReplRef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*
-System::Text::RegularExpressions::__Regex__CachedCodeEntry::New_ctor(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ::System::Collections::Hashtable* capnames,
-                                                                     ::ArrayW<::StringW, ::Array<::StringW>*> capslist, ::System::Text::RegularExpressions::RegexCode* code,
-                                                                     ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::ExclusiveReference* runner,
-                                                                     ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replref) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>(key, capnames, capslist, code, caps, capsize, runner, replref));
-}
-inline void System::Text::RegularExpressions::__Regex__CachedCodeEntry::_ctor(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ::System::Collections::Hashtable* capnames,
-                                                                              ::ArrayW<::StringW, ::Array<::StringW>*> capslist, ::System::Text::RegularExpressions::RegexCode* code,
-                                                                              ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::ExclusiveReference* runner,
-                                                                              ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replref) {
+inline void System::Text::RegularExpressions::Regex_CachedCodeEntry::_ctor(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey key, ::System::Collections::Hashtable* capnames,
+                                                                           ::ArrayW<::StringW, ::Array<::StringW>*> capslist, ::System::Text::RegularExpressions::RegexCode* code,
+                                                                           ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::ExclusiveReference* runner,
+                                                                           ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replref) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Hashtable*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::RegexCode*>::get(),
@@ -325,20 +313,27 @@ inline void System::Text::RegularExpressions::__Regex__CachedCodeEntry::_ctor(::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, capnames, capslist, code, caps, capsize, runner, replref);
 }
+inline ::System::Text::RegularExpressions::Regex_CachedCodeEntry*
+System::Text::RegularExpressions::Regex_CachedCodeEntry::New_ctor(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey key, ::System::Collections::Hashtable* capnames,
+                                                                  ::ArrayW<::StringW, ::Array<::StringW>*> capslist, ::System::Text::RegularExpressions::RegexCode* code,
+                                                                  ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::ExclusiveReference* runner,
+                                                                  ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replref) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>(key, capnames, capslist, code, caps, capsize, runner, replref));
+}
 // Ctor Parameters []
-constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry::__Regex__CachedCodeEntry() {}
+constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntry::Regex_CachedCodeEntry() {}
 //  Writing Method size for method: ::System::Text::RegularExpressions::Regex.GetCachedCode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::__Regex__CachedCodeEntry* (
-    ::System::Text::RegularExpressions::Regex::*)(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, bool)>(&::System::Text::RegularExpressions::Regex::GetCachedCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Regex_CachedCodeEntry* (
+    ::System::Text::RegularExpressions::Regex::*)(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, bool)>(&::System::Text::RegularExpressions::Regex::GetCachedCode)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x43b0ff0;
+  constexpr static std::size_t addrs = 0x4412304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "GetCachedCode", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
+                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -346,15 +341,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::RegularExpressions::Regex.GetCachedCodeEntryInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::__Regex__CachedCodeEntry* (
-    ::System::Text::RegularExpressions::Regex::*)(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, bool)>(&::System::Text::RegularExpressions::Regex::GetCachedCodeEntryInternal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Regex_CachedCodeEntry* (
+    ::System::Text::RegularExpressions::Regex::*)(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, bool)>(&::System::Text::RegularExpressions::Regex::GetCachedCodeEntryInternal)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x43b1118;
+  constexpr static std::size_t addrs = 0x441242c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "GetCachedCodeEntryInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -365,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Regex::*)()>(
     &::System::Text::RegularExpressions::Regex::FillCacheDictionary)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x43b17f8;
+  constexpr static std::size_t addrs = 0x4412b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(),
@@ -376,17 +371,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::RegularExpressions::Regex.TryGetCacheValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>)>(
-        &::System::Text::RegularExpressions::Regex::TryGetCacheValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
+    ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>)>(&::System::Text::RegularExpressions::Regex::TryGetCacheValue)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x43b18fc;
+  constexpr static std::size_t addrs = 0x4412c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "TryGetCacheValue", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>>::get() })));
     return ___internal_method;
   }
 };
@@ -394,32 +388,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>)>(
+    static_cast<bool (*)(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>)>(
         &::System::Text::RegularExpressions::Regex::TryGetCacheValueSmall)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x43b1a18;
+  constexpr static std::size_t addrs = 0x4412d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "TryGetCacheValueSmall", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Text::RegularExpressions::Regex.LookupCachedAndPromote
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Text::RegularExpressions::__Regex__CachedCodeEntry* (*)(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey)>(
-        &::System::Text::RegularExpressions::Regex::LookupCachedAndPromote)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::System::Text::RegularExpressions::Regex_CachedCodeEntry* (*)(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey)>(&::System::Text::RegularExpressions::Regex::LookupCachedAndPromote)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x43b15bc;
+  constexpr static std::size_t addrs = 0x44128d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "LookupCachedAndPromote", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get() })));
     return ___internal_method;
   }
 };
@@ -428,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&::System::Text::RegularExpressions::Regex::IsMatch)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x43b1af8;
+  constexpr static std::size_t addrs = 0x4412e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -443,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::System::Text::RegularExpressions::RegexOptions, ::System::TimeSpan)>(
     &::System::Text::RegularExpressions::Regex::IsMatch)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43b1b6c;
+  constexpr static std::size_t addrs = 0x4412e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Regex::*)(::StringW)>(
     &::System::Text::RegularExpressions::Regex::IsMatch)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43b1f78;
+  constexpr static std::size_t addrs = 0x441328c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -475,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Regex::*)(::StringW, int32_t)>(
     &::System::Text::RegularExpressions::Regex::IsMatch)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43b1ff0;
+  constexpr static std::size_t addrs = 0x4413304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -490,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Match* (*)(::StringW, ::StringW)>(
     &::System::Text::RegularExpressions::Regex::Match)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x43b206c;
+  constexpr static std::size_t addrs = 0x4413380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -505,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Text::RegularExpressions::Match* (*)(::StringW, ::StringW, ::System::Text::RegularExpressions::RegexOptions, ::System::TimeSpan)>(&::System::Text::RegularExpressions::Regex::Match)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43b20e0;
+  constexpr static std::size_t addrs = 0x44133f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Match* (::System::Text::RegularExpressions::Regex::*)(::StringW)>(
     &::System::Text::RegularExpressions::Regex::Match)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43b216c;
+  constexpr static std::size_t addrs = 0x4413480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Match* (::System::Text::RegularExpressions::Regex::*)(::StringW, int32_t)>(
     &::System::Text::RegularExpressions::Regex::Match)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x43b21d8;
+  constexpr static std::size_t addrs = 0x44134ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -552,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Text::RegularExpressions::MatchCollection* (::System::Text::RegularExpressions::Regex::*)(::StringW, int32_t)>(&::System::Text::RegularExpressions::Regex::Matches)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43b2248;
+  constexpr static std::size_t addrs = 0x441355c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -566,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::System::Text::RegularExpressions::Regex::Replace)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43b2310;
+  constexpr static std::size_t addrs = 0x4413624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -582,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::System::Text::RegularExpressions::RegexOptions)>(
     &::System::Text::RegularExpressions::Regex::Replace)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x43b2420;
+  constexpr static std::size_t addrs = 0x4413734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -599,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::System::Text::RegularExpressions::RegexOptions, ::System::TimeSpan)>(
     &::System::Text::RegularExpressions::Regex::Replace)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x43b238c;
+  constexpr static std::size_t addrs = 0x44136a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -617,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::Regex::*)(::StringW, ::StringW)>(
     &::System::Text::RegularExpressions::Regex::Replace)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x43b24a8;
+  constexpr static std::size_t addrs = 0x44137bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -632,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::Regex::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::Regex::Replace)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x43b2518;
+  constexpr static std::size_t addrs = 0x441382c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -648,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Text::RegularExpressions::Regex::*)(::StringW)>(
     &::System::Text::RegularExpressions::Regex::Split)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x43b25f0;
+  constexpr static std::size_t addrs = 0x4413904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -663,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Text::RegularExpressions::Regex::*)(::StringW, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::Regex::Split)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x43b2660;
+  constexpr static std::size_t addrs = 0x4413974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -679,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::System::Text::RegularExpressions::Regex*, ::StringW, int32_t, int32_t)>(&::System::Text::RegularExpressions::Regex::Split)> {
   constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x43b2720;
+  constexpr static std::size_t addrs = 0x4413a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -695,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TimeSpan)>(&::System::Text::RegularExpressions::Regex::ValidateMatchTimeout)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x43b3060;
+  constexpr static std::size_t addrs = 0x4414374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -709,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)()>(&::System::Text::RegularExpressions::Regex::InitDefaultMatchTimeout)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x43b2e30;
+  constexpr static std::size_t addrs = 0x4414144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(),
@@ -722,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Regex::*)(::StringW)>(&::System::Text::RegularExpressions::Regex::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43b31b8;
+  constexpr static std::size_t addrs = 0x44144cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -737,7 +730,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Regex::*)(::StringW, ::System::Text::RegularExpressions::RegexOptions)>(
     &::System::Text::RegularExpressions::Regex::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43b3230;
+  constexpr static std::size_t addrs = 0x4414544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -754,7 +747,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::RegularExpressions::Regex::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Text::RegularExpressions::Regex::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43b32ac;
+  constexpr static std::size_t addrs = 0x44145c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -771,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Regex::*)(
     ::StringW, ::System::Text::RegularExpressions::RegexOptions, ::System::TimeSpan, bool)>(&::System::Text::RegularExpressions::Regex::_ctor)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x43b1bf8;
+  constexpr static std::size_t addrs = 0x4412f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -788,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexOptions (::System::Text::RegularExpressions::Regex::*)()>(
     &::System::Text::RegularExpressions::Regex::get_Options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43b33ec;
+  constexpr static std::size_t addrs = 0x4414700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "get_Options",
@@ -801,7 +794,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Regex::*)()>(&::System::Text::RegularExpressions::Regex::get_RightToLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43b2cf4;
+  constexpr static std::size_t addrs = 0x4414008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(),
@@ -814,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::Regex::*)()>(&::System::Text::RegularExpressions::Regex::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43b33f4;
+  constexpr static std::size_t addrs = 0x4414708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -829,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::Regex::*)(int32_t)>(
     &::System::Text::RegularExpressions::Regex::GroupNameFromNumber)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x43ae748;
+  constexpr static std::size_t addrs = 0x440fa5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -844,7 +837,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::Regex::*)(::StringW)>(
     &::System::Text::RegularExpressions::Regex::GroupNumberFromName)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x43ae354;
+  constexpr static std::size_t addrs = 0x440f668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -859,7 +852,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::Regex::*)()>(
     &::System::Text::RegularExpressions::Regex::InitializeReferences)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x43b32f0;
+  constexpr static std::size_t addrs = 0x4414604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(),
@@ -873,7 +866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Match* (
     ::System::Text::RegularExpressions::Regex::*)(bool, int32_t, ::StringW, int32_t, int32_t, int32_t)>(&::System::Text::RegularExpressions::Regex::Run)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x43af578;
+  constexpr static std::size_t addrs = 0x441088c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -889,7 +882,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Regex::*)()>(&::System::Text::RegularExpressions::Regex::UseOptionR)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43b1fe4;
+  constexpr static std::size_t addrs = 0x44132f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "UseOptionR",
@@ -903,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::Regex::*)()>(
     &::System::Text::RegularExpressions::Regex::UseOptionInvariant)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43b33fc;
+  constexpr static std::size_t addrs = 0x4414710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(),
@@ -911,14 +904,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::Text::RegularExpressions::Regex::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::Text::RegularExpressions::Regex::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
 constexpr ::System::TimeSpan& System::Text::RegularExpressions::Regex::__cordl_internal_get_internalMatchTimeout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___internalMatchTimeout;
@@ -959,7 +944,7 @@ constexpr ::System::Text::RegularExpressions::RegexRunnerFactory*& System::Text:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___factory;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunnerFactory*> const& System::Text::RegularExpressions::Regex::__cordl_internal_get_factory() const {
+constexpr ::System::Text::RegularExpressions::RegexRunnerFactory* const& System::Text::RegularExpressions::Regex::__cordl_internal_get_factory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___factory;
 }
@@ -971,7 +956,7 @@ constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::R
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___caps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::Regex::__cordl_internal_get_caps() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::Regex::__cordl_internal_get_caps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___caps;
 }
@@ -983,7 +968,7 @@ constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::R
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capnames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::Regex::__cordl_internal_get_capnames() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::Regex::__cordl_internal_get_capnames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capnames;
 }
@@ -1019,7 +1004,7 @@ constexpr ::System::Text::RegularExpressions::ExclusiveReference*& System::Text:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runnerref;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const& System::Text::RegularExpressions::Regex::__cordl_internal_get__runnerref() const {
+constexpr ::System::Text::RegularExpressions::ExclusiveReference* const& System::Text::RegularExpressions::Regex::__cordl_internal_get__runnerref() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runnerref;
 }
@@ -1031,8 +1016,7 @@ constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexRep
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____replref;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const&
-System::Text::RegularExpressions::Regex::__cordl_internal_get__replref() const {
+constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* const& System::Text::RegularExpressions::Regex::__cordl_internal_get__replref() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____replref;
 }
@@ -1044,7 +1028,7 @@ constexpr ::System::Text::RegularExpressions::RegexCode*& System::Text::RegularE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____code;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& System::Text::RegularExpressions::Regex::__cordl_internal_get__code() const {
+constexpr ::System::Text::RegularExpressions::RegexCode* const& System::Text::RegularExpressions::Regex::__cordl_internal_get__code() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____code;
 }
@@ -1071,17 +1055,16 @@ inline int32_t System::Text::RegularExpressions::Regex::getStaticF_s_cacheSize()
   return ::cordl_internals::getStaticField<int32_t, "s_cacheSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>();
 }
 inline void System::Text::RegularExpressions::Regex::setStaticF_s_cache(
-    ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>* value) {
+    ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::System::Text::RegularExpressions::Regex_CachedCodeEntry*>* value) {
   ::cordl_internals::setStaticField<
-      ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>*, "s_cache",
+      ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::System::Text::RegularExpressions::Regex_CachedCodeEntry*>*, "s_cache",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>*>(
-          value));
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::System::Text::RegularExpressions::Regex_CachedCodeEntry*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>*
+inline ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::System::Text::RegularExpressions::Regex_CachedCodeEntry*>*
 System::Text::RegularExpressions::Regex::getStaticF_s_cache() {
   return ::cordl_internals::getStaticField<
-      ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>*, "s_cache",
+      ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, ::System::Text::RegularExpressions::Regex_CachedCodeEntry*>*, "s_cache",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>();
 }
 inline void System::Text::RegularExpressions::Regex::setStaticF_s_cacheCount(int32_t value) {
@@ -1090,22 +1073,22 @@ inline void System::Text::RegularExpressions::Regex::setStaticF_s_cacheCount(int
 inline int32_t System::Text::RegularExpressions::Regex::getStaticF_s_cacheCount() {
   return ::cordl_internals::getStaticField<int32_t, "s_cacheCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>();
 }
-inline void System::Text::RegularExpressions::Regex::setStaticF_s_cacheFirst(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value) {
-  ::cordl_internals::setStaticField<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*, "s_cacheFirst",
+inline void System::Text::RegularExpressions::Regex::setStaticF_s_cacheFirst(::System::Text::RegularExpressions::Regex_CachedCodeEntry* value) {
+  ::cordl_internals::setStaticField<::System::Text::RegularExpressions::Regex_CachedCodeEntry*, "s_cacheFirst",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>(
-      std::forward<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>(value));
+      std::forward<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>(value));
 }
-inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* System::Text::RegularExpressions::Regex::getStaticF_s_cacheFirst() {
-  return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*, "s_cacheFirst",
+inline ::System::Text::RegularExpressions::Regex_CachedCodeEntry* System::Text::RegularExpressions::Regex::getStaticF_s_cacheFirst() {
+  return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex_CachedCodeEntry*, "s_cacheFirst",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>();
 }
-inline void System::Text::RegularExpressions::Regex::setStaticF_s_cacheLast(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value) {
-  ::cordl_internals::setStaticField<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*, "s_cacheLast",
+inline void System::Text::RegularExpressions::Regex::setStaticF_s_cacheLast(::System::Text::RegularExpressions::Regex_CachedCodeEntry* value) {
+  ::cordl_internals::setStaticField<::System::Text::RegularExpressions::Regex_CachedCodeEntry*, "s_cacheLast",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>(
-      std::forward<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>(value));
+      std::forward<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>(value));
 }
-inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* System::Text::RegularExpressions::Regex::getStaticF_s_cacheLast() {
-  return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*, "s_cacheLast",
+inline ::System::Text::RegularExpressions::Regex_CachedCodeEntry* System::Text::RegularExpressions::Regex::getStaticF_s_cacheLast() {
+  return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex_CachedCodeEntry*, "s_cacheLast",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>();
 }
 inline void System::Text::RegularExpressions::Regex::setStaticF_s_maximumMatchTimeout(::System::TimeSpan value) {
@@ -1129,49 +1112,48 @@ inline void System::Text::RegularExpressions::Regex::setStaticF_InfiniteMatchTim
 inline ::System::TimeSpan System::Text::RegularExpressions::Regex::getStaticF_InfiniteMatchTimeout() {
   return ::cordl_internals::getStaticField<::System::TimeSpan, "InfiniteMatchTimeout", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get>();
 }
-inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* System::Text::RegularExpressions::Regex::GetCachedCode(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key,
-                                                                                                                            bool isToAdd) {
+inline ::System::Text::RegularExpressions::Regex_CachedCodeEntry* System::Text::RegularExpressions::Regex::GetCachedCode(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey key,
+                                                                                                                         bool isToAdd) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "GetCachedCode", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*, false>(this, ___internal_method, key, isToAdd);
+  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::Regex_CachedCodeEntry*, false>(this, ___internal_method, key, isToAdd);
 }
-inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*
-System::Text::RegularExpressions::Regex::GetCachedCodeEntryInternal(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, bool isToAdd) {
+inline ::System::Text::RegularExpressions::Regex_CachedCodeEntry* System::Text::RegularExpressions::Regex::GetCachedCodeEntryInternal(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey key,
+                                                                                                                                      bool isToAdd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "GetCachedCodeEntryInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*, false>(this, ___internal_method, key, isToAdd);
+  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::Regex_CachedCodeEntry*, false>(this, ___internal_method, key, isToAdd);
 }
 inline void System::Text::RegularExpressions::Regex::FillCacheDictionary() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(),
                                                                              "FillCacheDictionary", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool System::Text::RegularExpressions::Regex::TryGetCacheValue(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key,
-                                                                      ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry) {
+inline bool System::Text::RegularExpressions::Regex::TryGetCacheValue(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey key,
+                                                                      ::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*> entry) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "TryGetCacheValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, key, entry);
 }
-inline bool System::Text::RegularExpressions::Regex::TryGetCacheValueSmall(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key,
-                                                                           ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry) {
+inline bool System::Text::RegularExpressions::Regex::TryGetCacheValueSmall(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey key,
+                                                                           ::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*> entry) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "TryGetCacheValueSmall", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Text::RegularExpressions::Regex_CachedCodeEntry*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, key, entry);
 }
-inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*
-System::Text::RegularExpressions::Regex::LookupCachedAndPromote(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key) {
+inline ::System::Text::RegularExpressions::Regex_CachedCodeEntry* System::Text::RegularExpressions::Regex::LookupCachedAndPromote(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey key) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), "LookupCachedAndPromote", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*, false>(nullptr, ___internal_method, key);
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::Regex_CachedCodeEntry*, false>(nullptr, ___internal_method, key);
 }
 inline bool System::Text::RegularExpressions::Regex::IsMatch(::StringW input, ::StringW pattern) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1302,17 +1284,11 @@ inline ::System::TimeSpan System::Text::RegularExpressions::Regex::InitDefaultMa
                                                                              "InitDefaultMatchTimeout", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::TimeSpan, false>(nullptr, ___internal_method);
 }
-inline ::System::Text::RegularExpressions::Regex* System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::Regex*>(pattern));
-}
 inline void System::Text::RegularExpressions::Regex::_ctor(::StringW pattern) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pattern);
-}
-inline ::System::Text::RegularExpressions::Regex* System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::Regex*>(pattern, options));
 }
 inline void System::Text::RegularExpressions::Regex::_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1329,10 +1305,6 @@ inline void System::Text::RegularExpressions::Regex::System_Runtime_Serializatio
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, si, context);
-}
-inline ::System::Text::RegularExpressions::Regex* System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options,
-                                                                                                    ::System::TimeSpan matchTimeout, bool addToCache) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::Regex*>(pattern, options, matchTimeout, addToCache));
 }
 inline void System::Text::RegularExpressions::Regex::_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout, bool addToCache) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1391,6 +1363,24 @@ inline bool System::Text::RegularExpressions::Regex::UseOptionInvariant() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::Regex*>::get(),
                                                                              "UseOptionInvariant", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::Regex* System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::Regex*>(pattern));
+}
+inline ::System::Text::RegularExpressions::Regex* System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::Regex*>(pattern, options));
+}
+inline ::System::Text::RegularExpressions::Regex* System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options,
+                                                                                                    ::System::TimeSpan matchTimeout, bool addToCache) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::Regex*>(pattern, options, matchTimeout, addToCache));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::Text::RegularExpressions::Regex::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Text::RegularExpressions::Regex::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::Regex::Regex() {}

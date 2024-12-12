@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Security/Principal/zzzz__WellKnownSidType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WellKnownAccount)
 namespace System::Security::Principal {
@@ -17,11 +16,10 @@ class WellKnownAccount;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::WellKnownAccount);
-// Type: System.Security.Principal::WellKnownAccount
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Security.Principal.WellKnownSidType
 namespace System::Security::Principal {
 // Is value type: false
-// CS Name: ::System.Security.Principal::WellKnownAccount*
+// CS Name: System.Security.Principal.WellKnownAccount
 class CORDL_TYPE WellKnownAccount : public ::System::Object {
 public:
   // Declarations
@@ -57,17 +55,16 @@ public:
                       put = __cordl_internal_set__WellKnownValue_k__BackingField)) ::System::Security::Principal::WellKnownSidType _WellKnownValue_k__BackingField;
 
   /// @brief Field accounts, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF_accounts, put = setStaticF_accounts)) ::ArrayW<::System::Security::Principal::WellKnownAccount*, ::Array<::System::Security::Principal::WellKnownAccount*>*>
-          accounts;
+  __declspec(property(get = getStaticF_accounts, put = setStaticF_accounts)) ::ArrayW<::System::Security::Principal::WellKnownAccount*, ::Array<::System::Security::Principal::WellKnownAccount*>*>
+      accounts;
 
-  /// @brief Method LookupByName, addr 0x3c58088, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LookupByName, addr 0x3cb81fc, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupByName(::StringW s);
 
-  /// @brief Method LookupBySddlForm, addr 0x3c5922c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LookupBySddlForm, addr 0x3cb93a0, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupBySddlForm(::StringW s);
 
-  /// @brief Method LookupBySid, addr 0x3c5916c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LookupBySid, addr 0x3cb92e0, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupBySid(::StringW s);
 
   static inline ::System::Security::Principal::WellKnownAccount* New_ctor();
@@ -108,41 +105,41 @@ public:
 
   constexpr void __cordl_internal_set__WellKnownValue_k__BackingField(::System::Security::Principal::WellKnownSidType value);
 
-  /// @brief Method .ctor, addr 0x3c59550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb96c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Principal::WellKnownAccount*, ::Array<::System::Security::Principal::WellKnownAccount*>*> getStaticF_accounts();
 
-  /// @brief Method get_IsAbsolute, addr 0x3c59504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAbsolute, addr 0x3cb9678, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAbsolute();
 
-  /// @brief Method get_Name, addr 0x3c59530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3cb96a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SddlForm, addr 0x3c59540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SddlForm, addr 0x3cb96b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SddlForm();
 
-  /// @brief Method get_Sid, addr 0x3c59518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sid, addr 0x3cb968c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sid();
 
   static inline void setStaticF_accounts(::ArrayW<::System::Security::Principal::WellKnownAccount*, ::Array<::System::Security::Principal::WellKnownAccount*>*> value);
 
-  /// @brief Method set_IsAbsolute, addr 0x3c5950c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsAbsolute, addr 0x3cb9680, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAbsolute(bool value);
 
-  /// @brief Method set_Name, addr 0x3c59538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3cb96ac, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Rid, addr 0x3c59528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Rid, addr 0x3cb969c, size 0x8, virtual false, abstract: false, final false
   inline void set_Rid(::StringW value);
 
-  /// @brief Method set_SddlForm, addr 0x3c59548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SddlForm, addr 0x3cb96bc, size 0x8, virtual false, abstract: false, final false
   inline void set_SddlForm(::StringW value);
 
-  /// @brief Method set_Sid, addr 0x3c59520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Sid, addr 0x3cb9694, size 0x8, virtual false, abstract: false, final false
   inline void set_Sid(::StringW value);
 
-  /// @brief Method set_WellKnownValue, addr 0x3c594fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WellKnownValue, addr 0x3cb9670, size 0x8, virtual false, abstract: false, final false
   inline void set_WellKnownValue(::System::Security::Principal::WellKnownSidType value);
 
 protected:
@@ -158,6 +155,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WellKnownAccount", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WellKnownAccount(WellKnownAccount const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3002 };
 
   /// @brief Field <WellKnownValue>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Security::Principal::WellKnownSidType ____WellKnownValue_k__BackingField;
@@ -177,14 +177,9 @@ public:
   /// @brief Field <SddlForm>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____SddlForm_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3002 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Principal::WellKnownAccount, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Principal::WellKnownAccount, ____WellKnownValue_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Principal::WellKnownAccount, ____IsAbsolute_k__BackingField) == 0x14, "Offset mismatch!");
@@ -196,6 +191,8 @@ static_assert(offsetof(::System::Security::Principal::WellKnownAccount, ____Rid_
 static_assert(offsetof(::System::Security::Principal::WellKnownAccount, ____Name_k__BackingField) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Principal::WellKnownAccount, ____SddlForm_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Principal::WellKnownAccount, 0x38>, "Size mismatch!");
 
 } // namespace System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::WellKnownAccount);

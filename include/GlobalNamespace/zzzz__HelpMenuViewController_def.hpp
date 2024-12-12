@@ -46,11 +46,10 @@ class HelpMenuViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HelpMenuViewController);
-// Type: ::HelpMenuViewController
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HelpMenuViewController*
+// CS Name: HelpMenuViewController
 class CORDL_TYPE HelpMenuViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -87,10 +86,10 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectHelpSubMenuEvent,
                       put = __cordl_internal_set_didSelectHelpSubMenuEvent)) ::System::Action_1<::UnityW<::HMUI::ViewController>>* didSelectHelpSubMenuEvent;
 
-  /// @brief Method DidActivate, addr 0x3af84cc, size 0x5a4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b57d24, size 0x5a4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x3af8a70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x3b582c8, size 0x84, virtual false, abstract: false, final false
   inline void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::HelpMenuViewController* New_ctor();
@@ -119,14 +118,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController>& __cordl_internal_get__privacyPolicyDisplayViewController();
 
+  constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* const& __cordl_internal_get__viewControllers() const;
+
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>*& __cordl_internal_get__viewControllers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>*> const&
-  __cordl_internal_get__viewControllers() const;
+  constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>* const& __cordl_internal_get_didSelectHelpSubMenuEvent() const;
 
   constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get_didSelectHelpSubMenuEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::ViewController>>*> const& __cordl_internal_get_didSelectHelpSubMenuEvent() const;
 
   constexpr void __cordl_internal_set__eulaDisplayViewController(::UnityW<::GlobalNamespace::EulaDisplayViewController> value);
 
@@ -144,14 +142,14 @@ public:
 
   constexpr void __cordl_internal_set_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x3af8af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5834c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x3af836c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
+  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x3b57bc4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didSelectHelpSubMenuEvent(::System::Action_1<::HMUI::ViewController*>* value);
 
-  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x3af841c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
+  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x3b57c74, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<::HMUI::ViewController*>* value);
 
 protected:
   // Ctor Parameters []
@@ -166,6 +164,24 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HelpMenuViewController(HelpMenuViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5326 };
+
+  /// @brief Field kEulaMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kEulaMenu{ u"EULA_MENU" };
+
+  /// @brief Field kHealthWarningMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kHealthWarningMenu{ u"HEALTH_AND_SAFETY_MENU" };
+
+  /// @brief Field kHowToPlayMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kHowToPlayMenu{ u"LABEL_HOW_TO_PLAY" };
+
+  /// @brief Field kLicensesMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kLicensesMenu{ u"SOFTWARE_LICENSES" };
+
+  /// @brief Field kPrivacyPolicyMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kPrivacyPolicyMenu{ u"PRIVACY_POLICY_MENU" };
 
   /// @brief Field _helpMenuSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____helpMenuSegmentedControl;
@@ -191,29 +207,9 @@ public:
   /// @brief Field _viewControllers, offset: 0xb0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* ____viewControllers;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5303 };
-
-  /// @brief Field kEulaMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEulaMenu{ u"EULA_MENU" };
-
-  /// @brief Field kHealthWarningMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHealthWarningMenu{ u"HEALTH_AND_SAFETY_MENU" };
-
-  /// @brief Field kHowToPlayMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHowToPlayMenu{ u"LABEL_HOW_TO_PLAY" };
-
-  /// @brief Field kLicensesMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kLicensesMenu{ u"SOFTWARE_LICENSES" };
-
-  /// @brief Field kPrivacyPolicyMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kPrivacyPolicyMenu{ u"PRIVACY_POLICY_MENU" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HelpMenuViewController, 0xb8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ____helpMenuSegmentedControl) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ____howToPlayViewController) == 0x80, "Offset mismatch!");
@@ -229,6 +225,8 @@ static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ____licensesDi
 static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ___didSelectHelpSubMenuEvent) == 0xa8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ____viewControllers) == 0xb0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HelpMenuViewController, 0xb8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HelpMenuViewController);

@@ -12,11 +12,10 @@ struct Architecture;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::Architecture);
-// Type: System.Runtime.InteropServices::Architecture
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// CS Name: ::System.Runtime.InteropServices::Architecture
+// CS Name: System.Runtime.InteropServices.Architecture
 struct CORDL_TYPE Architecture {
 public:
   // Declarations
@@ -47,19 +46,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr Architecture(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Arm value: static_cast<int32_t>(0x2)
+  /// @brief Field Arm value: I32(2)
   static ::System::Runtime::InteropServices::Architecture const Arm;
 
-  /// @brief Field Arm64 value: static_cast<int32_t>(0x3)
+  /// @brief Field Arm64 value: I32(3)
   static ::System::Runtime::InteropServices::Architecture const Arm64;
 
-  /// @brief Field X64 value: static_cast<int32_t>(0x1)
+  /// @brief Field X64 value: I32(1)
   static ::System::Runtime::InteropServices::Architecture const X64;
 
-  /// @brief Field X86 value: static_cast<int32_t>(0x0)
+  /// @brief Field X86 value: I32(0)
   static ::System::Runtime::InteropServices::Architecture const X86;
 
   /// @brief IL2CPP Metadata Type Index
@@ -68,12 +64,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::Architecture, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::Architecture, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::Architecture, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::Architecture, "System.Runtime.InteropServices", "Architecture");

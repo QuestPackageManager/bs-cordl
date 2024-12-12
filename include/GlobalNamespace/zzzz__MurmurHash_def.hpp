@@ -13,15 +13,14 @@ class MurmurHash;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MurmurHash);
-// Type: ::MurmurHash
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MurmurHash*
+// CS Name: MurmurHash
 class CORDL_TYPE MurmurHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MurmurHash2, addr 0x26eb598, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method MurmurHash2, addr 0x271dc34, size 0x16c, virtual false, abstract: false, final false
   static inline uint32_t MurmurHash2(::StringW key);
 
 protected:
@@ -39,7 +38,7 @@ public:
   MurmurHash(MurmurHash const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

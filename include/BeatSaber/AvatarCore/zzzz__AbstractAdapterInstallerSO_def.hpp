@@ -14,20 +14,19 @@ class AbstractAdapterInstallerSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AbstractAdapterInstallerSO);
-// Type: BeatSaber.AvatarCore::AbstractAdapterInstallerSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScriptableObjectInstaller
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::AbstractAdapterInstallerSO*
+// CS Name: BeatSaber.AvatarCore.AbstractAdapterInstallerSO
 class CORDL_TYPE AbstractAdapterInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InstallBindings, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::AvatarCore::AbstractAdapterInstallerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221cf8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2248500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   AbstractAdapterInstallerSO(AbstractAdapterInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

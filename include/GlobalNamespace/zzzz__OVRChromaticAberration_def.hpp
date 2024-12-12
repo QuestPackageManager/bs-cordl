@@ -12,11 +12,10 @@ class OVRChromaticAberration;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRChromaticAberration);
-// Type: ::OVRChromaticAberration
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRInput::RawButton, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRChromaticAberration*
+// CS Name: OVRChromaticAberration
 class CORDL_TYPE OVRChromaticAberration : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -24,29 +23,29 @@ public:
   __declspec(property(get = __cordl_internal_get_chromatic, put = __cordl_internal_set_chromatic)) bool chromatic;
 
   /// @brief Field toggleButton, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_toggleButton, put = __cordl_internal_set_toggleButton)) ::GlobalNamespace::__OVRInput__RawButton toggleButton;
+  __declspec(property(get = __cordl_internal_get_toggleButton, put = __cordl_internal_set_toggleButton)) ::GlobalNamespace::OVRInput_RawButton toggleButton;
 
   static inline ::GlobalNamespace::OVRChromaticAberration* New_ctor();
 
-  /// @brief Method Start, addr 0x3fc8494, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4028540, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fc8530, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40285dc, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_chromatic() const;
 
   constexpr bool& __cordl_internal_get_chromatic();
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_toggleButton() const;
+  constexpr ::GlobalNamespace::OVRInput_RawButton const& __cordl_internal_get_toggleButton() const;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_toggleButton();
+  constexpr ::GlobalNamespace::OVRInput_RawButton& __cordl_internal_get_toggleButton();
 
   constexpr void __cordl_internal_set_chromatic(bool value);
 
-  constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
+  constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x3fc8620, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40286cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,23 +62,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRChromaticAberration(OVRChromaticAberration const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8389 };
+
   /// @brief Field toggleButton, offset: 0x20, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRInput__RawButton ___toggleButton;
+  ::GlobalNamespace::OVRInput_RawButton ___toggleButton;
 
   /// @brief Field chromatic, offset: 0x24, size: 0x1, def value: None
   bool ___chromatic;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8364 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRChromaticAberration, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRChromaticAberration, ___toggleButton) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRChromaticAberration, ___chromatic) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRChromaticAberration, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRChromaticAberration);

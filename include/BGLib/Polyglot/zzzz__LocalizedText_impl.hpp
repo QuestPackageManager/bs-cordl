@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizedText::*)(::UnityEngine::UI::Text*, ::StringW)>(
     &::BGLib::Polyglot::LocalizedText::SetText)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x227c9f0;
+  constexpr static std::size_t addrs = 0x22af6c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizedText::*)(::UnityEngine::UI::Text*, ::BGLib::Polyglot::LanguageDirection)>(
     &::BGLib::Polyglot::LocalizedText::UpdateAlignment)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x227cb0c;
+  constexpr static std::size_t addrs = 0x22af7dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizedText::*)(::UnityEngine::TextAnchor, ::BGLib::Polyglot::LanguageDirection)>(
     &::BGLib::Polyglot::LocalizedText::IsOppositeDirection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x227cbd0;
+  constexpr static std::size_t addrs = 0x22af8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextAnchor)>(&::BGLib::Polyglot::LocalizedText::IsAlignmentRight)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x227cc14;
+  constexpr static std::size_t addrs = 0x22af8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextAnchor)>(&::BGLib::Polyglot::LocalizedText::IsAlignmentLeft)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x227cc38;
+  constexpr static std::size_t addrs = 0x22af908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizedText::*)()>(&::BGLib::Polyglot::LocalizedText::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x227cc58;
+  constexpr static std::size_t addrs = 0x22af928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedText*>::get(), ".ctor",
@@ -121,13 +121,13 @@ inline bool BGLib::Polyglot::LocalizedText::IsAlignmentLeft(::UnityEngine::TextA
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, alignment);
 }
-inline ::BGLib::Polyglot::LocalizedText* BGLib::Polyglot::LocalizedText::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizedText*>());
-}
 inline void BGLib::Polyglot::LocalizedText::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedText*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BGLib::Polyglot::LocalizedText* BGLib::Polyglot::LocalizedText::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizedText*>());
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizedText::LocalizedText() {}

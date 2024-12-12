@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "Zenject/SubContainerDependencyProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__SubContainerDependencyProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::SubContainerDependencyProvider::*)(::System::Type*, ::System::Object*, ::Zenject::ISubContainerCreator*, bool)>(&::Zenject::SubContainerDependencyProvider::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4adc5ec;
+  constexpr static std::size_t addrs = 0x4b40efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SubContainerDependencyProvider::*)()>(&::Zenject::SubContainerDependencyProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc630;
+  constexpr static std::size_t addrs = 0x4b40f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerDependencyProvider*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SubContainerDependencyProvider::*)()>(
     &::Zenject::SubContainerDependencyProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc638;
+  constexpr static std::size_t addrs = 0x4b40f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::SubContainerDependencyProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::SubContainerDependencyProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc640;
+  constexpr static std::size_t addrs = 0x4b40f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectContext* (
     ::Zenject::SubContainerDependencyProvider::*)(::Zenject::InjectContext*, ::Zenject::DiContainer*)>(&::Zenject::SubContainerDependencyProvider::CreateSubContext)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4adc648;
+  constexpr static std::size_t addrs = 0x4b40f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,34 +91,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerDependencyProvider::*)(
-    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
+    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::SubContainerDependencyProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4adc684;
+  constexpr static std::size_t addrs = 0x4b40f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerDependencyProvider*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::IProvider"
-constexpr Zenject::SubContainerDependencyProvider::operator ::Zenject::IProvider*() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IProvider"
-constexpr ::Zenject::IProvider* Zenject::SubContainerDependencyProvider::i___Zenject__IProvider() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
 constexpr ::Zenject::ISubContainerCreator*& Zenject::SubContainerDependencyProvider::__cordl_internal_get__subContainerCreator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subContainerCreator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::ISubContainerCreator*> const& Zenject::SubContainerDependencyProvider::__cordl_internal_get__subContainerCreator() const {
+constexpr ::Zenject::ISubContainerCreator* const& Zenject::SubContainerDependencyProvider::__cordl_internal_get__subContainerCreator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subContainerCreator;
 }
@@ -130,7 +122,7 @@ constexpr ::System::Type*& Zenject::SubContainerDependencyProvider::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dependencyType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::SubContainerDependencyProvider::__cordl_internal_get__dependencyType() const {
+constexpr ::System::Type* const& Zenject::SubContainerDependencyProvider::__cordl_internal_get__dependencyType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dependencyType;
 }
@@ -142,7 +134,7 @@ constexpr ::System::Object*& Zenject::SubContainerDependencyProvider::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____identifier;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::SubContainerDependencyProvider::__cordl_internal_get__identifier() const {
+constexpr ::System::Object* const& Zenject::SubContainerDependencyProvider::__cordl_internal_get__identifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____identifier;
 }
@@ -161,10 +153,6 @@ constexpr bool const& Zenject::SubContainerDependencyProvider::__cordl_internal_
 constexpr void Zenject::SubContainerDependencyProvider::__cordl_internal_set__resolveAll(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resolveAll = value;
-}
-inline ::Zenject::SubContainerDependencyProvider* Zenject::SubContainerDependencyProvider::New_ctor(::System::Type* dependencyType, ::System::Object* identifier,
-                                                                                                    ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerDependencyProvider*>(dependencyType, identifier, subContainerCreator, resolveAll));
 }
 inline void Zenject::SubContainerDependencyProvider::_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,14 +186,26 @@ inline ::Zenject::InjectContext* Zenject::SubContainerDependencyProvider::Create
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectContext*, false>(this, ___internal_method, parent, subContainer);
 }
 inline void Zenject::SubContainerDependencyProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
-                                                                                    ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
+                                                                                    ::ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerDependencyProvider*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
+}
+inline ::Zenject::SubContainerDependencyProvider* Zenject::SubContainerDependencyProvider::New_ctor(::System::Type* dependencyType, ::System::Object* identifier,
+                                                                                                    ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerDependencyProvider*>(dependencyType, identifier, subContainerCreator, resolveAll));
+}
+/// @brief Convert operator to "::Zenject::IProvider"
+constexpr Zenject::SubContainerDependencyProvider::operator ::Zenject::IProvider*() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IProvider"
+constexpr ::Zenject::IProvider* Zenject::SubContainerDependencyProvider::i___Zenject__IProvider() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerDependencyProvider::SubContainerDependencyProvider() {}

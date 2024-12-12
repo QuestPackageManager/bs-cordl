@@ -12,11 +12,10 @@ struct MarkerFlags;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::LowLevel::MarkerFlags);
-// Type: Unity.Profiling.LowLevel::MarkerFlags
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Profiling::LowLevel {
 // Is value type: true
-// CS Name: ::Unity.Profiling.LowLevel::MarkerFlags
+// CS Name: Unity.Profiling.LowLevel.MarkerFlags
 struct CORDL_TYPE MarkerFlags {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr MarkerFlags(uint16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  uint16_t value__;
-
-  /// @brief Field AvailabilityEditor value: static_cast<uint16_t>(0x4u)
+  /// @brief Field AvailabilityEditor value: U16(4)
   static ::Unity::Profiling::LowLevel::MarkerFlags const AvailabilityEditor;
 
-  /// @brief Field AvailabilityNonDevelopment value: static_cast<uint16_t>(0x8u)
+  /// @brief Field AvailabilityNonDevelopment value: U16(8)
   static ::Unity::Profiling::LowLevel::MarkerFlags const AvailabilityNonDevelopment;
 
-  /// @brief Field Counter value: static_cast<uint16_t>(0x80u)
+  /// @brief Field Counter value: U16(128)
   static ::Unity::Profiling::LowLevel::MarkerFlags const Counter;
 
-  /// @brief Field Default value: static_cast<uint16_t>(0x0u)
+  /// @brief Field Default value: U16(0)
   static ::Unity::Profiling::LowLevel::MarkerFlags const Default;
 
-  /// @brief Field SampleGPU value: static_cast<uint16_t>(0x100u)
+  /// @brief Field SampleGPU value: U16(256)
   static ::Unity::Profiling::LowLevel::MarkerFlags const SampleGPU;
 
-  /// @brief Field Script value: static_cast<uint16_t>(0x2u)
+  /// @brief Field Script value: U16(2)
   static ::Unity::Profiling::LowLevel::MarkerFlags const Script;
 
-  /// @brief Field ScriptDeepProfiler value: static_cast<uint16_t>(0x40u)
+  /// @brief Field ScriptDeepProfiler value: U16(64)
   static ::Unity::Profiling::LowLevel::MarkerFlags const ScriptDeepProfiler;
 
-  /// @brief Field ScriptInvoke value: static_cast<uint16_t>(0x20u)
+  /// @brief Field ScriptInvoke value: U16(32)
   static ::Unity::Profiling::LowLevel::MarkerFlags const ScriptInvoke;
 
-  /// @brief Field Warning value: static_cast<uint16_t>(0x10u)
+  /// @brief Field Warning value: U16(16)
   static ::Unity::Profiling::LowLevel::MarkerFlags const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  uint16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Profiling::LowLevel::MarkerFlags, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Profiling::LowLevel::MarkerFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Profiling::LowLevel::MarkerFlags, 0x2>, "Size mismatch!");
 
 } // namespace Unity::Profiling::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::LowLevel::MarkerFlags, "Unity.Profiling.LowLevel", "MarkerFlags");

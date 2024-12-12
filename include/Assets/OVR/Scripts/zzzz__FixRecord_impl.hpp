@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Assets::OVR::Scripts::FixRecord::*)(
     int32_t, ::StringW, ::StringW, ::Assets::OVR::Scripts::FixMethodDelegate*, ::UnityEngine::Object*, bool, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::Assets::OVR::Scripts::FixRecord::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40175a8;
+  constexpr static std::size_t addrs = 0x4077654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ constexpr ::Assets::OVR::Scripts::FixMethodDelegate*& Assets::OVR::Scripts::FixR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::Assets::OVR::Scripts::FixMethodDelegate*> const& Assets::OVR::Scripts::FixRecord::__cordl_internal_get_fixMethod() const {
+constexpr ::Assets::OVR::Scripts::FixMethodDelegate* const& Assets::OVR::Scripts::FixRecord::__cordl_internal_get_fixMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixMethod;
 }
@@ -83,10 +83,6 @@ constexpr void Assets::OVR::Scripts::FixRecord::__cordl_internal_set_complete(bo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___complete = value;
 }
-inline ::Assets::OVR::Scripts::FixRecord* Assets::OVR::Scripts::FixRecord::New_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix,
-                                                                                    ::UnityEngine::Object* target, bool editRequired, ::ArrayW<::StringW, ::Array<::StringW>*> buttons) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Assets::OVR::Scripts::FixRecord*>(order, cat, msg, fix, target, editRequired, buttons));
-}
 inline void Assets::OVR::Scripts::FixRecord::_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                                                    ::ArrayW<::StringW, ::Array<::StringW>*> buttons) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,6 +93,10 @@ inline void Assets::OVR::Scripts::FixRecord::_ctor(int32_t order, ::StringW cat,
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, order, cat, msg, fix, target, editRequired, buttons);
+}
+inline ::Assets::OVR::Scripts::FixRecord* Assets::OVR::Scripts::FixRecord::New_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix,
+                                                                                    ::UnityEngine::Object* target, bool editRequired, ::ArrayW<::StringW, ::Array<::StringW>*> buttons) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Assets::OVR::Scripts::FixRecord*>(order, cat, msg, fix, target, editRequired, buttons));
 }
 // Ctor Parameters []
 constexpr ::Assets::OVR::Scripts::FixRecord::FixRecord() {}

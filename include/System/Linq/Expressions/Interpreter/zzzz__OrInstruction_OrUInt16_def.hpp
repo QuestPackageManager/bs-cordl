@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __OrInstruction__OrUInt16;
+namespace GlobalNamespace {
+class OrInstruction_OrUInt16;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt16);
-// Type: ::OrUInt16
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::OrInstruction_OrUInt16);
+// Dependencies System.Linq.Expressions.Interpreter.OrInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OrInstruction::OrUInt16*
-class CORDL_TYPE __OrInstruction__OrUInt16 : public ::System::Linq::Expressions::Interpreter::OrInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.OrInstruction/OrUInt16
+class CORDL_TYPE OrInstruction_OrUInt16 : public ::System::Linq::Expressions::Interpreter::OrInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt16* New_ctor();
+  static inline ::GlobalNamespace::OrInstruction_OrUInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x40921bc, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f34d0, size 0xf4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4091ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f2fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OrInstruction__OrUInt16();
+  constexpr OrInstruction_OrUInt16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OrInstruction__OrUInt16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrInstruction_OrUInt16", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OrInstruction__OrUInt16(__OrInstruction__OrUInt16&&) = delete;
+  OrInstruction_OrUInt16(OrInstruction_OrUInt16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OrInstruction__OrUInt16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrInstruction_OrUInt16", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OrInstruction__OrUInt16(__OrInstruction__OrUInt16 const&) = delete;
+  OrInstruction_OrUInt16(OrInstruction_OrUInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt16, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OrInstruction_OrUInt16, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt16);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__OrInstruction__OrUInt16*, "System.Linq.Expressions.Interpreter", "OrInstruction/OrUInt16");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::OrInstruction_OrUInt16);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OrInstruction_OrUInt16*, "System.Linq.Expressions.Interpreter", "OrInstruction/OrUInt16");

@@ -15,15 +15,14 @@ class CryptographicOperations;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::CryptographicOperations);
-// Type: System.Security.Cryptography::CryptographicOperations
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::CryptographicOperations*
+// CS Name: System.Security.Cryptography.CryptographicOperations
 class CORDL_TYPE CryptographicOperations : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ZeroMemory, addr 0x3c3aaf0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x3c9ac64, size 0x68, virtual false, abstract: false, final false
   static inline void ZeroMemory(::System::Span_1<uint8_t> buffer);
 
 protected:

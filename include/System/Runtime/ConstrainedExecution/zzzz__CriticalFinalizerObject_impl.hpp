@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(
     &::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb680c;
+  constexpr static std::size_t addrs = 0x3d16980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(
     &::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::Finalize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb6814;
+  constexpr static std::size_t addrs = 0x3d16988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,9 +33,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* System::Runtime::ConstrainedExecution::CriticalFinalizerObject::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::ConstrainedExecution::CriticalFinalizerObject*>());
-}
 inline void System::Runtime::ConstrainedExecution::CriticalFinalizerObject::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::ConstrainedExecution::CriticalFinalizerObject*>::get(), ".ctor",
@@ -47,6 +44,9 @@ inline void System::Runtime::ConstrainedExecution::CriticalFinalizerObject::Fina
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::ConstrainedExecution::CriticalFinalizerObject*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* System::Runtime::ConstrainedExecution::CriticalFinalizerObject::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::ConstrainedExecution::CriticalFinalizerObject*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::CriticalFinalizerObject() {}

@@ -3,18 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnwrapPromise_1)
 namespace System::Threading::Tasks {
-class ITaskCompletionAction;
-}
-namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class __UnwrapPromise_1____c;
+template <typename TResult> class UnwrapPromise_1___c;
 }
 namespace System::Threading {
 class WaitCallback;
@@ -27,28 +25,27 @@ namespace System::Threading::Tasks {
 template <typename TResult> class UnwrapPromise_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class __UnwrapPromise_1____c;
+template <typename TResult> class UnwrapPromise_1___c;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::UnwrapPromise_1);
-MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__UnwrapPromise_1____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::System::Threading::Tasks::UnwrapPromise_1___c);
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// CS Name: ::UnwrapPromise`1::<>c<TResult>*
-class CORDL_TYPE __UnwrapPromise_1____c : public ::System::Object {
+// CS Name: System.Threading.Tasks.UnwrapPromise`1/<>c<TResult>
+class CORDL_TYPE UnwrapPromise_1___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Threading::Tasks::UnwrapPromise_1___c<TResult>* __9;
 
   /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Threading::WaitCallback* __9__8_0;
+  __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Threading::WaitCallback* __9__8_0;
 
-  static inline ::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>* New_ctor();
+  static inline ::System::Threading::Tasks::UnwrapPromise_1___c<TResult>* New_ctor();
 
   /// @brief Method <InvokeCoreAsync>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _InvokeCoreAsync_b__8_0(::System::Object* state);
@@ -56,27 +53,27 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>* getStaticF___9();
+  static inline ::System::Threading::Tasks::UnwrapPromise_1___c<TResult>* getStaticF___9();
 
   static inline ::System::Threading::WaitCallback* getStaticF___9__8_0();
 
-  static inline void setStaticF___9(::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>* value);
+  static inline void setStaticF___9(::System::Threading::Tasks::UnwrapPromise_1___c<TResult>* value);
 
   static inline void setStaticF___9__8_0(::System::Threading::WaitCallback* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UnwrapPromise_1____c();
+  constexpr UnwrapPromise_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UnwrapPromise_1____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UnwrapPromise_1____c(__UnwrapPromise_1____c&&) = delete;
+  UnwrapPromise_1___c(UnwrapPromise_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UnwrapPromise_1____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UnwrapPromise_1____c(__UnwrapPromise_1____c const&) = delete;
+  UnwrapPromise_1___c(UnwrapPromise_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2799 };
@@ -85,17 +82,16 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
-// Type: System.Threading.Tasks::UnwrapPromise`1
-// SizeInfo { instance_size: 96, native_size: 90, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.Tasks.ITaskCompletionAction, System.Threading.Tasks.Task`1<TResult>
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::UnwrapPromise`1<TResult>*
+// CS Name: System.Threading.Tasks.UnwrapPromise`1<TResult>
 class CORDL_TYPE UnwrapPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
   // Declarations
-  using __c = ::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>;
+  using __c = ::System::Threading::Tasks::UnwrapPromise_1___c<TResult>;
 
   __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
 
@@ -163,18 +159,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnwrapPromise_1(UnwrapPromise_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2800 };
+
   /// @brief Field _state, offset: 0x58, size: 0x1, def value: None
   uint8_t ____state;
 
   /// @brief Field _lookForOce, offset: 0x59, size: 0x1, def value: None
   bool ____lookForOce;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2800 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::UnwrapPromise_1, "System.Threading.Tasks", "UnwrapPromise`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::__UnwrapPromise_1____c, "System.Threading.Tasks", "UnwrapPromise`1/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::UnwrapPromise_1___c, "System.Threading.Tasks", "UnwrapPromise`1/<>c");

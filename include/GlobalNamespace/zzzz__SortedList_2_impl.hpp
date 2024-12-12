@@ -1,25 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SortedList_2.hpp"
+#include "GlobalNamespace/zzzz__ISortedList_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SortedList_2_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
-#include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
-/// @brief Convert operator to "::GlobalNamespace::ISortedList_1<TBase>"
-template <typename T, typename TBase> constexpr GlobalNamespace::SortedList_2<T, TBase>::operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept {
-  return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
-template <typename T, typename TBase> constexpr ::GlobalNamespace::ISortedList_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::i___GlobalNamespace__ISortedList_1_TBase_() noexcept {
-  return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
-}
 template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
-template <typename T, typename TBase>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<TBase>*> const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() const {
+template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedList_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
@@ -32,8 +23,7 @@ template <typename T, typename TBase> constexpr ::GlobalNamespace::ISortedListIt
   return this->____sortedListDataProcessor;
 }
 template <typename T, typename TBase>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedListItemProcessor_1<TBase>*> const&
-GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__sortedListDataProcessor() const {
+constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__sortedListDataProcessor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedListDataProcessor;
 }
@@ -46,8 +36,7 @@ template <typename T, typename TBase> constexpr ::System::Collections::Generic::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedNode;
 }
-template <typename T, typename TBase>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<TBase>*> const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__lastUsedNode() const {
+template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__lastUsedNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedNode;
 }
@@ -64,10 +53,6 @@ template <typename T, typename TBase> inline ::System::Collections::Generic::Lin
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_2<T, TBase>*>::get(), "get_items",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedList_1<TBase>*, false>(this, ___internal_method);
-}
-template <typename T, typename TBase>
-inline ::GlobalNamespace::SortedList_2<T, TBase>* GlobalNamespace::SortedList_2<T, TBase>::New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SortedList_2<T, TBase>*>(sortedListDataProcessor));
 }
 template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<T, TBase>::_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -104,6 +89,18 @@ template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_2<T, TBase>*>::get(), "InsertInternal", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::LinkedListNode_1<TBase>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newItem);
+}
+template <typename T, typename TBase>
+inline ::GlobalNamespace::SortedList_2<T, TBase>* GlobalNamespace::SortedList_2<T, TBase>::New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SortedList_2<T, TBase>*>(sortedListDataProcessor));
+}
+/// @brief Convert operator to "::GlobalNamespace::ISortedList_1<TBase>"
+template <typename T, typename TBase> constexpr GlobalNamespace::SortedList_2<T, TBase>::operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept {
+  return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
+template <typename T, typename TBase> constexpr ::GlobalNamespace::ISortedList_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::i___GlobalNamespace__ISortedList_1_TBase_() noexcept {
+  return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T, typename TBase> constexpr ::GlobalNamespace::SortedList_2<T, TBase>::SortedList_2() {}

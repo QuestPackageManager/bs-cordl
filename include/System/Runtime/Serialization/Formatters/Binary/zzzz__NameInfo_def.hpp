@@ -18,11 +18,10 @@ class NameInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::NameInfo);
-// Type: System.Runtime.Serialization.Formatters.Binary::NameInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE, System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::NameInfo*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.NameInfo
 class CORDL_TYPE NameInfo : public ::System::Object {
 public:
   // Declarations
@@ -70,7 +69,7 @@ public:
   /// @brief Field NItype, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_NItype, put = __cordl_internal_set_NItype)) ::System::Type* NItype;
 
-  /// @brief Method Init, addr 0x3cae05c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d0e1d0, size 0x20, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
@@ -123,9 +122,9 @@ public:
 
   constexpr bool& __cordl_internal_get_NItransmitTypeOnObject();
 
-  constexpr ::System::Type*& __cordl_internal_get_NItype();
+  constexpr ::System::Type* const& __cordl_internal_get_NItype() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_NItype() const;
+  constexpr ::System::Type*& __cordl_internal_get_NItype();
 
   constexpr void __cordl_internal_set_NIFullName(::StringW value);
 
@@ -153,16 +152,16 @@ public:
 
   constexpr void __cordl_internal_set_NItype(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3cae07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0e1f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsSealed, addr 0x3caddc0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsSealed, addr 0x3d0df34, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsSealed();
 
-  /// @brief Method get_NIname, addr 0x3cb2230, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_NIname, addr 0x3d123a4, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_NIname();
 
-  /// @brief Method set_NIname, addr 0x3cb2268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NIname, addr 0x3d123dc, size 0x8, virtual false, abstract: false, final false
   inline void set_NIname(::StringW value);
 
 protected:
@@ -178,6 +177,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NameInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NameInfo(NameInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3298 };
 
   /// @brief Field NIFullName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___NIFullName;
@@ -218,14 +220,9 @@ public:
   /// @brief Field NIsealedStatusChecked, offset: 0x44, size: 0x1, def value: None
   bool ___NIsealedStatusChecked;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3298 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::NameInfo, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIFullName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIobjectId) == 0x18, "Offset mismatch!");
@@ -251,6 +248,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Nam
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIarrayEnum) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIsealedStatusChecked) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::NameInfo, 0x48>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::NameInfo);

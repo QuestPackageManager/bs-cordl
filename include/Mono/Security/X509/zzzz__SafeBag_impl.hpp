@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::SafeBag::*)(::StringW, ::Mono::Security::ASN1*)>(
     &::Mono::Security::X509::SafeBag::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bd2598;
+  constexpr static std::size_t addrs = 0x3c326ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::X509::SafeBag::*)()>(&::Mono::Security::X509::SafeBag::get_BagOID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bd25c4;
+  constexpr static std::size_t addrs = 0x3c326d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::SafeBag*>::get(), "get_BagOID",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::X509::SafeBag::*)()>(&::Mono::Security::X509::SafeBag::get_ASN1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bd25cc;
+  constexpr static std::size_t addrs = 0x3c326e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::SafeBag*>::get(), "get_ASN1",
@@ -61,16 +61,13 @@ constexpr ::Mono::Security::ASN1*& Mono::Security::X509::SafeBag::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asn1;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& Mono::Security::X509::SafeBag::__cordl_internal_get__asn1() const {
+constexpr ::Mono::Security::ASN1* const& Mono::Security::X509::SafeBag::__cordl_internal_get__asn1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asn1;
 }
 constexpr void Mono::Security::X509::SafeBag::__cordl_internal_set__asn1(::Mono::Security::ASN1* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____asn1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Mono::Security::X509::SafeBag* Mono::Security::X509::SafeBag::New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::X509::SafeBag*>(bagOID, asn1));
 }
 inline void Mono::Security::X509::SafeBag::_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1) {
   static auto* ___internal_method =
@@ -88,6 +85,9 @@ inline ::Mono::Security::ASN1* Mono::Security::X509::SafeBag::get_ASN1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::SafeBag*>::get(), "get_ASN1",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*, false>(this, ___internal_method);
+}
+inline ::Mono::Security::X509::SafeBag* Mono::Security::X509::SafeBag::New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::X509::SafeBag*>(bagOID, asn1));
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::SafeBag::SafeBag() {}

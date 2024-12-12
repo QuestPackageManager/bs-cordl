@@ -7,7 +7,7 @@ template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::Generic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatEvent;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& GlobalNamespace::GenericSignal_1<T>::__cordl_internal_get__floatEvent() const {
+template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::GenericSignal_1<T>::__cordl_internal_get__floatEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatEvent;
 }
@@ -38,13 +38,13 @@ template <typename T> inline void GlobalNamespace::GenericSignal_1<T>::Unsubscri
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, foo);
 }
-template <typename T> inline ::GlobalNamespace::GenericSignal_1<T>* GlobalNamespace::GenericSignal_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GenericSignal_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::GenericSignal_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GenericSignal_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::GenericSignal_1<T>* GlobalNamespace::GenericSignal_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GenericSignal_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::GenericSignal_1<T>::GenericSignal_1() {}

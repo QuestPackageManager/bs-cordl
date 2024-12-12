@@ -12,11 +12,10 @@ struct RenderHints;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::RenderHints);
-// Type: UnityEngine.UIElements::RenderHints
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::RenderHints
+// CS Name: UnityEngine.UIElements.RenderHints
 struct CORDL_TYPE RenderHints {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RenderHints(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BoneTransform value: static_cast<int32_t>(0x2)
+  /// @brief Field BoneTransform value: I32(2)
   static ::UnityEngine::UIElements::RenderHints const BoneTransform;
 
-  /// @brief Field ClipWithScissors value: static_cast<int32_t>(0x4)
+  /// @brief Field ClipWithScissors value: I32(4)
   static ::UnityEngine::UIElements::RenderHints const ClipWithScissors;
 
-  /// @brief Field DirtyAll value: static_cast<int32_t>(0x3e0)
+  /// @brief Field DirtyAll value: I32(992)
   static ::UnityEngine::UIElements::RenderHints const DirtyAll;
 
-  /// @brief Field DirtyBoneTransform value: static_cast<int32_t>(0x40)
+  /// @brief Field DirtyBoneTransform value: I32(64)
   static ::UnityEngine::UIElements::RenderHints const DirtyBoneTransform;
 
-  /// @brief Field DirtyClipWithScissors value: static_cast<int32_t>(0x80)
+  /// @brief Field DirtyClipWithScissors value: I32(128)
   static ::UnityEngine::UIElements::RenderHints const DirtyClipWithScissors;
 
-  /// @brief Field DirtyDynamicColor value: static_cast<int32_t>(0x200)
+  /// @brief Field DirtyDynamicColor value: I32(512)
   static ::UnityEngine::UIElements::RenderHints const DirtyDynamicColor;
 
-  /// @brief Field DirtyGroupTransform value: static_cast<int32_t>(0x20)
+  /// @brief Field DirtyGroupTransform value: I32(32)
   static ::UnityEngine::UIElements::RenderHints const DirtyGroupTransform;
 
-  /// @brief Field DirtyMaskContainer value: static_cast<int32_t>(0x100)
+  /// @brief Field DirtyMaskContainer value: I32(256)
   static ::UnityEngine::UIElements::RenderHints const DirtyMaskContainer;
 
-  /// @brief Field DirtyOffset value: static_cast<int32_t>(0x5)
+  /// @brief Field DirtyOffset value: I32(5)
   static ::UnityEngine::UIElements::RenderHints const DirtyOffset;
 
-  /// @brief Field DynamicColor value: static_cast<int32_t>(0x10)
+  /// @brief Field DynamicColor value: I32(16)
   static ::UnityEngine::UIElements::RenderHints const DynamicColor;
 
-  /// @brief Field GroupTransform value: static_cast<int32_t>(0x1)
+  /// @brief Field GroupTransform value: I32(1)
   static ::UnityEngine::UIElements::RenderHints const GroupTransform;
 
-  /// @brief Field MaskContainer value: static_cast<int32_t>(0x8)
+  /// @brief Field MaskContainer value: I32(8)
   static ::UnityEngine::UIElements::RenderHints const MaskContainer;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::UIElements::RenderHints const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6001 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RenderHints, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::RenderHints, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RenderHints, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RenderHints, "UnityEngine.UIElements", "RenderHints");

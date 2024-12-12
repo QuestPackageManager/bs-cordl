@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/KdTree/Math/zzzz__TypeMath_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DoubleMath)
@@ -14,11 +13,10 @@ class DoubleMath;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::Math::DoubleMath);
-// Type: UnityEngine.ProBuilder.KdTree.Math::DoubleMath
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<T>
 namespace UnityEngine::ProBuilder::KdTree::Math {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.KdTree.Math::DoubleMath*
+// CS Name: UnityEngine.ProBuilder.KdTree.Math.DoubleMath
 class CORDL_TYPE DoubleMath : public ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t> {
 public:
   // Declarations
@@ -32,42 +30,42 @@ public:
 
   __declspec(property(get = get_Zero)) double_t Zero;
 
-  /// @brief Method Add, addr 0x4693914, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x46f4c28, size 0x8, virtual true, abstract: false, final false
   inline double_t Add(double_t a, double_t b);
 
-  /// @brief Method AreEqual, addr 0x46938d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x46f4be4, size 0xc, virtual true, abstract: false, final false
   inline bool AreEqual(double_t a, double_t b);
 
-  /// @brief Method Compare, addr 0x46938b0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x46f4bc4, size 0x20, virtual true, abstract: false, final false
   inline int32_t Compare(double_t a, double_t b);
 
-  /// @brief Method DistanceSquaredBetweenPoints, addr 0x469392c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DistanceSquaredBetweenPoints, addr 0x46f4c40, size 0x100, virtual true, abstract: false, final false
   inline double_t DistanceSquaredBetweenPoints(::ArrayW<double_t, ::Array<double_t>*> a, ::ArrayW<double_t, ::Array<double_t>*> b);
 
-  /// @brief Method Multiply, addr 0x4693924, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x46f4c38, size 0x8, virtual true, abstract: false, final false
   inline double_t Multiply(double_t a, double_t b);
 
   static inline ::UnityEngine::ProBuilder::KdTree::Math::DoubleMath* New_ctor();
 
-  /// @brief Method Subtract, addr 0x469391c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x46f4c30, size 0x8, virtual true, abstract: false, final false
   inline double_t Subtract(double_t a, double_t b);
 
-  /// @brief Method .ctor, addr 0x4693a2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46f4d40, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxValue, addr 0x46938e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x46f4bfc, size 0xc, virtual true, abstract: false, final false
   inline double_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x46938dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x46f4bf0, size 0xc, virtual true, abstract: false, final false
   inline double_t get_MinValue();
 
-  /// @brief Method get_NegativeInfinity, addr 0x46938fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_NegativeInfinity, addr 0x46f4c10, size 0xc, virtual true, abstract: false, final false
   inline double_t get_NegativeInfinity();
 
-  /// @brief Method get_PositiveInfinity, addr 0x4693908, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_PositiveInfinity, addr 0x46f4c1c, size 0xc, virtual true, abstract: false, final false
   inline double_t get_PositiveInfinity();
 
-  /// @brief Method get_Zero, addr 0x46938f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Zero, addr 0x46f4c08, size 0x8, virtual true, abstract: false, final false
   inline double_t get_Zero();
 
 protected:
@@ -85,7 +83,7 @@ public:
   DoubleMath(DoubleMath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18550 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

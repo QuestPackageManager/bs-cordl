@@ -14,9 +14,6 @@ template <typename TValue> inline void Zenject::PoolableMemoryPool_1<TValue>::Re
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPool_1<TValue>*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
-template <typename TValue> inline ::Zenject::PoolableMemoryPool_1<TValue>* Zenject::PoolableMemoryPool_1<TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolableMemoryPool_1<TValue>*>());
-}
 template <typename TValue> inline void Zenject::PoolableMemoryPool_1<TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPool_1<TValue>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -32,6 +29,9 @@ template <typename TValue> inline ::Zenject::InjectTypeInfo* Zenject::PoolableMe
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPool_1<TValue>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TValue> inline ::Zenject::PoolableMemoryPool_1<TValue>* Zenject::PoolableMemoryPool_1<TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolableMemoryPool_1<TValue>*>());
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::Zenject::PoolableMemoryPool_1<TValue>::PoolableMemoryPool_1() {}

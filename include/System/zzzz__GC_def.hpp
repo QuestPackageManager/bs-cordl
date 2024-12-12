@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GC)
 namespace System::Runtime::CompilerServices {
@@ -23,60 +21,59 @@ class GC;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::GC);
-// Type: System::GC
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::GC*
+// CS Name: System.GC
 class CORDL_TYPE GC : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EPHEMERON_TOMBSTONE, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EPHEMERON_TOMBSTONE, put = setStaticF_EPHEMERON_TOMBSTONE)) ::System::Object* EPHEMERON_TOMBSTONE;
+  __declspec(property(get = getStaticF_EPHEMERON_TOMBSTONE, put = setStaticF_EPHEMERON_TOMBSTONE)) ::System::Object* EPHEMERON_TOMBSTONE;
 
-  /// @brief Method Collect, addr 0x3dc290c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Collect, addr 0x3e229b8, size 0x50, virtual false, abstract: false, final false
   static inline void Collect();
 
-  /// @brief Method CollectionCount, addr 0x3dc29a8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CollectionCount, addr 0x3e22a54, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t CollectionCount(int32_t generation);
 
-  /// @brief Method GetCollectionCount, addr 0x3dc28dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionCount, addr 0x3e22988, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetCollectionCount(int32_t generation);
 
-  /// @brief Method GetMaxGeneration, addr 0x3dc28e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetMaxGeneration, addr 0x3e2298c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetMaxGeneration();
 
-  /// @brief Method GetMemoryInfo, addr 0x3dc28f0, size 0x1c, virtual false, abstract: false, final false
-  static inline void GetMemoryInfo(ByRef<uint32_t> highMemLoadThreshold, ByRef<uint64_t> totalPhysicalMem, ByRef<uint32_t> lastRecordedMemLoad, ByRef<::System::UIntPtr> lastRecordedHeapSize,
-                                   ByRef<::System::UIntPtr> lastRecordedFragmentation);
+  /// @brief Method GetMemoryInfo, addr 0x3e2299c, size 0x1c, virtual false, abstract: false, final false
+  static inline void GetMemoryInfo(::ByRef<uint32_t> highMemLoadThreshold, ::ByRef<uint64_t> totalPhysicalMem, ::ByRef<uint32_t> lastRecordedMemLoad, ::ByRef<::System::UIntPtr> lastRecordedHeapSize,
+                                   ::ByRef<::System::UIntPtr> lastRecordedFragmentation);
 
-  /// @brief Method InternalCollect, addr 0x3dc28e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalCollect, addr 0x3e22990, size 0x4, virtual false, abstract: false, final false
   static inline void InternalCollect(int32_t generation);
 
-  /// @brief Method KeepAlive, addr 0x3dc2a64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method KeepAlive, addr 0x3e22b10, size 0x4, virtual false, abstract: false, final false
   static inline void KeepAlive(::System::Object* obj);
 
-  /// @brief Method ReRegisterForFinalize, addr 0x3dc2b10, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReRegisterForFinalize, addr 0x3e22bbc, size 0xa0, virtual false, abstract: false, final false
   static inline void ReRegisterForFinalize(::System::Object* obj);
 
-  /// @brief Method SuppressFinalize, addr 0x3dc2a6c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SuppressFinalize, addr 0x3e22b18, size 0xa0, virtual false, abstract: false, final false
   static inline void SuppressFinalize(::System::Object* obj);
 
-  /// @brief Method _ReRegisterForFinalize, addr 0x3dc2b0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ReRegisterForFinalize, addr 0x3e22bb8, size 0x4, virtual false, abstract: false, final false
   static inline void _ReRegisterForFinalize(::System::Object* o);
 
-  /// @brief Method _SuppressFinalize, addr 0x3dc2a68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _SuppressFinalize, addr 0x3e22b14, size 0x4, virtual false, abstract: false, final false
   static inline void _SuppressFinalize(::System::Object* o);
 
   static inline ::System::Object* getStaticF_EPHEMERON_TOMBSTONE();
 
-  /// @brief Method get_MaxGeneration, addr 0x3dc295c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_MaxGeneration, addr 0x3e22a08, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t get_MaxGeneration();
 
-  /// @brief Method get_ephemeron_tombstone, addr 0x3dc28ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ephemeron_tombstone, addr 0x3e22998, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* get_ephemeron_tombstone();
 
-  /// @brief Method register_ephemeron_array, addr 0x3dc28e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method register_ephemeron_array, addr 0x3e22994, size 0x4, virtual false, abstract: false, final false
   static inline void register_ephemeron_array(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> array);
 
   static inline void setStaticF_EPHEMERON_TOMBSTONE(::System::Object* value);

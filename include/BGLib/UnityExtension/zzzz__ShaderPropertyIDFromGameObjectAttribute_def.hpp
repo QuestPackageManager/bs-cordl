@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ShaderPropertyIDFromGameObjectAttribute)
 namespace BGLib::UnityExtension {
-struct __ShaderPropertyAttributeFilter__PropType;
+struct ShaderPropertyAttributeFilter_PropType;
 }
 // Forward declare root types
 namespace BGLib::UnityExtension {
@@ -15,21 +15,20 @@ class ShaderPropertyIDFromGameObjectAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute);
-// Type: BGLib.UnityExtension::ShaderPropertyIDFromGameObjectAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.UnityExtension.ShaderPropertyIDAttribute
 namespace BGLib::UnityExtension {
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension::ShaderPropertyIDFromGameObjectAttribute*
+// CS Name: BGLib.UnityExtension.ShaderPropertyIDFromGameObjectAttribute
 class CORDL_TYPE ShaderPropertyIDFromGameObjectAttribute : public ::BGLib::UnityExtension::ShaderPropertyIDAttribute {
 public:
   // Declarations
-  /// @brief Method GetTargetName, addr 0x2281ee0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x22b51cc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
-  static inline ::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute* New_ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
+  static inline ::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute* New_ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
-  /// @brief Method .ctor, addr 0x2281edc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
+  /// @brief Method .ctor, addr 0x22b51c8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
   // Ctor Parameters []
@@ -46,7 +45,7 @@ public:
   ShaderPropertyIDFromGameObjectAttribute(ShaderPropertyIDFromGameObjectAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17170 };
 
   /// @brief Field kTargetName offset 0xffffffff size 0x8
   static constexpr ::ConstString kTargetName{ u"GameObject" };

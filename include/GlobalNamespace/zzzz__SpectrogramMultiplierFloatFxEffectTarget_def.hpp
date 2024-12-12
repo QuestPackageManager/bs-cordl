@@ -16,11 +16,10 @@ class SpectrogramMultiplierFloatFxEffectTarget;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget);
-// Type: ::SpectrogramMultiplierFloatFxEffectTarget
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FloatFxGroupEffectTarget
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SpectrogramMultiplierFloatFxEffectTarget*
+// CS Name: SpectrogramMultiplierFloatFxEffectTarget
 class CORDL_TYPE SpectrogramMultiplierFloatFxEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
@@ -29,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b2916c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8a704, size 0x84, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b291f0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b8a788, size 0x84, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> const& __cordl_internal_get__spectrogram() const;
@@ -41,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__spectrogram(::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> value);
 
-  /// @brief Method .ctor, addr 0x3b29274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8a80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpectrogramMultiplierFloatFxEffectTarget(SpectrogramMultiplierFloatFxEffectTarget const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4274 };
+
   /// @brief Field _spectrogram, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> ____spectrogram;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget, ____spectrogram) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget);

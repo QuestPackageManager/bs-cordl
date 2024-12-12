@@ -14,49 +14,47 @@ class IcaoObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.Icao::IcaoObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Icao {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Icao::IcaoObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.Icao.IcaoObjectIdentifiers
 class CORDL_TYPE IcaoObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IdIcao, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcao, put = setStaticF_IdIcao)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcao;
+  __declspec(property(get = getStaticF_IdIcao, put = setStaticF_IdIcao)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcao;
 
   /// @brief Field IdIcaoAAProtocolObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoAAProtocolObject, put = setStaticF_IdIcaoAAProtocolObject)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoAAProtocolObject;
+  __declspec(property(get = getStaticF_IdIcaoAAProtocolObject, put = setStaticF_IdIcaoAAProtocolObject)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoAAProtocolObject;
 
   /// @brief Field IdIcaoCscaMasterList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoCscaMasterList, put = setStaticF_IdIcaoCscaMasterList)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoCscaMasterList;
+  __declspec(property(get = getStaticF_IdIcaoCscaMasterList, put = setStaticF_IdIcaoCscaMasterList)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoCscaMasterList;
 
   /// @brief Field IdIcaoCscaMasterListSigningKey, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoCscaMasterListSigningKey,
-                             put = setStaticF_IdIcaoCscaMasterListSigningKey)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoCscaMasterListSigningKey;
+  __declspec(property(get = getStaticF_IdIcaoCscaMasterListSigningKey, put = setStaticF_IdIcaoCscaMasterListSigningKey)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoCscaMasterListSigningKey;
 
   /// @brief Field IdIcaoDocumentTypeList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoDocumentTypeList, put = setStaticF_IdIcaoDocumentTypeList)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoDocumentTypeList;
+  __declspec(property(get = getStaticF_IdIcaoDocumentTypeList, put = setStaticF_IdIcaoDocumentTypeList)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoDocumentTypeList;
 
   /// @brief Field IdIcaoExtensions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoExtensions, put = setStaticF_IdIcaoExtensions)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoExtensions;
+  __declspec(property(get = getStaticF_IdIcaoExtensions, put = setStaticF_IdIcaoExtensions)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoExtensions;
 
   /// @brief Field IdIcaoExtensionsNamechangekeyrollover, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoExtensionsNamechangekeyrollover,
-                             put = setStaticF_IdIcaoExtensionsNamechangekeyrollover)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoExtensionsNamechangekeyrollover;
+  __declspec(property(get = getStaticF_IdIcaoExtensionsNamechangekeyrollover,
+                      put = setStaticF_IdIcaoExtensionsNamechangekeyrollover)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoExtensionsNamechangekeyrollover;
 
   /// @brief Field IdIcaoLdsSecurityObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoLdsSecurityObject, put = setStaticF_IdIcaoLdsSecurityObject)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoLdsSecurityObject;
+  __declspec(property(get = getStaticF_IdIcaoLdsSecurityObject, put = setStaticF_IdIcaoLdsSecurityObject)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoLdsSecurityObject;
 
   /// @brief Field IdIcaoMrtd, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoMrtd, put = setStaticF_IdIcaoMrtd)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtd;
+  __declspec(property(get = getStaticF_IdIcaoMrtd, put = setStaticF_IdIcaoMrtd)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtd;
 
   /// @brief Field IdIcaoMrtdSecurity, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoMrtdSecurity, put = setStaticF_IdIcaoMrtdSecurity)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtdSecurity;
+  __declspec(property(get = getStaticF_IdIcaoMrtdSecurity, put = setStaticF_IdIcaoMrtdSecurity)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtdSecurity;
 
   static inline ::Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c5788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f8a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcao();

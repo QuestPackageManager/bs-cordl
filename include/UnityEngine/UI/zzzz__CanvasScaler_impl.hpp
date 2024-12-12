@@ -1,48 +1,47 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/CanvasScaler.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
-#include "UnityEngine/UI/zzzz__CanvasScaler_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UI/zzzz__CanvasScaler_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasScaler_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode::__CanvasScaler__ScaleMode(int32_t value__) noexcept {
+constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode::CanvasScaler_ScaleMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode::__CanvasScaler__ScaleMode() {}
-constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode UnityEngine::UI::__CanvasScaler__ScaleMode::ConstantPixelSize{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode UnityEngine::UI::__CanvasScaler__ScaleMode::ScaleWithScreenSize{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode UnityEngine::UI::__CanvasScaler__ScaleMode::ConstantPhysicalSize{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode::CanvasScaler_ScaleMode() {}
+constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode UnityEngine::UI::CanvasScaler_ScaleMode::ConstantPixelSize{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode UnityEngine::UI::CanvasScaler_ScaleMode::ScaleWithScreenSize{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode UnityEngine::UI::CanvasScaler_ScaleMode::ConstantPhysicalSize{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode::__CanvasScaler__ScreenMatchMode(int32_t value__) noexcept {
+constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode::CanvasScaler_ScreenMatchMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode::__CanvasScaler__ScreenMatchMode() {}
-constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode UnityEngine::UI::__CanvasScaler__ScreenMatchMode::MatchWidthOrHeight{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode UnityEngine::UI::__CanvasScaler__ScreenMatchMode::Expand{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode UnityEngine::UI::__CanvasScaler__ScreenMatchMode::Shrink{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode::CanvasScaler_ScreenMatchMode() {}
+constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode UnityEngine::UI::CanvasScaler_ScreenMatchMode::MatchWidthOrHeight{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode UnityEngine::UI::CanvasScaler_ScreenMatchMode::Expand{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode UnityEngine::UI::CanvasScaler_ScreenMatchMode::Shrink{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit::__CanvasScaler__Unit(int32_t value__) noexcept {
+constexpr ::UnityEngine::UI::CanvasScaler_Unit::CanvasScaler_Unit(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit::__CanvasScaler__Unit() {}
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit UnityEngine::UI::__CanvasScaler__Unit::Centimeters{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit UnityEngine::UI::__CanvasScaler__Unit::Millimeters{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit UnityEngine::UI::__CanvasScaler__Unit::Inches{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit UnityEngine::UI::__CanvasScaler__Unit::Points{ static_cast<int32_t>(0x3) };
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit UnityEngine::UI::__CanvasScaler__Unit::Picas{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::UI::CanvasScaler_Unit::CanvasScaler_Unit() {}
+constexpr ::UnityEngine::UI::CanvasScaler_Unit UnityEngine::UI::CanvasScaler_Unit::Centimeters{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UI::CanvasScaler_Unit UnityEngine::UI::CanvasScaler_Unit::Millimeters{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UI::CanvasScaler_Unit UnityEngine::UI::CanvasScaler_Unit::Inches{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UI::CanvasScaler_Unit UnityEngine::UI::CanvasScaler_Unit::Points{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::UI::CanvasScaler_Unit UnityEngine::UI::CanvasScaler_Unit::Picas{ static_cast<int32_t>(0x4) };
 //  Writing Method size for method: ::UnityEngine::UI::CanvasScaler.get_uiScaleMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__CanvasScaler__ScaleMode (::UnityEngine::UI::CanvasScaler::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::CanvasScaler_ScaleMode (::UnityEngine::UI::CanvasScaler::*)()>(
     &::UnityEngine::UI::CanvasScaler::get_uiScaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a51094;
+  constexpr static std::size_t addrs = 0x4ab59a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_uiScaleMode",
@@ -53,15 +52,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::CanvasScaler.set_uiScaleMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(::UnityEngine::UI::__CanvasScaler__ScaleMode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(::UnityEngine::UI::CanvasScaler_ScaleMode)>(
     &::UnityEngine::UI::CanvasScaler::set_uiScaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5109c;
+  constexpr static std::size_t addrs = 0x4ab59ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "set_uiScaleMode", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__CanvasScaler__ScaleMode>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::CanvasScaler_ScaleMode>::get() })));
     return ___internal_method;
   }
 };
@@ -70,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::get_referencePixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a510a4;
+  constexpr static std::size_t addrs = 0x4ab59b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(),
@@ -83,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::set_referencePixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a510ac;
+  constexpr static std::size_t addrs = 0x4ab59bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::get_scaleFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a510b4;
+  constexpr static std::size_t addrs = 0x4ab59c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_scaleFactor",
@@ -110,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::set_scaleFactor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a510bc;
+  constexpr static std::size_t addrs = 0x4ab59cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::CanvasScaler::*)()>(
     &::UnityEngine::UI::CanvasScaler::get_referenceResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a510d0;
+  constexpr static std::size_t addrs = 0x4ab59e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(),
@@ -139,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::CanvasScaler::set_referenceResolution)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a510d8;
+  constexpr static std::size_t addrs = 0x4ab59e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -151,10 +150,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::CanvasScaler.get_screenMatchMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__CanvasScaler__ScreenMatchMode (::UnityEngine::UI::CanvasScaler::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::CanvasScaler_ScreenMatchMode (::UnityEngine::UI::CanvasScaler::*)()>(
     &::UnityEngine::UI::CanvasScaler::get_screenMatchMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5113c;
+  constexpr static std::size_t addrs = 0x4ab5a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_screenMatchMode",
@@ -165,15 +164,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::CanvasScaler.set_screenMatchMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(::UnityEngine::UI::CanvasScaler_ScreenMatchMode)>(
     &::UnityEngine::UI::CanvasScaler::set_screenMatchMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a51144;
+  constexpr static std::size_t addrs = 0x4ab5a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "set_screenMatchMode", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__CanvasScaler__ScreenMatchMode>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::CanvasScaler_ScreenMatchMode>::get() })));
     return ___internal_method;
   }
 };
@@ -182,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::get_matchWidthOrHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5114c;
+  constexpr static std::size_t addrs = 0x4ab5a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(),
@@ -195,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::set_matchWidthOrHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a51154;
+  constexpr static std::size_t addrs = 0x4ab5a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,10 +206,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::CanvasScaler.get_physicalUnit
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__CanvasScaler__Unit (::UnityEngine::UI::CanvasScaler::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::CanvasScaler_Unit (::UnityEngine::UI::CanvasScaler::*)()>(
     &::UnityEngine::UI::CanvasScaler::get_physicalUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5115c;
+  constexpr static std::size_t addrs = 0x4ab5a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_physicalUnit",
@@ -221,15 +220,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::CanvasScaler.set_physicalUnit
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(::UnityEngine::UI::__CanvasScaler__Unit)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(::UnityEngine::UI::CanvasScaler_Unit)>(
     &::UnityEngine::UI::CanvasScaler::set_physicalUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a51164;
+  constexpr static std::size_t addrs = 0x4ab5a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "set_physicalUnit", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__CanvasScaler__Unit>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::CanvasScaler_Unit>::get() })));
     return ___internal_method;
   }
 };
@@ -238,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::get_fallbackScreenDPI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5116c;
+  constexpr static std::size_t addrs = 0x4ab5a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_fallbackScreenDPI",
@@ -251,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::set_fallbackScreenDPI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a51174;
+  constexpr static std::size_t addrs = 0x4ab5a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::get_defaultSpriteDPI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5117c;
+  constexpr static std::size_t addrs = 0x4ab5a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_defaultSpriteDPI",
@@ -278,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::set_defaultSpriteDPI)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a51184;
+  constexpr static std::size_t addrs = 0x4ab5a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::get_dynamicPixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a51194;
+  constexpr static std::size_t addrs = 0x4ab5aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(),
@@ -305,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::set_dynamicPixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5119c;
+  constexpr static std::size_t addrs = 0x4ab5aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a511a4;
+  constexpr static std::size_t addrs = 0x4ab5ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), ".ctor",
@@ -332,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::OnEnable)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a511ec;
+  constexpr static std::size_t addrs = 0x4ab5afc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::Canvas_preWillRenderCanvases)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a512b0;
+  constexpr static std::size_t addrs = 0x4ab5bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(),
@@ -359,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::OnDisable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4a512c0;
+  constexpr static std::size_t addrs = 0x4ab5bd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -373,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::Handle)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4a513e8;
+  constexpr static std::size_t addrs = 0x4ab5cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::HandleWorldCanvas)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a514e4;
+  constexpr static std::size_t addrs = 0x4ab5df4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -401,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::HandleConstantPixelSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a51504;
+  constexpr static std::size_t addrs = 0x4ab5e14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -415,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::HandleScaleWithScreenSize)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x4a51524;
+  constexpr static std::size_t addrs = 0x4ab5e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -429,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)()>(&::UnityEngine::UI::CanvasScaler::HandleConstantPhysicalSize)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a51758;
+  constexpr static std::size_t addrs = 0x4ab6068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -443,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::SetScaleFactor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a51368;
+  constexpr static std::size_t addrs = 0x4ab5c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CanvasScaler::*)(float_t)>(&::UnityEngine::UI::CanvasScaler::SetReferencePixelsPerUnit)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a513a8;
+  constexpr static std::size_t addrs = 0x4ab5cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,15 +465,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_UiScaleMode() {
+constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_UiScaleMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UiScaleMode;
 }
-constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode const& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_UiScaleMode() const {
+constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode const& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_UiScaleMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UiScaleMode;
 }
-constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_UiScaleMode(::UnityEngine::UI::__CanvasScaler__ScaleMode value) {
+constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_UiScaleMode(::UnityEngine::UI::CanvasScaler_ScaleMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UiScaleMode = value;
 }
@@ -514,15 +513,15 @@ constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_ReferenceRe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReferenceResolution = value;
 }
-constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_ScreenMatchMode() {
+constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_ScreenMatchMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenMatchMode;
 }
-constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode const& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_ScreenMatchMode() const {
+constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode const& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_ScreenMatchMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenMatchMode;
 }
-constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_ScreenMatchMode(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode value) {
+constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_ScreenMatchMode(::UnityEngine::UI::CanvasScaler_ScreenMatchMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScreenMatchMode = value;
 }
@@ -538,15 +537,15 @@ constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_MatchWidthO
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MatchWidthOrHeight = value;
 }
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_PhysicalUnit() {
+constexpr ::UnityEngine::UI::CanvasScaler_Unit& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_PhysicalUnit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PhysicalUnit;
 }
-constexpr ::UnityEngine::UI::__CanvasScaler__Unit const& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_PhysicalUnit() const {
+constexpr ::UnityEngine::UI::CanvasScaler_Unit const& UnityEngine::UI::CanvasScaler::__cordl_internal_get_m_PhysicalUnit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PhysicalUnit;
 }
-constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_PhysicalUnit(::UnityEngine::UI::__CanvasScaler__Unit value) {
+constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_PhysicalUnit(::UnityEngine::UI::CanvasScaler_Unit value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PhysicalUnit = value;
 }
@@ -634,15 +633,15 @@ constexpr void UnityEngine::UI::CanvasScaler::__cordl_internal_set_m_PresetInfoI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PresetInfoIsWorld = value;
 }
-inline ::UnityEngine::UI::__CanvasScaler__ScaleMode UnityEngine::UI::CanvasScaler::get_uiScaleMode() {
+inline ::UnityEngine::UI::CanvasScaler_ScaleMode UnityEngine::UI::CanvasScaler::get_uiScaleMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_uiScaleMode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::__CanvasScaler__ScaleMode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::CanvasScaler_ScaleMode, false>(this, ___internal_method);
 }
-inline void UnityEngine::UI::CanvasScaler::set_uiScaleMode(::UnityEngine::UI::__CanvasScaler__ScaleMode value) {
+inline void UnityEngine::UI::CanvasScaler::set_uiScaleMode(::UnityEngine::UI::CanvasScaler_ScaleMode value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "set_uiScaleMode", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__CanvasScaler__ScaleMode>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::CanvasScaler_ScaleMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t UnityEngine::UI::CanvasScaler::get_referencePixelsPerUnit() {
@@ -678,15 +677,15 @@ inline void UnityEngine::UI::CanvasScaler::set_referenceResolution(::UnityEngine
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode UnityEngine::UI::CanvasScaler::get_screenMatchMode() {
+inline ::UnityEngine::UI::CanvasScaler_ScreenMatchMode UnityEngine::UI::CanvasScaler::get_screenMatchMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_screenMatchMode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::__CanvasScaler__ScreenMatchMode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::CanvasScaler_ScreenMatchMode, false>(this, ___internal_method);
 }
-inline void UnityEngine::UI::CanvasScaler::set_screenMatchMode(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode value) {
+inline void UnityEngine::UI::CanvasScaler::set_screenMatchMode(::UnityEngine::UI::CanvasScaler_ScreenMatchMode value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "set_screenMatchMode", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__CanvasScaler__ScreenMatchMode>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::CanvasScaler_ScreenMatchMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t UnityEngine::UI::CanvasScaler::get_matchWidthOrHeight() {
@@ -700,15 +699,15 @@ inline void UnityEngine::UI::CanvasScaler::set_matchWidthOrHeight(float_t value)
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UI::__CanvasScaler__Unit UnityEngine::UI::CanvasScaler::get_physicalUnit() {
+inline ::UnityEngine::UI::CanvasScaler_Unit UnityEngine::UI::CanvasScaler::get_physicalUnit() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "get_physicalUnit",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::__CanvasScaler__Unit, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::CanvasScaler_Unit, false>(this, ___internal_method);
 }
-inline void UnityEngine::UI::CanvasScaler::set_physicalUnit(::UnityEngine::UI::__CanvasScaler__Unit value) {
+inline void UnityEngine::UI::CanvasScaler::set_physicalUnit(::UnityEngine::UI::CanvasScaler_Unit value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "set_physicalUnit", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__CanvasScaler__Unit>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::CanvasScaler_Unit>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t UnityEngine::UI::CanvasScaler::get_fallbackScreenDPI() {
@@ -743,9 +742,6 @@ inline void UnityEngine::UI::CanvasScaler::set_dynamicPixelsPerUnit(float_t valu
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "set_dynamicPixelsPerUnit",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::UI::CanvasScaler* UnityEngine::UI::CanvasScaler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::CanvasScaler*>());
 }
 inline void UnityEngine::UI::CanvasScaler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), ".ctor",
@@ -803,6 +799,9 @@ inline void UnityEngine::UI::CanvasScaler::SetReferencePixelsPerUnit(float_t ref
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CanvasScaler*>::get(), "SetReferencePixelsPerUnit",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, referencePixelsPerUnit);
+}
+inline ::UnityEngine::UI::CanvasScaler* UnityEngine::UI::CanvasScaler::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::CanvasScaler*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::CanvasScaler::CanvasScaler() {}

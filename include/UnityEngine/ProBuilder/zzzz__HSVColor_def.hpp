@@ -16,11 +16,10 @@ class HSVColor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::HSVColor);
-// Type: UnityEngine.ProBuilder::HSVColor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::HSVColor*
+// CS Name: UnityEngine.ProBuilder.HSVColor
 class CORDL_TYPE HSVColor : public ::System::Object {
 public:
   // Declarations
@@ -33,17 +32,17 @@ public:
   /// @brief Field v, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) float_t v;
 
-  /// @brief Method FromRGB, addr 0x46a319c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x47044b0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
-  /// @brief Method SqrDistance, addr 0x46a34ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SqrDistance, addr 0x47047c0, size 0x48, virtual false, abstract: false, final false
   inline float_t SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor);
 
-  /// @brief Method ToString, addr 0x46a33e8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47046fc, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_h() const;
@@ -64,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x46a3118, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x470442c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v);
 
-  /// @brief Method .ctor, addr 0x46a3154, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4704468, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
 protected:
@@ -84,6 +83,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HSVColor(HSVColor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14226 };
+
   /// @brief Field h, offset: 0x10, size: 0x4, def value: None
   float_t ___h;
 
@@ -93,19 +95,16 @@ public:
   /// @brief Field v, offset: 0x18, size: 0x4, def value: None
   float_t ___v;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14192 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::HSVColor, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::HSVColor, ___h) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::HSVColor, ___s) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::HSVColor, ___v) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::HSVColor, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::HSVColor);

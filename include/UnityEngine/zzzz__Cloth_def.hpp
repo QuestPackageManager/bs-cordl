@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Component_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Cloth)
 namespace UnityEngine {
@@ -16,11 +15,10 @@ class Cloth;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Cloth);
-// Type: UnityEngine::Cloth
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::Cloth*
+// CS Name: UnityEngine.Cloth
 class CORDL_TYPE Cloth : public ::UnityEngine::Component {
 public:
   // Declarations
@@ -45,11 +43,11 @@ public:
 
   constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  /// @brief Method set_externalAcceleration, addr 0x47fbed4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x485d1e8, size 0x54, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x47fbf28, size 0x44, virtual false, abstract: false, final false
-  inline void set_externalAcceleration_Injected(ByRef<::UnityEngine::Vector3> value);
+  /// @brief Method set_externalAcceleration_Injected, addr 0x485d23c, size 0x44, virtual false, abstract: false, final false
+  inline void set_externalAcceleration_Injected(::ByRef<::UnityEngine::Vector3> value);
 
 protected:
   // Ctor Parameters []
@@ -65,23 +63,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Cloth(Cloth const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19044 };
+
   /// @brief Field <useContinuousCollision>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____useContinuousCollision_k__BackingField;
 
   /// @brief Field <selfCollision>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____selfCollision_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18956 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Cloth, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Cloth, ____useContinuousCollision_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Cloth, ____selfCollision_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Cloth, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Cloth);

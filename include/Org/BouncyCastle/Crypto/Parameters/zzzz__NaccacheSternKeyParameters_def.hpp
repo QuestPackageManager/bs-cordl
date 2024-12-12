@@ -15,11 +15,10 @@ class NaccacheSternKeyParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.AsymmetricKeyParameter
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.NaccacheSternKeyParameters
 class CORDL_TYPE NaccacheSternKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
@@ -41,17 +40,17 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* New_ctor(bool privateKey, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n,
                                                                                               int32_t lowerSigmaBound);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_g() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_g() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
 
   constexpr int32_t const& __cordl_internal_get_lowerSigmaBound() const;
 
   constexpr int32_t& __cordl_internal_get_lowerSigmaBound();
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_n() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_n() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
 
   constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
@@ -59,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x238b2dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23be5c8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool privateKey, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound);
 
-  /// @brief Method get_G, addr 0x238b31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x23be608, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_LowerSigmaBound, addr 0x238b324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LowerSigmaBound, addr 0x23be610, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LowerSigmaBound();
 
-  /// @brief Method get_Modulus, addr 0x238b32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x23be618, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
 protected:
@@ -85,6 +84,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NaccacheSternKeyParameters(NaccacheSternKeyParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1069 };
+
   /// @brief Field g, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___g;
 
@@ -94,19 +96,16 @@ public:
   /// @brief Field lowerSigmaBound, offset: 0x28, size: 0x4, def value: None
   int32_t ___lowerSigmaBound;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1069 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters, ___g) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters, ___n) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters, ___lowerSigmaBound) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters);

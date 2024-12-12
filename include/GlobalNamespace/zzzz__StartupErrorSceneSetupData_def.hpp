@@ -12,11 +12,10 @@ class StartupErrorSceneSetupData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StartupErrorSceneSetupData);
-// Type: ::StartupErrorSceneSetupData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StartupErrorSceneSetupData*
+// CS Name: StartupErrorSceneSetupData
 class CORDL_TYPE StartupErrorSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ada0cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3a03c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::StringW subtitle);
 
 protected:
@@ -57,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StartupErrorSceneSetupData(StartupErrorSceneSetupData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5245 };
+
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::StringW ___title;
 
   /// @brief Field subtitle, offset: 0x18, size: 0x8, def value: None
   ::StringW ___subtitle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5225 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StartupErrorSceneSetupData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StartupErrorSceneSetupData, ___title) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StartupErrorSceneSetupData, ___subtitle) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StartupErrorSceneSetupData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StartupErrorSceneSetupData);

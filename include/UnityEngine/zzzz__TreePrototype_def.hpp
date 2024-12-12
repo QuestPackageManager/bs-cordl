@@ -19,11 +19,10 @@ class TreePrototype;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TreePrototype);
-// Type: UnityEngine::TreePrototype
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::TreePrototype*
+// CS Name: UnityEngine.TreePrototype
 class CORDL_TYPE TreePrototype : public ::System::Object {
 public:
   // Declarations
@@ -42,13 +41,13 @@ public:
 
   __declspec(property(get = get_prefab, put = set_prefab)) ::UnityW<::UnityEngine::GameObject> prefab;
 
-  /// @brief Method Equals, addr 0x48b72d0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x491b960, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48b7334, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x491b9c4, size 0x110, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TreePrototype* other);
 
-  /// @brief Method GetHashCode, addr 0x48b7444, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x491bad4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TreePrototype* New_ctor();
@@ -71,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Prefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x48b72c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491b958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bendFactor, addr 0x48b72b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bendFactor, addr 0x491b940, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bendFactor();
 
-  /// @brief Method get_navMeshLod, addr 0x48b72c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_navMeshLod, addr 0x491b950, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_navMeshLod();
 
-  /// @brief Method get_prefab, addr 0x48b72a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefab, addr 0x491b930, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_prefab();
 
-  /// @brief Method set_bendFactor, addr 0x48b72b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bendFactor, addr 0x491b948, size 0x8, virtual false, abstract: false, final false
   inline void set_bendFactor(float_t value);
 
-  /// @brief Method set_prefab, addr 0x48b72a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prefab, addr 0x491b938, size 0x8, virtual false, abstract: false, final false
   inline void set_prefab(::UnityEngine::GameObject* value);
 
 protected:
@@ -103,6 +102,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TreePrototype(TreePrototype const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
+
   /// @brief Field m_Prefab, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_Prefab;
 
@@ -112,19 +114,16 @@ public:
   /// @brief Field m_NavMeshLod, offset: 0x1c, size: 0x4, def value: None
   int32_t ___m_NavMeshLod;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18043 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TreePrototype, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TreePrototype, ___m_Prefab) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TreePrototype, ___m_BendFactor) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TreePrototype, ___m_NavMeshLod) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TreePrototype, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::TreePrototype);

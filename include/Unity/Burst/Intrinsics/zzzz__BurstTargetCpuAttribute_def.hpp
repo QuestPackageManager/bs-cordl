@@ -15,11 +15,10 @@ class BurstTargetCpuAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::Intrinsics::BurstTargetCpuAttribute);
-// Type: Unity.Burst.Intrinsics::BurstTargetCpuAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, Unity.Burst.BurstTargetCpu
 namespace Unity::Burst::Intrinsics {
 // Is value type: false
-// CS Name: ::Unity.Burst.Intrinsics::BurstTargetCpuAttribute*
+// CS Name: Unity.Burst.Intrinsics.BurstTargetCpuAttribute
 class CORDL_TYPE BurstTargetCpuAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetCpu(::Unity::Burst::BurstTargetCpu value);
 
-  /// @brief Method .ctor, addr 0x44c4fbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45262d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::BurstTargetCpu TargetCpu);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BurstTargetCpuAttribute(BurstTargetCpuAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14637 };
+
   /// @brief Field TargetCpu, offset: 0x10, size: 0x4, def value: None
   ::Unity::Burst::BurstTargetCpu ___TargetCpu;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14603 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Burst::Intrinsics::BurstTargetCpuAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Burst::Intrinsics::BurstTargetCpuAttribute, ___TargetCpu) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Burst::Intrinsics::BurstTargetCpuAttribute, 0x18>, "Size mismatch!");
 
 } // namespace Unity::Burst::Intrinsics
 NEED_NO_BOX(::Unity::Burst::Intrinsics::BurstTargetCpuAttribute);

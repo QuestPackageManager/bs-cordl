@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::DependencyAttribute::*)(
     ::StringW, ::System::Runtime::CompilerServices::LoadHint)>(&::System::Runtime::CompilerServices::DependencyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3cb96bc;
+  constexpr static std::size_t addrs = 0x3d19830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,16 +44,16 @@ constexpr void System::Runtime::CompilerServices::DependencyAttribute::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___loadHint = value;
 }
-inline ::System::Runtime::CompilerServices::DependencyAttribute* System::Runtime::CompilerServices::DependencyAttribute::New_ctor(::StringW dependentAssemblyArgument,
-                                                                                                                                  ::System::Runtime::CompilerServices::LoadHint loadHintArgument) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::DependencyAttribute*>(dependentAssemblyArgument, loadHintArgument));
-}
 inline void System::Runtime::CompilerServices::DependencyAttribute::_ctor(::StringW dependentAssemblyArgument, ::System::Runtime::CompilerServices::LoadHint loadHintArgument) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::DependencyAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::LoadHint>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dependentAssemblyArgument, loadHintArgument);
+}
+inline ::System::Runtime::CompilerServices::DependencyAttribute* System::Runtime::CompilerServices::DependencyAttribute::New_ctor(::StringW dependentAssemblyArgument,
+                                                                                                                                  ::System::Runtime::CompilerServices::LoadHint loadHintArgument) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::DependencyAttribute*>(dependentAssemblyArgument, loadHintArgument));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::DependencyAttribute::DependencyAttribute() {}

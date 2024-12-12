@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ValidationState::*)()>(&::System::Xml::Schema::ValidationState::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4249ea8;
+  constexpr static std::size_t addrs = 0x42ab1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ValidationState*>::get(), ".ctor",
@@ -111,7 +111,7 @@ constexpr ::System::Xml::Schema::SchemaElementDecl*& System::Xml::Schema::Valida
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ElementDecl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& System::Xml::Schema::ValidationState::__cordl_internal_get_ElementDecl() const {
+constexpr ::System::Xml::Schema::SchemaElementDecl* const& System::Xml::Schema::ValidationState::__cordl_internal_get_ElementDecl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ElementDecl;
 }
@@ -123,7 +123,7 @@ constexpr ::System::Xml::Schema::SchemaElementDecl*& System::Xml::Schema::Valida
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ElementDeclBeforeXsi;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& System::Xml::Schema::ValidationState::__cordl_internal_get_ElementDeclBeforeXsi() const {
+constexpr ::System::Xml::Schema::SchemaElementDecl* const& System::Xml::Schema::ValidationState::__cordl_internal_get_ElementDeclBeforeXsi() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ElementDeclBeforeXsi;
 }
@@ -207,7 +207,7 @@ constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::ValidationState::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AllElementsSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& System::Xml::Schema::ValidationState::__cordl_internal_get_AllElementsSet() const {
+constexpr ::System::Xml::Schema::BitSet* const& System::Xml::Schema::ValidationState::__cordl_internal_get_AllElementsSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AllElementsSet;
 }
@@ -219,8 +219,7 @@ constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePos
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RunningPositions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>*> const&
-System::Xml::Schema::ValidationState::__cordl_internal_get_RunningPositions() const {
+constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>* const& System::Xml::Schema::ValidationState::__cordl_internal_get_RunningPositions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RunningPositions;
 }
@@ -240,13 +239,13 @@ constexpr void System::Xml::Schema::ValidationState::__cordl_internal_set_TooCom
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TooComplex = value;
 }
-inline ::System::Xml::Schema::ValidationState* System::Xml::Schema::ValidationState::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ValidationState*>());
-}
 inline void System::Xml::Schema::ValidationState::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ValidationState*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::ValidationState* System::Xml::Schema::ValidationState::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ValidationState*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ValidationState::ValidationState() {}

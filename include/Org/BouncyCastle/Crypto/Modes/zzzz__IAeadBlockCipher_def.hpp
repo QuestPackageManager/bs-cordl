@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAeadBlockCipher)
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
@@ -17,29 +15,24 @@ class IAeadBlockCipher;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher);
-// Type: Org.BouncyCastle.Crypto.Modes::IAeadBlockCipher
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Modes.IAeadCipher
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Modes::IAeadBlockCipher*
+// CS Name: Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher
 class CORDL_TYPE IAeadBlockCipher {
 public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept;
 
-  /// @brief Method GetBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetBlockSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetUnderlyingCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetUnderlyingCipher, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IAeadBlockCipher", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IAeadBlockCipher(IAeadBlockCipher&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IAeadBlockCipher", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

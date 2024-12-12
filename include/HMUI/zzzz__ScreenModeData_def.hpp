@@ -16,11 +16,10 @@ class ScreenModeData;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScreenModeData);
-// Type: HMUI::ScreenModeData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ScreenModeData*
+// CS Name: HMUI.ScreenModeData
 class CORDL_TYPE ScreenModeData : public ::System::Object {
 public:
   // Declarations
@@ -90,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffsetRelativeToHead(float_t value);
 
-  /// @brief Method .ctor, addr 0x2256bb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22892a8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos);
 
 protected:
@@ -106,6 +105,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ScreenModeData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenModeData(ScreenModeData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16808 };
 
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___position;
@@ -128,14 +130,9 @@ public:
   /// @brief Field minYPos, offset: 0x38, size: 0x4, def value: None
   float_t ___minYPos;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16769 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ScreenModeData, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ScreenModeData, ___position) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ScreenModeData, ___rotation) == 0x1c, "Offset mismatch!");
@@ -149,6 +146,8 @@ static_assert(offsetof(::HMUI::ScreenModeData, ___offsetHeightByHeadPos) == 0x30
 static_assert(offsetof(::HMUI::ScreenModeData, ___yOffsetRelativeToHead) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ScreenModeData, ___minYPos) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ScreenModeData, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ScreenModeData);

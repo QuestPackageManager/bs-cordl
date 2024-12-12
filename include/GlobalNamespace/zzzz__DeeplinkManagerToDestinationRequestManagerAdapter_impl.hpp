@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DeeplinkManagerToDestinationRequestManagerAdapter.hpp"
+#include "GlobalNamespace/zzzz__IDestinationRequestManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DeeplinkManagerToDestinationRequestManagerAdapter_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__Deeplink_def.hpp"
 #include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
-#include "GlobalNamespace/zzzz__IDestinationRequestManager_def.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter.add_didSendMenuDestinationRequestEvent
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(
     ::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(&::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b18a2c;
+  constexpr static std::size_t addrs = 0x3b79c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(
     ::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(&::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b18adc;
+  constexpr static std::size_t addrs = 0x3b79cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MenuDestination* (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b18b8c;
+  constexpr static std::size_t addrs = 0x3b79d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b18b94;
+  constexpr static std::size_t addrs = 0x3b79d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::IDeeplinkManager*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3b18bb4;
+  constexpr static std::size_t addrs = 0x3b79db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1933c;
+  constexpr static std::size_t addrs = 0x3b7a53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::Deeplink*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x3b18d7c;
+  constexpr static std::size_t addrs = 0x3b79f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b19344;
+  constexpr static std::size_t addrs = 0x3b7a544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,20 +131,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IDestinationRequestManager"
-constexpr GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::operator ::GlobalNamespace::IDestinationRequestManager*() noexcept {
-  return static_cast<::GlobalNamespace::IDestinationRequestManager*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
-constexpr ::GlobalNamespace::IDestinationRequestManager* GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::i___GlobalNamespace__IDestinationRequestManager() noexcept {
-  return static_cast<::GlobalNamespace::IDestinationRequestManager*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__beatmapLevelsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const&
-GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__beatmapLevelsModel() const {
+constexpr ::GlobalNamespace::BeatmapLevelsModel* const& GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__beatmapLevelsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsModel;
 }
@@ -156,8 +147,7 @@ constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& GlobalNamespace::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const&
-GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__beatmapCharacteristicCollection() const {
+constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__beatmapCharacteristicCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicCollection;
 }
@@ -169,7 +159,7 @@ constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>*& GlobalNamesp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSendMenuDestinationRequestEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MenuDestination*>*> const&
+constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>* const&
 GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get_didSendMenuDestinationRequestEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSendMenuDestinationRequestEvent;
@@ -183,8 +173,7 @@ constexpr ::GlobalNamespace::MenuDestination*& GlobalNamespace::DeeplinkManagerT
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentMenuDestinationRequest;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuDestination*> const&
-GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__currentMenuDestinationRequest() const {
+constexpr ::GlobalNamespace::MenuDestination* const& GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__currentMenuDestinationRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentMenuDestinationRequest;
 }
@@ -236,14 +225,22 @@ inline void GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Deeplink*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deeplink);
 }
-inline ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter* GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>());
-}
 inline void GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter* GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IDestinationRequestManager"
+constexpr GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::operator ::GlobalNamespace::IDestinationRequestManager*() noexcept {
+  return static_cast<::GlobalNamespace::IDestinationRequestManager*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
+constexpr ::GlobalNamespace::IDestinationRequestManager* GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::i___GlobalNamespace__IDestinationRequestManager() noexcept {
+  return static_cast<::GlobalNamespace::IDestinationRequestManager*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::DeeplinkManagerToDestinationRequestManagerAdapter() {}

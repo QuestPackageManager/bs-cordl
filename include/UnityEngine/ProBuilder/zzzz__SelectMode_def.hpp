@@ -12,11 +12,10 @@ struct SelectMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::SelectMode);
-// Type: UnityEngine.ProBuilder::SelectMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// CS Name: ::UnityEngine.ProBuilder::SelectMode
+// CS Name: UnityEngine.ProBuilder.SelectMode
 struct CORDL_TYPE SelectMode {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SelectMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Any value: static_cast<int32_t>(0xffff)
+  /// @brief Field Any value: I32(65535)
   static ::UnityEngine::ProBuilder::SelectMode const Any;
 
-  /// @brief Field Edge value: static_cast<int32_t>(0x4)
+  /// @brief Field Edge value: I32(4)
   static ::UnityEngine::ProBuilder::SelectMode const Edge;
 
-  /// @brief Field Face value: static_cast<int32_t>(0x8)
+  /// @brief Field Face value: I32(8)
   static ::UnityEngine::ProBuilder::SelectMode const Face;
 
-  /// @brief Field InputTool value: static_cast<int32_t>(0x80)
+  /// @brief Field InputTool value: I32(128)
   static ::UnityEngine::ProBuilder::SelectMode const InputTool;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::ProBuilder::SelectMode const None;
 
-  /// @brief Field Object value: static_cast<int32_t>(0x1)
+  /// @brief Field Object value: I32(1)
   static ::UnityEngine::ProBuilder::SelectMode const Object;
 
-  /// @brief Field TextureEdge value: static_cast<int32_t>(0x20)
+  /// @brief Field TextureEdge value: I32(32)
   static ::UnityEngine::ProBuilder::SelectMode const TextureEdge;
 
-  /// @brief Field TextureFace value: static_cast<int32_t>(0x10)
+  /// @brief Field TextureFace value: I32(16)
   static ::UnityEngine::ProBuilder::SelectMode const TextureFace;
 
-  /// @brief Field TextureVertex value: static_cast<int32_t>(0x40)
+  /// @brief Field TextureVertex value: I32(64)
   static ::UnityEngine::ProBuilder::SelectMode const TextureVertex;
 
-  /// @brief Field Vertex value: static_cast<int32_t>(0x2)
+  /// @brief Field Vertex value: I32(2)
   static ::UnityEngine::ProBuilder::SelectMode const Vertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14266 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::SelectMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::SelectMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::SelectMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");

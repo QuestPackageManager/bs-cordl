@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderModel_ComponentState_t)
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct RenderModel_ComponentState_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::RenderModel_ComponentState_t);
-// Type: OVR.OpenVR::RenderModel_ComponentState_t
-// SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies OVR.OpenVR.HmdMatrix34_t
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::RenderModel_ComponentState_t
+// CS Name: OVR.OpenVR.RenderModel_ComponentState_t
 struct CORDL_TYPE RenderModel_ComponentState_t {
 public:
   // Declarations
@@ -32,6 +28,12 @@ public:
   // "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "uProperties", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr RenderModel_ComponentState_t(::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel, ::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal, uint32_t uProperties) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9024 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x64 };
+
   /// @brief Field mTrackingToComponentRenderModel, offset: 0x0, size: 0x30, def value: None
   ::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel;
 
@@ -41,22 +43,16 @@ public:
   /// @brief Field uProperties, offset: 0x60, size: 0x4, def value: None
   uint32_t uProperties;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8999 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x64 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_ComponentState_t, 0x64>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::RenderModel_ComponentState_t, mTrackingToComponentRenderModel) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::RenderModel_ComponentState_t, mTrackingToComponentLocal) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::RenderModel_ComponentState_t, uProperties) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_ComponentState_t, 0x64>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_ComponentState_t, "OVR.OpenVR", "RenderModel_ComponentState_t");

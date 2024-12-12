@@ -14,11 +14,10 @@ class MultiplayerConnectedPlayerIntroAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator);
-// Type: ::MultiplayerConnectedPlayerIntroAnimator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerConnectedPlayerIntroAnimator*
+// CS Name: MultiplayerConnectedPlayerIntroAnimator
 class CORDL_TYPE MultiplayerConnectedPlayerIntroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -28,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* New_ctor();
 
-  /// @brief Method SetBeforeIntroValues, addr 0x3b547c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValues, addr 0x3bb5fe8, size 0x1c, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introPlayableDirector() const;
@@ -37,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x3b547dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb6004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,18 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerIntroAnimator(MultiplayerConnectedPlayerIntroAnimator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4484 };
+
   /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introPlayableDirector;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator, ____introPlayableDirector) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator);

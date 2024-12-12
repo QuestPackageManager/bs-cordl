@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/EventDispatcherGate.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcherGate_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::EventDispatcherGate._ctor
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcherGate::*)(::UnityEngine::UIElements::EventDispatcher*)>(
     &::UnityEngine::UIElements::EventDispatcherGate::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49bb2c4;
+  constexpr static std::size_t addrs = 0x4a1fbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcherGate::*)()>(
     &::UnityEngine::UIElements::EventDispatcherGate::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x49bb33c;
+  constexpr static std::size_t addrs = 0x4a1fc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcherGate>::get(), "Dispose",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventDispatcherGate::*)(::UnityEngine::UIElements::EventDispatcherGate)>(
     &::UnityEngine::UIElements::EventDispatcherGate::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bb3dc;
+  constexpr static std::size_t addrs = 0x4a1fcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventDispatcherGate::*)(::System::Object*)>(
     &::UnityEngine::UIElements::EventDispatcherGate::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49bb3e8;
+  constexpr static std::size_t addrs = 0x4a1fcf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::EventDispatcherGate::*)()>(
     &::UnityEngine::UIElements::EventDispatcherGate::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x49bb464;
+  constexpr static std::size_t addrs = 0x4a1fd74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,23 +79,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::UIElements::EventDispatcherGate::operator ::System::IDisposable*() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::UIElements::EventDispatcherGate::i___System__IDisposable() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
-constexpr UnityEngine::UIElements::EventDispatcherGate::operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*
-UnityEngine::UIElements::EventDispatcherGate::i___System__IEquatable_1___UnityEngine__UIElements__EventDispatcherGate_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::UIElements::EventDispatcherGate::_ctor(::UnityEngine::UIElements::EventDispatcher* d) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcherGate>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -123,7 +106,24 @@ inline int32_t UnityEngine::UIElements::EventDispatcherGate::GetHashCode() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcherGate>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: Some("nullptr") }]
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::UIElements::EventDispatcherGate::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::EventDispatcherGate::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
+constexpr UnityEngine::UIElements::EventDispatcherGate::operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*
+UnityEngine::UIElements::EventDispatcherGate::i___System__IEquatable_1___UnityEngine__UIElements__EventDispatcherGate_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::EventDispatcherGate::EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher* m_Dispatcher) noexcept {
   this->m_Dispatcher = m_Dispatcher;
 }

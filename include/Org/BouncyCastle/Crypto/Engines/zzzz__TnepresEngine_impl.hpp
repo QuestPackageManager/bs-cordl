@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::TnepresEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23435d8;
+  constexpr static std::size_t addrs = 0x23768c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::TnepresEngine::MakeWorkingKey)> {
   constexpr static std::size_t size = 0x15cc;
-  constexpr static std::size_t addrs = 0x2343618;
+  constexpr static std::size_t addrs = 0x2376904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::TnepresEngine::EncryptBlock)> {
   constexpr static std::size_t size = 0x14e4;
-  constexpr static std::size_t addrs = 0x2344be4;
+  constexpr static std::size_t addrs = 0x2377ed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::TnepresEngine::DecryptBlock)> {
   constexpr static std::size_t size = 0x1724;
-  constexpr static std::size_t addrs = 0x23460c8;
+  constexpr static std::size_t addrs = 0x23793b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::TnepresEngine::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23477ec;
+  constexpr static std::size_t addrs = 0x237aad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::TnepresEngine*>::get(),
@@ -100,13 +100,13 @@ inline void Org::BouncyCastle::Crypto::Engines::TnepresEngine::DecryptBlock(::Ar
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::TnepresEngine*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input, inOff, output, outOff);
 }
-inline ::Org::BouncyCastle::Crypto::Engines::TnepresEngine* Org::BouncyCastle::Crypto::Engines::TnepresEngine::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::TnepresEngine*>());
-}
 inline void Org::BouncyCastle::Crypto::Engines::TnepresEngine::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::TnepresEngine*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Engines::TnepresEngine* Org::BouncyCastle::Crypto::Engines::TnepresEngine::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::TnepresEngine*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::TnepresEngine::TnepresEngine() {}

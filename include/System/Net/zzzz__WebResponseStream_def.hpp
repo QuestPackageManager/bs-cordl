@@ -9,10 +9,9 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -48,31 +47,22 @@ namespace System::Net {
 class WebRequestStream;
 }
 namespace System::Net {
-struct __WebResponseStream___InitReadAsync_d__52;
+struct WebResponseStream__InitReadAsync_d__52;
 }
 namespace System::Net {
-struct __WebResponseStream___ReadAllAsyncInner_d__47;
+struct WebResponseStream__ReadAllAsyncInner_d__47;
 }
 namespace System::Net {
-struct __WebResponseStream___ReadAllAsync_d__48;
+struct WebResponseStream__ReadAllAsync_d__48;
 }
 namespace System::Net {
-struct __WebResponseStream___ReadAsync_d__40;
+struct WebResponseStream__ReadAsync_d__40;
 }
 namespace System::Net {
-class __WebResponseStream____c__DisplayClass41_0;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class WebResponseStream___c__DisplayClass41_0;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -100,42 +90,42 @@ namespace System::Net {
 class WebResponseStream;
 }
 namespace System::Net {
-class __WebResponseStream____c__DisplayClass41_0;
+class WebResponseStream___c__DisplayClass41_0;
 }
 namespace System::Net {
-struct __WebResponseStream___InitReadAsync_d__52;
+struct WebResponseStream__InitReadAsync_d__52;
 }
 namespace System::Net {
-struct __WebResponseStream___ReadAllAsyncInner_d__47;
+struct WebResponseStream__ReadAllAsyncInner_d__47;
 }
 namespace System::Net {
-struct __WebResponseStream___ReadAllAsync_d__48;
+struct WebResponseStream__ReadAllAsync_d__48;
 }
 namespace System::Net {
-struct __WebResponseStream___ReadAsync_d__40;
+struct WebResponseStream__ReadAsync_d__40;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::WebResponseStream);
-MARK_REF_PTR_T(::System::Net::__WebResponseStream____c__DisplayClass41_0);
-MARK_VAL_T(::System::Net::__WebResponseStream___InitReadAsync_d__52);
-MARK_VAL_T(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47);
-MARK_VAL_T(::System::Net::__WebResponseStream___ReadAllAsync_d__48);
-MARK_VAL_T(::System::Net::__WebResponseStream___ReadAsync_d__40);
-// Type: ::<ReadAsync>d__40
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Net::WebResponseStream___c__DisplayClass41_0);
+MARK_VAL_T(::System::Net::WebResponseStream__InitReadAsync_d__52);
+MARK_VAL_T(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47);
+MARK_VAL_T(::System::Net::WebResponseStream__ReadAllAsync_d__48);
+MARK_VAL_T(::System::Net::WebResponseStream__ReadAsync_d__40);
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace System::Net {
 // Is value type: true
-// CS Name: ::WebResponseStream::<ReadAsync>d__40
-struct CORDL_TYPE __WebResponseStream___ReadAsync_d__40 {
+// CS Name: System.Net.WebResponseStream/<ReadAsync>d__40
+struct CORDL_TYPE WebResponseStream__ReadAsync_d__40 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x43844c4, size 0x958, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x43e57d8, size 0x958, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4384e1c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43e6130, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -143,7 +133,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WebResponseStream___ReadAsync_d__40();
+  constexpr WebResponseStream__ReadAsync_d__40();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
@@ -151,13 +141,19 @@ public:
   // def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "", def_value: None
   // }, CppParam { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: None }, CppParam { name: "_nbytes_5__3", ty: "int32_t", modifiers: "", def_value: None
   // }, CppParam { name: "_throwMe_5__4", ty: "::System::Exception*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-  constexpr __WebResponseStream___ReadAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder,
-                                                  ::System::Threading::CancellationToken cancellationToken, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
-                                                  ::System::Net::WebResponseStream* __4__this, ::System::Net::WebCompletionSource* _completion_5__2, int32_t _nbytes_5__3,
-                                                  ::System::Exception* _throwMe_5__4, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Object*> __u__1,
-                                                  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__2) noexcept;
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  constexpr WebResponseStream__ReadAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder,
+                                               ::System::Threading::CancellationToken cancellationToken, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
+                                               ::System::Net::WebResponseStream* __4__this, ::System::Net::WebCompletionSource* _completion_5__2, int32_t _nbytes_5__3,
+                                               ::System::Exception* _throwMe_5__4, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1,
+                                               ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9755 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -190,53 +186,46 @@ public:
   ::System::Exception* _throwMe_5__4;
 
   /// @brief Field <>u__1, offset: 0x58, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Object*> __u__1;
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1;
 
   /// @brief Field <>u__2, offset: 0x68, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__2;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9730 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___ReadAsync_d__40, 0x78>, "Size mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, cancellationToken) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, cancellationToken) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, buffer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, buffer) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, offset) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, offset) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, count) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, count) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, __4__this) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __4__this) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, _completion_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, _completion_5__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, _nbytes_5__3) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, _nbytes_5__3) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, _throwMe_5__4) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, _throwMe_5__4) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, __u__1) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __u__1) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAsync_d__40, __u__2) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __u__2) == 0x68, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream__ReadAsync_d__40, 0x78>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::<>c__DisplayClass41_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::WebResponseStream::<>c__DisplayClass41_0*
-class CORDL_TYPE __WebResponseStream____c__DisplayClass41_0 : public ::System::Object {
+// CS Name: System.Net.WebResponseStream/<>c__DisplayClass41_0
+class CORDL_TYPE WebResponseStream___c__DisplayClass41_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -251,20 +240,20 @@ public:
   /// @brief Field size, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  static inline ::System::Net::__WebResponseStream____c__DisplayClass41_0* New_ctor();
+  static inline ::System::Net::WebResponseStream___c__DisplayClass41_0* New_ctor();
 
-  /// @brief Method <ProcessRead>b__0, addr 0x4384e98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__0, addr 0x43e61ac, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* _ProcessRead_b__0(::System::Threading::CancellationToken ct);
 
-  /// @brief Method <ProcessRead>b__1, addr 0x4384ed4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__1, addr 0x43e61e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ProcessRead_b__1();
 
-  /// @brief Method <ProcessRead>b__2, addr 0x4384f10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__2, addr 0x43e6224, size 0x20, virtual false, abstract: false, final false
   inline bool _ProcessRead_b__2();
 
-  constexpr ::System::Net::WebResponseStream*& __cordl_internal_get___4__this();
+  constexpr ::System::Net::WebResponseStream* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Net::WebResponseStream*& __cordl_internal_get___4__this();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
@@ -286,22 +275,25 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4383160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e4474, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WebResponseStream____c__DisplayClass41_0();
+  constexpr WebResponseStream___c__DisplayClass41_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__WebResponseStream____c__DisplayClass41_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebResponseStream___c__DisplayClass41_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __WebResponseStream____c__DisplayClass41_0(__WebResponseStream____c__DisplayClass41_0&&) = delete;
+  WebResponseStream___c__DisplayClass41_0(WebResponseStream___c__DisplayClass41_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__WebResponseStream____c__DisplayClass41_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebResponseStream___c__DisplayClass41_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __WebResponseStream____c__DisplayClass41_0(__WebResponseStream____c__DisplayClass41_0 const&) = delete;
+  WebResponseStream___c__DisplayClass41_0(WebResponseStream___c__DisplayClass41_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9756 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::System::Net::WebResponseStream* _____4__this;
@@ -315,38 +307,35 @@ public:
   /// @brief Field size, offset: 0x24, size: 0x4, def value: None
   int32_t ___size;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9731 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream____c__DisplayClass41_0, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream___c__DisplayClass41_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream___c__DisplayClass41_0, ___buffer) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, ___buffer) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream___c__DisplayClass41_0, ___offset) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, ___offset) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream___c__DisplayClass41_0, ___size) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, ___size) == 0x24, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream___c__DisplayClass41_0, 0x28>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::<ReadAllAsyncInner>d__47
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace System::Net {
 // Is value type: true
-// CS Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
-struct CORDL_TYPE __WebResponseStream___ReadAllAsyncInner_d__47 {
+// CS Name: System.Net.WebResponseStream/<ReadAllAsyncInner>d__47
+struct CORDL_TYPE WebResponseStream__ReadAllAsyncInner_d__47 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4384f30, size 0x5d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x43e6244, size 0x5d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4385500, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43e6814, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -354,18 +343,24 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WebResponseStream___ReadAllAsyncInner_d__47();
+  constexpr WebResponseStream__ReadAllAsyncInner_d__47();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
   // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "", def_value: None }, CppParam {
   // name: "_maximumSize_5__2", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "_ms_5__3", ty: "::System::IO::MemoryStream*", modifiers: "", def_value: None }, CppParam { name:
   // "_buffer_5__4", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-  constexpr __WebResponseStream___ReadAllAsyncInner_d__47(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder,
-                                                          ::System::Threading::CancellationToken cancellationToken, ::System::Net::WebResponseStream* __4__this, int64_t _maximumSize_5__2,
-                                                          ::System::IO::MemoryStream* _ms_5__3, ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__4,
-                                                          ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  constexpr WebResponseStream__ReadAllAsyncInner_d__47(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder,
+                                                       ::System::Threading::CancellationToken cancellationToken, ::System::Net::WebResponseStream* __4__this, int64_t _maximumSize_5__2,
+                                                       ::System::IO::MemoryStream* _ms_5__3, ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__4,
+                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9757 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -389,51 +384,45 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__4;
 
   /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9732 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, 0x58>, "Size mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, cancellationToken) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, cancellationToken) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, _maximumSize_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, _maximumSize_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, _ms_5__3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, _ms_5__3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, _buffer_5__4) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, _buffer_5__4) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __u__1) == 0x48, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, 0x58>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::<ReadAllAsync>d__48
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace System::Net {
 // Is value type: true
-// CS Name: ::WebResponseStream::<ReadAllAsync>d__48
-struct CORDL_TYPE __WebResponseStream___ReadAllAsync_d__48 {
+// CS Name: System.Net.WebResponseStream/<ReadAllAsync>d__48
+struct CORDL_TYPE WebResponseStream__ReadAllAsync_d__48 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x438557c, size 0x9ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x43e6890, size 0x9ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4385f28, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43e723c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -441,20 +430,26 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WebResponseStream___ReadAllAsync_d__48();
+  constexpr WebResponseStream__ReadAllAsync_d__48();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "", def_value:
   // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "resending", ty: "bool", modifiers: "", def_value:
   // None }, CppParam { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: None }, CppParam { name: "_timeoutCts_5__3", ty:
   // "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "_timeoutTask_5__4", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None },
-  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: None }]
-  constexpr __WebResponseStream___ReadAllAsync_d__48(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebResponseStream* __4__this,
-                                                     ::System::Threading::CancellationToken cancellationToken, bool resending, ::System::Net::WebCompletionSource* _completion_5__2,
-                                                     ::System::Threading::CancellationTokenSource* _timeoutCts_5__3, ::System::Threading::Tasks::Task* _timeoutTask_5__4,
-                                                     ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1,
-                                                     ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__2) noexcept;
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None },
+  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: None }]
+  constexpr WebResponseStream__ReadAllAsync_d__48(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebResponseStream* __4__this,
+                                                  ::System::Threading::CancellationToken cancellationToken, bool resending, ::System::Net::WebCompletionSource* _completion_5__2,
+                                                  ::System::Threading::CancellationTokenSource* _timeoutCts_5__3, ::System::Threading::Tasks::Task* _timeoutTask_5__4,
+                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1,
+                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9758 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -481,58 +476,52 @@ public:
   ::System::Threading::Tasks::Task* _timeoutTask_5__4;
 
   /// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1;
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1;
 
   /// @brief Field <>u__2, offset: 0x60, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__2;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9733 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___ReadAllAsync_d__48, 0x70>, "Size mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, resending) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, resending) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, _completion_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, _completion_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, _timeoutCts_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, _timeoutCts_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, _timeoutTask_5__4) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, _timeoutTask_5__4) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, __u__1) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __u__1) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__ReadAllAsync_d__48, __u__2) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __u__2) == 0x60, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream__ReadAllAsync_d__48, 0x70>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::<InitReadAsync>d__52
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.ReadState, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace System::Net {
 // Is value type: true
-// CS Name: ::WebResponseStream::<InitReadAsync>d__52
-struct CORDL_TYPE __WebResponseStream___InitReadAsync_d__52 {
+// CS Name: System.Net.WebResponseStream/<InitReadAsync>d__52
+struct CORDL_TYPE WebResponseStream__InitReadAsync_d__52 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4385f90, size 0x6ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x43e72a4, size 0x6ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x438667c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43e7990, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -540,17 +529,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WebResponseStream___InitReadAsync_d__52();
+  constexpr WebResponseStream__InitReadAsync_d__52();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "", def_value:
   // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__2", ty:
   // "::System::Net::BufferOffsetSize*", modifiers: "", def_value: None }, CppParam { name: "_state_5__3", ty: "::System::Net::ReadState", modifiers: "", def_value: None }, CppParam { name:
-  // "_position_5__4", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-  constexpr __WebResponseStream___InitReadAsync_d__52(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebResponseStream* __4__this,
-                                                      ::System::Threading::CancellationToken cancellationToken, ::System::Net::BufferOffsetSize* _buffer_5__2, ::System::Net::ReadState _state_5__3,
-                                                      int32_t _position_5__4, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
+  // "_position_5__4", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
+  // modifiers: "", def_value: None }]
+  constexpr WebResponseStream__InitReadAsync_d__52(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebResponseStream* __4__this,
+                                                   ::System::Threading::CancellationToken cancellationToken, ::System::Net::BufferOffsetSize* _buffer_5__2, ::System::Net::ReadState _state_5__3,
+                                                   int32_t _position_5__4, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9759 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -574,53 +569,46 @@ public:
   int32_t _position_5__4;
 
   /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9734 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___InitReadAsync_d__52, 0x50>, "Size mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, _buffer_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, _buffer_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, _state_5__3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, _state_5__3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, _position_5__4) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, _position_5__4) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::System::Net::WebResponseStream__InitReadAsync_d__52, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __u__1) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream__InitReadAsync_d__52, 0x50>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: System.Net::WebResponseStream
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 170, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.HttpStatusCode, System.Net.WebConnectionStream
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::WebResponseStream*
+// CS Name: System.Net.WebResponseStream
 class CORDL_TYPE WebResponseStream : public ::System::Net::WebConnectionStream {
 public:
   // Declarations
-  using _InitReadAsync_d__52 = ::System::Net::__WebResponseStream___InitReadAsync_d__52;
+  using _InitReadAsync_d__52 = ::System::Net::WebResponseStream__InitReadAsync_d__52;
 
-  using _ReadAllAsyncInner_d__47 = ::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47;
+  using _ReadAllAsyncInner_d__47 = ::System::Net::WebResponseStream__ReadAllAsyncInner_d__47;
 
-  using _ReadAllAsync_d__48 = ::System::Net::__WebResponseStream___ReadAllAsync_d__48;
+  using _ReadAllAsync_d__48 = ::System::Net::WebResponseStream__ReadAllAsync_d__48;
 
-  using _ReadAsync_d__40 = ::System::Net::__WebResponseStream___ReadAsync_d__40;
+  using _ReadAsync_d__40 = ::System::Net::WebResponseStream__ReadAsync_d__40;
 
-  using __c__DisplayClass41_0 = ::System::Net::__WebResponseStream____c__DisplayClass41_0;
+  using __c__DisplayClass41_0 = ::System::Net::WebResponseStream___c__DisplayClass41_0;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -685,56 +673,56 @@ public:
   /// @brief Field read_eof, offset 0x7c, size 0x1
   __declspec(property(get = __cordl_internal_get_read_eof, put = __cordl_internal_set_read_eof)) bool read_eof;
 
-  /// @brief Method Close_internal, addr 0x4383a44, size 0x88, virtual true, abstract: false, final false
-  inline void Close_internal(ByRef<bool> disposed);
+  /// @brief Method Close_internal, addr 0x43e4d58, size 0x88, virtual true, abstract: false, final false
+  inline void Close_internal(::ByRef<bool> disposed);
 
-  /// @brief Method GetReadException, addr 0x4383acc, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method GetReadException, addr 0x43e4de0, size 0x290, virtual false, abstract: false, final false
   inline ::System::Net::WebException* GetReadException(::System::Net::WebExceptionStatus status, ::System::Exception* error, ::StringW where);
 
-  /// @brief Method GetResponse, addr 0x4383d5c, size 0x768, virtual false, abstract: false, final false
-  inline bool GetResponse(::System::Net::BufferOffsetSize* buffer, ByRef<int32_t> pos, ByRef<::System::Net::ReadState> state);
+  /// @brief Method GetResponse, addr 0x43e5070, size 0x768, virtual false, abstract: false, final false
+  inline bool GetResponse(::System::Net::BufferOffsetSize* buffer, ::ByRef<int32_t> pos, ::ByRef<::System::Net::ReadState> state);
 
-  /// @brief Method InitReadAsync, addr 0x437e3ac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitReadAsync, addr 0x43df6c0, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Initialize, addr 0x43832c8, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x43e45dc, size 0x50c, virtual false, abstract: false, final false
   inline void Initialize(::System::Net::BufferOffsetSize* buffer);
 
   static inline ::System::Net::WebResponseStream* New_ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method ProcessRead, addr 0x4382ed4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ProcessRead, addr 0x43e41e8, size 0x28c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAllAsync, addr 0x43838c4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllAsync, addr 0x43e4bd8, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadAllAsync(bool resending, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAllAsyncInner, addr 0x43837d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadAllAsyncInner, addr 0x43e4ae8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAllAsyncInner(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x4382db4, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x43e40c8, size 0x120, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBufferedContent, addr 0x4383168, size 0xcc, virtual true, abstract: false, final false
-  inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ByRef<int32_t> result);
+  /// @brief Method TryReadFromBufferedContent, addr 0x43e447c, size 0xcc, virtual true, abstract: false, final false
+  inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::ByRef<int32_t> result);
 
-  /// @brief Method WriteAsync, addr 0x43839a8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x43e4cbc, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr bool const& __cordl_internal_get__ChunkedRead_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__ChunkedRead_k__BackingField();
 
-  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField();
+  constexpr ::System::Net::WebHeaderCollection* const& __cordl_internal_get__Headers_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get__Headers_k__BackingField() const;
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__KeepAlive_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__KeepAlive_k__BackingField();
 
-  constexpr ::System::Net::WebRequestStream*& __cordl_internal_get__RequestStream_k__BackingField();
+  constexpr ::System::Net::WebRequestStream* const& __cordl_internal_get__RequestStream_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __cordl_internal_get__RequestStream_k__BackingField() const;
+  constexpr ::System::Net::WebRequestStream*& __cordl_internal_get__RequestStream_k__BackingField();
 
   constexpr ::System::Net::HttpStatusCode const& __cordl_internal_get__StatusCode_k__BackingField() const;
 
@@ -744,21 +732,21 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__StatusDescription_k__BackingField();
 
-  constexpr ::System::Version*& __cordl_internal_get__Version_k__BackingField();
+  constexpr ::System::Version* const& __cordl_internal_get__Version_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get__Version_k__BackingField() const;
+  constexpr ::System::Version*& __cordl_internal_get__Version_k__BackingField();
 
   constexpr bool const& __cordl_internal_get_bufferedEntireContent() const;
 
   constexpr bool& __cordl_internal_get_bufferedEntireContent();
 
+  constexpr ::System::Net::WebReadStream* const& __cordl_internal_get_innerStream() const;
+
   constexpr ::System::Net::WebReadStream*& __cordl_internal_get_innerStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebReadStream*> const& __cordl_internal_get_innerStream() const;
+  constexpr ::System::Object* const& __cordl_internal_get_locker() const;
 
   constexpr ::System::Object*& __cordl_internal_get_locker();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
 
   constexpr int32_t const& __cordl_internal_get_nestedRead() const;
 
@@ -768,9 +756,9 @@ public:
 
   constexpr bool& __cordl_internal_get_nextReadCalled();
 
-  constexpr ::System::Net::WebCompletionSource*& __cordl_internal_get_pendingRead();
+  constexpr ::System::Net::WebCompletionSource* const& __cordl_internal_get_pendingRead() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __cordl_internal_get_pendingRead() const;
+  constexpr ::System::Net::WebCompletionSource*& __cordl_internal_get_pendingRead();
 
   constexpr bool const& __cordl_internal_get_read_eof() const;
 
@@ -804,55 +792,55 @@ public:
 
   constexpr void __cordl_internal_set_read_eof(bool value);
 
-  /// @brief Method .ctor, addr 0x437e330, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43df644, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method get_CanRead, addr 0x4382d90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x43e40a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x4382d98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x43e40ac, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_ChunkedRead, addr 0x4382da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkedRead, addr 0x43e40b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ChunkedRead();
 
-  /// @brief Method get_ExpectContent, addr 0x4383234, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_ExpectContent, addr 0x43e4548, size 0x94, virtual false, abstract: false, final false
   inline bool get_ExpectContent();
 
-  /// @brief Method get_Headers, addr 0x4382d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x43e4050, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_KeepAlive, addr 0x4382d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x43e4090, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_RequestStream, addr 0x4382d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestStream, addr 0x43e4048, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebRequestStream* get_RequestStream();
 
-  /// @brief Method get_StatusCode, addr 0x4382d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x43e4060, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_StatusDescription, addr 0x4382d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusDescription, addr 0x43e4070, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_StatusDescription();
 
-  /// @brief Method get_Version, addr 0x4382d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x43e4080, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method set_ChunkedRead, addr 0x4382da8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ChunkedRead, addr 0x43e40bc, size 0xc, virtual false, abstract: false, final false
   inline void set_ChunkedRead(bool value);
 
-  /// @brief Method set_Headers, addr 0x4382d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Headers, addr 0x43e4058, size 0x8, virtual false, abstract: false, final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method set_KeepAlive, addr 0x4382d84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_KeepAlive, addr 0x43e4098, size 0xc, virtual false, abstract: false, final false
   inline void set_KeepAlive(bool value);
 
-  /// @brief Method set_StatusCode, addr 0x4382d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x43e4068, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
-  /// @brief Method set_StatusDescription, addr 0x4382d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusDescription, addr 0x43e4078, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusDescription(::StringW value);
 
-  /// @brief Method set_Version, addr 0x4382d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x43e4088, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::System::Version* value);
 
 protected:
@@ -868,6 +856,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WebResponseStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WebResponseStream(WebResponseStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9760 };
 
   /// @brief Field innerStream, offset: 0x58, size: 0x8, def value: None
   ::System::Net::WebReadStream* ___innerStream;
@@ -911,14 +902,9 @@ public:
   /// @brief Field <ChunkedRead>k__BackingField, offset: 0xa9, size: 0x1, def value: None
   bool ____ChunkedRead_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9735 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::WebResponseStream, ___innerStream) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::WebResponseStream, ___nextReadCalled) == 0x60, "Offset mismatch!");
@@ -947,12 +933,14 @@ static_assert(offsetof(::System::Net::WebResponseStream, ____KeepAlive_k__Backin
 
 static_assert(offsetof(::System::Net::WebResponseStream, ____ChunkedRead_k__BackingField) == 0xa9, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream, 0xb0>, "Size mismatch!");
+
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::WebResponseStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebResponseStream*, "System.Net", "WebResponseStream");
-NEED_NO_BOX(::System::Net::__WebResponseStream____c__DisplayClass41_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__WebResponseStream____c__DisplayClass41_0*, "System.Net", "WebResponseStream/<>c__DisplayClass41_0");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__WebResponseStream___InitReadAsync_d__52, "System.Net", "WebResponseStream/<InitReadAsync>d__52");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, "System.Net", "WebResponseStream/<ReadAllAsyncInner>d__47");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__WebResponseStream___ReadAllAsync_d__48, "System.Net", "WebResponseStream/<ReadAllAsync>d__48");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__WebResponseStream___ReadAsync_d__40, "System.Net", "WebResponseStream/<ReadAsync>d__40");
+NEED_NO_BOX(::System::Net::WebResponseStream___c__DisplayClass41_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebResponseStream___c__DisplayClass41_0*, "System.Net", "WebResponseStream/<>c__DisplayClass41_0");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebResponseStream__InitReadAsync_d__52, "System.Net", "WebResponseStream/<InitReadAsync>d__52");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebResponseStream__ReadAllAsyncInner_d__47, "System.Net", "WebResponseStream/<ReadAllAsyncInner>d__47");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebResponseStream__ReadAllAsync_d__48, "System.Net", "WebResponseStream/<ReadAllAsync>d__48");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebResponseStream__ReadAsync_d__40, "System.Net", "WebResponseStream/<ReadAsync>d__40");

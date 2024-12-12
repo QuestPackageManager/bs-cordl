@@ -12,11 +12,10 @@ struct HumanBodyBones;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanBodyBones);
-// Type: UnityEngine::HumanBodyBones
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::HumanBodyBones
+// CS Name: UnityEngine.HumanBodyBones
 struct CORDL_TYPE HumanBodyBones {
 public:
   // Declarations
@@ -99,189 +98,189 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HumanBodyBones(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Chest value: static_cast<int32_t>(0x8)
+  /// @brief Field Chest value: I32(8)
   static ::UnityEngine::HumanBodyBones const Chest;
 
-  /// @brief Field Head value: static_cast<int32_t>(0xa)
+  /// @brief Field Head value: I32(10)
   static ::UnityEngine::HumanBodyBones const Head;
 
-  /// @brief Field Hips value: static_cast<int32_t>(0x0)
+  /// @brief Field Hips value: I32(0)
   static ::UnityEngine::HumanBodyBones const Hips;
 
-  /// @brief Field Jaw value: static_cast<int32_t>(0x17)
+  /// @brief Field Jaw value: I32(23)
   static ::UnityEngine::HumanBodyBones const Jaw;
 
-  /// @brief Field LastBone value: static_cast<int32_t>(0x37)
+  /// @brief Field LastBone value: I32(55)
   static ::UnityEngine::HumanBodyBones const LastBone;
 
-  /// @brief Field LeftEye value: static_cast<int32_t>(0x15)
+  /// @brief Field LeftEye value: I32(21)
   static ::UnityEngine::HumanBodyBones const LeftEye;
 
-  /// @brief Field LeftFoot value: static_cast<int32_t>(0x5)
+  /// @brief Field LeftFoot value: I32(5)
   static ::UnityEngine::HumanBodyBones const LeftFoot;
 
-  /// @brief Field LeftHand value: static_cast<int32_t>(0x11)
+  /// @brief Field LeftHand value: I32(17)
   static ::UnityEngine::HumanBodyBones const LeftHand;
 
-  /// @brief Field LeftIndexDistal value: static_cast<int32_t>(0x1d)
+  /// @brief Field LeftIndexDistal value: I32(29)
   static ::UnityEngine::HumanBodyBones const LeftIndexDistal;
 
-  /// @brief Field LeftIndexIntermediate value: static_cast<int32_t>(0x1c)
+  /// @brief Field LeftIndexIntermediate value: I32(28)
   static ::UnityEngine::HumanBodyBones const LeftIndexIntermediate;
 
-  /// @brief Field LeftIndexProximal value: static_cast<int32_t>(0x1b)
+  /// @brief Field LeftIndexProximal value: I32(27)
   static ::UnityEngine::HumanBodyBones const LeftIndexProximal;
 
-  /// @brief Field LeftLittleDistal value: static_cast<int32_t>(0x26)
+  /// @brief Field LeftLittleDistal value: I32(38)
   static ::UnityEngine::HumanBodyBones const LeftLittleDistal;
 
-  /// @brief Field LeftLittleIntermediate value: static_cast<int32_t>(0x25)
+  /// @brief Field LeftLittleIntermediate value: I32(37)
   static ::UnityEngine::HumanBodyBones const LeftLittleIntermediate;
 
-  /// @brief Field LeftLittleProximal value: static_cast<int32_t>(0x24)
+  /// @brief Field LeftLittleProximal value: I32(36)
   static ::UnityEngine::HumanBodyBones const LeftLittleProximal;
 
-  /// @brief Field LeftLowerArm value: static_cast<int32_t>(0xf)
+  /// @brief Field LeftLowerArm value: I32(15)
   static ::UnityEngine::HumanBodyBones const LeftLowerArm;
 
-  /// @brief Field LeftLowerLeg value: static_cast<int32_t>(0x3)
+  /// @brief Field LeftLowerLeg value: I32(3)
   static ::UnityEngine::HumanBodyBones const LeftLowerLeg;
 
-  /// @brief Field LeftMiddleDistal value: static_cast<int32_t>(0x20)
+  /// @brief Field LeftMiddleDistal value: I32(32)
   static ::UnityEngine::HumanBodyBones const LeftMiddleDistal;
 
-  /// @brief Field LeftMiddleIntermediate value: static_cast<int32_t>(0x1f)
+  /// @brief Field LeftMiddleIntermediate value: I32(31)
   static ::UnityEngine::HumanBodyBones const LeftMiddleIntermediate;
 
-  /// @brief Field LeftMiddleProximal value: static_cast<int32_t>(0x1e)
+  /// @brief Field LeftMiddleProximal value: I32(30)
   static ::UnityEngine::HumanBodyBones const LeftMiddleProximal;
 
-  /// @brief Field LeftRingDistal value: static_cast<int32_t>(0x23)
+  /// @brief Field LeftRingDistal value: I32(35)
   static ::UnityEngine::HumanBodyBones const LeftRingDistal;
 
-  /// @brief Field LeftRingIntermediate value: static_cast<int32_t>(0x22)
+  /// @brief Field LeftRingIntermediate value: I32(34)
   static ::UnityEngine::HumanBodyBones const LeftRingIntermediate;
 
-  /// @brief Field LeftRingProximal value: static_cast<int32_t>(0x21)
+  /// @brief Field LeftRingProximal value: I32(33)
   static ::UnityEngine::HumanBodyBones const LeftRingProximal;
 
-  /// @brief Field LeftShoulder value: static_cast<int32_t>(0xb)
+  /// @brief Field LeftShoulder value: I32(11)
   static ::UnityEngine::HumanBodyBones const LeftShoulder;
 
-  /// @brief Field LeftThumbDistal value: static_cast<int32_t>(0x1a)
+  /// @brief Field LeftThumbDistal value: I32(26)
   static ::UnityEngine::HumanBodyBones const LeftThumbDistal;
 
-  /// @brief Field LeftThumbIntermediate value: static_cast<int32_t>(0x19)
+  /// @brief Field LeftThumbIntermediate value: I32(25)
   static ::UnityEngine::HumanBodyBones const LeftThumbIntermediate;
 
-  /// @brief Field LeftThumbProximal value: static_cast<int32_t>(0x18)
+  /// @brief Field LeftThumbProximal value: I32(24)
   static ::UnityEngine::HumanBodyBones const LeftThumbProximal;
 
-  /// @brief Field LeftToes value: static_cast<int32_t>(0x13)
+  /// @brief Field LeftToes value: I32(19)
   static ::UnityEngine::HumanBodyBones const LeftToes;
 
-  /// @brief Field LeftUpperArm value: static_cast<int32_t>(0xd)
+  /// @brief Field LeftUpperArm value: I32(13)
   static ::UnityEngine::HumanBodyBones const LeftUpperArm;
 
-  /// @brief Field LeftUpperLeg value: static_cast<int32_t>(0x1)
+  /// @brief Field LeftUpperLeg value: I32(1)
   static ::UnityEngine::HumanBodyBones const LeftUpperLeg;
 
-  /// @brief Field Neck value: static_cast<int32_t>(0x9)
+  /// @brief Field Neck value: I32(9)
   static ::UnityEngine::HumanBodyBones const Neck;
 
-  /// @brief Field RightEye value: static_cast<int32_t>(0x16)
+  /// @brief Field RightEye value: I32(22)
   static ::UnityEngine::HumanBodyBones const RightEye;
 
-  /// @brief Field RightFoot value: static_cast<int32_t>(0x6)
+  /// @brief Field RightFoot value: I32(6)
   static ::UnityEngine::HumanBodyBones const RightFoot;
 
-  /// @brief Field RightHand value: static_cast<int32_t>(0x12)
+  /// @brief Field RightHand value: I32(18)
   static ::UnityEngine::HumanBodyBones const RightHand;
 
-  /// @brief Field RightIndexDistal value: static_cast<int32_t>(0x2c)
+  /// @brief Field RightIndexDistal value: I32(44)
   static ::UnityEngine::HumanBodyBones const RightIndexDistal;
 
-  /// @brief Field RightIndexIntermediate value: static_cast<int32_t>(0x2b)
+  /// @brief Field RightIndexIntermediate value: I32(43)
   static ::UnityEngine::HumanBodyBones const RightIndexIntermediate;
 
-  /// @brief Field RightIndexProximal value: static_cast<int32_t>(0x2a)
+  /// @brief Field RightIndexProximal value: I32(42)
   static ::UnityEngine::HumanBodyBones const RightIndexProximal;
 
-  /// @brief Field RightLittleDistal value: static_cast<int32_t>(0x35)
+  /// @brief Field RightLittleDistal value: I32(53)
   static ::UnityEngine::HumanBodyBones const RightLittleDistal;
 
-  /// @brief Field RightLittleIntermediate value: static_cast<int32_t>(0x34)
+  /// @brief Field RightLittleIntermediate value: I32(52)
   static ::UnityEngine::HumanBodyBones const RightLittleIntermediate;
 
-  /// @brief Field RightLittleProximal value: static_cast<int32_t>(0x33)
+  /// @brief Field RightLittleProximal value: I32(51)
   static ::UnityEngine::HumanBodyBones const RightLittleProximal;
 
-  /// @brief Field RightLowerArm value: static_cast<int32_t>(0x10)
+  /// @brief Field RightLowerArm value: I32(16)
   static ::UnityEngine::HumanBodyBones const RightLowerArm;
 
-  /// @brief Field RightLowerLeg value: static_cast<int32_t>(0x4)
+  /// @brief Field RightLowerLeg value: I32(4)
   static ::UnityEngine::HumanBodyBones const RightLowerLeg;
 
-  /// @brief Field RightMiddleDistal value: static_cast<int32_t>(0x2f)
+  /// @brief Field RightMiddleDistal value: I32(47)
   static ::UnityEngine::HumanBodyBones const RightMiddleDistal;
 
-  /// @brief Field RightMiddleIntermediate value: static_cast<int32_t>(0x2e)
+  /// @brief Field RightMiddleIntermediate value: I32(46)
   static ::UnityEngine::HumanBodyBones const RightMiddleIntermediate;
 
-  /// @brief Field RightMiddleProximal value: static_cast<int32_t>(0x2d)
+  /// @brief Field RightMiddleProximal value: I32(45)
   static ::UnityEngine::HumanBodyBones const RightMiddleProximal;
 
-  /// @brief Field RightRingDistal value: static_cast<int32_t>(0x32)
+  /// @brief Field RightRingDistal value: I32(50)
   static ::UnityEngine::HumanBodyBones const RightRingDistal;
 
-  /// @brief Field RightRingIntermediate value: static_cast<int32_t>(0x31)
+  /// @brief Field RightRingIntermediate value: I32(49)
   static ::UnityEngine::HumanBodyBones const RightRingIntermediate;
 
-  /// @brief Field RightRingProximal value: static_cast<int32_t>(0x30)
+  /// @brief Field RightRingProximal value: I32(48)
   static ::UnityEngine::HumanBodyBones const RightRingProximal;
 
-  /// @brief Field RightShoulder value: static_cast<int32_t>(0xc)
+  /// @brief Field RightShoulder value: I32(12)
   static ::UnityEngine::HumanBodyBones const RightShoulder;
 
-  /// @brief Field RightThumbDistal value: static_cast<int32_t>(0x29)
+  /// @brief Field RightThumbDistal value: I32(41)
   static ::UnityEngine::HumanBodyBones const RightThumbDistal;
 
-  /// @brief Field RightThumbIntermediate value: static_cast<int32_t>(0x28)
+  /// @brief Field RightThumbIntermediate value: I32(40)
   static ::UnityEngine::HumanBodyBones const RightThumbIntermediate;
 
-  /// @brief Field RightThumbProximal value: static_cast<int32_t>(0x27)
+  /// @brief Field RightThumbProximal value: I32(39)
   static ::UnityEngine::HumanBodyBones const RightThumbProximal;
 
-  /// @brief Field RightToes value: static_cast<int32_t>(0x14)
+  /// @brief Field RightToes value: I32(20)
   static ::UnityEngine::HumanBodyBones const RightToes;
 
-  /// @brief Field RightUpperArm value: static_cast<int32_t>(0xe)
+  /// @brief Field RightUpperArm value: I32(14)
   static ::UnityEngine::HumanBodyBones const RightUpperArm;
 
-  /// @brief Field RightUpperLeg value: static_cast<int32_t>(0x2)
+  /// @brief Field RightUpperLeg value: I32(2)
   static ::UnityEngine::HumanBodyBones const RightUpperLeg;
 
-  /// @brief Field Spine value: static_cast<int32_t>(0x7)
+  /// @brief Field Spine value: I32(7)
   static ::UnityEngine::HumanBodyBones const Spine;
 
-  /// @brief Field UpperChest value: static_cast<int32_t>(0x36)
+  /// @brief Field UpperChest value: I32(54)
   static ::UnityEngine::HumanBodyBones const UpperChest;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16871 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanBodyBones, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::HumanBodyBones, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanBodyBones, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanBodyBones, "UnityEngine", "HumanBodyBones");

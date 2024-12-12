@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDtdDefaultAttributeInfo)
-namespace System::Xml {
-class IDtdAttributeInfo;
-}
 namespace System {
 class Object;
 }
@@ -18,11 +16,10 @@ class IDtdDefaultAttributeInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IDtdDefaultAttributeInfo);
-// Type: System.Xml::IDtdDefaultAttributeInfo
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.IDtdAttributeInfo
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::IDtdDefaultAttributeInfo*
+// CS Name: System.Xml.IDtdDefaultAttributeInfo
 class CORDL_TYPE IDtdDefaultAttributeInfo {
 public:
   // Declarations
@@ -37,31 +34,27 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdAttributeInfo"
   constexpr operator ::System::Xml::IDtdAttributeInfo*() noexcept;
 
-  /// @brief Method get_DefaultValueExpanded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_DefaultValueExpanded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_DefaultValueExpanded();
 
-  /// @brief Method get_DefaultValueTyped, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_DefaultValueTyped, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method get_ValueLineNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ValueLineNumber, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_ValueLineNumber();
 
-  /// @brief Method get_ValueLinePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ValueLinePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_ValueLinePosition();
 
   /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
   constexpr ::System::Xml::IDtdAttributeInfo* i___System__Xml__IDtdAttributeInfo() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdDefaultAttributeInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDtdDefaultAttributeInfo(IDtdDefaultAttributeInfo&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdDefaultAttributeInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDtdDefaultAttributeInfo(IDtdDefaultAttributeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

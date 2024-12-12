@@ -24,11 +24,10 @@ class AsymmetricKeyEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry);
-// Type: Org.BouncyCastle.Pkcs::AsymmetricKeyEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Pkcs.Pkcs12Entry
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkcs::AsymmetricKeyEntry*
+// CS Name: Org.BouncyCastle.Pkcs.AsymmetricKeyEntry
 class CORDL_TYPE AsymmetricKeyEntry : public ::Org::BouncyCastle::Pkcs::Pkcs12Entry {
 public:
   // Declarations
@@ -37,10 +36,10 @@ public:
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
 
-  /// @brief Method Equals, addr 0x251fe44, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2553130, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x251fee8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25531d4, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
@@ -49,22 +48,22 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_key();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_key() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_key() const;
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_key();
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x251fd78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2553064, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method .ctor, addr 0x251fdec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25530d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x251fe14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2553100, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Key, addr 0x251fe3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2553128, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
 protected:
@@ -81,18 +80,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsymmetricKeyEntry(AsymmetricKeyEntry const&) = delete;
 
-  /// @brief Field key, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___key;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1694 };
+
+  /// @brief Field key, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___key;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry, ___key) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry);

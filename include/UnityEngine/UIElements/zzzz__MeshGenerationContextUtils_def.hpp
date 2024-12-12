@@ -14,28 +14,27 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScaleMode_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshGenerationContextUtils)
 namespace UnityEngine::UIElements {
-struct BackgroundPosition;
-}
-namespace UnityEngine::UIElements {
-struct BackgroundRepeat;
-}
-namespace UnityEngine::UIElements {
-struct BackgroundSize;
-}
-namespace UnityEngine::UIElements {
-struct ColorPage;
-}
-namespace UnityEngine::UIElements {
 struct ContextType;
 }
 namespace UnityEngine::UIElements {
 struct Length;
+}
+namespace UnityEngine::UIElements {
+struct MeshBuilderNative_NativeBorderParams;
+}
+namespace UnityEngine::UIElements {
+struct MeshBuilderNative_NativeRectParams;
+}
+namespace UnityEngine::UIElements {
+struct MeshGenerationContextUtils_BorderParams;
+}
+namespace UnityEngine::UIElements {
+struct MeshGenerationContextUtils_RectangleParams;
 }
 namespace UnityEngine::UIElements {
 class MeshGenerationContext;
@@ -48,24 +47,6 @@ class VectorImage;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct __MeshBuilderNative__NativeBorderParams;
-}
-namespace UnityEngine::UIElements {
-struct __MeshBuilderNative__NativeRectParams;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContext__MeshFlags;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine {
 class Material;
@@ -96,29 +77,28 @@ namespace UnityEngine::UIElements {
 class MeshGenerationContextUtils;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
+struct MeshGenerationContextUtils_BorderParams;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
+struct MeshGenerationContextUtils_RectangleParams;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::MeshGenerationContextUtils);
-MARK_VAL_T(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams);
-MARK_VAL_T(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams);
-// Type: ::BorderParams
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams);
+MARK_VAL_T(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams);
+// Dependencies UnityEngine.Color, UnityEngine.Rect, UnityEngine.UIElements.ColorPage, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::MeshGenerationContextUtils::BorderParams
-struct CORDL_TYPE __MeshGenerationContextUtils__BorderParams {
+// CS Name: UnityEngine.UIElements.MeshGenerationContextUtils/BorderParams
+struct CORDL_TYPE MeshGenerationContextUtils_BorderParams {
 public:
   // Declarations
-  /// @brief Method ToNativeParams, addr 0x49e4580, size 0xb8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::__MeshBuilderNative__NativeBorderParams ToNativeParams();
+  /// @brief Method ToNativeParams, addr 0x4a48e90, size 0xb8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams ToNativeParams();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MeshGenerationContextUtils__BorderParams();
+  constexpr MeshGenerationContextUtils_BorderParams();
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
   // None }, CppParam { name: "leftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
@@ -130,12 +110,18 @@ public:
   // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam {
   // name: "topColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "rightColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "",
   // def_value: None }, CppParam { name: "bottomColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }]
-  constexpr __MeshGenerationContextUtils__BorderParams(::UnityEngine::Rect rect, ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Color leftColor, ::UnityEngine::Color topColor,
-                                                       ::UnityEngine::Color rightColor, ::UnityEngine::Color bottomColor, float_t leftWidth, float_t topWidth, float_t rightWidth, float_t bottomWidth,
-                                                       ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius,
-                                                       ::UnityEngine::Vector2 bottomLeftRadius, ::UnityW<::UnityEngine::Material> material, ::UnityEngine::UIElements::ColorPage leftColorPage,
-                                                       ::UnityEngine::UIElements::ColorPage topColorPage, ::UnityEngine::UIElements::ColorPage rightColorPage,
-                                                       ::UnityEngine::UIElements::ColorPage bottomColorPage) noexcept;
+  constexpr MeshGenerationContextUtils_BorderParams(::UnityEngine::Rect rect, ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Color leftColor, ::UnityEngine::Color topColor,
+                                                    ::UnityEngine::Color rightColor, ::UnityEngine::Color bottomColor, float_t leftWidth, float_t topWidth, float_t rightWidth, float_t bottomWidth,
+                                                    ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius,
+                                                    ::UnityEngine::Vector2 bottomLeftRadius, ::UnityW<::UnityEngine::Material> material, ::UnityEngine::UIElements::ColorPage leftColorPage,
+                                                    ::UnityEngine::UIElements::ColorPage topColorPage, ::UnityEngine::UIElements::ColorPage rightColorPage,
+                                                    ::UnityEngine::UIElements::ColorPage bottomColorPage) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6030 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb8 };
 
   /// @brief Field rect, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Rect rect;
@@ -194,110 +180,104 @@ public:
   /// @brief Field bottomColorPage, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::UIElements::ColorPage bottomColorPage;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6005 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, 0xb8>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, rect) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, rect) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, playmodeTintColor) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, playmodeTintColor) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, leftColor) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, leftColor) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, topColor) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, topColor) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, rightColor) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, rightColor) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, bottomColor) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, bottomColor) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, leftWidth) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, leftWidth) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, topWidth) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, topWidth) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, rightWidth) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, rightWidth) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, bottomWidth) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, bottomWidth) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, topLeftRadius) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, topLeftRadius) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, topRightRadius) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, topRightRadius) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, bottomRightRadius) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, bottomRightRadius) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, bottomLeftRadius) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, bottomLeftRadius) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, material) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, material) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, leftColorPage) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, leftColorPage) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, topColorPage) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, topColorPage) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, rightColorPage) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, rightColorPage) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, bottomColorPage) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, bottomColorPage) == 0xb0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, 0xb8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: ::RectangleParams
-// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 300, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.Rect, UnityEngine.ScaleMode, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat, UnityEngine.UIElements.BackgroundSize,
+// UnityEngine.UIElements.ColorPage, UnityEngine.UIElements.MeshGenerationContext::MeshFlags, UnityEngine.Vector2, UnityEngine.Vector4
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::MeshGenerationContextUtils::RectangleParams
-struct CORDL_TYPE __MeshGenerationContextUtils__RectangleParams {
+// CS Name: UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams
+struct CORDL_TYPE MeshGenerationContextUtils_RectangleParams {
 public:
   // Declarations
-  /// @brief Method AdjustSpriteUVsForScaleMode, addr 0x49e47d4, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method AdjustSpriteUVsForScaleMode, addr 0x4a490e4, size 0x2e8, virtual false, abstract: false, final false
   static inline void AdjustSpriteUVsForScaleMode(::UnityEngine::Rect containerRect, ::UnityEngine::Rect srcRect, ::UnityEngine::Rect spriteGeomRect, ::UnityEngine::Sprite* sprite,
-                                                 ::UnityEngine::ScaleMode scaleMode, ByRef<::UnityEngine::Rect> rectOut, ByRef<::UnityEngine::Rect> uvOut);
+                                                 ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Rect> rectOut, ::ByRef<::UnityEngine::Rect> uvOut);
 
-  /// @brief Method AdjustUVsForScaleMode, addr 0x49e4638, size 0x19c, virtual false, abstract: false, final false
-  static inline void AdjustUVsForScaleMode(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture, ::UnityEngine::ScaleMode scaleMode, ByRef<::UnityEngine::Rect> rectOut,
-                                           ByRef<::UnityEngine::Rect> uvOut);
+  /// @brief Method AdjustUVsForScaleMode, addr 0x4a48f48, size 0x19c, virtual false, abstract: false, final false
+  static inline void AdjustUVsForScaleMode(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture, ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Rect> rectOut,
+                                           ::ByRef<::UnityEngine::Rect> uvOut);
 
-  /// @brief Method ApplyPackingRotation, addr 0x49e4cf4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ApplyPackingRotation, addr 0x4a49604, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ApplyPackingRotation(::UnityEngine::Rect uv, ::UnityEngine::SpritePackingRotation rotation);
 
-  /// @brief Method ComputeGeomRect, addr 0x49e4b94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ComputeGeomRect, addr 0x4a494a4, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ComputeGeomRect(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method ComputeUVRect, addr 0x49e4c44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ComputeUVRect, addr 0x4a49554, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ComputeUVRect(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method HasRadius, addr 0x49e5bb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasRadius, addr 0x4a4a4c8, size 0x74, virtual false, abstract: false, final false
   inline bool HasRadius(float_t epsilon);
 
-  /// @brief Method HasSlices, addr 0x49e5c2c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HasSlices, addr 0x4a4a53c, size 0x4c, virtual false, abstract: false, final false
   inline bool HasSlices(float_t epsilon);
 
-  /// @brief Method MakeSprite, addr 0x49e4f00, size 0xb14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams MakeSprite(::UnityEngine::Rect containerRect, ::UnityEngine::Rect subRect, ::UnityEngine::Sprite* sprite,
-                                                                                                    ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::UIElements::ContextType panelContext,
-                                                                                                    bool hasRadius, ByRef<::UnityEngine::Vector4> slices, bool useForRepeat);
+  /// @brief Method MakeSprite, addr 0x4a49810, size 0xb14, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams MakeSprite(::UnityEngine::Rect containerRect, ::UnityEngine::Rect subRect, ::UnityEngine::Sprite* sprite,
+                                                                                                 ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::UIElements::ContextType panelContext,
+                                                                                                 bool hasRadius, ::ByRef<::UnityEngine::Vector4> slices, bool useForRepeat);
 
-  /// @brief Method MakeTextured, addr 0x49e4d44, size 0x1bc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams MakeTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture,
-                                                                                                      ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::UIElements::ContextType panelContext);
+  /// @brief Method MakeTextured, addr 0x4a49654, size 0x1bc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams MakeTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture,
+                                                                                                   ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::UIElements::ContextType panelContext);
 
-  /// @brief Method MakeVectorTextured, addr 0x49e5a14, size 0x1a4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams MakeVectorTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv,
-                                                                                                            ::UnityEngine::UIElements::VectorImage* vectorImage, ::UnityEngine::ScaleMode scaleMode,
-                                                                                                            ::UnityEngine::UIElements::ContextType panelContext);
+  /// @brief Method MakeVectorTextured, addr 0x4a4a324, size 0x1a4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams MakeVectorTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv,
+                                                                                                         ::UnityEngine::UIElements::VectorImage* vectorImage, ::UnityEngine::ScaleMode scaleMode,
+                                                                                                         ::UnityEngine::UIElements::ContextType panelContext);
 
-  /// @brief Method RectIntersection, addr 0x49e4abc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method RectIntersection, addr 0x4a493cc, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect RectIntersection(::UnityEngine::Rect a, ::UnityEngine::Rect b);
 
-  /// @brief Method ToNativeParams, addr 0x49e5c78, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams ToNativeParams(::UnityEngine::Rect uvRegion);
+  /// @brief Method ToNativeParams, addr 0x4a4a588, size 0x88, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams ToNativeParams(::UnityEngine::Rect uvRegion);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MeshGenerationContextUtils__RectangleParams();
+  constexpr MeshGenerationContextUtils_RectangleParams();
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam
   // { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "subRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name:
@@ -314,17 +294,23 @@ public:
   // CppParam { name: "rightSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sliceScale", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "rectInset", ty:
   // "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name:
-  // "meshFlags", ty: "::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags", modifiers: "", def_value: None }]
-  constexpr __MeshGenerationContextUtils__RectangleParams(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityEngine::Rect subRect,
-                                                          ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX, ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
-                                                          ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,
-                                                          ::UnityW<::UnityEngine::Texture> texture, ::UnityW<::UnityEngine::Sprite> sprite,
-                                                          ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage, ::UnityW<::UnityEngine::Material> material, ::UnityEngine::ScaleMode scaleMode,
-                                                          ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius,
-                                                          ::UnityEngine::Vector2 bottomRightRadius, ::UnityEngine::Vector2 bottomLeftRadius, ::UnityEngine::Vector2 contentSize,
-                                                          ::UnityEngine::Vector2 textureSize, int32_t leftSlice, int32_t topSlice, int32_t rightSlice, int32_t bottomSlice, float_t sliceScale,
-                                                          ::UnityEngine::Rect spriteGeomRect, ::UnityEngine::Vector4 rectInset, ::UnityEngine::UIElements::ColorPage colorPage,
-                                                          ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags meshFlags) noexcept;
+  // "meshFlags", ty: "::UnityEngine::UIElements::MeshGenerationContext_MeshFlags", modifiers: "", def_value: None }]
+  constexpr MeshGenerationContextUtils_RectangleParams(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityEngine::Rect subRect,
+                                                       ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX, ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
+                                                       ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,
+                                                       ::UnityW<::UnityEngine::Texture> texture, ::UnityW<::UnityEngine::Sprite> sprite, ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
+                                                       ::UnityW<::UnityEngine::Material> material, ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playmodeTintColor,
+                                                       ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius,
+                                                       ::UnityEngine::Vector2 bottomLeftRadius, ::UnityEngine::Vector2 contentSize, ::UnityEngine::Vector2 textureSize, int32_t leftSlice,
+                                                       int32_t topSlice, int32_t rightSlice, int32_t bottomSlice, float_t sliceScale, ::UnityEngine::Rect spriteGeomRect,
+                                                       ::UnityEngine::Vector4 rectInset, ::UnityEngine::UIElements::ColorPage colorPage,
+                                                       ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags meshFlags) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6031 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x120 };
 
   /// @brief Field rect, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Rect rect;
@@ -411,105 +397,97 @@ public:
   ::UnityEngine::UIElements::ColorPage colorPage;
 
   /// @brief Field meshFlags, offset: 0x118, size: 0x4, def value: None
-  ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags meshFlags;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6006 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x120 };
+  ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags meshFlags;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, 0x120>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, rect) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, rect) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, uv) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, uv) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, color) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, color) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, subRect) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, subRect) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, backgroundPositionX) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, backgroundPositionX) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, backgroundPositionY) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, backgroundPositionY) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, backgroundRepeat) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, backgroundRepeat) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, backgroundSize) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, backgroundSize) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, texture) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, texture) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, sprite) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, sprite) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, vectorImage) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, vectorImage) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, material) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, material) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, scaleMode) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, scaleMode) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, playmodeTintColor) == 0x9c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, playmodeTintColor) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, topLeftRadius) == 0xac, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, topLeftRadius) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, topRightRadius) == 0xb4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, topRightRadius) == 0xb4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, bottomRightRadius) == 0xbc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, bottomRightRadius) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, bottomLeftRadius) == 0xc4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, bottomLeftRadius) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, contentSize) == 0xcc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, contentSize) == 0xcc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, textureSize) == 0xd4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, textureSize) == 0xd4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, leftSlice) == 0xdc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, leftSlice) == 0xdc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, topSlice) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, topSlice) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, rightSlice) == 0xe4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, rightSlice) == 0xe4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, bottomSlice) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, bottomSlice) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, sliceScale) == 0xec, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, sliceScale) == 0xec, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, spriteGeomRect) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, spriteGeomRect) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, rectInset) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, rectInset) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, colorPage) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, colorPage) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, meshFlags) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, meshFlags) == 0x118, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, 0x120>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::MeshGenerationContextUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::MeshGenerationContextUtils*
+// CS Name: UnityEngine.UIElements.MeshGenerationContextUtils
 class CORDL_TYPE MeshGenerationContextUtils : public ::System::Object {
 public:
   // Declarations
-  using BorderParams = ::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams;
+  using BorderParams = ::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams;
 
-  using RectangleParams = ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams;
+  using RectangleParams = ::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams;
 
-  /// @brief Method AdjustBackgroundSizeForBorders, addr 0x49e4160, size 0x420, virtual false, abstract: false, final false
-  static inline void AdjustBackgroundSizeForBorders(::UnityEngine::UIElements::VisualElement* visualElement,
-                                                    ByRef<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams> rectParams);
+  /// @brief Method AdjustBackgroundSizeForBorders, addr 0x4a48a70, size 0x420, virtual false, abstract: false, final false
+  static inline void AdjustBackgroundSizeForBorders(::UnityEngine::UIElements::VisualElement* visualElement, ::ByRef<::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams> rectParams);
 
-  /// @brief Method ConvertBorderRadiusPercentToPoints, addr 0x49e3e88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertBorderRadiusPercentToPoints, addr 0x4a48798, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ConvertBorderRadiusPercentToPoints(::UnityEngine::Vector2 borderRectSize, ::UnityEngine::UIElements::Length length);
 
-  /// @brief Method GetVisualElementRadii, addr 0x49e3ec4, size 0x29c, virtual false, abstract: false, final false
-  static inline void GetVisualElementRadii(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::Vector2> topLeft, ByRef<::UnityEngine::Vector2> bottomLeft,
-                                           ByRef<::UnityEngine::Vector2> topRight, ByRef<::UnityEngine::Vector2> bottomRight);
+  /// @brief Method GetVisualElementRadii, addr 0x4a487d4, size 0x29c, virtual false, abstract: false, final false
+  static inline void GetVisualElementRadii(::UnityEngine::UIElements::VisualElement* ve, ::ByRef<::UnityEngine::Vector2> topLeft, ::ByRef<::UnityEngine::Vector2> bottomLeft,
+                                           ::ByRef<::UnityEngine::Vector2> topRight, ::ByRef<::UnityEngine::Vector2> bottomRight);
 
-  /// @brief Method Rectangle, addr 0x49e3cc0, size 0x100, virtual false, abstract: false, final false
-  static inline void Rectangle(::UnityEngine::UIElements::MeshGenerationContext* mgc, ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
+  /// @brief Method Rectangle, addr 0x4a485d0, size 0x100, virtual false, abstract: false, final false
+  static inline void Rectangle(::UnityEngine::UIElements::MeshGenerationContext* mgc, ::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams rectParams);
 
-  /// @brief Method Text, addr 0x49e3dc0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Text, addr 0x4a486d0, size 0xc8, virtual false, abstract: false, final false
   static inline void Text(::UnityEngine::UIElements::MeshGenerationContext* mgc, ::UnityEngine::UIElements::TextElement* te);
 
 protected:
@@ -527,7 +505,7 @@ public:
   MeshGenerationContextUtils(MeshGenerationContextUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6032 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -537,5 +515,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MeshGen
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MeshGenerationContextUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MeshGenerationContextUtils*, "UnityEngine.UIElements", "MeshGenerationContextUtils");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, "UnityEngine.UIElements", "MeshGenerationContextUtils/BorderParams");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, "UnityEngine.UIElements", "MeshGenerationContextUtils/RectangleParams");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams, "UnityEngine.UIElements", "MeshGenerationContextUtils/BorderParams");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams, "UnityEngine.UIElements", "MeshGenerationContextUtils/RectangleParams");

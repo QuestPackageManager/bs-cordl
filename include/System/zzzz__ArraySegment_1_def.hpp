@@ -3,61 +3,47 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArraySegment_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class IDisposable;
+template <typename T> struct ArraySegment_1_Enumerator;
 }
 namespace System {
 class Object;
-}
-namespace System {
-template <typename T> struct __ArraySegment_1__Enumerator;
 }
 // Forward declare root types
 namespace System {
 template <typename T> struct ArraySegment_1;
 }
 namespace System {
-template <typename T> struct __ArraySegment_1__Enumerator;
+template <typename T> struct ArraySegment_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::ArraySegment_1);
-MARK_GEN_VAL_T(::System::__ArraySegment_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::System::ArraySegment_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::ArraySegment`1::Enumerator<T>
-struct CORDL_TYPE __ArraySegment_1__Enumerator {
+// CS Name: System.ArraySegment`1/Enumerator<T>
+struct CORDL_TYPE ArraySegment_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -102,11 +88,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ArraySegment_1__Enumerator();
+  constexpr ArraySegment_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "_end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ArraySegment_1__Enumerator(::ArrayW<T, ::Array<T>*> _array, int32_t _start, int32_t _end, int32_t _current) noexcept;
+  constexpr ArraySegment_1_Enumerator(::ArrayW<T, ::Array<T>*> _array, int32_t _start, int32_t _end, int32_t _current) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2350 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field _array, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> _array;
@@ -120,27 +112,21 @@ public:
   /// @brief Field _current, offset: 0x10, size: 0x4, def value: None
   int32_t _current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2350 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System
-// Type: System::ArraySegment`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>,
+// System.Collections.Generic.IReadOnlyList`1<T>, System.Collections.IEnumerable
 namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::System::ArraySegment`1<T>
+// CS Name: System.ArraySegment`1<T>
 struct CORDL_TYPE ArraySegment_1 {
 public:
   // Declarations
-  using Enumerator = ::System::__ArraySegment_1__Enumerator<T>;
+  using Enumerator = ::System::ArraySegment_1_Enumerator<T>;
 
   __declspec(property(get = get_Array)) ::ArrayW<T, ::Array<T>*> Array;
 
@@ -155,7 +141,7 @@ public:
   __declspec(property(get = System_Collections_Generic_IReadOnlyList_T__get_Item)) T System_Collections_Generic_IReadOnlyList_T__Item[];
 
   /// @brief Field <Empty>k__BackingField, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField)) ::System::ArraySegment_1<T> _Empty_k__BackingField;
+  __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField)) ::System::ArraySegment_1<T> _Empty_k__BackingField;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*();
@@ -185,7 +171,7 @@ public:
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::__ArraySegment_1__Enumerator<T> GetEnumerator();
+  inline ::System::ArraySegment_1_Enumerator<T> GetEnumerator();
 
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
@@ -280,6 +266,12 @@ public:
   // { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ArraySegment_1(::ArrayW<T, ::Array<T>*> _array, int32_t _offset, int32_t _count) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2351 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field _array, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> _array;
 
@@ -289,15 +281,9 @@ public:
   /// @brief Field _count, offset: 0xc, size: 0x4, def value: None
   int32_t _count;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2351 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::ArraySegment_1, "System", "ArraySegment`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::__ArraySegment_1__Enumerator, "System", "ArraySegment`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::ArraySegment_1_Enumerator, "System", "ArraySegment`1/Enumerator");

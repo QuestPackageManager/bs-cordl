@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(APIUpdaterRuntimeHelpers)
 namespace System {
@@ -16,19 +15,18 @@ class APIUpdaterRuntimeHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
-// Type: UnityEngine._Scripting.APIUpdating::APIUpdaterRuntimeHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::_Scripting::APIUpdating {
 // Is value type: false
-// CS Name: ::UnityEngine._Scripting.APIUpdating::APIUpdaterRuntimeHelpers*
+// CS Name: UnityEngine._Scripting.APIUpdating.APIUpdaterRuntimeHelpers
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x4859448, size 0x13c, virtual false, abstract: false, final false
-  static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass);
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x48ba7d4, size 0x13c, virtual false, abstract: false, final false
+  static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ::ByRef<::StringW> assembly, ::ByRef<::StringW> nsp, ::ByRef<::StringW> klass);
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x4859584, size 0x2b8, virtual false, abstract: false, final false
-  static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className);
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x48ba910, size 0x2b8, virtual false, abstract: false, final false
+  static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> nsp, ::ByRef<::StringW> className);
 
 protected:
   // Ctor Parameters []
@@ -45,7 +43,7 @@ public:
   APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

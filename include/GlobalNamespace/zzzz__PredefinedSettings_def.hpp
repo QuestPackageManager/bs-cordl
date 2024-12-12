@@ -13,11 +13,10 @@ class PredefinedSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PredefinedSettings);
-// Type: ::PredefinedSettings
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PredefinedSettings*
+// CS Name: PredefinedSettings
 class CORDL_TYPE PredefinedSettings : public ::System::Object {
 public:
   // Declarations
@@ -36,22 +35,22 @@ public:
   PredefinedSettings(PredefinedSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18067 };
 
   /// @brief Field kControllersPositionOffsetLimit offset 0xffffffff size 0x4
-  static constexpr float_t kControllersPositionOffsetLimit{ 0.1 };
+  static constexpr float_t kControllersPositionOffsetLimit{ static_cast<float_t>(0.1f) };
 
   /// @brief Field kControllersRotationOffsetLimit offset 0xffffffff size 0x4
-  static constexpr float_t kControllersRotationOffsetLimit{ 180.0 };
+  static constexpr float_t kControllersRotationOffsetLimit{ static_cast<float_t>(180.0f) };
 
   /// @brief Field kDefaultPlayerHeight offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultPlayerHeight{ 1.8 };
+  static constexpr float_t kDefaultPlayerHeight{ static_cast<float_t>(1.8f) };
 
   /// @brief Field kHeadPosToPlayerHeightOffset offset 0xffffffff size 0x4
-  static constexpr float_t kHeadPosToPlayerHeightOffset{ 0.1 };
+  static constexpr float_t kHeadPosToPlayerHeightOffset{ static_cast<float_t>(0.1f) };
 
   /// @brief Field kMaxRoomDistanceFromCenterPerAxis offset 0xffffffff size 0x4
-  static constexpr float_t kMaxRoomDistanceFromCenterPerAxis{ 4.0 };
+  static constexpr float_t kMaxRoomDistanceFromCenterPerAxis{ static_cast<float_t>(4.0f) };
 
   /// @brief Field kQuest120HzFramerate offset 0xffffffff size 0x4
   static constexpr int32_t kQuest120HzFramerate{ static_cast<int32_t>(0x78) };

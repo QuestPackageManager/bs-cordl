@@ -17,11 +17,10 @@ class ColorTransitionSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorTransitionSO);
-// Type: ::ColorTransitionSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseTransitionSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorTransitionSO*
+// CS Name: ColorTransitionSO
 class CORDL_TYPE ColorTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
@@ -94,25 +93,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x4476e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor, addr 0x4476e48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor, addr 0x44d815c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method get_highlightedColor, addr 0x4476e30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedColor, addr 0x44d8144, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method get_normalColor, addr 0x4476e24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor, addr 0x44d8138, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method get_pressedColor, addr 0x4476e3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor, addr 0x44d8150, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method get_selectedAndHighlightedColor, addr 0x4476e60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor, addr 0x44d8174, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor();
 
-  /// @brief Method get_selectedColor, addr 0x4476e54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor, addr 0x44d8168, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor();
 
 protected:
@@ -128,6 +127,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorTransitionSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ColorTransitionSO(ColorTransitionSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18212 };
 
   /// @brief Field _normalColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____normalColor;
@@ -147,14 +149,9 @@ public:
   /// @brief Field _selectedAndHighlightedColor, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____selectedAndHighlightedColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18132 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorTransitionSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____normalColor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____highlightedColor) == 0x28, "Offset mismatch!");
@@ -166,6 +163,8 @@ static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____disabledColor) 
 static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____selectedColor) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____selectedAndHighlightedColor) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorTransitionSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorTransitionSO);

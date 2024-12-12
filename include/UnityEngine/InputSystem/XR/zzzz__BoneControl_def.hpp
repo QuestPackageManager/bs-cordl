@@ -24,11 +24,10 @@ class BoneControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::BoneControl);
-// Type: UnityEngine.InputSystem.XR::BoneControl
-// SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputControl`1<TValue>, UnityEngine.InputSystem.XR.Bone
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.XR::BoneControl*
+// CS Name: UnityEngine.InputSystem.XR.BoneControl
 class CORDL_TYPE BoneControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Bone> {
 public:
   // Declarations
@@ -50,28 +49,28 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* rotation;
 
-  /// @brief Method FinishSetup, addr 0x4584e34, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x45e6148, size 0x114, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::BoneControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x4584f48, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x45e625c, size 0xf0, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Bone ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x4585038, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x45e634c, size 0x84, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::XR::Bone value, ::cordl_internals::Ptr<void> statePtr);
+
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl* const& __cordl_internal_get__parentBoneIndex_k__BackingField() const;
 
   constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__parentBoneIndex_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__parentBoneIndex_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__position_k__BackingField() const;
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__position_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__position_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& __cordl_internal_get__rotation_k__BackingField() const;
 
   constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__rotation_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __cordl_internal_get__rotation_k__BackingField() const;
 
   constexpr void __cordl_internal_set__parentBoneIndex_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
@@ -79,25 +78,25 @@ public:
 
   constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method .ctor, addr 0x45850bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e63d0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parentBoneIndex, addr 0x4584e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentBoneIndex, addr 0x45e6118, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_parentBoneIndex();
 
-  /// @brief Method get_position, addr 0x4584e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x45e6128, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_position();
 
-  /// @brief Method get_rotation, addr 0x4584e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x45e6138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rotation();
 
-  /// @brief Method set_parentBoneIndex, addr 0x4584e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentBoneIndex, addr 0x45e6120, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method set_position, addr 0x4584e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x45e6130, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rotation, addr 0x4584e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x45e6140, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
 protected:
@@ -114,6 +113,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BoneControl(BoneControl const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6743 };
+
   /// @brief Field <parentBoneIndex>k__BackingField, offset: 0x140, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____parentBoneIndex_k__BackingField;
 
@@ -123,19 +125,16 @@ public:
   /// @brief Field <rotation>k__BackingField, offset: 0x150, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____rotation_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6718 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::BoneControl, 0x158>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::XR::BoneControl, ____parentBoneIndex_k__BackingField) == 0x140, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::XR::BoneControl, ____position_k__BackingField) == 0x148, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::XR::BoneControl, ____rotation_k__BackingField) == 0x150, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::BoneControl, 0x158>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::BoneControl);

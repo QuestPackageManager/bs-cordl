@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CBZip2InputStream)
 namespace Org::BouncyCastle::Apache::Bzip2 {
@@ -22,11 +21,10 @@ class CBZip2InputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream);
-// Type: Org.BouncyCastle.Apache.Bzip2::CBZip2InputStream
-// SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 250, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.Stream
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Apache.Bzip2::CBZip2InputStream*
+// CS Name: Org.BouncyCastle.Apache.Bzip2.CBZip2InputStream
 class CORDL_TYPE CBZip2InputStream : public ::System::IO::Stream {
 public:
   // Declarations
@@ -154,115 +152,115 @@ public:
   /// @brief Field z, offset 0xf8, size 0x2
   __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) char16_t z;
 
-  /// @brief Method BadBlockHeader, addr 0x25ccc20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BadBlockHeader, addr 0x25fff0c, size 0x4, virtual false, abstract: false, final false
   static inline void BadBlockHeader();
 
-  /// @brief Method BlockOverrun, addr 0x25cd668, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BlockOverrun, addr 0x2600954, size 0x4, virtual false, abstract: false, final false
   static inline void BlockOverrun();
 
-  /// @brief Method BsFinishedWithStream, addr 0x25cca90, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BsFinishedWithStream, addr 0x25ffd7c, size 0xdc, virtual false, abstract: false, final false
   inline void BsFinishedWithStream();
 
-  /// @brief Method BsGetInt32, addr 0x25ccc24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BsGetInt32, addr 0x25fff10, size 0x4, virtual false, abstract: false, final false
   inline int32_t BsGetInt32();
 
-  /// @brief Method BsGetIntVS, addr 0x25cd6c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BsGetIntVS, addr 0x26009b4, size 0x4, virtual false, abstract: false, final false
   inline int32_t BsGetIntVS(int32_t numBits);
 
-  /// @brief Method BsGetUChar, addr 0x25cca7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method BsGetUChar, addr 0x25ffd68, size 0x14, virtual false, abstract: false, final false
   inline char16_t BsGetUChar();
 
-  /// @brief Method BsGetint, addr 0x25cd66c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BsGetint, addr 0x2600958, size 0x5c, virtual false, abstract: false, final false
   inline int32_t BsGetint();
 
-  /// @brief Method BsR, addr 0x25ccc28, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method BsR, addr 0x25fff14, size 0x108, virtual false, abstract: false, final false
   inline int32_t BsR(int32_t n);
 
-  /// @brief Method BsSetStream, addr 0x25cc25c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method BsSetStream, addr 0x25ff548, size 0xc, virtual false, abstract: false, final false
   inline void BsSetStream(::System::IO::Stream* f);
 
-  /// @brief Method Cadvise, addr 0x25cbf28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Cadvise, addr 0x25ff214, size 0x4, virtual false, abstract: false, final false
   static inline void Cadvise();
 
-  /// @brief Method Complete, addr 0x25ccbf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x25ffee4, size 0x28, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method CompressedStreamEOF, addr 0x25cbf2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompressedStreamEOF, addr 0x25ff218, size 0x4, virtual false, abstract: false, final false
   static inline void CompressedStreamEOF();
 
-  /// @brief Method CrcError, addr 0x25cd664, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CrcError, addr 0x2600950, size 0x4, virtual false, abstract: false, final false
   static inline void CrcError();
 
-  /// @brief Method EndBlock, addr 0x25cd62c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EndBlock, addr 0x2600918, size 0x2c, virtual false, abstract: false, final false
   inline void EndBlock();
 
-  /// @brief Method Flush, addr 0x25ce060, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x260134c, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetAndMoveToFrontDecode, addr 0x25ccd30, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method GetAndMoveToFrontDecode, addr 0x260001c, size 0x8f0, virtual false, abstract: false, final false
   inline void GetAndMoveToFrontDecode();
 
-  /// @brief Method HbCreateDecodeTables, addr 0x25cd6cc, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method HbCreateDecodeTables, addr 0x26009b8, size 0x200, virtual false, abstract: false, final false
   inline void HbCreateDecodeTables(::ArrayW<int32_t, ::Array<int32_t>*> limit, ::ArrayW<int32_t, ::Array<int32_t>*> basev, ::ArrayW<int32_t, ::Array<int32_t>*> perm,
                                    ::ArrayW<char16_t, ::Array<char16_t>*> length, int32_t minLen, int32_t maxLen, int32_t alphaSize);
 
-  /// @brief Method InitBlock, addr 0x25cc350, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x25ff63c, size 0x174, virtual false, abstract: false, final false
   inline void InitBlock();
 
-  /// @brief Method InitCharArray, addr 0x25cc690, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitCharArray, addr 0x25ff97c, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<::ArrayW<char16_t, ::Array<char16_t>*>, ::Array<::ArrayW<char16_t, ::Array<char16_t>*>>*> InitCharArray(int32_t n1, int32_t n2);
 
-  /// @brief Method InitIntArray, addr 0x25cc198, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitIntArray, addr 0x25ff484, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> InitIntArray(int32_t n1, int32_t n2);
 
-  /// @brief Method Initialize, addr 0x25cc268, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x25ff554, size 0xe8, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method MakeMaps, addr 0x25cbf30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MakeMaps, addr 0x25ff21c, size 0x8c, virtual false, abstract: false, final false
   inline void MakeMaps();
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream* New_ctor(::System::IO::Stream* zStream);
 
-  /// @brief Method Read, addr 0x25ce064, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2601350, size 0xa8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x25cc754, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x25ffa40, size 0x64, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method RecvDecodingTables, addr 0x25cd8cc, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method RecvDecodingTables, addr 0x2600bb8, size 0x4d4, virtual false, abstract: false, final false
   inline void RecvDecodingTables();
 
-  /// @brief Method Seek, addr 0x25ce10c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x26013f8, size 0x8, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetDecompressStructureSizes, addr 0x25ccb6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetDecompressStructureSizes, addr 0x25ffe58, size 0x8c, virtual false, abstract: false, final false
   inline void SetDecompressStructureSizes(int32_t newSize100k);
 
-  /// @brief Method SetLength, addr 0x25ce114, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2601400, size 0x4, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method SetupBlock, addr 0x25cc4c4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SetupBlock, addr 0x25ff7b0, size 0x1cc, virtual false, abstract: false, final false
   inline void SetupBlock();
 
-  /// @brief Method SetupNoRandPartA, addr 0x25cdf00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetupNoRandPartA, addr 0x26011ec, size 0xbc, virtual false, abstract: false, final false
   inline void SetupNoRandPartA();
 
-  /// @brief Method SetupNoRandPartB, addr 0x25cc970, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetupNoRandPartB, addr 0x25ffc5c, size 0xa8, virtual false, abstract: false, final false
   inline void SetupNoRandPartB();
 
-  /// @brief Method SetupNoRandPartC, addr 0x25cca18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetupNoRandPartC, addr 0x25ffd04, size 0x64, virtual false, abstract: false, final false
   inline void SetupNoRandPartC();
 
-  /// @brief Method SetupRandPartA, addr 0x25cdda0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetupRandPartA, addr 0x260108c, size 0x160, virtual false, abstract: false, final false
   inline void SetupRandPartA();
 
-  /// @brief Method SetupRandPartB, addr 0x25cc7b8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetupRandPartB, addr 0x25ffaa4, size 0x154, virtual false, abstract: false, final false
   inline void SetupRandPartB();
 
-  /// @brief Method SetupRandPartC, addr 0x25cc90c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetupRandPartC, addr 0x25ffbf8, size 0x64, virtual false, abstract: false, final false
   inline void SetupRandPartC();
 
-  /// @brief Method Write, addr 0x25ce118, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2601404, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& __cordl_internal_get_basev() const;
@@ -285,9 +283,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_bsLive();
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_bsStream();
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_bsStream() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_bsStream() const;
+  constexpr ::System::IO::Stream*& __cordl_internal_get_bsStream();
 
   constexpr int32_t const& __cordl_internal_get_ch2() const;
 
@@ -345,9 +343,9 @@ public:
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_ll8();
 
-  constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC*& __cordl_internal_get_mCrc();
+  constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC* const& __cordl_internal_get_mCrc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Apache::Bzip2::CRC*> const& __cordl_internal_get_mCrc() const;
+  constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC*& __cordl_internal_get_mCrc();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_minLens() const;
 
@@ -493,25 +491,25 @@ public:
 
   constexpr void __cordl_internal_set_z(char16_t value);
 
-  /// @brief Method .ctor, addr 0x25cbfbc, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff2a8, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* zStream);
 
-  /// @brief Method get_CanRead, addr 0x25ce11c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x2601408, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x25ce124, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x2601410, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x25ce12c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x2601418, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x25ce134, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2601420, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x25ce13c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2601428, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x25ce144, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x2601430, size 0x4, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -527,6 +525,30 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CBZip2InputStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CBZip2InputStream(CBZip2InputStream const&) = delete;
+
+  /// @brief Field NO_RAND_PART_A_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t NO_RAND_PART_A_STATE{ static_cast<int32_t>(0x5) };
+
+  /// @brief Field NO_RAND_PART_B_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t NO_RAND_PART_B_STATE{ static_cast<int32_t>(0x6) };
+
+  /// @brief Field NO_RAND_PART_C_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t NO_RAND_PART_C_STATE{ static_cast<int32_t>(0x7) };
+
+  /// @brief Field RAND_PART_A_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t RAND_PART_A_STATE{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field RAND_PART_B_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t RAND_PART_B_STATE{ static_cast<int32_t>(0x3) };
+
+  /// @brief Field RAND_PART_C_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t RAND_PART_C_STATE{ static_cast<int32_t>(0x4) };
+
+  /// @brief Field START_BLOCK_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t START_BLOCK_STATE{ static_cast<int32_t>(0x1) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1877 };
 
   /// @brief Field last, offset: 0x28, size: 0x4, def value: None
   int32_t ___last;
@@ -642,35 +664,9 @@ public:
   /// @brief Field z, offset: 0xf8, size: 0x2, def value: None
   char16_t ___z;
 
-  /// @brief Field NO_RAND_PART_A_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t NO_RAND_PART_A_STATE{ static_cast<int32_t>(0x5) };
-
-  /// @brief Field NO_RAND_PART_B_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t NO_RAND_PART_B_STATE{ static_cast<int32_t>(0x6) };
-
-  /// @brief Field NO_RAND_PART_C_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t NO_RAND_PART_C_STATE{ static_cast<int32_t>(0x7) };
-
-  /// @brief Field RAND_PART_A_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t RAND_PART_A_STATE{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field RAND_PART_B_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t RAND_PART_B_STATE{ static_cast<int32_t>(0x3) };
-
-  /// @brief Field RAND_PART_C_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t RAND_PART_C_STATE{ static_cast<int32_t>(0x4) };
-
-  /// @brief Field START_BLOCK_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t START_BLOCK_STATE{ static_cast<int32_t>(0x1) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1877 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, 0x100>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___last) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___origPtr) == 0x2c, "Offset mismatch!");
@@ -746,6 +742,8 @@ static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, __
 static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___j2) == 0xf4, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___z) == 0xf8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, 0x100>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Apache::Bzip2
 NEED_NO_BOX(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream);

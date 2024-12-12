@@ -16,23 +16,22 @@ class HEU_MeshIndexFormat;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshIndexFormat);
-// Type: HoudiniEngineUnity::HEU_MeshIndexFormat
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Rendering.IndexFormat
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_MeshIndexFormat*
+// CS Name: HoudiniEngineUnity.HEU_MeshIndexFormat
 class CORDL_TYPE HEU_MeshIndexFormat : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _indexFormat, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__indexFormat, put = __cordl_internal_set__indexFormat)) ::UnityEngine::Rendering::IndexFormat _indexFormat;
 
-  /// @brief Method CalculateIndexFormat, addr 0x3a2e964, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CalculateIndexFormat, addr 0x3a855d4, size 0x78, virtual false, abstract: false, final false
   inline void CalculateIndexFormat(int32_t numVertices);
 
   static inline ::HoudiniEngineUnity::HEU_MeshIndexFormat* New_ctor();
 
-  /// @brief Method SetFormatForMesh, addr 0x3a2e9dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetFormatForMesh, addr 0x3a8564c, size 0x24, virtual false, abstract: false, final false
   inline void SetFormatForMesh(::UnityEngine::Mesh* mesh);
 
   constexpr ::UnityEngine::Rendering::IndexFormat const& __cordl_internal_get__indexFormat() const;
@@ -41,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__indexFormat(::UnityEngine::Rendering::IndexFormat value);
 
-  /// @brief Method .ctor, addr 0x3a2ea00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a85670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_MeshIndexFormat(HEU_MeshIndexFormat const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11834 };
+
   /// @brief Field _indexFormat, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::IndexFormat ____indexFormat;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_MeshIndexFormat, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_MeshIndexFormat, ____indexFormat) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_MeshIndexFormat, 0x18>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_MeshIndexFormat);

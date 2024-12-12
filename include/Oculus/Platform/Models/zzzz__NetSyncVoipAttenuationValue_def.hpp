@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
-#include <cstdint>
 CORDL_MODULE_EXPORT(NetSyncVoipAttenuationValue)
 namespace System {
 struct IntPtr;
@@ -16,11 +15,10 @@ class NetSyncVoipAttenuationValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);
-// Type: Oculus.Platform.Models::NetSyncVoipAttenuationValue
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::NetSyncVoipAttenuationValue*
+// CS Name: Oculus.Platform.Models.NetSyncVoipAttenuationValue
 class CORDL_TYPE NetSyncVoipAttenuationValue : public ::System::Object {
 public:
   // Declarations
@@ -44,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_Distance(float_t value);
 
-  /// @brief Method .ctor, addr 0x3f31234, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f912e0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -61,23 +59,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetSyncVoipAttenuationValue(NetSyncVoipAttenuationValue const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15545 };
+
   /// @brief Field Decibels, offset: 0x10, size: 0x4, def value: None
   float_t ___Decibels;
 
   /// @brief Field Distance, offset: 0x14, size: 0x4, def value: None
   float_t ___Distance;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncVoipAttenuationValue, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::NetSyncVoipAttenuationValue, ___Decibels) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::NetSyncVoipAttenuationValue, ___Distance) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncVoipAttenuationValue, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);

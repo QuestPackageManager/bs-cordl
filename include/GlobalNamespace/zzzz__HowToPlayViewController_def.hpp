@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HowToPlayViewController)
 namespace GlobalNamespace {
-struct __HowToPlayViewController__HowToPlayOptions;
+struct HowToPlayViewController_HowToPlayOptions;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -18,33 +18,32 @@ class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __HowToPlayViewController__HowToPlayOptions;
+struct HowToPlayViewController_HowToPlayOptions;
 }
 namespace GlobalNamespace {
 class HowToPlayViewController;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions);
+MARK_VAL_T(::GlobalNamespace::HowToPlayViewController_HowToPlayOptions);
 MARK_REF_PTR_T(::GlobalNamespace::HowToPlayViewController);
-// Type: ::HowToPlayOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::HowToPlayViewController::HowToPlayOptions
-struct CORDL_TYPE __HowToPlayViewController__HowToPlayOptions {
+// CS Name: HowToPlayViewController/HowToPlayOptions
+struct CORDL_TYPE HowToPlayViewController_HowToPlayOptions {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HowToPlayViewController__HowToPlayOptions_Unwrapped
-  enum struct ____HowToPlayViewController__HowToPlayOptions_Unwrapped : int32_t {
+  /// @brief Nested struct __HowToPlayViewController_HowToPlayOptions_Unwrapped
+  enum struct __HowToPlayViewController_HowToPlayOptions_Unwrapped : int32_t {
     __E_HowToPlay = static_cast<int32_t>(0x0),
     __E_Credits = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HowToPlayViewController__HowToPlayOptions_Unwrapped() const noexcept {
-    return static_cast<____HowToPlayViewController__HowToPlayOptions_Unwrapped>(this->value__);
+  constexpr operator __HowToPlayViewController_HowToPlayOptions_Unwrapped() const noexcept {
+    return static_cast<__HowToPlayViewController_HowToPlayOptions_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -54,43 +53,42 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HowToPlayViewController__HowToPlayOptions();
+  constexpr HowToPlayViewController_HowToPlayOptions();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HowToPlayViewController__HowToPlayOptions(int32_t value__) noexcept;
+  constexpr HowToPlayViewController_HowToPlayOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Credits value: I32(1)
+  static ::GlobalNamespace::HowToPlayViewController_HowToPlayOptions const Credits;
 
-  /// @brief Field Credits value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions const Credits;
-
-  /// @brief Field HowToPlay value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions const HowToPlay;
+  /// @brief Field HowToPlay value: I32(0)
+  static ::GlobalNamespace::HowToPlayViewController_HowToPlayOptions const HowToPlay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4903 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::HowToPlayViewController_HowToPlayOptions, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::HowToPlayViewController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HowToPlayViewController*
+// CS Name: HowToPlayViewController
 class CORDL_TYPE HowToPlayViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using HowToPlayOptions = ::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions;
+  using HowToPlayOptions = ::GlobalNamespace::HowToPlayViewController_HowToPlayOptions;
 
   /// @brief Field _creditsButton, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__creditsButton, put = __cordl_internal_set__creditsButton)) ::UnityW<::UnityEngine::UI::Button> _creditsButton;
@@ -100,17 +98,17 @@ public:
 
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3bb49f0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c17b34, size 0x100, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HowToPlayViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x3bb4af8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x3c17c3c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
-  /// @brief Method <DidActivate>b__6_1, addr 0x3bb4b18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_1, addr 0x3c17c5c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__creditsButton() const;
@@ -121,24 +119,24 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__tutorialButton();
 
-  constexpr ::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>*> const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__creditsButton(::UnityW<::UnityEngine::UI::Button> value);
 
   constexpr void __cordl_internal_set__tutorialButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
-  /// @brief Method .ctor, addr 0x3bb4af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c17c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3bb4890, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
+  /// @brief Method add_didFinishEvent, addr 0x3c179d4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3bb4940, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
+  /// @brief Method remove_didFinishEvent, addr 0x3c17a84, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
 protected:
   // Ctor Parameters []
@@ -154,6 +152,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HowToPlayViewController(HowToPlayViewController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4904 };
+
   /// @brief Field _tutorialButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____tutorialButton;
 
@@ -161,23 +162,20 @@ public:
   ::UnityW<::UnityEngine::UI::Button> ____creditsButton;
 
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* ___didFinishEvent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4883 };
+  ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HowToPlayViewController, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HowToPlayViewController, ____tutorialButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HowToPlayViewController, ____creditsButton) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HowToPlayViewController, ___didFinishEvent) == 0x88, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HowToPlayViewController, 0x90>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HowToPlayViewController_HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");
 NEED_NO_BOX(::GlobalNamespace::HowToPlayViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HowToPlayViewController*, "", "HowToPlayViewController");

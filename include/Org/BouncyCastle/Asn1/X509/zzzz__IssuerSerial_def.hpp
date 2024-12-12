@@ -32,11 +32,10 @@ class IssuerSerial;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::IssuerSerial);
-// Type: Org.BouncyCastle.Asn1.X509::IssuerSerial
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::IssuerSerial*
+// CS Name: Org.BouncyCastle.Asn1.X509.IssuerSerial
 class CORDL_TYPE IssuerSerial : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -55,30 +54,30 @@ public:
   /// @brief Field serial, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_serial, put = __cordl_internal_set_serial)) ::Org::BouncyCastle::Asn1::DerInteger* serial;
 
-  /// @brief Method GetInstance, addr 0x25d37c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2606ab4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x25d44e0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x26077cc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuer, ::Org::BouncyCastle::Asn1::DerInteger* serial);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25d4858, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2607b44, size 0x170, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames* const& __cordl_internal_get_issuer() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_issuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_issuer() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString* const& __cordl_internal_get_issuerUid() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_issuerUid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_issuerUid() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_serial() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_serial();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_serial() const;
 
   constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
 
@@ -86,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_serial(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x25d4814, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2607b00, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuer, ::Org::BouncyCastle::Asn1::DerInteger* serial);
 
-  /// @brief Method .ctor, addr 0x25d465c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2607948, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Issuer, addr 0x25d4840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x2607b2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_Issuer();
 
-  /// @brief Method get_IssuerUid, addr 0x25d4850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerUid, addr 0x2607b3c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUid();
 
-  /// @brief Method get_Serial, addr 0x25d4848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Serial, addr 0x2607b34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Serial();
 
 protected:
@@ -115,6 +114,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IssuerSerial(IssuerSerial const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 366 };
+
   /// @brief Field issuer, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::GeneralNames* ___issuer;
 
@@ -124,19 +126,16 @@ public:
   /// @brief Field issuerUid, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBitString* ___issuerUid;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 366 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::IssuerSerial, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuerSerial, ___issuer) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuerSerial, ___serial) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuerSerial, ___issuerUid) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::IssuerSerial, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::IssuerSerial);

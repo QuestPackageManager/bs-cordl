@@ -11,20 +11,19 @@ class SimpleValueMissionObjectiveChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleValueMissionObjectiveChecker);
-// Type: ::SimpleValueMissionObjectiveChecker
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MissionObjectiveChecker
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SimpleValueMissionObjectiveChecker*
+// CS Name: SimpleValueMissionObjectiveChecker
 class CORDL_TYPE SimpleValueMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
   // Declarations
-  /// @brief Method CheckAndUpdateStatus, addr 0x3b4d4ac, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x3bb09d4, size 0xac, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
   static inline ::GlobalNamespace::SimpleValueMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b4d5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb0a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   SimpleValueMissionObjectiveChecker(SimpleValueMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

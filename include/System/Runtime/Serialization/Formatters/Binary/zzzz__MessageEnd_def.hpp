@@ -20,29 +20,28 @@ class MessageEnd;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MessageEnd);
-// Type: System.Runtime.Serialization.Formatters.Binary::MessageEnd
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::MessageEnd*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.MessageEnd
 class CORDL_TYPE MessageEnd : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Dump, addr 0x3ca0b90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3d00d04, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
-  /// @brief Method Dump, addr 0x3ca0b94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3d00d08, size 0x4, virtual false, abstract: false, final false
   inline void Dump(::System::IO::Stream* sout);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MessageEnd* New_ctor();
 
-  /// @brief Method Read, addr 0x3ca0b8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3d00d00, size 0x4, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Write, addr 0x3ca0b64, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3d00cd8, size 0x28, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method .ctor, addr 0x3ca0b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d00cd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

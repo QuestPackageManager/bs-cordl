@@ -32,11 +32,10 @@ class FlyingObjectEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingObjectEffect);
-// Type: ::FlyingObjectEffect
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingObjectEffect*
+// CS Name: FlyingObjectEffect
 class CORDL_TYPE FlyingObjectEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -82,20 +81,20 @@ public:
 
   __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method InitAndPresent, addr 0x3b1cdcc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x3b7df78, size 0xe8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ManualUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingObjectEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x3b1ceb4, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b7e060, size 0x3c8, virtual false, abstract: false, final false
   inline void Update();
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* const& __cordl_internal_get__didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*> const& __cordl_internal_get__didFinishEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
 
   constexpr float_t const& __cordl_internal_get__duration() const;
 
@@ -109,9 +108,9 @@ public:
 
   constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__moveAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__moveAnimationCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__moveAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__moveAnimationCurve();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotation() const;
 
@@ -133,9 +132,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__shakeStrength();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__shakeStrengthAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__shakeStrengthAnimationCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__shakeStrengthAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__shakeStrengthAnimationCurve();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
 
@@ -171,10 +170,10 @@ public:
 
   constexpr void __cordl_internal_set__targetPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b1d27c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7e428, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x3b1cdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x3b7df70, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -190,6 +189,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FlyingObjectEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingObjectEffect(FlyingObjectEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
 
   /// @brief Field _moveAnimationCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____moveAnimationCurve;
@@ -230,14 +232,9 @@ public:
   /// @brief Field _didFinishEvent, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* ____didFinishEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4199 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingObjectEffect, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____moveAnimationCurve) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeFrequency) == 0x28, "Offset mismatch!");
@@ -263,6 +260,8 @@ static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____duration) == 0
 static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shake) == 0x7c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____didFinishEvent) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingObjectEffect, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingObjectEffect);

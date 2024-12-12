@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::IdRefNode::*)(::System::Xml::Schema::IdRefNode*, ::StringW, int32_t, int32_t)>(
     &::System::Xml::Schema::IdRefNode::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4268008;
+  constexpr static std::size_t addrs = 0x42c931c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,16 +59,13 @@ constexpr ::System::Xml::Schema::IdRefNode*& System::Xml::Schema::IdRefNode::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::IdRefNode*> const& System::Xml::Schema::IdRefNode::__cordl_internal_get_Next() const {
+constexpr ::System::Xml::Schema::IdRefNode* const& System::Xml::Schema::IdRefNode::__cordl_internal_get_Next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr void System::Xml::Schema::IdRefNode::__cordl_internal_set_Next(::System::Xml::Schema::IdRefNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Schema::IdRefNode* System::Xml::Schema::IdRefNode::New_ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::IdRefNode*>(next, id, lineNo, linePos));
 }
 inline void System::Xml::Schema::IdRefNode::_ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,6 +74,9 @@ inline void System::Xml::Schema::IdRefNode::_ctor(::System::Xml::Schema::IdRefNo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, next, id, lineNo, linePos);
+}
+inline ::System::Xml::Schema::IdRefNode* System::Xml::Schema::IdRefNode::New_ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::IdRefNode*>(next, id, lineNo, linePos));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::IdRefNode::IdRefNode() {}

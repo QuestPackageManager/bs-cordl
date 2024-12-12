@@ -21,11 +21,10 @@ class RotateBySpawnRotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RotateBySpawnRotation);
-// Type: ::RotateBySpawnRotation
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RotateBySpawnRotation*
+// CS Name: RotateBySpawnRotation
 class CORDL_TYPE RotateBySpawnRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -52,34 +51,34 @@ public:
   /// @brief Field _targetRotation, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) float_t _targetRotation;
 
-  /// @brief Method FixedUpdate, addr 0x3b37dd8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b9931c, size 0x8c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b37d38, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b9927c, size 0xa0, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data);
 
-  /// @brief Method LateUpdate, addr 0x3b37e64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b993a8, size 0xc0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b37d1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b99260, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b37bdc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b99120, size 0x140, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
 
   constexpr float_t& __cordl_internal_get__aheadTime();
 
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr float_t const& __cordl_internal_get__currentRotation() const;
 
@@ -111,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b37f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b99468, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,6 +126,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RotateBySpawnRotation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RotateBySpawnRotation(RotateBySpawnRotation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4363 };
 
   /// @brief Field _aheadTime, offset: 0x20, size: 0x4, def value: None
   float_t ____aheadTime;
@@ -149,14 +151,9 @@ public:
   /// @brief Field _targetRotation, offset: 0x40, size: 0x4, def value: None
   float_t ____targetRotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4352 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RotateBySpawnRotation, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::RotateBySpawnRotation, ____aheadTime) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RotateBySpawnRotation, ____smooth) == 0x24, "Offset mismatch!");
@@ -170,6 +167,8 @@ static_assert(offsetof(::GlobalNamespace::RotateBySpawnRotation, ____currentRota
 static_assert(offsetof(::GlobalNamespace::RotateBySpawnRotation, ____prevRotation) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RotateBySpawnRotation, ____targetRotation) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RotateBySpawnRotation, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RotateBySpawnRotation);

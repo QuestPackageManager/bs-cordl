@@ -20,31 +20,30 @@ class XRSubsystemHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::XRSubsystemHelper);
-// Type: ::XRSubsystemHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::XRSubsystemHelper*
+// CS Name: XRSubsystemHelper
 class CORDL_TYPE XRSubsystemHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_displaySubsystemDescriptors, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_displaySubsystemDescriptors,
-                             put = setStaticF_s_displaySubsystemDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* s_displaySubsystemDescriptors;
+  __declspec(property(get = getStaticF_s_displaySubsystemDescriptors,
+                      put = setStaticF_s_displaySubsystemDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* s_displaySubsystemDescriptors;
 
   /// @brief Field s_displaySubsystems, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_displaySubsystems, put = setStaticF_s_displaySubsystems)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_displaySubsystems;
+  __declspec(property(get = getStaticF_s_displaySubsystems, put = setStaticF_s_displaySubsystems)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_displaySubsystems;
 
   /// @brief Field s_inputSubsystems, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_inputSubsystems, put = setStaticF_s_inputSubsystems)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* s_inputSubsystems;
+  __declspec(property(get = getStaticF_s_inputSubsystems, put = setStaticF_s_inputSubsystems)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* s_inputSubsystems;
 
-  /// @brief Method GetCurrentDisplaySubsystem, addr 0x397d47c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystem, addr 0x39d3d44, size 0x13c, virtual false, abstract: false, final false
   static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x397d5b8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x39d3e80, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  /// @brief Method GetCurrentInputSubsystem, addr 0x397d6ec, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInputSubsystem, addr 0x39d3fb4, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_displaySubsystemDescriptors();
@@ -74,7 +73,7 @@ public:
   XRSubsystemHelper(XRSubsystemHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,11 +13,10 @@ class BakedLightWithIdBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BakedLightWithIdBase);
-// Type: ::BakedLightWithIdBase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BakedLightWithIdBase*
+// CS Name: BakedLightWithIdBase
 class CORDL_TYPE BakedLightWithIdBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -25,13 +24,13 @@ public:
 
   static inline ::GlobalNamespace::BakedLightWithIdBase* New_ctor();
 
-  /// @brief Method SetupLightSource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetupLightSource, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetupLightSource(float_t intensityMultiplier);
 
-  /// @brief Method .ctor, addr 0x401e26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407f580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_id, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_id();
 
 protected:
@@ -49,7 +48,7 @@ public:
   BakedLightWithIdBase(BakedLightWithIdBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

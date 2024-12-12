@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BufferedLightColorGroupEffectManager)
 namespace GlobalNamespace {
 class BufferedLightColorGroupEffect;
@@ -24,11 +23,10 @@ class BufferedLightColorGroupEffectManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BufferedLightColorGroupEffectManager);
-// Type: ::BufferedLightColorGroupEffectManager
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BufferedLightColorGroupEffectManager*
+// CS Name: BufferedLightColorGroupEffectManager
 class CORDL_TYPE BufferedLightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -54,10 +52,10 @@ public:
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2a8a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8be38, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b2a6ec, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8bc84, size 0x1b4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> const&
@@ -65,9 +63,9 @@ public:
 
   constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*>& __cordl_internal_get__bufferedLightColorGroupEffects();
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> const& __cordl_internal_get__lightGroups() const;
 
@@ -88,7 +86,7 @@ public:
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b2a8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8be94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,6 +103,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4283 };
+
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> ____lightGroups;
 
@@ -117,14 +118,9 @@ public:
   /// @brief Field _bufferedLightColorGroupEffects, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> ____bufferedLightColorGroupEffects;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4272 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BufferedLightColorGroupEffectManager, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BufferedLightColorGroupEffectManager, ____lightGroups) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BufferedLightColorGroupEffectManager, ____materialPropertyBlockControllers) == 0x28, "Offset mismatch!");
@@ -132,6 +128,8 @@ static_assert(offsetof(::GlobalNamespace::BufferedLightColorGroupEffectManager, 
 static_assert(offsetof(::GlobalNamespace::BufferedLightColorGroupEffectManager, ____container) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BufferedLightColorGroupEffectManager, ____bufferedLightColorGroupEffects) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BufferedLightColorGroupEffectManager, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BufferedLightColorGroupEffectManager);

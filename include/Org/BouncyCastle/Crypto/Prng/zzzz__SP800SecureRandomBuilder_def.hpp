@@ -3,27 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__IDrbgProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SP800SecureRandomBuilder)
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
-class IDrbgProvider;
+class SP800SecureRandomBuilder_CtrDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class SP800SecureRandomBuilder_HMacDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class SP800SecureRandomBuilder_HashDrbgProvider;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
 class SP800SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__CtrDrbgProvider;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__HMacDrbgProvider;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__HashDrbgProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
@@ -48,25 +45,24 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class SP800SecureRandomBuilder;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__CtrDrbgProvider;
+class SP800SecureRandomBuilder_CtrDrbgProvider;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__HMacDrbgProvider;
+class SP800SecureRandomBuilder_HMacDrbgProvider;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
-class __SP800SecureRandomBuilder__HashDrbgProvider;
+class SP800SecureRandomBuilder_HashDrbgProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider);
-MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider);
-MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider);
-// Type: ::HashDrbgProvider
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider);
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider);
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider);
+// Dependencies Org.BouncyCastle.Crypto.Prng.IDrbgProvider, System.Object
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// CS Name: ::SP800SecureRandomBuilder::HashDrbgProvider*
-class CORDL_TYPE __SP800SecureRandomBuilder__HashDrbgProvider : public ::System::Object {
+// CS Name: Org.BouncyCastle.Crypto.Prng.SP800SecureRandomBuilder/HashDrbgProvider
+class CORDL_TYPE SP800SecureRandomBuilder_HashDrbgProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mDigest, offset 0x10, size 0x8
@@ -84,15 +80,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x2396d18, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x23ca004, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Get(::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  static inline ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
-                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
+  static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
+                                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
+
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_mDigest() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mDigest() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mNonce() const;
 
@@ -114,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2396984, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c9c70, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
@@ -123,16 +119,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SP800SecureRandomBuilder__HashDrbgProvider();
+  constexpr SP800SecureRandomBuilder_HashDrbgProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SP800SecureRandomBuilder__HashDrbgProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HashDrbgProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SP800SecureRandomBuilder__HashDrbgProvider(__SP800SecureRandomBuilder__HashDrbgProvider&&) = delete;
+  SP800SecureRandomBuilder_HashDrbgProvider(SP800SecureRandomBuilder_HashDrbgProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SP800SecureRandomBuilder__HashDrbgProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HashDrbgProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SP800SecureRandomBuilder__HashDrbgProvider(__SP800SecureRandomBuilder__HashDrbgProvider const&) = delete;
+  SP800SecureRandomBuilder_HashDrbgProvider(SP800SecureRandomBuilder_HashDrbgProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1113 };
 
   /// @brief Field mDigest, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___mDigest;
@@ -146,29 +145,25 @@ public:
   /// @brief Field mSecurityStrength, offset: 0x28, size: 0x4, def value: None
   int32_t ___mSecurityStrength;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1113 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider, 0x30>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider, ___mDigest) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider, ___mDigest) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider, ___mNonce) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider, ___mNonce) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider, ___mPersonalizationString) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider, ___mPersonalizationString) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider, ___mSecurityStrength) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider, ___mSecurityStrength) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
-// Type: ::HMacDrbgProvider
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Prng.IDrbgProvider, System.Object
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// CS Name: ::SP800SecureRandomBuilder::HMacDrbgProvider*
-class CORDL_TYPE __SP800SecureRandomBuilder__HMacDrbgProvider : public ::System::Object {
+// CS Name: Org.BouncyCastle.Crypto.Prng.SP800SecureRandomBuilder/HMacDrbgProvider
+class CORDL_TYPE SP800SecureRandomBuilder_HMacDrbgProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mHMac, offset 0x10, size 0x8
@@ -186,15 +181,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x2396da0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x23ca08c, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Get(::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  static inline ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
-                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
+  static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
+                                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
+
+  constexpr ::Org::BouncyCastle::Crypto::IMac* const& __cordl_internal_get_mHMac() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mHMac();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mHMac() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mNonce() const;
 
@@ -216,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2396cd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c9fc0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
@@ -225,16 +220,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SP800SecureRandomBuilder__HMacDrbgProvider();
+  constexpr SP800SecureRandomBuilder_HMacDrbgProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SP800SecureRandomBuilder__HMacDrbgProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HMacDrbgProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SP800SecureRandomBuilder__HMacDrbgProvider(__SP800SecureRandomBuilder__HMacDrbgProvider&&) = delete;
+  SP800SecureRandomBuilder_HMacDrbgProvider(SP800SecureRandomBuilder_HMacDrbgProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SP800SecureRandomBuilder__HMacDrbgProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HMacDrbgProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SP800SecureRandomBuilder__HMacDrbgProvider(__SP800SecureRandomBuilder__HMacDrbgProvider const&) = delete;
+  SP800SecureRandomBuilder_HMacDrbgProvider(SP800SecureRandomBuilder_HMacDrbgProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1114 };
 
   /// @brief Field mHMac, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IMac* ___mHMac;
@@ -248,29 +246,25 @@ public:
   /// @brief Field mSecurityStrength, offset: 0x28, size: 0x4, def value: None
   int32_t ___mSecurityStrength;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1114 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider, 0x30>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider, ___mHMac) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider, ___mHMac) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider, ___mNonce) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider, ___mNonce) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider, ___mPersonalizationString) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider, ___mPersonalizationString) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider, ___mSecurityStrength) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider, ___mSecurityStrength) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
-// Type: ::CtrDrbgProvider
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Prng.IDrbgProvider, System.Object
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// CS Name: ::SP800SecureRandomBuilder::CtrDrbgProvider*
-class CORDL_TYPE __SP800SecureRandomBuilder__CtrDrbgProvider : public ::System::Object {
+// CS Name: Org.BouncyCastle.Crypto.Prng.SP800SecureRandomBuilder/CtrDrbgProvider
+class CORDL_TYPE SP800SecureRandomBuilder_CtrDrbgProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mBlockCipher, offset 0x10, size 0x8
@@ -291,16 +285,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x2396e28, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x23ca114, size 0x90, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Get(::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  static inline ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* blockCipher, int32_t keySizeInBits,
-                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
-                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
+  static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* blockCipher, int32_t keySizeInBits,
+                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
+                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
+
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_mBlockCipher() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_mBlockCipher();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_mBlockCipher() const;
 
   constexpr int32_t const& __cordl_internal_get_mKeySizeInBits() const;
 
@@ -328,7 +322,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2396b28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c9e14, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
 
@@ -338,16 +332,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SP800SecureRandomBuilder__CtrDrbgProvider();
+  constexpr SP800SecureRandomBuilder_CtrDrbgProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SP800SecureRandomBuilder__CtrDrbgProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_CtrDrbgProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SP800SecureRandomBuilder__CtrDrbgProvider(__SP800SecureRandomBuilder__CtrDrbgProvider&&) = delete;
+  SP800SecureRandomBuilder_CtrDrbgProvider(SP800SecureRandomBuilder_CtrDrbgProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SP800SecureRandomBuilder__CtrDrbgProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_CtrDrbgProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SP800SecureRandomBuilder__CtrDrbgProvider(__SP800SecureRandomBuilder__CtrDrbgProvider const&) = delete;
+  SP800SecureRandomBuilder_CtrDrbgProvider(SP800SecureRandomBuilder_CtrDrbgProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1115 };
 
   /// @brief Field mBlockCipher, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IBlockCipher* ___mBlockCipher;
@@ -364,38 +361,34 @@ public:
   /// @brief Field mSecurityStrength, offset: 0x30, size: 0x4, def value: None
   int32_t ___mSecurityStrength;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1115 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider, 0x38>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider, ___mBlockCipher) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider, ___mBlockCipher) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider, ___mKeySizeInBits) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider, ___mKeySizeInBits) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider, ___mNonce) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider, ___mNonce) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider, ___mPersonalizationString) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider, ___mPersonalizationString) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider, ___mSecurityStrength) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider, ___mSecurityStrength) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
-// Type: Org.BouncyCastle.Crypto.Prng::SP800SecureRandomBuilder
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Prng::SP800SecureRandomBuilder*
+// CS Name: Org.BouncyCastle.Crypto.Prng.SP800SecureRandomBuilder
 class CORDL_TYPE SP800SecureRandomBuilder : public ::System::Object {
 public:
   // Declarations
-  using CtrDrbgProvider = ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider;
+  using CtrDrbgProvider = ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider;
 
-  using HMacDrbgProvider = ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider;
+  using HMacDrbgProvider = ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider;
 
-  using HashDrbgProvider = ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider;
+  using HashDrbgProvider = ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider;
 
   /// @brief Field mEntropyBitsRequired, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_mEntropyBitsRequired, put = __cordl_internal_set_mEntropyBitsRequired)) int32_t mEntropyBitsRequired;
@@ -413,14 +406,14 @@ public:
   /// @brief Field mSecurityStrength, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
-  /// @brief Method BuildCtr, addr 0x23969c8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method BuildCtr, addr 0x23c9cb4, size 0x160, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* BuildCtr(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t keySizeInBits, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
                                                                         bool predictionResistant);
 
-  /// @brief Method BuildHMac, addr 0x2396b7c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method BuildHMac, addr 0x23c9e68, size 0x158, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* BuildHMac(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, bool predictionResistant);
 
-  /// @brief Method BuildHash, addr 0x239682c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method BuildHash, addr 0x23c9b18, size 0x158, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* BuildHash(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, bool predictionResistant);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* New_ctor();
@@ -429,30 +422,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method SetEntropyBitsRequired, addr 0x2396824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEntropyBitsRequired, addr 0x23c9b10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* SetEntropyBitsRequired(int32_t entropyBitsRequired);
 
-  /// @brief Method SetPersonalizationString, addr 0x2396814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPersonalizationString, addr 0x23c9b00, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* SetPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString);
 
-  /// @brief Method SetSecurityStrength, addr 0x239681c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSecurityStrength, addr 0x23c9b08, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* SetSecurityStrength(int32_t securityStrength);
 
   constexpr int32_t const& __cordl_internal_get_mEntropyBitsRequired() const;
 
   constexpr int32_t& __cordl_internal_get_mEntropyBitsRequired();
 
-  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider*& __cordl_internal_get_mEntropySourceProvider();
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider* const& __cordl_internal_get_mEntropySourceProvider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySourceProvider*> const& __cordl_internal_get_mEntropySourceProvider() const;
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider*& __cordl_internal_get_mEntropySourceProvider();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPersonalizationString() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPersonalizationString();
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandom();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_mRandom() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mRandom() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandom();
 
   constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
@@ -468,13 +461,13 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23966f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c99e0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2396750, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c9a3c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
-  /// @brief Method .ctor, addr 0x23967e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c9acc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
 protected:
@@ -491,6 +484,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SP800SecureRandomBuilder(SP800SecureRandomBuilder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1116 };
+
   /// @brief Field mRandom, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___mRandom;
 
@@ -506,14 +502,9 @@ public:
   /// @brief Field mEntropyBitsRequired, offset: 0x2c, size: 0x4, def value: None
   int32_t ___mEntropyBitsRequired;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1116 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder, ___mRandom) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder, ___mEntropySourceProvider) == 0x18, "Offset mismatch!");
@@ -524,12 +515,14 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuild
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder, ___mEntropyBitsRequired) == 0x2c, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder, 0x30>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder*, "Org.BouncyCastle.Crypto.Prng", "SP800SecureRandomBuilder");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider*, "Org.BouncyCastle.Crypto.Prng", "SP800SecureRandomBuilder/CtrDrbgProvider");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider*, "Org.BouncyCastle.Crypto.Prng", "SP800SecureRandomBuilder/HMacDrbgProvider");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider*, "Org.BouncyCastle.Crypto.Prng", "SP800SecureRandomBuilder/HashDrbgProvider");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider*, "Org.BouncyCastle.Crypto.Prng", "SP800SecureRandomBuilder/CtrDrbgProvider");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider*, "Org.BouncyCastle.Crypto.Prng", "SP800SecureRandomBuilder/HMacDrbgProvider");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider*, "Org.BouncyCastle.Crypto.Prng", "SP800SecureRandomBuilder/HashDrbgProvider");

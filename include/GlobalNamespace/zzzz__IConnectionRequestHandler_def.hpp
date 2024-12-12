@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConnectionRequestHandler)
 namespace LiteNetLib::Utils {
@@ -18,30 +17,25 @@ class IConnectionRequestHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IConnectionRequestHandler);
-// Type: ::IConnectionRequestHandler
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IConnectionRequestHandler*
+// CS Name: IConnectionRequestHandler
 class CORDL_TYPE IConnectionRequestHandler {
 public:
   // Declarations
-  /// @brief Method GetConnectionMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetConnectionMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
-  /// @brief Method ValidateConnectionMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IConnectionRequestHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IConnectionRequestHandler(IConnectionRequestHandler&&) = delete;
+  /// @brief Method ValidateConnectionMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner);
 
   // Ctor Parameters [CppParam { name: "", ty: "IConnectionRequestHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IConnectionRequestHandler(IConnectionRequestHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14783 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,17 +11,16 @@ class XmlAnyAttributeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlAnyAttributeAttribute);
-// Type: System.Xml.Serialization::XmlAnyAttributeAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlAnyAttributeAttribute*
+// CS Name: System.Xml.Serialization.XmlAnyAttributeAttribute
 class CORDL_TYPE XmlAnyAttributeAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlAnyAttributeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x430b5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436c910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XmlAnyAttributeAttribute(XmlAnyAttributeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

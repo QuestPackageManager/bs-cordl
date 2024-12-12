@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__HMAC_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMACSHA256)
 // Forward declare root types
@@ -13,11 +12,10 @@ class HMACSHA256;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::HMACSHA256);
-// Type: System.Security.Cryptography::HMACSHA256
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.HMAC
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::HMACSHA256*
+// CS Name: System.Security.Cryptography.HMACSHA256
 class CORDL_TYPE HMACSHA256 : public ::System::Security::Cryptography::HMAC {
 public:
   // Declarations
@@ -25,10 +23,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA256* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x3c40108, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca027c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c4012c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca02a0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:

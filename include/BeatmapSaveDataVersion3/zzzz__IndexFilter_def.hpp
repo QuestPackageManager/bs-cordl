@@ -25,11 +25,10 @@ class IndexFilter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::IndexFilter);
-// Type: BeatmapSaveDataVersion3::IndexFilter
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.IndexFilterLimitAlsoAffectsType, BeatmapSaveDataCommon.IndexFilterRandomType, BeatmapSaveDataCommon.IndexFilterType, System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::IndexFilter*
+// CS Name: BeatmapSaveDataVersion3.IndexFilter
 class CORDL_TYPE IndexFilter : public ::System::Object {
 public:
   // Declarations
@@ -78,13 +77,13 @@ public:
 
   __declspec(property(get = get_type)) ::BeatmapSaveDataCommon::IndexFilterType type;
 
-  /// @brief Method CreateDivisionIndexFilter, addr 0x26d4484, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateDivisionIndexFilter, addr 0x2705df4, size 0x80, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataVersion3::IndexFilter* CreateDivisionIndexFilter(int32_t numberOfSections, int32_t divisionIdx, bool reversed);
 
-  /// @brief Method CreateForExtension, addr 0x26d4584, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateForExtension, addr 0x2705ef4, size 0x68, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataVersion3::IndexFilter* CreateForExtension();
 
-  /// @brief Method CreateStepFilter, addr 0x26d4504, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateStepFilter, addr 0x2705e74, size 0x80, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataVersion3::IndexFilter* CreateStepFilter(int32_t offset, int32_t step, bool reversed);
 
   static inline ::BeatmapSaveDataVersion3::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::IndexFilter* other);
@@ -147,38 +146,38 @@ public:
 
   constexpr void __cordl_internal_set_t(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d4430, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705da0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* other);
 
-  /// @brief Method .ctor, addr 0x26d43b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705d20, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::IndexFilterType type, int32_t param0, int32_t param1, bool reversed, ::BeatmapSaveDataCommon::IndexFilterRandomType random, int32_t seed, int32_t chunks,
                     float_t limit, ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType limitAlsoAffectsType);
 
-  /// @brief Method get_chunks, addr 0x26d4388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunks, addr 0x2705cf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunks();
 
-  /// @brief Method get_limit, addr 0x26d4390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x2705d00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_limit();
 
-  /// @brief Method get_limitAlsoAffectsType, addr 0x26d4398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limitAlsoAffectsType, addr 0x2705d08, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType get_limitAlsoAffectsType();
 
-  /// @brief Method get_param0, addr 0x26d4368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_param0, addr 0x2705cd8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_param0();
 
-  /// @brief Method get_param1, addr 0x26d4370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_param1, addr 0x2705ce0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_param1();
 
-  /// @brief Method get_random, addr 0x26d43a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_random, addr 0x2705d10, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::IndexFilterRandomType get_random();
 
-  /// @brief Method get_reversed, addr 0x26d4378, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_reversed, addr 0x2705ce8, size 0x10, virtual false, abstract: false, final false
   inline bool get_reversed();
 
-  /// @brief Method get_seed, addr 0x26d43a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_seed, addr 0x2705d18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_seed();
 
-  /// @brief Method get_type, addr 0x26d4360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x2705cd0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::IndexFilterType get_type();
 
 protected:
@@ -194,6 +193,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IndexFilter(IndexFilter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13405 };
 
   /// @brief Field f, offset: 0x10, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterType ___f;
@@ -222,14 +224,9 @@ public:
   /// @brief Field d, offset: 0x30, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType ___d;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13374 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::IndexFilter, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::IndexFilter, ___f) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::IndexFilter, ___p) == 0x14, "Offset mismatch!");
@@ -247,6 +244,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::IndexFilter, ___s) == 0x28, "O
 static_assert(offsetof(::BeatmapSaveDataVersion3::IndexFilter, ___l) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::IndexFilter, ___d) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::IndexFilter, 0x38>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::IndexFilter);

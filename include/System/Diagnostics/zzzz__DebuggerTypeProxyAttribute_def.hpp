@@ -15,11 +15,10 @@ class DebuggerTypeProxyAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::DebuggerTypeProxyAttribute);
-// Type: System.Diagnostics::DebuggerTypeProxyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::DebuggerTypeProxyAttribute*
+// CS Name: System.Diagnostics.DebuggerTypeProxyAttribute
 class CORDL_TYPE DebuggerTypeProxyAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d54e60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db4fd4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DebuggerTypeProxyAttribute(DebuggerTypeProxyAttribute const&) = delete;
 
-  /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___typeName;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3742 };
+
+  /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___typeName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerTypeProxyAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::DebuggerTypeProxyAttribute, ___typeName) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerTypeProxyAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::DebuggerTypeProxyAttribute);

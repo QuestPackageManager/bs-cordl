@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Net/HttpConnection.hpp"
-#include "System/Net/zzzz__HttpConnection_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpConnection_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
@@ -25,29 +24,29 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Net::__HttpConnection__InputState::__HttpConnection__InputState(int32_t value__) noexcept {
+constexpr ::System::Net::HttpConnection_InputState::HttpConnection_InputState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Net::__HttpConnection__InputState::__HttpConnection__InputState() {}
-constexpr ::System::Net::__HttpConnection__InputState System::Net::__HttpConnection__InputState::RequestLine{ static_cast<int32_t>(0x0) };
-constexpr ::System::Net::__HttpConnection__InputState System::Net::__HttpConnection__InputState::Headers{ static_cast<int32_t>(0x1) };
+constexpr ::System::Net::HttpConnection_InputState::HttpConnection_InputState() {}
+constexpr ::System::Net::HttpConnection_InputState System::Net::HttpConnection_InputState::RequestLine{ static_cast<int32_t>(0x0) };
+constexpr ::System::Net::HttpConnection_InputState System::Net::HttpConnection_InputState::Headers{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Net::__HttpConnection__LineState::__HttpConnection__LineState(int32_t value__) noexcept {
+constexpr ::System::Net::HttpConnection_LineState::HttpConnection_LineState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Net::__HttpConnection__LineState::__HttpConnection__LineState() {}
-constexpr ::System::Net::__HttpConnection__LineState System::Net::__HttpConnection__LineState::None{ static_cast<int32_t>(0x0) };
-constexpr ::System::Net::__HttpConnection__LineState System::Net::__HttpConnection__LineState::CR{ static_cast<int32_t>(0x1) };
-constexpr ::System::Net::__HttpConnection__LineState System::Net::__HttpConnection__LineState::LF{ static_cast<int32_t>(0x2) };
+constexpr ::System::Net::HttpConnection_LineState::HttpConnection_LineState() {}
+constexpr ::System::Net::HttpConnection_LineState System::Net::HttpConnection_LineState::None{ static_cast<int32_t>(0x0) };
+constexpr ::System::Net::HttpConnection_LineState System::Net::HttpConnection_LineState::CR{ static_cast<int32_t>(0x1) };
+constexpr ::System::Net::HttpConnection_LineState System::Net::HttpConnection_LineState::LF{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::System::Net::HttpConnection._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)(
     ::System::Net::Sockets::Socket*, ::System::Net::EndPointListener*, bool, ::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&::System::Net::HttpConnection::_ctor)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x445e530;
+  constexpr static std::size_t addrs = 0x44bf844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::Init)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4462328;
+  constexpr static std::size_t addrs = 0x44c363c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "Init",
@@ -77,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::get_Reuses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4462478;
+  constexpr static std::size_t addrs = 0x44c378c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "get_Reuses",
@@ -90,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::get_LocalEndPoint)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4462480;
+  constexpr static std::size_t addrs = 0x44c3794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "get_LocalEndPoint",
@@ -103,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::get_IsSecure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4462538;
+  constexpr static std::size_t addrs = 0x44c384c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "get_IsSecure",
@@ -117,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)(::System::Net::ListenerPrefix*)>(
     &::System::Net::HttpConnection::set_Prefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4462540;
+  constexpr static std::size_t addrs = 0x44c3854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)(::System::Object*)>(&::System::Net::HttpConnection::OnTimeout)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4462548;
+  constexpr static std::size_t addrs = 0x44c385c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::BeginReadRequest)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x445e77c;
+  constexpr static std::size_t addrs = 0x44bfa90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "BeginReadRequest",
@@ -159,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::RequestStream* (::System::Net::HttpConnection::*)(bool, int64_t)>(
     &::System::Net::HttpConnection::GetRequestStream)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4462694;
+  constexpr static std::size_t addrs = 0x44c39a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ResponseStream* (::System::Net::HttpConnection::*)()>(
     &::System::Net::HttpConnection::GetResponseStream)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x44627dc;
+  constexpr static std::size_t addrs = 0x44c3af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "GetResponseStream",
@@ -187,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::HttpConnection::OnRead)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x44628a4;
+  constexpr static std::size_t addrs = 0x44c3bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -201,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)(::System::IAsyncResult*)>(&::System::Net::HttpConnection::OnReadInternal)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x4462978;
+  constexpr static std::size_t addrs = 0x44c3c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::RemoveConnection)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x44635bc;
+  constexpr static std::size_t addrs = 0x44c48d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "RemoveConnection",
@@ -228,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpConnection::*)(::System::IO::MemoryStream*)>(&::System::Net::HttpConnection::ProcessInput)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x4462cd0;
+  constexpr static std::size_t addrs = 0x44c3fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,17 +239,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::HttpConnection.ReadLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpConnection::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<int32_t>)>(
-    &::System::Net::HttpConnection::ReadLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::StringW (::System::Net::HttpConnection::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ByRef<int32_t>)>(&::System::Net::HttpConnection::ReadLine)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x44639bc;
+  constexpr static std::size_t addrs = 0x44c4cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "ReadLine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -259,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)(::StringW, int32_t)>(&::System::Net::HttpConnection::SendError)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x445a3c4;
+  constexpr static std::size_t addrs = 0x44bb6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::SendError)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4462cb0;
+  constexpr static std::size_t addrs = 0x44c3fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "SendError",
@@ -286,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::Unbind)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4462664;
+  constexpr static std::size_t addrs = 0x44c3978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "Unbind",
@@ -299,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)()>(&::System::Net::HttpConnection::CloseSocket)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4462560;
+  constexpr static std::size_t addrs = 0x44c3874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "CloseSocket",
@@ -312,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpConnection::*)(bool)>(&::System::Net::HttpConnection::Close)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x4460014;
+  constexpr static std::size_t addrs = 0x44c1328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -328,7 +327,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(
     &::System::Net::HttpConnection::__ctor_b__24_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4464bec;
+  constexpr static std::size_t addrs = 0x44c5f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -344,7 +343,7 @@ constexpr ::System::Net::Sockets::Socket*& System::Net::HttpConnection::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sock;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& System::Net::HttpConnection::__cordl_internal_get_sock() const {
+constexpr ::System::Net::Sockets::Socket* const& System::Net::HttpConnection::__cordl_internal_get_sock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sock;
 }
@@ -356,7 +355,7 @@ constexpr ::System::IO::Stream*& System::Net::HttpConnection::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::HttpConnection::__cordl_internal_get_stream() const {
+constexpr ::System::IO::Stream* const& System::Net::HttpConnection::__cordl_internal_get_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
@@ -368,7 +367,7 @@ constexpr ::System::Net::EndPointListener*& System::Net::HttpConnection::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___epl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPointListener*> const& System::Net::HttpConnection::__cordl_internal_get_epl() const {
+constexpr ::System::Net::EndPointListener* const& System::Net::HttpConnection::__cordl_internal_get_epl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___epl;
 }
@@ -380,7 +379,7 @@ constexpr ::System::IO::MemoryStream*& System::Net::HttpConnection::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ms;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& System::Net::HttpConnection::__cordl_internal_get_ms() const {
+constexpr ::System::IO::MemoryStream* const& System::Net::HttpConnection::__cordl_internal_get_ms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ms;
 }
@@ -404,7 +403,7 @@ constexpr ::System::Net::HttpListenerContext*& System::Net::HttpConnection::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& System::Net::HttpConnection::__cordl_internal_get_context() const {
+constexpr ::System::Net::HttpListenerContext* const& System::Net::HttpConnection::__cordl_internal_get_context() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
@@ -416,7 +415,7 @@ constexpr ::System::Text::StringBuilder*& System::Net::HttpConnection::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current_line;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Net::HttpConnection::__cordl_internal_get_current_line() const {
+constexpr ::System::Text::StringBuilder* const& System::Net::HttpConnection::__cordl_internal_get_current_line() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current_line;
 }
@@ -428,7 +427,7 @@ constexpr ::System::Net::ListenerPrefix*& System::Net::HttpConnection::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerPrefix*> const& System::Net::HttpConnection::__cordl_internal_get_prefix() const {
+constexpr ::System::Net::ListenerPrefix* const& System::Net::HttpConnection::__cordl_internal_get_prefix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
@@ -440,7 +439,7 @@ constexpr ::System::Net::RequestStream*& System::Net::HttpConnection::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i_stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::RequestStream*> const& System::Net::HttpConnection::__cordl_internal_get_i_stream() const {
+constexpr ::System::Net::RequestStream* const& System::Net::HttpConnection::__cordl_internal_get_i_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i_stream;
 }
@@ -452,7 +451,7 @@ constexpr ::System::Net::ResponseStream*& System::Net::HttpConnection::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o_stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseStream*> const& System::Net::HttpConnection::__cordl_internal_get_o_stream() const {
+constexpr ::System::Net::ResponseStream* const& System::Net::HttpConnection::__cordl_internal_get_o_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o_stream;
 }
@@ -512,7 +511,7 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& System::Net::HttpConnection::__cordl_internal_get_cert() const {
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate* const& System::Net::HttpConnection::__cordl_internal_get_cert() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
@@ -536,7 +535,7 @@ constexpr ::System::Threading::Timer*& System::Net::HttpConnection::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& System::Net::HttpConnection::__cordl_internal_get_timer() const {
+constexpr ::System::Threading::Timer* const& System::Net::HttpConnection::__cordl_internal_get_timer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timer;
 }
@@ -548,7 +547,7 @@ constexpr ::System::Net::IPEndPoint*& System::Net::HttpConnection::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___local_ep;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& System::Net::HttpConnection::__cordl_internal_get_local_ep() const {
+constexpr ::System::Net::IPEndPoint* const& System::Net::HttpConnection::__cordl_internal_get_local_ep() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___local_ep;
 }
@@ -560,7 +559,7 @@ constexpr ::System::Net::HttpListener*& System::Net::HttpConnection::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_listener;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& System::Net::HttpConnection::__cordl_internal_get_last_listener() const {
+constexpr ::System::Net::HttpListener* const& System::Net::HttpConnection::__cordl_internal_get_last_listener() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_listener;
 }
@@ -584,7 +583,7 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*&
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___client_cert;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& System::Net::HttpConnection::__cordl_internal_get_client_cert() const {
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2* const& System::Net::HttpConnection::__cordl_internal_get_client_cert() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___client_cert;
 }
@@ -596,7 +595,7 @@ constexpr ::System::Net::Security::SslStream*& System::Net::HttpConnection::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ssl_stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& System::Net::HttpConnection::__cordl_internal_get_ssl_stream() const {
+constexpr ::System::Net::Security::SslStream* const& System::Net::HttpConnection::__cordl_internal_get_ssl_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ssl_stream;
 }
@@ -604,27 +603,27 @@ constexpr void System::Net::HttpConnection::__cordl_internal_set_ssl_stream(::Sy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ssl_stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Net::__HttpConnection__InputState& System::Net::HttpConnection::__cordl_internal_get_input_state() {
+constexpr ::System::Net::HttpConnection_InputState& System::Net::HttpConnection::__cordl_internal_get_input_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input_state;
 }
-constexpr ::System::Net::__HttpConnection__InputState const& System::Net::HttpConnection::__cordl_internal_get_input_state() const {
+constexpr ::System::Net::HttpConnection_InputState const& System::Net::HttpConnection::__cordl_internal_get_input_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input_state;
 }
-constexpr void System::Net::HttpConnection::__cordl_internal_set_input_state(::System::Net::__HttpConnection__InputState value) {
+constexpr void System::Net::HttpConnection::__cordl_internal_set_input_state(::System::Net::HttpConnection_InputState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___input_state = value;
 }
-constexpr ::System::Net::__HttpConnection__LineState& System::Net::HttpConnection::__cordl_internal_get_line_state() {
+constexpr ::System::Net::HttpConnection_LineState& System::Net::HttpConnection::__cordl_internal_get_line_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___line_state;
 }
-constexpr ::System::Net::__HttpConnection__LineState const& System::Net::HttpConnection::__cordl_internal_get_line_state() const {
+constexpr ::System::Net::HttpConnection_LineState const& System::Net::HttpConnection::__cordl_internal_get_line_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___line_state;
 }
-constexpr void System::Net::HttpConnection::__cordl_internal_set_line_state(::System::Net::__HttpConnection__LineState value) {
+constexpr void System::Net::HttpConnection::__cordl_internal_set_line_state(::System::Net::HttpConnection_LineState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___line_state = value;
 }
@@ -646,10 +645,6 @@ inline void System::Net::HttpConnection::setStaticF_onread_cb(::System::AsyncCal
 }
 inline ::System::AsyncCallback* System::Net::HttpConnection::getStaticF_onread_cb() {
   return ::cordl_internals::getStaticField<::System::AsyncCallback*, "onread_cb", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get>();
-}
-inline ::System::Net::HttpConnection* System::Net::HttpConnection::New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
-                                                                            ::System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpConnection*>(sock, epl, secure, cert));
 }
 inline void System::Net::HttpConnection::_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
                                                ::System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
@@ -732,12 +727,12 @@ inline bool System::Net::HttpConnection::ProcessInput(::System::IO::MemoryStream
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::MemoryStream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ms);
 }
-inline ::StringW System::Net::HttpConnection::ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ByRef<int32_t> used) {
+inline ::StringW System::Net::HttpConnection::ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ::ByRef<int32_t> used) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpConnection*>::get(), "ReadLine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, buffer, offset, len, used);
 }
 inline void System::Net::HttpConnection::SendError(::StringW msg, int32_t status) {
@@ -776,6 +771,10 @@ inline bool System::Net::HttpConnection::__ctor_b__24_0(::System::Object* t, ::S
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::X509Chain*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::SslPolicyErrors>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, t, c, ch, e);
+}
+inline ::System::Net::HttpConnection* System::Net::HttpConnection::New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
+                                                                            ::System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpConnection*>(sock, epl, secure, cert));
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpConnection::HttpConnection() {}

@@ -16,11 +16,10 @@ class InstalledApplication;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::InstalledApplication);
-// Type: Oculus.Platform.Models::InstalledApplication
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::InstalledApplication*
+// CS Name: Oculus.Platform.Models.InstalledApplication
 class CORDL_TYPE InstalledApplication : public ::System::Object {
 public:
   // Declarations
@@ -71,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_VersionName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f2fab8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8fb64, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -88,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InstalledApplication(InstalledApplication const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15519 };
+
   /// @brief Field ApplicationId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___ApplicationId;
 
@@ -103,14 +105,9 @@ public:
   /// @brief Field VersionName, offset: 0x30, size: 0x8, def value: None
   ::StringW ___VersionName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15484 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::InstalledApplication, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::InstalledApplication, ___ApplicationId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::InstalledApplication, ___PackageName) == 0x18, "Offset mismatch!");
@@ -120,6 +117,8 @@ static_assert(offsetof(::Oculus::Platform::Models::InstalledApplication, ___Stat
 static_assert(offsetof(::Oculus::Platform::Models::InstalledApplication, ___VersionCode) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::InstalledApplication, ___VersionName) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::InstalledApplication, 0x38>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::InstalledApplication);

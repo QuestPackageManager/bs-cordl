@@ -12,11 +12,10 @@ struct PeerState;
 }
 // Write type traits
 MARK_VAL_T(::ENet::PeerState);
-// Type: ENet::PeerState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace ENet {
 // Is value type: true
-// CS Name: ::ENet::PeerState
+// CS Name: ENet.PeerState
 struct CORDL_TYPE PeerState {
 public:
   // Declarations
@@ -54,54 +53,54 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr PeerState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AcknowledgingConnect value: static_cast<int32_t>(0x2)
+  /// @brief Field AcknowledgingConnect value: I32(2)
   static ::ENet::PeerState const AcknowledgingConnect;
 
-  /// @brief Field AcknowledgingDisconnect value: static_cast<int32_t>(0x8)
+  /// @brief Field AcknowledgingDisconnect value: I32(8)
   static ::ENet::PeerState const AcknowledgingDisconnect;
 
-  /// @brief Field Connected value: static_cast<int32_t>(0x5)
+  /// @brief Field Connected value: I32(5)
   static ::ENet::PeerState const Connected;
 
-  /// @brief Field Connecting value: static_cast<int32_t>(0x1)
+  /// @brief Field Connecting value: I32(1)
   static ::ENet::PeerState const Connecting;
 
-  /// @brief Field ConnectionPending value: static_cast<int32_t>(0x3)
+  /// @brief Field ConnectionPending value: I32(3)
   static ::ENet::PeerState const ConnectionPending;
 
-  /// @brief Field ConnectionSucceeded value: static_cast<int32_t>(0x4)
+  /// @brief Field ConnectionSucceeded value: I32(4)
   static ::ENet::PeerState const ConnectionSucceeded;
 
-  /// @brief Field DisconnectLater value: static_cast<int32_t>(0x6)
+  /// @brief Field DisconnectLater value: I32(6)
   static ::ENet::PeerState const DisconnectLater;
 
-  /// @brief Field Disconnected value: static_cast<int32_t>(0x0)
+  /// @brief Field Disconnected value: I32(0)
   static ::ENet::PeerState const Disconnected;
 
-  /// @brief Field Disconnecting value: static_cast<int32_t>(0x7)
+  /// @brief Field Disconnecting value: I32(7)
   static ::ENet::PeerState const Disconnecting;
 
-  /// @brief Field Uninitialized value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field Uninitialized value: I32(-1)
   static ::ENet::PeerState const Uninitialized;
 
-  /// @brief Field Zombie value: static_cast<int32_t>(0x9)
+  /// @brief Field Zombie value: I32(9)
   static ::ENet::PeerState const Zombie;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17727 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ENet::PeerState, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::ENet::PeerState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::ENet::PeerState, 0x4>, "Size mismatch!");
 
 } // namespace ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::PeerState, "ENet", "PeerState");

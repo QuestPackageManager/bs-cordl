@@ -39,11 +39,10 @@ class PkiStatusInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo);
-// Type: Org.BouncyCastle.Asn1.Cmp::PkiStatusInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiStatusInfo*
+// CS Name: Org.BouncyCastle.Asn1.Cmp.PkiStatusInfo
 class CORDL_TYPE PkiStatusInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -62,10 +61,10 @@ public:
   /// @brief Field statusString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_statusString, put = __cordl_internal_set_statusString)) ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString;
 
-  /// @brief Method GetInstance, addr 0x22c7230, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22fa51c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x22bf8a4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22f2b90, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -77,20 +76,20 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString,
                                                                         ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* failInfo);
 
-  /// @brief Method ToAsn1Object, addr 0x22c7560, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22fa84c, size 0x170, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString* const& __cordl_internal_get_failInfo() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_failInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_failInfo() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_status() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_status();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_status() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* const& __cordl_internal_get_statusString() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*& __cordl_internal_get_statusString();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*> const& __cordl_internal_get_statusString() const;
 
   constexpr void __cordl_internal_set_failInfo(::Org::BouncyCastle::Asn1::DerBitString* value);
 
@@ -98,25 +97,25 @@ public:
 
   constexpr void __cordl_internal_set_statusString(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* value);
 
-  /// @brief Method .ctor, addr 0x22c7248, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa534, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x22c73c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa6ac, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t status);
 
-  /// @brief Method .ctor, addr 0x22c7434, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa720, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString);
 
-  /// @brief Method .ctor, addr 0x22c74ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa798, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString, ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* failInfo);
 
-  /// @brief Method get_FailInfo, addr 0x22c7558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FailInfo, addr 0x22fa844, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_FailInfo();
 
-  /// @brief Method get_Status, addr 0x22c7534, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x22fa820, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Status();
 
-  /// @brief Method get_StatusString, addr 0x22c7550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusString, addr 0x22fa83c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_StatusString();
 
 protected:
@@ -133,6 +132,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkiStatusInfo(PkiStatusInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 43 };
+
   /// @brief Field status, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___status;
 
@@ -142,19 +144,16 @@ public:
   /// @brief Field failInfo, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBitString* ___failInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 43 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, ___status) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, ___statusString) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, ___failInfo) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo);

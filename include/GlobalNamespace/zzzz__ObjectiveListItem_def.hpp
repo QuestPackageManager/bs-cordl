@@ -15,11 +15,10 @@ class ObjectiveListItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItem);
-// Type: ::ObjectiveListItem
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ObjectiveListItem*
+// CS Name: ObjectiveListItem
 class CORDL_TYPE ObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -49,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b0f3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6f480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_conditionText, addr 0x3b0f388, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x3b6f428, size 0x24, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideCondition, addr 0x3b0f3ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideCondition, addr 0x3b6f44c, size 0x34, virtual false, abstract: false, final false
   inline void set_hideCondition(bool value);
 
-  /// @brief Method set_title, addr 0x3b0f364, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x3b6f404, size 0x24, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
 protected:
@@ -75,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectiveListItem(ObjectiveListItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5390 };
+
   /// @brief Field _titleText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
   /// @brief Field _conditionText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5366 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectiveListItem, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ObjectiveListItem, ____titleText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ObjectiveListItem, ____conditionText) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectiveListItem, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObjectiveListItem);

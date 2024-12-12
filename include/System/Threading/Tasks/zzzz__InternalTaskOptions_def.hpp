@@ -12,11 +12,10 @@ struct InternalTaskOptions;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::InternalTaskOptions);
-// Type: System.Threading.Tasks::InternalTaskOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
-// CS Name: ::System.Threading.Tasks::InternalTaskOptions
+// CS Name: System.Threading.Tasks.InternalTaskOptions
 struct CORDL_TYPE InternalTaskOptions {
 public:
   // Declarations
@@ -50,28 +49,25 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr InternalTaskOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ContinuationTask value: static_cast<int32_t>(0x200)
+  /// @brief Field ContinuationTask value: I32(512)
   static ::System::Threading::Tasks::InternalTaskOptions const ContinuationTask;
 
-  /// @brief Field DoNotDispose value: static_cast<int32_t>(0x4000)
+  /// @brief Field DoNotDispose value: I32(16384)
   static ::System::Threading::Tasks::InternalTaskOptions const DoNotDispose;
 
-  /// @brief Field InternalOptionsMask value: static_cast<int32_t>(0xff00)
+  /// @brief Field InternalOptionsMask value: I32(65280)
   static ::System::Threading::Tasks::InternalTaskOptions const InternalOptionsMask;
 
-  /// @brief Field LazyCancellation value: static_cast<int32_t>(0x1000)
+  /// @brief Field LazyCancellation value: I32(4096)
   static ::System::Threading::Tasks::InternalTaskOptions const LazyCancellation;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Threading::Tasks::InternalTaskOptions const None;
 
-  /// @brief Field PromiseTask value: static_cast<int32_t>(0x400)
+  /// @brief Field PromiseTask value: I32(1024)
   static ::System::Threading::Tasks::InternalTaskOptions const PromiseTask;
 
-  /// @brief Field QueuedByRuntime value: static_cast<int32_t>(0x2000)
+  /// @brief Field QueuedByRuntime value: I32(8192)
   static ::System::Threading::Tasks::InternalTaskOptions const QueuedByRuntime;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,12 +76,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::InternalTaskOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::Tasks::InternalTaskOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::InternalTaskOptions, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::InternalTaskOptions, "System.Threading.Tasks", "InternalTaskOptions");

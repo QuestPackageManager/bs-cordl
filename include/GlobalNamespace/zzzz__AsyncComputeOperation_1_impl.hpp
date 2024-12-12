@@ -9,8 +9,7 @@ template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tcs;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& GlobalNamespace::AsyncComputeOperation_1<T>::__cordl_internal_get__tcs() const {
+template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>* const& GlobalNamespace::AsyncComputeOperation_1<T>::__cordl_internal_get__tcs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tcs;
 }
@@ -22,9 +21,6 @@ template <typename T> inline ::System::Threading::Tasks::Task_1<T>* GlobalNamesp
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeOperation_1<T>*>::get(), "get_task",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___internal_method);
-}
-template <typename T> inline ::GlobalNamespace::AsyncComputeOperation_1<T>* GlobalNamespace::AsyncComputeOperation_1<T>::New_ctor(int32_t timeoutMs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AsyncComputeOperation_1<T>*>(timeoutMs));
 }
 template <typename T> inline void GlobalNamespace::AsyncComputeOperation_1<T>::_ctor(int32_t timeoutMs) {
   static auto* ___internal_method =
@@ -69,6 +65,9 @@ template <typename T> inline void GlobalNamespace::AsyncComputeOperation_1<T>::F
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeOperation_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::AsyncComputeOperation_1<T>* GlobalNamespace::AsyncComputeOperation_1<T>::New_ctor(int32_t timeoutMs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AsyncComputeOperation_1<T>*>(timeoutMs));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::AsyncComputeOperation_1<T>::AsyncComputeOperation_1() {}

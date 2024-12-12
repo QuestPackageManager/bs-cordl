@@ -9,107 +9,107 @@
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::HMUI::__ScrollViewItemsVisibilityController____c._ctor
+//  Writing Method size for method: ::HMUI::ScrollViewItemsVisibilityController___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ScrollViewItemsVisibilityController____c::*)()>(
-    &::HMUI::__ScrollViewItemsVisibilityController____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollViewItemsVisibilityController___c::*)()>(
+    &::HMUI::ScrollViewItemsVisibilityController___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a6354;
+  constexpr static std::size_t addrs = 0x39fcfc4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollViewItemsVisibilityController____c._Start_b__11_0
+//  Writing Method size for method: ::HMUI::ScrollViewItemsVisibilityController___c._Start_b__11_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::__ScrollViewItemsVisibilityController____c::*)(
-    ::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*)>(&::HMUI::__ScrollViewItemsVisibilityController____c::_Start_b__11_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollViewItemsVisibilityController___c::*)(
+    ::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>*)>(&::HMUI::ScrollViewItemsVisibilityController___c::_Start_b__11_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39a635c;
+  constexpr static std::size_t addrs = 0x39fcfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollViewItemsVisibilityController____c._Start_b__11_1
+//  Writing Method size for method: ::HMUI::ScrollViewItemsVisibilityController___c._Start_b__11_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::__ScrollViewItemsVisibilityController____c::*)(
-    ::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*)>(&::HMUI::__ScrollViewItemsVisibilityController____c::_Start_b__11_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollViewItemsVisibilityController___c::*)(
+    ::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>*)>(&::HMUI::ScrollViewItemsVisibilityController___c::_Start_b__11_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39a63a0;
+  constexpr static std::size_t addrs = 0x39fd010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get(), "<Start>b__11_1", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get(), "<Start>b__11_1", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>*>::get() })));
     return ___internal_method;
   }
 };
-inline void HMUI::__ScrollViewItemsVisibilityController____c::setStaticF___9(::HMUI::__ScrollViewItemsVisibilityController____c* value) {
-  ::cordl_internals::setStaticField<::HMUI::__ScrollViewItemsVisibilityController____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get>(
-      std::forward<::HMUI::__ScrollViewItemsVisibilityController____c*>(value));
+inline void HMUI::ScrollViewItemsVisibilityController___c::setStaticF___9(::HMUI::ScrollViewItemsVisibilityController___c* value) {
+  ::cordl_internals::setStaticField<::HMUI::ScrollViewItemsVisibilityController___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get>(
+      std::forward<::HMUI::ScrollViewItemsVisibilityController___c*>(value));
 }
-inline ::HMUI::__ScrollViewItemsVisibilityController____c* HMUI::__ScrollViewItemsVisibilityController____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::HMUI::__ScrollViewItemsVisibilityController____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get>();
+inline ::HMUI::ScrollViewItemsVisibilityController___c* HMUI::ScrollViewItemsVisibilityController___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::HMUI::ScrollViewItemsVisibilityController___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get>();
 }
 inline void
-HMUI::__ScrollViewItemsVisibilityController____c::setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value) {
+HMUI::ScrollViewItemsVisibilityController___c::setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>*, "<>9__11_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get>(
       std::forward<::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>*>(value));
 }
-inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* HMUI::__ScrollViewItemsVisibilityController____c::getStaticF___9__11_0() {
+inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* HMUI::ScrollViewItemsVisibilityController___c::getStaticF___9__11_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>*, "<>9__11_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get>();
 }
 inline void
-HMUI::__ScrollViewItemsVisibilityController____c::setStaticF___9__11_1(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value) {
+HMUI::ScrollViewItemsVisibilityController___c::setStaticF___9__11_1(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>*, "<>9__11_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get>(
       std::forward<::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>*>(value));
 }
-inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* HMUI::__ScrollViewItemsVisibilityController____c::getStaticF___9__11_1() {
+inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* HMUI::ScrollViewItemsVisibilityController___c::getStaticF___9__11_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>*, "<>9__11_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get>();
 }
-inline ::HMUI::__ScrollViewItemsVisibilityController____c* HMUI::__ScrollViewItemsVisibilityController____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ScrollViewItemsVisibilityController____c*>());
-}
-inline void HMUI::__ScrollViewItemsVisibilityController____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void HMUI::ScrollViewItemsVisibilityController___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline float_t HMUI::__ScrollViewItemsVisibilityController____c::_Start_b__11_0(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item) {
+inline float_t HMUI::ScrollViewItemsVisibilityController___c::_Start_b__11_0(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>* item) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, item);
 }
-inline float_t HMUI::__ScrollViewItemsVisibilityController____c::_Start_b__11_1(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item) {
+inline float_t HMUI::ScrollViewItemsVisibilityController___c::_Start_b__11_1(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>* item) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollViewItemsVisibilityController____c*>::get(), "<Start>b__11_1", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController___c*>::get(), "<Start>b__11_1", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, item);
+}
+inline ::HMUI::ScrollViewItemsVisibilityController___c* HMUI::ScrollViewItemsVisibilityController___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollViewItemsVisibilityController___c*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollViewItemsVisibilityController____c::__ScrollViewItemsVisibilityController____c() {}
+constexpr ::HMUI::ScrollViewItemsVisibilityController___c::ScrollViewItemsVisibilityController___c() {}
 //  Writing Method size for method: ::HMUI::ScrollViewItemsVisibilityController.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollViewItemsVisibilityController::*)()>(&::HMUI::ScrollViewItemsVisibilityController::Start)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x39a5a10;
+  constexpr static std::size_t addrs = 0x39fc680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController*>::get(), "Start",
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollViewItemsVisibilityController::*)()>(&::HMUI::ScrollViewItemsVisibilityController::Update)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39a6058;
+  constexpr static std::size_t addrs = 0x39fccc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController*>::get(), "Update",
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollViewItemsVisibilityController::*)(float_t)>(
     &::HMUI::ScrollViewItemsVisibilityController::UpdateVisibilityUpDirection)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x39a5eb0;
+  constexpr static std::size_t addrs = 0x39fcb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollViewItemsVisibilityController::*)(float_t)>(
     &::HMUI::ScrollViewItemsVisibilityController::UpdateVisibilityDownDirection)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x39a60f4;
+  constexpr static std::size_t addrs = 0x39fcd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollViewItemsVisibilityController::*)()>(&::HMUI::ScrollViewItemsVisibilityController::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39a62a0;
+  constexpr static std::size_t addrs = 0x39fcf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController*>::get(), ".ctor",
@@ -342,13 +342,13 @@ inline void HMUI::ScrollViewItemsVisibilityController::UpdateVisibilityDownDirec
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newContentAnchoredPositionY);
 }
-inline ::HMUI::ScrollViewItemsVisibilityController* HMUI::ScrollViewItemsVisibilityController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollViewItemsVisibilityController*>());
-}
 inline void HMUI::ScrollViewItemsVisibilityController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollViewItemsVisibilityController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::ScrollViewItemsVisibilityController* HMUI::ScrollViewItemsVisibilityController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollViewItemsVisibilityController*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScrollViewItemsVisibilityController::ScrollViewItemsVisibilityController() {}

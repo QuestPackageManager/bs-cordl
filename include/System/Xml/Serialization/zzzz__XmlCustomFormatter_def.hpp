@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlCustomFormatter)
@@ -20,30 +19,29 @@ class XmlCustomFormatter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlCustomFormatter);
-// Type: System.Xml.Serialization::XmlCustomFormatter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlCustomFormatter*
+// CS Name: System.Xml.Serialization.XmlCustomFormatter
 class CORDL_TYPE XmlCustomFormatter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field allTimeFormats, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_allTimeFormats, put = setStaticF_allTimeFormats)) ::ArrayW<::StringW, ::Array<::StringW>*> allTimeFormats;
+  __declspec(property(get = getStaticF_allTimeFormats, put = setStaticF_allTimeFormats)) ::ArrayW<::StringW, ::Array<::StringW>*> allTimeFormats;
 
-  /// @brief Method FromEnum, addr 0x430eb08, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method FromEnum, addr 0x436fe1c, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW FromEnum(int64_t value, ::ArrayW<::StringW, ::Array<::StringW>*> values, ::ArrayW<int64_t, ::Array<int64_t>*> ids, ::StringW typeName);
 
-  /// @brief Method FromXmlNCName, addr 0x430ede4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlNCName, addr 0x43700f8, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlNCName(::StringW ncName);
 
-  /// @brief Method FromXmlName, addr 0x430ed8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlName, addr 0x43700a0, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlName(::StringW name);
 
-  /// @brief Method FromXmlString, addr 0x430ee3c, size 0xb1c, virtual false, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x4370150, size 0xb1c, virtual false, abstract: false, final false
   static inline ::System::Object* FromXmlString(::System::Xml::Serialization::TypeData* type, ::StringW value);
 
-  /// @brief Method ToXmlString, addr 0x430d74c, size 0xdb4, virtual false, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x436ea60, size 0xdb4, virtual false, abstract: false, final false
   static inline ::StringW ToXmlString(::System::Xml::Serialization::TypeData* type, ::System::Object* value);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_allTimeFormats();
@@ -65,7 +63,7 @@ public:
   XmlCustomFormatter(XmlCustomFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

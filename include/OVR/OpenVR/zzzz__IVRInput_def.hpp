@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -22,6 +20,60 @@ struct EVRSkeletalMotionRange;
 }
 namespace OVR::OpenVR {
 struct EVRSkeletalTransformSpace;
+}
+namespace OVR::OpenVR {
+class IVRInput__DecompressSkeletalBoneData;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetActionHandle;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetActionOrigins;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetActionSetHandle;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetAnalogActionData;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetDigitalActionData;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetInputSourceHandle;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetOriginLocalizedName;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetOriginTrackedDeviceInfo;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetPoseActionData;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetSkeletalActionData;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetSkeletalBoneDataCompressed;
+}
+namespace OVR::OpenVR {
+class IVRInput__GetSkeletalBoneData;
+}
+namespace OVR::OpenVR {
+class IVRInput__SetActionManifestPath;
+}
+namespace OVR::OpenVR {
+class IVRInput__ShowActionOrigins;
+}
+namespace OVR::OpenVR {
+class IVRInput__ShowBindingsForActionSet;
+}
+namespace OVR::OpenVR {
+class IVRInput__TriggerHapticVibrationAction;
+}
+namespace OVR::OpenVR {
+class IVRInput__UpdateActionState;
 }
 namespace OVR::OpenVR {
 struct InputAnalogActionData_t;
@@ -44,60 +96,6 @@ struct VRActiveActionSet_t;
 namespace OVR::OpenVR {
 struct VRBoneTransform_t;
 }
-namespace OVR::OpenVR {
-class __IVRInput___DecompressSkeletalBoneData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetActionHandle;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetActionOrigins;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetActionSetHandle;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetAnalogActionData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetDigitalActionData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetInputSourceHandle;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetOriginLocalizedName;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetOriginTrackedDeviceInfo;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetPoseActionData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalActionData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalBoneDataCompressed;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalBoneData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___SetActionManifestPath;
-}
-namespace OVR::OpenVR {
-class __IVRInput___ShowActionOrigins;
-}
-namespace OVR::OpenVR {
-class __IVRInput___ShowBindingsForActionSet;
-}
-namespace OVR::OpenVR {
-class __IVRInput___TriggerHapticVibrationAction;
-}
-namespace OVR::OpenVR {
-class __IVRInput___UpdateActionState;
-}
 namespace System::Text {
 class StringBuilder;
 }
@@ -115,1051 +113,1031 @@ class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
-class __IVRInput___DecompressSkeletalBoneData;
+class IVRInput__DecompressSkeletalBoneData;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetActionHandle;
+class IVRInput__GetActionHandle;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetActionOrigins;
+class IVRInput__GetActionOrigins;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetActionSetHandle;
+class IVRInput__GetActionSetHandle;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetAnalogActionData;
+class IVRInput__GetAnalogActionData;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetDigitalActionData;
+class IVRInput__GetDigitalActionData;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetInputSourceHandle;
+class IVRInput__GetInputSourceHandle;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetOriginLocalizedName;
+class IVRInput__GetOriginLocalizedName;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetOriginTrackedDeviceInfo;
+class IVRInput__GetOriginTrackedDeviceInfo;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetPoseActionData;
+class IVRInput__GetPoseActionData;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalActionData;
+class IVRInput__GetSkeletalActionData;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalBoneData;
+class IVRInput__GetSkeletalBoneData;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalBoneDataCompressed;
+class IVRInput__GetSkeletalBoneDataCompressed;
 }
 namespace OVR::OpenVR {
-class __IVRInput___SetActionManifestPath;
+class IVRInput__SetActionManifestPath;
 }
 namespace OVR::OpenVR {
-class __IVRInput___ShowActionOrigins;
+class IVRInput__ShowActionOrigins;
 }
 namespace OVR::OpenVR {
-class __IVRInput___ShowBindingsForActionSet;
+class IVRInput__ShowBindingsForActionSet;
 }
 namespace OVR::OpenVR {
-class __IVRInput___TriggerHapticVibrationAction;
+class IVRInput__TriggerHapticVibrationAction;
 }
 namespace OVR::OpenVR {
-class __IVRInput___UpdateActionState;
+class IVRInput__UpdateActionState;
 }
 namespace OVR::OpenVR {
 struct IVRInput;
 }
 // Write type traits
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetActionHandle);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetActionOrigins);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetActionSetHandle);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetAnalogActionData);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetDigitalActionData);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetInputSourceHandle);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetOriginLocalizedName);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetPoseActionData);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetSkeletalActionData);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetSkeletalBoneData);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___SetActionManifestPath);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___ShowActionOrigins);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRInput___UpdateActionState);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetActionHandle);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetActionOrigins);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetActionSetHandle);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetAnalogActionData);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetDigitalActionData);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetInputSourceHandle);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetOriginLocalizedName);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetPoseActionData);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetSkeletalActionData);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetSkeletalBoneData);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__SetActionManifestPath);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__ShowActionOrigins);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__ShowBindingsForActionSet);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRInput__UpdateActionState);
 MARK_VAL_T(::OVR::OpenVR::IVRInput);
-// Type: ::_SetActionManifestPath
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_SetActionManifestPath*
-class CORDL_TYPE __IVRInput___SetActionManifestPath : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_SetActionManifestPath
+class CORDL_TYPE IVRInput__SetActionManifestPath : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400cd68, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406ce14, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionManifestPath, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400cd88, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ce34, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400cd54, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406ce00, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionManifestPath);
 
-  static inline ::OVR::OpenVR::__IVRInput___SetActionManifestPath* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__SetActionManifestPath* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400ccb8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406cd64, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___SetActionManifestPath();
+  constexpr IVRInput__SetActionManifestPath();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___SetActionManifestPath", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__SetActionManifestPath", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___SetActionManifestPath(__IVRInput___SetActionManifestPath&&) = delete;
+  IVRInput__SetActionManifestPath(IVRInput__SetActionManifestPath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___SetActionManifestPath", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__SetActionManifestPath", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___SetActionManifestPath(__IVRInput___SetActionManifestPath const&) = delete;
+  IVRInput__SetActionManifestPath(IVRInput__SetActionManifestPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___SetActionManifestPath, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__SetActionManifestPath, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetActionSetHandle
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetActionSetHandle*
-class CORDL_TYPE __IVRInput___GetActionSetHandle : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetActionSetHandle
+class CORDL_TYPE IVRInput__GetActionSetHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400ce64, size 0x94, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionSetName, ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x406cf10, size 0x94, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionSetName, ::ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400cef8, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406cfa4, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400ce50, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionSetName, ByRef<uint64_t> pHandle);
+  /// @brief Method Invoke, addr 0x406cefc, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionSetName, ::ByRef<uint64_t> pHandle);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetActionSetHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetActionSetHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400cdb0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ce5c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetActionSetHandle();
+  constexpr IVRInput__GetActionSetHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetActionSetHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionSetHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetActionSetHandle(__IVRInput___GetActionSetHandle&&) = delete;
+  IVRInput__GetActionSetHandle(IVRInput__GetActionSetHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetActionSetHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionSetHandle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetActionSetHandle(__IVRInput___GetActionSetHandle const&) = delete;
+  IVRInput__GetActionSetHandle(IVRInput__GetActionSetHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetActionSetHandle, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetActionSetHandle, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetActionHandle
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetActionHandle*
-class CORDL_TYPE __IVRInput___GetActionHandle : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetActionHandle
+class CORDL_TYPE IVRInput__GetActionHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400cfd8, size 0x94, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionName, ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x406d084, size 0x94, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchActionName, ::ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400d06c, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406d118, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400cfc4, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionName, ByRef<uint64_t> pHandle);
+  /// @brief Method Invoke, addr 0x406d070, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchActionName, ::ByRef<uint64_t> pHandle);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetActionHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetActionHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400cf24, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406cfd0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetActionHandle();
+  constexpr IVRInput__GetActionHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetActionHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetActionHandle(__IVRInput___GetActionHandle&&) = delete;
+  IVRInput__GetActionHandle(IVRInput__GetActionHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetActionHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionHandle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetActionHandle(__IVRInput___GetActionHandle const&) = delete;
+  IVRInput__GetActionHandle(IVRInput__GetActionHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetActionHandle, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetActionHandle, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetInputSourceHandle
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetInputSourceHandle*
-class CORDL_TYPE __IVRInput___GetInputSourceHandle : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetInputSourceHandle
+class CORDL_TYPE IVRInput__GetInputSourceHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400d14c, size 0x94, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchInputSourcePath, ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x406d1f8, size 0x94, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchInputSourcePath, ::ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400d1e0, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406d28c, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400d138, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchInputSourcePath, ByRef<uint64_t> pHandle);
+  /// @brief Method Invoke, addr 0x406d1e4, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(::StringW pchInputSourcePath, ::ByRef<uint64_t> pHandle);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetInputSourceHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetInputSourceHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400d098, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406d144, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetInputSourceHandle();
+  constexpr IVRInput__GetInputSourceHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetInputSourceHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetInputSourceHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetInputSourceHandle(__IVRInput___GetInputSourceHandle&&) = delete;
+  IVRInput__GetInputSourceHandle(IVRInput__GetInputSourceHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetInputSourceHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetInputSourceHandle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetInputSourceHandle(__IVRInput___GetInputSourceHandle const&) = delete;
+  IVRInput__GetInputSourceHandle(IVRInput__GetInputSourceHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetInputSourceHandle, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetInputSourceHandle, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_UpdateActionState
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_UpdateActionState*
-class CORDL_TYPE __IVRInput___UpdateActionState : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_UpdateActionState
+class CORDL_TYPE IVRInput__UpdateActionState : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400d2c0, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
+  /// @brief Method BeginInvoke, addr 0x406d36c, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400d368, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406d414, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400d2ac, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
+  /// @brief Method Invoke, addr 0x406d358, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(::ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount);
 
-  static inline ::OVR::OpenVR::__IVRInput___UpdateActionState* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__UpdateActionState* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400d20c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406d2b8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___UpdateActionState();
+  constexpr IVRInput__UpdateActionState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___UpdateActionState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__UpdateActionState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___UpdateActionState(__IVRInput___UpdateActionState&&) = delete;
+  IVRInput__UpdateActionState(IVRInput__UpdateActionState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___UpdateActionState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__UpdateActionState", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___UpdateActionState(__IVRInput___UpdateActionState const&) = delete;
+  IVRInput__UpdateActionState(IVRInput__UpdateActionState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8839 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___UpdateActionState, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__UpdateActionState, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetDigitalActionData
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetDigitalActionData*
-class CORDL_TYPE __IVRInput___GetDigitalActionData : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetDigitalActionData
+class CORDL_TYPE IVRInput__GetDigitalActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400d430, size 0x108, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
+  /// @brief Method BeginInvoke, addr 0x406d4dc, size 0x108, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400d538, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406d5e4, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400d41c, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
+  /// @brief Method Invoke, addr 0x406d4c8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetDigitalActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetDigitalActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400d390, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406d43c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetDigitalActionData();
+  constexpr IVRInput__GetDigitalActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetDigitalActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetDigitalActionData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetDigitalActionData(__IVRInput___GetDigitalActionData&&) = delete;
+  IVRInput__GetDigitalActionData(IVRInput__GetDigitalActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetDigitalActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetDigitalActionData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetDigitalActionData(__IVRInput___GetDigitalActionData const&) = delete;
+  IVRInput__GetDigitalActionData(IVRInput__GetDigitalActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetDigitalActionData, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetDigitalActionData, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetAnalogActionData
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetAnalogActionData*
-class CORDL_TYPE __IVRInput___GetAnalogActionData : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetAnalogActionData
+class CORDL_TYPE IVRInput__GetAnalogActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400d604, size 0x108, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
+  /// @brief Method BeginInvoke, addr 0x406d6b0, size 0x108, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400d70c, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406d7b8, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400d5f0, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
+  /// @brief Method Invoke, addr 0x406d69c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetAnalogActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetAnalogActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400d564, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406d610, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetAnalogActionData();
+  constexpr IVRInput__GetAnalogActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetAnalogActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetAnalogActionData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetAnalogActionData(__IVRInput___GetAnalogActionData&&) = delete;
+  IVRInput__GetAnalogActionData(IVRInput__GetAnalogActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetAnalogActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetAnalogActionData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetAnalogActionData(__IVRInput___GetAnalogActionData const&) = delete;
+  IVRInput__GetAnalogActionData(IVRInput__GetAnalogActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetAnalogActionData, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetAnalogActionData, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetPoseActionData
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetPoseActionData*
-class CORDL_TYPE __IVRInput___GetPoseActionData : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetPoseActionData
+class CORDL_TYPE IVRInput__GetPoseActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400d7d8, size 0x16c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsFromNow, ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData,
-                                             uint32_t unActionDataSize, uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x406d884, size 0x16c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsFromNow,
+                                             ::ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400d944, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406d9f0, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400d7c4, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsFromNow, ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData,
-                                             uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
+  /// @brief Method Invoke, addr 0x406d870, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsFromNow,
+                                             ::ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetPoseActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetPoseActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400d738, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406d7e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetPoseActionData();
+  constexpr IVRInput__GetPoseActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetPoseActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetPoseActionData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetPoseActionData(__IVRInput___GetPoseActionData&&) = delete;
+  IVRInput__GetPoseActionData(IVRInput__GetPoseActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetPoseActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetPoseActionData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetPoseActionData(__IVRInput___GetPoseActionData const&) = delete;
+  IVRInput__GetPoseActionData(IVRInput__GetPoseActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetPoseActionData, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetPoseActionData, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetSkeletalActionData
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetSkeletalActionData*
-class CORDL_TYPE __IVRInput___GetSkeletalActionData : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetSkeletalActionData
+class CORDL_TYPE IVRInput__GetSkeletalActionData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400da10, size 0x108, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
+  /// @brief Method BeginInvoke, addr 0x406dabc, size 0x108, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400db18, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406dbc4, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400d9fc, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
+  /// @brief Method Invoke, addr 0x406daa8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetSkeletalActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetSkeletalActionData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400d970, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406da1c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetSkeletalActionData();
+  constexpr IVRInput__GetSkeletalActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetSkeletalActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalActionData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetSkeletalActionData(__IVRInput___GetSkeletalActionData&&) = delete;
+  IVRInput__GetSkeletalActionData(IVRInput__GetSkeletalActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetSkeletalActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalActionData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetSkeletalActionData(__IVRInput___GetSkeletalActionData const&) = delete;
+  IVRInput__GetSkeletalActionData(IVRInput__GetSkeletalActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetSkeletalActionData, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetSkeletalActionData, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetSkeletalBoneData
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetSkeletalBoneData*
-class CORDL_TYPE __IVRInput___GetSkeletalBoneData : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetSkeletalBoneData
+class CORDL_TYPE IVRInput__GetSkeletalBoneData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400dbe4, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406dc90, size 0x13c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
-                                             ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
+                                             ::ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
                                              uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400dd20, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ddcc, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400dbd0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406dc7c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
-                                             ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
+                                             ::ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
                                              uint64_t ulRestrictToDevice);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetSkeletalBoneData* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetSkeletalBoneData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400db44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406dbf0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetSkeletalBoneData();
+  constexpr IVRInput__GetSkeletalBoneData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetSkeletalBoneData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetSkeletalBoneData(__IVRInput___GetSkeletalBoneData&&) = delete;
+  IVRInput__GetSkeletalBoneData(IVRInput__GetSkeletalBoneData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetSkeletalBoneData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetSkeletalBoneData(__IVRInput___GetSkeletalBoneData const&) = delete;
+  IVRInput__GetSkeletalBoneData(IVRInput__GetSkeletalBoneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetSkeletalBoneData, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetSkeletalBoneData, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetSkeletalBoneDataCompressed
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetSkeletalBoneDataCompressed*
-class CORDL_TYPE __IVRInput___GetSkeletalBoneDataCompressed : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetSkeletalBoneDataCompressed
+class CORDL_TYPE IVRInput__GetSkeletalBoneDataCompressed : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400ddec, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406de98, size 0x178, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
-                                             ::System::IntPtr pvCompressedData, uint32_t unCompressedSize, ByRef<uint32_t> punRequiredCompressedSize, uint64_t ulRestrictToDevice,
+                                             ::System::IntPtr pvCompressedData, uint32_t unCompressedSize, ::ByRef<uint32_t> punRequiredCompressedSize, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400df64, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint32_t> punRequiredCompressedSize, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406e010, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<uint32_t> punRequiredCompressedSize, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400ddd4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406de80, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
-                                             ::System::IntPtr pvCompressedData, uint32_t unCompressedSize, ByRef<uint32_t> punRequiredCompressedSize, uint64_t ulRestrictToDevice);
+                                             ::System::IntPtr pvCompressedData, uint32_t unCompressedSize, ::ByRef<uint32_t> punRequiredCompressedSize, uint64_t ulRestrictToDevice);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400dd48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ddf4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetSkeletalBoneDataCompressed();
+  constexpr IVRInput__GetSkeletalBoneDataCompressed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetSkeletalBoneDataCompressed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneDataCompressed", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetSkeletalBoneDataCompressed(__IVRInput___GetSkeletalBoneDataCompressed&&) = delete;
+  IVRInput__GetSkeletalBoneDataCompressed(IVRInput__GetSkeletalBoneDataCompressed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetSkeletalBoneDataCompressed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneDataCompressed", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetSkeletalBoneDataCompressed(__IVRInput___GetSkeletalBoneDataCompressed const&) = delete;
+  IVRInput__GetSkeletalBoneDataCompressed(IVRInput__GetSkeletalBoneDataCompressed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_DecompressSkeletalBoneData
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_DecompressSkeletalBoneData*
-class CORDL_TYPE __IVRInput___DecompressSkeletalBoneData : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_DecompressSkeletalBoneData
+class CORDL_TYPE IVRInput__DecompressSkeletalBoneData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400e030, size 0x10c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pvCompressedBuffer, uint32_t unCompressedBufferSize, ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
-                                             ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
+  /// @brief Method BeginInvoke, addr 0x406e0dc, size 0x10c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pvCompressedBuffer, uint32_t unCompressedBufferSize, ::ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
+                                             ::ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400e13c, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406e1e8, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400e01c, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(::System::IntPtr pvCompressedBuffer, uint32_t unCompressedBufferSize, ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
-                                             ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount);
+  /// @brief Method Invoke, addr 0x406e0c8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(::System::IntPtr pvCompressedBuffer, uint32_t unCompressedBufferSize, ::ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
+                                             ::ByRef<::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*>> pTransformArray, uint32_t unTransformArrayCount);
 
-  static inline ::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400df90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406e03c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___DecompressSkeletalBoneData();
+  constexpr IVRInput__DecompressSkeletalBoneData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___DecompressSkeletalBoneData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__DecompressSkeletalBoneData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___DecompressSkeletalBoneData(__IVRInput___DecompressSkeletalBoneData&&) = delete;
+  IVRInput__DecompressSkeletalBoneData(IVRInput__DecompressSkeletalBoneData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___DecompressSkeletalBoneData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__DecompressSkeletalBoneData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___DecompressSkeletalBoneData(__IVRInput___DecompressSkeletalBoneData const&) = delete;
+  IVRInput__DecompressSkeletalBoneData(IVRInput__DecompressSkeletalBoneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_TriggerHapticVibrationAction
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_TriggerHapticVibrationAction*
-class CORDL_TYPE __IVRInput___TriggerHapticVibrationAction : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_TriggerHapticVibrationAction
+class CORDL_TYPE IVRInput__TriggerHapticVibrationAction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400e208, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406e2b4, size 0x118, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t action, float_t fStartSecondsFromNow, float_t fDurationSeconds, float_t fFrequency, float_t fAmplitude, uint64_t ulRestrictToDevice,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400e320, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406e3cc, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400e1f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406e2a0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t action, float_t fStartSecondsFromNow, float_t fDurationSeconds, float_t fFrequency, float_t fAmplitude, uint64_t ulRestrictToDevice);
 
-  static inline ::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400e168, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406e214, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___TriggerHapticVibrationAction();
+  constexpr IVRInput__TriggerHapticVibrationAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___TriggerHapticVibrationAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__TriggerHapticVibrationAction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___TriggerHapticVibrationAction(__IVRInput___TriggerHapticVibrationAction&&) = delete;
+  IVRInput__TriggerHapticVibrationAction(IVRInput__TriggerHapticVibrationAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___TriggerHapticVibrationAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__TriggerHapticVibrationAction", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___TriggerHapticVibrationAction(__IVRInput___TriggerHapticVibrationAction const&) = delete;
+  IVRInput__TriggerHapticVibrationAction(IVRInput__TriggerHapticVibrationAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetActionOrigins
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetActionOrigins*
-class CORDL_TYPE __IVRInput___GetActionOrigins : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetActionOrigins
+class CORDL_TYPE IVRInput__GetActionOrigins : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400e3e8, size 0xd8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ByRef<::ArrayW<uint64_t, ::Array<uint64_t>*>> originsOut, uint32_t originOutCount,
+  /// @brief Method BeginInvoke, addr 0x406e494, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::ByRef<::ArrayW<uint64_t, ::Array<uint64_t>*>> originsOut, uint32_t originOutCount,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400e4c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406e56c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400e3d4, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ByRef<::ArrayW<uint64_t, ::Array<uint64_t>*>> originsOut, uint32_t originOutCount);
+  /// @brief Method Invoke, addr 0x406e480, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::ByRef<::ArrayW<uint64_t, ::Array<uint64_t>*>> originsOut, uint32_t originOutCount);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetActionOrigins* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetActionOrigins* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400e348, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406e3f4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetActionOrigins();
+  constexpr IVRInput__GetActionOrigins();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetActionOrigins", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionOrigins", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetActionOrigins(__IVRInput___GetActionOrigins&&) = delete;
+  IVRInput__GetActionOrigins(IVRInput__GetActionOrigins&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetActionOrigins", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionOrigins", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetActionOrigins(__IVRInput___GetActionOrigins const&) = delete;
+  IVRInput__GetActionOrigins(IVRInput__GetActionOrigins const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetActionOrigins, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetActionOrigins, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetOriginLocalizedName
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetOriginLocalizedName*
-class CORDL_TYPE __IVRInput___GetOriginLocalizedName : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetOriginLocalizedName
+class CORDL_TYPE IVRInput__GetOriginLocalizedName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400e588, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406e634, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t origin, ::System::Text::StringBuilder* pchNameArray, uint32_t unNameArraySize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400e648, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406e6f4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400e574, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406e620, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t origin, ::System::Text::StringBuilder* pchNameArray, uint32_t unNameArraySize);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetOriginLocalizedName* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetOriginLocalizedName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400e4e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406e594, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetOriginLocalizedName();
+  constexpr IVRInput__GetOriginLocalizedName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetOriginLocalizedName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginLocalizedName", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetOriginLocalizedName(__IVRInput___GetOriginLocalizedName&&) = delete;
+  IVRInput__GetOriginLocalizedName(IVRInput__GetOriginLocalizedName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetOriginLocalizedName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginLocalizedName", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetOriginLocalizedName(__IVRInput___GetOriginLocalizedName const&) = delete;
+  IVRInput__GetOriginLocalizedName(IVRInput__GetOriginLocalizedName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetOriginLocalizedName, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetOriginLocalizedName, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetOriginTrackedDeviceInfo
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_GetOriginTrackedDeviceInfo*
-class CORDL_TYPE __IVRInput___GetOriginTrackedDeviceInfo : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_GetOriginTrackedDeviceInfo
+class CORDL_TYPE IVRInput__GetOriginTrackedDeviceInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400e710, size 0xec, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint64_t origin, ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint32_t unOriginInfoSize, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406e7bc, size 0xec, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t origin, ::ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint32_t unOriginInfoSize, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400e7fc, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError EndInvoke(ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406e8a8, size 0x2c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError EndInvoke(::ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400e6fc, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t origin, ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint32_t unOriginInfoSize);
+  /// @brief Method Invoke, addr 0x406e7a8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t origin, ::ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint32_t unOriginInfoSize);
 
-  static inline ::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400e670, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406e71c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___GetOriginTrackedDeviceInfo();
+  constexpr IVRInput__GetOriginTrackedDeviceInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetOriginTrackedDeviceInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginTrackedDeviceInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___GetOriginTrackedDeviceInfo(__IVRInput___GetOriginTrackedDeviceInfo&&) = delete;
+  IVRInput__GetOriginTrackedDeviceInfo(IVRInput__GetOriginTrackedDeviceInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___GetOriginTrackedDeviceInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginTrackedDeviceInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___GetOriginTrackedDeviceInfo(__IVRInput___GetOriginTrackedDeviceInfo const&) = delete;
+  IVRInput__GetOriginTrackedDeviceInfo(IVRInput__GetOriginTrackedDeviceInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_ShowActionOrigins
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_ShowActionOrigins*
-class CORDL_TYPE __IVRInput___ShowActionOrigins : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_ShowActionOrigins
+class CORDL_TYPE IVRInput__ShowActionOrigins : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400e8c8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406e974, size 0x9c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t actionSetHandle, uint64_t ulActionHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400e964, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ea10, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400e8b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406e960, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError Invoke(uint64_t actionSetHandle, uint64_t ulActionHandle);
 
-  static inline ::OVR::OpenVR::__IVRInput___ShowActionOrigins* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__ShowActionOrigins* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400e828, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406e8d4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___ShowActionOrigins();
+  constexpr IVRInput__ShowActionOrigins();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___ShowActionOrigins", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowActionOrigins", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___ShowActionOrigins(__IVRInput___ShowActionOrigins&&) = delete;
+  IVRInput__ShowActionOrigins(IVRInput__ShowActionOrigins&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___ShowActionOrigins", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowActionOrigins", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___ShowActionOrigins(__IVRInput___ShowActionOrigins const&) = delete;
+  IVRInput__ShowActionOrigins(IVRInput__ShowActionOrigins const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___ShowActionOrigins, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__ShowActionOrigins, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_ShowBindingsForActionSet
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRInput::_ShowBindingsForActionSet*
-class CORDL_TYPE __IVRInput___ShowBindingsForActionSet : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRInput/_ShowBindingsForActionSet
+class CORDL_TYPE IVRInput__ShowBindingsForActionSet : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400ea40, size 0xd8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
+  /// @brief Method BeginInvoke, addr 0x406eaec, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount, uint64_t originToHighlight, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400eb18, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ebc4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400ea2c, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRInputError Invoke(ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
+  /// @brief Method Invoke, addr 0x406ead8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRInputError Invoke(::ByRef<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                              uint32_t unSetCount, uint64_t originToHighlight);
 
-  static inline ::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRInput__ShowBindingsForActionSet* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400e98c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ea38, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRInput___ShowBindingsForActionSet();
+  constexpr IVRInput__ShowBindingsForActionSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___ShowBindingsForActionSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowBindingsForActionSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRInput___ShowBindingsForActionSet(__IVRInput___ShowBindingsForActionSet&&) = delete;
+  IVRInput__ShowBindingsForActionSet(IVRInput__ShowBindingsForActionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRInput___ShowBindingsForActionSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowBindingsForActionSet", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRInput___ShowBindingsForActionSet(__IVRInput___ShowBindingsForActionSet const&) = delete;
+  IVRInput__ShowBindingsForActionSet(IVRInput__ShowBindingsForActionSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput__ShowBindingsForActionSet, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: OVR.OpenVR::IVRInput
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::IVRInput
+// CS Name: OVR.OpenVR.IVRInput
 struct CORDL_TYPE IVRInput {
 public:
   // Declarations
-  using _DecompressSkeletalBoneData = ::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData;
+  using _DecompressSkeletalBoneData = ::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData;
 
-  using _GetActionHandle = ::OVR::OpenVR::__IVRInput___GetActionHandle;
+  using _GetActionHandle = ::OVR::OpenVR::IVRInput__GetActionHandle;
 
-  using _GetActionOrigins = ::OVR::OpenVR::__IVRInput___GetActionOrigins;
+  using _GetActionOrigins = ::OVR::OpenVR::IVRInput__GetActionOrigins;
 
-  using _GetActionSetHandle = ::OVR::OpenVR::__IVRInput___GetActionSetHandle;
+  using _GetActionSetHandle = ::OVR::OpenVR::IVRInput__GetActionSetHandle;
 
-  using _GetAnalogActionData = ::OVR::OpenVR::__IVRInput___GetAnalogActionData;
+  using _GetAnalogActionData = ::OVR::OpenVR::IVRInput__GetAnalogActionData;
 
-  using _GetDigitalActionData = ::OVR::OpenVR::__IVRInput___GetDigitalActionData;
+  using _GetDigitalActionData = ::OVR::OpenVR::IVRInput__GetDigitalActionData;
 
-  using _GetInputSourceHandle = ::OVR::OpenVR::__IVRInput___GetInputSourceHandle;
+  using _GetInputSourceHandle = ::OVR::OpenVR::IVRInput__GetInputSourceHandle;
 
-  using _GetOriginLocalizedName = ::OVR::OpenVR::__IVRInput___GetOriginLocalizedName;
+  using _GetOriginLocalizedName = ::OVR::OpenVR::IVRInput__GetOriginLocalizedName;
 
-  using _GetOriginTrackedDeviceInfo = ::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo;
+  using _GetOriginTrackedDeviceInfo = ::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo;
 
-  using _GetPoseActionData = ::OVR::OpenVR::__IVRInput___GetPoseActionData;
+  using _GetPoseActionData = ::OVR::OpenVR::IVRInput__GetPoseActionData;
 
-  using _GetSkeletalActionData = ::OVR::OpenVR::__IVRInput___GetSkeletalActionData;
+  using _GetSkeletalActionData = ::OVR::OpenVR::IVRInput__GetSkeletalActionData;
 
-  using _GetSkeletalBoneData = ::OVR::OpenVR::__IVRInput___GetSkeletalBoneData;
+  using _GetSkeletalBoneData = ::OVR::OpenVR::IVRInput__GetSkeletalBoneData;
 
-  using _GetSkeletalBoneDataCompressed = ::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed;
+  using _GetSkeletalBoneDataCompressed = ::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed;
 
-  using _SetActionManifestPath = ::OVR::OpenVR::__IVRInput___SetActionManifestPath;
+  using _SetActionManifestPath = ::OVR::OpenVR::IVRInput__SetActionManifestPath;
 
-  using _ShowActionOrigins = ::OVR::OpenVR::__IVRInput___ShowActionOrigins;
+  using _ShowActionOrigins = ::OVR::OpenVR::IVRInput__ShowActionOrigins;
 
-  using _ShowBindingsForActionSet = ::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet;
+  using _ShowBindingsForActionSet = ::OVR::OpenVR::IVRInput__ShowBindingsForActionSet;
 
-  using _TriggerHapticVibrationAction = ::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction;
+  using _TriggerHapticVibrationAction = ::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction;
 
-  using _UpdateActionState = ::OVR::OpenVR::__IVRInput___UpdateActionState;
+  using _UpdateActionState = ::OVR::OpenVR::IVRInput__UpdateActionState;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IVRInput();
 
-  // Ctor Parameters [CppParam { name: "SetActionManifestPath", ty: "::OVR::OpenVR::__IVRInput___SetActionManifestPath*", modifiers: "", def_value: None }, CppParam { name: "GetActionSetHandle", ty:
-  // "::OVR::OpenVR::__IVRInput___GetActionSetHandle*", modifiers: "", def_value: None }, CppParam { name: "GetActionHandle", ty: "::OVR::OpenVR::__IVRInput___GetActionHandle*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetInputSourceHandle", ty: "::OVR::OpenVR::__IVRInput___GetInputSourceHandle*", modifiers: "", def_value: None }, CppParam { name: "UpdateActionState", ty:
-  // "::OVR::OpenVR::__IVRInput___UpdateActionState*", modifiers: "", def_value: None }, CppParam { name: "GetDigitalActionData", ty: "::OVR::OpenVR::__IVRInput___GetDigitalActionData*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetAnalogActionData", ty: "::OVR::OpenVR::__IVRInput___GetAnalogActionData*", modifiers: "", def_value: None }, CppParam { name: "GetPoseActionData", ty:
-  // "::OVR::OpenVR::__IVRInput___GetPoseActionData*", modifiers: "", def_value: None }, CppParam { name: "GetSkeletalActionData", ty: "::OVR::OpenVR::__IVRInput___GetSkeletalActionData*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetSkeletalBoneData", ty: "::OVR::OpenVR::__IVRInput___GetSkeletalBoneData*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetSkeletalBoneDataCompressed", ty: "::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed*", modifiers: "", def_value: None }, CppParam { name: "DecompressSkeletalBoneData", ty:
-  // "::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData*", modifiers: "", def_value: None }, CppParam { name: "TriggerHapticVibrationAction", ty:
-  // "::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction*", modifiers: "", def_value: None }, CppParam { name: "GetActionOrigins", ty: "::OVR::OpenVR::__IVRInput___GetActionOrigins*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetOriginLocalizedName", ty: "::OVR::OpenVR::__IVRInput___GetOriginLocalizedName*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetOriginTrackedDeviceInfo", ty: "::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo*", modifiers: "", def_value: None }, CppParam { name: "ShowActionOrigins", ty:
-  // "::OVR::OpenVR::__IVRInput___ShowActionOrigins*", modifiers: "", def_value: None }, CppParam { name: "ShowBindingsForActionSet", ty: "::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet*",
-  // modifiers: "", def_value: None }]
-  constexpr IVRInput(::OVR::OpenVR::__IVRInput___SetActionManifestPath* SetActionManifestPath, ::OVR::OpenVR::__IVRInput___GetActionSetHandle* GetActionSetHandle,
-                     ::OVR::OpenVR::__IVRInput___GetActionHandle* GetActionHandle, ::OVR::OpenVR::__IVRInput___GetInputSourceHandle* GetInputSourceHandle,
-                     ::OVR::OpenVR::__IVRInput___UpdateActionState* UpdateActionState, ::OVR::OpenVR::__IVRInput___GetDigitalActionData* GetDigitalActionData,
-                     ::OVR::OpenVR::__IVRInput___GetAnalogActionData* GetAnalogActionData, ::OVR::OpenVR::__IVRInput___GetPoseActionData* GetPoseActionData,
-                     ::OVR::OpenVR::__IVRInput___GetSkeletalActionData* GetSkeletalActionData, ::OVR::OpenVR::__IVRInput___GetSkeletalBoneData* GetSkeletalBoneData,
-                     ::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed* GetSkeletalBoneDataCompressed, ::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData* DecompressSkeletalBoneData,
-                     ::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction* TriggerHapticVibrationAction, ::OVR::OpenVR::__IVRInput___GetActionOrigins* GetActionOrigins,
-                     ::OVR::OpenVR::__IVRInput___GetOriginLocalizedName* GetOriginLocalizedName, ::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo* GetOriginTrackedDeviceInfo,
-                     ::OVR::OpenVR::__IVRInput___ShowActionOrigins* ShowActionOrigins, ::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet* ShowBindingsForActionSet) noexcept;
-
-  /// @brief Field SetActionManifestPath, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___SetActionManifestPath* SetActionManifestPath;
-
-  /// @brief Field GetActionSetHandle, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetActionSetHandle* GetActionSetHandle;
-
-  /// @brief Field GetActionHandle, offset: 0x10, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetActionHandle* GetActionHandle;
-
-  /// @brief Field GetInputSourceHandle, offset: 0x18, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetInputSourceHandle* GetInputSourceHandle;
-
-  /// @brief Field UpdateActionState, offset: 0x20, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___UpdateActionState* UpdateActionState;
-
-  /// @brief Field GetDigitalActionData, offset: 0x28, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetDigitalActionData* GetDigitalActionData;
-
-  /// @brief Field GetAnalogActionData, offset: 0x30, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetAnalogActionData* GetAnalogActionData;
-
-  /// @brief Field GetPoseActionData, offset: 0x38, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetPoseActionData* GetPoseActionData;
-
-  /// @brief Field GetSkeletalActionData, offset: 0x40, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetSkeletalActionData* GetSkeletalActionData;
-
-  /// @brief Field GetSkeletalBoneData, offset: 0x48, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetSkeletalBoneData* GetSkeletalBoneData;
-
-  /// @brief Field GetSkeletalBoneDataCompressed, offset: 0x50, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed* GetSkeletalBoneDataCompressed;
-
-  /// @brief Field DecompressSkeletalBoneData, offset: 0x58, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData* DecompressSkeletalBoneData;
-
-  /// @brief Field TriggerHapticVibrationAction, offset: 0x60, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction* TriggerHapticVibrationAction;
-
-  /// @brief Field GetActionOrigins, offset: 0x68, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetActionOrigins* GetActionOrigins;
-
-  /// @brief Field GetOriginLocalizedName, offset: 0x70, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetOriginLocalizedName* GetOriginLocalizedName;
-
-  /// @brief Field GetOriginTrackedDeviceInfo, offset: 0x78, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo* GetOriginTrackedDeviceInfo;
-
-  /// @brief Field ShowActionOrigins, offset: 0x80, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___ShowActionOrigins* ShowActionOrigins;
-
-  /// @brief Field ShowBindingsForActionSet, offset: 0x88, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet* ShowBindingsForActionSet;
+  // Ctor Parameters [CppParam { name: "SetActionManifestPath", ty: "::OVR::OpenVR::IVRInput__SetActionManifestPath*", modifiers: "", def_value: None }, CppParam { name: "GetActionSetHandle", ty:
+  // "::OVR::OpenVR::IVRInput__GetActionSetHandle*", modifiers: "", def_value: None }, CppParam { name: "GetActionHandle", ty: "::OVR::OpenVR::IVRInput__GetActionHandle*", modifiers: "", def_value:
+  // None }, CppParam { name: "GetInputSourceHandle", ty: "::OVR::OpenVR::IVRInput__GetInputSourceHandle*", modifiers: "", def_value: None }, CppParam { name: "UpdateActionState", ty:
+  // "::OVR::OpenVR::IVRInput__UpdateActionState*", modifiers: "", def_value: None }, CppParam { name: "GetDigitalActionData", ty: "::OVR::OpenVR::IVRInput__GetDigitalActionData*", modifiers: "",
+  // def_value: None }, CppParam { name: "GetAnalogActionData", ty: "::OVR::OpenVR::IVRInput__GetAnalogActionData*", modifiers: "", def_value: None }, CppParam { name: "GetPoseActionData", ty:
+  // "::OVR::OpenVR::IVRInput__GetPoseActionData*", modifiers: "", def_value: None }, CppParam { name: "GetSkeletalActionData", ty: "::OVR::OpenVR::IVRInput__GetSkeletalActionData*", modifiers: "",
+  // def_value: None }, CppParam { name: "GetSkeletalBoneData", ty: "::OVR::OpenVR::IVRInput__GetSkeletalBoneData*", modifiers: "", def_value: None }, CppParam { name: "GetSkeletalBoneDataCompressed",
+  // ty: "::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed*", modifiers: "", def_value: None }, CppParam { name: "DecompressSkeletalBoneData", ty:
+  // "::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData*", modifiers: "", def_value: None }, CppParam { name: "TriggerHapticVibrationAction", ty:
+  // "::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction*", modifiers: "", def_value: None }, CppParam { name: "GetActionOrigins", ty: "::OVR::OpenVR::IVRInput__GetActionOrigins*", modifiers: "",
+  // def_value: None }, CppParam { name: "GetOriginLocalizedName", ty: "::OVR::OpenVR::IVRInput__GetOriginLocalizedName*", modifiers: "", def_value: None }, CppParam { name:
+  // "GetOriginTrackedDeviceInfo", ty: "::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo*", modifiers: "", def_value: None }, CppParam { name: "ShowActionOrigins", ty:
+  // "::OVR::OpenVR::IVRInput__ShowActionOrigins*", modifiers: "", def_value: None }, CppParam { name: "ShowBindingsForActionSet", ty: "::OVR::OpenVR::IVRInput__ShowBindingsForActionSet*", modifiers:
+  // "", def_value: None }]
+  constexpr IVRInput(::OVR::OpenVR::IVRInput__SetActionManifestPath* SetActionManifestPath, ::OVR::OpenVR::IVRInput__GetActionSetHandle* GetActionSetHandle,
+                     ::OVR::OpenVR::IVRInput__GetActionHandle* GetActionHandle, ::OVR::OpenVR::IVRInput__GetInputSourceHandle* GetInputSourceHandle,
+                     ::OVR::OpenVR::IVRInput__UpdateActionState* UpdateActionState, ::OVR::OpenVR::IVRInput__GetDigitalActionData* GetDigitalActionData,
+                     ::OVR::OpenVR::IVRInput__GetAnalogActionData* GetAnalogActionData, ::OVR::OpenVR::IVRInput__GetPoseActionData* GetPoseActionData,
+                     ::OVR::OpenVR::IVRInput__GetSkeletalActionData* GetSkeletalActionData, ::OVR::OpenVR::IVRInput__GetSkeletalBoneData* GetSkeletalBoneData,
+                     ::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed* GetSkeletalBoneDataCompressed, ::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData* DecompressSkeletalBoneData,
+                     ::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction* TriggerHapticVibrationAction, ::OVR::OpenVR::IVRInput__GetActionOrigins* GetActionOrigins,
+                     ::OVR::OpenVR::IVRInput__GetOriginLocalizedName* GetOriginLocalizedName, ::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo* GetOriginTrackedDeviceInfo,
+                     ::OVR::OpenVR::IVRInput__ShowActionOrigins* ShowActionOrigins, ::OVR::OpenVR::IVRInput__ShowBindingsForActionSet* ShowBindingsForActionSet) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
+  /// @brief Field SetActionManifestPath, offset: 0x0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__SetActionManifestPath* SetActionManifestPath;
+
+  /// @brief Field GetActionSetHandle, offset: 0x8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetActionSetHandle* GetActionSetHandle;
+
+  /// @brief Field GetActionHandle, offset: 0x10, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetActionHandle* GetActionHandle;
+
+  /// @brief Field GetInputSourceHandle, offset: 0x18, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetInputSourceHandle* GetInputSourceHandle;
+
+  /// @brief Field UpdateActionState, offset: 0x20, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__UpdateActionState* UpdateActionState;
+
+  /// @brief Field GetDigitalActionData, offset: 0x28, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetDigitalActionData* GetDigitalActionData;
+
+  /// @brief Field GetAnalogActionData, offset: 0x30, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetAnalogActionData* GetAnalogActionData;
+
+  /// @brief Field GetPoseActionData, offset: 0x38, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetPoseActionData* GetPoseActionData;
+
+  /// @brief Field GetSkeletalActionData, offset: 0x40, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetSkeletalActionData* GetSkeletalActionData;
+
+  /// @brief Field GetSkeletalBoneData, offset: 0x48, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetSkeletalBoneData* GetSkeletalBoneData;
+
+  /// @brief Field GetSkeletalBoneDataCompressed, offset: 0x50, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed* GetSkeletalBoneDataCompressed;
+
+  /// @brief Field DecompressSkeletalBoneData, offset: 0x58, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData* DecompressSkeletalBoneData;
+
+  /// @brief Field TriggerHapticVibrationAction, offset: 0x60, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction* TriggerHapticVibrationAction;
+
+  /// @brief Field GetActionOrigins, offset: 0x68, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetActionOrigins* GetActionOrigins;
+
+  /// @brief Field GetOriginLocalizedName, offset: 0x70, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetOriginLocalizedName* GetOriginLocalizedName;
+
+  /// @brief Field GetOriginTrackedDeviceInfo, offset: 0x78, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo* GetOriginTrackedDeviceInfo;
+
+  /// @brief Field ShowActionOrigins, offset: 0x80, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__ShowActionOrigins* ShowActionOrigins;
+
+  /// @brief Field ShowBindingsForActionSet, offset: 0x88, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRInput__ShowBindingsForActionSet* ShowBindingsForActionSet;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::IVRInput, SetActionManifestPath) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::IVRInput, GetActionSetHandle) == 0x8, "Offset mismatch!");
@@ -1196,41 +1174,43 @@ static_assert(offsetof(::OVR::OpenVR::IVRInput, ShowActionOrigins) == 0x80, "Off
 
 static_assert(offsetof(::OVR::OpenVR::IVRInput, ShowBindingsForActionSet) == 0x88, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRInput, 0x90>, "Size mismatch!");
+
 } // namespace OVR::OpenVR
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___DecompressSkeletalBoneData*, "OVR.OpenVR", "IVRInput/_DecompressSkeletalBoneData");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetActionHandle);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetActionHandle*, "OVR.OpenVR", "IVRInput/_GetActionHandle");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetActionOrigins);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetActionOrigins*, "OVR.OpenVR", "IVRInput/_GetActionOrigins");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetActionSetHandle);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetActionSetHandle*, "OVR.OpenVR", "IVRInput/_GetActionSetHandle");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetAnalogActionData);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetAnalogActionData*, "OVR.OpenVR", "IVRInput/_GetAnalogActionData");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetDigitalActionData);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetDigitalActionData*, "OVR.OpenVR", "IVRInput/_GetDigitalActionData");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetInputSourceHandle);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetInputSourceHandle*, "OVR.OpenVR", "IVRInput/_GetInputSourceHandle");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetOriginLocalizedName);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetOriginLocalizedName*, "OVR.OpenVR", "IVRInput/_GetOriginLocalizedName");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetOriginTrackedDeviceInfo*, "OVR.OpenVR", "IVRInput/_GetOriginTrackedDeviceInfo");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetPoseActionData);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetPoseActionData*, "OVR.OpenVR", "IVRInput/_GetPoseActionData");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetSkeletalActionData);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetSkeletalActionData*, "OVR.OpenVR", "IVRInput/_GetSkeletalActionData");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetSkeletalBoneData);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetSkeletalBoneData*, "OVR.OpenVR", "IVRInput/_GetSkeletalBoneData");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___GetSkeletalBoneDataCompressed*, "OVR.OpenVR", "IVRInput/_GetSkeletalBoneDataCompressed");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___SetActionManifestPath);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___SetActionManifestPath*, "OVR.OpenVR", "IVRInput/_SetActionManifestPath");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___ShowActionOrigins);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___ShowActionOrigins*, "OVR.OpenVR", "IVRInput/_ShowActionOrigins");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___ShowBindingsForActionSet*, "OVR.OpenVR", "IVRInput/_ShowBindingsForActionSet");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___TriggerHapticVibrationAction*, "OVR.OpenVR", "IVRInput/_TriggerHapticVibrationAction");
-NEED_NO_BOX(::OVR::OpenVR::__IVRInput___UpdateActionState);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRInput___UpdateActionState*, "OVR.OpenVR", "IVRInput/_UpdateActionState");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData*, "OVR.OpenVR", "IVRInput/_DecompressSkeletalBoneData");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetActionHandle);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetActionHandle*, "OVR.OpenVR", "IVRInput/_GetActionHandle");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetActionOrigins);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetActionOrigins*, "OVR.OpenVR", "IVRInput/_GetActionOrigins");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetActionSetHandle);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetActionSetHandle*, "OVR.OpenVR", "IVRInput/_GetActionSetHandle");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetAnalogActionData);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetAnalogActionData*, "OVR.OpenVR", "IVRInput/_GetAnalogActionData");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetDigitalActionData);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetDigitalActionData*, "OVR.OpenVR", "IVRInput/_GetDigitalActionData");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetInputSourceHandle);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetInputSourceHandle*, "OVR.OpenVR", "IVRInput/_GetInputSourceHandle");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetOriginLocalizedName);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetOriginLocalizedName*, "OVR.OpenVR", "IVRInput/_GetOriginLocalizedName");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo*, "OVR.OpenVR", "IVRInput/_GetOriginTrackedDeviceInfo");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetPoseActionData);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetPoseActionData*, "OVR.OpenVR", "IVRInput/_GetPoseActionData");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetSkeletalActionData);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetSkeletalActionData*, "OVR.OpenVR", "IVRInput/_GetSkeletalActionData");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetSkeletalBoneData);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetSkeletalBoneData*, "OVR.OpenVR", "IVRInput/_GetSkeletalBoneData");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed*, "OVR.OpenVR", "IVRInput/_GetSkeletalBoneDataCompressed");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__SetActionManifestPath);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__SetActionManifestPath*, "OVR.OpenVR", "IVRInput/_SetActionManifestPath");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__ShowActionOrigins);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__ShowActionOrigins*, "OVR.OpenVR", "IVRInput/_ShowActionOrigins");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__ShowBindingsForActionSet);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__ShowBindingsForActionSet*, "OVR.OpenVR", "IVRInput/_ShowBindingsForActionSet");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction*, "OVR.OpenVR", "IVRInput/_TriggerHapticVibrationAction");
+NEED_NO_BOX(::OVR::OpenVR::IVRInput__UpdateActionState);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput__UpdateActionState*, "OVR.OpenVR", "IVRInput/_UpdateActionState");
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRInput, "OVR.OpenVR", "IVRInput");

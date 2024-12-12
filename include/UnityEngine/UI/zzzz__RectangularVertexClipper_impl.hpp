@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::RectangularVertexClipper::*)(
     ::UnityEngine::RectTransform*, ::UnityEngine::Canvas*)>(&::UnityEngine::UI::RectangularVertexClipper::GetCanvasRect)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x48f2bb8;
+  constexpr static std::size_t addrs = 0x4957368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectangularVertexClipper::*)()>(&::UnityEngine::UI::RectangularVertexClipper::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x48f2d10;
+  constexpr static std::size_t addrs = 0x49574c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectangularVertexClipper*>::get(), ".ctor",
@@ -66,13 +66,13 @@ inline ::UnityEngine::Rect UnityEngine::UI::RectangularVertexClipper::GetCanvasR
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect, false>(this, ___internal_method, t, c);
 }
-inline ::UnityEngine::UI::RectangularVertexClipper* UnityEngine::UI::RectangularVertexClipper::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::RectangularVertexClipper*>());
-}
 inline void UnityEngine::UI::RectangularVertexClipper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectangularVertexClipper*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UI::RectangularVertexClipper* UnityEngine::UI::RectangularVertexClipper::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::RectangularVertexClipper*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::RectangularVertexClipper::RectangularVertexClipper() {}

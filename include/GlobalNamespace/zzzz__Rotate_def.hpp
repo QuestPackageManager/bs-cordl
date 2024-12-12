@@ -16,11 +16,10 @@ class Rotate;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Rotate);
-// Type: ::Rotate
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Rotate*
+// CS Name: Rotate
 class CORDL_TYPE Rotate : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -48,21 +47,21 @@ public:
   /// @brief Field _transform, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x396efd0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39c44b8, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Rotate* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x396f120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x39c4608, size 0xc, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x396f098, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x39c4580, size 0x20, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
-  /// @brief Method Randomize, addr 0x396f0b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Randomize, addr 0x39c45a0, size 0x68, virtual false, abstract: false, final false
   inline void Randomize();
 
-  /// @brief Method Update, addr 0x396f12c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39c4614, size 0xc4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__randomMaxMultiplier() const;
@@ -113,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x396f1f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c46d8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,6 +128,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Rotate", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Rotate(Rotate const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16426 };
 
   /// @brief Field _rotationVector, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationVector;
@@ -154,14 +156,9 @@ public:
   /// @brief Field _randomizedMultiplier, offset: 0x64, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____randomizedMultiplier;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16390 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Rotate, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::Rotate, ____rotationVector) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Rotate, ____speed) == 0x2c, "Offset mismatch!");
@@ -177,6 +174,8 @@ static_assert(offsetof(::GlobalNamespace::Rotate, ____transform) == 0x50, "Offse
 static_assert(offsetof(::GlobalNamespace::Rotate, ____startRotationAngles) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Rotate, ____randomizedMultiplier) == 0x64, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Rotate, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Rotate);

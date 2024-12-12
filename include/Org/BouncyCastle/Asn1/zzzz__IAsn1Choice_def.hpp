@@ -10,18 +10,13 @@ class IAsn1Choice;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IAsn1Choice);
-// Type: Org.BouncyCastle.Asn1::IAsn1Choice
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::IAsn1Choice*
+// CS Name: Org.BouncyCastle.Asn1.IAsn1Choice
 class CORDL_TYPE IAsn1Choice {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IAsn1Choice", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IAsn1Choice(IAsn1Choice&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IAsn1Choice", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAsn1Choice(IAsn1Choice const&) = delete;

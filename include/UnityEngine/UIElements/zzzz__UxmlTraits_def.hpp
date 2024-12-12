@@ -20,20 +20,19 @@ class UxmlTraits;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTraits);
-// Type: UnityEngine.UIElements::UxmlTraits
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseUxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlTraits*
+// CS Name: UnityEngine.UIElements.UxmlTraits
 class CORDL_TYPE UxmlTraits : public ::UnityEngine::UIElements::BaseUxmlTraits {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x4a3ceac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4aa17bc, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a3a8c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9f1d4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +50,7 @@ public:
   UxmlTraits(UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

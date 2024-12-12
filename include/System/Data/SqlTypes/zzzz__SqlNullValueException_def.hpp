@@ -21,11 +21,10 @@ class SqlNullValueException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::SqlTypes::SqlNullValueException);
-// Type: System.Data.SqlTypes::SqlNullValueException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.SqlTypes.SqlTypeException
 namespace System::Data::SqlTypes {
 // Is value type: false
-// CS Name: ::System.Data.SqlTypes::SqlNullValueException*
+// CS Name: System.Data.SqlTypes.SqlNullValueException
 class CORDL_TYPE SqlNullValueException : public ::System::Data::SqlTypes::SqlTypeException {
 public:
   // Declarations
@@ -37,20 +36,20 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SqlNullValueExceptionSerialization, addr 0x4172ad8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SqlNullValueExceptionSerialization, addr 0x41d3dec, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationInfo* SqlNullValueExceptionSerialization(::System::Runtime::Serialization::SerializationInfo* si,
                                                                                                         ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor, addr 0x415e914, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41bfc28, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4172a50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d3d64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x4172a2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d3d40, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x4172a78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d3d8c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
 protected:
@@ -68,7 +67,7 @@ public:
   SqlNullValueException(SqlNullValueException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

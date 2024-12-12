@@ -18,11 +18,10 @@ class MemberAccessException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MemberAccessException);
-// Type: System::MemberAccessException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System {
 // Is value type: false
-// CS Name: ::System::MemberAccessException*
+// CS Name: System.MemberAccessException
 class CORDL_TYPE MemberAccessException : public ::System::SystemException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::MemberAccessException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d8bd1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3debe90, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d8bd9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3debf10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d8bd78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3debeec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

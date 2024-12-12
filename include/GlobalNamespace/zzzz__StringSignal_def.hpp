@@ -12,17 +12,16 @@ class StringSignal;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StringSignal);
-// Type: ::StringSignal
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies GenericSignal`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StringSignal*
+// CS Name: StringSignal
 class CORDL_TYPE StringSignal : public ::GlobalNamespace::GenericSignal_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::StringSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3970498, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c5980, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +39,7 @@ public:
   StringSignal(StringSignal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

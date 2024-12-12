@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Store)
@@ -26,11 +25,10 @@ class X509Store;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509Store);
-// Type: Mono.Security.X509::X509Store
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::Mono.Security.X509::X509Store*
+// CS Name: Mono.Security.X509.X509Store
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
   // Declarations
@@ -53,37 +51,37 @@ public:
   /// @brief Field _storePath, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath)) ::StringW _storePath;
 
-  /// @brief Method BuildCertificatesCollection, addr 0x3bdf428, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method BuildCertificatesCollection, addr 0x3c3f53c, size 0x1dc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::StringW storeName);
 
-  /// @brief Method BuildCrlsCollection, addr 0x3bdf68c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method BuildCrlsCollection, addr 0x3c3f7a0, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* BuildCrlsCollection(::StringW storeName);
 
-  /// @brief Method CheckStore, addr 0x3bdfb2c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CheckStore, addr 0x3c3fc40, size 0xdc, virtual false, abstract: false, final false
   inline bool CheckStore(::StringW path, bool throwException);
 
-  /// @brief Method Load, addr 0x3bdf854, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3c3f968, size 0x208, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Load(::StringW filename);
 
-  /// @brief Method LoadCertificate, addr 0x3bdfa5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificate, addr 0x3c3fb70, size 0x68, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* LoadCertificate(::StringW filename);
 
-  /// @brief Method LoadCrl, addr 0x3bdfac4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadCrl, addr 0x3c3fbd8, size 0x68, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl* LoadCrl(::StringW filename);
 
   static inline ::Mono::Security::X509::X509Store* New_ctor(::StringW path, bool crl, bool newFormat);
 
-  constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__certificates();
+  constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get__certificates() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get__certificates() const;
+  constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__certificates();
 
   constexpr bool const& __cordl_internal_get__crl() const;
 
   constexpr bool& __cordl_internal_get__crl();
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__crls();
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__crls() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__crls() const;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__crls();
 
   constexpr bool const& __cordl_internal_get__newFormat() const;
 
@@ -103,13 +101,13 @@ public:
 
   constexpr void __cordl_internal_set__storePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3bdf3c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3f4d4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool crl, bool newFormat);
 
-  /// @brief Method get_Certificates, addr 0x3bdf400, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x3c3f514, size 0x28, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_Crls, addr 0x3bdf604, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Crls, addr 0x3c3f718, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Crls();
 
 protected:
@@ -126,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Store(X509Store const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15929 };
+
   /// @brief Field _storePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____storePath;
 
@@ -141,14 +142,9 @@ public:
   /// @brief Field _newFormat, offset: 0x29, size: 0x1, def value: None
   bool ____newFormat;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15894 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Store, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::X509::X509Store, ____storePath) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::X509Store, ____certificates) == 0x18, "Offset mismatch!");
@@ -158,6 +154,8 @@ static_assert(offsetof(::Mono::Security::X509::X509Store, ____crls) == 0x20, "Of
 static_assert(offsetof(::Mono::Security::X509::X509Store, ____crl) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::X509Store, ____newFormat) == 0x29, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Store, 0x30>, "Size mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509Store);

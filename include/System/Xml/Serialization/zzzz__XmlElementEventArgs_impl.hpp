@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlElementEventArgs::*)(
     ::System::Xml::XmlElement*, int32_t, int32_t, ::System::Object*, ::StringW)>(&::System::Xml::Serialization::XmlElementEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4304f50;
+  constexpr static std::size_t addrs = 0x4366264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ constexpr ::System::Object*& System::Xml::Serialization::XmlElementEventArgs::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Serialization::XmlElementEventArgs::__cordl_internal_get_o() const {
+constexpr ::System::Object* const& System::Xml::Serialization::XmlElementEventArgs::__cordl_internal_get_o() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
@@ -38,7 +38,7 @@ constexpr ::System::Xml::XmlElement*& System::Xml::Serialization::XmlElementEven
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elem;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlElement*> const& System::Xml::Serialization::XmlElementEventArgs::__cordl_internal_get_elem() const {
+constexpr ::System::Xml::XmlElement* const& System::Xml::Serialization::XmlElementEventArgs::__cordl_internal_get_elem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elem;
 }
@@ -82,10 +82,6 @@ constexpr void System::Xml::Serialization::XmlElementEventArgs::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___linePosition = value;
 }
-inline ::System::Xml::Serialization::XmlElementEventArgs* System::Xml::Serialization::XmlElementEventArgs::New_ctor(::System::Xml::XmlElement* elem, int32_t lineNumber, int32_t linePosition,
-                                                                                                                    ::System::Object* o, ::StringW qnames) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlElementEventArgs*>(elem, lineNumber, linePosition, o, qnames));
-}
 inline void System::Xml::Serialization::XmlElementEventArgs::_ctor(::System::Xml::XmlElement* elem, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlElementEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -93,6 +89,10 @@ inline void System::Xml::Serialization::XmlElementEventArgs::_ctor(::System::Xml
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elem, lineNumber, linePosition, o, qnames);
+}
+inline ::System::Xml::Serialization::XmlElementEventArgs* System::Xml::Serialization::XmlElementEventArgs::New_ctor(::System::Xml::XmlElement* elem, int32_t lineNumber, int32_t linePosition,
+                                                                                                                    ::System::Object* o, ::StringW qnames) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlElementEventArgs*>(elem, lineNumber, linePosition, o, qnames));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlElementEventArgs::XmlElementEventArgs() {}

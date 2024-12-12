@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25e42d8;
+  constexpr static std::size_t addrs = 0x26175c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::AddExtension)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x25e4340;
+  constexpr static std::size_t addrs = 0x261762c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::AddExtension)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x25e444c;
+  constexpr static std::size_t addrs = 0x2617738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::get_IsEmpty)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x25e46d0;
+  constexpr static std::size_t addrs = 0x26179bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::Generate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25e4780;
+  constexpr static std::size_t addrs = 0x2617a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x25e47e0;
+  constexpr static std::size_t addrs = 0x2617acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>::get(),
@@ -101,7 +101,7 @@ constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Asn1::X509::X5
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::__cordl_internal_get_extensions() const {
+constexpr ::System::Collections::IDictionary* const& Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::__cordl_internal_get_extensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
@@ -113,7 +113,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Asn1::X509::X509Exte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extOrdering;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::__cordl_internal_get_extOrdering() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::__cordl_internal_get_extOrdering() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extOrdering;
 }
@@ -153,13 +153,13 @@ inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Asn1:
                                                                              "Generate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::X509Extensions*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>());
-}
 inline void Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::X509ExtensionsGenerator() {}

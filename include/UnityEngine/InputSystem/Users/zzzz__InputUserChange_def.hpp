@@ -12,11 +12,10 @@ struct InputUserChange;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserChange);
-// Type: UnityEngine.InputSystem.Users::InputUserChange
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Users::InputUserChange
+// CS Name: UnityEngine.InputSystem.Users.InputUserChange
 struct CORDL_TYPE InputUserChange {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr InputUserChange(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AccountChanged value: static_cast<int32_t>(0x6)
+  /// @brief Field AccountChanged value: I32(6)
   static ::UnityEngine::InputSystem::Users::InputUserChange const AccountChanged;
 
-  /// @brief Field AccountNameChanged value: static_cast<int32_t>(0x7)
+  /// @brief Field AccountNameChanged value: I32(7)
   static ::UnityEngine::InputSystem::Users::InputUserChange const AccountNameChanged;
 
-  /// @brief Field AccountSelectionCanceled value: static_cast<int32_t>(0x9)
+  /// @brief Field AccountSelectionCanceled value: I32(9)
   static ::UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionCanceled;
 
-  /// @brief Field AccountSelectionComplete value: static_cast<int32_t>(0xa)
+  /// @brief Field AccountSelectionComplete value: I32(10)
   static ::UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionComplete;
 
-  /// @brief Field AccountSelectionInProgress value: static_cast<int32_t>(0x8)
+  /// @brief Field AccountSelectionInProgress value: I32(8)
   static ::UnityEngine::InputSystem::Users::InputUserChange const AccountSelectionInProgress;
 
-  /// @brief Field Added value: static_cast<int32_t>(0x0)
+  /// @brief Field Added value: I32(0)
   static ::UnityEngine::InputSystem::Users::InputUserChange const Added;
 
-  /// @brief Field ControlSchemeChanged value: static_cast<int32_t>(0xb)
+  /// @brief Field ControlSchemeChanged value: I32(11)
   static ::UnityEngine::InputSystem::Users::InputUserChange const ControlSchemeChanged;
 
-  /// @brief Field ControlsChanged value: static_cast<int32_t>(0xc)
+  /// @brief Field ControlsChanged value: I32(12)
   static ::UnityEngine::InputSystem::Users::InputUserChange const ControlsChanged;
 
-  /// @brief Field DeviceLost value: static_cast<int32_t>(0x4)
+  /// @brief Field DeviceLost value: I32(4)
   static ::UnityEngine::InputSystem::Users::InputUserChange const DeviceLost;
 
-  /// @brief Field DevicePaired value: static_cast<int32_t>(0x2)
+  /// @brief Field DevicePaired value: I32(2)
   static ::UnityEngine::InputSystem::Users::InputUserChange const DevicePaired;
 
-  /// @brief Field DeviceRegained value: static_cast<int32_t>(0x5)
+  /// @brief Field DeviceRegained value: I32(5)
   static ::UnityEngine::InputSystem::Users::InputUserChange const DeviceRegained;
 
-  /// @brief Field DeviceUnpaired value: static_cast<int32_t>(0x3)
+  /// @brief Field DeviceUnpaired value: I32(3)
   static ::UnityEngine::InputSystem::Users::InputUserChange const DeviceUnpaired;
 
-  /// @brief Field Removed value: static_cast<int32_t>(0x1)
+  /// @brief Field Removed value: I32(1)
   static ::UnityEngine::InputSystem::Users::InputUserChange const Removed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6770 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::InputUserChange, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUserChange, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::InputUserChange, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Users
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Users::InputUserChange, "UnityEngine.InputSystem.Users", "InputUserChange");

@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __NullableMethodCallInstruction__HasValue;
+namespace GlobalNamespace {
+class NullableMethodCallInstruction_HasValue;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__HasValue);
-// Type: ::HasValue
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::NullableMethodCallInstruction_HasValue);
+// Dependencies System.Linq.Expressions.Interpreter.NullableMethodCallInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NullableMethodCallInstruction::HasValue*
-class CORDL_TYPE __NullableMethodCallInstruction__HasValue : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.NullableMethodCallInstruction/HasValue
+class CORDL_TYPE NullableMethodCallInstruction_HasValue : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__HasValue* New_ctor();
+  static inline ::GlobalNamespace::NullableMethodCallInstruction_HasValue* New_ctor();
 
-  /// @brief Method Run, addr 0x4095f9c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f72b0, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4095ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f71b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NullableMethodCallInstruction__HasValue();
+  constexpr NullableMethodCallInstruction_HasValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NullableMethodCallInstruction__HasValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NullableMethodCallInstruction__HasValue(__NullableMethodCallInstruction__HasValue&&) = delete;
+  NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NullableMethodCallInstruction__HasValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NullableMethodCallInstruction__HasValue(__NullableMethodCallInstruction__HasValue const&) = delete;
+  NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__HasValue, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullableMethodCallInstruction_HasValue, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__HasValue);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__HasValue*, "System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction/HasValue");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::NullableMethodCallInstruction_HasValue);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NullableMethodCallInstruction_HasValue*, "System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction/HasValue");

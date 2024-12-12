@@ -23,11 +23,10 @@ class PolicyMappings;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PolicyMappings);
-// Type: Org.BouncyCastle.Asn1.X509::PolicyMappings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::PolicyMappings*
+// CS Name: Org.BouncyCastle.Asn1.X509.PolicyMappings
 class CORDL_TYPE PolicyMappings : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -40,22 +39,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25d80dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x260b3c8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_seq() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_seq() const;
-
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x25d7afc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260ade8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* mappings);
 
-  /// @brief Method .ctor, addr 0x25d7b00, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260adec, size 0x5dc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* mappings);
 
-  /// @brief Method .ctor, addr 0x25d7ad4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260adc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -72,18 +71,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PolicyMappings(PolicyMappings const&) = delete;
 
-  /// @brief Field seq, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 375 };
+
+  /// @brief Field seq, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::PolicyMappings, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::PolicyMappings, ___seq) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::PolicyMappings, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::PolicyMappings);

@@ -21,11 +21,10 @@ class CubemapTest;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CubemapTest);
-// Type: ::CubemapTest
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CubemapTest*
+// CS Name: CubemapTest
 class CORDL_TYPE CubemapTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _cubePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__cubePropertyId, put = setStaticF__cubePropertyId)) int32_t _cubePropertyId;
+  __declspec(property(get = getStaticF__cubePropertyId, put = setStaticF__cubePropertyId)) int32_t _cubePropertyId;
 
   /// @brief Field _cubemapFlatTexture, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__cubemapFlatTexture, put = __cordl_internal_set__cubemapFlatTexture)) ::UnityW<::UnityEngine::RenderTexture> _cubemapFlatTexture;
@@ -53,10 +52,10 @@ public:
 
   static inline ::GlobalNamespace::CubemapTest* New_ctor();
 
-  /// @brief Method Start, addr 0x3ab76a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b145ec, size 0x7c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ab7724, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b14668, size 0x210, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -95,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__flatMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x3ab7934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b14878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cubePropertyId();
@@ -116,6 +115,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CubemapTest(CubemapTest const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5051 };
+
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
@@ -134,14 +136,9 @@ public:
   /// @brief Field _cubemapFlatTexture, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____cubemapFlatTexture;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5032 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CubemapTest, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CubemapTest, ____camera) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CubemapTest, ____cubemapMaterial) == 0x28, "Offset mismatch!");
@@ -153,6 +150,8 @@ static_assert(offsetof(::GlobalNamespace::CubemapTest, ____cubemapRenderTexture)
 static_assert(offsetof(::GlobalNamespace::CubemapTest, ____downsampledCubemapRenderTexture) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CubemapTest, ____cubemapFlatTexture) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CubemapTest, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CubemapTest);

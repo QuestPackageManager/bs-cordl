@@ -12,11 +12,10 @@ struct DrivenTransformProperties;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::DrivenTransformProperties);
-// Type: UnityEngine::DrivenTransformProperties
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::DrivenTransformProperties
+// CS Name: UnityEngine.DrivenTransformProperties
 struct CORDL_TYPE DrivenTransformProperties {
 public:
   // Declarations
@@ -68,96 +67,96 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DrivenTransformProperties(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field All value: I32(-1)
   static ::UnityEngine::DrivenTransformProperties const All;
 
-  /// @brief Field AnchorMax value: static_cast<int32_t>(0xc00)
+  /// @brief Field AnchorMax value: I32(3072)
   static ::UnityEngine::DrivenTransformProperties const AnchorMax;
 
-  /// @brief Field AnchorMaxX value: static_cast<int32_t>(0x400)
+  /// @brief Field AnchorMaxX value: I32(1024)
   static ::UnityEngine::DrivenTransformProperties const AnchorMaxX;
 
-  /// @brief Field AnchorMaxY value: static_cast<int32_t>(0x800)
+  /// @brief Field AnchorMaxY value: I32(2048)
   static ::UnityEngine::DrivenTransformProperties const AnchorMaxY;
 
-  /// @brief Field AnchorMin value: static_cast<int32_t>(0x300)
+  /// @brief Field AnchorMin value: I32(768)
   static ::UnityEngine::DrivenTransformProperties const AnchorMin;
 
-  /// @brief Field AnchorMinX value: static_cast<int32_t>(0x100)
+  /// @brief Field AnchorMinX value: I32(256)
   static ::UnityEngine::DrivenTransformProperties const AnchorMinX;
 
-  /// @brief Field AnchorMinY value: static_cast<int32_t>(0x200)
+  /// @brief Field AnchorMinY value: I32(512)
   static ::UnityEngine::DrivenTransformProperties const AnchorMinY;
 
-  /// @brief Field AnchoredPosition value: static_cast<int32_t>(0x6)
+  /// @brief Field AnchoredPosition value: I32(6)
   static ::UnityEngine::DrivenTransformProperties const AnchoredPosition;
 
-  /// @brief Field AnchoredPosition3D value: static_cast<int32_t>(0xe)
+  /// @brief Field AnchoredPosition3D value: I32(14)
   static ::UnityEngine::DrivenTransformProperties const AnchoredPosition3D;
 
-  /// @brief Field AnchoredPositionX value: static_cast<int32_t>(0x2)
+  /// @brief Field AnchoredPositionX value: I32(2)
   static ::UnityEngine::DrivenTransformProperties const AnchoredPositionX;
 
-  /// @brief Field AnchoredPositionY value: static_cast<int32_t>(0x4)
+  /// @brief Field AnchoredPositionY value: I32(4)
   static ::UnityEngine::DrivenTransformProperties const AnchoredPositionY;
 
-  /// @brief Field AnchoredPositionZ value: static_cast<int32_t>(0x8)
+  /// @brief Field AnchoredPositionZ value: I32(8)
   static ::UnityEngine::DrivenTransformProperties const AnchoredPositionZ;
 
-  /// @brief Field Anchors value: static_cast<int32_t>(0xf00)
+  /// @brief Field Anchors value: I32(3840)
   static ::UnityEngine::DrivenTransformProperties const Anchors;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::DrivenTransformProperties const None;
 
-  /// @brief Field Pivot value: static_cast<int32_t>(0xc000)
+  /// @brief Field Pivot value: I32(49152)
   static ::UnityEngine::DrivenTransformProperties const Pivot;
 
-  /// @brief Field PivotX value: static_cast<int32_t>(0x4000)
+  /// @brief Field PivotX value: I32(16384)
   static ::UnityEngine::DrivenTransformProperties const PivotX;
 
-  /// @brief Field PivotY value: static_cast<int32_t>(0x8000)
+  /// @brief Field PivotY value: I32(32768)
   static ::UnityEngine::DrivenTransformProperties const PivotY;
 
-  /// @brief Field Rotation value: static_cast<int32_t>(0x10)
+  /// @brief Field Rotation value: I32(16)
   static ::UnityEngine::DrivenTransformProperties const Rotation;
 
-  /// @brief Field Scale value: static_cast<int32_t>(0xe0)
+  /// @brief Field Scale value: I32(224)
   static ::UnityEngine::DrivenTransformProperties const Scale;
 
-  /// @brief Field ScaleX value: static_cast<int32_t>(0x20)
+  /// @brief Field ScaleX value: I32(32)
   static ::UnityEngine::DrivenTransformProperties const ScaleX;
 
-  /// @brief Field ScaleY value: static_cast<int32_t>(0x40)
+  /// @brief Field ScaleY value: I32(64)
   static ::UnityEngine::DrivenTransformProperties const ScaleY;
 
-  /// @brief Field ScaleZ value: static_cast<int32_t>(0x80)
+  /// @brief Field ScaleZ value: I32(128)
   static ::UnityEngine::DrivenTransformProperties const ScaleZ;
 
-  /// @brief Field SizeDelta value: static_cast<int32_t>(0x3000)
+  /// @brief Field SizeDelta value: I32(12288)
   static ::UnityEngine::DrivenTransformProperties const SizeDelta;
 
-  /// @brief Field SizeDeltaX value: static_cast<int32_t>(0x1000)
+  /// @brief Field SizeDeltaX value: I32(4096)
   static ::UnityEngine::DrivenTransformProperties const SizeDeltaX;
 
-  /// @brief Field SizeDeltaY value: static_cast<int32_t>(0x2000)
+  /// @brief Field SizeDeltaY value: I32(8192)
   static ::UnityEngine::DrivenTransformProperties const SizeDeltaY;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::DrivenTransformProperties, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::DrivenTransformProperties, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::DrivenTransformProperties, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");

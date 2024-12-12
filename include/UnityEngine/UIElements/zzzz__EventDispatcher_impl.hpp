@@ -14,83 +14,81 @@
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDispatchState_def.hpp"
-// Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngine::UIElements::EventBase*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Panel", ty:
-// "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::UnityEngine::UIElements::__EventDispatcher__EventRecord::__EventDispatcher__EventRecord(::UnityEngine::UIElements::EventBase* m_Event,
-                                                                                                    ::UnityEngine::UIElements::IPanel* m_Panel) noexcept {
+// Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngine::UIElements::EventBase*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Panel", ty:
+// "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::EventDispatcher_EventRecord::EventDispatcher_EventRecord(::UnityEngine::UIElements::EventBase* m_Event, ::UnityEngine::UIElements::IPanel* m_Panel) noexcept {
   this->m_Event = m_Event;
   this->m_Panel = m_Panel;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__EventDispatcher__EventRecord::__EventDispatcher__EventRecord() {}
+constexpr ::UnityEngine::UIElements::EventDispatcher_EventRecord::EventDispatcher_EventRecord() {}
 // Ctor Parameters [CppParam { name: "m_GateCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Queue", ty:
-// "::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::UnityEngine::UIElements::__EventDispatcher__DispatchContext::__EventDispatcher__DispatchContext(
-    uint32_t m_GateCount, ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* m_Queue) noexcept {
+// "::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::EventDispatcher_DispatchContext::EventDispatcher_DispatchContext(
+    uint32_t m_GateCount, ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* m_Queue) noexcept {
   this->m_GateCount = m_GateCount;
   this->m_Queue = m_Queue;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__EventDispatcher__DispatchContext::__EventDispatcher__DispatchContext() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__EventDispatcher____c._ctor
+constexpr ::UnityEngine::UIElements::EventDispatcher_DispatchContext::EventDispatcher_DispatchContext() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::EventDispatcher___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__EventDispatcher____c::*)()>(
-    &::UnityEngine::UIElements::__EventDispatcher____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher___c::*)()>(&::UnityEngine::UIElements::EventDispatcher___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bcdb0;
+  constexpr static std::size_t addrs = 0x4a216c0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventDispatcher____c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher___c*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__EventDispatcher____c.__cctor_b__31_0
+//  Writing Method size for method: ::UnityEngine::UIElements::EventDispatcher___c.__cctor_b__31_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* (
-    ::UnityEngine::UIElements::__EventDispatcher____c::*)()>(&::UnityEngine::UIElements::__EventDispatcher____c::__cctor_b__31_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* (
+    ::UnityEngine::UIElements::EventDispatcher___c::*)()>(&::UnityEngine::UIElements::EventDispatcher___c::__cctor_b__31_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49bcdb8;
+  constexpr static std::size_t addrs = 0x4a216c8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventDispatcher____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher___c*>::get(),
                                                                                "<.cctor>b__31_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__EventDispatcher____c::setStaticF___9(::UnityEngine::UIElements::__EventDispatcher____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__EventDispatcher____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventDispatcher____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__EventDispatcher____c*>(value));
+inline void UnityEngine::UIElements::EventDispatcher___c::setStaticF___9(::UnityEngine::UIElements::EventDispatcher___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::EventDispatcher___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher___c*>::get>(
+      std::forward<::UnityEngine::UIElements::EventDispatcher___c*>(value));
 }
-inline ::UnityEngine::UIElements::__EventDispatcher____c* UnityEngine::UIElements::__EventDispatcher____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__EventDispatcher____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventDispatcher____c*>::get>();
+inline ::UnityEngine::UIElements::EventDispatcher___c* UnityEngine::UIElements::EventDispatcher___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventDispatcher___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__EventDispatcher____c* UnityEngine::UIElements::__EventDispatcher____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__EventDispatcher____c*>());
-}
-inline void UnityEngine::UIElements::__EventDispatcher____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventDispatcher____c*>::get(), ".ctor",
+inline void UnityEngine::UIElements::EventDispatcher___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* UnityEngine::UIElements::__EventDispatcher____c::__cctor_b__31_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventDispatcher____c*>::get(),
+inline ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* UnityEngine::UIElements::EventDispatcher___c::__cctor_b__31_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher___c*>::get(),
                                                                              "<.cctor>b__31_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::EventDispatcher___c* UnityEngine::UIElements::EventDispatcher___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventDispatcher___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__EventDispatcher____c::__EventDispatcher____c() {}
+constexpr ::UnityEngine::UIElements::EventDispatcher___c::EventDispatcher___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::EventDispatcher.get_pointerState
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PointerDispatchState* (::UnityEngine::UIElements::EventDispatcher::*)()>(
     &::UnityEngine::UIElements::EventDispatcher::get_pointerState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bb47c;
+  constexpr static std::size_t addrs = 0x4a1fd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher*>::get(),
@@ -105,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::EventDispatcher* (*)(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*)>(
         &::UnityEngine::UIElements::EventDispatcher::CreateForRuntime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49bb484;
+  constexpr static std::size_t addrs = 0x4a1fd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*)>(&::UnityEngine::UIElements::EventDispatcher::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x49bb4dc;
+  constexpr static std::size_t addrs = 0x4a1fdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventDispatcher::*)()>(
     &::UnityEngine::UIElements::EventDispatcher::get_dispatchImmediately)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x49bb68c;
+  constexpr static std::size_t addrs = 0x4a1ff9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher*>::get(),
@@ -151,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)(bool)>(
     &::UnityEngine::UIElements::EventDispatcher::set_processingEvents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bb6ac;
+  constexpr static std::size_t addrs = 0x4a1ffbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, ::UnityEngine::UIElements::DispatchMode)>(&::UnityEngine::UIElements::EventDispatcher::Dispatch)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x49bb6b8;
+  constexpr static std::size_t addrs = 0x4a1ffc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)()>(&::UnityEngine::UIElements::EventDispatcher::CloseGate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49bb32c;
+  constexpr static std::size_t addrs = 0x4a1fc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher*>::get(), "CloseGate",
@@ -195,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)()>(&::UnityEngine::UIElements::EventDispatcher::OpenGate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49bb354;
+  constexpr static std::size_t addrs = 0x4a1fc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher*>::get(), "OpenGate",
@@ -209,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)()>(
     &::UnityEngine::UIElements::EventDispatcher::ProcessEventQueue)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x49bbdd8;
+  constexpr static std::size_t addrs = 0x4a206e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher*>::get(),
@@ -223,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::EventDispatcher::ProcessEvent)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x49bb8b8;
+  constexpr static std::size_t addrs = 0x4a201c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -239,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcher::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, bool)>(&::UnityEngine::UIElements::EventDispatcher::ApplyDispatchingStrategies)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x49bc1a4;
+  constexpr static std::size_t addrs = 0x4a20ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +252,7 @@ constexpr ::UnityEngine::UIElements::ClickDetector*& UnityEngine::UIElements::Ev
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClickDetector;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClickDetector*> const& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_ClickDetector() const {
+constexpr ::UnityEngine::UIElements::ClickDetector* const& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_ClickDetector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClickDetector;
 }
@@ -266,7 +264,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEve
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DispatchingStrategies;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* const&
 UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_DispatchingStrategies() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DispatchingStrategies;
@@ -276,16 +274,15 @@ UnityEngine::UIElements::EventDispatcher::__cordl_internal_set_m_DispatchingStra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DispatchingStrategies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_Queue() {
+constexpr ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_Queue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Queue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*> const&
-UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_Queue() const {
+constexpr ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* const& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_Queue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Queue;
 }
-constexpr void UnityEngine::UIElements::EventDispatcher::__cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* value) {
+constexpr void UnityEngine::UIElements::EventDispatcher::__cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Queue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -293,8 +290,7 @@ constexpr ::UnityEngine::UIElements::PointerDispatchState*& UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerState_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PointerDispatchState*> const&
-UnityEngine::UIElements::EventDispatcher::__cordl_internal_get__pointerState_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::PointerDispatchState* const& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get__pointerState_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerState_k__BackingField;
 }
@@ -314,17 +310,17 @@ constexpr void UnityEngine::UIElements::EventDispatcher::__cordl_internal_set_m_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_GateCount = value;
 }
-constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>*& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_DispatchContexts() {
+constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventDispatcher_DispatchContext>*& UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_DispatchContexts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DispatchContexts;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>*> const&
+constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventDispatcher_DispatchContext>* const&
 UnityEngine::UIElements::EventDispatcher::__cordl_internal_get_m_DispatchContexts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DispatchContexts;
 }
 constexpr void
-UnityEngine::UIElements::EventDispatcher::__cordl_internal_set_m_DispatchContexts(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>* value) {
+UnityEngine::UIElements::EventDispatcher::__cordl_internal_set_m_DispatchContexts(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventDispatcher_DispatchContext>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DispatchContexts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -353,14 +349,14 @@ constexpr void UnityEngine::UIElements::EventDispatcher::__cordl_internal_set__p
   this->____processingEvents_k__BackingField = value;
 }
 inline void UnityEngine::UIElements::EventDispatcher::setStaticF_k_EventQueuePool(
-    ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>*, "k_EventQueuePool",
+    ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>*, "k_EventQueuePool",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher*>::get>(
-      std::forward<::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>*>(value));
+      std::forward<::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>*>(value));
 }
-inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>*
+inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>*
 UnityEngine::UIElements::EventDispatcher::getStaticF_k_EventQueuePool() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>*,
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>*,
                                            "k_EventQueuePool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcher*>::get>();
 }
 inline void UnityEngine::UIElements::EventDispatcher::setStaticF_s_EditorStrategies(
@@ -386,10 +382,6 @@ UnityEngine::UIElements::EventDispatcher::CreateForRuntime(::System::Collections
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventDispatcher*, false>(nullptr, ___internal_method, strategies);
-}
-inline ::UnityEngine::UIElements::EventDispatcher*
-UnityEngine::UIElements::EventDispatcher::New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventDispatcher*>(strategies));
 }
 inline void UnityEngine::UIElements::EventDispatcher::_ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -447,6 +439,10 @@ inline void UnityEngine::UIElements::EventDispatcher::ApplyDispatchingStrategies
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPanel*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt, panel, imguiEventIsInitiallyUsed);
+}
+inline ::UnityEngine::UIElements::EventDispatcher*
+UnityEngine::UIElements::EventDispatcher::New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventDispatcher*>(strategies));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventDispatcher::EventDispatcher() {}

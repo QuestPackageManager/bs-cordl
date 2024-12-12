@@ -13,23 +13,22 @@ class AlertDescription;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AlertDescription);
-// Type: Org.BouncyCastle.Crypto.Tls::AlertDescription
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::AlertDescription*
+// CS Name: Org.BouncyCastle.Crypto.Tls.AlertDescription
 class CORDL_TYPE AlertDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x23ad984, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x23e0c70, size 0x3f4, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t alertDescription);
 
-  /// @brief Method GetText, addr 0x23add78, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x23e1064, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t alertDescription);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AlertDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23adef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e11e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

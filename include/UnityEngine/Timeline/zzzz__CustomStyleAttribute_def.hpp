@@ -12,11 +12,10 @@ class CustomStyleAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::CustomStyleAttribute);
-// Type: UnityEngine.Timeline::CustomStyleAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::CustomStyleAttribute*
+// CS Name: UnityEngine.Timeline.CustomStyleAttribute
 class CORDL_TYPE CustomStyleAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_ussStyle(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47c8008, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482931c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW ussStyle);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomStyleAttribute(CustomStyleAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15883 };
+
   /// @brief Field ussStyle, offset: 0x10, size: 0x8, def value: None
   ::StringW ___ussStyle;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::CustomStyleAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::CustomStyleAttribute, ___ussStyle) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::CustomStyleAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::CustomStyleAttribute);

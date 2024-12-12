@@ -4,9 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -27,6 +29,12 @@ namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
+class MissionResultsViewController__StartFireworksAfterDelay_d__29;
+}
+namespace GlobalNamespace {
+class MissionResultsViewController___c__DisplayClass30_0;
+}
+namespace GlobalNamespace {
 class ResultObjectiveListItem;
 }
 namespace GlobalNamespace {
@@ -35,23 +43,11 @@ class ResultObjectiveListItemsList;
 namespace GlobalNamespace {
 class SongPreviewPlayer;
 }
-namespace GlobalNamespace {
-class __MissionResultsViewController___StartFireworksAfterDelay_d__29;
-}
-namespace GlobalNamespace {
-class __MissionResultsViewController____c__DisplayClass30_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -79,21 +75,20 @@ namespace GlobalNamespace {
 class MissionResultsViewController;
 }
 namespace GlobalNamespace {
-class __MissionResultsViewController___StartFireworksAfterDelay_d__29;
+class MissionResultsViewController__StartFireworksAfterDelay_d__29;
 }
 namespace GlobalNamespace {
-class __MissionResultsViewController____c__DisplayClass30_0;
+class MissionResultsViewController___c__DisplayClass30_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionResultsViewController);
-MARK_REF_PTR_T(::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29);
-MARK_REF_PTR_T(::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0);
-// Type: ::<>c__DisplayClass30_0
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29);
+MARK_REF_PTR_T(::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionResultsViewController::<>c__DisplayClass30_0*
-class CORDL_TYPE __MissionResultsViewController____c__DisplayClass30_0 : public ::System::Object {
+// CS Name: MissionResultsViewController/<>c__DisplayClass30_0
+class CORDL_TYPE MissionResultsViewController___c__DisplayClass30_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -112,9 +107,9 @@ public:
                       put = __cordl_internal_set_missionObjectives)) ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>
       missionObjectives;
 
-  static inline ::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0* New_ctor();
+  static inline ::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <SetDataToUI>b__0, addr 0x3b0ab74, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method <SetDataToUI>b__0, addr 0x3b6abd0, size 0x408, virtual false, abstract: false, final false
   inline void _SetDataToUI_b__0(int32_t idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
 
   constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& __cordl_internal_get___4__this() const;
@@ -141,22 +136,25 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b0ab24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6ab80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MissionResultsViewController____c__DisplayClass30_0();
+  constexpr MissionResultsViewController___c__DisplayClass30_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MissionResultsViewController____c__DisplayClass30_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController___c__DisplayClass30_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MissionResultsViewController____c__DisplayClass30_0(__MissionResultsViewController____c__DisplayClass30_0&&) = delete;
+  MissionResultsViewController___c__DisplayClass30_0(MissionResultsViewController___c__DisplayClass30_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MissionResultsViewController____c__DisplayClass30_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController___c__DisplayClass30_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MissionResultsViewController____c__DisplayClass30_0(__MissionResultsViewController____c__DisplayClass30_0 const&) = delete;
+  MissionResultsViewController___c__DisplayClass30_0(MissionResultsViewController___c__DisplayClass30_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5368 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionResultsViewController> _____4__this;
@@ -170,29 +168,25 @@ public:
   /// @brief Field missionObjectiveResults, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> ___missionObjectiveResults;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5344 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0, ___levelCleared) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0, ___levelCleared) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0, ___missionObjectives) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0, ___missionObjectives) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0, ___missionObjectiveResults) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0, ___missionObjectiveResults) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<StartFireworksAfterDelay>d__29
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionResultsViewController::<StartFireworksAfterDelay>d__29*
-class CORDL_TYPE __MissionResultsViewController___StartFireworksAfterDelay_d__29 : public ::System::Object {
+// CS Name: MissionResultsViewController/<StartFireworksAfterDelay>d__29
+class CORDL_TYPE MissionResultsViewController__StartFireworksAfterDelay_d__29 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -220,30 +214,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b0af80, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b6afdc, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b0b038, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b6b094, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b0b040, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b6b09c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b0b078, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b6b0d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b0af7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b6afd8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& __cordl_internal_get___4__this() const;
 
@@ -261,7 +255,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b0aafc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6ab58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -276,16 +270,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MissionResultsViewController___StartFireworksAfterDelay_d__29();
+  constexpr MissionResultsViewController__StartFireworksAfterDelay_d__29();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MissionResultsViewController___StartFireworksAfterDelay_d__29", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController__StartFireworksAfterDelay_d__29", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MissionResultsViewController___StartFireworksAfterDelay_d__29(__MissionResultsViewController___StartFireworksAfterDelay_d__29&&) = delete;
+  MissionResultsViewController__StartFireworksAfterDelay_d__29(MissionResultsViewController__StartFireworksAfterDelay_d__29&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MissionResultsViewController___StartFireworksAfterDelay_d__29", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController__StartFireworksAfterDelay_d__29", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MissionResultsViewController___StartFireworksAfterDelay_d__29(__MissionResultsViewController___StartFireworksAfterDelay_d__29 const&) = delete;
+  MissionResultsViewController__StartFireworksAfterDelay_d__29(MissionResultsViewController__StartFireworksAfterDelay_d__29 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5369 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -299,34 +296,30 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionResultsViewController> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5345 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29, ___delay) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29, ___delay) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MissionResultsViewController
-// SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionResultsViewController*
+// CS Name: MissionResultsViewController
 class CORDL_TYPE MissionResultsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _StartFireworksAfterDelay_d__29 = ::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29;
+  using _StartFireworksAfterDelay_d__29 = ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29;
 
-  using __c__DisplayClass30_0 = ::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0;
+  using __c__DisplayClass30_0 = ::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0;
 
   /// @brief Field _clearedBannerGo, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__clearedBannerGo, put = __cordl_internal_set__clearedBannerGo)) ::UnityW<::UnityEngine::GameObject> _clearedBannerGo;
@@ -393,33 +386,33 @@ public:
 
   /// @brief Field continueButtonPressedEvent, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get_continueButtonPressedEvent,
-                      put = __cordl_internal_set_continueButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* continueButtonPressedEvent;
+                      put = __cordl_internal_set_continueButtonPressedEvent)) ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* continueButtonPressedEvent;
 
   /// @brief Field retryButtonPressedEvent, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get_retryButtonPressedEvent,
-                      put = __cordl_internal_set_retryButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* retryButtonPressedEvent;
+                      put = __cordl_internal_set_retryButtonPressedEvent)) ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* retryButtonPressedEvent;
 
-  /// @brief Method ContinueButtonPressed, addr 0x3b0ab2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ContinueButtonPressed, addr 0x3b6ab88, size 0x20, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
-  /// @brief Method DidActivate, addr 0x3b0a654, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6a6b0, size 0x190, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b0aac0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b6ab1c, size 0x3c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x3b0a64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b6a6a8, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
   static inline ::GlobalNamespace::MissionResultsViewController* New_ctor();
 
-  /// @brief Method RetryButtonPressed, addr 0x3b0ab4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RetryButtonPressed, addr 0x3b6aba8, size 0x20, virtual false, abstract: false, final false
   inline void RetryButtonPressed();
 
-  /// @brief Method SetDataToUI, addr 0x3b0a7e4, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method SetDataToUI, addr 0x3b6a840, size 0x26c, virtual false, abstract: false, final false
   inline void SetDataToUI();
 
-  /// @brief Method StartFireworksAfterDelay, addr 0x3b0aa50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartFireworksAfterDelay, addr 0x3b6aaac, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartFireworksAfterDelay(float_t delay);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__clearedBannerGo() const;
@@ -458,9 +451,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__levelClearedLocalizationKey();
 
-  constexpr ::GlobalNamespace::MissionCompletionResults*& __cordl_internal_get__missionCompletionResults();
+  constexpr ::GlobalNamespace::MissionCompletionResults* const& __cordl_internal_get__missionCompletionResults() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionCompletionResults*> const& __cordl_internal_get__missionCompletionResults() const;
+  constexpr ::GlobalNamespace::MissionCompletionResults*& __cordl_internal_get__missionCompletionResults();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__missionNameText() const;
 
@@ -486,9 +479,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__startFireworksAfterDelayCoroutine();
+  constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get__startFireworksAfterDelayCoroutine() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__startFireworksAfterDelayCoroutine() const;
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__startFireworksAfterDelayCoroutine();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__successColor() const;
 
@@ -502,13 +495,13 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__successIconGlow();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& __cordl_internal_get_continueButtonPressedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* const& __cordl_internal_get_continueButtonPressedEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*> const& __cordl_internal_get_continueButtonPressedEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& __cordl_internal_get_continueButtonPressedEvent();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& __cordl_internal_get_retryButtonPressedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* const& __cordl_internal_get_retryButtonPressedEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*> const& __cordl_internal_get_retryButtonPressedEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& __cordl_internal_get_retryButtonPressedEvent();
 
   constexpr void __cordl_internal_set__clearedBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
@@ -550,24 +543,24 @@ public:
 
   constexpr void __cordl_internal_set__successIconGlow(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
+  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
 
-  constexpr void __cordl_internal_set_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
+  constexpr void __cordl_internal_set_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
 
-  /// @brief Method .ctor, addr 0x3b0ab6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6abc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_continueButtonPressedEvent, addr 0x3b0a37c, size 0xb4, virtual false, abstract: false, final false
-  inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
+  /// @brief Method add_continueButtonPressedEvent, addr 0x3b6a3d8, size 0xb4, virtual false, abstract: false, final false
+  inline void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
 
-  /// @brief Method add_retryButtonPressedEvent, addr 0x3b0a4e4, size 0xb4, virtual false, abstract: false, final false
-  inline void add_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
+  /// @brief Method add_retryButtonPressedEvent, addr 0x3b6a540, size 0xb4, virtual false, abstract: false, final false
+  inline void add_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
 
-  /// @brief Method remove_continueButtonPressedEvent, addr 0x3b0a430, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
+  /// @brief Method remove_continueButtonPressedEvent, addr 0x3b6a48c, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
 
-  /// @brief Method remove_retryButtonPressedEvent, addr 0x3b0a598, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
+  /// @brief Method remove_retryButtonPressedEvent, addr 0x3b6a5f4, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
 
 protected:
   // Ctor Parameters []
@@ -582,6 +575,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MissionResultsViewController(MissionResultsViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5370 };
 
   /// @brief Field _failedBannerGo, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____failedBannerGo;
@@ -635,10 +631,10 @@ public:
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
   /// @brief Field continueButtonPressedEvent, offset: 0x110, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* ___continueButtonPressedEvent;
+  ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* ___continueButtonPressedEvent;
 
   /// @brief Field retryButtonPressedEvent, offset: 0x118, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* ___retryButtonPressedEvent;
+  ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* ___retryButtonPressedEvent;
 
   /// @brief Field _missionNode, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
@@ -649,14 +645,9 @@ public:
   /// @brief Field _startFireworksAfterDelayCoroutine, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____startFireworksAfterDelayCoroutine;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5346 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionResultsViewController, 0x138>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionResultsViewController, ____failedBannerGo) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionResultsViewController, ____clearedBannerGo) == 0x80, "Offset mismatch!");
@@ -701,10 +692,12 @@ static_assert(offsetof(::GlobalNamespace::MissionResultsViewController, ____miss
 
 static_assert(offsetof(::GlobalNamespace::MissionResultsViewController, ____startFireworksAfterDelayCoroutine) == 0x130, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionResultsViewController, 0x138>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionResultsViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionResultsViewController*, "", "MissionResultsViewController");
-NEED_NO_BOX(::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29*, "", "MissionResultsViewController/<StartFireworksAfterDelay>d__29");
-NEED_NO_BOX(::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0*, "", "MissionResultsViewController/<>c__DisplayClass30_0");
+NEED_NO_BOX(::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__29*, "", "MissionResultsViewController/<StartFireworksAfterDelay>d__29");
+NEED_NO_BOX(::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionResultsViewController___c__DisplayClass30_0*, "", "MissionResultsViewController/<>c__DisplayClass30_0");

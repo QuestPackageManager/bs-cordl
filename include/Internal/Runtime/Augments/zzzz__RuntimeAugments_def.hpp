@@ -17,24 +17,23 @@ class RuntimeAugments;
 }
 // Write type traits
 MARK_REF_PTR_T(::Internal::Runtime::Augments::RuntimeAugments);
-// Type: Internal.Runtime.Augments::RuntimeAugments
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// CS Name: ::Internal.Runtime.Augments::RuntimeAugments*
+// CS Name: Internal.Runtime.Augments.RuntimeAugments
 class CORDL_TYPE RuntimeAugments : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_reflectionExecutionDomainCallbacks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_reflectionExecutionDomainCallbacks,
-                             put = setStaticF_s_reflectionExecutionDomainCallbacks)) ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* s_reflectionExecutionDomainCallbacks;
+  __declspec(property(get = getStaticF_s_reflectionExecutionDomainCallbacks,
+                      put = setStaticF_s_reflectionExecutionDomainCallbacks)) ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* s_reflectionExecutionDomainCallbacks;
 
-  /// @brief Method ReportUnhandledException, addr 0x3c0dae0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReportUnhandledException, addr 0x3c6dbf4, size 0x20, virtual false, abstract: false, final false
   static inline void ReportUnhandledException(::System::Exception* exception);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* getStaticF_s_reflectionExecutionDomainCallbacks();
 
-  /// @brief Method get_Callbacks, addr 0x3c0db00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Callbacks, addr 0x3c6dc14, size 0x58, virtual false, abstract: false, final false
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* get_Callbacks();
 
   static inline void setStaticF_s_reflectionExecutionDomainCallbacks(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* value);

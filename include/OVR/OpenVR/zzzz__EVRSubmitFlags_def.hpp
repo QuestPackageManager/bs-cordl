@@ -12,11 +12,10 @@ struct EVRSubmitFlags;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRSubmitFlags);
-// Type: OVR.OpenVR::EVRSubmitFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRSubmitFlags
+// CS Name: OVR.OpenVR.EVRSubmitFlags
 struct CORDL_TYPE EVRSubmitFlags {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRSubmitFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Submit_Default value: static_cast<int32_t>(0x0)
+  /// @brief Field Submit_Default value: I32(0)
   static ::OVR::OpenVR::EVRSubmitFlags const Submit_Default;
 
-  /// @brief Field Submit_GlRenderBuffer value: static_cast<int32_t>(0x2)
+  /// @brief Field Submit_GlRenderBuffer value: I32(2)
   static ::OVR::OpenVR::EVRSubmitFlags const Submit_GlRenderBuffer;
 
-  /// @brief Field Submit_LensDistortionAlreadyApplied value: static_cast<int32_t>(0x1)
+  /// @brief Field Submit_LensDistortionAlreadyApplied value: I32(1)
   static ::OVR::OpenVR::EVRSubmitFlags const Submit_LensDistortionAlreadyApplied;
 
-  /// @brief Field Submit_Reserved value: static_cast<int32_t>(0x4)
+  /// @brief Field Submit_Reserved value: I32(4)
   static ::OVR::OpenVR::EVRSubmitFlags const Submit_Reserved;
 
-  /// @brief Field Submit_TextureWithDepth value: static_cast<int32_t>(0x10)
+  /// @brief Field Submit_TextureWithDepth value: I32(16)
   static ::OVR::OpenVR::EVRSubmitFlags const Submit_TextureWithDepth;
 
-  /// @brief Field Submit_TextureWithPose value: static_cast<int32_t>(0x8)
+  /// @brief Field Submit_TextureWithPose value: I32(8)
   static ::OVR::OpenVR::EVRSubmitFlags const Submit_TextureWithPose;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRSubmitFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRSubmitFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRSubmitFlags, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRSubmitFlags, "OVR.OpenVR", "EVRSubmitFlags");

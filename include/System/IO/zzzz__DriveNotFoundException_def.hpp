@@ -18,11 +18,10 @@ class DriveNotFoundException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::DriveNotFoundException);
-// Type: System.IO::DriveNotFoundException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::DriveNotFoundException*
+// CS Name: System.IO.DriveNotFoundException
 class CORDL_TYPE DriveNotFoundException : public ::System::IO::IOException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::IO::DriveNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d0384c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d639c0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d038cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d63a40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d038a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d63a1c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

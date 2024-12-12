@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumerableHelpers)
 namespace System::Collections::Generic {
@@ -17,11 +15,10 @@ class EnumerableHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Generic::EnumerableHelpers);
-// Type: System.Collections.Generic::EnumerableHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // Is value type: false
-// CS Name: ::System.Collections.Generic::EnumerableHelpers*
+// CS Name: System.Collections.Generic.EnumerableHelpers
 class CORDL_TYPE EnumerableHelpers : public ::System::Object {
 public:
   // Declarations
@@ -29,7 +26,7 @@ public:
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ToArray(::System::Collections::Generic::IEnumerable_1<T>* source);
 
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T, ::Array<T>*> ToArray(::System::Collections::Generic::IEnumerable_1<T>* source, ByRef<int32_t> length);
+  template <typename T> static inline ::ArrayW<T, ::Array<T>*> ToArray(::System::Collections::Generic::IEnumerable_1<T>* source, ::ByRef<int32_t> length);
 
 protected:
   // Ctor Parameters []

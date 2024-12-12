@@ -15,13 +15,12 @@ template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Threading::SparselyPopulatedArrayAddInfo_1);
-// Type: System.Threading::SparselyPopulatedArrayAddInfo`1
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::System.Threading::SparselyPopulatedArrayAddInfo`1<T>
+// CS Name: System.Threading.SparselyPopulatedArrayAddInfo`1<T>
 struct CORDL_TYPE SparselyPopulatedArrayAddInfo_1 {
 public:
   // Declarations
@@ -46,17 +45,17 @@ public:
   // modifiers: "", def_value: None }]
   constexpr SparselyPopulatedArrayAddInfo_1(::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source, int32_t _index) noexcept;
 
-  /// @brief Field _source, offset: 0x0, size: 0x8, def value: None
-  ::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source;
-
-  /// @brief Field _index, offset: 0x8, size: 0x4, def value: None
-  int32_t _index;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2696 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
+  /// @brief Field _source, offset: 0x0, size: 0x8, def value: None
+  ::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source;
+
+  /// @brief Field _index, offset: 0x8, size: 0x4, def value: None
+  int32_t _index;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

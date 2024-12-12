@@ -12,17 +12,16 @@ class OverridableFloat;
 }
 // Write type traits
 MARK_REF_PTR_T(::StyledUITemplates::OverridableFloat);
-// Type: StyledUITemplates::OverridableFloat
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies StyledUITemplates.OverridableData`1<T>
 namespace StyledUITemplates {
 // Is value type: false
-// CS Name: ::StyledUITemplates::OverridableFloat*
+// CS Name: StyledUITemplates.OverridableFloat
 class CORDL_TYPE OverridableFloat : public ::StyledUITemplates::OverridableData_1<float_t> {
 public:
   // Declarations
   static inline ::StyledUITemplates::OverridableFloat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x401bd40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407cff8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +39,7 @@ public:
   OverridableFloat(OverridableFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

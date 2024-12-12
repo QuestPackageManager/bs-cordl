@@ -11,11 +11,10 @@ class DoesNotReturnIfAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute);
-// Type: System.Diagnostics.CodeAnalysis::DoesNotReturnIfAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
-// CS Name: ::System.Diagnostics.CodeAnalysis::DoesNotReturnIfAttribute*
+// CS Name: System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute
 class CORDL_TYPE DoesNotReturnIfAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__ParameterValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3e15c20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e75ccc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool parameterValue);
 
-  /// @brief Method get_ParameterValue, addr 0x3e15c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterValue, addr 0x3e75cf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParameterValue();
 
 protected:
@@ -52,18 +51,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DoesNotReturnIfAttribute(DoesNotReturnIfAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10042 };
+
   /// @brief Field <ParameterValue>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ParameterValue_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute, ____ParameterValue_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Diagnostics::CodeAnalysis
 NEED_NO_BOX(::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute);

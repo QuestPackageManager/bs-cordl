@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -16,10 +15,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Net {
-struct __HttpListenerRequestUriBuilder__EncodingType;
+struct HttpListenerRequestUriBuilder_EncodingType;
 }
 namespace System::Net {
-struct __HttpListenerRequestUriBuilder__ParsingResult;
+struct HttpListenerRequestUriBuilder_ParsingResult;
 }
 namespace System::Text {
 class Encoding;
@@ -35,38 +34,37 @@ class Uri;
 }
 // Forward declare root types
 namespace System::Net {
-struct __HttpListenerRequestUriBuilder__EncodingType;
+struct HttpListenerRequestUriBuilder_EncodingType;
 }
 namespace System::Net {
-struct __HttpListenerRequestUriBuilder__ParsingResult;
+struct HttpListenerRequestUriBuilder_ParsingResult;
 }
 namespace System::Net {
 class HttpListenerRequestUriBuilder;
 }
 // Write type traits
-MARK_VAL_T(::System::Net::__HttpListenerRequestUriBuilder__EncodingType);
-MARK_VAL_T(::System::Net::__HttpListenerRequestUriBuilder__ParsingResult);
+MARK_VAL_T(::System::Net::HttpListenerRequestUriBuilder_EncodingType);
+MARK_VAL_T(::System::Net::HttpListenerRequestUriBuilder_ParsingResult);
 MARK_REF_PTR_T(::System::Net::HttpListenerRequestUriBuilder);
-// Type: ::ParsingResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::HttpListenerRequestUriBuilder::ParsingResult
-struct CORDL_TYPE __HttpListenerRequestUriBuilder__ParsingResult {
+// CS Name: System.Net.HttpListenerRequestUriBuilder/ParsingResult
+struct CORDL_TYPE HttpListenerRequestUriBuilder_ParsingResult {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HttpListenerRequestUriBuilder__ParsingResult_Unwrapped
-  enum struct ____HttpListenerRequestUriBuilder__ParsingResult_Unwrapped : int32_t {
+  /// @brief Nested struct __HttpListenerRequestUriBuilder_ParsingResult_Unwrapped
+  enum struct __HttpListenerRequestUriBuilder_ParsingResult_Unwrapped : int32_t {
     __E_Success = static_cast<int32_t>(0x0),
     __E_InvalidString = static_cast<int32_t>(0x1),
     __E_EncodingError = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HttpListenerRequestUriBuilder__ParsingResult_Unwrapped() const noexcept {
-    return static_cast<____HttpListenerRequestUriBuilder__ParsingResult_Unwrapped>(this->value__);
+  constexpr operator __HttpListenerRequestUriBuilder_ParsingResult_Unwrapped() const noexcept {
+    return static_cast<__HttpListenerRequestUriBuilder_ParsingResult_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -76,56 +74,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HttpListenerRequestUriBuilder__ParsingResult();
+  constexpr HttpListenerRequestUriBuilder_ParsingResult();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HttpListenerRequestUriBuilder__ParsingResult(int32_t value__) noexcept;
+  constexpr HttpListenerRequestUriBuilder_ParsingResult(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field EncodingError value: I32(2)
+  static ::System::Net::HttpListenerRequestUriBuilder_ParsingResult const EncodingError;
 
-  /// @brief Field EncodingError value: static_cast<int32_t>(0x2)
-  static ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult const EncodingError;
+  /// @brief Field InvalidString value: I32(1)
+  static ::System::Net::HttpListenerRequestUriBuilder_ParsingResult const InvalidString;
 
-  /// @brief Field InvalidString value: static_cast<int32_t>(0x1)
-  static ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult const InvalidString;
-
-  /// @brief Field Success value: static_cast<int32_t>(0x0)
-  static ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult const Success;
+  /// @brief Field Success value: I32(0)
+  static ::System::Net::HttpListenerRequestUriBuilder_ParsingResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9580 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__HttpListenerRequestUriBuilder__ParsingResult, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder_ParsingResult, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__ParsingResult, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerRequestUriBuilder_ParsingResult, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::EncodingType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::HttpListenerRequestUriBuilder::EncodingType
-struct CORDL_TYPE __HttpListenerRequestUriBuilder__EncodingType {
+// CS Name: System.Net.HttpListenerRequestUriBuilder/EncodingType
+struct CORDL_TYPE HttpListenerRequestUriBuilder_EncodingType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HttpListenerRequestUriBuilder__EncodingType_Unwrapped
-  enum struct ____HttpListenerRequestUriBuilder__EncodingType_Unwrapped : int32_t {
+  /// @brief Nested struct __HttpListenerRequestUriBuilder_EncodingType_Unwrapped
+  enum struct __HttpListenerRequestUriBuilder_EncodingType_Unwrapped : int32_t {
     __E_Primary = static_cast<int32_t>(0x0),
     __E_Secondary = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HttpListenerRequestUriBuilder__EncodingType_Unwrapped() const noexcept {
-    return static_cast<____HttpListenerRequestUriBuilder__EncodingType_Unwrapped>(this->value__);
+  constexpr operator __HttpListenerRequestUriBuilder_EncodingType_Unwrapped() const noexcept {
+    return static_cast<__HttpListenerRequestUriBuilder_EncodingType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -135,48 +132,47 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HttpListenerRequestUriBuilder__EncodingType();
+  constexpr HttpListenerRequestUriBuilder_EncodingType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HttpListenerRequestUriBuilder__EncodingType(int32_t value__) noexcept;
+  constexpr HttpListenerRequestUriBuilder_EncodingType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Primary value: I32(0)
+  static ::System::Net::HttpListenerRequestUriBuilder_EncodingType const Primary;
 
-  /// @brief Field Primary value: static_cast<int32_t>(0x0)
-  static ::System::Net::__HttpListenerRequestUriBuilder__EncodingType const Primary;
-
-  /// @brief Field Secondary value: static_cast<int32_t>(0x1)
-  static ::System::Net::__HttpListenerRequestUriBuilder__EncodingType const Secondary;
+  /// @brief Field Secondary value: I32(1)
+  static ::System::Net::HttpListenerRequestUriBuilder_EncodingType const Secondary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9581 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__HttpListenerRequestUriBuilder__EncodingType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder_EncodingType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__EncodingType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerRequestUriBuilder_EncodingType, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: System.Net::HttpListenerRequestUriBuilder
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpListenerRequestUriBuilder*
+// CS Name: System.Net.HttpListenerRequestUriBuilder
 class CORDL_TYPE HttpListenerRequestUriBuilder : public ::System::Object {
 public:
   // Declarations
-  using EncodingType = ::System::Net::__HttpListenerRequestUriBuilder__EncodingType;
+  using EncodingType = ::System::Net::HttpListenerRequestUriBuilder_EncodingType;
 
-  using ParsingResult = ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult;
+  using ParsingResult = ::System::Net::HttpListenerRequestUriBuilder_ParsingResult;
 
   /// @brief Field ansiEncoding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ansiEncoding, put = setStaticF_ansiEncoding)) ::System::Text::Encoding* ansiEncoding;
+  __declspec(property(get = getStaticF_ansiEncoding, put = setStaticF_ansiEncoding)) ::System::Text::Encoding* ansiEncoding;
 
   /// @brief Field cookedUriHost, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_cookedUriHost, put = __cordl_internal_set_cookedUriHost)) ::StringW cookedUriHost;
@@ -206,57 +202,57 @@ public:
   __declspec(property(get = __cordl_internal_get_requestUriString, put = __cordl_internal_set_requestUriString)) ::System::Text::StringBuilder* requestUriString;
 
   /// @brief Field useCookedRequestUrl, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_useCookedRequestUrl, put = setStaticF_useCookedRequestUrl)) bool useCookedRequestUrl;
+  __declspec(property(get = getStaticF_useCookedRequestUrl, put = setStaticF_useCookedRequestUrl)) bool useCookedRequestUrl;
 
   /// @brief Field utf8Encoding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_utf8Encoding, put = setStaticF_utf8Encoding)) ::System::Text::Encoding* utf8Encoding;
+  __declspec(property(get = getStaticF_utf8Encoding, put = setStaticF_utf8Encoding)) ::System::Text::Encoding* utf8Encoding;
 
-  /// @brief Method AddPercentEncodedOctetToRawOctetsList, addr 0x443d8bc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddPercentEncodedOctetToRawOctetsList, addr 0x449ebd0, size 0x150, virtual false, abstract: false, final false
   inline bool AddPercentEncodedOctetToRawOctetsList(::System::Text::Encoding* encoding, ::StringW escapedCharacter);
 
-  /// @brief Method AddSlashToAsteriskOnlyPath, addr 0x443c590, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddSlashToAsteriskOnlyPath, addr 0x449d8a4, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW AddSlashToAsteriskOnlyPath(::StringW path);
 
-  /// @brief Method AppendOctetsPercentEncoded, addr 0x443da0c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method AppendOctetsPercentEncoded, addr 0x449ed20, size 0x368, virtual false, abstract: false, final false
   static inline void AppendOctetsPercentEncoded(::System::Text::StringBuilder* target, ::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method AppendUnicodeCodePointValuePercentEncoded, addr 0x443d5b0, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method AppendUnicodeCodePointValuePercentEncoded, addr 0x449e8c4, size 0x30c, virtual false, abstract: false, final false
   inline bool AppendUnicodeCodePointValuePercentEncoded(::StringW codePoint);
 
-  /// @brief Method Build, addr 0x443c69c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x449d9b0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Uri* Build();
 
-  /// @brief Method BuildRequestUriUsingCookedPath, addr 0x443c784, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingCookedPath, addr 0x449da98, size 0x204, virtual false, abstract: false, final false
   inline void BuildRequestUriUsingCookedPath();
 
-  /// @brief Method BuildRequestUriUsingRawPath, addr 0x443ce6c, size 0x254, virtual false, abstract: false, final false
-  inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult BuildRequestUriUsingRawPath(::System::Text::Encoding* encoding);
+  /// @brief Method BuildRequestUriUsingRawPath, addr 0x449e180, size 0x254, virtual false, abstract: false, final false
+  inline ::System::Net::HttpListenerRequestUriBuilder_ParsingResult BuildRequestUriUsingRawPath(::System::Text::Encoding* encoding);
 
-  /// @brief Method BuildRequestUriUsingRawPath, addr 0x443c988, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingRawPath, addr 0x449dc9c, size 0x300, virtual false, abstract: false, final false
   inline void BuildRequestUriUsingRawPath();
 
-  /// @brief Method EmptyDecodeAndAppendRawOctetsList, addr 0x443d210, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method EmptyDecodeAndAppendRawOctetsList, addr 0x449e524, size 0x3a0, virtual false, abstract: false, final false
   inline bool EmptyDecodeAndAppendRawOctetsList(::System::Text::Encoding* encoding);
 
-  /// @brief Method GetEncoding, addr 0x443ce00, size 0x6c, virtual false, abstract: false, final false
-  static inline ::System::Text::Encoding* GetEncoding(::System::Net::__HttpListenerRequestUriBuilder__EncodingType type);
+  /// @brief Method GetEncoding, addr 0x449e114, size 0x6c, virtual false, abstract: false, final false
+  static inline ::System::Text::Encoding* GetEncoding(::System::Net::HttpListenerRequestUriBuilder_EncodingType type);
 
-  /// @brief Method GetOctetsAsString, addr 0x443dd74, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method GetOctetsAsString, addr 0x449f088, size 0x3ec, virtual false, abstract: false, final false
   static inline ::StringW GetOctetsAsString(::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method GetPath, addr 0x443cc90, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x449dfa4, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW GetPath(::StringW uriString);
 
-  /// @brief Method GetRequestUri, addr 0x443c60c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetRequestUri, addr 0x449d920, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Uri* GetRequestUri(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method LogWarning, addr 0x443cc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x449df9c, size 0x8, virtual false, abstract: false, final false
   inline void LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Net::HttpListenerRequestUriBuilder* New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method ParseRawPath, addr 0x443d0c0, size 0x150, virtual false, abstract: false, final false
-  inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult ParseRawPath(::System::Text::Encoding* encoding);
+  /// @brief Method ParseRawPath, addr 0x449e3d4, size 0x150, virtual false, abstract: false, final false
+  inline ::System::Net::HttpListenerRequestUriBuilder_ParsingResult ParseRawPath(::System::Text::Encoding* encoding);
 
   constexpr ::StringW const& __cordl_internal_get_cookedUriHost() const;
 
@@ -274,9 +270,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_cookedUriScheme();
 
-  constexpr ::System::Collections::Generic::List_1<uint8_t>*& __cordl_internal_get_rawOctets();
+  constexpr ::System::Collections::Generic::List_1<uint8_t>* const& __cordl_internal_get_rawOctets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint8_t>*> const& __cordl_internal_get_rawOctets() const;
+  constexpr ::System::Collections::Generic::List_1<uint8_t>*& __cordl_internal_get_rawOctets();
 
   constexpr ::StringW const& __cordl_internal_get_rawPath() const;
 
@@ -286,13 +282,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_rawUri();
 
+  constexpr ::System::Uri* const& __cordl_internal_get_requestUri() const;
+
   constexpr ::System::Uri*& __cordl_internal_get_requestUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_requestUri() const;
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_requestUriString() const;
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_requestUriString();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_requestUriString() const;
 
   constexpr void __cordl_internal_set_cookedUriHost(::StringW value);
 
@@ -312,7 +308,7 @@ public:
 
   constexpr void __cordl_internal_set_requestUriString(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x443c4cc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d7e0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
   static inline ::System::Text::Encoding* getStaticF_ansiEncoding();
@@ -341,6 +337,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpListenerRequestUriBuilder(HttpListenerRequestUriBuilder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9582 };
+
   /// @brief Field rawUri, offset: 0x10, size: 0x8, def value: None
   ::StringW ___rawUri;
 
@@ -368,14 +367,9 @@ public:
   /// @brief Field requestUri, offset: 0x50, size: 0x8, def value: None
   ::System::Uri* ___requestUri;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9557 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerRequestUriBuilder, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___rawUri) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___cookedUriScheme) == 0x18, "Offset mismatch!");
@@ -394,8 +388,10 @@ static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___rawPath)
 
 static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___requestUri) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerRequestUriBuilder, 0x58>, "Size mismatch!");
+
 } // namespace System::Net
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__HttpListenerRequestUriBuilder__EncodingType, "System.Net", "HttpListenerRequestUriBuilder/EncodingType");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__HttpListenerRequestUriBuilder__ParsingResult, "System.Net", "HttpListenerRequestUriBuilder/ParsingResult");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerRequestUriBuilder_EncodingType, "System.Net", "HttpListenerRequestUriBuilder/EncodingType");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerRequestUriBuilder_ParsingResult, "System.Net", "HttpListenerRequestUriBuilder/ParsingResult");
 NEED_NO_BOX(::System::Net::HttpListenerRequestUriBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerRequestUriBuilder*, "System.Net", "HttpListenerRequestUriBuilder");

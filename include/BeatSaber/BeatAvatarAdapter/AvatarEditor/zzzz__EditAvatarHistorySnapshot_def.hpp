@@ -18,15 +18,14 @@ struct EditAvatarHistorySnapshot;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot);
-// Type: BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarHistorySnapshot
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.BeatAvatarSDK.AvatarPart
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: true
-// CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarHistorySnapshot
+// CS Name: BeatSaber.BeatAvatarAdapter.AvatarEditor.EditAvatarHistorySnapshot
 struct CORDL_TYPE EditAvatarHistorySnapshot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22281b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2253724, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   // Ctor Parameters []
@@ -37,26 +36,26 @@ public:
   // "::BeatSaber::BeatAvatarSDK::AvatarData*", modifiers: "", def_value: None }]
   constexpr EditAvatarHistorySnapshot(::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart, ::BeatSaber::BeatAvatarSDK::AvatarData* avatarData) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17715 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field avatarEditPart, offset: 0x0, size: 0x4, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart;
 
   /// @brief Field avatarData, offset: 0x8, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarData* avatarData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17671 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot, avatarEditPart) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot, avatarData) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot, 0x10>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot, "BeatSaber.BeatAvatarAdapter.AvatarEditor", "EditAvatarHistorySnapshot");

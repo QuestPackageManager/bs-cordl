@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26809b8;
+  constexpr static std::size_t addrs = 0x26b4f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LastUsedBeatmapDataCache::*)(
-    ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*)>(
+    ::ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreSameBeatmapDataCached)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x26809d4;
+  constexpr static std::size_t addrs = 0x26b4f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LastUsedBeatmapDataCache>::get(), "AreSameBeatmapDataCached", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get() })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreRequiredGameplayModifiersSame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2680a94;
+  constexpr static std::size_t addrs = 0x26b504c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreRequiredPlayerSettingsSame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2680ab0;
+  constexpr static std::size_t addrs = 0x26b5068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,12 +90,12 @@ inline void GlobalNamespace::LastUsedBeatmapDataCache::_ctor(::GlobalNamespace::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapData, beatmapKey, environmentInfo, gameplayModifiers, playerSpecificSettings);
 }
-inline bool GlobalNamespace::LastUsedBeatmapDataCache::AreSameBeatmapDataCached(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
+inline bool GlobalNamespace::LastUsedBeatmapDataCache::AreSameBeatmapDataCached(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                                 ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                                 ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LastUsedBeatmapDataCache>::get(), "AreSameBeatmapDataCached", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get() })));
@@ -115,10 +115,10 @@ inline bool GlobalNamespace::LastUsedBeatmapDataCache::AreRequiredPlayerSettings
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, first, second);
 }
-// Ctor Parameters [CppParam { name: "cachedReadonlyBeatmapData", ty: "::GlobalNamespace::IReadonlyBeatmapData*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_beatmapKey", ty:
-// "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "_environmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("nullptr")
-// }, CppParam { name: "_gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_playerSpecificSettings", ty:
-// "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "cachedReadonlyBeatmapData", ty: "::GlobalNamespace::IReadonlyBeatmapData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_beatmapKey", ty:
+// "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "_environmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "_gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_playerSpecificSettings", ty:
+// "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::LastUsedBeatmapDataCache::LastUsedBeatmapDataCache(::GlobalNamespace::IReadonlyBeatmapData* cachedReadonlyBeatmapData, ::GlobalNamespace::BeatmapKey _beatmapKey,
                                                                                 ::GlobalNamespace::IEnvironmentInfo* _environmentInfo, ::GlobalNamespace::GameplayModifiers* _gameplayModifiers,
                                                                                 ::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings) noexcept {

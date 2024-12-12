@@ -3,25 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VoipPCMSourceNative)
-namespace Oculus::Platform {
-class IVoipPCMSource;
-}
 // Forward declare root types
 namespace Oculus::Platform {
 class VoipPCMSourceNative;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::VoipPCMSourceNative);
-// Type: Oculus.Platform::VoipPCMSourceNative
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.IVoipPCMSource, System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::VoipPCMSourceNative*
+// CS Name: Oculus.Platform.VoipPCMSourceNative
 class CORDL_TYPE VoipPCMSourceNative : public ::System::Object {
 public:
   // Declarations
@@ -31,18 +27,18 @@ public:
   /// @brief Convert operator to "::Oculus::Platform::IVoipPCMSource"
   constexpr operator ::Oculus::Platform::IVoipPCMSource*() noexcept;
 
-  /// @brief Method GetPCM, addr 0x3f2d18c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetPCM, addr 0x3f8d238, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length);
 
   static inline ::Oculus::Platform::VoipPCMSourceNative* New_ctor();
 
-  /// @brief Method PeekSizeElements, addr 0x3f2d220, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method PeekSizeElements, addr 0x3f8d2cc, size 0x60, virtual true, abstract: false, final true
   inline int32_t PeekSizeElements();
 
-  /// @brief Method SetSenderID, addr 0x3f2d218, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetSenderID, addr 0x3f8d2c4, size 0x8, virtual true, abstract: false, final true
   inline void SetSenderID(uint64_t senderID);
 
-  /// @brief Method Update, addr 0x3f2d280, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x3f8d32c, size 0x4, virtual true, abstract: false, final true
   inline void Update();
 
   constexpr uint64_t const& __cordl_internal_get_senderID() const;
@@ -51,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_senderID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f2c6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8c764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Oculus::Platform::IVoipPCMSource"
@@ -71,18 +67,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VoipPCMSourceNative(VoipPCMSourceNative const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15484 };
+
   /// @brief Field senderID, offset: 0x10, size: 0x8, def value: None
   uint64_t ___senderID;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::VoipPCMSourceNative, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::VoipPCMSourceNative, ___senderID) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::VoipPCMSourceNative, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::VoipPCMSourceNative);

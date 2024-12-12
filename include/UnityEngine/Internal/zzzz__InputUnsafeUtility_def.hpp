@@ -14,48 +14,47 @@ class InputUnsafeUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Internal::InputUnsafeUtility);
-// Type: UnityEngine.Internal::InputUnsafeUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Internal {
 // Is value type: false
-// CS Name: ::UnityEngine.Internal::InputUnsafeUtility*
+// CS Name: UnityEngine.Internal.InputUnsafeUtility
 class CORDL_TYPE InputUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAxis, addr 0x4883f68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAxis, addr 0x48e85f8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAxis(::StringW axisName);
 
-  /// @brief Method GetAxisRaw, addr 0x4883fe0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAxisRaw, addr 0x48e8670, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAxisRaw(::StringW axisName);
 
-  /// @brief Method GetAxisRaw__Unmanaged, addr 0x4885ad8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAxisRaw__Unmanaged, addr 0x48ea168, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAxisRaw__Unmanaged(::cordl_internals::Ptr<uint8_t> axisName, int32_t axisNameLen);
 
-  /// @brief Method GetAxis__Unmanaged, addr 0x4885a94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAxis__Unmanaged, addr 0x48ea124, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAxis__Unmanaged(::cordl_internals::Ptr<uint8_t> axisName, int32_t axisNameLen);
 
-  /// @brief Method GetButton, addr 0x4884058, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetButton, addr 0x48e86e8, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetButton(::StringW buttonName);
 
-  /// @brief Method GetButtonDown, addr 0x48840d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetButtonDown, addr 0x48e8760, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetButtonDown(::StringW buttonName);
 
-  /// @brief Method GetButtonDown__Unmanaged, addr 0x4885b60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButtonDown__Unmanaged, addr 0x48ea1f0, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t GetButtonDown__Unmanaged(::cordl_internals::Ptr<uint8_t> buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetButtonUp__Unmanaged, addr 0x4885ba4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButtonUp__Unmanaged, addr 0x48ea234, size 0x44, virtual false, abstract: false, final false
   static inline bool GetButtonUp__Unmanaged(::cordl_internals::Ptr<uint8_t> buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetButton__Unmanaged, addr 0x4885b1c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButton__Unmanaged, addr 0x48ea1ac, size 0x44, virtual false, abstract: false, final false
   static inline bool GetButton__Unmanaged(::cordl_internals::Ptr<uint8_t> buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetKeyDownString__Unmanaged, addr 0x4885a50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyDownString__Unmanaged, addr 0x48ea0e0, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyDownString__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen);
 
-  /// @brief Method GetKeyString__Unmanaged, addr 0x48859c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyString__Unmanaged, addr 0x48ea058, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyString__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen);
 
-  /// @brief Method GetKeyUpString__Unmanaged, addr 0x4885a0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyUpString__Unmanaged, addr 0x48ea09c, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyUpString__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen);
 
 protected:
@@ -73,7 +72,7 @@ public:
   InputUnsafeUtility(InputUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18613 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

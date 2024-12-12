@@ -12,11 +12,10 @@ class AnimationTriggers;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::AnimationTriggers);
-// Type: UnityEngine.UI::AnimationTriggers
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::AnimationTriggers*
+// CS Name: UnityEngine.UI.AnimationTriggers
 class CORDL_TYPE AnimationTriggers : public ::System::Object {
 public:
   // Declarations
@@ -77,37 +76,37 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedTrigger(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48f03e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4954b90, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledTrigger, addr 0x48f03d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledTrigger, addr 0x4954b80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_disabledTrigger();
 
-  /// @brief Method get_highlightedTrigger, addr 0x48f03a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedTrigger, addr 0x4954b50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_highlightedTrigger();
 
-  /// @brief Method get_normalTrigger, addr 0x48f0390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalTrigger, addr 0x4954b40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_normalTrigger();
 
-  /// @brief Method get_pressedTrigger, addr 0x48f03b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedTrigger, addr 0x4954b60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pressedTrigger();
 
-  /// @brief Method get_selectedTrigger, addr 0x48f03c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedTrigger, addr 0x4954b70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedTrigger();
 
-  /// @brief Method set_disabledTrigger, addr 0x48f03d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disabledTrigger, addr 0x4954b88, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledTrigger(::StringW value);
 
-  /// @brief Method set_highlightedTrigger, addr 0x48f03a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedTrigger, addr 0x4954b58, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedTrigger(::StringW value);
 
-  /// @brief Method set_normalTrigger, addr 0x48f0398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalTrigger, addr 0x4954b48, size 0x8, virtual false, abstract: false, final false
   inline void set_normalTrigger(::StringW value);
 
-  /// @brief Method set_pressedTrigger, addr 0x48f03b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedTrigger, addr 0x4954b68, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedTrigger(::StringW value);
 
-  /// @brief Method set_selectedTrigger, addr 0x48f03c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedTrigger, addr 0x4954b78, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedTrigger(::StringW value);
 
 protected:
@@ -124,23 +123,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationTriggers(AnimationTriggers const&) = delete;
 
-  /// @brief Field m_NormalTrigger, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___m_NormalTrigger;
-
-  /// @brief Field m_HighlightedTrigger, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___m_HighlightedTrigger;
-
-  /// @brief Field m_PressedTrigger, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___m_PressedTrigger;
-
-  /// @brief Field m_SelectedTrigger, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___m_SelectedTrigger;
-
-  /// @brief Field m_DisabledTrigger, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___m_DisabledTrigger;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15027 };
 
   /// @brief Field kDefaultDisabledAnimName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultDisabledAnimName{ u"Disabled" };
@@ -157,11 +141,24 @@ public:
   /// @brief Field kDefaultSelectedAnimName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultSelectedAnimName{ u"Selected" };
 
+  /// @brief Field m_NormalTrigger, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___m_NormalTrigger;
+
+  /// @brief Field m_HighlightedTrigger, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___m_HighlightedTrigger;
+
+  /// @brief Field m_PressedTrigger, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___m_PressedTrigger;
+
+  /// @brief Field m_SelectedTrigger, offset: 0x28, size: 0x8, def value: None
+  ::StringW ___m_SelectedTrigger;
+
+  /// @brief Field m_DisabledTrigger, offset: 0x30, size: 0x8, def value: None
+  ::StringW ___m_DisabledTrigger;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::AnimationTriggers, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UI::AnimationTriggers, ___m_NormalTrigger) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UI::AnimationTriggers, ___m_HighlightedTrigger) == 0x18, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::UnityEngine::UI::AnimationTriggers, ___m_PressedTrigger
 static_assert(offsetof(::UnityEngine::UI::AnimationTriggers, ___m_SelectedTrigger) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UI::AnimationTriggers, ___m_DisabledTrigger) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::AnimationTriggers, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::AnimationTriggers);

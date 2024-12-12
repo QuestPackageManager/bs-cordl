@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(RandomNoteRotation)
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
@@ -20,11 +18,10 @@ class RandomNoteRotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RandomNoteRotation);
-// Type: ::RandomNoteRotation
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies INoteControllerDidInitEvent, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RandomNoteRotation*
+// CS Name: RandomNoteRotation
 class CORDL_TYPE RandomNoteRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -37,15 +34,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x3a9472c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3aee4d0, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x3a948e4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x3aee688, size 0x28, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
   static inline ::GlobalNamespace::RandomNoteRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a947e4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aee588, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::NoteControllerBase> const& __cordl_internal_get__noteController() const;
@@ -60,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a9490c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aee6b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
@@ -80,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RandomNoteRotation(RandomNoteRotation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4135 };
+
   /// @brief Field _noteController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteControllerBase> ____noteController;
 
   /// @brief Field _transform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4125 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomNoteRotation, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::RandomNoteRotation, ____noteController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RandomNoteRotation, ____transform) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomNoteRotation, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RandomNoteRotation);

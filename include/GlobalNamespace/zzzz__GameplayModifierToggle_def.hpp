@@ -27,11 +27,10 @@ class GameplayModifierToggle;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierToggle);
-// Type: ::GameplayModifierToggle
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameplayModifierToggle*
+// CS Name: GameplayModifierToggle
 class CORDL_TYPE GameplayModifierToggle : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -62,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifierToggle* New_ctor();
 
-  /// @brief Method Start, addr 0x3bc76d4, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3c277e8, size 0x37c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> const& __cordl_internal_get__gameplayModifier() const;
@@ -107,13 +106,13 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3bc7a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c27b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayModifier, addr 0x3bc76cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifier, addr 0x3c277e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> get_gameplayModifier();
 
-  /// @brief Method get_toggle, addr 0x3bc76c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x3c277d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
 protected:
@@ -129,6 +128,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierToggle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayModifierToggle(GameplayModifierToggle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };
 
   /// @brief Field _gameplayModifier, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____gameplayModifier;
@@ -151,14 +153,9 @@ public:
   /// @brief Field _positiveColor, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____positiveColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19112 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifierToggle, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameplayModifierToggle, ____gameplayModifier) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayModifierToggle, ____nameText) == 0x28, "Offset mismatch!");
@@ -172,6 +169,8 @@ static_assert(offsetof(::GlobalNamespace::GameplayModifierToggle, ____icon) == 0
 static_assert(offsetof(::GlobalNamespace::GameplayModifierToggle, ____toggle) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayModifierToggle, ____positiveColor) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifierToggle, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifierToggle);

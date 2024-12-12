@@ -18,11 +18,10 @@ class DivideByZeroException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::DivideByZeroException);
-// Type: System::DivideByZeroException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ArithmeticException
 namespace System {
 // Is value type: false
-// CS Name: ::System::DivideByZeroException*
+// CS Name: System.DivideByZeroException
 class CORDL_TYPE DivideByZeroException : public ::System::ArithmeticException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::DivideByZeroException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d721a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd2318, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d72224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd2398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d72200, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd2374, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

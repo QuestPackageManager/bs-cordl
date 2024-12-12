@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 #include "System/Xml/Schema/zzzz__XsdDateTimeFlags_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_dateTimeBase)
@@ -51,11 +50,10 @@ class Datatype_dateTimeBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_dateTimeBase);
-// Type: System.Xml.Schema::Datatype_dateTimeBase
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_anySimpleType, System.Xml.Schema.XsdDateTimeFlags
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_dateTimeBase*
+// CS Name: System.Xml.Schema.Datatype_dateTimeBase
 class CORDL_TYPE Datatype_dateTimeBase : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
@@ -72,24 +70,24 @@ public:
   __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
+  __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
 
   /// @brief Field dateTimeFlags, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_dateTimeFlags, put = __cordl_internal_set_dateTimeFlags)) ::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags;
 
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
+  __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
 
-  /// @brief Method Compare, addr 0x4349208, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x43aa51c, size 0x148, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method CreateValueConverter, addr 0x4349074, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x43aa388, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_dateTimeBase* New_ctor(::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags);
 
-  /// @brief Method TryParseValue, addr 0x4349350, size 0x320, virtual true, abstract: false, final false
-  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
+  /// @brief Method TryParseValue, addr 0x43aa664, size 0x320, virtual true, abstract: false, final false
+  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
   constexpr ::System::Xml::Schema::XsdDateTimeFlags const& __cordl_internal_get_dateTimeFlags() const;
 
@@ -97,29 +95,29 @@ public:
 
   constexpr void __cordl_internal_set_dateTimeFlags(::System::Xml::Schema::XsdDateTimeFlags value);
 
-  /// @brief Method .ctor, addr 0x43490e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43aa3f4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags);
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43491f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43aa50c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x4349080, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x43aa394, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x43491a0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x43aa4b4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TypeCode, addr 0x43490d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43aa3ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x4349200, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x43aa514, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
-  /// @brief Method get_ValueType, addr 0x4349148, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x43aa45c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -140,18 +138,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_dateTimeBase(Datatype_dateTimeBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7532 };
+
   /// @brief Field dateTimeFlags, offset: 0x38, size: 0x4, def value: None
   ::System::Xml::Schema::XsdDateTimeFlags ___dateTimeFlags;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7507 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_dateTimeBase, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::Datatype_dateTimeBase, ___dateTimeFlags) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_dateTimeBase, 0x40>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Datatype_dateTimeBase);

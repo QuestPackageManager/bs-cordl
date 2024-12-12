@@ -36,11 +36,10 @@ class MultiplayerConnectedPlayerInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);
-// Type: ::MultiplayerConnectedPlayerInstaller
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MultiplayerPlayerStartState, Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerConnectedPlayerInstaller*
+// CS Name: MultiplayerConnectedPlayerInstaller
 class CORDL_TYPE MultiplayerConnectedPlayerInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -92,14 +91,14 @@ public:
   /// @brief Field _sceneSetupData, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3b53db8, size 0x9c4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bb555c, size 0xa48, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerInstaller* New_ctor();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> const& __cordl_internal_get__connectedPlayerAudioTimeSyncControllerPrefab() const;
 
@@ -133,13 +132,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>& __cordl_internal_get__multiplayerObstacleControllerPrefab();
 
+  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* const& __cordl_internal_get__playersSpecificSettingsAtGameStartModel() const;
+
   constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __cordl_internal_get__playersSpecificSettingsAtGameStartModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __cordl_internal_get__playersSpecificSettingsAtGameStartModel() const;
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
@@ -163,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3b547b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb5fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -179,6 +178,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerInstaller", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerInstaller(MultiplayerConnectedPlayerInstaller const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4483 };
 
   /// @brief Field _connectedPlayerAudioTimeSyncControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> ____connectedPlayerAudioTimeSyncControllerPrefab;
@@ -213,14 +215,9 @@ public:
   /// @brief Field _playersSpecificSettingsAtGameStartModel, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* ____playersSpecificSettingsAtGameStartModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4470 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerInstaller, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerAudioTimeSyncControllerPrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerBeatmapObjectEventManagerPrefab) == 0x30, "Offset mismatch!");
@@ -242,6 +239,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, _
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____sceneSetupData) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____playersSpecificSettingsAtGameStartModel) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerInstaller, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);

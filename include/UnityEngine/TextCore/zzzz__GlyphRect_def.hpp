@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphRect)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -18,18 +16,17 @@ struct GlyphRect;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::GlyphRect);
-// Type: UnityEngine.TextCore::GlyphRect
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>
 namespace UnityEngine::TextCore {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore::GlyphRect
+// CS Name: UnityEngine.TextCore.GlyphRect
 struct CORDL_TYPE GlyphRect {
 public:
   // Declarations
   __declspec(property(get = get_height)) int32_t height;
 
   /// @brief Field s_ZeroGlyphRect, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_ZeroGlyphRect, put = setStaticF_s_ZeroGlyphRect)) ::UnityEngine::TextCore::GlyphRect s_ZeroGlyphRect;
+  __declspec(property(get = getStaticF_s_ZeroGlyphRect, put = setStaticF_s_ZeroGlyphRect)) ::UnityEngine::TextCore::GlyphRect s_ZeroGlyphRect;
 
   __declspec(property(get = get_width)) int32_t width;
 
@@ -40,33 +37,33 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>*();
 
-  /// @brief Method Equals, addr 0x48ba068, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x491e6f8, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48ba0e0, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x491e770, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::GlyphRect other);
 
-  /// @brief Method GetHashCode, addr 0x48ba004, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x491e694, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x48b9ff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491e688, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y, int32_t width, int32_t height);
 
   static inline ::UnityEngine::TextCore::GlyphRect getStaticF_s_ZeroGlyphRect();
 
-  /// @brief Method get_height, addr 0x48b9f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x491e628, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_width, addr 0x48b9f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x491e620, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method get_x, addr 0x48b9f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x491e610, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x48b9f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x491e618, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method get_zero, addr 0x48b9fa0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x491e630, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::GlyphRect get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>"
@@ -82,6 +79,12 @@ public:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr GlyphRect(int32_t m_X, int32_t m_Y, int32_t m_Width, int32_t m_Height) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18170 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field m_X, offset: 0x0, size: 0x4, def value: None
   int32_t m_X;
 
@@ -94,17 +97,9 @@ public:
   /// @brief Field m_Height, offset: 0xc, size: 0x4, def value: None
   int32_t m_Height;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18090 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::GlyphRect, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::GlyphRect, m_X) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::GlyphRect, m_Y) == 0x4, "Offset mismatch!");
@@ -112,6 +107,8 @@ static_assert(offsetof(::UnityEngine::TextCore::GlyphRect, m_Y) == 0x4, "Offset 
 static_assert(offsetof(::UnityEngine::TextCore::GlyphRect, m_Width) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::GlyphRect, m_Height) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::GlyphRect, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");

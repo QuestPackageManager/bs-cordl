@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(PropertyGetter_2)
 namespace System {
 struct IntPtr;
@@ -19,18 +17,17 @@ template <typename TContainer, typename TValue> class PropertyGetter_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::PropertyGetter_2);
-// Type: Unity.Properties::PropertyGetter`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace Unity::Properties {
 // cpp template
 template <typename TContainer, typename TValue>
 // Is value type: false
-// CS Name: ::Unity.Properties::PropertyGetter`2<TContainer,TValue>*
+// CS Name: Unity.Properties.PropertyGetter`2<TContainer,TValue>
 class CORDL_TYPE PropertyGetter_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TValue Invoke(ByRef<TContainer> container);
+  inline TValue Invoke(::ByRef<TContainer> container);
 
   static inline ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -52,7 +49,7 @@ public:
   PropertyGetter_2(PropertyGetter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

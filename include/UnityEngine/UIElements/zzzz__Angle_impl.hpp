@@ -1,28 +1,27 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Angle.hpp"
-#include "UnityEngine/UIElements/zzzz__Angle_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AngleUnit_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::__Angle__Unit::__Angle__Unit(int32_t value__) noexcept {
+constexpr ::UnityEngine::UIElements::Angle_Unit::Angle_Unit(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__Angle__Unit::__Angle__Unit() {}
-constexpr ::UnityEngine::UIElements::__Angle__Unit UnityEngine::UIElements::__Angle__Unit::Degree{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UIElements::__Angle__Unit UnityEngine::UIElements::__Angle__Unit::Gradian{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UIElements::__Angle__Unit UnityEngine::UIElements::__Angle__Unit::Radian{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UIElements::__Angle__Unit UnityEngine::UIElements::__Angle__Unit::Turn{ static_cast<int32_t>(0x3) };
-constexpr ::UnityEngine::UIElements::__Angle__Unit UnityEngine::UIElements::__Angle__Unit::None{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::UIElements::Angle_Unit::Angle_Unit() {}
+constexpr ::UnityEngine::UIElements::Angle_Unit UnityEngine::UIElements::Angle_Unit::Degree{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::Angle_Unit UnityEngine::UIElements::Angle_Unit::Gradian{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::Angle_Unit UnityEngine::UIElements::Angle_Unit::Radian{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::Angle_Unit UnityEngine::UIElements::Angle_Unit::Turn{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::UIElements::Angle_Unit UnityEngine::UIElements::Angle_Unit::None{ static_cast<int32_t>(0x4) };
 //  Writing Method size for method: ::UnityEngine::UIElements::Angle.None
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Angle (*)()>(&::UnityEngine::UIElements::Angle::None)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a01f24;
+  constexpr static std::size_t addrs = 0x4a66834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Angle>::get(), "None",
@@ -35,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a01f38;
+  constexpr static std::size_t addrs = 0x4a66848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Angle>::get(), "get_value",
@@ -49,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Angle::*)(float_t, ::UnityEngine::UIElements::AngleUnit)>(
     &::UnityEngine::UIElements::Angle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a01f40;
+  constexpr static std::size_t addrs = 0x4a66850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,16 +61,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::Angle._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Angle::*)(float_t, ::UnityEngine::UIElements::__Angle__Unit)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Angle::*)(float_t, ::UnityEngine::UIElements::Angle_Unit)>(
     &::UnityEngine::UIElements::Angle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a01f2c;
+  constexpr static std::size_t addrs = 0x4a6683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Angle>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__Angle__Unit>::get() })));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Angle_Unit>::get() })));
     return ___internal_method;
   }
 };
@@ -80,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::ToDegrees)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a01f4c;
+  constexpr static std::size_t addrs = 0x4a6685c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Angle>::get(), "ToDegrees",
@@ -94,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Angle (*)(float_t)>(
     &::UnityEngine::UIElements::Angle::op_Implicit___UnityEngine__UIElements__Angle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a01fd0;
+  constexpr static std::size_t addrs = 0x4a668e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Angle, ::UnityEngine::UIElements::Angle)>(
     &::UnityEngine::UIElements::Angle::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a01fd8;
+  constexpr static std::size_t addrs = 0x4a668e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Angle::*)(::UnityEngine::UIElements::Angle)>(
     &::UnityEngine::UIElements::Angle::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a02000;
+  constexpr static std::size_t addrs = 0x4a66910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Angle::*)(::System::Object*)>(&::UnityEngine::UIElements::Angle::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a02028;
+  constexpr static std::size_t addrs = 0x4a66938;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a020b4;
+  constexpr static std::size_t addrs = 0x4a669c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::Angle::*)()>(&::UnityEngine::UIElements::Angle::ToString)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4a020dc;
+  constexpr static std::size_t addrs = 0x4a669ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,14 +175,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
-constexpr UnityEngine::UIElements::Angle::operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Angle>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* UnityEngine::UIElements::Angle::i___System__IEquatable_1___UnityEngine__UIElements__Angle_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Angle>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::UIElements::Angle UnityEngine::UIElements::Angle::None() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Angle>::get(), "None",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -201,11 +192,11 @@ inline void UnityEngine::UIElements::Angle::_ctor(float_t value, ::UnityEngine::
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::AngleUnit>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, unit);
 }
-inline void UnityEngine::UIElements::Angle::_ctor(float_t value, ::UnityEngine::UIElements::__Angle__Unit unit) {
+inline void UnityEngine::UIElements::Angle::_ctor(float_t value, ::UnityEngine::UIElements::Angle_Unit unit) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Angle>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__Angle__Unit>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Angle_Unit>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, unit);
 }
 inline float_t UnityEngine::UIElements::Angle::ToDegrees() {
@@ -247,9 +238,17 @@ inline ::StringW UnityEngine::UIElements::Angle::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Angle>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::__Angle__Unit", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::Angle::Angle(float_t m_Value, ::UnityEngine::UIElements::__Angle__Unit m_Unit) noexcept {
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
+constexpr UnityEngine::UIElements::Angle::operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Angle>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* UnityEngine::UIElements::Angle::i___System__IEquatable_1___UnityEngine__UIElements__Angle_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Angle>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::Angle_Unit", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::UnityEngine::UIElements::Angle::Angle(float_t m_Value, ::UnityEngine::UIElements::Angle_Unit m_Unit) noexcept {
   this->m_Value = m_Value;
   this->m_Unit = m_Unit;
 }

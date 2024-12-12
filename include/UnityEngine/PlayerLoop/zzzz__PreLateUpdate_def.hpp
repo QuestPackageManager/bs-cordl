@@ -6,564 +6,549 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PreLateUpdate)
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__AIUpdatePostScript;
+struct PreLateUpdate_AIUpdatePostScript;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ConstraintManagerUpdate;
+struct PreLateUpdate_ConstraintManagerUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__DirectorDeferredEvaluate;
+struct PreLateUpdate_DirectorDeferredEvaluate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__DirectorUpdateAnimationBegin;
+struct PreLateUpdate_DirectorUpdateAnimationBegin;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__DirectorUpdateAnimationEnd;
+struct PreLateUpdate_DirectorUpdateAnimationEnd;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
+struct PreLateUpdate_EndGraphicsJobsAfterScriptUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__LegacyAnimationUpdate;
+struct PreLateUpdate_LegacyAnimationUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ParticleSystemBeginUpdateAll;
+struct PreLateUpdate_ParticleSystemBeginUpdateAll;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__Physics2DLateUpdate;
+struct PreLateUpdate_Physics2DLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__PhysicsLateUpdate;
+struct PreLateUpdate_PhysicsLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
+struct PreLateUpdate_ScriptRunBehaviourLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UIElementsUpdatePanels;
+struct PreLateUpdate_UIElementsUpdatePanels;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UpdateMasterServerInterface;
+struct PreLateUpdate_UpdateMasterServerInterface;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UpdateNetworkManager;
+struct PreLateUpdate_UpdateNetworkManager;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct PreLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__AIUpdatePostScript;
+struct PreLateUpdate_AIUpdatePostScript;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ConstraintManagerUpdate;
+struct PreLateUpdate_ConstraintManagerUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__DirectorDeferredEvaluate;
+struct PreLateUpdate_DirectorDeferredEvaluate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__DirectorUpdateAnimationBegin;
+struct PreLateUpdate_DirectorUpdateAnimationBegin;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__DirectorUpdateAnimationEnd;
+struct PreLateUpdate_DirectorUpdateAnimationEnd;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
+struct PreLateUpdate_EndGraphicsJobsAfterScriptUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__LegacyAnimationUpdate;
+struct PreLateUpdate_LegacyAnimationUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ParticleSystemBeginUpdateAll;
+struct PreLateUpdate_ParticleSystemBeginUpdateAll;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__Physics2DLateUpdate;
+struct PreLateUpdate_Physics2DLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__PhysicsLateUpdate;
+struct PreLateUpdate_PhysicsLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
+struct PreLateUpdate_ScriptRunBehaviourLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UIElementsUpdatePanels;
+struct PreLateUpdate_UIElementsUpdatePanels;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UpdateMasterServerInterface;
+struct PreLateUpdate_UpdateMasterServerInterface;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UpdateNetworkManager;
+struct PreLateUpdate_UpdateNetworkManager;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__AIUpdatePostScript);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__ConstraintManagerUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorDeferredEvaluate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationBegin);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationEnd);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__ParticleSystemBeginUpdateAll);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager);
-// Type: ::Physics2DLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_AIUpdatePostScript);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_ConstraintManagerUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorDeferredEvaluate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationBegin);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationEnd);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_EndGraphicsJobsAfterScriptUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_LegacyAnimationUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_ParticleSystemBeginUpdateAll);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_Physics2DLateUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_PhysicsLateUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_ScriptRunBehaviourLateUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_UIElementsUpdatePanels);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_UpdateMasterServerInterface);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_UpdateNetworkManager);
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::Physics2DLateUpdate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/Physics2DLateUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__Physics2DLateUpdate {
+struct CORDL_TYPE PreLateUpdate_Physics2DLateUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__Physics2DLateUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_Physics2DLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11088 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_Physics2DLateUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::PhysicsLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::PhysicsLateUpdate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/PhysicsLateUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__PhysicsLateUpdate {
+struct CORDL_TYPE PreLateUpdate_PhysicsLateUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__PhysicsLateUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_PhysicsLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11089 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_PhysicsLateUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::AIUpdatePostScript
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::AIUpdatePostScript
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/AIUpdatePostScript
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__AIUpdatePostScript {
+struct CORDL_TYPE PreLateUpdate_AIUpdatePostScript {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__AIUpdatePostScript();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_AIUpdatePostScript();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__AIUpdatePostScript, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_AIUpdatePostScript, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorUpdateAnimationBegin
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::DirectorUpdateAnimationBegin
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationBegin
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__DirectorUpdateAnimationBegin {
+struct CORDL_TYPE PreLateUpdate_DirectorUpdateAnimationBegin {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__DirectorUpdateAnimationBegin();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_DirectorUpdateAnimationBegin();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11091 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationBegin, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationBegin, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::LegacyAnimationUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::LegacyAnimationUpdate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/LegacyAnimationUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__LegacyAnimationUpdate {
+struct CORDL_TYPE PreLateUpdate_LegacyAnimationUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__LegacyAnimationUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_LegacyAnimationUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11092 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_LegacyAnimationUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorUpdateAnimationEnd
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::DirectorUpdateAnimationEnd
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationEnd
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__DirectorUpdateAnimationEnd {
+struct CORDL_TYPE PreLateUpdate_DirectorUpdateAnimationEnd {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__DirectorUpdateAnimationEnd();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_DirectorUpdateAnimationEnd();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11093 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationEnd, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationEnd, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorDeferredEvaluate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::DirectorDeferredEvaluate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/DirectorDeferredEvaluate
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__DirectorDeferredEvaluate {
+struct CORDL_TYPE PreLateUpdate_DirectorDeferredEvaluate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__DirectorDeferredEvaluate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_DirectorDeferredEvaluate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11094 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorDeferredEvaluate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_DirectorDeferredEvaluate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::UIElementsUpdatePanels
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::UIElementsUpdatePanels
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/UIElementsUpdatePanels
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__UIElementsUpdatePanels {
+struct CORDL_TYPE PreLateUpdate_UIElementsUpdatePanels {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__UIElementsUpdatePanels();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_UIElementsUpdatePanels();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11095 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_UIElementsUpdatePanels, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::UpdateNetworkManager
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::UpdateNetworkManager
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/UpdateNetworkManager
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__UpdateNetworkManager {
+struct CORDL_TYPE PreLateUpdate_UpdateNetworkManager {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__UpdateNetworkManager();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_UpdateNetworkManager();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11096 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_UpdateNetworkManager, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::UpdateMasterServerInterface
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::UpdateMasterServerInterface
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/UpdateMasterServerInterface
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__UpdateMasterServerInterface {
+struct CORDL_TYPE PreLateUpdate_UpdateMasterServerInterface {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__UpdateMasterServerInterface();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_UpdateMasterServerInterface();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11097 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_UpdateMasterServerInterface, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::EndGraphicsJobsAfterScriptUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::EndGraphicsJobsAfterScriptUpdate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/EndGraphicsJobsAfterScriptUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate {
+struct CORDL_TYPE PreLateUpdate_EndGraphicsJobsAfterScriptUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_EndGraphicsJobsAfterScriptUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11098 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_EndGraphicsJobsAfterScriptUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::ParticleSystemBeginUpdateAll
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::ParticleSystemBeginUpdateAll
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/ParticleSystemBeginUpdateAll
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__ParticleSystemBeginUpdateAll {
+struct CORDL_TYPE PreLateUpdate_ParticleSystemBeginUpdateAll {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__ParticleSystemBeginUpdateAll();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_ParticleSystemBeginUpdateAll();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11099 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__ParticleSystemBeginUpdateAll, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_ParticleSystemBeginUpdateAll, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::ScriptRunBehaviourLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::ScriptRunBehaviourLateUpdate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/ScriptRunBehaviourLateUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__ScriptRunBehaviourLateUpdate {
+struct CORDL_TYPE PreLateUpdate_ScriptRunBehaviourLateUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__ScriptRunBehaviourLateUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_ScriptRunBehaviourLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_ScriptRunBehaviourLateUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::ConstraintManagerUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::PreLateUpdate::ConstraintManagerUpdate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/ConstraintManagerUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__ConstraintManagerUpdate {
+struct CORDL_TYPE PreLateUpdate_ConstraintManagerUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreLateUpdate__ConstraintManagerUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr PreLateUpdate_ConstraintManagerUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11101 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__ConstraintManagerUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_ConstraintManagerUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: UnityEngine.PlayerLoop::PreLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::UnityEngine.PlayerLoop::PreLateUpdate
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PreLateUpdate {
 public:
   // Declarations
-  using AIUpdatePostScript = ::UnityEngine::PlayerLoop::__PreLateUpdate__AIUpdatePostScript;
+  using AIUpdatePostScript = ::UnityEngine::PlayerLoop::PreLateUpdate_AIUpdatePostScript;
 
-  using ConstraintManagerUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__ConstraintManagerUpdate;
+  using ConstraintManagerUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_ConstraintManagerUpdate;
 
-  using DirectorDeferredEvaluate = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorDeferredEvaluate;
+  using DirectorDeferredEvaluate = ::UnityEngine::PlayerLoop::PreLateUpdate_DirectorDeferredEvaluate;
 
-  using DirectorUpdateAnimationBegin = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationBegin;
+  using DirectorUpdateAnimationBegin = ::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationBegin;
 
-  using DirectorUpdateAnimationEnd = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationEnd;
+  using DirectorUpdateAnimationEnd = ::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationEnd;
 
-  using EndGraphicsJobsAfterScriptUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
+  using EndGraphicsJobsAfterScriptUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_EndGraphicsJobsAfterScriptUpdate;
 
-  using LegacyAnimationUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate;
+  using LegacyAnimationUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_LegacyAnimationUpdate;
 
-  using ParticleSystemBeginUpdateAll = ::UnityEngine::PlayerLoop::__PreLateUpdate__ParticleSystemBeginUpdateAll;
+  using ParticleSystemBeginUpdateAll = ::UnityEngine::PlayerLoop::PreLateUpdate_ParticleSystemBeginUpdateAll;
 
-  using Physics2DLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate;
+  using Physics2DLateUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_Physics2DLateUpdate;
 
-  using PhysicsLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate;
+  using PhysicsLateUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_PhysicsLateUpdate;
 
-  using ScriptRunBehaviourLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate;
+  using ScriptRunBehaviourLateUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_ScriptRunBehaviourLateUpdate;
 
-  using UIElementsUpdatePanels = ::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels;
+  using UIElementsUpdatePanels = ::UnityEngine::PlayerLoop::PreLateUpdate_UIElementsUpdatePanels;
 
-  using UpdateMasterServerInterface = ::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface;
+  using UpdateMasterServerInterface = ::UnityEngine::PlayerLoop::PreLateUpdate_UpdateMasterServerInterface;
 
-  using UpdateNetworkManager = ::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager;
+  using UpdateNetworkManager = ::UnityEngine::PlayerLoop::PreLateUpdate_UpdateNetworkManager;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PreLateUpdate();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11102 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -573,17 +558,17 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLate
 
 } // namespace UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__AIUpdatePostScript, "UnityEngine.PlayerLoop", "PreLateUpdate/AIUpdatePostScript");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__ConstraintManagerUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/ConstraintManagerUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorDeferredEvaluate, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorDeferredEvaluate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationBegin, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorUpdateAnimationBegin");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationEnd, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorUpdateAnimationEnd");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/EndGraphicsJobsAfterScriptUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/LegacyAnimationUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__ParticleSystemBeginUpdateAll, "UnityEngine.PlayerLoop", "PreLateUpdate/ParticleSystemBeginUpdateAll");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/Physics2DLateUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/PhysicsLateUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/ScriptRunBehaviourLateUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels, "UnityEngine.PlayerLoop", "PreLateUpdate/UIElementsUpdatePanels");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface, "UnityEngine.PlayerLoop", "PreLateUpdate/UpdateMasterServerInterface");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager, "UnityEngine.PlayerLoop", "PreLateUpdate/UpdateNetworkManager");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_AIUpdatePostScript, "UnityEngine.PlayerLoop", "PreLateUpdate/AIUpdatePostScript");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_ConstraintManagerUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/ConstraintManagerUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorDeferredEvaluate, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorDeferredEvaluate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationBegin, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorUpdateAnimationBegin");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationEnd, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorUpdateAnimationEnd");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_EndGraphicsJobsAfterScriptUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/EndGraphicsJobsAfterScriptUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_LegacyAnimationUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/LegacyAnimationUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_ParticleSystemBeginUpdateAll, "UnityEngine.PlayerLoop", "PreLateUpdate/ParticleSystemBeginUpdateAll");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_Physics2DLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/Physics2DLateUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_PhysicsLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/PhysicsLateUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_ScriptRunBehaviourLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/ScriptRunBehaviourLateUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_UIElementsUpdatePanels, "UnityEngine.PlayerLoop", "PreLateUpdate/UIElementsUpdatePanels");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_UpdateMasterServerInterface, "UnityEngine.PlayerLoop", "PreLateUpdate/UpdateMasterServerInterface");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_UpdateNetworkManager, "UnityEngine.PlayerLoop", "PreLateUpdate/UpdateNetworkManager");

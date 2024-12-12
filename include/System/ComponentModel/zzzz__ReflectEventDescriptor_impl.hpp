@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(::System::Type*, ::System::Reflection::EventInfo*)>(
     &::System::ComponentModel::ReflectEventDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x43f7288;
+  constexpr static std::size_t addrs = 0x445859c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(::System::Collections::IList*)>(
     &::System::ComponentModel::ReflectEventDescriptor::FillAttributes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43f73fc;
+  constexpr static std::size_t addrs = 0x4458710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(
     ::System::Reflection::EventInfo*, ::System::Collections::IList*)>(&::System::ComponentModel::ReflectEventDescriptor::FillEventInfoAttribute)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x43f78a4;
+  constexpr static std::size_t addrs = 0x4458bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)()>(
     &::System::ComponentModel::ReflectEventDescriptor::FillMethods)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x43f7464;
+  constexpr static std::size_t addrs = 0x4458778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(
     ::System::Reflection::MethodInfo*, ::System::Collections::IList*)>(&::System::ComponentModel::ReflectEventDescriptor::FillSingleMethodAttribute)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x43f7bd0;
+  constexpr static std::size_t addrs = 0x4458ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__type() const {
+constexpr ::System::Type* const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
@@ -100,7 +100,7 @@ constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentClass;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__componentClass() const {
+constexpr ::System::Type* const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__componentClass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentClass;
 }
@@ -112,7 +112,7 @@ constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEven
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__addMethod() const {
+constexpr ::System::Reflection::MethodInfo* const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__addMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addMethod;
 }
@@ -124,7 +124,7 @@ constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEven
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__removeMethod() const {
+constexpr ::System::Reflection::MethodInfo* const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__removeMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeMethod;
 }
@@ -136,7 +136,7 @@ constexpr ::System::Reflection::EventInfo*& System::ComponentModel::ReflectEvent
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____realEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::EventInfo*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__realEvent() const {
+constexpr ::System::Reflection::EventInfo* const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__realEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____realEvent;
 }
@@ -155,9 +155,6 @@ constexpr bool const& System::ComponentModel::ReflectEventDescriptor::__cordl_in
 constexpr void System::ComponentModel::ReflectEventDescriptor::__cordl_internal_set__filledMethods(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____filledMethods = value;
-}
-inline ::System::ComponentModel::ReflectEventDescriptor* System::ComponentModel::ReflectEventDescriptor::New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ReflectEventDescriptor*>(componentClass, eventInfo));
 }
 inline void System::ComponentModel::ReflectEventDescriptor::_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -189,6 +186,9 @@ inline void System::ComponentModel::ReflectEventDescriptor::FillSingleMethodAttr
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, realMethodInfo, attributes);
+}
+inline ::System::ComponentModel::ReflectEventDescriptor* System::ComponentModel::ReflectEventDescriptor::New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ReflectEventDescriptor*>(componentClass, eventInfo));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ReflectEventDescriptor::ReflectEventDescriptor() {}

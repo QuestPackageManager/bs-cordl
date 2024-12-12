@@ -3,8 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Queue)
@@ -12,22 +15,16 @@ namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
-class __Queue__QueueDebugView;
+class Queue_QueueDebugView;
 }
 namespace System::Collections {
-class __Queue__QueueEnumerator;
+class Queue_QueueEnumerator;
 }
 namespace System {
 class Array;
-}
-namespace System {
-class ICloneable;
 }
 namespace System {
 class Object;
@@ -37,21 +34,20 @@ namespace System::Collections {
 class Queue;
 }
 namespace System::Collections {
-class __Queue__QueueDebugView;
+class Queue_QueueDebugView;
 }
 namespace System::Collections {
-class __Queue__QueueEnumerator;
+class Queue_QueueEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Queue);
-MARK_REF_PTR_T(::System::Collections::__Queue__QueueDebugView);
-MARK_REF_PTR_T(::System::Collections::__Queue__QueueEnumerator);
-// Type: ::QueueEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Collections::Queue_QueueDebugView);
+MARK_REF_PTR_T(::System::Collections::Queue_QueueEnumerator);
+// Dependencies System.Collections.IEnumerator, System.ICloneable, System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::Queue::QueueEnumerator*
-class CORDL_TYPE __Queue__QueueEnumerator : public ::System::Object {
+// CS Name: System.Collections.Queue/QueueEnumerator
+class CORDL_TYPE Queue_QueueEnumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Object* Current;
@@ -74,28 +70,28 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3d5ac00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3dbad74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x3d5ac08, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3dbad7c, size 0xcc, virtual true, abstract: false, final false
   inline bool MoveNext();
 
-  static inline ::System::Collections::__Queue__QueueEnumerator* New_ctor(::System::Collections::Queue* q);
+  static inline ::System::Collections::Queue_QueueEnumerator* New_ctor(::System::Collections::Queue* q);
 
-  /// @brief Method Reset, addr 0x3d5ad64, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3dbaed8, size 0x88, virtual true, abstract: false, final false
   inline void Reset();
 
-  constexpr ::System::Object*& __cordl_internal_get__currentElement();
+  constexpr ::System::Object* const& __cordl_internal_get__currentElement() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentElement() const;
+  constexpr ::System::Object*& __cordl_internal_get__currentElement();
 
   constexpr int32_t const& __cordl_internal_get__index() const;
 
   constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr ::System::Collections::Queue*& __cordl_internal_get__q();
+  constexpr ::System::Collections::Queue* const& __cordl_internal_get__q() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Queue*> const& __cordl_internal_get__q() const;
+  constexpr ::System::Collections::Queue*& __cordl_internal_get__q();
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
@@ -109,10 +105,10 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d5aa18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbab8c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Queue* q);
 
-  /// @brief Method get_Current, addr 0x3d5acd4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3dbae48, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -124,16 +120,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Queue__QueueEnumerator();
+  constexpr Queue_QueueEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Queue__QueueEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Queue__QueueEnumerator(__Queue__QueueEnumerator&&) = delete;
+  Queue_QueueEnumerator(Queue_QueueEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Queue__QueueEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueEnumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Queue__QueueEnumerator(__Queue__QueueEnumerator const&) = delete;
+  Queue_QueueEnumerator(Queue_QueueEnumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3781 };
 
   /// @brief Field _q, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Queue* ____q;
@@ -147,44 +146,40 @@ public:
   /// @brief Field _currentElement, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____currentElement;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3781 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::__Queue__QueueEnumerator, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Collections::Queue_QueueEnumerator, ____q) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____q) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Queue_QueueEnumerator, ____index) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____index) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Queue_QueueEnumerator, ____version) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____version) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Queue_QueueEnumerator, ____currentElement) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____currentElement) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Collections::Queue_QueueEnumerator, 0x28>, "Size mismatch!");
 
 } // namespace System::Collections
-// Type: ::QueueDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::Queue::QueueDebugView*
-class CORDL_TYPE __Queue__QueueDebugView : public ::System::Object {
+// CS Name: System.Collections.Queue/QueueDebugView
+class CORDL_TYPE Queue_QueueDebugView : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Queue__QueueDebugView();
+  constexpr Queue_QueueDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Queue__QueueDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueDebugView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Queue__QueueDebugView(__Queue__QueueDebugView&&) = delete;
+  Queue_QueueDebugView(Queue_QueueDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Queue__QueueDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueDebugView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Queue__QueueDebugView(__Queue__QueueDebugView const&) = delete;
+  Queue_QueueDebugView(Queue_QueueDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3782 };
@@ -192,20 +187,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::__Queue__QueueDebugView, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Collections::Queue_QueueDebugView, 0x10>, "Size mismatch!");
 
 } // namespace System::Collections
-// Type: System.Collections::Queue
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.ICloneable, System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::System.Collections::Queue*
+// CS Name: System.Collections.Queue
 class CORDL_TYPE Queue : public ::System::Object {
 public:
   // Declarations
-  using QueueDebugView = ::System::Collections::__Queue__QueueDebugView;
+  using QueueDebugView = ::System::Collections::Queue_QueueDebugView;
 
-  using QueueEnumerator = ::System::Collections::__Queue__QueueEnumerator;
+  using QueueEnumerator = ::System::Collections::Queue_QueueEnumerator;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -243,22 +237,22 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3d5a494, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3dba608, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyTo, addr 0x3d5a5f4, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dba768, size 0x1e4, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Dequeue, addr 0x3d5aa68, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Dequeue, addr 0x3dbabdc, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Object* Dequeue();
 
-  /// @brief Method Enqueue, addr 0x3d5a7d8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x3dba94c, size 0xfc, virtual true, abstract: false, final false
   inline void Enqueue(::System::Object* obj);
 
-  /// @brief Method GetElement, addr 0x3d5abc0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x3dbad34, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* GetElement(int32_t i);
 
-  /// @brief Method GetEnumerator, addr 0x3d5a9c0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dbab34, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Queue* New_ctor();
@@ -269,10 +263,10 @@ public:
 
   static inline ::System::Collections::Queue* New_ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method Peek, addr 0x3d5ab30, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3dbaca4, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method SetCapacity, addr 0x3d5a8d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x3dbaa48, size 0xec, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__array() const;
@@ -291,9 +285,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
   constexpr int32_t const& __cordl_internal_get__tail() const;
 
@@ -317,25 +311,25 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d5a048, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dba1bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d5a20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dba380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x3d5a054, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dba1c8, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t growFactor);
 
-  /// @brief Method .ctor, addr 0x3d5a214, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dba388, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method get_Count, addr 0x3d5a48c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dba600, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3d5a578, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dba6ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x3d5a580, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dba6f4, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -361,6 +355,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Queue(Queue const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3783 };
+
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ____array;
 
@@ -382,14 +379,9 @@ public:
   /// @brief Field _syncRoot, offset: 0x30, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3783 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::Queue, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Collections::Queue, ____array) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Collections::Queue, ____head) == 0x18, "Offset mismatch!");
@@ -404,10 +396,12 @@ static_assert(offsetof(::System::Collections::Queue, ____version) == 0x28, "Offs
 
 static_assert(offsetof(::System::Collections::Queue, ____syncRoot) == 0x30, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Collections::Queue, 0x38>, "Size mismatch!");
+
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::Queue);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Queue*, "System.Collections", "Queue");
-NEED_NO_BOX(::System::Collections::__Queue__QueueDebugView);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::__Queue__QueueDebugView*, "System.Collections", "Queue/QueueDebugView");
-NEED_NO_BOX(::System::Collections::__Queue__QueueEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::__Queue__QueueEnumerator*, "System.Collections", "Queue/QueueEnumerator");
+NEED_NO_BOX(::System::Collections::Queue_QueueDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Queue_QueueDebugView*, "System.Collections", "Queue/QueueDebugView");
+NEED_NO_BOX(::System::Collections::Queue_QueueEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Queue_QueueEnumerator*, "System.Collections", "Queue/QueueEnumerator");

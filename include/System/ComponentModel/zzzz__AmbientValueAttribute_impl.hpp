@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::AmbientValueAttribute::*)()>(
     &::System::ComponentModel::AmbientValueAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e55a8;
+  constexpr static std::size_t addrs = 0x44468bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::AmbientValueAttribute*>::get(),
@@ -21,7 +21,7 @@ constexpr ::System::Object*& System::ComponentModel::AmbientValueAttribute::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Value_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::ComponentModel::AmbientValueAttribute::__cordl_internal_get__Value_k__BackingField() const {
+constexpr ::System::Object* const& System::ComponentModel::AmbientValueAttribute::__cordl_internal_get__Value_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Value_k__BackingField;
 }

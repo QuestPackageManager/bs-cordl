@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CADObjRef)
 namespace System::Runtime::Remoting {
@@ -16,11 +15,10 @@ class CADObjRef;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADObjRef);
-// Type: System.Runtime.Remoting.Messaging::CADObjRef
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::CADObjRef*
+// CS Name: System.Runtime.Remoting.Messaging.CADObjRef
 class CORDL_TYPE CADObjRef : public ::System::Object {
 public:
   // Declarations
@@ -43,9 +41,9 @@ public:
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_TypeInfo();
 
-  constexpr ::System::Runtime::Remoting::ObjRef*& __cordl_internal_get_objref();
+  constexpr ::System::Runtime::Remoting::ObjRef* const& __cordl_internal_get_objref() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ObjRef*> const& __cordl_internal_get_objref() const;
+  constexpr ::System::Runtime::Remoting::ObjRef*& __cordl_internal_get_objref();
 
   constexpr void __cordl_internal_set_SourceDomain(int32_t value);
 
@@ -53,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_objref(::System::Runtime::Remoting::ObjRef* value);
 
-  /// @brief Method .ctor, addr 0x3c860bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce6230, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
 protected:
@@ -70,6 +68,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CADObjRef(CADObjRef const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3152 };
+
   /// @brief Field objref, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::ObjRef* ___objref;
 
@@ -79,19 +80,16 @@ public:
   /// @brief Field TypeInfo, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___TypeInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3152 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADObjRef, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADObjRef, ___objref) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADObjRef, ___SourceDomain) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADObjRef, ___TypeInfo) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADObjRef, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADObjRef);

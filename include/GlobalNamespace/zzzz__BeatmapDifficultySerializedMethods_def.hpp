@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapDifficultySerializedMethods)
 namespace GlobalNamespace {
@@ -16,18 +15,17 @@ class BeatmapDifficultySerializedMethods;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultySerializedMethods);
-// Type: ::BeatmapDifficultySerializedMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapDifficultySerializedMethods*
+// CS Name: BeatmapDifficultySerializedMethods
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x2215208, size 0x164, virtual false, abstract: false, final false
-  static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
+  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x224027c, size 0x164, virtual false, abstract: false, final false
+  static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ::ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
 
-  /// @brief Method SerializedName, addr 0x2215170, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x22401e4, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -45,7 +43,7 @@ public:
   BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17033 };
 
   /// @brief Field kDifficultyEasySerializedName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDifficultyEasySerializedName{ u"Easy" };

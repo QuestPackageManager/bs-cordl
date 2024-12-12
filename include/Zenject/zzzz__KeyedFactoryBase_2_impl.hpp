@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Zenject/KeyedFactoryBase_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IValidatable_impl.hpp"
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -12,87 +13,76 @@
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
-template <typename TBase, typename TKey> inline void Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::setStaticF___9(::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* value) {
-  ::cordl_internals::setStaticField<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get>(
-      std::forward<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>(value));
+template <typename TBase, typename TKey> inline void Zenject::KeyedFactoryBase_2___c<TBase, TKey>::setStaticF___9(::Zenject::KeyedFactoryBase_2___c<TBase, TKey>* value) {
+  ::cordl_internals::setStaticField<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get>(
+      std::forward<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>(value));
 }
-template <typename TBase, typename TKey> inline ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get>();
+template <typename TBase, typename TKey> inline ::Zenject::KeyedFactoryBase_2___c<TBase, TKey>* Zenject::KeyedFactoryBase_2___c<TBase, TKey>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get>();
 }
 template <typename TBase, typename TKey>
-inline void Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::setStaticF___9__12_0(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* value) {
+inline void Zenject::KeyedFactoryBase_2___c<TBase, TKey>::setStaticF___9__12_0(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>*, "<>9__12_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>*>(value));
 }
-template <typename TBase, typename TKey>
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::getStaticF___9__12_0() {
+template <typename TBase, typename TKey> inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* Zenject::KeyedFactoryBase_2___c<TBase, TKey>::getStaticF___9__12_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>*, "<>9__12_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get>();
 }
 template <typename TBase, typename TKey>
-inline void Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::setStaticF___9__12_1(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* value) {
+inline void Zenject::KeyedFactoryBase_2___c<TBase, TKey>::setStaticF___9__12_1(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>*, "<>9__12_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>*>(value));
 }
 template <typename TBase, typename TKey>
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::getStaticF___9__12_1() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* Zenject::KeyedFactoryBase_2___c<TBase, TKey>::getStaticF___9__12_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>*, "<>9__12_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get>();
 }
-template <typename TBase, typename TKey> inline ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>());
-}
-template <typename TBase, typename TKey> inline void Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get(), ".ctor",
+template <typename TBase, typename TKey> inline void Zenject::KeyedFactoryBase_2___c<TBase, TKey>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TBase, typename TKey> inline TKey Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::_Initialize_b__12_0(::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>* x) {
+template <typename TBase, typename TKey> inline TKey Zenject::KeyedFactoryBase_2___c<TBase, TKey>::_Initialize_b__12_0(::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get(), "<Initialize>b__12_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get(), "<Initialize>b__12_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method, x);
 }
-template <typename TBase, typename TKey> inline ::System::Type* Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::_Initialize_b__12_1(::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>* x) {
+template <typename TBase, typename TKey> inline ::System::Type* Zenject::KeyedFactoryBase_2___c<TBase, TKey>::_Initialize_b__12_1(::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get(), "<Initialize>b__12_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get(), "<Initialize>b__12_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, x);
 }
-template <typename TBase, typename TKey> inline ::System::Object* Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+template <typename TBase, typename TKey> inline ::System::Object* Zenject::KeyedFactoryBase_2___c<TBase, TKey>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-template <typename TBase, typename TKey> inline ::Zenject::InjectTypeInfo* Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*>::get(),
+template <typename TBase, typename TKey> inline ::Zenject::InjectTypeInfo* Zenject::KeyedFactoryBase_2___c<TBase, TKey>::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+template <typename TBase, typename TKey> inline ::Zenject::KeyedFactoryBase_2___c<TBase, TKey>* Zenject::KeyedFactoryBase_2___c<TBase, TKey>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactoryBase_2___c<TBase, TKey>*>());
+}
 // Ctor Parameters []
-template <typename TBase, typename TKey> constexpr ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::__KeyedFactoryBase_2____c() {}
-/// @brief Convert operator to "::Zenject::IValidatable"
-template <typename TBase, typename TKey> constexpr Zenject::KeyedFactoryBase_2<TBase, TKey>::operator ::Zenject::IValidatable*() noexcept {
-  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IValidatable"
-template <typename TBase, typename TKey> constexpr ::Zenject::IValidatable* Zenject::KeyedFactoryBase_2<TBase, TKey>::i___Zenject__IValidatable() noexcept {
-  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
-}
+template <typename TBase, typename TKey> constexpr ::Zenject::KeyedFactoryBase_2___c<TBase, TKey>::KeyedFactoryBase_2___c() {}
 template <typename TBase, typename TKey> constexpr ::Zenject::DiContainer*& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-template <typename TBase, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__container() const {
+template <typename TBase, typename TKey> constexpr ::Zenject::DiContainer* const& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -106,8 +96,7 @@ constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2
   return this->____typePairs;
 }
 template <typename TBase, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*> const&
-Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typePairs() const {
+constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* const& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typePairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typePairs;
 }
@@ -121,8 +110,7 @@ template <typename TBase, typename TKey> constexpr ::System::Collections::Generi
   return this->____typeMap;
 }
 template <typename TBase, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*> const&
-Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typeMap() const {
+constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* const& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typeMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeMap;
 }
@@ -135,7 +123,7 @@ template <typename TBase, typename TKey> constexpr ::System::Type*& Zenject::Key
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackType;
 }
-template <typename TBase, typename TKey> constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__fallbackType() const {
+template <typename TBase, typename TKey> constexpr ::System::Type* const& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__fallbackType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackType;
 }
@@ -197,9 +185,6 @@ inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::KeyedFactoryBase_2<TBase,
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDerived>::get() }));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(nullptr, ___internal_method, container, key);
 }
-template <typename TBase, typename TKey> inline ::Zenject::KeyedFactoryBase_2<TBase, TKey>* Zenject::KeyedFactoryBase_2<TBase, TKey>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>());
-}
 template <typename TBase, typename TKey> inline void Zenject::KeyedFactoryBase_2<TBase, TKey>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -237,6 +222,17 @@ template <typename TBase, typename TKey> inline ::Zenject::InjectTypeInfo* Zenje
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TBase, typename TKey> inline ::Zenject::KeyedFactoryBase_2<TBase, TKey>* Zenject::KeyedFactoryBase_2<TBase, TKey>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>());
+}
+/// @brief Convert operator to "::Zenject::IValidatable"
+template <typename TBase, typename TKey> constexpr Zenject::KeyedFactoryBase_2<TBase, TKey>::operator ::Zenject::IValidatable*() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IValidatable"
+template <typename TBase, typename TKey> constexpr ::Zenject::IValidatable* Zenject::KeyedFactoryBase_2<TBase, TKey>::i___Zenject__IValidatable() noexcept {
+  return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TBase, typename TKey> constexpr ::Zenject::KeyedFactoryBase_2<TBase, TKey>::KeyedFactoryBase_2() {}

@@ -5,40 +5,38 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSystemPerfMetrics)
 namespace GlobalNamespace {
-class __OVRNetwork__OVRNetworkTcpServer;
+class OVRNetwork_OVRNetworkTcpServer;
 }
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+class OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer;
 }
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__PerfMetrics;
+class OVRSystemPerfMetrics_PerfMetrics;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRSystemPerfMetrics;
 }
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+class OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer;
 }
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__PerfMetrics;
+class OVRSystemPerfMetrics_PerfMetrics;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRSystemPerfMetrics);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics);
-// Type: ::PerfMetrics
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer);
+MARK_REF_PTR_T(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRSystemPerfMetrics::PerfMetrics*
-class CORDL_TYPE __OVRSystemPerfMetrics__PerfMetrics : public ::System::Object {
+// CS Name: OVRSystemPerfMetrics/PerfMetrics
+class CORDL_TYPE OVRSystemPerfMetrics_PerfMetrics : public ::System::Object {
 public:
   // Declarations
   /// @brief Field appCpuTime, offset 0x20, size 0x4
@@ -136,12 +134,12 @@ public:
   /// @brief Field systemGpuUtilPercentage_IsValid, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_systemGpuUtilPercentage_IsValid, put = __cordl_internal_set_systemGpuUtilPercentage_IsValid)) bool systemGpuUtilPercentage_IsValid;
 
-  /// @brief Method LoadFromJSON, addr 0x3fe70dc, size 0x954, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSON, addr 0x4047188, size 0x954, virtual false, abstract: false, final false
   inline bool LoadFromJSON(::StringW json);
 
-  static inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* New_ctor();
+  static inline ::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics* New_ctor();
 
-  /// @brief Method ToJSON, addr 0x3fe6908, size 0x730, virtual false, abstract: false, final false
+  /// @brief Method ToJSON, addr 0x40469b4, size 0x730, virtual false, abstract: false, final false
   inline ::StringW ToJSON();
 
   constexpr float_t const& __cordl_internal_get_appCpuTime() const;
@@ -330,22 +328,25 @@ public:
 
   constexpr void __cordl_internal_set_systemGpuUtilPercentage_IsValid(bool value);
 
-  /// @brief Method .ctor, addr 0x3fe81e4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4048290, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRSystemPerfMetrics__PerfMetrics();
+  constexpr OVRSystemPerfMetrics_PerfMetrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__PerfMetrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_PerfMetrics", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OVRSystemPerfMetrics__PerfMetrics(__OVRSystemPerfMetrics__PerfMetrics&&) = delete;
+  OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__PerfMetrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_PerfMetrics", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OVRSystemPerfMetrics__PerfMetrics(__OVRSystemPerfMetrics__PerfMetrics const&) = delete;
+  OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetrics const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8493 };
 
   /// @brief Field frameCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___frameCount;
@@ -440,175 +441,170 @@ public:
   /// @brief Field deviceCpuCoreUtilPercentage, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ___deviceCpuCoreUtilPercentage;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8468 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, 0x98>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___frameCount) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___frameCount) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___frameTime) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___frameTime) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deltaFrameTime) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deltaFrameTime) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___appCpuTime_IsValid) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appCpuTime_IsValid) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___appCpuTime) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appCpuTime) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___appGpuTime_IsValid) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appGpuTime_IsValid) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___appGpuTime) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appGpuTime) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorCpuTime_IsValid) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorCpuTime_IsValid) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorCpuTime) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorCpuTime) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorGpuTime_IsValid) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorGpuTime_IsValid) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorGpuTime) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorGpuTime) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorDroppedFrameCount_IsValid) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorDroppedFrameCount_IsValid) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorDroppedFrameCount) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorDroppedFrameCount) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorSpaceWarpMode_IsValid) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorSpaceWarpMode_IsValid) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___compositorSpaceWarpMode) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorSpaceWarpMode) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___systemGpuUtilPercentage_IsValid) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemGpuUtilPercentage_IsValid) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___systemGpuUtilPercentage) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemGpuUtilPercentage) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___systemCpuUtilAveragePercentage_IsValid) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilAveragePercentage_IsValid) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___systemCpuUtilAveragePercentage) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilAveragePercentage) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___systemCpuUtilWorstPercentage_IsValid) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilWorstPercentage_IsValid) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___systemCpuUtilWorstPercentage) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilWorstPercentage) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceCpuClockFrequencyInMHz_IsValid) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockFrequencyInMHz_IsValid) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceCpuClockFrequencyInMHz) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockFrequencyInMHz) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceGpuClockFrequencyInMHz_IsValid) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockFrequencyInMHz_IsValid) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceGpuClockFrequencyInMHz) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockFrequencyInMHz) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceCpuClockLevel_IsValid) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockLevel_IsValid) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceCpuClockLevel) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockLevel) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceGpuClockLevel_IsValid) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockLevel_IsValid) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceGpuClockLevel) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockLevel) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceCpuCoreUtilPercentage_IsValid) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuCoreUtilPercentage_IsValid) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, ___deviceCpuCoreUtilPercentage) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuCoreUtilPercentage) == 0x90, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics, 0x98>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRSystemPerfMetricsTcpServer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*
-class CORDL_TYPE __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer : public ::UnityEngine::MonoBehaviour {
+// CS Name: OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer
+class CORDL_TYPE OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field listeningPort, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_listeningPort, put = __cordl_internal_set_listeningPort)) int32_t listeningPort;
 
   /// @brief Field singleton, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton)) ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> singleton;
+  __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton)) ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* singleton;
 
   /// @brief Field tcpServer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer)) ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* tcpServer;
+  __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer)) ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* tcpServer;
 
-  /// @brief Method GatherPerfMetrics, addr 0x3fe8508, size 0x300, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* GatherPerfMetrics();
+  /// @brief Method GatherPerfMetrics, addr 0x40485b4, size 0x300, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics* GatherPerfMetrics();
 
-  static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* New_ctor();
+  static inline ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3fe83e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4048490, size 0xa0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3fe829c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4048348, size 0x148, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3fe8484, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4048530, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get_listeningPort() const;
 
   constexpr int32_t& __cordl_internal_get_listeningPort();
 
-  constexpr ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*& __cordl_internal_get_tcpServer();
+  constexpr ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* const& __cordl_internal_get_tcpServer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*> const& __cordl_internal_get_tcpServer() const;
+  constexpr ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer*& __cordl_internal_get_tcpServer();
 
   constexpr void __cordl_internal_set_listeningPort(int32_t value);
 
-  constexpr void __cordl_internal_set_tcpServer(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* value);
+  constexpr void __cordl_internal_set_tcpServer(::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* value);
 
-  /// @brief Method .ctor, addr 0x3fe8808, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40488b4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
+  static inline ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* getStaticF_singleton();
 
-  static inline void setStaticF_singleton(::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> value);
+  static inline void setStaticF_singleton(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer();
+  constexpr OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer&&) = delete;
+  OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer const&) = delete;
+  OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8494 };
 
   /// @brief Field tcpServer, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* ___tcpServer;
+  ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* ___tcpServer;
 
   /// @brief Field listeningPort, offset: 0x28, size: 0x4, def value: None
   int32_t ___listeningPort;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8469 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer, ___tcpServer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___tcpServer) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer, ___listeningPort) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___listeningPort) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRSystemPerfMetrics
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRSystemPerfMetrics*
+// CS Name: OVRSystemPerfMetrics
 class CORDL_TYPE OVRSystemPerfMetrics : public ::System::Object {
 public:
   // Declarations
-  using OVRSystemPerfMetricsTcpServer = ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+  using OVRSystemPerfMetricsTcpServer = ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer;
 
-  using PerfMetrics = ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics;
+  using PerfMetrics = ::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics;
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fe6900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40469ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -638,7 +634,7 @@ public:
   static constexpr int32_t TcpListeningPort{ static_cast<int32_t>(0x7ea3) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -648,7 +644,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSystemPerfMe
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSystemPerfMetrics);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSystemPerfMetrics*, "", "OVRSystemPerfMetrics");
-NEED_NO_BOX(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer*, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
-NEED_NO_BOX(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");
+NEED_NO_BOX(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer*, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
+NEED_NO_BOX(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");

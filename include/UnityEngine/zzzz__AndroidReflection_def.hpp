@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(AndroidReflection)
 namespace System {
 class Exception;
@@ -26,70 +25,69 @@ class AndroidReflection;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AndroidReflection);
-// Type: UnityEngine::AndroidReflection
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AndroidReflection*
+// CS Name: UnityEngine.AndroidReflection
 class CORDL_TYPE AndroidReflection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_FieldGetDeclaringClass, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FieldGetDeclaringClass, put = setStaticF_s_FieldGetDeclaringClass)) ::System::IntPtr s_FieldGetDeclaringClass;
+  __declspec(property(get = getStaticF_s_FieldGetDeclaringClass, put = setStaticF_s_FieldGetDeclaringClass)) ::System::IntPtr s_FieldGetDeclaringClass;
 
   /// @brief Field s_ReflectionHelperClass, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperClass, put = setStaticF_s_ReflectionHelperClass)) ::UnityEngine::GlobalJavaObjectRef* s_ReflectionHelperClass;
+  __declspec(property(get = getStaticF_s_ReflectionHelperClass, put = setStaticF_s_ReflectionHelperClass)) ::UnityEngine::GlobalJavaObjectRef* s_ReflectionHelperClass;
 
   /// @brief Field s_ReflectionHelperGetConstructorID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetConstructorID, put = setStaticF_s_ReflectionHelperGetConstructorID)) ::System::IntPtr s_ReflectionHelperGetConstructorID;
+  __declspec(property(get = getStaticF_s_ReflectionHelperGetConstructorID, put = setStaticF_s_ReflectionHelperGetConstructorID)) ::System::IntPtr s_ReflectionHelperGetConstructorID;
 
   /// @brief Field s_ReflectionHelperGetFieldID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldID, put = setStaticF_s_ReflectionHelperGetFieldID)) ::System::IntPtr s_ReflectionHelperGetFieldID;
+  __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldID, put = setStaticF_s_ReflectionHelperGetFieldID)) ::System::IntPtr s_ReflectionHelperGetFieldID;
 
   /// @brief Field s_ReflectionHelperGetFieldSignature, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldSignature, put = setStaticF_s_ReflectionHelperGetFieldSignature)) ::System::IntPtr s_ReflectionHelperGetFieldSignature;
+  __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldSignature, put = setStaticF_s_ReflectionHelperGetFieldSignature)) ::System::IntPtr s_ReflectionHelperGetFieldSignature;
 
   /// @brief Field s_ReflectionHelperGetMethodID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetMethodID, put = setStaticF_s_ReflectionHelperGetMethodID)) ::System::IntPtr s_ReflectionHelperGetMethodID;
+  __declspec(property(get = getStaticF_s_ReflectionHelperGetMethodID, put = setStaticF_s_ReflectionHelperGetMethodID)) ::System::IntPtr s_ReflectionHelperGetMethodID;
 
   /// @brief Field s_ReflectionHelperNewProxyInstance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperNewProxyInstance, put = setStaticF_s_ReflectionHelperNewProxyInstance)) ::System::IntPtr s_ReflectionHelperNewProxyInstance;
+  __declspec(property(get = getStaticF_s_ReflectionHelperNewProxyInstance, put = setStaticF_s_ReflectionHelperNewProxyInstance)) ::System::IntPtr s_ReflectionHelperNewProxyInstance;
 
   /// @brief Field s_ReflectionHelperSetNativeExceptionOnProxy, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy,
-                             put = setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy)) ::System::IntPtr s_ReflectionHelperSetNativeExceptionOnProxy;
+  __declspec(property(get = getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy,
+                      put = setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy)) ::System::IntPtr s_ReflectionHelperSetNativeExceptionOnProxy;
 
-  /// @brief Method GetConstructorMember, addr 0x47e6e44, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorMember, addr 0x4848158, size 0x188, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorMember(::System::IntPtr jclass, ::StringW signature);
 
-  /// @brief Method GetFieldClass, addr 0x47e73c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetFieldClass, addr 0x48486d8, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldClass(::System::IntPtr field);
 
-  /// @brief Method GetFieldMember, addr 0x47e71c8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetFieldMember, addr 0x48484dc, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldMember(::System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldSignature, addr 0x47e7428, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldSignature, addr 0x484873c, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetFieldSignature(::System::IntPtr field);
 
-  /// @brief Method GetMethodID, addr 0x47e6da8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x48480bc, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodMember, addr 0x47e6fcc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetMethodMember, addr 0x48482e0, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodMember(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetStaticMethodID, addr 0x47e6d0c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetStaticMethodID, addr 0x4848020, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method IsAssignableFrom, addr 0x47e6cec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableFrom, addr 0x4848000, size 0x20, virtual false, abstract: false, final false
   static inline bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
 
-  /// @brief Method IsPrimitive, addr 0x47e6cd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x4847fec, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* t);
 
-  /// @brief Method NewProxyInstance, addr 0x47e74d0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method NewProxyInstance, addr 0x48487e4, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::IntPtr NewProxyInstance(::System::IntPtr player, ::System::IntPtr delegateHandle, ::System::IntPtr interfaze);
 
-  /// @brief Method SetNativeExceptionOnProxy, addr 0x47e471c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetNativeExceptionOnProxy, addr 0x4845a30, size 0x108, virtual false, abstract: false, final false
   static inline void SetNativeExceptionOnProxy(::System::IntPtr proxy, ::System::Exception* e, bool methodNotFound);
 
   static inline ::System::IntPtr getStaticF_s_FieldGetDeclaringClass();
@@ -139,7 +137,7 @@ public:
   AndroidReflection(AndroidReflection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

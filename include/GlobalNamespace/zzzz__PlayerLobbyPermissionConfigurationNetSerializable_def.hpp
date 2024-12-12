@@ -18,11 +18,10 @@ class PlayerLobbyPermissionConfigurationNetSerializable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable);
-// Type: ::PlayerLobbyPermissionConfigurationNetSerializable
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PoolableSerializable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerLobbyPermissionConfigurationNetSerializable*
+// CS Name: PlayerLobbyPermissionConfigurationNetSerializable
 class CORDL_TYPE PlayerLobbyPermissionConfigurationNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
@@ -57,19 +56,19 @@ public:
 
   __declspec(property(get = get_userId)) ::StringW userId;
 
-  /// @brief Method Deserialize, addr 0x26ed194, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x271f6cc, size 0x6c, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26ed0ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x271f5e4, size 0x30, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission,
                                                                                     bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
 
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26ed048, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x271f580, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26ed134, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x271f66c, size 0x60, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get__hasInvitePermission() const;
@@ -108,25 +107,25 @@ public:
 
   constexpr void __cordl_internal_set__userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ed0dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271f614, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasInvitePermission, addr 0x26ed040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasInvitePermission, addr 0x271f578, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
-  /// @brief Method get_hasKickVotePermission, addr 0x26ed038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasKickVotePermission, addr 0x271f570, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
-  /// @brief Method get_hasRecommendBeatmapsPermission, addr 0x26ed028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendBeatmapsPermission, addr 0x271f560, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapsPermission();
 
-  /// @brief Method get_hasRecommendGameplayModifiersPermission, addr 0x26ed030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendGameplayModifiersPermission, addr 0x271f568, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendGameplayModifiersPermission();
 
-  /// @brief Method get_isServerOwner, addr 0x26ed020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isServerOwner, addr 0x271f558, size 0x8, virtual false, abstract: false, final false
   inline bool get_isServerOwner();
 
-  /// @brief Method get_userId, addr 0x26ed018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x271f550, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
 protected:
@@ -142,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerLobbyPermissionConfigurationNetSerializable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerLobbyPermissionConfigurationNetSerializable(PlayerLobbyPermissionConfigurationNetSerializable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17004 };
 
   /// @brief Field _userId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____userId;
@@ -161,14 +163,9 @@ public:
   /// @brief Field _hasInvitePermission, offset: 0x24, size: 0x1, def value: None
   bool ____hasInvitePermission;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16965 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, ____userId) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, ____isServerOwner) == 0x20, "Offset mismatch!");
@@ -180,6 +177,8 @@ static_assert(offsetof(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetS
 static_assert(offsetof(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, ____hasKickVotePermission) == 0x23, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, ____hasInvitePermission) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable);

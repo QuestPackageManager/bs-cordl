@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MaterialController)
 namespace UnityEngine {
 class Material;
@@ -18,11 +17,10 @@ class MaterialController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialController);
-// Type: ::MaterialController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialController*
+// CS Name: MaterialController
 class CORDL_TYPE MaterialController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -37,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialController* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x398f90c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e62dc, size 0x18, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -52,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x398f924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e62f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_material, addr 0x398f904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x39e62d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
 protected:
@@ -72,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialController(MaterialController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16343 };
+
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
   /// @brief Field _renderers, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> ____renderers;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16308 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialController, ____material) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialController, ____renderers) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialController);

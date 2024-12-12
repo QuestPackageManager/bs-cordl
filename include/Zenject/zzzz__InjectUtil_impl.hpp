@@ -10,112 +10,112 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__InjectUtil_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-//  Writing Method size for method: ::Zenject::__InjectUtil____c._ctor
+//  Writing Method size for method: ::Zenject::InjectUtil___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__InjectUtil____c::*)()>(&::Zenject::__InjectUtil____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::InjectUtil___c::*)()>(&::Zenject::InjectUtil___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abbe34;
+  constexpr static std::size_t addrs = 0x4b20744;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__InjectUtil____c._CreateArgList_b__0_0
+//  Writing Method size for method: ::Zenject::InjectUtil___c._CreateArgList_b__0_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::TypeValuePair (::Zenject::__InjectUtil____c::*)(::System::Object*)>(
-    &::Zenject::__InjectUtil____c::_CreateArgList_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::TypeValuePair (::Zenject::InjectUtil___c::*)(::System::Object*)>(
+    &::Zenject::InjectUtil___c::_CreateArgList_b__0_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4abbe3c;
+  constexpr static std::size_t addrs = 0x4b2074c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(), "<CreateArgList>b__0_0", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), "<CreateArgList>b__0_0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__InjectUtil____c.__zenCreate
+//  Writing Method size for method: ::Zenject::InjectUtil___c.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__InjectUtil____c::__zenCreate)> {
+    &::Zenject::InjectUtil___c::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4abbe64;
+  constexpr static std::size_t addrs = 0x4b20774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__InjectUtil____c.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::InjectUtil___c.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__InjectUtil____c::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::InjectUtil___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4abbeb8;
+  constexpr static std::size_t addrs = 0x4b207c8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(),
-                                                                               "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), "__zenCreateInjectTypeInfo",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Zenject::__InjectUtil____c::setStaticF___9(::Zenject::__InjectUtil____c* value) {
-  ::cordl_internals::setStaticField<::Zenject::__InjectUtil____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get>(
-      std::forward<::Zenject::__InjectUtil____c*>(value));
+inline void Zenject::InjectUtil___c::setStaticF___9(::Zenject::InjectUtil___c* value) {
+  ::cordl_internals::setStaticField<::Zenject::InjectUtil___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get>(
+      std::forward<::Zenject::InjectUtil___c*>(value));
 }
-inline ::Zenject::__InjectUtil____c* Zenject::__InjectUtil____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Zenject::__InjectUtil____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get>();
+inline ::Zenject::InjectUtil___c* Zenject::InjectUtil___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Zenject::InjectUtil___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get>();
 }
-inline void Zenject::__InjectUtil____c::setStaticF___9__0_0(::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>* value) {
+inline void Zenject::InjectUtil___c::setStaticF___9__0_0(::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>*, "<>9__0_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get>(
       std::forward<::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>*>(value));
 }
-inline ::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>* Zenject::__InjectUtil____c::getStaticF___9__0_0() {
+inline ::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>* Zenject::InjectUtil___c::getStaticF___9__0_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>*, "<>9__0_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get>();
 }
-inline ::Zenject::__InjectUtil____c* Zenject::__InjectUtil____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__InjectUtil____c*>());
-}
-inline void Zenject::__InjectUtil____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(), ".ctor",
+inline void Zenject::InjectUtil___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Zenject::TypeValuePair Zenject::__InjectUtil____c::_CreateArgList_b__0_0(::System::Object* x) {
+inline ::Zenject::TypeValuePair Zenject::InjectUtil___c::_CreateArgList_b__0_0(::System::Object* x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(), "<CreateArgList>b__0_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), "<CreateArgList>b__0_0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::TypeValuePair, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__InjectUtil____c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::InjectUtil___c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__InjectUtil____c::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__InjectUtil____c*>::get(), "__zenCreateInjectTypeInfo",
+inline ::Zenject::InjectTypeInfo* Zenject::InjectUtil___c::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil___c*>::get(), "__zenCreateInjectTypeInfo",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::InjectUtil___c* Zenject::InjectUtil___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::InjectUtil___c*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__InjectUtil____c::__InjectUtil____c() {}
+constexpr ::Zenject::InjectUtil___c::InjectUtil___c() {}
 //  Writing Method size for method: ::Zenject::InjectUtil.CreateArgList
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (*)(::System::Collections::Generic::IEnumerable_1<::System::Object*>*)>(&::Zenject::InjectUtil::CreateArgList)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4abbb38;
+  constexpr static std::size_t addrs = 0x4b20448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,16 +128,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::System::Type*, ByRef<::System::Object*>)>(&::Zenject::InjectUtil::PopValueWithType)> {
+    static_cast<bool (*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::System::Type*, ::ByRef<::System::Object*>)>(&::Zenject::InjectUtil::PopValueWithType)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4abbc98;
+  constexpr static std::size_t addrs = 0x4b205a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil*>::get(), "PopValueWithType", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
     return ___internal_method;
   }
 };
@@ -236,12 +236,12 @@ inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Zenject
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(nullptr, ___internal_method, param1, param2, param3, param4, param5, param6);
 }
-inline bool Zenject::InjectUtil::PopValueWithType(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgMap, ::System::Type* injectedFieldType, ByRef<::System::Object*> value) {
+inline bool Zenject::InjectUtil::PopValueWithType(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgMap, ::System::Type* injectedFieldType, ::ByRef<::System::Object*> value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectUtil*>::get(), "PopValueWithType", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, extraArgMap, injectedFieldType, value);
 }
 // Ctor Parameters []

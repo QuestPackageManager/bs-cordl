@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneCameraBloomPrePass::*)()>(&::GlobalNamespace::SceneCameraBloomPrePass::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3985ab8;
+  constexpr static std::size_t addrs = 0x39dc3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneCameraBloomPrePass*>::get(), ".ctor",
@@ -54,13 +54,13 @@ constexpr void GlobalNamespace::SceneCameraBloomPrePass::__cordl_internal_set__b
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrepassRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::SceneCameraBloomPrePass* GlobalNamespace::SceneCameraBloomPrePass::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SceneCameraBloomPrePass*>());
-}
 inline void GlobalNamespace::SceneCameraBloomPrePass::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneCameraBloomPrePass*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SceneCameraBloomPrePass* GlobalNamespace::SceneCameraBloomPrePass::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SceneCameraBloomPrePass*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SceneCameraBloomPrePass::SceneCameraBloomPrePass() {}

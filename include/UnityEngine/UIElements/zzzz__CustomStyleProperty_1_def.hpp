@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomStyleProperty_1)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -19,13 +17,12 @@ template <typename T> struct CustomStyleProperty_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::CustomStyleProperty_1);
-// Type: UnityEngine.UIElements::CustomStyleProperty`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::CustomStyleProperty`1<T>
+// CS Name: UnityEngine.UIElements.CustomStyleProperty`1<T>
 struct CORDL_TYPE CustomStyleProperty_1 {
 public:
   // Declarations
@@ -62,14 +59,14 @@ public:
   // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
   constexpr CustomStyleProperty_1(::StringW _name_k__BackingField) noexcept;
 
-  /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x8, def value: None
-  ::StringW _name_k__BackingField;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
+  /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x8, def value: None
+  ::StringW _name_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

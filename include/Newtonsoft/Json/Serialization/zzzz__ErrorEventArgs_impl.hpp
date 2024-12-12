@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::ErrorEventArgs::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorEventArgs::get_CurrentObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e83660;
+  constexpr static std::size_t addrs = 0x3ee370c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorEventArgs*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ErrorContext* (::Newtonsoft::Json::Serialization::ErrorEventArgs::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorEventArgs::get_ErrorContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e83668;
+  constexpr static std::size_t addrs = 0x3ee3714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorEventArgs*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorEventArgs::*)(
     ::System::Object*, ::Newtonsoft::Json::Serialization::ErrorContext*)>(&::Newtonsoft::Json::Serialization::ErrorEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e83670;
+  constexpr static std::size_t addrs = 0x3ee371c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -52,7 +52,7 @@ constexpr ::System::Object*& Newtonsoft::Json::Serialization::ErrorEventArgs::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurrentObject_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Serialization::ErrorEventArgs::__cordl_internal_get__CurrentObject_k__BackingField() const {
+constexpr ::System::Object* const& Newtonsoft::Json::Serialization::ErrorEventArgs::__cordl_internal_get__CurrentObject_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurrentObject_k__BackingField;
 }
@@ -64,8 +64,7 @@ constexpr ::Newtonsoft::Json::Serialization::ErrorContext*& Newtonsoft::Json::Se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ErrorContext_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ErrorContext*> const&
-Newtonsoft::Json::Serialization::ErrorEventArgs::__cordl_internal_get__ErrorContext_k__BackingField() const {
+constexpr ::Newtonsoft::Json::Serialization::ErrorContext* const& Newtonsoft::Json::Serialization::ErrorEventArgs::__cordl_internal_get__ErrorContext_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ErrorContext_k__BackingField;
 }
@@ -83,16 +82,16 @@ inline ::Newtonsoft::Json::Serialization::ErrorContext* Newtonsoft::Json::Serial
                                                                              "get_ErrorContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::ErrorContext*, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* Newtonsoft::Json::Serialization::ErrorEventArgs::New_ctor(::System::Object* currentObject,
-                                                                                                                    ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::ErrorEventArgs*>(currentObject, errorContext));
-}
 inline void Newtonsoft::Json::Serialization::ErrorEventArgs::_ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Serialization::ErrorContext*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentObject, errorContext);
+}
+inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* Newtonsoft::Json::Serialization::ErrorEventArgs::New_ctor(::System::Object* currentObject,
+                                                                                                                    ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::ErrorEventArgs*>(currentObject, errorContext));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ErrorEventArgs::ErrorEventArgs() {}

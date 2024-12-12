@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -23,11 +22,10 @@ struct Scene;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::Scene);
-// Type: UnityEngine.SceneManagement::Scene
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::SceneManagement {
 // Is value type: true
-// CS Name: ::UnityEngine.SceneManagement::Scene
+// CS Name: UnityEngine.SceneManagement.Scene
 struct CORDL_TYPE Scene {
 public:
   // Declarations
@@ -39,49 +37,49 @@ public:
 
   __declspec(property(get = get_rootCount)) int32_t rootCount;
 
-  /// @brief Method Equals, addr 0x485cd34, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48be0ac, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x485cd2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48be0a4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIsLoadedInternal, addr 0x485c820, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetIsLoadedInternal, addr 0x48bdb98, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetIsLoadedInternal(int32_t sceneHandle);
 
-  /// @brief Method GetNameInternal, addr 0x485c7e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNameInternal, addr 0x48bdb5c, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetNameInternal(int32_t sceneHandle);
 
-  /// @brief Method GetRootCountInternal, addr 0x485c85c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRootCountInternal, addr 0x48bdbd4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetRootCountInternal(int32_t sceneHandle);
 
-  /// @brief Method GetRootGameObjects, addr 0x485c9d4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x48bdd4c, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetRootGameObjects();
 
-  /// @brief Method GetRootGameObjects, addr 0x485caac, size 0x274, virtual false, abstract: false, final false
-  inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* rootGameObjects);
+  /// @brief Method GetRootGameObjects, addr 0x48bde24, size 0x274, virtual false, abstract: false, final false
+  inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* rootGameObjects);
 
-  /// @brief Method GetRootGameObjectsInternal, addr 0x485c898, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjectsInternal, addr 0x48bdc10, size 0x44, virtual false, abstract: false, final false
   static inline void GetRootGameObjectsInternal(int32_t sceneHandle, ::System::Object* resultRootList);
 
-  /// @brief Method IsValid, addr 0x485c8e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x48bdc5c, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method IsValidInternal, addr 0x485c7a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValidInternal, addr 0x48bdb20, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidInternal(int32_t sceneHandle);
 
-  /// @brief Method get_handle, addr 0x485c8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x48bdc54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method get_isLoaded, addr 0x485c95c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLoaded, addr 0x48bdcd4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLoaded();
 
-  /// @brief Method get_name, addr 0x485c920, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x48bdc98, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_rootCount, addr 0x485c998, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rootCount, addr 0x48bdd10, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_rootCount();
 
-  /// @brief Method op_Equality, addr 0x485cd20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48be098, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::SceneManagement::Scene lhs, ::UnityEngine::SceneManagement::Scene rhs);
 
   // Ctor Parameters []
@@ -91,21 +89,21 @@ public:
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr Scene(int32_t m_Handle) noexcept;
 
-  /// @brief Field m_Handle, offset: 0x0, size: 0x4, def value: None
-  int32_t m_Handle;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field m_Handle, offset: 0x0, size: 0x4, def value: None
+  int32_t m_Handle;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::Scene, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::SceneManagement::Scene, m_Handle) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::Scene, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::SceneManagement
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::Scene, "UnityEngine.SceneManagement", "Scene");

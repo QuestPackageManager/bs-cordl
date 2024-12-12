@@ -18,11 +18,10 @@ class ResetLocalLeaderboardOnKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResetLocalLeaderboardOnKey);
-// Type: ::ResetLocalLeaderboardOnKey
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.KeyCode, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ResetLocalLeaderboardOnKey*
+// CS Name: ResetLocalLeaderboardOnKey
 class CORDL_TYPE ResetLocalLeaderboardOnKey : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -37,20 +36,20 @@ public:
 
   static inline ::GlobalNamespace::ResetLocalLeaderboardOnKey* New_ctor();
 
-  /// @brief Method Update, addr 0x26d235c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2703bfc, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
-  constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
+  constexpr ::GlobalNamespace::IFileStorage* const& __cordl_internal_get__fileStorage() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get__fileStorage() const;
+  constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
 
   constexpr ::UnityEngine::KeyCode const& __cordl_internal_get__keyCode() const;
 
   constexpr ::UnityEngine::KeyCode& __cordl_internal_get__keyCode();
 
-  constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __cordl_internal_get__localLeaderboardsModel();
+  constexpr ::GlobalNamespace::LocalLeaderboardsModel* const& __cordl_internal_get__localLeaderboardsModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalLeaderboardsModel*> const& __cordl_internal_get__localLeaderboardsModel() const;
+  constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __cordl_internal_get__localLeaderboardsModel();
 
   constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
 
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value);
 
-  /// @brief Method .ctor, addr 0x26d240c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2703cac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResetLocalLeaderboardOnKey(ResetLocalLeaderboardOnKey const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13357 };
+
   /// @brief Field _keyCode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;
 
@@ -84,19 +86,16 @@ public:
   /// @brief Field _localLeaderboardsModel, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::LocalLeaderboardsModel* ____localLeaderboardsModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13327 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResetLocalLeaderboardOnKey, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ResetLocalLeaderboardOnKey, ____keyCode) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResetLocalLeaderboardOnKey, ____fileStorage) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResetLocalLeaderboardOnKey, ____localLeaderboardsModel) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResetLocalLeaderboardOnKey, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResetLocalLeaderboardOnKey);

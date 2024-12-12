@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEvent)
 namespace System::Reflection {
@@ -28,35 +27,34 @@ class UnityEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::UnityEvent);
-// Type: UnityEngine.Events::UnityEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Events.UnityEventBase
 namespace UnityEngine::Events {
 // Is value type: false
-// CS Name: ::UnityEngine.Events::UnityEvent*
+// CS Name: UnityEngine.Events.UnityEvent
 class CORDL_TYPE UnityEvent : public ::UnityEngine::Events::UnityEventBase {
 public:
   // Declarations
   /// @brief Field m_InvokeArray, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
 
-  /// @brief Method AddListener, addr 0x485c244, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x48bd5bc, size 0x2c, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::UnityAction* call);
 
-  /// @brief Method FindMethod_Impl, addr 0x485c318, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method FindMethod_Impl, addr 0x48bd690, size 0x64, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
 
-  /// @brief Method GetDelegate, addr 0x485c270, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x48bd5e8, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method GetDelegate, addr 0x485c37c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x48bd6f4, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method Invoke, addr 0x485c3e4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48bd75c, size 0x180, virtual false, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::Events::UnityEvent* New_ctor();
 
-  /// @brief Method RemoveListener, addr 0x485c2d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x48bd64c, size 0x44, virtual false, abstract: false, final false
   inline void RemoveListener(::UnityEngine::Events::UnityAction* call);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_m_InvokeArray() const;
@@ -65,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x485c23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bd5b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,18 +80,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityEvent(UnityEvent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10986 };
+
   /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_InvokeArray;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10953 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::UnityEvent, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Events::UnityEvent, ___m_InvokeArray) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::UnityEvent, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::UnityEvent);

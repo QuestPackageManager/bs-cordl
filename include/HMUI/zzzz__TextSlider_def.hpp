@@ -3,6 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -16,18 +21,6 @@ namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::UI {
@@ -35,9 +28,6 @@ struct CanvasUpdate;
 }
 namespace UnityEngine::UI {
 class Graphic;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
 }
 namespace UnityEngine {
 struct Color;
@@ -54,11 +44,11 @@ class TextSlider;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::TextSlider);
-// Type: HMUI::TextSlider
-// SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 321, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.EventSystems.IBeginDragHandler, UnityEngine.EventSystems.IDragHandler, UnityEngine.EventSystems.IEventSystemHandler,
+// UnityEngine.EventSystems.IInitializePotentialDragHandler, UnityEngine.UI.ICanvasElement, UnityEngine.UI.Selectable
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::TextSlider*
+// CS Name: HMUI.TextSlider
 class CORDL_TYPE TextSlider : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
@@ -105,7 +95,7 @@ public:
 
   /// @brief Field normalizedValueDidChangeEvent, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get_normalizedValueDidChangeEvent,
-                      put = __cordl_internal_set_normalizedValueDidChangeEvent)) ::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* normalizedValueDidChangeEvent;
+                      put = __cordl_internal_set_normalizedValueDidChangeEvent)) ::System::Action_2<::HMUI::TextSlider*, float_t>* normalizedValueDidChangeEvent;
 
   __declspec(property(get = get_numberOfSteps, put = set_numberOfSteps)) int32_t numberOfSteps;
 
@@ -130,63 +120,63 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
-  /// @brief Method GraphicUpdateComplete, addr 0x399c568, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x39f31d8, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method LayoutComplete, addr 0x399c564, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x39f31d4, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method MayDrag, addr 0x399c830, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MayDrag, addr 0x39f34a0, size 0x64, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::HMUI::TextSlider* New_ctor();
 
-  /// @brief Method OnBeginDrag, addr 0x399c894, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x39f3504, size 0x88, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x399c5bc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39f322c, size 0x24, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrag, addr 0x399c91c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x39f358c, size 0x98, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEnable, addr 0x399c57c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39f31ec, size 0x40, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x399ca54, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x39f36c4, size 0x18, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x399c9b4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x39f3624, size 0xa0, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x399c5e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x39f3250, size 0x44, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method Rebuild, addr 0x399c560, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x39f31d0, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method Refresh, addr 0x399c56c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x39f31dc, size 0x10, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method SetNormalizedValue, addr 0x399b604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNormalizedValue, addr 0x39f2274, size 0x8, virtual false, abstract: false, final false
   inline void SetNormalizedValue(float_t input);
 
-  /// @brief Method SetNormalizedValue, addr 0x399c4cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetNormalizedValue, addr 0x39f313c, size 0x94, virtual false, abstract: false, final false
   inline void SetNormalizedValue(float_t input, bool sendCallback);
 
-  /// @brief Method TextForNormalizedValue, addr 0x399ca6c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TextForNormalizedValue, addr 0x39f36dc, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW TextForNormalizedValue(float_t normalizedValue);
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x399ca88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x39f36f8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
-  /// @brief Method UpdateCachedReferences, addr 0x399c1f4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedReferences, addr 0x39f2e64, size 0x138, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
-  /// @brief Method UpdateDrag, addr 0x399c624, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x39f3294, size 0x20c, virtual false, abstract: false, final false
   inline void UpdateDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method UpdateVisuals, addr 0x399a590, size 0x3d0, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x39f1190, size 0x3d0, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
@@ -233,9 +223,9 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
 
-  constexpr ::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>*& __cordl_internal_get_normalizedValueDidChangeEvent();
+  constexpr ::System::Action_2<::HMUI::TextSlider*, float_t>* const& __cordl_internal_get_normalizedValueDidChangeEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>*> const& __cordl_internal_get_normalizedValueDidChangeEvent() const;
+  constexpr ::System::Action_2<::HMUI::TextSlider*, float_t>*& __cordl_internal_get_normalizedValueDidChangeEvent();
 
   constexpr void __cordl_internal_set__containerRect(::UnityW<::UnityEngine::RectTransform> value);
 
@@ -259,30 +249,30 @@ public:
 
   constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr void __cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* value);
+  constexpr void __cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider*, float_t>* value);
 
-  /// @brief Method .ctor, addr 0x399ad88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f1988, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_normalizedValueDidChangeEvent, addr 0x399a1b8, size 0xb4, virtual false, abstract: false, final false
-  inline void add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* value);
+  /// @brief Method add_normalizedValueDidChangeEvent, addr 0x39f0db8, size 0xb4, virtual false, abstract: false, final false
+  inline void add_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider*, float_t>* value);
 
-  /// @brief Method get_handleRect, addr 0x399c164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handleRect, addr 0x39f2dd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
 
-  /// @brief Method get_handleSize, addr 0x399c32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handleSize, addr 0x39f2f9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_handleSize();
 
-  /// @brief Method get_normalizedValue, addr 0x399a960, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedValue, addr 0x39f1560, size 0xb8, virtual false, abstract: false, final false
   inline float_t get_normalizedValue();
 
-  /// @brief Method get_numberOfSteps, addr 0x399c4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfSteps, addr 0x39f3134, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfSteps();
 
-  /// @brief Method get_separatorSize, addr 0x399c43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separatorSize, addr 0x39f30ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separatorSize();
 
-  /// @brief Method get_valueSize, addr 0x399c3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueSize, addr 0x39f3024, size 0x8, virtual false, abstract: false, final false
   inline float_t get_valueSize();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
@@ -300,31 +290,31 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x399a2f8, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* value);
+  /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x39f0ef8, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider*, float_t>* value);
 
-  /// @brief Method set_handleColor, addr 0x399aa18, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_handleColor, addr 0x39f1618, size 0xc4, virtual false, abstract: false, final false
   inline void set_handleColor(::UnityEngine::Color value);
 
-  /// @brief Method set_handleRect, addr 0x399c16c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_handleRect, addr 0x39f2ddc, size 0x88, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_handleSize, addr 0x399c334, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_handleSize, addr 0x39f2fa4, size 0x80, virtual false, abstract: false, final false
   inline void set_handleSize(float_t value);
 
-  /// @brief Method set_normalizedValue, addr 0x399b0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedValue, addr 0x39f1d48, size 0x8, virtual false, abstract: false, final false
   inline void set_normalizedValue(float_t value);
 
-  /// @brief Method set_numberOfSteps, addr 0x399a128, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_numberOfSteps, addr 0x39f0d28, size 0x90, virtual false, abstract: false, final false
   inline void set_numberOfSteps(int32_t value);
 
-  /// @brief Method set_separatorSize, addr 0x399c444, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_separatorSize, addr 0x39f30b4, size 0x80, virtual false, abstract: false, final false
   inline void set_separatorSize(float_t value);
 
-  /// @brief Method set_valueSize, addr 0x399c3bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_valueSize, addr 0x39f302c, size 0x80, virtual false, abstract: false, final false
   inline void set_valueSize(float_t value);
 
-  /// @brief Method set_valueTextColor, addr 0x399aadc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_valueTextColor, addr 0x39f16dc, size 0x24, virtual false, abstract: false, final false
   inline void set_valueTextColor(::UnityEngine::Color value);
 
 protected:
@@ -340,6 +330,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextSlider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextSlider(TextSlider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16052 };
 
   /// @brief Field _valueText, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
@@ -366,7 +359,7 @@ public:
   float_t ____normalizedValue;
 
   /// @brief Field normalizedValueDidChangeEvent, offset: 0x128, size: 0x8, def value: None
-  ::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* ___normalizedValueDidChangeEvent;
+  ::System::Action_2<::HMUI::TextSlider*, float_t>* ___normalizedValueDidChangeEvent;
 
   /// @brief Field _containerRect, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____containerRect;
@@ -377,14 +370,9 @@ public:
   /// @brief Field _tracker, offset: 0x140, size: 0x1, def value: None
   ::UnityEngine::DrivenRectTransformTracker ____tracker;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16017 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::TextSlider, 0x148>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::TextSlider, ____valueText) == 0x100, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TextSlider, ____handleRect) == 0x108, "Offset mismatch!");
@@ -408,6 +396,8 @@ static_assert(offsetof(::HMUI::TextSlider, ____containerRect) == 0x130, "Offset 
 static_assert(offsetof(::HMUI::TextSlider, ____handleGraphic) == 0x138, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TextSlider, ____tracker) == 0x140, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::TextSlider, 0x148>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::TextSlider);

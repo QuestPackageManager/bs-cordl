@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24b7244;
+  constexpr static std::size_t addrs = 0x24ea530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24b72e8;
+  constexpr static std::size_t addrs = 0x24ea5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x24b735c;
+  constexpr static std::size_t addrs = 0x24ea648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)(int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24b7514;
+  constexpr static std::size_t addrs = 0x24ea800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24b752c;
+  constexpr static std::size_t addrs = 0x24ea818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::DerBitString*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x24b7538;
+  constexpr static std::size_t addrs = 0x24ea824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)(
     int32_t, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24b7520;
+  constexpr static std::size_t addrs = 0x24ea80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::DerBitString*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x24b77b0;
+  constexpr static std::size_t addrs = 0x24eaa9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::GetKey)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x24b7a9c;
+  constexpr static std::size_t addrs = 0x24ead88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::GetPublicKey)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x24b7b70;
+  constexpr static std::size_t addrs = 0x24eae5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::GetParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b7f34;
+  constexpr static std::size_t addrs = 0x24eb220;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::GetObjectInTag)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x24b7bf0;
+  constexpr static std::size_t addrs = 0x24eaedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b7f3c;
+  constexpr static std::size_t addrs = 0x24eb228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,7 +221,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Sec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seq;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::__cordl_internal_get_seq() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::__cordl_internal_get_seq() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seq;
 }
@@ -235,26 +235,17 @@ inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle:
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
 }
-inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key));
-}
 inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(::Org::BouncyCastle::Math::BigInteger* key) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
-}
-inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(orderBitLength, key));
 }
 inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,21 +254,12 @@ inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(int32_t o
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, orderBitLength, key);
 }
-inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key,
-                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key, parameters));
-}
 inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Encodable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, parameters);
-}
-inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key,
-                                                                                                                            ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
-                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key, publicKey, parameters));
 }
 inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
                                                                        ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
@@ -288,10 +270,6 @@ inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(::Org::Bo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Encodable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, publicKey, parameters);
 }
-inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key,
-                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(orderBitLength, key, parameters));
-}
 inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -299,11 +277,6 @@ inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(int32_t o
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Encodable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, orderBitLength, key, parameters);
-}
-inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key,
-                                                                                                                            ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
-                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(orderBitLength, key, publicKey, parameters));
 }
 inline void Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
                                                                        ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
@@ -344,6 +317,33 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Sec::ECPr
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key));
+}
+inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(orderBitLength, key));
+}
+inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key,
+                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key, parameters));
+}
+inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key,
+                                                                                                                            ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
+                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key, publicKey, parameters));
+}
+inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key,
+                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(orderBitLength, key, parameters));
+}
+inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key,
+                                                                                                                            ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
+                                                                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(orderBitLength, key, publicKey, parameters));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::ECPrivateKeyStructure() {}

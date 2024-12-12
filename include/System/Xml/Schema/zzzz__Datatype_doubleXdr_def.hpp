@@ -21,20 +21,19 @@ class Datatype_doubleXdr;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_doubleXdr);
-// Type: System.Xml.Schema::Datatype_doubleXdr
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_double
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_doubleXdr*
+// CS Name: System.Xml.Schema.Datatype_doubleXdr
 class CORDL_TYPE Datatype_doubleXdr : public ::System::Xml::Schema::Datatype_double {
 public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_doubleXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x434dbd0, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x43aeee4, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x4342998, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3cac, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +51,7 @@ public:
   Datatype_doubleXdr(Datatype_doubleXdr const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7574 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

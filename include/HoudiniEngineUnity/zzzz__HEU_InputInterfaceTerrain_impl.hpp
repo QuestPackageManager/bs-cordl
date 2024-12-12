@@ -11,195 +11,195 @@
 #include "UnityEngine/zzzz__TerrainData_def.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain._ctor
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::*)()>(
-    &::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::*)()>(
+    &::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a29e00;
+  constexpr static std::size_t addrs = 0x3a80a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightFieldName() {
+constexpr ::StringW& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightFieldName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightFieldName;
 }
-constexpr ::StringW const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightFieldName() const {
+constexpr ::StringW const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightFieldName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightFieldName;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__heightFieldName(::StringW value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__heightFieldName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____heightFieldName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__parentNodeID() {
+constexpr int32_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__parentNodeID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentNodeID;
 }
-constexpr int32_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__parentNodeID() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__parentNodeID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentNodeID;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__parentNodeID(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__parentNodeID(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____parentNodeID = value;
 }
-constexpr float_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__voxelSize() {
+constexpr float_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__voxelSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____voxelSize;
 }
-constexpr float_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__voxelSize() const {
+constexpr float_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__voxelSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____voxelSize;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__voxelSize(float_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__voxelSize(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____voxelSize = value;
 }
-constexpr ::UnityW<::UnityEngine::Terrain>& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__terrain() {
+constexpr ::UnityW<::UnityEngine::Terrain>& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__terrain() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____terrain;
 }
-constexpr ::UnityW<::UnityEngine::Terrain> const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__terrain() const {
+constexpr ::UnityW<::UnityEngine::Terrain> const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__terrain() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____terrain;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__terrain(::UnityW<::UnityEngine::Terrain> value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__terrain(::UnityW<::UnityEngine::Terrain> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____terrain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::TerrainData>& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__terrainData() {
+constexpr ::UnityW<::UnityEngine::TerrainData>& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__terrainData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____terrainData;
 }
-constexpr ::UnityW<::UnityEngine::TerrainData> const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__terrainData() const {
+constexpr ::UnityW<::UnityEngine::TerrainData> const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__terrainData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____terrainData;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__terrainData(::UnityW<::UnityEngine::TerrainData> value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__terrainData(::UnityW<::UnityEngine::TerrainData> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____terrainData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__numPointsX() {
+constexpr int32_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__numPointsX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numPointsX;
 }
-constexpr int32_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__numPointsX() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__numPointsX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numPointsX;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__numPointsX(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__numPointsX(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numPointsX = value;
 }
-constexpr int32_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__numPointsY() {
+constexpr int32_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__numPointsY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numPointsY;
 }
-constexpr int32_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__numPointsY() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__numPointsY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numPointsY;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__numPointsY(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__numPointsY(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numPointsY = value;
 }
-constexpr ::HoudiniEngineUnity::HAPI_Transform& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__transform() {
+constexpr ::HoudiniEngineUnity::HAPI_Transform& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__transform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
-constexpr ::HoudiniEngineUnity::HAPI_Transform const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__transform() const {
+constexpr ::HoudiniEngineUnity::HAPI_Transform const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__transform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__transform(::HoudiniEngineUnity::HAPI_Transform value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__transform(::HoudiniEngineUnity::HAPI_Transform value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transform = value;
 }
-constexpr float_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightScale() {
+constexpr float_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightScale;
 }
-constexpr float_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightScale() const {
+constexpr float_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightScale;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__heightScale(float_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__heightScale(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____heightScale = value;
 }
-constexpr int32_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightfieldNodeID() {
+constexpr int32_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightfieldNodeID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightfieldNodeID;
 }
-constexpr int32_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightfieldNodeID() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightfieldNodeID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightfieldNodeID;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__heightfieldNodeID(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__heightfieldNodeID(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____heightfieldNodeID = value;
 }
-constexpr int32_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightNodeID() {
+constexpr int32_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightNodeID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightNodeID;
 }
-constexpr int32_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__heightNodeID() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__heightNodeID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightNodeID;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__heightNodeID(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__heightNodeID(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____heightNodeID = value;
 }
-constexpr int32_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__maskNodeID() {
+constexpr int32_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__maskNodeID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maskNodeID;
 }
-constexpr int32_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__maskNodeID() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__maskNodeID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maskNodeID;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__maskNodeID(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__maskNodeID(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maskNodeID = value;
 }
-constexpr int32_t& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__mergeNodeID() {
+constexpr int32_t& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__mergeNodeID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeNodeID;
 }
-constexpr int32_t const& HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_get__mergeNodeID() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_get__mergeNodeID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeNodeID;
 }
-constexpr void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__cordl_internal_set__mergeNodeID(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::__cordl_internal_set__mergeNodeID(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mergeNodeID = value;
 }
-inline ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>());
-}
-inline void HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::_ctor() {
+inline void HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>());
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain() {}
+constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain::HEU_InputInterfaceTerrain_HEU_InputDataTerrain() {}
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_InputInterfaceTerrain._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)()>(
     &::HoudiniEngineUnity::HEU_InputInterfaceTerrain::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a27980;
+  constexpr static std::size_t addrs = 0x3a7e5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), ".ctor",
@@ -211,9 +211,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
-    ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, ::UnityEngine::GameObject*, ByRef<int32_t>)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::CreateInputNodeWithDataUpload)> {
+    ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, ::UnityEngine::GameObject*, ::ByRef<int32_t>)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::CreateInputNodeWithDataUpload)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3a2798c;
+  constexpr static std::size_t addrs = 0x3a7e5fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,17 +227,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
-    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
+    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
     &::HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetMaskLayer)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3a28f70;
+  constexpr static std::size_t addrs = 0x3a7fbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "SetMaskLayer", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
     return ___internal_method;
   }
 };
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_InputInterfaceTerrain::IsThisInputObjectSupported)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3a292fc;
+  constexpr static std::size_t addrs = 0x3a7ff6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,15 +261,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
-    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::CreateHeightFieldInputNode)> {
+    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::CreateHeightFieldInputNode)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3a27fb0;
+  constexpr static std::size_t addrs = 0x3a7ec20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "CreateHeightFieldInputNode", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get() })));
     return ___internal_method;
   }
 };
@@ -277,17 +277,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
-    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
+    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
     &::HoudiniEngineUnity::HEU_InputInterfaceTerrain::UploadHeightValuesWithTransform)> {
   constexpr static std::size_t size = 0x7f0;
-  constexpr static std::size_t addrs = 0x3a280ec;
+  constexpr static std::size_t addrs = 0x3a7ed5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "UploadHeightValuesWithTransform", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
     return ___internal_method;
   }
 };
@@ -295,18 +295,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
-    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>, ByRef<bool>)>(
+    ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>, ::ByRef<bool>)>(
     &::HoudiniEngineUnity::HEU_InputInterfaceTerrain::UploadAlphaMaps)> {
   constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x3a288dc;
+  constexpr static std::size_t addrs = 0x3a7f54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "UploadAlphaMaps", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -314,10 +314,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
-    ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
+    ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, ::StringW, ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
     &::HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetHeightFieldData)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3a2908c;
+  constexpr static std::size_t addrs = 0x3a7fcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,7 +325,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 6>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
     return ___internal_method;
   }
 };
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::UnityEngine::TerrainData*)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetTerrainDataAttributesToHeightField)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3a297e8;
+  constexpr static std::size_t addrs = 0x3a80458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::UnityEngine::TerrainLayer*)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetTerrainLayerAttributesToHeightField)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3a29bfc;
+  constexpr static std::size_t addrs = 0x3a8086c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::UnityEngine::TerrainData*)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetTreePrototypes)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3a29960;
+  constexpr static std::size_t addrs = 0x3a805d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::UnityEngine::TerrainData*)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetTreeInstances)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a29de8;
+  constexpr static std::size_t addrs = 0x3a80a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -402,10 +402,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_InputInterfaceTerrain.GenerateTerrainDataFromGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* (
     ::HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_InputInterfaceTerrain::GenerateTerrainDataFromGameObject)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x3a27b78;
+  constexpr static std::size_t addrs = 0x3a7e7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -414,27 +414,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::HoudiniEngineUnity::HEU_InputInterfaceTerrain* HoudiniEngineUnity::HEU_InputInterfaceTerrain::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>());
-}
 inline void HoudiniEngineUnity::HEU_InputInterfaceTerrain::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject,
-                                                                                         ByRef<int32_t> inputNodeID) {
+                                                                                         ::ByRef<int32_t> inputNodeID) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, connectNodeID, inputObject, inputNodeID);
 }
-inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetMaskLayer(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt,
-                                                                        ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo) {
+inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetMaskLayer(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt,
+                                                                        ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "SetMaskLayer", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, idt, baseVolumeInfo);
 }
 inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject) {
@@ -443,42 +440,42 @@ inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::IsThisInputObjectSupp
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, inputObject);
 }
 inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::CreateHeightFieldInputNode(::HoudiniEngineUnity::HEU_SessionBase* session,
-                                                                                      ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt) {
+                                                                                      ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "CreateHeightFieldInputNode", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, idt);
 }
 inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::UploadHeightValuesWithTransform(::HoudiniEngineUnity::HEU_SessionBase* session,
-                                                                                           ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt,
-                                                                                           ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo) {
+                                                                                           ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt,
+                                                                                           ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "UploadHeightValuesWithTransform", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, idt, volumeInfo);
 }
-inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::UploadAlphaMaps(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt,
-                                                                           ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo, ByRef<bool> bMaskSet) {
+inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::UploadAlphaMaps(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt,
+                                                                           ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo, ::ByRef<bool> bMaskSet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "UploadAlphaMaps", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, idt, baseVolumeInfo, bMaskSet);
 }
 inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetHeightFieldData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t volumeNodeID, int32_t partID,
                                                                               ::ArrayW<float_t, ::Array<float_t>*> heightValues, ::StringW heightFieldName,
-                                                                              ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo) {
+                                                                              ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "SetHeightFieldData", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, volumeNodeID, partID, heightValues, heightFieldName, baseVolumeInfo);
 }
 inline bool HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetTerrainDataAttributesToHeightField(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoNodeID, int32_t partID,
@@ -519,12 +516,14 @@ inline void HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetTreeInstances(::Ho
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TerrainData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, session, geoNodeID, partID, terrainData);
 }
-inline ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*
-HoudiniEngineUnity::HEU_InputInterfaceTerrain::GenerateTerrainDataFromGameObject(::UnityEngine::GameObject* inputObject) {
+inline ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* HoudiniEngineUnity::HEU_InputInterfaceTerrain::GenerateTerrainDataFromGameObject(::UnityEngine::GameObject* inputObject) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>::get(), "GenerateTerrainDataFromGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain*, false>(this, ___internal_method, inputObject);
+  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, false>(this, ___internal_method, inputObject);
+}
+inline ::HoudiniEngineUnity::HEU_InputInterfaceTerrain* HoudiniEngineUnity::HEU_InputInterfaceTerrain::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_InputInterfaceTerrain*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputInterfaceTerrain() {}

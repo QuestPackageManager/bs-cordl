@@ -8,20 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ENetSslConfiguration)
-namespace ENet {
-struct SslMode;
-}
 // Forward declare root types
 namespace ENet {
 struct ENetSslConfiguration;
 }
 // Write type traits
 MARK_VAL_T(::ENet::ENetSslConfiguration);
-// Type: ENet::ENetSslConfiguration
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ENet.SslMode
 namespace ENet {
 // Is value type: true
-// CS Name: ::ENet::ENetSslConfiguration
+// CS Name: ENet.ENetSslConfiguration
 struct CORDL_TYPE ENetSslConfiguration {
 public:
   // Declarations
@@ -36,6 +32,12 @@ public:
   // None }]
   constexpr ENetSslConfiguration(::ENet::SslMode mode, ::StringW certificatePath, ::StringW certificate, ::StringW privateKeyPath, ::StringW privateKey, int32_t validateCertificate,
                                  ::StringW rootCertificatePath, ::StringW rootCertificate, ::StringW hostName) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17730 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field mode, offset: 0x0, size: 0x4, def value: None
   ::ENet::SslMode mode;
@@ -64,17 +66,9 @@ public:
   /// @brief Field hostName, offset: 0x40, size: 0x8, def value: None
   ::StringW hostName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17686 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ENet::ENetSslConfiguration, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::ENet::ENetSslConfiguration, mode) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::ENet::ENetSslConfiguration, certificatePath) == 0x8, "Offset mismatch!");
@@ -92,6 +86,8 @@ static_assert(offsetof(::ENet::ENetSslConfiguration, rootCertificatePath) == 0x3
 static_assert(offsetof(::ENet::ENetSslConfiguration, rootCertificate) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::ENet::ENetSslConfiguration, hostName) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::ENet::ENetSslConfiguration, 0x48>, "Size mismatch!");
 
 } // namespace ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::ENetSslConfiguration, "ENet", "ENetSslConfiguration");

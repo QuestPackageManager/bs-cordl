@@ -12,11 +12,10 @@ class XRConfigurationDataAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::Management::XRConfigurationDataAttribute);
-// Type: UnityEngine.XR.Management::XRConfigurationDataAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// CS Name: ::UnityEngine.XR.Management::XRConfigurationDataAttribute*
+// CS Name: UnityEngine.XR.Management.XRConfigurationDataAttribute
 class CORDL_TYPE XRConfigurationDataAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -46,22 +45,22 @@ public:
 
   constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47ce1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f4d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x47ce1cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f4e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
-  /// @brief Method get_buildSettingsKey, addr 0x47ce1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildSettingsKey, addr 0x482f4c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
-  /// @brief Method get_displayName, addr 0x47ce1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x482f4b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_buildSettingsKey, addr 0x47ce1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildSettingsKey, addr 0x482f4d0, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
-  /// @brief Method set_displayName, addr 0x47ce1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x482f4c0, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:
@@ -78,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRConfigurationDataAttribute(XRConfigurationDataAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18676 };
+
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
   /// @brief Field <buildSettingsKey>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____buildSettingsKey_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18595 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::XRConfigurationDataAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::XR::Management::XRConfigurationDataAttribute, ____displayName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::XR::Management::XRConfigurationDataAttribute, ____buildSettingsKey_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::XRConfigurationDataAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::XR::Management
 NEED_NO_BOX(::UnityEngine::XR::Management::XRConfigurationDataAttribute);

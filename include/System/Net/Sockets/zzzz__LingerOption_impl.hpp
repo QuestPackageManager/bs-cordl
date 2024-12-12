@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::LingerOption::*)(bool, int32_t)>(&::System::Net::Sockets::LingerOption::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x439da0c;
+  constexpr static std::size_t addrs = 0x43fed20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::LingerOption::*)(bool)>(&::System::Net::Sockets::LingerOption::set_Enabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x439da40;
+  constexpr static std::size_t addrs = 0x43fed54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::LingerOption::*)(int32_t)>(&::System::Net::Sockets::LingerOption::set_LingerTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439da4c;
+  constexpr static std::size_t addrs = 0x43fed60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,9 +68,6 @@ constexpr void System::Net::Sockets::LingerOption::__cordl_internal_set_lingerTi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lingerTime = value;
 }
-inline ::System::Net::Sockets::LingerOption* System::Net::Sockets::LingerOption::New_ctor(bool enable, int32_t seconds) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::LingerOption*>(enable, seconds));
-}
 inline void System::Net::Sockets::LingerOption::_ctor(bool enable, int32_t seconds) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::LingerOption*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -88,6 +85,9 @@ inline void System::Net::Sockets::LingerOption::set_LingerTime(int32_t value) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::LingerOption*>::get(), "set_LingerTime",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Net::Sockets::LingerOption* System::Net::Sockets::LingerOption::New_ctor(bool enable, int32_t seconds) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::LingerOption*>(enable, seconds));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::LingerOption::LingerOption() {}

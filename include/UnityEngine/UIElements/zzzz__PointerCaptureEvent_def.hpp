@@ -7,77 +7,75 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PointerCaptureEvent)
 namespace UnityEngine::UIElements {
-class __PointerCaptureEvent____c;
+class PointerCaptureEvent___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerCaptureEvent;
 }
 namespace UnityEngine::UIElements {
-class __PointerCaptureEvent____c;
+class PointerCaptureEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__PointerCaptureEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::PointerCaptureEvent::<>c*
-class CORDL_TYPE __PointerCaptureEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.PointerCaptureEvent/<>c
+class CORDL_TYPE PointerCaptureEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__PointerCaptureEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::PointerCaptureEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__PointerCaptureEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::PointerCaptureEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49bd190, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a21aa0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCaptureEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49bd188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a21a98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__PointerCaptureEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::PointerCaptureEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__PointerCaptureEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::PointerCaptureEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PointerCaptureEvent____c();
+  constexpr PointerCaptureEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerCaptureEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PointerCaptureEvent____c(__PointerCaptureEvent____c&&) = delete;
+  PointerCaptureEvent___c(PointerCaptureEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerCaptureEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PointerCaptureEvent____c(__PointerCaptureEvent____c const&) = delete;
+  PointerCaptureEvent___c(PointerCaptureEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PointerCaptureEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerCaptureEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::PointerCaptureEvent
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.PointerCaptureEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerCaptureEvent*
+// CS Name: UnityEngine.UIElements.PointerCaptureEvent
 class CORDL_TYPE PointerCaptureEvent : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<::UnityEngine::UIElements::PointerCaptureEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__PointerCaptureEvent____c;
+  using __c = ::UnityEngine::UIElements::PointerCaptureEvent___c;
 
   static inline ::UnityEngine::UIElements::PointerCaptureEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49bd0e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a219f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +93,7 @@ public:
   PointerCaptureEvent(PointerCaptureEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5783 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,5 +103,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Pointer
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerCaptureEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCaptureEvent*, "UnityEngine.UIElements", "PointerCaptureEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__PointerCaptureEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__PointerCaptureEvent____c*, "UnityEngine.UIElements", "PointerCaptureEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::PointerCaptureEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCaptureEvent___c*, "UnityEngine.UIElements", "PointerCaptureEvent/<>c");

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapDataCallbackWrapper::*)(float_t, ::System::Type*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::GlobalNamespace::BeatmapDataCallbackWrapper::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a83a58;
+  constexpr static std::size_t addrs = 0x3adc0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,26 +20,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapDataCallbackWrapper.CallCallback
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDataCallbackWrapper::*)(::GlobalNamespace::BeatmapDataItem*)>(
-    &::GlobalNamespace::BeatmapDataCallbackWrapper::CallCallback)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataCallbackWrapper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataCallbackWrapper*>::get(), 4));
-    return ___internal_method;
-  }
-};
 constexpr ::System::Type*& GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_get_BasicBeatmapEventType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BasicBeatmapEventType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_get_BasicBeatmapEventType() const {
+constexpr ::System::Type* const& GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_get_BasicBeatmapEventType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BasicBeatmapEventType;
 }
@@ -71,10 +56,6 @@ constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subtypeIdentifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapDataCallbackWrapper::New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType,
-                                                                                                            ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDataCallbackWrapper*>(aheadTime, BasicBeatmapEventType, subtypeIdentifiers));
-}
 inline void GlobalNamespace::BeatmapDataCallbackWrapper::_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataCallbackWrapper*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -86,6 +67,10 @@ inline void GlobalNamespace::BeatmapDataCallbackWrapper::CallCallback(::GlobalNa
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataCallbackWrapper*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapData);
+}
+inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapDataCallbackWrapper::New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType,
+                                                                                                            ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDataCallbackWrapper*>(aheadTime, BasicBeatmapEventType, subtypeIdentifiers));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper::BeatmapDataCallbackWrapper() {}

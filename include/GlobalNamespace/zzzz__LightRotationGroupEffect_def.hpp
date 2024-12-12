@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 struct LightRotationDirection;
 }
 namespace GlobalNamespace {
-class __LightRotationGroupEffect__InitData;
+class LightRotationGroupEffect_InitData;
 }
 namespace Tweening {
 class FloatTween;
@@ -40,17 +40,16 @@ namespace GlobalNamespace {
 class LightRotationGroupEffect;
 }
 namespace GlobalNamespace {
-class __LightRotationGroupEffect__InitData;
+class LightRotationGroupEffect_InitData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroupEffect);
-MARK_REF_PTR_T(::GlobalNamespace::__LightRotationGroupEffect__InitData);
-// Type: ::InitData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroupEffect_InitData);
+// Dependencies LightAxis, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightRotationGroupEffect::InitData*
-class CORDL_TYPE __LightRotationGroupEffect__InitData : public ::System::Object {
+// CS Name: LightRotationGroupEffect/InitData
+class CORDL_TYPE LightRotationGroupEffect_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field axis, offset 0x18, size 0x4
@@ -68,8 +67,8 @@ public:
   /// @brief Field transform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
-  static inline ::GlobalNamespace::__LightRotationGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored,
-                                                                                  ::UnityEngine::Transform* transform);
+  static inline ::GlobalNamespace::LightRotationGroupEffect_InitData* New_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored,
+                                                                               ::UnityEngine::Transform* transform);
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get_axis() const;
 
@@ -101,22 +100,25 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b2c66c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8dc04, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored, ::UnityEngine::Transform* transform);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LightRotationGroupEffect__InitData();
+  constexpr LightRotationGroupEffect_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LightRotationGroupEffect__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LightRotationGroupEffect__InitData(__LightRotationGroupEffect__InitData&&) = delete;
+  LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LightRotationGroupEffect__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LightRotationGroupEffect__InitData(__LightRotationGroupEffect__InitData const&) = delete;
+  LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4304 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -133,34 +135,30 @@ public:
   /// @brief Field transform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___transform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4293 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightRotationGroupEffect__InitData, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect_InitData, ___groupId) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LightRotationGroupEffect__InitData, ___groupId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect_InitData, ___elementId) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LightRotationGroupEffect__InitData, ___elementId) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect_InitData, ___axis) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LightRotationGroupEffect__InitData, ___axis) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect_InitData, ___mirrored) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LightRotationGroupEffect__InitData, ___mirrored) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect_InitData, ___transform) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LightRotationGroupEffect__InitData, ___transform) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroupEffect_InitData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LightRotationGroupEffect
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightAxis, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightRotationGroupEffect*
+// CS Name: LightRotationGroupEffect
 class CORDL_TYPE LightRotationGroupEffect : public ::System::Object {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__LightRotationGroupEffect__InitData;
+  using InitData = ::GlobalNamespace::LightRotationGroupEffect_InitData;
 
   /// @brief Field _axis, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis)) ::GlobalNamespace::LightAxis _axis;
@@ -185,40 +183,40 @@ public:
   /// @brief Field _tweeningManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x3b2c294, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3b8d82c, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x3b2c590, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x3b8db28, size 0xdc, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
-  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x3b2c330, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x3b8d8c8, size 0x188, virtual false, abstract: false, final false
   inline void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
-  static inline ::GlobalNamespace::LightRotationGroupEffect* New_ctor(::GlobalNamespace::__LightRotationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
+  static inline ::GlobalNamespace::LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                       ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetRotation, addr 0x3b2c4b8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x3b8da50, size 0xd8, virtual false, abstract: false, final false
   inline void SetRotation(float_t rotation);
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
 
   constexpr ::GlobalNamespace::LightAxis& __cordl_internal_get__axis();
 
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper() const;
 
   constexpr bool const& __cordl_internal_get__mirrored() const;
 
   constexpr bool& __cordl_internal_get__mirrored();
 
-  constexpr ::Tweening::FloatTween*& __cordl_internal_get__rotationTween();
+  constexpr ::Tweening::FloatTween* const& __cordl_internal_get__rotationTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__rotationTween() const;
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__rotationTween();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
@@ -242,8 +240,8 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b2c07c, size 0x218, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::__LightRotationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
+  /// @brief Method .ctor, addr 0x3b8d614, size 0x218, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
 protected:
@@ -259,6 +257,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationGroupEffect(LightRotationGroupEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4305 };
 
   /// @brief Field _transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
@@ -281,14 +282,9 @@ public:
   /// @brief Field _lightRotationBeatmapEventCallbackWrapper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____lightRotationBeatmapEventCallbackWrapper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroupEffect, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____transform) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____axis) == 0x18, "Offset mismatch!");
@@ -303,8 +299,10 @@ static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____rotation
 
 static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffect, ____lightRotationBeatmapEventCallbackWrapper) == 0x38, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroupEffect, 0x40>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightRotationGroupEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationGroupEffect*, "", "LightRotationGroupEffect");
-NEED_NO_BOX(::GlobalNamespace::__LightRotationGroupEffect__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LightRotationGroupEffect__InitData*, "", "LightRotationGroupEffect/InitData");
+NEED_NO_BOX(::GlobalNamespace::LightRotationGroupEffect_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationGroupEffect_InitData*, "", "LightRotationGroupEffect/InitData");

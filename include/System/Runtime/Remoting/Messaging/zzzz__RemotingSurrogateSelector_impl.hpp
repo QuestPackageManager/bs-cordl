@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/RemotingSurrogateSelector.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogateSelector_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::*)()>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9062c;
+  constexpr static std::size_t addrs = 0x3cf07a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,10 +29,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ISerializationSurrogate* (
     ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::*)(::System::Type*, ::System::Runtime::Serialization::StreamingContext,
-                                                                          ByRef<::System::Runtime::Serialization::ISurrogateSelector*>)>(
+                                                                          ::ByRef<::System::Runtime::Serialization::ISurrogateSelector*>)>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::GetSurrogate)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3c90634;
+  constexpr static std::size_t addrs = 0x3cf07a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,20 +42,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
-constexpr System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"
-constexpr ::System::Runtime::Serialization::ISurrogateSelector* System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::i___System__Runtime__Serialization__ISurrogateSelector() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
-}
 constexpr ::System::Runtime::Serialization::ISurrogateSelector*& System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::__cordl_internal_get__next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const&
-System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::__cordl_internal_get__next() const {
+constexpr ::System::Runtime::Serialization::ISurrogateSelector* const& System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::__cordl_internal_get__next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
@@ -89,9 +81,6 @@ inline ::System::Runtime::Remoting::Messaging::RemotingSurrogate* System::Runtim
   return ::cordl_internals::getStaticField<::System::Runtime::Remoting::Messaging::RemotingSurrogate*, "_objRemotingSurrogate",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*>::get>();
 }
-inline ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector* System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*>());
-}
 inline void System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*>::get(), ".ctor",
@@ -100,11 +89,22 @@ inline void System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_ct
 }
 inline ::System::Runtime::Serialization::ISerializationSurrogate*
 System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
-                                                                              ByRef<::System::Runtime::Serialization::ISurrogateSelector*> ssout) {
+                                                                              ::ByRef<::System::Runtime::Serialization::ISurrogateSelector*> ssout) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ISerializationSurrogate*, false>(this, ___internal_method, type, context, ssout);
+}
+inline ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector* System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*>());
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
+constexpr System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"
+constexpr ::System::Runtime::Serialization::ISurrogateSelector* System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::i___System__Runtime__Serialization__ISurrogateSelector() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::RemotingSurrogateSelector() {}

@@ -10,24 +10,24 @@
 #include "Unity/Properties/Internal/zzzz__ReflectedPropertyBagProvider_def.hpp"
 #include "Unity/Properties/zzzz__IPropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__IPropertyBag_def.hpp"
-template <typename TContainer> inline void Unity::Properties::Internal::__PropertyBagStore__TypedStore_1<TContainer>::setStaticF_PropertyBag(::Unity::Properties::IPropertyBag_1<TContainer>* value) {
+template <typename TContainer> inline void Unity::Properties::Internal::PropertyBagStore_TypedStore_1<TContainer>::setStaticF_PropertyBag(::Unity::Properties::IPropertyBag_1<TContainer>* value) {
   ::cordl_internals::setStaticField<::Unity::Properties::IPropertyBag_1<TContainer>*, "PropertyBag",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__PropertyBagStore__TypedStore_1<TContainer>>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::PropertyBagStore_TypedStore_1<TContainer>>::get>(
       std::forward<::Unity::Properties::IPropertyBag_1<TContainer>*>(value));
 }
-template <typename TContainer> inline ::Unity::Properties::IPropertyBag_1<TContainer>* Unity::Properties::Internal::__PropertyBagStore__TypedStore_1<TContainer>::getStaticF_PropertyBag() {
+template <typename TContainer> inline ::Unity::Properties::IPropertyBag_1<TContainer>* Unity::Properties::Internal::PropertyBagStore_TypedStore_1<TContainer>::getStaticF_PropertyBag() {
   return ::cordl_internals::getStaticField<::Unity::Properties::IPropertyBag_1<TContainer>*, "PropertyBag",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__PropertyBagStore__TypedStore_1<TContainer>>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::PropertyBagStore_TypedStore_1<TContainer>>::get>();
 }
 // Ctor Parameters []
-template <typename TContainer> constexpr ::Unity::Properties::Internal::__PropertyBagStore__TypedStore_1<TContainer>::__PropertyBagStore__TypedStore_1() {}
+template <typename TContainer> constexpr ::Unity::Properties::Internal::PropertyBagStore_TypedStore_1<TContainer>::PropertyBagStore_TypedStore_1() {}
 //  Writing Method size for method: ::Unity::Properties::Internal::PropertyBagStore.GetPropertyBag
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Properties::IPropertyBag* (*)(::System::Type*)>(
     &::Unity::Properties::Internal::PropertyBagStore::GetPropertyBag)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x48adc58;
+  constexpr static std::size_t addrs = 0x49122e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

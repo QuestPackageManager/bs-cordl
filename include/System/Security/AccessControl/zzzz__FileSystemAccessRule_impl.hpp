@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Principal::IdentityReference*, ::System::Security::AccessControl::FileSystemRights, bool, ::System::Security::AccessControl::InheritanceFlags,
     ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AccessControlType)>(&::System::Security::AccessControl::FileSystemAccessRule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c6403c;
+  constexpr static std::size_t addrs = 0x3cc41b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::FileSystemRights (::System::Security::AccessControl::FileSystemAccessRule::*)()>(
     &::System::Security::AccessControl::FileSystemAccessRule::get_FileSystemRights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c64044;
+  constexpr static std::size_t addrs = 0x3cc41b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::FileSystemAccessRule*>::get(),
@@ -42,12 +42,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Security::AccessControl::FileSystemAccessRule*
-System::Security::AccessControl::FileSystemAccessRule::New_ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights,
-                                                                bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
-                                                                ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::FileSystemAccessRule*>(identity, fileSystemRights, isInherited, inheritanceFlags, propagationFlags, type));
-}
 inline void System::Security::AccessControl::FileSystemAccessRule::_ctor(::System::Security::Principal::IdentityReference* identity,
                                                                          ::System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited,
                                                                          ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
@@ -67,6 +61,12 @@ inline ::System::Security::AccessControl::FileSystemRights System::Security::Acc
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::FileSystemAccessRule*>::get(),
                                                                              "get_FileSystemRights", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Security::AccessControl::FileSystemRights, false>(this, ___internal_method);
+}
+inline ::System::Security::AccessControl::FileSystemAccessRule*
+System::Security::AccessControl::FileSystemAccessRule::New_ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights,
+                                                                bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
+                                                                ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::FileSystemAccessRule*>(identity, fileSystemRights, isInherited, inheritanceFlags, propagationFlags, type));
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::FileSystemAccessRule::FileSystemAccessRule() {}

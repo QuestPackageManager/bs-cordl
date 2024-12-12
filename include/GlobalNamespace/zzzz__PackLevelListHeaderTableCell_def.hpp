@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PackLevelListHeaderTableCell)
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+struct SelectableCell_TransitionType;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -25,11 +25,10 @@ class PackLevelListHeaderTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PackLevelListHeaderTableCell);
-// Type: ::PackLevelListHeaderTableCell
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PackLevelListHeaderTableCell*
+// CS Name: PackLevelListHeaderTableCell
 class CORDL_TYPE PackLevelListHeaderTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -53,16 +52,16 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x3b99b00, size 0x4, virtual true, abstract: false, final false
-  inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method HighlightDidChange, addr 0x3bfbc50, size 0x4, virtual true, abstract: false, final false
+  inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3b99a78, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3bfbbc8, size 0x88, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3b99a74, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method SelectionDidChange, addr 0x3bfbbc4, size 0x4, virtual true, abstract: false, final false
+  inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__arrowImage() const;
 
@@ -72,9 +71,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
 
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
 
@@ -100,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b99b04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfbc54, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3b99a50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3bfbba0, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x3b99a2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3bfbb7c, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -122,6 +121,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PackLevelListHeaderTableCell(PackLevelListHeaderTableCell const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4760 };
 
   /// @brief Field _selectedHighlightElementsColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedHighlightElementsColor;
@@ -141,14 +143,9 @@ public:
   /// @brief Field _cancellationTokenSource, offset: 0x98, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4744 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackLevelListHeaderTableCell, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____selectedHighlightElementsColor) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____text) == 0x78, "Offset mismatch!");
@@ -160,6 +157,8 @@ static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____high
 static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____arrowImage) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____cancellationTokenSource) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackLevelListHeaderTableCell, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PackLevelListHeaderTableCell);

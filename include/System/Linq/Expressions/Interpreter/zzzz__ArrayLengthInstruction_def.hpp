@@ -16,18 +16,17 @@ class ArrayLengthInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ArrayLengthInstruction);
-// Type: System.Linq.Expressions.Interpreter::ArrayLengthInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::ArrayLengthInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.ArrayLengthInstruction
 class CORDL_TYPE ArrayLengthInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::ArrayLengthInstruction* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::ArrayLengthInstruction* Instance;
 
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
@@ -35,21 +34,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ArrayLengthInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x405f2cc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c05e0, size 0xa4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x405f2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c05d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::ArrayLengthInstruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x405f274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c0588, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x405f284, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c0598, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x405f27c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c0590, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::ArrayLengthInstruction* value);
@@ -69,7 +68,7 @@ public:
   ArrayLengthInstruction(ArrayLengthInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13769 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,6 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaPatternFacet_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
@@ -23,302 +22,302 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map._ctor
+//  Writing Method size for method: ::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map::*)(char16_t, ::StringW)>(
-    &::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map::*)(char16_t, ::StringW)>(
+    &::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4355648;
+  constexpr static std::size_t addrs = 0x43b695c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__FacetsChecker__FacetsCompiler__Map::_ctor(char16_t m, ::StringW r) {
+inline void System::Xml::Schema::FacetsCompiler_FacetsChecker_Map::_ctor(char16_t m, ::StringW r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, m, r);
 }
-// Ctor Parameters [CppParam { name: "match", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map::__FacetsChecker__FacetsCompiler__Map(char16_t match, ::StringW replacement) noexcept {
+// Ctor Parameters [CppParam { name: "match", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map::FacetsCompiler_FacetsChecker_Map(char16_t match, ::StringW replacement) noexcept {
   this->match = match;
   this->replacement = replacement;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map::__FacetsChecker__FacetsCompiler__Map() {}
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler._ctor
+constexpr ::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map::FacetsCompiler_FacetsChecker_Map() {}
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(
-    ::System::Xml::Schema::DatatypeImplementation*, ::System::Xml::Schema::RestrictionFacets*)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(
+    ::System::Xml::Schema::DatatypeImplementation*, ::System::Xml::Schema::RestrictionFacets*)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::_ctor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x4351fd0;
+  constexpr static std::size_t addrs = 0x43b32e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::DatatypeImplementation*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFacets*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileLengthFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileLengthFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileLengthFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileLengthFacet)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x43521d4;
+  constexpr static std::size_t addrs = 0x43b34e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileLengthFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileLengthFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileMinLengthFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileMinLengthFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMinLengthFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMinLengthFacet)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x4352534;
+  constexpr static std::size_t addrs = 0x43b3848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMinLengthFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMinLengthFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileMaxLengthFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileMaxLengthFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMaxLengthFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMaxLengthFacet)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x4352858;
+  constexpr static std::size_t addrs = 0x43b3b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMaxLengthFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMaxLengthFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompilePatternFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompilePatternFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaPatternFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompilePatternFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaPatternFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompilePatternFacet)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x4352b7c;
+  constexpr static std::size_t addrs = 0x43b3e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompilePatternFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompilePatternFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaPatternFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileEnumerationFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileEnumerationFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(
-    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::IXmlNamespaceResolver*, ::System::Xml::XmlNameTable*)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileEnumerationFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(
+    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::IXmlNamespaceResolver*, ::System::Xml::XmlNameTable*)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileEnumerationFacet)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4352ce0;
+  constexpr static std::size_t addrs = 0x43b3ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileEnumerationFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileEnumerationFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlNamespaceResolver*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNameTable*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileWhitespaceFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileWhitespaceFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileWhitespaceFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileWhitespaceFacet)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x4352e28;
+  constexpr static std::size_t addrs = 0x43b413c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileWhitespaceFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileWhitespaceFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileMaxInclusiveFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileMaxInclusiveFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMaxInclusiveFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMaxInclusiveFacet)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4353518;
+  constexpr static std::size_t addrs = 0x43b482c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMaxInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMaxInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileMaxExclusiveFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileMaxExclusiveFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMaxExclusiveFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMaxExclusiveFacet)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x43536dc;
+  constexpr static std::size_t addrs = 0x43b49f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMaxExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMaxExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileMinInclusiveFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileMinInclusiveFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMinInclusiveFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMinInclusiveFacet)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4353190;
+  constexpr static std::size_t addrs = 0x43b44a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMinInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMinInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileMinExclusiveFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileMinExclusiveFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMinExclusiveFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMinExclusiveFacet)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4353354;
+  constexpr static std::size_t addrs = 0x43b4668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMinExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMinExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileTotalDigitsFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileTotalDigitsFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileTotalDigitsFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileTotalDigitsFacet)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x43538a0;
+  constexpr static std::size_t addrs = 0x43b4bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileTotalDigitsFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileTotalDigitsFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileFractionDigitsFacet
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileFractionDigitsFacet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileFractionDigitsFacet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaFacet*)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileFractionDigitsFacet)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x4353bbc;
+  constexpr static std::size_t addrs = 0x43b4ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileFractionDigitsFacet", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileFractionDigitsFacet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.FinishFacetCompile
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.FinishFacetCompile
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)()>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::FinishFacetCompile)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)()>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::FinishFacetCompile)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x4353e70;
+  constexpr static std::size_t addrs = 0x43b5184;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(),
                                                                                "FinishFacetCompile", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CheckValue
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CheckValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(
-    ::System::Object*, ::System::Xml::Schema::XmlSchemaFacet*)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CheckValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(
+    ::System::Object*, ::System::Xml::Schema::XmlSchemaFacet*)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::CheckValue)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x435498c;
+  constexpr static std::size_t addrs = 0x43b5ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CheckValue", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CheckValue", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CompileFacetCombinations
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CompileFacetCombinations
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)()>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileFacetCombinations)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)()>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileFacetCombinations)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x43541d8;
+  constexpr static std::size_t addrs = 0x43b54ec;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(),
                                                                                "CompileFacetCombinations", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CopyFacetsFromBaseType
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CopyFacetsFromBaseType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)()>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CopyFacetsFromBaseType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)()>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::CopyFacetsFromBaseType)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x435507c;
+  constexpr static std::size_t addrs = 0x43b6390;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(),
                                                                                "CopyFacetsFromBaseType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.ParseFacetValue
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.ParseFacetValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
-    ::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaDatatype*, ::System::Xml::Schema::XmlSchemaFacet*, ::StringW, ::System::Xml::IXmlNamespaceResolver*,
-                                                               ::System::Xml::XmlNameTable*)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::ParseFacetValue)> {
+    ::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::XmlSchemaDatatype*, ::System::Xml::Schema::XmlSchemaFacet*, ::StringW, ::System::Xml::IXmlNamespaceResolver*,
+                                                            ::System::Xml::XmlNameTable*)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::ParseFacetValue)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x43547e0;
+  constexpr static std::size_t addrs = 0x43b5af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "ParseFacetValue", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "ParseFacetValue", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaDatatype*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -327,204 +326,204 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.Preprocess
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.Preprocess
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::Preprocess)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::Preprocess)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x4354e20;
+  constexpr static std::size_t addrs = 0x43b6134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "Preprocess",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "Preprocess",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CheckProhibitedFlag
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CheckProhibitedFlag
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(
-    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::Schema::RestrictionFlags, ::StringW)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CheckProhibitedFlag)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(
+    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::Schema::RestrictionFlags, ::StringW)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::CheckProhibitedFlag)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43546e4;
+  constexpr static std::size_t addrs = 0x43b59f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CheckProhibitedFlag", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CheckProhibitedFlag", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.CheckDupFlag
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.CheckDupFlag
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(
-    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::Schema::RestrictionFlags, ::StringW)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::CheckDupFlag)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(
+    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::Schema::RestrictionFlags, ::StringW)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::CheckDupFlag)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4354770;
+  constexpr static std::size_t addrs = 0x43b5a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CheckDupFlag", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CheckDupFlag", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.SetFlag
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.SetFlag
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(
-    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::Schema::RestrictionFlags)>(&::System::Xml::Schema::__FacetsChecker__FacetsCompiler::SetFlag)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(
+    ::System::Xml::Schema::XmlSchemaFacet*, ::System::Xml::Schema::RestrictionFlags)>(&::System::Xml::Schema::FacetsChecker_FacetsCompiler::SetFlag)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4354924;
+  constexpr static std::size_t addrs = 0x43b5c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__FacetsChecker__FacetsCompiler.SetFlag
+//  Writing Method size for method: ::System::Xml::Schema::FacetsChecker_FacetsCompiler.SetFlag
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__FacetsChecker__FacetsCompiler::*)(::System::Xml::Schema::RestrictionFlags)>(
-    &::System::Xml::Schema::__FacetsChecker__FacetsCompiler::SetFlag)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker_FacetsCompiler::*)(::System::Xml::Schema::RestrictionFlags)>(
+    &::System::Xml::Schema::FacetsChecker_FacetsCompiler::SetFlag)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4355458;
+  constexpr static std::size_t addrs = 0x43b676c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::setStaticF_c_map(
-    ::ArrayW<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map, ::Array<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map, ::Array<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map>*>, "c_map",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get>(
-      std::forward<::ArrayW<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map, ::Array<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map>*>>(value));
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::setStaticF_c_map(
+    ::ArrayW<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map, ::Array<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map, ::Array<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map>*>, "c_map",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map, ::Array<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map>*>>(value));
 }
-inline ::ArrayW<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map, ::Array<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map>*>
-System::Xml::Schema::__FacetsChecker__FacetsCompiler::getStaticF_c_map() {
-  return ::cordl_internals::getStaticField<::ArrayW<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map, ::Array<::GlobalNamespace::__FacetsChecker__FacetsCompiler__Map>*>, "c_map",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get>();
+inline ::ArrayW<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map, ::Array<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map>*>
+System::Xml::Schema::FacetsChecker_FacetsCompiler::getStaticF_c_map() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map, ::Array<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map>*>, "c_map",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get>();
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::_ctor(::System::Xml::Schema::DatatypeImplementation* baseDatatype, ::System::Xml::Schema::RestrictionFacets* restriction) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::DatatypeImplementation*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFacets*>::get() })));
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::_ctor(::System::Xml::Schema::DatatypeImplementation* baseDatatype, ::System::Xml::Schema::RestrictionFacets* restriction) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::DatatypeImplementation*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFacets*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, baseDatatype, restriction);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileLengthFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileLengthFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMinLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMinLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMinLengthFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMinLengthFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMaxLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMaxLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMaxLengthFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMaxLengthFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompilePatternFacet(::System::Xml::Schema::XmlSchemaPatternFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompilePatternFacet(::System::Xml::Schema::XmlSchemaPatternFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompilePatternFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompilePatternFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaPatternFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileEnumerationFacet(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::IXmlNamespaceResolver* nsmgr,
-                                                                                          ::System::Xml::XmlNameTable* nameTable) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileEnumerationFacet(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::IXmlNamespaceResolver* nsmgr,
+                                                                                       ::System::Xml::XmlNameTable* nameTable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileEnumerationFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileEnumerationFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlNamespaceResolver*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNameTable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet, nsmgr, nameTable);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileWhitespaceFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileWhitespaceFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileWhitespaceFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileWhitespaceFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMaxInclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMaxInclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMaxInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMaxInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMaxExclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMaxExclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMaxExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMaxExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMinInclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMinInclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMinInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMinInclusiveFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileMinExclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileMinExclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileMinExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileMinExclusiveFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileTotalDigitsFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileTotalDigitsFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileTotalDigitsFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileTotalDigitsFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileFractionDigitsFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileFractionDigitsFacet(::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CompileFractionDigitsFacet", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CompileFractionDigitsFacet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::FinishFacetCompile() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(),
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::FinishFacetCompile() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(),
                                                                              "FinishFacetCompile", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CheckValue(::System::Object* value, ::System::Xml::Schema::XmlSchemaFacet* facet) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CheckValue(::System::Object* value, ::System::Xml::Schema::XmlSchemaFacet* facet) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CheckValue", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CheckValue", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, facet);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CompileFacetCombinations() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(),
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CompileFacetCombinations() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(),
                                                                              "CompileFacetCombinations", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CopyFacetsFromBaseType() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(),
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CopyFacetsFromBaseType() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(),
                                                                              "CopyFacetsFromBaseType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Xml::Schema::__FacetsChecker__FacetsCompiler::ParseFacetValue(::System::Xml::Schema::XmlSchemaDatatype* datatype, ::System::Xml::Schema::XmlSchemaFacet* facet,
-                                                                                               ::StringW code, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::System::Xml::XmlNameTable* nameTable) {
+inline ::System::Object* System::Xml::Schema::FacetsChecker_FacetsCompiler::ParseFacetValue(::System::Xml::Schema::XmlSchemaDatatype* datatype, ::System::Xml::Schema::XmlSchemaFacet* facet,
+                                                                                            ::StringW code, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::System::Xml::XmlNameTable* nameTable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "ParseFacetValue", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "ParseFacetValue", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaDatatype*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -532,50 +531,50 @@ inline ::System::Object* System::Xml::Schema::__FacetsChecker__FacetsCompiler::P
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNameTable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, datatype, facet, code, nsmgr, nameTable);
 }
-inline ::StringW System::Xml::Schema::__FacetsChecker__FacetsCompiler::Preprocess(::StringW pattern) {
+inline ::StringW System::Xml::Schema::FacetsChecker_FacetsCompiler::Preprocess(::StringW pattern) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "Preprocess",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "Preprocess",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, pattern);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CheckProhibitedFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag, ::StringW errorCode) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CheckProhibitedFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag, ::StringW errorCode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CheckProhibitedFlag", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CheckProhibitedFlag", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet, flag, errorCode);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::CheckDupFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag, ::StringW errorCode) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::CheckDupFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag, ::StringW errorCode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "CheckDupFlag", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "CheckDupFlag", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet, flag, errorCode);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::SetFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::SetFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaFacet*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, facet, flag);
 }
-inline void System::Xml::Schema::__FacetsChecker__FacetsCompiler::SetFlag(::System::Xml::Schema::RestrictionFlags flag) {
+inline void System::Xml::Schema::FacetsChecker_FacetsCompiler::SetFlag(::System::Xml::Schema::RestrictionFlags flag) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__FacetsChecker__FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker_FacetsCompiler>::get(), "SetFlag", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::RestrictionFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, flag);
 }
-// Ctor Parameters [CppParam { name: "datatype", ty: "::System::Xml::Schema::DatatypeImplementation*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "derivedRestriction", ty:
-// "::System::Xml::Schema::RestrictionFacets*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "baseFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value:
+// Ctor Parameters [CppParam { name: "datatype", ty: "::System::Xml::Schema::DatatypeImplementation*", modifiers: "", def_value: Some("{}") }, CppParam { name: "derivedRestriction", ty:
+// "::System::Xml::Schema::RestrictionFacets*", modifiers: "", def_value: Some("{}") }, CppParam { name: "baseFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "baseFixedFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "validRestrictionFlags", ty:
 // "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "nonNegativeInt", ty: "::System::Xml::Schema::XmlSchemaDatatype*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "builtInType", ty: "::System::Xml::Schema::XmlSchemaDatatype*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "builtInEnum", ty:
+// Some("{}") }, CppParam { name: "builtInType", ty: "::System::Xml::Schema::XmlSchemaDatatype*", modifiers: "", def_value: Some("{}") }, CppParam { name: "builtInEnum", ty:
 // "::System::Xml::Schema::XmlTypeCode", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstPattern", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "regStr", ty:
-// "::System::Text::StringBuilder*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "pattern_facet", ty: "::System::Xml::Schema::XmlSchemaPatternFacet*", modifiers: "", def_value:
-// Some("nullptr") }]
-constexpr ::System::Xml::Schema::__FacetsChecker__FacetsCompiler::__FacetsChecker__FacetsCompiler(
+// "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}") }, CppParam { name: "pattern_facet", ty: "::System::Xml::Schema::XmlSchemaPatternFacet*", modifiers: "", def_value: Some("{}")
+// }]
+constexpr ::System::Xml::Schema::FacetsChecker_FacetsCompiler::FacetsChecker_FacetsCompiler(
     ::System::Xml::Schema::DatatypeImplementation* datatype, ::System::Xml::Schema::RestrictionFacets* derivedRestriction, ::System::Xml::Schema::RestrictionFlags baseFlags,
     ::System::Xml::Schema::RestrictionFlags baseFixedFlags, ::System::Xml::Schema::RestrictionFlags validRestrictionFlags, ::System::Xml::Schema::XmlSchemaDatatype* nonNegativeInt,
     ::System::Xml::Schema::XmlSchemaDatatype* builtInType, ::System::Xml::Schema::XmlTypeCode builtInEnum, bool firstPattern, ::System::Text::StringBuilder* regStr,
@@ -593,14 +592,14 @@ constexpr ::System::Xml::Schema::__FacetsChecker__FacetsCompiler::__FacetsChecke
   this->pattern_facet = pattern_facet;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__FacetsChecker__FacetsCompiler::__FacetsChecker__FacetsCompiler() {}
+constexpr ::System::Xml::Schema::FacetsChecker_FacetsCompiler::FacetsChecker_FacetsCompiler() {}
 //  Writing Method size for method: ::System::Xml::Schema::FacetsChecker.CheckLexicalFacets
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
-    ::System::Xml::Schema::FacetsChecker::*)(ByRef<::StringW>, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckLexicalFacets)> {
+    ::System::Xml::Schema::FacetsChecker::*)(::ByRef<::StringW>, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckLexicalFacets)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x43518c4;
+  constexpr static std::size_t addrs = 0x43b2bd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -615,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::FacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b4c;
+  constexpr static std::size_t addrs = 0x43b2e60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -630,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::FacetsChecker::*)(::System::Decimal, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b54;
+  constexpr static std::size_t addrs = 0x43b2e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -645,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::FacetsChecker::*)(int64_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b5c;
+  constexpr static std::size_t addrs = 0x43b2e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -660,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::FacetsChecker::*)(int32_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b64;
+  constexpr static std::size_t addrs = 0x43b2e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -675,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::FacetsChecker::*)(int16_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b6c;
+  constexpr static std::size_t addrs = 0x43b2e80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -690,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::FacetsChecker::*)(::System::DateTime, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b74;
+  constexpr static std::size_t addrs = 0x43b2e88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -705,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::FacetsChecker::*)(double_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b7c;
+  constexpr static std::size_t addrs = 0x43b2e90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -720,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::FacetsChecker::*)(float_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b84;
+  constexpr static std::size_t addrs = 0x43b2e98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -735,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::FacetsChecker::*)(::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b8c;
+  constexpr static std::size_t addrs = 0x43b2ea0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -750,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::FacetsChecker::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b94;
+  constexpr static std::size_t addrs = 0x43b2ea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -765,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::FacetsChecker::*)(::System::TimeSpan, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351b9c;
+  constexpr static std::size_t addrs = 0x43b2eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -780,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::FacetsChecker::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351ba4;
+  constexpr static std::size_t addrs = 0x43b2eb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -792,15 +791,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::FacetsChecker.CheckWhitespaceFacets
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker::*)(ByRef<::StringW>, ::System::Xml::Schema::XmlSchemaDatatype*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker::*)(::ByRef<::StringW>, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::FacetsChecker::CheckWhitespaceFacets)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4351908;
+  constexpr static std::size_t addrs = 0x43b2c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker*>::get(), "CheckWhitespaceFacets", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaDatatype*>::get() })));
     return ___internal_method;
   }
@@ -811,7 +810,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::FacetsChecker::*)(::System::Xml::Schema::RestrictionFacets*, ::StringW)>(
     &::System::Xml::Schema::FacetsChecker::CheckPatternFacets)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x43519f0;
+  constexpr static std::size_t addrs = 0x43b2d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -827,7 +826,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::FacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::FacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4351bac;
+  constexpr static std::size_t addrs = 0x43b2ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -843,7 +842,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::FacetsChecker::*)(::System::Xml::Schema::DatatypeImplementation*, ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::XmlNameTable*)>(
     &::System::Xml::Schema::FacetsChecker::ConstructRestriction)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x4351bb4;
+  constexpr static std::size_t addrs = 0x43b2ec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -857,7 +856,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int32_t, int32_t)>(&::System::Xml::Schema::FacetsChecker::Power)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x43545b0;
+  constexpr static std::size_t addrs = 0x43b58c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -871,7 +870,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::FacetsChecker::*)()>(&::System::Xml::Schema::FacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43546dc;
+  constexpr static std::size_t addrs = 0x43b59f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker*>::get(), ".ctor",
@@ -879,7 +878,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Exception* System::Xml::Schema::FacetsChecker::CheckLexicalFacets(ByRef<::StringW> parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype) {
+inline ::System::Exception* System::Xml::Schema::FacetsChecker::CheckLexicalFacets(::ByRef<::StringW> parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, parseString, datatype);
@@ -944,10 +943,10 @@ inline ::System::Exception* System::Xml::Schema::FacetsChecker::CheckValueFacets
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, value, datatype);
 }
-inline void System::Xml::Schema::FacetsChecker::CheckWhitespaceFacets(ByRef<::StringW> s, ::System::Xml::Schema::XmlSchemaDatatype* datatype) {
+inline void System::Xml::Schema::FacetsChecker::CheckWhitespaceFacets(::ByRef<::StringW> s, ::System::Xml::Schema::XmlSchemaDatatype* datatype) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker*>::get(), "CheckWhitespaceFacets", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaDatatype*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, s, datatype);
 }
@@ -976,13 +975,13 @@ inline ::System::Decimal System::Xml::Schema::FacetsChecker::Power(int32_t x, in
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Decimal, false>(nullptr, ___internal_method, x, y);
 }
-inline ::System::Xml::Schema::FacetsChecker* System::Xml::Schema::FacetsChecker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::FacetsChecker*>());
-}
 inline void System::Xml::Schema::FacetsChecker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::FacetsChecker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::FacetsChecker* System::Xml::Schema::FacetsChecker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::FacetsChecker*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::FacetsChecker::FacetsChecker() {}

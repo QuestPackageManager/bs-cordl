@@ -15,11 +15,10 @@ class MergeFailedEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::MergeFailedEventArgs);
-// Type: System.Data::MergeFailedEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::MergeFailedEventArgs*
+// CS Name: System.Data.MergeFailedEventArgs
 class CORDL_TYPE MergeFailedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -37,18 +36,18 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__Conflict_k__BackingField();
 
-  constexpr ::System::Data::DataTable*& __cordl_internal_get__Table_k__BackingField();
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__Table_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& __cordl_internal_get__Table_k__BackingField() const;
+  constexpr ::System::Data::DataTable*& __cordl_internal_get__Table_k__BackingField();
 
   constexpr void __cordl_internal_set__Conflict_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x411e8bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417fbd0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW conflict);
 
-  /// @brief Method get_Conflict, addr 0x411e92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Conflict, addr 0x417fc40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Conflict();
 
 protected:
@@ -65,23 +64,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MergeFailedEventArgs(MergeFailedEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11439 };
+
   /// @brief Field <Table>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ____Table_k__BackingField;
 
   /// @brief Field <Conflict>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Conflict_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11406 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::MergeFailedEventArgs, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::MergeFailedEventArgs, ____Table_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::MergeFailedEventArgs, ____Conflict_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::MergeFailedEventArgs, 0x20>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::MergeFailedEventArgs);

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ObjectsMovementRecorder.hpp"
-#include "GlobalNamespace/zzzz__ObjectsMovementRecorder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
@@ -16,230 +15,230 @@
 #include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode::__ObjectsMovementRecorder__Mode(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode::ObjectsMovementRecorder_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode::__ObjectsMovementRecorder__Mode() {}
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode GlobalNamespace::__ObjectsMovementRecorder__Mode::Record{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode GlobalNamespace::__ObjectsMovementRecorder__Mode::Playback{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode GlobalNamespace::__ObjectsMovementRecorder__Mode::Off{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode::ObjectsMovementRecorder_Mode() {}
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode GlobalNamespace::ObjectsMovementRecorder_Mode::Record{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode GlobalNamespace::ObjectsMovementRecorder_Mode::Playback{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode GlobalNamespace::ObjectsMovementRecorder_Mode::Off{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView::__ObjectsMovementRecorder__CameraView(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView::ObjectsMovementRecorder_CameraView(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView::__ObjectsMovementRecorder__CameraView() {}
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView GlobalNamespace::__ObjectsMovementRecorder__CameraView::FirstPerson{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView GlobalNamespace::__ObjectsMovementRecorder__CameraView::ThirdPerson{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::GlobalNamespace::__ObjectsMovementRecorder__InitData._ctor
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView::ObjectsMovementRecorder_CameraView() {}
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView GlobalNamespace::ObjectsMovementRecorder_CameraView::FirstPerson{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView GlobalNamespace::ObjectsMovementRecorder_CameraView::ThirdPerson{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::GlobalNamespace::ObjectsMovementRecorder_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ObjectsMovementRecorder__InitData::*)(
-    ::GlobalNamespace::__ObjectsMovementRecorder__Mode, ::StringW, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView, bool, bool, int32_t, int32_t, int32_t,
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>, bool, ::GlobalNamespace::IBeatSaberLogger*,
-    ::GlobalNamespace::IPosesSerializer*)>(&::GlobalNamespace::__ObjectsMovementRecorder__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder_InitData::*)(
+    ::GlobalNamespace::ObjectsMovementRecorder_Mode, ::StringW, ::GlobalNamespace::ObjectsMovementRecorder_CameraView, bool, bool, int32_t, int32_t, int32_t,
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>, bool, ::GlobalNamespace::IBeatSaberLogger*,
+    ::GlobalNamespace::IPosesSerializer*)>(&::GlobalNamespace::ObjectsMovementRecorder_InitData::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3abb2e8;
+  constexpr static std::size_t addrs = 0x3b1822c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ObjectsMovementRecorder__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectsMovementRecorder_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 12>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__Mode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__CameraView>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_Mode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_CameraView>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>>::get(),
+                ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberLogger*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPosesSerializer*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_mode() {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_mode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_mode() const {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_mode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_mode(::GlobalNamespace::ObjectsMovementRecorder_Mode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
-constexpr ::StringW& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_recordingPath() {
+constexpr ::StringW& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_recordingPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingPath;
 }
-constexpr ::StringW const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_recordingPath() const {
+constexpr ::StringW const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_recordingPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingPath;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_recordingPath(::StringW value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_recordingPath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recordingPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_cameraView() {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_cameraView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraView;
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_cameraView() const {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_cameraView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraView;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_cameraView(::GlobalNamespace::ObjectsMovementRecorder_CameraView value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cameraView = value;
 }
-constexpr bool& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_addDateTimeSuffixToRecordingName() {
+constexpr bool& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_addDateTimeSuffixToRecordingName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addDateTimeSuffixToRecordingName;
 }
-constexpr bool const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_addDateTimeSuffixToRecordingName() const {
+constexpr bool const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_addDateTimeSuffixToRecordingName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addDateTimeSuffixToRecordingName;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_addDateTimeSuffixToRecordingName(bool value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_addDateTimeSuffixToRecordingName(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___addDateTimeSuffixToRecordingName = value;
 }
-constexpr bool& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_screenshotRecording() {
+constexpr bool& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_screenshotRecording() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotRecording;
 }
-constexpr bool const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_screenshotRecording() const {
+constexpr bool const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_screenshotRecording() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotRecording;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_screenshotRecording(bool value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_screenshotRecording(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenshotRecording = value;
 }
-constexpr int32_t& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_screenshotWidth() {
+constexpr int32_t& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_screenshotWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotWidth;
 }
-constexpr int32_t const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_screenshotWidth() const {
+constexpr int32_t const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_screenshotWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotWidth;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_screenshotWidth(int32_t value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_screenshotWidth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenshotWidth = value;
 }
-constexpr int32_t& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_screenshotHeight() {
+constexpr int32_t& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_screenshotHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotHeight;
 }
-constexpr int32_t const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_screenshotHeight() const {
+constexpr int32_t const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_screenshotHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotHeight;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_screenshotHeight(int32_t value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_screenshotHeight(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenshotHeight = value;
 }
-constexpr int32_t& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_framerate() {
+constexpr int32_t& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_framerate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
-constexpr int32_t const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_framerate() const {
+constexpr int32_t const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_framerate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_framerate(int32_t value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_framerate(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___framerate = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>&
-GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_playbackScreenshots() {
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>&
+GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_playbackScreenshots() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackScreenshots;
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
-GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_playbackScreenshots() const {
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> const&
+GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_playbackScreenshots() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackScreenshots;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_playbackScreenshots(
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_playbackScreenshots(
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playbackScreenshots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_saveToOldFormat() {
+constexpr bool& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_saveToOldFormat() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saveToOldFormat;
 }
-constexpr bool const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_saveToOldFormat() const {
+constexpr bool const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_saveToOldFormat() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saveToOldFormat;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_saveToOldFormat(bool value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_saveToOldFormat(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___saveToOldFormat = value;
 }
-constexpr ::GlobalNamespace::IPosesSerializer*& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_posesSerializer() {
+constexpr ::GlobalNamespace::IPosesSerializer*& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_posesSerializer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___posesSerializer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_posesSerializer() const {
+constexpr ::GlobalNamespace::IPosesSerializer* const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_posesSerializer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___posesSerializer;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_posesSerializer(::GlobalNamespace::IPosesSerializer* value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_posesSerializer(::GlobalNamespace::IPosesSerializer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___posesSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_logger() {
+constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_logger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___logger;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_get_logger() const {
+constexpr ::GlobalNamespace::IBeatSaberLogger* const& GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_get_logger() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___logger;
 }
-constexpr void GlobalNamespace::__ObjectsMovementRecorder__InitData::__cordl_internal_set_logger(::GlobalNamespace::IBeatSaberLogger* value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder_InitData::__cordl_internal_set_logger(::GlobalNamespace::IBeatSaberLogger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___logger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData* GlobalNamespace::__ObjectsMovementRecorder__InitData::New_ctor(
-    ::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName,
+inline void GlobalNamespace::ObjectsMovementRecorder_InitData::_ctor(
+    ::GlobalNamespace::ObjectsMovementRecorder_Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView, bool addDateTimeSuffixToRecordingName,
     bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
-    ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ObjectsMovementRecorder__InitData*>(mode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording,
-                                                                                                           screenshotWidth, screenshotHeight, framerate, playbackScreenshots, saveToOldFormat, logger,
-                                                                                                           posesSerializer));
-}
-inline void GlobalNamespace::__ObjectsMovementRecorder__InitData::_ctor(
-    ::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName,
-    bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
     ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ObjectsMovementRecorder__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectsMovementRecorder_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 12>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__Mode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ObjectsMovementRecorder__CameraView>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_Mode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObjectsMovementRecorder_CameraView>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>>::get(),
+              ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberLogger*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPosesSerializer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording, screenshotWidth,
                                                           screenshotHeight, framerate, playbackScreenshots, saveToOldFormat, logger, posesSerializer);
 }
+inline ::GlobalNamespace::ObjectsMovementRecorder_InitData* GlobalNamespace::ObjectsMovementRecorder_InitData::New_ctor(
+    ::GlobalNamespace::ObjectsMovementRecorder_Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView, bool addDateTimeSuffixToRecordingName,
+    bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
+    ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObjectsMovementRecorder_InitData*>(mode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording,
+                                                                                                        screenshotWidth, screenshotHeight, framerate, playbackScreenshots, saveToOldFormat, logger,
+                                                                                                        posesSerializer));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__InitData::__ObjectsMovementRecorder__InitData() {}
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_InitData::ObjectsMovementRecorder_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::ObjectsMovementRecorder.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(&::GlobalNamespace::ObjectsMovementRecorder::Init)> {
   constexpr static std::size_t size = 0x704;
-  constexpr static std::size_t addrs = 0x3aba138;
+  constexpr static std::size_t addrs = 0x3b1707c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectsMovementRecorder*>::get(), "Init",
@@ -252,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(&::GlobalNamespace::ObjectsMovementRecorder::OnDestroy)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3abaf38;
+  constexpr static std::size_t addrs = 0x3b17e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectsMovementRecorder*>::get(), "OnDestroy",
@@ -266,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(
     &::GlobalNamespace::ObjectsMovementRecorder::HandleGameStateChanged)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3abb174;
+  constexpr static std::size_t addrs = 0x3b180b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectsMovementRecorder*>::get(),
@@ -279,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(&::GlobalNamespace::ObjectsMovementRecorder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3abb2d8;
+  constexpr static std::size_t addrs = 0x3b1821c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectsMovementRecorder*>::get(), ".ctor",
@@ -395,27 +394,27 @@ constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__h
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hmdCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__InitData*& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_InitData*& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ObjectsMovementRecorder__InitData*> const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_InitData* const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__initData(::GlobalNamespace::__ObjectsMovementRecorder__InitData* value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__initData(::GlobalNamespace::ObjectsMovementRecorder_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__mode() {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__mode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__mode() const {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__mode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
-constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__mode(::GlobalNamespace::ObjectsMovementRecorder_Mode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mode = value;
 }
@@ -431,15 +430,15 @@ constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__r
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__cameraView() {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__cameraView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraView;
 }
-constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__cameraView() const {
+constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__cameraView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraView;
 }
-constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value) {
+constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__cameraView(::GlobalNamespace::ObjectsMovementRecorder_CameraView value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cameraView = value;
 }
@@ -455,18 +454,18 @@ constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__e
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____externalCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>&
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>&
 GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__playbackScreenshots() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playbackScreenshots;
 }
-constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> const&
 GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__playbackScreenshots() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playbackScreenshots;
 }
 constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__playbackScreenshots(
-    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value) {
+    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playbackScreenshots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -474,7 +473,7 @@ constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::ObjectsMovement
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__logger() const {
+constexpr ::GlobalNamespace::IBeatSaberLogger* const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__logger() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
@@ -486,7 +485,7 @@ constexpr ::GlobalNamespace::IPosesSerializer*& GlobalNamespace::ObjectsMovement
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posesSerializer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__posesSerializer() const {
+constexpr ::GlobalNamespace::IPosesSerializer* const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__posesSerializer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posesSerializer;
 }
@@ -509,13 +508,13 @@ inline void GlobalNamespace::ObjectsMovementRecorder::HandleGameStateChanged() {
                                                                              "HandleGameStateChanged", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ObjectsMovementRecorder* GlobalNamespace::ObjectsMovementRecorder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObjectsMovementRecorder*>());
-}
 inline void GlobalNamespace::ObjectsMovementRecorder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectsMovementRecorder*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ObjectsMovementRecorder* GlobalNamespace::ObjectsMovementRecorder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObjectsMovementRecorder*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObjectsMovementRecorder::ObjectsMovementRecorder() {}

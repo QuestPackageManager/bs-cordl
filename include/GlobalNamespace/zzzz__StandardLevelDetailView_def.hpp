@@ -9,6 +9,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
 struct BeatmapKey;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelDataVersion;
+struct BeatmapLevelLoader_LevelDownloadingUpdate;
 }
 namespace GlobalNamespace {
 class BeatmapLevel;
@@ -64,9 +65,6 @@ namespace GlobalNamespace {
 class LevelParamsPanel;
 }
 namespace GlobalNamespace {
-struct LoadBeatmapLevelDataResult;
-}
-namespace GlobalNamespace {
 class LoadingControl;
 }
 namespace GlobalNamespace {
@@ -76,25 +74,22 @@ namespace GlobalNamespace {
 class SettingsManager;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelLoader__LevelDownloadingUpdate;
+struct StandardLevelDetailViewController_ContentType;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailViewController__ContentType;
+struct StandardLevelDetailView__CalculateAndSetContentAsync_d__61;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___CalculateAndSetContentAsync_d__61;
+struct StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56;
+struct StandardLevelDetailView__SetBeatmapLevelVersions_d__62;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___SetBeatmapLevelVersions_d__62;
+class StandardLevelDetailView___c;
 }
 namespace GlobalNamespace {
-class __StandardLevelDetailView____c;
-}
-namespace GlobalNamespace {
-class __StandardLevelDetailView____c__DisplayClass44_0;
+class StandardLevelDetailView___c__DisplayClass44_0;
 }
 namespace HMUI {
 class ToggleBinder;
@@ -103,16 +98,7 @@ namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -158,95 +144,93 @@ namespace GlobalNamespace {
 class StandardLevelDetailView;
 }
 namespace GlobalNamespace {
-class __StandardLevelDetailView____c;
+class StandardLevelDetailView___c;
 }
 namespace GlobalNamespace {
-class __StandardLevelDetailView____c__DisplayClass44_0;
+class StandardLevelDetailView___c__DisplayClass44_0;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___CalculateAndSetContentAsync_d__61;
+struct StandardLevelDetailView__CalculateAndSetContentAsync_d__61;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56;
+struct StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___SetBeatmapLevelVersions_d__62;
+struct StandardLevelDetailView__SetBeatmapLevelVersions_d__62;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelDetailView);
-MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelDetailView____c);
-MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0);
-MARK_VAL_T(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61);
-MARK_VAL_T(::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56);
-MARK_VAL_T(::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::StandardLevelDetailView___c);
+MARK_REF_PTR_T(::GlobalNamespace::StandardLevelDetailView___c__DisplayClass44_0);
+MARK_VAL_T(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61);
+MARK_VAL_T(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56);
+MARK_VAL_T(::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelDetailView::<>c*
-class CORDL_TYPE __StandardLevelDetailView____c : public ::System::Object {
+// CS Name: StandardLevelDetailView/<>c
+class CORDL_TYPE StandardLevelDetailView___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__StandardLevelDetailView____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::StandardLevelDetailView___c* __9;
 
   /// @brief Field <>9__44_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__44_1, put = setStaticF___9__44_1)) ::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* __9__44_1;
+  __declspec(property(get = getStaticF___9__44_1, put = setStaticF___9__44_1)) ::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* __9__44_1;
 
-  static inline ::GlobalNamespace::__StandardLevelDetailView____c* New_ctor();
+  static inline ::GlobalNamespace::StandardLevelDetailView___c* New_ctor();
 
-  /// @brief Method <SetContent>b__44_1, addr 0x3b109b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SetContent>b__44_1, addr 0x3b70370, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _SetContent_b__44_1(::GlobalNamespace::BeatmapKey key);
 
-  /// @brief Method .ctor, addr 0x3b109b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__StandardLevelDetailView____c* getStaticF___9();
+  static inline ::GlobalNamespace::StandardLevelDetailView___c* getStaticF___9();
 
   static inline ::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* getStaticF___9__44_1();
 
-  static inline void setStaticF___9(::GlobalNamespace::__StandardLevelDetailView____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::StandardLevelDetailView___c* value);
 
   static inline void setStaticF___9__44_1(::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelDetailView____c();
+  constexpr StandardLevelDetailView___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelDetailView____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StandardLevelDetailView____c(__StandardLevelDetailView____c&&) = delete;
+  StandardLevelDetailView___c(StandardLevelDetailView___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelDetailView____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StandardLevelDetailView____c(__StandardLevelDetailView____c const&) = delete;
+  StandardLevelDetailView___c(StandardLevelDetailView___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelDetailView____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass44_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficultyMask, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelDetailView::<>c__DisplayClass44_0*
-class CORDL_TYPE __StandardLevelDetailView____c__DisplayClass44_0 : public ::System::Object {
+// CS Name: StandardLevelDetailView/<>c__DisplayClass44_0
+class CORDL_TYPE StandardLevelDetailView___c__DisplayClass44_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field allowedBeatmapDifficultyMask, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_allowedBeatmapDifficultyMask,
                       put = __cordl_internal_set_allowedBeatmapDifficultyMask)) ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask;
 
-  static inline ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0* New_ctor();
+  static inline ::GlobalNamespace::StandardLevelDetailView___c__DisplayClass44_0* New_ctor();
 
-  /// @brief Method <SetContent>b__0, addr 0x3b109c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SetContent>b__0, addr 0x3b70378, size 0x10, virtual false, abstract: false, final false
   inline bool _SetContent_b__0(::GlobalNamespace::BeatmapKey key);
 
   constexpr ::GlobalNamespace::BeatmapDifficultyMask const& __cordl_internal_get_allowedBeatmapDifficultyMask() const;
@@ -255,52 +239,52 @@ public:
 
   constexpr void __cordl_internal_set_allowedBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x3b0fa4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6f4c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelDetailView____c__DisplayClass44_0();
+  constexpr StandardLevelDetailView___c__DisplayClass44_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelDetailView____c__DisplayClass44_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView___c__DisplayClass44_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StandardLevelDetailView____c__DisplayClass44_0(__StandardLevelDetailView____c__DisplayClass44_0&&) = delete;
+  StandardLevelDetailView___c__DisplayClass44_0(StandardLevelDetailView___c__DisplayClass44_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelDetailView____c__DisplayClass44_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView___c__DisplayClass44_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StandardLevelDetailView____c__DisplayClass44_0(__StandardLevelDetailView____c__DisplayClass44_0 const&) = delete;
+  StandardLevelDetailView___c__DisplayClass44_0(StandardLevelDetailView___c__DisplayClass44_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5392 };
 
   /// @brief Field allowedBeatmapDifficultyMask, offset: 0x10, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask ___allowedBeatmapDifficultyMask;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5368 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView___c__DisplayClass44_0, ___allowedBeatmapDifficultyMask) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0, ___allowedBeatmapDifficultyMask) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView___c__DisplayClass44_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<CalculateAndSetContentAsync>d__61
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey, BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::StandardLevelDetailView::<CalculateAndSetContentAsync>d__61
-struct CORDL_TYPE __StandardLevelDetailView___CalculateAndSetContentAsync_d__61 {
+// CS Name: StandardLevelDetailView/<CalculateAndSetContentAsync>d__61
+struct CORDL_TYPE StandardLevelDetailView__CalculateAndSetContentAsync_d__61 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b109d0, size 0x784, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b70388, size 0x784, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b11154, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b70b0c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -308,7 +292,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelDetailView___CalculateAndSetContentAsync_d__61();
+  constexpr StandardLevelDetailView__CalculateAndSetContentAsync_d__61();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandardLevelDetailView>",
@@ -319,14 +303,19 @@ public:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: None }]
-  constexpr __StandardLevelDetailView___CalculateAndSetContentAsync_d__61(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                          ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this, ::GlobalNamespace::BeatmapKey beatmapKey,
-                                                                          ::System::Threading::CancellationToken cancellationToken,
-                                                                          ::GlobalNamespace::LoadBeatmapLevelDataResult _beatmapLevelData_5__2, float_t _songLength_5__3,
-                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
-                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
-                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3,
-                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__4) noexcept;
+  constexpr StandardLevelDetailView__CalculateAndSetContentAsync_d__61(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                       ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this, ::GlobalNamespace::BeatmapKey beatmapKey,
+                                                                       ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::LoadBeatmapLevelDataResult _beatmapLevelData_5__2,
+                                                                       float_t _songLength_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
+                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
+                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3,
+                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__4) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5393 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -361,55 +350,49 @@ public:
   /// @brief Field <>u__4, offset: 0x78, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__4;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5369 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, 0x80>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, beatmapKey) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, beatmapKey) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, cancellationToken) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, cancellationToken) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, _beatmapLevelData_5__2) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, _beatmapLevelData_5__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, _songLength_5__3) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, _songLength_5__3) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, __u__1) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, __u__1) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, __u__2) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, __u__2) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, __u__3) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, __u__3) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, __u__4) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, __u__4) == 0x78, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<CheckIfBeatmapLevelDataExists>d__56
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::StandardLevelDetailView::<CheckIfBeatmapLevelDataExists>d__56
-struct CORDL_TYPE __StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56 {
+// CS Name: StandardLevelDetailView/<CheckIfBeatmapLevelDataExists>d__56
+struct CORDL_TYPE StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b111bc, size 0x50c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b70b74, size 0x53c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b116c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b710b0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -417,16 +400,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56();
+  constexpr StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandardLevelDetailView>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-  constexpr __StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                            ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this,
-                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
-                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
+  // modifiers: "", def_value: None }, CppParam { name: "_awaitedLevelId_5__2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  constexpr StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                         ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this, ::StringW _awaitedLevelId_5__2,
+                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
+                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5394 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -437,49 +427,48 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <awaitedLevelId>5__2, offset: 0x30, size: 0x8, def value: None
+  ::StringW _awaitedLevelId_5__2;
+
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1;
 
-  /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5370 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, _awaitedLevelId_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, __u__2) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<SetBeatmapLevelVersions>d__62
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::StandardLevelDetailView::<SetBeatmapLevelVersions>d__62
-struct CORDL_TYPE __StandardLevelDetailView___SetBeatmapLevelVersions_d__62 {
+// CS Name: StandardLevelDetailView/<SetBeatmapLevelVersions>d__62
+struct CORDL_TYPE StandardLevelDetailView__SetBeatmapLevelVersions_d__62 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b116d4, size 0x57c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b710bc, size 0x57c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b11c50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b71638, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -487,16 +476,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelDetailView___SetBeatmapLevelVersions_d__62();
+  constexpr StandardLevelDetailView__SetBeatmapLevelVersions_d__62();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandardLevelDetailView>",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None
   // }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }]
-  constexpr __StandardLevelDetailView___SetBeatmapLevelVersions_d__62(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                      ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this,
-                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
-                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2) noexcept;
+  constexpr StandardLevelDetailView__SetBeatmapLevelVersions_d__62(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                   ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this,
+                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
+                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5395 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -513,45 +508,38 @@ public:
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5371 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62, __u__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62, __u__2) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::StandardLevelDetailView
-// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficultyMask, BeatmapKey, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelDetailView*
+// CS Name: StandardLevelDetailView
 class CORDL_TYPE StandardLevelDetailView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _CalculateAndSetContentAsync_d__61 = ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61;
+  using _CalculateAndSetContentAsync_d__61 = ::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61;
 
-  using _CheckIfBeatmapLevelDataExists_d__56 = ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56;
+  using _CheckIfBeatmapLevelDataExists_d__56 = ::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56;
 
-  using _SetBeatmapLevelVersions_d__62 = ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62;
+  using _SetBeatmapLevelVersions_d__62 = ::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62;
 
-  using __c = ::GlobalNamespace::__StandardLevelDetailView____c;
+  using __c = ::GlobalNamespace::StandardLevelDetailView___c;
 
-  using __c__DisplayClass44_0 = ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0;
+  using __c__DisplayClass44_0 = ::GlobalNamespace::StandardLevelDetailView___c__DisplayClass44_0;
 
   /// @brief Field _actionButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__actionButton, put = __cordl_internal_set__actionButton)) ::UnityW<::UnityEngine::UI::Button> _actionButton;
@@ -651,7 +639,7 @@ public:
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeDifficultyBeatmapEvent,
-                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* didChangeDifficultyBeatmapEvent;
+                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* didChangeDifficultyBeatmapEvent;
 
   /// @brief Field didFavoriteToggleChangeEvent, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_didFavoriteToggleChangeEvent,
@@ -661,82 +649,82 @@ public:
 
   __declspec(property(get = get_practiceButton)) ::UnityW<::UnityEngine::UI::Button> practiceButton;
 
-  /// @brief Method Awake, addr 0x3b0fba0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b6f558, size 0x180, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateAndSetContent, addr 0x3b105f4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CalculateAndSetContent, addr 0x3b6ffac, size 0x118, virtual false, abstract: false, final false
   inline void CalculateAndSetContent();
 
-  /// @brief Method CalculateAndSetContentAsync, addr 0x3b10828, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CalculateAndSetContentAsync, addr 0x3b701e0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CalculateAndSetContentAsync(::GlobalNamespace::BeatmapKey beatmapKey, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CheckIfBeatmapLevelDataExists, addr 0x3b0fb0c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CheckIfBeatmapLevelDataExists, addr 0x3b6f4c8, size 0x90, virtual false, abstract: false, final false
   inline void CheckIfBeatmapLevelDataExists();
 
-  /// @brief Method ClearBeatmapLevel, addr 0x3b0fb98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearBeatmapLevel, addr 0x3b65988, size 0x8, virtual false, abstract: false, final false
   inline void ClearBeatmapLevel();
 
-  /// @brief Method ClearContent, addr 0x3b104cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearContent, addr 0x3b6fe84, size 0x9c, virtual false, abstract: false, final false
   inline void ClearContent();
 
-  /// @brief Method CreateBeatmapKey, addr 0x3b10450, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateBeatmapKey, addr 0x3b6fe08, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey CreateBeatmapKey();
 
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic, addr 0x3b103c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic, addr 0x3b6fd7c, size 0x8c, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller,
                                                                                                   ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty, addr 0x3b10370, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty, addr 0x3b6fd28, size 0x34, virtual false, abstract: false, final false
   inline void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(::GlobalNamespace::BeatmapDifficultySegmentedControlController* controller,
                                                                                    ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method HandleBeatmapLevelsModelLevelDownloadingUpdate, addr 0x3b101a0, size 0x70, virtual false, abstract: false, final false
-  inline void HandleBeatmapLevelsModelLevelDownloadingUpdate(::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate levelDownloadingUpdate);
+  /// @brief Method HandleBeatmapLevelsModelLevelDownloadingUpdate, addr 0x3b6fb58, size 0x70, virtual false, abstract: false, final false
+  inline void HandleBeatmapLevelsModelLevelDownloadingUpdate(::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate levelDownloadingUpdate);
 
-  /// @brief Method HandleDidPressRefreshButton, addr 0x3b1036c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPressRefreshButton, addr 0x3b6fd24, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidPressRefreshButton();
 
   static inline ::GlobalNamespace::StandardLevelDetailView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b0fff4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b6f9ac, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b0fe9c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b6f854, size 0x158, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b0fd20, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b6f6d8, size 0x17c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshContent, addr 0x3b0fa54, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x3b658b0, size 0xb8, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetBeatmapLevelVersions, addr 0x3b1079c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapLevelVersions, addr 0x3b70154, size 0x8c, virtual false, abstract: false, final false
   inline void SetBeatmapLevelVersions();
 
-  /// @brief Method SetContent, addr 0x3b10568, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x3b6ff20, size 0x8c, virtual false, abstract: false, final false
   inline void SetContent();
 
-  /// @brief Method SetContent, addr 0x3b0f738, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x3b65e94, size 0x314, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
-                         ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics,
-                         ::GlobalNamespace::BeatmapDifficulty defaultDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
+                         ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics, ::GlobalNamespace::BeatmapDifficulty defaultDifficulty,
+                         ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SetContentForBeatmapData, addr 0x3b10494, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetContentForBeatmapData, addr 0x3b6fe4c, size 0x38, virtual false, abstract: false, final false
   inline void SetContentForBeatmapData();
 
-  /// @brief Method SetData, addr 0x3b1070c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b700c4, size 0x90, virtual false, abstract: false, final false
   inline void SetData(int32_t notesCount, int32_t obstaclesCount, int32_t bombsCount, float_t songLength);
 
-  /// @brief Method ShowContent, addr 0x3b10210, size 0x15c, virtual false, abstract: false, final false
-  inline void ShowContent(::GlobalNamespace::__StandardLevelDetailViewController__ContentType contentType, float_t progress);
+  /// @brief Method ShowContent, addr 0x3b6fbc8, size 0x15c, virtual false, abstract: false, final false
+  inline void ShowContent(::GlobalNamespace::StandardLevelDetailViewController_ContentType contentType, float_t progress);
 
-  /// @brief Method TriggerEvent, addr 0x3b103a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TriggerEvent, addr 0x3b6fd5c, size 0x20, virtual false, abstract: false, final false
   inline void TriggerEvent();
 
-  /// @brief Method <Awake>b__46_0, addr 0x3b10918, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__46_0, addr 0x3b702d0, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__46_0(bool _);
 
-  /// @brief Method <CalculateAndSetContentAsync>b__61_0, addr 0x3b10938, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CalculateAndSetContentAsync>b__61_0, addr 0x3b702f0, size 0x1c, virtual false, abstract: false, final false
   inline void _CalculateAndSetContentAsync_b__61_0(float_t value);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__actionButton() const;
@@ -751,17 +739,17 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapDifficultyMask& __cordl_internal_get__allowedBeatmapDifficultyMask();
 
-  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController> const& __cordl_internal_get__beatmapCharacteristicSegmentedControlController() const;
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>& __cordl_internal_get__beatmapCharacteristicSegmentedControlController();
 
-  constexpr ::GlobalNamespace::BeatmapDataLoader*& __cordl_internal_get__beatmapDataLoader();
+  constexpr ::GlobalNamespace::BeatmapDataLoader* const& __cordl_internal_get__beatmapDataLoader() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataLoader*> const& __cordl_internal_get__beatmapDataLoader() const;
+  constexpr ::GlobalNamespace::BeatmapDataLoader*& __cordl_internal_get__beatmapDataLoader();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController> const& __cordl_internal_get__beatmapDifficultySegmentedControlController() const;
 
@@ -771,9 +759,9 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey_k__BackingField();
 
-  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
+  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__beatmapLevelDataVersionText() const;
 
@@ -787,21 +775,21 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__beatmapLevelVersionsWrapper();
 
+  constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel* const& __cordl_internal_get__beatmapLevelsEntitlementModel() const;
+
   constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel*& __cordl_internal_get__beatmapLevelsEntitlementModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsEntitlementModel*> const& __cordl_internal_get__beatmapLevelsEntitlementModel() const;
+  constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__buttonsWrapper() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__buttonsWrapper();
 
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__favoriteToggle() const;
 
@@ -819,41 +807,41 @@ public:
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__levelParamsPanelCanvasGroup();
 
-  constexpr ::Tweening::Tween*& __cordl_internal_get__levelParamsPanelCanvasGroupTween();
+  constexpr ::Tweening::Tween* const& __cordl_internal_get__levelParamsPanelCanvasGroupTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween*> const& __cordl_internal_get__levelParamsPanelCanvasGroupTween() const;
+  constexpr ::Tweening::Tween*& __cordl_internal_get__levelParamsPanelCanvasGroupTween();
 
   constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& __cordl_internal_get__loadingControl() const;
 
   constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__loadingControl();
 
-  constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
+  constexpr ::GlobalNamespace::PlayerData* const& __cordl_internal_get__playerData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& __cordl_internal_get__playerData() const;
+  constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__practiceButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__practiceButton();
 
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
+
   constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
 
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*> const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
+
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* const& __cordl_internal_get_didFavoriteToggleChangeEvent() const;
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*& __cordl_internal_get_didFavoriteToggleChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*> const& __cordl_internal_get_didFavoriteToggleChangeEvent() const;
 
   constexpr void __cordl_internal_set__actionButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -909,41 +897,41 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
+  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* value);
 
   constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method .ctor, addr 0x3b10910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b702c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b0f3e8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
+  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b6667c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* value);
 
-  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b0f548, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
+  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b6672c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value);
 
-  /// @brief Method get_actionButton, addr 0x3b0f6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionButton, addr 0x3b6f488, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_actionButton();
 
-  /// @brief Method get_beatmapKey, addr 0x3b0f710, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x3b6f498, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_practiceButton, addr 0x3b0f6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceButton, addr 0x3b6f490, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_practiceButton();
 
-  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b0f498, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
+  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b669c4, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* value);
 
-  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b0f5f8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
+  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b66a74, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value);
 
-  /// @brief Method set_actionButtonText, addr 0x3b0f6b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_actionButtonText, addr 0x3b653e4, size 0x24, virtual false, abstract: false, final false
   inline void set_actionButtonText(::StringW value);
 
-  /// @brief Method set_beatmapKey, addr 0x3b0f724, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x3b6f4ac, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_hidePracticeButton, addr 0x3b0f6dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hidePracticeButton, addr 0x3b653b0, size 0x34, virtual false, abstract: false, final false
   inline void set_hidePracticeButton(bool value);
 
 protected:
@@ -959,6 +947,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelDetailView(StandardLevelDetailView const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5396 };
 
   /// @brief Field _actionButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____actionButton;
@@ -1021,7 +1012,7 @@ public:
   ::GlobalNamespace::BeatmapLevelsEntitlementModel* ____beatmapLevelsEntitlementModel;
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset: 0xc0, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* ___didChangeDifficultyBeatmapEvent;
+  ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* ___didChangeDifficultyBeatmapEvent;
 
   /// @brief Field didFavoriteToggleChangeEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* ___didFavoriteToggleChangeEvent;
@@ -1047,14 +1038,9 @@ public:
   /// @brief Field _levelParamsPanelCanvasGroupTween, offset: 0x110, size: 0x8, def value: None
   ::Tweening::Tween* ____levelParamsPanelCanvasGroupTween;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5372 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView, 0x118>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____actionButton) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____actionButtonText) == 0x28, "Offset mismatch!");
@@ -1113,13 +1099,15 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____cancellat
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____levelParamsPanelCanvasGroupTween) == 0x110, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView, 0x118>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelDetailView);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelDetailView*, "", "StandardLevelDetailView");
-NEED_NO_BOX(::GlobalNamespace::__StandardLevelDetailView____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelDetailView____c*, "", "StandardLevelDetailView/<>c");
-NEED_NO_BOX(::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0*, "", "StandardLevelDetailView/<>c__DisplayClass44_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61, "", "StandardLevelDetailView/<CalculateAndSetContentAsync>d__61");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56, "", "StandardLevelDetailView/<CheckIfBeatmapLevelDataExists>d__56");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62, "", "StandardLevelDetailView/<SetBeatmapLevelVersions>d__62");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelDetailView___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelDetailView___c*, "", "StandardLevelDetailView/<>c");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelDetailView___c__DisplayClass44_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelDetailView___c__DisplayClass44_0*, "", "StandardLevelDetailView/<>c__DisplayClass44_0");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__61, "", "StandardLevelDetailView/<CalculateAndSetContentAsync>d__61");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__56, "", "StandardLevelDetailView/<CheckIfBeatmapLevelDataExists>d__56");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__62, "", "StandardLevelDetailView/<SetBeatmapLevelVersions>d__62");

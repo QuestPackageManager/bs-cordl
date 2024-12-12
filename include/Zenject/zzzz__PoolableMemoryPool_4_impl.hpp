@@ -17,10 +17,6 @@ inline void Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>::Re
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, p1, p2, p3, item);
 }
-template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
-inline ::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>* Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>());
-}
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> inline void Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(), ".ctor",
@@ -40,6 +36,10 @@ inline ::Zenject::InjectTypeInfo* Zenject::PoolableMemoryPool_4<TParam1, TParam2
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(),
                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
+inline ::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>* Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> constexpr ::Zenject::PoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>::PoolableMemoryPool_4() {}

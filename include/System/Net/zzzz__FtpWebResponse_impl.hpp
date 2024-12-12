@@ -4,44 +4,44 @@
 #include "System/Net/zzzz__FtpStatusCode_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/Net/zzzz__FtpWebResponse_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__FtpStatusCode_def.hpp"
 #include "System/Net/zzzz__FtpWebResponse_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-//  Writing Method size for method: ::System::Net::__FtpWebResponse__EmptyStream._ctor
+//  Writing Method size for method: ::System::Net::FtpWebResponse_EmptyStream._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__FtpWebResponse__EmptyStream::*)()>(&::System::Net::__FtpWebResponse__EmptyStream::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse_EmptyStream::*)()>(&::System::Net::FtpWebResponse_EmptyStream::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x443b5ac;
+  constexpr static std::size_t addrs = 0x449c8c0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__FtpWebResponse__EmptyStream*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpWebResponse_EmptyStream*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::System::Net::__FtpWebResponse__EmptyStream* System::Net::__FtpWebResponse__EmptyStream::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::__FtpWebResponse__EmptyStream*>());
-}
-inline void System::Net::__FtpWebResponse__EmptyStream::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__FtpWebResponse__EmptyStream*>::get(), ".ctor",
+inline void System::Net::FtpWebResponse_EmptyStream::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpWebResponse_EmptyStream*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Net::FtpWebResponse_EmptyStream* System::Net::FtpWebResponse_EmptyStream::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FtpWebResponse_EmptyStream*>());
+}
 // Ctor Parameters []
-constexpr ::System::Net::__FtpWebResponse__EmptyStream::__FtpWebResponse__EmptyStream() {}
+constexpr ::System::Net::FtpWebResponse_EmptyStream::FtpWebResponse_EmptyStream() {}
 //  Writing Method size for method: ::System::Net::FtpWebResponse._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)(
     ::System::IO::Stream*, int64_t, ::System::Uri*, ::System::Net::FtpStatusCode, ::StringW, ::System::DateTime, ::StringW, ::StringW, ::StringW)>(&::System::Net::FtpWebResponse::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x443adb0;
+  constexpr static std::size_t addrs = 0x449c0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)(::System::Net::FtpStatusCode, ::StringW, ::StringW)>(
     &::System::Net::FtpWebResponse::UpdateStatus)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44396b0;
+  constexpr static std::size_t addrs = 0x449a9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::GetResponseStream)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x443b54c;
+  constexpr static std::size_t addrs = 0x449c860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)(::System::IO::Stream*)>(&::System::Net::FtpWebResponse::SetResponseStream)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x443ad1c;
+  constexpr static std::size_t addrs = 0x449c030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::Close)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x443b648;
+  constexpr static std::size_t addrs = 0x449c95c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::FtpWebResponse::*)()>(
     &::System::Net::FtpWebResponse::get_Headers)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x443b73c;
+  constexpr static std::size_t addrs = 0x449ca50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::get_ResponseUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443b848;
+  constexpr static std::size_t addrs = 0x449cb5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::FtpStatusCode (::System::Net::FtpWebResponse::*)()>(&::System::Net::FtpWebResponse::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443b850;
+  constexpr static std::size_t addrs = 0x449cb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpWebResponse*>::get(), "get_StatusCode",
@@ -155,19 +155,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Net::FtpWebResponse::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Net::FtpWebResponse::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::IO::Stream*& System::Net::FtpWebResponse::__cordl_internal_get__responseStream() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseStream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::FtpWebResponse::__cordl_internal_get__responseStream() const {
+constexpr ::System::IO::Stream* const& System::Net::FtpWebResponse::__cordl_internal_get__responseStream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseStream;
 }
@@ -191,7 +183,7 @@ constexpr ::System::Uri*& System::Net::FtpWebResponse::__cordl_internal_get__res
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseUri;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::FtpWebResponse::__cordl_internal_get__responseUri() const {
+constexpr ::System::Uri* const& System::Net::FtpWebResponse::__cordl_internal_get__responseUri() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseUri;
 }
@@ -227,7 +219,7 @@ constexpr ::System::Net::WebHeaderCollection*& System::Net::FtpWebResponse::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpRequestHeaders;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::FtpWebResponse::__cordl_internal_get__ftpRequestHeaders() const {
+constexpr ::System::Net::WebHeaderCollection* const& System::Net::FtpWebResponse::__cordl_internal_get__ftpRequestHeaders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpRequestHeaders;
 }
@@ -283,12 +275,6 @@ constexpr void System::Net::FtpWebResponse::__cordl_internal_set__exitMessage(::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____exitMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Net::FtpWebResponse* System::Net::FtpWebResponse::New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri,
-                                                                            ::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage,
-                                                                            ::StringW welcomeMessage, ::StringW exitMessage) {
-  return THROW_UNLESS(
-      ::il2cpp_utils::NewSpecific<::System::Net::FtpWebResponse*>(responseStream, contentLength, responseUri, statusCode, statusLine, lastModified, bannerMessage, welcomeMessage, exitMessage));
-}
 inline void System::Net::FtpWebResponse::_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                                                ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -339,6 +325,20 @@ inline ::System::Net::FtpStatusCode System::Net::FtpWebResponse::get_StatusCode(
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpWebResponse*>::get(), "get_StatusCode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::FtpStatusCode, false>(this, ___internal_method);
+}
+inline ::System::Net::FtpWebResponse* System::Net::FtpWebResponse::New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri,
+                                                                            ::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage,
+                                                                            ::StringW welcomeMessage, ::StringW exitMessage) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::System::Net::FtpWebResponse*>(responseStream, contentLength, responseUri, statusCode, statusLine, lastModified, bannerMessage, welcomeMessage, exitMessage));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Net::FtpWebResponse::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Net::FtpWebResponse::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::FtpWebResponse::FtpWebResponse() {}

@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ValidationState)
 namespace System::Collections::Generic {
@@ -31,11 +30,10 @@ class ValidationState;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ValidationState);
-// Type: System.Xml.Schema::ValidationState
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.Schema.StateUnion, System.Xml.Schema.XmlSchemaContentProcessing, System.Xml.Schema.XmlSchemaValidity
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::ValidationState*
+// CS Name: System.Xml.Schema.ValidationState
 class CORDL_TYPE ValidationState : public ::System::Object {
 public:
   // Declarations
@@ -97,9 +95,9 @@ public:
 
   static inline ::System::Xml::Schema::ValidationState* New_ctor();
 
-  constexpr ::System::Xml::Schema::BitSet*& __cordl_internal_get_AllElementsSet();
+  constexpr ::System::Xml::Schema::BitSet* const& __cordl_internal_get_AllElementsSet() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& __cordl_internal_get_AllElementsSet() const;
+  constexpr ::System::Xml::Schema::BitSet*& __cordl_internal_get_AllElementsSet();
 
   constexpr bool const& __cordl_internal_get_CheckRequiredAttribute() const;
 
@@ -117,13 +115,13 @@ public:
 
   constexpr ::System::Xml::Schema::StateUnion& __cordl_internal_get_CurrentState();
 
+  constexpr ::System::Xml::Schema::SchemaElementDecl* const& __cordl_internal_get_ElementDecl() const;
+
   constexpr ::System::Xml::Schema::SchemaElementDecl*& __cordl_internal_get_ElementDecl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& __cordl_internal_get_ElementDecl() const;
+  constexpr ::System::Xml::Schema::SchemaElementDecl* const& __cordl_internal_get_ElementDeclBeforeXsi() const;
 
   constexpr ::System::Xml::Schema::SchemaElementDecl*& __cordl_internal_get_ElementDeclBeforeXsi();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& __cordl_internal_get_ElementDeclBeforeXsi() const;
 
   constexpr bool const& __cordl_internal_get_HasMatched() const;
 
@@ -153,9 +151,9 @@ public:
 
   constexpr ::System::Xml::Schema::XmlSchemaContentProcessing& __cordl_internal_get_ProcessContents();
 
-  constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>*& __cordl_internal_get_RunningPositions();
+  constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>* const& __cordl_internal_get_RunningPositions() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>*> const& __cordl_internal_get_RunningPositions() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>*& __cordl_internal_get_RunningPositions();
 
   constexpr bool const& __cordl_internal_get_TooComplex() const;
 
@@ -205,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set_Validity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  /// @brief Method .ctor, addr 0x4249ea8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ab1bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,6 +219,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidationState", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationState(ValidationState const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7628 };
 
   /// @brief Field IsNill, offset: 0x10, size: 0x1, def value: None
   bool ___IsNill;
@@ -276,14 +277,9 @@ public:
   /// @brief Field TooComplex, offset: 0x68, size: 0x1, def value: None
   bool ___TooComplex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7603 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ValidationState, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::ValidationState, ___IsNill) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ValidationState, ___IsDefault) == 0x11, "Offset mismatch!");
@@ -319,6 +315,8 @@ static_assert(offsetof(::System::Xml::Schema::ValidationState, ___AllElementsSet
 static_assert(offsetof(::System::Xml::Schema::ValidationState, ___RunningPositions) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ValidationState, ___TooComplex) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ValidationState, 0x70>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::ValidationState);

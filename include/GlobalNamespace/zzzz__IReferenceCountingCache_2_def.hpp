@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IReferenceCountingCache_2)
 // Forward declare root types
@@ -12,41 +11,36 @@ template <typename TKey, typename TValue> class IReferenceCountingCache_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::IReferenceCountingCache_2);
-// Type: ::IReferenceCountingCache`2
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::IReferenceCountingCache`2<TKey,TValue>*
+// CS Name: IReferenceCountingCache`2<TKey,TValue>
 class CORDL_TYPE IReferenceCountingCache_2 {
 public:
   // Declarations
-  /// @brief Method AddReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method AddReference, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t AddReference(TKey key);
 
-  /// @brief Method GetReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetReferenceCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetReferenceCount(TKey key);
 
-  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Insert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Insert(TKey key, TValue item);
 
-  /// @brief Method RemoveReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method RemoveReference, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t RemoveReference(TKey key);
 
-  /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryGet(TKey key, ByRef<TValue> result);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IReferenceCountingCache_2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IReferenceCountingCache_2(IReferenceCountingCache_2&&) = delete;
+  /// @brief Method TryGet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool TryGet(TKey key, ::ByRef<TValue> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReferenceCountingCache_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IReferenceCountingCache_2(IReferenceCountingCache_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

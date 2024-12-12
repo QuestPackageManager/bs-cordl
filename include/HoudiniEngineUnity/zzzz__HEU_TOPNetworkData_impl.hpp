@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_TOPNetworkData::*)()>(&::HoudiniEngineUnity::HEU_TOPNetworkData::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x39fad38;
+  constexpr static std::size_t addrs = 0x3a519a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNetworkData*>::get(), ".ctor",
@@ -46,8 +46,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topNodes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*> const&
-HoudiniEngineUnity::HEU_TOPNetworkData::__cordl_internal_get__topNodes() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* const& HoudiniEngineUnity::HEU_TOPNetworkData::__cordl_internal_get__topNodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topNodes;
 }
@@ -95,7 +94,7 @@ constexpr ::HoudiniEngineUnity::TOPNodeTags*& HoudiniEngineUnity::HEU_TOPNetwork
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tags;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& HoudiniEngineUnity::HEU_TOPNetworkData::__cordl_internal_get__tags() const {
+constexpr ::HoudiniEngineUnity::TOPNodeTags* const& HoudiniEngineUnity::HEU_TOPNetworkData::__cordl_internal_get__tags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tags;
 }
@@ -103,13 +102,13 @@ constexpr void HoudiniEngineUnity::HEU_TOPNetworkData::__cordl_internal_set__tag
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::HEU_TOPNetworkData* HoudiniEngineUnity::HEU_TOPNetworkData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_TOPNetworkData*>());
-}
 inline void HoudiniEngineUnity::HEU_TOPNetworkData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNetworkData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_TOPNetworkData* HoudiniEngineUnity::HEU_TOPNetworkData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_TOPNetworkData*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TOPNetworkData::HEU_TOPNetworkData() {}

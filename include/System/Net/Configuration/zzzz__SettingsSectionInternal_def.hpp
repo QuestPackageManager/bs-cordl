@@ -12,11 +12,10 @@ class SettingsSectionInternal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::SettingsSectionInternal);
-// Type: System.Net.Configuration::SettingsSectionInternal
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Sockets.IPProtectionLevel, System.Object
 namespace System::Net::Configuration {
 // Is value type: false
-// CS Name: ::System.Net.Configuration::SettingsSectionInternal*
+// CS Name: System.Net.Configuration.SettingsSectionInternal
 class CORDL_TYPE SettingsSectionInternal : public ::System::Object {
 public:
   // Declarations
@@ -29,7 +28,7 @@ public:
   __declspec(property(get = get_Ipv6Enabled)) bool Ipv6Enabled;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::System::Net::Configuration::SettingsSectionInternal* instance;
+  __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::System::Net::Configuration::SettingsSectionInternal* instance;
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* New_ctor();
 
@@ -45,15 +44,15 @@ public:
 
   constexpr void __cordl_internal_set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value);
 
-  /// @brief Method .ctor, addr 0x438c3d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ed6e4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* getStaticF_instance();
 
-  /// @brief Method get_Ipv6Enabled, addr 0x438c3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ipv6Enabled, addr 0x43ed6dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Ipv6Enabled();
 
-  /// @brief Method get_Section, addr 0x438c370, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Section, addr 0x43ed684, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::SettingsSectionInternal* get_Section();
 
   static inline void setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value);
@@ -72,23 +71,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsSectionInternal(SettingsSectionInternal const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9831 };
+
   /// @brief Field HttpListenerUnescapeRequestUrl, offset: 0x10, size: 0x1, def value: None
   bool ___HttpListenerUnescapeRequestUrl;
 
   /// @brief Field IPProtectionLevel, offset: 0x14, size: 0x4, def value: None
   ::System::Net::Sockets::IPProtectionLevel ___IPProtectionLevel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9806 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Configuration::SettingsSectionInternal, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Configuration::SettingsSectionInternal, ___HttpListenerUnescapeRequestUrl) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Configuration::SettingsSectionInternal, ___IPProtectionLevel) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Configuration::SettingsSectionInternal, 0x18>, "Size mismatch!");
 
 } // namespace System::Net::Configuration
 NEED_NO_BOX(::System::Net::Configuration::SettingsSectionInternal);

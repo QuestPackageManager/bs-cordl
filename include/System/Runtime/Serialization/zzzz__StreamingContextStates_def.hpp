@@ -12,11 +12,10 @@ struct StreamingContextStates;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::StreamingContextStates);
-// Type: System.Runtime.Serialization::StreamingContextStates
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Serialization {
 // Is value type: true
-// CS Name: ::System.Runtime.Serialization::StreamingContextStates
+// CS Name: System.Runtime.Serialization.StreamingContextStates
 struct CORDL_TYPE StreamingContextStates {
 public:
   // Declarations
@@ -52,34 +51,31 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StreamingContextStates(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0xff)
+  /// @brief Field All value: I32(255)
   static ::System::Runtime::Serialization::StreamingContextStates const All;
 
-  /// @brief Field Clone value: static_cast<int32_t>(0x40)
+  /// @brief Field Clone value: I32(64)
   static ::System::Runtime::Serialization::StreamingContextStates const Clone;
 
-  /// @brief Field CrossAppDomain value: static_cast<int32_t>(0x80)
+  /// @brief Field CrossAppDomain value: I32(128)
   static ::System::Runtime::Serialization::StreamingContextStates const CrossAppDomain;
 
-  /// @brief Field CrossMachine value: static_cast<int32_t>(0x2)
+  /// @brief Field CrossMachine value: I32(2)
   static ::System::Runtime::Serialization::StreamingContextStates const CrossMachine;
 
-  /// @brief Field CrossProcess value: static_cast<int32_t>(0x1)
+  /// @brief Field CrossProcess value: I32(1)
   static ::System::Runtime::Serialization::StreamingContextStates const CrossProcess;
 
-  /// @brief Field File value: static_cast<int32_t>(0x4)
+  /// @brief Field File value: I32(4)
   static ::System::Runtime::Serialization::StreamingContextStates const File;
 
-  /// @brief Field Other value: static_cast<int32_t>(0x20)
+  /// @brief Field Other value: I32(32)
   static ::System::Runtime::Serialization::StreamingContextStates const Other;
 
-  /// @brief Field Persistence value: static_cast<int32_t>(0x8)
+  /// @brief Field Persistence value: I32(8)
   static ::System::Runtime::Serialization::StreamingContextStates const Persistence;
 
-  /// @brief Field Remoting value: static_cast<int32_t>(0x10)
+  /// @brief Field Remoting value: I32(16)
   static ::System::Runtime::Serialization::StreamingContextStates const Remoting;
 
   /// @brief IL2CPP Metadata Type Index
@@ -88,12 +84,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::StreamingContextStates, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::StreamingContextStates, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::StreamingContextStates, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::StreamingContextStates, "System.Runtime.Serialization", "StreamingContextStates");

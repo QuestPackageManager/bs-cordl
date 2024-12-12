@@ -10,6 +10,9 @@ namespace GlobalNamespace {
 class BrowsingMenusRichPresenceData;
 }
 namespace GlobalNamespace {
+struct GameScenesManager_SceneTransitionType;
+}
+namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
@@ -54,9 +57,6 @@ class ScenesTransitionSetupDataSO;
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
-namespace GlobalNamespace {
-struct __GameScenesManager__SceneTransitionType;
-}
 namespace Zenject {
 class DiContainer;
 }
@@ -66,11 +66,10 @@ class RichPresenceManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RichPresenceManager);
-// Type: ::RichPresenceManager
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RichPresenceManager*
+// CS Name: RichPresenceManager
 class CORDL_TYPE RichPresenceManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -142,63 +141,63 @@ public:
   __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
                       put = __cordl_internal_set__unifiedNetworkPlayerModel)) ::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
-  /// @brief Method Awake, addr 0x3acc6d8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b2bd1c, size 0x29c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Clear, addr 0x3acd1e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3b2c824, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x3accec0, size 0x320, virtual false, abstract: false, final false
-  inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType,
+  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x3b2c504, size 0x320, virtual false, abstract: false, final false
+  inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
                                                          ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x3accbc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x3b2c20c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x3acd45c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x3b2caa0, size 0x158, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x3acd288, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x3b2c8cc, size 0x1d4, virtual false, abstract: false, final false
   inline void HandleMultiplayerPartySizeChanged(int32_t currentPartySize);
 
   static inline ::GlobalNamespace::RichPresenceManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3acc974, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2bfb8, size 0x254, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetMenuPresence, addr 0x3accbe4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetMenuPresence, addr 0x3b2c228, size 0x230, virtual false, abstract: false, final false
   inline void SetMenuPresence();
 
-  /// @brief Method SetPresence, addr 0x3acce14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetPresence, addr 0x3b2c458, size 0xac, virtual false, abstract: false, final false
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
+
+  constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& __cordl_internal_get__browsingMenusRichPresenceData() const;
 
   constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData*& __cordl_internal_get__browsingMenusRichPresenceData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BrowsingMenusRichPresenceData*> const& __cordl_internal_get__browsingMenusRichPresenceData() const;
+  constexpr ::GlobalNamespace::IRichPresenceData* const& __cordl_internal_get__currentPresenceData() const;
 
   constexpr ::GlobalNamespace::IRichPresenceData*& __cordl_internal_get__currentPresenceData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IRichPresenceData*> const& __cordl_internal_get__currentPresenceData() const;
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::GlobalNamespace::InMultiplayerRichPresenceData*& __cordl_internal_get__inMultiplayerRichPresenceData();
+  constexpr ::GlobalNamespace::InMultiplayerRichPresenceData* const& __cordl_internal_get__inMultiplayerRichPresenceData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::InMultiplayerRichPresenceData*> const& __cordl_internal_get__inMultiplayerRichPresenceData() const;
+  constexpr ::GlobalNamespace::InMultiplayerRichPresenceData*& __cordl_internal_get__inMultiplayerRichPresenceData();
 
   constexpr bool const& __cordl_internal_get__isInMultiplayerLobby() const;
 
   constexpr bool& __cordl_internal_get__isInMultiplayerLobby();
 
+  constexpr ::GlobalNamespace::LobbyGameStateModel* const& __cordl_internal_get__lobbyGameStateModel() const;
+
   constexpr ::GlobalNamespace::LobbyGameStateModel*& __cordl_internal_get__lobbyGameStateModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyGameStateModel*> const& __cordl_internal_get__lobbyGameStateModel() const;
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
   constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> const& __cordl_internal_get__menuScenesTransitionSetupData() const;
 
@@ -216,17 +215,17 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& __cordl_internal_get__multiplayerLevelScenesTransitionSetupData();
 
+  constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData* const& __cordl_internal_get__playingCampaignRichPresenceData() const;
+
   constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData*& __cordl_internal_get__playingCampaignRichPresenceData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayingCampaignRichPresenceData*> const& __cordl_internal_get__playingCampaignRichPresenceData() const;
+  constexpr ::GlobalNamespace::PlayingTutorialPresenceData* const& __cordl_internal_get__playingTutorialPresenceData() const;
 
   constexpr ::GlobalNamespace::PlayingTutorialPresenceData*& __cordl_internal_get__playingTutorialPresenceData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayingTutorialPresenceData*> const& __cordl_internal_get__playingTutorialPresenceData() const;
+  constexpr ::GlobalNamespace::IRichPresencePlatformHandler* const& __cordl_internal_get__richPresencePlatformHandler() const;
 
   constexpr ::GlobalNamespace::IRichPresencePlatformHandler*& __cordl_internal_get__richPresencePlatformHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IRichPresencePlatformHandler*> const& __cordl_internal_get__richPresencePlatformHandler() const;
 
   constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelScenesTransitionSetupData() const;
 
@@ -236,9 +235,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialScenesTransitionSetupData();
 
-  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __cordl_internal_get__unifiedNetworkPlayerModel();
+  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel* const& __cordl_internal_get__unifiedNetworkPlayerModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnifiedNetworkPlayerModel*> const& __cordl_internal_get__unifiedNetworkPlayerModel() const;
+  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __cordl_internal_get__unifiedNetworkPlayerModel();
 
   constexpr void __cordl_internal_set__browsingMenusRichPresenceData(::GlobalNamespace::BrowsingMenusRichPresenceData* value);
 
@@ -274,7 +273,7 @@ public:
 
   constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
-  /// @brief Method .ctor, addr 0x3acd5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2cbf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -290,6 +289,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RichPresenceManager(RichPresenceManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5158 };
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelScenesTransitionSetupData;
@@ -342,14 +344,9 @@ public:
   /// @brief Field _currentPresenceData, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::IRichPresenceData* ____currentPresenceData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5138 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RichPresenceManager, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____standardLevelScenesTransitionSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____tutorialScenesTransitionSetupData) == 0x28, "Offset mismatch!");
@@ -383,6 +380,8 @@ static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____playingCampai
 static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____playingTutorialPresenceData) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____currentPresenceData) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RichPresenceManager, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RichPresenceManager);

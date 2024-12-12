@@ -2,7 +2,6 @@
 // IWYU pragma private; include "UnityEngine/InputSystem/Utilities/CallbackArray_1.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 template <typename TDelegate> inline int32_t UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::get_length() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>::get(), "get_length",

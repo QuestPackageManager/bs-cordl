@@ -12,11 +12,10 @@ struct Video3DLayout;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::Video3DLayout);
-// Type: UnityEngine.Video::Video3DLayout
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
-// CS Name: ::UnityEngine.Video::Video3DLayout
+// CS Name: UnityEngine.Video.Video3DLayout
 struct CORDL_TYPE Video3DLayout {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr Video3DLayout(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field No3D value: static_cast<int32_t>(0x0)
+  /// @brief Field No3D value: I32(0)
   static ::UnityEngine::Video::Video3DLayout const No3D;
 
-  /// @brief Field OverUnder3D value: static_cast<int32_t>(0x2)
+  /// @brief Field OverUnder3D value: I32(2)
   static ::UnityEngine::Video::Video3DLayout const OverUnder3D;
 
-  /// @brief Field SideBySide3D value: static_cast<int32_t>(0x1)
+  /// @brief Field SideBySide3D value: I32(1)
   static ::UnityEngine::Video::Video3DLayout const SideBySide3D;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18521 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::Video3DLayout, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Video::Video3DLayout, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::Video3DLayout, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Video
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::Video3DLayout, "UnityEngine.Video", "Video3DLayout");

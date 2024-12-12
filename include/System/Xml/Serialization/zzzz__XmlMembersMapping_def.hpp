@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Serialization/zzzz__XmlMapping_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlMembersMapping)
 namespace System::Xml::Serialization {
@@ -16,11 +15,10 @@ class XmlMembersMapping;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlMembersMapping);
-// Type: System.Xml.Serialization::XmlMembersMapping
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Serialization.XmlMapping
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlMembersMapping*
+// CS Name: System.Xml.Serialization.XmlMembersMapping
 class CORDL_TYPE XmlMembersMapping : public ::System::Xml::Serialization::XmlMapping {
 public:
   // Declarations
@@ -48,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__mapping(::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> value);
 
-  /// @brief Method get_Count, addr 0x4310170, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4371484, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_HasWrapperElement, addr 0x431018c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasWrapperElement, addr 0x43714a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasWrapperElement();
 
 protected:
@@ -68,23 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlMembersMapping(XmlMembersMapping const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7421 };
+
   /// @brief Field _hasWrapperElement, offset: 0x48, size: 0x1, def value: None
   bool ____hasWrapperElement;
 
   /// @brief Field _mapping, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> ____mapping;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7396 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlMembersMapping, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlMembersMapping, ____hasWrapperElement) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlMembersMapping, ____mapping) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlMembersMapping, 0x58>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlMembersMapping);

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevelsPromoDataSO*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x26c07a0;
+  constexpr static std::size_t addrs = 0x26f5394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelPackPromoted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26c08bc;
+  constexpr static std::size_t addrs = 0x26f54b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelPackUpdated)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26c0918;
+  constexpr static std::size_t addrs = 0x26f550c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelPromoted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26c0974;
+  constexpr static std::size_t addrs = 0x26f5568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelUpdated)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26c09d0;
+  constexpr static std::size_t addrs = 0x26f55c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,8 +85,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____promotedBeatmapLevelPacksSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
-GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__promotedBeatmapLevelPacksSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__promotedBeatmapLevelPacksSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____promotedBeatmapLevelPacksSet;
 }
@@ -98,8 +97,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updatedBeatmapLevelPacksSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
-GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__updatedBeatmapLevelPacksSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__updatedBeatmapLevelPacksSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updatedBeatmapLevelPacksSet;
 }
@@ -111,8 +109,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____promotedBeatmapLevelsSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
-GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__promotedBeatmapLevelsSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__promotedBeatmapLevelsSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____promotedBeatmapLevelsSet;
 }
@@ -124,17 +121,13 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updatedBeatmapLevelsSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
-GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__updatedBeatmapLevelsSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_get__updatedBeatmapLevelsSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updatedBeatmapLevelsSet;
 }
 constexpr void GlobalNamespace::BeatmapLevelsPromoModel::__cordl_internal_set__updatedBeatmapLevelsSet(::System::Collections::Generic::HashSet_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____updatedBeatmapLevelsSet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::BeatmapLevelsPromoModel* GlobalNamespace::BeatmapLevelsPromoModel::New_ctor(::GlobalNamespace::BeatmapLevelsPromoDataSO* promoDataSO) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelsPromoModel*>(promoDataSO));
 }
 inline void GlobalNamespace::BeatmapLevelsPromoModel::_ctor(::GlobalNamespace::BeatmapLevelsPromoDataSO* promoDataSO) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -165,6 +158,9 @@ inline bool GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelUpdated(::Gl
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsPromoModel*>::get(), "IsBeatmapLevelUpdated", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, beatmapLevel);
+}
+inline ::GlobalNamespace::BeatmapLevelsPromoModel* GlobalNamespace::BeatmapLevelsPromoModel::New_ctor(::GlobalNamespace::BeatmapLevelsPromoDataSO* promoDataSO) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelsPromoModel*>(promoDataSO));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelsPromoModel::BeatmapLevelsPromoModel() {}

@@ -12,11 +12,10 @@ class ExceptionFilter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ExceptionFilter);
-// Type: System.Linq.Expressions.Interpreter::ExceptionFilter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::ExceptionFilter*
+// CS Name: System.Linq.Expressions.Interpreter.ExceptionFilter
 class CORDL_TYPE ExceptionFilter : public ::System::Object {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_StartIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4074f00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d6214, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t start, int32_t end);
 
 protected:
@@ -66,6 +65,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExceptionFilter(ExceptionFilter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13935 };
+
   /// @brief Field LabelIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___LabelIndex;
 
@@ -75,19 +77,16 @@ public:
   /// @brief Field EndIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___EndIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13901 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ExceptionFilter, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionFilter, ___LabelIndex) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionFilter, ___StartIndex) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionFilter, ___EndIndex) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ExceptionFilter, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ExceptionFilter);

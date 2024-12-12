@@ -32,11 +32,10 @@ class TimeStampedDataParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser);
-// Type: Org.BouncyCastle.Asn1.Cms::TimeStampedDataParser
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::TimeStampedDataParser*
+// CS Name: Org.BouncyCastle.Asn1.Cms.TimeStampedDataParser
 class CORDL_TYPE TimeStampedDataParser : public ::System::Object {
 public:
   // Declarations
@@ -64,37 +63,37 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x22db584, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x230e870, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTemporalEvidence, addr 0x22db6b8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method GetTemporalEvidence, addr 0x230e9a4, size 0x12c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetTemporalEvidence();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* const& __cordl_internal_get_content() const;
+
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetStringParser*> const& __cordl_internal_get_content() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerIA5String* const& __cordl_internal_get_dataUri() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_dataUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_dataUri() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::MetaData* const& __cordl_internal_get_metaData() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::MetaData*& __cordl_internal_get_metaData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::MetaData*> const& __cordl_internal_get_metaData() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* const& __cordl_internal_get_parser() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get_parser();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __cordl_internal_get_parser() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::Evidence* const& __cordl_internal_get_temporalEvidence() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::Evidence*& __cordl_internal_get_temporalEvidence();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Evidence*> const& __cordl_internal_get_temporalEvidence() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_version() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1OctetStringParser* value);
 
@@ -108,16 +107,16 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x22db184, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230e470, size 0x400, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
-  /// @brief Method get_Content, addr 0x22db6b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x230e99c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Content();
 
-  /// @brief Method get_DataUri, addr 0x22db6a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataUri, addr 0x230e98c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData, addr 0x22db6a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MetaData, addr 0x230e994, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
 protected:
@@ -133,6 +132,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampedDataParser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TimeStampedDataParser(TimeStampedDataParser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 100 };
 
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___version;
@@ -152,14 +154,9 @@ public:
   /// @brief Field parser, offset: 0x38, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1SequenceParser* ___parser;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 100 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___dataUri) == 0x18, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, __
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___temporalEvidence) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___parser) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, 0x40>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser);

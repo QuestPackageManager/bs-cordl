@@ -16,50 +16,18 @@ CORDL_MODULE_INIT
 #include "BeatSaber/Settings/zzzz__WindowSettings_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(Settings)
-namespace BeatSaber::Settings {
-struct AudioSettings;
-}
-namespace BeatSaber::Settings {
-struct ControllerSettings;
-}
-namespace BeatSaber::Settings {
-struct CustomServerSettings;
-}
-namespace BeatSaber::Settings {
-struct DebugSettings;
-}
-namespace BeatSaber::Settings {
-struct MiscSettings;
-}
-namespace BeatSaber::Settings {
-struct PerformanceToolSettings;
-}
-namespace BeatSaber::Settings {
-struct QualitySettings;
-}
-namespace BeatSaber::Settings {
-struct QuestSettings;
-}
-namespace BeatSaber::Settings {
-struct RoomSettings;
-}
-namespace BeatSaber::Settings {
-struct SmoothCameraSettings;
-}
-namespace BeatSaber::Settings {
-struct WindowSettings;
-}
 // Forward declare root types
 namespace BeatSaber::Settings {
 struct Settings;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::Settings::Settings);
-// Type: BeatSaber.Settings::Settings
-// SizeInfo { instance_size: 232, native_size: 264, calculated_instance_size: 232, calculated_native_size: 245, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Settings.AudioSettings, BeatSaber.Settings.ControllerSettings, BeatSaber.Settings.CustomServerSettings, BeatSaber.Settings.DebugSettings, BeatSaber.Settings.MiscSettings,
+// BeatSaber.Settings.PerformanceToolSettings, BeatSaber.Settings.QualitySettings, BeatSaber.Settings.QuestSettings, BeatSaber.Settings.RoomSettings, BeatSaber.Settings.SmoothCameraSettings,
+// BeatSaber.Settings.WindowSettings
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::BeatSaber.Settings::Settings
+// CS Name: BeatSaber.Settings.Settings
 struct CORDL_TYPE Settings {
 public:
   // Declarations
@@ -79,71 +47,71 @@ public:
                      ::BeatSaber::Settings::WindowSettings window, ::BeatSaber::Settings::CustomServerSettings customServer, ::BeatSaber::Settings::PerformanceToolSettings performanceTools,
                      ::BeatSaber::Settings::DebugSettings debug) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18003 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf0 };
+
   /// @brief Field room, offset: 0x0, size: 0x10, def value: None
   ::BeatSaber::Settings::RoomSettings room;
 
-  /// @brief Field controller, offset: 0x10, size: 0x1c, def value: None
+  /// @brief Field controller, offset: 0x10, size: 0x24, def value: None
   ::BeatSaber::Settings::ControllerSettings controller;
 
-  /// @brief Field smoothCamera, offset: 0x2c, size: 0x2c, def value: None
+  /// @brief Field smoothCamera, offset: 0x34, size: 0x2c, def value: None
   ::BeatSaber::Settings::SmoothCameraSettings smoothCamera;
 
-  /// @brief Field audio, offset: 0x58, size: 0x10, def value: None
+  /// @brief Field audio, offset: 0x60, size: 0x10, def value: None
   ::BeatSaber::Settings::AudioSettings audio;
 
-  /// @brief Field misc, offset: 0x68, size: 0x10, def value: None
+  /// @brief Field misc, offset: 0x70, size: 0x10, def value: None
   ::BeatSaber::Settings::MiscSettings misc;
 
-  /// @brief Field quality, offset: 0x78, size: 0x38, def value: None
+  /// @brief Field quality, offset: 0x80, size: 0x38, def value: None
   ::BeatSaber::Settings::QualitySettings quality;
 
-  /// @brief Field quest, offset: 0xb0, size: 0x14, def value: None
+  /// @brief Field quest, offset: 0xb8, size: 0x14, def value: None
   ::BeatSaber::Settings::QuestSettings quest;
 
-  /// @brief Field window, offset: 0xc4, size: 0xc, def value: None
+  /// @brief Field window, offset: 0xcc, size: 0xc, def value: None
   ::BeatSaber::Settings::WindowSettings window;
 
-  /// @brief Field customServer, offset: 0xd0, size: 0x10, def value: None
+  /// @brief Field customServer, offset: 0xd8, size: 0x10, def value: None
   ::BeatSaber::Settings::CustomServerSettings customServer;
 
-  /// @brief Field performanceTools, offset: 0xe0, size: 0x4, def value: None
+  /// @brief Field performanceTools, offset: 0xe8, size: 0x4, def value: None
   ::BeatSaber::Settings::PerformanceToolSettings performanceTools;
 
-  /// @brief Field debug, offset: 0xe4, size: 0x1, def value: None
+  /// @brief Field debug, offset: 0xec, size: 0x1, def value: None
   ::BeatSaber::Settings::DebugSettings debug;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17954 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe8 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::Settings, 0xe8>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::Settings::Settings, room) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::Settings, controller) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, smoothCamera) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, smoothCamera) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, audio) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, audio) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, misc) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, misc) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, quality) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, quality) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, quest) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, quest) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, window) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, window) == 0xcc, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, customServer) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, customServer) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, performanceTools) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, performanceTools) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::Settings, debug) == 0xe4, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::Settings, debug) == 0xec, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::Settings, 0xf0>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::Settings, "BeatSaber.Settings", "Settings");

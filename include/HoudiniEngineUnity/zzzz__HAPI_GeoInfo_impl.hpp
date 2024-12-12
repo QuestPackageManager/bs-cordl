@@ -2,7 +2,6 @@
 // IWYU pragma private; include "HoudiniEngineUnity/HAPI_GeoInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoType_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_GeoType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GroupType_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_GeoInfo.getGroupCountByType
 template <>
@@ -10,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_GeoInfo::*)(::HoudiniEngineUnity::HAPI_GroupType)>(
     &::HoudiniEngineUnity::HAPI_GeoInfo::getGroupCountByType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39f20f0;
+  constexpr static std::size_t addrs = 0x3a48d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

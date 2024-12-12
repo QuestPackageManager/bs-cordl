@@ -1,8 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XsdValidatingReader.hpp"
+#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_impl.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
-#include "System/Xml/zzzz__XsdValidatingReader_impl.hpp"
 #include "System/Xml/zzzz__XsdValidatingReader_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -37,31 +39,31 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState::__XsdValidatingReader__ValidatingReaderState(int32_t value__) noexcept {
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState::XsdValidatingReader_ValidatingReaderState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState::__XsdValidatingReader__ValidatingReaderState() {}
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::None{ static_cast<int32_t>(0x0) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::Init{ static_cast<int32_t>(0x1) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::Read{ static_cast<int32_t>(0x2) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::OnDefaultAttribute{ static_cast<int32_t>(0xffffffff) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::OnReadAttributeValue{ static_cast<int32_t>(0xfffffffe) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::OnAttribute{ static_cast<int32_t>(0x3) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::ClearAttributes{ static_cast<int32_t>(0x4) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::ParseInlineSchema{ static_cast<int32_t>(0x5) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::ReadAhead{ static_cast<int32_t>(0x6) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::OnReadBinaryContent{ static_cast<int32_t>(0x7) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::ReaderClosed{ static_cast<int32_t>(0x8) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::_cordl_EOF{ static_cast<int32_t>(0x9) };
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState System::Xml::__XsdValidatingReader__ValidatingReaderState::Error{ static_cast<int32_t>(0xa) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState::XsdValidatingReader_ValidatingReaderState() {}
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::None{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::Init{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::Read{ static_cast<int32_t>(0x2) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::OnDefaultAttribute{ static_cast<int32_t>(0xffffffff) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::OnReadAttributeValue{ static_cast<int32_t>(0xfffffffe) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::OnAttribute{ static_cast<int32_t>(0x3) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::ClearAttributes{ static_cast<int32_t>(0x4) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::ParseInlineSchema{ static_cast<int32_t>(0x5) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::ReadAhead{ static_cast<int32_t>(0x6) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::OnReadBinaryContent{ static_cast<int32_t>(0x7) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::ReaderClosed{ static_cast<int32_t>(0x8) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::_cordl_EOF{ static_cast<int32_t>(0x9) };
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState System::Xml::XsdValidatingReader_ValidatingReaderState::Error{ static_cast<int32_t>(0xa) };
 //  Writing Method size for method: ::System::Xml::XsdValidatingReader._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)(
     ::System::Xml::XmlReader*, ::System::Xml::XmlResolver*, ::System::Xml::XmlReaderSettings*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::XsdValidatingReader::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x42cc478;
+  constexpr static std::size_t addrs = 0x432d78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XsdValidatingReader::*)(::System::Xml::XmlReader*, ::System::Xml::XmlResolver*, ::System::Xml::XmlReaderSettings*)>(&::System::Xml::XsdValidatingReader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42ccb14;
+  constexpr static std::size_t addrs = 0x432de28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::Init)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x42cc60c;
+  constexpr static std::size_t addrs = 0x432d920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "Init",
@@ -109,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)(
     ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlReader*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::XsdValidatingReader::SetupValidator)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x42cc934;
+  constexpr static std::size_t addrs = 0x432dc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::get_Settings)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x42ccb1c;
+  constexpr static std::size_t addrs = 0x432de30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::get_NodeType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42ccbec;
+  constexpr static std::size_t addrs = 0x432df00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_Name)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x42ccc74;
+  constexpr static std::size_t addrs = 0x432df88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_LocalName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42ccd80;
+  constexpr static std::size_t addrs = 0x432e094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42ccdbc;
+  constexpr static std::size_t addrs = 0x432e0d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_Prefix)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42ccdf8;
+  constexpr static std::size_t addrs = 0x432e10c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_Value)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42cce34;
+  constexpr static std::size_t addrs = 0x432e148;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_Depth)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42cce70;
+  constexpr static std::size_t addrs = 0x432e184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_BaseURI)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x42cceac;
+  constexpr static std::size_t addrs = 0x432e1c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x42cced0;
+  constexpr static std::size_t addrs = 0x432e1e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_IsDefault)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42ccef4;
+  constexpr static std::size_t addrs = 0x432e208;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_QuoteChar)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x42ccf30;
+  constexpr static std::size_t addrs = 0x432e244;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -296,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::get_XmlSpace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x42ccf54;
+  constexpr static std::size_t addrs = 0x432e268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_XmlLang)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x42ccf78;
+  constexpr static std::size_t addrs = 0x432e28c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -325,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::get_SchemaInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x42ccf9c;
+  constexpr static std::size_t addrs = 0x432e2b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_ValueType)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x42ccfa0;
+  constexpr static std::size_t addrs = 0x432e2b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -353,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_AttributeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42cd084;
+  constexpr static std::size_t addrs = 0x432e398;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -367,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)(::StringW)>(&::System::Xml::XsdValidatingReader::GetAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x42cd08c;
+  constexpr static std::size_t addrs = 0x432e3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -382,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)(::StringW, ::StringW)>(
     &::System::Xml::XsdValidatingReader::GetAttribute)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42cd27c;
+  constexpr static std::size_t addrs = 0x432e590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -396,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)(int32_t)>(&::System::Xml::XsdValidatingReader::GetAttribute)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x42cd4c0;
+  constexpr static std::size_t addrs = 0x432e7d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -410,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)(::StringW)>(&::System::Xml::XsdValidatingReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x42cd59c;
+  constexpr static std::size_t addrs = 0x432e8b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -424,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)(int32_t)>(&::System::Xml::XsdValidatingReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x42cd7d4;
+  constexpr static std::size_t addrs = 0x432eae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -438,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x42cd96c;
+  constexpr static std::size_t addrs = 0x432ec80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -452,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x42cdac0;
+  constexpr static std::size_t addrs = 0x432edd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -466,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::MoveToElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x42cdc1c;
+  constexpr static std::size_t addrs = 0x432ef30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -480,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::Read)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x42cdc70;
+  constexpr static std::size_t addrs = 0x432ef84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -494,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_EOF)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x42ce058;
+  constexpr static std::size_t addrs = 0x432f36c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -508,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x42ce07c;
+  constexpr static std::size_t addrs = 0x432f390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -523,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ReadState (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::get_ReadState)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42ce0b0;
+  constexpr static std::size_t addrs = 0x432f3c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -537,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::Skip)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x42ce0ec;
+  constexpr static std::size_t addrs = 0x432f400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -552,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42ce258;
+  constexpr static std::size_t addrs = 0x432f56c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -566,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)(::StringW)>(&::System::Xml::XsdValidatingReader::LookupNamespace)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x42ce260;
+  constexpr static std::size_t addrs = 0x432f574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -580,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ResolveEntity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x42ce30c;
+  constexpr static std::size_t addrs = 0x432f620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -594,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ReadAttributeValue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x42ce344;
+  constexpr static std::size_t addrs = 0x432f658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -609,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::System_Xml_Schema_IXmlSchemaInfo_get_IsDefault)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42ce478;
+  constexpr static std::size_t addrs = 0x432f78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -624,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::System_Xml_Schema_IXmlSchemaInfo_get_IsNil)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x42ce770;
+  constexpr static std::size_t addrs = 0x432fa84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -639,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidity (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::System_Xml_Schema_IXmlSchemaInfo_get_Validity)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x42ce7bc;
+  constexpr static std::size_t addrs = 0x432fad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -654,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::System_Xml_Schema_IXmlSchemaInfo_get_MemberType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x42ce850;
+  constexpr static std::size_t addrs = 0x432fb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -669,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::System_Xml_Schema_IXmlSchemaInfo_get_SchemaType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x42ce9c8;
+  constexpr static std::size_t addrs = 0x432fcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -684,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x42cea24;
+  constexpr static std::size_t addrs = 0x432fd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -699,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42cea78;
+  constexpr static std::size_t addrs = 0x432fd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -713,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42ceabc;
+  constexpr static std::size_t addrs = 0x432fdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "HasLineInfo",
@@ -726,7 +728,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_LineNumber)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x42ceac4;
+  constexpr static std::size_t addrs = 0x432fdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "get_LineNumber",
@@ -739,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::get_LinePosition)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x42ceb74;
+  constexpr static std::size_t addrs = 0x432fe88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "get_LinePosition",
@@ -753,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XsdValidatingReader::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XsdValidatingReader::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x42cec24;
+  constexpr static std::size_t addrs = 0x432ff38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -768,7 +770,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)(::StringW)>(
     &::System::Xml::XsdValidatingReader::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42cece4;
+  constexpr static std::size_t addrs = 0x432fff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -783,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)(::StringW)>(
     &::System::Xml::XsdValidatingReader::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42ceda8;
+  constexpr static std::size_t addrs = 0x43300bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -797,7 +799,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::GetStringValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42cee6c;
+  constexpr static std::size_t addrs = 0x4330180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "GetStringValue",
@@ -811,7 +813,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaInfo* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::get_AttributeSchemaInfo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x42cd068;
+  constexpr static std::size_t addrs = 0x432e37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(),
@@ -824,7 +826,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ProcessReaderEvent)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x42cddc0;
+  constexpr static std::size_t addrs = 0x432f0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "ProcessReaderEvent",
@@ -837,7 +839,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ProcessElementEvent)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x42cee8c;
+  constexpr static std::size_t addrs = 0x43301a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(),
@@ -850,7 +852,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ProcessEndElementEvent)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x42cf324;
+  constexpr static std::size_t addrs = 0x4330638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(),
@@ -863,7 +865,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ValidateAttributes)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x42cf4a4;
+  constexpr static std::size_t addrs = 0x43307b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "ValidateAttributes",
@@ -876,7 +878,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ClearAttributesInfo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42ce01c;
+  constexpr static std::size_t addrs = 0x432f330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(),
@@ -890,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::AttributePSVIInfo* (::System::Xml::XsdValidatingReader::*)(::StringW)>(
     &::System::Xml::XsdValidatingReader::GetAttributePSVI)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x42cd654;
+  constexpr static std::size_t addrs = 0x432e968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -905,7 +907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::AttributePSVIInfo* (::System::Xml::XsdValidatingReader::*)(::StringW, ::StringW)>(
     &::System::Xml::XsdValidatingReader::GetAttributePSVI)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x42cf8f8;
+  constexpr static std::size_t addrs = 0x4330c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -920,7 +922,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdValidatingReader::*)(::StringW, bool)>(
     &::System::Xml::XsdValidatingReader::GetDefaultAttribute)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x42cd0f8;
+  constexpr static std::size_t addrs = 0x432e40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -935,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdValidatingReader::*)(::StringW, ::StringW, bool)>(
     &::System::Xml::XsdValidatingReader::GetDefaultAttribute)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x42cd37c;
+  constexpr static std::size_t addrs = 0x432e690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -951,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::AttributePSVIInfo* (::System::Xml::XsdValidatingReader::*)(int32_t)>(
     &::System::Xml::XsdValidatingReader::AddAttributePSVI)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x42cf7ac;
+  constexpr static std::size_t addrs = 0x4330ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -965,7 +967,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdValidatingReader::*)(::StringW, ::StringW)>(&::System::Xml::XsdValidatingReader::IsXSDRoot)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x42cf454;
+  constexpr static std::size_t addrs = 0x4330768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -979,7 +981,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ProcessInlineSchema)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x42cdf6c;
+  constexpr static std::size_t addrs = 0x432f280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(),
@@ -992,7 +994,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::ReadAheadForMemberType)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x42cf9a0;
+  constexpr static std::size_t addrs = 0x4330cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(),
@@ -1005,7 +1007,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::GetIsDefault)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x42ce500;
+  constexpr static std::size_t addrs = 0x432f814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "GetIsDefault",
@@ -1018,7 +1020,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)()>(&::System::Xml::XsdValidatingReader::GetMemberType)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42ce8d0;
+  constexpr static std::size_t addrs = 0x432fbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "GetMemberType",
@@ -1032,7 +1034,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XsdCachingReader* (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::GetCachingReader)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x42cf6dc;
+  constexpr static std::size_t addrs = 0x43309f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "GetCachingReader",
@@ -1046,7 +1048,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdValidatingReader::*)(::StringW, int32_t)>(
     &::System::Xml::XsdValidatingReader::CreateDummyTextNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42ce3f0;
+  constexpr static std::size_t addrs = 0x432f704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1061,7 +1063,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdValidatingReader::*)(::System::Xml::XsdCachingReader*)>(
     &::System::Xml::XsdValidatingReader::CachingCallBack)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x42cfb5c;
+  constexpr static std::size_t addrs = 0x4330e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1076,7 +1078,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdValidatingReader::*)()>(
     &::System::Xml::XsdValidatingReader::GetOriginalAtomicValueStringOfElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x42cf64c;
+  constexpr static std::size_t addrs = 0x4330960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1085,35 +1087,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
-constexpr System::Xml::XsdValidatingReader::operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept {
-  return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
-constexpr ::System::Xml::Schema::IXmlSchemaInfo* System::Xml::XsdValidatingReader::i___System__Xml__Schema__IXmlSchemaInfo() noexcept {
-  return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
-constexpr System::Xml::XsdValidatingReader::operator ::System::Xml::IXmlLineInfo*() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::IXmlLineInfo"
-constexpr ::System::Xml::IXmlLineInfo* System::Xml::XsdValidatingReader::i___System__Xml__IXmlLineInfo() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
-constexpr System::Xml::XsdValidatingReader::operator ::System::Xml::IXmlNamespaceResolver*() noexcept {
-  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
-constexpr ::System::Xml::IXmlNamespaceResolver* System::Xml::XsdValidatingReader::i___System__Xml__IXmlNamespaceResolver() noexcept {
-  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
-}
 constexpr ::System::Xml::XmlReader*& System::Xml::XsdValidatingReader::__cordl_internal_get_coreReader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreReader;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_coreReader() const {
+constexpr ::System::Xml::XmlReader* const& System::Xml::XsdValidatingReader::__cordl_internal_get_coreReader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreReader;
 }
@@ -1125,7 +1103,7 @@ constexpr ::System::Xml::IXmlNamespaceResolver*& System::Xml::XsdValidatingReade
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreReaderNSResolver;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_coreReaderNSResolver() const {
+constexpr ::System::Xml::IXmlNamespaceResolver* const& System::Xml::XsdValidatingReader::__cordl_internal_get_coreReaderNSResolver() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreReaderNSResolver;
 }
@@ -1137,7 +1115,7 @@ constexpr ::System::Xml::IXmlNamespaceResolver*& System::Xml::XsdValidatingReade
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thisNSResolver;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_thisNSResolver() const {
+constexpr ::System::Xml::IXmlNamespaceResolver* const& System::Xml::XsdValidatingReader::__cordl_internal_get_thisNSResolver() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thisNSResolver;
 }
@@ -1149,7 +1127,7 @@ constexpr ::System::Xml::Schema::XmlSchemaValidator*& System::Xml::XsdValidating
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validator;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaValidator*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_validator() const {
+constexpr ::System::Xml::Schema::XmlSchemaValidator* const& System::Xml::XsdValidatingReader::__cordl_internal_get_validator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validator;
 }
@@ -1161,7 +1139,7 @@ constexpr ::System::Xml::XmlResolver*& System::Xml::XsdValidatingReader::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolver;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_xmlResolver() const {
+constexpr ::System::Xml::XmlResolver* const& System::Xml::XsdValidatingReader::__cordl_internal_get_xmlResolver() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolver;
 }
@@ -1173,7 +1151,7 @@ constexpr ::System::Xml::Schema::ValidationEventHandler*& System::Xml::XsdValida
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_validationEvent() const {
+constexpr ::System::Xml::Schema::ValidationEventHandler* const& System::Xml::XsdValidatingReader::__cordl_internal_get_validationEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEvent;
 }
@@ -1181,15 +1159,15 @@ constexpr void System::Xml::XsdValidatingReader::__cordl_internal_set_validation
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___validationEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState& System::Xml::XsdValidatingReader::__cordl_internal_get_validationState() {
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState& System::Xml::XsdValidatingReader::__cordl_internal_get_validationState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationState;
 }
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState const& System::Xml::XsdValidatingReader::__cordl_internal_get_validationState() const {
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState const& System::Xml::XsdValidatingReader::__cordl_internal_get_validationState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationState;
 }
-constexpr void System::Xml::XsdValidatingReader::__cordl_internal_set_validationState(::System::Xml::__XsdValidatingReader__ValidatingReaderState value) {
+constexpr void System::Xml::XsdValidatingReader::__cordl_internal_set_validationState(::System::Xml::XsdValidatingReader_ValidatingReaderState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validationState = value;
 }
@@ -1197,7 +1175,7 @@ constexpr ::System::Xml::Schema::XmlValueGetter*& System::Xml::XsdValidatingRead
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueGetter;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlValueGetter*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_valueGetter() const {
+constexpr ::System::Xml::Schema::XmlValueGetter* const& System::Xml::XsdValidatingReader::__cordl_internal_get_valueGetter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueGetter;
 }
@@ -1209,7 +1187,7 @@ constexpr ::System::Xml::XmlNamespaceManager*& System::Xml::XsdValidatingReader:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_nsManager() const {
+constexpr ::System::Xml::XmlNamespaceManager* const& System::Xml::XsdValidatingReader::__cordl_internal_get_nsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsManager;
 }
@@ -1257,7 +1235,7 @@ constexpr ::System::Xml::ValidatingReaderNodeData*& System::Xml::XsdValidatingRe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachedNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::ValidatingReaderNodeData*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_cachedNode() const {
+constexpr ::System::Xml::ValidatingReaderNodeData* const& System::Xml::XsdValidatingReader::__cordl_internal_get_cachedNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachedNode;
 }
@@ -1269,7 +1247,7 @@ constexpr ::System::Xml::AttributePSVIInfo*& System::Xml::XsdValidatingReader::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributePSVI;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::AttributePSVIInfo*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_attributePSVI() const {
+constexpr ::System::Xml::AttributePSVIInfo* const& System::Xml::XsdValidatingReader::__cordl_internal_get_attributePSVI() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributePSVI;
 }
@@ -1329,7 +1307,7 @@ constexpr ::System::Collections::ArrayList*& System::Xml::XsdValidatingReader::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultAttributes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_defaultAttributes() const {
+constexpr ::System::Collections::ArrayList* const& System::Xml::XsdValidatingReader::__cordl_internal_get_defaultAttributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultAttributes;
 }
@@ -1341,7 +1319,7 @@ constexpr ::System::Xml::Schema::Parser*& System::Xml::XsdValidatingReader::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inlineSchemaParser;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Parser*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_inlineSchemaParser() const {
+constexpr ::System::Xml::Schema::Parser* const& System::Xml::XsdValidatingReader::__cordl_internal_get_inlineSchemaParser() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inlineSchemaParser;
 }
@@ -1353,7 +1331,7 @@ constexpr ::System::Object*& System::Xml::XsdValidatingReader::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___atomicValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_atomicValue() const {
+constexpr ::System::Object* const& System::Xml::XsdValidatingReader::__cordl_internal_get_atomicValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___atomicValue;
 }
@@ -1365,7 +1343,7 @@ constexpr ::System::Xml::Schema::XmlSchemaInfo*& System::Xml::XsdValidatingReade
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSchemaInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaInfo*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_xmlSchemaInfo() const {
+constexpr ::System::Xml::Schema::XmlSchemaInfo* const& System::Xml::XsdValidatingReader::__cordl_internal_get_xmlSchemaInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSchemaInfo;
 }
@@ -1389,7 +1367,7 @@ constexpr ::System::Xml::XmlNameTable*& System::Xml::XsdValidatingReader::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreReaderNameTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_coreReaderNameTable() const {
+constexpr ::System::Xml::XmlNameTable* const& System::Xml::XsdValidatingReader::__cordl_internal_get_coreReaderNameTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreReaderNameTable;
 }
@@ -1401,7 +1379,7 @@ constexpr ::System::Xml::XsdCachingReader*& System::Xml::XsdValidatingReader::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachingReader;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XsdCachingReader*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_cachingReader() const {
+constexpr ::System::Xml::XsdCachingReader* const& System::Xml::XsdValidatingReader::__cordl_internal_get_cachingReader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachingReader;
 }
@@ -1413,7 +1391,7 @@ constexpr ::System::Xml::ValidatingReaderNodeData*& System::Xml::XsdValidatingRe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::ValidatingReaderNodeData*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_textNode() const {
+constexpr ::System::Xml::ValidatingReaderNodeData* const& System::Xml::XsdValidatingReader::__cordl_internal_get_textNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textNode;
 }
@@ -1533,7 +1511,7 @@ constexpr ::System::Xml::IXmlLineInfo*& System::Xml::XsdValidatingReader::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlLineInfo*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_lineInfo() const {
+constexpr ::System::Xml::IXmlLineInfo* const& System::Xml::XsdValidatingReader::__cordl_internal_get_lineInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
@@ -1545,7 +1523,7 @@ constexpr ::System::Xml::ReadContentAsBinaryHelper*& System::Xml::XsdValidatingR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readBinaryHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::ReadContentAsBinaryHelper*> const& System::Xml::XsdValidatingReader::__cordl_internal_get_readBinaryHelper() const {
+constexpr ::System::Xml::ReadContentAsBinaryHelper* const& System::Xml::XsdValidatingReader::__cordl_internal_get_readBinaryHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readBinaryHelper;
 }
@@ -1553,15 +1531,15 @@ constexpr void System::Xml::XsdValidatingReader::__cordl_internal_set_readBinary
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readBinaryHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState& System::Xml::XsdValidatingReader::__cordl_internal_get_savedState() {
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState& System::Xml::XsdValidatingReader::__cordl_internal_get_savedState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___savedState;
 }
-constexpr ::System::Xml::__XsdValidatingReader__ValidatingReaderState const& System::Xml::XsdValidatingReader::__cordl_internal_get_savedState() const {
+constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState const& System::Xml::XsdValidatingReader::__cordl_internal_get_savedState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___savedState;
 }
-constexpr void System::Xml::XsdValidatingReader::__cordl_internal_set_savedState(::System::Xml::__XsdValidatingReader__ValidatingReaderState value) {
+constexpr void System::Xml::XsdValidatingReader::__cordl_internal_set_savedState(::System::Xml::XsdValidatingReader_ValidatingReaderState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___savedState = value;
 }
@@ -1572,10 +1550,6 @@ inline void System::Xml::XsdValidatingReader::setStaticF_TypeOfString(::System::
 inline ::System::Type* System::Xml::XsdValidatingReader::getStaticF_TypeOfString() {
   return ::cordl_internals::getStaticField<::System::Type*, "TypeOfString", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get>();
 }
-inline ::System::Xml::XsdValidatingReader* System::Xml::XsdValidatingReader::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlResolver* xmlResolver,
-                                                                                      ::System::Xml::XmlReaderSettings* readerSettings, ::System::Xml::Schema::XmlSchemaObject* partialValidationType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XsdValidatingReader*>(reader, xmlResolver, readerSettings, partialValidationType));
-}
 inline void System::Xml::XsdValidatingReader::_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlResolver* xmlResolver, ::System::Xml::XmlReaderSettings* readerSettings,
                                                     ::System::Xml::Schema::XmlSchemaObject* partialValidationType) {
   static auto* ___internal_method =
@@ -1585,10 +1559,6 @@ inline void System::Xml::XsdValidatingReader::_ctor(::System::Xml::XmlReader* re
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReaderSettings*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, xmlResolver, readerSettings, partialValidationType);
-}
-inline ::System::Xml::XsdValidatingReader* System::Xml::XsdValidatingReader::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlResolver* xmlResolver,
-                                                                                      ::System::Xml::XmlReaderSettings* readerSettings) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XsdValidatingReader*>(reader, xmlResolver, readerSettings));
 }
 inline void System::Xml::XsdValidatingReader::_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlResolver* xmlResolver, ::System::Xml::XmlReaderSettings* readerSettings) {
   static auto* ___internal_method =
@@ -1972,6 +1942,38 @@ inline ::StringW System::Xml::XsdValidatingReader::GetOriginalAtomicValueStringO
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdValidatingReader*>::get(), "GetOriginalAtomicValueStringOfElement",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Xml::XsdValidatingReader* System::Xml::XsdValidatingReader::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlResolver* xmlResolver,
+                                                                                      ::System::Xml::XmlReaderSettings* readerSettings, ::System::Xml::Schema::XmlSchemaObject* partialValidationType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XsdValidatingReader*>(reader, xmlResolver, readerSettings, partialValidationType));
+}
+inline ::System::Xml::XsdValidatingReader* System::Xml::XsdValidatingReader::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlResolver* xmlResolver,
+                                                                                      ::System::Xml::XmlReaderSettings* readerSettings) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XsdValidatingReader*>(reader, xmlResolver, readerSettings));
+}
+/// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
+constexpr System::Xml::XsdValidatingReader::operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept {
+  return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
+constexpr ::System::Xml::Schema::IXmlSchemaInfo* System::Xml::XsdValidatingReader::i___System__Xml__Schema__IXmlSchemaInfo() noexcept {
+  return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
+constexpr System::Xml::XsdValidatingReader::operator ::System::Xml::IXmlLineInfo*() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlLineInfo"
+constexpr ::System::Xml::IXmlLineInfo* System::Xml::XsdValidatingReader::i___System__Xml__IXmlLineInfo() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
+constexpr System::Xml::XsdValidatingReader::operator ::System::Xml::IXmlNamespaceResolver*() noexcept {
+  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
+constexpr ::System::Xml::IXmlNamespaceResolver* System::Xml::XsdValidatingReader::i___System__Xml__IXmlNamespaceResolver() noexcept {
+  return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XsdValidatingReader::XsdValidatingReader() {}

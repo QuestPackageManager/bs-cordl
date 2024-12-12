@@ -15,11 +15,11 @@ class InternalFE;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::InternalFE);
-// Type: System.Runtime.Serialization.Formatters.Binary::InternalFE
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE, System.Runtime.Serialization.Formatters.FormatterAssemblyStyle,
+// System.Runtime.Serialization.Formatters.FormatterTypeStyle, System.Runtime.Serialization.Formatters.TypeFilterLevel
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::InternalFE*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.InternalFE
 class CORDL_TYPE InternalFE : public ::System::Object {
 public:
   // Declarations
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
 
-  /// @brief Method .ctor, addr 0x3cb2228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1239c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InternalFE(InternalFE const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3297 };
+
   /// @brief Field FEtypeFormat, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::FormatterTypeStyle ___FEtypeFormat;
 
@@ -91,14 +94,9 @@ public:
   /// @brief Field FEserializerTypeEnum, offset: 0x1c, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE ___FEserializerTypeEnum;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3297 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::InternalFE, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::InternalFE, ___FEtypeFormat) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::InternalFE, ___FEassemblyFormat) == 0x14, "Offset mismatch!");
@@ -106,6 +104,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Int
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::InternalFE, ___FEsecurityLevel) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::InternalFE, ___FEserializerTypeEnum) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::InternalFE, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::InternalFE);

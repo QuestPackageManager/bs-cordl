@@ -14,13 +14,12 @@ template <typename T> class SimpleScriptableObjectsPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SimpleScriptableObjectsPool_1);
-// Type: ::SimpleScriptableObjectsPool`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::SimpleScriptableObjectsPool`1<T>*
+// CS Name: SimpleScriptableObjectsPool`1<T>
 class CORDL_TYPE SimpleScriptableObjectsPool_1 : public ::System::Object {
 public:
   // Declarations
@@ -38,9 +37,9 @@ public:
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Spawn();
 
-  constexpr ::System::Collections::Generic::Queue_1<T>*& __cordl_internal_get__pool();
+  constexpr ::System::Collections::Generic::Queue_1<T>* const& __cordl_internal_get__pool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<T>*> const& __cordl_internal_get__pool() const;
+  constexpr ::System::Collections::Generic::Queue_1<T>*& __cordl_internal_get__pool();
 
   constexpr void __cordl_internal_set__pool(::System::Collections::Generic::Queue_1<T>* value);
 
@@ -61,11 +60,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleScriptableObjectsPool_1(SimpleScriptableObjectsPool_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5175 };
+
   /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<T>* ____pool;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

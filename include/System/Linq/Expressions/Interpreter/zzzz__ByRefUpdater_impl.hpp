@@ -12,28 +12,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ByRefUpdater::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::ByRefUpdater::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4082e50;
+  constexpr static std::size_t addrs = 0x40e4164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ByRefUpdater*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ByRefUpdater.Update
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ByRefUpdater::*)(
-    ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::ByRefUpdater::Update)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ByRefUpdater*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ByRefUpdater*>::get(), 4));
     return ___internal_method;
   }
 };
@@ -43,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Linq::Expressions::Interpreter::LocalVariables*)>(&::System::Linq::Expressions::Interpreter::ByRefUpdater::UndefineTemps)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4082e78;
+  constexpr static std::size_t addrs = 0x40e418c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,9 +49,6 @@ constexpr void System::Linq::Expressions::Interpreter::ByRefUpdater::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ArgumentIndex = value;
 }
-inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* System::Linq::Expressions::Interpreter::ByRefUpdater::New_ctor(int32_t argumentIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ByRefUpdater*>(argumentIndex));
-}
 inline void System::Linq::Expressions::Interpreter::ByRefUpdater::_ctor(int32_t argumentIndex) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ByRefUpdater*>::get(), ".ctor",
@@ -86,6 +67,9 @@ inline void System::Linq::Expressions::Interpreter::ByRefUpdater::UndefineTemps(
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ByRefUpdater*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instructions, locals);
+}
+inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* System::Linq::Expressions::Interpreter::ByRefUpdater::New_ctor(int32_t argumentIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ByRefUpdater*>(argumentIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::ByRefUpdater::ByRefUpdater() {}

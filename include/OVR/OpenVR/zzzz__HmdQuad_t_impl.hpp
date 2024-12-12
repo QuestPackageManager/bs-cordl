@@ -2,7 +2,6 @@
 // IWYU pragma private; include "OVR/OpenVR/HmdQuad_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__HmdQuad_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdVector3_t_def.hpp"
 // Ctor Parameters [CppParam { name: "vCorners0", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vCorners1", ty: "::OVR::OpenVR::HmdVector3_t", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "vCorners2", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vCorners3", ty:
 // "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: Some("{}") }]

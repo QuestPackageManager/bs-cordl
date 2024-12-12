@@ -13,20 +13,15 @@ class IAsyncLocal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::IAsyncLocal);
-// Type: System.Threading::IAsyncLocal
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::IAsyncLocal*
+// CS Name: System.Threading.IAsyncLocal
 class CORDL_TYPE IAsyncLocal {
 public:
   // Declarations
-  /// @brief Method OnValueChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnValueChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* previousValue, ::System::Object* currentValue, bool contextChanged);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IAsyncLocal", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IAsyncLocal(IAsyncLocal&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsyncLocal", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

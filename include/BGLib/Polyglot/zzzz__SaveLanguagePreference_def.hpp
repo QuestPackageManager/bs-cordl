@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SaveLanguagePreference)
-namespace BGLib::Polyglot {
-class ILocalize;
-}
 namespace BGLib::Polyglot {
 class LocalizationModel;
 }
@@ -18,11 +16,10 @@ class SaveLanguagePreference;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::SaveLanguagePreference);
-// Type: BGLib.Polyglot::SaveLanguagePreference
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.Polyglot.ILocalize, UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // Is value type: false
-// CS Name: ::BGLib.Polyglot::SaveLanguagePreference*
+// CS Name: BGLib.Polyglot.SaveLanguagePreference
 class CORDL_TYPE SaveLanguagePreference : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,10 +31,10 @@ public:
 
   static inline ::BGLib::Polyglot::SaveLanguagePreference* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0x227d288, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x22aff58, size 0x28, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Start, addr 0x227d238, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22aff08, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_preferenceKey() const;
@@ -46,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_preferenceKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x227d2b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aff80, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"
@@ -66,18 +63,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaveLanguagePreference(SaveLanguagePreference const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
+
   /// @brief Field preferenceKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ___preferenceKey;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18007 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::SaveLanguagePreference, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::Polyglot::SaveLanguagePreference, ___preferenceKey) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::SaveLanguagePreference, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::SaveLanguagePreference);

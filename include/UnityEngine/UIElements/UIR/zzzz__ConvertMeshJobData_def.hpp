@@ -10,26 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConvertMeshJobData)
-namespace System {
-struct IntPtr;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct ConvertMeshJobData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::ConvertMeshJobData);
-// Type: UnityEngine.UIElements.UIR::ConvertMeshJobData
-// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 164, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, UnityEngine.Color32, UnityEngine.Matrix4x4
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.UIR::ConvertMeshJobData
+// CS Name: UnityEngine.UIElements.UIR.ConvertMeshJobData
 struct CORDL_TYPE ConvertMeshJobData {
 public:
   // Declarations
@@ -48,6 +38,12 @@ public:
   constexpr ConvertMeshJobData(::System::IntPtr vertSrc, ::System::IntPtr vertDst, int32_t vertCount, ::UnityEngine::Matrix4x4 transform, int32_t transformUVs, ::UnityEngine::Color32 xformClipPages,
                                ::UnityEngine::Color32 ids, ::UnityEngine::Color32 addFlags, ::UnityEngine::Color32 opacityPage, ::UnityEngine::Color32 textCoreSettingsPage, int32_t isText,
                                float_t textureId, ::System::IntPtr indexSrc, ::System::IntPtr indexDst, int32_t indexCount, int32_t indexOffset, int32_t flipIndices) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6361 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
 
   /// @brief Field vertSrc, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr vertSrc;
@@ -100,17 +96,9 @@ public:
   /// @brief Field flipIndices, offset: 0x90, size: 0x4, def value: None
   int32_t flipIndices;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6336 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::ConvertMeshJobData, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, vertSrc) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, vertDst) == 0x8, "Offset mismatch!");
@@ -144,6 +132,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, index
 static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, indexOffset) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::ConvertMeshJobData, flipIndices) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::ConvertMeshJobData, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::ConvertMeshJobData, "UnityEngine.UIElements.UIR", "ConvertMeshJobData");

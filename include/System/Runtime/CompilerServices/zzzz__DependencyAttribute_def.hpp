@@ -16,11 +16,10 @@ class DependencyAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::DependencyAttribute);
-// Type: System.Runtime.CompilerServices::DependencyAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Runtime.CompilerServices.LoadHint
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::DependencyAttribute*
+// CS Name: System.Runtime.CompilerServices.DependencyAttribute
 class CORDL_TYPE DependencyAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -44,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
 
-  /// @brief Method .ctor, addr 0x3cb96bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d19830, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW dependentAssemblyArgument, ::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
 protected:
@@ -61,23 +60,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DependencyAttribute(DependencyAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3411 };
+
   /// @brief Field dependentAssembly, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dependentAssembly;
 
   /// @brief Field loadHint, offset: 0x18, size: 0x4, def value: None
   ::System::Runtime::CompilerServices::LoadHint ___loadHint;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3411 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::DependencyAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::DependencyAttribute, ___dependentAssembly) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::CompilerServices::DependencyAttribute, ___loadHint) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::DependencyAttribute, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::DependencyAttribute);

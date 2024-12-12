@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationFieldInfo)
@@ -41,11 +40,10 @@ class SerializationFieldInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationFieldInfo);
-// Type: System.Runtime.Serialization::SerializationFieldInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.FieldInfo
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::SerializationFieldInfo*
+// CS Name: System.Runtime.Serialization.SerializationFieldInfo
 class CORDL_TYPE SerializationFieldInfo : public ::System::Reflection::FieldInfo {
 public:
   // Declarations
@@ -73,34 +71,34 @@ public:
   /// @brief Field m_serializationName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_serializationName, put = __cordl_internal_set_m_serializationName)) ::StringW m_serializationName;
 
-  /// @brief Method GetCustomAttributes, addr 0x3c9b774, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3cfb8e8, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x3c9b74c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3cfb8c0, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetValue, addr 0x3c9b7e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3cfb958, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj);
 
-  /// @brief Method InternalGetValue, addr 0x3c95398, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InternalGetValue, addr 0x3cf550c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* InternalGetValue(::System::Object* obj);
 
-  /// @brief Method InternalSetValue, addr 0x3c94c8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InternalSetValue, addr 0x3cf4e00, size 0xb0, virtual false, abstract: false, final false
   inline void InternalSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method IsDefined, addr 0x3c9b79c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x3cfb910, size 0x24, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   static inline ::System::Runtime::Serialization::SerializationFieldInfo* New_ctor(::System::Reflection::RuntimeFieldInfo* field, ::StringW namePrefix);
 
-  /// @brief Method SetValue, addr 0x3c9b808, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3cfb97c, size 0x24, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::System::Globalization::CultureInfo* culture);
 
-  constexpr ::System::Reflection::RuntimeFieldInfo*& __cordl_internal_get_m_field();
+  constexpr ::System::Reflection::RuntimeFieldInfo* const& __cordl_internal_get_m_field() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeFieldInfo*> const& __cordl_internal_get_m_field() const;
+  constexpr ::System::Reflection::RuntimeFieldInfo*& __cordl_internal_get_m_field();
 
   constexpr ::StringW const& __cordl_internal_get_m_serializationName() const;
 
@@ -110,34 +108,34 @@ public:
 
   constexpr void __cordl_internal_set_m_serializationName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c94508, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf467c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::RuntimeFieldInfo* field, ::StringW namePrefix);
 
-  /// @brief Method get_Attributes, addr 0x3c9b858, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x3cfb9cc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Reflection::FieldAttributes get_Attributes();
 
-  /// @brief Method get_DeclaringType, addr 0x3c9b70c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x3cfb880, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_FieldHandle, addr 0x3c9b834, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_FieldHandle, addr 0x3cfb9a8, size 0x24, virtual true, abstract: false, final false
   inline ::System::RuntimeFieldHandle get_FieldHandle();
 
-  /// @brief Method get_FieldInfo, addr 0x3c9b82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FieldInfo, addr 0x3cfb9a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeFieldInfo* get_FieldInfo();
 
-  /// @brief Method get_FieldType, addr 0x3c9b7c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_FieldType, addr 0x3cfb934, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_FieldType();
 
-  /// @brief Method get_MetadataToken, addr 0x3c9b6e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x3cfb854, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method get_Module, addr 0x3c9b6c0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x3cfb834, size 0x20, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
-  /// @brief Method get_Name, addr 0x3c9b704, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3cfb878, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType, addr 0x3c9b72c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x3cfb8a0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
 protected:
@@ -154,23 +152,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerializationFieldInfo(SerializationFieldInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3233 };
+
   /// @brief Field m_field, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::RuntimeFieldInfo* ___m_field;
 
   /// @brief Field m_serializationName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_serializationName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3233 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationFieldInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::SerializationFieldInfo, ___m_field) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::SerializationFieldInfo, ___m_serializationName) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationFieldInfo, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::SerializationFieldInfo);

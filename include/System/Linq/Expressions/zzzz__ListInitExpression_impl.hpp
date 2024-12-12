@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::NewExpression* (::System::Linq::Expressions::ListInitExpression::*)()>(
     &::System::Linq::Expressions::ListInitExpression::get_NewExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40578c8;
+  constexpr static std::size_t addrs = 0x40b8bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ListInitExpression*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* (
     ::System::Linq::Expressions::ListInitExpression::*)()>(&::System::Linq::Expressions::ListInitExpression::get_Initializers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40578d0;
+  constexpr static std::size_t addrs = 0x40b8be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ListInitExpression*>::get(),
@@ -37,8 +37,7 @@ constexpr ::System::Linq::Expressions::NewExpression*& System::Linq::Expressions
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewExpression_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::NewExpression*> const&
-System::Linq::Expressions::ListInitExpression::__cordl_internal_get__NewExpression_k__BackingField() const {
+constexpr ::System::Linq::Expressions::NewExpression* const& System::Linq::Expressions::ListInitExpression::__cordl_internal_get__NewExpression_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewExpression_k__BackingField;
 }
@@ -51,7 +50,7 @@ System::Linq::Expressions::ListInitExpression::__cordl_internal_get__Initializer
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Initializers_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* const&
 System::Linq::Expressions::ListInitExpression::__cordl_internal_get__Initializers_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Initializers_k__BackingField;

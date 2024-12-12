@@ -22,11 +22,10 @@ class CmsSecureReadable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsSecureReadable);
-// Type: Org.BouncyCastle.Cms::CmsSecureReadable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsSecureReadable*
+// CS Name: Org.BouncyCastle.Cms.CmsSecureReadable
 class CORDL_TYPE CmsSecureReadable {
 public:
   // Declarations
@@ -34,18 +33,14 @@ public:
 
   __declspec(property(get = get_CryptoObject)) ::System::Object* CryptoObject;
 
-  /// @brief Method GetReadable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetReadable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
-  /// @brief Method get_Algorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Algorithm, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_CryptoObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_CryptoObject();
-
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSecureReadable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsSecureReadable(CmsSecureReadable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSecureReadable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

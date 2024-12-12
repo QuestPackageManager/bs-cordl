@@ -21,11 +21,10 @@ class ServerCodeView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ServerCodeView);
-// Type: ::ServerCodeView
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ServerCodeView*
+// CS Name: ServerCodeView
 class CORDL_TYPE ServerCodeView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -44,30 +43,30 @@ public:
   /// @brief Field _serverCodeText, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText)) ::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
 
-  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x3aa9034, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x3b05fc8, size 0x10, virtual false, abstract: false, final false
   inline void HandleShowServerCodeButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3aa9018, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b05fac, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3aa8f84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b05f18, size 0x94, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshText, addr 0x3aa8ee8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x3b05e7c, size 0x9c, virtual false, abstract: false, final false
   inline void RefreshText(bool showCode);
 
-  /// @brief Method SetCode, addr 0x3aa8edc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCode, addr 0x3b05e70, size 0xc, virtual false, abstract: false, final false
   inline void SetCode(::StringW serverCode);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr bool const& __cordl_internal_get__codeIsShown() const;
 
@@ -91,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3aa9044, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05fd8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,6 +107,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServerCodeView(ServerCodeView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5003 };
+
   /// @brief Field _serverCodeText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____serverCodeText;
 
@@ -123,14 +125,9 @@ public:
   /// @brief Field _codeIsShown, offset: 0x40, size: 0x1, def value: None
   bool ____codeIsShown;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4983 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ServerCodeView, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____serverCodeText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____button) == 0x28, "Offset mismatch!");
@@ -140,6 +137,8 @@ static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____buttonBinder) == 0
 static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____serverCode) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____codeIsShown) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ServerCodeView, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ServerCodeView);

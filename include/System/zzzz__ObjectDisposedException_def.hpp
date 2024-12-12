@@ -18,11 +18,10 @@ class ObjectDisposedException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ObjectDisposedException);
-// Type: System::ObjectDisposedException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.InvalidOperationException
 namespace System {
 // Is value type: false
-// CS Name: ::System::ObjectDisposedException*
+// CS Name: System.ObjectDisposedException
 class CORDL_TYPE ObjectDisposedException : public ::System::InvalidOperationException {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
   /// @brief Field _objectName, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__objectName, put = __cordl_internal_set__objectName)) ::StringW _objectName;
 
-  /// @brief Method GetObjectData, addr 0x3d98ab4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3df8b24, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ObjectDisposedException* New_ctor();
@@ -50,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set__objectName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d98928, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8998, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d98a2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8a9c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d989c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8a30, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName);
 
-  /// @brief Method .ctor, addr 0x3d98988, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df89f8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::StringW message);
 
-  /// @brief Method get_Message, addr 0x3d98c88, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3df8cf8, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_ObjectName, addr 0x3d98bbc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectName, addr 0x3df8c2c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ObjectName();
 
 protected:
@@ -82,18 +81,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectDisposedException(ObjectDisposedException const&) = delete;
 
-  /// @brief Field _objectName, offset: 0x90, size: 0x8, def value: None
-  ::StringW ____objectName;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2452 };
+
+  /// @brief Field _objectName, offset: 0x90, size: 0x8, def value: None
+  ::StringW ____objectName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ObjectDisposedException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::System::ObjectDisposedException, ____objectName) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ObjectDisposedException, 0x98>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ObjectDisposedException);

@@ -4,42 +4,39 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 CORDL_MODULE_EXPORT(Subsystem)
-namespace UnityEngine {
-class ISubsystem;
-}
 // Forward declare root types
 namespace UnityEngine {
 class Subsystem;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Subsystem);
-// Type: UnityEngine::Subsystem
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ISubsystem
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::Subsystem*
+// CS Name: UnityEngine.Subsystem
 class CORDL_TYPE Subsystem : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x48b419c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x491882c, size 0x74, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::Subsystem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnDestroy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Start, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Stop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method .ctor, addr 0x48b4290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4918920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
@@ -60,7 +57,7 @@ public:
   Subsystem(Subsystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

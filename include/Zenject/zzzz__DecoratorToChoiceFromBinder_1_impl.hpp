@@ -10,8 +10,7 @@ template <typename TContract> constexpr ::Zenject::DiContainer*& Zenject::Decora
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindContainer;
 }
-template <typename TContract>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__bindContainer() const {
+template <typename TContract> constexpr ::Zenject::DiContainer* const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__bindContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindContainer;
 }
@@ -23,7 +22,7 @@ template <typename TContract> constexpr ::Zenject::BindInfo*& Zenject::Decorator
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfo;
 }
-template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__bindInfo() const {
+template <typename TContract> constexpr ::Zenject::BindInfo* const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__bindInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfo;
 }
@@ -35,19 +34,13 @@ template <typename TContract> constexpr ::Zenject::FactoryBindInfo*& Zenject::De
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factoryBindInfo;
 }
-template <typename TContract>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__factoryBindInfo() const {
+template <typename TContract> constexpr ::Zenject::FactoryBindInfo* const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__factoryBindInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factoryBindInfo;
 }
 template <typename TContract> constexpr void Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____factoryBindInfo, value);
-}
-template <typename TContract>
-inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* Zenject::DecoratorToChoiceFromBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
-                                                                                                                        ::Zenject::FactoryBindInfo* factoryBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DecoratorToChoiceFromBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo));
 }
 template <typename TContract>
 inline void Zenject::DecoratorToChoiceFromBinder_1<TContract>::_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {
@@ -65,6 +58,11 @@ template <typename TContract> template <typename TConcrete> inline ::Zenject::Fa
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get() }));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryFromBinder_2<TContract, TConcrete>*, false>(this, ___internal_method);
+}
+template <typename TContract>
+inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* Zenject::DecoratorToChoiceFromBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
+                                                                                                                        ::Zenject::FactoryBindInfo* factoryBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DecoratorToChoiceFromBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo));
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::DecoratorToChoiceFromBinder_1<TContract>::DecoratorToChoiceFromBinder_1() {}

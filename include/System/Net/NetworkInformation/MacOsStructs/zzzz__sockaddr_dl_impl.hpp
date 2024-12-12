@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::*)(::System::IntPtr)>(
     &::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x438b5ec;
+  constexpr static std::size_t addrs = 0x43ec900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ inline void System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read(::S
 // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "sdl_index", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sdl_type", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sdl_nlen", ty:
 // "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sdl_alen", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sdl_slen", ty: "uint8_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "sdl_data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("nullptr") }]
+// def_value: Some("{}") }, CppParam { name: "sdl_data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::sockaddr_dl(uint8_t sdl_len, uint8_t sdl_family, uint16_t sdl_index, uint8_t sdl_type, uint8_t sdl_nlen, uint8_t sdl_alen,
                                                                                     uint8_t sdl_slen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sdl_data) noexcept {
   this->sdl_len = sdl_len;

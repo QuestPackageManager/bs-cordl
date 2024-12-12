@@ -10,10 +10,10 @@ namespace Mono::Security::Interface {
 struct AlertDescription;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_errorstate;
+struct UnityTls_unitytls_errorstate;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_x509verify_result;
+struct UnityTls_unitytls_x509verify_result;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -21,19 +21,18 @@ class Debug;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Unity::Debug);
-// Type: Mono.Unity::Debug
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Unity {
 // Is value type: false
-// CS Name: ::Mono.Unity::Debug*
+// CS Name: Mono.Unity.Debug
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckAndThrow, addr 0x40a7e88, size 0x98, virtual false, abstract: false, final false
-  static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
+  /// @brief Method CheckAndThrow, addr 0x410919c, size 0x98, virtual false, abstract: false, final false
+  static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method CheckAndThrow, addr 0x40a7f20, size 0xd0, virtual false, abstract: false, final false
-  static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context,
+  /// @brief Method CheckAndThrow, addr 0x4109234, size 0xd0, virtual false, abstract: false, final false
+  static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult, ::StringW context,
                                    ::Mono::Security::Interface::AlertDescription defaultAlert);
 
 protected:
@@ -51,7 +50,7 @@ public:
   Debug(Debug const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9072 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,11 +12,10 @@ struct StorageType;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::Common::StorageType);
-// Type: System.Data.Common::StorageType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Data::Common {
 // Is value type: true
-// CS Name: ::System.Data.Common::StorageType
+// CS Name: System.Data.Common.StorageType
 struct CORDL_TYPE StorageType {
 public:
   // Declarations
@@ -84,144 +83,144 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StorageType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BigInteger value: static_cast<int32_t>(0x18)
+  /// @brief Field BigInteger value: I32(24)
   static ::System::Data::Common::StorageType const BigInteger;
 
-  /// @brief Field Boolean value: static_cast<int32_t>(0x3)
+  /// @brief Field Boolean value: I32(3)
   static ::System::Data::Common::StorageType const Boolean;
 
-  /// @brief Field Byte value: static_cast<int32_t>(0x6)
+  /// @brief Field Byte value: I32(6)
   static ::System::Data::Common::StorageType const Byte;
 
-  /// @brief Field ByteArray value: static_cast<int32_t>(0x14)
+  /// @brief Field ByteArray value: I32(20)
   static ::System::Data::Common::StorageType const ByteArray;
 
-  /// @brief Field Char value: static_cast<int32_t>(0x4)
+  /// @brief Field Char value: I32(4)
   static ::System::Data::Common::StorageType const Char;
 
-  /// @brief Field CharArray value: static_cast<int32_t>(0x15)
+  /// @brief Field CharArray value: I32(21)
   static ::System::Data::Common::StorageType const CharArray;
 
-  /// @brief Field DBNull value: static_cast<int32_t>(0x2)
+  /// @brief Field DBNull value: I32(2)
   static ::System::Data::Common::StorageType const DBNull;
 
-  /// @brief Field DateTime value: static_cast<int32_t>(0x10)
+  /// @brief Field DateTime value: I32(16)
   static ::System::Data::Common::StorageType const DateTime;
 
-  /// @brief Field DateTimeOffset value: static_cast<int32_t>(0x17)
+  /// @brief Field DateTimeOffset value: I32(23)
   static ::System::Data::Common::StorageType const DateTimeOffset;
 
-  /// @brief Field Decimal value: static_cast<int32_t>(0xf)
+  /// @brief Field Decimal value: I32(15)
   static ::System::Data::Common::StorageType const Decimal;
 
-  /// @brief Field Double value: static_cast<int32_t>(0xe)
+  /// @brief Field Double value: I32(14)
   static ::System::Data::Common::StorageType const Double;
 
-  /// @brief Field Empty value: static_cast<int32_t>(0x0)
+  /// @brief Field Empty value: I32(0)
   static ::System::Data::Common::StorageType const Empty;
 
-  /// @brief Field Guid value: static_cast<int32_t>(0x13)
+  /// @brief Field Guid value: I32(19)
   static ::System::Data::Common::StorageType const Guid;
 
-  /// @brief Field Int16 value: static_cast<int32_t>(0x7)
+  /// @brief Field Int16 value: I32(7)
   static ::System::Data::Common::StorageType const Int16;
 
-  /// @brief Field Int32 value: static_cast<int32_t>(0x9)
+  /// @brief Field Int32 value: I32(9)
   static ::System::Data::Common::StorageType const Int32;
 
-  /// @brief Field Int64 value: static_cast<int32_t>(0xb)
+  /// @brief Field Int64 value: I32(11)
   static ::System::Data::Common::StorageType const Int64;
 
-  /// @brief Field Object value: static_cast<int32_t>(0x1)
+  /// @brief Field Object value: I32(1)
   static ::System::Data::Common::StorageType const Object;
 
-  /// @brief Field SByte value: static_cast<int32_t>(0x5)
+  /// @brief Field SByte value: I32(5)
   static ::System::Data::Common::StorageType const SByte;
 
-  /// @brief Field Single value: static_cast<int32_t>(0xd)
+  /// @brief Field Single value: I32(13)
   static ::System::Data::Common::StorageType const Single;
 
-  /// @brief Field SqlBinary value: static_cast<int32_t>(0x1a)
+  /// @brief Field SqlBinary value: I32(26)
   static ::System::Data::Common::StorageType const SqlBinary;
 
-  /// @brief Field SqlBoolean value: static_cast<int32_t>(0x1b)
+  /// @brief Field SqlBoolean value: I32(27)
   static ::System::Data::Common::StorageType const SqlBoolean;
 
-  /// @brief Field SqlByte value: static_cast<int32_t>(0x1c)
+  /// @brief Field SqlByte value: I32(28)
   static ::System::Data::Common::StorageType const SqlByte;
 
-  /// @brief Field SqlBytes value: static_cast<int32_t>(0x1d)
+  /// @brief Field SqlBytes value: I32(29)
   static ::System::Data::Common::StorageType const SqlBytes;
 
-  /// @brief Field SqlChars value: static_cast<int32_t>(0x1e)
+  /// @brief Field SqlChars value: I32(30)
   static ::System::Data::Common::StorageType const SqlChars;
 
-  /// @brief Field SqlDateTime value: static_cast<int32_t>(0x1f)
+  /// @brief Field SqlDateTime value: I32(31)
   static ::System::Data::Common::StorageType const SqlDateTime;
 
-  /// @brief Field SqlDecimal value: static_cast<int32_t>(0x20)
+  /// @brief Field SqlDecimal value: I32(32)
   static ::System::Data::Common::StorageType const SqlDecimal;
 
-  /// @brief Field SqlDouble value: static_cast<int32_t>(0x21)
+  /// @brief Field SqlDouble value: I32(33)
   static ::System::Data::Common::StorageType const SqlDouble;
 
-  /// @brief Field SqlGuid value: static_cast<int32_t>(0x22)
+  /// @brief Field SqlGuid value: I32(34)
   static ::System::Data::Common::StorageType const SqlGuid;
 
-  /// @brief Field SqlInt16 value: static_cast<int32_t>(0x23)
+  /// @brief Field SqlInt16 value: I32(35)
   static ::System::Data::Common::StorageType const SqlInt16;
 
-  /// @brief Field SqlInt32 value: static_cast<int32_t>(0x24)
+  /// @brief Field SqlInt32 value: I32(36)
   static ::System::Data::Common::StorageType const SqlInt32;
 
-  /// @brief Field SqlInt64 value: static_cast<int32_t>(0x25)
+  /// @brief Field SqlInt64 value: I32(37)
   static ::System::Data::Common::StorageType const SqlInt64;
 
-  /// @brief Field SqlMoney value: static_cast<int32_t>(0x26)
+  /// @brief Field SqlMoney value: I32(38)
   static ::System::Data::Common::StorageType const SqlMoney;
 
-  /// @brief Field SqlSingle value: static_cast<int32_t>(0x27)
+  /// @brief Field SqlSingle value: I32(39)
   static ::System::Data::Common::StorageType const SqlSingle;
 
-  /// @brief Field SqlString value: static_cast<int32_t>(0x28)
+  /// @brief Field SqlString value: I32(40)
   static ::System::Data::Common::StorageType const SqlString;
 
-  /// @brief Field String value: static_cast<int32_t>(0x12)
+  /// @brief Field String value: I32(18)
   static ::System::Data::Common::StorageType const String;
 
-  /// @brief Field TimeSpan value: static_cast<int32_t>(0x11)
+  /// @brief Field TimeSpan value: I32(17)
   static ::System::Data::Common::StorageType const TimeSpan;
 
-  /// @brief Field Type value: static_cast<int32_t>(0x16)
+  /// @brief Field Type value: I32(22)
   static ::System::Data::Common::StorageType const Type;
 
-  /// @brief Field UInt16 value: static_cast<int32_t>(0x8)
+  /// @brief Field UInt16 value: I32(8)
   static ::System::Data::Common::StorageType const UInt16;
 
-  /// @brief Field UInt32 value: static_cast<int32_t>(0xa)
+  /// @brief Field UInt32 value: I32(10)
   static ::System::Data::Common::StorageType const UInt32;
 
-  /// @brief Field UInt64 value: static_cast<int32_t>(0xc)
+  /// @brief Field UInt64 value: I32(12)
   static ::System::Data::Common::StorageType const UInt64;
 
-  /// @brief Field Uri value: static_cast<int32_t>(0x19)
+  /// @brief Field Uri value: I32(25)
   static ::System::Data::Common::StorageType const Uri;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11524 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::Common::StorageType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::Common::StorageType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::Common::StorageType, 0x4>, "Size mismatch!");
 
 } // namespace System::Data::Common
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::StorageType, "System.Data.Common", "StorageType");

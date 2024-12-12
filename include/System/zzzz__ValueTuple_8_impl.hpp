@@ -1,88 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/ValueTuple_8.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_impl.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_impl.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
+#include "System/zzzz__IComparable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "System/zzzz__IValueTupleInternal_impl.hpp"
 #include "System/zzzz__ValueTuple_8_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*() {
-  return static_cast<::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr ::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*
-System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IEquatable_1___System__ValueTuple_8_T1_T2_T3_T4_T5_T6_T7_TRest__() {
-  return static_cast<::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Collections::IStructuralEquatable"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::Collections::IStructuralEquatable*() {
-  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::IStructuralEquatable"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr ::System::Collections::IStructuralEquatable* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__Collections__IStructuralEquatable() {
-  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Collections::IStructuralComparable"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::Collections::IStructuralComparable*() {
-  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::IStructuralComparable"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr ::System::Collections::IStructuralComparable* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__Collections__IStructuralComparable() {
-  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IComparable"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IComparable*() {
-  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IComparable"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr ::System::IComparable* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IComparable() {
-  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*() {
-  return static_cast<::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IComparable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr ::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*
-System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IComparable_1___System__ValueTuple_8_T1_T2_T3_T4_T5_T6_T7_TRest__() {
-  return static_cast<::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IValueTupleInternal"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IValueTupleInternal*() {
-  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IValueTupleInternal"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr ::System::IValueTupleInternal* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IValueTupleInternal() {
-  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::Runtime::CompilerServices::ITuple*() {
-  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__Runtime__CompilerServices__ITuple() {
-  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 inline void System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::_ctor(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7, TRest rest) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,10 +116,82 @@ inline int32_t System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::System_R
                                                "System.Runtime.CompilerServices.ITuple.get_Length", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "Item3", ty: "T3", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Item5", ty: "T5", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "Item6", ty: "T6", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Item7", ty: "T7", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "Rest", ty: "TRest", modifiers: "", def_value: Some("nullptr") }]
+/// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*() {
+  return static_cast<::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr ::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*
+System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IEquatable_1___System__ValueTuple_8_T1_T2_T3_T4_T5_T6_T7_TRest__() {
+  return static_cast<::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Collections::IStructuralEquatable"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::Collections::IStructuralEquatable*() {
+  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IStructuralEquatable"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr ::System::Collections::IStructuralEquatable* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__Collections__IStructuralEquatable() {
+  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Collections::IStructuralComparable"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::Collections::IStructuralComparable*() {
+  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IStructuralComparable"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr ::System::Collections::IStructuralComparable* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__Collections__IStructuralComparable() {
+  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IComparable"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IComparable*() {
+  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IComparable"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr ::System::IComparable* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IComparable() {
+  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*() {
+  return static_cast<::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IComparable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr ::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*
+System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IComparable_1___System__ValueTuple_8_T1_T2_T3_T4_T5_T6_T7_TRest__() {
+  return static_cast<::System::IComparable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IValueTupleInternal"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IValueTupleInternal*() {
+  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IValueTupleInternal"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr ::System::IValueTupleInternal* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__IValueTupleInternal() {
+  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::Runtime::CompilerServices::ITuple*() {
+  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::i___System__Runtime__CompilerServices__ITuple() {
+  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item3",
+// ty: "T3", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "Item6", ty: "T6", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item7", ty: "T7", modifiers: "", def_value: Some("{}") }, CppParam { name: "Rest", ty:
+// "TRest", modifiers: "", def_value: Some("{}") }]
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 constexpr ::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::ValueTuple_8(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5, T6 Item6, T7 Item7, TRest Rest) noexcept {
   this->Item1 = Item1;

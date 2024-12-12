@@ -11,26 +11,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteBone)
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 // Forward declare root types
 namespace UnityEngine::U2D {
 struct SpriteBone;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::U2D::SpriteBone);
-// Type: UnityEngine.U2D::SpriteBone
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color32, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::U2D {
 // Is value type: true
-// CS Name: ::UnityEngine.U2D::SpriteBone
+// CS Name: UnityEngine.U2D.SpriteBone
 struct CORDL_TYPE SpriteBone {
 public:
   // Declarations
@@ -44,6 +34,12 @@ public:
   // "::UnityEngine::Color32", modifiers: "", def_value: None }]
   constexpr SpriteBone(::StringW m_Name, ::StringW m_Guid, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation, float_t m_Length, int32_t m_ParentId,
                        ::UnityEngine::Color32 m_Color) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10966 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field m_Name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Name;
@@ -66,17 +62,9 @@ public:
   /// @brief Field m_Color, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::Color32 m_Color;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10933 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::U2D::SpriteBone, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Name) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Guid) == 0x8, "Offset mismatch!");
@@ -90,6 +78,8 @@ static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Length) == 0x2c, "Offse
 static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_ParentId) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Color) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::U2D::SpriteBone, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::U2D
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");

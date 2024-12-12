@@ -15,11 +15,10 @@ class UnreferencedObjectEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::UnreferencedObjectEventArgs);
-// Type: System.Xml.Serialization::UnreferencedObjectEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::UnreferencedObjectEventArgs*
+// CS Name: System.Xml.Serialization.UnreferencedObjectEventArgs
 class CORDL_TYPE UnreferencedObjectEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -35,15 +34,15 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_id();
 
-  constexpr ::System::Object*& __cordl_internal_get_o();
+  constexpr ::System::Object* const& __cordl_internal_get_o() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_o() const;
+  constexpr ::System::Object*& __cordl_internal_get_o();
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
   constexpr void __cordl_internal_set_o(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4305298, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43665ac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* o, ::StringW id);
 
 protected:
@@ -60,23 +59,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnreferencedObjectEventArgs(UnreferencedObjectEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7389 };
+
   /// @brief Field o, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___o;
 
   /// @brief Field id, offset: 0x18, size: 0x8, def value: None
   ::StringW ___id;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7364 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::UnreferencedObjectEventArgs, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::UnreferencedObjectEventArgs, ___o) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::UnreferencedObjectEventArgs, ___id) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::UnreferencedObjectEventArgs, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::UnreferencedObjectEventArgs);

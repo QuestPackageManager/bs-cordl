@@ -12,7 +12,7 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements::UIR {
-class __ShaderInfoStorageRGBA32____c;
+class ShaderInfoStorageRGBA32___c;
 }
 namespace UnityEngine {
 struct Color32;
@@ -25,73 +25,71 @@ namespace UnityEngine::UIElements::UIR {
 class ShaderInfoStorageRGBA32;
 }
 namespace UnityEngine::UIElements::UIR {
-class __ShaderInfoStorageRGBA32____c;
+class ShaderInfoStorageRGBA32___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32);
-MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::ShaderInfoStorageRGBA32::<>c*
-class CORDL_TYPE __ShaderInfoStorageRGBA32____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.UIR.ShaderInfoStorageRGBA32/<>c
+class CORDL_TYPE ShaderInfoStorageRGBA32___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c* __9;
 
-  static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* New_ctor();
+  static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x4948030, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x49ac940, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 __cctor_b__2_0(::UnityEngine::Color c);
 
-  /// @brief Method .ctor, addr 0x4948028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ac938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ShaderInfoStorageRGBA32____c();
+  constexpr ShaderInfoStorageRGBA32___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ShaderInfoStorageRGBA32____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBA32___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ShaderInfoStorageRGBA32____c(__ShaderInfoStorageRGBA32____c&&) = delete;
+  ShaderInfoStorageRGBA32___c(ShaderInfoStorageRGBA32___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ShaderInfoStorageRGBA32____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBA32___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ShaderInfoStorageRGBA32____c(__ShaderInfoStorageRGBA32____c const&) = delete;
+  ShaderInfoStorageRGBA32___c(ShaderInfoStorageRGBA32___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6387 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Type: UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color32, UnityEngine.UIElements.UIR.ShaderInfoStorage`1<T>
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32*
+// CS Name: UnityEngine.UIElements.UIR.ShaderInfoStorageRGBA32
 class CORDL_TYPE ShaderInfoStorageRGBA32 : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color32> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c;
+  using __c = ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c;
 
   /// @brief Field s_Convert, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Convert, put = setStaticF_s_Convert)) ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color32>* s_Convert;
+  __declspec(property(get = getStaticF_s_Convert, put = setStaticF_s_Convert)) ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color32>* s_Convert;
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x4947e74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ac784, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   static inline ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color32>* getStaticF_s_Convert();
@@ -113,7 +111,7 @@ public:
   ShaderInfoStorageRGBA32(ShaderInfoStorageRGBA32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,5 +121,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Sh
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32*, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBA32");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c*, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBA32/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32___c*, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBA32/<>c");

@@ -21,11 +21,10 @@ class LightRotationBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightRotationBaseData);
-// Type: BeatmapSaveDataVersion3::LightRotationBaseData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.EaseType, BeatmapSaveDataCommon.RotationDirection, System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::LightRotationBaseData*
+// CS Name: BeatmapSaveDataVersion3.LightRotationBaseData
 class CORDL_TYPE LightRotationBaseData : public ::System::Object {
 public:
   // Declarations
@@ -98,26 +97,26 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d4854, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27061c4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::BeatmapSaveDataCommon::EaseType easeType, int32_t loopsCount, float_t rotation,
                     ::BeatmapSaveDataCommon::RotationDirection rotationDirection);
 
-  /// @brief Method get_beat, addr 0x26d481c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x270618c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x26d4834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x27061a4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_loopsCount, addr 0x26d483c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loopsCount, addr 0x27061ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_loopsCount();
 
-  /// @brief Method get_rotation, addr 0x26d4844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x27061b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_rotationDirection, addr 0x26d484c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDirection, addr 0x27061bc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::RotationDirection get_rotationDirection();
 
-  /// @brief Method get_usePreviousEventRotationValue, addr 0x26d4824, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventRotationValue, addr 0x2706194, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventRotationValue();
 
 protected:
@@ -133,6 +132,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationBaseData(LightRotationBaseData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13409 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
@@ -152,14 +154,9 @@ public:
   /// @brief Field o, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::RotationDirection ___o;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13378 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightRotationBaseData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationBaseData, ___b) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationBaseData, ___p) == 0x14, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationBaseData, ___l) =
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationBaseData, ___r) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationBaseData, ___o) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightRotationBaseData, 0x28>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::LightRotationBaseData);

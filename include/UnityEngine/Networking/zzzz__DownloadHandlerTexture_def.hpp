@@ -25,11 +25,10 @@ class DownloadHandlerTexture;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerTexture);
-// Type: UnityEngine.Networking::DownloadHandlerTexture
-// SizeInfo { instance_size: 48, native_size: 32, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Networking.DownloadHandler
 namespace UnityEngine::Networking {
 // Is value type: false
-// CS Name: ::UnityEngine.Networking::DownloadHandlerTexture*
+// CS Name: UnityEngine.Networking.DownloadHandlerTexture
 class CORDL_TYPE DownloadHandlerTexture : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
@@ -41,22 +40,22 @@ public:
 
   __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture2D> texture;
 
-  /// @brief Method Create, addr 0x4a80678, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4ae4f88, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
 
-  /// @brief Method Dispose, addr 0x4a80774, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4ae5084, size 0x24, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetContent, addr 0x4a80810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x4ae5120, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method GetNativeData, addr 0x4a80768, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x4ae5078, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method InternalCreateTexture, addr 0x4a806bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateTexture, addr 0x4ae4fcc, size 0x4c, virtual false, abstract: false, final false
   inline void InternalCreateTexture(bool readable);
 
-  /// @brief Method InternalGetTextureNative, addr 0x4a807d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetTextureNative, addr 0x4ae50e4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> InternalGetTextureNative();
 
   static inline ::UnityEngine::Networking::DownloadHandlerTexture* New_ctor(bool readable);
@@ -73,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x4a80708, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae5018, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(bool readable);
 
-  /// @brief Method get_texture, addr 0x4a80798, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x4ae50a8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
 protected:
@@ -93,23 +92,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DownloadHandlerTexture(DownloadHandlerTexture const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19041 };
+
   /// @brief Field m_NativeData, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___m_NativeData;
 
   /// @brief Field mNonReadable, offset: 0x28, size: 0x1, def value: None
   bool ___mNonReadable;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18953 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::DownloadHandlerTexture, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerTexture, ___m_NativeData) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerTexture, ___mNonReadable) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::DownloadHandlerTexture, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::DownloadHandlerTexture);

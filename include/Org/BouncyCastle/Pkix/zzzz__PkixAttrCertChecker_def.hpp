@@ -23,27 +23,26 @@ class PkixAttrCertChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixAttrCertChecker);
-// Type: Org.BouncyCastle.Pkix::PkixAttrCertChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixAttrCertChecker*
+// CS Name: Org.BouncyCastle.Pkix.PkixAttrCertChecker
 class CORDL_TYPE PkixAttrCertChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Check, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Check(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixCertPath* holderCertPath,
                     ::System::Collections::ICollection* unresolvedCritExts);
 
-  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* Clone();
 
-  /// @brief Method GetSupportedExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetSupportedExtensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetSupportedExtensions();
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2531260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256454c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

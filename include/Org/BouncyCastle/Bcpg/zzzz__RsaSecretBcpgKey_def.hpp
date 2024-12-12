@@ -4,7 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__IBcpgKey_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaSecretBcpgKey)
@@ -13,9 +13,6 @@ class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
@@ -29,11 +26,10 @@ class RsaSecretBcpgKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey);
-// Type: Org.BouncyCastle.Bcpg::RsaSecretBcpgKey
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.BcpgObject, Org.BouncyCastle.Bcpg.IBcpgKey
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::RsaSecretBcpgKey*
+// CS Name: Org.BouncyCastle.Bcpg.RsaSecretBcpgKey
 class CORDL_TYPE RsaSecretBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
@@ -77,43 +73,43 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x2614744, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2647a30, size 0x12c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x26146c0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x26479ac, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q);
 
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_crt() const;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_crt();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_crt() const;
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger* const& __cordl_internal_get_d() const;
 
   constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_d();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_d() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_expP() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_expP();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_expP() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_expQ() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_expQ();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_expQ() const;
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger* const& __cordl_internal_get_p() const;
 
   constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_p() const;
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger* const& __cordl_internal_get_q() const;
 
   constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_q() const;
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger* const& __cordl_internal_get_u() const;
 
   constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_u();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_u() const;
 
   constexpr void __cordl_internal_set_crt(::Org::BouncyCastle::Math::BigInteger* value);
 
@@ -129,34 +125,34 @@ public:
 
   constexpr void __cordl_internal_set_u(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x2614258, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2647544, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x26143f4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26476e0, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method get_CrtCoefficient, addr 0x2614678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrtCoefficient, addr 0x2647964, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CrtCoefficient();
 
-  /// @brief Method get_Format, addr 0x2614680, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x264796c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_Modulus, addr 0x26145e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x26478d0, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_PrimeExponentP, addr 0x2614668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeExponentP, addr 0x2647954, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeExponentP();
 
-  /// @brief Method get_PrimeExponentQ, addr 0x2614670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeExponentQ, addr 0x264795c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeExponentQ();
 
-  /// @brief Method get_PrimeP, addr 0x2614630, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeP, addr 0x264791c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeP();
 
-  /// @brief Method get_PrimeQ, addr 0x261464c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeQ, addr 0x2647938, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeQ();
 
-  /// @brief Method get_PrivateExponent, addr 0x2614614, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateExponent, addr 0x2647900, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
@@ -175,6 +171,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RsaSecretBcpgKey", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RsaSecretBcpgKey(RsaSecretBcpgKey const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 585 };
 
   /// @brief Field d, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::MPInteger* ___d;
@@ -197,14 +196,9 @@ public:
   /// @brief Field crt, offset: 0x40, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___crt;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 585 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey, ___d) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey, ___p) == 0x18, "Offset mismatch!");
@@ -218,6 +212,8 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey, ___expP) == 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey, ___expQ) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey, ___crt) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey, 0x48>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey);

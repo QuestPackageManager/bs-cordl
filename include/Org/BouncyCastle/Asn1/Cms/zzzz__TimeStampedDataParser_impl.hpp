@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::*)(::Org::BouncyCastle::Asn1::Asn1SequenceParser*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::_ctor)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x22db184;
+  constexpr static std::size_t addrs = 0x230e470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::GetInstance)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x22db584;
+  constexpr static std::size_t addrs = 0x230e870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::get_DataUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22db6a0;
+  constexpr static std::size_t addrs = 0x230e98c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::MetaData* (::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::get_MetaData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22db6a8;
+  constexpr static std::size_t addrs = 0x230e994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetStringParser* (::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22db6b0;
+  constexpr static std::size_t addrs = 0x230e99c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::Evidence* (::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::GetTemporalEvidence)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x22db6b8;
+  constexpr static std::size_t addrs = 0x230e9a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Cms::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_version() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
@@ -119,7 +119,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& Org::BouncyCastle::Asn1::Cms
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataUri;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_dataUri() const {
+constexpr ::Org::BouncyCastle::Asn1::DerIA5String* const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_dataUri() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataUri;
 }
@@ -131,7 +131,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::MetaData*& Org::BouncyCastle::Asn1::Cm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___metaData;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::MetaData*> const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_metaData() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::MetaData* const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_metaData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___metaData;
 }
@@ -143,7 +143,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetStringParser*> const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_content() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_content() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
@@ -155,7 +155,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::Evidence*& Org::BouncyCastle::Asn1::Cm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___temporalEvidence;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Evidence*> const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_temporalEvidence() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::Evidence* const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_temporalEvidence() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___temporalEvidence;
 }
@@ -167,16 +167,13 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& Org::BouncyCastle::Asn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_parser() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* const& Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_get_parser() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::__cordl_internal_set_parser(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser*>(parser));
 }
 inline void Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,6 +210,9 @@ inline ::Org::BouncyCastle::Asn1::Cms::Evidence* Org::BouncyCastle::Asn1::Cms::T
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::Evidence*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser*>(parser));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::TimeStampedDataParser() {}

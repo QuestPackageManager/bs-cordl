@@ -34,11 +34,10 @@ class ReusableTreeViewItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ReusableTreeViewItem);
-// Type: UnityEngine.UIElements::ReusableTreeViewItem
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.ReusableCollectionItem
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ReusableTreeViewItem*
+// CS Name: UnityEngine.UIElements.ReusableTreeViewItem
 class CORDL_TYPE ReusableTreeViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
 public:
   // Declarations
@@ -86,90 +85,88 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x4918578, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x497cd28, size 0x1b4, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Indent, addr 0x4911ff8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Indent, addr 0x49767a8, size 0x14, virtual false, abstract: false, final false
   inline void Indent(int32_t depth);
 
-  /// @brief Method Init, addr 0x49182f8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x497caa8, size 0xcc, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
-  /// @brief Method InitExpandHierarchy, addr 0x4917d0c, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method InitExpandHierarchy, addr 0x497c4bc, size 0x4ac, virtual false, abstract: false, final false
   inline void InitExpandHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableTreeViewItem* New_ctor();
 
-  /// @brief Method OnPointerUp, addr 0x4918a78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x497d228, size 0x1c, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnToggleGeometryChanged, addr 0x4918860, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method OnToggleGeometryChanged, addr 0x497d010, size 0x218, virtual false, abstract: false, final false
   inline void OnToggleGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnToggleValueChanged, addr 0x4918a94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnToggleValueChanged, addr 0x497d244, size 0x1c, virtual false, abstract: false, final false
   inline void OnToggleValueChanged(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method PreAttachElement, addr 0x49183c4, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x497cb74, size 0x1b4, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetExpandedWithoutNotify, addr 0x49120c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetExpandedWithoutNotify, addr 0x4976870, size 0x20, virtual false, abstract: false, final false
   inline void SetExpandedWithoutNotify(bool expanded);
 
-  /// @brief Method SetToggleVisibility, addr 0x4912188, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetToggleVisibility, addr 0x4976938, size 0x18, virtual false, abstract: false, final false
   inline void SetToggleVisibility(bool visible);
 
-  /// @brief Method UpdateIndentLayout, addr 0x491872c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndentLayout, addr 0x497cedc, size 0x134, virtual false, abstract: false, final false
   inline void UpdateIndentLayout();
+
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_BindableContainer() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_BindableContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_BindableContainer() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Checkmark() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Checkmark();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Checkmark() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Container() const;
 
   constexpr int32_t const& __cordl_internal_get_m_Depth() const;
 
   constexpr int32_t& __cordl_internal_get_m_Depth();
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_IndentElement();
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_IndentElement() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_IndentElement() const;
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_IndentElement();
 
   constexpr float_t const& __cordl_internal_get_m_IndentWidth() const;
 
   constexpr float_t& __cordl_internal_get_m_IndentWidth();
 
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* const& __cordl_internal_get_m_PointerUpCallback() const;
+
   constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*& __cordl_internal_get_m_PointerUpCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*> const& __cordl_internal_get_m_PointerUpCallback() const;
+  constexpr ::UnityEngine::UIElements::Toggle* const& __cordl_internal_get_m_Toggle() const;
 
   constexpr ::UnityEngine::UIElements::Toggle*& __cordl_internal_get_m_Toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Toggle*> const& __cordl_internal_get_m_Toggle() const;
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* const& __cordl_internal_get_m_ToggleGeometryChangedCallback() const;
 
   constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>*& __cordl_internal_get_m_ToggleGeometryChangedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>*> const&
-  __cordl_internal_get_m_ToggleGeometryChangedCallback() const;
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* const& __cordl_internal_get_m_ToggleValueChangedCallback() const;
 
   constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*& __cordl_internal_get_m_ToggleValueChangedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*> const&
-  __cordl_internal_get_m_ToggleValueChangedCallback() const;
+  constexpr ::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* const& __cordl_internal_get_onPointerUp() const;
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>*& __cordl_internal_get_onPointerUp();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>*> const& __cordl_internal_get_onPointerUp() const;
+  constexpr ::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* const& __cordl_internal_get_onToggleValueChanged() const;
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*& __cordl_internal_get_onToggleValueChanged();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*> const& __cordl_internal_get_onToggleValueChanged() const;
 
   constexpr void __cordl_internal_set_m_BindableContainer(::UnityEngine::UIElements::VisualElement* value);
 
@@ -195,22 +192,22 @@ public:
 
   constexpr void __cordl_internal_set_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
-  /// @brief Method .ctor, addr 0x49181bc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497c96c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onPointerUp, addr 0x4912458, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_onPointerUp, addr 0x4976c08, size 0xb0, virtual false, abstract: false, final false
   inline void add_onPointerUp(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
 
-  /// @brief Method add_onToggleValueChanged, addr 0x4912508, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_onToggleValueChanged, addr 0x4976cb8, size 0xb0, virtual false, abstract: false, final false
   inline void add_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
-  /// @brief Method get_rootElement, addr 0x49182e0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x497ca90, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
-  /// @brief Method remove_onPointerUp, addr 0x49122cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onPointerUp, addr 0x4976a7c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_onPointerUp(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
 
-  /// @brief Method remove_onToggleValueChanged, addr 0x491237c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onToggleValueChanged, addr 0x4976b2c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
 protected:
@@ -226,6 +223,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ReusableTreeViewItem", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ReusableTreeViewItem(ReusableTreeViewItem const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5486 };
 
   /// @brief Field m_Toggle, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::Toggle* ___m_Toggle;
@@ -263,14 +263,9 @@ public:
   /// @brief Field m_ToggleGeometryChangedCallback, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* ___m_ToggleGeometryChangedCallback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5462 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableTreeViewItem, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::ReusableTreeViewItem, ___m_Toggle) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ReusableTreeViewItem, ___m_Container) == 0x50, "Offset mismatch!");
@@ -294,6 +289,8 @@ static_assert(offsetof(::UnityEngine::UIElements::ReusableTreeViewItem, ___m_Poi
 static_assert(offsetof(::UnityEngine::UIElements::ReusableTreeViewItem, ___m_ToggleValueChangedCallback) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ReusableTreeViewItem, ___m_ToggleGeometryChangedCallback) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableTreeViewItem, 0xa0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ReusableTreeViewItem);

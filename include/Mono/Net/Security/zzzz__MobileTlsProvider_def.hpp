@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MobileTlsProvider)
@@ -38,26 +37,25 @@ class MobileTlsProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsProvider);
-// Type: Mono.Net.Security::MobileTlsProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Security.Interface.MonoTlsProvider
 namespace Mono::Net::Security {
 // Is value type: false
-// CS Name: ::Mono.Net.Security::MobileTlsProvider*
+// CS Name: Mono.Net.Security.MobileTlsProvider
 class CORDL_TYPE MobileTlsProvider : public ::Mono::Security::Interface::MonoTlsProvider {
 public:
   // Declarations
-  /// @brief Method CreateSslStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateSslStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* CreateSslStream(::System::Net::Security::SslStream* sslStream, ::System::IO::Stream* innerStream, bool leaveInnerStreamOpen,
                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline ::Mono::Net::Security::MobileTlsProvider* New_ctor();
 
-  /// @brief Method ValidateCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ValidateCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper* validator, ::StringW targetHost, bool serverMode,
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
-                                  ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<::System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11);
+                                  ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ::ByRef<::System::Net::Security::SslPolicyErrors> errors, ::ByRef<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x40ad2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410e5dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +73,7 @@ public:
   MobileTlsProvider(MobileTlsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

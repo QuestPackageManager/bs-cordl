@@ -4,9 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(LocalCertificateSelectionCallback)
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
@@ -26,15 +24,14 @@ class LocalCertificateSelectionCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Security::LocalCertificateSelectionCallback);
-// Type: System.Net.Security::LocalCertificateSelectionCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Net::Security {
 // Is value type: false
-// CS Name: ::System.Net.Security::LocalCertificateSelectionCallback*
+// CS Name: System.Net.Security.LocalCertificateSelectionCallback
 class CORDL_TYPE LocalCertificateSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x43a3864, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4404b78, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::System::Object* sender, ::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,
@@ -42,7 +39,7 @@ public:
 
   static inline ::System::Net::Security::LocalCertificateSelectionCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x43a3760, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4404a74, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +57,7 @@ public:
   LocalCertificateSelectionCallback(LocalCertificateSelectionCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9892 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

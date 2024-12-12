@@ -17,24 +17,23 @@ class RaycasterManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::RaycasterManager);
-// Type: UnityEngine.EventSystems::RaycasterManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// CS Name: ::UnityEngine.EventSystems::RaycasterManager*
+// CS Name: UnityEngine.EventSystems.RaycasterManager
 class CORDL_TYPE RaycasterManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Raycasters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Raycasters, put = setStaticF_s_Raycasters)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* s_Raycasters;
+  __declspec(property(get = getStaticF_s_Raycasters, put = setStaticF_s_Raycasters)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* s_Raycasters;
 
-  /// @brief Method AddRaycaster, addr 0x4a7a89c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddRaycaster, addr 0x4adf1ac, size 0x110, virtual false, abstract: false, final false
   static inline void AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
-  /// @brief Method GetRaycasters, addr 0x4a7a9ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRaycasters, addr 0x4adf2bc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* GetRaycasters();
 
-  /// @brief Method RemoveRaycasters, addr 0x4a7aa04, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RemoveRaycasters, addr 0x4adf314, size 0xd0, virtual false, abstract: false, final false
   static inline void RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* getStaticF_s_Raycasters();
@@ -56,7 +55,7 @@ public:
   RaycasterManager(RaycasterManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

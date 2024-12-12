@@ -20,14 +20,13 @@ template <typename TValueType, typename TValueUxmlAttributeType> class BaseField
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BaseFieldTraits_2);
-// Type: UnityEngine.UIElements::BaseFieldTraits`2
-// SizeInfo { instance_size: 136, native_size: 136, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>*
-class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType> {
+// CS Name: UnityEngine.UIElements.BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>
+class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<TValueType> {
 public:
   // Declarations
   /// @brief Field m_Value, offset 0x80, size 0x8
@@ -61,11 +60,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseFieldTraits_2(BaseFieldTraits_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5603 };
+
   /// @brief Field m_Value, offset: 0x80, size: 0x8, def value: None
   TValueUxmlAttributeType ___m_Value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

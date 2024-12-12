@@ -12,20 +12,19 @@ class HeartbeatMode;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HeartbeatMode);
-// Type: Org.BouncyCastle.Crypto.Tls::HeartbeatMode
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatMode*
+// CS Name: Org.BouncyCastle.Crypto.Tls.HeartbeatMode
 class CORDL_TYPE HeartbeatMode : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x23e18a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2414b94, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t heartbeatMode);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e1fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

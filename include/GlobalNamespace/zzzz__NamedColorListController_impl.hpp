@@ -1,70 +1,69 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NamedColorListController.hpp"
 #include "GlobalNamespace/zzzz__ListColorController_impl.hpp"
+#include "HMUI/zzzz__IValueChanger_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedColorListController_def.hpp"
 #include "GlobalNamespace/zzzz__NamedColorListController_def.hpp"
-#include "HMUI/zzzz__IValueChanger_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__NamedColorListController__ColorValuePair._ctor
+//  Writing Method size for method: ::GlobalNamespace::NamedColorListController_ColorValuePair._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NamedColorListController__ColorValuePair::*)()>(
-    &::GlobalNamespace::__NamedColorListController__ColorValuePair::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController_ColorValuePair::*)()>(
+    &::GlobalNamespace::NamedColorListController_ColorValuePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc6bbc;
+  constexpr static std::size_t addrs = 0x3c26cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NamedColorListController__ColorValuePair*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController_ColorValuePair*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Color& GlobalNamespace::__NamedColorListController__ColorValuePair::__cordl_internal_get_color() {
+constexpr ::UnityEngine::Color& GlobalNamespace::NamedColorListController_ColorValuePair::__cordl_internal_get_color() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___color;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::__NamedColorListController__ColorValuePair::__cordl_internal_get_color() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::NamedColorListController_ColorValuePair::__cordl_internal_get_color() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___color;
 }
-constexpr void GlobalNamespace::__NamedColorListController__ColorValuePair::__cordl_internal_set_color(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::NamedColorListController_ColorValuePair::__cordl_internal_set_color(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___color = value;
 }
-constexpr int32_t& GlobalNamespace::__NamedColorListController__ColorValuePair::__cordl_internal_get_value() {
+constexpr int32_t& GlobalNamespace::NamedColorListController_ColorValuePair::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr int32_t const& GlobalNamespace::__NamedColorListController__ColorValuePair::__cordl_internal_get_value() const {
+constexpr int32_t const& GlobalNamespace::NamedColorListController_ColorValuePair::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr void GlobalNamespace::__NamedColorListController__ColorValuePair::__cordl_internal_set_value(int32_t value) {
+constexpr void GlobalNamespace::NamedColorListController_ColorValuePair::__cordl_internal_set_value(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___value = value;
 }
-inline ::GlobalNamespace::__NamedColorListController__ColorValuePair* GlobalNamespace::__NamedColorListController__ColorValuePair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NamedColorListController__ColorValuePair*>());
-}
-inline void GlobalNamespace::__NamedColorListController__ColorValuePair::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NamedColorListController__ColorValuePair*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::NamedColorListController_ColorValuePair::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController_ColorValuePair*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::NamedColorListController_ColorValuePair* GlobalNamespace::NamedColorListController_ColorValuePair::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NamedColorListController_ColorValuePair*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__NamedColorListController__ColorValuePair::__NamedColorListController__ColorValuePair() {}
+constexpr ::GlobalNamespace::NamedColorListController_ColorValuePair::NamedColorListController_ColorValuePair() {}
 //  Writing Method size for method: ::GlobalNamespace::NamedColorListController.add_valueChangedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedColorListController::add_valueChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bc6910;
+  constexpr static std::size_t addrs = 0x3c26a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedColorListController::remove_valueChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bc69c0;
+  constexpr static std::size_t addrs = 0x3c26ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,18 +91,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(
-    ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>, int32_t)>(
+    ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*>, int32_t)>(
     &::GlobalNamespace::NamedColorListController::Init)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3bc6a70;
+  constexpr static std::size_t addrs = 0x3c26b84;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                            ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -113,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(int32_t)>(
     &::GlobalNamespace::NamedColorListController::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bc6aac;
+  constexpr static std::size_t addrs = 0x3c26bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,10 +123,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::NamedColorListController.GetInitValues
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NamedColorListController::*)(ByRef<int32_t>, ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NamedColorListController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::NamedColorListController::GetInitValues)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3bc6ae4;
+  constexpr static std::size_t addrs = 0x3c26bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(int32_t)>(
     &::GlobalNamespace::NamedColorListController::ApplyValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bc6b58;
+  constexpr static std::size_t addrs = 0x3c26c6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::NamedColorListController::*)(int32_t)>(
     &::GlobalNamespace::NamedColorListController::ColorForValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3bc6b78;
+  constexpr static std::size_t addrs = 0x3c26c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)()>(&::GlobalNamespace::NamedColorListController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc6bb4;
+  constexpr static std::size_t addrs = 0x3c26cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), ".ctor",
@@ -180,26 +178,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
-constexpr GlobalNamespace::NamedColorListController::operator ::HMUI::IValueChanger_1<int32_t>*() noexcept {
-  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
-constexpr ::HMUI::IValueChanger_1<int32_t>* GlobalNamespace::NamedColorListController::i___HMUI__IValueChanger_1_int32_t_() noexcept {
-  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
-}
-constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>&
+constexpr ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*>&
 GlobalNamespace::NamedColorListController::__cordl_internal_get__textValuePairs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textValuePairs;
 }
-constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*> const&
 GlobalNamespace::NamedColorListController::__cordl_internal_get__textValuePairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textValuePairs;
 }
 constexpr void GlobalNamespace::NamedColorListController::__cordl_internal_set__textValuePairs(
-    ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> value) {
+    ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textValuePairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -219,7 +209,7 @@ constexpr ::System::Action_1<int32_t>*& GlobalNamespace::NamedColorListControlle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueChangedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::NamedColorListController::__cordl_internal_get_valueChangedEvent() const {
+constexpr ::System::Action_1<int32_t>* const& GlobalNamespace::NamedColorListController::__cordl_internal_get_valueChangedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueChangedEvent;
 }
@@ -239,14 +229,14 @@ inline void GlobalNamespace::NamedColorListController::remove_valueChangedEvent(
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::NamedColorListController::Init(
-    ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> values, int32_t value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                          ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+inline void
+GlobalNamespace::NamedColorListController::Init(::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*> values,
+                                                int32_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                              ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, values, value);
 }
 inline void GlobalNamespace::NamedColorListController::SetValue(int32_t value) {
@@ -255,7 +245,7 @@ inline void GlobalNamespace::NamedColorListController::SetValue(int32_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::NamedColorListController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {
+inline bool GlobalNamespace::NamedColorListController::GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, idx, numberOfElements);
@@ -270,13 +260,21 @@ inline ::UnityEngine::Color GlobalNamespace::NamedColorListController::ColorForV
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, idx);
 }
-inline ::GlobalNamespace::NamedColorListController* GlobalNamespace::NamedColorListController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NamedColorListController*>());
-}
 inline void GlobalNamespace::NamedColorListController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NamedColorListController* GlobalNamespace::NamedColorListController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NamedColorListController*>());
+}
+/// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
+constexpr GlobalNamespace::NamedColorListController::operator ::HMUI::IValueChanger_1<int32_t>*() noexcept {
+  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
+constexpr ::HMUI::IValueChanger_1<int32_t>* GlobalNamespace::NamedColorListController::i___HMUI__IValueChanger_1_int32_t_() noexcept {
+  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NamedColorListController::NamedColorListController() {}

@@ -3,23 +3,26 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Internal/Cryptography/Pal/zzzz__CertificateData_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateData)
 namespace Internal::Cryptography::Pal {
+struct CertificateData_AlgorithmIdentifier;
+}
+namespace Internal::Cryptography::Pal {
+class CertificateData__ReadReverseRdns_d__21;
+}
+namespace Internal::Cryptography::Pal {
 struct GeneralNameType;
-}
-namespace Internal::Cryptography::Pal {
-struct __CertificateData__AlgorithmIdentifier;
-}
-namespace Internal::Cryptography::Pal {
-class __CertificateData___ReadReverseRdns_d__21;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -37,9 +40,6 @@ namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
@@ -55,43 +55,42 @@ namespace System::Security::Cryptography {
 class DerSequenceReader;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
 namespace Internal::Cryptography::Pal {
-class __CertificateData___ReadReverseRdns_d__21;
+class CertificateData__ReadReverseRdns_d__21;
 }
 namespace Internal::Cryptography::Pal {
 struct CertificateData;
 }
 namespace Internal::Cryptography::Pal {
-struct __CertificateData__AlgorithmIdentifier;
+struct CertificateData_AlgorithmIdentifier;
 }
 // Write type traits
-MARK_REF_PTR_T(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21);
+MARK_REF_PTR_T(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21);
 MARK_VAL_T(::Internal::Cryptography::Pal::CertificateData);
-MARK_VAL_T(::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier);
-// Type: ::AlgorithmIdentifier
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier);
+// Dependencies
 namespace Internal::Cryptography::Pal {
 // Is value type: true
-// CS Name: ::CertificateData::AlgorithmIdentifier
-struct CORDL_TYPE __CertificateData__AlgorithmIdentifier {
+// CS Name: Internal.Cryptography.Pal.CertificateData/AlgorithmIdentifier
+struct CORDL_TYPE CertificateData_AlgorithmIdentifier {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CertificateData__AlgorithmIdentifier();
+  constexpr CertificateData_AlgorithmIdentifier();
 
   // Ctor Parameters [CppParam { name: "AlgorithmId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Parameters", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",
   // def_value: None }]
-  constexpr __CertificateData__AlgorithmIdentifier(::StringW AlgorithmId, ::ArrayW<uint8_t, ::Array<uint8_t>*> Parameters) noexcept;
+  constexpr CertificateData_AlgorithmIdentifier(::StringW AlgorithmId, ::ArrayW<uint8_t, ::Array<uint8_t>*> Parameters) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9171 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field AlgorithmId, offset: 0x0, size: 0x8, def value: None
   ::StringW AlgorithmId;
@@ -99,28 +98,22 @@ public:
   /// @brief Field Parameters, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> Parameters;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9146 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier, 0x10>, "Size mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier, AlgorithmId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier, AlgorithmId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier, Parameters) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier, Parameters) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier, 0x10>, "Size mismatch!");
 
 } // namespace Internal::Cryptography::Pal
-// Type: ::<ReadReverseRdns>d__21
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable,
+// System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace Internal::Cryptography::Pal {
 // Is value type: false
-// CS Name: ::CertificateData::<ReadReverseRdns>d__21*
-class CORDL_TYPE __CertificateData___ReadReverseRdns_d__21 : public ::System::Object {
+// CS Name: Internal.Cryptography.Pal.CertificateData/<ReadReverseRdns>d__21
+class CORDL_TYPE CertificateData__ReadReverseRdns_d__21 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(
@@ -167,31 +160,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x40ba3c0, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x411b6d4, size 0x290, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
+  static inline ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x40ba6f0, size 0x9c, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x411ba04, size 0x9c, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x40ba650, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x411b964, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40ba78c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x411baa0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40ba65c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x411b970, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40ba694, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x411b9a8, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x40ba3bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x411b6d0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -202,25 +195,25 @@ public:
 
   constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get___3__name();
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* const& __cordl_internal_get___3__name() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __cordl_internal_get___3__name() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get___3__name();
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
+  constexpr ::System::Security::Cryptography::DerSequenceReader* const& __cordl_internal_get__rdnReader_5__3() const;
+
   constexpr ::System::Security::Cryptography::DerSequenceReader*& __cordl_internal_get__rdnReader_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DerSequenceReader*> const& __cordl_internal_get__rdnReader_5__3() const;
+  constexpr ::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* const& __cordl_internal_get__rdnReaders_5__2() const;
 
   constexpr ::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*& __cordl_internal_get__rdnReaders_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*> const& __cordl_internal_get__rdnReaders_5__2() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* const& __cordl_internal_get_name() const;
 
   constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get_name();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __cordl_internal_get_name() const;
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -236,7 +229,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  /// @brief Method .ctor, addr 0x40ba388, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x411b69c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
@@ -259,16 +252,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CertificateData___ReadReverseRdns_d__21();
+  constexpr CertificateData__ReadReverseRdns_d__21();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CertificateData___ReadReverseRdns_d__21", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateData__ReadReverseRdns_d__21", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CertificateData___ReadReverseRdns_d__21(__CertificateData___ReadReverseRdns_d__21&&) = delete;
+  CertificateData__ReadReverseRdns_d__21(CertificateData__ReadReverseRdns_d__21&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CertificateData___ReadReverseRdns_d__21", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateData__ReadReverseRdns_d__21", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CertificateData___ReadReverseRdns_d__21(__CertificateData___ReadReverseRdns_d__21 const&) = delete;
+  CertificateData__ReadReverseRdns_d__21(CertificateData__ReadReverseRdns_d__21 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -291,55 +287,51 @@ public:
   /// @brief Field <rdnReader>5__3, offset: 0x48, size: 0x8, def value: None
   ::System::Security::Cryptography::DerSequenceReader* ____rdnReader_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9147 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, 0x50>, "Size mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, _____l__initialThreadId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, _____l__initialThreadId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, ___name) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, ___name) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, _____3__name) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, _____3__name) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, ____rdnReaders_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, ____rdnReaders_5__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, ____rdnReader_5__3) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21, ____rdnReader_5__3) == 0x48, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21, 0x50>, "Size mismatch!");
 
 } // namespace Internal::Cryptography::Pal
-// Type: Internal.Cryptography.Pal::CertificateData
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Internal.Cryptography.Pal.CertificateData::AlgorithmIdentifier, System.DateTime
 namespace Internal::Cryptography::Pal {
 // Is value type: true
-// CS Name: ::Internal.Cryptography.Pal::CertificateData
+// CS Name: Internal.Cryptography.Pal.CertificateData
 struct CORDL_TYPE CertificateData {
 public:
   // Declarations
-  using AlgorithmIdentifier = ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier;
+  using AlgorithmIdentifier = ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier;
 
-  using _ReadReverseRdns_d__21 = ::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21;
+  using _ReadReverseRdns_d__21 = ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21;
 
-  /// @brief Method FindAltNameMatch, addr 0x40ba158, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindAltNameMatch, addr 0x411b46c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::StringW FindAltNameMatch(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionBytes, ::Internal::Cryptography::Pal::GeneralNameType matchType, ::StringW otherOid);
 
-  /// @brief Method GetNameInfo, addr 0x40b9694, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method GetNameInfo, addr 0x411a9a8, size 0x66c, virtual false, abstract: false, final false
   inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
-  /// @brief Method GetSimpleNameInfo, addr 0x40b9d00, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleNameInfo, addr 0x411b014, size 0x458, virtual false, abstract: false, final false
   static inline ::StringW GetSimpleNameInfo(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method ReadReverseRdns, addr 0x40ba318, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseRdns, addr 0x411b62c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   ReadReverseRdns(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method .ctor, addr 0x40b8f6c, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x411a280, size 0x728, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
   // Ctor Parameters []
@@ -348,23 +340,29 @@ public:
 
   // Ctor Parameters [CppParam { name: "RawData", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "SubjectPublicKeyInfo", ty:
   // "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SerialNumber", ty:
-  // "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "TbsSignature", ty: "::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier", modifiers:
-  // "", def_value: None }, CppParam { name: "Issuer", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: None }, CppParam { name: "NotBefore",
-  // ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "NotAfter", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "Subject", ty:
+  // "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "TbsSignature", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "",
+  // def_value: None }, CppParam { name: "Issuer", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: None }, CppParam { name: "NotBefore", ty:
+  // "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "NotAfter", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "Subject", ty:
   // "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: None }, CppParam { name: "PublicKeyAlgorithm", ty:
-  // "::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "PublicKey", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",
+  // "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "PublicKey", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",
   // def_value: None }, CppParam { name: "IssuerUniqueId", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "SubjectUniqueId", ty:
   // "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Extensions", ty:
   // "::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*", modifiers: "", def_value: None }, CppParam { name: "SignatureAlgorithm", ty:
-  // "::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "SignatureValue", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers:
+  // "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "SignatureValue", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers:
   // "", def_value: None }]
   constexpr CertificateData(::ArrayW<uint8_t, ::Array<uint8_t>*> RawData, ::ArrayW<uint8_t, ::Array<uint8_t>*> SubjectPublicKeyInfo, int32_t Version, ::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber,
-                            ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier TbsSignature, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Issuer,
+                            ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier TbsSignature, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Issuer,
                             ::System::DateTime NotBefore, ::System::DateTime NotAfter, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Subject,
-                            ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier PublicKeyAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> PublicKey,
+                            ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier PublicKeyAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> PublicKey,
                             ::ArrayW<uint8_t, ::Array<uint8_t>*> IssuerUniqueId, ::ArrayW<uint8_t, ::Array<uint8_t>*> SubjectUniqueId,
                             ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* Extensions,
-                            ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier SignatureAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> SignatureValue) noexcept;
+                            ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier SignatureAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> SignatureValue) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
 
   /// @brief Field RawData, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
@@ -379,7 +377,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber;
 
   /// @brief Field TbsSignature, offset: 0x20, size: 0x10, def value: None
-  ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier TbsSignature;
+  ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier TbsSignature;
 
   /// @brief Field Issuer, offset: 0x30, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Issuer;
@@ -394,7 +392,7 @@ public:
   ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Subject;
 
   /// @brief Field PublicKeyAlgorithm, offset: 0x50, size: 0x10, def value: None
-  ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier PublicKeyAlgorithm;
+  ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier PublicKeyAlgorithm;
 
   /// @brief Field PublicKey, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> PublicKey;
@@ -409,22 +407,14 @@ public:
   ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* Extensions;
 
   /// @brief Field SignatureAlgorithm, offset: 0x80, size: 0x10, def value: None
-  ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier SignatureAlgorithm;
+  ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier SignatureAlgorithm;
 
   /// @brief Field SignatureValue, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> SignatureValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9148 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::CertificateData, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData, RawData) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData, SubjectPublicKeyInfo) == 0x8, "Offset mismatch!");
@@ -457,8 +447,10 @@ static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData, Signature
 
 static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData, SignatureValue) == 0x90, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::CertificateData, 0x98>, "Size mismatch!");
+
 } // namespace Internal::Cryptography::Pal
-NEED_NO_BOX(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21);
-DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21*, "Internal.Cryptography.Pal", "CertificateData/<ReadReverseRdns>d__21");
+NEED_NO_BOX(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21);
+DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*, "Internal.Cryptography.Pal", "CertificateData/<ReadReverseRdns>d__21");
 DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Pal::CertificateData, "Internal.Cryptography.Pal", "CertificateData");
-DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier, "Internal.Cryptography.Pal", "CertificateData/AlgorithmIdentifier");
+DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier, "Internal.Cryptography.Pal", "CertificateData/AlgorithmIdentifier");

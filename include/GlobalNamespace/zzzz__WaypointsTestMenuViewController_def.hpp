@@ -4,7 +4,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
@@ -49,22 +52,16 @@ namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class __WaypointsTestMenuViewController___CheckBeatmaps_d__18;
+class WaypointsTestMenuViewController__CheckBeatmaps_d__18;
 }
 namespace HMUI {
 class ButtonBinder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -83,17 +80,16 @@ namespace GlobalNamespace {
 class WaypointsTestMenuViewController;
 }
 namespace GlobalNamespace {
-class __WaypointsTestMenuViewController___CheckBeatmaps_d__18;
+class WaypointsTestMenuViewController__CheckBeatmaps_d__18;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestMenuViewController);
-MARK_REF_PTR_T(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18);
-// Type: ::<CheckBeatmaps>d__18
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18);
+// Dependencies BeatmapDifficulty, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.List`1::Enumerator<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::WaypointsTestMenuViewController::<CheckBeatmaps>d__18*
-class CORDL_TYPE __WaypointsTestMenuViewController___CheckBeatmaps_d__18 : public ::System::Object {
+// CS Name: WaypointsTestMenuViewController/<CheckBeatmaps>d__18
+class CORDL_TYPE WaypointsTestMenuViewController__CheckBeatmaps_d__18 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -110,17 +106,16 @@ public:
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> __4__this;
 
   /// @brief Field <>7__wrap3, offset 0x38, size 0x18
-  __declspec(property(get = __cordl_internal_get___7__wrap3, put = __cordl_internal_set___7__wrap3)) ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>>
+  __declspec(property(get = __cordl_internal_get___7__wrap3, put = __cordl_internal_set___7__wrap3)) ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>>
       __7__wrap3;
 
   /// @brief Field <>7__wrap6, offset 0x60, size 0x18
   __declspec(property(get = __cordl_internal_get___7__wrap6,
-                      put = __cordl_internal_set___7__wrap6)) ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>
+                      put = __cordl_internal_set___7__wrap6)) ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>
       __7__wrap6;
 
   /// @brief Field <>7__wrap8, offset 0x80, size 0x18
-  __declspec(property(get = __cordl_internal_get___7__wrap8, put = __cordl_internal_set___7__wrap8)) ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty>
-      __7__wrap8;
+  __declspec(property(get = __cordl_internal_get___7__wrap8, put = __cordl_internal_set___7__wrap8)) ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapDifficulty> __7__wrap8;
 
   /// @brief Field <beatmapLevelData>5__6, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelData_5__6, put = __cordl_internal_set__beatmapLevelData_5__6)) ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> _beatmapLevelData_5__6;
@@ -150,46 +145,46 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x223a2c8, size 0xab8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2265584, size 0xab8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x223ae70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226612c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x223ae78, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2266134, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x223aeb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226616c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x223a16c, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2265428, size 0x15c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> const& __cordl_internal_get___7__wrap3() const;
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> const& __cordl_internal_get___7__wrap3() const;
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>>& __cordl_internal_get___7__wrap3();
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>>& __cordl_internal_get___7__wrap3();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const& __cordl_internal_get___7__wrap6() const;
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const& __cordl_internal_get___7__wrap6() const;
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>& __cordl_internal_get___7__wrap6();
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>& __cordl_internal_get___7__wrap6();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> const& __cordl_internal_get___7__wrap8() const;
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapDifficulty> const& __cordl_internal_get___7__wrap8() const;
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty>& __cordl_internal_get___7__wrap8();
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapDifficulty>& __cordl_internal_get___7__wrap8();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> const& __cordl_internal_get__beatmapLevelData_5__6() const;
 
@@ -203,9 +198,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__count_5__2();
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get__difficultiesToCheck_5__3();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* const& __cordl_internal_get__difficultiesToCheck_5__3() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*> const& __cordl_internal_get__difficultiesToCheck_5__3() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get__difficultiesToCheck_5__3();
 
   constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__difficulty_5__10() const;
 
@@ -221,11 +216,11 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> value);
 
-  constexpr void __cordl_internal_set___7__wrap3(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
+  constexpr void __cordl_internal_set___7__wrap3(::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
-  constexpr void __cordl_internal_set___7__wrap6(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value);
+  constexpr void __cordl_internal_set___7__wrap6(::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value);
 
-  constexpr void __cordl_internal_set___7__wrap8(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> value);
+  constexpr void __cordl_internal_set___7__wrap8(::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapDifficulty> value);
 
   constexpr void __cordl_internal_set__beatmapLevelData_5__6(::UnityW<::GlobalNamespace::BeatmapLevelDataSO> value);
 
@@ -239,16 +234,16 @@ public:
 
   constexpr void __cordl_internal_set__previewLevel_5__5(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  /// @brief Method <>m__Finally1, addr 0x223ae20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x22660dc, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x223add0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x226608c, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method <>m__Finally3, addr 0x223ad80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally3, addr 0x226603c, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally3();
 
-  /// @brief Method .ctor, addr 0x2239fa0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226525c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -263,16 +258,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WaypointsTestMenuViewController___CheckBeatmaps_d__18();
+  constexpr WaypointsTestMenuViewController__CheckBeatmaps_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__WaypointsTestMenuViewController___CheckBeatmaps_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaypointsTestMenuViewController__CheckBeatmaps_d__18", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __WaypointsTestMenuViewController___CheckBeatmaps_d__18(__WaypointsTestMenuViewController___CheckBeatmaps_d__18&&) = delete;
+  WaypointsTestMenuViewController__CheckBeatmaps_d__18(WaypointsTestMenuViewController__CheckBeatmaps_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__WaypointsTestMenuViewController___CheckBeatmaps_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaypointsTestMenuViewController__CheckBeatmaps_d__18", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __WaypointsTestMenuViewController___CheckBeatmaps_d__18(__WaypointsTestMenuViewController___CheckBeatmaps_d__18 const&) = delete;
+  WaypointsTestMenuViewController__CheckBeatmaps_d__18(WaypointsTestMenuViewController__CheckBeatmaps_d__18 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17686 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -290,7 +288,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* ____difficultiesToCheck_5__3;
 
   /// @brief Field <>7__wrap3, offset: 0x38, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> _____7__wrap3;
+  ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> _____7__wrap3;
 
   /// @brief Field <previewLevel>5__5, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____previewLevel_5__5;
@@ -299,59 +297,55 @@ public:
   ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> ____beatmapLevelData_5__6;
 
   /// @brief Field <>7__wrap6, offset: 0x60, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> _____7__wrap6;
+  ::System::Collections::Generic::List_1_Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> _____7__wrap6;
 
   /// @brief Field <characteristic>5__8, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____characteristic_5__8;
 
   /// @brief Field <>7__wrap8, offset: 0x80, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> _____7__wrap8;
+  ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapDifficulty> _____7__wrap8;
 
   /// @brief Field <difficulty>5__10, offset: 0x98, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____difficulty_5__10;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17642 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, 0xa0>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, ____count_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, ____count_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, ____difficultiesToCheck_5__3) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, ____difficultiesToCheck_5__3) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, _____7__wrap3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, _____7__wrap3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, ____previewLevel_5__5) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, ____previewLevel_5__5) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, ____beatmapLevelData_5__6) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, ____beatmapLevelData_5__6) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, _____7__wrap6) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, _____7__wrap6) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, ____characteristic_5__8) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, ____characteristic_5__8) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, _____7__wrap8) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, _____7__wrap8) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, ____difficulty_5__10) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18, ____difficulty_5__10) == 0x98, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::WaypointsTestMenuViewController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 146, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::WaypointsTestMenuViewController*
+// CS Name: WaypointsTestMenuViewController
 class CORDL_TYPE WaypointsTestMenuViewController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _CheckBeatmaps_d__18 = ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18;
+  using _CheckBeatmaps_d__18 = ::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18;
 
   /// @brief Field _audioClipAsyncLoader, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader)) ::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
@@ -405,60 +399,60 @@ public:
                       put = __cordl_internal_set__waypointsTestScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _waypointsTestScenesTransitionSetupData;
 
-  /// @brief Method CheckBeatmaps, addr 0x2239f40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmaps, addr 0x22651fc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CheckBeatmaps();
 
-  /// @brief Method HandleMainGameSceneDidFinish, addr 0x2239fc8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleMainGameSceneDidFinish, addr 0x2265284, size 0x98, virtual false, abstract: false, final false
   inline void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
 
   static inline ::GlobalNamespace::WaypointsTestMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2239e60, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x226511c, size 0xe0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2239d0c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2264fc8, size 0x154, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <HandleMainGameSceneDidFinish>b__19_0, addr 0x223a164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <HandleMainGameSceneDidFinish>b__19_0, addr 0x2265420, size 0x8, virtual false, abstract: false, final false
   inline void _HandleMainGameSceneDidFinish_b__19_0(::Zenject::DiContainer* container);
 
-  /// @brief Method <Start>b__16_0, addr 0x223a068, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__16_0, addr 0x2265324, size 0xb0, virtual false, abstract: false, final false
   inline void _Start_b__16_0();
 
-  /// @brief Method <Start>b__16_1, addr 0x223a118, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__16_1, addr 0x22653d4, size 0x4c, virtual false, abstract: false, final false
   inline void _Start_b__16_1();
+
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
+  constexpr ::GlobalNamespace::BeatmapDataLoader* const& __cordl_internal_get__beatmapDataLoader() const;
 
   constexpr ::GlobalNamespace::BeatmapDataLoader*& __cordl_internal_get__beatmapDataLoader();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataLoader*> const& __cordl_internal_get__beatmapDataLoader() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__btsButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__btsButton();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const& __cordl_internal_get__characteristics() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get__characteristics();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const& __cordl_internal_get__characteristics() const;
+  constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
 
   constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
+  constexpr ::GlobalNamespace::EnvironmentsListModel* const& __cordl_internal_get__environmentsListModel() const;
 
   constexpr ::GlobalNamespace::EnvironmentsListModel*& __cordl_internal_get__environmentsListModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListModel*> const& __cordl_internal_get__environmentsListModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
@@ -472,17 +466,17 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get__previewLevels();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* const& __cordl_internal_get__previewLevels() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> const& __cordl_internal_get__previewLevels() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get__previewLevels();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__progressText() const;
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__progressText();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr bool const& __cordl_internal_get__waitingForLevelFinish() const;
 
@@ -524,7 +518,7 @@ public:
 
   constexpr void __cordl_internal_set__waypointsTestScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x223a060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226531c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -540,6 +534,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WaypointsTestMenuViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WaypointsTestMenuViewController(WaypointsTestMenuViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17687 };
 
   /// @brief Field _btsButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____btsButton;
@@ -589,14 +586,9 @@ public:
   /// @brief Field _waitingForLevelFinish, offset: 0x91, size: 0x1, def value: None
   bool ____waitingForLevelFinish;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17643 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WaypointsTestMenuViewController, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____btsButton) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____cancelButton) == 0x28, "Offset mismatch!");
@@ -629,8 +621,10 @@ static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____i
 
 static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____waitingForLevelFinish) == 0x91, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WaypointsTestMenuViewController, 0x98>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::WaypointsTestMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");
-NEED_NO_BOX(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*, "", "WaypointsTestMenuViewController/<CheckBeatmaps>d__18");
+NEED_NO_BOX(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18*, "", "WaypointsTestMenuViewController/<CheckBeatmaps>d__18");

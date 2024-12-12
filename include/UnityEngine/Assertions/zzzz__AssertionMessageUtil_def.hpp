@@ -15,27 +15,26 @@ class AssertionMessageUtil;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionMessageUtil);
-// Type: UnityEngine.Assertions::AssertionMessageUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Assertions {
 // Is value type: false
-// CS Name: ::UnityEngine.Assertions::AssertionMessageUtil*
+// CS Name: UnityEngine.Assertions.AssertionMessageUtil
 class CORDL_TYPE AssertionMessageUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BooleanFailureMessage, addr 0x486e0d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BooleanFailureMessage, addr 0x48cf6a8, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW BooleanFailureMessage(bool expected);
 
-  /// @brief Method GetEqualityMessage, addr 0x486e2d0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetEqualityMessage, addr 0x48cf8a4, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
 
-  /// @brief Method GetMessage, addr 0x486e8f0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x48cfec4, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage);
 
-  /// @brief Method GetMessage, addr 0x486e9dc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x48cffb0, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
 
-  /// @brief Method NullFailureMessage, addr 0x486e580, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method NullFailureMessage, addr 0x48cfb54, size 0x168, virtual false, abstract: false, final false
   static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
 
 protected:
@@ -53,7 +52,7 @@ public:
   AssertionMessageUtil(AssertionMessageUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

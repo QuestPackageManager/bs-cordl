@@ -15,20 +15,19 @@ class OperationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::OperationException);
-// Type: UnityEngine.ResourceManagement.Exceptions::OperationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Exceptions::OperationException*
+// CS Name: UnityEngine.ResourceManagement.Exceptions.OperationException
 class CORDL_TYPE OperationException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x472fcd8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4790fec, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x472fc68, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4790f7c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -46,7 +45,7 @@ public:
   OperationException(OperationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15601 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

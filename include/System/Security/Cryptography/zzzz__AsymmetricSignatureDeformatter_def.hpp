@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsymmetricSignatureDeformatter)
@@ -17,26 +16,25 @@ class AsymmetricSignatureDeformatter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricSignatureDeformatter);
-// Type: System.Security.Cryptography::AsymmetricSignatureDeformatter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::AsymmetricSignatureDeformatter*
+// CS Name: System.Security.Cryptography.AsymmetricSignatureDeformatter
 class CORDL_TYPE AsymmetricSignatureDeformatter : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::AsymmetricSignatureDeformatter* New_ctor();
 
-  /// @brief Method SetHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetHashAlgorithm, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method SetKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method VerifySignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method .ctor, addr 0x3c3d4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d65c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

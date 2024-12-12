@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(UnityAction_3)
 namespace System {
 struct IntPtr;
@@ -18,13 +17,12 @@ template <typename T0, typename T1, typename T2> class UnityAction_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Events::UnityAction_3);
-// Type: UnityEngine.Events::UnityAction`3
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1, typename T2>
 // Is value type: false
-// CS Name: ::UnityEngine.Events::UnityAction`3<T0,T1,T2>*
+// CS Name: UnityEngine.Events.UnityAction`3<T0,T1,T2>
 class CORDL_TYPE UnityAction_3 : public ::System::MulticastDelegate {
 public:
   // Declarations
@@ -51,7 +49,7 @@ public:
   UnityAction_3(UnityAction_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10991 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

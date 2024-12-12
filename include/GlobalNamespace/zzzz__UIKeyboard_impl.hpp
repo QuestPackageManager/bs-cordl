@@ -8,80 +8,80 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::UIKeyboard___c__DisplayClass21_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::*)()>(
-    &::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard___c__DisplayClass21_0::*)()>(
+    &::GlobalNamespace::UIKeyboard___c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9b0cc;
+  constexpr static std::size_t addrs = 0x3bfd21c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard___c__DisplayClass21_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0._Awake_b__4
+//  Writing Method size for method: ::GlobalNamespace::UIKeyboard___c__DisplayClass21_0._Awake_b__4
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::*)()>(
-    &::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::_Awake_b__4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard___c__DisplayClass21_0::*)()>(
+    &::GlobalNamespace::UIKeyboard___c__DisplayClass21_0::_Awake_b__4)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b9b160;
+  constexpr static std::size_t addrs = 0x3bfd2b0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard___c__DisplayClass21_0*>::get(),
                                                                                "<Awake>b__4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::__cordl_internal_get_key() {
+constexpr ::StringW& GlobalNamespace::UIKeyboard___c__DisplayClass21_0::__cordl_internal_get_key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr ::StringW const& GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::__cordl_internal_get_key() const {
+constexpr ::StringW const& GlobalNamespace::UIKeyboard___c__DisplayClass21_0::__cordl_internal_get_key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr void GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::__cordl_internal_set_key(::StringW value) {
+constexpr void GlobalNamespace::UIKeyboard___c__DisplayClass21_0::__cordl_internal_set_key(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::UIKeyboard>& GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::UIKeyboard>& GlobalNamespace::UIKeyboard___c__DisplayClass21_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::UIKeyboard> const& GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::UIKeyboard> const& GlobalNamespace::UIKeyboard___c__DisplayClass21_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::UIKeyboard> value) {
+constexpr void GlobalNamespace::UIKeyboard___c__DisplayClass21_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::UIKeyboard> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0* GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0*>());
-}
-inline void GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0*>::get(),
+inline void GlobalNamespace::UIKeyboard___c__DisplayClass21_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard___c__DisplayClass21_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::_Awake_b__4() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0*>::get(),
+inline void GlobalNamespace::UIKeyboard___c__DisplayClass21_0::_Awake_b__4() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard___c__DisplayClass21_0*>::get(),
                                                                              "<Awake>b__4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::UIKeyboard___c__DisplayClass21_0* GlobalNamespace::UIKeyboard___c__DisplayClass21_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UIKeyboard___c__DisplayClass21_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0::__UIKeyboard____c__DisplayClass21_0() {}
+constexpr ::GlobalNamespace::UIKeyboard___c__DisplayClass21_0::UIKeyboard___c__DisplayClass21_0() {}
 //  Writing Method size for method: ::GlobalNamespace::UIKeyboard.add_textKeyWasPressedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action_1<char16_t>*)>(
     &::GlobalNamespace::UIKeyboard::add_textKeyWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b9a0b4;
+  constexpr static std::size_t addrs = 0x3bfc204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action_1<char16_t>*)>(
     &::GlobalNamespace::UIKeyboard::remove_textKeyWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b9a164;
+  constexpr static std::size_t addrs = 0x3bfc2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(
     &::GlobalNamespace::UIKeyboard::add_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9a214;
+  constexpr static std::size_t addrs = 0x3bfc364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(
     &::GlobalNamespace::UIKeyboard::remove_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9a2b0;
+  constexpr static std::size_t addrs = 0x3bfc400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(
     &::GlobalNamespace::UIKeyboard::add_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9a34c;
+  constexpr static std::size_t addrs = 0x3bfc49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(
     &::GlobalNamespace::UIKeyboard::remove_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9a3e8;
+  constexpr static std::size_t addrs = 0x3bfc538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(
     &::GlobalNamespace::UIKeyboard::add_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9a484;
+  constexpr static std::size_t addrs = 0x3bfc5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(
     &::GlobalNamespace::UIKeyboard::remove_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9a520;
+  constexpr static std::size_t addrs = 0x3bfc670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(bool)>(&::GlobalNamespace::UIKeyboard::set_enableOkButtonInteractivity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b9a5bc;
+  constexpr static std::size_t addrs = 0x3bfc70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(bool)>(&::GlobalNamespace::UIKeyboard::set_hideCancelButton)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b9a65c;
+  constexpr static std::size_t addrs = 0x3bfc7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::Awake)> {
   constexpr static std::size_t size = 0x9c0;
-  constexpr static std::size_t addrs = 0x3b9a70c;
+  constexpr static std::size_t addrs = 0x3bfc85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), "Awake",
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9b0d4;
+  constexpr static std::size_t addrs = 0x3bfd224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), ".ctor",
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__21_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b9b0dc;
+  constexpr static std::size_t addrs = 0x3bfd22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), "<Awake>b__21_0",
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__21_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b9b0f8;
+  constexpr static std::size_t addrs = 0x3bfd248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), "<Awake>b__21_1",
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__21_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b9b11c;
+  constexpr static std::size_t addrs = 0x3bfd26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), "<Awake>b__21_2",
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__21_3)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b9b140;
+  constexpr static std::size_t addrs = 0x3bfd290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), "<Awake>b__21_3",
@@ -317,7 +317,7 @@ constexpr ::System::Action_1<char16_t>*& GlobalNamespace::UIKeyboard::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textKeyWasPressedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<char16_t>*> const& GlobalNamespace::UIKeyboard::__cordl_internal_get_textKeyWasPressedEvent() const {
+constexpr ::System::Action_1<char16_t>* const& GlobalNamespace::UIKeyboard::__cordl_internal_get_textKeyWasPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textKeyWasPressedEvent;
 }
@@ -329,7 +329,7 @@ constexpr ::System::Action*& GlobalNamespace::UIKeyboard::__cordl_internal_get_d
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deleteButtonWasPressedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::UIKeyboard::__cordl_internal_get_deleteButtonWasPressedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::UIKeyboard::__cordl_internal_get_deleteButtonWasPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deleteButtonWasPressedEvent;
 }
@@ -341,7 +341,7 @@ constexpr ::System::Action*& GlobalNamespace::UIKeyboard::__cordl_internal_get_o
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___okButtonWasPressedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::UIKeyboard::__cordl_internal_get_okButtonWasPressedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::UIKeyboard::__cordl_internal_get_okButtonWasPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___okButtonWasPressedEvent;
 }
@@ -353,7 +353,7 @@ constexpr ::System::Action*& GlobalNamespace::UIKeyboard::__cordl_internal_get_c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancelButtonWasPressedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::UIKeyboard::__cordl_internal_get_cancelButtonWasPressedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::UIKeyboard::__cordl_internal_get_cancelButtonWasPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancelButtonWasPressedEvent;
 }
@@ -474,9 +474,6 @@ inline void GlobalNamespace::UIKeyboard::Awake() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::UIKeyboard* GlobalNamespace::UIKeyboard::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UIKeyboard*>());
-}
 inline void GlobalNamespace::UIKeyboard::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -501,6 +498,9 @@ inline void GlobalNamespace::UIKeyboard::_Awake_b__21_3() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UIKeyboard*>::get(), "<Awake>b__21_3",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::UIKeyboard* GlobalNamespace::UIKeyboard::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UIKeyboard*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UIKeyboard::UIKeyboard() {}

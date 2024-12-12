@@ -1,25 +1,24 @@
 #pragma once
 // IWYU pragma private; include "HMUI/SwitchView.hpp"
-#include "HMUI/zzzz__SwitchView_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SwitchView_def.hpp"
 #include "HMUI/zzzz__SwitchView_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HMUI::__SwitchView__AnimationType::__SwitchView__AnimationType(int32_t value__) noexcept {
+constexpr ::HMUI::SwitchView_AnimationType::SwitchView_AnimationType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HMUI::__SwitchView__AnimationType::__SwitchView__AnimationType() {}
-constexpr ::HMUI::__SwitchView__AnimationType HMUI::__SwitchView__AnimationType::OnOff{ static_cast<int32_t>(0x0) };
-constexpr ::HMUI::__SwitchView__AnimationType HMUI::__SwitchView__AnimationType::SelectedState{ static_cast<int32_t>(0x1) };
+constexpr ::HMUI::SwitchView_AnimationType::SwitchView_AnimationType() {}
+constexpr ::HMUI::SwitchView_AnimationType HMUI::SwitchView_AnimationType::OnOff{ static_cast<int32_t>(0x0) };
+constexpr ::HMUI::SwitchView_AnimationType HMUI::SwitchView_AnimationType::SelectedState{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::HMUI::SwitchView.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)()>(&::HMUI::SwitchView::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39a7720;
+  constexpr static std::size_t addrs = 0x39fe390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), "Awake",
@@ -32,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)()>(&::HMUI::SwitchView::Start)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x39a7770;
+  constexpr static std::size_t addrs = 0x39fe3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), "Start",
@@ -45,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)()>(&::HMUI::SwitchView::OnDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39a7a54;
+  constexpr static std::size_t addrs = 0x39fe6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), "OnDestroy",
@@ -58,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)(bool)>(&::HMUI::SwitchView::HandleOnValueChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a7c0c;
+  constexpr static std::size_t addrs = 0x39fe87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,15 +69,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::SwitchView.HandleStateDidChange
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)(::HMUI::__ToggleWithCallbacks__SelectionState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)(::HMUI::ToggleWithCallbacks_SelectionState)>(
     &::HMUI::SwitchView::HandleStateDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a7c10;
+  constexpr static std::size_t addrs = 0x39fe880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), "HandleStateDidChange", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__ToggleWithCallbacks__SelectionState>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ToggleWithCallbacks_SelectionState>::get() })));
     return ___internal_method;
   }
 };
@@ -87,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)()>(&::HMUI::SwitchView::RefreshVisuals)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x39a7930;
+  constexpr static std::size_t addrs = 0x39fe5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), "RefreshVisuals",
@@ -100,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SwitchView::*)()>(&::HMUI::SwitchView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a7c68;
+  constexpr static std::size_t addrs = 0x39fe8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), ".ctor",
@@ -108,15 +107,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::HMUI::__SwitchView__AnimationType& HMUI::SwitchView::__cordl_internal_get__animationType() {
+constexpr ::HMUI::SwitchView_AnimationType& HMUI::SwitchView::__cordl_internal_get__animationType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationType;
 }
-constexpr ::HMUI::__SwitchView__AnimationType const& HMUI::SwitchView::__cordl_internal_get__animationType() const {
+constexpr ::HMUI::SwitchView_AnimationType const& HMUI::SwitchView::__cordl_internal_get__animationType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationType;
 }
-constexpr void HMUI::SwitchView::__cordl_internal_set__animationType(::HMUI::__SwitchView__AnimationType value) {
+constexpr void HMUI::SwitchView::__cordl_internal_set__animationType(::HMUI::SwitchView_AnimationType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____animationType = value;
 }
@@ -250,10 +249,10 @@ inline void HMUI::SwitchView::HandleOnValueChanged(bool value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SwitchView::HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState value) {
+inline void HMUI::SwitchView::HandleStateDidChange(::HMUI::ToggleWithCallbacks_SelectionState value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), "HandleStateDidChange", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::__ToggleWithCallbacks__SelectionState>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ToggleWithCallbacks_SelectionState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void HMUI::SwitchView::RefreshVisuals() {
@@ -261,13 +260,13 @@ inline void HMUI::SwitchView::RefreshVisuals() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HMUI::SwitchView* HMUI::SwitchView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::SwitchView*>());
-}
 inline void HMUI::SwitchView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SwitchView*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::SwitchView* HMUI::SwitchView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::SwitchView*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::SwitchView::SwitchView() {}

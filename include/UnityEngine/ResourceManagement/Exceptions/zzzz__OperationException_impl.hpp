@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::OperationException::*)(::StringW, ::System::Exception*)>(
     &::UnityEngine::ResourceManagement::Exceptions::OperationException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x472fc68;
+  constexpr static std::size_t addrs = 0x4790f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::OperationException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::OperationException::ToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x472fcd8;
+  constexpr static std::size_t addrs = 0x4790fec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,12 +35,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @param innerException: ::System::Exception* (default: nullptr)
-inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* UnityEngine::ResourceManagement::Exceptions::OperationException::New_ctor(::StringW message,
-                                                                                                                                                    ::System::Exception* innerException) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Exceptions::OperationException*>(message, innerException));
-}
-/// @param innerException: ::System::Exception* (default: nullptr)
 inline void UnityEngine::ResourceManagement::Exceptions::OperationException::_ctor(::StringW message, ::System::Exception* innerException) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Exceptions::OperationException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -53,6 +47,10 @@ inline ::StringW UnityEngine::ResourceManagement::Exceptions::OperationException
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Exceptions::OperationException*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* UnityEngine::ResourceManagement::Exceptions::OperationException::New_ctor(::StringW message,
+                                                                                                                                                    ::System::Exception* innerException) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Exceptions::OperationException*>(message, innerException));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Exceptions::OperationException::OperationException() {}

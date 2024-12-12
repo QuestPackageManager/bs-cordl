@@ -1,29 +1,27 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GraphicSettingsConditionalActivator.hpp"
-#include "GlobalNamespace/zzzz__GraphicSettingsConditionalActivator_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsConditionalActivator_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsConditionalActivator_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType::__GraphicSettingsConditionalActivator__ActivatorType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType::GraphicSettingsConditionalActivator_ActivatorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType::__GraphicSettingsConditionalActivator__ActivatorType() {}
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType::smoke{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType::depthTexture{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType::burnmarkTrails{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType::screenDisplacement{ static_cast<int32_t>(
-    0x3) };
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType::GraphicSettingsConditionalActivator_ActivatorType() {}
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType::smoke{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType::depthTexture{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType::burnmarkTrails{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType::screenDisplacement{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::GlobalNamespace::GraphicSettingsConditionalActivator.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(
     &::GlobalNamespace::GraphicSettingsConditionalActivator::Start)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acd984;
+  constexpr static std::size_t addrs = 0x3b2cfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphicSettingsConditionalActivator*>::get(),
@@ -37,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(
     &::GlobalNamespace::GraphicSettingsConditionalActivator::GetGraphicsActivatorType)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3acd9d4;
+  constexpr static std::size_t addrs = 0x3b2d018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphicSettingsConditionalActivator*>::get(),
@@ -51,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(
     &::GlobalNamespace::GraphicSettingsConditionalActivator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acda64;
+  constexpr static std::size_t addrs = 0x3b2d0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphicSettingsConditionalActivator*>::get(),
@@ -59,15 +57,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType& GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__activatorType() {
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType& GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__activatorType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activatorType;
 }
-constexpr ::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType const& GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__activatorType() const {
+constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType const& GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__activatorType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activatorType;
 }
-constexpr void GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_set__activatorType(::GlobalNamespace::__GraphicSettingsConditionalActivator__ActivatorType value) {
+constexpr void GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_set__activatorType(::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____activatorType = value;
 }
@@ -87,7 +85,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::GraphicSettingsC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -99,8 +97,7 @@ constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::Graph
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const&
-GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__sceneSetupData() const {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::GraphicSettingsConditionalActivator::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
@@ -118,13 +115,13 @@ inline bool GlobalNamespace::GraphicSettingsConditionalActivator::GetGraphicsAct
                                                                              "GetGraphicsActivatorType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GraphicSettingsConditionalActivator* GlobalNamespace::GraphicSettingsConditionalActivator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GraphicSettingsConditionalActivator*>());
-}
 inline void GlobalNamespace::GraphicSettingsConditionalActivator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphicSettingsConditionalActivator*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GraphicSettingsConditionalActivator* GlobalNamespace::GraphicSettingsConditionalActivator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GraphicSettingsConditionalActivator*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GraphicSettingsConditionalActivator::GraphicSettingsConditionalActivator() {}

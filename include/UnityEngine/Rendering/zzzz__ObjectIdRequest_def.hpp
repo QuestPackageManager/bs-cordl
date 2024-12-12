@@ -14,11 +14,10 @@ class ObjectIdRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Rendering::ObjectIdRequest);
-// Type: UnityEngine.Rendering::ObjectIdRequest
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
-// CS Name: ::UnityEngine.Rendering::ObjectIdRequest*
+// CS Name: UnityEngine.Rendering.ObjectIdRequest
 class CORDL_TYPE ObjectIdRequest : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__destination_k__BackingField(::UnityW<::UnityEngine::RenderTexture> value);
 
-  /// @brief Method get_destination, addr 0x4864a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destination, addr 0x48c5df0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_destination();
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectIdRequest(ObjectIdRequest const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11225 };
+
   /// @brief Field <destination>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____destination_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11192 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ObjectIdRequest, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::ObjectIdRequest, ____destination_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ObjectIdRequest, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ObjectIdRequest);

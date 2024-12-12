@@ -13,18 +13,17 @@ class WhitespaceReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Mail::WhitespaceReader);
-// Type: System.Net.Mail::WhitespaceReader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Mail {
 // Is value type: false
-// CS Name: ::System.Net.Mail::WhitespaceReader*
+// CS Name: System.Net.Mail.WhitespaceReader
 class CORDL_TYPE WhitespaceReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadCfwsReverse, addr 0x43a2008, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsReverse, addr 0x440331c, size 0x2d8, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsReverse(::StringW data, int32_t index);
 
-  /// @brief Method ReadFwsReverse, addr 0x43a1018, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ReadFwsReverse, addr 0x440232c, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t ReadFwsReverse(::StringW data, int32_t index);
 
 protected:
@@ -42,7 +41,7 @@ public:
   WhitespaceReader(WhitespaceReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,25 +21,24 @@ class MaterialManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::MaterialManager);
-// Type: UnityEngine.TextCore.Text::MaterialManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::MaterialManager*
+// CS Name: UnityEngine.TextCore.Text.MaterialManager
 class CORDL_TYPE MaterialManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_FallbackMaterials, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FallbackMaterials,
-                             put = setStaticF_s_FallbackMaterials)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* s_FallbackMaterials;
+  __declspec(property(get = getStaticF_s_FallbackMaterials,
+                      put = setStaticF_s_FallbackMaterials)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* s_FallbackMaterials;
 
-  /// @brief Method CopyMaterialPresetProperties, addr 0x48c728c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method CopyMaterialPresetProperties, addr 0x492b91c, size 0x288, virtual false, abstract: false, final false
   static inline void CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination);
 
-  /// @brief Method GetFallbackMaterial, addr 0x48c7514, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x492bba4, size 0x220, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
-  /// @brief Method GetFallbackMaterial, addr 0x48c6ec4, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x492b554, size 0x3c8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
   static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* getStaticF_s_FallbackMaterials();
@@ -61,7 +60,7 @@ public:
   MaterialManager(MaterialManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

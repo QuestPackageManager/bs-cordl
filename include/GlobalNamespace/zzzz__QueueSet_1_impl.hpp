@@ -8,7 +8,7 @@ template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>*
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linkedList;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& GlobalNamespace::QueueSet_1<T>::__cordl_internal_get__linkedList() const {
+template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>* const& GlobalNamespace::QueueSet_1<T>::__cordl_internal_get__linkedList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linkedList;
 }
@@ -20,7 +20,7 @@ template <typename T> constexpr ::System::Collections::Generic::HashSet_1<T>*& G
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& GlobalNamespace::QueueSet_1<T>::__cordl_internal_get__set() const {
+template <typename T> constexpr ::System::Collections::Generic::HashSet_1<T>* const& GlobalNamespace::QueueSet_1<T>::__cordl_internal_get__set() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set;
 }
@@ -49,13 +49,13 @@ template <typename T> inline void GlobalNamespace::QueueSet_1<T>::Clear() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::QueueSet_1<T>* GlobalNamespace::QueueSet_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::QueueSet_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::QueueSet_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QueueSet_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::QueueSet_1<T>* GlobalNamespace::QueueSet_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::QueueSet_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::QueueSet_1<T>::QueueSet_1() {}

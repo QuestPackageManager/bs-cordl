@@ -25,11 +25,10 @@ class MissionNodeConnection;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionNodeConnection);
-// Type: ::MissionNodeConnection
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionNodeConnection*
+// CS Name: MissionNodeConnection
 class CORDL_TYPE MissionNodeConnection : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -69,18 +68,18 @@ public:
 
   __declspec(property(get = get_parentMissionNode)) ::UnityW<::GlobalNamespace::MissionNodeVisualController> parentMissionNode;
 
-  /// @brief Method MissionConnectionEnabledDidFinish, addr 0x3af3594, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MissionConnectionEnabledDidFinish, addr 0x3b52dec, size 0x20, virtual false, abstract: false, final false
   inline void MissionConnectionEnabledDidFinish();
 
   static inline ::GlobalNamespace::MissionNodeConnection* New_ctor();
 
-  /// @brief Method SetActive, addr 0x3af34c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x3b52d20, size 0xcc, virtual false, abstract: false, final false
   inline void SetActive(bool animated);
 
-  /// @brief Method Setup, addr 0x3af3238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b52a90, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionNodeVisualController* parentMissionNode, ::GlobalNamespace::MissionNodeVisualController* childMissionNode);
 
-  /// @brief Method UpdateConnectionRectTransform, addr 0x3af3240, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method UpdateConnectionRectTransform, addr 0x3b52a98, size 0x288, virtual false, abstract: false, final false
   inline void UpdateConnectionRectTransform();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -143,16 +142,16 @@ public:
 
   constexpr void __cordl_internal_set__width(float_t value);
 
-  /// @brief Method .ctor, addr 0x3af35b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b52e0c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childMissionNode, addr 0x3af3228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childMissionNode, addr 0x3b52a80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_childMissionNode();
 
-  /// @brief Method get_isActive, addr 0x3af3230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3b52a88, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_parentMissionNode, addr 0x3af3220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentMissionNode, addr 0x3b52a78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_parentMissionNode();
 
 protected:
@@ -168,6 +167,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeConnection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MissionNodeConnection(MissionNodeConnection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5307 };
 
   /// @brief Field _separator, offset: 0x20, size: 0x4, def value: None
   float_t ____separator;
@@ -199,14 +201,9 @@ public:
   /// @brief Field _isActive, offset: 0x60, size: 0x1, def value: None
   bool ____isActive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5284 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeConnection, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____separator) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____width) == 0x24, "Offset mismatch!");
@@ -226,6 +223,8 @@ static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____parentMissi
 static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____childMissionNodePosition) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____isActive) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeConnection, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionNodeConnection);

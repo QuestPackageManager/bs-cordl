@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__TextEditor_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -16,40 +15,39 @@ namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
-class TouchScreenKeyboard;
+struct TextEditor_DblClickSnapping;
 }
 namespace UnityEngine {
-struct __TextEditor__DblClickSnapping;
+class TouchScreenKeyboard;
 }
 // Forward declare root types
 namespace UnityEngine {
-struct __TextEditor__DblClickSnapping;
+struct TextEditor_DblClickSnapping;
 }
 namespace UnityEngine {
 class TextEditor;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::__TextEditor__DblClickSnapping);
+MARK_VAL_T(::UnityEngine::TextEditor_DblClickSnapping);
 MARK_REF_PTR_T(::UnityEngine::TextEditor);
-// Type: ::DblClickSnapping
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::TextEditor::DblClickSnapping
-struct CORDL_TYPE __TextEditor__DblClickSnapping {
+// CS Name: UnityEngine.TextEditor/DblClickSnapping
+struct CORDL_TYPE TextEditor_DblClickSnapping {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
-  /// @brief Nested struct ____TextEditor__DblClickSnapping_Unwrapped
-  enum struct ____TextEditor__DblClickSnapping_Unwrapped : uint8_t {
+  /// @brief Nested struct __TextEditor_DblClickSnapping_Unwrapped
+  enum struct __TextEditor_DblClickSnapping_Unwrapped : uint8_t {
     __E_WORDS = static_cast<uint8_t>(0x0u),
     __E_PARAGRAPHS = static_cast<uint8_t>(0x1u),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____TextEditor__DblClickSnapping_Unwrapped() const noexcept {
-    return static_cast<____TextEditor__DblClickSnapping_Unwrapped>(this->value__);
+  constexpr operator __TextEditor_DblClickSnapping_Unwrapped() const noexcept {
+    return static_cast<__TextEditor_DblClickSnapping_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -59,43 +57,42 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TextEditor__DblClickSnapping();
+  constexpr TextEditor_DblClickSnapping();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __TextEditor__DblClickSnapping(uint8_t value__) noexcept;
+  constexpr TextEditor_DblClickSnapping(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
+  /// @brief Field PARAGRAPHS value: U8(1)
+  static ::UnityEngine::TextEditor_DblClickSnapping const PARAGRAPHS;
 
-  /// @brief Field PARAGRAPHS value: static_cast<uint8_t>(0x1u)
-  static ::UnityEngine::__TextEditor__DblClickSnapping const PARAGRAPHS;
-
-  /// @brief Field WORDS value: static_cast<uint8_t>(0x0u)
-  static ::UnityEngine::__TextEditor__DblClickSnapping const WORDS;
+  /// @brief Field WORDS value: U8(0)
+  static ::UnityEngine::TextEditor_DblClickSnapping const WORDS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::__TextEditor__DblClickSnapping, 0x1>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::TextEditor_DblClickSnapping, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::__TextEditor__DblClickSnapping, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextEditor_DblClickSnapping, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine
-// Type: UnityEngine::TextEditor
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.TextEditor::DblClickSnapping, UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::TextEditor*
+// CS Name: UnityEngine.TextEditor
 class CORDL_TYPE TextEditor : public ::System::Object {
 public:
   // Declarations
-  using DblClickSnapping = ::UnityEngine::__TextEditor__DblClickSnapping;
+  using DblClickSnapping = ::UnityEngine::TextEditor_DblClickSnapping;
 
   /// @brief Field controlID, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_controlID, put = __cordl_internal_set_controlID)) int32_t controlID;
@@ -119,7 +116,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_DblClickInitPos, put = __cordl_internal_set_m_DblClickInitPos)) int32_t m_DblClickInitPos;
 
   /// @brief Field m_DblClickSnap, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_DblClickSnap, put = __cordl_internal_set_m_DblClickSnap)) ::UnityEngine::__TextEditor__DblClickSnapping m_DblClickSnap;
+  __declspec(property(get = __cordl_internal_get_m_DblClickSnap, put = __cordl_internal_set_m_DblClickSnap)) ::UnityEngine::TextEditor_DblClickSnapping m_DblClickSnap;
 
   /// @brief Field m_MouseDragSelectsWholeWords, offset 0x49, size 0x1
   __declspec(property(get = __cordl_internal_get_m_MouseDragSelectsWholeWords, put = __cordl_internal_set_m_MouseDragSelectsWholeWords)) bool m_MouseDragSelectsWholeWords;
@@ -159,13 +156,13 @@ public:
 
   constexpr bool& __cordl_internal_get_isPasswordField();
 
+  constexpr ::UnityEngine::TouchScreenKeyboard* const& __cordl_internal_get_keyboardOnScreen() const;
+
   constexpr ::UnityEngine::TouchScreenKeyboard*& __cordl_internal_get_keyboardOnScreen();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TouchScreenKeyboard*> const& __cordl_internal_get_keyboardOnScreen() const;
+  constexpr ::UnityEngine::GUIContent* const& __cordl_internal_get_m_Content() const;
 
   constexpr ::UnityEngine::GUIContent*& __cordl_internal_get_m_Content();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& __cordl_internal_get_m_Content() const;
 
   constexpr int32_t const& __cordl_internal_get_m_CursorIndex() const;
 
@@ -175,9 +172,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_DblClickInitPos();
 
-  constexpr ::UnityEngine::__TextEditor__DblClickSnapping const& __cordl_internal_get_m_DblClickSnap() const;
+  constexpr ::UnityEngine::TextEditor_DblClickSnapping const& __cordl_internal_get_m_DblClickSnap() const;
 
-  constexpr ::UnityEngine::__TextEditor__DblClickSnapping& __cordl_internal_get_m_DblClickSnap();
+  constexpr ::UnityEngine::TextEditor_DblClickSnapping& __cordl_internal_get_m_DblClickSnap();
 
   constexpr bool const& __cordl_internal_get_m_MouseDragSelectsWholeWords() const;
 
@@ -207,9 +204,9 @@ public:
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get_scrollOffset();
 
-  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_style();
+  constexpr ::UnityEngine::GUIStyle* const& __cordl_internal_get_style() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_style() const;
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_style();
 
   constexpr void __cordl_internal_set_controlID(int32_t value);
 
@@ -225,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DblClickInitPos(int32_t value);
 
-  constexpr void __cordl_internal_set_m_DblClickSnap(::UnityEngine::__TextEditor__DblClickSnapping value);
+  constexpr void __cordl_internal_set_m_DblClickSnap(::UnityEngine::TextEditor_DblClickSnapping value);
 
   constexpr void __cordl_internal_set_m_MouseDragSelectsWholeWords(bool value);
 
@@ -243,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x48818b0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e4a88, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -259,6 +256,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextEditor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextEditor(TextEditor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16661 };
 
   /// @brief Field keyboardOnScreen, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::TouchScreenKeyboard* ___keyboardOnScreen;
@@ -300,7 +300,7 @@ public:
   int32_t ___m_DblClickInitPos;
 
   /// @brief Field m_DblClickSnap, offset: 0x50, size: 0x1, def value: None
-  ::UnityEngine::__TextEditor__DblClickSnapping ___m_DblClickSnap;
+  ::UnityEngine::TextEditor_DblClickSnapping ___m_DblClickSnap;
 
   /// @brief Field m_bJustSelected, offset: 0x51, size: 0x1, def value: None
   bool ___m_bJustSelected;
@@ -308,14 +308,9 @@ public:
   /// @brief Field m_iAltCursorPos, offset: 0x54, size: 0x4, def value: None
   int32_t ___m_iAltCursorPos;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16623 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextEditor, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextEditor, ___keyboardOnScreen) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextEditor, ___controlID) == 0x18, "Offset mismatch!");
@@ -348,7 +343,9 @@ static_assert(offsetof(::UnityEngine::TextEditor, ___m_bJustSelected) == 0x51, "
 
 static_assert(offsetof(::UnityEngine::TextEditor, ___m_iAltCursorPos) == 0x54, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextEditor, 0x58>, "Size mismatch!");
+
 } // namespace UnityEngine
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::__TextEditor__DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextEditor_DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
 NEED_NO_BOX(::UnityEngine::TextEditor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextEditor*, "UnityEngine", "TextEditor");

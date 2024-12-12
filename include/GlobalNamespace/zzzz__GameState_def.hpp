@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GameState)
 namespace GlobalNamespace {
 class GameplayServerFiniteStateMachine;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,11 +15,10 @@ class GameState;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameState);
-// Type: ::GameState
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameState*
+// CS Name: GameState
 class CORDL_TYPE GameState : public ::System::Object {
 public:
   // Declarations
@@ -31,21 +28,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
-  constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine*& __cordl_internal_get_fsm();
+  constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine* const& __cordl_internal_get_fsm() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayServerFiniteStateMachine*> const& __cordl_internal_get_fsm() const;
+  constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine*& __cordl_internal_get_fsm();
 
   constexpr void __cordl_internal_set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine* value);
 
-  /// @brief Method .ctor, addr 0x22964f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c97e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
   /// @brief Convert to "::System::IDisposable"
@@ -65,18 +62,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameState(GameState const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14766 };
+
   /// @brief Field fsm, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayServerFiniteStateMachine* ___fsm;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameState, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameState, ___fsm) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameState, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameState);

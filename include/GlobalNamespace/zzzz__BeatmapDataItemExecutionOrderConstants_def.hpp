@@ -12,17 +12,16 @@ class BeatmapDataItemExecutionOrderConstants;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataItemExecutionOrderConstants);
-// Type: ::BeatmapDataItemExecutionOrderConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapDataItemExecutionOrderConstants*
+// CS Name: BeatmapDataItemExecutionOrderConstants
 class CORDL_TYPE BeatmapDataItemExecutionOrderConstants : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2215c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2240ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,10 +39,10 @@ public:
   BeatmapDataItemExecutionOrderConstants(BeatmapDataItemExecutionOrderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17041 };
 
   /// @brief Field kBPMChangeBeatmapEventExecutionOrder offset 0xffffffff size 0x4
-  static constexpr int32_t kBPMChangeBeatmapEventExecutionOrder{ static_cast<int32_t>(0xfffffc17) };
+  static constexpr int32_t kBPMChangeBeatmapEventExecutionOrder{ static_cast<int32_t>(0xfffffbb4) };
 
   /// @brief Field kCommonBeatmapEventExecutionOrder offset 0xffffffff size 0x4
   static constexpr int32_t kCommonBeatmapEventExecutionOrder{ static_cast<int32_t>(0xffffff9c) };
@@ -56,6 +55,9 @@ public:
 
   /// @brief Field kLateSpawnRotationBeatmapEventExecutionOrder offset 0xffffffff size 0x4
   static constexpr int32_t kLateSpawnRotationBeatmapEventExecutionOrder{ static_cast<int32_t>(0x3e8) };
+
+  /// @brief Field kNoteJumpSpeedBeatmapEventExecutionOrder offset 0xffffffff size 0x4
+  static constexpr int32_t kNoteJumpSpeedBeatmapEventExecutionOrder{ static_cast<int32_t>(0xfffffc0e) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

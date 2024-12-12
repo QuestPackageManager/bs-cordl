@@ -3,15 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ICertificateValidator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClientCertificateValidator)
 namespace GlobalNamespace {
 class DnsEndPoint;
-}
-namespace GlobalNamespace {
-class ICertificateValidator;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
@@ -22,11 +19,10 @@ class ClientCertificateValidator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ClientCertificateValidator);
-// Type: ::ClientCertificateValidator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ICertificateValidator, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ClientCertificateValidator*
+// CS Name: ClientCertificateValidator
 class CORDL_TYPE ClientCertificateValidator : public ::System::Object {
 public:
   // Declarations
@@ -35,15 +31,15 @@ public:
 
   static inline ::GlobalNamespace::ClientCertificateValidator* New_ctor();
 
-  /// @brief Method ValidateCertificateChain, addr 0x2285294, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ValidateCertificateChain, addr 0x22b8580, size 0x4, virtual true, abstract: false, final true
   inline void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                        ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainInternal, addr 0x2285298, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChainInternal, addr 0x22b8584, size 0x1bc, virtual false, abstract: false, final false
   inline void ValidateCertificateChainInternal(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method .ctor, addr 0x2285454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b8740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICertificateValidator"
@@ -64,7 +60,7 @@ public:
   ClientCertificateValidator(ClientCertificateValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

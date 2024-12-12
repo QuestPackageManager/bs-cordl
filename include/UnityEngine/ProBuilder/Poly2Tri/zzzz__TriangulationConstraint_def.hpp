@@ -14,11 +14,10 @@ class TriangulationConstraint;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
-// Type: UnityEngine.ProBuilder.Poly2Tri::TriangulationConstraint
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationConstraint*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint
 class CORDL_TYPE TriangulationConstraint : public ::System::Object {
 public:
   // Declarations
@@ -30,19 +29,19 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* New_ctor();
 
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get_P() const;
+
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_P();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_P() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get_Q() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_Q();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_Q() const;
 
   constexpr void __cordl_internal_set_P(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
   constexpr void __cordl_internal_set_Q(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method .ctor, addr 0x469a738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fba4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,23 +58,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TriangulationConstraint(TriangulationConstraint const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17831 };
+
   /// @brief Field P, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ___P;
 
   /// @brief Field Q, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ___Q;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17748 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint, ___P) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint, ___Q) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);

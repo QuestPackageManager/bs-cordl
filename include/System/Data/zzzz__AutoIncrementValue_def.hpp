@@ -21,11 +21,10 @@ class AutoIncrementValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::AutoIncrementValue);
-// Type: System.Data::AutoIncrementValue
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::AutoIncrementValue*
+// CS Name: System.Data.AutoIncrementValue
 class CORDL_TYPE AutoIncrementValue : public ::System::Object {
 public:
   // Declarations
@@ -42,18 +41,18 @@ public:
   /// @brief Field <Auto>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Auto_k__BackingField, put = __cordl_internal_set__Auto_k__BackingField)) bool _Auto_k__BackingField;
 
-  /// @brief Method Clone, addr 0x40d99a8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x413acbc, size 0x110, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* Clone();
 
-  /// @brief Method MoveAfter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method MoveAfter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void MoveAfter();
 
   static inline ::System::Data::AutoIncrementValue* New_ctor();
 
-  /// @brief Method SetCurrent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetCurrent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetCurrent(::System::Object* value, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method SetCurrentAndIncrement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetCurrentAndIncrement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetCurrentAndIncrement(::System::Object* value);
 
   constexpr bool const& __cordl_internal_get__Auto_k__BackingField() const;
@@ -62,34 +61,34 @@ public:
 
   constexpr void __cordl_internal_set__Auto_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x40da8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413bbe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Auto, addr 0x40da8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Auto, addr 0x413bbcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Auto();
 
-  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_DataType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_Seed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Seed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_Seed();
 
-  /// @brief Method get_Step, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Step, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Auto, addr 0x40da8c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Auto, addr 0x413bbd4, size 0xc, virtual false, abstract: false, final false
   inline void set_Auto(bool value);
 
-  /// @brief Method set_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Current(::System::Object* value);
 
-  /// @brief Method set_Seed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Seed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Seed(int64_t value);
 
-  /// @brief Method set_Step, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Step, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Step(int64_t value);
 
 protected:
@@ -106,18 +105,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AutoIncrementValue(AutoIncrementValue const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11334 };
+
   /// @brief Field <Auto>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Auto_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::AutoIncrementValue, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::AutoIncrementValue, ____Auto_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::AutoIncrementValue, 0x18>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::AutoIncrementValue);

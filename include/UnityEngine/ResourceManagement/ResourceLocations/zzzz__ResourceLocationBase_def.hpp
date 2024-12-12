@@ -4,7 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceLocationBase)
@@ -29,11 +29,10 @@ class ResourceLocationBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase);
-// Type: UnityEngine.ResourceManagement.ResourceLocations::ResourceLocationBase
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::ResourceLocationBase*
+// CS Name: UnityEngine.ResourceManagement.ResourceLocations.ResourceLocationBase
 class CORDL_TYPE ResourceLocationBase : public ::System::Object {
 public:
   // Declarations
@@ -84,27 +83,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() noexcept;
 
-  /// @brief Method ComputeDependencyHash, addr 0x473f908, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ComputeDependencyHash, addr 0x47a0c1c, size 0x258, virtual false, abstract: false, final false
   inline void ComputeDependencyHash();
 
-  /// @brief Method Hash, addr 0x473f68c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Hash, addr 0x47a09a0, size 0x54, virtual true, abstract: false, final true
   inline int32_t Hash(::System::Type* t);
 
   static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
   New_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
            ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> dependencies);
 
-  /// @brief Method ToString, addr 0x473f6e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47a09f4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  constexpr ::System::Object* const& __cordl_internal_get_m_Data() const;
 
   constexpr ::System::Object*& __cordl_internal_get_m_Data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Data() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* const& __cordl_internal_get_m_Dependencies() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_m_Dependencies();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
-  __cordl_internal_get_m_Dependencies() const;
 
   constexpr int32_t const& __cordl_internal_get_m_DependencyHashCode() const;
 
@@ -130,9 +128,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_m_ProviderId();
 
-  constexpr ::System::Type*& __cordl_internal_get_m_Type();
+  constexpr ::System::Type* const& __cordl_internal_get_m_Type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type() const;
+  constexpr ::System::Type*& __cordl_internal_get_m_Type();
 
   constexpr void __cordl_internal_set_m_Data(::System::Object* value);
 
@@ -152,42 +150,42 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x473f6e8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a09fc, size 0x220, virtual false, abstract: false, final false
   inline void
   _ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
         ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> dependencies);
 
-  /// @brief Method get_Data, addr 0x473f65c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Data, addr 0x47a0970, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x473f600, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Dependencies, addr 0x47a0914, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
 
-  /// @brief Method get_DependencyHashCode, addr 0x473f67c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_DependencyHashCode, addr 0x47a0990, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_DependencyHashCode();
 
-  /// @brief Method get_HasDependencies, addr 0x473f608, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_HasDependencies, addr 0x47a091c, size 0x54, virtual true, abstract: false, final true
   inline bool get_HasDependencies();
 
-  /// @brief Method get_InternalId, addr 0x473f5f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InternalId, addr 0x47a0904, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_PrimaryKey, addr 0x473f66c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_PrimaryKey, addr 0x47a0980, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_PrimaryKey();
 
-  /// @brief Method get_ProviderId, addr 0x473f5f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ProviderId, addr 0x47a090c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_ResourceType, addr 0x473f684, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ResourceType, addr 0x47a0998, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_ResourceType();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept;
 
-  /// @brief Method set_Data, addr 0x473f664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x47a0978, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method set_PrimaryKey, addr 0x473f674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PrimaryKey, addr 0x47a0988, size 0x8, virtual false, abstract: false, final false
   inline void set_PrimaryKey(::StringW value);
 
 protected:
@@ -203,6 +201,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceLocationBase(ResourceLocationBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15682 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
@@ -231,14 +232,9 @@ public:
   /// @brief Field m_PrimaryKey, offset: 0x48, size: 0x8, def value: None
   ::StringW ___m_PrimaryKey;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15647 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, ___m_Name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, ___m_Id) == 0x18, "Offset mismatch!");
@@ -256,6 +252,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceLocations::Res
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, ___m_Dependencies) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, ___m_PrimaryKey) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceLocations
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase);

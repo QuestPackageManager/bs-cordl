@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AnimationPlayableGraphExtensions)
 namespace UnityEngine::Playables {
@@ -19,16 +18,15 @@ class AnimationPlayableGraphExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableGraphExtensions);
-// Type: UnityEngine.Animations::AnimationPlayableGraphExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Animations {
 // Is value type: false
-// CS Name: ::UnityEngine.Animations::AnimationPlayableGraphExtensions*
+// CS Name: UnityEngine.Animations.AnimationPlayableGraphExtensions
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAnimationOutput, addr 0x47f3cd0, size 0x54, virtual false, abstract: false, final false
-  static inline bool InternalCreateAnimationOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+  /// @brief Method InternalCreateAnimationOutput, addr 0x4854fe4, size 0x54, virtual false, abstract: false, final false
+  static inline bool InternalCreateAnimationOutput(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
 protected:
   // Ctor Parameters []
@@ -45,7 +43,7 @@ public:
   AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

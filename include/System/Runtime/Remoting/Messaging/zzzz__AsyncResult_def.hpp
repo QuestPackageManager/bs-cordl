@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
@@ -23,9 +26,6 @@ namespace System::Threading {
 class ExecutionContext;
 }
 namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System::Threading {
 class ThreadAbortException;
 }
 namespace System::Threading {
@@ -33,9 +33,6 @@ class WaitCallback;
 }
 namespace System::Threading {
 class WaitHandle;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class Object;
@@ -46,11 +43,10 @@ class AsyncResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::AsyncResult);
-// Type: System.Runtime.Remoting.Messaging::AsyncResult
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IAsyncResult, System.IntPtr, System.Object, System.Runtime.Remoting.Messaging.IMessageSink, System.Threading.IThreadPoolWorkItem
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::AsyncResult*
+// CS Name: System.Runtime.Remoting.Messaging.AsyncResult
 class CORDL_TYPE AsyncResult : public ::System::Object {
 public:
   // Declarations
@@ -127,63 +123,63 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3c85e94, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method AsyncProcessMessage, addr 0x3ce6008, size 0x38, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method EndInvoke, addr 0x3c77834, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3cd79a8, size 0x110, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* EndInvoke();
 
-  /// @brief Method GetReplyMessage, addr 0x3c85ecc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetReplyMessage, addr 0x3ce6040, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* GetReplyMessage();
 
-  /// @brief Method Invoke, addr 0x3c8608c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ce6200, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Runtime::Remoting::Messaging::AsyncResult* New_ctor();
 
-  /// @brief Method SetCompletedSynchronously, addr 0x3c85edc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCompletedSynchronously, addr 0x3ce6050, size 0xc, virtual false, abstract: false, final false
   inline void SetCompletedSynchronously(bool completed);
 
-  /// @brief Method SetMessageCtrl, addr 0x3c85ed4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetMessageCtrl, addr 0x3ce6048, size 0x8, virtual true, abstract: false, final false
   inline void SetMessageCtrl(::System::Runtime::Remoting::Messaging::IMessageCtrl* mc);
 
-  /// @brief Method SyncProcessMessage, addr 0x3c85ee8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method SyncProcessMessage, addr 0x3ce605c, size 0x190, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3c86088, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3ce61fc, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x3c86090, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x3ce6204, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
   constexpr int64_t const& __cordl_internal_get_add_time() const;
 
   constexpr int64_t& __cordl_internal_get_add_time();
 
+  constexpr ::System::Object* const& __cordl_internal_get_async_callback() const;
+
   constexpr ::System::Object*& __cordl_internal_get_async_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_async_callback() const;
+  constexpr ::System::Object* const& __cordl_internal_get_async_delegate() const;
 
   constexpr ::System::Object*& __cordl_internal_get_async_delegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_async_delegate() const;
+  constexpr ::System::Object* const& __cordl_internal_get_async_state() const;
 
   constexpr ::System::Object*& __cordl_internal_get_async_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_async_state() const;
+  constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage* const& __cordl_internal_get_call_message() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage*& __cordl_internal_get_call_message();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MonoMethodMessage*> const& __cordl_internal_get_call_message() const;
 
   constexpr bool const& __cordl_internal_get_completed() const;
 
   constexpr bool& __cordl_internal_get_completed();
 
-  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_current();
+  constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get_current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_current() const;
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_current();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_data() const;
 
@@ -193,29 +189,29 @@ public:
 
   constexpr bool& __cordl_internal_get_endinvoke_called();
 
+  constexpr ::System::Threading::WaitHandle* const& __cordl_internal_get_handle() const;
+
   constexpr ::System::Threading::WaitHandle*& __cordl_internal_get_handle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& __cordl_internal_get_handle() const;
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageCtrl* const& __cordl_internal_get_message_ctrl() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageCtrl*& __cordl_internal_get_message_ctrl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageCtrl*> const& __cordl_internal_get_message_ctrl() const;
+  constexpr ::System::Object* const& __cordl_internal_get_object_data() const;
 
   constexpr ::System::Object*& __cordl_internal_get_object_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_object_data() const;
+  constexpr ::System::Threading::WaitCallback* const& __cordl_internal_get_orig_cb() const;
 
   constexpr ::System::Threading::WaitCallback*& __cordl_internal_get_orig_cb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& __cordl_internal_get_orig_cb() const;
+  constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get_original() const;
 
   constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_original();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_original() const;
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* const& __cordl_internal_get_reply_message() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __cordl_internal_get_reply_message();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __cordl_internal_get_reply_message() const;
 
   constexpr bool const& __cordl_internal_get_sync_completed() const;
 
@@ -253,31 +249,31 @@ public:
 
   constexpr void __cordl_internal_set_sync_completed(bool value);
 
-  /// @brief Method .ctor, addr 0x3c85d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce5eac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AsyncDelegate, addr 0x3c85e84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsyncDelegate, addr 0x3ce5ff8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_AsyncDelegate();
 
-  /// @brief Method get_AsyncState, addr 0x3c85d40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsyncState, addr 0x3ce5eb4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x3c85d48, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method get_AsyncWaitHandle, addr 0x3ce5ebc, size 0x118, virtual true, abstract: false, final false
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CallMessage, addr 0x3c86078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CallMessage, addr 0x3ce61ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* get_CallMessage();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x3c85e60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CompletedSynchronously, addr 0x3ce5fd4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_EndInvokeCalled, addr 0x3c85e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndInvokeCalled, addr 0x3ce5fe4, size 0x8, virtual false, abstract: false, final false
   inline bool get_EndInvokeCalled();
 
-  /// @brief Method get_IsCompleted, addr 0x3c85e68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3ce5fdc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_NextSink, addr 0x3c85e8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextSink, addr 0x3ce6000, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_NextSink();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -289,10 +285,10 @@ public:
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
   constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  /// @brief Method set_CallMessage, addr 0x3c86080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CallMessage, addr 0x3ce61f4, size 0x8, virtual false, abstract: false, final false
   inline void set_CallMessage(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
 
-  /// @brief Method set_EndInvokeCalled, addr 0x3c85e78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EndInvokeCalled, addr 0x3ce5fec, size 0xc, virtual false, abstract: false, final false
   inline void set_EndInvokeCalled(bool value);
 
 protected:
@@ -308,6 +304,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncResult", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncResult(AsyncResult const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3150 };
 
   /// @brief Field async_state, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___async_state;
@@ -357,14 +356,9 @@ public:
   /// @brief Field orig_cb, offset: 0x78, size: 0x8, def value: None
   ::System::Threading::WaitCallback* ___orig_cb;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3150 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::AsyncResult, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::AsyncResult, ___async_state) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::AsyncResult, ___handle) == 0x18, "Offset mismatch!");
@@ -396,6 +390,8 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::AsyncResult, ___m
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::AsyncResult, ___reply_message) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::AsyncResult, ___orig_cb) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::AsyncResult, 0x80>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::AsyncResult);

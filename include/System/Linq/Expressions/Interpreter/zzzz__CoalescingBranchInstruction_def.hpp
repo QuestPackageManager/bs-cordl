@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__OffsetInstruction_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CoalescingBranchInstruction)
@@ -20,11 +19,10 @@ class CoalescingBranchInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction);
-// Type: System.Linq.Expressions.Interpreter::CoalescingBranchInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.OffsetInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::CoalescingBranchInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.CoalescingBranchInstruction
 class CORDL_TYPE CoalescingBranchInstruction : public ::System::Linq::Expressions::Interpreter::OffsetInstruction {
 public:
   // Declarations
@@ -37,30 +35,30 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cache,
-                             put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>
+  __declspec(property(get = getStaticF_s_cache,
+                      put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>
       s_cache;
 
   static inline ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40611e8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c24fc, size 0x34, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x406121c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c2530, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_Cache, addr 0x4061114, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x40c2428, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x40611d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c24ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4061198, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c24ac, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40611e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c24f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> value);
@@ -80,7 +78,7 @@ public:
   CoalescingBranchInstruction(CoalescingBranchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13779 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

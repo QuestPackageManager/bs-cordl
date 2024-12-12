@@ -40,11 +40,10 @@ class StandardLevelNoTransitionInstallerData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstallerData);
-// Type: ::StandardLevelNoTransitionInstallerData
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficulty, UnityEngine.ScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelNoTransitionInstallerData*
+// CS Name: StandardLevelNoTransitionInstallerData
 class CORDL_TYPE StandardLevelNoTransitionInstallerData : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -126,30 +125,29 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
 
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* const& __cordl_internal_get__beatmapLevel() const;
+
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get__beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> const& __cordl_internal_get__beatmapLevel() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* const& __cordl_internal_get__colorScheme() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*& __cordl_internal_get__colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> const& __cordl_internal_get__colorScheme() const;
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const& __cordl_internal_get__environmentInfo() const;
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__environmentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
-  __cordl_internal_get__environmentInfo() const;
+  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
 
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
+  constexpr ::GlobalNamespace::PlayerSpecificSettings* const& __cordl_internal_get__playerSpecificSettings() const;
 
   constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings() const;
+  constexpr ::GlobalNamespace::PracticeSettings* const& __cordl_internal_get__practiceSettings() const;
 
   constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings() const;
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__selectedBeatmapLevel() const;
 
@@ -193,58 +191,58 @@ public:
 
   constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad88b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b38444, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_backButtonText, addr 0x3ad888c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backButtonText, addr 0x3b38420, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_backButtonText();
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x3ad883c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x3b383d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulty, addr 0x3ad884c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficulty, addr 0x3b383e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_beatmapLevel, addr 0x3ad869c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x3b380a8, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_beatmapLevel();
 
-  /// @brief Method get_colorScheme, addr 0x3ad8768, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x3b38174, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method get_environmentInfo, addr 0x3ad7f78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfo, addr 0x3b375bc, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
-  /// @brief Method get_gameplayModifiers, addr 0x3ad885c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x3b383f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_playerSpecificSettings, addr 0x3ad886c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x3b38400, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method get_practiceSettings, addr 0x3ad887c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x3b38410, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method get_useTestNoteCutSoundEffects, addr 0x3ad889c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useTestNoteCutSoundEffects, addr 0x3b38430, size 0x8, virtual false, abstract: false, final false
   inline bool get_useTestNoteCutSoundEffects();
 
-  /// @brief Method set_backButtonText, addr 0x3ad8894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_backButtonText, addr 0x3b38428, size 0x8, virtual false, abstract: false, final false
   inline void set_backButtonText(::StringW value);
 
-  /// @brief Method set_beatmapCharacteristic, addr 0x3ad8844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapCharacteristic, addr 0x3b383d8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
 
-  /// @brief Method set_beatmapDifficulty, addr 0x3ad8854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapDifficulty, addr 0x3b383e8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x3ad8864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x3b383f8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method set_playerSpecificSettings, addr 0x3ad8874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x3b38408, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method set_practiceSettings, addr 0x3ad8884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_practiceSettings, addr 0x3b38418, size 0x8, virtual false, abstract: false, final false
   inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  /// @brief Method set_useTestNoteCutSoundEffects, addr 0x3ad88a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useTestNoteCutSoundEffects, addr 0x3b38438, size 0xc, virtual false, abstract: false, final false
   inline void set_useTestNoteCutSoundEffects(bool value);
 
 protected:
@@ -260,6 +258,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelNoTransitionInstallerData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelNoTransitionInstallerData(StandardLevelNoTransitionInstallerData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5228 };
 
   /// @brief Field _beatmapLevel, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevel;
@@ -300,14 +301,9 @@ public:
   /// @brief Field _selectedEnvironmentInfo, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____selectedEnvironmentInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5208 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelNoTransitionInstallerData, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____beatmapLevel) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____beatmapCharacteristic) == 0x20, "Offset mismatch!");
@@ -333,6 +329,8 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData
 static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____selectedColorScheme) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____selectedEnvironmentInfo) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelNoTransitionInstallerData, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelNoTransitionInstallerData);

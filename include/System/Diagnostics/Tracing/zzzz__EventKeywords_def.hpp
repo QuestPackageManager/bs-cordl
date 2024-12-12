@@ -12,11 +12,10 @@ struct EventKeywords;
 }
 // Write type traits
 MARK_VAL_T(::System::Diagnostics::Tracing::EventKeywords);
-// Type: System.Diagnostics.Tracing::EventKeywords
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Diagnostics::Tracing {
 // Is value type: true
-// CS Name: ::System.Diagnostics.Tracing::EventKeywords
+// CS Name: System.Diagnostics.Tracing.EventKeywords
 struct CORDL_TYPE EventKeywords {
 public:
   // Declarations
@@ -53,37 +52,34 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
   constexpr EventKeywords(int64_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x8, def value: None
-  int64_t value__;
-
-  /// @brief Field All value: static_cast<int64_t>(0xffffffffffffffff)
+  /// @brief Field All value: I64(-1)
   static ::System::Diagnostics::Tracing::EventKeywords const All;
 
-  /// @brief Field AuditFailure value: static_cast<int64_t>(0x10000000000000)
+  /// @brief Field AuditFailure value: I64(4503599627370496)
   static ::System::Diagnostics::Tracing::EventKeywords const AuditFailure;
 
-  /// @brief Field AuditSuccess value: static_cast<int64_t>(0x20000000000000)
+  /// @brief Field AuditSuccess value: I64(9007199254740992)
   static ::System::Diagnostics::Tracing::EventKeywords const AuditSuccess;
 
-  /// @brief Field CorrelationHint value: static_cast<int64_t>(0x10000000000000)
+  /// @brief Field CorrelationHint value: I64(4503599627370496)
   static ::System::Diagnostics::Tracing::EventKeywords const CorrelationHint;
 
-  /// @brief Field EventLogClassic value: static_cast<int64_t>(0x80000000000000)
+  /// @brief Field EventLogClassic value: I64(36028797018963968)
   static ::System::Diagnostics::Tracing::EventKeywords const EventLogClassic;
 
-  /// @brief Field MicrosoftTelemetry value: static_cast<int64_t>(0x2000000000000)
+  /// @brief Field MicrosoftTelemetry value: I64(562949953421312)
   static ::System::Diagnostics::Tracing::EventKeywords const MicrosoftTelemetry;
 
-  /// @brief Field None value: static_cast<int64_t>(0x0)
+  /// @brief Field None value: I64(0)
   static ::System::Diagnostics::Tracing::EventKeywords const None;
 
-  /// @brief Field Sqm value: static_cast<int64_t>(0x8000000000000)
+  /// @brief Field Sqm value: I64(2251799813685248)
   static ::System::Diagnostics::Tracing::EventKeywords const Sqm;
 
-  /// @brief Field WdiContext value: static_cast<int64_t>(0x2000000000000)
+  /// @brief Field WdiContext value: I64(562949953421312)
   static ::System::Diagnostics::Tracing::EventKeywords const WdiContext;
 
-  /// @brief Field WdiDiagnostic value: static_cast<int64_t>(0x4000000000000)
+  /// @brief Field WdiDiagnostic value: I64(1125899906842624)
   static ::System::Diagnostics::Tracing::EventKeywords const WdiDiagnostic;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,12 +88,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x8, def value: None
+  int64_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventKeywords, 0x8>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::Tracing::EventKeywords, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventKeywords, 0x8>, "Size mismatch!");
 
 } // namespace System::Diagnostics::Tracing
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Tracing::EventKeywords, "System.Diagnostics.Tracing", "EventKeywords");

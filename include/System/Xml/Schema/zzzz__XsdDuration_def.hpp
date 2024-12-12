@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XsdDuration)
 namespace System::Xml::Schema {
-struct __XsdDuration__DurationType;
+struct XsdDuration_DurationType;
 }
 namespace System::Xml::Schema {
-struct __XsdDuration__Parts;
+struct XsdDuration_Parts;
 }
 namespace System {
 class Exception;
@@ -22,30 +21,29 @@ struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
-struct __XsdDuration__DurationType;
+struct XsdDuration_DurationType;
 }
 namespace System::Xml::Schema {
-struct __XsdDuration__Parts;
+struct XsdDuration_Parts;
 }
 namespace System::Xml::Schema {
 struct XsdDuration;
 }
 // Write type traits
-MARK_VAL_T(::System::Xml::Schema::__XsdDuration__DurationType);
-MARK_VAL_T(::System::Xml::Schema::__XsdDuration__Parts);
+MARK_VAL_T(::System::Xml::Schema::XsdDuration_DurationType);
+MARK_VAL_T(::System::Xml::Schema::XsdDuration_Parts);
 MARK_VAL_T(::System::Xml::Schema::XsdDuration);
-// Type: ::Parts
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::XsdDuration::Parts
-struct CORDL_TYPE __XsdDuration__Parts {
+// CS Name: System.Xml.Schema.XsdDuration/Parts
+struct CORDL_TYPE XsdDuration_Parts {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____XsdDuration__Parts_Unwrapped
-  enum struct ____XsdDuration__Parts_Unwrapped : int32_t {
+  /// @brief Nested struct __XsdDuration_Parts_Unwrapped
+  enum struct __XsdDuration_Parts_Unwrapped : int32_t {
     __E_HasNone = static_cast<int32_t>(0x0),
     __E_HasYears = static_cast<int32_t>(0x1),
     __E_HasMonths = static_cast<int32_t>(0x2),
@@ -56,8 +54,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____XsdDuration__Parts_Unwrapped() const noexcept {
-    return static_cast<____XsdDuration__Parts_Unwrapped>(this->value__);
+  constexpr operator __XsdDuration_Parts_Unwrapped() const noexcept {
+    return static_cast<__XsdDuration_Parts_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -67,69 +65,68 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XsdDuration__Parts();
+  constexpr XsdDuration_Parts();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XsdDuration__Parts(int32_t value__) noexcept;
+  constexpr XsdDuration_Parts(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field HasDays value: I32(4)
+  static ::System::Xml::Schema::XsdDuration_Parts const HasDays;
 
-  /// @brief Field HasDays value: static_cast<int32_t>(0x4)
-  static ::System::Xml::Schema::__XsdDuration__Parts const HasDays;
+  /// @brief Field HasHours value: I32(8)
+  static ::System::Xml::Schema::XsdDuration_Parts const HasHours;
 
-  /// @brief Field HasHours value: static_cast<int32_t>(0x8)
-  static ::System::Xml::Schema::__XsdDuration__Parts const HasHours;
+  /// @brief Field HasMinutes value: I32(16)
+  static ::System::Xml::Schema::XsdDuration_Parts const HasMinutes;
 
-  /// @brief Field HasMinutes value: static_cast<int32_t>(0x10)
-  static ::System::Xml::Schema::__XsdDuration__Parts const HasMinutes;
+  /// @brief Field HasMonths value: I32(2)
+  static ::System::Xml::Schema::XsdDuration_Parts const HasMonths;
 
-  /// @brief Field HasMonths value: static_cast<int32_t>(0x2)
-  static ::System::Xml::Schema::__XsdDuration__Parts const HasMonths;
+  /// @brief Field HasNone value: I32(0)
+  static ::System::Xml::Schema::XsdDuration_Parts const HasNone;
 
-  /// @brief Field HasNone value: static_cast<int32_t>(0x0)
-  static ::System::Xml::Schema::__XsdDuration__Parts const HasNone;
+  /// @brief Field HasSeconds value: I32(32)
+  static ::System::Xml::Schema::XsdDuration_Parts const HasSeconds;
 
-  /// @brief Field HasSeconds value: static_cast<int32_t>(0x20)
-  static ::System::Xml::Schema::__XsdDuration__Parts const HasSeconds;
-
-  /// @brief Field HasYears value: static_cast<int32_t>(0x1)
-  static ::System::Xml::Schema::__XsdDuration__Parts const HasYears;
+  /// @brief Field HasYears value: I32(1)
+  static ::System::Xml::Schema::XsdDuration_Parts const HasYears;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7763 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XsdDuration__Parts, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Schema::XsdDuration_Parts, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Schema::__XsdDuration__Parts, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XsdDuration_Parts, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
-// Type: ::DurationType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::XsdDuration::DurationType
-struct CORDL_TYPE __XsdDuration__DurationType {
+// CS Name: System.Xml.Schema.XsdDuration/DurationType
+struct CORDL_TYPE XsdDuration_DurationType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____XsdDuration__DurationType_Unwrapped
-  enum struct ____XsdDuration__DurationType_Unwrapped : int32_t {
+  /// @brief Nested struct __XsdDuration_DurationType_Unwrapped
+  enum struct __XsdDuration_DurationType_Unwrapped : int32_t {
     __E_Duration = static_cast<int32_t>(0x0),
     __E_YearMonthDuration = static_cast<int32_t>(0x1),
     __E_DayTimeDuration = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____XsdDuration__DurationType_Unwrapped() const noexcept {
-    return static_cast<____XsdDuration__DurationType_Unwrapped>(this->value__);
+  constexpr operator __XsdDuration_DurationType_Unwrapped() const noexcept {
+    return static_cast<__XsdDuration_DurationType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -139,48 +136,47 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XsdDuration__DurationType();
+  constexpr XsdDuration_DurationType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XsdDuration__DurationType(int32_t value__) noexcept;
+  constexpr XsdDuration_DurationType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field DayTimeDuration value: I32(2)
+  static ::System::Xml::Schema::XsdDuration_DurationType const DayTimeDuration;
 
-  /// @brief Field DayTimeDuration value: static_cast<int32_t>(0x2)
-  static ::System::Xml::Schema::__XsdDuration__DurationType const DayTimeDuration;
+  /// @brief Field Duration value: I32(0)
+  static ::System::Xml::Schema::XsdDuration_DurationType const Duration;
 
-  /// @brief Field Duration value: static_cast<int32_t>(0x0)
-  static ::System::Xml::Schema::__XsdDuration__DurationType const Duration;
-
-  /// @brief Field YearMonthDuration value: static_cast<int32_t>(0x1)
-  static ::System::Xml::Schema::__XsdDuration__DurationType const YearMonthDuration;
+  /// @brief Field YearMonthDuration value: I32(1)
+  static ::System::Xml::Schema::XsdDuration_DurationType const YearMonthDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7764 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XsdDuration__DurationType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Schema::XsdDuration_DurationType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Schema::__XsdDuration__DurationType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XsdDuration_DurationType, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
-// Type: System.Xml.Schema::XsdDuration
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::System.Xml.Schema::XsdDuration
+// CS Name: System.Xml.Schema.XsdDuration
 struct CORDL_TYPE XsdDuration {
 public:
   // Declarations
-  using DurationType = ::System::Xml::Schema::__XsdDuration__DurationType;
+  using DurationType = ::System::Xml::Schema::XsdDuration_DurationType;
 
-  using Parts = ::System::Xml::Schema::__XsdDuration__Parts;
+  using Parts = ::System::Xml::Schema::XsdDuration_Parts;
 
   __declspec(property(get = get_Days)) int32_t Days;
 
@@ -198,70 +194,70 @@ public:
 
   __declspec(property(get = get_Years)) int32_t Years;
 
-  /// @brief Method ToString, addr 0x429e74c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42ffa60, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x429e754, size 0x42c, virtual false, abstract: false, final false
-  inline ::StringW ToString(::System::Xml::Schema::__XsdDuration__DurationType durationType);
+  /// @brief Method ToString, addr 0x42ffa68, size 0x42c, virtual false, abstract: false, final false
+  inline ::StringW ToString(::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method ToTimeSpan, addr 0x429e244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x42ff558, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan ToTimeSpan();
 
-  /// @brief Method ToTimeSpan, addr 0x429e24c, size 0x48, virtual false, abstract: false, final false
-  inline ::System::TimeSpan ToTimeSpan(::System::Xml::Schema::__XsdDuration__DurationType durationType);
+  /// @brief Method ToTimeSpan, addr 0x42ff560, size 0x48, virtual false, abstract: false, final false
+  inline ::System::TimeSpan ToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method TryParse, addr 0x429dac4, size 0x738, virtual false, abstract: false, final false
-  static inline ::System::Exception* TryParse(::StringW s, ::System::Xml::Schema::__XsdDuration__DurationType durationType, ByRef<::System::Xml::Schema::XsdDuration> result);
+  /// @brief Method TryParse, addr 0x42fedd8, size 0x738, virtual false, abstract: false, final false
+  static inline ::System::Exception* TryParse(::StringW s, ::System::Xml::Schema::XsdDuration_DurationType durationType, ::ByRef<::System::Xml::Schema::XsdDuration> result);
 
-  /// @brief Method TryParse, addr 0x429eb80, size 0xc, virtual false, abstract: false, final false
-  static inline ::System::Exception* TryParse(::StringW s, ByRef<::System::Xml::Schema::XsdDuration> result);
+  /// @brief Method TryParse, addr 0x42ffe94, size 0xc, virtual false, abstract: false, final false
+  static inline ::System::Exception* TryParse(::StringW s, ::ByRef<::System::Xml::Schema::XsdDuration> result);
 
-  /// @brief Method TryParseDigits, addr 0x429eb8c, size 0x1bc, virtual false, abstract: false, final false
-  static inline ::StringW TryParseDigits(::StringW s, ByRef<int32_t> offset, bool eatDigits, ByRef<int32_t> result, ByRef<int32_t> numDigits);
+  /// @brief Method TryParseDigits, addr 0x42ffea0, size 0x1bc, virtual false, abstract: false, final false
+  static inline ::StringW TryParseDigits(::StringW s, ::ByRef<int32_t> offset, bool eatDigits, ::ByRef<int32_t> result, ::ByRef<int32_t> numDigits);
 
-  /// @brief Method TryToTimeSpan, addr 0x429e294, size 0x4ac, virtual false, abstract: false, final false
-  inline ::System::Exception* TryToTimeSpan(::System::Xml::Schema::__XsdDuration__DurationType durationType, ByRef<::System::TimeSpan> result);
+  /// @brief Method TryToTimeSpan, addr 0x42ff5a8, size 0x4ac, virtual false, abstract: false, final false
+  inline ::System::Exception* TryToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType durationType, ::ByRef<::System::TimeSpan> result);
 
-  /// @brief Method TryToTimeSpan, addr 0x429e740, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Exception* TryToTimeSpan(ByRef<::System::TimeSpan> result);
+  /// @brief Method TryToTimeSpan, addr 0x42ffa54, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Exception* TryToTimeSpan(::ByRef<::System::TimeSpan> result);
 
-  /// @brief Method .ctor, addr 0x429d714, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42fea28, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(bool isNegative, int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, int32_t nanoseconds);
 
-  /// @brief Method .ctor, addr 0x429da48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42fed5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x429da50, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW s, ::System::Xml::Schema::__XsdDuration__DurationType durationType);
+  /// @brief Method .ctor, addr 0x42fed64, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW s, ::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method .ctor, addr 0x429d870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42feb84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan timeSpan);
 
-  /// @brief Method .ctor, addr 0x429d878, size 0x1d0, virtual false, abstract: false, final false
-  inline void _ctor(::System::TimeSpan timeSpan, ::System::Xml::Schema::__XsdDuration__DurationType durationType);
+  /// @brief Method .ctor, addr 0x42feb8c, size 0x1d0, virtual false, abstract: false, final false
+  inline void _ctor(::System::TimeSpan timeSpan, ::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method get_Days, addr 0x429e224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Days, addr 0x42ff538, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Days();
 
-  /// @brief Method get_Hours, addr 0x429e22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hours, addr 0x42ff540, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Hours();
 
-  /// @brief Method get_IsNegative, addr 0x429e208, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsNegative, addr 0x42ff51c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsNegative();
 
-  /// @brief Method get_Minutes, addr 0x429e234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Minutes, addr 0x42ff548, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Minutes();
 
-  /// @brief Method get_Months, addr 0x429e21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Months, addr 0x42ff530, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Months();
 
-  /// @brief Method get_Nanoseconds, addr 0x429e1fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Nanoseconds, addr 0x42ff510, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Nanoseconds();
 
-  /// @brief Method get_Seconds, addr 0x429e23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x42ff550, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
-  /// @brief Method get_Years, addr 0x429e214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Years, addr 0x42ff528, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Years();
 
   // Ctor Parameters []
@@ -272,6 +268,12 @@ public:
   // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hours", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minutes", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nanoseconds", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr XsdDuration(int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, uint32_t nanoseconds) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7765 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
 
   /// @brief Field years, offset: 0x0, size: 0x4, def value: None
   int32_t years;
@@ -294,17 +296,9 @@ public:
   /// @brief Field nanoseconds, offset: 0x18, size: 0x4, def value: None
   uint32_t nanoseconds;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7740 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XsdDuration, 0x1c>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XsdDuration, years) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XsdDuration, months) == 0x4, "Offset mismatch!");
@@ -319,7 +313,9 @@ static_assert(offsetof(::System::Xml::Schema::XsdDuration, seconds) == 0x14, "Of
 
 static_assert(offsetof(::System::Xml::Schema::XsdDuration, nanoseconds) == 0x18, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XsdDuration, 0x1c>, "Size mismatch!");
+
 } // namespace System::Xml::Schema
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::__XsdDuration__DurationType, "System.Xml.Schema", "XsdDuration/DurationType");
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::__XsdDuration__Parts, "System.Xml.Schema", "XsdDuration/Parts");
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdDuration_DurationType, "System.Xml.Schema", "XsdDuration/DurationType");
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdDuration_Parts, "System.Xml.Schema", "XsdDuration/Parts");
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdDuration, "System.Xml.Schema", "XsdDuration");

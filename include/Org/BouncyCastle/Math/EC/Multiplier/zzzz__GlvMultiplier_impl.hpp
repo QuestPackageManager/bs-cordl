@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*)>(&::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24833c4;
+  constexpr static std::size_t addrs = 0x24b66b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::MultiplyPositive)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x2483468;
+  constexpr static std::size_t addrs = 0x24b6754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& Org::BouncyCastle::Math::EC::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::__cordl_internal_get_curve() const {
+constexpr ::Org::BouncyCastle::Math::EC::ECCurve* const& Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::__cordl_internal_get_curve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
@@ -55,18 +55,13 @@ constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___glvEndomorphism;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*> const&
-Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::__cordl_internal_get_glvEndomorphism() const {
+constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* const& Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::__cordl_internal_get_glvEndomorphism() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___glvEndomorphism;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::__cordl_internal_set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___glvEndomorphism)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*
-Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*>(curve, glvEndomorphism));
 }
 inline void Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,6 +76,10 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Mult
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(this, ___internal_method, p, k);
+}
+inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*
+Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*>(curve, glvEndomorphism));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::GlvMultiplier() {}

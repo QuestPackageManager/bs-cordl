@@ -11,10 +11,10 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class MultiplayerScoreProvider_RankedPlayer;
 }
 namespace GlobalNamespace {
-class __MultiplayerScoreProvider__RankedPlayer;
+class MultiplayerScoreProvider;
 }
 namespace TMPro {
 class TextMeshPro;
@@ -28,11 +28,10 @@ class MultiplayerPositionDisplay;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionDisplay);
-// Type: ::MultiplayerPositionDisplay
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerPositionDisplay*
+// CS Name: MultiplayerPositionDisplay
 class CORDL_TYPE MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -84,30 +83,30 @@ public:
   /// @brief Field _wasFirst, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__wasFirst, put = __cordl_internal_set__wasFirst)) bool _wasFirst;
 
-  /// @brief Method ChangeColor, addr 0x3b7a53c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ChangeColor, addr 0x3bdbd98, size 0x7c, virtual false, abstract: false, final false
   inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x3b7a904, size 0xb0, virtual false, abstract: false, final false
-  inline void HandleFirstPlayerDidChange(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* obj);
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x3bdc160, size 0xb0, virtual false, abstract: false, final false
+  inline void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* obj);
 
-  /// @brief Method HandlePlayerFailed, addr 0x3b7a80c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerFailed, addr 0x3bdc068, size 0x18, virtual false, abstract: false, final false
   inline void HandlePlayerFailed();
 
   static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b7a460, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bdbcbc, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b7a328, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bdbb84, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b7a5b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bdbe14, size 0x4c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateColors, addr 0x3b7a604, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x3bdbe60, size 0x98, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePosition, addr 0x3b7a69c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method UpdatePosition, addr 0x3bdbef8, size 0x170, virtual false, abstract: false, final false
   inline void UpdatePosition();
 
   constexpr float_t const& __cordl_internal_get__colorAnimationStartDuration() const;
@@ -118,9 +117,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__colorAnimationStartTime();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr float_t const& __cordl_internal_get__crossFadeDuration() const;
 
@@ -206,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set__wasFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x3b7a9b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdc210, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,6 +221,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerPositionDisplay(MultiplayerPositionDisplay const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4601 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
@@ -271,14 +273,9 @@ public:
   /// @brief Field _colorAnimationStartDuration, offset: 0xa0, size: 0x4, def value: None
   float_t ____colorAnimationStartDuration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4589 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPositionDisplay, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____text) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____normalColor) == 0x28, "Offset mismatch!");
@@ -310,6 +307,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____target
 static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____colorAnimationStartTime) == 0x9c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____colorAnimationStartDuration) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPositionDisplay, 0xa8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerPositionDisplay);

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AveragingValueRecorder* (::GlobalNamespace::MovementHistoryRecorder::*)()>(
     &::GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b848b4;
+  constexpr static std::size_t addrs = 0x3be613c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementHistoryRecorder*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::MovementHistoryRecorder::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b848bc;
+  constexpr static std::size_t addrs = 0x3be6144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t)>(
     &::GlobalNamespace::MovementHistoryRecorder::AddMovement)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b84950;
+  constexpr static std::size_t addrs = 0x3be61d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t)>(
     &::GlobalNamespace::MovementHistoryRecorder::ManualUpdate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b84974;
+  constexpr static std::size_t addrs = 0x3be61fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ constexpr ::GlobalNamespace::AveragingValueRecorder*& GlobalNamespace::MovementH
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averagingValueRecorer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AveragingValueRecorder*> const& GlobalNamespace::MovementHistoryRecorder::__cordl_internal_get__averagingValueRecorer() const {
+constexpr ::GlobalNamespace::AveragingValueRecorder* const& GlobalNamespace::MovementHistoryRecorder::__cordl_internal_get__averagingValueRecorer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averagingValueRecorer;
 }
@@ -116,10 +116,6 @@ inline ::GlobalNamespace::AveragingValueRecorder* GlobalNamespace::MovementHisto
                                                                              "get_averagingValueRecorer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AveragingValueRecorder*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MovementHistoryRecorder* GlobalNamespace::MovementHistoryRecorder::New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed,
-                                                                                                      float_t decreaseSpeed) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MovementHistoryRecorder*>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed));
-}
 inline void GlobalNamespace::MovementHistoryRecorder::_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementHistoryRecorder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -138,6 +134,10 @@ inline void GlobalNamespace::MovementHistoryRecorder::ManualUpdate(float_t delta
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementHistoryRecorder*>::get(), "ManualUpdate",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deltaTime);
+}
+inline ::GlobalNamespace::MovementHistoryRecorder* GlobalNamespace::MovementHistoryRecorder::New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed,
+                                                                                                      float_t decreaseSpeed) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MovementHistoryRecorder*>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MovementHistoryRecorder::MovementHistoryRecorder() {}

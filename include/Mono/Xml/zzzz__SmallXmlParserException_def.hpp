@@ -13,11 +13,10 @@ class SmallXmlParserException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Xml::SmallXmlParserException);
-// Type: Mono.Xml::SmallXmlParserException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace Mono::Xml {
 // Is value type: false
-// CS Name: ::Mono.Xml::SmallXmlParserException*
+// CS Name: Mono.Xml.SmallXmlParserException
 class CORDL_TYPE SmallXmlParserException : public ::System::SystemException {
 public:
   // Declarations
@@ -41,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_line(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bf50e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c551fc, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, int32_t line, int32_t column);
 
 protected:
@@ -58,23 +57,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SmallXmlParserException(SmallXmlParserException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2255 };
+
   /// @brief Field line, offset: 0x8c, size: 0x4, def value: None
   int32_t ___line;
 
   /// @brief Field column, offset: 0x90, size: 0x4, def value: None
   int32_t ___column;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2255 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Xml::SmallXmlParserException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Xml::SmallXmlParserException, ___line) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Xml::SmallXmlParserException, ___column) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Xml::SmallXmlParserException, 0x98>, "Size mismatch!");
 
 } // namespace Mono::Xml
 NEED_NO_BOX(::Mono::Xml::SmallXmlParserException);

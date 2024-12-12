@@ -11,17 +11,16 @@ class HandleProcessCorruptedStateExceptionsAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute);
-// Type: System.Runtime.ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
-// CS Name: ::System.Runtime.ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*
+// CS Name: System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute
 class CORDL_TYPE HandleProcessCorruptedStateExceptionsAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb657c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d166f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

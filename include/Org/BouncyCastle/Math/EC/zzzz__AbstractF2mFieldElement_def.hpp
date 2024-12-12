@@ -15,28 +15,27 @@ class AbstractF2mFieldElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement);
-// Type: Org.BouncyCastle.Math.EC::AbstractF2mFieldElement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.ECFieldElement
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC::AbstractF2mFieldElement*
+// CS Name: Org.BouncyCastle.Math.EC.AbstractF2mFieldElement
 class CORDL_TYPE AbstractF2mFieldElement : public ::Org::BouncyCastle::Math::EC::ECFieldElement {
 public:
   // Declarations
   __declspec(property(get = get_HasFastTrace)) bool HasFastTrace;
 
-  /// @brief Method HalfTrace, addr 0x244f258, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method HalfTrace, addr 0x2482544, size 0x13c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement* New_ctor();
 
-  /// @brief Method Trace, addr 0x244f39c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Trace, addr 0x2482688, size 0x144, virtual true, abstract: false, final false
   inline int32_t Trace();
 
-  /// @brief Method .ctor, addr 0x244f4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24827cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasFastTrace, addr 0x244f394, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasFastTrace, addr 0x2482680, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasFastTrace();
 
 protected:

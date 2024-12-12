@@ -12,11 +12,10 @@ struct HAPI_TransformComponent;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_TransformComponent);
-// Type: HoudiniEngineUnity::HAPI_TransformComponent
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_TransformComponent
+// CS Name: HoudiniEngineUnity.HAPI_TransformComponent
 struct CORDL_TYPE HAPI_TransformComponent {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_TransformComponent(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_TRANSFORM_QW value: static_cast<int32_t>(0x9)
+  /// @brief Field HAPI_TRANSFORM_QW value: I32(9)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QW;
 
-  /// @brief Field HAPI_TRANSFORM_QX value: static_cast<int32_t>(0x6)
+  /// @brief Field HAPI_TRANSFORM_QX value: I32(6)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QX;
 
-  /// @brief Field HAPI_TRANSFORM_QY value: static_cast<int32_t>(0x7)
+  /// @brief Field HAPI_TRANSFORM_QY value: I32(7)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QY;
 
-  /// @brief Field HAPI_TRANSFORM_QZ value: static_cast<int32_t>(0x8)
+  /// @brief Field HAPI_TRANSFORM_QZ value: I32(8)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QZ;
 
-  /// @brief Field HAPI_TRANSFORM_RX value: static_cast<int32_t>(0x3)
+  /// @brief Field HAPI_TRANSFORM_RX value: I32(3)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RX;
 
-  /// @brief Field HAPI_TRANSFORM_RY value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_TRANSFORM_RY value: I32(4)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RY;
 
-  /// @brief Field HAPI_TRANSFORM_RZ value: static_cast<int32_t>(0x5)
+  /// @brief Field HAPI_TRANSFORM_RZ value: I32(5)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RZ;
 
-  /// @brief Field HAPI_TRANSFORM_SX value: static_cast<int32_t>(0xa)
+  /// @brief Field HAPI_TRANSFORM_SX value: I32(10)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SX;
 
-  /// @brief Field HAPI_TRANSFORM_SY value: static_cast<int32_t>(0xb)
+  /// @brief Field HAPI_TRANSFORM_SY value: I32(11)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SY;
 
-  /// @brief Field HAPI_TRANSFORM_SZ value: static_cast<int32_t>(0xc)
+  /// @brief Field HAPI_TRANSFORM_SZ value: I32(12)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SZ;
 
-  /// @brief Field HAPI_TRANSFORM_TX value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_TRANSFORM_TX value: I32(0)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TX;
 
-  /// @brief Field HAPI_TRANSFORM_TY value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_TRANSFORM_TY value: I32(1)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TY;
 
-  /// @brief Field HAPI_TRANSFORM_TZ value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_TRANSFORM_TZ value: I32(2)
   static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TZ;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11695 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_TransformComponent, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_TransformComponent, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_TransformComponent, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_TransformComponent, "HoudiniEngineUnity", "HAPI_TransformComponent");

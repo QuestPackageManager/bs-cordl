@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::WaypointItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*>, ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::WaypointItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26d7778;
+  constexpr static std::size_t addrs = 0x2709228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion4::WaypointItemConverter::*)(::BeatmapSaveDataVersion4::BeatmapBeatIndex*)>(&::BeatmapDataLoaderVersion4::WaypointItemConverter::Convert)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x26d7db4;
+  constexpr static std::size_t addrs = 0x2709864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,11 +50,6 @@ constexpr void BeatmapDataLoaderVersion4::WaypointItemConverter::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waypoints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::BeatmapDataLoaderVersion4::WaypointItemConverter*
-BeatmapDataLoaderVersion4::WaypointItemConverter::New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypoints,
-                                                           ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::WaypointItemConverter*>(waypoints, bpmTimeProcessor));
-}
 inline void BeatmapDataLoaderVersion4::WaypointItemConverter::_ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypoints,
                                                                     ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,6 +63,11 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::Waypoint
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::WaypointItemConverter*>::get(), "Convert", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapObjectData*, false>(this, ___internal_method, index);
+}
+inline ::BeatmapDataLoaderVersion4::WaypointItemConverter*
+BeatmapDataLoaderVersion4::WaypointItemConverter::New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypoints,
+                                                           ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::WaypointItemConverter*>(waypoints, bpmTimeProcessor));
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::WaypointItemConverter::WaypointItemConverter() {}

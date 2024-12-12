@@ -12,11 +12,10 @@ struct TEXTURE_COLOR_SPACE;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE);
-// Type: LIV.SDK.Unity::TEXTURE_COLOR_SPACE
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::TEXTURE_COLOR_SPACE
+// CS Name: LIV.SDK.Unity.TEXTURE_COLOR_SPACE
 struct CORDL_TYPE TEXTURE_COLOR_SPACE {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr TEXTURE_COLOR_SPACE(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field LINEAR value: static_cast<uint32_t>(0x1000201u)
+  /// @brief Field LINEAR value: U32(16777729)
   static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE const LINEAR;
 
-  /// @brief Field SRGB value: static_cast<uint32_t>(0x2010002u)
+  /// @brief Field SRGB value: U32(33619970)
   static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE const SRGB;
 
-  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x20100u)
+  /// @brief Field UNDEFINED value: U32(131328)
   static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE const UNDEFINED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17314 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_COLOR_SPACE, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_COLOR_SPACE, 0x4>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE, "LIV.SDK.Unity", "TEXTURE_COLOR_SPACE");

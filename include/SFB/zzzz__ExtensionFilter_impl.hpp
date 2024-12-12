@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::SFB::ExtensionFilter::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::SFB::ExtensionFilter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b14104;
+  constexpr static std::size_t addrs = 0x3b73ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ inline void SFB::ExtensionFilter::_ctor(::StringW filterName, ::ArrayW<::StringW
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, filterName, filterExtensions);
 }
-// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_extensions", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers:
-// "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_extensions", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "",
+// def_value: Some("{}") }]
 constexpr ::SFB::ExtensionFilter::ExtensionFilter(::StringW _name, ::ArrayW<::StringW, ::Array<::StringW>*> _extensions) noexcept {
   this->_name = _name;
   this->_extensions = _extensions;

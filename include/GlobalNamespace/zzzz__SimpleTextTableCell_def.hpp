@@ -15,11 +15,10 @@ class SimpleTextTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleTextTableCell);
-// Type: ::SimpleTextTableCell
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SimpleTextTableCell*
+// CS Name: SimpleTextTableCell
 class CORDL_TYPE SimpleTextTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -36,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x39912b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7e34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3991290, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x39e7e10, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x399126c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x39e7dec, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleTextTableCell(SimpleTextTableCell const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16000 };
+
   /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextTableCell, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SimpleTextTableCell, ____text) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextTableCell, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTextTableCell);

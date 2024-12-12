@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MultipleDisplayUtilities)
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -21,21 +20,20 @@ class MultipleDisplayUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::MultipleDisplayUtilities);
-// Type: UnityEngine.UI::MultipleDisplayUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::MultipleDisplayUtilities*
+// CS Name: UnityEngine.UI.MultipleDisplayUtilities
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x4a59d0c, size 0x6c, virtual false, abstract: false, final false
-  static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Vector2> position);
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x4abe61c, size 0x6c, virtual false, abstract: false, final false
+  static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ::ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x4a5a1e4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x4abeaf4, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetRelativeMousePositionForRaycast(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x4a59d78, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtScaled, addr 0x4abe688, size 0x46c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position);
 
 protected:
@@ -53,7 +51,7 @@ public:
   MultipleDisplayUtilities(MultipleDisplayUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15114 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

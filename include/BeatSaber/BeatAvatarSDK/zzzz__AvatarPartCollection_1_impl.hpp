@@ -7,9 +7,7 @@ template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partById;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, T>*> const&
-BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__partById() const {
+template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<::StringW, T>* const& BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__partById() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partById;
 }
@@ -22,8 +20,7 @@ template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<::S
   return this->____partIndexById;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const&
-BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__partIndexById() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__partIndexById() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partIndexById;
 }
@@ -52,9 +49,6 @@ template <typename T> inline ::ArrayW<T, ::Array<T>*> BeatSaber::BeatAvatarSDK::
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*>::get(),
                                                                              "get_parts", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method);
-}
-template <typename T> inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::New_ctor(::ArrayW<T, ::Array<T>*> parts) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*>(parts));
 }
 template <typename T> inline void BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::_ctor(::ArrayW<T, ::Array<T>*> parts) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,6 +83,9 @@ template <typename T> inline T BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*>::get(),
                                                                              "GetDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T> inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::New_ctor(::ArrayW<T, ::Array<T>*> parts) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*>(parts));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::AvatarPartCollection_1() {}

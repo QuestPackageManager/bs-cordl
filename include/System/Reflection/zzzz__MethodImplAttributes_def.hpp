@@ -12,11 +12,10 @@ struct MethodImplAttributes;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::MethodImplAttributes);
-// Type: System.Reflection::MethodImplAttributes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::MethodImplAttributes
+// CS Name: System.Reflection.MethodImplAttributes
 struct CORDL_TYPE MethodImplAttributes {
 public:
   // Declarations
@@ -60,58 +59,55 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MethodImplAttributes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AggressiveInlining value: static_cast<int32_t>(0x100)
+  /// @brief Field AggressiveInlining value: I32(256)
   static ::System::Reflection::MethodImplAttributes const AggressiveInlining;
 
-  /// @brief Field CodeTypeMask value: static_cast<int32_t>(0x3)
+  /// @brief Field CodeTypeMask value: I32(3)
   static ::System::Reflection::MethodImplAttributes const CodeTypeMask;
 
-  /// @brief Field ForwardRef value: static_cast<int32_t>(0x10)
+  /// @brief Field ForwardRef value: I32(16)
   static ::System::Reflection::MethodImplAttributes const ForwardRef;
 
-  /// @brief Field IL value: static_cast<int32_t>(0x0)
+  /// @brief Field IL value: I32(0)
   static ::System::Reflection::MethodImplAttributes const IL;
 
-  /// @brief Field InternalCall value: static_cast<int32_t>(0x1000)
+  /// @brief Field InternalCall value: I32(4096)
   static ::System::Reflection::MethodImplAttributes const InternalCall;
 
-  /// @brief Field Managed value: static_cast<int32_t>(0x0)
+  /// @brief Field Managed value: I32(0)
   static ::System::Reflection::MethodImplAttributes const Managed;
 
-  /// @brief Field ManagedMask value: static_cast<int32_t>(0x4)
+  /// @brief Field ManagedMask value: I32(4)
   static ::System::Reflection::MethodImplAttributes const ManagedMask;
 
-  /// @brief Field MaxMethodImplVal value: static_cast<int32_t>(0xffff)
+  /// @brief Field MaxMethodImplVal value: I32(65535)
   static ::System::Reflection::MethodImplAttributes const MaxMethodImplVal;
 
-  /// @brief Field Native value: static_cast<int32_t>(0x1)
+  /// @brief Field Native value: I32(1)
   static ::System::Reflection::MethodImplAttributes const Native;
 
-  /// @brief Field NoInlining value: static_cast<int32_t>(0x8)
+  /// @brief Field NoInlining value: I32(8)
   static ::System::Reflection::MethodImplAttributes const NoInlining;
 
-  /// @brief Field NoOptimization value: static_cast<int32_t>(0x40)
+  /// @brief Field NoOptimization value: I32(64)
   static ::System::Reflection::MethodImplAttributes const NoOptimization;
 
-  /// @brief Field OPTIL value: static_cast<int32_t>(0x2)
+  /// @brief Field OPTIL value: I32(2)
   static ::System::Reflection::MethodImplAttributes const OPTIL;
 
-  /// @brief Field PreserveSig value: static_cast<int32_t>(0x80)
+  /// @brief Field PreserveSig value: I32(128)
   static ::System::Reflection::MethodImplAttributes const PreserveSig;
 
-  /// @brief Field Runtime value: static_cast<int32_t>(0x3)
+  /// @brief Field Runtime value: I32(3)
   static ::System::Reflection::MethodImplAttributes const Runtime;
 
-  /// @brief Field SecurityMitigations value: static_cast<int32_t>(0x400)
+  /// @brief Field SecurityMitigations value: I32(1024)
   static ::System::Reflection::MethodImplAttributes const SecurityMitigations;
 
-  /// @brief Field Synchronized value: static_cast<int32_t>(0x20)
+  /// @brief Field Synchronized value: I32(32)
   static ::System::Reflection::MethodImplAttributes const Synchronized;
 
-  /// @brief Field Unmanaged value: static_cast<int32_t>(0x4)
+  /// @brief Field Unmanaged value: I32(4)
   static ::System::Reflection::MethodImplAttributes const Unmanaged;
 
   /// @brief IL2CPP Metadata Type Index
@@ -120,12 +116,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::MethodImplAttributes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::MethodImplAttributes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::MethodImplAttributes, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MethodImplAttributes, "System.Reflection", "MethodImplAttributes");

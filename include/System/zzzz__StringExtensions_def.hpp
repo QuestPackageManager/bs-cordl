@@ -13,15 +13,14 @@ class StringExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::StringExtensions);
-// Type: System::StringExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::StringExtensions*
+// CS Name: System.StringExtensions
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SubstringTrim, addr 0x43a64e0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SubstringTrim, addr 0x44077f4, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW SubstringTrim(::StringW value, int32_t startIndex, int32_t length);
 
 protected:
@@ -39,7 +38,7 @@ public:
   StringExtensions(StringExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9180 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

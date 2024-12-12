@@ -14,29 +14,28 @@ class XmlSchemaInclude;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInclude);
-// Type: System.Xml.Schema::XmlSchemaInclude
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaExternal
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaInclude*
+// CS Name: System.Xml.Schema.XmlSchemaInclude
 class CORDL_TYPE XmlSchemaInclude : public ::System::Xml::Schema::XmlSchemaExternal {
 public:
   // Declarations
   /// @brief Field annotation, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* annotation;
 
-  /// @brief Method AddAnnotation, addr 0x425c760, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x42bda74, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaInclude* New_ctor();
 
-  constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& __cordl_internal_get_annotation();
+  constexpr ::System::Xml::Schema::XmlSchemaAnnotation* const& __cordl_internal_get_annotation() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnnotation*> const& __cordl_internal_get_annotation() const;
+  constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& __cordl_internal_get_annotation();
 
   constexpr void __cordl_internal_set_annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method .ctor, addr 0x425c740, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bda54, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaInclude(XmlSchemaInclude const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7698 };
+
   /// @brief Field annotation, offset: 0x68, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaAnnotation* ___annotation;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7673 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaInclude, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaInclude, ___annotation) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaInclude, 0x70>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaInclude);

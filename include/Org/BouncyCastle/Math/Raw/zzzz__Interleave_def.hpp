@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Interleave)
 // Forward declare root types
@@ -13,50 +12,49 @@ class Interleave;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Interleave);
-// Type: Org.BouncyCastle.Math.Raw::Interleave
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.Raw::Interleave*
+// CS Name: Org.BouncyCastle.Math.Raw.Interleave
 class CORDL_TYPE Interleave : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Expand16to32, addr 0x24a81d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Expand16to32, addr 0x24db4bc, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t Expand16to32(uint32_t x);
 
-  /// @brief Method Expand32to64, addr 0x24a81f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Expand32to64, addr 0x24db4e4, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t Expand32to64(uint32_t x);
 
-  /// @brief Method Expand64To128, addr 0x24a8250, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Expand64To128, addr 0x24db53c, size 0xa8, virtual false, abstract: false, final false
   static inline void Expand64To128(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Expand64To128Rev, addr 0x24a82f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Expand64To128Rev, addr 0x24db5e4, size 0xa8, virtual false, abstract: false, final false
   static inline void Expand64To128Rev(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Expand8to16, addr 0x24a81b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Expand8to16, addr 0x24db49c, size 0x20, virtual false, abstract: false, final false
   static inline uint32_t Expand8to16(uint32_t x);
 
   static inline ::Org::BouncyCastle::Math::Raw::Interleave* New_ctor();
 
-  /// @brief Method Shuffle, addr 0x24a83a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Shuffle, addr 0x24db68c, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t Shuffle(uint32_t x);
 
-  /// @brief Method Shuffle, addr 0x24a83e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Shuffle, addr 0x24db6d4, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Shuffle(uint64_t x);
 
-  /// @brief Method Shuffle2, addr 0x24a8444, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Shuffle2, addr 0x24db730, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t Shuffle2(uint32_t x);
 
-  /// @brief Method Unshuffle, addr 0x24a8498, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Unshuffle, addr 0x24db784, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t Unshuffle(uint32_t x);
 
-  /// @brief Method Unshuffle, addr 0x24a84e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Unshuffle, addr 0x24db7cc, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Unshuffle(uint64_t x);
 
-  /// @brief Method Unshuffle2, addr 0x24a853c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Unshuffle2, addr 0x24db828, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t Unshuffle2(uint32_t x);
 
-  /// @brief Method .ctor, addr 0x24a8590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24db87c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

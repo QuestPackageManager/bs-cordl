@@ -15,11 +15,10 @@ class PkixCertPathBuilderException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilderException);
-// Type: Org.BouncyCastle.Pkix::PkixCertPathBuilderException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.GeneralSecurityException
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilderException*
+// CS Name: Org.BouncyCastle.Pkix.PkixCertPathBuilderException
 class CORDL_TYPE PkixCertPathBuilderException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x253c85c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256fb48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25320d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25653c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25328f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2565be4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

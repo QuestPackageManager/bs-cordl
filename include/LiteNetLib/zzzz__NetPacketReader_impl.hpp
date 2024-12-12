@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacketReader::*)(::LiteNetLib::NetManager*, ::LiteNetLib::NetEvent*)>(
     &::LiteNetLib::NetPacketReader::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a59588;
+  constexpr static std::size_t addrs = 0x3ab01f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacketReader::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPacketReader::SetSource)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a595b4;
+  constexpr static std::size_t addrs = 0x3ab0224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacketReader::*)()>(&::LiteNetLib::NetPacketReader::RecycleInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a5967c;
+  constexpr static std::size_t addrs = 0x3ab02ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacketReader*>::get(), "RecycleInternal",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacketReader::*)()>(&::LiteNetLib::NetPacketReader::Recycle)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a598f4;
+  constexpr static std::size_t addrs = 0x3ab0564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacketReader*>::get(), "Recycle",
@@ -65,7 +65,7 @@ constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPacketReader::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packet;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPacketReader::__cordl_internal_get__packet() const {
+constexpr ::LiteNetLib::NetPacket* const& LiteNetLib::NetPacketReader::__cordl_internal_get__packet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packet;
 }
@@ -77,7 +77,7 @@ constexpr ::LiteNetLib::NetManager*& LiteNetLib::NetPacketReader::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manager;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& LiteNetLib::NetPacketReader::__cordl_internal_get__manager() const {
+constexpr ::LiteNetLib::NetManager* const& LiteNetLib::NetPacketReader::__cordl_internal_get__manager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manager;
 }
@@ -89,16 +89,13 @@ constexpr ::LiteNetLib::NetEvent*& LiteNetLib::NetPacketReader::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____evt;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetEvent*> const& LiteNetLib::NetPacketReader::__cordl_internal_get__evt() const {
+constexpr ::LiteNetLib::NetEvent* const& LiteNetLib::NetPacketReader::__cordl_internal_get__evt() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____evt;
 }
 constexpr void LiteNetLib::NetPacketReader::__cordl_internal_set__evt(::LiteNetLib::NetEvent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____evt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::LiteNetLib::NetPacketReader* LiteNetLib::NetPacketReader::New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetPacketReader*>(manager, evt));
 }
 inline void LiteNetLib::NetPacketReader::_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt) {
   static auto* ___internal_method =
@@ -122,6 +119,9 @@ inline void LiteNetLib::NetPacketReader::Recycle() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacketReader*>::get(), "Recycle",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::LiteNetLib::NetPacketReader* LiteNetLib::NetPacketReader::New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetPacketReader*>(manager, evt));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetPacketReader::NetPacketReader() {}

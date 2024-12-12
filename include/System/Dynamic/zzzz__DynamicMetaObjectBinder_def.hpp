@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__CallSiteBinder_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(DynamicMetaObjectBinder)
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
@@ -33,11 +32,10 @@ class DynamicMetaObjectBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::DynamicMetaObjectBinder);
-// Type: System.Dynamic::DynamicMetaObjectBinder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.CallSiteBinder
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::System.Dynamic::DynamicMetaObjectBinder*
+// CS Name: System.Dynamic.DynamicMetaObjectBinder
 class CORDL_TYPE DynamicMetaObjectBinder : public ::System::Runtime::CompilerServices::CallSiteBinder {
 public:
   // Declarations
@@ -45,32 +43,32 @@ public:
 
   __declspec(property(get = get_ReturnType)) ::System::Type* ReturnType;
 
-  /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Bind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method Bind, addr 0x409a8b0, size 0x600, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x40fbbc4, size 0x600, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* Bind(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
                                                        ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters,
                                                        ::System::Linq::Expressions::LabelTarget* returnLabel);
 
-  /// @brief Method CreateArgumentMetaObjects, addr 0x409aeb0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentMetaObjects, addr 0x40fc1c4, size 0x194, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>
   CreateArgumentMetaObjects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
                             ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method GetUpdateExpression, addr 0x409b044, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateExpression, addr 0x40fc358, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetUpdateExpression(::System::Type* type);
 
   static inline ::System::Dynamic::DynamicMetaObjectBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x409a7ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fbb00, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsStandardBinder, addr 0x409b104, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsStandardBinder, addr 0x40fc418, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsStandardBinder();
 
-  /// @brief Method get_ReturnType, addr 0x409a844, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x40fbb58, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ReturnType();
 
 protected:
@@ -88,7 +86,7 @@ public:
   DynamicMetaObjectBinder(DynamicMetaObjectBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

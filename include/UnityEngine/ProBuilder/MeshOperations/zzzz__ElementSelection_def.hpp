@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElementSelection)
@@ -32,13 +30,13 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c;
+class ElementSelection___c;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c__DisplayClass25_0;
+class ElementSelection___c__DisplayClass25_0;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c__DisplayClass27_0;
+class ElementSelection___c__DisplayClass27_0;
 }
 namespace UnityEngine::ProBuilder {
 struct EdgeLookup;
@@ -66,129 +64,128 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class ElementSelection;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c;
+class ElementSelection___c;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c__DisplayClass25_0;
+class ElementSelection___c__DisplayClass25_0;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c__DisplayClass27_0;
+class ElementSelection___c__DisplayClass27_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ElementSelection);
-MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c);
-MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0);
-MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c);
+MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0);
+MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0);
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::ElementSelection::<>c*
-class CORDL_TYPE __ElementSelection____c : public ::System::Object {
+// CS Name: UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c
+class CORDL_TYPE ElementSelection___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__10_0;
+  __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__10_0;
 
   /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__11_0;
+  __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__11_0;
 
   /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__12_0;
+  __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__12_0;
 
   /// @brief Field <>9__13_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__13_0;
+  __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* __9__13_0;
 
   /// @brief Field <>9__14_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__14_0;
+  __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__14_0;
 
   /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__15_0;
+  __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__15_0;
 
   /// @brief Field <>9__15_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_1, put = setStaticF___9__15_1)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__15_1;
+  __declspec(property(get = getStaticF___9__15_1, put = setStaticF___9__15_1)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__15_1;
 
   /// @brief Field <>9__26_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__26_0, put = setStaticF___9__26_0)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__26_0;
+  __declspec(property(get = getStaticF___9__26_0, put = setStaticF___9__26_0)) ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* __9__26_0;
 
   /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>* __9__27_0;
+  __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>* __9__27_0;
 
   /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0,
-                             put = setStaticF___9__5_0)) ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* __9__5_0;
+  __declspec(property(get = getStaticF___9__5_0,
+                      put = setStaticF___9__5_0)) ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* __9__5_0;
 
   /// @brief Field <>9__5_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_1, put = setStaticF___9__5_1)) ::System::Func_2<
+  __declspec(property(get = getStaticF___9__5_1, put = setStaticF___9__5_1)) ::System::Func_2<
       ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, bool>* __9__5_1;
 
   /// @brief Field <>9__5_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_2, put = setStaticF___9__5_2)) ::System::Func_2<
+  __declspec(property(get = getStaticF___9__5_2, put = setStaticF___9__5_2)) ::System::Func_2<
       ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::UnityEngine::ProBuilder::Edge>*
       __9__5_2;
 
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<
+  __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<
       ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, bool>* __9__7_0;
 
   /// @brief Field <>9__7_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1)) ::System::Func_2<
+  __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1)) ::System::Func_2<
       ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::UnityEngine::ProBuilder::Face*>*
       __9__7_1;
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* New_ctor();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c* New_ctor();
 
-  /// @brief Method <FindHoles>b__26_0, addr 0x4711824, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__26_0, addr 0x4772b38, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _FindHoles_b__26_0(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <FindHoles>b__27_0, addr 0x471183c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__27_0, addr 0x4772b50, size 0x58, virtual false, abstract: false, final false
   inline int32_t _FindHoles_b__27_0(::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> x, ::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> y);
 
-  /// @brief Method <GetEdgeLoopInternalIterative>b__15_0, addr 0x47117f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopInternalIterative>b__15_0, addr 0x4772b08, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopInternalIterative_b__15_0(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <GetEdgeLoopInternalIterative>b__15_1, addr 0x471180c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopInternalIterative>b__15_1, addr 0x4772b20, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopInternalIterative_b__15_1(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <GetEdgeLoopInternal>b__14_0, addr 0x47117dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopInternal>b__14_0, addr 0x4772af0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopInternal_b__14_0(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <GetEdgeLoopIterative>b__13_0, addr 0x47117d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopIterative>b__13_0, addr 0x4772ae8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopIterative_b__13_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetEdgeLoop>b__12_0, addr 0x47117cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoop>b__12_0, addr 0x4772ae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoop_b__12_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetEdgeRingIterative>b__11_0, addr 0x47117c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeRingIterative>b__11_0, addr 0x4772ad8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeRingIterative_b__11_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetEdgeRing>b__10_0, addr 0x47117bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeRing>b__10_0, addr 0x4772ad0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeRing_b__10_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetPerimeterEdges>b__5_0, addr 0x4711634, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterEdges>b__5_0, addr 0x4772948, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* _GetPerimeterEdges_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <GetPerimeterEdges>b__5_1, addr 0x471164c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterEdges>b__5_1, addr 0x4772960, size 0x58, virtual false, abstract: false, final false
   inline bool _GetPerimeterEdges_b__5_1(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x);
 
-  /// @brief Method <GetPerimeterEdges>b__5_2, addr 0x47116a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterEdges>b__5_2, addr 0x47729b8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge
   _GetPerimeterEdges_b__5_2(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x);
 
-  /// @brief Method <GetPerimeterFaces>b__7_0, addr 0x4711704, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterFaces>b__7_0, addr 0x4772a18, size 0x58, virtual false, abstract: false, final false
   inline bool _GetPerimeterFaces_b__7_0(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x);
 
-  /// @brief Method <GetPerimeterFaces>b__7_1, addr 0x471175c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterFaces>b__7_1, addr 0x4772a70, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face*
   _GetPerimeterFaces_b__7_1(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x);
 
-  /// @brief Method .ctor, addr 0x471162c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4772940, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* getStaticF___9();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c* getStaticF___9();
 
   static inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* getStaticF___9__10_0();
 
@@ -224,7 +221,7 @@ public:
                                  ::UnityEngine::ProBuilder::Face*>*
   getStaticF___9__7_1();
 
-  static inline void setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* value);
+  static inline void setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c* value);
 
   static inline void setStaticF___9__10_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value);
 
@@ -263,85 +260,83 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ElementSelection____c();
+  constexpr ElementSelection___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ElementSelection____c(__ElementSelection____c&&) = delete;
+  ElementSelection___c(ElementSelection___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ElementSelection____c(__ElementSelection____c const&) = delete;
+  ElementSelection___c(ElementSelection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
-// Type: ::<>c__DisplayClass25_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::ElementSelection::<>c__DisplayClass25_0*
-class CORDL_TYPE __ElementSelection____c__DisplayClass25_0 : public ::System::Object {
+// CS Name: UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass25_0
+class CORDL_TYPE ElementSelection___c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field face, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face)) ::UnityEngine::ProBuilder::Face* face;
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0* New_ctor();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <GetFaceLoop>b__0, addr 0x471189c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetFaceLoop>b__0, addr 0x4772bb0, size 0x24, virtual false, abstract: false, final false
   inline bool _GetFaceLoop_b__0(::UnityEngine::ProBuilder::WingedEdge* x);
+
+  constexpr ::UnityEngine::ProBuilder::Face* const& __cordl_internal_get_face() const;
 
   constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_face();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_face() const;
-
   constexpr void __cordl_internal_set_face(::UnityEngine::ProBuilder::Face* value);
 
-  /// @brief Method .ctor, addr 0x4711894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4772ba8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ElementSelection____c__DisplayClass25_0();
+  constexpr ElementSelection___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ElementSelection____c__DisplayClass25_0(__ElementSelection____c__DisplayClass25_0&&) = delete;
+  ElementSelection___c__DisplayClass25_0(ElementSelection___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ElementSelection____c__DisplayClass25_0(__ElementSelection____c__DisplayClass25_0 const&) = delete;
+  ElementSelection___c__DisplayClass25_0(ElementSelection___c__DisplayClass25_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14373 };
 
   /// @brief Field face, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Face* ___face;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14339 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0, ___face) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0, ___face) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
-// Type: ::<>c__DisplayClass27_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::ElementSelection::<>c__DisplayClass27_0*
-class CORDL_TYPE __ElementSelection____c__DisplayClass27_0 : public ::System::Object {
+// CS Name: UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass27_0
+class CORDL_TYPE ElementSelection___c__DisplayClass27_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9__1, offset 0x18, size 0x8
@@ -353,25 +348,25 @@ public:
   /// @brief Field common, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_common, put = __cordl_internal_set_common)) ::System::Collections::Generic::HashSet_1<int32_t>* common;
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0* New_ctor();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0* New_ctor();
 
-  /// @brief Method <FindHoles>b__1, addr 0x47118c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__1, addr 0x4772bdc, size 0x5c, virtual false, abstract: false, final false
   inline bool _FindHoles_b__1(::UnityEngine::ProBuilder::WingedEdge* w);
 
-  /// @brief Method <FindHoles>b__2, addr 0x4711924, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__2, addr 0x4772c38, size 0x5c, virtual false, abstract: false, final false
   inline bool _FindHoles_b__2(::UnityEngine::ProBuilder::WingedEdge* w);
+
+  constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* const& __cordl_internal_get___9__1() const;
 
   constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const& __cordl_internal_get___9__1() const;
+  constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* const& __cordl_internal_get___9__2() const;
 
   constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& __cordl_internal_get___9__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const& __cordl_internal_get___9__2() const;
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_common() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_common();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_common() const;
 
   constexpr void __cordl_internal_set___9__1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value);
 
@@ -379,22 +374,25 @@ public:
 
   constexpr void __cordl_internal_set_common(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x47118c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4772bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ElementSelection____c__DisplayClass27_0();
+  constexpr ElementSelection___c__DisplayClass27_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c__DisplayClass27_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass27_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ElementSelection____c__DisplayClass27_0(__ElementSelection____c__DisplayClass27_0&&) = delete;
+  ElementSelection___c__DisplayClass27_0(ElementSelection___c__DisplayClass27_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c__DisplayClass27_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass27_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ElementSelection____c__DisplayClass27_0(__ElementSelection____c__DisplayClass27_0 const&) = delete;
+  ElementSelection___c__DisplayClass27_0(ElementSelection___c__DisplayClass27_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14374 };
 
   /// @brief Field common, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___common;
@@ -405,138 +403,134 @@ public:
   /// @brief Field <>9__2, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* _____9__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14340 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0, 0x28>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0, ___common) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0, ___common) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0, _____9__1) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0, _____9__1) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0, _____9__2) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0, _____9__2) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
-// Type: UnityEngine.ProBuilder.MeshOperations::ElementSelection
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.MeshOperations::ElementSelection*
+// CS Name: UnityEngine.ProBuilder.MeshOperations.ElementSelection
 class CORDL_TYPE ElementSelection : public ::System::Object {
 public:
   // Declarations
-  using __c = ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c;
+  using __c = ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c;
 
-  using __c__DisplayClass25_0 = ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0;
+  using __c__DisplayClass25_0 = ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0;
 
-  using __c__DisplayClass27_0 = ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0;
+  using __c__DisplayClass27_0 = ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0;
 
   /// @brief Field Vector3_Zero, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_Vector3_Zero, put = setStaticF_Vector3_Zero)) ::UnityEngine::Vector3 Vector3_Zero;
+  __declspec(property(get = getStaticF_Vector3_Zero, put = setStaticF_Vector3_Zero)) ::UnityEngine::Vector3 Vector3_Zero;
 
-  /// @brief Method EdgeRingNext, addr 0x470de20, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EdgeRingNext, addr 0x476f134, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WingedEdge* EdgeRingNext(::UnityEngine::ProBuilder::WingedEdge* edge);
 
-  /// @brief Method FindHoles, addr 0x4710928, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method FindHoles, addr 0x4771c3c, size 0x39c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>*
   FindHoles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method FindHoles, addr 0x4710cc4, size 0x840, virtual false, abstract: false, final false
+  /// @brief Method FindHoles, addr 0x4771fd8, size 0x840, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>*
   FindHoles(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings, ::System::Collections::Generic::HashSet_1<int32_t>* common);
 
-  /// @brief Method FindNextEdgeInHole, addr 0x4711504, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FindNextEdgeInHole, addr 0x4772818, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WingedEdge* FindNextEdgeInHole(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t common);
 
-  /// @brief Method Flood, addr 0x470fde0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Flood, addr 0x47710f4, size 0x2a8, virtual false, abstract: false, final false
   static inline void Flood(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::UnityEngine::ProBuilder::WingedEdge* wing, ::UnityEngine::Vector3 wingNrm, float_t maxAngle,
                            ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* selection);
 
-  /// @brief Method Flood, addr 0x470fd64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Flood, addr 0x4771078, size 0x7c, virtual false, abstract: false, final false
   static inline void Flood(::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* selection);
 
-  /// @brief Method FloodSelection, addr 0x4710088, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method FloodSelection, addr 0x477139c, size 0x2ac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   FloodSelection(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, float_t maxAngleDiff);
 
-  /// @brief Method GetConnectedEdges, addr 0x470c334, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedEdges, addr 0x476d648, size 0x680, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> GetConnectedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                        ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method GetEdgeLoop, addr 0x470e7cc, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoop, addr 0x476fae0, size 0x370, virtual false, abstract: false, final false
   static inline bool GetEdgeLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
-                                 ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop);
+                                 ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop);
 
-  /// @brief Method GetEdgeLoopInternal, addr 0x470eb3c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoopInternal, addr 0x476fe50, size 0x228, virtual false, abstract: false, final false
   static inline bool GetEdgeLoopInternal(::UnityEngine::ProBuilder::WingedEdge* start, int32_t startIndex, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* used);
 
-  /// @brief Method GetEdgeLoopInternalIterative, addr 0x470f054, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoopInternalIterative, addr 0x4770368, size 0x380, virtual false, abstract: false, final false
   static inline void GetEdgeLoopInternalIterative(::UnityEngine::ProBuilder::WingedEdge* start, ::UnityEngine::ProBuilder::Edge edge,
                                                   ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* used);
 
-  /// @brief Method GetEdgeLoopIterative, addr 0x470ed64, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoopIterative, addr 0x4770078, size 0x2f0, virtual false, abstract: false, final false
   static inline bool GetEdgeLoopIterative(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
-                                          ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop);
+                                          ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop);
 
-  /// @brief Method GetEdgeRing, addr 0x470dea4, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeRing, addr 0x476f1b8, size 0x488, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetEdgeRing(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                                                             ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetEdgeRingIterative, addr 0x470e32c, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeRingIterative, addr 0x476f640, size 0x4a0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
   GetEdgeRingIterative(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetFaceLoop, addr 0x4710334, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method GetFaceLoop, addr 0x4771648, size 0x204, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   GetFaceLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, bool ring);
 
-  /// @brief Method GetFaceLoop, addr 0x4710538, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetFaceLoop, addr 0x477184c, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceLoop(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings,
                                                                                                          ::UnityEngine::ProBuilder::Face* face, bool ring);
 
-  /// @brief Method GetFaceRingAndLoop, addr 0x471070c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetFaceRingAndLoop, addr 0x4771a20, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   GetFaceRingAndLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces);
 
-  /// @brief Method GetNeighborFaces, addr 0x470c080, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetNeighborFaces, addr 0x476d394, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                            ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method GetNeighborFaces, addr 0x46f9c58, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetNeighborFaces, addr 0x475af6c, size 0x2fc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>*
   GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method GetNeighborFaces, addr 0x470bdfc, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetNeighborFaces, addr 0x476d110, size 0x284, virtual false, abstract: false, final false
   static inline void GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge,
                                       ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* neighborFaces);
 
-  /// @brief Method GetPerimeterEdges, addr 0x470cfb4, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterEdges, addr 0x476e2c8, size 0x384, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                        ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetPerimeterEdges, addr 0x470c9b4, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterEdges, addr 0x476dcc8, size 0x600, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
   GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method GetPerimeterFaces, addr 0x470d338, size 0x79c, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterFaces, addr 0x476e64c, size 0x79c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*
   GetPerimeterFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method GetPerimeterVertices, addr 0x470dad4, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterVertices, addr 0x476ede8, size 0x34c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPerimeterVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes,
                                                                           ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> universal_edges_all);
 
-  /// @brief Method GetSpokes, addr 0x470f3d4, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GetSpokes, addr 0x47706e8, size 0x30c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetSpokes(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t sharedIndex, bool allowHoles);
 
-  /// @brief Method GrowSelection, addr 0x470f7c0, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method GrowSelection, addr 0x4770ad4, size 0x5a4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   GrowSelection(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, float_t maxAngleDiff);
 
-  /// @brief Method NextSpoke, addr 0x470f6e0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method NextSpoke, addr 0x47709f4, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WingedEdge* NextSpoke(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t pivot, bool opp);
 
   static inline ::UnityEngine::Vector3 getStaticF_Vector3_Zero();
@@ -558,7 +552,7 @@ public:
   ElementSelection(ElementSelection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14375 };
 
   /// @brief Field k_MaxHoleIterations offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxHoleIterations{ static_cast<int32_t>(0x800) };
@@ -571,9 +565,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 } // namespace UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ElementSelection);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ElementSelection*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection");
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c");
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass25_0");
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass27_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass25_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass27_0");

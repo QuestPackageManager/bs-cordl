@@ -14,34 +14,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_CharacterInfo)
 namespace TMPro {
-struct FontStyles;
-}
-namespace TMPro {
-struct HighlightState;
-}
-namespace TMPro {
 class TMP_FontAsset;
 }
 namespace TMPro {
 class TMP_SpriteAsset;
 }
 namespace TMPro {
-struct TMP_TextElementType;
-}
-namespace TMPro {
 class TMP_TextElement;
-}
-namespace TMPro {
-struct TMP_Vertex;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace TMPro {
@@ -49,11 +31,10 @@ struct TMP_CharacterInfo;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_CharacterInfo);
-// Type: TMPro::TMP_CharacterInfo
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 389, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies TMPro.FontStyles, TMPro.HighlightState, TMPro.TMP_TextElementType, TMPro.TMP_Vertex, UnityEngine.Color32, UnityEngine.Vector3
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TMP_CharacterInfo
+// CS Name: TMPro.TMP_CharacterInfo
 struct CORDL_TYPE TMP_CharacterInfo {
 public:
   // Declarations
@@ -89,6 +70,12 @@ public:
                               float_t baseLine, float_t descender, float_t adjustedAscender, float_t adjustedDescender, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color,
                               ::UnityEngine::Color32 underlineColor, int32_t underlineVertexIndex, ::UnityEngine::Color32 strikethroughColor, int32_t strikethroughVertexIndex,
                               ::UnityEngine::Color32 highlightColor, ::TMPro::HighlightState highlightState, ::TMPro::FontStyles style, bool isVisible) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14449 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x178 };
 
   /// @brief Field character, offset: 0x0, size: 0x2, def value: None
   char16_t character;
@@ -213,17 +200,9 @@ public:
   /// @brief Field isVisible, offset: 0x174, size: 0x1, def value: None
   bool isVisible;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14415 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x178 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_CharacterInfo, 0x178>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_CharacterInfo, character) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_CharacterInfo, index) == 0x4, "Offset mismatch!");
@@ -305,6 +284,8 @@ static_assert(offsetof(::TMPro::TMP_CharacterInfo, highlightState) == 0x15c, "Of
 static_assert(offsetof(::TMPro::TMP_CharacterInfo, style) == 0x170, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_CharacterInfo, isVisible) == 0x174, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_CharacterInfo, 0x178>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");

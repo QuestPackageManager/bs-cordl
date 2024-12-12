@@ -3,6 +3,7 @@
 #include "BGLib/Polyglot/zzzz__Language_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -12,220 +13,218 @@
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextOverride_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedText_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride.get_language
+//  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride.get_language
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::*)()>(
-    &::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::get_language)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::*)()>(
+    &::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_language)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223cafc;
+  constexpr static std::size_t addrs = 0x2267d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get(), "get_language",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get(), "get_language",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride.get_overrideText
+//  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride.get_overrideText
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::*)()>(
-    &::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::get_overrideText)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::*)()>(
+    &::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_overrideText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223cb04;
+  constexpr static std::size_t addrs = 0x2267d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get(), "get_overrideText",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get(), "get_overrideText",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride._ctor
+//  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::*)()>(
-    &::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::*)()>(
+    &::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223cb0c;
+  constexpr static std::size_t addrs = 0x2267d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::__cordl_internal_get__language() {
+constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____language;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::__cordl_internal_get__language() const {
+constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____language;
 }
-constexpr void GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::__cordl_internal_set__language(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_set__language(::BGLib::Polyglot::Language value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____language = value;
 }
-constexpr ::StringW& GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::__cordl_internal_get__overrideText() {
+constexpr ::StringW& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__overrideText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideText;
 }
-constexpr ::StringW const& GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::__cordl_internal_get__overrideText() const {
+constexpr ::StringW const& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__overrideText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideText;
 }
-constexpr void GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::__cordl_internal_set__overrideText(::StringW value) {
+constexpr void GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_set__overrideText(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::BGLib::Polyglot::Language GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::get_language() {
+inline ::BGLib::Polyglot::Language GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_language() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get(), "get_language",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get(), "get_language",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::Language, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::get_overrideText() {
+inline ::StringW GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_overrideText() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get(), "get_overrideText",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get(), "get_overrideText",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride* GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>());
-}
-inline void GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::_ctor() {
+inline void GlobalNamespace::LevelFailedTextOverride_LanguageOverride::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride* GlobalNamespace::LevelFailedTextOverride_LanguageOverride::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride::__LevelFailedTextOverride__LanguageOverride() {}
-//  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0._ctor
+constexpr ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::LevelFailedTextOverride_LanguageOverride() {}
+//  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::*)()>(
-    &::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::*)()>(
+    &::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223cb14;
+  constexpr static std::size_t addrs = 0x2267d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0._Start_b__0
+//  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0._Start_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::*)(
-    ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*)>(&::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::_Start_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::*)(
+    ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*)>(&::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::_Start_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x223cb1c;
+  constexpr static std::size_t addrs = 0x2267d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0*>::get(), "<Start>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0*>::get(), "<Start>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() {
+constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedLanguage;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() const {
+constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedLanguage;
 }
-constexpr void GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::__cordl_internal_set_selectedLanguage(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_set_selectedLanguage(::BGLib::Polyglot::Language value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___selectedLanguage = value;
 }
-inline ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0* GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0*>());
-}
-inline void GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::_ctor() {
+inline void GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::_Start_b__0(::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride* data) {
+inline bool GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::_Start_b__0(::GlobalNamespace::LevelFailedTextOverride_LanguageOverride* data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0*>::get(), "<Start>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0*>::get(), "<Start>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, data);
 }
+inline ::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0* GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0::__LevelFailedTextOverride____c__DisplayClass6_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride___Start_d__6.MoveNext
+constexpr ::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::LevelFailedTextOverride___c__DisplayClass6_0() {}
+//  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride__Start_d__6.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelFailedTextOverride___Start_d__6::*)()>(
-    &::GlobalNamespace::__LevelFailedTextOverride___Start_d__6::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride__Start_d__6::*)()>(
+    &::GlobalNamespace::LevelFailedTextOverride__Start_d__6::MoveNext)> {
   constexpr static std::size_t size = 0xbc8;
-  constexpr static std::size_t addrs = 0x223cb40;
+  constexpr static std::size_t addrs = 0x2267d84;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride___Start_d__6>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride__Start_d__6>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride___Start_d__6.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride__Start_d__6.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelFailedTextOverride___Start_d__6::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LevelFailedTextOverride___Start_d__6::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride__Start_d__6::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelFailedTextOverride__Start_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x223d708;
+  constexpr static std::size_t addrs = 0x226894c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride___Start_d__6>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride__Start_d__6>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__LevelFailedTextOverride___Start_d__6::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__LevelFailedTextOverride___Start_d__6::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void GlobalNamespace::__LevelFailedTextOverride___Start_d__6::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride___Start_d__6>::get(),
+inline void GlobalNamespace::LevelFailedTextOverride__Start_d__6::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride__Start_d__6>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__LevelFailedTextOverride___Start_d__6::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::LevelFailedTextOverride__Start_d__6::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelFailedTextOverride___Start_d__6>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride__Start_d__6>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::LevelFailedTextOverride__Start_d__6::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LevelFailedTextOverride__Start_d__6::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelFailedTextOverride>",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_overrideData_5__2", ty: "::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*", modifiers: "", def_value: Some("nullptr")
-// }, CppParam { name: "_levelId_5__3", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty:
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_overrideData_5__2", ty: "::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "_levelId_5__3", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>,::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*>>", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>,::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*>>", modifiers: "", def_value:
 // Some("{}") }]
-constexpr ::GlobalNamespace::__LevelFailedTextOverride___Start_d__6::__LevelFailedTextOverride___Start_d__6(
+constexpr ::GlobalNamespace::LevelFailedTextOverride__Start_d__6::LevelFailedTextOverride__Start_d__6(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelFailedTextOverride> __4__this,
-    ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride* _overrideData_5__2, ::StringW _levelId_5__3,
+    ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride* _overrideData_5__2, ::StringW _levelId_5__3,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*>> __u__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*>> __u__2) noexcept {
   this->__1__state = __1__state;
@@ -237,13 +236,13 @@ constexpr ::GlobalNamespace::__LevelFailedTextOverride___Start_d__6::__LevelFail
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LevelFailedTextOverride___Start_d__6::__LevelFailedTextOverride___Start_d__6() {}
+constexpr ::GlobalNamespace::LevelFailedTextOverride__Start_d__6::LevelFailedTextOverride__Start_d__6() {}
 //  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride::*)()>(&::GlobalNamespace::LevelFailedTextOverride::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x223ca64;
+  constexpr static std::size_t addrs = 0x2267ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride*>::get(), "Start",
@@ -256,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride::*)()>(&::GlobalNamespace::LevelFailedTextOverride::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223caf4;
+  constexpr static std::size_t addrs = 0x2267d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride*>::get(), ".ctor",
@@ -264,18 +263,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*>&
+constexpr ::ArrayW<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*, ::Array<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>*>&
 GlobalNamespace::LevelFailedTextOverride::__cordl_internal_get__perLanguageOverrides() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perLanguageOverrides;
 }
-constexpr ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*, ::Array<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>*> const&
 GlobalNamespace::LevelFailedTextOverride::__cordl_internal_get__perLanguageOverrides() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perLanguageOverrides;
 }
 constexpr void GlobalNamespace::LevelFailedTextOverride::__cordl_internal_set__perLanguageOverrides(
-    ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> value) {
+    ::ArrayW<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*, ::Array<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____perLanguageOverrides)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -346,13 +345,13 @@ inline void GlobalNamespace::LevelFailedTextOverride::Start() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LevelFailedTextOverride* GlobalNamespace::LevelFailedTextOverride::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelFailedTextOverride*>());
-}
 inline void GlobalNamespace::LevelFailedTextOverride::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LevelFailedTextOverride* GlobalNamespace::LevelFailedTextOverride::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelFailedTextOverride*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelFailedTextOverride::LevelFailedTextOverride() {}

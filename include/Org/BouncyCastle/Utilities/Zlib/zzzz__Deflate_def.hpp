@@ -4,35 +4,33 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Deflate)
+namespace Org::BouncyCastle::Utilities::Zlib {
+class Deflate_Config;
+}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Tree;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
-namespace Org::BouncyCastle::Utilities::Zlib {
-class __Deflate__Config;
-}
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Deflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class __Deflate__Config;
+class Deflate_Config;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Deflate);
-MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config);
-// Type: ::Config
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config);
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// CS Name: ::Deflate::Config*
-class CORDL_TYPE __Deflate__Config : public ::System::Object {
+// CS Name: Org.BouncyCastle.Utilities.Zlib.Deflate/Config
+class CORDL_TYPE Deflate_Config : public ::System::Object {
 public:
   // Declarations
   /// @brief Field func, offset 0x20, size 0x4
@@ -50,7 +48,7 @@ public:
   /// @brief Field nice_length, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_nice_length, put = __cordl_internal_set_nice_length)) int32_t nice_length;
 
-  static inline ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config* New_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func);
+  static inline ::Org::BouncyCastle::Utilities::Zlib::Deflate_Config* New_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func);
 
   constexpr int32_t const& __cordl_internal_get_func() const;
 
@@ -82,22 +80,25 @@ public:
 
   constexpr void __cordl_internal_set_nice_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25a9234, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dc520, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Deflate__Config();
+  constexpr Deflate_Config();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Deflate__Config", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Deflate_Config", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Deflate__Config(__Deflate__Config&&) = delete;
+  Deflate_Config(Deflate_Config&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Deflate__Config", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Deflate_Config", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Deflate__Config(__Deflate__Config const&) = delete;
+  Deflate_Config(Deflate_Config const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1818 };
 
   /// @brief Field good_length, offset: 0x10, size: 0x4, def value: None
   int32_t ___good_length;
@@ -114,34 +115,30 @@ public:
   /// @brief Field func, offset: 0x20, size: 0x4, def value: None
   int32_t ___func;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1818 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, 0x28>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config, ___good_length) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___good_length) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config, ___max_lazy) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___max_lazy) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config, ___nice_length) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___nice_length) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config, ___max_chain) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___max_chain) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config, ___func) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___func) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
-// Type: Org.BouncyCastle.Utilities.Zlib::Deflate
-// SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Zlib::Deflate*
+// CS Name: Org.BouncyCastle.Utilities.Zlib.Deflate
 class CORDL_TYPE Deflate : public ::System::Object {
 public:
   // Declarations
-  using Config = ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config;
+  using Config = ::Org::BouncyCastle::Utilities::Zlib::Deflate_Config;
 
   /// @brief Field bi_buf, offset 0x128, size 0x4
   __declspec(property(get = __cordl_internal_get_bi_buf, put = __cordl_internal_set_bi_buf)) uint32_t bi_buf;
@@ -162,8 +159,8 @@ public:
   __declspec(property(get = __cordl_internal_get_block_start, put = __cordl_internal_set_block_start)) int32_t block_start;
 
   /// @brief Field config_table, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_config_table,
-                             put = setStaticF_config_table)) ::ArrayW<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*, ::Array<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*>*>
+  __declspec(property(get = getStaticF_config_table,
+                      put = setStaticF_config_table)) ::ArrayW<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*, ::Array<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*>*>
       config_table;
 
   /// @brief Field d_buf, offset 0x114, size 0x4
@@ -317,7 +314,7 @@ public:
   __declspec(property(get = __cordl_internal_get_window_size, put = __cordl_internal_set_window_size)) int32_t window_size;
 
   /// @brief Field z_errmsg, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_z_errmsg, put = setStaticF_z_errmsg)) ::ArrayW<::StringW, ::Array<::StringW>*> z_errmsg;
+  __declspec(property(get = getStaticF_z_errmsg, put = setStaticF_z_errmsg)) ::ArrayW<::StringW, ::Array<::StringW>*> z_errmsg;
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Deflate* New_ctor();
 
@@ -333,9 +330,9 @@ public:
 
   constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_bl_count();
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_bl_desc();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree* const& __cordl_internal_get_bl_desc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __cordl_internal_get_bl_desc() const;
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_bl_desc();
 
   constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_bl_tree() const;
 
@@ -349,9 +346,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_d_buf();
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_d_desc();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree* const& __cordl_internal_get_d_desc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __cordl_internal_get_d_desc() const;
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_d_desc();
 
   constexpr uint8_t const& __cordl_internal_get_data_type() const;
 
@@ -413,9 +410,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_l_buf();
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_l_desc();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree* const& __cordl_internal_get_l_desc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& __cordl_internal_get_l_desc() const;
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& __cordl_internal_get_l_desc();
 
   constexpr int32_t const& __cordl_internal_get_last_eob_len() const;
 
@@ -517,9 +514,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_strategy();
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_strm();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream* const& __cordl_internal_get_strm() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __cordl_internal_get_strm() const;
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_strm();
 
   constexpr int32_t const& __cordl_internal_get_strstart() const;
 
@@ -657,129 +654,129 @@ public:
 
   constexpr void __cordl_internal_set_window_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25a6264, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d9550, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method _tr_align, addr 0x25a7044, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method _tr_align, addr 0x25da330, size 0xe0, virtual false, abstract: false, final false
   inline void _tr_align();
 
-  /// @brief Method _tr_flush_block, addr 0x25a7930, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method _tr_flush_block, addr 0x25dac1c, size 0x1b8, virtual false, abstract: false, final false
   inline void _tr_flush_block(int32_t buf, int32_t stored_len, bool eof);
 
-  /// @brief Method _tr_stored_block, addr 0x25a7e0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method _tr_stored_block, addr 0x25db0f8, size 0x44, virtual false, abstract: false, final false
   inline void _tr_stored_block(int32_t buf, int32_t stored_len, bool eof);
 
-  /// @brief Method _tr_tally, addr 0x25a71f8, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method _tr_tally, addr 0x25da4e4, size 0x2a0, virtual false, abstract: false, final false
   inline bool _tr_tally(int32_t dist, int32_t lc);
 
-  /// @brief Method bi_flush, addr 0x25a7124, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method bi_flush, addr 0x25da410, size 0xd4, virtual false, abstract: false, final false
   inline void bi_flush();
 
-  /// @brief Method bi_windup, addr 0x25a77b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method bi_windup, addr 0x25daaa4, size 0xb0, virtual false, abstract: false, final false
   inline void bi_windup();
 
-  /// @brief Method build_bl_tree, addr 0x25a6a00, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method build_bl_tree, addr 0x25d9cec, size 0x124, virtual false, abstract: false, final false
   inline int32_t build_bl_tree();
 
-  /// @brief Method compress_block, addr 0x25a7498, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method compress_block, addr 0x25da784, size 0x274, virtual false, abstract: false, final false
   inline void compress_block(::ArrayW<int16_t, ::Array<int16_t>*> ltree, ::ArrayW<int16_t, ::Array<int16_t>*> dtree);
 
-  /// @brief Method copy_block, addr 0x25a7868, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method copy_block, addr 0x25dab54, size 0x80, virtual false, abstract: false, final false
   inline void copy_block(int32_t buf, int32_t len, bool header);
 
-  /// @brief Method deflate, addr 0x25a8e4c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method deflate, addr 0x25dc138, size 0x3e8, virtual false, abstract: false, final false
   inline int32_t deflate(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t flush);
 
-  /// @brief Method deflateEnd, addr 0x25a8b10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method deflateEnd, addr 0x25dbdfc, size 0x44, virtual false, abstract: false, final false
   inline int32_t deflateEnd();
 
-  /// @brief Method deflateInit, addr 0x25a8a88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25dbd74, size 0x14, virtual false, abstract: false, final false
   inline int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level);
 
-  /// @brief Method deflateInit, addr 0x25a88cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25dbbb8, size 0x14, virtual false, abstract: false, final false
   inline int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level, int32_t bits);
 
-  /// @brief Method deflateInit2, addr 0x25a88e0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method deflateInit2, addr 0x25dbbcc, size 0x1a8, virtual false, abstract: false, final false
   inline int32_t deflateInit2(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level, int32_t method, int32_t windowBits, int32_t memLevel, int32_t strategy);
 
-  /// @brief Method deflateParams, addr 0x25a8b54, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method deflateParams, addr 0x25dbe40, size 0x184, virtual false, abstract: false, final false
   inline int32_t deflateParams(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t _level, int32_t _strategy);
 
-  /// @brief Method deflateReset, addr 0x25a8a9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method deflateReset, addr 0x25dbd88, size 0x74, virtual false, abstract: false, final false
   inline int32_t deflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm);
 
-  /// @brief Method deflateSetDictionary, addr 0x25a8cd8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method deflateSetDictionary, addr 0x25dbfc4, size 0x174, virtual false, abstract: false, final false
   inline int32_t deflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, ::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method deflate_fast, addr 0x25a7e50, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method deflate_fast, addr 0x25db13c, size 0x31c, virtual false, abstract: false, final false
   inline int32_t deflate_fast(int32_t flush);
 
-  /// @brief Method deflate_slow, addr 0x25a8518, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method deflate_slow, addr 0x25db804, size 0x3b4, virtual false, abstract: false, final false
   inline int32_t deflate_slow(int32_t flush);
 
-  /// @brief Method deflate_stored, addr 0x25a7ae8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method deflate_stored, addr 0x25dadd4, size 0x164, virtual false, abstract: false, final false
   inline int32_t deflate_stored(int32_t flush);
 
-  /// @brief Method fill_window, addr 0x25a7c4c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method fill_window, addr 0x25daf38, size 0x1c0, virtual false, abstract: false, final false
   inline void fill_window();
 
-  /// @brief Method flush_block_only, addr 0x25a78e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method flush_block_only, addr 0x25dabd4, size 0x48, virtual false, abstract: false, final false
   inline void flush_block_only(bool eof);
 
-  static inline ::ArrayW<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*, ::Array<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*>*> getStaticF_config_table();
+  static inline ::ArrayW<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*, ::Array<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*>*> getStaticF_config_table();
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_z_errmsg();
 
-  /// @brief Method init_block, addr 0x25a6574, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method init_block, addr 0x25d9860, size 0xb4, virtual false, abstract: false, final false
   inline void init_block();
 
-  /// @brief Method lm_init, addr 0x25a63a4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method lm_init, addr 0x25d9690, size 0x114, virtual false, abstract: false, final false
   inline void lm_init();
 
-  /// @brief Method longest_match, addr 0x25a816c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method longest_match, addr 0x25db458, size 0x3ac, virtual false, abstract: false, final false
   inline int32_t longest_match(int32_t cur_match);
 
-  /// @brief Method pqdownheap, addr 0x25a6628, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method pqdownheap, addr 0x25d9914, size 0x1b4, virtual false, abstract: false, final false
   inline void pqdownheap(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t k);
 
-  /// @brief Method putShortMSB, addr 0x25a6fdc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method putShortMSB, addr 0x25da2c8, size 0x68, virtual false, abstract: false, final false
   inline void putShortMSB(int32_t b);
 
-  /// @brief Method put_byte, addr 0x25a6f38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method put_byte, addr 0x25da224, size 0x3c, virtual false, abstract: false, final false
   inline void put_byte(uint8_t c);
 
-  /// @brief Method put_byte, addr 0x25a6ef0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method put_byte, addr 0x25da1dc, size 0x48, virtual false, abstract: false, final false
   inline void put_byte(::ArrayW<uint8_t, ::Array<uint8_t>*> p, int32_t start, int32_t len);
 
-  /// @brief Method put_short, addr 0x25a6f74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method put_short, addr 0x25da260, size 0x68, virtual false, abstract: false, final false
   inline void put_short(int32_t w);
 
-  /// @brief Method scan_tree, addr 0x25a6868, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method scan_tree, addr 0x25d9b54, size 0x198, virtual false, abstract: false, final false
   inline void scan_tree(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code);
 
-  /// @brief Method send_all_trees, addr 0x25a6b24, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method send_all_trees, addr 0x25d9e10, size 0x130, virtual false, abstract: false, final false
   inline void send_all_trees(int32_t lcodes, int32_t dcodes, int32_t blcodes);
 
-  /// @brief Method send_bits, addr 0x25a6c54, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method send_bits, addr 0x25d9f40, size 0xb8, virtual false, abstract: false, final false
   inline void send_bits(int32_t val, int32_t length);
 
-  /// @brief Method send_code, addr 0x25a6eac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method send_code, addr 0x25da198, size 0x44, virtual false, abstract: false, final false
   inline void send_code(int32_t c, ::ArrayW<int16_t, ::Array<int16_t>*> tree);
 
-  /// @brief Method send_tree, addr 0x25a6d0c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method send_tree, addr 0x25d9ff8, size 0x1a0, virtual false, abstract: false, final false
   inline void send_tree(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code);
 
-  static inline void setStaticF_config_table(::ArrayW<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*, ::Array<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*>*> value);
+  static inline void setStaticF_config_table(::ArrayW<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*, ::Array<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*>*> value);
 
   static inline void setStaticF_z_errmsg(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_data_type, addr 0x25a770c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_data_type, addr 0x25da9f8, size 0xac, virtual false, abstract: false, final false
   inline void set_data_type();
 
-  /// @brief Method smaller, addr 0x25a67dc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method smaller, addr 0x25d9ac8, size 0x8c, virtual false, abstract: false, final false
   static inline bool smaller(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t n, int32_t m, ::ArrayW<uint8_t, ::Array<uint8_t>*> depth);
 
-  /// @brief Method tr_init, addr 0x25a64b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method tr_init, addr 0x25d97a4, size 0xbc, virtual false, abstract: false, final false
   inline void tr_init();
 
 protected:
@@ -795,6 +792,171 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Deflate", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Deflate(Deflate const&) = delete;
+
+  /// @brief Field BL_CODES offset 0xffffffff size 0x4
+  static constexpr int32_t BL_CODES{ static_cast<int32_t>(0x13) };
+
+  /// @brief Field BUSY_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t BUSY_STATE{ static_cast<int32_t>(0x71) };
+
+  /// @brief Field BlockDone offset 0xffffffff size 0x4
+  static constexpr int32_t BlockDone{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field Buf_size offset 0xffffffff size 0x4
+  static constexpr int32_t Buf_size{ static_cast<int32_t>(0x10) };
+
+  /// @brief Field DEF_MEM_LEVEL offset 0xffffffff size 0x4
+  static constexpr int32_t DEF_MEM_LEVEL{ static_cast<int32_t>(0x8) };
+
+  /// @brief Field DYN_TREES offset 0xffffffff size 0x4
+  static constexpr int32_t DYN_TREES{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field D_CODES offset 0xffffffff size 0x4
+  static constexpr int32_t D_CODES{ static_cast<int32_t>(0x1e) };
+
+  /// @brief Field END_BLOCK offset 0xffffffff size 0x4
+  static constexpr int32_t END_BLOCK{ static_cast<int32_t>(0x100) };
+
+  /// @brief Field FAST offset 0xffffffff size 0x4
+  static constexpr int32_t FAST{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field FINISH_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t FINISH_STATE{ static_cast<int32_t>(0x29a) };
+
+  /// @brief Field FinishDone offset 0xffffffff size 0x4
+  static constexpr int32_t FinishDone{ static_cast<int32_t>(0x3) };
+
+  /// @brief Field FinishStarted offset 0xffffffff size 0x4
+  static constexpr int32_t FinishStarted{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field HEAP_SIZE offset 0xffffffff size 0x4
+  static constexpr int32_t HEAP_SIZE{ static_cast<int32_t>(0x23d) };
+
+  /// @brief Field INIT_STATE offset 0xffffffff size 0x4
+  static constexpr int32_t INIT_STATE{ static_cast<int32_t>(0x2a) };
+
+  /// @brief Field LENGTH_CODES offset 0xffffffff size 0x4
+  static constexpr int32_t LENGTH_CODES{ static_cast<int32_t>(0x1d) };
+
+  /// @brief Field LITERALS offset 0xffffffff size 0x4
+  static constexpr int32_t LITERALS{ static_cast<int32_t>(0x100) };
+
+  /// @brief Field L_CODES offset 0xffffffff size 0x4
+  static constexpr int32_t L_CODES{ static_cast<int32_t>(0x11e) };
+
+  /// @brief Field MAX_BITS offset 0xffffffff size 0x4
+  static constexpr int32_t MAX_BITS{ static_cast<int32_t>(0xf) };
+
+  /// @brief Field MAX_MATCH offset 0xffffffff size 0x4
+  static constexpr int32_t MAX_MATCH{ static_cast<int32_t>(0x102) };
+
+  /// @brief Field MAX_MEM_LEVEL offset 0xffffffff size 0x4
+  static constexpr int32_t MAX_MEM_LEVEL{ static_cast<int32_t>(0x9) };
+
+  /// @brief Field MAX_WBITS offset 0xffffffff size 0x4
+  static constexpr int32_t MAX_WBITS{ static_cast<int32_t>(0xf) };
+
+  /// @brief Field MIN_LOOKAHEAD offset 0xffffffff size 0x4
+  static constexpr int32_t MIN_LOOKAHEAD{ static_cast<int32_t>(0x106) };
+
+  /// @brief Field MIN_MATCH offset 0xffffffff size 0x4
+  static constexpr int32_t MIN_MATCH{ static_cast<int32_t>(0x3) };
+
+  /// @brief Field NeedMore offset 0xffffffff size 0x4
+  static constexpr int32_t NeedMore{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field PRESET_DICT offset 0xffffffff size 0x4
+  static constexpr int32_t PRESET_DICT{ static_cast<int32_t>(0x20) };
+
+  /// @brief Field REPZ_11_138 offset 0xffffffff size 0x4
+  static constexpr int32_t REPZ_11_138{ static_cast<int32_t>(0x12) };
+
+  /// @brief Field REPZ_3_10 offset 0xffffffff size 0x4
+  static constexpr int32_t REPZ_3_10{ static_cast<int32_t>(0x11) };
+
+  /// @brief Field REP_3_6 offset 0xffffffff size 0x4
+  static constexpr int32_t REP_3_6{ static_cast<int32_t>(0x10) };
+
+  /// @brief Field SLOW offset 0xffffffff size 0x4
+  static constexpr int32_t SLOW{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field STATIC_TREES offset 0xffffffff size 0x4
+  static constexpr int32_t STATIC_TREES{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field STORED offset 0xffffffff size 0x4
+  static constexpr int32_t STORED{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field STORED_BLOCK offset 0xffffffff size 0x4
+  static constexpr int32_t STORED_BLOCK{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field Z_ASCII offset 0xffffffff size 0x4
+  static constexpr int32_t Z_ASCII{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field Z_BINARY offset 0xffffffff size 0x4
+  static constexpr int32_t Z_BINARY{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field Z_BUF_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_BUF_ERROR{ static_cast<int32_t>(0xfffffffb) };
+
+  /// @brief Field Z_DATA_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_DATA_ERROR{ static_cast<int32_t>(0xfffffffd) };
+
+  /// @brief Field Z_DEFAULT_COMPRESSION offset 0xffffffff size 0x4
+  static constexpr int32_t Z_DEFAULT_COMPRESSION{ static_cast<int32_t>(0xffffffff) };
+
+  /// @brief Field Z_DEFAULT_STRATEGY offset 0xffffffff size 0x4
+  static constexpr int32_t Z_DEFAULT_STRATEGY{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field Z_DEFLATED offset 0xffffffff size 0x4
+  static constexpr int32_t Z_DEFLATED{ static_cast<int32_t>(0x8) };
+
+  /// @brief Field Z_ERRNO offset 0xffffffff size 0x4
+  static constexpr int32_t Z_ERRNO{ static_cast<int32_t>(0xffffffff) };
+
+  /// @brief Field Z_FILTERED offset 0xffffffff size 0x4
+  static constexpr int32_t Z_FILTERED{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field Z_FINISH offset 0xffffffff size 0x4
+  static constexpr int32_t Z_FINISH{ static_cast<int32_t>(0x4) };
+
+  /// @brief Field Z_FULL_FLUSH offset 0xffffffff size 0x4
+  static constexpr int32_t Z_FULL_FLUSH{ static_cast<int32_t>(0x3) };
+
+  /// @brief Field Z_HUFFMAN_ONLY offset 0xffffffff size 0x4
+  static constexpr int32_t Z_HUFFMAN_ONLY{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field Z_MEM_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_MEM_ERROR{ static_cast<int32_t>(0xfffffffc) };
+
+  /// @brief Field Z_NEED_DICT offset 0xffffffff size 0x4
+  static constexpr int32_t Z_NEED_DICT{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field Z_NO_FLUSH offset 0xffffffff size 0x4
+  static constexpr int32_t Z_NO_FLUSH{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field Z_OK offset 0xffffffff size 0x4
+  static constexpr int32_t Z_OK{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field Z_PARTIAL_FLUSH offset 0xffffffff size 0x4
+  static constexpr int32_t Z_PARTIAL_FLUSH{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field Z_STREAM_END offset 0xffffffff size 0x4
+  static constexpr int32_t Z_STREAM_END{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field Z_STREAM_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_STREAM_ERROR{ static_cast<int32_t>(0xfffffffe) };
+
+  /// @brief Field Z_SYNC_FLUSH offset 0xffffffff size 0x4
+  static constexpr int32_t Z_SYNC_FLUSH{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field Z_UNKNOWN offset 0xffffffff size 0x4
+  static constexpr int32_t Z_UNKNOWN{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1819 };
 
   /// @brief Field strm, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Utilities::Zlib::ZStream* ___strm;
@@ -964,176 +1126,9 @@ public:
   /// @brief Field bi_valid, offset: 0x12c, size: 0x4, def value: None
   int32_t ___bi_valid;
 
-  /// @brief Field BL_CODES offset 0xffffffff size 0x4
-  static constexpr int32_t BL_CODES{ static_cast<int32_t>(0x13) };
-
-  /// @brief Field BUSY_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t BUSY_STATE{ static_cast<int32_t>(0x71) };
-
-  /// @brief Field BlockDone offset 0xffffffff size 0x4
-  static constexpr int32_t BlockDone{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field Buf_size offset 0xffffffff size 0x4
-  static constexpr int32_t Buf_size{ static_cast<int32_t>(0x10) };
-
-  /// @brief Field DEF_MEM_LEVEL offset 0xffffffff size 0x4
-  static constexpr int32_t DEF_MEM_LEVEL{ static_cast<int32_t>(0x8) };
-
-  /// @brief Field DYN_TREES offset 0xffffffff size 0x4
-  static constexpr int32_t DYN_TREES{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field D_CODES offset 0xffffffff size 0x4
-  static constexpr int32_t D_CODES{ static_cast<int32_t>(0x1e) };
-
-  /// @brief Field END_BLOCK offset 0xffffffff size 0x4
-  static constexpr int32_t END_BLOCK{ static_cast<int32_t>(0x100) };
-
-  /// @brief Field FAST offset 0xffffffff size 0x4
-  static constexpr int32_t FAST{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field FINISH_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t FINISH_STATE{ static_cast<int32_t>(0x29a) };
-
-  /// @brief Field FinishDone offset 0xffffffff size 0x4
-  static constexpr int32_t FinishDone{ static_cast<int32_t>(0x3) };
-
-  /// @brief Field FinishStarted offset 0xffffffff size 0x4
-  static constexpr int32_t FinishStarted{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field HEAP_SIZE offset 0xffffffff size 0x4
-  static constexpr int32_t HEAP_SIZE{ static_cast<int32_t>(0x23d) };
-
-  /// @brief Field INIT_STATE offset 0xffffffff size 0x4
-  static constexpr int32_t INIT_STATE{ static_cast<int32_t>(0x2a) };
-
-  /// @brief Field LENGTH_CODES offset 0xffffffff size 0x4
-  static constexpr int32_t LENGTH_CODES{ static_cast<int32_t>(0x1d) };
-
-  /// @brief Field LITERALS offset 0xffffffff size 0x4
-  static constexpr int32_t LITERALS{ static_cast<int32_t>(0x100) };
-
-  /// @brief Field L_CODES offset 0xffffffff size 0x4
-  static constexpr int32_t L_CODES{ static_cast<int32_t>(0x11e) };
-
-  /// @brief Field MAX_BITS offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_BITS{ static_cast<int32_t>(0xf) };
-
-  /// @brief Field MAX_MATCH offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_MATCH{ static_cast<int32_t>(0x102) };
-
-  /// @brief Field MAX_MEM_LEVEL offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_MEM_LEVEL{ static_cast<int32_t>(0x9) };
-
-  /// @brief Field MAX_WBITS offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_WBITS{ static_cast<int32_t>(0xf) };
-
-  /// @brief Field MIN_LOOKAHEAD offset 0xffffffff size 0x4
-  static constexpr int32_t MIN_LOOKAHEAD{ static_cast<int32_t>(0x106) };
-
-  /// @brief Field MIN_MATCH offset 0xffffffff size 0x4
-  static constexpr int32_t MIN_MATCH{ static_cast<int32_t>(0x3) };
-
-  /// @brief Field NeedMore offset 0xffffffff size 0x4
-  static constexpr int32_t NeedMore{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field PRESET_DICT offset 0xffffffff size 0x4
-  static constexpr int32_t PRESET_DICT{ static_cast<int32_t>(0x20) };
-
-  /// @brief Field REPZ_11_138 offset 0xffffffff size 0x4
-  static constexpr int32_t REPZ_11_138{ static_cast<int32_t>(0x12) };
-
-  /// @brief Field REPZ_3_10 offset 0xffffffff size 0x4
-  static constexpr int32_t REPZ_3_10{ static_cast<int32_t>(0x11) };
-
-  /// @brief Field REP_3_6 offset 0xffffffff size 0x4
-  static constexpr int32_t REP_3_6{ static_cast<int32_t>(0x10) };
-
-  /// @brief Field SLOW offset 0xffffffff size 0x4
-  static constexpr int32_t SLOW{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field STATIC_TREES offset 0xffffffff size 0x4
-  static constexpr int32_t STATIC_TREES{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field STORED offset 0xffffffff size 0x4
-  static constexpr int32_t STORED{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field STORED_BLOCK offset 0xffffffff size 0x4
-  static constexpr int32_t STORED_BLOCK{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field Z_ASCII offset 0xffffffff size 0x4
-  static constexpr int32_t Z_ASCII{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field Z_BINARY offset 0xffffffff size 0x4
-  static constexpr int32_t Z_BINARY{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field Z_BUF_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_BUF_ERROR{ static_cast<int32_t>(0xfffffffb) };
-
-  /// @brief Field Z_DATA_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_DATA_ERROR{ static_cast<int32_t>(0xfffffffd) };
-
-  /// @brief Field Z_DEFAULT_COMPRESSION offset 0xffffffff size 0x4
-  static constexpr int32_t Z_DEFAULT_COMPRESSION{ static_cast<int32_t>(0xffffffff) };
-
-  /// @brief Field Z_DEFAULT_STRATEGY offset 0xffffffff size 0x4
-  static constexpr int32_t Z_DEFAULT_STRATEGY{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field Z_DEFLATED offset 0xffffffff size 0x4
-  static constexpr int32_t Z_DEFLATED{ static_cast<int32_t>(0x8) };
-
-  /// @brief Field Z_ERRNO offset 0xffffffff size 0x4
-  static constexpr int32_t Z_ERRNO{ static_cast<int32_t>(0xffffffff) };
-
-  /// @brief Field Z_FILTERED offset 0xffffffff size 0x4
-  static constexpr int32_t Z_FILTERED{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field Z_FINISH offset 0xffffffff size 0x4
-  static constexpr int32_t Z_FINISH{ static_cast<int32_t>(0x4) };
-
-  /// @brief Field Z_FULL_FLUSH offset 0xffffffff size 0x4
-  static constexpr int32_t Z_FULL_FLUSH{ static_cast<int32_t>(0x3) };
-
-  /// @brief Field Z_HUFFMAN_ONLY offset 0xffffffff size 0x4
-  static constexpr int32_t Z_HUFFMAN_ONLY{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field Z_MEM_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_MEM_ERROR{ static_cast<int32_t>(0xfffffffc) };
-
-  /// @brief Field Z_NEED_DICT offset 0xffffffff size 0x4
-  static constexpr int32_t Z_NEED_DICT{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field Z_NO_FLUSH offset 0xffffffff size 0x4
-  static constexpr int32_t Z_NO_FLUSH{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field Z_OK offset 0xffffffff size 0x4
-  static constexpr int32_t Z_OK{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field Z_PARTIAL_FLUSH offset 0xffffffff size 0x4
-  static constexpr int32_t Z_PARTIAL_FLUSH{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field Z_STREAM_END offset 0xffffffff size 0x4
-  static constexpr int32_t Z_STREAM_END{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field Z_STREAM_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_STREAM_ERROR{ static_cast<int32_t>(0xfffffffe) };
-
-  /// @brief Field Z_SYNC_FLUSH offset 0xffffffff size 0x4
-  static constexpr int32_t Z_SYNC_FLUSH{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field Z_UNKNOWN offset 0xffffffff size 0x4
-  static constexpr int32_t Z_UNKNOWN{ static_cast<int32_t>(0x2) };
-
-  /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1819 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::Deflate, 0x130>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___strm) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___status) == 0x18, "Offset mismatch!");
@@ -1246,8 +1241,10 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___bi_buf)
 
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___bi_valid) == 0x12c, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::Deflate, 0x130>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::Deflate);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::Deflate*, "Org.BouncyCastle.Utilities.Zlib", "Deflate");
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config*, "Org.BouncyCastle.Utilities.Zlib", "Deflate/Config");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*, "Org.BouncyCastle.Utilities.Zlib", "Deflate/Config");

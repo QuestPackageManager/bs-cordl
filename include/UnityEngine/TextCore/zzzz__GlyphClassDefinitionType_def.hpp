@@ -12,11 +12,10 @@ struct GlyphClassDefinitionType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::GlyphClassDefinitionType);
-// Type: UnityEngine.TextCore::GlyphClassDefinitionType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore::GlyphClassDefinitionType
+// CS Name: UnityEngine.TextCore.GlyphClassDefinitionType
 struct CORDL_TYPE GlyphClassDefinitionType {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr GlyphClassDefinitionType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Base value: static_cast<int32_t>(0x1)
+  /// @brief Field Base value: I32(1)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Base;
 
-  /// @brief Field Component value: static_cast<int32_t>(0x4)
+  /// @brief Field Component value: I32(4)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Component;
 
-  /// @brief Field Ligature value: static_cast<int32_t>(0x2)
+  /// @brief Field Ligature value: I32(2)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Ligature;
 
-  /// @brief Field Mark value: static_cast<int32_t>(0x3)
+  /// @brief Field Mark value: I32(3)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Mark;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  /// @brief Field Undefined value: I32(0)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Undefined;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18169 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::GlyphClassDefinitionType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::GlyphClassDefinitionType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::GlyphClassDefinitionType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::GlyphClassDefinitionType, "UnityEngine.TextCore", "GlyphClassDefinitionType");

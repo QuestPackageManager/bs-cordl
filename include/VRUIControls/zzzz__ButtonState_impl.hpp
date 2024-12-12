@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::VRUIControls::MouseButtonEventData* (::VRUIControls::ButtonState::*)()>(
     &::VRUIControls::ButtonState::get_eventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85c68;
+  constexpr static std::size_t addrs = 0x4aea578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "get_eventData",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)(::VRUIControls::MouseButtonEventData*)>(
     &::VRUIControls::ButtonState::set_eventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85c70;
+  constexpr static std::size_t addrs = 0x4aea580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,10 +37,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::VRUIControls::ButtonState.get_button
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::__PointerEventData__InputButton (::VRUIControls::ButtonState::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerEventData_InputButton (::VRUIControls::ButtonState::*)()>(
     &::VRUIControls::ButtonState::get_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85c78;
+  constexpr static std::size_t addrs = 0x4aea588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "get_button",
@@ -51,15 +51,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::VRUIControls::ButtonState.set_button
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)(::UnityEngine::EventSystems::__PointerEventData__InputButton)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)(::UnityEngine::EventSystems::PointerEventData_InputButton)>(
     &::VRUIControls::ButtonState::set_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85c80;
+  constexpr static std::size_t addrs = 0x4aea590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "set_button", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::__PointerEventData__InputButton>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData_InputButton>::get() })));
     return ___internal_method;
   }
 };
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::get_pressedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85c88;
+  constexpr static std::size_t addrs = 0x4aea598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "get_pressedValue",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)(float_t)>(&::VRUIControls::ButtonState::set_pressedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85c90;
+  constexpr static std::size_t addrs = 0x4aea5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85c98;
+  constexpr static std::size_t addrs = 0x4aea5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), ".ctor",
@@ -103,15 +103,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton& VRUIControls::ButtonState::__cordl_internal_get__button() {
+constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton& VRUIControls::ButtonState::__cordl_internal_get__button() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button;
 }
-constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton const& VRUIControls::ButtonState::__cordl_internal_get__button() const {
+constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton const& VRUIControls::ButtonState::__cordl_internal_get__button() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button;
 }
-constexpr void VRUIControls::ButtonState::__cordl_internal_set__button(::UnityEngine::EventSystems::__PointerEventData__InputButton value) {
+constexpr void VRUIControls::ButtonState::__cordl_internal_set__button(::UnityEngine::EventSystems::PointerEventData_InputButton value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____button = value;
 }
@@ -119,7 +119,7 @@ constexpr ::VRUIControls::MouseButtonEventData*& VRUIControls::ButtonState::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventData;
 }
-constexpr ::cordl_internals::to_const_pointer<::VRUIControls::MouseButtonEventData*> const& VRUIControls::ButtonState::__cordl_internal_get__eventData() const {
+constexpr ::VRUIControls::MouseButtonEventData* const& VRUIControls::ButtonState::__cordl_internal_get__eventData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventData;
 }
@@ -150,15 +150,15 @@ inline void VRUIControls::ButtonState::set_eventData(::VRUIControls::MouseButton
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::VRUIControls::MouseButtonEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::EventSystems::__PointerEventData__InputButton VRUIControls::ButtonState::get_button() {
+inline ::UnityEngine::EventSystems::PointerEventData_InputButton VRUIControls::ButtonState::get_button() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "get_button",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::__PointerEventData__InputButton, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::PointerEventData_InputButton, false>(this, ___internal_method);
 }
-inline void VRUIControls::ButtonState::set_button(::UnityEngine::EventSystems::__PointerEventData__InputButton value) {
+inline void VRUIControls::ButtonState::set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "set_button", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::__PointerEventData__InputButton>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData_InputButton>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t VRUIControls::ButtonState::get_pressedValue() {
@@ -172,13 +172,13 @@ inline void VRUIControls::ButtonState::set_pressedValue(float_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::VRUIControls::ButtonState* VRUIControls::ButtonState::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::VRUIControls::ButtonState*>());
-}
 inline void VRUIControls::ButtonState::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::VRUIControls::ButtonState* VRUIControls::ButtonState::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::VRUIControls::ButtonState*>());
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::ButtonState::ButtonState() {}

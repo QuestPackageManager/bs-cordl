@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Net/ListenerAsyncResult.hpp"
+#include "System/zzzz__IAsyncResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ListenerAsyncResult_def.hpp"
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
@@ -8,7 +9,6 @@
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::ListenerAsyncResult._ctor
 template <>
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::ListenerAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x436dc68;
+  constexpr static std::size_t addrs = 0x43cef7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::Exception*)>(&::System::Net::ListenerAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x436dce0;
+  constexpr static std::size_t addrs = 0x43ceff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Net::ListenerAsyncResult::InvokeCallback)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x436dec8;
+  constexpr static std::size_t addrs = 0x43cf1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::Net::HttpListenerContext*)>(
     &::System::Net::ListenerAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436e004;
+  constexpr static std::size_t addrs = 0x43cf318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::Net::HttpListenerContext*, bool)>(
     &::System::Net::ListenerAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x436e00c;
+  constexpr static std::size_t addrs = 0x43cf320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpListenerContext* (::System::Net::ListenerAsyncResult::*)()>(
     &::System::Net::ListenerAsyncResult::GetContext)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x436e528;
+  constexpr static std::size_t addrs = 0x43cf83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(), "GetContext",
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::ListenerAsyncResult::*)()>(&::System::Net::ListenerAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x436e564;
+  constexpr static std::size_t addrs = 0x43cf878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(), "get_AsyncState",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::Net::ListenerAsyncResult::*)()>(
     &::System::Net::ListenerAsyncResult::get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x436e578;
+  constexpr static std::size_t addrs = 0x43cf88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(),
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerAsyncResult::*)()>(&::System::Net::ListenerAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x436e6a0;
+  constexpr static std::size_t addrs = 0x43cf9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(),
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerAsyncResult::*)()>(&::System::Net::ListenerAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x436e6b4;
+  constexpr static std::size_t addrs = 0x43cf9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(), "get_IsCompleted",
@@ -152,19 +152,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IAsyncResult"
-constexpr System::Net::ListenerAsyncResult::operator ::System::IAsyncResult*() noexcept {
-  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IAsyncResult"
-constexpr ::System::IAsyncResult* System::Net::ListenerAsyncResult::i___System__IAsyncResult() noexcept {
-  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
-}
 constexpr ::System::Threading::ManualResetEvent*& System::Net::ListenerAsyncResult::__cordl_internal_get_handle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::Net::ListenerAsyncResult::__cordl_internal_get_handle() const {
+constexpr ::System::Threading::ManualResetEvent* const& System::Net::ListenerAsyncResult::__cordl_internal_get_handle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
@@ -200,7 +192,7 @@ constexpr ::System::AsyncCallback*& System::Net::ListenerAsyncResult::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::Net::ListenerAsyncResult::__cordl_internal_get_cb() const {
+constexpr ::System::AsyncCallback* const& System::Net::ListenerAsyncResult::__cordl_internal_get_cb() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
@@ -212,7 +204,7 @@ constexpr ::System::Object*& System::Net::ListenerAsyncResult::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ListenerAsyncResult::__cordl_internal_get_state() const {
+constexpr ::System::Object* const& System::Net::ListenerAsyncResult::__cordl_internal_get_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
@@ -224,7 +216,7 @@ constexpr ::System::Exception*& System::Net::ListenerAsyncResult::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exception;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& System::Net::ListenerAsyncResult::__cordl_internal_get_exception() const {
+constexpr ::System::Exception* const& System::Net::ListenerAsyncResult::__cordl_internal_get_exception() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exception;
 }
@@ -236,7 +228,7 @@ constexpr ::System::Net::HttpListenerContext*& System::Net::ListenerAsyncResult:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& System::Net::ListenerAsyncResult::__cordl_internal_get_context() const {
+constexpr ::System::Net::HttpListenerContext* const& System::Net::ListenerAsyncResult::__cordl_internal_get_context() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
@@ -248,7 +240,7 @@ constexpr ::System::Object*& System::Net::ListenerAsyncResult::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ListenerAsyncResult::__cordl_internal_get_locker() const {
+constexpr ::System::Object* const& System::Net::ListenerAsyncResult::__cordl_internal_get_locker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
@@ -260,7 +252,7 @@ constexpr ::System::Net::ListenerAsyncResult*& System::Net::ListenerAsyncResult:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forward;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerAsyncResult*> const& System::Net::ListenerAsyncResult::__cordl_internal_get_forward() const {
+constexpr ::System::Net::ListenerAsyncResult* const& System::Net::ListenerAsyncResult::__cordl_internal_get_forward() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forward;
 }
@@ -298,9 +290,6 @@ inline void System::Net::ListenerAsyncResult::setStaticF_InvokeCB(::System::Thre
 }
 inline ::System::Threading::WaitCallback* System::Net::ListenerAsyncResult::getStaticF_InvokeCB() {
   return ::cordl_internals::getStaticField<::System::Threading::WaitCallback*, "InvokeCB", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get>();
-}
-inline ::System::Net::ListenerAsyncResult* System::Net::ListenerAsyncResult::New_ctor(::System::AsyncCallback* cb, ::System::Object* state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::ListenerAsyncResult*>(cb, state));
 }
 inline void System::Net::ListenerAsyncResult::_ctor(::System::AsyncCallback* cb, ::System::Object* state) {
   static auto* ___internal_method =
@@ -358,6 +347,17 @@ inline bool System::Net::ListenerAsyncResult::get_IsCompleted() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(), "get_IsCompleted",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Net::ListenerAsyncResult* System::Net::ListenerAsyncResult::New_ctor(::System::AsyncCallback* cb, ::System::Object* state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::ListenerAsyncResult*>(cb, state));
+}
+/// @brief Convert operator to "::System::IAsyncResult"
+constexpr System::Net::ListenerAsyncResult::operator ::System::IAsyncResult*() noexcept {
+  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IAsyncResult"
+constexpr ::System::IAsyncResult* System::Net::ListenerAsyncResult::i___System__IAsyncResult() noexcept {
+  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::ListenerAsyncResult::ListenerAsyncResult() {}

@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymmetricTransform)
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
 namespace System::Security::Cryptography {
 struct PaddingMode;
 }
@@ -20,20 +18,16 @@ class RandomNumberGenerator;
 namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace Mono::Security::Cryptography {
 class SymmetricTransform;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Cryptography::SymmetricTransform);
-// Type: Mono.Security.Cryptography::SymmetricTransform
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, System.Security.Cryptography.ICryptoTransform, System.Security.Cryptography.PaddingMode
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// CS Name: ::Mono.Security.Cryptography::SymmetricTransform*
+// CS Name: Mono.Security.Cryptography.SymmetricTransform
 class CORDL_TYPE SymmetricTransform : public ::System::Object {
 public:
   // Declarations
@@ -87,59 +81,59 @@ public:
   /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
   constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
 
-  /// @brief Method CBC, addr 0x3c06cec, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method CBC, addr 0x3c66e00, size 0x164, virtual true, abstract: false, final false
   inline void CBC(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method CFB, addr 0x3c06e50, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CFB, addr 0x3c66f64, size 0x1c8, virtual true, abstract: false, final false
   inline void CFB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method CTS, addr 0x3c07064, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CTS, addr 0x3c67178, size 0x4c, virtual true, abstract: false, final false
   inline void CTS(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method CheckInput, addr 0x3c070b0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CheckInput, addr 0x3c671c4, size 0x144, virtual false, abstract: false, final false
   inline void CheckInput(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method Dispose, addr 0x3c06a54, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c66b68, size 0x54, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ECB, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ECB, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method FinalDecrypt, addr 0x3c07b00, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method FinalDecrypt, addr 0x3c67c14, size 0x298, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FinalDecrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method FinalEncrypt, addr 0x3c0786c, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method FinalEncrypt, addr 0x3c67980, size 0x294, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FinalEncrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method Finalize, addr 0x3c06948, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3c66a5c, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalTransformBlock, addr 0x3c07420, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method InternalTransformBlock, addr 0x3c67534, size 0x1b8, virtual false, abstract: false, final false
   inline int32_t InternalTransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer,
                                         int32_t outputOffset);
 
   static inline ::Mono::Security::Cryptography::SymmetricTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption,
                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method OFB, addr 0x3c07018, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OFB, addr 0x3c6712c, size 0x4c, virtual true, abstract: false, final false
   inline void OFB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Random, addr 0x3c075d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Random, addr 0x3c676ec, size 0xb0, virtual false, abstract: false, final false
   inline void Random(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t start, int32_t length);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3c069e8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3c66afc, size 0x6c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method ThrowBadPaddingException, addr 0x3c07688, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ThrowBadPaddingException, addr 0x3c6779c, size 0x1a0, virtual false, abstract: false, final false
   inline void ThrowBadPaddingException(::System::Security::Cryptography::PaddingMode padding, int32_t length, int32_t position);
 
-  /// @brief Method Transform, addr 0x3c06ac0, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method Transform, addr 0x3c66bd4, size 0x15c, virtual true, abstract: false, final false
   inline void Transform(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method TransformBlock, addr 0x3c071f4, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method TransformBlock, addr 0x3c67308, size 0x208, virtual true, abstract: false, final false
   inline int32_t TransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method TransformFinalBlock, addr 0x3c07d98, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method TransformFinalBlock, addr 0x3c67eac, size 0xb0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr int32_t const& __cordl_internal_get_BlockSizeByte() const;
@@ -150,13 +144,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_FeedBackByte();
 
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator* const& __cordl_internal_get__rng() const;
+
   constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get__rng();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __cordl_internal_get__rng() const;
+  constexpr ::System::Security::Cryptography::SymmetricAlgorithm* const& __cordl_internal_get_algo() const;
 
   constexpr ::System::Security::Cryptography::SymmetricAlgorithm*& __cordl_internal_get_algo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::SymmetricAlgorithm*> const& __cordl_internal_get_algo() const;
 
   constexpr bool const& __cordl_internal_get_encrypt() const;
 
@@ -214,19 +208,19 @@ public:
 
   constexpr void __cordl_internal_set_workout(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c06688, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6679c, size 0x2c0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method get_CanTransformMultipleBlocks, addr 0x3c06aa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanTransformMultipleBlocks, addr 0x3c66bbc, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanTransformMultipleBlocks();
 
-  /// @brief Method get_InputBlockSize, addr 0x3c06ab0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InputBlockSize, addr 0x3c66bc4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_InputBlockSize();
 
-  /// @brief Method get_KeepLastBlock, addr 0x3c073fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_KeepLastBlock, addr 0x3c67510, size 0x24, virtual false, abstract: false, final false
   inline bool get_KeepLastBlock();
 
-  /// @brief Method get_OutputBlockSize, addr 0x3c06ab8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OutputBlockSize, addr 0x3c66bcc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_OutputBlockSize();
 
   /// @brief Convert to "::System::IDisposable"
@@ -248,6 +242,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SymmetricTransform", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SymmetricTransform(SymmetricTransform const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2284 };
 
   /// @brief Field algo, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::SymmetricAlgorithm* ___algo;
@@ -285,14 +282,9 @@ public:
   /// @brief Field _rng, offset: 0x50, size: 0x8, def value: None
   ::System::Security::Cryptography::RandomNumberGenerator* ____rng;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2284 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::SymmetricTransform, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Cryptography::SymmetricTransform, ___algo) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Cryptography::SymmetricTransform, ___encrypt) == 0x18, "Offset mismatch!");
@@ -316,6 +308,8 @@ static_assert(offsetof(::Mono::Security::Cryptography::SymmetricTransform, ___m_
 static_assert(offsetof(::Mono::Security::Cryptography::SymmetricTransform, ___lastBlock) == 0x49, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Cryptography::SymmetricTransform, ____rng) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::SymmetricTransform, 0x58>, "Size mismatch!");
 
 } // namespace Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::SymmetricTransform);

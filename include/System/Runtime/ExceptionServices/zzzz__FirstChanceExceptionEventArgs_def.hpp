@@ -11,11 +11,10 @@ class FirstChanceExceptionEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs);
-// Type: System.Runtime.ExceptionServices::FirstChanceExceptionEventArgs
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
-// CS Name: ::System.Runtime.ExceptionServices::FirstChanceExceptionEventArgs*
+// CS Name: System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs
 class CORDL_TYPE FirstChanceExceptionEventArgs : public ::System::EventArgs {
 public:
   // Declarations

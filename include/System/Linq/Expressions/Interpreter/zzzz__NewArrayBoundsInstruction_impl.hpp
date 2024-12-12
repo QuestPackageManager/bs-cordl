@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)(::System::Type*, int32_t)>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x405ee14;
+  constexpr static std::size_t addrs = 0x40c0128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405ee44;
+  constexpr static std::size_t addrs = 0x40c0158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405ee4c;
+  constexpr static std::size_t addrs = 0x40c0160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x405ee54;
+  constexpr static std::size_t addrs = 0x40c0168;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::Run)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x405ee94;
+  constexpr static std::size_t addrs = 0x40c01a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ constexpr ::System::Type*& System::Linq::Expressions::Interpreter::NewArrayBound
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::__cordl_internal_get__elementType() const {
+constexpr ::System::Type* const& System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::__cordl_internal_get__elementType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementType;
 }
@@ -106,9 +106,6 @@ constexpr int32_t const& System::Linq::Expressions::Interpreter::NewArrayBoundsI
 constexpr void System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::__cordl_internal_set__rank(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rank = value;
-}
-inline ::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction* System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::New_ctor(::System::Type* elementType, int32_t rank) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>(elementType, rank));
 }
 inline void System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::_ctor(::System::Type* elementType, int32_t rank) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,6 +136,9 @@ inline int32_t System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction* System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::New_ctor(::System::Type* elementType, int32_t rank) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>(elementType, rank));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::NewArrayBoundsInstruction() {}

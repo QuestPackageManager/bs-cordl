@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class FadeInOutController;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+struct GameScenesManager_SceneTransitionType;
 }
 namespace GlobalNamespace {
-struct __GameScenesManager__SceneTransitionType;
+class GameScenesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,11 +21,10 @@ class FadeOutOnSceneTransitionStart;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FadeOutOnSceneTransitionStart);
-// Type: ::FadeOutOnSceneTransitionStart
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FadeOutOnSceneTransitionStart*
+// CS Name: FadeOutOnSceneTransitionStart
 class CORDL_TYPE FadeOutOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -35,15 +34,15 @@ public:
   /// @brief Field _gameScenesManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x401f7f8, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType, float_t duration);
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x4080b0c, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, float_t duration);
 
   static inline ::GlobalNamespace::FadeOutOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x401f728, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4080a3c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x401f698, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x40809ac, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x401f814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4080b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FadeOutOnSceneTransitionStart(FadeOutOnSceneTransitionStart const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17891 };
+
   /// @brief Field _fadeInOut, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;
 
   /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17808 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeOutOnSceneTransitionStart, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FadeOutOnSceneTransitionStart, ____fadeInOut) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FadeOutOnSceneTransitionStart, ____gameScenesManager) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeOutOnSceneTransitionStart, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FadeOutOnSceneTransitionStart);

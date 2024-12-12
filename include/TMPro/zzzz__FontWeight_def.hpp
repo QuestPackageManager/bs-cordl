@@ -12,11 +12,10 @@ struct FontWeight;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::FontWeight);
-// Type: TMPro::FontWeight
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::FontWeight
+// CS Name: TMPro.FontWeight
 struct CORDL_TYPE FontWeight {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FontWeight(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Black value: static_cast<int32_t>(0x384)
+  /// @brief Field Black value: I32(900)
   static ::TMPro::FontWeight const Black;
 
-  /// @brief Field Bold value: static_cast<int32_t>(0x2bc)
+  /// @brief Field Bold value: I32(700)
   static ::TMPro::FontWeight const Bold;
 
-  /// @brief Field ExtraLight value: static_cast<int32_t>(0xc8)
+  /// @brief Field ExtraLight value: I32(200)
   static ::TMPro::FontWeight const ExtraLight;
 
-  /// @brief Field Heavy value: static_cast<int32_t>(0x320)
+  /// @brief Field Heavy value: I32(800)
   static ::TMPro::FontWeight const Heavy;
 
-  /// @brief Field Light value: static_cast<int32_t>(0x12c)
+  /// @brief Field Light value: I32(300)
   static ::TMPro::FontWeight const Light;
 
-  /// @brief Field Medium value: static_cast<int32_t>(0x1f4)
+  /// @brief Field Medium value: I32(500)
   static ::TMPro::FontWeight const Medium;
 
-  /// @brief Field Regular value: static_cast<int32_t>(0x190)
+  /// @brief Field Regular value: I32(400)
   static ::TMPro::FontWeight const Regular;
 
-  /// @brief Field SemiBold value: static_cast<int32_t>(0x258)
+  /// @brief Field SemiBold value: I32(600)
   static ::TMPro::FontWeight const SemiBold;
 
-  /// @brief Field Thin value: static_cast<int32_t>(0x64)
+  /// @brief Field Thin value: I32(100)
   static ::TMPro::FontWeight const Thin;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14556 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::FontWeight, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::FontWeight, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::FontWeight, 0x4>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontWeight, "TMPro", "FontWeight");

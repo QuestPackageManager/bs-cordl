@@ -3,40 +3,29 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlList_1)
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -44,30 +33,26 @@ class Object;
 namespace Unity::Collections {
 struct Allocator;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct __InputControlList_1__Enumerator;
+template <typename TControl> struct InputControlList_1_Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct __InputControlList_1__Enumerator;
+template <typename TControl> struct InputControlList_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::InputControlList_1);
-MARK_GEN_VAL_T(::UnityEngine::InputSystem::__InputControlList_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::UnityEngine::InputSystem::InputControlList_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
 // Is value type: true
-// CS Name: ::InputControlList`1::Enumerator<TControl>
-struct CORDL_TYPE __InputControlList_1__Enumerator {
+// CS Name: UnityEngine.InputSystem.InputControlList`1/Enumerator<TControl>
+struct CORDL_TYPE InputControlList_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) TControl Current;
@@ -112,11 +97,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlList_1__Enumerator();
+  constexpr InputControlList_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "m_Indices", ty: "::cordl_internals::Ptr<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None
   // }, CppParam { name: "m_Current", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputControlList_1__Enumerator(::cordl_internals::Ptr<uint64_t> m_Indices, int32_t m_Count, int32_t m_Current) noexcept;
+  constexpr InputControlList_1_Enumerator(::cordl_internals::Ptr<uint64_t> m_Indices, int32_t m_Count, int32_t m_Current) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6626 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_Indices, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<uint64_t> m_Indices;
@@ -127,27 +118,21 @@ public:
   /// @brief Field m_Current, offset: 0xc, size: 0x4, def value: None
   int32_t m_Current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6601 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem
-// Type: UnityEngine.InputSystem::InputControlList`1
-// SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>,
+// System.Collections.Generic.IReadOnlyList`1<T>, System.Collections.IEnumerable, System.IDisposable, Unity.Collections.Allocator, Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem::InputControlList`1<TControl>
+// CS Name: UnityEngine.InputSystem.InputControlList`1<TControl>
 struct CORDL_TYPE InputControlList_1 {
 public:
   // Declarations
-  using Enumerator = ::UnityEngine::InputSystem::__InputControlList_1__Enumerator<TControl>;
+  using Enumerator = ::UnityEngine::InputSystem::InputControlList_1_Enumerator<TControl>;
 
   __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
 
@@ -188,7 +173,7 @@ public:
   template <typename TList> inline void AddSlice(TList list, int32_t count, int32_t destinationIndex, int32_t sourceIndex);
 
   /// @brief Method AppendTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AppendTo(ByRef<::ArrayW<TControl, ::Array<TControl>*>> array, ByRef<int32_t> count);
+  inline void AppendTo(::ByRef<::ArrayW<TControl, ::Array<TControl>*>> array, ::ByRef<int32_t> count);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -303,6 +288,15 @@ public:
   // def_value: None }, CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
   constexpr InputControlList_1(int32_t m_Count, ::Unity::Collections::NativeArray_1<uint64_t> m_Indices, ::Unity::Collections::Allocator m_Allocator) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6627 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
+  /// @brief Field kInvalidIndex offset 0xffffffff size 0x8
+  static constexpr uint64_t kInvalidIndex{ static_cast<uint64_t>(0xffffffffffffffffu) };
+
   /// @brief Field m_Count, offset: 0x0, size: 0x4, def value: None
   int32_t m_Count;
 
@@ -312,18 +306,9 @@ public:
   /// @brief Field m_Allocator, offset: 0x18, size: 0x4, def value: None
   ::Unity::Collections::Allocator m_Allocator;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6602 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
-  /// @brief Field kInvalidIndex offset 0xffffffff size 0x8
-  static constexpr uint64_t kInvalidIndex{ static_cast<uint64_t>(0xffffffffffffffffu) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::InputControlList_1, "UnityEngine.InputSystem", "InputControlList`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::__InputControlList_1__Enumerator, "UnityEngine.InputSystem", "InputControlList`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::InputControlList_1_Enumerator, "UnityEngine.InputSystem", "InputControlList`1/Enumerator");

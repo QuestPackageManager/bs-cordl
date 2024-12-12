@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteEqualityComparer)
 namespace System {
@@ -16,35 +15,34 @@ class ByteEqualityComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Generic::ByteEqualityComparer);
-// Type: System.Collections.Generic::ByteEqualityComparer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.EqualityComparer`1<T>
 namespace System::Collections::Generic {
 // Is value type: false
-// CS Name: ::System.Collections.Generic::ByteEqualityComparer*
+// CS Name: System.Collections.Generic.ByteEqualityComparer
 class CORDL_TYPE ByteEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<uint8_t> {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3d68044, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dc81b8, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3d67e40, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dc7fb4, size 0x10, virtual true, abstract: false, final false
   inline bool Equals(uint8_t x, uint8_t y);
 
-  /// @brief Method GetHashCode, addr 0x3d680bc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dc8230, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x3d67e50, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dc7fc4, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode(uint8_t b);
 
-  /// @brief Method IndexOf, addr 0x3d67e6c, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3dc7fe0, size 0x180, virtual true, abstract: false, final false
   inline int32_t IndexOf(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOf, addr 0x3d67fec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3dc8160, size 0x58, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t value, int32_t startIndex, int32_t count);
 
   static inline ::System::Collections::Generic::ByteEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d680f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc8264, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

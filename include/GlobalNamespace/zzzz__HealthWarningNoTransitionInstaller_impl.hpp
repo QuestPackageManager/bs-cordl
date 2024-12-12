@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ad81bc;
+  constexpr static std::size_t addrs = 0x3b37800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningNoTransitionInstaller::*)()>(
     &::GlobalNamespace::HealthWarningNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8208;
+  constexpr static std::size_t addrs = 0x3b3784c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningNoTransitionInstaller*>::get(),
@@ -39,8 +39,7 @@ constexpr ::GlobalNamespace::HealthWarningSceneSetupData*& GlobalNamespace::Heal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthWarningSceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningSceneSetupData*> const&
-GlobalNamespace::HealthWarningNoTransitionInstaller::__cordl_internal_get__healthWarningSceneSetupData() const {
+constexpr ::GlobalNamespace::HealthWarningSceneSetupData* const& GlobalNamespace::HealthWarningNoTransitionInstaller::__cordl_internal_get__healthWarningSceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthWarningSceneSetupData;
 }
@@ -66,13 +65,13 @@ inline void GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningNoTransitionInstaller*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
-inline ::GlobalNamespace::HealthWarningNoTransitionInstaller* GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HealthWarningNoTransitionInstaller*>());
-}
 inline void GlobalNamespace::HealthWarningNoTransitionInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningNoTransitionInstaller*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::HealthWarningNoTransitionInstaller* GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HealthWarningNoTransitionInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthWarningNoTransitionInstaller::HealthWarningNoTransitionInstaller() {}

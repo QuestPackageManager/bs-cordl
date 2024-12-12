@@ -1,56 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Unity/Properties/PropertyBag_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Properties/Internal/zzzz__IPropertyBagRegister_impl.hpp"
+#include "Unity/Properties/zzzz__IConstructor_1_impl.hpp"
+#include "Unity/Properties/zzzz__IConstructor_impl.hpp"
+#include "Unity/Properties/zzzz__IPropertyBag_1_impl.hpp"
+#include "Unity/Properties/zzzz__IPropertyBag_impl.hpp"
 #include "Unity/Properties/zzzz__InstantiationKind_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
-#include "Unity/Properties/Internal/zzzz__IPropertyBagRegister_def.hpp"
-#include "Unity/Properties/zzzz__IConstructor_1_def.hpp"
-#include "Unity/Properties/zzzz__IConstructor_def.hpp"
-#include "Unity/Properties/zzzz__IPropertyBag_1_def.hpp"
-#include "Unity/Properties/zzzz__IPropertyBag_def.hpp"
 #include "Unity/Properties/zzzz__ITypeVisitor_def.hpp"
 #include "Unity/Properties/zzzz__InstantiationKind_def.hpp"
-/// @brief Convert operator to "::Unity::Properties::IPropertyBag_1<TContainer>"
-template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IPropertyBag_1<TContainer>*() noexcept {
-  return static_cast<::Unity::Properties::IPropertyBag_1<TContainer>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::IPropertyBag_1<TContainer>"
-template <typename TContainer> constexpr ::Unity::Properties::IPropertyBag_1<TContainer>* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IPropertyBag_1_TContainer_() noexcept {
-  return static_cast<::Unity::Properties::IPropertyBag_1<TContainer>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Unity::Properties::IPropertyBag"
-template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IPropertyBag*() noexcept {
-  return static_cast<::Unity::Properties::IPropertyBag*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::IPropertyBag"
-template <typename TContainer> constexpr ::Unity::Properties::IPropertyBag* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IPropertyBag() noexcept {
-  return static_cast<::Unity::Properties::IPropertyBag*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Unity::Properties::Internal::IPropertyBagRegister"
-template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::Internal::IPropertyBagRegister*() noexcept {
-  return static_cast<::Unity::Properties::Internal::IPropertyBagRegister*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::Internal::IPropertyBagRegister"
-template <typename TContainer>
-constexpr ::Unity::Properties::Internal::IPropertyBagRegister* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__Internal__IPropertyBagRegister() noexcept {
-  return static_cast<::Unity::Properties::Internal::IPropertyBagRegister*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Unity::Properties::IConstructor_1<TContainer>"
-template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IConstructor_1<TContainer>*() noexcept {
-  return static_cast<::Unity::Properties::IConstructor_1<TContainer>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::IConstructor_1<TContainer>"
-template <typename TContainer> constexpr ::Unity::Properties::IConstructor_1<TContainer>* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IConstructor_1_TContainer_() noexcept {
-  return static_cast<::Unity::Properties::IConstructor_1<TContainer>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Unity::Properties::IConstructor"
-template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IConstructor*() noexcept {
-  return static_cast<::Unity::Properties::IConstructor*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Unity::Properties::IConstructor"
-template <typename TContainer> constexpr ::Unity::Properties::IConstructor* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IConstructor() noexcept {
-  return static_cast<::Unity::Properties::IConstructor*>(static_cast<void*>(this));
-}
 template <typename TContainer> constexpr ::Unity::Properties::InstantiationKind& Unity::Properties::PropertyBag_1<TContainer>::__cordl_internal_get__InstantiationKind_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InstantiationKind_k__BackingField;
@@ -97,13 +56,54 @@ template <typename TContainer> inline TContainer Unity::Properties::PropertyBag_
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PropertyBag_1<TContainer>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<TContainer, false>(this, ___internal_method);
 }
-template <typename TContainer> inline ::Unity::Properties::PropertyBag_1<TContainer>* Unity::Properties::PropertyBag_1<TContainer>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::PropertyBag_1<TContainer>*>());
-}
 template <typename TContainer> inline void Unity::Properties::PropertyBag_1<TContainer>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PropertyBag_1<TContainer>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TContainer> inline ::Unity::Properties::PropertyBag_1<TContainer>* Unity::Properties::PropertyBag_1<TContainer>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::PropertyBag_1<TContainer>*>());
+}
+/// @brief Convert operator to "::Unity::Properties::IPropertyBag_1<TContainer>"
+template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IPropertyBag_1<TContainer>*() noexcept {
+  return static_cast<::Unity::Properties::IPropertyBag_1<TContainer>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::IPropertyBag_1<TContainer>"
+template <typename TContainer> constexpr ::Unity::Properties::IPropertyBag_1<TContainer>* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IPropertyBag_1_TContainer_() noexcept {
+  return static_cast<::Unity::Properties::IPropertyBag_1<TContainer>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Unity::Properties::IPropertyBag"
+template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IPropertyBag*() noexcept {
+  return static_cast<::Unity::Properties::IPropertyBag*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::IPropertyBag"
+template <typename TContainer> constexpr ::Unity::Properties::IPropertyBag* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IPropertyBag() noexcept {
+  return static_cast<::Unity::Properties::IPropertyBag*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Unity::Properties::Internal::IPropertyBagRegister"
+template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::Internal::IPropertyBagRegister*() noexcept {
+  return static_cast<::Unity::Properties::Internal::IPropertyBagRegister*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::Internal::IPropertyBagRegister"
+template <typename TContainer>
+constexpr ::Unity::Properties::Internal::IPropertyBagRegister* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__Internal__IPropertyBagRegister() noexcept {
+  return static_cast<::Unity::Properties::Internal::IPropertyBagRegister*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Unity::Properties::IConstructor_1<TContainer>"
+template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IConstructor_1<TContainer>*() noexcept {
+  return static_cast<::Unity::Properties::IConstructor_1<TContainer>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::IConstructor_1<TContainer>"
+template <typename TContainer> constexpr ::Unity::Properties::IConstructor_1<TContainer>* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IConstructor_1_TContainer_() noexcept {
+  return static_cast<::Unity::Properties::IConstructor_1<TContainer>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Unity::Properties::IConstructor"
+template <typename TContainer> constexpr Unity::Properties::PropertyBag_1<TContainer>::operator ::Unity::Properties::IConstructor*() noexcept {
+  return static_cast<::Unity::Properties::IConstructor*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::IConstructor"
+template <typename TContainer> constexpr ::Unity::Properties::IConstructor* Unity::Properties::PropertyBag_1<TContainer>::i___Unity__Properties__IConstructor() noexcept {
+  return static_cast<::Unity::Properties::IConstructor*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TContainer> constexpr ::Unity::Properties::PropertyBag_1<TContainer>::PropertyBag_1() {}

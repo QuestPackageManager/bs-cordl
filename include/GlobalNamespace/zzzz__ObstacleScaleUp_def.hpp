@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleScaleUp)
 namespace GlobalNamespace {
+class IVariableMovementDataProvider;
+}
+namespace GlobalNamespace {
 class ObstacleControllerBase;
 }
 namespace GlobalNamespace {
@@ -21,11 +24,10 @@ class ObstacleScaleUp;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ObstacleScaleUp);
-// Type: ::ObstacleScaleUp
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ObstacleScaleUp*
+// CS Name: ObstacleScaleUp
 class CORDL_TYPE ObstacleScaleUp : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -38,21 +40,25 @@ public:
   /// @brief Field _targetTransform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform> _targetTransform;
 
-  /// @brief Method Awake, addr 0x3a96fc4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Field _variableMovementDataProvider, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
+                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
+
+  /// @brief Method Awake, addr 0x3af1c84, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObstacleControllerDidInit, addr 0x3a972c0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidInit, addr 0x3af2088, size 0xc8, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
-  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x3a97298, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x3af1f58, size 0x130, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a97174, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3af1e34, size 0x124, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x3a9705c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x3af1d1c, size 0x118, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScalePart() const;
@@ -67,13 +73,19 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
 
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
+
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
+
   constexpr void __cordl_internal_set__fullScalePart(float_t value);
 
   constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleController> value);
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a97388, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
+
+  /// @brief Method .ctor, addr 0x3af2150, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,6 +102,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObstacleScaleUp(ObstacleScaleUp const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4146 };
+
   /// @brief Field _fullScalePart, offset: 0x20, size: 0x4, def value: None
   float_t ____fullScalePart;
 
@@ -99,19 +114,21 @@ public:
   /// @brief Field _obstacleController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleController> ____obstacleController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4136 };
+  /// @brief Field _variableMovementDataProvider, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleScaleUp, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ObstacleScaleUp, ____fullScalePart) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ObstacleScaleUp, ____targetTransform) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ObstacleScaleUp, ____obstacleController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleScaleUp, ____variableMovementDataProvider) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleScaleUp, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleScaleUp);

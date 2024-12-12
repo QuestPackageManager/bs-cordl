@@ -19,11 +19,10 @@ class LocalizationDocument;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationDocument);
-// Type: BGLib.Polyglot::LocalizationDocument
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.Polyglot.GoogleDriveDownloadFormat, System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
-// CS Name: ::BGLib.Polyglot::LocalizationDocument*
+// CS Name: BGLib.Polyglot.LocalizationDocument
 class CORDL_TYPE LocalizationDocument : public ::System::Object {
 public:
   // Declarations
@@ -73,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x227a570, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ad25c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DocsId, addr 0x227a558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocsId, addr 0x22ad244, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocsId();
 
-  /// @brief Method get_Format, addr 0x227a568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x22ad254, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_SheetId, addr 0x227a560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SheetId, addr 0x22ad24c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SheetId();
 
-  /// @brief Method get_TextAsset, addr 0x227a550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x22ad23c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -102,6 +101,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizationDocument(LocalizationDocument const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18048 };
+
   /// @brief Field docsId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___docsId;
 
@@ -114,14 +116,9 @@ public:
   /// @brief Field textAsset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___textAsset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17998 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationDocument, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::Polyglot::LocalizationDocument, ___docsId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BGLib::Polyglot::LocalizationDocument, ___sheetId) == 0x18, "Offset mismatch!");
@@ -129,6 +126,8 @@ static_assert(offsetof(::BGLib::Polyglot::LocalizationDocument, ___sheetId) == 0
 static_assert(offsetof(::BGLib::Polyglot::LocalizationDocument, ___format) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BGLib::Polyglot::LocalizationDocument, ___textAsset) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationDocument, 0x30>, "Size mismatch!");
 
 } // namespace BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizationDocument);

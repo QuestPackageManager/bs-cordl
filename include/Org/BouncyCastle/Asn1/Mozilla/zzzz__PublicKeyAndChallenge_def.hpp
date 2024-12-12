@@ -26,11 +26,10 @@ class PublicKeyAndChallenge;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge);
-// Type: Org.BouncyCastle.Asn1.Mozilla::PublicKeyAndChallenge
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Mozilla {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Mozilla::PublicKeyAndChallenge*
+// CS Name: Org.BouncyCastle.Asn1.Mozilla.PublicKeyAndChallenge
 class CORDL_TYPE PublicKeyAndChallenge : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -47,25 +46,25 @@ public:
   /// @brief Field spki, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_spki, put = __cordl_internal_set_spki)) ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki;
 
-  /// @brief Method GetInstance, addr 0x23cdcd8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2400fc4, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23cdec4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24011b0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerIA5String* const& __cordl_internal_get_challenge() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_challenge();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_challenge() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_pkacSeq() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_pkacSeq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_pkacSeq() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* const& __cordl_internal_get_spki() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __cordl_internal_get_spki();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __cordl_internal_get_spki() const;
 
   constexpr void __cordl_internal_set_challenge(::Org::BouncyCastle::Asn1::DerIA5String* value);
 
@@ -73,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_spki(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x23cde58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2401144, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Challenge, addr 0x23cded4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Challenge, addr 0x24011c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_Challenge();
 
-  /// @brief Method get_SubjectPublicKeyInfo, addr 0x23cdecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0x24011b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
 protected:
@@ -96,6 +95,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PublicKeyAndChallenge(PublicKeyAndChallenge const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 202 };
+
   /// @brief Field pkacSeq, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___pkacSeq;
 
@@ -105,19 +107,16 @@ public:
   /// @brief Field challenge, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerIA5String* ___challenge;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 202 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge, ___pkacSeq) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge, ___spki) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge, ___challenge) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Mozilla
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge);

@@ -12,22 +12,18 @@ class IExposedPropertyTable;
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
-struct PropertyName;
-}
 // Forward declare root types
 namespace UnityEngine {
 template <typename T> struct ExposedReference_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ExposedReference_1);
-// Type: UnityEngine::ExposedReference`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.PropertyName
 namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::UnityEngine::ExposedReference`1<T>
+// CS Name: UnityEngine.ExposedReference`1<T>
 struct CORDL_TYPE ExposedReference_1 {
 public:
   // Declarations
@@ -42,17 +38,17 @@ public:
   // modifiers: "", def_value: None }]
   constexpr ExposedReference_1(::UnityEngine::PropertyName exposedName, ::UnityW<::UnityEngine::Object> defaultValue) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10686 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field exposedName, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::PropertyName exposedName;
 
   /// @brief Field defaultValue, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> defaultValue;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10653 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

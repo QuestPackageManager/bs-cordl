@@ -16,16 +16,15 @@ class DupInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::DupInstruction);
-// Type: System.Linq.Expressions.Interpreter::DupInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::DupInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.DupInstruction
 class CORDL_TYPE DupInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::DupInstruction* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::DupInstruction* Instance;
 
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
@@ -33,18 +32,18 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::DupInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x409378c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f4aa0, size 0x24, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x409373c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f4a50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::DupInstruction* getStaticF_Instance();
 
-  /// @brief Method get_InstructionName, addr 0x409374c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f4a60, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4093744, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f4a58, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::DupInstruction* value);
@@ -64,7 +63,7 @@ public:
   DupInstruction(DupInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

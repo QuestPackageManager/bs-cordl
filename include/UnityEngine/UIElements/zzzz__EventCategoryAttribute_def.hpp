@@ -15,11 +15,10 @@ class EventCategoryAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventCategoryAttribute);
-// Type: UnityEngine.UIElements::EventCategoryAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, UnityEngine.UIElements.EventCategory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::EventCategoryAttribute*
+// CS Name: UnityEngine.UIElements.EventCategoryAttribute
 class CORDL_TYPE EventCategoryAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_category(::UnityEngine::UIElements::EventCategory value);
 
-  /// @brief Method .ctor, addr 0x49378ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499c1bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCategory category);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventCategoryAttribute(EventCategoryAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6315 };
+
   /// @brief Field category, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::EventCategory ___category;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCategoryAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::EventCategoryAttribute, ___category) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCategoryAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventCategoryAttribute);

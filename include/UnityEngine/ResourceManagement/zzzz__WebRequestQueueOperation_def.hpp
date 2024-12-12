@@ -20,11 +20,10 @@ class WebRequestQueueOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueueOperation);
-// Type: UnityEngine.ResourceManagement::WebRequestQueueOperation
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement::WebRequestQueueOperation*
+// CS Name: UnityEngine.ResourceManagement.WebRequestQueueOperation
 class CORDL_TYPE WebRequestQueueOperation : public ::System::Object {
 public:
   // Declarations
@@ -44,26 +43,26 @@ public:
   /// @brief Field m_WebRequest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest)) ::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
 
-  /// @brief Method Complete, addr 0x472ebb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x478fecc, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
+  constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* const& __cordl_internal_get_OnComplete() const;
+
   constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*& __cordl_internal_get_OnComplete();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*> const& __cordl_internal_get_OnComplete() const;
+  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation* const& __cordl_internal_get_Result() const;
 
   constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_Result();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_Result() const;
 
   constexpr bool const& __cordl_internal_get_m_Completed() const;
 
   constexpr bool& __cordl_internal_get_m_Completed();
 
-  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get_m_WebRequest();
+  constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_m_WebRequest() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __cordl_internal_get_m_WebRequest() const;
+  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get_m_WebRequest();
 
   constexpr void __cordl_internal_set_OnComplete(::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* value);
 
@@ -73,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x472eb90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478fea4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_IsDone, addr 0x472eb60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x478fe74, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
-  /// @brief Method get_WebRequest, addr 0x472eb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequest, addr 0x478fe94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_WebRequest();
 
-  /// @brief Method set_WebRequest, addr 0x472eb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequest, addr 0x478fe9c, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:
@@ -99,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WebRequestQueueOperation(WebRequestQueueOperation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15597 };
+
   /// @brief Field m_Completed, offset: 0x10, size: 0x1, def value: None
   bool ___m_Completed;
 
@@ -111,14 +113,9 @@ public:
   /// @brief Field m_WebRequest, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ___m_WebRequest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15562 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::WebRequestQueueOperation, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::WebRequestQueueOperation, ___m_Completed) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::WebRequestQueueOperation, ___Result) == 0x18, "Offset mismatch!");
@@ -126,6 +123,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::WebRequestQueueOperati
 static_assert(offsetof(::UnityEngine::ResourceManagement::WebRequestQueueOperation, ___OnComplete) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::WebRequestQueueOperation, ___m_WebRequest) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::WebRequestQueueOperation, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement
 NEED_NO_BOX(::UnityEngine::ResourceManagement::WebRequestQueueOperation);

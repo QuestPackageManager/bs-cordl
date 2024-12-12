@@ -24,11 +24,10 @@ class PrivacyPolicyViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PrivacyPolicyViewController);
-// Type: ::PrivacyPolicyViewController
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 170, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PrivacyPolicyViewController*
+// CS Name: PrivacyPolicyViewController
 class CORDL_TYPE PrivacyPolicyViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -57,18 +56,18 @@ public:
   /// @brief Field didFinishEvent, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3bbcb90, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1fcc4, size 0x1d4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init, addr 0x3bbcd64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c1fe98, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showIAcceptPrompt);
 
   static inline ::GlobalNamespace::PrivacyPolicyViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x3bbcd80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x3c1feb4, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x3bbcd9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x3c1fed0, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__iAcceptButton() const;
@@ -99,9 +98,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__updateNoticeLocalizationKey();
 
-  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__iAcceptButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -119,13 +118,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bbcd78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1feac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3bbca58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3c1fb8c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3bbcaf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3c1fc28, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:
@@ -141,6 +140,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PrivacyPolicyViewController(PrivacyPolicyViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4934 };
 
   /// @brief Field _okButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
@@ -166,14 +168,9 @@ public:
   /// @brief Field _showIAcceptPrompt, offset: 0xa9, size: 0x1, def value: None
   bool ____showIAcceptPrompt;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4914 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PrivacyPolicyViewController, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____okButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____iAcceptButton) == 0x80, "Offset mismatch!");
@@ -189,6 +186,8 @@ static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ___didFin
 static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____showUpdate) == 0xa8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____showIAcceptPrompt) == 0xa9, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PrivacyPolicyViewController, 0xb0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PrivacyPolicyViewController);

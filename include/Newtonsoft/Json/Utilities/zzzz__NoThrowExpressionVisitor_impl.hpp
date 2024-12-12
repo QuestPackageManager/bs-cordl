@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::*)(::System::Linq::Expressions::ConditionalExpression*)>(&::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::VisitConditional)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3e68344;
+  constexpr static std::size_t addrs = 0x3ec83f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::*)()>(
     &::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e681bc;
+  constexpr static std::size_t addrs = 0x3ec8268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor*>::get(),
@@ -48,13 +48,13 @@ inline ::System::Linq::Expressions::Expression* Newtonsoft::Json::Utilities::NoT
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, node);
 }
-inline ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor* Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor*>());
-}
 inline void Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor* Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor*>());
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor::NoThrowExpressionVisitor() {}

@@ -3,10 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Globalization/zzzz__TimeSpanFormat_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -15,10 +12,10 @@ namespace System::Globalization {
 class DateTimeFormatInfo;
 }
 namespace System::Globalization {
-struct __TimeSpanFormat__FormatLiterals;
+struct TimeSpanFormat_FormatLiterals;
 }
 namespace System::Globalization {
-struct __TimeSpanFormat__Pattern;
+struct TimeSpanFormat_Pattern;
 }
 namespace System::Text {
 class StringBuilder;
@@ -37,38 +34,37 @@ struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Globalization {
-struct __TimeSpanFormat__Pattern;
+struct TimeSpanFormat_Pattern;
 }
 namespace System::Globalization {
 class TimeSpanFormat;
 }
 namespace System::Globalization {
-struct __TimeSpanFormat__FormatLiterals;
+struct TimeSpanFormat_FormatLiterals;
 }
 // Write type traits
-MARK_VAL_T(::System::Globalization::__TimeSpanFormat__Pattern);
+MARK_VAL_T(::System::Globalization::TimeSpanFormat_Pattern);
 MARK_REF_PTR_T(::System::Globalization::TimeSpanFormat);
-MARK_VAL_T(::System::Globalization::__TimeSpanFormat__FormatLiterals);
-// Type: ::Pattern
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::System::Globalization::TimeSpanFormat_FormatLiterals);
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::TimeSpanFormat::Pattern
-struct CORDL_TYPE __TimeSpanFormat__Pattern {
+// CS Name: System.Globalization.TimeSpanFormat/Pattern
+struct CORDL_TYPE TimeSpanFormat_Pattern {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____TimeSpanFormat__Pattern_Unwrapped
-  enum struct ____TimeSpanFormat__Pattern_Unwrapped : int32_t {
+  /// @brief Nested struct __TimeSpanFormat_Pattern_Unwrapped
+  enum struct __TimeSpanFormat_Pattern_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_Minimum = static_cast<int32_t>(0x1),
     __E_Full = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____TimeSpanFormat__Pattern_Unwrapped() const noexcept {
-    return static_cast<____TimeSpanFormat__Pattern_Unwrapped>(this->value__);
+  constexpr operator __TimeSpanFormat_Pattern_Unwrapped() const noexcept {
+    return static_cast<__TimeSpanFormat_Pattern_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -78,22 +74,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TimeSpanFormat__Pattern();
+  constexpr TimeSpanFormat_Pattern();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TimeSpanFormat__Pattern(int32_t value__) noexcept;
+  constexpr TimeSpanFormat_Pattern(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Full value: I32(2)
+  static ::System::Globalization::TimeSpanFormat_Pattern const Full;
 
-  /// @brief Field Full value: static_cast<int32_t>(0x2)
-  static ::System::Globalization::__TimeSpanFormat__Pattern const Full;
+  /// @brief Field Minimum value: I32(1)
+  static ::System::Globalization::TimeSpanFormat_Pattern const Minimum;
 
-  /// @brief Field Minimum value: static_cast<int32_t>(0x1)
-  static ::System::Globalization::__TimeSpanFormat__Pattern const Minimum;
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Globalization::__TimeSpanFormat__Pattern const None;
+  /// @brief Field None value: I32(0)
+  static ::System::Globalization::TimeSpanFormat_Pattern const None;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3687 };
@@ -101,20 +94,22 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::__TimeSpanFormat__Pattern, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_Pattern, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__Pattern, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Globalization::TimeSpanFormat_Pattern, 0x4>, "Size mismatch!");
 
 } // namespace System::Globalization
-// Type: ::FormatLiterals
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::TimeSpanFormat::FormatLiterals
-struct CORDL_TYPE __TimeSpanFormat__FormatLiterals {
+// CS Name: System.Globalization.TimeSpanFormat/FormatLiterals
+struct CORDL_TYPE TimeSpanFormat_FormatLiterals {
 public:
   // Declarations
   __declspec(property(get = get_DayHourSep)) ::StringW DayHourSep;
@@ -129,38 +124,44 @@ public:
 
   __declspec(property(get = get_Start)) ::StringW Start;
 
-  /// @brief Method Init, addr 0x3d33640, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d937b4, size 0x37c, virtual false, abstract: false, final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> format, bool useInvariantFieldLengths);
 
-  /// @brief Method InitInvariant, addr 0x3d334e0, size 0x160, virtual false, abstract: false, final false
-  static inline ::System::Globalization::__TimeSpanFormat__FormatLiterals InitInvariant(bool isNegative);
+  /// @brief Method InitInvariant, addr 0x3d93654, size 0x160, virtual false, abstract: false, final false
+  static inline ::System::Globalization::TimeSpanFormat_FormatLiterals InitInvariant(bool isNegative);
 
-  /// @brief Method get_DayHourSep, addr 0x3d33404, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_DayHourSep, addr 0x3d93578, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_DayHourSep();
 
-  /// @brief Method get_End, addr 0x3d334b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x3d93628, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_End();
 
-  /// @brief Method get_HourMinuteSep, addr 0x3d33430, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HourMinuteSep, addr 0x3d935a4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_HourMinuteSep();
 
-  /// @brief Method get_MinuteSecondSep, addr 0x3d3345c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MinuteSecondSep, addr 0x3d935d0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MinuteSecondSep();
 
-  /// @brief Method get_SecondFractionSep, addr 0x3d33488, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_SecondFractionSep, addr 0x3d935fc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_SecondFractionSep();
 
-  /// @brief Method get_Start, addr 0x3d333dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x3d93550, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Start();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TimeSpanFormat__FormatLiterals();
+  constexpr TimeSpanFormat_FormatLiterals();
 
   // Ctor Parameters [CppParam { name: "AppCompatLiteral", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dd", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "hh", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mm", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ss", ty: "int32_t", modifiers: "", def_value: None
   // }, CppParam { name: "ff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_literals", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
-  constexpr __TimeSpanFormat__FormatLiterals(::StringW AppCompatLiteral, int32_t dd, int32_t hh, int32_t mm, int32_t ss, int32_t ff, ::ArrayW<::StringW, ::Array<::StringW>*> _literals) noexcept;
+  constexpr TimeSpanFormat_FormatLiterals(::StringW AppCompatLiteral, int32_t dd, int32_t hh, int32_t mm, int32_t ss, int32_t ff, ::ArrayW<::StringW, ::Array<::StringW>*> _literals) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3688 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field AppCompatLiteral, offset: 0x0, size: 0x8, def value: None
   ::StringW AppCompatLiteral;
@@ -183,80 +184,73 @@ public:
   /// @brief Field _literals, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> _literals;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3688 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::__TimeSpanFormat__FormatLiterals, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_FormatLiterals, AppCompatLiteral) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals, AppCompatLiteral) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_FormatLiterals, dd) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals, dd) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_FormatLiterals, hh) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals, hh) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_FormatLiterals, mm) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals, mm) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_FormatLiterals, ss) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals, ss) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_FormatLiterals, ff) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals, ff) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::TimeSpanFormat_FormatLiterals, _literals) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals, _literals) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Globalization::TimeSpanFormat_FormatLiterals, 0x28>, "Size mismatch!");
 
 } // namespace System::Globalization
-// Type: System.Globalization::TimeSpanFormat
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Globalization.TimeSpanFormat::FormatLiterals, System.Object
 namespace System::Globalization {
 // Is value type: false
-// CS Name: ::System.Globalization::TimeSpanFormat*
+// CS Name: System.Globalization.TimeSpanFormat
 class CORDL_TYPE TimeSpanFormat : public ::System::Object {
 public:
   // Declarations
-  using FormatLiterals = ::System::Globalization::__TimeSpanFormat__FormatLiterals;
+  using FormatLiterals = ::System::Globalization::TimeSpanFormat_FormatLiterals;
 
-  using Pattern = ::System::Globalization::__TimeSpanFormat__Pattern;
+  using Pattern = ::System::Globalization::TimeSpanFormat_Pattern;
 
   /// @brief Field NegativeInvariantFormatLiterals, offset 0xffffffff, size 0x28
-  static __declspec(property(get = getStaticF_NegativeInvariantFormatLiterals,
-                             put = setStaticF_NegativeInvariantFormatLiterals)) ::System::Globalization::__TimeSpanFormat__FormatLiterals NegativeInvariantFormatLiterals;
+  __declspec(property(get = getStaticF_NegativeInvariantFormatLiterals,
+                      put = setStaticF_NegativeInvariantFormatLiterals)) ::System::Globalization::TimeSpanFormat_FormatLiterals NegativeInvariantFormatLiterals;
 
   /// @brief Field PositiveInvariantFormatLiterals, offset 0xffffffff, size 0x28
-  static __declspec(property(get = getStaticF_PositiveInvariantFormatLiterals,
-                             put = setStaticF_PositiveInvariantFormatLiterals)) ::System::Globalization::__TimeSpanFormat__FormatLiterals PositiveInvariantFormatLiterals;
+  __declspec(property(get = getStaticF_PositiveInvariantFormatLiterals,
+                      put = setStaticF_PositiveInvariantFormatLiterals)) ::System::Globalization::TimeSpanFormat_FormatLiterals PositiveInvariantFormatLiterals;
 
-  /// @brief Method AppendNonNegativeInt32, addr 0x3d31f1c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AppendNonNegativeInt32, addr 0x3d92090, size 0xf8, virtual false, abstract: false, final false
   static inline void AppendNonNegativeInt32(::System::Text::StringBuilder* sb, int32_t n, int32_t digits);
 
-  /// @brief Method Format, addr 0x3d32014, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3d92188, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::TimeSpan value, ::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method FormatCustomized, addr 0x3d329b8, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method FormatCustomized, addr 0x3d92b2c, size 0x728, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatCustomized(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                                                 ::System::Text::StringBuilder* result);
 
-  /// @brief Method FormatStandard, addr 0x3d324c4, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method FormatStandard, addr 0x3d92638, size 0x4f4, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatStandard(::System::TimeSpan value, bool isInvariant, ::System::ReadOnlySpan_1<char16_t> format,
-                                                              ::System::Globalization::__TimeSpanFormat__Pattern pattern);
+                                                              ::System::Globalization::TimeSpanFormat_Pattern pattern);
 
-  /// @brief Method FormatToBuilder, addr 0x3d320cc, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method FormatToBuilder, addr 0x3d92240, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatToBuilder(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method TryFormat, addr 0x3d323a4, size 0x120, virtual false, abstract: false, final false
-  static inline bool TryFormat(::System::TimeSpan value, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format,
+  /// @brief Method TryFormat, addr 0x3d92518, size 0x120, virtual false, abstract: false, final false
+  static inline bool TryFormat(::System::TimeSpan value, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format,
                                ::System::IFormatProvider* formatProvider);
 
-  static inline ::System::Globalization::__TimeSpanFormat__FormatLiterals getStaticF_NegativeInvariantFormatLiterals();
+  static inline ::System::Globalization::TimeSpanFormat_FormatLiterals getStaticF_NegativeInvariantFormatLiterals();
 
-  static inline ::System::Globalization::__TimeSpanFormat__FormatLiterals getStaticF_PositiveInvariantFormatLiterals();
+  static inline ::System::Globalization::TimeSpanFormat_FormatLiterals getStaticF_PositiveInvariantFormatLiterals();
 
-  static inline void setStaticF_NegativeInvariantFormatLiterals(::System::Globalization::__TimeSpanFormat__FormatLiterals value);
+  static inline void setStaticF_NegativeInvariantFormatLiterals(::System::Globalization::TimeSpanFormat_FormatLiterals value);
 
-  static inline void setStaticF_PositiveInvariantFormatLiterals(::System::Globalization::__TimeSpanFormat__FormatLiterals value);
+  static inline void setStaticF_PositiveInvariantFormatLiterals(::System::Globalization::TimeSpanFormat_FormatLiterals value);
 
 protected:
   // Ctor Parameters []
@@ -281,7 +275,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Globalization::TimeSpanFormat, 0x10>, "Size mismatch!");
 
 } // namespace System::Globalization
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::__TimeSpanFormat__Pattern, "System.Globalization", "TimeSpanFormat/Pattern");
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TimeSpanFormat_Pattern, "System.Globalization", "TimeSpanFormat/Pattern");
 NEED_NO_BOX(::System::Globalization::TimeSpanFormat);
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TimeSpanFormat*, "System.Globalization", "TimeSpanFormat");
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::__TimeSpanFormat__FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TimeSpanFormat_FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");

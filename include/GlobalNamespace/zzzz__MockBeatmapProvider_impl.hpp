@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MockBeatmapProvider.hpp"
+#include "GlobalNamespace/zzzz__IServerBeatmapProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapProvider_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockBeatmapProvider.VerifyBeatmapForSelectionMask
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockBeatmapProvider::*)(
     ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::BeatmapLevelSelectionMask)>(&::GlobalNamespace::MockBeatmapProvider::VerifyBeatmapForSelectionMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b62594;
+  constexpr static std::size_t addrs = 0x3bc3cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                ::GlobalNamespace::BeatmapLevelSelectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*)>(
     &::GlobalNamespace::MockBeatmapProvider::SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b6259c;
+  constexpr static std::size_t addrs = 0x3bc3cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapProvider::*)()>(&::GlobalNamespace::MockBeatmapProvider::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b6262c;
+  constexpr static std::size_t addrs = 0x3bc3d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapProvider*>::get(), "Dispose",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapProvider::*)()>(&::GlobalNamespace::MockBeatmapProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b62630;
+  constexpr static std::size_t addrs = 0x3bc3d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapProvider*>::get(), ".ctor",
@@ -71,14 +71,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IServerBeatmapProvider"
-constexpr GlobalNamespace::MockBeatmapProvider::operator ::GlobalNamespace::IServerBeatmapProvider*() noexcept {
-  return static_cast<::GlobalNamespace::IServerBeatmapProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"
-constexpr ::GlobalNamespace::IServerBeatmapProvider* GlobalNamespace::MockBeatmapProvider::i___GlobalNamespace__IServerBeatmapProvider() noexcept {
-  return static_cast<::GlobalNamespace::IServerBeatmapProvider*>(static_cast<void*>(this));
-}
 inline bool GlobalNamespace::MockBeatmapProvider::VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable,
                                                                                 ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,13 +97,21 @@ inline void GlobalNamespace::MockBeatmapProvider::Dispose() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MockBeatmapProvider* GlobalNamespace::MockBeatmapProvider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockBeatmapProvider*>());
-}
 inline void GlobalNamespace::MockBeatmapProvider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapProvider*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MockBeatmapProvider* GlobalNamespace::MockBeatmapProvider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockBeatmapProvider*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IServerBeatmapProvider"
+constexpr GlobalNamespace::MockBeatmapProvider::operator ::GlobalNamespace::IServerBeatmapProvider*() noexcept {
+  return static_cast<::GlobalNamespace::IServerBeatmapProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"
+constexpr ::GlobalNamespace::IServerBeatmapProvider* GlobalNamespace::MockBeatmapProvider::i___GlobalNamespace__IServerBeatmapProvider() noexcept {
+  return static_cast<::GlobalNamespace::IServerBeatmapProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockBeatmapProvider::MockBeatmapProvider() {}

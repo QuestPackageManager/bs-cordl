@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::TryFaultHandler::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Linq::Expressions::Interpreter::TryFaultHandler::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40754cc;
+  constexpr static std::size_t addrs = 0x40d67e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,16 +66,16 @@ constexpr void System::Linq::Expressions::Interpreter::TryFaultHandler::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FinallyEndIndex = value;
 }
-inline ::System::Linq::Expressions::Interpreter::TryFaultHandler* System::Linq::Expressions::Interpreter::TryFaultHandler::New_ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart,
-                                                                                                                                    int32_t finallyEnd) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::TryFaultHandler*>(tryStart, tryEnd, finallyStart, finallyEnd));
-}
 inline void System::Linq::Expressions::Interpreter::TryFaultHandler::_ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart, int32_t finallyEnd) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TryFaultHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tryStart, tryEnd, finallyStart, finallyEnd);
+}
+inline ::System::Linq::Expressions::Interpreter::TryFaultHandler* System::Linq::Expressions::Interpreter::TryFaultHandler::New_ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart,
+                                                                                                                                    int32_t finallyEnd) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::TryFaultHandler*>(tryStart, tryEnd, finallyStart, finallyEnd));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::TryFaultHandler::TryFaultHandler() {}

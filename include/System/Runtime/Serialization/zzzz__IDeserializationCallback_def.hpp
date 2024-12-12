@@ -13,20 +13,15 @@ class IDeserializationCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::IDeserializationCallback);
-// Type: System.Runtime.Serialization::IDeserializationCallback
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::IDeserializationCallback*
+// CS Name: System.Runtime.Serialization.IDeserializationCallback
 class CORDL_TYPE IDeserializationCallback {
 public:
   // Declarations
-  /// @brief Method OnDeserialization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnDeserialization, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDeserializationCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDeserializationCallback(IDeserializationCallback&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDeserializationCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

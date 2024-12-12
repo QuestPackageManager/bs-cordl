@@ -11,7 +11,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalParseTypeE_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParseRecord)
@@ -36,11 +35,13 @@ class ParseRecord;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ParseRecord);
-// Type: System.Runtime.Serialization.Formatters.Binary::ParseRecord
-// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE, System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE,
+// System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE, System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE,
+// System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE, System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE,
+// System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.ParseRecord
 class CORDL_TYPE ParseRecord : public ::System::Object {
 public:
   // Declarations
@@ -170,16 +171,16 @@ public:
   __declspec(property(get = __cordl_internal_get_PRvarValue, put = __cordl_internal_set_PRvarValue)) ::System::Object* PRvarValue;
 
   /// @brief Field parseRecordIdCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_parseRecordIdCount, put = setStaticF_parseRecordIdCount)) int32_t parseRecordIdCount;
+  __declspec(property(get = getStaticF_parseRecordIdCount, put = setStaticF_parseRecordIdCount)) int32_t parseRecordIdCount;
 
-  /// @brief Method Init, addr 0x3cb041c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d10590, size 0x58, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* New_ctor();
 
-  constexpr ::System::Type*& __cordl_internal_get_PRarrayElementType();
+  constexpr ::System::Type* const& __cordl_internal_get_PRarrayElementType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_PRarrayElementType() const;
+  constexpr ::System::Type*& __cordl_internal_get_PRarrayElementType();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_PRarrayElementTypeCode() const;
 
@@ -193,9 +194,9 @@ public:
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& __cordl_internal_get_PRarrayTypeEnum();
 
-  constexpr ::System::Type*& __cordl_internal_get_PRdtType();
+  constexpr ::System::Type* const& __cordl_internal_get_PRdtType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_PRdtType() const;
+  constexpr ::System::Type*& __cordl_internal_get_PRdtType();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_PRdtTypeCode() const;
 
@@ -269,9 +270,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_PRname();
 
-  constexpr ::System::Object*& __cordl_internal_get_PRnewObj();
+  constexpr ::System::Object* const& __cordl_internal_get_PRnewObj() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_PRnewObj() const;
+  constexpr ::System::Object*& __cordl_internal_get_PRnewObj();
 
   constexpr int32_t const& __cordl_internal_get_PRnullCount() const;
 
@@ -285,9 +286,9 @@ public:
 
   constexpr int64_t& __cordl_internal_get_PRobjectId();
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& __cordl_internal_get_PRobjectInfo();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* const& __cordl_internal_get_PRobjectInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*> const& __cordl_internal_get_PRobjectInfo() const;
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& __cordl_internal_get_PRobjectInfo();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE const& __cordl_internal_get_PRobjectPositionEnum() const;
 
@@ -305,9 +306,9 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_PRpositionA();
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& __cordl_internal_get_PRprimitiveArray();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* const& __cordl_internal_get_PRprimitiveArray() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*> const& __cordl_internal_get_PRprimitiveArray() const;
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& __cordl_internal_get_PRprimitiveArray();
 
   constexpr int32_t const& __cordl_internal_get_PRrank() const;
 
@@ -317,9 +318,9 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_PRrectangularMap();
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_PRsi();
+  constexpr ::System::Runtime::Serialization::SerializationInfo* const& __cordl_internal_get_PRsi() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get_PRsi() const;
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_PRsi();
 
   constexpr int64_t const& __cordl_internal_get_PRtopId() const;
 
@@ -333,9 +334,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_PRvalue();
 
-  constexpr ::System::Object*& __cordl_internal_get_PRvarValue();
+  constexpr ::System::Object* const& __cordl_internal_get_PRvarValue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_PRvarValue() const;
+  constexpr ::System::Object*& __cordl_internal_get_PRvarValue();
 
   constexpr void __cordl_internal_set_PRarrayElementType(::System::Type* value);
 
@@ -417,7 +418,7 @@ public:
 
   constexpr void __cordl_internal_set_PRvarValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3cae434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0e5a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_parseRecordIdCount();
@@ -437,6 +438,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ParseRecord", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ParseRecord(ParseRecord const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3291 };
 
   /// @brief Field PRparseTypeEnum, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE ___PRparseTypeEnum;
@@ -558,14 +562,9 @@ public:
   /// @brief Field PRnullCount, offset: 0x118, size: 0x4, def value: None
   int32_t ___PRnullCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3291 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ParseRecord, 0x120>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRparseTypeEnum) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRobjectTypeEnum) == 0x14, "Offset mismatch!");
@@ -645,6 +644,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Par
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRsi) == 0x110, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRnullCount) == 0x118, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ParseRecord, 0x120>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ParseRecord);

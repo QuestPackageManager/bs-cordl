@@ -23,11 +23,10 @@ class MissionLevelFinishedController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionLevelFinishedController);
-// Type: ::MissionLevelFinishedController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionLevelFinishedController*
+// CS Name: MissionLevelFinishedController
 class CORDL_TYPE MissionLevelFinishedController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -48,23 +47,23 @@ public:
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
       _prepareLevelCompletionResults;
 
-  /// @brief Method HandleLevelFinished, addr 0x3b4b998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x3bad3a4, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b4b898, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bad2a4, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b4b7a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bad1b4, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x3b4b99c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x3bad3a8, size 0xac, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
+  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__gameplayManager() const;
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
 
@@ -86,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3b4ba48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bad454, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,6 +102,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionLevelFinishedController(MissionLevelFinishedController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4447 };
+
   /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
@@ -115,14 +117,9 @@ public:
   /// @brief Field _gameplayManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4434 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelFinishedController, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____prepareLevelCompletionResults) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____missionLevelSceneSetupData) == 0x28, "Offset mismatch!");
@@ -130,6 +127,8 @@ static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____mi
 static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____missionObjectiveCheckersManager) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____gameplayManager) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelFinishedController, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelFinishedController);

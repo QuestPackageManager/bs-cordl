@@ -1,20 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/NavigationEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__INavigationEvent_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationDeviceType_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__INavigationEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationDeviceType_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
-/// @brief Convert operator to "::UnityEngine::UIElements::INavigationEvent"
-template <typename T> constexpr UnityEngine::UIElements::NavigationEventBase_1<T>::operator ::UnityEngine::UIElements::INavigationEvent*() noexcept {
-  return static_cast<::UnityEngine::UIElements::INavigationEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::INavigationEvent"
-template <typename T> constexpr ::UnityEngine::UIElements::INavigationEvent* UnityEngine::UIElements::NavigationEventBase_1<T>::i___UnityEngine__UIElements__INavigationEvent() noexcept {
-  return static_cast<::UnityEngine::UIElements::INavigationEvent*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::NavigationEventBase_1<T>::__cordl_internal_get__modifiers_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
@@ -71,9 +63,6 @@ template <typename T> inline void UnityEngine::UIElements::NavigationEventBase_1
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationDeviceType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename T> inline ::UnityEngine::UIElements::NavigationEventBase_1<T>* UnityEngine::UIElements::NavigationEventBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::NavigationEventBase_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::NavigationEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationEventBase_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -89,20 +78,29 @@ template <typename T> inline void UnityEngine::UIElements::NavigationEventBase_1
                                                                              "LocalInit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param modifiers: ::UnityEngine::EventModifiers (default: static_cast<int32_t>(0x0))
 template <typename T> inline T UnityEngine::UIElements::NavigationEventBase_1<T>::GetPooled(::UnityEngine::EventModifiers modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, modifiers);
 }
-/// @param modifiers: ::UnityEngine::EventModifiers (default: static_cast<int32_t>(0x0))
 template <typename T> inline T UnityEngine::UIElements::NavigationEventBase_1<T>::GetPooled(::UnityEngine::UIElements::NavigationDeviceType deviceType, ::UnityEngine::EventModifiers modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationDeviceType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, deviceType, modifiers);
+}
+template <typename T> inline ::UnityEngine::UIElements::NavigationEventBase_1<T>* UnityEngine::UIElements::NavigationEventBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::NavigationEventBase_1<T>*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::INavigationEvent"
+template <typename T> constexpr UnityEngine::UIElements::NavigationEventBase_1<T>::operator ::UnityEngine::UIElements::INavigationEvent*() noexcept {
+  return static_cast<::UnityEngine::UIElements::INavigationEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::INavigationEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::INavigationEvent* UnityEngine::UIElements::NavigationEventBase_1<T>::i___UnityEngine__UIElements__INavigationEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::INavigationEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::NavigationEventBase_1<T>::NavigationEventBase_1() {}

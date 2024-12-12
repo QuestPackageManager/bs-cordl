@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPv4AddressHelper)
@@ -17,34 +16,33 @@ class IPv4AddressHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IPv4AddressHelper);
-// Type: System::IPv4AddressHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::IPv4AddressHelper*
+// CS Name: System.IPv4AddressHelper
 class CORDL_TYPE IPv4AddressHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x40bac74, size 0x30, virtual false, abstract: false, final false
-  static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
+  /// @brief Method IsValid, addr 0x411bf88, size 0x30, virtual false, abstract: false, final false
+  static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, int32_t start, ::ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
 
-  /// @brief Method IsValidCanonical, addr 0x40baca4, size 0x148, virtual false, abstract: false, final false
-  static inline bool IsValidCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile);
+  /// @brief Method IsValidCanonical, addr 0x411bfb8, size 0x148, virtual false, abstract: false, final false
+  static inline bool IsValidCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ::ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile);
 
-  /// @brief Method Parse, addr 0x40bb2e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x411c5f4, size 0x68, virtual false, abstract: false, final false
   static inline bool Parse(::StringW name, ::cordl_internals::Ptr<uint8_t> numbers, int32_t start, int32_t end);
 
-  /// @brief Method ParseCanonical, addr 0x40babe4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonical, addr 0x411bef8, size 0x90, virtual false, abstract: false, final false
   static inline bool ParseCanonical(::System::ReadOnlySpan_1<char16_t> name, ::cordl_internals::Ptr<uint8_t> numbers, int32_t start, int32_t end);
 
-  /// @brief Method ParseCanonicalName, addr 0x40bb0e4, size 0x1fc, virtual false, abstract: false, final false
-  static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> isLoopback);
+  /// @brief Method ParseCanonicalName, addr 0x411c3f8, size 0x1fc, virtual false, abstract: false, final false
+  static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ::ByRef<bool> isLoopback);
 
-  /// @brief Method ParseHostNumber, addr 0x40babb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ParseHostNumber, addr 0x411bec8, size 0x30, virtual false, abstract: false, final false
   static inline int32_t ParseHostNumber(::System::ReadOnlySpan_1<char16_t> str, int32_t start, int32_t end);
 
-  /// @brief Method ParseNonCanonical, addr 0x40badec, size 0x2f8, virtual false, abstract: false, final false
-  static inline int64_t ParseNonCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool notImplicitFile);
+  /// @brief Method ParseNonCanonical, addr 0x411c100, size 0x2f8, virtual false, abstract: false, final false
+  static inline int64_t ParseNonCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ::ByRef<int32_t> end, bool notImplicitFile);
 
 protected:
   // Ctor Parameters []
@@ -61,7 +59,7 @@ public:
   IPv4AddressHelper(IPv4AddressHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

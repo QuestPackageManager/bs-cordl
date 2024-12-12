@@ -5,44 +5,44 @@
 #include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__LightConstants__BakeId::__LightConstants__BakeId(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::LightConstants_BakeId::LightConstants_BakeId(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LightConstants__BakeId::__LightConstants__BakeId() {}
-constexpr ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::__LightConstants__BakeId::A{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::__LightConstants__BakeId::B{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::__LightConstants__BakeId::C{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::__LightConstants__BakeId::D{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::__LightConstants__BakeId::E{ static_cast<int32_t>(0x5) };
-constexpr ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::__LightConstants__BakeId::F{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::LightConstants_BakeId::LightConstants_BakeId() {}
+constexpr ::GlobalNamespace::LightConstants_BakeId GlobalNamespace::LightConstants_BakeId::A{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::LightConstants_BakeId GlobalNamespace::LightConstants_BakeId::B{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::LightConstants_BakeId GlobalNamespace::LightConstants_BakeId::C{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::LightConstants_BakeId GlobalNamespace::LightConstants_BakeId::D{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::LightConstants_BakeId GlobalNamespace::LightConstants_BakeId::E{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::LightConstants_BakeId GlobalNamespace::LightConstants_BakeId::F{ static_cast<int32_t>(0x6) };
 //  Writing Method size for method: ::GlobalNamespace::LightConstants.GetLightmapLightBakeIdPropertyId
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::__LightConstants__BakeId)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(
     &::GlobalNamespace::LightConstants::GetLightmapLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x398bb30;
+  constexpr static std::size_t addrs = 0x39e2500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightConstants*>::get(), "GetLightmapLightBakeIdPropertyId", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightConstants__BakeId>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightConstants_BakeId>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LightConstants.GetLightProbeLightBakeIdPropertyId
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::__LightConstants__BakeId)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(
     &::GlobalNamespace::LightConstants::GetLightProbeLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x398bbd8;
+  constexpr static std::size_t addrs = 0x39e25a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightConstants*>::get(), "GetLightProbeLightBakeIdPropertyId", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightConstants__BakeId>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightConstants_BakeId>::get() })));
     return ___internal_method;
   }
 };
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::LightConstants::GetComputeFieldPropertyId)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x398bc80;
+  constexpr static std::size_t addrs = 0x39e2650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,25 +60,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LightConstants::setStaticF_allBakeIds(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>*, "allBakeIds",
+inline void GlobalNamespace::LightConstants::setStaticF_allBakeIds(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>*, "allBakeIds",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightConstants*>::get>(
-      std::forward<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>*>(value));
+      std::forward<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>*>(value));
 }
-inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* GlobalNamespace::LightConstants::getStaticF_allBakeIds() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>*, "allBakeIds",
+inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* GlobalNamespace::LightConstants::getStaticF_allBakeIds() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>*, "allBakeIds",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightConstants*>::get>();
 }
-inline int32_t GlobalNamespace::LightConstants::GetLightmapLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId) {
+inline int32_t GlobalNamespace::LightConstants::GetLightmapLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightConstants*>::get(), "GetLightmapLightBakeIdPropertyId", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightConstants__BakeId>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightConstants_BakeId>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, bakeId);
 }
-inline int32_t GlobalNamespace::LightConstants::GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId) {
+inline int32_t GlobalNamespace::LightConstants::GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightConstants*>::get(), "GetLightProbeLightBakeIdPropertyId", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightConstants__BakeId>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightConstants_BakeId>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, bakeId);
 }
 inline int32_t GlobalNamespace::LightConstants::GetComputeFieldPropertyId(::StringW fieldName) {

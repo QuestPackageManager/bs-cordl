@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelRestartController)
-namespace GlobalNamespace {
-class ILevelRestartController;
-}
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
@@ -20,11 +18,10 @@ class StandardLevelRestartController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelRestartController);
-// Type: ::StandardLevelRestartController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILevelRestartController, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelRestartController*
+// CS Name: StandardLevelRestartController
 class CORDL_TYPE StandardLevelRestartController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -42,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x3b4d0f4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x3baeb00, size 0x40, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
@@ -57,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b4d134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baeb40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
@@ -77,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelRestartController(StandardLevelRestartController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4456 };
+
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;
 
   /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4443 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelRestartController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardLevelRestartController, ____standardLevelSceneSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelRestartController, ____prepareLevelCompletionResults) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelRestartController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelRestartController);

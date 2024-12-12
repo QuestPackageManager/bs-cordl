@@ -9,428 +9,428 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo._ctor
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::*)(
-    ::StringW, ::StringW, ::StringW)>(&::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(
+    ::StringW, ::StringW, ::StringW)>(&::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3e6bbb4;
+  constexpr static std::size_t addrs = 0x3ecbc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), ".ctor",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), ".ctor",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo.get_ContractTypeName
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo.get_ContractTypeName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::*)()>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::get_ContractTypeName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_ContractTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bbf0;
+  constexpr static std::size_t addrs = 0x3ecbc9c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(),
-                                    "get_ContractTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(),
+                                                 "get_ContractTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo.set_ContractTypeName
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo.set_ContractTypeName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::*)(::StringW)>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::set_ContractTypeName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_ContractTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bbf8;
+  constexpr static std::size_t addrs = 0x3ecbca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), "set_ContractTypeName",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), "set_ContractTypeName",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo.get_CreatedTypeName
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo.get_CreatedTypeName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::*)()>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::get_CreatedTypeName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_CreatedTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bc00;
+  constexpr static std::size_t addrs = 0x3ecbcac;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(),
-                                    "get_CreatedTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(),
+                                                 "get_CreatedTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo.set_CreatedTypeName
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo.set_CreatedTypeName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::*)(::StringW)>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::set_CreatedTypeName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_CreatedTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bc08;
+  constexpr static std::size_t addrs = 0x3ecbcb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), "set_CreatedTypeName",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), "set_CreatedTypeName",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo.get_BuilderTypeName
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo.get_BuilderTypeName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::*)()>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::get_BuilderTypeName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_BuilderTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bc10;
+  constexpr static std::size_t addrs = 0x3ecbcbc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(),
-                                    "get_BuilderTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(),
+                                                 "get_BuilderTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo.set_BuilderTypeName
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo.set_BuilderTypeName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::*)(::StringW)>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::set_BuilderTypeName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_BuilderTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bc18;
+  constexpr static std::size_t addrs = 0x3ecbcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), "set_BuilderTypeName",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), "set_BuilderTypeName",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_get__ContractTypeName_k__BackingField() {
+constexpr ::StringW& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_get__ContractTypeName_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContractTypeName_k__BackingField;
 }
-constexpr ::StringW const& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_get__ContractTypeName_k__BackingField() const {
+constexpr ::StringW const& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_get__ContractTypeName_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContractTypeName_k__BackingField;
 }
-constexpr void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_set__ContractTypeName_k__BackingField(::StringW value) {
+constexpr void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_set__ContractTypeName_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ContractTypeName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_get__CreatedTypeName_k__BackingField() {
+constexpr ::StringW& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_get__CreatedTypeName_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CreatedTypeName_k__BackingField;
 }
-constexpr ::StringW const& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_get__CreatedTypeName_k__BackingField() const {
+constexpr ::StringW const& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_get__CreatedTypeName_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CreatedTypeName_k__BackingField;
 }
-constexpr void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_set__CreatedTypeName_k__BackingField(::StringW value) {
+constexpr void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_set__CreatedTypeName_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CreatedTypeName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_get__BuilderTypeName_k__BackingField() {
+constexpr ::StringW& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_get__BuilderTypeName_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BuilderTypeName_k__BackingField;
 }
-constexpr ::StringW const& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_get__BuilderTypeName_k__BackingField() const {
+constexpr ::StringW const& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_get__BuilderTypeName_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BuilderTypeName_k__BackingField;
 }
-constexpr void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__cordl_internal_set__BuilderTypeName_k__BackingField(::StringW value) {
+constexpr void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::__cordl_internal_set__BuilderTypeName_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BuilderTypeName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*
-Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::New_ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>(contractTypeName, createdTypeName, builderTypeName));
-}
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::_ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName) {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::_ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), ".ctor",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, contractTypeName, createdTypeName, builderTypeName);
 }
-inline ::StringW Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::get_ContractTypeName() {
+inline ::StringW Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_ContractTypeName() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(),
                                                "get_ContractTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::set_ContractTypeName(::StringW value) {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_ContractTypeName(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), "set_ContractTypeName",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), "set_ContractTypeName",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::StringW Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::get_CreatedTypeName() {
+inline ::StringW Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_CreatedTypeName() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(),
                                                "get_CreatedTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::set_CreatedTypeName(::StringW value) {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_CreatedTypeName(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), "set_CreatedTypeName",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), "set_CreatedTypeName",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::StringW Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::get_BuilderTypeName() {
+inline ::StringW Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_BuilderTypeName() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(),
                                                "get_BuilderTypeName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::set_BuilderTypeName(::StringW value) {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_BuilderTypeName(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get(), "set_BuilderTypeName",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get(), "set_BuilderTypeName",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*
+Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::New_ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>(contractTypeName, createdTypeName, builderTypeName));
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c._ctor
+constexpr ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::*)()>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)()>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bc7c;
+  constexpr static std::size_t addrs = 0x3ecbd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c._TryBuildImmutableForArrayContract_b__24_1
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c._TryBuildImmutableForArrayContract_b__24_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::*)(::System::Reflection::MethodInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::_TryBuildImmutableForArrayContract_b__24_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)(::System::Reflection::MethodInfo*)>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForArrayContract_b__24_1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e6bc84;
+  constexpr static std::size_t addrs = 0x3ecbd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get(), "<TryBuildImmutableForArrayContract>b__24_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get(), "<TryBuildImmutableForArrayContract>b__24_1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c._TryBuildImmutableForDictionaryContract_b__25_1
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c._TryBuildImmutableForDictionaryContract_b__25_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::*)(::System::Reflection::MethodInfo*)>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::_TryBuildImmutableForDictionaryContract_b__25_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)(::System::Reflection::MethodInfo*)>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForDictionaryContract_b__25_1)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3e6bd18;
+  constexpr static std::size_t addrs = 0x3ecbdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get(), "<TryBuildImmutableForDictionaryContract>b__25_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get(), "<TryBuildImmutableForDictionaryContract>b__25_1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::setStaticF___9(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>(value));
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::setStaticF___9(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>(value));
 }
-inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get>();
+inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c* Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get>();
 }
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::setStaticF___9__24_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value) {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::setStaticF___9__24_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::MethodInfo*, bool>*, "<>9__24_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get>(
       std::forward<::System::Func_2<::System::Reflection::MethodInfo*, bool>*>(value));
 }
-inline ::System::Func_2<::System::Reflection::MethodInfo*, bool>* Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::getStaticF___9__24_1() {
+inline ::System::Func_2<::System::Reflection::MethodInfo*, bool>* Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::getStaticF___9__24_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::MethodInfo*, bool>*, "<>9__24_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get>();
 }
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::setStaticF___9__25_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value) {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::setStaticF___9__25_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::MethodInfo*, bool>*, "<>9__25_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get>(
       std::forward<::System::Func_2<::System::Reflection::MethodInfo*, bool>*>(value));
 }
-inline ::System::Func_2<::System::Reflection::MethodInfo*, bool>* Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::getStaticF___9__25_1() {
+inline ::System::Func_2<::System::Reflection::MethodInfo*, bool>* Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::getStaticF___9__25_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::MethodInfo*, bool>*, "<>9__25_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get>();
 }
-inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>());
-}
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::_ctor() {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::_TryBuildImmutableForArrayContract_b__24_1(::System::Reflection::MethodInfo* m) {
+inline bool Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForArrayContract_b__24_1(::System::Reflection::MethodInfo* m) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get(), "<TryBuildImmutableForArrayContract>b__24_1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get(), "<TryBuildImmutableForArrayContract>b__24_1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, m);
 }
-inline bool Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::_TryBuildImmutableForDictionaryContract_b__25_1(::System::Reflection::MethodInfo* m) {
+inline bool Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForDictionaryContract_b__25_1(::System::Reflection::MethodInfo* m) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c*>::get(), "<TryBuildImmutableForDictionaryContract>b__25_1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>::get(), "<TryBuildImmutableForDictionaryContract>b__25_1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, m);
+}
+inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c* Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*>());
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c::__ImmutableCollectionsUtils____c() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0._ctor
+constexpr ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::ImmutableCollectionsUtils___c() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::*)()>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::*)()>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6ae50;
+  constexpr static std::size_t addrs = 0x3ecaefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0._TryBuildImmutableForArrayContract_b__0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0._TryBuildImmutableForArrayContract_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::*)(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*)>(
-        &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::_TryBuildImmutableForArrayContract_b__0)> {
+    static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::*)(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*)>(
+        &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_TryBuildImmutableForArrayContract_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e6be68;
+  constexpr static std::size_t addrs = 0x3ecbf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0*>::get(), "<TryBuildImmutableForArrayContract>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0*>::get(), "<TryBuildImmutableForArrayContract>b__0",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::__cordl_internal_get_name() {
+constexpr ::StringW& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::__cordl_internal_get_name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr ::StringW const& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::__cordl_internal_get_name() const {
+constexpr ::StringW const& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::__cordl_internal_get_name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::__cordl_internal_set_name(::StringW value) {
+constexpr void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::__cordl_internal_set_name(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0* Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0*>());
-}
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::_ctor() {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::_TryBuildImmutableForArrayContract_b__0(
-    ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo* d) {
+inline bool Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_TryBuildImmutableForArrayContract_b__0(
+    ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo* d) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0*>::get(), "<TryBuildImmutableForArrayContract>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0*>::get(), "<TryBuildImmutableForArrayContract>b__0",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, d);
 }
+inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0* Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0::__ImmutableCollectionsUtils____c__DisplayClass24_0() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0._ctor
+constexpr ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::ImmutableCollectionsUtils___c__DisplayClass24_0() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::*)()>(
-    &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::*)()>(
+    &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6b2e4;
+  constexpr static std::size_t addrs = 0x3ecb390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0._TryBuildImmutableForDictionaryContract_b__0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0._TryBuildImmutableForDictionaryContract_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::*)(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*)>(
-        &::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::_TryBuildImmutableForDictionaryContract_b__0)> {
+    static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::*)(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*)>(
+        &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_TryBuildImmutableForDictionaryContract_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e6be8c;
+  constexpr static std::size_t addrs = 0x3ecbf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0*>::get(),
-        "<TryBuildImmutableForDictionaryContract>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0*>::get(), "<TryBuildImmutableForDictionaryContract>b__0",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::__cordl_internal_get_name() {
+constexpr ::StringW& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::__cordl_internal_get_name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr ::StringW const& Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::__cordl_internal_get_name() const {
+constexpr ::StringW const& Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::__cordl_internal_get_name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::__cordl_internal_set_name(::StringW value) {
+constexpr void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::__cordl_internal_set_name(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0* Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0*>());
-}
-inline void Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::_ctor() {
+inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::_TryBuildImmutableForDictionaryContract_b__0(
-    ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo* d) {
+inline bool Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_TryBuildImmutableForDictionaryContract_b__0(
+    ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo* d) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0*>::get(), "<TryBuildImmutableForDictionaryContract>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0*>::get(), "<TryBuildImmutableForDictionaryContract>b__0",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, d);
 }
+inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0* Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0::__ImmutableCollectionsUtils____c__DisplayClass25_0() {}
+constexpr ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::ImmutableCollectionsUtils___c__DisplayClass25_0() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils.TryBuildImmutableForArrayContract
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>, ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
+    static_cast<bool (*)(::System::Type*, ::System::Type*, ::ByRef<::System::Type*>, ::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x3e6aa18;
+  constexpr static std::size_t addrs = 0x3ecaac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,8 +438,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 4>{
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -447,10 +447,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Type*, ::System::Type*, ::System::Type*, ByRef<::System::Type*>, ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
+    static_cast<bool (*)(::System::Type*, ::System::Type*, ::System::Type*, ::ByRef<::System::Type*>, ::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x3e6ae58;
+  constexpr static std::size_t addrs = 0x3ecaf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -458,59 +458,58 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
 inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::setStaticF_ArrayContractImmutableCollectionDefinitions(
-    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*,
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*,
                                     "ArrayContractImmutableCollectionDefinitions",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>::get>(
-      std::forward<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*>(value));
+      std::forward<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*>(value));
 }
-inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*
+inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*
 Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::getStaticF_ArrayContractImmutableCollectionDefinitions() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*,
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*,
                                            "ArrayContractImmutableCollectionDefinitions",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>::get>();
 }
 inline void Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::setStaticF_DictionaryContractImmutableCollectionDefinitions(
-    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*,
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*,
                                     "DictionaryContractImmutableCollectionDefinitions",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>::get>(
-      std::forward<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*>(value));
+      std::forward<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*>(value));
 }
-inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*
+inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*
 Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::getStaticF_DictionaryContractImmutableCollectionDefinitions() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>*,
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*,
                                            "DictionaryContractImmutableCollectionDefinitions",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>::get>();
 }
 inline bool
-Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, ByRef<::System::Type*> createdType,
-                                                                                          ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
+Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, ::ByRef<::System::Type*> createdType,
+                                                                                          ::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>::get(), "TryBuildImmutableForArrayContract",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, underlyingType, collectionItemType, createdType, parameterizedCreator);
 }
-inline bool
-Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract(::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType,
-                                                                                               ByRef<::System::Type*> createdType,
-                                                                                               ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
+inline bool Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract(
+    ::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, ::ByRef<::System::Type*> createdType,
+    ::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>::get(), "TryBuildImmutableForDictionaryContract",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, underlyingType, keyItemType, valueItemType, createdType, parameterizedCreator);
 }
 // Ctor Parameters []

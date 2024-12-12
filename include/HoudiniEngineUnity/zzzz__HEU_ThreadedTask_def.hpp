@@ -22,11 +22,10 @@ class HEU_ThreadedTask;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ThreadedTask);
-// Type: HoudiniEngineUnity::HEU_ThreadedTask
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Threading.ThreadPriority
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_ThreadedTask*
+// CS Name: HoudiniEngineUnity.HEU_ThreadedTask
 class CORDL_TYPE HEU_ThreadedTask : public ::System::Object {
 public:
   // Declarations
@@ -66,36 +65,36 @@ public:
   /// @brief Field _thread, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__thread, put = __cordl_internal_set__thread)) ::System::Threading::Thread* _thread;
 
-  /// @brief Method Abort, addr 0x3a0c3d4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Abort, addr 0x3a63044, size 0x34, virtual true, abstract: false, final false
   inline void Abort();
 
-  /// @brief Method CleanUp, addr 0x3a0c680, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x3a632f0, size 0x4, virtual true, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method DoWork, addr 0x3a0c674, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DoWork, addr 0x3a632e4, size 0x4, virtual true, abstract: false, final false
   inline void DoWork();
 
   static inline ::HoudiniEngineUnity::HEU_ThreadedTask* New_ctor();
 
-  /// @brief Method OnComplete, addr 0x3a0c678, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x3a632e8, size 0x4, virtual true, abstract: false, final false
   inline void OnComplete();
 
-  /// @brief Method OnStopped, addr 0x3a0c67c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnStopped, addr 0x3a632ec, size 0x4, virtual true, abstract: false, final false
   inline void OnStopped();
 
-  /// @brief Method Reset, addr 0x3a0c408, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3a63078, size 0x84, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Run, addr 0x3a0c684, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3a632f4, size 0x24, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method Start, addr 0x3a0bf58, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3a62bc8, size 0x138, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3a0c210, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x3a62e80, size 0x3c, virtual true, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x3a0c48c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3a630fc, size 0x58, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isActive() const;
@@ -110,9 +109,9 @@ public:
 
   constexpr bool& __cordl_internal_get__isComplete();
 
-  constexpr ::System::Object*& __cordl_internal_get__lockHandle();
+  constexpr ::System::Object* const& __cordl_internal_get__lockHandle() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lockHandle() const;
+  constexpr ::System::Object*& __cordl_internal_get__lockHandle();
 
   constexpr ::StringW const& __cordl_internal_get__name() const;
 
@@ -126,9 +125,9 @@ public:
 
   constexpr bool& __cordl_internal_get__stopRequested();
 
-  constexpr ::System::Threading::Thread*& __cordl_internal_get__thread();
+  constexpr ::System::Threading::Thread* const& __cordl_internal_get__thread() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__thread() const;
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__thread();
 
   constexpr void __cordl_internal_set__isActive(bool value);
 
@@ -146,40 +145,40 @@ public:
 
   constexpr void __cordl_internal_set__thread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x3a0c6d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a63344, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsActive, addr 0x3a0c4e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x3a63154, size 0xc8, virtual false, abstract: false, final false
   inline bool get_IsActive();
 
-  /// @brief Method get_IsBackground, addr 0x3a0c6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsBackground, addr 0x3a63330, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsBackground();
 
-  /// @brief Method get_IsComplete, addr 0x3a0c24c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_IsComplete, addr 0x3a62ebc, size 0xc8, virtual false, abstract: false, final false
   inline bool get_IsComplete();
 
-  /// @brief Method get_Priority, addr 0x3a0c6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x3a63320, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::ThreadPriority get_Priority();
 
-  /// @brief Method get_StopRequested, addr 0x3a0c5ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_StopRequested, addr 0x3a6321c, size 0xc8, virtual false, abstract: false, final false
   inline bool get_StopRequested();
 
-  /// @brief Method get_TaskName, addr 0x3a0c6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TaskName, addr 0x3a63318, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TaskName();
 
-  /// @brief Method set_IsActive, addr 0x3a0c090, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_IsActive, addr 0x3a62d00, size 0xc0, virtual false, abstract: false, final false
   inline void set_IsActive(bool value);
 
-  /// @brief Method set_IsBackground, addr 0x3a0c6c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsBackground, addr 0x3a63338, size 0xc, virtual false, abstract: false, final false
   inline void set_IsBackground(bool value);
 
-  /// @brief Method set_IsComplete, addr 0x3a0c150, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_IsComplete, addr 0x3a62dc0, size 0xc0, virtual false, abstract: false, final false
   inline void set_IsComplete(bool value);
 
-  /// @brief Method set_Priority, addr 0x3a0c6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x3a63328, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(::System::Threading::ThreadPriority value);
 
-  /// @brief Method set_StopRequested, addr 0x3a0c314, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_StopRequested, addr 0x3a62f84, size 0xc0, virtual false, abstract: false, final false
   inline void set_StopRequested(bool value);
 
 protected:
@@ -195,6 +194,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ThreadedTask", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ThreadedTask(HEU_ThreadedTask const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11791 };
 
   /// @brief Field _isComplete, offset: 0x10, size: 0x1, def value: None
   bool ____isComplete;
@@ -220,14 +222,9 @@ public:
   /// @brief Field _name, offset: 0x30, size: 0x8, def value: None
   ::StringW ____name;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11758 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ThreadedTask, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____isComplete) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____isActive) == 0x11, "Offset mismatch!");
@@ -243,6 +240,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____priority) == 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____isBackground) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____name) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ThreadedTask, 0x38>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_ThreadedTask);

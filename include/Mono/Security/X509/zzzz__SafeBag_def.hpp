@@ -15,11 +15,10 @@ class SafeBag;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::SafeBag);
-// Type: Mono.Security.X509::SafeBag
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::Mono.Security.X509::SafeBag*
+// CS Name: Mono.Security.X509.SafeBag
 class CORDL_TYPE SafeBag : public ::System::Object {
 public:
   // Declarations
@@ -35,9 +34,9 @@ public:
 
   static inline ::Mono::Security::X509::SafeBag* New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  constexpr ::Mono::Security::ASN1*& __cordl_internal_get__asn1();
+  constexpr ::Mono::Security::ASN1* const& __cordl_internal_get__asn1() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __cordl_internal_get__asn1() const;
+  constexpr ::Mono::Security::ASN1*& __cordl_internal_get__asn1();
 
   constexpr ::StringW const& __cordl_internal_get__bagOID() const;
 
@@ -47,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__bagOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3bd2598, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c326ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_ASN1, addr 0x3bd25cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x3c326e0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_BagOID, addr 0x3bd25c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagOID, addr 0x3c326d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BagOID();
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeBag(SafeBag const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15916 };
+
   /// @brief Field _bagOID, offset: 0x10, size: 0x8, def value: None
   ::StringW ____bagOID;
 
   /// @brief Field _asn1, offset: 0x18, size: 0x8, def value: None
   ::Mono::Security::ASN1* ____asn1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15881 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::SafeBag, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::X509::SafeBag, ____bagOID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::SafeBag, ____asn1) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::SafeBag, 0x20>, "Size mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::SafeBag);

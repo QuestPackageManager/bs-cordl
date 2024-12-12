@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/zzzz__IAsyncLocal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncLocal_1)
 namespace System::Threading {
 template <typename T> struct AsyncLocalValueChangedArgs_1;
-}
-namespace System::Threading {
-class IAsyncLocal;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -23,13 +21,12 @@ template <typename T> class AsyncLocal_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::AsyncLocal_1);
-// Type: System.Threading::AsyncLocal`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Threading.IAsyncLocal
 namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Threading::AsyncLocal`1<T>*
+// CS Name: System.Threading.AsyncLocal`1<T>
 class CORDL_TYPE AsyncLocal_1 : public ::System::Object {
 public:
   // Declarations
@@ -47,9 +44,9 @@ public:
   /// @brief Method System.Threading.IAsyncLocal.OnValueChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Threading_IAsyncLocal_OnValueChanged(::System::Object* previousValueObj, ::System::Object* currentValueObj, bool contextChanged);
 
-  constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*& __cordl_internal_get_m_valueChangedHandler();
+  constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* const& __cordl_internal_get_m_valueChangedHandler() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*> const& __cordl_internal_get_m_valueChangedHandler() const;
+  constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*& __cordl_internal_get_m_valueChangedHandler();
 
   constexpr void __cordl_internal_set_m_valueChangedHandler(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* value);
 
@@ -76,11 +73,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncLocal_1(AsyncLocal_1 const&) = delete;
 
-  /// @brief Field m_valueChangedHandler, offset: 0x10, size: 0x8, def value: None
-  ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* ___m_valueChangedHandler;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2661 };
+
+  /// @brief Field m_valueChangedHandler, offset: 0x10, size: 0x8, def value: None
+  ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* ___m_valueChangedHandler;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

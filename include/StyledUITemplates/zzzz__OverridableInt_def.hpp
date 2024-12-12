@@ -12,17 +12,16 @@ class OverridableInt;
 }
 // Write type traits
 MARK_REF_PTR_T(::StyledUITemplates::OverridableInt);
-// Type: StyledUITemplates::OverridableInt
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies StyledUITemplates.OverridableData`1<T>
 namespace StyledUITemplates {
 // Is value type: false
-// CS Name: ::StyledUITemplates::OverridableInt*
+// CS Name: StyledUITemplates.OverridableInt
 class CORDL_TYPE OverridableInt : public ::StyledUITemplates::OverridableData_1<int32_t> {
 public:
   // Declarations
   static inline ::StyledUITemplates::OverridableInt* New_ctor();
 
-  /// @brief Method .ctor, addr 0x401bd88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407d040, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +39,7 @@ public:
   OverridableInt(OverridableInt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

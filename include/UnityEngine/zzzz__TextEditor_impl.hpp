@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TextEditor.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/zzzz__TextEditor_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
@@ -9,19 +8,19 @@
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::__TextEditor__DblClickSnapping::__TextEditor__DblClickSnapping(uint8_t value__) noexcept {
+constexpr ::UnityEngine::TextEditor_DblClickSnapping::TextEditor_DblClickSnapping(uint8_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__TextEditor__DblClickSnapping::__TextEditor__DblClickSnapping() {}
-constexpr ::UnityEngine::__TextEditor__DblClickSnapping UnityEngine::__TextEditor__DblClickSnapping::WORDS{ static_cast<uint8_t>(0x0u) };
-constexpr ::UnityEngine::__TextEditor__DblClickSnapping UnityEngine::__TextEditor__DblClickSnapping::PARAGRAPHS{ static_cast<uint8_t>(0x1u) };
+constexpr ::UnityEngine::TextEditor_DblClickSnapping::TextEditor_DblClickSnapping() {}
+constexpr ::UnityEngine::TextEditor_DblClickSnapping UnityEngine::TextEditor_DblClickSnapping::WORDS{ static_cast<uint8_t>(0x0u) };
+constexpr ::UnityEngine::TextEditor_DblClickSnapping UnityEngine::TextEditor_DblClickSnapping::PARAGRAPHS{ static_cast<uint8_t>(0x1u) };
 //  Writing Method size for method: ::UnityEngine::TextEditor._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextEditor::*)()>(&::UnityEngine::TextEditor::_ctor)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48818b0;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x48e4a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditor*>::get(), ".ctor",
@@ -33,7 +32,7 @@ constexpr ::UnityEngine::TouchScreenKeyboard*& UnityEngine::TextEditor::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardOnScreen;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TouchScreenKeyboard*> const& UnityEngine::TextEditor::__cordl_internal_get_keyboardOnScreen() const {
+constexpr ::UnityEngine::TouchScreenKeyboard* const& UnityEngine::TextEditor::__cordl_internal_get_keyboardOnScreen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardOnScreen;
 }
@@ -57,7 +56,7 @@ constexpr ::UnityEngine::GUIStyle*& UnityEngine::TextEditor::__cordl_internal_ge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___style;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& UnityEngine::TextEditor::__cordl_internal_get_style() const {
+constexpr ::UnityEngine::GUIStyle* const& UnityEngine::TextEditor::__cordl_internal_get_style() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___style;
 }
@@ -117,7 +116,7 @@ constexpr ::UnityEngine::GUIContent*& UnityEngine::TextEditor::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Content;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& UnityEngine::TextEditor::__cordl_internal_get_m_Content() const {
+constexpr ::UnityEngine::GUIContent* const& UnityEngine::TextEditor::__cordl_internal_get_m_Content() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Content;
 }
@@ -185,15 +184,15 @@ constexpr void UnityEngine::TextEditor::__cordl_internal_set_m_DblClickInitPos(i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DblClickInitPos = value;
 }
-constexpr ::UnityEngine::__TextEditor__DblClickSnapping& UnityEngine::TextEditor::__cordl_internal_get_m_DblClickSnap() {
+constexpr ::UnityEngine::TextEditor_DblClickSnapping& UnityEngine::TextEditor::__cordl_internal_get_m_DblClickSnap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DblClickSnap;
 }
-constexpr ::UnityEngine::__TextEditor__DblClickSnapping const& UnityEngine::TextEditor::__cordl_internal_get_m_DblClickSnap() const {
+constexpr ::UnityEngine::TextEditor_DblClickSnapping const& UnityEngine::TextEditor::__cordl_internal_get_m_DblClickSnap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DblClickSnap;
 }
-constexpr void UnityEngine::TextEditor::__cordl_internal_set_m_DblClickSnap(::UnityEngine::__TextEditor__DblClickSnapping value) {
+constexpr void UnityEngine::TextEditor::__cordl_internal_set_m_DblClickSnap(::UnityEngine::TextEditor_DblClickSnapping value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DblClickSnap = value;
 }
@@ -221,13 +220,13 @@ constexpr void UnityEngine::TextEditor::__cordl_internal_set_m_iAltCursorPos(int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_iAltCursorPos = value;
 }
-inline ::UnityEngine::TextEditor* UnityEngine::TextEditor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextEditor*>());
-}
 inline void UnityEngine::TextEditor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextEditor*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::TextEditor* UnityEngine::TextEditor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextEditor*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextEditor::TextEditor() {}

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubjectPublicKeyInfoFactory)
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -22,26 +21,25 @@ class SubjectPublicKeyInfoFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory);
-// Type: Org.BouncyCastle.X509::SubjectPublicKeyInfoFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509::SubjectPublicKeyInfoFactory*
+// CS Name: Org.BouncyCastle.X509.SubjectPublicKeyInfoFactory
 class CORDL_TYPE SubjectPublicKeyInfoFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateSubjectPublicKeyInfo, addr 0x25b9cd0, size 0xe60, virtual false, abstract: false, final false
+  /// @brief Method CreateSubjectPublicKeyInfo, addr 0x25ecfbc, size 0xe60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* CreateSubjectPublicKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ExtractBytes, addr 0x25bac38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ExtractBytes, addr 0x25edf24, size 0xc4, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t offset, ::Org::BouncyCastle::Math::BigInteger* bI);
 
-  /// @brief Method ExtractBytes, addr 0x25bab30, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ExtractBytes, addr 0x25ede1c, size 0x108, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t size, int32_t offSet, ::Org::BouncyCastle::Math::BigInteger* bI);
 
   static inline ::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25b9cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ecfb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

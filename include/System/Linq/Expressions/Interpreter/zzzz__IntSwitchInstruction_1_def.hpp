@@ -19,13 +19,12 @@ template <typename T> class IntSwitchInstruction_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::IntSwitchInstruction_1);
-// Type: System.Linq.Expressions.Interpreter::IntSwitchInstruction`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::IntSwitchInstruction`1<T>*
+// CS Name: System.Linq.Expressions.Interpreter.IntSwitchInstruction`1<T>
 class CORDL_TYPE IntSwitchInstruction_1 : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -41,9 +40,9 @@ public:
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>*& __cordl_internal_get__cases();
+  constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>* const& __cordl_internal_get__cases() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<T, int32_t>*> const& __cordl_internal_get__cases() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>*& __cordl_internal_get__cases();
 
   constexpr void __cordl_internal_set__cases(::System::Collections::Generic::Dictionary_2<T, int32_t>* value);
 
@@ -70,11 +69,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntSwitchInstruction_1(IntSwitchInstruction_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13794 };
+
   /// @brief Field _cases, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<T, int32_t>* ____cases;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

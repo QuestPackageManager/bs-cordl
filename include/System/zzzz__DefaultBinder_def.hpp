@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -33,6 +31,15 @@ namespace System::Reflection {
 class PropertyInfo;
 }
 namespace System {
+class DefaultBinder_BinderState;
+}
+namespace System {
+struct DefaultBinder_Primitives;
+}
+namespace System {
+class DefaultBinder___c;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -44,39 +51,29 @@ class RuntimeType;
 namespace System {
 class Type;
 }
-namespace System {
-class __DefaultBinder__BinderState;
-}
-namespace System {
-struct __DefaultBinder__Primitives;
-}
-namespace System {
-class __DefaultBinder____c;
-}
 // Forward declare root types
 namespace System {
-struct __DefaultBinder__Primitives;
+struct DefaultBinder_Primitives;
 }
 namespace System {
 class DefaultBinder;
 }
 namespace System {
-class __DefaultBinder__BinderState;
+class DefaultBinder_BinderState;
 }
 namespace System {
-class __DefaultBinder____c;
+class DefaultBinder___c;
 }
 // Write type traits
-MARK_VAL_T(::System::__DefaultBinder__Primitives);
+MARK_VAL_T(::System::DefaultBinder_Primitives);
 MARK_REF_PTR_T(::System::DefaultBinder);
-MARK_REF_PTR_T(::System::__DefaultBinder__BinderState);
-MARK_REF_PTR_T(::System::__DefaultBinder____c);
-// Type: ::BinderState
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::DefaultBinder_BinderState);
+MARK_REF_PTR_T(::System::DefaultBinder___c);
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::DefaultBinder::BinderState*
-class CORDL_TYPE __DefaultBinder__BinderState : public ::System::Object {
+// CS Name: System.DefaultBinder/BinderState
+class CORDL_TYPE DefaultBinder_BinderState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_argsMap, offset 0x10, size 0x8
@@ -88,7 +85,7 @@ public:
   /// @brief Field m_originalSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_originalSize, put = __cordl_internal_set_m_originalSize)) int32_t m_originalSize;
 
-  static inline ::System::__DefaultBinder__BinderState* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> argsMap, int32_t originalSize, bool isParamArray);
+  static inline ::System::DefaultBinder_BinderState* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> argsMap, int32_t originalSize, bool isParamArray);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_argsMap() const;
 
@@ -108,22 +105,25 @@ public:
 
   constexpr void __cordl_internal_set_m_originalSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3db963c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e196e8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> argsMap, int32_t originalSize, bool isParamArray);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __DefaultBinder__BinderState();
+  constexpr DefaultBinder_BinderState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__DefaultBinder__BinderState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder_BinderState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __DefaultBinder__BinderState(__DefaultBinder__BinderState&&) = delete;
+  DefaultBinder_BinderState(DefaultBinder_BinderState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__DefaultBinder__BinderState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder_BinderState", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __DefaultBinder__BinderState(__DefaultBinder__BinderState const&) = delete;
+  DefaultBinder_BinderState(DefaultBinder_BinderState const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2552 };
 
   /// @brief Field m_argsMap, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___m_argsMap;
@@ -134,33 +134,29 @@ public:
   /// @brief Field m_isParamArray, offset: 0x1c, size: 0x1, def value: None
   bool ___m_isParamArray;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2552 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::__DefaultBinder__BinderState, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::DefaultBinder_BinderState, ___m_argsMap) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::__DefaultBinder__BinderState, ___m_argsMap) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::DefaultBinder_BinderState, ___m_originalSize) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::__DefaultBinder__BinderState, ___m_originalSize) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::DefaultBinder_BinderState, ___m_isParamArray) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::__DefaultBinder__BinderState, ___m_isParamArray) == 0x1c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::DefaultBinder_BinderState, 0x20>, "Size mismatch!");
 
 } // namespace System
-// Type: ::Primitives
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::DefaultBinder::Primitives
-struct CORDL_TYPE __DefaultBinder__Primitives {
+// CS Name: System.DefaultBinder/Primitives
+struct CORDL_TYPE DefaultBinder_Primitives {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____DefaultBinder__Primitives_Unwrapped
-  enum struct ____DefaultBinder__Primitives_Unwrapped : int32_t {
+  /// @brief Nested struct __DefaultBinder_Primitives_Unwrapped
+  enum struct __DefaultBinder_Primitives_Unwrapped : int32_t {
     __E_Boolean = static_cast<int32_t>(0x8),
     __E_Char = static_cast<int32_t>(0x10),
     __E_SByte = static_cast<int32_t>(0x20),
@@ -179,8 +175,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____DefaultBinder__Primitives_Unwrapped() const noexcept {
-    return static_cast<____DefaultBinder__Primitives_Unwrapped>(this->value__);
+  constexpr operator __DefaultBinder_Primitives_Unwrapped() const noexcept {
+    return static_cast<__DefaultBinder_Primitives_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -190,58 +186,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __DefaultBinder__Primitives();
+  constexpr DefaultBinder_Primitives();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __DefaultBinder__Primitives(int32_t value__) noexcept;
+  constexpr DefaultBinder_Primitives(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Boolean value: I32(8)
+  static ::System::DefaultBinder_Primitives const Boolean;
 
-  /// @brief Field Boolean value: static_cast<int32_t>(0x8)
-  static ::System::__DefaultBinder__Primitives const Boolean;
+  /// @brief Field Byte value: I32(64)
+  static ::System::DefaultBinder_Primitives const Byte;
 
-  /// @brief Field Byte value: static_cast<int32_t>(0x40)
-  static ::System::__DefaultBinder__Primitives const Byte;
+  /// @brief Field Char value: I32(16)
+  static ::System::DefaultBinder_Primitives const Char;
 
-  /// @brief Field Char value: static_cast<int32_t>(0x10)
-  static ::System::__DefaultBinder__Primitives const Char;
+  /// @brief Field DateTime value: I32(65536)
+  static ::System::DefaultBinder_Primitives const DateTime;
 
-  /// @brief Field DateTime value: static_cast<int32_t>(0x10000)
-  static ::System::__DefaultBinder__Primitives const DateTime;
+  /// @brief Field Decimal value: I32(32768)
+  static ::System::DefaultBinder_Primitives const Decimal;
 
-  /// @brief Field Decimal value: static_cast<int32_t>(0x8000)
-  static ::System::__DefaultBinder__Primitives const Decimal;
+  /// @brief Field Double value: I32(16384)
+  static ::System::DefaultBinder_Primitives const Double;
 
-  /// @brief Field Double value: static_cast<int32_t>(0x4000)
-  static ::System::__DefaultBinder__Primitives const Double;
+  /// @brief Field Int16 value: I32(128)
+  static ::System::DefaultBinder_Primitives const Int16;
 
-  /// @brief Field Int16 value: static_cast<int32_t>(0x80)
-  static ::System::__DefaultBinder__Primitives const Int16;
+  /// @brief Field Int32 value: I32(512)
+  static ::System::DefaultBinder_Primitives const Int32;
 
-  /// @brief Field Int32 value: static_cast<int32_t>(0x200)
-  static ::System::__DefaultBinder__Primitives const Int32;
+  /// @brief Field Int64 value: I32(2048)
+  static ::System::DefaultBinder_Primitives const Int64;
 
-  /// @brief Field Int64 value: static_cast<int32_t>(0x800)
-  static ::System::__DefaultBinder__Primitives const Int64;
+  /// @brief Field SByte value: I32(32)
+  static ::System::DefaultBinder_Primitives const SByte;
 
-  /// @brief Field SByte value: static_cast<int32_t>(0x20)
-  static ::System::__DefaultBinder__Primitives const SByte;
+  /// @brief Field Single value: I32(8192)
+  static ::System::DefaultBinder_Primitives const Single;
 
-  /// @brief Field Single value: static_cast<int32_t>(0x2000)
-  static ::System::__DefaultBinder__Primitives const Single;
+  /// @brief Field String value: I32(262144)
+  static ::System::DefaultBinder_Primitives const String;
 
-  /// @brief Field String value: static_cast<int32_t>(0x40000)
-  static ::System::__DefaultBinder__Primitives const String;
+  /// @brief Field UInt16 value: I32(256)
+  static ::System::DefaultBinder_Primitives const UInt16;
 
-  /// @brief Field UInt16 value: static_cast<int32_t>(0x100)
-  static ::System::__DefaultBinder__Primitives const UInt16;
+  /// @brief Field UInt32 value: I32(1024)
+  static ::System::DefaultBinder_Primitives const UInt32;
 
-  /// @brief Field UInt32 value: static_cast<int32_t>(0x400)
-  static ::System::__DefaultBinder__Primitives const UInt32;
-
-  /// @brief Field UInt64 value: static_cast<int32_t>(0x1000)
-  static ::System::__DefaultBinder__Primitives const UInt64;
+  /// @brief Field UInt64 value: I32(4096)
+  static ::System::DefaultBinder_Primitives const UInt64;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2553 };
@@ -249,57 +242,59 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::__DefaultBinder__Primitives, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::DefaultBinder_Primitives, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::__DefaultBinder__Primitives, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::DefaultBinder_Primitives, 0x4>, "Size mismatch!");
 
 } // namespace System
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::DefaultBinder::<>c*
-class CORDL_TYPE __DefaultBinder____c : public ::System::Object {
+// CS Name: System.DefaultBinder/<>c
+class CORDL_TYPE DefaultBinder___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::__DefaultBinder____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::DefaultBinder___c* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Predicate_1<::System::Type*>* __9__2_0;
+  __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Predicate_1<::System::Type*>* __9__2_0;
 
-  static inline ::System::__DefaultBinder____c* New_ctor();
+  static inline ::System::DefaultBinder___c* New_ctor();
 
-  /// @brief Method <SelectProperty>b__2_0, addr 0x3dbca0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <SelectProperty>b__2_0, addr 0x3e1cab8, size 0x5c, virtual false, abstract: false, final false
   inline bool _SelectProperty_b__2_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x3dbca04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1cab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::__DefaultBinder____c* getStaticF___9();
+  static inline ::System::DefaultBinder___c* getStaticF___9();
 
   static inline ::System::Predicate_1<::System::Type*>* getStaticF___9__2_0();
 
-  static inline void setStaticF___9(::System::__DefaultBinder____c* value);
+  static inline void setStaticF___9(::System::DefaultBinder___c* value);
 
   static inline void setStaticF___9__2_0(::System::Predicate_1<::System::Type*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __DefaultBinder____c();
+  constexpr DefaultBinder___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__DefaultBinder____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __DefaultBinder____c(__DefaultBinder____c&&) = delete;
+  DefaultBinder___c(DefaultBinder___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__DefaultBinder____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __DefaultBinder____c(__DefaultBinder____c const&) = delete;
+  DefaultBinder___c(DefaultBinder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2554 };
@@ -307,124 +302,122 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::__DefaultBinder____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::DefaultBinder___c, 0x10>, "Size mismatch!");
 
 } // namespace System
-// Type: System::DefaultBinder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.Binder
 namespace System {
 // Is value type: false
-// CS Name: ::System::DefaultBinder*
+// CS Name: System.DefaultBinder
 class CORDL_TYPE DefaultBinder : public ::System::Reflection::Binder {
 public:
   // Declarations
-  using BinderState = ::System::__DefaultBinder__BinderState;
+  using BinderState = ::System::DefaultBinder_BinderState;
 
-  using Primitives = ::System::__DefaultBinder__Primitives;
+  using Primitives = ::System::DefaultBinder_Primitives;
 
-  using __c = ::System::__DefaultBinder____c;
+  using __c = ::System::DefaultBinder___c;
 
   /// @brief Field _primitiveConversions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__primitiveConversions,
-                             put = setStaticF__primitiveConversions)) ::ArrayW<::System::__DefaultBinder__Primitives, ::Array<::System::__DefaultBinder__Primitives>*>
+  __declspec(property(get = getStaticF__primitiveConversions, put = setStaticF__primitiveConversions)) ::ArrayW<::System::DefaultBinder_Primitives, ::Array<::System::DefaultBinder_Primitives>*>
       _primitiveConversions;
 
-  /// @brief Method BindToField, addr 0x3db994c, size 0x49c, virtual true, abstract: false, final false
+  /// @brief Method BindToField, addr 0x3e199f8, size 0x49c, virtual true, abstract: false, final false
   inline ::System::Reflection::FieldInfo* BindToField(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> match,
                                                       ::System::Object* value, ::System::Globalization::CultureInfo* cultureInfo);
 
-  /// @brief Method BindToMethod, addr 0x3db742c, size 0x1ec8, virtual true, abstract: false, final false
+  /// @brief Method BindToMethod, addr 0x3e174d8, size 0x1ec8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodBase* BindToMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
-                                                        ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args,
+                                                        ::ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args,
                                                         ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers,
-                                                        ::System::Globalization::CultureInfo* cultureInfo, ::ArrayW<::StringW, ::Array<::StringW>*> names, ByRef<::System::Object*> state);
+                                                        ::System::Globalization::CultureInfo* cultureInfo, ::ArrayW<::StringW, ::Array<::StringW>*> names, ::ByRef<::System::Object*> state);
 
-  /// @brief Method CanChangePrimitive, addr 0x3dbc7d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CanChangePrimitive, addr 0x3e1c884, size 0x64, virtual false, abstract: false, final false
   static inline bool CanChangePrimitive(::System::Type* source, ::System::Type* target);
 
-  /// @brief Method CanConvertPrimitive, addr 0x3dba8d0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method CanConvertPrimitive, addr 0x3e1a97c, size 0x224, virtual false, abstract: false, final false
   static inline bool CanConvertPrimitive(::System::RuntimeType* source, ::System::RuntimeType* target);
 
-  /// @brief Method CanConvertPrimitiveObjectToType, addr 0x3db952c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CanConvertPrimitiveObjectToType, addr 0x3e195d8, size 0x110, virtual false, abstract: false, final false
   static inline bool CanConvertPrimitiveObjectToType(::System::Object* source, ::System::RuntimeType* type);
 
-  /// @brief Method CanPrimitiveWiden, addr 0x3dbc83c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CanPrimitiveWiden, addr 0x3e1c8e8, size 0xd0, virtual false, abstract: false, final false
   static inline bool CanPrimitiveWiden(::System::Type* source, ::System::Type* target);
 
-  /// @brief Method ChangeType, addr 0x3dbb3c8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x3e1b474, size 0x58, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* type, ::System::Globalization::CultureInfo* cultureInfo);
 
-  /// @brief Method CompareMethodSig, addr 0x3dbbf44, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CompareMethodSig, addr 0x3e1bff0, size 0x168, virtual false, abstract: false, final false
   static inline bool CompareMethodSig(::System::Reflection::MethodBase* m1, ::System::Reflection::MethodBase* m2);
 
-  /// @brief Method CompareMethodSigAndName, addr 0x3dbbd48, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CompareMethodSigAndName, addr 0x3e1bdf4, size 0x168, virtual false, abstract: false, final false
   static inline bool CompareMethodSigAndName(::System::Reflection::MethodBase* m1, ::System::Reflection::MethodBase* m2);
 
-  /// @brief Method CreateParamOrder, addr 0x3db92f4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method CreateParamOrder, addr 0x3e193a0, size 0x238, virtual false, abstract: false, final false
   static inline bool CreateParamOrder(::ArrayW<int32_t, ::Array<int32_t>*> paramOrder, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> pars,
                                       ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method ExactBinding, addr 0x3dbb708, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ExactBinding, addr 0x3e1b7b4, size 0x260, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* ExactBinding(::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
                                                                ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                                                ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method ExactPropertyBinding, addr 0x3dbbab0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ExactPropertyBinding, addr 0x3e1bb5c, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Reflection::PropertyInfo* ExactPropertyBinding(::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> match, ::System::Type* returnType,
                                                                          ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                                                          ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method FindMostDerivedNewSlotMeth, addr 0x3dbb968, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FindMostDerivedNewSlotMeth, addr 0x3e1ba14, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* FindMostDerivedNewSlotMeth(::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match, int32_t cMatches);
 
-  /// @brief Method FindMostSpecific, addr 0x3dbae90, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecific, addr 0x3e1af3c, size 0x450, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecific(::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> p1, ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder1,
                                          ::System::Type* paramArrayType1, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> p2,
                                          ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder2, ::System::Type* paramArrayType2, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                          ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method FindMostSpecificField, addr 0x3db9de8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificField, addr 0x3e19e94, size 0xe8, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificField(::System::Reflection::FieldInfo* cur1, ::System::Reflection::FieldInfo* cur2);
 
-  /// @brief Method FindMostSpecificMethod, addr 0x3db97cc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificMethod, addr 0x3e19878, size 0x180, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificMethod(::System::Reflection::MethodBase* m1, ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder1, ::System::Type* paramArrayType1,
                                                ::System::Reflection::MethodBase* m2, ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder2, ::System::Type* paramArrayType2,
                                                ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method FindMostSpecificProperty, addr 0x3dbb2e0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificProperty, addr 0x3e1b38c, size 0xe8, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificProperty(::System::Reflection::PropertyInfo* cur1, ::System::Reflection::PropertyInfo* cur2);
 
-  /// @brief Method FindMostSpecificType, addr 0x3dbaaf4, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificType, addr 0x3e1aba0, size 0x39c, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificType(::System::Type* c1, ::System::Type* c2, ::System::Type* t);
 
-  /// @brief Method GetHierarchyDepth, addr 0x3dbbeb0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetHierarchyDepth, addr 0x3e1bf5c, size 0x94, virtual false, abstract: false, final false
   static inline int32_t GetHierarchyDepth(::System::Type* t);
 
   static inline ::System::DefaultBinder* New_ctor();
 
-  /// @brief Method ReorderArgumentArray, addr 0x3dbb420, size 0x2e8, virtual true, abstract: false, final false
-  inline void ReorderArgumentArray(ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args, ::System::Object* state);
+  /// @brief Method ReorderArgumentArray, addr 0x3e1b4cc, size 0x2e8, virtual true, abstract: false, final false
+  inline void ReorderArgumentArray(::ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args, ::System::Object* state);
 
-  /// @brief Method ReorderParams, addr 0x3db967c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReorderParams, addr 0x3e19728, size 0x150, virtual false, abstract: false, final false
   static inline void ReorderParams(::ArrayW<int32_t, ::Array<int32_t>*> paramOrder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> vars);
 
-  /// @brief Method SelectMethod, addr 0x3dbc0ac, size 0x72c, virtual true, abstract: false, final true
+  /// @brief Method SelectMethod, addr 0x3e1c158, size 0x72c, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* SelectMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
                                                         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                                         ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method SelectProperty, addr 0x3db9ed0, size 0xa00, virtual true, abstract: false, final false
+  /// @brief Method SelectProperty, addr 0x3e19f7c, size 0xa00, virtual true, abstract: false, final false
   inline ::System::Reflection::PropertyInfo* SelectProperty(::System::Reflection::BindingFlags bindingAttr,
                                                             ::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> match, ::System::Type* returnType,
                                                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*> indexes,
                                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method .ctor, addr 0x3dbc90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1c9b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::ArrayW<::System::__DefaultBinder__Primitives, ::Array<::System::__DefaultBinder__Primitives>*> getStaticF__primitiveConversions();
+  static inline ::ArrayW<::System::DefaultBinder_Primitives, ::Array<::System::DefaultBinder_Primitives>*> getStaticF__primitiveConversions();
 
-  static inline void setStaticF__primitiveConversions(::ArrayW<::System::__DefaultBinder__Primitives, ::Array<::System::__DefaultBinder__Primitives>*> value);
+  static inline void setStaticF__primitiveConversions(::ArrayW<::System::DefaultBinder_Primitives, ::Array<::System::DefaultBinder_Primitives>*> value);
 
 protected:
   // Ctor Parameters []
@@ -449,10 +442,10 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::DefaultBinder, 0x10>, "Size mismatch!");
 
 } // namespace System
-DEFINE_IL2CPP_ARG_TYPE(::System::__DefaultBinder__Primitives, "System", "DefaultBinder/Primitives");
+DEFINE_IL2CPP_ARG_TYPE(::System::DefaultBinder_Primitives, "System", "DefaultBinder/Primitives");
 NEED_NO_BOX(::System::DefaultBinder);
 DEFINE_IL2CPP_ARG_TYPE(::System::DefaultBinder*, "System", "DefaultBinder");
-NEED_NO_BOX(::System::__DefaultBinder__BinderState);
-DEFINE_IL2CPP_ARG_TYPE(::System::__DefaultBinder__BinderState*, "System", "DefaultBinder/BinderState");
-NEED_NO_BOX(::System::__DefaultBinder____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::__DefaultBinder____c*, "System", "DefaultBinder/<>c");
+NEED_NO_BOX(::System::DefaultBinder_BinderState);
+DEFINE_IL2CPP_ARG_TYPE(::System::DefaultBinder_BinderState*, "System", "DefaultBinder/BinderState");
+NEED_NO_BOX(::System::DefaultBinder___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::DefaultBinder___c*, "System", "DefaultBinder/<>c");

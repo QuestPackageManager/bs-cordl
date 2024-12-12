@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a8c458;
+  constexpr static std::size_t addrs = 0x4af0d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c480;
+  constexpr static std::size_t addrs = 0x4af0d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::set_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c488;
+  constexpr static std::size_t addrs = 0x4af0d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,9 +59,6 @@ constexpr void JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Format_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute* JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::New_ctor(::StringW format) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*>(format));
-}
 inline void JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::_ctor(::StringW format) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*>::get(), ".ctor",
@@ -79,6 +76,9 @@ inline void JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::se
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*>::get(), "set_Format",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute* JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::New_ctor(::StringW format) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*>(format));
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::AspMvcPartialViewLocationFormatAttribute() {}

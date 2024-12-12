@@ -17,11 +17,10 @@ class WaypointData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::WaypointData);
-// Type: BeatmapSaveDataVersion3::WaypointData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.OffsetDirection, BeatmapSaveDataVersion3.BeatmapSaveDataItem
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::WaypointData*
+// CS Name: BeatmapSaveDataVersion3.WaypointData
 class CORDL_TYPE WaypointData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -60,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d4c08, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706578, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
 
-  /// @brief Method get_layer, addr 0x26d4bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x2706568, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x26d4bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x2706560, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
-  /// @brief Method get_offsetDirection, addr 0x26d4c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetDirection, addr 0x2706570, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::OffsetDirection get_offsetDirection();
 
 protected:
@@ -86,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WaypointData(WaypointData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13418 };
+
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 
@@ -95,19 +97,16 @@ public:
   /// @brief Field d, offset: 0x1c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::OffsetDirection ___d;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13387 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::WaypointData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::WaypointData, ___x) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::WaypointData, ___y) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::WaypointData, ___d) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::WaypointData, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::WaypointData);

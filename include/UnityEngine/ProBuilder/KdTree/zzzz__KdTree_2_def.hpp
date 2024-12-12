@@ -3,16 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdTree_2)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
@@ -21,9 +22,6 @@ template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -35,9 +33,6 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 namespace UnityEngine::ProBuilder::KdTree {
@@ -47,45 +42,41 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> struct HyperRect_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class IKdTree_2;
-}
-namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class KdTreeNode_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class KdTree_2__GetEnumerator_d__33;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class KdTree_2___c__DisplayClass33_0;
+}
+namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TDistance> class NearestNeighbourList_2;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class KdTree_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
+template <typename TKey, typename TValue> class KdTree_2__GetEnumerator_d__33;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
+template <typename TKey, typename TValue> class KdTree_2___c__DisplayClass33_0;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::KdTree_2);
-MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33);
-MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0);
-// Type: ::<>c__DisplayClass33_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33);
+MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0);
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::KdTree`2::<>c__DisplayClass33_0<TKey,TValue>*
-class CORDL_TYPE __KdTree_2____c__DisplayClass33_0 : public ::System::Object {
+// CS Name: UnityEngine.ProBuilder.KdTree.KdTree`2/<>c__DisplayClass33_0<TKey,TValue>
+class CORDL_TYPE KdTree_2___c__DisplayClass33_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field left, offset 0x10, size 0x8
@@ -95,7 +86,7 @@ public:
   __declspec(property(get = __cordl_internal_get_right,
                       put = __cordl_internal_set_right)) ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* right;
 
-  static inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* New_ctor();
+  static inline ::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>* New_ctor();
 
   /// @brief Method <GetEnumerator>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _GetEnumerator_b__0(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node);
@@ -103,13 +94,13 @@ public:
   /// @brief Method <GetEnumerator>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _GetEnumerator_b__1(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node);
 
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* const& __cordl_internal_get_left() const;
+
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get_left();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get_left() const;
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* const& __cordl_internal_get_right() const;
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get_right();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get_right() const;
 
   constexpr void __cordl_internal_set_left(::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
 
@@ -121,16 +112,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __KdTree_2____c__DisplayClass33_0();
+  constexpr KdTree_2___c__DisplayClass33_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__KdTree_2____c__DisplayClass33_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2___c__DisplayClass33_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __KdTree_2____c__DisplayClass33_0(__KdTree_2____c__DisplayClass33_0&&) = delete;
+  KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__KdTree_2____c__DisplayClass33_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2___c__DisplayClass33_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __KdTree_2____c__DisplayClass33_0(__KdTree_2____c__DisplayClass33_0 const&) = delete;
+  KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18541 };
 
   /// @brief Field left, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ___left;
@@ -138,21 +132,17 @@ public:
   /// @brief Field right, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ___right;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
-// Type: ::<GetEnumerator>d__33
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::KdTree`2::<GetEnumerator>d__33<TKey,TValue>*
-class CORDL_TYPE __KdTree_2___GetEnumerator_d__33 : public ::System::Object {
+// CS Name: UnityEngine.ProBuilder.KdTree.KdTree`2/<GetEnumerator>d__33<TKey,TValue>
+class CORDL_TYPE KdTree_2__GetEnumerator_d__33 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___get_Current)) ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*
@@ -170,7 +160,7 @@ public:
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* __4__this;
 
   /// @brief Field <>8__1, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>* __8__1;
 
   /// @brief Field <addLeft>5__2, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__addLeft_5__2,
@@ -192,7 +182,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33<TKey, TValue>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
   /// true
@@ -211,25 +201,25 @@ public:
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* const& __cordl_internal_get___2__current() const;
+
   constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get___2__current() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>* const& __cordl_internal_get___8__1() const;
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>*& __cordl_internal_get___8__1();
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>*& __cordl_internal_get___8__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>*> const& __cordl_internal_get___8__1() const;
+  constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* const& __cordl_internal_get__addLeft_5__2() const;
 
   constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get__addLeft_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get__addLeft_5__2() const;
+  constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* const& __cordl_internal_get__addRight_5__3() const;
 
   constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get__addRight_5__3();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get__addRight_5__3() const;
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -237,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* value);
 
-  constexpr void __cordl_internal_set___8__1(::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___8__1(::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>* value);
 
   constexpr void __cordl_internal_set__addLeft_5__2(::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
 
@@ -259,16 +249,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __KdTree_2___GetEnumerator_d__33();
+  constexpr KdTree_2__GetEnumerator_d__33();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__KdTree_2___GetEnumerator_d__33", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2__GetEnumerator_d__33", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __KdTree_2___GetEnumerator_d__33(__KdTree_2___GetEnumerator_d__33&&) = delete;
+  KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__KdTree_2___GetEnumerator_d__33", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2__GetEnumerator_d__33", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __KdTree_2___GetEnumerator_d__33(__KdTree_2___GetEnumerator_d__33 const&) = delete;
+  KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18542 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -280,7 +273,7 @@ public:
   ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* _____4__this;
 
   /// @brief Field <>8__1, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* _____8__1;
+  ::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>* _____8__1;
 
   /// @brief Field <addLeft>5__2, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ____addLeft_5__2;
@@ -288,26 +281,23 @@ public:
   /// @brief Field <addRight>5__3, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ____addRight_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18461 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
-// Type: UnityEngine.ProBuilder.KdTree::KdTree`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object, UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior,
+// UnityEngine.ProBuilder.KdTree.IKdTree`2<TKey, TValue>
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.KdTree::KdTree`2<TKey,TValue>*
+// CS Name: UnityEngine.ProBuilder.KdTree.KdTree`2<TKey,TValue>
 class CORDL_TYPE KdTree_2 : public ::System::Object {
 public:
   // Declarations
-  using _GetEnumerator_d__33 = ::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>;
+  using _GetEnumerator_d__33 = ::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33<TKey, TValue>;
 
-  using __c__DisplayClass33_0 = ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>;
+  using __c__DisplayClass33_0 = ::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>;
 
   __declspec(property(get = get_AddDuplicateBehavior, put = set_AddDuplicateBehavior)) ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior AddDuplicateBehavior;
 
@@ -412,10 +402,10 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method TryFindValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool TryFindValue(TValue value, ByRef<::ArrayW<TKey, ::Array<TKey>*>> point);
+  inline bool TryFindValue(TValue value, ::ByRef<::ArrayW<TKey, ::Array<TKey>*>> point);
 
   /// @brief Method TryFindValueAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool TryFindValueAt(::ArrayW<TKey, ::Array<TKey>*> point, ByRef<TValue> value);
+  inline bool TryFindValueAt(::ArrayW<TKey, ::Array<TKey>*> point, ::ByRef<TValue> value);
 
   constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const& __cordl_internal_get__AddDuplicateBehavior_k__BackingField() const;
 
@@ -429,13 +419,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_dimensions();
 
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* const& __cordl_internal_get_root() const;
+
   constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get_root();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_root() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* const& __cordl_internal_get_typeMath() const;
 
   constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>*& __cordl_internal_get_typeMath();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>*> const& __cordl_internal_get_typeMath() const;
 
   constexpr void __cordl_internal_set__AddDuplicateBehavior_k__BackingField(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value);
 
@@ -489,6 +479,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KdTree_2(KdTree_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18543 };
+
   /// @brief Field dimensions, offset: 0x10, size: 0x4, def value: None
   int32_t ___dimensions;
 
@@ -504,13 +497,10 @@ public:
   /// @brief Field <Count>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18462 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::KdTree_2, "UnityEngine.ProBuilder.KdTree", "KdTree`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33, "UnityEngine.ProBuilder.KdTree", "KdTree`2/<GetEnumerator>d__33");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0, "UnityEngine.ProBuilder.KdTree", "KdTree`2/<>c__DisplayClass33_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33, "UnityEngine.ProBuilder.KdTree", "KdTree`2/<GetEnumerator>d__33");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0, "UnityEngine.ProBuilder.KdTree", "KdTree`2/<>c__DisplayClass33_0");

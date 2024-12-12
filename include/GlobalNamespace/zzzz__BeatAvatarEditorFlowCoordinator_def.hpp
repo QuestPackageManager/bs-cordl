@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarEditorFlowCoordinator)
 namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__EditMode;
+struct AvatarEditorFlowCoordinator_EditMode;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class AvatarTweenController;
@@ -50,11 +50,10 @@ class BeatAvatarEditorFlowCoordinator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatAvatarEditorFlowCoordinator);
-// Type: ::BeatAvatarEditorFlowCoordinator
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 292, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.AvatarCore.AvatarEditorFlowCoordinator, BeatSaber.BeatAvatarSDK.AvatarPart, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatAvatarEditorFlowCoordinator*
+// CS Name: BeatAvatarEditorFlowCoordinator
 class CORDL_TYPE BeatAvatarEditorFlowCoordinator : public ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator {
 public:
   // Declarations
@@ -94,46 +93,46 @@ public:
                       put = __cordl_internal_set__parameterChangedAnimationCallbacks)) ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>*
       _parameterChangedAnimationCallbacks;
 
-  /// @brief Method DidActivate, addr 0x2224a94, size 0x4c4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2250008, size 0x4c4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22257b4, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2250d28, size 0x280, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleBeatAvatarEditorViewCancelButtonWasPressed, addr 0x2226124, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatAvatarEditorViewCancelButtonWasPressed, addr 0x2251698, size 0xc, virtual false, abstract: false, final false
   inline void HandleBeatAvatarEditorViewCancelButtonWasPressed();
 
-  /// @brief Method HandleBeatAvatarEditorViewOkButtonWasPressed, addr 0x2226130, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatAvatarEditorViewOkButtonWasPressed, addr 0x22516a4, size 0xc, virtual false, abstract: false, final false
   inline void HandleBeatAvatarEditorViewOkButtonWasPressed();
 
-  /// @brief Method HandleBeatAvatarViewControllerChangedAvatarPart, addr 0x2226084, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatAvatarViewControllerChangedAvatarPart, addr 0x22515f8, size 0xa0, virtual false, abstract: false, final false
   inline void HandleBeatAvatarViewControllerChangedAvatarPart(::BeatSaber::BeatAvatarSDK::AvatarPart avatarPart);
 
-  /// @brief Method HandleBeatAvatarViewControllerDidRequestColorChange, addr 0x2225f94, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatAvatarViewControllerDidRequestColorChange, addr 0x2251508, size 0x88, virtual false, abstract: false, final false
   inline void HandleBeatAvatarViewControllerDidRequestColorChange(::System::Action_1<::UnityEngine::Color>* colorCallback, ::UnityEngine::Color currentColor,
                                                                   ::BeatSaber::BeatAvatarSDK::AvatarPart editPart, int32_t uvSegment);
 
-  /// @brief Method HandleEditColorViewControllerControllerDidFinish, addr 0x2226164, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorViewControllerControllerDidFinish, addr 0x22516d8, size 0xcc, virtual false, abstract: false, final false
   inline void HandleEditColorViewControllerControllerDidFinish(bool apply);
 
-  /// @brief Method HandleEditColorViewControllerDidChangedColor, addr 0x222613c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorViewControllerDidChangedColor, addr 0x22516b0, size 0x28, virtual false, abstract: false, final false
   inline void HandleEditColorViewControllerDidChangedColor(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BeatAvatarEditorFlowCoordinator* New_ctor();
 
-  /// @brief Method OneTimeInitialize, addr 0x2226274, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OneTimeInitialize, addr 0x22517e8, size 0x4, virtual true, abstract: false, final false
   inline void OneTimeInitialize();
 
-  /// @brief Method Setup, addr 0x22249cc, size 0x38, virtual true, abstract: false, final false
-  inline void Setup(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode);
+  /// @brief Method Setup, addr 0x224ff40, size 0x38, virtual true, abstract: false, final false
+  inline void Setup(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode editMode);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__avatarContainerGameObject() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__avatarContainerGameObject();
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel* const& __cordl_internal_get__avatarDataModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
   constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> const& __cordl_internal_get__avatarTweenController() const;
 
@@ -159,10 +158,9 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__originalColorOfColoredPart();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>*& __cordl_internal_get__parameterChangedAnimationCallbacks();
+  constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>* const& __cordl_internal_get__parameterChangedAnimationCallbacks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>*> const&
-  __cordl_internal_get__parameterChangedAnimationCallbacks() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>*& __cordl_internal_get__parameterChangedAnimationCallbacks();
 
   constexpr void __cordl_internal_set__avatarContainerGameObject(::UnityW<::UnityEngine::GameObject> value);
 
@@ -182,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set__parameterChangedAnimationCallbacks(::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x2226278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22517ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,6 +196,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorFlowCoordinator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatAvatarEditorFlowCoordinator(BeatAvatarEditorFlowCoordinator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17694 };
 
   /// @brief Field _avatarTweenController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> ____avatarTweenController;
@@ -226,14 +227,9 @@ public:
   /// @brief Field _originalColorOfColoredPart, offset: 0x114, size: 0x10, def value: None
   ::UnityEngine::Color ____originalColorOfColoredPart;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17650 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatAvatarEditorFlowCoordinator, 0x128>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatAvatarEditorFlowCoordinator, ____avatarTweenController) == 0xd8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatAvatarEditorFlowCoordinator, ____avatarContainerGameObject) == 0xe0, "Offset mismatch!");
@@ -251,6 +247,8 @@ static_assert(offsetof(::GlobalNamespace::BeatAvatarEditorFlowCoordinator, ____p
 static_assert(offsetof(::GlobalNamespace::BeatAvatarEditorFlowCoordinator, ____coloredAvatarPart) == 0x110, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatAvatarEditorFlowCoordinator, ____originalColorOfColoredPart) == 0x114, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatAvatarEditorFlowCoordinator, 0x128>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatAvatarEditorFlowCoordinator);

@@ -22,11 +22,10 @@ class NotifyCollectionChangedEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Specialized::NotifyCollectionChangedEventArgs);
-// Type: System.Collections.Specialized::NotifyCollectionChangedEventArgs
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Specialized.NotifyCollectionChangedAction, System.EventArgs
 namespace System::Collections::Specialized {
 // Is value type: false
-// CS Name: ::System.Collections.Specialized::NotifyCollectionChangedEventArgs*
+// CS Name: System.Collections.Specialized.NotifyCollectionChangedEventArgs
 class CORDL_TYPE NotifyCollectionChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -45,17 +44,17 @@ public:
   /// @brief Field _oldStartingIndex, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__oldStartingIndex, put = __cordl_internal_set__oldStartingIndex)) int32_t _oldStartingIndex;
 
-  /// @brief Method InitializeAdd, addr 0x4421998, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeAdd, addr 0x4482cac, size 0x84, virtual false, abstract: false, final false
   inline void InitializeAdd(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, int32_t newStartingIndex);
 
-  /// @brief Method InitializeAddOrRemove, addr 0x4421c0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InitializeAddOrRemove, addr 0x4482f20, size 0x18, virtual false, abstract: false, final false
   inline void InitializeAddOrRemove(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems, int32_t startingIndex);
 
-  /// @brief Method InitializeMoveOrReplace, addr 0x4421dfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitializeMoveOrReplace, addr 0x4483110, size 0x44, virtual false, abstract: false, final false
   inline void InitializeMoveOrReplace(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems,
                                       int32_t startingIndex, int32_t oldStartingIndex);
 
-  /// @brief Method InitializeRemove, addr 0x4421ff0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeRemove, addr 0x4483304, size 0x84, virtual false, abstract: false, final false
   inline void InitializeRemove(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* oldItems, int32_t oldStartingIndex);
 
   static inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action);
@@ -73,17 +72,17 @@ public:
 
   constexpr ::System::Collections::Specialized::NotifyCollectionChangedAction& __cordl_internal_get__action();
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get__newItems();
+  constexpr ::System::Collections::IList* const& __cordl_internal_get__newItems() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__newItems() const;
+  constexpr ::System::Collections::IList*& __cordl_internal_get__newItems();
 
   constexpr int32_t const& __cordl_internal_get__newStartingIndex() const;
 
   constexpr int32_t& __cordl_internal_get__newStartingIndex();
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get__oldItems();
+  constexpr ::System::Collections::IList* const& __cordl_internal_get__oldItems() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__oldItems() const;
+  constexpr ::System::Collections::IList*& __cordl_internal_get__oldItems();
 
   constexpr int32_t const& __cordl_internal_get__oldStartingIndex() const;
 
@@ -99,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set__oldStartingIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4421864, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4482b78, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action);
 
-  /// @brief Method .ctor, addr 0x4421a1c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4482d30, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x4421c24, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4482f38, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* newItem, ::System::Object* oldItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x4421e40, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4483154, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems, int32_t startingIndex);
 
 protected:
@@ -125,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NotifyCollectionChangedEventArgs(NotifyCollectionChangedEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9494 };
+
   /// @brief Field _action, offset: 0x10, size: 0x4, def value: None
   ::System::Collections::Specialized::NotifyCollectionChangedAction ____action;
 
@@ -140,14 +142,9 @@ public:
   /// @brief Field _oldStartingIndex, offset: 0x2c, size: 0x4, def value: None
   int32_t ____oldStartingIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9469 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::NotifyCollectionChangedEventArgs, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Collections::Specialized::NotifyCollectionChangedEventArgs, ____action) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Collections::Specialized::NotifyCollectionChangedEventArgs, ____newItems) == 0x18, "Offset mismatch!");
@@ -157,6 +154,8 @@ static_assert(offsetof(::System::Collections::Specialized::NotifyCollectionChang
 static_assert(offsetof(::System::Collections::Specialized::NotifyCollectionChangedEventArgs, ____newStartingIndex) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Collections::Specialized::NotifyCollectionChangedEventArgs, ____oldStartingIndex) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::NotifyCollectionChangedEventArgs, 0x30>, "Size mismatch!");
 
 } // namespace System::Collections::Specialized
 NEED_NO_BOX(::System::Collections::Specialized::NotifyCollectionChangedEventArgs);

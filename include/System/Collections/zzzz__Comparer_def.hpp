@@ -3,20 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer)
-namespace System::Collections {
-class IComparer;
-}
 namespace System::Globalization {
 class CompareInfo;
 }
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -33,19 +29,18 @@ class Comparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Comparer);
-// Type: System.Collections::Comparer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IComparer, System.Object, System.Runtime.Serialization.ISerializable
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::System.Collections::Comparer*
+// CS Name: System.Collections.Comparer
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::Collections::Comparer* Default;
+  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::Collections::Comparer* Default;
 
   /// @brief Field DefaultInvariant, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultInvariant, put = setStaticF_DefaultInvariant)) ::System::Collections::Comparer* DefaultInvariant;
+  __declspec(property(get = getStaticF_DefaultInvariant, put = setStaticF_DefaultInvariant)) ::System::Collections::Comparer* DefaultInvariant;
 
   /// @brief Field _compareInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo)) ::System::Globalization::CompareInfo* _compareInfo;
@@ -56,26 +51,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x3d575b0, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3db7724, size 0x20c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetObjectData, addr 0x3d57510, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3db7684, size 0xa0, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
+  constexpr ::System::Globalization::CompareInfo* const& __cordl_internal_get__compareInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
+  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x3d5731c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db7490, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x3d573a0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db7514, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Comparer* getStaticF_Default();
@@ -106,18 +101,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Comparer(Comparer const&) = delete;
 
-  /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
-  ::System::Globalization::CompareInfo* ____compareInfo;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3759 };
+
+  /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
+  ::System::Globalization::CompareInfo* ____compareInfo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::Comparer, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Collections::Comparer, ____compareInfo) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Collections::Comparer, 0x18>, "Size mismatch!");
 
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::Comparer);

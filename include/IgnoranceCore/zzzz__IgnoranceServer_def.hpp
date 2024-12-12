@@ -24,7 +24,7 @@ namespace IgnoranceCore {
 struct IgnoranceServerStats;
 }
 namespace IgnoranceCore {
-struct __IgnoranceServer__ThreadParamInfo;
+struct IgnoranceServer_ThreadParamInfo;
 }
 namespace IgnoranceThirdparty {
 template <typename T> class RingBuffer_1;
@@ -40,22 +40,21 @@ namespace IgnoranceCore {
 class IgnoranceServer;
 }
 namespace IgnoranceCore {
-struct __IgnoranceServer__ThreadParamInfo;
+struct IgnoranceServer_ThreadParamInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::IgnoranceCore::IgnoranceServer);
-MARK_VAL_T(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo);
-// Type: ::ThreadParamInfo
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::IgnoranceCore::IgnoranceServer_ThreadParamInfo);
+// Dependencies
 namespace IgnoranceCore {
 // Is value type: true
-// CS Name: ::IgnoranceServer::ThreadParamInfo
-struct CORDL_TYPE __IgnoranceServer__ThreadParamInfo {
+// CS Name: IgnoranceCore.IgnoranceServer/ThreadParamInfo
+struct CORDL_TYPE IgnoranceServer_ThreadParamInfo {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceServer__ThreadParamInfo();
+  constexpr IgnoranceServer_ThreadParamInfo();
 
   // Ctor Parameters [CppParam { name: "IsFruityDevice", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "BindAllInterfaces", ty: "bool", modifiers: "", def_value: None }, CppParam {
   // name: "Channels", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Peers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PollTime", ty: "int32_t",
@@ -63,8 +62,14 @@ public:
   // CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "UseSsl", ty:
   // "bool", modifiers: "", def_value: None }, CppParam { name: "CertificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Certificate", ty: "::StringW", modifiers: "",
   // def_value: None }, CppParam { name: "PrivateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "PrivateKey", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr __IgnoranceServer__ThreadParamInfo(bool IsFruityDevice, bool BindAllInterfaces, int32_t Channels, int32_t Peers, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity,
-                                               ::StringW Address, bool UseSsl, ::StringW CertificatePath, ::StringW Certificate, ::StringW PrivateKeyPath, ::StringW PrivateKey) noexcept;
+  constexpr IgnoranceServer_ThreadParamInfo(bool IsFruityDevice, bool BindAllInterfaces, int32_t Channels, int32_t Peers, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity,
+                                            ::StringW Address, bool UseSsl, ::StringW CertificatePath, ::StringW Certificate, ::StringW PrivateKeyPath, ::StringW PrivateKey) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17752 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field IsFruityDevice, offset: 0x0, size: 0x1, def value: None
   bool IsFruityDevice;
@@ -108,55 +113,48 @@ public:
   /// @brief Field PrivateKey, offset: 0x48, size: 0x8, def value: None
   ::StringW PrivateKey;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17708 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, 0x50>, "Size mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, IsFruityDevice) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, IsFruityDevice) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, BindAllInterfaces) == 0x1, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, BindAllInterfaces) == 0x1, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, Channels) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, Channels) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, Peers) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, Peers) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, PollTime) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, PollTime) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, Port) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, Port) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, PacketSizeLimit) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, PacketSizeLimit) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, Verbosity) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, Verbosity) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, Address) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, Address) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, UseSsl) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, UseSsl) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, CertificatePath) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, CertificatePath) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, Certificate) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, Certificate) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, PrivateKeyPath) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, PrivateKeyPath) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, PrivateKey) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, PrivateKey) == 0x48, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceServer_ThreadParamInfo, 0x50>, "Size mismatch!");
 
 } // namespace IgnoranceCore
-// Type: IgnoranceCore::IgnoranceServer
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace IgnoranceCore {
 // Is value type: false
-// CS Name: ::IgnoranceCore::IgnoranceServer*
+// CS Name: IgnoranceCore.IgnoranceServer
 class CORDL_TYPE IgnoranceServer : public ::System::Object {
 public:
   // Declarations
-  using ThreadParamInfo = ::IgnoranceCore::__IgnoranceServer__ThreadParamInfo;
+  using ThreadParamInfo = ::IgnoranceCore::IgnoranceServer_ThreadParamInfo;
 
   /// @brief Field BindAddress, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_BindAddress, put = __cordl_internal_set_BindAddress)) ::StringW BindAddress;
@@ -240,16 +238,16 @@ public:
 
   static inline ::IgnoranceCore::IgnoranceServer* New_ctor();
 
-  /// @brief Method SetupRingBuffersIfNull, addr 0x3a52c00, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetupRingBuffersIfNull, addr 0x3aa9870, size 0x230, virtual false, abstract: false, final false
   inline void SetupRingBuffersIfNull();
 
-  /// @brief Method Start, addr 0x3a52864, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3aa94d4, size 0x39c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3a52e30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3aa9aa0, size 0x9c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ThreadWorker, addr 0x3a52ecc, size 0x11c0, virtual false, abstract: false, final false
+  /// @brief Method ThreadWorker, addr 0x3aa9b3c, size 0x11c0, virtual false, abstract: false, final false
   inline void ThreadWorker(::System::Object* parameters);
 
   constexpr ::StringW const& __cordl_internal_get_BindAddress() const;
@@ -276,25 +274,25 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_CertificatePath();
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*& __cordl_internal_get_Commands();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* const& __cordl_internal_get_Commands() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*> const& __cordl_internal_get_Commands() const;
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*& __cordl_internal_get_Commands();
 
   constexpr int32_t const& __cordl_internal_get_ConnectionEventBufferSize() const;
 
   constexpr int32_t& __cordl_internal_get_ConnectionEventBufferSize();
 
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* const& __cordl_internal_get_ConnectionEvents() const;
+
   constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& __cordl_internal_get_ConnectionEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const& __cordl_internal_get_ConnectionEvents() const;
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* const& __cordl_internal_get_DisconnectionEvents() const;
 
   constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& __cordl_internal_get_DisconnectionEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const& __cordl_internal_get_DisconnectionEvents() const;
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* const& __cordl_internal_get_Incoming() const;
 
   constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*& __cordl_internal_get_Incoming();
-
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*> const& __cordl_internal_get_Incoming() const;
 
   constexpr int32_t const& __cordl_internal_get_IncomingOutgoingBufferSize() const;
 
@@ -316,9 +314,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_MaximumPeers();
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*& __cordl_internal_get_Outgoing();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* const& __cordl_internal_get_Outgoing() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*> const& __cordl_internal_get_Outgoing() const;
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*& __cordl_internal_get_Outgoing();
 
   constexpr int32_t const& __cordl_internal_get_PollTime() const;
 
@@ -332,13 +330,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_PrivateKeyPath();
 
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* const& __cordl_internal_get_RecycledServerStatBlocks() const;
+
   constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& __cordl_internal_get_RecycledServerStatBlocks();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*> const& __cordl_internal_get_RecycledServerStatBlocks() const;
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* const& __cordl_internal_get_StatusUpdates() const;
 
   constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& __cordl_internal_get_StatusUpdates();
-
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*> const& __cordl_internal_get_StatusUpdates() const;
 
   constexpr bool const& __cordl_internal_get_UseSsl() const;
 
@@ -348,9 +346,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_Verbosity();
 
-  constexpr ::System::Threading::Thread*& __cordl_internal_get_WorkerThread();
+  constexpr ::System::Threading::Thread* const& __cordl_internal_get_WorkerThread() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get_WorkerThread() const;
+  constexpr ::System::Threading::Thread*& __cordl_internal_get_WorkerThread();
 
   constexpr void __cordl_internal_set_BindAddress(::StringW value);
 
@@ -402,10 +400,10 @@ public:
 
   constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x3a5408c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaacfc, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAlive, addr 0x3a52850, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x3aa94c0, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
 protected:
@@ -421,6 +419,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceServer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IgnoranceServer(IgnoranceServer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17753 };
 
   /// @brief Field BindAddress, offset: 0x10, size: 0x8, def value: None
   ::StringW ___BindAddress;
@@ -497,14 +498,9 @@ public:
   /// @brief Field WorkerThread, offset: 0xa0, size: 0x8, def value: None
   ::System::Threading::Thread* ___WorkerThread;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17709 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceServer, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::IgnoranceCore::IgnoranceServer, ___BindAddress) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::IgnoranceCore::IgnoranceServer, ___BindPort) == 0x18, "Offset mismatch!");
@@ -555,7 +551,9 @@ static_assert(offsetof(::IgnoranceCore::IgnoranceServer, ___RecycledServerStatBl
 
 static_assert(offsetof(::IgnoranceCore::IgnoranceServer, ___WorkerThread) == 0xa0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceServer, 0xa8>, "Size mismatch!");
+
 } // namespace IgnoranceCore
 NEED_NO_BOX(::IgnoranceCore::IgnoranceServer);
 DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceServer*, "IgnoranceCore", "IgnoranceServer");
-DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, "IgnoranceCore", "IgnoranceServer/ThreadParamInfo");
+DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceServer_ThreadParamInfo, "IgnoranceCore", "IgnoranceServer/ThreadParamInfo");

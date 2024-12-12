@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SurrogateHashtable::*)(int32_t)>(
     &::System::Runtime::Serialization::SurrogateHashtable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9cfc4;
+  constexpr static std::size_t addrs = 0x3cfd138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::SurrogateHashtable::*)(::System::Object*, ::System::Object*)>(
     &::System::Runtime::Serialization::SurrogateHashtable::KeyEquals)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3c9d35c;
+  constexpr static std::size_t addrs = 0x3cfd4d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,9 +34,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Runtime::Serialization::SurrogateHashtable* System::Runtime::Serialization::SurrogateHashtable::New_ctor(int32_t size) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SurrogateHashtable*>(size));
-}
 inline void System::Runtime::Serialization::SurrogateHashtable::_ctor(int32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateHashtable*>::get(), ".ctor",
@@ -48,6 +45,9 @@ inline bool System::Runtime::Serialization::SurrogateHashtable::KeyEquals(::Syst
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateHashtable*>::get(), 36)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, item);
+}
+inline ::System::Runtime::Serialization::SurrogateHashtable* System::Runtime::Serialization::SurrogateHashtable::New_ctor(int32_t size) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SurrogateHashtable*>(size));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SurrogateHashtable::SurrogateHashtable() {}

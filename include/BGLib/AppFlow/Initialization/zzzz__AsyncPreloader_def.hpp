@@ -14,20 +14,19 @@ class AsyncPreloader;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::AsyncPreloader);
-// Type: BGLib.AppFlow.Initialization::AsyncPreloader
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// CS Name: ::BGLib.AppFlow.Initialization::AsyncPreloader*
+// CS Name: BGLib.AppFlow.Initialization.AsyncPreloader
 class CORDL_TYPE AsyncPreloader : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   static inline ::BGLib::AppFlow::Initialization::AsyncPreloader* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method PreloadAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method .ctor, addr 0x2267bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229a400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   AsyncPreloader(AsyncPreloader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

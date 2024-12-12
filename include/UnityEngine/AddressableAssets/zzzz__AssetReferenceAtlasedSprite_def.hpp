@@ -18,23 +18,22 @@ class AssetReferenceAtlasedSprite;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite);
-// Type: UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AddressableAssets.AssetReferenceT`1<TObject>
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite*
-class CORDL_TYPE AssetReferenceAtlasedSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Sprite>> {
+// CS Name: UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
+class CORDL_TYPE AssetReferenceAtlasedSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite* New_ctor(::StringW guid);
 
-  /// @brief Method ValidateAsset, addr 0x448f82c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x44f0b40, size 0x78, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x448f8a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x44f0bb8, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x448f7d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f0ae8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:
@@ -52,7 +51,7 @@ public:
   AssetReferenceAtlasedSprite(AssetReferenceAtlasedSprite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16181 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

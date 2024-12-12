@@ -3,21 +3,21 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstRuntime_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstRuntime_def.hpp"
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::__BurstRuntime__HashCode64_1<T>::setStaticF_Value(int64_t value) {
-  ::cordl_internals::setStaticField<int64_t, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::__BurstRuntime__HashCode64_1<T>>::get>(
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::setStaticF_Value(int64_t value) {
+  ::cordl_internals::setStaticField<int64_t, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>>::get>(
       std::forward<int64_t>(value));
 }
-template <typename T> inline int64_t Unity::Collections::LowLevel::Unsafe::__BurstRuntime__HashCode64_1<T>::getStaticF_Value() {
-  return ::cordl_internals::getStaticField<int64_t, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::__BurstRuntime__HashCode64_1<T>>::get>();
+template <typename T> inline int64_t Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::getStaticF_Value() {
+  return ::cordl_internals::getStaticField<int64_t, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>>::get>();
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::__BurstRuntime__HashCode64_1<T>::__BurstRuntime__HashCode64_1() {}
+template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::BurstRuntime_HashCode64_1() {}
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::BurstRuntime.HashStringWithFNV1A64
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW)>(&::Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x47fd6b4;
+  constexpr static std::size_t addrs = 0x485f254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

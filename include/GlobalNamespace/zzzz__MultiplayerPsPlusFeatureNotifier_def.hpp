@@ -11,11 +11,10 @@ class MultiplayerPsPlusFeatureNotifier;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPsPlusFeatureNotifier);
-// Type: ::MultiplayerPsPlusFeatureNotifier
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerPsPlusFeatureNotifier*
+// CS Name: MultiplayerPsPlusFeatureNotifier
 class CORDL_TYPE MultiplayerPsPlusFeatureNotifier : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set__isSpectator(bool value);
 
-  /// @brief Method .ctor, addr 0x3b7a9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdc234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,18 +46,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerPsPlusFeatureNotifier(MultiplayerPsPlusFeatureNotifier const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4602 };
+
   /// @brief Field _isSpectator, offset: 0x20, size: 0x1, def value: None
   bool ____isSpectator;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPsPlusFeatureNotifier, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerPsPlusFeatureNotifier, ____isSpectator) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPsPlusFeatureNotifier, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerPsPlusFeatureNotifier);

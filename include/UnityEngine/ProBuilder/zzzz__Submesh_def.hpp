@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MeshTopology_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Submesh)
@@ -30,11 +29,10 @@ class Submesh;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Submesh);
-// Type: UnityEngine.ProBuilder::Submesh
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.MeshTopology
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::Submesh*
+// CS Name: UnityEngine.ProBuilder.Submesh
 class CORDL_TYPE Submesh : public ::System::Object {
 public:
   // Declarations
@@ -53,21 +51,21 @@ public:
 
   __declspec(property(get = get_topology, put = set_topology)) ::UnityEngine::MeshTopology topology;
 
-  /// @brief Method GetSubmeshCount, addr 0x46df5dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSubmeshCount, addr 0x47408f0, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetSubmeshCount(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method GetSubmeshes, addr 0x46df648, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method GetSubmeshes, addr 0x474095c, size 0x940, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Submesh*, ::Array<::UnityEngine::ProBuilder::Submesh*>*>
   GetSubmeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, int32_t submeshCount, ::UnityEngine::MeshTopology preferredTopology);
 
-  /// @brief Method MapFaceMaterialsToSubmeshIndex, addr 0x46dff88, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method MapFaceMaterialsToSubmeshIndex, addr 0x474129c, size 0x12c, virtual false, abstract: false, final false
   static inline void MapFaceMaterialsToSubmeshIndex(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline ::UnityEngine::ProBuilder::Submesh* New_ctor(::UnityEngine::Mesh* mesh, int32_t subMeshIndex);
 
   static inline ::UnityEngine::ProBuilder::Submesh* New_ctor(int32_t submeshIndex, ::UnityEngine::MeshTopology topology, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method ToString, addr 0x46df4d4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47407e8, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_Indexes() const;
@@ -88,28 +86,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Topology(::UnityEngine::MeshTopology value);
 
-  /// @brief Method .ctor, addr 0x46df3dc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47406f0, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t subMeshIndex);
 
-  /// @brief Method .ctor, addr 0x46df31c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4740630, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(int32_t submeshIndex, ::UnityEngine::MeshTopology topology, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method get_indexes, addr 0x46df224, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_indexes, addr 0x4740538, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_indexes();
 
-  /// @brief Method get_submeshIndex, addr 0x46df30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_submeshIndex, addr 0x4740620, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_submeshIndex();
 
-  /// @brief Method get_topology, addr 0x46df2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_topology, addr 0x4740610, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::MeshTopology get_topology();
 
-  /// @brief Method set_indexes, addr 0x46df2a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_indexes, addr 0x47405b4, size 0x5c, virtual false, abstract: false, final false
   inline void set_indexes(::System::Collections::Generic::IEnumerable_1<int32_t>* value);
 
-  /// @brief Method set_submeshIndex, addr 0x46df314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_submeshIndex, addr 0x4740628, size 0x8, virtual false, abstract: false, final false
   inline void set_submeshIndex(int32_t value);
 
-  /// @brief Method set_topology, addr 0x46df304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_topology, addr 0x4740618, size 0x8, virtual false, abstract: false, final false
   inline void set_topology(::UnityEngine::MeshTopology value);
 
 protected:
@@ -126,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Submesh(Submesh const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14319 };
+
   /// @brief Field m_Indexes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___m_Indexes;
 
@@ -135,19 +136,16 @@ public:
   /// @brief Field m_SubmeshIndex, offset: 0x1c, size: 0x4, def value: None
   int32_t ___m_SubmeshIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14285 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Submesh, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Submesh, ___m_Indexes) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Submesh, ___m_Topology) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Submesh, ___m_SubmeshIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Submesh, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Submesh);

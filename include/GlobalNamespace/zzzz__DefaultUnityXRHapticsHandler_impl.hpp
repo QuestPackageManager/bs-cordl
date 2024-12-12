@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DefaultUnityXRHapticsHandler.hpp"
+#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__DefaultUnityXRHapticsHandler_def.hpp"
-#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DefaultUnityXRHapticsHandler._ctor
 template <>
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3971a24;
+  constexpr static std::size_t addrs = 0x39c6f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)()>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::Destroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3971a4c;
+  constexpr static std::size_t addrs = 0x39c6fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultUnityXRHapticsHandler*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)(float_t, float_t)>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3971a50;
+  constexpr static std::size_t addrs = 0x39c6fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)()>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::StopHaptics)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3971a9c;
+  constexpr static std::size_t addrs = 0x39c6ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultUnityXRHapticsHandler*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)()>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3971acc;
+  constexpr static std::size_t addrs = 0x39c7028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultUnityXRHapticsHandler*>::get(),
@@ -78,22 +78,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
-constexpr GlobalNamespace::DefaultUnityXRHapticsHandler::operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept {
-  return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
-constexpr ::GlobalNamespace::IUnityXRHapticsHandler* GlobalNamespace::DefaultUnityXRHapticsHandler::i___GlobalNamespace__IUnityXRHapticsHandler() noexcept {
-  return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::DefaultUnityXRHapticsHandler::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::DefaultUnityXRHapticsHandler::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::UnityEngine::XR::XRNode& GlobalNamespace::DefaultUnityXRHapticsHandler::__cordl_internal_get__node() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____node;
@@ -105,9 +89,6 @@ constexpr ::UnityEngine::XR::XRNode const& GlobalNamespace::DefaultUnityXRHaptic
 constexpr void GlobalNamespace::DefaultUnityXRHapticsHandler::__cordl_internal_set__node(::UnityEngine::XR::XRNode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____node = value;
-}
-inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* GlobalNamespace::DefaultUnityXRHapticsHandler::New_ctor(::UnityEngine::XR::XRNode node) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DefaultUnityXRHapticsHandler*>(node));
 }
 inline void GlobalNamespace::DefaultUnityXRHapticsHandler::_ctor(::UnityEngine::XR::XRNode node) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -135,6 +116,25 @@ inline void GlobalNamespace::DefaultUnityXRHapticsHandler::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultUnityXRHapticsHandler*>::get(), "Dispose",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* GlobalNamespace::DefaultUnityXRHapticsHandler::New_ctor(::UnityEngine::XR::XRNode node) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DefaultUnityXRHapticsHandler*>(node));
+}
+/// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
+constexpr GlobalNamespace::DefaultUnityXRHapticsHandler::operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept {
+  return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
+constexpr ::GlobalNamespace::IUnityXRHapticsHandler* GlobalNamespace::DefaultUnityXRHapticsHandler::i___GlobalNamespace__IUnityXRHapticsHandler() noexcept {
+  return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::DefaultUnityXRHapticsHandler::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::DefaultUnityXRHapticsHandler::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DefaultUnityXRHapticsHandler::DefaultUnityXRHapticsHandler() {}

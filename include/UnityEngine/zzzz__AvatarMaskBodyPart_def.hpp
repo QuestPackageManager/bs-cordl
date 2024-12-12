@@ -12,11 +12,10 @@ struct AvatarMaskBodyPart;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AvatarMaskBodyPart);
-// Type: UnityEngine::AvatarMaskBodyPart
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::AvatarMaskBodyPart
+// CS Name: UnityEngine.AvatarMaskBodyPart
 struct CORDL_TYPE AvatarMaskBodyPart {
 public:
   // Declarations
@@ -57,63 +56,63 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AvatarMaskBodyPart(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Body value: static_cast<int32_t>(0x1)
+  /// @brief Field Body value: I32(1)
   static ::UnityEngine::AvatarMaskBodyPart const Body;
 
-  /// @brief Field Head value: static_cast<int32_t>(0x2)
+  /// @brief Field Head value: I32(2)
   static ::UnityEngine::AvatarMaskBodyPart const Head;
 
-  /// @brief Field LastBodyPart value: static_cast<int32_t>(0xd)
+  /// @brief Field LastBodyPart value: I32(13)
   static ::UnityEngine::AvatarMaskBodyPart const LastBodyPart;
 
-  /// @brief Field LeftArm value: static_cast<int32_t>(0x5)
+  /// @brief Field LeftArm value: I32(5)
   static ::UnityEngine::AvatarMaskBodyPart const LeftArm;
 
-  /// @brief Field LeftFingers value: static_cast<int32_t>(0x7)
+  /// @brief Field LeftFingers value: I32(7)
   static ::UnityEngine::AvatarMaskBodyPart const LeftFingers;
 
-  /// @brief Field LeftFootIK value: static_cast<int32_t>(0x9)
+  /// @brief Field LeftFootIK value: I32(9)
   static ::UnityEngine::AvatarMaskBodyPart const LeftFootIK;
 
-  /// @brief Field LeftHandIK value: static_cast<int32_t>(0xb)
+  /// @brief Field LeftHandIK value: I32(11)
   static ::UnityEngine::AvatarMaskBodyPart const LeftHandIK;
 
-  /// @brief Field LeftLeg value: static_cast<int32_t>(0x3)
+  /// @brief Field LeftLeg value: I32(3)
   static ::UnityEngine::AvatarMaskBodyPart const LeftLeg;
 
-  /// @brief Field RightArm value: static_cast<int32_t>(0x6)
+  /// @brief Field RightArm value: I32(6)
   static ::UnityEngine::AvatarMaskBodyPart const RightArm;
 
-  /// @brief Field RightFingers value: static_cast<int32_t>(0x8)
+  /// @brief Field RightFingers value: I32(8)
   static ::UnityEngine::AvatarMaskBodyPart const RightFingers;
 
-  /// @brief Field RightFootIK value: static_cast<int32_t>(0xa)
+  /// @brief Field RightFootIK value: I32(10)
   static ::UnityEngine::AvatarMaskBodyPart const RightFootIK;
 
-  /// @brief Field RightHandIK value: static_cast<int32_t>(0xc)
+  /// @brief Field RightHandIK value: I32(12)
   static ::UnityEngine::AvatarMaskBodyPart const RightHandIK;
 
-  /// @brief Field RightLeg value: static_cast<int32_t>(0x4)
+  /// @brief Field RightLeg value: I32(4)
   static ::UnityEngine::AvatarMaskBodyPart const RightLeg;
 
-  /// @brief Field Root value: static_cast<int32_t>(0x0)
+  /// @brief Field Root value: I32(0)
   static ::UnityEngine::AvatarMaskBodyPart const Root;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16877 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AvatarMaskBodyPart, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AvatarMaskBodyPart, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AvatarMaskBodyPart, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarMaskBodyPart, "UnityEngine", "AvatarMaskBodyPart");

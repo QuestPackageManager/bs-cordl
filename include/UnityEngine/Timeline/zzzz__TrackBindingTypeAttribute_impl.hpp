@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TrackBindingTypeAttribute::*)(::System::Type*)>(
     &::UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47c7f30;
+  constexpr static std::size_t addrs = 0x4829244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TrackBindingTypeAttribute::*)(
     ::System::Type*, ::UnityEngine::Timeline::TrackBindingFlags)>(&::UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47c7f60;
+  constexpr static std::size_t addrs = 0x4829274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ constexpr ::System::Type*& UnityEngine::Timeline::TrackBindingTypeAttribute::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::Timeline::TrackBindingTypeAttribute::__cordl_internal_get_type() const {
+constexpr ::System::Type* const& UnityEngine::Timeline::TrackBindingTypeAttribute::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
@@ -60,17 +60,11 @@ constexpr void UnityEngine::Timeline::TrackBindingTypeAttribute::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
-inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor(::System::Type* type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::TrackBindingTypeAttribute*>(type));
-}
 inline void UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackBindingTypeAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
-}
-inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::TrackBindingTypeAttribute*>(type, flags));
 }
 inline void UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -78,6 +72,12 @@ inline void UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor(::System::Ty
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::TrackBindingFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, flags);
+}
+inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor(::System::Type* type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::TrackBindingTypeAttribute*>(type));
+}
+inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::TrackBindingTypeAttribute*>(type, flags));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackBindingTypeAttribute::TrackBindingTypeAttribute() {}

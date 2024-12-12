@@ -17,90 +17,88 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class __UxmlBoolAttributeDescription____c;
+class UxmlBoolAttributeDescription___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class __UxmlBoolAttributeDescription____c;
+class UxmlBoolAttributeDescription___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlBoolAttributeDescription);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlBoolAttributeDescription___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UxmlBoolAttributeDescription::<>c*
-class CORDL_TYPE __UxmlBoolAttributeDescription____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.UxmlBoolAttributeDescription/<>c
+class CORDL_TYPE UxmlBoolAttributeDescription___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, bool, bool>* __9__3_0;
+  __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, bool, bool>* __9__3_0;
 
-  static inline ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* New_ctor();
+  static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a3cc1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa152c, size 0x10, virtual false, abstract: false, final false
   inline bool _GetValueFromBag_b__3_0(::StringW s, bool b);
 
-  /// @brief Method .ctor, addr 0x4a3cc14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa1524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* getStaticF___9();
 
   static inline ::System::Func_3<::StringW, bool, bool>* getStaticF___9__3_0();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* value);
 
   static inline void setStaticF___9__3_0(::System::Func_3<::StringW, bool, bool>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UxmlBoolAttributeDescription____c();
+  constexpr UxmlBoolAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlBoolAttributeDescription____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UxmlBoolAttributeDescription____c(__UxmlBoolAttributeDescription____c&&) = delete;
+  UxmlBoolAttributeDescription___c(UxmlBoolAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlBoolAttributeDescription____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UxmlBoolAttributeDescription____c(__UxmlBoolAttributeDescription____c const&) = delete;
+  UxmlBoolAttributeDescription___c(UxmlBoolAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlBoolAttributeDescription___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::UxmlBoolAttributeDescription
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlBoolAttributeDescription*
+// CS Name: UnityEngine.UIElements.UxmlBoolAttributeDescription
 class CORDL_TYPE UxmlBoolAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<bool> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c;
+  using __c = ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c;
 
-  /// @brief Method ConvertValueToBool, addr 0x4a3cb30, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToBool, addr 0x4aa1440, size 0x88, virtual false, abstract: false, final false
   static inline bool ConvertValueToBool(::StringW v, bool defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4a3c9e0, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa12f0, size 0x150, virtual true, abstract: false, final false
   inline bool GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a33c60, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a98570, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +116,7 @@ public:
   UxmlBoolAttributeDescription(UxmlBoolAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,5 +126,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlBoo
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlBoolAttributeDescription);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlBoolAttributeDescription*, "UnityEngine.UIElements", "UxmlBoolAttributeDescription");
-NEED_NO_BOX(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c*, "UnityEngine.UIElements", "UxmlBoolAttributeDescription/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::UxmlBoolAttributeDescription___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlBoolAttributeDescription___c*, "UnityEngine.UIElements", "UxmlBoolAttributeDescription/<>c");

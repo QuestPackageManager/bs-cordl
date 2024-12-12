@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NetworkPlayersTableView.hpp"
-#include "GlobalNamespace/zzzz__NetworkPlayersTableView_impl.hpp"
+#include "HMUI/zzzz__TableView_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersTableView_def.hpp"
@@ -14,93 +14,93 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType::__NetworkPlayersTableView__CellInfo__CellType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType::CellInfo_NetworkPlayersTableView_CellType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType::__NetworkPlayersTableView__CellInfo__CellType() {}
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType::Header{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType::Player{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType::Options{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::GlobalNamespace::__NetworkPlayersTableView__CellInfo._ctor
+constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType::CellInfo_NetworkPlayersTableView_CellType() {}
+constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType::Header{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType::Player{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType::Options{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::GlobalNamespace::NetworkPlayersTableView_CellInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NetworkPlayersTableView__CellInfo::*)()>(
-    &::GlobalNamespace::__NetworkPlayersTableView__CellInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView_CellInfo::*)()>(
+    &::GlobalNamespace::NetworkPlayersTableView_CellInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3baaeb8;
+  constexpr static std::size_t addrs = 0x3c0d3d4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView_CellInfo*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_type() {
+constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType const& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_type() const {
+constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType const& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr void GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_set_type(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType value) {
+constexpr void GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_set_type(::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
-constexpr ::StringW& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_headerString() {
+constexpr ::StringW& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_headerString() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headerString;
 }
-constexpr ::StringW const& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_headerString() const {
+constexpr ::StringW const& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_headerString() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headerString;
 }
-constexpr void GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_set_headerString(::StringW value) {
+constexpr void GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_set_headerString(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headerString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_player() {
+constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_player() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___player;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_player() const {
+constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_player() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___player;
 }
-constexpr void GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_set_player(::GlobalNamespace::INetworkPlayer* value) {
+constexpr void GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_set_player(::GlobalNamespace::INetworkPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___player)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_lastCellInParty() {
+constexpr bool& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_lastCellInParty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastCellInParty;
 }
-constexpr bool const& GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_get_lastCellInParty() const {
+constexpr bool const& GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_get_lastCellInParty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastCellInParty;
 }
-constexpr void GlobalNamespace::__NetworkPlayersTableView__CellInfo::__cordl_internal_set_lastCellInParty(bool value) {
+constexpr void GlobalNamespace::NetworkPlayersTableView_CellInfo::__cordl_internal_set_lastCellInParty(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastCellInParty = value;
 }
-inline ::GlobalNamespace::__NetworkPlayersTableView__CellInfo* GlobalNamespace::__NetworkPlayersTableView__CellInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>());
-}
-inline void GlobalNamespace::__NetworkPlayersTableView__CellInfo::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>::get(),
+inline void GlobalNamespace::NetworkPlayersTableView_CellInfo::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView_CellInfo*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::NetworkPlayersTableView_CellInfo* GlobalNamespace::NetworkPlayersTableView_CellInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayersTableView_CellInfo*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo::__NetworkPlayersTableView__CellInfo() {}
+constexpr ::GlobalNamespace::NetworkPlayersTableView_CellInfo::NetworkPlayersTableView_CellInfo() {}
 //  Writing Method size for method: ::GlobalNamespace::NetworkPlayersTableView.CellSize
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NetworkPlayersTableView::*)(int32_t)>(
     &::GlobalNamespace::NetworkPlayersTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba9cc4;
+  constexpr static std::size_t addrs = 0x3c0c650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkPlayersTableView::*)()>(
     &::GlobalNamespace::NetworkPlayersTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ba9ccc;
+  constexpr static std::size_t addrs = 0x3c0c658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView*>::get(),
@@ -128,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::NetworkPlayersTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::NetworkPlayersTableView::CellForIdx)> {
-  constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x3ba9d14;
+  constexpr static std::size_t size = 0x5d4;
+  constexpr static std::size_t addrs = 0x3c0c6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, ::StringW)>(&::GlobalNamespace::NetworkPlayersTableView::AddPlayers)> {
   constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x3baa2fc;
+  constexpr static std::size_t addrs = 0x3c0cd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, ::StringW, ::StringW)>(
     &::GlobalNamespace::NetworkPlayersTableView::SetParties)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3baace4;
+  constexpr static std::size_t addrs = 0x3c0d72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView::*)(::HMUI::TableView*, ::HMUI::TableCell*)>(
     &::GlobalNamespace::NetworkPlayersTableView::HandleCellWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3baae28;
+  constexpr static std::size_t addrs = 0x3c0d870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::INetworkPlayer*)>(&::GlobalNamespace::NetworkPlayersTableView::HasVisibleOptions)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x3baa994;
+  constexpr static std::size_t addrs = 0x3c0d3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView::*)()>(&::GlobalNamespace::NetworkPlayersTableView::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3baae2c;
+  constexpr static std::size_t addrs = 0x3c0d874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView*>::get(), ".ctor",
@@ -216,14 +216,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HMUI::__TableView__IDataSource"
-constexpr GlobalNamespace::NetworkPlayersTableView::operator ::HMUI::__TableView__IDataSource*() noexcept {
-  return static_cast<::HMUI::__TableView__IDataSource*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HMUI::__TableView__IDataSource"
-constexpr ::HMUI::__TableView__IDataSource* GlobalNamespace::NetworkPlayersTableView::i___HMUI____TableView__IDataSource() noexcept {
-  return static_cast<::HMUI::__TableView__IDataSource*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::HMUI::TableView>& GlobalNamespace::NetworkPlayersTableView::__cordl_internal_get__tableView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableView;
@@ -284,16 +276,15 @@ constexpr void GlobalNamespace::NetworkPlayersTableView::__cordl_internal_set__r
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rowHeight = value;
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>*& GlobalNamespace::NetworkPlayersTableView::__cordl_internal_get__cellInfo() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayersTableView_CellInfo*>*& GlobalNamespace::NetworkPlayersTableView::__cordl_internal_get__cellInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>*> const&
-GlobalNamespace::NetworkPlayersTableView::__cordl_internal_get__cellInfo() const {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayersTableView_CellInfo*>* const& GlobalNamespace::NetworkPlayersTableView::__cordl_internal_get__cellInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellInfo;
 }
-constexpr void GlobalNamespace::NetworkPlayersTableView::__cordl_internal_set__cellInfo(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>* value) {
+constexpr void GlobalNamespace::NetworkPlayersTableView::__cordl_internal_set__cellInfo(::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayersTableView_CellInfo*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cellInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -380,13 +371,21 @@ inline bool GlobalNamespace::NetworkPlayersTableView::HasVisibleOptions(::Global
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkPlayer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, player);
 }
-inline ::GlobalNamespace::NetworkPlayersTableView* GlobalNamespace::NetworkPlayersTableView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayersTableView*>());
-}
 inline void GlobalNamespace::NetworkPlayersTableView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NetworkPlayersTableView* GlobalNamespace::NetworkPlayersTableView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayersTableView*>());
+}
+/// @brief Convert operator to "::HMUI::TableView_IDataSource"
+constexpr GlobalNamespace::NetworkPlayersTableView::operator ::HMUI::TableView_IDataSource*() noexcept {
+  return static_cast<::HMUI::TableView_IDataSource*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HMUI::TableView_IDataSource"
+constexpr ::HMUI::TableView_IDataSource* GlobalNamespace::NetworkPlayersTableView::i___HMUI__TableView_IDataSource() noexcept {
+  return static_cast<::HMUI::TableView_IDataSource*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetworkPlayersTableView::NetworkPlayersTableView() {}

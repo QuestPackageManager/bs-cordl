@@ -1,17 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage_1.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureUsage_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>"
-template <typename T> constexpr UnityEngine::XR::InputFeatureUsage_1<T>::operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>"
-template <typename T>
-constexpr ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>* UnityEngine::XR::InputFeatureUsage_1<T>::i___System__IEquatable_1___UnityEngine__XR__InputFeatureUsage_1_T__() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 template <typename T> inline ::StringW UnityEngine::XR::InputFeatureUsage_1<T>::get_name() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputFeatureUsage_1<T>>::get(), "get_name",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -45,7 +36,16 @@ template <typename T> inline int32_t UnityEngine::XR::InputFeatureUsage_1<T>::Ge
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputFeatureUsage_1<T>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>"
+template <typename T> constexpr UnityEngine::XR::InputFeatureUsage_1<T>::operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>"
+template <typename T>
+constexpr ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>* UnityEngine::XR::InputFeatureUsage_1<T>::i___System__IEquatable_1___UnityEngine__XR__InputFeatureUsage_1_T__() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::UnityEngine::XR::InputFeatureUsage_1<T>::InputFeatureUsage_1(::StringW _name_k__BackingField) noexcept {
   this->_name_k__BackingField = _name_k__BackingField;
 }

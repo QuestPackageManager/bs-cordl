@@ -12,11 +12,10 @@ struct TouchScreenKeyboardType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TouchScreenKeyboardType);
-// Type: UnityEngine::TouchScreenKeyboardType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::TouchScreenKeyboardType
+// CS Name: UnityEngine.TouchScreenKeyboardType
 struct CORDL_TYPE TouchScreenKeyboardType {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TouchScreenKeyboardType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ASCIICapable value: static_cast<int32_t>(0x1)
+  /// @brief Field ASCIICapable value: I32(1)
   static ::UnityEngine::TouchScreenKeyboardType const ASCIICapable;
 
-  /// @brief Field DecimalPad value: static_cast<int32_t>(0xb)
+  /// @brief Field DecimalPad value: I32(11)
   static ::UnityEngine::TouchScreenKeyboardType const DecimalPad;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
+  /// @brief Field Default value: I32(0)
   static ::UnityEngine::TouchScreenKeyboardType const Default;
 
-  /// @brief Field EmailAddress value: static_cast<int32_t>(0x7)
+  /// @brief Field EmailAddress value: I32(7)
   static ::UnityEngine::TouchScreenKeyboardType const EmailAddress;
 
-  /// @brief Field NamePhonePad value: static_cast<int32_t>(0x6)
+  /// @brief Field NamePhonePad value: I32(6)
   static ::UnityEngine::TouchScreenKeyboardType const NamePhonePad;
 
-  /// @brief Field NintendoNetworkAccount value: static_cast<int32_t>(0x8)
+  /// @brief Field NintendoNetworkAccount value: I32(8)
   static ::UnityEngine::TouchScreenKeyboardType const NintendoNetworkAccount;
 
-  /// @brief Field NumberPad value: static_cast<int32_t>(0x4)
+  /// @brief Field NumberPad value: I32(4)
   static ::UnityEngine::TouchScreenKeyboardType const NumberPad;
 
-  /// @brief Field NumbersAndPunctuation value: static_cast<int32_t>(0x2)
+  /// @brief Field NumbersAndPunctuation value: I32(2)
   static ::UnityEngine::TouchScreenKeyboardType const NumbersAndPunctuation;
 
-  /// @brief Field OneTimeCode value: static_cast<int32_t>(0xc)
+  /// @brief Field OneTimeCode value: I32(12)
   static ::UnityEngine::TouchScreenKeyboardType const OneTimeCode;
 
-  /// @brief Field PhonePad value: static_cast<int32_t>(0x5)
+  /// @brief Field PhonePad value: I32(5)
   static ::UnityEngine::TouchScreenKeyboardType const PhonePad;
 
-  /// @brief Field Search value: static_cast<int32_t>(0xa)
+  /// @brief Field Search value: I32(10)
   static ::UnityEngine::TouchScreenKeyboardType const Search;
 
-  /// @brief Field Social value: static_cast<int32_t>(0x9)
+  /// @brief Field Social value: I32(9)
   static ::UnityEngine::TouchScreenKeyboardType const Social;
 
-  /// @brief Field URL value: static_cast<int32_t>(0x3)
+  /// @brief Field URL value: I32(3)
   static ::UnityEngine::TouchScreenKeyboardType const URL;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10942 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TouchScreenKeyboardType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TouchScreenKeyboardType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TouchScreenKeyboardType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TouchScreenKeyboardType, "UnityEngine", "TouchScreenKeyboardType");

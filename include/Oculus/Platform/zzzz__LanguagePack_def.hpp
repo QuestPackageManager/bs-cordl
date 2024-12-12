@@ -21,18 +21,17 @@ class LanguagePack;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::LanguagePack);
-// Type: Oculus.Platform::LanguagePack
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::LanguagePack*
+// CS Name: Oculus.Platform.LanguagePack
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x3f2989c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x3f89948, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent, addr 0x3f299ec, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x3f89a98, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
 protected:
@@ -50,7 +49,7 @@ public:
   LanguagePack(LanguagePack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

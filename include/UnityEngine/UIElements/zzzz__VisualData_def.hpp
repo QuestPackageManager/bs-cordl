@@ -3,47 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowInternal_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualData)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-struct BackgroundPosition;
-}
-namespace UnityEngine::UIElements {
-struct BackgroundRepeat;
-}
-namespace UnityEngine::UIElements {
-struct BackgroundSize;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct OverflowInternal;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -51,11 +25,11 @@ struct VisualData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualData);
-// Type: UnityEngine.UIElements::VisualData
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 220, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.Color, UnityEngine.UIElements.Background, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat,
+// UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.IStyleDataGroup`1<T>, UnityEngine.UIElements.Length, UnityEngine.UIElements.OverflowInternal
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::VisualData
+// CS Name: UnityEngine.UIElements.VisualData
 struct CORDL_TYPE VisualData {
 public:
   // Declarations
@@ -65,19 +39,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>*();
 
-  /// @brief Method Copy, addr 0x4a1c7d8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a810e8, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a1c7f4, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::VisualData> other);
+  /// @brief Method CopyFrom, addr 0x4a81104, size 0x14, virtual true, abstract: false, final true
+  inline void CopyFrom(::ByRef<::UnityEngine::UIElements::VisualData> other);
 
-  /// @brief Method Equals, addr 0x4a1cb48, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a81458, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1cafc, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a8140c, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualData other);
 
-  /// @brief Method GetHashCode, addr 0x4a1cbf0, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a81500, size 0x300, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
@@ -86,7 +60,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__VisualData_();
 
-  /// @brief Method op_Equality, addr 0x4a1c808, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a81118, size 0x2f4, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::VisualData lhs, ::UnityEngine::UIElements::VisualData rhs);
 
   // Ctor Parameters []
@@ -109,6 +83,12 @@ public:
                        ::UnityEngine::UIElements::Length borderBottomRightRadius, ::UnityEngine::Color borderLeftColor, ::UnityEngine::Color borderRightColor, ::UnityEngine::Color borderTopColor,
                        ::UnityEngine::UIElements::Length borderTopLeftRadius, ::UnityEngine::UIElements::Length borderTopRightRadius, float_t opacity,
                        ::UnityEngine::UIElements::OverflowInternal overflow) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6083 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
 
   /// @brief Field backgroundColor, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color backgroundColor;
@@ -158,17 +138,9 @@ public:
   /// @brief Field overflow, offset: 0xc8, size: 0x4, def value: None
   ::UnityEngine::UIElements::OverflowInternal overflow;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6058 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualData, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VisualData, backgroundColor) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualData, backgroundImage) == 0x10, "Offset mismatch!");
@@ -200,6 +172,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualData, borderTopRightRadi
 static_assert(offsetof(::UnityEngine::UIElements::VisualData, opacity) == 0xc4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualData, overflow) == 0xc8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualData, 0xd0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualData, "UnityEngine.UIElements", "VisualData");

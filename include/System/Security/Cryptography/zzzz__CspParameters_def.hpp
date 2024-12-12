@@ -16,11 +16,10 @@ class CspParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::CspParameters);
-// Type: System.Security.Cryptography::CspParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::CspParameters*
+// CS Name: System.Security.Cryptography.CspParameters
 class CORDL_TYPE CspParameters : public ::System::Object {
 public:
   // Declarations
@@ -80,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set_m_flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c3d834, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d9a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c3d8a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9da18, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn);
 
-  /// @brief Method .ctor, addr 0x3c3d860, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d9d4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn);
 
-  /// @brief Method .ctor, addr 0x3c3d8d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9da4c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags);
 
-  /// @brief Method get_Flags, addr 0x3c3d748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x3c9d8bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::CspProviderFlags get_Flags();
 
-  /// @brief Method set_Flags, addr 0x3c3d750, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x3c9d8c4, size 0xe4, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Cryptography::CspProviderFlags value);
 
 protected:
@@ -112,6 +111,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CspParameters(CspParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2926 };
+
   /// @brief Field ProviderType, offset: 0x10, size: 0x4, def value: None
   int32_t ___ProviderType;
 
@@ -127,14 +129,9 @@ public:
   /// @brief Field m_flags, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_flags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2926 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CspParameters, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::CspParameters, ___ProviderType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::CspParameters, ___ProviderName) == 0x18, "Offset mismatch!");
@@ -144,6 +141,8 @@ static_assert(offsetof(::System::Security::Cryptography::CspParameters, ___KeyCo
 static_assert(offsetof(::System::Security::Cryptography::CspParameters, ___KeyNumber) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::CspParameters, ___m_flags) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CspParameters, 0x30>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::CspParameters);

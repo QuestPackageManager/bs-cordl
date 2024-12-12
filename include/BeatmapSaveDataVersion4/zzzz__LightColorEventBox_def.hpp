@@ -9,23 +9,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightColorEventBox)
-namespace BeatmapSaveDataCommon {
-struct DistributionParamType;
-}
-namespace BeatmapSaveDataCommon {
-struct EaseType;
-}
 // Forward declare root types
 namespace BeatmapSaveDataVersion4 {
 struct LightColorEventBox;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataVersion4::LightColorEventBox);
-// Type: BeatmapSaveDataVersion4::LightColorEventBox
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.DistributionParamType, BeatmapSaveDataCommon.EaseType
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataVersion4::LightColorEventBox
+// CS Name: BeatmapSaveDataVersion4.LightColorEventBox
 struct CORDL_TYPE LightColorEventBox {
 public:
   // Declarations
@@ -38,6 +31,12 @@ public:
   // name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }]
   constexpr LightColorEventBox(float_t w, ::BeatmapSaveDataCommon::DistributionParamType d, float_t s, ::BeatmapSaveDataCommon::DistributionParamType t, int32_t b,
                                ::BeatmapSaveDataCommon::EaseType e) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13368 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field w, offset: 0x0, size: 0x4, def value: None
   float_t w;
@@ -57,17 +56,9 @@ public:
   /// @brief Field e, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::EaseType e;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13338 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::LightColorEventBox, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightColorEventBox, w) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightColorEventBox, d) == 0x4, "Offset mismatch!");
@@ -79,6 +70,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::LightColorEventBox, t) == 0xc,
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightColorEventBox, b) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightColorEventBox, e) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::LightColorEventBox, 0x18>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::LightColorEventBox, "BeatmapSaveDataVersion4", "LightColorEventBox");

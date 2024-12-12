@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(AsyncCallback)
 namespace System {
 class IAsyncResult;
@@ -21,26 +20,25 @@ class AsyncCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::AsyncCallback);
-// Type: System::AsyncCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System {
 // Is value type: false
-// CS Name: ::System::AsyncCallback*
+// CS Name: System.AsyncCallback
 class CORDL_TYPE AsyncCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3cf512c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3d552a0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IAsyncResult* ar, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3cf514c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3d552c0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3cf5118, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3d5528c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IAsyncResult* ar);
 
   static inline ::System::AsyncCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3cf5018, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d5518c, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

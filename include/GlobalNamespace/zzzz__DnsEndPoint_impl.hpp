@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DnsEndPoint.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DnsEndPoint.get_endPoint
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::get_endPoint)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x228e73c;
+  constexpr static std::size_t addrs = 0x22c1a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DnsEndPoint*>::get(), "get_endPoint",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DnsEndPoint::*)(::StringW, int32_t)>(&::GlobalNamespace::DnsEndPoint::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x228d650;
+  constexpr static std::size_t addrs = 0x22c093c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DnsEndPoint::*)(::System::Net::IPEndPoint*)>(&::GlobalNamespace::DnsEndPoint::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x228e7b0;
+  constexpr static std::size_t addrs = 0x22c1a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* (::GlobalNamespace::DnsEndPoint::*)(::BGNet::Core::ITaskUtility*)>(&::GlobalNamespace::DnsEndPoint::GetEndPointAsync)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x228e864;
+  constexpr static std::size_t addrs = 0x22c1b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::GetEndPoint)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x228e978;
+  constexpr static std::size_t addrs = 0x22c1c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DnsEndPoint*>::get(), "GetEndPoint",
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::DnsEndPoint::*)()>(
     &::GlobalNamespace::DnsEndPoint::GetEndPointInternal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x228ea0c;
+  constexpr static std::size_t addrs = 0x22c1cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DnsEndPoint*>::get(), "GetEndPointInternal",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::ToString)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x228eabc;
+  constexpr static std::size_t addrs = 0x22c1da8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DnsEndPoint::*)(::System::Object*)>(&::GlobalNamespace::DnsEndPoint::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x228eb48;
+  constexpr static std::size_t addrs = 0x22c1e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DnsEndPoint::*)(::GlobalNamespace::DnsEndPoint*)>(&::GlobalNamespace::DnsEndPoint::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x228ebe8;
+  constexpr static std::size_t addrs = 0x22c1ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x228ec34;
+  constexpr static std::size_t addrs = 0x22c1f20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,14 +146,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
-constexpr GlobalNamespace::DnsEndPoint::operator ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*() noexcept {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>* GlobalNamespace::DnsEndPoint::i___System__IEquatable_1___GlobalNamespace__DnsEndPoint__() noexcept {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*>(static_cast<void*>(this));
-}
 constexpr ::StringW& GlobalNamespace::DnsEndPoint::__cordl_internal_get_hostName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostName;
@@ -182,7 +174,7 @@ constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& Globa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getEndPointTask;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*> const& GlobalNamespace::DnsEndPoint::__cordl_internal_get__getEndPointTask() const {
+constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* const& GlobalNamespace::DnsEndPoint::__cordl_internal_get__getEndPointTask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getEndPointTask;
 }
@@ -195,17 +187,11 @@ inline ::System::Net::IPEndPoint* GlobalNamespace::DnsEndPoint::get_endPoint() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::IPEndPoint*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::DnsEndPoint* GlobalNamespace::DnsEndPoint::New_ctor(::StringW hostName, int32_t port) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DnsEndPoint*>(hostName, port));
-}
 inline void GlobalNamespace::DnsEndPoint::_ctor(::StringW hostName, int32_t port) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DnsEndPoint*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hostName, port);
-}
-inline ::GlobalNamespace::DnsEndPoint* GlobalNamespace::DnsEndPoint::New_ctor(::System::Net::IPEndPoint* endPoint) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DnsEndPoint*>(endPoint));
 }
 inline void GlobalNamespace::DnsEndPoint::_ctor(::System::Net::IPEndPoint* endPoint) {
   static auto* ___internal_method =
@@ -249,6 +235,20 @@ inline int32_t GlobalNamespace::DnsEndPoint::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DnsEndPoint*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::DnsEndPoint* GlobalNamespace::DnsEndPoint::New_ctor(::StringW hostName, int32_t port) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DnsEndPoint*>(hostName, port));
+}
+inline ::GlobalNamespace::DnsEndPoint* GlobalNamespace::DnsEndPoint::New_ctor(::System::Net::IPEndPoint* endPoint) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DnsEndPoint*>(endPoint));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
+constexpr GlobalNamespace::DnsEndPoint::operator ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>* GlobalNamespace::DnsEndPoint::i___System__IEquatable_1___GlobalNamespace__DnsEndPoint__() noexcept {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DnsEndPoint::DnsEndPoint() {}

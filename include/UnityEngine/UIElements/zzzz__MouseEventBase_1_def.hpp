@@ -4,15 +4,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMouseEventInternal_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseEventBase_1)
 namespace UnityEngine::UIElements {
 class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class IMouseEventInternal;
 }
 namespace UnityEngine::UIElements {
 class IMouseEvent;
@@ -38,13 +37,12 @@ template <typename T> class MouseEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::MouseEventBase_1);
-// Type: UnityEngine.UIElements::MouseEventBase`1
-// SizeInfo { instance_size: 184, native_size: 184, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventModifiers, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.IMouseEvent, UnityEngine.UIElements.IMouseEventInternal, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::MouseEventBase`1<T>*
+// CS Name: UnityEngine.UIElements.MouseEventBase`1<T>
 class CORDL_TYPE MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -172,10 +170,9 @@ public:
 
   constexpr bool& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::IPointerEvent*& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IPointerEvent* const& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPointerEvent*> const&
-  __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::IPointerEvent*& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField() const;
 
@@ -312,6 +309,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseEventBase_1(MouseEventBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5852 };
+
   /// @brief Field <modifiers>k__BackingField, offset: 0x84, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
@@ -341,9 +341,6 @@ public:
 
   /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPointerEvent* ____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

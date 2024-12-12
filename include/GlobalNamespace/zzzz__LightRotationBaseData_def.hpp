@@ -21,11 +21,10 @@ class LightRotationBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationBaseData);
-// Type: ::LightRotationBaseData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EaseType, LightRotationDirection, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightRotationBaseData*
+// CS Name: LightRotationBaseData
 class CORDL_TYPE LightRotationBaseData : public ::System::Object {
 public:
   // Declarations
@@ -86,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventRotationValue(bool value);
 
-  /// @brief Method .ctor, addr 0x2688fa8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bd798, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                     ::GlobalNamespace::LightRotationDirection rotationDirection);
 
@@ -103,6 +102,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationBaseData(LightRotationBaseData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12914 };
 
   /// @brief Field beat, offset: 0x10, size: 0x4, def value: None
   float_t ___beat;
@@ -122,14 +124,9 @@ public:
   /// @brief Field rotationDirection, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::LightRotationDirection ___rotationDirection;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12880 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationBaseData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___beat) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___usePreviousEventRotationValue) == 0x14, "Offset mismatch!");
@@ -141,6 +138,8 @@ static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___rotation) ==
 static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___loopsCount) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___rotationDirection) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationBaseData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightRotationBaseData);

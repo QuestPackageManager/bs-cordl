@@ -12,11 +12,10 @@ struct NotificationFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::NotificationFlags);
-// Type: UnityEngine.Timeline::NotificationFlags
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
-// CS Name: ::UnityEngine.Timeline::NotificationFlags
+// CS Name: UnityEngine.Timeline.NotificationFlags
 struct CORDL_TYPE NotificationFlags {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None }]
   constexpr NotificationFlags(int16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  int16_t value__;
-
-  /// @brief Field Retroactive value: static_cast<int16_t>(0x2)
+  /// @brief Field Retroactive value: I16(2)
   static ::UnityEngine::Timeline::NotificationFlags const Retroactive;
 
-  /// @brief Field TriggerInEditMode value: static_cast<int16_t>(0x1)
+  /// @brief Field TriggerInEditMode value: I16(1)
   static ::UnityEngine::Timeline::NotificationFlags const TriggerInEditMode;
 
-  /// @brief Field TriggerOnce value: static_cast<int16_t>(0x4)
+  /// @brief Field TriggerOnce value: I16(4)
   static ::UnityEngine::Timeline::NotificationFlags const TriggerOnce;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15864 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  int16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::NotificationFlags, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::NotificationFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::NotificationFlags, 0x2>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");

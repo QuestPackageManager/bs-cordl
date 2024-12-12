@@ -12,11 +12,10 @@ struct AttributeTargets;
 }
 // Write type traits
 MARK_VAL_T(::System::AttributeTargets);
-// Type: System::AttributeTargets
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::AttributeTargets
+// CS Name: System.AttributeTargets
 struct CORDL_TYPE AttributeTargets {
 public:
   // Declarations
@@ -59,55 +58,52 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AttributeTargets(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0x7fff)
+  /// @brief Field All value: I32(32767)
   static ::System::AttributeTargets const All;
 
-  /// @brief Field Assembly value: static_cast<int32_t>(0x1)
+  /// @brief Field Assembly value: I32(1)
   static ::System::AttributeTargets const Assembly;
 
-  /// @brief Field Class value: static_cast<int32_t>(0x4)
+  /// @brief Field Class value: I32(4)
   static ::System::AttributeTargets const Class;
 
-  /// @brief Field Constructor value: static_cast<int32_t>(0x20)
+  /// @brief Field Constructor value: I32(32)
   static ::System::AttributeTargets const Constructor;
 
-  /// @brief Field Delegate value: static_cast<int32_t>(0x1000)
+  /// @brief Field Delegate value: I32(4096)
   static ::System::AttributeTargets const Delegate;
 
-  /// @brief Field Enum value: static_cast<int32_t>(0x10)
+  /// @brief Field Enum value: I32(16)
   static ::System::AttributeTargets const Enum;
 
-  /// @brief Field Event value: static_cast<int32_t>(0x200)
+  /// @brief Field Event value: I32(512)
   static ::System::AttributeTargets const Event;
 
-  /// @brief Field Field value: static_cast<int32_t>(0x100)
+  /// @brief Field Field value: I32(256)
   static ::System::AttributeTargets const Field;
 
-  /// @brief Field GenericParameter value: static_cast<int32_t>(0x4000)
+  /// @brief Field GenericParameter value: I32(16384)
   static ::System::AttributeTargets const GenericParameter;
 
-  /// @brief Field Interface value: static_cast<int32_t>(0x400)
+  /// @brief Field Interface value: I32(1024)
   static ::System::AttributeTargets const Interface;
 
-  /// @brief Field Method value: static_cast<int32_t>(0x40)
+  /// @brief Field Method value: I32(64)
   static ::System::AttributeTargets const Method;
 
-  /// @brief Field Module value: static_cast<int32_t>(0x2)
+  /// @brief Field Module value: I32(2)
   static ::System::AttributeTargets const Module;
 
-  /// @brief Field Parameter value: static_cast<int32_t>(0x800)
+  /// @brief Field Parameter value: I32(2048)
   static ::System::AttributeTargets const Parameter;
 
-  /// @brief Field Property value: static_cast<int32_t>(0x80)
+  /// @brief Field Property value: I32(128)
   static ::System::AttributeTargets const Property;
 
-  /// @brief Field ReturnValue value: static_cast<int32_t>(0x2000)
+  /// @brief Field ReturnValue value: I32(8192)
   static ::System::AttributeTargets const ReturnValue;
 
-  /// @brief Field Struct value: static_cast<int32_t>(0x8)
+  /// @brief Field Struct value: I32(8)
   static ::System::AttributeTargets const Struct;
 
   /// @brief IL2CPP Metadata Type Index
@@ -116,12 +112,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::AttributeTargets, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::AttributeTargets, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::AttributeTargets, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::AttributeTargets, "System", "AttributeTargets");

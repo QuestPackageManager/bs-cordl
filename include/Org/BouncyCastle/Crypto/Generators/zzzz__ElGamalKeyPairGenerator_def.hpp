@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ElGamalKeyPairGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -10,9 +11,6 @@ class ElGamalKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
@@ -23,11 +21,10 @@ class ElGamalKeyPairGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::ElGamalKeyPairGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IAsymmetricCipherKeyPairGenerator, System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::ElGamalKeyPairGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.ElGamalKeyPairGenerator
 class CORDL_TYPE ElGamalKeyPairGenerator : public ::System::Object {
 public:
   // Declarations
@@ -37,21 +34,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0x234f5a0, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0x238288c, size 0x188, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0x234f4fc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x23827e8, size 0xa4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator* New_ctor();
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*& __cordl_internal_get_param();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* const& __cordl_internal_get_param() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*> const& __cordl_internal_get_param() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*& __cordl_internal_get_param();
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x234f728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2382a14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
@@ -71,18 +68,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElGamalKeyPairGenerator(ElGamalKeyPairGenerator const&) = delete;
 
-  /// @brief Field param, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* ___param;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 902 };
+
+  /// @brief Field param, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* ___param;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator, ___param) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator);

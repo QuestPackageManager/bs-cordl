@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestHeaderParser)
@@ -15,11 +13,10 @@ class DigestHeaderParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::DigestHeaderParser);
-// Type: System.Net::DigestHeaderParser
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::DigestHeaderParser*
+// CS Name: System.Net.DigestHeaderParser
 class CORDL_TYPE DigestHeaderParser : public ::System::Object {
 public:
   // Declarations
@@ -37,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header)) ::StringW header;
 
   /// @brief Field keywords, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_keywords, put = setStaticF_keywords)) ::ArrayW<::StringW, ::Array<::StringW>*> keywords;
+  __declspec(property(get = getStaticF_keywords, put = setStaticF_keywords)) ::ArrayW<::StringW, ::Array<::StringW>*> keywords;
 
   /// @brief Field length, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
@@ -48,18 +45,18 @@ public:
   /// @brief Field values, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::ArrayW<::StringW, ::Array<::StringW>*> values;
 
-  /// @brief Method GetKey, addr 0x445af9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x44bc2b0, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetKey();
 
-  /// @brief Method GetKeywordAndValue, addr 0x445ad8c, size 0x190, virtual false, abstract: false, final false
-  inline bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
+  /// @brief Method GetKeywordAndValue, addr 0x44bc0a0, size 0x190, virtual false, abstract: false, final false
+  inline bool GetKeywordAndValue(::ByRef<::StringW> key, ::ByRef<::StringW> value);
 
   static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW header);
 
-  /// @brief Method Parse, addr 0x445abf4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x44bbf08, size 0x198, virtual false, abstract: false, final false
   inline bool Parse();
 
-  /// @brief Method SkipWhitespace, addr 0x445af1c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x44bc230, size 0x80, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
   constexpr ::StringW const& __cordl_internal_get_header() const;
@@ -86,24 +83,24 @@ public:
 
   constexpr void __cordl_internal_set_values(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x445aa68, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bbd7c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_keywords();
 
-  /// @brief Method get_Algorithm, addr 0x445ab9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x44bbeb0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Nonce, addr 0x445ab70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x44bbe84, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque, addr 0x445ab44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x44bbe58, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP, addr 0x445abc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x44bbedc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_Realm, addr 0x445ab1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x44bbe30, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
   static inline void setStaticF_keywords(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -122,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DigestHeaderParser(DigestHeaderParser const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9675 };
+
   /// @brief Field header, offset: 0x10, size: 0x8, def value: None
   ::StringW ___header;
 
@@ -134,14 +134,9 @@ public:
   /// @brief Field values, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___values;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9650 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::DigestHeaderParser, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::DigestHeaderParser, ___header) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::DigestHeaderParser, ___length) == 0x18, "Offset mismatch!");
@@ -149,6 +144,8 @@ static_assert(offsetof(::System::Net::DigestHeaderParser, ___length) == 0x18, "O
 static_assert(offsetof(::System::Net::DigestHeaderParser, ___pos) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::DigestHeaderParser, ___values) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::DigestHeaderParser, 0x28>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::DigestHeaderParser);

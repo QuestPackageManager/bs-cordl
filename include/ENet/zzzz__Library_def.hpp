@@ -18,30 +18,29 @@ class Library;
 }
 // Write type traits
 MARK_REF_PTR_T(::ENet::Library);
-// Type: ENet::Library
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ENet {
 // Is value type: false
-// CS Name: ::ENet::Library*
+// CS Name: ENet.Library
 class CORDL_TYPE Library : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CRC64, addr 0x3a5106c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CRC64, addr 0x3aa7cdc, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t CRC64(::System::IntPtr buffers, int32_t bufferCount);
 
-  /// @brief Method Deinitialize, addr 0x3a51004, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x3aa7c74, size 0x4, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method InitOpenSSL, addr 0x3a50bc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InitOpenSSL, addr 0x3aa7830, size 0x24, virtual false, abstract: false, final false
   static inline void InitOpenSSL();
 
-  /// @brief Method Initialize, addr 0x3a50ce8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3aa7958, size 0x90, virtual false, abstract: false, final false
   static inline bool Initialize();
 
-  /// @brief Method Initialize, addr 0x3a50e48, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3aa7ab8, size 0xf8, virtual false, abstract: false, final false
   static inline bool Initialize(::ENet::Callbacks* callbacks);
 
-  /// @brief Method get_Time, addr 0x3a50b54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x3aa77c4, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t get_Time();
 
 protected:
@@ -59,7 +58,7 @@ public:
   Library(Library const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17748 };
 
   /// @brief Field maxChannelCount offset 0xffffffff size 0x4
   static constexpr uint32_t maxChannelCount{ static_cast<uint32_t>(0xff8fff80u) };

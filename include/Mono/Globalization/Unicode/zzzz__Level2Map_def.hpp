@@ -12,11 +12,10 @@ class Level2Map;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Globalization::Unicode::Level2Map);
-// Type: Mono.Globalization.Unicode::Level2Map
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// CS Name: ::Mono.Globalization.Unicode::Level2Map*
+// CS Name: Mono.Globalization.Unicode.Level2Map
 class CORDL_TYPE Level2Map : public ::System::Object {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_Source(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3bf6ef0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c57004, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint8_t source, uint8_t replace);
 
 protected:
@@ -57,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Level2Map(Level2Map const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2262 };
+
   /// @brief Field Source, offset: 0x10, size: 0x1, def value: None
   uint8_t ___Source;
 
   /// @brief Field Replace, offset: 0x11, size: 0x1, def value: None
   uint8_t ___Replace;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2262 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::Level2Map, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Globalization::Unicode::Level2Map, ___Source) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Globalization::Unicode::Level2Map, ___Replace) == 0x11, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::Level2Map, 0x18>, "Size mismatch!");
 
 } // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::Level2Map);

@@ -19,11 +19,10 @@ class NewArrayInitInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::NewArrayInitInstruction);
-// Type: System.Linq.Expressions.Interpreter::NewArrayInitInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::NewArrayInitInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.NewArrayInitInstruction
 class CORDL_TYPE NewArrayInitInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -41,31 +40,31 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayInitInstruction* New_ctor(::System::Type* elementType, int32_t elementCount);
 
-  /// @brief Method Run, addr 0x405ebd0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40bfee4, size 0x88, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr int32_t const& __cordl_internal_get__elementCount() const;
 
   constexpr int32_t& __cordl_internal_get__elementCount();
 
-  constexpr ::System::Type*& __cordl_internal_get__elementType();
+  constexpr ::System::Type* const& __cordl_internal_get__elementType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__elementType() const;
+  constexpr ::System::Type*& __cordl_internal_get__elementType();
 
   constexpr void __cordl_internal_set__elementCount(int32_t value);
 
   constexpr void __cordl_internal_set__elementType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x405eb50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bfe64, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t elementCount);
 
-  /// @brief Method get_ConsumedStack, addr 0x405eb80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40bfe94, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x405eb90, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40bfea4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x405eb88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40bfe9c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -82,23 +81,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NewArrayInitInstruction(NewArrayInitInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13764 };
+
   /// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____elementType;
 
   /// @brief Field _elementCount, offset: 0x18, size: 0x4, def value: None
   int32_t ____elementCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13730 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewArrayInitInstruction, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewArrayInitInstruction, ____elementType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewArrayInitInstruction, ____elementCount) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewArrayInitInstruction, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NewArrayInitInstruction);

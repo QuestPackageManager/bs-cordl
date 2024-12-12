@@ -12,11 +12,10 @@ struct BatchFilterSettings;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchFilterSettings);
-// Type: UnityEngine.Rendering::BatchFilterSettings
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 26, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::BatchFilterSettings
+// CS Name: UnityEngine.Rendering.BatchFilterSettings
 struct CORDL_TYPE BatchFilterSettings {
 public:
   // Declarations
@@ -30,6 +29,12 @@ public:
   // modifiers: "", def_value: None }]
   constexpr BatchFilterSettings(uint32_t renderingLayerMask, uint8_t layer, uint8_t m_motionMode, uint8_t m_shadowMode, uint8_t m_receiveShadows, uint8_t m_staticShadowCaster,
                                 uint8_t m_allDepthSorted) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11245 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
   /// @brief Field renderingLayerMask, offset: 0x0, size: 0x4, def value: None
   uint32_t renderingLayerMask;
@@ -52,17 +57,9 @@ public:
   /// @brief Field m_allDepthSorted, offset: 0x9, size: 0x1, def value: None
   uint8_t m_allDepthSorted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11212 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchFilterSettings, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::BatchFilterSettings, renderingLayerMask) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchFilterSettings, layer) == 0x4, "Offset mismatch!");
@@ -76,6 +73,8 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchFilterSettings, m_receiveS
 static_assert(offsetof(::UnityEngine::Rendering::BatchFilterSettings, m_staticShadowCaster) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchFilterSettings, m_allDepthSorted) == 0x9, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchFilterSettings, 0xc>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchFilterSettings, "UnityEngine.Rendering", "BatchFilterSettings");

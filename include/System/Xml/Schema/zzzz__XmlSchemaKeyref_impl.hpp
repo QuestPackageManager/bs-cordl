@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaKeyref::*)()>(
     &::System::Xml::Schema::XmlSchemaKeyref::get_Refer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425c604;
+  constexpr static std::size_t addrs = 0x42bd918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaKeyref*>::get(), "get_Refer",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaKeyref::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaKeyref::set_Refer)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x425c60c;
+  constexpr static std::size_t addrs = 0x42bd920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaKeyref::*)()>(&::System::Xml::Schema::XmlSchemaKeyref::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x425c6a4;
+  constexpr static std::size_t addrs = 0x42bd9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaKeyref*>::get(), ".ctor",
@@ -49,7 +49,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XmlSchemaKeyref
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___refer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::XmlSchemaKeyref::__cordl_internal_get_refer() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XmlSchemaKeyref::__cordl_internal_get_refer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___refer;
 }
@@ -68,13 +68,13 @@ inline void System::Xml::Schema::XmlSchemaKeyref::set_Refer(::System::Xml::XmlQu
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Xml::Schema::XmlSchemaKeyref* System::Xml::Schema::XmlSchemaKeyref::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaKeyref*>());
-}
 inline void System::Xml::Schema::XmlSchemaKeyref::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaKeyref*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaKeyref* System::Xml::Schema::XmlSchemaKeyref::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaKeyref*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaKeyref::XmlSchemaKeyref() {}

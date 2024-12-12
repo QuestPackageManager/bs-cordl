@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -10,13 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTransformOrigin)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
@@ -30,11 +26,10 @@ struct StyleTransformOrigin;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleTransformOrigin);
-// Type: UnityEngine.UIElements::StyleTransformOrigin
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.StyleKeyword, UnityEngine.UIElements.TransformOrigin
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::StyleTransformOrigin
+// CS Name: UnityEngine.UIElements.StyleTransformOrigin
 struct CORDL_TYPE StyleTransformOrigin {
 public:
   // Declarations
@@ -48,28 +43,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*();
 
-  /// @brief Method Equals, addr 0x4a1fe80, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a84790, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1fdf4, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a84704, size 0x8c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleTransformOrigin other);
 
-  /// @brief Method GetHashCode, addr 0x4a1ff10, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a84820, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4a1ff34, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a84844, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a1fd48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a84658, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x4a1fd54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a84664, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TransformOrigin v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x4a1fd40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x4a84650, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x4a1fcac, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x4a845bc, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransformOrigin get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>"
@@ -78,10 +73,10 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TransformOrigin_();
 
-  /// @brief Method op_Equality, addr 0x4a1fd6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a8467c, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleTransformOrigin lhs, ::UnityEngine::UIElements::StyleTransformOrigin rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a1fde8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a846f8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTransformOrigin op_Implicit___UnityEngine__UIElements__StyleTransformOrigin(::UnityEngine::UIElements::StyleKeyword keyword);
 
   // Ctor Parameters []
@@ -92,26 +87,26 @@ public:
   // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
   constexpr StyleTransformOrigin(::UnityEngine::UIElements::TransformOrigin m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6105 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
   /// @brief Field m_Value, offset: 0x0, size: 0x14, def value: None
   ::UnityEngine::UIElements::TransformOrigin m_Value;
 
   /// @brief Field m_Keyword, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6080 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleTransformOrigin, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleTransformOrigin, m_Value) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleTransformOrigin, m_Keyword) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleTransformOrigin, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleTransformOrigin, "UnityEngine.UIElements", "StyleTransformOrigin");

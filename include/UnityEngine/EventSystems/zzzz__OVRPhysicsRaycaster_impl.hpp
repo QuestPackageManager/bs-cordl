@@ -14,110 +14,110 @@
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c._ctor
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::*)()>(
-    &::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRPhysicsRaycaster___c::*)()>(
+    &::UnityEngine::EventSystems::OVRPhysicsRaycaster___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b1e0;
+  constexpr static std::size_t addrs = 0x407b28c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c._Raycast_b__15_0
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c._Raycast_b__15_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::*)(
-    ::UnityEngine::RaycastHit, ::UnityEngine::RaycastHit)>(&::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::_Raycast_b__15_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::OVRPhysicsRaycaster___c::*)(
+    ::UnityEngine::RaycastHit, ::UnityEngine::RaycastHit)>(&::UnityEngine::EventSystems::OVRPhysicsRaycaster___c::_Raycast_b__15_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x401b1e8;
+  constexpr static std::size_t addrs = 0x407b294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get(), "<Raycast>b__15_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get(), "<Raycast>b__15_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c._Spherecast_b__16_0
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c._Spherecast_b__16_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::*)(
-    ::UnityEngine::RaycastHit, ::UnityEngine::RaycastHit)>(&::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::_Spherecast_b__16_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::OVRPhysicsRaycaster___c::*)(
+    ::UnityEngine::RaycastHit, ::UnityEngine::RaycastHit)>(&::UnityEngine::EventSystems::OVRPhysicsRaycaster___c::_Spherecast_b__16_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x401b228;
+  constexpr static std::size_t addrs = 0x407b2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get(), "<Spherecast>b__16_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get(), "<Spherecast>b__16_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::setStaticF___9(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get>(
-      std::forward<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>(value));
+inline void UnityEngine::EventSystems::OVRPhysicsRaycaster___c::setStaticF___9(::UnityEngine::EventSystems::OVRPhysicsRaycaster___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get>(
+      std::forward<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>(value));
 }
-inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get>();
+inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c* UnityEngine::EventSystems::OVRPhysicsRaycaster___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get>();
 }
-inline void UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::setStaticF___9__15_0(::System::Comparison_1<::UnityEngine::RaycastHit>* value) {
+inline void UnityEngine::EventSystems::OVRPhysicsRaycaster___c::setStaticF___9__15_0(::System::Comparison_1<::UnityEngine::RaycastHit>* value) {
   ::cordl_internals::setStaticField<::System::Comparison_1<::UnityEngine::RaycastHit>*, "<>9__15_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get>(
       std::forward<::System::Comparison_1<::UnityEngine::RaycastHit>*>(value));
 }
-inline ::System::Comparison_1<::UnityEngine::RaycastHit>* UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::getStaticF___9__15_0() {
+inline ::System::Comparison_1<::UnityEngine::RaycastHit>* UnityEngine::EventSystems::OVRPhysicsRaycaster___c::getStaticF___9__15_0() {
   return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityEngine::RaycastHit>*, "<>9__15_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get>();
 }
-inline void UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::setStaticF___9__16_0(::System::Comparison_1<::UnityEngine::RaycastHit>* value) {
+inline void UnityEngine::EventSystems::OVRPhysicsRaycaster___c::setStaticF___9__16_0(::System::Comparison_1<::UnityEngine::RaycastHit>* value) {
   ::cordl_internals::setStaticField<::System::Comparison_1<::UnityEngine::RaycastHit>*, "<>9__16_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get>(
       std::forward<::System::Comparison_1<::UnityEngine::RaycastHit>*>(value));
 }
-inline ::System::Comparison_1<::UnityEngine::RaycastHit>* UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::getStaticF___9__16_0() {
+inline ::System::Comparison_1<::UnityEngine::RaycastHit>* UnityEngine::EventSystems::OVRPhysicsRaycaster___c::getStaticF___9__16_0() {
   return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityEngine::RaycastHit>*, "<>9__16_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get>();
 }
-inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>());
-}
-inline void UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get(),
+inline void UnityEngine::EventSystems::OVRPhysicsRaycaster___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::_Raycast_b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2) {
+inline int32_t UnityEngine::EventSystems::OVRPhysicsRaycaster___c::_Raycast_b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get(), "<Raycast>b__15_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get(), "<Raycast>b__15_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, r1, r2);
 }
-inline int32_t UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::_Spherecast_b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2) {
+inline int32_t UnityEngine::EventSystems::OVRPhysicsRaycaster___c::_Spherecast_b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*>::get(), "<Spherecast>b__16_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>::get(), "<Spherecast>b__16_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RaycastHit>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, r1, r2);
+}
+inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c* UnityEngine::EventSystems::OVRPhysicsRaycaster___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c::__OVRPhysicsRaycaster____c() {}
+constexpr ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c::OVRPhysicsRaycaster___c() {}
 //  Writing Method size for method: ::UnityEngine::EventSystems::OVRPhysicsRaycaster._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401aa9c;
+  constexpr static std::size_t addrs = 0x407ab48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster*>::get(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x401aac4;
+  constexpr static std::size_t addrs = 0x407ab70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::get_depth)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x401ab1c;
+  constexpr static std::size_t addrs = 0x407abc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::get_sortOrderPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401abe0;
+  constexpr static std::size_t addrs = 0x407ac8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::get_finalEventMask)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x401abe8;
+  constexpr static std::size_t addrs = 0x407ac94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster*>::get(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::get_eventMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401acac;
+  constexpr static std::size_t addrs = 0x407ad58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster*>::get(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::set_eventMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401acb4;
+  constexpr static std::size_t addrs = 0x407ad60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::UnityEngine::EventSystems::OVRPhysicsRaycaster::Raycast)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x401acbc;
+  constexpr static std::size_t addrs = 0x407ad68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +239,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*, float_t)>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::Spherecast)> {
   constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x4019a08;
+  constexpr static std::size_t addrs = 0x4079ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::OVRPhysicsRaycaster::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::EventSystems::OVRPhysicsRaycaster::GetScreenPos)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4019e50;
+  constexpr static std::size_t addrs = 0x4079efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,9 +288,6 @@ constexpr int32_t const& UnityEngine::EventSystems::OVRPhysicsRaycaster::__cordl
 constexpr void UnityEngine::EventSystems::OVRPhysicsRaycaster::__cordl_internal_set_sortOrder(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sortOrder = value;
-}
-inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* UnityEngine::EventSystems::OVRPhysicsRaycaster::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::OVRPhysicsRaycaster*>());
 }
 inline void UnityEngine::EventSystems::OVRPhysicsRaycaster::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster*>::get(), ".ctor",
@@ -348,6 +345,9 @@ inline ::UnityEngine::Vector2 UnityEngine::EventSystems::OVRPhysicsRaycaster::Ge
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPhysicsRaycaster*>::get(), "GetScreenPos", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, worldPosition);
+}
+inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* UnityEngine::EventSystems::OVRPhysicsRaycaster::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::OVRPhysicsRaycaster*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::OVRPhysicsRaycaster::OVRPhysicsRaycaster() {}

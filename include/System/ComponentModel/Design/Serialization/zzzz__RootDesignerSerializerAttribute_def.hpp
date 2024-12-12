@@ -15,11 +15,10 @@ class RootDesignerSerializerAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute);
-// Type: System.ComponentModel.Design.Serialization::RootDesignerSerializerAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
-// CS Name: ::System.ComponentModel.Design.Serialization::RootDesignerSerializerAttribute*
+// CS Name: System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute
 class CORDL_TYPE RootDesignerSerializerAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -66,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__typeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x441d020, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447e334, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable);
 
-  /// @brief Method get_SerializerBaseTypeName, addr 0x441d05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializerBaseTypeName, addr 0x447e370, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SerializerBaseTypeName();
 
-  /// @brief Method get_TypeId, addr 0x441d064, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x447e378, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RootDesignerSerializerAttribute(RootDesignerSerializerAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9478 };
+
   /// @brief Field _typeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____typeId;
 
@@ -101,14 +103,9 @@ public:
   /// @brief Field <SerializerBaseTypeName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____SerializerBaseTypeName_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9453 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute, ____typeId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute, ____Reloadable_k__BackingField) == 0x18, "Offset mismatch!");
@@ -116,6 +113,8 @@ static_assert(offsetof(::System::ComponentModel::Design::Serialization::RootDesi
 static_assert(offsetof(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute, ____SerializerTypeName_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute, ____SerializerBaseTypeName_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute, 0x30>, "Size mismatch!");
 
 } // namespace System::ComponentModel::Design::Serialization
 NEED_NO_BOX(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute);

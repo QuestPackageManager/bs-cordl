@@ -17,11 +17,10 @@ class PartyUpdateNotification;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::PartyUpdateNotification);
-// Type: Oculus.Platform.Models::PartyUpdateNotification
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.PartyUpdateAction, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::PartyUpdateNotification*
+// CS Name: Oculus.Platform.Models.PartyUpdateNotification
 class CORDL_TYPE PartyUpdateNotification : public ::System::Object {
 public:
   // Declarations
@@ -90,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_UserName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f31748, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f917f4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -106,6 +105,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PartyUpdateNotification", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PartyUpdateNotification(PartyUpdateNotification const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15550 };
 
   /// @brief Field Action, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::PartyUpdateAction ___Action;
@@ -128,14 +130,9 @@ public:
   /// @brief Field UserName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___UserName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15515 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::PartyUpdateNotification, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::PartyUpdateNotification, ___Action) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::PartyUpdateNotification, ___PartyId) == 0x18, "Offset mismatch!");
@@ -149,6 +146,8 @@ static_assert(offsetof(::Oculus::Platform::Models::PartyUpdateNotification, ___U
 static_assert(offsetof(::Oculus::Platform::Models::PartyUpdateNotification, ___UserId) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::PartyUpdateNotification, ___UserName) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::PartyUpdateNotification, 0x48>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::PartyUpdateNotification);

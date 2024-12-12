@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebExceptionMapping)
 namespace System::Net {
@@ -16,18 +15,17 @@ class WebExceptionMapping;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::WebExceptionMapping);
-// Type: System.Net::WebExceptionMapping
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::WebExceptionMapping*
+// CS Name: System.Net.WebExceptionMapping
 class CORDL_TYPE WebExceptionMapping : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Mapping, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Mapping, put = setStaticF_s_Mapping)) ::ArrayW<::StringW, ::Array<::StringW>*> s_Mapping;
+  __declspec(property(get = getStaticF_s_Mapping, put = setStaticF_s_Mapping)) ::ArrayW<::StringW, ::Array<::StringW>*> s_Mapping;
 
-  /// @brief Method GetWebStatusString, addr 0x4440044, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x44a1358, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus status);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_Mapping();
@@ -49,7 +47,7 @@ public:
   WebExceptionMapping(WebExceptionMapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

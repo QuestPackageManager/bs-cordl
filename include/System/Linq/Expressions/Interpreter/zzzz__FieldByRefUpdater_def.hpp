@@ -35,11 +35,10 @@ class FieldByRefUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::FieldByRefUpdater);
-// Type: System.Linq.Expressions.Interpreter::FieldByRefUpdater
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.ByRefUpdater, System.Linq.Expressions.Interpreter.LocalDefinition, System.Nullable`1<T>
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::FieldByRefUpdater*
+// CS Name: System.Linq.Expressions.Interpreter.FieldByRefUpdater
 class CORDL_TYPE FieldByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater {
 public:
   // Declarations
@@ -52,15 +51,15 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::FieldByRefUpdater* New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                                                                                       ::System::Reflection::FieldInfo* field, int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x4083440, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x40e4754, size 0x98, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x408339c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x40e46b0, size 0xa4, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
-  constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get__field();
+  constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get__field() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get__field() const;
+  constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get__field();
 
   constexpr ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> const& __cordl_internal_get__object() const;
 
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__object(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
 
-  /// @brief Method .ctor, addr 0x4083354, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e4668, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj, ::System::Reflection::FieldInfo* field, int32_t argumentIndex);
 
 protected:
@@ -87,23 +86,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FieldByRefUpdater(FieldByRefUpdater const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13949 };
+
   /// @brief Field _object, offset: 0x18, size: 0x18, def value: None
   ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> ____object;
 
   /// @brief Field _field, offset: 0x30, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ____field;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13915 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::FieldByRefUpdater, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::FieldByRefUpdater, ____object) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::FieldByRefUpdater, ____field) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::FieldByRefUpdater, 0x38>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::FieldByRefUpdater);

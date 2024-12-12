@@ -14,15 +14,14 @@ class SliderMidAnchorModeExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderMidAnchorModeExtensions);
-// Type: ::SliderMidAnchorModeExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SliderMidAnchorModeExtensions*
+// CS Name: SliderMidAnchorModeExtensions
 class CORDL_TYPE SliderMidAnchorModeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection, addr 0x22194c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OppositeDirection, addr 0x22449c8, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderMidAnchorMode OppositeDirection(::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode);
 
 protected:
@@ -40,7 +39,7 @@ public:
   SliderMidAnchorModeExtensions(SliderMidAnchorModeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

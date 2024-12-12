@@ -1,26 +1,25 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SpriteLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
-#include "GlobalNamespace/zzzz__SpriteLightWithId_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType::__SpriteLightWithId__MultiplyColorByAlphaType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType::SpriteLightWithId_MultiplyColorByAlphaType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType::__SpriteLightWithId__MultiplyColorByAlphaType() {}
-constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType::BeforeApplyingMinAlpha{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType::AfterApplyingMinAlpha{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType::SpriteLightWithId_MultiplyColorByAlphaType() {}
+constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType::BeforeApplyingMinAlpha{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType::AfterApplyingMinAlpha{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::SpriteLightWithId.get_color
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::SpriteLightWithId::*)()>(&::GlobalNamespace::SpriteLightWithId::get_color)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x398ee60;
+  constexpr static std::size_t addrs = 0x39e5830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), "get_color",
@@ -34,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::SpriteLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x398ee7c;
+  constexpr static std::size_t addrs = 0x39e584c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteLightWithId::*)()>(&::GlobalNamespace::SpriteLightWithId::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x398efc0;
+  constexpr static std::size_t addrs = 0x39e5990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), ".ctor",
@@ -128,15 +127,15 @@ constexpr void GlobalNamespace::SpriteLightWithId::__cordl_internal_set__minAlph
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
 }
-constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType& GlobalNamespace::SpriteLightWithId::__cordl_internal_get__multiplyColorByAlpha() {
+constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType& GlobalNamespace::SpriteLightWithId::__cordl_internal_get__multiplyColorByAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplyColorByAlpha;
 }
-constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType const& GlobalNamespace::SpriteLightWithId::__cordl_internal_get__multiplyColorByAlpha() const {
+constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType const& GlobalNamespace::SpriteLightWithId::__cordl_internal_get__multiplyColorByAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplyColorByAlpha;
 }
-constexpr void GlobalNamespace::SpriteLightWithId::__cordl_internal_set__multiplyColorByAlpha(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType value) {
+constexpr void GlobalNamespace::SpriteLightWithId::__cordl_internal_set__multiplyColorByAlpha(::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplyColorByAlpha = value;
 }
@@ -186,13 +185,13 @@ inline void GlobalNamespace::SpriteLightWithId::ColorWasSet(::UnityEngine::Color
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
-inline ::GlobalNamespace::SpriteLightWithId* GlobalNamespace::SpriteLightWithId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SpriteLightWithId*>());
-}
 inline void GlobalNamespace::SpriteLightWithId::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SpriteLightWithId* GlobalNamespace::SpriteLightWithId::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SpriteLightWithId*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpriteLightWithId::SpriteLightWithId() {}

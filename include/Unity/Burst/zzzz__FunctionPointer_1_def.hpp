@@ -4,8 +4,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
+#include "Unity/Burst/zzzz__IFunctionPointer_def.hpp"
 #include <cstddef>
-#include <cstdint>
 CORDL_MODULE_EXPORT(FunctionPointer_1)
 namespace System {
 struct IntPtr;
@@ -19,13 +19,12 @@ template <typename T> struct FunctionPointer_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Burst::FunctionPointer_1);
-// Type: Unity.Burst::FunctionPointer`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, Unity.Burst.IFunctionPointer
 namespace Unity::Burst {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::Unity.Burst::FunctionPointer`1<T>
+// CS Name: Unity.Burst.FunctionPointer`1<T>
 struct CORDL_TYPE FunctionPointer_1 {
 public:
   // Declarations
@@ -66,14 +65,14 @@ public:
   // Ctor Parameters [CppParam { name: "_ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
   constexpr FunctionPointer_1(::System::IntPtr _ptr) noexcept;
 
-  /// @brief Field _ptr, offset: 0x0, size: 0x8, def value: None
-  ::System::IntPtr _ptr;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14628 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
+  /// @brief Field _ptr, offset: 0x0, size: 0x8, def value: None
+  ::System::IntPtr _ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

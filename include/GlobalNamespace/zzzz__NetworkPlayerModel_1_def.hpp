@@ -6,9 +6,18 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -49,37 +58,37 @@ namespace GlobalNamespace {
 class IPlatformUserModel;
 }
 namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1_JoinMatchmakingPartyConfig;
+}
+namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1_NetworkPlayer;
+}
+namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1_NetworkServer;
+}
+namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1_StartClientPartyConfig;
+}
+namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__58;
+}
+namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__57;
+}
+namespace GlobalNamespace {
+template <typename T> struct NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56;
+}
+namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1___c__DisplayClass59_0;
+}
+namespace GlobalNamespace {
+template <typename T> class NetworkPlayerModel_1___c;
+}
+namespace GlobalNamespace {
 struct PublicServerInfo;
 }
 namespace GlobalNamespace {
 class UserInfo;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__JoinMatchmakingPartyConfig;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkPlayer;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkServer;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__StartClientPartyConfig;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1___GetOtherPlayers_d__58;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1___GetPartyPlayers_d__57;
-}
-namespace GlobalNamespace {
-template <typename T> struct __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1____c__DisplayClass59_0;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -94,19 +103,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -121,9 +121,6 @@ namespace System {
 template <typename T> class Comparison_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -131,51 +128,50 @@ namespace GlobalNamespace {
 template <typename T> class NetworkPlayerModel_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__JoinMatchmakingPartyConfig;
+template <typename T> class NetworkPlayerModel_1_JoinMatchmakingPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkPlayer;
+template <typename T> class NetworkPlayerModel_1_NetworkPlayer;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkServer;
+template <typename T> class NetworkPlayerModel_1_NetworkServer;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__StartClientPartyConfig;
+template <typename T> class NetworkPlayerModel_1_StartClientPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1___GetOtherPlayers_d__58;
+template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__58;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1___GetPartyPlayers_d__57;
+template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__57;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1____c;
+template <typename T> class NetworkPlayerModel_1___c;
 }
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1____c__DisplayClass59_0;
+template <typename T> class NetworkPlayerModel_1___c__DisplayClass59_0;
 }
 namespace GlobalNamespace {
-template <typename T> struct __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56;
+template <typename T> struct NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1____c);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0);
-MARK_GEN_VAL_T(::GlobalNamespace::__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56);
-// Type: ::NetworkPlayer
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_NetworkServer);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1___c);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0);
+MARK_GEN_VAL_T(::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56);
+// Dependencies INetworkPlayer, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::NetworkPlayer<T>*
-class CORDL_TYPE __NetworkPlayerModel_1__NetworkPlayer : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/NetworkPlayer<T>
+class CORDL_TYPE NetworkPlayerModel_1_NetworkPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _connectedPlayer, offset 0x18, size 0x8
@@ -241,7 +237,7 @@ public:
   /// @brief Method Leave, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Leave();
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+  static inline ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   /// @brief Method SendInviteResponse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SendInviteResponse(bool accept);
@@ -252,9 +248,9 @@ public:
   /// @brief Method Unblock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Unblock();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityW<T> const& __cordl_internal_get__playerModel() const;
 
@@ -327,16 +323,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1__NetworkPlayer();
+  constexpr NetworkPlayerModel_1_NetworkPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__NetworkPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_NetworkPlayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1__NetworkPlayer(__NetworkPlayerModel_1__NetworkPlayer&&) = delete;
+  NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__NetworkPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_NetworkPlayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1__NetworkPlayer(__NetworkPlayerModel_1__NetworkPlayer const&) = delete;
+  NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17352 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -344,21 +343,17 @@ public:
   /// @brief Field _connectedPlayer, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17308 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::JoinMatchmakingPartyConfig
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseNetworkPlayerModel::PartyConfig, INetworkPlayerModelPartyConfig`1<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::JoinMatchmakingPartyConfig<T>*
-class CORDL_TYPE __NetworkPlayerModel_1__JoinMatchmakingPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
+// CS Name: NetworkPlayerModel`1/JoinMatchmakingPartyConfig<T>
+class CORDL_TYPE NetworkPlayerModel_1_JoinMatchmakingPartyConfig : public ::GlobalNamespace::BaseNetworkPlayerModel_PartyConfig {
 public:
   // Declarations
   /// @brief Field code, offset 0x60, size 0x8
@@ -367,10 +362,10 @@ public:
   /// @brief Field secret, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret)) ::StringW secret;
 
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept;
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_code() const;
 
@@ -387,22 +382,26 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>* i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
+  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1__JoinMatchmakingPartyConfig();
+  constexpr NetworkPlayerModel_1_JoinMatchmakingPartyConfig();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__JoinMatchmakingPartyConfig", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_JoinMatchmakingPartyConfig", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1__JoinMatchmakingPartyConfig(__NetworkPlayerModel_1__JoinMatchmakingPartyConfig&&) = delete;
+  NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__JoinMatchmakingPartyConfig", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_JoinMatchmakingPartyConfig", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1__JoinMatchmakingPartyConfig(__NetworkPlayerModel_1__JoinMatchmakingPartyConfig const&) = delete;
+  NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfig const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17353 };
 
   /// @brief Field secret, offset: 0x58, size: 0x8, def value: None
   ::StringW ___secret;
@@ -410,63 +409,59 @@ public:
   /// @brief Field code, offset: 0x60, size: 0x8, def value: None
   ::StringW ___code;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17309 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::StartClientPartyConfig
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseNetworkPlayerModel::PartyConfig, INetworkPlayerModelPartyConfig`1<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::StartClientPartyConfig<T>*
-class CORDL_TYPE __NetworkPlayerModel_1__StartClientPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
+// CS Name: NetworkPlayerModel`1/StartClientPartyConfig<T>
+class CORDL_TYPE NetworkPlayerModel_1_StartClientPartyConfig : public ::GlobalNamespace::BaseNetworkPlayerModel_PartyConfig {
 public:
   // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept;
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>* i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
+  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1__StartClientPartyConfig();
+  constexpr NetworkPlayerModel_1_StartClientPartyConfig();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__StartClientPartyConfig", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_StartClientPartyConfig", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1__StartClientPartyConfig(__NetworkPlayerModel_1__StartClientPartyConfig&&) = delete;
+  NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__StartClientPartyConfig", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_StartClientPartyConfig", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1__StartClientPartyConfig(__NetworkPlayerModel_1__StartClientPartyConfig const&) = delete;
+  NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::NetworkServer
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, INetworkPlayer, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::NetworkServer<T>*
-class CORDL_TYPE __NetworkPlayerModel_1__NetworkServer : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/NetworkServer<T>
+class CORDL_TYPE NetworkPlayerModel_1_NetworkServer : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = INetworkPlayer_get_userId)) ::StringW INetworkPlayer_userId;
@@ -554,9 +549,9 @@ public:
   /// @brief Method Leave, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Leave();
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::StringW code,
-                                                                                      ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
-                                                                                      ::GlobalNamespace::GameplayServerConfiguration configuration);
+  static inline ::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::StringW code,
+                                                                                   ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
+                                                                                   ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   /// @brief Method SendInviteResponse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SendInviteResponse(bool accept);
@@ -670,16 +665,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1__NetworkServer();
+  constexpr NetworkPlayerModel_1_NetworkServer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__NetworkServer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_NetworkServer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1__NetworkServer(__NetworkPlayerModel_1__NetworkServer&&) = delete;
+  NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__NetworkServer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_NetworkServer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1__NetworkServer(__NetworkPlayerModel_1__NetworkServer const&) = delete;
+  NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17355 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -699,74 +697,69 @@ public:
   /// @brief Field _lastUpdateTime, offset: 0x64, size: 0x4, def value: None
   float_t ____lastUpdateTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17311 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::<>c<T>*
-class CORDL_TYPE __NetworkPlayerModel_1____c : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/<>c<T>
+class CORDL_TYPE NetworkPlayerModel_1___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__NetworkPlayerModel_1____c<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::NetworkPlayerModel_1___c<T>* __9;
 
   /// @brief Field <>9__71_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__71_0, put = setStaticF___9__71_0)) ::System::Comparison_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* __9__71_0;
+  __declspec(property(get = getStaticF___9__71_0, put = setStaticF___9__71_0)) ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* __9__71_0;
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1____c<T>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPlayerModel_1___c<T>* New_ctor();
 
   /// @brief Method <PlayerOrderChanged>b__71_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t _PlayerOrderChanged_b__71_0(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* a, ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* b);
+  inline int32_t _PlayerOrderChanged_b__71_0(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* a, ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* b);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1____c<T>* getStaticF___9();
+  static inline ::GlobalNamespace::NetworkPlayerModel_1___c<T>* getStaticF___9();
 
-  static inline ::System::Comparison_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* getStaticF___9__71_0();
+  static inline ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* getStaticF___9__71_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__NetworkPlayerModel_1____c<T>* value);
+  static inline void setStaticF___9(::GlobalNamespace::NetworkPlayerModel_1___c<T>* value);
 
-  static inline void setStaticF___9__71_0(::System::Comparison_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* value);
+  static inline void setStaticF___9__71_0(::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1____c();
+  constexpr NetworkPlayerModel_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1____c(__NetworkPlayerModel_1____c&&) = delete;
+  NetworkPlayerModel_1___c(NetworkPlayerModel_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1____c(__NetworkPlayerModel_1____c const&) = delete;
+  NetworkPlayerModel_1___c(NetworkPlayerModel_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass59_0
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::<>c__DisplayClass59_0<T>*
-class CORDL_TYPE __NetworkPlayerModel_1____c__DisplayClass59_0 : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/<>c__DisplayClass59_0<T>
+class CORDL_TYPE NetworkPlayerModel_1___c__DisplayClass59_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -781,7 +774,7 @@ public:
   /// @brief Field localSelectionMask, offset 0x20, size 0x28
   __declspec(property(get = __cordl_internal_get_localSelectionMask, put = __cordl_internal_set_localSelectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask;
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>* New_ctor();
 
   /// @brief Method <Refresh>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Refresh_b__0(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>* servers);
@@ -819,16 +812,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1____c__DisplayClass59_0();
+  constexpr NetworkPlayerModel_1___c__DisplayClass59_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1____c__DisplayClass59_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c__DisplayClass59_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1____c__DisplayClass59_0(__NetworkPlayerModel_1____c__DisplayClass59_0&&) = delete;
+  NetworkPlayerModel_1___c__DisplayClass59_0(NetworkPlayerModel_1___c__DisplayClass59_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1____c__DisplayClass59_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c__DisplayClass59_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1____c__DisplayClass59_0(__NetworkPlayerModel_1____c__DisplayClass59_0 const&) = delete;
+  NetworkPlayerModel_1___c__DisplayClass59_0(NetworkPlayerModel_1___c__DisplayClass59_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17357 };
 
   /// @brief Field clearCurrentList, offset: 0x10, size: 0x1, def value: None
   bool ___clearCurrentList;
@@ -842,21 +838,18 @@ public:
   /// @brief Field localConfiguration, offset: 0x48, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration ___localConfiguration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17313 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<GetOtherPlayers>d__58
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.List`1::Enumerator<T>, System.Collections.IEnumerable,
+// System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::<GetOtherPlayers>d__58<T>*
-class CORDL_TYPE __NetworkPlayerModel_1___GetOtherPlayers_d__58 : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/<GetOtherPlayers>d__58<T>
+class CORDL_TYPE NetworkPlayerModel_1__GetOtherPlayers_d__58 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current)) ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
@@ -874,7 +867,7 @@ public:
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x18
   __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>
+                      put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>
       __7__wrap1;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
@@ -898,7 +891,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
@@ -922,17 +915,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
+  constexpr ::GlobalNamespace::INetworkPlayer* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get___2__current() const;
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<T> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<T>& __cordl_internal_get___4__this();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> const& __cordl_internal_get___7__wrap1() const;
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>& __cordl_internal_get___7__wrap1();
+  constexpr ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>& __cordl_internal_get___7__wrap1();
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
@@ -944,7 +937,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<T> value);
 
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*> value);
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
@@ -972,16 +965,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1___GetOtherPlayers_d__58();
+  constexpr NetworkPlayerModel_1__GetOtherPlayers_d__58();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1___GetOtherPlayers_d__58", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetOtherPlayers_d__58", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1___GetOtherPlayers_d__58(__NetworkPlayerModel_1___GetOtherPlayers_d__58&&) = delete;
+  NetworkPlayerModel_1__GetOtherPlayers_d__58(NetworkPlayerModel_1__GetOtherPlayers_d__58&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1___GetOtherPlayers_d__58", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetOtherPlayers_d__58", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1___GetOtherPlayers_d__58(__NetworkPlayerModel_1___GetOtherPlayers_d__58 const&) = delete;
+  NetworkPlayerModel_1__GetOtherPlayers_d__58(NetworkPlayerModel_1__GetOtherPlayers_d__58 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17358 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -996,23 +992,20 @@ public:
   ::UnityW<T> _____4__this;
 
   /// @brief Field <>7__wrap1, offset: 0x30, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> _____7__wrap1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17314 };
+  ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*> _____7__wrap1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<GetPartyPlayers>d__57
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1::<GetPartyPlayers>d__57<T>*
-class CORDL_TYPE __NetworkPlayerModel_1___GetPartyPlayers_d__57 : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/<GetPartyPlayers>d__57<T>
+class CORDL_TYPE NetworkPlayerModel_1__GetPartyPlayers_d__57 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current)) ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
@@ -1052,7 +1045,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
@@ -1076,9 +1069,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
+  constexpr ::GlobalNamespace::INetworkPlayer* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get___2__current() const;
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<T> const& __cordl_internal_get___4__this() const;
 
@@ -1123,16 +1116,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1___GetPartyPlayers_d__57();
+  constexpr NetworkPlayerModel_1__GetPartyPlayers_d__57();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1___GetPartyPlayers_d__57", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetPartyPlayers_d__57", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPlayerModel_1___GetPartyPlayers_d__57(__NetworkPlayerModel_1___GetPartyPlayers_d__57&&) = delete;
+  NetworkPlayerModel_1__GetPartyPlayers_d__57(NetworkPlayerModel_1__GetPartyPlayers_d__57&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1___GetPartyPlayers_d__57", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetPartyPlayers_d__57", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPlayerModel_1___GetPartyPlayers_d__57(__NetworkPlayerModel_1___GetPartyPlayers_d__57 const&) = delete;
+  NetworkPlayerModel_1__GetPartyPlayers_d__57(NetworkPlayerModel_1__GetPartyPlayers_d__57 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17359 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1149,21 +1145,17 @@ public:
   /// @brief Field <i>5__2, offset: 0x30, size: 0x4, def value: None
   int32_t ____i_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<InitAuthenticationTokenProvider>d__56
-// SizeInfo { instance_size: 48, native_size: 64, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
-struct CORDL_TYPE __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56 {
+// CS Name: NetworkPlayerModel`1/<InitAuthenticationTokenProvider>d__56<T>
+struct CORDL_TYPE NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1180,15 +1172,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56();
+  constexpr NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::UnityW<T>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: None
   // }]
-  constexpr __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56(int32_t __1__state,
-                                                                           ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*> __t__builder,
-                                                                           ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept;
+  constexpr NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56(int32_t __1__state,
+                                                                        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*> __t__builder,
+                                                                        ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17360 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1202,43 +1200,36 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17316 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::NetworkPlayerModel`1
-// SizeInfo { instance_size: 264, native_size: 262, calculated_instance_size: 264, calculated_native_size: 262, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseNetworkPlayerModel, INetworkPlayerModel
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetworkPlayerModel`1<T>*
+// CS Name: NetworkPlayerModel`1<T>
 class CORDL_TYPE NetworkPlayerModel_1 : public ::GlobalNamespace::BaseNetworkPlayerModel {
 public:
   // Declarations
-  using JoinMatchmakingPartyConfig = ::GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>;
+  using JoinMatchmakingPartyConfig = ::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>;
 
-  using NetworkPlayer = ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>;
+  using NetworkPlayer = ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>;
 
-  using NetworkServer = ::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>;
+  using NetworkServer = ::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>;
 
-  using StartClientPartyConfig = ::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>;
+  using StartClientPartyConfig = ::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>;
 
-  using _GetOtherPlayers_d__58 = ::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>;
+  using _GetOtherPlayers_d__58 = ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>;
 
-  using _GetPartyPlayers_d__57 = ::GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>;
+  using _GetPartyPlayers_d__57 = ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>;
 
-  using _InitAuthenticationTokenProvider_d__56 = ::GlobalNamespace::__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56<T>;
+  using _InitAuthenticationTokenProvider_d__56 = ::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>;
 
-  using __c = ::GlobalNamespace::__NetworkPlayerModel_1____c<T>;
+  using __c = ::GlobalNamespace::NetworkPlayerModel_1___c<T>;
 
-  using __c__DisplayClass59_0 = ::GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>;
+  using __c__DisplayClass59_0 = ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>;
 
   /// @brief Field _authenticationTokenProviderTask, offset 0xb0, size 0x8
   __declspec(property(
@@ -1258,7 +1249,7 @@ public:
   __declspec(property(get = __cordl_internal_get__lastServerRefresh, put = __cordl_internal_set__lastServerRefresh)) float_t _lastServerRefresh;
 
   /// @brief Field _localPlayer, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__localPlayer, put = __cordl_internal_set__localPlayer)) ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* _localPlayer;
+  __declspec(property(get = __cordl_internal_get__localPlayer, put = __cordl_internal_set__localPlayer)) ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* _localPlayer;
 
   /// @brief Field _masterServerUnreachable, offset 0xc1, size 0x1
   __declspec(property(get = __cordl_internal_get__masterServerUnreachable, put = __cordl_internal_set__masterServerUnreachable)) bool _masterServerUnreachable;
@@ -1268,14 +1259,14 @@ public:
 
   /// @brief Field _partyPlayers, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__partyPlayers,
-                      put = __cordl_internal_set__partyPlayers)) ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* _partyPlayers;
+                      put = __cordl_internal_set__partyPlayers)) ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* _partyPlayers;
 
   /// @brief Field _platformUserModel, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__platformUserModel, put = __cordl_internal_set__platformUserModel)) ::GlobalNamespace::IPlatformUserModel* _platformUserModel;
 
   /// @brief Field _publicServers, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__publicServers,
-                      put = __cordl_internal_set__publicServers)) ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* _publicServers;
+                      put = __cordl_internal_set__publicServers)) ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>* _publicServers;
 
   __declspec(property(get = get_authenticationTokenProviderTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* authenticationTokenProviderTask;
 
@@ -1325,7 +1316,7 @@ public:
   /// @brief Method Disconnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Disconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method GetConnectToServerParams, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetConnectToServerParams, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<T>* GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                  ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
 
@@ -1336,12 +1327,12 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetPartyPlayers();
 
   /// @brief Method GetPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* GetPlayer(::StringW userId);
+  inline ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* GetPlayer(::StringW userId);
 
   /// @brief Method GetServer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>* GetServer(::StringW code);
+  inline ::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>* GetServer(::StringW code);
 
-  /// @brief Method GetStartClientParams, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetStartClientParams, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<T>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   /// @brief Method HandleInviteRequested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1379,7 +1370,7 @@ public:
   /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method RefreshPublicServers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method RefreshPublicServers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration,
                                    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
@@ -1393,10 +1384,9 @@ public:
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Update();
 
-  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __cordl_internal_get__authenticationTokenProviderTask();
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* const& __cordl_internal_get__authenticationTokenProviderTask() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const&
-  __cordl_internal_get__authenticationTokenProviderTask() const;
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __cordl_internal_get__authenticationTokenProviderTask();
 
   constexpr int32_t const& __cordl_internal_get__currentPlayerCount() const;
 
@@ -1414,9 +1404,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__lastServerRefresh();
 
-  constexpr ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*& __cordl_internal_get__localPlayer();
+  constexpr ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* const& __cordl_internal_get__localPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*> const& __cordl_internal_get__localPlayer() const;
+  constexpr ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*& __cordl_internal_get__localPlayer();
 
   constexpr bool const& __cordl_internal_get__masterServerUnreachable() const;
 
@@ -1426,39 +1416,37 @@ public:
 
   constexpr bool& __cordl_internal_get__networkingFailed();
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*& __cordl_internal_get__partyPlayers();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* const& __cordl_internal_get__partyPlayers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*> const&
-  __cordl_internal_get__partyPlayers() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>*& __cordl_internal_get__partyPlayers();
+
+  constexpr ::GlobalNamespace::IPlatformUserModel* const& __cordl_internal_get__platformUserModel() const;
 
   constexpr ::GlobalNamespace::IPlatformUserModel*& __cordl_internal_get__platformUserModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& __cordl_internal_get__platformUserModel() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>* const& __cordl_internal_get__publicServers() const;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*& __cordl_internal_get__publicServers();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>*& __cordl_internal_get__publicServers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*> const&
-  __cordl_internal_get__publicServers() const;
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* const& __cordl_internal_get_inviteRequestedEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_inviteRequestedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_inviteRequestedEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* const& __cordl_internal_get_joinRequestedEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_joinRequestedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_joinRequestedEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* const& __cordl_internal_get_partyChangedEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& __cordl_internal_get_partyChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& __cordl_internal_get_partyChangedEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_partyRefreshingEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_partyRefreshingEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_partyRefreshingEvent() const;
+  constexpr ::System::Action_1<int32_t>* const& __cordl_internal_get_partySizeChangedEvent() const;
 
   constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_partySizeChangedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_partySizeChangedEvent() const;
 
   constexpr void __cordl_internal_set__authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value);
 
@@ -1470,17 +1458,17 @@ public:
 
   constexpr void __cordl_internal_set__lastServerRefresh(float_t value);
 
-  constexpr void __cordl_internal_set__localPlayer(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* value);
+  constexpr void __cordl_internal_set__localPlayer(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* value);
 
   constexpr void __cordl_internal_set__masterServerUnreachable(bool value);
 
   constexpr void __cordl_internal_set__networkingFailed(bool value);
 
-  constexpr void __cordl_internal_set__partyPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* value);
+  constexpr void __cordl_internal_set__partyPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* value);
 
   constexpr void __cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
 
-  constexpr void __cordl_internal_set__publicServers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* value);
+  constexpr void __cordl_internal_set__publicServers(::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>* value);
 
   constexpr void __cordl_internal_set_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
@@ -1513,7 +1501,7 @@ public:
   /// @brief Method get_authenticationTokenProviderTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* get_authenticationTokenProviderTask();
 
-  /// @brief Method get_code, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_code, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_code();
 
   /// @brief Method get_connectionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1528,13 +1516,13 @@ public:
   /// @brief Method get_localPlayerIsPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_localPlayerIsPartyOwner();
 
-  /// @brief Method get_partyOwnerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_partyOwnerId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_partyOwnerId();
 
   /// @brief Method get_publicServers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_publicServers();
 
-  /// @brief Method get_secret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_secret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_secret();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
@@ -1569,6 +1557,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkPlayerModel_1(NetworkPlayerModel_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
+
+  /// @brief Field kServerRefreshFrequency offset 0xffffffff size 0x4
+  static constexpr float_t kServerRefreshFrequency{ static_cast<float_t>(10.0f) };
+
+  /// @brief Field kServerTimeoutPeriod offset 0xffffffff size 0x4
+  static constexpr float_t kServerTimeoutPeriod{ static_cast<float_t>(21.0f) };
+
   /// @brief Field _platformUserModel, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::IPlatformUserModel* ____platformUserModel;
 
@@ -1576,7 +1573,7 @@ public:
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* ____authenticationTokenProviderTask;
 
   /// @brief Field _localPlayer, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* ____localPlayer;
+  ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* ____localPlayer;
 
   /// @brief Field _networkingFailed, offset: 0xc0, size: 0x1, def value: None
   bool ____networkingFailed;
@@ -1603,10 +1600,10 @@ public:
   ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* ___inviteRequestedEvent;
 
   /// @brief Field _partyPlayers, offset: 0xf0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* ____partyPlayers;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* ____partyPlayers;
 
   /// @brief Field _publicServers, offset: 0xf8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* ____publicServers;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>* ____publicServers;
 
   /// @brief Field _lastServerRefresh, offset: 0x100, size: 0x4, def value: None
   float_t ____lastServerRefresh;
@@ -1617,26 +1614,17 @@ public:
   /// @brief Field _filterChanged, offset: 0x105, size: 0x1, def value: None
   bool ____filterChanged;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17317 };
-
-  /// @brief Field kServerRefreshFrequency offset 0xffffffff size 0x4
-  static constexpr float_t kServerRefreshFrequency{ 10.0 };
-
-  /// @brief Field kServerTimeoutPeriod offset 0xffffffff size 0x4
-  static constexpr float_t kServerTimeoutPeriod{ 21.0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1, "", "NetworkPlayerModel`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig, "", "NetworkPlayerModel`1/JoinMatchmakingPartyConfig");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer, "", "NetworkPlayerModel`1/NetworkPlayer");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer, "", "NetworkPlayerModel`1/NetworkServer");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig, "", "NetworkPlayerModel`1/StartClientPartyConfig");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58, "", "NetworkPlayerModel`1/<GetOtherPlayers>d__58");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57, "", "NetworkPlayerModel`1/<GetPartyPlayers>d__57");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1____c, "", "NetworkPlayerModel`1/<>c");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0, "", "NetworkPlayerModel`1/<>c__DisplayClass59_0");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56, "", "NetworkPlayerModel`1/<InitAuthenticationTokenProvider>d__56");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig, "", "NetworkPlayerModel`1/JoinMatchmakingPartyConfig");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer, "", "NetworkPlayerModel`1/NetworkPlayer");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_NetworkServer, "", "NetworkPlayerModel`1/NetworkServer");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig, "", "NetworkPlayerModel`1/StartClientPartyConfig");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58, "", "NetworkPlayerModel`1/<GetOtherPlayers>d__58");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57, "", "NetworkPlayerModel`1/<GetPartyPlayers>d__57");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1___c, "", "NetworkPlayerModel`1/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0, "", "NetworkPlayerModel`1/<>c__DisplayClass59_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56, "", "NetworkPlayerModel`1/<InitAuthenticationTokenProvider>d__56");

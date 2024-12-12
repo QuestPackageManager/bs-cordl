@@ -21,13 +21,13 @@ namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
 namespace UnityEngine::TextCore::Text {
+struct TextSettings_FontReferenceMap;
+}
+namespace UnityEngine::TextCore::Text {
 class TextStyleSheet;
 }
 namespace UnityEngine::TextCore::Text {
 class UnicodeLineBreakingRules;
-}
-namespace UnityEngine::TextCore::Text {
-struct __TextSettings__FontReferenceMap;
 }
 namespace UnityEngine {
 class Font;
@@ -37,29 +37,34 @@ namespace UnityEngine::TextCore::Text {
 class TextSettings;
 }
 namespace UnityEngine::TextCore::Text {
-struct __TextSettings__FontReferenceMap;
+struct TextSettings_FontReferenceMap;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextSettings);
-MARK_VAL_T(::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap);
-// Type: ::FontReferenceMap
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap);
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::TextSettings::FontReferenceMap
-struct CORDL_TYPE __TextSettings__FontReferenceMap {
+// CS Name: UnityEngine.TextCore.Text.TextSettings/FontReferenceMap
+struct CORDL_TYPE TextSettings_FontReferenceMap {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x48ea6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494ed60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Font* font, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TextSettings__FontReferenceMap();
+  constexpr TextSettings_FontReferenceMap();
 
   // Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty:
   // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
-  constexpr __TextSettings__FontReferenceMap(::UnityW<::UnityEngine::Font> font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
+  constexpr TextSettings_FontReferenceMap(::UnityW<::UnityEngine::Font> font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15290 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field font, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Font> font;
@@ -67,31 +72,24 @@ public:
   /// @brief Field fontAsset, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15255 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap, 0x10>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap, font) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap, font) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap, fontAsset) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap, fontAsset) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
-// Type: UnityEngine.TextCore.Text::TextSettings
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextSettings*
+// CS Name: UnityEngine.TextCore.Text.TextSettings
 class CORDL_TYPE TextSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  using FontReferenceMap = ::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap;
+  using FontReferenceMap = ::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap;
 
   __declspec(property(get = get_clearDynamicDataOnBuild, put = set_clearDynamicDataOnBuild)) bool clearDynamicDataOnBuild;
 
@@ -154,7 +152,7 @@ public:
 
   /// @brief Field m_FontReferences, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FontReferences,
-                      put = __cordl_internal_set_m_FontReferences)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* m_FontReferences;
+                      put = __cordl_internal_set_m_FontReferences)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap>* m_FontReferences;
 
   /// @brief Field m_MatchMaterialPreset, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_m_MatchMaterialPreset, put = __cordl_internal_set_m_MatchMaterialPreset)) bool m_MatchMaterialPreset;
@@ -190,15 +188,15 @@ public:
 
   __declspec(property(get = get_version, put = set_version)) ::StringW version;
 
-  /// @brief Method GetCachedFontAssetInternal, addr 0x48ea3b4, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFontAssetInternal, addr 0x494ea44, size 0x31c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAssetInternal(::UnityEngine::Font* font);
 
-  /// @brief Method InitializeFontReferenceLookup, addr 0x48ea180, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method InitializeFontReferenceLookup, addr 0x494e810, size 0x234, virtual false, abstract: false, final false
   inline void InitializeFontReferenceLookup();
 
   static inline ::UnityEngine::TextCore::Text::TextSettings* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x48ea168, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x494e7f8, size 0x18, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get_m_ClearDynamicDataOnBuild() const;
@@ -233,24 +231,21 @@ public:
 
   constexpr bool& __cordl_internal_get_m_DisplayWarnings();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* const& __cordl_internal_get_m_FallbackFontAssets() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*& __cordl_internal_get_m_FallbackFontAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*> const& __cordl_internal_get_m_FallbackFontAssets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* const& __cordl_internal_get_m_FallbackSpriteAssets() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*& __cordl_internal_get_m_FallbackSpriteAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*> const&
-  __cordl_internal_get_m_FallbackSpriteAssets() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* const& __cordl_internal_get_m_FontLookup() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*& __cordl_internal_get_m_FontLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*> const&
-  __cordl_internal_get_m_FontLookup() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap>* const& __cordl_internal_get_m_FontReferences() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>*& __cordl_internal_get_m_FontReferences();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>*> const&
-  __cordl_internal_get_m_FontReferences() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap>*& __cordl_internal_get_m_FontReferences();
 
   constexpr bool const& __cordl_internal_get_m_MatchMaterialPreset() const;
 
@@ -268,9 +263,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_m_StyleSheetsResourcePath();
 
-  constexpr ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*& __cordl_internal_get_m_UnicodeLineBreakingRules();
+  constexpr ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* const& __cordl_internal_get_m_UnicodeLineBreakingRules() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*> const& __cordl_internal_get_m_UnicodeLineBreakingRules() const;
+  constexpr ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*& __cordl_internal_get_m_UnicodeLineBreakingRules();
 
   constexpr bool const& __cordl_internal_get_m_UseModernHangulLineBreakingRules() const;
 
@@ -302,7 +297,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FontLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  constexpr void __cordl_internal_set_m_FontReferences(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* value);
+  constexpr void __cordl_internal_set_m_FontReferences(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap>* value);
 
   constexpr void __cordl_internal_set_m_MatchMaterialPreset(bool value);
 
@@ -318,109 +313,109 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48ea6d8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494ed68, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clearDynamicDataOnBuild, addr 0x48e9e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearDynamicDataOnBuild, addr 0x494e4e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_clearDynamicDataOnBuild();
 
-  /// @brief Method get_defaultColorGradientPresetsPath, addr 0x48e9ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultColorGradientPresetsPath, addr 0x494e558, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultColorGradientPresetsPath();
 
-  /// @brief Method get_defaultFontAsset, addr 0x48e9e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontAsset, addr 0x494e490, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> get_defaultFontAsset();
 
-  /// @brief Method get_defaultFontAssetPath, addr 0x48e9e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontAssetPath, addr 0x494e4a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultFontAssetPath();
 
-  /// @brief Method get_defaultSpriteAsset, addr 0x48e9e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpriteAsset, addr 0x494e4f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> get_defaultSpriteAsset();
 
-  /// @brief Method get_defaultSpriteAssetPath, addr 0x48e9e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpriteAssetPath, addr 0x494e508, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultSpriteAssetPath();
 
-  /// @brief Method get_defaultStyleSheet, addr 0x48e9ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStyleSheet, addr 0x494e538, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> get_defaultStyleSheet();
 
-  /// @brief Method get_displayWarnings, addr 0x48ea154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayWarnings, addr 0x494e7e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayWarnings();
 
-  /// @brief Method get_fallbackFontAssets, addr 0x48e9e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackFontAssets, addr 0x494e4b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackFontAssets();
 
-  /// @brief Method get_fallbackSpriteAssets, addr 0x48e9e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackSpriteAssets, addr 0x494e518, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* get_fallbackSpriteAssets();
 
-  /// @brief Method get_lineBreakingRules, addr 0x48e9ed8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_lineBreakingRules, addr 0x494e568, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* get_lineBreakingRules();
 
-  /// @brief Method get_matchMaterialPreset, addr 0x48e9e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_matchMaterialPreset, addr 0x494e4c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_matchMaterialPreset();
 
-  /// @brief Method get_missingCharacterUnicode, addr 0x48e9e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missingCharacterUnicode, addr 0x494e4d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missingCharacterUnicode();
 
-  /// @brief Method get_missingSpriteCharacterUnicode, addr 0x48e9e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missingSpriteCharacterUnicode, addr 0x494e528, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_missingSpriteCharacterUnicode();
 
-  /// @brief Method get_styleSheetsResourcePath, addr 0x48e9eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheetsResourcePath, addr 0x494e548, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleSheetsResourcePath();
 
-  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x48ea140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x494e7d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_useModernHangulLineBreakingRules();
 
-  /// @brief Method get_version, addr 0x48e9df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x494e480, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_clearDynamicDataOnBuild, addr 0x48e9e5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clearDynamicDataOnBuild, addr 0x494e4ec, size 0xc, virtual false, abstract: false, final false
   inline void set_clearDynamicDataOnBuild(bool value);
 
-  /// @brief Method set_defaultColorGradientPresetsPath, addr 0x48e9ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultColorGradientPresetsPath, addr 0x494e560, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultColorGradientPresetsPath(::StringW value);
 
-  /// @brief Method set_defaultFontAsset, addr 0x48e9e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultFontAsset, addr 0x494e498, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultFontAsset(::UnityEngine::TextCore::Text::FontAsset* value);
 
-  /// @brief Method set_defaultFontAssetPath, addr 0x48e9e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultFontAssetPath, addr 0x494e4a8, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultFontAssetPath(::StringW value);
 
-  /// @brief Method set_defaultSpriteAsset, addr 0x48e9e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSpriteAsset, addr 0x494e500, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultSpriteAsset(::UnityEngine::TextCore::Text::SpriteAsset* value);
 
-  /// @brief Method set_defaultSpriteAssetPath, addr 0x48e9e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSpriteAssetPath, addr 0x494e510, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultSpriteAssetPath(::StringW value);
 
-  /// @brief Method set_defaultStyleSheet, addr 0x48e9eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultStyleSheet, addr 0x494e540, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultStyleSheet(::UnityEngine::TextCore::Text::TextStyleSheet* value);
 
-  /// @brief Method set_displayWarnings, addr 0x48ea15c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_displayWarnings, addr 0x494e7ec, size 0xc, virtual false, abstract: false, final false
   inline void set_displayWarnings(bool value);
 
-  /// @brief Method set_fallbackFontAssets, addr 0x48e9e28, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
+  /// @brief Method set_fallbackFontAssets, addr 0x494e4b8, size 0x8, virtual false, abstract: false, final false
+  inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
 
-  /// @brief Method set_fallbackSpriteAssets, addr 0x48e9e90, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* value);
+  /// @brief Method set_fallbackSpriteAssets, addr 0x494e520, size 0x8, virtual false, abstract: false, final false
+  inline void set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* value);
 
-  /// @brief Method set_lineBreakingRules, addr 0x48ea138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineBreakingRules, addr 0x494e7c8, size 0x8, virtual false, abstract: false, final false
   inline void set_lineBreakingRules(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* value);
 
-  /// @brief Method set_matchMaterialPreset, addr 0x48e9e38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_matchMaterialPreset, addr 0x494e4c8, size 0xc, virtual false, abstract: false, final false
   inline void set_matchMaterialPreset(bool value);
 
-  /// @brief Method set_missingCharacterUnicode, addr 0x48e9e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missingCharacterUnicode, addr 0x494e4dc, size 0x8, virtual false, abstract: false, final false
   inline void set_missingCharacterUnicode(int32_t value);
 
-  /// @brief Method set_missingSpriteCharacterUnicode, addr 0x48e9ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missingSpriteCharacterUnicode, addr 0x494e530, size 0x8, virtual false, abstract: false, final false
   inline void set_missingSpriteCharacterUnicode(uint32_t value);
 
-  /// @brief Method set_styleSheetsResourcePath, addr 0x48e9ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_styleSheetsResourcePath, addr 0x494e550, size 0x8, virtual false, abstract: false, final false
   inline void set_styleSheetsResourcePath(::StringW value);
 
-  /// @brief Method set_useModernHangulLineBreakingRules, addr 0x48ea148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useModernHangulLineBreakingRules, addr 0x494e7d8, size 0xc, virtual false, abstract: false, final false
   inline void set_useModernHangulLineBreakingRules(bool value);
 
-  /// @brief Method set_version, addr 0x48e9df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x494e488, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
 protected:
@@ -436,6 +431,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextSettings(TextSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15291 };
 
   /// @brief Field m_Version, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_Version;
@@ -492,16 +490,11 @@ public:
   ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* ___m_FontLookup;
 
   /// @brief Field m_FontReferences, offset: 0x98, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* ___m_FontReferences;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15256 };
+  ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap>* ___m_FontReferences;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextSettings, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextSettings, ___m_Version) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextSettings, ___m_DefaultFontAsset) == 0x20, "Offset mismatch!");
@@ -540,7 +533,9 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextSettings, ___m_FontLoo
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextSettings, ___m_FontReferences) == 0x98, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextSettings, 0xa0>, "Size mismatch!");
+
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextSettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextSettings*, "UnityEngine.TextCore.Text", "TextSettings");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap, "UnityEngine.TextCore.Text", "TextSettings/FontReferenceMap");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap, "UnityEngine.TextCore.Text", "TextSettings/FontReferenceMap");

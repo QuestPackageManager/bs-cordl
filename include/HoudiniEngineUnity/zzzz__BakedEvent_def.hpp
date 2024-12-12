@@ -20,18 +20,16 @@ class BakedEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::BakedEvent);
-// Type: HoudiniEngineUnity::BakedEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Events.UnityEvent`3<T0, T1, T2>
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::BakedEvent*
-class CORDL_TYPE BakedEvent
-    : public ::UnityEngine::Events::UnityEvent_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> {
+// CS Name: HoudiniEngineUnity.BakedEvent
+class CORDL_TYPE BakedEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::BakedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39afc84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a068f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +47,7 @@ public:
   BakedEvent(BakedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticationSchemeSelector)
 namespace System::Net {
 struct AuthenticationSchemes;
@@ -24,20 +23,19 @@ class AuthenticationSchemeSelector;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::AuthenticationSchemeSelector);
-// Type: System.Net::AuthenticationSchemeSelector
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::AuthenticationSchemeSelector*
+// CS Name: System.Net.AuthenticationSchemeSelector
 class CORDL_TYPE AuthenticationSchemeSelector : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x443beb8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x449d1cc, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* httpRequest);
 
   static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x443be1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d130, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -55,7 +53,7 @@ public:
   AuthenticationSchemeSelector(AuthenticationSchemeSelector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

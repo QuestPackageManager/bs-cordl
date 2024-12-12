@@ -15,11 +15,10 @@ class JPakeRound3Payload;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload);
-// Type: Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound3Payload
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound3Payload*
+// CS Name: Org.BouncyCastle.Crypto.Agreement.JPake.JPakeRound3Payload
 class CORDL_TYPE JPakeRound3Payload : public ::System::Object {
 public:
   // Declarations
@@ -35,9 +34,9 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_macTag();
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_macTag() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_macTag() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_macTag();
 
   constexpr ::StringW const& __cordl_internal_get_participantId() const;
 
@@ -47,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2653d14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2687000, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method get_MacTag, addr 0x2654864, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacTag, addr 0x2687b50, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MacTag();
 
-  /// @brief Method get_ParticipantId, addr 0x265485c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x2687b48, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JPakeRound3Payload(JPakeRound3Payload const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 719 };
+
   /// @brief Field participantId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___participantId;
 
   /// @brief Field macTag, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___macTag;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 719 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload, ___participantId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload, ___macTag) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::JPake
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload);

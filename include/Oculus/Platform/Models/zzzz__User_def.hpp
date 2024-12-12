@@ -17,11 +17,10 @@ class User;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::User);
-// Type: Oculus.Platform.Models::User
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.UserPresenceStatus, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::User*
+// CS Name: Oculus.Platform.Models.User
 class CORDL_TYPE User : public ::System::Object {
 public:
   // Declarations
@@ -126,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f2de58, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8df04, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -142,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "User", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   User(User const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15566 };
 
   /// @brief Field DisplayName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DisplayName;
@@ -176,14 +178,9 @@ public:
   /// @brief Field SmallImageUrl, offset: 0x60, size: 0x8, def value: None
   ::StringW ___SmallImageUrl;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15531 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::User, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::User, ___DisplayName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::User, ____cordl_ID) == 0x18, "Offset mismatch!");
@@ -205,6 +202,8 @@ static_assert(offsetof(::Oculus::Platform::Models::User, ___PresenceMatchSession
 static_assert(offsetof(::Oculus::Platform::Models::User, ___PresenceStatus) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::User, ___SmallImageUrl) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::User, 0x68>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::User);

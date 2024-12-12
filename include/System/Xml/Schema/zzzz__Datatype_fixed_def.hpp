@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_decimal_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_fixed)
 namespace System::Xml {
@@ -25,23 +24,22 @@ class Datatype_fixed;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_fixed);
-// Type: System.Xml.Schema::Datatype_fixed
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_decimal
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_fixed*
+// CS Name: System.Xml.Schema.Datatype_fixed
 class CORDL_TYPE Datatype_fixed : public ::System::Xml::Schema::Datatype_decimal {
 public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_fixed* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x434e81c, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x43afb30, size 0x2a8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method TryParseValue, addr 0x434ed34, size 0x158, virtual true, abstract: false, final false
-  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
+  /// @brief Method TryParseValue, addr 0x43b0048, size 0x158, virtual true, abstract: false, final false
+  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x4342bc8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3edc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +57,7 @@ public:
   Datatype_fixed(Datatype_fixed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7579 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

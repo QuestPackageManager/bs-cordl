@@ -16,24 +16,23 @@ class StringBuilderCache;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::StringBuilderCache);
-// Type: System.Text::StringBuilderCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Text {
 // Is value type: false
-// CS Name: ::System.Text::StringBuilderCache*
+// CS Name: System.Text.StringBuilderCache
 class CORDL_TYPE StringBuilderCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field t_cachedInstance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_t_cachedInstance, put = setStaticF_t_cachedInstance)) ::System::Text::StringBuilder* t_cachedInstance;
+  __declspec(property(get = getStaticF_t_cachedInstance, put = setStaticF_t_cachedInstance)) ::System::Text::StringBuilder* t_cachedInstance;
 
-  /// @brief Method Acquire, addr 0x41e7cbc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x3c7f810, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
 
-  /// @brief Method GetStringAndRelease, addr 0x41e7d7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndRelease, addr 0x3c7f95c, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder* sb);
 
-  /// @brief Method Release, addr 0x41ebc70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3c7f8dc, size 0x80, virtual false, abstract: false, final false
   static inline void Release(::System::Text::StringBuilder* sb);
 
   static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();
@@ -55,7 +54,7 @@ public:
   StringBuilderCache(StringBuilderCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

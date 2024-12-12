@@ -12,11 +12,10 @@ struct Int16Enum;
 }
 // Write type traits
 MARK_VAL_T(::System::Int16Enum);
-// Type: System::Int16Enum
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::Int16Enum
+// CS Name: System.Int16Enum
 struct CORDL_TYPE Int16Enum {
 public:
   // Declarations
@@ -42,21 +41,21 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None }]
   constexpr Int16Enum(int16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  int16_t value__;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2596 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  int16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Int16Enum, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::System::Int16Enum, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Int16Enum, 0x2>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::Int16Enum, "System", "Int16Enum");

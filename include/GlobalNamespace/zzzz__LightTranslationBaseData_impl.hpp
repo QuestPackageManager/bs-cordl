@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBaseData::*)(float_t, bool, ::GlobalNamespace::EaseType, float_t)>(
     &::GlobalNamespace::LightTranslationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2689714;
+  constexpr static std::size_t addrs = 0x26bdf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,10 +69,6 @@ constexpr void GlobalNamespace::LightTranslationBaseData::__cordl_internal_set_t
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___translation = value;
 }
-inline ::GlobalNamespace::LightTranslationBaseData* GlobalNamespace::LightTranslationBaseData::New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType,
-                                                                                                        float_t translation) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationBaseData*>(beat, usePreviousEventTranslationValue, easeType, translation));
-}
 inline void GlobalNamespace::LightTranslationBaseData::_ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBaseData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -80,6 +76,10 @@ inline void GlobalNamespace::LightTranslationBaseData::_ctor(float_t beat, bool 
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, usePreviousEventTranslationValue, easeType, translation);
+}
+inline ::GlobalNamespace::LightTranslationBaseData* GlobalNamespace::LightTranslationBaseData::New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType,
+                                                                                                        float_t translation) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationBaseData*>(beat, usePreviousEventTranslationValue, easeType, translation));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationBaseData::LightTranslationBaseData() {}

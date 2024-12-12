@@ -20,24 +20,23 @@ class TrackingServices;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Services::TrackingServices);
-// Type: System.Runtime.Remoting.Services::TrackingServices
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Services::TrackingServices*
+// CS Name: System.Runtime.Remoting.Services.TrackingServices
 class CORDL_TYPE TrackingServices : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _handlers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__handlers, put = setStaticF__handlers)) ::System::Collections::ArrayList* _handlers;
+  __declspec(property(get = getStaticF__handlers, put = setStaticF__handlers)) ::System::Collections::ArrayList* _handlers;
 
-  /// @brief Method NotifyDisconnectedObject, addr 0x3c73ddc, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisconnectedObject, addr 0x3cd3f50, size 0x300, virtual false, abstract: false, final false
   static inline void NotifyDisconnectedObject(::System::Object* obj);
 
-  /// @brief Method NotifyMarshaledObject, addr 0x3c70060, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method NotifyMarshaledObject, addr 0x3cd01d4, size 0x30c, virtual false, abstract: false, final false
   static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyUnmarshaledObject, addr 0x3c6f428, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method NotifyUnmarshaledObject, addr 0x3ccf59c, size 0x30c, virtual false, abstract: false, final false
   static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
   static inline ::System::Collections::ArrayList* getStaticF__handlers();

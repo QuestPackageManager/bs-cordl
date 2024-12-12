@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Playables/FrameRate.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Playables/zzzz__FrameRate_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Playables::FrameRate.get_dropFrame
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::get_dropFrame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4867ae4;
+  constexpr static std::size_t addrs = 0x48c8e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::FrameRate>::get(), "get_dropFrame",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::get_rate)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4867af0;
+  constexpr static std::size_t addrs = 0x48c8e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::FrameRate>::get(), "get_rate",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::FrameRate::*)(uint32_t, bool)>(&::UnityEngine::Playables::FrameRate::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4867b64;
+  constexpr static std::size_t addrs = 0x48c8ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4867b74;
+  constexpr static std::size_t addrs = 0x48c8ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::FrameRate>::get(), "IsValid",
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)(::UnityEngine::Playables::FrameRate)>(
     &::UnityEngine::Playables::FrameRate::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4867b84;
+  constexpr static std::size_t addrs = 0x48c8f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)(::System::Object*)>(&::UnityEngine::Playables::FrameRate::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4867b94;
+  constexpr static std::size_t addrs = 0x48c8f18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Playables::FrameRate, ::UnityEngine::Playables::FrameRate)>(
     &::UnityEngine::Playables::FrameRate::op_Equality)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4867c3c;
+  constexpr static std::size_t addrs = 0x48c8fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4867ca0;
+  constexpr static std::size_t addrs = 0x48c9024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::ToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4867ca8;
+  constexpr static std::size_t addrs = 0x48c902c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Playables::FrameRate::*)(::StringW, ::System::IFormatProvider*)>(
     &::UnityEngine::Playables::FrameRate::ToString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4867d04;
+  constexpr static std::size_t addrs = 0x48c9088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::FrameRate (*)(double_t)>(&::UnityEngine::Playables::FrameRate::DoubleToFrameRate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4867eb4;
+  constexpr static std::size_t addrs = 0x48c9238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,14 +160,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
-constexpr UnityEngine::Playables::FrameRate::operator ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
-constexpr ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>* UnityEngine::Playables::FrameRate::i___System__IEquatable_1___UnityEngine__Playables__FrameRate_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::Playables::FrameRate::setStaticF_k_24Fps(::UnityEngine::Playables::FrameRate value) {
   ::cordl_internals::setStaticField<::UnityEngine::Playables::FrameRate, "k_24Fps", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::FrameRate>::get>(
       std::forward<::UnityEngine::Playables::FrameRate>(value));
@@ -234,8 +226,6 @@ inline double_t UnityEngine::Playables::FrameRate::get_rate() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
 }
-/// @param frameRate: uint32_t (default: static_cast<uint32_t>(0x2000000u))
-/// @param drop: bool (default: false)
 inline void UnityEngine::Playables::FrameRate::_ctor(uint32_t frameRate, bool drop) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::FrameRate>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -287,6 +277,14 @@ inline ::UnityEngine::Playables::FrameRate UnityEngine::Playables::FrameRate::Do
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::FrameRate>::get(), "DoubleToFrameRate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::FrameRate, false>(nullptr, ___internal_method, framerate);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
+constexpr UnityEngine::Playables::FrameRate::operator ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
+constexpr ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>* UnityEngine::Playables::FrameRate::i___System__IEquatable_1___UnityEngine__Playables__FrameRate_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_Rate", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Playables::FrameRate::FrameRate(int32_t m_Rate) noexcept {

@@ -3,25 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelAnimation)
 namespace HMUI {
-class __PanelAnimation___AnimationCoroutine_d__1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class PanelAnimation__AnimationCoroutine_d__1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Action;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -40,17 +37,16 @@ namespace HMUI {
 class PanelAnimation;
 }
 namespace HMUI {
-class __PanelAnimation___AnimationCoroutine_d__1;
+class PanelAnimation__AnimationCoroutine_d__1;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::PanelAnimation);
-MARK_REF_PTR_T(::HMUI::__PanelAnimation___AnimationCoroutine_d__1);
-// Type: ::<AnimationCoroutine>d__1
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::HMUI::PanelAnimation__AnimationCoroutine_d__1);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::PanelAnimation::<AnimationCoroutine>d__1*
-class CORDL_TYPE __PanelAnimation___AnimationCoroutine_d__1 : public ::System::Object {
+// CS Name: HMUI.PanelAnimation/<AnimationCoroutine>d__1
+class CORDL_TYPE PanelAnimation__AnimationCoroutine_d__1 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -105,30 +101,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x399309c, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39e9c1c, size 0x294, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::HMUI::__PanelAnimation___AnimationCoroutine_d__1* New_ctor(int32_t __1__state);
+  static inline ::HMUI::PanelAnimation__AnimationCoroutine_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3993330, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39e9eb0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3993338, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e9eb8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3993370, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e9ef0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3993098, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39e9c18, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::HMUI::PanelAnimation> const& __cordl_internal_get___4__this() const;
 
@@ -142,9 +138,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__elapsedTime_5__3();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_alphaAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get_alphaAnimationCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_alphaAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_alphaAnimationCurve();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get_canvasGroup() const;
 
@@ -154,25 +150,25 @@ public:
 
   constexpr float_t& __cordl_internal_get_duration();
 
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+
   constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get_parentAlphaAnimationCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_parentAlphaAnimationCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_parentAlphaAnimationCurve() const;
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get_parentCanvasGroup() const;
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get_parentCanvasGroup();
 
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get_scaleXAnimationCurve() const;
+
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_scaleXAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_scaleXAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get_scaleYAnimationCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_scaleYAnimationCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_scaleYAnimationCurve() const;
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -200,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x3993068, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9be8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -215,16 +211,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PanelAnimation___AnimationCoroutine_d__1();
+  constexpr PanelAnimation__AnimationCoroutine_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PanelAnimation___AnimationCoroutine_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation__AnimationCoroutine_d__1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PanelAnimation___AnimationCoroutine_d__1(__PanelAnimation___AnimationCoroutine_d__1&&) = delete;
+  PanelAnimation__AnimationCoroutine_d__1(PanelAnimation__AnimationCoroutine_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PanelAnimation___AnimationCoroutine_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation__AnimationCoroutine_d__1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PanelAnimation___AnimationCoroutine_d__1(__PanelAnimation___AnimationCoroutine_d__1 const&) = delete;
+  PanelAnimation__AnimationCoroutine_d__1(PanelAnimation__AnimationCoroutine_d__1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16010 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -265,52 +264,48 @@ public:
   /// @brief Field <elapsedTime>5__3, offset: 0x70, size: 0x4, def value: None
   float_t ____elapsedTime_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15975 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__PanelAnimation___AnimationCoroutine_d__1, 0x78>, "Size mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___canvasGroup) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___canvasGroup) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___duration) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___duration) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___parentCanvasGroup) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___parentCanvasGroup) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___parentAlphaAnimationCurve) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___parentAlphaAnimationCurve) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___alphaAnimationCurve) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___alphaAnimationCurve) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___scaleXAnimationCurve) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___scaleXAnimationCurve) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___scaleYAnimationCurve) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___scaleYAnimationCurve) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, _____4__this) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, _____4__this) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ___finishedCallback) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ___finishedCallback) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ____canvasTransform_5__2) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ____canvasTransform_5__2) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::HMUI::PanelAnimation__AnimationCoroutine_d__1, ____elapsedTime_5__3) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ____elapsedTime_5__3) == 0x70, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::PanelAnimation__AnimationCoroutine_d__1, 0x78>, "Size mismatch!");
 
 } // namespace HMUI
-// Type: HMUI::PanelAnimation
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::PanelAnimation*
+// CS Name: HMUI.PanelAnimation
 class CORDL_TYPE PanelAnimation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _AnimationCoroutine_d__1 = ::HMUI::__PanelAnimation___AnimationCoroutine_d__1;
+  using _AnimationCoroutine_d__1 = ::HMUI::PanelAnimation__AnimationCoroutine_d__1;
 
-  /// @brief Method AnimationCoroutine, addr 0x3992fac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AnimationCoroutine, addr 0x39e9b2c, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimationCoroutine(float_t duration, ::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup,
                                                                 ::UnityEngine::AnimationCurve* scaleXAnimationCurve, ::UnityEngine::AnimationCurve* scaleYAnimationCurve,
                                                                 ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
@@ -318,12 +313,12 @@ public:
 
   static inline ::HMUI::PanelAnimation* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x3992e58, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x39e99d8, size 0x154, virtual false, abstract: false, final false
   inline void StartAnimation(::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup, float_t duration, ::UnityEngine::AnimationCurve* scaleXAnimationCurve,
                              ::UnityEngine::AnimationCurve* scaleYAnimationCurve, ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
                              ::System::Action* finishedCallback);
 
-  /// @brief Method .ctor, addr 0x3993090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -341,7 +336,7 @@ public:
   PanelAnimation(PanelAnimation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -351,5 +346,5 @@ static_assert(::cordl_internals::size_check_v<::HMUI::PanelAnimation, 0x20>, "Si
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::PanelAnimation);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::PanelAnimation*, "HMUI", "PanelAnimation");
-NEED_NO_BOX(::HMUI::__PanelAnimation___AnimationCoroutine_d__1);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__PanelAnimation___AnimationCoroutine_d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");
+NEED_NO_BOX(::HMUI::PanelAnimation__AnimationCoroutine_d__1);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::PanelAnimation__AnimationCoroutine_d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");

@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__ByRefUpdater_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LocalDefinition_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexMethodByRefUpdater)
 namespace System::Linq::Expressions::Interpreter {
@@ -36,11 +35,10 @@ class IndexMethodByRefUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater);
-// Type: System.Linq.Expressions.Interpreter::IndexMethodByRefUpdater
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.ByRefUpdater, System.Linq.Expressions.Interpreter.LocalDefinition, System.Nullable`1<T>
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::IndexMethodByRefUpdater*
+// CS Name: System.Linq.Expressions.Interpreter.IndexMethodByRefUpdater
 class CORDL_TYPE IndexMethodByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater {
 public:
   // Declarations
@@ -60,19 +58,19 @@ public:
            ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args, ::System::Reflection::MethodInfo* indexer,
            int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x40839c0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x40e4cd4, size 0xfc, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x408376c, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x40e4a80, size 0x254, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> const& __cordl_internal_get__args() const;
 
   constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>& __cordl_internal_get__args();
 
-  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__indexer();
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get__indexer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get__indexer() const;
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__indexer();
 
   constexpr ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> const& __cordl_internal_get__obj() const;
 
@@ -84,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__obj(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
 
-  /// @brief Method .ctor, addr 0x408371c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e4a30, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args,
                     ::System::Reflection::MethodInfo* indexer, int32_t argumentIndex);
@@ -103,6 +101,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IndexMethodByRefUpdater(IndexMethodByRefUpdater const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13951 };
+
   /// @brief Field _indexer, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____indexer;
 
@@ -112,19 +113,16 @@ public:
   /// @brief Field _args, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> ____args;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13917 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater, ____indexer) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater, ____obj) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater, ____args) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater, 0x40>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater);

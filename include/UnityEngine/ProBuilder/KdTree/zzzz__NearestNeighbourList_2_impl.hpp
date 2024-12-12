@@ -1,29 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/NearestNeighbourList_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__INearestNeighbourList_2_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__NearestNeighbourList_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__INearestNeighbourList_2_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__PriorityQueue_2_def.hpp"
-/// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
-template <typename TItem, typename TDistance>
-constexpr UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::operator ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*() noexcept {
-  return static_cast<::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
-template <typename TItem, typename TDistance>
-constexpr ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*
-UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::i___UnityEngine__ProBuilder__KdTree__INearestNeighbourList_2_TItem_TDistance_() noexcept {
-  return static_cast<::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*>(static_cast<void*>(this));
-}
 template <typename TItem, typename TDistance>
 constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*& UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_get_queue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queue;
 }
 template <typename TItem, typename TDistance>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>*> const&
-UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_get_queue() const {
+constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* const& UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_get_queue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queue;
 }
@@ -38,8 +26,7 @@ constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*& UnityEngin
   return this->___distanceMath;
 }
 template <typename TItem, typename TDistance>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*> const&
-UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_get_distanceMath() const {
+constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* const& UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_get_distanceMath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distanceMath;
 }
@@ -59,11 +46,6 @@ template <typename TItem, typename TDistance> constexpr int32_t const& UnityEngi
 template <typename TItem, typename TDistance> constexpr void UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_set_maxCapacity(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCapacity = value;
-}
-template <typename TItem, typename TDistance>
-inline ::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>*
-UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::New_ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>*>(maxCapacity, distanceMath));
 }
 template <typename TItem, typename TDistance>
 inline void UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::_ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath) {
@@ -114,6 +96,22 @@ template <typename TItem, typename TDistance> inline bool UnityEngine::ProBuilde
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>*>::get(),
                                                "get_IsCapacityReached", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+template <typename TItem, typename TDistance>
+inline ::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>*
+UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::New_ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>*>(maxCapacity, distanceMath));
+}
+/// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
+template <typename TItem, typename TDistance>
+constexpr UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::operator ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
+template <typename TItem, typename TDistance>
+constexpr ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*
+UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::i___UnityEngine__ProBuilder__KdTree__INearestNeighbourList_2_TItem_TDistance_() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TItem, typename TDistance> constexpr ::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::NearestNeighbourList_2() {}

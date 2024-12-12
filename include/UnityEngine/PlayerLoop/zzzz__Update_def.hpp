@@ -6,184 +6,179 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Update)
 namespace UnityEngine::PlayerLoop {
-struct __Update__DirectorUpdate;
+struct Update_DirectorUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunBehaviourUpdate;
+struct Update_ScriptRunBehaviourUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunDelayedDynamicFrameRate;
+struct Update_ScriptRunDelayedDynamicFrameRate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunDelayedTasks;
+struct Update_ScriptRunDelayedTasks;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct Update;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__DirectorUpdate;
+struct Update_DirectorUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunBehaviourUpdate;
+struct Update_ScriptRunBehaviourUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunDelayedDynamicFrameRate;
+struct Update_ScriptRunDelayedDynamicFrameRate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunDelayedTasks;
+struct Update_ScriptRunDelayedTasks;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::PlayerLoop::Update);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Update__DirectorUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Update__ScriptRunBehaviourUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedDynamicFrameRate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks);
-// Type: ::ScriptRunBehaviourUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+MARK_VAL_T(::UnityEngine::PlayerLoop::Update_DirectorUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Update_ScriptRunBehaviourUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedDynamicFrameRate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedTasks);
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Update::ScriptRunBehaviourUpdate
+// CS Name: UnityEngine.PlayerLoop.Update/ScriptRunBehaviourUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __Update__ScriptRunBehaviourUpdate {
+struct CORDL_TYPE Update_ScriptRunBehaviourUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Update__ScriptRunBehaviourUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Update_ScriptRunBehaviourUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11083 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Update__ScriptRunBehaviourUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Update_ScriptRunBehaviourUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Update::DirectorUpdate
+// CS Name: UnityEngine.PlayerLoop.Update/DirectorUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __Update__DirectorUpdate {
+struct CORDL_TYPE Update_DirectorUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Update__DirectorUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Update_DirectorUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11084 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Update__DirectorUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Update_DirectorUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::ScriptRunDelayedDynamicFrameRate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Update::ScriptRunDelayedDynamicFrameRate
+// CS Name: UnityEngine.PlayerLoop.Update/ScriptRunDelayedDynamicFrameRate
 #pragma pack(push, 0)
-struct CORDL_TYPE __Update__ScriptRunDelayedDynamicFrameRate {
+struct CORDL_TYPE Update_ScriptRunDelayedDynamicFrameRate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Update__ScriptRunDelayedDynamicFrameRate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Update_ScriptRunDelayedDynamicFrameRate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11085 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedDynamicFrameRate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Update_ScriptRunDelayedDynamicFrameRate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::ScriptRunDelayedTasks
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Update::ScriptRunDelayedTasks
+// CS Name: UnityEngine.PlayerLoop.Update/ScriptRunDelayedTasks
 #pragma pack(push, 0)
-struct CORDL_TYPE __Update__ScriptRunDelayedTasks {
+struct CORDL_TYPE Update_ScriptRunDelayedTasks {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Update__ScriptRunDelayedTasks();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Update_ScriptRunDelayedTasks();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11086 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Update_ScriptRunDelayedTasks, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: UnityEngine.PlayerLoop::Update
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::UnityEngine.PlayerLoop::Update
+// CS Name: UnityEngine.PlayerLoop.Update
 #pragma pack(push, 0)
 struct CORDL_TYPE Update {
 public:
   // Declarations
-  using DirectorUpdate = ::UnityEngine::PlayerLoop::__Update__DirectorUpdate;
+  using DirectorUpdate = ::UnityEngine::PlayerLoop::Update_DirectorUpdate;
 
-  using ScriptRunBehaviourUpdate = ::UnityEngine::PlayerLoop::__Update__ScriptRunBehaviourUpdate;
+  using ScriptRunBehaviourUpdate = ::UnityEngine::PlayerLoop::Update_ScriptRunBehaviourUpdate;
 
-  using ScriptRunDelayedDynamicFrameRate = ::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedDynamicFrameRate;
+  using ScriptRunDelayedDynamicFrameRate = ::UnityEngine::PlayerLoop::Update_ScriptRunDelayedDynamicFrameRate;
 
-  using ScriptRunDelayedTasks = ::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks;
+  using ScriptRunDelayedTasks = ::UnityEngine::PlayerLoop::Update_ScriptRunDelayedTasks;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Update();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11087 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -193,7 +188,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Update,
 
 } // namespace UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Update, "UnityEngine.PlayerLoop", "Update");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Update__DirectorUpdate, "UnityEngine.PlayerLoop", "Update/DirectorUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Update__ScriptRunBehaviourUpdate, "UnityEngine.PlayerLoop", "Update/ScriptRunBehaviourUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedDynamicFrameRate, "UnityEngine.PlayerLoop", "Update/ScriptRunDelayedDynamicFrameRate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks, "UnityEngine.PlayerLoop", "Update/ScriptRunDelayedTasks");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Update_DirectorUpdate, "UnityEngine.PlayerLoop", "Update/DirectorUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Update_ScriptRunBehaviourUpdate, "UnityEngine.PlayerLoop", "Update/ScriptRunBehaviourUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedDynamicFrameRate, "UnityEngine.PlayerLoop", "Update/ScriptRunDelayedDynamicFrameRate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedTasks, "UnityEngine.PlayerLoop", "Update/ScriptRunDelayedTasks");

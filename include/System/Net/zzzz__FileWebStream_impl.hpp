@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Net/FileWebStream.hpp"
 #include "System/IO/zzzz__FileStream_impl.hpp"
+#include "System/Net/zzzz__ICloseEx_impl.hpp"
 #include "System/Net/zzzz__FileWebStream_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"
 #include "System/IO/zzzz__FileMode_def.hpp"
 #include "System/IO/zzzz__FileShare_def.hpp"
 #include "System/Net/zzzz__CloseExState_def.hpp"
 #include "System/Net/zzzz__FileWebRequest_def.hpp"
-#include "System/Net/zzzz__ICloseEx_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebStream::*)(
     ::System::Net::FileWebRequest*, ::StringW, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare)>(&::System::Net::FileWebStream::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44543dc;
+  constexpr static std::size_t addrs = 0x44b56f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebStream::*)(
     ::System::Net::FileWebRequest*, ::StringW, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare, int32_t, bool)>(&::System::Net::FileWebStream::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4454fe8;
+  constexpr static std::size_t addrs = 0x44b62fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebStream::*)(bool)>(&::System::Net::FileWebStream::Dispose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x445509c;
+  constexpr static std::size_t addrs = 0x44b63b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebStream::*)(::System::Net::CloseExState)>(
     &::System::Net::FileWebStream::System_Net_ICloseEx_CloseEx)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x445514c;
+  constexpr static std::size_t addrs = 0x44b6460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::FileWebStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::FileWebStream::Read)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4455188;
+  constexpr static std::size_t addrs = 0x44b649c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::FileWebStream::Write)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x44552d0;
+  constexpr static std::size_t addrs = 0x44b65e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::Net::FileWebStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::FileWebStream::BeginRead)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4455398;
+  constexpr static std::size_t addrs = 0x44b66ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::FileWebStream::*)(::System::IAsyncResult*)>(&::System::Net::FileWebStream::EndRead)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4455478;
+  constexpr static std::size_t addrs = 0x44b678c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::Net::FileWebStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::FileWebStream::BeginWrite)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4455518;
+  constexpr static std::size_t addrs = 0x44b682c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebStream::*)(::System::IAsyncResult*)>(&::System::Net::FileWebStream::EndWrite)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x44555f8;
+  constexpr static std::size_t addrs = 0x44b690c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebStream::*)()>(&::System::Net::FileWebStream::CheckError)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4455250;
+  constexpr static std::size_t addrs = 0x44b6564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FileWebStream*>::get(), "CheckError",
@@ -179,29 +179,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Net::ICloseEx"
-constexpr System::Net::FileWebStream::operator ::System::Net::ICloseEx*() noexcept {
-  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Net::ICloseEx"
-constexpr ::System::Net::ICloseEx* System::Net::FileWebStream::i___System__Net__ICloseEx() noexcept {
-  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
-}
 constexpr ::System::Net::FileWebRequest*& System::Net::FileWebStream::__cordl_internal_get_m_request() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_request;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::FileWebRequest*> const& System::Net::FileWebStream::__cordl_internal_get_m_request() const {
+constexpr ::System::Net::FileWebRequest* const& System::Net::FileWebStream::__cordl_internal_get_m_request() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_request;
 }
 constexpr void System::Net::FileWebStream::__cordl_internal_set_m_request(::System::Net::FileWebRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Net::FileWebStream* System::Net::FileWebStream::New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
-                                                                          ::System::IO::FileShare sharing) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebStream*>(request, path, mode, access, sharing));
 }
 inline void System::Net::FileWebStream::_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,10 +199,6 @@ inline void System::Net::FileWebStream::_ctor(::System::Net::FileWebRequest* req
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::FileAccess>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::FileShare>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, request, path, mode, access, sharing);
-}
-inline ::System::Net::FileWebStream* System::Net::FileWebStream::New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
-                                                                          ::System::IO::FileShare sharing, int32_t length, bool async) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebStream*>(request, path, mode, access, sharing, length, async));
 }
 inline void System::Net::FileWebStream::_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing,
                                               int32_t length, bool async) {
@@ -274,6 +258,22 @@ inline void System::Net::FileWebStream::CheckError() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FileWebStream*>::get(), "CheckError",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Net::FileWebStream* System::Net::FileWebStream::New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
+                                                                          ::System::IO::FileShare sharing) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebStream*>(request, path, mode, access, sharing));
+}
+inline ::System::Net::FileWebStream* System::Net::FileWebStream::New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
+                                                                          ::System::IO::FileShare sharing, int32_t length, bool async) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::FileWebStream*>(request, path, mode, access, sharing, length, async));
+}
+/// @brief Convert operator to "::System::Net::ICloseEx"
+constexpr System::Net::FileWebStream::operator ::System::Net::ICloseEx*() noexcept {
+  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Net::ICloseEx"
+constexpr ::System::Net::ICloseEx* System::Net::FileWebStream::i___System__Net__ICloseEx() noexcept {
+  return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::FileWebStream::FileWebStream() {}

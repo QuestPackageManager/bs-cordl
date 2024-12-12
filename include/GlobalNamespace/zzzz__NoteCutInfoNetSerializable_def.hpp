@@ -9,7 +9,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__QuaternionSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutInfoNetSerializable)
@@ -20,13 +19,13 @@ namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
+struct NoteData_GameplayType;
+}
+namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -46,11 +45,10 @@ class NoteCutInfoNetSerializable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteCutInfoNetSerializable);
-// Type: ::NoteCutInfoNetSerializable
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ColorType, NoteData::GameplayType, NoteLineLayer, PoolableSerializable, QuaternionSerializable, Vector3Serializable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteCutInfoNetSerializable*
+// CS Name: NoteCutInfoNetSerializable
 class CORDL_TYPE NoteCutInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
@@ -67,7 +65,7 @@ public:
   __declspec(property(get = __cordl_internal_get_cutWasOk, put = __cordl_internal_set_cutWasOk)) bool cutWasOk;
 
   /// @brief Field gameplayType, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_gameplayType, put = __cordl_internal_set_gameplayType)) ::GlobalNamespace::__NoteData__GameplayType gameplayType;
+  __declspec(property(get = __cordl_internal_get_gameplayType, put = __cordl_internal_set_gameplayType)) ::GlobalNamespace::NoteData_GameplayType gameplayType;
 
   /// @brief Field lineLayer, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get_lineLayer, put = __cordl_internal_set_lineLayer)) ::GlobalNamespace::NoteLineLayer lineLayer;
@@ -99,26 +97,25 @@ public:
   /// @brief Field timeToNextColorNote, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToNextColorNote, put = __cordl_internal_set_timeToNextColorNote)) float_t timeToNextColorNote;
 
-  /// @brief Method Deserialize, addr 0x26ebbf4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x271e290, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26ec080, size 0xdc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
+  /// @brief Method Init, addr 0x271e71c, size 0xdc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
                                                              ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method Init, addr 0x26ec15c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x271e7f8, size 0x20c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(float_t saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
-                                                             ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::ColorType colorType,
-                                                             ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote,
-                                                             ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
-                                                             ::UnityEngine::Vector3 moveVec);
+                                                             ::GlobalNamespace::NoteData_GameplayType gameplayType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer,
+                                                             int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote, ::UnityEngine::Vector3 notePosition,
+                                                             ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
 
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26ebb90, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x271e22c, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26ebdd4, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x271e470, size 0x144, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
@@ -137,9 +134,9 @@ public:
 
   constexpr bool& __cordl_internal_get_cutWasOk();
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __cordl_internal_get_gameplayType() const;
+  constexpr ::GlobalNamespace::NoteData_GameplayType const& __cordl_internal_get_gameplayType() const;
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType& __cordl_internal_get_gameplayType();
+  constexpr ::GlobalNamespace::NoteData_GameplayType& __cordl_internal_get_gameplayType();
 
   constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_lineLayer() const;
 
@@ -189,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_cutWasOk(bool value);
 
-  constexpr void __cordl_internal_set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
+  constexpr void __cordl_internal_set_gameplayType(::GlobalNamespace::NoteData_GameplayType value);
 
   constexpr void __cordl_internal_set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
@@ -211,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToNextColorNote(float_t value);
 
-  /// @brief Method .ctor, addr 0x26ec020, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271e6bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -227,6 +224,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutInfoNetSerializable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutInfoNetSerializable(NoteCutInfoNetSerializable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17000 };
 
   /// @brief Field saberSpeed, offset: 0x14, size: 0x4, def value: None
   float_t ___saberSpeed;
@@ -253,7 +253,7 @@ public:
   ::GlobalNamespace::QuaternionSerializable ___noteRotation;
 
   /// @brief Field gameplayType, offset: 0x64, size: 0x4, def value: None
-  ::GlobalNamespace::__NoteData__GameplayType ___gameplayType;
+  ::GlobalNamespace::NoteData_GameplayType ___gameplayType;
 
   /// @brief Field colorType, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ___colorType;
@@ -273,14 +273,9 @@ public:
   /// @brief Field moveVec, offset: 0x7c, size: 0xc, def value: None
   ::GlobalNamespace::Vector3Serializable ___moveVec;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16961 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutInfoNetSerializable, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___saberSpeed) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___cutWasOk) == 0x18, "Offset mismatch!");
@@ -310,6 +305,8 @@ static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___lineLay
 static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___timeToNextColorNote) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___moveVec) == 0x7c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutInfoNetSerializable, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteCutInfoNetSerializable);

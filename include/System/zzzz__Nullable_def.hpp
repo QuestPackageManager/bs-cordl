@@ -14,15 +14,14 @@ class Nullable;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Nullable);
-// Type: System::Nullable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::Nullable*
+// CS Name: System.Nullable
 class CORDL_TYPE Nullable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetUnderlyingType, addr 0x3d8cb34, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingType, addr 0x3decca8, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Type* GetUnderlyingType(::System::Type* nullableType);
 
 protected:

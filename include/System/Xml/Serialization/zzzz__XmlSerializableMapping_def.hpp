@@ -27,11 +27,10 @@ class XmlSerializableMapping;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializableMapping);
-// Type: System.Xml.Serialization::XmlSerializableMapping
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Serialization.XmlTypeMapping
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlSerializableMapping*
+// CS Name: System.Xml.Serialization.XmlSerializableMapping
 class CORDL_TYPE XmlSerializableMapping : public ::System::Xml::Serialization::XmlTypeMapping {
 public:
   // Declarations
@@ -47,17 +46,17 @@ public:
   static inline ::System::Xml::Serialization::XmlSerializableMapping* New_ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName, ::StringW ns,
                                                                                ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType, ::StringW xmlTypeNamespace);
 
+  constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get__schema() const;
+
   constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get__schema();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchema*> const& __cordl_internal_get__schema() const;
+  constexpr ::System::Xml::Schema::XmlSchemaComplexType* const& __cordl_internal_get__schemaType() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaComplexType*& __cordl_internal_get__schemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaComplexType*> const& __cordl_internal_get__schemaType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get__schemaTypeName() const;
 
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get__schemaTypeName();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get__schemaTypeName() const;
 
   constexpr void __cordl_internal_set__schema(::System::Xml::Schema::XmlSchema* value);
 
@@ -65,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__schemaTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x432df6c, size 0x75c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438f280, size 0x75c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName, ::StringW ns, ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType,
                     ::StringW xmlTypeNamespace);
 
@@ -83,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSerializableMapping(XmlSerializableMapping const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7463 };
+
   /// @brief Field _schema, offset: 0x78, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchema* ____schema;
 
@@ -92,19 +94,16 @@ public:
   /// @brief Field _schemaTypeName, offset: 0x88, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ____schemaTypeName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7438 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializableMapping, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializableMapping, ____schema) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializableMapping, ____schemaType) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializableMapping, ____schemaTypeName) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializableMapping, 0x90>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlSerializableMapping);

@@ -11,20 +11,19 @@ class MultiplayerMenuInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMenuInstaller);
-// Type: ::MultiplayerMenuInstaller
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerMenuInstaller*
+// CS Name: MultiplayerMenuInstaller
 class CORDL_TYPE MultiplayerMenuInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3b91074, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf2e5c, size 0x8c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerMenuInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b91100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf2ee8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   MultiplayerMenuInstaller(MultiplayerMenuInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

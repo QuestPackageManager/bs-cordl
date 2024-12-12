@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)(
     ::System::Collections::IList*, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23e218c;
+  constexpr static std::size_t addrs = 0x2415478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::get_ResponderIDList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e21b8;
+  constexpr static std::size_t addrs = 0x24154a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::get_RequestExtensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e21c0;
+  constexpr static std::size_t addrs = 0x24154ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::Encode)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x23e21c8;
+  constexpr static std::size_t addrs = 0x24154b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::Parse)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x23e2588;
+  constexpr static std::size_t addrs = 0x2415874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Crypto::Tls::OcspSta
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mResponderIDList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::__cordl_internal_get_mResponderIDList() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::__cordl_internal_get_mResponderIDList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mResponderIDList;
 }
@@ -100,18 +100,13 @@ constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& Org::BouncyCastle::C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRequestExtensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const&
-Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::__cordl_internal_get_mRequestExtensions() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::__cordl_internal_get_mRequestExtensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRequestExtensions;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::__cordl_internal_set_mRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mRequestExtensions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::New_ctor(::System::Collections::IList* responderIDList,
-                                                                                                                        ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest*>(responderIDList, requestExtensions));
 }
 inline void Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::_ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -140,6 +135,10 @@ inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Org::BouncyCastle::C
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest*>::get(), "Parse", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest*, false>(nullptr, ___internal_method, input);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::New_ctor(::System::Collections::IList* responderIDList,
+                                                                                                                        ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest*>(responderIDList, requestExtensions));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::OcspStatusRequest() {}

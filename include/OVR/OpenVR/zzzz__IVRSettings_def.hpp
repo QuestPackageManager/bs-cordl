@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -14,40 +13,40 @@ namespace OVR::OpenVR {
 struct EVRSettingsError;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetBool;
+class IVRSettings__GetBool;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetFloat;
+class IVRSettings__GetFloat;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetInt32;
+class IVRSettings__GetInt32;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetSettingsErrorNameFromEnum;
+class IVRSettings__GetSettingsErrorNameFromEnum;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetString;
+class IVRSettings__GetString;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___RemoveKeyInSection;
+class IVRSettings__RemoveKeyInSection;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___RemoveSection;
+class IVRSettings__RemoveSection;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetBool;
+class IVRSettings__SetBool;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetFloat;
+class IVRSettings__SetFloat;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetInt32;
+class IVRSettings__SetInt32;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetString;
+class IVRSettings__SetString;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___Sync;
+class IVRSettings__Sync;
 }
 namespace System::Text {
 class StringBuilder;
@@ -66,704 +65,689 @@ class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
-class __IVRSettings___GetBool;
+class IVRSettings__GetBool;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetFloat;
+class IVRSettings__GetFloat;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetInt32;
+class IVRSettings__GetInt32;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetSettingsErrorNameFromEnum;
+class IVRSettings__GetSettingsErrorNameFromEnum;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetString;
+class IVRSettings__GetString;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___RemoveKeyInSection;
+class IVRSettings__RemoveKeyInSection;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___RemoveSection;
+class IVRSettings__RemoveSection;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetBool;
+class IVRSettings__SetBool;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetFloat;
+class IVRSettings__SetFloat;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetInt32;
+class IVRSettings__SetInt32;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetString;
+class IVRSettings__SetString;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___Sync;
+class IVRSettings__Sync;
 }
 namespace OVR::OpenVR {
 struct IVRSettings;
 }
 // Write type traits
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___GetBool);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___GetFloat);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___GetInt32);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___GetString);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___RemoveKeyInSection);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___RemoveSection);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___SetBool);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___SetFloat);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___SetInt32);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___SetString);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRSettings___Sync);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__GetBool);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__GetFloat);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__GetInt32);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__GetString);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__RemoveKeyInSection);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__RemoveSection);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__SetBool);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__SetFloat);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__SetInt32);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__SetString);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRSettings__Sync);
 MARK_VAL_T(::OVR::OpenVR::IVRSettings);
-// Type: ::_GetSettingsErrorNameFromEnum
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_GetSettingsErrorNameFromEnum*
-class CORDL_TYPE __IVRSettings___GetSettingsErrorNameFromEnum : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_GetSettingsErrorNameFromEnum
+class CORDL_TYPE IVRSettings__GetSettingsErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400a9b8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406aa64, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRSettingsError eError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400aa3c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406aae8, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400a9a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406aa50, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRSettingsError eError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400a918, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406a9c4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___GetSettingsErrorNameFromEnum();
+  constexpr IVRSettings__GetSettingsErrorNameFromEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetSettingsErrorNameFromEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetSettingsErrorNameFromEnum", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___GetSettingsErrorNameFromEnum(__IVRSettings___GetSettingsErrorNameFromEnum&&) = delete;
+  IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetSettingsErrorNameFromEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetSettingsErrorNameFromEnum", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___GetSettingsErrorNameFromEnum(__IVRSettings___GetSettingsErrorNameFromEnum const&) = delete;
+  IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_Sync
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_Sync*
-class CORDL_TYPE __IVRSettings___Sync : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_Sync
+class CORDL_TYPE IVRSettings__Sync : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400ab08, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(bool bForce, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x406abb4, size 0xc0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(bool bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400abc8, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406ac74, size 0x2c, virtual true, abstract: false, final false
+  inline bool EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400aaf0, size 0x18, virtual true, abstract: false, final false
-  inline bool Invoke(bool bForce, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406ab9c, size 0x18, virtual true, abstract: false, final false
+  inline bool Invoke(bool bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___Sync* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__Sync* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400aa64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ab10, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___Sync();
+  constexpr IVRSettings__Sync();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___Sync", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__Sync", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___Sync(__IVRSettings___Sync&&) = delete;
+  IVRSettings__Sync(IVRSettings__Sync&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___Sync", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__Sync", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___Sync(__IVRSettings___Sync const&) = delete;
+  IVRSettings__Sync(IVRSettings__Sync const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Sync, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__Sync, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_SetBool
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_SetBool*
-class CORDL_TYPE __IVRSettings___SetBool : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_SetBool
+class CORDL_TYPE IVRSettings__SetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400acac, size 0xd4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406ad58, size 0xd4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400ad80, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406ae2c, size 0x1c, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400ac94, size 0x18, virtual true, abstract: false, final false
-  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406ad40, size 0x18, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___SetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__SetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400abf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406aca0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___SetBool();
+  constexpr IVRSettings__SetBool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetBool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetBool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___SetBool(__IVRSettings___SetBool&&) = delete;
+  IVRSettings__SetBool(IVRSettings__SetBool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetBool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetBool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___SetBool(__IVRSettings___SetBool const&) = delete;
+  IVRSettings__SetBool(IVRSettings__SetBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___SetBool, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__SetBool, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_SetInt32
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_SetInt32*
-class CORDL_TYPE __IVRSettings___SetInt32 : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_SetInt32
+class CORDL_TYPE IVRSettings__SetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400ae50, size 0xd0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406aefc, size 0xd0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400af20, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406afcc, size 0x1c, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400ae3c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406aee8, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___SetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__SetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400ad9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ae48, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___SetInt32();
+  constexpr IVRSettings__SetInt32();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetInt32", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetInt32", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___SetInt32(__IVRSettings___SetInt32&&) = delete;
+  IVRSettings__SetInt32(IVRSettings__SetInt32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetInt32", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetInt32", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___SetInt32(__IVRSettings___SetInt32 const&) = delete;
+  IVRSettings__SetInt32(IVRSettings__SetInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___SetInt32, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__SetInt32, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_SetFloat
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_SetFloat*
-class CORDL_TYPE __IVRSettings___SetFloat : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_SetFloat
+class CORDL_TYPE IVRSettings__SetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400aff0, size 0xd0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406b09c, size 0xd0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400b0c0, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406b16c, size 0x1c, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400afdc, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406b088, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___SetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__SetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400af3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406afe8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___SetFloat();
+  constexpr IVRSettings__SetFloat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetFloat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetFloat", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___SetFloat(__IVRSettings___SetFloat&&) = delete;
+  IVRSettings__SetFloat(IVRSettings__SetFloat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetFloat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetFloat", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___SetFloat(__IVRSettings___SetFloat const&) = delete;
+  IVRSettings__SetFloat(IVRSettings__SetFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___SetFloat, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__SetFloat, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_SetString
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_SetString*
-class CORDL_TYPE __IVRSettings___SetString : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_SetString
+class CORDL_TYPE IVRSettings__SetString : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400b190, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406b23c, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400b238, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406b2e4, size 0x1c, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400b17c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406b228, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___SetString* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__SetString* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400b0dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b188, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___SetString();
+  constexpr IVRSettings__SetString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___SetString(__IVRSettings___SetString&&) = delete;
+  IVRSettings__SetString(IVRSettings__SetString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetString", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___SetString(__IVRSettings___SetString const&) = delete;
+  IVRSettings__SetString(IVRSettings__SetString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___SetString, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__SetString, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetBool
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_GetBool*
-class CORDL_TYPE __IVRSettings___GetBool : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_GetBool
+class CORDL_TYPE IVRSettings__GetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400b308, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406b3b4, size 0xa0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400b3a8, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406b454, size 0x2c, virtual true, abstract: false, final false
+  inline bool EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400b2f4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406b3a0, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___GetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__GetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400b254, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b300, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___GetBool();
+  constexpr IVRSettings__GetBool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetBool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetBool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___GetBool(__IVRSettings___GetBool&&) = delete;
+  IVRSettings__GetBool(IVRSettings__GetBool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetBool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetBool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___GetBool(__IVRSettings___GetBool const&) = delete;
+  IVRSettings__GetBool(IVRSettings__GetBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___GetBool, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__GetBool, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetInt32
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_GetInt32*
-class CORDL_TYPE __IVRSettings___GetInt32 : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_GetInt32
+class CORDL_TYPE IVRSettings__GetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400b488, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406b534, size 0xa0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400b528, size 0x2c, virtual true, abstract: false, final false
-  inline int32_t EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406b5d4, size 0x2c, virtual true, abstract: false, final false
+  inline int32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400b474, size 0x14, virtual true, abstract: false, final false
-  inline int32_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406b520, size 0x14, virtual true, abstract: false, final false
+  inline int32_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___GetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__GetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400b3d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b480, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___GetInt32();
+  constexpr IVRSettings__GetInt32();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetInt32", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetInt32", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___GetInt32(__IVRSettings___GetInt32&&) = delete;
+  IVRSettings__GetInt32(IVRSettings__GetInt32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetInt32", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetInt32", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___GetInt32(__IVRSettings___GetInt32 const&) = delete;
+  IVRSettings__GetInt32(IVRSettings__GetInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___GetInt32, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__GetInt32, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetFloat
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_GetFloat*
-class CORDL_TYPE __IVRSettings___GetFloat : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_GetFloat
+class CORDL_TYPE IVRSettings__GetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400b608, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406b6b4, size 0xa0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400b6a8, size 0x2c, virtual true, abstract: false, final false
-  inline float_t EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406b754, size 0x2c, virtual true, abstract: false, final false
+  inline float_t EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400b5f4, size 0x14, virtual true, abstract: false, final false
-  inline float_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406b6a0, size 0x14, virtual true, abstract: false, final false
+  inline float_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___GetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__GetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400b554, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b600, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___GetFloat();
+  constexpr IVRSettings__GetFloat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetFloat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetFloat", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___GetFloat(__IVRSettings___GetFloat&&) = delete;
+  IVRSettings__GetFloat(IVRSettings__GetFloat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetFloat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetFloat", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___GetFloat(__IVRSettings___GetFloat const&) = delete;
+  IVRSettings__GetFloat(IVRSettings__GetFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___GetFloat, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__GetFloat, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetString
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_GetString*
-class CORDL_TYPE __IVRSettings___GetString : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_GetString
+class CORDL_TYPE IVRSettings__GetString : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400b788, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406b834, size 0xdc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen,
-                                             ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
+                                             ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400b864, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406b910, size 0x1c, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400b774, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406b820, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___GetString* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__GetString* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400b6d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b780, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___GetString();
+  constexpr IVRSettings__GetString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___GetString(__IVRSettings___GetString&&) = delete;
+  IVRSettings__GetString(IVRSettings__GetString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetString", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___GetString(__IVRSettings___GetString const&) = delete;
+  IVRSettings__GetString(IVRSettings__GetString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___GetString, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__GetString, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_RemoveSection
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_RemoveSection*
-class CORDL_TYPE __IVRSettings___RemoveSection : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_RemoveSection
+class CORDL_TYPE IVRSettings__RemoveSection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400b934, size 0x94, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x406b9e0, size 0x94, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400b9c8, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406ba74, size 0x1c, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400b920, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::StringW pchSection, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406b9cc, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___RemoveSection* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__RemoveSection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400b880, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406b92c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___RemoveSection();
+  constexpr IVRSettings__RemoveSection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___RemoveSection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveSection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___RemoveSection(__IVRSettings___RemoveSection&&) = delete;
+  IVRSettings__RemoveSection(IVRSettings__RemoveSection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___RemoveSection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveSection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___RemoveSection(__IVRSettings___RemoveSection const&) = delete;
+  IVRSettings__RemoveSection(IVRSettings__RemoveSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___RemoveSection, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__RemoveSection, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_RemoveKeyInSection
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRSettings::_RemoveKeyInSection*
-class CORDL_TYPE __IVRSettings___RemoveKeyInSection : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRSettings/_RemoveKeyInSection
+class CORDL_TYPE IVRSettings__RemoveKeyInSection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x400ba98, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+  /// @brief Method BeginInvoke, addr 0x406bb44, size 0xa0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x400bb38, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x406bbe4, size 0x1c, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x400ba84, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
+  /// @brief Method Invoke, addr 0x406bb30, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  static inline ::OVR::OpenVR::__IVRSettings___RemoveKeyInSection* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x400b9e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ba90, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRSettings___RemoveKeyInSection();
+  constexpr IVRSettings__RemoveKeyInSection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___RemoveKeyInSection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveKeyInSection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRSettings___RemoveKeyInSection(__IVRSettings___RemoveKeyInSection&&) = delete;
+  IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___RemoveKeyInSection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveKeyInSection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSettings___RemoveKeyInSection(__IVRSettings___RemoveKeyInSection const&) = delete;
+  IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___RemoveKeyInSection, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings__RemoveKeyInSection, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: OVR.OpenVR::IVRSettings
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::IVRSettings
+// CS Name: OVR.OpenVR.IVRSettings
 struct CORDL_TYPE IVRSettings {
 public:
   // Declarations
-  using _GetBool = ::OVR::OpenVR::__IVRSettings___GetBool;
+  using _GetBool = ::OVR::OpenVR::IVRSettings__GetBool;
 
-  using _GetFloat = ::OVR::OpenVR::__IVRSettings___GetFloat;
+  using _GetFloat = ::OVR::OpenVR::IVRSettings__GetFloat;
 
-  using _GetInt32 = ::OVR::OpenVR::__IVRSettings___GetInt32;
+  using _GetInt32 = ::OVR::OpenVR::IVRSettings__GetInt32;
 
-  using _GetSettingsErrorNameFromEnum = ::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum;
+  using _GetSettingsErrorNameFromEnum = ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum;
 
-  using _GetString = ::OVR::OpenVR::__IVRSettings___GetString;
+  using _GetString = ::OVR::OpenVR::IVRSettings__GetString;
 
-  using _RemoveKeyInSection = ::OVR::OpenVR::__IVRSettings___RemoveKeyInSection;
+  using _RemoveKeyInSection = ::OVR::OpenVR::IVRSettings__RemoveKeyInSection;
 
-  using _RemoveSection = ::OVR::OpenVR::__IVRSettings___RemoveSection;
+  using _RemoveSection = ::OVR::OpenVR::IVRSettings__RemoveSection;
 
-  using _SetBool = ::OVR::OpenVR::__IVRSettings___SetBool;
+  using _SetBool = ::OVR::OpenVR::IVRSettings__SetBool;
 
-  using _SetFloat = ::OVR::OpenVR::__IVRSettings___SetFloat;
+  using _SetFloat = ::OVR::OpenVR::IVRSettings__SetFloat;
 
-  using _SetInt32 = ::OVR::OpenVR::__IVRSettings___SetInt32;
+  using _SetInt32 = ::OVR::OpenVR::IVRSettings__SetInt32;
 
-  using _SetString = ::OVR::OpenVR::__IVRSettings___SetString;
+  using _SetString = ::OVR::OpenVR::IVRSettings__SetString;
 
-  using _Sync = ::OVR::OpenVR::__IVRSettings___Sync;
+  using _Sync = ::OVR::OpenVR::IVRSettings__Sync;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IVRSettings();
 
-  // Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "Sync",
-  // ty: "::OVR::OpenVR::__IVRSettings___Sync*", modifiers: "", def_value: None }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::__IVRSettings___SetBool*", modifiers: "", def_value: None }, CppParam
-  // { name: "SetInt32", ty: "::OVR::OpenVR::__IVRSettings___SetInt32*", modifiers: "", def_value: None }, CppParam { name: "SetFloat", ty: "::OVR::OpenVR::__IVRSettings___SetFloat*", modifiers: "",
-  // def_value: None }, CppParam { name: "SetString", ty: "::OVR::OpenVR::__IVRSettings___SetString*", modifiers: "", def_value: None }, CppParam { name: "GetBool", ty:
-  // "::OVR::OpenVR::__IVRSettings___GetBool*", modifiers: "", def_value: None }, CppParam { name: "GetInt32", ty: "::OVR::OpenVR::__IVRSettings___GetInt32*", modifiers: "", def_value: None },
-  // CppParam { name: "GetFloat", ty: "::OVR::OpenVR::__IVRSettings___GetFloat*", modifiers: "", def_value: None }, CppParam { name: "GetString", ty: "::OVR::OpenVR::__IVRSettings___GetString*",
-  // modifiers: "", def_value: None }, CppParam { name: "RemoveSection", ty: "::OVR::OpenVR::__IVRSettings___RemoveSection*", modifiers: "", def_value: None }, CppParam { name: "RemoveKeyInSection",
-  // ty: "::OVR::OpenVR::__IVRSettings___RemoveKeyInSection*", modifiers: "", def_value: None }]
-  constexpr IVRSettings(::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum, ::OVR::OpenVR::__IVRSettings___Sync* Sync,
-                        ::OVR::OpenVR::__IVRSettings___SetBool* SetBool, ::OVR::OpenVR::__IVRSettings___SetInt32* SetInt32, ::OVR::OpenVR::__IVRSettings___SetFloat* SetFloat,
-                        ::OVR::OpenVR::__IVRSettings___SetString* SetString, ::OVR::OpenVR::__IVRSettings___GetBool* GetBool, ::OVR::OpenVR::__IVRSettings___GetInt32* GetInt32,
-                        ::OVR::OpenVR::__IVRSettings___GetFloat* GetFloat, ::OVR::OpenVR::__IVRSettings___GetString* GetString, ::OVR::OpenVR::__IVRSettings___RemoveSection* RemoveSection,
-                        ::OVR::OpenVR::__IVRSettings___RemoveKeyInSection* RemoveKeyInSection) noexcept;
-
-  /// @brief Field GetSettingsErrorNameFromEnum, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum;
-
-  /// @brief Field Sync, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___Sync* Sync;
-
-  /// @brief Field SetBool, offset: 0x10, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___SetBool* SetBool;
-
-  /// @brief Field SetInt32, offset: 0x18, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___SetInt32* SetInt32;
-
-  /// @brief Field SetFloat, offset: 0x20, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___SetFloat* SetFloat;
-
-  /// @brief Field SetString, offset: 0x28, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___SetString* SetString;
-
-  /// @brief Field GetBool, offset: 0x30, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___GetBool* GetBool;
-
-  /// @brief Field GetInt32, offset: 0x38, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___GetInt32* GetInt32;
-
-  /// @brief Field GetFloat, offset: 0x40, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___GetFloat* GetFloat;
-
-  /// @brief Field GetString, offset: 0x48, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___GetString* GetString;
-
-  /// @brief Field RemoveSection, offset: 0x50, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___RemoveSection* RemoveSection;
-
-  /// @brief Field RemoveKeyInSection, offset: 0x58, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSettings___RemoveKeyInSection* RemoveKeyInSection;
+  // Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "Sync", ty:
+  // "::OVR::OpenVR::IVRSettings__Sync*", modifiers: "", def_value: None }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::IVRSettings__SetBool*", modifiers: "", def_value: None }, CppParam { name:
+  // "SetInt32", ty: "::OVR::OpenVR::IVRSettings__SetInt32*", modifiers: "", def_value: None }, CppParam { name: "SetFloat", ty: "::OVR::OpenVR::IVRSettings__SetFloat*", modifiers: "", def_value: None
+  // }, CppParam { name: "SetString", ty: "::OVR::OpenVR::IVRSettings__SetString*", modifiers: "", def_value: None }, CppParam { name: "GetBool", ty: "::OVR::OpenVR::IVRSettings__GetBool*", modifiers:
+  // "", def_value: None }, CppParam { name: "GetInt32", ty: "::OVR::OpenVR::IVRSettings__GetInt32*", modifiers: "", def_value: None }, CppParam { name: "GetFloat", ty:
+  // "::OVR::OpenVR::IVRSettings__GetFloat*", modifiers: "", def_value: None }, CppParam { name: "GetString", ty: "::OVR::OpenVR::IVRSettings__GetString*", modifiers: "", def_value: None }, CppParam {
+  // name: "RemoveSection", ty: "::OVR::OpenVR::IVRSettings__RemoveSection*", modifiers: "", def_value: None }, CppParam { name: "RemoveKeyInSection", ty:
+  // "::OVR::OpenVR::IVRSettings__RemoveKeyInSection*", modifiers: "", def_value: None }]
+  constexpr IVRSettings(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum, ::OVR::OpenVR::IVRSettings__Sync* Sync, ::OVR::OpenVR::IVRSettings__SetBool* SetBool,
+                        ::OVR::OpenVR::IVRSettings__SetInt32* SetInt32, ::OVR::OpenVR::IVRSettings__SetFloat* SetFloat, ::OVR::OpenVR::IVRSettings__SetString* SetString,
+                        ::OVR::OpenVR::IVRSettings__GetBool* GetBool, ::OVR::OpenVR::IVRSettings__GetInt32* GetInt32, ::OVR::OpenVR::IVRSettings__GetFloat* GetFloat,
+                        ::OVR::OpenVR::IVRSettings__GetString* GetString, ::OVR::OpenVR::IVRSettings__RemoveSection* RemoveSection,
+                        ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* RemoveKeyInSection) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8819 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
+  /// @brief Field GetSettingsErrorNameFromEnum, offset: 0x0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum;
+
+  /// @brief Field Sync, offset: 0x8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__Sync* Sync;
+
+  /// @brief Field SetBool, offset: 0x10, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__SetBool* SetBool;
+
+  /// @brief Field SetInt32, offset: 0x18, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__SetInt32* SetInt32;
+
+  /// @brief Field SetFloat, offset: 0x20, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__SetFloat* SetFloat;
+
+  /// @brief Field SetString, offset: 0x28, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__SetString* SetString;
+
+  /// @brief Field GetBool, offset: 0x30, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__GetBool* GetBool;
+
+  /// @brief Field GetInt32, offset: 0x38, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__GetInt32* GetInt32;
+
+  /// @brief Field GetFloat, offset: 0x40, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__GetFloat* GetFloat;
+
+  /// @brief Field GetString, offset: 0x48, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__GetString* GetString;
+
+  /// @brief Field RemoveSection, offset: 0x50, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__RemoveSection* RemoveSection;
+
+  /// @brief Field RemoveKeyInSection, offset: 0x58, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* RemoveKeyInSection;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::IVRSettings, GetSettingsErrorNameFromEnum) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::IVRSettings, Sync) == 0x8, "Offset mismatch!");
@@ -788,29 +772,31 @@ static_assert(offsetof(::OVR::OpenVR::IVRSettings, RemoveSection) == 0x50, "Offs
 
 static_assert(offsetof(::OVR::OpenVR::IVRSettings, RemoveKeyInSection) == 0x58, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSettings, 0x60>, "Size mismatch!");
+
 } // namespace OVR::OpenVR
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___GetBool);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___GetBool*, "OVR.OpenVR", "IVRSettings/_GetBool");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___GetFloat);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___GetFloat*, "OVR.OpenVR", "IVRSettings/_GetFloat");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___GetInt32);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___GetInt32*, "OVR.OpenVR", "IVRSettings/_GetInt32");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum*, "OVR.OpenVR", "IVRSettings/_GetSettingsErrorNameFromEnum");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___GetString);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___GetString*, "OVR.OpenVR", "IVRSettings/_GetString");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___RemoveKeyInSection);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___RemoveKeyInSection*, "OVR.OpenVR", "IVRSettings/_RemoveKeyInSection");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___RemoveSection);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___RemoveSection*, "OVR.OpenVR", "IVRSettings/_RemoveSection");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___SetBool);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___SetBool*, "OVR.OpenVR", "IVRSettings/_SetBool");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___SetFloat);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___SetFloat*, "OVR.OpenVR", "IVRSettings/_SetFloat");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___SetInt32);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___SetInt32*, "OVR.OpenVR", "IVRSettings/_SetInt32");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___SetString);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___SetString*, "OVR.OpenVR", "IVRSettings/_SetString");
-NEED_NO_BOX(::OVR::OpenVR::__IVRSettings___Sync);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSettings___Sync*, "OVR.OpenVR", "IVRSettings/_Sync");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__GetBool);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__GetBool*, "OVR.OpenVR", "IVRSettings/_GetBool");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__GetFloat);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__GetFloat*, "OVR.OpenVR", "IVRSettings/_GetFloat");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__GetInt32);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__GetInt32*, "OVR.OpenVR", "IVRSettings/_GetInt32");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*, "OVR.OpenVR", "IVRSettings/_GetSettingsErrorNameFromEnum");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__GetString);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__GetString*, "OVR.OpenVR", "IVRSettings/_GetString");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__RemoveKeyInSection);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__RemoveKeyInSection*, "OVR.OpenVR", "IVRSettings/_RemoveKeyInSection");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__RemoveSection);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__RemoveSection*, "OVR.OpenVR", "IVRSettings/_RemoveSection");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__SetBool);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__SetBool*, "OVR.OpenVR", "IVRSettings/_SetBool");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__SetFloat);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__SetFloat*, "OVR.OpenVR", "IVRSettings/_SetFloat");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__SetInt32);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__SetInt32*, "OVR.OpenVR", "IVRSettings/_SetInt32");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__SetString);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__SetString*, "OVR.OpenVR", "IVRSettings/_SetString");
+NEED_NO_BOX(::OVR::OpenVR::IVRSettings__Sync);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings__Sync*, "OVR.OpenVR", "IVRSettings/_Sync");
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRSettings, "OVR.OpenVR", "IVRSettings");

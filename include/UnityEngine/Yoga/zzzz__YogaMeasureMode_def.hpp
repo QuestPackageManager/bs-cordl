@@ -12,11 +12,10 @@ struct YogaMeasureMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Yoga::YogaMeasureMode);
-// Type: UnityEngine.Yoga::YogaMeasureMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Yoga {
 // Is value type: true
-// CS Name: ::UnityEngine.Yoga::YogaMeasureMode
+// CS Name: UnityEngine.Yoga.YogaMeasureMode
 struct CORDL_TYPE YogaMeasureMode {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr YogaMeasureMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AtMost value: static_cast<int32_t>(0x2)
+  /// @brief Field AtMost value: I32(2)
   static ::UnityEngine::Yoga::YogaMeasureMode const AtMost;
 
-  /// @brief Field Exactly value: static_cast<int32_t>(0x1)
+  /// @brief Field Exactly value: I32(1)
   static ::UnityEngine::Yoga::YogaMeasureMode const Exactly;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  /// @brief Field Undefined value: I32(0)
   static ::UnityEngine::Yoga::YogaMeasureMode const Undefined;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5434 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Yoga::YogaMeasureMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Yoga::YogaMeasureMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Yoga::YogaMeasureMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Yoga
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaMeasureMode, "UnityEngine.Yoga", "YogaMeasureMode");

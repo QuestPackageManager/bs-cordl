@@ -12,21 +12,20 @@ class SaberSwingRating;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRating);
-// Type: ::SaberSwingRating
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberSwingRating*
+// CS Name: SaberSwingRating
 class CORDL_TYPE SaberSwingRating : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AfterCutStepRating, addr 0x267b574, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AfterCutStepRating, addr 0x26afb2c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t AfterCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method BeforeCutStepRating, addr 0x267b50c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeforeCutStepRating, addr 0x26afac4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t BeforeCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method NormalRating, addr 0x267b548, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NormalRating, addr 0x26afb00, size 0x2c, virtual false, abstract: false, final false
   static inline float_t NormalRating(float_t normalDiff);
 
 protected:
@@ -44,25 +43,25 @@ public:
   SaberSwingRating(SaberSwingRating const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12853 };
 
   /// @brief Field kAfterCutAngleFor1Rating offset 0xffffffff size 0x4
-  static constexpr float_t kAfterCutAngleFor1Rating{ 60.0 };
+  static constexpr float_t kAfterCutAngleFor1Rating{ static_cast<float_t>(60.0f) };
 
   /// @brief Field kBeforeCutAngleFor1Rating offset 0xffffffff size 0x4
-  static constexpr float_t kBeforeCutAngleFor1Rating{ 100.0 };
+  static constexpr float_t kBeforeCutAngleFor1Rating{ static_cast<float_t>(100.0f) };
 
   /// @brief Field kMaxAfterCutSwingDuration offset 0xffffffff size 0x4
-  static constexpr float_t kMaxAfterCutSwingDuration{ 0.4 };
+  static constexpr float_t kMaxAfterCutSwingDuration{ static_cast<float_t>(0.4f) };
 
   /// @brief Field kMaxBeforeCutSwingDuration offset 0xffffffff size 0x4
-  static constexpr float_t kMaxBeforeCutSwingDuration{ 0.4 };
+  static constexpr float_t kMaxBeforeCutSwingDuration{ static_cast<float_t>(0.4f) };
 
   /// @brief Field kMaxNormalAngleDiff offset 0xffffffff size 0x4
-  static constexpr float_t kMaxNormalAngleDiff{ 90.0 };
+  static constexpr float_t kMaxNormalAngleDiff{ static_cast<float_t>(90.0f) };
 
   /// @brief Field kToleranceNormalAngleDiff offset 0xffffffff size 0x4
-  static constexpr float_t kToleranceNormalAngleDiff{ 75.0 };
+  static constexpr float_t kToleranceNormalAngleDiff{ static_cast<float_t>(75.0f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

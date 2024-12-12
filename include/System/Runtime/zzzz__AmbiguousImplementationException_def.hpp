@@ -18,11 +18,10 @@ class AmbiguousImplementationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::AmbiguousImplementationException);
-// Type: System.Runtime::AmbiguousImplementationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System::Runtime {
 // Is value type: false
-// CS Name: ::System.Runtime::AmbiguousImplementationException*
+// CS Name: System.Runtime.AmbiguousImplementationException
 class CORDL_TYPE AmbiguousImplementationException : public ::System::Exception {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c654c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc563c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c655c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc5734, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c65548, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc56bc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

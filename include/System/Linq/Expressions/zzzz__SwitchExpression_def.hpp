@@ -23,11 +23,10 @@ class SwitchExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::SwitchExpression);
-// Type: System.Linq.Expressions::SwitchExpression
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::SwitchExpression*
+// CS Name: System.Linq.Expressions.SwitchExpression
 class CORDL_TYPE SwitchExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -54,22 +53,21 @@ public:
   __declspec(property(get = __cordl_internal_get__SwitchValue_k__BackingField,
                       put = __cordl_internal_set__SwitchValue_k__BackingField)) ::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField;
 
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* const& __cordl_internal_get__Cases_k__BackingField() const;
+
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>*& __cordl_internal_get__Cases_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>*> const&
-  __cordl_internal_get__Cases_k__BackingField() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get__Comparison_k__BackingField() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__Comparison_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get__Comparison_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__DefaultBody_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__DefaultBody_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__DefaultBody_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__SwitchValue_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__SwitchValue_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__SwitchValue_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Cases_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* value);
 
@@ -79,16 +77,16 @@ public:
 
   constexpr void __cordl_internal_set__SwitchValue_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Cases, addr 0x405a3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cases, addr 0x40bb6f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* get_Cases();
 
-  /// @brief Method get_Comparison, addr 0x405a3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparison, addr 0x40bb708, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Comparison();
 
-  /// @brief Method get_DefaultBody, addr 0x405a3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultBody, addr 0x40bb700, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_DefaultBody();
 
-  /// @brief Method get_SwitchValue, addr 0x405a3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SwitchValue, addr 0x40bb6f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_SwitchValue();
 
 protected:
@@ -105,6 +103,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SwitchExpression(SwitchExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13732 };
+
   /// @brief Field <SwitchValue>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____SwitchValue_k__BackingField;
 
@@ -117,14 +118,9 @@ public:
   /// @brief Field <Comparison>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____Comparison_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13698 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::SwitchExpression, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::SwitchExpression, ____SwitchValue_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::SwitchExpression, ____Cases_k__BackingField) == 0x18, "Offset mismatch!");
@@ -132,6 +128,8 @@ static_assert(offsetof(::System::Linq::Expressions::SwitchExpression, ____Cases_
 static_assert(offsetof(::System::Linq::Expressions::SwitchExpression, ____DefaultBody_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::SwitchExpression, ____Comparison_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::SwitchExpression, 0x30>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::SwitchExpression);

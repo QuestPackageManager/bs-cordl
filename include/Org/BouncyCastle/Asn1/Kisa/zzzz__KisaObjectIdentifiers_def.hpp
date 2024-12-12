@@ -14,23 +14,22 @@ class KisaObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.Kisa::KisaObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Kisa {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Kisa::KisaObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.Kisa.KisaObjectIdentifiers
 class CORDL_TYPE KisaObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IdNpkiAppCmsSeedWrap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdNpkiAppCmsSeedWrap, put = setStaticF_IdNpkiAppCmsSeedWrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdNpkiAppCmsSeedWrap;
+  __declspec(property(get = getStaticF_IdNpkiAppCmsSeedWrap, put = setStaticF_IdNpkiAppCmsSeedWrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdNpkiAppCmsSeedWrap;
 
   /// @brief Field IdSeedCbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSeedCbc, put = setStaticF_IdSeedCbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSeedCbc;
+  __declspec(property(get = getStaticF_IdSeedCbc, put = setStaticF_IdSeedCbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSeedCbc;
 
   static inline ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cc318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ff604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdNpkiAppCmsSeedWrap();

@@ -18,11 +18,10 @@ class LevelFailedText;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelFailedText);
-// Type: ::LevelFailedText
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelFailedText*
+// CS Name: LevelFailedText
 class CORDL_TYPE LevelFailedText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedText* New_ctor();
 
-  /// @brief Method OverrideText, addr 0x3b1ed70, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OverrideText, addr 0x3b7ff1c, size 0x4c, virtual false, abstract: false, final false
   inline void OverrideText(::StringW text);
 
   constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro> const& __cordl_internal_get__localizedText() const;
@@ -49,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3b1edbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ff68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,23 +65,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelFailedText(LevelFailedText const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4222 };
+
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____text;
 
   /// @brief Field _localizedText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro> ____localizedText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4211 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFailedText, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LevelFailedText, ____text) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelFailedText, ____localizedText) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFailedText, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelFailedText);

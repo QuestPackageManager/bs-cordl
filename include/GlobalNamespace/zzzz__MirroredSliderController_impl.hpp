@@ -1,45 +1,46 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MirroredSliderController.hpp"
+#include "GlobalNamespace/zzzz__ISliderDidStartDissolvingEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderControllerBase_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
-#include "GlobalNamespace/zzzz__ISliderDidStartDissolvingEvent_def.hpp"
+#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IVariableMovementDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MirroredSliderController__Pool._ctor
+//  Writing Method size for method: ::GlobalNamespace::MirroredSliderController_Pool._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MirroredSliderController__Pool::*)()>(
-    &::GlobalNamespace::__MirroredSliderController__Pool::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController_Pool::*)()>(
+    &::GlobalNamespace::MirroredSliderController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3a8f3a0;
+  constexpr static std::size_t addrs = 0x3ae8c94;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirroredSliderController__Pool*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController_Pool*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__MirroredSliderController__Pool* GlobalNamespace::__MirroredSliderController__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MirroredSliderController__Pool*>());
-}
-inline void GlobalNamespace::__MirroredSliderController__Pool::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirroredSliderController__Pool*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::MirroredSliderController_Pool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController_Pool*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::MirroredSliderController_Pool* GlobalNamespace::MirroredSliderController_Pool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirroredSliderController_Pool*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MirroredSliderController__Pool::__MirroredSliderController__Pool() {}
+constexpr ::GlobalNamespace::MirroredSliderController_Pool::MirroredSliderController_Pool() {}
 //  Writing Method size for method: ::GlobalNamespace::MirroredSliderController.set_hide
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(bool)>(
     &::GlobalNamespace::MirroredSliderController::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a8a928;
+  constexpr static std::size_t addrs = 0x3ae2d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a8f038;
+  constexpr static std::size_t addrs = 0x3ae89c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), "Awake",
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::Update)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a8f054;
+  constexpr static std::size_t addrs = 0x3ae89e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), "Update",
@@ -79,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a8f224;
+  constexpr static std::size_t addrs = 0x3ae8b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), "OnDestroy",
@@ -92,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::MirroredSliderController::Mirror)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3a89f38;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x3ae23ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(float_t)>(
     &::GlobalNamespace::MirroredSliderController::UpdateMaterialPropertyBlock)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3a8f104;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3ae8a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(
     &::GlobalNamespace::MirroredSliderController::RemoveListeners)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3a8f228;
+  constexpr static std::size_t addrs = 0x3ae8b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(),
@@ -136,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(::GlobalNamespace::SliderController*, float_t)>(
     &::GlobalNamespace::MirroredSliderController::HandleSliderDidStartDissolving)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a8f31c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x3ae8c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,8 +153,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)(float_t)>(
     &::GlobalNamespace::MirroredSliderController::Dissolve)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a8f340;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x3ae8c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredSliderController::*)()>(&::GlobalNamespace::MirroredSliderController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a8f390;
+  constexpr static std::size_t addrs = 0x3ae8c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), ".ctor",
@@ -175,14 +176,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
-constexpr GlobalNamespace::MirroredSliderController::operator ::GlobalNamespace::ISliderDidStartDissolvingEvent*() noexcept {
-  return static_cast<::GlobalNamespace::ISliderDidStartDissolvingEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
-constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* GlobalNamespace::MirroredSliderController::i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept {
-  return static_cast<::GlobalNamespace::ISliderDidStartDissolvingEvent*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::MirroredSliderController::__cordl_internal_get__meshFilter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshFilter;
@@ -195,18 +188,29 @@ constexpr void GlobalNamespace::MirroredSliderController::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& GlobalNamespace::MirroredSliderController::__cordl_internal_get__beatmapObjectSpawnController() {
+constexpr ::GlobalNamespace::IJumpOffsetYProvider*& GlobalNamespace::MirroredSliderController::__cordl_internal_get__jumpOffsetYProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapObjectSpawnController;
+  return this->____jumpOffsetYProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const&
-GlobalNamespace::MirroredSliderController::__cordl_internal_get__beatmapObjectSpawnController() const {
+constexpr ::GlobalNamespace::IJumpOffsetYProvider* const& GlobalNamespace::MirroredSliderController::__cordl_internal_get__jumpOffsetYProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapObjectSpawnController;
+  return this->____jumpOffsetYProvider;
 }
-constexpr void GlobalNamespace::MirroredSliderController::__cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value) {
+constexpr void GlobalNamespace::MirroredSliderController::__cordl_internal_set__jumpOffsetYProvider(::GlobalNamespace::IJumpOffsetYProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectSpawnController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____jumpOffsetYProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::IVariableMovementDataProvider*& GlobalNamespace::MirroredSliderController::__cordl_internal_get__variableMovementDataProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____variableMovementDataProvider;
+}
+constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& GlobalNamespace::MirroredSliderController::__cordl_internal_get__variableMovementDataProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____variableMovementDataProvider;
+}
+constexpr void GlobalNamespace::MirroredSliderController::__cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variableMovementDataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::SliderController>& GlobalNamespace::MirroredSliderController::__cordl_internal_get__followedSlider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -295,13 +299,21 @@ inline void GlobalNamespace::MirroredSliderController::Dissolve(float_t duration
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, duration);
 }
-inline ::GlobalNamespace::MirroredSliderController* GlobalNamespace::MirroredSliderController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirroredSliderController*>());
-}
 inline void GlobalNamespace::MirroredSliderController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredSliderController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MirroredSliderController* GlobalNamespace::MirroredSliderController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirroredSliderController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
+constexpr GlobalNamespace::MirroredSliderController::operator ::GlobalNamespace::ISliderDidStartDissolvingEvent*() noexcept {
+  return static_cast<::GlobalNamespace::ISliderDidStartDissolvingEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
+constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* GlobalNamespace::MirroredSliderController::i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept {
+  return static_cast<::GlobalNamespace::ISliderDidStartDissolvingEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MirroredSliderController::MirroredSliderController() {}

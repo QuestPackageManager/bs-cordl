@@ -13,27 +13,22 @@ class ISliderHeadDidMovePastCutMarkEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent);
-// Type: ::ISliderHeadDidMovePastCutMarkEvent
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ISliderHeadDidMovePastCutMarkEvent*
+// CS Name: ISliderHeadDidMovePastCutMarkEvent
 class CORDL_TYPE ISliderHeadDidMovePastCutMarkEvent {
 public:
   // Declarations
-  /// @brief Method HandleSliderStartDidMovePastCutMark, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method HandleSliderStartDidMovePastCutMark, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleSliderStartDidMovePastCutMark(::GlobalNamespace::SliderController* sliderController);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISliderHeadDidMovePastCutMarkEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISliderHeadDidMovePastCutMarkEvent(ISliderHeadDidMovePastCutMarkEvent&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISliderHeadDidMovePastCutMarkEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISliderHeadDidMovePastCutMarkEvent(ISliderHeadDidMovePastCutMarkEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

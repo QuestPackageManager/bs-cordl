@@ -1,10 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Security/CodeAccessPermission.hpp"
+#include "System/Security/zzzz__IPermission_impl.hpp"
+#include "System/Security/zzzz__ISecurityEncodable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 #include "System/Security/zzzz__IPermission_def.hpp"
-#include "System/Security/zzzz__ISecurityEncodable_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Security::CodeAccessPermission._ctor
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c329f8;
+  constexpr static std::size_t addrs = 0x3c92b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(), ".ctor",
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::Demand)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c32a00;
+  constexpr static std::size_t addrs = 0x3c92b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(), "Demand",
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::CodeAccessPermission::*)(::System::Object*)>(
     &::System::Security::CodeAccessPermission::Equals)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3c32af8;
+  constexpr static std::size_t addrs = 0x3c92c6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32c1c;
+  constexpr static std::size_t addrs = 0x3c92d90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,47 +63,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Security::CodeAccessPermission.IsSubsetOf
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::CodeAccessPermission::*)(::System::Security::IPermission*)>(
-    &::System::Security::CodeAccessPermission::IsSubsetOf)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(), 8));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::Security::CodeAccessPermission.ToString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::ToString)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c32c24;
+  constexpr static std::size_t addrs = 0x3c92d98;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(), 3));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Security::CodeAccessPermission.ToXml
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::CodeAccessPermission::*)()>(
-    &::System::Security::CodeAccessPermission::ToXml)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -112,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Permissions::PermissionState (*)(::System::Security::Permissions::PermissionState, bool)>(
     &::System::Security::CodeAccessPermission::CheckPermissionState)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c32c4c;
+  constexpr static std::size_t addrs = 0x3c92dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::CodeAccessPermission::*)()>(
     &::System::Security::CodeAccessPermission::System_Security_IPermission_Demand)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c32cf8;
+  constexpr static std::size_t addrs = 0x3c92e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,25 +108,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Security::IPermission"
-constexpr System::Security::CodeAccessPermission::operator ::System::Security::IPermission*() noexcept {
-  return static_cast<::System::Security::IPermission*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Security::IPermission"
-constexpr ::System::Security::IPermission* System::Security::CodeAccessPermission::i___System__Security__IPermission() noexcept {
-  return static_cast<::System::Security::IPermission*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Security::ISecurityEncodable"
-constexpr System::Security::CodeAccessPermission::operator ::System::Security::ISecurityEncodable*() noexcept {
-  return static_cast<::System::Security::ISecurityEncodable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Security::ISecurityEncodable"
-constexpr ::System::Security::ISecurityEncodable* System::Security::CodeAccessPermission::i___System__Security__ISecurityEncodable() noexcept {
-  return static_cast<::System::Security::ISecurityEncodable*>(static_cast<void*>(this));
-}
-inline ::System::Security::CodeAccessPermission* System::Security::CodeAccessPermission::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::CodeAccessPermission*>());
-}
 inline void System::Security::CodeAccessPermission::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -203,6 +155,25 @@ inline void System::Security::CodeAccessPermission::System_Security_IPermission_
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::CodeAccessPermission*>::get(), "System.Security.IPermission.Demand",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Security::CodeAccessPermission* System::Security::CodeAccessPermission::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::CodeAccessPermission*>());
+}
+/// @brief Convert operator to "::System::Security::IPermission"
+constexpr System::Security::CodeAccessPermission::operator ::System::Security::IPermission*() noexcept {
+  return static_cast<::System::Security::IPermission*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Security::IPermission"
+constexpr ::System::Security::IPermission* System::Security::CodeAccessPermission::i___System__Security__IPermission() noexcept {
+  return static_cast<::System::Security::IPermission*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Security::ISecurityEncodable"
+constexpr System::Security::CodeAccessPermission::operator ::System::Security::ISecurityEncodable*() noexcept {
+  return static_cast<::System::Security::ISecurityEncodable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Security::ISecurityEncodable"
+constexpr ::System::Security::ISecurityEncodable* System::Security::CodeAccessPermission::i___System__Security__ISecurityEncodable() noexcept {
+  return static_cast<::System::Security::ISecurityEncodable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Security::CodeAccessPermission::CodeAccessPermission() {}

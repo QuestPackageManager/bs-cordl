@@ -4,15 +4,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 CORDL_MODULE_EXPORT(TlsClientContextImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -23,11 +19,10 @@ class TlsClientContextImpl;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl);
-// Type: Org.BouncyCastle.Crypto.Tls::TlsClientContextImpl
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsContext, Org.BouncyCastle.Crypto.Tls.TlsClientContext, Org.BouncyCastle.Crypto.Tls.TlsContext
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsClientContextImpl*
+// CS Name: Org.BouncyCastle.Crypto.Tls.TlsClientContextImpl
 class CORDL_TYPE TlsClientContextImpl : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext {
 public:
   // Declarations
@@ -42,10 +37,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method .ctor, addr 0x23eb610, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241e8fc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method get_IsServer, addr 0x23eb680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x241e96c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsServer();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsClientContext"

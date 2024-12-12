@@ -15,17 +15,16 @@ class TlsException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsException);
-// Type: Org.BouncyCastle.Crypto.Tls::TlsException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsException*
+// CS Name: Org.BouncyCastle.Crypto.Tls.TlsException
 class CORDL_TYPE TlsException : public ::System::IO::IOException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsException* New_ctor(::StringW message, ::System::Exception* cause);
 
-  /// @brief Method .ctor, addr 0x23fb758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242ea44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
 protected:

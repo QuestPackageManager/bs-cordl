@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(
     ::System::Security::Cryptography::Aes*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::AesTransform::_ctor)> {
   constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x4029914;
+  constexpr static std::size_t addrs = 0x408ac28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::AesTransform::ECB)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x402a314;
+  constexpr static std::size_t addrs = 0x408b628;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Security::Cryptography::AesTransform::*)(uint32_t)>(
     &::System::Security::Cryptography::AesTransform::SubByte)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x402a250;
+  constexpr static std::size_t addrs = 0x408b564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Security::Cryptography::AesTransform::Encrypt128)> {
   constexpr static std::size_t size = 0x1e2c;
-  constexpr static std::size_t addrs = 0x402a328;
+  constexpr static std::size_t addrs = 0x408b63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Security::Cryptography::AesTransform::Decrypt128)> {
   constexpr static std::size_t size = 0x1df4;
-  constexpr static std::size_t addrs = 0x402c154;
+  constexpr static std::size_t addrs = 0x408d468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,10 +210,6 @@ inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Security::Cryptography::Ae
   return ::cordl_internals::getStaticField<::ArrayW<uint32_t, ::Array<uint32_t>*>, "iT3",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AesTransform*>::get>();
 }
-inline ::System::Security::Cryptography::AesTransform* System::Security::Cryptography::AesTransform::New_ctor(::System::Security::Cryptography::Aes* algo, bool encryption,
-                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::AesTransform*>(algo, encryption, key, iv));
-}
 inline void System::Security::Cryptography::AesTransform::_ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -252,6 +248,10 @@ inline void System::Security::Cryptography::AesTransform::Decrypt128(::ArrayW<ui
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indata, outdata, ekey);
+}
+inline ::System::Security::Cryptography::AesTransform* System::Security::Cryptography::AesTransform::New_ctor(::System::Security::Cryptography::Aes* algo, bool encryption,
+                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::AesTransform*>(algo, encryption, key, iv));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AesTransform::AesTransform() {}

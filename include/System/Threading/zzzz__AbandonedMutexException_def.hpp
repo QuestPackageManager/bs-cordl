@@ -24,11 +24,10 @@ class AbandonedMutexException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::AbandonedMutexException);
-// Type: System.Threading::AbandonedMutexException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::AbandonedMutexException*
+// CS Name: System.Threading.AbandonedMutexException
 class CORDL_TYPE AbandonedMutexException : public ::System::SystemException {
 public:
   // Declarations
@@ -44,12 +43,12 @@ public:
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
-  /// @brief Method SetupException, addr 0x3deb958, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetupException, addr 0x3e4ba04, size 0x6c, virtual false, abstract: false, final false
   inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
 
-  constexpr ::System::Threading::Mutex*& __cordl_internal_get__mutex();
+  constexpr ::System::Threading::Mutex* const& __cordl_internal_get__mutex() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Mutex*> const& __cordl_internal_get__mutex() const;
+  constexpr ::System::Threading::Mutex*& __cordl_internal_get__mutex();
 
   constexpr int32_t const& __cordl_internal_get__mutexIndex() const;
 
@@ -59,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__mutexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3deb83c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4b8e8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3deb9c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4ba70, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3deb8a0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4b94c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
 protected:
@@ -82,23 +81,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AbandonedMutexException(AbandonedMutexException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2660 };
+
   /// @brief Field _mutexIndex, offset: 0x8c, size: 0x4, def value: None
   int32_t ____mutexIndex;
 
   /// @brief Field _mutex, offset: 0x90, size: 0x8, def value: None
   ::System::Threading::Mutex* ____mutex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2660 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::AbandonedMutexException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::AbandonedMutexException, ____mutexIndex) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::AbandonedMutexException, ____mutex) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::AbandonedMutexException, 0x98>, "Size mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::AbandonedMutexException);

@@ -6,37 +6,29 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__SerializationUtilities_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::__SerializationUtilities__ObjectType(int32_t value__) noexcept {
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::SerializationUtilities_ObjectType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::__SerializationUtilities__ObjectType() {}
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::AsciiString{
-  static_cast<int32_t>(0x0)
-};
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::UnicodeString{
-  static_cast<int32_t>(0x1)
-};
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::UInt16{ static_cast<int32_t>(
-    0x2) };
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::UInt32{ static_cast<int32_t>(
-    0x3) };
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::Int32{ static_cast<int32_t>(
-    0x4) };
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::Hash128{ static_cast<int32_t>(
-    0x5) };
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::Type{ static_cast<int32_t>(
-    0x6) };
-constexpr ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType::JsonObject{
-  static_cast<int32_t>(0x7)
-};
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::SerializationUtilities_ObjectType() {}
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::AsciiString{ static_cast<int32_t>(
+    0x0) };
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::UnicodeString{ static_cast<int32_t>(
+    0x1) };
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::UInt16{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::UInt32{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::Int32{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::Hash128{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::Type{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::JsonObject{ static_cast<int32_t>(
+    0x7) };
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Utility::SerializationUtilities.ReadInt32FromByteArray
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadInt32FromByteArray)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44951b0;
+  constexpr static std::size_t addrs = 0x44f64c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteInt32ToByteArray)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4495224;
+  constexpr static std::size_t addrs = 0x44f6538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadObjectFromByteArray)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x44952a8;
+  constexpr static std::size_t addrs = 0x44f65bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Object*, ::System::Collections::Generic::List_1<uint8_t>*)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteObjectToByteList)> {
   constexpr static std::size_t size = 0xad0;
-  constexpr static std::size_t addrs = 0x44957bc;
+  constexpr static std::size_t addrs = 0x44f6ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

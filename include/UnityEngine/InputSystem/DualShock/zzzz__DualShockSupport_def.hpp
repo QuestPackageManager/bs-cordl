@@ -11,15 +11,14 @@ class DualShockSupport;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::DualShock::DualShockSupport);
-// Type: UnityEngine.InputSystem.DualShock::DualShockSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::DualShock {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.DualShock::DualShockSupport*
+// CS Name: UnityEngine.InputSystem.DualShock.DualShockSupport
 class CORDL_TYPE DualShockSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x45a3024, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4604338, size 0x70, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +36,7 @@ public:
   DualShockSupport(DualShockSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

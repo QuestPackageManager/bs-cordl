@@ -12,11 +12,10 @@ struct InputRecord;
 }
 // Write type traits
 MARK_VAL_T(::System::InputRecord);
-// Type: System::InputRecord
-// SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::InputRecord
+// CS Name: System.InputRecord
 struct CORDL_TYPE InputRecord {
 public:
   // Declarations
@@ -30,6 +29,12 @@ public:
   // def_value: None }, CppParam { name: "pad1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pad2", ty: "bool", modifiers: "", def_value: None }]
   constexpr InputRecord(int16_t EventType, bool KeyDown, int16_t RepeatCount, int16_t VirtualKeyCode, int16_t VirtualScanCode, char16_t Character, int32_t ControlKeyState, int32_t pad1,
                         bool pad2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2646 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field EventType, offset: 0x0, size: 0x2, def value: None
   int16_t EventType;
@@ -58,17 +63,9 @@ public:
   /// @brief Field pad2, offset: 0x14, size: 0x1, def value: None
   bool pad2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2646 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::InputRecord, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::InputRecord, EventType) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::InputRecord, KeyDown) == 0x2, "Offset mismatch!");
@@ -86,6 +83,8 @@ static_assert(offsetof(::System::InputRecord, ControlKeyState) == 0xc, "Offset m
 static_assert(offsetof(::System::InputRecord, pad1) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::InputRecord, pad2) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::InputRecord, 0x18>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::InputRecord, "System", "InputRecord");

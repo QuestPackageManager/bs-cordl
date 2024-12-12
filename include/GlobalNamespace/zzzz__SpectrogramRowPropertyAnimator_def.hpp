@@ -23,11 +23,10 @@ class SpectrogramRowPropertyAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpectrogramRowPropertyAnimator);
-// Type: ::SpectrogramRowPropertyAnimator
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SpectrogramRowPropertyAnimator*
+// CS Name: SpectrogramRowPropertyAnimator
 class CORDL_TYPE SpectrogramRowPropertyAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -60,26 +59,26 @@ public:
   /// @brief Field propertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  /// @brief Method Awake, addr 0x3b39bd8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b9b1b8, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x3b39c68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x3b9b248, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::SpectrogramRowPropertyAnimator* New_ctor();
 
-  /// @brief Method SetMultiplier, addr 0x3b39d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplier, addr 0x3b9b31c, size 0x8, virtual false, abstract: false, final false
   inline void SetMultiplier(float_t value);
 
-  /// @brief Method SetProperty, addr 0x3b39ba4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x3b9b184, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Update, addr 0x3b39c98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9b278, size 0xa4, virtual false, abstract: false, final false
   inline void Update();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animationCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__animationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animationCurve();
 
   constexpr int32_t const& __cordl_internal_get__dataIndex() const;
 
@@ -131,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b39d44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9b324, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,6 +146,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4373 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
@@ -175,14 +177,9 @@ public:
   /// @brief Field _spectrogramData, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4361 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpectrogramRowPropertyAnimator, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SpectrogramRowPropertyAnimator, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpectrogramRowPropertyAnimator, ____dataIndex) == 0x28, "Offset mismatch!");
@@ -200,6 +197,8 @@ static_assert(offsetof(::GlobalNamespace::SpectrogramRowPropertyAnimator, ____is
 static_assert(offsetof(::GlobalNamespace::SpectrogramRowPropertyAnimator, ____spectrogramValue) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpectrogramRowPropertyAnimator, ____spectrogramData) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpectrogramRowPropertyAnimator, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpectrogramRowPropertyAnimator);

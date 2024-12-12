@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* (*)(::Oculus::Platform::AvatarEditorOptions*)>(&::Oculus::Platform::Avatar::LaunchAvatarEditor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3f27ab8;
+  constexpr static std::size_t addrs = 0x3f87b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-/// @param options: ::Oculus::Platform::AvatarEditorOptions* (default: nullptr)
 inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* Oculus::Platform::Avatar::LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Avatar*>::get(), "LaunchAvatarEditor", std::span<Il2CppClass const* const, 0>(),

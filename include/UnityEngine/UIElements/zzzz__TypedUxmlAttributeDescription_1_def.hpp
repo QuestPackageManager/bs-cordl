@@ -17,13 +17,12 @@ template <typename T> class TypedUxmlAttributeDescription_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::TypedUxmlAttributeDescription_1);
-// Type: UnityEngine.UIElements::TypedUxmlAttributeDescription`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UxmlAttributeDescription
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::TypedUxmlAttributeDescription`1<T>*
+// CS Name: UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 class CORDL_TYPE TypedUxmlAttributeDescription_1 : public ::UnityEngine::UIElements::UxmlAttributeDescription {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
 
   __declspec(property(get = get_defaultValue, put = set_defaultValue)) T defaultValue;
 
-  /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetValueFromBag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>* New_ctor();
@@ -66,11 +65,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypedUxmlAttributeDescription_1(TypedUxmlAttributeDescription_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6241 };
+
   /// @brief Field <defaultValue>k__BackingField, offset: 0x40, size: 0x8, def value: None
   T ____defaultValue_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

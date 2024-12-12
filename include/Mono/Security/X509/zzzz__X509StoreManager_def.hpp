@@ -18,25 +18,24 @@ class X509StoreManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509StoreManager);
-// Type: Mono.Security.X509::X509StoreManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::Mono.Security.X509::X509StoreManager*
+// CS Name: Mono.Security.X509.X509StoreManager
 class CORDL_TYPE X509StoreManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _localMachinePath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__localMachinePath, put = setStaticF__localMachinePath)) ::StringW _localMachinePath;
+  __declspec(property(get = getStaticF__localMachinePath, put = setStaticF__localMachinePath)) ::StringW _localMachinePath;
 
   /// @brief Field _machineStore, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__machineStore, put = setStaticF__machineStore)) ::Mono::Security::X509::X509Stores* _machineStore;
+  __declspec(property(get = getStaticF__machineStore, put = setStaticF__machineStore)) ::Mono::Security::X509::X509Stores* _machineStore;
 
   /// @brief Field _userPath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__userPath, put = setStaticF__userPath)) ::StringW _userPath;
+  __declspec(property(get = getStaticF__userPath, put = setStaticF__userPath)) ::StringW _userPath;
 
   /// @brief Field _userStore, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__userStore, put = setStaticF__userStore)) ::Mono::Security::X509::X509Stores* _userStore;
+  __declspec(property(get = getStaticF__userStore, put = setStaticF__userStore)) ::Mono::Security::X509::X509Stores* _userStore;
 
   static inline ::StringW getStaticF__localMachinePath();
 
@@ -46,19 +45,19 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* getStaticF__userStore();
 
-  /// @brief Method get_CurrentUser, addr 0x3bdfde0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUser, addr 0x3c3fef4, size 0x98, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_CurrentUser();
 
-  /// @brief Method get_CurrentUserPath, addr 0x3bdfc08, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUserPath, addr 0x3c3fd1c, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW get_CurrentUserPath();
 
-  /// @brief Method get_LocalMachine, addr 0x3bdfea8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachine, addr 0x3c3ffbc, size 0x98, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_LocalMachine();
 
-  /// @brief Method get_LocalMachinePath, addr 0x3bdfd00, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachinePath, addr 0x3c3fe14, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW get_LocalMachinePath();
 
-  /// @brief Method get_TrustedRootCertificates, addr 0x3bdddec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRootCertificates, addr 0x3c3df00, size 0xcc, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509CertificateCollection* get_TrustedRootCertificates();
 
   static inline void setStaticF__localMachinePath(::StringW value);
@@ -84,7 +83,7 @@ public:
   X509StoreManager(X509StoreManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15930 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

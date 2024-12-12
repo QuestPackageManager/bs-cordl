@@ -1,28 +1,27 @@
 #pragma once
 // IWYU pragma private; include "Zenject/ZenAutoInjecter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
-#include "Zenject/zzzz__ZenAutoInjecter_impl.hpp"
 #include "Zenject/zzzz__ZenAutoInjecter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ZenAutoInjecter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Zenject::__ZenAutoInjecter__ContainerSources::__ZenAutoInjecter__ContainerSources(int32_t value__) noexcept {
+constexpr ::Zenject::ZenAutoInjecter_ContainerSources::ZenAutoInjecter_ContainerSources(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Zenject::__ZenAutoInjecter__ContainerSources::__ZenAutoInjecter__ContainerSources() {}
-constexpr ::Zenject::__ZenAutoInjecter__ContainerSources Zenject::__ZenAutoInjecter__ContainerSources::SceneContext{ static_cast<int32_t>(0x0) };
-constexpr ::Zenject::__ZenAutoInjecter__ContainerSources Zenject::__ZenAutoInjecter__ContainerSources::ProjectContext{ static_cast<int32_t>(0x1) };
-constexpr ::Zenject::__ZenAutoInjecter__ContainerSources Zenject::__ZenAutoInjecter__ContainerSources::SearchHierarchy{ static_cast<int32_t>(0x2) };
+constexpr ::Zenject::ZenAutoInjecter_ContainerSources::ZenAutoInjecter_ContainerSources() {}
+constexpr ::Zenject::ZenAutoInjecter_ContainerSources Zenject::ZenAutoInjecter_ContainerSources::SceneContext{ static_cast<int32_t>(0x0) };
+constexpr ::Zenject::ZenAutoInjecter_ContainerSources Zenject::ZenAutoInjecter_ContainerSources::ProjectContext{ static_cast<int32_t>(0x1) };
+constexpr ::Zenject::ZenAutoInjecter_ContainerSources Zenject::ZenAutoInjecter_ContainerSources::SearchHierarchy{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::Zenject::ZenAutoInjecter.get_ContainerSource
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::__ZenAutoInjecter__ContainerSources (::Zenject::ZenAutoInjecter::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenAutoInjecter_ContainerSources (::Zenject::ZenAutoInjecter::*)()>(
     &::Zenject::ZenAutoInjecter::get_ContainerSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aee6fc;
+  constexpr static std::size_t addrs = 0x4b5300c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "get_ContainerSource",
@@ -33,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::ZenAutoInjecter.set_ContainerSource
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenAutoInjecter::*)(::Zenject::__ZenAutoInjecter__ContainerSources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenAutoInjecter::*)(::Zenject::ZenAutoInjecter_ContainerSources)>(
     &::Zenject::ZenAutoInjecter::set_ContainerSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aee704;
+  constexpr static std::size_t addrs = 0x4b53014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "set_ContainerSource", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__ZenAutoInjecter__ContainerSources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ZenAutoInjecter_ContainerSources>::get() })));
     return ___internal_method;
   }
 };
@@ -50,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenAutoInjecter::*)()>(&::Zenject::ZenAutoInjecter::Construct)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4aee70c;
+  constexpr static std::size_t addrs = 0x4b5301c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "Construct",
@@ -63,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenAutoInjecter::*)()>(&::Zenject::ZenAutoInjecter::Awake)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4aee750;
+  constexpr static std::size_t addrs = 0x4b53060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "Awake",
@@ -76,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::ZenAutoInjecter::*)()>(&::Zenject::ZenAutoInjecter::LookupContainer)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4aee798;
+  constexpr static std::size_t addrs = 0x4b530a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "LookupContainer",
@@ -90,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::ZenAutoInjecter::*)()>(
     &::Zenject::ZenAutoInjecter::GetContainerForCurrentScene)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4aee8f0;
+  constexpr static std::size_t addrs = 0x4b53200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(),
@@ -103,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenAutoInjecter::*)()>(&::Zenject::ZenAutoInjecter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4aee980;
+  constexpr static std::size_t addrs = 0x4b53290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), ".ctor",
@@ -117,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::ZenAutoInjecter::__zenInjectMethod0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4aee990;
+  constexpr static std::size_t addrs = 0x4b532a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ZenAutoInjecter::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x4aeea10;
+  constexpr static std::size_t addrs = 0x4b53320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "__zenCreateInjectTypeInfo",
@@ -140,15 +139,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::Zenject::__ZenAutoInjecter__ContainerSources& Zenject::ZenAutoInjecter::__cordl_internal_get__containerSource() {
+constexpr ::Zenject::ZenAutoInjecter_ContainerSources& Zenject::ZenAutoInjecter::__cordl_internal_get__containerSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerSource;
 }
-constexpr ::Zenject::__ZenAutoInjecter__ContainerSources const& Zenject::ZenAutoInjecter::__cordl_internal_get__containerSource() const {
+constexpr ::Zenject::ZenAutoInjecter_ContainerSources const& Zenject::ZenAutoInjecter::__cordl_internal_get__containerSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerSource;
 }
-constexpr void Zenject::ZenAutoInjecter::__cordl_internal_set__containerSource(::Zenject::__ZenAutoInjecter__ContainerSources value) {
+constexpr void Zenject::ZenAutoInjecter::__cordl_internal_set__containerSource(::Zenject::ZenAutoInjecter_ContainerSources value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____containerSource = value;
 }
@@ -164,15 +163,15 @@ constexpr void Zenject::ZenAutoInjecter::__cordl_internal_set__hasInjected(bool 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasInjected = value;
 }
-inline ::Zenject::__ZenAutoInjecter__ContainerSources Zenject::ZenAutoInjecter::get_ContainerSource() {
+inline ::Zenject::ZenAutoInjecter_ContainerSources Zenject::ZenAutoInjecter::get_ContainerSource() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "get_ContainerSource",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::__ZenAutoInjecter__ContainerSources, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Zenject::ZenAutoInjecter_ContainerSources, false>(this, ___internal_method);
 }
-inline void Zenject::ZenAutoInjecter::set_ContainerSource(::Zenject::__ZenAutoInjecter__ContainerSources value) {
+inline void Zenject::ZenAutoInjecter::set_ContainerSource(::Zenject::ZenAutoInjecter_ContainerSources value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "set_ContainerSource", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__ZenAutoInjecter__ContainerSources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ZenAutoInjecter_ContainerSources>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void Zenject::ZenAutoInjecter::Construct() {
@@ -195,9 +194,6 @@ inline ::Zenject::DiContainer* Zenject::ZenAutoInjecter::GetContainerForCurrentS
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method);
 }
-inline ::Zenject::ZenAutoInjecter* Zenject::ZenAutoInjecter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ZenAutoInjecter*>());
-}
 inline void Zenject::ZenAutoInjecter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -214,6 +210,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::ZenAutoInjecter::__zenCreateInjectTyp
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenAutoInjecter*>::get(), "__zenCreateInjectTypeInfo",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::ZenAutoInjecter* Zenject::ZenAutoInjecter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ZenAutoInjecter*>());
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenAutoInjecter::ZenAutoInjecter() {}

@@ -11,17 +11,16 @@ class ExecuteAlways;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ExecuteAlways);
-// Type: UnityEngine::ExecuteAlways
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ExecuteAlways*
+// CS Name: UnityEngine.ExecuteAlways
 class CORDL_TYPE ExecuteAlways : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ExecuteAlways* New_ctor();
 
-  /// @brief Method .ctor, addr 0x484578c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a64c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   ExecuteAlways(ExecuteAlways const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

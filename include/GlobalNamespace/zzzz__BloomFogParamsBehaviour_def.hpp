@@ -27,11 +27,10 @@ class BloomFogParamsBehaviour;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomFogParamsBehaviour);
-// Type: ::BloomFogParamsBehaviour
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Playables.PlayableBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomFogParamsBehaviour*
+// CS Name: BloomFogParamsBehaviour
 class CORDL_TYPE BloomFogParamsBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
@@ -49,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::BloomFogParamsBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x3ad3640, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3b32c84, size 0x90, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3ad34ec, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b32b30, size 0x154, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
@@ -79,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad36d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b32d14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,6 +95,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomFogParamsBehaviour(BloomFogParamsBehaviour const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5193 };
+
   /// @brief Field _bloomFogParams, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____bloomFogParams;
 
@@ -108,14 +110,9 @@ public:
   /// @brief Field _initialized, offset: 0x28, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5173 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomFogParamsBehaviour, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomFogParamsBehaviour, ____bloomFogParams) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomFogParamsBehaviour, ____blend) == 0x18, "Offset mismatch!");
@@ -123,6 +120,8 @@ static_assert(offsetof(::GlobalNamespace::BloomFogParamsBehaviour, ____blend) ==
 static_assert(offsetof(::GlobalNamespace::BloomFogParamsBehaviour, ____bloomFog) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomFogParamsBehaviour, ____initialized) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomFogParamsBehaviour, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomFogParamsBehaviour);

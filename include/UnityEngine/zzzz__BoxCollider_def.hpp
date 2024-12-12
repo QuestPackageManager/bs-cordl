@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Collider_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(BoxCollider)
 namespace UnityEngine {
 struct Vector3;
@@ -15,11 +14,10 @@ class BoxCollider;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::BoxCollider);
-// Type: UnityEngine::BoxCollider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Collider
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::BoxCollider*
+// CS Name: UnityEngine.BoxCollider
 class CORDL_TYPE BoxCollider : public ::UnityEngine::Collider {
 public:
   // Declarations
@@ -31,38 +29,38 @@ public:
 
   static inline ::UnityEngine::BoxCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48a3d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4908390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x48a3a60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x49080f0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x48a3abc, size 0x44, virtual false, abstract: false, final false
-  inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
+  /// @brief Method get_center_Injected, addr 0x490814c, size 0x44, virtual false, abstract: false, final false
+  inline void get_center_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_extents, addr 0x48a3cd0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_extents, addr 0x4908360, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_extents();
 
-  /// @brief Method get_size, addr 0x48a3b98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x4908228, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x48a3bf4, size 0x44, virtual false, abstract: false, final false
-  inline void get_size_Injected(ByRef<::UnityEngine::Vector3> ret);
+  /// @brief Method get_size_Injected, addr 0x4908284, size 0x44, virtual false, abstract: false, final false
+  inline void get_size_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_center, addr 0x48a3b00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x4908190, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x48a3b54, size 0x44, virtual false, abstract: false, final false
-  inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
+  /// @brief Method set_center_Injected, addr 0x49081e4, size 0x44, virtual false, abstract: false, final false
+  inline void set_center_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_extents, addr 0x48a3cf0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_extents, addr 0x4908380, size 0x10, virtual false, abstract: false, final false
   inline void set_extents(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size, addr 0x48a3c38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x49082c8, size 0x54, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size_Injected, addr 0x48a3c8c, size 0x44, virtual false, abstract: false, final false
-  inline void set_size_Injected(ByRef<::UnityEngine::Vector3> value);
+  /// @brief Method set_size_Injected, addr 0x490831c, size 0x44, virtual false, abstract: false, final false
+  inline void set_size_Injected(::ByRef<::UnityEngine::Vector3> value);
 
 protected:
   // Ctor Parameters []
@@ -79,7 +77,7 @@ public:
   BoxCollider(BoxCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

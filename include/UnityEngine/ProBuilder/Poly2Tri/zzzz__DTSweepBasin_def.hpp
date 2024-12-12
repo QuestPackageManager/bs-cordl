@@ -15,11 +15,10 @@ class DTSweepBasin;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
-// Type: UnityEngine.ProBuilder.Poly2Tri::DTSweepBasin
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepBasin*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.DTSweepBasin
 class CORDL_TYPE DTSweepBasin : public ::System::Object {
 public:
   // Declarations
@@ -40,21 +39,21 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* New_ctor();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_bottomNode();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get_bottomNode() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_bottomNode() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_bottomNode();
 
   constexpr bool const& __cordl_internal_get_leftHighest() const;
 
   constexpr bool& __cordl_internal_get_leftHighest();
 
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get_leftNode() const;
+
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_leftNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_leftNode() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get_rightNode() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_rightNode();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_rightNode() const;
 
   constexpr double_t const& __cordl_internal_get_width() const;
 
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_width(double_t value);
 
-  /// @brief Method .ctor, addr 0x469a730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fba44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DTSweepBasin(DTSweepBasin const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17819 };
+
   /// @brief Field leftNode, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___leftNode;
 
@@ -102,14 +104,9 @@ public:
   /// @brief Field leftHighest, offset: 0x30, size: 0x1, def value: None
   bool ___leftHighest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17736 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___leftNode) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___bottomNode) == 0x18, "Offset mismatch!");
@@ -119,6 +116,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___rig
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___width) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___leftHighest) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);

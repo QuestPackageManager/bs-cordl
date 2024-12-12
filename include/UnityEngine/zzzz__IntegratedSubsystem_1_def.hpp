@@ -11,13 +11,12 @@ template <typename TSubsystemDescriptor> class IntegratedSubsystem_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::IntegratedSubsystem_1);
-// Type: UnityEngine::IntegratedSubsystem`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.IntegratedSubsystem
 namespace UnityEngine {
 // cpp template
 template <typename TSubsystemDescriptor>
 // Is value type: false
-// CS Name: ::UnityEngine::IntegratedSubsystem`1<TSubsystemDescriptor>*
+// CS Name: UnityEngine.IntegratedSubsystem`1<TSubsystemDescriptor>
 class CORDL_TYPE IntegratedSubsystem_1 : public ::UnityEngine::IntegratedSubsystem {
 public:
   // Declarations
@@ -51,7 +50,7 @@ public:
   IntegratedSubsystem_1(IntegratedSubsystem_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18721 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

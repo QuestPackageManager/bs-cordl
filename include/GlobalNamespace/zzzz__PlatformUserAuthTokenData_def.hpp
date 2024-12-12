@@ -16,11 +16,10 @@ class PlatformUserAuthTokenData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlatformUserAuthTokenData);
-// Type: ::PlatformUserAuthTokenData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PlatformEnvironment, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlatformUserAuthTokenData*
+// CS Name: PlatformUserAuthTokenData
 class CORDL_TYPE PlatformUserAuthTokenData : public ::System::Object {
 public:
   // Declarations
@@ -49,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
 
-  /// @brief Method .ctor, addr 0x401c688, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407d940, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment);
 
-  /// @brief Method get_token, addr 0x401c668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_token, addr 0x407d920, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_token();
 
-  /// @brief Method get_validPlatformEnvironment, addr 0x401c678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validPlatformEnvironment, addr 0x407d930, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlatformEnvironment get_validPlatformEnvironment();
 
-  /// @brief Method set_token, addr 0x401c670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_token, addr 0x407d928, size 0x8, virtual false, abstract: false, final false
   inline void set_token(::StringW value);
 
-  /// @brief Method set_validPlatformEnvironment, addr 0x401c680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validPlatformEnvironment, addr 0x407d938, size 0x8, virtual false, abstract: false, final false
   inline void set_validPlatformEnvironment(::GlobalNamespace::PlatformEnvironment value);
 
 protected:
@@ -78,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformUserAuthTokenData(PlatformUserAuthTokenData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18740 };
+
   /// @brief Field <token>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____token_k__BackingField;
 
   /// @brief Field <validPlatformEnvironment>k__BackingField, offset: 0x18, size: 0x1, def value: None
   ::GlobalNamespace::PlatformEnvironment ____validPlatformEnvironment_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18659 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformUserAuthTokenData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlatformUserAuthTokenData, ____token_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlatformUserAuthTokenData, ____validPlatformEnvironment_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformUserAuthTokenData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlatformUserAuthTokenData);

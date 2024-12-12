@@ -6,10 +6,6 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template <typename T>
-inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>* Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>*>(object, method));
-}
 template <typename T> inline void Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -36,6 +32,10 @@ template <typename T> inline ::System::Object* Newtonsoft::Json::Serialization::
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, result);
+}
+template <typename T>
+inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>* Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>*>(object, method));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::ObjectConstructor_1() {}

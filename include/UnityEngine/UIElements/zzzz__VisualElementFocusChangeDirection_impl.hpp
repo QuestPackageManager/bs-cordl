@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FocusChangeDirection* (*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeDirection::get_left)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49378d4;
+  constexpr static std::size_t addrs = 0x499c1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FocusChangeDirection* (*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeDirection::get_right)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x493792c;
+  constexpr static std::size_t addrs = 0x499c23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeDirection::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeDirection::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4937984;
+  constexpr static std::size_t addrs = 0x499c294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,14 +78,14 @@ inline ::UnityEngine::UIElements::FocusChangeDirection* UnityEngine::UIElements:
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::FocusChangeDirection*, false>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* UnityEngine::UIElements::VisualElementFocusChangeDirection::New_ctor(int32_t value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualElementFocusChangeDirection*>(value));
-}
 inline void UnityEngine::UIElements::VisualElementFocusChangeDirection::_ctor(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeDirection*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* UnityEngine::UIElements::VisualElementFocusChangeDirection::New_ctor(int32_t value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualElementFocusChangeDirection*>(value));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementFocusChangeDirection::VisualElementFocusChangeDirection() {}

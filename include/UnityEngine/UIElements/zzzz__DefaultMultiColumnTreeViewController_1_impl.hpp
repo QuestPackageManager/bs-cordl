@@ -17,8 +17,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::TreeDataController_1<
   return this->___m_TreeDataController;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TreeDataController_1<T>*> const&
-UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::__cordl_internal_get_m_TreeDataController() const {
+constexpr ::UnityEngine::UIElements::TreeDataController_1<T>* const& UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::__cordl_internal_get_m_TreeDataController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TreeDataController;
 }
@@ -32,12 +31,6 @@ template <typename T> inline ::UnityEngine::UIElements::TreeDataController_1<T>*
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>*>::get(),
                                                "get_treeDataController", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TreeDataController_1<T>*, false>(this, ___internal_method);
-}
-template <typename T>
-inline ::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>*
-UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::New_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
-                                                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>*>(columns, sortDescriptions, sortedColumns));
 }
 template <typename T>
 inline void UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
@@ -92,8 +85,6 @@ template <typename T> inline ::System::Collections::Generic::IEnumerable_1<int32
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*, false>(this, ___internal_method, id);
 }
-/// @param childIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-/// @param rebuildTree: bool (default: true)
 template <typename T> inline void UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::Move(int32_t id, int32_t newParentId, int32_t childIndex, bool rebuildTree) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -106,7 +97,6 @@ template <typename T> inline bool UnityEngine::UIElements::DefaultMultiColumnTre
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, childId, id);
 }
-/// @param rootIds: ::System::Collections::Generic::IEnumerable_1<int32_t>* (default: nullptr)
 template <typename T>
 inline ::System::Collections::Generic::IEnumerable_1<int32_t>*
 UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::GetAllItemIds(::System::Collections::Generic::IEnumerable_1<int32_t>* rootIds) {
@@ -114,6 +104,12 @@ UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::GetAllItemId
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*, false>(this, ___internal_method, rootIds);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>*
+UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::New_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
+                                                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>*>(columns, sortDescriptions, sortedColumns));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::DefaultMultiColumnTreeViewController_1() {}

@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Xml/zzzz__IValidationEventHandling_def.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__ValidationType_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
-#include "System/Xml/zzzz__XmlValidatingReaderImpl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -34,12 +36,6 @@ class IDtdDefaultAttributeInfo;
 }
 namespace System::Xml {
 class IDtdInfo;
-}
-namespace System::Xml {
-class IValidationEventHandling;
-}
-namespace System::Xml {
-class IXmlLineInfo;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -84,10 +80,10 @@ namespace System::Xml {
 class XmlTextReaderImpl;
 }
 namespace System::Xml {
-struct __XmlValidatingReaderImpl__ParsingFunction;
+struct XmlValidatingReaderImpl_ParsingFunction;
 }
 namespace System::Xml {
-class __XmlValidatingReaderImpl__ValidationEventHandling;
+class XmlValidatingReaderImpl_ValidationEventHandling;
 }
 namespace System {
 class Exception;
@@ -97,30 +93,29 @@ class Object;
 }
 // Forward declare root types
 namespace System::Xml {
-struct __XmlValidatingReaderImpl__ParsingFunction;
+struct XmlValidatingReaderImpl_ParsingFunction;
 }
 namespace System::Xml {
 class XmlValidatingReaderImpl;
 }
 namespace System::Xml {
-class __XmlValidatingReaderImpl__ValidationEventHandling;
+class XmlValidatingReaderImpl_ValidationEventHandling;
 }
 // Write type traits
-MARK_VAL_T(::System::Xml::__XmlValidatingReaderImpl__ParsingFunction);
+MARK_VAL_T(::System::Xml::XmlValidatingReaderImpl_ParsingFunction);
 MARK_REF_PTR_T(::System::Xml::XmlValidatingReaderImpl);
-MARK_REF_PTR_T(::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling);
-// Type: ::ParsingFunction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling);
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::XmlValidatingReaderImpl::ParsingFunction
-struct CORDL_TYPE __XmlValidatingReaderImpl__ParsingFunction {
+// CS Name: System.Xml.XmlValidatingReaderImpl/ParsingFunction
+struct CORDL_TYPE XmlValidatingReaderImpl_ParsingFunction {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____XmlValidatingReaderImpl__ParsingFunction_Unwrapped
-  enum struct ____XmlValidatingReaderImpl__ParsingFunction_Unwrapped : int32_t {
+  /// @brief Nested struct __XmlValidatingReaderImpl_ParsingFunction_Unwrapped
+  enum struct __XmlValidatingReaderImpl_ParsingFunction_Unwrapped : int32_t {
     __E_Read = static_cast<int32_t>(0x0),
     __E_Init = static_cast<int32_t>(0x1),
     __E_ParseDtdFromContext = static_cast<int32_t>(0x2),
@@ -132,8 +127,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____XmlValidatingReaderImpl__ParsingFunction_Unwrapped() const noexcept {
-    return static_cast<____XmlValidatingReaderImpl__ParsingFunction_Unwrapped>(this->value__);
+  constexpr operator __XmlValidatingReaderImpl_ParsingFunction_Unwrapped() const noexcept {
+    return static_cast<__XmlValidatingReaderImpl_ParsingFunction_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -143,58 +138,57 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XmlValidatingReaderImpl__ParsingFunction();
+  constexpr XmlValidatingReaderImpl_ParsingFunction();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XmlValidatingReaderImpl__ParsingFunction(int32_t value__) noexcept;
+  constexpr XmlValidatingReaderImpl_ParsingFunction(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Error value: I32(6)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const Error;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x6)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const Error;
+  /// @brief Field InReadBinaryContent value: I32(4)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const InReadBinaryContent;
 
-  /// @brief Field InReadBinaryContent value: static_cast<int32_t>(0x4)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const InReadBinaryContent;
+  /// @brief Field Init value: I32(1)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const Init;
 
-  /// @brief Field Init value: static_cast<int32_t>(0x1)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const Init;
+  /// @brief Field None value: I32(7)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const None;
 
-  /// @brief Field None value: static_cast<int32_t>(0x7)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const None;
+  /// @brief Field ParseDtdFromContext value: I32(2)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const ParseDtdFromContext;
 
-  /// @brief Field ParseDtdFromContext value: static_cast<int32_t>(0x2)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const ParseDtdFromContext;
+  /// @brief Field Read value: I32(0)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const Read;
 
-  /// @brief Field Read value: static_cast<int32_t>(0x0)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const Read;
+  /// @brief Field ReaderClosed value: I32(5)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const ReaderClosed;
 
-  /// @brief Field ReaderClosed value: static_cast<int32_t>(0x5)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const ReaderClosed;
-
-  /// @brief Field ResolveEntityInternally value: static_cast<int32_t>(0x3)
-  static ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const ResolveEntityInternally;
+  /// @brief Field ResolveEntityInternally value: I32(3)
+  static ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const ResolveEntityInternally;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7253 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlValidatingReaderImpl__ParsingFunction, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::XmlValidatingReaderImpl_ParsingFunction, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::__XmlValidatingReaderImpl__ParsingFunction, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlValidatingReaderImpl_ParsingFunction, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
-// Type: ::ValidationEventHandling
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.IValidationEventHandling
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::XmlValidatingReaderImpl::ValidationEventHandling*
-class CORDL_TYPE __XmlValidatingReaderImpl__ValidationEventHandling : public ::System::Object {
+// CS Name: System.Xml.XmlValidatingReaderImpl/ValidationEventHandling
+class CORDL_TYPE XmlValidatingReaderImpl_ValidationEventHandling : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Xml_IValidationEventHandling_get_EventHandler)) ::System::Object* System_Xml_IValidationEventHandling_EventHandler;
@@ -208,30 +202,30 @@ public:
   /// @brief Convert operator to "::System::Xml::IValidationEventHandling"
   constexpr operator ::System::Xml::IValidationEventHandling*() noexcept;
 
-  /// @brief Method AddHandler, addr 0x42c0d6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddHandler, addr 0x4322080, size 0x80, virtual false, abstract: false, final false
   inline void AddHandler(::System::Xml::Schema::ValidationEventHandler* handler);
 
-  static inline ::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling* New_ctor(::System::Xml::XmlValidatingReaderImpl* reader);
+  static inline ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling* New_ctor(::System::Xml::XmlValidatingReaderImpl* reader);
 
-  /// @brief Method System.Xml.IValidationEventHandling.SendEvent, addr 0x42c1f48, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IValidationEventHandling.SendEvent, addr 0x432325c, size 0x11c, virtual true, abstract: false, final true
   inline void System_Xml_IValidationEventHandling_SendEvent(::System::Exception* exception, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method System.Xml.IValidationEventHandling.get_EventHandler, addr 0x42c1f40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IValidationEventHandling.get_EventHandler, addr 0x4323254, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Xml_IValidationEventHandling_get_EventHandler();
+
+  constexpr ::System::Xml::Schema::ValidationEventHandler* const& __cordl_internal_get_eventHandler() const;
 
   constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_eventHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_eventHandler() const;
+  constexpr ::System::Xml::XmlValidatingReaderImpl* const& __cordl_internal_get_reader() const;
 
   constexpr ::System::Xml::XmlValidatingReaderImpl*& __cordl_internal_get_reader();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlValidatingReaderImpl*> const& __cordl_internal_get_reader() const;
 
   constexpr void __cordl_internal_set_eventHandler(::System::Xml::Schema::ValidationEventHandler* value);
 
   constexpr void __cordl_internal_set_reader(::System::Xml::XmlValidatingReaderImpl* value);
 
-  /// @brief Method .ctor, addr 0x42c0d44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4322058, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlValidatingReaderImpl* reader);
 
   /// @brief Convert to "::System::Xml::IValidationEventHandling"
@@ -240,16 +234,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XmlValidatingReaderImpl__ValidationEventHandling();
+  constexpr XmlValidatingReaderImpl_ValidationEventHandling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlValidatingReaderImpl__ValidationEventHandling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReaderImpl_ValidationEventHandling", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __XmlValidatingReaderImpl__ValidationEventHandling(__XmlValidatingReaderImpl__ValidationEventHandling&&) = delete;
+  XmlValidatingReaderImpl_ValidationEventHandling(XmlValidatingReaderImpl_ValidationEventHandling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlValidatingReaderImpl__ValidationEventHandling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReaderImpl_ValidationEventHandling", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __XmlValidatingReaderImpl__ValidationEventHandling(__XmlValidatingReaderImpl__ValidationEventHandling const&) = delete;
+  XmlValidatingReaderImpl_ValidationEventHandling(XmlValidatingReaderImpl_ValidationEventHandling const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7254 };
 
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlValidatingReaderImpl* ___reader;
@@ -257,30 +254,26 @@ public:
   /// @brief Field eventHandler, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Schema::ValidationEventHandler* ___eventHandler;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7229 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling, ___reader) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling, ___reader) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling, ___eventHandler) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling, ___eventHandler) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml
-// Type: System.Xml::XmlValidatingReaderImpl
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.IXmlLineInfo, System.Xml.IXmlNamespaceResolver, System.Xml.ValidationType, System.Xml.XmlReader, System.Xml.XmlValidatingReaderImpl::ParsingFunction
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlValidatingReaderImpl*
+// CS Name: System.Xml.XmlValidatingReaderImpl
 class CORDL_TYPE XmlValidatingReaderImpl : public ::System::Xml::XmlReader {
 public:
   // Declarations
-  using ParsingFunction = ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction;
+  using ParsingFunction = ::System::Xml::XmlValidatingReaderImpl_ParsingFunction;
 
-  using ValidationEventHandling = ::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling;
+  using ValidationEventHandling = ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling;
 
   __declspec(property(get = get_AttributeCount)) int32_t AttributeCount;
 
@@ -352,7 +345,7 @@ public:
   __declspec(property(get = __cordl_internal_get_coreReaderNSResolver, put = __cordl_internal_set_coreReaderNSResolver)) ::System::Xml::IXmlNamespaceResolver* coreReaderNSResolver;
 
   /// @brief Field eventHandling, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_eventHandling, put = __cordl_internal_set_eventHandling)) ::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling* eventHandling;
+  __declspec(property(get = __cordl_internal_get_eventHandling, put = __cordl_internal_set_eventHandling)) ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling* eventHandling;
 
   /// @brief Field outerReader, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_outerReader, put = __cordl_internal_set_outerReader)) ::System::Xml::XmlReader* outerReader;
@@ -361,7 +354,7 @@ public:
   __declspec(property(get = __cordl_internal_get_parserContext, put = __cordl_internal_set_parserContext)) ::System::Xml::XmlParserContext* parserContext;
 
   /// @brief Field parsingFunction, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_parsingFunction, put = __cordl_internal_set_parsingFunction)) ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction parsingFunction;
+  __declspec(property(get = __cordl_internal_get_parsingFunction, put = __cordl_internal_set_parsingFunction)) ::System::Xml::XmlValidatingReaderImpl_ParsingFunction parsingFunction;
 
   /// @brief Field processIdentityConstraints, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_processIdentityConstraints, put = __cordl_internal_set_processIdentityConstraints)) bool processIdentityConstraints;
@@ -370,7 +363,7 @@ public:
   __declspec(property(get = __cordl_internal_get_readBinaryHelper, put = __cordl_internal_set_readBinaryHelper)) ::System::Xml::ReadContentAsBinaryHelper* readBinaryHelper;
 
   /// @brief Field s_tempResolver, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_tempResolver, put = setStaticF_s_tempResolver)) ::System::Xml::XmlResolver* s_tempResolver;
+  __declspec(property(get = getStaticF_s_tempResolver, put = setStaticF_s_tempResolver)) ::System::Xml::XmlResolver* s_tempResolver;
 
   /// @brief Field schemaCollection, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_schemaCollection, put = __cordl_internal_set_schemaCollection)) ::System::Xml::Schema::XmlSchemaCollection* schemaCollection;
@@ -387,143 +380,143 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
-  /// @brief Method AddDefaultAttribute, addr 0x42c1dc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddDefaultAttribute, addr 0x43230d4, size 0x1c, virtual false, abstract: false, final false
   inline bool AddDefaultAttribute(::System::Xml::Schema::SchemaAttDef* attdef);
 
-  /// @brief Method Close, addr 0x42c1794, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x4322aa8, size 0x34, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetAttribute, addr 0x42c12a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x43225b4, size 0x24, virtual true, abstract: false, final false
   inline ::StringW GetAttribute(int32_t i);
 
-  /// @brief Method GetAttribute, addr 0x42c127c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x4322590, size 0x24, virtual true, abstract: false, final false
   inline ::StringW GetAttribute(::StringW localName, ::StringW namespaceURI);
 
-  /// @brief Method GetAttribute, addr 0x42c1258, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x432256c, size 0x24, virtual true, abstract: false, final false
   inline ::StringW GetAttribute(::StringW name);
 
-  /// @brief Method GetNamespacesInScope, addr 0x42c1b28, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetNamespacesInScope, addr 0x4322e3c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method GetResolver, addr 0x42c0c70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetResolver, addr 0x4321f84, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlResolver* GetResolver();
 
-  /// @brief Method HasLineInfo, addr 0x42c194c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasLineInfo, addr 0x4322c60, size 0x8, virtual true, abstract: false, final true
   inline bool HasLineInfo();
 
-  /// @brief Method LookupNamespace, addr 0x42c17c8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x4322adc, size 0x24, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x42c1be4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x4322ef8, size 0xac, virtual false, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW namespaceName);
 
-  /// @brief Method MoveOffEntityReference, addr 0x42c1880, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MoveOffEntityReference, addr 0x4322b94, size 0xb0, virtual false, abstract: false, final false
   inline void MoveOffEntityReference();
 
-  /// @brief Method MoveToAttribute, addr 0x42c12c4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x43225d8, size 0x38, virtual true, abstract: false, final false
   inline bool MoveToAttribute(::StringW name);
 
-  /// @brief Method MoveToAttribute, addr 0x42c12fc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x4322610, size 0x30, virtual true, abstract: false, final false
   inline void MoveToAttribute(int32_t i);
 
-  /// @brief Method MoveToElement, addr 0x42c139c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method MoveToElement, addr 0x43226b0, size 0x38, virtual true, abstract: false, final false
   inline bool MoveToElement();
 
-  /// @brief Method MoveToFirstAttribute, addr 0x42c132c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method MoveToFirstAttribute, addr 0x4322640, size 0x38, virtual true, abstract: false, final false
   inline bool MoveToFirstAttribute();
 
-  /// @brief Method MoveToNextAttribute, addr 0x42c1364, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method MoveToNextAttribute, addr 0x4322678, size 0x38, virtual true, abstract: false, final false
   inline bool MoveToNextAttribute();
 
   static inline ::System::Xml::XmlValidatingReaderImpl* New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::Schema::ValidationEventHandler* settingsEventHandler,
                                                                  bool processIdentityConstraints);
 
-  /// @brief Method ParseDtdFromParserContext, addr 0x42c1598, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ParseDtdFromParserContext, addr 0x43228ac, size 0x174, virtual false, abstract: false, final false
   inline void ParseDtdFromParserContext();
 
-  /// @brief Method ProcessCoreReaderEvent, addr 0x42c14ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ProcessCoreReaderEvent, addr 0x43227c0, size 0xec, virtual false, abstract: false, final false
   inline void ProcessCoreReaderEvent();
 
-  /// @brief Method Read, addr 0x42c13d4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x43226e8, size 0xd8, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAttributeValue, addr 0x42c17ec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ReadAttributeValue, addr 0x4322b00, size 0x58, virtual true, abstract: false, final false
   inline bool ReadAttributeValue();
 
-  /// @brief Method ReadString, addr 0x42c1930, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ReadString, addr 0x4322c44, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ReadString();
 
-  /// @brief Method ResolveEntity, addr 0x42c184c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ResolveEntity, addr 0x4322b60, size 0x34, virtual true, abstract: false, final false
   inline void ResolveEntity();
 
-  /// @brief Method ResolveEntityInternally, addr 0x42c170c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ResolveEntityInternally, addr 0x4322a20, size 0x88, virtual false, abstract: false, final false
   inline void ResolveEntityInternally();
 
-  /// @brief Method SetupValidation, addr 0x42c0dec, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetupValidation, addr 0x4322100, size 0x13c, virtual false, abstract: false, final false
   inline void SetupValidation(::System::Xml::ValidationType valType);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x42c1b24, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x4322e38, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x42c1bd0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x4322ee4, size 0x10, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x42c1be0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x4322ef4, size 0x4, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
 
-  /// @brief Method ValidateDefaultAttributeOnUse, addr 0x42c1e00, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ValidateDefaultAttributeOnUse, addr 0x4323114, size 0x140, virtual false, abstract: false, final false
   inline void ValidateDefaultAttributeOnUse(::System::Xml::IDtdDefaultAttributeInfo* defaultAttribute, ::System::Xml::XmlTextReaderImpl* coreReader);
 
-  /// @brief Method ValidateDtd, addr 0x42c1ca0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ValidateDtd, addr 0x4322fb4, size 0x7c, virtual false, abstract: false, final false
   inline void ValidateDtd();
+
+  constexpr ::System::Xml::XmlReader* const& __cordl_internal_get_coreReader() const;
 
   constexpr ::System::Xml::XmlReader*& __cordl_internal_get_coreReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __cordl_internal_get_coreReader() const;
+  constexpr ::System::Xml::XmlTextReaderImpl* const& __cordl_internal_get_coreReaderImpl() const;
 
   constexpr ::System::Xml::XmlTextReaderImpl*& __cordl_internal_get_coreReaderImpl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextReaderImpl*> const& __cordl_internal_get_coreReaderImpl() const;
+  constexpr ::System::Xml::IXmlNamespaceResolver* const& __cordl_internal_get_coreReaderNSResolver() const;
 
   constexpr ::System::Xml::IXmlNamespaceResolver*& __cordl_internal_get_coreReaderNSResolver();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& __cordl_internal_get_coreReaderNSResolver() const;
+  constexpr ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling* const& __cordl_internal_get_eventHandling() const;
 
-  constexpr ::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling*& __cordl_internal_get_eventHandling();
+  constexpr ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*& __cordl_internal_get_eventHandling();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling*> const& __cordl_internal_get_eventHandling() const;
+  constexpr ::System::Xml::XmlReader* const& __cordl_internal_get_outerReader() const;
 
   constexpr ::System::Xml::XmlReader*& __cordl_internal_get_outerReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __cordl_internal_get_outerReader() const;
+  constexpr ::System::Xml::XmlParserContext* const& __cordl_internal_get_parserContext() const;
 
   constexpr ::System::Xml::XmlParserContext*& __cordl_internal_get_parserContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlParserContext*> const& __cordl_internal_get_parserContext() const;
+  constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const& __cordl_internal_get_parsingFunction() const;
 
-  constexpr ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction const& __cordl_internal_get_parsingFunction() const;
-
-  constexpr ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction& __cordl_internal_get_parsingFunction();
+  constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction& __cordl_internal_get_parsingFunction();
 
   constexpr bool const& __cordl_internal_get_processIdentityConstraints() const;
 
   constexpr bool& __cordl_internal_get_processIdentityConstraints();
 
+  constexpr ::System::Xml::ReadContentAsBinaryHelper* const& __cordl_internal_get_readBinaryHelper() const;
+
   constexpr ::System::Xml::ReadContentAsBinaryHelper*& __cordl_internal_get_readBinaryHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::ReadContentAsBinaryHelper*> const& __cordl_internal_get_readBinaryHelper() const;
+  constexpr ::System::Xml::Schema::XmlSchemaCollection* const& __cordl_internal_get_schemaCollection() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaCollection*& __cordl_internal_get_schemaCollection();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaCollection*> const& __cordl_internal_get_schemaCollection() const;
 
   constexpr ::System::Xml::ValidationType const& __cordl_internal_get_validationType() const;
 
   constexpr ::System::Xml::ValidationType& __cordl_internal_get_validationType();
 
-  constexpr ::System::Xml::Schema::BaseValidator*& __cordl_internal_get_validator();
+  constexpr ::System::Xml::Schema::BaseValidator* const& __cordl_internal_get_validator() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BaseValidator*> const& __cordl_internal_get_validator() const;
+  constexpr ::System::Xml::Schema::BaseValidator*& __cordl_internal_get_validator();
 
   constexpr void __cordl_internal_set_coreReader(::System::Xml::XmlReader* value);
 
@@ -531,13 +524,13 @@ public:
 
   constexpr void __cordl_internal_set_coreReaderNSResolver(::System::Xml::IXmlNamespaceResolver* value);
 
-  constexpr void __cordl_internal_set_eventHandling(::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling* value);
+  constexpr void __cordl_internal_set_eventHandling(::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling* value);
 
   constexpr void __cordl_internal_set_outerReader(::System::Xml::XmlReader* value);
 
   constexpr void __cordl_internal_set_parserContext(::System::Xml::XmlParserContext* value);
 
-  constexpr void __cordl_internal_set_parsingFunction(::System::Xml::__XmlValidatingReaderImpl__ParsingFunction value);
+  constexpr void __cordl_internal_set_parsingFunction(::System::Xml::XmlValidatingReaderImpl_ParsingFunction value);
 
   constexpr void __cordl_internal_set_processIdentityConstraints(bool value);
 
@@ -549,96 +542,96 @@ public:
 
   constexpr void __cordl_internal_set_validator(::System::Xml::Schema::BaseValidator* value);
 
-  /// @brief Method .ctor, addr 0x42c0930, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4321c44, size 0x340, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader, ::System::Xml::Schema::ValidationEventHandler* settingsEventHandler, bool processIdentityConstraints);
 
   static inline ::System::Xml::XmlResolver* getStaticF_s_tempResolver();
 
-  /// @brief Method get_AttributeCount, addr 0x42c1234, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_AttributeCount, addr 0x4322548, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_AttributeCount();
 
-  /// @brief Method get_BaseURI, addr 0x42c10d8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_BaseURI, addr 0x43223ec, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_CanResolveEntity, addr 0x42c1844, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanResolveEntity, addr 0x4322b58, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanResolveEntity();
 
-  /// @brief Method get_Depth, addr 0x42c10b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x43223cc, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_DtdInfo, addr 0x42c1ddc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_DtdInfo, addr 0x43230f0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Xml::IDtdInfo* get_DtdInfo();
 
-  /// @brief Method get_EOF, addr 0x42c11ec, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_EOF, addr 0x4322500, size 0x24, virtual true, abstract: false, final false
   inline bool get_EOF();
 
-  /// @brief Method get_IsDefault, addr 0x42c1120, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsDefault, addr 0x4322434, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsEmptyElement, addr 0x42c10fc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmptyElement, addr 0x4322410, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsEmptyElement();
 
-  /// @brief Method get_LineNumber, addr 0x42c1954, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_LineNumber, addr 0x4322c68, size 0xe8, virtual true, abstract: false, final true
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x42c1a3c, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_LinePosition, addr 0x4322d50, size 0xe8, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_LocalName, addr 0x42c1038, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x432234c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x42c1018, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x432232c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameTable, addr 0x42c1210, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x4322524, size 0x24, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceManager, addr 0x42c1d2c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceManager, addr 0x4323040, size 0x24, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNamespaceManager* get_NamespaceManager();
 
-  /// @brief Method get_NamespaceURI, addr 0x42c1058, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceURI, addr 0x432236c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_Namespaces, addr 0x42c0914, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Namespaces, addr 0x4321c28, size 0x1c, virtual false, abstract: false, final false
   inline bool get_Namespaces();
 
-  /// @brief Method get_NodeType, addr 0x42c0ff8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x432230c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Prefix, addr 0x42c1078, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x432238c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_QuoteChar, addr 0x42c1144, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x4322458, size 0x24, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_ReadState, addr 0x42c11b0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_ReadState, addr 0x43224c4, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::ReadState get_ReadState();
 
-  /// @brief Method get_Schemas, addr 0x42c1c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schemas, addr 0x4322fac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaCollection* get_Schemas();
 
-  /// @brief Method get_Settings, addr 0x42c0f28, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x432223c, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Xml::XmlReaderSettings* get_Settings();
 
-  /// @brief Method get_StandAlone, addr 0x42c1d50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_StandAlone, addr 0x4323064, size 0x1c, virtual false, abstract: false, final false
   inline bool get_StandAlone();
 
-  /// @brief Method get_TypedValueObject, addr 0x42c1d88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValueObject, addr 0x432309c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValueObject();
 
-  /// @brief Method get_ValidationType, addr 0x42c1c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationType, addr 0x4322fa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::ValidationType get_ValidationType();
 
-  /// @brief Method get_Validator, addr 0x42c1d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Validator, addr 0x4323030, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BaseValidator* get_Validator();
 
-  /// @brief Method get_Value, addr 0x42c1098, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x43223ac, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_XmlLang, addr 0x42c118c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_XmlLang, addr 0x43224a0, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_XmlLang();
 
-  /// @brief Method get_XmlSpace, addr 0x42c1168, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_XmlSpace, addr 0x432247c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Xml::XmlSpace get_XmlSpace();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"
@@ -649,13 +642,13 @@ public:
 
   static inline void setStaticF_s_tempResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method set_SchemaTypeObject, addr 0x42c1d6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaTypeObject, addr 0x4323080, size 0x1c, virtual false, abstract: false, final false
   inline void set_SchemaTypeObject(::System::Object* value);
 
-  /// @brief Method set_TypedValueObject, addr 0x42c1da4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_TypedValueObject, addr 0x43230b8, size 0x1c, virtual false, abstract: false, final false
   inline void set_TypedValueObject(::System::Object* value);
 
-  /// @brief Method set_Validator, addr 0x42c1d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Validator, addr 0x4323038, size 0x8, virtual false, abstract: false, final false
   inline void set_Validator(::System::Xml::Schema::BaseValidator* value);
 
 protected:
@@ -671,6 +664,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReaderImpl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlValidatingReaderImpl(XmlValidatingReaderImpl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7255 };
 
   /// @brief Field coreReader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlReader* ___coreReader;
@@ -694,10 +690,10 @@ public:
   bool ___processIdentityConstraints;
 
   /// @brief Field parsingFunction, offset: 0x44, size: 0x4, def value: None
-  ::System::Xml::__XmlValidatingReaderImpl__ParsingFunction ___parsingFunction;
+  ::System::Xml::XmlValidatingReaderImpl_ParsingFunction ___parsingFunction;
 
   /// @brief Field eventHandling, offset: 0x48, size: 0x8, def value: None
-  ::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling* ___eventHandling;
+  ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling* ___eventHandling;
 
   /// @brief Field parserContext, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlParserContext* ___parserContext;
@@ -708,14 +704,9 @@ public:
   /// @brief Field outerReader, offset: 0x60, size: 0x8, def value: None
   ::System::Xml::XmlReader* ___outerReader;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7230 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlValidatingReaderImpl, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlValidatingReaderImpl, ___coreReader) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::XmlValidatingReaderImpl, ___coreReaderImpl) == 0x18, "Offset mismatch!");
@@ -740,9 +731,11 @@ static_assert(offsetof(::System::Xml::XmlValidatingReaderImpl, ___readBinaryHelp
 
 static_assert(offsetof(::System::Xml::XmlValidatingReaderImpl, ___outerReader) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlValidatingReaderImpl, 0x68>, "Size mismatch!");
+
 } // namespace System::Xml
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::__XmlValidatingReaderImpl__ParsingFunction, "System.Xml", "XmlValidatingReaderImpl/ParsingFunction");
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlValidatingReaderImpl_ParsingFunction, "System.Xml", "XmlValidatingReaderImpl/ParsingFunction");
 NEED_NO_BOX(::System::Xml::XmlValidatingReaderImpl);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlValidatingReaderImpl*, "System.Xml", "XmlValidatingReaderImpl");
-NEED_NO_BOX(::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::__XmlValidatingReaderImpl__ValidationEventHandling*, "System.Xml", "XmlValidatingReaderImpl/ValidationEventHandling");
+NEED_NO_BOX(::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*, "System.Xml", "XmlValidatingReaderImpl/ValidationEventHandling");

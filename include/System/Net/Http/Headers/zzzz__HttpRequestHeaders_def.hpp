@@ -15,10 +15,10 @@ namespace System::Net::Http::Headers {
 template <typename T> class HttpHeaderValueCollection_1;
 }
 namespace System::Net::Http::Headers {
-class TransferCodingHeaderValue;
+class HttpRequestHeaders___c;
 }
 namespace System::Net::Http::Headers {
-class __HttpRequestHeaders____c;
+class TransferCodingHeaderValue;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -31,46 +31,45 @@ namespace System::Net::Http::Headers {
 class HttpRequestHeaders;
 }
 namespace System::Net::Http::Headers {
-class __HttpRequestHeaders____c;
+class HttpRequestHeaders___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::HttpRequestHeaders);
-MARK_REF_PTR_T(::System::Net::Http::Headers::__HttpRequestHeaders____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Net::Http::Headers::HttpRequestHeaders___c);
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::HttpRequestHeaders::<>c*
-class CORDL_TYPE __HttpRequestHeaders____c : public ::System::Object {
+// CS Name: System.Net.Http.Headers.HttpRequestHeaders/<>c
+class CORDL_TYPE HttpRequestHeaders___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Http::Headers::__HttpRequestHeaders____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Http::Headers::HttpRequestHeaders___c* __9;
 
   /// @brief Field <>9__19_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__19_0, put = setStaticF___9__19_0)) ::System::Predicate_1<::StringW>* __9__19_0;
+  __declspec(property(get = getStaticF___9__19_0, put = setStaticF___9__19_0)) ::System::Predicate_1<::StringW>* __9__19_0;
 
   /// @brief Field <>9__29_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__29_0, put = setStaticF___9__29_0)) ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* __9__29_0;
+  __declspec(property(get = getStaticF___9__29_0, put = setStaticF___9__29_0)) ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* __9__29_0;
 
   /// @brief Field <>9__71_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__71_0, put = setStaticF___9__71_0)) ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* __9__71_0;
+  __declspec(property(get = getStaticF___9__71_0, put = setStaticF___9__71_0)) ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* __9__71_0;
 
-  static inline ::System::Net::Http::Headers::__HttpRequestHeaders____c* New_ctor();
+  static inline ::System::Net::Http::Headers::HttpRequestHeaders___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41c0324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4221638, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_ConnectionClose>b__19_0, addr 0x41c032c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <get_ConnectionClose>b__19_0, addr 0x4221640, size 0x50, virtual false, abstract: false, final false
   inline bool _get_ConnectionClose_b__19_0(::StringW l);
 
-  /// @brief Method <get_ExpectContinue>b__29_0, addr 0x41c037c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_ExpectContinue>b__29_0, addr 0x4221690, size 0x58, virtual false, abstract: false, final false
   inline bool _get_ExpectContinue_b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
-  /// @brief Method <get_TransferEncodingChunked>b__71_0, addr 0x41c03d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_TransferEncodingChunked>b__71_0, addr 0x42216e8, size 0x58, virtual false, abstract: false, final false
   inline bool _get_TransferEncodingChunked_b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
-  static inline ::System::Net::Http::Headers::__HttpRequestHeaders____c* getStaticF___9();
+  static inline ::System::Net::Http::Headers::HttpRequestHeaders___c* getStaticF___9();
 
   static inline ::System::Predicate_1<::StringW>* getStaticF___9__19_0();
 
@@ -78,7 +77,7 @@ public:
 
   static inline ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* getStaticF___9__71_0();
 
-  static inline void setStaticF___9(::System::Net::Http::Headers::__HttpRequestHeaders____c* value);
+  static inline void setStaticF___9(::System::Net::Http::Headers::HttpRequestHeaders___c* value);
 
   static inline void setStaticF___9__19_0(::System::Predicate_1<::StringW>* value);
 
@@ -89,35 +88,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HttpRequestHeaders____c();
+  constexpr HttpRequestHeaders___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HttpRequestHeaders____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestHeaders___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HttpRequestHeaders____c(__HttpRequestHeaders____c&&) = delete;
+  HttpRequestHeaders___c(HttpRequestHeaders___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HttpRequestHeaders____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestHeaders___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HttpRequestHeaders____c(__HttpRequestHeaders____c const&) = delete;
+  HttpRequestHeaders___c(HttpRequestHeaders___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__HttpRequestHeaders____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HttpRequestHeaders___c, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
-// Type: System.Net.Http.Headers::HttpRequestHeaders
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Http.Headers.HttpHeaders, System.Nullable`1<T>
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::HttpRequestHeaders*
+// CS Name: System.Net.Http.Headers.HttpRequestHeaders
 class CORDL_TYPE HttpRequestHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations
-  using __c = ::System::Net::Http::Headers::__HttpRequestHeaders____c;
+  using __c = ::System::Net::Http::Headers::HttpRequestHeaders___c;
 
   __declspec(property(put = set_Authorization)) ::System::Net::Http::Headers::AuthenticationHeaderValue* Authorization;
 
@@ -136,7 +134,7 @@ public:
   /// @brief Field expectContinue, offset 0x20, size 0x2
   __declspec(property(get = __cordl_internal_get_expectContinue, put = __cordl_internal_set_expectContinue)) ::System::Nullable_1<bool> expectContinue;
 
-  /// @brief Method AddHeaders, addr 0x41b4e5c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AddHeaders, addr 0x4216170, size 0x294, virtual false, abstract: false, final false
   inline void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders* New_ctor();
@@ -147,28 +145,28 @@ public:
 
   constexpr void __cordl_internal_set_expectContinue(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x41b76e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42189f8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Connection, addr 0x41b0cb0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x4211fc4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
 
-  /// @brief Method get_ConnectionClose, addr 0x41b1698, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionClose, addr 0x42129ac, size 0x184, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ConnectionClose();
 
-  /// @brief Method get_ExpectContinue, addr 0x41b181c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_ExpectContinue, addr 0x4212b30, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ExpectContinue();
 
-  /// @brief Method get_Host, addr 0x41b19e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Host, addr 0x4212cfc, size 0x68, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_TransferEncoding, addr 0x41c0260, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_TransferEncoding, addr 0x4221574, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
 
-  /// @brief Method get_TransferEncodingChunked, addr 0x41b3c10, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_TransferEncodingChunked, addr 0x4214f24, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_TransferEncodingChunked();
 
-  /// @brief Method set_Authorization, addr 0x41c01ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Authorization, addr 0x4221500, size 0x74, virtual false, abstract: false, final false
   inline void set_Authorization(::System::Net::Http::Headers::AuthenticationHeaderValue* value);
 
 protected:
@@ -185,21 +183,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpRequestHeaders(HttpRequestHeaders const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16714 };
+
   /// @brief Field expectContinue, offset: 0x20, size: 0x2, def value: None
   ::System::Nullable_1<bool> ___expectContinue;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HttpRequestHeaders, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::Headers::HttpRequestHeaders, ___expectContinue) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HttpRequestHeaders, 0x28>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::HttpRequestHeaders);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::HttpRequestHeaders*, "System.Net.Http.Headers", "HttpRequestHeaders");
-NEED_NO_BOX(::System::Net::Http::Headers::__HttpRequestHeaders____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::__HttpRequestHeaders____c*, "System.Net.Http.Headers", "HttpRequestHeaders/<>c");
+NEED_NO_BOX(::System::Net::Http::Headers::HttpRequestHeaders___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::HttpRequestHeaders___c*, "System.Net.Http.Headers", "HttpRequestHeaders/<>c");

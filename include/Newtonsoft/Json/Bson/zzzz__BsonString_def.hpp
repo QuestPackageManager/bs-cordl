@@ -15,11 +15,10 @@ class BsonString;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonString);
-// Type: Newtonsoft.Json.Bson::BsonString
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Bson.BsonValue
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Bson::BsonString*
+// CS Name: Newtonsoft.Json.Bson.BsonString
 class CORDL_TYPE BsonString : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
   // Declarations
@@ -47,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3ef16f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f517a4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
-  /// @brief Method get_ByteCount, addr 0x3ef1adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ByteCount, addr 0x3f51b88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
-  /// @brief Method get_IncludeLength, addr 0x3ef1aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeLength, addr 0x3f51b98, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
-  /// @brief Method set_ByteCount, addr 0x3ef1ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ByteCount, addr 0x3f51b90, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BsonString(BsonString const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10512 };
+
   /// @brief Field <ByteCount>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____ByteCount_k__BackingField;
 
   /// @brief Field <IncludeLength>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____IncludeLength_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonString, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonString, ____ByteCount_k__BackingField) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonString, ____IncludeLength_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonString, 0x38>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Bson
 NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonString);

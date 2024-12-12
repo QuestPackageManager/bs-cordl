@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24836cc;
+  constexpr static std::size_t addrs = 0x24b69b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24836f0;
+  constexpr static std::size_t addrs = 0x24b69dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::MultiplyPositive)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x248371c;
+  constexpr static std::size_t addrs = 0x24b6a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)(::Org::BouncyCastle::Math::EC::ECCurve*, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::ConfigureCurve)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2483b74;
+  constexpr static std::size_t addrs = 0x24b6e60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,17 +93,11 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___doublingCoord = value;
 }
-inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*>());
-}
 inline void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::New_ctor(int32_t additionCoord, int32_t doublingCoord) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*>(additionCoord, doublingCoord));
 }
 inline void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor(int32_t additionCoord, int32_t doublingCoord) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,6 +117,12 @@ inline ::Org::BouncyCastle::Math::EC::ECCurve* Org::BouncyCastle::Math::EC::Mult
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECCurve*, false>(this, ___internal_method, c, coord);
+}
+inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*>());
+}
+inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::New_ctor(int32_t additionCoord, int32_t doublingCoord) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*>(additionCoord, doublingCoord));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::MixedNafR2LMultiplier() {}

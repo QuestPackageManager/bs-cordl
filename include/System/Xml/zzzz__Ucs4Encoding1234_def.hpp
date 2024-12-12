@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/zzzz__Ucs4Encoding_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ucs4Encoding1234)
@@ -14,25 +13,24 @@ class Ucs4Encoding1234;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Ucs4Encoding1234);
-// Type: System.Xml::Ucs4Encoding1234
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Ucs4Encoding
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::Ucs4Encoding1234*
+// CS Name: System.Xml.Ucs4Encoding1234
 class CORDL_TYPE Ucs4Encoding1234 : public ::System::Xml::Ucs4Encoding {
 public:
   // Declarations
   __declspec(property(get = get_EncodingName)) ::StringW EncodingName;
 
-  /// @brief Method GetPreamble, addr 0x42fd304, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetPreamble, addr 0x435e618, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
 
   static inline ::System::Xml::Ucs4Encoding1234* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42fd0f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x435e40c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EncodingName, addr 0x42fd2c4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_EncodingName, addr 0x435e5d8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_EncodingName();
 
 protected:
@@ -50,7 +48,7 @@ public:
   Ucs4Encoding1234(Ucs4Encoding1234 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

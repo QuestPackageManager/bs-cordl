@@ -15,11 +15,10 @@ class Entity;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Entity);
-// Type: UnityEngine.ProBuilder::Entity
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.ProBuilder.EntityType
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::Entity*
+// CS Name: UnityEngine.ProBuilder.Entity
 class CORDL_TYPE Entity : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -28,12 +27,12 @@ public:
   /// @brief Field m_EntityType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_EntityType, put = __cordl_internal_set_m_EntityType)) ::UnityEngine::ProBuilder::EntityType m_EntityType;
 
-  /// @brief Method Awake, addr 0x46a600c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4707320, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::ProBuilder::Entity* New_ctor();
 
-  /// @brief Method SetEntity, addr 0x46a60d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEntity, addr 0x47073e8, size 0x8, virtual false, abstract: false, final false
   inline void SetEntity(::UnityEngine::ProBuilder::EntityType t);
 
   constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
@@ -42,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
 
-  /// @brief Method .ctor, addr 0x46a60dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47073f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_entityType, addr 0x46a6004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityType, addr 0x4707318, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::EntityType get_entityType();
 
 protected:
@@ -62,18 +61,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Entity(Entity const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14235 };
+
   /// @brief Field m_EntityType, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::EntityType ___m_EntityType;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Entity, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Entity, ___m_EntityType) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Entity, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Entity);

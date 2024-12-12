@@ -35,22 +35,21 @@ class FireEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FireEffect);
-// Type: ::FireEffect
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FireEffect*
+// CS Name: FireEffect
 class CORDL_TYPE FireEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapCallbacksController, offset 0x70, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _bloomIntensityMultiplier, offset 0x50, size 0x4
+  /// @brief Field _bloomIntensityMultiplier, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__bloomIntensityMultiplier, put = __cordl_internal_set__bloomIntensityMultiplier)) float_t _bloomIntensityMultiplier;
 
-  /// @brief Field _bloomPrePassRenderer, offset 0x48, size 0x8
+  /// @brief Field _bloomPrePassRenderer, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomPrePassRenderer, put = __cordl_internal_set__bloomPrePassRenderer)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>
       _bloomPrePassRenderer;
 
@@ -58,15 +57,20 @@ public:
   __declspec(property(get = __cordl_internal_get__bloomPropertyBlockController, put = __cordl_internal_set__bloomPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _bloomPropertyBlockController;
 
-  /// @brief Field _contributeCustomLightColor, offset 0x64, size 0x1
+  /// @brief Field _contributeCustomLightColor, offset 0x74, size 0x1
   __declspec(property(get = __cordl_internal_get__contributeCustomLightColor, put = __cordl_internal_set__contributeCustomLightColor)) bool _contributeCustomLightColor;
 
-  /// @brief Field _customLightColorContribution, offset 0x68, size 0x8
+  /// @brief Field _customLightColorContribution, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__customLightColorContribution, put = __cordl_internal_set__customLightColorContribution)) ::UnityW<::GlobalNamespace::ColorSO>
       _customLightColorContribution;
 
   /// @brief Field _elementId, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__elementId, put = __cordl_internal_set__elementId)) int32_t _elementId;
+
+  /// @brief Field _emissionTextureColorPropertyBlockController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__emissionTextureColorPropertyBlockController,
+                      put = __cordl_internal_set__emissionTextureColorPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _emissionTextureColorPropertyBlockController;
 
   /// @brief Field _flipBookPropertyBlockController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__flipBookPropertyBlockController,
@@ -76,44 +80,47 @@ public:
   /// @brief Field _groupId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__groupId, put = __cordl_internal_set__groupId)) int32_t _groupId;
 
-  /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset 0x80, size 0x8
+  /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__lightColorBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__lightColorBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _lightColorBeatmapEventCallbackWrapper;
 
   /// @brief Field _lightId, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__lightId, put = __cordl_internal_set__lightId)) int32_t _lightId;
 
-  /// @brief Field _lightWithIdManager, offset 0x78, size 0x8
+  /// @brief Field _lightWithIdManager, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__lightWithIdManager, put = __cordl_internal_set__lightWithIdManager)) ::UnityW<::GlobalNamespace::LightWithIdManager> _lightWithIdManager;
 
-  /// @brief Field _pointLightColor, offset 0x54, size 0x10
+  /// @brief Field _pointLightColor, offset 0x64, size 0x10
   __declspec(property(get = __cordl_internal_get__pointLightColor, put = __cordl_internal_set__pointLightColor)) ::UnityEngine::Color _pointLightColor;
 
-  /// @brief Field _privatePointLightPropertyBlockController, offset 0x40, size 0x8
+  /// @brief Field _privatePointLightPropertyBlockController, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__privatePointLightPropertyBlockController,
                       put = __cordl_internal_set__privatePointLightPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _privatePointLightPropertyBlockController;
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Field _useEmissionColor, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__useEmissionColor, put = __cordl_internal_set__useEmissionColor)) bool _useEmissionColor;
+
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-  /// @brief Method NotifyAlphaWasChanged, addr 0x223e0d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method NotifyAlphaWasChanged, addr 0x3ad6cfc, size 0xc0, virtual false, abstract: false, final false
   inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
-  /// @brief Method OnDestroy, addr 0x223dc50, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad67dc, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetRenderersEnabled, addr 0x223deb4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderersEnabled, addr 0x3ad6a50, size 0x8c, virtual false, abstract: false, final false
   inline void SetRenderersEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0x223d9f4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad6580, size 0x11c, virtual true, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr float_t const& __cordl_internal_get__bloomIntensityMultiplier() const;
 
@@ -139,6 +146,10 @@ public:
 
   constexpr int32_t& __cordl_internal_get__elementId();
 
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__emissionTextureColorPropertyBlockController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__emissionTextureColorPropertyBlockController();
+
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__flipBookPropertyBlockController() const;
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__flipBookPropertyBlockController();
@@ -147,9 +158,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__groupId();
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper();
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper();
 
   constexpr int32_t const& __cordl_internal_get__lightId() const;
 
@@ -167,6 +178,10 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__privatePointLightPropertyBlockController();
 
+  constexpr bool const& __cordl_internal_get__useEmissionColor() const;
+
+  constexpr bool& __cordl_internal_get__useEmissionColor();
+
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
   constexpr void __cordl_internal_set__bloomIntensityMultiplier(float_t value);
@@ -180,6 +195,8 @@ public:
   constexpr void __cordl_internal_set__customLightColorContribution(::UnityW<::GlobalNamespace::ColorSO> value);
 
   constexpr void __cordl_internal_set__elementId(int32_t value);
+
+  constexpr void __cordl_internal_set__emissionTextureColorPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
   constexpr void __cordl_internal_set__flipBookPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
@@ -195,7 +212,9 @@ public:
 
   constexpr void __cordl_internal_set__privatePointLightPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x223e20c, size 0x24, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__useEmissionColor(bool value);
+
+  /// @brief Method .ctor, addr 0x3ad6e34, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -212,6 +231,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FireEffect(FireEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4039 };
+
   /// @brief Field _groupId, offset: 0x20, size: 0x4, def value: None
   int32_t ____groupId;
 
@@ -227,41 +249,42 @@ public:
   /// @brief Field _bloomPropertyBlockController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____bloomPropertyBlockController;
 
-  /// @brief Field _privatePointLightPropertyBlockController, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _useEmissionColor, offset: 0x40, size: 0x1, def value: None
+  bool ____useEmissionColor;
+
+  /// @brief Field _privatePointLightPropertyBlockController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____privatePointLightPropertyBlockController;
 
-  /// @brief Field _bloomPrePassRenderer, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _emissionTextureColorPropertyBlockController, offset: 0x50, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____emissionTextureColorPropertyBlockController;
+
+  /// @brief Field _bloomPrePassRenderer, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer> ____bloomPrePassRenderer;
 
-  /// @brief Field _bloomIntensityMultiplier, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _bloomIntensityMultiplier, offset: 0x60, size: 0x4, def value: None
   float_t ____bloomIntensityMultiplier;
 
-  /// @brief Field _pointLightColor, offset: 0x54, size: 0x10, def value: None
+  /// @brief Field _pointLightColor, offset: 0x64, size: 0x10, def value: None
   ::UnityEngine::Color ____pointLightColor;
 
-  /// @brief Field _contributeCustomLightColor, offset: 0x64, size: 0x1, def value: None
+  /// @brief Field _contributeCustomLightColor, offset: 0x74, size: 0x1, def value: None
   bool ____contributeCustomLightColor;
 
-  /// @brief Field _customLightColorContribution, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _customLightColorContribution, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____customLightColorContribution;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _lightWithIdManager, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _lightWithIdManager, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightWithIdManager;
 
-  /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____lightColorBeatmapEventCallbackWrapper;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireEffect, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FireEffect, ____groupId) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FireEffect, ____elementId) == 0x24, "Offset mismatch!");
@@ -272,23 +295,29 @@ static_assert(offsetof(::GlobalNamespace::FireEffect, ____flipBookPropertyBlockC
 
 static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomPropertyBlockController) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____privatePointLightPropertyBlockController) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____useEmissionColor) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomPrePassRenderer) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____privatePointLightPropertyBlockController) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomIntensityMultiplier) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____emissionTextureColorPropertyBlockController) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____pointLightColor) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomPrePassRenderer) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____contributeCustomLightColor) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomIntensityMultiplier) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____customLightColorContribution) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____pointLightColor) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____beatmapCallbacksController) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____contributeCustomLightColor) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightWithIdManager) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____customLightColorContribution) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightColorBeatmapEventCallbackWrapper) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____beatmapCallbacksController) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightWithIdManager) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightColorBeatmapEventCallbackWrapper) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireEffect, 0x98>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FireEffect);

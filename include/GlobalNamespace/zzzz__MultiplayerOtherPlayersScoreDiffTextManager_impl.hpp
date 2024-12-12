@@ -11,80 +11,78 @@
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::*)()>(
-    &::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::*)()>(
+    &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b77388;
+  constexpr static std::size_t addrs = 0x3bd8e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c._Update_b__10_0
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c._Update_b__10_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::*)(
-    ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*)>(&::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::_Update_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::*)(
+    ::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(&::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::_Update_b__10_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b77390;
+  constexpr static std::size_t addrs = 0x3bd8e60;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get(), "<Update>b__10_0",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get(), "<Update>b__10_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::setStaticF___9(::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get>(
-      std::forward<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>(value));
+inline void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::setStaticF___9(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get>(
+      std::forward<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>(value));
 }
-inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get>();
+inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get>();
 }
-inline void GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::setStaticF___9__10_0(::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get>(
-      std::forward<::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>*>(value));
+inline void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::setStaticF___9__10_0(::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>*, "<>9__10_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get>(
+      std::forward<::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>* GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::getStaticF___9__10_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get>();
+inline ::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>* GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::getStaticF___9__10_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>*, "<>9__10_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get>();
 }
-inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>());
-}
-inline void GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::_ctor() {
+inline void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::_Update_b__10_0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*>::get(), "<Update>b__10_0",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>::get() })));
+inline bool GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::_Update_b__10_0(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* p) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>::get(), "<Update>b__10_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, p);
 }
+inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::__MultiplayerOtherPlayersScoreDiffTextManager____c() {}
+constexpr ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c::MultiplayerOtherPlayersScoreDiffTextManager___c() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::Start)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b763f0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3bd7ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::OnDestroy)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b764a8;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3bd7f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::Update)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x3b76578;
+  constexpr static std::size_t addrs = 0x3bd8048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::InitLeftRightPositions)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x3b76d00;
+  constexpr static std::size_t addrs = 0x3bd87d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HideAll)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x3b76940;
+  constexpr static std::size_t addrs = 0x3bd8410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,14 +155,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)(
-    ::GlobalNamespace::__MultiplayerController__State)>(&::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged)> {
+    ::GlobalNamespace::MultiplayerController_State)>(&::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3b771bc;
+  constexpr static std::size_t addrs = 0x3bd8c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*>::get(), "HandleStateChanged", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerController__State>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerController_State>::get() })));
     return ___internal_method;
   }
 };
@@ -174,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b77324;
+  constexpr static std::size_t addrs = 0x3bd8df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,8 +221,7 @@ constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::Multi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
-GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
@@ -236,8 +233,7 @@ constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::Multip
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const&
-GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__layoutProvider() const {
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__layoutProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
@@ -245,16 +241,15 @@ constexpr void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layoutProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::CoreGameHUDController_InitData*& GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const&
-GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::CoreGameHUDController_InitData* const& GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value) {
+constexpr void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::__cordl_internal_set__initData(::GlobalNamespace::CoreGameHUDController_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -300,20 +295,20 @@ inline void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HideAl
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState) {
+inline void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*>::get(), "HandleStateChanged", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerController__State>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerController_State>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newState);
-}
-inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*>());
 }
 inline void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::MultiplayerOtherPlayersScoreDiffTextManager() {}

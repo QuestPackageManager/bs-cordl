@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AbstractTlsCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -17,11 +15,10 @@ class AbstractTlsCredentials;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials);
-// Type: Org.BouncyCastle.Crypto.Tls::AbstractTlsCredentials
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Tls.TlsCredentials, System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsCredentials*
+// CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsCredentials
 class CORDL_TYPE AbstractTlsCredentials : public ::System::Object {
 public:
   // Declarations
@@ -32,10 +29,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ab324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23de610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Certificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Certificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"

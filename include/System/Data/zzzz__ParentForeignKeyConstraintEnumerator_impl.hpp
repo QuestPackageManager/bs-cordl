@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ParentForeignKeyConstraintEnumerator::*)(::System::Data::DataSet*, ::System::Data::DataTable*)>(
     &::System::Data::ParentForeignKeyConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40f68e4;
+  constexpr static std::size_t addrs = 0x4157bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ParentForeignKeyConstraintEnumerator::*)(::System::Data::Constraint*)>(
     &::System::Data::ParentForeignKeyConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x40f6908;
+  constexpr static std::size_t addrs = 0x4157c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,16 +41,13 @@ constexpr ::System::Data::DataTable*& System::Data::ParentForeignKeyConstraintEn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::ParentForeignKeyConstraintEnumerator::__cordl_internal_get__table() const {
+constexpr ::System::Data::DataTable* const& System::Data::ParentForeignKeyConstraintEnumerator::__cordl_internal_get__table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
 constexpr void System::Data::ParentForeignKeyConstraintEnumerator::__cordl_internal_set__table(::System::Data::DataTable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Data::ParentForeignKeyConstraintEnumerator* System::Data::ParentForeignKeyConstraintEnumerator::New_ctor(::System::Data::DataSet* dataSet, ::System::Data::DataTable* inTable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ParentForeignKeyConstraintEnumerator*>(dataSet, inTable));
 }
 inline void System::Data::ParentForeignKeyConstraintEnumerator::_ctor(::System::Data::DataSet* dataSet, ::System::Data::DataTable* inTable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,6 +60,9 @@ inline bool System::Data::ParentForeignKeyConstraintEnumerator::IsValidCandidate
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ParentForeignKeyConstraintEnumerator*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, constraint);
+}
+inline ::System::Data::ParentForeignKeyConstraintEnumerator* System::Data::ParentForeignKeyConstraintEnumerator::New_ctor(::System::Data::DataSet* dataSet, ::System::Data::DataTable* inTable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ParentForeignKeyConstraintEnumerator*>(dataSet, inTable));
 }
 // Ctor Parameters []
 constexpr ::System::Data::ParentForeignKeyConstraintEnumerator::ParentForeignKeyConstraintEnumerator() {}

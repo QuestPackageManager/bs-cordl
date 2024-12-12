@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ObjRefSurrogate)
-namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
-}
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
@@ -26,27 +24,26 @@ class ObjRefSurrogate;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ObjRefSurrogate);
-// Type: System.Runtime.Remoting.Messaging::ObjRefSurrogate
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.ISerializationSurrogate
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::ObjRefSurrogate*
+// CS Name: System.Runtime.Remoting.Messaging.ObjRefSurrogate
 class CORDL_TYPE ObjRefSurrogate : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3c90404, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3cf0578, size 0x100, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
   static inline ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* New_ctor();
 
-  /// @brief Method SetObjectData, addr 0x3c905d8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method SetObjectData, addr 0x3cf074c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
-  /// @brief Method .ctor, addr 0x3c90624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf0798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"

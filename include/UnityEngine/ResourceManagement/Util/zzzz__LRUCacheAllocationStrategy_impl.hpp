@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ResourceManagement/Util/LRUCacheAllocationStrategy.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LRUCacheAllocationStrategy_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4729cbc;
+  constexpr static std::size_t addrs = 0x478afd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Object*>* (
     ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)()>(&::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::GetPool)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x473512c;
+  constexpr static std::size_t addrs = 0x4796440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(
     ::System::Collections::Generic::List_1<::System::Object*>*)>(&::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::ReleasePool)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x473521c;
+  constexpr static std::size_t addrs = 0x4796530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(::System::Type*, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x47352d8;
+  constexpr static std::size_t addrs = 0x47965ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int32_t, ::System::Object*)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::Release)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4735414;
+  constexpr static std::size_t addrs = 0x4796728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,15 +83,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
-constexpr UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
-constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*
-UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(static_cast<void*>(this));
-}
 constexpr int32_t& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__cordl_internal_get_m_poolMaxSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolMaxSize;
@@ -133,7 +124,7 @@ UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolCache;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*> const&
+constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* const&
 UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__cordl_internal_get_m_poolCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolCache;
@@ -148,7 +139,7 @@ UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cache;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* const&
 UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__cordl_internal_get_m_cache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cache;
@@ -157,10 +148,6 @@ constexpr void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy
     ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*
-UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity));
 }
 inline void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,6 +179,19 @@ inline void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::R
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*>::get(), "Release", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, typeHash, obj);
+}
+inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*
+UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity));
+}
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
+constexpr UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
+constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*
+UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::LRUCacheAllocationStrategy() {}

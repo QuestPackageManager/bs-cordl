@@ -13,30 +13,29 @@ class __Error;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::__Error);
-// Type: System.IO::__Error
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::__Error*
+// CS Name: System.IO.__Error
 class CORDL_TYPE __Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndOfFile, addr 0x3d1553c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EndOfFile, addr 0x3d756b0, size 0x58, virtual false, abstract: false, final false
   static inline void EndOfFile();
 
-  /// @brief Method FileNotOpen, addr 0x3d15594, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method FileNotOpen, addr 0x3d75708, size 0x5c, virtual false, abstract: false, final false
   static inline void FileNotOpen();
 
-  /// @brief Method GetDisplayablePath, addr 0x3d1564c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayablePath, addr 0x3d757c0, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayablePath(::StringW path, bool isInvalidPath);
 
-  /// @brief Method ReaderClosed, addr 0x3d155f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReaderClosed, addr 0x3d75764, size 0x5c, virtual false, abstract: false, final false
   static inline void ReaderClosed();
 
-  /// @brief Method WinIOError, addr 0x3d15798, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method WinIOError, addr 0x3d7590c, size 0x55c, virtual false, abstract: false, final false
   static inline void WinIOError(int32_t errorCode, ::StringW maybeFullPath);
 
-  /// @brief Method WriterClosed, addr 0x3d15cf4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriterClosed, addr 0x3d75e68, size 0x5c, virtual false, abstract: false, final false
   static inline void WriterClosed();
 
 protected:

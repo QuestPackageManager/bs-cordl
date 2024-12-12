@@ -13,15 +13,14 @@ class PlatformUserModelUtils;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlatformUserModelUtils);
-// Type: ::PlatformUserModelUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlatformUserModelUtils*
+// CS Name: PlatformUserModelUtils
 class CORDL_TYPE PlatformUserModelUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateXPlatformAccessToken, addr 0x401dee8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ValidateXPlatformAccessToken, addr 0x407f1fc, size 0x14, virtual false, abstract: false, final false
   static inline bool ValidateXPlatformAccessToken(::StringW token);
 
 protected:
@@ -39,7 +38,7 @@ public:
   PlatformUserModelUtils(PlatformUserModelUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18750 };
 
   /// @brief Field kMinimalTokenLength offset 0xffffffff size 0x4
   static constexpr int32_t kMinimalTokenLength{ static_cast<int32_t>(0x40) };

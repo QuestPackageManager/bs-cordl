@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
     &::Zenject::SignalTickPriorityCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a94110;
+  constexpr static std::size_t addrs = 0x4af8a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalDeclarationBindInfo* (::Zenject::SignalTickPriorityCopyBinder::*)()>(
     &::Zenject::SignalTickPriorityCopyBinder::get_SignalBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a94660;
+  constexpr static std::size_t addrs = 0x4af8f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalTickPriorityCopyBinder*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
     &::Zenject::SignalTickPriorityCopyBinder::set_SignalBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a94668;
+  constexpr static std::size_t addrs = 0x4af8f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalCopyBinder* (::Zenject::SignalTickPriorityCopyBinder::*)(int32_t)>(
     &::Zenject::SignalTickPriorityCopyBinder::WithTickPriority)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a94670;
+  constexpr static std::size_t addrs = 0x4af8f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,16 +67,13 @@ constexpr ::Zenject::SignalDeclarationBindInfo*& Zenject::SignalTickPriorityCopy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalBindInfo_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalDeclarationBindInfo*> const& Zenject::SignalTickPriorityCopyBinder::__cordl_internal_get__SignalBindInfo_k__BackingField() const {
+constexpr ::Zenject::SignalDeclarationBindInfo* const& Zenject::SignalTickPriorityCopyBinder::__cordl_internal_get__SignalBindInfo_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalBindInfo_k__BackingField;
 }
 constexpr void Zenject::SignalTickPriorityCopyBinder::__cordl_internal_set__SignalBindInfo_k__BackingField(::Zenject::SignalDeclarationBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SignalBindInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::SignalTickPriorityCopyBinder* Zenject::SignalTickPriorityCopyBinder::New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SignalTickPriorityCopyBinder*>(signalBindInfo));
 }
 inline void Zenject::SignalTickPriorityCopyBinder::_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -100,6 +97,9 @@ inline ::Zenject::SignalCopyBinder* Zenject::SignalTickPriorityCopyBinder::WithT
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalTickPriorityCopyBinder*>::get(), "WithTickPriority",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::SignalCopyBinder*, false>(this, ___internal_method, priority);
+}
+inline ::Zenject::SignalTickPriorityCopyBinder* Zenject::SignalTickPriorityCopyBinder::New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SignalTickPriorityCopyBinder*>(signalBindInfo));
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalTickPriorityCopyBinder::SignalTickPriorityCopyBinder() {}

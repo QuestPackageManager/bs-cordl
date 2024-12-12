@@ -63,11 +63,10 @@ class BeatmapSaveData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BeatmapSaveData);
-// Type: BeatmapSaveDataVersion3::BeatmapSaveData
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::BeatmapSaveData*
+// CS Name: BeatmapSaveDataVersion3.BeatmapSaveData
 class CORDL_TYPE BeatmapSaveData : public ::System::Object {
 public:
   // Declarations
@@ -151,64 +150,61 @@ public:
            ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* vfxEventBoxGroups, ::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection,
            ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, bool useNormalEventsAsCompatibleEvents);
 
+  constexpr ::BeatmapSaveDataVersion3::FxEventsCollection* const& __cordl_internal_get__fxEventsCollection() const;
+
   constexpr ::BeatmapSaveDataVersion3::FxEventsCollection*& __cordl_internal_get__fxEventsCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::FxEventsCollection*> const& __cordl_internal_get__fxEventsCollection() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>* const& __cordl_internal_get_basicBeatmapEvents() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>*& __cordl_internal_get_basicBeatmapEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>*> const& __cordl_internal_get_basicBeatmapEvents() const;
+  constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* const& __cordl_internal_get_basicEventTypesWithKeywords() const;
 
   constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*& __cordl_internal_get_basicEventTypesWithKeywords();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*> const& __cordl_internal_get_basicEventTypesWithKeywords() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BombNoteData*>* const& __cordl_internal_get_bombNotes() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BombNoteData*>*& __cordl_internal_get_bombNotes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BombNoteData*>*> const& __cordl_internal_get_bombNotes() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* const& __cordl_internal_get_bpmEvents() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>*& __cordl_internal_get_bpmEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>*> const& __cordl_internal_get_bpmEvents() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BurstSliderData*>* const& __cordl_internal_get_burstSliders() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BurstSliderData*>*& __cordl_internal_get_burstSliders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BurstSliderData*>*> const& __cordl_internal_get_burstSliders() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>* const& __cordl_internal_get_colorBoostBeatmapEvents() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>*& __cordl_internal_get_colorBoostBeatmapEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>*> const& __cordl_internal_get_colorBoostBeatmapEvents() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorNoteData*>* const& __cordl_internal_get_colorNotes() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorNoteData*>*& __cordl_internal_get_colorNotes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorNoteData*>*> const& __cordl_internal_get_colorNotes() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>* const& __cordl_internal_get_lightColorEventBoxGroups() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>*& __cordl_internal_get_lightColorEventBoxGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>*> const&
-  __cordl_internal_get_lightColorEventBoxGroups() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>* const& __cordl_internal_get_lightRotationEventBoxGroups() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>*& __cordl_internal_get_lightRotationEventBoxGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>*> const&
-  __cordl_internal_get_lightRotationEventBoxGroups() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>* const& __cordl_internal_get_lightTranslationEventBoxGroups() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>*& __cordl_internal_get_lightTranslationEventBoxGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>*> const&
-  __cordl_internal_get_lightTranslationEventBoxGroups() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ObstacleData*>* const& __cordl_internal_get_obstacles() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ObstacleData*>*& __cordl_internal_get_obstacles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ObstacleData*>*> const& __cordl_internal_get_obstacles() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* const& __cordl_internal_get_rotationEvents() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>*& __cordl_internal_get_rotationEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>*> const& __cordl_internal_get_rotationEvents() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::SliderData*>* const& __cordl_internal_get_sliders() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::SliderData*>*& __cordl_internal_get_sliders();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::SliderData*>*> const& __cordl_internal_get_sliders() const;
 
   constexpr bool const& __cordl_internal_get_useNormalEventsAsCompatibleEvents() const;
 
@@ -218,13 +214,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_version();
 
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* const& __cordl_internal_get_vfxEventBoxGroups() const;
+
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>*& __cordl_internal_get_vfxEventBoxGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>*> const& __cordl_internal_get_vfxEventBoxGroups() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* const& __cordl_internal_get_waypoints() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>*& __cordl_internal_get_waypoints();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>*> const& __cordl_internal_get_waypoints() const;
 
   constexpr void __cordl_internal_set__fxEventsCollection(::BeatmapSaveDataVersion3::FxEventsCollection* value);
 
@@ -262,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set_waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* value);
 
-  /// @brief Method .ctor, addr 0x26d389c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270520c, size 0xfc, virtual false, abstract: false, final false
   inline void
   _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEvents,
         ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEvents,
@@ -290,6 +286,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapSaveData(BeatmapSaveData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13390 };
+
+  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCurrentVersion{ u"3.3.0" };
 
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::StringW ___version;
@@ -345,17 +347,9 @@ public:
   /// @brief Field useNormalEventsAsCompatibleEvents, offset: 0x98, size: 0x1, def value: None
   bool ___useNormalEventsAsCompatibleEvents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13359 };
-
-  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"3.3.0" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BeatmapSaveData, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::BeatmapSaveData, ___version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::BeatmapSaveData, ___bpmEvents) == 0x18, "Offset mismatch!");
@@ -391,6 +385,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::BeatmapSaveData, ____fxEventsC
 static_assert(offsetof(::BeatmapSaveDataVersion3::BeatmapSaveData, ___basicEventTypesWithKeywords) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::BeatmapSaveData, ___useNormalEventsAsCompatibleEvents) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BeatmapSaveData, 0xa0>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::BeatmapSaveData);

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)(::System::LocalDataStoreMgr*, int32_t)>(&::System::LocalDataStore::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3db2bb8;
+  constexpr static std::size_t addrs = 0x3e12c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)()>(&::System::LocalDataStore::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3db2b54;
+  constexpr static std::size_t addrs = 0x3e12c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStore*>::get(), "Dispose",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::LocalDataStore::*)(::System::LocalDataStoreSlot*)>(&::System::LocalDataStore::GetData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3db2d2c;
+  constexpr static std::size_t addrs = 0x3e12dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)(::System::LocalDataStoreSlot*, ::System::Object*)>(
     &::System::LocalDataStore::SetData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3db2e70;
+  constexpr static std::size_t addrs = 0x3e12f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)(int32_t, int64_t)>(&::System::LocalDataStore::FreeData)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3db31c0;
+  constexpr static std::size_t addrs = 0x3e1326c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreElement* (::System::LocalDataStore::*)(::System::LocalDataStoreSlot*)>(
     &::System::LocalDataStore::PopulateElement)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3db2f4c;
+  constexpr static std::size_t addrs = 0x3e12ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,16 +109,13 @@ constexpr ::System::LocalDataStoreMgr*& System::LocalDataStore::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Manager;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& System::LocalDataStore::__cordl_internal_get_m_Manager() const {
+constexpr ::System::LocalDataStoreMgr* const& System::LocalDataStore::__cordl_internal_get_m_Manager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Manager;
 }
 constexpr void System::LocalDataStore::__cordl_internal_set_m_Manager(::System::LocalDataStoreMgr* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Manager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::LocalDataStore* System::LocalDataStore::New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::LocalDataStore*>(mgr, InitialCapacity));
 }
 inline void System::LocalDataStore::_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity) {
   static auto* ___internal_method =
@@ -156,6 +153,9 @@ inline ::System::LocalDataStoreElement* System::LocalDataStore::PopulateElement(
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStore*>::get(), "PopulateElement", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::LocalDataStoreSlot*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::LocalDataStoreElement*, false>(this, ___internal_method, slot);
+}
+inline ::System::LocalDataStore* System::LocalDataStore::New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::LocalDataStore*>(mgr, InitialCapacity));
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStore::LocalDataStore() {}

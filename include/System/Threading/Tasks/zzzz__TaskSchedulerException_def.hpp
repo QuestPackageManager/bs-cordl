@@ -20,11 +20,10 @@ class TaskSchedulerException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::TaskSchedulerException);
-// Type: System.Threading.Tasks::TaskSchedulerException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::TaskSchedulerException*
+// CS Name: System.Threading.Tasks.TaskSchedulerException
 class CORDL_TYPE TaskSchedulerException : public ::System::Exception {
 public:
   // Declarations
@@ -34,13 +33,13 @@ public:
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3dfd6c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5d76c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dfd7b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5d85c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dfd730, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5d7dc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* innerException);
 
 protected:

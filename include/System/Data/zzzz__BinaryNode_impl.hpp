@@ -14,52 +14,52 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence::__BinaryNode__DataTypePrecedence(int32_t value__) noexcept {
+constexpr ::System::Data::BinaryNode_DataTypePrecedence::BinaryNode_DataTypePrecedence(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence::__BinaryNode__DataTypePrecedence() {}
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlDateTime{ static_cast<int32_t>(0x19) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::DateTimeOffset{ static_cast<int32_t>(0x18) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::DateTime{ static_cast<int32_t>(0x17) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::TimeSpan{ static_cast<int32_t>(0x14) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlDouble{ static_cast<int32_t>(0x13) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Double{ static_cast<int32_t>(0x12) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlSingle{ static_cast<int32_t>(0x11) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Single{ static_cast<int32_t>(0x10) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlDecimal{ static_cast<int32_t>(0xf) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Decimal{ static_cast<int32_t>(0xe) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlMoney{ static_cast<int32_t>(0xd) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::UInt64{ static_cast<int32_t>(0xc) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlInt64{ static_cast<int32_t>(0xb) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Int64{ static_cast<int32_t>(0xa) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::UInt32{ static_cast<int32_t>(0x9) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlInt32{ static_cast<int32_t>(0x8) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Int32{ static_cast<int32_t>(0x7) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::UInt16{ static_cast<int32_t>(0x6) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlInt16{ static_cast<int32_t>(0x5) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Int16{ static_cast<int32_t>(0x4) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Byte{ static_cast<int32_t>(0x3) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlByte{ static_cast<int32_t>(0x2) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SByte{ static_cast<int32_t>(0x1) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Error{ static_cast<int32_t>(0x0) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlBoolean{ static_cast<int32_t>(0xffffffff) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Boolean{ static_cast<int32_t>(0xfffffffe) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlGuid{ static_cast<int32_t>(0xfffffffd) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlString{ static_cast<int32_t>(0xfffffffc) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::String{ static_cast<int32_t>(0xfffffffb) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlXml{ static_cast<int32_t>(0xfffffffa) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlChars{ static_cast<int32_t>(0xfffffff9) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::Char{ static_cast<int32_t>(0xfffffff8) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlBytes{ static_cast<int32_t>(0xfffffff7) };
-constexpr ::System::Data::__BinaryNode__DataTypePrecedence System::Data::__BinaryNode__DataTypePrecedence::SqlBinary{ static_cast<int32_t>(0xfffffff6) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence::BinaryNode_DataTypePrecedence() {}
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlDateTime{ static_cast<int32_t>(0x19) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::DateTimeOffset{ static_cast<int32_t>(0x18) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::DateTime{ static_cast<int32_t>(0x17) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::TimeSpan{ static_cast<int32_t>(0x14) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlDouble{ static_cast<int32_t>(0x13) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Double{ static_cast<int32_t>(0x12) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlSingle{ static_cast<int32_t>(0x11) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Single{ static_cast<int32_t>(0x10) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlDecimal{ static_cast<int32_t>(0xf) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Decimal{ static_cast<int32_t>(0xe) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlMoney{ static_cast<int32_t>(0xd) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::UInt64{ static_cast<int32_t>(0xc) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlInt64{ static_cast<int32_t>(0xb) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Int64{ static_cast<int32_t>(0xa) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::UInt32{ static_cast<int32_t>(0x9) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlInt32{ static_cast<int32_t>(0x8) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Int32{ static_cast<int32_t>(0x7) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::UInt16{ static_cast<int32_t>(0x6) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlInt16{ static_cast<int32_t>(0x5) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Int16{ static_cast<int32_t>(0x4) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Byte{ static_cast<int32_t>(0x3) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlByte{ static_cast<int32_t>(0x2) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SByte{ static_cast<int32_t>(0x1) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Error{ static_cast<int32_t>(0x0) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlBoolean{ static_cast<int32_t>(0xffffffff) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Boolean{ static_cast<int32_t>(0xfffffffe) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlGuid{ static_cast<int32_t>(0xfffffffd) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlString{ static_cast<int32_t>(0xfffffffc) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::String{ static_cast<int32_t>(0xfffffffb) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlXml{ static_cast<int32_t>(0xfffffffa) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlChars{ static_cast<int32_t>(0xfffffff9) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::Char{ static_cast<int32_t>(0xfffffff8) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlBytes{ static_cast<int32_t>(0xfffffff7) };
+constexpr ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode_DataTypePrecedence::SqlBinary{ static_cast<int32_t>(0xfffffff6) };
 //  Writing Method size for method: ::System::Data::BinaryNode._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::BinaryNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*)>(&::System::Data::BinaryNode::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x410cdf4;
+  constexpr static std::size_t addrs = 0x416e108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::BinaryNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::BinaryNode::Bind)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x410ce38;
+  constexpr static std::size_t addrs = 0x416e14c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x410ce8c;
+  constexpr static std::size_t addrs = 0x416e1a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::BinaryNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x410cea0;
+  constexpr static std::size_t addrs = 0x416e1b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::BinaryNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4112624;
+  constexpr static std::size_t addrs = 0x4173938;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::IsConstant)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4112640;
+  constexpr static std::size_t addrs = 0x4173954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4112688;
+  constexpr static std::size_t addrs = 0x417399c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41126d0;
+  constexpr static std::size_t addrs = 0x41739e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4112718;
+  constexpr static std::size_t addrs = 0x4173a2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::DataColumn*)>(&::System::Data::BinaryNode::DependsOn)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4112760;
+  constexpr static std::size_t addrs = 0x4173a74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::Optimize)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x41127c4;
+  constexpr static std::size_t addrs = 0x4173ad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::BinaryNode::*)(int32_t, ::System::Type*, ::System::Type*)>(
     &::System::Data::BinaryNode::SetTypeMismatchError)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4112d1c;
+  constexpr static std::size_t addrs = 0x4174030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Data::ExpressionNode*, ::System::Data::DataRow*, ::System::Data::DataRowVersion,
                                                                                                         ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4112e1c;
+  constexpr static std::size_t addrs = 0x4174130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Data::BinaryNode::*)(::System::Object*, ::System::Object*, ::System::Data::Common::StorageType, int32_t)>(&::System::Data::BinaryNode::BinaryCompare)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4112e4c;
+  constexpr static std::size_t addrs = 0x4174160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::BinaryNode::*)(
     ::System::Object*, ::System::Object*, ::System::Data::Common::StorageType, int32_t, ::System::Globalization::CompareInfo*)>(&::System::Data::BinaryNode::BinaryCompare)> {
   constexpr static std::size_t size = 0xfb0;
-  constexpr static std::size_t addrs = 0x4112e54;
+  constexpr static std::size_t addrs = 0x4174168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::BinaryNode::*)(int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*, ::System::Data::DataRow*, ::System::Data::DataRowVersion,
                                                                   ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::System::Data::BinaryNode::EvalBinaryOp)> {
   constexpr static std::size_t size = 0x5768;
-  constexpr static std::size_t addrs = 0x410cebc;
+  constexpr static std::size_t addrs = 0x416e1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -309,10 +309,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::System::Data::BinaryNode.GetPrecedence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Data::__BinaryNode__DataTypePrecedence (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType)>(&::System::Data::BinaryNode::GetPrecedence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::BinaryNode_DataTypePrecedence (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType)>(
+    &::System::Data::BinaryNode::GetPrecedence)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4114a30;
+  constexpr static std::size_t addrs = 0x4175d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,15 +324,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::System::Data::BinaryNode.GetPrecedenceType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (*)(::System::Data::__BinaryNode__DataTypePrecedence)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (*)(::System::Data::BinaryNode_DataTypePrecedence)>(
     &::System::Data::BinaryNode::GetPrecedenceType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4114a54;
+  constexpr static std::size_t addrs = 0x4175d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::BinaryNode*>::get(), "GetPrecedenceType", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::__BinaryNode__DataTypePrecedence>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::BinaryNode_DataTypePrecedence>::get() })));
     return ___internal_method;
   }
 };
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType)>(
     &::System::Data::BinaryNode::IsMixed)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4114a78;
+  constexpr static std::size_t addrs = 0x4175d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType)>(
     &::System::Data::BinaryNode::IsMixedSql)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4114b5c;
+  constexpr static std::size_t addrs = 0x4175e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (::System::Data::BinaryNode::*)(
     ::System::Data::Common::StorageType, ::System::Data::Common::StorageType, bool, bool, int32_t)>(&::System::Data::BinaryNode::ResultType)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x41144d8;
+  constexpr static std::size_t addrs = 0x41757ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (::System::Data::BinaryNode::*)(
     ::System::Data::Common::StorageType, ::System::Data::Common::StorageType, bool, bool, int32_t)>(&::System::Data::BinaryNode::ResultSqlType)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x41140f4;
+  constexpr static std::size_t addrs = 0x4175408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::BinaryNode::*)(int32_t)>(&::System::Data::BinaryNode::SqlResultType)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4114d3c;
+  constexpr static std::size_t addrs = 0x4176050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ constexpr ::System::Data::ExpressionNode*& System::Data::BinaryNode::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____left;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::ExpressionNode*> const& System::Data::BinaryNode::__cordl_internal_get__left() const {
+constexpr ::System::Data::ExpressionNode* const& System::Data::BinaryNode::__cordl_internal_get__left() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____left;
 }
@@ -446,16 +446,13 @@ constexpr ::System::Data::ExpressionNode*& System::Data::BinaryNode::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____right;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::ExpressionNode*> const& System::Data::BinaryNode::__cordl_internal_get__right() const {
+constexpr ::System::Data::ExpressionNode* const& System::Data::BinaryNode::__cordl_internal_get__right() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____right;
 }
 constexpr void System::Data::BinaryNode::__cordl_internal_set__right(::System::Data::ExpressionNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____right)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Data::BinaryNode* System::Data::BinaryNode::New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::BinaryNode*>(table, op, left, right));
 }
 inline void System::Data::BinaryNode::_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right) {
   static auto* ___internal_method =
@@ -565,16 +562,16 @@ inline ::System::Object* System::Data::BinaryNode::EvalBinaryOp(int32_t op, ::Sy
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, op, left, right, row, version, recordNos);
 }
-inline ::System::Data::__BinaryNode__DataTypePrecedence System::Data::BinaryNode::GetPrecedence(::System::Data::Common::StorageType storageType) {
+inline ::System::Data::BinaryNode_DataTypePrecedence System::Data::BinaryNode::GetPrecedence(::System::Data::Common::StorageType storageType) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::BinaryNode*>::get(), "GetPrecedence", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Common::StorageType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Data::__BinaryNode__DataTypePrecedence, false>(this, ___internal_method, storageType);
+  return ::cordl_internals::RunMethodRethrow<::System::Data::BinaryNode_DataTypePrecedence, false>(this, ___internal_method, storageType);
 }
-inline ::System::Data::Common::StorageType System::Data::BinaryNode::GetPrecedenceType(::System::Data::__BinaryNode__DataTypePrecedence code) {
+inline ::System::Data::Common::StorageType System::Data::BinaryNode::GetPrecedenceType(::System::Data::BinaryNode_DataTypePrecedence code) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::BinaryNode*>::get(), "GetPrecedenceType", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::__BinaryNode__DataTypePrecedence>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::BinaryNode_DataTypePrecedence>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Data::Common::StorageType, false>(nullptr, ___internal_method, code);
 }
 inline bool System::Data::BinaryNode::IsMixed(::System::Data::Common::StorageType left, ::System::Data::Common::StorageType right) {
@@ -614,6 +611,9 @@ inline int32_t System::Data::BinaryNode::SqlResultType(int32_t typeCode) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::BinaryNode*>::get(), "SqlResultType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, typeCode);
+}
+inline ::System::Data::BinaryNode* System::Data::BinaryNode::New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::BinaryNode*>(table, op, left, right));
 }
 // Ctor Parameters []
 constexpr ::System::Data::BinaryNode::BinaryNode() {}

@@ -14,11 +14,10 @@ class SettingsSection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::SettingsSection);
-// Type: System.Net.Configuration::SettingsSection
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.ConfigurationSection
 namespace System::Net::Configuration {
 // Is value type: false
-// CS Name: ::System.Net.Configuration::SettingsSection*
+// CS Name: System.Net.Configuration.SettingsSection
 class CORDL_TYPE SettingsSection : public ::System::Configuration::ConfigurationSection {
 public:
   // Declarations
@@ -26,10 +25,10 @@ public:
 
   static inline ::System::Net::Configuration::SettingsSection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a4b80, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4405e94, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x43a4bb8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x4405ecc, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -47,7 +46,7 @@ public:
   SettingsSection(SettingsSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

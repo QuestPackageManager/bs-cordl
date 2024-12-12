@@ -3,15 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteController)
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
 }
@@ -40,10 +41,10 @@ namespace GlobalNamespace {
 class INoteControllerNoteWasMissedEvent;
 }
 namespace GlobalNamespace {
-class INoteMirrorable;
+template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+class NoteController__DissolveCoroutine_d__69;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
@@ -55,16 +56,10 @@ namespace GlobalNamespace {
 class NoteMovement;
 }
 namespace GlobalNamespace {
-class __NoteController___DissolveCoroutine_d__75;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+struct NoteSpawnData;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -83,17 +78,16 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class __NoteController___DissolveCoroutine_d__75;
+class NoteController__DissolveCoroutine_d__69;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteController);
-MARK_REF_PTR_T(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75);
-// Type: ::<DissolveCoroutine>d__75
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::NoteController__DissolveCoroutine_d__69);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteController::<DissolveCoroutine>d__75*
-class CORDL_TYPE __NoteController___DissolveCoroutine_d__75 : public ::System::Object {
+// CS Name: NoteController/<DissolveCoroutine>d__69
+class CORDL_TYPE NoteController__DissolveCoroutine_d__69 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -121,30 +115,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3a907a4, size 0x3f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aea004, size 0x3f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__NoteController___DissolveCoroutine_d__75* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::NoteController__DissolveCoroutine_d__69* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a90b94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3aea3f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a90b9c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3aea3fc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a90bd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3aea434, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3a907a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3aea000, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::NoteController> const& __cordl_internal_get___4__this() const;
 
@@ -162,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a906f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae9f58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -177,16 +171,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NoteController___DissolveCoroutine_d__75();
+  constexpr NoteController__DissolveCoroutine_d__69();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NoteController___DissolveCoroutine_d__75", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteController__DissolveCoroutine_d__69", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NoteController___DissolveCoroutine_d__75(__NoteController___DissolveCoroutine_d__75&&) = delete;
+  NoteController__DissolveCoroutine_d__69(NoteController__DissolveCoroutine_d__69&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NoteController___DissolveCoroutine_d__75", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteController__DissolveCoroutine_d__69", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NoteController___DissolveCoroutine_d__75(__NoteController___DissolveCoroutine_d__75 const&) = delete;
+  NoteController__DissolveCoroutine_d__69(NoteController__DissolveCoroutine_d__69 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -200,32 +197,28 @@ public:
   /// @brief Field duration, offset: 0x28, size: 0x4, def value: None
   float_t ___duration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4100 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteController___DissolveCoroutine_d__75, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteController__DissolveCoroutine_d__69, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteController__DissolveCoroutine_d__69, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteController__DissolveCoroutine_d__69, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteController__DissolveCoroutine_d__69, ___duration) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75, ___duration) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteController__DissolveCoroutine_d__69, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::NoteController
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IBeatmapObjectController, INoteMirrorable, NoteControllerBase
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteController*
+// CS Name: NoteController
 class CORDL_TYPE NoteController : public ::GlobalNamespace::NoteControllerBase {
 public:
   // Declarations
-  using _DissolveCoroutine_d__75 = ::GlobalNamespace::__NoteController___DissolveCoroutine_d__75;
+  using _DissolveCoroutine_d__69 = ::GlobalNamespace::NoteController__DissolveCoroutine_d__69;
 
   /// @brief Field _didInitEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__didInitEvent,
@@ -289,15 +282,7 @@ public:
 
   __declspec(property(get = get_inverseWorldRotation)) ::UnityEngine::Quaternion inverseWorldRotation;
 
-  __declspec(property(get = get_jumpDuration)) float_t jumpDuration;
-
-  __declspec(property(get = get_jumpMoveVec)) ::UnityEngine::Vector3 jumpMoveVec;
-
   __declspec(property(get = get_jumpStartPos)) ::UnityEngine::Vector3 jumpStartPos;
-
-  __declspec(property(get = get_moveDuration)) float_t moveDuration;
-
-  __declspec(property(get = get_moveStartTime)) float_t moveStartTime;
 
   __declspec(property(get = get_moveVec)) ::UnityEngine::Vector3 moveVec;
 
@@ -313,6 +298,8 @@ public:
   __declspec(property(get = get_noteDidStartDissolvingEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
 
   __declspec(property(get = get_noteDidStartJumpEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* noteDidStartJumpEvent;
+
+  __declspec(property(get = get_noteTime)) float_t noteTime;
 
   __declspec(property(get = get_noteTransform)) ::UnityW<::UnityEngine::Transform> noteTransform;
 
@@ -330,75 +317,75 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Method Awake, addr 0x3a8b310, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ae4b08, size 0x174, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Dissolve, addr 0x3a90720, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dissolve, addr 0x3ae9f80, size 0x60, virtual true, abstract: false, final true
   inline void Dissolve(float_t duration);
 
-  /// @brief Method DissolveCoroutine, addr 0x3a90688, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DissolveCoroutine, addr 0x3ae9ee8, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
-  /// @brief Method HandleNoteDidFinishJump, addr 0x3a900bc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidFinishJump, addr 0x3ae9940, size 0x1f8, virtual false, abstract: false, final false
   inline void HandleNoteDidFinishJump();
 
-  /// @brief Method HandleNoteDidPassJumpThreeQuarters, addr 0x3a902b4, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidPassJumpThreeQuarters, addr 0x3ae9b38, size 0x200, virtual false, abstract: false, final false
   inline void HandleNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteMovement* noteMovement);
 
-  /// @brief Method HandleNoteDidPassMissedMarkerEvent, addr 0x3a904b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidPassMissedMarkerEvent, addr 0x3ae9d38, size 0x1c, virtual false, abstract: false, final false
   inline void HandleNoteDidPassMissedMarkerEvent();
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x3a8fedc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x3ae9760, size 0x1e0, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HiddenStateDidChange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method HiddenStateDidChange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hidden);
 
-  /// @brief Method Hide, addr 0x3a90780, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Hide, addr 0x3ae9fe0, size 0x18, virtual true, abstract: false, final true
   inline void Hide(bool hide);
 
-  /// @brief Method Init, addr 0x3a8aecc, size 0x354, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t moveDuration,
-                   float_t jumpDuration, float_t jumpGravity, float_t endRotation, float_t uniformScale, bool rotateTowardsPlayer, bool useRandomRotation);
+  /// @brief Method Init, addr 0x3ae4794, size 0x284, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t endRotation, float_t uniformScale, bool rotateTowardsPlayer,
+                   bool useRandomRotation);
 
-  /// @brief Method ManualUpdate, addr 0x3a8fe0c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3ae6470, size 0x18, virtual true, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::NoteController* New_ctor();
 
-  /// @brief Method NoteDidFinishJump, addr 0x3a904d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NoteDidFinishJump, addr 0x3ae9d58, size 0x4, virtual true, abstract: false, final false
   inline void NoteDidFinishJump();
 
-  /// @brief Method NoteDidPassJumpThreeQuarters, addr 0x3a904d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassJumpThreeQuarters, addr 0x3ae9d5c, size 0x4, virtual true, abstract: false, final false
   inline void NoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteMovement* noteMovement);
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x3a904dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x3ae9d60, size 0x4, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x3a904e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x3ae9d64, size 0x4, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method NoteDidStartJump, addr 0x3a904d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartJump, addr 0x3ae9d54, size 0x4, virtual true, abstract: false, final false
   inline void NoteDidStartJump();
 
-  /// @brief Method OnDestroy, addr 0x3a8b5f8, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ae4df0, size 0x1b8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Pause, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
-  /// @brief Method SendNoteWasCutEvent, addr 0x3a8bc8c, size 0x1dc, virtual false, abstract: false, final false
-  inline void SendNoteWasCutEvent(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  /// @brief Method SendNoteWasCutEvent, addr 0x3ae5484, size 0x1dc, virtual false, abstract: false, final false
+  inline void SendNoteWasCutEvent(::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method SendNoteWasMissedEvent, addr 0x3a8b7e0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SendNoteWasMissedEvent, addr 0x3ae4fd8, size 0x1cc, virtual false, abstract: false, final false
   inline void SendNoteWasMissedEvent();
 
-  /// @brief Method Update, addr 0x3a8fdfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ae9664, size 0x10, virtual false, abstract: false, final false
   inline void Update();
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*& __cordl_internal_get__didInitEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* const& __cordl_internal_get__didInitEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*> const& __cordl_internal_get__didInitEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*& __cordl_internal_get__didInitEvent();
 
   constexpr bool const& __cordl_internal_get__dissolving() const;
 
@@ -408,34 +395,29 @@ public:
 
   constexpr bool& __cordl_internal_get__hidden_k__BackingField();
 
+  constexpr ::GlobalNamespace::NoteData* const& __cordl_internal_get__noteData() const;
+
   constexpr ::GlobalNamespace::NoteData*& __cordl_internal_get__noteData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteData*> const& __cordl_internal_get__noteData() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* const& __cordl_internal_get__noteDidDissolveEvent() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>*& __cordl_internal_get__noteDidDissolveEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>*> const&
-  __cordl_internal_get__noteDidDissolveEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* const& __cordl_internal_get__noteDidFinishJumpEvent() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>*& __cordl_internal_get__noteDidFinishJumpEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>*> const&
-  __cordl_internal_get__noteDidFinishJumpEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* const& __cordl_internal_get__noteDidPassJumpThreeQuartersEvent() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*& __cordl_internal_get__noteDidPassJumpThreeQuartersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*> const&
-  __cordl_internal_get__noteDidPassJumpThreeQuartersEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* const& __cordl_internal_get__noteDidStartDissolvingEvent() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*& __cordl_internal_get__noteDidStartDissolvingEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*> const&
-  __cordl_internal_get__noteDidStartDissolvingEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* const& __cordl_internal_get__noteDidStartJumpEvent() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>*& __cordl_internal_get__noteDidStartJumpEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>*> const&
-  __cordl_internal_get__noteDidStartJumpEvent() const;
 
   constexpr ::UnityW<::GlobalNamespace::NoteMovement> const& __cordl_internal_get__noteMovement() const;
 
@@ -445,13 +427,13 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__noteTransform();
 
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>* const& __cordl_internal_get__noteWasCutEvent() const;
+
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>*& __cordl_internal_get__noteWasCutEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>*> const& __cordl_internal_get__noteWasCutEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>* const& __cordl_internal_get__noteWasMissedEvent() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>*& __cordl_internal_get__noteWasMissedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>*> const& __cordl_internal_get__noteWasMissedEvent() const;
 
   constexpr float_t const& __cordl_internal_get__uniformScale() const;
 
@@ -485,73 +467,64 @@ public:
 
   constexpr void __cordl_internal_set__uniformScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a8bec4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae56bc, size 0x254, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatPos, addr 0x3a8f7c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_beatPos, addr 0x3ae8ff4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_beatPos();
 
-  /// @brief Method get_didInitEvent, addr 0x3a8f638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_didInitEvent, addr 0x3ae8f2c, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* get_didInitEvent();
 
-  /// @brief Method get_dissolving, addr 0x3a8f8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dissolving, addr 0x3ae9154, size 0x8, virtual false, abstract: false, final false
   inline bool get_dissolving();
 
-  /// @brief Method get_hidden, addr 0x3a8f8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hidden, addr 0x3ae9140, size 0x8, virtual false, abstract: false, final false
   inline bool get_hidden();
 
-  /// @brief Method get_inverseWorldRotation, addr 0x3a8bc64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWorldRotation, addr 0x3ae545c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_jumpDuration, addr 0x3a8f740, size 0x24, virtual false, abstract: false, final false
-  inline float_t get_jumpDuration();
-
-  /// @brief Method get_jumpMoveVec, addr 0x3a8f780, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_jumpMoveVec();
-
-  /// @brief Method get_jumpStartPos, addr 0x3a8f824, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_jumpStartPos, addr 0x3ae9050, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_jumpStartPos();
 
-  /// @brief Method get_moveDuration, addr 0x3a8f700, size 0x24, virtual false, abstract: false, final false
-  inline float_t get_moveDuration();
-
-  /// @brief Method get_moveStartTime, addr 0x3a8f6c0, size 0x24, virtual false, abstract: false, final false
-  inline float_t get_moveStartTime();
-
-  /// @brief Method get_moveVec, addr 0x3a8f874, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_moveVec, addr 0x3ae9090, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_moveVec();
 
-  /// @brief Method get_noteData, addr 0x3a8f86c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_noteData, addr 0x3ae9088, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method get_noteDidDissolveEvent, addr 0x3a8f670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteDidDissolveEvent, addr 0x3ae8f64, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* get_noteDidDissolveEvent();
 
-  /// @brief Method get_noteDidFinishJumpEvent, addr 0x3a8f648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteDidFinishJumpEvent, addr 0x3ae8f3c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* get_noteDidFinishJumpEvent();
 
-  /// @brief Method get_noteDidPassJumpThreeQuartersEvent, addr 0x3a8f650, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_noteDidPassJumpThreeQuartersEvent, addr 0x3ae8f44, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* get_noteDidPassJumpThreeQuartersEvent();
 
-  /// @brief Method get_noteDidStartDissolvingEvent, addr 0x3a8f668, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_noteDidStartDissolvingEvent, addr 0x3ae8f5c, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
 
-  /// @brief Method get_noteDidStartJumpEvent, addr 0x3a8f640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteDidStartJumpEvent, addr 0x3ae8f34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* get_noteDidStartJumpEvent();
 
-  /// @brief Method get_noteTransform, addr 0x3a8f678, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteTime, addr 0x3ae8fb4, size 0x24, virtual false, abstract: false, final false
+  inline float_t get_noteTime();
+
+  /// @brief Method get_noteTransform, addr 0x3ae8f6c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> get_noteTransform();
 
-  /// @brief Method get_noteWasCutEvent, addr 0x3a8f658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteWasCutEvent, addr 0x3ae8f4c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>* get_noteWasCutEvent();
 
-  /// @brief Method get_noteWasMissedEvent, addr 0x3a8f660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteWasMissedEvent, addr 0x3ae8f54, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>* get_noteWasMissedEvent();
 
-  /// @brief Method get_uniformScale, addr 0x3a8f8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uniformScale, addr 0x3ae9138, size 0x8, virtual false, abstract: false, final false
   inline float_t get_uniformScale();
 
-  /// @brief Method get_worldRotation, addr 0x3a8bc3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_worldRotation, addr 0x3ae5434, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
@@ -560,7 +533,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
   constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
-  /// @brief Method set_hidden, addr 0x3a8f8e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hidden, addr 0x3ae9148, size 0xc, virtual false, abstract: false, final false
   inline void set_hidden(bool value);
 
 protected:
@@ -576,6 +549,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NoteController(NoteController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4113 };
 
   /// @brief Field _noteMovement, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
@@ -619,14 +595,9 @@ public:
   /// @brief Field _uniformScale, offset: 0x84, size: 0x4, def value: None
   float_t ____uniformScale;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4101 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteController, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteController, ____noteMovement) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteController, ____noteTransform) == 0x28, "Offset mismatch!");
@@ -655,8 +626,10 @@ static_assert(offsetof(::GlobalNamespace::NoteController, ____dissolving) == 0x8
 
 static_assert(offsetof(::GlobalNamespace::NoteController, ____uniformScale) == 0x84, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteController, 0x88>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteController*, "", "NoteController");
-NEED_NO_BOX(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NoteController___DissolveCoroutine_d__75*, "", "NoteController/<DissolveCoroutine>d__75");
+NEED_NO_BOX(::GlobalNamespace::NoteController__DissolveCoroutine_d__69);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteController__DissolveCoroutine_d__69*, "", "NoteController/<DissolveCoroutine>d__69");

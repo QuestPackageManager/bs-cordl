@@ -17,11 +17,10 @@ class ObstacleData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData);
-// Type: BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem, BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleType
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*
+// CS Name: BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleData
 class CORDL_TYPE ObstacleData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -83,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set__width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d554c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706ebc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width);
 
-  /// @brief Method get_duration, addr 0x26d553c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2706eac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x26d552c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x2706e9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_time, addr 0x26d5524, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x2706e94, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x26d5534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x2706ea4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType get_type();
 
-  /// @brief Method get_width, addr 0x26d5544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2706eb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:
@@ -115,6 +114,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObstacleData(ObstacleData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13434 };
+
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None
   float_t ____time;
 
@@ -130,14 +132,9 @@ public:
   /// @brief Field _width, offset: 0x20, size: 0x4, def value: None
   int32_t ____width;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13403 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData, ____time) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData, ____lineIndex) == 0x14, "Offset mismatch!");
@@ -147,6 +144,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData, __
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData, ____duration) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData, ____width) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData, 0x28>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion2_6_0AndEarlier
 NEED_NO_BOX(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData);

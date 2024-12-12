@@ -15,11 +15,10 @@ class MissionObjectiveTypeSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveTypeSO);
-// Type: ::MissionObjectiveTypeSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionObjectiveTypeSO*
+// CS Name: MissionObjectiveTypeSO
 class CORDL_TYPE MissionObjectiveTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -61,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set__objectiveValueFormater(::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> value);
 
-  /// @brief Method .ctor, addr 0x269f81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4550, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_noConditionValue, addr 0x269f80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noConditionValue, addr 0x26d4540, size 0x8, virtual false, abstract: false, final false
   inline bool get_noConditionValue();
 
-  /// @brief Method get_objectiveName, addr 0x269f7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveName, addr 0x26d452c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_objectiveName();
 
-  /// @brief Method get_objectiveNameLocalized, addr 0x269f800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveNameLocalized, addr 0x26d4534, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_objectiveNameLocalized();
 
-  /// @brief Method get_objectiveValueFormater, addr 0x269f814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveValueFormater, addr 0x26d4548, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> get_objectiveValueFormater();
 
 protected:
@@ -90,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionObjectiveTypeSO(MissionObjectiveTypeSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13046 };
+
   /// @brief Field _objectiveName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____objectiveName;
 
@@ -99,19 +101,16 @@ public:
   /// @brief Field _objectiveValueFormater, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> ____objectiveValueFormater;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13011 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveTypeSO, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveTypeSO, ____objectiveName) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveTypeSO, ____noConditionValue) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveTypeSO, ____objectiveValueFormater) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveTypeSO, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveTypeSO);

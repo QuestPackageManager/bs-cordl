@@ -4,16 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "Zenject/zzzz__IFactory_2_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 CORDL_MODULE_EXPORT(PoolWrapperFactory_2)
 namespace System {
 class Object;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
-}
-namespace Zenject {
-class IFactory;
 }
 namespace Zenject {
 template <typename TParam1, typename TValue> class IMemoryPool_2;
@@ -27,13 +22,12 @@ template <typename TParam1, typename TValue> class PoolWrapperFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolWrapperFactory_2);
-// Type: Zenject::PoolWrapperFactory`2
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.IFactory, Zenject.IFactory`2<TParam1, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::PoolWrapperFactory`2<TParam1,TValue>*
+// CS Name: Zenject.PoolWrapperFactory`2<TParam1,TValue>
 class CORDL_TYPE PoolWrapperFactory_2 : public ::System::Object {
 public:
   // Declarations
@@ -51,9 +45,9 @@ public:
 
   static inline ::Zenject::PoolWrapperFactory_2<TParam1, TValue>* New_ctor(::Zenject::IMemoryPool_2<TParam1, TValue>* pool);
 
-  constexpr ::Zenject::IMemoryPool_2<TParam1, TValue>*& __cordl_internal_get__pool();
+  constexpr ::Zenject::IMemoryPool_2<TParam1, TValue>* const& __cordl_internal_get__pool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_2<TParam1, TValue>*> const& __cordl_internal_get__pool() const;
+  constexpr ::Zenject::IMemoryPool_2<TParam1, TValue>*& __cordl_internal_get__pool();
 
   constexpr void __cordl_internal_set__pool(::Zenject::IMemoryPool_2<TParam1, TValue>* value);
 
@@ -86,11 +80,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PoolWrapperFactory_2(PoolWrapperFactory_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12412 };
+
   /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IMemoryPool_2<TParam1, TValue>* ____pool;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

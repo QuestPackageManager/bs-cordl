@@ -1,5 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Specialized/ListDictionary.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IDictionary_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
 #include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
@@ -7,643 +12,638 @@
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator._ctor
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeEnumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::__ListDictionary__NodeEnumerator::*)(
-    ::System::Collections::Specialized::ListDictionary*)>(&::System::Collections::Specialized::__ListDictionary__NodeEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)(
+    ::System::Collections::Specialized::ListDictionary*)>(&::System::Collections::Specialized::ListDictionary_NodeEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x441ddac;
+  constexpr static std::size_t addrs = 0x447f0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator.get_Current
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeEnumerator.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::__ListDictionary__NodeEnumerator::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x441dfdc;
+  constexpr static std::size_t addrs = 0x447f2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Current",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Current",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator.get_Entry
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeEnumerator.get_Entry
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Collections::Specialized::__ListDictionary__NodeEnumerator::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Entry)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x441e040;
+  constexpr static std::size_t addrs = 0x447f354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Entry",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Entry",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator.get_Key
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeEnumerator.get_Key
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::__ListDictionary__NodeEnumerator::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Key)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x441e0bc;
+  constexpr static std::size_t addrs = 0x447f3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Key",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Key",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator.get_Value
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeEnumerator.get_Value
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::__ListDictionary__NodeEnumerator::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x441e11c;
+  constexpr static std::size_t addrs = 0x447f430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Value",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Value",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator.MoveNext
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeEnumerator.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::__ListDictionary__NodeEnumerator::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeEnumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x441e17c;
+  constexpr static std::size_t addrs = 0x447f490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator.Reset
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeEnumerator.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::__ListDictionary__NodeEnumerator::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeEnumerator::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeEnumerator::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x441e218;
+  constexpr static std::size_t addrs = 0x447f52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "Reset",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "Reset",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-constexpr System::Collections::Specialized::__ListDictionary__NodeEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-constexpr ::System::Collections::IDictionaryEnumerator* System::Collections::Specialized::__ListDictionary__NodeEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Collections::Specialized::__ListDictionary__NodeEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Collections::Specialized::__ListDictionary__NodeEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Specialized::ListDictionary*& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__list() {
+constexpr ::System::Collections::Specialized::ListDictionary*& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__list() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const&
-System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__list() const {
+constexpr ::System::Collections::Specialized::ListDictionary* const& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value) {
+constexpr void System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__current() {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode*& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const&
-System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__current() const {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode* const& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
+constexpr void System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_set__current(::System::Collections::Specialized::ListDictionary_DictionaryNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__version() {
+constexpr int32_t& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr int32_t const& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__version() const {
+constexpr int32_t const& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_set__version(int32_t value) {
+constexpr void System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_set__version(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
-constexpr bool& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__start() {
+constexpr bool& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__start() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
-constexpr bool const& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_get__start() const {
+constexpr bool const& System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_get__start() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__cordl_internal_set__start(bool value) {
+constexpr void System::Collections::Specialized::ListDictionary_NodeEnumerator::__cordl_internal_set__start(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____start = value;
 }
-inline ::System::Collections::Specialized::__ListDictionary__NodeEnumerator*
-System::Collections::Specialized::__ListDictionary__NodeEnumerator::New_ctor(::System::Collections::Specialized::ListDictionary* list) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>(list));
-}
-inline void System::Collections::Specialized::__ListDictionary__NodeEnumerator::_ctor(::System::Collections::Specialized::ListDictionary* list) {
+inline void System::Collections::Specialized::ListDictionary_NodeEnumerator::_ctor(::System::Collections::Specialized::ListDictionary* list) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
 }
-inline ::System::Object* System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Current() {
+inline ::System::Object* System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Current",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Current",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Collections::DictionaryEntry System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Entry() {
+inline ::System::Collections::DictionaryEntry System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Entry() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Entry",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Entry",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::DictionaryEntry, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Key() {
+inline ::System::Object* System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Key() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Key",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Key",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::Specialized::__ListDictionary__NodeEnumerator::get_Value() {
+inline ::System::Object* System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Value() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "get_Value",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "get_Value",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool System::Collections::Specialized::__ListDictionary__NodeEnumerator::MoveNext() {
+inline bool System::Collections::Specialized::ListDictionary_NodeEnumerator::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Collections::Specialized::__ListDictionary__NodeEnumerator::Reset() {
+inline void System::Collections::Specialized::ListDictionary_NodeEnumerator::Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeEnumerator*>::get(), "Reset",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>::get(), "Reset",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters []
-constexpr ::System::Collections::Specialized::__ListDictionary__NodeEnumerator::__ListDictionary__NodeEnumerator() {}
-//  Writing Method size for method: ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::*)(
-    ::System::Collections::Specialized::ListDictionary*, bool)>(&::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x441e494;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator.get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::*)()>(
-    &::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::get_Current)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x441e4e0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                                 "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::*)()>(
-    &::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::MoveNext)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x441e554;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator.Reset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::*)()>(
-    &::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::Reset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x441e5f0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                                 "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
+inline ::System::Collections::Specialized::ListDictionary_NodeEnumerator*
+System::Collections::Specialized::ListDictionary_NodeEnumerator::New_ctor(::System::Collections::Specialized::ListDictionary* list) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>(list));
+}
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
+constexpr System::Collections::Specialized::ListDictionary_NodeEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+constexpr ::System::Collections::IDictionaryEnumerator* System::Collections::Specialized::ListDictionary_NodeEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr System::Collections::Specialized::ListDictionary_NodeEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* System::Collections::Specialized::ListDictionary_NodeEnumerator::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
-constexpr ::System::Collections::Specialized::ListDictionary*& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__list() {
+// Ctor Parameters []
+constexpr ::System::Collections::Specialized::ListDictionary_NodeEnumerator::ListDictionary_NodeEnumerator() {}
+//  Writing Method size for method: ::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)(
+    ::System::Collections::Specialized::ListDictionary*, bool)>(&::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::_ctor)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x447f7a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                    ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator.get_Current
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Object* (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)()>(
+        &::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::get_Current)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x447f7f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                    "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)()>(
+    &::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::MoveNext)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x447f868;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                    "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator.Reset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)()>(
+    &::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::Reset)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x447f904;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                    "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Specialized::ListDictionary*& System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__list() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const&
-GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__list() const {
+constexpr ::System::Collections::Specialized::ListDictionary* const&
+System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value) {
+constexpr void System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__current() {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode*&
+System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const&
-GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__current() const {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode* const&
+System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-constexpr void
-GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
+constexpr void System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_set__current(
+    ::System::Collections::Specialized::ListDictionary_DictionaryNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__version() {
+constexpr int32_t& System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr int32_t const& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__version() const {
+constexpr int32_t const& System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_set__version(int32_t value) {
+constexpr void System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_set__version(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
-constexpr bool& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__isKeys() {
+constexpr bool& System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__isKeys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
-constexpr bool const& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__isKeys() const {
+constexpr bool const& System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__isKeys() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
-constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_set__isKeys(bool value) {
+constexpr void System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_set__isKeys(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isKeys = value;
 }
-constexpr bool& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__start() {
+constexpr bool& System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__start() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
-constexpr bool const& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_get__start() const {
+constexpr bool const& System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_get__start() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
-constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__cordl_internal_set__start(bool value) {
+constexpr void System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::__cordl_internal_set__start(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____start = value;
 }
-inline ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*
-GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>(list, isKeys));
-}
-inline void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+inline void System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list, isKeys);
 }
-inline ::System::Object* GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                               "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Object* System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                  "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*>::get(),
-                                               "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>::get(),
+                                  "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*
+System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator*>(list, isKeys));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator() {}
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection._ctor
+constexpr ::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator() {}
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::*)(
-    ::System::Collections::Specialized::ListDictionary*, bool)>(&::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)(
+    ::System::Collections::Specialized::ListDictionary*, bool)>(&::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x441d704;
+  constexpr static std::size_t addrs = 0x447ea18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection.System_Collections_ICollection_CopyTo
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection.System_Collections_ICollection_CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::*)(::System::Array*, int32_t)>(
-    &::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)(::System::Array*, int32_t)>(
+    &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x441e294;
+  constexpr static std::size_t addrs = 0x447f5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(), "System.Collections.ICollection.CopyTo",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(), "System.Collections.ICollection.CopyTo",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection.System_Collections_ICollection_get_Count
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection.System_Collections_ICollection_get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x441e3d8;
+  constexpr static std::size_t addrs = 0x447f6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                  "System.Collections.ICollection.get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection.System_Collections_ICollection_get_IsSynchronized
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection.System_Collections_ICollection_get_IsSynchronized
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_get_IsSynchronized)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441e410;
+  constexpr static std::size_t addrs = 0x447f724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                  "System.Collections.ICollection.get_IsSynchronized", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection.System_Collections_ICollection_get_SyncRoot
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection.System_Collections_ICollection_get_SyncRoot
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x441e418;
+  constexpr static std::size_t addrs = 0x447f72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                  "System.Collections.ICollection.get_SyncRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::*)()>(
-        &::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
+    &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x441e430;
+  constexpr static std::size_t addrs = 0x447f744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Specialized::ListDictionary*& System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__cordl_internal_get__list() {
+constexpr ::System::Collections::Specialized::ListDictionary*& System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::__cordl_internal_get__list() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const&
-System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__cordl_internal_get__list() const {
+constexpr ::System::Collections::Specialized::ListDictionary* const& System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::__cordl_internal_get__list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value) {
+constexpr void System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::__cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__cordl_internal_get__isKeys() {
+constexpr bool& System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::__cordl_internal_get__isKeys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
-constexpr bool const& System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__cordl_internal_get__isKeys() const {
+constexpr bool const& System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::__cordl_internal_get__isKeys() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__cordl_internal_set__isKeys(bool value) {
+constexpr void System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::__cordl_internal_set__isKeys(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isKeys = value;
 }
-inline ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*
-System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>(list, isKeys));
-}
-inline void System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
+inline void System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::ListDictionary*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list, isKeys);
 }
-inline void System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index) {
+inline void System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(), "System.Collections.ICollection.CopyTo",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(), "System.Collections.ICollection.CopyTo",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, index);
 }
-inline int32_t System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_get_Count() {
+inline int32_t System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_Count() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                "System.Collections.ICollection.get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_get_IsSynchronized() {
+inline bool System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_IsSynchronized() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                "System.Collections.ICollection.get_IsSynchronized", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot() {
+inline ::System::Object* System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                "System.Collections.ICollection.get_SyncRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
+inline ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*
+System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>(list, isKeys));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__ListDictionary__NodeKeyValueCollection() {}
-//  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__DictionaryNode._ctor
+constexpr ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::ListDictionary_NodeKeyValueCollection() {}
+//  Writing Method size for method: ::System::Collections::Specialized::ListDictionary_DictionaryNode._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::__ListDictionary__DictionaryNode::*)()>(
-    &::System::Collections::Specialized::__ListDictionary__DictionaryNode::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary_DictionaryNode::*)()>(
+    &::System::Collections::Specialized::ListDictionary_DictionaryNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d690;
+  constexpr static std::size_t addrs = 0x447e9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__DictionaryNode*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_DictionaryNode*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Object*& System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_get_key() {
+constexpr ::System::Object*& System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_get_key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_get_key() const {
+constexpr ::System::Object* const& System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_get_key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_set_key(::System::Object* value) {
+constexpr void System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_set_key(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_get_value() {
+constexpr ::System::Object*& System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_get_value() const {
+constexpr ::System::Object* const& System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_set_value(::System::Object* value) {
+constexpr void System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_set_value(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_get_next() {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode*& System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_get_next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const&
-System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_get_next() const {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode* const& System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr void System::Collections::Specialized::__ListDictionary__DictionaryNode::__cordl_internal_set_next(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
+constexpr void System::Collections::Specialized::ListDictionary_DictionaryNode::__cordl_internal_set_next(::System::Collections::Specialized::ListDictionary_DictionaryNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::Specialized::__ListDictionary__DictionaryNode* System::Collections::Specialized::__ListDictionary__DictionaryNode::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::__ListDictionary__DictionaryNode*>());
-}
-inline void System::Collections::Specialized::__ListDictionary__DictionaryNode::_ctor() {
+inline void System::Collections::Specialized::ListDictionary_DictionaryNode::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::__ListDictionary__DictionaryNode*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary_DictionaryNode*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Collections::Specialized::ListDictionary_DictionaryNode* System::Collections::Specialized::ListDictionary_DictionaryNode::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::ListDictionary_DictionaryNode*>());
+}
 // Ctor Parameters []
-constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode::__ListDictionary__DictionaryNode() {}
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode::ListDictionary_DictionaryNode() {}
 //  Writing Method size for method: ::System::Collections::Specialized::ListDictionary._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d344;
+  constexpr static std::size_t addrs = 0x447e658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Collections::IComparer*)>(
     &::System::Collections::Specialized::ListDictionary::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x441d34c;
+  constexpr static std::size_t addrs = 0x447e660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::get_Item)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x441d374;
+  constexpr static std::size_t addrs = 0x447e688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::set_Item)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x441d4d0;
+  constexpr static std::size_t addrs = 0x447e7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d698;
+  constexpr static std::size_t addrs = 0x447e9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_Keys)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x441d6a0;
+  constexpr static std::size_t addrs = 0x447e9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -731,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d734;
+  constexpr static std::size_t addrs = 0x447ea48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d73c;
+  constexpr static std::size_t addrs = 0x447ea50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -759,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d744;
+  constexpr static std::size_t addrs = 0x447ea58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -773,7 +773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_SyncRoot)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x441d74c;
+  constexpr static std::size_t addrs = 0x447ea60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_Values)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x441d7c0;
+  constexpr static std::size_t addrs = 0x447ead4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -801,7 +801,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::Add)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x441d820;
+  constexpr static std::size_t addrs = 0x447eb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -817,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::Clear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x441da2c;
+  constexpr static std::size_t addrs = 0x447ed40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -831,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::Contains)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x441da40;
+  constexpr static std::size_t addrs = 0x447ed54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -846,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Array*, int32_t)>(
     &::System::Collections::Specialized::ListDictionary::CopyTo)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x441db90;
+  constexpr static std::size_t addrs = 0x447eea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x441dd54;
+  constexpr static std::size_t addrs = 0x447f068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
@@ -875,7 +875,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x441ddf0;
+  constexpr static std::size_t addrs = 0x447f104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -890,7 +890,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::Remove)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x441de48;
+  constexpr static std::size_t addrs = 0x447f15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -899,40 +899,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IDictionary"
-constexpr System::Collections::Specialized::ListDictionary::operator ::System::Collections::IDictionary*() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionary"
-constexpr ::System::Collections::IDictionary* System::Collections::Specialized::ListDictionary::i___System__Collections__IDictionary() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Collections::Specialized::ListDictionary::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Collections::Specialized::ListDictionary::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::Specialized::ListDictionary::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::Specialized::ListDictionary::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& System::Collections::Specialized::ListDictionary::__cordl_internal_get_head() {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode*& System::Collections::Specialized::ListDictionary::__cordl_internal_get_head() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const&
-System::Collections::Specialized::ListDictionary::__cordl_internal_get_head() const {
+constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode* const& System::Collections::Specialized::ListDictionary::__cordl_internal_get_head() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
-constexpr void System::Collections::Specialized::ListDictionary::__cordl_internal_set_head(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
+constexpr void System::Collections::Specialized::ListDictionary::__cordl_internal_set_head(::System::Collections::Specialized::ListDictionary_DictionaryNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -964,7 +939,7 @@ constexpr ::System::Collections::IComparer*& System::Collections::Specialized::L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& System::Collections::Specialized::ListDictionary::__cordl_internal_get_comparer() const {
+constexpr ::System::Collections::IComparer* const& System::Collections::Specialized::ListDictionary::__cordl_internal_get_comparer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
@@ -976,7 +951,7 @@ constexpr ::System::Object*& System::Collections::Specialized::ListDictionary::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::Specialized::ListDictionary::__cordl_internal_get__syncRoot() const {
+constexpr ::System::Object* const& System::Collections::Specialized::ListDictionary::__cordl_internal_get__syncRoot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
@@ -984,16 +959,10 @@ constexpr void System::Collections::Specialized::ListDictionary::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::Specialized::ListDictionary* System::Collections::Specialized::ListDictionary::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::ListDictionary*>());
-}
 inline void System::Collections::Specialized::ListDictionary::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Collections::Specialized::ListDictionary* System::Collections::Specialized::ListDictionary::New_ctor(::System::Collections::IComparer* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::ListDictionary*>(comparer));
 }
 inline void System::Collections::Specialized::ListDictionary::_ctor(::System::Collections::IComparer* comparer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1089,6 +1058,36 @@ inline void System::Collections::Specialized::ListDictionary::Remove(::System::O
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::ListDictionary*>::get(), "Remove",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
+}
+inline ::System::Collections::Specialized::ListDictionary* System::Collections::Specialized::ListDictionary::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::ListDictionary*>());
+}
+inline ::System::Collections::Specialized::ListDictionary* System::Collections::Specialized::ListDictionary::New_ctor(::System::Collections::IComparer* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::ListDictionary*>(comparer));
+}
+/// @brief Convert operator to "::System::Collections::IDictionary"
+constexpr System::Collections::Specialized::ListDictionary::operator ::System::Collections::IDictionary*() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionary"
+constexpr ::System::Collections::IDictionary* System::Collections::Specialized::ListDictionary::i___System__Collections__IDictionary() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Collections::Specialized::ListDictionary::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Collections::Specialized::ListDictionary::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Collections::Specialized::ListDictionary::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Collections::Specialized::ListDictionary::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::ListDictionary::ListDictionary() {}

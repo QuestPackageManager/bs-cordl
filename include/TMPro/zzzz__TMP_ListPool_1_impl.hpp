@@ -5,29 +5,29 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TMP_ListPool_1_def.hpp"
 #include "TMPro/zzzz__TMP_ObjectPool_1_def.hpp"
-template <typename T> inline void TMPro::__TMP_ListPool_1____c<T>::setStaticF___9(::TMPro::__TMP_ListPool_1____c<T>* value) {
-  ::cordl_internals::setStaticField<::TMPro::__TMP_ListPool_1____c<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_ListPool_1____c<T>*>::get>(
-      std::forward<::TMPro::__TMP_ListPool_1____c<T>*>(value));
+template <typename T> inline void TMPro::TMP_ListPool_1___c<T>::setStaticF___9(::TMPro::TMP_ListPool_1___c<T>* value) {
+  ::cordl_internals::setStaticField<::TMPro::TMP_ListPool_1___c<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ListPool_1___c<T>*>::get>(
+      std::forward<::TMPro::TMP_ListPool_1___c<T>*>(value));
 }
-template <typename T> inline ::TMPro::__TMP_ListPool_1____c<T>* TMPro::__TMP_ListPool_1____c<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::TMPro::__TMP_ListPool_1____c<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_ListPool_1____c<T>*>::get>();
+template <typename T> inline ::TMPro::TMP_ListPool_1___c<T>* TMPro::TMP_ListPool_1___c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::TMPro::TMP_ListPool_1___c<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ListPool_1___c<T>*>::get>();
 }
-template <typename T> inline ::TMPro::__TMP_ListPool_1____c<T>* TMPro::__TMP_ListPool_1____c<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_ListPool_1____c<T>*>());
-}
-template <typename T> inline void TMPro::__TMP_ListPool_1____c<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_ListPool_1____c<T>*>::get(), ".ctor",
+template <typename T> inline void TMPro::TMP_ListPool_1___c<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ListPool_1___c<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void TMPro::__TMP_ListPool_1____c<T>::__cctor_b__3_0(::System::Collections::Generic::List_1<T>* l) {
+template <typename T> inline void TMPro::TMP_ListPool_1___c<T>::__cctor_b__3_0(::System::Collections::Generic::List_1<T>* l) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_ListPool_1____c<T>*>::get(), "<.cctor>b__3_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ListPool_1___c<T>*>::get(), "<.cctor>b__3_0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, l);
 }
+template <typename T> inline ::TMPro::TMP_ListPool_1___c<T>* TMPro::TMP_ListPool_1___c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ListPool_1___c<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::TMPro::__TMP_ListPool_1____c<T>::__TMP_ListPool_1____c() {}
+template <typename T> constexpr ::TMPro::TMP_ListPool_1___c<T>::TMP_ListPool_1___c() {}
 template <typename T> inline void TMPro::TMP_ListPool_1<T>::setStaticF_s_ListPool(::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* value) {
   ::cordl_internals::setStaticField<::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>*, "s_ListPool",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ListPool_1<T>*>::get>(

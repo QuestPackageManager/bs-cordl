@@ -15,11 +15,10 @@ class CrlNumber;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CrlNumber);
-// Type: Org.BouncyCastle.Asn1.X509::CrlNumber
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerInteger
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::CrlNumber*
+// CS Name: Org.BouncyCastle.Asn1.X509.CrlNumber
 class CORDL_TYPE CrlNumber : public ::Org::BouncyCastle::Asn1::DerInteger {
 public:
   // Declarations
@@ -27,13 +26,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlNumber* New_ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method ToString, addr 0x25ce80c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2601af8, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x25ce7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2601ae8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method get_Number, addr 0x25ce804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Number, addr 0x2601af0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Number();
 
 protected:

@@ -6,8 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__CallingConventions_def.hpp"
 #include "System/Reflection/zzzz__MethodAttributes_def.hpp"
 #include "System/Reflection/zzzz__MethodImplAttributes_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoMethodInfo)
@@ -44,48 +42,47 @@ struct MonoMethodInfo;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::MonoMethodInfo);
-// Type: System.Reflection::MonoMethodInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.CallingConventions, System.Reflection.MethodAttributes, System.Reflection.MethodImplAttributes
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::MonoMethodInfo
+// CS Name: System.Reflection.MonoMethodInfo
 struct CORDL_TYPE MonoMethodInfo {
 public:
   // Declarations
-  /// @brief Method GetAttributes, addr 0x3cce8ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x3d2ea60, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodAttributes GetAttributes(::System::IntPtr handle);
 
-  /// @brief Method GetCallingConvention, addr 0x3cce8f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCallingConvention, addr 0x3d2ea64, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::CallingConventions GetCallingConvention(::System::IntPtr handle);
 
-  /// @brief Method GetDeclaringType, addr 0x3cce89c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeclaringType, addr 0x3d2ea10, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetDeclaringType(::System::IntPtr handle);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x3cce918, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x3d2ea8c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags(::System::IntPtr handle);
 
-  /// @brief Method GetMethodInfo, addr 0x3cce86c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x3d2e9e0, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Reflection::MonoMethodInfo GetMethodInfo(::System::IntPtr handle);
 
-  /// @brief Method GetParametersInfo, addr 0x3cce944, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParametersInfo, addr 0x3d2eab8, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersInfo(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method GetReturnParameterInfo, addr 0x3cce94c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetReturnParameterInfo, addr 0x3d2eac0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* GetReturnParameterInfo(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method GetReturnType, addr 0x3cce8c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetReturnType, addr 0x3d2ea38, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetReturnType(::System::IntPtr handle);
 
-  /// @brief Method get_method_attributes, addr 0x3cce868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_method_attributes, addr 0x3d2e9dc, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_method_attributes(::System::IntPtr handle);
 
-  /// @brief Method get_method_info, addr 0x3cce864, size 0x4, virtual false, abstract: false, final false
-  static inline void get_method_info(::System::IntPtr handle, ByRef<::System::Reflection::MonoMethodInfo> info);
+  /// @brief Method get_method_info, addr 0x3d2e9d8, size 0x4, virtual false, abstract: false, final false
+  static inline void get_method_info(::System::IntPtr handle, ::ByRef<::System::Reflection::MonoMethodInfo> info);
 
-  /// @brief Method get_parameter_info, addr 0x3cce940, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_parameter_info, addr 0x3d2eab4, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> get_parameter_info(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method get_retval_marshal, addr 0x3cce948, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_retval_marshal, addr 0x3d2eabc, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* get_retval_marshal(::System::IntPtr handle);
 
   // Ctor Parameters []
@@ -97,6 +94,12 @@ public:
   // def_value: None }, CppParam { name: "callconv", ty: "::System::Reflection::CallingConventions", modifiers: "", def_value: None }]
   constexpr MonoMethodInfo(::System::Type* parent, ::System::Type* ret, ::System::Reflection::MethodAttributes attrs, ::System::Reflection::MethodImplAttributes iattrs,
                            ::System::Reflection::CallingConventions callconv) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3525 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field parent, offset: 0x0, size: 0x8, def value: None
   ::System::Type* parent;
@@ -113,17 +116,9 @@ public:
   /// @brief Field callconv, offset: 0x18, size: 0x4, def value: None
   ::System::Reflection::CallingConventions callconv;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3525 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoMethodInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::MonoMethodInfo, parent) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MonoMethodInfo, ret) == 0x8, "Offset mismatch!");
@@ -133,6 +128,8 @@ static_assert(offsetof(::System::Reflection::MonoMethodInfo, attrs) == 0x10, "Of
 static_assert(offsetof(::System::Reflection::MonoMethodInfo, iattrs) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MonoMethodInfo, callconv) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoMethodInfo, 0x20>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");

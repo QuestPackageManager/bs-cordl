@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Debouncer_1)
@@ -12,22 +13,18 @@ template <typename T> class Queue_1;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace BGLib::UnityExtension {
 template <typename T> class Debouncer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::UnityExtension::Debouncer_1);
-// Type: BGLib.UnityExtension::Debouncer`1
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace BGLib::UnityExtension {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension::Debouncer`1<T>*
+// CS Name: BGLib.UnityExtension.Debouncer`1<T>
 class CORDL_TYPE Debouncer_1 : public ::System::Object {
 public:
   // Declarations
@@ -60,17 +57,17 @@ public:
   /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Tick();
 
-  constexpr ::System::Action_1<T>*& __cordl_internal_get__callback();
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get__callback() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get__callback() const;
+  constexpr ::System::Action_1<T>*& __cordl_internal_get__callback();
 
   constexpr float_t const& __cordl_internal_get__debounceDelaySeconds() const;
 
   constexpr float_t& __cordl_internal_get__debounceDelaySeconds();
 
-  constexpr ::System::Collections::Generic::Queue_1<T>*& __cordl_internal_get__debounceQueue();
+  constexpr ::System::Collections::Generic::Queue_1<T>* const& __cordl_internal_get__debounceQueue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<T>*> const& __cordl_internal_get__debounceQueue() const;
+  constexpr ::System::Collections::Generic::Queue_1<T>*& __cordl_internal_get__debounceQueue();
 
   constexpr float_t const& __cordl_internal_get__nextCallbackTime() const;
 
@@ -104,6 +101,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Debouncer_1(Debouncer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17161 };
+
   /// @brief Field _callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<T>* ____callback;
 
@@ -115,9 +115,6 @@ public:
 
   /// @brief Field _nextCallbackTime, offset: 0x28, size: 0x4, def value: None
   float_t ____nextCallbackTime;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

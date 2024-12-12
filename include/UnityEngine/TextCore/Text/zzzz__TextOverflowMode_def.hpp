@@ -12,11 +12,10 @@ struct TextOverflowMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextOverflowMode);
-// Type: UnityEngine.TextCore.Text::TextOverflowMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::TextOverflowMode
+// CS Name: UnityEngine.TextCore.Text.TextOverflowMode
 struct CORDL_TYPE TextOverflowMode {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextOverflowMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Ellipsis value: static_cast<int32_t>(0x1)
+  /// @brief Field Ellipsis value: I32(1)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Ellipsis;
 
-  /// @brief Field Linked value: static_cast<int32_t>(0x6)
+  /// @brief Field Linked value: I32(6)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Linked;
 
-  /// @brief Field Masking value: static_cast<int32_t>(0x2)
+  /// @brief Field Masking value: I32(2)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Masking;
 
-  /// @brief Field Overflow value: static_cast<int32_t>(0x0)
+  /// @brief Field Overflow value: I32(0)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Overflow;
 
-  /// @brief Field Page value: static_cast<int32_t>(0x5)
+  /// @brief Field Page value: I32(5)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Page;
 
-  /// @brief Field ScrollRect value: static_cast<int32_t>(0x4)
+  /// @brief Field ScrollRect value: I32(4)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const ScrollRect;
 
-  /// @brief Field Truncate value: static_cast<int32_t>(0x3)
+  /// @brief Field Truncate value: I32(3)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Truncate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15266 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextOverflowMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextOverflowMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextOverflowMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextOverflowMode, "UnityEngine.TextCore.Text", "TextOverflowMode");

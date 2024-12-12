@@ -3,15 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ValueTaskAwaiter_1)
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
 }
@@ -24,13 +20,12 @@ template <typename TResult> struct ValueTaskAwaiter_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter_1);
-// Type: System.Runtime.CompilerServices::ValueTaskAwaiter`1
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.ICriticalNotifyCompletion, System.Runtime.CompilerServices.INotifyCompletion, System.Threading.Tasks.ValueTask`1<TResult>
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter`1<TResult>
+// CS Name: System.Runtime.CompilerServices.ValueTaskAwaiter`1<TResult>
 struct CORDL_TYPE ValueTaskAwaiter_1 {
 public:
   // Declarations
@@ -70,14 +65,14 @@ public:
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
   constexpr ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
-  /// @brief Field _value, offset: 0x0, size: 0x18, def value: None
-  ::System::Threading::Tasks::ValueTask_1<TResult> _value;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3391 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
+  /// @brief Field _value, offset: 0x0, size: 0x18, def value: None
+  ::System::Threading::Tasks::ValueTask_1<TResult> _value;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -27,11 +27,10 @@ class BTSCharacter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BTSCharacter);
-// Type: ::BTSCharacter
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BTSCharacter*
+// CS Name: BTSCharacter
 class CORDL_TYPE BTSCharacter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -63,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x2234834, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x225faf0, size 0x1f0, virtual false, abstract: false, final false
   inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -96,19 +95,19 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x2234c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225ff34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animator, addr 0x2234824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animator, addr 0x225fae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> get_animator();
 
-  /// @brief Method get_characterName, addr 0x2234814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterName, addr 0x225fad0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characterName();
 
-  /// @brief Method get_headTransform, addr 0x223482c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTransform, addr 0x225fae8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_headTransform();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x223481c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x225fad8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
 protected:
@@ -125,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacter(BTSCharacter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17663 };
+
   /// @brief Field _characterName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____characterName;
 
@@ -140,14 +142,9 @@ public:
   /// @brief Field _headTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17619 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacter, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____characterName) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____animator) == 0x28, "Offset mismatch!");
@@ -157,6 +154,8 @@ static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____btsCharacterMaterial
 static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____materialPropertyBlockController) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____headTransform) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacter, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacter);

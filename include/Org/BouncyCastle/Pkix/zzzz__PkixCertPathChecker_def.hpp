@@ -20,32 +20,31 @@ class PkixCertPathChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathChecker);
-// Type: Org.BouncyCastle.Pkix::PkixCertPathChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathChecker*
+// CS Name: Org.BouncyCastle.Pkix.PkixCertPathChecker
 class CORDL_TYPE PkixCertPathChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Check, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Check(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* unresolvedCritExts);
 
-  /// @brief Method Clone, addr 0x253ccac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x256ff98, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method GetSupportedExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetSupportedExtensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetSupportedExtensions();
 
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(bool forward);
 
-  /// @brief Method IsForwardCheckingSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsForwardCheckingSupported, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsForwardCheckingSupported();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x253cca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256ff90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

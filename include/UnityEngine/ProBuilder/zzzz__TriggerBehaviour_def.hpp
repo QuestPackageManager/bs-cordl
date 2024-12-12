@@ -17,26 +17,25 @@ class TriggerBehaviour;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::TriggerBehaviour);
-// Type: UnityEngine.ProBuilder::TriggerBehaviour
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.EntityBehaviour
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::TriggerBehaviour*
+// CS Name: UnityEngine.ProBuilder.TriggerBehaviour
 class CORDL_TYPE TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x46e0cf0, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4742004, size 0x19c, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::ProBuilder::TriggerBehaviour* New_ctor();
 
-  /// @brief Method OnEnterPlayMode, addr 0x46e0e8c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x47421a0, size 0x78, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded, addr 0x46e0f04, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x4742218, size 0x78, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method .ctor, addr 0x46e0f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4742290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +53,7 @@ public:
   TriggerBehaviour(TriggerBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

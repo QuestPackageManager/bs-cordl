@@ -5,13 +5,9 @@
 #include "Unity/IO/LowLevel/Unsafe/zzzz__Priority_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__ProcessingState_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__AsyncReadManagerRequestMetric_def.hpp"
-#include "Unity/IO/LowLevel/Unsafe/zzzz__AssetLoadingSubsystem_def.hpp"
-#include "Unity/IO/LowLevel/Unsafe/zzzz__FileReadType_def.hpp"
-#include "Unity/IO/LowLevel/Unsafe/zzzz__Priority_def.hpp"
-#include "Unity/IO/LowLevel/Unsafe/zzzz__ProcessingState_def.hpp"
-// Ctor Parameters [CppParam { name: "_AssetName_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_FileName_k__BackingField", ty: "::StringW",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_OffsetBytes_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SizeBytes_k__BackingField",
-// ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_AssetTypeId_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// Ctor Parameters [CppParam { name: "_AssetName_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_FileName_k__BackingField", ty: "::StringW", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "_OffsetBytes_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SizeBytes_k__BackingField", ty: "uint64_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_AssetTypeId_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "_CurrentBytesRead_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_BatchReadCount_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "_IsBatchRead_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_State_k__BackingField", ty:
 // "::Unity::IO::LowLevel::Unsafe::ProcessingState", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ReadType_k__BackingField", ty: "::Unity::IO::LowLevel::Unsafe::FileReadType", modifiers:

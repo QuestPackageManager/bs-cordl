@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Activation/AppDomainLevelActivator.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IActivator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__AppDomainLevelActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Activation::AppDomainLevelActivator::*)(
     ::StringW, ::System::Runtime::Remoting::Activation::IActivator*)>(&::System::Runtime::Remoting::Activation::AppDomainLevelActivator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c82bc8;
+  constexpr static std::size_t addrs = 0x3ce2d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (
     ::System::Runtime::Remoting::Activation::AppDomainLevelActivator::*)()>(&::System::Runtime::Remoting::Activation::AppDomainLevelActivator::get_NextActivator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c83158;
+  constexpr static std::size_t addrs = 0x3ce32cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Activation::AppDomainLevelActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::AppDomainLevelActivator::Activate)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x3c83160;
+  constexpr static std::size_t addrs = 0x3ce32d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,14 +53,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
-constexpr System::Runtime::Remoting::Activation::AppDomainLevelActivator::operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
-constexpr ::System::Runtime::Remoting::Activation::IActivator* System::Runtime::Remoting::Activation::AppDomainLevelActivator::i___System__Runtime__Remoting__Activation__IActivator() noexcept {
-  return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
-}
 constexpr ::StringW& System::Runtime::Remoting::Activation::AppDomainLevelActivator::__cordl_internal_get__activationUrl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activationUrl;
@@ -76,18 +69,13 @@ constexpr ::System::Runtime::Remoting::Activation::IActivator*& System::Runtime:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Activation::IActivator*> const&
-System::Runtime::Remoting::Activation::AppDomainLevelActivator::__cordl_internal_get__next() const {
+constexpr ::System::Runtime::Remoting::Activation::IActivator* const& System::Runtime::Remoting::Activation::AppDomainLevelActivator::__cordl_internal_get__next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 constexpr void System::Runtime::Remoting::Activation::AppDomainLevelActivator::__cordl_internal_set__next(::System::Runtime::Remoting::Activation::IActivator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Runtime::Remoting::Activation::AppDomainLevelActivator*
-System::Runtime::Remoting::Activation::AppDomainLevelActivator::New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Activation::AppDomainLevelActivator*>(activationUrl, next));
 }
 inline void System::Runtime::Remoting::Activation::AppDomainLevelActivator::_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,6 +96,18 @@ System::Runtime::Remoting::Activation::AppDomainLevelActivator::Activate(::Syste
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::AppDomainLevelActivator*>::get(), "Activate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*, false>(this, ___internal_method, ctorCall);
+}
+inline ::System::Runtime::Remoting::Activation::AppDomainLevelActivator*
+System::Runtime::Remoting::Activation::AppDomainLevelActivator::New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Activation::AppDomainLevelActivator*>(activationUrl, next));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
+constexpr System::Runtime::Remoting::Activation::AppDomainLevelActivator::operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
+constexpr ::System::Runtime::Remoting::Activation::IActivator* System::Runtime::Remoting::Activation::AppDomainLevelActivator::i___System__Runtime__Remoting__Activation__IActivator() noexcept {
+  return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Activation::AppDomainLevelActivator::AppDomainLevelActivator() {}

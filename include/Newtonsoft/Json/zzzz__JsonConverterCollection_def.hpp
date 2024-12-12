@@ -14,17 +14,16 @@ class JsonConverterCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonConverterCollection);
-// Type: Newtonsoft.Json::JsonConverterCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ObjectModel.Collection`1<T>
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonConverterCollection*
+// CS Name: Newtonsoft.Json.JsonConverterCollection
 class CORDL_TYPE JsonConverterCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::JsonConverter*> {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConverterCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e1a36c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a418, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   JsonConverterCollection(JsonConverterCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10062 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

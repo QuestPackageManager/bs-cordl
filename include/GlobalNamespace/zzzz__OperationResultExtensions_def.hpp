@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OperationResultExtensions)
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__OperationResult;
+struct OVRSpatialAnchor_OperationResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -14,22 +14,21 @@ class OperationResultExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OperationResultExtensions);
-// Type: ::OperationResultExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OperationResultExtensions*
+// CS Name: OperationResultExtensions
 class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsError, addr 0x3fb9190, size 0x8, virtual false, abstract: false, final false
-  static inline bool IsError(::GlobalNamespace::__OVRSpatialAnchor__OperationResult res);
+  /// @brief Method IsError, addr 0x401923c, size 0x8, virtual false, abstract: false, final false
+  static inline bool IsError(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsSuccess, addr 0x3fb9184, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsSuccess(::GlobalNamespace::__OVRSpatialAnchor__OperationResult res);
+  /// @brief Method IsSuccess, addr 0x4019230, size 0xc, virtual false, abstract: false, final false
+  static inline bool IsSuccess(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsWarning, addr 0x3fb9198, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsWarning(::GlobalNamespace::__OVRSpatialAnchor__OperationResult res);
+  /// @brief Method IsWarning, addr 0x4019244, size 0xc, virtual false, abstract: false, final false
+  static inline bool IsWarning(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
 protected:
   // Ctor Parameters []
@@ -46,7 +45,7 @@ public:
   OperationResultExtensions(OperationResultExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8316 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

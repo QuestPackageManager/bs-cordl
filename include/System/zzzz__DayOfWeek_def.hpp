@@ -12,11 +12,10 @@ struct DayOfWeek;
 }
 // Write type traits
 MARK_VAL_T(::System::DayOfWeek);
-// Type: System::DayOfWeek
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::DayOfWeek
+// CS Name: System.DayOfWeek
 struct CORDL_TYPE DayOfWeek {
 public:
   // Declarations
@@ -50,28 +49,25 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DayOfWeek(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Friday value: static_cast<int32_t>(0x5)
+  /// @brief Field Friday value: I32(5)
   static ::System::DayOfWeek const Friday;
 
-  /// @brief Field Monday value: static_cast<int32_t>(0x1)
+  /// @brief Field Monday value: I32(1)
   static ::System::DayOfWeek const Monday;
 
-  /// @brief Field Saturday value: static_cast<int32_t>(0x6)
+  /// @brief Field Saturday value: I32(6)
   static ::System::DayOfWeek const Saturday;
 
-  /// @brief Field Sunday value: static_cast<int32_t>(0x0)
+  /// @brief Field Sunday value: I32(0)
   static ::System::DayOfWeek const Sunday;
 
-  /// @brief Field Thursday value: static_cast<int32_t>(0x4)
+  /// @brief Field Thursday value: I32(4)
   static ::System::DayOfWeek const Thursday;
 
-  /// @brief Field Tuesday value: static_cast<int32_t>(0x2)
+  /// @brief Field Tuesday value: I32(2)
   static ::System::DayOfWeek const Tuesday;
 
-  /// @brief Field Wednesday value: static_cast<int32_t>(0x3)
+  /// @brief Field Wednesday value: I32(3)
   static ::System::DayOfWeek const Wednesday;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,12 +76,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::DayOfWeek, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::DayOfWeek, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::DayOfWeek, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::DayOfWeek, "System", "DayOfWeek");

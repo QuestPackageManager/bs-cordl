@@ -19,155 +19,154 @@ class DHStandardGroups;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups);
-// Type: Org.BouncyCastle.Crypto.Agreement::DHStandardGroups
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Agreement::DHStandardGroups*
+// CS Name: Org.BouncyCastle.Crypto.Agreement.DHStandardGroups
 class CORDL_TYPE DHStandardGroups : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Two, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Two, put = setStaticF_Two)) ::Org::BouncyCastle::Math::BigInteger* Two;
+  __declspec(property(get = getStaticF_Two, put = setStaticF_Two)) ::Org::BouncyCastle::Math::BigInteger* Two;
 
   /// @brief Field rfc2409_1024, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc2409_1024, put = setStaticF_rfc2409_1024)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc2409_1024;
+  __declspec(property(get = getStaticF_rfc2409_1024, put = setStaticF_rfc2409_1024)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc2409_1024;
 
   /// @brief Field rfc2409_1024_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc2409_1024_p, put = setStaticF_rfc2409_1024_p)) ::StringW rfc2409_1024_p;
+  __declspec(property(get = getStaticF_rfc2409_1024_p, put = setStaticF_rfc2409_1024_p)) ::StringW rfc2409_1024_p;
 
   /// @brief Field rfc2409_768, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc2409_768, put = setStaticF_rfc2409_768)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc2409_768;
+  __declspec(property(get = getStaticF_rfc2409_768, put = setStaticF_rfc2409_768)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc2409_768;
 
   /// @brief Field rfc2409_768_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc2409_768_p, put = setStaticF_rfc2409_768_p)) ::StringW rfc2409_768_p;
+  __declspec(property(get = getStaticF_rfc2409_768_p, put = setStaticF_rfc2409_768_p)) ::StringW rfc2409_768_p;
 
   /// @brief Field rfc3526_1536, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_1536, put = setStaticF_rfc3526_1536)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_1536;
+  __declspec(property(get = getStaticF_rfc3526_1536, put = setStaticF_rfc3526_1536)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_1536;
 
   /// @brief Field rfc3526_1536_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc3526_1536_l, put = setStaticF_rfc3526_1536_l)) int32_t rfc3526_1536_l;
+  __declspec(property(get = getStaticF_rfc3526_1536_l, put = setStaticF_rfc3526_1536_l)) int32_t rfc3526_1536_l;
 
   /// @brief Field rfc3526_1536_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_1536_p, put = setStaticF_rfc3526_1536_p)) ::StringW rfc3526_1536_p;
+  __declspec(property(get = getStaticF_rfc3526_1536_p, put = setStaticF_rfc3526_1536_p)) ::StringW rfc3526_1536_p;
 
   /// @brief Field rfc3526_2048, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_2048, put = setStaticF_rfc3526_2048)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_2048;
+  __declspec(property(get = getStaticF_rfc3526_2048, put = setStaticF_rfc3526_2048)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_2048;
 
   /// @brief Field rfc3526_2048_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc3526_2048_l, put = setStaticF_rfc3526_2048_l)) int32_t rfc3526_2048_l;
+  __declspec(property(get = getStaticF_rfc3526_2048_l, put = setStaticF_rfc3526_2048_l)) int32_t rfc3526_2048_l;
 
   /// @brief Field rfc3526_2048_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_2048_p, put = setStaticF_rfc3526_2048_p)) ::StringW rfc3526_2048_p;
+  __declspec(property(get = getStaticF_rfc3526_2048_p, put = setStaticF_rfc3526_2048_p)) ::StringW rfc3526_2048_p;
 
   /// @brief Field rfc3526_3072, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_3072, put = setStaticF_rfc3526_3072)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_3072;
+  __declspec(property(get = getStaticF_rfc3526_3072, put = setStaticF_rfc3526_3072)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_3072;
 
   /// @brief Field rfc3526_3072_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc3526_3072_l, put = setStaticF_rfc3526_3072_l)) int32_t rfc3526_3072_l;
+  __declspec(property(get = getStaticF_rfc3526_3072_l, put = setStaticF_rfc3526_3072_l)) int32_t rfc3526_3072_l;
 
   /// @brief Field rfc3526_3072_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_3072_p, put = setStaticF_rfc3526_3072_p)) ::StringW rfc3526_3072_p;
+  __declspec(property(get = getStaticF_rfc3526_3072_p, put = setStaticF_rfc3526_3072_p)) ::StringW rfc3526_3072_p;
 
   /// @brief Field rfc3526_4096, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_4096, put = setStaticF_rfc3526_4096)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_4096;
+  __declspec(property(get = getStaticF_rfc3526_4096, put = setStaticF_rfc3526_4096)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_4096;
 
   /// @brief Field rfc3526_4096_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc3526_4096_l, put = setStaticF_rfc3526_4096_l)) int32_t rfc3526_4096_l;
+  __declspec(property(get = getStaticF_rfc3526_4096_l, put = setStaticF_rfc3526_4096_l)) int32_t rfc3526_4096_l;
 
   /// @brief Field rfc3526_4096_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_4096_p, put = setStaticF_rfc3526_4096_p)) ::StringW rfc3526_4096_p;
+  __declspec(property(get = getStaticF_rfc3526_4096_p, put = setStaticF_rfc3526_4096_p)) ::StringW rfc3526_4096_p;
 
   /// @brief Field rfc3526_6144, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_6144, put = setStaticF_rfc3526_6144)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_6144;
+  __declspec(property(get = getStaticF_rfc3526_6144, put = setStaticF_rfc3526_6144)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_6144;
 
   /// @brief Field rfc3526_6144_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc3526_6144_l, put = setStaticF_rfc3526_6144_l)) int32_t rfc3526_6144_l;
+  __declspec(property(get = getStaticF_rfc3526_6144_l, put = setStaticF_rfc3526_6144_l)) int32_t rfc3526_6144_l;
 
   /// @brief Field rfc3526_6144_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_6144_p, put = setStaticF_rfc3526_6144_p)) ::StringW rfc3526_6144_p;
+  __declspec(property(get = getStaticF_rfc3526_6144_p, put = setStaticF_rfc3526_6144_p)) ::StringW rfc3526_6144_p;
 
   /// @brief Field rfc3526_8192, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_8192, put = setStaticF_rfc3526_8192)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_8192;
+  __declspec(property(get = getStaticF_rfc3526_8192, put = setStaticF_rfc3526_8192)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc3526_8192;
 
   /// @brief Field rfc3526_8192_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc3526_8192_l, put = setStaticF_rfc3526_8192_l)) int32_t rfc3526_8192_l;
+  __declspec(property(get = getStaticF_rfc3526_8192_l, put = setStaticF_rfc3526_8192_l)) int32_t rfc3526_8192_l;
 
   /// @brief Field rfc3526_8192_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc3526_8192_p, put = setStaticF_rfc3526_8192_p)) ::StringW rfc3526_8192_p;
+  __declspec(property(get = getStaticF_rfc3526_8192_p, put = setStaticF_rfc3526_8192_p)) ::StringW rfc3526_8192_p;
 
   /// @brief Field rfc4306_1024, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc4306_1024, put = setStaticF_rfc4306_1024)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc4306_1024;
+  __declspec(property(get = getStaticF_rfc4306_1024, put = setStaticF_rfc4306_1024)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc4306_1024;
 
   /// @brief Field rfc4306_768, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc4306_768, put = setStaticF_rfc4306_768)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc4306_768;
+  __declspec(property(get = getStaticF_rfc4306_768, put = setStaticF_rfc4306_768)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc4306_768;
 
   /// @brief Field rfc5996_1024, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc5996_1024, put = setStaticF_rfc5996_1024)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc5996_1024;
+  __declspec(property(get = getStaticF_rfc5996_1024, put = setStaticF_rfc5996_1024)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc5996_1024;
 
   /// @brief Field rfc5996_768, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc5996_768, put = setStaticF_rfc5996_768)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc5996_768;
+  __declspec(property(get = getStaticF_rfc5996_768, put = setStaticF_rfc5996_768)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc5996_768;
 
   /// @brief Field rfc7919_ffdhe2048, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe2048, put = setStaticF_rfc7919_ffdhe2048)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe2048;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe2048, put = setStaticF_rfc7919_ffdhe2048)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe2048;
 
   /// @brief Field rfc7919_ffdhe2048_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe2048_l, put = setStaticF_rfc7919_ffdhe2048_l)) int32_t rfc7919_ffdhe2048_l;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe2048_l, put = setStaticF_rfc7919_ffdhe2048_l)) int32_t rfc7919_ffdhe2048_l;
 
   /// @brief Field rfc7919_ffdhe2048_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe2048_p, put = setStaticF_rfc7919_ffdhe2048_p)) ::StringW rfc7919_ffdhe2048_p;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe2048_p, put = setStaticF_rfc7919_ffdhe2048_p)) ::StringW rfc7919_ffdhe2048_p;
 
   /// @brief Field rfc7919_ffdhe3072, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe3072, put = setStaticF_rfc7919_ffdhe3072)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe3072;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe3072, put = setStaticF_rfc7919_ffdhe3072)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe3072;
 
   /// @brief Field rfc7919_ffdhe3072_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe3072_l, put = setStaticF_rfc7919_ffdhe3072_l)) int32_t rfc7919_ffdhe3072_l;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe3072_l, put = setStaticF_rfc7919_ffdhe3072_l)) int32_t rfc7919_ffdhe3072_l;
 
   /// @brief Field rfc7919_ffdhe3072_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe3072_p, put = setStaticF_rfc7919_ffdhe3072_p)) ::StringW rfc7919_ffdhe3072_p;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe3072_p, put = setStaticF_rfc7919_ffdhe3072_p)) ::StringW rfc7919_ffdhe3072_p;
 
   /// @brief Field rfc7919_ffdhe4096, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe4096, put = setStaticF_rfc7919_ffdhe4096)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe4096;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe4096, put = setStaticF_rfc7919_ffdhe4096)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe4096;
 
   /// @brief Field rfc7919_ffdhe4096_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe4096_l, put = setStaticF_rfc7919_ffdhe4096_l)) int32_t rfc7919_ffdhe4096_l;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe4096_l, put = setStaticF_rfc7919_ffdhe4096_l)) int32_t rfc7919_ffdhe4096_l;
 
   /// @brief Field rfc7919_ffdhe4096_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe4096_p, put = setStaticF_rfc7919_ffdhe4096_p)) ::StringW rfc7919_ffdhe4096_p;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe4096_p, put = setStaticF_rfc7919_ffdhe4096_p)) ::StringW rfc7919_ffdhe4096_p;
 
   /// @brief Field rfc7919_ffdhe6144, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe6144, put = setStaticF_rfc7919_ffdhe6144)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe6144;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe6144, put = setStaticF_rfc7919_ffdhe6144)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe6144;
 
   /// @brief Field rfc7919_ffdhe6144_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe6144_l, put = setStaticF_rfc7919_ffdhe6144_l)) int32_t rfc7919_ffdhe6144_l;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe6144_l, put = setStaticF_rfc7919_ffdhe6144_l)) int32_t rfc7919_ffdhe6144_l;
 
   /// @brief Field rfc7919_ffdhe6144_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe6144_p, put = setStaticF_rfc7919_ffdhe6144_p)) ::StringW rfc7919_ffdhe6144_p;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe6144_p, put = setStaticF_rfc7919_ffdhe6144_p)) ::StringW rfc7919_ffdhe6144_p;
 
   /// @brief Field rfc7919_ffdhe8192, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe8192, put = setStaticF_rfc7919_ffdhe8192)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe8192;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe8192, put = setStaticF_rfc7919_ffdhe8192)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* rfc7919_ffdhe8192;
 
   /// @brief Field rfc7919_ffdhe8192_l, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe8192_l, put = setStaticF_rfc7919_ffdhe8192_l)) int32_t rfc7919_ffdhe8192_l;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe8192_l, put = setStaticF_rfc7919_ffdhe8192_l)) int32_t rfc7919_ffdhe8192_l;
 
   /// @brief Field rfc7919_ffdhe8192_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rfc7919_ffdhe8192_p, put = setStaticF_rfc7919_ffdhe8192_p)) ::StringW rfc7919_ffdhe8192_p;
+  __declspec(property(get = getStaticF_rfc7919_ffdhe8192_p, put = setStaticF_rfc7919_ffdhe8192_p)) ::StringW rfc7919_ffdhe8192_p;
 
-  /// @brief Method FromHex, addr 0x26588bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x268bba8, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromPG, addr 0x2658954, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method FromPG, addr 0x268bc40, size 0xac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromPG(::StringW hexP, ::StringW hexG);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups* New_ctor();
 
-  /// @brief Method SafePrimeGen2, addr 0x2658a00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x268bcec, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
 
-  /// @brief Method SafePrimeGen2, addr 0x2658a58, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x268bd44, size 0xcc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int32_t l);
 
-  /// @brief Method .ctor, addr 0x2658fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268c2a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();

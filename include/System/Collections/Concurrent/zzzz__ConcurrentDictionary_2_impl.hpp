@@ -1,537 +1,453 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Concurrent/ConcurrentDictionary_2.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IDictionary_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*>&
-System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__buckets() {
+constexpr ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*>&
+System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_get__buckets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> const&
-System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__buckets() const {
+constexpr ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*> const&
+System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_get__buckets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename TKey, typename TValue>
-constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_set__buckets(
-    ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> value) {
+constexpr void System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_set__buckets(
+    ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__locks() {
+constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_get__locks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____locks;
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__locks() const {
+constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_get__locks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____locks;
 }
 template <typename TKey, typename TValue>
-constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_set__locks(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
+constexpr void System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_set__locks(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____locks, value);
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__countPerLock() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_get__countPerLock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countPerLock;
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__countPerLock() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_get__countPerLock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countPerLock;
 }
 template <typename TKey, typename TValue>
-constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_set__countPerLock(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::__cordl_internal_set__countPerLock(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____countPerLock, value);
 }
 template <typename TKey, typename TValue>
-inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::New_ctor(
-    ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> buckets,
+inline void System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::_ctor(
+    ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*> buckets,
     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> locks, ::ArrayW<int32_t, ::Array<int32_t>*> countPerLock) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*>(buckets, locks, countPerLock));
-}
-template <typename TKey, typename TValue>
-inline void System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::_ctor(
-    ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> buckets,
-    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> locks, ::ArrayW<int32_t, ::Array<int32_t>*> countPerLock) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*>::get(), ".ctor",
-                                 std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 3>{
-                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*,
-                                                                                                    ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*>>::get(),
-                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get(),
-                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buckets, locks, countPerLock);
 }
+template <typename TKey, typename TValue>
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>* System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::New_ctor(
+    ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*> buckets,
+    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> locks, ::ArrayW<int32_t, ::Array<int32_t>*> countPerLock) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>*>(buckets, locks, countPerLock));
+}
 // Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__ConcurrentDictionary_2__Tables() {}
-template <typename TKey, typename TValue> constexpr TKey& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__key() {
+template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>::ConcurrentDictionary_2_Tables() {}
+template <typename TKey, typename TValue> constexpr TKey& System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
-template <typename TKey, typename TValue> constexpr TKey const& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__key() const {
+template <typename TKey, typename TValue> constexpr TKey const& System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
-template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_set__key(TKey value) {
+template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_set__key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____key, value);
 }
-template <typename TKey, typename TValue> constexpr TValue& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__value() {
+template <typename TKey, typename TValue> constexpr TValue& System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-template <typename TKey, typename TValue> constexpr TValue const& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__value() const {
+template <typename TKey, typename TValue> constexpr TValue const& System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_set__value(TValue value) {
+template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_set__value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____value, value);
 }
 template <typename TKey, typename TValue>
-constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*&
-System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__next() {
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*& System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*> const&
-System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__next() const {
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>* const&
+System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 template <typename TKey, typename TValue>
 constexpr void
-System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_set__next(::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value) {
+System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_set__next(::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____next, value);
 }
-template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__hashcode() {
+template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__hashcode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashcode;
 }
-template <typename TKey, typename TValue> constexpr int32_t const& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__hashcode() const {
+template <typename TKey, typename TValue> constexpr int32_t const& System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_get__hashcode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashcode;
 }
-template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_set__hashcode(int32_t value) {
+template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::__cordl_internal_set__hashcode(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hashcode = value;
 }
 template <typename TKey, typename TValue>
-inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*
-System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::New_ctor(TKey key, TValue value, int32_t hashcode,
-                                                                                        ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* next) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>(key, value, hashcode, next));
-}
-template <typename TKey, typename TValue>
-inline void System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::_ctor(TKey key, TValue value, int32_t hashcode,
-                                                                                                 ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* next) {
+inline void System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::_ctor(TKey key, TValue value, int32_t hashcode,
+                                                                                              ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>* next) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>::get(), ".ctor",
-      std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value, hashcode, next);
 }
+template <typename TKey, typename TValue>
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::New_ctor(TKey key, TValue value, int32_t hashcode,
+                                                                                     ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>* next) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>(key, value, hashcode, next));
+}
 // Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__ConcurrentDictionary_2__Node() {}
-/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::IDictionaryEnumerator*
-System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::i___System__Collections__IDictionaryEnumerator() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::IEnumerator* System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
+template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>::ConcurrentDictionary_2_Node() {}
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*&
-System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::__cordl_internal_get__enumerator() {
+System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::__cordl_internal_get__enumerator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enumerator;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> const&
-System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::__cordl_internal_get__enumerator() const {
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* const&
+System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::__cordl_internal_get__enumerator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enumerator;
 }
 template <typename TKey, typename TValue>
-constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::__cordl_internal_set__enumerator(
+constexpr void System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::__cordl_internal_set__enumerator(
     ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____enumerator, value);
 }
 template <typename TKey, typename TValue>
-inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*
-System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::New_ctor(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>(dictionary));
-}
-template <typename TKey, typename TValue>
-inline void System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::_ctor(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary) {
+inline void System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::_ctor(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>::get(), ".ctor",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dictionary);
 }
-template <typename TKey, typename TValue> inline ::System::Collections::DictionaryEntry System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::get_Entry() {
+template <typename TKey, typename TValue> inline ::System::Collections::DictionaryEntry System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::get_Entry() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>::get(),
                                   "get_Entry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::DictionaryEntry, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline ::System::Object* System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::get_Key() {
+template <typename TKey, typename TValue> inline ::System::Object* System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::get_Key() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>::get(),
                                   "get_Key", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline ::System::Object* System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::get_Value() {
+template <typename TKey, typename TValue> inline ::System::Object* System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::get_Value() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>::get(),
                                   "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline ::System::Object* System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::get_Current() {
+template <typename TKey, typename TValue> inline ::System::Object* System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>::get(),
                                   "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::MoveNext() {
+template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline void System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::Reset() {
+template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*>::get(),
-                                  "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>::get(), "Reset",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::__ConcurrentDictionary_2__DictionaryEnumerator() {}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
 template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::operator ::System::Collections::Generic::IEnumerator_1<
-    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::New_ctor(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>*>(dictionary));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
 template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<
-    TKey, TValue>::i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::IDisposable"
-template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
 template <typename TKey, typename TValue>
-constexpr ::System::IDisposable* System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr ::System::Collections::IDictionaryEnumerator*
+System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::i___System__Collections__IDictionaryEnumerator() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 template <typename TKey, typename TValue>
-constexpr ::System::Collections::IEnumerator* System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
-template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___1__state() {
+// Ctor Parameters []
+template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_DictionaryEnumerator<TKey, TValue>::ConcurrentDictionary_2_DictionaryEnumerator() {}
+template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename TKey, typename TValue>
-constexpr int32_t const& System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___1__state() const {
+template <typename TKey, typename TValue> constexpr int32_t const& System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set___1__state(int32_t value) {
+template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___2__current() {
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___2__current() const {
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TValue>
 constexpr void
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value) {
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___4__this() {
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*> const&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___4__this() const {
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* const&
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue>
-constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set___4__this(
+constexpr void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set___4__this(
     ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*>&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__buckets_5__2() {
+constexpr ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*>&
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__buckets_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets_5__2;
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> const&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__buckets_5__2() const {
+constexpr ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*> const&
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__buckets_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets_5__2;
 }
 template <typename TKey, typename TValue>
-constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__buckets_5__2(
-    ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> value) {
+constexpr void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__buckets_5__2(
+    ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____buckets_5__2, value);
 }
-template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__i_5__3() {
+template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__i_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-template <typename TKey, typename TValue> constexpr int32_t const& System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__i_5__3() const {
+template <typename TKey, typename TValue> constexpr int32_t const& System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__i_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__i_5__3(int32_t value) {
+template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__i_5__3(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__3 = value;
 }
 template <typename TKey, typename TValue>
-constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__current_5__4() {
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*&
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__current_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current_5__4;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*> const&
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__current_5__4() const {
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>* const&
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__current_5__4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current_5__4;
 }
 template <typename TKey, typename TValue>
-constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__current_5__4(
-    ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value) {
+constexpr void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__current_5__4(
+    ::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____current_5__4, value);
 }
-template <typename TKey, typename TValue>
-inline ::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*>(__1__state));
-}
-template <typename TKey, typename TValue> inline void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::_ctor(int32_t __1__state) {
+template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-template <typename TKey, typename TValue> inline void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::System_IDisposable_Dispose() {
+template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::System_IDisposable_Dispose() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>::get(),
                                   "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::MoveNext() {
+template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>
-System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey,
-                                                                                TValue>::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current() {
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current", std::span<Il2CppClass const* const, 0>(),
                                   ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::System_Collections_IEnumerator_Reset() {
+template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>::get(),
                                   "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline ::System::Object* System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>::get(),
                                   "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
+template <typename TKey, typename TValue>
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::operator ::System::Collections::Generic::IEnumerator_1<
+    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<
+    TKey, TValue>::i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TKey, typename TValue>
+constexpr ::System::IDisposable* System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue>
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerator* System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__ConcurrentDictionary_2___GetEnumerator_d__35() {}
-/// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::ConcurrentDictionary_2__GetEnumerator_d__35() {}
 template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept {
-  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept {
-  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::ICollection_1<
-    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<
-    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::IEnumerable* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IDictionary"
-template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::IDictionary*() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionary"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::IDictionary* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__IDictionary() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::ICollection* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
-template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IReadOnlyDictionary_2_TKey_TValue_() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IReadOnlyCollection_1<
-    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*& System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__tables() {
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>*& System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__tables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tables;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*> const&
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>* const&
 System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__tables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tables;
 }
 template <typename TKey, typename TValue>
 constexpr void
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_set__tables(::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* value) {
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_set__tables(::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____tables, value);
 }
@@ -541,8 +457,7 @@ constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Co
   return this->____comparer;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const&
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__comparer() const {
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>* const& System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__comparer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
@@ -631,20 +546,11 @@ template <typename TKey, typename TValue> inline bool System::Collections::Concu
                                                "IsValueWriteAtomic", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-template <typename TKey, typename TValue>
-inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>());
-}
 template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TKey, typename TValue>
-inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>(comparer));
 }
 template <typename TKey, typename TValue>
 inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
@@ -662,12 +568,6 @@ inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
-}
-template <typename TKey, typename TValue>
-inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*
-System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::New_ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray,
-                                                                                ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>(concurrencyLevel, capacity, growLockArray, comparer));
 }
 template <typename TKey, typename TValue>
 inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::_ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray,
@@ -691,33 +591,33 @@ template <typename TKey, typename TValue> inline bool System::Collections::Concu
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
 }
-template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryRemove(TKey key, ByRef<TValue> value) {
+template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryRemove(TKey key, ::ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "TryRemove", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
 }
 template <typename TKey, typename TValue>
-inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryRemoveInternal(TKey key, ByRef<TValue> value, bool matchValue, TValue oldValue) {
+inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryRemoveInternal(TKey key, ::ByRef<TValue> value, bool matchValue, TValue oldValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "TryRemoveInternal",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value, matchValue, oldValue);
 }
-template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryGetValue(TKey key, ByRef<TValue> value) {
+template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryGetValue(TKey key, ::ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
 }
-template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryGetValueInternal(TKey key, int32_t hashcode, ByRef<TValue> value) {
+template <typename TKey, typename TValue> inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryGetValueInternal(TKey key, int32_t hashcode, ::ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "TryGetValueInternal",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, hashcode, value);
 }
 template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::Clear() {
@@ -787,13 +687,13 @@ System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::GetEnumer
 }
 template <typename TKey, typename TValue>
 inline bool System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::TryAddInternal(TKey key, int32_t hashcode, TValue value, bool updateIfExists, bool acquireLock,
-                                                                                                  ByRef<TValue> resultingValue) {
+                                                                                                  ::ByRef<TValue> resultingValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "TryAddInternal",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, hashcode, value, updateIfExists, acquireLock, resultingValue);
 }
 template <typename TKey, typename TValue> inline TValue System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::get_Item(TKey key) {
@@ -1020,10 +920,10 @@ template <typename TKey, typename TValue> inline ::System::Object* System::Colle
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::GrowTable(::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* tables) {
+inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::GrowTable(::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>* tables) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "GrowTable", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tables);
 }
 template <typename TKey, typename TValue> inline int32_t System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::GetBucket(int32_t hashcode, int32_t bucketCount) {
@@ -1033,13 +933,13 @@ template <typename TKey, typename TValue> inline int32_t System::Collections::Co
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, hashcode, bucketCount);
 }
 template <typename TKey, typename TValue>
-inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::GetBucketAndLockNo(int32_t hashcode, ByRef<int32_t> bucketNo, ByRef<int32_t> lockNo, int32_t bucketCount,
+inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::GetBucketAndLockNo(int32_t hashcode, ::ByRef<int32_t> bucketNo, ::ByRef<int32_t> lockNo, int32_t bucketCount,
                                                                                                       int32_t lockCount) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "GetBucketAndLockNo",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, hashcode, bucketNo, lockNo, bucketCount, lockCount);
 }
@@ -1049,18 +949,18 @@ template <typename TKey, typename TValue> inline int32_t System::Collections::Co
                                                "get_DefaultConcurrencyLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::AcquireAllLocks(ByRef<int32_t> locksAcquired) {
+template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::AcquireAllLocks(::ByRef<int32_t> locksAcquired) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "AcquireAllLocks",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, locksAcquired);
 }
 template <typename TKey, typename TValue>
-inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::AcquireLocks(int32_t fromInclusive, int32_t toExclusive, ByRef<int32_t> locksAcquired) {
+inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::AcquireLocks(int32_t fromInclusive, int32_t toExclusive, ::ByRef<int32_t> locksAcquired) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>::get(), "AcquireLocks", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fromInclusive, toExclusive, locksAcquired);
 }
 template <typename TKey, typename TValue> inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::ReleaseLocks(int32_t fromInclusive, int32_t toExclusive) {
@@ -1101,6 +1001,106 @@ inline void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
+}
+template <typename TKey, typename TValue>
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>());
+}
+template <typename TKey, typename TValue>
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>(comparer));
+}
+template <typename TKey, typename TValue>
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::New_ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray,
+                                                                                ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*>(concurrencyLevel, capacity, growLockArray, comparer));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::ICollection_1<
+    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IEnumerable_1<
+    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerable* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IDictionary"
+template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::IDictionary*() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionary"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IDictionary* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__IDictionary() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+template <typename TKey, typename TValue> constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::ICollection* System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IReadOnlyDictionary_2_TKey_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IReadOnlyCollection_1<
+    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::ConcurrentDictionary_2() {}

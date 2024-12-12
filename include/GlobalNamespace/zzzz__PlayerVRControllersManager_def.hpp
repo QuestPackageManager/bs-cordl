@@ -14,11 +14,10 @@ class PlayerVRControllersManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerVRControllersManager);
-// Type: ::PlayerVRControllersManager
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerVRControllersManager*
+// CS Name: PlayerVRControllersManager
 class CORDL_TYPE PlayerVRControllersManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   __declspec(property(get = get_rightHandVRController)) ::UnityW<::GlobalNamespace::VRController> rightHandVRController;
 
-  /// @brief Method DisableAllVRControllers, addr 0x3b82aa0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DisableAllVRControllers, addr 0x3be4328, size 0x38, virtual false, abstract: false, final false
   inline void DisableAllVRControllers();
 
-  /// @brief Method EnableAllVRControllers, addr 0x3b82ad8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EnableAllVRControllers, addr 0x3be4360, size 0x38, virtual false, abstract: false, final false
   inline void EnableAllVRControllers();
 
   static inline ::GlobalNamespace::PlayerVRControllersManager* New_ctor();
@@ -52,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__rightHandVRController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x3b82b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHandVRController, addr 0x3b82a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandVRController, addr 0x3be4318, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftHandVRController();
 
-  /// @brief Method get_rightHandVRController, addr 0x3b82a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandVRController, addr 0x3be4320, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightHandVRController();
 
 protected:
@@ -75,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerVRControllersManager(PlayerVRControllersManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4638 };
+
   /// @brief Field _leftHandVRController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____leftHandVRController;
 
   /// @brief Field _rightHandVRController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____rightHandVRController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4626 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerVRControllersManager, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerVRControllersManager, ____leftHandVRController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerVRControllersManager, ____rightHandVRController) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerVRControllersManager, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerVRControllersManager);

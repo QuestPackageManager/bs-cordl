@@ -12,11 +12,10 @@ class BaseUriAnnotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::BaseUriAnnotation);
-// Type: System.Xml.Linq::BaseUriAnnotation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::BaseUriAnnotation*
+// CS Name: System.Xml.Linq.BaseUriAnnotation
 class CORDL_TYPE BaseUriAnnotation : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_baseUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x41e2b48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4243e5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseUri);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseUriAnnotation(BaseUriAnnotation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17943 };
+
   /// @brief Field baseUri, offset: 0x10, size: 0x8, def value: None
   ::StringW ___baseUri;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17894 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::BaseUriAnnotation, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::BaseUriAnnotation, ___baseUri) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::BaseUriAnnotation, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::BaseUriAnnotation);

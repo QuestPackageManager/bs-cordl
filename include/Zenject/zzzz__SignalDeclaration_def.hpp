@@ -3,18 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
 #include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalDeclaration)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -23,87 +21,82 @@ namespace Zenject {
 struct BindingId;
 }
 namespace Zenject {
-class ITickable;
-}
-namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
 class SignalDeclarationBindInfo;
 }
 namespace Zenject {
+class SignalDeclaration_Factory;
+}
+namespace Zenject {
 class SignalSubscription;
 }
 namespace Zenject {
+class ZenjectSettings_SignalSettings;
+}
+namespace Zenject {
 class ZenjectSettings;
-}
-namespace Zenject {
-class __SignalDeclaration__Factory;
-}
-namespace Zenject {
-class __ZenjectSettings__SignalSettings;
 }
 // Forward declare root types
 namespace Zenject {
 class SignalDeclaration;
 }
 namespace Zenject {
-class __SignalDeclaration__Factory;
+class SignalDeclaration_Factory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalDeclaration);
-MARK_REF_PTR_T(::Zenject::__SignalDeclaration__Factory);
-// Type: ::Factory
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Zenject::SignalDeclaration_Factory);
+// Dependencies Zenject.PlaceholderFactory`2<TParam1, TValue>
 namespace Zenject {
 // Is value type: false
-// CS Name: ::SignalDeclaration::Factory*
-class CORDL_TYPE __SignalDeclaration__Factory : public ::Zenject::PlaceholderFactory_2<::Zenject::SignalDeclarationBindInfo*, ::Zenject::SignalDeclaration*> {
+// CS Name: Zenject.SignalDeclaration/Factory
+class CORDL_TYPE SignalDeclaration_Factory : public ::Zenject::PlaceholderFactory_2<::Zenject::SignalDeclarationBindInfo*, ::Zenject::SignalDeclaration*> {
 public:
   // Declarations
-  static inline ::Zenject::__SignalDeclaration__Factory* New_ctor();
+  static inline ::Zenject::SignalDeclaration_Factory* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4a95788, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afa098, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a957d8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afa0e8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a95740, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afa050, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SignalDeclaration__Factory();
+  constexpr SignalDeclaration_Factory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SignalDeclaration__Factory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration_Factory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SignalDeclaration__Factory(__SignalDeclaration__Factory&&) = delete;
+  SignalDeclaration_Factory(SignalDeclaration_Factory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SignalDeclaration__Factory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration_Factory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SignalDeclaration__Factory(__SignalDeclaration__Factory const&) = delete;
+  SignalDeclaration_Factory(SignalDeclaration_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::__SignalDeclaration__Factory, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::SignalDeclaration_Factory, 0x20>, "Size mismatch!");
 
 } // namespace Zenject
-// Type: Zenject::SignalDeclaration
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, Zenject.BindingId, Zenject.ITickable, Zenject.SignalMissingHandlerResponses
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::SignalDeclaration*
+// CS Name: Zenject.SignalDeclaration
 class CORDL_TYPE SignalDeclaration : public ::System::Object {
 public:
   // Declarations
-  using Factory = ::Zenject::__SignalDeclaration__Factory;
+  using Factory = ::Zenject::SignalDeclaration_Factory;
 
   __declspec(property(get = get_BindingId)) ::Zenject::BindingId BindingId;
 
@@ -127,7 +120,7 @@ public:
   __declspec(property(get = __cordl_internal_get__missingHandlerResponses, put = __cordl_internal_set__missingHandlerResponses)) ::Zenject::SignalMissingHandlerResponses _missingHandlerResponses;
 
   /// @brief Field _settings, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings)) ::Zenject::__ZenjectSettings__SignalSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings)) ::Zenject::ZenjectSettings_SignalSettings* _settings;
 
   /// @brief Field _subscriptions, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__subscriptions, put = __cordl_internal_set__subscriptions)) ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* _subscriptions;
@@ -138,33 +131,33 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method Add, addr 0x4a95200, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4af9b10, size 0xd8, virtual false, abstract: false, final false
   inline void Add(::Zenject::SignalSubscription* subscription);
 
-  /// @brief Method Dispose, addr 0x4a94848, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4af9158, size 0x150, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Fire, addr 0x4a949a0, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x4af92b0, size 0x2dc, virtual false, abstract: false, final false
   inline void Fire(::System::Object* signal);
 
-  /// @brief Method FireInternal, addr 0x4a94c7c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method FireInternal, addr 0x4af958c, size 0x23c, virtual false, abstract: false, final false
   inline void FireInternal(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* subscriptions, ::System::Object* signal);
 
   static inline ::Zenject::SignalDeclaration* New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings);
 
-  /// @brief Method Remove, addr 0x4a952d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4af9be8, size 0x58, virtual false, abstract: false, final false
   inline void Remove(::Zenject::SignalSubscription* subscription);
 
-  /// @brief Method Tick, addr 0x4a94edc, size 0x324, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x4af97ec, size 0x324, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr int32_t const& __cordl_internal_get__TickPriority_k__BackingField() const;
 
   constexpr int32_t& __cordl_internal_get__TickPriority_k__BackingField();
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__asyncQueue();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get__asyncQueue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get__asyncQueue() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__asyncQueue();
 
   constexpr ::Zenject::BindingId const& __cordl_internal_get__bindingId() const;
 
@@ -178,13 +171,13 @@ public:
 
   constexpr ::Zenject::SignalMissingHandlerResponses& __cordl_internal_get__missingHandlerResponses();
 
-  constexpr ::Zenject::__ZenjectSettings__SignalSettings*& __cordl_internal_get__settings();
+  constexpr ::Zenject::ZenjectSettings_SignalSettings* const& __cordl_internal_get__settings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& __cordl_internal_get__settings() const;
+  constexpr ::Zenject::ZenjectSettings_SignalSettings*& __cordl_internal_get__settings();
+
+  constexpr ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* const& __cordl_internal_get__subscriptions() const;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*& __cordl_internal_get__subscriptions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*> const& __cordl_internal_get__subscriptions() const;
 
   constexpr void __cordl_internal_set__TickPriority_k__BackingField(int32_t value);
 
@@ -196,26 +189,26 @@ public:
 
   constexpr void __cordl_internal_set__missingHandlerResponses(::Zenject::SignalMissingHandlerResponses value);
 
-  constexpr void __cordl_internal_set__settings(::Zenject::__ZenjectSettings__SignalSettings* value);
+  constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings_SignalSettings* value);
 
   constexpr void __cordl_internal_set__subscriptions(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4a95330, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4af9c40, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a95448, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af9d58, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a94694, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8fa4, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings);
 
-  /// @brief Method get_BindingId, addr 0x4a9483c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BindingId, addr 0x4af914c, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_BindingId();
 
-  /// @brief Method get_IsAsync, addr 0x4a94834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAsync, addr 0x4af9144, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAsync();
 
-  /// @brief Method get_TickPriority, addr 0x4a94824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TickPriority, addr 0x4af9134, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
   /// @brief Convert to "::System::IDisposable"
@@ -224,7 +217,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method set_TickPriority, addr 0x4a9482c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TickPriority, addr 0x4af913c, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
 protected:
@@ -240,6 +233,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SignalDeclaration(SignalDeclaration const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11996 };
 
   /// @brief Field _subscriptions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* ____subscriptions;
@@ -257,19 +253,14 @@ public:
   bool ____isAsync;
 
   /// @brief Field _settings, offset: 0x38, size: 0x8, def value: None
-  ::Zenject::__ZenjectSettings__SignalSettings* ____settings;
+  ::Zenject::ZenjectSettings_SignalSettings* ____settings;
 
   /// @brief Field <TickPriority>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____TickPriority_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11963 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::SignalDeclaration, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::SignalDeclaration, ____subscriptions) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::SignalDeclaration, ____asyncQueue) == 0x18, "Offset mismatch!");
@@ -284,8 +275,10 @@ static_assert(offsetof(::Zenject::SignalDeclaration, ____settings) == 0x38, "Off
 
 static_assert(offsetof(::Zenject::SignalDeclaration, ____TickPriority_k__BackingField) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Zenject::SignalDeclaration, 0x48>, "Size mismatch!");
+
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SignalDeclaration);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalDeclaration*, "Zenject", "SignalDeclaration");
-NEED_NO_BOX(::Zenject::__SignalDeclaration__Factory);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::__SignalDeclaration__Factory*, "Zenject", "SignalDeclaration/Factory");
+NEED_NO_BOX(::Zenject::SignalDeclaration_Factory);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalDeclaration_Factory*, "Zenject", "SignalDeclaration/Factory");

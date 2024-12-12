@@ -23,11 +23,10 @@ class FastAction;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::FastAction);
-// Type: TMPro::FastAction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::FastAction*
+// CS Name: TMPro.FastAction
 class CORDL_TYPE FastAction : public ::System::Object {
 public:
   // Declarations
@@ -38,31 +37,30 @@ public:
   __declspec(property(get = __cordl_internal_get_lookup,
                       put = __cordl_internal_set_lookup)) ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* lookup;
 
-  /// @brief Method Add, addr 0x475226c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x47b3580, size 0xc0, virtual false, abstract: false, final false
   inline void Add(::System::Action* rhs);
 
-  /// @brief Method Call, addr 0x47523ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x47b3700, size 0x98, virtual false, abstract: false, final false
   inline void Call();
 
   static inline ::TMPro::FastAction* New_ctor();
 
-  /// @brief Method Remove, addr 0x475232c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x47b3640, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(::System::Action* rhs);
+
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>* const& __cordl_internal_get_delegates() const;
 
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>*& __cordl_internal_get_delegates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action*>*> const& __cordl_internal_get_delegates() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* const& __cordl_internal_get_lookup() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*& __cordl_internal_get_lookup();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*> const&
-  __cordl_internal_get_lookup() const;
 
   constexpr void __cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action*>* value);
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x4752484, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b3798, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FastAction(FastAction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14414 };
+
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action*>* ___delegates;
 
   /// @brief Field lookup, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* ___lookup;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14380 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::FastAction, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::FastAction, ___delegates) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::FastAction, ___lookup) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::FastAction, 0x20>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::FastAction);

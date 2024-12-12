@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedAudioStream)
@@ -17,11 +16,10 @@ class BufferedAudioStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BufferedAudioStream);
-// Type: ::BufferedAudioStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BufferedAudioStream*
+// CS Name: BufferedAudioStream
 class CORDL_TYPE BufferedAudioStream : public ::System::Object {
 public:
   // Declarations
@@ -40,15 +38,15 @@ public:
   /// @brief Field writePos, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
 
-  /// @brief Method AddData, addr 0x3ef9234, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x3f592e0, size 0x114, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<float_t, ::Array<float_t>*> samples);
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method Stop, addr 0x3ef9014, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3f590c0, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x3ef9058, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f59104, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
@@ -81,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_writePos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ef8f50, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f58ffc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audio);
 
 protected:
@@ -98,6 +96,24 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferedAudioStream(BufferedAudioStream const&) = delete;
 
+  /// @brief Field VerboseLogging offset 0xffffffff size 0x1
+  static constexpr bool VerboseLogging{ false };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15300 };
+
+  /// @brief Field bufferLengthSeconds offset 0xffffffff size 0x4
+  static constexpr float_t bufferLengthSeconds{ static_cast<float_t>(0.2f) };
+
+  /// @brief Field bufferSize offset 0xffffffff size 0x4
+  static constexpr int32_t bufferSize{ static_cast<int32_t>(0x2ee0) };
+
+  /// @brief Field playbackDelayTimeSeconds offset 0xffffffff size 0x4
+  static constexpr float_t playbackDelayTimeSeconds{ static_cast<float_t>(0.1f) };
+
+  /// @brief Field sampleRate offset 0xffffffff size 0x4
+  static constexpr int32_t sampleRate{ static_cast<int32_t>(0xbb80) };
+
   /// @brief Field audio, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ___audio;
 
@@ -113,29 +129,9 @@ public:
   /// @brief Field remainingBufferTime, offset: 0x28, size: 0x4, def value: None
   float_t ___remainingBufferTime;
 
-  /// @brief Field VerboseLogging offset 0xffffffff size 0x1
-  static constexpr bool VerboseLogging{ false };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15265 };
-
-  /// @brief Field bufferLengthSeconds offset 0xffffffff size 0x4
-  static constexpr float_t bufferLengthSeconds{ 0.25 };
-
-  /// @brief Field bufferSize offset 0xffffffff size 0x4
-  static constexpr int32_t bufferSize{ static_cast<int32_t>(0x2ee0) };
-
-  /// @brief Field playbackDelayTimeSeconds offset 0xffffffff size 0x4
-  static constexpr float_t playbackDelayTimeSeconds{ 0.05 };
-
-  /// @brief Field sampleRate offset 0xffffffff size 0x4
-  static constexpr int32_t sampleRate{ static_cast<int32_t>(0xbb80) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BufferedAudioStream, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BufferedAudioStream, ___audio) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BufferedAudioStream, ___audioBuffer) == 0x18, "Offset mismatch!");
@@ -145,6 +141,8 @@ static_assert(offsetof(::GlobalNamespace::BufferedAudioStream, ___writePos) == 0
 static_assert(offsetof(::GlobalNamespace::BufferedAudioStream, ___playbackDelayRemaining) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BufferedAudioStream, ___remainingBufferTime) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BufferedAudioStream, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BufferedAudioStream);

@@ -26,78 +26,76 @@
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-//  Writing Method size for method: ::System::Xml::Serialization::__XmlSerializer__SerializerData.CreateWriter
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializer_SerializerData.CreateWriter
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (
-    ::System::Xml::Serialization::__XmlSerializer__SerializerData::*)()>(&::System::Xml::Serialization::__XmlSerializer__SerializerData::CreateWriter)> {
+    ::System::Xml::Serialization::XmlSerializer_SerializerData::*)()>(&::System::Xml::Serialization::XmlSerializer_SerializerData::CreateWriter)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x432c0c8;
+  constexpr static std::size_t addrs = 0x438d3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__XmlSerializer__SerializerData*>::get(), "CreateWriter",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializer_SerializerData*>::get(), "CreateWriter",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Reflection::MethodInfo*& System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_ReaderMethod() {
+constexpr ::System::Reflection::MethodInfo*& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_ReaderMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReaderMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_ReaderMethod() const {
+constexpr ::System::Reflection::MethodInfo* const& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_ReaderMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReaderMethod;
 }
-constexpr void System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_set_ReaderMethod(::System::Reflection::MethodInfo* value) {
+constexpr void System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_set_ReaderMethod(::System::Reflection::MethodInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReaderMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_WriterType() {
+constexpr ::System::Type*& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_WriterType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriterType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_WriterType() const {
+constexpr ::System::Type* const& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_WriterType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriterType;
 }
-constexpr void System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_set_WriterType(::System::Type* value) {
+constexpr void System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_set_WriterType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___WriterType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Reflection::MethodInfo*& System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_WriterMethod() {
+constexpr ::System::Reflection::MethodInfo*& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_WriterMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriterMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_WriterMethod() const {
+constexpr ::System::Reflection::MethodInfo* const& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_WriterMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriterMethod;
 }
-constexpr void System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_set_WriterMethod(::System::Reflection::MethodInfo* value) {
+constexpr void System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_set_WriterMethod(::System::Reflection::MethodInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___WriterMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Serialization::XmlSerializerImplementation*& System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_Implementation() {
+constexpr ::System::Xml::Serialization::XmlSerializerImplementation*& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_Implementation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Implementation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlSerializerImplementation*> const&
-System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_get_Implementation() const {
+constexpr ::System::Xml::Serialization::XmlSerializerImplementation* const& System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_get_Implementation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Implementation;
 }
-constexpr void System::Xml::Serialization::__XmlSerializer__SerializerData::__cordl_internal_set_Implementation(::System::Xml::Serialization::XmlSerializerImplementation* value) {
+constexpr void System::Xml::Serialization::XmlSerializer_SerializerData::__cordl_internal_set_Implementation(::System::Xml::Serialization::XmlSerializerImplementation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Implementation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Serialization::XmlSerializationWriter* System::Xml::Serialization::__XmlSerializer__SerializerData::CreateWriter() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::__XmlSerializer__SerializerData*>::get(), "CreateWriter",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Xml::Serialization::XmlSerializationWriter* System::Xml::Serialization::XmlSerializer_SerializerData::CreateWriter() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializer_SerializerData*>::get(),
+                                                                             "CreateWriter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Serialization::XmlSerializationWriter*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Serialization::__XmlSerializer__SerializerData::__XmlSerializer__SerializerData() {}
+constexpr ::System::Xml::Serialization::XmlSerializer_SerializerData::XmlSerializer_SerializerData() {}
 //  Writing Method size for method: ::System::Xml::Serialization::XmlSerializer._ctor
 template <>
 
@@ -105,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Xml::Serialization::XmlAttributeOverrides*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializer::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x432b250;
+  constexpr static std::size_t addrs = 0x438c564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlMapping* (::System::Xml::Serialization::XmlSerializer::*)()>(
     &::System::Xml::Serialization::XmlSerializer::get_Mapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432b3d8;
+  constexpr static std::size_t addrs = 0x438c6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializer*>::get(),
@@ -138,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::Serialization::XmlAttributeEventArgs*)>(
     &::System::Xml::Serialization::XmlSerializer::OnUnknownAttribute)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x432b3e0;
+  constexpr static std::size_t addrs = 0x438c6f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::Serialization::XmlElementEventArgs*)>(
     &::System::Xml::Serialization::XmlSerializer::OnUnknownElement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x432b408;
+  constexpr static std::size_t addrs = 0x438c71c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::Serialization::XmlNodeEventArgs*)>(
     &::System::Xml::Serialization::XmlSerializer::OnUnknownNode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x432b430;
+  constexpr static std::size_t addrs = 0x438c744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::Serialization::UnreferencedObjectEventArgs*)>(
     &::System::Xml::Serialization::XmlSerializer::OnUnreferencedObject)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x432b458;
+  constexpr static std::size_t addrs = 0x438c76c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationReader* (::System::Xml::Serialization::XmlSerializer::*)()>(
     &::System::Xml::Serialization::XmlSerializer::CreateReader)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x432b480;
+  constexpr static std::size_t addrs = 0x438c794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (::System::Xml::Serialization::XmlSerializer::*)()>(
     &::System::Xml::Serialization::XmlSerializer::CreateWriter)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x432b4b8;
+  constexpr static std::size_t addrs = 0x438c7cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -228,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializer::*)(::System::IO::TextReader*)>(
     &::System::Xml::Serialization::XmlSerializer::Deserialize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x432b4f0;
+  constexpr static std::size_t addrs = 0x438c804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -243,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::Serialization::XmlSerializer::Deserialize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x432b584;
+  constexpr static std::size_t addrs = 0x438c898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -258,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::Serialization::XmlSerializationReader*)>(&::System::Xml::Serialization::XmlSerializer::Deserialize)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x432b650;
+  constexpr static std::size_t addrs = 0x438c964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -273,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(
     ::System::Object*, ::System::Xml::Serialization::XmlSerializationWriter*)>(&::System::Xml::Serialization::XmlSerializer::Serialize)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x432b934;
+  constexpr static std::size_t addrs = 0x438cc48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -288,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(::System::IO::TextWriter*, ::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializer::Serialize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x432bb20;
+  constexpr static std::size_t addrs = 0x438ce34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::XmlWriter*, ::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializer::Serialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432bebc;
+  constexpr static std::size_t addrs = 0x438d1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializer::*)(
     ::System::Xml::XmlWriter*, ::System::Object*, ::System::Xml::Serialization::XmlSerializerNamespaces*)>(&::System::Xml::Serialization::XmlSerializer::Serialize)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x432bbb0;
+  constexpr static std::size_t addrs = 0x438cec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (
     ::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::Serialization::XmlMapping*)>(&::System::Xml::Serialization::XmlSerializer::CreateWriter)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x432bec4;
+  constexpr static std::size_t addrs = 0x438d1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationReader* (
     ::System::Xml::Serialization::XmlSerializer::*)(::System::Xml::Serialization::XmlMapping*)>(&::System::Xml::Serialization::XmlSerializer::CreateReader)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x432b5f4;
+  constexpr static std::size_t addrs = 0x438c908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,7 +375,7 @@ constexpr ::System::Xml::Serialization::XmlMapping*& System::Xml::Serialization:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeMapping;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlMapping*> const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_typeMapping() const {
+constexpr ::System::Xml::Serialization::XmlMapping* const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_typeMapping() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeMapping;
 }
@@ -385,16 +383,15 @@ constexpr void System::Xml::Serialization::XmlSerializer::__cordl_internal_set_t
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___typeMapping)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Serialization::__XmlSerializer__SerializerData*& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_serializerData() {
+constexpr ::System::Xml::Serialization::XmlSerializer_SerializerData*& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_serializerData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializerData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::__XmlSerializer__SerializerData*> const&
-System::Xml::Serialization::XmlSerializer::__cordl_internal_get_serializerData() const {
+constexpr ::System::Xml::Serialization::XmlSerializer_SerializerData* const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_serializerData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializerData;
 }
-constexpr void System::Xml::Serialization::XmlSerializer::__cordl_internal_set_serializerData(::System::Xml::Serialization::__XmlSerializer__SerializerData* value) {
+constexpr void System::Xml::Serialization::XmlSerializer::__cordl_internal_set_serializerData(::System::Xml::Serialization::XmlSerializer_SerializerData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serializerData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -402,8 +399,7 @@ constexpr ::System::Xml::Serialization::UnreferencedObjectEventHandler*& System:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnreferencedObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::UnreferencedObjectEventHandler*> const&
-System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnreferencedObject() const {
+constexpr ::System::Xml::Serialization::UnreferencedObjectEventHandler* const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnreferencedObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnreferencedObject;
 }
@@ -415,8 +411,7 @@ constexpr ::System::Xml::Serialization::XmlAttributeEventHandler*& System::Xml::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnknownAttribute;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlAttributeEventHandler*> const&
-System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnknownAttribute() const {
+constexpr ::System::Xml::Serialization::XmlAttributeEventHandler* const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnknownAttribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnknownAttribute;
 }
@@ -428,7 +423,7 @@ constexpr ::System::Xml::Serialization::XmlElementEventHandler*& System::Xml::Se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnknownElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlElementEventHandler*> const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnknownElement() const {
+constexpr ::System::Xml::Serialization::XmlElementEventHandler* const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnknownElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnknownElement;
 }
@@ -440,7 +435,7 @@ constexpr ::System::Xml::Serialization::XmlNodeEventHandler*& System::Xml::Seria
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnknownNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlNodeEventHandler*> const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnknownNode() const {
+constexpr ::System::Xml::Serialization::XmlNodeEventHandler* const& System::Xml::Serialization::XmlSerializer::__cordl_internal_get_onUnknownNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUnknownNode;
 }
@@ -480,11 +475,6 @@ inline void System::Xml::Serialization::XmlSerializer::setStaticF_serializerType
 inline ::System::Collections::Hashtable* System::Xml::Serialization::XmlSerializer::getStaticF_serializerTypes() {
   return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "serializerTypes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializer*>::get>();
-}
-inline ::System::Xml::Serialization::XmlSerializer* System::Xml::Serialization::XmlSerializer::New_ctor(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides,
-                                                                                                        ::ArrayW<::System::Type*, ::Array<::System::Type*>*> extraTypes,
-                                                                                                        ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlSerializer*>(type, overrides, extraTypes, root, defaultNamespace));
 }
 inline void System::Xml::Serialization::XmlSerializer::_ctor(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides,
                                                              ::ArrayW<::System::Type*, ::Array<::System::Type*>*> extraTypes, ::System::Xml::Serialization::XmlRootAttribute* root,
@@ -588,6 +578,11 @@ inline ::System::Xml::Serialization::XmlSerializationReader* System::Xml::Serial
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializer*>::get(), "CreateReader", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Serialization::XmlMapping*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Serialization::XmlSerializationReader*, false>(this, ___internal_method, typeMapping);
+}
+inline ::System::Xml::Serialization::XmlSerializer* System::Xml::Serialization::XmlSerializer::New_ctor(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides,
+                                                                                                        ::ArrayW<::System::Type*, ::Array<::System::Type*>*> extraTypes,
+                                                                                                        ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlSerializer*>(type, overrides, extraTypes, root, defaultNamespace));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlSerializer::XmlSerializer() {}

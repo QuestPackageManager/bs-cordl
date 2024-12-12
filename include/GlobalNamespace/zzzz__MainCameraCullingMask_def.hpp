@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MainCameraCullingMask)
 namespace GlobalNamespace {
-class __MainCameraCullingMask__InitData;
+class MainCameraCullingMask_InitData;
 }
 namespace UnityEngine {
 class Camera;
@@ -17,23 +17,22 @@ namespace GlobalNamespace {
 class MainCameraCullingMask;
 }
 namespace GlobalNamespace {
-class __MainCameraCullingMask__InitData;
+class MainCameraCullingMask_InitData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainCameraCullingMask);
-MARK_REF_PTR_T(::GlobalNamespace::__MainCameraCullingMask__InitData);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MainCameraCullingMask_InitData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MainCameraCullingMask::InitData*
-class CORDL_TYPE __MainCameraCullingMask__InitData : public ::System::Object {
+// CS Name: MainCameraCullingMask/InitData
+class CORDL_TYPE MainCameraCullingMask_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field showDebris, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_showDebris, put = __cordl_internal_set_showDebris)) bool showDebris;
 
-  static inline ::GlobalNamespace::__MainCameraCullingMask__InitData* New_ctor(bool showDebris);
+  static inline ::GlobalNamespace::MainCameraCullingMask_InitData* New_ctor(bool showDebris);
 
   constexpr bool const& __cordl_internal_get_showDebris() const;
 
@@ -41,71 +40,70 @@ public:
 
   constexpr void __cordl_internal_set_showDebris(bool value);
 
-  /// @brief Method .ctor, addr 0x401fbb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4080ec8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDebris);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MainCameraCullingMask__InitData();
+  constexpr MainCameraCullingMask_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MainCameraCullingMask__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MainCameraCullingMask__InitData(__MainCameraCullingMask__InitData&&) = delete;
+  MainCameraCullingMask_InitData(MainCameraCullingMask_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MainCameraCullingMask__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MainCameraCullingMask__InitData(__MainCameraCullingMask__InitData const&) = delete;
+  MainCameraCullingMask_InitData(MainCameraCullingMask_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17893 };
 
   /// @brief Field showDebris, offset: 0x10, size: 0x1, def value: None
   bool ___showDebris;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17810 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainCameraCullingMask__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask_InitData, ___showDebris) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MainCameraCullingMask__InitData, ___showDebris) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCameraCullingMask_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MainCameraCullingMask
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MainCameraCullingMask*
+// CS Name: MainCameraCullingMask
 class CORDL_TYPE MainCameraCullingMask : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__MainCameraCullingMask__InitData;
+  using InitData = ::GlobalNamespace::MainCameraCullingMask_InitData;
 
   /// @brief Field _camera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _initData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__MainCameraCullingMask__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::MainCameraCullingMask_InitData* _initData;
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method Start, addr 0x401fa9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4080db0, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
   constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::GlobalNamespace::__MainCameraCullingMask__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::MainCameraCullingMask_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MainCameraCullingMask__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::MainCameraCullingMask_InitData*& __cordl_internal_get__initData();
 
   constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__MainCameraCullingMask__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::MainCameraCullingMask_InitData* value);
 
-  /// @brief Method .ctor, addr 0x401fb4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4080e60, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,26 +120,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainCameraCullingMask(MainCameraCullingMask const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17894 };
+
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::__MainCameraCullingMask__InitData* ____initData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17811 };
+  ::GlobalNamespace::MainCameraCullingMask_InitData* ____initData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCameraCullingMask, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____camera) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____initData) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCameraCullingMask, 0x30>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainCameraCullingMask);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainCameraCullingMask*, "", "MainCameraCullingMask");
-NEED_NO_BOX(::GlobalNamespace::__MainCameraCullingMask__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainCameraCullingMask__InitData*, "", "MainCameraCullingMask/InitData");
+NEED_NO_BOX(::GlobalNamespace::MainCameraCullingMask_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainCameraCullingMask_InitData*, "", "MainCameraCullingMask/InitData");

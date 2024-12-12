@@ -18,11 +18,10 @@ class TypeInformation;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::TypeInformation);
-// Type: Newtonsoft.Json.Utilities::TypeInformation
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Utilities.PrimitiveTypeCode, System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::TypeInformation*
+// CS Name: Newtonsoft.Json.Utilities.TypeInformation
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
   // Declarations
@@ -43,21 +42,21 @@ public:
 
   constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& __cordl_internal_get__TypeCode_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__Type_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
 
   constexpr void __cordl_internal_set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e5f174, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebf220, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode);
 
-  /// @brief Method get_Type, addr 0x3e5f164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3ebf210, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeCode, addr 0x3e5f16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x3ebf218, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeInformation(TypeInformation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10191 };
+
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
   /// @brief Field <TypeCode>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::Newtonsoft::Json::Utilities::PrimitiveTypeCode ____TypeCode_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10166 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::TypeInformation, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Utilities::TypeInformation, ____Type_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Utilities::TypeInformation, ____TypeCode_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::TypeInformation, 0x20>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::TypeInformation);

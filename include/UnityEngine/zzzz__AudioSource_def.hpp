@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__AudioBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioSource)
@@ -39,11 +37,10 @@ class AudioSource;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AudioSource);
-// Type: UnityEngine::AudioSource
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AudioBehaviour
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AudioSource*
+// CS Name: UnityEngine.AudioSource
 class CORDL_TYPE AudioSource : public ::UnityEngine::AudioBehaviour {
 public:
   // Declarations
@@ -109,288 +106,288 @@ public:
 
   __declspec(property(get = get_volume, put = set_volume)) float_t volume;
 
-  /// @brief Method GetAmbisonicDecoderFloat, addr 0x47f8e48, size 0x54, virtual false, abstract: false, final false
-  inline bool GetAmbisonicDecoderFloat(int32_t index, ByRef<float_t> value);
+  /// @brief Method GetAmbisonicDecoderFloat, addr 0x485a15c, size 0x54, virtual false, abstract: false, final false
+  inline bool GetAmbisonicDecoderFloat(int32_t index, ::ByRef<float_t> value);
 
-  /// @brief Method GetCustomCurve, addr 0x47f8344, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCustomCurve, addr 0x4859658, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* GetCustomCurve(::UnityEngine::AudioSourceCurveType type);
 
-  /// @brief Method GetCustomCurveHelper, addr 0x47f73c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCustomCurveHelper, addr 0x48586d4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* GetCustomCurveHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type);
 
-  /// @brief Method GetOutputData, addr 0x47f8930, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x4859c44, size 0x94, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetOutputData(int32_t numSamples, int32_t channel);
 
-  /// @brief Method GetOutputData, addr 0x47f89c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x4859cd8, size 0x54, virtual false, abstract: false, final false
   inline void GetOutputData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel);
 
-  /// @brief Method GetOutputDataHelper, addr 0x47f7404, size 0x54, virtual false, abstract: false, final false
-  static inline void GetOutputDataHelper(::UnityEngine::AudioSource* source, ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel);
+  /// @brief Method GetOutputDataHelper, addr 0x4858718, size 0x54, virtual false, abstract: false, final false
+  static inline void GetOutputDataHelper(::UnityEngine::AudioSource* source, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel);
 
-  /// @brief Method GetPitch, addr 0x47f71bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPitch, addr 0x48584d0, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetPitch(::UnityEngine::AudioSource* source);
 
-  /// @brief Method GetSpatializerFloat, addr 0x47f8df4, size 0x54, virtual false, abstract: false, final false
-  inline bool GetSpatializerFloat(int32_t index, ByRef<float_t> value);
+  /// @brief Method GetSpatializerFloat, addr 0x485a108, size 0x54, virtual false, abstract: false, final false
+  inline bool GetSpatializerFloat(int32_t index, ::ByRef<float_t> value);
 
-  /// @brief Method GetSpectrumData, addr 0x47f8a18, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x4859d2c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetSpectrumData(int32_t numSamples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumData, addr 0x47f8abc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x4859dd0, size 0x5c, virtual false, abstract: false, final false
   inline void GetSpectrumData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumDataHelper, addr 0x47f7458, size 0x5c, virtual false, abstract: false, final false
-  static inline void GetSpectrumDataHelper(::UnityEngine::AudioSource* source, ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
+  /// @brief Method GetSpectrumDataHelper, addr 0x485876c, size 0x5c, virtual false, abstract: false, final false
+  static inline void GetSpectrumDataHelper(::UnityEngine::AudioSource* source, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   static inline ::UnityEngine::AudioSource* New_ctor();
 
-  /// @brief Method Pause, addr 0x47f7ae8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x4858dfc, size 0x3c, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Play, addr 0x47f77cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x4858ae0, size 0x40, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Play, addr 0x47f7288, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x485859c, size 0x4c, virtual false, abstract: false, final false
   inline void Play(double_t delay);
 
-  /// @brief Method Play, addr 0x47f780c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x4858b20, size 0x44, virtual false, abstract: false, final false
   inline void Play(uint64_t delay);
 
-  /// @brief Method PlayClipAtPoint, addr 0x47f7bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PlayClipAtPoint, addr 0x4858eec, size 0x8, virtual false, abstract: false, final false
   static inline void PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position);
 
-  /// @brief Method PlayClipAtPoint, addr 0x47f7be0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method PlayClipAtPoint, addr 0x4858ef4, size 0x280, virtual false, abstract: false, final false
   static inline void PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position, float_t volume);
 
-  /// @brief Method PlayDelayed, addr 0x47f7850, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x4858b64, size 0x64, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
-  /// @brief Method PlayHelper, addr 0x47f7244, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PlayHelper, addr 0x4858558, size 0x44, virtual false, abstract: false, final false
   static inline void PlayHelper(::UnityEngine::AudioSource* source, uint64_t delay);
 
-  /// @brief Method PlayOneShot, addr 0x47f790c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShot, addr 0x4858c20, size 0x8, virtual false, abstract: false, final false
   inline void PlayOneShot(::UnityEngine::AudioClip* clip);
 
-  /// @brief Method PlayOneShot, addr 0x47f7914, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShot, addr 0x4858c28, size 0xfc, virtual false, abstract: false, final false
   inline void PlayOneShot(::UnityEngine::AudioClip* clip, float_t volumeScale);
 
-  /// @brief Method PlayOneShotHelper, addr 0x47f72d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShotHelper, addr 0x48585e8, size 0x54, virtual false, abstract: false, final false
   static inline void PlayOneShotHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioClip* clip, float_t volumeScale);
 
-  /// @brief Method PlayScheduled, addr 0x47f78b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method PlayScheduled, addr 0x4858bc8, size 0x58, virtual false, abstract: false, final false
   inline void PlayScheduled(double_t time);
 
-  /// @brief Method SetAmbisonicDecoderFloat, addr 0x47f8e9c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetAmbisonicDecoderFloat, addr 0x485a1b0, size 0x54, virtual false, abstract: false, final false
   inline bool SetAmbisonicDecoderFloat(int32_t index, float_t value);
 
-  /// @brief Method SetCustomCurve, addr 0x47f82f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCustomCurve, addr 0x4859604, size 0x54, virtual false, abstract: false, final false
   inline void SetCustomCurve(::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method SetCustomCurveHelper, addr 0x47f736c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCustomCurveHelper, addr 0x4858680, size 0x54, virtual false, abstract: false, final false
   static inline void SetCustomCurveHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method SetPitch, addr 0x47f71f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetPitch, addr 0x485850c, size 0x4c, virtual false, abstract: false, final false
   static inline void SetPitch(::UnityEngine::AudioSource* source, float_t pitch);
 
-  /// @brief Method SetScheduledEndTime, addr 0x47f7a5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetScheduledEndTime, addr 0x4858d70, size 0x4c, virtual false, abstract: false, final false
   inline void SetScheduledEndTime(double_t time);
 
-  /// @brief Method SetScheduledStartTime, addr 0x47f7a10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetScheduledStartTime, addr 0x4858d24, size 0x4c, virtual false, abstract: false, final false
   inline void SetScheduledStartTime(double_t time);
 
-  /// @brief Method SetSpatializerFloat, addr 0x47f8da0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetSpatializerFloat, addr 0x485a0b4, size 0x54, virtual false, abstract: false, final false
   inline bool SetSpatializerFloat(int32_t index, float_t value);
 
-  /// @brief Method Stop, addr 0x47f7aa8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x4858dbc, size 0x40, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Stop, addr 0x47f7328, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x485863c, size 0x44, virtual false, abstract: false, final false
   inline void Stop(bool stopOneShots);
 
-  /// @brief Method UnPause, addr 0x47f7b24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UnPause, addr 0x4858e38, size 0x3c, virtual false, abstract: false, final false
   inline void UnPause();
 
-  /// @brief Method .ctor, addr 0x47f8ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485a204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bypassEffects, addr 0x47f8410, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bypassEffects, addr 0x4859724, size 0x3c, virtual false, abstract: false, final false
   inline bool get_bypassEffects();
 
-  /// @brief Method get_bypassListenerEffects, addr 0x47f8490, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bypassListenerEffects, addr 0x48597a4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_bypassListenerEffects();
 
-  /// @brief Method get_bypassReverbZones, addr 0x47f8510, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bypassReverbZones, addr 0x4859824, size 0x3c, virtual false, abstract: false, final false
   inline bool get_bypassReverbZones();
 
-  /// @brief Method get_clip, addr 0x47f76cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x48589e0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_clip();
 
-  /// @brief Method get_dopplerLevel, addr 0x47f8590, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_dopplerLevel, addr 0x48598a4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_dopplerLevel();
 
-  /// @brief Method get_ignoreListenerPause, addr 0x47f802c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreListenerPause, addr 0x4859340, size 0x3c, virtual false, abstract: false, final false
   inline bool get_ignoreListenerPause();
 
-  /// @brief Method get_ignoreListenerVolume, addr 0x47f7f2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreListenerVolume, addr 0x4859240, size 0x3c, virtual false, abstract: false, final false
   inline bool get_ignoreListenerVolume();
 
-  /// @brief Method get_isPlaying, addr 0x47f7b60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x4858e74, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method get_isVirtual, addr 0x47f7b9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isVirtual, addr 0x4858eb0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isVirtual();
 
-  /// @brief Method get_loop, addr 0x47f7eac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x48591c0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_maxDistance, addr 0x47f8828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x4859b3c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
-  /// @brief Method get_maxVolume, addr 0x47f8bf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x4859f04, size 0x70, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_minDistance, addr 0x47f87a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance, addr 0x4859ab4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_minDistance();
 
-  /// @brief Method get_minVolume, addr 0x47f8b18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x4859e2c, size 0x70, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_mute, addr 0x47f8720, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mute, addr 0x4859a34, size 0x3c, virtual false, abstract: false, final false
   inline bool get_mute();
 
-  /// @brief Method get_outputAudioMixerGroup, addr 0x47f774c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_outputAudioMixerGroup, addr 0x4858a60, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixerGroup> get_outputAudioMixerGroup();
 
-  /// @brief Method get_panStereo, addr 0x47f812c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_panStereo, addr 0x4859440, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_panStereo();
 
-  /// @brief Method get_pitch, addr 0x47f753c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pitch, addr 0x4858850, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_pitch();
 
-  /// @brief Method get_playOnAwake, addr 0x47f7fac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_playOnAwake, addr 0x48592c0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_playOnAwake();
 
-  /// @brief Method get_priority, addr 0x47f86a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_priority, addr 0x48599b4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_priority();
 
-  /// @brief Method get_reverbZoneMix, addr 0x47f8388, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_reverbZoneMix, addr 0x485969c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_reverbZoneMix();
 
-  /// @brief Method get_rolloffFactor, addr 0x47f8cc8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_rolloffFactor, addr 0x4859fdc, size 0x70, virtual false, abstract: false, final false
   inline float_t get_rolloffFactor();
 
-  /// @brief Method get_rolloffMode, addr 0x47f88b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rolloffMode, addr 0x4859bc4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioRolloffMode get_rolloffMode();
 
-  /// @brief Method get_spatialBlend, addr 0x47f81b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spatialBlend, addr 0x48594c8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_spatialBlend();
 
-  /// @brief Method get_spatialize, addr 0x47f81f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spatialize, addr 0x4859504, size 0x3c, virtual false, abstract: false, final false
   inline bool get_spatialize();
 
-  /// @brief Method get_spatializePostEffects, addr 0x47f8270, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spatializePostEffects, addr 0x4859584, size 0x3c, virtual false, abstract: false, final false
   inline bool get_spatializePostEffects();
 
-  /// @brief Method get_spread, addr 0x47f8618, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spread, addr 0x485992c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_spread();
 
-  /// @brief Method get_time, addr 0x47f75c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x48588d8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_timeSamples, addr 0x47f764c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_timeSamples, addr 0x4858960, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_timeSamples();
 
-  /// @brief Method get_velocityUpdateMode, addr 0x47f80ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_velocityUpdateMode, addr 0x48593c0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode();
 
-  /// @brief Method get_volume, addr 0x47f74b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x48587c8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_volume();
 
-  /// @brief Method set_bypassEffects, addr 0x47f844c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bypassEffects, addr 0x4859760, size 0x44, virtual false, abstract: false, final false
   inline void set_bypassEffects(bool value);
 
-  /// @brief Method set_bypassListenerEffects, addr 0x47f84cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bypassListenerEffects, addr 0x48597e0, size 0x44, virtual false, abstract: false, final false
   inline void set_bypassListenerEffects(bool value);
 
-  /// @brief Method set_bypassReverbZones, addr 0x47f854c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bypassReverbZones, addr 0x4859860, size 0x44, virtual false, abstract: false, final false
   inline void set_bypassReverbZones(bool value);
 
-  /// @brief Method set_clip, addr 0x47f7708, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x4858a1c, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_dopplerLevel, addr 0x47f85cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_dopplerLevel, addr 0x48598e0, size 0x4c, virtual false, abstract: false, final false
   inline void set_dopplerLevel(float_t value);
 
-  /// @brief Method set_ignoreListenerPause, addr 0x47f8068, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreListenerPause, addr 0x485937c, size 0x44, virtual false, abstract: false, final false
   inline void set_ignoreListenerPause(bool value);
 
-  /// @brief Method set_ignoreListenerVolume, addr 0x47f7f68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreListenerVolume, addr 0x485927c, size 0x44, virtual false, abstract: false, final false
   inline void set_ignoreListenerVolume(bool value);
 
-  /// @brief Method set_loop, addr 0x47f7ee8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x48591fc, size 0x44, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method set_maxDistance, addr 0x47f8864, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x4859b78, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
-  /// @brief Method set_maxVolume, addr 0x47f8c60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_maxVolume, addr 0x4859f74, size 0x68, virtual false, abstract: false, final false
   inline void set_maxVolume(float_t value);
 
-  /// @brief Method set_minDistance, addr 0x47f87dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance, addr 0x4859af0, size 0x4c, virtual false, abstract: false, final false
   inline void set_minDistance(float_t value);
 
-  /// @brief Method set_minVolume, addr 0x47f8b88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_minVolume, addr 0x4859e9c, size 0x68, virtual false, abstract: false, final false
   inline void set_minVolume(float_t value);
 
-  /// @brief Method set_mute, addr 0x47f875c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mute, addr 0x4859a70, size 0x44, virtual false, abstract: false, final false
   inline void set_mute(bool value);
 
-  /// @brief Method set_outputAudioMixerGroup, addr 0x47f7788, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_outputAudioMixerGroup, addr 0x4858a9c, size 0x44, virtual false, abstract: false, final false
   inline void set_outputAudioMixerGroup(::UnityEngine::Audio::AudioMixerGroup* value);
 
-  /// @brief Method set_panStereo, addr 0x47f8168, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_panStereo, addr 0x485947c, size 0x4c, virtual false, abstract: false, final false
   inline void set_panStereo(float_t value);
 
-  /// @brief Method set_pitch, addr 0x47f7578, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_pitch, addr 0x485888c, size 0x4c, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method set_playOnAwake, addr 0x47f7fe8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_playOnAwake, addr 0x48592fc, size 0x44, virtual false, abstract: false, final false
   inline void set_playOnAwake(bool value);
 
-  /// @brief Method set_priority, addr 0x47f86dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x48599f0, size 0x44, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
-  /// @brief Method set_reverbZoneMix, addr 0x47f83c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_reverbZoneMix, addr 0x48596d8, size 0x4c, virtual false, abstract: false, final false
   inline void set_reverbZoneMix(float_t value);
 
-  /// @brief Method set_rolloffFactor, addr 0x47f8d38, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_rolloffFactor, addr 0x485a04c, size 0x68, virtual false, abstract: false, final false
   inline void set_rolloffFactor(float_t value);
 
-  /// @brief Method set_rolloffMode, addr 0x47f88ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rolloffMode, addr 0x4859c00, size 0x44, virtual false, abstract: false, final false
   inline void set_rolloffMode(::UnityEngine::AudioRolloffMode value);
 
-  /// @brief Method set_spatialBlend, addr 0x47f7e60, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spatialBlend, addr 0x4859174, size 0x4c, virtual false, abstract: false, final false
   inline void set_spatialBlend(float_t value);
 
-  /// @brief Method set_spatialize, addr 0x47f822c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_spatialize, addr 0x4859540, size 0x44, virtual false, abstract: false, final false
   inline void set_spatialize(bool value);
 
-  /// @brief Method set_spatializePostEffects, addr 0x47f82ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_spatializePostEffects, addr 0x48595c0, size 0x44, virtual false, abstract: false, final false
   inline void set_spatializePostEffects(bool value);
 
-  /// @brief Method set_spread, addr 0x47f8654, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spread, addr 0x4859968, size 0x4c, virtual false, abstract: false, final false
   inline void set_spread(float_t value);
 
-  /// @brief Method set_time, addr 0x47f7600, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x4858914, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_timeSamples, addr 0x47f7688, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_timeSamples, addr 0x485899c, size 0x44, virtual false, abstract: false, final false
   inline void set_timeSamples(int32_t value);
 
-  /// @brief Method set_velocityUpdateMode, addr 0x47f80e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_velocityUpdateMode, addr 0x48593fc, size 0x44, virtual false, abstract: false, final false
   inline void set_velocityUpdateMode(::UnityEngine::AudioVelocityUpdateMode value);
 
-  /// @brief Method set_volume, addr 0x47f74f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x4858804, size 0x4c, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
 protected:
@@ -408,7 +405,7 @@ public:
   AudioSource(AudioSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

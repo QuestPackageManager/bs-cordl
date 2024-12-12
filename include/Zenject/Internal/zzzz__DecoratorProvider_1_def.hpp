@@ -4,6 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/Internal/zzzz__IDecoratorProvider_def.hpp"
 CORDL_MODULE_EXPORT(DecoratorProvider_1)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -16,9 +17,6 @@ struct Guid;
 }
 namespace System {
 class Object;
-}
-namespace Zenject::Internal {
-class IDecoratorProvider;
 }
 namespace Zenject {
 class DiContainer;
@@ -38,13 +36,12 @@ template <typename TContract> class DecoratorProvider_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::Internal::DecoratorProvider_1);
-// Type: Zenject.Internal::DecoratorProvider`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.Internal.IDecoratorProvider
 namespace Zenject::Internal {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject.Internal::DecoratorProvider`1<TContract>*
+// CS Name: Zenject.Internal.DecoratorProvider`1<TContract>
 class CORDL_TYPE DecoratorProvider_1 : public ::System::Object {
 public:
   // Declarations
@@ -83,22 +80,21 @@ public:
   /// @brief Method WrapProviderInstances, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void WrapProviderInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
+  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* const& __cordl_internal_get__cachedInstances() const;
+
   constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get__cachedInstances();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*> const&
-  __cordl_internal_get__cachedInstances() const;
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* const& __cordl_internal_get__decoratorFactories() const;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*& __cordl_internal_get__decoratorFactories();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*> const& __cordl_internal_get__decoratorFactories() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Guid>* const& __cordl_internal_get__factoryBindIds() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::Guid>*& __cordl_internal_get__factoryBindIds();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Guid>*> const& __cordl_internal_get__factoryBindIds() const;
 
   constexpr void __cordl_internal_set__cachedInstances(::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* value);
 
@@ -128,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecoratorProvider_1(DecoratorProvider_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12707 };
+
   /// @brief Field _cachedInstances, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* ____cachedInstances;
 
@@ -139,9 +138,6 @@ public:
 
   /// @brief Field _decoratorFactories, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* ____decoratorFactories;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

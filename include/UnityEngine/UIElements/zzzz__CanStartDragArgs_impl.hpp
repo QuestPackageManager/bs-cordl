@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CanStartDragArgs::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::CanStartDragArgs::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49b33c4;
+  constexpr static std::size_t addrs = 0x4a17cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +29,8 @@ inline void UnityEngine::UIElements::CanStartDragArgs::_ctor(::UnityEngine::UIEl
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, draggedElement, id, selectedIds);
 }
-// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "id", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "selectedIds", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "id", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "selectedIds", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::CanStartDragArgs::CanStartDragArgs(::UnityEngine::UIElements::VisualElement* draggedElement, int32_t id,
                                                                         ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds) noexcept {
   this->draggedElement = draggedElement;

@@ -21,11 +21,10 @@ class HEU_LoadBufferMesh;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferMesh);
-// Type: HoudiniEngineUnity::HEU_LoadBufferMesh
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_LoadBufferBase
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_LoadBufferMesh*
+// CS Name: HoudiniEngineUnity.HEU_LoadBufferMesh
 class CORDL_TYPE HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
   // Declarations
@@ -53,9 +52,9 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferMesh* New_ctor();
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*& __cordl_internal_get__LODGroupMeshes();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* const& __cordl_internal_get__LODGroupMeshes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> const& __cordl_internal_get__LODGroupMeshes() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*& __cordl_internal_get__LODGroupMeshes();
 
   constexpr bool const& __cordl_internal_get__bGenerateNormals() const;
 
@@ -77,9 +76,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__defaultMaterialKey();
 
-  constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache*& __cordl_internal_get__geoCache();
+  constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache* const& __cordl_internal_get__geoCache() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GenerateGeoCache*> const& __cordl_internal_get__geoCache() const;
+  constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache*& __cordl_internal_get__geoCache();
 
   constexpr void __cordl_internal_set__LODGroupMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* value);
 
@@ -95,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__geoCache(::HoudiniEngineUnity::HEU_GenerateGeoCache* value);
 
-  /// @brief Method .ctor, addr 0x3a0bdbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a62a2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,6 +110,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferMesh", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_LoadBufferMesh(HEU_LoadBufferMesh const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11787 };
 
   /// @brief Field _geoCache, offset: 0x30, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_GenerateGeoCache* ____geoCache;
@@ -133,14 +135,9 @@ public:
   /// @brief Field _bPartInstanced, offset: 0x47, size: 0x1, def value: None
   bool ____bPartInstanced;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11754 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferMesh, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____geoCache) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____LODGroupMeshes) == 0x38, "Offset mismatch!");
@@ -154,6 +151,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____bGenerateTa
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____bGenerateNormals) == 0x46, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____bPartInstanced) == 0x47, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferMesh, 0x48>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferMesh);

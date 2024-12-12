@@ -13,11 +13,10 @@ class NetStatistics;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NetStatistics);
-// Type: LiteNetLib::NetStatistics
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::LiteNetLib::NetStatistics*
+// CS Name: LiteNetLib.NetStatistics
 class CORDL_TYPE NetStatistics : public ::System::Object {
 public:
   // Declarations
@@ -48,30 +47,30 @@ public:
   /// @brief Field _packetsSent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__packetsSent, put = __cordl_internal_set__packetsSent)) int64_t _packetsSent;
 
-  /// @brief Method AddBytesReceived, addr 0x3a5cc30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddBytesReceived, addr 0x3ab38a0, size 0xc, virtual false, abstract: false, final false
   inline void AddBytesReceived(int64_t bytesReceived);
 
-  /// @brief Method AddBytesSent, addr 0x3a5ac9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddBytesSent, addr 0x3ab190c, size 0xc, virtual false, abstract: false, final false
   inline void AddBytesSent(int64_t bytesSent);
 
-  /// @brief Method AddPacketLoss, addr 0x3a62bb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddPacketLoss, addr 0x3ab9828, size 0xc, virtual false, abstract: false, final false
   inline void AddPacketLoss(int64_t packetLoss);
 
-  /// @brief Method IncrementPacketLoss, addr 0x3a62bac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketLoss, addr 0x3ab981c, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketLoss();
 
-  /// @brief Method IncrementPacketsReceived, addr 0x3a5cc24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsReceived, addr 0x3ab3894, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsReceived();
 
-  /// @brief Method IncrementPacketsSent, addr 0x3a5ac90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsSent, addr 0x3ab1900, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsSent();
 
   static inline ::LiteNetLib::NetStatistics* New_ctor();
 
-  /// @brief Method Reset, addr 0x3a62b50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3ab97c0, size 0x5c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x3a62bc4, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ab9834, size 0x270, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int64_t const& __cordl_internal_get__bytesReceived() const;
@@ -104,25 +103,25 @@ public:
 
   constexpr void __cordl_internal_set__packetsSent(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3a5a458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab10c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BytesReceived, addr 0x3a62aec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BytesReceived, addr 0x3ab975c, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_BytesReceived();
 
-  /// @brief Method get_BytesSent, addr 0x3a62ae0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BytesSent, addr 0x3ab9750, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_BytesSent();
 
-  /// @brief Method get_PacketLoss, addr 0x3a62af8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PacketLoss, addr 0x3ab9768, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_PacketLoss();
 
-  /// @brief Method get_PacketLossPercent, addr 0x3a62b04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_PacketLossPercent, addr 0x3ab9774, size 0x4c, virtual false, abstract: false, final false
   inline int64_t get_PacketLossPercent();
 
-  /// @brief Method get_PacketsReceived, addr 0x3a62ad4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsReceived, addr 0x3ab9744, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_PacketsReceived();
 
-  /// @brief Method get_PacketsSent, addr 0x3a62ac8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsSent, addr 0x3ab9738, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_PacketsSent();
 
 protected:
@@ -139,6 +138,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetStatistics(NetStatistics const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16556 };
+
   /// @brief Field _packetsSent, offset: 0x10, size: 0x8, def value: None
   int64_t ____packetsSent;
 
@@ -154,14 +156,9 @@ public:
   /// @brief Field _packetLoss, offset: 0x30, size: 0x8, def value: None
   int64_t ____packetLoss;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16520 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetStatistics, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::LiteNetLib::NetStatistics, ____packetsSent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::NetStatistics, ____packetsReceived) == 0x18, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::LiteNetLib::NetStatistics, ____bytesSent) == 0x20, "Off
 static_assert(offsetof(::LiteNetLib::NetStatistics, ____bytesReceived) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::NetStatistics, ____packetLoss) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetStatistics, 0x38>, "Size mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetStatistics);

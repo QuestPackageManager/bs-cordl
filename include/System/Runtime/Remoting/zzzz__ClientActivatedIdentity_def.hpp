@@ -27,42 +27,41 @@ class ClientActivatedIdentity;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ClientActivatedIdentity);
-// Type: System.Runtime.Remoting::ClientActivatedIdentity
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.ServerIdentity
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::ClientActivatedIdentity*
+// CS Name: System.Runtime.Remoting.ClientActivatedIdentity
 class CORDL_TYPE ClientActivatedIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
   /// @brief Field _targetThis, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__targetThis, put = __cordl_internal_set__targetThis)) ::System::MarshalByRefObject* _targetThis;
 
-  /// @brief Method AsyncObjectProcessMessage, addr 0x3c743d0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x3cd4544, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method GetServerObject, addr 0x3c740dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetServerObject, addr 0x3cd4250, size 0x8, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* GetServerObject();
 
   static inline ::System::Runtime::Remoting::ClientActivatedIdentity* New_ctor(::StringW objectUri, ::System::Type* objectType);
 
-  /// @brief Method OnLifetimeExpired, addr 0x3c740ec, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnLifetimeExpired, addr 0x3cd4260, size 0x5c, virtual true, abstract: false, final false
   inline void OnLifetimeExpired();
 
-  /// @brief Method SetClientProxy, addr 0x3c740e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetClientProxy, addr 0x3cd4258, size 0x8, virtual false, abstract: false, final false
   inline void SetClientProxy(::System::MarshalByRefObject* obj);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x3c74148, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x3cd42bc, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
+
+  constexpr ::System::MarshalByRefObject* const& __cordl_internal_get__targetThis() const;
 
   constexpr ::System::MarshalByRefObject*& __cordl_internal_get__targetThis();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __cordl_internal_get__targetThis() const;
-
   constexpr void __cordl_internal_set__targetThis(::System::MarshalByRefObject* value);
 
-  /// @brief Method .ctor, addr 0x3c72378, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd24ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Type* objectType);
 
 protected:
@@ -79,18 +78,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClientActivatedIdentity(ClientActivatedIdentity const&) = delete;
 
-  /// @brief Field _targetThis, offset: 0x70, size: 0x8, def value: None
-  ::System::MarshalByRefObject* ____targetThis;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3072 };
+
+  /// @brief Field _targetThis, offset: 0x70, size: 0x8, def value: None
+  ::System::MarshalByRefObject* ____targetThis;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ClientActivatedIdentity, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::ClientActivatedIdentity, ____targetThis) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ClientActivatedIdentity, 0x78>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ClientActivatedIdentity);

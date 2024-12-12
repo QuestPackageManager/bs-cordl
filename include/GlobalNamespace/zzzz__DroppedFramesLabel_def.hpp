@@ -16,11 +16,10 @@ class DroppedFramesLabel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DroppedFramesLabel);
-// Type: ::DroppedFramesLabel
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DroppedFramesLabel*
+// CS Name: DroppedFramesLabel
 class CORDL_TYPE DroppedFramesLabel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,13 +49,13 @@ public:
 
   static inline ::GlobalNamespace::DroppedFramesLabel* New_ctor();
 
-  /// @brief Method RefreshText, addr 0x396b784, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x39c0c70, size 0x168, virtual false, abstract: false, final false
   inline void RefreshText();
 
-  /// @brief Method Start, addr 0x396b680, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39c0b6c, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x396b6f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39c0be0, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__expectedFrameRate() const;
@@ -107,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__totalNumberOfDroppedFrames(int32_t value);
 
-  /// @brief Method .ctor, addr 0x396b8ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c0dd8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,6 +122,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DroppedFramesLabel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DroppedFramesLabel(DroppedFramesLabel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16395 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
@@ -148,14 +150,9 @@ public:
   /// @brief Field _frameCountInInterval, offset: 0x40, size: 0x4, def value: None
   int32_t ____frameCountInInterval;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16359 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DroppedFramesLabel, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____text) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____expectedFrameRate) == 0x28, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____intervalTime) 
 static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____maxFrameTimeInInterval) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____frameCountInInterval) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DroppedFramesLabel, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DroppedFramesLabel);

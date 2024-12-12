@@ -11,17 +11,16 @@ class AndroidGamepadWithDpadAxes;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes);
-// Type: UnityEngine.InputSystem.Android::AndroidGamepadWithDpadAxes
-// SizeInfo { instance_size: 496, native_size: -1, calculated_instance_size: 496, calculated_native_size: 496, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Android.AndroidGamepad
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidGamepadWithDpadAxes*
+// CS Name: UnityEngine.InputSystem.Android.AndroidGamepadWithDpadAxes
 class CORDL_TYPE AndroidGamepadWithDpadAxes : public ::UnityEngine::InputSystem::Android::AndroidGamepad {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a309c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46043b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidGamepadWithDpadAxes(AndroidGamepadWithDpadAxes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

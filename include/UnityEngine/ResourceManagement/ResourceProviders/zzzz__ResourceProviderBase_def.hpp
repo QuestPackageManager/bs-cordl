@@ -5,7 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProviderBehaviourFlags_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IInitializableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceProviderBase)
 namespace System {
@@ -24,22 +26,16 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProviderBehaviourFlags;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase__BaseInitAsyncOp;
+class ResourceProviderBase_BaseInitAsyncOp;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase____c__DisplayClass10_0;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IInitializableObject;
+class ResourceProviderBase___c__DisplayClass10_0;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
@@ -49,80 +45,78 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ResourceProviderBase;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase__BaseInitAsyncOp;
+class ResourceProviderBase_BaseInitAsyncOp;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase____c__DisplayClass10_0;
+class ResourceProviderBase___c__DisplayClass10_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase);
-MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp);
-MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0);
-// Type: ::BaseInitAsyncOp
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp);
+MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0);
+// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::ResourceProviderBase::BaseInitAsyncOp*
-class CORDL_TYPE __ResourceProviderBase__BaseInitAsyncOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase/BaseInitAsyncOp
+class CORDL_TYPE ResourceProviderBase_BaseInitAsyncOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
   // Declarations
   /// @brief Field m_CallBack, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CallBack, put = __cordl_internal_set_m_CallBack)) ::System::Func_1<bool>* m_CallBack;
 
-  /// @brief Method Execute, addr 0x473cd60, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x479e074, size 0x88, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x473cce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x479dffc, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x473ccf0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x479e004, size 0x70, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  static inline ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp* New_ctor();
+  static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp* New_ctor();
+
+  constexpr ::System::Func_1<bool>* const& __cordl_internal_get_m_CallBack() const;
 
   constexpr ::System::Func_1<bool>*& __cordl_internal_get_m_CallBack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_m_CallBack() const;
-
   constexpr void __cordl_internal_set_m_CallBack(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x473cc98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479dfac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ResourceProviderBase__BaseInitAsyncOp();
+  constexpr ResourceProviderBase_BaseInitAsyncOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceProviderBase__BaseInitAsyncOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase_BaseInitAsyncOp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ResourceProviderBase__BaseInitAsyncOp(__ResourceProviderBase__BaseInitAsyncOp&&) = delete;
+  ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceProviderBase__BaseInitAsyncOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase_BaseInitAsyncOp", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ResourceProviderBase__BaseInitAsyncOp(__ResourceProviderBase__BaseInitAsyncOp const&) = delete;
+  ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOp const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15671 };
 
   /// @brief Field m_CallBack, offset: 0x98, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_CallBack;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15636 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp, 0xa0>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp, ___m_CallBack) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp, ___m_CallBack) == 0x98, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp, 0xa0>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
-// Type: ::<>c__DisplayClass10_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::ResourceProviderBase::<>c__DisplayClass10_0*
-class CORDL_TYPE __ResourceProviderBase____c__DisplayClass10_0 : public ::System::Object {
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase/<>c__DisplayClass10_0
+class CORDL_TYPE ResourceProviderBase___c__DisplayClass10_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -134,14 +128,14 @@ public:
   /// @brief Field id, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::StringW id;
 
-  static inline ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0* New_ctor();
+  static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <InitializeAsync>b__0, addr 0x473cde8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__0, addr 0x479e0fc, size 0x2c, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__0();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& __cordl_internal_get___4__this();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& __cordl_internal_get___4__this();
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
 
@@ -157,22 +151,25 @@ public:
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x473cc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479dfa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ResourceProviderBase____c__DisplayClass10_0();
+  constexpr ResourceProviderBase___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceProviderBase____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ResourceProviderBase____c__DisplayClass10_0(__ResourceProviderBase____c__DisplayClass10_0&&) = delete;
+  ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ResourceProviderBase____c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ResourceProviderBase____c__DisplayClass10_0(__ResourceProviderBase____c__DisplayClass10_0 const&) = delete;
+  ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15672 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* _____4__this;
@@ -183,32 +180,29 @@ public:
   /// @brief Field data, offset: 0x20, size: 0x8, def value: None
   ::StringW ___data;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15637 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, 0x28>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0, ___id) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, ___id) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0, ___data) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, ___data) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
-// Type: UnityEngine.ResourceManagement.ResourceProviders::ResourceProviderBase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider, UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags,
+// UnityEngine.ResourceManagement.Util.IInitializableObject
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ResourceProviderBase*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 class CORDL_TYPE ResourceProviderBase : public ::System::Object {
 public:
   // Declarations
-  using BaseInitAsyncOp = ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp;
+  using BaseInitAsyncOp = ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp;
 
-  using __c__DisplayClass10_0 = ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0;
+  using __c__DisplayClass10_0 = ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0;
 
   __declspec(property(get = get_ProviderId)) ::StringW ProviderId;
 
@@ -228,30 +222,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IInitializableObject*() noexcept;
 
-  /// @brief Method CanProvide, addr 0x473ca84, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanProvide, addr 0x479dd98, size 0x40, virtual true, abstract: false, final false
   inline bool CanProvide(::System::Type* t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method GetDefaultType, addr 0x473cad4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultType, addr 0x479dde8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Initialize, addr 0x473ca60, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x479dd74, size 0x24, virtual true, abstract: false, final false
   inline bool Initialize(::StringW id, ::StringW data);
 
-  /// @brief Method InitializeAsync, addr 0x473cb40, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x479de54, size 0x150, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* New_ctor();
 
-  /// @brief Method Provide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Provide, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method Release, addr 0x473cad0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x479dde4, size 0x4, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
 
-  /// @brief Method ToString, addr 0x473cac4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x479ddd8, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags, addr 0x473cce0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags, addr 0x479dff4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_get_BehaviourFlags();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags const& __cordl_internal_get_m_BehaviourFlags() const;
@@ -266,10 +260,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ProviderId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x473960c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479a920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ProviderId, addr 0x473ca10, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_ProviderId, addr 0x479dd24, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_ProviderId();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider"
@@ -292,30 +286,30 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceProviderBase(ResourceProviderBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15673 };
+
   /// @brief Field m_ProviderId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_ProviderId;
 
   /// @brief Field m_BehaviourFlags, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags ___m_BehaviourFlags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15638 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase, ___m_ProviderId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase, ___m_BehaviourFlags) == 0x18, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase, 0x20>, "Size mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase");
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp*, "UnityEngine.ResourceManagement.ResourceProviders",
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp*, "UnityEngine.ResourceManagement.ResourceProviders",
                        "ResourceProviderBase/BaseInitAsyncOp");
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders",
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase___c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders",
                        "ResourceProviderBase/<>c__DisplayClass10_0");

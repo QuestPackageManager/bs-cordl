@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "Tayx/Graphy/Ram/G_RamManager.hpp"
+#include "Tayx/Graphy/UI/zzzz__IModifiableState_impl.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_impl.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamGraph_def.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamText_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44705c4;
+  constexpr static std::size_t addrs = 0x44d18d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "Awake",
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44705c8;
+  constexpr static std::size_t addrs = 0x44d18dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "Start",
@@ -41,30 +41,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::Ram::G_RamManager.SetPosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(::Tayx::Graphy::__GraphyManager__ModulePosition)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(::Tayx::Graphy::GraphyManager_ModulePosition)>(
     &::Tayx::Graphy::Ram::G_RamManager::SetPosition)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x4469324;
+  constexpr static std::size_t addrs = 0x44ca638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "SetPosition", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tayx::Graphy::Ram::G_RamManager.SetState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(::Tayx::Graphy::__GraphyManager__ModuleState, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(::Tayx::Graphy::GraphyManager_ModuleState, bool)>(
     &::Tayx::Graphy::Ram::G_RamManager::SetState)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4469ebc;
+  constexpr static std::size_t addrs = 0x44cb1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "SetState", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::RestorePreviousState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x446beb4;
+  constexpr static std::size_t addrs = 0x44cd1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(),
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::UpdateParameters)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x446a03c;
+  constexpr static std::size_t addrs = 0x44cb350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "UpdateParameters",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::RefreshParameters)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x446e454;
+  constexpr static std::size_t addrs = 0x44cf768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "RefreshParameters",
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::Init)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x446c58c;
+  constexpr static std::size_t addrs = 0x44cd8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "Init",
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)(bool)>(&::Tayx::Graphy::Ram::G_RamManager::SetGraphActive)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44705cc;
+  constexpr static std::size_t addrs = 0x44d18e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Ram::G_RamManager::*)()>(&::Tayx::Graphy::Ram::G_RamManager::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x44707bc;
+  constexpr static std::size_t addrs = 0x44d1ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), ".ctor",
@@ -148,22 +148,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
-constexpr Tayx::Graphy::Ram::G_RamManager::operator ::Tayx::Graphy::UI::IMovable*() noexcept {
-  return static_cast<::Tayx::Graphy::UI::IMovable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Tayx::Graphy::UI::IMovable"
-constexpr ::Tayx::Graphy::UI::IMovable* Tayx::Graphy::Ram::G_RamManager::i___Tayx__Graphy__UI__IMovable() noexcept {
-  return static_cast<::Tayx::Graphy::UI::IMovable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
-constexpr Tayx::Graphy::Ram::G_RamManager::operator ::Tayx::Graphy::UI::IModifiableState*() noexcept {
-  return static_cast<::Tayx::Graphy::UI::IModifiableState*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
-constexpr ::Tayx::Graphy::UI::IModifiableState* Tayx::Graphy::Ram::G_RamManager::i___Tayx__Graphy__UI__IModifiableState() noexcept {
-  return static_cast<::Tayx::Graphy::UI::IModifiableState*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::UnityEngine::GameObject>& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_ramGraphGameObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramGraphGameObject;
@@ -180,8 +164,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Ima
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_backgroundImages;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*> const&
-Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_backgroundImages() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_backgroundImages() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_backgroundImages;
 }
@@ -241,8 +224,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_childrenGameObjects;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const&
-Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_childrenGameObjects() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_childrenGameObjects() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_childrenGameObjects;
 }
@@ -250,27 +232,27 @@ constexpr void Tayx::Graphy::Ram::G_RamManager::__cordl_internal_set_m_childrenG
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_childrenGameObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_previousModuleState() {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_previousModuleState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_previousModuleState;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_previousModuleState() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_previousModuleState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_previousModuleState;
 }
-constexpr void Tayx::Graphy::Ram::G_RamManager::__cordl_internal_set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+constexpr void Tayx::Graphy::Ram::G_RamManager::__cordl_internal_set_m_previousModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_previousModuleState = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_currentModuleState() {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_currentModuleState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentModuleState;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_currentModuleState() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::Ram::G_RamManager::__cordl_internal_get_m_currentModuleState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentModuleState;
 }
-constexpr void Tayx::Graphy::Ram::G_RamManager::__cordl_internal_set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+constexpr void Tayx::Graphy::Ram::G_RamManager::__cordl_internal_set_m_currentModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentModuleState = value;
 }
@@ -284,17 +266,16 @@ inline void Tayx::Graphy::Ram::G_RamManager::Start() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::Ram::G_RamManager::SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition) {
+inline void Tayx::Graphy::Ram::G_RamManager::SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "SetPosition", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newModulePosition);
 }
-/// @param silentUpdate: bool (default: false)
-inline void Tayx::Graphy::Ram::G_RamManager::SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate) {
+inline void Tayx::Graphy::Ram::G_RamManager::SetState(::Tayx::Graphy::GraphyManager_ModuleState state, bool silentUpdate) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), "SetState", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, silentUpdate);
 }
@@ -324,13 +305,29 @@ inline void Tayx::Graphy::Ram::G_RamManager::SetGraphActive(bool active) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, active);
 }
-inline ::Tayx::Graphy::Ram::G_RamManager* Tayx::Graphy::Ram::G_RamManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::Ram::G_RamManager*>());
-}
 inline void Tayx::Graphy::Ram::G_RamManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Ram::G_RamManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Tayx::Graphy::Ram::G_RamManager* Tayx::Graphy::Ram::G_RamManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::Ram::G_RamManager*>());
+}
+/// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
+constexpr Tayx::Graphy::Ram::G_RamManager::operator ::Tayx::Graphy::UI::IMovable*() noexcept {
+  return static_cast<::Tayx::Graphy::UI::IMovable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+constexpr ::Tayx::Graphy::UI::IMovable* Tayx::Graphy::Ram::G_RamManager::i___Tayx__Graphy__UI__IMovable() noexcept {
+  return static_cast<::Tayx::Graphy::UI::IMovable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
+constexpr Tayx::Graphy::Ram::G_RamManager::operator ::Tayx::Graphy::UI::IModifiableState*() noexcept {
+  return static_cast<::Tayx::Graphy::UI::IModifiableState*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+constexpr ::Tayx::Graphy::UI::IModifiableState* Tayx::Graphy::Ram::G_RamManager::i___Tayx__Graphy__UI__IModifiableState() noexcept {
+  return static_cast<::Tayx::Graphy::UI::IModifiableState*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Ram::G_RamManager::G_RamManager() {}

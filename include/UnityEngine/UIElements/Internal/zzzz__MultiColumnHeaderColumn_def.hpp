@@ -33,11 +33,10 @@ class MultiColumnHeaderColumn;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn);
-// Type: UnityEngine.UIElements.Internal::MultiColumnHeaderColumn
-// SizeInfo { instance_size: 1024, native_size: -1, calculated_instance_size: 1024, calculated_native_size: 1024, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements::Internal {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.Internal::MultiColumnHeaderColumn*
+// CS Name: UnityEngine.UIElements.Internal.MultiColumnHeaderColumn
 class CORDL_TYPE MultiColumnHeaderColumn : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
@@ -57,22 +56,22 @@ public:
   __declspec(property(get = get_content, put = set_content)) ::UnityEngine::UIElements::VisualElement* content;
 
   /// @brief Field contentContainerUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_contentContainerUssClassName, put = setStaticF_contentContainerUssClassName)) ::StringW contentContainerUssClassName;
+  __declspec(property(get = getStaticF_contentContainerUssClassName, put = setStaticF_contentContainerUssClassName)) ::StringW contentContainerUssClassName;
 
   /// @brief Field contentUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_contentUssClassName, put = setStaticF_contentUssClassName)) ::StringW contentUssClassName;
+  __declspec(property(get = getStaticF_contentUssClassName, put = setStaticF_contentUssClassName)) ::StringW contentUssClassName;
 
   /// @brief Field defaultContentUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultContentUssClassName, put = setStaticF_defaultContentUssClassName)) ::StringW defaultContentUssClassName;
+  __declspec(property(get = getStaticF_defaultContentUssClassName, put = setStaticF_defaultContentUssClassName)) ::StringW defaultContentUssClassName;
 
   /// @brief Field hasIconUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_hasIconUssClassName, put = setStaticF_hasIconUssClassName)) ::StringW hasIconUssClassName;
+  __declspec(property(get = getStaticF_hasIconUssClassName, put = setStaticF_hasIconUssClassName)) ::StringW hasIconUssClassName;
 
   /// @brief Field hasTitleUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_hasTitleUssClassName, put = setStaticF_hasTitleUssClassName)) ::StringW hasTitleUssClassName;
+  __declspec(property(get = getStaticF_hasTitleUssClassName, put = setStaticF_hasTitleUssClassName)) ::StringW hasTitleUssClassName;
 
   /// @brief Field iconElementName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_iconElementName, put = setStaticF_iconElementName)) ::StringW iconElementName;
+  __declspec(property(get = getStaticF_iconElementName, put = setStaticF_iconElementName)) ::StringW iconElementName;
 
   __declspec(property(get = get_isContentBound, put = set_isContentBound)) bool isContentBound;
 
@@ -93,99 +92,99 @@ public:
   __declspec(property(get = get_mover, put = set_mover)) ::UnityEngine::UIElements::Internal::ColumnMover* mover;
 
   /// @brief Field movingUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_movingUssClassName, put = setStaticF_movingUssClassName)) ::StringW movingUssClassName;
+  __declspec(property(get = getStaticF_movingUssClassName, put = setStaticF_movingUssClassName)) ::StringW movingUssClassName;
 
   /// @brief Field s_BindingCallbackVEPropertyName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_BindingCallbackVEPropertyName, put = setStaticF_s_BindingCallbackVEPropertyName)) ::StringW s_BindingCallbackVEPropertyName;
+  __declspec(property(get = getStaticF_s_BindingCallbackVEPropertyName, put = setStaticF_s_BindingCallbackVEPropertyName)) ::StringW s_BindingCallbackVEPropertyName;
 
   /// @brief Field s_BoundVEPropertyName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_BoundVEPropertyName, put = setStaticF_s_BoundVEPropertyName)) ::StringW s_BoundVEPropertyName;
+  __declspec(property(get = getStaticF_s_BoundVEPropertyName, put = setStaticF_s_BoundVEPropertyName)) ::StringW s_BoundVEPropertyName;
 
   /// @brief Field s_DestroyCallbackVEPropertyName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DestroyCallbackVEPropertyName, put = setStaticF_s_DestroyCallbackVEPropertyName)) ::StringW s_DestroyCallbackVEPropertyName;
+  __declspec(property(get = getStaticF_s_DestroyCallbackVEPropertyName, put = setStaticF_s_DestroyCallbackVEPropertyName)) ::StringW s_DestroyCallbackVEPropertyName;
 
   /// @brief Field s_UnbindingCallbackVEPropertyName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UnbindingCallbackVEPropertyName, put = setStaticF_s_UnbindingCallbackVEPropertyName)) ::StringW s_UnbindingCallbackVEPropertyName;
+  __declspec(property(get = getStaticF_s_UnbindingCallbackVEPropertyName, put = setStaticF_s_UnbindingCallbackVEPropertyName)) ::StringW s_UnbindingCallbackVEPropertyName;
 
   __declspec(property(put = set_sortOrderLabel)) ::StringW sortOrderLabel;
 
   /// @brief Field sortableUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_sortableUssClassName, put = setStaticF_sortableUssClassName)) ::StringW sortableUssClassName;
+  __declspec(property(get = getStaticF_sortableUssClassName, put = setStaticF_sortableUssClassName)) ::StringW sortableUssClassName;
 
   /// @brief Field sortedAscendingUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_sortedAscendingUssClassName, put = setStaticF_sortedAscendingUssClassName)) ::StringW sortedAscendingUssClassName;
+  __declspec(property(get = getStaticF_sortedAscendingUssClassName, put = setStaticF_sortedAscendingUssClassName)) ::StringW sortedAscendingUssClassName;
 
   /// @brief Field sortedDescendingUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_sortedDescendingUssClassName, put = setStaticF_sortedDescendingUssClassName)) ::StringW sortedDescendingUssClassName;
+  __declspec(property(get = getStaticF_sortedDescendingUssClassName, put = setStaticF_sortedDescendingUssClassName)) ::StringW sortedDescendingUssClassName;
 
   /// @brief Field titleElementName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_titleElementName, put = setStaticF_titleElementName)) ::StringW titleElementName;
+  __declspec(property(get = getStaticF_titleElementName, put = setStaticF_titleElementName)) ::StringW titleElementName;
 
   /// @brief Field titleUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_titleUssClassName, put = setStaticF_titleUssClassName)) ::StringW titleUssClassName;
+  __declspec(property(get = getStaticF_titleUssClassName, put = setStaticF_titleUssClassName)) ::StringW titleUssClassName;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method BindHeaderContent, addr 0x4986050, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method BindHeaderContent, addr 0x49ea960, size 0xd8, virtual false, abstract: false, final false
   inline void BindHeaderContent();
 
-  /// @brief Method CreateDefaultHeaderContent, addr 0x4986128, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultHeaderContent, addr 0x49eaa38, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* CreateDefaultHeaderContent();
 
-  /// @brief Method DefaultBindHeaderContent, addr 0x49862b4, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method DefaultBindHeaderContent, addr 0x49eabc4, size 0x344, virtual false, abstract: false, final false
   inline void DefaultBindHeaderContent(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method DestroyHeaderContent, addr 0x49857e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DestroyHeaderContent, addr 0x49ea0f0, size 0xc8, virtual false, abstract: false, final false
   inline void DestroyHeaderContent();
 
-  /// @brief Method InitManipulators, addr 0x4985d08, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method InitManipulators, addr 0x49ea618, size 0x23c, virtual false, abstract: false, final false
   inline void InitManipulators();
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* New_ctor(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method UnbindHeaderContent, addr 0x4985f78, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UnbindHeaderContent, addr 0x49ea888, size 0xd8, virtual false, abstract: false, final false
   inline void UnbindHeaderContent();
 
-  /// @brief Method UpdateDataFromColumn, addr 0x4985f44, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateDataFromColumn, addr 0x49ea854, size 0x34, virtual false, abstract: false, final false
   inline void UpdateDataFromColumn();
 
-  /// @brief Method UpdateGeometryFromColumn, addr 0x4985c08, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UpdateGeometryFromColumn, addr 0x49ea518, size 0x100, virtual false, abstract: false, final false
   inline void UpdateGeometryFromColumn();
 
-  /// @brief Method UpdateHeaderTemplate, addr 0x4985a34, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UpdateHeaderTemplate, addr 0x49ea344, size 0x1d4, virtual false, abstract: false, final false
   inline void UpdateHeaderTemplate();
 
-  /// @brief Method <InitManipulators>b__46_0, addr 0x4986adc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <InitManipulators>b__46_0, addr 0x49eb3ec, size 0x84, virtual false, abstract: false, final false
   inline void _InitManipulators_b__46_0(::UnityEngine::UIElements::Internal::ColumnMover* mv);
+
+  constexpr ::UnityEngine::UIElements::Clickable* const& __cordl_internal_get__clickable_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get__clickable_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __cordl_internal_get__clickable_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::Column* const& __cordl_internal_get__column_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::Column*& __cordl_internal_get__column_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Column*> const& __cordl_internal_get__column_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::Internal::ColumnMover* const& __cordl_internal_get__mover_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::Internal::ColumnMover*& __cordl_internal_get__mover_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Internal::ColumnMover*> const& __cordl_internal_get__mover_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Content() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Content();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Content() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ContentContainer() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ContentContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_ContentContainer() const;
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& __cordl_internal_get_m_ScheduledHeaderTemplateUpdate() const;
 
   constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_ScheduledHeaderTemplateUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_ScheduledHeaderTemplateUpdate() const;
+  constexpr ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator* const& __cordl_internal_get_m_SortIndicatorContainer() const;
 
   constexpr ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator*& __cordl_internal_get_m_SortIndicatorContainer();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator*> const& __cordl_internal_get_m_SortIndicatorContainer() const;
 
   constexpr void __cordl_internal_set__clickable_k__BackingField(::UnityEngine::UIElements::Clickable* value);
 
@@ -201,13 +200,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SortIndicatorContainer(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator* value);
 
-  /// @brief Method <.ctor>b__45_0, addr 0x4986940, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__45_0, addr 0x49eb250, size 0x198, virtual false, abstract: false, final false
   inline void __ctor_b__45_0(::UnityEngine::UIElements::Column* c, ::UnityEngine::UIElements::ColumnDataType role);
 
-  /// @brief Method <.ctor>b__45_1, addr 0x4986ad8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__45_1, addr 0x49eb3e8, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__45_1(::UnityEngine::UIElements::Column* c);
 
-  /// @brief Method .ctor, addr 0x49814a8, size 0x79c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e5db8, size 0x79c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Column* column);
 
   static inline ::StringW getStaticF_contentContainerUssClassName();
@@ -244,19 +243,19 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x49856e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x49e9ff0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
-  /// @brief Method get_column, addr 0x4985700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_column, addr 0x49ea010, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_column();
 
-  /// @brief Method get_content, addr 0x4985710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_content, addr 0x49ea020, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_content();
 
-  /// @brief Method get_isContentBound, addr 0x49858a8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_isContentBound, addr 0x49ea1b8, size 0xcc, virtual false, abstract: false, final false
   inline bool get_isContentBound();
 
-  /// @brief Method get_mover, addr 0x49856f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mover, addr 0x49ea000, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::ColumnMover* get_mover();
 
   static inline void setStaticF_contentContainerUssClassName(::StringW value);
@@ -293,22 +292,22 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x49856e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x49e9ff8, size 0x8, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method set_column, addr 0x4985708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_column, addr 0x49ea018, size 0x8, virtual false, abstract: false, final false
   inline void set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method set_content, addr 0x4985718, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_content, addr 0x49ea028, size 0xc8, virtual false, abstract: false, final false
   inline void set_content(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_isContentBound, addr 0x4985974, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_isContentBound, addr 0x49ea284, size 0xc0, virtual false, abstract: false, final false
   inline void set_isContentBound(bool value);
 
-  /// @brief Method set_mover, addr 0x49856f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mover, addr 0x49ea008, size 0x8, virtual false, abstract: false, final false
   inline void set_mover(::UnityEngine::UIElements::Internal::ColumnMover* value);
 
-  /// @brief Method set_sortOrderLabel, addr 0x4983dbc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_sortOrderLabel, addr 0x49e86cc, size 0x2c, virtual false, abstract: false, final false
   inline void set_sortOrderLabel(::StringW value);
 
 protected:
@@ -324,6 +323,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumn", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiColumnHeaderColumn(MultiColumnHeaderColumn const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6508 };
 
   /// @brief Field m_ContentContainer, offset: 0x3c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_ContentContainer;
@@ -346,14 +348,9 @@ public:
   /// @brief Field <column>k__BackingField, offset: 0x3f8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Column* ____column_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6483 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn, 0x400>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn, ___m_ContentContainer) == 0x3c8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn, ___m_Content) == 0x3d0, "Offset mismatch!");
@@ -367,6 +364,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderCol
 static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn, ____mover_k__BackingField) == 0x3f0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn, ____column_k__BackingField) == 0x3f8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn, 0x400>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
 NEED_NO_BOX(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn);

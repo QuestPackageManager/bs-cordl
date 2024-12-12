@@ -12,11 +12,10 @@ struct EventType;
 }
 // Write type traits
 MARK_VAL_T(::ENet::EventType);
-// Type: ENet::EventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace ENet {
 // Is value type: true
-// CS Name: ::ENet::EventType
+// CS Name: ENet.EventType
 struct CORDL_TYPE EventType {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EventType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Connect value: static_cast<int32_t>(0x1)
+  /// @brief Field Connect value: I32(1)
   static ::ENet::EventType const Connect;
 
-  /// @brief Field Disconnect value: static_cast<int32_t>(0x2)
+  /// @brief Field Disconnect value: I32(2)
   static ::ENet::EventType const Disconnect;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::ENet::EventType const None;
 
-  /// @brief Field Receive value: static_cast<int32_t>(0x3)
+  /// @brief Field Receive value: I32(3)
   static ::ENet::EventType const Receive;
 
-  /// @brief Field Timeout value: static_cast<int32_t>(0x4)
+  /// @brief Field Timeout value: I32(4)
   static ::ENet::EventType const Timeout;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17726 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ENet::EventType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::ENet::EventType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::ENet::EventType, 0x4>, "Size mismatch!");
 
 } // namespace ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::EventType, "ENet", "EventType");

@@ -12,11 +12,10 @@ class BeatmapDataBasicInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataBasicInfo);
-// Type: ::BeatmapDataBasicInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapDataBasicInfo*
+// CS Name: BeatmapDataBasicInfo
 class CORDL_TYPE BeatmapDataBasicInfo : public ::System::Object {
 public:
   // Declarations
@@ -78,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2680968, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4f20, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
-  /// @brief Method get_bombsCount, addr 0x2680960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombsCount, addr 0x26b4f18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_cuttableNotesCount, addr 0x2680948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableNotesCount, addr 0x26b4f00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_cuttableScoringObjectsCount, addr 0x2680950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0x26b4f08, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableScoringObjectsCount();
 
-  /// @brief Method get_numberOfLines, addr 0x2680940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x26b4ef8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstaclesCount, addr 0x2680958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesCount, addr 0x26b4f10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
 protected:
@@ -110,6 +109,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataBasicInfo(BeatmapDataBasicInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12870 };
+
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____numberOfLines_k__BackingField;
 
@@ -125,14 +127,9 @@ public:
   /// @brief Field <bombsCount>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____bombsCount_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12836 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataBasicInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____numberOfLines_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____cuttableNotesCount_k__BackingField) == 0x14, "Offset mismatch!");
@@ -142,6 +139,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____cuttableScor
 static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____obstaclesCount_k__BackingField) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____bombsCount_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataBasicInfo, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataBasicInfo);

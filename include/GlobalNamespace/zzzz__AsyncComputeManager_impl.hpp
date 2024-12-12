@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/AsyncComputeManager.hpp"
+#include "GlobalNamespace/zzzz__IAsyncComputeManager_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeManager_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
-#include "GlobalNamespace/zzzz__IAsyncComputeManager_def.hpp"
 #include "System/Collections/Concurrent/zzzz__BlockingCollection_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AsyncComputeManager._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)()>(&::GlobalNamespace::AsyncComputeManager::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2283c40;
+  constexpr static std::size_t addrs = 0x22b6f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(), ".ctor",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)()>(&::GlobalNamespace::AsyncComputeManager::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2283d80;
+  constexpr static std::size_t addrs = 0x22b706c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(), "Dispose",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)(::GlobalNamespace::AsyncComputeOperation*)>(
     &::GlobalNamespace::AsyncComputeManager::BeginOperation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2283de8;
+  constexpr static std::size_t addrs = 0x22b70d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)()>(&::GlobalNamespace::AsyncComputeManager::ComputeThreadRun)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2283e40;
+  constexpr static std::size_t addrs = 0x22b712c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(),
@@ -63,27 +63,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IAsyncComputeManager"
-constexpr GlobalNamespace::AsyncComputeManager::operator ::GlobalNamespace::IAsyncComputeManager*() noexcept {
-  return static_cast<::GlobalNamespace::IAsyncComputeManager*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"
-constexpr ::GlobalNamespace::IAsyncComputeManager* GlobalNamespace::AsyncComputeManager::i___GlobalNamespace__IAsyncComputeManager() noexcept {
-  return static_cast<::GlobalNamespace::IAsyncComputeManager*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::AsyncComputeManager::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::AsyncComputeManager::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& GlobalNamespace::AsyncComputeManager::__cordl_internal_get__asyncComputeRequests() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncComputeRequests;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*> const&
+constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* const&
 GlobalNamespace::AsyncComputeManager::__cordl_internal_get__asyncComputeRequests() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncComputeRequests;
@@ -97,7 +81,7 @@ constexpr ::System::Threading::Thread*& GlobalNamespace::AsyncComputeManager::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____computeThread;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& GlobalNamespace::AsyncComputeManager::__cordl_internal_get__computeThread() const {
+constexpr ::System::Threading::Thread* const& GlobalNamespace::AsyncComputeManager::__cordl_internal_get__computeThread() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____computeThread;
 }
@@ -116,9 +100,6 @@ constexpr bool const& GlobalNamespace::AsyncComputeManager::__cordl_internal_get
 constexpr void GlobalNamespace::AsyncComputeManager::__cordl_internal_set__disposed(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed = value;
-}
-inline ::GlobalNamespace::AsyncComputeManager* GlobalNamespace::AsyncComputeManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AsyncComputeManager*>());
 }
 inline void GlobalNamespace::AsyncComputeManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(), ".ctor",
@@ -149,6 +130,25 @@ inline void GlobalNamespace::AsyncComputeManager::ComputeThreadRun() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(), "ComputeThreadRun",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::AsyncComputeManager* GlobalNamespace::AsyncComputeManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AsyncComputeManager*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IAsyncComputeManager"
+constexpr GlobalNamespace::AsyncComputeManager::operator ::GlobalNamespace::IAsyncComputeManager*() noexcept {
+  return static_cast<::GlobalNamespace::IAsyncComputeManager*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"
+constexpr ::GlobalNamespace::IAsyncComputeManager* GlobalNamespace::AsyncComputeManager::i___GlobalNamespace__IAsyncComputeManager() noexcept {
+  return static_cast<::GlobalNamespace::IAsyncComputeManager*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::AsyncComputeManager::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::AsyncComputeManager::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AsyncComputeManager::AsyncComputeManager() {}

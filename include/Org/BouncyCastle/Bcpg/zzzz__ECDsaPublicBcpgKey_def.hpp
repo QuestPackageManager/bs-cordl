@@ -23,11 +23,10 @@ class ECDsaPublicBcpgKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey);
-// Type: Org.BouncyCastle.Bcpg::ECDsaPublicBcpgKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.ECPublicBcpgKey
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::ECDsaPublicBcpgKey*
+// CS Name: Org.BouncyCastle.Bcpg.ECDsaPublicBcpgKey
 class CORDL_TYPE ECDsaPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey {
 public:
   // Declarations
@@ -37,13 +36,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method .ctor, addr 0x2612c10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2645efc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x2612c18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2645f04, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
-  /// @brief Method .ctor, addr 0x2612c14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2645f00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
 protected:

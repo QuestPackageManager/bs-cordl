@@ -3,31 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/ComponentModel/zzzz__INotifyPropertyChanged_def.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_def.hpp"
+#include "System/Dynamic/zzzz__IDynamicMetaObjectProvider_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExpandoObject)
-namespace GlobalNamespace {
-class __ExpandoObject__KeyCollection___GetEnumerator_d__15;
-}
-namespace GlobalNamespace {
-class __ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6;
-}
-namespace GlobalNamespace {
-class __ExpandoObject__MetaExpando____c__DisplayClass3_0;
-}
-namespace GlobalNamespace {
-class __ExpandoObject__ValueCollection___GetEnumerator_d__15;
-}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -39,13 +31,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System::ComponentModel {
-class INotifyPropertyChanged;
 }
 namespace System::ComponentModel {
 class PropertyChangedEventHandler;
@@ -66,37 +52,46 @@ namespace System::Dynamic {
 class ExpandoClass;
 }
 namespace System::Dynamic {
-class GetMemberBinder;
+class ExpandoObject_ExpandoData;
 }
 namespace System::Dynamic {
-class IDynamicMetaObjectProvider;
+class ExpandoObject_KeyCollectionDebugView;
+}
+namespace System::Dynamic {
+class ExpandoObject_KeyCollection;
+}
+namespace System::Dynamic {
+class ExpandoObject_MetaExpando;
+}
+namespace System::Dynamic {
+class ExpandoObject_ValueCollectionDebugView;
+}
+namespace System::Dynamic {
+class ExpandoObject_ValueCollection;
+}
+namespace System::Dynamic {
+class ExpandoObject__GetExpandoEnumerator_d__51;
+}
+namespace System::Dynamic {
+class GetMemberBinder;
 }
 namespace System::Dynamic {
 class InvokeMemberBinder;
 }
 namespace System::Dynamic {
+class KeyCollection_ExpandoObject__GetEnumerator_d__15;
+}
+namespace System::Dynamic {
+class MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6;
+}
+namespace System::Dynamic {
+class MetaExpando_ExpandoObject___c__DisplayClass3_0;
+}
+namespace System::Dynamic {
 class SetMemberBinder;
 }
 namespace System::Dynamic {
-class __ExpandoObject__ExpandoData;
-}
-namespace System::Dynamic {
-class __ExpandoObject__KeyCollectionDebugView;
-}
-namespace System::Dynamic {
-class __ExpandoObject__KeyCollection;
-}
-namespace System::Dynamic {
-class __ExpandoObject__MetaExpando;
-}
-namespace System::Dynamic {
-class __ExpandoObject__ValueCollectionDebugView;
-}
-namespace System::Dynamic {
-class __ExpandoObject__ValueCollection;
-}
-namespace System::Dynamic {
-class __ExpandoObject___GetExpandoEnumerator_d__51;
+class ValueCollection_ExpandoObject__GetEnumerator_d__15;
 }
 namespace System::Linq::Expressions {
 class Expression;
@@ -108,98 +103,93 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-class __ExpandoObject__KeyCollection___GetEnumerator_d__15;
-}
-namespace GlobalNamespace {
-class __ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6;
-}
-namespace GlobalNamespace {
-class __ExpandoObject__MetaExpando____c__DisplayClass3_0;
-}
-namespace GlobalNamespace {
-class __ExpandoObject__ValueCollection___GetEnumerator_d__15;
-}
 namespace System::Dynamic {
 class ExpandoObject;
 }
 namespace System::Dynamic {
-class __ExpandoObject__ExpandoData;
+class ExpandoObject_ExpandoData;
 }
 namespace System::Dynamic {
-class __ExpandoObject__KeyCollection;
+class ExpandoObject_KeyCollection;
 }
 namespace System::Dynamic {
-class __ExpandoObject__KeyCollectionDebugView;
+class ExpandoObject_KeyCollectionDebugView;
 }
 namespace System::Dynamic {
-class __ExpandoObject__MetaExpando;
+class ExpandoObject_MetaExpando;
 }
 namespace System::Dynamic {
-class __ExpandoObject__ValueCollection;
+class ExpandoObject_ValueCollection;
 }
 namespace System::Dynamic {
-class __ExpandoObject__ValueCollectionDebugView;
+class ExpandoObject_ValueCollectionDebugView;
 }
 namespace System::Dynamic {
-class __ExpandoObject___GetExpandoEnumerator_d__51;
+class ExpandoObject__GetExpandoEnumerator_d__51;
+}
+namespace System::Dynamic {
+class KeyCollection_ExpandoObject__GetEnumerator_d__15;
+}
+namespace System::Dynamic {
+class MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6;
+}
+namespace System::Dynamic {
+class MetaExpando_ExpandoObject___c__DisplayClass3_0;
+}
+namespace System::Dynamic {
+class ValueCollection_ExpandoObject__GetEnumerator_d__15;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15);
-MARK_REF_PTR_T(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6);
-MARK_REF_PTR_T(::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0);
-MARK_REF_PTR_T(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15);
 MARK_REF_PTR_T(::System::Dynamic::ExpandoObject);
-MARK_REF_PTR_T(::System::Dynamic::__ExpandoObject__ExpandoData);
-MARK_REF_PTR_T(::System::Dynamic::__ExpandoObject__KeyCollection);
-MARK_REF_PTR_T(::System::Dynamic::__ExpandoObject__KeyCollectionDebugView);
-MARK_REF_PTR_T(::System::Dynamic::__ExpandoObject__MetaExpando);
-MARK_REF_PTR_T(::System::Dynamic::__ExpandoObject__ValueCollection);
-MARK_REF_PTR_T(::System::Dynamic::__ExpandoObject__ValueCollectionDebugView);
-MARK_REF_PTR_T(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51);
-// Type: ::KeyCollectionDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Dynamic::ExpandoObject_ExpandoData);
+MARK_REF_PTR_T(::System::Dynamic::ExpandoObject_KeyCollection);
+MARK_REF_PTR_T(::System::Dynamic::ExpandoObject_KeyCollectionDebugView);
+MARK_REF_PTR_T(::System::Dynamic::ExpandoObject_MetaExpando);
+MARK_REF_PTR_T(::System::Dynamic::ExpandoObject_ValueCollection);
+MARK_REF_PTR_T(::System::Dynamic::ExpandoObject_ValueCollectionDebugView);
+MARK_REF_PTR_T(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51);
+MARK_REF_PTR_T(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15);
+MARK_REF_PTR_T(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6);
+MARK_REF_PTR_T(::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0);
+MARK_REF_PTR_T(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15);
+// Dependencies System.Object
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::KeyCollectionDebugView*
-class CORDL_TYPE __ExpandoObject__KeyCollectionDebugView : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/KeyCollectionDebugView
+class CORDL_TYPE ExpandoObject_KeyCollectionDebugView : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__KeyCollectionDebugView();
+  constexpr ExpandoObject_KeyCollectionDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__KeyCollectionDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_KeyCollectionDebugView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__KeyCollectionDebugView(__ExpandoObject__KeyCollectionDebugView&&) = delete;
+  ExpandoObject_KeyCollectionDebugView(ExpandoObject_KeyCollectionDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__KeyCollectionDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_KeyCollectionDebugView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__KeyCollectionDebugView(__ExpandoObject__KeyCollectionDebugView const&) = delete;
+  ExpandoObject_KeyCollectionDebugView(ExpandoObject_KeyCollectionDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::__ExpandoObject__KeyCollectionDebugView, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject_KeyCollectionDebugView, 0x10>, "Size mismatch!");
 
 } // namespace System::Dynamic
-// Type: ::<GetEnumerator>d__15
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::KeyCollection::<GetEnumerator>d__15*
-class CORDL_TYPE __ExpandoObject__KeyCollection___GetEnumerator_d__15 : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/KeyCollection/<GetEnumerator>d__15
+class CORDL_TYPE KeyCollection_ExpandoObject__GetEnumerator_d__15 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_String__get_Current)) ::StringW System_Collections_Generic_IEnumerator_System_String__Current;
@@ -213,7 +203,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::StringW __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Dynamic::__ExpandoObject__KeyCollection* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Dynamic::ExpandoObject_KeyCollection* __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
@@ -230,21 +220,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x409cf34, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40fe248, size 0x14c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15* New_ctor(int32_t __1__state);
+  static inline ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x409d0b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x40fe3c4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x409d0b8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40fe3cc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x409d0f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40fe404, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x409cf30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x40fe244, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -255,9 +245,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get___2__current();
 
-  constexpr ::System::Dynamic::__ExpandoObject__KeyCollection*& __cordl_internal_get___4__this();
+  constexpr ::System::Dynamic::ExpandoObject_KeyCollection* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__KeyCollection*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Dynamic::ExpandoObject_KeyCollection*& __cordl_internal_get___4__this();
 
   constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
@@ -271,13 +261,13 @@ public:
 
   constexpr void __cordl_internal_set___2__current(::StringW value);
 
-  constexpr void __cordl_internal_set___4__this(::System::Dynamic::__ExpandoObject__KeyCollection* value);
+  constexpr void __cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_KeyCollection* value);
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   constexpr void __cordl_internal_set__n_5__3(int32_t value);
 
-  /// @brief Method .ctor, addr 0x409cf08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fe21c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
@@ -292,16 +282,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__KeyCollection___GetEnumerator_d__15();
+  constexpr KeyCollection_ExpandoObject__GetEnumerator_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__KeyCollection___GetEnumerator_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_ExpandoObject__GetEnumerator_d__15", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__KeyCollection___GetEnumerator_d__15(__ExpandoObject__KeyCollection___GetEnumerator_d__15&&) = delete;
+  KeyCollection_ExpandoObject__GetEnumerator_d__15(KeyCollection_ExpandoObject__GetEnumerator_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__KeyCollection___GetEnumerator_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_ExpandoObject__GetEnumerator_d__15", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__KeyCollection___GetEnumerator_d__15(__ExpandoObject__KeyCollection___GetEnumerator_d__15 const&) = delete;
+  KeyCollection_ExpandoObject__GetEnumerator_d__15(KeyCollection_ExpandoObject__GetEnumerator_d__15 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14157 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -310,7 +303,7 @@ public:
   ::StringW _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__KeyCollection* _____4__this;
+  ::System::Dynamic::ExpandoObject_KeyCollection* _____4__this;
 
   /// @brief Field <i>5__2, offset: 0x28, size: 0x4, def value: None
   int32_t ____i_5__2;
@@ -318,34 +311,30 @@ public:
   /// @brief Field <n>5__3, offset: 0x2c, size: 0x4, def value: None
   int32_t ____n_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14123 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15, 0x30>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15, ____i_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15, ____i_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15, ____n_5__3) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15, ____n_5__3) == 0x2c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::KeyCollection
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Dynamic
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::KeyCollection*
-class CORDL_TYPE __ExpandoObject__KeyCollection : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/KeyCollection
+class CORDL_TYPE ExpandoObject_KeyCollection : public ::System::Object {
 public:
   // Declarations
-  using _GetEnumerator_d__15 = ::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15;
+  using _GetEnumerator_d__15 = ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -358,7 +347,7 @@ public:
   __declspec(property(get = __cordl_internal_get__expandoCount, put = __cordl_internal_set__expandoCount)) int32_t _expandoCount;
 
   /// @brief Field _expandoData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__expandoData, put = __cordl_internal_set__expandoData)) ::System::Dynamic::__ExpandoObject__ExpandoData* _expandoData;
+  __declspec(property(get = __cordl_internal_get__expandoData, put = __cordl_internal_set__expandoData)) ::System::Dynamic::ExpandoObject_ExpandoData* _expandoData;
 
   /// @brief Field _expandoVersion, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__expandoVersion, put = __cordl_internal_set__expandoVersion)) int32_t _expandoVersion;
@@ -372,43 +361,43 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x409ca94, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x40fdda8, size 0x28, virtual true, abstract: false, final true
   inline void Add(::StringW item);
 
-  /// @brief Method CheckVersion, addr 0x409ca34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckVersion, addr 0x40fdd48, size 0x60, virtual false, abstract: false, final false
   inline void CheckVersion();
 
-  /// @brief Method Clear, addr 0x409cabc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x40fddd0, size 0x28, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x409cae4, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x40fddf8, size 0xf4, virtual true, abstract: false, final true
   inline bool Contains(::StringW item);
 
-  /// @brief Method CopyTo, addr 0x409cbd8, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x40fdeec, size 0x27c, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::StringW, ::Array<::StringW>*> array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x409ce9c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x40fe1b0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
 
-  static inline ::System::Dynamic::__ExpandoObject__KeyCollection* New_ctor(::System::Dynamic::ExpandoObject* expando);
+  static inline ::System::Dynamic::ExpandoObject_KeyCollection* New_ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method Remove, addr 0x409ce74, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x40fe188, size 0x28, virtual true, abstract: false, final true
   inline bool Remove(::StringW item);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x409cf04, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40fe218, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  constexpr ::System::Dynamic::ExpandoObject*& __cordl_internal_get__expando();
+  constexpr ::System::Dynamic::ExpandoObject* const& __cordl_internal_get__expando() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::ExpandoObject*> const& __cordl_internal_get__expando() const;
+  constexpr ::System::Dynamic::ExpandoObject*& __cordl_internal_get__expando();
 
   constexpr int32_t const& __cordl_internal_get__expandoCount() const;
 
   constexpr int32_t& __cordl_internal_get__expandoCount();
 
-  constexpr ::System::Dynamic::__ExpandoObject__ExpandoData*& __cordl_internal_get__expandoData();
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& __cordl_internal_get__expandoData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__ExpandoData*> const& __cordl_internal_get__expandoData() const;
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& __cordl_internal_get__expandoData();
 
   constexpr int32_t const& __cordl_internal_get__expandoVersion() const;
 
@@ -418,17 +407,17 @@ public:
 
   constexpr void __cordl_internal_set__expandoCount(int32_t value);
 
-  constexpr void __cordl_internal_set__expandoData(::System::Dynamic::__ExpandoObject__ExpandoData* value);
+  constexpr void __cordl_internal_set__expandoData(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
   constexpr void __cordl_internal_set__expandoVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x409bc2c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fcf40, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method get_Count, addr 0x409ce54, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x40fe168, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x409ce6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x40fe180, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::StringW>"
@@ -443,16 +432,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__KeyCollection();
+  constexpr ExpandoObject_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_KeyCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__KeyCollection(__ExpandoObject__KeyCollection&&) = delete;
+  ExpandoObject_KeyCollection(ExpandoObject_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_KeyCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__KeyCollection(__ExpandoObject__KeyCollection const&) = delete;
+  ExpandoObject_KeyCollection(ExpandoObject_KeyCollection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14158 };
 
   /// @brief Field _expando, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::ExpandoObject* ____expando;
@@ -464,62 +456,57 @@ public:
   int32_t ____expandoCount;
 
   /// @brief Field _expandoData, offset: 0x20, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__ExpandoData* ____expandoData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14124 };
+  ::System::Dynamic::ExpandoObject_ExpandoData* ____expandoData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::__ExpandoObject__KeyCollection, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_KeyCollection, ____expando) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__KeyCollection, ____expando) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_KeyCollection, ____expandoVersion) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__KeyCollection, ____expandoVersion) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_KeyCollection, ____expandoCount) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__KeyCollection, ____expandoCount) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_KeyCollection, ____expandoData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__KeyCollection, ____expandoData) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject_KeyCollection, 0x28>, "Size mismatch!");
 
 } // namespace System::Dynamic
-// Type: ::ValueCollectionDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::ValueCollectionDebugView*
-class CORDL_TYPE __ExpandoObject__ValueCollectionDebugView : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/ValueCollectionDebugView
+class CORDL_TYPE ExpandoObject_ValueCollectionDebugView : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__ValueCollectionDebugView();
+  constexpr ExpandoObject_ValueCollectionDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ValueCollectionDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ValueCollectionDebugView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__ValueCollectionDebugView(__ExpandoObject__ValueCollectionDebugView&&) = delete;
+  ExpandoObject_ValueCollectionDebugView(ExpandoObject_ValueCollectionDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ValueCollectionDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ValueCollectionDebugView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__ValueCollectionDebugView(__ExpandoObject__ValueCollectionDebugView const&) = delete;
+  ExpandoObject_ValueCollectionDebugView(ExpandoObject_ValueCollectionDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::__ExpandoObject__ValueCollectionDebugView, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject_ValueCollectionDebugView, 0x10>, "Size mismatch!");
 
 } // namespace System::Dynamic
-// Type: ::<GetEnumerator>d__15
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::ValueCollection::<GetEnumerator>d__15*
-class CORDL_TYPE __ExpandoObject__ValueCollection___GetEnumerator_d__15 : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/ValueCollection/<GetEnumerator>d__15
+class CORDL_TYPE ValueCollection_ExpandoObject__GetEnumerator_d__15 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -533,10 +520,10 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Dynamic::__ExpandoObject__ValueCollection* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Dynamic::ExpandoObject_ValueCollection* __4__this;
 
   /// @brief Field <data>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__data_5__2, put = __cordl_internal_set__data_5__2)) ::System::Dynamic::__ExpandoObject__ExpandoData* _data_5__2;
+  __declspec(property(get = __cordl_internal_get__data_5__2, put = __cordl_internal_set__data_5__2)) ::System::Dynamic::ExpandoObject_ExpandoData* _data_5__2;
 
   /// @brief Field <i>5__3, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__3, put = __cordl_internal_set__i_5__3)) int32_t _i_5__3;
@@ -550,38 +537,38 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x409d790, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40feaa4, size 0x120, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15* New_ctor(int32_t __1__state);
+  static inline ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x409d8b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x40febc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x409d8b8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40febcc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x409d8f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40fec04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x409d78c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x40feaa0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Dynamic::ExpandoObject_ValueCollection* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::System::Dynamic::__ExpandoObject__ValueCollection*& __cordl_internal_get___4__this();
+  constexpr ::System::Dynamic::ExpandoObject_ValueCollection*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__ValueCollection*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& __cordl_internal_get__data_5__2() const;
 
-  constexpr ::System::Dynamic::__ExpandoObject__ExpandoData*& __cordl_internal_get__data_5__2();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__ExpandoData*> const& __cordl_internal_get__data_5__2() const;
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& __cordl_internal_get__data_5__2();
 
   constexpr int32_t const& __cordl_internal_get__i_5__3() const;
 
@@ -591,13 +578,13 @@ public:
 
   constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr void __cordl_internal_set___4__this(::System::Dynamic::__ExpandoObject__ValueCollection* value);
+  constexpr void __cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_ValueCollection* value);
 
-  constexpr void __cordl_internal_set__data_5__2(::System::Dynamic::__ExpandoObject__ExpandoData* value);
+  constexpr void __cordl_internal_set__data_5__2(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
   constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
-  /// @brief Method .ctor, addr 0x409d760, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fea74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -612,16 +599,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__ValueCollection___GetEnumerator_d__15();
+  constexpr ValueCollection_ExpandoObject__GetEnumerator_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ValueCollection___GetEnumerator_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_ExpandoObject__GetEnumerator_d__15", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__ValueCollection___GetEnumerator_d__15(__ExpandoObject__ValueCollection___GetEnumerator_d__15&&) = delete;
+  ValueCollection_ExpandoObject__GetEnumerator_d__15(ValueCollection_ExpandoObject__GetEnumerator_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ValueCollection___GetEnumerator_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_ExpandoObject__GetEnumerator_d__15", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__ValueCollection___GetEnumerator_d__15(__ExpandoObject__ValueCollection___GetEnumerator_d__15 const&) = delete;
+  ValueCollection_ExpandoObject__GetEnumerator_d__15(ValueCollection_ExpandoObject__GetEnumerator_d__15 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14160 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -630,42 +620,38 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__ValueCollection* _____4__this;
+  ::System::Dynamic::ExpandoObject_ValueCollection* _____4__this;
 
   /// @brief Field <data>5__2, offset: 0x28, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__ExpandoData* ____data_5__2;
+  ::System::Dynamic::ExpandoObject_ExpandoData* ____data_5__2;
 
   /// @brief Field <i>5__3, offset: 0x30, size: 0x4, def value: None
   int32_t ____i_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14126 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15, 0x38>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15, ____data_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15, ____data_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15, ____i_5__3) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15, ____i_5__3) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::ValueCollection
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Dynamic
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::ValueCollection*
-class CORDL_TYPE __ExpandoObject__ValueCollection : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/ValueCollection
+class CORDL_TYPE ExpandoObject_ValueCollection : public ::System::Object {
 public:
   // Declarations
-  using _GetEnumerator_d__15 = ::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15;
+  using _GetEnumerator_d__15 = ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -678,7 +664,7 @@ public:
   __declspec(property(get = __cordl_internal_get__expandoCount, put = __cordl_internal_set__expandoCount)) int32_t _expandoCount;
 
   /// @brief Field _expandoData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__expandoData, put = __cordl_internal_set__expandoData)) ::System::Dynamic::__ExpandoObject__ExpandoData* _expandoData;
+  __declspec(property(get = __cordl_internal_get__expandoData, put = __cordl_internal_set__expandoData)) ::System::Dynamic::ExpandoObject_ExpandoData* _expandoData;
 
   /// @brief Field _expandoVersion, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__expandoVersion, put = __cordl_internal_set__expandoVersion)) int32_t _expandoVersion;
@@ -692,43 +678,43 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x409d248, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x40fe55c, size 0x28, virtual true, abstract: false, final true
   inline void Add(::System::Object* item);
 
-  /// @brief Method CheckVersion, addr 0x409d1e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckVersion, addr 0x40fe4fc, size 0x60, virtual false, abstract: false, final false
   inline void CheckVersion();
 
-  /// @brief Method Clear, addr 0x409d270, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x40fe584, size 0x28, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x409d298, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x40fe5ac, size 0x160, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* item);
 
-  /// @brief Method CopyTo, addr 0x409d3f8, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x40fe70c, size 0x274, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::Object*, ::Array<::System::Object*>*> array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x409d700, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x40fea14, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Object*>* GetEnumerator();
 
-  static inline ::System::Dynamic::__ExpandoObject__ValueCollection* New_ctor(::System::Dynamic::ExpandoObject* expando);
+  static inline ::System::Dynamic::ExpandoObject_ValueCollection* New_ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method Remove, addr 0x409d6d8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x40fe9ec, size 0x28, virtual true, abstract: false, final true
   inline bool Remove(::System::Object* item);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x409d788, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40fea9c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  constexpr ::System::Dynamic::ExpandoObject*& __cordl_internal_get__expando();
+  constexpr ::System::Dynamic::ExpandoObject* const& __cordl_internal_get__expando() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::ExpandoObject*> const& __cordl_internal_get__expando() const;
+  constexpr ::System::Dynamic::ExpandoObject*& __cordl_internal_get__expando();
 
   constexpr int32_t const& __cordl_internal_get__expandoCount() const;
 
   constexpr int32_t& __cordl_internal_get__expandoCount();
 
-  constexpr ::System::Dynamic::__ExpandoObject__ExpandoData*& __cordl_internal_get__expandoData();
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& __cordl_internal_get__expandoData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__ExpandoData*> const& __cordl_internal_get__expandoData() const;
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& __cordl_internal_get__expandoData();
 
   constexpr int32_t const& __cordl_internal_get__expandoVersion() const;
 
@@ -738,17 +724,17 @@ public:
 
   constexpr void __cordl_internal_set__expandoCount(int32_t value);
 
-  constexpr void __cordl_internal_set__expandoData(::System::Dynamic::__ExpandoObject__ExpandoData* value);
+  constexpr void __cordl_internal_set__expandoData(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
   constexpr void __cordl_internal_set__expandoVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x409d0f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fe40c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method get_Count, addr 0x409d6b8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x40fe9cc, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x409d6d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x40fe9e4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Object*>"
@@ -763,16 +749,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__ValueCollection();
+  constexpr ExpandoObject_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ValueCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__ValueCollection(__ExpandoObject__ValueCollection&&) = delete;
+  ExpandoObject_ValueCollection(ExpandoObject_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ValueCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__ValueCollection(__ExpandoObject__ValueCollection const&) = delete;
+  ExpandoObject_ValueCollection(ExpandoObject_ValueCollection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14161 };
 
   /// @brief Field _expando, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::ExpandoObject* ____expando;
@@ -784,31 +773,27 @@ public:
   int32_t ____expandoCount;
 
   /// @brief Field _expandoData, offset: 0x20, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__ExpandoData* ____expandoData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14127 };
+  ::System::Dynamic::ExpandoObject_ExpandoData* ____expandoData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::__ExpandoObject__ValueCollection, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_ValueCollection, ____expando) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__ValueCollection, ____expando) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_ValueCollection, ____expandoVersion) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__ValueCollection, ____expandoVersion) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_ValueCollection, ____expandoCount) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__ValueCollection, ____expandoCount) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_ValueCollection, ____expandoData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__ValueCollection, ____expandoData) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject_ValueCollection, 0x28>, "Size mismatch!");
 
 } // namespace System::Dynamic
-// Type: ::<>c__DisplayClass3_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Object
+namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::MetaExpando::<>c__DisplayClass3_0*
-class CORDL_TYPE __ExpandoObject__MetaExpando____c__DisplayClass3_0 : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/MetaExpando/<>c__DisplayClass3_0
+class CORDL_TYPE MetaExpando_ExpandoObject___c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field args, offset 0x18, size 0x8
@@ -817,39 +802,42 @@ public:
   /// @brief Field binder, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::InvokeMemberBinder* binder;
 
-  static inline ::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0* New_ctor();
+  static inline ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <BindInvokeMember>b__0, addr 0x409ee28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <BindInvokeMember>b__0, addr 0x410013c, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* _BindInvokeMember_b__0(::System::Dynamic::DynamicMetaObject* value);
 
   constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> const& __cordl_internal_get_args() const;
 
   constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>& __cordl_internal_get_args();
 
-  constexpr ::System::Dynamic::InvokeMemberBinder*& __cordl_internal_get_binder();
+  constexpr ::System::Dynamic::InvokeMemberBinder* const& __cordl_internal_get_binder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::InvokeMemberBinder*> const& __cordl_internal_get_binder() const;
+  constexpr ::System::Dynamic::InvokeMemberBinder*& __cordl_internal_get_binder();
 
   constexpr void __cordl_internal_set_args(::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value);
 
   constexpr void __cordl_internal_set_binder(::System::Dynamic::InvokeMemberBinder* value);
 
-  /// @brief Method .ctor, addr 0x409e538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ff84c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__MetaExpando____c__DisplayClass3_0();
+  constexpr MetaExpando_ExpandoObject___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__MetaExpando____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaExpando_ExpandoObject___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__MetaExpando____c__DisplayClass3_0(__ExpandoObject__MetaExpando____c__DisplayClass3_0&&) = delete;
+  MetaExpando_ExpandoObject___c__DisplayClass3_0(MetaExpando_ExpandoObject___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__MetaExpando____c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaExpando_ExpandoObject___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__MetaExpando____c__DisplayClass3_0(__ExpandoObject__MetaExpando____c__DisplayClass3_0 const&) = delete;
+  MetaExpando_ExpandoObject___c__DisplayClass3_0(MetaExpando_ExpandoObject___c__DisplayClass3_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14162 };
 
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::InvokeMemberBinder* ___binder;
@@ -857,25 +845,22 @@ public:
   /// @brief Field args, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> ___args;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14128 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0, ___binder) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0, ___binder) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0, ___args) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0, ___args) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::<GetDynamicMemberNames>d__6
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+} // namespace System::Dynamic
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
+namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::MetaExpando::<GetDynamicMemberNames>d__6*
-class CORDL_TYPE __ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6 : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/MetaExpando/<GetDynamicMemberNames>d__6
+class CORDL_TYPE MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_String__get_Current)) ::StringW System_Collections_Generic_IEnumerator_System_String__Current;
@@ -889,13 +874,13 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::StringW __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Dynamic::__ExpandoObject__MetaExpando* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Dynamic::ExpandoObject_MetaExpando* __4__this;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <expandoData>5__2, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__expandoData_5__2, put = __cordl_internal_set__expandoData_5__2)) ::System::Dynamic::__ExpandoObject__ExpandoData* _expandoData_5__2;
+  __declspec(property(get = __cordl_internal_get__expandoData_5__2, put = __cordl_internal_set__expandoData_5__2)) ::System::Dynamic::ExpandoObject_ExpandoData* _expandoData_5__2;
 
   /// @brief Field <i>5__4, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__4, put = __cordl_internal_set__i_5__4)) int32_t _i_5__4;
@@ -918,27 +903,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x409ee58, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x410016c, size 0x138, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6* New_ctor(int32_t __1__state);
+  static inline ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x409efd8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x41002ec, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x409ef90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x41002a4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x409f074, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4100388, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x409ef98, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x41002ac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x409efd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x41002e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x409ee54, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4100168, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -949,41 +934,41 @@ public:
 
   constexpr ::StringW& __cordl_internal_get___2__current();
 
-  constexpr ::System::Dynamic::__ExpandoObject__MetaExpando*& __cordl_internal_get___4__this();
+  constexpr ::System::Dynamic::ExpandoObject_MetaExpando* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__MetaExpando*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Dynamic::ExpandoObject_MetaExpando*& __cordl_internal_get___4__this();
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr ::System::Dynamic::__ExpandoObject__ExpandoData*& __cordl_internal_get__expandoData_5__2();
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& __cordl_internal_get__expandoData_5__2() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__ExpandoData*> const& __cordl_internal_get__expandoData_5__2() const;
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& __cordl_internal_get__expandoData_5__2();
 
   constexpr int32_t const& __cordl_internal_get__i_5__4() const;
 
   constexpr int32_t& __cordl_internal_get__i_5__4();
 
-  constexpr ::System::Dynamic::ExpandoClass*& __cordl_internal_get__klass_5__3();
+  constexpr ::System::Dynamic::ExpandoClass* const& __cordl_internal_get__klass_5__3() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::ExpandoClass*> const& __cordl_internal_get__klass_5__3() const;
+  constexpr ::System::Dynamic::ExpandoClass*& __cordl_internal_get__klass_5__3();
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
   constexpr void __cordl_internal_set___2__current(::StringW value);
 
-  constexpr void __cordl_internal_set___4__this(::System::Dynamic::__ExpandoObject__MetaExpando* value);
+  constexpr void __cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_MetaExpando* value);
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr void __cordl_internal_set__expandoData_5__2(::System::Dynamic::__ExpandoObject__ExpandoData* value);
+  constexpr void __cordl_internal_set__expandoData_5__2(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
   constexpr void __cordl_internal_set__i_5__4(int32_t value);
 
   constexpr void __cordl_internal_set__klass_5__3(::System::Dynamic::ExpandoClass* value);
 
-  /// @brief Method .ctor, addr 0x409ecfc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4100010, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -1004,16 +989,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6();
+  constexpr MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6(__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6&&) = delete;
+  MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6(MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6(__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6 const&) = delete;
+  MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6(MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14163 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1025,10 +1013,10 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__MetaExpando* _____4__this;
+  ::System::Dynamic::ExpandoObject_MetaExpando* _____4__this;
 
   /// @brief Field <expandoData>5__2, offset: 0x30, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__ExpandoData* ____expandoData_5__2;
+  ::System::Dynamic::ExpandoObject_ExpandoData* ____expandoData_5__2;
 
   /// @brief Field <klass>5__3, offset: 0x38, size: 0x8, def value: None
   ::System::Dynamic::ExpandoClass* ____klass_5__3;
@@ -1036,122 +1024,117 @@ public:
   /// @brief Field <i>5__4, offset: 0x40, size: 0x4, def value: None
   int32_t ____i_5__4;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14129 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, 0x48>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, _____l__initialThreadId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, ____expandoData_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, ____expandoData_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, ____klass_5__3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, ____klass_5__3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, ____i_5__4) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6, ____i_5__4) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::MetaExpando
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Dynamic
+// Dependencies System.Dynamic.DynamicMetaObject
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::MetaExpando*
-class CORDL_TYPE __ExpandoObject__MetaExpando : public ::System::Dynamic::DynamicMetaObject {
+// CS Name: System.Dynamic.ExpandoObject/MetaExpando
+class CORDL_TYPE ExpandoObject_MetaExpando : public ::System::Dynamic::DynamicMetaObject {
 public:
   // Declarations
-  using _GetDynamicMemberNames_d__6 = ::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6;
+  using _GetDynamicMemberNames_d__6 = ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6;
 
-  using __c__DisplayClass3_0 = ::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0;
+  using __c__DisplayClass3_0 = ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0;
 
   __declspec(property(get = get_Value)) ::System::Dynamic::ExpandoObject* Value;
 
-  /// @brief Method AddDynamicTestAndDefer, addr 0x409e0b4, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method AddDynamicTestAndDefer, addr 0x40ff3c8, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* AddDynamicTestAndDefer(::System::Dynamic::DynamicMetaObjectBinder* binder, ::System::Dynamic::ExpandoClass* klass,
                                                                       ::System::Dynamic::ExpandoClass* originalClass, ::System::Dynamic::DynamicMetaObject* succeeds);
 
-  /// @brief Method BindDeleteMember, addr 0x409e9d8, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method BindDeleteMember, addr 0x40ffcec, size 0x2b4, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindDeleteMember(::System::Dynamic::DeleteMemberBinder* binder);
 
-  /// @brief Method BindGetMember, addr 0x409e368, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BindGetMember, addr 0x40ff67c, size 0x98, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindGetMember(::System::Dynamic::GetMemberBinder* binder);
 
-  /// @brief Method BindGetOrInvokeMember, addr 0x409d9a0, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method BindGetOrInvokeMember, addr 0x40fecb4, size 0x5c8, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindGetOrInvokeMember(::System::Dynamic::DynamicMetaObjectBinder* binder, ::StringW name, bool ignoreCase,
                                                                      ::System::Dynamic::DynamicMetaObject* fallback,
                                                                      ::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>* fallbackInvoke);
 
-  /// @brief Method BindInvokeMember, addr 0x409e410, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method BindInvokeMember, addr 0x40ff724, size 0x128, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindInvokeMember(::System::Dynamic::InvokeMemberBinder* binder,
                                                                 ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method BindSetMember, addr 0x409e550, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method BindSetMember, addr 0x40ff864, size 0x3d8, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindSetMember(::System::Dynamic::SetMemberBinder* binder, ::System::Dynamic::DynamicMetaObject* value);
 
-  /// @brief Method GetClassEnsureIndex, addr 0x409e928, size 0xb0, virtual false, abstract: false, final false
-  inline ::System::Dynamic::ExpandoClass* GetClassEnsureIndex(::StringW name, bool caseInsensitive, ::System::Dynamic::ExpandoObject* obj, ByRef<::System::Dynamic::ExpandoClass*> klass,
-                                                              ByRef<int32_t> index);
+  /// @brief Method GetClassEnsureIndex, addr 0x40ffc3c, size 0xb0, virtual false, abstract: false, final false
+  inline ::System::Dynamic::ExpandoClass* GetClassEnsureIndex(::StringW name, bool caseInsensitive, ::System::Dynamic::ExpandoObject* obj, ::ByRef<::System::Dynamic::ExpandoClass*> klass,
+                                                              ::ByRef<int32_t> index);
 
-  /// @brief Method GetDynamicMemberNames, addr 0x409ec8c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x40fffa0, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames();
 
-  /// @brief Method GetLimitedSelf, addr 0x409dfcc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetLimitedSelf, addr 0x40ff2e0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetLimitedSelf();
 
-  /// @brief Method GetRestrictions, addr 0x409ed30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRestrictions, addr 0x4100044, size 0x58, virtual false, abstract: false, final false
   inline ::System::Dynamic::BindingRestrictions* GetRestrictions();
 
-  static inline ::System::Dynamic::__ExpandoObject__MetaExpando* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::ExpandoObject* value);
+  static inline ::System::Dynamic::ExpandoObject_MetaExpando* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::ExpandoObject* value);
 
-  /// @brief Method .ctor, addr 0x409d8f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fec0c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::ExpandoObject* value);
 
-  /// @brief Method get_Value, addr 0x409df68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x40ff27c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoObject* get_Value();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__MetaExpando();
+  constexpr ExpandoObject_MetaExpando();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__MetaExpando", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_MetaExpando", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__MetaExpando(__ExpandoObject__MetaExpando&&) = delete;
+  ExpandoObject_MetaExpando(ExpandoObject_MetaExpando&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__MetaExpando", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_MetaExpando", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__MetaExpando(__ExpandoObject__MetaExpando const&) = delete;
+  ExpandoObject_MetaExpando(ExpandoObject_MetaExpando const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::__ExpandoObject__MetaExpando, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject_MetaExpando, 0x28>, "Size mismatch!");
 
 } // namespace System::Dynamic
-// Type: ::ExpandoData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::ExpandoData*
-class CORDL_TYPE __ExpandoObject__ExpandoData : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/ExpandoData
+class CORDL_TYPE ExpandoObject_ExpandoData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Class, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Class, put = __cordl_internal_set_Class)) ::System::Dynamic::ExpandoClass* Class;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::Dynamic::__ExpandoObject__ExpandoData* Empty;
+  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::Dynamic::ExpandoObject_ExpandoData* Empty;
 
   __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
 
@@ -1165,19 +1148,19 @@ public:
   /// @brief Field _version, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
-  /// @brief Method GetAlignedSize, addr 0x409f3bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAlignedSize, addr 0x41006d0, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetAlignedSize(int32_t len);
 
-  static inline ::System::Dynamic::__ExpandoObject__ExpandoData* New_ctor();
+  static inline ::System::Dynamic::ExpandoObject_ExpandoData* New_ctor();
 
-  static inline ::System::Dynamic::__ExpandoObject__ExpandoData* New_ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data, int32_t version);
+  static inline ::System::Dynamic::ExpandoObject_ExpandoData* New_ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data, int32_t version);
 
-  /// @brief Method UpdateClass, addr 0x409f21c, size 0x1a0, virtual false, abstract: false, final false
-  inline ::System::Dynamic::__ExpandoObject__ExpandoData* UpdateClass(::System::Dynamic::ExpandoClass* newClass);
+  /// @brief Method UpdateClass, addr 0x4100530, size 0x1a0, virtual false, abstract: false, final false
+  inline ::System::Dynamic::ExpandoObject_ExpandoData* UpdateClass(::System::Dynamic::ExpandoClass* newClass);
+
+  constexpr ::System::Dynamic::ExpandoClass* const& __cordl_internal_get_Class() const;
 
   constexpr ::System::Dynamic::ExpandoClass*& __cordl_internal_get_Class();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::ExpandoClass*> const& __cordl_internal_get_Class() const;
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__dataArray() const;
 
@@ -1193,41 +1176,44 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x409f10c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4100420, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x409f1e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41004f4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data, int32_t version);
 
-  static inline ::System::Dynamic::__ExpandoObject__ExpandoData* getStaticF_Empty();
+  static inline ::System::Dynamic::ExpandoObject_ExpandoData* getStaticF_Empty();
 
-  /// @brief Method get_Item, addr 0x409d080, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x40fe394, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x409f0f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4100404, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Version, addr 0x409f0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x41003fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  static inline void setStaticF_Empty(::System::Dynamic::__ExpandoObject__ExpandoData* value);
+  static inline void setStaticF_Empty(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
-  /// @brief Method set_Item, addr 0x409f078, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x410038c, size 0x70, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject__ExpandoData();
+  constexpr ExpandoObject_ExpandoData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ExpandoData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ExpandoData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject__ExpandoData(__ExpandoObject__ExpandoData&&) = delete;
+  ExpandoObject_ExpandoData(ExpandoObject_ExpandoData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject__ExpandoData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ExpandoData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject__ExpandoData(__ExpandoObject__ExpandoData const&) = delete;
+  ExpandoObject_ExpandoData(ExpandoObject_ExpandoData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14165 };
 
   /// @brief Field Class, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::ExpandoClass* ___Class;
@@ -1238,27 +1224,23 @@ public:
   /// @brief Field _version, offset: 0x20, size: 0x4, def value: None
   int32_t ____version;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14131 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::__ExpandoObject__ExpandoData, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_ExpandoData, ___Class) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__ExpandoData, ___Class) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_ExpandoData, ____dataArray) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__ExpandoData, ____dataArray) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject_ExpandoData, ____version) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject__ExpandoData, ____version) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject_ExpandoData, 0x28>, "Size mismatch!");
 
 } // namespace System::Dynamic
-// Type: ::<GetExpandoEnumerator>d__51
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::ExpandoObject::<GetExpandoEnumerator>d__51*
-class CORDL_TYPE __ExpandoObject___GetExpandoEnumerator_d__51 : public ::System::Object {
+// CS Name: System.Dynamic.ExpandoObject/<GetExpandoEnumerator>d__51
+class CORDL_TYPE ExpandoObject__GetExpandoEnumerator_d__51 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(
@@ -1281,7 +1263,7 @@ public:
   __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   /// @brief Field data, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::Dynamic::__ExpandoObject__ExpandoData* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::Dynamic::ExpandoObject_ExpandoData* data;
 
   /// @brief Field version, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
@@ -1295,23 +1277,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x409f44c, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4100760, size 0x1a4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51* New_ctor(int32_t __1__state);
+  static inline ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x409f5f0, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x4100904, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x409f5fc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4100910, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x409f634, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4100948, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x409f448, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x410075c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1322,17 +1304,17 @@ public:
 
   constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Dynamic::ExpandoObject*& __cordl_internal_get___4__this();
+  constexpr ::System::Dynamic::ExpandoObject* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::ExpandoObject*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Dynamic::ExpandoObject*& __cordl_internal_get___4__this();
 
   constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
   constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr ::System::Dynamic::__ExpandoObject__ExpandoData*& __cordl_internal_get_data();
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& __cordl_internal_get_data() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__ExpandoData*> const& __cordl_internal_get_data() const;
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& __cordl_internal_get_data();
 
   constexpr int32_t const& __cordl_internal_get_version() const;
 
@@ -1346,11 +1328,11 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
-  constexpr void __cordl_internal_set_data(::System::Dynamic::__ExpandoObject__ExpandoData* value);
+  constexpr void __cordl_internal_set_data(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x409f420, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4100734, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
@@ -1366,16 +1348,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExpandoObject___GetExpandoEnumerator_d__51();
+  constexpr ExpandoObject__GetExpandoEnumerator_d__51();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject___GetExpandoEnumerator_d__51", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject__GetExpandoEnumerator_d__51", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ExpandoObject___GetExpandoEnumerator_d__51(__ExpandoObject___GetExpandoEnumerator_d__51&&) = delete;
+  ExpandoObject__GetExpandoEnumerator_d__51(ExpandoObject__GetExpandoEnumerator_d__51&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExpandoObject___GetExpandoEnumerator_d__51", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject__GetExpandoEnumerator_d__51", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ExpandoObject___GetExpandoEnumerator_d__51(__ExpandoObject___GetExpandoEnumerator_d__51 const&) = delete;
+  ExpandoObject__GetExpandoEnumerator_d__51(ExpandoObject__GetExpandoEnumerator_d__51 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14166 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1390,53 +1375,50 @@ public:
   int32_t ___version;
 
   /// @brief Field data, offset: 0x38, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__ExpandoData* ___data;
+  ::System::Dynamic::ExpandoObject_ExpandoData* ___data;
 
   /// @brief Field <i>5__2, offset: 0x40, size: 0x4, def value: None
   int32_t ____i_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14132 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51, 0x48>, "Size mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51, ___version) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51, ___version) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51, ___data) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51, ___data) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51, ____i_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51, ____i_5__2) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51, 0x48>, "Size mismatch!");
 
 } // namespace System::Dynamic
-// Type: System.Dynamic::ExpandoObject
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
+// System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable, System.ComponentModel.INotifyPropertyChanged, System.Dynamic.IDynamicMetaObjectProvider, System.Object
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::System.Dynamic::ExpandoObject*
+// CS Name: System.Dynamic.ExpandoObject
 class CORDL_TYPE ExpandoObject : public ::System::Object {
 public:
   // Declarations
-  using ExpandoData = ::System::Dynamic::__ExpandoObject__ExpandoData;
+  using ExpandoData = ::System::Dynamic::ExpandoObject_ExpandoData;
 
-  using KeyCollection = ::System::Dynamic::__ExpandoObject__KeyCollection;
+  using KeyCollection = ::System::Dynamic::ExpandoObject_KeyCollection;
 
-  using KeyCollectionDebugView = ::System::Dynamic::__ExpandoObject__KeyCollectionDebugView;
+  using KeyCollectionDebugView = ::System::Dynamic::ExpandoObject_KeyCollectionDebugView;
 
-  using MetaExpando = ::System::Dynamic::__ExpandoObject__MetaExpando;
+  using MetaExpando = ::System::Dynamic::ExpandoObject_MetaExpando;
 
-  using ValueCollection = ::System::Dynamic::__ExpandoObject__ValueCollection;
+  using ValueCollection = ::System::Dynamic::ExpandoObject_ValueCollection;
 
-  using ValueCollectionDebugView = ::System::Dynamic::__ExpandoObject__ValueCollectionDebugView;
+  using ValueCollectionDebugView = ::System::Dynamic::ExpandoObject_ValueCollectionDebugView;
 
-  using _GetExpandoEnumerator_d__51 = ::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51;
+  using _GetExpandoEnumerator_d__51 = ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51;
 
   __declspec(property(get = get_Class)) ::System::Dynamic::ExpandoClass* Class;
 
@@ -1459,31 +1441,31 @@ public:
       System_Collections_Generic_IDictionary_System_String_System_Object__Values;
 
   /// @brief Field Uninitialized, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) ::System::Object* Uninitialized;
+  __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) ::System::Object* Uninitialized;
 
   /// @brief Field _count, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::System::Dynamic::__ExpandoObject__ExpandoData* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::System::Dynamic::ExpandoObject_ExpandoData* _data;
 
   /// @brief Field _propertyChanged, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyChanged, put = __cordl_internal_set__propertyChanged)) ::System::ComponentModel::PropertyChangedEventHandler* _propertyChanged;
 
   /// @brief Field s_expandoCheckVersion, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_expandoCheckVersion, put = setStaticF_s_expandoCheckVersion)) ::System::Reflection::MethodInfo* s_expandoCheckVersion;
+  __declspec(property(get = getStaticF_s_expandoCheckVersion, put = setStaticF_s_expandoCheckVersion)) ::System::Reflection::MethodInfo* s_expandoCheckVersion;
 
   /// @brief Field s_expandoPromoteClass, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_expandoPromoteClass, put = setStaticF_s_expandoPromoteClass)) ::System::Reflection::MethodInfo* s_expandoPromoteClass;
+  __declspec(property(get = getStaticF_s_expandoPromoteClass, put = setStaticF_s_expandoPromoteClass)) ::System::Reflection::MethodInfo* s_expandoPromoteClass;
 
   /// @brief Field s_expandoTryDeleteValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_expandoTryDeleteValue, put = setStaticF_s_expandoTryDeleteValue)) ::System::Reflection::MethodInfo* s_expandoTryDeleteValue;
+  __declspec(property(get = getStaticF_s_expandoTryDeleteValue, put = setStaticF_s_expandoTryDeleteValue)) ::System::Reflection::MethodInfo* s_expandoTryDeleteValue;
 
   /// @brief Field s_expandoTryGetValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_expandoTryGetValue, put = setStaticF_s_expandoTryGetValue)) ::System::Reflection::MethodInfo* s_expandoTryGetValue;
+  __declspec(property(get = getStaticF_s_expandoTryGetValue, put = setStaticF_s_expandoTryGetValue)) ::System::Reflection::MethodInfo* s_expandoTryGetValue;
 
   /// @brief Field s_expandoTrySetValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_expandoTrySetValue, put = setStaticF_s_expandoTrySetValue)) ::System::Reflection::MethodInfo* s_expandoTrySetValue;
+  __declspec(property(get = getStaticF_s_expandoTrySetValue, put = setStaticF_s_expandoTrySetValue)) ::System::Reflection::MethodInfo* s_expandoTrySetValue;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*() noexcept;
@@ -1503,132 +1485,132 @@ public:
   /// @brief Convert operator to "::System::Dynamic::IDynamicMetaObjectProvider"
   constexpr operator ::System::Dynamic::IDynamicMetaObjectProvider*() noexcept;
 
-  /// @brief Method ExpandoContainsKey, addr 0x409bba8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ExpandoContainsKey, addr 0x40fcebc, size 0x2c, virtual false, abstract: false, final false
   inline bool ExpandoContainsKey(::StringW key);
 
-  /// @brief Method GetExpandoEnumerator, addr 0x409c7bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetExpandoEnumerator, addr 0x40fdad0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
-  GetExpandoEnumerator(::System::Dynamic::__ExpandoObject__ExpandoData* data, int32_t version);
+  GetExpandoEnumerator(::System::Dynamic::ExpandoObject_ExpandoData* data, int32_t version);
 
-  /// @brief Method IsDeletedMember, addr 0x409b8d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsDeletedMember, addr 0x40fcbe4, size 0xa8, virtual false, abstract: false, final false
   inline bool IsDeletedMember(int32_t index);
 
   static inline ::System::Dynamic::ExpandoObject* New_ctor();
 
-  /// @brief Method PromoteClass, addr 0x4098550, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method PromoteClass, addr 0x40f9864, size 0x164, virtual false, abstract: false, final false
   inline void PromoteClass(::System::Object* oldClass, ::System::Object* newClass);
 
-  /// @brief Method PromoteClassCore, addr 0x409ba70, size 0x38, virtual false, abstract: false, final false
-  inline ::System::Dynamic::__ExpandoObject__ExpandoData* PromoteClassCore(::System::Dynamic::ExpandoClass* oldClass, ::System::Dynamic::ExpandoClass* newClass);
+  /// @brief Method PromoteClassCore, addr 0x40fcd84, size 0x38, virtual false, abstract: false, final false
+  inline ::System::Dynamic::ExpandoObject_ExpandoData* PromoteClassCore(::System::Dynamic::ExpandoClass* oldClass, ::System::Dynamic::ExpandoClass* newClass);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add, addr 0x409bff8, size 0x60, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add, addr 0x40fd30c, size 0x60, virtual true, abstract: false, final
   /// true
   inline void
   System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear, addr 0x409c058, size 0x224, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear, addr 0x40fd36c, size 0x224, virtual true, abstract: false, final
   /// true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains, addr 0x409c27c, size 0x94, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains, addr 0x40fd590, size 0x94, virtual true, abstract: false,
   /// final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains(
       ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo, addr 0x409c310, size 0x424, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo, addr 0x40fd624, size 0x424, virtual true, abstract: false,
   /// final true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo(
       ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>, ::Array<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*> array,
       int32_t arrayIndex);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove, addr 0x409c734, size 0x6c, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove, addr 0x40fda48, size 0x6c, virtual true, abstract: false, final
   /// true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove(
       ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count, addr 0x409bfe8, size 0x8, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count, addr 0x40fd2fc, size 0x8, virtual true, abstract: false,
   /// final true
   inline int32_t System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly, addr 0x409bff0, size 0x8, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly, addr 0x40fd304, size 0x8, virtual true, abstract:
   /// false, final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Add, addr 0x409be58, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Add, addr 0x40fd16c, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IDictionary_System_String_System_Object__Add(::StringW key, ::System::Object* value);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey, addr 0x409be5c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey, addr 0x40fd170, size 0xd4, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey(::StringW key);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Remove, addr 0x409bf30, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Remove, addr 0x40fd244, size 0xa0, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IDictionary_System_String_System_Object__Remove(::StringW key);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue, addr 0x409bfd0, size 0x18, virtual true, abstract: false, final true
-  inline bool System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue(::StringW key, ByRef<::System::Object*> value);
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue, addr 0x40fd2e4, size 0x18, virtual true, abstract: false, final true
+  inline bool System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue(::StringW key, ::ByRef<::System::Object*> value);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item, addr 0x409bd78, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item, addr 0x40fd08c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IDictionary_System_String_System_Object__get_Item(::StringW key);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys, addr 0x409bbd4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys, addr 0x40fcee8, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<::StringW>* System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values, addr 0x409bd1c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values, addr 0x40fd030, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<::System::Object*>* System_Collections_Generic_IDictionary_System_String_System_Object__get_Values();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item, addr 0x409bddc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item, addr 0x40fd0f0, size 0x7c, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IDictionary_System_String_System_Object__set_Item(::StringW key, ::System::Object* value);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x409c7a0, size 0x1c, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x40fdab4, size 0x1c, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x409c83c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40fdb50, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject, addr 0x409baa8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject, addr 0x40fcdbc, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject(::System::Linq::Expressions::Expression* parameter);
 
-  /// @brief Method TryAddMember, addr 0x409bb14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryAddMember, addr 0x40fce28, size 0x7c, virtual false, abstract: false, final false
   inline void TryAddMember(::StringW key, ::System::Object* value);
 
-  /// @brief Method TryDeleteValue, addr 0x40981ec, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method TryDeleteValue, addr 0x40f9500, size 0x310, virtual false, abstract: false, final false
   inline bool TryDeleteValue(::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::System::Object* deleteValue);
 
-  /// @brief Method TryGetValue, addr 0x4097c6c, size 0x128, virtual false, abstract: false, final false
-  inline bool TryGetValue(::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ByRef<::System::Object*> value);
+  /// @brief Method TryGetValue, addr 0x40f8f80, size 0x128, virtual false, abstract: false, final false
+  inline bool TryGetValue(::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::ByRef<::System::Object*> value);
 
-  /// @brief Method TryGetValueForKey, addr 0x409bb90, size 0x18, virtual false, abstract: false, final false
-  inline bool TryGetValueForKey(::StringW key, ByRef<::System::Object*> value);
+  /// @brief Method TryGetValueForKey, addr 0x40fcea4, size 0x18, virtual false, abstract: false, final false
+  inline bool TryGetValueForKey(::StringW key, ::ByRef<::System::Object*> value);
 
-  /// @brief Method TrySetValue, addr 0x4097dbc, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method TrySetValue, addr 0x40f90d0, size 0x398, virtual false, abstract: false, final false
   inline void TrySetValue(::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase, bool add);
 
-  constexpr ::System::Object*& __cordl_internal_get_LockObject();
+  constexpr ::System::Object* const& __cordl_internal_get_LockObject() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_LockObject() const;
+  constexpr ::System::Object*& __cordl_internal_get_LockObject();
 
   constexpr int32_t const& __cordl_internal_get__count() const;
 
   constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr ::System::Dynamic::__ExpandoObject__ExpandoData*& __cordl_internal_get__data();
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& __cordl_internal_get__data() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Dynamic::__ExpandoObject__ExpandoData*> const& __cordl_internal_get__data() const;
+  constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& __cordl_internal_get__data();
+
+  constexpr ::System::ComponentModel::PropertyChangedEventHandler* const& __cordl_internal_get__propertyChanged() const;
 
   constexpr ::System::ComponentModel::PropertyChangedEventHandler*& __cordl_internal_get__propertyChanged();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyChangedEventHandler*> const& __cordl_internal_get__propertyChanged() const;
 
   constexpr void __cordl_internal_set_LockObject(::System::Object* value);
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr void __cordl_internal_set__data(::System::Dynamic::__ExpandoObject__ExpandoData* value);
+  constexpr void __cordl_internal_set__data(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
   constexpr void __cordl_internal_set__propertyChanged(::System::ComponentModel::PropertyChangedEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x409b9d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fccec, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_Uninitialized();
@@ -1643,7 +1625,7 @@ public:
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_expandoTrySetValue();
 
-  /// @brief Method get_Class, addr 0x4098524, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Class, addr 0x40f9838, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoClass* get_Class();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
@@ -1692,11 +1674,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExpandoObject(ExpandoObject const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14167 };
+
   /// @brief Field LockObject, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___LockObject;
 
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
-  ::System::Dynamic::__ExpandoObject__ExpandoData* ____data;
+  ::System::Dynamic::ExpandoObject_ExpandoData* ____data;
 
   /// @brief Field _count, offset: 0x20, size: 0x4, def value: None
   int32_t ____count;
@@ -1704,14 +1689,9 @@ public:
   /// @brief Field _propertyChanged, offset: 0x28, size: 0x8, def value: None
   ::System::ComponentModel::PropertyChangedEventHandler* ____propertyChanged;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14133 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Dynamic::ExpandoObject, ___LockObject) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Dynamic::ExpandoObject, ____data) == 0x18, "Offset mismatch!");
@@ -1720,28 +1700,30 @@ static_assert(offsetof(::System::Dynamic::ExpandoObject, ____count) == 0x20, "Of
 
 static_assert(offsetof(::System::Dynamic::ExpandoObject, ____propertyChanged) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Dynamic::ExpandoObject, 0x30>, "Size mismatch!");
+
 } // namespace System::Dynamic
-NEED_NO_BOX(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15*, "System.Dynamic", "ExpandoObject/KeyCollection/<GetEnumerator>d__15");
-NEED_NO_BOX(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6*, "System.Dynamic", "ExpandoObject/MetaExpando/<GetDynamicMemberNames>d__6");
-NEED_NO_BOX(::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0*, "System.Dynamic", "ExpandoObject/MetaExpando/<>c__DisplayClass3_0");
-NEED_NO_BOX(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15*, "System.Dynamic", "ExpandoObject/ValueCollection/<GetEnumerator>d__15");
 NEED_NO_BOX(::System::Dynamic::ExpandoObject);
 DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject*, "System.Dynamic", "ExpandoObject");
-NEED_NO_BOX(::System::Dynamic::__ExpandoObject__ExpandoData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::__ExpandoObject__ExpandoData*, "System.Dynamic", "ExpandoObject/ExpandoData");
-NEED_NO_BOX(::System::Dynamic::__ExpandoObject__KeyCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::__ExpandoObject__KeyCollection*, "System.Dynamic", "ExpandoObject/KeyCollection");
-NEED_NO_BOX(::System::Dynamic::__ExpandoObject__KeyCollectionDebugView);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::__ExpandoObject__KeyCollectionDebugView*, "System.Dynamic", "ExpandoObject/KeyCollectionDebugView");
-NEED_NO_BOX(::System::Dynamic::__ExpandoObject__MetaExpando);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::__ExpandoObject__MetaExpando*, "System.Dynamic", "ExpandoObject/MetaExpando");
-NEED_NO_BOX(::System::Dynamic::__ExpandoObject__ValueCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::__ExpandoObject__ValueCollection*, "System.Dynamic", "ExpandoObject/ValueCollection");
-NEED_NO_BOX(::System::Dynamic::__ExpandoObject__ValueCollectionDebugView);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::__ExpandoObject__ValueCollectionDebugView*, "System.Dynamic", "ExpandoObject/ValueCollectionDebugView");
-NEED_NO_BOX(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51);
-DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51*, "System.Dynamic", "ExpandoObject/<GetExpandoEnumerator>d__51");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject_ExpandoData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject_ExpandoData*, "System.Dynamic", "ExpandoObject/ExpandoData");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject_KeyCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject_KeyCollection*, "System.Dynamic", "ExpandoObject/KeyCollection");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject_KeyCollectionDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject_KeyCollectionDebugView*, "System.Dynamic", "ExpandoObject/KeyCollectionDebugView");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject_MetaExpando);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject_MetaExpando*, "System.Dynamic", "ExpandoObject/MetaExpando");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject_ValueCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject_ValueCollection*, "System.Dynamic", "ExpandoObject/ValueCollection");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject_ValueCollectionDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject_ValueCollectionDebugView*, "System.Dynamic", "ExpandoObject/ValueCollectionDebugView");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*, "System.Dynamic", "ExpandoObject/<GetExpandoEnumerator>d__51");
+NEED_NO_BOX(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*, "System.Dynamic", "ExpandoObject/KeyCollection/<GetEnumerator>d__15");
+NEED_NO_BOX(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*, "System.Dynamic", "ExpandoObject/MetaExpando/<GetDynamicMemberNames>d__6");
+NEED_NO_BOX(::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*, "System.Dynamic", "ExpandoObject/MetaExpando/<>c__DisplayClass3_0");
+NEED_NO_BOX(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*, "System.Dynamic", "ExpandoObject/ValueCollection/<GetEnumerator>d__15");

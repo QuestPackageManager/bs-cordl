@@ -5,15 +5,13 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
-#include "GlobalNamespace/zzzz__LevelFilter_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -35,31 +33,22 @@ namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
-struct EntitlementStatus;
-}
-namespace GlobalNamespace {
 class IEntitlementModel;
 }
 namespace GlobalNamespace {
+struct LevelFilter__FilterLevelsAsync_d__14;
+}
+namespace GlobalNamespace {
+class LevelFilter___c;
+}
+namespace GlobalNamespace {
+class LevelFilter___c__DisplayClass14_0;
+}
+namespace GlobalNamespace {
+class LevelFilter___c__DisplayClass14_1;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-struct __LevelFilter___FilterLevelsAsync_d__14;
-}
-namespace GlobalNamespace {
-class __LevelFilter____c;
-}
-namespace GlobalNamespace {
-class __LevelFilter____c__DisplayClass14_0;
-}
-namespace GlobalNamespace {
-class __LevelFilter____c__DisplayClass14_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -71,13 +60,7 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -93,93 +76,91 @@ template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class __LevelFilter____c;
+class LevelFilter___c;
 }
 namespace GlobalNamespace {
-class __LevelFilter____c__DisplayClass14_0;
+class LevelFilter___c__DisplayClass14_0;
 }
 namespace GlobalNamespace {
-class __LevelFilter____c__DisplayClass14_1;
+class LevelFilter___c__DisplayClass14_1;
 }
 namespace GlobalNamespace {
 struct LevelFilter;
 }
 namespace GlobalNamespace {
-struct __LevelFilter___FilterLevelsAsync_d__14;
+struct LevelFilter__FilterLevelsAsync_d__14;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::__LevelFilter____c);
-MARK_REF_PTR_T(::GlobalNamespace::__LevelFilter____c__DisplayClass14_0);
-MARK_REF_PTR_T(::GlobalNamespace::__LevelFilter____c__DisplayClass14_1);
+MARK_REF_PTR_T(::GlobalNamespace::LevelFilter___c);
+MARK_REF_PTR_T(::GlobalNamespace::LevelFilter___c__DisplayClass14_0);
+MARK_REF_PTR_T(::GlobalNamespace::LevelFilter___c__DisplayClass14_1);
 MARK_VAL_T(::GlobalNamespace::LevelFilter);
-MARK_VAL_T(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelFilter::<>c*
-class CORDL_TYPE __LevelFilter____c : public ::System::Object {
+// CS Name: LevelFilter/<>c
+class CORDL_TYPE LevelFilter___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__LevelFilter____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::LevelFilter___c* __9;
 
   /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Comparison_1<::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*>>* __9__15_0;
+  __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Comparison_1<::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*>>* __9__15_0;
 
-  static inline ::GlobalNamespace::__LevelFilter____c* New_ctor();
+  static inline ::GlobalNamespace::LevelFilter___c* New_ctor();
 
-  /// @brief Method <FilterLevelByText>b__15_0, addr 0x2698820, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelByText>b__15_0, addr 0x26cd4f0, size 0x24, virtual false, abstract: false, final false
   inline int32_t _FilterLevelByText_b__15_0(::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> x, ::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> y);
 
-  /// @brief Method .ctor, addr 0x2698818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cd4e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__LevelFilter____c* getStaticF___9();
+  static inline ::GlobalNamespace::LevelFilter___c* getStaticF___9();
 
   static inline ::System::Comparison_1<::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*>>* getStaticF___9__15_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__LevelFilter____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::LevelFilter___c* value);
 
   static inline void setStaticF___9__15_0(::System::Comparison_1<::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*>>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelFilter____c();
+  constexpr LevelFilter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilter____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LevelFilter____c(__LevelFilter____c&&) = delete;
+  LevelFilter___c(LevelFilter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilter____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LevelFilter____c(__LevelFilter____c const&) = delete;
+  LevelFilter___c(LevelFilter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilter____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilter___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass14_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelFilter::<>c__DisplayClass14_0*
-class CORDL_TYPE __LevelFilter____c__DisplayClass14_0 : public ::System::Object {
+// CS Name: LevelFilter/<>c__DisplayClass14_0
+class CORDL_TYPE LevelFilter___c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field characteristicFilter, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_characteristicFilter, put = __cordl_internal_set_characteristicFilter)) ::StringW characteristicFilter;
 
-  static inline ::GlobalNamespace::__LevelFilter____c__DisplayClass14_0* New_ctor();
+  static inline ::GlobalNamespace::LevelFilter___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <FilterLevelsAsync>b__3, addr 0x2698844, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>b__3, addr 0x26cd514, size 0x24, virtual false, abstract: false, final false
   inline bool _FilterLevelsAsync_b__3(::GlobalNamespace::BeatmapCharacteristicSO* characteristic);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicFilter() const;
@@ -188,43 +169,42 @@ public:
 
   constexpr void __cordl_internal_set_characteristicFilter(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2698650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cd320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelFilter____c__DisplayClass14_0();
+  constexpr LevelFilter___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilter____c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LevelFilter____c__DisplayClass14_0(__LevelFilter____c__DisplayClass14_0&&) = delete;
+  LevelFilter___c__DisplayClass14_0(LevelFilter___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilter____c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LevelFilter____c__DisplayClass14_0(__LevelFilter____c__DisplayClass14_0 const&) = delete;
+  LevelFilter___c__DisplayClass14_0(LevelFilter___c__DisplayClass14_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12984 };
 
   /// @brief Field characteristicFilter, offset: 0x10, size: 0x8, def value: None
   ::StringW ___characteristicFilter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12949 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilter____c__DisplayClass14_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter___c__DisplayClass14_0, ___characteristicFilter) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter____c__DisplayClass14_0, ___characteristicFilter) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilter___c__DisplayClass14_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass14_1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficultyMask, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelFilter::<>c__DisplayClass14_1*
-class CORDL_TYPE __LevelFilter____c__DisplayClass14_1 : public ::System::Object {
+// CS Name: LevelFilter/<>c__DisplayClass14_1
+class CORDL_TYPE LevelFilter___c__DisplayClass14_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field characteristicFilter, offset 0x18, size 0x8
@@ -233,10 +213,10 @@ public:
   /// @brief Field difficultyFilter, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_difficultyFilter, put = __cordl_internal_set_difficultyFilter)) ::GlobalNamespace::BeatmapDifficultyMask difficultyFilter;
 
-  static inline ::GlobalNamespace::__LevelFilter____c__DisplayClass14_1* New_ctor();
+  static inline ::GlobalNamespace::LevelFilter___c__DisplayClass14_1* New_ctor();
 
-  /// @brief Method <FilterLevelsAsync>b__4, addr 0x2698868, size 0x60, virtual false, abstract: false, final false
-  inline bool _FilterLevelsAsync_b__4(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry);
+  /// @brief Method <FilterLevelsAsync>b__4, addr 0x26cd538, size 0x60, virtual false, abstract: false, final false
+  inline bool _FilterLevelsAsync_b__4(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty> entry);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicFilter() const;
 
@@ -250,22 +230,25 @@ public:
 
   constexpr void __cordl_internal_set_difficultyFilter(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x26987b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cd484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelFilter____c__DisplayClass14_1();
+  constexpr LevelFilter___c__DisplayClass14_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilter____c__DisplayClass14_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c__DisplayClass14_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LevelFilter____c__DisplayClass14_1(__LevelFilter____c__DisplayClass14_1&&) = delete;
+  LevelFilter___c__DisplayClass14_1(LevelFilter___c__DisplayClass14_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilter____c__DisplayClass14_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c__DisplayClass14_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LevelFilter____c__DisplayClass14_1(__LevelFilter____c__DisplayClass14_1 const&) = delete;
+  LevelFilter___c__DisplayClass14_1(LevelFilter___c__DisplayClass14_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12985 };
 
   /// @brief Field difficultyFilter, offset: 0x10, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask ___difficultyFilter;
@@ -273,68 +256,64 @@ public:
   /// @brief Field characteristicFilter, offset: 0x18, size: 0x8, def value: None
   ::StringW ___characteristicFilter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12950 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilter____c__DisplayClass14_1, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter___c__DisplayClass14_1, ___difficultyFilter) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter____c__DisplayClass14_1, ___difficultyFilter) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter___c__DisplayClass14_1, ___characteristicFilter) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter____c__DisplayClass14_1, ___characteristicFilter) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilter___c__DisplayClass14_1, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelFilter
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficultyMask, PlayerSensitivityFlag, SongPackMask
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LevelFilter
+// CS Name: LevelFilter
 struct CORDL_TYPE LevelFilter {
 public:
   // Declarations
-  using _FilterLevelsAsync_d__14 = ::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14;
+  using _FilterLevelsAsync_d__14 = ::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14;
 
-  using __c = ::GlobalNamespace::__LevelFilter____c;
+  using __c = ::GlobalNamespace::LevelFilter___c;
 
-  using __c__DisplayClass14_0 = ::GlobalNamespace::__LevelFilter____c__DisplayClass14_0;
+  using __c__DisplayClass14_0 = ::GlobalNamespace::LevelFilter___c__DisplayClass14_0;
 
-  using __c__DisplayClass14_1 = ::GlobalNamespace::__LevelFilter____c__DisplayClass14_1;
+  using __c__DisplayClass14_1 = ::GlobalNamespace::LevelFilter___c__DisplayClass14_1;
 
   /// @brief Field bpmOptions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_bpmOptions, put = setStaticF_bpmOptions)) ::ArrayW<float_t, ::Array<float_t>*> bpmOptions;
+  __declspec(property(get = getStaticF_bpmOptions, put = setStaticF_bpmOptions)) ::ArrayW<float_t, ::Array<float_t>*> bpmOptions;
 
-  /// @brief Method CleanText, addr 0x2697fd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CleanText, addr 0x26ccca4, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW CleanText(::StringW s);
 
-  /// @brief Method FilterLevelByText, addr 0x2697a98, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelByText, addr 0x26cc768, size 0x53c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* FilterLevelByText(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* levels,
                                                                                                             ::ArrayW<::StringW, ::Array<::StringW>*> searchTerms);
 
-  /// @brief Method FilterLevelsAsync, addr 0x2697970, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelsAsync, addr 0x26cc640, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>>*
   FilterLevelsAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::LevelFilter filter,
                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FilterLevelsAsync, addr 0x2697794, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelsAsync, addr 0x26cc464, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>>*
   FilterLevelsAsync(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> packs, ::GlobalNamespace::LevelFilter filter,
                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsWithoutFilter, addr 0x26976e4, size 0xb0, virtual false, abstract: false, final false
-  static inline bool IsWithoutFilter(ByRef<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs);
+  /// @brief Method IsWithoutFilter, addr 0x26cc3b4, size 0xb0, virtual false, abstract: false, final false
+  static inline bool IsWithoutFilter(::ByRef<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs);
 
-  /// @brief Method <FilterLevelByText>g__CalculateMatchScore|15_1, addr 0x269805c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelByText>g__CalculateMatchScore|15_1, addr 0x26ccd2c, size 0x128, virtual false, abstract: false, final false
   static inline int32_t _FilterLevelByText_g__CalculateMatchScore_15_1(::StringW levelString, ::ArrayW<::StringW, ::Array<::StringW>*> searchTerms);
 
-  /// @brief Method <FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0, addr 0x2698218, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0, addr 0x26ccee8, size 0x354, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__HasPlayedAnyDifficulty_14_0(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method <FilterLevelsAsync>g__MatchesCharacteristic|14_1, addr 0x269856c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__MatchesCharacteristic|14_1, addr 0x26cd23c, size 0xe4, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__MatchesCharacteristic_14_1(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristicFilter);
 
-  /// @brief Method <FilterLevelsAsync>g__MatchesDifficulty|14_2, addr 0x2698658, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__MatchesDifficulty|14_2, addr 0x26cd328, size 0x15c, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__MatchesDifficulty_14_2(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficultyMask difficultyFilter,
                                                                   ::StringW characteristicFilter);
 
@@ -355,6 +334,12 @@ public:
   constexpr LevelFilter(bool songOwned, bool songNotOwned, bool songUnplayed, ::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::SongPackMask songPacks,
                         ::StringW characteristicSerializedName, float_t minBpm, float_t maxBpm, ::GlobalNamespace::PlayerSensitivityFlag sensitivity, ::StringW searchText,
                         ::ArrayW<::StringW, ::Array<::StringW>*> limitIds) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12987 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field songOwned, offset: 0x0, size: 0x1, def value: None
   bool songOwned;
@@ -389,17 +374,9 @@ public:
   /// @brief Field limitIds, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> limitIds;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12952 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilter, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LevelFilter, songOwned) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelFilter, songNotOwned) == 0x1, "Offset mismatch!");
@@ -422,22 +399,24 @@ static_assert(offsetof(::GlobalNamespace::LevelFilter, searchText) == 0x40, "Off
 
 static_assert(offsetof(::GlobalNamespace::LevelFilter, limitIds) == 0x48, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilter, 0x50>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-// Type: ::<FilterLevelsAsync>d__14
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EntitlementStatus, LevelFilter, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LevelFilter::<FilterLevelsAsync>d__14
-struct CORDL_TYPE __LevelFilter___FilterLevelsAsync_d__14 {
+// CS Name: LevelFilter/<FilterLevelsAsync>d__14
+struct CORDL_TYPE LevelFilter__FilterLevelsAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26988c8, size 0x90c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26cd598, size 0x90c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26991d4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26cdea4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -445,7 +424,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelFilter___FilterLevelsAsync_d__14();
+  constexpr LevelFilter__FilterLevelsAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*,::Array<::GlobalNamespace::BeatmapLevel*>*>>", modifiers: "", def_value: None }, CppParam
@@ -456,12 +435,18 @@ public:
   // CppParam { name: "__7__wrap2", ty: "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: None }, CppParam { name: "_level_5__4", ty:
   // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>",
   // modifiers: "", def_value: None }]
-  constexpr __LevelFilter___FilterLevelsAsync_d__14(
+  constexpr LevelFilter__FilterLevelsAsync_d__14(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>> __t__builder,
       ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::IEntitlementModel* levelsModel,
       ::System::Threading::CancellationToken cancellationToken, ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel,
       ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* _filteredLevels_5__2, ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>* __7__wrap2,
       ::GlobalNamespace::BeatmapLevel* _level_5__4, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12986 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -496,45 +481,39 @@ public:
   /// @brief Field <>u__1, offset: 0xa8, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12951 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, 0xb0>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, beatmapLevels) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, beatmapLevels) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, filter) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, filter) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, levelsModel) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, levelsModel) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, cancellationToken) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, cancellationToken) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, playerDataModel) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, playerDataModel) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, _filteredLevels_5__2) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, _filteredLevels_5__2) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, __7__wrap2) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, __7__wrap2) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, _level_5__4) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, _level_5__4) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, __u__1) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, __u__1) == 0xa8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, 0xb0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::__LevelFilter____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelFilter____c*, "", "LevelFilter/<>c");
-NEED_NO_BOX(::GlobalNamespace::__LevelFilter____c__DisplayClass14_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelFilter____c__DisplayClass14_0*, "", "LevelFilter/<>c__DisplayClass14_0");
-NEED_NO_BOX(::GlobalNamespace::__LevelFilter____c__DisplayClass14_1);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelFilter____c__DisplayClass14_1*, "", "LevelFilter/<>c__DisplayClass14_1");
+NEED_NO_BOX(::GlobalNamespace::LevelFilter___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilter___c*, "", "LevelFilter/<>c");
+NEED_NO_BOX(::GlobalNamespace::LevelFilter___c__DisplayClass14_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilter___c__DisplayClass14_0*, "", "LevelFilter/<>c__DisplayClass14_0");
+NEED_NO_BOX(::GlobalNamespace::LevelFilter___c__DisplayClass14_1);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilter___c__DisplayClass14_1*, "", "LevelFilter/<>c__DisplayClass14_1");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilter, "", "LevelFilter");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__14, "", "LevelFilter/<FilterLevelsAsync>d__14");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14, "", "LevelFilter/<FilterLevelsAsync>d__14");

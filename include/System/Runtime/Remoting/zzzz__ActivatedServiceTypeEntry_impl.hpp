@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ActivatedServiceTypeEntry::*)(::StringW, ::StringW)>(
     &::System::Runtime::Remoting::ActivatedServiceTypeEntry::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3c658c0;
+  constexpr static std::size_t addrs = 0x3cc5a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Remoting::ActivatedServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::ActivatedServiceTypeEntry::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c659e4;
+  constexpr static std::size_t addrs = 0x3cc5b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ActivatedServiceTypeEntry*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::ActivatedServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::ActivatedServiceTypeEntry::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c659ec;
+  constexpr static std::size_t addrs = 0x3cc5b60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,16 +52,13 @@ constexpr ::System::Type*& System::Runtime::Remoting::ActivatedServiceTypeEntry:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Remoting::ActivatedServiceTypeEntry::__cordl_internal_get_obj_type() const {
+constexpr ::System::Type* const& System::Runtime::Remoting::ActivatedServiceTypeEntry::__cordl_internal_get_obj_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
 constexpr void System::Runtime::Remoting::ActivatedServiceTypeEntry::__cordl_internal_set_obj_type(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj_type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* System::Runtime::Remoting::ActivatedServiceTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ActivatedServiceTypeEntry*>(typeName, assemblyName));
 }
 inline void System::Runtime::Remoting::ActivatedServiceTypeEntry::_ctor(::StringW typeName, ::StringW assemblyName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,6 +76,9 @@ inline ::StringW System::Runtime::Remoting::ActivatedServiceTypeEntry::ToString(
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ActivatedServiceTypeEntry*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* System::Runtime::Remoting::ActivatedServiceTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ActivatedServiceTypeEntry*>(typeName, assemblyName));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ActivatedServiceTypeEntry::ActivatedServiceTypeEntry() {}

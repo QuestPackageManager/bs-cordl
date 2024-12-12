@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GameplayServerFiniteStateMachineFactory)
 namespace GlobalNamespace {
-class GameplayServerFiniteStateMachine;
+struct GameplayServerFiniteStateMachine_InitParams;
 }
 namespace GlobalNamespace {
-struct __GameplayServerFiniteStateMachine__InitParams;
+class GameplayServerFiniteStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,16 +17,15 @@ class GameplayServerFiniteStateMachineFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameplayServerFiniteStateMachineFactory);
-// Type: ::GameplayServerFiniteStateMachineFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameplayServerFiniteStateMachineFactory*
+// CS Name: GameplayServerFiniteStateMachineFactory
 class CORDL_TYPE GameplayServerFiniteStateMachineFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2296488, size 0x70, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
+  /// @brief Method Create, addr 0x22c9774, size 0x70, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams initParams);
 
 protected:
   // Ctor Parameters []
@@ -43,7 +42,7 @@ public:
   GameplayServerFiniteStateMachineFactory(GameplayServerFiniteStateMachineFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

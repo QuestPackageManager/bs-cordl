@@ -11,11 +11,10 @@ class WebRequestModuleElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::WebRequestModuleElement);
-// Type: System.Net.Configuration::WebRequestModuleElement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.ConfigurationElement
 namespace System::Net::Configuration {
 // Is value type: false
-// CS Name: ::System.Net.Configuration::WebRequestModuleElement*
+// CS Name: System.Net.Configuration.WebRequestModuleElement
 class CORDL_TYPE WebRequestModuleElement : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   WebRequestModuleElement(WebRequestModuleElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

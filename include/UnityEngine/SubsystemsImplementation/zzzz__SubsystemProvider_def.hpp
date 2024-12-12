@@ -11,11 +11,10 @@ class SubsystemProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemProvider);
-// Type: UnityEngine.SubsystemsImplementation::SubsystemProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
-// CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemProvider*
+// CS Name: UnityEngine.SubsystemsImplementation.SubsystemProvider
 class CORDL_TYPE SubsystemProvider : public ::System::Object {
 public:
   // Declarations
@@ -42,18 +41,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubsystemProvider(SubsystemProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18732 };
+
   /// @brief Field m_Running, offset: 0x10, size: 0x1, def value: None
   bool ___m_Running;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::SubsystemsImplementation::SubsystemProvider, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::SubsystemsImplementation::SubsystemProvider, ___m_Running) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::SubsystemsImplementation::SubsystemProvider, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::SubsystemsImplementation
 NEED_NO_BOX(::UnityEngine::SubsystemsImplementation::SubsystemProvider);

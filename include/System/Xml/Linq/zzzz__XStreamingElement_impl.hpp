@@ -8,7 +8,7 @@ constexpr ::System::Xml::Linq::XName*& System::Xml::Linq::XStreamingElement::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& System::Xml::Linq::XStreamingElement::__cordl_internal_get_name() const {
+constexpr ::System::Xml::Linq::XName* const& System::Xml::Linq::XStreamingElement::__cordl_internal_get_name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
@@ -20,7 +20,7 @@ constexpr ::System::Object*& System::Xml::Linq::XStreamingElement::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Linq::XStreamingElement::__cordl_internal_get_content() const {
+constexpr ::System::Object* const& System::Xml::Linq::XStreamingElement::__cordl_internal_get_content() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }

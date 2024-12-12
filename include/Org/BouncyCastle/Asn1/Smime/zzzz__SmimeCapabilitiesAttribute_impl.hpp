@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::*)(
     ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x24c08e8;
+  constexpr static std::size_t addrs = 0x24f3bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -18,15 +18,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute*
-Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::New_ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute*>(capabilities));
-}
 inline void Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::_ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capabilities);
+}
+inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute*
+Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::New_ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute*>(capabilities));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::SmimeCapabilitiesAttribute() {}

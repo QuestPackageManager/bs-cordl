@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathNodeInfoAtom)
@@ -23,11 +22,10 @@ class XPathNodeInfoAtom;
 }
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodeInfoAtom);
-// Type: MS.Internal.Xml.Cache::XPathNodeInfoAtom
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// CS Name: ::MS.Internal.Xml.Cache::XPathNodeInfoAtom*
+// CS Name: MS.Internal.Xml.Cache.XPathNodeInfoAtom
 class CORDL_TYPE XPathNodeInfoAtom : public ::System::Object {
 public:
   // Declarations
@@ -79,9 +77,9 @@ public:
   /// @brief Field _prefix, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix)) ::StringW _prefix;
 
-  constexpr ::System::Xml::XPath::XPathDocument*& __cordl_internal_get__doc();
+  constexpr ::System::Xml::XPath::XPathDocument* const& __cordl_internal_get__doc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XPath::XPathDocument*> const& __cordl_internal_get__doc() const;
+  constexpr ::System::Xml::XPath::XPathDocument*& __cordl_internal_get__doc();
 
   constexpr int32_t const& __cordl_internal_get__lineNumBase() const;
 
@@ -99,9 +97,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__namespaceUri();
 
-  constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo*& __cordl_internal_get__pageInfo();
+  constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo* const& __cordl_internal_get__pageInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::MS::Internal::Xml::Cache::XPathNodePageInfo*> const& __cordl_internal_get__pageInfo() const;
+  constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo*& __cordl_internal_get__pageInfo();
 
   constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __cordl_internal_get__pageParent() const;
 
@@ -133,31 +131,31 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method get_Document, addr 0x42a86f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x4309a08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathDocument* get_Document();
 
-  /// @brief Method get_LineNumberBase, addr 0x42a86fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumberBase, addr 0x4309a10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumberBase();
 
-  /// @brief Method get_LinePositionBase, addr 0x42a8704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePositionBase, addr 0x4309a18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePositionBase();
 
-  /// @brief Method get_LocalName, addr 0x42a86cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x43099e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x42a86d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x43099e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_PageInfo, addr 0x42a86c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageInfo, addr 0x43099d8, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
 
-  /// @brief Method get_ParentPage, addr 0x42a86ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentPage, addr 0x4309a00, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_ParentPage();
 
-  /// @brief Method get_Prefix, addr 0x42a86dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x43099f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SiblingPage, addr 0x42a86e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SiblingPage, addr 0x43099f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_SiblingPage();
 
 protected:
@@ -173,6 +171,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XPathNodeInfoAtom", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XPathNodeInfoAtom(XPathNodeInfoAtom const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7789 };
 
   /// @brief Field _localName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____localName;
@@ -201,14 +202,9 @@ public:
   /// @brief Field _pageInfo, offset: 0x48, size: 0x8, def value: None
   ::MS::Internal::Xml::Cache::XPathNodePageInfo* ____pageInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7764 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathNodeInfoAtom, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeInfoAtom, ____localName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeInfoAtom, ____namespaceUri) == 0x18, "Offset mismatch!");
@@ -226,6 +222,8 @@ static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeInfoAtom, ____lineNu
 static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeInfoAtom, ____linePosBase) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeInfoAtom, ____pageInfo) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathNodeInfoAtom, 0x50>, "Size mismatch!");
 
 } // namespace MS::Internal::Xml::Cache
 NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathNodeInfoAtom);

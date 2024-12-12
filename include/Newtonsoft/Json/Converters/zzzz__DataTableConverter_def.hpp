@@ -29,32 +29,31 @@ class DataTableConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::DataTableConverter);
-// Type: Newtonsoft.Json.Converters::DataTableConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Converters::DataTableConverter*
+// CS Name: Newtonsoft.Json.Converters.DataTableConverter
 class CORDL_TYPE DataTableConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x3edb780, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x3f3b82c, size 0x94, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* valueType);
 
-  /// @brief Method CreateRow, addr 0x3edb068, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method CreateRow, addr 0x3f3b114, size 0x540, virtual false, abstract: false, final false
   static inline void CreateRow(::Newtonsoft::Json::JsonReader* reader, ::System::Data::DataTable* dt, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method GetColumnDataType, addr 0x3edb5a8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnDataType, addr 0x3f3b654, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Type* GetColumnDataType(::Newtonsoft::Json::JsonReader* reader);
 
   static inline ::Newtonsoft::Json::Converters::DataTableConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3edad60, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f3ae0c, size 0x308, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3eda554, size 0x80c, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f3a600, size 0x80c, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3eda1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3a264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +71,7 @@ public:
   DataTableConverter(DataTableConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

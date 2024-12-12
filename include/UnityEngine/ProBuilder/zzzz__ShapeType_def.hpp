@@ -12,11 +12,10 @@ struct ShapeType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::ShapeType);
-// Type: UnityEngine.ProBuilder::ShapeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// CS Name: ::UnityEngine.ProBuilder::ShapeType
+// CS Name: UnityEngine.ProBuilder.ShapeType
 struct CORDL_TYPE ShapeType {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ShapeType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Arch value: static_cast<int32_t>(0xa)
+  /// @brief Field Arch value: I32(10)
   static ::UnityEngine::ProBuilder::ShapeType const Arch;
 
-  /// @brief Field Cone value: static_cast<int32_t>(0x8)
+  /// @brief Field Cone value: I32(8)
   static ::UnityEngine::ProBuilder::ShapeType const Cone;
 
-  /// @brief Field Cube value: static_cast<int32_t>(0x0)
+  /// @brief Field Cube value: I32(0)
   static ::UnityEngine::ProBuilder::ShapeType const Cube;
 
-  /// @brief Field CurvedStair value: static_cast<int32_t>(0x2)
+  /// @brief Field CurvedStair value: I32(2)
   static ::UnityEngine::ProBuilder::ShapeType const CurvedStair;
 
-  /// @brief Field Cylinder value: static_cast<int32_t>(0x4)
+  /// @brief Field Cylinder value: I32(4)
   static ::UnityEngine::ProBuilder::ShapeType const Cylinder;
 
-  /// @brief Field Door value: static_cast<int32_t>(0x6)
+  /// @brief Field Door value: I32(6)
   static ::UnityEngine::ProBuilder::ShapeType const Door;
 
-  /// @brief Field Pipe value: static_cast<int32_t>(0x7)
+  /// @brief Field Pipe value: I32(7)
   static ::UnityEngine::ProBuilder::ShapeType const Pipe;
 
-  /// @brief Field Plane value: static_cast<int32_t>(0x5)
+  /// @brief Field Plane value: I32(5)
   static ::UnityEngine::ProBuilder::ShapeType const Plane;
 
-  /// @brief Field Prism value: static_cast<int32_t>(0x3)
+  /// @brief Field Prism value: I32(3)
   static ::UnityEngine::ProBuilder::ShapeType const Prism;
 
-  /// @brief Field Sphere value: static_cast<int32_t>(0xb)
+  /// @brief Field Sphere value: I32(11)
   static ::UnityEngine::ProBuilder::ShapeType const Sphere;
 
-  /// @brief Field Sprite value: static_cast<int32_t>(0x9)
+  /// @brief Field Sprite value: I32(9)
   static ::UnityEngine::ProBuilder::ShapeType const Sprite;
 
-  /// @brief Field Stair value: static_cast<int32_t>(0x1)
+  /// @brief Field Stair value: I32(1)
   static ::UnityEngine::ProBuilder::ShapeType const Stair;
 
-  /// @brief Field Torus value: static_cast<int32_t>(0xc)
+  /// @brief Field Torus value: I32(12)
   static ::UnityEngine::ProBuilder::ShapeType const Torus;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14310 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ShapeType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::ShapeType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ShapeType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ShapeType, "UnityEngine.ProBuilder", "ShapeType");

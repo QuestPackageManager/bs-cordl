@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::UnixNetworkInterface::*)(::StringW)>(
     &::System::Net::NetworkInformation::UnixNetworkInterface::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4388ea0;
+  constexpr static std::size_t addrs = 0x43ea1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::UnixNetworkInterface::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::UnixNetworkInterface::AddAddress)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4388de0;
+  constexpr static std::size_t addrs = 0x43ea0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::UnixNetworkInterface::*)(
     int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Net::NetworkInformation::NetworkInterfaceType)>(&::System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4388e84;
+  constexpr static std::size_t addrs = 0x43ea198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkInformation::UnixNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::UnixNetworkInterface::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x438c198;
+  constexpr static std::size_t addrs = 0x43ed4ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::NetworkInterfaceType (
     ::System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&::System::Net::NetworkInformation::UnixNetworkInterface::get_NetworkInterfaceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x438c1a0;
+  constexpr static std::size_t addrs = 0x43ed4b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,8 +90,7 @@ constexpr ::System::Net::NetworkInformation::IPInterfaceProperties*& System::Net
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ipproperties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkInformation::IPInterfaceProperties*> const&
-System::Net::NetworkInformation::UnixNetworkInterface::__cordl_internal_get_ipproperties() const {
+constexpr ::System::Net::NetworkInformation::IPInterfaceProperties* const& System::Net::NetworkInformation::UnixNetworkInterface::__cordl_internal_get_ipproperties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ipproperties;
 }
@@ -115,8 +114,7 @@ constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& Sy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::IPAddress*>*> const&
-System::Net::NetworkInformation::UnixNetworkInterface::__cordl_internal_get_addresses() const {
+constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* const& System::Net::NetworkInformation::UnixNetworkInterface::__cordl_internal_get_addresses() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
@@ -147,9 +145,6 @@ constexpr ::System::Net::NetworkInformation::NetworkInterfaceType const& System:
 constexpr void System::Net::NetworkInformation::UnixNetworkInterface::__cordl_internal_set_type(::System::Net::NetworkInformation::NetworkInterfaceType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
-}
-inline ::System::Net::NetworkInformation::UnixNetworkInterface* System::Net::NetworkInformation::UnixNetworkInterface::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::UnixNetworkInterface*>(name));
 }
 inline void System::Net::NetworkInformation::UnixNetworkInterface::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -183,6 +178,9 @@ inline ::System::Net::NetworkInformation::NetworkInterfaceType System::Net::Netw
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::UnixNetworkInterface*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::NetworkInterfaceType, false>(this, ___internal_method);
+}
+inline ::System::Net::NetworkInformation::UnixNetworkInterface* System::Net::NetworkInformation::UnixNetworkInterface::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::UnixNetworkInterface*>(name));
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixNetworkInterface::UnixNetworkInterface() {}

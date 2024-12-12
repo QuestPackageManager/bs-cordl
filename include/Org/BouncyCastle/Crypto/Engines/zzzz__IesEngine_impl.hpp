@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::Org::BouncyCastle::Crypto::IBasicAgreement*, ::Org::BouncyCastle::Crypto::IDerivationFunction*, ::Org::BouncyCastle::Crypto::IMac*)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x232aab8;
+  constexpr static std::size_t addrs = 0x235dda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::IBasicAgreement*, ::Org::BouncyCastle::Crypto::IDerivationFunction*, ::Org::BouncyCastle::Crypto::IMac*, ::Org::BouncyCastle::Crypto::BufferedBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x232abac;
+  constexpr static std::size_t addrs = 0x235de98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::IesEngine::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x232acac;
+  constexpr static std::size_t addrs = 0x235df98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::DecryptBlock)> {
   constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x232ad78;
+  constexpr static std::size_t addrs = 0x235e064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::EncryptBlock)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x232b56c;
+  constexpr static std::size_t addrs = 0x235e858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::Org::BouncyCastle::Crypto::Parameters::KdfParameters*, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x232b414;
+  constexpr static std::size_t addrs = 0x235e700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::IesEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::IesEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x232bb4c;
+  constexpr static std::size_t addrs = 0x235ee38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement*& Org::BouncyCastle::Cryp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___agree;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBasicAgreement*> const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_agree() const {
+constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_agree() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___agree;
 }
@@ -144,7 +144,7 @@ constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kdf;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDerivationFunction*> const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_kdf() const {
+constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_kdf() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kdf;
 }
@@ -156,7 +156,7 @@ constexpr ::Org::BouncyCastle::Crypto::IMac*& Org::BouncyCastle::Crypto::Engines
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_mac() const {
+constexpr ::Org::BouncyCastle::Crypto::IMac* const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_mac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
@@ -168,7 +168,7 @@ constexpr ::Org::BouncyCastle::Crypto::BufferedBlockCipher*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::BufferedBlockCipher*> const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_cipher() const {
+constexpr ::Org::BouncyCastle::Crypto::BufferedBlockCipher* const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_cipher() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
@@ -204,7 +204,7 @@ constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& Org::BouncyCastle::Cr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privParam;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherParameters*> const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_privParam() const {
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_privParam() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privParam;
 }
@@ -216,7 +216,7 @@ constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& Org::BouncyCastle::Cr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pubParam;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherParameters*> const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_pubParam() const {
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_pubParam() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pubParam;
 }
@@ -228,18 +228,13 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::IesParameters*& Org::BouncyCa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::IesParameters*> const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_param() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::IesParameters* const& Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_get_param() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::IesEngine::__cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::IesParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___param)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* Org::BouncyCastle::Crypto::Engines::IesEngine::New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree,
-                                                                                                                ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
-                                                                                                                ::Org::BouncyCastle::Crypto::IMac* mac) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::IesEngine*>(agree, kdf, mac));
 }
 inline void Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                  ::Org::BouncyCastle::Crypto::IMac* mac) {
@@ -249,12 +244,6 @@ inline void Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor(::Org::BouncyCa
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IDerivationFunction*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IMac*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, agree, kdf, mac);
-}
-inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* Org::BouncyCastle::Crypto::Engines::IesEngine::New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree,
-                                                                                                                ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
-                                                                                                                ::Org::BouncyCastle::Crypto::IMac* mac,
-                                                                                                                ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::IesEngine*>(agree, kdf, mac, cipher));
 }
 inline void Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                  ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher) {
@@ -301,6 +290,17 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::IesEngine*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, input, inOff, inLen);
+}
+inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* Org::BouncyCastle::Crypto::Engines::IesEngine::New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree,
+                                                                                                                ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
+                                                                                                                ::Org::BouncyCastle::Crypto::IMac* mac) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::IesEngine*>(agree, kdf, mac));
+}
+inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* Org::BouncyCastle::Crypto::Engines::IesEngine::New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree,
+                                                                                                                ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
+                                                                                                                ::Org::BouncyCastle::Crypto::IMac* mac,
+                                                                                                                ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::IesEngine*>(agree, kdf, mac, cipher));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::IesEngine::IesEngine() {}

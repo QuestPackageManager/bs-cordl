@@ -12,15 +12,14 @@ struct NetworkStatisticsDelta;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::NetworkStatisticsDelta);
-// Type: ::NetworkStatisticsDelta
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::NetworkStatisticsDelta
+// CS Name: NetworkStatisticsDelta
 struct CORDL_TYPE NetworkStatisticsDelta {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22a7cf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dafe4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta, int64_t packetsSentEncryptedDelta,
                     int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta, int64_t packetsReceivedPlaintextDelta,
                     int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta);
@@ -39,6 +38,12 @@ public:
   constexpr NetworkStatisticsDelta(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta,
                                    int64_t packetsSentEncryptedDelta, int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta,
                                    int64_t packetsReceivedPlaintextDelta, int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14906 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
 
   /// @brief Field packetsSentDelta, offset: 0x0, size: 0x8, def value: None
   int64_t packetsSentDelta;
@@ -79,17 +84,9 @@ public:
   /// @brief Field decryptionProcessingTimeDelta, offset: 0x60, size: 0x8, def value: None
   int64_t decryptionProcessingTimeDelta;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14872 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkStatisticsDelta, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsSentDelta) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsReceivedDelta) == 0x8, "Offset mismatch!");
@@ -115,6 +112,8 @@ static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsReceive
 static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, encryptionProcessingTimeDelta) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, decryptionProcessingTimeDelta) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkStatisticsDelta, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkStatisticsDelta, "", "NetworkStatisticsDelta");

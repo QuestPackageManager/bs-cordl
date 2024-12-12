@@ -11,17 +11,16 @@ class SafeAreaFocusedSimpleDialogPromptViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController);
-// Type: ::SafeAreaFocusedSimpleDialogPromptViewController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SimpleDialogPromptViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SafeAreaFocusedSimpleDialogPromptViewController*
+// CS Name: SafeAreaFocusedSimpleDialogPromptViewController
 class CORDL_TYPE SafeAreaFocusedSimpleDialogPromptViewController : public ::GlobalNamespace::SimpleDialogPromptViewController {
 public:
   // Declarations
   static inline ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bbd168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af5094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   SafeAreaFocusedSimpleDialogPromptViewController(SafeAreaFocusedSimpleDialogPromptViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,13 +4,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "OVR/OpenVR/zzzz__VRControllerAxis_t_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRControllerState_t_Packed)
-namespace OVR::OpenVR {
-struct VRControllerAxis_t;
-}
 namespace OVR::OpenVR {
 struct VRControllerState_t;
 }
@@ -20,19 +16,18 @@ struct VRControllerState_t_Packed;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VRControllerState_t_Packed);
-// Type: OVR.OpenVR::VRControllerState_t_Packed
-// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, packing: Some(4), specified_packing: Some(4) }
+// Dependencies OVR.OpenVR.VRControllerAxis_t
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::VRControllerState_t_Packed
+// CS Name: OVR.OpenVR.VRControllerState_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x40104bc, size 0x3c, virtual false, abstract: false, final false
-  inline void Unpack(ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
+  /// @brief Method Unpack, addr 0x4070568, size 0x3c, virtual false, abstract: false, final false
+  inline void Unpack(::ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x4010478, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4070524, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
 
   // Ctor Parameters []
@@ -45,6 +40,12 @@ public:
   // { name: "rAxis3", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis4", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }]
   constexpr VRControllerState_t_Packed(uint32_t unPacketNum, uint64_t ulButtonPressed, uint64_t ulButtonTouched, ::OVR::OpenVR::VRControllerAxis_t rAxis0, ::OVR::OpenVR::VRControllerAxis_t rAxis1,
                                        ::OVR::OpenVR::VRControllerAxis_t rAxis2, ::OVR::OpenVR::VRControllerAxis_t rAxis3, ::OVR::OpenVR::VRControllerAxis_t rAxis4) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9010 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
 
   /// @brief Field unPacketNum, offset: 0x0, size: 0x4, def value: None
   uint32_t unPacketNum;
@@ -70,18 +71,10 @@ public:
   /// @brief Field rAxis4, offset: 0x34, size: 0x8, def value: None
   ::OVR::OpenVR::VRControllerAxis_t rAxis4;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8985 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRControllerState_t_Packed, 0x3c>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, unPacketNum) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, ulButtonPressed) == 0x4, "Offset mismatch!");
@@ -97,6 +90,8 @@ static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis2) == 0x2
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis3) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis4) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRControllerState_t_Packed, 0x3c>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");

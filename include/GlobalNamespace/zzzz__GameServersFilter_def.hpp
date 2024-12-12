@@ -14,11 +14,10 @@ class GameServersFilter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServersFilter);
-// Type: ::GameServersFilter
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficultyMask, GameplayModifierMask, SongPackMask, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameServersFilter*
+// CS Name: GameServersFilter
 class CORDL_TYPE GameServersFilter : public ::System::Object {
 public:
   // Declarations
@@ -105,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_showProtected(bool value);
 
-  /// @brief Method .ctor, addr 0x3ba6e20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c097ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,6 +120,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameServersFilter(GameServersFilter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4832 };
 
   /// @brief Field filterByDifficulty, offset: 0x10, size: 0x1, def value: None
   bool ___filterByDifficulty;
@@ -149,14 +151,9 @@ public:
   /// @brief Field showInternetGames, offset: 0x3a, size: 0x1, def value: None
   bool ___showInternetGames;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4815 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServersFilter, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filterByDifficulty) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filteredDifficulty) == 0x11, "Offset mismatch!");
@@ -174,6 +171,8 @@ static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___showFull) == 0x3
 static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___showProtected) == 0x39, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___showInternetGames) == 0x3a, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServersFilter, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServersFilter);

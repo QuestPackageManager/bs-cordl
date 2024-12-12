@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23983a8;
+  constexpr static std::size_t addrs = 0x23cb694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, bool)>(&::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2398404;
+  constexpr static std::size_t addrs = 0x23cb6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(
     ::Org::BouncyCastle::Crypto::IEntropySourceProvider*)>(&::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2398488;
+  constexpr static std::size_t addrs = 0x23cb774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* (
     ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::SetDateTimeVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23984b0;
+  constexpr static std::size_t addrs = 0x23cb79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::Build)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x23984b8;
+  constexpr static std::size_t addrs = 0x23cb7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRandom;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::__cordl_internal_get_mRandom() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::__cordl_internal_get_mRandom() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRandom;
 }
@@ -102,8 +102,7 @@ constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEntropySourceProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySourceProvider*> const&
-Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::__cordl_internal_get_mEntropySourceProvider() const {
+constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider* const& Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::__cordl_internal_get_mEntropySourceProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEntropySourceProvider;
 }
@@ -123,17 +122,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mDateTimeVector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*>());
-}
 inline void Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::New_ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource,
-                                                                                                                                      bool predictionResistant) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*>(entropySource, predictionResistant));
 }
 inline void Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,10 +133,6 @@ inline void Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor(::Or
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entropySource, predictionResistant);
-}
-inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*
-Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*>(entropySourceProvider));
 }
 inline void Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,6 +155,17 @@ inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* Org::BouncyCastle::C
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*, false>(this, ___internal_method, engine, key, predictionResistant);
+}
+inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*>());
+}
+inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::New_ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource,
+                                                                                                                                      bool predictionResistant) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*>(entropySource, predictionResistant));
+}
+inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*
+Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder*>(entropySourceProvider));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::X931SecureRandomBuilder() {}

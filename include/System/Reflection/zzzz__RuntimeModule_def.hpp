@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__Module_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeModule)
@@ -39,11 +38,10 @@ class RuntimeModule;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::RuntimeModule);
-// Type: System.Reflection::RuntimeModule
-// SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Reflection.Module
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::RuntimeModule*
+// CS Name: System.Reflection.RuntimeModule
 class CORDL_TYPE RuntimeModule : public ::System::Reflection::Module {
 public:
   // Declarations
@@ -74,28 +72,28 @@ public:
   /// @brief Field token, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token)) int32_t token;
 
-  /// @brief Method GetCustomAttributes, addr 0x3cd1418, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3d3158c, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x3cd13b0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3d31524, size 0x68, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetGuidInternal, addr 0x3cd1684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetGuidInternal, addr 0x3d317f8, size 0x4, virtual false, abstract: false, final false
   static inline void GetGuidInternal(::System::IntPtr _cordl_module, ::ArrayW<uint8_t, ::Array<uint8_t>*> guid);
 
-  /// @brief Method GetModuleVersionId, addr 0x3cd1604, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetModuleVersionId, addr 0x3d31778, size 0x80, virtual true, abstract: false, final false
   inline ::System::Guid GetModuleVersionId();
 
-  /// @brief Method GetObjectData, addr 0x3cd14f8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d3166c, size 0x94, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRuntimeAssembly, addr 0x3cd158c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeAssembly, addr 0x3d31700, size 0x78, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeAssembly* GetRuntimeAssembly();
 
-  /// @brief Method IsDefined, addr 0x3cd1488, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x3d315fc, size 0x70, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method IsResource, addr 0x3cd13a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsResource, addr 0x3d3151c, size 0x8, virtual true, abstract: false, final false
   inline bool IsResource();
 
   static inline ::System::Reflection::RuntimeModule* New_ctor();
@@ -104,9 +102,9 @@ public:
 
   constexpr ::System::IntPtr& __cordl_internal_get__impl();
 
-  constexpr ::System::Reflection::Assembly*& __cordl_internal_get_assembly();
+  constexpr ::System::Reflection::Assembly* const& __cordl_internal_get_assembly() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_assembly() const;
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get_assembly();
 
   constexpr ::StringW const& __cordl_internal_get_fqname() const;
 
@@ -142,16 +140,16 @@ public:
 
   constexpr void __cordl_internal_set_token(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3cd1688, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d317fc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Assembly, addr 0x3cd1388, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Assembly, addr 0x3d314fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_Assembly();
 
-  /// @brief Method get_ModuleVersionId, addr 0x3cd1398, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ModuleVersionId, addr 0x3d3150c, size 0x10, virtual true, abstract: false, final false
   inline ::System::Guid get_ModuleVersionId();
 
-  /// @brief Method get_ScopeName, addr 0x3cd1390, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ScopeName, addr 0x3d31504, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ScopeName();
 
 protected:
@@ -167,6 +165,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeModule", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeModule(RuntimeModule const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3528 };
 
   /// @brief Field _impl, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ____impl;
@@ -189,14 +190,9 @@ public:
   /// @brief Field token, offset: 0x3c, size: 0x4, def value: None
   int32_t ___token;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3528 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::RuntimeModule, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::RuntimeModule, ____impl) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::RuntimeModule, ___assembly) == 0x18, "Offset mismatch!");
@@ -210,6 +206,8 @@ static_assert(offsetof(::System::Reflection::RuntimeModule, ___scopename) == 0x3
 static_assert(offsetof(::System::Reflection::RuntimeModule, ___is_resource) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::RuntimeModule, ___token) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::RuntimeModule, 0x40>, "Size mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::RuntimeModule);

@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueAnimation_1)
@@ -20,10 +21,7 @@ namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace UnityEngine::UIElements::Experimental {
-class IValueAnimationUpdate;
-}
-namespace UnityEngine::UIElements::Experimental {
-template <typename T> class __ValueAnimation_1____c;
+template <typename T> class ValueAnimation_1___c;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
@@ -36,25 +34,24 @@ namespace UnityEngine::UIElements::Experimental {
 template <typename T> class ValueAnimation_1;
 }
 namespace UnityEngine::UIElements::Experimental {
-template <typename T> class __ValueAnimation_1____c;
+template <typename T> class ValueAnimation_1___c;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::Experimental::ValueAnimation_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::Experimental::ValueAnimation_1___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements::Experimental {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::ValueAnimation`1::<>c<T>*
-class CORDL_TYPE __ValueAnimation_1____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.Experimental.ValueAnimation`1/<>c<T>
+class CORDL_TYPE ValueAnimation_1___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>* __9;
 
-  static inline ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* New_ctor();
+  static inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>* New_ctor();
 
   /// @brief Method <.cctor>b__67_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>* __cctor_b__67_0();
@@ -62,42 +59,41 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* getStaticF___9();
+  static inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ValueAnimation_1____c();
+  constexpr ValueAnimation_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ValueAnimation_1____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ValueAnimation_1____c(__ValueAnimation_1____c&&) = delete;
+  ValueAnimation_1___c(ValueAnimation_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ValueAnimation_1____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ValueAnimation_1____c(__ValueAnimation_1____c const&) = delete;
+  ValueAnimation_1___c(ValueAnimation_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::Experimental
-// Type: UnityEngine.UIElements.Experimental::ValueAnimation`1
-// SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.Experimental.IValueAnimationUpdate
 namespace UnityEngine::UIElements::Experimental {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.Experimental::ValueAnimation`1<T>*
+// CS Name: UnityEngine.UIElements.Experimental.ValueAnimation`1<T>
 class CORDL_TYPE ValueAnimation_1 : public ::System::Object {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>;
+  using __c = ::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>;
 
   /// @brief Field <autoRecycle>k__BackingField, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__autoRecycle_k__BackingField, put = __cordl_internal_set__autoRecycle_k__BackingField)) bool _autoRecycle_k__BackingField;
@@ -167,8 +163,7 @@ public:
   __declspec(property(get = get_recycled, put = set_recycled)) bool recycled;
 
   /// @brief Field sObjectPool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_sObjectPool,
-                             put = setStaticF_sObjectPool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>* sObjectPool;
+  __declspec(property(get = getStaticF_sObjectPool, put = setStaticF_sObjectPool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>* sObjectPool;
 
   __declspec(property(get = get_to, put = set_to)) T to;
 
@@ -216,33 +211,33 @@ public:
 
   constexpr bool& __cordl_internal_get__autoRecycle_k__BackingField();
 
-  constexpr ::System::Func_2<float_t, float_t>*& __cordl_internal_get__easingCurve_k__BackingField();
+  constexpr ::System::Func_2<float_t, float_t>* const& __cordl_internal_get__easingCurve_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, float_t>*> const& __cordl_internal_get__easingCurve_k__BackingField() const;
+  constexpr ::System::Func_2<float_t, float_t>*& __cordl_internal_get__easingCurve_k__BackingField();
 
   constexpr T const& __cordl_internal_get__from() const;
 
   constexpr T& __cordl_internal_get__from();
 
+  constexpr ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* const& __cordl_internal_get__initialValue_k__BackingField() const;
+
   constexpr ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*& __cordl_internal_get__initialValue_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*> const& __cordl_internal_get__initialValue_k__BackingField() const;
+  constexpr ::System::Func_4<T, T, float_t, T>* const& __cordl_internal_get__interpolator_k__BackingField() const;
 
   constexpr ::System::Func_4<T, T, float_t, T>*& __cordl_internal_get__interpolator_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_4<T, T, float_t, T>*> const& __cordl_internal_get__interpolator_k__BackingField() const;
 
   constexpr bool const& __cordl_internal_get__isRunning_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__isRunning_k__BackingField();
 
+  constexpr ::System::Action* const& __cordl_internal_get__onAnimationCompleted_k__BackingField() const;
+
   constexpr ::System::Action*& __cordl_internal_get__onAnimationCompleted_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__onAnimationCompleted_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__owner_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__owner_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__owner_k__BackingField() const;
 
   constexpr bool const& __cordl_internal_get__recycled_k__BackingField() const;
 
@@ -252,9 +247,9 @@ public:
 
   constexpr T& __cordl_internal_get__to_k__BackingField();
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*& __cordl_internal_get__valueUpdated_k__BackingField();
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* const& __cordl_internal_get__valueUpdated_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*> const& __cordl_internal_get__valueUpdated_k__BackingField() const;
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*& __cordl_internal_get__valueUpdated_k__BackingField();
 
   constexpr bool const& __cordl_internal_get_fromValueSet() const;
 
@@ -392,6 +387,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValueAnimation_1(ValueAnimation_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6493 };
+
   /// @brief Field m_StartTimeMs, offset: 0x10, size: 0x8, def value: None
   int64_t ___m_StartTimeMs;
 
@@ -434,12 +432,9 @@ public:
   /// @brief Field <to>k__BackingField, offset: 0x70, size: 0x8, def value: None
   T ____to_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6468 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::Experimental
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::Experimental::ValueAnimation_1, "UnityEngine.UIElements.Experimental", "ValueAnimation`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c, "UnityEngine.UIElements.Experimental", "ValueAnimation`1/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::Experimental::ValueAnimation_1___c, "UnityEngine.UIElements.Experimental", "ValueAnimation`1/<>c");

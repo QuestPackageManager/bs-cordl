@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteTrailParticleSystem::*)()>(&::GlobalNamespace::NoteTrailParticleSystem::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b200cc;
+  constexpr static std::size_t addrs = 0x3b81278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteTrailParticleSystem*>::get(), "Awake",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteTrailParticleSystem::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t)>(
     &::GlobalNamespace::NoteTrailParticleSystem::Emit)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3b200dc;
+  constexpr static std::size_t addrs = 0x3b81288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteTrailParticleSystem::*)()>(&::GlobalNamespace::NoteTrailParticleSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b201ec;
+  constexpr static std::size_t addrs = 0x3b81398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteTrailParticleSystem*>::get(), ".ctor",
@@ -60,15 +60,15 @@ constexpr void GlobalNamespace::NoteTrailParticleSystem::__cordl_internal_set__p
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::NoteTrailParticleSystem::__cordl_internal_get__emitParams() {
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::NoteTrailParticleSystem::__cordl_internal_get__emitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::NoteTrailParticleSystem::__cordl_internal_get__emitParams() const {
+constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::NoteTrailParticleSystem::__cordl_internal_get__emitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
-constexpr void GlobalNamespace::NoteTrailParticleSystem::__cordl_internal_set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
+constexpr void GlobalNamespace::NoteTrailParticleSystem::__cordl_internal_set__emitParams(::UnityEngine::ParticleSystem_EmitParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emitParams = value;
 }
@@ -85,13 +85,13 @@ inline void GlobalNamespace::NoteTrailParticleSystem::Emit(::UnityEngine::Vector
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, startPos, endPos, count);
 }
-inline ::GlobalNamespace::NoteTrailParticleSystem* GlobalNamespace::NoteTrailParticleSystem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteTrailParticleSystem*>());
-}
 inline void GlobalNamespace::NoteTrailParticleSystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteTrailParticleSystem*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoteTrailParticleSystem* GlobalNamespace::NoteTrailParticleSystem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteTrailParticleSystem*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteTrailParticleSystem::NoteTrailParticleSystem() {}

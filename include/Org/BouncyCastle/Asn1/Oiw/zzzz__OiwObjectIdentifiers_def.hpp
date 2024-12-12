@@ -14,53 +14,52 @@ class OiwObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.Oiw::OiwObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Oiw {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Oiw::OiwObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.Oiw.OiwObjectIdentifiers
 class CORDL_TYPE OiwObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DesCbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DesCbc, put = setStaticF_DesCbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesCbc;
+  __declspec(property(get = getStaticF_DesCbc, put = setStaticF_DesCbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesCbc;
 
   /// @brief Field DesCfb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DesCfb, put = setStaticF_DesCfb)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesCfb;
+  __declspec(property(get = getStaticF_DesCfb, put = setStaticF_DesCfb)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesCfb;
 
   /// @brief Field DesEcb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DesEcb, put = setStaticF_DesEcb)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesEcb;
+  __declspec(property(get = getStaticF_DesEcb, put = setStaticF_DesEcb)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesEcb;
 
   /// @brief Field DesEde, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DesEde, put = setStaticF_DesEde)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesEde;
+  __declspec(property(get = getStaticF_DesEde, put = setStaticF_DesEde)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesEde;
 
   /// @brief Field DesOfb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DesOfb, put = setStaticF_DesOfb)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesOfb;
+  __declspec(property(get = getStaticF_DesOfb, put = setStaticF_DesOfb)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesOfb;
 
   /// @brief Field DsaWithSha1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DsaWithSha1, put = setStaticF_DsaWithSha1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DsaWithSha1;
+  __declspec(property(get = getStaticF_DsaWithSha1, put = setStaticF_DsaWithSha1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DsaWithSha1;
 
   /// @brief Field ElGamalAlgorithm, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ElGamalAlgorithm, put = setStaticF_ElGamalAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ElGamalAlgorithm;
+  __declspec(property(get = getStaticF_ElGamalAlgorithm, put = setStaticF_ElGamalAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ElGamalAlgorithm;
 
   /// @brief Field IdSha1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSha1, put = setStaticF_IdSha1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSha1;
+  __declspec(property(get = getStaticF_IdSha1, put = setStaticF_IdSha1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSha1;
 
   /// @brief Field MD4WithRsa, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MD4WithRsa, put = setStaticF_MD4WithRsa)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MD4WithRsa;
+  __declspec(property(get = getStaticF_MD4WithRsa, put = setStaticF_MD4WithRsa)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MD4WithRsa;
 
   /// @brief Field MD4WithRsaEncryption, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MD4WithRsaEncryption, put = setStaticF_MD4WithRsaEncryption)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MD4WithRsaEncryption;
+  __declspec(property(get = getStaticF_MD4WithRsaEncryption, put = setStaticF_MD4WithRsaEncryption)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MD4WithRsaEncryption;
 
   /// @brief Field MD5WithRsa, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MD5WithRsa, put = setStaticF_MD5WithRsa)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MD5WithRsa;
+  __declspec(property(get = getStaticF_MD5WithRsa, put = setStaticF_MD5WithRsa)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MD5WithRsa;
 
   /// @brief Field Sha1WithRsa, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sha1WithRsa, put = setStaticF_Sha1WithRsa)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Sha1WithRsa;
+  __declspec(property(get = getStaticF_Sha1WithRsa, put = setStaticF_Sha1WithRsa)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Sha1WithRsa;
 
   static inline ::Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d5af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2408de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_DesCbc();

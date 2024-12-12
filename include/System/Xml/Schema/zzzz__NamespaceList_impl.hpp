@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/Schema/NamespaceList.hpp"
-#include "System/Xml/Schema/zzzz__NamespaceList_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -8,20 +7,20 @@
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::Schema::__NamespaceList__ListType::__NamespaceList__ListType(int32_t value__) noexcept {
+constexpr ::System::Xml::Schema::NamespaceList_ListType::NamespaceList_ListType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__NamespaceList__ListType::__NamespaceList__ListType() {}
-constexpr ::System::Xml::Schema::__NamespaceList__ListType System::Xml::Schema::__NamespaceList__ListType::Any{ static_cast<int32_t>(0x0) };
-constexpr ::System::Xml::Schema::__NamespaceList__ListType System::Xml::Schema::__NamespaceList__ListType::Other{ static_cast<int32_t>(0x1) };
-constexpr ::System::Xml::Schema::__NamespaceList__ListType System::Xml::Schema::__NamespaceList__ListType::Set{ static_cast<int32_t>(0x2) };
+constexpr ::System::Xml::Schema::NamespaceList_ListType::NamespaceList_ListType() {}
+constexpr ::System::Xml::Schema::NamespaceList_ListType System::Xml::Schema::NamespaceList_ListType::Any{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::Schema::NamespaceList_ListType System::Xml::Schema::NamespaceList_ListType::Other{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::Schema::NamespaceList_ListType System::Xml::Schema::NamespaceList_ListType::Set{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::System::Xml::Schema::NamespaceList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceList::*)()>(&::System::Xml::Schema::NamespaceList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4209040;
+  constexpr static std::size_t addrs = 0x426a354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), ".ctor",
@@ -34,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceList::*)(::StringW, ::StringW)>(&::System::Xml::Schema::NamespaceList::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x4209048;
+  constexpr static std::size_t addrs = 0x426a35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::NamespaceList* (::System::Xml::Schema::NamespaceList::*)()>(
     &::System::Xml::Schema::NamespaceList::Clone)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x42092e4;
+  constexpr static std::size_t addrs = 0x426a5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), "Clone",
@@ -60,10 +59,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::NamespaceList.get_Type
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::__NamespaceList__ListType (::System::Xml::Schema::NamespaceList::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::NamespaceList_ListType (::System::Xml::Schema::NamespaceList::*)()>(
     &::System::Xml::Schema::NamespaceList::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x420940c;
+  constexpr static std::size_t addrs = 0x426a720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), "get_Type",
@@ -76,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::NamespaceList::*)()>(&::System::Xml::Schema::NamespaceList::get_Excluded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4209414;
+  constexpr static std::size_t addrs = 0x426a728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), "get_Excluded",
@@ -90,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Xml::Schema::NamespaceList::*)()>(
     &::System::Xml::Schema::NamespaceList::get_Enumerate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x420941c;
+  constexpr static std::size_t addrs = 0x426a730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), "get_Enumerate",
@@ -103,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::NamespaceList::*)(::StringW)>(&::System::Xml::Schema::NamespaceList::Allows)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4209480;
+  constexpr static std::size_t addrs = 0x426a794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::NamespaceList::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::NamespaceList::Allows)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4209504;
+  constexpr static std::size_t addrs = 0x426a818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::NamespaceList::*)()>(&::System::Xml::Schema::NamespaceList::ToString)> {
   constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x4209524;
+  constexpr static std::size_t addrs = 0x426a838;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::Schema::NamespaceList*, ::System::Xml::Schema::NamespaceList*)>(
     &::System::Xml::Schema::NamespaceList::IsSubset)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x4209a2c;
+  constexpr static std::size_t addrs = 0x426ad40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::NamespaceList* (*)(::System::Xml::Schema::NamespaceList*, ::System::Xml::Schema::NamespaceList*, bool)>(&::System::Xml::Schema::NamespaceList::Union)> {
   constexpr static std::size_t size = 0x598;
-  constexpr static std::size_t addrs = 0x4209e10;
+  constexpr static std::size_t addrs = 0x426b124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::NamespaceList* (::System::Xml::Schema::NamespaceList::*)(::System::Xml::Schema::NamespaceList*)>(&::System::Xml::Schema::NamespaceList::CompareSetToOther)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x420a3a8;
+  constexpr static std::size_t addrs = 0x426b6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::NamespaceList* (*)(::System::Xml::Schema::NamespaceList*, ::System::Xml::Schema::NamespaceList*, bool)>(&::System::Xml::Schema::NamespaceList::Intersection)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x420a4d4;
+  constexpr static std::size_t addrs = 0x426b7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceList::*)(::StringW)>(&::System::Xml::Schema::NamespaceList::RemoveNamespace)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x420aa1c;
+  constexpr static std::size_t addrs = 0x426bd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,15 +219,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::__NamespaceList__ListType& System::Xml::Schema::NamespaceList::__cordl_internal_get_type() {
+constexpr ::System::Xml::Schema::NamespaceList_ListType& System::Xml::Schema::NamespaceList::__cordl_internal_get_type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::System::Xml::Schema::__NamespaceList__ListType const& System::Xml::Schema::NamespaceList::__cordl_internal_get_type() const {
+constexpr ::System::Xml::Schema::NamespaceList_ListType const& System::Xml::Schema::NamespaceList::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr void System::Xml::Schema::NamespaceList::__cordl_internal_set_type(::System::Xml::Schema::__NamespaceList__ListType value) {
+constexpr void System::Xml::Schema::NamespaceList::__cordl_internal_set_type(::System::Xml::Schema::NamespaceList_ListType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
@@ -236,7 +235,7 @@ constexpr ::System::Collections::Hashtable*& System::Xml::Schema::NamespaceList:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___set;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Schema::NamespaceList::__cordl_internal_get_set() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::NamespaceList::__cordl_internal_get_set() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___set;
 }
@@ -256,16 +255,10 @@ constexpr void System::Xml::Schema::NamespaceList::__cordl_internal_set_targetNa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targetNamespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::NamespaceList* System::Xml::Schema::NamespaceList::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceList*>());
-}
 inline void System::Xml::Schema::NamespaceList::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Xml::Schema::NamespaceList* System::Xml::Schema::NamespaceList::New_ctor(::StringW namespaces, ::StringW targetNamespace) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceList*>(namespaces, targetNamespace));
 }
 inline void System::Xml::Schema::NamespaceList::_ctor(::StringW namespaces, ::StringW targetNamespace) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,10 +271,10 @@ inline ::System::Xml::Schema::NamespaceList* System::Xml::Schema::NamespaceList:
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::NamespaceList*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::__NamespaceList__ListType System::Xml::Schema::NamespaceList::get_Type() {
+inline ::System::Xml::Schema::NamespaceList_ListType System::Xml::Schema::NamespaceList::get_Type() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), "get_Type",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::__NamespaceList__ListType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::NamespaceList_ListType, false>(this, ___internal_method);
 }
 inline ::StringW System::Xml::Schema::NamespaceList::get_Excluded() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), "get_Excluded",
@@ -343,6 +336,12 @@ inline void System::Xml::Schema::NamespaceList::RemoveNamespace(::StringW tns) {
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceList*>::get(), "RemoveNamespace", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tns);
+}
+inline ::System::Xml::Schema::NamespaceList* System::Xml::Schema::NamespaceList::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceList*>());
+}
+inline ::System::Xml::Schema::NamespaceList* System::Xml::Schema::NamespaceList::New_ctor(::StringW namespaces, ::StringW targetNamespace) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceList*>(namespaces, targetNamespace));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::NamespaceList::NamespaceList() {}

@@ -3,9 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExecutionContext)
@@ -19,13 +19,10 @@ namespace System::Runtime::Remoting::Messaging {
 class IllogicalCallContext;
 }
 namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
+struct LogicalCallContext_Reader;
 }
 namespace System::Runtime::Remoting::Messaging {
-struct __LogicalCallContext__Reader;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class LogicalCallContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -40,6 +37,15 @@ namespace System::Threading {
 struct ExecutionContextSwitcher;
 }
 namespace System::Threading {
+struct ExecutionContext_CaptureOptions;
+}
+namespace System::Threading {
+struct ExecutionContext_Flags;
+}
+namespace System::Threading {
+struct ExecutionContext_Reader;
+}
+namespace System::Threading {
 class IAsyncLocal;
 }
 namespace System::Threading {
@@ -51,51 +57,38 @@ class SynchronizationContext;
 namespace System::Threading {
 class Thread;
 }
-namespace System::Threading {
-struct __ExecutionContext__CaptureOptions;
-}
-namespace System::Threading {
-struct __ExecutionContext__Flags;
-}
-namespace System::Threading {
-struct __ExecutionContext__Reader;
-}
-namespace System {
-class IDisposable;
-}
 namespace System {
 class Object;
 }
 // Forward declare root types
 namespace System::Threading {
-struct __ExecutionContext__CaptureOptions;
+struct ExecutionContext_CaptureOptions;
 }
 namespace System::Threading {
-struct __ExecutionContext__Flags;
+struct ExecutionContext_Flags;
 }
 namespace System::Threading {
 class ExecutionContext;
 }
 namespace System::Threading {
-struct __ExecutionContext__Reader;
+struct ExecutionContext_Reader;
 }
 // Write type traits
-MARK_VAL_T(::System::Threading::__ExecutionContext__CaptureOptions);
-MARK_VAL_T(::System::Threading::__ExecutionContext__Flags);
+MARK_VAL_T(::System::Threading::ExecutionContext_CaptureOptions);
+MARK_VAL_T(::System::Threading::ExecutionContext_Flags);
 MARK_REF_PTR_T(::System::Threading::ExecutionContext);
-MARK_VAL_T(::System::Threading::__ExecutionContext__Reader);
-// Type: ::Flags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::System::Threading::ExecutionContext_Reader);
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::ExecutionContext::Flags
-struct CORDL_TYPE __ExecutionContext__Flags {
+// CS Name: System.Threading.ExecutionContext/Flags
+struct CORDL_TYPE ExecutionContext_Flags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ExecutionContext__Flags_Unwrapped
-  enum struct ____ExecutionContext__Flags_Unwrapped : int32_t {
+  /// @brief Nested struct __ExecutionContext_Flags_Unwrapped
+  enum struct __ExecutionContext_Flags_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_IsNewCapture = static_cast<int32_t>(0x1),
     __E_IsFlowSuppressed = static_cast<int32_t>(0x2),
@@ -103,8 +96,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ExecutionContext__Flags_Unwrapped() const noexcept {
-    return static_cast<____ExecutionContext__Flags_Unwrapped>(this->value__);
+  constexpr operator __ExecutionContext_Flags_Unwrapped() const noexcept {
+    return static_cast<__ExecutionContext_Flags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -114,25 +107,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExecutionContext__Flags();
+  constexpr ExecutionContext_Flags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ExecutionContext__Flags(int32_t value__) noexcept;
+  constexpr ExecutionContext_Flags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field IsFlowSuppressed value: I32(2)
+  static ::System::Threading::ExecutionContext_Flags const IsFlowSuppressed;
 
-  /// @brief Field IsFlowSuppressed value: static_cast<int32_t>(0x2)
-  static ::System::Threading::__ExecutionContext__Flags const IsFlowSuppressed;
+  /// @brief Field IsNewCapture value: I32(1)
+  static ::System::Threading::ExecutionContext_Flags const IsNewCapture;
 
-  /// @brief Field IsNewCapture value: static_cast<int32_t>(0x1)
-  static ::System::Threading::__ExecutionContext__Flags const IsNewCapture;
+  /// @brief Field IsPreAllocatedDefault value: I32(4)
+  static ::System::Threading::ExecutionContext_Flags const IsPreAllocatedDefault;
 
-  /// @brief Field IsPreAllocatedDefault value: static_cast<int32_t>(0x4)
-  static ::System::Threading::__ExecutionContext__Flags const IsPreAllocatedDefault;
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Threading::__ExecutionContext__Flags const None;
+  /// @brief Field None value: I32(0)
+  static ::System::Threading::ExecutionContext_Flags const None;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2714 };
@@ -140,68 +130,67 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::__ExecutionContext__Flags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Threading::ExecutionContext_Flags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__ExecutionContext__Flags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::ExecutionContext_Flags, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading
-// Type: ::Reader
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::ExecutionContext::Reader
-struct CORDL_TYPE __ExecutionContext__Reader {
+// CS Name: System.Threading.ExecutionContext/Reader
+struct CORDL_TYPE ExecutionContext_Reader {
 public:
   // Declarations
   __declspec(property(get = get_IsFlowSuppressed)) bool IsFlowSuppressed;
 
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  __declspec(property(get = get_LogicalCallContext)) ::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader LogicalCallContext;
+  __declspec(property(get = get_LogicalCallContext)) ::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader LogicalCallContext;
 
   __declspec(property(get = get_SynchronizationContext)) ::System::Threading::SynchronizationContext* SynchronizationContext;
 
   __declspec(property(get = get_SynchronizationContextNoFlow)) ::System::Threading::SynchronizationContext* SynchronizationContextNoFlow;
 
-  /// @brief Method DangerousGetRawExecutionContext, addr 0x3df4888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousGetRawExecutionContext, addr 0x3e54934, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
 
-  /// @brief Method HasSameLocalValues, addr 0x3df3ee0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasSameLocalValues, addr 0x3e53f8c, size 0x28, virtual false, abstract: false, final false
   inline bool HasSameLocalValues(::System::Threading::ExecutionContext* other);
 
-  /// @brief Method IsDefaultFTContext, addr 0x3df3e74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsDefaultFTContext, addr 0x3e53f20, size 0x1c, virtual false, abstract: false, final false
   inline bool IsDefaultFTContext(bool ignoreSyncCtx);
 
-  /// @brief Method .ctor, addr 0x3df4880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5492c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ExecutionContext* ec);
 
-  /// @brief Method get_IsFlowSuppressed, addr 0x3df4890, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsFlowSuppressed, addr 0x3e5493c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsFlowSuppressed();
 
-  /// @brief Method get_IsNull, addr 0x3df3e64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x3e53f10, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_LogicalCallContext, addr 0x3df45d8, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader get_LogicalCallContext();
+  /// @brief Method get_LogicalCallContext, addr 0x3e54684, size 0x18, virtual false, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader get_LogicalCallContext();
 
-  /// @brief Method get_SynchronizationContext, addr 0x3df4150, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContext, addr 0x3e541fc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContext();
 
-  /// @brief Method get_SynchronizationContextNoFlow, addr 0x3df4168, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContextNoFlow, addr 0x3e54214, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExecutionContext__Reader();
+  constexpr ExecutionContext_Reader();
 
   // Ctor Parameters [CppParam { name: "m_ec", ty: "::System::Threading::ExecutionContext*", modifiers: "", def_value: None }]
-  constexpr __ExecutionContext__Reader(::System::Threading::ExecutionContext* m_ec) noexcept;
-
-  /// @brief Field m_ec, offset: 0x0, size: 0x8, def value: None
-  ::System::Threading::ExecutionContext* m_ec;
+  constexpr ExecutionContext_Reader(::System::Threading::ExecutionContext* m_ec) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2715 };
@@ -209,34 +198,36 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field m_ec, offset: 0x0, size: 0x8, def value: None
+  ::System::Threading::ExecutionContext* m_ec;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::__ExecutionContext__Reader, 0x8>, "Size mismatch!");
+static_assert(offsetof(::System::Threading::ExecutionContext_Reader, m_ec) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__ExecutionContext__Reader, m_ec) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::ExecutionContext_Reader, 0x8>, "Size mismatch!");
 
 } // namespace System::Threading
-// Type: ::CaptureOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::ExecutionContext::CaptureOptions
-struct CORDL_TYPE __ExecutionContext__CaptureOptions {
+// CS Name: System.Threading.ExecutionContext/CaptureOptions
+struct CORDL_TYPE ExecutionContext_CaptureOptions {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ExecutionContext__CaptureOptions_Unwrapped
-  enum struct ____ExecutionContext__CaptureOptions_Unwrapped : int32_t {
+  /// @brief Nested struct __ExecutionContext_CaptureOptions_Unwrapped
+  enum struct __ExecutionContext_CaptureOptions_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_IgnoreSyncCtx = static_cast<int32_t>(0x1),
     __E_OptimizeDefaultCase = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ExecutionContext__CaptureOptions_Unwrapped() const noexcept {
-    return static_cast<____ExecutionContext__CaptureOptions_Unwrapped>(this->value__);
+  constexpr operator __ExecutionContext_CaptureOptions_Unwrapped() const noexcept {
+    return static_cast<__ExecutionContext_CaptureOptions_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -246,22 +237,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ExecutionContext__CaptureOptions();
+  constexpr ExecutionContext_CaptureOptions();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ExecutionContext__CaptureOptions(int32_t value__) noexcept;
+  constexpr ExecutionContext_CaptureOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field IgnoreSyncCtx value: I32(1)
+  static ::System::Threading::ExecutionContext_CaptureOptions const IgnoreSyncCtx;
 
-  /// @brief Field IgnoreSyncCtx value: static_cast<int32_t>(0x1)
-  static ::System::Threading::__ExecutionContext__CaptureOptions const IgnoreSyncCtx;
+  /// @brief Field None value: I32(0)
+  static ::System::Threading::ExecutionContext_CaptureOptions const None;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Threading::__ExecutionContext__CaptureOptions const None;
-
-  /// @brief Field OptimizeDefaultCase value: static_cast<int32_t>(0x2)
-  static ::System::Threading::__ExecutionContext__CaptureOptions const OptimizeDefaultCase;
+  /// @brief Field OptimizeDefaultCase value: I32(2)
+  static ::System::Threading::ExecutionContext_CaptureOptions const OptimizeDefaultCase;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2716 };
@@ -269,30 +257,32 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::__ExecutionContext__CaptureOptions, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Threading::ExecutionContext_CaptureOptions, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__ExecutionContext__CaptureOptions, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::ExecutionContext_CaptureOptions, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading
-// Type: System.Threading::ExecutionContext
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, System.Runtime.Serialization.ISerializable, System.Threading.ExecutionContext::Flags
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::ExecutionContext*
+// CS Name: System.Threading.ExecutionContext
 class CORDL_TYPE ExecutionContext : public ::System::Object {
 public:
   // Declarations
-  using CaptureOptions = ::System::Threading::__ExecutionContext__CaptureOptions;
+  using CaptureOptions = ::System::Threading::ExecutionContext_CaptureOptions;
 
-  using Flags = ::System::Threading::__ExecutionContext__Flags;
+  using Flags = ::System::Threading::ExecutionContext_Flags;
 
-  using Reader = ::System::Threading::__ExecutionContext__Reader;
+  using Reader = ::System::Threading::ExecutionContext_Reader;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::Threading::ExecutionContext* Default;
+  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::Threading::ExecutionContext* Default;
 
   __declspec(property(get = get_IllogicalCallContext, put = set_IllogicalCallContext)) ::System::Runtime::Remoting::Messaging::IllogicalCallContext* IllogicalCallContext;
 
@@ -305,7 +295,7 @@ public:
   __declspec(property(get = get_SynchronizationContextNoFlow, put = set_SynchronizationContextNoFlow)) ::System::Threading::SynchronizationContext* SynchronizationContextNoFlow;
 
   /// @brief Field _flags, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags)) ::System::Threading::__ExecutionContext__Flags _flags;
+  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags)) ::System::Threading::ExecutionContext_Flags _flags;
 
   /// @brief Field _illogicalCallContext, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__illogicalCallContext,
@@ -333,7 +323,7 @@ public:
   __declspec(property(get = get_isNewCapture, put = set_isNewCapture)) bool isNewCapture;
 
   /// @brief Field s_dummyDefaultEC, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_dummyDefaultEC, put = setStaticF_s_dummyDefaultEC)) ::System::Threading::ExecutionContext* s_dummyDefaultEC;
+  __declspec(property(get = getStaticF_s_dummyDefaultEC, put = setStaticF_s_dummyDefaultEC)) ::System::Threading::ExecutionContext* s_dummyDefaultEC;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -341,37 +331,37 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Capture, addr 0x3dec560, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x3e4c60c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContext* Capture();
 
-  /// @brief Method Capture, addr 0x3df43fc, size 0x18c, virtual false, abstract: false, final false
-  static inline ::System::Threading::ExecutionContext* Capture(ByRef<::System::Threading::StackCrawlMark> stackMark, ::System::Threading::__ExecutionContext__CaptureOptions options);
+  /// @brief Method Capture, addr 0x3e544a8, size 0x18c, virtual false, abstract: false, final false
+  static inline ::System::Threading::ExecutionContext* Capture(::ByRef<::System::Threading::StackCrawlMark> stackMark, ::System::Threading::ExecutionContext_CaptureOptions options);
 
-  /// @brief Method CreateCopy, addr 0x3df4194, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x3e54240, size 0x140, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* CreateCopy();
 
-  /// @brief Method CreateMutableCopy, addr 0x3df42d4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateMutableCopy, addr 0x3e54380, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* CreateMutableCopy();
 
-  /// @brief Method Dispose, addr 0x3df3b80, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3e53c2c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EstablishCopyOnWriteScope, addr 0x3df3f08, size 0x34, virtual false, abstract: false, final false
-  static inline void EstablishCopyOnWriteScope(::System::Threading::Thread* currentThread, bool knownNullWindowsIdentity, ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
+  /// @brief Method EstablishCopyOnWriteScope, addr 0x3e53fb4, size 0x34, virtual false, abstract: false, final false
+  static inline void EstablishCopyOnWriteScope(::System::Threading::Thread* currentThread, bool knownNullWindowsIdentity, ::ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
 
-  /// @brief Method EstablishCopyOnWriteScope, addr 0x3df40ac, size 0x84, virtual false, abstract: false, final false
-  static inline void EstablishCopyOnWriteScope(ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
+  /// @brief Method EstablishCopyOnWriteScope, addr 0x3e54158, size 0x84, virtual false, abstract: false, final false
+  static inline void EstablishCopyOnWriteScope(::ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
 
-  /// @brief Method FastCapture, addr 0x3df4588, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FastCapture, addr 0x3e54634, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContext* FastCapture();
 
-  /// @brief Method GetObjectData, addr 0x3df45f0, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3e5469c, size 0x10c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsDefaultFTContext, addr 0x3df3e90, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsDefaultFTContext, addr 0x3e53f3c, size 0x50, virtual false, abstract: false, final false
   inline bool IsDefaultFTContext(bool ignoreSyncCtx);
 
-  /// @brief Method IsFlowSuppressed, addr 0x3df43cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsFlowSuppressed, addr 0x3e54478, size 0x30, virtual false, abstract: false, final false
   static inline bool IsFlowSuppressed();
 
   static inline ::System::Threading::ExecutionContext* New_ctor();
@@ -380,56 +370,56 @@ public:
 
   static inline ::System::Threading::ExecutionContext* New_ctor(bool isPreAllocatedDefault);
 
-  /// @brief Method OnAsyncLocalContextChanged, addr 0x3df31e8, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method OnAsyncLocalContextChanged, addr 0x3e53294, size 0x4b8, virtual false, abstract: false, final false
   static inline void OnAsyncLocalContextChanged(::System::Threading::ExecutionContext* previous, ::System::Threading::ExecutionContext* current);
 
-  /// @brief Method Run, addr 0x3df0164, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3e50210, size 0xe0, virtual false, abstract: false, final false
   static inline void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state);
 
-  /// @brief Method Run, addr 0x3df3b84, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3e53c30, size 0x7c, virtual false, abstract: false, final false
   static inline void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state, bool preserveSyncCtx);
 
-  /// @brief Method RunInternal, addr 0x3df3df4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x3e53ea0, size 0x70, virtual false, abstract: false, final false
   static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state);
 
-  /// @brief Method RunInternal, addr 0x3df3c00, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x3e53cac, size 0x1f4, virtual false, abstract: false, final false
   static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state, bool preserveSyncCtx);
 
-  /// @brief Method SetExecutionContext, addr 0x3df3f3c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContext, addr 0x3e53fe8, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContextSwitcher SetExecutionContext(::System::Threading::ExecutionContext* executionContext, bool preserveSyncCtx);
 
-  /// @brief Method SetLocalValue, addr 0x3df3734, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method SetLocalValue, addr 0x3e537e0, size 0x2d0, virtual false, abstract: false, final false
   static inline void SetLocalValue(::System::Threading::IAsyncLocal* local, ::System::Object* newValue, bool needChangeNotifications);
 
-  constexpr ::System::Threading::__ExecutionContext__Flags const& __cordl_internal_get__flags() const;
+  constexpr ::System::Threading::ExecutionContext_Flags const& __cordl_internal_get__flags() const;
 
-  constexpr ::System::Threading::__ExecutionContext__Flags& __cordl_internal_get__flags();
+  constexpr ::System::Threading::ExecutionContext_Flags& __cordl_internal_get__flags();
+
+  constexpr ::System::Runtime::Remoting::Messaging::IllogicalCallContext* const& __cordl_internal_get__illogicalCallContext() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::IllogicalCallContext*& __cordl_internal_get__illogicalCallContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IllogicalCallContext*> const& __cordl_internal_get__illogicalCallContext() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* const& __cordl_internal_get__localChangeNotifications() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*& __cordl_internal_get__localChangeNotifications();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*> const& __cordl_internal_get__localChangeNotifications() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* const& __cordl_internal_get__localValues() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>*& __cordl_internal_get__localValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>*> const& __cordl_internal_get__localValues() const;
+  constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext* const& __cordl_internal_get__logicalCallContext() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& __cordl_internal_get__logicalCallContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const& __cordl_internal_get__logicalCallContext() const;
+  constexpr ::System::Threading::SynchronizationContext* const& __cordl_internal_get__syncContext() const;
 
   constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get__syncContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __cordl_internal_get__syncContext() const;
+  constexpr ::System::Threading::SynchronizationContext* const& __cordl_internal_get__syncContextNoFlow() const;
 
   constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get__syncContextNoFlow();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __cordl_internal_get__syncContextNoFlow() const;
-
-  constexpr void __cordl_internal_set__flags(::System::Threading::__ExecutionContext__Flags value);
+  constexpr void __cordl_internal_set__flags(::System::Threading::ExecutionContext_Flags value);
 
   constexpr void __cordl_internal_set__illogicalCallContext(::System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
 
@@ -443,38 +433,38 @@ public:
 
   constexpr void __cordl_internal_set__syncContextNoFlow(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x3df36fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e537a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3df46fc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e547a8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3df3704, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e537b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool isPreAllocatedDefault);
 
   static inline ::System::Threading::ExecutionContext* getStaticF_Default();
 
   static inline ::System::Threading::ExecutionContext* getStaticF_s_dummyDefaultEC();
 
-  /// @brief Method get_IllogicalCallContext, addr 0x3df3af4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_IllogicalCallContext, addr 0x3e53ba0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* get_IllogicalCallContext();
 
-  /// @brief Method get_IsPreAllocatedDefault, addr 0x3df36f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsPreAllocatedDefault, addr 0x3e5379c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsPreAllocatedDefault();
 
-  /// @brief Method get_LogicalCallContext, addr 0x3df3a88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalCallContext, addr 0x3e53b34, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_SynchronizationContext, addr 0x3df3b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContext, addr 0x3e53c0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContext();
 
-  /// @brief Method get_SynchronizationContextNoFlow, addr 0x3df3b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizationContextNoFlow, addr 0x3e53c1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
 
-  /// @brief Method get_isFlowSuppressed, addr 0x3df36c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isFlowSuppressed, addr 0x3e53770, size 0xc, virtual false, abstract: false, final false
   inline bool get_isFlowSuppressed();
 
-  /// @brief Method get_isNewCapture, addr 0x3df36a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isNewCapture, addr 0x3e5374c, size 0x14, virtual false, abstract: false, final false
   inline bool get_isNewCapture();
 
   /// @brief Convert to "::System::IDisposable"
@@ -487,22 +477,22 @@ public:
 
   static inline void setStaticF_s_dummyDefaultEC(::System::Threading::ExecutionContext* value);
 
-  /// @brief Method set_IllogicalCallContext, addr 0x3df3b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IllogicalCallContext, addr 0x3e53c04, size 0x8, virtual false, abstract: false, final false
   inline void set_IllogicalCallContext(::System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
 
-  /// @brief Method set_LogicalCallContext, addr 0x3df3aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogicalCallContext, addr 0x3e53b98, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
 
-  /// @brief Method set_SynchronizationContext, addr 0x3df3b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SynchronizationContext, addr 0x3e53c14, size 0x8, virtual false, abstract: false, final false
   inline void set_SynchronizationContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method set_SynchronizationContextNoFlow, addr 0x3df3b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SynchronizationContextNoFlow, addr 0x3e53c24, size 0x8, virtual false, abstract: false, final false
   inline void set_SynchronizationContextNoFlow(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method set_isFlowSuppressed, addr 0x3df36d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isFlowSuppressed, addr 0x3e5377c, size 0x20, virtual false, abstract: false, final false
   inline void set_isFlowSuppressed(bool value);
 
-  /// @brief Method set_isNewCapture, addr 0x3df36b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isNewCapture, addr 0x3e53760, size 0x10, virtual false, abstract: false, final false
   inline void set_isNewCapture(bool value);
 
 protected:
@@ -519,6 +509,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExecutionContext(ExecutionContext const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2717 };
+
   /// @brief Field _syncContext, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::SynchronizationContext* ____syncContext;
 
@@ -532,7 +525,7 @@ public:
   ::System::Runtime::Remoting::Messaging::IllogicalCallContext* ____illogicalCallContext;
 
   /// @brief Field _flags, offset: 0x30, size: 0x4, def value: None
-  ::System::Threading::__ExecutionContext__Flags ____flags;
+  ::System::Threading::ExecutionContext_Flags ____flags;
 
   /// @brief Field _localValues, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* ____localValues;
@@ -540,14 +533,9 @@ public:
   /// @brief Field _localChangeNotifications, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* ____localChangeNotifications;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2717 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::ExecutionContext, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::ExecutionContext, ____syncContext) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::ExecutionContext, ____syncContextNoFlow) == 0x18, "Offset mismatch!");
@@ -562,9 +550,11 @@ static_assert(offsetof(::System::Threading::ExecutionContext, ____localValues) =
 
 static_assert(offsetof(::System::Threading::ExecutionContext, ____localChangeNotifications) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Threading::ExecutionContext, 0x48>, "Size mismatch!");
+
 } // namespace System::Threading
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::__ExecutionContext__CaptureOptions, "System.Threading", "ExecutionContext/CaptureOptions");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::__ExecutionContext__Flags, "System.Threading", "ExecutionContext/Flags");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ExecutionContext_CaptureOptions, "System.Threading", "ExecutionContext/CaptureOptions");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ExecutionContext_Flags, "System.Threading", "ExecutionContext/Flags");
 NEED_NO_BOX(::System::Threading::ExecutionContext);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ExecutionContext*, "System.Threading", "ExecutionContext");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::__ExecutionContext__Reader, "System.Threading", "ExecutionContext/Reader");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ExecutionContext_Reader, "System.Threading", "ExecutionContext/Reader");

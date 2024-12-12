@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::RaycastHit::*)(float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t)>(
     &::UnityEngine::ProBuilder::RaycastHit::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x46c83f8;
+  constexpr static std::size_t addrs = 0x472970c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,9 +69,6 @@ constexpr void UnityEngine::ProBuilder::RaycastHit::__cordl_internal_set_face(in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___face = value;
 }
-inline ::UnityEngine::ProBuilder::RaycastHit* UnityEngine::ProBuilder::RaycastHit::New_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::RaycastHit*>(distance, point, normal, face));
-}
 inline void UnityEngine::ProBuilder::RaycastHit::_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::RaycastHit*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -79,6 +76,9 @@ inline void UnityEngine::ProBuilder::RaycastHit::_ctor(float_t distance, ::Unity
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, distance, point, normal, face);
+}
+inline ::UnityEngine::ProBuilder::RaycastHit* UnityEngine::ProBuilder::RaycastHit::New_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::RaycastHit*>(distance, point, normal, face));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::RaycastHit::RaycastHit() {}

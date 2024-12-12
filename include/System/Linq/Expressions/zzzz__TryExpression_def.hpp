@@ -32,11 +32,10 @@ class TryExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::TryExpression);
-// Type: System.Linq.Expressions::TryExpression
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::TryExpression*
+// CS Name: System.Linq.Expressions.TryExpression
 class CORDL_TYPE TryExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -69,38 +68,37 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
 
-  /// @brief Method Accept, addr 0x405a56c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40bb880, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::TryExpression* New_ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally,
                                                                      ::System::Linq::Expressions::Expression* fault,
                                                                      ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
-  /// @brief Method Update, addr 0x40561c8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40b74dc, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::TryExpression* Update(::System::Linq::Expressions::Expression* body,
                                                             ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::CatchBlock*>* handlers,
                                                             ::System::Linq::Expressions::Expression* finally, ::System::Linq::Expressions::Expression* fault);
 
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Body_k__BackingField() const;
+
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Body_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Body_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Fault_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Fault_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Fault_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Finally_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Finally_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Finally_k__BackingField() const;
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* const& __cordl_internal_get__Handlers_k__BackingField() const;
 
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>*& __cordl_internal_get__Handlers_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>*> const&
-  __cordl_internal_get__Handlers_k__BackingField() const;
+  constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
 
   constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__Type_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Body_k__BackingField(::System::Linq::Expressions::Expression* value);
 
@@ -112,26 +110,26 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x405a4a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bb7bc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally, ::System::Linq::Expressions::Expression* fault,
                     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
-  /// @brief Method get_Body, addr 0x405a54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x40bb860, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_Fault, addr 0x405a564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fault, addr 0x40bb878, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Fault();
 
-  /// @brief Method get_Finally, addr 0x405a55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Finally, addr 0x40bb870, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Finally();
 
-  /// @brief Method get_Handlers, addr 0x405a554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handlers, addr 0x40bb868, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* get_Handlers();
 
-  /// @brief Method get_NodeType, addr 0x405a544, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40bb858, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x405a53c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40bb850, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -148,6 +146,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TryExpression(TryExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13734 };
+
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
@@ -163,14 +164,9 @@ public:
   /// @brief Field <Fault>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Fault_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13700 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::TryExpression, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::TryExpression, ____Type_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::TryExpression, ____Body_k__BackingField) == 0x18, "Offset mismatch!");
@@ -180,6 +176,8 @@ static_assert(offsetof(::System::Linq::Expressions::TryExpression, ____Handlers_
 static_assert(offsetof(::System::Linq::Expressions::TryExpression, ____Finally_k__BackingField) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::TryExpression, ____Fault_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::TryExpression, 0x38>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::TryExpression);

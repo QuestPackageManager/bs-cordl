@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::TypeMember::*)(::System::Type*, ::StringW)>(
     &::System::Xml::Serialization::TypeMember::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43081f4;
+  constexpr static std::size_t addrs = 0x4369508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Serialization::TypeMember::*)()>(&::System::Xml::Serialization::TypeMember::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4308220;
+  constexpr static std::size_t addrs = 0x4369534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Serialization::TypeMember::*)(::System::Object*)>(
     &::System::Xml::Serialization::TypeMember::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4308268;
+  constexpr static std::size_t addrs = 0x436957c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::Serialization::TypeMember*, ::System::Xml::Serialization::TypeMember*)>(
     &::System::Xml::Serialization::TypeMember::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x43082d8;
+  constexpr static std::size_t addrs = 0x43695ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::TypeMember::*)()>(&::System::Xml::Serialization::TypeMember::ToString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4308384;
+  constexpr static std::size_t addrs = 0x4369698;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ constexpr ::System::Type*& System::Xml::Serialization::TypeMember::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Xml::Serialization::TypeMember::__cordl_internal_get_type() const {
+constexpr ::System::Type* const& System::Xml::Serialization::TypeMember::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
@@ -101,9 +101,6 @@ constexpr ::StringW const& System::Xml::Serialization::TypeMember::__cordl_inter
 constexpr void System::Xml::Serialization::TypeMember::__cordl_internal_set_member(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___member)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Serialization::TypeMember* System::Xml::Serialization::TypeMember::New_ctor(::System::Type* type, ::StringW member) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::TypeMember*>(type, member));
 }
 inline void System::Xml::Serialization::TypeMember::_ctor(::System::Type* type, ::StringW member) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,6 +129,9 @@ inline ::StringW System::Xml::Serialization::TypeMember::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::TypeMember*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Xml::Serialization::TypeMember* System::Xml::Serialization::TypeMember::New_ctor(::System::Type* type, ::StringW member) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::TypeMember*>(type, member));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::TypeMember::TypeMember() {}

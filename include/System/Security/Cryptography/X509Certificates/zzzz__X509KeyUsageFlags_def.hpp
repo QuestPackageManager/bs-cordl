@@ -12,11 +12,10 @@ struct X509KeyUsageFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags);
-// Type: System.Security.Cryptography.X509Certificates::X509KeyUsageFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509KeyUsageFlags
+// CS Name: System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
 struct CORDL_TYPE X509KeyUsageFlags {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr X509KeyUsageFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field CrlSign value: static_cast<int32_t>(0x2)
+  /// @brief Field CrlSign value: I32(2)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const CrlSign;
 
-  /// @brief Field DataEncipherment value: static_cast<int32_t>(0x10)
+  /// @brief Field DataEncipherment value: I32(16)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DataEncipherment;
 
-  /// @brief Field DecipherOnly value: static_cast<int32_t>(0x8000)
+  /// @brief Field DecipherOnly value: I32(32768)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DecipherOnly;
 
-  /// @brief Field DigitalSignature value: static_cast<int32_t>(0x80)
+  /// @brief Field DigitalSignature value: I32(128)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DigitalSignature;
 
-  /// @brief Field EncipherOnly value: static_cast<int32_t>(0x1)
+  /// @brief Field EncipherOnly value: I32(1)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const EncipherOnly;
 
-  /// @brief Field KeyAgreement value: static_cast<int32_t>(0x8)
+  /// @brief Field KeyAgreement value: I32(8)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyAgreement;
 
-  /// @brief Field KeyCertSign value: static_cast<int32_t>(0x4)
+  /// @brief Field KeyCertSign value: I32(4)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyCertSign;
 
-  /// @brief Field KeyEncipherment value: static_cast<int32_t>(0x20)
+  /// @brief Field KeyEncipherment value: I32(32)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyEncipherment;
 
-  /// @brief Field NonRepudiation value: static_cast<int32_t>(0x40)
+  /// @brief Field NonRepudiation value: I32(64)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const NonRepudiation;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9300 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyUsageFlags");

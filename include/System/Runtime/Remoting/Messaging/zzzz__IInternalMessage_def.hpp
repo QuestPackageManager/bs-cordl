@@ -14,11 +14,10 @@ class IInternalMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IInternalMessage);
-// Type: System.Runtime.Remoting.Messaging::IInternalMessage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::IInternalMessage*
+// CS Name: System.Runtime.Remoting.Messaging.IInternalMessage
 class CORDL_TYPE IInternalMessage {
 public:
   // Declarations
@@ -26,21 +25,17 @@ public:
 
   __declspec(property(get = get_Uri, put = set_Uri)) ::StringW Uri;
 
-  /// @brief Method get_TargetIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_TargetIdentity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Identity* get_TargetIdentity();
 
-  /// @brief Method get_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Uri, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Uri();
 
-  /// @brief Method set_TargetIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_TargetIdentity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
-  /// @brief Method set_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Uri, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Uri(::StringW value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IInternalMessage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IInternalMessage(IInternalMessage&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IInternalMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

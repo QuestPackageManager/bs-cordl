@@ -31,15 +31,14 @@ class FileSystemSecurity;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::FileSystemSecurity);
-// Type: System.Security.AccessControl::FileSystemSecurity
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.AccessControl.NativeObjectSecurity
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::FileSystemSecurity*
+// CS Name: System.Security.AccessControl.FileSystemSecurity
 class CORDL_TYPE FileSystemSecurity : public ::System::Security::AccessControl::NativeObjectSecurity {
 public:
   // Declarations
-  /// @brief Method AccessRuleFactory, addr 0x3c6405c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method AccessRuleFactory, addr 0x3cc41d0, size 0x98, virtual true, abstract: false, final true
   inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int32_t accessMask, bool isInherited,
                                                                           ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                           ::System::Security::AccessControl::PropagationFlags propagationFlags,
@@ -47,7 +46,7 @@ public:
 
   static inline ::System::Security::AccessControl::FileSystemSecurity* New_ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x3c63e44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc3fb8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
 protected:

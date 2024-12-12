@@ -11,17 +11,16 @@ class SoapParameterAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapParameterAttribute);
-// Type: System.Runtime.Remoting.Metadata::SoapParameterAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Metadata.SoapAttribute
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Metadata::SoapParameterAttribute*
+// CS Name: System.Runtime.Remoting.Metadata.SoapParameterAttribute
 class CORDL_TYPE SoapParameterAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::Metadata::SoapParameterAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c844bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce4630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

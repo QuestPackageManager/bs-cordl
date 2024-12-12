@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__FileAccess_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebRequest)
@@ -25,9 +26,6 @@ class WebHeaderCollection;
 }
 namespace System::Net {
 class WebResponse;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -59,11 +57,10 @@ class FileWebRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::FileWebRequest);
-// Type: System.Net::FileWebRequest
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.FileAccess, System.Net.WebRequest, System.Runtime.Serialization.ISerializable
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::FileWebRequest*
+// CS Name: System.Net.FileWebRequest
 class CORDL_TYPE FileWebRequest : public ::System::Net::WebRequest {
 public:
   // Declarations
@@ -150,66 +147,66 @@ public:
   __declspec(property(get = __cordl_internal_get_m_writing, put = __cordl_internal_set_m_writing)) bool m_writing;
 
   /// @brief Field s_GetRequestStreamCallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_GetRequestStreamCallback, put = setStaticF_s_GetRequestStreamCallback)) ::System::Threading::WaitCallback* s_GetRequestStreamCallback;
+  __declspec(property(get = getStaticF_s_GetRequestStreamCallback, put = setStaticF_s_GetRequestStreamCallback)) ::System::Threading::WaitCallback* s_GetRequestStreamCallback;
 
   /// @brief Field s_GetResponseCallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_GetResponseCallback, put = setStaticF_s_GetResponseCallback)) ::System::Threading::WaitCallback* s_GetResponseCallback;
+  __declspec(property(get = getStaticF_s_GetResponseCallback, put = setStaticF_s_GetResponseCallback)) ::System::Threading::WaitCallback* s_GetResponseCallback;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Abort, addr 0x4454b44, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method Abort, addr 0x44b5e58, size 0x374, virtual true, abstract: false, final false
   inline void Abort();
 
-  /// @brief Method BeginGetRequestStream, addr 0x44531ac, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method BeginGetRequestStream, addr 0x44b44c0, size 0x3a8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetRequestStream(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginGetResponse, addr 0x44535d0, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method BeginGetResponse, addr 0x44b48e4, size 0x2cc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetResponse(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method CanGetRequestStream, addr 0x4453554, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CanGetRequestStream, addr 0x44b4868, size 0x74, virtual false, abstract: false, final false
   inline bool CanGetRequestStream();
 
-  /// @brief Method EndGetRequestStream, addr 0x445389c, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method EndGetRequestStream, addr 0x44b4bb0, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::IO::Stream* EndGetRequestStream(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndGetResponse, addr 0x4453b88, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method EndGetResponse, addr 0x44b4e9c, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::Net::WebResponse* EndGetResponse(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method GetObjectData, addr 0x4452cc0, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x44b3fd4, size 0x2a8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetRequestStreamCallback, addr 0x44541c8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetRequestStreamCallback, addr 0x44b54dc, size 0x214, virtual false, abstract: false, final false
   static inline void GetRequestStreamCallback(::System::Object* state);
 
-  /// @brief Method GetResponse, addr 0x4453e74, size 0x354, virtual true, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x44b5188, size 0x354, virtual true, abstract: false, final false
   inline ::System::Net::WebResponse* GetResponse();
 
-  /// @brief Method GetResponseCallback, addr 0x4454478, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetResponseCallback, addr 0x44b578c, size 0x2fc, virtual false, abstract: false, final false
   static inline void GetResponseCallback(::System::Object* state);
 
   static inline ::System::Net::FileWebRequest* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Net::FileWebRequest* New_ctor(::System::Uri* uri);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x4452cb4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x44b3fc8, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method UnblockReader, addr 0x4454a44, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UnblockReader, addr 0x44b5d58, size 0xd8, virtual false, abstract: false, final false
   inline void UnblockReader();
 
   constexpr int32_t const& __cordl_internal_get_m_Aborted() const;
 
   constexpr int32_t& __cordl_internal_get_m_Aborted();
 
+  constexpr ::System::Net::LazyAsyncResult* const& __cordl_internal_get_m_ReadAResult() const;
+
   constexpr ::System::Net::LazyAsyncResult*& __cordl_internal_get_m_ReadAResult();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __cordl_internal_get_m_ReadAResult() const;
+  constexpr ::System::Net::LazyAsyncResult* const& __cordl_internal_get_m_WriteAResult() const;
 
   constexpr ::System::Net::LazyAsyncResult*& __cordl_internal_get_m_WriteAResult();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __cordl_internal_get_m_WriteAResult() const;
 
   constexpr ::StringW const& __cordl_internal_get_m_connectionGroupName() const;
 
@@ -219,17 +216,17 @@ public:
 
   constexpr int64_t& __cordl_internal_get_m_contentLength();
 
-  constexpr ::System::Net::ICredentials*& __cordl_internal_get_m_credentials();
+  constexpr ::System::Net::ICredentials* const& __cordl_internal_get_m_credentials() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get_m_credentials() const;
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get_m_credentials();
 
   constexpr ::System::IO::FileAccess const& __cordl_internal_get_m_fileAccess() const;
 
   constexpr ::System::IO::FileAccess& __cordl_internal_get_m_fileAccess();
 
-  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_m_headers();
+  constexpr ::System::Net::WebHeaderCollection* const& __cordl_internal_get_m_headers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_m_headers() const;
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_m_headers();
 
   constexpr ::StringW const& __cordl_internal_get_m_method() const;
 
@@ -239,25 +236,25 @@ public:
 
   constexpr bool& __cordl_internal_get_m_preauthenticate();
 
-  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_m_proxy();
+  constexpr ::System::Net::IWebProxy* const& __cordl_internal_get_m_proxy() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get_m_proxy() const;
+  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_m_proxy();
 
   constexpr bool const& __cordl_internal_get_m_readPending() const;
 
   constexpr bool& __cordl_internal_get_m_readPending();
 
+  constexpr ::System::Threading::ManualResetEvent* const& __cordl_internal_get_m_readerEvent() const;
+
   constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_m_readerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_m_readerEvent() const;
+  constexpr ::System::Net::WebResponse* const& __cordl_internal_get_m_response() const;
 
   constexpr ::System::Net::WebResponse*& __cordl_internal_get_m_response();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponse*> const& __cordl_internal_get_m_response() const;
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_m_stream() const;
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_m_stream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_stream() const;
 
   constexpr bool const& __cordl_internal_get_m_syncHint() const;
 
@@ -267,9 +264,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_timeout();
 
-  constexpr ::System::Uri*& __cordl_internal_get_m_uri();
+  constexpr ::System::Uri* const& __cordl_internal_get_m_uri() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_uri() const;
+  constexpr ::System::Uri*& __cordl_internal_get_m_uri();
 
   constexpr bool const& __cordl_internal_get_m_writePending() const;
 
@@ -319,41 +316,41 @@ public:
 
   constexpr void __cordl_internal_set_m_writing(bool value);
 
-  /// @brief Method .ctor, addr 0x4452904, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b3c18, size 0x3b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x445279c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b3ab0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri);
 
   static inline ::System::Threading::WaitCallback* getStaticF_s_GetRequestStreamCallback();
 
   static inline ::System::Threading::WaitCallback* getStaticF_s_GetResponseCallback();
 
-  /// @brief Method get_Aborted, addr 0x4452f68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Aborted, addr 0x44b427c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Aborted();
 
-  /// @brief Method get_ContentLength, addr 0x4452f80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x44b4294, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_ContentLength();
 
-  /// @brief Method get_Credentials, addr 0x4453008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Credentials, addr 0x44b431c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::ICredentials* get_Credentials();
 
-  /// @brief Method get_Headers, addr 0x4453018, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x44b432c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_Method, addr 0x4453020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Method, addr 0x44b4334, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_Proxy, addr 0x4453108, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Proxy, addr 0x44b441c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IWebProxy* get_Proxy();
 
-  /// @brief Method get_RequestUri, addr 0x44531a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequestUri, addr 0x44b44b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_RequestUri();
 
-  /// @brief Method get_Timeout, addr 0x4453118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x44b442c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Timeout();
 
-  /// @brief Method get_UseDefaultCredentials, addr 0x4454b1c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_UseDefaultCredentials, addr 0x44b5e30, size 0x28, virtual true, abstract: false, final false
   inline bool get_UseDefaultCredentials();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -363,25 +360,25 @@ public:
 
   static inline void setStaticF_s_GetResponseCallback(::System::Threading::WaitCallback* value);
 
-  /// @brief Method set_ConnectionGroupName, addr 0x4452f78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_ConnectionGroupName, addr 0x44b428c, size 0x8, virtual true, abstract: false, final false
   inline void set_ConnectionGroupName(::StringW value);
 
-  /// @brief Method set_ContentLength, addr 0x4452f88, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_ContentLength, addr 0x44b429c, size 0x80, virtual true, abstract: false, final false
   inline void set_ContentLength(int64_t value);
 
-  /// @brief Method set_Credentials, addr 0x4453010, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Credentials, addr 0x44b4324, size 0x8, virtual true, abstract: false, final false
   inline void set_Credentials(::System::Net::ICredentials* value);
 
-  /// @brief Method set_Method, addr 0x4453028, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method set_Method, addr 0x44b433c, size 0xd4, virtual true, abstract: false, final false
   inline void set_Method(::StringW value);
 
-  /// @brief Method set_PreAuthenticate, addr 0x44530fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_PreAuthenticate, addr 0x44b4410, size 0xc, virtual true, abstract: false, final false
   inline void set_PreAuthenticate(bool value);
 
-  /// @brief Method set_Proxy, addr 0x4453110, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Proxy, addr 0x44b4424, size 0x8, virtual true, abstract: false, final false
   inline void set_Proxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method set_Timeout, addr 0x4453120, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x44b4434, size 0x84, virtual true, abstract: false, final false
   inline void set_Timeout(int32_t value);
 
 protected:
@@ -397,6 +394,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FileWebRequest", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FileWebRequest(FileWebRequest const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9650 };
 
   /// @brief Field m_connectionGroupName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_connectionGroupName;
@@ -458,14 +458,9 @@ public:
   /// @brief Field m_Aborted, offset: 0xc0, size: 0x4, def value: None
   int32_t ___m_Aborted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9625 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::FileWebRequest, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::FileWebRequest, ___m_connectionGroupName) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::FileWebRequest, ___m_contentLength) == 0x40, "Offset mismatch!");
@@ -505,6 +500,8 @@ static_assert(offsetof(::System::Net::FileWebRequest, ___m_WriteAResult) == 0xb0
 static_assert(offsetof(::System::Net::FileWebRequest, ___m_ReadAResult) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::FileWebRequest, ___m_Aborted) == 0xc0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::FileWebRequest, 0xc8>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::FileWebRequest);

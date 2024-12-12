@@ -29,11 +29,10 @@ class EnvelopedDataParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser);
-// Type: Org.BouncyCastle.Asn1.Cms::EnvelopedDataParser
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::EnvelopedDataParser*
+// CS Name: Org.BouncyCastle.Asn1.Cms.EnvelopedDataParser
 class CORDL_TYPE EnvelopedDataParser : public ::System::Object {
 public:
   // Declarations
@@ -51,35 +50,35 @@ public:
   /// @brief Field _version, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::Org::BouncyCastle::Asn1::DerInteger* _version;
 
-  /// @brief Method GetEncryptedContentInfo, addr 0x22d18f4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedContentInfo, addr 0x2304be0, size 0x114, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetEncryptedContentInfo();
 
-  /// @brief Method GetOriginatorInfo, addr 0x22d1518, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetOriginatorInfo, addr 0x2304804, size 0x2dc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos, addr 0x22d17f4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x2304ae0, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetUnprotectedAttrs, addr 0x22d1a08, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttrs, addr 0x2304cf4, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnprotectedAttrs();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get__nextObject();
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* const& __cordl_internal_get__nextObject() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IAsn1Convertible*> const& __cordl_internal_get__nextObject() const;
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get__nextObject();
 
   constexpr bool const& __cordl_internal_get__originatorInfoCalled() const;
 
   constexpr bool& __cordl_internal_get__originatorInfoCalled();
 
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* const& __cordl_internal_get__seq() const;
+
   constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get__seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __cordl_internal_get__seq() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get__version() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get__version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get__version() const;
 
   constexpr void __cordl_internal_set__nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible* value);
 
@@ -89,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x22d13ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23046d8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0x22d1510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x23047fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
@@ -109,6 +108,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvelopedDataParser(EnvelopedDataParser const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 72 };
+
   /// @brief Field _seq, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1SequenceParser* ____seq;
 
@@ -121,14 +123,9 @@ public:
   /// @brief Field _originatorInfoCalled, offset: 0x28, size: 0x1, def value: None
   bool ____originatorInfoCalled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 72 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, ____seq) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, ____version) == 0x18, "Offset mismatch!");
@@ -136,6 +133,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, ____
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, ____nextObject) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, ____originatorInfoCalled) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser);

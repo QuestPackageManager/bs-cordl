@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/HttpMethod.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMethod_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpMethod._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpMethod::*)(::StringW)>(&::System::Net::Http::HttpMethod::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x41b7054;
+  constexpr static std::size_t addrs = 0x4218368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::HttpMethod* (*)()>(&::System::Net::Http::HttpMethod::get_Get)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x41b71d0;
+  constexpr static std::size_t addrs = 0x42184e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMethod*>::get(), "get_Get",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::HttpMethod::*)()>(&::System::Net::Http::HttpMethod::get_Method)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b7228;
+  constexpr static std::size_t addrs = 0x421853c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMethod*>::get(), "get_Method",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::HttpMethod* (*)()>(&::System::Net::Http::HttpMethod::get_Post)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x41b7230;
+  constexpr static std::size_t addrs = 0x4218544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMethod*>::get(), "get_Post",
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Net::Http::HttpMethod*, ::System::Net::Http::HttpMethod*)>(
     &::System::Net::Http::HttpMethod::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x41b7288;
+  constexpr static std::size_t addrs = 0x421859c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::HttpMethod::*)(::System::Net::Http::HttpMethod*)>(
     &::System::Net::Http::HttpMethod::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41b72b0;
+  constexpr static std::size_t addrs = 0x42185c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::HttpMethod::*)(::System::Object*)>(&::System::Net::Http::HttpMethod::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x41b72d4;
+  constexpr static std::size_t addrs = 0x42185e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::HttpMethod::*)()>(&::System::Net::Http::HttpMethod::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41b7360;
+  constexpr static std::size_t addrs = 0x4218674;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::HttpMethod::*)()>(&::System::Net::Http::HttpMethod::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b7380;
+  constexpr static std::size_t addrs = 0x4218694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,14 +130,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
-constexpr System::Net::Http::HttpMethod::operator ::System::IEquatable_1<::System::Net::Http::HttpMethod*>*() noexcept {
-  return static_cast<::System::IEquatable_1<::System::Net::Http::HttpMethod*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
-constexpr ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* System::Net::Http::HttpMethod::i___System__IEquatable_1___System__Net__Http__HttpMethod__() noexcept {
-  return static_cast<::System::IEquatable_1<::System::Net::Http::HttpMethod*>*>(static_cast<void*>(this));
-}
 constexpr ::StringW& System::Net::Http::HttpMethod::__cordl_internal_get_method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
@@ -199,9 +191,6 @@ inline void System::Net::Http::HttpMethod::setStaticF_trace_method(::System::Net
 inline ::System::Net::Http::HttpMethod* System::Net::Http::HttpMethod::getStaticF_trace_method() {
   return ::cordl_internals::getStaticField<::System::Net::Http::HttpMethod*, "trace_method", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMethod*>::get>();
 }
-inline ::System::Net::Http::HttpMethod* System::Net::Http::HttpMethod::New_ctor(::StringW method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::HttpMethod*>(method));
-}
 inline void System::Net::Http::HttpMethod::_ctor(::StringW method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMethod*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -250,6 +239,17 @@ inline ::StringW System::Net::Http::HttpMethod::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMethod*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Net::Http::HttpMethod* System::Net::Http::HttpMethod::New_ctor(::StringW method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::HttpMethod*>(method));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
+constexpr System::Net::Http::HttpMethod::operator ::System::IEquatable_1<::System::Net::Http::HttpMethod*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::System::Net::Http::HttpMethod*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
+constexpr ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* System::Net::Http::HttpMethod::i___System__IEquatable_1___System__Net__Http__HttpMethod__() noexcept {
+  return static_cast<::System::IEquatable_1<::System::Net::Http::HttpMethod*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpMethod::HttpMethod() {}

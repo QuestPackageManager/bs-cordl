@@ -17,11 +17,10 @@ class IPInterfaceProperties;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::IPInterfaceProperties);
-// Type: System.Net.NetworkInformation::IPInterfaceProperties
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::IPInterfaceProperties*
+// CS Name: System.Net.NetworkInformation.IPInterfaceProperties
 class CORDL_TYPE IPInterfaceProperties : public ::System::Object {
 public:
   // Declarations
@@ -31,13 +30,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPInterfaceProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4386df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e8108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GatewayAddresses, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_GatewayAddresses, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
-  /// @brief Method get_UnicastAddresses, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_UnicastAddresses, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
 
 protected:
@@ -55,7 +54,7 @@ public:
   IPInterfaceProperties(IPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9766 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

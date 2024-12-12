@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyBuilder)
 namespace System::Security::Cryptography {
@@ -16,23 +15,22 @@ class KeyBuilder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Cryptography::KeyBuilder);
-// Type: Mono.Security.Cryptography::KeyBuilder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// CS Name: ::Mono.Security.Cryptography::KeyBuilder*
+// CS Name: Mono.Security.Cryptography.KeyBuilder
 class CORDL_TYPE KeyBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rng, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rng, put = setStaticF_rng)) ::System::Security::Cryptography::RandomNumberGenerator* rng;
+  __declspec(property(get = getStaticF_rng, put = setStaticF_rng)) ::System::Security::Cryptography::RandomNumberGenerator* rng;
 
-  /// @brief Method Key, addr 0x3be5584, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Key, addr 0x3c45698, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Key(int32_t size);
 
   static inline ::System::Security::Cryptography::RandomNumberGenerator* getStaticF_rng();
 
-  /// @brief Method get_Rng, addr 0x3be6518, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Rng, addr 0x3c4662c, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RandomNumberGenerator* get_Rng();
 
   static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
@@ -52,7 +50,7 @@ public:
   KeyBuilder(KeyBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15960 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

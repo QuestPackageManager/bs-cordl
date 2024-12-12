@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SpanAction_2)
 namespace System {
 struct IntPtr;
@@ -21,13 +20,12 @@ template <typename T, typename TArg> class SpanAction_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Buffers::SpanAction_2);
-// Type: System.Buffers::SpanAction`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Buffers {
 // cpp template
 template <typename T, typename TArg>
 // Is value type: false
-// CS Name: ::System.Buffers::SpanAction`2<T,TArg>*
+// CS Name: System.Buffers.SpanAction`2<T,TArg>
 class CORDL_TYPE SpanAction_2 : public ::System::MulticastDelegate {
 public:
   // Declarations

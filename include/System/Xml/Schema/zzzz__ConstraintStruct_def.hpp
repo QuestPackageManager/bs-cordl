@@ -24,11 +24,10 @@ class ConstraintStruct;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ConstraintStruct);
-// Type: System.Xml.Schema::ConstraintStruct
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::ConstraintStruct*
+// CS Name: System.Xml.Schema.ConstraintStruct
 class CORDL_TYPE ConstraintStruct : public ::System::Object {
 public:
   // Declarations
@@ -54,25 +53,25 @@ public:
 
   static inline ::System::Xml::Schema::ConstraintStruct* New_ctor(::System::Xml::Schema::CompiledIdentityConstraint* constraint);
 
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_axisFields() const;
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_axisFields();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_axisFields() const;
+  constexpr ::System::Xml::Schema::SelectorActiveAxis* const& __cordl_internal_get_axisSelector() const;
 
   constexpr ::System::Xml::Schema::SelectorActiveAxis*& __cordl_internal_get_axisSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SelectorActiveAxis*> const& __cordl_internal_get_axisSelector() const;
+  constexpr ::System::Xml::Schema::CompiledIdentityConstraint* const& __cordl_internal_get_constraint() const;
 
   constexpr ::System::Xml::Schema::CompiledIdentityConstraint*& __cordl_internal_get_constraint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::CompiledIdentityConstraint*> const& __cordl_internal_get_constraint() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_keyrefTable() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_keyrefTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_keyrefTable() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_qualifiedTable() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_qualifiedTable();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_qualifiedTable() const;
 
   constexpr int32_t const& __cordl_internal_get_tableDim() const;
 
@@ -90,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_tableDim(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4336270, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4397584, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::CompiledIdentityConstraint* constraint);
 
-  /// @brief Method get_TableDim, addr 0x4336268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TableDim, addr 0x439757c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TableDim();
 
 protected:
@@ -109,6 +108,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConstraintStruct", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConstraintStruct(ConstraintStruct const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7483 };
 
   /// @brief Field constraint, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::CompiledIdentityConstraint* ___constraint;
@@ -128,14 +130,9 @@ public:
   /// @brief Field tableDim, offset: 0x38, size: 0x4, def value: None
   int32_t ___tableDim;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7458 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ConstraintStruct, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::ConstraintStruct, ___constraint) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ConstraintStruct, ___axisSelector) == 0x18, "Offset mismatch!");
@@ -147,6 +144,8 @@ static_assert(offsetof(::System::Xml::Schema::ConstraintStruct, ___qualifiedTabl
 static_assert(offsetof(::System::Xml::Schema::ConstraintStruct, ___keyrefTable) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ConstraintStruct, ___tableDim) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ConstraintStruct, 0x40>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::ConstraintStruct);

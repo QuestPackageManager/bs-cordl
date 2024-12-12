@@ -12,11 +12,10 @@ struct TypeAttributes;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::TypeAttributes);
-// Type: System.Reflection::TypeAttributes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::TypeAttributes
+// CS Name: System.Reflection.TypeAttributes
 struct CORDL_TYPE TypeAttributes {
 public:
   // Declarations
@@ -75,103 +74,100 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TypeAttributes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Abstract value: static_cast<int32_t>(0x80)
+  /// @brief Field Abstract value: I32(128)
   static ::System::Reflection::TypeAttributes const Abstract;
 
-  /// @brief Field AnsiClass value: static_cast<int32_t>(0x0)
+  /// @brief Field AnsiClass value: I32(0)
   static ::System::Reflection::TypeAttributes const AnsiClass;
 
-  /// @brief Field AutoClass value: static_cast<int32_t>(0x20000)
+  /// @brief Field AutoClass value: I32(131072)
   static ::System::Reflection::TypeAttributes const AutoClass;
 
-  /// @brief Field AutoLayout value: static_cast<int32_t>(0x0)
+  /// @brief Field AutoLayout value: I32(0)
   static ::System::Reflection::TypeAttributes const AutoLayout;
 
-  /// @brief Field BeforeFieldInit value: static_cast<int32_t>(0x100000)
+  /// @brief Field BeforeFieldInit value: I32(1048576)
   static ::System::Reflection::TypeAttributes const BeforeFieldInit;
 
-  /// @brief Field Class value: static_cast<int32_t>(0x0)
+  /// @brief Field Class value: I32(0)
   static ::System::Reflection::TypeAttributes const Class;
 
-  /// @brief Field ClassSemanticsMask value: static_cast<int32_t>(0x20)
+  /// @brief Field ClassSemanticsMask value: I32(32)
   static ::System::Reflection::TypeAttributes const ClassSemanticsMask;
 
-  /// @brief Field CustomFormatClass value: static_cast<int32_t>(0x30000)
+  /// @brief Field CustomFormatClass value: I32(196608)
   static ::System::Reflection::TypeAttributes const CustomFormatClass;
 
-  /// @brief Field CustomFormatMask value: static_cast<int32_t>(0xc00000)
+  /// @brief Field CustomFormatMask value: I32(12582912)
   static ::System::Reflection::TypeAttributes const CustomFormatMask;
 
-  /// @brief Field ExplicitLayout value: static_cast<int32_t>(0x10)
+  /// @brief Field ExplicitLayout value: I32(16)
   static ::System::Reflection::TypeAttributes const ExplicitLayout;
 
-  /// @brief Field HasSecurity value: static_cast<int32_t>(0x40000)
+  /// @brief Field HasSecurity value: I32(262144)
   static ::System::Reflection::TypeAttributes const HasSecurity;
 
-  /// @brief Field Import value: static_cast<int32_t>(0x1000)
+  /// @brief Field Import value: I32(4096)
   static ::System::Reflection::TypeAttributes const Import;
 
-  /// @brief Field Interface value: static_cast<int32_t>(0x20)
+  /// @brief Field Interface value: I32(32)
   static ::System::Reflection::TypeAttributes const Interface;
 
-  /// @brief Field LayoutMask value: static_cast<int32_t>(0x18)
+  /// @brief Field LayoutMask value: I32(24)
   static ::System::Reflection::TypeAttributes const LayoutMask;
 
-  /// @brief Field NestedAssembly value: static_cast<int32_t>(0x5)
+  /// @brief Field NestedAssembly value: I32(5)
   static ::System::Reflection::TypeAttributes const NestedAssembly;
 
-  /// @brief Field NestedFamANDAssem value: static_cast<int32_t>(0x6)
+  /// @brief Field NestedFamANDAssem value: I32(6)
   static ::System::Reflection::TypeAttributes const NestedFamANDAssem;
 
-  /// @brief Field NestedFamORAssem value: static_cast<int32_t>(0x7)
+  /// @brief Field NestedFamORAssem value: I32(7)
   static ::System::Reflection::TypeAttributes const NestedFamORAssem;
 
-  /// @brief Field NestedFamily value: static_cast<int32_t>(0x4)
+  /// @brief Field NestedFamily value: I32(4)
   static ::System::Reflection::TypeAttributes const NestedFamily;
 
-  /// @brief Field NestedPrivate value: static_cast<int32_t>(0x3)
+  /// @brief Field NestedPrivate value: I32(3)
   static ::System::Reflection::TypeAttributes const NestedPrivate;
 
-  /// @brief Field NestedPublic value: static_cast<int32_t>(0x2)
+  /// @brief Field NestedPublic value: I32(2)
   static ::System::Reflection::TypeAttributes const NestedPublic;
 
-  /// @brief Field NotPublic value: static_cast<int32_t>(0x0)
+  /// @brief Field NotPublic value: I32(0)
   static ::System::Reflection::TypeAttributes const NotPublic;
 
-  /// @brief Field Public value: static_cast<int32_t>(0x1)
+  /// @brief Field Public value: I32(1)
   static ::System::Reflection::TypeAttributes const Public;
 
-  /// @brief Field RTSpecialName value: static_cast<int32_t>(0x800)
+  /// @brief Field RTSpecialName value: I32(2048)
   static ::System::Reflection::TypeAttributes const RTSpecialName;
 
-  /// @brief Field ReservedMask value: static_cast<int32_t>(0x40800)
+  /// @brief Field ReservedMask value: I32(264192)
   static ::System::Reflection::TypeAttributes const ReservedMask;
 
-  /// @brief Field Sealed value: static_cast<int32_t>(0x100)
+  /// @brief Field Sealed value: I32(256)
   static ::System::Reflection::TypeAttributes const Sealed;
 
-  /// @brief Field SequentialLayout value: static_cast<int32_t>(0x8)
+  /// @brief Field SequentialLayout value: I32(8)
   static ::System::Reflection::TypeAttributes const SequentialLayout;
 
-  /// @brief Field Serializable value: static_cast<int32_t>(0x2000)
+  /// @brief Field Serializable value: I32(8192)
   static ::System::Reflection::TypeAttributes const Serializable;
 
-  /// @brief Field SpecialName value: static_cast<int32_t>(0x400)
+  /// @brief Field SpecialName value: I32(1024)
   static ::System::Reflection::TypeAttributes const SpecialName;
 
-  /// @brief Field StringFormatMask value: static_cast<int32_t>(0x30000)
+  /// @brief Field StringFormatMask value: I32(196608)
   static ::System::Reflection::TypeAttributes const StringFormatMask;
 
-  /// @brief Field UnicodeClass value: static_cast<int32_t>(0x10000)
+  /// @brief Field UnicodeClass value: I32(65536)
   static ::System::Reflection::TypeAttributes const UnicodeClass;
 
-  /// @brief Field VisibilityMask value: static_cast<int32_t>(0x7)
+  /// @brief Field VisibilityMask value: I32(7)
   static ::System::Reflection::TypeAttributes const VisibilityMask;
 
-  /// @brief Field WindowsRuntime value: static_cast<int32_t>(0x4000)
+  /// @brief Field WindowsRuntime value: I32(16384)
   static ::System::Reflection::TypeAttributes const WindowsRuntime;
 
   /// @brief IL2CPP Metadata Type Index
@@ -180,12 +176,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::TypeAttributes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::TypeAttributes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::TypeAttributes, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TypeAttributes, "System.Reflection", "TypeAttributes");

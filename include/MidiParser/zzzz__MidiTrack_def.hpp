@@ -18,11 +18,10 @@ class MidiTrack;
 }
 // Write type traits
 MARK_REF_PTR_T(::MidiParser::MidiTrack);
-// Type: MidiParser::MidiTrack
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace MidiParser {
 // Is value type: false
-// CS Name: ::MidiParser::MidiTrack*
+// CS Name: MidiParser.MidiTrack
 class CORDL_TYPE MidiTrack : public ::System::Object {
 public:
   // Declarations
@@ -38,15 +37,15 @@ public:
 
   constexpr int32_t& __cordl_internal_get_Index();
 
-  constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& __cordl_internal_get_MidiEvents();
+  constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* const& __cordl_internal_get_MidiEvents() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*> const& __cordl_internal_get_MidiEvents() const;
+  constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& __cordl_internal_get_MidiEvents();
 
   constexpr void __cordl_internal_set_Index(int32_t value);
 
   constexpr void __cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value);
 
-  /// @brief Method .ctor, addr 0x3bc8518, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2862c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,23 +62,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MidiTrack(MidiTrack const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19101 };
+
   /// @brief Field Index, offset: 0x10, size: 0x4, def value: None
   int32_t ___Index;
 
   /// @brief Field MidiEvents, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* ___MidiEvents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19020 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MidiParser::MidiTrack, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::MidiParser::MidiTrack, ___Index) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::MidiParser::MidiTrack, ___MidiEvents) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::MidiParser::MidiTrack, 0x20>, "Size mismatch!");
 
 } // namespace MidiParser
 NEED_NO_BOX(::MidiParser::MidiTrack);

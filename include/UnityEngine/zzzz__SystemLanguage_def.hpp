@@ -12,11 +12,10 @@ struct SystemLanguage;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::SystemLanguage);
-// Type: UnityEngine::SystemLanguage
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::SystemLanguage
+// CS Name: UnityEngine.SystemLanguage
 struct CORDL_TYPE SystemLanguage {
 public:
   // Declarations
@@ -87,153 +86,153 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SystemLanguage(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Afrikaans value: static_cast<int32_t>(0x0)
+  /// @brief Field Afrikaans value: I32(0)
   static ::UnityEngine::SystemLanguage const Afrikaans;
 
-  /// @brief Field Arabic value: static_cast<int32_t>(0x1)
+  /// @brief Field Arabic value: I32(1)
   static ::UnityEngine::SystemLanguage const Arabic;
 
-  /// @brief Field Basque value: static_cast<int32_t>(0x2)
+  /// @brief Field Basque value: I32(2)
   static ::UnityEngine::SystemLanguage const Basque;
 
-  /// @brief Field Belarusian value: static_cast<int32_t>(0x3)
+  /// @brief Field Belarusian value: I32(3)
   static ::UnityEngine::SystemLanguage const Belarusian;
 
-  /// @brief Field Bulgarian value: static_cast<int32_t>(0x4)
+  /// @brief Field Bulgarian value: I32(4)
   static ::UnityEngine::SystemLanguage const Bulgarian;
 
-  /// @brief Field Catalan value: static_cast<int32_t>(0x5)
+  /// @brief Field Catalan value: I32(5)
   static ::UnityEngine::SystemLanguage const Catalan;
 
-  /// @brief Field Chinese value: static_cast<int32_t>(0x6)
+  /// @brief Field Chinese value: I32(6)
   static ::UnityEngine::SystemLanguage const Chinese;
 
-  /// @brief Field ChineseSimplified value: static_cast<int32_t>(0x28)
+  /// @brief Field ChineseSimplified value: I32(40)
   static ::UnityEngine::SystemLanguage const ChineseSimplified;
 
-  /// @brief Field ChineseTraditional value: static_cast<int32_t>(0x29)
+  /// @brief Field ChineseTraditional value: I32(41)
   static ::UnityEngine::SystemLanguage const ChineseTraditional;
 
-  /// @brief Field Czech value: static_cast<int32_t>(0x7)
+  /// @brief Field Czech value: I32(7)
   static ::UnityEngine::SystemLanguage const Czech;
 
-  /// @brief Field Danish value: static_cast<int32_t>(0x8)
+  /// @brief Field Danish value: I32(8)
   static ::UnityEngine::SystemLanguage const Danish;
 
-  /// @brief Field Dutch value: static_cast<int32_t>(0x9)
+  /// @brief Field Dutch value: I32(9)
   static ::UnityEngine::SystemLanguage const Dutch;
 
-  /// @brief Field English value: static_cast<int32_t>(0xa)
+  /// @brief Field English value: I32(10)
   static ::UnityEngine::SystemLanguage const English;
 
-  /// @brief Field Estonian value: static_cast<int32_t>(0xb)
+  /// @brief Field Estonian value: I32(11)
   static ::UnityEngine::SystemLanguage const Estonian;
 
-  /// @brief Field Faroese value: static_cast<int32_t>(0xc)
+  /// @brief Field Faroese value: I32(12)
   static ::UnityEngine::SystemLanguage const Faroese;
 
-  /// @brief Field Finnish value: static_cast<int32_t>(0xd)
+  /// @brief Field Finnish value: I32(13)
   static ::UnityEngine::SystemLanguage const Finnish;
 
-  /// @brief Field French value: static_cast<int32_t>(0xe)
+  /// @brief Field French value: I32(14)
   static ::UnityEngine::SystemLanguage const French;
 
-  /// @brief Field German value: static_cast<int32_t>(0xf)
+  /// @brief Field German value: I32(15)
   static ::UnityEngine::SystemLanguage const German;
 
-  /// @brief Field Greek value: static_cast<int32_t>(0x10)
+  /// @brief Field Greek value: I32(16)
   static ::UnityEngine::SystemLanguage const Greek;
 
-  /// @brief Field Hebrew value: static_cast<int32_t>(0x11)
+  /// @brief Field Hebrew value: I32(17)
   static ::UnityEngine::SystemLanguage const Hebrew;
 
-  /// @brief Field Hindi value: static_cast<int32_t>(0x2a)
+  /// @brief Field Hindi value: I32(42)
   static ::UnityEngine::SystemLanguage const Hindi;
 
-  /// @brief Field Hungarian value: static_cast<int32_t>(0x12)
+  /// @brief Field Hungarian value: I32(18)
   static ::UnityEngine::SystemLanguage const Hungarian;
 
-  /// @brief Field Icelandic value: static_cast<int32_t>(0x13)
+  /// @brief Field Icelandic value: I32(19)
   static ::UnityEngine::SystemLanguage const Icelandic;
 
-  /// @brief Field Indonesian value: static_cast<int32_t>(0x14)
+  /// @brief Field Indonesian value: I32(20)
   static ::UnityEngine::SystemLanguage const Indonesian;
 
-  /// @brief Field Italian value: static_cast<int32_t>(0x15)
+  /// @brief Field Italian value: I32(21)
   static ::UnityEngine::SystemLanguage const Italian;
 
-  /// @brief Field Japanese value: static_cast<int32_t>(0x16)
+  /// @brief Field Japanese value: I32(22)
   static ::UnityEngine::SystemLanguage const Japanese;
 
-  /// @brief Field Korean value: static_cast<int32_t>(0x17)
+  /// @brief Field Korean value: I32(23)
   static ::UnityEngine::SystemLanguage const Korean;
 
-  /// @brief Field Latvian value: static_cast<int32_t>(0x18)
+  /// @brief Field Latvian value: I32(24)
   static ::UnityEngine::SystemLanguage const Latvian;
 
-  /// @brief Field Lithuanian value: static_cast<int32_t>(0x19)
+  /// @brief Field Lithuanian value: I32(25)
   static ::UnityEngine::SystemLanguage const Lithuanian;
 
-  /// @brief Field Norwegian value: static_cast<int32_t>(0x1a)
+  /// @brief Field Norwegian value: I32(26)
   static ::UnityEngine::SystemLanguage const Norwegian;
 
-  /// @brief Field Polish value: static_cast<int32_t>(0x1b)
+  /// @brief Field Polish value: I32(27)
   static ::UnityEngine::SystemLanguage const Polish;
 
-  /// @brief Field Portuguese value: static_cast<int32_t>(0x1c)
+  /// @brief Field Portuguese value: I32(28)
   static ::UnityEngine::SystemLanguage const Portuguese;
 
-  /// @brief Field Romanian value: static_cast<int32_t>(0x1d)
+  /// @brief Field Romanian value: I32(29)
   static ::UnityEngine::SystemLanguage const Romanian;
 
-  /// @brief Field Russian value: static_cast<int32_t>(0x1e)
+  /// @brief Field Russian value: I32(30)
   static ::UnityEngine::SystemLanguage const Russian;
 
-  /// @brief Field SerboCroatian value: static_cast<int32_t>(0x1f)
+  /// @brief Field SerboCroatian value: I32(31)
   static ::UnityEngine::SystemLanguage const SerboCroatian;
 
-  /// @brief Field Slovak value: static_cast<int32_t>(0x20)
+  /// @brief Field Slovak value: I32(32)
   static ::UnityEngine::SystemLanguage const Slovak;
 
-  /// @brief Field Slovenian value: static_cast<int32_t>(0x21)
+  /// @brief Field Slovenian value: I32(33)
   static ::UnityEngine::SystemLanguage const Slovenian;
 
-  /// @brief Field Spanish value: static_cast<int32_t>(0x22)
+  /// @brief Field Spanish value: I32(34)
   static ::UnityEngine::SystemLanguage const Spanish;
 
-  /// @brief Field Swedish value: static_cast<int32_t>(0x23)
+  /// @brief Field Swedish value: I32(35)
   static ::UnityEngine::SystemLanguage const Swedish;
 
-  /// @brief Field Thai value: static_cast<int32_t>(0x24)
+  /// @brief Field Thai value: I32(36)
   static ::UnityEngine::SystemLanguage const Thai;
 
-  /// @brief Field Turkish value: static_cast<int32_t>(0x25)
+  /// @brief Field Turkish value: I32(37)
   static ::UnityEngine::SystemLanguage const Turkish;
 
-  /// @brief Field Ukrainian value: static_cast<int32_t>(0x26)
+  /// @brief Field Ukrainian value: I32(38)
   static ::UnityEngine::SystemLanguage const Ukrainian;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x2b)
+  /// @brief Field Unknown value: I32(43)
   static ::UnityEngine::SystemLanguage const Unknown;
 
-  /// @brief Field Vietnamese value: static_cast<int32_t>(0x27)
+  /// @brief Field Vietnamese value: I32(39)
   static ::UnityEngine::SystemLanguage const Vietnamese;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10658 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::SystemLanguage, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::SystemLanguage, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::SystemLanguage, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SystemLanguage, "UnityEngine", "SystemLanguage");

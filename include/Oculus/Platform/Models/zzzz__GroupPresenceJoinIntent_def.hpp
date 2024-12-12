@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(GroupPresenceJoinIntent)
 namespace System {
 struct IntPtr;
@@ -16,11 +15,10 @@ class GroupPresenceJoinIntent;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceJoinIntent);
-// Type: Oculus.Platform.Models::GroupPresenceJoinIntent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::GroupPresenceJoinIntent*
+// CS Name: Oculus.Platform.Models.GroupPresenceJoinIntent
 class CORDL_TYPE GroupPresenceJoinIntent : public ::System::Object {
 public:
   // Declarations
@@ -62,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f2f850, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8f8fc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -79,6 +77,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GroupPresenceJoinIntent(GroupPresenceJoinIntent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15516 };
+
   /// @brief Field DeeplinkMessage, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DeeplinkMessage;
 
@@ -91,14 +92,9 @@ public:
   /// @brief Field MatchSessionId, offset: 0x28, size: 0x8, def value: None
   ::StringW ___MatchSessionId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15481 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::GroupPresenceJoinIntent, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___DeeplinkMessage) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___DestinationApiName) == 0x18, "Offset mismatch!");
@@ -106,6 +102,8 @@ static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___D
 static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___LobbySessionId) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___MatchSessionId) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::GroupPresenceJoinIntent, 0x30>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::GroupPresenceJoinIntent);

@@ -7,103 +7,103 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "TMPro/zzzz__TMP_FontFeatureTable_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
-//  Writing Method size for method: ::TMPro::__TMP_FontFeatureTable____c._ctor
+//  Writing Method size for method: ::TMPro::TMP_FontFeatureTable___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__TMP_FontFeatureTable____c::*)()>(&::TMPro::__TMP_FontFeatureTable____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable___c::*)()>(&::TMPro::TMP_FontFeatureTable___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4773a98;
+  constexpr static std::size_t addrs = 0x47d4dac;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::__TMP_FontFeatureTable____c._SortGlyphPairAdjustmentRecords_b__6_0
+//  Writing Method size for method: ::TMPro::TMP_FontFeatureTable___c._SortGlyphPairAdjustmentRecords_b__6_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::__TMP_FontFeatureTable____c::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(
-    &::TMPro::__TMP_FontFeatureTable____c::_SortGlyphPairAdjustmentRecords_b__6_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(
+    &::TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__6_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4773aa0;
+  constexpr static std::size_t addrs = 0x47d4db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::__TMP_FontFeatureTable____c._SortGlyphPairAdjustmentRecords_b__6_1
+//  Writing Method size for method: ::TMPro::TMP_FontFeatureTable___c._SortGlyphPairAdjustmentRecords_b__6_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::__TMP_FontFeatureTable____c::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(
-    &::TMPro::__TMP_FontFeatureTable____c::_SortGlyphPairAdjustmentRecords_b__6_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(
+    &::TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__6_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4773ab8;
+  constexpr static std::size_t addrs = 0x47d4dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get() })));
     return ___internal_method;
   }
 };
-inline void TMPro::__TMP_FontFeatureTable____c::setStaticF___9(::TMPro::__TMP_FontFeatureTable____c* value) {
-  ::cordl_internals::setStaticField<::TMPro::__TMP_FontFeatureTable____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get>(
-      std::forward<::TMPro::__TMP_FontFeatureTable____c*>(value));
+inline void TMPro::TMP_FontFeatureTable___c::setStaticF___9(::TMPro::TMP_FontFeatureTable___c* value) {
+  ::cordl_internals::setStaticField<::TMPro::TMP_FontFeatureTable___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get>(
+      std::forward<::TMPro::TMP_FontFeatureTable___c*>(value));
 }
-inline ::TMPro::__TMP_FontFeatureTable____c* TMPro::__TMP_FontFeatureTable____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::TMPro::__TMP_FontFeatureTable____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get>();
+inline ::TMPro::TMP_FontFeatureTable___c* TMPro::TMP_FontFeatureTable___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::TMPro::TMP_FontFeatureTable___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get>();
 }
-inline void TMPro::__TMP_FontFeatureTable____c::setStaticF___9__6_0(::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* value) {
+inline void TMPro::TMP_FontFeatureTable___c::setStaticF___9__6_0(::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>*, "<>9__6_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>*>(value));
 }
-inline ::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* TMPro::__TMP_FontFeatureTable____c::getStaticF___9__6_0() {
+inline ::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* TMPro::TMP_FontFeatureTable___c::getStaticF___9__6_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>*, "<>9__6_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get>();
 }
-inline void TMPro::__TMP_FontFeatureTable____c::setStaticF___9__6_1(::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* value) {
+inline void TMPro::TMP_FontFeatureTable___c::setStaticF___9__6_1(::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>*, "<>9__6_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>*>(value));
 }
-inline ::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* TMPro::__TMP_FontFeatureTable____c::getStaticF___9__6_1() {
+inline ::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>* TMPro::TMP_FontFeatureTable___c::getStaticF___9__6_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint32_t>*, "<>9__6_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get>();
 }
-inline ::TMPro::__TMP_FontFeatureTable____c* TMPro::__TMP_FontFeatureTable____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__TMP_FontFeatureTable____c*>());
-}
-inline void TMPro::__TMP_FontFeatureTable____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get(), ".ctor",
+inline void TMPro::TMP_FontFeatureTable___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline uint32_t TMPro::__TMP_FontFeatureTable____c::_SortGlyphPairAdjustmentRecords_b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s) {
+inline uint32_t TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
 }
-inline uint32_t TMPro::__TMP_FontFeatureTable____c::_SortGlyphPairAdjustmentRecords_b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s) {
+inline uint32_t TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_FontFeatureTable____c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__6_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
+}
+inline ::TMPro::TMP_FontFeatureTable___c* TMPro::TMP_FontFeatureTable___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_FontFeatureTable___c*>());
 }
 // Ctor Parameters []
-constexpr ::TMPro::__TMP_FontFeatureTable____c::__TMP_FontFeatureTable____c() {}
+constexpr ::TMPro::TMP_FontFeatureTable___c::TMP_FontFeatureTable___c() {}
 //  Writing Method size for method: ::TMPro::TMP_FontFeatureTable.get_glyphPairAdjustmentRecords
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* (
     ::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4773a2c;
+  constexpr static std::size_t addrs = 0x47d4d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)(
     ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*)>(&::TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4773a34;
+  constexpr static std::size_t addrs = 0x47d4d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4770740;
+  constexpr static std::size_t addrs = 0x47d1a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(), ".ctor",
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::SortGlyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x476bc14;
+  constexpr static std::size_t addrs = 0x47ccf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(),
@@ -156,8 +156,7 @@ constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphPairAdjustmentRecords;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*> const&
-TMPro::TMP_FontFeatureTable::__cordl_internal_get_m_GlyphPairAdjustmentRecords() const {
+constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* const& TMPro::TMP_FontFeatureTable::__cordl_internal_get_m_GlyphPairAdjustmentRecords() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphPairAdjustmentRecords;
 }
@@ -170,7 +169,7 @@ TMPro::TMP_FontFeatureTable::__cordl_internal_get_m_GlyphPairAdjustmentRecordLoo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphPairAdjustmentRecordLookupDictionary;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* const&
 TMPro::TMP_FontFeatureTable::__cordl_internal_get_m_GlyphPairAdjustmentRecordLookupDictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphPairAdjustmentRecordLookupDictionary;
@@ -192,9 +191,6 @@ inline void TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords(::System
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::TMPro::TMP_FontFeatureTable* TMPro::TMP_FontFeatureTable::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_FontFeatureTable*>());
-}
 inline void TMPro::TMP_FontFeatureTable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -204,6 +200,9 @@ inline void TMPro::TMP_FontFeatureTable::SortGlyphPairAdjustmentRecords() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(),
                                                                              "SortGlyphPairAdjustmentRecords", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::TMPro::TMP_FontFeatureTable* TMPro::TMP_FontFeatureTable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_FontFeatureTable*>());
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_FontFeatureTable::TMP_FontFeatureTable() {}

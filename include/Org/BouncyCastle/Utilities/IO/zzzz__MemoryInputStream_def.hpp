@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryInputStream)
 // Forward declare root types
@@ -13,11 +12,10 @@ class MemoryInputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::MemoryInputStream);
-// Type: Org.BouncyCastle.Utilities.IO::MemoryInputStream
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.MemoryStream
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.IO::MemoryInputStream*
+// CS Name: Org.BouncyCastle.Utilities.IO.MemoryInputStream
 class CORDL_TYPE MemoryInputStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
@@ -25,10 +23,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::MemoryInputStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method .ctor, addr 0x25a49cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7cb8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method get_CanWrite, addr 0x25a49d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanWrite, addr 0x25d7cc4, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanWrite();
 
 protected:

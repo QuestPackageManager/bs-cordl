@@ -4,49 +4,44 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AttributeData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AttributeData)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HEU_AttributeData_AttributeState;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_AttributeData__AttributeState;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_AttributeData__AttributeType;
+struct HEU_AttributeData_AttributeType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct __HEU_AttributeData__AttributeState;
+struct HEU_AttributeData_AttributeState;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_AttributeData__AttributeType;
+struct HEU_AttributeData_AttributeType;
 }
 namespace HoudiniEngineUnity {
 class HEU_AttributeData;
 }
 // Write type traits
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_AttributeData_AttributeState);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_AttributeData_AttributeType);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AttributeData);
-// Type: ::AttributeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_AttributeData::AttributeType
-struct CORDL_TYPE __HEU_AttributeData__AttributeType {
+// CS Name: HoudiniEngineUnity.HEU_AttributeData/AttributeType
+struct CORDL_TYPE HEU_AttributeData_AttributeType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_AttributeData__AttributeType_Unwrapped
-  enum struct ____HEU_AttributeData__AttributeType_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_AttributeData_AttributeType_Unwrapped
+  enum struct __HEU_AttributeData_AttributeType_Unwrapped : int32_t {
     __E_UNDEFINED = static_cast<int32_t>(0xffffffff),
     __E_BOOL = static_cast<int32_t>(0x0),
     __E_INT = static_cast<int32_t>(0x1),
@@ -56,8 +51,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_AttributeData__AttributeType_Unwrapped() const noexcept {
-    return static_cast<____HEU_AttributeData__AttributeType_Unwrapped>(this->value__);
+  constexpr operator __HEU_AttributeData_AttributeType_Unwrapped() const noexcept {
+    return static_cast<__HEU_AttributeData_AttributeType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -67,66 +62,65 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_AttributeData__AttributeType();
+  constexpr HEU_AttributeData_AttributeType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_AttributeData__AttributeType(int32_t value__) noexcept;
+  constexpr HEU_AttributeData_AttributeType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BOOL value: I32(0)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeType const BOOL;
 
-  /// @brief Field BOOL value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const BOOL;
+  /// @brief Field FLOAT value: I32(2)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeType const FLOAT;
 
-  /// @brief Field FLOAT value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const FLOAT;
+  /// @brief Field INT value: I32(1)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeType const INT;
 
-  /// @brief Field INT value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const INT;
+  /// @brief Field MAX value: I32(4)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeType const MAX;
 
-  /// @brief Field MAX value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const MAX;
+  /// @brief Field STRING value: I32(3)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeType const STRING;
 
-  /// @brief Field STRING value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const STRING;
-
-  /// @brief Field UNDEFINED value: static_cast<int32_t>(0xffffffff)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const UNDEFINED;
+  /// @brief Field UNDEFINED value: I32(-1)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeType const UNDEFINED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11643 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_AttributeData__AttributeType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData_AttributeType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AttributeData_AttributeType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::AttributeState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_AttributeData::AttributeState
-struct CORDL_TYPE __HEU_AttributeData__AttributeState {
+// CS Name: HoudiniEngineUnity.HEU_AttributeData/AttributeState
+struct CORDL_TYPE HEU_AttributeData_AttributeState {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_AttributeData__AttributeState_Unwrapped
-  enum struct ____HEU_AttributeData__AttributeState_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_AttributeData_AttributeState_Unwrapped
+  enum struct __HEU_AttributeData_AttributeState_Unwrapped : int32_t {
     __E_INVALID = static_cast<int32_t>(0x0),
     __E_SYNCED = static_cast<int32_t>(0x1),
     __E_LOCAL_DIRTY = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_AttributeData__AttributeState_Unwrapped() const noexcept {
-    return static_cast<____HEU_AttributeData__AttributeState_Unwrapped>(this->value__);
+  constexpr operator __HEU_AttributeData_AttributeState_Unwrapped() const noexcept {
+    return static_cast<__HEU_AttributeData_AttributeState_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -136,57 +130,57 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_AttributeData__AttributeState();
+  constexpr HEU_AttributeData_AttributeState();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_AttributeData__AttributeState(int32_t value__) noexcept;
+  constexpr HEU_AttributeData_AttributeState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field INVALID value: I32(0)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeState const INVALID;
 
-  /// @brief Field INVALID value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState const INVALID;
+  /// @brief Field LOCAL_DIRTY value: I32(2)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeState const LOCAL_DIRTY;
 
-  /// @brief Field LOCAL_DIRTY value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState const LOCAL_DIRTY;
-
-  /// @brief Field SYNCED value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState const SYNCED;
+  /// @brief Field SYNCED value: I32(1)
+  static ::HoudiniEngineUnity::HEU_AttributeData_AttributeState const SYNCED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11644 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_AttributeData__AttributeState, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData_AttributeState, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AttributeData_AttributeState, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: HoudiniEngineUnity::HEU_AttributeData
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_AttributeInfo, HoudiniEngineUnity.HEU_AttributeData::AttributeState, HoudiniEngineUnity.HEU_AttributeData::AttributeType, HoudiniEngineUnity.IEquivable`1<T>,
+// System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
+// CS Name: HoudiniEngineUnity.HEU_AttributeData
 class CORDL_TYPE HEU_AttributeData : public ::System::Object {
 public:
   // Declarations
-  using AttributeState = ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState;
+  using AttributeState = ::HoudiniEngineUnity::HEU_AttributeData_AttributeState;
 
-  using AttributeType = ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType;
+  using AttributeType = ::HoudiniEngineUnity::HEU_AttributeData_AttributeType;
 
   /// @brief Field _attributeInfo, offset 0x10, size 0x28
   __declspec(property(get = __cordl_internal_get__attributeInfo, put = __cordl_internal_set__attributeInfo)) ::HoudiniEngineUnity::HAPI_AttributeInfo _attributeInfo;
 
   /// @brief Field _attributeState, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__attributeState, put = __cordl_internal_set__attributeState)) ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState _attributeState;
+  __declspec(property(get = __cordl_internal_get__attributeState, put = __cordl_internal_set__attributeState)) ::HoudiniEngineUnity::HEU_AttributeData_AttributeState _attributeState;
 
   /// @brief Field _attributeType, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__attributeType, put = __cordl_internal_set__attributeType)) ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType _attributeType;
+  __declspec(property(get = __cordl_internal_get__attributeType, put = __cordl_internal_set__attributeType)) ::HoudiniEngineUnity::HEU_AttributeData_AttributeType _attributeType;
 
   /// @brief Field _floatValues, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__floatValues, put = __cordl_internal_set__floatValues)) ::ArrayW<float_t, ::Array<float_t>*> _floatValues;
@@ -203,13 +197,13 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>*() noexcept;
 
-  /// @brief Method CopyValuesTo, addr 0x39dfe54, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CopyValuesTo, addr 0x3a36ac4, size 0x124, virtual false, abstract: false, final false
   inline void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
 
-  /// @brief Method IsColorAttribute, addr 0x39dfde4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsColorAttribute, addr 0x3a36a54, size 0x70, virtual false, abstract: false, final false
   inline bool IsColorAttribute();
 
-  /// @brief Method IsEquivalentTo, addr 0x39dff78, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a36be8, size 0x328, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
 
   static inline ::HoudiniEngineUnity::HEU_AttributeData* New_ctor();
@@ -218,13 +212,13 @@ public:
 
   constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __cordl_internal_get__attributeInfo();
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState const& __cordl_internal_get__attributeState() const;
+  constexpr ::HoudiniEngineUnity::HEU_AttributeData_AttributeState const& __cordl_internal_get__attributeState() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState& __cordl_internal_get__attributeState();
+  constexpr ::HoudiniEngineUnity::HEU_AttributeData_AttributeState& __cordl_internal_get__attributeState();
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const& __cordl_internal_get__attributeType() const;
+  constexpr ::HoudiniEngineUnity::HEU_AttributeData_AttributeType const& __cordl_internal_get__attributeType() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType& __cordl_internal_get__attributeType();
+  constexpr ::HoudiniEngineUnity::HEU_AttributeData_AttributeType& __cordl_internal_get__attributeType();
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__floatValues() const;
 
@@ -244,9 +238,9 @@ public:
 
   constexpr void __cordl_internal_set__attributeInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value);
 
-  constexpr void __cordl_internal_set__attributeState(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState value);
+  constexpr void __cordl_internal_set__attributeState(::HoudiniEngineUnity::HEU_AttributeData_AttributeState value);
 
-  constexpr void __cordl_internal_set__attributeType(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType value);
+  constexpr void __cordl_internal_set__attributeType(::HoudiniEngineUnity::HEU_AttributeData_AttributeType value);
 
   constexpr void __cordl_internal_set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
 
@@ -256,7 +250,7 @@ public:
 
   constexpr void __cordl_internal_set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x39e02a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a36f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>"
@@ -276,6 +270,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_AttributeData(HEU_AttributeData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11645 };
+
   /// @brief Field _attributeInfo, offset: 0x10, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_AttributeInfo ____attributeInfo;
 
@@ -283,7 +280,7 @@ public:
   ::StringW ____name;
 
   /// @brief Field _attributeType, offset: 0x40, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType ____attributeType;
+  ::HoudiniEngineUnity::HEU_AttributeData_AttributeType ____attributeType;
 
   /// @brief Field _intValues, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____intValues;
@@ -295,16 +292,11 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> ____stringValues;
 
   /// @brief Field _attributeState, offset: 0x60, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState ____attributeState;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11612 };
+  ::HoudiniEngineUnity::HEU_AttributeData_AttributeState ____attributeState;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AttributeData, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____attributeInfo) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____name) == 0x38, "Offset mismatch!");
@@ -319,8 +311,10 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____stringValues
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____attributeState) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AttributeData, 0x68>, "Size mismatch!");
+
 } // namespace HoudiniEngineUnity
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState, "HoudiniEngineUnity", "HEU_AttributeData/AttributeState");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType, "HoudiniEngineUnity", "HEU_AttributeData/AttributeType");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AttributeData_AttributeState, "HoudiniEngineUnity", "HEU_AttributeData/AttributeState");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AttributeData_AttributeType, "HoudiniEngineUnity", "HEU_AttributeData/AttributeType");
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_AttributeData);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AttributeData*, "HoudiniEngineUnity", "HEU_AttributeData");

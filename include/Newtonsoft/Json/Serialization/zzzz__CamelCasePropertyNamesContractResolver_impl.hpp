@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(
     &::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e7769c;
+  constexpr static std::size_t addrs = 0x3ed7748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::JsonContract* (
     ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::ResolveContract)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x3e77830;
+  constexpr static std::size_t addrs = 0x3ed78dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DefaultJsonNameTable* (
     ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(&::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::GetNameTable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e77b54;
+  constexpr static std::size_t addrs = 0x3ed7c00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,9 +87,6 @@ Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::getStat
       ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*>, ::Newtonsoft::Json::Serialization::JsonContract*>*,
       "_contractCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>::get>();
 }
-inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>());
-}
 inline void Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>::get(), ".ctor",
@@ -107,6 +104,9 @@ inline ::Newtonsoft::Json::DefaultJsonNameTable* Newtonsoft::Json::Serialization
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::DefaultJsonNameTable*, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>());
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::CamelCasePropertyNamesContractResolver() {}

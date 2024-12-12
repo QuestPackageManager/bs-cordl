@@ -12,11 +12,10 @@ struct HAPI_GeoType;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_GeoType);
-// Type: HoudiniEngineUnity::HAPI_GeoType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_GeoType
+// CS Name: HoudiniEngineUnity.HAPI_GeoType
 struct CORDL_TYPE HAPI_GeoType {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_GeoType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_GEOTYPE_CURVE value: static_cast<int32_t>(0x3)
+  /// @brief Field HAPI_GEOTYPE_CURVE value: I32(3)
   static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_CURVE;
 
-  /// @brief Field HAPI_GEOTYPE_DEFAULT value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_GEOTYPE_DEFAULT value: I32(0)
   static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_DEFAULT;
 
-  /// @brief Field HAPI_GEOTYPE_INPUT value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_GEOTYPE_INPUT value: I32(2)
   static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INPUT;
 
-  /// @brief Field HAPI_GEOTYPE_INTERMEDIATE value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_GEOTYPE_INTERMEDIATE value: I32(1)
   static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INTERMEDIATE;
 
-  /// @brief Field HAPI_GEOTYPE_INVALID value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_GEOTYPE_INVALID value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_INVALID;
 
-  /// @brief Field HAPI_GEOTYPE_MAX value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_GEOTYPE_MAX value: I32(4)
   static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_MAX;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11691 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_GeoType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_GeoType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_GeoType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_GeoType, "HoudiniEngineUnity", "HAPI_GeoType");

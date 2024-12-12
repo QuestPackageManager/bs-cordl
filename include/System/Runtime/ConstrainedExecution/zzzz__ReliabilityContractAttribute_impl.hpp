@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::*)(
     ::System::Runtime::ConstrainedExecution::Consistency, ::System::Runtime::ConstrainedExecution::Cer)>(&::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3cb67d8;
+  constexpr static std::size_t addrs = 0x3d1694c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,11 +48,6 @@ constexpr void System::Runtime::ConstrainedExecution::ReliabilityContractAttribu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Cer_k__BackingField = value;
 }
-inline ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*
-System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::New_ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee,
-                                                                              ::System::Runtime::ConstrainedExecution::Cer cer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*>(consistencyGuarantee, cer));
-}
 inline void System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::_ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee,
                                                                                        ::System::Runtime::ConstrainedExecution::Cer cer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,6 +55,11 @@ inline void System::Runtime::ConstrainedExecution::ReliabilityContractAttribute:
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::ConstrainedExecution::Consistency>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::ConstrainedExecution::Cer>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, consistencyGuarantee, cer);
+}
+inline ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*
+System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::New_ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee,
+                                                                              ::System::Runtime::ConstrainedExecution::Cer cer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*>(consistencyGuarantee, cer));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::ReliabilityContractAttribute() {}

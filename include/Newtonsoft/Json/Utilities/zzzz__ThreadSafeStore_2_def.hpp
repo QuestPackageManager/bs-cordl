@@ -17,13 +17,12 @@ template <typename TKey, typename TValue> class ThreadSafeStore_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::ThreadSafeStore_2);
-// Type: Newtonsoft.Json.Utilities::ThreadSafeStore`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::ThreadSafeStore`2<TKey,TValue>*
+// CS Name: Newtonsoft.Json.Utilities.ThreadSafeStore`2<TKey,TValue>
 class CORDL_TYPE ThreadSafeStore_2 : public ::System::Object {
 public:
   // Declarations
@@ -39,13 +38,13 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* New_ctor(::System::Func_2<TKey, TValue>* creator);
 
+  constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* const& __cordl_internal_get__concurrentStore() const;
+
   constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*& __cordl_internal_get__concurrentStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*> const& __cordl_internal_get__concurrentStore() const;
+  constexpr ::System::Func_2<TKey, TValue>* const& __cordl_internal_get__creator() const;
 
   constexpr ::System::Func_2<TKey, TValue>*& __cordl_internal_get__creator();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, TValue>*> const& __cordl_internal_get__creator() const;
 
   constexpr void __cordl_internal_set__concurrentStore(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* value);
 
@@ -68,14 +67,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadSafeStore_2(ThreadSafeStore_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10276 };
+
   /// @brief Field _concurrentStore, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* ____concurrentStore;
 
   /// @brief Field _creator, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<TKey, TValue>* ____creator;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

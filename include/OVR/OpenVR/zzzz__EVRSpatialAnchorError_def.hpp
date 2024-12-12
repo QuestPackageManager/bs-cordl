@@ -12,11 +12,10 @@ struct EVRSpatialAnchorError;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRSpatialAnchorError);
-// Type: OVR.OpenVR::EVRSpatialAnchorError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRSpatialAnchorError
+// CS Name: OVR.OpenVR.EVRSpatialAnchorError
 struct CORDL_TYPE EVRSpatialAnchorError {
 public:
   // Declarations
@@ -57,63 +56,63 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRSpatialAnchorError(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ArrayTooSmall value: static_cast<int32_t>(0x3)
+  /// @brief Field ArrayTooSmall value: I32(3)
   static ::OVR::OpenVR::EVRSpatialAnchorError const ArrayTooSmall;
 
-  /// @brief Field DescriptorTooLong value: static_cast<int32_t>(0x9)
+  /// @brief Field DescriptorTooLong value: I32(9)
   static ::OVR::OpenVR::EVRSpatialAnchorError const DescriptorTooLong;
 
-  /// @brief Field Internal value: static_cast<int32_t>(0x1)
+  /// @brief Field Internal value: I32(1)
   static ::OVR::OpenVR::EVRSpatialAnchorError const Internal;
 
-  /// @brief Field InvalidArgument value: static_cast<int32_t>(0xc)
+  /// @brief Field InvalidArgument value: I32(12)
   static ::OVR::OpenVR::EVRSpatialAnchorError const InvalidArgument;
 
-  /// @brief Field InvalidDescriptorChar value: static_cast<int32_t>(0x4)
+  /// @brief Field InvalidDescriptorChar value: I32(4)
   static ::OVR::OpenVR::EVRSpatialAnchorError const InvalidDescriptorChar;
 
-  /// @brief Field NoRoomCalibration value: static_cast<int32_t>(0xb)
+  /// @brief Field NoRoomCalibration value: I32(11)
   static ::OVR::OpenVR::EVRSpatialAnchorError const NoRoomCalibration;
 
-  /// @brief Field NotAvailableInThisUniverse value: static_cast<int32_t>(0x6)
+  /// @brief Field NotAvailableInThisUniverse value: I32(6)
   static ::OVR::OpenVR::EVRSpatialAnchorError const NotAvailableInThisUniverse;
 
-  /// @brief Field NotYetAvailable value: static_cast<int32_t>(0x5)
+  /// @brief Field NotYetAvailable value: I32(5)
   static ::OVR::OpenVR::EVRSpatialAnchorError const NotYetAvailable;
 
-  /// @brief Field PermanentlyUnavailable value: static_cast<int32_t>(0x7)
+  /// @brief Field PermanentlyUnavailable value: I32(7)
   static ::OVR::OpenVR::EVRSpatialAnchorError const PermanentlyUnavailable;
 
-  /// @brief Field Success value: static_cast<int32_t>(0x0)
+  /// @brief Field Success value: I32(0)
   static ::OVR::OpenVR::EVRSpatialAnchorError const Success;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0xa)
+  /// @brief Field Unknown value: I32(10)
   static ::OVR::OpenVR::EVRSpatialAnchorError const Unknown;
 
-  /// @brief Field UnknownDriver value: static_cast<int32_t>(0xd)
+  /// @brief Field UnknownDriver value: I32(13)
   static ::OVR::OpenVR::EVRSpatialAnchorError const UnknownDriver;
 
-  /// @brief Field UnknownHandle value: static_cast<int32_t>(0x2)
+  /// @brief Field UnknownHandle value: I32(2)
   static ::OVR::OpenVR::EVRSpatialAnchorError const UnknownHandle;
 
-  /// @brief Field WrongDriver value: static_cast<int32_t>(0x8)
+  /// @brief Field WrongDriver value: I32(8)
   static ::OVR::OpenVR::EVRSpatialAnchorError const WrongDriver;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8910 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRSpatialAnchorError, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRSpatialAnchorError, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRSpatialAnchorError, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRSpatialAnchorError, "OVR.OpenVR", "EVRSpatialAnchorError");

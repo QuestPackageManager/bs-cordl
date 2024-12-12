@@ -18,11 +18,10 @@ class OVRTask;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRTask);
-// Type: ::OVRTask
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRTask*
+// CS Name: OVRTask
 class CORDL_TYPE OVRTask : public ::System::Object {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
 
-  /// @brief Method GetId, addr 0x3fc8080, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x402812c, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t value);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +70,7 @@ public:
   OVRTask(OVRTask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

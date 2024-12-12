@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignTimeVisibleAttribute::*)(bool)>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43ef3bc;
+  constexpr static std::size_t addrs = 0x44506d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::get_Visible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ef3e4;
+  constexpr static std::size_t addrs = 0x44506f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignTimeVisibleAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x43ef3ec;
+  constexpr static std::size_t addrs = 0x4450700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x43ef484;
+  constexpr static std::size_t addrs = 0x4450798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43ef520;
+  constexpr static std::size_t addrs = 0x4450834;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,9 +119,6 @@ inline ::System::ComponentModel::DesignTimeVisibleAttribute* System::ComponentMo
   return ::cordl_internals::getStaticField<::System::ComponentModel::DesignTimeVisibleAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignTimeVisibleAttribute*>::get>();
 }
-inline ::System::ComponentModel::DesignTimeVisibleAttribute* System::ComponentModel::DesignTimeVisibleAttribute::New_ctor(bool visible) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignTimeVisibleAttribute*>(visible));
-}
 inline void System::ComponentModel::DesignTimeVisibleAttribute::_ctor(bool visible) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignTimeVisibleAttribute*>::get(), ".ctor",
@@ -147,6 +144,9 @@ inline bool System::ComponentModel::DesignTimeVisibleAttribute::IsDefaultAttribu
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignTimeVisibleAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::DesignTimeVisibleAttribute* System::ComponentModel::DesignTimeVisibleAttribute::New_ctor(bool visible) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignTimeVisibleAttribute*>(visible));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DesignTimeVisibleAttribute::DesignTimeVisibleAttribute() {}

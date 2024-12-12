@@ -15,15 +15,14 @@ class StreamHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::StreamHelpers);
-// Type: System.IO::StreamHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::StreamHelpers*
+// CS Name: System.IO.StreamHelpers
 class CORDL_TYPE StreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateCopyToArgs, addr 0x3cd7f60, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ValidateCopyToArgs, addr 0x3d380d4, size 0x224, virtual false, abstract: false, final false
   static inline void ValidateCopyToArgs(::System::IO::Stream* source, ::System::IO::Stream* destination, int32_t bufferSize);
 
 protected:

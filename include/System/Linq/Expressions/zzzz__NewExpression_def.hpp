@@ -21,11 +21,10 @@ class NewExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::NewExpression);
-// Type: System.Linq.Expressions::NewExpression
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::NewExpression*
+// CS Name: System.Linq.Expressions.NewExpression
 class CORDL_TYPE NewExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -39,22 +38,22 @@ public:
   __declspec(property(get = __cordl_internal_get__arguments,
                       put = __cordl_internal_set__arguments)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments;
 
-  /// @brief Method GetArgument, addr 0x4059abc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x40badd0, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
+
+  constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get__Constructor_k__BackingField() const;
 
   constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__Constructor_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__Constructor_k__BackingField() const;
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* const& __cordl_internal_get__arguments() const;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*& __cordl_internal_get__arguments();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*> const& __cordl_internal_get__arguments() const;
 
   constexpr void __cordl_internal_set__Constructor_k__BackingField(::System::Reflection::ConstructorInfo* value);
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Constructor, addr 0x4059ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Constructor, addr 0x40badc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NewExpression(NewExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13722 };
+
   /// @brief Field _arguments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;
 
   /// @brief Field <Constructor>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ____Constructor_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13688 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::NewExpression, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::NewExpression, ____arguments) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::NewExpression, ____Constructor_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::NewExpression, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::NewExpression);

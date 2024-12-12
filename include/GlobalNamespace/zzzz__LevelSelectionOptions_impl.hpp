@@ -4,9 +4,7 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionOptions_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-// Ctor Parameters [CppParam { name: "preferredCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
+// Ctor Parameters [CppParam { name: "preferredCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "preferredDifficulty", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sortAlphabetically", ty: "bool", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "isFiltered", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::LevelSelectionOptions::LevelSelectionOptions(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> preferredCharacteristic,

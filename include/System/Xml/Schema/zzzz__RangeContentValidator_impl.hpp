@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*,
     int32_t, ::System::Xml::Schema::XmlSchemaContentType, bool, ::System::Xml::Schema::BitSet*, int32_t)>(&::System::Xml::Schema::RangeContentValidator::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x433d288;
+  constexpr static std::size_t addrs = 0x439e59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::RangeContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x433d344;
+  constexpr static std::size_t addrs = 0x439e658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,10 +52,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int32_t>)>(
+    static_cast<::System::Object* (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::ByRef<int32_t>)>(
         &::System::Xml::Schema::RangeContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x874;
-  constexpr static std::size_t addrs = 0x433d4dc;
+  constexpr static std::size_t addrs = 0x439e7f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::RangeContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x433dd50;
+  constexpr static std::size_t addrs = 0x439f064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (
     ::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(&::System::Xml::Schema::RangeContentValidator::ExpectedElements)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x433dd68;
+  constexpr static std::size_t addrs = 0x439f07c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(
         &::System::Xml::Schema::RangeContentValidator::ExpectedParticles)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x433dfd0;
+  constexpr static std::size_t addrs = 0x439f2e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::RangeContentValid
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstpos;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_firstpos() const {
+constexpr ::System::Xml::Schema::BitSet* const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_firstpos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstpos;
 }
@@ -138,7 +138,7 @@ constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::RangeContentValid
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionsWithRangeTerminals;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_positionsWithRangeTerminals() const {
+constexpr ::System::Xml::Schema::BitSet* const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_positionsWithRangeTerminals() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionsWithRangeTerminals;
 }
@@ -150,7 +150,7 @@ constexpr ::System::Xml::Schema::SymbolsDictionary*& System::Xml::Schema::RangeC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symbols;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_symbols() const {
+constexpr ::System::Xml::Schema::SymbolsDictionary* const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_symbols() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symbols;
 }
@@ -162,7 +162,7 @@ constexpr ::System::Xml::Schema::Positions*& System::Xml::Schema::RangeContentVa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Positions*> const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_positions() const {
+constexpr ::System::Xml::Schema::Positions* const& System::Xml::Schema::RangeContentValidator::__cordl_internal_get_positions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
@@ -194,15 +194,6 @@ constexpr void System::Xml::Schema::RangeContentValidator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endMarkerPos = value;
 }
-inline ::System::Xml::Schema::RangeContentValidator* System::Xml::Schema::RangeContentValidator::New_ctor(::System::Xml::Schema::BitSet* firstpos,
-                                                                                                          ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
-                                                                                                          ::System::Xml::Schema::SymbolsDictionary* symbols,
-                                                                                                          ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
-                                                                                                          ::System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable,
-                                                                                                          ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int32_t minmaxNodesCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::RangeContentValidator*>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isEmptiable,
-                                                                                                 positionsWithRangeTerminals, minmaxNodesCount));
-}
 inline void System::Xml::Schema::RangeContentValidator::_ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                                                               ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
                                                               ::System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable, ::System::Xml::Schema::BitSet* positionsWithRangeTerminals,
@@ -224,7 +215,8 @@ inline void System::Xml::Schema::RangeContentValidator::InitValidation(::System:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RangeContentValidator*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
 }
-inline ::System::Object* System::Xml::Schema::RangeContentValidator::ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode) {
+inline ::System::Object* System::Xml::Schema::RangeContentValidator::ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context,
+                                                                                     ::ByRef<int32_t> errorCode) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RangeContentValidator*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, name, context, errorCode);
@@ -244,6 +236,15 @@ inline ::System::Collections::ArrayList* System::Xml::Schema::RangeContentValida
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RangeContentValidator*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method, context, isRequiredOnly, schemaSet);
+}
+inline ::System::Xml::Schema::RangeContentValidator* System::Xml::Schema::RangeContentValidator::New_ctor(::System::Xml::Schema::BitSet* firstpos,
+                                                                                                          ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
+                                                                                                          ::System::Xml::Schema::SymbolsDictionary* symbols,
+                                                                                                          ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
+                                                                                                          ::System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable,
+                                                                                                          ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int32_t minmaxNodesCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::RangeContentValidator*>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isEmptiable,
+                                                                                                 positionsWithRangeTerminals, minmaxNodesCount));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::RangeContentValidator::RangeContentValidator() {}

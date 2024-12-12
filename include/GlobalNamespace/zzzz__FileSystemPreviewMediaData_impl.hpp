@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FileSystemPreviewMediaData.hpp"
+#include "GlobalNamespace/zzzz__IPreviewMediaData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileSystemPreviewMediaData_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewMediaData_def.hpp"
 #include "GlobalNamespace/zzzz__SpriteAsyncLoader_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)(
     ::GlobalNamespace::SpriteAsyncLoader*, ::GlobalNamespace::AudioClipAsyncLoader*, ::StringW, ::StringW, ::StringW)>(&::GlobalNamespace::FileSystemPreviewMediaData::_ctor)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x2697164;
+  constexpr static std::size_t addrs = 0x26cbe34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (
     ::GlobalNamespace::FileSystemPreviewMediaData::*)()>(&::GlobalNamespace::FileSystemPreviewMediaData::GetCoverSpriteAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2697324;
+  constexpr static std::size_t addrs = 0x26cbff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::FileSystemPreviewMediaData::*)()>(&::GlobalNamespace::FileSystemPreviewMediaData::GetPreviewAudioClip)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2697348;
+  constexpr static std::size_t addrs = 0x26cc018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(
     &::GlobalNamespace::FileSystemPreviewMediaData::UnloadPreviewAudioClip)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x269736c;
+  constexpr static std::size_t addrs = 0x26cc03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(
     &::GlobalNamespace::FileSystemPreviewMediaData::UnloadCoverSprite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2697390;
+  constexpr static std::size_t addrs = 0x26cc060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
@@ -82,19 +82,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
-constexpr GlobalNamespace::FileSystemPreviewMediaData::operator ::GlobalNamespace::IPreviewMediaData*() noexcept {
-  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
-constexpr ::GlobalNamespace::IPreviewMediaData* GlobalNamespace::FileSystemPreviewMediaData::i___GlobalNamespace__IPreviewMediaData() noexcept {
-  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::SpriteAsyncLoader*& GlobalNamespace::FileSystemPreviewMediaData::__cordl_internal_get__spriteAsyncLoader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteAsyncLoader;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SpriteAsyncLoader*> const& GlobalNamespace::FileSystemPreviewMediaData::__cordl_internal_get__spriteAsyncLoader() const {
+constexpr ::GlobalNamespace::SpriteAsyncLoader* const& GlobalNamespace::FileSystemPreviewMediaData::__cordl_internal_get__spriteAsyncLoader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteAsyncLoader;
 }
@@ -106,7 +98,7 @@ constexpr ::GlobalNamespace::AudioClipAsyncLoader*& GlobalNamespace::FileSystemP
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClipAsyncLoader;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& GlobalNamespace::FileSystemPreviewMediaData::__cordl_internal_get__audioClipAsyncLoader() const {
+constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& GlobalNamespace::FileSystemPreviewMediaData::__cordl_internal_get__audioClipAsyncLoader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClipAsyncLoader;
 }
@@ -138,11 +130,6 @@ constexpr void GlobalNamespace::FileSystemPreviewMediaData::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewAudioClipPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::FileSystemPreviewMediaData* GlobalNamespace::FileSystemPreviewMediaData::New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader,
-                                                                                                            ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath,
-                                                                                                            ::StringW coverSpritePath, ::StringW previewAudioClipPath) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FileSystemPreviewMediaData*>(spriteAsyncLoader, audioClipAsyncLoader, rootPath, coverSpritePath, previewAudioClipPath));
-}
 inline void GlobalNamespace::FileSystemPreviewMediaData::_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,6 +159,19 @@ inline void GlobalNamespace::FileSystemPreviewMediaData::UnloadCoverSprite() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
                                                                              "UnloadCoverSprite", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FileSystemPreviewMediaData* GlobalNamespace::FileSystemPreviewMediaData::New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader,
+                                                                                                            ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath,
+                                                                                                            ::StringW coverSpritePath, ::StringW previewAudioClipPath) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FileSystemPreviewMediaData*>(spriteAsyncLoader, audioClipAsyncLoader, rootPath, coverSpritePath, previewAudioClipPath));
+}
+/// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
+constexpr GlobalNamespace::FileSystemPreviewMediaData::operator ::GlobalNamespace::IPreviewMediaData*() noexcept {
+  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
+constexpr ::GlobalNamespace::IPreviewMediaData* GlobalNamespace::FileSystemPreviewMediaData::i___GlobalNamespace__IPreviewMediaData() noexcept {
+  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileSystemPreviewMediaData::FileSystemPreviewMediaData() {}

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabMethod_2)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -32,29 +31,28 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-struct TypeValuePair;
+template <typename TParam1, typename TParam2> class SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2> class __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0;
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
 template <typename TParam1, typename TParam2> class SubContainerCreatorByNewPrefabMethod_2;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2> class __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0;
+template <typename TParam1, typename TParam2> class SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabMethod_2);
-MARK_GEN_REF_PTR_T(::Zenject::__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0);
-// Type: ::<>c__DisplayClass2_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0);
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// CS Name: ::SubContainerCreatorByNewPrefabMethod`2::<>c__DisplayClass2_0<TParam1,TParam2>*
-class CORDL_TYPE __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0 : public ::System::Object {
+// CS Name: Zenject.SubContainerCreatorByNewPrefabMethod`2/<>c__DisplayClass2_0<TParam1,TParam2>
+class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -63,18 +61,18 @@ public:
   /// @brief Field args, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
-  static inline ::Zenject::__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0<TParam1, TParam2>* New_ctor();
+  static inline ::Zenject::SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0<TParam1, TParam2>* New_ctor();
 
   /// @brief Method <AddInstallers>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
 
+  constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_2<TParam1, TParam2>* const& __cordl_internal_get___4__this() const;
+
   constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_2<TParam1, TParam2>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewPrefabMethod_2<TParam1, TParam2>*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& __cordl_internal_get_args() const;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_args();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_args() const;
 
   constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewPrefabMethod_2<TParam1, TParam2>* value);
 
@@ -92,16 +90,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0();
+  constexpr SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0(__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0&&) = delete;
+  SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0(__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0 const&) = delete;
+  SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12617 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorByNewPrefabMethod_2<TParam1, TParam2>* _____4__this;
@@ -109,24 +110,20 @@ public:
   /// @brief Field args, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ___args;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12584 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
-// Type: Zenject::SubContainerCreatorByNewPrefabMethod`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.SubContainerCreatorByNewPrefabDynamicContext
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod`2<TParam1,TParam2>*
+// CS Name: Zenject.SubContainerCreatorByNewPrefabMethod`2<TParam1,TParam2>
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_2 : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:
   // Declarations
-  using __c__DisplayClass2_0 = ::Zenject::__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0<TParam1, TParam2>;
+  using __c__DisplayClass2_0 = ::Zenject::SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0<TParam1, TParam2>;
 
   /// @brief Field _installerMethod, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod)) ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* _installerMethod;
@@ -138,9 +135,9 @@ public:
                                                                                               ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                                                                                               ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* installerMethod);
 
-  constexpr ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*& __cordl_internal_get__installerMethod();
+  constexpr ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* const& __cordl_internal_get__installerMethod() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*> const& __cordl_internal_get__installerMethod() const;
+  constexpr ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*& __cordl_internal_get__installerMethod();
 
   constexpr void __cordl_internal_set__installerMethod(::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* value);
 
@@ -162,15 +159,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByNewPrefabMethod_2(SubContainerCreatorByNewPrefabMethod_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12618 };
+
   /// @brief Field _installerMethod, offset: 0x28, size: 0x8, def value: None
   ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* ____installerMethod;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::SubContainerCreatorByNewPrefabMethod_2, "Zenject", "SubContainerCreatorByNewPrefabMethod`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::__SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0, "Zenject", "SubContainerCreatorByNewPrefabMethod`2/<>c__DisplayClass2_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::SubContainerCreatorByNewPrefabMethod_2___c__DisplayClass2_0, "Zenject", "SubContainerCreatorByNewPrefabMethod`2/<>c__DisplayClass2_0");

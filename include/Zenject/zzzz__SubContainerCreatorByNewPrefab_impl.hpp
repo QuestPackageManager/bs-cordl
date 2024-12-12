@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefab.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefab_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByNewPrefab._ctor
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefab::*)(
     ::Zenject::DiContainer*, ::Zenject::IPrefabProvider*, ::Zenject::GameObjectCreationParameters*)>(&::Zenject::SubContainerCreatorByNewPrefab::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4adafd4;
+  constexpr static std::size_t addrs = 0x4b3f8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByNewPrefab::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::InjectContext*)>(
         &::Zenject::SubContainerCreatorByNewPrefab::CreateSubContainer)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4adb010;
+  constexpr static std::size_t addrs = 0x4b3f920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,19 +43,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::ISubContainerCreator"
-constexpr Zenject::SubContainerCreatorByNewPrefab::operator ::Zenject::ISubContainerCreator*() noexcept {
-  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::ISubContainerCreator"
-constexpr ::Zenject::ISubContainerCreator* Zenject::SubContainerCreatorByNewPrefab::i___Zenject__ISubContainerCreator() noexcept {
-  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
-}
 constexpr ::Zenject::GameObjectCreationParameters*& Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_get__gameObjectBindInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_get__gameObjectBindInfo() const {
+constexpr ::Zenject::GameObjectCreationParameters* const& Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_get__gameObjectBindInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
@@ -67,7 +59,7 @@ constexpr ::Zenject::IPrefabProvider*& Zenject::SubContainerCreatorByNewPrefab::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_get__prefabProvider() const {
+constexpr ::Zenject::IPrefabProvider* const& Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_get__prefabProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabProvider;
 }
@@ -79,17 +71,13 @@ constexpr ::Zenject::DiContainer*& Zenject::SubContainerCreatorByNewPrefab::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void Zenject::SubContainerCreatorByNewPrefab::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::SubContainerCreatorByNewPrefab* Zenject::SubContainerCreatorByNewPrefab::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
-                                                                                                    ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefab*>(container, prefabProvider, gameObjectBindInfo));
 }
 inline void Zenject::SubContainerCreatorByNewPrefab::_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -106,6 +94,18 @@ inline ::Zenject::DiContainer* Zenject::SubContainerCreatorByNewPrefab::CreateSu
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method, args, parentContext);
+}
+inline ::Zenject::SubContainerCreatorByNewPrefab* Zenject::SubContainerCreatorByNewPrefab::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
+                                                                                                    ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefab*>(container, prefabProvider, gameObjectBindInfo));
+}
+/// @brief Convert operator to "::Zenject::ISubContainerCreator"
+constexpr Zenject::SubContainerCreatorByNewPrefab::operator ::Zenject::ISubContainerCreator*() noexcept {
+  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ISubContainerCreator"
+constexpr ::Zenject::ISubContainerCreator* Zenject::SubContainerCreatorByNewPrefab::i___Zenject__ISubContainerCreator() noexcept {
+  return static_cast<::Zenject::ISubContainerCreator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewPrefab::SubContainerCreatorByNewPrefab() {}

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/KawaseBlurRendererSO.hpp"
-#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
@@ -12,101 +11,101 @@
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize::__KawaseBlurRendererSO__KernelSize(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize::KawaseBlurRendererSO_KernelSize(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize::__KawaseBlurRendererSO__KernelSize() {}
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel7{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel15{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel23{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel35{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel63{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel127{ static_cast<int32_t>(0x5) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel135{ static_cast<int32_t>(0x6) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize GlobalNamespace::__KawaseBlurRendererSO__KernelSize::Kernel143{ static_cast<int32_t>(0x7) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize::KawaseBlurRendererSO_KernelSize() {}
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel7{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel15{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel23{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel35{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel63{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel127{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel135{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel143{ static_cast<int32_t>(0x7) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType::__KawaseBlurRendererSO__WeightsType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_WeightsType::KawaseBlurRendererSO_WeightsType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType::__KawaseBlurRendererSO__WeightsType() {}
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType GlobalNamespace::__KawaseBlurRendererSO__WeightsType::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType GlobalNamespace::__KawaseBlurRendererSO__WeightsType::AlphaWeights{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType GlobalNamespace::__KawaseBlurRendererSO__WeightsType::AlphaAndDepthWeights{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel._ctor
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_WeightsType::KawaseBlurRendererSO_WeightsType() {}
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_WeightsType GlobalNamespace::KawaseBlurRendererSO_WeightsType::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_WeightsType GlobalNamespace::KawaseBlurRendererSO_WeightsType::AlphaWeights{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_WeightsType GlobalNamespace::KawaseBlurRendererSO_WeightsType::AlphaAndDepthWeights{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::GlobalNamespace::KawaseBlurRendererSO_BloomKernel._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::*)()>(
-    &::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO_BloomKernel::*)()>(
+    &::GlobalNamespace::KawaseBlurRendererSO_BloomKernel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3988bf0;
+  constexpr static std::size_t addrs = 0x39df5c0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize& GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::__cordl_internal_get_kernelSize() {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize& GlobalNamespace::KawaseBlurRendererSO_BloomKernel::__cordl_internal_get_kernelSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kernelSize;
 }
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const& GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::__cordl_internal_get_kernelSize() const {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize const& GlobalNamespace::KawaseBlurRendererSO_BloomKernel::__cordl_internal_get_kernelSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kernelSize;
 }
-constexpr void GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::__cordl_internal_set_kernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value) {
+constexpr void GlobalNamespace::KawaseBlurRendererSO_BloomKernel::__cordl_internal_set_kernelSize(::GlobalNamespace::KawaseBlurRendererSO_KernelSize value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___kernelSize = value;
 }
-constexpr int32_t& GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::__cordl_internal_get_sharedPartWithNext() {
+constexpr int32_t& GlobalNamespace::KawaseBlurRendererSO_BloomKernel::__cordl_internal_get_sharedPartWithNext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedPartWithNext;
 }
-constexpr int32_t const& GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::__cordl_internal_get_sharedPartWithNext() const {
+constexpr int32_t const& GlobalNamespace::KawaseBlurRendererSO_BloomKernel::__cordl_internal_get_sharedPartWithNext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedPartWithNext;
 }
-constexpr void GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::__cordl_internal_set_sharedPartWithNext(int32_t value) {
+constexpr void GlobalNamespace::KawaseBlurRendererSO_BloomKernel::__cordl_internal_set_sharedPartWithNext(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sharedPartWithNext = value;
 }
-inline ::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel* GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>());
-}
-inline void GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>::get(),
+inline void GlobalNamespace::KawaseBlurRendererSO_BloomKernel::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::KawaseBlurRendererSO_BloomKernel* GlobalNamespace::KawaseBlurRendererSO_BloomKernel::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::__KawaseBlurRendererSO__BloomKernel() {}
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_BloomKernel::KawaseBlurRendererSO_BloomKernel() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass::__KawaseBlurRendererSO__Pass(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass::KawaseBlurRendererSO_Pass(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass::__KawaseBlurRendererSO__Pass() {}
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass GlobalNamespace::__KawaseBlurRendererSO__Pass::AlphaWeights{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass GlobalNamespace::__KawaseBlurRendererSO__Pass::Blur{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass GlobalNamespace::__KawaseBlurRendererSO__Pass::BlurAndAdd{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass GlobalNamespace::__KawaseBlurRendererSO__Pass::BlurWithAlphaWeights{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass GlobalNamespace::__KawaseBlurRendererSO__Pass::AlphaAndDepthWeights{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass GlobalNamespace::__KawaseBlurRendererSO__Pass::BlurGamma{ static_cast<int32_t>(0x5) };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__Pass GlobalNamespace::__KawaseBlurRendererSO__Pass::BlurGammaAndAdd{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass::KawaseBlurRendererSO_Pass() {}
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass GlobalNamespace::KawaseBlurRendererSO_Pass::AlphaWeights{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass GlobalNamespace::KawaseBlurRendererSO_Pass::Blur{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass GlobalNamespace::KawaseBlurRendererSO_Pass::BlurAndAdd{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass GlobalNamespace::KawaseBlurRendererSO_Pass::BlurWithAlphaWeights{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass GlobalNamespace::KawaseBlurRendererSO_Pass::AlphaAndDepthWeights{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass GlobalNamespace::KawaseBlurRendererSO_Pass::BlurGamma{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass GlobalNamespace::KawaseBlurRendererSO_Pass::BlurGammaAndAdd{ static_cast<int32_t>(0x6) };
 //  Writing Method size for method: ::GlobalNamespace::KawaseBlurRendererSO.GetBlurKernel
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::GlobalNamespace::KawaseBlurRendererSO::*)(
-    ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize)>(&::GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel)> {
+    ::GlobalNamespace::KawaseBlurRendererSO_KernelSize)>(&::GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3988624;
+  constexpr static std::size_t addrs = 0x39deff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "GetBlurKernel", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get() })));
     return ___internal_method;
   }
 };
@@ -115,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::OnEnable)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x3988848;
+  constexpr static std::size_t addrs = 0x39df218;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3988bf8;
+  constexpr static std::size_t addrs = 0x39df5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "OnDisable",
@@ -141,10 +140,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(
-    ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, int32_t, int32_t, float_t, float_t, ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType, ::ArrayW<float_t, ::Array<float_t>*>)>(
+    ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, int32_t, int32_t, float_t, float_t, ::GlobalNamespace::KawaseBlurRendererSO_WeightsType, ::ArrayW<float_t, ::Array<float_t>*>)>(
     &::GlobalNamespace::KawaseBlurRendererSO::Bloom)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x3988c34;
+  constexpr static std::size_t addrs = 0x39df604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +152,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__WeightsType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_WeightsType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
     return ___internal_method;
   }
@@ -162,18 +161,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(
-    ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t,
-    float_t, int32_t, bool)>(&::GlobalNamespace::KawaseBlurRendererSO::DoubleBlur)> {
+    ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t, float_t,
+    int32_t, bool)>(&::GlobalNamespace::KawaseBlurRendererSO::DoubleBlur)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x3989564;
+  constexpr static std::size_t addrs = 0x39dff34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "DoubleBlur", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 9>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -183,15 +182,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::KawaseBlurRendererSO::*)(
-    ::UnityEngine::Texture*, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
+    ::UnityEngine::Texture*, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x39897d0;
+  constexpr static std::size_t addrs = 0x39e01a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "Blur", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -200,16 +199,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(
-    ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
+    ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x398988c;
+  constexpr static std::size_t addrs = 0x39e025c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "Blur", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -217,23 +216,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::KawaseBlurRendererSO.Blur
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(
-    ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::ArrayW<int32_t, ::Array<int32_t>*>, float_t, int32_t, int32_t, int32_t, float_t, float_t, bool, bool,
-    ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::ArrayW<int32_t, ::Array<int32_t>*>, float_t, int32_t, int32_t, int32_t,
+                                                                  float_t, float_t, bool, bool, ::GlobalNamespace::KawaseBlurRendererSO_WeightsType)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x39890b8;
+  constexpr static std::size_t addrs = 0x39dfa88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "Blur", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 12>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__WeightsType>::get() })));
+        ::std::array<Il2CppType const*, 12>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_WeightsType>::get() })));
     return ___internal_method;
   }
 };
@@ -243,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::KawaseBlurRendererSO::AlphaWeights)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3989914;
+  constexpr static std::size_t addrs = 0x39e02e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,17 +255,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::KawaseBlurRendererSO::*)(int32_t, int32_t, ::StringW, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t)>(
+    static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::KawaseBlurRendererSO::*)(int32_t, int32_t, ::StringW, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t)>(
         &::GlobalNamespace::KawaseBlurRendererSO::CreateBlurCommandBuffer)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x39899e4;
+  constexpr static std::size_t addrs = 0x39e03b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "CreateBlurCommandBuffer", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
@@ -277,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3989cf0;
+  constexpr static std::size_t addrs = 0x39e06c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), ".ctor",
@@ -381,18 +379,18 @@ constexpr void GlobalNamespace::KawaseBlurRendererSO::__cordl_internal_set__kern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____kernels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*, ::Array<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>*>&
+constexpr ::ArrayW<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*, ::Array<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*>*>&
 GlobalNamespace::KawaseBlurRendererSO::__cordl_internal_get__bloomKernels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomKernels;
 }
-constexpr ::ArrayW<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*, ::Array<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*, ::Array<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*>*> const&
 GlobalNamespace::KawaseBlurRendererSO::__cordl_internal_get__bloomKernels() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomKernels;
 }
 constexpr void GlobalNamespace::KawaseBlurRendererSO::__cordl_internal_set__bloomKernels(
-    ::ArrayW<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*, ::Array<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>*> value) {
+    ::ArrayW<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*, ::Array<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomKernels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -465,10 +463,10 @@ inline void GlobalNamespace::KawaseBlurRendererSO::setStaticF__tempTexture1ID(in
 inline int32_t GlobalNamespace::KawaseBlurRendererSO::getStaticF__tempTexture1ID() {
   return ::cordl_internals::getStaticField<int32_t, "_tempTexture1ID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get>();
 }
-inline ::ArrayW<int32_t, ::Array<int32_t>*> GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize) {
+inline ::ArrayW<int32_t, ::Array<int32_t>*> GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel(::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "GetBlurKernel", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t, ::Array<int32_t>*>, false>(this, ___internal_method, kernelSize);
 }
 inline void GlobalNamespace::KawaseBlurRendererSO::OnEnable() {
@@ -482,7 +480,7 @@ inline void GlobalNamespace::KawaseBlurRendererSO::OnDisable() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::KawaseBlurRendererSO::Bloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, int32_t iterationsStart, int32_t iterations, float_t boost,
-                                                         float_t alphaWeights, ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType blurStartWeightsType,
+                                                         float_t alphaWeights, ::GlobalNamespace::KawaseBlurRendererSO_WeightsType blurStartWeightsType,
                                                          ::ArrayW<float_t, ::Array<float_t>*> bloomIterationWeights) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "Bloom", std::span<Il2CppClass const* const, 0>(),
@@ -490,46 +488,44 @@ inline void GlobalNamespace::KawaseBlurRendererSO::Bloom(::UnityEngine::RenderTe
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__WeightsType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_WeightsType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, iterationsStart, iterations, boost, alphaWeights, blurStartWeightsType, bloomIterationWeights);
 }
-inline void GlobalNamespace::KawaseBlurRendererSO::DoubleBlur(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize0,
-                                                              float_t boost0, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize1, float_t boost1, float_t secondBlurAlpha,
+inline void GlobalNamespace::KawaseBlurRendererSO::DoubleBlur(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize0,
+                                                              float_t boost0, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize1, float_t boost1, float_t secondBlurAlpha,
                                                               int32_t downsample, bool gammaCorrection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "DoubleBlur", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, kernelSize0, boost0, kernelSize1, boost1, secondBlurAlpha, downsample, gammaCorrection);
 }
-/// @param downsample: int32_t (default: static_cast<int32_t>(0x0))
-inline ::UnityW<::UnityEngine::Texture2D> GlobalNamespace::KawaseBlurRendererSO::Blur(::UnityEngine::Texture* src, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize,
-                                                                                      int32_t downsample) {
+inline ::UnityW<::UnityEngine::Texture2D> GlobalNamespace::KawaseBlurRendererSO::Blur(::UnityEngine::Texture* src, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize, int32_t downsample) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "Blur", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>, false>(this, ___internal_method, src, kernelSize, downsample);
 }
-inline void GlobalNamespace::KawaseBlurRendererSO::Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize,
-                                                        float_t boost, int32_t downsample) {
+inline void GlobalNamespace::KawaseBlurRendererSO::Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize, float_t boost,
+                                                        int32_t downsample) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "Blur", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, kernelSize, boost, downsample);
 }
 inline void GlobalNamespace::KawaseBlurRendererSO::Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::ArrayW<int32_t, ::Array<int32_t>*> kernel, float_t boost, int32_t downsample,
                                                         int32_t startIdx, int32_t length, float_t alphaWeights, float_t additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection,
-                                                        ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType blurStartWeightsType) {
+                                                        ::GlobalNamespace::KawaseBlurRendererSO_WeightsType blurStartWeightsType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "Blur", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 12>{
@@ -538,7 +534,7 @@ inline void GlobalNamespace::KawaseBlurRendererSO::Blur(::UnityEngine::Texture* 
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__WeightsType>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_WeightsType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, kernel, boost, downsample, startIdx, length, alphaWeights, additiveAlpha, additivelyBlendToDest,
                                                           gammaCorrection, blurStartWeightsType);
 }
@@ -550,22 +546,22 @@ inline void GlobalNamespace::KawaseBlurRendererSO::AlphaWeights(::UnityEngine::R
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest);
 }
 inline ::UnityEngine::Rendering::CommandBuffer* GlobalNamespace::KawaseBlurRendererSO::CreateBlurCommandBuffer(int32_t width, int32_t height, ::StringW globalTextureName,
-                                                                                                               ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, float_t boost) {
+                                                                                                               ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize, float_t boost) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "CreateBlurCommandBuffer", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__KawaseBlurRendererSO__KernelSize>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::KawaseBlurRendererSO_KernelSize>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CommandBuffer*, false>(this, ___internal_method, width, height, globalTextureName, kernelSize, boost);
-}
-inline ::GlobalNamespace::KawaseBlurRendererSO* GlobalNamespace::KawaseBlurRendererSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::KawaseBlurRendererSO*>());
 }
 inline void GlobalNamespace::KawaseBlurRendererSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::KawaseBlurRendererSO* GlobalNamespace::KawaseBlurRendererSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::KawaseBlurRendererSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::KawaseBlurRendererSO::KawaseBlurRendererSO() {}

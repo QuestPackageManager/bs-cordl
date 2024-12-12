@@ -3,6 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JEnumerable_1)
@@ -19,13 +23,7 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -36,18 +34,17 @@ template <typename T> struct JEnumerable_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Newtonsoft::Json::Linq::JEnumerable_1);
-// Type: Newtonsoft.Json.Linq::JEnumerable`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Linq.IJEnumerable`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.IEquatable`1<T>
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::Newtonsoft.Json.Linq::JEnumerable`1<T>
+// CS Name: Newtonsoft.Json.Linq.JEnumerable`1<T>
 struct CORDL_TYPE JEnumerable_1 {
 public:
   // Declarations
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::Newtonsoft::Json::Linq::JEnumerable_1<T> Empty;
+  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::Newtonsoft::Json::Linq::JEnumerable_1<T> Empty;
 
   __declspec(property(get = get_Item)) ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Item[];
 
@@ -107,14 +104,14 @@ public:
   // Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: None }]
   constexpr JEnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept;
 
-  /// @brief Field _enumerable, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<T>* _enumerable;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10395 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
+  /// @brief Field _enumerable, offset: 0x0, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerable_1<T>* _enumerable;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

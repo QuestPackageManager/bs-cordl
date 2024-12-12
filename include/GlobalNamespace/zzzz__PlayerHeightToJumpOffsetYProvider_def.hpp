@@ -3,20 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightToJumpOffsetYProvider)
 namespace GlobalNamespace {
-class IJumpOffsetYProvider;
-}
-namespace GlobalNamespace {
 class PlayerHeightDetector;
-}
-namespace System {
-class IDisposable;
-}
-namespace Zenject {
-class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,11 +18,10 @@ class PlayerHeightToJumpOffsetYProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider);
-// Type: ::PlayerHeightToJumpOffsetYProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IJumpOffsetYProvider, System.IDisposable, System.Object, Zenject.IInitializable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerHeightToJumpOffsetYProvider*
+// CS Name: PlayerHeightToJumpOffsetYProvider
 class CORDL_TYPE PlayerHeightToJumpOffsetYProvider : public ::System::Object {
 public:
   // Declarations
@@ -49,16 +42,16 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3b83128, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3be49b0, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandlePlayerHeightDidChange, addr 0x3b830f0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeightDidChange, addr 0x3be4978, size 0x38, virtual false, abstract: false, final false
   inline void HandlePlayerHeightDidChange(float_t playerHeight);
 
-  /// @brief Method Initialize, addr 0x3b82fc8, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3be4850, size 0xf4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method JumpOffsetYForPlayerHeight, addr 0x3b830bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method JumpOffsetYForPlayerHeight, addr 0x3be4944, size 0x34, virtual false, abstract: false, final false
   static inline float_t JumpOffsetYForPlayerHeight(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider* New_ctor();
@@ -75,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__playerHeightDetector(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
 
-  /// @brief Method .ctor, addr 0x3b831f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpOffsetY, addr 0x3b82fc0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x3be4848, size 0x8, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
@@ -104,23 +97,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerHeightToJumpOffsetYProvider(PlayerHeightToJumpOffsetYProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4641 };
+
   /// @brief Field _playerHeightDetector, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeightDetector> ____playerHeightDetector;
 
   /// @brief Field _jumpOffsetY, offset: 0x18, size: 0x4, def value: None
   float_t ____jumpOffsetY;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4629 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightToJumpOffsetYProvider, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider, ____playerHeightDetector) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider, ____jumpOffsetY) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightToJumpOffsetYProvider, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider);

@@ -20,11 +20,10 @@ class Gost3410PublicKeyParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::Gost3410PublicKeyParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::Gost3410PublicKeyParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.Gost3410PublicKeyParameters
 class CORDL_TYPE Gost3410PublicKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters {
 public:
   // Declarations
@@ -39,19 +38,19 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y,
                                                                                                ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_y();
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_y() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_y() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_y();
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x2389be8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bced4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor, addr 0x2389ca4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bcf90, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Y, addr 0x2389d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x23bd054, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
 protected:
@@ -68,18 +67,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gost3410PublicKeyParameters(Gost3410PublicKeyParameters const&) = delete;
 
-  /// @brief Field y, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___y;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1055 };
+
+  /// @brief Field y, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Math::BigInteger* ___y;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters, ___y) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters);

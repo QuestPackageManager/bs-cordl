@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::get_enabled)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x459d1b8;
+  constexpr static std::size_t addrs = 0x45fe4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Enable)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x459d208;
+  constexpr static std::size_t addrs = 0x45fe51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Disable)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x459d554;
+  constexpr static std::size_t addrs = 0x45fe868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Reset)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x459d894;
+  constexpr static std::size_t addrs = 0x45feba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::SetUpState)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x459d378;
+  constexpr static std::size_t addrs = 0x45fe68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::TearDownState)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x459d6d8;
+  constexpr static std::size_t addrs = 0x45fe9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(
     &::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::OnDeviceChange)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x459d9b8;
+  constexpr static std::size_t addrs = 0x45feccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::OnSettingsChange)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x459dc44;
+  constexpr static std::size_t addrs = 0x45fef58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::CheckEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x459dcdc;
+  constexpr static std::size_t addrs = 0x45feff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,13 +140,13 @@ inline void UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::setSt
 inline int32_t UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::getStaticF_s_Enabled() {
   return ::cordl_internals::getStaticField<int32_t, "s_Enabled", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport*>::get>();
 }
-inline void UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::setStaticF_s_UpdateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value) {
-  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::__InputSettings__UpdateMode, "s_UpdateMode",
+inline void UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::setStaticF_s_UpdateMode(::UnityEngine::InputSystem::InputSettings_UpdateMode value) {
+  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::InputSettings_UpdateMode, "s_UpdateMode",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport*>::get>(
-      std::forward<::UnityEngine::InputSystem::__InputSettings__UpdateMode>(value));
+      std::forward<::UnityEngine::InputSystem::InputSettings_UpdateMode>(value));
 }
-inline ::UnityEngine::InputSystem::__InputSettings__UpdateMode UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::getStaticF_s_UpdateMode() {
-  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::__InputSettings__UpdateMode, "s_UpdateMode",
+inline ::UnityEngine::InputSystem::InputSettings_UpdateMode UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::getStaticF_s_UpdateMode() {
+  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::InputSettings_UpdateMode, "s_UpdateMode",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport*>::get>();
 }
 inline bool UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::get_enabled() {

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_CookLogs* (*)()>(&::HoudiniEngineUnity::HEU_CookLogs::get_Instance)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3a117c8;
+  constexpr static std::size_t addrs = 0x3a68438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), "get_Instance",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_CookLogs::*)()>(&::HoudiniEngineUnity::HEU_CookLogs::GetCookLogString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a118c8;
+  constexpr static std::size_t addrs = 0x3a68538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), "GetCookLogString",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_CookLogs::*)(::StringW)>(&::HoudiniEngineUnity::HEU_CookLogs::AppendCookLog)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3a118e8;
+  constexpr static std::size_t addrs = 0x3a68558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_CookLogs::*)()>(&::HoudiniEngineUnity::HEU_CookLogs::ClearCookLog)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a11c38;
+  constexpr static std::size_t addrs = 0x3a688a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), "ClearCookLog",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_CookLogs::*)()>(&::HoudiniEngineUnity::HEU_CookLogs::GetCookLogFilePath)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3a11c94;
+  constexpr static std::size_t addrs = 0x3a68904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), "GetCookLogFilePath",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_CookLogs::*)()>(&::HoudiniEngineUnity::HEU_CookLogs::DeleteCookingFile)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3a11dac;
+  constexpr static std::size_t addrs = 0x3a68a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), "DeleteCookingFile",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_CookLogs::*)(::StringW, bool)>(&::HoudiniEngineUnity::HEU_CookLogs::WriteToLogFile)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x3a119e8;
+  constexpr static std::size_t addrs = 0x3a68658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::HoudiniEngineUnity::HEU_CookLogs::*)()>(&::HoudiniEngineUnity::HEU_CookLogs::GetFileSizeOfLogFile)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3a11e34;
+  constexpr static std::size_t addrs = 0x3a68aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_CookLogs::*)()>(&::HoudiniEngineUnity::HEU_CookLogs::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a1183c;
+  constexpr static std::size_t addrs = 0x3a684ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), ".ctor",
@@ -126,7 +126,7 @@ constexpr ::System::Text::StringBuilder*& HoudiniEngineUnity::HEU_CookLogs::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookLogs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& HoudiniEngineUnity::HEU_CookLogs::__cordl_internal_get__cookLogs() const {
+constexpr ::System::Text::StringBuilder* const& HoudiniEngineUnity::HEU_CookLogs::__cordl_internal_get__cookLogs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookLogs;
 }
@@ -208,7 +208,6 @@ inline void HoudiniEngineUnity::HEU_CookLogs::DeleteCookingFile() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param checkLastLogStr: bool (default: true)
 inline void HoudiniEngineUnity::HEU_CookLogs::WriteToLogFile(::StringW logStr, bool checkLastLogStr) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), "WriteToLogFile", std::span<Il2CppClass const* const, 0>(),
@@ -220,13 +219,13 @@ inline int64_t HoudiniEngineUnity::HEU_CookLogs::GetFileSizeOfLogFile() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::HEU_CookLogs* HoudiniEngineUnity::HEU_CookLogs::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_CookLogs*>());
-}
 inline void HoudiniEngineUnity::HEU_CookLogs::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_CookLogs*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_CookLogs* HoudiniEngineUnity::HEU_CookLogs::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_CookLogs*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_CookLogs::HEU_CookLogs() {}

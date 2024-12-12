@@ -3,27 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionWrapper_1)
-namespace Newtonsoft::Json::Utilities {
-class IWrappedCollection;
-}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -43,13 +36,13 @@ template <typename T> class CollectionWrapper_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::CollectionWrapper_1);
-// Type: Newtonsoft.Json.Utilities::CollectionWrapper`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Utilities.IWrappedCollection, System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.ICollection,
+// System.Collections.IEnumerable, System.Collections.IList, System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::CollectionWrapper`1<T>*
+// CS Name: Newtonsoft.Json.Utilities.CollectionWrapper`1<T>
 class CORDL_TYPE CollectionWrapper_1 : public ::System::Object {
 public:
   // Declarations
@@ -161,17 +154,17 @@ public:
   /// @brief Method VerifyValueType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void VerifyValueType(::System::Object* value);
 
+  constexpr ::System::Collections::Generic::ICollection_1<T>* const& __cordl_internal_get__genericCollection() const;
+
   constexpr ::System::Collections::Generic::ICollection_1<T>*& __cordl_internal_get__genericCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::ICollection_1<T>*> const& __cordl_internal_get__genericCollection() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get__list() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__list() const;
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
   constexpr void __cordl_internal_set__genericCollection(::System::Collections::Generic::ICollection_1<T>* value);
 
@@ -226,6 +219,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionWrapper_1(CollectionWrapper_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10189 };
+
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ____list;
 
@@ -234,9 +230,6 @@ public:
 
   /// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

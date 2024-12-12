@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ToneMapping (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassBloomTextureEffectSO::get_toneMapping)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4024034;
+  constexpr static std::size_t addrs = 0x4085348;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4024054;
+  constexpr static std::size_t addrs = 0x4085368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassBloomTextureEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40240c0;
+  constexpr static std::size_t addrs = 0x40853d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>::get(),
@@ -137,51 +137,51 @@ constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finalUpsampleBrightness = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__prefilterPass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__prefilterPass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefilterPass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__prefilterPass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__prefilterPass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefilterPass;
 }
-constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__prefilterPass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__prefilterPass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prefilterPass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__downsamplePass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__downsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__downsamplePass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__downsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsamplePass;
 }
-constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__downsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__downsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____downsamplePass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__upsamplePass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__upsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__upsamplePass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__upsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upsamplePass;
 }
-constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__upsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____upsamplePass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__finalUpsamplePass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__finalUpsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finalUpsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__finalUpsamplePass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_get__finalUpsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finalUpsamplePass;
 }
-constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__finalUpsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::BloomPrePassBloomTextureEffectSO::__cordl_internal_set__finalUpsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finalUpsamplePass = value;
 }
@@ -219,13 +219,13 @@ inline void GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render(::UnityEng
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest);
 }
-inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* GlobalNamespace::BloomPrePassBloomTextureEffectSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>());
-}
 inline void GlobalNamespace::BloomPrePassBloomTextureEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* GlobalNamespace::BloomPrePassBloomTextureEffectSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBloomTextureEffectSO::BloomPrePassBloomTextureEffectSO() {}

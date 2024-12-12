@@ -1,19 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/ObjectPool_1.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-/// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr UnityEngine::ProBuilder::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* UnityEngine::ProBuilder::ObjectPool_1<T>::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 template <typename T> constexpr bool& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_m_IsDisposed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsDisposed;
@@ -30,7 +22,7 @@ template <typename T> constexpr ::System::Collections::Generic::Queue_1<T>*& Uni
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Pool;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<T>*> const& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_m_Pool() const {
+template <typename T> constexpr ::System::Collections::Generic::Queue_1<T>* const& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_m_Pool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Pool;
 }
@@ -54,7 +46,7 @@ template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::ProBuilder::O
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_constructor() const {
+template <typename T> constexpr ::System::Func_1<T>* const& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_constructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
@@ -66,7 +58,7 @@ template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::ProBuilder:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destructor;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_destructor() const {
+template <typename T> constexpr ::System::Action_1<T>* const& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_destructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destructor;
 }
@@ -74,13 +66,6 @@ template <typename T> constexpr void UnityEngine::ProBuilder::ObjectPool_1<T>::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___destructor, value);
 }
-/// @param lazyInitialization: bool (default: false)
-template <typename T>
-inline ::UnityEngine::ProBuilder::ObjectPool_1<T>* UnityEngine::ProBuilder::ObjectPool_1<T>::New_ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor,
-                                                                                                      ::System::Action_1<T>* destructor, bool lazyInitialization) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::ObjectPool_1<T>*>(initialSize, desiredSize, constructor, destructor, lazyInitialization));
-}
-/// @param lazyInitialization: bool (default: false)
 template <typename T>
 inline void UnityEngine::ProBuilder::ObjectPool_1<T>::_ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor, bool lazyInitialization) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,6 +101,19 @@ template <typename T> inline void UnityEngine::ProBuilder::ObjectPool_1<T>::Disp
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ObjectPool_1<T>*>::get(), "Dispose",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+}
+template <typename T>
+inline ::UnityEngine::ProBuilder::ObjectPool_1<T>* UnityEngine::ProBuilder::ObjectPool_1<T>::New_ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor,
+                                                                                                      ::System::Action_1<T>* destructor, bool lazyInitialization) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::ObjectPool_1<T>*>(initialSize, desiredSize, constructor, destructor, lazyInitialization));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename T> constexpr UnityEngine::ProBuilder::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* UnityEngine::ProBuilder::ObjectPool_1<T>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ProBuilder::ObjectPool_1<T>::ObjectPool_1() {}

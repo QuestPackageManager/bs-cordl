@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_HoudiniVersion)
 // Forward declare root types
@@ -12,17 +13,16 @@ class HEU_HoudiniVersion;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniVersion);
-// Type: HoudiniEngineUnity::HEU_HoudiniVersion
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_HoudiniVersion*
+// CS Name: HoudiniEngineUnity.HEU_HoudiniVersion
 class CORDL_TYPE HEU_HoudiniVersion : public ::System::Object {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_HoudiniVersion* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39f2544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a491b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   static constexpr int32_t UNITY_PLUGIN_VERSION{ static_cast<int32_t>(0x2) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 #include "System/Diagnostics/zzzz__ProcessWindowStyle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(ProcessStartInfo)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
@@ -40,11 +38,10 @@ class ProcessStartInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::ProcessStartInfo);
-// Type: System.Diagnostics::ProcessStartInfo
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Diagnostics.ProcessWindowStyle, System.IntPtr, System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::ProcessStartInfo*
+// CS Name: System.Diagnostics.ProcessStartInfo
 class CORDL_TYPE ProcessStartInfo : public ::System::Object {
 public:
   // Declarations
@@ -104,7 +101,7 @@ public:
   __declspec(property(get = __cordl_internal_get_domain, put = __cordl_internal_set_domain)) ::StringW domain;
 
   /// @brief Field empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_empty, put = setStaticF_empty)) ::ArrayW<::StringW, ::Array<::StringW>*> empty;
+  __declspec(property(get = getStaticF_empty, put = setStaticF_empty)) ::ArrayW<::StringW, ::Array<::StringW>*> empty;
 
   /// @brief Field environment, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_environment, put = __cordl_internal_set_environment)) ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* environment;
@@ -164,13 +161,13 @@ public:
 
   static inline ::System::Diagnostics::ProcessStartInfo* New_ctor(::System::Diagnostics::Process* parent);
 
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get__StandardInputEncoding_k__BackingField() const;
+
   constexpr ::System::Text::Encoding*& __cordl_internal_get__StandardInputEncoding_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__StandardInputEncoding_k__BackingField() const;
+  constexpr ::System::Collections::ObjectModel::Collection_1<::StringW>* const& __cordl_internal_get__argumentList() const;
 
   constexpr ::System::Collections::ObjectModel::Collection_1<::StringW>*& __cordl_internal_get__argumentList();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::Collection_1<::StringW>*> const& __cordl_internal_get__argumentList() const;
 
   constexpr ::StringW const& __cordl_internal_get_arguments() const;
 
@@ -188,13 +185,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_domain();
 
+  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& __cordl_internal_get_environment() const;
+
   constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& __cordl_internal_get_environment();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get_environment() const;
+  constexpr ::System::Collections::Specialized::StringDictionary* const& __cordl_internal_get_environmentVariables() const;
 
   constexpr ::System::Collections::Specialized::StringDictionary*& __cordl_internal_get_environmentVariables();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::StringDictionary*> const& __cordl_internal_get_environmentVariables() const;
 
   constexpr bool const& __cordl_internal_get_errorDialog() const;
 
@@ -212,9 +209,9 @@ public:
 
   constexpr bool& __cordl_internal_get_loadUserProfile();
 
-  constexpr ::System::Security::SecureString*& __cordl_internal_get_password();
+  constexpr ::System::Security::SecureString* const& __cordl_internal_get_password() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecureString*> const& __cordl_internal_get_password() const;
+  constexpr ::System::Security::SecureString*& __cordl_internal_get_password();
 
   constexpr ::StringW const& __cordl_internal_get_passwordInClearText() const;
 
@@ -232,13 +229,13 @@ public:
 
   constexpr bool& __cordl_internal_get_redirectStandardOutput();
 
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get_standardErrorEncoding() const;
+
   constexpr ::System::Text::Encoding*& __cordl_internal_get_standardErrorEncoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_standardErrorEncoding() const;
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get_standardOutputEncoding() const;
 
   constexpr ::System::Text::Encoding*& __cordl_internal_get_standardOutputEncoding();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_standardOutputEncoding() const;
 
   constexpr bool const& __cordl_internal_get_useShellExecute() const;
 
@@ -252,9 +249,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_verb();
 
-  constexpr ::System::WeakReference*& __cordl_internal_get_weakParentProcess();
+  constexpr ::System::WeakReference* const& __cordl_internal_get_weakParentProcess() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& __cordl_internal_get_weakParentProcess() const;
+  constexpr ::System::WeakReference*& __cordl_internal_get_weakParentProcess();
 
   constexpr ::System::Diagnostics::ProcessWindowStyle const& __cordl_internal_get_windowStyle() const;
 
@@ -308,86 +305,86 @@ public:
 
   constexpr void __cordl_internal_set_windowStyle(::System::Diagnostics::ProcessWindowStyle value);
 
-  /// @brief Method .ctor, addr 0x43cf628, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443093c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43cc508, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442d81c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::Process* parent);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_empty();
 
-  /// @brief Method get_ArgumentList, addr 0x43cf4b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentList, addr 0x44307c8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::Collection_1<::StringW>* get_ArgumentList();
 
-  /// @brief Method get_Arguments, addr 0x43cf52c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x4430840, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Arguments();
 
-  /// @brief Method get_Domain, addr 0x43cf5d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x44308e8, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method get_EnvironmentVariables, addr 0x43cef98, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentVariables, addr 0x44302ac, size 0x51c, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
 
-  /// @brief Method get_FileName, addr 0x43cd32c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x442e640, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_HaveEnvVars, addr 0x43cef88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveEnvVars, addr 0x443029c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveEnvVars();
 
-  /// @brief Method get_LoadUserProfile, addr 0x43cf6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadUserProfile, addr 0x44309bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_LoadUserProfile();
 
-  /// @brief Method get_Password, addr 0x43cf6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x44309b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::SecureString* get_Password();
 
-  /// @brief Method get_RedirectStandardError, addr 0x43cf668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardError, addr 0x443097c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardError();
 
-  /// @brief Method get_RedirectStandardInput, addr 0x43cf640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardInput, addr 0x4430954, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardInput();
 
-  /// @brief Method get_RedirectStandardOutput, addr 0x43cf654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardOutput, addr 0x4430968, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardOutput();
 
-  /// @brief Method get_StandardErrorEncoding, addr 0x43cf67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardErrorEncoding, addr 0x4430990, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardErrorEncoding();
 
-  /// @brief Method get_StandardInputEncoding, addr 0x43cf82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardInputEncoding, addr 0x4430b40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardInputEncoding();
 
-  /// @brief Method get_StandardOutputEncoding, addr 0x43cf684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardOutputEncoding, addr 0x4430998, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardOutputEncoding();
 
-  /// @brief Method get_UseShellExecute, addr 0x43cf68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseShellExecute, addr 0x44309a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseShellExecute();
 
-  /// @brief Method get_UserName, addr 0x43cec28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UserName, addr 0x442ff3c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_UserName();
 
-  /// @brief Method get_WorkingDirectory, addr 0x43cf580, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_WorkingDirectory, addr 0x4430894, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_WorkingDirectory();
 
   static inline void setStaticF_empty(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_Arguments, addr 0x43cf638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Arguments, addr 0x443094c, size 0x8, virtual false, abstract: false, final false
   inline void set_Arguments(::StringW value);
 
-  /// @brief Method set_FileName, addr 0x43cf6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FileName, addr 0x44309c4, size 0x8, virtual false, abstract: false, final false
   inline void set_FileName(::StringW value);
 
-  /// @brief Method set_RedirectStandardError, addr 0x43cf670, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardError, addr 0x4430984, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardError(bool value);
 
-  /// @brief Method set_RedirectStandardInput, addr 0x43cf648, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardInput, addr 0x443095c, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardInput(bool value);
 
-  /// @brief Method set_RedirectStandardOutput, addr 0x43cf65c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardOutput, addr 0x4430970, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardOutput(bool value);
 
-  /// @brief Method set_UseShellExecute, addr 0x43cf694, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseShellExecute, addr 0x44309a8, size 0xc, virtual false, abstract: false, final false
   inline void set_UseShellExecute(bool value);
 
-  /// @brief Method set_WindowStyle, addr 0x43cf6b8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method set_WindowStyle, addr 0x44309cc, size 0x174, virtual false, abstract: false, final false
   inline void set_WindowStyle(::System::Diagnostics::ProcessWindowStyle value);
 
 protected:
@@ -403,6 +400,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ProcessStartInfo(ProcessStartInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9271 };
 
   /// @brief Field fileName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___fileName;
@@ -476,14 +476,9 @@ public:
   /// @brief Field <StandardInputEncoding>k__BackingField, offset: 0xa8, size: 0x8, def value: None
   ::System::Text::Encoding* ____StandardInputEncoding_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9246 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessStartInfo, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::ProcessStartInfo, ___fileName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::ProcessStartInfo, ___arguments) == 0x18, "Offset mismatch!");
@@ -531,6 +526,8 @@ static_assert(offsetof(::System::Diagnostics::ProcessStartInfo, ____argumentList
 static_assert(offsetof(::System::Diagnostics::ProcessStartInfo, ___environment) == 0xa0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::ProcessStartInfo, ____StandardInputEncoding_k__BackingField) == 0xa8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessStartInfo, 0xb0>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::ProcessStartInfo);

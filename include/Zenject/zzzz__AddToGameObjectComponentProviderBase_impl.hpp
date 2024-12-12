@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Zenject/AddToGameObjectComponentProviderBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,174 +12,170 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-//  Writing Method size for method: ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0._ctor
+//  Writing Method size for method: ::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::*)()>(
-    &::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::*)()>(
+    &::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad583c;
+  constexpr static std::size_t addrs = 0x4b3a14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0._GetAllInstancesWithInjectSplit_b__0
+//  Writing Method size for method: ::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0._GetAllInstancesWithInjectSplit_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::*)()>(
-    &::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::_GetAllInstancesWithInjectSplit_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::*)()>(
+    &::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::_GetAllInstancesWithInjectSplit_b__0)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x4ad5844;
+  constexpr static std::size_t addrs = 0x4b3a154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(),
                                                  "<GetAllInstancesWithInjectSplit>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0.__zenCreate
+//  Writing Method size for method: ::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__zenCreate)> {
+    &::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ad5a88;
+  constexpr static std::size_t addrs = 0x4b3a398;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(), "__zenCreate",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0.__zenCreateInjectTypeInfo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
-    &::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__zenCreateInjectTypeInfo)> {
+    &::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4ad5adc;
+  constexpr static std::size_t addrs = 0x4b3a3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(),
                                                  "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::AddToGameObjectComponentProviderBase*& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get___4__this() {
+constexpr ::Zenject::AddToGameObjectComponentProviderBase*& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::AddToGameObjectComponentProviderBase*> const&
-Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get___4__this() const {
+constexpr ::Zenject::AddToGameObjectComponentProviderBase* const& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_set___4__this(::Zenject::AddToGameObjectComponentProviderBase* value) {
+constexpr void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_set___4__this(::Zenject::AddToGameObjectComponentProviderBase* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_args() {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_args() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const&
-Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_args() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_args() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
-constexpr void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
+constexpr void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_instance() {
+constexpr ::System::Object*& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_instance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instance;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_instance() const {
+constexpr ::System::Object* const& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_instance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instance;
 }
-constexpr void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_set_instance(::System::Object* value) {
+constexpr void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_set_instance(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___instance)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Zenject::InjectContext*& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_context() {
+constexpr ::Zenject::InjectContext*& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_context() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_context() const {
+constexpr ::Zenject::InjectContext* const& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_context() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
-constexpr void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_set_context(::Zenject::InjectContext* value) {
+constexpr void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_set_context(::Zenject::InjectContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_wasActive() {
+constexpr bool& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_wasActive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wasActive;
 }
-constexpr bool const& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_wasActive() const {
+constexpr bool const& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_wasActive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wasActive;
 }
-constexpr void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_set_wasActive(bool value) {
+constexpr void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_set_wasActive(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wasActive = value;
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_gameObj() {
+constexpr ::UnityW<::UnityEngine::GameObject>& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_gameObj() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameObj;
 }
-constexpr ::UnityW<::UnityEngine::GameObject> const& Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_get_gameObj() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_get_gameObj() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameObj;
 }
-constexpr void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__cordl_internal_set_gameObj(::UnityW<::UnityEngine::GameObject> value) {
+constexpr void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__cordl_internal_set_gameObj(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameObj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0* Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>());
-}
-inline void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::_ctor() {
+inline void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::_GetAllInstancesWithInjectSplit_b__0() {
+inline void Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::_GetAllInstancesWithInjectSplit_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(),
                                                "<GetAllInstancesWithInjectSplit>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__zenCreateInjectTypeInfo() {
+inline ::Zenject::InjectTypeInfo* Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>::get(),
                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0* Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0() {}
+constexpr ::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0::AddToGameObjectComponentProviderBase___c__DisplayClass17_0() {}
 //  Writing Method size for method: ::Zenject::AddToGameObjectComponentProviderBase._ctor
 template <>
 
@@ -186,7 +183,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::DiContainer*, ::System::Type*, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*, ::System::Object*,
     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*)>(&::Zenject::AddToGameObjectComponentProviderBase::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4ad53ac;
+  constexpr static std::size_t addrs = 0x4b39cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::AddToGameObjectComponentProviderBase::*)()>(
     &::Zenject::AddToGameObjectComponentProviderBase::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad5554;
+  constexpr static std::size_t addrs = 0x4b39e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(),
@@ -219,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::AddToGameObjectComponentProviderBase::*)()>(
     &::Zenject::AddToGameObjectComponentProviderBase::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad555c;
+  constexpr static std::size_t addrs = 0x4b39e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::AddToGameObjectComponentProviderBase::*)()>(
     &::Zenject::AddToGameObjectComponentProviderBase::get_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad5564;
+  constexpr static std::size_t addrs = 0x4b39e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(),
@@ -248,27 +245,11 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::AddToGameObjectComponentProviderBase::*)()>(
     &::Zenject::AddToGameObjectComponentProviderBase::get_ComponentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad556c;
+  constexpr static std::size_t addrs = 0x4b39e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(),
                                                                                "get_ComponentType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::AddToGameObjectComponentProviderBase.get_ShouldToggleActive
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::AddToGameObjectComponentProviderBase::*)()>(
-    &::Zenject::AddToGameObjectComponentProviderBase::get_ShouldToggleActive)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(), 8));
     return ___internal_method;
   }
 };
@@ -278,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::AddToGameObjectComponentProviderBase::*)(::Zenject::InjectContext*)>(
     &::Zenject::AddToGameObjectComponentProviderBase::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad5574;
+  constexpr static std::size_t addrs = 0x4b39e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,50 +272,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::AddToGameObjectComponentProviderBase::*)(
-    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
+    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::AddToGameObjectComponentProviderBase::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x4ad557c;
+  constexpr static std::size_t addrs = 0x4b39e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::AddToGameObjectComponentProviderBase.GetGameObject
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::AddToGameObjectComponentProviderBase::*)(::Zenject::InjectContext*)>(
-    &::Zenject::AddToGameObjectComponentProviderBase::GetGameObject)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(), 9));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to "::Zenject::IProvider"
-constexpr Zenject::AddToGameObjectComponentProviderBase::operator ::Zenject::IProvider*() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IProvider"
-constexpr ::Zenject::IProvider* Zenject::AddToGameObjectComponentProviderBase::i___Zenject__IProvider() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
 constexpr ::System::Type*& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__componentType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__componentType() const {
+constexpr ::System::Type* const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__componentType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentType;
 }
@@ -346,7 +303,7 @@ constexpr ::Zenject::DiContainer*& Zenject::AddToGameObjectComponentProviderBase
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -358,8 +315,7 @@ constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraArguments;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const&
-Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__extraArguments() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__extraArguments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraArguments;
 }
@@ -371,7 +327,7 @@ constexpr ::System::Object*& Zenject::AddToGameObjectComponentProviderBase::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____concreteIdentifier;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__concreteIdentifier() const {
+constexpr ::System::Object* const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__concreteIdentifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____concreteIdentifier;
 }
@@ -383,20 +339,13 @@ constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*& Zen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateCallback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*> const&
-Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__instantiateCallback() const {
+constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* const& Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_get__instantiateCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateCallback;
 }
 constexpr void Zenject::AddToGameObjectComponentProviderBase::__cordl_internal_set__instantiateCallback(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instantiateCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::AddToGameObjectComponentProviderBase* Zenject::AddToGameObjectComponentProviderBase::New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType,
-                                                                                                                ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
-                                                                                                                ::System::Object* concreteIdentifier,
-                                                                                                                ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::AddToGameObjectComponentProviderBase*>(container, componentType, extraArguments, concreteIdentifier, instantiateCallback));
 }
 inline void Zenject::AddToGameObjectComponentProviderBase::_ctor(::Zenject::DiContainer* container, ::System::Type* componentType,
                                                                  ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
@@ -442,12 +391,12 @@ inline ::System::Type* Zenject::AddToGameObjectComponentProviderBase::GetInstanc
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, context);
 }
 inline void Zenject::AddToGameObjectComponentProviderBase::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
-                                                                                          ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
+                                                                                          ::ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
 }
@@ -455,6 +404,20 @@ inline ::UnityW<::UnityEngine::GameObject> Zenject::AddToGameObjectComponentProv
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToGameObjectComponentProviderBase*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, context);
+}
+inline ::Zenject::AddToGameObjectComponentProviderBase* Zenject::AddToGameObjectComponentProviderBase::New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType,
+                                                                                                                ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
+                                                                                                                ::System::Object* concreteIdentifier,
+                                                                                                                ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::AddToGameObjectComponentProviderBase*>(container, componentType, extraArguments, concreteIdentifier, instantiateCallback));
+}
+/// @brief Convert operator to "::Zenject::IProvider"
+constexpr Zenject::AddToGameObjectComponentProviderBase::operator ::Zenject::IProvider*() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IProvider"
+constexpr ::Zenject::IProvider* Zenject::AddToGameObjectComponentProviderBase::i___Zenject__IProvider() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::AddToGameObjectComponentProviderBase::AddToGameObjectComponentProviderBase() {}

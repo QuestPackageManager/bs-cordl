@@ -12,11 +12,10 @@ struct BindingFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::BindingFlags);
-// Type: System.Reflection::BindingFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::BindingFlags
+// CS Name: System.Reflection.BindingFlags
 struct CORDL_TYPE BindingFlags {
 public:
   // Declarations
@@ -64,70 +63,67 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr BindingFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field CreateInstance value: static_cast<int32_t>(0x200)
+  /// @brief Field CreateInstance value: I32(512)
   static ::System::Reflection::BindingFlags const CreateInstance;
 
-  /// @brief Field DeclaredOnly value: static_cast<int32_t>(0x2)
+  /// @brief Field DeclaredOnly value: I32(2)
   static ::System::Reflection::BindingFlags const DeclaredOnly;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
+  /// @brief Field Default value: I32(0)
   static ::System::Reflection::BindingFlags const Default;
 
-  /// @brief Field DoNotWrapExceptions value: static_cast<int32_t>(0x2000000)
+  /// @brief Field DoNotWrapExceptions value: I32(33554432)
   static ::System::Reflection::BindingFlags const DoNotWrapExceptions;
 
-  /// @brief Field ExactBinding value: static_cast<int32_t>(0x10000)
+  /// @brief Field ExactBinding value: I32(65536)
   static ::System::Reflection::BindingFlags const ExactBinding;
 
-  /// @brief Field FlattenHierarchy value: static_cast<int32_t>(0x40)
+  /// @brief Field FlattenHierarchy value: I32(64)
   static ::System::Reflection::BindingFlags const FlattenHierarchy;
 
-  /// @brief Field GetField value: static_cast<int32_t>(0x400)
+  /// @brief Field GetField value: I32(1024)
   static ::System::Reflection::BindingFlags const GetField;
 
-  /// @brief Field GetProperty value: static_cast<int32_t>(0x1000)
+  /// @brief Field GetProperty value: I32(4096)
   static ::System::Reflection::BindingFlags const GetProperty;
 
-  /// @brief Field IgnoreCase value: static_cast<int32_t>(0x1)
+  /// @brief Field IgnoreCase value: I32(1)
   static ::System::Reflection::BindingFlags const IgnoreCase;
 
-  /// @brief Field IgnoreReturn value: static_cast<int32_t>(0x1000000)
+  /// @brief Field IgnoreReturn value: I32(16777216)
   static ::System::Reflection::BindingFlags const IgnoreReturn;
 
-  /// @brief Field Instance value: static_cast<int32_t>(0x4)
+  /// @brief Field Instance value: I32(4)
   static ::System::Reflection::BindingFlags const Instance;
 
-  /// @brief Field InvokeMethod value: static_cast<int32_t>(0x100)
+  /// @brief Field InvokeMethod value: I32(256)
   static ::System::Reflection::BindingFlags const InvokeMethod;
 
-  /// @brief Field NonPublic value: static_cast<int32_t>(0x20)
+  /// @brief Field NonPublic value: I32(32)
   static ::System::Reflection::BindingFlags const NonPublic;
 
-  /// @brief Field OptionalParamBinding value: static_cast<int32_t>(0x40000)
+  /// @brief Field OptionalParamBinding value: I32(262144)
   static ::System::Reflection::BindingFlags const OptionalParamBinding;
 
-  /// @brief Field Public value: static_cast<int32_t>(0x10)
+  /// @brief Field Public value: I32(16)
   static ::System::Reflection::BindingFlags const Public;
 
-  /// @brief Field PutDispProperty value: static_cast<int32_t>(0x4000)
+  /// @brief Field PutDispProperty value: I32(16384)
   static ::System::Reflection::BindingFlags const PutDispProperty;
 
-  /// @brief Field PutRefDispProperty value: static_cast<int32_t>(0x8000)
+  /// @brief Field PutRefDispProperty value: I32(32768)
   static ::System::Reflection::BindingFlags const PutRefDispProperty;
 
-  /// @brief Field SetField value: static_cast<int32_t>(0x800)
+  /// @brief Field SetField value: I32(2048)
   static ::System::Reflection::BindingFlags const SetField;
 
-  /// @brief Field SetProperty value: static_cast<int32_t>(0x2000)
+  /// @brief Field SetProperty value: I32(8192)
   static ::System::Reflection::BindingFlags const SetProperty;
 
-  /// @brief Field Static value: static_cast<int32_t>(0x8)
+  /// @brief Field Static value: I32(8)
   static ::System::Reflection::BindingFlags const Static;
 
-  /// @brief Field SuppressChangeType value: static_cast<int32_t>(0x20000)
+  /// @brief Field SuppressChangeType value: I32(131072)
   static ::System::Reflection::BindingFlags const SuppressChangeType;
 
   /// @brief IL2CPP Metadata Type Index
@@ -136,12 +132,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::BindingFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::BindingFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::BindingFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::BindingFlags, "System.Reflection", "BindingFlags");

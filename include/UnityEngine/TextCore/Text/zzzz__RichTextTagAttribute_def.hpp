@@ -8,23 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichTextTagAttribute)
-namespace UnityEngine::TextCore::Text {
-struct TagUnitType;
-}
-namespace UnityEngine::TextCore::Text {
-struct TagValueType;
-}
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct RichTextTagAttribute;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::RichTextTagAttribute);
-// Type: UnityEngine.TextCore.Text::RichTextTagAttribute
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TextCore.Text.TagUnitType, UnityEngine.TextCore.Text.TagValueType
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::RichTextTagAttribute
+// CS Name: UnityEngine.TextCore.Text.RichTextTagAttribute
 struct CORDL_TYPE RichTextTagAttribute {
 public:
   // Declarations
@@ -37,6 +30,12 @@ public:
   // CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitType", ty: "::UnityEngine::TextCore::Text::TagUnitType", modifiers: "", def_value: None }]
   constexpr RichTextTagAttribute(int32_t nameHashCode, int32_t valueHashCode, ::UnityEngine::TextCore::Text::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength,
                                  ::UnityEngine::TextCore::Text::TagUnitType unitType) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15270 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field nameHashCode, offset: 0x0, size: 0x4, def value: None
   int32_t nameHashCode;
@@ -56,17 +55,9 @@ public:
   /// @brief Field unitType, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::TagUnitType unitType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15235 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::RichTextTagAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::RichTextTagAttribute, nameHashCode) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::RichTextTagAttribute, valueHashCode) == 0x4, "Offset mismatch!");
@@ -78,6 +69,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::RichTextTagAttribute, valu
 static_assert(offsetof(::UnityEngine::TextCore::Text::RichTextTagAttribute, valueLength) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::RichTextTagAttribute, unitType) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::RichTextTagAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::RichTextTagAttribute, "UnityEngine.TextCore.Text", "RichTextTagAttribute");

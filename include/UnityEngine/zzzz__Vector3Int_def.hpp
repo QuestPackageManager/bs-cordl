@@ -3,18 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3Int)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class IFormatProvider;
-}
-namespace System {
-class IFormattable;
 }
 namespace System {
 class Object;
@@ -28,39 +24,38 @@ struct Vector3Int;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector3Int);
-// Type: UnityEngine::Vector3Int
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, System.IFormattable
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::Vector3Int
+// CS Name: UnityEngine.Vector3Int
 struct CORDL_TYPE Vector3Int {
 public:
   // Declarations
   __declspec(property(get = get_Item)) int32_t Item[];
 
   /// @brief Field s_Back, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_Back, put = setStaticF_s_Back)) ::UnityEngine::Vector3Int s_Back;
+  __declspec(property(get = getStaticF_s_Back, put = setStaticF_s_Back)) ::UnityEngine::Vector3Int s_Back;
 
   /// @brief Field s_Down, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_Down, put = setStaticF_s_Down)) ::UnityEngine::Vector3Int s_Down;
+  __declspec(property(get = getStaticF_s_Down, put = setStaticF_s_Down)) ::UnityEngine::Vector3Int s_Down;
 
   /// @brief Field s_Forward, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_Forward, put = setStaticF_s_Forward)) ::UnityEngine::Vector3Int s_Forward;
+  __declspec(property(get = getStaticF_s_Forward, put = setStaticF_s_Forward)) ::UnityEngine::Vector3Int s_Forward;
 
   /// @brief Field s_Left, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_Left, put = setStaticF_s_Left)) ::UnityEngine::Vector3Int s_Left;
+  __declspec(property(get = getStaticF_s_Left, put = setStaticF_s_Left)) ::UnityEngine::Vector3Int s_Left;
 
   /// @brief Field s_One, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_One, put = setStaticF_s_One)) ::UnityEngine::Vector3Int s_One;
+  __declspec(property(get = getStaticF_s_One, put = setStaticF_s_One)) ::UnityEngine::Vector3Int s_One;
 
   /// @brief Field s_Right, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_Right, put = setStaticF_s_Right)) ::UnityEngine::Vector3Int s_Right;
+  __declspec(property(get = getStaticF_s_Right, put = setStaticF_s_Right)) ::UnityEngine::Vector3Int s_Right;
 
   /// @brief Field s_Up, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_Up, put = setStaticF_s_Up)) ::UnityEngine::Vector3Int s_Up;
+  __declspec(property(get = getStaticF_s_Up, put = setStaticF_s_Up)) ::UnityEngine::Vector3Int s_Up;
 
   /// @brief Field s_Zero, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_Zero, put = setStaticF_s_Zero)) ::UnityEngine::Vector3Int s_Zero;
+  __declspec(property(get = getStaticF_s_Zero, put = setStaticF_s_Zero)) ::UnityEngine::Vector3Int s_Zero;
 
   __declspec(property(get = get_x, put = set_x)) int32_t x;
 
@@ -74,28 +69,28 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x48415a8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48a236c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x4841644, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48a2408, size 0x38, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Vector3Int other);
 
-  /// @brief Method GetHashCode, addr 0x484167c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48a2440, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Max, addr 0x484151c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x48a22e0, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int Max(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
 
-  /// @brief Method Min, addr 0x48414f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x48a22b4, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int Min(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
 
-  /// @brief Method ToString, addr 0x48416f4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48a24b8, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x4841704, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x48a24c8, size 0x1c0, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x48413fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a21c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y, int32_t z);
 
   static inline ::UnityEngine::Vector3Int getStaticF_s_Back();
@@ -114,19 +109,19 @@ public:
 
   static inline ::UnityEngine::Vector3Int getStaticF_s_Zero();
 
-  /// @brief Method get_Item, addr 0x4841408, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48a21cc, size 0xe8, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
-  /// @brief Method get_one, addr 0x48418c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_one, addr 0x48a2688, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int get_one();
 
-  /// @brief Method get_x, addr 0x48413cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x48a2190, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x48413dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x48a21a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method get_z, addr 0x48413ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x48a21b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_z();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector3Int>"
@@ -135,13 +130,13 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x484155c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x48a2320, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int op_Addition(::UnityEngine::Vector3Int a, ::UnityEngine::Vector3Int b);
 
-  /// @brief Method op_Equality, addr 0x4841578, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48a233c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
 
-  /// @brief Method op_Implicit, addr 0x4841548, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48a230c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::UnityEngine::Vector3Int v);
 
   static inline void setStaticF_s_Back(::UnityEngine::Vector3Int value);
@@ -160,13 +155,13 @@ public:
 
   static inline void setStaticF_s_Zero(::UnityEngine::Vector3Int value);
 
-  /// @brief Method set_x, addr 0x48413d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x48a2198, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x48413e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x48a21a8, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
-  /// @brief Method set_z, addr 0x48413f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x48a21b8, size 0x8, virtual false, abstract: false, final false
   inline void set_z(int32_t value);
 
   // Ctor Parameters []
@@ -177,6 +172,12 @@ public:
   // "int32_t", modifiers: "", def_value: None }]
   constexpr Vector3Int(int32_t m_X, int32_t m_Y, int32_t m_Z) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10821 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field m_X, offset: 0x0, size: 0x4, def value: None
   int32_t m_X;
 
@@ -186,22 +187,16 @@ public:
   /// @brief Field m_Z, offset: 0x8, size: 0x4, def value: None
   int32_t m_Z;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10788 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Vector3Int, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Vector3Int, m_X) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Vector3Int, m_Y) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Vector3Int, m_Z) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Vector3Int, 0xc>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector3Int, "UnityEngine", "Vector3Int");

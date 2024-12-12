@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnum_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BinaryMethodCall)
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -23,11 +22,10 @@ class BinaryMethodCall;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall);
-// Type: System.Runtime.Serialization.Formatters.Binary::BinaryMethodCall
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.MessageEnum
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryMethodCall*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall
 class CORDL_TYPE BinaryMethodCall : public ::System::Object {
 public:
   // Declarations
@@ -52,12 +50,12 @@ public:
   /// @brief Field typeName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method Dump, addr 0x3c9f75c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3cff8d0, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* New_ctor();
 
-  /// @brief Method Write, addr 0x3c9f614, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3cff788, size 0x148, virtual false, abstract: false, final false
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_argTypes() const;
@@ -72,9 +70,9 @@ public:
 
   constexpr bool& __cordl_internal_get_bArgsPrimitive();
 
-  constexpr ::System::Object*& __cordl_internal_get_callContext();
+  constexpr ::System::Object* const& __cordl_internal_get_callContext() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_callContext() const;
+  constexpr ::System::Object*& __cordl_internal_get_callContext();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const& __cordl_internal_get_messageEnum() const;
 
@@ -102,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c9f760, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cff8d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,6 +116,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryMethodCall", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryMethodCall(BinaryMethodCall const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3262 };
 
   /// @brief Field methodName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___methodName;
@@ -140,14 +141,9 @@ public:
   /// @brief Field messageEnum, offset: 0x3c, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::MessageEnum ___messageEnum;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3262 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, ___methodName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, ___typeName) == 0x18, "Offset mismatch!");
@@ -161,6 +157,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Bin
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, ___bArgsPrimitive) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, ___messageEnum) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall, 0x40>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall);

@@ -12,11 +12,10 @@ struct NotifyCollectionChangedAction;
 }
 // Write type traits
 MARK_VAL_T(::System::Collections::Specialized::NotifyCollectionChangedAction);
-// Type: System.Collections.Specialized::NotifyCollectionChangedAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Collections::Specialized {
 // Is value type: true
-// CS Name: ::System.Collections.Specialized::NotifyCollectionChangedAction
+// CS Name: System.Collections.Specialized.NotifyCollectionChangedAction
 struct CORDL_TYPE NotifyCollectionChangedAction {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NotifyCollectionChangedAction(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Add value: static_cast<int32_t>(0x0)
+  /// @brief Field Add value: I32(0)
   static ::System::Collections::Specialized::NotifyCollectionChangedAction const Add;
 
-  /// @brief Field Move value: static_cast<int32_t>(0x3)
+  /// @brief Field Move value: I32(3)
   static ::System::Collections::Specialized::NotifyCollectionChangedAction const Move;
 
-  /// @brief Field Remove value: static_cast<int32_t>(0x1)
+  /// @brief Field Remove value: I32(1)
   static ::System::Collections::Specialized::NotifyCollectionChangedAction const Remove;
 
-  /// @brief Field Replace value: static_cast<int32_t>(0x2)
+  /// @brief Field Replace value: I32(2)
   static ::System::Collections::Specialized::NotifyCollectionChangedAction const Replace;
 
-  /// @brief Field Reset value: static_cast<int32_t>(0x4)
+  /// @brief Field Reset value: I32(4)
   static ::System::Collections::Specialized::NotifyCollectionChangedAction const Reset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9493 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::NotifyCollectionChangedAction, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Collections::Specialized::NotifyCollectionChangedAction, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::NotifyCollectionChangedAction, 0x4>, "Size mismatch!");
 
 } // namespace System::Collections::Specialized
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::NotifyCollectionChangedAction, "System.Collections.Specialized", "NotifyCollectionChangedAction");

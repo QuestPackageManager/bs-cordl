@@ -17,11 +17,10 @@ class MultiplayerLobbyInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyInstaller);
-// Type: ::MultiplayerLobbyInstaller
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLobbyInstaller*
+// CS Name: MultiplayerLobbyInstaller
 class CORDL_TYPE MultiplayerLobbyInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
                       put = __cordl_internal_set__multiplayerLobbyAvatarControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>
       _multiplayerLobbyAvatarControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b90d60, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf2b48, size 0xec, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLobbyInstaller* New_ctor();
@@ -51,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLobbyAvatarControllerPrefab(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x3b90e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf2c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,23 +67,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLobbyInstaller(MultiplayerLobbyInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4726 };
+
   /// @brief Field _multiplayerLobbyAvatarControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> ____multiplayerLobbyAvatarControllerPrefab;
 
   /// @brief Field _multiplayerAvatarPlacePrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace> ____multiplayerAvatarPlacePrefab;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4710 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyInstaller, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyInstaller, ____multiplayerLobbyAvatarControllerPrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyInstaller, ____multiplayerAvatarPlacePrefab) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyInstaller, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyInstaller);

@@ -6,19 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-#include <cstdint>
 CORDL_MODULE_EXPORT(OVRControllerTest)
 namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor;
+class BoolMonitor_OVRControllerTest_BoolGenerator;
 }
 namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor__BoolGenerator;
+class OVRControllerTest_BoolMonitor;
 }
 namespace GlobalNamespace {
-class __OVRControllerTest____c;
+class OVRControllerTest___c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -43,76 +41,74 @@ class Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {
+class BoolMonitor_OVRControllerTest_BoolGenerator;
+}
+namespace GlobalNamespace {
 class OVRControllerTest;
 }
 namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor;
+class OVRControllerTest_BoolMonitor;
 }
 namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor__BoolGenerator;
-}
-namespace GlobalNamespace {
-class __OVRControllerTest____c;
+class OVRControllerTest___c;
 }
 // Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator);
 MARK_REF_PTR_T(::GlobalNamespace::OVRControllerTest);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRControllerTest__BoolMonitor);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRControllerTest____c);
-// Type: ::BoolGenerator
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::OVRControllerTest_BoolMonitor);
+MARK_REF_PTR_T(::GlobalNamespace::OVRControllerTest___c);
+// Dependencies System.MulticastDelegate
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRControllerTest::BoolMonitor::BoolGenerator*
-class CORDL_TYPE __OVRControllerTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
+// CS Name: OVRControllerTest/BoolMonitor/BoolGenerator
+class CORDL_TYPE BoolMonitor_OVRControllerTest_BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fcc1b4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x402c260, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fcc1d4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x402c280, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fcc1a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x402c24c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fcc118, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402c1c4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRControllerTest__BoolMonitor__BoolGenerator();
+  constexpr BoolMonitor_OVRControllerTest_BoolGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRControllerTest__BoolMonitor__BoolGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRControllerTest_BoolGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OVRControllerTest__BoolMonitor__BoolGenerator(__OVRControllerTest__BoolMonitor__BoolGenerator&&) = delete;
+  BoolMonitor_OVRControllerTest_BoolGenerator(BoolMonitor_OVRControllerTest_BoolGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRControllerTest__BoolMonitor__BoolGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRControllerTest_BoolGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OVRControllerTest__BoolMonitor__BoolGenerator(__OVRControllerTest__BoolMonitor__BoolGenerator const&) = delete;
+  BoolMonitor_OVRControllerTest_BoolGenerator(BoolMonitor_OVRControllerTest_BoolGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8392 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::BoolMonitor
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRControllerTest::BoolMonitor*
-class CORDL_TYPE __OVRControllerTest__BoolMonitor : public ::System::Object {
+// CS Name: OVRControllerTest/BoolMonitor
+class CORDL_TYPE OVRControllerTest_BoolMonitor : public ::System::Object {
 public:
   // Declarations
-  using BoolGenerator = ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator;
+  using BoolGenerator = ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator;
 
   /// @brief Field m_currentValue, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get_m_currentValue, put = __cordl_internal_set_m_currentValue)) bool m_currentValue;
@@ -127,7 +123,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_displayTimer, put = __cordl_internal_set_m_displayTimer)) float_t m_displayTimer;
 
   /// @brief Field m_generator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_generator, put = __cordl_internal_set_m_generator)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* m_generator;
+  __declspec(property(get = __cordl_internal_get_m_generator, put = __cordl_internal_set_m_generator)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* m_generator;
 
   /// @brief Field m_name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name)) ::StringW m_name;
@@ -135,12 +131,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x3fcc044, size 0xd4, virtual false, abstract: false, final false
-  inline void AppendToStringBuilder(ByRef<::System::Text::StringBuilder*> sb);
+  /// @brief Method AppendToStringBuilder, addr 0x402c0f0, size 0xd4, virtual false, abstract: false, final false
+  inline void AppendToStringBuilder(::ByRef<::System::Text::StringBuilder*> sb);
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
+  static inline ::GlobalNamespace::OVRControllerTest_BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x3fcbfb4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x402c060, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -159,9 +155,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_m_displayTimer();
 
-  constexpr ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*& __cordl_internal_get_m_generator();
+  constexpr ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* const& __cordl_internal_get_m_generator() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*> const& __cordl_internal_get_m_generator() const;
+  constexpr ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator*& __cordl_internal_get_m_generator();
 
   constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
@@ -179,34 +175,37 @@ public:
 
   constexpr void __cordl_internal_set_m_displayTimer(float_t value);
 
-  constexpr void __cordl_internal_set_m_generator(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  constexpr void __cordl_internal_set_m_generator(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
   constexpr void __cordl_internal_set_m_name(::StringW value);
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x3fcbf3c, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
+  /// @brief Method .ctor, addr 0x402bfe8, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* generator, float_t displayTimeout);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRControllerTest__BoolMonitor();
+  constexpr OVRControllerTest_BoolMonitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRControllerTest__BoolMonitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest_BoolMonitor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OVRControllerTest__BoolMonitor(__OVRControllerTest__BoolMonitor&&) = delete;
+  OVRControllerTest_BoolMonitor(OVRControllerTest_BoolMonitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRControllerTest__BoolMonitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest_BoolMonitor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OVRControllerTest__BoolMonitor(__OVRControllerTest__BoolMonitor const&) = delete;
+  OVRControllerTest_BoolMonitor(OVRControllerTest_BoolMonitor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8393 };
 
   /// @brief Field m_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_name;
 
   /// @brief Field m_generator, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* ___m_generator;
+  ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* ___m_generator;
 
   /// @brief Field m_prevValue, offset: 0x20, size: 0x1, def value: None
   bool ___m_prevValue;
@@ -223,427 +222,422 @@ public:
   /// @brief Field m_displayTimer, offset: 0x28, size: 0x4, def value: None
   float_t ___m_displayTimer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8368 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRControllerTest__BoolMonitor, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_name) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m_name) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_generator) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m_generator) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_prevValue) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m_prevValue) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_currentValue) == 0x21, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m_currentValue) == 0x21, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_currentValueRecentlyChanged) == 0x22, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m_currentValueRecentlyChanged) == 0x22, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_displayTimeout) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m_displayTimeout) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_displayTimer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m_displayTimer) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerTest_BoolMonitor, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRControllerTest::<>c*
-class CORDL_TYPE __OVRControllerTest____c : public ::System::Object {
+// CS Name: OVRControllerTest/<>c
+class CORDL_TYPE OVRControllerTest___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__OVRControllerTest____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::OVRControllerTest___c* __9;
 
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_0;
+  __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_0;
 
   /// @brief Field <>9__4_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_1, put = setStaticF___9__4_1)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_1;
+  __declspec(property(get = getStaticF___9__4_1, put = setStaticF___9__4_1)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_1;
 
   /// @brief Field <>9__4_10, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_10, put = setStaticF___9__4_10)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_10;
+  __declspec(property(get = getStaticF___9__4_10, put = setStaticF___9__4_10)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_10;
 
   /// @brief Field <>9__4_11, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_11, put = setStaticF___9__4_11)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_11;
+  __declspec(property(get = getStaticF___9__4_11, put = setStaticF___9__4_11)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_11;
 
   /// @brief Field <>9__4_12, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_12, put = setStaticF___9__4_12)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_12;
+  __declspec(property(get = getStaticF___9__4_12, put = setStaticF___9__4_12)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_12;
 
   /// @brief Field <>9__4_13, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_13, put = setStaticF___9__4_13)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_13;
+  __declspec(property(get = getStaticF___9__4_13, put = setStaticF___9__4_13)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_13;
 
   /// @brief Field <>9__4_14, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_14, put = setStaticF___9__4_14)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_14;
+  __declspec(property(get = getStaticF___9__4_14, put = setStaticF___9__4_14)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_14;
 
   /// @brief Field <>9__4_15, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_15, put = setStaticF___9__4_15)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_15;
+  __declspec(property(get = getStaticF___9__4_15, put = setStaticF___9__4_15)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_15;
 
   /// @brief Field <>9__4_16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_16, put = setStaticF___9__4_16)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_16;
+  __declspec(property(get = getStaticF___9__4_16, put = setStaticF___9__4_16)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_16;
 
   /// @brief Field <>9__4_17, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_17, put = setStaticF___9__4_17)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_17;
+  __declspec(property(get = getStaticF___9__4_17, put = setStaticF___9__4_17)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_17;
 
   /// @brief Field <>9__4_18, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_18, put = setStaticF___9__4_18)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_18;
+  __declspec(property(get = getStaticF___9__4_18, put = setStaticF___9__4_18)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_18;
 
   /// @brief Field <>9__4_19, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_19, put = setStaticF___9__4_19)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_19;
+  __declspec(property(get = getStaticF___9__4_19, put = setStaticF___9__4_19)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_19;
 
   /// @brief Field <>9__4_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_2, put = setStaticF___9__4_2)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_2;
+  __declspec(property(get = getStaticF___9__4_2, put = setStaticF___9__4_2)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_2;
 
   /// @brief Field <>9__4_20, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_20, put = setStaticF___9__4_20)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_20;
+  __declspec(property(get = getStaticF___9__4_20, put = setStaticF___9__4_20)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_20;
 
   /// @brief Field <>9__4_21, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_21, put = setStaticF___9__4_21)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_21;
+  __declspec(property(get = getStaticF___9__4_21, put = setStaticF___9__4_21)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_21;
 
   /// @brief Field <>9__4_22, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_22, put = setStaticF___9__4_22)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_22;
+  __declspec(property(get = getStaticF___9__4_22, put = setStaticF___9__4_22)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_22;
 
   /// @brief Field <>9__4_23, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_23, put = setStaticF___9__4_23)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_23;
+  __declspec(property(get = getStaticF___9__4_23, put = setStaticF___9__4_23)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_23;
 
   /// @brief Field <>9__4_24, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_24, put = setStaticF___9__4_24)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_24;
+  __declspec(property(get = getStaticF___9__4_24, put = setStaticF___9__4_24)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_24;
 
   /// @brief Field <>9__4_25, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_25, put = setStaticF___9__4_25)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_25;
+  __declspec(property(get = getStaticF___9__4_25, put = setStaticF___9__4_25)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_25;
 
   /// @brief Field <>9__4_26, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_26, put = setStaticF___9__4_26)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_26;
+  __declspec(property(get = getStaticF___9__4_26, put = setStaticF___9__4_26)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_26;
 
   /// @brief Field <>9__4_27, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_27, put = setStaticF___9__4_27)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_27;
+  __declspec(property(get = getStaticF___9__4_27, put = setStaticF___9__4_27)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_27;
 
   /// @brief Field <>9__4_28, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_28, put = setStaticF___9__4_28)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_28;
+  __declspec(property(get = getStaticF___9__4_28, put = setStaticF___9__4_28)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_28;
 
   /// @brief Field <>9__4_29, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_29, put = setStaticF___9__4_29)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_29;
+  __declspec(property(get = getStaticF___9__4_29, put = setStaticF___9__4_29)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_29;
 
   /// @brief Field <>9__4_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_3, put = setStaticF___9__4_3)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_3;
+  __declspec(property(get = getStaticF___9__4_3, put = setStaticF___9__4_3)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_3;
 
   /// @brief Field <>9__4_30, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_30, put = setStaticF___9__4_30)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_30;
+  __declspec(property(get = getStaticF___9__4_30, put = setStaticF___9__4_30)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_30;
 
   /// @brief Field <>9__4_4, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_4, put = setStaticF___9__4_4)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_4;
+  __declspec(property(get = getStaticF___9__4_4, put = setStaticF___9__4_4)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_4;
 
   /// @brief Field <>9__4_5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_5, put = setStaticF___9__4_5)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_5;
+  __declspec(property(get = getStaticF___9__4_5, put = setStaticF___9__4_5)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_5;
 
   /// @brief Field <>9__4_6, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_6, put = setStaticF___9__4_6)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_6;
+  __declspec(property(get = getStaticF___9__4_6, put = setStaticF___9__4_6)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_6;
 
   /// @brief Field <>9__4_7, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_7, put = setStaticF___9__4_7)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_7;
+  __declspec(property(get = getStaticF___9__4_7, put = setStaticF___9__4_7)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_7;
 
   /// @brief Field <>9__4_8, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_8, put = setStaticF___9__4_8)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_8;
+  __declspec(property(get = getStaticF___9__4_8, put = setStaticF___9__4_8)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_8;
 
   /// @brief Field <>9__4_9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_9, put = setStaticF___9__4_9)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* __9__4_9;
+  __declspec(property(get = getStaticF___9__4_9, put = setStaticF___9__4_9)) ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* __9__4_9;
 
-  static inline ::GlobalNamespace::__OVRControllerTest____c* New_ctor();
+  static inline ::GlobalNamespace::OVRControllerTest___c* New_ctor();
 
-  /// @brief Method <Start>b__4_0, addr 0x3fcc260, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_0, addr 0x402c30c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_0();
 
-  /// @brief Method <Start>b__4_1, addr 0x3fcc2b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_1, addr 0x402c364, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_1();
 
-  /// @brief Method <Start>b__4_10, addr 0x3fcc5d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_10, addr 0x402c67c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_10();
 
-  /// @brief Method <Start>b__4_11, addr 0x3fcc628, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_11, addr 0x402c6d4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_11();
 
-  /// @brief Method <Start>b__4_12, addr 0x3fcc680, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_12, addr 0x402c72c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_12();
 
-  /// @brief Method <Start>b__4_13, addr 0x3fcc6d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_13, addr 0x402c784, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_13();
 
-  /// @brief Method <Start>b__4_14, addr 0x3fcc730, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_14, addr 0x402c7dc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_14();
 
-  /// @brief Method <Start>b__4_15, addr 0x3fcc788, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_15, addr 0x402c834, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_15();
 
-  /// @brief Method <Start>b__4_16, addr 0x3fcc7e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_16, addr 0x402c88c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_16();
 
-  /// @brief Method <Start>b__4_17, addr 0x3fcc838, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_17, addr 0x402c8e4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_17();
 
-  /// @brief Method <Start>b__4_18, addr 0x3fcc890, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_18, addr 0x402c93c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_18();
 
-  /// @brief Method <Start>b__4_19, addr 0x3fcc8e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_19, addr 0x402c994, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_19();
 
-  /// @brief Method <Start>b__4_2, addr 0x3fcc310, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_2, addr 0x402c3bc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_2();
 
-  /// @brief Method <Start>b__4_20, addr 0x3fcc940, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_20, addr 0x402c9ec, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_20();
 
-  /// @brief Method <Start>b__4_21, addr 0x3fcc998, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_21, addr 0x402ca44, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_21();
 
-  /// @brief Method <Start>b__4_22, addr 0x3fcc9f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_22, addr 0x402ca9c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_22();
 
-  /// @brief Method <Start>b__4_23, addr 0x3fcca48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_23, addr 0x402caf4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_23();
 
-  /// @brief Method <Start>b__4_24, addr 0x3fccaa0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_24, addr 0x402cb4c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_24();
 
-  /// @brief Method <Start>b__4_25, addr 0x3fccaf8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_25, addr 0x402cba4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_25();
 
-  /// @brief Method <Start>b__4_26, addr 0x3fccb50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_26, addr 0x402cbfc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_26();
 
-  /// @brief Method <Start>b__4_27, addr 0x3fccba8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_27, addr 0x402cc54, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_27();
 
-  /// @brief Method <Start>b__4_28, addr 0x3fccc00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_28, addr 0x402ccac, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_28();
 
-  /// @brief Method <Start>b__4_29, addr 0x3fccc58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_29, addr 0x402cd04, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_29();
 
-  /// @brief Method <Start>b__4_3, addr 0x3fcc368, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_3, addr 0x402c414, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_3();
 
-  /// @brief Method <Start>b__4_30, addr 0x3fcccb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_30, addr 0x402cd5c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_30();
 
-  /// @brief Method <Start>b__4_4, addr 0x3fcc3c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_4, addr 0x402c46c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_4();
 
-  /// @brief Method <Start>b__4_5, addr 0x3fcc418, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_5, addr 0x402c4c4, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_5();
 
-  /// @brief Method <Start>b__4_6, addr 0x3fcc470, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_6, addr 0x402c51c, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_6();
 
-  /// @brief Method <Start>b__4_7, addr 0x3fcc4c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_7, addr 0x402c574, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_7();
 
-  /// @brief Method <Start>b__4_8, addr 0x3fcc520, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_8, addr 0x402c5cc, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_8();
 
-  /// @brief Method <Start>b__4_9, addr 0x3fcc578, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__4_9, addr 0x402c624, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__4_9();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x3fccd08, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x402cdb4, size 0x108, virtual false, abstract: false, final false
   inline bool __cctor_b__9_0();
 
-  /// @brief Method .ctor, addr 0x3fcc258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402c304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__OVRControllerTest____c* getStaticF___9();
+  static inline ::GlobalNamespace::OVRControllerTest___c* getStaticF___9();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_0();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_0();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_1();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_1();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_10();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_10();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_11();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_11();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_12();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_12();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_13();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_13();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_14();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_14();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_15();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_15();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_16();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_16();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_17();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_17();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_18();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_18();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_19();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_19();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_2();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_2();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_20();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_20();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_21();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_21();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_22();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_22();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_23();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_23();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_24();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_24();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_25();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_25();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_26();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_26();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_27();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_27();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_28();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_28();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_29();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_29();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_3();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_3();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_30();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_30();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_4();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_4();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_5();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_5();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_6();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_6();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_7();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_7();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_8();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_8();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* getStaticF___9__4_9();
+  static inline ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* getStaticF___9__4_9();
 
-  static inline void setStaticF___9(::GlobalNamespace::__OVRControllerTest____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::OVRControllerTest___c* value);
 
-  static inline void setStaticF___9__4_0(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_0(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_1(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_1(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_10(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_10(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_11(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_11(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_12(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_12(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_13(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_13(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_14(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_14(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_15(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_15(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_16(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_16(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_17(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_17(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_18(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_18(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_19(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_19(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_2(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_2(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_20(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_20(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_21(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_21(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_22(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_22(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_23(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_23(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_24(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_24(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_25(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_25(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_26(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_26(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_27(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_27(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_28(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_28(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_29(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_29(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_3(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_3(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_30(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_30(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_4(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_4(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_5(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_5(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_6(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_6(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_7(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_7(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_8(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_8(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
-  static inline void setStaticF___9__4_9(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  static inline void setStaticF___9__4_9(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRControllerTest____c();
+  constexpr OVRControllerTest___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRControllerTest____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OVRControllerTest____c(__OVRControllerTest____c&&) = delete;
+  OVRControllerTest___c(OVRControllerTest___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRControllerTest____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OVRControllerTest____c(__OVRControllerTest____c const&) = delete;
+  OVRControllerTest___c(OVRControllerTest___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRControllerTest____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerTest___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRControllerTest
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRControllerTest*
+// CS Name: OVRControllerTest
 class CORDL_TYPE OVRControllerTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using BoolMonitor = ::GlobalNamespace::__OVRControllerTest__BoolMonitor;
+  using BoolMonitor = ::GlobalNamespace::OVRControllerTest_BoolMonitor;
 
-  using __c = ::GlobalNamespace::__OVRControllerTest____c;
+  using __c = ::GlobalNamespace::OVRControllerTest___c;
 
   /// @brief Field controllers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_controllers, put = setStaticF_controllers)) ::GlobalNamespace::__OVRControllerTest__BoolMonitor* controllers;
+  __declspec(property(get = getStaticF_controllers, put = setStaticF_controllers)) ::GlobalNamespace::OVRControllerTest_BoolMonitor* controllers;
 
   /// @brief Field data, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::Text::StringBuilder* data;
 
   /// @brief Field monitors, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_monitors, put = __cordl_internal_set_monitors)) ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* monitors;
+  __declspec(property(get = __cordl_internal_get_monitors, put = __cordl_internal_set_monitors)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRControllerTest_BoolMonitor*>* monitors;
 
   /// @brief Field prevConnected, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_prevConnected, put = setStaticF_prevConnected)) ::StringW prevConnected;
+  __declspec(property(get = getStaticF_prevConnected, put = setStaticF_prevConnected)) ::StringW prevConnected;
 
   /// @brief Field uiText, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_uiText, put = __cordl_internal_set_uiText)) ::UnityW<::UnityEngine::UI::Text> uiText;
 
   static inline ::GlobalNamespace::OVRControllerTest* New_ctor();
 
-  /// @brief Method Start, addr 0x3fc93cc, size 0x2160, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4029478, size 0x2160, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fcb52c, size 0x8d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x402b5d8, size 0x8d0, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_data() const;
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_data() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRControllerTest_BoolMonitor*>* const& __cordl_internal_get_monitors() const;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*& __cordl_internal_get_monitors();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*> const& __cordl_internal_get_monitors() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRControllerTest_BoolMonitor*>*& __cordl_internal_get_monitors();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_uiText() const;
 
@@ -651,18 +645,18 @@ public:
 
   constexpr void __cordl_internal_set_data(::System::Text::StringBuilder* value);
 
-  constexpr void __cordl_internal_set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* value);
+  constexpr void __cordl_internal_set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRControllerTest_BoolMonitor*>* value);
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x3fcbdfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402bea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor* getStaticF_controllers();
+  static inline ::GlobalNamespace::OVRControllerTest_BoolMonitor* getStaticF_controllers();
 
   static inline ::StringW getStaticF_prevConnected();
 
-  static inline void setStaticF_controllers(::GlobalNamespace::__OVRControllerTest__BoolMonitor* value);
+  static inline void setStaticF_controllers(::GlobalNamespace::OVRControllerTest_BoolMonitor* value);
 
   static inline void setStaticF_prevConnected(::StringW value);
 
@@ -680,35 +674,35 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRControllerTest(OVRControllerTest const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8395 };
+
   /// @brief Field uiText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___uiText;
 
   /// @brief Field monitors, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* ___monitors;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::OVRControllerTest_BoolMonitor*>* ___monitors;
 
   /// @brief Field data, offset: 0x30, size: 0x8, def value: None
   ::System::Text::StringBuilder* ___data;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8370 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerTest, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRControllerTest, ___uiText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRControllerTest, ___monitors) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRControllerTest, ___data) == 0x30, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerTest, 0x38>, "Size mismatch!");
+
 } // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator*, "", "OVRControllerTest/BoolMonitor/BoolGenerator");
 NEED_NO_BOX(::GlobalNamespace::OVRControllerTest);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRControllerTest*, "", "OVRControllerTest");
-NEED_NO_BOX(::GlobalNamespace::__OVRControllerTest__BoolMonitor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRControllerTest__BoolMonitor*, "", "OVRControllerTest/BoolMonitor");
-NEED_NO_BOX(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*, "", "OVRControllerTest/BoolMonitor/BoolGenerator");
-NEED_NO_BOX(::GlobalNamespace::__OVRControllerTest____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRControllerTest____c*, "", "OVRControllerTest/<>c");
+NEED_NO_BOX(::GlobalNamespace::OVRControllerTest_BoolMonitor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRControllerTest_BoolMonitor*, "", "OVRControllerTest/BoolMonitor");
+NEED_NO_BOX(::GlobalNamespace::OVRControllerTest___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRControllerTest___c*, "", "OVRControllerTest/<>c");

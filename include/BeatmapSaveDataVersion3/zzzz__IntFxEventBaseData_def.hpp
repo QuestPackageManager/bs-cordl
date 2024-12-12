@@ -13,11 +13,10 @@ class IntFxEventBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::IntFxEventBaseData);
-// Type: BeatmapSaveDataVersion3::IntFxEventBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::IntFxEventBaseData*
+// CS Name: BeatmapSaveDataVersion3.IntFxEventBaseData
 class CORDL_TYPE IntFxEventBaseData : public ::System::Object {
 public:
   // Declarations
@@ -56,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_v(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d42b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705c24, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t value);
 
-  /// @brief Method get_beat, addr 0x26d4294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x2705c04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x26d429c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x2705c0c, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x26d42ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2705c1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -82,6 +81,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntFxEventBaseData(IntFxEventBaseData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13403 };
+
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 
@@ -91,19 +93,16 @@ public:
   /// @brief Field v, offset: 0x18, size: 0x4, def value: None
   int32_t ___v;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13372 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::IntFxEventBaseData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::IntFxEventBaseData, ___b) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::IntFxEventBaseData, ___p) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::IntFxEventBaseData, ___v) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::IntFxEventBaseData, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::IntFxEventBaseData);

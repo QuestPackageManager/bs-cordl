@@ -22,33 +22,32 @@ class TMP_UpdateManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_UpdateManager);
-// Type: TMPro::TMP_UpdateManager
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Profiling.ProfilerMarker
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_UpdateManager*
+// CS Name: TMPro.TMP_UpdateManager
 class CORDL_TYPE TMP_UpdateManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field k_RegisterTextElementForCullingUpdateMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_RegisterTextElementForCullingUpdateMarker,
-                             put = setStaticF_k_RegisterTextElementForCullingUpdateMarker)) ::Unity::Profiling::ProfilerMarker k_RegisterTextElementForCullingUpdateMarker;
+  __declspec(property(get = getStaticF_k_RegisterTextElementForCullingUpdateMarker,
+                      put = setStaticF_k_RegisterTextElementForCullingUpdateMarker)) ::Unity::Profiling::ProfilerMarker k_RegisterTextElementForCullingUpdateMarker;
 
   /// @brief Field k_RegisterTextElementForGraphicRebuildMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_RegisterTextElementForGraphicRebuildMarker,
-                             put = setStaticF_k_RegisterTextElementForGraphicRebuildMarker)) ::Unity::Profiling::ProfilerMarker k_RegisterTextElementForGraphicRebuildMarker;
+  __declspec(property(get = getStaticF_k_RegisterTextElementForGraphicRebuildMarker,
+                      put = setStaticF_k_RegisterTextElementForGraphicRebuildMarker)) ::Unity::Profiling::ProfilerMarker k_RegisterTextElementForGraphicRebuildMarker;
 
   /// @brief Field k_RegisterTextObjectForUpdateMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_RegisterTextObjectForUpdateMarker,
-                             put = setStaticF_k_RegisterTextObjectForUpdateMarker)) ::Unity::Profiling::ProfilerMarker k_RegisterTextObjectForUpdateMarker;
+  __declspec(property(get = getStaticF_k_RegisterTextObjectForUpdateMarker,
+                      put = setStaticF_k_RegisterTextObjectForUpdateMarker)) ::Unity::Profiling::ProfilerMarker k_RegisterTextObjectForUpdateMarker;
 
   /// @brief Field k_UnregisterTextElementForGraphicRebuildMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_UnregisterTextElementForGraphicRebuildMarker,
-                             put = setStaticF_k_UnregisterTextElementForGraphicRebuildMarker)) ::Unity::Profiling::ProfilerMarker k_UnregisterTextElementForGraphicRebuildMarker;
+  __declspec(property(get = getStaticF_k_UnregisterTextElementForGraphicRebuildMarker,
+                      put = setStaticF_k_UnregisterTextElementForGraphicRebuildMarker)) ::Unity::Profiling::ProfilerMarker k_UnregisterTextElementForGraphicRebuildMarker;
 
   /// @brief Field k_UnregisterTextObjectForUpdateMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_UnregisterTextObjectForUpdateMarker,
-                             put = setStaticF_k_UnregisterTextObjectForUpdateMarker)) ::Unity::Profiling::ProfilerMarker k_UnregisterTextObjectForUpdateMarker;
+  __declspec(property(get = getStaticF_k_UnregisterTextObjectForUpdateMarker,
+                      put = setStaticF_k_UnregisterTextObjectForUpdateMarker)) ::Unity::Profiling::ProfilerMarker k_UnregisterTextObjectForUpdateMarker;
 
   /// @brief Field m_CullingUpdateLookup, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CullingUpdateLookup, put = __cordl_internal_set_m_CullingUpdateLookup)) ::System::Collections::Generic::HashSet_1<int32_t>* m_CullingUpdateLookup;
@@ -79,86 +78,86 @@ public:
                       put = __cordl_internal_set_m_LayoutRebuildQueue)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* m_LayoutRebuildQueue;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_UpdateManager* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_UpdateManager* s_Instance;
 
-  /// @brief Method DoRebuilds, addr 0x47a820c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method DoRebuilds, addr 0x4809520, size 0x254, virtual false, abstract: false, final false
   inline void DoRebuilds();
 
-  /// @brief Method InternalRegisterTextElementForCullingUpdate, addr 0x47a80f8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextElementForCullingUpdate, addr 0x480940c, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextElementForCullingUpdate(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalRegisterTextElementForGraphicRebuild, addr 0x47a7f88, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextElementForGraphicRebuild, addr 0x480929c, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalRegisterTextElementForLayoutRebuild, addr 0x47a7e18, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextElementForLayoutRebuild, addr 0x480912c, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalRegisterTextObjectForUpdate, addr 0x47a7ca8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextObjectForUpdate, addr 0x4808fbc, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
 
-  /// @brief Method InternalUnRegisterTextElementForGraphicRebuild, addr 0x47a85d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterTextElementForGraphicRebuild, addr 0x48098ec, size 0x98, virtual false, abstract: false, final false
   inline void InternalUnRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalUnRegisterTextElementForLayoutRebuild, addr 0x47a8670, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterTextElementForLayoutRebuild, addr 0x4809984, size 0x98, virtual false, abstract: false, final false
   inline void InternalUnRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalUnRegisterTextObjectForUpdate, addr 0x47a84c0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterTextObjectForUpdate, addr 0x48097d4, size 0x98, virtual false, abstract: false, final false
   inline void InternalUnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
 
   static inline ::TMPro::TMP_UpdateManager* New_ctor();
 
-  /// @brief Method OnCameraPreCull, addr 0x47a8208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreCull, addr 0x480951c, size 0x4, virtual false, abstract: false, final false
   inline void OnCameraPreCull();
 
-  /// @brief Method RegisterTextElementForCullingUpdate, addr 0x47a8098, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextElementForCullingUpdate, addr 0x48093ac, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextElementForCullingUpdate(::TMPro::TMP_Text* element);
 
-  /// @brief Method RegisterTextElementForGraphicRebuild, addr 0x47a7f28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextElementForGraphicRebuild, addr 0x480923c, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method RegisterTextElementForLayoutRebuild, addr 0x47a7db8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextElementForLayoutRebuild, addr 0x48090cc, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method RegisterTextObjectForUpdate, addr 0x47a7c48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextObjectForUpdate, addr 0x4808f5c, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
 
-  /// @brief Method UnRegisterTextElementForRebuild, addr 0x47a8558, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterTextElementForRebuild, addr 0x480986c, size 0x80, virtual false, abstract: false, final false
   static inline void UnRegisterTextElementForRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method UnRegisterTextObjectForUpdate, addr 0x47a8460, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterTextObjectForUpdate, addr 0x4809774, size 0x60, virtual false, abstract: false, final false
   static inline void UnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
+
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_m_CullingUpdateLookup() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_CullingUpdateLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_CullingUpdateLookup() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* const& __cordl_internal_get_m_CullingUpdateQueue() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_CullingUpdateQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_CullingUpdateQueue() const;
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_m_GraphicQueueLookup() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_GraphicQueueLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_GraphicQueueLookup() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* const& __cordl_internal_get_m_GraphicRebuildQueue() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_GraphicRebuildQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_GraphicRebuildQueue() const;
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_m_InternalUpdateLookup() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_InternalUpdateLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_InternalUpdateLookup() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* const& __cordl_internal_get_m_InternalUpdateQueue() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_InternalUpdateQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_InternalUpdateQueue() const;
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_m_LayoutQueueLookup() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_LayoutQueueLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_LayoutQueueLookup() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* const& __cordl_internal_get_m_LayoutRebuildQueue() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_LayoutRebuildQueue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_LayoutRebuildQueue() const;
 
   constexpr void __cordl_internal_set_m_CullingUpdateLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
@@ -176,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LayoutRebuildQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* value);
 
-  /// @brief Method .ctor, addr 0x47a7a9c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4808db0, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_RegisterTextElementForCullingUpdateMarker();
@@ -191,7 +190,7 @@ public:
 
   static inline ::TMPro::TMP_UpdateManager* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x47a79fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x4808d10, size 0xa0, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_UpdateManager* get_instance();
 
   static inline void setStaticF_k_RegisterTextElementForCullingUpdateMarker(::Unity::Profiling::ProfilerMarker value);
@@ -220,6 +219,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_UpdateManager(TMP_UpdateManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14575 };
+
   /// @brief Field m_LayoutQueueLookup, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___m_LayoutQueueLookup;
 
@@ -244,14 +246,9 @@ public:
   /// @brief Field m_CullingUpdateQueue, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* ___m_CullingUpdateQueue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14541 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_UpdateManager, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_UpdateManager, ___m_LayoutQueueLookup) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_UpdateManager, ___m_LayoutRebuildQueue) == 0x18, "Offset mismatch!");
@@ -267,6 +264,8 @@ static_assert(offsetof(::TMPro::TMP_UpdateManager, ___m_InternalUpdateQueue) == 
 static_assert(offsetof(::TMPro::TMP_UpdateManager, ___m_CullingUpdateLookup) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_UpdateManager, ___m_CullingUpdateQueue) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_UpdateManager, 0x50>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_UpdateManager);

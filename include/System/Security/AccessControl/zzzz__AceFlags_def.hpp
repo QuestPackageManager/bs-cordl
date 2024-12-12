@@ -12,11 +12,10 @@ struct AceFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::AceFlags);
-// Type: System.Security.AccessControl::AceFlags
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
-// CS Name: ::System.Security.AccessControl::AceFlags
+// CS Name: System.Security.AccessControl.AceFlags
 struct CORDL_TYPE AceFlags {
 public:
   // Declarations
@@ -53,37 +52,34 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr AceFlags(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field AuditFlags value: static_cast<uint8_t>(0xc0u)
+  /// @brief Field AuditFlags value: U8(192)
   static ::System::Security::AccessControl::AceFlags const AuditFlags;
 
-  /// @brief Field ContainerInherit value: static_cast<uint8_t>(0x2u)
+  /// @brief Field ContainerInherit value: U8(2)
   static ::System::Security::AccessControl::AceFlags const ContainerInherit;
 
-  /// @brief Field FailedAccess value: static_cast<uint8_t>(0x80u)
+  /// @brief Field FailedAccess value: U8(128)
   static ::System::Security::AccessControl::AceFlags const FailedAccess;
 
-  /// @brief Field InheritOnly value: static_cast<uint8_t>(0x8u)
+  /// @brief Field InheritOnly value: U8(8)
   static ::System::Security::AccessControl::AceFlags const InheritOnly;
 
-  /// @brief Field InheritanceFlags value: static_cast<uint8_t>(0xfu)
+  /// @brief Field InheritanceFlags value: U8(15)
   static ::System::Security::AccessControl::AceFlags const InheritanceFlags;
 
-  /// @brief Field Inherited value: static_cast<uint8_t>(0x10u)
+  /// @brief Field Inherited value: U8(16)
   static ::System::Security::AccessControl::AceFlags const Inherited;
 
-  /// @brief Field NoPropagateInherit value: static_cast<uint8_t>(0x4u)
+  /// @brief Field NoPropagateInherit value: U8(4)
   static ::System::Security::AccessControl::AceFlags const NoPropagateInherit;
 
-  /// @brief Field None value: static_cast<uint8_t>(0x0u)
+  /// @brief Field None value: U8(0)
   static ::System::Security::AccessControl::AceFlags const None;
 
-  /// @brief Field ObjectInherit value: static_cast<uint8_t>(0x1u)
+  /// @brief Field ObjectInherit value: U8(1)
   static ::System::Security::AccessControl::AceFlags const ObjectInherit;
 
-  /// @brief Field SuccessfulAccess value: static_cast<uint8_t>(0x40u)
+  /// @brief Field SuccessfulAccess value: U8(64)
   static ::System::Security::AccessControl::AceFlags const SuccessfulAccess;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,12 +88,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AceFlags, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::AccessControl::AceFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AceFlags, 0x1>, "Size mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceFlags, "System.Security.AccessControl", "AceFlags");

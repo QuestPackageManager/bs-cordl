@@ -12,26 +12,25 @@ namespace UnityEngine::UIElements {
 class IGenericMenu;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __PopupField_1____c__DisplayClass26_0;
+template <typename T> class PopupField_1___c__DisplayClass26_0;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template <typename T> class PopupField_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __PopupField_1____c__DisplayClass26_0;
+template <typename T> class PopupField_1___c__DisplayClass26_0;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::PopupField_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0);
-// Type: ::<>c__DisplayClass26_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::PopupField`1::<>c__DisplayClass26_0<T>*
-class CORDL_TYPE __PopupField_1____c__DisplayClass26_0 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.PopupField`1/<>c__DisplayClass26_0<T>
+class CORDL_TYPE PopupField_1___c__DisplayClass26_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -40,14 +39,14 @@ public:
   /// @brief Field item, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_item, put = __cordl_internal_set_item)) T item;
 
-  static inline ::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>* New_ctor();
+  static inline ::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>* New_ctor();
 
   /// @brief Method <AddMenuItems>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddMenuItems_b__0();
 
-  constexpr ::UnityEngine::UIElements::PopupField_1<T>*& __cordl_internal_get___4__this();
+  constexpr ::UnityEngine::UIElements::PopupField_1<T>* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PopupField_1<T>*> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityEngine::UIElements::PopupField_1<T>*& __cordl_internal_get___4__this();
 
   constexpr T const& __cordl_internal_get_item() const;
 
@@ -63,16 +62,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PopupField_1____c__DisplayClass26_0();
+  constexpr PopupField_1___c__DisplayClass26_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PopupField_1____c__DisplayClass26_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1___c__DisplayClass26_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PopupField_1____c__DisplayClass26_0(__PopupField_1____c__DisplayClass26_0&&) = delete;
+  PopupField_1___c__DisplayClass26_0(PopupField_1___c__DisplayClass26_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PopupField_1____c__DisplayClass26_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1___c__DisplayClass26_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PopupField_1____c__DisplayClass26_0(__PopupField_1____c__DisplayClass26_0 const&) = delete;
+  PopupField_1___c__DisplayClass26_0(PopupField_1___c__DisplayClass26_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5661 };
 
   /// @brief Field item, offset: 0x10, size: 0x8, def value: None
   T ___item;
@@ -80,38 +82,34 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::PopupField_1<T>* _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5636 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::PopupField`1
-// SizeInfo { instance_size: 1144, native_size: 1140, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BasePopupField`2<TValueType, TValueChoice>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PopupField`1<T>*
+// CS Name: UnityEngine.UIElements.PopupField`1<T>
 class CORDL_TYPE PopupField_1 : public ::UnityEngine::UIElements::BasePopupField_2<T, T> {
 public:
   // Declarations
-  using __c__DisplayClass26_0 = ::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>;
+  using __c__DisplayClass26_0 = ::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>;
 
   __declspec(property(put = set_index)) int32_t index;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
+  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
+  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
   /// @brief Field m_Index, offset 0x470, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
   __declspec(property(get = get_value, put = set_value)) T value;
 
@@ -176,15 +174,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PopupField_1(PopupField_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5662 };
+
   /// @brief Field m_Index, offset: 0x470, size: 0x4, def value: None
   int32_t ___m_Index;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::PopupField_1, "UnityEngine.UIElements", "PopupField`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0, "UnityEngine.UIElements", "PopupField`1/<>c__DisplayClass26_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0, "UnityEngine.UIElements", "PopupField`1/<>c__DisplayClass26_0");

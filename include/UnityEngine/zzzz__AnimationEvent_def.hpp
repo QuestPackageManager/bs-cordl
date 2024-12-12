@@ -23,11 +23,10 @@ class AnimationEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimationEvent);
-// Type: UnityEngine::AnimationEvent
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.AnimationEventSource, UnityEngine.AnimatorClipInfo, UnityEngine.AnimatorStateInfo
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AnimationEvent*
+// CS Name: UnityEngine.AnimationEvent
 class CORDL_TYPE AnimationEvent : public ::System::Object {
 public:
   // Declarations
@@ -98,9 +97,9 @@ public:
 
   constexpr ::UnityEngine::AnimationEventSource& __cordl_internal_get_m_Source();
 
-  constexpr ::UnityEngine::AnimationState*& __cordl_internal_get_m_StateSender();
+  constexpr ::UnityEngine::AnimationState* const& __cordl_internal_get_m_StateSender() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationState*> const& __cordl_internal_get_m_StateSender() const;
+  constexpr ::UnityEngine::AnimationState*& __cordl_internal_get_m_StateSender();
 
   constexpr ::StringW const& __cordl_internal_get_m_StringParameter() const;
 
@@ -132,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(float_t value);
 
-  /// @brief Method .ctor, addr 0x47eac50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484bf64, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,6 +147,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationEvent(AnimationEvent const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16853 };
 
   /// @brief Field m_Time, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Time;
@@ -182,14 +184,9 @@ public:
   /// @brief Field m_AnimatorClipInfo, offset: 0x6c, size: 0x8, def value: None
   ::UnityEngine::AnimatorClipInfo ___m_AnimatorClipInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16814 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationEvent, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_Time) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_FunctionName) == 0x18, "Offset mismatch!");
@@ -211,6 +208,8 @@ static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_StateSender) == 0x40,
 static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_AnimatorStateInfo) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_AnimatorClipInfo) == 0x6c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationEvent, 0x78>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AnimationEvent);

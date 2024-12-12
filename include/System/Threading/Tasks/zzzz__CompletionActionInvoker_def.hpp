@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CompletionActionInvoker)
 namespace System::Threading::Tasks {
@@ -10,9 +11,6 @@ class ITaskCompletionAction;
 }
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 class ThreadAbortException;
@@ -23,11 +21,10 @@ class CompletionActionInvoker;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::CompletionActionInvoker);
-// Type: System.Threading.Tasks::CompletionActionInvoker
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Threading.IThreadPoolWorkItem
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::CompletionActionInvoker*
+// CS Name: System.Threading.Tasks.CompletionActionInvoker
 class CORDL_TYPE CompletionActionInvoker : public ::System::Object {
 public:
   // Declarations
@@ -40,27 +37,27 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method MarkAborted, addr 0x3e07e78, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method MarkAborted, addr 0x3e67f24, size 0x4, virtual true, abstract: false, final true
   inline void MarkAborted(::System::Threading::ThreadAbortException* e);
 
   static inline ::System::Threading::Tasks::CompletionActionInvoker* New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3e07dd0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3e67e7c, size 0xa8, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
+
+  constexpr ::System::Threading::Tasks::ITaskCompletionAction* const& __cordl_internal_get_m_action() const;
 
   constexpr ::System::Threading::Tasks::ITaskCompletionAction*& __cordl_internal_get_m_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::ITaskCompletionAction*> const& __cordl_internal_get_m_action() const;
+  constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_m_completingTask() const;
 
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_completingTask();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_m_completingTask() const;
 
   constexpr void __cordl_internal_set_m_action(::System::Threading::Tasks::ITaskCompletionAction* value);
 
   constexpr void __cordl_internal_set_m_completingTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x3e0462c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e646d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
@@ -80,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompletionActionInvoker(CompletionActionInvoker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2791 };
+
   /// @brief Field m_action, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::ITaskCompletionAction* ___m_action;
 
   /// @brief Field m_completingTask, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ___m_completingTask;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2791 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::CompletionActionInvoker, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::Tasks::CompletionActionInvoker, ___m_action) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::Tasks::CompletionActionInvoker, ___m_completingTask) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::CompletionActionInvoker, 0x20>, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::CompletionActionInvoker);

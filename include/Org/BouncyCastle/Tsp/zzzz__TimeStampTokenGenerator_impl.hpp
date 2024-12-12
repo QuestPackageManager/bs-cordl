@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW, ::StringW)>(&::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2598968;
+  constexpr static std::size_t addrs = 0x25cbc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW, ::StringW, ::Org::BouncyCastle::Asn1::Cms::AttributeTable*,
     ::Org::BouncyCastle::Asn1::Cms::AttributeTable*)>(&::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::_ctor)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x2598974;
+  constexpr static std::size_t addrs = 0x25cbc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(::Org::BouncyCastle::X509::Store::IX509Store*)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::SetCertificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598d84;
+  constexpr static std::size_t addrs = 0x25cc070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(::Org::BouncyCastle::X509::Store::IX509Store*)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::SetCrls)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598d8c;
+  constexpr static std::size_t addrs = 0x25cc078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::SetAccuracySeconds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598d94;
+  constexpr static std::size_t addrs = 0x25cc080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::SetAccuracyMillis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598d9c;
+  constexpr static std::size_t addrs = 0x25cc088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::SetAccuracyMicros)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598da4;
+  constexpr static std::size_t addrs = 0x25cc090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(bool)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::SetOrdering)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2598dac;
+  constexpr static std::size_t addrs = 0x25cc098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::SetTsa)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598db8;
+  constexpr static std::size_t addrs = 0x25cc0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::*)(::Org::BouncyCastle::Tsp::TimeStampRequest*, ::Org::BouncyCastle::Math::BigInteger*, ::System::DateTime)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::Generate)> {
   constexpr static std::size_t size = 0x664;
-  constexpr static std::size_t addrs = 0x2596b20;
+  constexpr static std::size_t addrs = 0x25c9e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Tsp:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsa;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_tsa() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_tsa() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsa;
 }
@@ -247,7 +247,7 @@ constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_key() const {
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
@@ -259,7 +259,7 @@ constexpr ::Org::BouncyCastle::X509::X509Certificate*& Org::BouncyCastle::Tsp::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_cert() const {
+constexpr ::Org::BouncyCastle::X509::X509Certificate* const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_cert() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
@@ -283,7 +283,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& Org::BouncyCastle::Ts
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedAttr;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_signedAttr() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable* const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_signedAttr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedAttr;
 }
@@ -295,7 +295,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& Org::BouncyCastle::Ts
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedAttr;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_unsignedAttr() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable* const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_unsignedAttr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedAttr;
 }
@@ -307,7 +307,7 @@ constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& Org::BouncyCastle::Tsp:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Certs;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_x509Certs() const {
+constexpr ::Org::BouncyCastle::X509::Store::IX509Store* const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_x509Certs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Certs;
 }
@@ -319,18 +319,13 @@ constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& Org::BouncyCastle::Tsp:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Crls;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_x509Crls() const {
+constexpr ::Org::BouncyCastle::X509::Store::IX509Store* const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_get_x509Crls() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Crls;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__cordl_internal_set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x509Crls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* Org::BouncyCastle::Tsp::TimeStampTokenGenerator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,
-                                                                                                                    ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
-                                                                                                                    ::StringW tsaPolicyOID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*>(key, cert, digestOID, tsaPolicyOID));
 }
 inline void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
                                                                    ::StringW tsaPolicyOID) {
@@ -340,12 +335,6 @@ inline void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::_ctor(::Org::Bouncy
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, cert, digestOID, tsaPolicyOID);
-}
-inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* Org::BouncyCastle::Tsp::TimeStampTokenGenerator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,
-                                                                                                                    ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
-                                                                                                                    ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
-                                                                                                                    ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*>(key, cert, digestOID, tsaPolicyOID, signedAttr, unsignedAttr));
 }
 inline void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
                                                                    ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
@@ -409,6 +398,17 @@ inline ::Org::BouncyCastle::Tsp::TimeStampToken* Org::BouncyCastle::Tsp::TimeSta
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::DateTime>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Tsp::TimeStampToken*, false>(this, ___internal_method, request, serialNumber, genTime);
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* Org::BouncyCastle::Tsp::TimeStampTokenGenerator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,
+                                                                                                                    ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
+                                                                                                                    ::StringW tsaPolicyOID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*>(key, cert, digestOID, tsaPolicyOID));
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* Org::BouncyCastle::Tsp::TimeStampTokenGenerator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,
+                                                                                                                    ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
+                                                                                                                    ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
+                                                                                                                    ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*>(key, cert, digestOID, tsaPolicyOID, signedAttr, unsignedAttr));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::TimeStampTokenGenerator() {}

@@ -11,20 +11,19 @@ class MainMenuAdditionalComponentsInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainMenuAdditionalComponentsInstaller);
-// Type: ::MainMenuAdditionalComponentsInstaller
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScriptableObjectInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MainMenuAdditionalComponentsInstaller*
+// CS Name: MainMenuAdditionalComponentsInstaller
 class CORDL_TYPE MainMenuAdditionalComponentsInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3b8ffb0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf1d98, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainMenuAdditionalComponentsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b9000c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf1df4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4721 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

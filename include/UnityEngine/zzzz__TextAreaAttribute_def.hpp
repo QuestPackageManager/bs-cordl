@@ -12,11 +12,10 @@ class TextAreaAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextAreaAttribute);
-// Type: UnityEngine::TextAreaAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::TextAreaAttribute*
+// CS Name: UnityEngine.TextAreaAttribute
 class CORDL_TYPE TextAreaAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
@@ -42,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_minLines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4843890, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a4654, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48438b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a4674, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minLines, int32_t maxLines);
 
 protected:
@@ -62,23 +61,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextAreaAttribute(TextAreaAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10841 };
+
   /// @brief Field minLines, offset: 0x10, size: 0x4, def value: None
   int32_t ___minLines;
 
   /// @brief Field maxLines, offset: 0x14, size: 0x4, def value: None
   int32_t ___maxLines;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10808 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextAreaAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextAreaAttribute, ___minLines) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextAreaAttribute, ___maxLines) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextAreaAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::TextAreaAttribute);

@@ -26,11 +26,10 @@ class LoopExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::LoopExpression);
-// Type: System.Linq.Expressions::LoopExpression
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::LoopExpression*
+// CS Name: System.Linq.Expressions.LoopExpression
 class CORDL_TYPE LoopExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -55,27 +54,27 @@ public:
   __declspec(property(get = __cordl_internal_get__ContinueLabel_k__BackingField,
                       put = __cordl_internal_set__ContinueLabel_k__BackingField)) ::System::Linq::Expressions::LabelTarget* _ContinueLabel_k__BackingField;
 
-  /// @brief Method Accept, addr 0x4057a00, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40b8d14, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::LoopExpression* New_ctor(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break,
                                                                       ::System::Linq::Expressions::LabelTarget* _cordl_continue);
 
-  /// @brief Method Update, addr 0x4055bac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40b6ec0, size 0xac, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LoopExpression* Update(::System::Linq::Expressions::LabelTarget* breakLabel, ::System::Linq::Expressions::LabelTarget* continueLabel,
                                                              ::System::Linq::Expressions::Expression* body);
 
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Body_k__BackingField() const;
+
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Body_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Body_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::LabelTarget* const& __cordl_internal_get__BreakLabel_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::LabelTarget*& __cordl_internal_get__BreakLabel_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const& __cordl_internal_get__BreakLabel_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::LabelTarget* const& __cordl_internal_get__ContinueLabel_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::LabelTarget*& __cordl_internal_get__ContinueLabel_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const& __cordl_internal_get__ContinueLabel_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Body_k__BackingField(::System::Linq::Expressions::Expression* value);
 
@@ -83,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set__ContinueLabel_k__BackingField(::System::Linq::Expressions::LabelTarget* value);
 
-  /// @brief Method .ctor, addr 0x40578d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b8bec, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break, ::System::Linq::Expressions::LabelTarget* _cordl_continue);
 
-  /// @brief Method get_Body, addr 0x40579e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x40b8cfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_BreakLabel, addr 0x40579f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BreakLabel, addr 0x40b8d04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_BreakLabel();
 
-  /// @brief Method get_ContinueLabel, addr 0x40579f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContinueLabel, addr 0x40b8d0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_ContinueLabel();
 
-  /// @brief Method get_NodeType, addr 0x40579e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40b8cf4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x4057958, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40b8c6c, size 0x88, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -115,6 +114,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LoopExpression(LoopExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13695 };
+
   /// @brief Field <Body>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Body_k__BackingField;
 
@@ -124,19 +126,16 @@ public:
   /// @brief Field <ContinueLabel>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::LabelTarget* ____ContinueLabel_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13661 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LoopExpression, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::LoopExpression, ____Body_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::LoopExpression, ____BreakLabel_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::LoopExpression, ____ContinueLabel_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LoopExpression, 0x28>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::LoopExpression);

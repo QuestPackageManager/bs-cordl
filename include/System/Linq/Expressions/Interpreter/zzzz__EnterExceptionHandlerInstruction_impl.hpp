@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::*)(bool)>(
     &::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4062ae4;
+  constexpr static std::size_t addrs = 0x40c3df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4062b0c;
+  constexpr static std::size_t addrs = 0x40c3e20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062b4c;
+  constexpr static std::size_t addrs = 0x40c3e60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062b54;
+  constexpr static std::size_t addrs = 0x40c3e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::Run)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062b5c;
+  constexpr static std::size_t addrs = 0x40c3e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,9 +112,6 @@ inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstructio
   return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction*, "NonVoid",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction*>::get>();
 }
-inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::New_ctor(bool hasValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction*>(hasValue));
-}
 inline void System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::_ctor(bool hasValue) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction*>::get(), ".ctor",
@@ -144,6 +141,9 @@ inline int32_t System::Linq::Expressions::Interpreter::EnterExceptionHandlerInst
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::New_ctor(bool hasValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction*>(hasValue));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction::EnterExceptionHandlerInstruction() {}

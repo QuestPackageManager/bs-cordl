@@ -14,15 +14,14 @@ class DisposeHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DisposeHelper);
-// Type: UnityEngine.UIElements::DisposeHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::DisposeHelper*
+// CS Name: UnityEngine.UIElements.DisposeHelper
 class CORDL_TYPE DisposeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NotifyDisposedUsed, addr 0x49b0a88, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisposedUsed, addr 0x4a15398, size 0xc8, virtual false, abstract: false, final false
   static inline void NotifyDisposedUsed(::System::IDisposable* disposable);
 
 protected:
@@ -40,7 +39,7 @@ public:
   DisposeHelper(DisposeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

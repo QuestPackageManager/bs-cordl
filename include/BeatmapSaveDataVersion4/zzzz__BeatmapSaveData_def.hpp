@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapSaveData)
 namespace BeatmapSaveDataVersion4 {
@@ -12,6 +11,9 @@ class ArcBeatIndex;
 }
 namespace BeatmapSaveDataVersion4 {
 struct Arc;
+}
+namespace BeatmapSaveDataVersion4 {
+class BeatIndex;
 }
 namespace BeatmapSaveDataVersion4 {
 class BeatmapBeatIndex;
@@ -29,6 +31,9 @@ namespace BeatmapSaveDataVersion4 {
 struct ColorNote;
 }
 namespace BeatmapSaveDataVersion4 {
+struct NoteJumpMovementSpeedEvent;
+}
+namespace BeatmapSaveDataVersion4 {
 struct Obstacle;
 }
 // Forward declare root types
@@ -37,11 +42,10 @@ class BeatmapSaveData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::BeatmapSaveData);
-// Type: BeatmapSaveDataVersion4::BeatmapSaveData
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion4::BeatmapSaveData*
+// CS Name: BeatmapSaveDataVersion4.BeatmapSaveData
 class CORDL_TYPE BeatmapSaveData : public ::System::Object {
 public:
   // Declarations
@@ -76,6 +80,15 @@ public:
   __declspec(property(get = __cordl_internal_get_colorNotesData,
                       put = __cordl_internal_set_colorNotesData)) ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>
       colorNotesData;
+
+  /// @brief Field njsEventData, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_njsEventData,
+                      put = __cordl_internal_set_njsEventData)) ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*>
+      njsEventData;
+
+  /// @brief Field njsEvents, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_njsEvents, put = __cordl_internal_set_njsEvents)) ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>
+      njsEvents;
 
   /// @brief Field obstacles, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_obstacles,
@@ -123,6 +136,14 @@ public:
 
   constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>& __cordl_internal_get_colorNotesData();
 
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*> const& __cordl_internal_get_njsEventData() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*>& __cordl_internal_get_njsEventData();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& __cordl_internal_get_njsEvents() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& __cordl_internal_get_njsEvents();
+
   constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> const& __cordl_internal_get_obstacles() const;
 
   constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*>& __cordl_internal_get_obstacles();
@@ -151,13 +172,17 @@ public:
 
   constexpr void __cordl_internal_set_colorNotesData(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
 
+  constexpr void __cordl_internal_set_njsEventData(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*> value);
+
+  constexpr void __cordl_internal_set_njsEvents(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value);
+
   constexpr void __cordl_internal_set_obstacles(::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> value);
 
   constexpr void __cordl_internal_set_obstaclesData(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> value);
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d2c04, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27044a4, size 0x510, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,6 +198,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapSaveData(BeatmapSaveData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13365 };
+
+  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCurrentVersion{ u"4.1.0" };
 
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::StringW ___version;
@@ -207,17 +238,15 @@ public:
   /// @brief Field arcsData, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> ___arcsData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13335 };
+  /// @brief Field njsEvents, offset: 0x68, size: 0x8, def value: None
+  ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> ___njsEvents;
 
-  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };
+  /// @brief Field njsEventData, offset: 0x70, size: 0x8, def value: None
+  ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*> ___njsEventData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::BeatmapSaveData, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___colorNotes) == 0x18, "Offset mismatch!");
@@ -239,6 +268,12 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___obstaclesD
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___chainsData) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___arcsData) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___njsEvents) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___njsEventData) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::BeatmapSaveData, 0x78>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion4
 NEED_NO_BOX(::BeatmapSaveDataVersion4::BeatmapSaveData);

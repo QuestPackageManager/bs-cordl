@@ -12,11 +12,10 @@ struct TextEditOp;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextEditOp);
-// Type: UnityEngine::TextEditOp
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::TextEditOp
+// CS Name: UnityEngine.TextEditOp
 struct CORDL_TYPE TextEditOp {
 public:
   // Declarations
@@ -72,108 +71,108 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextEditOp(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Backspace value: static_cast<int32_t>(0x13)
+  /// @brief Field Backspace value: I32(19)
   static ::UnityEngine::TextEditOp const Backspace;
 
-  /// @brief Field Cut value: static_cast<int32_t>(0x17)
+  /// @brief Field Cut value: I32(23)
   static ::UnityEngine::TextEditOp const Cut;
 
-  /// @brief Field Delete value: static_cast<int32_t>(0x12)
+  /// @brief Field Delete value: I32(18)
   static ::UnityEngine::TextEditOp const Delete;
 
-  /// @brief Field DeleteLineBack value: static_cast<int32_t>(0x16)
+  /// @brief Field DeleteLineBack value: I32(22)
   static ::UnityEngine::TextEditOp const DeleteLineBack;
 
-  /// @brief Field DeleteWordBack value: static_cast<int32_t>(0x14)
+  /// @brief Field DeleteWordBack value: I32(20)
   static ::UnityEngine::TextEditOp const DeleteWordBack;
 
-  /// @brief Field DeleteWordForward value: static_cast<int32_t>(0x15)
+  /// @brief Field DeleteWordForward value: I32(21)
   static ::UnityEngine::TextEditOp const DeleteWordForward;
 
-  /// @brief Field MoveDown value: static_cast<int32_t>(0x3)
+  /// @brief Field MoveDown value: I32(3)
   static ::UnityEngine::TextEditOp const MoveDown;
 
-  /// @brief Field MoveGraphicalLineEnd value: static_cast<int32_t>(0xb)
+  /// @brief Field MoveGraphicalLineEnd value: I32(11)
   static ::UnityEngine::TextEditOp const MoveGraphicalLineEnd;
 
-  /// @brief Field MoveGraphicalLineStart value: static_cast<int32_t>(0xa)
+  /// @brief Field MoveGraphicalLineStart value: I32(10)
   static ::UnityEngine::TextEditOp const MoveGraphicalLineStart;
 
-  /// @brief Field MoveLeft value: static_cast<int32_t>(0x0)
+  /// @brief Field MoveLeft value: I32(0)
   static ::UnityEngine::TextEditOp const MoveLeft;
 
-  /// @brief Field MoveLineEnd value: static_cast<int32_t>(0x5)
+  /// @brief Field MoveLineEnd value: I32(5)
   static ::UnityEngine::TextEditOp const MoveLineEnd;
 
-  /// @brief Field MoveLineStart value: static_cast<int32_t>(0x4)
+  /// @brief Field MoveLineStart value: I32(4)
   static ::UnityEngine::TextEditOp const MoveLineStart;
 
-  /// @brief Field MovePageDown value: static_cast<int32_t>(0x9)
+  /// @brief Field MovePageDown value: I32(9)
   static ::UnityEngine::TextEditOp const MovePageDown;
 
-  /// @brief Field MovePageUp value: static_cast<int32_t>(0x8)
+  /// @brief Field MovePageUp value: I32(8)
   static ::UnityEngine::TextEditOp const MovePageUp;
 
-  /// @brief Field MoveParagraphBackward value: static_cast<int32_t>(0xf)
+  /// @brief Field MoveParagraphBackward value: I32(15)
   static ::UnityEngine::TextEditOp const MoveParagraphBackward;
 
-  /// @brief Field MoveParagraphForward value: static_cast<int32_t>(0xe)
+  /// @brief Field MoveParagraphForward value: I32(14)
   static ::UnityEngine::TextEditOp const MoveParagraphForward;
 
-  /// @brief Field MoveRight value: static_cast<int32_t>(0x1)
+  /// @brief Field MoveRight value: I32(1)
   static ::UnityEngine::TextEditOp const MoveRight;
 
-  /// @brief Field MoveTextEnd value: static_cast<int32_t>(0x7)
+  /// @brief Field MoveTextEnd value: I32(7)
   static ::UnityEngine::TextEditOp const MoveTextEnd;
 
-  /// @brief Field MoveTextStart value: static_cast<int32_t>(0x6)
+  /// @brief Field MoveTextStart value: I32(6)
   static ::UnityEngine::TextEditOp const MoveTextStart;
 
-  /// @brief Field MoveToEndOfPreviousWord value: static_cast<int32_t>(0x11)
+  /// @brief Field MoveToEndOfPreviousWord value: I32(17)
   static ::UnityEngine::TextEditOp const MoveToEndOfPreviousWord;
 
-  /// @brief Field MoveToStartOfNextWord value: static_cast<int32_t>(0x10)
+  /// @brief Field MoveToStartOfNextWord value: I32(16)
   static ::UnityEngine::TextEditOp const MoveToStartOfNextWord;
 
-  /// @brief Field MoveUp value: static_cast<int32_t>(0x2)
+  /// @brief Field MoveUp value: I32(2)
   static ::UnityEngine::TextEditOp const MoveUp;
 
-  /// @brief Field MoveWordLeft value: static_cast<int32_t>(0xc)
+  /// @brief Field MoveWordLeft value: I32(12)
   static ::UnityEngine::TextEditOp const MoveWordLeft;
 
-  /// @brief Field MoveWordRight value: static_cast<int32_t>(0xd)
+  /// @brief Field MoveWordRight value: I32(13)
   static ::UnityEngine::TextEditOp const MoveWordRight;
 
-  /// @brief Field Paste value: static_cast<int32_t>(0x18)
+  /// @brief Field Paste value: I32(24)
   static ::UnityEngine::TextEditOp const Paste;
 
-  /// @brief Field ScrollEnd value: static_cast<int32_t>(0x1a)
+  /// @brief Field ScrollEnd value: I32(26)
   static ::UnityEngine::TextEditOp const ScrollEnd;
 
-  /// @brief Field ScrollPageDown value: static_cast<int32_t>(0x1c)
+  /// @brief Field ScrollPageDown value: I32(28)
   static ::UnityEngine::TextEditOp const ScrollPageDown;
 
-  /// @brief Field ScrollPageUp value: static_cast<int32_t>(0x1b)
+  /// @brief Field ScrollPageUp value: I32(27)
   static ::UnityEngine::TextEditOp const ScrollPageUp;
 
-  /// @brief Field ScrollStart value: static_cast<int32_t>(0x19)
+  /// @brief Field ScrollStart value: I32(25)
   static ::UnityEngine::TextEditOp const ScrollStart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16657 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextEditOp, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextEditOp, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextEditOp, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextEditOp, "UnityEngine", "TextEditOp");

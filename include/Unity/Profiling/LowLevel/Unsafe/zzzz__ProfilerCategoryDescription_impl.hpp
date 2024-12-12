@@ -2,7 +2,6 @@
 // IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerCategoryDescription.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/zzzz__ProfilerCategoryDescription_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 constexpr uint16_t& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_get_Id() {
   return this->___Id;
 }
@@ -59,7 +58,7 @@ constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::
 }
 // Ctor Parameters [CppParam { name: "Id", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Flags", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "Color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8Len",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: Some("nullptr") }]
+// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::ProfilerCategoryDescription(uint16_t Id, uint16_t Flags, ::UnityEngine::Color32 Color, int32_t reserved0,
                                                                                                          int32_t NameUtf8Len, ::cordl_internals::Ptr<uint8_t> NameUtf8) noexcept {
   this->Id = Id;

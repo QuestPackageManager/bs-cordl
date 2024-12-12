@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(ComputeBuffer)
 // Forward declare root types
 namespace UnityEngine {
@@ -13,11 +12,10 @@ class ComputeBuffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ComputeBuffer);
-// Type: UnityEngine::ComputeBuffer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ComputeBuffer*
+// CS Name: UnityEngine.ComputeBuffer
 class CORDL_TYPE ComputeBuffer : public ::System::Object {
 public:
   // Declarations
@@ -44,18 +42,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComputeBuffer(ComputeBuffer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10928 };
+
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ComputeBuffer, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ComputeBuffer, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ComputeBuffer, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ComputeBuffer);

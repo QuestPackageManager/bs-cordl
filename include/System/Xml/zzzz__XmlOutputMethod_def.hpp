@@ -12,11 +12,10 @@ struct XmlOutputMethod;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::XmlOutputMethod);
-// Type: System.Xml::XmlOutputMethod
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::System.Xml::XmlOutputMethod
+// CS Name: System.Xml.XmlOutputMethod
 struct CORDL_TYPE XmlOutputMethod {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr XmlOutputMethod(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AutoDetect value: static_cast<int32_t>(0x3)
+  /// @brief Field AutoDetect value: I32(3)
   static ::System::Xml::XmlOutputMethod const AutoDetect;
 
-  /// @brief Field Html value: static_cast<int32_t>(0x1)
+  /// @brief Field Html value: I32(1)
   static ::System::Xml::XmlOutputMethod const Html;
 
-  /// @brief Field Text value: static_cast<int32_t>(0x2)
+  /// @brief Field Text value: I32(2)
   static ::System::Xml::XmlOutputMethod const Text;
 
-  /// @brief Field Xml value: static_cast<int32_t>(0x0)
+  /// @brief Field Xml value: I32(0)
   static ::System::Xml::XmlOutputMethod const Xml;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7271 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlOutputMethod, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlOutputMethod, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlOutputMethod, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlOutputMethod, "System.Xml", "XmlOutputMethod");

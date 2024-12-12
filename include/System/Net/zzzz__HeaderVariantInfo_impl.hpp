@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HeaderVariantInfo::*)(::StringW, ::System::Net::CookieVariant)>(
     &::System::Net::HeaderVariantInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x444e0bc;
+  constexpr static std::size_t addrs = 0x44af3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HeaderVariantInfo::*)()>(&::System::Net::HeaderVariantInfo::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x444e0c8;
+  constexpr static std::size_t addrs = 0x44af3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HeaderVariantInfo>::get(), "get_Name",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieVariant (::System::Net::HeaderVariantInfo::*)()>(
     &::System::Net::HeaderVariantInfo::get_Variant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x444e0d0;
+  constexpr static std::size_t addrs = 0x44af3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HeaderVariantInfo>::get(), "get_Variant",
@@ -63,7 +63,7 @@ inline ::System::Net::CookieVariant System::Net::HeaderVariantInfo::get_Variant(
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::CookieVariant, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value:
+// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value:
 // Some("{}") }]
 constexpr ::System::Net::HeaderVariantInfo::HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept {
   this->m_name = m_name;

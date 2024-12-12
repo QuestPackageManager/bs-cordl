@@ -4,13 +4,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__IReflectableType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 CORDL_MODULE_EXPORT(TypeInfo)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::Reflection {
-class IReflectableType;
 }
 namespace System {
 class Type;
@@ -21,11 +19,10 @@ class TypeInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::TypeInfo);
-// Type: System.Reflection::TypeInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.BindingFlags, System.Reflection.IReflectableType, System.Type
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::TypeInfo*
+// CS Name: System.Reflection.TypeInfo
 class CORDL_TYPE TypeInfo : public ::System::Type {
 public:
   // Declarations
@@ -36,13 +33,13 @@ public:
 
   static inline ::System::Reflection::TypeInfo* New_ctor();
 
-  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x3cc76c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x3d27838, size 0x4, virtual true, abstract: false, final true
   inline ::System::Reflection::TypeInfo* System_Reflection_IReflectableType_GetTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3cc6fd4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d27148, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ImplementedInterfaces, addr 0x3cc76c8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ImplementedInterfaces, addr 0x3d2783c, size 0x10, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ImplementedInterfaces();
 
   /// @brief Convert to "::System::Reflection::IReflectableType"
@@ -62,7 +59,7 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeInfo(TypeInfo const&) = delete;
 
-  /// @brief Field DeclaredOnlyLookup value: static_cast<int32_t>(0x3e)
+  /// @brief Field DeclaredOnlyLookup value: I32(62)
   static ::System::Reflection::BindingFlags const DeclaredOnlyLookup;
 
   /// @brief IL2CPP Metadata Type Index

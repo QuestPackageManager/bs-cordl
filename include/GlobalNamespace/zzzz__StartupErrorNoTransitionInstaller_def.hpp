@@ -20,11 +20,10 @@ class StartupErrorNoTransitionInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StartupErrorNoTransitionInstaller);
-// Type: ::StartupErrorNoTransitionInstaller
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.NoTransitionInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StartupErrorNoTransitionInstaller*
+// CS Name: StartupErrorNoTransitionInstaller
 class CORDL_TYPE StartupErrorNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get__startupErrorSceneSetupData,
                       put = __cordl_internal_set__startupErrorSceneSetupData)) ::GlobalNamespace::StartupErrorSceneSetupData* _startupErrorSceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3ad88b8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b3844c, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::StartupErrorNoTransitionInstaller* New_ctor();
@@ -46,15 +45,15 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
 
-  constexpr ::GlobalNamespace::StartupErrorSceneSetupData*& __cordl_internal_get__startupErrorSceneSetupData();
+  constexpr ::GlobalNamespace::StartupErrorSceneSetupData* const& __cordl_internal_get__startupErrorSceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StartupErrorSceneSetupData*> const& __cordl_internal_get__startupErrorSceneSetupData() const;
+  constexpr ::GlobalNamespace::StartupErrorSceneSetupData*& __cordl_internal_get__startupErrorSceneSetupData();
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO> value);
 
   constexpr void __cordl_internal_set__startupErrorSceneSetupData(::GlobalNamespace::StartupErrorSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3ad88fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b38498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StartupErrorNoTransitionInstaller(StartupErrorNoTransitionInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5229 };
+
   /// @brief Field _startupErrorSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StartupErrorSceneSetupData* ____startupErrorSceneSetupData;
 
   /// @brief Field _scenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5209 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StartupErrorNoTransitionInstaller, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StartupErrorNoTransitionInstaller, ____startupErrorSceneSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StartupErrorNoTransitionInstaller, ____scenesTransitionSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StartupErrorNoTransitionInstaller, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StartupErrorNoTransitionInstaller);

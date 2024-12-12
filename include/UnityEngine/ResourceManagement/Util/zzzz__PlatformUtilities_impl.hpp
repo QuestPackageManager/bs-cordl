@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RuntimePlatform)>(
     &::UnityEngine::ResourceManagement::Util::PlatformUtilities::PlatformUsesMultiThreading)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4735100;
+  constexpr static std::size_t addrs = 0x4796414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::PlatformUtilities::*)()>(
     &::UnityEngine::ResourceManagement::Util::PlatformUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x473510c;
+  constexpr static std::size_t addrs = 0x4796420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,13 +39,13 @@ inline bool UnityEngine::ResourceManagement::Util::PlatformUtilities::PlatformUs
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RuntimePlatform>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, platform);
 }
-inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* UnityEngine::ResourceManagement::Util::PlatformUtilities::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::PlatformUtilities*>());
-}
 inline void UnityEngine::ResourceManagement::Util::PlatformUtilities::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::PlatformUtilities*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* UnityEngine::ResourceManagement::Util::PlatformUtilities::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::PlatformUtilities*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::PlatformUtilities::PlatformUtilities() {}

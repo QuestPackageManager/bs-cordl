@@ -1,6 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/MonoMethodMessage.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallType_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IInternalMessage_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MonoMethodMessage_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
@@ -9,11 +14,6 @@
 #include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__AsyncResult_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallType_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IInternalMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MCMDictionary_def.hpp"
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(
     ::System::Reflection::RuntimeMethodInfo*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::InitMessage)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3c8f768;
+  constexpr static std::size_t addrs = 0x3cef8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(
     ::System::Reflection::MethodBase*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c8f9dc;
+  constexpr static std::size_t addrs = 0x3cefb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Reflection::MethodInfo*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3c8faa4;
+  constexpr static std::size_t addrs = 0x3cefc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::GetMethodInfo)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c8fbdc;
+  constexpr static std::size_t addrs = 0x3cefd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(
     ::System::Type*, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c8fc8c;
+  constexpr static std::size_t addrs = 0x3cefe00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Properties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c8fcc4;
+  constexpr static std::size_t addrs = 0x3cefe38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_ArgCount)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c8fd2c;
+  constexpr static std::size_t addrs = 0x3cefea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
     ::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Args)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8fde0;
+  constexpr static std::size_t addrs = 0x3ceff54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext* (
     ::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_LogicalCallContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8fde8;
+  constexpr static std::size_t addrs = 0x3ceff5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(
     ::System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::set_LogicalCallContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8fdf0;
+  constexpr static std::size_t addrs = 0x3ceff64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodBase* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodBase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8fdf8;
+  constexpr static std::size_t addrs = 0x3ceff6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c8fe00;
+  constexpr static std::size_t addrs = 0x3ceff74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodSignature)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3c8fe80;
+  constexpr static std::size_t addrs = 0x3cefff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_TypeName)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c8ff9c;
+  constexpr static std::size_t addrs = 0x3cf0110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Uri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c90030;
+  constexpr static std::size_t addrs = 0x3cf01a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::set_Uri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c90038;
+  constexpr static std::size_t addrs = 0x3cf01ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(int32_t)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::GetArg)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3c90040;
+  constexpr static std::size_t addrs = 0x3cf01b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Exception)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c90074;
+  constexpr static std::size_t addrs = 0x3cf01e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_OutArgCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c9007c;
+  constexpr static std::size_t addrs = 0x3cf01f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
     ::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_OutArgs)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3c900e0;
+  constexpr static std::size_t addrs = 0x3cf0254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_ReturnValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c90208;
+  constexpr static std::size_t addrs = 0x3cf037c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Identity* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c90210;
+  constexpr static std::size_t addrs = 0x3cf0384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::System::Runtime::Remoting::Identity*)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c90218;
+  constexpr static std::size_t addrs = 0x3cf038c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::AsyncResult* (
     ::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_AsyncResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c90220;
+  constexpr static std::size_t addrs = 0x3cf0394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::CallType (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_CallType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c8fd64;
+  constexpr static std::size_t addrs = 0x3cefed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,64 +405,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MonoMethodMessage.NeedsOutProcessing
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::ByRef<int32_t>)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::NeedsOutProcessing)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c90228;
+  constexpr static std::size_t addrs = 0x3cf039c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get(), "NeedsOutProcessing",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
-constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
-constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
-constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
-constexpr ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMessage() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
-constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
-constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*
-System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IInternalMessage"
-constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IInternalMessage*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IInternalMessage*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Messaging::IInternalMessage"
-constexpr ::System::Runtime::Remoting::Messaging::IInternalMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IInternalMessage() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IInternalMessage*>(static_cast<void*>(this));
-}
 constexpr ::System::Reflection::RuntimeMethodInfo*& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeMethodInfo*> const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_method() const {
+constexpr ::System::Reflection::RuntimeMethodInfo* const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
@@ -510,8 +469,7 @@ constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& System::R
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctx;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const&
-System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_ctx() const {
+constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext* const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_ctx() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctx;
 }
@@ -523,7 +481,7 @@ constexpr ::System::Object*& System::Runtime::Remoting::Messaging::MonoMethodMes
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rval;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_rval() const {
+constexpr ::System::Object* const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_rval() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rval;
 }
@@ -535,7 +493,7 @@ constexpr ::System::Exception*& System::Runtime::Remoting::Messaging::MonoMethod
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_exc() const {
+constexpr ::System::Exception* const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_exc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exc;
 }
@@ -547,8 +505,7 @@ constexpr ::System::Runtime::Remoting::Messaging::AsyncResult*& System::Runtime:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncResult;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::AsyncResult*> const&
-System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_asyncResult() const {
+constexpr ::System::Runtime::Remoting::Messaging::AsyncResult* const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_asyncResult() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncResult;
 }
@@ -584,8 +541,7 @@ constexpr ::System::Runtime::Remoting::Messaging::MCMDictionary*& System::Runtim
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___properties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MCMDictionary*> const&
-System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_properties() const {
+constexpr ::System::Runtime::Remoting::Messaging::MCMDictionary* const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_properties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___properties;
 }
@@ -597,7 +553,7 @@ constexpr ::System::Runtime::Remoting::Identity*& System::Runtime::Remoting::Mes
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identity;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Identity*> const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_identity() const {
+constexpr ::System::Runtime::Remoting::Identity* const& System::Runtime::Remoting::Messaging::MonoMethodMessage::__cordl_internal_get_identity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identity;
 }
@@ -624,21 +580,12 @@ inline void System::Runtime::Remoting::Messaging::MonoMethodMessage::InitMessage
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, method, out_args);
 }
-inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(::System::Reflection::MethodBase* method,
-                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(method, out_args));
-}
 inline void System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor(::System::Reflection::MethodBase* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodBase*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, method, out_args);
-}
-inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(::System::Reflection::MethodInfo* minfo,
-                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args,
-                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(minfo, in_args, out_args));
 }
 inline void System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor(::System::Reflection::MethodInfo* minfo, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args,
                                                                            ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args) {
@@ -654,10 +601,6 @@ inline ::System::Reflection::MethodInfo* System::Runtime::Remoting::Messaging::M
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get(), "GetMethodInfo", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(nullptr, ___internal_method, type, methodName);
-}
-inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(::System::Type* type, ::StringW methodName,
-                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(type, methodName, in_args));
 }
 inline void System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -772,11 +715,65 @@ inline ::System::Runtime::Remoting::Messaging::CallType System::Runtime::Remotin
                                                                              "get_CallType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::CallType, false>(this, ___internal_method);
 }
-inline bool System::Runtime::Remoting::Messaging::MonoMethodMessage::NeedsOutProcessing(ByRef<int32_t> outCount) {
+inline bool System::Runtime::Remoting::Messaging::MonoMethodMessage::NeedsOutProcessing(::ByRef<int32_t> outCount) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get(), "NeedsOutProcessing",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, outCount);
+}
+inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(::System::Reflection::MethodBase* method,
+                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(method, out_args));
+}
+inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(::System::Reflection::MethodInfo* minfo,
+                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args,
+                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(minfo, in_args, out_args));
+}
+inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(::System::Type* type, ::StringW methodName,
+                                                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(type, methodName, in_args));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
+constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
+constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMessage() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*
+System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IInternalMessage"
+constexpr System::Runtime::Remoting::Messaging::MonoMethodMessage::operator ::System::Runtime::Remoting::Messaging::IInternalMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IInternalMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IInternalMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IInternalMessage* System::Runtime::Remoting::Messaging::MonoMethodMessage::i___System__Runtime__Remoting__Messaging__IInternalMessage() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IInternalMessage*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage::MonoMethodMessage() {}

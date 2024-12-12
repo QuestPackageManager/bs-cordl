@@ -12,11 +12,10 @@ class AspMvcPartialViewLocationFormatAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute);
-// Type: JetBrains.Annotations::AspMvcPartialViewLocationFormatAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::AspMvcPartialViewLocationFormatAttribute*
+// CS Name: JetBrains.Annotations.AspMvcPartialViewLocationFormatAttribute
 class CORDL_TYPE AspMvcPartialViewLocationFormatAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Format_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c458, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0d68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format, addr 0x4a8c480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x4af0d90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format, addr 0x4a8c488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x4af0d98, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspMvcPartialViewLocationFormatAttribute(AspMvcPartialViewLocationFormatAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18469 };
+
   /// @brief Field <Format>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Format_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute, ____Format_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute);

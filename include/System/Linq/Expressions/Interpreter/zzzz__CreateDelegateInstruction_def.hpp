@@ -19,11 +19,10 @@ class CreateDelegateInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::CreateDelegateInstruction);
-// Type: System.Linq.Expressions.Interpreter::CreateDelegateInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::CreateDelegateInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.CreateDelegateInstruction
 class CORDL_TYPE CreateDelegateInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -38,25 +37,25 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CreateDelegateInstruction* New_ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method Run, addr 0x40955fc, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f6910, size 0x16c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+
+  constexpr ::System::Linq::Expressions::Interpreter::LightDelegateCreator* const& __cordl_internal_get__creator() const;
 
   constexpr ::System::Linq::Expressions::Interpreter::LightDelegateCreator*& __cordl_internal_get__creator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::LightDelegateCreator*> const& __cordl_internal_get__creator() const;
-
   constexpr void __cordl_internal_set__creator(::System::Linq::Expressions::Interpreter::LightDelegateCreator* value);
 
-  /// @brief Method .ctor, addr 0x4095568, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f687c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method get_ConsumedStack, addr 0x4095590, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f68a4, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40955bc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f68d0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40955b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f68c8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -73,18 +72,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CreateDelegateInstruction(CreateDelegateInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14099 };
+
   /// @brief Field _creator, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::LightDelegateCreator* ____creator;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::CreateDelegateInstruction, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::CreateDelegateInstruction, ____creator) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::CreateDelegateInstruction, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::CreateDelegateInstruction);

@@ -4,11 +4,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Tayx/Graphy/Utils/zzzz__G_Singleton_1_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__FFTWindow_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -35,22 +33,22 @@ namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__LookForAudioListener;
+struct GraphyManager_LookForAudioListener;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__Mode;
+struct GraphyManager_Mode;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+struct GraphyManager_ModulePosition;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePreset;
+struct GraphyManager_ModulePreset;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
+struct GraphyManager_ModuleState;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleType;
+struct GraphyManager_ModuleType;
 }
 namespace UnityEngine::InputSystem {
 struct Key;
@@ -66,53 +64,52 @@ struct FFTWindow;
 }
 // Forward declare root types
 namespace Tayx::Graphy {
-struct __GraphyManager__LookForAudioListener;
+struct GraphyManager_LookForAudioListener;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__Mode;
+struct GraphyManager_Mode;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+struct GraphyManager_ModulePosition;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePreset;
+struct GraphyManager_ModulePreset;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
+struct GraphyManager_ModuleState;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleType;
+struct GraphyManager_ModuleType;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
 // Write type traits
-MARK_VAL_T(::Tayx::Graphy::__GraphyManager__LookForAudioListener);
-MARK_VAL_T(::Tayx::Graphy::__GraphyManager__Mode);
-MARK_VAL_T(::Tayx::Graphy::__GraphyManager__ModulePosition);
-MARK_VAL_T(::Tayx::Graphy::__GraphyManager__ModulePreset);
-MARK_VAL_T(::Tayx::Graphy::__GraphyManager__ModuleState);
-MARK_VAL_T(::Tayx::Graphy::__GraphyManager__ModuleType);
+MARK_VAL_T(::Tayx::Graphy::GraphyManager_LookForAudioListener);
+MARK_VAL_T(::Tayx::Graphy::GraphyManager_Mode);
+MARK_VAL_T(::Tayx::Graphy::GraphyManager_ModulePosition);
+MARK_VAL_T(::Tayx::Graphy::GraphyManager_ModulePreset);
+MARK_VAL_T(::Tayx::Graphy::GraphyManager_ModuleState);
+MARK_VAL_T(::Tayx::Graphy::GraphyManager_ModuleType);
 MARK_REF_PTR_T(::Tayx::Graphy::GraphyManager);
-// Type: ::Mode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy {
 // Is value type: true
-// CS Name: ::GraphyManager::Mode
-struct CORDL_TYPE __GraphyManager__Mode {
+// CS Name: Tayx.Graphy.GraphyManager/Mode
+struct CORDL_TYPE GraphyManager_Mode {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GraphyManager__Mode_Unwrapped
-  enum struct ____GraphyManager__Mode_Unwrapped : int32_t {
+  /// @brief Nested struct __GraphyManager_Mode_Unwrapped
+  enum struct __GraphyManager_Mode_Unwrapped : int32_t {
     __E_FULL = static_cast<int32_t>(0x0),
     __E_LIGHT = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GraphyManager__Mode_Unwrapped() const noexcept {
-    return static_cast<____GraphyManager__Mode_Unwrapped>(this->value__);
+  constexpr operator __GraphyManager_Mode_Unwrapped() const noexcept {
+    return static_cast<__GraphyManager_Mode_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -122,46 +119,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GraphyManager__Mode();
+  constexpr GraphyManager_Mode();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GraphyManager__Mode(int32_t value__) noexcept;
+  constexpr GraphyManager_Mode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field FULL value: I32(0)
+  static ::Tayx::Graphy::GraphyManager_Mode const FULL;
 
-  /// @brief Field FULL value: static_cast<int32_t>(0x0)
-  static ::Tayx::Graphy::__GraphyManager__Mode const FULL;
-
-  /// @brief Field LIGHT value: static_cast<int32_t>(0x1)
-  static ::Tayx::Graphy::__GraphyManager__Mode const LIGHT;
+  /// @brief Field LIGHT value: I32(1)
+  static ::Tayx::Graphy::GraphyManager_Mode const LIGHT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17205 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyManager__Mode, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyManager_Mode, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::__GraphyManager__Mode, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager_Mode, 0x4>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
-// Type: ::ModuleType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy {
 // Is value type: true
-// CS Name: ::GraphyManager::ModuleType
-struct CORDL_TYPE __GraphyManager__ModuleType {
+// CS Name: Tayx.Graphy.GraphyManager/ModuleType
+struct CORDL_TYPE GraphyManager_ModuleType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GraphyManager__ModuleType_Unwrapped
-  enum struct ____GraphyManager__ModuleType_Unwrapped : int32_t {
+  /// @brief Nested struct __GraphyManager_ModuleType_Unwrapped
+  enum struct __GraphyManager_ModuleType_Unwrapped : int32_t {
     __E_FPS = static_cast<int32_t>(0x0),
     __E_RAM = static_cast<int32_t>(0x1),
     __E_AUDIO = static_cast<int32_t>(0x2),
@@ -169,8 +165,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GraphyManager__ModuleType_Unwrapped() const noexcept {
-    return static_cast<____GraphyManager__ModuleType_Unwrapped>(this->value__);
+  constexpr operator __GraphyManager_ModuleType_Unwrapped() const noexcept {
+    return static_cast<__GraphyManager_ModuleType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -180,52 +176,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GraphyManager__ModuleType();
+  constexpr GraphyManager_ModuleType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GraphyManager__ModuleType(int32_t value__) noexcept;
+  constexpr GraphyManager_ModuleType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ADVANCED value: I32(3)
+  static ::Tayx::Graphy::GraphyManager_ModuleType const ADVANCED;
 
-  /// @brief Field ADVANCED value: static_cast<int32_t>(0x3)
-  static ::Tayx::Graphy::__GraphyManager__ModuleType const ADVANCED;
+  /// @brief Field AUDIO value: I32(2)
+  static ::Tayx::Graphy::GraphyManager_ModuleType const AUDIO;
 
-  /// @brief Field AUDIO value: static_cast<int32_t>(0x2)
-  static ::Tayx::Graphy::__GraphyManager__ModuleType const AUDIO;
+  /// @brief Field FPS value: I32(0)
+  static ::Tayx::Graphy::GraphyManager_ModuleType const FPS;
 
-  /// @brief Field FPS value: static_cast<int32_t>(0x0)
-  static ::Tayx::Graphy::__GraphyManager__ModuleType const FPS;
-
-  /// @brief Field RAM value: static_cast<int32_t>(0x1)
-  static ::Tayx::Graphy::__GraphyManager__ModuleType const RAM;
+  /// @brief Field RAM value: I32(1)
+  static ::Tayx::Graphy::GraphyManager_ModuleType const RAM;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17206 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyManager__ModuleType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyManager_ModuleType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModuleType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager_ModuleType, 0x4>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
-// Type: ::ModuleState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy {
 // Is value type: true
-// CS Name: ::GraphyManager::ModuleState
-struct CORDL_TYPE __GraphyManager__ModuleState {
+// CS Name: Tayx.Graphy.GraphyManager/ModuleState
+struct CORDL_TYPE GraphyManager_ModuleState {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GraphyManager__ModuleState_Unwrapped
-  enum struct ____GraphyManager__ModuleState_Unwrapped : int32_t {
+  /// @brief Nested struct __GraphyManager_ModuleState_Unwrapped
+  enum struct __GraphyManager_ModuleState_Unwrapped : int32_t {
     __E_FULL = static_cast<int32_t>(0x0),
     __E_TEXT = static_cast<int32_t>(0x1),
     __E_BASIC = static_cast<int32_t>(0x2),
@@ -234,8 +229,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GraphyManager__ModuleState_Unwrapped() const noexcept {
-    return static_cast<____GraphyManager__ModuleState_Unwrapped>(this->value__);
+  constexpr operator __GraphyManager_ModuleState_Unwrapped() const noexcept {
+    return static_cast<__GraphyManager_ModuleState_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -245,55 +240,54 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GraphyManager__ModuleState();
+  constexpr GraphyManager_ModuleState();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GraphyManager__ModuleState(int32_t value__) noexcept;
+  constexpr GraphyManager_ModuleState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BACKGROUND value: I32(3)
+  static ::Tayx::Graphy::GraphyManager_ModuleState const BACKGROUND;
 
-  /// @brief Field BACKGROUND value: static_cast<int32_t>(0x3)
-  static ::Tayx::Graphy::__GraphyManager__ModuleState const BACKGROUND;
+  /// @brief Field BASIC value: I32(2)
+  static ::Tayx::Graphy::GraphyManager_ModuleState const BASIC;
 
-  /// @brief Field BASIC value: static_cast<int32_t>(0x2)
-  static ::Tayx::Graphy::__GraphyManager__ModuleState const BASIC;
+  /// @brief Field FULL value: I32(0)
+  static ::Tayx::Graphy::GraphyManager_ModuleState const FULL;
 
-  /// @brief Field FULL value: static_cast<int32_t>(0x0)
-  static ::Tayx::Graphy::__GraphyManager__ModuleState const FULL;
+  /// @brief Field OFF value: I32(4)
+  static ::Tayx::Graphy::GraphyManager_ModuleState const OFF;
 
-  /// @brief Field OFF value: static_cast<int32_t>(0x4)
-  static ::Tayx::Graphy::__GraphyManager__ModuleState const OFF;
-
-  /// @brief Field TEXT value: static_cast<int32_t>(0x1)
-  static ::Tayx::Graphy::__GraphyManager__ModuleState const TEXT;
+  /// @brief Field TEXT value: I32(1)
+  static ::Tayx::Graphy::GraphyManager_ModuleState const TEXT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyManager__ModuleState, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyManager_ModuleState, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModuleState, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager_ModuleState, 0x4>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
-// Type: ::ModulePosition
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy {
 // Is value type: true
-// CS Name: ::GraphyManager::ModulePosition
-struct CORDL_TYPE __GraphyManager__ModulePosition {
+// CS Name: Tayx.Graphy.GraphyManager/ModulePosition
+struct CORDL_TYPE GraphyManager_ModulePosition {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GraphyManager__ModulePosition_Unwrapped
-  enum struct ____GraphyManager__ModulePosition_Unwrapped : int32_t {
+  /// @brief Nested struct __GraphyManager_ModulePosition_Unwrapped
+  enum struct __GraphyManager_ModulePosition_Unwrapped : int32_t {
     __E_TOP_RIGHT = static_cast<int32_t>(0x0),
     __E_TOP_LEFT = static_cast<int32_t>(0x1),
     __E_BOTTOM_RIGHT = static_cast<int32_t>(0x2),
@@ -302,8 +296,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GraphyManager__ModulePosition_Unwrapped() const noexcept {
-    return static_cast<____GraphyManager__ModulePosition_Unwrapped>(this->value__);
+  constexpr operator __GraphyManager_ModulePosition_Unwrapped() const noexcept {
+    return static_cast<__GraphyManager_ModulePosition_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -313,63 +307,62 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GraphyManager__ModulePosition();
+  constexpr GraphyManager_ModulePosition();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GraphyManager__ModulePosition(int32_t value__) noexcept;
+  constexpr GraphyManager_ModulePosition(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BOTTOM_LEFT value: I32(3)
+  static ::Tayx::Graphy::GraphyManager_ModulePosition const BOTTOM_LEFT;
 
-  /// @brief Field BOTTOM_LEFT value: static_cast<int32_t>(0x3)
-  static ::Tayx::Graphy::__GraphyManager__ModulePosition const BOTTOM_LEFT;
+  /// @brief Field BOTTOM_RIGHT value: I32(2)
+  static ::Tayx::Graphy::GraphyManager_ModulePosition const BOTTOM_RIGHT;
 
-  /// @brief Field BOTTOM_RIGHT value: static_cast<int32_t>(0x2)
-  static ::Tayx::Graphy::__GraphyManager__ModulePosition const BOTTOM_RIGHT;
+  /// @brief Field FREE value: I32(4)
+  static ::Tayx::Graphy::GraphyManager_ModulePosition const FREE;
 
-  /// @brief Field FREE value: static_cast<int32_t>(0x4)
-  static ::Tayx::Graphy::__GraphyManager__ModulePosition const FREE;
+  /// @brief Field TOP_LEFT value: I32(1)
+  static ::Tayx::Graphy::GraphyManager_ModulePosition const TOP_LEFT;
 
-  /// @brief Field TOP_LEFT value: static_cast<int32_t>(0x1)
-  static ::Tayx::Graphy::__GraphyManager__ModulePosition const TOP_LEFT;
-
-  /// @brief Field TOP_RIGHT value: static_cast<int32_t>(0x0)
-  static ::Tayx::Graphy::__GraphyManager__ModulePosition const TOP_RIGHT;
+  /// @brief Field TOP_RIGHT value: I32(0)
+  static ::Tayx::Graphy::GraphyManager_ModulePosition const TOP_RIGHT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17208 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyManager__ModulePosition, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyManager_ModulePosition, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModulePosition, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager_ModulePosition, 0x4>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
-// Type: ::LookForAudioListener
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy {
 // Is value type: true
-// CS Name: ::GraphyManager::LookForAudioListener
-struct CORDL_TYPE __GraphyManager__LookForAudioListener {
+// CS Name: Tayx.Graphy.GraphyManager/LookForAudioListener
+struct CORDL_TYPE GraphyManager_LookForAudioListener {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GraphyManager__LookForAudioListener_Unwrapped
-  enum struct ____GraphyManager__LookForAudioListener_Unwrapped : int32_t {
+  /// @brief Nested struct __GraphyManager_LookForAudioListener_Unwrapped
+  enum struct __GraphyManager_LookForAudioListener_Unwrapped : int32_t {
     __E_ALWAYS = static_cast<int32_t>(0x0),
     __E_ON_SCENE_LOAD = static_cast<int32_t>(0x1),
     __E_NEVER = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GraphyManager__LookForAudioListener_Unwrapped() const noexcept {
-    return static_cast<____GraphyManager__LookForAudioListener_Unwrapped>(this->value__);
+  constexpr operator __GraphyManager_LookForAudioListener_Unwrapped() const noexcept {
+    return static_cast<__GraphyManager_LookForAudioListener_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -379,49 +372,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GraphyManager__LookForAudioListener();
+  constexpr GraphyManager_LookForAudioListener();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GraphyManager__LookForAudioListener(int32_t value__) noexcept;
+  constexpr GraphyManager_LookForAudioListener(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ALWAYS value: I32(0)
+  static ::Tayx::Graphy::GraphyManager_LookForAudioListener const ALWAYS;
 
-  /// @brief Field ALWAYS value: static_cast<int32_t>(0x0)
-  static ::Tayx::Graphy::__GraphyManager__LookForAudioListener const ALWAYS;
+  /// @brief Field NEVER value: I32(2)
+  static ::Tayx::Graphy::GraphyManager_LookForAudioListener const NEVER;
 
-  /// @brief Field NEVER value: static_cast<int32_t>(0x2)
-  static ::Tayx::Graphy::__GraphyManager__LookForAudioListener const NEVER;
-
-  /// @brief Field ON_SCENE_LOAD value: static_cast<int32_t>(0x1)
-  static ::Tayx::Graphy::__GraphyManager__LookForAudioListener const ON_SCENE_LOAD;
+  /// @brief Field ON_SCENE_LOAD value: I32(1)
+  static ::Tayx::Graphy::GraphyManager_LookForAudioListener const ON_SCENE_LOAD;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17209 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyManager__LookForAudioListener, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyManager_LookForAudioListener, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::__GraphyManager__LookForAudioListener, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager_LookForAudioListener, 0x4>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
-// Type: ::ModulePreset
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy {
 // Is value type: true
-// CS Name: ::GraphyManager::ModulePreset
-struct CORDL_TYPE __GraphyManager__ModulePreset {
+// CS Name: Tayx.Graphy.GraphyManager/ModulePreset
+struct CORDL_TYPE GraphyManager_ModulePreset {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GraphyManager__ModulePreset_Unwrapped
-  enum struct ____GraphyManager__ModulePreset_Unwrapped : int32_t {
+  /// @brief Nested struct __GraphyManager_ModulePreset_Unwrapped
+  enum struct __GraphyManager_ModulePreset_Unwrapped : int32_t {
     __E_FPS_BASIC = static_cast<int32_t>(0x0),
     __E_FPS_TEXT = static_cast<int32_t>(0x1),
     __E_FPS_FULL = static_cast<int32_t>(0x2),
@@ -437,8 +429,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GraphyManager__ModulePreset_Unwrapped() const noexcept {
-    return static_cast<____GraphyManager__ModulePreset_Unwrapped>(this->value__);
+  constexpr operator __GraphyManager_ModulePreset_Unwrapped() const noexcept {
+    return static_cast<__GraphyManager_ModulePreset_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -448,87 +440,87 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GraphyManager__ModulePreset();
+  constexpr GraphyManager_ModulePreset();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GraphyManager__ModulePreset(int32_t value__) noexcept;
+  constexpr GraphyManager_ModulePreset(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field FPS_BASIC value: I32(0)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_BASIC;
 
-  /// @brief Field FPS_BASIC value: static_cast<int32_t>(0x0)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_BASIC;
+  /// @brief Field FPS_BASIC_ADVANCED_FULL value: I32(11)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_BASIC_ADVANCED_FULL;
 
-  /// @brief Field FPS_BASIC_ADVANCED_FULL value: static_cast<int32_t>(0xb)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_BASIC_ADVANCED_FULL;
+  /// @brief Field FPS_FULL value: I32(2)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_FULL;
 
-  /// @brief Field FPS_FULL value: static_cast<int32_t>(0x2)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_FULL;
+  /// @brief Field FPS_FULL_RAM_FULL value: I32(5)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_FULL_RAM_FULL;
 
-  /// @brief Field FPS_FULL_RAM_FULL value: static_cast<int32_t>(0x5)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_FULL_RAM_FULL;
+  /// @brief Field FPS_FULL_RAM_FULL_AUDIO_FULL value: I32(9)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_FULL_RAM_FULL_AUDIO_FULL;
 
-  /// @brief Field FPS_FULL_RAM_FULL_AUDIO_FULL value: static_cast<int32_t>(0x9)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_FULL_RAM_FULL_AUDIO_FULL;
+  /// @brief Field FPS_FULL_RAM_FULL_AUDIO_FULL_ADVANCED_FULL value: I32(10)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_FULL_RAM_FULL_AUDIO_FULL_ADVANCED_FULL;
 
-  /// @brief Field FPS_FULL_RAM_FULL_AUDIO_FULL_ADVANCED_FULL value: static_cast<int32_t>(0xa)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_FULL_RAM_FULL_AUDIO_FULL_ADVANCED_FULL;
+  /// @brief Field FPS_FULL_RAM_FULL_AUDIO_TEXT value: I32(8)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_FULL_RAM_FULL_AUDIO_TEXT;
 
-  /// @brief Field FPS_FULL_RAM_FULL_AUDIO_TEXT value: static_cast<int32_t>(0x8)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_FULL_RAM_FULL_AUDIO_TEXT;
+  /// @brief Field FPS_FULL_RAM_TEXT value: I32(4)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_FULL_RAM_TEXT;
 
-  /// @brief Field FPS_FULL_RAM_TEXT value: static_cast<int32_t>(0x4)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_FULL_RAM_TEXT;
+  /// @brief Field FPS_FULL_RAM_TEXT_AUDIO_TEXT value: I32(7)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_FULL_RAM_TEXT_AUDIO_TEXT;
 
-  /// @brief Field FPS_FULL_RAM_TEXT_AUDIO_TEXT value: static_cast<int32_t>(0x7)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_FULL_RAM_TEXT_AUDIO_TEXT;
+  /// @brief Field FPS_TEXT value: I32(1)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_TEXT;
 
-  /// @brief Field FPS_TEXT value: static_cast<int32_t>(0x1)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_TEXT;
+  /// @brief Field FPS_TEXT_RAM_TEXT value: I32(3)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_TEXT_RAM_TEXT;
 
-  /// @brief Field FPS_TEXT_RAM_TEXT value: static_cast<int32_t>(0x3)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_TEXT_RAM_TEXT;
-
-  /// @brief Field FPS_TEXT_RAM_TEXT_AUDIO_TEXT value: static_cast<int32_t>(0x6)
-  static ::Tayx::Graphy::__GraphyManager__ModulePreset const FPS_TEXT_RAM_TEXT_AUDIO_TEXT;
+  /// @brief Field FPS_TEXT_RAM_TEXT_AUDIO_TEXT value: I32(6)
+  static ::Tayx::Graphy::GraphyManager_ModulePreset const FPS_TEXT_RAM_TEXT_AUDIO_TEXT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17210 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyManager__ModulePreset, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyManager_ModulePreset, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModulePreset, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager_ModulePreset, 0x4>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
-// Type: Tayx.Graphy::GraphyManager
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 332, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Tayx.Graphy.GraphyManager::LookForAudioListener, Tayx.Graphy.GraphyManager::Mode, Tayx.Graphy.GraphyManager::ModulePosition, Tayx.Graphy.GraphyManager::ModulePreset,
+// Tayx.Graphy.GraphyManager::ModuleState, Tayx.Graphy.Utils.G_Singleton`1<T>, UnityEngine.Color, UnityEngine.FFTWindow, UnityEngine.InputSystem.Key
 namespace Tayx::Graphy {
 // Is value type: false
-// CS Name: ::Tayx.Graphy::GraphyManager*
-class CORDL_TYPE GraphyManager : public ::Tayx::Graphy::Utils::G_Singleton_1<::UnityW<::Tayx::Graphy::GraphyManager>> {
+// CS Name: Tayx.Graphy.GraphyManager
+class CORDL_TYPE GraphyManager : public ::Tayx::Graphy::Utils::G_Singleton_1<::Tayx::Graphy::GraphyManager*> {
 public:
   // Declarations
-  using LookForAudioListener = ::Tayx::Graphy::__GraphyManager__LookForAudioListener;
+  using LookForAudioListener = ::Tayx::Graphy::GraphyManager_LookForAudioListener;
 
-  using Mode = ::Tayx::Graphy::__GraphyManager__Mode;
+  using Mode = ::Tayx::Graphy::GraphyManager_Mode;
 
-  using ModulePosition = ::Tayx::Graphy::__GraphyManager__ModulePosition;
+  using ModulePosition = ::Tayx::Graphy::GraphyManager_ModulePosition;
 
-  using ModulePreset = ::Tayx::Graphy::__GraphyManager__ModulePreset;
+  using ModulePreset = ::Tayx::Graphy::GraphyManager_ModulePreset;
 
-  using ModuleState = ::Tayx::Graphy::__GraphyManager__ModuleState;
+  using ModuleState = ::Tayx::Graphy::GraphyManager_ModuleState;
 
-  using ModuleType = ::Tayx::Graphy::__GraphyManager__ModuleType;
+  using ModuleType = ::Tayx::Graphy::GraphyManager_ModuleType;
 
-  __declspec(property(get = get_AdvancedModulePosition, put = set_AdvancedModulePosition)) ::Tayx::Graphy::__GraphyManager__ModulePosition AdvancedModulePosition;
+  __declspec(property(get = get_AdvancedModulePosition, put = set_AdvancedModulePosition)) ::Tayx::Graphy::GraphyManager_ModulePosition AdvancedModulePosition;
 
-  __declspec(property(get = get_AdvancedModuleState, put = set_AdvancedModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState AdvancedModuleState;
+  __declspec(property(get = get_AdvancedModuleState, put = set_AdvancedModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState AdvancedModuleState;
 
   __declspec(property(get = get_AllocatedRam)) float_t AllocatedRam;
 
@@ -540,7 +532,7 @@ public:
 
   __declspec(property(get = get_AudioListener, put = set_AudioListener)) ::UnityW<::UnityEngine::AudioListener> AudioListener;
 
-  __declspec(property(get = get_AudioModuleState, put = set_AudioModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState AudioModuleState;
+  __declspec(property(get = get_AudioModuleState, put = set_AudioModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState AudioModuleState;
 
   __declspec(property(get = get_AudioTextUpdateRate, put = set_AudioTextUpdateRate)) int32_t AudioTextUpdateRate;
 
@@ -562,11 +554,11 @@ public:
 
   __declspec(property(get = get_FftWindow, put = set_FftWindow)) ::UnityEngine::FFTWindow FftWindow;
 
-  __declspec(property(get = get_FindAudioListenerInCameraIfNull, put = set_FindAudioListenerInCameraIfNull)) ::Tayx::Graphy::__GraphyManager__LookForAudioListener FindAudioListenerInCameraIfNull;
+  __declspec(property(get = get_FindAudioListenerInCameraIfNull, put = set_FindAudioListenerInCameraIfNull)) ::Tayx::Graphy::GraphyManager_LookForAudioListener FindAudioListenerInCameraIfNull;
 
   __declspec(property(get = get_FpsGraphResolution, put = set_FpsGraphResolution)) int32_t FpsGraphResolution;
 
-  __declspec(property(get = get_FpsModuleState, put = set_FpsModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState FpsModuleState;
+  __declspec(property(get = get_FpsModuleState, put = set_FpsModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState FpsModuleState;
 
   __declspec(property(get = get_FpsTextUpdateRate, put = set_FpsTextUpdateRate)) int32_t FpsTextUpdateRate;
 
@@ -574,9 +566,9 @@ public:
 
   __declspec(property(get = get_GoodFPSThreshold, put = set_GoodFPSThreshold)) int32_t GoodFPSThreshold;
 
-  __declspec(property(get = get_GraphModulePosition, put = set_GraphModulePosition)) ::Tayx::Graphy::__GraphyManager__ModulePosition GraphModulePosition;
+  __declspec(property(get = get_GraphModulePosition, put = set_GraphModulePosition)) ::Tayx::Graphy::GraphyManager_ModulePosition GraphModulePosition;
 
-  __declspec(property(get = get_GraphyMode, put = set_GraphyMode)) ::Tayx::Graphy::__GraphyManager__Mode GraphyMode;
+  __declspec(property(get = get_GraphyMode, put = set_GraphyMode)) ::Tayx::Graphy::GraphyManager_Mode GraphyMode;
 
   __declspec(property(get = get_KeepAlive)) bool KeepAlive;
 
@@ -592,7 +584,7 @@ public:
 
   __declspec(property(get = get_RamGraphResolution, put = set_RamGraphResolution)) int32_t RamGraphResolution;
 
-  __declspec(property(get = get_RamModuleState, put = set_RamModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState RamModuleState;
+  __declspec(property(get = get_RamModuleState, put = set_RamModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState RamModuleState;
 
   __declspec(property(get = get_RamTextUpdateRate, put = set_RamTextUpdateRate)) int32_t RamTextUpdateRate;
 
@@ -614,11 +606,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_advancedData, put = __cordl_internal_set_m_advancedData)) ::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData> m_advancedData;
 
   /// @brief Field m_advancedModulePosition, offset 0x100, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_advancedModulePosition,
-                      put = __cordl_internal_set_m_advancedModulePosition)) ::Tayx::Graphy::__GraphyManager__ModulePosition m_advancedModulePosition;
+  __declspec(property(get = __cordl_internal_get_m_advancedModulePosition, put = __cordl_internal_set_m_advancedModulePosition)) ::Tayx::Graphy::GraphyManager_ModulePosition m_advancedModulePosition;
 
   /// @brief Field m_advancedModuleState, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_advancedModuleState, put = __cordl_internal_set_m_advancedModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState m_advancedModuleState;
+  __declspec(property(get = __cordl_internal_get_m_advancedModuleState, put = __cordl_internal_set_m_advancedModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_advancedModuleState;
 
   /// @brief Field m_allocatedRamColor, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get_m_allocatedRamColor, put = __cordl_internal_set_m_allocatedRamColor)) ::UnityEngine::Color m_allocatedRamColor;
@@ -636,7 +627,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_audioManager, put = __cordl_internal_set_m_audioManager)) ::UnityW<::Tayx::Graphy::Audio::G_AudioManager> m_audioManager;
 
   /// @brief Field m_audioModuleState, offset 0xd0, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_audioModuleState, put = __cordl_internal_set_m_audioModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState m_audioModuleState;
+  __declspec(property(get = __cordl_internal_get_m_audioModuleState, put = __cordl_internal_set_m_audioModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_audioModuleState;
 
   /// @brief Field m_audioMonitor, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get_m_audioMonitor, put = __cordl_internal_set_m_audioMonitor)) ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> m_audioMonitor;
@@ -667,7 +658,7 @@ public:
 
   /// @brief Field m_findAudioListenerInCameraIfNull, offset 0xd4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_findAudioListenerInCameraIfNull,
-                      put = __cordl_internal_set_m_findAudioListenerInCameraIfNull)) ::Tayx::Graphy::__GraphyManager__LookForAudioListener m_findAudioListenerInCameraIfNull;
+                      put = __cordl_internal_set_m_findAudioListenerInCameraIfNull)) ::Tayx::Graphy::GraphyManager_LookForAudioListener m_findAudioListenerInCameraIfNull;
 
   /// @brief Field m_focused, offset 0x10a, size 0x1
   __declspec(property(get = __cordl_internal_get_m_focused, put = __cordl_internal_set_m_focused)) bool m_focused;
@@ -679,7 +670,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_fpsManager, put = __cordl_internal_set_m_fpsManager)) ::UnityW<::Tayx::Graphy::Fps::G_FpsManager> m_fpsManager;
 
   /// @brief Field m_fpsModuleState, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_fpsModuleState, put = __cordl_internal_set_m_fpsModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState m_fpsModuleState;
+  __declspec(property(get = __cordl_internal_get_m_fpsModuleState, put = __cordl_internal_set_m_fpsModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_fpsModuleState;
 
   /// @brief Field m_fpsMonitor, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor)) ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
@@ -694,10 +685,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_goodFpsThreshold, put = __cordl_internal_set_m_goodFpsThreshold)) int32_t m_goodFpsThreshold;
 
   /// @brief Field m_graphModulePosition, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_graphModulePosition, put = __cordl_internal_set_m_graphModulePosition)) ::Tayx::Graphy::__GraphyManager__ModulePosition m_graphModulePosition;
+  __declspec(property(get = __cordl_internal_get_m_graphModulePosition, put = __cordl_internal_set_m_graphModulePosition)) ::Tayx::Graphy::GraphyManager_ModulePosition m_graphModulePosition;
 
   /// @brief Field m_graphyMode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_graphyMode, put = __cordl_internal_set_m_graphyMode)) ::Tayx::Graphy::__GraphyManager__Mode m_graphyMode;
+  __declspec(property(get = __cordl_internal_get_m_graphyMode, put = __cordl_internal_set_m_graphyMode)) ::Tayx::Graphy::GraphyManager_Mode m_graphyMode;
 
   /// @brief Field m_initialized, offset 0x108, size 0x1
   __declspec(property(get = __cordl_internal_get_m_initialized, put = __cordl_internal_set_m_initialized)) bool m_initialized;
@@ -706,7 +697,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_keepAlive, put = __cordl_internal_set_m_keepAlive)) bool m_keepAlive;
 
   /// @brief Field m_modulePresetState, offset 0x148, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_modulePresetState, put = __cordl_internal_set_m_modulePresetState)) ::Tayx::Graphy::__GraphyManager__ModulePreset m_modulePresetState;
+  __declspec(property(get = __cordl_internal_get_m_modulePresetState, put = __cordl_internal_set_m_modulePresetState)) ::Tayx::Graphy::GraphyManager_ModulePreset m_modulePresetState;
 
   /// @brief Field m_monoRamColor, offset 0xb8, size 0x10
   __declspec(property(get = __cordl_internal_get_m_monoRamColor, put = __cordl_internal_set_m_monoRamColor)) ::UnityEngine::Color m_monoRamColor;
@@ -718,7 +709,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ramManager, put = __cordl_internal_set_m_ramManager)) ::UnityW<::Tayx::Graphy::Ram::G_RamManager> m_ramManager;
 
   /// @brief Field m_ramModuleState, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ramModuleState, put = __cordl_internal_set_m_ramModuleState)) ::Tayx::Graphy::__GraphyManager__ModuleState m_ramModuleState;
+  __declspec(property(get = __cordl_internal_get_m_ramModuleState, put = __cordl_internal_set_m_ramModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_ramModuleState;
 
   /// @brief Field m_ramMonitor, offset 0x138, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ramMonitor, put = __cordl_internal_set_m_ramMonitor)) ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> m_ramMonitor;
@@ -750,60 +741,60 @@ public:
   /// @brief Field m_toggleModeKeyCode, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_toggleModeKeyCode, put = __cordl_internal_set_m_toggleModeKeyCode)) ::UnityEngine::InputSystem::Key m_toggleModeKeyCode;
 
-  /// @brief Method CheckFor1KeyPress, addr 0x446e054, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CheckFor1KeyPress, addr 0x44cf368, size 0x74, virtual false, abstract: false, final false
   inline bool CheckFor1KeyPress(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method CheckFor2KeyPress, addr 0x446deec, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckFor2KeyPress, addr 0x44cf200, size 0x168, virtual false, abstract: false, final false
   inline bool CheckFor2KeyPress(::UnityEngine::InputSystem::Key key1, ::UnityEngine::InputSystem::Key key2);
 
-  /// @brief Method CheckFor3KeyPress, addr 0x446dc18, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method CheckFor3KeyPress, addr 0x44cef2c, size 0x2d4, virtual false, abstract: false, final false
   inline bool CheckFor3KeyPress(::UnityEngine::InputSystem::Key key1, ::UnityEngine::InputSystem::Key key2, ::UnityEngine::InputSystem::Key key3);
 
-  /// @brief Method CheckForHotkeyPresses, addr 0x446b74c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckForHotkeyPresses, addr 0x44cca60, size 0x168, virtual false, abstract: false, final false
   inline void CheckForHotkeyPresses();
 
-  /// @brief Method Disable, addr 0x446be38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x44cd14c, size 0x70, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x446bdb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x44cd0c4, size 0x88, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x446b000, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44cc314, size 0x590, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::GraphyManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x446b8b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x44ccbc8, size 0x1c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool isFocused);
 
-  /// @brief Method OnDestroy, addr 0x446b590, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x44cc8a4, size 0x74, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshAllParameters, addr 0x446b8d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RefreshAllParameters, addr 0x44ccbe4, size 0x40, virtual false, abstract: false, final false
   inline void RefreshAllParameters();
 
-  /// @brief Method SetModuleMode, addr 0x446b990, size 0x94, virtual false, abstract: false, final false
-  inline void SetModuleMode(::Tayx::Graphy::__GraphyManager__ModuleType moduleType, ::Tayx::Graphy::__GraphyManager__ModuleState moduleState);
+  /// @brief Method SetModuleMode, addr 0x44ccca4, size 0x94, virtual false, abstract: false, final false
+  inline void SetModuleMode(::Tayx::Graphy::GraphyManager_ModuleType moduleType, ::Tayx::Graphy::GraphyManager_ModuleState moduleState);
 
-  /// @brief Method SetModulePosition, addr 0x446b910, size 0x80, virtual false, abstract: false, final false
-  inline void SetModulePosition(::Tayx::Graphy::__GraphyManager__ModuleType moduleType, ::Tayx::Graphy::__GraphyManager__ModulePosition modulePosition);
+  /// @brief Method SetModulePosition, addr 0x44ccc24, size 0x80, virtual false, abstract: false, final false
+  inline void SetModulePosition(::Tayx::Graphy::GraphyManager_ModuleType moduleType, ::Tayx::Graphy::GraphyManager_ModulePosition modulePosition);
 
-  /// @brief Method SetPreset, addr 0x446bb0c, size 0x294, virtual false, abstract: false, final false
-  inline void SetPreset(::Tayx::Graphy::__GraphyManager__ModulePreset modulePreset);
+  /// @brief Method SetPreset, addr 0x44cce20, size 0x294, virtual false, abstract: false, final false
+  inline void SetPreset(::Tayx::Graphy::GraphyManager_ModulePreset modulePreset);
 
-  /// @brief Method Start, addr 0x446affc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x44cc310, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleActive, addr 0x446bda0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToggleActive, addr 0x44cd0b4, size 0x10, virtual false, abstract: false, final false
   inline void ToggleActive();
 
-  /// @brief Method ToggleModes, addr 0x446ba24, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToggleModes, addr 0x44ccd38, size 0xe8, virtual false, abstract: false, final false
   inline void ToggleModes();
 
-  /// @brief Method Update, addr 0x446b734, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44cca48, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAllParameters, addr 0x4468f78, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllParameters, addr 0x44ca28c, size 0x40, virtual false, abstract: false, final false
   inline void UpdateAllParameters();
 
   constexpr ::UnityEngine::FFTWindow const& __cordl_internal_get_m_FFTWindow() const;
@@ -818,13 +809,13 @@ public:
 
   constexpr ::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData>& __cordl_internal_get_m_advancedData();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& __cordl_internal_get_m_advancedModulePosition() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModulePosition const& __cordl_internal_get_m_advancedModulePosition() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& __cordl_internal_get_m_advancedModulePosition();
+  constexpr ::Tayx::Graphy::GraphyManager_ModulePosition& __cordl_internal_get_m_advancedModulePosition();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_advancedModuleState() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_advancedModuleState() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_advancedModuleState();
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_advancedModuleState();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_m_allocatedRamColor() const;
 
@@ -846,9 +837,9 @@ public:
 
   constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioManager>& __cordl_internal_get_m_audioManager();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_audioModuleState() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_audioModuleState() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_audioModuleState();
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_audioModuleState();
 
   constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
 
@@ -886,9 +877,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_enableOnStartup();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& __cordl_internal_get_m_findAudioListenerInCameraIfNull() const;
+  constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener const& __cordl_internal_get_m_findAudioListenerInCameraIfNull() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& __cordl_internal_get_m_findAudioListenerInCameraIfNull();
+  constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener& __cordl_internal_get_m_findAudioListenerInCameraIfNull();
 
   constexpr bool const& __cordl_internal_get_m_focused() const;
 
@@ -902,9 +893,9 @@ public:
 
   constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsManager>& __cordl_internal_get_m_fpsManager();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_fpsModuleState() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_fpsModuleState() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_fpsModuleState();
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_fpsModuleState();
 
   constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
 
@@ -922,13 +913,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_goodFpsThreshold();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& __cordl_internal_get_m_graphModulePosition() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModulePosition const& __cordl_internal_get_m_graphModulePosition() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& __cordl_internal_get_m_graphModulePosition();
+  constexpr ::Tayx::Graphy::GraphyManager_ModulePosition& __cordl_internal_get_m_graphModulePosition();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__Mode const& __cordl_internal_get_m_graphyMode() const;
+  constexpr ::Tayx::Graphy::GraphyManager_Mode const& __cordl_internal_get_m_graphyMode() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__Mode& __cordl_internal_get_m_graphyMode();
+  constexpr ::Tayx::Graphy::GraphyManager_Mode& __cordl_internal_get_m_graphyMode();
 
   constexpr bool const& __cordl_internal_get_m_initialized() const;
 
@@ -938,9 +929,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_keepAlive();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset const& __cordl_internal_get_m_modulePresetState() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModulePreset const& __cordl_internal_get_m_modulePresetState() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset& __cordl_internal_get_m_modulePresetState();
+  constexpr ::Tayx::Graphy::GraphyManager_ModulePreset& __cordl_internal_get_m_modulePresetState();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_m_monoRamColor() const;
 
@@ -954,9 +945,9 @@ public:
 
   constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamManager>& __cordl_internal_get_m_ramManager();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_ramModuleState() const;
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_ramModuleState() const;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_ramModuleState();
+  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_ramModuleState();
 
   constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> const& __cordl_internal_get_m_ramMonitor() const;
 
@@ -1004,9 +995,9 @@ public:
 
   constexpr void __cordl_internal_set_m_advancedData(::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData> value);
 
-  constexpr void __cordl_internal_set_m_advancedModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
+  constexpr void __cordl_internal_set_m_advancedModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value);
 
-  constexpr void __cordl_internal_set_m_advancedModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_advancedModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
   constexpr void __cordl_internal_set_m_allocatedRamColor(::UnityEngine::Color value);
 
@@ -1018,7 +1009,7 @@ public:
 
   constexpr void __cordl_internal_set_m_audioManager(::UnityW<::Tayx::Graphy::Audio::G_AudioManager> value);
 
-  constexpr void __cordl_internal_set_m_audioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_audioModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
   constexpr void __cordl_internal_set_m_audioMonitor(::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> value);
 
@@ -1038,7 +1029,7 @@ public:
 
   constexpr void __cordl_internal_set_m_enableOnStartup(bool value);
 
-  constexpr void __cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value);
+  constexpr void __cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::GraphyManager_LookForAudioListener value);
 
   constexpr void __cordl_internal_set_m_focused(bool value);
 
@@ -1046,7 +1037,7 @@ public:
 
   constexpr void __cordl_internal_set_m_fpsManager(::UnityW<::Tayx::Graphy::Fps::G_FpsManager> value);
 
-  constexpr void __cordl_internal_set_m_fpsModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_fpsModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
   constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> value);
 
@@ -1056,15 +1047,15 @@ public:
 
   constexpr void __cordl_internal_set_m_goodFpsThreshold(int32_t value);
 
-  constexpr void __cordl_internal_set_m_graphModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
+  constexpr void __cordl_internal_set_m_graphModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value);
 
-  constexpr void __cordl_internal_set_m_graphyMode(::Tayx::Graphy::__GraphyManager__Mode value);
+  constexpr void __cordl_internal_set_m_graphyMode(::Tayx::Graphy::GraphyManager_Mode value);
 
   constexpr void __cordl_internal_set_m_initialized(bool value);
 
   constexpr void __cordl_internal_set_m_keepAlive(bool value);
 
-  constexpr void __cordl_internal_set_m_modulePresetState(::Tayx::Graphy::__GraphyManager__ModulePreset value);
+  constexpr void __cordl_internal_set_m_modulePresetState(::Tayx::Graphy::GraphyManager_ModulePreset value);
 
   constexpr void __cordl_internal_set_m_monoRamColor(::UnityEngine::Color value);
 
@@ -1072,7 +1063,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ramManager(::UnityW<::Tayx::Graphy::Ram::G_RamManager> value);
 
-  constexpr void __cordl_internal_set_m_ramModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_ramModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
   constexpr void __cordl_internal_set_m_ramMonitor(::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> value);
 
@@ -1094,208 +1085,208 @@ public:
 
   constexpr void __cordl_internal_set_m_toggleModeKeyCode(::UnityEngine::InputSystem::Key value);
 
-  /// @brief Method .ctor, addr 0x4468e34, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ca148, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AdvancedModulePosition, addr 0x446a828, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__ModulePosition get_AdvancedModulePosition();
+  /// @brief Method get_AdvancedModulePosition, addr 0x44cbb3c, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_ModulePosition get_AdvancedModulePosition();
 
-  /// @brief Method get_AdvancedModuleState, addr 0x446a784, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__ModuleState get_AdvancedModuleState();
+  /// @brief Method get_AdvancedModuleState, addr 0x44cba98, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_ModuleState get_AdvancedModuleState();
 
-  /// @brief Method get_AllocatedRam, addr 0x446a298, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedRam, addr 0x44cb5ac, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_AllocatedRam();
 
-  /// @brief Method get_AllocatedRamColor, addr 0x446a00c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedRamColor, addr 0x44cb320, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_AllocatedRamColor();
 
-  /// @brief Method get_AudioGraphColor, addr 0x446a67c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_AudioGraphColor, addr 0x44cb990, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_AudioGraphColor();
 
-  /// @brief Method get_AudioGraphResolution, addr 0x446a6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AudioGraphResolution, addr 0x44cb9c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AudioGraphResolution();
 
-  /// @brief Method get_AudioListener, addr 0x446a468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AudioListener, addr 0x44cb77c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioListener> get_AudioListener();
 
-  /// @brief Method get_AudioModuleState, addr 0x446a2ec, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__ModuleState get_AudioModuleState();
+  /// @brief Method get_AudioModuleState, addr 0x44cb600, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_ModuleState get_AudioModuleState();
 
-  /// @brief Method get_AudioTextUpdateRate, addr 0x446a6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AudioTextUpdateRate, addr 0x44cb9e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AudioTextUpdateRate();
 
-  /// @brief Method get_AverageFPS, addr 0x4469e30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_AverageFPS, addr 0x44cb144, size 0x20, virtual false, abstract: false, final false
   inline float_t get_AverageFPS();
 
-  /// @brief Method get_Background, addr 0x4468fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Background, addr 0x44ca2dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Background();
 
-  /// @brief Method get_BackgroundColor, addr 0x4468fdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BackgroundColor, addr 0x44ca2f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_BackgroundColor();
 
-  /// @brief Method get_CautionFPSColor, addr 0x4469d10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CautionFPSColor, addr 0x44cb024, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_CautionFPSColor();
 
-  /// @brief Method get_CautionFPSThreshold, addr 0x4469d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CautionFPSThreshold, addr 0x44cb0ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CautionFPSThreshold();
 
-  /// @brief Method get_CriticalFPSColor, addr 0x4469d40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CriticalFPSColor, addr 0x44cb054, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_CriticalFPSColor();
 
-  /// @brief Method get_CurrentFPS, addr 0x4469e10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentFPS, addr 0x44cb124, size 0x20, virtual false, abstract: false, final false
   inline float_t get_CurrentFPS();
 
-  /// @brief Method get_EnableOnStartup, addr 0x4468fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableOnStartup, addr 0x44ca2cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableOnStartup();
 
-  /// @brief Method get_FftWindow, addr 0x446a6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FftWindow, addr 0x44cba10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FFTWindow get_FftWindow();
 
-  /// @brief Method get_FindAudioListenerInCameraIfNull, addr 0x446a654, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__LookForAudioListener get_FindAudioListenerInCameraIfNull();
+  /// @brief Method get_FindAudioListenerInCameraIfNull, addr 0x44cb968, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_LookForAudioListener get_FindAudioListenerInCameraIfNull();
 
-  /// @brief Method get_FpsGraphResolution, addr 0x4469dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FpsGraphResolution, addr 0x44cb0d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FpsGraphResolution();
 
-  /// @brief Method get_FpsModuleState, addr 0x446990c, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__ModuleState get_FpsModuleState();
+  /// @brief Method get_FpsModuleState, addr 0x44cac20, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_ModuleState get_FpsModuleState();
 
-  /// @brief Method get_FpsTextUpdateRate, addr 0x4469de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FpsTextUpdateRate, addr 0x44cb0fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FpsTextUpdateRate();
 
-  /// @brief Method get_GoodFPSColor, addr 0x4469ae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_GoodFPSColor, addr 0x44cadf8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_GoodFPSColor();
 
-  /// @brief Method get_GoodFPSThreshold, addr 0x4469d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GoodFPSThreshold, addr 0x44cb084, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GoodFPSThreshold();
 
-  /// @brief Method get_GraphModulePosition, addr 0x4468ff4, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__ModulePosition get_GraphModulePosition();
+  /// @brief Method get_GraphModulePosition, addr 0x44ca308, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_ModulePosition get_GraphModulePosition();
 
-  /// @brief Method get_GraphyMode, addr 0x4468f68, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__Mode get_GraphyMode();
+  /// @brief Method get_GraphyMode, addr 0x44ca27c, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_Mode get_GraphyMode();
 
-  /// @brief Method get_KeepAlive, addr 0x4468fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x44ca2d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_MaxDB, addr 0x446a768, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDB, addr 0x44cba7c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_MaxDB();
 
-  /// @brief Method get_MaxFPS, addr 0x4469e70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_MaxFPS, addr 0x44cb184, size 0x20, virtual false, abstract: false, final false
   inline float_t get_MaxFPS();
 
-  /// @brief Method get_MinFPS, addr 0x4469e50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_MinFPS, addr 0x44cb164, size 0x20, virtual false, abstract: false, final false
   inline float_t get_MinFPS();
 
-  /// @brief Method get_MonoRam, addr 0x446a2d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MonoRam, addr 0x44cb5e4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_MonoRam();
 
-  /// @brief Method get_MonoRamColor, addr 0x446a218, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MonoRamColor, addr 0x44cb52c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_MonoRamColor();
 
-  /// @brief Method get_RamGraphResolution, addr 0x446a248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RamGraphResolution, addr 0x44cb55c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RamGraphResolution();
 
-  /// @brief Method get_RamModuleState, addr 0x4469e90, size 0x8, virtual false, abstract: false, final false
-  inline ::Tayx::Graphy::__GraphyManager__ModuleState get_RamModuleState();
+  /// @brief Method get_RamModuleState, addr 0x44cb1a4, size 0x8, virtual false, abstract: false, final false
+  inline ::Tayx::Graphy::GraphyManager_ModuleState get_RamModuleState();
 
-  /// @brief Method get_RamTextUpdateRate, addr 0x446a270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RamTextUpdateRate, addr 0x44cb584, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RamTextUpdateRate();
 
-  /// @brief Method get_ReservedRam, addr 0x446a2b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ReservedRam, addr 0x44cb5c8, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_ReservedRam();
 
-  /// @brief Method get_ReservedRamColor, addr 0x446a1e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ReservedRamColor, addr 0x44cb4fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_ReservedRamColor();
 
-  /// @brief Method get_Spectrum, addr 0x446a74c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Spectrum, addr 0x44cba60, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Spectrum();
 
-  /// @brief Method get_SpectrumSize, addr 0x446a724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SpectrumSize, addr 0x44cba38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SpectrumSize();
 
-  /// @brief Method set_AdvancedModulePosition, addr 0x446a830, size 0x20, virtual false, abstract: false, final false
-  inline void set_AdvancedModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
+  /// @brief Method set_AdvancedModulePosition, addr 0x44cbb44, size 0x20, virtual false, abstract: false, final false
+  inline void set_AdvancedModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value);
 
-  /// @brief Method set_AdvancedModuleState, addr 0x446a78c, size 0x24, virtual false, abstract: false, final false
-  inline void set_AdvancedModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  /// @brief Method set_AdvancedModuleState, addr 0x44cbaa0, size 0x24, virtual false, abstract: false, final false
+  inline void set_AdvancedModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_AllocatedRamColor, addr 0x446a018, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_AllocatedRamColor, addr 0x44cb32c, size 0x24, virtual false, abstract: false, final false
   inline void set_AllocatedRamColor(::UnityEngine::Color value);
 
-  /// @brief Method set_AudioGraphColor, addr 0x446a688, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_AudioGraphColor, addr 0x44cb99c, size 0x24, virtual false, abstract: false, final false
   inline void set_AudioGraphColor(::UnityEngine::Color value);
 
-  /// @brief Method set_AudioGraphResolution, addr 0x446a6b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AudioGraphResolution, addr 0x44cb9c8, size 0x20, virtual false, abstract: false, final false
   inline void set_AudioGraphResolution(int32_t value);
 
-  /// @brief Method set_AudioListener, addr 0x446a470, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AudioListener, addr 0x44cb784, size 0x20, virtual false, abstract: false, final false
   inline void set_AudioListener(::UnityEngine::AudioListener* value);
 
-  /// @brief Method set_AudioModuleState, addr 0x446a2f4, size 0x24, virtual false, abstract: false, final false
-  inline void set_AudioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  /// @brief Method set_AudioModuleState, addr 0x44cb608, size 0x24, virtual false, abstract: false, final false
+  inline void set_AudioModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_AudioTextUpdateRate, addr 0x446a6dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AudioTextUpdateRate, addr 0x44cb9f0, size 0x20, virtual false, abstract: false, final false
   inline void set_AudioTextUpdateRate(int32_t value);
 
-  /// @brief Method set_Background, addr 0x4468fd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Background, addr 0x44ca2e4, size 0xc, virtual false, abstract: false, final false
   inline void set_Background(bool value);
 
-  /// @brief Method set_BackgroundColor, addr 0x4468fe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundColor, addr 0x44ca2fc, size 0xc, virtual false, abstract: false, final false
   inline void set_BackgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method set_CautionFPSColor, addr 0x4469d1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_CautionFPSColor, addr 0x44cb030, size 0x24, virtual false, abstract: false, final false
   inline void set_CautionFPSColor(::UnityEngine::Color value);
 
-  /// @brief Method set_CautionFPSThreshold, addr 0x4469da0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_CautionFPSThreshold, addr 0x44cb0b4, size 0x20, virtual false, abstract: false, final false
   inline void set_CautionFPSThreshold(int32_t value);
 
-  /// @brief Method set_CriticalFPSColor, addr 0x4469d4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_CriticalFPSColor, addr 0x44cb060, size 0x24, virtual false, abstract: false, final false
   inline void set_CriticalFPSColor(::UnityEngine::Color value);
 
-  /// @brief Method set_FftWindow, addr 0x446a704, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_FftWindow, addr 0x44cba18, size 0x20, virtual false, abstract: false, final false
   inline void set_FftWindow(::UnityEngine::FFTWindow value);
 
-  /// @brief Method set_FindAudioListenerInCameraIfNull, addr 0x446a65c, size 0x20, virtual false, abstract: false, final false
-  inline void set_FindAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value);
+  /// @brief Method set_FindAudioListenerInCameraIfNull, addr 0x44cb970, size 0x20, virtual false, abstract: false, final false
+  inline void set_FindAudioListenerInCameraIfNull(::Tayx::Graphy::GraphyManager_LookForAudioListener value);
 
-  /// @brief Method set_FpsGraphResolution, addr 0x4469dc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_FpsGraphResolution, addr 0x44cb0dc, size 0x20, virtual false, abstract: false, final false
   inline void set_FpsGraphResolution(int32_t value);
 
-  /// @brief Method set_FpsModuleState, addr 0x4469914, size 0x24, virtual false, abstract: false, final false
-  inline void set_FpsModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  /// @brief Method set_FpsModuleState, addr 0x44cac28, size 0x24, virtual false, abstract: false, final false
+  inline void set_FpsModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_FpsTextUpdateRate, addr 0x4469df0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_FpsTextUpdateRate, addr 0x44cb104, size 0x20, virtual false, abstract: false, final false
   inline void set_FpsTextUpdateRate(int32_t value);
 
-  /// @brief Method set_GoodFPSColor, addr 0x4469af0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_GoodFPSColor, addr 0x44cae04, size 0x24, virtual false, abstract: false, final false
   inline void set_GoodFPSColor(::UnityEngine::Color value);
 
-  /// @brief Method set_GoodFPSThreshold, addr 0x4469d78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_GoodFPSThreshold, addr 0x44cb08c, size 0x20, virtual false, abstract: false, final false
   inline void set_GoodFPSThreshold(int32_t value);
 
-  /// @brief Method set_GraphModulePosition, addr 0x4468ffc, size 0x40, virtual false, abstract: false, final false
-  inline void set_GraphModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
+  /// @brief Method set_GraphModulePosition, addr 0x44ca310, size 0x40, virtual false, abstract: false, final false
+  inline void set_GraphModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value);
 
-  /// @brief Method set_GraphyMode, addr 0x4468f70, size 0x8, virtual false, abstract: false, final false
-  inline void set_GraphyMode(::Tayx::Graphy::__GraphyManager__Mode value);
+  /// @brief Method set_GraphyMode, addr 0x44ca284, size 0x8, virtual false, abstract: false, final false
+  inline void set_GraphyMode(::Tayx::Graphy::GraphyManager_Mode value);
 
-  /// @brief Method set_MonoRamColor, addr 0x446a224, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_MonoRamColor, addr 0x44cb538, size 0x24, virtual false, abstract: false, final false
   inline void set_MonoRamColor(::UnityEngine::Color value);
 
-  /// @brief Method set_RamGraphResolution, addr 0x446a250, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_RamGraphResolution, addr 0x44cb564, size 0x20, virtual false, abstract: false, final false
   inline void set_RamGraphResolution(int32_t value);
 
-  /// @brief Method set_RamModuleState, addr 0x4469e98, size 0x24, virtual false, abstract: false, final false
-  inline void set_RamModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  /// @brief Method set_RamModuleState, addr 0x44cb1ac, size 0x24, virtual false, abstract: false, final false
+  inline void set_RamModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
 
-  /// @brief Method set_RamTextUpdateRate, addr 0x446a278, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_RamTextUpdateRate, addr 0x44cb58c, size 0x20, virtual false, abstract: false, final false
   inline void set_RamTextUpdateRate(int32_t value);
 
-  /// @brief Method set_ReservedRamColor, addr 0x446a1f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_ReservedRamColor, addr 0x44cb508, size 0x24, virtual false, abstract: false, final false
   inline void set_ReservedRamColor(::UnityEngine::Color value);
 
-  /// @brief Method set_SpectrumSize, addr 0x446a72c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_SpectrumSize, addr 0x44cba40, size 0x20, virtual false, abstract: false, final false
   inline void set_SpectrumSize(int32_t value);
 
 protected:
@@ -1312,8 +1303,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GraphyManager(GraphyManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17211 };
+
   /// @brief Field m_graphyMode, offset: 0x20, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__Mode ___m_graphyMode;
+  ::Tayx::Graphy::GraphyManager_Mode ___m_graphyMode;
 
   /// @brief Field m_enableOnStartup, offset: 0x24, size: 0x1, def value: None
   bool ___m_enableOnStartup;
@@ -1349,10 +1343,10 @@ public:
   bool ___m_toggleActiveAlt;
 
   /// @brief Field m_graphModulePosition, offset: 0x4c, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModulePosition ___m_graphModulePosition;
+  ::Tayx::Graphy::GraphyManager_ModulePosition ___m_graphModulePosition;
 
   /// @brief Field m_fpsModuleState, offset: 0x50, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModuleState ___m_fpsModuleState;
+  ::Tayx::Graphy::GraphyManager_ModuleState ___m_fpsModuleState;
 
   /// @brief Field m_goodFpsColor, offset: 0x54, size: 0x10, def value: None
   ::UnityEngine::Color ___m_goodFpsColor;
@@ -1376,7 +1370,7 @@ public:
   int32_t ___m_fpsTextUpdateRate;
 
   /// @brief Field m_ramModuleState, offset: 0x94, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModuleState ___m_ramModuleState;
+  ::Tayx::Graphy::GraphyManager_ModuleState ___m_ramModuleState;
 
   /// @brief Field m_allocatedRamColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ___m_allocatedRamColor;
@@ -1394,10 +1388,10 @@ public:
   int32_t ___m_ramTextUpdateRate;
 
   /// @brief Field m_audioModuleState, offset: 0xd0, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModuleState ___m_audioModuleState;
+  ::Tayx::Graphy::GraphyManager_ModuleState ___m_audioModuleState;
 
   /// @brief Field m_findAudioListenerInCameraIfNull, offset: 0xd4, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__LookForAudioListener ___m_findAudioListenerInCameraIfNull;
+  ::Tayx::Graphy::GraphyManager_LookForAudioListener ___m_findAudioListenerInCameraIfNull;
 
   /// @brief Field m_audioListener, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioListener> ___m_audioListener;
@@ -1418,10 +1412,10 @@ public:
   int32_t ___m_spectrumSize;
 
   /// @brief Field m_advancedModulePosition, offset: 0x100, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModulePosition ___m_advancedModulePosition;
+  ::Tayx::Graphy::GraphyManager_ModulePosition ___m_advancedModulePosition;
 
   /// @brief Field m_advancedModuleState, offset: 0x104, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModuleState ___m_advancedModuleState;
+  ::Tayx::Graphy::GraphyManager_ModuleState ___m_advancedModuleState;
 
   /// @brief Field m_initialized, offset: 0x108, size: 0x1, def value: None
   bool ___m_initialized;
@@ -1454,16 +1448,11 @@ public:
   ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> ___m_audioMonitor;
 
   /// @brief Field m_modulePresetState, offset: 0x148, size: 0x4, def value: None
-  ::Tayx::Graphy::__GraphyManager__ModulePreset ___m_modulePresetState;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17078 };
+  ::Tayx::Graphy::GraphyManager_ModulePreset ___m_modulePresetState;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager, 0x150>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::GraphyManager, ___m_graphyMode) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::GraphyManager, ___m_enableOnStartup) == 0x24, "Offset mismatch!");
@@ -1560,12 +1549,14 @@ static_assert(offsetof(::Tayx::Graphy::GraphyManager, ___m_audioMonitor) == 0x14
 
 static_assert(offsetof(::Tayx::Graphy::GraphyManager, ___m_modulePresetState) == 0x148, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager, 0x150>, "Size mismatch!");
+
 } // namespace Tayx::Graphy
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::__GraphyManager__LookForAudioListener, "Tayx.Graphy", "GraphyManager/LookForAudioListener");
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::__GraphyManager__Mode, "Tayx.Graphy", "GraphyManager/Mode");
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::__GraphyManager__ModulePosition, "Tayx.Graphy", "GraphyManager/ModulePosition");
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::__GraphyManager__ModulePreset, "Tayx.Graphy", "GraphyManager/ModulePreset");
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::__GraphyManager__ModuleState, "Tayx.Graphy", "GraphyManager/ModuleState");
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::__GraphyManager__ModuleType, "Tayx.Graphy", "GraphyManager/ModuleType");
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::GraphyManager_LookForAudioListener, "Tayx.Graphy", "GraphyManager/LookForAudioListener");
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::GraphyManager_Mode, "Tayx.Graphy", "GraphyManager/Mode");
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::GraphyManager_ModulePosition, "Tayx.Graphy", "GraphyManager/ModulePosition");
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::GraphyManager_ModulePreset, "Tayx.Graphy", "GraphyManager/ModulePreset");
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::GraphyManager_ModuleState, "Tayx.Graphy", "GraphyManager/ModuleState");
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::GraphyManager_ModuleType, "Tayx.Graphy", "GraphyManager/ModuleType");
 NEED_NO_BOX(::Tayx::Graphy::GraphyManager);
 DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::GraphyManager*, "Tayx.Graphy", "GraphyManager");

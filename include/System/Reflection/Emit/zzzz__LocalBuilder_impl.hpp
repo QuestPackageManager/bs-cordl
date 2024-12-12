@@ -19,7 +19,7 @@ constexpr ::System::Reflection::Emit::ILGenerator*& System::Reflection::Emit::Lo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ilgen;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Emit::ILGenerator*> const& System::Reflection::Emit::LocalBuilder::__cordl_internal_get_ilgen() const {
+constexpr ::System::Reflection::Emit::ILGenerator* const& System::Reflection::Emit::LocalBuilder::__cordl_internal_get_ilgen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ilgen;
 }

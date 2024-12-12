@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::KnownHttpVerb::*)(::StringW, bool, bool, bool, bool)>(&::System::Net::KnownHttpVerb::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x443ed28;
+  constexpr static std::size_t addrs = 0x44a003c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::KnownHttpVerb* (*)(::StringW)>(&::System::Net::KnownHttpVerb::Parse)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x443f08c;
+  constexpr static std::size_t addrs = 0x44a03a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,9 +143,6 @@ inline void System::Net::KnownHttpVerb::setStaticF_MkCol(::System::Net::KnownHtt
 inline ::System::Net::KnownHttpVerb* System::Net::KnownHttpVerb::getStaticF_MkCol() {
   return ::cordl_internals::getStaticField<::System::Net::KnownHttpVerb*, "MkCol", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::KnownHttpVerb*>::get>();
 }
-inline ::System::Net::KnownHttpVerb* System::Net::KnownHttpVerb::New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::KnownHttpVerb*>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse));
-}
 inline void System::Net::KnownHttpVerb::_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::KnownHttpVerb*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -159,6 +156,9 @@ inline ::System::Net::KnownHttpVerb* System::Net::KnownHttpVerb::Parse(::StringW
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::KnownHttpVerb*>::get(), "Parse", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Net::KnownHttpVerb*, false>(nullptr, ___internal_method, name);
+}
+inline ::System::Net::KnownHttpVerb* System::Net::KnownHttpVerb::New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::KnownHttpVerb*>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse));
 }
 // Ctor Parameters []
 constexpr ::System::Net::KnownHttpVerb::KnownHttpVerb() {}

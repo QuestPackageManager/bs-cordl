@@ -1,30 +1,23 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/LayoutData.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FlexDirection_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Justify_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Position_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Wrap_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__LayoutData_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Align_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Position_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Wrap_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::LayoutData.Copy
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::LayoutData (::UnityEngine::UIElements::LayoutData::*)()>(
     &::UnityEngine::UIElements::LayoutData::Copy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a1b178;
+  constexpr static std::size_t addrs = 0x4a7fa88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LayoutData>::get(), "Copy",
@@ -35,15 +28,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::LayoutData.CopyFrom
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LayoutData::*)(ByRef<::UnityEngine::UIElements::LayoutData>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LayoutData::*)(::ByRef<::UnityEngine::UIElements::LayoutData>)>(
     &::UnityEngine::UIElements::LayoutData::CopyFrom)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a1b194;
+  constexpr static std::size_t addrs = 0x4a7faa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LayoutData>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::LayoutData>>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::LayoutData>>::get() })));
     return ___internal_method;
   }
 };
@@ -53,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::LayoutData, ::UnityEngine::UIElements::LayoutData)>(
     &::UnityEngine::UIElements::LayoutData::op_Equality)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x4a1b1a8;
+  constexpr static std::size_t addrs = 0x4a7fab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::LayoutData::*)(::UnityEngine::UIElements::LayoutData)>(
     &::UnityEngine::UIElements::LayoutData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a1b544;
+  constexpr static std::size_t addrs = 0x4a7fe54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::LayoutData::*)(::System::Object*)>(&::UnityEngine::UIElements::LayoutData::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4a1b590;
+  constexpr static std::size_t addrs = 0x4a7fea0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::LayoutData::*)()>(&::UnityEngine::UIElements::LayoutData::GetHashCode)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x4a1b638;
+  constexpr static std::size_t addrs = 0x4a7ff48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,32 +99,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
-constexpr UnityEngine::UIElements::LayoutData::operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*() {
-  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
-constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*
-UnityEngine::UIElements::LayoutData::i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__LayoutData_() {
-  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
-constexpr UnityEngine::UIElements::LayoutData::operator ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>* UnityEngine::UIElements::LayoutData::i___System__IEquatable_1___UnityEngine__UIElements__LayoutData_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::UIElements::LayoutData UnityEngine::UIElements::LayoutData::Copy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LayoutData>::get(), "Copy",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::LayoutData, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::LayoutData::CopyFrom(ByRef<::UnityEngine::UIElements::LayoutData> other) {
+inline void UnityEngine::UIElements::LayoutData::CopyFrom(::ByRef<::UnityEngine::UIElements::LayoutData> other) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LayoutData>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::LayoutData>>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::LayoutData>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
 inline bool UnityEngine::UIElements::LayoutData::op_Equality(::UnityEngine::UIElements::LayoutData lhs, ::UnityEngine::UIElements::LayoutData rhs) {
@@ -156,6 +132,23 @@ inline int32_t UnityEngine::UIElements::LayoutData::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LayoutData>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
+constexpr UnityEngine::UIElements::LayoutData::operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*() {
+  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
+constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*
+UnityEngine::UIElements::LayoutData::i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__LayoutData_() {
+  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
+constexpr UnityEngine::UIElements::LayoutData::operator ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>* UnityEngine::UIElements::LayoutData::i___System__IEquatable_1___UnityEngine__UIElements__LayoutData_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "alignContent", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: Some("{}") }, CppParam { name: "alignItems", ty:
 // "::UnityEngine::UIElements::Align", modifiers: "", def_value: Some("{}") }, CppParam { name: "alignSelf", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: Some("{}") }, CppParam {

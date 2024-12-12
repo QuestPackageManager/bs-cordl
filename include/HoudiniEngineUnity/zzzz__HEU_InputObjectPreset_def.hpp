@@ -13,11 +13,10 @@ class HEU_InputObjectPreset;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectPreset);
-// Type: HoudiniEngineUnity::HEU_InputObjectPreset
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_InputObjectPreset*
+// CS Name: HoudiniEngineUnity.HEU_InputObjectPreset
 class CORDL_TYPE HEU_InputObjectPreset : public ::System::Object {
 public:
   // Declarations
@@ -77,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x39aff74, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a06be4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,6 +92,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputObjectPreset", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputObjectPreset(HEU_InputObjectPreset const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11591 };
 
   /// @brief Field _gameObjectName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____gameObjectName;
@@ -112,14 +114,9 @@ public:
   /// @brief Field _scaleOffset, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____scaleOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11558 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputObjectPreset, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____gameObjectName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____isSceneObject) == 0x18, "Offset mismatch!");
@@ -131,6 +128,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____translat
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____rotateOffset) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____scaleOffset) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputObjectPreset, 0x40>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputObjectPreset);

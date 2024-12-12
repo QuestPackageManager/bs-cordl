@@ -20,26 +20,25 @@ class HEU_AssetEventReceiverTest;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HEU_AssetEventReceiverTest);
-// Type: ::HEU_AssetEventReceiverTest
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HEU_AssetEventReceiverTest*
+// CS Name: HEU_AssetEventReceiverTest
 class CORDL_TYPE HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method BakedCallback, addr 0x39af78c, size 0x1ac, virtual false, abstract: false, final false
-  inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
+  /// @brief Method BakedCallback, addr 0x3a063fc, size 0x1ac, virtual false, abstract: false, final false
+  inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputList);
 
-  /// @brief Method CookedCallback, addr 0x39af5e0, size 0x1ac, virtual false, abstract: false, final false
-  inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
+  /// @brief Method CookedCallback, addr 0x3a06250, size 0x1ac, virtual false, abstract: false, final false
+  inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputList);
 
   static inline ::GlobalNamespace::HEU_AssetEventReceiverTest* New_ctor();
 
-  /// @brief Method ReloadCallback, addr 0x39af434, size 0x1ac, virtual false, abstract: false, final false
-  inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
+  /// @brief Method ReloadCallback, addr 0x3a060a4, size 0x1ac, virtual false, abstract: false, final false
+  inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputList);
 
-  /// @brief Method .ctor, addr 0x39af938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a065a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +56,7 @@ public:
   HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,11 +17,10 @@ class ObjectBasedBezierCurveData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData);
-// Type: BGLib.UnityExtension.BezierCurves::ObjectBasedBezierCurveData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.UnityExtension.BezierCurves.BaseBezierCurveData
 namespace BGLib::UnityExtension::BezierCurves {
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension.BezierCurves::ObjectBasedBezierCurveData*
+// CS Name: BGLib.UnityExtension.BezierCurves.ObjectBasedBezierCurveData
 class CORDL_TYPE ObjectBasedBezierCurveData : public ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData {
 public:
   // Declarations
@@ -51,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__startPointTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2283c3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b6f28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endPoint, addr 0x2283c20, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0x22b6f0c, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_hasReferences, addr 0x22839a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_hasReferences, addr 0x22b6c8c, size 0x98, virtual false, abstract: false, final false
   inline bool get_hasReferences();
 
-  /// @brief Method get_startPoint, addr 0x2283c04, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_startPoint, addr 0x22b6ef0, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
 protected:
@@ -77,23 +76,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectBasedBezierCurveData(ObjectBasedBezierCurveData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17187 };
+
   /// @brief Field _startPointTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____startPointTransform;
 
   /// @brief Field _endPointTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____endPointTransform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17249 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData, ____startPointTransform) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData, ____endPointTransform) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData, 0x38>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension::BezierCurves
 NEED_NO_BOX(::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData);

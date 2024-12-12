@@ -4,23 +4,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Properties/Internal/zzzz__IPropertyBagRegister_def.hpp"
+#include "Unity/Properties/zzzz__IConstructor_1_def.hpp"
+#include "Unity/Properties/zzzz__IConstructor_def.hpp"
+#include "Unity/Properties/zzzz__IPropertyBag_1_def.hpp"
+#include "Unity/Properties/zzzz__IPropertyBag_def.hpp"
 #include "Unity/Properties/zzzz__InstantiationKind_def.hpp"
 CORDL_MODULE_EXPORT(PropertyBag_1)
-namespace Unity::Properties::Internal {
-class IPropertyBagRegister;
-}
-namespace Unity::Properties {
-template <typename T> class IConstructor_1;
-}
-namespace Unity::Properties {
-class IConstructor;
-}
-namespace Unity::Properties {
-template <typename TContainer> class IPropertyBag_1;
-}
-namespace Unity::Properties {
-class IPropertyBag;
-}
 namespace Unity::Properties {
 class ITypeVisitor;
 }
@@ -33,13 +23,13 @@ template <typename TContainer> class PropertyBag_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::PropertyBag_1);
-// Type: Unity.Properties::PropertyBag`1
-// SizeInfo { instance_size: 24, native_size: 20, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Properties.IConstructor, Unity.Properties.IConstructor`1<T>, Unity.Properties.IPropertyBag, Unity.Properties.IPropertyBag`1<TContainer>,
+// Unity.Properties.InstantiationKind, Unity.Properties.Internal.IPropertyBagRegister
 namespace Unity::Properties {
 // cpp template
 template <typename TContainer>
 // Is value type: false
-// CS Name: ::Unity.Properties::PropertyBag`1<TContainer>*
+// CS Name: Unity.Properties.PropertyBag`1<TContainer>
 class CORDL_TYPE PropertyBag_1 : public ::System::Object {
 public:
   // Declarations
@@ -124,11 +114,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyBag_1(PropertyBag_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17465 };
+
   /// @brief Field <InstantiationKind>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Unity::Properties::InstantiationKind ____InstantiationKind_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17421 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

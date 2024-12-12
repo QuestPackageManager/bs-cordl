@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HierarchyManager)
 namespace GlobalNamespace {
+struct GameScenesManager_SceneTransitionType;
+}
+namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-struct __GameScenesManager__SceneTransitionType;
 }
 namespace HMUI {
 class FlowCoordinator;
@@ -33,11 +33,10 @@ class HierarchyManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::HierarchyManager);
-// Type: HMUI::HierarchyManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::HierarchyManager*
+// CS Name: HMUI.HierarchyManager
 class CORDL_TYPE HierarchyManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,22 +49,22 @@ public:
   /// @brief Field _screenSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__screenSystem, put = __cordl_internal_set__screenSystem)) ::UnityW<::HMUI::ScreenSystem> _screenSystem;
 
-  /// @brief Method HandleBeforeDismissingScenes, addr 0x2255738, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0x2287e28, size 0xac, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes(::System::Collections::Generic::List_1<::StringW>* _);
 
-  /// @brief Method HandleSceneTransitionDidFinish, addr 0x2255560, size 0xac, virtual false, abstract: false, final false
-  inline void HandleSceneTransitionDidFinish(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
+  /// @brief Method HandleSceneTransitionDidFinish, addr 0x2287c50, size 0xac, virtual false, abstract: false, final false
+  inline void HandleSceneTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
                                              ::Zenject::DiContainer* container);
 
   static inline ::HMUI::HierarchyManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x225560c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2287cfc, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2255448, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2287b38, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartWithFlowCoordinator, addr 0x22557e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StartWithFlowCoordinator, addr 0x2287ed4, size 0x24, virtual false, abstract: false, final false
   inline void StartWithFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -86,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__screenSystem(::UnityW<::HMUI::ScreenSystem> value);
 
-  /// @brief Method .ctor, addr 0x2255808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2287ef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,6 +102,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HierarchyManager(HierarchyManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16798 };
+
   /// @brief Field _screenSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ScreenSystem> ____screenSystem;
 
@@ -112,19 +114,16 @@ public:
   /// @brief Field _rootFlowCoordinator, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::FlowCoordinator> ____rootFlowCoordinator;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16759 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::HierarchyManager, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::HierarchyManager, ____screenSystem) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::HierarchyManager, ____gameScenesManager) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::HierarchyManager, ____rootFlowCoordinator) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::HierarchyManager, 0x38>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::HierarchyManager);

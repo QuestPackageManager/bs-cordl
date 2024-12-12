@@ -9,23 +9,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationEvent)
-namespace BeatmapSaveDataCommon {
-struct EaseType;
-}
-namespace BeatmapSaveDataCommon {
-struct RotationDirection;
-}
 // Forward declare root types
 namespace BeatmapSaveDataVersion4 {
 struct LightRotationEvent;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataVersion4::LightRotationEvent);
-// Type: BeatmapSaveDataVersion4::LightRotationEvent
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.EaseType, BeatmapSaveDataCommon.RotationDirection
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataVersion4::LightRotationEvent
+// CS Name: BeatmapSaveDataVersion4.LightRotationEvent
 struct CORDL_TYPE LightRotationEvent {
 public:
   // Declarations
@@ -37,6 +30,12 @@ public:
   // name: "l", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty:
   // "::BeatmapSaveDataCommon::RotationDirection", modifiers: "", def_value: None }]
   constexpr LightRotationEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, int32_t l, float_t r, ::BeatmapSaveDataCommon::RotationDirection d) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13378 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
   /// @brief Field p, offset: 0x0, size: 0x4, def value: None
   int32_t p;
@@ -53,17 +52,9 @@ public:
   /// @brief Field d, offset: 0x10, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::RotationDirection d;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13348 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::LightRotationEvent, 0x14>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightRotationEvent, p) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightRotationEvent, e) == 0x4, "Offset mismatch!");
@@ -73,6 +64,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::LightRotationEvent, l) == 0x8,
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightRotationEvent, r) == 0xc, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightRotationEvent, d) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::LightRotationEvent, 0x14>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::LightRotationEvent, "BeatmapSaveDataVersion4", "LightRotationEvent");

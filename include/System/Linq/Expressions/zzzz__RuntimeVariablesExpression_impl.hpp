@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* (
     ::System::Linq::Expressions::RuntimeVariablesExpression::*)()>(&::System::Linq::Expressions::RuntimeVariablesExpression::get_Variables)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a35c;
+  constexpr static std::size_t addrs = 0x40bb670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::RuntimeVariablesExpression*>::get(),
@@ -23,7 +23,7 @@ System::Linq::Expressions::RuntimeVariablesExpression::__cordl_internal_get__Var
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Variables_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* const&
 System::Linq::Expressions::RuntimeVariablesExpression::__cordl_internal_get__Variables_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Variables_k__BackingField;

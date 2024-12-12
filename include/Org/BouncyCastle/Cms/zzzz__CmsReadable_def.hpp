@@ -13,20 +13,15 @@ class CmsReadable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsReadable);
-// Type: Org.BouncyCastle.Cms::CmsReadable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsReadable*
+// CS Name: Org.BouncyCastle.Cms.CmsReadable
 class CORDL_TYPE CmsReadable {
 public:
   // Declarations
-  /// @brief Method GetInputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetInputStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
-
-  // Ctor Parameters [CppParam { name: "", ty: "CmsReadable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsReadable(CmsReadable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsReadable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

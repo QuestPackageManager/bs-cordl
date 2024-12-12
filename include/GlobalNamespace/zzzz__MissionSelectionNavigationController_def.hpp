@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 class MissionSelectionMapViewController;
 }
 namespace GlobalNamespace {
-class __MissionSelectionNavigationController____c__DisplayClass11_0;
+class MissionSelectionNavigationController___c__DisplayClass11_0;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -29,17 +29,16 @@ namespace GlobalNamespace {
 class MissionSelectionNavigationController;
 }
 namespace GlobalNamespace {
-class __MissionSelectionNavigationController____c__DisplayClass11_0;
+class MissionSelectionNavigationController___c__DisplayClass11_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionSelectionNavigationController);
-MARK_REF_PTR_T(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0);
-// Type: ::<>c__DisplayClass11_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionSelectionNavigationController::<>c__DisplayClass11_0*
-class CORDL_TYPE __MissionSelectionNavigationController____c__DisplayClass11_0 : public ::System::Object {
+// CS Name: MissionSelectionNavigationController/<>c__DisplayClass11_0
+class CORDL_TYPE MissionSelectionNavigationController___c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -51,25 +50,25 @@ public:
   /// @brief Field finishedCallback, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action_1<bool>* finishedCallback;
 
-  static inline ::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0* New_ctor();
+  static inline ::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x3bb6fe0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x3c1a118, size 0xb8, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__0();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x3bb7098, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x3c1a1d0, size 0x20, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__1();
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController>& __cordl_internal_get___4__this();
 
+  constexpr ::System::Action* const& __cordl_internal_get___9__1() const;
+
   constexpr ::System::Action*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get___9__1() const;
+  constexpr ::System::Action_1<bool>* const& __cordl_internal_get_finishedCallback() const;
 
   constexpr ::System::Action_1<bool>*& __cordl_internal_get_finishedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_finishedCallback() const;
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionSelectionNavigationController> value);
 
@@ -77,22 +76,25 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3bb6fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1a108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MissionSelectionNavigationController____c__DisplayClass11_0();
+  constexpr MissionSelectionNavigationController___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MissionSelectionNavigationController____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MissionSelectionNavigationController____c__DisplayClass11_0(__MissionSelectionNavigationController____c__DisplayClass11_0&&) = delete;
+  MissionSelectionNavigationController___c__DisplayClass11_0(MissionSelectionNavigationController___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MissionSelectionNavigationController____c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MissionSelectionNavigationController____c__DisplayClass11_0(__MissionSelectionNavigationController____c__DisplayClass11_0 const&) = delete;
+  MissionSelectionNavigationController___c__DisplayClass11_0(MissionSelectionNavigationController___c__DisplayClass11_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4919 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> _____4__this;
@@ -103,30 +105,26 @@ public:
   /// @brief Field <>9__1, offset: 0x20, size: 0x8, def value: None
   ::System::Action* _____9__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4899 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0, ___finishedCallback) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, ___finishedCallback) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0, _____9__1) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, _____9__1) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MissionSelectionNavigationController
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.NavigationController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionSelectionNavigationController*
+// CS Name: MissionSelectionNavigationController
 class CORDL_TYPE MissionSelectionNavigationController : public ::HMUI::NavigationController {
 public:
   // Declarations
-  using __c__DisplayClass11_0 = ::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0;
+  using __c__DisplayClass11_0 = ::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0;
 
   /// @brief Field _missionLevelDetailViewController, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__missionLevelDetailViewController,
@@ -140,25 +138,25 @@ public:
 
   /// @brief Field didPressPlayButtonEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressPlayButtonEvent,
-                      put = __cordl_internal_set_didPressPlayButtonEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* didPressPlayButtonEvent;
+                      put = __cordl_internal_set_didPressPlayButtonEvent)) ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* didPressPlayButtonEvent;
 
   __declspec(property(get = get_selectedMissionNode)) ::UnityW<::GlobalNamespace::MissionNode> selectedMissionNode;
 
-  /// @brief Method DidActivate, addr 0x3bb6bd8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c19d10, size 0x160, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bb6d38, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c19e70, size 0xf0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x3bb6e9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x3c19fd4, size 0x20, virtual false, abstract: false, final false
   inline void HandleMissionLevelDetailViewControllerDidPressPlayButton(::GlobalNamespace::MissionLevelDetailViewController* viewController);
 
-  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x3bb6e28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x3c19f60, size 0x74, virtual false, abstract: false, final false
   inline void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(::GlobalNamespace::MissionSelectionMapViewController* viewController, ::GlobalNamespace::MissionNode* missionNode);
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController* New_ctor();
 
-  /// @brief Method PresentMissionClearedIfNeeded, addr 0x3bb6ebc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method PresentMissionClearedIfNeeded, addr 0x3c19ff4, size 0x114, virtual false, abstract: false, final false
   inline void PresentMissionClearedIfNeeded(::System::Action_1<bool>* finishedCallback);
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> const& __cordl_internal_get__missionLevelDetailViewController() const;
@@ -169,27 +167,27 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController>& __cordl_internal_get__missionSelectionMapViewController();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*& __cordl_internal_get_didPressPlayButtonEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* const& __cordl_internal_get_didPressPlayButtonEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*> const& __cordl_internal_get_didPressPlayButtonEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*& __cordl_internal_get_didPressPlayButtonEvent();
 
   constexpr void __cordl_internal_set__missionLevelDetailViewController(::UnityW<::GlobalNamespace::MissionLevelDetailViewController> value);
 
   constexpr void __cordl_internal_set__missionSelectionMapViewController(::UnityW<::GlobalNamespace::MissionSelectionMapViewController> value);
 
-  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
+  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
 
-  /// @brief Method .ctor, addr 0x3bb6fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1a110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3bb6a5c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x3c19b94, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
 
-  /// @brief Method get_selectedMissionNode, addr 0x3bb6bbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMissionNode, addr 0x3c19cf4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_selectedMissionNode();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3bb6b0c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c19c44, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
 
 protected:
   // Ctor Parameters []
@@ -205,6 +203,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionSelectionNavigationController(MissionSelectionNavigationController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4920 };
+
   /// @brief Field _missionSelectionMapViewController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> ____missionSelectionMapViewController;
 
@@ -212,24 +213,21 @@ public:
   ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> ____missionLevelDetailViewController;
 
   /// @brief Field didPressPlayButtonEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* ___didPressPlayButtonEvent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4900 };
+  ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* ___didPressPlayButtonEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionNavigationController, 0xb8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController, ____missionSelectionMapViewController) == 0xa0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController, ____missionLevelDetailViewController) == 0xa8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController, ___didPressPlayButtonEvent) == 0xb0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionNavigationController, 0xb8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionSelectionNavigationController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionSelectionNavigationController*, "", "MissionSelectionNavigationController");
-NEED_NO_BOX(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");
+NEED_NO_BOX(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");

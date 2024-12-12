@@ -26,16 +26,15 @@ class BasicBeatmapEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BasicBeatmapEventData);
-// Type: ::BasicBeatmapEventData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasicBeatmapEventType, BeatmapEventData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BasicBeatmapEventData*
+// CS Name: BasicBeatmapEventData
 class CORDL_TYPE BasicBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
   /// @brief Field _defaultsForType, offset 0xffffffff, size 0x8
-  static __declspec(property(
+  __declspec(property(
       get = getStaticF__defaultsForType,
       put = setStaticF__defaultsForType)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* _defaultsForType;
 
@@ -57,21 +56,21 @@ public:
   /// @brief Field value, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
-  /// @brief Method GetCopy, addr 0x221592c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x22409a0, size 0x80, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x22159d8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x2240a4c, size 0x10c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::BasicBeatmapEventData* New_ctor(float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
 
-  /// @brief Method RecalculateSameTypeIndexFromPreviousEvent, addr 0x22159b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RecalculateSameTypeIndexFromPreviousEvent, addr 0x2240a2c, size 0x20, virtual false, abstract: false, final false
   inline void RecalculateSameTypeIndexFromPreviousEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method SetFirstSameTypeIndex, addr 0x22159ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFirstSameTypeIndex, addr 0x2240a20, size 0xc, virtual false, abstract: false, final false
   inline void SetFirstSameTypeIndex();
 
-  /// @brief Method SubtypeIdentifier, addr 0x22158e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x2240958, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(::GlobalNamespace::BasicBeatmapEventType type);
 
   constexpr int32_t const& __cordl_internal_get__sameTypeIndex_k__BackingField() const;
@@ -98,23 +97,23 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x221584c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22408c0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* getStaticF__defaultsForType();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x22157c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x2240838, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x221574c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x22407c0, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method get_sameTypeIndex, addr 0x221583c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameTypeIndex, addr 0x22408b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameTypeIndex();
 
   static inline void setStaticF__defaultsForType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* value);
 
-  /// @brief Method set_sameTypeIndex, addr 0x2215844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sameTypeIndex, addr 0x22408b8, size 0x8, virtual false, abstract: false, final false
   inline void set_sameTypeIndex(int32_t value);
 
 protected:
@@ -131,6 +130,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicBeatmapEventData(BasicBeatmapEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17036 };
+
   /// @brief Field <sameTypeIndex>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____sameTypeIndex_k__BackingField;
 
@@ -143,14 +145,9 @@ public:
   /// @brief Field floatValue, offset: 0x3c, size: 0x4, def value: None
   float_t ___floatValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16997 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicBeatmapEventData, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BasicBeatmapEventData, ____sameTypeIndex_k__BackingField) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BasicBeatmapEventData, ___basicBeatmapEventType) == 0x34, "Offset mismatch!");
@@ -158,6 +155,8 @@ static_assert(offsetof(::GlobalNamespace::BasicBeatmapEventData, ___basicBeatmap
 static_assert(offsetof(::GlobalNamespace::BasicBeatmapEventData, ___value) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BasicBeatmapEventData, ___floatValue) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicBeatmapEventData, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicBeatmapEventData);

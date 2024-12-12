@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x224e48c;
+  constexpr static std::size_t addrs = 0x228090c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,10 +26,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*)>(
+    ::System::Collections::Generic::IList_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x224e4cc;
+  constexpr static std::size_t addrs = 0x228094c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x224e524;
+  constexpr static std::size_t addrs = 0x22809a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x224e770;
+  constexpr static std::size_t addrs = 0x2280bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentTracksDefinitions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* const&
 Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::__cordl_internal_get__environmentTracksDefinitions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentTracksDefinitions;
@@ -92,8 +92,8 @@ inline ::StringW Environments::Definitions::EnvironmentTracksDefinitionsAsyncIns
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall(
-    ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* tracksDefinitions,
-    ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry) {
+    ::System::Collections::Generic::IList_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>* tracksDefinitions,
+    ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 12)));
@@ -105,14 +105,14 @@ inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstalle
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller* Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>());
-}
 inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller* Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::EnvironmentTracksDefinitionsAsyncInstaller() {}

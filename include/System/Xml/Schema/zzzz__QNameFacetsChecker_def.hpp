@@ -26,29 +26,28 @@ class QNameFacetsChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::QNameFacetsChecker);
-// Type: System.Xml.Schema::QNameFacetsChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.FacetsChecker
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::QNameFacetsChecker*
+// CS Name: System.Xml.Schema.QNameFacetsChecker
 class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x41fea30, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x425fd44, size 0x12c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x41feb5c, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x425fe70, size 0x1e0, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x41fee50, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4260164, size 0x114, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x41fed3c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4260050, size 0x114, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::Xml::XmlQualifiedName* value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::QNameFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41fef64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4260278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +65,7 @@ public:
   QNameFacetsChecker(QNameFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/NetworkInformation/zzzz__IPGlobalProperties_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommonUnixIPGlobalProperties)
@@ -14,11 +13,10 @@ class CommonUnixIPGlobalProperties;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
-// Type: System.Net.NetworkInformation::CommonUnixIPGlobalProperties
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkInformation.IPGlobalProperties
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::CommonUnixIPGlobalProperties*
+// CS Name: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
 class CORDL_TYPE CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {
 public:
   // Declarations
@@ -26,13 +24,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x438bbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43eced8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x438ba38, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x43ecd4c, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
-  /// @brief Method getdomainname, addr 0x438b9ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method getdomainname, addr 0x43eccc0, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t getdomainname(::ArrayW<uint8_t, ::Array<uint8_t>*> name, int32_t len);
 
 protected:
@@ -50,7 +48,7 @@ public:
   CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

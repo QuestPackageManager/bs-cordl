@@ -5,10 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(EnvironmentBrandingManager)
 namespace GlobalNamespace {
-class __EnvironmentBrandingManager__InitData;
+class EnvironmentBrandingManager_InitData;
 }
 namespace UnityEngine {
 class GameObject;
@@ -18,23 +17,22 @@ namespace GlobalNamespace {
 class EnvironmentBrandingManager;
 }
 namespace GlobalNamespace {
-class __EnvironmentBrandingManager__InitData;
+class EnvironmentBrandingManager_InitData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentBrandingManager);
-MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentBrandingManager__InitData);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::EnvironmentBrandingManager_InitData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentBrandingManager::InitData*
-class CORDL_TYPE __EnvironmentBrandingManager__InitData : public ::System::Object {
+// CS Name: EnvironmentBrandingManager/InitData
+class CORDL_TYPE EnvironmentBrandingManager_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hideBranding, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_hideBranding, put = __cordl_internal_set_hideBranding)) bool hideBranding;
 
-  static inline ::GlobalNamespace::__EnvironmentBrandingManager__InitData* New_ctor(bool hideBranding);
+  static inline ::GlobalNamespace::EnvironmentBrandingManager_InitData* New_ctor(bool hideBranding);
 
   constexpr bool const& __cordl_internal_get_hideBranding() const;
 
@@ -42,46 +40,45 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x3a7f0e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad780c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hideBranding);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EnvironmentBrandingManager__InitData();
+  constexpr EnvironmentBrandingManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentBrandingManager__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EnvironmentBrandingManager__InitData(__EnvironmentBrandingManager__InitData&&) = delete;
+  EnvironmentBrandingManager_InitData(EnvironmentBrandingManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentBrandingManager__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EnvironmentBrandingManager__InitData(__EnvironmentBrandingManager__InitData const&) = delete;
+  EnvironmentBrandingManager_InitData(EnvironmentBrandingManager_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4041 };
 
   /// @brief Field hideBranding, offset: 0x10, size: 0x1, def value: None
   bool ___hideBranding;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4031 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentBrandingManager__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentBrandingManager_InitData, ___hideBranding) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EnvironmentBrandingManager__InitData, ___hideBranding) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentBrandingManager_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::EnvironmentBrandingManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentBrandingManager*
+// CS Name: EnvironmentBrandingManager
 class CORDL_TYPE EnvironmentBrandingManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__EnvironmentBrandingManager__InitData;
+  using InitData = ::GlobalNamespace::EnvironmentBrandingManager_InitData;
 
   /// @brief Field _brandingObjects, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__brandingObjects,
@@ -89,7 +86,7 @@ public:
       _brandingObjects;
 
   /// @brief Field _initData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__EnvironmentBrandingManager__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::EnvironmentBrandingManager_InitData* _initData;
 
   /// @brief Field _replacementBrandingObjects, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__replacementBrandingObjects,
@@ -98,16 +95,16 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentBrandingManager* New_ctor();
 
-  /// @brief Method Start, addr 0x3a7f010, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad7738, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__brandingObjects() const;
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__brandingObjects();
 
-  constexpr ::GlobalNamespace::__EnvironmentBrandingManager__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::EnvironmentBrandingManager_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EnvironmentBrandingManager__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::EnvironmentBrandingManager_InitData*& __cordl_internal_get__initData();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__replacementBrandingObjects() const;
 
@@ -115,11 +112,11 @@ public:
 
   constexpr void __cordl_internal_set__brandingObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__EnvironmentBrandingManager__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::EnvironmentBrandingManager_InitData* value);
 
   constexpr void __cordl_internal_set__replacementBrandingObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3a7f0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad7804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,6 +133,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentBrandingManager(EnvironmentBrandingManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4042 };
+
   /// @brief Field _brandingObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____brandingObjects;
 
@@ -143,24 +143,21 @@ public:
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____replacementBrandingObjects;
 
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::__EnvironmentBrandingManager__InitData* ____initData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4032 };
+  ::GlobalNamespace::EnvironmentBrandingManager_InitData* ____initData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentBrandingManager, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentBrandingManager, ____brandingObjects) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentBrandingManager, ____replacementBrandingObjects) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentBrandingManager, ____initData) == 0x30, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentBrandingManager, 0x38>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentBrandingManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentBrandingManager*, "", "EnvironmentBrandingManager");
-NEED_NO_BOX(::GlobalNamespace::__EnvironmentBrandingManager__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EnvironmentBrandingManager__InitData*, "", "EnvironmentBrandingManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::EnvironmentBrandingManager_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentBrandingManager_InitData*, "", "EnvironmentBrandingManager/InitData");

@@ -19,11 +19,10 @@ class DaylightTime;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::DaylightTime);
-// Type: System.Globalization::DaylightTime
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Object, System.TimeSpan
 namespace System::Globalization {
 // Is value type: false
-// CS Name: ::System.Globalization::DaylightTime*
+// CS Name: System.Globalization.DaylightTime
 class CORDL_TYPE DaylightTime : public ::System::Object {
 public:
   // Declarations
@@ -62,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set__start(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x3d3197c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d91af0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method get_Delta, addr 0x3d319c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x3d91b3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Delta();
 
-  /// @brief Method get_End, addr 0x3d319c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x3d91b34, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_End();
 
-  /// @brief Method get_Start, addr 0x3d319b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x3d91b2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Start();
 
 protected:
@@ -88,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DaylightTime(DaylightTime const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3677 };
+
   /// @brief Field _start, offset: 0x10, size: 0x8, def value: None
   ::System::DateTime ____start;
 
@@ -97,19 +99,16 @@ public:
   /// @brief Field _delta, offset: 0x20, size: 0x8, def value: None
   ::System::TimeSpan ____delta;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3677 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::DaylightTime, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::DaylightTime, ____start) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::DaylightTime, ____end) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::DaylightTime, ____delta) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::DaylightTime, 0x28>, "Size mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::DaylightTime);

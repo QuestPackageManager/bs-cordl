@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::ByRefParameterExpression::*)(::System::Type*, ::StringW)>(
     &::System::Linq::Expressions::ByRefParameterExpression::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x405a24c;
+  constexpr static std::size_t addrs = 0x40bb560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::ByRefParameterExpression::*)()>(
     &::System::Linq::Expressions::ByRefParameterExpression::GetIsByRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a34c;
+  constexpr static std::size_t addrs = 0x40bb660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,9 +34,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Linq::Expressions::ByRefParameterExpression* System::Linq::Expressions::ByRefParameterExpression::New_ctor(::System::Type* type, ::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::ByRefParameterExpression*>(type, name));
-}
 inline void System::Linq::Expressions::ByRefParameterExpression::_ctor(::System::Type* type, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ByRefParameterExpression*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -48,6 +45,9 @@ inline bool System::Linq::Expressions::ByRefParameterExpression::GetIsByRef() {
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ByRefParameterExpression*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::ByRefParameterExpression* System::Linq::Expressions::ByRefParameterExpression::New_ctor(::System::Type* type, ::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::ByRefParameterExpression*>(type, name));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::ByRefParameterExpression::ByRefParameterExpression() {}

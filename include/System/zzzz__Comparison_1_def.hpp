@@ -18,13 +18,12 @@ template <typename T> class Comparison_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Comparison_1);
-// Type: System::Comparison`1
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System::Comparison`1<T>*
+// CS Name: System.Comparison`1<T>
 class CORDL_TYPE Comparison_1 : public ::System::MulticastDelegate {
 public:
   // Declarations

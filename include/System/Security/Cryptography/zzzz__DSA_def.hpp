@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSA)
@@ -17,35 +16,34 @@ class DSA;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::DSA);
-// Type: System.Security.Cryptography::DSA
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.AsymmetricAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::DSA*
+// CS Name: System.Security.Cryptography.DSA
 class CORDL_TYPE DSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3c3e644, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c9e7b8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* Create();
 
-  /// @brief Method ExportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ExportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method FromXmlString, addr 0x3c3e698, size 0x68c, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x3c9e80c, size 0x68c, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
-  /// @brief Method ImportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ImportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
   static inline ::System::Security::Cryptography::DSA* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x3c3ed24, size 0x468, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x3c9ee98, size 0x468, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
-  /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method VerifySignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method .ctor, addr 0x3c3e63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9e7b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

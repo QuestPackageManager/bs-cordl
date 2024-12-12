@@ -3,63 +3,63 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"
-constexpr uint64_t& LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__cordl_internal_get_Along() {
+constexpr uint64_t& LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::__cordl_internal_get_Along() {
   return this->___Along;
 }
-constexpr uint64_t const& LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__cordl_internal_get_Along() const {
+constexpr uint64_t const& LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::__cordl_internal_get_Along() const {
   return this->___Along;
 }
-constexpr void LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__cordl_internal_set_Along(uint64_t value) {
+constexpr void LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::__cordl_internal_set_Along(uint64_t value) {
   this->___Along = value;
 }
-constexpr double_t& LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__cordl_internal_get_Adouble() {
+constexpr double_t& LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::__cordl_internal_get_Adouble() {
   return this->___Adouble;
 }
-constexpr double_t const& LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__cordl_internal_get_Adouble() const {
+constexpr double_t const& LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::__cordl_internal_get_Adouble() const {
   return this->___Adouble;
 }
-constexpr void LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__cordl_internal_set_Adouble(double_t value) {
+constexpr void LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::__cordl_internal_set_Adouble(double_t value) {
   this->___Adouble = value;
 }
 // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept {
+constexpr ::LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::FastBitConverter_ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept {
   this->Along = Along;
   this->Adouble = Adouble;
 }
 // Ctor Parameters []
-constexpr ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble::__FastBitConverter__ConverterHelperDouble() {}
-constexpr int32_t& LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__cordl_internal_get_Aint() {
+constexpr ::LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::FastBitConverter_ConverterHelperDouble() {}
+constexpr int32_t& LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::__cordl_internal_get_Aint() {
   return this->___Aint;
 }
-constexpr int32_t const& LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__cordl_internal_get_Aint() const {
+constexpr int32_t const& LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::__cordl_internal_get_Aint() const {
   return this->___Aint;
 }
-constexpr void LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__cordl_internal_set_Aint(int32_t value) {
+constexpr void LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::__cordl_internal_set_Aint(int32_t value) {
   this->___Aint = value;
 }
-constexpr float_t& LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__cordl_internal_get_Afloat() {
+constexpr float_t& LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::__cordl_internal_get_Afloat() {
   return this->___Afloat;
 }
-constexpr float_t const& LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__cordl_internal_get_Afloat() const {
+constexpr float_t const& LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::__cordl_internal_get_Afloat() const {
   return this->___Afloat;
 }
-constexpr void LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__cordl_internal_set_Afloat(float_t value) {
+constexpr void LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::__cordl_internal_set_Afloat(float_t value) {
   this->___Afloat = value;
 }
 // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__FastBitConverter__ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept {
+constexpr ::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::FastBitConverter_ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept {
   this->Aint = Aint;
   this->Afloat = Afloat;
 }
 // Ctor Parameters []
-constexpr ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat::__FastBitConverter__ConverterHelperFloat() {}
+constexpr ::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::FastBitConverter_ConverterHelperFloat() {}
 //  Writing Method size for method: ::LiteNetLib::Utils::FastBitConverter.WriteLittleEndian
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, uint64_t)>(
     &::LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3a655c4;
+  constexpr static std::size_t addrs = 0x3abc234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a656b4;
+  constexpr static std::size_t addrs = 0x3abc324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int16_t)>(
     &::LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3a65734;
+  constexpr static std::size_t addrs = 0x3abc3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, double_t)>(
     &::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a6577c;
+  constexpr static std::size_t addrs = 0x3abc3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, float_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a65784;
+  constexpr static std::size_t addrs = 0x3abc3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int16_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a6578c;
+  constexpr static std::size_t addrs = 0x3abc3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, uint16_t)>(
     &::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a5fbdc;
+  constexpr static std::size_t addrs = 0x3ab684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a600cc;
+  constexpr static std::size_t addrs = 0x3ab6d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, uint32_t)>(
     &::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a65790;
+  constexpr static std::size_t addrs = 0x3abc400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int64_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a5c364;
+  constexpr static std::size_t addrs = 0x3ab2fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, uint64_t)>(
     &::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a65794;
+  constexpr static std::size_t addrs = 0x3abc404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

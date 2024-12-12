@@ -15,11 +15,10 @@ class SchemaNotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SchemaNotation);
-// Type: System.Xml.Schema::SchemaNotation
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::SchemaNotation*
+// CS Name: System.Xml.Schema.SchemaNotation
 class CORDL_TYPE SchemaNotation : public ::System::Object {
 public:
   // Declarations
@@ -40,9 +39,9 @@ public:
 
   static inline ::System::Xml::Schema::SchemaNotation* New_ctor(::System::Xml::XmlQualifiedName* name);
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_name() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_name() const;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
 
   constexpr ::StringW const& __cordl_internal_get_pubid() const;
 
@@ -58,22 +57,22 @@ public:
 
   constexpr void __cordl_internal_set_systemLiteral(::StringW value);
 
-  /// @brief Method .ctor, addr 0x423624c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4297560, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method get_Name, addr 0x4236274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4297588, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Pubid, addr 0x423628c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pubid, addr 0x42975a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pubid();
 
-  /// @brief Method get_SystemLiteral, addr 0x423627c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemLiteral, addr 0x4297590, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemLiteral();
 
-  /// @brief Method set_Pubid, addr 0x4236294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pubid, addr 0x42975a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Pubid(::StringW value);
 
-  /// @brief Method set_SystemLiteral, addr 0x4236284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SystemLiteral, addr 0x4297598, size 0x8, virtual false, abstract: false, final false
   inline void set_SystemLiteral(::StringW value);
 
 protected:
@@ -90,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SchemaNotation(SchemaNotation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7622 };
+
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___name;
 
@@ -99,19 +101,16 @@ public:
   /// @brief Field pubid, offset: 0x20, size: 0x8, def value: None
   ::StringW ___pubid;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7597 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaNotation, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::SchemaNotation, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::SchemaNotation, ___systemLiteral) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::SchemaNotation, ___pubid) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaNotation, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::SchemaNotation);

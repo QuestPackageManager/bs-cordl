@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LoadResourceFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::LoadResourceFunction::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49dcb0c;
+  constexpr static std::size_t addrs = 0x4a4141c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::UIElements::LoadResourceFunction::*)(::StringW, ::System::Type*, float_t)>(&::UnityEngine::UIElements::LoadResourceFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49dcbac;
+  constexpr static std::size_t addrs = 0x4a414bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,9 +38,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::LoadResourceFunction* UnityEngine::UIElements::LoadResourceFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LoadResourceFunction*>(object, method));
-}
 inline void UnityEngine::UIElements::LoadResourceFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LoadResourceFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -52,6 +49,9 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::UIElements::LoadResourceFunc
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LoadResourceFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method, pathName, type, dpiScaling);
+}
+inline ::UnityEngine::UIElements::LoadResourceFunction* UnityEngine::UIElements::LoadResourceFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LoadResourceFunction*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::LoadResourceFunction::LoadResourceFunction() {}

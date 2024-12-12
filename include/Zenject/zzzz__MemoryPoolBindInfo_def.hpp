@@ -16,11 +16,10 @@ class MemoryPoolBindInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::MemoryPoolBindInfo);
-// Type: Zenject::MemoryPoolBindInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.PoolExpandMethods
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::MemoryPoolBindInfo*
+// CS Name: Zenject.MemoryPoolBindInfo
 class CORDL_TYPE MemoryPoolBindInfo : public ::System::Object {
 public:
   // Declarations
@@ -70,31 +69,31 @@ public:
 
   constexpr void __cordl_internal_set__ShowExpandWarning_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4aafc90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b145a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExpandMethod, addr 0x4aafcd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpandMethod, addr 0x4b145e0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::PoolExpandMethods get_ExpandMethod();
 
-  /// @brief Method get_InitialSize, addr 0x4aafce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialSize, addr 0x4b145f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InitialSize();
 
-  /// @brief Method get_MaxSize, addr 0x4aafcf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x4b14600, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_ShowExpandWarning, addr 0x4aafcbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowExpandWarning, addr 0x4b145cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowExpandWarning();
 
-  /// @brief Method set_ExpandMethod, addr 0x4aafcd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpandMethod, addr 0x4b145e8, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpandMethod(::Zenject::PoolExpandMethods value);
 
-  /// @brief Method set_InitialSize, addr 0x4aafce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialSize, addr 0x4b145f8, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialSize(int32_t value);
 
-  /// @brief Method set_MaxSize, addr 0x4aafcf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxSize, addr 0x4b14608, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxSize(int32_t value);
 
-  /// @brief Method set_ShowExpandWarning, addr 0x4aafcc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShowExpandWarning, addr 0x4b145d4, size 0xc, virtual false, abstract: false, final false
   inline void set_ShowExpandWarning(bool value);
 
 protected:
@@ -111,6 +110,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolBindInfo(MemoryPoolBindInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12288 };
+
   /// @brief Field <ShowExpandWarning>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ShowExpandWarning_k__BackingField;
 
@@ -123,14 +125,9 @@ public:
   /// @brief Field <MaxSize>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____MaxSize_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12255 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::MemoryPoolBindInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::MemoryPoolBindInfo, ____ShowExpandWarning_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::MemoryPoolBindInfo, ____ExpandMethod_k__BackingField) == 0x14, "Offset mismatch!");
@@ -138,6 +135,8 @@ static_assert(offsetof(::Zenject::MemoryPoolBindInfo, ____ExpandMethod_k__Backin
 static_assert(offsetof(::Zenject::MemoryPoolBindInfo, ____InitialSize_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::MemoryPoolBindInfo, ____MaxSize_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::MemoryPoolBindInfo, 0x20>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::MemoryPoolBindInfo);

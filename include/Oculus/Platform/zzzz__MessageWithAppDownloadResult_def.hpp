@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithAppDownloadResult)
 namespace Oculus::Platform::Models {
 class AppDownloadResult;
@@ -18,23 +17,22 @@ class MessageWithAppDownloadResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithAppDownloadResult);
-// Type: Oculus.Platform::MessageWithAppDownloadResult
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Message`1<T>
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::MessageWithAppDownloadResult*
+// CS Name: Oculus.Platform.MessageWithAppDownloadResult
 class CORDL_TYPE MessageWithAppDownloadResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AppDownloadResult*> {
 public:
   // Declarations
-  /// @brief Method GetAppDownloadResult, addr 0x3f1c3f8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAppDownloadResult, addr 0x3f7c4a4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadResult* GetAppDownloadResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f1c434, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7c4e0, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadResult* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAppDownloadResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f1a310, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7a3bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +50,7 @@ public:
   MessageWithAppDownloadResult(MessageWithAppDownloadResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

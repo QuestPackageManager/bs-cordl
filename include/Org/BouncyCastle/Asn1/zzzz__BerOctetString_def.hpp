@@ -4,8 +4,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetString_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerOctetString)
 namespace Org::BouncyCastle::Asn1 {
@@ -15,13 +16,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
+class BerOctetString_ChunkEnumerator;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerOctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __BerOctetString__ChunkEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -37,17 +38,16 @@ namespace Org::BouncyCastle::Asn1 {
 class BerOctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class __BerOctetString__ChunkEnumerator;
+class BerOctetString_ChunkEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerOctetString);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator);
-// Type: ::ChunkEnumerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator);
+// Dependencies System.Collections.IEnumerator, System.Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::BerOctetString::ChunkEnumerator*
-class CORDL_TYPE __BerOctetString__ChunkEnumerator : public ::System::Object {
+// CS Name: Org.BouncyCastle.Asn1.BerOctetString/ChunkEnumerator
+class CORDL_TYPE BerOctetString_ChunkEnumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Object* Current;
@@ -67,21 +67,21 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x25febc8, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2631eb4, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
+  static inline ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
 
-  /// @brief Method Reset, addr 0x25fecf4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2631fe0, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_chunkSize() const;
 
   constexpr int32_t& __cordl_internal_get_chunkSize();
 
-  constexpr ::Org::BouncyCastle::Asn1::DerOctetString*& __cordl_internal_get_currentChunk();
+  constexpr ::Org::BouncyCastle::Asn1::DerOctetString* const& __cordl_internal_get_currentChunk() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerOctetString*> const& __cordl_internal_get_currentChunk() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerOctetString*& __cordl_internal_get_currentChunk();
 
   constexpr int32_t const& __cordl_internal_get_nextChunkPos() const;
 
@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x25fe70c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26319f8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
 
-  /// @brief Method get_Current, addr 0x25feb80, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2631e6c, size 0x48, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -111,16 +111,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BerOctetString__ChunkEnumerator();
+  constexpr BerOctetString_ChunkEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BerOctetString__ChunkEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString_ChunkEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BerOctetString__ChunkEnumerator(__BerOctetString__ChunkEnumerator&&) = delete;
+  BerOctetString_ChunkEnumerator(BerOctetString_ChunkEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BerOctetString__ChunkEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString_ChunkEnumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BerOctetString__ChunkEnumerator(__BerOctetString__ChunkEnumerator const&) = delete;
+  BerOctetString_ChunkEnumerator(BerOctetString_ChunkEnumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 480 };
 
   /// @brief Field octets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___octets;
@@ -134,35 +137,31 @@ public:
   /// @brief Field nextChunkPos, offset: 0x28, size: 0x4, def value: None
   int32_t ___nextChunkPos;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 480 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, 0x30>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator, ___octets) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___octets) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator, ___chunkSize) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___chunkSize) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator, ___currentChunk) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___currentChunk) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator, ___nextChunkPos) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___nextChunkPos) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
-// Type: Org.BouncyCastle.Asn1::BerOctetString
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerOctetString, System.Collections.IEnumerable
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::BerOctetString*
+// CS Name: Org.BouncyCastle.Asn1.BerOctetString
 class CORDL_TYPE BerOctetString : public ::Org::BouncyCastle::Asn1::DerOctetString {
 public:
   // Declarations
-  using ChunkEnumerator = ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator;
+  using ChunkEnumerator = ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator;
 
   /// @brief Field DefaultChunkSize, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_DefaultChunkSize, put = setStaticF_DefaultChunkSize)) int32_t DefaultChunkSize;
+  __declspec(property(get = getStaticF_DefaultChunkSize, put = setStaticF_DefaultChunkSize)) int32_t DefaultChunkSize;
 
   /// @brief Field chunkSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_chunkSize, put = __cordl_internal_set_chunkSize)) int32_t chunkSize;
@@ -174,16 +173,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Encode, addr 0x25fe748, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2631a34, size 0x3ec, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromSequence, addr 0x25f9364, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FromSequence, addr 0x262c650, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* FromSequence(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetEnumerator, addr 0x25fe684, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2631970, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetObjects, addr 0x25fe744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetObjects, addr 0x2631a30, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetObjects();
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::System::Collections::IEnumerable* e);
@@ -200,10 +199,10 @@ public:
   static inline ::Org::BouncyCastle::Asn1::BerOctetString*
   New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
-  /// @brief Method ToBytes, addr 0x25fe204, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ToBytes, addr 0x26314f0, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs);
 
-  /// @brief Method ToOctetStringArray, addr 0x25fe2e0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ToOctetStringArray, addr 0x26315cc, size 0x1ec, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> ToOctetStringArray(::System::Collections::IEnumerable* e);
 
   constexpr int32_t const& __cordl_internal_get_chunkSize() const;
@@ -218,22 +217,22 @@ public:
 
   constexpr void __cordl_internal_set_octs(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> value);
 
-  /// @brief Method .ctor, addr 0x25fe4cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26317b8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* e);
 
-  /// @brief Method .ctor, addr 0x25f6c2c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2629f18, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs);
 
-  /// @brief Method .ctor, addr 0x25fe5dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26318c8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
-  /// @brief Method .ctor, addr 0x25fe538, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631824, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x25fe5b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26318a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, int32_t chunkSize);
 
-  /// @brief Method .ctor, addr 0x25fe658, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631944, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
   static inline int32_t getStaticF_DefaultChunkSize();
@@ -257,26 +256,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerOctetString(BerOctetString const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 481 };
+
   /// @brief Field chunkSize, offset: 0x18, size: 0x4, def value: None
   int32_t ___chunkSize;
 
   /// @brief Field octs, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> ___octs;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 481 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerOctetString, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString, ___chunkSize) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString, ___octs) == 0x20, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerOctetString, 0x28>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerOctetString);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerOctetString*, "Org.BouncyCastle.Asn1", "BerOctetString");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*, "Org.BouncyCastle.Asn1", "BerOctetString/ChunkEnumerator");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*, "Org.BouncyCastle.Asn1", "BerOctetString/ChunkEnumerator");

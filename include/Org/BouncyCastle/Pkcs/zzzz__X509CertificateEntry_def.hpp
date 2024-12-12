@@ -24,11 +24,10 @@ class X509CertificateEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::X509CertificateEntry);
-// Type: Org.BouncyCastle.Pkcs::X509CertificateEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Pkcs.Pkcs12Entry
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkcs::X509CertificateEntry*
+// CS Name: Org.BouncyCastle.Pkcs.X509CertificateEntry
 class CORDL_TYPE X509CertificateEntry : public ::Org::BouncyCastle::Pkcs::Pkcs12Entry {
 public:
   // Declarations
@@ -37,10 +36,10 @@ public:
   /// @brief Field cert, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert)) ::Org::BouncyCastle::X509::X509Certificate* cert;
 
-  /// @brief Method Equals, addr 0x2531160, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x256444c, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2531204, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25644f0, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
@@ -49,22 +48,22 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_cert();
+  constexpr ::Org::BouncyCastle::X509::X509Certificate* const& __cordl_internal_get_cert() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_cert() const;
+  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_cert();
 
   constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method .ctor, addr 0x2531088, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2564374, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x2531100, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25643ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x253112c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2564418, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Certificate, addr 0x2531158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x2564444, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Certificate();
 
 protected:
@@ -81,18 +80,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509CertificateEntry(X509CertificateEntry const&) = delete;
 
-  /// @brief Field cert, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::X509::X509Certificate* ___cert;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1708 };
+
+  /// @brief Field cert, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::X509::X509Certificate* ___cert;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::X509CertificateEntry, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Pkcs::X509CertificateEntry, ___cert) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::X509CertificateEntry, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::X509CertificateEntry);

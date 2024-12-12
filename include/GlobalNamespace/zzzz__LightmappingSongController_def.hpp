@@ -11,26 +11,25 @@ class LightmappingSongController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightmappingSongController);
-// Type: ::LightmappingSongController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SongController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightmappingSongController*
+// CS Name: LightmappingSongController
 class CORDL_TYPE LightmappingSongController : public ::GlobalNamespace::SongController {
 public:
   // Declarations
   static inline ::GlobalNamespace::LightmappingSongController* New_ctor();
 
-  /// @brief Method PauseSong, addr 0x3b8a5d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x3bebdec, size 0x4, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x3b8a5d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x3bebdf0, size 0x4, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method StopSong, addr 0x3b8a5d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x3bebde8, size 0x4, virtual true, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method .ctor, addr 0x3b8a5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bebdf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +47,7 @@ public:
   LightmappingSongController(LightmappingSongController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

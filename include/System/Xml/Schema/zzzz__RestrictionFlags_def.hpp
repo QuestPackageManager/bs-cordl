@@ -12,11 +12,10 @@ struct RestrictionFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::RestrictionFlags);
-// Type: System.Xml.Schema::RestrictionFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::System.Xml.Schema::RestrictionFlags
+// CS Name: System.Xml.Schema.RestrictionFlags
 struct CORDL_TYPE RestrictionFlags {
 public:
   // Declarations
@@ -55,57 +54,57 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RestrictionFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Enumeration value: static_cast<int32_t>(0x10)
+  /// @brief Field Enumeration value: I32(16)
   static ::System::Xml::Schema::RestrictionFlags const Enumeration;
 
-  /// @brief Field FractionDigits value: static_cast<int32_t>(0x800)
+  /// @brief Field FractionDigits value: I32(2048)
   static ::System::Xml::Schema::RestrictionFlags const FractionDigits;
 
-  /// @brief Field Length value: static_cast<int32_t>(0x1)
+  /// @brief Field Length value: I32(1)
   static ::System::Xml::Schema::RestrictionFlags const Length;
 
-  /// @brief Field MaxExclusive value: static_cast<int32_t>(0x80)
+  /// @brief Field MaxExclusive value: I32(128)
   static ::System::Xml::Schema::RestrictionFlags const MaxExclusive;
 
-  /// @brief Field MaxInclusive value: static_cast<int32_t>(0x40)
+  /// @brief Field MaxInclusive value: I32(64)
   static ::System::Xml::Schema::RestrictionFlags const MaxInclusive;
 
-  /// @brief Field MaxLength value: static_cast<int32_t>(0x4)
+  /// @brief Field MaxLength value: I32(4)
   static ::System::Xml::Schema::RestrictionFlags const MaxLength;
 
-  /// @brief Field MinExclusive value: static_cast<int32_t>(0x200)
+  /// @brief Field MinExclusive value: I32(512)
   static ::System::Xml::Schema::RestrictionFlags const MinExclusive;
 
-  /// @brief Field MinInclusive value: static_cast<int32_t>(0x100)
+  /// @brief Field MinInclusive value: I32(256)
   static ::System::Xml::Schema::RestrictionFlags const MinInclusive;
 
-  /// @brief Field MinLength value: static_cast<int32_t>(0x2)
+  /// @brief Field MinLength value: I32(2)
   static ::System::Xml::Schema::RestrictionFlags const MinLength;
 
-  /// @brief Field Pattern value: static_cast<int32_t>(0x8)
+  /// @brief Field Pattern value: I32(8)
   static ::System::Xml::Schema::RestrictionFlags const Pattern;
 
-  /// @brief Field TotalDigits value: static_cast<int32_t>(0x400)
+  /// @brief Field TotalDigits value: I32(1024)
   static ::System::Xml::Schema::RestrictionFlags const TotalDigits;
 
-  /// @brief Field WhiteSpace value: static_cast<int32_t>(0x20)
+  /// @brief Field WhiteSpace value: I32(32)
   static ::System::Xml::Schema::RestrictionFlags const WhiteSpace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7514 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RestrictionFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::RestrictionFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RestrictionFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::RestrictionFlags, "System.Xml.Schema", "RestrictionFlags");

@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(SpriteState)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine {
 class Sprite;
 }
@@ -17,11 +15,10 @@ struct SpriteState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UI::SpriteState);
-// Type: UnityEngine.UI::SpriteState
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>
 namespace UnityEngine::UI {
 // Is value type: true
-// CS Name: ::UnityEngine.UI::SpriteState
+// CS Name: UnityEngine.UI.SpriteState
 struct CORDL_TYPE SpriteState {
 public:
   // Declarations
@@ -36,34 +33,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::SpriteState>*();
 
-  /// @brief Method Equals, addr 0x4a651b8, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4ac9ac8, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::SpriteState other);
 
-  /// @brief Method get_disabledSprite, addr 0x4a651a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledSprite, addr 0x4ac9ab8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_disabledSprite();
 
-  /// @brief Method get_highlightedSprite, addr 0x4a65178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedSprite, addr 0x4ac9a88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_highlightedSprite();
 
-  /// @brief Method get_pressedSprite, addr 0x4a65188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedSprite, addr 0x4ac9a98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_pressedSprite();
 
-  /// @brief Method get_selectedSprite, addr 0x4a65198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSprite, addr 0x4ac9aa8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedSprite();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UI::SpriteState>* i___System__IEquatable_1___UnityEngine__UI__SpriteState_();
 
-  /// @brief Method set_disabledSprite, addr 0x4a651b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disabledSprite, addr 0x4ac9ac0, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_highlightedSprite, addr 0x4a65180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedSprite, addr 0x4ac9a90, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_pressedSprite, addr 0x4a65190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedSprite, addr 0x4ac9aa0, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_selectedSprite, addr 0x4a651a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedSprite, addr 0x4ac9ab0, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedSprite(::UnityEngine::Sprite* value);
 
   // Ctor Parameters []
@@ -75,6 +72,12 @@ public:
   // "m_DisabledSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
   constexpr SpriteState(::UnityW<::UnityEngine::Sprite> m_HighlightedSprite, ::UnityW<::UnityEngine::Sprite> m_PressedSprite, ::UnityW<::UnityEngine::Sprite> m_SelectedSprite,
                         ::UnityW<::UnityEngine::Sprite> m_DisabledSprite) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15136 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field m_HighlightedSprite, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> m_HighlightedSprite;
@@ -88,17 +91,9 @@ public:
   /// @brief Field m_DisabledSprite, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> m_DisabledSprite;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15101 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::SpriteState, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UI::SpriteState, m_HighlightedSprite) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UI::SpriteState, m_PressedSprite) == 0x8, "Offset mismatch!");
@@ -106,6 +101,8 @@ static_assert(offsetof(::UnityEngine::UI::SpriteState, m_PressedSprite) == 0x8, 
 static_assert(offsetof(::UnityEngine::UI::SpriteState, m_SelectedSprite) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UI::SpriteState, m_DisabledSprite) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::SpriteState, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");

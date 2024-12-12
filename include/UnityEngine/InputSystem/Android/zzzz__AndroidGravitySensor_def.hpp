@@ -11,17 +11,16 @@ class AndroidGravitySensor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGravitySensor);
-// Type: UnityEngine.InputSystem.Android::AndroidGravitySensor
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.GravitySensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidGravitySensor*
+// CS Name: UnityEngine.InputSystem.Android.AndroidGravitySensor
 class CORDL_TYPE AndroidGravitySensor : public ::UnityEngine::InputSystem::GravitySensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGravitySensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4604408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidGravitySensor(AndroidGravitySensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

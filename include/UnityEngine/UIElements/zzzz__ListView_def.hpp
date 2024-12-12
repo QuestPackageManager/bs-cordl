@@ -20,111 +20,108 @@ namespace UnityEngine::UIElements {
 class CollectionViewController;
 }
 namespace UnityEngine::UIElements {
+class ListView_UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class ListView_UxmlTraits;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class __ListView__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class __ListView__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ListView;
 }
 namespace UnityEngine::UIElements {
-class __ListView__UxmlFactory;
+class ListView_UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class __ListView__UxmlTraits;
+class ListView_UxmlTraits;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ListView);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__ListView__UxmlFactory);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__ListView__UxmlTraits);
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::ListView_UxmlFactory);
+MARK_REF_PTR_T(::UnityEngine::UIElements::ListView_UxmlTraits);
+// Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::ListView::UxmlFactory*
-class CORDL_TYPE __ListView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ListView*, ::UnityEngine::UIElements::__ListView__UxmlTraits*> {
+// CS Name: UnityEngine.UIElements.ListView/UxmlFactory
+class CORDL_TYPE ListView_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ListView*, ::UnityEngine::UIElements::ListView_UxmlTraits*> {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::__ListView__UxmlFactory* New_ctor();
+  static inline ::UnityEngine::UIElements::ListView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498bb84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f0494, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ListView__UxmlFactory();
+  constexpr ListView_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ListView__UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListView_UxmlFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ListView__UxmlFactory(__ListView__UxmlFactory&&) = delete;
+  ListView_UxmlFactory(ListView_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ListView__UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListView_UxmlFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ListView__UxmlFactory(__ListView__UxmlFactory const&) = delete;
+  ListView_UxmlFactory(ListView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5621 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ListView__UxmlFactory, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListView_UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: ::UxmlTraits
-// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseListView::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::ListView::UxmlTraits*
-class CORDL_TYPE __ListView__UxmlTraits : public ::UnityEngine::UIElements::__BaseListView__UxmlTraits {
+// CS Name: UnityEngine.UIElements.ListView/UxmlTraits
+class CORDL_TYPE ListView_UxmlTraits : public ::UnityEngine::UIElements::BaseListView_UxmlTraits {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::__ListView__UxmlTraits* New_ctor();
+  static inline ::UnityEngine::UIElements::ListView_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498bbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f04dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ListView__UxmlTraits();
+  constexpr ListView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ListView__UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListView_UxmlTraits", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ListView__UxmlTraits(__ListView__UxmlTraits&&) = delete;
+  ListView_UxmlTraits(ListView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ListView__UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListView_UxmlTraits", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ListView__UxmlTraits(__ListView__UxmlTraits const&) = delete;
+  ListView_UxmlTraits(ListView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ListView__UxmlTraits, 0xd8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListView_UxmlTraits, 0xd8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::ListView
-// SizeInfo { instance_size: 1368, native_size: -1, calculated_instance_size: 1368, calculated_native_size: 1368, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseListView
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ListView*
+// CS Name: UnityEngine.UIElements.ListView
 class CORDL_TYPE ListView : public ::UnityEngine::UIElements::BaseListView {
 public:
   // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::__ListView__UxmlFactory;
+  using UxmlFactory = ::UnityEngine::UIElements::ListView_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::__ListView__UxmlTraits;
+  using UxmlTraits = ::UnityEngine::UIElements::ListView_UxmlTraits;
 
   /// @brief Field <destroyItem>k__BackingField, offset 0x550, size 0x8
   __declspec(property(get = __cordl_internal_get__destroyItem_k__BackingField,
@@ -148,29 +145,29 @@ public:
 
   __declspec(property(get = get_unbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* unbindItem;
 
-  /// @brief Method CreateViewController, addr 0x498bac0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x49f03d0, size 0x54, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x498ba80, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x49f0390, size 0x40, virtual true, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
   static inline ::UnityEngine::UIElements::ListView* New_ctor();
 
+  constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get__destroyItem_k__BackingField() const;
+
   constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get__destroyItem_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get__destroyItem_k__BackingField() const;
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* const& __cordl_internal_get__unbindItem_k__BackingField() const;
 
   constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& __cordl_internal_get__unbindItem_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const& __cordl_internal_get__unbindItem_k__BackingField() const;
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* const& __cordl_internal_get_m_BindItem() const;
 
   constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& __cordl_internal_get_m_BindItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const& __cordl_internal_get_m_BindItem() const;
+  constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_m_MakeItem() const;
 
   constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_MakeItem();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_MakeItem() const;
 
   constexpr void __cordl_internal_set__destroyItem_k__BackingField(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
 
@@ -180,19 +177,19 @@ public:
 
   constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x498bb14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f0424, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bindItem, addr 0x498ba68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x49f0378, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_destroyItem, addr 0x498ba78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x49f0388, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_makeItem, addr 0x498ba60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x49f0370, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_unbindItem, addr 0x498ba70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x49f0380, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
 protected:
@@ -209,6 +206,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListView(ListView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5623 };
+
   /// @brief Field m_MakeItem, offset: 0x538, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeItem;
 
@@ -221,14 +221,9 @@ public:
   /// @brief Field <destroyItem>k__BackingField, offset: 0x550, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* ____destroyItem_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5598 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListView, 0x558>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_MakeItem) == 0x538, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_BindItem) == 0x540, "Offset mismatch!");
@@ -237,10 +232,12 @@ static_assert(offsetof(::UnityEngine::UIElements::ListView, ____unbindItem_k__Ba
 
 static_assert(offsetof(::UnityEngine::UIElements::ListView, ____destroyItem_k__BackingField) == 0x550, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListView, 0x558>, "Size mismatch!");
+
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ListView);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListView*, "UnityEngine.UIElements", "ListView");
-NEED_NO_BOX(::UnityEngine::UIElements::__ListView__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__ListView__UxmlFactory*, "UnityEngine.UIElements", "ListView/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::__ListView__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__ListView__UxmlTraits*, "UnityEngine.UIElements", "ListView/UxmlTraits");
+NEED_NO_BOX(::UnityEngine::UIElements::ListView_UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListView_UxmlFactory*, "UnityEngine.UIElements", "ListView/UxmlFactory");
+NEED_NO_BOX(::UnityEngine::UIElements::ListView_UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListView_UxmlTraits*, "UnityEngine.UIElements", "ListView/UxmlTraits");

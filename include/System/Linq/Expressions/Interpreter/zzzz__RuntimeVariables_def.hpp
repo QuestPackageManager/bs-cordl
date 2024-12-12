@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/CompilerServices/zzzz__IRuntimeVariables_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RuntimeVariables)
 namespace System::Runtime::CompilerServices {
 class IRuntimeVariables;
@@ -18,11 +18,10 @@ class RuntimeVariables;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::RuntimeVariables);
-// Type: System.Linq.Expressions.Interpreter::RuntimeVariables
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.CompilerServices.IRuntimeVariables
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::RuntimeVariables*
+// CS Name: System.Linq.Expressions.Interpreter.RuntimeVariables
 class CORDL_TYPE RuntimeVariables : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IRuntimeVariables"
   constexpr operator ::System::Runtime::CompilerServices::IRuntimeVariables*() noexcept;
 
-  /// @brief Method Create, addr 0x4088354, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40e9668, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::IRuntimeVariables*
   Create(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
@@ -47,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__boxes(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> value);
 
-  /// @brief Method .ctor, addr 0x40931ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f4500, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IRuntimeVariables"
@@ -67,18 +66,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeVariables(RuntimeVariables const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14078 };
+
   /// @brief Field _boxes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> ____boxes;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::RuntimeVariables, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::RuntimeVariables, ____boxes) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::RuntimeVariables, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::RuntimeVariables);

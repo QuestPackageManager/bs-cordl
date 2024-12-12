@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlayingCampaignRichPresenceData.hpp"
+#include "GlobalNamespace/zzzz__IRichPresenceData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayingCampaignRichPresenceData_def.hpp"
-#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayingCampaignRichPresenceData.get_apiName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayingCampaignRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingCampaignRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3acc3d8;
+  constexpr static std::size_t addrs = 0x3b2ba1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayingCampaignRichPresenceData*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayingCampaignRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingCampaignRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3acc418;
+  constexpr static std::size_t addrs = 0x3b2ba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayingCampaignRichPresenceData*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayingCampaignRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingCampaignRichPresenceData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acc470;
+  constexpr static std::size_t addrs = 0x3b2bab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayingCampaignRichPresenceData*>::get(),
@@ -45,14 +45,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
-constexpr GlobalNamespace::PlayingCampaignRichPresenceData::operator ::GlobalNamespace::IRichPresenceData*() noexcept {
-  return static_cast<::GlobalNamespace::IRichPresenceData*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IRichPresenceData"
-constexpr ::GlobalNamespace::IRichPresenceData* GlobalNamespace::PlayingCampaignRichPresenceData::i___GlobalNamespace__IRichPresenceData() noexcept {
-  return static_cast<::GlobalNamespace::IRichPresenceData*>(static_cast<void*>(this));
-}
 constexpr ::StringW& GlobalNamespace::PlayingCampaignRichPresenceData::__cordl_internal_get__localizedDescription() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedDescription;
@@ -75,13 +67,21 @@ inline ::StringW GlobalNamespace::PlayingCampaignRichPresenceData::get_localized
                                                                              "get_localizedDescription", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayingCampaignRichPresenceData* GlobalNamespace::PlayingCampaignRichPresenceData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayingCampaignRichPresenceData*>());
-}
 inline void GlobalNamespace::PlayingCampaignRichPresenceData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayingCampaignRichPresenceData*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PlayingCampaignRichPresenceData* GlobalNamespace::PlayingCampaignRichPresenceData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayingCampaignRichPresenceData*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
+constexpr GlobalNamespace::PlayingCampaignRichPresenceData::operator ::GlobalNamespace::IRichPresenceData*() noexcept {
+  return static_cast<::GlobalNamespace::IRichPresenceData*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IRichPresenceData"
+constexpr ::GlobalNamespace::IRichPresenceData* GlobalNamespace::PlayingCampaignRichPresenceData::i___GlobalNamespace__IRichPresenceData() noexcept {
+  return static_cast<::GlobalNamespace::IRichPresenceData*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData::PlayingCampaignRichPresenceData() {}

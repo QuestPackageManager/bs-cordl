@@ -3,13 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 CORDL_MODULE_EXPORT(IPolynomialExtensionField)
-namespace Org::BouncyCastle::Math::Field {
-class IExtensionField;
-}
-namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
-}
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
 }
@@ -19,11 +15,10 @@ class IPolynomialExtensionField;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::IPolynomialExtensionField);
-// Type: Org.BouncyCastle.Math.Field::IPolynomialExtensionField
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.Field.IExtensionField, Org.BouncyCastle.Math.Field.IFiniteField
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.Field::IPolynomialExtensionField*
+// CS Name: Org.BouncyCastle.Math.Field.IPolynomialExtensionField
 class CORDL_TYPE IPolynomialExtensionField {
 public:
   // Declarations
@@ -35,7 +30,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Method get_MinimalPolynomial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_MinimalPolynomial, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IExtensionField"
@@ -43,10 +38,6 @@ public:
 
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPolynomialExtensionField", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPolynomialExtensionField(IPolynomialExtensionField&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPolynomialExtensionField", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

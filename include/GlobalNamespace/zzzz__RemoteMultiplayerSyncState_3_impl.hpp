@@ -11,8 +11,7 @@ constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::RemoteMultiplay
   return this->____player;
 }
 template <typename TStateTable, typename TType, typename TState>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const&
-GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__cordl_internal_get__player() const {
+constexpr ::GlobalNamespace::IConnectedPlayer* const& GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__cordl_internal_get__player() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____player;
 }
@@ -27,7 +26,7 @@ constexpr ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*& G
   return this->____stateBuffer;
 }
 template <typename TStateTable, typename TType, typename TState>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*> const&
+constexpr ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* const&
 GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__cordl_internal_get__stateBuffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateBuffer;
@@ -72,26 +71,24 @@ inline void GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TS
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, serializable);
 }
-/// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
-template <typename TStateTable, typename TType, typename TState>
-inline ::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*
-GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::New_ctor(::GlobalNamespace::IConnectedPlayer* player, int32_t size,
-                                                                                    ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                                                                                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>(player, size, interpolator, smoother));
-}
-/// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
 template <typename TStateTable, typename TType, typename TState>
 inline void GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::_ctor(::GlobalNamespace::IConnectedPlayer* player, int32_t size,
-                                                                                             ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                                                                                             ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother) {
+                                                                                             ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
+                                                                                             ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, player, size, interpolator, smoother);
+}
+template <typename TStateTable, typename TType, typename TState>
+inline ::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*
+GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::New_ctor(::GlobalNamespace::IConnectedPlayer* player, int32_t size,
+                                                                                    ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
+                                                                                    ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>(player, size, interpolator, smoother));
 }
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState> constexpr ::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::RemoteMultiplayerSyncState_3() {}

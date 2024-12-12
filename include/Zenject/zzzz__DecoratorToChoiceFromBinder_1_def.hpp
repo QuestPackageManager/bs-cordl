@@ -23,13 +23,12 @@ template <typename TContract> class DecoratorToChoiceFromBinder_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::DecoratorToChoiceFromBinder_1);
-// Type: Zenject::DecoratorToChoiceFromBinder`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::DecoratorToChoiceFromBinder`1<TContract>*
+// CS Name: Zenject.DecoratorToChoiceFromBinder`1<TContract>
 class CORDL_TYPE DecoratorToChoiceFromBinder_1 : public ::System::Object {
 public:
   // Declarations
@@ -47,17 +46,17 @@ public:
   /// @brief Method With, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline ::Zenject::FactoryFromBinder_2<TContract, TConcrete>* With();
 
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__bindContainer() const;
+
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__bindContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__bindContainer() const;
+  constexpr ::Zenject::BindInfo* const& __cordl_internal_get__bindInfo() const;
 
   constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __cordl_internal_get__bindInfo() const;
+  constexpr ::Zenject::FactoryBindInfo* const& __cordl_internal_get__factoryBindInfo() const;
 
   constexpr ::Zenject::FactoryBindInfo*& __cordl_internal_get__factoryBindInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __cordl_internal_get__factoryBindInfo() const;
 
   constexpr void __cordl_internal_set__bindContainer(::Zenject::DiContainer* value);
 
@@ -82,6 +81,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecoratorToChoiceFromBinder_1(DecoratorToChoiceFromBinder_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12184 };
+
   /// @brief Field _bindContainer, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____bindContainer;
 
@@ -90,9 +92,6 @@ public:
 
   /// @brief Field _factoryBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____factoryBindInfo;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12151 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

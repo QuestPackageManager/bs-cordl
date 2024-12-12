@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>, ::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion4::ColorNoteItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26d7694;
+  constexpr static std::size_t addrs = 0x2709144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion4::ColorNoteItemConverter::*)(::BeatmapSaveDataVersion4::BeatmapBeatIndex*)>(&::BeatmapDataLoaderVersion4::ColorNoteItemConverter::Convert)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26d77a4;
+  constexpr static std::size_t addrs = 0x2709254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,11 +53,6 @@ BeatmapDataLoaderVersion4::ColorNoteItemConverter::__cordl_internal_set__colorNo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorNotes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::BeatmapDataLoaderVersion4::ColorNoteItemConverter*
-BeatmapDataLoaderVersion4::ColorNoteItemConverter::New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
-                                                            ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::ColorNoteItemConverter*>(colorNotes, bpmTimeProcessor));
-}
 inline void BeatmapDataLoaderVersion4::ColorNoteItemConverter::_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
                                                                      ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,6 +66,11 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::ColorNot
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::ColorNoteItemConverter*>::get(), "Convert", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapObjectData*, false>(this, ___internal_method, index);
+}
+inline ::BeatmapDataLoaderVersion4::ColorNoteItemConverter*
+BeatmapDataLoaderVersion4::ColorNoteItemConverter::New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
+                                                            ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::ColorNoteItemConverter*>(colorNotes, bpmTimeProcessor));
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::ColorNoteItemConverter::ColorNoteItemConverter() {}

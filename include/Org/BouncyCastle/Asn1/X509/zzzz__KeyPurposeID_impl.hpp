@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::KeyPurposeID::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::KeyPurposeID::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25d5524;
+  constexpr static std::size_t addrs = 0x2608810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,14 +125,14 @@ inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* Org::BouncyCastle::Asn1::X
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, "IdKPMacAddress",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* Org::BouncyCastle::Asn1::X509::KeyPurposeID::New_ctor(::StringW id) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>(id));
-}
 inline void Org::BouncyCastle::Asn1::X509::KeyPurposeID::_ctor(::StringW id) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id);
+}
+inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* Org::BouncyCastle::Asn1::X509::KeyPurposeID::New_ctor(::StringW id) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>(id));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::KeyPurposeID::KeyPurposeID() {}

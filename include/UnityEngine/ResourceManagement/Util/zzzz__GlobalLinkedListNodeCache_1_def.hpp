@@ -18,18 +18,17 @@ template <typename T> class GlobalLinkedListNodeCache_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1);
-// Type: UnityEngine.ResourceManagement.Util::GlobalLinkedListNodeCache`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Util::GlobalLinkedListNodeCache`1<T>*
+// CS Name: UnityEngine.ResourceManagement.Util.GlobalLinkedListNodeCache`1<T>
 class CORDL_TYPE GlobalLinkedListNodeCache_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_globalCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_globalCache, put = setStaticF_m_globalCache)) ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* m_globalCache;
+  __declspec(property(get = getStaticF_m_globalCache, put = setStaticF_m_globalCache)) ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* m_globalCache;
 
   /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);
@@ -62,7 +61,7 @@ public:
   GlobalLinkedListNodeCache_1(GlobalLinkedListNodeCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

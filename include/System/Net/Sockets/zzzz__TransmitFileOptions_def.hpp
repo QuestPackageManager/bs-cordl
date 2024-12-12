@@ -12,11 +12,10 @@ struct TransmitFileOptions;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::TransmitFileOptions);
-// Type: System.Net.Sockets::TransmitFileOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
-// CS Name: ::System.Net.Sockets::TransmitFileOptions
+// CS Name: System.Net.Sockets.TransmitFileOptions
 struct CORDL_TYPE TransmitFileOptions {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TransmitFileOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Disconnect value: static_cast<int32_t>(0x1)
+  /// @brief Field Disconnect value: I32(1)
   static ::System::Net::Sockets::TransmitFileOptions const Disconnect;
 
-  /// @brief Field ReuseSocket value: static_cast<int32_t>(0x2)
+  /// @brief Field ReuseSocket value: I32(2)
   static ::System::Net::Sockets::TransmitFileOptions const ReuseSocket;
 
-  /// @brief Field UseDefaultWorkerThread value: static_cast<int32_t>(0x0)
+  /// @brief Field UseDefaultWorkerThread value: I32(0)
   static ::System::Net::Sockets::TransmitFileOptions const UseDefaultWorkerThread;
 
-  /// @brief Field UseKernelApc value: static_cast<int32_t>(0x20)
+  /// @brief Field UseKernelApc value: I32(32)
   static ::System::Net::Sockets::TransmitFileOptions const UseKernelApc;
 
-  /// @brief Field UseSystemThread value: static_cast<int32_t>(0x10)
+  /// @brief Field UseSystemThread value: I32(16)
   static ::System::Net::Sockets::TransmitFileOptions const UseSystemThread;
 
-  /// @brief Field WriteBehind value: static_cast<int32_t>(0x4)
+  /// @brief Field WriteBehind value: I32(4)
   static ::System::Net::Sockets::TransmitFileOptions const WriteBehind;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9871 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::TransmitFileOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::TransmitFileOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::TransmitFileOptions, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::TransmitFileOptions, "System.Net.Sockets", "TransmitFileOptions");

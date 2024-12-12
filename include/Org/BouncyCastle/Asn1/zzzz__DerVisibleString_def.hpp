@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerVisibleString)
@@ -26,36 +25,35 @@ class DerVisibleString;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerVisibleString);
-// Type: Org.BouncyCastle.Asn1::DerVisibleString
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerStringBase
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::DerVisibleString*
+// CS Name: Org.BouncyCastle.Asn1.DerVisibleString
 class CORDL_TYPE DerVisibleString : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
   // Declarations
   /// @brief Field str, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str)) ::StringW str;
 
-  /// @brief Method Asn1Equals, addr 0x26079ec, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x263acd8, size 0x98, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x2607a84, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x263ad70, size 0x1c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x26079bc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x263aca8, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetInstance, addr 0x260790c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x263abf8, size 0x28, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2607754, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x263aa40, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctets, addr 0x26079b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x263ac9c, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method GetString, addr 0x26079a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x263ac94, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
@@ -68,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25f9208, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262c4f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x2607934, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263ac20, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
 protected:
@@ -88,18 +86,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerVisibleString(DerVisibleString const&) = delete;
 
-  /// @brief Field str, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___str;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 522 };
+
+  /// @brief Field str, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___str;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerVisibleString, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::DerVisibleString, ___str) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerVisibleString, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerVisibleString);

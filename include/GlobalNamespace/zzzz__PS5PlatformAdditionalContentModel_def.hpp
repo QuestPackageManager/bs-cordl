@@ -17,18 +17,17 @@ class PS5PlatformAdditionalContentModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PS5PlatformAdditionalContentModel);
-// Type: ::PS5PlatformAdditionalContentModel
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SonyPlatformAdditionalContentModel
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PS5PlatformAdditionalContentModel*
+// CS Name: PS5PlatformAdditionalContentModel
 class CORDL_TYPE PS5PlatformAdditionalContentModel : public ::GlobalNamespace::SonyPlatformAdditionalContentModel {
 public:
   // Declarations
   static inline ::GlobalNamespace::PS5PlatformAdditionalContentModel* New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
                                                                                ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
-  /// @brief Method .ctor, addr 0x26b26f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e71c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper, ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
 protected:
@@ -46,7 +45,7 @@ public:
   PS5PlatformAdditionalContentModel(PS5PlatformAdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

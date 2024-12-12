@@ -18,11 +18,10 @@ class PemReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemReader);
-// Type: Org.BouncyCastle.Utilities.IO.Pem::PemReader
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemReader*
+// CS Name: Org.BouncyCastle.Utilities.IO.Pem.PemReader
 class CORDL_TYPE PemReader : public ::System::Object {
 public:
   // Declarations
@@ -31,24 +30,24 @@ public:
   /// @brief Field reader, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader)) ::System::IO::TextReader* reader;
 
-  /// @brief Method LoadObject, addr 0x251b734, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method LoadObject, addr 0x254ea20, size 0x3c8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method ReadPemObject, addr 0x251b5e0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x254e8cc, size 0x154, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
+
+  constexpr ::System::IO::TextReader* const& __cordl_internal_get_reader() const;
 
   constexpr ::System::IO::TextReader*& __cordl_internal_get_reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __cordl_internal_get_reader() const;
-
   constexpr void __cordl_internal_set_reader(::System::IO::TextReader* value);
 
-  /// @brief Method .ctor, addr 0x251b564, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254e850, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_Reader, addr 0x251b5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x254e8c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::TextReader* get_Reader();
 
 protected:
@@ -65,9 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PemReader(PemReader const&) = delete;
 
-  /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
-  ::System::IO::TextReader* ___reader;
-
   /// @brief Field BeginString offset 0xffffffff size 0x8
   static constexpr ::ConstString BeginString{ u"-----BEGIN " };
 
@@ -77,12 +73,15 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1685 };
 
+  /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
+  ::System::IO::TextReader* ___reader;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemReader, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemReader, ___reader) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemReader, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::IO::Pem
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemReader);

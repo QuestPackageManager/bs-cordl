@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(DisableIfNotPlatform)
 namespace UnityEngine {
 struct RuntimePlatform;
@@ -15,11 +14,10 @@ class DisableIfNotPlatform;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DisableIfNotPlatform);
-// Type: ::DisableIfNotPlatform
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DisableIfNotPlatform*
+// CS Name: DisableIfNotPlatform
 class CORDL_TYPE DisableIfNotPlatform : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -28,7 +26,7 @@ public:
                       put = __cordl_internal_set__whitelistPlatforms)) ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>
       _whitelistPlatforms;
 
-  /// @brief Method Awake, addr 0x3968ff0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39be688, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableIfNotPlatform* New_ctor();
@@ -39,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
 
-  /// @brief Method .ctor, addr 0x39690c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisableIfNotPlatform(DisableIfNotPlatform const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18848 };
+
   /// @brief Field _whitelistPlatforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> ____whitelistPlatforms;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableIfNotPlatform, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::DisableIfNotPlatform, ____whitelistPlatforms) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableIfNotPlatform, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisableIfNotPlatform);

@@ -4,9 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(_AndroidJNIHelper)
 namespace System {
 class Array;
@@ -38,81 +36,80 @@ class _AndroidJNIHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::_AndroidJNIHelper);
-// Type: UnityEngine::_AndroidJNIHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::_AndroidJNIHelper*
+// CS Name: UnityEngine._AndroidJNIHelper
 class CORDL_TYPE _AndroidJNIHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Box, addr 0x47e3c70, size 0x9b4, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4844f84, size 0x9b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* Box(::System::Object* obj);
 
   /// @brief Method ConvertFromJNIArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ArrayType> static inline ArrayType ConvertFromJNIArray(::System::IntPtr array);
 
-  /// @brief Method ConvertToJNIArray, addr 0x47d71c8, size 0xbd0, virtual false, abstract: false, final false
+  /// @brief Method ConvertToJNIArray, addr 0x48384dc, size 0xbd0, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToJNIArray(::System::Array* array);
 
-  /// @brief Method CreateJNIArgArray, addr 0x47d7e28, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method CreateJNIArgArray, addr 0x483913c, size 0x580, virtual false, abstract: false, final false
   static inline void CreateJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Span_1<::UnityEngine::jvalue> ret);
 
-  /// @brief Method CreateJavaProxy, addr 0x47d713c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaProxy, addr 0x4838450, size 0x88, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJavaProxy(::System::IntPtr player, ::System::IntPtr delegateHandle, ::UnityEngine::AndroidJavaProxy* proxy);
 
-  /// @brief Method CreateJavaRunnable, addr 0x47d6fc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaRunnable, addr 0x48382dc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJavaRunnable(::UnityEngine::AndroidJavaRunnable* jrunnable);
 
-  /// @brief Method DeleteJNIArgArray, addr 0x47d8524, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DeleteJNIArgArray, addr 0x4839838, size 0x158, virtual false, abstract: false, final false
   static inline void DeleteJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Span_1<::UnityEngine::jvalue> jniArgs);
 
-  /// @brief Method GetConstructorID, addr 0x47d86a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x48399b4, size 0x20, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr jclass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetConstructorID, addr 0x47d6874, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x4837b88, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr jclass, ::StringW signature);
 
   /// @brief Method GetFieldID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> static inline ::System::IntPtr GetFieldID(::System::IntPtr jclass, ::StringW fieldName, bool isStatic);
 
-  /// @brief Method GetFieldID, addr 0x47d6cec, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x4838000, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldID(::System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x47d86f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x4839a0c, size 0x38, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
   /// @brief Method GetMethodID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType>
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x47d6aa8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x4837dbc, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetMethodIDFallback, addr 0x47e811c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetMethodIDFallback, addr 0x4849430, size 0x94, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodIDFallback(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetSignature, addr 0x47d960c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x483a920, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method GetSignature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetSignature, addr 0x47d8734, size 0xed4, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x4839a48, size 0xed4, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::System::Object* obj);
 
-  /// @brief Method InvokeJavaProxyMethod, addr 0x47e7858, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InvokeJavaProxyMethod, addr 0x4848b6c, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::IntPtr InvokeJavaProxyMethod(::UnityEngine::AndroidJavaProxy* proxy, ::System::IntPtr jmethodName, ::System::IntPtr jargs);
 
   static inline ::UnityEngine::_AndroidJNIHelper* New_ctor();
 
-  /// @brief Method Unbox, addr 0x47e4998, size 0xbb0, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x4845cac, size 0xbb0, virtual false, abstract: false, final false
   static inline ::System::Object* Unbox(::UnityEngine::AndroidJavaObject* obj);
 
-  /// @brief Method UnboxArray, addr 0x47e7984, size 0x798, virtual false, abstract: false, final false
+  /// @brief Method UnboxArray, addr 0x4848c98, size 0x798, virtual false, abstract: false, final false
   static inline ::System::Object* UnboxArray(::UnityEngine::AndroidJavaObject* obj);
 
-  /// @brief Method .ctor, addr 0x47e81b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48494c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,7 +127,7 @@ public:
   _AndroidJNIHelper(_AndroidJNIHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

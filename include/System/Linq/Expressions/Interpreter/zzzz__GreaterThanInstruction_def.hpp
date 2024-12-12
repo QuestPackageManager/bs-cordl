@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GreaterThanInstruction)
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanByte;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanChar;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanDouble;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanInt16;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanInt32;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanInt64;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanSByte;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanSingle;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanUInt16;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanUInt32;
+}
+namespace GlobalNamespace {
+class GreaterThanInstruction_GreaterThanUInt64;
+}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanChar;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanDouble;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanInt64;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanSByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanSingle;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanUInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanUInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __GreaterThanInstruction__GreaterThanUInt64;
 }
 namespace System {
 class Object;
@@ -55,35 +55,34 @@ class GreaterThanInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::GreaterThanInstruction);
-// Type: System.Linq.Expressions.Interpreter::GreaterThanInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::GreaterThanInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.GreaterThanInstruction
 class CORDL_TYPE GreaterThanInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using GreaterThanByte = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanByte;
+  using GreaterThanByte = ::GlobalNamespace::GreaterThanInstruction_GreaterThanByte;
 
-  using GreaterThanChar = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanChar;
+  using GreaterThanChar = ::GlobalNamespace::GreaterThanInstruction_GreaterThanChar;
 
-  using GreaterThanDouble = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanDouble;
+  using GreaterThanDouble = ::GlobalNamespace::GreaterThanInstruction_GreaterThanDouble;
 
-  using GreaterThanInt16 = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanInt16;
+  using GreaterThanInt16 = ::GlobalNamespace::GreaterThanInstruction_GreaterThanInt16;
 
-  using GreaterThanInt32 = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanInt32;
+  using GreaterThanInt32 = ::GlobalNamespace::GreaterThanInstruction_GreaterThanInt32;
 
-  using GreaterThanInt64 = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanInt64;
+  using GreaterThanInt64 = ::GlobalNamespace::GreaterThanInstruction_GreaterThanInt64;
 
-  using GreaterThanSByte = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSByte;
+  using GreaterThanSByte = ::GlobalNamespace::GreaterThanInstruction_GreaterThanSByte;
 
-  using GreaterThanSingle = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSingle;
+  using GreaterThanSingle = ::GlobalNamespace::GreaterThanInstruction_GreaterThanSingle;
 
-  using GreaterThanUInt16 = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanUInt16;
+  using GreaterThanUInt16 = ::GlobalNamespace::GreaterThanInstruction_GreaterThanUInt16;
 
-  using GreaterThanUInt32 = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanUInt32;
+  using GreaterThanUInt32 = ::GlobalNamespace::GreaterThanInstruction_GreaterThanUInt32;
 
-  using GreaterThanUInt64 = ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanUInt64;
+  using GreaterThanUInt64 = ::GlobalNamespace::GreaterThanInstruction_GreaterThanUInt64;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
@@ -95,83 +94,83 @@ public:
   __declspec(property(get = __cordl_internal_get__nullValue, put = __cordl_internal_set__nullValue)) ::System::Object* _nullValue;
 
   /// @brief Field s_Byte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
+  __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
 
   /// @brief Field s_Char, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Char, put = setStaticF_s_Char)) ::System::Linq::Expressions::Interpreter::Instruction* s_Char;
+  __declspec(property(get = getStaticF_s_Char, put = setStaticF_s_Char)) ::System::Linq::Expressions::Interpreter::Instruction* s_Char;
 
   /// @brief Field s_Double, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction* s_Double;
+  __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction* s_Double;
 
   /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
   /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
   /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
   /// @brief Field s_SByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
+  __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
 
   /// @brief Field s_Single, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction* s_Single;
+  __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction* s_Single;
 
   /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+  __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
 
   /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+  __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
 
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+  __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
   /// @brief Field s_liftedToNullByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullByte, put = setStaticF_s_liftedToNullByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullByte;
+  __declspec(property(get = getStaticF_s_liftedToNullByte, put = setStaticF_s_liftedToNullByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullByte;
 
   /// @brief Field s_liftedToNullChar, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullChar, put = setStaticF_s_liftedToNullChar)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullChar;
+  __declspec(property(get = getStaticF_s_liftedToNullChar, put = setStaticF_s_liftedToNullChar)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullChar;
 
   /// @brief Field s_liftedToNullDouble, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullDouble, put = setStaticF_s_liftedToNullDouble)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullDouble;
+  __declspec(property(get = getStaticF_s_liftedToNullDouble, put = setStaticF_s_liftedToNullDouble)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullDouble;
 
   /// @brief Field s_liftedToNullInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullInt16, put = setStaticF_s_liftedToNullInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullInt16;
+  __declspec(property(get = getStaticF_s_liftedToNullInt16, put = setStaticF_s_liftedToNullInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullInt16;
 
   /// @brief Field s_liftedToNullInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullInt32, put = setStaticF_s_liftedToNullInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullInt32;
+  __declspec(property(get = getStaticF_s_liftedToNullInt32, put = setStaticF_s_liftedToNullInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullInt32;
 
   /// @brief Field s_liftedToNullInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullInt64, put = setStaticF_s_liftedToNullInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullInt64;
+  __declspec(property(get = getStaticF_s_liftedToNullInt64, put = setStaticF_s_liftedToNullInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullInt64;
 
   /// @brief Field s_liftedToNullSByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullSByte, put = setStaticF_s_liftedToNullSByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullSByte;
+  __declspec(property(get = getStaticF_s_liftedToNullSByte, put = setStaticF_s_liftedToNullSByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullSByte;
 
   /// @brief Field s_liftedToNullSingle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullSingle, put = setStaticF_s_liftedToNullSingle)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullSingle;
+  __declspec(property(get = getStaticF_s_liftedToNullSingle, put = setStaticF_s_liftedToNullSingle)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullSingle;
 
   /// @brief Field s_liftedToNullUInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullUInt16, put = setStaticF_s_liftedToNullUInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullUInt16;
+  __declspec(property(get = getStaticF_s_liftedToNullUInt16, put = setStaticF_s_liftedToNullUInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullUInt16;
 
   /// @brief Field s_liftedToNullUInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullUInt32, put = setStaticF_s_liftedToNullUInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullUInt32;
+  __declspec(property(get = getStaticF_s_liftedToNullUInt32, put = setStaticF_s_liftedToNullUInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullUInt32;
 
   /// @brief Field s_liftedToNullUInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_liftedToNullUInt64, put = setStaticF_s_liftedToNullUInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullUInt64;
+  __declspec(property(get = getStaticF_s_liftedToNullUInt64, put = setStaticF_s_liftedToNullUInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullUInt64;
 
-  /// @brief Method Create, addr 0x4067e48, size 0x960, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40c915c, size 0x960, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type, bool liftedToNull);
 
   static inline ::System::Linq::Expressions::Interpreter::GreaterThanInstruction* New_ctor(::System::Object* nullValue);
 
-  constexpr ::System::Object*& __cordl_internal_get__nullValue();
+  constexpr ::System::Object* const& __cordl_internal_get__nullValue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__nullValue() const;
+  constexpr ::System::Object*& __cordl_internal_get__nullValue();
 
   constexpr void __cordl_internal_set__nullValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4067e20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c9134, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Byte();
@@ -218,13 +217,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_liftedToNullUInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x4067dd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c90e4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4067de0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c90f4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4067dd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c90ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Byte(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -285,18 +284,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GreaterThanInstruction(GreaterThanInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13867 };
+
   /// @brief Field _nullValue, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____nullValue;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::GreaterThanInstruction, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::GreaterThanInstruction, ____nullValue) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::GreaterThanInstruction, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::GreaterThanInstruction);

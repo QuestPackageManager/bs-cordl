@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 #include "Zenject/zzzz__InvalidBindResponses_def.hpp"
@@ -15,9 +16,6 @@ template <typename T> class List_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -40,11 +38,10 @@ class BindInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::BindInfo);
-// Type: Zenject::BindInfo
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, Zenject.BindingInheritanceMethods, Zenject.InvalidBindResponses, Zenject.ScopeTypes, Zenject.ToChoices
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::BindInfo*
+// CS Name: Zenject.BindInfo
 class CORDL_TYPE BindInfo : public ::System::Object {
 public:
   // Declarations
@@ -106,48 +103,48 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4aaf188, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4b13a98, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::BindInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x4aaf08c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4b1399c, size 0xfc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetContextInfo, addr 0x4aaf1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContextInfo, addr 0x4b13af0, size 0x8, virtual false, abstract: false, final false
   inline void SetContextInfo(::StringW contextInfo);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_Arguments();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& __cordl_internal_get_Arguments() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_Arguments() const;
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_Arguments();
 
   constexpr ::Zenject::BindingInheritanceMethods const& __cordl_internal_get_BindingInheritanceMethod() const;
 
   constexpr ::Zenject::BindingInheritanceMethods& __cordl_internal_get_BindingInheritanceMethod();
 
+  constexpr ::System::Object* const& __cordl_internal_get_ConcreteIdentifier() const;
+
   constexpr ::System::Object*& __cordl_internal_get_ConcreteIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_ConcreteIdentifier() const;
+  constexpr ::Zenject::BindingCondition* const& __cordl_internal_get_Condition() const;
 
   constexpr ::Zenject::BindingCondition*& __cordl_internal_get_Condition();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindingCondition*> const& __cordl_internal_get_Condition() const;
 
   constexpr ::StringW const& __cordl_internal_get_ContextInfo() const;
 
   constexpr ::StringW& __cordl_internal_get_ContextInfo();
 
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>* const& __cordl_internal_get_ContractTypes() const;
+
   constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_ContractTypes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_ContractTypes() const;
+  constexpr ::System::Object* const& __cordl_internal_get_Identifier() const;
 
   constexpr ::System::Object*& __cordl_internal_get_Identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Identifier() const;
+  constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* const& __cordl_internal_get_InstantiatedCallback() const;
 
   constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*& __cordl_internal_get_InstantiatedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*> const& __cordl_internal_get_InstantiatedCallback() const;
 
   constexpr ::Zenject::InvalidBindResponses const& __cordl_internal_get_InvalidBindResponse() const;
 
@@ -185,9 +182,9 @@ public:
 
   constexpr ::Zenject::ToChoices& __cordl_internal_get_ToChoice();
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_ToTypes();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>* const& __cordl_internal_get_ToTypes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_ToTypes() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_ToTypes();
 
   constexpr void __cordl_internal_set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
@@ -225,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_ToTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x4aaefa8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b138b8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -244,6 +241,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BindInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BindInfo(BindInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12283 };
 
   /// @brief Field MarkAsCreationBinding, offset: 0x10, size: 0x1, def value: None
   bool ___MarkAsCreationBinding;
@@ -299,14 +299,9 @@ public:
   /// @brief Field InstantiatedCallback, offset: 0x78, size: 0x8, def value: None
   ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* ___InstantiatedCallback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12250 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::BindInfo, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::BindInfo, ___MarkAsCreationBinding) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::BindInfo, ___MarkAsUniqueSingleton) == 0x11, "Offset mismatch!");
@@ -342,6 +337,8 @@ static_assert(offsetof(::Zenject::BindInfo, ___Scope) == 0x68, "Offset mismatch!
 static_assert(offsetof(::Zenject::BindInfo, ___Arguments) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::BindInfo, ___InstantiatedCallback) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::BindInfo, 0x80>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::BindInfo);

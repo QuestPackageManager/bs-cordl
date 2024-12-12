@@ -20,19 +20,18 @@ class HEU_ReloadEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ReloadEventData);
-// Type: HoudiniEngineUnity::HEU_ReloadEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_AssetEventData
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_ReloadEventData*
+// CS Name: HoudiniEngineUnity.HEU_ReloadEventData
 class CORDL_TYPE HEU_ReloadEventData : public ::HoudiniEngineUnity::HEU_AssetEventData {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_ReloadEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+                                                                    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
-  /// @brief Method .ctor, addr 0x39afa4c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+  /// @brief Method .ctor, addr 0x3a066bc, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
 protected:
   // Ctor Parameters []
@@ -49,7 +48,7 @@ public:
   HEU_ReloadEventData(HEU_ReloadEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

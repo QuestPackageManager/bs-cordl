@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Subdivision)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -24,19 +23,18 @@ class Subdivision;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::Subdivision);
-// Type: UnityEngine.ProBuilder.MeshOperations::Subdivision
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.MeshOperations::Subdivision*
+// CS Name: UnityEngine.ProBuilder.MeshOperations.Subdivision
 class CORDL_TYPE Subdivision : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Subdivide, addr 0x471fa2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x4780d40, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Subdivide, addr 0x471f974, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x4780c88, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb);
 
 protected:
@@ -54,7 +52,7 @@ public:
   Subdivision(Subdivision const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

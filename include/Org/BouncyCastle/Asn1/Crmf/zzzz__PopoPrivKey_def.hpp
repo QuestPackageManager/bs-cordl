@@ -4,6 +4,7 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PopoPrivKey)
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -18,20 +19,16 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoPrivKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey);
-// Type: Org.BouncyCastle.Asn1.Crmf::PopoPrivKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Crmf::PopoPrivKey*
+// CS Name: Org.BouncyCastle.Asn1.Crmf.PopoPrivKey
 class CORDL_TYPE PopoPrivKey : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -48,19 +45,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x22e0354, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2313640, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* New_ctor(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method ToAsn1Object, addr 0x22e0410, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23136fc, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_obj() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_obj() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj();
 
   constexpr int32_t const& __cordl_internal_get_tagNo() const;
 
@@ -70,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22e03d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23136bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
-  /// @brief Method .ctor, addr 0x22e00c8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23133b4, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method get_Type, addr 0x22e0400, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x23136ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Value, addr 0x22e0408, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x23136f4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -99,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PopoPrivKey(PopoPrivKey const&) = delete;
 
-  /// @brief Field tagNo, offset: 0x10, size: 0x4, def value: None
-  int32_t ___tagNo;
-
-  /// @brief Field obj, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___obj;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 118 };
 
@@ -123,14 +114,20 @@ public:
   /// @brief Field thisMessage offset 0xffffffff size 0x4
   static constexpr int32_t thisMessage{ static_cast<int32_t>(0x0) };
 
+  /// @brief Field tagNo, offset: 0x10, size: 0x4, def value: None
+  int32_t ___tagNo;
+
+  /// @brief Field obj, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___obj;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey, ___tagNo) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey, ___obj) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey);

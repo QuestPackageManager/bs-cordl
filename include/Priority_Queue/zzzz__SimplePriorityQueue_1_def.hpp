@@ -18,13 +18,12 @@ template <typename TItem> class SimplePriorityQueue_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Priority_Queue::SimplePriorityQueue_1);
-// Type: Priority_Queue::SimplePriorityQueue`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Priority_Queue.SimplePriorityQueue`2<TItem, TPriority>
 namespace Priority_Queue {
 // cpp template
 template <typename TItem>
 // Is value type: false
-// CS Name: ::Priority_Queue::SimplePriorityQueue`1<TItem>*
+// CS Name: Priority_Queue.SimplePriorityQueue`1<TItem>
 class CORDL_TYPE SimplePriorityQueue_1 : public ::Priority_Queue::SimplePriorityQueue_2<TItem, float_t> {
 public:
   // Declarations
@@ -58,7 +57,7 @@ public:
   SimplePriorityQueue_1(SimplePriorityQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

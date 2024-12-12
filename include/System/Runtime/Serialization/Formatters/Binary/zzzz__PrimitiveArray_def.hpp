@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -22,11 +21,10 @@ class PrimitiveArray;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray);
-// Type: System.Runtime.Serialization.Formatters.Binary::PrimitiveArray
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::PrimitiveArray*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
 class CORDL_TYPE PrimitiveArray : public ::System::Object {
 public:
   // Declarations
@@ -66,13 +64,13 @@ public:
   /// @brief Field uint64A, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_uint64A, put = __cordl_internal_set_uint64A)) ::ArrayW<uint64_t, ::Array<uint64_t>*> uint64A;
 
-  /// @brief Method Init, addr 0x3cb2270, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d123e4, size 0x320, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                                ::System::Array* array);
 
-  /// @brief Method SetValue, addr 0x3caa804, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3d0a978, size 0x400, virtual false, abstract: false, final false
   inline void SetValue(::StringW value, int32_t index);
 
   constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_booleanA() const;
@@ -147,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_uint64A(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3ca9ef8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0a06c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
 protected:
@@ -163,6 +161,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PrimitiveArray", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PrimitiveArray(PrimitiveArray const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3299 };
 
   /// @brief Field code, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ___code;
@@ -200,14 +201,9 @@ public:
   /// @brief Field uint64A, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<uint64_t, ::Array<uint64_t>*> ___uint64A;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3299 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, ___code) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, ___booleanA) == 0x18, "Offset mismatch!");
@@ -231,6 +227,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Pri
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, ___uint32A) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, ___uint64A) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray, 0x70>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray);

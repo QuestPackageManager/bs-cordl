@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedGenerator_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedDataStreamGenerator)
@@ -22,10 +21,10 @@ namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedGenerator;
+class CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream;
 }
 namespace Org::BouncyCastle::Cms {
-class __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
+class CmsEnvelopedGenerator;
 }
 namespace Org::BouncyCastle::Crypto::IO {
 class CipherStream;
@@ -50,17 +49,16 @@ namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedDataStreamGenerator;
 }
 namespace Org::BouncyCastle::Cms {
-class __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
+class CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator);
-MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream);
-// Type: ::CmsEnvelopedDataOutputStream
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream);
+// Dependencies Org.BouncyCastle.Utilities.IO.BaseOutputStream
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::CmsEnvelopedDataStreamGenerator::CmsEnvelopedDataOutputStream*
-class CORDL_TYPE __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+// CS Name: Org.BouncyCastle.Cms.CmsEnvelopedDataStreamGenerator/CmsEnvelopedDataOutputStream
+class CORDL_TYPE CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field _cGen, offset 0x40, size 0x8
@@ -78,38 +76,38 @@ public:
   /// @brief Field _outer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__outer, put = __cordl_internal_set__outer)) ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* _outer;
 
-  /// @brief Method Close, addr 0x2622308, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x26555f4, size 0x1dc, virtual true, abstract: false, final false
   inline void Close();
 
-  static inline ::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream*
+  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream*
   New_ctor(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* outer, ::Org::BouncyCastle::Crypto::IO::CipherStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
            ::Org::BouncyCastle::Asn1::BerSequenceGenerator* envGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method Write, addr 0x26222e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x26555d0, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x26222c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x26555ac, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
+
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator* const& __cordl_internal_get__cGen() const;
 
   constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__cGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__cGen() const;
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator* const& __cordl_internal_get__eiGen() const;
 
   constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__eiGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__eiGen() const;
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator* const& __cordl_internal_get__envGen() const;
 
   constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__envGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__envGen() const;
+  constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream* const& __cordl_internal_get__out() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __cordl_internal_get__out();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __cordl_internal_get__out() const;
+  constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* const& __cordl_internal_get__outer() const;
 
   constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator*& __cordl_internal_get__outer();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsEnvelopedGenerator*> const& __cordl_internal_get__outer() const;
 
   constexpr void __cordl_internal_set__cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
@@ -121,23 +119,26 @@ public:
 
   constexpr void __cordl_internal_set__outer(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* value);
 
-  /// @brief Method .ctor, addr 0x2622270, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265555c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* outer, ::Org::BouncyCastle::Crypto::IO::CipherStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* envGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream();
+  constexpr CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream&&) = delete;
+  CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream(CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream const&) = delete;
+  CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream(CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 636 };
 
   /// @brief Field _outer, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* ____outer;
@@ -154,34 +155,30 @@ public:
   /// @brief Field _eiGen, offset: 0x50, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::BerSequenceGenerator* ____eiGen;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 636 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, 0x58>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream, ____outer) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, ____outer) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream, ____out) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, ____out) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream, ____cGen) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, ____cGen) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream, ____envGen) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, ____envGen) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream, ____eiGen) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream, ____eiGen) == 0x50, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream, 0x58>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
-// Type: Org.BouncyCastle.Cms::CmsEnvelopedDataStreamGenerator
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Cms.CmsEnvelopedGenerator
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedDataStreamGenerator*
+// CS Name: Org.BouncyCastle.Cms.CmsEnvelopedDataStreamGenerator
 class CORDL_TYPE CmsEnvelopedDataStreamGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
 public:
   // Declarations
-  using CmsEnvelopedDataOutputStream = ::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
+  using CmsEnvelopedDataOutputStream = ::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream;
 
   __declspec(property(get = get_Version)) ::Org::BouncyCastle::Asn1::DerInteger* Version;
 
@@ -201,23 +198,23 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method Open, addr 0x2621890, size 0x82c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2654b7c, size 0x82c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encAlgID, ::Org::BouncyCastle::Crypto::ICipherParameters* cipherParameters,
                                     ::Org::BouncyCastle::Asn1::Asn1EncodableVector* recipientInfos);
 
-  /// @brief Method Open, addr 0x26220bc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x26553a8, size 0xd8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW encryptionOid);
 
-  /// @brief Method Open, addr 0x262128c, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2654578, size 0x604, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW encryptionOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Open, addr 0x2622194, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2655480, size 0xdc, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW encryptionOid, int32_t keySize);
 
-  /// @brief Method SetBerEncodeRecipients, addr 0x2621208, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetBerEncodeRecipients, addr 0x26544f4, size 0xc, virtual false, abstract: false, final false
   inline void SetBerEncodeRecipients(bool berEncodeRecipientSet);
 
-  /// @brief Method SetBufferSize, addr 0x2621200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBufferSize, addr 0x26544ec, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
   constexpr bool const& __cordl_internal_get__berEncodeRecipientSet() const;
@@ -228,13 +225,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__bufferSize();
 
+  constexpr ::System::Object* const& __cordl_internal_get__originatorInfo() const;
+
   constexpr ::System::Object*& __cordl_internal_get__originatorInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__originatorInfo() const;
+  constexpr ::System::Object* const& __cordl_internal_get__unprotectedAttributes() const;
 
   constexpr ::System::Object*& __cordl_internal_get__unprotectedAttributes();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__unprotectedAttributes() const;
 
   constexpr void __cordl_internal_set__berEncodeRecipientSet(bool value);
 
@@ -244,13 +241,13 @@ public:
 
   constexpr void __cordl_internal_set__unprotectedAttributes(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2621140, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265442c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2621198, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2654484, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method get_Version, addr 0x2621214, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2654500, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
@@ -267,6 +264,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsEnvelopedDataStreamGenerator(CmsEnvelopedDataStreamGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 637 };
+
   /// @brief Field _originatorInfo, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____originatorInfo;
 
@@ -279,14 +279,9 @@ public:
   /// @brief Field _berEncodeRecipientSet, offset: 0x3c, size: 0x1, def value: None
   bool ____berEncodeRecipientSet;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 637 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator, ____originatorInfo) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator, ____unprotectedAttributes) == 0x30, "Offset mismatch!");
@@ -295,9 +290,10 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator, ____berEncodeRecipientSet) == 0x3c, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator, 0x40>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator*, "Org.BouncyCastle.Cms", "CmsEnvelopedDataStreamGenerator");
-NEED_NO_BOX(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream*, "Org.BouncyCastle.Cms",
-                       "CmsEnvelopedDataStreamGenerator/CmsEnvelopedDataOutputStream");
+NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream*, "Org.BouncyCastle.Cms", "CmsEnvelopedDataStreamGenerator/CmsEnvelopedDataOutputStream");

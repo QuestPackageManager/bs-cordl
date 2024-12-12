@@ -20,24 +20,23 @@ class DataUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Sprites::DataUtility);
-// Type: UnityEngine.Sprites::DataUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Sprites {
 // Is value type: false
-// CS Name: ::UnityEngine.Sprites::DataUtility*
+// CS Name: UnityEngine.Sprites.DataUtility
 class CORDL_TYPE DataUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInnerUV, addr 0x485983c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetInnerUV, addr 0x48babc8, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetMinSize, addr 0x485986c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetMinSize, addr 0x48babf8, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetOuterUV, addr 0x485984c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetOuterUV, addr 0x48babd8, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetPadding, addr 0x485985c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x48babe8, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite);
 
 protected:
@@ -55,7 +54,7 @@ public:
   DataUtility(DataUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

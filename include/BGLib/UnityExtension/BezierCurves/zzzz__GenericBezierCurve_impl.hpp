@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22832e0;
+  constexpr static std::size_t addrs = 0x22b65cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::UnityExtension::BezierCurves::CurveData (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::GetBezierCurveData)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x22832e8;
+  constexpr static std::size_t addrs = 0x22b65d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)(
     ::BGLib::UnityExtension::BezierCurves::CurveData)>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::SetBezierCurveData)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x22834ac;
+  constexpr static std::size_t addrs = 0x22b6798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2283668;
+  constexpr static std::size_t addrs = 0x22b6954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,13 +85,13 @@ inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurve::SetBezierCu
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurve*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurve* BGLib::UnityExtension::BezierCurves::GenericBezierCurve::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::BezierCurves::GenericBezierCurve*>());
-}
 inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurve::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurve*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurve* BGLib::UnityExtension::BezierCurves::GenericBezierCurve::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::BezierCurves::GenericBezierCurve*>());
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::GenericBezierCurve() {}

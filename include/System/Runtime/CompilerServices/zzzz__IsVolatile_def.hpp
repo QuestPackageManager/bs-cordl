@@ -11,11 +11,10 @@ class IsVolatile;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::IsVolatile);
-// Type: System.Runtime.CompilerServices::IsVolatile
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::IsVolatile*
+// CS Name: System.Runtime.CompilerServices.IsVolatile
 class CORDL_TYPE IsVolatile : public ::System::Object {
 public:
   // Declarations

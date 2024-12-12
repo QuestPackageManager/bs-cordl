@@ -14,11 +14,10 @@ class ProxyElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::ProxyElement);
-// Type: System.Net.Configuration::ProxyElement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.ConfigurationElement
 namespace System::Net::Configuration {
 // Is value type: false
-// CS Name: ::System.Net.Configuration::ProxyElement*
+// CS Name: System.Net.Configuration.ProxyElement
 class CORDL_TYPE ProxyElement : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
@@ -26,10 +25,10 @@ public:
 
   static inline ::System::Net::Configuration::ProxyElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a49f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4405d0c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x43a4a30, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x4405d44, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -47,7 +46,7 @@ public:
   ProxyElement(ProxyElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

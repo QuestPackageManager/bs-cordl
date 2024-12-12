@@ -12,13 +12,12 @@ template <typename T> class FixedUpdateSmoothValue_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::FixedUpdateSmoothValue_1);
-// Type: ::FixedUpdateSmoothValue`1
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::FixedUpdateSmoothValue`1<T>*
+// CS Name: FixedUpdateSmoothValue`1<T>
 class CORDL_TYPE FixedUpdateSmoothValue_1 : public ::System::Object {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValue(float_t interpolationFactor);
 
-  /// @brief Method Interpolate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Interpolate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T Interpolate(T value0, T value1, float_t t);
 
   static inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* New_ctor(float_t smooth);
@@ -80,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixedUpdateSmoothValue_1(FixedUpdateSmoothValue_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16385 };
+
   /// @brief Field _currentSmoothedValue, offset: 0x10, size: 0x8, def value: None
   T ____currentSmoothedValue;
 
@@ -88,9 +90,6 @@ public:
 
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

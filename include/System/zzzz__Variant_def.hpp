@@ -9,23 +9,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Variant)
-namespace System {
-struct BRECORD;
-}
-namespace System {
-struct IntPtr;
-}
 // Forward declare root types
 namespace System {
 struct Variant;
 }
 // Write type traits
 MARK_VAL_T(::System::Variant);
-// Type: System::Variant
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.BRECORD, System.IntPtr
 namespace System {
 // Is value type: true
-// CS Name: ::System::Variant
+// CS Name: System.Variant
 struct CORDL_TYPE Variant {
 public:
   // Declarations
@@ -89,7 +82,7 @@ public:
   /// @brief Field wReserved3, offset 0x6, size 0x2
   __declspec(property(get = __cordl_internal_get_wReserved3, put = __cordl_internal_set_wReserved3)) uint16_t wReserved3;
 
-  /// @brief Method Clear, addr 0x3de3e0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3e43eb8, size 0x74, virtual false, abstract: false, final false
   inline void Clear();
 
   constexpr ::System::BRECORD const& __cordl_internal_get_bRecord() const;

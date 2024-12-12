@@ -17,32 +17,31 @@ class EventCallbackListPool;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackListPool);
-// Type: UnityEngine.UIElements::EventCallbackListPool
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::EventCallbackListPool*
+// CS Name: UnityEngine.UIElements.EventCallbackListPool
 class CORDL_TYPE EventCallbackListPool : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Stack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack)) ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* m_Stack;
 
-  /// @brief Method Get, addr 0x49c09bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4a252cc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer);
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* New_ctor();
 
-  /// @brief Method Release, addr 0x49c0d18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4a25628, size 0x64, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::EventCallbackList* element);
+
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* const& __cordl_internal_get_m_Stack() const;
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*& __cordl_internal_get_m_Stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*> const& __cordl_internal_get_m_Stack() const;
-
   constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* value);
 
-  /// @brief Method .ctor, addr 0x49c0de8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a256f8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventCallbackListPool(EventCallbackListPool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5813 };
+
   /// @brief Field m_Stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* ___m_Stack;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackListPool, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::EventCallbackListPool, ___m_Stack) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackListPool, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackListPool);

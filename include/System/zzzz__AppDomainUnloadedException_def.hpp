@@ -17,11 +17,10 @@ class AppDomainUnloadedException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::AppDomainUnloadedException);
-// Type: System::AppDomainUnloadedException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System {
 // Is value type: false
-// CS Name: ::System::AppDomainUnloadedException*
+// CS Name: System.AppDomainUnloadedException
 class CORDL_TYPE AppDomainUnloadedException : public ::System::SystemException {
 public:
   // Declarations
@@ -29,10 +28,10 @@ public:
 
   static inline ::System::AppDomainUnloadedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3daba14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0bac0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3daba6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0bb18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

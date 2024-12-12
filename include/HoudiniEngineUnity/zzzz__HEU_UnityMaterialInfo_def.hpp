@@ -13,11 +13,10 @@ class HEU_UnityMaterialInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
-// Type: HoudiniEngineUnity::HEU_UnityMaterialInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_UnityMaterialInfo*
+// CS Name: HoudiniEngineUnity.HEU_UnityMaterialInfo
 class CORDL_TYPE HEU_UnityMaterialInfo : public ::System::Object {
 public:
   // Declarations
@@ -50,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__unityMaterialPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a01d0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5897c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
 protected:
@@ -67,6 +66,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_UnityMaterialInfo(HEU_UnityMaterialInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11762 };
+
   /// @brief Field _unityMaterialPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____unityMaterialPath;
 
@@ -76,19 +78,16 @@ public:
   /// @brief Field _substanceIndex, offset: 0x20, size: 0x4, def value: None
   int32_t ____substanceIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11729 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_UnityMaterialInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____unityMaterialPath) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____substancePath) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____substanceIndex) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_UnityMaterialInfo, 0x28>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_UnityMaterialInfo);

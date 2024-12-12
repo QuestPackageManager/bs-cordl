@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StandardLevelReturnToMenuController.hpp"
+#include "GlobalNamespace/zzzz__IReturnToMenuController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelReturnToMenuController_def.hpp"
-#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelReturnToMenuController.ReturnToMenu
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(
     &::GlobalNamespace::StandardLevelReturnToMenuController::ReturnToMenu)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b4d13c;
+  constexpr static std::size_t addrs = 0x3baeb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelReturnToMenuController*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(
     &::GlobalNamespace::StandardLevelReturnToMenuController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4d17c;
+  constexpr static std::size_t addrs = 0x3baeb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelReturnToMenuController*>::get(),
@@ -33,14 +33,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
-constexpr GlobalNamespace::StandardLevelReturnToMenuController::operator ::GlobalNamespace::IReturnToMenuController*() noexcept {
-  return static_cast<::GlobalNamespace::IReturnToMenuController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
-constexpr ::GlobalNamespace::IReturnToMenuController* GlobalNamespace::StandardLevelReturnToMenuController::i___GlobalNamespace__IReturnToMenuController() noexcept {
-  return static_cast<::GlobalNamespace::IReturnToMenuController*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& GlobalNamespace::StandardLevelReturnToMenuController::__cordl_internal_get__standardLevelSceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardLevelSceneSetupData;
@@ -70,13 +62,21 @@ inline void GlobalNamespace::StandardLevelReturnToMenuController::ReturnToMenu()
                                                                              "ReturnToMenu", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::StandardLevelReturnToMenuController* GlobalNamespace::StandardLevelReturnToMenuController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelReturnToMenuController*>());
-}
 inline void GlobalNamespace::StandardLevelReturnToMenuController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelReturnToMenuController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::StandardLevelReturnToMenuController* GlobalNamespace::StandardLevelReturnToMenuController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelReturnToMenuController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
+constexpr GlobalNamespace::StandardLevelReturnToMenuController::operator ::GlobalNamespace::IReturnToMenuController*() noexcept {
+  return static_cast<::GlobalNamespace::IReturnToMenuController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
+constexpr ::GlobalNamespace::IReturnToMenuController* GlobalNamespace::StandardLevelReturnToMenuController::i___GlobalNamespace__IReturnToMenuController() noexcept {
+  return static_cast<::GlobalNamespace::IReturnToMenuController*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelReturnToMenuController::StandardLevelReturnToMenuController() {}

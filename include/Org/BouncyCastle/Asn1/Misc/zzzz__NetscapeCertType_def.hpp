@@ -16,11 +16,10 @@ class NetscapeCertType;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Misc::NetscapeCertType);
-// Type: Org.BouncyCastle.Asn1.Misc::NetscapeCertType
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerBitString
 namespace Org::BouncyCastle::Asn1::Misc {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Misc::NetscapeCertType*
+// CS Name: Org.BouncyCastle.Asn1.Misc.NetscapeCertType
 class CORDL_TYPE NetscapeCertType : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
@@ -28,13 +27,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(int32_t usage);
 
-  /// @brief Method ToString, addr 0x23cd854, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2400b40, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x23cd7c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2400aac, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor, addr 0x23cd758, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2400a44, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:

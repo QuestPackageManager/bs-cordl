@@ -3,17 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__CubemapCapture_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CubemapCapture)
 namespace GlobalNamespace {
-struct __CubemapCapture__ImageType;
+struct CubemapCapture_ImageType;
 }
 namespace UnityEngine {
 class Camera;
@@ -32,26 +30,25 @@ struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __CubemapCapture__ImageType;
+struct CubemapCapture_ImageType;
 }
 namespace GlobalNamespace {
 class CubemapCapture;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__CubemapCapture__ImageType);
+MARK_VAL_T(::GlobalNamespace::CubemapCapture_ImageType);
 MARK_REF_PTR_T(::GlobalNamespace::CubemapCapture);
-// Type: ::ImageType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::CubemapCapture::ImageType
-struct CORDL_TYPE __CubemapCapture__ImageType {
+// CS Name: CubemapCapture/ImageType
+struct CORDL_TYPE CubemapCapture_ImageType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____CubemapCapture__ImageType_Unwrapped
-  enum struct ____CubemapCapture__ImageType_Unwrapped : int32_t {
+  /// @brief Nested struct __CubemapCapture_ImageType_Unwrapped
+  enum struct __CubemapCapture_ImageType_Unwrapped : int32_t {
     __E_PNG = static_cast<int32_t>(0x0),
     __E_JPEG = static_cast<int32_t>(0x1),
     __E_TGA = static_cast<int32_t>(0x2),
@@ -59,8 +56,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____CubemapCapture__ImageType_Unwrapped() const noexcept {
-    return static_cast<____CubemapCapture__ImageType_Unwrapped>(this->value__);
+  constexpr operator __CubemapCapture_ImageType_Unwrapped() const noexcept {
+    return static_cast<__CubemapCapture_ImageType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -70,49 +67,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CubemapCapture__ImageType();
+  constexpr CubemapCapture_ImageType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CubemapCapture__ImageType(int32_t value__) noexcept;
+  constexpr CubemapCapture_ImageType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field EXR value: I32(3)
+  static ::GlobalNamespace::CubemapCapture_ImageType const EXR;
 
-  /// @brief Field EXR value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__CubemapCapture__ImageType const EXR;
+  /// @brief Field JPEG value: I32(1)
+  static ::GlobalNamespace::CubemapCapture_ImageType const JPEG;
 
-  /// @brief Field JPEG value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__CubemapCapture__ImageType const JPEG;
+  /// @brief Field PNG value: I32(0)
+  static ::GlobalNamespace::CubemapCapture_ImageType const PNG;
 
-  /// @brief Field PNG value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__CubemapCapture__ImageType const PNG;
-
-  /// @brief Field TGA value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__CubemapCapture__ImageType const TGA;
+  /// @brief Field TGA value: I32(2)
+  static ::GlobalNamespace::CubemapCapture_ImageType const TGA;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CubemapCapture__ImageType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::CubemapCapture_ImageType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CubemapCapture__ImageType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CubemapCapture_ImageType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::CubemapCapture
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies CubemapCapture::ImageType, UnityEngine.InputSystem.Key, UnityEngine.MonoBehaviour, UnityEngine.Texture2D::EXRFlags
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CubemapCapture*
+// CS Name: CubemapCapture
 class CORDL_TYPE CubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using ImageType = ::GlobalNamespace::__CubemapCapture__ImageType;
+  using ImageType = ::GlobalNamespace::CubemapCapture_ImageType;
 
   /// @brief Field _camera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
@@ -121,7 +117,7 @@ public:
   __declspec(property(get = __cordl_internal_get__cubemapSize, put = __cordl_internal_set__cubemapSize)) int32_t _cubemapSize;
 
   /// @brief Field _exrFlags, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__exrFlags, put = __cordl_internal_set__exrFlags)) ::UnityEngine::__Texture2D__EXRFlags _exrFlags;
+  __declspec(property(get = __cordl_internal_get__exrFlags, put = __cordl_internal_set__exrFlags)) ::UnityEngine::Texture2D_EXRFlags _exrFlags;
 
   /// @brief Field _faceAngles, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__faceAngles, put = __cordl_internal_set__faceAngles)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _faceAngles;
@@ -130,7 +126,7 @@ public:
   __declspec(property(get = __cordl_internal_get__faces, put = __cordl_internal_set__faces)) ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> _faces;
 
   /// @brief Field _imageType, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__imageType, put = __cordl_internal_set__imageType)) ::GlobalNamespace::__CubemapCapture__ImageType _imageType;
+  __declspec(property(get = __cordl_internal_get__imageType, put = __cordl_internal_set__imageType)) ::GlobalNamespace::CubemapCapture_ImageType _imageType;
 
   /// @brief Field _jpegCompression, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__jpegCompression, put = __cordl_internal_set__jpegCompression)) int32_t _jpegCompression;
@@ -141,21 +137,21 @@ public:
   /// @brief Field _triggerKey, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__triggerKey, put = __cordl_internal_set__triggerKey)) ::UnityEngine::InputSystem::Key _triggerKey;
 
-  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x3aaa644, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x3b075e4, size 0xb4, virtual false, abstract: false, final false
   inline void GenerateAndSaveCubemapTexture();
 
   static inline ::GlobalNamespace::CubemapCapture* New_ctor();
 
-  /// @brief Method RenderCubemapTexture, addr 0x3aaa6f8, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method RenderCubemapTexture, addr 0x3b07698, size 0x4b8, virtual false, abstract: false, final false
   inline void RenderCubemapTexture(::UnityEngine::Cubemap* cubemap);
 
-  /// @brief Method SaveCubemapTexture, addr 0x3aaabb0, size 0x7c0, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapTexture, addr 0x3b07b50, size 0x7c0, virtual false, abstract: false, final false
   inline void SaveCubemapTexture(::UnityEngine::Cubemap* cubemap, ::StringW path);
 
-  /// @brief Method SerializeTextureToByteArray, addr 0x3aab370, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SerializeTextureToByteArray, addr 0x3b08310, size 0xfc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeTextureToByteArray(::UnityEngine::Texture2D* texture);
 
-  /// @brief Method Update, addr 0x3aaa5c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b07564, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -166,9 +162,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__cubemapSize();
 
-  constexpr ::UnityEngine::__Texture2D__EXRFlags const& __cordl_internal_get__exrFlags() const;
+  constexpr ::UnityEngine::Texture2D_EXRFlags const& __cordl_internal_get__exrFlags() const;
 
-  constexpr ::UnityEngine::__Texture2D__EXRFlags& __cordl_internal_get__exrFlags();
+  constexpr ::UnityEngine::Texture2D_EXRFlags& __cordl_internal_get__exrFlags();
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__faceAngles() const;
 
@@ -178,9 +174,9 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*>& __cordl_internal_get__faces();
 
-  constexpr ::GlobalNamespace::__CubemapCapture__ImageType const& __cordl_internal_get__imageType() const;
+  constexpr ::GlobalNamespace::CubemapCapture_ImageType const& __cordl_internal_get__imageType() const;
 
-  constexpr ::GlobalNamespace::__CubemapCapture__ImageType& __cordl_internal_get__imageType();
+  constexpr ::GlobalNamespace::CubemapCapture_ImageType& __cordl_internal_get__imageType();
 
   constexpr int32_t const& __cordl_internal_get__jpegCompression() const;
 
@@ -198,13 +194,13 @@ public:
 
   constexpr void __cordl_internal_set__cubemapSize(int32_t value);
 
-  constexpr void __cordl_internal_set__exrFlags(::UnityEngine::__Texture2D__EXRFlags value);
+  constexpr void __cordl_internal_set__exrFlags(::UnityEngine::Texture2D_EXRFlags value);
 
   constexpr void __cordl_internal_set__faceAngles(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
   constexpr void __cordl_internal_set__faces(::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> value);
 
-  constexpr void __cordl_internal_set__imageType(::GlobalNamespace::__CubemapCapture__ImageType value);
+  constexpr void __cordl_internal_set__imageType(::GlobalNamespace::CubemapCapture_ImageType value);
 
   constexpr void __cordl_internal_set__jpegCompression(int32_t value);
 
@@ -212,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__triggerKey(::UnityEngine::InputSystem::Key value);
 
-  /// @brief Method .ctor, addr 0x3aab46c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0840c, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,6 +225,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CubemapCapture(CubemapCapture const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5016 };
+
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
@@ -242,13 +241,13 @@ public:
   ::StringW ____saveDirectoryAbsolutePath;
 
   /// @brief Field _imageType, offset: 0x38, size: 0x4, def value: None
-  ::GlobalNamespace::__CubemapCapture__ImageType ____imageType;
+  ::GlobalNamespace::CubemapCapture_ImageType ____imageType;
 
   /// @brief Field _jpegCompression, offset: 0x3c, size: 0x4, def value: None
   int32_t ____jpegCompression;
 
   /// @brief Field _exrFlags, offset: 0x40, size: 0x4, def value: None
-  ::UnityEngine::__Texture2D__EXRFlags ____exrFlags;
+  ::UnityEngine::Texture2D_EXRFlags ____exrFlags;
 
   /// @brief Field _faces, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> ____faces;
@@ -256,14 +255,9 @@ public:
   /// @brief Field _faceAngles, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____faceAngles;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4996 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CubemapCapture, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CubemapCapture, ____camera) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CubemapCapture, ____triggerKey) == 0x28, "Offset mismatch!");
@@ -282,7 +276,9 @@ static_assert(offsetof(::GlobalNamespace::CubemapCapture, ____faces) == 0x48, "O
 
 static_assert(offsetof(::GlobalNamespace::CubemapCapture, ____faceAngles) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CubemapCapture, 0x58>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CubemapCapture__ImageType, "", "CubemapCapture/ImageType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CubemapCapture_ImageType, "", "CubemapCapture/ImageType");
 NEED_NO_BOX(::GlobalNamespace::CubemapCapture);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CubemapCapture*, "", "CubemapCapture");

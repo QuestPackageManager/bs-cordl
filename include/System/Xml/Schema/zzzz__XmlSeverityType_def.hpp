@@ -12,11 +12,10 @@ struct XmlSeverityType;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::XmlSeverityType);
-// Type: System.Xml.Schema::XmlSeverityType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::System.Xml.Schema::XmlSeverityType
+// CS Name: System.Xml.Schema.XmlSeverityType
 struct CORDL_TYPE XmlSeverityType {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr XmlSeverityType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Error value: static_cast<int32_t>(0x0)
+  /// @brief Field Error value: I32(0)
   static ::System::Xml::Schema::XmlSeverityType const Error;
 
-  /// @brief Field Warning value: static_cast<int32_t>(0x1)
+  /// @brief Field Warning value: I32(1)
   static ::System::Xml::Schema::XmlSeverityType const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSeverityType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSeverityType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSeverityType, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSeverityType, "System.Xml.Schema", "XmlSeverityType");

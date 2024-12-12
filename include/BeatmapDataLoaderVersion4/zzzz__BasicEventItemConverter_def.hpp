@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BasicEventItemConverter)
 namespace BeatmapDataLoaderVersion4 {
 class SpecialEventsFilter;
@@ -33,11 +32,10 @@ class BasicEventItemConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::BasicEventItemConverter);
-// Type: BeatmapDataLoaderVersion4::BasicEventItemConverter
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatToTimeConverter
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapDataLoaderVersion4::BasicEventItemConverter*
+// CS Name: BeatmapDataLoaderVersion4.BasicEventItemConverter
 class CORDL_TYPE BasicEventItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
@@ -52,7 +50,7 @@ public:
   /// @brief Field _specialEventsFilter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__specialEventsFilter, put = __cordl_internal_set__specialEventsFilter)) ::BeatmapDataLoaderVersion4::SpecialEventsFilter* _specialEventsFilter;
 
-  /// @brief Method Convert, addr 0x26d8218, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x2709dd8, size 0x14c, virtual false, abstract: false, final false
   inline void Convert(::BeatmapSaveDataVersion4::BeatIndex* index, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   static inline ::BeatmapDataLoaderVersion4::BasicEventItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents,
@@ -64,13 +62,13 @@ public:
 
   constexpr ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*>& __cordl_internal_get__basicEvents();
 
+  constexpr ::GlobalNamespace::IBeatmapLightEventConverter* const& __cordl_internal_get__lightEventConverter() const;
+
   constexpr ::GlobalNamespace::IBeatmapLightEventConverter*& __cordl_internal_get__lightEventConverter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLightEventConverter*> const& __cordl_internal_get__lightEventConverter() const;
+  constexpr ::BeatmapDataLoaderVersion4::SpecialEventsFilter* const& __cordl_internal_get__specialEventsFilter() const;
 
   constexpr ::BeatmapDataLoaderVersion4::SpecialEventsFilter*& __cordl_internal_get__specialEventsFilter();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapDataLoaderVersion4::SpecialEventsFilter*> const& __cordl_internal_get__specialEventsFilter() const;
 
   constexpr void __cordl_internal_set__basicEvents(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> value);
 
@@ -78,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__specialEventsFilter(::BeatmapDataLoaderVersion4::SpecialEventsFilter* value);
 
-  /// @brief Method .ctor, addr 0x26d81ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2709d6c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents, ::BeatmapDataLoaderVersion4::SpecialEventsFilter* specialEventsFilter,
                     ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
@@ -96,6 +94,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicEventItemConverter(BasicEventItemConverter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13480 };
+
   /// @brief Field _basicEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> ____basicEvents;
 
@@ -105,19 +106,16 @@ public:
   /// @brief Field _lightEventConverter, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLightEventConverter* ____lightEventConverter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13447 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::BasicEventItemConverter, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapDataLoaderVersion4::BasicEventItemConverter, ____basicEvents) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapDataLoaderVersion4::BasicEventItemConverter, ____specialEventsFilter) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapDataLoaderVersion4::BasicEventItemConverter, ____lightEventConverter) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::BasicEventItemConverter, 0x30>, "Size mismatch!");
 
 } // namespace BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::BasicEventItemConverter);

@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::Awake)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3acc6d8;
+  constexpr static std::size_t addrs = 0x3b2bd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(), "Awake",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::OnDestroy)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3acc974;
+  constexpr static std::size_t addrs = 0x3b2bfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(), "OnDestroy",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::RichPresenceManager::HandleLobbyGameStateModelDidChange)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3accbc8;
+  constexpr static std::size_t addrs = 0x3b2c20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::SetMenuPresence)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3accbe4;
+  constexpr static std::size_t addrs = 0x3b2c228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(),
@@ -76,16 +76,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::RichPresenceManager.HandleGameScenesManagerTransitionDidFinish
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(
-    ::GlobalNamespace::__GameScenesManager__SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
-    &::GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
+        &::GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3accec0;
+  constexpr static std::size_t addrs = 0x3b2c504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(), "HandleGameScenesManagerTransitionDidFinish", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameScenesManager__SceneTransitionType>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameScenesManager_SceneTransitionType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(int32_t)>(
     &::GlobalNamespace::RichPresenceManager::HandleMultiplayerPartySizeChanged)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3acd288;
+  constexpr static std::size_t addrs = 0x3b2c8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(
     &::GlobalNamespace::RichPresenceManager::HandleLobbyPlayerPermissionChanged)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3acd45c;
+  constexpr static std::size_t addrs = 0x3b2caa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::IRichPresenceData*)>(
     &::GlobalNamespace::RichPresenceManager::SetPresence)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3acce14;
+  constexpr static std::size_t addrs = 0x3b2c458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::Clear)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3acd1e0;
+  constexpr static std::size_t addrs = 0x3b2c824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(), "Clear",
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acd5b4;
+  constexpr static std::size_t addrs = 0x3b2cbf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(), ".ctor",
@@ -230,7 +230,7 @@ constexpr ::GlobalNamespace::IRichPresencePlatformHandler*& GlobalNamespace::Ric
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____richPresencePlatformHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IRichPresencePlatformHandler*> const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__richPresencePlatformHandler() const {
+constexpr ::GlobalNamespace::IRichPresencePlatformHandler* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__richPresencePlatformHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____richPresencePlatformHandler;
 }
@@ -254,7 +254,7 @@ constexpr ::GlobalNamespace::LobbyGameStateModel*& GlobalNamespace::RichPresence
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyGameStateModel*> const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__lobbyGameStateModel() const {
+constexpr ::GlobalNamespace::LobbyGameStateModel* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__lobbyGameStateModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateModel;
 }
@@ -266,7 +266,7 @@ constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& GlobalNamespace::RichP
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unifiedNetworkPlayerModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnifiedNetworkPlayerModel*> const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__unifiedNetworkPlayerModel() const {
+constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__unifiedNetworkPlayerModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unifiedNetworkPlayerModel;
 }
@@ -278,7 +278,7 @@ constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& GlobalNamespace::Rich
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayerPermissionsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__lobbyPlayerPermissionsModel() const {
+constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__lobbyPlayerPermissionsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayerPermissionsModel;
 }
@@ -314,8 +314,7 @@ constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData*& GlobalNamespace::Ri
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____browsingMenusRichPresenceData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BrowsingMenusRichPresenceData*> const&
-GlobalNamespace::RichPresenceManager::__cordl_internal_get__browsingMenusRichPresenceData() const {
+constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__browsingMenusRichPresenceData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____browsingMenusRichPresenceData;
 }
@@ -327,8 +326,7 @@ constexpr ::GlobalNamespace::InMultiplayerRichPresenceData*& GlobalNamespace::Ri
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inMultiplayerRichPresenceData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::InMultiplayerRichPresenceData*> const&
-GlobalNamespace::RichPresenceManager::__cordl_internal_get__inMultiplayerRichPresenceData() const {
+constexpr ::GlobalNamespace::InMultiplayerRichPresenceData* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__inMultiplayerRichPresenceData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inMultiplayerRichPresenceData;
 }
@@ -340,8 +338,7 @@ constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData*& GlobalNamespace::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingCampaignRichPresenceData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayingCampaignRichPresenceData*> const&
-GlobalNamespace::RichPresenceManager::__cordl_internal_get__playingCampaignRichPresenceData() const {
+constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__playingCampaignRichPresenceData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingCampaignRichPresenceData;
 }
@@ -353,7 +350,7 @@ constexpr ::GlobalNamespace::PlayingTutorialPresenceData*& GlobalNamespace::Rich
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingTutorialPresenceData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayingTutorialPresenceData*> const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__playingTutorialPresenceData() const {
+constexpr ::GlobalNamespace::PlayingTutorialPresenceData* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__playingTutorialPresenceData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playingTutorialPresenceData;
 }
@@ -365,7 +362,7 @@ constexpr ::GlobalNamespace::IRichPresenceData*& GlobalNamespace::RichPresenceMa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPresenceData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IRichPresenceData*> const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__currentPresenceData() const {
+constexpr ::GlobalNamespace::IRichPresenceData* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__currentPresenceData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPresenceData;
 }
@@ -394,12 +391,12 @@ inline void GlobalNamespace::RichPresenceManager::SetMenuPresence() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType,
+inline void GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
                                                                                              ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
                                                                                              ::Zenject::DiContainer* diContainer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(), "HandleGameScenesManagerTransitionDidFinish", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameScenesManager__SceneTransitionType>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameScenesManager_SceneTransitionType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sceneTransitionType, scenesTransitionSetupData, diContainer);
@@ -427,13 +424,13 @@ inline void GlobalNamespace::RichPresenceManager::Clear() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::RichPresenceManager* GlobalNamespace::RichPresenceManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RichPresenceManager*>());
-}
 inline void GlobalNamespace::RichPresenceManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RichPresenceManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::RichPresenceManager* GlobalNamespace::RichPresenceManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RichPresenceManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RichPresenceManager::RichPresenceManager() {}

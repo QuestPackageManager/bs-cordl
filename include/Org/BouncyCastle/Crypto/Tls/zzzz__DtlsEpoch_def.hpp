@@ -18,11 +18,10 @@ class DtlsEpoch;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch);
-// Type: Org.BouncyCastle.Crypto.Tls::DtlsEpoch
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsEpoch*
+// CS Name: Org.BouncyCastle.Crypto.Tls.DtlsEpoch
 class CORDL_TYPE DtlsEpoch : public ::System::Object {
 public:
   // Declarations
@@ -46,22 +45,22 @@ public:
   /// @brief Field mSequenceNumber, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mSequenceNumber, put = __cordl_internal_set_mSequenceNumber)) int64_t mSequenceNumber;
 
-  /// @brief Method AllocateSequenceNumber, addr 0x23be084, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AllocateSequenceNumber, addr 0x23f1370, size 0xe8, virtual false, abstract: false, final false
   inline int64_t AllocateSequenceNumber();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* New_ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mCipher();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* const& __cordl_internal_get_mCipher() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipher*> const& __cordl_internal_get_mCipher() const;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mCipher();
 
   constexpr int32_t const& __cordl_internal_get_mEpoch() const;
 
   constexpr int32_t& __cordl_internal_get_mEpoch();
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow*& __cordl_internal_get_mReplayWindow();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* const& __cordl_internal_get_mReplayWindow() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow*> const& __cordl_internal_get_mReplayWindow() const;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow*& __cordl_internal_get_mReplayWindow();
 
   constexpr int64_t const& __cordl_internal_get_mSequenceNumber() const;
 
@@ -75,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set_mSequenceNumber(int64_t value);
 
-  /// @brief Method .ctor, addr 0x23bdf4c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f1238, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
 
-  /// @brief Method get_Cipher, addr 0x23be16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cipher, addr 0x23f1458, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* get_Cipher();
 
-  /// @brief Method get_Epoch, addr 0x23be174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Epoch, addr 0x23f1460, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Epoch();
 
-  /// @brief Method get_ReplayWindow, addr 0x23be17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReplayWindow, addr 0x23f1468, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* get_ReplayWindow();
 
-  /// @brief Method get_SequenceNumber, addr 0x23be184, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_SequenceNumber, addr 0x23f1470, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_SequenceNumber();
 
 protected:
@@ -104,6 +103,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DtlsEpoch(DtlsEpoch const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1225 };
+
   /// @brief Field mReplayWindow, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* ___mReplayWindow;
 
@@ -116,14 +118,9 @@ public:
   /// @brief Field mSequenceNumber, offset: 0x28, size: 0x8, def value: None
   int64_t ___mSequenceNumber;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1225 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, ___mReplayWindow) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, ___mEpoch) == 0x18, "Offset mismatch!");
@@ -131,6 +128,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, ___mEpoch) =
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, ___mCipher) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, ___mSequenceNumber) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch);

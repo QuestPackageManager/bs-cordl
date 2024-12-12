@@ -13,35 +13,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreateServerFormData)
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace GlobalNamespace {
-struct GameplayModifierMask;
-}
-namespace GlobalNamespace {
-struct GameplayServerControlSettings;
-}
-namespace GlobalNamespace {
-struct GameplayServerMode;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-struct SongSelectionMode;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 struct CreateServerFormData;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::CreateServerFormData);
-// Type: ::CreateServerFormData
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficultyMask, GameplayModifierMask, GameplayServerControlSettings, GameplayServerMode, SongPackMask, SongSelectionMode
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::CreateServerFormData
+// CS Name: CreateServerFormData
 struct CORDL_TYPE CreateServerFormData {
 public:
   // Declarations
@@ -58,6 +39,12 @@ public:
   constexpr CreateServerFormData(bool usePassword, ::StringW password, int32_t maxPlayers, bool allowInviteOthers, bool netDiscoverable, ::GlobalNamespace::BeatmapDifficultyMask difficulties,
                                  ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks, ::GlobalNamespace::GameplayServerMode gameplayServerMode,
                                  ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13084 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field usePassword, offset: 0x0, size: 0x1, def value: None
   bool usePassword;
@@ -92,17 +79,9 @@ public:
   /// @brief Field gameplayServerControlSettings, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13049 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormData, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CreateServerFormData, usePassword) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreateServerFormData, password) == 0x8, "Offset mismatch!");
@@ -124,6 +103,8 @@ static_assert(offsetof(::GlobalNamespace::CreateServerFormData, gameplayServerMo
 static_assert(offsetof(::GlobalNamespace::CreateServerFormData, songSelectionMode) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreateServerFormData, gameplayServerControlSettings) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormData, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");

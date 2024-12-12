@@ -12,20 +12,19 @@ class MultiColumnHeaderColumnMovePreview;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview);
-// Type: UnityEngine.UIElements.Internal::MultiColumnHeaderColumnMovePreview
-// SizeInfo { instance_size: 968, native_size: -1, calculated_instance_size: 968, calculated_native_size: 968, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements::Internal {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.Internal::MultiColumnHeaderColumnMovePreview*
+// CS Name: UnityEngine.UIElements.Internal.MultiColumnHeaderColumnMovePreview
 class CORDL_TYPE MultiColumnHeaderColumnMovePreview : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview* New_ctor();
 
-  /// @brief Method .ctor, addr 0x497b500, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49dfe10, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -47,7 +46,7 @@ public:
   MultiColumnHeaderColumnMovePreview(MultiColumnHeaderColumnMovePreview const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

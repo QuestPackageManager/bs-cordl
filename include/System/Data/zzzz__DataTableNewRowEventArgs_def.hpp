@@ -14,11 +14,10 @@ class DataTableNewRowEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataTableNewRowEventArgs);
-// Type: System.Data::DataTableNewRowEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::DataTableNewRowEventArgs*
+// CS Name: System.Data.DataTableNewRowEventArgs
 class CORDL_TYPE DataTableNewRowEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -27,13 +26,13 @@ public:
 
   static inline ::System::Data::DataTableNewRowEventArgs* New_ctor(::System::Data::DataRow* dataRow);
 
-  constexpr ::System::Data::DataRow*& __cordl_internal_get__Row_k__BackingField();
+  constexpr ::System::Data::DataRow* const& __cordl_internal_get__Row_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRow*> const& __cordl_internal_get__Row_k__BackingField() const;
+  constexpr ::System::Data::DataRow*& __cordl_internal_get__Row_k__BackingField();
 
   constexpr void __cordl_internal_set__Row_k__BackingField(::System::Data::DataRow* value);
 
-  /// @brief Method .ctor, addr 0x4107420, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4168734, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* dataRow);
 
 protected:
@@ -50,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DataTableNewRowEventArgs(DataTableNewRowEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11400 };
+
   /// @brief Field <Row>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataRow* ____Row_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::DataTableNewRowEventArgs, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::DataTableNewRowEventArgs, ____Row_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::DataTableNewRowEventArgs, 0x18>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::DataTableNewRowEventArgs);

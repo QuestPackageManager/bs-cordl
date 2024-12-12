@@ -10,30 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_AttributeInfo)
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeTypeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_StorageType;
-}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_AttributeInfo);
-// Type: HoudiniEngineUnity::HAPI_AttributeInfo
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_AttributeOwner, HoudiniEngineUnity.HAPI_AttributeTypeInfo, HoudiniEngineUnity.HAPI_StorageType
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_AttributeInfo
+// CS Name: HoudiniEngineUnity.HAPI_AttributeInfo
 struct CORDL_TYPE HAPI_AttributeInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x39f2354, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a48fc4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW ignored);
 
   // Ctor Parameters []
@@ -47,6 +37,12 @@ public:
   // None }]
   constexpr HAPI_AttributeInfo(bool exists, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ::HoudiniEngineUnity::HAPI_StorageType storage, ::HoudiniEngineUnity::HAPI_AttributeOwner originalOwner,
                                int32_t count, int32_t tupleSize, int64_t totalArrayElements, ::HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11723 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field exists, offset: 0x0, size: 0x1, def value: None
   bool exists;
@@ -72,17 +68,9 @@ public:
   /// @brief Field typeInfo, offset: 0x20, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11690 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_AttributeInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, exists) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, owner) == 0x4, "Offset mismatch!");
@@ -98,6 +86,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, tupleSize) == 0
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, totalArrayElements) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, typeInfo) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_AttributeInfo, 0x28>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_AttributeInfo, "HoudiniEngineUnity", "HAPI_AttributeInfo");

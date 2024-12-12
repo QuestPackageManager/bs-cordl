@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::KekRecipientInformation::*)(
     ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(&::Org::BouncyCastle::Cms::KekRecipientInformation::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2623d80;
+  constexpr static std::size_t addrs = 0x265706c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::KekRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KekRecipientInformation::GetContentStream)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x264282c;
+  constexpr static std::size_t addrs = 0x2675b18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,17 +42,13 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___info;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*> const& Org::BouncyCastle::Cms::KekRecipientInformation::__cordl_internal_get_info() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* const& Org::BouncyCastle::Cms::KekRecipientInformation::__cordl_internal_get_info() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___info;
 }
 constexpr void Org::BouncyCastle::Cms::KekRecipientInformation::__cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Cms::KekRecipientInformation* Org::BouncyCastle::Cms::KekRecipientInformation::New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info,
-                                                                                                                    ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::KekRecipientInformation*>(info, secureReadable));
 }
 inline void Org::BouncyCastle::Cms::KekRecipientInformation::_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -65,6 +61,10 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::KekReci
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::KekRecipientInformation*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cms::CmsTypedStream*, false>(this, ___internal_method, key);
+}
+inline ::Org::BouncyCastle::Cms::KekRecipientInformation* Org::BouncyCastle::Cms::KekRecipientInformation::New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info,
+                                                                                                                    ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::KekRecipientInformation*>(info, secureReadable));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::KekRecipientInformation::KekRecipientInformation() {}

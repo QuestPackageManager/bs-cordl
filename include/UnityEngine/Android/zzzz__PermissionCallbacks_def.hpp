@@ -15,11 +15,10 @@ class PermissionCallbacks;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Android::PermissionCallbacks);
-// Type: UnityEngine.Android::PermissionCallbacks
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AndroidJavaProxy
 namespace UnityEngine::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.Android::PermissionCallbacks*
+// CS Name: UnityEngine.Android.PermissionCallbacks
 class CORDL_TYPE PermissionCallbacks : public ::UnityEngine::AndroidJavaProxy {
 public:
   // Declarations
@@ -35,17 +34,17 @@ public:
 
   static inline ::UnityEngine::Android::PermissionCallbacks* New_ctor();
 
+  constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get_PermissionDenied() const;
+
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_PermissionDenied();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_PermissionDenied() const;
+  constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get_PermissionDeniedAndDontAskAgain() const;
 
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_PermissionDeniedAndDontAskAgain();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_PermissionDeniedAndDontAskAgain() const;
+  constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get_PermissionGranted() const;
 
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_PermissionGranted();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_PermissionGranted() const;
 
   constexpr void __cordl_internal_set_PermissionDenied(::System::Action_1<::StringW>* value);
 
@@ -53,34 +52,34 @@ public:
 
   constexpr void __cordl_internal_set_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x47e9410, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484a724, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_PermissionDenied, addr 0x47e9150, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionDenied, addr 0x484a464, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x47e92b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x484a5c4, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionGranted, addr 0x47e8ff0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionGranted, addr 0x484a304, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method onPermissionDenied, addr 0x47e9498, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method onPermissionDenied, addr 0x484a7ac, size 0x1c, virtual false, abstract: false, final false
   inline void onPermissionDenied(::StringW permissionName);
 
-  /// @brief Method onPermissionDeniedAndDontAskAgain, addr 0x47e94b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method onPermissionDeniedAndDontAskAgain, addr 0x484a7c8, size 0x24, virtual false, abstract: false, final false
   inline void onPermissionDeniedAndDontAskAgain(::StringW permissionName);
 
-  /// @brief Method onPermissionGranted, addr 0x47e947c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method onPermissionGranted, addr 0x484a790, size 0x1c, virtual false, abstract: false, final false
   inline void onPermissionGranted(::StringW permissionName);
 
-  /// @brief Method remove_PermissionDenied, addr 0x47e9200, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionDenied, addr 0x484a514, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x47e9360, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x484a674, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionGranted, addr 0x47e90a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionGranted, addr 0x484a3b4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
 protected:
@@ -97,6 +96,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PermissionCallbacks(PermissionCallbacks const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16774 };
+
   /// @brief Field PermissionGranted, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___PermissionGranted;
 
@@ -106,19 +108,16 @@ public:
   /// @brief Field PermissionDeniedAndDontAskAgain, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___PermissionDeniedAndDontAskAgain;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16736 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::PermissionCallbacks, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Android::PermissionCallbacks, ___PermissionGranted) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Android::PermissionCallbacks, ___PermissionDenied) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Android::PermissionCallbacks, ___PermissionDeniedAndDontAskAgain) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::PermissionCallbacks, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::Android
 NEED_NO_BOX(::UnityEngine::Android::PermissionCallbacks);

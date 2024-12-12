@@ -28,11 +28,10 @@ class LikeNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::LikeNode);
-// Type: System.Data::LikeNode
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.BinaryNode
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::LikeNode*
+// CS Name: System.Data.LikeNode
 class CORDL_TYPE LikeNode : public ::System::Data::BinaryNode {
 public:
   // Declarations
@@ -42,10 +41,10 @@ public:
   /// @brief Field _pattern, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__pattern, put = __cordl_internal_set__pattern)) ::StringW _pattern;
 
-  /// @brief Method AnalyzePattern, addr 0x4115334, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method AnalyzePattern, addr 0x4176648, size 0x2e0, virtual false, abstract: false, final false
   inline ::StringW AnalyzePattern(::StringW pat);
 
-  /// @brief Method Eval, addr 0x4114de0, size 0x554, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x41760f4, size 0x554, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
   static inline ::System::Data::LikeNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
@@ -62,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__pattern(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4114d9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41760b0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
 
 protected:
@@ -79,23 +78,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LikeNode(LikeNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11417 };
+
   /// @brief Field _kind, offset: 0x30, size: 0x4, def value: None
   int32_t ____kind;
 
   /// @brief Field _pattern, offset: 0x38, size: 0x8, def value: None
   ::StringW ____pattern;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11384 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::LikeNode, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::LikeNode, ____kind) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::LikeNode, ____pattern) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::LikeNode, 0x40>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::LikeNode);

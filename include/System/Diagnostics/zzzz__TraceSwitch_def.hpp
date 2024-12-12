@@ -12,17 +12,16 @@ class TraceSwitch;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::TraceSwitch);
-// Type: System.Diagnostics::TraceSwitch
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Diagnostics.Switch
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::TraceSwitch*
+// CS Name: System.Diagnostics.TraceSwitch
 class CORDL_TYPE TraceSwitch : public ::System::Diagnostics::Switch {
 public:
   // Declarations
   static inline ::System::Diagnostics::TraceSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x43cb058, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442c36c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:
@@ -40,7 +39,7 @@ public:
   TraceSwitch(TraceSwitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::EraInfo::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::EraInfo::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3d3d6c0;
+  constexpr static std::size_t addrs = 0x3d9d834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Globalization::EraInfo::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::StringW, ::StringW, ::StringW)>(&::System::Globalization::EraInfo::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d3d7a4;
+  constexpr static std::size_t addrs = 0x3d9d918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,10 +135,6 @@ constexpr void System::Globalization::EraInfo::__cordl_internal_set_englishEraNa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___englishEraName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Globalization::EraInfo* System::Globalization::EraInfo::New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear,
-                                                                                  int32_t maxEraYear) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::EraInfo*>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear));
-}
 inline void System::Globalization::EraInfo::_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EraInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -147,10 +143,6 @@ inline void System::Globalization::EraInfo::_ctor(int32_t era, int32_t startYear
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear);
-}
-inline ::System::Globalization::EraInfo* System::Globalization::EraInfo::New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear,
-                                                                                  int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::EraInfo*>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear, eraName, abbrevEraName, englishEraName));
 }
 inline void System::Globalization::EraInfo::_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName,
                                                   ::StringW abbrevEraName, ::StringW englishEraName) {
@@ -162,6 +154,14 @@ inline void System::Globalization::EraInfo::_ctor(int32_t era, int32_t startYear
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear, eraName, abbrevEraName, englishEraName);
+}
+inline ::System::Globalization::EraInfo* System::Globalization::EraInfo::New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear,
+                                                                                  int32_t maxEraYear) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::EraInfo*>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear));
+}
+inline ::System::Globalization::EraInfo* System::Globalization::EraInfo::New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear,
+                                                                                  int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::EraInfo*>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear, eraName, abbrevEraName, englishEraName));
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::EraInfo::EraInfo() {}

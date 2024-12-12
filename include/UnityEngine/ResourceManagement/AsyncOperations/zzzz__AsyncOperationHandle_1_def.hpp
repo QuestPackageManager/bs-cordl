@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -14,9 +16,6 @@ template <typename T> class HashSet_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
@@ -25,9 +24,6 @@ template <typename T> class Action_1;
 }
 namespace System {
 class Exception;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -53,13 +49,12 @@ template <typename TObject> struct AsyncOperationHandle_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1);
-// Type: UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationHandle`1
-// SizeInfo { instance_size: 32, native_size: 41, calculated_instance_size: 32, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEnumerator, System.IEquatable`1<T>
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: true
-// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationHandle`1<TObject>
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 struct CORDL_TYPE AsyncOperationHandle_1 {
 public:
   // Declarations
@@ -222,6 +217,12 @@ public:
   constexpr AsyncOperationHandle_1(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* m_InternalOp, int32_t m_Version, ::StringW m_LocationName,
                                    bool m_UnloadSceneOpExcludeReleaseCallback) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15693 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field m_InternalOp, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* m_InternalOp;
 
@@ -233,12 +234,6 @@ public:
 
   /// @brief Field m_UnloadSceneOpExcludeReleaseCallback, offset: 0x18, size: 0x1, def value: None
   bool m_UnloadSceneOpExcludeReleaseCallback;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15658 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

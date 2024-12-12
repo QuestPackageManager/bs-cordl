@@ -13,11 +13,10 @@ class FlyingCar;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingCar);
-// Type: ::FlyingCar
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingCar*
+// CS Name: FlyingCar
 class CORDL_TYPE FlyingCar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -38,13 +37,13 @@ public:
 
   static inline ::GlobalNamespace::FlyingCar* New_ctor();
 
-  /// @brief Method Start, addr 0x3b36ed8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9841c, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b36f60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b984a4, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePos, addr 0x3b36f1c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdatePos, addr 0x3b98460, size 0x44, virtual false, abstract: false, final false
   inline void UpdatePos();
 
   constexpr float_t const& __cordl_internal_get__endZ() const;
@@ -77,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__startZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b36fc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b98504, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,6 +93,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingCar(FlyingCar const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4357 };
+
   /// @brief Field _startZ, offset: 0x20, size: 0x4, def value: None
   float_t ____startZ;
 
@@ -109,14 +111,9 @@ public:
   /// @brief Field _pos, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____pos;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4346 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingCar, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FlyingCar, ____startZ) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingCar, ____endZ) == 0x24, "Offset mismatch!");
@@ -126,6 +123,8 @@ static_assert(offsetof(::GlobalNamespace::FlyingCar, ____speed) == 0x28, "Offset
 static_assert(offsetof(::GlobalNamespace::FlyingCar, ____progress) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingCar, ____pos) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingCar, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingCar);

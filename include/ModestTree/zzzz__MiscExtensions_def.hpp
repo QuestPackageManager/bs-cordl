@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscExtensions)
@@ -32,18 +31,17 @@ class MiscExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::ModestTree::MiscExtensions);
-// Type: ModestTree::MiscExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::ModestTree::MiscExtensions*
+// CS Name: ModestTree.MiscExtensions
 class CORDL_TYPE MiscExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method AllocFreeAddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AllocFreeAddRange(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<T>* items);
 
-  /// @brief Method Fmt, addr 0x4a8d72c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Fmt, addr 0x4af203c, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW Fmt(::StringW s, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method GetValueAndRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -52,7 +50,7 @@ public:
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IList_1<T>* list, T item);
 
-  /// @brief Method Join, addr 0x4a8e534, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x4af2e44, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
 
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -82,7 +80,7 @@ public:
   MiscExtensions(MiscExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11952 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

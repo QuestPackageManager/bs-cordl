@@ -12,11 +12,10 @@ struct HAPI_VolumeVisualType;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeVisualType);
-// Type: HoudiniEngineUnity::HAPI_VolumeVisualType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_VolumeVisualType
+// CS Name: HoudiniEngineUnity.HAPI_VolumeVisualType
 struct CORDL_TYPE HAPI_VolumeVisualType {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_VolumeVisualType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_VOLUMEVISTYPE_HEIGHTFIELD value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_VOLUMEVISTYPE_HEIGHTFIELD value: I32(4)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_HEIGHTFIELD;
 
-  /// @brief Field HAPI_VOLUMEVISTYPE_INVALID value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_VOLUMEVISTYPE_INVALID value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_INVALID;
 
-  /// @brief Field HAPI_VOLUMEVISTYPE_INVISIBLE value: static_cast<int32_t>(0x3)
+  /// @brief Field HAPI_VOLUMEVISTYPE_INVISIBLE value: I32(3)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_INVISIBLE;
 
-  /// @brief Field HAPI_VOLUMEVISTYPE_ISO value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_VOLUMEVISTYPE_ISO value: I32(2)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_ISO;
 
-  /// @brief Field HAPI_VOLUMEVISTYPE_MAX value: static_cast<int32_t>(0x5)
+  /// @brief Field HAPI_VOLUMEVISTYPE_MAX value: I32(5)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_MAX;
 
-  /// @brief Field HAPI_VOLUMEVISTYPE_RAINBOW value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_VOLUMEVISTYPE_RAINBOW value: I32(1)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_RAINBOW;
 
-  /// @brief Field HAPI_VOLUMEVISTYPE_SMOKE value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_VOLUMEVISTYPE_SMOKE value: I32(0)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_SMOKE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_VolumeVisualType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeVisualType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_VolumeVisualType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeVisualType, "HoudiniEngineUnity", "HAPI_VolumeVisualType");

@@ -13,49 +13,48 @@ namespace System {
 class Object;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __LessThanInstruction__LessThanDouble;
+namespace GlobalNamespace {
+class LessThanInstruction_LessThanDouble;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanDouble);
-// Type: ::LessThanDouble
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::LessThanInstruction_LessThanDouble);
+// Dependencies System.Linq.Expressions.Interpreter.LessThanInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LessThanInstruction::LessThanDouble*
-class CORDL_TYPE __LessThanInstruction__LessThanDouble : public ::System::Linq::Expressions::Interpreter::LessThanInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.LessThanInstruction/LessThanDouble
+class CORDL_TYPE LessThanInstruction_LessThanDouble : public ::System::Linq::Expressions::Interpreter::LessThanInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanDouble* New_ctor(::System::Object* nullValue);
+  static inline ::GlobalNamespace::LessThanInstruction_LessThanDouble* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x4074268, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40d557c, size 0xe4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40739a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d4cb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LessThanInstruction__LessThanDouble();
+  constexpr LessThanInstruction_LessThanDouble();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanInstruction__LessThanDouble", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanDouble", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LessThanInstruction__LessThanDouble(__LessThanInstruction__LessThanDouble&&) = delete;
+  LessThanInstruction_LessThanDouble(LessThanInstruction_LessThanDouble&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanInstruction__LessThanDouble", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanDouble", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LessThanInstruction__LessThanDouble(__LessThanInstruction__LessThanDouble const&) = delete;
+  LessThanInstruction_LessThanDouble(LessThanInstruction_LessThanDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanDouble, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LessThanInstruction_LessThanDouble, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanDouble);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanDouble*, "System.Linq.Expressions.Interpreter", "LessThanInstruction/LessThanDouble");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::LessThanInstruction_LessThanDouble);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LessThanInstruction_LessThanDouble*, "System.Linq.Expressions.Interpreter", "LessThanInstruction/LessThanDouble");

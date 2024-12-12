@@ -11,17 +11,16 @@ class XmlTypeMapMemberNamespaces;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeMapMemberNamespaces);
-// Type: System.Xml.Serialization::XmlTypeMapMemberNamespaces
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Serialization.XmlTypeMapMember
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlTypeMapMemberNamespaces*
+// CS Name: System.Xml.Serialization.XmlTypeMapMemberNamespaces
 class CORDL_TYPE XmlTypeMapMemberNamespaces : public ::System::Xml::Serialization::XmlTypeMapMember {
 public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlTypeMapMemberNamespaces* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432d9f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438ed0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XmlTypeMapMemberNamespaces(XmlTypeMapMemberNamespaces const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

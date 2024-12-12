@@ -19,11 +19,10 @@ class EnterTryFaultInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction);
-// Type: System.Linq.Expressions.Interpreter::EnterTryFaultInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.IndexedBranchInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::EnterTryFaultInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.EnterTryFaultInstruction
 class CORDL_TYPE EnterTryFaultInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction {
 public:
   // Declarations
@@ -38,28 +37,28 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction* New_ctor(int32_t targetIndex);
 
-  /// @brief Method Run, addr 0x4062160, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c3474, size 0x1fc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method SetTryHandler, addr 0x4062158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTryHandler, addr 0x40c346c, size 0x8, virtual false, abstract: false, final false
   inline void SetTryHandler(::System::Linq::Expressions::Interpreter::TryFaultHandler* tryHandler);
+
+  constexpr ::System::Linq::Expressions::Interpreter::TryFaultHandler* const& __cordl_internal_get__tryHandler() const;
 
   constexpr ::System::Linq::Expressions::Interpreter::TryFaultHandler*& __cordl_internal_get__tryHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::TryFaultHandler*> const& __cordl_internal_get__tryHandler() const;
-
   constexpr void __cordl_internal_set__tryHandler(::System::Linq::Expressions::Interpreter::TryFaultHandler* value);
 
-  /// @brief Method .ctor, addr 0x40620e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c33f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t targetIndex);
 
-  /// @brief Method get_Handler, addr 0x4062150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handler, addr 0x40c3464, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::TryFaultHandler* get_Handler();
 
-  /// @brief Method get_InstructionName, addr 0x4062108, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c341c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x4062148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x40c345c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
 protected:
@@ -76,18 +75,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnterTryFaultInstruction(EnterTryFaultInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13784 };
+
   /// @brief Field _tryHandler, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::TryFaultHandler* ____tryHandler;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction, ____tryHandler) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction);

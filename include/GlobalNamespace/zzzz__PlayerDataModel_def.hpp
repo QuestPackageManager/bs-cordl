@@ -3,7 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IPlayerDataModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -11,25 +13,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerDataModel)
 namespace GlobalNamespace {
-class IPlayerDataModel;
+class PlayerDataFileModel;
 }
 namespace GlobalNamespace {
-class PlayerDataFileModel;
+struct PlayerDataModel__UndoUnsavedChangesAsync_d__11;
 }
 namespace GlobalNamespace {
 class PlayerData;
 }
-namespace GlobalNamespace {
-struct __PlayerDataModel___UndoUnsavedChangesAsync_d__11;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -39,26 +32,25 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-struct __PlayerDataModel___UndoUnsavedChangesAsync_d__11;
+struct PlayerDataModel__UndoUnsavedChangesAsync_d__11;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerDataModel);
-MARK_VAL_T(::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11);
-// Type: ::<UndoUnsavedChangesAsync>d__11
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11);
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PlayerDataModel::<UndoUnsavedChangesAsync>d__11
-struct CORDL_TYPE __PlayerDataModel___UndoUnsavedChangesAsync_d__11 {
+// CS Name: PlayerDataModel/<UndoUnsavedChangesAsync>d__11
+struct CORDL_TYPE PlayerDataModel__UndoUnsavedChangesAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26bfb00, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26f46f4, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26bfd28, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26f491c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -66,14 +58,20 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlayerDataModel___UndoUnsavedChangesAsync_d__11();
+  constexpr PlayerDataModel__UndoUnsavedChangesAsync_d__11();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*>", modifiers: "", def_value: None }]
-  constexpr __PlayerDataModel___UndoUnsavedChangesAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                              ::UnityW<::GlobalNamespace::PlayerDataModel> __4__this,
-                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*> __u__1) noexcept;
+  constexpr PlayerDataModel__UndoUnsavedChangesAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                           ::UnityW<::GlobalNamespace::PlayerDataModel> __4__this,
+                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13227 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -87,35 +85,28 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13191 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11, __u__1) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlayerDataModel
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IPlayerDataModel, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerDataModel*
+// CS Name: PlayerDataModel
 class CORDL_TYPE PlayerDataModel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _UndoUnsavedChangesAsync_d__11 = ::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11;
+  using _UndoUnsavedChangesAsync_d__11 = ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11;
 
   /// @brief Field _playerData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playerData, put = __cordl_internal_set__playerData)) ::GlobalNamespace::PlayerData* _playerData;
@@ -130,48 +121,48 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlayerDataModel"
   constexpr operator ::GlobalNamespace::IPlayerDataModel*() noexcept;
 
-  /// @brief Method Inject, addr 0x26bf920, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x26f4514, size 0x28, virtual false, abstract: false, final false
   inline void Inject(::StringW playerDataJsonString, ::GlobalNamespace::PlayerDataFileModel* playerDataFileModel);
 
   static inline ::GlobalNamespace::PlayerDataModel* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x26bf948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x26f453c, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDisable, addr 0x26bf974, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26f4568, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method ResetData, addr 0x26bf9f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetData, addr 0x26f45e8, size 0x24, virtual false, abstract: false, final false
   inline void ResetData();
 
-  /// @brief Method Save, addr 0x26bf954, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x26f4548, size 0x20, virtual false, abstract: false, final false
   inline void Save();
 
-  /// @brief Method SaveAsync, addr 0x26bfad8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x26f46cc, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method UndoUnsavedChangesAsync, addr 0x26bfa18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UndoUnsavedChangesAsync, addr 0x26f460c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UndoUnsavedChangesAsync();
+
+  constexpr ::GlobalNamespace::PlayerData* const& __cordl_internal_get__playerData() const;
 
   constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& __cordl_internal_get__playerData() const;
+  constexpr ::GlobalNamespace::PlayerDataFileModel* const& __cordl_internal_get__playerDataFileModel() const;
 
   constexpr ::GlobalNamespace::PlayerDataFileModel*& __cordl_internal_get__playerDataFileModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataFileModel*> const& __cordl_internal_get__playerDataFileModel() const;
 
   constexpr void __cordl_internal_set__playerData(::GlobalNamespace::PlayerData* value);
 
   constexpr void __cordl_internal_set__playerDataFileModel(::GlobalNamespace::PlayerDataFileModel* value);
 
-  /// @brief Method .ctor, addr 0x26bfaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f46ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerData, addr 0x26bf918, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_playerData, addr 0x26f450c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PlayerData* get_playerData();
 
-  /// @brief Method get_playerDataFileModel, addr 0x26bf910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerDataFileModel, addr 0x26f4504, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerDataFileModel* get_playerDataFileModel();
 
   /// @brief Convert to "::GlobalNamespace::IPlayerDataModel"
@@ -191,28 +182,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerDataModel(PlayerDataModel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13228 };
+
+  /// @brief Field kPlayerDataSaveInjectID offset 0xffffffff size 0x8
+  static constexpr ::ConstString kPlayerDataSaveInjectID{ u"SavedPlayerData" };
+
   /// @brief Field _playerData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::PlayerData* ____playerData;
 
   /// @brief Field _playerDataFileModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::PlayerDataFileModel* ____playerDataFileModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13192 };
-
-  /// @brief Field kPlayerDataSaveInjectID offset 0xffffffff size 0x8
-  static constexpr ::ConstString kPlayerDataSaveInjectID{ u"SavedPlayerData" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataModel, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerDataModel, ____playerData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerDataModel, ____playerDataFileModel) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataModel, 0x30>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerDataModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerDataModel*, "", "PlayerDataModel");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerDataModel___UndoUnsavedChangesAsync_d__11, "", "PlayerDataModel/<UndoUnsavedChangesAsync>d__11");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11, "", "PlayerDataModel/<UndoUnsavedChangesAsync>d__11");

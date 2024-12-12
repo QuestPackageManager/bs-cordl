@@ -12,11 +12,10 @@ struct HAPI_ObjectInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_ObjectInfo);
-// Type: HoudiniEngineUnity::HAPI_ObjectInfo
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_ObjectInfo
+// CS Name: HoudiniEngineUnity.HAPI_ObjectInfo
 struct CORDL_TYPE HAPI_ObjectInfo {
 public:
   // Declarations
@@ -31,6 +30,12 @@ public:
   // ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_ObjectInfo(int32_t nameSH, int32_t objectInstancePathSH, bool hasTransformChanged, bool haveGeosChanged, bool isVisible, bool isInstancer, bool isInstanced, int32_t geoCount,
                             int32_t nodeId, int32_t objectToInstanceId) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11720 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
 
   /// @brief Field nameSH, offset: 0x0, size: 0x4, def value: None
   int32_t nameSH;
@@ -62,17 +67,9 @@ public:
   /// @brief Field objectToInstanceId, offset: 0x18, size: 0x4, def value: None
   int32_t objectToInstanceId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11687 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ObjectInfo, 0x1c>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, nameSH) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, objectInstancePathSH) == 0x4, "Offset mismatch!");
@@ -92,6 +89,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, geoCount) == 0x10,
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, nodeId) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, objectToInstanceId) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ObjectInfo, 0x1c>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ObjectInfo, "HoudiniEngineUnity", "HAPI_ObjectInfo");

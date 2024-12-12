@@ -18,11 +18,10 @@ class MissingMethodException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MissingMethodException);
-// Type: System::MissingMethodException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MissingMemberException
 namespace System {
 // Is value type: false
-// CS Name: ::System::MissingMethodException*
+// CS Name: System.MissingMethodException
 class CORDL_TYPE MissingMethodException : public ::System::MissingMemberException {
 public:
   // Declarations
@@ -36,19 +35,19 @@ public:
 
   static inline ::System::MissingMethodException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d8c730, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dec8a4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d8c7b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dec924, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW methodName);
 
-  /// @brief Method .ctor, addr 0x3d8c7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dec950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d8c78c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dec900, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x3d8c7e4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3dec958, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

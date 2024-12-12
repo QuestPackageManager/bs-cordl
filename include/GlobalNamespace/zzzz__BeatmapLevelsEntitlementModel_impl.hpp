@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapLevelsEntitlementModel.hpp"
+#include "GlobalNamespace/zzzz__IEntitlementModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
 #include "GlobalNamespace/zzzz__IAdditionalContentEntitlementModel_def.hpp"
-#include "GlobalNamespace/zzzz__IEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::IAdditionalContentEntitlementModel*)>(
     &::GlobalNamespace::BeatmapLevelsEntitlementModel::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2693f10;
+  constexpr static std::size_t addrs = 0x26c8a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::BeatmapLevelsEntitlementModel::AddAlwaysOwnedPack)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x2693fb0;
+  constexpr static std::size_t addrs = 0x26c8b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x26942ec;
+  constexpr static std::size_t addrs = 0x26c8e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetPackEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2694420;
+  constexpr static std::size_t addrs = 0x26c8f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelDataVersionAsync)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2694558;
+  constexpr static std::size_t addrs = 0x26c90c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,20 +88,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IEntitlementModel"
-constexpr GlobalNamespace::BeatmapLevelsEntitlementModel::operator ::GlobalNamespace::IEntitlementModel*() noexcept {
-  return static_cast<::GlobalNamespace::IEntitlementModel*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IEntitlementModel"
-constexpr ::GlobalNamespace::IEntitlementModel* GlobalNamespace::BeatmapLevelsEntitlementModel::i___GlobalNamespace__IEntitlementModel() noexcept {
-  return static_cast<::GlobalNamespace::IEntitlementModel*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::IAdditionalContentEntitlementModel*& GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__additionalContentEntitlementModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalContentEntitlementModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentEntitlementModel*> const&
-GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__additionalContentEntitlementModel() const {
+constexpr ::GlobalNamespace::IAdditionalContentEntitlementModel* const& GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__additionalContentEntitlementModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalContentEntitlementModel;
 }
@@ -113,8 +104,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedBeatmapLevelIds;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
-GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__alwaysOwnedBeatmapLevelIds() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__alwaysOwnedBeatmapLevelIds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedBeatmapLevelIds;
 }
@@ -126,18 +116,13 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedPacksIds;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
-GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__alwaysOwnedPacksIds() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_get__alwaysOwnedPacksIds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedPacksIds;
 }
 constexpr void GlobalNamespace::BeatmapLevelsEntitlementModel::__cordl_internal_set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____alwaysOwnedPacksIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::BeatmapLevelsEntitlementModel*
-GlobalNamespace::BeatmapLevelsEntitlementModel::New_ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(additionalContentEntitlementModel));
 }
 inline void GlobalNamespace::BeatmapLevelsEntitlementModel::_ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -174,6 +159,18 @@ GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelDataVersionAsync(::Strin
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>*, false>(this, ___internal_method, levelId, token);
+}
+inline ::GlobalNamespace::BeatmapLevelsEntitlementModel*
+GlobalNamespace::BeatmapLevelsEntitlementModel::New_ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(additionalContentEntitlementModel));
+}
+/// @brief Convert operator to "::GlobalNamespace::IEntitlementModel"
+constexpr GlobalNamespace::BeatmapLevelsEntitlementModel::operator ::GlobalNamespace::IEntitlementModel*() noexcept {
+  return static_cast<::GlobalNamespace::IEntitlementModel*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IEntitlementModel"
+constexpr ::GlobalNamespace::IEntitlementModel* GlobalNamespace::BeatmapLevelsEntitlementModel::i___GlobalNamespace__IEntitlementModel() noexcept {
+  return static_cast<::GlobalNamespace::IEntitlementModel*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel::BeatmapLevelsEntitlementModel() {}

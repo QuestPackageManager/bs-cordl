@@ -13,20 +13,15 @@ class IPreCompCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback);
-// Type: Org.BouncyCastle.Math.EC.Multiplier::IPreCompCallback
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::IPreCompCallback*
+// CS Name: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
 class CORDL_TYPE IPreCompCallback {
 public:
   // Declarations
-  /// @brief Method Precompute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Precompute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPreCompCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPreCompCallback(IPreCompCallback&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPreCompCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

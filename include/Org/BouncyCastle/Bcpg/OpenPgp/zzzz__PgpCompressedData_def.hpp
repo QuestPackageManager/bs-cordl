@@ -23,11 +23,10 @@ class PgpCompressedData;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData);
-// Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpCompressedData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.OpenPgp.PgpObject
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpCompressedData*
+// CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpCompressedData
 class CORDL_TYPE PgpCompressedData : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
@@ -36,24 +35,24 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Bcpg::CompressedDataPacket* data;
 
-  /// @brief Method GetDataStream, addr 0x24efb58, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetDataStream, addr 0x2522e44, size 0x16c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream();
 
-  /// @brief Method GetInputStream, addr 0x24efb3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x2522e28, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  constexpr ::Org::BouncyCastle::Bcpg::CompressedDataPacket*& __cordl_internal_get_data();
+  constexpr ::Org::BouncyCastle::Bcpg::CompressedDataPacket* const& __cordl_internal_get_data() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::CompressedDataPacket*> const& __cordl_internal_get_data() const;
+  constexpr ::Org::BouncyCastle::Bcpg::CompressedDataPacket*& __cordl_internal_get_data();
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::CompressedDataPacket* value);
 
-  /// @brief Method .ctor, addr 0x24efa08, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2522cf4, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Algorithm, addr 0x24efb20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2522e0c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
 protected:
@@ -70,18 +69,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpCompressedData(PgpCompressedData const&) = delete;
 
-  /// @brief Field data, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Bcpg::CompressedDataPacket* ___data;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1629 };
+
+  /// @brief Field data, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Bcpg::CompressedDataPacket* ___data;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData, ___data) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData);

@@ -11,17 +11,16 @@ class ContextBoundObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ContextBoundObject);
-// Type: System::ContextBoundObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MarshalByRefObject
 namespace System {
 // Is value type: false
-// CS Name: ::System::ContextBoundObject*
+// CS Name: System.ContextBoundObject
 class CORDL_TYPE ContextBoundObject : public ::System::MarshalByRefObject {
 public:
   // Declarations
   static inline ::System::ContextBoundObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3db741c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e174c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

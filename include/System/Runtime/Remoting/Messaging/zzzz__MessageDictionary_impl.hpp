@@ -1,234 +1,235 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/MessageDictionary.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IDictionary_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator._ctor
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::*)(
-    ::System::Runtime::Remoting::Messaging::MessageDictionary*)>(&::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)(
+    ::System::Runtime::Remoting::Messaging::MessageDictionary*)>(&::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3c8d8e0;
+  constexpr static std::size_t addrs = 0x3ceda54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::MessageDictionary*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator.get_Current
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::*)()>(
-    &::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
+    &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c8d9c4;
+  constexpr static std::size_t addrs = 0x3cedb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                  "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator.MoveNext
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::*)()>(
-    &::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
+    &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3c8db90;
+  constexpr static std::size_t addrs = 0x3cedd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator.Reset
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::*)()>(
-    &::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
+    &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::Reset)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c8dd60;
+  constexpr static std::size_t addrs = 0x3ceded4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                  "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator.get_Entry
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator.get_Entry
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (
-    ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::*)()>(&::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Entry)> {
+    ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(&::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3c8da28;
+  constexpr static std::size_t addrs = 0x3cedb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                  "get_Entry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator.get_Key
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator.get_Key
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::*)()>(
-    &::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Key)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
+    &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c8de0c;
+  constexpr static std::size_t addrs = 0x3cedf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                  "get_Key", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator.get_Value
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator.get_Value
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::*)()>(
-    &::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
+    &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c8de10;
+  constexpr static std::size_t addrs = 0x3cedf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                  "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-constexpr System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-constexpr ::System::Collections::IDictionaryEnumerator* System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
-  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary*& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_get__methodDictionary() {
+constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary*& System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_get__methodDictionary() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodDictionary;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MessageDictionary*> const&
-System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_get__methodDictionary() const {
+constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary* const&
+System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_get__methodDictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodDictionary;
 }
-constexpr void
-System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_set__methodDictionary(::System::Runtime::Remoting::Messaging::MessageDictionary* value) {
+constexpr void System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_set__methodDictionary(::System::Runtime::Remoting::Messaging::MessageDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____methodDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::IDictionaryEnumerator*& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_get__hashtableEnum() {
+constexpr ::System::Collections::IDictionaryEnumerator*& System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_get__hashtableEnum() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashtableEnum;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionaryEnumerator*> const&
-System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_get__hashtableEnum() const {
+constexpr ::System::Collections::IDictionaryEnumerator* const& System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_get__hashtableEnum() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashtableEnum;
 }
-constexpr void System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_set__hashtableEnum(::System::Collections::IDictionaryEnumerator* value) {
+constexpr void System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_set__hashtableEnum(::System::Collections::IDictionaryEnumerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hashtableEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_get__posMethod() {
+constexpr int32_t& System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_get__posMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posMethod;
 }
-constexpr int32_t const& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_get__posMethod() const {
+constexpr int32_t const& System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_get__posMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posMethod;
 }
-constexpr void System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__cordl_internal_set__posMethod(int32_t value) {
+constexpr void System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::__cordl_internal_set__posMethod(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____posMethod = value;
 }
-inline ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*
-System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>(methodDictionary));
-}
-inline void System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::MessageDictionary*>::get() })));
+inline void System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::MessageDictionary*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, methodDictionary);
 }
-inline ::System::Object* System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Current() {
+inline ::System::Object* System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::MoveNext() {
+inline bool System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::Reset() {
+inline void System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
-                                               "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(), "Reset",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::DictionaryEntry System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Entry() {
+inline ::System::Collections::DictionaryEntry System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Entry() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                "get_Entry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::DictionaryEntry, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Key() {
+inline ::System::Object* System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Key() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                "get_Key", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::get_Value() {
+inline ::System::Object* System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Value() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>::get(),
                                                "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
+inline ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*
+System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>(methodDictionary));
+}
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
+constexpr System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::operator ::System::Collections::IDictionaryEnumerator*() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+constexpr ::System::Collections::IDictionaryEnumerator* System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::i___System__Collections__IDictionaryEnumerator() noexcept {
+  return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__MessageDictionary__DictionaryEnumerator() {}
+constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::MessageDictionary_DictionaryEnumerator() {}
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::MessageDictionary._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(
     ::System::Runtime::Remoting::Messaging::IMethodMessage*)>(&::System::Runtime::Remoting::Messaging::MessageDictionary::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c8a4ec;
+  constexpr static std::size_t addrs = 0x3cea660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::HasUserData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3c8736c;
+  constexpr static std::size_t addrs = 0x3ce74e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -258,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_InternalDictionary)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c87468;
+  constexpr static std::size_t addrs = 0x3ce75dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8c714;
+  constexpr static std::size_t addrs = 0x3cec888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::AllocInternalProperties)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c8c71c;
+  constexpr static std::size_t addrs = 0x3cec890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -304,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::GetInternalProperties)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c895e0;
+  constexpr static std::size_t addrs = 0x3ce9754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -319,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::IsOverridenKey)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c8c77c;
+  constexpr static std::size_t addrs = 0x3cec8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8c804;
+  constexpr static std::size_t addrs = 0x3cec978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -349,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8c80c;
+  constexpr static std::size_t addrs = 0x3cec980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -364,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Item)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3c8c814;
+  constexpr static std::size_t addrs = 0x3cec988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::set_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c8c954;
+  constexpr static std::size_t addrs = 0x3cecac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::GetMethodProperty)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x3c8a8e0;
+  constexpr static std::size_t addrs = 0x3ceaa54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -411,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::SetMethodProperty)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x3c8b0ac;
+  constexpr static std::size_t addrs = 0x3ceb220;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -427,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Keys)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x3c8cac0;
+  constexpr static std::size_t addrs = 0x3cecc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -442,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Values)> {
   constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x3c8cf00;
+  constexpr static std::size_t addrs = 0x3ced074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -457,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::Add)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3c8c958;
+  constexpr static std::size_t addrs = 0x3cecacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -473,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::Clear)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c8d328;
+  constexpr static std::size_t addrs = 0x3ced49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -488,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::Contains)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3c8d3d4;
+  constexpr static std::size_t addrs = 0x3ced548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -503,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::Remove)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3c8d510;
+  constexpr static std::size_t addrs = 0x3ced684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -518,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Count)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c8d694;
+  constexpr static std::size_t addrs = 0x3ced808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -533,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8d75c;
+  constexpr static std::size_t addrs = 0x3ced8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -548,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c8d764;
+  constexpr static std::size_t addrs = 0x3ced8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -563,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Array*, int32_t)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::CopyTo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c8d768;
+  constexpr static std::size_t addrs = 0x3ced8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -578,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c8d828;
+  constexpr static std::size_t addrs = 0x3ced99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -593,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c8d884;
+  constexpr static std::size_t addrs = 0x3ced9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -602,35 +603,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IDictionary"
-constexpr System::Runtime::Remoting::Messaging::MessageDictionary::operator ::System::Collections::IDictionary*() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IDictionary"
-constexpr ::System::Collections::IDictionary* System::Runtime::Remoting::Messaging::MessageDictionary::i___System__Collections__IDictionary() noexcept {
-  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Runtime::Remoting::Messaging::MessageDictionary::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Runtime::Remoting::Messaging::MessageDictionary::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Runtime::Remoting::Messaging::MessageDictionary::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Runtime::Remoting::Messaging::MessageDictionary::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::IDictionary*& System::Runtime::Remoting::Messaging::MessageDictionary::__cordl_internal_get__internalProperties() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalProperties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& System::Runtime::Remoting::Messaging::MessageDictionary::__cordl_internal_get__internalProperties() const {
+constexpr ::System::Collections::IDictionary* const& System::Runtime::Remoting::Messaging::MessageDictionary::__cordl_internal_get__internalProperties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalProperties;
 }
@@ -642,8 +619,7 @@ constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage*& System::Runti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____message;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMethodMessage*> const&
-System::Runtime::Remoting::Messaging::MessageDictionary::__cordl_internal_get__message() const {
+constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* const& System::Runtime::Remoting::Messaging::MessageDictionary::__cordl_internal_get__message() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____message;
 }
@@ -674,9 +650,6 @@ constexpr bool const& System::Runtime::Remoting::Messaging::MessageDictionary::_
 constexpr void System::Runtime::Remoting::Messaging::MessageDictionary::__cordl_internal_set__ownProperties(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ownProperties = value;
-}
-inline ::System::Runtime::Remoting::Messaging::MessageDictionary* System::Runtime::Remoting::Messaging::MessageDictionary::New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MessageDictionary*>(message));
 }
 inline void System::Runtime::Remoting::Messaging::MessageDictionary::_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -817,6 +790,33 @@ inline ::System::Collections::IDictionaryEnumerator* System::Runtime::Remoting::
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::MessageDictionary*>::get(),
                                                                              "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Messaging::MessageDictionary* System::Runtime::Remoting::Messaging::MessageDictionary::New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::MessageDictionary*>(message));
+}
+/// @brief Convert operator to "::System::Collections::IDictionary"
+constexpr System::Runtime::Remoting::Messaging::MessageDictionary::operator ::System::Collections::IDictionary*() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IDictionary"
+constexpr ::System::Collections::IDictionary* System::Runtime::Remoting::Messaging::MessageDictionary::i___System__Collections__IDictionary() noexcept {
+  return static_cast<::System::Collections::IDictionary*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Runtime::Remoting::Messaging::MessageDictionary::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Runtime::Remoting::Messaging::MessageDictionary::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Runtime::Remoting::Messaging::MessageDictionary::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Runtime::Remoting::Messaging::MessageDictionary::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary::MessageDictionary() {}

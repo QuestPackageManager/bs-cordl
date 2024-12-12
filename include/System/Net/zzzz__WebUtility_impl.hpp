@@ -8,188 +8,188 @@
 #include "System/Net/Configuration/zzzz__UnicodeEncodingConformance_def.hpp"
 #include "System/Net/zzzz__WebUtility_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-//  Writing Method size for method: ::System::Net::__WebUtility__UrlDecoder.FlushBytes
+//  Writing Method size for method: ::System::Net::WebUtility_UrlDecoder.FlushBytes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)()>(&::System::Net::__WebUtility__UrlDecoder::FlushBytes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)()>(&::System::Net::WebUtility_UrlDecoder::FlushBytes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4445e48;
+  constexpr static std::size_t addrs = 0x44a715c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "FlushBytes",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "FlushBytes",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebUtility__UrlDecoder._ctor
+//  Writing Method size for method: ::System::Net::WebUtility_UrlDecoder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)(int32_t, ::System::Text::Encoding*)>(
-    &::System::Net::__WebUtility__UrlDecoder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)(int32_t, ::System::Text::Encoding*)>(
+    &::System::Net::WebUtility_UrlDecoder::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4445ad4;
+  constexpr static std::size_t addrs = 0x44a6de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebUtility__UrlDecoder.AddChar
+//  Writing Method size for method: ::System::Net::WebUtility_UrlDecoder.AddChar
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)(char16_t)>(&::System::Net::__WebUtility__UrlDecoder::AddChar)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)(char16_t)>(&::System::Net::WebUtility_UrlDecoder::AddChar)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4445c30;
+  constexpr static std::size_t addrs = 0x44a6f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "AddChar", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "AddChar", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebUtility__UrlDecoder.AddByte
+//  Writing Method size for method: ::System::Net::WebUtility_UrlDecoder.AddByte
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)(uint8_t)>(&::System::Net::__WebUtility__UrlDecoder::AddByte)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebUtility_UrlDecoder::*)(uint8_t)>(&::System::Net::WebUtility_UrlDecoder::AddByte)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4445b98;
+  constexpr static std::size_t addrs = 0x44a6eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "AddByte", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "AddByte", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebUtility__UrlDecoder.GetString
+//  Writing Method size for method: ::System::Net::WebUtility_UrlDecoder.GetString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::__WebUtility__UrlDecoder::*)()>(&::System::Net::__WebUtility__UrlDecoder::GetString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::WebUtility_UrlDecoder::*)()>(&::System::Net::WebUtility_UrlDecoder::GetString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4445c90;
+  constexpr static std::size_t addrs = 0x44a6fa4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "GetString",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "GetString",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__bufferSize() {
+constexpr int32_t& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__bufferSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufferSize;
 }
-constexpr int32_t const& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__bufferSize() const {
+constexpr int32_t const& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__bufferSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufferSize;
 }
-constexpr void System::Net::__WebUtility__UrlDecoder::__cordl_internal_set__bufferSize(int32_t value) {
+constexpr void System::Net::WebUtility_UrlDecoder::__cordl_internal_set__bufferSize(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bufferSize = value;
 }
-constexpr int32_t& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__numChars() {
+constexpr int32_t& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__numChars() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numChars;
 }
-constexpr int32_t const& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__numChars() const {
+constexpr int32_t const& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__numChars() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numChars;
 }
-constexpr void System::Net::__WebUtility__UrlDecoder::__cordl_internal_set__numChars(int32_t value) {
+constexpr void System::Net::WebUtility_UrlDecoder::__cordl_internal_set__numChars(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numChars = value;
 }
-constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__charBuffer() {
+constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__charBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charBuffer;
 }
-constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__charBuffer() const {
+constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__charBuffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charBuffer;
 }
-constexpr void System::Net::__WebUtility__UrlDecoder::__cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
+constexpr void System::Net::WebUtility_UrlDecoder::__cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____charBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__numBytes() {
+constexpr int32_t& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__numBytes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBytes;
 }
-constexpr int32_t const& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__numBytes() const {
+constexpr int32_t const& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__numBytes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBytes;
 }
-constexpr void System::Net::__WebUtility__UrlDecoder::__cordl_internal_set__numBytes(int32_t value) {
+constexpr void System::Net::WebUtility_UrlDecoder::__cordl_internal_set__numBytes(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numBytes = value;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__byteBuffer() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__byteBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____byteBuffer;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__byteBuffer() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__byteBuffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____byteBuffer;
 }
-constexpr void System::Net::__WebUtility__UrlDecoder::__cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void System::Net::WebUtility_UrlDecoder::__cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____byteBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Text::Encoding*& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__encoding() {
+constexpr ::System::Text::Encoding*& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__encoding() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Net::__WebUtility__UrlDecoder::__cordl_internal_get__encoding() const {
+constexpr ::System::Text::Encoding* const& System::Net::WebUtility_UrlDecoder::__cordl_internal_get__encoding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
-constexpr void System::Net::__WebUtility__UrlDecoder::__cordl_internal_set__encoding(::System::Text::Encoding* value) {
+constexpr void System::Net::WebUtility_UrlDecoder::__cordl_internal_set__encoding(::System::Text::Encoding* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Net::__WebUtility__UrlDecoder::FlushBytes() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "FlushBytes",
+inline void System::Net::WebUtility_UrlDecoder::FlushBytes() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "FlushBytes",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Net::__WebUtility__UrlDecoder* System::Net::__WebUtility__UrlDecoder::New_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::__WebUtility__UrlDecoder*>(bufferSize, encoding));
-}
-inline void System::Net::__WebUtility__UrlDecoder::_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
+inline void System::Net::WebUtility_UrlDecoder::_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bufferSize, encoding);
 }
-inline void System::Net::__WebUtility__UrlDecoder::AddChar(char16_t ch) {
+inline void System::Net::WebUtility_UrlDecoder::AddChar(char16_t ch) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "AddChar", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "AddChar", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ch);
 }
-inline void System::Net::__WebUtility__UrlDecoder::AddByte(uint8_t b) {
+inline void System::Net::WebUtility_UrlDecoder::AddByte(uint8_t b) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "AddByte",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "AddByte",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, b);
 }
-inline ::StringW System::Net::__WebUtility__UrlDecoder::GetString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "GetString",
+inline ::StringW System::Net::WebUtility_UrlDecoder::GetString() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility_UrlDecoder*>::get(), "GetString",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
+inline ::System::Net::WebUtility_UrlDecoder* System::Net::WebUtility_UrlDecoder::New_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebUtility_UrlDecoder*>(bufferSize, encoding));
+}
 // Ctor Parameters []
-constexpr ::System::Net::__WebUtility__UrlDecoder::__WebUtility__UrlDecoder() {}
+constexpr ::System::Net::WebUtility_UrlDecoder::WebUtility_UrlDecoder() {}
 //  Writing Method size for method: ::System::Net::WebUtility.HtmlEncode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::WebUtility::HtmlEncode)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4445104;
+  constexpr static std::size_t addrs = 0x44a6418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::IO::TextWriter*)>(&::System::Net::WebUtility::HtmlEncode)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x444536c;
+  constexpr static std::size_t addrs = 0x44a6680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::WebUtility::IndexOfHtmlEncodingChars)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4445224;
+  constexpr static std::size_t addrs = 0x44a6538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Configuration::UnicodeEncodingConformance (*)()>(
     &::System::Net::WebUtility::get_HtmlEncodeConformance)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4445714;
+  constexpr static std::size_t addrs = 0x44a6a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility*>::get(), "get_HtmlEncodeConformance",
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Text::Encoding*)>(&::System::Net::WebUtility::UrlDecodeInternal)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x44458b0;
+  constexpr static std::size_t addrs = 0x44a6bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::WebUtility::UrlDecode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4445d18;
+  constexpr static std::size_t addrs = 0x44a702c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,16 +273,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::WebUtility.GetNextUnicodeScalarValueFromUtf16Surrogate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::cordl_internals::Ptr<char16_t>>, ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::cordl_internals::Ptr<char16_t>>, ::ByRef<int32_t>)>(
     &::System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x44457f8;
+  constexpr static std::size_t addrs = 0x44a6b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility*>::get(), "GetNextUnicodeScalarValueFromUtf16Surrogate", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::cordl_internals::Ptr<char16_t>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<char16_t>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(char16_t)>(&::System::Net::WebUtility::HexToInt)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4445b48;
+  constexpr static std::size_t addrs = 0x44a6e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -362,11 +362,11 @@ inline ::StringW System::Net::WebUtility::UrlDecode(::StringW encodedValue) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, encodedValue);
 }
-inline int32_t System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate(ByRef<::cordl_internals::Ptr<char16_t>> pch, ByRef<int32_t> charsRemaining) {
+inline int32_t System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate(::ByRef<::cordl_internals::Ptr<char16_t>> pch, ::ByRef<int32_t> charsRemaining) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility*>::get(), "GetNextUnicodeScalarValueFromUtf16Surrogate", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::cordl_internals::Ptr<char16_t>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<char16_t>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, pch, charsRemaining);
 }
 inline int32_t System::Net::WebUtility::HexToInt(char16_t h) {

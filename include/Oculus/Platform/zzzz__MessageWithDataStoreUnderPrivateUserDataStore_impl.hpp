@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f1a7e0;
+  constexpr static std::size_t addrs = 0x3f7a88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (
     ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)()>(&::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f1cf58;
+  constexpr static std::size_t addrs = 0x3f7d004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (
     ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3f1cf94;
+  constexpr static std::size_t addrs = 0x3f7d040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,9 +51,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore* Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::New_ctor(::System::IntPtr c_message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*>(c_message));
-}
 inline void Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::_ctor(::System::IntPtr c_message) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*>::get(), ".ctor",
@@ -71,6 +68,9 @@ inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* Oculu
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*>::get(), 72)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, false>(this, ___internal_method, c_message);
+}
+inline ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore* Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::New_ctor(::System::IntPtr c_message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*>(c_message));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::MessageWithDataStoreUnderPrivateUserDataStore() {}

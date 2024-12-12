@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/FileStorageExtensions.hpp"
 #include "GlobalNamespace/zzzz__StoragePreference_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileStorageExtensions_def.hpp"
@@ -9,386 +10,383 @@
 #include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__StoragePreference_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializerSettings_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::*)()>(
-    &::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22700a4;
+  constexpr static std::size_t addrs = 0x22a28f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0._SaveFile_b__0
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0._SaveFile_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::*)()>(
-    &::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::_SaveFile_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::_SaveFile_b__0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22705d4;
+  constexpr static std::size_t addrs = 0x22a2e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0*>::get(), "<SaveFile>b__0",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0*>::get(), "<SaveFile>b__0",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_fileStorage() {
+constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_fileStorage() const {
+constexpr ::GlobalNamespace::IFileStorage* const& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_fileStorage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileStorage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_fileName() {
+constexpr ::StringW& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_fileName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr ::StringW const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_fileName() const {
+constexpr ::StringW const& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_fileName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_set_fileName(::StringW value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_set_fileName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_value() {
+constexpr ::StringW& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr ::StringW const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_value() const {
+constexpr ::StringW const& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_set_value(::StringW value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_set_value(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_storageLocation() {
+constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_storageLocation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_get_storageLocation() const {
+constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_get_storageLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___storageLocation = value;
 }
-inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0* GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0*>());
-}
-inline void GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::_ctor() {
+inline void GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::_SaveFile_b__0() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::_SaveFile_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0*>::get(), "<SaveFile>b__0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0*>::get(), "<SaveFile>b__0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0* GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0::__FileStorageExtensions____c__DisplayClass1_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0._ctor
+constexpr ::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::FileStorageExtensions___c__DisplayClass1_0() {}
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::*)()>(
-    &::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2270180;
+  constexpr static std::size_t addrs = 0x22a29d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0._LoadFile_b__0
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0._LoadFile_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
-    ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::*)()>(&::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::_LoadFile_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::_LoadFile_b__0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2270690;
+  constexpr static std::size_t addrs = 0x22a2ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0*>::get(), "<LoadFile>b__0",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0*>::get(), "<LoadFile>b__0",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_get_fileStorage() {
+constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_get_fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_get_fileStorage() const {
+constexpr ::GlobalNamespace::IFileStorage* const& GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_get_fileStorage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileStorage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_get_fileName() {
+constexpr ::StringW& GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_get_fileName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr ::StringW const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_get_fileName() const {
+constexpr ::StringW const& GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_get_fileName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_set_fileName(::StringW value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_set_fileName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_get_storageLocation() {
+constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_get_storageLocation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_get_storageLocation() const {
+constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_get_storageLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___storageLocation = value;
 }
-inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0* GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0*>());
-}
-inline void GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::_ctor() {
+inline void GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::_LoadFile_b__0() {
+inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::_LoadFile_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0*>::get(), "<LoadFile>b__0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0*>::get(), "<LoadFile>b__0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0* GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0::__FileStorageExtensions____c__DisplayClass2_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0._ctor
+constexpr ::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::FileStorageExtensions___c__DisplayClass2_0() {}
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::*)()>(
-    &::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x227025c;
+  constexpr static std::size_t addrs = 0x22a2ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0._FileExists_b__0
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0._FileExists_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::*)()>(
-    &::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::_FileExists_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::_FileExists_b__0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2270744;
+  constexpr static std::size_t addrs = 0x22a2f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0*>::get(), "<FileExists>b__0",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0*>::get(), "<FileExists>b__0",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_get_fileStorage() {
+constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_get_fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_get_fileStorage() const {
+constexpr ::GlobalNamespace::IFileStorage* const& GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_get_fileStorage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileStorage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_get_fileName() {
+constexpr ::StringW& GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_get_fileName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr ::StringW const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_get_fileName() const {
+constexpr ::StringW const& GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_get_fileName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_set_fileName(::StringW value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_set_fileName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_get_storageLocation() {
+constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_get_storageLocation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_get_storageLocation() const {
+constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_get_storageLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___storageLocation = value;
 }
-inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0* GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0*>());
-}
-inline void GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::_ctor() {
+inline void GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::_FileExists_b__0() {
+inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::_FileExists_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0*>::get(), "<FileExists>b__0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0*>::get(), "<FileExists>b__0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0* GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0::__FileStorageExtensions____c__DisplayClass3_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0._ctor
+constexpr ::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::FileStorageExtensions___c__DisplayClass3_0() {}
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::*)()>(
-    &::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2270324;
+  constexpr static std::size_t addrs = 0x22a2b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0._DeleteFile_b__0
+//  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0._DeleteFile_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::*)()>(
-    &::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::_DeleteFile_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::*)()>(
+    &::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::_DeleteFile_b__0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22707f8;
+  constexpr static std::size_t addrs = 0x22a304c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0*>::get(), "<DeleteFile>b__0",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0*>::get(), "<DeleteFile>b__0",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_get_fileStorage() {
+constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_get_fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_get_fileStorage() const {
+constexpr ::GlobalNamespace::IFileStorage* const& GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_get_fileStorage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileStorage;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileStorage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_get_fileName() {
+constexpr ::StringW& GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_get_fileName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr ::StringW const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_get_fileName() const {
+constexpr ::StringW const& GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_get_fileName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_set_fileName(::StringW value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_set_fileName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_get_storageLocation() {
+constexpr ::GlobalNamespace::StoragePreference& GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_get_storageLocation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_get_storageLocation() const {
+constexpr ::GlobalNamespace::StoragePreference const& GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_get_storageLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storageLocation;
 }
-constexpr void GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
+constexpr void GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::__cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___storageLocation = value;
 }
-inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0* GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0*>());
-}
-inline void GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::_ctor() {
+inline void GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::_DeleteFile_b__0() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::_DeleteFile_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0*>::get(), "<DeleteFile>b__0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0*>::get(), "<DeleteFile>b__0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0* GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0::__FileStorageExtensions____c__DisplayClass4_0() {}
+constexpr ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::FileStorageExtensions___c__DisplayClass4_0() {}
+template <typename T> inline void GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline void GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T> constexpr GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename T> constexpr GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-template <typename T> inline void GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline void GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>>::get(), "SetStateMachine",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "storageLocation", ty:
-// "::GlobalNamespace::StoragePreference", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "",
-// def_value: Some("{}") }]
+// def_value: Some("{}") }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "storageLocation", ty: "::GlobalNamespace::StoragePreference",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
 template <typename T>
-constexpr ::GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1(
+constexpr ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, ::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName,
     ::GlobalNamespace::StoragePreference storageLocation, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -399,14 +397,14 @@ constexpr ::GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1<T>::__FileStorageExtensions___LoadFromJSONFileAsync_d__8_1() {}
+template <typename T> constexpr ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1() {}
 //  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions.SaveFile
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::SaveFile)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x226ffd4;
+  constexpr static std::size_t addrs = 0x22a2828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -423,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::LoadFile)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22700ac;
+  constexpr static std::size_t addrs = 0x22a2900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::FileExists)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2270188;
+  constexpr static std::size_t addrs = 0x22a29dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::DeleteFile)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2270264;
+  constexpr static std::size_t addrs = 0x22a2ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -474,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IFileStorage*, ::System::Object*, ::StringW, ::GlobalNamespace::StoragePreference,
                                                                                            ::Newtonsoft::Json::JsonSerializerSettings*)>(&::GlobalNamespace::FileStorageExtensions::SaveToJSONFile)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x227032c;
+  constexpr static std::size_t addrs = 0x22a2b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -493,7 +491,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::GlobalNamespace::IFileStorage*, ::System::Object*, ::StringW, ::GlobalNamespace::StoragePreference,
                                                       ::Newtonsoft::Json::JsonSerializerSettings*)>(&::GlobalNamespace::FileStorageExtensions::SaveToJSONFileAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x22704a0;
+  constexpr static std::size_t addrs = 0x22a2cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -537,7 +535,6 @@ inline void GlobalNamespace::FileStorageExtensions::DeleteFile(::GlobalNamespace
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::StoragePreference>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fileStorage, fileName, storageLocation);
 }
-/// @param overrideSerializerSettings: ::Newtonsoft::Json::JsonSerializerSettings* (default: nullptr)
 inline void GlobalNamespace::FileStorageExtensions::SaveToJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
                                                                    ::GlobalNamespace::StoragePreference storageLocation, ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -560,7 +557,6 @@ inline T GlobalNamespace::FileStorageExtensions::LoadFromJSONFile(::GlobalNamesp
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, fileStorage, fileName, storageLocation);
 }
-/// @param overrideSerializerSettings: ::Newtonsoft::Json::JsonSerializerSettings* (default: nullptr)
 inline ::System::Threading::Tasks::Task* GlobalNamespace::FileStorageExtensions::SaveToJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
                                                                                                      ::GlobalNamespace::StoragePreference storageLocation,
                                                                                                      ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings) {

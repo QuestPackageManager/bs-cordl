@@ -20,11 +20,10 @@ class ValidationResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::ValidationResult);
-// Type: Mono.Security.Interface::ValidationResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Security.Interface.MonoSslPolicyErrors, System.Nullable`1<T>, System.Object
 namespace Mono::Security::Interface {
 // Is value type: false
-// CS Name: ::Mono.Security.Interface::ValidationResult*
+// CS Name: Mono.Security.Interface.ValidationResult
 class CORDL_TYPE ValidationResult : public ::System::Object {
 public:
   // Declarations
@@ -71,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set_user_denied(bool value);
 
-  /// @brief Method .ctor, addr 0x3be4868, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4497c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
 
-  /// @brief Method get_Trusted, addr 0x3be48b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Trusted, addr 0x3c449c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Trusted();
 
-  /// @brief Method get_UserDenied, addr 0x3be48b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserDenied, addr 0x3c449cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_UserDenied();
 
 protected:
@@ -94,6 +93,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationResult(ValidationResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
+
   /// @brief Field trusted, offset: 0x10, size: 0x1, def value: None
   bool ___trusted;
 
@@ -106,14 +108,9 @@ public:
   /// @brief Field policy_errors, offset: 0x18, size: 0x8, def value: None
   ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> ___policy_errors;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15911 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::ValidationResult, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Interface::ValidationResult, ___trusted) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Interface::ValidationResult, ___user_denied) == 0x11, "Offset mismatch!");
@@ -121,6 +118,8 @@ static_assert(offsetof(::Mono::Security::Interface::ValidationResult, ___user_de
 static_assert(offsetof(::Mono::Security::Interface::ValidationResult, ___error_code) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Interface::ValidationResult, ___policy_errors) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::ValidationResult, 0x20>, "Size mismatch!");
 
 } // namespace Mono::Security::Interface
 NEED_NO_BOX(::Mono::Security::Interface::ValidationResult);

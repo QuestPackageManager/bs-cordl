@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthEnvelopedData)
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -20,16 +20,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Cms {
+class CmsAuthEnvelopedData_AuthEnvelopedSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
 class CmsReadable;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
-}
-namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
@@ -45,17 +42,16 @@ namespace Org::BouncyCastle::Cms {
 class CmsAuthEnvelopedData;
 }
 namespace Org::BouncyCastle::Cms {
-class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
+class CmsAuthEnvelopedData_AuthEnvelopedSecureReadable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData);
-MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable);
-// Type: ::AuthEnvelopedSecureReadable
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable);
+// Dependencies Org.BouncyCastle.Cms.CmsSecureReadable, System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::CmsAuthEnvelopedData::AuthEnvelopedSecureReadable*
-class CORDL_TYPE __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable : public ::System::Object {
+// CS Name: Org.BouncyCastle.Cms.CmsAuthEnvelopedData/AuthEnvelopedSecureReadable
+class CORDL_TYPE CmsAuthEnvelopedData_AuthEnvelopedSecureReadable : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
@@ -68,24 +64,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
 
-  /// @brief Method GetReadable, addr 0x261da48, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x2650d34, size 0x48, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
-  static inline ::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
+  static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
+
+  constexpr ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* const& __cordl_internal_get_parent() const;
 
   constexpr ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*> const& __cordl_internal_get_parent() const;
-
   constexpr void __cordl_internal_set_parent(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* value);
 
-  /// @brief Method .ctor, addr 0x261d9fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2650ce8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
-  /// @brief Method get_Algorithm, addr 0x261da24, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x2650d10, size 0x1c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x261da40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x2650d2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
@@ -94,40 +90,39 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable();
+  constexpr CmsAuthEnvelopedData_AuthEnvelopedSecureReadable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedData_AuthEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable(__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable&&) = delete;
+  CmsAuthEnvelopedData_AuthEnvelopedSecureReadable(CmsAuthEnvelopedData_AuthEnvelopedSecureReadable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedData_AuthEnvelopedSecureReadable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable(__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable const&) = delete;
-
-  /// @brief Field parent, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* ___parent;
+  CmsAuthEnvelopedData_AuthEnvelopedSecureReadable(CmsAuthEnvelopedData_AuthEnvelopedSecureReadable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 624 };
 
+  /// @brief Field parent, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* ___parent;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable, ___parent) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable, ___parent) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
-// Type: Org.BouncyCastle.Cms::CmsAuthEnvelopedData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsAuthEnvelopedData*
+// CS Name: Org.BouncyCastle.Cms.CmsAuthEnvelopedData
 class CORDL_TYPE CmsAuthEnvelopedData : public ::System::Object {
 public:
   // Declarations
-  using AuthEnvelopedSecureReadable = ::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
+  using AuthEnvelopedSecureReadable = ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable;
 
   /// @brief Field authAttrs, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs)) ::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
@@ -156,33 +151,33 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_authAttrs() const;
+
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authAttrs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_authAttrs() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_authEncAlg() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_authEncAlg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_authEncAlg() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo* const& __cordl_internal_get_contentInfo() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_contentInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mac() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mac();
 
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* const& __cordl_internal_get_originator() const;
+
   constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __cordl_internal_get_originator() const;
+  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore* const& __cordl_internal_get_recipientInfoStore() const;
 
   constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __cordl_internal_get_recipientInfoStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __cordl_internal_get_recipientInfoStore() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_unauthAttrs() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unauthAttrs();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unauthAttrs() const;
 
   constexpr void __cordl_internal_set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
@@ -198,13 +193,13 @@ public:
 
   constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x261d8a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2650b94, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authEnvData);
 
-  /// @brief Method .ctor, addr 0x261d9d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2650cc4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authEnvData);
 
-  /// @brief Method .ctor, addr 0x261d8cc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2650bb8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
 protected:
@@ -220,6 +215,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CmsAuthEnvelopedData(CmsAuthEnvelopedData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 625 };
 
   /// @brief Field recipientInfoStore, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Cms::RecipientInformationStore* ___recipientInfoStore;
@@ -242,14 +240,9 @@ public:
   /// @brief Field unauthAttrs, offset: 0x40, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Set* ___unauthAttrs;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 625 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAuthEnvelopedData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData, ___recipientInfoStore) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData, ___contentInfo) == 0x18, "Offset mismatch!");
@@ -264,8 +257,10 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData, ___mac) =
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData, ___unauthAttrs) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAuthEnvelopedData, 0x48>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*, "Org.BouncyCastle.Cms", "CmsAuthEnvelopedData");
-NEED_NO_BOX(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable*, "Org.BouncyCastle.Cms", "CmsAuthEnvelopedData/AuthEnvelopedSecureReadable");
+NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable*, "Org.BouncyCastle.Cms", "CmsAuthEnvelopedData/AuthEnvelopedSecureReadable");

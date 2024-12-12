@@ -24,22 +24,24 @@ class HEU_VolumeScatterTrees;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class Object;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_LoadBufferVolume;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferVolume);
-// Type: HoudiniEngineUnity::HEU_LoadBufferVolume
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_LoadBufferBase, UnityEngine.Vector3
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_LoadBufferVolume*
+// CS Name: HoudiniEngineUnity.HEU_LoadBufferVolume
 class CORDL_TYPE HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
   // Declarations
   /// @brief Field _detailMaps, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__detailMaps, put = __cordl_internal_set__detailMaps)) ::System::Collections::Generic::List_1<Il2CppObject*>* _detailMaps;
+  __declspec(property(get = __cordl_internal_get__detailMaps, put = __cordl_internal_set__detailMaps)) ::System::Collections::Generic::List_1<::System::Object*>* _detailMaps;
 
   /// @brief Field _detailProperties, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__detailProperties, put = __cordl_internal_set__detailProperties)) ::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties;
@@ -49,7 +51,7 @@ public:
                       put = __cordl_internal_set__detailPrototypes)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* _detailPrototypes;
 
   /// @brief Field _heightMap, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__heightMap, put = __cordl_internal_set__heightMap)) Il2CppObject* _heightMap;
+  __declspec(property(get = __cordl_internal_get__heightMap, put = __cordl_internal_set__heightMap)) ::System::Object* _heightMap;
 
   /// @brief Field _heightMapHeight, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__heightMapHeight, put = __cordl_internal_set__heightMapHeight)) int32_t _heightMapHeight;
@@ -74,7 +76,7 @@ public:
                       put = __cordl_internal_set__splatLayers)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* _splatLayers;
 
   /// @brief Field _splatMaps, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__splatMaps, put = __cordl_internal_set__splatMaps)) Il2CppObject* _splatMaps;
+  __declspec(property(get = __cordl_internal_get__splatMaps, put = __cordl_internal_set__splatMaps)) ::System::Object* _splatMaps;
 
   /// @brief Field _terrainDataExportPath, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__terrainDataExportPath, put = __cordl_internal_set__terrainDataExportPath)) ::StringW _terrainDataExportPath;
@@ -93,21 +95,21 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferVolume* New_ctor();
 
-  constexpr ::System::Collections::Generic::List_1<Il2CppObject*>*& __cordl_internal_get__detailMaps();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get__detailMaps() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<Il2CppObject*>*> const& __cordl_internal_get__detailMaps() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__detailMaps();
+
+  constexpr ::HoudiniEngineUnity::HEU_DetailProperties* const& __cordl_internal_get__detailProperties() const;
 
   constexpr ::HoudiniEngineUnity::HEU_DetailProperties*& __cordl_internal_get__detailProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_DetailProperties*> const& __cordl_internal_get__detailProperties() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* const& __cordl_internal_get__detailPrototypes() const;
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*& __cordl_internal_get__detailPrototypes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*> const& __cordl_internal_get__detailPrototypes() const;
+  constexpr ::System::Object* const& __cordl_internal_get__heightMap() const;
 
-  constexpr ::cordl_internals::to_const_pointer<Il2CppObject*> const& __cordl_internal_get__heightMap() const;
-
-  constexpr Il2CppObject*& __cordl_internal_get__heightMap();
+  constexpr ::System::Object*& __cordl_internal_get__heightMap();
 
   constexpr int32_t const& __cordl_internal_get__heightMapHeight() const;
 
@@ -125,21 +127,21 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__position();
 
-  constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& __cordl_internal_get__scatterTrees();
+  constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees* const& __cordl_internal_get__scatterTrees() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> const& __cordl_internal_get__scatterTrees() const;
+  constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& __cordl_internal_get__scatterTrees();
 
   constexpr ::StringW const& __cordl_internal_get__specifiedTerrainMaterialName() const;
 
   constexpr ::StringW& __cordl_internal_get__specifiedTerrainMaterialName();
 
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* const& __cordl_internal_get__splatLayers() const;
+
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>*& __cordl_internal_get__splatLayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>*> const& __cordl_internal_get__splatLayers() const;
+  constexpr ::System::Object* const& __cordl_internal_get__splatMaps() const;
 
-  constexpr ::cordl_internals::to_const_pointer<Il2CppObject*> const& __cordl_internal_get__splatMaps() const;
-
-  constexpr Il2CppObject*& __cordl_internal_get__splatMaps();
+  constexpr ::System::Object*& __cordl_internal_get__splatMaps();
 
   constexpr ::StringW const& __cordl_internal_get__terrainDataExportPath() const;
 
@@ -161,13 +163,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__tileIndex();
 
-  constexpr void __cordl_internal_set__detailMaps(::System::Collections::Generic::List_1<Il2CppObject*>* value);
+  constexpr void __cordl_internal_set__detailMaps(::System::Collections::Generic::List_1<::System::Object*>* value);
 
   constexpr void __cordl_internal_set__detailProperties(::HoudiniEngineUnity::HEU_DetailProperties* value);
 
   constexpr void __cordl_internal_set__detailPrototypes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* value);
 
-  constexpr void __cordl_internal_set__heightMap(Il2CppObject* value);
+  constexpr void __cordl_internal_set__heightMap(::System::Object* value);
 
   constexpr void __cordl_internal_set__heightMapHeight(int32_t value);
 
@@ -183,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set__splatLayers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* value);
 
-  constexpr void __cordl_internal_set__splatMaps(Il2CppObject* value);
+  constexpr void __cordl_internal_set__splatMaps(::System::Object* value);
 
   constexpr void __cordl_internal_set__terrainDataExportPath(::StringW value);
 
@@ -195,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set__tileIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a0bdc4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a62a34, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -212,6 +214,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_LoadBufferVolume(HEU_LoadBufferVolume const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11788 };
+
   /// @brief Field _tileIndex, offset: 0x30, size: 0x4, def value: None
   int32_t ____tileIndex;
 
@@ -225,10 +230,10 @@ public:
   int32_t ____heightMapHeight;
 
   /// @brief Field _heightMap, offset: 0x48, size: 0x8, def value: None
-  Il2CppObject* ____heightMap;
+  ::System::Object* ____heightMap;
 
   /// @brief Field _splatMaps, offset: 0x50, size: 0x8, def value: None
-  Il2CppObject* ____splatMaps;
+  ::System::Object* ____splatMaps;
 
   /// @brief Field _terrainSizeX, offset: 0x58, size: 0x4, def value: None
   float_t ____terrainSizeX;
@@ -255,7 +260,7 @@ public:
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* ____detailPrototypes;
 
   /// @brief Field _detailMaps, offset: 0x90, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<Il2CppObject*>* ____detailMaps;
+  ::System::Collections::Generic::List_1<::System::Object*>* ____detailMaps;
 
   /// @brief Field _detailProperties, offset: 0x98, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_DetailProperties* ____detailProperties;
@@ -263,14 +268,9 @@ public:
   /// @brief Field _specifiedTerrainMaterialName, offset: 0xa0, size: 0x8, def value: None
   ::StringW ____specifiedTerrainMaterialName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11755 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferVolume, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolume, ____tileIndex) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolume, ____splatLayers) == 0x38, "Offset mismatch!");
@@ -304,6 +304,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolume, ____detailMap
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolume, ____detailProperties) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolume, ____specifiedTerrainMaterialName) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferVolume, 0xa8>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferVolume);

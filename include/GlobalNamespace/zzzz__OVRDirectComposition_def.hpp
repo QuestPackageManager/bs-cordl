@@ -11,17 +11,16 @@ class OVRDirectComposition;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRDirectComposition);
-// Type: ::OVRDirectComposition
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRDirectComposition*
+// CS Name: OVRDirectComposition
 class CORDL_TYPE OVRDirectComposition : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVRDirectComposition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f371a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9724c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   OVRDirectComposition(OVRDirectComposition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

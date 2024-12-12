@@ -12,6 +12,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetMultiplayerInstanceRequest)
 namespace GlobalNamespace {
+struct AuthenticationToken_Platform;
+}
+namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
@@ -19,9 +22,6 @@ struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
-}
-namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -32,17 +32,16 @@ struct GetMultiplayerInstanceRequest;
 }
 // Write type traits
 MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest);
-// Type: BGNet.Core.GameLift::GetMultiplayerInstanceRequest
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies AuthenticationToken::Platform, BeatmapLevelSelectionMask, GameplayServerConfiguration, ServiceEnvironment
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
+// CS Name: BGNet.Core.GameLift.GetMultiplayerInstanceRequest
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22ba664, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ed950, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
-                    ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW authUserId,
+                    ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken_Platform platform, ::StringW authUserId,
                     ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
                     ::StringW ticketId, ::StringW placementId);
 
@@ -54,14 +53,20 @@ public:
   // def_value: None }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty:
   // "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers:
   // "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::GlobalNamespace::__AuthenticationToken__Platform", modifiers: "",
+  // CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_Platform", modifiers: "",
   // def_value: None }, CppParam { name: "authUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameliftRegionLatencies", ty:
   // "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
   // name: "placementId", ty: "::StringW", modifiers: "", def_value: None }]
   constexpr GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW singleUseAuthToken,
                                           ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration,
-                                          ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode, ::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW authUserId,
+                                          ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode, ::GlobalNamespace::AuthenticationToken_Platform platform, ::StringW authUserId,
                                           ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15016 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
 
   /// @brief Field version, offset: 0x0, size: 0x8, def value: None
   ::StringW version;
@@ -88,7 +93,7 @@ public:
   ::StringW privateGameCode;
 
   /// @brief Field platform, offset: 0x70, size: 0x1, def value: None
-  ::GlobalNamespace::__AuthenticationToken__Platform platform;
+  ::GlobalNamespace::AuthenticationToken_Platform platform;
 
   /// @brief Field authUserId, offset: 0x78, size: 0x8, def value: None
   ::StringW authUserId;
@@ -102,17 +107,9 @@ public:
   /// @brief Field placementId, offset: 0x90, size: 0x8, def value: None
   ::StringW placementId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14982 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, version) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, serviceEnvironment) == 0x8, "Offset mismatch!");
@@ -138,6 +135,8 @@ static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, g
 static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, ticketId) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, placementId) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, 0x98>, "Size mismatch!");
 
 } // namespace BGNet::Core::GameLift
 DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, "BGNet.Core.GameLift", "GetMultiplayerInstanceRequest");

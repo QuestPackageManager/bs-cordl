@@ -3,14 +3,12 @@
 #include "System/zzzz__DTSubStringType_impl.hpp"
 #include "System/zzzz__ReadOnlySpan_1_impl.hpp"
 #include "System/zzzz__DTSubString_def.hpp"
-#include "System/zzzz__DTSubStringType_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::System::DTSubString.get_Item
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::DTSubString::*)(int32_t)>(&::System::DTSubString::get_Item)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d829f8;
+  constexpr static std::size_t addrs = 0x3de2b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

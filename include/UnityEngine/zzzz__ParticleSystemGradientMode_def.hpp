@@ -12,11 +12,10 @@ struct ParticleSystemGradientMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ParticleSystemGradientMode);
-// Type: UnityEngine::ParticleSystemGradientMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::ParticleSystemGradientMode
+// CS Name: UnityEngine.ParticleSystemGradientMode
 struct CORDL_TYPE ParticleSystemGradientMode {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ParticleSystemGradientMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Color value: static_cast<int32_t>(0x0)
+  /// @brief Field Color value: I32(0)
   static ::UnityEngine::ParticleSystemGradientMode const Color;
 
-  /// @brief Field Gradient value: static_cast<int32_t>(0x1)
+  /// @brief Field Gradient value: I32(1)
   static ::UnityEngine::ParticleSystemGradientMode const Gradient;
 
-  /// @brief Field RandomColor value: static_cast<int32_t>(0x4)
+  /// @brief Field RandomColor value: I32(4)
   static ::UnityEngine::ParticleSystemGradientMode const RandomColor;
 
-  /// @brief Field TwoColors value: static_cast<int32_t>(0x2)
+  /// @brief Field TwoColors value: I32(2)
   static ::UnityEngine::ParticleSystemGradientMode const TwoColors;
 
-  /// @brief Field TwoGradients value: static_cast<int32_t>(0x3)
+  /// @brief Field TwoGradients value: I32(3)
   static ::UnityEngine::ParticleSystemGradientMode const TwoGradients;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17283 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ParticleSystemGradientMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ParticleSystemGradientMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ParticleSystemGradientMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemGradientMode, "UnityEngine", "ParticleSystemGradientMode");

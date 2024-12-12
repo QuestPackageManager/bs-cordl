@@ -26,40 +26,39 @@ class ExpandoObjectConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::ExpandoObjectConverter);
-// Type: Newtonsoft.Json.Converters::ExpandoObjectConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Converters::ExpandoObjectConverter*
+// CS Name: Newtonsoft.Json.Converters.ExpandoObjectConverter
 class CORDL_TYPE ExpandoObjectConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   __declspec(property(get = get_CanWrite)) bool CanWrite;
 
-  /// @brief Method CanConvert, addr 0x3eddffc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x3f3e0a8, size 0x88, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::ExpandoObjectConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3eddb28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f3dbd4, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadList, addr 0x3edde68, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReadList, addr 0x3f3df14, size 0x194, virtual false, abstract: false, final false
   inline ::System::Object* ReadList(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ReadObject, addr 0x3eddc98, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x3f3dd44, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Object* ReadObject(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ReadValue, addr 0x3eddb2c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x3f3dbd8, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Object* ReadValue(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method WriteJson, addr 0x3eddb24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f3dbd0, size 0x4, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3ede08c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3e138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanWrite, addr 0x3ede084, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x3f3e130, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
 protected:
@@ -77,7 +76,7 @@ public:
   ExpandoObjectConverter(ExpandoObjectConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -11,13 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleLength)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct Length;
@@ -31,11 +27,10 @@ struct StyleLength;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleLength);
-// Type: UnityEngine.UIElements::StyleLength
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.Length, UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::StyleLength
+// CS Name: UnityEngine.UIElements.StyleLength
 struct CORDL_TYPE StyleLength {
 public:
   // Declarations
@@ -49,34 +44,34 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>*();
 
-  /// @brief Method Equals, addr 0x4a1eeac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a837bc, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1ee6c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a8377c, size 0x40, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleLength other);
 
-  /// @brief Method GetHashCode, addr 0x4a1ef50, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a83860, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4a1ef80, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a83890, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a1ede0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a836f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x4a1edc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a836d0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length v);
 
-  /// @brief Method .ctor, addr 0x4a1d11c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a81a2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x4a1ed94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a836a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t v);
 
-  /// @brief Method get_keyword, addr 0x4a1ed8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x4a8369c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x4a1ed68, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x4a83678, size 0x24, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Length get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleLength>"
@@ -85,16 +80,16 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Length>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Length_();
 
-  /// @brief Method op_Equality, addr 0x4a1edec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a836fc, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleLength lhs, ::UnityEngine::UIElements::StyleLength rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a1d13c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a81a4c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleLength op_Implicit___UnityEngine__UIElements__StyleLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit, addr 0x4a1ee4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a8375c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleLength op_Implicit___UnityEngine__UIElements__StyleLength(::UnityEngine::UIElements::Length v);
 
-  /// @brief Method op_Implicit, addr 0x4a1ee24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a83734, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleLength op_Implicit___UnityEngine__UIElements__StyleLength(float_t v);
 
   // Ctor Parameters []
@@ -105,26 +100,26 @@ public:
   // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
   constexpr StyleLength(::UnityEngine::UIElements::Length m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6100 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field m_Value, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length m_Value;
 
   /// @brief Field m_Keyword, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6075 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleLength, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleLength, m_Value) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleLength, m_Keyword) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleLength, 0xc>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleLength, "UnityEngine.UIElements", "StyleLength");

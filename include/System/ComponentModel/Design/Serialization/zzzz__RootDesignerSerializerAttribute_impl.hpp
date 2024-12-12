@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)(
     ::StringW, ::StringW, bool)>(&::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x441d020;
+  constexpr static std::size_t addrs = 0x447e334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)()>(
     &::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::get_SerializerBaseTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441d05c;
+  constexpr static std::size_t addrs = 0x447e370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)()>(
     &::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::get_TypeId)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x441d064;
+  constexpr static std::size_t addrs = 0x447e378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,10 +100,6 @@ constexpr void System::ComponentModel::Design::Serialization::RootDesignerSerial
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SerializerBaseTypeName_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*
-System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*>(serializerTypeName, baseSerializerTypeName, reloadable));
-}
 inline void System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*>::get(), ".ctor",
@@ -123,6 +119,10 @@ inline ::System::Object* System::ComponentModel::Design::Serialization::RootDesi
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*
+System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*>(serializerTypeName, baseSerializerTypeName, reloadable));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::RootDesignerSerializerAttribute() {}

@@ -37,7 +37,7 @@ template <typename T> inline void System::Collections::Generic::ValueListBuilder
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T,::Array<T>*>", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// def_value: Some("{}") }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Collections::Generic::ValueListBuilder_1<T>::ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T, ::Array<T>*> _arrayFromPool, int32_t _pos) noexcept {
   this->_span = _span;
   this->_arrayFromPool = _arrayFromPool;

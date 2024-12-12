@@ -19,11 +19,10 @@ class Switch;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Switch);
-// Type: System.Diagnostics::Switch
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::Switch*
+// CS Name: System.Diagnostics.Switch
 class CORDL_TYPE Switch : public ::System::Object {
 public:
   // Declarations
@@ -37,13 +36,13 @@ public:
   __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName)) ::StringW displayName;
 
   /// @brief Field s_LastCollectionCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_LastCollectionCount, put = setStaticF_s_LastCollectionCount)) int32_t s_LastCollectionCount;
+  __declspec(property(get = getStaticF_s_LastCollectionCount, put = setStaticF_s_LastCollectionCount)) int32_t s_LastCollectionCount;
 
   /// @brief Field switchValueString, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_switchValueString, put = __cordl_internal_set_switchValueString)) ::StringW switchValueString;
 
   /// @brief Field switches, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_switches, put = setStaticF_switches)) ::System::Collections::Generic::List_1<::System::WeakReference*>* switches;
+  __declspec(property(get = getStaticF_switches, put = setStaticF_switches)) ::System::Collections::Generic::List_1<::System::WeakReference*>* switches;
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description);
 
@@ -73,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_switchValueString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43c849c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44297b0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x43c85c0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44298d4, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method _pruneCachedSwitches, addr 0x43c87f8, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method _pruneCachedSwitches, addr 0x4429b0c, size 0x4dc, virtual false, abstract: false, final false
   static inline void _pruneCachedSwitches();
 
   static inline int32_t getStaticF_s_LastCollectionCount();
@@ -104,6 +103,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Switch(Switch const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9251 };
+
   /// @brief Field description, offset: 0x10, size: 0x8, def value: None
   ::StringW ___description;
 
@@ -116,14 +118,9 @@ public:
   /// @brief Field defaultValue, offset: 0x28, size: 0x8, def value: None
   ::StringW ___defaultValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9226 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Switch, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::Switch, ___description) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::Switch, ___displayName) == 0x18, "Offset mismatch!");
@@ -131,6 +128,8 @@ static_assert(offsetof(::System::Diagnostics::Switch, ___displayName) == 0x18, "
 static_assert(offsetof(::System::Diagnostics::Switch, ___switchValueString) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::Switch, ___defaultValue) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Switch, 0x30>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::Switch);

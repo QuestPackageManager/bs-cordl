@@ -14,20 +14,19 @@ class ShaderWarmupScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO);
-// Type: ::ShaderWarmupScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SingleFixedSceneScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ShaderWarmupScenesTransitionSetupDataSO*
+// CS Name: ShaderWarmupScenesTransitionSetupDataSO
 class CORDL_TYPE ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3add8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b3d99c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
 
   static inline ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3add8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3d9a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   ShaderWarmupScenesTransitionSetupDataSO(ShaderWarmupScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

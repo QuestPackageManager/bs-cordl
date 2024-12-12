@@ -22,11 +22,10 @@ class OperationCanceledException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::OperationCanceledException);
-// Type: System::OperationCanceledException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException, System.Threading.CancellationToken
 namespace System {
 // Is value type: false
-// CS Name: ::System::OperationCanceledException*
+// CS Name: System.OperationCanceledException
 class CORDL_TYPE OperationCanceledException : public ::System::SystemException {
 public:
   // Declarations
@@ -49,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set__cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x3d98df8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8e68, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d98f18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8f88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d98ec8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8f38, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d98ee8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8f58, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Threading::CancellationToken token);
 
-  /// @brief Method get_CancellationToken, addr 0x3d98de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancellationToken, addr 0x3df8e58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method set_CancellationToken, addr 0x3d98df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancellationToken, addr 0x3df8e60, size 0x8, virtual false, abstract: false, final false
   inline void set_CancellationToken(::System::Threading::CancellationToken value);
 
 protected:
@@ -81,18 +80,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OperationCanceledException(OperationCanceledException const&) = delete;
 
-  /// @brief Field _cancellationToken, offset: 0x90, size: 0x8, def value: None
-  ::System::Threading::CancellationToken ____cancellationToken;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2454 };
+
+  /// @brief Field _cancellationToken, offset: 0x90, size: 0x8, def value: None
+  ::System::Threading::CancellationToken ____cancellationToken;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::OperationCanceledException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::System::OperationCanceledException, ____cancellationToken) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::OperationCanceledException, 0x98>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::OperationCanceledException);

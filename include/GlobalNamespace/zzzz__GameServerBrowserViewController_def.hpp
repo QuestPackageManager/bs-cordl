@@ -23,11 +23,10 @@ class GameServerBrowserViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserViewController);
-// Type: ::GameServerBrowserViewController
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameServerBrowserViewController*
+// CS Name: GameServerBrowserViewController
 class CORDL_TYPE GameServerBrowserViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -88,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__smallLoadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
-  /// @brief Method .ctor, addr 0x3b0b4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6b50c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,6 +103,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameServerBrowserViewController(GameServerBrowserViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5373 };
 
   /// @brief Field _filterServersButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____filterServersButton;
@@ -123,14 +125,9 @@ public:
   /// @brief Field _smallLoadingControl, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____smallLoadingControl;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5349 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerBrowserViewController, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____filterServersButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____filterText) == 0x80, "Offset mismatch!");
@@ -142,6 +139,8 @@ static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____g
 static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____mainLoadingControl) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____smallLoadingControl) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerBrowserViewController, 0xa8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerBrowserViewController);

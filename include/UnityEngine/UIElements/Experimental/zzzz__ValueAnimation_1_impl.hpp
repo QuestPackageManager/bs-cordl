@@ -1,51 +1,41 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Experimental/ValueAnimation_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_impl.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
-#include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-template <typename T> inline void UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::setStaticF___9(::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get>(
-      std::forward<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>(value));
+template <typename T> inline void UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>::setStaticF___9(::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*>::get>(
+      std::forward<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*>(value));
 }
-template <typename T> inline ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get>();
+template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>* UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*>::get>();
 }
-template <typename T> inline ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>());
-}
-template <typename T> inline void UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::_ctor() {
+template <typename T> inline void UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>* UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::__cctor_b__67_0() {
+template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>* UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>::__cctor_b__67_0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get(), "<.cctor>b__67_0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*>::get(), "<.cctor>b__67_0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*, false>(this, ___internal_method);
 }
+template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>* UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::__ValueAnimation_1____c() {}
-/// @brief Convert operator to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
-template <typename T> constexpr UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::operator ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*() noexcept {
-  return static_cast<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
-template <typename T>
-constexpr ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*
-UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::i___UnityEngine__UIElements__Experimental__IValueAnimationUpdate() noexcept {
-  return static_cast<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>(static_cast<void*>(this));
-}
+template <typename T> constexpr ::UnityEngine::UIElements::Experimental::ValueAnimation_1___c<T>::ValueAnimation_1___c() {}
 template <typename T> constexpr int64_t& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get_m_StartTimeMs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartTimeMs;
@@ -74,9 +64,7 @@ template <typename T> constexpr ::System::Func_2<float_t, float_t>*& UnityEngine
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easingCurve_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, float_t>*> const&
-UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__easingCurve_k__BackingField() const {
+template <typename T> constexpr ::System::Func_2<float_t, float_t>* const& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__easingCurve_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easingCurve_k__BackingField;
 }
@@ -100,8 +88,7 @@ template <typename T> constexpr ::System::Action*& UnityEngine::UIElements::Expe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAnimationCompleted_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__onAnimationCompleted_k__BackingField() const {
+template <typename T> constexpr ::System::Action* const& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__onAnimationCompleted_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAnimationCompleted_k__BackingField;
 }
@@ -137,9 +124,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::VisualElement*& Unity
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____owner_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__owner_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__owner_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____owner_k__BackingField;
 }
@@ -153,7 +138,7 @@ constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*& Uni
   return this->____valueUpdated_k__BackingField;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*> const&
+constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* const&
 UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__valueUpdated_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueUpdated_k__BackingField;
@@ -169,7 +154,7 @@ constexpr ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*& Unity
   return this->____initialValue_k__BackingField;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*> const&
+constexpr ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* const&
 UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__initialValue_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialValue_k__BackingField;
@@ -183,9 +168,7 @@ template <typename T> constexpr ::System::Func_4<T, T, float_t, T>*& UnityEngine
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interpolator_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_4<T, T, float_t, T>*> const&
-UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__interpolator_k__BackingField() const {
+template <typename T> constexpr ::System::Func_4<T, T, float_t, T>* const& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__interpolator_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interpolator_k__BackingField;
 }
@@ -385,9 +368,6 @@ template <typename T> inline void UnityEngine::UIElements::Experimental::ValueAn
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>* UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>::get(), ".ctor",
@@ -462,6 +442,19 @@ template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnima
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>::get(), "KeepAlive",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>* UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
+template <typename T> constexpr UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::operator ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*() noexcept {
+  return static_cast<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
+template <typename T>
+constexpr ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*
+UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::i___UnityEngine__UIElements__Experimental__IValueAnimationUpdate() noexcept {
+  return static_cast<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::ValueAnimation_1() {}

@@ -12,11 +12,10 @@ struct ArchiveStatus;
 }
 // Write type traits
 MARK_VAL_T(::Unity::IO::Archive::ArchiveStatus);
-// Type: Unity.IO.Archive::ArchiveStatus
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::IO::Archive {
 // Is value type: true
-// CS Name: ::Unity.IO.Archive::ArchiveStatus
+// CS Name: Unity.IO.Archive.ArchiveStatus
 struct CORDL_TYPE ArchiveStatus {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ArchiveStatus(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Complete value: static_cast<int32_t>(0x1)
+  /// @brief Field Complete value: I32(1)
   static ::Unity::IO::Archive::ArchiveStatus const Complete;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x2)
+  /// @brief Field Failed value: I32(2)
   static ::Unity::IO::Archive::ArchiveStatus const Failed;
 
-  /// @brief Field InProgress value: static_cast<int32_t>(0x0)
+  /// @brief Field InProgress value: I32(0)
   static ::Unity::IO::Archive::ArchiveStatus const InProgress;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10583 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::IO::Archive::ArchiveStatus, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::IO::Archive::ArchiveStatus, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::IO::Archive::ArchiveStatus, 0x4>, "Size mismatch!");
 
 } // namespace Unity::IO::Archive
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::Archive::ArchiveStatus, "Unity.IO.Archive", "ArchiveStatus");

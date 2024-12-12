@@ -1,109 +1,106 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/InputBinding.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBinding_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions::__InputBinding__DisplayStringOptions(int32_t value__) noexcept {
+constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions::InputBinding_DisplayStringOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions::__InputBinding__DisplayStringOptions() {}
-constexpr ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions UnityEngine::InputSystem::__InputBinding__DisplayStringOptions::DontUseShortDisplayNames{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions UnityEngine::InputSystem::__InputBinding__DisplayStringOptions::DontOmitDevice{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions UnityEngine::InputSystem::__InputBinding__DisplayStringOptions::DontIncludeInteractions{ static_cast<int32_t>(0x4) };
-constexpr ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions UnityEngine::InputSystem::__InputBinding__DisplayStringOptions::IgnoreBindingOverrides{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions::InputBinding_DisplayStringOptions() {}
+constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEngine::InputSystem::InputBinding_DisplayStringOptions::DontUseShortDisplayNames{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEngine::InputSystem::InputBinding_DisplayStringOptions::DontOmitDevice{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEngine::InputSystem::InputBinding_DisplayStringOptions::DontIncludeInteractions{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEngine::InputSystem::InputBinding_DisplayStringOptions::IgnoreBindingOverrides{ static_cast<int32_t>(0x8) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::__InputBinding__MatchOptions::__InputBinding__MatchOptions(int32_t value__) noexcept {
+constexpr ::UnityEngine::InputSystem::InputBinding_MatchOptions::InputBinding_MatchOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputBinding__MatchOptions::__InputBinding__MatchOptions() {}
-constexpr ::UnityEngine::InputSystem::__InputBinding__MatchOptions UnityEngine::InputSystem::__InputBinding__MatchOptions::EmptyGroupMatchesAny{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::InputSystem::InputBinding_MatchOptions::InputBinding_MatchOptions() {}
+constexpr ::UnityEngine::InputSystem::InputBinding_MatchOptions UnityEngine::InputSystem::InputBinding_MatchOptions::EmptyGroupMatchesAny{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::__InputBinding__Flags::__InputBinding__Flags(int32_t value__) noexcept {
+constexpr ::UnityEngine::InputSystem::InputBinding_Flags::InputBinding_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputBinding__Flags::__InputBinding__Flags() {}
-constexpr ::UnityEngine::InputSystem::__InputBinding__Flags UnityEngine::InputSystem::__InputBinding__Flags::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::InputSystem::__InputBinding__Flags UnityEngine::InputSystem::__InputBinding__Flags::Composite{ static_cast<int32_t>(0x4) };
-constexpr ::UnityEngine::InputSystem::__InputBinding__Flags UnityEngine::InputSystem::__InputBinding__Flags::PartOfComposite{ static_cast<int32_t>(0x8) };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputBinding____c._ctor
+constexpr ::UnityEngine::InputSystem::InputBinding_Flags::InputBinding_Flags() {}
+constexpr ::UnityEngine::InputSystem::InputBinding_Flags UnityEngine::InputSystem::InputBinding_Flags::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::InputSystem::InputBinding_Flags UnityEngine::InputSystem::InputBinding_Flags::Composite{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::InputSystem::InputBinding_Flags UnityEngine::InputSystem::InputBinding_Flags::PartOfComposite{ static_cast<int32_t>(0x8) };
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputBinding___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputBinding____c::*)()>(
-    &::UnityEngine::InputSystem::__InputBinding____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding___c::*)()>(&::UnityEngine::InputSystem::InputBinding___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f96d4;
+  constexpr static std::size_t addrs = 0x455a9e8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputBinding____c._MaskByGroups_b__45_0
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputBinding___c._MaskByGroups_b__45_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputBinding____c::*)(::StringW)>(
-    &::UnityEngine::InputSystem::__InputBinding____c::_MaskByGroups_b__45_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding___c::*)(::StringW)>(
+    &::UnityEngine::InputSystem::InputBinding___c::_MaskByGroups_b__45_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44f96dc;
+  constexpr static std::size_t addrs = 0x455a9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get(), "<MaskByGroups>b__45_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get(), "<MaskByGroups>b__45_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::InputSystem::__InputBinding____c::setStaticF___9(::UnityEngine::InputSystem::__InputBinding____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::__InputBinding____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get>(
-      std::forward<::UnityEngine::InputSystem::__InputBinding____c*>(value));
+inline void UnityEngine::InputSystem::InputBinding___c::setStaticF___9(::UnityEngine::InputSystem::InputBinding___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::InputBinding___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get>(
+      std::forward<::UnityEngine::InputSystem::InputBinding___c*>(value));
 }
-inline ::UnityEngine::InputSystem::__InputBinding____c* UnityEngine::InputSystem::__InputBinding____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::__InputBinding____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get>();
+inline ::UnityEngine::InputSystem::InputBinding___c* UnityEngine::InputSystem::InputBinding___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::InputBinding___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get>();
 }
-inline void UnityEngine::InputSystem::__InputBinding____c::setStaticF___9__45_0(::System::Func_2<::StringW, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::StringW, bool>*, "<>9__45_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get>(
+inline void UnityEngine::InputSystem::InputBinding___c::setStaticF___9__45_0(::System::Func_2<::StringW, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::StringW, bool>*, "<>9__45_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get>(
       std::forward<::System::Func_2<::StringW, bool>*>(value));
 }
-inline ::System::Func_2<::StringW, bool>* UnityEngine::InputSystem::__InputBinding____c::getStaticF___9__45_0() {
+inline ::System::Func_2<::StringW, bool>* UnityEngine::InputSystem::InputBinding___c::getStaticF___9__45_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::StringW, bool>*, "<>9__45_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get>();
 }
-inline ::UnityEngine::InputSystem::__InputBinding____c* UnityEngine::InputSystem::__InputBinding____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::__InputBinding____c*>());
-}
-inline void UnityEngine::InputSystem::__InputBinding____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get(), ".ctor",
+inline void UnityEngine::InputSystem::InputBinding___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::__InputBinding____c::_MaskByGroups_b__45_0(::StringW x) {
+inline bool UnityEngine::InputSystem::InputBinding___c::_MaskByGroups_b__45_0(::StringW x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputBinding____c*>::get(), "<MaskByGroups>b__45_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding___c*>::get(), "<MaskByGroups>b__45_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
+inline ::UnityEngine::InputSystem::InputBinding___c* UnityEngine::InputSystem::InputBinding___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputBinding___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputBinding____c::__InputBinding____c() {}
+constexpr ::UnityEngine::InputSystem::InputBinding___c::InputBinding___c() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputBinding.get_name
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f89b0;
+  constexpr static std::size_t addrs = 0x4559cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "get_name",
@@ -116,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(&::UnityEngine::InputSystem::InputBinding::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f89b8;
+  constexpr static std::size_t addrs = 0x4559ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_id)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44f89c0;
+  constexpr static std::size_t addrs = 0x4559cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "get_id",
@@ -144,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::System::Guid)>(
     &::UnityEngine::InputSystem::InputBinding::set_id)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44ee0c0;
+  constexpr static std::size_t addrs = 0x454f3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a08;
+  constexpr static std::size_t addrs = 0x4559d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "get_path",
@@ -171,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(&::UnityEngine::InputSystem::InputBinding::set_path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a10;
+  constexpr static std::size_t addrs = 0x4559d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_overridePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a18;
+  constexpr static std::size_t addrs = 0x4559d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -200,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::set_overridePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a20;
+  constexpr static std::size_t addrs = 0x4559d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_interactions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a28;
+  constexpr static std::size_t addrs = 0x4559d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -229,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::set_interactions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a30;
+  constexpr static std::size_t addrs = 0x4559d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_overrideInteractions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a38;
+  constexpr static std::size_t addrs = 0x4559d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -258,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::set_overrideInteractions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a40;
+  constexpr static std::size_t addrs = 0x4559d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_processors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a48;
+  constexpr static std::size_t addrs = 0x4559d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -287,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::set_processors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a50;
+  constexpr static std::size_t addrs = 0x4559d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_overrideProcessors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a58;
+  constexpr static std::size_t addrs = 0x4559d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -316,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::set_overrideProcessors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a60;
+  constexpr static std::size_t addrs = 0x4559d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_groups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a68;
+  constexpr static std::size_t addrs = 0x4559d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "get_groups",
@@ -344,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::set_groups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a70;
+  constexpr static std::size_t addrs = 0x4559d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a78;
+  constexpr static std::size_t addrs = 0x4559d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "get_action",
@@ -372,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::set_action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f8a80;
+  constexpr static std::size_t addrs = 0x4559d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -386,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_isComposite)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ee3c8;
+  constexpr static std::size_t addrs = 0x454f6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -400,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(bool)>(
     &::UnityEngine::InputSystem::InputBinding::set_isComposite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44edc10;
+  constexpr static std::size_t addrs = 0x454ef24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -415,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_isPartOfComposite)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44f067c;
+  constexpr static std::size_t addrs = 0x4551990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -429,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(bool)>(
     &::UnityEngine::InputSystem::InputBinding::set_isPartOfComposite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44f097c;
+  constexpr static std::size_t addrs = 0x4551c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -443,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_hasOverrides)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44f8a88;
+  constexpr static std::size_t addrs = 0x4559d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -457,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::InputSystem::InputBinding::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44f8ab0;
+  constexpr static std::size_t addrs = 0x4559dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -474,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::GetNameOfComposite)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44f8ad0;
+  constexpr static std::size_t addrs = 0x4559de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -487,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::GenerateId)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44edc3c;
+  constexpr static std::size_t addrs = 0x454ef50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "GenerateId",
@@ -500,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::RemoveOverrides)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44f8b14;
+  constexpr static std::size_t addrs = 0x4559e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -513,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputBinding (*)(::StringW)>(&::UnityEngine::InputSystem::InputBinding::MaskByGroup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44f8b20;
+  constexpr static std::size_t addrs = 0x4559e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputBinding (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::UnityEngine::InputSystem::InputBinding::MaskByGroups)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x44f8b38;
+  constexpr static std::size_t addrs = 0x4559e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -543,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_effectivePath)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44f1d18;
+  constexpr static std::size_t addrs = 0x455302c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -557,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_effectiveInteractions)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44f8c90;
+  constexpr static std::size_t addrs = 0x4559fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -571,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(
     &::UnityEngine::InputSystem::InputBinding::get_effectiveProcessors)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44f8ca8;
+  constexpr static std::size_t addrs = 0x4559fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(),
@@ -584,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::get_isEmpty)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x44f8cc0;
+  constexpr static std::size_t addrs = 0x4559fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "get_isEmpty",
@@ -598,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)(::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputBinding::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x44f8d0c;
+  constexpr static std::size_t addrs = 0x455a020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -613,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::InputBinding::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44f8dd8;
+  constexpr static std::size_t addrs = 0x455a0ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -628,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputBinding, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputBinding::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44f0e48;
+  constexpr static std::size_t addrs = 0x455215c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -644,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputBinding, ::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputBinding::op_Inequality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x44f8e68;
+  constexpr static std::size_t addrs = 0x455a17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -659,7 +656,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::GetHashCode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x44f8eb4;
+  constexpr static std::size_t addrs = 0x455a1c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -673,7 +670,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)()>(&::UnityEngine::InputSystem::InputBinding::ToString)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x44f8fb8;
+  constexpr static std::size_t addrs = 0x455a2cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -686,14 +683,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)(
-    ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::InputBinding::ToDisplayString)> {
+    ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::InputBinding::ToDisplayString)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44f90cc;
+  constexpr static std::size_t addrs = 0x455a3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "ToDisplayString", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions>::get(),
+                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding_DisplayStringOptions>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControl*>::get() })));
     return ___internal_method;
   }
@@ -702,17 +699,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputBinding::*)(
-    ByRef<::StringW>, ByRef<::StringW>, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions, ::UnityEngine::InputSystem::InputControl*)>(
+    ::ByRef<::StringW>, ::ByRef<::StringW>, ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions, ::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::InputBinding::ToDisplayString)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x44f90f8;
+  constexpr static std::size_t addrs = 0x455a40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "ToDisplayString", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions>::get(),
+                                   ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding_DisplayStringOptions>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControl*>::get() })));
     return ___internal_method;
   }
@@ -723,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputBinding::TriggersAction)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44ee3d4;
+  constexpr static std::size_t addrs = 0x454f6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -738,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)(::UnityEngine::InputSystem::InputBinding)>(
     &::UnityEngine::InputSystem::InputBinding::Matches)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f9568;
+  constexpr static std::size_t addrs = 0x455a87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -751,26 +748,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputBinding::*)(
-    ByRef<::UnityEngine::InputSystem::InputBinding>, ::UnityEngine::InputSystem::__InputBinding__MatchOptions)>(&::UnityEngine::InputSystem::InputBinding::Matches)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBinding>, ::UnityEngine::InputSystem::InputBinding_MatchOptions)>(&::UnityEngine::InputSystem::InputBinding::Matches)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x44f9570;
+  constexpr static std::size_t addrs = 0x455a884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "Matches", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBinding>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::__InputBinding__MatchOptions>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBinding>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding_MatchOptions>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
-constexpr UnityEngine::InputSystem::InputBinding::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
-constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>* UnityEngine::InputSystem::InputBinding::i___System__IEquatable_1___UnityEngine__InputSystem__InputBinding_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::StringW UnityEngine::InputSystem::InputBinding::get_name() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "get_name",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -908,11 +897,6 @@ inline bool UnityEngine::InputSystem::InputBinding::get_hasOverrides() {
                                                                              "get_hasOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-/// @param action: ::StringW (default: nullptr)
-/// @param groups: ::StringW (default: nullptr)
-/// @param processors: ::StringW (default: nullptr)
-/// @param interactions: ::StringW (default: nullptr)
-/// @param name: ::StringW (default: nullptr)
 inline void UnityEngine::InputSystem::InputBinding::_ctor(::StringW path, ::StringW action, ::StringW groups, ::StringW processors, ::StringW interactions, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -1003,24 +987,20 @@ inline ::StringW UnityEngine::InputSystem::InputBinding::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-/// @param options: ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions (default: static_cast<int32_t>(0x0))
-/// @param control: ::UnityEngine::InputSystem::InputControl* (default: nullptr)
-inline ::StringW UnityEngine::InputSystem::InputBinding::ToDisplayString(::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl* control) {
+inline ::StringW UnityEngine::InputSystem::InputBinding::ToDisplayString(::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl* control) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "ToDisplayString", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions>::get(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding_DisplayStringOptions>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, options, control);
 }
-/// @param options: ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions (default: static_cast<int32_t>(0x0))
-/// @param control: ::UnityEngine::InputSystem::InputControl* (default: nullptr)
-inline ::StringW UnityEngine::InputSystem::InputBinding::ToDisplayString(ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath,
-                                                                         ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl* control) {
+inline ::StringW UnityEngine::InputSystem::InputBinding::ToDisplayString(::ByRef<::StringW> deviceLayoutName, ::ByRef<::StringW> controlPath,
+                                                                         ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl* control) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "ToDisplayString", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions>::get(),
+                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding_DisplayStringOptions>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, deviceLayoutName, controlPath, options, control);
 }
@@ -1036,23 +1016,30 @@ inline bool UnityEngine::InputSystem::InputBinding::Matches(::UnityEngine::Input
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, binding);
 }
-/// @param options: ::UnityEngine::InputSystem::__InputBinding__MatchOptions (default: static_cast<int32_t>(0x0))
-inline bool UnityEngine::InputSystem::InputBinding::Matches(ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::UnityEngine::InputSystem::__InputBinding__MatchOptions options) {
+inline bool UnityEngine::InputSystem::InputBinding::Matches(::ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::UnityEngine::InputSystem::InputBinding_MatchOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBinding>::get(), "Matches", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBinding>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::__InputBinding__MatchOptions>::get() })));
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBinding>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding_MatchOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, binding, options);
 }
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam {
-// name: "m_Processors", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "m_Action", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::__InputBinding__Flags", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_OverridePath", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_OverrideInteractions", ty: "::StringW", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "m_OverrideProcessors", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
+constexpr UnityEngine::InputSystem::InputBinding::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
+constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>* UnityEngine::InputSystem::InputBinding::i___System__IEquatable_1___UnityEngine__InputSystem__InputBinding_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_Path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Processors",
+// ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Action", ty: "::StringW",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputBinding_Flags", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverridePath",
+// ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideInteractions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideProcessors",
+// ty: "::StringW", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::InputBinding::InputBinding(::StringW m_Name, ::StringW m_Id, ::StringW m_Path, ::StringW m_Interactions, ::StringW m_Processors, ::StringW m_Groups,
-                                                                 ::StringW m_Action, ::UnityEngine::InputSystem::__InputBinding__Flags m_Flags, ::StringW m_OverridePath,
-                                                                 ::StringW m_OverrideInteractions, ::StringW m_OverrideProcessors) noexcept {
+                                                                 ::StringW m_Action, ::UnityEngine::InputSystem::InputBinding_Flags m_Flags, ::StringW m_OverridePath, ::StringW m_OverrideInteractions,
+                                                                 ::StringW m_OverrideProcessors) noexcept {
   this->m_Name = m_Name;
   this->m_Id = m_Id;
   this->m_Path = m_Path;

@@ -12,11 +12,10 @@ struct TEXTURE_ID;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_ID);
-// Type: LIV.SDK.Unity::TEXTURE_ID
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::TEXTURE_ID
+// CS Name: LIV.SDK.Unity.TEXTURE_ID
 struct CORDL_TYPE TEXTURE_ID {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr TEXTURE_ID(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field BACKGROUND_COLOR_BUFFER_ID value: static_cast<uint32_t>(0x1e140au)
+  /// @brief Field BACKGROUND_COLOR_BUFFER_ID value: U32(1971210)
   static ::LIV::SDK::Unity::TEXTURE_ID const BACKGROUND_COLOR_BUFFER_ID;
 
-  /// @brief Field FOREGROUND_COLOR_BUFFER_ID value: static_cast<uint32_t>(0x1001e14u)
+  /// @brief Field FOREGROUND_COLOR_BUFFER_ID value: U32(16784916)
   static ::LIV::SDK::Unity::TEXTURE_ID const FOREGROUND_COLOR_BUFFER_ID;
 
-  /// @brief Field OPTIMIZED_COLOR_BUFFER_ID value: static_cast<uint32_t>(0x1001eu)
+  /// @brief Field OPTIMIZED_COLOR_BUFFER_ID value: U32(65566)
   static ::LIV::SDK::Unity::TEXTURE_ID const OPTIMIZED_COLOR_BUFFER_ID;
 
-  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x1e140a00u)
+  /// @brief Field UNDEFINED value: U32(504629760)
   static ::LIV::SDK::Unity::TEXTURE_ID const UNDEFINED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17310 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_ID, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::TEXTURE_ID, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_ID, 0x4>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::TEXTURE_ID, "LIV.SDK.Unity", "TEXTURE_ID");

@@ -11,17 +11,16 @@ class HttpResponseHeaders;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::HttpResponseHeaders);
-// Type: System.Net.Http.Headers::HttpResponseHeaders
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Http.Headers.HttpHeaders
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::HttpResponseHeaders*
+// CS Name: System.Net.Http.Headers.HttpResponseHeaders
 class CORDL_TYPE HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations
   static inline ::System::Net::Http::Headers::HttpResponseHeaders* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41b7bbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4218ed0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   HttpResponseHeaders(HttpResponseHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

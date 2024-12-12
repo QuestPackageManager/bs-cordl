@@ -20,13 +20,12 @@ template <typename TStateTable, typename TType, typename TState, typename TSeria
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::INodePoseSyncStateManager_5);
-// Type: ::INodePoseSyncStateManager`5
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// CS Name: ::INodePoseSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
+// CS Name: INodePoseSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>
 class CORDL_TYPE INodePoseSyncStateManager_5 {
 public:
   // Declarations
@@ -36,34 +35,30 @@ public:
 
   __declspec(property(get = get_syncTime)) int64_t syncTime;
 
-  /// @brief Method ClearBufferedStates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ClearBufferedStates, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ClearBufferedStates();
 
-  /// @brief Method GetSyncState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetSyncState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState(int32_t i);
 
-  /// @brief Method GetSyncStateForPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetSyncStateForPlayer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method get_connectedPlayerCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_connectedPlayerCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_connectedPlayerCount();
 
-  /// @brief Method get_localState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_localState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState();
 
-  /// @brief Method get_syncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_syncTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_syncTime();
-
-  // Ctor Parameters [CppParam { name: "", ty: "INodePoseSyncStateManager_5", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  INodePoseSyncStateManager_5(INodePoseSyncStateManager_5&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "INodePoseSyncStateManager_5", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INodePoseSyncStateManager_5(INodePoseSyncStateManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,54 +19,53 @@ class EnhancedTouchSupport;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport);
-// Type: UnityEngine.InputSystem.EnhancedTouch::EnhancedTouchSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.InputSystem.InputSettings::UpdateMode
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.EnhancedTouch::EnhancedTouchSupport*
+// CS Name: UnityEngine.InputSystem.EnhancedTouch.EnhancedTouchSupport
 class CORDL_TYPE EnhancedTouchSupport : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Enabled, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_Enabled, put = setStaticF_s_Enabled)) int32_t s_Enabled;
+  __declspec(property(get = getStaticF_s_Enabled, put = setStaticF_s_Enabled)) int32_t s_Enabled;
 
   /// @brief Field s_UpdateMode, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_UpdateMode, put = setStaticF_s_UpdateMode)) ::UnityEngine::InputSystem::__InputSettings__UpdateMode s_UpdateMode;
+  __declspec(property(get = getStaticF_s_UpdateMode, put = setStaticF_s_UpdateMode)) ::UnityEngine::InputSystem::InputSettings_UpdateMode s_UpdateMode;
 
-  /// @brief Method CheckEnabled, addr 0x459dcdc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckEnabled, addr 0x45feff0, size 0x98, virtual false, abstract: false, final false
   static inline void CheckEnabled();
 
-  /// @brief Method Disable, addr 0x459d554, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x45fe868, size 0x184, virtual false, abstract: false, final false
   static inline void Disable();
 
-  /// @brief Method Enable, addr 0x459d208, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x45fe51c, size 0x170, virtual false, abstract: false, final false
   static inline void Enable();
 
-  /// @brief Method OnDeviceChange, addr 0x459d9b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnDeviceChange, addr 0x45feccc, size 0x11c, virtual false, abstract: false, final false
   static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method OnSettingsChange, addr 0x459dc44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnSettingsChange, addr 0x45fef58, size 0x98, virtual false, abstract: false, final false
   static inline void OnSettingsChange();
 
-  /// @brief Method Reset, addr 0x459d894, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x45feba8, size 0xa0, virtual false, abstract: false, final false
   static inline void Reset();
 
-  /// @brief Method SetUpState, addr 0x459d378, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method SetUpState, addr 0x45fe68c, size 0x1dc, virtual false, abstract: false, final false
   static inline void SetUpState();
 
-  /// @brief Method TearDownState, addr 0x459d6d8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TearDownState, addr 0x45fe9ec, size 0x1bc, virtual false, abstract: false, final false
   static inline void TearDownState();
 
   static inline int32_t getStaticF_s_Enabled();
 
-  static inline ::UnityEngine::InputSystem::__InputSettings__UpdateMode getStaticF_s_UpdateMode();
+  static inline ::UnityEngine::InputSystem::InputSettings_UpdateMode getStaticF_s_UpdateMode();
 
-  /// @brief Method get_enabled, addr 0x459d1b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x45fe4cc, size 0x50, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF_s_Enabled(int32_t value);
 
-  static inline void setStaticF_s_UpdateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
+  static inline void setStaticF_s_UpdateMode(::UnityEngine::InputSystem::InputSettings_UpdateMode value);
 
 protected:
   // Ctor Parameters []
@@ -83,7 +82,7 @@ public:
   EnhancedTouchSupport(EnhancedTouchSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

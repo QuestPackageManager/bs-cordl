@@ -12,11 +12,10 @@ struct AndroidSensorType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType);
-// Type: UnityEngine.InputSystem.Android.LowLevel::AndroidSensorType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorType
+// CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidSensorType
 struct CORDL_TYPE AndroidSensorType {
 public:
   // Declarations
@@ -71,105 +70,105 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AndroidSensorType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Accelerometer value: static_cast<int32_t>(0x1)
+  /// @brief Field Accelerometer value: I32(1)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Accelerometer;
 
-  /// @brief Field AccelerometerUncalibrated value: static_cast<int32_t>(0x23)
+  /// @brief Field AccelerometerUncalibrated value: I32(35)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const AccelerometerUncalibrated;
 
-  /// @brief Field AmbientTemperature value: static_cast<int32_t>(0xd)
+  /// @brief Field AmbientTemperature value: I32(13)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const AmbientTemperature;
 
-  /// @brief Field GameRotationVector value: static_cast<int32_t>(0xf)
+  /// @brief Field GameRotationVector value: I32(15)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GameRotationVector;
 
-  /// @brief Field GeomagneticRotationVector value: static_cast<int32_t>(0x14)
+  /// @brief Field GeomagneticRotationVector value: I32(20)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GeomagneticRotationVector;
 
-  /// @brief Field Gravity value: static_cast<int32_t>(0x9)
+  /// @brief Field Gravity value: I32(9)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Gravity;
 
-  /// @brief Field Gyroscope value: static_cast<int32_t>(0x4)
+  /// @brief Field Gyroscope value: I32(4)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Gyroscope;
 
-  /// @brief Field GyroscopeUncalibrated value: static_cast<int32_t>(0x10)
+  /// @brief Field GyroscopeUncalibrated value: I32(16)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const GyroscopeUncalibrated;
 
-  /// @brief Field HeartBeat value: static_cast<int32_t>(0x1f)
+  /// @brief Field HeartBeat value: I32(31)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HeartBeat;
 
-  /// @brief Field HeartRate value: static_cast<int32_t>(0x15)
+  /// @brief Field HeartRate value: I32(21)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HeartRate;
 
-  /// @brief Field Light value: static_cast<int32_t>(0x5)
+  /// @brief Field Light value: I32(5)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Light;
 
-  /// @brief Field LinearAcceleration value: static_cast<int32_t>(0xa)
+  /// @brief Field LinearAcceleration value: I32(10)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const LinearAcceleration;
 
-  /// @brief Field LowLatencyOffBodyDetect value: static_cast<int32_t>(0x22)
+  /// @brief Field LowLatencyOffBodyDetect value: I32(34)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const LowLatencyOffBodyDetect;
 
-  /// @brief Field MagneticField value: static_cast<int32_t>(0x2)
+  /// @brief Field MagneticField value: I32(2)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MagneticField;
 
-  /// @brief Field MagneticFieldUncalibrated value: static_cast<int32_t>(0xe)
+  /// @brief Field MagneticFieldUncalibrated value: I32(14)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MagneticFieldUncalibrated;
 
-  /// @brief Field MotionDetect value: static_cast<int32_t>(0x1e)
+  /// @brief Field MotionDetect value: I32(30)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const MotionDetect;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const None;
 
-  /// @brief Field Orientation value: static_cast<int32_t>(0x3)
+  /// @brief Field Orientation value: I32(3)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Orientation;
 
-  /// @brief Field Pose6DOF value: static_cast<int32_t>(0x1c)
+  /// @brief Field Pose6DOF value: I32(28)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Pose6DOF;
 
-  /// @brief Field Pressure value: static_cast<int32_t>(0x6)
+  /// @brief Field Pressure value: I32(6)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Pressure;
 
-  /// @brief Field Proximity value: static_cast<int32_t>(0x8)
+  /// @brief Field Proximity value: I32(8)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Proximity;
 
-  /// @brief Field RelativeHumidity value: static_cast<int32_t>(0xc)
+  /// @brief Field RelativeHumidity value: I32(12)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const RelativeHumidity;
 
-  /// @brief Field RotationVector value: static_cast<int32_t>(0xb)
+  /// @brief Field RotationVector value: I32(11)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const RotationVector;
 
-  /// @brief Field SignificantMotion value: static_cast<int32_t>(0x11)
+  /// @brief Field SignificantMotion value: I32(17)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const SignificantMotion;
 
-  /// @brief Field StationaryDetect value: static_cast<int32_t>(0x1d)
+  /// @brief Field StationaryDetect value: I32(29)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StationaryDetect;
 
-  /// @brief Field StepCounter value: static_cast<int32_t>(0x13)
+  /// @brief Field StepCounter value: I32(19)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StepCounter;
 
-  /// @brief Field StepDetector value: static_cast<int32_t>(0x12)
+  /// @brief Field StepDetector value: I32(18)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const StepDetector;
 
-  /// @brief Field Temperature value: static_cast<int32_t>(0x7)
+  /// @brief Field Temperature value: I32(7)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Temperature;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorType");

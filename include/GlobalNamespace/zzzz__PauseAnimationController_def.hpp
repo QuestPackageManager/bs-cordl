@@ -17,11 +17,10 @@ class PauseAnimationController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PauseAnimationController);
-// Type: ::PauseAnimationController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PauseAnimationController*
+// CS Name: PauseAnimationController
 class CORDL_TYPE PauseAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -32,42 +31,42 @@ public:
   __declspec(property(get = __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent,
                       put = __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent)) ::System::Action* resumeFromPauseAnimationDidFinishEvent;
 
-  /// @brief Method Awake, addr 0x3b49244, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3baa934, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EnterPauseAnimationDidFinish, addr 0x3b49364, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnterPauseAnimationDidFinish, addr 0x3baaa54, size 0x30, virtual false, abstract: false, final false
   inline void EnterPauseAnimationDidFinish();
 
   static inline ::GlobalNamespace::PauseAnimationController* New_ctor();
 
-  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x3b49394, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x3baaa84, size 0x50, virtual false, abstract: false, final false
   inline void ResumeFromPauseAnimationDidFinish();
 
-  /// @brief Method StartEnterPauseAnimation, addr 0x3b49274, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartEnterPauseAnimation, addr 0x3baa964, size 0x78, virtual false, abstract: false, final false
   inline void StartEnterPauseAnimation();
 
-  /// @brief Method StartResumeFromPauseAnimation, addr 0x3b492ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartResumeFromPauseAnimation, addr 0x3baa9dc, size 0x78, virtual false, abstract: false, final false
   inline void StartResumeFromPauseAnimation();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
   constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::System::Action*& __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent();
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
   constexpr void __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b493e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baaad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x3b4910c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x3baa7fc, size 0x9c, virtual false, abstract: false, final false
   inline void add_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x3b491a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x3baa898, size 0x9c, virtual false, abstract: false, final false
   inline void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
 protected:
@@ -84,23 +83,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PauseAnimationController(PauseAnimationController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4435 };
+
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 
   /// @brief Field resumeFromPauseAnimationDidFinishEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___resumeFromPauseAnimationDidFinishEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4423 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PauseAnimationController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PauseAnimationController, ____animator) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PauseAnimationController, ___resumeFromPauseAnimationDidFinishEvent) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PauseAnimationController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PauseAnimationController);

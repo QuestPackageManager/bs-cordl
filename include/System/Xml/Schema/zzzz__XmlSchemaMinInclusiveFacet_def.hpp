@@ -11,17 +11,16 @@ class XmlSchemaMinInclusiveFacet;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaMinInclusiveFacet);
-// Type: System.Xml.Schema::XmlSchemaMinInclusiveFacet
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaFacet
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaMinInclusiveFacet*
+// CS Name: System.Xml.Schema.XmlSchemaMinInclusiveFacet
 class CORDL_TYPE XmlSchemaMinInclusiveFacet : public ::System::Xml::Schema::XmlSchemaFacet {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaMinInclusiveFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x425c29c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bd5b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XmlSchemaMinInclusiveFacet(XmlSchemaMinInclusiveFacet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

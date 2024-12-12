@@ -3,8 +3,6 @@
 #include "UnityEngine/zzzz__LightmapBakeType_impl.hpp"
 #include "UnityEngine/zzzz__MixedLightingMode_impl.hpp"
 #include "UnityEngine/zzzz__LightBakingOutput_def.hpp"
-#include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
-#include "UnityEngine/zzzz__MixedLightingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "probeOcclusionLightIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionMaskChannel", ty: "int32_t", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "lightmapBakeType", ty: "::UnityEngine::LightmapBakeType", modifiers: "", def_value: Some("{}") }, CppParam { name: "mixedLightingMode", ty:
 // "::UnityEngine::MixedLightingMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "isBaked", ty: "bool", modifiers: "", def_value: Some("{}") }]

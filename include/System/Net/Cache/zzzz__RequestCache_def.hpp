@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RequestCache)
 // Forward declare root types
 namespace System::Net::Cache {
@@ -12,16 +11,15 @@ class RequestCache;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cache::RequestCache);
-// Type: System.Net.Cache::RequestCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Cache {
 // Is value type: false
-// CS Name: ::System.Net.Cache::RequestCache*
+// CS Name: System.Net.Cache.RequestCache
 class CORDL_TYPE RequestCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field LineSplits, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_LineSplits, put = setStaticF_LineSplits)) ::ArrayW<char16_t, ::Array<char16_t>*> LineSplits;
+  __declspec(property(get = getStaticF_LineSplits, put = setStaticF_LineSplits)) ::ArrayW<char16_t, ::Array<char16_t>*> LineSplits;
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_LineSplits();
 
@@ -42,7 +40,7 @@ public:
   RequestCache(RequestCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

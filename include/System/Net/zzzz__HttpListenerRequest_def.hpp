@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerRequest)
@@ -38,11 +37,10 @@ class HttpListenerRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerRequest);
-// Type: System.Net::HttpListenerRequest
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 131, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpListenerRequest*
+// CS Name: System.Net.HttpListenerRequest
 class CORDL_TYPE HttpListenerRequest : public ::System::Object {
 public:
   // Declarations
@@ -67,7 +65,7 @@ public:
   __declspec(property(get = get_UserHostName)) ::StringW UserHostName;
 
   /// @brief Field _100continue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__100continue, put = setStaticF__100continue)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _100continue;
+  __declspec(property(get = getStaticF__100continue, put = setStaticF__100continue)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _100continue;
 
   /// @brief Field accept_types, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_accept_types, put = __cordl_internal_set_accept_types)) ::ArrayW<::StringW, ::Array<::StringW>*> accept_types;
@@ -112,7 +110,7 @@ public:
   __declspec(property(get = __cordl_internal_get_referrer, put = __cordl_internal_set_referrer)) ::System::Uri* referrer;
 
   /// @brief Field separators, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_separators, put = setStaticF_separators)) ::ArrayW<char16_t, ::Array<char16_t>*> separators;
+  __declspec(property(get = getStaticF_separators, put = setStaticF_separators)) ::ArrayW<char16_t, ::Array<char16_t>*> separators;
 
   /// @brief Field url, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_url, put = __cordl_internal_set_url)) ::System::Uri* url;
@@ -123,30 +121,30 @@ public:
   /// @brief Field version, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::System::Version* version;
 
-  /// @brief Method AddHeader, addr 0x4463e68, size 0x8cc, virtual false, abstract: false, final false
+  /// @brief Method AddHeader, addr 0x44c517c, size 0x8cc, virtual false, abstract: false, final false
   inline void AddHeader(::StringW header);
 
-  /// @brief Method CreateQueryString, addr 0x4466c38, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method CreateQueryString, addr 0x44c7f4c, size 0x210, virtual false, abstract: false, final false
   inline void CreateQueryString(::StringW query);
 
-  /// @brief Method FinishInitialization, addr 0x4462f98, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method FinishInitialization, addr 0x44c42ac, size 0x624, virtual false, abstract: false, final false
   inline bool FinishInitialization();
 
-  /// @brief Method FlushInput, addr 0x4464890, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method FlushInput, addr 0x44c5ba4, size 0x2c8, virtual false, abstract: false, final false
   inline bool FlushInput();
 
-  /// @brief Method IsPredefinedScheme, addr 0x4466ef0, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IsPredefinedScheme, addr 0x44c8204, size 0x1f0, virtual false, abstract: false, final false
   static inline bool IsPredefinedScheme(::StringW scheme);
 
-  /// @brief Method MaybeUri, addr 0x4466e48, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MaybeUri, addr 0x44c815c, size 0xa8, virtual false, abstract: false, final false
   static inline bool MaybeUri(::StringW s);
 
   static inline ::System::Net::HttpListenerRequest* New_ctor(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method SetRequestLine, addr 0x4463b30, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method SetRequestLine, addr 0x44c4e44, size 0x338, virtual false, abstract: false, final false
   inline void SetRequestLine(::StringW req);
 
-  /// @brief Method Unquote, addr 0x4467198, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Unquote, addr 0x44c84ac, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW Unquote(::StringW str);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_accept_types() const;
@@ -161,21 +159,21 @@ public:
 
   constexpr int64_t& __cordl_internal_get_content_length();
 
+  constexpr ::System::Net::HttpListenerContext* const& __cordl_internal_get_context() const;
+
   constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
+  constexpr ::System::Net::CookieCollection* const& __cordl_internal_get_cookies() const;
 
   constexpr ::System::Net::CookieCollection*& __cordl_internal_get_cookies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __cordl_internal_get_cookies() const;
+  constexpr ::System::Net::WebHeaderCollection* const& __cordl_internal_get_headers() const;
 
   constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_headers() const;
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_input_stream() const;
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_input_stream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_input_stream() const;
 
   constexpr bool const& __cordl_internal_get_is_chunked() const;
 
@@ -193,29 +191,29 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_method();
 
-  constexpr ::System::Collections::Specialized::NameValueCollection*& __cordl_internal_get_query_string();
+  constexpr ::System::Collections::Specialized::NameValueCollection* const& __cordl_internal_get_query_string() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::NameValueCollection*> const& __cordl_internal_get_query_string() const;
+  constexpr ::System::Collections::Specialized::NameValueCollection*& __cordl_internal_get_query_string();
 
   constexpr ::StringW const& __cordl_internal_get_raw_url() const;
 
   constexpr ::StringW& __cordl_internal_get_raw_url();
 
+  constexpr ::System::Uri* const& __cordl_internal_get_referrer() const;
+
   constexpr ::System::Uri*& __cordl_internal_get_referrer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_referrer() const;
+  constexpr ::System::Uri* const& __cordl_internal_get_url() const;
 
   constexpr ::System::Uri*& __cordl_internal_get_url();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_url() const;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_user_languages() const;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_user_languages();
 
-  constexpr ::System::Version*& __cordl_internal_get_version();
+  constexpr ::System::Version* const& __cordl_internal_get_version() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
   constexpr void __cordl_internal_set_accept_types(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
@@ -251,41 +249,41 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x44664d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c77e4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__100continue();
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_separators();
 
-  /// @brief Method get_HasEntityBody, addr 0x4467204, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasEntityBody, addr 0x44c8518, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasEntityBody();
 
-  /// @brief Method get_Headers, addr 0x44672cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x44c85e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::NameValueCollection* get_Headers();
 
-  /// @brief Method get_InputStream, addr 0x4467228, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_InputStream, addr 0x44c853c, size 0xa4, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InputStream();
 
-  /// @brief Method get_IsSecureConnection, addr 0x4467154, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_IsSecureConnection, addr 0x44c8468, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsSecureConnection();
 
-  /// @brief Method get_KeepAlive, addr 0x4464734, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x44c5a48, size 0x15c, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_LocalEndPoint, addr 0x4467178, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndPoint, addr 0x44c848c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_LocalEndPoint();
 
-  /// @brief Method get_ProtocolVersion, addr 0x44672d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x44c85e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_ProtocolVersion();
 
-  /// @brief Method get_Url, addr 0x44672dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Url, addr 0x44c85f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_Url();
 
-  /// @brief Method get_UserHostAddress, addr 0x4467134, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_UserHostAddress, addr 0x44c8448, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_UserHostAddress();
 
-  /// @brief Method get_UserHostName, addr 0x44670e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UserHostName, addr 0x44c83f4, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_UserHostName();
 
   static inline void setStaticF__100continue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -305,6 +303,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequest", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpListenerRequest(HttpListenerRequest const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9691 };
 
   /// @brief Field accept_types, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___accept_types;
@@ -357,14 +358,9 @@ public:
   /// @brief Field keep_alive, offset: 0x82, size: 0x1, def value: None
   bool ___keep_alive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9666 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerRequest, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HttpListenerRequest, ___accept_types) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HttpListenerRequest, ___content_length) == 0x18, "Offset mismatch!");
@@ -398,6 +394,8 @@ static_assert(offsetof(::System::Net::HttpListenerRequest, ___is_chunked) == 0x8
 static_assert(offsetof(::System::Net::HttpListenerRequest, ___ka_set) == 0x81, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HttpListenerRequest, ___keep_alive) == 0x82, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerRequest, 0x88>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::HttpListenerRequest);

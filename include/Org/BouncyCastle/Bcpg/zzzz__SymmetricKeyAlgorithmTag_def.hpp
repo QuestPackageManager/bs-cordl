@@ -12,11 +12,10 @@ struct SymmetricKeyAlgorithmTag;
 }
 // Write type traits
 MARK_VAL_T(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag);
-// Type: Org.BouncyCastle.Bcpg::SymmetricKeyAlgorithmTag
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: true
-// CS Name: ::Org.BouncyCastle.Bcpg::SymmetricKeyAlgorithmTag
+// CS Name: Org.BouncyCastle.Bcpg.SymmetricKeyAlgorithmTag
 struct CORDL_TYPE SymmetricKeyAlgorithmTag {
 public:
   // Declarations
@@ -57,49 +56,46 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SymmetricKeyAlgorithmTag(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Aes128 value: static_cast<int32_t>(0x7)
+  /// @brief Field Aes128 value: I32(7)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes128;
 
-  /// @brief Field Aes192 value: static_cast<int32_t>(0x8)
+  /// @brief Field Aes192 value: I32(8)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes192;
 
-  /// @brief Field Aes256 value: static_cast<int32_t>(0x9)
+  /// @brief Field Aes256 value: I32(9)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Aes256;
 
-  /// @brief Field Blowfish value: static_cast<int32_t>(0x4)
+  /// @brief Field Blowfish value: I32(4)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Blowfish;
 
-  /// @brief Field Camellia128 value: static_cast<int32_t>(0xb)
+  /// @brief Field Camellia128 value: I32(11)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia128;
 
-  /// @brief Field Camellia192 value: static_cast<int32_t>(0xc)
+  /// @brief Field Camellia192 value: I32(12)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia192;
 
-  /// @brief Field Camellia256 value: static_cast<int32_t>(0xd)
+  /// @brief Field Camellia256 value: I32(13)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Camellia256;
 
-  /// @brief Field Cast5 value: static_cast<int32_t>(0x3)
+  /// @brief Field Cast5 value: I32(3)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Cast5;
 
-  /// @brief Field Des value: static_cast<int32_t>(0x6)
+  /// @brief Field Des value: I32(6)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Des;
 
-  /// @brief Field Idea value: static_cast<int32_t>(0x1)
+  /// @brief Field Idea value: I32(1)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Idea;
 
-  /// @brief Field Null value: static_cast<int32_t>(0x0)
+  /// @brief Field Null value: I32(0)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Null;
 
-  /// @brief Field Safer value: static_cast<int32_t>(0x5)
+  /// @brief Field Safer value: I32(5)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Safer;
 
-  /// @brief Field TripleDes value: static_cast<int32_t>(0x2)
+  /// @brief Field TripleDes value: I32(2)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const TripleDes;
 
-  /// @brief Field Twofish value: static_cast<int32_t>(0xa)
+  /// @brief Field Twofish value: I32(10)
   static ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const Twofish;
 
   /// @brief IL2CPP Metadata Type Index
@@ -108,12 +104,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, 0x4>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, "Org.BouncyCastle.Bcpg", "SymmetricKeyAlgorithmTag");

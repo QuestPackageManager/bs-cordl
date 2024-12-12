@@ -14,11 +14,10 @@ class TrackClipTypeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TrackClipTypeAttribute);
-// Type: UnityEngine.Timeline::TrackClipTypeAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::TrackClipTypeAttribute*
+// CS Name: UnityEngine.Timeline.TrackClipTypeAttribute
 class CORDL_TYPE TrackClipTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -36,18 +35,18 @@ public:
 
   constexpr bool& __cordl_internal_get_allowAutoCreate();
 
-  constexpr ::System::Type*& __cordl_internal_get_inspectedType();
+  constexpr ::System::Type* const& __cordl_internal_get_inspectedType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_inspectedType() const;
+  constexpr ::System::Type*& __cordl_internal_get_inspectedType();
 
   constexpr void __cordl_internal_set_allowAutoCreate(bool value);
 
   constexpr void __cordl_internal_set_inspectedType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x47c7ed0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48291e4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass);
 
-  /// @brief Method .ctor, addr 0x47c7f00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4829214, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass, bool allowAutoCreate);
 
 protected:
@@ -64,23 +63,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackClipTypeAttribute(TrackClipTypeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15873 };
+
   /// @brief Field inspectedType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___inspectedType;
 
   /// @brief Field allowAutoCreate, offset: 0x18, size: 0x1, def value: None
   bool ___allowAutoCreate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15838 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackClipTypeAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::TrackClipTypeAttribute, ___inspectedType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Timeline::TrackClipTypeAttribute, ___allowAutoCreate) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackClipTypeAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TrackClipTypeAttribute);

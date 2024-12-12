@@ -10,29 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VectorImageVertex)
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct VectorImageVertex;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VectorImageVertex);
-// Type: UnityEngine.UIElements::VectorImageVertex
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color32, UnityEngine.Vector2, UnityEngine.Vector3, UnityEngine.Vector4
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::VectorImageVertex
+// CS Name: UnityEngine.UIElements.VectorImageVertex
 struct CORDL_TYPE VectorImageVertex {
 public:
   // Declarations
@@ -45,6 +32,12 @@ public:
   // "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "circle", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
   constexpr VectorImageVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, uint32_t settingIndex, ::UnityEngine::Color32 flags,
                               ::UnityEngine::Vector4 circle) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6297 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
@@ -64,17 +57,9 @@ public:
   /// @brief Field circle, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Vector4 circle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6272 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VectorImageVertex, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, position) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, tint) == 0xc, "Offset mismatch!");
@@ -86,6 +71,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, settingInde
 static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, flags) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, circle) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VectorImageVertex, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VectorImageVertex, "UnityEngine.UIElements", "VectorImageVertex");

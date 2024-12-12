@@ -4,7 +4,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DrbgUtilities)
 namespace Org::BouncyCastle::Crypto {
@@ -22,32 +21,31 @@ class DrbgUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities);
-// Type: Org.BouncyCastle.Crypto.Prng.Drbg::DrbgUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::DrbgUtilities*
+// CS Name: Org.BouncyCastle.Crypto.Prng.Drbg.DrbgUtilities
 class CORDL_TYPE DrbgUtilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field maxSecurityStrengths, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_maxSecurityStrengths, put = setStaticF_maxSecurityStrengths)) ::System::Collections::IDictionary* maxSecurityStrengths;
+  __declspec(property(get = getStaticF_maxSecurityStrengths, put = setStaticF_maxSecurityStrengths)) ::System::Collections::IDictionary* maxSecurityStrengths;
 
-  /// @brief Method GetMaxSecurityStrength, addr 0x2391120, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0x23c440c, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method GetMaxSecurityStrength, addr 0x23912a4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0x23c4590, size 0x1cc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IMac* m);
 
-  /// @brief Method HashDF, addr 0x2391470, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method HashDF, addr 0x23c475c, size 0x510, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashDF(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, int32_t seedLength);
 
-  /// @brief Method IsTooLarge, addr 0x2390898, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsTooLarge, addr 0x23c3b84, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t maxBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2391980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c4c6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_maxSecurityStrengths();

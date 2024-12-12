@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataSet*)>(&::System::Data::NewDiffgramGen::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4154eb4;
+  constexpr static std::size_t addrs = 0x41b61c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*, bool)>(&::System::Data::NewDiffgramGen::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4155228;
+  constexpr static std::size_t addrs = 0x41b653c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::CreateTableHierarchy)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x4155314;
+  constexpr static std::size_t addrs = 0x41b6628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Collections::ArrayList*)>(
     &::System::Data::NewDiffgramGen::DoAssignments)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x4154fc4;
+  constexpr static std::size_t addrs = 0x41b62d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NewDiffgramGen::*)()>(&::System::Data::NewDiffgramGen::EmptyData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4155698;
+  constexpr static std::size_t addrs = 0x41b69ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::NewDiffgramGen*>::get(), "EmptyData",
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*)>(&::System::Data::NewDiffgramGen::Save)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x415578c;
+  constexpr static std::size_t addrs = 0x41b6aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*, ::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::Save)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x4155794;
+  constexpr static std::size_t addrs = 0x41b6aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::GenerateTable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x415671c;
+  constexpr static std::size_t addrs = 0x41b7a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::GenerateTableErrors)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x4156798;
+  constexpr static std::size_t addrs = 0x41b7aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*)>(&::System::Data::NewDiffgramGen::GenerateRow)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x4156cd8;
+  constexpr static std::size_t addrs = 0x41b7fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::System::Data::DataRowVersion)>(&::System::Data::NewDiffgramGen::GenerateColumn)> {
   constexpr static std::size_t size = 0x9fc;
-  constexpr static std::size_t addrs = 0x415733c;
+  constexpr static std::size_t addrs = 0x41b8650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Data::NewDiffgramGen::QualifiedName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4154e4c;
+  constexpr static std::size_t addrs = 0x41b6160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ constexpr ::System::Xml::XmlDocument*& System::Data::NewDiffgramGen::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& System::Data::NewDiffgramGen::__cordl_internal_get__doc() const {
+constexpr ::System::Xml::XmlDocument* const& System::Data::NewDiffgramGen::__cordl_internal_get__doc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doc;
 }
@@ -204,7 +204,7 @@ constexpr ::System::Data::DataSet*& System::Data::NewDiffgramGen::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ds;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataSet*> const& System::Data::NewDiffgramGen::__cordl_internal_get__ds() const {
+constexpr ::System::Data::DataSet* const& System::Data::NewDiffgramGen::__cordl_internal_get__ds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ds;
 }
@@ -216,7 +216,7 @@ constexpr ::System::Data::DataTable*& System::Data::NewDiffgramGen::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dt;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::NewDiffgramGen::__cordl_internal_get__dt() const {
+constexpr ::System::Data::DataTable* const& System::Data::NewDiffgramGen::__cordl_internal_get__dt() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dt;
 }
@@ -228,7 +228,7 @@ constexpr ::System::Xml::XmlWriter*& System::Data::NewDiffgramGen::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlw;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& System::Data::NewDiffgramGen::__cordl_internal_get__xmlw() const {
+constexpr ::System::Xml::XmlWriter* const& System::Data::NewDiffgramGen::__cordl_internal_get__xmlw() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlw;
 }
@@ -264,7 +264,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::NewDiffgramGen::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rowsOrder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::NewDiffgramGen::__cordl_internal_get__rowsOrder() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::NewDiffgramGen::__cordl_internal_get__rowsOrder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rowsOrder;
 }
@@ -276,7 +276,7 @@ constexpr ::System::Collections::ArrayList*& System::Data::NewDiffgramGen::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Data::NewDiffgramGen::__cordl_internal_get__tables() const {
+constexpr ::System::Collections::ArrayList* const& System::Data::NewDiffgramGen::__cordl_internal_get__tables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tables;
 }
@@ -296,17 +296,11 @@ constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__writeHierarch
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____writeHierarchy = value;
 }
-inline ::System::Data::NewDiffgramGen* System::Data::NewDiffgramGen::New_ctor(::System::Data::DataSet* ds) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::NewDiffgramGen*>(ds));
-}
 inline void System::Data::NewDiffgramGen::_ctor(::System::Data::DataSet* ds) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::NewDiffgramGen*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ds);
-}
-inline ::System::Data::NewDiffgramGen* System::Data::NewDiffgramGen::New_ctor(::System::Data::DataTable* dt, bool writeHierarchy) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::NewDiffgramGen*>(dt, writeHierarchy));
 }
 inline void System::Data::NewDiffgramGen::_ctor(::System::Data::DataTable* dt, bool writeHierarchy) {
   static auto* ___internal_method =
@@ -376,6 +370,12 @@ inline ::StringW System::Data::NewDiffgramGen::QualifiedName(::StringW prefix, :
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::NewDiffgramGen*>::get(), "QualifiedName", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, prefix, name);
+}
+inline ::System::Data::NewDiffgramGen* System::Data::NewDiffgramGen::New_ctor(::System::Data::DataSet* ds) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::NewDiffgramGen*>(ds));
+}
+inline ::System::Data::NewDiffgramGen* System::Data::NewDiffgramGen::New_ctor(::System::Data::DataTable* dt, bool writeHierarchy) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::NewDiffgramGen*>(dt, writeHierarchy));
 }
 // Ctor Parameters []
 constexpr ::System::Data::NewDiffgramGen::NewDiffgramGen() {}

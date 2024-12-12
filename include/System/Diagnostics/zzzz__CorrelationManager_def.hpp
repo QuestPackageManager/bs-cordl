@@ -14,25 +14,24 @@ class CorrelationManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::CorrelationManager);
-// Type: System.Diagnostics::CorrelationManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::CorrelationManager*
+// CS Name: System.Diagnostics.CorrelationManager
 class CORDL_TYPE CorrelationManager : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_LogicalOperationStack)) ::System::Collections::Stack* LogicalOperationStack;
 
-  /// @brief Method GetLogicalOperationStack, addr 0x43c8508, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalOperationStack, addr 0x442981c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* GetLogicalOperationStack();
 
   static inline ::System::Diagnostics::CorrelationManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43c84fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4429810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogicalOperationStack, addr 0x43c8504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalOperationStack, addr 0x4429818, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
 protected:
@@ -50,7 +49,7 @@ public:
   CorrelationManager(CorrelationManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

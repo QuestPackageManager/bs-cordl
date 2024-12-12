@@ -20,11 +20,10 @@ struct Bone;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Bone);
-// Type: UnityEngine.InputSystem.XR::Bone
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.XR::Bone
+// CS Name: UnityEngine.InputSystem.XR.Bone
 struct CORDL_TYPE Bone {
 public:
   // Declarations
@@ -34,22 +33,22 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
-  /// @brief Method get_parentBoneIndex, addr 0x4584d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentBoneIndex, addr 0x45e6040, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_parentBoneIndex();
 
-  /// @brief Method get_position, addr 0x4584d3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x45e6050, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x4584d54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x45e6068, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_parentBoneIndex, addr 0x4584d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentBoneIndex, addr 0x45e6048, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(uint32_t value);
 
-  /// @brief Method set_position, addr 0x4584d48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x45e605c, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x4584d60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x45e6074, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []
@@ -60,6 +59,12 @@ public:
   // None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
   constexpr Bone(uint32_t m_ParentBoneIndex, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6741 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field m_ParentBoneIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t m_ParentBoneIndex;
 
@@ -69,22 +74,16 @@ public:
   /// @brief Field m_Rotation, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Quaternion m_Rotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6716 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Bone, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::XR::Bone, m_ParentBoneIndex) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::XR::Bone, m_Position) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::XR::Bone, m_Rotation) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Bone, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::Bone, "UnityEngine.InputSystem.XR", "Bone");

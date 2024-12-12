@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Utils)
@@ -17,62 +16,61 @@ class Utils;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::Utils);
-// Type: System.Security.Cryptography::Utils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::Utils*
+// CS Name: System.Security.Cryptography.Utils
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _rng, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__rng, put = setStaticF__rng)) ::System::Security::Cryptography::RNGCryptoServiceProvider* _rng;
+  __declspec(property(get = getStaticF__rng, put = setStaticF__rng)) ::System::Security::Cryptography::RNGCryptoServiceProvider* _rng;
 
-  /// @brief Method ConvertByteArrayToInt, addr 0x3c4cea0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ConvertByteArrayToInt, addr 0x3cad014, size 0x58, virtual false, abstract: false, final false
   static inline int32_t ConvertByteArrayToInt(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ConvertIntToByteArray, addr 0x3c4cef8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ConvertIntToByteArray, addr 0x3cad06c, size 0x124, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertIntToByteArray(int32_t dwInput);
 
-  /// @brief Method DWORDFromBigEndian, addr 0x3c48560, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DWORDFromBigEndian, addr 0x3ca86d4, size 0x54, virtual false, abstract: false, final false
   static inline void DWORDFromBigEndian(::cordl_internals::Ptr<uint32_t> x, int32_t digits, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method DWORDFromLittleEndian, addr 0x3c4d01c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DWORDFromLittleEndian, addr 0x3cad190, size 0x50, virtual false, abstract: false, final false
   static inline void DWORDFromLittleEndian(::cordl_internals::Ptr<uint32_t> x, int32_t digits, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method DWORDToBigEndian, addr 0x3c4846c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DWORDToBigEndian, addr 0x3ca85e0, size 0xf4, virtual false, abstract: false, final false
   static inline void DWORDToBigEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t digits);
 
-  /// @brief Method DWORDToLittleEndian, addr 0x3c4d06c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DWORDToLittleEndian, addr 0x3cad1e0, size 0xf4, virtual false, abstract: false, final false
   static inline void DWORDToLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t digits);
 
-  /// @brief Method DiscardWhiteSpaces, addr 0x3c46cb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DiscardWhiteSpaces, addr 0x3ca6e28, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW DiscardWhiteSpaces(::StringW inputBuffer);
 
-  /// @brief Method DiscardWhiteSpaces, addr 0x3c4cd18, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method DiscardWhiteSpaces, addr 0x3cace8c, size 0x188, virtual false, abstract: false, final false
   static inline ::StringW DiscardWhiteSpaces(::StringW inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method FixupKeyParity, addr 0x3c4c548, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FixupKeyParity, addr 0x3cac6bc, size 0xc8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FixupKeyParity(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method GenerateRandom, addr 0x3c4cca8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GenerateRandom, addr 0x3cace1c, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateRandom(int32_t keySize);
 
-  /// @brief Method HasAlgorithm, addr 0x3c4c8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasAlgorithm, addr 0x3caca30, size 0x8, virtual false, abstract: false, final false
   static inline bool HasAlgorithm(int32_t dwCalg, int32_t dwKeySize);
 
-  /// @brief Method QuadWordFromBigEndian, addr 0x3c4a104, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method QuadWordFromBigEndian, addr 0x3caa278, size 0x84, virtual false, abstract: false, final false
   static inline void QuadWordFromBigEndian(::cordl_internals::Ptr<uint64_t> x, int32_t digits, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method QuadWordToBigEndian, addr 0x3c49f48, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method QuadWordToBigEndian, addr 0x3caa0bc, size 0x1bc, virtual false, abstract: false, final false
   static inline void QuadWordToBigEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> x, int32_t digits);
 
-  /// @brief Method _ProduceLegacyHmacValues, addr 0x3c4d160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method _ProduceLegacyHmacValues, addr 0x3cad2d4, size 0x8, virtual false, abstract: false, final false
   static inline bool _ProduceLegacyHmacValues();
 
   static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* getStaticF__rng();
 
-  /// @brief Method get_StaticRandomNumberGenerator, addr 0x3c4cba4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_StaticRandomNumberGenerator, addr 0x3cacd18, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* get_StaticRandomNumberGenerator();
 
   static inline void setStaticF__rng(::System::Security::Cryptography::RNGCryptoServiceProvider* value);

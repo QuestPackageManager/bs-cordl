@@ -8,7 +8,7 @@ constexpr ::System::Text::RegularExpressions::Group*& System::Text::RegularExpre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____group;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Group*> const& System::Text::RegularExpressions::CaptureCollection::__cordl_internal_get__group() const {
+constexpr ::System::Text::RegularExpressions::Group* const& System::Text::RegularExpressions::CaptureCollection::__cordl_internal_get__group() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____group;
 }

@@ -12,45 +12,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKInputFrame)
-namespace LIV::SDK::Unity {
-struct FEATURES;
-}
-namespace LIV::SDK::Unity {
-struct SDKClipPlane;
-}
-namespace LIV::SDK::Unity {
-struct SDKPose;
-}
-namespace LIV::SDK::Unity {
-struct SDKPriority;
-}
-namespace LIV::SDK::Unity {
-struct SDKTransform;
-}
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct SDKInputFrame;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKInputFrame);
-// Type: LIV.SDK.Unity::SDKInputFrame
-// SizeInfo { instance_size: 344, native_size: 344, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LIV.SDK.Unity.FEATURES, LIV.SDK.Unity.SDKClipPlane, LIV.SDK.Unity.SDKPose, LIV.SDK.Unity.SDKPriority, LIV.SDK.Unity.SDKTransform
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::SDKInputFrame
+// CS Name: LIV.SDK.Unity.SDKInputFrame
 struct CORDL_TYPE SDKInputFrame {
 public:
   // Declarations
-  /// @brief Method ObtainControl, addr 0x3a6fc30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ObtainControl, addr 0x3ac68a0, size 0x14, virtual false, abstract: false, final false
   inline void ObtainControl();
 
-  /// @brief Method ReleaseControl, addr 0x3a6fc20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReleaseControl, addr 0x3ac6890, size 0x10, virtual false, abstract: false, final false
   inline void ReleaseControl();
 
-  /// @brief Method ToString, addr 0x3a71604, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ac8274, size 0x334, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a6b920, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac2590, size 0x13c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKInputFrame get_empty();
 
   // Ctor Parameters []
@@ -64,6 +48,12 @@ public:
   // modifiers: "", def_value: None }]
   constexpr SDKInputFrame(::LIV::SDK::Unity::SDKPose pose, ::LIV::SDK::Unity::SDKClipPlane clipPlane, ::LIV::SDK::Unity::SDKTransform stageTransform, ::LIV::SDK::Unity::FEATURES features,
                           ::LIV::SDK::Unity::SDKClipPlane groundClipPlane, uint64_t frameid, uint64_t referenceframe, ::LIV::SDK::Unity::SDKPriority priority) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17323 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x158 };
 
   /// @brief Field pose, offset: 0x0, size: 0x70, def value: None
   ::LIV::SDK::Unity::SDKPose pose;
@@ -89,17 +79,9 @@ public:
   /// @brief Field priority, offset: 0x150, size: 0x8, def value: None
   ::LIV::SDK::Unity::SDKPriority priority;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17279 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x158 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKInputFrame, 0x158>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, pose) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, clipPlane) == 0x70, "Offset mismatch!");
@@ -115,6 +97,8 @@ static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, frameid) == 0x140, "Off
 static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, referenceframe) == 0x148, "Offset mismatch!");
 
 static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, priority) == 0x150, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKInputFrame, 0x158>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKInputFrame, "LIV.SDK.Unity", "SDKInputFrame");

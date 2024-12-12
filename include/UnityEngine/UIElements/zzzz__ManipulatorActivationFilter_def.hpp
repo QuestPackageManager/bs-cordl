@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseButton_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManipulatorActivationFilter)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -32,11 +30,10 @@ struct ManipulatorActivationFilter;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::ManipulatorActivationFilter);
-// Type: UnityEngine.UIElements::ManipulatorActivationFilter
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.EventModifiers, UnityEngine.UIElements.MouseButton
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::ManipulatorActivationFilter
+// CS Name: UnityEngine.UIElements.ManipulatorActivationFilter
 struct CORDL_TYPE ManipulatorActivationFilter {
 public:
   // Declarations
@@ -49,46 +46,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>*();
 
-  /// @brief Method Equals, addr 0x49da35c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a3ec6c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49da3f4, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a3ed04, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::ManipulatorActivationFilter other);
 
-  /// @brief Method GetHashCode, addr 0x49da428, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a3ed38, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HasModifiers, addr 0x49da5fc, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HasModifiers, addr 0x4a3ef0c, size 0x1f4, virtual false, abstract: false, final false
   inline bool HasModifiers(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method HasModifiers, addr 0x49da994, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HasModifiers, addr 0x4a3f2a4, size 0x1f4, virtual false, abstract: false, final false
   inline bool HasModifiers(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method MatchModifiers, addr 0x49da7f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MatchModifiers, addr 0x4a3f100, size 0x54, virtual false, abstract: false, final false
   inline bool MatchModifiers(bool alt, bool ctrl, bool shift, bool command);
 
-  /// @brief Method Matches, addr 0x49da4ac, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x4a3edbc, size 0x150, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method Matches, addr 0x49da844, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x4a3f154, size 0x150, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method get_button, addr 0x49da334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x4a3ec44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseButton get_button();
 
-  /// @brief Method get_clickCount, addr 0x49da354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x4a3ec64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
-  /// @brief Method get_modifiers, addr 0x49da344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifiers, addr 0x4a3ec54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* i___System__IEquatable_1___UnityEngine__UIElements__ManipulatorActivationFilter_();
 
-  /// @brief Method set_button, addr 0x49da33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x4a3ec4c, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::UIElements::MouseButton value);
 
-  /// @brief Method set_modifiers, addr 0x49da34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_modifiers, addr 0x4a3ec5c, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
   // Ctor Parameters []
@@ -100,6 +97,12 @@ public:
   constexpr ManipulatorActivationFilter(::UnityEngine::UIElements::MouseButton _button_k__BackingField, ::UnityEngine::EventModifiers _modifiers_k__BackingField,
                                         int32_t _clickCount_k__BackingField) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5983 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field <button>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::MouseButton _button_k__BackingField;
 
@@ -109,22 +112,16 @@ public:
   /// @brief Field <clickCount>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _clickCount_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5958 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ManipulatorActivationFilter, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::ManipulatorActivationFilter, _button_k__BackingField) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ManipulatorActivationFilter, _modifiers_k__BackingField) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::ManipulatorActivationFilter, _clickCount_k__BackingField) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ManipulatorActivationFilter, 0xc>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ManipulatorActivationFilter, "UnityEngine.UIElements", "ManipulatorActivationFilter");

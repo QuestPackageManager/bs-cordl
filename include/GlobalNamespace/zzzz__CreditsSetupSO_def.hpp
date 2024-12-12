@@ -16,11 +16,10 @@ class CreditsSetupSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CreditsSetupSO);
-// Type: ::CreditsSetupSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CreditsSetupSO*
+// CS Name: CreditsSetupSO
 class CORDL_TYPE CreditsSetupSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -98,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_titleTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x22322dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225d850, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,6 +113,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CreditsSetupSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CreditsSetupSO(CreditsSetupSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
 
   /// @brief Field normalTextPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___normalTextPrefab;
@@ -139,14 +141,9 @@ public:
   /// @brief Field spaceHeight, offset: 0x4c, size: 0x4, def value: None
   float_t ___spaceHeight;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18728 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreditsSetupSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CreditsSetupSO, ___normalTextPrefab) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreditsSetupSO, ___normalLocalizedTextPrefab) == 0x20, "Offset mismatch!");
@@ -162,6 +159,8 @@ static_assert(offsetof(::GlobalNamespace::CreditsSetupSO, ___headerLocalizedText
 static_assert(offsetof(::GlobalNamespace::CreditsSetupSO, ___columnCount) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreditsSetupSO, ___spaceHeight) == 0x4c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreditsSetupSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreditsSetupSO);

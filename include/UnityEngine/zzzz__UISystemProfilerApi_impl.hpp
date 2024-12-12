@@ -5,38 +5,38 @@
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__UISystemProfilerApi_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::__UISystemProfilerApi__SampleType::__UISystemProfilerApi__SampleType(int32_t value__) noexcept {
+constexpr ::UnityEngine::UISystemProfilerApi_SampleType::UISystemProfilerApi_SampleType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__UISystemProfilerApi__SampleType::__UISystemProfilerApi__SampleType() {}
-constexpr ::UnityEngine::__UISystemProfilerApi__SampleType UnityEngine::__UISystemProfilerApi__SampleType::Layout{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::__UISystemProfilerApi__SampleType UnityEngine::__UISystemProfilerApi__SampleType::Render{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UISystemProfilerApi_SampleType::UISystemProfilerApi_SampleType() {}
+constexpr ::UnityEngine::UISystemProfilerApi_SampleType UnityEngine::UISystemProfilerApi_SampleType::Layout{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UISystemProfilerApi_SampleType UnityEngine::UISystemProfilerApi_SampleType::Render{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::UnityEngine::UISystemProfilerApi.BeginSample
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::__UISystemProfilerApi__SampleType)>(&::UnityEngine::UISystemProfilerApi::BeginSample)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UISystemProfilerApi_SampleType)>(&::UnityEngine::UISystemProfilerApi::BeginSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a46574;
+  constexpr static std::size_t addrs = 0x4aaae84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UISystemProfilerApi*>::get(), "BeginSample", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__UISystemProfilerApi__SampleType>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UISystemProfilerApi_SampleType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UISystemProfilerApi.EndSample
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::__UISystemProfilerApi__SampleType)>(&::UnityEngine::UISystemProfilerApi::EndSample)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UISystemProfilerApi_SampleType)>(&::UnityEngine::UISystemProfilerApi::EndSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a465b0;
+  constexpr static std::size_t addrs = 0x4aaaec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UISystemProfilerApi*>::get(), "EndSample", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__UISystemProfilerApi__SampleType>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UISystemProfilerApi_SampleType>::get() })));
     return ___internal_method;
   }
 };
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&::UnityEngine::UISystemProfilerApi::AddMarker)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a465ec;
+  constexpr static std::size_t addrs = 0x4aaaefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,16 +55,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void UnityEngine::UISystemProfilerApi::BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type) {
+inline void UnityEngine::UISystemProfilerApi::BeginSample(::UnityEngine::UISystemProfilerApi_SampleType type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UISystemProfilerApi*>::get(), "BeginSample", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__UISystemProfilerApi__SampleType>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UISystemProfilerApi_SampleType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
 }
-inline void UnityEngine::UISystemProfilerApi::EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type) {
+inline void UnityEngine::UISystemProfilerApi::EndSample(::UnityEngine::UISystemProfilerApi_SampleType type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UISystemProfilerApi*>::get(), "EndSample", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__UISystemProfilerApi__SampleType>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UISystemProfilerApi_SampleType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
 }
 inline void UnityEngine::UISystemProfilerApi::AddMarker(::StringW name, ::UnityEngine::Object* obj) {

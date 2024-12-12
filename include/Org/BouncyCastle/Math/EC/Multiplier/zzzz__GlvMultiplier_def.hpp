@@ -23,11 +23,10 @@ class GlvMultiplier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);
-// Type: Org.BouncyCastle.Math.EC.Multiplier::GlvMultiplier
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::GlvMultiplier*
+// CS Name: Org.BouncyCastle.Math.EC.Multiplier.GlvMultiplier
 class CORDL_TYPE GlvMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
@@ -37,25 +36,25 @@ public:
   /// @brief Field glvEndomorphism, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_glvEndomorphism, put = __cordl_internal_set_glvEndomorphism)) ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
 
-  /// @brief Method MultiplyPositive, addr 0x2483468, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x24b6754, size 0x264, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
                                                                                    ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve* const& __cordl_internal_get_curve() const;
+
   constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_curve() const;
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* const& __cordl_internal_get_glvEndomorphism() const;
 
   constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*& __cordl_internal_get_glvEndomorphism();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*> const& __cordl_internal_get_glvEndomorphism() const;
 
   constexpr void __cordl_internal_set_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
   constexpr void __cordl_internal_set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
 
-  /// @brief Method .ctor, addr 0x24833c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b66b0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
 protected:
@@ -72,23 +71,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GlvMultiplier(GlvMultiplier const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1533 };
+
   /// @brief Field curve, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::ECCurve* ___curve;
 
   /// @brief Field glvEndomorphism, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* ___glvEndomorphism;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1533 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, ___curve) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, ___glvEndomorphism) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);

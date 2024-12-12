@@ -20,11 +20,10 @@ class HapticPresetSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::Libraries::HM::HMLib::VR::HapticPresetSO);
-// Type: Libraries.HM.HMLib.VR::HapticPresetSO
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Nullable`1<T>, UnityEngine.ScriptableObject
 namespace Libraries::HM::HMLib::VR {
 // Is value type: false
-// CS Name: ::Libraries.HM.HMLib.VR::HapticPresetSO*
+// CS Name: Libraries.HM.HMLib.VR.HapticPresetSO
 class CORDL_TYPE HapticPresetSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -144,13 +143,13 @@ public:
 
   constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  /// @brief Method .ctor, addr 0x397d8ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d41b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOculusHapticsClip, addr 0x3973180, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOculusHapticsClip, addr 0x39c87c8, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasOculusHapticsClip();
 
-  /// @brief Method get_hasPS5HapticsClip, addr 0x39760a4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasPS5HapticsClip, addr 0x39cb8f8, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasPS5HapticsClip();
 
 protected:
@@ -166,6 +165,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HapticPresetSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HapticPresetSO(HapticPresetSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16494 };
 
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None
   float_t ____duration;
@@ -203,14 +205,9 @@ public:
   /// @brief Field _hasOculusHapticsClip, offset: 0x50, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____hasOculusHapticsClip;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16458 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Libraries::HM::HMLib::VR::HapticPresetSO, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::Libraries::HM::HMLib::VR::HapticPresetSO, ____duration) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Libraries::HM::HMLib::VR::HapticPresetSO, ____strength) == 0x1c, "Offset mismatch!");
@@ -234,6 +231,8 @@ static_assert(offsetof(::Libraries::HM::HMLib::VR::HapticPresetSO, ____overrideF
 static_assert(offsetof(::Libraries::HM::HMLib::VR::HapticPresetSO, ____touchControllerOverrideHapticsClip) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::Libraries::HM::HMLib::VR::HapticPresetSO, ____hasOculusHapticsClip) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Libraries::HM::HMLib::VR::HapticPresetSO, 0x58>, "Size mismatch!");
 
 } // namespace Libraries::HM::HMLib::VR
 NEED_NO_BOX(::Libraries::HM::HMLib::VR::HapticPresetSO);

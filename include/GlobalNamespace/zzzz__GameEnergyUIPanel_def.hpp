@@ -28,11 +28,10 @@ class GameEnergyUIPanel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameEnergyUIPanel);
-// Type: ::GameEnergyUIPanel
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameEnergyUIPanel*
+// CS Name: GameEnergyUIPanel
 class CORDL_TYPE GameEnergyUIPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -64,27 +63,27 @@ public:
   /// @brief Field _playableDirector, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__playableDirector, put = __cordl_internal_set__playableDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector> _playableDirector;
 
-  /// @brief Method CreateUIForBatteryEnergyType, addr 0x3b418d8, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method CreateUIForBatteryEnergyType, addr 0x3ba2fc8, size 0x2a0, virtual false, abstract: false, final false
   inline void CreateUIForBatteryEnergyType(int32_t batteryLives);
 
-  /// @brief Method HandleGameEnergyCounterDidInit, addr 0x3b42008, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyCounterDidInit, addr 0x3ba36f8, size 0x4, virtual false, abstract: false, final false
   inline void HandleGameEnergyCounterDidInit();
 
-  /// @brief Method HandleGameEnergyDidChange, addr 0x3b4200c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidChange, addr 0x3ba36fc, size 0x4, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x3b41540, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ba2c30, size 0x398, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameEnergyUIPanel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b41e4c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba353c, size 0x1bc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshEnergyUI, addr 0x3b41b78, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method RefreshEnergyUI, addr 0x3ba3268, size 0x2d4, virtual false, abstract: false, final false
   inline void RefreshEnergyUI(float_t energy);
 
-  /// @brief Method Start, addr 0x3b413c0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba2ab0, size 0x180, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr int32_t const& __cordl_internal_get__activeBatteryLifeSegmentsCount() const;
@@ -95,9 +94,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__batteryLifeSegmentPrefab();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get__batteryLifeSegments();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& __cordl_internal_get__batteryLifeSegments() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get__batteryLifeSegments() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get__batteryLifeSegments();
 
   constexpr float_t const& __cordl_internal_get__batterySegmentHorizontalPadding() const;
 
@@ -115,9 +114,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__energyBarRectTransform();
 
-  constexpr ::GlobalNamespace::IGameEnergyCounter*& __cordl_internal_get__gameEnergyCounter();
+  constexpr ::GlobalNamespace::IGameEnergyCounter* const& __cordl_internal_get__gameEnergyCounter() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameEnergyCounter*> const& __cordl_internal_get__gameEnergyCounter() const;
+  constexpr ::GlobalNamespace::IGameEnergyCounter*& __cordl_internal_get__gameEnergyCounter();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__playableDirector() const;
 
@@ -141,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__playableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x3b42010, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba3700, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,6 +156,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameEnergyUIPanel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameEnergyUIPanel(GameEnergyUIPanel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4405 };
 
   /// @brief Field _energyBar, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____energyBar;
@@ -185,14 +187,9 @@ public:
   /// @brief Field _energyBarRectTransform, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____energyBarRectTransform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4393 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameEnergyUIPanel, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameEnergyUIPanel, ____energyBar) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameEnergyUIPanel, ____playableDirector) == 0x28, "Offset mismatch!");
@@ -210,6 +207,8 @@ static_assert(offsetof(::GlobalNamespace::GameEnergyUIPanel, ____batteryLifeSegm
 static_assert(offsetof(::GlobalNamespace::GameEnergyUIPanel, ____activeBatteryLifeSegmentsCount) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameEnergyUIPanel, ____energyBarRectTransform) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameEnergyUIPanel, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameEnergyUIPanel);

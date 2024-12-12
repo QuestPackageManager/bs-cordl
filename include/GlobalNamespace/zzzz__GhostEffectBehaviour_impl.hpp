@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GhostEffectBehaviour.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
-#include "GlobalNamespace/zzzz__GhostEffectBehaviour_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
@@ -14,29 +13,29 @@
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior::__GhostEffectBehaviour__EndBehavior(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior::GhostEffectBehaviour_EndBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior::__GhostEffectBehaviour__EndBehavior() {}
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior GlobalNamespace::__GhostEffectBehaviour__EndBehavior::DisableAll{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior GlobalNamespace::__GhostEffectBehaviour__EndBehavior::DisableCopies{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior GlobalNamespace::__GhostEffectBehaviour__EndBehavior::Nothing{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior::GhostEffectBehaviour_EndBehavior() {}
+constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior GlobalNamespace::GhostEffectBehaviour_EndBehavior::DisableAll{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior GlobalNamespace::GhostEffectBehaviour_EndBehavior::DisableCopies{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior GlobalNamespace::GhostEffectBehaviour_EndBehavior::Nothing{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType::__GhostEffectBehaviour__GhostEffectType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType::GhostEffectBehaviour_GhostEffectType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType::__GhostEffectBehaviour__GhostEffectType() {}
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType GlobalNamespace::__GhostEffectBehaviour__GhostEffectType::TextMeshPro{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType GlobalNamespace::__GhostEffectBehaviour__GhostEffectType::Canvas{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType::GhostEffectBehaviour_GhostEffectType() {}
+constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType GlobalNamespace::GhostEffectBehaviour_GhostEffectType::TextMeshPro{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType GlobalNamespace::GhostEffectBehaviour_GhostEffectType::Canvas{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::GhostEffectBehaviour.OnBehaviourPlay
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::GlobalNamespace::GhostEffectBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3ad41f8;
+  constexpr static std::size_t addrs = 0x3b3383c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::GhostEffectBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x3ad449c;
+  constexpr static std::size_t addrs = 0x3b33ae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(bool)>(&::GlobalNamespace::GhostEffectBehaviour::EnableObjects)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3ad4388;
+  constexpr static std::size_t addrs = 0x3b339cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)()>(&::GlobalNamespace::GhostEffectBehaviour::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ad48cc;
+  constexpr static std::size_t addrs = 0x3b33f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostEffectBehaviour*>::get(), ".ctor",
@@ -91,7 +90,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::GhostEffectBehaviour:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alphaCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get_alphaCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get_alphaCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alphaCurve;
 }
@@ -103,7 +102,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::GhostEffectBehaviour:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sizeCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get_sizeCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get_sizeCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sizeCurve;
 }
@@ -115,7 +114,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::GhostEffectBehaviour:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distanceCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get_distanceCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get_distanceCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distanceCurve;
 }
@@ -219,15 +218,15 @@ constexpr void GlobalNamespace::GhostEffectBehaviour::__cordl_internal_set__posi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positionEasing = value;
 }
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__endBehavior() {
+constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__endBehavior() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endBehavior;
 }
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__endBehavior() const {
+constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__endBehavior() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endBehavior;
 }
-constexpr void GlobalNamespace::GhostEffectBehaviour::__cordl_internal_set__endBehavior(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior value) {
+constexpr void GlobalNamespace::GhostEffectBehaviour::__cordl_internal_set__endBehavior(::GlobalNamespace::GhostEffectBehaviour_EndBehavior value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endBehavior = value;
 }
@@ -267,15 +266,15 @@ constexpr void GlobalNamespace::GhostEffectBehaviour::__cordl_internal_set__canv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvasGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__ghostEffectType() {
+constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__ghostEffectType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostEffectType;
 }
-constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__ghostEffectType() const {
+constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType const& GlobalNamespace::GhostEffectBehaviour::__cordl_internal_get__ghostEffectType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostEffectType;
 }
-constexpr void GlobalNamespace::GhostEffectBehaviour::__cordl_internal_set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value) {
+constexpr void GlobalNamespace::GhostEffectBehaviour::__cordl_internal_set__ghostEffectType(::GlobalNamespace::GhostEffectBehaviour_GhostEffectType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ghostEffectType = value;
 }
@@ -331,13 +330,13 @@ inline void GlobalNamespace::GhostEffectBehaviour::EnableObjects(bool on) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, on);
 }
-inline ::GlobalNamespace::GhostEffectBehaviour* GlobalNamespace::GhostEffectBehaviour::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GhostEffectBehaviour*>());
-}
 inline void GlobalNamespace::GhostEffectBehaviour::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostEffectBehaviour*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GhostEffectBehaviour* GlobalNamespace::GhostEffectBehaviour::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GhostEffectBehaviour*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GhostEffectBehaviour::GhostEffectBehaviour() {}

@@ -12,11 +12,10 @@ struct Compositor_CumulativeStats;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::Compositor_CumulativeStats);
-// Type: OVR.OpenVR::Compositor_CumulativeStats
-// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::Compositor_CumulativeStats
+// CS Name: OVR.OpenVR.Compositor_CumulativeStats
 struct CORDL_TYPE Compositor_CumulativeStats {
 public:
   // Declarations
@@ -36,6 +35,12 @@ public:
                                        uint32_t m_nNumDroppedFramesOnStartup, uint32_t m_nNumReprojectedFramesOnStartup, uint32_t m_nNumLoading, uint32_t m_nNumFramePresentsLoading,
                                        uint32_t m_nNumDroppedFramesLoading, uint32_t m_nNumReprojectedFramesLoading, uint32_t m_nNumTimedOut, uint32_t m_nNumFramePresentsTimedOut,
                                        uint32_t m_nNumDroppedFramesTimedOut, uint32_t m_nNumReprojectedFramesTimedOut) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9018 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
 
   /// @brief Field m_nPid, offset: 0x0, size: 0x4, def value: None
   uint32_t m_nPid;
@@ -82,17 +87,9 @@ public:
   /// @brief Field m_nNumReprojectedFramesTimedOut, offset: 0x38, size: 0x4, def value: None
   uint32_t m_nNumReprojectedFramesTimedOut;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8993 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::Compositor_CumulativeStats, 0x3c>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nPid) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumFramePresents) == 0x4, "Offset mismatch!");
@@ -122,6 +119,8 @@ static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumFramePre
 static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumDroppedFramesTimedOut) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumReprojectedFramesTimedOut) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::Compositor_CumulativeStats, 0x3c>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Compositor_CumulativeStats, "OVR.OpenVR", "Compositor_CumulativeStats");

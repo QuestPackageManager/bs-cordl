@@ -1,26 +1,25 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_HandleParamBinding.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_impl.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType::__HEU_HandleParamBinding__HEU_HandleParamType(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType::HEU_HandleParamBinding_HEU_HandleParamType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType::__HEU_HandleParamBinding__HEU_HandleParamType() {}
-constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType::TRANSLATE{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType::ROTATE{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType::SCALE{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType::HEU_HandleParamBinding_HEU_HandleParamType() {}
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType::TRANSLATE{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType::ROTATE{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType::SCALE{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_HandleParamBinding.IsEquivalentTo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_HandleParamBinding::*)(::HoudiniEngineUnity::HEU_HandleParamBinding*)>(
     &::HoudiniEngineUnity::HEU_HandleParamBinding::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x39f1ca8;
+  constexpr static std::size_t addrs = 0x3a48918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_HandleParamBinding::*)()>(&::HoudiniEngineUnity::HEU_HandleParamBinding::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39f0d94;
+  constexpr static std::size_t addrs = 0x3a47a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_HandleParamBinding*>::get(), ".ctor",
@@ -42,24 +41,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
-constexpr HoudiniEngineUnity::HEU_HandleParamBinding::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*
-HoudiniEngineUnity::HEU_HandleParamBinding::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_HandleParamBinding__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(static_cast<void*>(this));
-}
-constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType& HoudiniEngineUnity::HEU_HandleParamBinding::__cordl_internal_get__paramType() {
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType& HoudiniEngineUnity::HEU_HandleParamBinding::__cordl_internal_get__paramType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramType;
 }
-constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType const& HoudiniEngineUnity::HEU_HandleParamBinding::__cordl_internal_get__paramType() const {
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType const& HoudiniEngineUnity::HEU_HandleParamBinding::__cordl_internal_get__paramType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramType;
 }
-constexpr void HoudiniEngineUnity::HEU_HandleParamBinding::__cordl_internal_set__paramType(::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType value) {
+constexpr void HoudiniEngineUnity::HEU_HandleParamBinding::__cordl_internal_set__paramType(::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____paramType = value;
 }
@@ -117,13 +107,22 @@ inline bool HoudiniEngineUnity::HEU_HandleParamBinding::IsEquivalentTo(::Houdini
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HandleParamBinding*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::HoudiniEngineUnity::HEU_HandleParamBinding* HoudiniEngineUnity::HEU_HandleParamBinding::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_HandleParamBinding*>());
-}
 inline void HoudiniEngineUnity::HEU_HandleParamBinding::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_HandleParamBinding*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_HandleParamBinding* HoudiniEngineUnity::HEU_HandleParamBinding::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_HandleParamBinding*>());
+}
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
+constexpr HoudiniEngineUnity::HEU_HandleParamBinding::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*
+HoudiniEngineUnity::HEU_HandleParamBinding::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_HandleParamBinding__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamBinding() {}

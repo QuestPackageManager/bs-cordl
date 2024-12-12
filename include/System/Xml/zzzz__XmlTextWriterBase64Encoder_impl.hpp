@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::System::Xml::XmlTextEncoder*)>(
     &::System::Xml::XmlTextWriterBase64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41d3498;
+  constexpr static std::size_t addrs = 0x42347ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlTextWriterBase64Encoder::WriteChars)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41d34bc;
+  constexpr static std::size_t addrs = 0x42347d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,16 +37,13 @@ constexpr ::System::Xml::XmlTextEncoder*& System::Xml::XmlTextWriterBase64Encode
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlTextEncoder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextEncoder*> const& System::Xml::XmlTextWriterBase64Encoder::__cordl_internal_get_xmlTextEncoder() const {
+constexpr ::System::Xml::XmlTextEncoder* const& System::Xml::XmlTextWriterBase64Encoder::__cordl_internal_get_xmlTextEncoder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlTextEncoder;
 }
 constexpr void System::Xml::XmlTextWriterBase64Encoder::__cordl_internal_set_xmlTextEncoder(::System::Xml::XmlTextEncoder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlTextEncoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::XmlTextWriterBase64Encoder* System::Xml::XmlTextWriterBase64Encoder::New_ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlTextWriterBase64Encoder*>(xmlTextEncoder));
 }
 inline void System::Xml::XmlTextWriterBase64Encoder::_ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -58,6 +55,9 @@ inline void System::Xml::XmlTextWriterBase64Encoder::WriteChars(::ArrayW<char16_
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlTextWriterBase64Encoder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, chars, index, count);
+}
+inline ::System::Xml::XmlTextWriterBase64Encoder* System::Xml::XmlTextWriterBase64Encoder::New_ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlTextWriterBase64Encoder*>(xmlTextEncoder));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlTextWriterBase64Encoder::XmlTextWriterBase64Encoder() {}

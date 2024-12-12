@@ -70,15 +70,15 @@ template <typename TValue> inline int32_t UnityEngine::InputSystem::InputControl
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-template <typename TValue> inline ByRef<TValue> UnityEngine::InputSystem::InputControl_1<TValue>::get_value() {
+template <typename TValue> inline ::ByRef<TValue> UnityEngine::InputSystem::InputControl_1<TValue>::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(),
                                                                              "get_value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<ByRef<TValue>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ByRef<TValue>, false>(this, ___internal_method);
 }
-template <typename TValue> inline ByRef<TValue> UnityEngine::InputSystem::InputControl_1<TValue>::get_unprocessedValue() {
+template <typename TValue> inline ::ByRef<TValue> UnityEngine::InputSystem::InputControl_1<TValue>::get_unprocessedValue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(),
                                                                              "get_unprocessedValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<ByRef<TValue>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ByRef<TValue>, false>(this, ___internal_method);
 }
 template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadValue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(),
@@ -155,10 +155,11 @@ template <typename TValue> inline ::System::Object* UnityEngine::InputSystem::In
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, buffer, bufferSize);
 }
-template <typename TValue> inline bool UnityEngine::InputSystem::InputControl_1<TValue>::CompareValue(ByRef<TValue> firstValue, ByRef<TValue> secondValue) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "CompareValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+template <typename TValue> inline bool UnityEngine::InputSystem::InputControl_1<TValue>::CompareValue(::ByRef<TValue> firstValue, ::ByRef<TValue> secondValue) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(),
+                                                                             "CompareValue", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, firstValue, secondValue);
 }
 template <typename TValue> inline bool UnityEngine::InputSystem::InputControl_1<TValue>::CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr) {
@@ -172,10 +173,10 @@ template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, value);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::ProcessValue(ByRef<TValue> value) {
+template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::ProcessValue(::ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "ProcessValue",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename TValue> template <typename TProcessor> inline TProcessor UnityEngine::InputSystem::InputControl_1<TValue>::TryGetProcessor() {
@@ -204,13 +205,13 @@ UnityEngine::InputSystem::InputControl_1<TValue>::get_processors() {
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::InputSystem::InputProcessor_1<TValue>*, ::Array<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>*>, false>(
       this, ___internal_method);
 }
-template <typename TValue> inline ::UnityEngine::InputSystem::InputControl_1<TValue>* UnityEngine::InputSystem::InputControl_1<TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputControl_1<TValue>*>());
-}
 template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValue> inline ::UnityEngine::InputSystem::InputControl_1<TValue>* UnityEngine::InputSystem::InputControl_1<TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputControl_1<TValue>*>());
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::InputSystem::InputControl_1<TValue>::InputControl_1() {}

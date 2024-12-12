@@ -12,11 +12,10 @@ struct TermInfoNumbers;
 }
 // Write type traits
 MARK_VAL_T(::System::TermInfoNumbers);
-// Type: System::TermInfoNumbers
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::TermInfoNumbers
+// CS Name: System.TermInfoNumbers
 struct CORDL_TYPE TermInfoNumbers {
 public:
   // Declarations
@@ -77,109 +76,106 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TermInfoNumbers(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BitImageEntwining value: static_cast<int32_t>(0x1f)
+  /// @brief Field BitImageEntwining value: I32(31)
   static ::System::TermInfoNumbers const BitImageEntwining;
 
-  /// @brief Field BitImageType value: static_cast<int32_t>(0x20)
+  /// @brief Field BitImageType value: I32(32)
   static ::System::TermInfoNumbers const BitImageType;
 
-  /// @brief Field BufferCapacity value: static_cast<int32_t>(0x10)
+  /// @brief Field BufferCapacity value: I32(16)
   static ::System::TermInfoNumbers const BufferCapacity;
 
-  /// @brief Field Buttons value: static_cast<int32_t>(0x1e)
+  /// @brief Field Buttons value: I32(30)
   static ::System::TermInfoNumbers const Buttons;
 
-  /// @brief Field Columns value: static_cast<int32_t>(0x0)
+  /// @brief Field Columns value: I32(0)
   static ::System::TermInfoNumbers const Columns;
 
-  /// @brief Field DotHorzSpacing value: static_cast<int32_t>(0x12)
+  /// @brief Field DotHorzSpacing value: I32(18)
   static ::System::TermInfoNumbers const DotHorzSpacing;
 
-  /// @brief Field DotVertSpacing value: static_cast<int32_t>(0x11)
+  /// @brief Field DotVertSpacing value: I32(17)
   static ::System::TermInfoNumbers const DotVertSpacing;
 
-  /// @brief Field InitTabs value: static_cast<int32_t>(0x1)
+  /// @brief Field InitTabs value: I32(1)
   static ::System::TermInfoNumbers const InitTabs;
 
-  /// @brief Field LabelHeight value: static_cast<int32_t>(0x9)
+  /// @brief Field LabelHeight value: I32(9)
   static ::System::TermInfoNumbers const LabelHeight;
 
-  /// @brief Field LabelWidth value: static_cast<int32_t>(0xa)
+  /// @brief Field LabelWidth value: I32(10)
   static ::System::TermInfoNumbers const LabelWidth;
 
-  /// @brief Field Last value: static_cast<int32_t>(0x21)
+  /// @brief Field Last value: I32(33)
   static ::System::TermInfoNumbers const Last;
 
-  /// @brief Field Lines value: static_cast<int32_t>(0x2)
+  /// @brief Field Lines value: I32(2)
   static ::System::TermInfoNumbers const Lines;
 
-  /// @brief Field LinesOfMemory value: static_cast<int32_t>(0x3)
+  /// @brief Field LinesOfMemory value: I32(3)
   static ::System::TermInfoNumbers const LinesOfMemory;
 
-  /// @brief Field MagicCookieGlitch value: static_cast<int32_t>(0x4)
+  /// @brief Field MagicCookieGlitch value: I32(4)
   static ::System::TermInfoNumbers const MagicCookieGlitch;
 
-  /// @brief Field MaxAttributes value: static_cast<int32_t>(0xb)
+  /// @brief Field MaxAttributes value: I32(11)
   static ::System::TermInfoNumbers const MaxAttributes;
 
-  /// @brief Field MaxColors value: static_cast<int32_t>(0xd)
+  /// @brief Field MaxColors value: I32(13)
   static ::System::TermInfoNumbers const MaxColors;
 
-  /// @brief Field MaxMicroAddress value: static_cast<int32_t>(0x13)
+  /// @brief Field MaxMicroAddress value: I32(19)
   static ::System::TermInfoNumbers const MaxMicroAddress;
 
-  /// @brief Field MaxMicroJump value: static_cast<int32_t>(0x14)
+  /// @brief Field MaxMicroJump value: I32(20)
   static ::System::TermInfoNumbers const MaxMicroJump;
 
-  /// @brief Field MaxPairs value: static_cast<int32_t>(0xe)
+  /// @brief Field MaxPairs value: I32(14)
   static ::System::TermInfoNumbers const MaxPairs;
 
-  /// @brief Field MaximumWindows value: static_cast<int32_t>(0xc)
+  /// @brief Field MaximumWindows value: I32(12)
   static ::System::TermInfoNumbers const MaximumWindows;
 
-  /// @brief Field MicroColSize value: static_cast<int32_t>(0x15)
+  /// @brief Field MicroColSize value: I32(21)
   static ::System::TermInfoNumbers const MicroColSize;
 
-  /// @brief Field MicroLineSize value: static_cast<int32_t>(0x16)
+  /// @brief Field MicroLineSize value: I32(22)
   static ::System::TermInfoNumbers const MicroLineSize;
 
-  /// @brief Field NoColorVideo value: static_cast<int32_t>(0xf)
+  /// @brief Field NoColorVideo value: I32(15)
   static ::System::TermInfoNumbers const NoColorVideo;
 
-  /// @brief Field NumLabels value: static_cast<int32_t>(0x8)
+  /// @brief Field NumLabels value: I32(8)
   static ::System::TermInfoNumbers const NumLabels;
 
-  /// @brief Field NumberOfPins value: static_cast<int32_t>(0x17)
+  /// @brief Field NumberOfPins value: I32(23)
   static ::System::TermInfoNumbers const NumberOfPins;
 
-  /// @brief Field OutputResChar value: static_cast<int32_t>(0x18)
+  /// @brief Field OutputResChar value: I32(24)
   static ::System::TermInfoNumbers const OutputResChar;
 
-  /// @brief Field OutputResHorzInch value: static_cast<int32_t>(0x1a)
+  /// @brief Field OutputResHorzInch value: I32(26)
   static ::System::TermInfoNumbers const OutputResHorzInch;
 
-  /// @brief Field OutputResLine value: static_cast<int32_t>(0x19)
+  /// @brief Field OutputResLine value: I32(25)
   static ::System::TermInfoNumbers const OutputResLine;
 
-  /// @brief Field OutputResVertInch value: static_cast<int32_t>(0x1b)
+  /// @brief Field OutputResVertInch value: I32(27)
   static ::System::TermInfoNumbers const OutputResVertInch;
 
-  /// @brief Field PaddingBaudRate value: static_cast<int32_t>(0x5)
+  /// @brief Field PaddingBaudRate value: I32(5)
   static ::System::TermInfoNumbers const PaddingBaudRate;
 
-  /// @brief Field PrintRate value: static_cast<int32_t>(0x1c)
+  /// @brief Field PrintRate value: I32(28)
   static ::System::TermInfoNumbers const PrintRate;
 
-  /// @brief Field VirtualTerminal value: static_cast<int32_t>(0x6)
+  /// @brief Field VirtualTerminal value: I32(6)
   static ::System::TermInfoNumbers const VirtualTerminal;
 
-  /// @brief Field WideCharSize value: static_cast<int32_t>(0x1d)
+  /// @brief Field WideCharSize value: I32(29)
   static ::System::TermInfoNumbers const WideCharSize;
 
-  /// @brief Field WidthStatusLine value: static_cast<int32_t>(0x7)
+  /// @brief Field WidthStatusLine value: I32(7)
   static ::System::TermInfoNumbers const WidthStatusLine;
 
   /// @brief IL2CPP Metadata Type Index
@@ -188,12 +184,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::TermInfoNumbers, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::TermInfoNumbers, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::TermInfoNumbers, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoNumbers, "System", "TermInfoNumbers");

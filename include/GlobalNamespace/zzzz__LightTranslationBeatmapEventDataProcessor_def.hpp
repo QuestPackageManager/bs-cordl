@@ -20,23 +20,22 @@ class LightTranslationBeatmapEventDataProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBeatmapEventDataProcessor);
-// Type: ::LightTranslationBeatmapEventDataProcessor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapEventDataProcessor`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightTranslationBeatmapEventDataProcessor*
+// CS Name: LightTranslationBeatmapEventDataProcessor
 class CORDL_TYPE LightTranslationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightTranslationBeatmapEventData*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LightTranslationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x2217a7c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x2242cd4, size 0xfc, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x221796c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x2242bc4, size 0x110, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x2217b78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2242dd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +53,7 @@ public:
   LightTranslationBeatmapEventDataProcessor(LightTranslationBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17061 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

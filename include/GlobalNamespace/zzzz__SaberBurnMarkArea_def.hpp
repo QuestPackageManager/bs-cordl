@@ -6,8 +6,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberBurnMarkArea)
@@ -22,6 +20,9 @@ class Saber;
 }
 namespace GlobalNamespace {
 class SettingsManager;
+}
+namespace System {
+class Random;
 }
 namespace UnityEngine {
 class Camera;
@@ -50,11 +51,10 @@ class SaberBurnMarkArea;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberBurnMarkArea);
-// Type: ::SaberBurnMarkArea
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::EmitParams, UnityEngine.Plane
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberBurnMarkArea*
+// CS Name: SaberBurnMarkArea
 class CORDL_TYPE SaberBurnMarkArea : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -74,7 +74,7 @@ public:
   __declspec(property(get = __cordl_internal_get__disableBlitTimer, put = __cordl_internal_set__disableBlitTimer)) float_t _disableBlitTimer;
 
   /// @brief Field _emitParams, offset 0xb8, size 0x90
-  __declspec(property(get = __cordl_internal_get__emitParams, put = __cordl_internal_set__emitParams)) ::UnityEngine::__ParticleSystem__EmitParams _emitParams;
+  __declspec(property(get = __cordl_internal_get__emitParams, put = __cordl_internal_set__emitParams)) ::UnityEngine::ParticleSystem_EmitParams _emitParams;
 
   /// @brief Field _fadeOutMaterial, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeOutMaterial, put = __cordl_internal_set__fadeOutMaterial)) ::UnityW<::UnityEngine::Material> _fadeOutMaterial;
@@ -102,6 +102,9 @@ public:
   /// @brief Field _prevBurnMarkPosValid, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__prevBurnMarkPosValid, put = __cordl_internal_set__prevBurnMarkPosValid)) ::ArrayW<bool, ::Array<bool>*> _prevBurnMarkPosValid;
 
+  /// @brief Field _random, offset 0x150, size 0x8
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
+
   /// @brief Field _renderTextures, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__renderTextures,
                       put = __cordl_internal_set__renderTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>
@@ -128,27 +131,27 @@ public:
   /// @brief Field _textureWidth, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__textureWidth, put = __cordl_internal_set__textureWidth)) int32_t _textureWidth;
 
-  /// @brief Method GetBurnMarkPos, addr 0x3b210c0, size 0x330, virtual false, abstract: false, final false
-  inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
+  /// @brief Method GetBurnMarkPos, addr 0x3b8226c, size 0x330, virtual false, abstract: false, final false
+  inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate, addr 0x3b214ac, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b82658, size 0x6a8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b20c5c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b81e08, size 0x224, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b20fa0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b8214c, size 0x120, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b20e80, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b8202c, size 0x120, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x3b20260, size 0x9fc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8140c, size 0x9fc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method WorldToCameraBurnMarkPos, addr 0x3b213f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WorldToCameraBurnMarkPos, addr 0x3b8259c, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 WorldToCameraBurnMarkPos(::UnityEngine::Vector3 pos);
 
   constexpr float_t const& __cordl_internal_get__blackMarkLineRandomOffset() const;
@@ -163,17 +166,17 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr float_t const& __cordl_internal_get__disableBlitTimer() const;
 
   constexpr float_t& __cordl_internal_get__disableBlitTimer();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__emitParams() const;
+  constexpr ::UnityEngine::ParticleSystem_EmitParams const& __cordl_internal_get__emitParams() const;
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__emitParams();
+  constexpr ::UnityEngine::ParticleSystem_EmitParams& __cordl_internal_get__emitParams();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fadeOutMaterial() const;
 
@@ -207,6 +210,10 @@ public:
 
   constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__prevBurnMarkPosValid();
 
+  constexpr ::System::Random* const& __cordl_internal_get__random() const;
+
+  constexpr ::System::Random*& __cordl_internal_get__random();
+
   constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get__renderTextures() const;
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get__renderTextures();
@@ -227,9 +234,9 @@ public:
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*>& __cordl_internal_get__sabers();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr int32_t const& __cordl_internal_get__textureHeight() const;
 
@@ -249,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set__disableBlitTimer(float_t value);
 
-  constexpr void __cordl_internal_set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+  constexpr void __cordl_internal_set__emitParams(::UnityEngine::ParticleSystem_EmitParams value);
 
   constexpr void __cordl_internal_set__fadeOutMaterial(::UnityW<::UnityEngine::Material> value);
 
@@ -267,6 +274,8 @@ public:
 
   constexpr void __cordl_internal_set__prevBurnMarkPosValid(::ArrayW<bool, ::Array<bool>*> value);
 
+  constexpr void __cordl_internal_set__random(::System::Random* value);
+
   constexpr void __cordl_internal_set__renderTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
@@ -283,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set__textureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b21b34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b82d00, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -299,6 +308,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SaberBurnMarkArea(SaberBurnMarkArea const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4232 };
+
+  /// @brief Field kDisableBlitAfterSecondsThreshold offset 0xffffffff size 0x4
+  static constexpr float_t kDisableBlitAfterSecondsThreshold{ static_cast<float_t>(5.0f) };
 
   /// @brief Field _saberBurnMarkLinePrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::LineRenderer> ____saberBurnMarkLinePrefab;
@@ -361,22 +376,17 @@ public:
   ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ____renderTextures;
 
   /// @brief Field _emitParams, offset: 0xb8, size: 0x90, def value: None
-  ::UnityEngine::__ParticleSystem__EmitParams ____emitParams;
+  ::UnityEngine::ParticleSystem_EmitParams ____emitParams;
 
   /// @brief Field _fadeOutMaterial, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____fadeOutMaterial;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4221 };
-
-  /// @brief Field kDisableBlitAfterSecondsThreshold offset 0xffffffff size 0x4
-  static constexpr float_t kDisableBlitAfterSecondsThreshold{ 5.0 };
+  /// @brief Field _random, offset: 0x150, size: 0x8, def value: None
+  ::System::Random* ____random;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberBurnMarkArea, 0x150>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____saberBurnMarkLinePrefab) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____blackMarkLineRandomOffset) == 0x28, "Offset mismatch!");
@@ -420,6 +430,10 @@ static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderTextures)
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____emitParams) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____fadeOutMaterial) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____random) == 0x150, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberBurnMarkArea, 0x158>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberBurnMarkArea);

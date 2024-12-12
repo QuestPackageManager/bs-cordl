@@ -12,20 +12,19 @@ class FiniteFieldDheGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::FiniteFieldDheGroup);
-// Type: Org.BouncyCastle.Crypto.Tls::FiniteFieldDheGroup
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::FiniteFieldDheGroup*
+// CS Name: Org.BouncyCastle.Crypto.Tls.FiniteFieldDheGroup
 class CORDL_TYPE FiniteFieldDheGroup : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x23e1594, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2414880, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t group);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::FiniteFieldDheGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e15a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,11 +12,10 @@ struct PenButton;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::PenButton);
-// Type: UnityEngine.InputSystem::PenButton
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem::PenButton
+// CS Name: UnityEngine.InputSystem.PenButton
 struct CORDL_TYPE PenButton {
 public:
   // Declarations
@@ -54,54 +53,54 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr PenButton(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Barrel1 value: static_cast<int32_t>(0x2)
+  /// @brief Field Barrel1 value: I32(2)
   static ::UnityEngine::InputSystem::PenButton const Barrel1;
 
-  /// @brief Field Barrel2 value: static_cast<int32_t>(0x3)
+  /// @brief Field Barrel2 value: I32(3)
   static ::UnityEngine::InputSystem::PenButton const Barrel2;
 
-  /// @brief Field Barrel3 value: static_cast<int32_t>(0x5)
+  /// @brief Field Barrel3 value: I32(5)
   static ::UnityEngine::InputSystem::PenButton const Barrel3;
 
-  /// @brief Field Barrel4 value: static_cast<int32_t>(0x6)
+  /// @brief Field Barrel4 value: I32(6)
   static ::UnityEngine::InputSystem::PenButton const Barrel4;
 
-  /// @brief Field BarrelFirst value: static_cast<int32_t>(0x2)
+  /// @brief Field BarrelFirst value: I32(2)
   static ::UnityEngine::InputSystem::PenButton const BarrelFirst;
 
-  /// @brief Field BarrelFourth value: static_cast<int32_t>(0x6)
+  /// @brief Field BarrelFourth value: I32(6)
   static ::UnityEngine::InputSystem::PenButton const BarrelFourth;
 
-  /// @brief Field BarrelSecond value: static_cast<int32_t>(0x3)
+  /// @brief Field BarrelSecond value: I32(3)
   static ::UnityEngine::InputSystem::PenButton const BarrelSecond;
 
-  /// @brief Field BarrelThird value: static_cast<int32_t>(0x5)
+  /// @brief Field BarrelThird value: I32(5)
   static ::UnityEngine::InputSystem::PenButton const BarrelThird;
 
-  /// @brief Field Eraser value: static_cast<int32_t>(0x1)
+  /// @brief Field Eraser value: I32(1)
   static ::UnityEngine::InputSystem::PenButton const Eraser;
 
-  /// @brief Field InRange value: static_cast<int32_t>(0x4)
+  /// @brief Field InRange value: I32(4)
   static ::UnityEngine::InputSystem::PenButton const InRange;
 
-  /// @brief Field Tip value: static_cast<int32_t>(0x0)
+  /// @brief Field Tip value: I32(0)
   static ::UnityEngine::InputSystem::PenButton const Tip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6648 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::PenButton, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::PenButton, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::PenButton, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::PenButton, "UnityEngine.InputSystem", "PenButton");

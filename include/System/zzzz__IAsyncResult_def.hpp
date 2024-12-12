@@ -16,11 +16,10 @@ class IAsyncResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IAsyncResult);
-// Type: System::IAsyncResult
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: false
-// CS Name: ::System::IAsyncResult*
+// CS Name: System.IAsyncResult
 class CORDL_TYPE IAsyncResult {
 public:
   // Declarations
@@ -32,21 +31,17 @@ public:
 
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
-  /// @brief Method get_AsyncState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_AsyncState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_AsyncWaitHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_CompletedSynchronously, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_IsCompleted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsCompleted();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IAsyncResult", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IAsyncResult(IAsyncResult&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsyncResult", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

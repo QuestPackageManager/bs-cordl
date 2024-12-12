@@ -16,9 +16,6 @@ template <typename TBase, typename TKey, typename TParam1> inline TBase Zenject:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_3<TBase, TKey, TParam1>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<TBase, false>(this, ___internal_method, key, param1);
 }
-template <typename TBase, typename TKey, typename TParam1> inline ::Zenject::KeyedFactory_3<TBase, TKey, TParam1>* Zenject::KeyedFactory_3<TBase, TKey, TParam1>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactory_3<TBase, TKey, TParam1>*>());
-}
 template <typename TBase, typename TKey, typename TParam1> inline void Zenject::KeyedFactory_3<TBase, TKey, TParam1>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_3<TBase, TKey, TParam1>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -35,6 +32,9 @@ template <typename TBase, typename TKey, typename TParam1> inline ::Zenject::Inj
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_3<TBase, TKey, TParam1>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TBase, typename TKey, typename TParam1> inline ::Zenject::KeyedFactory_3<TBase, TKey, TParam1>* Zenject::KeyedFactory_3<TBase, TKey, TParam1>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactory_3<TBase, TKey, TParam1>*>());
 }
 // Ctor Parameters []
 template <typename TBase, typename TKey, typename TParam1> constexpr ::Zenject::KeyedFactory_3<TBase, TKey, TParam1>::KeyedFactory_3() {}

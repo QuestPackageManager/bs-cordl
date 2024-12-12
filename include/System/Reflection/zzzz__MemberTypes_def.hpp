@@ -12,11 +12,10 @@ struct MemberTypes;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::MemberTypes);
-// Type: System.Reflection::MemberTypes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::MemberTypes
+// CS Name: System.Reflection.MemberTypes
 struct CORDL_TYPE MemberTypes {
 public:
   // Declarations
@@ -52,34 +51,31 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MemberTypes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0xbf)
+  /// @brief Field All value: I32(191)
   static ::System::Reflection::MemberTypes const All;
 
-  /// @brief Field Constructor value: static_cast<int32_t>(0x1)
+  /// @brief Field Constructor value: I32(1)
   static ::System::Reflection::MemberTypes const Constructor;
 
-  /// @brief Field Custom value: static_cast<int32_t>(0x40)
+  /// @brief Field Custom value: I32(64)
   static ::System::Reflection::MemberTypes const Custom;
 
-  /// @brief Field Event value: static_cast<int32_t>(0x2)
+  /// @brief Field Event value: I32(2)
   static ::System::Reflection::MemberTypes const Event;
 
-  /// @brief Field Field value: static_cast<int32_t>(0x4)
+  /// @brief Field Field value: I32(4)
   static ::System::Reflection::MemberTypes const Field;
 
-  /// @brief Field Method value: static_cast<int32_t>(0x8)
+  /// @brief Field Method value: I32(8)
   static ::System::Reflection::MemberTypes const Method;
 
-  /// @brief Field NestedType value: static_cast<int32_t>(0x80)
+  /// @brief Field NestedType value: I32(128)
   static ::System::Reflection::MemberTypes const NestedType;
 
-  /// @brief Field Property value: static_cast<int32_t>(0x10)
+  /// @brief Field Property value: I32(16)
   static ::System::Reflection::MemberTypes const Property;
 
-  /// @brief Field TypeInfo value: static_cast<int32_t>(0x20)
+  /// @brief Field TypeInfo value: I32(32)
   static ::System::Reflection::MemberTypes const TypeInfo;
 
   /// @brief IL2CPP Metadata Type Index
@@ -88,12 +84,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::MemberTypes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::MemberTypes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::MemberTypes, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MemberTypes, "System.Reflection", "MemberTypes");

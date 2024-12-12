@@ -11,17 +11,16 @@ class XmlTypeMapElementInfoList;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeMapElementInfoList);
-// Type: System.Xml.Serialization::XmlTypeMapElementInfoList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ArrayList
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlTypeMapElementInfoList*
+// CS Name: System.Xml.Serialization.XmlTypeMapElementInfoList
 class CORDL_TYPE XmlTypeMapElementInfoList : public ::System::Collections::ArrayList {
 public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlTypeMapElementInfoList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432cb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438de9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XmlTypeMapElementInfoList(XmlTypeMapElementInfoList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

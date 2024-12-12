@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::BaseChannel::*)(::LiteNetLib::NetPeer*)>(&::LiteNetLib::BaseChannel::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a553f4;
+  constexpr static std::size_t addrs = 0x3aac064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LiteNetLib::BaseChannel::*)()>(&::LiteNetLib::BaseChannel::get_PacketsInQueue)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3a55480;
+  constexpr static std::size_t addrs = 0x3aac0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::BaseChannel*>::get(), "get_PacketsInQueue",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::BaseChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::BaseChannel::AddToQueue)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3a554c8;
+  constexpr static std::size_t addrs = 0x3aac138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,39 +46,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::BaseChannel.SendNextPackets
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::BaseChannel::*)()>(&::LiteNetLib::BaseChannel::SendNextPackets)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::BaseChannel*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::BaseChannel*>::get(), 4));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::LiteNetLib::BaseChannel.ProcessPacket
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::BaseChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::BaseChannel::ProcessPacket)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::BaseChannel*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::BaseChannel*>::get(), 5));
-    return ___internal_method;
-  }
-};
 constexpr ::LiteNetLib::BaseChannel*& LiteNetLib::BaseChannel::__cordl_internal_get_Next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::BaseChannel*> const& LiteNetLib::BaseChannel::__cordl_internal_get_Next() const {
+constexpr ::LiteNetLib::BaseChannel* const& LiteNetLib::BaseChannel::__cordl_internal_get_Next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
@@ -90,7 +62,7 @@ constexpr ::LiteNetLib::NetPeer*& LiteNetLib::BaseChannel::__cordl_internal_get_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Peer;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& LiteNetLib::BaseChannel::__cordl_internal_get_Peer() const {
+constexpr ::LiteNetLib::NetPeer* const& LiteNetLib::BaseChannel::__cordl_internal_get_Peer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Peer;
 }
@@ -102,16 +74,13 @@ constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& Li
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OutgoingQueue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*> const& LiteNetLib::BaseChannel::__cordl_internal_get_OutgoingQueue() const {
+constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* const& LiteNetLib::BaseChannel::__cordl_internal_get_OutgoingQueue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OutgoingQueue;
 }
 constexpr void LiteNetLib::BaseChannel::__cordl_internal_set_OutgoingQueue(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OutgoingQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::LiteNetLib::BaseChannel* LiteNetLib::BaseChannel::New_ctor(::LiteNetLib::NetPeer* peer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::BaseChannel*>(peer));
 }
 inline void LiteNetLib::BaseChannel::_ctor(::LiteNetLib::NetPeer* peer) {
   static auto* ___internal_method =
@@ -139,6 +108,9 @@ inline bool LiteNetLib::BaseChannel::ProcessPacket(::LiteNetLib::NetPacket* pack
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::BaseChannel*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, packet);
+}
+inline ::LiteNetLib::BaseChannel* LiteNetLib::BaseChannel::New_ctor(::LiteNetLib::NetPeer* peer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::BaseChannel*>(peer));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::BaseChannel::BaseChannel() {}

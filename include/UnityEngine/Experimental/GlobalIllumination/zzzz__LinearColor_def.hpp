@@ -15,11 +15,10 @@ struct LinearColor;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LinearColor);
-// Type: UnityEngine.Experimental.GlobalIllumination::LinearColor
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.GlobalIllumination::LinearColor
+// CS Name: UnityEngine.Experimental.GlobalIllumination.LinearColor
 struct CORDL_TYPE LinearColor {
 public:
   // Declarations
@@ -29,28 +28,28 @@ public:
 
   __declspec(property(get = get_red, put = set_red)) float_t red;
 
-  /// @brief Method Black, addr 0x486bbf0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Black, addr 0x48ccf58, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
 
-  /// @brief Method Convert, addr 0x486b92c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x48cccb0, size 0x2a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method get_blue, addr 0x486b878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blue, addr 0x48ccbfc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_blue();
 
-  /// @brief Method get_green, addr 0x486b7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_green, addr 0x48ccb48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_green();
 
-  /// @brief Method get_red, addr 0x486b710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_red, addr 0x48cca94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_red();
 
-  /// @brief Method set_blue, addr 0x486b880, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_blue, addr 0x48ccc04, size 0xac, virtual false, abstract: false, final false
   inline void set_blue(float_t value);
 
-  /// @brief Method set_green, addr 0x486b7cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_green, addr 0x48ccb50, size 0xac, virtual false, abstract: false, final false
   inline void set_green(float_t value);
 
-  /// @brief Method set_red, addr 0x486b718, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_red, addr 0x48cca9c, size 0xac, virtual false, abstract: false, final false
   inline void set_red(float_t value);
 
   // Ctor Parameters []
@@ -60,6 +59,12 @@ public:
   // Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_blue",
   // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_intensity", ty: "float_t", modifiers: "", def_value: None }]
   constexpr LinearColor(float_t m_red, float_t m_green, float_t m_blue, float_t m_intensity) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11294 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_red, offset: 0x0, size: 0x4, def value: None
   float_t m_red;
@@ -73,17 +78,9 @@ public:
   /// @brief Field m_intensity, offset: 0xc, size: 0x4, def value: None
   float_t m_intensity;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11261 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::LinearColor, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LinearColor, m_red) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LinearColor, m_green) == 0x4, "Offset mismatch!");
@@ -91,6 +88,8 @@ static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LinearCo
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LinearColor, m_blue) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LinearColor, m_intensity) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::LinearColor, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");

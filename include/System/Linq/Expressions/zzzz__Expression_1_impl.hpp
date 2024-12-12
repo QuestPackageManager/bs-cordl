@@ -6,9 +6,6 @@
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 #include "System/Linq/Expressions/zzzz__ParameterExpression_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-template <typename TDelegate> inline ::System::Linq::Expressions::Expression_1<TDelegate>* System::Linq::Expressions::Expression_1<TDelegate>::New_ctor(::System::Linq::Expressions::Expression* body) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Expression_1<TDelegate>*>(body));
-}
 template <typename TDelegate> inline void System::Linq::Expressions::Expression_1<TDelegate>::_ctor(::System::Linq::Expressions::Expression* body) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression_1<TDelegate>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -50,6 +47,9 @@ template <typename TDelegate> inline ::System::Linq::Expressions::Expression* Sy
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression_1<TDelegate>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, visitor);
+}
+template <typename TDelegate> inline ::System::Linq::Expressions::Expression_1<TDelegate>* System::Linq::Expressions::Expression_1<TDelegate>::New_ctor(::System::Linq::Expressions::Expression* body) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Expression_1<TDelegate>*>(body));
 }
 // Ctor Parameters []
 template <typename TDelegate> constexpr ::System::Linq::Expressions::Expression_1<TDelegate>::Expression_1() {}

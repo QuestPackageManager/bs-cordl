@@ -1,44 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Timeline/RuntimeElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Timeline/zzzz__IInterval_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IInterval_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement.get_intervalStart
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeElement::*)()>(
-    &::UnityEngine::Timeline::RuntimeElement::get_intervalStart)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), 6));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement.get_intervalEnd
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::get_intervalEnd)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), 7));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement.get_intervalBit
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::get_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c28ac;
+  constexpr static std::size_t addrs = 0x4823bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(),
@@ -52,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)(int32_t)>(
     &::UnityEngine::Timeline::RuntimeElement::set_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c28b4;
+  constexpr static std::size_t addrs = 0x4823bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,56 +32,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement.set_enable
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)(bool)>(&::UnityEngine::Timeline::RuntimeElement::set_enable)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), 8));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement.EvaluateAt
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)(double_t, ::UnityEngine::Playables::FrameData)>(
-    &::UnityEngine::Timeline::RuntimeElement::EvaluateAt)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), 9));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement.DisableAt
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)(double_t, double_t, ::UnityEngine::Playables::FrameData)>(
-    &::UnityEngine::Timeline::RuntimeElement::DisableAt)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), 10));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c1f44;
+  constexpr static std::size_t addrs = 0x4823258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), ".ctor",
@@ -118,14 +45,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::Timeline::IInterval"
-constexpr UnityEngine::Timeline::RuntimeElement::operator ::UnityEngine::Timeline::IInterval*() noexcept {
-  return static_cast<::UnityEngine::Timeline::IInterval*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Timeline::IInterval"
-constexpr ::UnityEngine::Timeline::IInterval* UnityEngine::Timeline::RuntimeElement::i___UnityEngine__Timeline__IInterval() noexcept {
-  return static_cast<::UnityEngine::Timeline::IInterval*>(static_cast<void*>(this));
-}
 constexpr int32_t& UnityEngine::Timeline::RuntimeElement::__cordl_internal_get__intervalBit_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intervalBit_k__BackingField;
@@ -174,13 +93,21 @@ inline void UnityEngine::Timeline::RuntimeElement::DisableAt(double_t localTime,
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localTime, rootDuration, frameData);
 }
-inline ::UnityEngine::Timeline::RuntimeElement* UnityEngine::Timeline::RuntimeElement::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::RuntimeElement*>());
-}
 inline void UnityEngine::Timeline::RuntimeElement::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Timeline::RuntimeElement* UnityEngine::Timeline::RuntimeElement::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::RuntimeElement*>());
+}
+/// @brief Convert operator to "::UnityEngine::Timeline::IInterval"
+constexpr UnityEngine::Timeline::RuntimeElement::operator ::UnityEngine::Timeline::IInterval*() noexcept {
+  return static_cast<::UnityEngine::Timeline::IInterval*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Timeline::IInterval"
+constexpr ::UnityEngine::Timeline::IInterval* UnityEngine::Timeline::RuntimeElement::i___UnityEngine__Timeline__IInterval() noexcept {
+  return static_cast<::UnityEngine::Timeline::IInterval*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::RuntimeElement::RuntimeElement() {}

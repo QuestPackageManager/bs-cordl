@@ -17,28 +17,27 @@ class ScriptableRuntimeReflectionSystemSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings);
-// Type: UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemSettings
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
-// CS Name: ::UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemSettings*
+// CS Name: UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings
 class CORDL_TYPE ScriptableRuntimeReflectionSystemSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* s_Instance;
 
-  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x486d408, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x48ce9dc, size 0x28, virtual false, abstract: false, final false
   static inline void ScriptingDirtyReflectionSystemInstance();
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* getStaticF_s_Instance();
 
-  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x486d3b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x48ce984, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
 
-  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x486d268, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x48ce83c, size 0x148, virtual false, abstract: false, final false
   static inline void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:
@@ -56,7 +55,7 @@ public:
   ScriptableRuntimeReflectionSystemSettings(ScriptableRuntimeReflectionSystemSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

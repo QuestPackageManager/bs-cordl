@@ -4,8 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayingDifficultyBeatmapRichPresenceData)
 namespace GlobalNamespace {
@@ -14,20 +14,16 @@ struct BeatmapKey;
 namespace GlobalNamespace {
 class BeatmapLevel;
 }
-namespace GlobalNamespace {
-class IRichPresenceData;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class PlayingDifficultyBeatmapRichPresenceData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData);
-// Type: ::PlayingDifficultyBeatmapRichPresenceData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey, IRichPresenceData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayingDifficultyBeatmapRichPresenceData*
+// CS Name: PlayingDifficultyBeatmapRichPresenceData
 class CORDL_TYPE PlayingDifficultyBeatmapRichPresenceData : public ::System::Object {
 public:
   // Declarations
@@ -50,10 +46,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Method GetDestinationLocalizedString, addr 0x3acc548, size 0x148, virtual false, abstract: false, final false
-  static inline ::StringW GetDestinationLocalizedString(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  /// @brief Method GetDestinationLocalizedString, addr 0x3b2bb8c, size 0x148, virtual false, abstract: false, final false
+  static inline ::StringW GetDestinationLocalizedString(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   constexpr ::StringW const& __cordl_internal_get__apiName_k__BackingField() const;
 
@@ -63,9 +59,9 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey();
 
-  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
+  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
 
   constexpr ::StringW const& __cordl_internal_get__localizedDescription() const;
 
@@ -79,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3acc690, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  /// @brief Method .ctor, addr 0x3b2bcd4, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method get_apiName, addr 0x3acc518, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x3b2bb5c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x3acc520, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x3b2bb64, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
@@ -105,6 +101,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayingDifficultyBeatmapRichPresenceData(PlayingDifficultyBeatmapRichPresenceData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5157 };
+
   /// @brief Field <apiName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____apiName_k__BackingField;
 
@@ -117,14 +116,9 @@ public:
   /// @brief Field _beatmapLevel, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5137 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, ____apiName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, ____localizedDescription) == 0x18, "Offset mismatch!");
@@ -132,6 +126,8 @@ static_assert(offsetof(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceDa
 static_assert(offsetof(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, ____beatmapKey) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, ____beatmapLevel) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData);

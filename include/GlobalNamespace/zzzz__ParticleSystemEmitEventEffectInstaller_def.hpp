@@ -15,11 +15,10 @@ class ParticleSystemEmitEventEffectInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller);
-// Type: ::ParticleSystemEmitEventEffectInstaller
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ParticleSystemEmitEventEffectInstaller*
+// CS Name: ParticleSystemEmitEventEffectInstaller
 class CORDL_TYPE ParticleSystemEmitEventEffectInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
                       put = __cordl_internal_set__particleSystemEventControllerPrefab)) ::UnityW<::GlobalNamespace::ParticleSystemEventController>
       _particleSystemEventControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b32b70, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b940b4, size 0xa8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ParticleSystemEmitEventEffectInstaller* New_ctor();
@@ -49,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystemEventControllerPrefab(::UnityW<::GlobalNamespace::ParticleSystemEventController> value);
 
-  /// @brief Method .ctor, addr 0x3b32c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9415c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,23 +65,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParticleSystemEmitEventEffectInstaller(ParticleSystemEmitEventEffectInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4328 };
+
   /// @brief Field _particleSystemEventControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ParticleSystemEventController> ____particleSystemEventControllerPrefab;
 
   /// @brief Field _particleSystemEventControllerInitialSize, offset: 0x30, size: 0x4, def value: None
   int32_t ____particleSystemEventControllerInitialSize;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4317 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemEmitEventEffectInstaller, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller, ____particleSystemEventControllerPrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller, ____particleSystemEventControllerInitialSize) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemEmitEventEffectInstaller, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller);

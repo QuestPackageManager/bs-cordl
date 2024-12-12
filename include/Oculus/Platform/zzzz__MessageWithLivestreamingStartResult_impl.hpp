@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLivestreamingStartResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLivestreamingStartResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f1dd48;
+  constexpr static std::size_t addrs = 0x3f7ddf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStartResult* (::Oculus::Platform::MessageWithLivestreamingStartResult::*)()>(
     &::Oculus::Platform::MessageWithLivestreamingStartResult::GetLivestreamingStartResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f1dda0;
+  constexpr static std::size_t addrs = 0x3f7de4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStartResult* (
     ::Oculus::Platform::MessageWithLivestreamingStartResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithLivestreamingStartResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f1dddc;
+  constexpr static std::size_t addrs = 0x3f7de88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,9 +51,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::MessageWithLivestreamingStartResult* Oculus::Platform::MessageWithLivestreamingStartResult::New_ctor(::System::IntPtr c_message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithLivestreamingStartResult*>(c_message));
-}
 inline void Oculus::Platform::MessageWithLivestreamingStartResult::_ctor(::System::IntPtr c_message) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLivestreamingStartResult*>::get(), ".ctor",
@@ -71,6 +68,9 @@ inline ::Oculus::Platform::Models::LivestreamingStartResult* Oculus::Platform::M
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLivestreamingStartResult*>::get(), 72)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::LivestreamingStartResult*, false>(this, ___internal_method, c_message);
+}
+inline ::Oculus::Platform::MessageWithLivestreamingStartResult* Oculus::Platform::MessageWithLivestreamingStartResult::New_ctor(::System::IntPtr c_message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithLivestreamingStartResult*>(c_message));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLivestreamingStartResult::MessageWithLivestreamingStartResult() {}

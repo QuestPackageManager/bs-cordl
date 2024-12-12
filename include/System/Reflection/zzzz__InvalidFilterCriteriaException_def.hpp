@@ -21,11 +21,10 @@ class InvalidFilterCriteriaException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::InvalidFilterCriteriaException);
-// Type: System.Reflection::InvalidFilterCriteriaException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ApplicationException
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::InvalidFilterCriteriaException*
+// CS Name: System.Reflection.InvalidFilterCriteriaException
 class CORDL_TYPE InvalidFilterCriteriaException : public ::System::ApplicationException {
 public:
   // Declarations
@@ -37,16 +36,16 @@ public:
 
   static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x3cc2078, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d221ec, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc2124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d22298, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cc20d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2224c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cc2100, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d22274, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

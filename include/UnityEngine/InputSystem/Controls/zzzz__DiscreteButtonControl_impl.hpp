@@ -1,25 +1,23 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Controls/DiscreteButtonControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_impl.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode::__DiscreteButtonControl__WriteMode(int32_t value__) noexcept {
+constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode::DiscreteButtonControl_WriteMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode::__DiscreteButtonControl__WriteMode() {}
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode::WriteDisabled{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode::WriteNullAndMaxValue{ static_cast<int32_t>(
-    0x1) };
+constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode::DiscreteButtonControl_WriteMode() {}
+constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode::WriteDisabled{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode::WriteNullAndMaxValue{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::DiscreteButtonControl.FinishSetup
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::FinishSetup)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x44ff6b0;
+  constexpr static std::size_t addrs = 0x45609c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x44ff7ac;
+  constexpr static std::size_t addrs = 0x4560ac0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)(float_t, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x44ff950;
+  constexpr static std::size_t addrs = 0x4560c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44ffa84;
+  constexpr static std::size_t addrs = 0x4560d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,15 +122,15 @@ constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nullValue = value;
 }
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_writeMode() {
+constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_writeMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeMode;
 }
-constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_writeMode() const {
+constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode const& UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_get_writeMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeMode;
 }
-constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value) {
+constexpr void UnityEngine::InputSystem::Controls::DiscreteButtonControl::__cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writeMode = value;
 }
@@ -154,14 +152,14 @@ inline void UnityEngine::InputSystem::Controls::DiscreteButtonControl::WriteValu
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, statePtr);
 }
-inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* UnityEngine::InputSystem::Controls::DiscreteButtonControl::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>());
-}
 inline void UnityEngine::InputSystem::Controls::DiscreteButtonControl::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* UnityEngine::InputSystem::Controls::DiscreteButtonControl::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl::DiscreteButtonControl() {}

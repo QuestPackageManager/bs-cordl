@@ -10,6 +10,9 @@ namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
+class BeatLine_Pool;
+}
+namespace GlobalNamespace {
 class BeatLine;
 }
 namespace GlobalNamespace {
@@ -17,9 +20,6 @@ class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class NoteController;
-}
-namespace GlobalNamespace {
-class __BeatLine__Pool;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -36,11 +36,10 @@ class BeatLineManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatLineManager);
-// Type: ::BeatLineManager
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatLineManager*
+// CS Name: BeatLineManager
 class CORDL_TYPE BeatLineManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
       _audioTimeSyncController;
 
   /// @brief Field _beatLinePool, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatLinePool, put = __cordl_internal_set__beatLinePool)) ::GlobalNamespace::__BeatLine__Pool* _beatLinePool;
+  __declspec(property(get = __cordl_internal_get__beatLinePool, put = __cordl_internal_set__beatLinePool)) ::GlobalNamespace::BeatLine_Pool* _beatLinePool;
 
   /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
@@ -80,36 +79,35 @@ public:
 
   __declspec(property(get = get_rotationRange)) float_t rotationRange;
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x3a7fea0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x3ad860c, size 0x174, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::BeatLineManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a7f8fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad808c, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3a7f870, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad8000, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3a7f988, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad8118, size 0x4f4, virtual false, abstract: false, final false
   inline void Update();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>*& __cordl_internal_get__activeBeatLines();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>* const& __cordl_internal_get__activeBeatLines() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>*> const&
-  __cordl_internal_get__activeBeatLines() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>*& __cordl_internal_get__activeBeatLines();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::GlobalNamespace::__BeatLine__Pool*& __cordl_internal_get__beatLinePool();
+  constexpr ::GlobalNamespace::BeatLine_Pool* const& __cordl_internal_get__beatLinePool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatLine__Pool*> const& __cordl_internal_get__beatLinePool() const;
+  constexpr ::GlobalNamespace::BeatLine_Pool*& __cordl_internal_get__beatLinePool();
+
+  constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
   constexpr bool const& __cordl_internal_get__isMidRotationValid() const;
 
@@ -123,9 +121,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__midRotation();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get__removeBeatLineKeyList();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get__removeBeatLineKeyList() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get__removeBeatLineKeyList() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get__removeBeatLineKeyList();
 
   constexpr float_t const& __cordl_internal_get__rotationRange() const;
 
@@ -135,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr void __cordl_internal_set__beatLinePool(::GlobalNamespace::__BeatLine__Pool* value);
+  constexpr void __cordl_internal_set__beatLinePool(::GlobalNamespace::BeatLine_Pool* value);
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
@@ -149,16 +147,16 @@ public:
 
   constexpr void __cordl_internal_set__rotationRange(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a80040, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad8780, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isMidRotationValid, addr 0x3a7f858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMidRotationValid, addr 0x3ad7fe8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMidRotationValid();
 
-  /// @brief Method get_midRotation, addr 0x3a7f860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_midRotation, addr 0x3ad7ff0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_midRotation();
 
-  /// @brief Method get_rotationRange, addr 0x3a7f868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationRange, addr 0x3ad7ff8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationRange();
 
 protected:
@@ -175,6 +173,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatLineManager(BeatLineManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4050 };
+
   /// @brief Field _linesYPosition, offset: 0x20, size: 0x4, def value: None
   float_t ____linesYPosition;
 
@@ -182,7 +183,7 @@ public:
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
   /// @brief Field _beatLinePool, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::__BeatLine__Pool* ____beatLinePool;
+  ::GlobalNamespace::BeatLine_Pool* ____beatLinePool;
 
   /// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
@@ -202,14 +203,9 @@ public:
   /// @brief Field _rotationRange, offset: 0x58, size: 0x4, def value: None
   float_t ____rotationRange;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4041 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatLineManager, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatLineManager, ____linesYPosition) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatLineManager, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
@@ -227,6 +223,8 @@ static_assert(offsetof(::GlobalNamespace::BeatLineManager, ____isMidRotationVali
 static_assert(offsetof(::GlobalNamespace::BeatLineManager, ____midRotation) == 0x54, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatLineManager, ____rotationRange) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatLineManager, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatLineManager);

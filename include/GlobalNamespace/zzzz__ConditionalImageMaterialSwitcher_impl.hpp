@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConditionalImageMaterialSwitcher::*)()>(
     &::GlobalNamespace::ConditionalImageMaterialSwitcher::Awake)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3acd6ec;
+  constexpr static std::size_t addrs = 0x3b2cd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalImageMaterialSwitcher*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConditionalImageMaterialSwitcher::*)()>(
     &::GlobalNamespace::ConditionalImageMaterialSwitcher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acd76c;
+  constexpr static std::size_t addrs = 0x3b2cdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalImageMaterialSwitcher*>::get(),
@@ -86,13 +86,13 @@ inline void GlobalNamespace::ConditionalImageMaterialSwitcher::Awake() {
                                                                              "Awake", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ConditionalImageMaterialSwitcher* GlobalNamespace::ConditionalImageMaterialSwitcher::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ConditionalImageMaterialSwitcher*>());
-}
 inline void GlobalNamespace::ConditionalImageMaterialSwitcher::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalImageMaterialSwitcher*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ConditionalImageMaterialSwitcher* GlobalNamespace::ConditionalImageMaterialSwitcher::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ConditionalImageMaterialSwitcher*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConditionalImageMaterialSwitcher::ConditionalImageMaterialSwitcher() {}

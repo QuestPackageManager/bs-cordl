@@ -12,11 +12,10 @@ class RangeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::RangeAttribute);
-// Type: UnityEngine::RangeAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::RangeAttribute*
+// CS Name: UnityEngine.RangeAttribute
 class CORDL_TYPE RangeAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x484381c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a45e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
 protected:
@@ -57,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RangeAttribute(RangeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10838 };
+
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;
 
   /// @brief Field max, offset: 0x14, size: 0x4, def value: None
   float_t ___max;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10805 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::RangeAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::RangeAttribute, ___min) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::RangeAttribute, ___max) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::RangeAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::RangeAttribute);

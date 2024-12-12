@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -17,32 +15,31 @@ namespace System::Globalization {
 struct CalendarId;
 }
 namespace System::Globalization {
-class NumberFormatInfo;
+struct CultureData_NumberFormatEntryManaged;
 }
 namespace System::Globalization {
-struct __CultureData__NumberFormatEntryManaged;
+class NumberFormatInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
 class CultureData;
 }
 namespace System::Globalization {
-struct __CultureData__NumberFormatEntryManaged;
+struct CultureData_NumberFormatEntryManaged;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::CultureData);
-MARK_VAL_T(::System::Globalization::__CultureData__NumberFormatEntryManaged);
-// Type: ::NumberFormatEntryManaged
-// SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::System::Globalization::CultureData_NumberFormatEntryManaged);
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::CultureData::NumberFormatEntryManaged
-struct CORDL_TYPE __CultureData__NumberFormatEntryManaged {
+// CS Name: System.Globalization.CultureData/NumberFormatEntryManaged
+struct CORDL_TYPE CultureData_NumberFormatEntryManaged {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CultureData__NumberFormatEntryManaged();
+  constexpr CultureData_NumberFormatEntryManaged();
 
   // Ctor Parameters [CppParam { name: "currency_decimal_digits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_decimal_separator", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "currency_group_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_group_sizes0", ty: "int32_t", modifiers: "", def_value:
@@ -56,12 +53,18 @@ public:
   // "percent_negative_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "percent_positive_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "percent_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positive_infinity_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positive_sign",
   // ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CultureData__NumberFormatEntryManaged(int32_t currency_decimal_digits, int32_t currency_decimal_separator, int32_t currency_group_separator, int32_t currency_group_sizes0,
-                                                    int32_t currency_group_sizes1, int32_t currency_negative_pattern, int32_t currency_positive_pattern, int32_t currency_symbol, int32_t nan_symbol,
-                                                    int32_t negative_infinity_symbol, int32_t negative_sign, int32_t number_decimal_digits, int32_t number_decimal_separator,
-                                                    int32_t number_group_separator, int32_t number_group_sizes0, int32_t number_group_sizes1, int32_t number_negative_pattern, int32_t per_mille_symbol,
-                                                    int32_t percent_negative_pattern, int32_t percent_positive_pattern, int32_t percent_symbol, int32_t positive_infinity_symbol,
-                                                    int32_t positive_sign) noexcept;
+  constexpr CultureData_NumberFormatEntryManaged(int32_t currency_decimal_digits, int32_t currency_decimal_separator, int32_t currency_group_separator, int32_t currency_group_sizes0,
+                                                 int32_t currency_group_sizes1, int32_t currency_negative_pattern, int32_t currency_positive_pattern, int32_t currency_symbol, int32_t nan_symbol,
+                                                 int32_t negative_infinity_symbol, int32_t negative_sign, int32_t number_decimal_digits, int32_t number_decimal_separator,
+                                                 int32_t number_group_separator, int32_t number_group_sizes0, int32_t number_group_sizes1, int32_t number_negative_pattern, int32_t per_mille_symbol,
+                                                 int32_t percent_negative_pattern, int32_t percent_positive_pattern, int32_t percent_symbol, int32_t positive_infinity_symbol,
+                                                 int32_t positive_sign) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3718 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };
 
   /// @brief Field currency_decimal_digits, offset: 0x0, size: 0x4, def value: None
   int32_t currency_decimal_digits;
@@ -132,73 +135,66 @@ public:
   /// @brief Field positive_sign, offset: 0x58, size: 0x4, def value: None
   int32_t positive_sign;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3718 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::__CultureData__NumberFormatEntryManaged, 0x5c>, "Size mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_decimal_digits) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_decimal_digits) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_decimal_separator) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_decimal_separator) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_group_separator) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_group_separator) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_group_sizes0) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_group_sizes0) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_group_sizes1) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_group_sizes1) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_negative_pattern) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_negative_pattern) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_positive_pattern) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_positive_pattern) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, currency_symbol) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, currency_symbol) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, nan_symbol) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, nan_symbol) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, negative_infinity_symbol) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, negative_infinity_symbol) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, negative_sign) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, negative_sign) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, number_decimal_digits) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, number_decimal_digits) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, number_decimal_separator) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, number_decimal_separator) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, number_group_separator) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, number_group_separator) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, number_group_sizes0) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, number_group_sizes0) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, number_group_sizes1) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, number_group_sizes1) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, number_negative_pattern) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, number_negative_pattern) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, per_mille_symbol) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, per_mille_symbol) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, percent_negative_pattern) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, percent_negative_pattern) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, percent_positive_pattern) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, percent_positive_pattern) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, percent_symbol) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, percent_symbol) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, positive_infinity_symbol) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, positive_infinity_symbol) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::System::Globalization::CultureData_NumberFormatEntryManaged, positive_sign) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntryManaged, positive_sign) == 0x58, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Globalization::CultureData_NumberFormatEntryManaged, 0x5c>, "Size mismatch!");
 
 } // namespace System::Globalization
-// Type: System.Globalization::CultureData
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Globalization {
 // Is value type: false
-// CS Name: ::System.Globalization::CultureData*
+// CS Name: System.Globalization.CultureData
 class CORDL_TYPE CultureData : public ::System::Object {
 public:
   // Declarations
-  using NumberFormatEntryManaged = ::System::Globalization::__CultureData__NumberFormatEntryManaged;
+  using NumberFormatEntryManaged = ::System::Globalization::CultureData_NumberFormatEntryManaged;
 
   __declspec(property(get = get_CalendarIds)) ::ArrayW<int32_t, ::Array<int32_t>*> CalendarIds;
 
@@ -281,7 +277,7 @@ public:
   __declspec(property(get = __cordl_internal_get_sTimeSeparator, put = __cordl_internal_set_sTimeSeparator)) ::StringW sTimeSeparator;
 
   /// @brief Field s_Invariant, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Invariant, put = setStaticF_s_Invariant)) ::System::Globalization::CultureData* s_Invariant;
+  __declspec(property(get = getStaticF_s_Invariant, put = setStaticF_s_Invariant)) ::System::Globalization::CultureData* s_Invariant;
 
   /// @brief Field saLongTimes, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_saLongTimes, put = __cordl_internal_set_saLongTimes)) ::ArrayW<::StringW, ::Array<::StringW>*> saLongTimes;
@@ -292,85 +288,85 @@ public:
   /// @brief Field waCalendars, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_waCalendars, put = __cordl_internal_set_waCalendars)) ::ArrayW<int32_t, ::Array<int32_t>*> waCalendars;
 
-  /// @brief Method AbbrevEraNames, addr 0x3d46e88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbrevEraNames, addr 0x3da6ffc, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbrevEraNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedDayNames, addr 0x3d46f30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedDayNames, addr 0x3da70a4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedDayNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedEnglishEraNames, addr 0x3d46ea4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedEnglishEraNames, addr 0x3da7018, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedEnglishEraNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedGenitiveMonthNames, addr 0x3d46fa0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedGenitiveMonthNames, addr 0x3da7114, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedGenitiveMonthNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedMonthNames, addr 0x3d46f84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedMonthNames, addr 0x3da70f8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedMonthNames(int32_t calendarId);
 
-  /// @brief Method DateSeparator, addr 0x3d46ff4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method DateSeparator, addr 0x3da7168, size 0xac, virtual false, abstract: false, final false
   inline ::StringW DateSeparator(int32_t calendarId);
 
-  /// @brief Method DayNames, addr 0x3d46f14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DayNames, addr 0x3da7088, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> DayNames(int32_t calendarId);
 
-  /// @brief Method EraNames, addr 0x3d46e6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EraNames, addr 0x3da6fe0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> EraNames(int32_t calendarId);
 
-  /// @brief Method GenitiveMonthNames, addr 0x3d46f68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GenitiveMonthNames, addr 0x3da70dc, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GenitiveMonthNames(int32_t calendarId);
 
-  /// @brief Method GetCalendar, addr 0x3d3bf70, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetCalendar, addr 0x3d9c0e4, size 0x114, virtual false, abstract: false, final false
   inline ::System::Globalization::CalendarData* GetCalendar(int32_t calendarId);
 
-  /// @brief Method GetCalendarIds, addr 0x3d46d3c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCalendarIds, addr 0x3da6eb0, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> GetCalendarIds();
 
-  /// @brief Method GetCultureData, addr 0x3d4691c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetCultureData, addr 0x3da6a90, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride);
 
-  /// @brief Method GetCultureData, addr 0x3d46a04, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetCultureData, addr 0x3da6b78, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride, int32_t datetimeIndex, int32_t calendarId, int32_t numberIndex, ::StringW iso2lang,
                                                                      int32_t ansiCodePage, int32_t oemCodePage, int32_t macCodePage, int32_t ebcdicCodePage, bool rightToLeft, ::StringW listSeparator);
 
-  /// @brief Method GetDateSeparator, addr 0x3d470a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetDateSeparator, addr 0x3da7214, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW GetDateSeparator(::StringW format);
 
-  /// @brief Method GetNFIValues, addr 0x3d4164c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetNFIValues, addr 0x3da17c0, size 0x198, virtual false, abstract: false, final false
   inline void GetNFIValues(::System::Globalization::NumberFormatInfo* nfi);
 
-  /// @brief Method GetSeparator, addr 0x3d470e8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetSeparator, addr 0x3da725c, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetSeparator(::StringW format, ::StringW timeParts);
 
-  /// @brief Method IndexOfTimePart, addr 0x3d471ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IndexOfTimePart, addr 0x3da7360, size 0xec, virtual false, abstract: false, final false
   static inline int32_t IndexOfTimePart(::StringW format, int32_t startIndex, ::StringW timeParts);
 
-  /// @brief Method LeapYearMonthNames, addr 0x3d46fbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LeapYearMonthNames, addr 0x3da7130, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> LeapYearMonthNames(int32_t calendarId);
 
-  /// @brief Method LongDates, addr 0x3d46edc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LongDates, addr 0x3da7050, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> LongDates(int32_t calendarId);
 
-  /// @brief Method MonthDay, addr 0x3d46fd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MonthDay, addr 0x3da714c, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW MonthDay(int32_t calendarId);
 
-  /// @brief Method MonthNames, addr 0x3d46f4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MonthNames, addr 0x3da70c0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> MonthNames(int32_t calendarId);
 
   static inline ::System::Globalization::CultureData* New_ctor(::StringW name);
 
-  /// @brief Method ReescapeWin32String, addr 0x3d3b4a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReescapeWin32String, addr 0x3d9b61c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ReescapeWin32String(::StringW str);
 
-  /// @brief Method ReescapeWin32Strings, addr 0x3d3b4a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReescapeWin32Strings, addr 0x3d9b618, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ReescapeWin32Strings(::ArrayW<::StringW, ::Array<::StringW>*> array);
 
-  /// @brief Method ShortDates, addr 0x3d46ec0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ShortDates, addr 0x3da7034, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> ShortDates(int32_t calendarId);
 
-  /// @brief Method UnescapeNlsString, addr 0x3d472d8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method UnescapeNlsString, addr 0x3da744c, size 0x19c, virtual false, abstract: false, final false
   static inline ::StringW UnescapeNlsString(::StringW str, int32_t start, int32_t end);
 
-  /// @brief Method YearMonths, addr 0x3d46ef8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method YearMonths, addr 0x3da706c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> YearMonths(int32_t calendarId);
 
   constexpr bool const& __cordl_internal_get_bUseOverrides() const;
@@ -493,71 +489,71 @@ public:
 
   constexpr void __cordl_internal_set_waCalendars(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3d468f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da6a68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method create_group_sizes_array, addr 0x3d474d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method create_group_sizes_array, addr 0x3da7644, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> create_group_sizes_array(int32_t gs0, int32_t gs1);
 
-  /// @brief Method fill_culture_data, addr 0x3d46b18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_culture_data, addr 0x3da6c8c, size 0x4, virtual false, abstract: false, final false
   inline void fill_culture_data(int32_t datetimeIndex);
 
-  /// @brief Method fill_number_data, addr 0x3d47584, size 0x4, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<uint8_t> fill_number_data(int32_t index, ByRef<::System::Globalization::__CultureData__NumberFormatEntryManaged> nfe);
+  /// @brief Method fill_number_data, addr 0x3da76f8, size 0x4, virtual false, abstract: false, final false
+  static inline ::cordl_internals::Ptr<uint8_t> fill_number_data(int32_t index, ::ByRef<::System::Globalization::CultureData_NumberFormatEntryManaged> nfe);
 
   static inline ::System::Globalization::CultureData* getStaticF_s_Invariant();
 
-  /// @brief Method get_CalendarIds, addr 0x3d46b7c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method get_CalendarIds, addr 0x3da6cf0, size 0x1c0, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_CalendarIds();
 
-  /// @brief Method get_CultureName, addr 0x3d46e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x3da6f88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_IFIRSTDAYOFWEEK, addr 0x3d46b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IFIRSTDAYOFWEEK, addr 0x3da6cc8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IFIRSTDAYOFWEEK();
 
-  /// @brief Method get_IFIRSTWEEKOFYEAR, addr 0x3d46b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IFIRSTWEEKOFYEAR, addr 0x3da6cd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IFIRSTWEEKOFYEAR();
 
-  /// @brief Method get_Invariant, addr 0x3d42ac8, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method get_Invariant, addr 0x3da2c3c, size 0x30c, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureData* get_Invariant();
 
-  /// @brief Method get_IsInvariantCulture, addr 0x3d417e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsInvariantCulture, addr 0x3da1958, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsInvariantCulture();
 
-  /// @brief Method get_LongTimes, addr 0x3d46b1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LongTimes, addr 0x3da6c90, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_LongTimes();
 
-  /// @brief Method get_SAM1159, addr 0x3d46b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SAM1159, addr 0x3da6cd8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SAM1159();
 
-  /// @brief Method get_SCOMPAREINFO, addr 0x3d46e1c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_SCOMPAREINFO, addr 0x3da6f90, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_SCOMPAREINFO();
 
-  /// @brief Method get_SISO639LANGNAME, addr 0x3d46b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SISO639LANGNAME, addr 0x3da6cc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SISO639LANGNAME();
 
-  /// @brief Method get_SPM2359, addr 0x3d46b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SPM2359, addr 0x3da6ce0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SPM2359();
 
-  /// @brief Method get_STEXTINFO, addr 0x3d46e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_STEXTINFO, addr 0x3da6fd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_STEXTINFO();
 
-  /// @brief Method get_ShortTimes, addr 0x3d46b34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ShortTimes, addr 0x3da6ca8, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ShortTimes();
 
-  /// @brief Method get_TimeSeparator, addr 0x3d46b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeSeparator, addr 0x3da6ce8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TimeSeparator();
 
-  /// @brief Method get_UseUserOverride, addr 0x3d46e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseUserOverride, addr 0x3da6fd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseUserOverride();
 
-  /// @brief Method idx2string, addr 0x3d4748c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method idx2string, addr 0x3da7600, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW idx2string(::cordl_internals::Ptr<uint8_t> data, int32_t idx);
 
   static inline void setStaticF_s_Invariant(::System::Globalization::CultureData* value);
 
-  /// @brief Method strlen, addr 0x3d47474, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method strlen, addr 0x3da75e8, size 0x18, virtual false, abstract: false, final false
   static inline int32_t strlen(::cordl_internals::Ptr<uint8_t> s);
 
 protected:
@@ -573,6 +569,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CultureData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CultureData(CultureData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3719 };
 
   /// @brief Field sAM1159, offset: 0x10, size: 0x8, def value: None
   ::StringW ___sAM1159;
@@ -634,14 +633,9 @@ public:
   /// @brief Field sListSeparator, offset: 0x80, size: 0x8, def value: None
   ::StringW ___sListSeparator;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3719 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::CultureData, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::CultureData, ___sAM1159) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::CultureData, ___sPM2359) == 0x18, "Offset mismatch!");
@@ -682,7 +676,9 @@ static_assert(offsetof(::System::Globalization::CultureData, ___isRightToLeft) =
 
 static_assert(offsetof(::System::Globalization::CultureData, ___sListSeparator) == 0x80, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Globalization::CultureData, 0x88>, "Size mismatch!");
+
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::CultureData);
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CultureData*, "System.Globalization", "CultureData");
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::__CultureData__NumberFormatEntryManaged, "System.Globalization", "CultureData/NumberFormatEntryManaged");
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CultureData_NumberFormatEntryManaged, "System.Globalization", "CultureData/NumberFormatEntryManaged");

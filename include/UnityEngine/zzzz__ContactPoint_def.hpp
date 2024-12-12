@@ -20,11 +20,10 @@ struct ContactPoint;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPoint);
-// Type: UnityEngine::ContactPoint
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::ContactPoint
+// CS Name: UnityEngine.ContactPoint
 struct CORDL_TYPE ContactPoint {
 public:
   // Declarations
@@ -40,25 +39,25 @@ public:
 
   __declspec(property(get = get_thisCollider)) ::UnityW<::UnityEngine::Collider> thisCollider;
 
-  /// @brief Method .ctor, addr 0x488f158, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f37e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 impulse, float_t separation, int32_t thisInstanceID, int32_t otherInstenceID);
 
-  /// @brief Method get_impulse, addr 0x48a7dcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulse, addr 0x490c45c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulse();
 
-  /// @brief Method get_normal, addr 0x48a7dc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x490c450, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_otherCollider, addr 0x48a7e50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_otherCollider, addr 0x490c4e0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
 
-  /// @brief Method get_point, addr 0x48a7db4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x490c444, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_separation, addr 0x48a7ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separation, addr 0x490c558, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separation();
 
-  /// @brief Method get_thisCollider, addr 0x48a7dd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_thisCollider, addr 0x490c468, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_thisCollider();
 
   // Ctor Parameters []
@@ -70,6 +69,12 @@ public:
   // CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }]
   constexpr ContactPoint(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, ::UnityEngine::Vector3 m_Impulse, int32_t m_ThisColliderInstanceID, int32_t m_OtherColliderInstanceID,
                          float_t m_Separation) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15759 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field m_Point, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Point;
@@ -89,17 +94,9 @@ public:
   /// @brief Field m_Separation, offset: 0x2c, size: 0x4, def value: None
   float_t m_Separation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15724 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPoint, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ContactPoint, m_Point) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ContactPoint, m_Normal) == 0xc, "Offset mismatch!");
@@ -111,6 +108,8 @@ static_assert(offsetof(::UnityEngine::ContactPoint, m_ThisColliderInstanceID) ==
 static_assert(offsetof(::UnityEngine::ContactPoint, m_OtherColliderInstanceID) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ContactPoint, m_Separation) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPoint, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");

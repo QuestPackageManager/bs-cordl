@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerId)
 // Forward declare root types
@@ -13,37 +12,36 @@ class PointerId;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerId);
-// Type: UnityEngine.UIElements::PointerId
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerId*
+// CS Name: UnityEngine.UIElements.PointerId
 class CORDL_TYPE PointerId : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hoveringPointers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_hoveringPointers, put = setStaticF_hoveringPointers)) ::ArrayW<int32_t, ::Array<int32_t>*> hoveringPointers;
+  __declspec(property(get = getStaticF_hoveringPointers, put = setStaticF_hoveringPointers)) ::ArrayW<int32_t, ::Array<int32_t>*> hoveringPointers;
 
   /// @brief Field invalidPointerId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_invalidPointerId, put = setStaticF_invalidPointerId)) int32_t invalidPointerId;
+  __declspec(property(get = getStaticF_invalidPointerId, put = setStaticF_invalidPointerId)) int32_t invalidPointerId;
 
   /// @brief Field maxPointers, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_maxPointers, put = setStaticF_maxPointers)) int32_t maxPointers;
+  __declspec(property(get = getStaticF_maxPointers, put = setStaticF_maxPointers)) int32_t maxPointers;
 
   /// @brief Field mousePointerId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_mousePointerId, put = setStaticF_mousePointerId)) int32_t mousePointerId;
+  __declspec(property(get = getStaticF_mousePointerId, put = setStaticF_mousePointerId)) int32_t mousePointerId;
 
   /// @brief Field penPointerCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_penPointerCount, put = setStaticF_penPointerCount)) int32_t penPointerCount;
+  __declspec(property(get = getStaticF_penPointerCount, put = setStaticF_penPointerCount)) int32_t penPointerCount;
 
   /// @brief Field penPointerIdBase, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_penPointerIdBase, put = setStaticF_penPointerIdBase)) int32_t penPointerIdBase;
+  __declspec(property(get = getStaticF_penPointerIdBase, put = setStaticF_penPointerIdBase)) int32_t penPointerIdBase;
 
   /// @brief Field touchPointerCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_touchPointerCount, put = setStaticF_touchPointerCount)) int32_t touchPointerCount;
+  __declspec(property(get = getStaticF_touchPointerCount, put = setStaticF_touchPointerCount)) int32_t touchPointerCount;
 
   /// @brief Field touchPointerIdBase, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_touchPointerIdBase, put = setStaticF_touchPointerIdBase)) int32_t touchPointerIdBase;
+  __declspec(property(get = getStaticF_touchPointerIdBase, put = setStaticF_touchPointerIdBase)) int32_t touchPointerIdBase;
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_hoveringPointers();
 
@@ -92,7 +90,7 @@ public:
   PointerId(PointerId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

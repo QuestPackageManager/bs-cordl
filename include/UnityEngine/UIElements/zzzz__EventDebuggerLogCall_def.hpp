@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(EventDebuggerLogCall)
 namespace System {
 class Delegate;
-}
-namespace System {
-class IDisposable;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -20,11 +18,10 @@ struct EventDebuggerLogCall;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::EventDebuggerLogCall);
-// Type: UnityEngine.UIElements::EventDebuggerLogCall
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies System.IDisposable
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::EventDebuggerLogCall
+// CS Name: UnityEngine.UIElements.EventDebuggerLogCall
 #pragma pack(push, 0)
 struct CORDL_TYPE EventDebuggerLogCall {
 public:
@@ -32,10 +29,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x49c1680, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a25f90, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x49c167c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a25f8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* callback, ::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Convert to "::System::IDisposable"
@@ -45,14 +42,14 @@ public:
   // @brief default ctor
   constexpr EventDebuggerLogCall();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5816 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

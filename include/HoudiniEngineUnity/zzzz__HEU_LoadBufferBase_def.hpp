@@ -16,11 +16,10 @@ class HEU_LoadBufferBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferBase);
-// Type: HoudiniEngineUnity::HEU_LoadBufferBase
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_LoadBufferBase*
+// CS Name: HoudiniEngineUnity.HEU_LoadBufferBase
 class CORDL_TYPE HEU_LoadBufferBase : public ::System::Object {
 public:
   // Declarations
@@ -39,7 +38,7 @@ public:
   /// @brief Field _name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
-  /// @brief Method InitializeBuffer, addr 0x3a0bd98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InitializeBuffer, addr 0x3a62a08, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferBase* New_ctor();
@@ -52,9 +51,9 @@ public:
 
   constexpr bool& __cordl_internal_get__bInstancer();
 
-  constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput*& __cordl_internal_get__generatedOutput();
+  constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput* const& __cordl_internal_get__generatedOutput() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutput*> const& __cordl_internal_get__generatedOutput() const;
+  constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput*& __cordl_internal_get__generatedOutput();
 
   constexpr int32_t const& __cordl_internal_get__id() const;
 
@@ -74,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a0bdb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a62a24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_LoadBufferBase(HEU_LoadBufferBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11786 };
+
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
@@ -106,14 +108,9 @@ public:
   /// @brief Field _generatedOutput, offset: 0x28, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_GeneratedOutput* ____generatedOutput;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11753 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferBase, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____id) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____name) == 0x18, "Offset mismatch!");
@@ -123,6 +120,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____bInstanced)
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____bInstancer) == 0x21, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____generatedOutput) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferBase, 0x30>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferBase);

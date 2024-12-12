@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::*)(
     ::Org::BouncyCastle::Utilities::Encoders::ITranslator*, int32_t)>(&::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x25a21d4;
+  constexpr static std::size_t addrs = 0x25d54c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::*)(
     uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::ProcessByte)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25a230c;
+  constexpr static std::size_t addrs = 0x25d55f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::ProcessBytes)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x25a2434;
+  constexpr static std::size_t addrs = 0x25d5720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,18 +82,13 @@ constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Encoders::ITranslator*> const&
-Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::__cordl_internal_get_translator() const {
+constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator* const& Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::__cordl_internal_get_translator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translator;
 }
 constexpr void Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::__cordl_internal_set_translator(::Org::BouncyCastle::Utilities::Encoders::ITranslator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___translator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder* Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator,
-                                                                                                                                    int32_t bufferSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder*>(translator, bufferSize));
 }
 inline void Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,6 +114,10 @@ inline int32_t Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::ProcessB
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, input, inOff, len, outBytes, outOff);
+}
+inline ::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder* Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator,
+                                                                                                                                    int32_t bufferSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder*>(translator, bufferSize));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::BufferedEncoder() {}

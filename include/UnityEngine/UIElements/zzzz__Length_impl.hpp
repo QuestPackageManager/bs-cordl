@@ -1,27 +1,26 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Length.hpp"
-#include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__LengthUnit_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::__Length__Unit::__Length__Unit(int32_t value__) noexcept {
+constexpr ::UnityEngine::UIElements::Length_Unit::Length_Unit(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__Length__Unit::__Length__Unit() {}
-constexpr ::UnityEngine::UIElements::__Length__Unit UnityEngine::UIElements::__Length__Unit::Pixel{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UIElements::__Length__Unit UnityEngine::UIElements::__Length__Unit::Percent{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UIElements::__Length__Unit UnityEngine::UIElements::__Length__Unit::Auto{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UIElements::__Length__Unit UnityEngine::UIElements::__Length__Unit::None{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::UIElements::Length_Unit::Length_Unit() {}
+constexpr ::UnityEngine::UIElements::Length_Unit UnityEngine::UIElements::Length_Unit::Pixel{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::Length_Unit UnityEngine::UIElements::Length_Unit::Percent{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::Length_Unit UnityEngine::UIElements::Length_Unit::Auto{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::Length_Unit UnityEngine::UIElements::Length_Unit::None{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::UnityEngine::UIElements::Length.Percent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Length (*)(float_t)>(&::UnityEngine::UIElements::Length::Percent)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1d4a0;
+  constexpr static std::size_t addrs = 0x4a81db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Length (*)()>(&::UnityEngine::UIElements::Length::Auto)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1d4f0;
+  constexpr static std::size_t addrs = 0x4a81e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), "Auto",
@@ -48,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Length (*)()>(&::UnityEngine::UIElements::Length::None)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1d520;
+  constexpr static std::size_t addrs = 0x4a81e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), "None",
@@ -61,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Length::*)()>(&::UnityEngine::UIElements::Length::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1d528;
+  constexpr static std::size_t addrs = 0x4a81e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), "get_value",
@@ -74,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Length::*)(float_t)>(&::UnityEngine::UIElements::Length::set_value)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a1d530;
+  constexpr static std::size_t addrs = 0x4a81e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::LengthUnit (::UnityEngine::UIElements::Length::*)()>(
     &::UnityEngine::UIElements::Length::get_unit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1d554;
+  constexpr static std::size_t addrs = 0x4a81e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), "get_unit",
@@ -102,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Length::*)()>(&::UnityEngine::UIElements::Length::IsAuto)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a1d55c;
+  constexpr static std::size_t addrs = 0x4a81e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), "IsAuto",
@@ -115,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Length::*)()>(&::UnityEngine::UIElements::Length::IsNone)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a1d56c;
+  constexpr static std::size_t addrs = 0x4a81e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), "IsNone",
@@ -128,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Length::*)(float_t)>(&::UnityEngine::UIElements::Length::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1d57c;
+  constexpr static std::size_t addrs = 0x4a81e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Length::*)(float_t, ::UnityEngine::UIElements::LengthUnit)>(
     &::UnityEngine::UIElements::Length::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1d4c8;
+  constexpr static std::size_t addrs = 0x4a81dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,16 +155,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::Length._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Length::*)(float_t, ::UnityEngine::UIElements::__Length__Unit)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Length::*)(float_t, ::UnityEngine::UIElements::Length_Unit)>(
     &::UnityEngine::UIElements::Length::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1d4f8;
+  constexpr static std::size_t addrs = 0x4a81e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__Length__Unit>::get() })));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Length_Unit>::get() })));
     return ___internal_method;
   }
 };
@@ -175,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Length (*)(float_t)>(
     &::UnityEngine::UIElements::Length::op_Implicit___UnityEngine__UIElements__Length)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a1d5a4;
+  constexpr static std::size_t addrs = 0x4a81eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::Length::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1adb8;
+  constexpr static std::size_t addrs = 0x4a7f6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::Length::op_Inequality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1d5c8;
+  constexpr static std::size_t addrs = 0x4a81ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Length::*)(::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::Length::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1d5f0;
+  constexpr static std::size_t addrs = 0x4a81f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Length::*)(::System::Object*)>(&::UnityEngine::UIElements::Length::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a1d618;
+  constexpr static std::size_t addrs = 0x4a81f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::Length::*)()>(&::UnityEngine::UIElements::Length::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1b150;
+  constexpr static std::size_t addrs = 0x4a7fa60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::Length::*)()>(&::UnityEngine::UIElements::Length::ToString)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4a1d6a4;
+  constexpr static std::size_t addrs = 0x4a81fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -273,14 +272,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
-constexpr UnityEngine::UIElements::Length::operator ::System::IEquatable_1<::UnityEngine::UIElements::Length>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Length>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Length>* UnityEngine::UIElements::Length::i___System__IEquatable_1___UnityEngine__UIElements__Length_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Length>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::UIElements::Length UnityEngine::UIElements::Length::Percent(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), "Percent", std::span<Il2CppClass const* const, 0>(),
@@ -336,11 +327,11 @@ inline void UnityEngine::UIElements::Length::_ctor(float_t value, ::UnityEngine:
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::LengthUnit>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, unit);
 }
-inline void UnityEngine::UIElements::Length::_ctor(float_t value, ::UnityEngine::UIElements::__Length__Unit unit) {
+inline void UnityEngine::UIElements::Length::_ctor(float_t value, ::UnityEngine::UIElements::Length_Unit unit) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__Length__Unit>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Length_Unit>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, unit);
 }
 inline ::UnityEngine::UIElements::Length UnityEngine::UIElements::Length::op_Implicit___UnityEngine__UIElements__Length(float_t value) {
@@ -384,9 +375,17 @@ inline ::StringW UnityEngine::UIElements::Length::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Length>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::__Length__Unit", modifiers: "",
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
+constexpr UnityEngine::UIElements::Length::operator ::System::IEquatable_1<::UnityEngine::UIElements::Length>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Length>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Length>* UnityEngine::UIElements::Length::i___System__IEquatable_1___UnityEngine__UIElements__Length_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Length>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::Length_Unit", modifiers: "",
 // def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::Length::Length(float_t m_Value, ::UnityEngine::UIElements::__Length__Unit m_Unit) noexcept {
+constexpr ::UnityEngine::UIElements::Length::Length(float_t m_Value, ::UnityEngine::UIElements::Length_Unit m_Unit) noexcept {
   this->m_Value = m_Value;
   this->m_Unit = m_Unit;
 }

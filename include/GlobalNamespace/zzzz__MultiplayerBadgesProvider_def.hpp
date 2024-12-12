@@ -12,13 +12,13 @@ namespace GlobalNamespace {
 class MultiplayerBadgesModelSO;
 }
 namespace GlobalNamespace {
+class MultiplayerBadgesProvider___c;
+}
+namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class __MultiplayerBadgesProvider____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -31,46 +31,45 @@ namespace GlobalNamespace {
 class MultiplayerBadgesProvider;
 }
 namespace GlobalNamespace {
-class __MultiplayerBadgesProvider____c;
+class MultiplayerBadgesProvider___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgesProvider);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerBadgesProvider____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgesProvider___c);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerBadgesProvider::<>c*
-class CORDL_TYPE __MultiplayerBadgesProvider____c : public ::System::Object {
+// CS Name: MultiplayerBadgesProvider/<>c
+class CORDL_TYPE MultiplayerBadgesProvider___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__MultiplayerBadgesProvider____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::MultiplayerBadgesProvider___c* __9;
 
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, bool>* __9__7_0;
+  __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, bool>* __9__7_0;
 
   /// @brief Field <>9__7_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1)) ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, int32_t>* __9__7_1;
+  __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1)) ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, int32_t>* __9__7_1;
 
-  static inline ::GlobalNamespace::__MultiplayerBadgesProvider____c* New_ctor();
+  static inline ::GlobalNamespace::MultiplayerBadgesProvider___c* New_ctor();
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x26a4af4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x26d9828, size 0x20, virtual false, abstract: false, final false
   inline bool _SelectBadgesAndPutThemIntoResults_b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x26a4b14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x26d9848, size 0x28, virtual false, abstract: false, final false
   inline int32_t _SelectBadgesAndPutThemIntoResults_b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
 
-  /// @brief Method .ctor, addr 0x26a4aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d9820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__MultiplayerBadgesProvider____c* getStaticF___9();
+  static inline ::GlobalNamespace::MultiplayerBadgesProvider___c* getStaticF___9();
 
   static inline ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, bool>* getStaticF___9__7_0();
 
   static inline ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, int32_t>* getStaticF___9__7_1();
 
-  static inline void setStaticF___9(::GlobalNamespace::__MultiplayerBadgesProvider____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::MultiplayerBadgesProvider___c* value);
 
   static inline void setStaticF___9__7_0(::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, bool>* value);
 
@@ -79,35 +78,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerBadgesProvider____c();
+  constexpr MultiplayerBadgesProvider___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerBadgesProvider____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerBadgesProvider____c(__MultiplayerBadgesProvider____c&&) = delete;
+  MultiplayerBadgesProvider___c(MultiplayerBadgesProvider___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerBadgesProvider____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerBadgesProvider____c(__MultiplayerBadgesProvider____c const&) = delete;
+  MultiplayerBadgesProvider___c(MultiplayerBadgesProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerBadgesProvider____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgesProvider___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerBadgesProvider
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerBadgesProvider*
+// CS Name: MultiplayerBadgesProvider
 class CORDL_TYPE MultiplayerBadgesProvider : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__MultiplayerBadgesProvider____c;
+  using __c = ::GlobalNamespace::MultiplayerBadgesProvider___c;
 
   /// @brief Field _beatmapKey, offset 0x18, size 0x18
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey)) ::GlobalNamespace::BeatmapKey _beatmapKey;
@@ -121,7 +119,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider* New_ctor();
 
-  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x26a35b0, size 0x14d8, virtual false, abstract: false, final false
+  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x26d82e4, size 0x14d8, virtual false, abstract: false, final false
   inline void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -142,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x26a4a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d97bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,6 +157,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgesProvider(MultiplayerBadgesProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13081 };
+
+  /// @brief Field kMaxRandomMultiplierAmount offset 0xffffffff size 0x4
+  static constexpr float_t kMaxRandomMultiplierAmount{ static_cast<float_t>(1.2f) };
+
+  /// @brief Field kMinRandomMultiplierAmount offset 0xffffffff size 0x4
+  static constexpr float_t kMinRandomMultiplierAmount{ static_cast<float_t>(0.8f) };
+
+  /// @brief Field kTargetNegativeBadgesCount offset 0xffffffff size 0x4
+  static constexpr int32_t kTargetNegativeBadgesCount{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field kTargetPositiveBadgesCount offset 0xffffffff size 0x4
+  static constexpr int32_t kTargetPositiveBadgesCount{ static_cast<int32_t>(0x2) };
+
   /// @brief Field _playerDataModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
@@ -168,34 +181,19 @@ public:
   /// @brief Field _multiplayerBadgesModel, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> ____multiplayerBadgesModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13046 };
-
-  /// @brief Field kMaxRandomMultiplierAmount offset 0xffffffff size 0x4
-  static constexpr float_t kMaxRandomMultiplierAmount{ 1.2 };
-
-  /// @brief Field kMinRandomMultiplierAmount offset 0xffffffff size 0x4
-  static constexpr float_t kMinRandomMultiplierAmount{ 0.8 };
-
-  /// @brief Field kTargetNegativeBadgesCount offset 0xffffffff size 0x4
-  static constexpr int32_t kTargetNegativeBadgesCount{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field kTargetPositiveBadgesCount offset 0xffffffff size 0x4
-  static constexpr int32_t kTargetPositiveBadgesCount{ static_cast<int32_t>(0x2) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgesProvider, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____playerDataModel) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____beatmapKey) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____multiplayerBadgesModel) == 0x30, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgesProvider, 0x38>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgesProvider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgesProvider*, "", "MultiplayerBadgesProvider");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerBadgesProvider____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerBadgesProvider____c*, "", "MultiplayerBadgesProvider/<>c");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgesProvider___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgesProvider___c*, "", "MultiplayerBadgesProvider/<>c");

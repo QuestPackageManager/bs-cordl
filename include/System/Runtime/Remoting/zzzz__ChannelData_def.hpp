@@ -18,11 +18,10 @@ class ChannelData;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelData);
-// Type: System.Runtime.Remoting::ChannelData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::ChannelData*
+// CS Name: System.Runtime.Remoting.ChannelData
 class CORDL_TYPE ChannelData : public ::System::Object {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   /// @brief Field _serverProviders, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__serverProviders, put = __cordl_internal_set__serverProviders)) ::System::Collections::ArrayList* _serverProviders;
 
-  /// @brief Method CopyFrom, addr 0x3c6cd40, size 0x938, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x3ccceb4, size 0x938, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
 
   static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
@@ -74,17 +73,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_Type();
 
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__clientProviders() const;
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__clientProviders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__clientProviders() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__customProperties() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get__customProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__customProperties() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__serverProviders() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__serverProviders();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__serverProviders() const;
 
   constexpr void __cordl_internal_set_DelayLoadAsClientChannel(::StringW value);
 
@@ -100,16 +99,16 @@ public:
 
   constexpr void __cordl_internal_set__serverProviders(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x3c6ddd8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccdf4c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientProviders, addr 0x3c6cc78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_ClientProviders, addr 0x3cccdec, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ClientProviders();
 
-  /// @brief Method get_CustomProperties, addr 0x3c6ccdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_CustomProperties, addr 0x3ccce50, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_CustomProperties();
 
-  /// @brief Method get_ServerProviders, addr 0x3c6cc14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_ServerProviders, addr 0x3cccd88, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ServerProviders();
 
 protected:
@@ -125,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ChannelData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ChannelData(ChannelData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3065 };
 
   /// @brief Field Ref, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Ref;
@@ -147,14 +149,9 @@ public:
   /// @brief Field _customProperties, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Hashtable* ____customProperties;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3065 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ChannelData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ___Ref) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ___Type) == 0x18, "Offset mismatch!");
@@ -168,6 +165,8 @@ static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ____serverProvi
 static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ____clientProviders) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ____customProperties) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ChannelData, 0x48>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ChannelData);

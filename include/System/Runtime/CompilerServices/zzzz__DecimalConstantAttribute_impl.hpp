@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)(
     uint8_t, uint8_t, uint32_t, uint32_t, uint32_t)>(&::System::Runtime::CompilerServices::DecimalConstantAttribute::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3cb7134;
+  constexpr static std::size_t addrs = 0x3d172a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)()>(
     &::System::Runtime::CompilerServices::DecimalConstantAttribute::get_Value)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cb71d0;
+  constexpr static std::size_t addrs = 0x3d17344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,10 +48,6 @@ constexpr void System::Runtime::CompilerServices::DecimalConstantAttribute::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dec = value;
 }
-inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* System::Runtime::CompilerServices::DecimalConstantAttribute::New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid,
-                                                                                                                                            uint32_t low) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::DecimalConstantAttribute*>(scale, sign, hi, mid, low));
-}
 inline void System::Runtime::CompilerServices::DecimalConstantAttribute::_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::DecimalConstantAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -65,6 +61,10 @@ inline ::System::Decimal System::Runtime::CompilerServices::DecimalConstantAttri
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::DecimalConstantAttribute*>::get(), "get_Value",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Decimal, false>(this, ___internal_method);
+}
+inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* System::Runtime::CompilerServices::DecimalConstantAttribute::New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid,
+                                                                                                                                            uint32_t low) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::DecimalConstantAttribute*>(scale, sign, hi, mid, low));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::DecimalConstantAttribute::DecimalConstantAttribute() {}

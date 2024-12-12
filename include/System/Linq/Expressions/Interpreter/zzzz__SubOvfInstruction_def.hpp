@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubOvfInstruction)
+namespace GlobalNamespace {
+class SubOvfInstruction_SubOvfInt16;
+}
+namespace GlobalNamespace {
+class SubOvfInstruction_SubOvfInt32;
+}
+namespace GlobalNamespace {
+class SubOvfInstruction_SubOvfInt64;
+}
+namespace GlobalNamespace {
+class SubOvfInstruction_SubOvfUInt16;
+}
+namespace GlobalNamespace {
+class SubOvfInstruction_SubOvfUInt32;
+}
+namespace GlobalNamespace {
+class SubOvfInstruction_SubOvfUInt64;
+}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __SubOvfInstruction__SubOvfInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __SubOvfInstruction__SubOvfInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __SubOvfInstruction__SubOvfInt64;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __SubOvfInstruction__SubOvfUInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __SubOvfInstruction__SubOvfUInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __SubOvfInstruction__SubOvfUInt64;
 }
 namespace System {
 class Type;
@@ -37,25 +37,24 @@ class SubOvfInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::SubOvfInstruction);
-// Type: System.Linq.Expressions.Interpreter::SubOvfInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::SubOvfInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.SubOvfInstruction
 class CORDL_TYPE SubOvfInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using SubOvfInt16 = ::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfInt16;
+  using SubOvfInt16 = ::GlobalNamespace::SubOvfInstruction_SubOvfInt16;
 
-  using SubOvfInt32 = ::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfInt32;
+  using SubOvfInt32 = ::GlobalNamespace::SubOvfInstruction_SubOvfInt32;
 
-  using SubOvfInt64 = ::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfInt64;
+  using SubOvfInt64 = ::GlobalNamespace::SubOvfInstruction_SubOvfInt64;
 
-  using SubOvfUInt16 = ::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfUInt16;
+  using SubOvfUInt16 = ::GlobalNamespace::SubOvfInstruction_SubOvfUInt16;
 
-  using SubOvfUInt32 = ::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfUInt32;
+  using SubOvfUInt32 = ::GlobalNamespace::SubOvfInstruction_SubOvfUInt32;
 
-  using SubOvfUInt64 = ::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfUInt64;
+  using SubOvfUInt64 = ::GlobalNamespace::SubOvfInstruction_SubOvfUInt64;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
@@ -64,29 +63,29 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
   /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
   /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
   /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+  __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
 
   /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+  __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
 
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+  __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x4094690, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40f59a4, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::SubOvfInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4094688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f599c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int16();
@@ -101,13 +100,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x4094638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f594c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4094648, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f595c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4094640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f5954, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -137,7 +136,7 @@ public:
   SubOvfInstruction(SubOvfInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

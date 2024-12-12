@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/DefaultGroupManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupManager_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultGroupManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultGroupManager.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBox*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49d626c;
+  constexpr static std::size_t addrs = 0x4a3ab7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::OnOptionSelectionChanged)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x49d6274;
+  constexpr static std::size_t addrs = 0x4a3ab84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::RegisterOption)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x49d6444;
+  constexpr static std::size_t addrs = 0x4a3ad54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::UnregisterOption)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x49d6590;
+  constexpr static std::size_t addrs = 0x4a3aea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)()>(&::UnityEngine::UIElements::DefaultGroupManager::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49d5ad8;
+  constexpr static std::size_t addrs = 0x4a3a3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultGroupManager*>::get(), ".ctor",
@@ -79,20 +79,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
-constexpr UnityEngine::UIElements::DefaultGroupManager::operator ::UnityEngine::UIElements::IGroupManager*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IGroupManager*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
-constexpr ::UnityEngine::UIElements::IGroupManager* UnityEngine::UIElements::DefaultGroupManager::i___UnityEngine__UIElements__IGroupManager() noexcept {
-  return static_cast<::UnityEngine::UIElements::IGroupManager*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*& UnityEngine::UIElements::DefaultGroupManager::__cordl_internal_get_m_GroupOptions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupOptions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*> const&
-UnityEngine::UIElements::DefaultGroupManager::__cordl_internal_get_m_GroupOptions() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* const& UnityEngine::UIElements::DefaultGroupManager::__cordl_internal_get_m_GroupOptions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupOptions;
 }
@@ -104,7 +95,7 @@ constexpr ::UnityEngine::UIElements::IGroupBoxOption*& UnityEngine::UIElements::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedOption;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IGroupBoxOption*> const& UnityEngine::UIElements::DefaultGroupManager::__cordl_internal_get_m_SelectedOption() const {
+constexpr ::UnityEngine::UIElements::IGroupBoxOption* const& UnityEngine::UIElements::DefaultGroupManager::__cordl_internal_get_m_SelectedOption() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedOption;
 }
@@ -116,7 +107,7 @@ constexpr ::UnityEngine::UIElements::IGroupBox*& UnityEngine::UIElements::Defaul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupBox;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IGroupBox*> const& UnityEngine::UIElements::DefaultGroupManager::__cordl_internal_get_m_GroupBox() const {
+constexpr ::UnityEngine::UIElements::IGroupBox* const& UnityEngine::UIElements::DefaultGroupManager::__cordl_internal_get_m_GroupBox() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupBox;
 }
@@ -148,13 +139,21 @@ inline void UnityEngine::UIElements::DefaultGroupManager::UnregisterOption(::Uni
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IGroupBoxOption*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, option);
 }
-inline ::UnityEngine::UIElements::DefaultGroupManager* UnityEngine::UIElements::DefaultGroupManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DefaultGroupManager*>());
-}
 inline void UnityEngine::UIElements::DefaultGroupManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultGroupManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::DefaultGroupManager* UnityEngine::UIElements::DefaultGroupManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DefaultGroupManager*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
+constexpr UnityEngine::UIElements::DefaultGroupManager::operator ::UnityEngine::UIElements::IGroupManager*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IGroupManager*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
+constexpr ::UnityEngine::UIElements::IGroupManager* UnityEngine::UIElements::DefaultGroupManager::i___UnityEngine__UIElements__IGroupManager() noexcept {
+  return static_cast<::UnityEngine::UIElements::IGroupManager*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultGroupManager::DefaultGroupManager() {}

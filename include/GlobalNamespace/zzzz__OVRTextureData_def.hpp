@@ -5,28 +5,20 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRTextureFormat_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTextureData)
-namespace GlobalNamespace {
-struct OVRTextureFormat;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 struct OVRTextureData;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRTextureData);
-// Type: ::OVRTextureData
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRTextureFormat, UnityEngine.TextureFormat
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRTextureData
+// CS Name: OVRTextureData
 struct CORDL_TYPE OVRTextureData {
 public:
   // Declarations
@@ -39,6 +31,12 @@ public:
   // name: "transcodedFormat", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
   constexpr OVRTextureData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t width, int32_t height, ::GlobalNamespace::OVRTextureFormat format, ::UnityEngine::TextureFormat transcodedFormat,
                            ::StringW uri) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7879 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field data, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> data;
@@ -58,17 +56,9 @@ public:
   /// @brief Field uri, offset: 0x18, size: 0x8, def value: None
   ::StringW uri;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7854 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTextureData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRTextureData, data) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRTextureData, width) == 0x8, "Offset mismatch!");
@@ -80,6 +70,8 @@ static_assert(offsetof(::GlobalNamespace::OVRTextureData, format) == 0x10, "Offs
 static_assert(offsetof(::GlobalNamespace::OVRTextureData, transcodedFormat) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRTextureData, uri) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTextureData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTextureData, "", "OVRTextureData");

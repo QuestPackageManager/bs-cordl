@@ -18,11 +18,10 @@ class AttributePSVIInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::AttributePSVIInfo);
-// Type: System.Xml::AttributePSVIInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::AttributePSVIInfo*
+// CS Name: System.Xml.AttributePSVIInfo
 class CORDL_TYPE AttributePSVIInfo : public ::System::Object {
 public:
   // Declarations
@@ -40,12 +39,12 @@ public:
 
   static inline ::System::Xml::AttributePSVIInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x42cc414, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x432d728, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
-  constexpr ::System::Xml::Schema::XmlSchemaInfo*& __cordl_internal_get_attributeSchemaInfo();
+  constexpr ::System::Xml::Schema::XmlSchemaInfo* const& __cordl_internal_get_attributeSchemaInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaInfo*> const& __cordl_internal_get_attributeSchemaInfo() const;
+  constexpr ::System::Xml::Schema::XmlSchemaInfo*& __cordl_internal_get_attributeSchemaInfo();
 
   constexpr ::StringW const& __cordl_internal_get_localName() const;
 
@@ -55,9 +54,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_namespaceUri();
 
-  constexpr ::System::Object*& __cordl_internal_get_typedAttributeValue();
+  constexpr ::System::Object* const& __cordl_internal_get_typedAttributeValue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_typedAttributeValue() const;
+  constexpr ::System::Object*& __cordl_internal_get_typedAttributeValue();
 
   constexpr void __cordl_internal_set_attributeSchemaInfo(::System::Xml::Schema::XmlSchemaInfo* value);
 
@@ -67,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_typedAttributeValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x42cc3b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432d6c4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,6 +83,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttributePSVIInfo(AttributePSVIInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7278 };
+
   /// @brief Field localName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___localName;
 
@@ -96,14 +98,9 @@ public:
   /// @brief Field attributeSchemaInfo, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaInfo* ___attributeSchemaInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7253 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::AttributePSVIInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::AttributePSVIInfo, ___localName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::AttributePSVIInfo, ___namespaceUri) == 0x18, "Offset mismatch!");
@@ -111,6 +108,8 @@ static_assert(offsetof(::System::Xml::AttributePSVIInfo, ___namespaceUri) == 0x1
 static_assert(offsetof(::System::Xml::AttributePSVIInfo, ___typedAttributeValue) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::AttributePSVIInfo, ___attributeSchemaInfo) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::AttributePSVIInfo, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::AttributePSVIInfo);

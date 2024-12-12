@@ -17,11 +17,10 @@ class ColorSchemeView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeView);
-// Type: ::ColorSchemeView
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorSchemeView*
+// CS Name: ColorSchemeView
 class CORDL_TYPE ColorSchemeView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,7 +49,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeView* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3bc48b4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3c249c8, size 0x1b8, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -96,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__saberBColorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3bc4a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c24b80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,6 +111,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeView(ColorSchemeView const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18989 };
 
   /// @brief Field _saberAColorImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____saberAColorImage;
@@ -134,14 +136,9 @@ public:
   /// @brief Field _obstacleColorImage, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____obstacleColorImage;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18869 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeView, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____saberAColorImage) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____saberBColorImage) == 0x28, "Offset mismatch!");
@@ -155,6 +152,8 @@ static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____environmentColor0
 static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____environmentColor1BoostImage) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____obstacleColorImage) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeView, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeView);

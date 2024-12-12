@@ -14,11 +14,10 @@ class GenericSecurityDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::GenericSecurityDescriptor);
-// Type: System.Security.AccessControl::GenericSecurityDescriptor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::GenericSecurityDescriptor*
+// CS Name: System.Security.AccessControl.GenericSecurityDescriptor
 class CORDL_TYPE GenericSecurityDescriptor : public ::System::Object {
 public:
   // Declarations
@@ -28,13 +27,13 @@ public:
 
   static inline ::System::Security::AccessControl::GenericSecurityDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c63b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc3c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Group, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Group, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Group(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method set_Owner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Owner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Owner(::System::Security::Principal::SecurityIdentifier* value);
 
 protected:

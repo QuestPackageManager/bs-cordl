@@ -13,25 +13,20 @@ class ITaskCompletionAction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::ITaskCompletionAction);
-// Type: System.Threading.Tasks::ITaskCompletionAction
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::ITaskCompletionAction*
+// CS Name: System.Threading.Tasks.ITaskCompletionAction
 class CORDL_TYPE ITaskCompletionAction {
 public:
   // Declarations
   __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_InvokeMayRunArbitraryCode();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ITaskCompletionAction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ITaskCompletionAction(ITaskCompletionAction&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITaskCompletionAction", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

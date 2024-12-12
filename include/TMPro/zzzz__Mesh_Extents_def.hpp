@@ -16,18 +16,17 @@ struct Mesh_Extents;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::Mesh_Extents);
-// Type: TMPro::Mesh_Extents
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Vector2
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::Mesh_Extents
+// CS Name: TMPro.Mesh_Extents
 struct CORDL_TYPE Mesh_Extents {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x47630ec, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47c4400, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x47630e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c43f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   // Ctor Parameters []
@@ -37,26 +36,26 @@ public:
   // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
   constexpr Mesh_Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14440 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field min, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 min;
 
   /// @brief Field max, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 max;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14406 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::Mesh_Extents, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::Mesh_Extents, min) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::Mesh_Extents, max) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::Mesh_Extents, 0x10>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");

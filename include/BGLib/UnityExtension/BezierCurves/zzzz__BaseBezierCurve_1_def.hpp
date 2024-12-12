@@ -11,13 +11,12 @@ template <typename T> class BaseBezierCurve_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1);
-// Type: BGLib.UnityExtension.BezierCurves::BaseBezierCurve`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.UnityExtension.BezierCurves.BaseBezierCurve
 namespace BGLib::UnityExtension::BezierCurves {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension.BezierCurves::BaseBezierCurve`1<T>*
+// CS Name: BGLib.UnityExtension.BezierCurves.BaseBezierCurve`1<T>
 class CORDL_TYPE BaseBezierCurve_1 : public ::BGLib::UnityExtension::BezierCurves::BaseBezierCurve {
 public:
   // Declarations
@@ -49,11 +48,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseBezierCurve_1(BaseBezierCurve_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17176 };
+
   /// @brief Field _bezierCurveData, offset: 0x20, size: 0x8, def value: None
   T ____bezierCurveData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

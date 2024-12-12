@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::FaceRebuildData::*)()>(&::UnityEngine::ProBuilder::FaceRebuildData::Offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46a7d04;
+  constexpr static std::size_t addrs = 0x4709018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::FaceRebuildData*>::get(), "Offset",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::FaceRebuildData::*)()>(&::UnityEngine::ProBuilder::FaceRebuildData::ToString)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x46a7d0c;
+  constexpr static std::size_t addrs = 0x4709020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*)>(
         &::UnityEngine::ProBuilder::FaceRebuildData::Apply)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x46a7dd4;
+  constexpr static std::size_t addrs = 0x47090e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*,
                          ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::UnityEngine::ProBuilder::FaceRebuildData::Apply)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x46a7f50;
+  constexpr static std::size_t addrs = 0x4709264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::FaceRebuildData::*)()>(&::UnityEngine::ProBuilder::FaceRebuildData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46a84ec;
+  constexpr static std::size_t addrs = 0x4709800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::FaceRebuildData*>::get(), ".ctor",
@@ -93,7 +93,7 @@ constexpr ::UnityEngine::ProBuilder::Face*& UnityEngine::ProBuilder::FaceRebuild
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___face;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_face() const {
+constexpr ::UnityEngine::ProBuilder::Face* const& UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_face() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___face;
 }
@@ -105,8 +105,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vert
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vertices;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> const&
-UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_vertices() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* const& UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_vertices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vertices;
 }
@@ -118,7 +117,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::ProBuil
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedIndexes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_sharedIndexes() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_sharedIndexes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedIndexes;
 }
@@ -130,7 +129,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::ProBuil
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedIndexesUV;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_sharedIndexesUV() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::ProBuilder::FaceRebuildData::__cordl_internal_get_sharedIndexesUV() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedIndexesUV;
 }
@@ -160,8 +159,6 @@ inline ::StringW UnityEngine::ProBuilder::FaceRebuildData::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::FaceRebuildData*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-/// @param vertices: ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (default: nullptr)
-/// @param faces: ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* (default: nullptr)
 inline void UnityEngine::ProBuilder::FaceRebuildData::Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                                                             ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces) {
@@ -173,7 +170,6 @@ inline void UnityEngine::ProBuilder::FaceRebuildData::Apply(::System::Collection
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, newFaces, mesh, vertices, faces);
 }
-/// @param sharedTextureLookup: ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>* (default: nullptr)
 inline void UnityEngine::ProBuilder::FaceRebuildData::Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
@@ -188,13 +184,13 @@ inline void UnityEngine::ProBuilder::FaceRebuildData::Apply(::System::Collection
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, newFaces, vertices, faces, sharedVertexLookup, sharedTextureLookup);
 }
-inline ::UnityEngine::ProBuilder::FaceRebuildData* UnityEngine::ProBuilder::FaceRebuildData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::FaceRebuildData*>());
-}
 inline void UnityEngine::ProBuilder::FaceRebuildData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::FaceRebuildData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ProBuilder::FaceRebuildData* UnityEngine::ProBuilder::FaceRebuildData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::FaceRebuildData*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::FaceRebuildData::FaceRebuildData() {}

@@ -18,13 +18,12 @@ template <typename TContainer, typename TValue> class DelegateProperty_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::DelegateProperty_2);
-// Type: Unity.Properties::DelegateProperty`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TContainer, typename TValue>
 // Is value type: false
-// CS Name: ::Unity.Properties::DelegateProperty`2<TContainer,TValue>*
+// CS Name: Unity.Properties.DelegateProperty`2<TContainer,TValue>
 class CORDL_TYPE DelegateProperty_2 : public ::Unity::Properties::Property_2<TContainer, TValue> {
 public:
   // Declarations
@@ -46,13 +45,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
+  constexpr ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* const& __cordl_internal_get_m_Getter() const;
+
   constexpr ::Unity::Properties::PropertyGetter_2<TContainer, TValue>*& __cordl_internal_get_m_Getter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::PropertyGetter_2<TContainer, TValue>*> const& __cordl_internal_get_m_Getter() const;
+  constexpr ::Unity::Properties::PropertySetter_2<TContainer, TValue>* const& __cordl_internal_get_m_Setter() const;
 
   constexpr ::Unity::Properties::PropertySetter_2<TContainer, TValue>*& __cordl_internal_get_m_Setter();
-
-  constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::PropertySetter_2<TContainer, TValue>*> const& __cordl_internal_get_m_Setter() const;
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
@@ -80,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DelegateProperty_2(DelegateProperty_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17439 };
+
   /// @brief Field m_Getter, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* ___m_Getter;
 
@@ -88,9 +90,6 @@ public:
 
   /// @brief Field <Name>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

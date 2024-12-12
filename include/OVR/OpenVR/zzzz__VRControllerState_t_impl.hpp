@@ -2,7 +2,6 @@
 // IWYU pragma private; include "OVR/OpenVR/VRControllerState_t.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerAxis_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VRControllerAxis_t_def.hpp"
 // Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "ulButtonTouched", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rAxis0", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "rAxis1", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rAxis2", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "",

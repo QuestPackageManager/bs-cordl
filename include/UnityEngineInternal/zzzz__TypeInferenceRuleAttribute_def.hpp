@@ -15,11 +15,10 @@ class TypeInferenceRuleAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngineInternal::TypeInferenceRuleAttribute);
-// Type: UnityEngineInternal::TypeInferenceRuleAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngineInternal {
 // Is value type: false
-// CS Name: ::UnityEngineInternal::TypeInferenceRuleAttribute*
+// CS Name: UnityEngineInternal.TypeInferenceRuleAttribute
 class CORDL_TYPE TypeInferenceRuleAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
-  /// @brief Method ToString, addr 0x47fc0c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x485d3dc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__rule() const;
@@ -39,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__rule(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47fc0a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485d3b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW rule);
 
-  /// @brief Method .ctor, addr 0x47fc01c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485d330, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeInferenceRuleAttribute(TypeInferenceRuleAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10536 };
+
   /// @brief Field _rule, offset: 0x10, size: 0x8, def value: None
   ::StringW ____rule;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngineInternal::TypeInferenceRuleAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngineInternal::TypeInferenceRuleAttribute, ____rule) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngineInternal::TypeInferenceRuleAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngineInternal
 NEED_NO_BOX(::UnityEngineInternal::TypeInferenceRuleAttribute);

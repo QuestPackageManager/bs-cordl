@@ -13,232 +13,230 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::__Allocator2D__Area._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::Allocator2D_Area._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__Allocator2D__Area::*)(::UnityEngine::RectInt)>(
-    &::UnityEngine::UIElements::UIR::__Allocator2D__Area::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D_Area::*)(::UnityEngine::RectInt)>(
+    &::UnityEngine::UIElements::UIR::Allocator2D_Area::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4940fb4;
+  constexpr static std::size_t addrs = 0x49a58c4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectInt>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Area*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectInt>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::__Allocator2D__Area::__cordl_internal_get_rect() {
+constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::Allocator2D_Area::__cordl_internal_get_rect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
-constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::__Allocator2D__Area::__cordl_internal_get_rect() const {
+constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::Allocator2D_Area::__cordl_internal_get_rect() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
-constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Area::__cordl_internal_set_rect(::UnityEngine::RectInt value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D_Area::__cordl_internal_set_rect(::UnityEngine::RectInt value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rect = value;
 }
-constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElements::UIR::__Allocator2D__Area::__cordl_internal_get_allocator() {
+constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElements::UIR::Allocator2D_Area::__cordl_internal_get_allocator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& UnityEngine::UIElements::UIR::__Allocator2D__Area::__cordl_internal_get_allocator() const {
+constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator* const& UnityEngine::UIElements::UIR::Allocator2D_Area::__cordl_internal_get_allocator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
-constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Area::__cordl_internal_set_allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D_Area::__cordl_internal_set_allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allocator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::UIElements::UIR::__Allocator2D__Area* UnityEngine::UIElements::UIR::__Allocator2D__Area::New_ctor(::UnityEngine::RectInt rect) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>(rect));
-}
-inline void UnityEngine::UIElements::UIR::__Allocator2D__Area::_ctor(::UnityEngine::RectInt rect) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectInt>::get() })));
+inline void UnityEngine::UIElements::UIR::Allocator2D_Area::_ctor(::UnityEngine::RectInt rect) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Area*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectInt>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rect);
 }
+inline ::UnityEngine::UIElements::UIR::Allocator2D_Area* UnityEngine::UIElements::UIR::Allocator2D_Area::New_ctor(::UnityEngine::RectInt rect) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::Allocator2D_Area*>(rect));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Area::__Allocator2D__Area() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::__Allocator2D__Row.Create
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Area::Allocator2D_Area() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::Allocator2D_Row.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::__Allocator2D__Row* (*)()>(
-    &::UnityEngine::UIElements::UIR::__Allocator2D__Row::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::Allocator2D_Row* (*)()>(&::UnityEngine::UIElements::UIR::Allocator2D_Row::Create)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4941034;
+  constexpr static std::size_t addrs = 0x49a5944;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(),
                                                                                "Create", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::__Allocator2D__Row.Reset
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::Allocator2D_Row.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::UIR::__Allocator2D__Row*)>(
-    &::UnityEngine::UIElements::UIR::__Allocator2D__Row::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::UIR::Allocator2D_Row*)>(
+    &::UnityEngine::UIElements::UIR::Allocator2D_Row::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49410cc;
+  constexpr static std::size_t addrs = 0x49a59dc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(), "Reset", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(), "Reset", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::__Allocator2D__Row._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::Allocator2D_Row._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__Allocator2D__Row::*)()>(
-    &::UnityEngine::UIElements::UIR::__Allocator2D__Row::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D_Row::*)()>(
+    &::UnityEngine::UIElements::UIR::Allocator2D_Row::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4941084;
+  constexpr static std::size_t addrs = 0x49a5994;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_rect() {
+constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_rect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
-constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_rect() const {
+constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_rect() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
-constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_set_rect(::UnityEngine::RectInt value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_set_rect(::UnityEngine::RectInt value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rect = value;
 }
-constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Area*& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_area() {
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Area*& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_area() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___area;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Allocator2D__Area*> const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_area() const {
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Area* const& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_area() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___area;
 }
-constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_set_area(::UnityEngine::UIElements::UIR::__Allocator2D__Area* value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_set_area(::UnityEngine::UIElements::UIR::Allocator2D_Area* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___area)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_allocator() {
+constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_allocator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_allocator() const {
+constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator* const& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_allocator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
-constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_set_allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_set_allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allocator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UIR::Alloc& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_alloc() {
+constexpr ::UnityEngine::UIElements::UIR::Alloc& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_alloc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alloc;
 }
-constexpr ::UnityEngine::UIElements::UIR::Alloc const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_alloc() const {
+constexpr ::UnityEngine::UIElements::UIR::Alloc const& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_alloc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alloc;
 }
-constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_set_alloc(::UnityEngine::UIElements::UIR::Alloc value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_set_alloc(::UnityEngine::UIElements::UIR::Alloc value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___alloc = value;
 }
-constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Row*& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_next() {
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Row*& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Allocator2D__Row*> const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_get_next() const {
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Row* const& UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__cordl_internal_set_next(::UnityEngine::UIElements::UIR::__Allocator2D__Row* value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D_Row::__cordl_internal_set_next(::UnityEngine::UIElements::UIR::Allocator2D_Row* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::UIElements::UIR::__Allocator2D__Row::setStaticF_pool(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*, "pool",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get>(
-      std::forward<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*>(value));
+inline void UnityEngine::UIElements::UIR::Allocator2D_Row::setStaticF_pool(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::Allocator2D_Row*>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*, "pool",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get>(
+      std::forward<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*>(value));
 }
-inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* UnityEngine::UIElements::UIR::__Allocator2D__Row::getStaticF_pool() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*, "pool",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get>();
+inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::Allocator2D_Row*>* UnityEngine::UIElements::UIR::Allocator2D_Row::getStaticF_pool() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*, "pool",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get>();
 }
-inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* UnityEngine::UIElements::UIR::__Allocator2D__Row::Create() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
-                                                                             "Create", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, false>(nullptr, ___internal_method);
+inline ::UnityEngine::UIElements::UIR::Allocator2D_Row* UnityEngine::UIElements::UIR::Allocator2D_Row::Create() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(), "Create",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::Allocator2D_Row*, false>(nullptr, ___internal_method);
 }
-inline void UnityEngine::UIElements::UIR::__Allocator2D__Row::Reset(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row) {
+inline void UnityEngine::UIElements::UIR::Allocator2D_Row::Reset(::UnityEngine::UIElements::UIR::Allocator2D_Row* row) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(), "Reset", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(), "Reset", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, row);
 }
-inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* UnityEngine::UIElements::UIR::__Allocator2D__Row::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>());
-}
-inline void UnityEngine::UIElements::UIR::__Allocator2D__Row::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void UnityEngine::UIElements::UIR::Allocator2D_Row::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::UIR::Allocator2D_Row* UnityEngine::UIElements::UIR::Allocator2D_Row::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::Allocator2D_Row*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Row::__Allocator2D__Row() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D._ctor
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Row::Allocator2D_Row() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D::*)(
-    ::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::UnityEngine::UIElements::UIR::Alloc, int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D::*)(
+    ::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::UnityEngine::UIElements::UIR::Alloc, int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4940cb0;
+  constexpr static std::size_t addrs = 0x49a55c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Alloc>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D::_ctor(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc, int32_t width,
-                                                                        int32_t height) {
+inline void UnityEngine::UIElements::UIR::Allocator2D_Alloc2D::_ctor(::UnityEngine::UIElements::UIR::Allocator2D_Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc, int32_t width, int32_t height) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Allocator2D_Row*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Alloc>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, row, alloc, width, height);
 }
-// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: Some("{}") }, CppParam { name: "row", ty: "::UnityEngine::UIElements::UIR::__Allocator2D__Row*",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D::__Allocator2D__Alloc2D(::UnityEngine::RectInt rect, ::UnityEngine::UIElements::UIR::__Allocator2D__Row* row,
-                                                                                         ::UnityEngine::UIElements::UIR::Alloc alloc) noexcept {
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: Some("{}") }, CppParam { name: "row", ty: "::UnityEngine::UIElements::UIR::Allocator2D_Row*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D::Allocator2D_Alloc2D(::UnityEngine::RectInt rect, ::UnityEngine::UIElements::UIR::Allocator2D_Row* row,
+                                                                                   ::UnityEngine::UIElements::UIR::Alloc alloc) noexcept {
   this->rect = rect;
   this->row = row;
   this->alloc = alloc;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D::__Allocator2D__Alloc2D() {}
+constexpr ::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D::Allocator2D_Alloc2D() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Allocator2D._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D::*)(::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, int32_t)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::_ctor)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x494022c;
+  constexpr static std::size_t addrs = 0x49a4b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,30 +251,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::Allocator2D::*)(
-    int32_t, int32_t, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>)>(&::UnityEngine::UIElements::UIR::Allocator2D::TryAllocate)> {
+    int32_t, int32_t, ::ByRef<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>)>(&::UnityEngine::UIElements::UIR::Allocator2D::TryAllocate)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x49407fc;
+  constexpr static std::size_t addrs = 0x49a510c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "TryAllocate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Allocator2D.Free
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D::*)(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D::*)(::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::Free)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x4940db8;
+  constexpr static std::size_t addrs = 0x49a56c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "Free", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>::get() })));
     return ___internal_method;
   }
 };
@@ -284,15 +282,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int)>(
+    static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int)>(
         &::UnityEngine::UIElements::UIR::Allocator2D::BuildAreas)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x4940444;
+  constexpr static std::size_t addrs = 0x49a4d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "BuildAreas", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2Int>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2Int>::get() })));
     return ___internal_method;
@@ -302,14 +300,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*, int32_t)>(&::UnityEngine::UIElements::UIR::Allocator2D::ComputeMaxAllocSize)> {
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*, int32_t)>(&::UnityEngine::UIElements::UIR::Allocator2D::ComputeMaxAllocSize)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4940670;
+  constexpr static std::size_t addrs = 0x49a4f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "ComputeMaxAllocSize", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -318,10 +316,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> (*)(int32_t, int32_t)>(
+    static_cast<::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*> (*)(int32_t, int32_t)>(
         &::UnityEngine::UIElements::UIR::Allocator2D::BuildRowArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4940774;
+  constexpr static std::size_t addrs = 0x49a5084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -378,36 +376,32 @@ constexpr void UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_set_m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RowHeightBias = value;
 }
-constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*>&
+constexpr ::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*>&
 UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_get_m_Rows() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rows;
 }
-constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> const&
+constexpr ::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*> const&
 UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_get_m_Rows() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rows;
 }
-constexpr void UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_set_m_Rows(
-    ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> value) {
+constexpr void
+UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_set_m_Rows(::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Rows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*& UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_get_m_Areas() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*& UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_get_m_Areas() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Areas;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*> const&
-UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_get_m_Areas() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* const& UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_get_m_Areas() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Areas;
 }
-constexpr void UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_set_m_Areas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* value) {
+constexpr void UnityEngine::UIElements::UIR::Allocator2D::__cordl_internal_set_m_Areas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Areas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::UIElements::UIR::Allocator2D* UnityEngine::UIElements::UIR::Allocator2D::New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::Allocator2D*>(minSize, maxSize, rowHeightBias));
 }
 inline void UnityEngine::UIElements::UIR::Allocator2D::_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -417,43 +411,46 @@ inline void UnityEngine::UIElements::UIR::Allocator2D::_ctor(::UnityEngine::Vect
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, minSize, maxSize, rowHeightBias);
 }
-inline bool UnityEngine::UIElements::UIR::Allocator2D::TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D> alloc2D) {
+inline bool UnityEngine::UIElements::UIR::Allocator2D::TryAllocate(int32_t width, int32_t height, ::ByRef<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D> alloc2D) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "TryAllocate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, width, height, alloc2D);
 }
-inline void UnityEngine::UIElements::UIR::Allocator2D::Free(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc2D) {
+inline void UnityEngine::UIElements::UIR::Allocator2D::Free(::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D alloc2D) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "Free", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, alloc2D);
 }
-inline void UnityEngine::UIElements::UIR::Allocator2D::BuildAreas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas,
-                                                                  ::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize) {
+inline void UnityEngine::UIElements::UIR::Allocator2D::BuildAreas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* areas, ::UnityEngine::Vector2Int minSize,
+                                                                  ::UnityEngine::Vector2Int maxSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "BuildAreas", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2Int>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2Int>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, areas, minSize, maxSize);
 }
-inline ::UnityEngine::Vector2Int UnityEngine::UIElements::UIR::Allocator2D::ComputeMaxAllocSize(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas,
+inline ::UnityEngine::Vector2Int UnityEngine::UIElements::UIR::Allocator2D::ComputeMaxAllocSize(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* areas,
                                                                                                 int32_t rowHeightBias) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "ComputeMaxAllocSize", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2Int, false>(nullptr, ___internal_method, areas, rowHeightBias);
 }
-inline ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*>
+inline ::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*>
 UnityEngine::UIElements::UIR::Allocator2D::BuildRowArray(int32_t maxRowHeight, int32_t rowHeightBias) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Allocator2D*>::get(), "BuildRowArray", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*>, false>(
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*>, false>(
       nullptr, ___internal_method, maxRowHeight, rowHeightBias);
+}
+inline ::UnityEngine::UIElements::UIR::Allocator2D* UnityEngine::UIElements::UIR::Allocator2D::New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::Allocator2D*>(minSize, maxSize, rowHeightBias));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Allocator2D::Allocator2D() {}

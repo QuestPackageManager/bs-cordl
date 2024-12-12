@@ -28,15 +28,15 @@ inline void UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAtt
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, bag, cc);
 }
-template <typename TValueType, typename TValueUxmlAttributeType>
-inline ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>* UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>*>());
-}
 template <typename TValueType, typename TValueUxmlAttributeType> inline void UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValueType, typename TValueUxmlAttributeType>
+inline ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>* UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>*>());
 }
 // Ctor Parameters []
 template <typename TValueType, typename TValueUxmlAttributeType> constexpr ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::BaseFieldTraits_2() {}

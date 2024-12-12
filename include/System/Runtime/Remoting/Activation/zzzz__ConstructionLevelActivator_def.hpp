@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ConstructionLevelActivator)
 namespace System::Runtime::Remoting::Activation {
@@ -20,11 +21,10 @@ class ConstructionLevelActivator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::ConstructionLevelActivator);
-// Type: System.Runtime.Remoting.Activation::ConstructionLevelActivator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Remoting.Activation.IActivator
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Activation::ConstructionLevelActivator*
+// CS Name: System.Runtime.Remoting.Activation.ConstructionLevelActivator
 class CORDL_TYPE ConstructionLevelActivator : public ::System::Object {
 public:
   // Declarations
@@ -33,15 +33,15 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x3c83634, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x3ce37a8, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Activation::ConstructionLevelActivator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c829f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce2b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NextActivator, addr 0x3c8362c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x3ce37a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"

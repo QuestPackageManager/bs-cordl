@@ -30,44 +30,43 @@ class WebRequestQueue;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueue);
-// Type: UnityEngine.ResourceManagement::WebRequestQueue
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement::WebRequestQueue*
+// CS Name: UnityEngine.ResourceManagement.WebRequestQueue
 class CORDL_TYPE WebRequestQueue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_ActiveRequests, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ActiveRequests,
-                             put = setStaticF_s_ActiveRequests)) ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* s_ActiveRequests;
+  __declspec(property(get = getStaticF_s_ActiveRequests,
+                      put = setStaticF_s_ActiveRequests)) ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* s_ActiveRequests;
 
   /// @brief Field s_MaxRequest, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_MaxRequest, put = setStaticF_s_MaxRequest)) int32_t s_MaxRequest;
+  __declspec(property(get = getStaticF_s_MaxRequest, put = setStaticF_s_MaxRequest)) int32_t s_MaxRequest;
 
   /// @brief Field s_QueuedOperations, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_QueuedOperations,
-                             put = setStaticF_s_QueuedOperations)) ::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>* s_QueuedOperations;
+  __declspec(property(get = getStaticF_s_QueuedOperations,
+                      put = setStaticF_s_QueuedOperations)) ::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>* s_QueuedOperations;
 
-  /// @brief Method BeginWebRequest, addr 0x472eda0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method BeginWebRequest, addr 0x47900b4, size 0x28c, virtual false, abstract: false, final false
   static inline void BeginWebRequest(::UnityEngine::ResourceManagement::WebRequestQueueOperation* queueOperation);
 
-  /// @brief Method DequeueRequest, addr 0x472f64c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DequeueRequest, addr 0x4790960, size 0xb8, virtual false, abstract: false, final false
   static inline void DequeueRequest(::UnityEngine::Networking::UnityWebRequestAsyncOperation* operation);
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x472f704, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x4790a18, size 0xa4, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x472f544, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x4790858, size 0x108, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* operation);
 
-  /// @brief Method QueueRequest, addr 0x472eca0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QueueRequest, addr 0x478ffb4, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method SetMaxConcurrentRequests, addr 0x472ebe0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetMaxConcurrentRequests, addr 0x478fef4, size 0xc0, virtual false, abstract: false, final false
   static inline void SetMaxConcurrentRequests(int32_t maxRequests);
 
-  /// @brief Method WaitForRequestToBeActive, addr 0x472f02c, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method WaitForRequestToBeActive, addr 0x4790340, size 0x474, virtual false, abstract: false, final false
   static inline void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation* request, int32_t millisecondsTimeout);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* getStaticF_s_ActiveRequests();
@@ -97,7 +96,7 @@ public:
   WebRequestQueue(WebRequestQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

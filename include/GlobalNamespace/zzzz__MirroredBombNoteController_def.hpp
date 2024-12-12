@@ -10,67 +10,65 @@ namespace GlobalNamespace {
 class INoteMirrorable;
 }
 namespace GlobalNamespace {
-class __MirroredBombNoteController__Pool;
+class MirroredBombNoteController_Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class MirroredBombNoteController;
 }
 namespace GlobalNamespace {
-class __MirroredBombNoteController__Pool;
+class MirroredBombNoteController_Pool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MirroredBombNoteController);
-MARK_REF_PTR_T(::GlobalNamespace::__MirroredBombNoteController__Pool);
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MirroredBombNoteController_Pool);
+// Dependencies Zenject.MonoMemoryPool`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MirroredBombNoteController::Pool*
-class CORDL_TYPE __MirroredBombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredBombNoteController>> {
+// CS Name: MirroredBombNoteController/Pool
+class CORDL_TYPE MirroredBombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredBombNoteController*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__MirroredBombNoteController__Pool* New_ctor();
+  static inline ::GlobalNamespace::MirroredBombNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a8ea84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae8414, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MirroredBombNoteController__Pool();
+  constexpr MirroredBombNoteController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MirroredBombNoteController__Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController_Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MirroredBombNoteController__Pool(__MirroredBombNoteController__Pool&&) = delete;
+  MirroredBombNoteController_Pool(MirroredBombNoteController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MirroredBombNoteController__Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController_Pool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MirroredBombNoteController__Pool(__MirroredBombNoteController__Pool const&) = delete;
+  MirroredBombNoteController_Pool(MirroredBombNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MirroredBombNoteController__Pool, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredBombNoteController_Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MirroredBombNoteController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MirroredNoteController`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MirroredBombNoteController*
+// CS Name: MirroredBombNoteController
 class CORDL_TYPE MirroredBombNoteController : public ::GlobalNamespace::MirroredNoteController_1<::GlobalNamespace::INoteMirrorable*> {
 public:
   // Declarations
-  using Pool = ::GlobalNamespace::__MirroredBombNoteController__Pool;
+  using Pool = ::GlobalNamespace::MirroredBombNoteController_Pool;
 
   static inline ::GlobalNamespace::MirroredBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a8ea3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae83cc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +86,7 @@ public:
   MirroredBombNoteController(MirroredBombNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,5 +96,5 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredBombNot
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirroredBombNoteController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MirroredBombNoteController*, "", "MirroredBombNoteController");
-NEED_NO_BOX(::GlobalNamespace::__MirroredBombNoteController__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MirroredBombNoteController__Pool*, "", "MirroredBombNoteController/Pool");
+NEED_NO_BOX(::GlobalNamespace::MirroredBombNoteController_Pool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MirroredBombNoteController_Pool*, "", "MirroredBombNoteController/Pool");

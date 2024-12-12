@@ -12,11 +12,10 @@ struct HAPI_PartType;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_PartType);
-// Type: HoudiniEngineUnity::HAPI_PartType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_PartType
+// CS Name: HoudiniEngineUnity.HAPI_PartType
 struct CORDL_TYPE HAPI_PartType {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_PartType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_PARTTYPE_BOX value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_PARTTYPE_BOX value: I32(4)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_BOX;
 
-  /// @brief Field HAPI_PARTTYPE_CURVE value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_PARTTYPE_CURVE value: I32(1)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_CURVE;
 
-  /// @brief Field HAPI_PARTTYPE_INSTANCER value: static_cast<int32_t>(0x3)
+  /// @brief Field HAPI_PARTTYPE_INSTANCER value: I32(3)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_INSTANCER;
 
-  /// @brief Field HAPI_PARTTYPE_INVALID value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_PARTTYPE_INVALID value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_INVALID;
 
-  /// @brief Field HAPI_PARTTYPE_MAX value: static_cast<int32_t>(0x6)
+  /// @brief Field HAPI_PARTTYPE_MAX value: I32(6)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_MAX;
 
-  /// @brief Field HAPI_PARTTYPE_MESH value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_PARTTYPE_MESH value: I32(0)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_MESH;
 
-  /// @brief Field HAPI_PARTTYPE_SPHERE value: static_cast<int32_t>(0x5)
+  /// @brief Field HAPI_PARTTYPE_SPHERE value: I32(5)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_SPHERE;
 
-  /// @brief Field HAPI_PARTTYPE_VOLUME value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_PARTTYPE_VOLUME value: I32(2)
   static ::HoudiniEngineUnity::HAPI_PartType const HAPI_PARTTYPE_VOLUME;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PartType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PartType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PartType, "HoudiniEngineUnity", "HAPI_PartType");

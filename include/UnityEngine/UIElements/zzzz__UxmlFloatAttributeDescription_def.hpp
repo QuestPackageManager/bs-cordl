@@ -18,90 +18,88 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class __UxmlFloatAttributeDescription____c;
+class UxmlFloatAttributeDescription___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class __UxmlFloatAttributeDescription____c;
+class UxmlFloatAttributeDescription___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlFloatAttributeDescription);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlFloatAttributeDescription___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UxmlFloatAttributeDescription::<>c*
-class CORDL_TYPE __UxmlFloatAttributeDescription____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.UxmlFloatAttributeDescription/<>c
+class CORDL_TYPE UxmlFloatAttributeDescription___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, float_t, float_t>* __9__3_0;
+  __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, float_t, float_t>* __9__3_0;
 
-  static inline ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* New_ctor();
+  static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a3ba3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa034c, size 0x8, virtual false, abstract: false, final false
   inline float_t _GetValueFromBag_b__3_0(::StringW s, float_t f);
 
-  /// @brief Method .ctor, addr 0x4a3ba34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa0344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* getStaticF___9();
 
   static inline ::System::Func_3<::StringW, float_t, float_t>* getStaticF___9__3_0();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* value);
 
   static inline void setStaticF___9__3_0(::System::Func_3<::StringW, float_t, float_t>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UxmlFloatAttributeDescription____c();
+  constexpr UxmlFloatAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlFloatAttributeDescription____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UxmlFloatAttributeDescription____c(__UxmlFloatAttributeDescription____c&&) = delete;
+  UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlFloatAttributeDescription____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UxmlFloatAttributeDescription____c(__UxmlFloatAttributeDescription____c const&) = delete;
+  UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlFloatAttributeDescription___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::UxmlFloatAttributeDescription
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlFloatAttributeDescription*
+// CS Name: UnityEngine.UIElements.UxmlFloatAttributeDescription
 class CORDL_TYPE UxmlFloatAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<float_t> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c;
+  using __c = ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c;
 
-  /// @brief Method ConvertValueToFloat, addr 0x4a3b93c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToFloat, addr 0x4aa024c, size 0x9c, virtual false, abstract: false, final false
   static inline float_t ConvertValueToFloat(::StringW v, float_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4a3b7f0, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa0100, size 0x14c, virtual true, abstract: false, final false
   inline float_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a3b758, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa0068, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +117,7 @@ public:
   UxmlFloatAttributeDescription(UxmlFloatAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6245 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,5 +127,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlFlo
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlFloatAttributeDescription);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlFloatAttributeDescription*, "UnityEngine.UIElements", "UxmlFloatAttributeDescription");
-NEED_NO_BOX(::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c*, "UnityEngine.UIElements", "UxmlFloatAttributeDescription/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::UxmlFloatAttributeDescription___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlFloatAttributeDescription___c*, "UnityEngine.UIElements", "UxmlFloatAttributeDescription/<>c");

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLobbyAnalytics)
 namespace GlobalNamespace {
+struct GameServerLobbyFlowCoordinatorBase_LobbyType;
+}
+namespace GlobalNamespace {
 class GameServerLobbyFlowCoordinatorBase;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-struct __GameServerLobbyFlowCoordinatorBase__LobbyType;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -24,11 +24,10 @@ class MultiplayerLobbyAnalytics;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAnalytics);
-// Type: ::MultiplayerLobbyAnalytics
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLobbyAnalytics*
+// CS Name: MultiplayerLobbyAnalytics
 class CORDL_TYPE MultiplayerLobbyAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -40,35 +39,35 @@ public:
                       put = __cordl_internal_set__gameServerLobbyFlowCoordinator)) ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinatorBase>
       _gameServerLobbyFlowCoordinator;
 
-  /// @brief Method Awake, addr 0x3a755e8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3acc958, size 0x188, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetEventTypeFromLobbyType, addr 0x3a75aa8, size 0x80, virtual false, abstract: false, final false
-  inline ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::__GameServerLobbyFlowCoordinatorBase__LobbyType lobbyType);
+  /// @brief Method GetEventTypeFromLobbyType, addr 0x3acce18, size 0x80, virtual false, abstract: false, final false
+  inline ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType lobbyType);
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x3a75b28, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x3acce98, size 0x10c, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidFinish();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel, addr 0x3a75e14, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel, addr 0x3acd184, size 0x10c, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidSetupEvent, addr 0x3a75944, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidSetupEvent, addr 0x3acccb4, size 0x164, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidSetupEvent();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorStartGameOrReady, addr 0x3a75d08, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorStartGameOrReady, addr 0x3acd078, size 0x10c, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorStartGameOrReady();
 
-  /// @brief Method LogClick, addr 0x3a75c34, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LogClick, addr 0x3accfa4, size 0xd4, virtual false, abstract: false, final false
   inline void LogClick(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
   static inline ::GlobalNamespace::MultiplayerLobbyAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a75770, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3accae0, size 0x1d4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
   constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinatorBase> const& __cordl_internal_get__gameServerLobbyFlowCoordinator() const;
 
@@ -78,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__gameServerLobbyFlowCoordinator(::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinatorBase> value);
 
-  /// @brief Method .ctor, addr 0x3a75f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acd290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,23 +94,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLobbyAnalytics(MultiplayerLobbyAnalytics const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3985 };
+
   /// @brief Field _gameServerLobbyFlowCoordinator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinatorBase> ____gameServerLobbyFlowCoordinator;
 
   /// @brief Field _analyticsModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3980 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyAnalytics, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyAnalytics, ____gameServerLobbyFlowCoordinator) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyAnalytics, ____analyticsModel) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyAnalytics, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyAnalytics);

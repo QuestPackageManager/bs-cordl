@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Data/zzzz__ExpressionNode_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LookupNode)
@@ -38,11 +37,10 @@ class LookupNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::LookupNode);
-// Type: System.Data::LookupNode
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.ExpressionNode
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::LookupNode*
+// CS Name: System.Data.LookupNode
 class CORDL_TYPE LookupNode : public ::System::Data::ExpressionNode {
 public:
   // Declarations
@@ -58,49 +56,49 @@ public:
   /// @brief Field _relationName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__relationName, put = __cordl_internal_set__relationName)) ::StringW _relationName;
 
-  /// @brief Method Bind, addr 0x4119c64, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x417af78, size 0x248, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x411a024, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x417b338, size 0x10, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x4119eac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417b1c0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x4119fd4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417b2e8, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x4119ed0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417b1e4, size 0x104, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x411a014, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x417b328, size 0x8, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x411a01c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x417b330, size 0x8, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x411a004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x417b318, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x411a00c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x417b320, size 0x8, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::LookupNode* New_ctor(::System::Data::DataTable* table, ::StringW columnName, ::StringW relationName);
 
-  /// @brief Method Optimize, addr 0x411a034, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x417b348, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
-  constexpr ::System::Data::DataColumn*& __cordl_internal_get__column();
+  constexpr ::System::Data::DataColumn* const& __cordl_internal_get__column() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataColumn*> const& __cordl_internal_get__column() const;
+  constexpr ::System::Data::DataColumn*& __cordl_internal_get__column();
 
   constexpr ::StringW const& __cordl_internal_get__columnName() const;
 
   constexpr ::StringW& __cordl_internal_get__columnName();
 
-  constexpr ::System::Data::DataRelation*& __cordl_internal_get__relation();
+  constexpr ::System::Data::DataRelation* const& __cordl_internal_get__relation() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRelation*> const& __cordl_internal_get__relation() const;
+  constexpr ::System::Data::DataRelation*& __cordl_internal_get__relation();
 
   constexpr ::StringW const& __cordl_internal_get__relationName() const;
 
@@ -114,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set__relationName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4118238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417954c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW columnName, ::StringW relationName);
 
 protected:
@@ -131,6 +129,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LookupNode(LookupNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11432 };
+
   /// @brief Field _relationName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____relationName;
 
@@ -143,14 +144,9 @@ public:
   /// @brief Field _relation, offset: 0x30, size: 0x8, def value: None
   ::System::Data::DataRelation* ____relation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11399 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::LookupNode, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::LookupNode, ____relationName) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::LookupNode, ____columnName) == 0x20, "Offset mismatch!");
@@ -158,6 +154,8 @@ static_assert(offsetof(::System::Data::LookupNode, ____columnName) == 0x20, "Off
 static_assert(offsetof(::System::Data::LookupNode, ____column) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::LookupNode, ____relation) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::LookupNode, 0x38>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::LookupNode);

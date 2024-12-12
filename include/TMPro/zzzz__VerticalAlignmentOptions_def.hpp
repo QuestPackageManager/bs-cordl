@@ -12,11 +12,10 @@ struct VerticalAlignmentOptions;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::VerticalAlignmentOptions);
-// Type: TMPro::VerticalAlignmentOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::VerticalAlignmentOptions
+// CS Name: TMPro.VerticalAlignmentOptions
 struct CORDL_TYPE VerticalAlignmentOptions {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr VerticalAlignmentOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Baseline value: static_cast<int32_t>(0x800)
+  /// @brief Field Baseline value: I32(2048)
   static ::TMPro::VerticalAlignmentOptions const Baseline;
 
-  /// @brief Field Bottom value: static_cast<int32_t>(0x400)
+  /// @brief Field Bottom value: I32(1024)
   static ::TMPro::VerticalAlignmentOptions const Bottom;
 
-  /// @brief Field Capline value: static_cast<int32_t>(0x2000)
+  /// @brief Field Capline value: I32(8192)
   static ::TMPro::VerticalAlignmentOptions const Capline;
 
-  /// @brief Field Geometry value: static_cast<int32_t>(0x1000)
+  /// @brief Field Geometry value: I32(4096)
   static ::TMPro::VerticalAlignmentOptions const Geometry;
 
-  /// @brief Field Middle value: static_cast<int32_t>(0x200)
+  /// @brief Field Middle value: I32(512)
   static ::TMPro::VerticalAlignmentOptions const Middle;
 
-  /// @brief Field Top value: static_cast<int32_t>(0x100)
+  /// @brief Field Top value: I32(256)
   static ::TMPro::VerticalAlignmentOptions const Top;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14548 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::VerticalAlignmentOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::VerticalAlignmentOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::VerticalAlignmentOptions, 0x4>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::VerticalAlignmentOptions, "TMPro", "VerticalAlignmentOptions");

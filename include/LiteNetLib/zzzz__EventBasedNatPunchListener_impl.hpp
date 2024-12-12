@@ -1,222 +1,220 @@
 #pragma once
 // IWYU pragma private; include "LiteNetLib/EventBasedNatPunchListener.hpp"
+#include "LiteNetLib/zzzz__INatPunchListener_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__EventBasedNatPunchListener_def.hpp"
 #include "LiteNetLib/zzzz__EventBasedNatPunchListener_def.hpp"
-#include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
 #include "LiteNetLib/zzzz__NatAddressType_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest._ctor
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::*)(::System::Object*, ::System::IntPtr)>(
-    &::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::*)(::System::Object*, ::System::IntPtr)>(
+    &::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3a5791c;
+  constexpr static std::size_t addrs = 0x3aae58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest.Invoke
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::*)(
-    ::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::StringW)>(&::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::*)(
+    ::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::StringW)>(&::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a57a20;
+  constexpr static std::size_t addrs = 0x3aae690;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest.BeginInvoke
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::*)(::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
-    &::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::BeginInvoke)> {
+    ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::*)(::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
+    &::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::BeginInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a57a34;
+  constexpr static std::size_t addrs = 0x3aae6a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest.EndInvoke
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::*)(::System::IAsyncResult*)>(
-    &::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::*)(::System::IAsyncResult*)>(
+    &::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a57a60;
+  constexpr static std::size_t addrs = 0x3aae6d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::New_ctor(::System::Object* object,
-                                                                                                                                                          ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>(object, method));
-}
-inline void LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::Invoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token) {
+inline void LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::Invoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localEndPoint, remoteEndPoint, token);
 }
-inline ::System::IAsyncResult* LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::BeginInvoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint,
-                                                                                                               ::StringW token, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::BeginInvoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint,
+                                                                                                            ::StringW token, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, localEndPoint, remoteEndPoint, token, callback, object);
 }
-inline void LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::EndInvoke(::System::IAsyncResult* result) {
+inline void LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
+inline ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest::__EventBasedNatPunchListener__OnNatIntroductionRequest() {}
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess._ctor
+constexpr ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest::EventBasedNatPunchListener_OnNatIntroductionRequest() {}
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::*)(::System::Object*, ::System::IntPtr)>(
-    &::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::*)(::System::Object*, ::System::IntPtr)>(
+    &::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3a57a6c;
+  constexpr static std::size_t addrs = 0x3aae6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess.Invoke
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::*)(
-    ::System::Net::IPEndPoint*, ::LiteNetLib::NatAddressType, ::StringW)>(&::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::*)(
+    ::System::Net::IPEndPoint*, ::LiteNetLib::NatAddressType, ::StringW)>(&::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a57b70;
+  constexpr static std::size_t addrs = 0x3aae7e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess.BeginInvoke
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NatAddressType, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
-    &::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::BeginInvoke)> {
+    ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NatAddressType, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
+    &::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3a57b84;
+  constexpr static std::size_t addrs = 0x3aae7f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess.EndInvoke
+//  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::*)(::System::IAsyncResult*)>(
-    &::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::*)(::System::IAsyncResult*)>(
+    &::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a57c1c;
+  constexpr static std::size_t addrs = 0x3aae88c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::New_ctor(::System::Object* object,
-                                                                                                                                                          ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>(object, method));
-}
-inline void LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::_ctor(::System::Object* object, ::System::IntPtr method) {
+inline void LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::Invoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token) {
+inline void LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::Invoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, targetEndPoint, type, token);
 }
-inline ::System::IAsyncResult* LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::BeginInvoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type,
-                                                                                                               ::StringW token, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::BeginInvoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type,
+                                                                                                            ::StringW token, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, targetEndPoint, type, token, callback, object);
 }
-inline void LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::EndInvoke(::System::IAsyncResult* result) {
+inline void LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
+inline ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess::__EventBasedNatPunchListener__OnNatIntroductionSuccess() {}
+constexpr ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess::EventBasedNatPunchListener_OnNatIntroductionSuccess() {}
 //  Writing Method size for method: ::LiteNetLib::EventBasedNatPunchListener.add_NatIntroductionRequest
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener::*)(
-    ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*)>(&::LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest)> {
+    ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*)>(&::LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a5766c;
+  constexpr static std::size_t addrs = 0x3aae2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "add_NatIntroductionRequest", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get() })));
     return ___internal_method;
   }
 };
@@ -224,14 +222,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener::*)(
-    ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*)>(&::LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionRequest)> {
+    ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*)>(&::LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionRequest)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a57708;
+  constexpr static std::size_t addrs = 0x3aae378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "remove_NatIntroductionRequest", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get() })));
     return ___internal_method;
   }
 };
@@ -239,14 +237,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener::*)(
-    ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*)>(&::LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionSuccess)> {
+    ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*)>(&::LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionSuccess)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a577a4;
+  constexpr static std::size_t addrs = 0x3aae414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "add_NatIntroductionSuccess", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get() })));
     return ___internal_method;
   }
 };
@@ -254,14 +252,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener::*)(
-    ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*)>(&::LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionSuccess)> {
+    ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*)>(&::LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionSuccess)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a57840;
+  constexpr static std::size_t addrs = 0x3aae4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "remove_NatIntroductionSuccess", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get() })));
     return ___internal_method;
   }
 };
@@ -271,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener::*)(
     ::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::StringW)>(&::LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionRequest)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a578dc;
+  constexpr static std::size_t addrs = 0x3aae54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener::*)(
     ::System::Net::IPEndPoint*, ::LiteNetLib::NatAddressType, ::StringW)>(&::LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionSuccess)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a578f8;
+  constexpr static std::size_t addrs = 0x3aae568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::EventBasedNatPunchListener::*)()>(&::LiteNetLib::EventBasedNatPunchListener::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a57914;
+  constexpr static std::size_t addrs = 0x3aae584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), ".ctor",
@@ -314,62 +312,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::LiteNetLib::INatPunchListener"
-constexpr LiteNetLib::EventBasedNatPunchListener::operator ::LiteNetLib::INatPunchListener*() noexcept {
-  return static_cast<::LiteNetLib::INatPunchListener*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::LiteNetLib::INatPunchListener"
-constexpr ::LiteNetLib::INatPunchListener* LiteNetLib::EventBasedNatPunchListener::i___LiteNetLib__INatPunchListener() noexcept {
-  return static_cast<::LiteNetLib::INatPunchListener*>(static_cast<void*>(this));
-}
-constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*& LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionRequest() {
+constexpr ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*& LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionRequest() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionRequest;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*> const&
-LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionRequest() const {
+constexpr ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* const& LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionRequest;
 }
-constexpr void LiteNetLib::EventBasedNatPunchListener::__cordl_internal_set_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value) {
+constexpr void LiteNetLib::EventBasedNatPunchListener::__cordl_internal_set_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NatIntroductionRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*& LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionSuccess() {
+constexpr ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*& LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionSuccess() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionSuccess;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*> const&
-LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionSuccess() const {
+constexpr ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* const& LiteNetLib::EventBasedNatPunchListener::__cordl_internal_get_NatIntroductionSuccess() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionSuccess;
 }
-constexpr void LiteNetLib::EventBasedNatPunchListener::__cordl_internal_set_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value) {
+constexpr void LiteNetLib::EventBasedNatPunchListener::__cordl_internal_set_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NatIntroductionSuccess)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value) {
+inline void LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "add_NatIntroductionRequest", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value) {
+inline void LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "remove_NatIntroductionRequest", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value) {
+inline void LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "add_NatIntroductionSuccess", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value) {
+inline void LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), "remove_NatIntroductionSuccess", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionRequest(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint,
@@ -392,13 +380,21 @@ inline void LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, targetEndPoint, type, token);
 }
-inline ::LiteNetLib::EventBasedNatPunchListener* LiteNetLib::EventBasedNatPunchListener::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::EventBasedNatPunchListener*>());
-}
 inline void LiteNetLib::EventBasedNatPunchListener::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::EventBasedNatPunchListener*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::LiteNetLib::EventBasedNatPunchListener* LiteNetLib::EventBasedNatPunchListener::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::EventBasedNatPunchListener*>());
+}
+/// @brief Convert operator to "::LiteNetLib::INatPunchListener"
+constexpr LiteNetLib::EventBasedNatPunchListener::operator ::LiteNetLib::INatPunchListener*() noexcept {
+  return static_cast<::LiteNetLib::INatPunchListener*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::LiteNetLib::INatPunchListener"
+constexpr ::LiteNetLib::INatPunchListener* LiteNetLib::EventBasedNatPunchListener::i___LiteNetLib__INatPunchListener() noexcept {
+  return static_cast<::LiteNetLib::INatPunchListener*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::EventBasedNatPunchListener::EventBasedNatPunchListener() {}

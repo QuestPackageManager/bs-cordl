@@ -17,11 +17,10 @@ class DefaultProxySection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::DefaultProxySection);
-// Type: System.Net.Configuration::DefaultProxySection
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.ConfigurationSection
 namespace System::Net::Configuration {
 // Is value type: false
-// CS Name: ::System.Net.Configuration::DefaultProxySection*
+// CS Name: System.Net.Configuration.DefaultProxySection
 class CORDL_TYPE DefaultProxySection : public ::System::Configuration::ConfigurationSection {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::System::Net::Configuration::DefaultProxySection* New_ctor();
 
-  /// @brief Method Reset, addr 0x43a49c0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4405cd4, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method .ctor, addr 0x43a4950, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4405c64, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x43a4988, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x4405c9c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -53,7 +52,7 @@ public:
   DefaultProxySection(DefaultProxySection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

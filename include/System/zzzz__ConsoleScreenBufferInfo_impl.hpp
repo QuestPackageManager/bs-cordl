@@ -3,8 +3,6 @@
 #include "System/zzzz__Coord_impl.hpp"
 #include "System/zzzz__SmallRect_impl.hpp"
 #include "System/zzzz__ConsoleScreenBufferInfo_def.hpp"
-#include "System/zzzz__Coord_def.hpp"
-#include "System/zzzz__SmallRect_def.hpp"
 // Ctor Parameters [CppParam { name: "Size", ty: "::System::Coord", modifiers: "", def_value: Some("{}") }, CppParam { name: "CursorPosition", ty: "::System::Coord", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "Attribute", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Window", ty: "::System::SmallRect", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "MaxWindowSize", ty: "::System::Coord", modifiers: "", def_value: Some("{}") }]

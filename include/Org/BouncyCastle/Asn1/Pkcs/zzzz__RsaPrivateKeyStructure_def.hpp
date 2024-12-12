@@ -26,11 +26,10 @@ class RsaPrivateKeyStructure;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure);
-// Type: Org.BouncyCastle.Asn1.Pkcs::RsaPrivateKeyStructure
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Pkcs::RsaPrivateKeyStructure*
+// CS Name: Org.BouncyCastle.Asn1.Pkcs.RsaPrivateKeyStructure
 class CORDL_TYPE RsaPrivateKeyStructure : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -74,10 +73,10 @@ public:
   /// @brief Field publicExponent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_publicExponent, put = __cordl_internal_set_publicExponent)) ::Org::BouncyCastle::Math::BigInteger* publicExponent;
 
-  /// @brief Method GetInstance, addr 0x23de504, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24117f0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x23de51c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2411808, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent,
@@ -87,40 +86,40 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23de9e8, size 0x314, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2411cd4, size 0x314, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_coefficient() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_coefficient();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_coefficient() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_exponent1() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_exponent1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_exponent1() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_exponent2() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_exponent2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_exponent2() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_modulus() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_modulus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_modulus() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_prime1() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_prime1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_prime1() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_prime2() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_prime2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_prime2() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_privateExponent() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_privateExponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_privateExponent() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_publicExponent() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_publicExponent();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_publicExponent() const;
 
   constexpr void __cordl_internal_set_coefficient(::Org::BouncyCastle::Math::BigInteger* value);
 
@@ -138,36 +137,36 @@ public:
 
   constexpr void __cordl_internal_set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x23de940, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2411c2c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Math::BigInteger* privateExponent,
                     ::Org::BouncyCastle::Math::BigInteger* prime1, ::Org::BouncyCastle::Math::BigInteger* prime2, ::Org::BouncyCastle::Math::BigInteger* exponent1,
                     ::Org::BouncyCastle::Math::BigInteger* exponent2, ::Org::BouncyCastle::Math::BigInteger* coefficient);
 
-  /// @brief Method .ctor, addr 0x23de5c0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24118ac, size 0x380, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Coefficient, addr 0x23de9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Coefficient, addr 0x2411ccc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Coefficient();
 
-  /// @brief Method get_Exponent1, addr 0x23de9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exponent1, addr 0x2411cbc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent1();
 
-  /// @brief Method get_Exponent2, addr 0x23de9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exponent2, addr 0x2411cc4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent2();
 
-  /// @brief Method get_Modulus, addr 0x23de9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x2411c94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_Prime1, addr 0x23de9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prime1, addr 0x2411cac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Prime1();
 
-  /// @brief Method get_Prime2, addr 0x23de9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prime2, addr 0x2411cb4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Prime2();
 
-  /// @brief Method get_PrivateExponent, addr 0x23de9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateExponent, addr 0x2411ca4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
 
-  /// @brief Method get_PublicExponent, addr 0x23de9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x2411c9c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
 protected:
@@ -183,6 +182,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateKeyStructure", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RsaPrivateKeyStructure(RsaPrivateKeyStructure const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 249 };
 
   /// @brief Field modulus, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___modulus;
@@ -208,14 +210,9 @@ public:
   /// @brief Field coefficient, offset: 0x48, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___coefficient;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 249 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure, ___modulus) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure, ___publicExponent) == 0x18, "Offset mismatch!");
@@ -231,6 +228,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure, 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure, ___exponent2) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure, ___coefficient) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure, 0x50>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure);

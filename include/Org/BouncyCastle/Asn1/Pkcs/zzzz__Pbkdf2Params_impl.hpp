@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x23da0e8;
+  constexpr static std::size_t addrs = 0x240d3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x23da360;
+  constexpr static std::size_t addrs = 0x240d64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x23da688;
+  constexpr static std::size_t addrs = 0x240d974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x23da738;
+  constexpr static std::size_t addrs = 0x240da24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23da7c0;
+  constexpr static std::size_t addrs = 0x240daac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23da7e4;
+  constexpr static std::size_t addrs = 0x240dad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23da808;
+  constexpr static std::size_t addrs = 0x240daf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(), "GetSalt",
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IterationCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23da828;
+  constexpr static std::size_t addrs = 0x240db14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_KeyLength)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23da844;
+  constexpr static std::size_t addrs = 0x240db30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IsDefaultPrf)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23da858;
+  constexpr static std::size_t addrs = 0x240db44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(),
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_Prf)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23da8d4;
+  constexpr static std::size_t addrs = 0x240dbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(), "get_Prf",
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::ToAsn1Object)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x23da938;
+  constexpr static std::size_t addrs = 0x240dc24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,7 +194,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& Org::BouncyCastle::Asn1::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___octStr;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_octStr() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_octStr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___octStr;
 }
@@ -206,7 +206,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Pkcs:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_iterationCount() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_iterationCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
@@ -218,7 +218,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Pkcs:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyLength;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_keyLength() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_keyLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyLength;
 }
@@ -230,7 +230,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prf;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_prf() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::__cordl_internal_get_prf() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prf;
 }
@@ -253,17 +253,11 @@ inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::P
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -272,19 +266,12 @@ inline void Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor(::ArrayW<uint8_t,
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, salt, iterationCount);
 }
-inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount, keyLength));
-}
 inline void Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, salt, iterationCount, keyLength);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength,
-                                                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount, keyLength, prf));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength,
                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf) {
@@ -294,10 +281,6 @@ inline void Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor(::ArrayW<uint8_t,
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, salt, iterationCount, keyLength, prf);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount,
-                                                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount, prf));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -336,6 +319,23 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Pbk
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount, keyLength));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength,
+                                                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount, keyLength, prf));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount,
+                                                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(salt, iterationCount, prf));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::Pbkdf2Params() {}

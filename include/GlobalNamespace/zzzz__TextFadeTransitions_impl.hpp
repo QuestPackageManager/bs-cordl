@@ -1,26 +1,25 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TextFadeTransitions.hpp"
-#include "GlobalNamespace/zzzz__TextFadeTransitions_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__TextFadeTransitions__State::__TextFadeTransitions__State(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::TextFadeTransitions_State::TextFadeTransitions_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__TextFadeTransitions__State::__TextFadeTransitions__State() {}
-constexpr ::GlobalNamespace::__TextFadeTransitions__State GlobalNamespace::__TextFadeTransitions__State::NotInTransition{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__TextFadeTransitions__State GlobalNamespace::__TextFadeTransitions__State::FadingOut{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__TextFadeTransitions__State GlobalNamespace::__TextFadeTransitions__State::FadingIn{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::TextFadeTransitions_State::TextFadeTransitions_State() {}
+constexpr ::GlobalNamespace::TextFadeTransitions_State GlobalNamespace::TextFadeTransitions_State::NotInTransition{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::TextFadeTransitions_State GlobalNamespace::TextFadeTransitions_State::FadingOut{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::TextFadeTransitions_State GlobalNamespace::TextFadeTransitions_State::FadingIn{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::TextFadeTransitions.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::Awake)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b8b0cc;
+  constexpr static std::size_t addrs = 0x3bec8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "Awake",
@@ -33,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b8b218;
+  constexpr static std::size_t addrs = 0x3beca30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "Update",
@@ -45,8 +44,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::RefreshState)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b8b21c;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x3beca34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "RefreshState",
@@ -59,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::RefreshTextAlpha)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b8b148;
+  constexpr static std::size_t addrs = 0x3bec960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(),
@@ -70,14 +69,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::TextFadeTransitions.ShowText
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)(::StringW)>(&::GlobalNamespace::TextFadeTransitions::ShowText)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3b8b31c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)(::StringW, float_t)>(
+    &::GlobalNamespace::TextFadeTransitions::ShowText)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x3be3efc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "ShowText", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "ShowText", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b8b390;
+  constexpr static std::size_t addrs = 0x3becb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), ".ctor",
@@ -130,15 +130,15 @@ constexpr void GlobalNamespace::TextFadeTransitions::__cordl_internal_set__fadeD
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeDuration = value;
 }
-constexpr ::GlobalNamespace::__TextFadeTransitions__State& GlobalNamespace::TextFadeTransitions::__cordl_internal_get__state() {
+constexpr ::GlobalNamespace::TextFadeTransitions_State& GlobalNamespace::TextFadeTransitions::__cordl_internal_get__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
-constexpr ::GlobalNamespace::__TextFadeTransitions__State const& GlobalNamespace::TextFadeTransitions::__cordl_internal_get__state() const {
+constexpr ::GlobalNamespace::TextFadeTransitions_State const& GlobalNamespace::TextFadeTransitions::__cordl_internal_get__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
-constexpr void GlobalNamespace::TextFadeTransitions::__cordl_internal_set__state(::GlobalNamespace::__TextFadeTransitions__State value) {
+constexpr void GlobalNamespace::TextFadeTransitions::__cordl_internal_set__state(::GlobalNamespace::TextFadeTransitions_State value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
@@ -166,6 +166,18 @@ constexpr void GlobalNamespace::TextFadeTransitions::__cordl_internal_set__fade(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fade = value;
 }
+constexpr float_t& GlobalNamespace::TextFadeTransitions::__cordl_internal_get__delay() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____delay;
+}
+constexpr float_t const& GlobalNamespace::TextFadeTransitions::__cordl_internal_get__delay() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____delay;
+}
+constexpr void GlobalNamespace::TextFadeTransitions::__cordl_internal_set__delay(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____delay = value;
+}
 inline void GlobalNamespace::TextFadeTransitions::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "Awake",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -186,19 +198,19 @@ inline void GlobalNamespace::TextFadeTransitions::RefreshTextAlpha() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TextFadeTransitions::ShowText(::StringW text) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "ShowText", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text);
-}
-inline ::GlobalNamespace::TextFadeTransitions* GlobalNamespace::TextFadeTransitions::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TextFadeTransitions*>());
+inline void GlobalNamespace::TextFadeTransitions::ShowText(::StringW text, float_t delay) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "ShowText", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text, delay);
 }
 inline void GlobalNamespace::TextFadeTransitions::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::TextFadeTransitions* GlobalNamespace::TextFadeTransitions::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TextFadeTransitions*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextFadeTransitions::TextFadeTransitions() {}

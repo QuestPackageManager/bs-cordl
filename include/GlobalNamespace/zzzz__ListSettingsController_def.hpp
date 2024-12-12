@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__IncDecSettingsController_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListSettingsController)
@@ -14,11 +13,10 @@ class ListSettingsController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ListSettingsController);
-// Type: ::ListSettingsController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IncDecSettingsController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ListSettingsController*
+// CS Name: ListSettingsController
 class CORDL_TYPE ListSettingsController : public ::GlobalNamespace::IncDecSettingsController {
 public:
   // Declarations
@@ -28,30 +26,30 @@ public:
   /// @brief Field _numberOfElements, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
-  /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method DecButtonPressed, addr 0x3bc68d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x3c269e4, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
-  /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
+  /// @brief Method GetInitValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
-  /// @brief Method IncButtonPressed, addr 0x3bc6890, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x3c269a4, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ListSettingsController* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3bc67ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c268c0, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3bc6834, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3c26948, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x3bc67e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3c268f4, size 0x54, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method TextForValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__idx() const;
@@ -66,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bc6908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c26a1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,23 +81,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListSettingsController(ListSettingsController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18962 };
+
   /// @brief Field _idx, offset: 0x28, size: 0x4, def value: None
   int32_t ____idx;
 
   /// @brief Field _numberOfElements, offset: 0x2c, size: 0x4, def value: None
   int32_t ____numberOfElements;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18842 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ListSettingsController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ListSettingsController, ____idx) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ListSettingsController, ____numberOfElements) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ListSettingsController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ListSettingsController);

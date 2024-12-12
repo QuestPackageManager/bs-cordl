@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4941224;
+  constexpr static std::size_t addrs = 0x49a5b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DetachedAllocator*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)(bool)>(
     &::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4941288;
+  constexpr static std::size_t addrs = 0x49a5b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,7 @@ constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertsPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>*> const&
-UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_VertsPool() const {
+constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_VertsPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertsPool;
 }
@@ -52,8 +51,7 @@ constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*& UnityEngin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndexPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*> const&
-UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_IndexPool() const {
+constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_IndexPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndexPool;
 }
@@ -65,8 +63,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Mesh
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshWriteDataPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>*> const&
-UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_MeshWriteDataPool() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_MeshWriteDataPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshWriteDataPool;
 }

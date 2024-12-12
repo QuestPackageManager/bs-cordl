@@ -36,44 +36,43 @@ namespace UnityEngine::UIElements {
 class SerializedVirtualizationData;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+template <typename T> class VerticalVirtualizationController_1___c;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __VerticalVirtualizationController_1____c;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template <typename T> class VerticalVirtualizationController_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __VerticalVirtualizationController_1____c;
+template <typename T> class VerticalVirtualizationController_1___c;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::VerticalVirtualizationController_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__VerticalVirtualizationController_1____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::VerticalVirtualizationController_1___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::VerticalVirtualizationController`1::<>c<T>*
-class CORDL_TYPE __VerticalVirtualizationController_1____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.VerticalVirtualizationController`1/<>c<T>
+class CORDL_TYPE VerticalVirtualizationController_1___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* __9;
 
   /// @brief Field <>9__30_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__30_0, put = setStaticF___9__30_0)) ::System::Func_1<T>* __9__30_0;
+  __declspec(property(get = getStaticF___9__30_0, put = setStaticF___9__30_0)) ::System::Func_1<T>* __9__30_0;
 
   /// @brief Field <>9__30_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__30_1, put = setStaticF___9__30_1)) ::System::Action_1<T>* __9__30_1;
+  __declspec(property(get = getStaticF___9__30_1, put = setStaticF___9__30_1)) ::System::Action_1<T>* __9__30_1;
 
   /// @brief Field <>9__30_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__30_2, put = setStaticF___9__30_2)) ::System::Action_1<T>* __9__30_2;
+  __declspec(property(get = getStaticF___9__30_2, put = setStaticF___9__30_2)) ::System::Action_1<T>* __9__30_2;
 
-  static inline ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* New_ctor();
+  static inline ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* New_ctor();
 
   /// @brief Method <.ctor>b__30_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T __ctor_b__30_0();
@@ -87,7 +86,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* getStaticF___9();
+  static inline ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* getStaticF___9();
 
   static inline ::System::Func_1<T>* getStaticF___9__30_0();
 
@@ -95,7 +94,7 @@ public:
 
   static inline ::System::Action_1<T>* getStaticF___9__30_2();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* value);
 
   static inline void setStaticF___9__30_0(::System::Func_1<T>* value);
 
@@ -106,35 +105,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __VerticalVirtualizationController_1____c();
+  constexpr VerticalVirtualizationController_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__VerticalVirtualizationController_1____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __VerticalVirtualizationController_1____c(__VerticalVirtualizationController_1____c&&) = delete;
+  VerticalVirtualizationController_1___c(VerticalVirtualizationController_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__VerticalVirtualizationController_1____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __VerticalVirtualizationController_1____c(__VerticalVirtualizationController_1____c const&) = delete;
+  VerticalVirtualizationController_1___c(VerticalVirtualizationController_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::VerticalVirtualizationController`1
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.CollectionVirtualizationController
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::VerticalVirtualizationController`1<T>*
+// CS Name: UnityEngine.UIElements.VerticalVirtualizationController`1<T>
 class CORDL_TYPE VerticalVirtualizationController_1 : public ::UnityEngine::UIElements::CollectionVirtualizationController {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>;
+  using __c = ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>;
 
   __declspec(property(get = get_activeItems)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* activeItems;
 
@@ -223,41 +221,41 @@ public:
   /// @brief Method VisibleItemPredicate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool VisibleItemPredicate(T i);
 
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_m_ActiveItems() const;
+
   constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_ActiveItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_m_ActiveItems() const;
+  constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView* const& __cordl_internal_get_m_CollectionView() const;
 
   constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __cordl_internal_get_m_CollectionView();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const& __cordl_internal_get_m_CollectionView() const;
 
   constexpr T const& __cordl_internal_get_m_DraggedItem() const;
 
   constexpr T& __cordl_internal_get_m_DraggedItem();
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_EmptyRows();
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_EmptyRows() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_EmptyRows() const;
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_EmptyRows();
 
   constexpr int32_t const& __cordl_internal_get_m_LastFocusedElementIndex() const;
 
   constexpr int32_t& __cordl_internal_get_m_LastFocusedElementIndex();
 
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_LastFocusedElementTreeChildIndexes() const;
+
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_LastFocusedElementTreeChildIndexes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_LastFocusedElementTreeChildIndexes() const;
+  constexpr ::UnityEngine::Pool::ObjectPool_1<T>* const& __cordl_internal_get_m_Pool() const;
 
   constexpr ::UnityEngine::Pool::ObjectPool_1<T>*& __cordl_internal_get_m_Pool();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Pool::ObjectPool_1<T>*> const& __cordl_internal_get_m_Pool() const;
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_m_ScrollInsertionList() const;
 
   constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_ScrollInsertionList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_m_ScrollInsertionList() const;
+  constexpr ::System::Func_2<T, bool>* const& __cordl_internal_get_m_VisibleItemPredicateDelegate() const;
 
   constexpr ::System::Func_2<T, bool>*& __cordl_internal_get_m_VisibleItemPredicateDelegate();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T, bool>*> const& __cordl_internal_get_m_VisibleItemPredicateDelegate() const;
 
   constexpr void __cordl_internal_set_m_ActiveItems(::System::Collections::Generic::List_1<T>* value);
 
@@ -324,6 +322,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VerticalVirtualizationController_1(VerticalVirtualizationController_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5488 };
+
   /// @brief Field m_Pool, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Pool::ObjectPool_1<T>* ___m_Pool;
 
@@ -351,12 +352,9 @@ public:
   /// @brief Field m_EmptyRows, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_EmptyRows;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5464 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::VerticalVirtualizationController_1, "UnityEngine.UIElements", "VerticalVirtualizationController`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::__VerticalVirtualizationController_1____c, "UnityEngine.UIElements", "VerticalVirtualizationController`1/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::VerticalVirtualizationController_1___c, "UnityEngine.UIElements", "VerticalVirtualizationController`1/<>c");

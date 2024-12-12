@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(
     ::Org::BouncyCastle::Crypto::IKeyWrapper*, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264f688;
+  constexpr static std::size_t addrs = 0x2682974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::IKeyWrapper*, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*, ::Org::BouncyCastle::Crmf::IEncryptedValuePadder*)>(
     &::Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x264f6b8;
+  constexpr static std::size_t addrs = 0x26829a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::Build)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264f6f4;
+  constexpr static std::size_t addrs = 0x26829e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::Build)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x264fef0;
+  constexpr static std::size_t addrs = 0x26831dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::Build)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x265002c;
+  constexpr static std::size_t addrs = 0x2683318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::EncryptData)> {
   constexpr static std::size_t size = 0x718;
-  constexpr static std::size_t addrs = 0x264f7d8;
+  constexpr static std::size_t addrs = 0x2682ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::PadData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x264f724;
+  constexpr static std::size_t addrs = 0x2682a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& Org::BouncyCastle::Crmf::En
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IKeyWrapper*> const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__cordl_internal_get_wrapper() const {
+constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper* const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__cordl_internal_get_wrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapper;
 }
@@ -133,7 +133,7 @@ constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*& Org::BouncyCastle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptor;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*> const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__cordl_internal_get_encryptor() const {
+constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__cordl_internal_get_encryptor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptor;
 }
@@ -145,7 +145,7 @@ constexpr ::Org::BouncyCastle::Crmf::IEncryptedValuePadder*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___padder;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::IEncryptedValuePadder*> const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__cordl_internal_get_padder() const {
+constexpr ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__cordl_internal_get_padder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___padder;
 }
@@ -153,21 +153,12 @@ constexpr void Org::BouncyCastle::Crmf::EncryptedValueBuilder::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___padder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* Org::BouncyCastle::Crmf::EncryptedValueBuilder::New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper,
-                                                                                                                  ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::EncryptedValueBuilder*>(wrapper, encryptor));
-}
 inline void Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::EncryptedValueBuilder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IKeyWrapper*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, wrapper, encryptor);
-}
-inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* Org::BouncyCastle::Crmf::EncryptedValueBuilder::New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper,
-                                                                                                                  ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor,
-                                                                                                                  ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::EncryptedValueBuilder*>(wrapper, encryptor, padder));
 }
 inline void Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor,
                                                                   ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder) {
@@ -207,6 +198,15 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crmf::EncryptedVa
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::EncryptedValueBuilder*>::get(), "PadData", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, data);
+}
+inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* Org::BouncyCastle::Crmf::EncryptedValueBuilder::New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper,
+                                                                                                                  ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::EncryptedValueBuilder*>(wrapper, encryptor));
+}
+inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* Org::BouncyCastle::Crmf::EncryptedValueBuilder::New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper,
+                                                                                                                  ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor,
+                                                                                                                  ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::EncryptedValueBuilder*>(wrapper, encryptor, padder));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::EncryptedValueBuilder() {}

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerEnvironmentResizeController.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
@@ -11,189 +10,188 @@
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType::__MultiplayerEnvironmentResizeController__ResizeType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType::MultiplayerEnvironmentResizeController_ResizeType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType::__MultiplayerEnvironmentResizeController__ResizeType() {}
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType::Position{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType::Length{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData.get_resizeType
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType::MultiplayerEnvironmentResizeController_ResizeType() {}
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType::Position{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType::Length{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData.get_resizeType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType (
-    ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(&::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_resizeType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType (
+    ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_resizeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6dd00;
+  constexpr static std::size_t addrs = 0x3bcfe94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(),
-                                                 "get_resizeType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData.get_offset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(
-    &::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_offset)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6dd08;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), "get_offset",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), "get_resizeType",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData.get_lights
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData.get_offset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(
+    &::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_offset)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3bcfe9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), "get_offset",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData.get_lights
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> (
-        ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(&::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_lights)> {
+        ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_lights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6dd10;
+  constexpr static std::size_t addrs = 0x3bcfea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), "get_lights",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), "get_lights",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData.get_otherTransforms
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData.get_otherTransforms
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> (
-    ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(&::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_otherTransforms)> {
+    ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_otherTransforms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6dd18;
+  constexpr static std::size_t addrs = 0x3bcfeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(),
                                                  "get_otherTransforms", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(
-    &::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(
+    &::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6dd20;
+  constexpr static std::size_t addrs = 0x3bcfeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__resizeType() {
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType& GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__resizeType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeType;
 }
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const&
-GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__resizeType() const {
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType const& GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__resizeType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeType;
 }
-constexpr void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_set__resizeType(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType value) {
+constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_set__resizeType(::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resizeType = value;
 }
-constexpr float_t& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__offset() {
+constexpr float_t& GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__offset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__offset() const {
+constexpr float_t const& GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__offset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
-constexpr void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_set__offset(float_t value) {
+constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_set__offset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offset = value;
 }
 constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>&
-GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__lights() {
+GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__lights() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lights;
 }
 constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const&
-GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__lights() const {
+GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__lights() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lights;
 }
-constexpr void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_set__lights(
+constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_set__lights(
     ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>&
-GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__otherTransforms() {
+GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__otherTransforms() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherTransforms;
 }
 constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const&
-GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_get__otherTransforms() const {
+GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_get__otherTransforms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherTransforms;
 }
-constexpr void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__cordl_internal_set__otherTransforms(
+constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::__cordl_internal_set__otherTransforms(
     ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____otherTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_resizeType() {
+inline ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_resizeType() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(),
-                                               "get_resizeType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType, false>(this, ___internal_method);
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), "get_resizeType",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_offset() {
+inline float_t GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_offset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), "get_offset",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), "get_offset",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
-GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_lights() {
+GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_lights() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), "get_lights",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), "get_lights",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>, false>(this,
                                                                                                                                                                                 ___internal_method);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_otherTransforms() {
+inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_otherTransforms() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(),
                                                "get_otherTransforms", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData* GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>());
-}
-inline void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::_ctor() {
+inline void GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData* GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__MultiplayerEnvironmentResizeController__ResizeData() {}
+constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::MultiplayerEnvironmentResizeController_ResizeData() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerEnvironmentResizeController.get_isResizingFinished
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::get_isResizingFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6d70c;
+  constexpr static std::size_t addrs = 0x3bcf8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::add_resizingDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b6d714;
+  constexpr static std::size_t addrs = 0x3bcf8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::remove_resizingDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b6d7b0;
+  constexpr static std::size_t addrs = 0x3bcf944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::Start)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3b6d84c;
+  constexpr static std::size_t addrs = 0x3bcf9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -253,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::OnDestroy)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3b6d9ac;
+  constexpr static std::size_t addrs = 0x3bcfb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::HandleEdgeDistanceFromCenterWasCalculated)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b6d97c;
+  constexpr static std::size_t addrs = 0x3bcfb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::HandleSpawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b6d994;
+  constexpr static std::size_t addrs = 0x3bcfb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::TryResize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b6daf8;
+  constexpr static std::size_t addrs = 0x3bcfc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::Resize)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3b6db10;
+  constexpr static std::size_t addrs = 0x3bcfca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -328,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6dcf8;
+  constexpr static std::size_t addrs = 0x3bcfe8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -349,18 +347,18 @@ constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformEnd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*>&
+constexpr ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*, ::Array<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>*>&
 GlobalNamespace::MultiplayerEnvironmentResizeController::__cordl_internal_get__resizeData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeData;
 }
-constexpr ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*, ::Array<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>*> const&
 GlobalNamespace::MultiplayerEnvironmentResizeController::__cordl_internal_get__resizeData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeData;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__cordl_internal_set__resizeData(
-    ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> value) {
+    ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*, ::Array<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resizeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -392,7 +390,7 @@ constexpr ::System::Action*& GlobalNamespace::MultiplayerEnvironmentResizeContro
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resizingDidFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiplayerEnvironmentResizeController::__cordl_internal_get_resizingDidFinishEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::MultiplayerEnvironmentResizeController::__cordl_internal_get_resizingDidFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resizingDidFinishEvent;
 }
@@ -485,13 +483,13 @@ inline void GlobalNamespace::MultiplayerEnvironmentResizeController::Resize() {
                                                                              "Resize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* GlobalNamespace::MultiplayerEnvironmentResizeController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerEnvironmentResizeController*>());
-}
 inline void GlobalNamespace::MultiplayerEnvironmentResizeController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentResizeController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* GlobalNamespace::MultiplayerEnvironmentResizeController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerEnvironmentResizeController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController::MultiplayerEnvironmentResizeController() {}

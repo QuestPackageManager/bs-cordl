@@ -15,11 +15,10 @@ class TooBigPacketException;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::TooBigPacketException);
-// Type: LiteNetLib::TooBigPacketException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LiteNetLib.InvalidPacketException
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::LiteNetLib::TooBigPacketException*
+// CS Name: LiteNetLib.TooBigPacketException
 class CORDL_TYPE TooBigPacketException : public ::LiteNetLib::InvalidPacketException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3a59570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab01e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3a59578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab01e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3a59580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab01f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -53,7 +52,7 @@ public:
   TooBigPacketException(TooBigPacketException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

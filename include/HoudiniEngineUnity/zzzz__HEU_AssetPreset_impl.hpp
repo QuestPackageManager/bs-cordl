@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetPreset::*)()>(&::HoudiniEngineUnity::HEU_AssetPreset::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x39afd5c;
+  constexpr static std::size_t addrs = 0x3a069cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetPreset*>::get(), ".ctor",
@@ -70,7 +70,7 @@ constexpr ::System::Collections::Generic::List_1<::StringW>*& HoudiniEngineUnity
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveNames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get__curveNames() const {
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get__curveNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveNames;
 }
@@ -82,8 +82,7 @@ constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvePresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const&
-HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get__curvePresets() const {
+constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* const& HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get__curvePresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvePresets;
 }
@@ -95,8 +94,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Input
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputPresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*> const&
-HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get_inputPresets() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* const& HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get_inputPresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputPresets;
 }
@@ -108,8 +106,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Volum
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volumeCachePresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*> const&
-HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get_volumeCachePresets() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* const& HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_get_volumeCachePresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volumeCachePresets;
 }
@@ -117,13 +114,13 @@ constexpr void HoudiniEngineUnity::HEU_AssetPreset::__cordl_internal_set_volumeC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___volumeCachePresets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::HEU_AssetPreset* HoudiniEngineUnity::HEU_AssetPreset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetPreset*>());
-}
 inline void HoudiniEngineUnity::HEU_AssetPreset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetPreset*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_AssetPreset* HoudiniEngineUnity::HEU_AssetPreset::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetPreset*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetPreset::HEU_AssetPreset() {}

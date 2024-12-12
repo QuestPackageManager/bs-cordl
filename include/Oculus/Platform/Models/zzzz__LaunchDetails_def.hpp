@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__LaunchType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(LaunchDetails)
 namespace Oculus::Platform::Models {
 class UserList;
@@ -20,11 +19,10 @@ class LaunchDetails;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchDetails);
-// Type: Oculus.Platform.Models::LaunchDetails
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.LaunchType, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::LaunchDetails*
+// CS Name: Oculus.Platform.Models.LaunchDetails
 class CORDL_TYPE LaunchDetails : public ::System::Object {
 public:
   // Declarations
@@ -71,13 +69,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_TrackingID();
 
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_Users() const;
+
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_Users();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_Users() const;
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_UsersOptional() const;
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_UsersOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_UsersOptional() const;
 
   constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
 
@@ -93,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_UsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  /// @brief Method .ctor, addr 0x3f2fe6c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8ff18, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -109,6 +107,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LaunchDetails", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LaunchDetails(LaunchDetails const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15524 };
 
   /// @brief Field DeeplinkMessage, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DeeplinkMessage;
@@ -131,14 +132,9 @@ public:
   /// @brief Field Users, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Users;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15489 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchDetails, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___DeeplinkMessage) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___DestinationApiName) == 0x18, "Offset mismatch!");
@@ -152,6 +148,8 @@ static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___TrackingID)
 static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___UsersOptional) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___Users) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchDetails, 0x48>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LaunchDetails);

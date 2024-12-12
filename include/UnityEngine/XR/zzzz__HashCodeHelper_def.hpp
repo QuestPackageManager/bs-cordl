@@ -12,33 +12,32 @@ class HashCodeHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::HashCodeHelper);
-// Type: UnityEngine.XR::HashCodeHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.XR::HashCodeHelper*
+// CS Name: UnityEngine.XR.HashCodeHelper
 class CORDL_TYPE HashCodeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Combine, addr 0x4a8511c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x4ae9a2c, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2);
 
-  /// @brief Method Combine, addr 0x4a8512c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x4ae9a3c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3);
 
-  /// @brief Method Combine, addr 0x4a85140, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x4ae9a50, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4);
 
-  /// @brief Method Combine, addr 0x4a85158, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x4ae9a68, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5);
 
-  /// @brief Method Combine, addr 0x4a85174, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x4ae9a84, size 0x20, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6);
 
-  /// @brief Method Combine, addr 0x4a85194, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x4ae9aa4, size 0x24, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7);
 
-  /// @brief Method Combine, addr 0x4a851b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x4ae9ac8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7, int32_t hash8);
 
 protected:
@@ -56,7 +55,7 @@ public:
   HashCodeHelper(HashCodeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18284 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

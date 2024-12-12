@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Operators)
@@ -14,33 +13,32 @@ class Operators;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Operators);
-// Type: System.Data::Operators
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::Operators*
+// CS Name: System.Data.Operators
 class CORDL_TYPE Operators : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_looks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_looks, put = setStaticF_s_looks)) ::ArrayW<::StringW, ::Array<::StringW>*> s_looks;
+  __declspec(property(get = getStaticF_s_looks, put = setStaticF_s_looks)) ::ArrayW<::StringW, ::Array<::StringW>*> s_looks;
 
   /// @brief Field s_priority, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_priority, put = setStaticF_s_priority)) ::ArrayW<int32_t, ::Array<int32_t>*> s_priority;
+  __declspec(property(get = getStaticF_s_priority, put = setStaticF_s_priority)) ::ArrayW<int32_t, ::Array<int32_t>*> s_priority;
 
-  /// @brief Method IsArithmetical, addr 0x411a4f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsArithmetical, addr 0x417b804, size 0x24, virtual false, abstract: false, final false
   static inline bool IsArithmetical(int32_t op);
 
-  /// @brief Method IsLogical, addr 0x411a514, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsLogical, addr 0x417b828, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsLogical(int32_t op);
 
-  /// @brief Method IsRelational, addr 0x411a540, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRelational, addr 0x417b854, size 0x10, virtual false, abstract: false, final false
   static inline bool IsRelational(int32_t op);
 
-  /// @brief Method Priority, addr 0x411a550, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Priority, addr 0x417b864, size 0xac, virtual false, abstract: false, final false
   static inline int32_t Priority(int32_t op);
 
-  /// @brief Method ToString, addr 0x411a5fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x417b910, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t op);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_looks();
@@ -66,7 +64,7 @@ public:
   Operators(Operators const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

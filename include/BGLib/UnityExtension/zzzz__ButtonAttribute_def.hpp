@@ -12,11 +12,10 @@ class ButtonAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::ButtonAttribute);
-// Type: BGLib.UnityExtension::ButtonAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.PropertyAttribute
 namespace BGLib::UnityExtension {
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension::ButtonAttribute*
+// CS Name: BGLib.UnityExtension.ButtonAttribute
 class CORDL_TYPE ButtonAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2281650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4834, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonAttribute(ButtonAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17160 };
+
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::StringW ___title;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ButtonAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::UnityExtension::ButtonAttribute, ___title) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ButtonAttribute, 0x18>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
 NEED_NO_BOX(::BGLib::UnityExtension::ButtonAttribute);

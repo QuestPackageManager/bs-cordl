@@ -15,11 +15,10 @@ class ChangelogEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::ChangelogEntry);
-// Type: UnityEngine.ProBuilder::ChangelogEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::ChangelogEntry*
+// CS Name: UnityEngine.ProBuilder.ChangelogEntry
 class CORDL_TYPE ChangelogEntry : public ::System::Object {
 public:
   // Declarations
@@ -35,28 +34,28 @@ public:
 
   static inline ::UnityEngine::ProBuilder::ChangelogEntry* New_ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes);
 
-  /// @brief Method ToString, addr 0x46a1c50, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4702f64, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_m_ReleaseNotes() const;
 
   constexpr ::StringW& __cordl_internal_get_m_ReleaseNotes();
 
-  constexpr ::UnityEngine::ProBuilder::SemVer*& __cordl_internal_get_m_VersionInfo();
+  constexpr ::UnityEngine::ProBuilder::SemVer* const& __cordl_internal_get_m_VersionInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::SemVer*> const& __cordl_internal_get_m_VersionInfo() const;
+  constexpr ::UnityEngine::ProBuilder::SemVer*& __cordl_internal_get_m_VersionInfo();
 
   constexpr void __cordl_internal_set_m_ReleaseNotes(::StringW value);
 
   constexpr void __cordl_internal_set_m_VersionInfo(::UnityEngine::ProBuilder::SemVer* value);
 
-  /// @brief Method .ctor, addr 0x46a1c24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4702f38, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes);
 
-  /// @brief Method get_releaseNotes, addr 0x46a1c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseNotes, addr 0x4702f30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_releaseNotes();
 
-  /// @brief Method get_versionInfo, addr 0x46a1c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_versionInfo, addr 0x4702f28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::SemVer* get_versionInfo();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChangelogEntry(ChangelogEntry const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14220 };
+
   /// @brief Field m_VersionInfo, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::SemVer* ___m_VersionInfo;
 
   /// @brief Field m_ReleaseNotes, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_ReleaseNotes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14186 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ChangelogEntry, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::ChangelogEntry, ___m_VersionInfo) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::ChangelogEntry, ___m_ReleaseNotes) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ChangelogEntry, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::ChangelogEntry);

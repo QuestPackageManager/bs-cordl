@@ -11,17 +11,16 @@ class CompetetiveActivitySO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CompetetiveActivitySO);
-// Type: ::CompetetiveActivitySO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PS5ActivityDataSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CompetetiveActivitySO*
+// CS Name: CompetetiveActivitySO
 class CORDL_TYPE CompetetiveActivitySO : public ::GlobalNamespace::PS5ActivityDataSO {
 public:
   // Declarations
   static inline ::GlobalNamespace::CompetetiveActivitySO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b26ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e7178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   CompetetiveActivitySO(CompetetiveActivitySO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

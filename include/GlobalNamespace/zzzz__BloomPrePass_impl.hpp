@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BloomPrePass.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePass_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePass_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
@@ -8,19 +7,19 @@
 #include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePass_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__BloomPrePass__Mode::__BloomPrePass__Mode(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::BloomPrePass_Mode::BloomPrePass_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BloomPrePass__Mode::__BloomPrePass__Mode() {}
-constexpr ::GlobalNamespace::__BloomPrePass__Mode GlobalNamespace::__BloomPrePass__Mode::RenderAndSetData{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__BloomPrePass__Mode GlobalNamespace::__BloomPrePass__Mode::SetDataOnly{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::BloomPrePass_Mode::BloomPrePass_Mode() {}
+constexpr ::GlobalNamespace::BloomPrePass_Mode GlobalNamespace::BloomPrePass_Mode::RenderAndSetData{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::BloomPrePass_Mode GlobalNamespace::BloomPrePass_Mode::SetDataOnly{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePass.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397ef04;
+  constexpr static std::size_t addrs = 0x39d57cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), "Awake",
@@ -33,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::LazyInit)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x397ef08;
+  constexpr static std::size_t addrs = 0x39d57d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), "LazyInit",
@@ -46,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::OnDestroy)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x397f114;
+  constexpr static std::size_t addrs = 0x39d59dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), "OnDestroy",
@@ -59,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::OnPreRender)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x397f1c0;
+  constexpr static std::size_t addrs = 0x39d5a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), "OnPreRender",
@@ -72,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::OnPostRender)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3980388;
+  constexpr static std::size_t addrs = 0x39d6c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), "OnPostRender",
@@ -83,15 +82,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePass.SetMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)(::GlobalNamespace::__BloomPrePass__Mode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)(::GlobalNamespace::BloomPrePass_Mode)>(
     &::GlobalNamespace::BloomPrePass::SetMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3980438;
+  constexpr static std::size_t addrs = 0x39d6d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), "SetMode", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BloomPrePass__Mode>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BloomPrePass_Mode>::get() })));
     return ___internal_method;
   }
 };
@@ -100,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3980440;
+  constexpr static std::size_t addrs = 0x39d6d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), ".ctor",
@@ -144,27 +143,27 @@ constexpr void GlobalNamespace::BloomPrePass::__cordl_internal_set__bloomPrePass
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__BloomPrePass__Mode& GlobalNamespace::BloomPrePass::__cordl_internal_get__mode() {
+constexpr ::GlobalNamespace::BloomPrePass_Mode& GlobalNamespace::BloomPrePass::__cordl_internal_get__mode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
-constexpr ::GlobalNamespace::__BloomPrePass__Mode const& GlobalNamespace::BloomPrePass::__cordl_internal_get__mode() const {
+constexpr ::GlobalNamespace::BloomPrePass_Mode const& GlobalNamespace::BloomPrePass::__cordl_internal_get__mode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
-constexpr void GlobalNamespace::BloomPrePass::__cordl_internal_set__mode(::GlobalNamespace::__BloomPrePass__Mode value) {
+constexpr void GlobalNamespace::BloomPrePass::__cordl_internal_set__mode(::GlobalNamespace::BloomPrePass_Mode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mode = value;
 }
-constexpr ::GlobalNamespace::__BloomPrePassRenderDataSO__Data*& GlobalNamespace::BloomPrePass::__cordl_internal_get__renderData() {
+constexpr ::GlobalNamespace::BloomPrePassRenderDataSO_Data*& GlobalNamespace::BloomPrePass::__cordl_internal_get__renderData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BloomPrePassRenderDataSO__Data*> const& GlobalNamespace::BloomPrePass::__cordl_internal_get__renderData() const {
+constexpr ::GlobalNamespace::BloomPrePassRenderDataSO_Data* const& GlobalNamespace::BloomPrePass::__cordl_internal_get__renderData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderData;
 }
-constexpr void GlobalNamespace::BloomPrePass::__cordl_internal_set__renderData(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value) {
+constexpr void GlobalNamespace::BloomPrePass::__cordl_internal_set__renderData(::GlobalNamespace::BloomPrePassRenderDataSO_Data* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -193,19 +192,19 @@ inline void GlobalNamespace::BloomPrePass::OnPostRender() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BloomPrePass::SetMode(::GlobalNamespace::__BloomPrePass__Mode mode) {
+inline void GlobalNamespace::BloomPrePass::SetMode(::GlobalNamespace::BloomPrePass_Mode mode) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), "SetMode", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BloomPrePass__Mode>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BloomPrePass_Mode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mode);
-}
-inline ::GlobalNamespace::BloomPrePass* GlobalNamespace::BloomPrePass::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePass*>());
 }
 inline void GlobalNamespace::BloomPrePass::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePass*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BloomPrePass* GlobalNamespace::BloomPrePass::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePass*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePass::BloomPrePass() {}

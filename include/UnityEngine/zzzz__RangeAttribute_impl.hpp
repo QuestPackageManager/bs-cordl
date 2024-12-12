@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RangeAttribute::*)(float_t, float_t)>(&::UnityEngine::RangeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x484381c;
+  constexpr static std::size_t addrs = 0x48a45e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,14 +40,14 @@ constexpr void UnityEngine::RangeAttribute::__cordl_internal_set_max(float_t val
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max = value;
 }
-inline ::UnityEngine::RangeAttribute* UnityEngine::RangeAttribute::New_ctor(float_t min, float_t max) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::RangeAttribute*>(min, max));
-}
 inline void UnityEngine::RangeAttribute::_ctor(float_t min, float_t max) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RangeAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, min, max);
+}
+inline ::UnityEngine::RangeAttribute* UnityEngine::RangeAttribute::New_ctor(float_t min, float_t max) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::RangeAttribute*>(min, max));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RangeAttribute::RangeAttribute() {}

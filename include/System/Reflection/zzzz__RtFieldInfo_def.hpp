@@ -23,27 +23,26 @@ class RtFieldInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::RtFieldInfo);
-// Type: System.Reflection::RtFieldInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.FieldInfo
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::RtFieldInfo*
+// CS Name: System.Reflection.RtFieldInfo
 class CORDL_TYPE RtFieldInfo : public ::System::Reflection::FieldInfo {
 public:
   // Declarations
-  /// @brief Method CheckConsistency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CheckConsistency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CheckConsistency(::System::Object* target);
 
   static inline ::System::Reflection::RtFieldInfo* New_ctor();
 
-  /// @brief Method UnsafeGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnsafeGetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* UnsafeGetValue(::System::Object* obj);
 
-  /// @brief Method UnsafeSetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnsafeSetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnsafeSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                              ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x3ccdc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2dd94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

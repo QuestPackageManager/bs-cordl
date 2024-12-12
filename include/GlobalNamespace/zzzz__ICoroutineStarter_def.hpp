@@ -16,30 +16,25 @@ class ICoroutineStarter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ICoroutineStarter);
-// Type: ::ICoroutineStarter
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ICoroutineStarter*
+// CS Name: ICoroutineStarter
 class CORDL_TYPE ICoroutineStarter {
 public:
   // Declarations
-  /// @brief Method StartCoroutine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method StartCoroutine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StopCoroutine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method StopCoroutine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void StopCoroutine(::UnityEngine::Coroutine* routine);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ICoroutineStarter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICoroutineStarter(ICoroutineStarter&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICoroutineStarter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ICoroutineStarter(ICoroutineStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

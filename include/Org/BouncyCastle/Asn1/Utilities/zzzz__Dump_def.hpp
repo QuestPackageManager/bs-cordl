@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Dump)
 // Forward declare root types
@@ -13,20 +12,19 @@ class Dump;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Utilities::Dump);
-// Type: Org.BouncyCastle.Asn1.Utilities::Dump
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Utilities {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Utilities::Dump*
+// CS Name: Org.BouncyCastle.Asn1.Utilities.Dump
 class CORDL_TYPE Dump : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Main, addr 0x24ca744, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Main, addr 0x24fda30, size 0x144, virtual false, abstract: false, final false
   static inline void Main(::ArrayW<::StringW, ::Array<::StringW>*> args);
 
   static inline ::Org::BouncyCastle::Asn1::Utilities::Dump* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24ca73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fda28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

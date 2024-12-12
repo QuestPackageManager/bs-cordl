@@ -1,16 +1,8 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarPartSO_1.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartSO_1_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_def.hpp"
-/// @brief Convert operator to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
-template <typename T> constexpr BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::operator ::BeatSaber::BeatAvatarSDK::IAvatarPart*() noexcept {
-  return static_cast<::BeatSaber::BeatAvatarSDK::IAvatarPart*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
-template <typename T> constexpr ::BeatSaber::BeatAvatarSDK::IAvatarPart* BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::i___BeatSaber__BeatAvatarSDK__IAvatarPart() noexcept {
-  return static_cast<::BeatSaber::BeatAvatarSDK::IAvatarPart*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::StringW& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__cordl_internal_get__id() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
@@ -62,13 +54,21 @@ template <typename T> inline ::StringW BeatSaber::BeatAvatarSDK::AvatarPartSO_1<
                                                                              "get_localizationKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-template <typename T> inline ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>* BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>*>());
-}
 template <typename T> inline void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>* BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>*>());
+}
+/// @brief Convert operator to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
+template <typename T> constexpr BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::operator ::BeatSaber::BeatAvatarSDK::IAvatarPart*() noexcept {
+  return static_cast<::BeatSaber::BeatAvatarSDK::IAvatarPart*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
+template <typename T> constexpr ::BeatSaber::BeatAvatarSDK::IAvatarPart* BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::i___BeatSaber__BeatAvatarSDK__IAvatarPart() noexcept {
+  return static_cast<::BeatSaber::BeatAvatarSDK::IAvatarPart*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::AvatarPartSO_1() {}

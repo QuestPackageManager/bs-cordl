@@ -27,35 +27,34 @@ class OcspUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OcspUtilities);
-// Type: Org.BouncyCastle.Ocsp::OcspUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Ocsp::OcspUtilities*
+// CS Name: Org.BouncyCastle.Ocsp.OcspUtilities
 class CORDL_TYPE OcspUtilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
+  __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
   /// @brief Field noParams, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
+  __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
 
   /// @brief Field oids, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
+  __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method GetAlgorithmName, addr 0x24e6ac0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x2519dac, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetAlgorithmOid, addr 0x24ec258, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmOid, addr 0x251f544, size 0x208, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetSigAlgID, addr 0x24e8f84, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetSigAlgID, addr 0x251c270, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24ef220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252250c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
@@ -64,7 +63,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_AlgNames, addr 0x24e9274, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_AlgNames, addr 0x251c560, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_AlgNames();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);

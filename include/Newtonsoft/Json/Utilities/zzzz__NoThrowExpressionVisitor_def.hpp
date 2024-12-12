@@ -20,23 +20,22 @@ class NoThrowExpressionVisitor;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor);
-// Type: Newtonsoft.Json.Utilities::NoThrowExpressionVisitor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.ExpressionVisitor
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::NoThrowExpressionVisitor*
+// CS Name: Newtonsoft.Json.Utilities.NoThrowExpressionVisitor
 class CORDL_TYPE NoThrowExpressionVisitor : public ::System::Linq::Expressions::ExpressionVisitor {
 public:
   // Declarations
   /// @brief Field ErrorResult, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ErrorResult, put = setStaticF_ErrorResult)) ::System::Object* ErrorResult;
+  __declspec(property(get = getStaticF_ErrorResult, put = setStaticF_ErrorResult)) ::System::Object* ErrorResult;
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor* New_ctor();
 
-  /// @brief Method VisitConditional, addr 0x3e68344, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method VisitConditional, addr 0x3ec83f0, size 0xec, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* node);
 
-  /// @brief Method .ctor, addr 0x3e681bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ec8268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_ErrorResult();
@@ -58,7 +57,7 @@ public:
   NoThrowExpressionVisitor(NoThrowExpressionVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

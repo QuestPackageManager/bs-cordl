@@ -8,17 +8,16 @@ template <typename T> inline void Unity::Burst::SharedStatic_1<T>::_ctor(::cordl
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer);
 }
-template <typename T> inline ByRef<T> Unity::Burst::SharedStatic_1<T>::get_Data() {
+template <typename T> inline ::ByRef<T> Unity::Burst::SharedStatic_1<T>::get_Data() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::SharedStatic_1<T>>::get(), "get_Data",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(this, ___internal_method);
 }
 template <typename T> inline ::cordl_internals::Ptr<void> Unity::Burst::SharedStatic_1<T>::get_UnsafeDataPointer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::SharedStatic_1<T>>::get(), "get_UnsafeDataPointer",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
 }
-/// @param alignment: uint32_t (default: static_cast<uint32_t>(0x0u))
 template <typename T> template <typename TContext> inline ::Unity::Burst::SharedStatic_1<T> Unity::Burst::SharedStatic_1<T>::GetOrCreate(uint32_t alignment) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::SharedStatic_1<T>>::get(), "GetOrCreate",
                                                                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContext>::get() },
@@ -27,7 +26,6 @@ template <typename T> template <typename TContext> inline ::Unity::Burst::Shared
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContext>::get() }));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::SharedStatic_1<T>, false>(nullptr, ___internal_method, alignment);
 }
-/// @param alignment: uint32_t (default: static_cast<uint32_t>(0x10000000u))
 template <typename T> template <typename TContext, typename TSubContext> inline ::Unity::Burst::SharedStatic_1<T> Unity::Burst::SharedStatic_1<T>::GetOrCreate(uint32_t alignment) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::SharedStatic_1<T>>::get(), "GetOrCreate",
@@ -67,14 +65,12 @@ inline ::Unity::Burst::SharedStatic_1<T> Unity::Burst::SharedStatic_1<T>::GetOrC
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContext>::get() }));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::SharedStatic_1<T>, false>(nullptr, ___internal_method, alignment, subHashCode);
 }
-/// @param alignment: uint32_t (default: static_cast<uint32_t>(0x100000u))
 template <typename T> inline ::Unity::Burst::SharedStatic_1<T> Unity::Burst::SharedStatic_1<T>::GetOrCreate(::System::Type* contextType, uint32_t alignment) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::SharedStatic_1<T>>::get(), "GetOrCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::SharedStatic_1<T>, false>(nullptr, ___internal_method, contextType, alignment);
 }
-/// @param alignment: uint32_t (default: static_cast<uint32_t>(0x2001000u))
 template <typename T> inline ::Unity::Burst::SharedStatic_1<T> Unity::Burst::SharedStatic_1<T>::GetOrCreate(::System::Type* contextType, ::System::Type* subContextType, uint32_t alignment) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::SharedStatic_1<T>>::get(), "GetOrCreate", std::span<Il2CppClass const* const, 0>(),
@@ -87,7 +83,7 @@ template <typename T> inline void Unity::Burst::SharedStatic_1<T>::CheckIf_T_IsU
                                                                              "CheckIf_T_IsUnmanagedOrThrow", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "_buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::Unity::Burst::SharedStatic_1<T>::SharedStatic_1(::cordl_internals::Ptr<void> _buffer) noexcept {
   this->_buffer = _buffer;
 }

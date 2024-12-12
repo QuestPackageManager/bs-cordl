@@ -17,13 +17,12 @@ template <typename TKey, typename TValue> class DictionaryPropertyBag_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::DictionaryPropertyBag_2);
-// Type: Unity.Properties::DictionaryPropertyBag`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.KeyValueCollectionPropertyBag`3<TDictionary, TKey, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::Unity.Properties::DictionaryPropertyBag`2<TKey,TValue>*
+// CS Name: Unity.Properties.DictionaryPropertyBag`2<TKey,TValue>
 class CORDL_TYPE DictionaryPropertyBag_2 : public ::Unity::Properties::KeyValueCollectionPropertyBag_3<::System::Collections::Generic::Dictionary_2<TKey, TValue>*, TKey, TValue> {
 public:
   // Declarations
@@ -55,7 +54,7 @@ public:
   DictionaryPropertyBag_2(DictionaryPropertyBag_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

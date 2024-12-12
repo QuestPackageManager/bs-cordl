@@ -14,17 +14,16 @@ class TimelineHelpURLAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineHelpURLAttribute);
-// Type: UnityEngine.Timeline::TimelineHelpURLAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::TimelineHelpURLAttribute*
+// CS Name: UnityEngine.Timeline.TimelineHelpURLAttribute
 class CORDL_TYPE TimelineHelpURLAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::TimelineHelpURLAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x47bc1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x481d504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -42,7 +41,7 @@ public:
   TimelineHelpURLAttribute(TimelineHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

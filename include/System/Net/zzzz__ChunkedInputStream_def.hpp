@@ -5,12 +5,13 @@
 CORDL_MODULE_INIT
 #include "System/Net/zzzz__RequestStream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChunkedInputStream)
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+class ChunkedInputStream_ReadBufferState;
 }
 namespace System::Net {
 class HttpListenerContext;
@@ -20,9 +21,6 @@ class HttpStreamAsyncResult;
 }
 namespace System::Net {
 class MonoChunkParser;
-}
-namespace System::Net {
-class __ChunkedInputStream__ReadBufferState;
 }
 namespace System {
 class AsyncCallback;
@@ -38,17 +36,16 @@ namespace System::Net {
 class ChunkedInputStream;
 }
 namespace System::Net {
-class __ChunkedInputStream__ReadBufferState;
+class ChunkedInputStream_ReadBufferState;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ChunkedInputStream);
-MARK_REF_PTR_T(::System::Net::__ChunkedInputStream__ReadBufferState);
-// Type: ::ReadBufferState
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Net::ChunkedInputStream_ReadBufferState);
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::ChunkedInputStream::ReadBufferState*
-class CORDL_TYPE __ChunkedInputStream__ReadBufferState : public ::System::Object {
+// CS Name: System.Net.ChunkedInputStream/ReadBufferState
+class CORDL_TYPE ChunkedInputStream_ReadBufferState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Ares, offset 0x28, size 0x8
@@ -66,11 +63,11 @@ public:
   /// @brief Field Offset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
-  static inline ::System::Net::__ChunkedInputStream__ReadBufferState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
+  static inline ::System::Net::ChunkedInputStream_ReadBufferState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
+
+  constexpr ::System::Net::HttpStreamAsyncResult* const& __cordl_internal_get_Ares() const;
 
   constexpr ::System::Net::HttpStreamAsyncResult*& __cordl_internal_get_Ares();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpStreamAsyncResult*> const& __cordl_internal_get_Ares() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
@@ -98,22 +95,25 @@ public:
 
   constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4459fdc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bb2f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ChunkedInputStream__ReadBufferState();
+  constexpr ChunkedInputStream_ReadBufferState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ChunkedInputStream__ReadBufferState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChunkedInputStream_ReadBufferState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ChunkedInputStream__ReadBufferState(__ChunkedInputStream__ReadBufferState&&) = delete;
+  ChunkedInputStream_ReadBufferState(ChunkedInputStream_ReadBufferState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ChunkedInputStream__ReadBufferState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChunkedInputStream_ReadBufferState", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ChunkedInputStream__ReadBufferState(__ChunkedInputStream__ReadBufferState const&) = delete;
+  ChunkedInputStream_ReadBufferState(ChunkedInputStream_ReadBufferState const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9669 };
 
   /// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Buffer;
@@ -130,34 +130,30 @@ public:
   /// @brief Field Ares, offset: 0x28, size: 0x8, def value: None
   ::System::Net::HttpStreamAsyncResult* ___Ares;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9644 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__ChunkedInputStream__ReadBufferState, 0x30>, "Size mismatch!");
+static_assert(offsetof(::System::Net::ChunkedInputStream_ReadBufferState, ___Buffer) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___Buffer) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Net::ChunkedInputStream_ReadBufferState, ___Offset) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___Offset) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Net::ChunkedInputStream_ReadBufferState, ___Count) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___Count) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::System::Net::ChunkedInputStream_ReadBufferState, ___InitialCount) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___InitialCount) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::ChunkedInputStream_ReadBufferState, ___Ares) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___Ares) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::ChunkedInputStream_ReadBufferState, 0x30>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: System.Net::ChunkedInputStream
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.RequestStream
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::ChunkedInputStream*
+// CS Name: System.Net.ChunkedInputStream
 class CORDL_TYPE ChunkedInputStream : public ::System::Net::RequestStream {
 public:
   // Declarations
-  using ReadBufferState = ::System::Net::__ChunkedInputStream__ReadBufferState;
+  using ReadBufferState = ::System::Net::ChunkedInputStream_ReadBufferState;
 
   /// @brief Field context, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context)) ::System::Net::HttpListenerContext* context;
@@ -171,31 +167,31 @@ public:
   /// @brief Field no_more_data, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_no_more_data, put = __cordl_internal_set_no_more_data)) bool no_more_data;
 
-  /// @brief Method BeginRead, addr 0x4459cf0, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x44bb004, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x445a82c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x44bbb40, size 0x1c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EndRead, addr 0x445a5a0, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x44bb8b4, size 0x28c, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
   static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                             int32_t length);
 
-  /// @brief Method OnRead, addr 0x445a024, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x44bb338, size 0x3a0, virtual false, abstract: false, final false
   inline void OnRead(::System::IAsyncResult* base_ares);
 
-  /// @brief Method Read, addr 0x4459cb4, size 0x3c, virtual true, abstract: false, final false
-  inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
+  /// @brief Method Read, addr 0x44bafc8, size 0x3c, virtual true, abstract: false, final false
+  inline int32_t Read(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
+
+  constexpr ::System::Net::HttpListenerContext* const& __cordl_internal_get_context() const;
 
   constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
+  constexpr ::System::Net::MonoChunkParser* const& __cordl_internal_get_decoder() const;
 
   constexpr ::System::Net::MonoChunkParser*& __cordl_internal_get_decoder();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::MonoChunkParser*> const& __cordl_internal_get_decoder() const;
 
   constexpr bool const& __cordl_internal_get_disposed() const;
 
@@ -213,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_no_more_data(bool value);
 
-  /// @brief Method .ctor, addr 0x4459bb4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44baec8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
 protected:
@@ -230,6 +226,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChunkedInputStream(ChunkedInputStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9670 };
+
   /// @brief Field disposed, offset: 0x50, size: 0x1, def value: None
   bool ___disposed;
 
@@ -242,14 +241,9 @@ public:
   /// @brief Field no_more_data, offset: 0x68, size: 0x1, def value: None
   bool ___no_more_data;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9645 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::ChunkedInputStream, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::ChunkedInputStream, ___disposed) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::ChunkedInputStream, ___decoder) == 0x58, "Offset mismatch!");
@@ -258,8 +252,10 @@ static_assert(offsetof(::System::Net::ChunkedInputStream, ___context) == 0x60, "
 
 static_assert(offsetof(::System::Net::ChunkedInputStream, ___no_more_data) == 0x68, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Net::ChunkedInputStream, 0x70>, "Size mismatch!");
+
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::ChunkedInputStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::ChunkedInputStream*, "System.Net", "ChunkedInputStream");
-NEED_NO_BOX(::System::Net::__ChunkedInputStream__ReadBufferState);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__ChunkedInputStream__ReadBufferState*, "System.Net", "ChunkedInputStream/ReadBufferState");
+NEED_NO_BOX(::System::Net::ChunkedInputStream_ReadBufferState);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ChunkedInputStream_ReadBufferState*, "System.Net", "ChunkedInputStream/ReadBufferState");

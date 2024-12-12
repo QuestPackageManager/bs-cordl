@@ -4,10 +4,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SkinnedMeshRenderer)
+namespace UnityEngine {
+struct GraphicsBuffer_Target;
+}
 namespace UnityEngine {
 class GraphicsBuffer;
 }
@@ -20,20 +22,16 @@ struct SkinQuality;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct __GraphicsBuffer__Target;
-}
 // Forward declare root types
 namespace UnityEngine {
 class SkinnedMeshRenderer;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SkinnedMeshRenderer);
-// Type: UnityEngine::SkinnedMeshRenderer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Renderer
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::SkinnedMeshRenderer*
+// CS Name: UnityEngine.SkinnedMeshRenderer
 class CORDL_TYPE SkinnedMeshRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
@@ -51,84 +49,84 @@ public:
 
   __declspec(property(get = get_updateWhenOffscreen, put = set_updateWhenOffscreen)) bool updateWhenOffscreen;
 
-  __declspec(property(get = get_vertexBufferTarget, put = set_vertexBufferTarget)) ::UnityEngine::__GraphicsBuffer__Target vertexBufferTarget;
+  __declspec(property(get = get_vertexBufferTarget, put = set_vertexBufferTarget)) ::UnityEngine::GraphicsBuffer_Target vertexBufferTarget;
 
-  /// @brief Method BakeMesh, addr 0x4823170, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x48845b8, size 0x48, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method BakeMesh, addr 0x48231b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x4884600, size 0x54, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, bool useScale);
 
-  /// @brief Method GetBlendShapeWeight, addr 0x48230d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeWeight, addr 0x4884520, size 0x44, virtual false, abstract: false, final false
   inline float_t GetBlendShapeWeight(int32_t index);
 
-  /// @brief Method GetPreviousVertexBuffer, addr 0x4823304, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousVertexBuffer, addr 0x488474c, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetPreviousVertexBuffer();
 
-  /// @brief Method GetPreviousVertexBufferImpl, addr 0x48233c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousVertexBufferImpl, addr 0x4884808, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetPreviousVertexBufferImpl();
 
-  /// @brief Method GetVertexBuffer, addr 0x482320c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBuffer, addr 0x4884654, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBuffer();
 
-  /// @brief Method GetVertexBufferImpl, addr 0x48232c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBufferImpl, addr 0x4884710, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBufferImpl();
 
   static inline ::UnityEngine::SkinnedMeshRenderer* New_ctor();
 
-  /// @brief Method SetBlendShapeWeight, addr 0x482311c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetBlendShapeWeight, addr 0x4884564, size 0x54, virtual false, abstract: false, final false
   inline void SetBlendShapeWeight(int32_t index, float_t value);
 
-  /// @brief Method .ctor, addr 0x482347c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48848c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bones, addr 0x4822f58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bones, addr 0x48843a0, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> get_bones();
 
-  /// @brief Method get_forceMatrixRecalculationPerRender, addr 0x4822e58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_forceMatrixRecalculationPerRender, addr 0x48842a0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_forceMatrixRecalculationPerRender();
 
-  /// @brief Method get_quality, addr 0x4822d58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_quality, addr 0x48841a0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::SkinQuality get_quality();
 
-  /// @brief Method get_rootBone, addr 0x4822ed8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rootBone, addr 0x4884320, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rootBone();
 
-  /// @brief Method get_sharedMesh, addr 0x4822fd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x4884420, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method get_skinnedMotionVectors, addr 0x4823058, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_skinnedMotionVectors, addr 0x48844a0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_skinnedMotionVectors();
 
-  /// @brief Method get_updateWhenOffscreen, addr 0x4822dd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_updateWhenOffscreen, addr 0x4884220, size 0x3c, virtual false, abstract: false, final false
   inline bool get_updateWhenOffscreen();
 
-  /// @brief Method get_vertexBufferTarget, addr 0x48233fc, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::__GraphicsBuffer__Target get_vertexBufferTarget();
+  /// @brief Method get_vertexBufferTarget, addr 0x4884844, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::GraphicsBuffer_Target get_vertexBufferTarget();
 
-  /// @brief Method set_bones, addr 0x4822f94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bones, addr 0x48843dc, size 0x44, virtual false, abstract: false, final false
   inline void set_bones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
 
-  /// @brief Method set_forceMatrixRecalculationPerRender, addr 0x4822e94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_forceMatrixRecalculationPerRender, addr 0x48842dc, size 0x44, virtual false, abstract: false, final false
   inline void set_forceMatrixRecalculationPerRender(bool value);
 
-  /// @brief Method set_quality, addr 0x4822d94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_quality, addr 0x48841dc, size 0x44, virtual false, abstract: false, final false
   inline void set_quality(::UnityEngine::SkinQuality value);
 
-  /// @brief Method set_rootBone, addr 0x4822f14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rootBone, addr 0x488435c, size 0x44, virtual false, abstract: false, final false
   inline void set_rootBone(::UnityEngine::Transform* value);
 
-  /// @brief Method set_sharedMesh, addr 0x4823014, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x488445c, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_skinnedMotionVectors, addr 0x4823094, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_skinnedMotionVectors, addr 0x48844dc, size 0x44, virtual false, abstract: false, final false
   inline void set_skinnedMotionVectors(bool value);
 
-  /// @brief Method set_updateWhenOffscreen, addr 0x4822e14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_updateWhenOffscreen, addr 0x488425c, size 0x44, virtual false, abstract: false, final false
   inline void set_updateWhenOffscreen(bool value);
 
-  /// @brief Method set_vertexBufferTarget, addr 0x4823438, size 0x44, virtual false, abstract: false, final false
-  inline void set_vertexBufferTarget(::UnityEngine::__GraphicsBuffer__Target value);
+  /// @brief Method set_vertexBufferTarget, addr 0x4884880, size 0x44, virtual false, abstract: false, final false
+  inline void set_vertexBufferTarget(::UnityEngine::GraphicsBuffer_Target value);
 
 protected:
   // Ctor Parameters []
@@ -145,7 +143,7 @@ public:
   SkinnedMeshRenderer(SkinnedMeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10774 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

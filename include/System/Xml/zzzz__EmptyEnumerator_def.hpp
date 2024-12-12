@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyEnumerator)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Object;
 }
@@ -17,11 +15,10 @@ class EmptyEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::EmptyEnumerator);
-// Type: System.Xml::EmptyEnumerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEnumerator, System.Object
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::EmptyEnumerator*
+// CS Name: System.Xml.EmptyEnumerator
 class CORDL_TYPE EmptyEnumerator : public ::System::Object {
 public:
   // Declarations
@@ -32,16 +29,16 @@ public:
 
   static inline ::System::Xml::EmptyEnumerator* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x42e7b34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x4348e48, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x42e7b3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4348e50, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x42e7b40, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4348e54, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x42e7b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4348eac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -62,7 +59,7 @@ public:
   EmptyEnumerator(EmptyEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7318 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataView* (::System::Data::DataViewManagerListItemTypeDescriptor::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewManagerListItemTypeDescriptor::GetDataView)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4107700;
+  constexpr static std::size_t addrs = 0x4168a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ constexpr ::System::Data::DataViewManager*& System::Data::DataViewManagerListIte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataViewManager*> const& System::Data::DataViewManagerListItemTypeDescriptor::__cordl_internal_get__dataViewManager() const {
+constexpr ::System::Data::DataViewManager* const& System::Data::DataViewManagerListItemTypeDescriptor::__cordl_internal_get__dataViewManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewManager;
 }

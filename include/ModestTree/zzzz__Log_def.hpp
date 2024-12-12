@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Log)
 namespace System {
@@ -19,33 +18,32 @@ class Log;
 }
 // Write type traits
 MARK_REF_PTR_T(::ModestTree::Log);
-// Type: ModestTree::Log
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
-// CS Name: ::ModestTree::Log*
+// CS Name: ModestTree.Log
 class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Debug, addr 0x4a8e214, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x4af2b24, size 0x4, virtual false, abstract: false, final false
   static inline void Debug(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Error, addr 0x4a8e3d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x4af2ce0, size 0x78, virtual false, abstract: false, final false
   static inline void Error(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method ErrorException, addr 0x4a8e308, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x4af2c18, size 0x58, virtual false, abstract: false, final false
   static inline void ErrorException(::System::Exception* e);
 
-  /// @brief Method ErrorException, addr 0x4a8e360, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x4af2c70, size 0x70, virtual false, abstract: false, final false
   static inline void ErrorException(::StringW message, ::System::Exception* e);
 
-  /// @brief Method Info, addr 0x4a8e218, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x4af2b28, size 0x78, virtual false, abstract: false, final false
   static inline void Info(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Trace, addr 0x4a8e290, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x4af2ba0, size 0x78, virtual false, abstract: false, final false
   static inline void Trace(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Warn, addr 0x4a8dc14, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x4af2524, size 0x78, virtual false, abstract: false, final false
   static inline void Warn(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
@@ -63,7 +61,7 @@ public:
   Log(Log const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11951 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

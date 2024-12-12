@@ -1,149 +1,114 @@
 #pragma once
 // IWYU pragma private; include "Priority_Queue/SimplePriorityQueue_2.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_impl.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-template <typename TItem, typename TPriority> constexpr TItem& Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__cordl_internal_get__Data_k__BackingField() {
+template <typename TItem, typename TPriority> constexpr TItem& Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::__cordl_internal_get__Data_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data_k__BackingField;
 }
-template <typename TItem, typename TPriority> constexpr TItem const& Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__cordl_internal_get__Data_k__BackingField() const {
+template <typename TItem, typename TPriority> constexpr TItem const& Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::__cordl_internal_get__Data_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data_k__BackingField;
 }
-template <typename TItem, typename TPriority> constexpr void Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__cordl_internal_set__Data_k__BackingField(TItem value) {
+template <typename TItem, typename TPriority> constexpr void Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::__cordl_internal_set__Data_k__BackingField(TItem value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____Data_k__BackingField, value);
 }
-template <typename TItem, typename TPriority> inline TItem Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::get_Data() {
+template <typename TItem, typename TPriority> inline TItem Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::get_Data() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>::get(), "get_Data",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>::get(), "get_Data",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TItem, false>(this, ___internal_method);
 }
-template <typename TItem, typename TPriority> inline void Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::set_Data(TItem value) {
+template <typename TItem, typename TPriority> inline void Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::set_Data(TItem value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>::get(), "set_Data",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>::get(), "set_Data",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TItem, typename TPriority>
-inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::New_ctor(TItem data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>(data));
-}
-template <typename TItem, typename TPriority> inline void Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::_ctor(TItem data) {
+template <typename TItem, typename TPriority> inline void Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::_ctor(TItem data) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
+template <typename TItem, typename TPriority>
+inline ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::New_ctor(TItem data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>(data));
+}
 // Ctor Parameters []
-template <typename TItem, typename TPriority> constexpr ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__SimplePriorityQueue_2__SimpleNode() {}
-/// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
-template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept {
-  return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority> constexpr ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>::SimplePriorityQueue_2_SimpleNode() {}
 template <typename TItem, typename TPriority>
-constexpr ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___Priority_Queue__IPriorityQueue_2_TItem_TPriority_() noexcept {
-  return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
-template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
-template <typename TItem, typename TPriority>
-constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename TItem, typename TPriority> constexpr ::System::Collections::IEnumerable* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-template <typename TItem, typename TPriority>
-constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*&
+constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>*&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_get__queue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____queue;
 }
 template <typename TItem, typename TPriority>
-constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*> const&
+constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* const&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_get__queue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____queue;
 }
 template <typename TItem, typename TPriority>
 constexpr void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_set__queue(
-    ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* value) {
+    ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____queue, value);
 }
 template <typename TItem, typename TPriority>
-constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*&
+constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>*&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_get__itemToNodesCache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemToNodesCache;
 }
 template <typename TItem, typename TPriority>
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>* const&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_get__itemToNodesCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemToNodesCache;
 }
 template <typename TItem, typename TPriority>
 constexpr void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_set__itemToNodesCache(
-    ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* value) {
+    ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____itemToNodesCache, value);
 }
 template <typename TItem, typename TPriority>
-constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*&
+constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_get__nullNodesCache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullNodesCache;
 }
 template <typename TItem, typename TPriority>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*> const&
+constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>* const&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_get__nullNodesCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullNodesCache;
 }
 template <typename TItem, typename TPriority>
 constexpr void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__cordl_internal_set__nullNodesCache(
-    ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* value) {
+    ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____nullNodesCache, value);
-}
-template <typename TItem, typename TPriority> inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>());
 }
 template <typename TItem, typename TPriority> inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TItem, typename TPriority>
-inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
-Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer));
 }
 template <typename TItem, typename TPriority> inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,32 +116,17 @@ template <typename TItem, typename TPriority> inline void Priority_Queue::Simple
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IComparer_1<TPriority>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, priorityComparer);
 }
-template <typename TItem, typename TPriority>
-inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Comparison_1<TPriority>* priorityComparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer));
-}
 template <typename TItem, typename TPriority> inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor(::System::Comparison_1<TPriority>* priorityComparer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Comparison_1<TPriority>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, priorityComparer);
 }
-template <typename TItem, typename TPriority>
-inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
-Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(itemEquality));
-}
 template <typename TItem, typename TPriority> inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor(::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<TItem>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, itemEquality);
-}
-template <typename TItem, typename TPriority>
-inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
-Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer,
-                                                                  ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer, itemEquality));
 }
 template <typename TItem, typename TPriority>
 inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer,
@@ -188,11 +138,6 @@ inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor(::Sys
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, priorityComparer, itemEquality);
 }
 template <typename TItem, typename TPriority>
-inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
-Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Comparison_1<TPriority>* priorityComparer, ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer, itemEquality));
-}
-template <typename TItem, typename TPriority>
 inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor(::System::Comparison_1<TPriority>* priorityComparer,
                                                                            ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,24 +147,24 @@ inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::_ctor(::Sys
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, priorityComparer, itemEquality);
 }
 template <typename TItem, typename TPriority>
-inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::GetExistingNode(TItem item) {
+inline ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::GetExistingNode(TItem item) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), "GetExistingNode",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, false>(this, ___internal_method, item);
+  return ::cordl_internals::RunMethodRethrow<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, false>(this, ___internal_method, item);
 }
 template <typename TItem, typename TPriority>
-inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::AddToNodeCache(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* node) {
+inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::AddToNodeCache(::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), "AddToNodeCache", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
 template <typename TItem, typename TPriority>
-inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::RemoveFromNodeCache(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* node) {
+inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::RemoveFromNodeCache(::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), "RemoveFromNodeCache", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
 template <typename TItem, typename TPriority> inline int32_t Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::get_Count() {
@@ -249,11 +194,11 @@ template <typename TItem, typename TPriority> inline TItem Priority_Queue::Simpl
   return ::cordl_internals::RunMethodRethrow<TItem, false>(this, ___internal_method);
 }
 template <typename TItem, typename TPriority>
-inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::EnqueueNoLockOrCache(TItem item, TPriority priority) {
+inline ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::EnqueueNoLockOrCache(TItem item, TPriority priority) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), "EnqueueNoLockOrCache", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TPriority>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, false>(this, ___internal_method, item, priority);
+  return ::cordl_internals::RunMethodRethrow<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, false>(this, ___internal_method, item, priority);
 }
 template <typename TItem, typename TPriority> inline void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::Enqueue(TItem item, TPriority priority) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,16 +230,16 @@ template <typename TItem, typename TPriority> inline TPriority Priority_Queue::S
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get() })));
   return ::cordl_internals::RunMethodRethrow<TPriority, false>(this, ___internal_method, item);
 }
-template <typename TItem, typename TPriority> inline bool Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::TryFirst(ByRef<TItem> first) {
+template <typename TItem, typename TPriority> inline bool Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::TryFirst(::ByRef<TItem> first) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), "TryFirst",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TItem>>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TItem>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, first);
 }
-template <typename TItem, typename TPriority> inline bool Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::TryDequeue(ByRef<TItem> first) {
+template <typename TItem, typename TPriority> inline bool Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::TryDequeue(::ByRef<TItem> first) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), "TryDequeue",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TItem>>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TItem>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, first);
 }
 template <typename TItem, typename TPriority> inline bool Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::TryRemove(TItem item) {
@@ -309,10 +254,10 @@ template <typename TItem, typename TPriority> inline bool Priority_Queue::Simple
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TPriority>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item, priority);
 }
-template <typename TItem, typename TPriority> inline bool Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::TryGetPriority(TItem item, ByRef<TPriority> priority) {
+template <typename TItem, typename TPriority> inline bool Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::TryGetPriority(TItem item, ::ByRef<TPriority> priority) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(), "TryGetPriority", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TPriority>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TPriority>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item, priority);
 }
 template <typename TItem, typename TPriority> inline ::System::Collections::Generic::IEnumerator_1<TItem>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::GetEnumerator() {
@@ -330,6 +275,60 @@ template <typename TItem, typename TPriority> inline bool Priority_Queue::Simple
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>::get(),
                                                                              "IsValidQueue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+template <typename TItem, typename TPriority> inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>());
+}
+template <typename TItem, typename TPriority>
+inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
+Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer));
+}
+template <typename TItem, typename TPriority>
+inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Comparison_1<TPriority>* priorityComparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer));
+}
+template <typename TItem, typename TPriority>
+inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
+Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(itemEquality));
+}
+template <typename TItem, typename TPriority>
+inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
+Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer,
+                                                                  ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer, itemEquality));
+}
+template <typename TItem, typename TPriority>
+inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*
+Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor(::System::Comparison_1<TPriority>* priorityComparer, ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>*>(priorityComparer, itemEquality));
+}
+/// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept {
+  return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority>
+constexpr ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___Priority_Queue__IPriorityQueue_2_TItem_TPriority_() noexcept {
+  return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
+template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
+template <typename TItem, typename TPriority>
+constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TItem, typename TPriority> constexpr ::System::Collections::IEnumerable* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TItem, typename TPriority> constexpr ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::SimplePriorityQueue_2() {}

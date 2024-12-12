@@ -14,11 +14,10 @@ class SpriteSwapTransitionSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapTransitionSO);
-// Type: ::SpriteSwapTransitionSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseTransitionSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SpriteSwapTransitionSO*
+// CS Name: SpriteSwapTransitionSO
 class CORDL_TYPE SpriteSwapTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
@@ -91,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x4476f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledSprite, addr 0x4476f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledSprite, addr 0x44d8250, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_disabledSprite();
 
-  /// @brief Method get_highlightedSprite, addr 0x4476f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedSprite, addr 0x44d8240, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_highlightedSprite();
 
-  /// @brief Method get_normalSprite, addr 0x4476f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalSprite, addr 0x44d8238, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_normalSprite();
 
-  /// @brief Method get_pressedSprite, addr 0x4476f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedSprite, addr 0x44d8248, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_pressedSprite();
 
-  /// @brief Method get_selectedAndHighlightedSprite, addr 0x4476f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedSprite, addr 0x44d8260, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedAndHighlightedSprite();
 
-  /// @brief Method get_selectedSprite, addr 0x4476f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSprite, addr 0x44d8258, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedSprite();
 
 protected:
@@ -125,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SpriteSwapTransitionSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SpriteSwapTransitionSO(SpriteSwapTransitionSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18217 };
 
   /// @brief Field _normalSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____normalSprite;
@@ -144,14 +146,9 @@ public:
   /// @brief Field _selectedAndHighlightedSprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____selectedAndHighlightedSprite;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18137 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteSwapTransitionSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SpriteSwapTransitionSO, ____normalSprite) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpriteSwapTransitionSO, ____highlightedSprite) == 0x28, "Offset mismatch!");
@@ -163,6 +160,8 @@ static_assert(offsetof(::GlobalNamespace::SpriteSwapTransitionSO, ____disabledSp
 static_assert(offsetof(::GlobalNamespace::SpriteSwapTransitionSO, ____selectedSprite) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpriteSwapTransitionSO, ____selectedAndHighlightedSprite) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteSwapTransitionSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpriteSwapTransitionSO);

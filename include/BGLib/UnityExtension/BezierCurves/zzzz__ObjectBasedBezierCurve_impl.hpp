@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::get_isReady)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2283988;
+  constexpr static std::size_t addrs = 0x22b6c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::UnityExtension::BezierCurves::CurveData (
     ::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)()>(&::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::GetBezierCurveData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2283a38;
+  constexpr static std::size_t addrs = 0x22b6d24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)(
     ::BGLib::UnityExtension::BezierCurves::CurveData)>(&::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::SetBezierCurveData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2283b2c;
+  constexpr static std::size_t addrs = 0x22b6e18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2283bbc;
+  constexpr static std::size_t addrs = 0x22b6ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,14 +85,14 @@ inline void BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::SetBezi
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline ::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve* BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>());
-}
 inline void BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve* BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve*>());
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve::ObjectBasedBezierCurve() {}

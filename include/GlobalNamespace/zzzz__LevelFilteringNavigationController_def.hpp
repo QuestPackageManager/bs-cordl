@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -27,6 +27,15 @@ namespace GlobalNamespace {
 class BeatmapLevelsRepository;
 }
 namespace GlobalNamespace {
+struct LevelFilteringNavigationController__UpdateCustomSongs_d__54;
+}
+namespace GlobalNamespace {
+class LevelFilteringNavigationController___c;
+}
+namespace GlobalNamespace {
+class LevelFilteringNavigationController___c__DisplayClass53_0;
+}
+namespace GlobalNamespace {
 class LevelSearchViewController;
 }
 namespace GlobalNamespace {
@@ -36,22 +45,13 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
+struct SelectLevelCategoryViewController_LevelCategory;
+}
+namespace GlobalNamespace {
 class SelectLevelCategoryViewController;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
-}
-namespace GlobalNamespace {
-struct __LevelFilteringNavigationController___UpdateCustomSongs_d__54;
-}
-namespace GlobalNamespace {
-class __LevelFilteringNavigationController____c;
-}
-namespace GlobalNamespace {
-class __LevelFilteringNavigationController____c__DisplayClass53_0;
-}
-namespace GlobalNamespace {
-struct __SelectLevelCategoryViewController__LevelCategory;
 }
 namespace HMUI {
 class ViewController;
@@ -60,19 +60,10 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading {
 class CancellationTokenSource;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -94,140 +85,138 @@ namespace GlobalNamespace {
 class LevelFilteringNavigationController;
 }
 namespace GlobalNamespace {
-class __LevelFilteringNavigationController____c;
+class LevelFilteringNavigationController___c;
 }
 namespace GlobalNamespace {
-class __LevelFilteringNavigationController____c__DisplayClass53_0;
+class LevelFilteringNavigationController___c__DisplayClass53_0;
 }
 namespace GlobalNamespace {
-struct __LevelFilteringNavigationController___UpdateCustomSongs_d__54;
+struct LevelFilteringNavigationController__UpdateCustomSongs_d__54;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelFilteringNavigationController);
-MARK_REF_PTR_T(::GlobalNamespace::__LevelFilteringNavigationController____c);
-MARK_REF_PTR_T(::GlobalNamespace::__LevelFilteringNavigationController____c__DisplayClass53_0);
-MARK_VAL_T(::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::LevelFilteringNavigationController___c);
+MARK_REF_PTR_T(::GlobalNamespace::LevelFilteringNavigationController___c__DisplayClass53_0);
+MARK_VAL_T(::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelFilteringNavigationController::<>c*
-class CORDL_TYPE __LevelFilteringNavigationController____c : public ::System::Object {
+// CS Name: LevelFilteringNavigationController/<>c
+class CORDL_TYPE LevelFilteringNavigationController___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__LevelFilteringNavigationController____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::LevelFilteringNavigationController___c* __9;
 
   /// @brief Field <>9__53_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__53_0, put = setStaticF___9__53_0)) ::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* __9__53_0;
+  __declspec(property(get = getStaticF___9__53_0, put = setStaticF___9__53_0)) ::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* __9__53_0;
 
-  static inline ::GlobalNamespace::__LevelFilteringNavigationController____c* New_ctor();
+  static inline ::GlobalNamespace::LevelFilteringNavigationController___c* New_ctor();
 
-  /// @brief Method <SelectAnnotatedBeatmapLevelCollection>b__53_0, addr 0x3b01cac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SelectAnnotatedBeatmapLevelCollection>b__53_0, addr 0x3b5ffc0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _SelectAnnotatedBeatmapLevelCollection_b__53_0(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method .ctor, addr 0x3b01ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5ffb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__LevelFilteringNavigationController____c* getStaticF___9();
+  static inline ::GlobalNamespace::LevelFilteringNavigationController___c* getStaticF___9();
 
   static inline ::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* getStaticF___9__53_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__LevelFilteringNavigationController____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::LevelFilteringNavigationController___c* value);
 
   static inline void setStaticF___9__53_0(::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelFilteringNavigationController____c();
+  constexpr LevelFilteringNavigationController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilteringNavigationController____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LevelFilteringNavigationController____c(__LevelFilteringNavigationController____c&&) = delete;
+  LevelFilteringNavigationController___c(LevelFilteringNavigationController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilteringNavigationController____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LevelFilteringNavigationController____c(__LevelFilteringNavigationController____c const&) = delete;
+  LevelFilteringNavigationController___c(LevelFilteringNavigationController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilteringNavigationController____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilteringNavigationController___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass53_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelFilteringNavigationController::<>c__DisplayClass53_0*
-class CORDL_TYPE __LevelFilteringNavigationController____c__DisplayClass53_0 : public ::System::Object {
+// CS Name: LevelFilteringNavigationController/<>c__DisplayClass53_0
+class CORDL_TYPE LevelFilteringNavigationController___c__DisplayClass53_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field levelPack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_levelPack, put = __cordl_internal_set_levelPack)) ::GlobalNamespace::BeatmapLevelPack* levelPack;
 
-  static inline ::GlobalNamespace::__LevelFilteringNavigationController____c__DisplayClass53_0* New_ctor();
+  static inline ::GlobalNamespace::LevelFilteringNavigationController___c__DisplayClass53_0* New_ctor();
 
-  /// @brief Method <SelectAnnotatedBeatmapLevelCollection>b__1, addr 0x3b01cc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SelectAnnotatedBeatmapLevelCollection>b__1, addr 0x3b5ffd8, size 0x28, virtual false, abstract: false, final false
   inline bool _SelectAnnotatedBeatmapLevelCollection_b__1(::StringW packID);
+
+  constexpr ::GlobalNamespace::BeatmapLevelPack* const& __cordl_internal_get_levelPack() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_levelPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_levelPack() const;
-
   constexpr void __cordl_internal_set_levelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  /// @brief Method .ctor, addr 0x3b01b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5feac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelFilteringNavigationController____c__DisplayClass53_0();
+  constexpr LevelFilteringNavigationController___c__DisplayClass53_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilteringNavigationController____c__DisplayClass53_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController___c__DisplayClass53_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LevelFilteringNavigationController____c__DisplayClass53_0(__LevelFilteringNavigationController____c__DisplayClass53_0&&) = delete;
+  LevelFilteringNavigationController___c__DisplayClass53_0(LevelFilteringNavigationController___c__DisplayClass53_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelFilteringNavigationController____c__DisplayClass53_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController___c__DisplayClass53_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LevelFilteringNavigationController____c__DisplayClass53_0(__LevelFilteringNavigationController____c__DisplayClass53_0 const&) = delete;
+  LevelFilteringNavigationController___c__DisplayClass53_0(LevelFilteringNavigationController___c__DisplayClass53_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5342 };
 
   /// @brief Field levelPack, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ___levelPack;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5318 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilteringNavigationController____c__DisplayClass53_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController___c__DisplayClass53_0, ___levelPack) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilteringNavigationController____c__DisplayClass53_0, ___levelPack) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilteringNavigationController___c__DisplayClass53_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<UpdateCustomSongs>d__54
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LevelFilteringNavigationController::<UpdateCustomSongs>d__54
-struct CORDL_TYPE __LevelFilteringNavigationController___UpdateCustomSongs_d__54 {
+// CS Name: LevelFilteringNavigationController/<UpdateCustomSongs>d__54
+struct CORDL_TYPE LevelFilteringNavigationController__UpdateCustomSongs_d__54 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b01cec, size 0x4e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b60000, size 0x4e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b021d0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b604e8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -235,17 +224,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelFilteringNavigationController___UpdateCustomSongs_d__54();
+  constexpr LevelFilteringNavigationController__UpdateCustomSongs_d__54();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::UnityW<::GlobalNamespace::LevelFilteringNavigationController>", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelsRepository*>", modifiers: "", def_value: None
   // }]
-  constexpr __LevelFilteringNavigationController___UpdateCustomSongs_d__54(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                           ::UnityW<::GlobalNamespace::LevelFilteringNavigationController> __4__this,
-                                                                           ::System::Threading::CancellationToken _cancellationToken_5__2,
-                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelsRepository*> __u__1) noexcept;
+  constexpr LevelFilteringNavigationController__UpdateCustomSongs_d__54(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                        ::UnityW<::GlobalNamespace::LevelFilteringNavigationController> __4__this,
+                                                                        ::System::Threading::CancellationToken _cancellationToken_5__2,
+                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelsRepository*> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5343 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -262,41 +257,34 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelsRepository*> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5319 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54, _cancellationToken_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54, _cancellationToken_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LevelFilteringNavigationController
-// SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.NavigationController, SongPackMask
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelFilteringNavigationController*
+// CS Name: LevelFilteringNavigationController
 class CORDL_TYPE LevelFilteringNavigationController : public ::HMUI::NavigationController {
 public:
   // Declarations
-  using _UpdateCustomSongs_d__54 = ::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54;
+  using _UpdateCustomSongs_d__54 = ::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54;
 
-  using __c = ::GlobalNamespace::__LevelFilteringNavigationController____c;
+  using __c = ::GlobalNamespace::LevelFilteringNavigationController___c;
 
-  using __c__DisplayClass53_0 = ::GlobalNamespace::__LevelFilteringNavigationController____c__DisplayClass53_0;
+  using __c__DisplayClass53_0 = ::GlobalNamespace::LevelFilteringNavigationController___c__DisplayClass53_0;
 
   /// @brief Field _allBeatmapLevelPacks, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get__allBeatmapLevelPacks,
@@ -339,8 +327,8 @@ public:
 
   /// @brief Field _enabledLevelCategories, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get__enabledLevelCategories,
-                      put = __cordl_internal_set__enabledLevelCategories)) ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory,
-                                                                                    ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*>
+                      put = __cordl_internal_set__enabledLevelCategories)) ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory,
+                                                                                    ::Array<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>
       _enabledLevelCategories;
 
   /// @brief Field _hidePacksIfOneOrNone, offset 0x118, size 0x1
@@ -384,81 +372,81 @@ public:
 
   /// @brief Field didPressAllSongsEvent, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressAllSongsEvent,
-                      put = __cordl_internal_set_didPressAllSongsEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* didPressAllSongsEvent;
+                      put = __cordl_internal_set_didPressAllSongsEvent)) ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* didPressAllSongsEvent;
 
   /// @brief Field didSelectBeatmapLevelPackEvent, offset 0xd8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didSelectBeatmapLevelPackEvent,
-      put = __cordl_internal_set_didSelectBeatmapLevelPackEvent)) ::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
+      put = __cordl_internal_set_didSelectBeatmapLevelPackEvent)) ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*,
                                                                                      ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* didSelectBeatmapLevelPackEvent;
 
   /// @brief Field didStartLoadingEvent, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_didStartLoadingEvent,
-                      put = __cordl_internal_set_didStartLoadingEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* didStartLoadingEvent;
+                      put = __cordl_internal_set_didStartLoadingEvent)) ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* didStartLoadingEvent;
 
   __declspec(property(get = get_selectedBeatmapLevelPack)) ::GlobalNamespace::BeatmapLevelPack* selectedBeatmapLevelPack;
 
-  __declspec(property(get = get_selectedLevelCategory)) ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedLevelCategory;
+  __declspec(property(get = get_selectedLevelCategory)) ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory selectedLevelCategory;
 
-  /// @brief Method DidActivate, addr 0x3b00840, size 0x3bc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b5ef64, size 0x3cc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b00fa8, size 0x31c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b5f4c0, size 0x328, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsViewControllerDidCloseBeatmapLevelCollections, addr 0x3b0191c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsViewControllerDidCloseBeatmapLevelCollections, addr 0x3b5fc28, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnnotatedBeatmapLevelCollectionsViewControllerDidCloseBeatmapLevelCollections();
 
-  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsViewControllerDidOpenBeatmapLevelCollections, addr 0x3b01900, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsViewControllerDidOpenBeatmapLevelCollections, addr 0x3b5fc0c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnnotatedBeatmapLevelCollectionsViewControllerDidOpenBeatmapLevelCollections();
 
-  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection, addr 0x3b01938, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection, addr 0x3b5fc44, size 0x6c, virtual false, abstract: false, final false
   inline void HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection(::GlobalNamespace::BeatmapLevelPack* annotatedBeatmapLevelCollection);
 
-  /// @brief Method HandleIncreaseNumberOfGameplays, addr 0x3b018a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleIncreaseNumberOfGameplays, addr 0x3b5fba8, size 0x64, virtual false, abstract: false, final false
   inline void HandleIncreaseNumberOfGameplays();
 
-  /// @brief Method HandleLevelSearchViewControllerDidFilterBeatmapLevelCollection, addr 0x3b014d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelSearchViewControllerDidFilterBeatmapLevelCollection, addr 0x3b5f7e8, size 0x64, virtual false, abstract: false, final false
   inline void HandleLevelSearchViewControllerDidFilterBeatmapLevelCollection(::GlobalNamespace::BeatmapLevelPack* annotatedBeatmapLevelCollection, ::GlobalNamespace::LevelSelectionOptions options);
 
-  /// @brief Method HandleLevelSearchViewControllerDidStartLoading, addr 0x3b00f88, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelSearchViewControllerDidStartLoading, addr 0x3b5f4a0, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelSearchViewControllerDidStartLoading(::GlobalNamespace::LevelSearchViewController* obj);
 
-  /// @brief Method HandlePlayerDataFavoriteLevelsSetDidChange, addr 0x3b01864, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDataFavoriteLevelsSetDidChange, addr 0x3b5fb5c, size 0x4c, virtual false, abstract: false, final false
   inline void HandlePlayerDataFavoriteLevelsSetDidChange();
 
-  /// @brief Method HandleSelectLevelCategoryViewControllerDidSelectLevelCategory, addr 0x3b01538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLevelCategoryViewControllerDidSelectLevelCategory, addr 0x3b5f84c, size 0x8, virtual false, abstract: false, final false
   inline void HandleSelectLevelCategoryViewControllerDidSelectLevelCategory(::GlobalNamespace::SelectLevelCategoryViewController* viewController,
-                                                                            ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory levelCategory);
+                                                                            ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory levelCategory);
 
   static inline ::GlobalNamespace::LevelFilteringNavigationController* New_ctor();
 
-  /// @brief Method ReplaceSecondViewController, addr 0x3b01738, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReplaceSecondViewController, addr 0x3b5fa30, size 0xa0, virtual false, abstract: false, final false
   inline void ReplaceSecondViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method SelectAnnotatedBeatmapLevelCollection, addr 0x3b019a4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method SelectAnnotatedBeatmapLevelCollection, addr 0x3b5fcb0, size 0x1fc, virtual false, abstract: false, final false
   inline void SelectAnnotatedBeatmapLevelCollection(::GlobalNamespace::BeatmapLevelPack* levelPack);
 
-  /// @brief Method Setup, addr 0x3b000d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b5eb04, size 0xac, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::SongPackMask songPackMask, ::GlobalNamespace::BeatmapLevelPack* levelPackToBeSelectedAfterPresent,
-                    ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory startLevelCategory, bool hidePacksIfOneOrNone, bool enableCustomLevels);
+                    ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory startLevelCategory, bool hidePacksIfOneOrNone, bool enableCustomLevels);
 
-  /// @brief Method SetupBeatmapLevelPacks, addr 0x3b00180, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method SetupBeatmapLevelPacks, addr 0x3b5ebb0, size 0x3b4, virtual false, abstract: false, final false
   inline void SetupBeatmapLevelPacks();
 
-  /// @brief Method ShowPacksInSecondChildController, addr 0x3b01540, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ShowPacksInSecondChildController, addr 0x3b5f854, size 0x1dc, virtual false, abstract: false, final false
   inline void ShowPacksInSecondChildController(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  /// @brief Method UpdateCustomSongs, addr 0x3b017d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCustomSongs, addr 0x3b5fad0, size 0x8c, virtual false, abstract: false, final false
   inline void UpdateCustomSongs();
 
-  /// @brief Method UpdateSecondChildControllerContent, addr 0x3b00e0c, size 0x17c, virtual false, abstract: false, final false
-  inline void UpdateSecondChildControllerContent(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory levelCategory);
+  /// @brief Method UpdateSecondChildControllerContent, addr 0x3b5f330, size 0x170, virtual false, abstract: false, final false
+  inline void UpdateSecondChildControllerContent(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory levelCategory);
 
-  /// @brief Method <SetupBeatmapLevelPacks>b__39_0, addr 0x3b01ba8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <SetupBeatmapLevelPacks>b__39_0, addr 0x3b5febc, size 0x50, virtual false, abstract: false, final false
   inline bool _SetupBeatmapLevelPacks_b__39_0(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method <SetupBeatmapLevelPacks>b__39_1, addr 0x3b01bf8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <SetupBeatmapLevelPacks>b__39_1, addr 0x3b5ff0c, size 0x50, virtual false, abstract: false, final false
   inline bool _SetupBeatmapLevelPacks_b__39_1(::GlobalNamespace::BeatmapLevelPack* pack);
 
   constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> const& __cordl_internal_get__allBeatmapLevelPacks() const;
@@ -473,21 +461,21 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController>& __cordl_internal_get__annotatedBeatmapLevelCollectionsViewController();
 
+  constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
+
   constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
+  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__currentNoDataInfoPrefab() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__currentNoDataInfoPrefab();
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get__customLevelPacks();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get__customLevelPacks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*> const& __cordl_internal_get__customLevelPacks() const;
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get__customLevelPacks();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__emptyCustomSongListInfoPrefab() const;
 
@@ -501,10 +489,10 @@ public:
 
   constexpr bool& __cordl_internal_get__enableCustomLevels();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory, ::Array<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*> const&
   __cordl_internal_get__enabledLevelCategories() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*>&
+  constexpr ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory, ::Array<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>&
   __cordl_internal_get__enabledLevelCategories();
 
   constexpr bool const& __cordl_internal_get__hidePacksIfOneOrNone() const;
@@ -539,29 +527,29 @@ public:
 
   constexpr ::GlobalNamespace::SongPackMask& __cordl_internal_get__songPackMask();
 
+  constexpr ::System::Action* const& __cordl_internal_get_didCloseBeatmapLevelCollectionsEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_didCloseBeatmapLevelCollectionsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didCloseBeatmapLevelCollectionsEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didOpenBeatmapLevelCollectionsEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didOpenBeatmapLevelCollectionsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didOpenBeatmapLevelCollectionsEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* const& __cordl_internal_get_didPressAllSongsEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>*& __cordl_internal_get_didPressAllSongsEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>*& __cordl_internal_get_didPressAllSongsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>*> const& __cordl_internal_get_didPressAllSongsEvent() const;
+  constexpr ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
+                               ::GlobalNamespace::LevelSelectionOptions>* const&
+  __cordl_internal_get_didSelectBeatmapLevelPackEvent() const;
 
-  constexpr ::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
+  constexpr ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
                                ::GlobalNamespace::LevelSelectionOptions>*&
   __cordl_internal_get_didSelectBeatmapLevelPackEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
-                                                                   ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>*> const&
-  __cordl_internal_get_didSelectBeatmapLevelPackEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* const& __cordl_internal_get_didStartLoadingEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>*& __cordl_internal_get_didStartLoadingEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>*> const& __cordl_internal_get_didStartLoadingEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>*& __cordl_internal_get_didStartLoadingEvent();
 
   constexpr void __cordl_internal_set__allBeatmapLevelPacks(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> value);
 
@@ -584,7 +572,7 @@ public:
   constexpr void __cordl_internal_set__enableCustomLevels(bool value);
 
   constexpr void __cordl_internal_set__enabledLevelCategories(
-      ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value);
+      ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory, ::Array<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*> value);
 
   constexpr void __cordl_internal_set__hidePacksIfOneOrNone(bool value);
 
@@ -606,53 +594,53 @@ public:
 
   constexpr void __cordl_internal_set_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  constexpr void __cordl_internal_set_didPressAllSongsEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
+  constexpr void __cordl_internal_set_didPressAllSongsEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
 
-  constexpr void __cordl_internal_set_didSelectBeatmapLevelPackEvent(::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
+  constexpr void __cordl_internal_set_didSelectBeatmapLevelPackEvent(::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*,
                                                                                         ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
+  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
 
-  /// @brief Method .ctor, addr 0x3b01ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5feb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didCloseBeatmapLevelCollectionsEvent, addr 0x3afff18, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didCloseBeatmapLevelCollectionsEvent, addr 0x3b5e998, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method add_didOpenBeatmapLevelCollectionsEvent, addr 0x3affde0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didOpenBeatmapLevelCollectionsEvent, addr 0x3b5e860, size 0x9c, virtual false, abstract: false, final false
   inline void add_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method add_didPressAllSongsEvent, addr 0x3affc80, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressAllSongsEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
+  /// @brief Method add_didPressAllSongsEvent, addr 0x3b5e700, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didPressAllSongsEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
 
-  /// @brief Method add_didSelectBeatmapLevelPackEvent, addr 0x3aff9c0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectBeatmapLevelPackEvent(::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
-                                                                    ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* value);
+  /// @brief Method add_didSelectBeatmapLevelPackEvent, addr 0x3b5e440, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didSelectBeatmapLevelPackEvent(
+      ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityEngine::GameObject*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  /// @brief Method add_didStartLoadingEvent, addr 0x3affb20, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
+  /// @brief Method add_didStartLoadingEvent, addr 0x3b5e5a0, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
 
-  /// @brief Method get_selectedBeatmapLevelPack, addr 0x3b00050, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedBeatmapLevelPack, addr 0x3b5ead0, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* get_selectedBeatmapLevelPack();
 
-  /// @brief Method get_selectedLevelCategory, addr 0x3b00068, size 0x18, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory get_selectedLevelCategory();
+  /// @brief Method get_selectedLevelCategory, addr 0x3b5eae8, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory get_selectedLevelCategory();
 
-  /// @brief Method remove_didCloseBeatmapLevelCollectionsEvent, addr 0x3afffb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didCloseBeatmapLevelCollectionsEvent, addr 0x3b5ea34, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method remove_didOpenBeatmapLevelCollectionsEvent, addr 0x3affe7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didOpenBeatmapLevelCollectionsEvent, addr 0x3b5e8fc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressAllSongsEvent, addr 0x3affd30, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressAllSongsEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
+  /// @brief Method remove_didPressAllSongsEvent, addr 0x3b5e7b0, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didPressAllSongsEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
 
-  /// @brief Method remove_didSelectBeatmapLevelPackEvent, addr 0x3affa70, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectBeatmapLevelPackEvent(::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
-                                                                       ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* value);
+  /// @brief Method remove_didSelectBeatmapLevelPackEvent, addr 0x3b5e4f0, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didSelectBeatmapLevelPackEvent(
+      ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityEngine::GameObject*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  /// @brief Method remove_didStartLoadingEvent, addr 0x3affbd0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
+  /// @brief Method remove_didStartLoadingEvent, addr 0x3b5e650, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
 
 protected:
   // Ctor Parameters []
@@ -667,6 +655,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LevelFilteringNavigationController(LevelFilteringNavigationController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5344 };
 
   /// @brief Field _emptyFavoritesListInfoPrefab, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____emptyFavoritesListInfoPrefab;
@@ -690,14 +681,14 @@ public:
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// @brief Field didSelectBeatmapLevelPackEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
-                     ::GlobalNamespace::LevelSelectionOptions>* ___didSelectBeatmapLevelPackEvent;
+  ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>*
+      ___didSelectBeatmapLevelPackEvent;
 
   /// @brief Field didStartLoadingEvent, offset: 0xe0, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* ___didStartLoadingEvent;
+  ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* ___didStartLoadingEvent;
 
   /// @brief Field didPressAllSongsEvent, offset: 0xe8, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* ___didPressAllSongsEvent;
+  ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* ___didPressAllSongsEvent;
 
   /// @brief Field didOpenBeatmapLevelCollectionsEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action* ___didOpenBeatmapLevelCollectionsEvent;
@@ -724,7 +715,7 @@ public:
   ::GlobalNamespace::SongPackMask ____songPackMask;
 
   /// @brief Field _enabledLevelCategories, offset: 0x140, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> ____enabledLevelCategories;
+  ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory, ::Array<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*> ____enabledLevelCategories;
 
   /// @brief Field _ostBeatmapLevelPacks, offset: 0x148, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> ____ostBeatmapLevelPacks;
@@ -741,14 +732,9 @@ public:
   /// @brief Field _allBeatmapLevelPacks, offset: 0x168, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> ____allBeatmapLevelPacks;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5320 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilteringNavigationController, 0x170>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController, ____emptyFavoritesListInfoPrefab) == 0xa0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController, ____emptyCustomSongListInfoPrefab) == 0xa8, "Offset mismatch!");
@@ -797,11 +783,13 @@ static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController, __
 
 static_assert(offsetof(::GlobalNamespace::LevelFilteringNavigationController, ____allBeatmapLevelPacks) == 0x168, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelFilteringNavigationController, 0x170>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelFilteringNavigationController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilteringNavigationController*, "", "LevelFilteringNavigationController");
-NEED_NO_BOX(::GlobalNamespace::__LevelFilteringNavigationController____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelFilteringNavigationController____c*, "", "LevelFilteringNavigationController/<>c");
-NEED_NO_BOX(::GlobalNamespace::__LevelFilteringNavigationController____c__DisplayClass53_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelFilteringNavigationController____c__DisplayClass53_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass53_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelFilteringNavigationController___UpdateCustomSongs_d__54, "", "LevelFilteringNavigationController/<UpdateCustomSongs>d__54");
+NEED_NO_BOX(::GlobalNamespace::LevelFilteringNavigationController___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilteringNavigationController___c*, "", "LevelFilteringNavigationController/<>c");
+NEED_NO_BOX(::GlobalNamespace::LevelFilteringNavigationController___c__DisplayClass53_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilteringNavigationController___c__DisplayClass53_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass53_0");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilteringNavigationController__UpdateCustomSongs_d__54, "", "LevelFilteringNavigationController/<UpdateCustomSongs>d__54");
